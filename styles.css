@@ -1,20 +1,37 @@
-html {font-family: sans-serif;}
+
+html {font-family: sans-serif; }
+
 body{background:black;}
-.menus{width:100%; border-top:10px solid #4648E7; border-bottom:10px solid #4648E7;padding:0;margin:auto;
-background: linear-gradient(
+
+.menus{width:100%; border-top:10px solid #4648E7; border-bottom:10px solid #4648E7;
+    margin:auto;
+    background: linear-gradient(
   to bottom,
   #1F3B4C,
   #1F3B4C 50%,
   #1D303D 50%,
   #1D303D
 );
-background-size: 100% 6px;
+    padding-left: 30px;
+    box-sizing:border-box;
+    background-size: 100% 6px;
 }
 
-#header{height: 125px; width:100%; background: linear-gradient(to bottom, #000000,  #19193B, #19193B)}
+#header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B)}
+
+#footer{height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B)}
+
+
+
+#menuheader{border-left:10px double #FFA13E; color:#FFA13E; font-size:35px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+
+
+#footermessage{height: 110px; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
 
 #titleblock{
-    font-size: 72px;
+    font-family: 'Audiowide';
+    font-size: 30px;
+    padding-left:30px;
   background: -webkit-linear-gradient(#322E97, #5C59D8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -24,7 +41,7 @@ ul {
     list-style-type: none;
     padding: 5px;
     display: block;
-    margin-left: 30px;
+
 }
 
 li {
