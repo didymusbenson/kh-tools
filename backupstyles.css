@@ -1,0 +1,147 @@
+
+html {font-family: sans-serif; }
+
+body{background:black;}
+
+.menus{width:100%; border-top:10px solid #4648E7; border-bottom:10px solid #4648E7;
+    margin:auto;
+    background: linear-gradient(
+  to bottom,
+  #1F3B4C,
+  #1F3B4C 50%,
+  #1D303D 50%,
+  #1D303D
+);
+    padding-left: 30px;
+    box-sizing:border-box;
+    background-size: 100% 6px;
+}
+
+#header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B)}
+
+#footer{position:relative; height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B)}
+
+
+
+#menuheader{border-left:10px double #FFA13E; color:#FFA13E; font-size:35px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+
+
+#footermessage{margin-top: 15px;height: 110px; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+
+#munny{position:absolute; padding:30px;font-weight: bold; font-family: 'Ubuntu'; font-size:20px; color:#78362B; }
+
+#munny a{font-size:25px; color:#DEA92E;
+  text-shadow:
+   -2px -2px 0 #78362B,
+    2px -2px 0 #78362B,
+    -2px 2px 0 #78362B,
+     2px 2px 0 #78362B;
+    text-decoration:none;
+    border: 2p solid #78362;
+
+}
+
+#titleblock{
+    font-family: 'Audiowide';
+    font-size: 30px;
+    padding-left:30px;
+  background: -webkit-linear-gradient(#322E97, #5C59D8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    display: block;
+
+}
+
+li {
+    width: 170px;
+    padding: 5px;
+    padding-left: 40px;
+    color: white;
+}
+
+.menu:nth-of-type(1) .submenu {
+    color: white;
+    border-radius: 5px 30px 30px 5px;
+    background: #3652A1;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(20deg, #3652A1, #3652A1, black, black);
+    /* Standard syntax (must be last) */
+    cursor: default;
+}
+
+.menu:nth-of-type(1) .submenu:hover, .menu:nth-of-type(1) .largeWidth {
+    width: 220px;
+    background: #4D68AF;
+    -webkit-box-shadow: inset 0 0 7px 3px #7691BA;
+    box-shadow: inset 0 0 7px 3px #7691BA;
+}
+
+.menu:nth-of-type(2) .submenu {
+    color: white;
+    border-radius: 5px 30px 30px 5px;
+    background: #744E21;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(20deg, #744E21, #744E21, black, black);
+    /* Standard syntax (must be last) */
+    cursor: default;
+}
+
+.menu:nth-of-type(2) .submenu:hover, .menu:nth-of-type(2) .largeWidth {
+    width: 220px;
+    background: #AB7628;
+    -webkit-box-shadow: inset 0 0 7px 3px #DE9E2C;
+    box-shadow: inset 0 0 7px 3px #DE9E2C;
+}
+
+.menu:nth-of-type(3) .submenu {
+    color: white;
+    border-radius: 5px 30px 30px 5px;
+    background: #4C100F;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(20deg, #4C100F, #4C100F, black, black);
+    /* Standard syntax (must be last) */
+    cursor: default;
+}
+
+.menu:nth-of-type(3) .submenu:hover, .menu:nth-of-type(3) .largeWidth {
+    width: 220px;
+    background: #6a2e2d;
+    -webkit-box-shadow: inset 0 0 7px 3px #9c5655;
+    box-shadow: inset 0 0 7px 3px #9c5655;
+}
+
+.menu:nth-of-type(4) .submenu {
+    color: white;
+    border-radius: 5px 30px 30px 5px;
+    background: #004C01;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(20deg, #004C01, #004C01, black, black);
+    /* Standard syntax (must be last) */
+    cursor: default;
+}
+
+.menu:nth-of-type(4) .submenu:hover, .menu:nth-of-type(4) .largeWidth {
+    width: 220px;
+    background: #246924;
+    -webkit-box-shadow: inset 0 0 7px 3px #428742;
+    box-shadow: inset 0 0 7px 3px #428742;
+}
+
+
+
+
+ul .listhead,
+ul .listhead:hover {
+    color: white;
+    box-shadow: none;
+    border-radius: 5px 15px 5px 0px;
+    background: #202427;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}

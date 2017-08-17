@@ -12,14 +12,16 @@ body{background:black;}
   #1D303D 50%,
   #1D303D
 );
+    padding-top:15px;
+    padding-bottom: 15px;
     padding-left: 30px;
     box-sizing:border-box;
     background-size: 100% 6px;
 }
 
-#header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B)}
+#header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B);}
 
-#footer{position:relative; height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B)}
+#footer{position:relative; height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B);}
 
 
 
@@ -52,7 +54,8 @@ body{background:black;}
 
 ul {
     list-style-type: none;
-    padding: 5px;
+    padding-top: 5px;
+    margin:auto;
     display: block;
 
 }
@@ -64,82 +67,28 @@ li {
     color: white;
 }
 
-.menu:nth-child(1) .submenu {
-    color: white;
-    border-radius: 5px 30px 30px 5px;
-    background: #3652A1;
-    /* For browsers that do not support gradients */
-    background: linear-gradient(20deg, #3652A1, #3652A1, black, black);
-    /* Standard syntax (must be last) */
-    cursor: default;
-}
+/* MENU STUFF */
 
-.menu:nth-child(1) .submenu:hover, .menu:nth-child(1) .largeWidth {
+
+.menu:nth-of-type(1) .submenu:hover, .menu:nth-of-type(1) .largeWidth {
     width: 220px;
     background: #4D68AF;
     -webkit-box-shadow: inset 0 0 7px 3px #7691BA;
     box-shadow: inset 0 0 7px 3px #7691BA;
 }
 
-.menu:nth-child(2) .submenu {
-    color: white;
-    border-radius: 5px 30px 30px 5px;
-    background: #744E21;
-    /* For browsers that do not support gradients */
-    background: linear-gradient(20deg, #744E21, #744E21, black, black);
-    /* Standard syntax (must be last) */
-    cursor: default;
+.menu li{border-radius: 9999em; background:#121722; border:4px solid #121722;}
+.menu li:hover{
+    background: linear-gradient(to bottom, #000000,  #49181C);
+    border-color: #C32C1B;
 }
-
-.menu:nth-child(2) .submenu:hover, .menu:nth-child(2) .largeWidth {
-    width: 220px;
-    background: #AB7628;
-    -webkit-box-shadow: inset 0 0 7px 3px #DE9E2C;
-    box-shadow: inset 0 0 7px 3px #DE9E2C;
-}
-
-.menu:nth-child(3) .submenu {
-    color: white;
-    border-radius: 5px 30px 30px 5px;
-    background: #4C100F;
-    /* For browsers that do not support gradients */
-    background: linear-gradient(20deg, #4C100F, #4C100F, black, black);
-    /* Standard syntax (must be last) */
-    cursor: default;
-}
-
-.menu:nth-child(3) .submenu:hover, .menu:nth-child(3) .largeWidth {
-    width: 220px;
-    background: #6a2e2d;
-    -webkit-box-shadow: inset 0 0 7px 3px #9c5655;
-    box-shadow: inset 0 0 7px 3px #9c5655;
-}
-
-.menu:nth-child(4) .submenu {
-    color: white;
-    border-radius: 5px 30px 30px 5px;
-    background: #004C01;
-    /* For browsers that do not support gradients */
-    background: linear-gradient(20deg, #004C01, #004C01, black, black);
-    /* Standard syntax (must be last) */
-    cursor: default;
-}
-
-.menu:nth-child(4) .submenu:hover, .menu:nth-child(4) .largeWidth {
-    width: 220px;
-    background: #246924;
-    -webkit-box-shadow: inset 0 0 7px 3px #428742;
-    box-shadow: inset 0 0 7px 3px #428742;
-}
-
-
 
 
 ul .listhead,
 ul .listhead:hover {
     color: white;
     box-shadow: none;
-    border-radius: 5px 15px 5px 0px;
+    border-radius: 15px;
     background: #202427;
     text-transform: uppercase;
     font-style: italic;
