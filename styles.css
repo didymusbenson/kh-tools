@@ -19,14 +19,27 @@ body{background:black;}
 
 #header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B)}
 
-#footer{height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B)}
+#footer{position:relative; height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B)}
 
 
 
 #menuheader{border-left:10px double #FFA13E; color:#FFA13E; font-size:35px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
 
 
-#footermessage{height: 110px; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+#footermessage{margin-top: 15px;height: 110px; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+
+#munny{position:absolute; padding:30px;font-weight: bold; font-family: 'Ubuntu'; font-size:20px; color:#78362B; }
+
+#munny a{font-size:25px; color:#DEA92E;
+  text-shadow:
+   -2px -2px 0 #78362B,
+    2px -2px 0 #78362B,
+    -2px 2px 0 #78362B,
+     2px 2px 0 #78362B;
+    text-decoration:none;
+    border: 2p solid #78362;
+
+}
 
 #titleblock{
     font-family: 'Audiowide';
