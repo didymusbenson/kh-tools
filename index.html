@@ -14,31 +14,34 @@
 
 <body>
 
-  <script src="./js.js"></script>
+    <script src="./js.js"></script>
 
-  <div id="header">
-      <h1 id="titleblock">KH Tools</h1>
-      <h2 id="menuheader">Menu Name</h2>
+    <div id="header">
+        <h1 id="titleblock">ADB</h1>
+        <h2 id="menuheader">Kingdom Hearts Reference</h2>
     </div>
-  <div class="menus">
-      <div ng-controller="mainController">
-          <div id="main">
-            <ul ng-repeat="item in menus" class="menu">
-              <li>{{item}}</li>
-              </ul>
-          </div>
-          </div>
-    <ul class="menu">
-        <li class="listhead">EXAMPLE
-        <li class="submenu"> Synthesis Lists
-        <li class="submenu"> Synthesis Calculator
-        <li class="submenu"> Enemy Item Drops
-    </ul>
+    <div class="menus">
+        <div id="menusleft">
+        <div ng-controller="mainController">
+            <div id="main">
+                <!--            {{message}}-->
+                <ul ng-repeat="item in menus" class="menu">
+                    <li id="{{item.id}}"><div class="navi" ></div>{{item.name}} </li>
+                </ul>
+            </div>
+        </div>
+        </div>
 
-      </div>
-<div id="footer">
-    <div id="munny">donate munny <a href="#">here</a></div>
-    <div id="footermessage">Replace this text with relevant information.</div>
+        <div id="menusright">
+            <div id="defaultright"><p>test test test</p></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="munny">donate munny <a href="paypal.me/theonlydidymus">here</a></div>
+
+        <div id="footermessage">Replace this text with relevant information.</div>
     </div>
 </body>
+
 </html>
+

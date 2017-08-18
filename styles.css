@@ -1,36 +1,60 @@
-
+/*NEED A MEDIA SCREEN FOR 879px wide*/
 html {font-family: sans-serif; }
 
 body{background:black;}
 
 .menus{width:100%; border-top:10px solid #4648E7; border-bottom:10px solid #4648E7;
     margin:auto;
-    background: linear-gradient(
-  to bottom,
-  #1F3B4C,
-  #1F3B4C 50%,
-  #1D303D 50%,
-  #1D303D
-);
+    background: linear-gradient(  to bottom,  #1F3B4C,  #1F3B4C 50%,  #1D303D 50%,  #1D303D);
+    min-height:400px;
     padding-top:15px;
     padding-bottom: 15px;
     padding-left: 30px;
     box-sizing:border-box;
     background-size: 100% 6px;
-}
+    position:relative;
 
+}
+#menusleft{
+    z-index:1;
+    float:left;
+    width:290px;
+    max-width:290px;
+    overflow:hidden;
+}
+#menusright{
+    z-index:-1;
+
+       margin-right:15px;
+    width:calc(100% - 320px);
+    float:left;
+
+}
+#defaultright{
+
+
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+    font-family:'Orbitron';
+    border:4px solid #242560;
+    background: #171834;
+    min-height: calc(400px - 70px);
+    min-width: 450px;
+    width:50vw;
+}
 #header{height: 125px; width:100%; box-sizing:border-box; padding:0;margin:auto; background: linear-gradient(to bottom, #000000,  #19193B, #19193B);}
 
 #footer{position:relative; height: 125px; width:100%; box-sizing:border-box; padding:0; float:left; margin:auto; background: linear-gradient(to top, #000000,  #19193B, #19193B);}
 
 
 
-#menuheader{border-left:10px double #FFA13E; color:#FFA13E; font-size:35px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+#menuheader{border-left:10px double #FFA13E; color:#FFA13E; font-size:35px; font-family:'Orbitron'; margin-left:315px; padding-left:15px; max-height:44px; overflow:hidden;}
 
 
-#footermessage{margin-top: 15px;height: 110px; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:250px; padding-left:15px;}
+#footermessage{margin-top: 15px;height:110px;max-height: 110px;overflow:hidden; border-left:10px double #444478; color:#5A84DB; font-size:25px; font-family:'Orbitron'; margin-left:315px; padding-left:70px;}
 
-#munny{position:absolute; padding:30px;font-weight: bold; font-family: 'Ubuntu'; font-size:20px; color:#78362B; }
+#munny{position:absolute; padding:30px; padding-left:70px;font-weight: bold; font-family: 'Ubuntu'; font-size:20px; color:#78362B; }
 
 #munny a{font-size:25px; color:#DEA92E;
   text-shadow:
@@ -46,11 +70,14 @@ body{background:black;}
 #titleblock{
     font-family: 'Audiowide';
     font-size: 30px;
-    padding-left:30px;
+    padding-left:70px;
   background: -webkit-linear-gradient(#322E97, #5C59D8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.menu ul li:first-child:hover + #test.navi{visibility:visible;}
 
 ul {
     list-style-type: none;
@@ -61,9 +88,9 @@ ul {
 }
 
 li {
-    width: 170px;
+    width: 200px;
     padding: 5px;
-    padding-left: 40px;
+    padding-left: 20px;
     color: white;
 }
 
@@ -71,7 +98,7 @@ li {
 
 .menu{position:relative;}
 
-.menu li{border-radius: 9999em; background:#121722; border:4px solid #121722;}
+.menu li{border-radius: 9999em; background:#121722; border:4px solid #121722; font-family:'Orbitron'}
 .menu li:hover{
     background: linear-gradient(to bottom, #000000,  #49181C);
     border-color: #C32C1B;
@@ -87,7 +114,7 @@ li:hover .navi, li.hover .navi{
     visibility:visible;
     float:right;
     position:absolute;
-    margin-left:185px;
+    margin-left:210px;
     margin-top:-10px;
 	width: 8px;
 	height: 8px;
