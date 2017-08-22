@@ -1,11 +1,7 @@
 /*NEED A MEDIA SCREEN FOR 879px wide*/
 
-html {
-    font-family: sans-serif;
-}
-body {
-    background: black;
-}
+html {   font-family: sans-serif;}
+body {   background: black;}
 .menus {
     width: 100%;
     border-top: 10px solid #4648E7;
@@ -84,6 +80,22 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#gamename{
+    position:absolute;
+        z-index:1;
+    border-radius: 9999em;
+    background: #580B0E;
+    border: 4px solid #580B0E;
+    font-family: 'Orbitron';
+        padding:5px;
+   padding-left:20px;
+    color:white;
+    width:200px;
+     margin: 10px;
+    margin-left:40px;
+    font-size:16px;
+    font-weight:bold;
+}
 .menu ul li:first-child:hover + #test.navi {
     visibility: visible;
 }
@@ -98,18 +110,34 @@ ul {
     padding: 5px;
     padding-left: 20px;
     color: white;
+     margin: 10px;
 }
 
-/* MENU STUFF */
 
-.menu {
+.gamemenu:hover:before{
+
+    content: '';
+
+    width:calc(100% - 70px);
+    position:absolute;
+    transform:translateY(27px);
+    z-index:0;
+     border-top:5px solid #0EB4F7;
+}
+
+.menu, .gamemenu {
     display: flex;
 }
-.menu .listfix {
+.menu .listfix, .gamemenu .listfix {
+    z-index:1;
     border-radius: 9999em;
     background: #121722;
     border: 4px solid #121722;
     font-family: 'Orbitron'
+}
+.gamemenu .listfix:hover{
+    border: 4px solid #0EB4F7;
+    background: linear-gradient(to bottom, #000000, #055BE2);
 }
 .menu .listfix:hover {
     background: linear-gradient(to bottom, #000000, #49181C);
@@ -118,9 +146,7 @@ ul {
 .navi {
     visibility: hidden;
 }
-.listfix {
-    margin: 10px;
-}
+
 .listfix + img {
     height: 200px;
     position: absolute;

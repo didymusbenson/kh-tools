@@ -1,0 +1,411 @@
+<!doctype html>
+
+<html lang="en" ng-app="khApp">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>KH TOOLS</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron|Ubuntu:700i" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+
+    <link rel="stylesheet" href="../modal.css">
+</head>
+
+<body>
+
+
+
+    <div id="header">
+        <h1 id="titleblock">ADB</h1>
+        <div id="gamename">KH: Final Mix</div>
+        <h3 id="menuheader">Kingdom Hearts Reference</h3>
+
+    </div>
+    <div class="menus">
+
+        <div>
+            <div id="main">
+                <!--            {{message}}-->
+                <div class="gamemenu">
+                    <div class="listfix" id="khfm">
+                        <a href="#">Synthesis Sets</a> </div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Synthesis Items</a> </div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Trinity Locations</a> </div>
+                </div>
+                <div class="gamemenu">
+                    <div class="listfix" id="kh2fm">
+                        <a href="#">Postcards</a> </div>
+                    <div class="listfix" id="kh2fm">
+                        <a href="#">Dalmations</a> </div>
+                    <div class="listfix" id="kh2fm">
+                        <a href="#">Magic Unlocks</a> </div>
+                </div>
+                <div class="gamemenu">
+                    <div class="listfix" id="khfm">
+                        <a href="#">Equipment</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Torn Pages</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Bestiary</a></div>
+                </div>
+                <div class="gamemenu">
+                    <div class="listfix" id="khfm">
+                        <a href="#">EXP Table (Sora)</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Level Up Table (sora)</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">Tournaments</a></div>
+                </div>
+                <div class="gamemenu">
+                    <div class="listfix" id="khfm">
+                        <a href="#modal-one">TEST ONE</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">TEST TWO</a></div>
+                    <div class="listfix" id="khfm">
+                        <a href="#">TEST THREE</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popuptable">
+            <!-- Modal -->
+            <div class="modal" id="modal-one" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Synthesis Items Needed</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+
+                                    <th>ITEM</th>
+                                    <th>#</th>
+                                    <th>OBTAINED FROM</th>
+                                    <th>LOCATION</th>
+                                    <th>STRATEGY</th>
+                                </tr>
+                                <tr>
+
+                                    <td>Blaze Gem</td>
+                                    <td>10</td>
+                                    <td>Bandit / Fat Bandit</td>
+                                    <td>Agrabah</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Blaze Shard</td>
+                                    <td>12</td>
+                                    <td>Red Nocturne</td>
+                                    <td>Monstro</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Blazing Stone</td>
+                                    <td>7</td>
+                                    <td>Chimera</td>
+                                    <td>Halloween Town</td>
+                                    <td>Knock the heads away from the body to get more stones!</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Bright Crystal</td>
+                                    <td>4</td>
+                                    <td>Defender</td>
+                                    <td>Traverse Town / Holllow Bastion</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Bright Gem</td>
+                                    <td>8</td>
+                                    <td>Search Ghost</td>
+                                    <td>Traverse Town</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Bright Shard</td>
+                                    <td>13</td>
+                                    <td>Green Requiem</td>
+                                    <td>Deep Jungle / Hollow Bastion</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Dazzling Stone</td>
+                                    <td>6</td>
+                                    <td>Jet Balloon</td>
+                                    <td>Neverland</td>
+                                    <td>
+                                        <div>Cast Aeroga on yourself so they can't hit you, use Treasure Magnets to grab the items</div>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>Dark Matter</td>
+                                    <td>14</td>
+                                    <td>Treasure / Synthesis</td>
+                                    <td>Treasure / Synthesis</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Energy Stone</td>
+                                    <td>6</td>
+                                    <td>Stealth Soldier</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>
+                                        <div>In the area where you fought Riku. They're invisible and fast. Just fight, block, Aeroga etc.</div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Frost Gem</td>
+                                    <td>10</td>
+                                    <td>
+                                        <div>Sea Neon / Sheltering Zone</div>
+                                    </td>
+                                    <td>Atlantica</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Frost Shard</td>
+                                    <td>10</td>
+                                    <td>Blue Rhapsody</td>
+                                    <td>
+                                        <div>Wonderland / Monstro / Hollow Bastion</div>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Frost Stone</td>
+                                    <td>7</td>
+                                    <td>Grand Ghost</td>
+                                    <td>Monstro</td>
+                                    <td>
+                                        <div>You have to use healing items to hurt it. 1 Elixer and 2 Hi Potions or 5ish Hi Potions</div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Fury Stone</td>
+                                    <td>5</td>
+                                    <td>Gigas Shadow</td>
+                                    <td>Wonderland</td>
+                                    <td>Do not let them hit Sora, or they will disappear. Use Aeroga and Strike Raid</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Gale</td>
+                                    <td>8</td>
+                                    <td>Angel Star / Invisible</td>
+                                    <td>End of the World</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Lightning Stone</td>
+                                    <td>5</td>
+                                    <td>Black Ballad</td>
+                                    <td>Deep Jungle</td>
+                                    <td>Shell Game</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Lucid Crystal</td>
+                                    <td>9</td>
+                                    <td>Darkball</td>
+                                    <td>Everywhere</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Lucid Gem</td>
+                                    <td>13</td>
+                                    <td>Gargoyle / Wight Knight</td>
+                                    <td>Halloween Town</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Lucid Shard</td>
+                                    <td>37</td>
+                                    <td>Shadow</td>
+                                    <td>Wonderland</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mystery Goo</td>
+                                    <td>10</td>
+                                    <td>(mushrooms)</td>
+                                    <td>Everywhere</td>
+                                    <td>
+                                        <div>For White Mushrooms, do the same spell 3 times in a row. Black ones need critical hits.</div>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mythril</td>
+                                    <td>17</td>
+                                    <td>Treasure / Synthesis</td>
+                                    <td>Treasure / Synthesis</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mythril shard</td>
+                                    <td>12</td>
+                                    <td>Barrel Spider / Pot Spider</td>
+                                    <td>Agrabah / Monstro</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Mythril Stone</td>
+                                    <td>8</td>
+                                    <td>Pot Scorpion</td>
+                                    <td>Agrabah</td>
+                                    <td>Smash the pots that don't move first, then hit the last pot</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Orichalcum</td>
+                                    <td>18</td>
+                                    <td>
+                                        <div>Treasure / Synthesis / Shops</div>
+                                    </td>
+                                    <td>Treasure / Synthesis / Shops</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Power Crystal</td>
+                                    <td>3</td>
+                                    <td>Wyvern</td>
+                                    <td>Traverse Town / Hollow Bastion</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Power Gem</td>
+                                    <td>11</td>
+                                    <td>
+                                        <div>Pirate / Air Pirate / Battleship</div>
+                                    </td>
+                                    <td>Neverland</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Power Shard</td>
+                                    <td>13</td>
+                                    <td>Bouncywild / Powerwild</td>
+                                    <td>Deep Jungle</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Power Stone</td>
+                                    <td>5</td>
+                                    <td>Sniperwild</td>
+                                    <td>Traverse Town</td>
+                                    <td>Don't let them see you!</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Serenity Power</td>
+                                    <td>7</td>
+                                    <td>Ping Agaricus</td>
+                                    <td>Deep Jungle / Atlantica</td>
+                                    <td>
+                                        <div>Aeroga Sora, use stop, target head, use ragnarok and other combos to get high numbers!</div>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Shiny Crystal</td>
+                                    <td>3</td>
+                                    <td>Wizard</td>
+                                    <td>Everywhere</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Spirit Gem</td>
+                                    <td>7</td>
+                                    <td>Air Soldier</td>
+                                    <td>Traverse Town / Hollow Bastion</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Spirit Shard</td>
+                                    <td>13</td>
+                                    <td>Large Body / Soldier</td>
+                                    <td>Hollow Bastion</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Stormy Stone</td>
+                                    <td>4</td>
+                                    <td>Neo Shadow</td>
+                                    <td>End of the World</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Thunder Gem</td>
+                                    <td>15</td>
+                                    <td>Aquatank / Screwdriver</td>
+                                    <td>Atlantica</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Thunder Shard</td>
+                                    <td>12</td>
+                                    <td>Yellow Opera</td>
+                                    <td>Wonderland / Neverland</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>"#" refers to the number of the items needed to complete Moogle Synthesis. More information about how to defeat the heartless is found in the bestiary.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /Modal -->
+
+        </div>
+
+    </div>
+    <div id="footer">
+
+        <div id="munny">Donate munny <a href="http://paypal.me/theonlydidymus">here</a>
+            <br>Meet the <a href=#>dev</a></div>
+
+
+        <div id="footermessage">Choose a game to access reference information.</div>
+    </div>
+</body>
+
+</html>
