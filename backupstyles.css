@@ -41,6 +41,8 @@ body{background:black;}
 
 }
 
+.menu div + img{position:absolute; right:30px;}
+
 #titleblock{
     font-family: 'Audiowide';
     font-size: 30px;
@@ -57,7 +59,7 @@ ul {
 
 }
 
-li {
+.listfix {
     width: 170px;
     padding: 5px;
     padding-left: 40px;
