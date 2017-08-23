@@ -1,9 +1,6 @@
 
 /* BUTTON */
-
-.btn:hover {
-  background: #357ebd;
-}
+.btn:hover {background: #357ebd;}
 .btn-close {
   color: #aaa;
   font-size: 30px;
@@ -12,9 +9,7 @@
   right: 15px;
   top: 0;
 }
-.btn-close:hover {
-  color: #919191;
-}
+.btn-close:hover {color: #919191;}
 /* END BUTTON */
 
 /* MODAL */
@@ -29,9 +24,7 @@
   bottom: 0;
   z-index: 10;
 }
-.modal:target:before {
-  display: block;
-}
+.modal:target:before {display: block;}
 .modal:target .modal-dialog {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -39,13 +32,10 @@
   left:15vw;
 }
 .modal-dialog {
-/*  background: #fefefe;*/
-
-
-/*  margin-left: -200px;*/
+  margin-left: 0px;
+    left:15vw;
   position: fixed;
-  left: 100%;
-  top: 10%;
+  top: 10vh;
   z-index: 11;
   width: 70vw;
   -webkit-transform: translate(500%, 0);
@@ -58,19 +48,18 @@
 }
 .modal-body {
     color: white;
-    padding:0px 20px;
-    max-height:400px;
+    padding:0px 0px 0px 20px;
+    max-height:70vh;
     overflow:auto;
+    margin-right:20px;
 }
-
 .modal-header {
     border-radius:9999em;
     background:#004AFF;
-}
-.modal-header {
-    padding:5px;
+        padding:5px;
   border-top: #eee solid 1px;
 }
+
 .modal-header p{
     margin:0 auto;
     color:white;
@@ -105,5 +94,8 @@ tr:nth-child(odd){background-color:#1D3544;}
 tr th{
 max-width:100%;
 white-space:nowrap;
+    font-family:'Ubuntu';
+        font-size:20px;
 }
+
 

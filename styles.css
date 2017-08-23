@@ -2,6 +2,24 @@
 
 html {   font-family: sans-serif;}
 body {   background: black;}
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+    border-radius:15px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
 .menus {
     width: 100%;
     border-top: 10px solid #4648E7;
