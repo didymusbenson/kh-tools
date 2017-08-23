@@ -102,4 +102,13 @@ tr [colspan="7"]{
     font-size:25px;
 
 }
+tr th[colspan="2"]{
+    text-align:center;
+    font-size:25px;
+    border-top:3px solid white;
+}
 
+tr td[colspan="2"]{
+   width:90%;
+    padding-left:10%;
+}
