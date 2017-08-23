@@ -19,7 +19,9 @@ body {   background: black;}
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
+#legalstuff{
 
+}
 .menus {
     width: 100%;
     border-top: 10px solid #4648E7;
@@ -30,6 +32,7 @@ body {   background: black;}
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 30px;
+    padding-right:30px;
     box-sizing: border-box;
     background-size: 100% 6px;
     position: relative;
@@ -62,6 +65,7 @@ body {   background: black;}
     max-height: 44px;
     overflow: hidden;
 }
+
 #footermessage {
     margin-top: 15px;
     height: 110px;
@@ -90,7 +94,8 @@ body {   background: black;}
     text-decoration: none;
     border: 2p solid #78362;
 }
-#titleblock {
+#titleblock a{
+    text-decoration:none;
     font-family: 'Audiowide';
     font-size: 30px;
     padding-left: 70px;
@@ -199,6 +204,61 @@ ul {
 }
 #legalcrap a{position:absolute; right: 0; bottom:0; color:white; text-decoration:none;font-style:italic;}
 .listfix a{ text-decoration:none; color:white; display:block;}
+
+
+/* LEGAL STUFF */
+.legal-body {
+    color: white;
+
+    overflow:auto;
+    margin-left: 20px;
+    margin-right:20px;
+    border-left: 5px solid #004AFF;
+    border-right: 5px solid #004AFF;
+    background-color: #010208;
+    background:linear-gradient( to bottom, #000000, #001B5C);
+    padding: 20px;
+
+}
+.legal-header {
+    border-radius:9999em;
+    background:#004AFF;
+        padding:5px;
+  border-top: #eee solid 1px;
+}
+
+.legal-header p{
+    margin:0 auto;
+    color:white;
+    font-family:'Orbitron';
+    text-align:center;
+  font-size: 18px;
+}
+.legal-footer {
+    border: 5px solid #004AFF;
+    padding: 5px;
+    border-radius:15px;
+    background-color: #010208;
+    background:linear-gradient( to bottom, #000000, #001B5C);
+}
+.legal-footer p{
+    color:white;
+    margin:auto;
+        width:80%;
+    margin-left:10%;
+      text-align: left;
+    font-family:'Orbitron';
+}
+.legal-body p {
+    margin:auto;
+    margin-top:10px;
+}
+.legal-body a{
+    color:white;
+}
+/***********************************************************************************
+********* ANIMATIONS ***************************************************************
+***********************************************************************************/
 @keyframes dance {
     0% {
         transform: translate(-1px, 0px);
