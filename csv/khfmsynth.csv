@@ -1,0 +1,34 @@
+SET #,ITEM NAME,INGREDIENTS
+1,Mega Potion,1 Spirit Shard 1 Power Shard 4 Mythril Shard
+1,Cottage,1 Lucid Shard 1 Bright Shard
+1,Energy Bangle,2 Spirit Shard 1 Bright Shard
+1,Power Chain,2 Power Shard 1 Lucid Shard
+1,Magic Armlet,3 Blaze Shard 3 Frost Shard 3 Thunder Shard
+1,EXP Earring*,1 Fury Stone 1 Power Stone 1 Mythril Stone 1 Serenity Power 3 Dark Matter
+2,Mega-Ether,1 Blaze Shard 1 Frost Shard 1 Thunder Shard 2 Mythril
+2,Guard Earring,3 Bright Shard 1 Frost Shard 3 Mythril Shard
+2,Angel Bangle,3 Thunder Shard 1 Bright Gem
+2,Golem Chain,3 Blaze Shard 1 Spirit Gem
+2,Rune Armlet,3 Blaze Gem 3 Frost Gem 3 Thunder Gem
+2,Moogle Badge*,1 Blazing Stone 1 Frost Stone 1 Lightning Stone 5 Mythril 3 Orichalcum
+3,Ap Up,2 Blaze Gem 2 Frost Gem 2 Thunder Gem 4 Mythril
+3,Dark Ring,2 Lucid Gem 2 Bright Gem
+3,Master Earring,5 Spirit Shard 3 Spirit Gem 1 Fury Stone
+3,Gaia Bangle,5 Lucid Shard 3 Lucid Gem 1 Lightning Stone
+3,Titan Chain,5 Power Shard 3 Power Gem 1 Power Stone
+3,Mythril,5 Mythril Shard 1 Mythril Stone 1 Mystery Goo
+4,Elixir,1 Power Crystal 1 Shiny Crystal 2 Bright Crystal 3 Orichalcum
+4,Defense Up,3 Lucid Shard 3 Bright Shard 2 Bright Gem 1 Power Crystal 5 Orichalcum
+4,Heartgaurd,3 Lucid Gem 1 Lucid Crystal 1 Bright Crystal
+4,Three Stars,1 Power Gem 3 Mystery Goo 1 Shiny Crystal
+4,Atlas Armlet,5 Blaze Shard 5 Frost Shard 5 Thunder Shard 1 Mystery Goo 3 Dark Matter
+4,Crystal Crown,5 Lucid Crystal 1 Power Crystal 1 Shiny Crystal 3 Blazing Stone 3 Frost Stone
+5,Dark Matter,9 Lucid Shard 1 Gale 2 Mythril
+5,Megalixir,5 Lucid Gem 3 Lucid Crystal 2 Gale 1 Dark Matter
+5,Power Up,5 Spirit Shard 3 Spirit Gem 5 Power Shard 3 Power Gem 1 Dark Matter
+5,Cosmic Arts,5 Bright Shard 3 Bright Gem 1 Bright Crystal 3 Mythril Stone
+5,EXP Bracelet,1 Energy Stone 1 Dazzling Stone 1 Stormy Stone 8 Orichalcum 3 Dark Matter
+5,Ribbon,5 Blaze Gem 5 Frost Gem 5 Thunder Gem 1 Gale 3 Serenity Power
+6,Fantasista,3 Fury Stone 3 Power Stone 3 Mythril Stone 5 Energy Stone
+6,Seven Elements,3 Blazing Stone 3 Frost Stone 3 Lightning Stone 5 Dazzling Stone
+6,Ultima Weapon,5 Thunder Gem 5 Mystery Goo 3 Serenity Power 3 Stormy Stone 3 Dark Matter

@@ -8,13 +8,10 @@
     <title>KH TOOLS</title>
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron|Ubuntu:700i" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
-
     <link rel="stylesheet" href="../modal.css">
 </head>
 
 <body>
-
-
 
     <div id="header">
         <h1 id="titleblock">ADB</h1>
@@ -28,51 +25,231 @@
             <div id="main">
                 <!--            {{message}}-->
                 <div class="gamemenu">
+                    <div class="listfix">
+                        <a href="#khfmsynth">Synthesis Sets</a> </div>
+                    <div class="listfix">
+                        <a href="#khfmsynthitems">Synthesis Items</a> </div>
                     <div class="listfix" id="khfm">
-                        <a href="#">Synthesis Sets</a> </div>
-                    <div class="listfix" id="khfm">
-                        <a href="#">Synthesis Items</a> </div>
-                    <div class="listfix" id="khfm">
-                        <a href="#">Trinity Locations</a> </div>
+                        <a href="#khfmtrinity">Trinity Locations</a> </div>
                 </div>
                 <div class="gamemenu">
                     <div class="listfix" id="kh2fm">
-                        <a href="#">Postcards</a> </div>
+                        <a href="#khfmpostcards">Postcards</a> </div>
                     <div class="listfix" id="kh2fm">
-                        <a href="#">Dalmations</a> </div>
+                        <a href="#khfmdalmations">Dalmations</a> </div>
                     <div class="listfix" id="kh2fm">
-                        <a href="#">Magic Unlocks</a> </div>
+                        <a href="#khfmmagic">Magic Unlocks</a> </div>
                 </div>
                 <div class="gamemenu">
                     <div class="listfix" id="khfm">
-                        <a href="#">Equipment</a></div>
+                        <a href="#khfmequipment">Equipment (todo)</a></div>
                     <div class="listfix" id="khfm">
-                        <a href="#">Torn Pages</a></div>
+                        <a href="#khfmpages">Torn Pages</a></div>
                     <div class="listfix" id="khfm">
-                        <a href="#">Bestiary</a></div>
+                        <a href="#khfmbestiary">Bestiary (todo)</a></div>
                 </div>
                 <div class="gamemenu">
                     <div class="listfix" id="khfm">
-                        <a href="#">EXP Table (Sora)</a></div>
+                        <a href="#khfmexp">EXP Table (Sora)</a></div>
                     <div class="listfix" id="khfm">
-                        <a href="#">Level Up Table (sora)</a></div>
+                        <a href="#khfmlevels">Level Up Stats (Sora)</a></div>
                     <div class="listfix" id="khfm">
-                        <a href="#">Tournaments</a></div>
-                </div>
-                <div class="gamemenu">
-                    <div class="listfix" id="khfm">
-                        <a href="#modal-one">TEST ONE</a></div>
-                    <div class="listfix" id="khfm">
-                        <a href="#">TEST TWO</a></div>
-                    <div class="listfix" id="khfm">
-                        <a href="#">TEST THREE</a></div>
+                        <a href="#khfmtournaments">Tournaments</a></div>
                 </div>
             </div>
         </div>
 
-        <div class="popuptable">
+        <div id="modals">
             <!-- Modal -->
-            <div class="modal" id="modal-one" aria-hidden="true">
+            <div class="modal" id="khfmsynth" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Moogle Synthesis Sets</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>SET #</th>
+                                    <th>ITEM NAME</th>
+                                    <th>INGREDIENTS</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Mega Potion</td>
+                                    <td>1 Spirit Shard 1 Power Shard 4 Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Cottage</td>
+                                    <td>1 Lucid Shard 1 Bright Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Energy Bangle</td>
+                                    <td>2 Spirit Shard 1 Bright Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Power Chain</td>
+                                    <td>2 Power Shard 1 Lucid Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Magic Armlet</td>
+                                    <td>3 Blaze Shard 3 Frost Shard 3 Thunder Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>EXP Earring</td>
+                                    <td>1 Fury Stone 1 Power Stone 1 Mythril Stone 1 Serenity Power 3 Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Mega-Ether</td>
+                                    <td>1 Blaze Shard 1 Frost Shard 1 Thunder Shard 2 Mythril</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Guard Earring</td>
+                                    <td>3 Bright Shard 1 Frost Shard 3 Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Angel Bangle</td>
+                                    <td>3 Thunder Shard 1 Bright Gem</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Golem Chain</td>
+                                    <td>3 Blaze Shard 1 Spirit Gem</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Rune Armlet</td>
+                                    <td>3 Blaze Gem 3 Frost Gem 3 Thunder Gem</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Moogle Badge</td>
+                                    <td>1 Blazing Stone 1 Frost Stone 1 Lightning Stone 5 Mythril 3 Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Ap Up</td>
+                                    <td>2 Blaze Gem 2 Frost Gem 2 Thunder Gem 4 Mythril</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Dark Ring</td>
+                                    <td>2 Lucid Gem 2 Bright Gem</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Master Earring</td>
+                                    <td>5 Spirit Shard 3 Spirit Gem 1 Fury Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Gaia Bangle</td>
+                                    <td>5 Lucid Shard 3 Lucid Gem 1 Lightning Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Titan Chain</td>
+                                    <td>5 Power Shard 3 Power Gem 1 Power Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Mythril</td>
+                                    <td>5 Mythril Shard 1 Mythril Stone 1 Mystery Goo</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Elixir</td>
+                                    <td>1 Power Crystal 1 Shiny Crystal 2 Bright Crystal 3 Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Defense Up</td>
+                                    <td>3 Lucid Shard 3 Bright Shard 2 Bright Gem 1 Power Crystal 5 Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Heartgaurd</td>
+                                    <td>3 Lucid Gem 1 Lucid Crystal 1 Bright Crystal</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Three Stars</td>
+                                    <td>1 Power Gem 3 Mystery Goo 1 Shiny Crystal</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Atlas Armlet</td>
+                                    <td>5 Blaze Shard 5 Frost Shard 5 Thunder Shard 1 Mystery Goo 3 Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Crystal Crown</td>
+                                    <td>5 Lucid Crystal 1 Power Crystal 1 Shiny Crystal 3 Blazing Stone 3 Frost Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Dark Matter</td>
+                                    <td>9 Lucid Shard 1 Gale 2 Mythril</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Megalixir</td>
+                                    <td>5 Lucid Gem 3 Lucid Crystal 2 Gale 1 Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Power Up</td>
+                                    <td>5 Spirit Shard 3 Spirit Gem 5 Power Shard 3 Power Gem 1 Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Cosmic Arts</td>
+                                    <td>5 Bright Shard 3 Bright Gem 1 Bright Crystal 3 Mythril Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>EXP Bracelet</td>
+                                    <td>1 Energy Stone 1 Dazzling Stone 1 Stormy Stone 8 Orichalcum 3 Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Ribbon</td>
+                                    <td>5 Blaze Gem 5 Frost Gem 5 Thunder Gem 1 Gale 3 Serenity Power</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Fantasista</td>
+                                    <td>3 Fury Stone 3 Power Stone 3 Mythril Stone 5 Energy Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Seven Elements</td>
+                                    <td>3 Blazing Stone 3 Frost Stone 3 Lightning Stone 5 Dazzling Stone</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Ultima Weapon</td>
+                                    <td>5 Thunder Gem 5 Mystery Goo 3 Serenity Power 3 Stormy Stone 3 Dark Matter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Sets are unlocked as you create new synthesis items. Set 2 unlocks after making 3 items. The third set after making 9, the fourth after 15, fifth after 21, and the sixth set requires you to synthesize all 30 previous items. See "Synthesis Items" to find where to get them. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+            <div class="modal" id="khfmsynthitems" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-header">
                         <p>Synthesis Items Needed</p>
@@ -82,7 +259,6 @@
                         <table>
                             <tbody>
                                 <tr>
-
                                     <th>ITEM</th>
                                     <th>#</th>
                                     <th>OBTAINED FROM</th>
@@ -90,7 +266,6 @@
                                     <th>STRATEGY</th>
                                 </tr>
                                 <tr>
-
                                     <td>Blaze Gem</td>
                                     <td>10</td>
                                     <td>Bandit / Fat Bandit</td>
@@ -98,7 +273,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Blaze Shard</td>
                                     <td>12</td>
                                     <td>Red Nocturne</td>
@@ -106,7 +280,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Blazing Stone</td>
                                     <td>7</td>
                                     <td>Chimera</td>
@@ -114,7 +287,6 @@
                                     <td>Knock the heads away from the body to get more stones!</td>
                                 </tr>
                                 <tr>
-
                                     <td>Bright Crystal</td>
                                     <td>4</td>
                                     <td>Defender</td>
@@ -122,7 +294,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Bright Gem</td>
                                     <td>8</td>
                                     <td>Search Ghost</td>
@@ -130,7 +301,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Bright Shard</td>
                                     <td>13</td>
                                     <td>Green Requiem</td>
@@ -138,7 +308,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Dazzling Stone</td>
                                     <td>6</td>
                                     <td>Jet Balloon</td>
@@ -148,7 +317,6 @@
                                     </td>
                                 </tr>
                                 <tr>
-
                                     <td>Dark Matter</td>
                                     <td>14</td>
                                     <td>Treasure / Synthesis</td>
@@ -156,7 +324,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Energy Stone</td>
                                     <td>6</td>
                                     <td>Stealth Soldier</td>
@@ -167,7 +334,6 @@
 
                                 </tr>
                                 <tr>
-
                                     <td>Frost Gem</td>
                                     <td>10</td>
                                     <td>
@@ -177,7 +343,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Frost Shard</td>
                                     <td>10</td>
                                     <td>Blue Rhapsody</td>
@@ -187,7 +352,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Frost Stone</td>
                                     <td>7</td>
                                     <td>Grand Ghost</td>
@@ -195,19 +359,15 @@
                                     <td>
                                         <div>You have to use healing items to hurt it. 1 Elixer and 2 Hi Potions or 5ish Hi Potions</div>
                                     </td>
-
                                 </tr>
                                 <tr>
-
                                     <td>Fury Stone</td>
                                     <td>5</td>
                                     <td>Gigas Shadow</td>
                                     <td>Wonderland</td>
                                     <td>Do not let them hit Sora, or they will disappear. Use Aeroga and Strike Raid</td>
-
                                 </tr>
                                 <tr>
-
                                     <td>Gale</td>
                                     <td>8</td>
                                     <td>Angel Star / Invisible</td>
@@ -215,7 +375,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Lightning Stone</td>
                                     <td>5</td>
                                     <td>Black Ballad</td>
@@ -223,7 +382,6 @@
                                     <td>Shell Game</td>
                                 </tr>
                                 <tr>
-
                                     <td>Lucid Crystal</td>
                                     <td>9</td>
                                     <td>Darkball</td>
@@ -231,7 +389,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Lucid Gem</td>
                                     <td>13</td>
                                     <td>Gargoyle / Wight Knight</td>
@@ -239,7 +396,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Lucid Shard</td>
                                     <td>37</td>
                                     <td>Shadow</td>
@@ -247,7 +403,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Mystery Goo</td>
                                     <td>10</td>
                                     <td>(mushrooms)</td>
@@ -257,7 +412,6 @@
                                     </td>
                                 </tr>
                                 <tr>
-
                                     <td>Mythril</td>
                                     <td>17</td>
                                     <td>Treasure / Synthesis</td>
@@ -265,7 +419,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Mythril shard</td>
                                     <td>12</td>
                                     <td>Barrel Spider / Pot Spider</td>
@@ -273,16 +426,13 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Mythril Stone</td>
                                     <td>8</td>
                                     <td>Pot Scorpion</td>
                                     <td>Agrabah</td>
                                     <td>Smash the pots that don't move first, then hit the last pot</td>
-
                                 </tr>
                                 <tr>
-
                                     <td>Orichalcum</td>
                                     <td>18</td>
                                     <td>
@@ -292,7 +442,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Power Crystal</td>
                                     <td>3</td>
                                     <td>Wyvern</td>
@@ -300,7 +449,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Power Gem</td>
                                     <td>11</td>
                                     <td>
@@ -310,7 +458,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Power Shard</td>
                                     <td>13</td>
                                     <td>Bouncywild / Powerwild</td>
@@ -318,16 +465,13 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Power Stone</td>
                                     <td>5</td>
                                     <td>Sniperwild</td>
                                     <td>Traverse Town</td>
                                     <td>Don't let them see you!</td>
-
                                 </tr>
                                 <tr>
-
                                     <td>Serenity Power</td>
                                     <td>7</td>
                                     <td>Ping Agaricus</td>
@@ -335,10 +479,8 @@
                                     <td>
                                         <div>Aeroga Sora, use stop, target head, use ragnarok and other combos to get high numbers!</div>
                                     </td>
-
                                 </tr>
                                 <tr>
-
                                     <td>Shiny Crystal</td>
                                     <td>3</td>
                                     <td>Wizard</td>
@@ -346,7 +488,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Spirit Gem</td>
                                     <td>7</td>
                                     <td>Air Soldier</td>
@@ -362,7 +503,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Stormy Stone</td>
                                     <td>4</td>
                                     <td>Neo Shadow</td>
@@ -370,7 +510,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Thunder Gem</td>
                                     <td>15</td>
                                     <td>Aquatank / Screwdriver</td>
@@ -378,7 +517,6 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-
                                     <td>Thunder Shard</td>
                                     <td>12</td>
                                     <td>Yellow Opera</td>
@@ -393,6 +531,1668 @@
                     </div>
                 </div>
             </div>
+            <!---->
+            <div class="modal" id="khfmtrinity" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Trinity Locations</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th title="Field #1">Color</th>
+                                    <th title="Field #2">World</th>
+                                    <th title="Field #3">Location</th>
+                                    <th title="Field #4">Prize</th>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Traverse Town</td>
+                                    <td>Near what looks like an outdoor restaurant in the First District</td>
+                                    <td>Postcard</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Traverse Town</td>
+                                    <td>Near the entrance of Traverse Town in the First District</td>
+                                    <td>Munny</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Traverse Town</td>
+                                    <td>On a ramp that leads behind the Lady and the Tramp statue in the Third District</td>
+                                    <td>Munny and a Camping Set</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Traverse Town</td>
+                                    <td>Near the Save Point in Merlin&#39;s House</td>
+                                    <td>Munny and Mega-Ether</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Wonderland</td>
+                                    <td>In a small alcove in Lotus Forest</td>
+                                    <td>Ether, Potion, Tent, and MP</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Wonderland</td>
+                                    <td>In a hidden alcove in Lotus Forest; after defeating the Queen, push the rock into the lake while you&#39;re a giant and mushrooms will appear. Jump on the mushrooms to find the hidden trinity.</td>
+                                    <td>Camping Set and MP</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Olympus</td>
+                                    <td>Under the large statue to the left of the entrance of the Coliseum</td>
+                                    <td>Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Olympus</td>
+                                    <td>Under the large statue to the right of the entrance of the Coliseum</td>
+                                    <td>Dalmatians 22, 23, 24</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Deep Jungle</td>
+                                    <td>By the table at the campsite</td>
+                                    <td>Dalmatians 34, 35, 36</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Deep Jungle</td>
+                                    <td>In the Climbing Trees</td>
+                                    <td>Dalmatians 31, 32, 33</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Agrabah</td>
+                                    <td>Drop into the Bazaar</td>
+                                    <td>Munny and Mega-Elixir</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Agrabah</td>
+                                    <td>In the Cave of Wonders waterways</td>
+                                    <td>Thunder-G</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Monstro</td>
+                                    <td>In Chamber 5</td>
+                                    <td>Cottage and Munny</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Monstro</td>
+                                    <td>On a pile of debris in the mouth</td>
+                                    <td>2 Potions, Cottage, and Munny</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Monstro</td>
+                                    <td>In the center of the throat</td>
+                                    <td>Myhtril Shard and Munny</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>In the Dungeon. Enter the Lift Stop through the Grand Hall. Use the blue crystal and go down a level. Use the lift in the Waterway to go down another level. Also accessible through the base level, behind a wall that Beast must break down.</td>
+                                    <td>Cottage, Mega-Potion, Mega-Ether, and HP</td>
+                                </tr>
+                                <tr>
+                                    <td>Blue</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>Near the entrance of the castle on a platform lead to by a floating platform</td>
+                                    <td>2 Cottages, Mega-Elixir, and MP</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Traverse Town</td>
+                                    <td>In Cid&#39;s Accessory Shop in the First District</td>
+                                    <td>Synthesis Shop entrance</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Wonderland</td>
+                                    <td>In the Rabbit Hole</td>
+                                    <td>Elixir</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Wonderland</td>
+                                    <td>In the Bizarre Room; in the fireplace while tiny</td>
+                                    <td>Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Olympus</td>
+                                    <td>Near the cup results by the entrance to the Coliseum</td>
+                                    <td>Mythril</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Deep Jungle</td>
+                                    <td>Outside the tunnel in the treetops</td>
+                                    <td>HP and Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Agrabah</td>
+                                    <td>In the storage room</td>
+                                    <td>Power Up</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Monstro</td>
+                                    <td>On top of the ship in the mouth</td>
+                                    <td>Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Neverland</td>
+                                    <td>In the Ship&#39;s Hold</td>
+                                    <td>Entrance to Captain&#39;s cabin</td>
+                                </tr>
+                                <tr>
+                                    <td>Green</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>By the Save Point in the Library</td>
+                                    <td>Azal Vol. 3</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Traverse Town</td>
+                                    <td>By the end of the alley behind the Accessory Shop in the First District</td>
+                                    <td>Dalmatians 4, 5, 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Traverse Town</td>
+                                    <td>In the water grate behind the hotel in the Second District</td>
+                                    <td>Secret Waterway entrance</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Traverse Town</td>
+                                    <td>On the roof of the Gizmo Shop in the Second District</td>
+                                    <td>Interaction with the bell</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Agrabah</td>
+                                    <td>In the Cave of Wonders treasure room</td>
+                                    <td>Mythril Shard and Munny</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Halloween Town</td>
+                                    <td>In the entrance room of Oogie&#39;s Manor</td>
+                                    <td>Mythril Shard</td>
+                                </tr>
+                                <tr>
+                                    <td>Red</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>On the high level of the Grand Hall, entered through the Library</td>
+                                    <td>Emblem piece</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Traverse Town</td>
+                                    <td>In the Secret Waterway in the Second District</td>
+                                    <td>Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Wonderland</td>
+                                    <td>When the Bizarre Room is sideways, light the two lamps with Fire by locking-on and jump into the picture.</td>
+                                    <td>Lady Luck Keyblade</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Olympus</td>
+                                    <td>In the center of the Coliseum gates</td>
+                                    <td>Violetta Staff</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Deep Jungle</td>
+                                    <td>In the cave by the Deep Jungle Keyhole</td>
+                                    <td>Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Agrabah</td>
+                                    <td>Cave of Wonders entrance</td>
+                                    <td>Ifirit Belt</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Monstro</td>
+                                    <td>In Chamber 6</td>
+                                    <td>Dark Matter</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Atlantica</td>
+                                    <td>In the center of the path leading to Triton&#39;s Throne</td>
+                                    <td>Orichalcum</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Halloween Town</td>
+                                    <td>On Moonlight Hill</td>
+                                    <td>Dalmatians 67,68, and 69</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Neverland</td>
+                                    <td>On the deck</td>
+                                    <td>Dalmatians 43,44, and 45</td>
+                                </tr>
+                                <tr>
+                                    <td>White</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>By the entrance of the world on a floating piece of land</td>
+                                    <td>Thundaga-G</td>
+                                </tr>
+                                <tr>
+                                    <td>Yellow</td>
+                                    <td>Traverse Town</td>
+                                    <td>Outside Merlin's House near a stack of crates</td>
+                                    <td>Power Up</td>
+                                </tr>
+                                <tr>
+                                    <td>Yellow</td>
+                                    <td>Olympus</td>
+                                    <td>In the Coliseum Lobby</td>
+                                    <td>Olympus Coliseum Keyhole</td>
+                                </tr>
+                                <tr>
+                                    <td>Yellow</td>
+                                    <td>Agrabah</td>
+                                    <td>In the Cave of Wonders hall, above the dark chamber</td>
+                                    <td>Basement chamber entrance</td>
+                                </tr>
+                                <tr>
+                                    <td>Yellow</td>
+                                    <td>Neverland</td>
+                                    <td>In the Ship&#39;s Hold in front of a locked door</td>
+                                    <td>Opens door</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Unlock the Blue trinity by defeating the Guard Armor in Traverse Town. You get the Red trinity from completing Deep Jungle, Green from completing Agrabah, yellow from beating the Hercules cup at the Coliseum and White from defeating Riku the first time in Hollow Bastion.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+
+
+
+            <div class="modal" id="khfmpostcards" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Traverse Town Postcards</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Card</th>
+                                    <th>Location</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>In the first district Safe (near the door to the second district, behind where Cid hangs out).</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Treasure Chest on top of the Accessory Shop. It is easiest to get using High Jump or Glide, though you don't need them.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>In the first district Item Shop, lock onto the fan and attack it.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Blue Trinity outside the "restaurant" in the first district.</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>A the Boots and Shoes shop in the second district. Jump on the corner lamp nearest the box then jump onto the ledge.</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Six and Seven require two steps. First, go to the third district (after obtaining lightning) and use it on the live wires with the lightning symbol. Once you have done that, go to the gizmo shop and step on the three switches on the raised platforms. After that, examine the clock.</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Six and Seven require two steps. First, go to the third district (after obtaining lightning) and use it on the live wires with the lightning symbol. Once you have done that, go to the gizmo shop and step on the three switches on the raised platforms. After that, examine the clock.</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>In the second district, climb to the top of the gizmo shop (where the bell is). Follow the path to the rooftops and use High Jump or Glide to get to the next roof. Continue on the rooftops until you find the exit to the third district. Walk around the third district balcony until you can "examine" to find the postcard.</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>After you have opened the synthesis shop, examine the walls behind the moogles to find the postcard.</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>After escaping Monstro, go to Gepetto's workshop and examine the back shelves to find the last postcard</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Prizes, in order: Cottage, Mythril Shard, Mega-Potion, Mega-Ether, Elixir, Megalixir, Orichalcum, Defense Up and AP Up, Power Up and Defense Up.</p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+
+
+
+            <div class="modal" id="khfmdalmations" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>99 Dalmations</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Dalmatians</th>
+                                    <th>Abilities Needed</th>
+                                    <th>World</th>
+                                    <th>Location</th>
+                                </tr>
+                                <tr>
+                                    <td>1, 2, 3</td>
+                                    <td>Glide</td>
+                                    <td>Traverse Town</td>
+                                    <td>Behind Merlin&#39;s house</td>
+                                </tr>
+                                <tr>
+                                    <td>4, 5, 6</td>
+                                    <td>Red Trinity</td>
+                                    <td>Traverse Town</td>
+                                    <td>Alley in the First District where Sora woke up on his Traverse Town arrival</td>
+                                </tr>
+                                <tr>
+                                    <td>7, 8, 9</td>
+                                    <td>Green Trinity</td>
+                                    <td>Traverse Town</td>
+                                    <td>In the Item Synthesis shop</td>
+                                </tr>
+                                <tr>
+                                    <td>10, 11, 12</td>
+                                    <td>Red Trinity</td>
+                                    <td>Traverse Town</td>
+                                    <td>In the Secret Waterway by the stairs leading to Merlin&#39;s house</td>
+                                </tr>
+                                <tr>
+                                    <td>13, 14, 15</td>
+                                    <td>High Jump (optional)</td>
+                                    <td>Wonderland</td>
+                                    <td>On top of a hedge in the Queen&#39;s Castle. You can either use a pathway from the Lotus Forest or use the High Jump ability.</td>
+                                </tr>
+                                <tr>
+                                    <td>16, 17, 18</td>
+                                    <td>None</td>
+                                    <td>Wonderland</td>
+                                    <td>On top of a tree in Lotus Forest.</td>
+                                </tr>
+                                <tr>
+                                    <td>19, 20, 21</td>
+                                    <td>Glide</td>
+                                    <td>Wonderland</td>
+                                    <td>Go through a pathway in the Queen&#39;s Castle that leads to Lotus Forest. Glide to the exit to the left.</td>
+                                </tr>
+                                <tr>
+                                    <td>58, 59, 60</td>
+                                    <td>None</td>
+                                    <td>Wonderland</td>
+                                    <td>Enter Lotus Forest through painting in Bizarre Room. Cast Thunder while standing under Bell Flowers.</td>
+                                </tr>
+                                <tr>
+                                    <td>22, 23, 24</td>
+                                    <td>Blue Trinity</td>
+                                    <td>Olympus Coliseum</td>
+                                    <td>Next to the entrance of the Coliseum</td>
+                                </tr>
+                                <tr>
+                                    <td>25, 26, 27</td>
+                                    <td>None</td>
+                                    <td>Deep Jungle</td>
+                                    <td>Jump across every hippo at the Hippo Lagoon to reach the end.</td>
+                                </tr>
+                                <tr>
+                                    <td>28, 29, 30</td>
+                                    <td>None</td>
+                                    <td>Deep Jungle</td>
+                                    <td>Swing across the vines straight ahead and jump to the piece of land next to the one you reach</td>
+                                </tr>
+                                <tr>
+                                    <td>31, 32, 33</td>
+                                    <td>Blue Trinity</td>
+                                    <td>Deep Jungle</td>
+                                    <td>In the Climbing Trees</td>
+                                </tr>
+                                <tr>
+                                    <td>34, 35, 36</td>
+                                    <td>Blue Trinity</td>
+                                    <td>Deep Jungle</td>
+                                    <td>At the campsite</td>
+                                </tr>
+                                <tr>
+                                    <td>37, 38, 39</td>
+                                    <td>None</td>
+                                    <td>Agrabah</td>
+                                    <td>Chest in Aladdin&#39;s house</td>
+                                </tr>
+                                <tr>
+                                    <td>46, 47, 48</td>
+                                    <td>Glide</td>
+                                    <td>Agrabah</td>
+                                    <td>At the Palace Gates</td>
+                                </tr>
+                                <tr>
+                                    <td>49, 50, 51</td>
+                                    <td>Glide</td>
+                                    <td>Agrabah</td>
+                                    <td>On a platform in the entrance room of the Cave of Wonders</td>
+                                </tr>
+                                <tr>
+                                    <td>52, 53, 54</td>
+                                    <td>High Jump</td>
+                                    <td>Agrabah</td>
+                                    <td>On top of a pile of gold in the Treasure Room</td>
+                                </tr>
+                                <tr>
+                                    <td>40, 41, 42</td>
+                                    <td>Glide</td>
+                                    <td>Halloween Town</td>
+                                    <td>Opposite side of the river under the bridge leading to the entrance of Oogie Boogie&#39;s manor</td>
+                                </tr>
+                                <tr>
+                                    <td>64, 65, 66</td>
+                                    <td>None</td>
+                                    <td>Halloween Town</td>
+                                    <td>A secret doorway in Moonlight Hill after defeating Oogie Boogie</td>
+                                </tr>
+                                <tr>
+                                    <td>67, 68, 69</td>
+                                    <td>White Trinity</td>
+                                    <td>Halloween Town</td>
+                                    <td>Under a staircase in Guillotine Square (White Trinity - the Dalmatian is in Moonlight Hill where you first enter on the left)</td>
+                                </tr>
+                                <tr>
+                                    <td>70, 71, 72</td>
+                                    <td>Glide</td>
+                                    <td>Halloween Town</td>
+                                    <td>In Guillotine Square, glide to the mouth of a gray pumpkin tower</td>
+                                </tr>
+                                <tr>
+                                    <td>55, 56, 57</td>
+                                    <td>None</td>
+                                    <td>Monstro</td>
+                                    <td>On a platform in Chamber 3</td>
+                                </tr>
+                                <tr>
+                                    <td>73, 74, 75</td>
+                                    <td>High Jump</td>
+                                    <td>Monstro</td>
+                                    <td>In the mouth on top of a pile of wood</td>
+                                </tr>
+                                <tr>
+                                    <td>76, 77, 78</td>
+                                    <td>None</td>
+                                    <td>Monstro</td>
+                                    <td>On a platform in Chamber 3 that can only be reached by a barrel</td>
+                                </tr>
+                                <tr>
+                                    <td>79, 80, 81</td>
+                                    <td>None</td>
+                                    <td>Monstro</td>
+                                    <td>On a platform in Chamber 5</td>
+                                </tr>
+                                <tr>
+                                    <td>43, 44, 45</td>
+                                    <td>None</td>
+                                    <td>Neverland</td>
+                                    <td>On a corner of the Clock Tower (final mix white trinity mark on the deck of Hook&#39;s ship)</td>
+                                </tr>
+                                <tr>
+                                    <td>82, 83, 84</td>
+                                    <td>None</td>
+                                    <td>Neverland</td>
+                                    <td>On top of a beam in the ship&#39;s hold</td>
+                                </tr>
+                                <tr>
+                                    <td>85, 86, 87</td>
+                                    <td>Yellow Trinity</td>
+                                    <td>Neverland</td>
+                                    <td>In the ship&#39;s hold</td>
+                                </tr>
+                                <tr>
+                                    <td>88, 89, 90</td>
+                                    <td>None</td>
+                                    <td>Neverland</td>
+                                    <td>After the fight with Anti-Sora, find a chest in the Captain&#39;s Cabin</td>
+                                </tr>
+                                <tr>
+                                    <td>61, 62, 63</td>
+                                    <td>None</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>On your second visit to Hollow Bastion, find a chest in the Grand Hall near the keyhole on a ledge to the left</td>
+                                </tr>
+                                <tr>
+                                    <td>91, 92, 93</td>
+                                    <td>None</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>Use the bubble to reach the bottom of Rising Falls</td>
+                                </tr>
+                                <tr>
+                                    <td>94, 95, 96</td>
+                                    <td>Gravity</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>Lower the floating platform at the Castle Gates with Gravity</td>
+                                </tr>
+                                <tr>
+                                    <td>97, 98, 99</td>
+                                    <td>Gravity</td>
+                                    <td>Hollow Bastion</td>
+                                    <td>Lower the floating platform in the High Tower with Gravity</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Rewards: Save 12 puppies to obtain Curaga-G. 21 gets you Firaga-G, 30 for Tundara-G, 42 for Mythril Shard, 51 for a Torn Page and Mythril, 60 for a Megalixir, 72 for Orichalcum, 81 for Ultima-G, and 90 for a Ribbon and Tech Boost ability. Saving all puppies teaches you "Aeroga" and gives you the "Full Gummi Set"</p>
+
+                    </div>
+                </div>
+            </div>
+            <!---->
+
+
+
+            <div class="modal" id="khfmmagic" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Magic Unlocks</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Spell Name</th>
+                                    <th>How to Obtain</th>
+                                </tr>
+                                <tr>
+                                    <td>Fire</td>
+                                    <td>Defeat Guard Armor in Traverse Town.</td>
+                                </tr>
+                                <tr>
+                                    <td>Fira</td>
+                                    <td>Defeat Genie Jafar at Agrabah.</td>
+                                </tr>
+                                <tr>
+                                    <td>Firaga</td>
+                                    <td>Seal the keyhole of Hollow Bastion.</td>
+                                </tr>
+                                <tr>
+                                    <td>Blizzard</td>
+                                    <td>Seal the keyhole of Wonderland.</td>
+                                </tr>
+                                <tr>
+                                    <td>Blizzara</td>
+                                    <td>Defeat Jafar at Agrabah.</td>
+                                </tr>
+                                <tr>
+                                    <td>Blizzaga</td>
+                                    <td>Defeat Behemoth in the Hades Cup at the Olympus Coliseum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Thunder</td>
+                                    <td>Destroy all of the barrels in the challenge at the Olympus Coliseum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Thundara</td>
+                                    <td>Defeat Giant Ursula at Atlantica.</td>
+                                </tr>
+                                <tr>
+                                    <td>Thundaga</td>
+                                    <td>Defeat Cerberus in the Hades Cup at the Olympus Coliseum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cure</td>
+                                    <td>Defeat Clayton in the Deep Jungle.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cura</td>
+                                    <td>Reach the ship deck at Neverland.</td>
+                                </tr>
+                                <tr>
+                                    <td>Curaga</td>
+                                    <td>Talk to Aerith in the Library for a third time at Hollow Bastion.</td>
+                                </tr>
+                                <tr>
+                                    <td>Gravity</td>
+                                    <td>Complete the Phil Cup at the Olympus Coliseum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Gravira</td>
+                                    <td>Seal the keyhole of Halloween Town.</td>
+                                </tr>
+                                <tr>
+                                    <td>Graviga</td>
+                                    <td>Defeat Hades in the Hades Cup at the Olympus Coliseum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Stop</td>
+                                    <td>Defeat Parasite Cage a second time in Monstro.</td>
+                                </tr>
+                                <tr>
+                                    <td>Stopra</td>
+                                    <td>Complete the Pooh&#39;s Swing mini-game at the 100 Acre Wood.</td>
+                                </tr>
+                                <tr>
+                                    <td>Stopga</td>
+                                    <td>Defeat the Phantom at Neverland.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aero</td>
+                                    <td>Defeat Opposite Armor at Traverse Town.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aerora</td>
+                                    <td>Use the yellow trinity mark to open the door and reveal a treasure chest at Neverland.</td>
+                                </tr>
+                                <tr>
+                                    <td>Aeroga</td>
+                                    <td>Rescue all 99 dalmatians and return to the Dalmatian House in Traverse Town.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+
+            <div class="modal" id="khfmpages" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>100 Acre Wood Torn Pages</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>World</th>
+                                    <th>Location</th>
+                                </tr>
+                                <tr>
+                                    <td>Traverse Town</td>
+                                    <td>Find 51 Dalmatians</td>
+                                </tr>
+                                <tr>
+                                    <td>Agrabah</td>
+                                    <td>In the Dark Chamber of the Cave of Wonders</td>
+                                </tr>
+                                <tr>
+                                    <td>Monstro</td>
+                                    <td>In a treasure chest in Chamber 6</td>
+                                </tr>
+                                <tr>
+                                    <td>Halloween Town</td>
+                                    <td>On the shelves in the Doctor's Lab</td>
+                                </tr>
+                                <tr>
+                                    <td>Atlantica</td>
+                                    <td>In Ariel's Grotto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="modal" id="khfmexp" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Experience Per Level (Sora)</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Level</th>
+                                    <th>Leave at Dusk</th>
+                                    <th>Leave at Midday</th>
+                                    <th>Leave at Dawn</th>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>155</td>
+                                    <td>120</td>
+                                    <td>96</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>821</td>
+                                    <td>675</td>
+                                    <td>576</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>2,041</td>
+                                    <td>1,735</td>
+                                    <td>1,506</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>2,041</td>
+                                    <td>1,735</td>
+                                    <td>1,506</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>3,971</td>
+                                    <td>3,465</td>
+                                    <td>3,106</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>7,221</td>
+                                    <td>6,515</td>
+                                    <td>5,986</td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>12,291</td>
+                                    <td>11,515</td>
+                                    <td>10,856</td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>20,291</td>
+                                    <td>19,515</td>
+                                    <td>18,856</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>33,891</td>
+                                    <td>33,815</td>
+                                    <td>33,356</td>
+                                </tr>
+                                <tr>
+                                    <td>45</td>
+                                    <td>56,091</td>
+                                    <td>57,315</td>
+                                    <td>58,256</td>
+                                </tr>
+                                <tr>
+                                    <td>50</td>
+                                    <td>91,091</td>
+                                    <td>95,715</td>
+                                    <td>99,856</td>
+                                </tr>
+                                <tr>
+                                    <td>55</td>
+                                    <td>150,291</td>
+                                    <td>160,815</td>
+                                    <td>174,856</td>
+                                </tr>
+                                <tr>
+                                    <td>60</td>
+                                    <td>220,291</td>
+                                    <td>235,815</td>
+                                    <td>264,856</td>
+                                </tr>
+                                <tr>
+                                    <td>65</td>
+                                    <td>290,291</td>
+                                    <td>319,815</td>
+                                    <td>354,856</td>
+                                </tr>
+                                <tr>
+                                    <td>70</td>
+                                    <td>364,291</td>
+                                    <td>409,815</td>
+                                    <td>444,856</td>
+                                </tr>
+                                <tr>
+                                    <td>75</td>
+                                    <td>444,291</td>
+                                    <td>499,815</td>
+                                    <td>534,856</td>
+                                </tr>
+                                <tr>
+                                    <td>80</td>
+                                    <td>524,291</td>
+                                    <td>589,815</td>
+                                    <td>624,856</td>
+                                </tr>
+                                <tr>
+                                    <td>85</td>
+                                    <td>608,291</td>
+                                    <td>679,815</td>
+                                    <td>714,856</td>
+                                </tr>
+                                <tr>
+                                    <td>90</td>
+                                    <td>698,291</td>
+                                    <td>769,815</td>
+                                    <td>804,856</td>
+                                </tr>
+                                <tr>
+                                    <td>95</td>
+                                    <td>788,291</td>
+                                    <td>859,815</td>
+                                    <td>894,856</td>
+                                </tr>
+                                <tr>
+                                    <td>100</td>
+                                    <td>878,291</td>
+                                    <td>949,815</td>
+                                    <td>984,856</td>
+                                </tr>
+                                <tr>
+                                    <td>TOTAL EXP</td>
+                                    <td>22,470,911</td>
+                                    <td>24,737,090</td>
+                                    <td>26,223,156</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Your answers to the questions at the beginning of the game determine "when your adventure begins." Top answers make you leave at dawn, middle answers at midday, and bottom answers have you leave at dusk.</p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+                        <div class="modal" id="khfmlevels" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Sora's Level Up Stats and Ability Unlocks</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+  <table >
+<tbody><tr>
+<th>LEVEL</th>
+<th>STAT UP</th>
+<th>SWORD</th>
+<th>SHIELD</th>
+<th>STAFF</th>
+</tr>
+<tr>
+<td>2</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>3</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>4</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>5</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>6</td>
+<td>HP</td>
+<td>Sliding Dash</td>
+<td>Slapshot</td>
+<td>Stun Impact</td>
+</tr>
+<tr>
+<td>7</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>8</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>9</td>
+<td>DEF</td>
+<td>Scan</td>
+<td>Berserk</td>
+<td>Treasure Magnet</td>
+</tr>
+<tr>
+<td>10</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>11</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>12</td>
+<td>MP</td>
+<td>Slapshot</td>
+<td>Tech Boost</td>
+<td>Ripple Drive</td>
+</tr>
+<tr>
+<td>13</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>14</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>15</td>
+<td>DEF</td>
+<td>Counterattack</td>
+<td>Guard</td>
+<td>Scan</td>
+</tr>
+<tr>
+<td>16</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>17</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>18</td>
+<td>ITEM SLOT</td>
+<td>Tech Boost</td>
+<td>Stun Impact</td>
+<td>Hurricane Blast</td>
+</tr>
+<tr>
+<td>19</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>20</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>21</td>
+<td>DEF</td>
+<td>Combo Plus</td>
+<td>Scan</td>
+<td>MP Haste</td>
+</tr>
+<tr>
+<td>22</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>23</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>24</td>
+<td>MP</td>
+<td>Guard</td>
+<td>Lucky Strike</td>
+<td>Air Combo Plus</td>
+</tr>
+<tr>
+<td>25</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>26</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>27</td>
+<td>DEF</td>
+<td>Hurrican Blast</td>
+<td>Leaf Bracer</td>
+<td>Tech Plus</td>
+</tr>
+<tr>
+<td>28</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>29</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>30</td>
+<td>ITEM SLOT</td>
+<td> </td>
+<td>Treasure Magnet</td>
+<td> </td>
+</tr>
+<tr>
+<td>31</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>32</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>33</td>
+<td>DEF</td>
+<td>Blitz</td>
+<td> </td>
+<td>Guard</td>
+</tr>
+<tr>
+<td>34</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>35</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>36</td>
+<td>MP</td>
+<td>Treasure Magnet</td>
+<td>Second Chance</td>
+<td>Aerial Sweep</td>
+</tr>
+<tr>
+<td>37</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>38</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>39</td>
+<td>DEF</td>
+<td>Ripple Drive</td>
+<td>Sliding Dash</td>
+<td>Leaf Bracer</td>
+</tr>
+<tr>
+<td>40</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>41</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>42</td>
+<td>ITEM SLOT</td>
+<td> </td>
+<td>Jackpot</td>
+<td>MP Rage</td>
+</tr>
+<tr>
+<td>43</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>44</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>45</td>
+<td>DEF</td>
+<td>MP Haste</td>
+<td>Counterattack</td>
+<td>Air Combo Plus</td>
+</tr>
+<tr>
+<td>46</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>47</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>48</td>
+<td>MP</td>
+<td>Second Chance</td>
+<td>Critical Plus</td>
+<td>Lucky Strike</td>
+</tr>
+<tr>
+<td>49</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>50</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>51</td>
+<td>DEF</td>
+<td>Stun Impact</td>
+<td>Hurrican Blast</td>
+<td>Sliding Dash</td>
+</tr>
+<tr>
+<td>52</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>53</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>54</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td>Accessory Slot</td>
+</tr>
+<tr>
+<td>55</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td>Combo Master</td>
+</tr>
+<tr>
+<td>56</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>57</td>
+<td>DEF</td>
+<td>Vortex</td>
+<td>Treasure Magnet</td>
+<td>Counterattack</td>
+</tr>
+<tr>
+<td>58</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>59</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>60</td>
+<td>MP</td>
+<td>Aerial Sweep</td>
+<td>Blitz</td>
+<td>Berserk</td>
+</tr>
+<tr>
+<td>61</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>62</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>63</td>
+<td>DEF</td>
+<td>MP Rage</td>
+<td>Combo Plus</td>
+<td>Jackpot</td>
+</tr>
+<tr>
+<td>64</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>65</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>66</td>
+<td>HP</td>
+<td>Combo Plus</td>
+<td> </td>
+<td>MP Up</td>
+</tr>
+<tr>
+<td>67</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>68</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>69</td>
+<td>DEF</td>
+<td>Leaf Bracer</td>
+<td>Ripple Drive</td>
+<td>Slapshot</td>
+</tr>
+<tr>
+<td>70</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>71</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>72</td>
+<td>HP</td>
+<td>Air Combo Plus</td>
+<td>MP Haste</td>
+<td>Treasure Magnet</td>
+</tr>
+<tr>
+<td>73</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>74</td>
+<td>HP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>75</td>
+<td>DEF</td>
+<td>Treasure Magnet</td>
+<td>Critical Plus</td>
+<td>MP Rage</td>
+</tr>
+<tr>
+<td>76</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>77</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>78</td>
+<td>DEF</td>
+<td>Berserk</td>
+<td>Vortex</td>
+<td>Blitz</td>
+</tr>
+<tr>
+<td>79</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>80</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>81</td>
+<td>DEF</td>
+<td>Tech Boost</td>
+<td>Tech Boost</td>
+<td>Tech Boost</td>
+</tr>
+<tr>
+<td>82</td>
+<td>STR</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>83</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>84</td>
+<td>STR</td>
+<td>Critical Plus</td>
+<td>Aerial Sweep</td>
+<td>Vortex</td>
+</tr>
+<tr>
+<td>85</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>86</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>87</td>
+<td>STR</td>
+<td>MP Rage</td>
+<td>Combo Plus</td>
+<td>Combo Plus</td>
+</tr>
+<tr>
+<td>88</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>89</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>90</td>
+<td>STR</td>
+<td>Lucky Strike</td>
+<td>MP Rage</td>
+<td>Second Chance</td>
+</tr>
+<tr>
+<td>91</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>92</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>93</td>
+<td>STR</td>
+<td>Combo Plus</td>
+<td>Air Combo Plus</td>
+<td>Combo Plus</td>
+</tr>
+<tr>
+<td>94</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>95</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>96</td>
+<td>STR</td>
+<td>Air Combo Plus</td>
+<td>Combo Plus</td>
+<td>Critical Plus</td>
+</tr>
+<tr>
+<td>97</td>
+<td>DEF</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>98</td>
+<td>AP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>99</td>
+<td>STR</td>
+<td>Critical Plus</td>
+<td>Air Combo Plus</td>
+<td>Combo Plus</td>
+</tr>
+<tr>
+<td>100</td>
+<td>DEF</td>
+<td>Jackpot</td>
+<td>MP Rage</td>
+<td>Critical Plus</td>
+</tr>
+</tbody></table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>The "Sword, Shield, Staff" columns represent which item you chose to at the beginning of the game.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!----->
+
+            <div class="modal" id="khfmtournaments" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Coliseum Tournaments</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                    <table><tbody><tr><td>Sorry, This table has not yet been added, but I'm working on it now!</td></tr></tbody></table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Additional Info</p>
+                    </div>
+                </div>
+            </div>
+             <!----->
+                        <div class="modal" id="khfmbestiary" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Heartless and Boss Stats</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                      <table><tbody><tr><td>Sorry, This table has not yet been added, but I'm working on it now!</td></tr></tbody></table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Additional Info</p>
+                    </div>
+                </div>
+            </div>
+             <!----->
+                        <div class="modal" id="khfmequipment" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-header">
+                        <p>Equipment Guide</p>
+                        <a href="#" class="btn-close" aria-hidden="true">×</a>
+                    </div>
+                    <div class="modal-body">
+                    <table><tbody><tr><td>Sorry, This table has not yet been added, but I'm working on it now!</td></tr></tbody></table>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Additional Info</p>
+                    </div>
+                </div>
+            </div>
             <!-- /Modal -->
 
         </div>
@@ -404,7 +2204,7 @@
             <br>Meet the <a href=#>dev</a></div>
 
 
-        <div id="footermessage">Choose a game to access reference information.</div>
+        <div id="footermessage">[[table information]]</div>
     </div>
 </body>
 

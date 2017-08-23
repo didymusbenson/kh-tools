@@ -1,0 +1,100 @@
+LEVEL,STAT UP,SWORD,SHIELD,STAFF
+2,STR,,,
+3,DEF,,,
+4,STR,,,
+5,DEF,,,
+6,HP,Sliding Dash,Slapshot,Stun Impact
+7,STR,,,
+8,HP,,,
+9,DEF,Scan,Berserk,Treasure Magnet
+10,HP,,,
+11,AP,,,
+12,MP,Slapshot,Tech Boost,Ripple Drive
+13,STR,,,
+14,HP,,,
+15,DEF,Counterattack,Guard,Scan
+16,HP,,,
+17,AP,,,
+18,ITEM SLOT,Tech Boost,Stun Impact,Hurricane Blast
+19,STR,,,
+20,AP,,,
+21,DEF,Combo Plus,Scan,MP Haste
+22,HP,,,
+23,AP,,,
+24,MP,Guard,Lucky Strike,Air Combo Plus
+25,STR,,,
+26,HP,,,
+27,DEF,Hurrican Blast,Leaf Bracer,Tech Plus
+28,HP,,,
+29,AP,,,
+30,ITEM SLOT,,Treasure Magnet,
+31,STR,,,
+32,AP,,,
+33,DEF,Blitz,,Guard
+34,HP,,,
+35,AP,,,
+36,MP,Treasure Magnet,Second Chance,Aerial Sweep
+37,STR,,,
+38,HP,,,
+39,DEF,Ripple Drive,Sliding Dash,Leaf Bracer
+40,HP,,,
+41,AP,,,
+42,ITEM SLOT,,Jackpot,MP Rage
+43,STR,,,
+44,AP,,,
+45,DEF,MP Haste,Counterattack,Air Combo Plus
+46,HP,,,
+47,AP,,,
+48,MP,Second Chance,Critical Plus,Lucky Strike
+49,STR,,,
+50,HP,,,
+51,DEF,Stun Impact,Hurrican Blast,Sliding Dash
+52,HP,,,
+53,AP,,,
+54,HP,,,Accessory Slot
+55,STR,,,Combo Master
+56,AP,,,
+57,DEF,Vortex,Treasure Magnet,Counterattack
+58,HP,,,
+59,AP,,,
+60,MP,Aerial Sweep,Blitz,Berserk
+61,STR,,,
+62,HP,,,
+63,DEF,MP Rage,Combo Plus,Jackpot
+64,HP,,,
+65,AP,,,
+66,HP,Combo Plus,,MP Up
+67,STR,,,
+68,AP,,,
+69,DEF,Leaf Bracer,Ripple Drive,Slapshot
+70,HP,,,
+71,AP,,,
+72,HP,Air Combo Plus,MP Haste,Treasure Magnet
+73,STR,,,
+74,HP,,,
+75,DEF,Treasure Magnet,Critical Plus,MP Rage
+76,AP,,,
+77,STR,,,
+78,DEF,Berserk,Vortex,Blitz
+79,AP,,,
+80,STR,,,
+81,DEF,Tech Boost,Tech Boost,Tech Boost
+82,STR,,,
+83,DEF,,,
+84,STR,Critical Plus,Aerial Sweep,Vortex
+85,DEF,,,
+86,AP,,,
+87,STR,MP Rage,Combo Plus,Combo Plus
+88,DEF,,,
+89,AP,,,
+90,STR,Lucky Strike,MP Rage,Second Chance
+91,DEF,,,
+92,AP,,,
+93,STR,Combo Plus,Air Combo Plus,Combo Plus
+94,DEF,,,
+95,AP,,,
+96,STR,Air Combo Plus,Combo Plus,Critical Plus
+97,DEF,,,
+98,AP,,,
+99,STR,Critical Plus,Air Combo Plus,Combo Plus
+100,DEF,Jackpot,MP Rage,Critical Plus
