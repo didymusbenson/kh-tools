@@ -77,8 +77,7 @@ body {   background: black;}
     height: 125px;
     width: 100%;
     box-sizing: border-box;
-    padding: 0;
-    margin: auto;
+
     background: linear-gradient(to bottom, #000000, #19193B, #19193B);
 }
 #footer {
@@ -99,7 +98,8 @@ body {   background: black;}
     font-family: 'Orbitron';
     margin-left: 315px;
     padding-left: 15px;
-    max-height: 44px;
+   position:absolute;
+    top:30%;
     overflow: hidden;
 }
 
@@ -139,6 +139,7 @@ body {   background: black;}
     background: -webkit-linear-gradient(#322E97, #5C59D8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position:absolute;
 }
 #gamename{
     position:absolute;
