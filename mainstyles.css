@@ -51,26 +51,99 @@ body {   background: black;}
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
-
+/********************** MENUS ******************************/
 .menus {
     width: 100%;
     border-top: 10px solid #4648E7;
     border-bottom: 10px solid #4648E7;
     margin: auto;
-    background: linear-gradient( to bottom, #1F3B4C, #1F3B4C 50%, #1D303D 50%, #1D303D);
-    margin-top:125px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right:30px;
+    background: white;
+    margin-top:125px; /* However tall the top area is. */
+
+    padding:15px 30px;
+
     box-sizing: border-box;
     background-size: 100% 6px;
     height: calc(100vh - 250px);
     max-height: calc(100vh - 250px);
     position: relative;
     overflow:auto;
+    display:flex;
+    flex-direction:column-reverse;
+    overflow-x:hidden;
+}
+
+.menu_item {
+    width: 200px;
+    font-weight:bold;
+    padding: 3px;
+
+    padding-left: 40px;
+    color: black;
+   margin:10px;
+
+    margin-bottom:auto;
+   overflow:hidden;
+    font-size:medium;
+        z-index:1;
+
+    border-bottom: 2px solid black;
+    font-family: 'Orbitron'
+}
+
+.menu_item a{ text-decoration:none; color:black; display:block;z-index:2;}
+
+.menu_item + img {
+    height: 50%;
+    position: absolute;
+    opacity: 0;
+    top:30px;
+    right:100vw;
+    z-index:0;
+    animation:slideout .2s ease-in-out;
+    -webkit-animation:slideout .2s ease-in-out;
 
 }
+
+.menu_item:hover + img {
+
+    opacity: 1;
+     right: 20px;
+    animation: slidein .2s ease-out;
+}
+
+.square {
+
+   float: left;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -1px;
+    width: 16px;
+    height: 16px;
+    background: #D9D25A;
+    border:5px solid black;
+    box-shadow: inset 0 0 15px 2px #DDAB2E;
+
+}
+
+.menu_item:hover .square {
+
+    float: left;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -1px;
+    width: 16px;
+    height: 16px;
+    background: #FFA13E;
+    border:5px solid black;
+    box-shadow: inset 0 0 15px 2px #DDAB2E;
+    transition:.3s ease-in-out;
+/*    animation: dance 4s ease-in-out infinite;*/
+}
+
+/********************** END MENUS ******************************/
+
+
 #header {
     position:fixed;
     top:0;
@@ -157,22 +230,9 @@ body {   background: black;}
     font-size:16px;
     font-weight:bold;
 }
-.menu ul li:first-child:hover + #test.navi {
-    visibility: visible;
-}
-ul {
-    list-style-type: none;
-    padding-top: 5px;
-    margin: auto;
-    display: block;
-}
-.listfix {
-    width: 200px;
-    padding: 5px;
-    padding-left: 20px;
-    color: white;
-     margin: 10px;
-}
+
+
+
 
 
 .gamemenu:hover:before{
@@ -186,62 +246,10 @@ ul {
      border-top:5px solid #0EB4F7;
 }
 
-.menu, .gamemenu {
-    display: flex;
-}
-.menu .listfix, .gamemenu .listfix {
-    z-index:1;
-    border-radius: 9999em;
-    background: #121722;
-    border: 4px solid #121722;
-    font-family: 'Orbitron'
-}
-.gamemenu .listfix:hover{
-    border: 4px solid #0EB4F7;
-    background: linear-gradient(to bottom, #000000, #055BE2);
-}
-.menu .listfix:hover {
-    background: linear-gradient(to bottom, #000000, #49181C);
-    border-color: #C32C1B;
-}
-.navi {
-    visibility: hidden;
-}
 
-.listfix + img {
-    height: 200px;
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    margin-top: 30px;
-    left: 30%;
-    animation:slideout .2s ease-out;
-    -webkit-animation:slideout .2s ease-out;
-}
-.listfix:hover + img {
-    opacity: 1;
 
-    animation: slidein .2s ease-out;
-
-}
-.listfix:hover .navi,
-.listfix.hover .navi {
-    visibility: visible;
-    float: right;
-    position: absolute;
-    margin-left: 210px;
-    margin-top: -10px;
-    width: 8px;
-    height: 8px;
-    background: #D9D25A;
-    -moz-border-radius: 9999em;
-    -webkit-border-radius: 9999em;
-    border-radius: 9999em;
-    box-shadow: 0 0 15px 2px #DDAB2E;
-    animation: dance 4s ease-in-out infinite;
-}
 #legalcrap a{position:absolute; right: 0; bottom:0; color:white; text-decoration:none;font-style:italic;}
-.listfix a{ text-decoration:none; color:white; display:block;}
+
 
 
 /* LEGAL STUFF */
