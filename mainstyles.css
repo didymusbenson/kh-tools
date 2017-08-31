@@ -93,6 +93,7 @@ body {
     text-decoration: none;
     color: black;
     display: block;
+    z-index:1;
 
 }
 .menu_item + img {
@@ -105,11 +106,39 @@ body {
     animation: slideout .2s ease-in-out;
     -webkit-animation: slideout .2s ease-in-out;
 }
+
+
 .menu_item:hover + img {
     opacity: 1;
     right: 20px;
     animation: slidein .2s ease-out;
 }
+
+
+.menu_item + .bgimg {
+    height: calc(100% - 30px);
+    width: 50vw;
+    background-repeat:no-repeat;
+    background-position:bottom right;
+        background-size:contain;
+        position: absolute;
+    opacity: 0;
+    top:15px;
+    right: 0px;
+    z-index: 0;
+    animation: slideout .2s ease-in-out;
+    -webkit-animation: slideout .2s ease-in-out;
+}
+
+.menu_item:hover + .bgimg {
+    z-index:0;
+    opacity: 1;
+    right: 20px;
+    animation: slidein .2s ease-out;
+    transition: background-image 0.2s ease-in-out;
+
+}
+
 .square {
     float: left;
     position: absolute;
@@ -120,7 +149,9 @@ body {
     background: #D9D25A;
     border: 5px solid black;
     box-shadow: inset 0 0 15px 2px #DDAB2E;
+    transition: .3s ease-in-out;
 }
+.menu_item:hover{transform: scale(1.05); transition: .2s ease-in-out;}
 .menu_item:hover .square {
     float: left;
     position: absolute;
@@ -130,13 +161,26 @@ body {
     height: 16px;
     background: #FFA13E;
     border: 5px solid black;
-    box-shadow: inset 0 0 15px 2px #DDAB2E;
-    transition: .3s ease-in-out;
+    box-shadow: inset 0 0 3px 2px #4C1E06;
+    transition: .1s ease-in-out;
     /*    animation: dance 4s ease-in-out infinite;*/
 }
 
 /********************** END MENUS ******************************/
-
+/********************** BG IMAGES ******************************/
+#khfm + .bgimg{
+    background-image: url("./img/khfm.jpg");
+}
+#kh2fm + .bgimg{
+    background-image: url("./img/kh2fm.png");
+}
+#bbs + .bgimg{
+    background-image: url("./img/bbs.jpg");
+}
+#ddd + .bgimg{
+    background-image: url("./img/ddd.png");
+}
+/********************** END BG IMAGES***************************/
 #header {
     position: fixed;
     top: 0;
