@@ -1,0 +1,57 @@
+/* LEGAL STUFF */
+#legalcrap a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+.legal-body {
+    color: white;
+    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 5px solid #004AFF;
+    border-right: 5px solid #004AFF;
+    background-color: #010208;
+    background: linear-gradient( to bottom, #000000, #001B5C);
+    padding: 20px;
+}
+.legal-header {
+    border-radius: 9999em;
+    background: #004AFF;
+    padding: 5px;
+    border-top: #eee solid 1px;
+}
+.legal-header p {
+    margin: 0 auto;
+    color: white;
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 18px;
+}
+.legal-footer {
+    border: 5px solid #004AFF;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #010208;
+    background: linear-gradient( to bottom, #000000, #001B5C);
+}
+.legal-footer p {
+    color: white;
+    margin: auto;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    font-family: 'Orbitron';
+}
+.legal-body p {
+    margin: auto;
+    margin-top: 10px;
+}
+.legal-body a {
+    color: white;
+}
