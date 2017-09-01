@@ -20,31 +20,36 @@ body {   background: black;}
 									   color-stop(0.86, rgb(28,58,148)));
 }
 
+
 .menus {
     width: 100%;
     border-top: 10px solid #4648E7;
     border-bottom: 10px solid #4648E7;
     margin: auto;
     background: linear-gradient( to bottom, #1F3B4C, #1F3B4C 50%, #1D303D 50%, #1D303D);
-
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right:30px;
+margin-top:125px;
+ padding: 15px 30px;
     box-sizing: border-box;
+        height: calc(100vh - 250px);
+    max-height: calc(100vh - 250px);
     background-size: 100% 6px;
     position: relative;
+     overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
 }
 #header {
+    position: fixed;
+    top: 0;
     height: 125px;
     width: 100%;
     box-sizing: border-box;
-    padding: 0;
-    margin: auto;
     background: linear-gradient(to bottom, #000000, #19193B, #19193B);
 }
 #footer {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     height: 125px;
     width: 100%;
     box-sizing: border-box;
@@ -60,10 +65,10 @@ body {   background: black;}
     font-family: 'Orbitron';
     margin-left: 315px;
     padding-left: 15px;
-    max-height: 44px;
+    position: absolute;
+    top: 30%;
     overflow: hidden;
 }
-
 #footermessage {
     margin-top: 15px;
     height: 110px;
@@ -135,35 +140,27 @@ ul {
 }
 
 
-.gamemenu:hover:before{
 
-    content: '';
 
-    width:calc(100% - 70px);
-    position:absolute;
-    transform:translateY(27px);
-    z-index:0;
-     border-top:5px solid #0EB4F7;
-}
-
-.menu, .gamemenu {
+.menu {
+    z-index:1;
     display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
 }
-.menu .listfix, .gamemenu .listfix {
+.menu .listfix {
     z-index:1;
     border-radius: 9999em;
     background: #121722;
     border: 4px solid #121722;
     font-family: 'Orbitron'
 }
-.gamemenu .listfix:hover{
+.menu .listfix:hover{
     border: 4px solid #0EB4F7;
     background: linear-gradient(to bottom, #000000, #055BE2);
 }
-.menu .listfix:hover {
-    background: linear-gradient(to bottom, #000000, #49181C);
-    border-color: #C32C1B;
-}
+
 .navi {
     visibility: hidden;
 }

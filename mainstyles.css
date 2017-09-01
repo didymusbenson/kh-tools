@@ -304,9 +304,28 @@ body {
 
 
 /* Smartphones (portrait and landscape) ----------- */
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
+    .menu_item{font-size:xx-large;
+    width:auto;}
+    .square{
+         margin-left: -60px;
+        width:40px;
+        height:40px;
+        margin-top:-5px;
+    }
+
+    .menu_item:hover .square { margin-left: -60px;
+        width:40px;
+        height:40px;
+        margin-top:-5px;
+        background: #FFA13E;
+        border: 5px solid black;
+        box-shadow: inset 0 0 3px 2px #4C1E06;
+        transition: .1s ease-in-out;
+    }
+        .menu_item{
+          padding-left: 60px;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
