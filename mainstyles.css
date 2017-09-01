@@ -1,43 +1,4 @@
-/***********************************************************************************
-************** MEDIA SCREENS *******************************************************
-***********************************************************************************/
 
-
-/* Smartphones (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-
-@media only screen and (min-width: 321px) {
-    /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width: 320px) {
-    /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    /* Styles */
-}
 html {
     font-family: sans-serif;
 }
@@ -58,17 +19,17 @@ body {
 
 .menus {
     width: 100%;
-    border-top: 10px solid #4648E7;
+    border-top: 10px solid white;
     border-bottom: 10px solid #4648E7;
     margin: auto;
     background: white;
-    margin-top: 125px;
+
     /* However tall the top area is. */
     padding: 15px 30px;
     box-sizing: border-box;
     background-size: 100% 6px;
-    height: calc(100vh - 250px);
-    max-height: calc(100vh - 250px);
+    height: calc(100vh - 125px);
+    max-height: calc(100vh - 125px);
     position: relative;
     overflow: auto;
     display: flex;
@@ -181,6 +142,14 @@ body {
     background-image: url("./img/ddd.png");
 }
 /********************** END BG IMAGES***************************/
+
+.menus .headerimg{
+    position:absolute;
+    height:50vh;
+    top:0;
+    z-index:100;
+    left:5vw;
+}
 #header {
     position: fixed;
     top: 0;
@@ -279,73 +248,93 @@ body {
 ***********************************************************************************/
 
 @keyframes dance {
-    0% {
-        transform: translate(-1px, 0px);
-    }
-    15% {
-        transform: translate(1px, 1px);
-    }
-    30% {
-        transform: translate(1px, -1px);
-    }
-    45% {
-        transform: translate(0px, 1px);
-    }
-    60% {
-        transform: translate(-1px, -1px);
-    }
-    75% {
-        transform: translate(-1px, 1px);
-    }
-    100% {
-        transform: translate(-1px, 0px);
-    }
+    0% {transform: translate(-1px, 0px);}
+    15% {transform: translate(1px, 1px);}
+    30% {transform: translate(1px, -1px);}
+    45% {transform: translate(0px, 1px);}
+    60% {transform: translate(-1px, -1px);}
+    75% {transform: translate(-1px, 1px);}
+    100% {transform: translate(-1px, 0px);}
 }
 @keyframes slidein {
     0% {
         transform: translate(300px, 0px);
         opacity: 0;
-    }
-    ;
+    };
     100% {
         transform: translate(0px, 0px);
         opacity: 1;
-    }
-    ;
+    };
 }
 @keyframes slideout {
     from {
         transform: translate(0px, 0px);
         opacity: 1;
-    }
-    ;
+    };
     to {
         transform: translate(-300px, 0px);
         opacity: 0;
-    }
-    ;
+    };
 }
 @-webkit-keyframes slidein {
     0% {
         -webkit-transform: translate(300px, 0px);
         opacity: 0;
-    }
-    ;
+    };
     100% {
         -webkit-transform: translate(0px, 0px);
-        opacity: 1;
-    }
-    ;
+      opacity: 1;
+    };
 }
 @-webkit-keyframes slideout {
     from {
         -webkit-transform: translate(0px, 0px);
         opacity: 1;
-    }
-    ;
+    };
     to {
         -webkit-transform: translate(-300px, 0px);
         opacity: 0;
-    }
-    ;
+    };
+}
+
+
+/***********************************************************************************
+************** MEDIA SCREENS *******************************************************
+***********************************************************************************/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
 }
