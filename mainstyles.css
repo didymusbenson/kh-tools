@@ -3,7 +3,7 @@ html {
     font-family: sans-serif;
 }
 body {
-    background: black;
+    background: white;margin:0;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -158,17 +158,19 @@ body {
     box-sizing: border-box;
     background: linear-gradient(to bottom, #000000, #19193B, #19193B);
 }
+
 #footer {
     position: fixed;
     bottom: 0;
     height: 125px;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 0;
-    float: left;
-    margin: auto;
+
+    margin: 0 auto;
     background: linear-gradient(to top, #000000, #19193B, #19193B);
 }
+
 #menuheader {
     border-left: 10px double #FFA13E;
     color: #FFA13E;
