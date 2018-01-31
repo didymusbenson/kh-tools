@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>BBS MELDING GUIDE</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron|Ubuntu:700i" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <!--Stylized footer for page decoration-->
+    <div class="header"></div>
+    <!--Takes up 1/2 or more of the screen, has a big centerpiece that contains the melding elements-->
+    <div class="half melding-menu">
+    <div class="meld">
+        <div class="melding slot-1"></div>
+    <div class="melding slot-2"></div>
+    <div class="melding item"></div>
+        </div>
+        <div class="new-command">
+        <div class="result"></div>
+            <div class="ability"></div>
+        </div>
+    </div>
+<!----------------------------------------------------------------------------------->
+    <!--Create a list of medable commands from the unique values in the commands.json "first" and "second" slots. Then make them available here. Add a click event listener that will add them to the menu-->
+<div class="half command-menu">
+    <!--Search bar to filter results-->
+    <div class="search"></div>
+    <!--Tabbed menu, like in the game. Icon appears when collapsed, Name appears when open.-->
+    <div class="tabs">
+        <div class="tab all"></div>
+        <div class="tab attack"></div>
+        <div class="tab magic"></div>
+        <div class="tab special"></div>
+        <div class="tab movement"></div>
+        <div class="tab defense"></div>
+        <div class="tab reaction"></div>
+        <div class="tab synthesis"></div>
+    </div>
+</div>
+
+</div>
+
+<!--Stylized footer for page decoration-->
+     <div class="footer"></div>
+
+
+</body>
+<script src="./seed-objects.js"></script>
+    <script src="./script.js"></script>
+</html>
