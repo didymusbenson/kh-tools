@@ -44,7 +44,7 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 |---|---|---|---|---|---|
 | World completion view | All | What remains in this world? | Collectibles, areas, prerequisites, progress | High | Shared shell, per-game categories |
 | Universal search | All | Where/how do I obtain this? | Normalized entities and aliases | High | Must work offline |
-| Synthesis planner | KH1/KH2/KH3 | What materials remain and where do I farm them? | Recipes, quantities, drops, locations | High | Computed totals |
+| Synthesis planner | KH1/KH2/KH3 | What materials remain and where do I farm them? | Recipes, quantities, drops, locations, optional inventory | First-class MVP | Owned/required (x/y) reminders when enabled; validated totals and shared-stock allocation |
 | Command melding tool | BBS | How do I make this command/ability? | Meld recipes, crystals, type rules | High | Bidirectional lookup |
 | Objective tracker | 0.2 | Which objectives remain and how are they completed? | Objectives, unlocks, conditions, rewards | High | Independent from BBS progression |
 | Spirit recipe planner | DDD | What can I create and which recipe is best? | Recipes, materials, probabilities, ranking rules | High | Recommendation logic must be explainable |
@@ -77,3 +77,5 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 ## Accepted collection focus
 
 Follow the [shared compendium contract](./content/collectible-compendium-and-linked-views.md). Keep synthesis, equipment, optional challenges, Gummi, records and achievements in their own named tracks. Necessary acquisition prerequisites belong in item guidance; full story walkthroughs and exhaustive narrative Journal flags are outside current scope.
+
+Melding and Spirit creation inherit the applicable [optional-inventory and calculation standards](./content/synthesis-and-inventory.md) with game-specific rules. Fully spoilerful content requires no spoiler warnings. Required access conditions are reference data, not an Available Now/progress tracker.
