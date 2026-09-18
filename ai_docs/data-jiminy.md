@@ -56,6 +56,12 @@ Application code controls allowed retrieval, game/edition filters, exact calcula
 
 Evaluate latency, correctness, concise output, unsupported-query handling, and attempts to induce roleplay or unrelated output. Do not assume prompt instructions eliminate hallucinations.
 
+## Accepted presentation and recipe answers
+
+Answer openly with no spoiler warnings or concealment. Do not ask the player for story/ability milestones or power an Available Now filter. Include acquisition prerequisites when needed for a correct answer.
+
+Synthesis is first-class. When optional inventory is enabled, use application-computed owned/required counts and remaining-material totals from the [shared synthesis contract](./content/synthesis-and-inventory.md); when disabled, give full recipe requirements without assuming inventory. Keep answers short and directly linked to recipes/sources. App acceptance follows the [Apple-first testing policy](./testing-and-content-validation.md).
+
 ## Collection lookup scope
 
 Follow the [collectible compendium contract](./content/collectible-compendium-and-linked-views.md). For “where is this?” return the matched item's world/area, concise directions and necessary acquisition prerequisites, with a link to the same stable record used by compact and expanded checklists. Progress answers use application-computed collectible sets; routine plot flags and character biography updates do not affect world percentages. Do not turn answers into a full story walkthrough.
