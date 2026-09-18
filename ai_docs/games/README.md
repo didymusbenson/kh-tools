@@ -27,6 +27,7 @@ Every game specification should eventually define:
 - Spoiler handling
 - Offline content requirements
 - Source provenance and verification status
+- Screenshot and map opportunities
 - Game-specific Ars Arcanum journal theme
 - Acceptance criteria for declaring the guide comprehensive
 
@@ -43,8 +44,15 @@ Every factual record should support:
 - Prerequisites and required movement/progression abilities
 - Rewards or outputs
 - Related entities
+- Optional media references
 - Source provenance
 - Verification status
 - Optional spoiler classification
+
+## Screenshot and map policy
+
+The content model and layouts must support location screenshots, maps, and annotations from the start. Production media is deferred beyond MVP and may be added only when the project possesses an approved asset and documented permission or ownership. Text instructions must always stand on their own.
+
+See [Screenshot, Map, and Visual Location Support](../content/screenshot-and-map-support.md).
 
 A source being present in the legacy material does not make it correct or complete.
