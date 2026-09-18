@@ -154,17 +154,21 @@ Keep add-on progress distinct from base-game completion:
 - “What remains in the base game versus Re Mind?”
 - “Which Gummi objectives count toward completion?”
 
-## Journal presentation
+## Journal presentation — digital Gummiphone-style menu
 
-KH3 is especially compatible with the Ars Arcanum metaphor because the Gummiphone already presents a structured record. The design should not simply clone the Gummiphone. Instead, combine the shared Jiminy's Journal shell with KH3's cleaner, luminous, crown-and-heart visual language and photography motifs.
+Accepted user direction: KH3 uses a more menu-like digital journal, based on the supplied Gummiphone screenshot. It does not need a literal book, parchment, or binder.
 
-Potential theme elements:
+- Dark navy/indigo star-field atmosphere with restrained constellation-like lines.
+- Rectangular blue/violet category tiles, prominent readable icons, and explicit labels.
+- Cyan/blue selected-state highlights and warm completion badges.
+- A world/context panel may appear on larger screens when useful assets exist; it must not leave an empty character-art column in MVP.
+- Responsive tile counts and full-width detail panels on phones; do not shrink the console screenshot.
+- Preserve the same search, progress, cross-links, accessibility, and edition controls as other games.
+- Text and location instructions remain complete without images.
 
-- Bright white and deep navy page surfaces
-- Cyan, gold, and magenta highlights
-- Framed photo/contact-sheet treatments for Lucky Emblems and Photo Missions
-- Constellation motifs for Gummi content
-- Modern tab markers and polished glass overlays used sparingly
+This supersedes the earlier bright-page palette proposal. The journal is the information model; its presentation here is digital.
+
+See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
 ## Known research gaps
 
