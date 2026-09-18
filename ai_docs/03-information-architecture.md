@@ -31,7 +31,9 @@ Deep links may enter directly at steps 3–5.
   - Collections and treasures
   - Character context where useful for acquisition
   - Adversaries
-  - Synthesis/crafting
+  - Synthesis/crafting (first-class navigation)
+    - Recipe catalog, material sources and remaining-material planner
+    - Optional inventory and owned/required ingredient reminders
   - Equipment and abilities
   - Minigames/challenges
   - Reports/records
@@ -131,3 +133,7 @@ World collection progress uses explicit collectible membership; it is not a stor
 Follow the [shared compendium contract](./content/collectible-compendium-and-linked-views.md): world-grouped collectible slots lead to the same items' location/acquisition rows. Both views read and write one persistent record per item; no second set of checks. Preserve journal ordering where verified and distinguish app-defined ordering otherwise. Checking and opening details must be distinct accessible actions.
 
 World details answer where an item is, how to reach it, required abilities/access conditions, and what it yields. Routine plot steps and character conversations are not completion tasks. A necessary acquisition conversation remains valid guidance. Synthesis, equipment, challenge, Gummi and achievement navigation remain in scope as separate goals.
+
+## Accepted presentation policy
+
+Content is fully spoilerful: no warnings or reveal flows. Omit Available Now filters and story/ability milestone entry. Access requirements remain visible facts in acquisition details. Synthesis is a first-class destination; recipe, required material and farming/source entries cross-link directly. Inventory is optional and governed by the [shared contract](./content/synthesis-and-inventory.md).
