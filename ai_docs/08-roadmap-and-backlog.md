@@ -41,6 +41,7 @@ Phases below describe work order, not separate releases. All non-deferred requir
 ## Phase 3: First usable guide experience
 
 - Deliver complete text-first workflows for every specified MVP game.
+- Treat synthesis/crafting as first-class: optional inventory, owned/required reminders, source navigation and independently validated recipe/shortfall logic.
 - Implement bundled-SLM, game-scoped Coppermind Q&A with grounded answers and source links.
 - Validate zero-media entry presentation.
 - Validate media-capable components with test fixtures.
@@ -94,3 +95,7 @@ Discovery should assess the existing WintersRain/coppermind project, grounding a
 ## Accepted compendium interaction
 
 Build world-grouped compact collectible indexes and expanded location details backed by one persistent item identity. Validate both-direction checks, deduplication, offline persistence and collectible-only world percentages. Full narrative Journal manifests and story walkthroughs are not release gates. Separate crafting/challenge/achievement goals remain MVP. See the [shared contract](./content/collectible-compendium-and-linked-views.md) and [research assignments](./research/parallel-game-research.md).
+
+## Accepted app acceptance sequence
+
+Initial smoke and acceptance run on Apple browser, iPhone and iPad; Android compatibility follows. User gameplay is not a testing prerequisite. Follow [test/content-validation policy](./testing-and-content-validation.md). Remove spoiler-warning/concealment and Available Now/progress-gate tracking work from scope. Keep acquisition requirements as reference text.
