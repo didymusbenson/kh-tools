@@ -28,6 +28,8 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 ## Detailed specifications
 
+- [Data Jiminy: offline AI assistant and disclaimer](./data-jiminy.md)
+
 - [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
 - [Screenshot, map, and visual location support](./content/screenshot-and-map-support.md)
