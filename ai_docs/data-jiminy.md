@@ -4,7 +4,7 @@
 
 Accepted MVP feature for Ars Arcanum. The natural-language Coppermind query interface is represented by Jiminy Cricket and is specifically named **Data Jiminy**. This is the user-facing identity of the per-game Coppermind assistant. Planning remains the current phase; no application implementation is authorized by this document.
 
-Use the same recognizable identity across game-specific journal themes. Character-art treatment remains to be specified; do not assume reference screenshots are production assets.
+Use the same recognizable identity across game-specific journal themes. The user has supplied the Jiminy character PNG identified below for the launcher design; preserve it as the provided asset rather than extracting art from journal screenshots.
 
 ## Highlighted AI disclaimer — initial user-authored copy
 
@@ -57,7 +57,7 @@ Accepted 2026-09-18: one app-wide answering model, separate game contexts. The a
 - Show the current game clearly in the open interface. Use a panel or responsive sheet suited to the device; opening and closing it preserves the underlying journal's location and checks.
 - Respect iPhone/iPad safe areas and the on-screen keyboard. Reserve enough space that Jiminy/bubble do not cover the final checklist row, inventory input, navigation or primary action.
 - Provide a clear close action and sensible focus restoration to the launcher. Keep the initial AI disclaimer above prominently available.
-- Preserve the Jiminy representation requirement; do not assume reference screenshots are production character artwork. An unavailable model can show readiness/download status in the interface without blocking normal guide use.
+- Use the user-supplied Jiminy character PNG identified below for the launcher design. An unavailable model can show readiness/download status in the interface without blocking normal guide use.
 
 ## Direct-answer contract
 
@@ -133,3 +133,14 @@ References discussed during planning:
 6. Verify game/edition/character/DLC filters and scoped caches in offline operation, including 0.2 versus BBS.
 7. On initial Apple targets, launcher and interface remain usable with touch, keyboard, screen reader, zoom, rotation, safe areas and soft keyboard, without obscuring journal controls.
 8. Closing restores journal position/focus; returning to game selection removes the game-specific launcher. Suggested questions and source links remain scoped.
+
+## User-supplied Jiminy asset
+
+- Original attachment: `6a6444f0-2e49-4a3e-9cd2-13b0af30b59d.png`.
+- Persistent attachment ID: `libfile_773b16c6ad10819188967d29bdd072ae`.
+- Inspected original: 408 × 608 pixels, RGBA PNG with transparency (alpha range 0–255).
+- SHA-256: `9483988664047c3d2e6b40e5f33839178558ee7560fb184a60f7c95c0f4c1aed`.
+- Depiction: full-body Jiminy with blue hat, yellow vest, folded umbrella and raised index finger. User supplied this asset for Data Jiminy.
+- Design use: bottom-right launcher across game journals. Preserve aspect ratio, transparent silhouette and the raised hand. Proposed placement puts the separate “…” button above/beside the raised finger; evaluate at actual phone size without covering journal controls.
+- Keep the bubble as an independent accessible UI control, not text baked into the image. Scale responsively; avoid enlarging the raster beyond useful sharpness. No image alteration was requested or performed.
+- Storage status: original retained as the user attachment; this planning update records its identity and metadata, not a repository binary import. Import a named app asset during implementation. User-supplied provenance is recorded; no independent license assertion is made.
