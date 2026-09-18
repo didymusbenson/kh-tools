@@ -59,8 +59,12 @@ A source being present in the legacy material does not make it correct or comple
 
 ## Mandatory persistent checklist behavior
 
-Every game inherits [Persistent Checklists and Player Progress](../content/persistent-checklists-and-progress.md). Each specification must map its completion items to stable IDs, define counting rules, identify character/edition-specific versus shared state, and support saved checks, Remaining filters, counts, and resuming the last section. This is required for MVP. 0.2 has independent progress even though it sits within the BBS family.
+Every game inherits [Persistent Checklists and Player Progress](../content/persistent-checklists-and-progress.md) and the [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md). World-grouped compact slots and detailed location rows use the same saved item IDs. World percentages exclude plot progression, routine conversations and character biography updates; other completion goals retain separate tracks. Each specification must map its completion items to stable IDs, define counting rules, identify character/edition-specific versus shared state, and support saved checks, Remaining filters, counts, and resuming the last section. This is required for MVP. 0.2 has independent progress even though it sits within the BBS family.
 
 ## Readiness and supported releases
 
 Use the [per-game readiness workbooks](../readiness/README.md) to resolve questions and track evidence. Modern/current releases are the target; KH1 and KH2 use modern Final Mix. Original/non-Final-Mix and PS2-era compatibility are excluded. Research relevant modern platform differences without expanding backward-compatibility scope.
+
+## Parallel research
+
+[Five game research assignments](../research/parallel-game-research.md) cover KH2FM, BBSFM, 0.2, DDD HD and KH3/Re Mind. Each starts with the user's existing source records, then documents edition-correct findings, citations and unresolved inventory/verification gaps in its own spec and readiness file.
