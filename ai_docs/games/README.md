@@ -60,3 +60,7 @@ A source being present in the legacy material does not make it correct or comple
 ## Mandatory persistent checklist behavior
 
 Every game inherits [Persistent Checklists and Player Progress](../content/persistent-checklists-and-progress.md). Each specification must map its completion items to stable IDs, define counting rules, identify character/edition-specific versus shared state, and support saved checks, Remaining filters, counts, and resuming the last section. This is required for MVP. 0.2 has independent progress even though it sits within the BBS family.
+
+## Readiness and supported releases
+
+Use the [per-game readiness workbooks](../readiness/README.md) to resolve questions and track evidence. Modern/current releases are the target; KH1 and KH2 use modern Final Mix. Original/non-Final-Mix and PS2-era compatibility are excluded. Research relevant modern platform differences without expanding backward-compatibility scope.
