@@ -30,10 +30,34 @@ These notes do not replace the quoted draft. Review final copy against the imple
 - Users ask natural-language questions about the selected game and receive answers grounded in stored guide data.
 - No user login, API key, external account connection, separately installed model server, or model-selection/configuration step is required.
 - Embedding, retrieval, and answer generation run locally after the required resources are downloaded. No hosted inference fallback is part of the accepted design.
-- One shared answering model can serve separate game knowledge packs. Preserve game, edition, character, and DLC boundaries.
+- One shared answering SLM serves the entire app. Game-specific models or duplicate weights/downloads are not required. Each game has its own session/context and Coppermind scope; preserve edition, character and DLC boundaries within it. The existing query-embedding component is also shared infrastructure, not a separate assistant per game.
 - Show readable download progress and verified offline readiness; do not claim readiness until all required model/runtime/data files are present.
 - Keep guide browsing and persistent checklists usable while the assistant is downloading or unavailable.
 - Link answers to their supporting guide entries. When the stored guide cannot support an answer, state the gap rather than fabricate game facts.
+
+## Shared model, isolated game sessions
+
+Accepted 2026-09-18: one app-wide answering model, separate game contexts. The active journal determines scope; question text cannot change it.
+
+- Bind every request to the active canonical game ID and applicable ruleset/character/DLC context. Retrieve only that game's permitted records and apply the same scope to citations, suggested questions, progress and inventory calculations.
+- Conversation history, follow-up references, retrieved passages and generated-answer caches must be isolated by game. Within-game navigation can retain the session. Switching games creates or restores that game's own session; never append the prior game's history.
+- Reuse shared model weights/runtime, but clear or replace active inference context between game sessions. Any context/cache reuse must retain the same isolation.
+- Cancel or discard an in-flight response if its originating game/session is no longer active. A late BBS answer must never appear in the KH1 panel.
+- Asking a BBS question from KH1 does not trigger cross-game retrieval or automatic switching. Return a brief scope response such as “Open the Birth by Sleep journal for that question.” If the intended game is unknown, use the existing scoped no-result response.
+- Shared terms such as “Ultima Weapon” resolve against the active journal. No BBS suggested prompts, retrieved facts or follow-up context in KH1.
+- 0.2 has its own game session even inside the BBS navigation family. Re Mind remains explicitly scoped within KH3.
+- Session isolation is required regardless of whether conversation history is retained across app restarts; long-term transcript retention is not implied.
+
+## In-journal launcher and interface
+
+- Once inside a specific game, anchor Data Jiminy at the bottom right of the app viewport. Keep him available across that game's sections and entry pages.
+- Give him a small visible **“…” chat bubble**. Tapping/clicking it opens the Data Jiminy interface for the current game.
+- Do not show an unscoped Jiminy launcher on the main game-selection screen. Entering a game establishes scope before the interface can accept a question.
+- The bubble is a semantic button with an accessible name such as “Open Data Jiminy for Kingdom Hearts Final Mix,” visible keyboard focus and a touch target larger than its decorative dots.
+- Show the current game clearly in the open interface. Use a panel or responsive sheet suited to the device; opening and closing it preserves the underlying journal's location and checks.
+- Respect iPhone/iPad safe areas and the on-screen keyboard. Reserve enough space that Jiminy/bubble do not cover the final checklist row, inventory input, navigation or primary action.
+- Provide a clear close action and sensible focus restoration to the launcher. Keep the initial AI disclaimer above prominently available.
+- Preserve the Jiminy representation requirement; do not assume reference screenshots are production character artwork. An unavailable model can show readiness/download status in the interface without blocking normal guide use.
 
 ## Direct-answer contract
 
@@ -98,3 +122,14 @@ References discussed during planning:
 - Model-cache cleanup and content updates preserve saved player progress.
 - Data Jiminy identity and a prominent, accessible AI disclaimer are present; model name and offline/data-access statements match the actual implementation.
 - Technical blockers are raised for a product decision, not silently deferred beyond MVP.
+
+## Session and launcher acceptance
+
+1. Enter KH1: bottom-right Jiminy and “…” launcher are present; opening identifies KH1 and uses only KH1 records/prompts.
+2. Ask a KH1 question, switch to BBS, then ask a follow-up: KH1 history and retrieval do not leak into BBS. Returning to KH1 uses only its own session context.
+3. Ask a BBS-specific question while in KH1: brief scope guidance, no BBS retrieval or answer.
+4. Switch journals during inference: the old response cannot render in the new game's interface.
+5. Reuse one answering-model download/cache across games; verify game switching does not download duplicate model weights.
+6. Verify game/edition/character/DLC filters and scoped caches in offline operation, including 0.2 versus BBS.
+7. On initial Apple targets, launcher and interface remain usable with touch, keyboard, screen reader, zoom, rotation, safe areas and soft keyboard, without obscuring journal controls.
+8. Closing restores journal position/focus; returning to game selection removes the game-specific launcher. Suggested questions and source links remain scoped.
