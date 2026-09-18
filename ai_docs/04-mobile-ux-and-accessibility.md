@@ -16,6 +16,7 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Core actions remain usable offline.
 - Journal decoration must not reduce readable content space excessively.
 - Direct links open content immediately without forcing an intro sequence.
+- Entries remain complete and well-composed when they contain no screenshots.
 
 ## Fly-in game selector
 
@@ -36,12 +37,29 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Cross-references visibly communicate where the user will go.
 - Completion changes are reversible and provide clear feedback.
 
+## Screenshot and map presentation
+
+Production screenshots and maps are deferred beyond MVP, but the layouts must support them from the start.
+
+- Do not show empty frames or placeholder galleries when an entry has no media.
+- Text location instructions must remain independently sufficient.
+- One primary location image should fit naturally on a phone.
+- Maps and screenshots may appear together with clearly distinct captions.
+- Enlarged media must preserve journal position when closed.
+- Edition/platform-specific images require visible context.
+- Spoiler-sensitive media remains intentionally hidden.
+- Optional uncached images do not block offline entry content.
+- Test synthetic/owned fixtures must never be confused with production guide assets.
+
+See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-support.md).
+
 ## Larger screens
 
 - Preserve the journal reading metaphor without stretching text across the viewport.
 - Use facing pages only when it improves relationships or comparison.
 - Allow persistent contents/index navigation where space permits.
 - Tools may use split views for inputs and results.
+- Media and text may use a coordinated split layout.
 - Game selection can become more spatial while preserving a list-equivalent navigation model.
 
 ## Accessibility baseline
@@ -54,7 +72,8 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Respect reduced-motion preferences
 - Do not encode meaning using color alone
 - Responsive text without clipping at browser zoom
-- Text alternatives for decorative and informational images
+- Useful alternatives for informational screenshots and annotated maps
+- Text equivalents for complex location annotations
 - Status announcements for checklist and offline/update changes
 - No essential handwriting-style body copy
 
@@ -64,7 +83,7 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Per-game theme tokens for color, ornament, display type, icons, and motion
 - Quiet reading surfaces for dense reference material
 - Texture treated as decoration rather than the source of contrast
-- Consistent completion, source, edition, and spoiler indicators across themes
+- Consistent completion, source, edition, spoiler, and media indicators across themes
 - Original visual interpretation rather than direct menu reproduction
 
 ## Usability scenarios
@@ -72,6 +91,9 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Select a game with reduced motion enabled.
 - Open a shared deep link directly to an offline entry.
 - Check off a collectible one-handed during play.
+- Read a complete location entry with no image.
+- Open and zoom an approved location screenshot when present.
+- Encounter optional uncached media while offline without losing instructions.
 - Compare edition differences without losing current progress.
 - Search for a material, follow it to an enemy, then to the enemy's area.
 - Use a dense melding/recipe planner at phone width.
