@@ -11,7 +11,7 @@
 ## Top-level journey
 
 1. Ars Arcanum cover/title experience
-2. Fly-in game selector
+2. Anchored game selector with fly-in artwork
 3. Selected game's journal
 4. Journal section, index, checklist, tool, or individual entry
 5. Cross-references to related entries
@@ -109,7 +109,7 @@ World collection progress uses explicit collectible membership; it is not a stor
 - Journal contents available from every game page
 - Browser-native back/forward behavior
 - Keyboard and screen-reader parity
-- Reduced-motion equivalent for fly-in and page transitions
+- Reduced-motion equivalent for artwork fly-in and optional page transitions; game choices remain anchored
 - Cross-references for item → recipe → source → area relationships
 
 ## Deep-linking requirements
