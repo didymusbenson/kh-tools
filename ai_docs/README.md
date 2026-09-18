@@ -6,6 +6,10 @@ This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanu
 
 Discovery and specification only. Application implementation should not begin until the requirements, content model, and first release scope are sufficiently understood.
 
+## MVP scope rule
+
+All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features or authorize implementation while discovery is ongoing.
+
 ## How to contribute information
 
 Put unstructured notes, links, examples, feature ideas, and source material into [00-planning-inbox.md](./00-planning-inbox.md). Information can be reorganized into the focused documents as decisions become clearer. Preserve the original intent when consolidating notes, and record consequential choices in the decision log.
