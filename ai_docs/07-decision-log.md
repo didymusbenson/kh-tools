@@ -148,3 +148,30 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Alternatives considered:** Independent checks in each presentation; aggregate-only world lists without item mapping.
 - **Consequences:** Derived parent summaries, explicit counting units, stable ordering metadata, deduplication, offline persistence and accessible separate open/toggle actions are required. See the [shared contract](./content/collectible-compendium-and-linked-views.md).
 - **Supersedes / superseded by:** Refines DEC-007; does not change persistent progress requirements.
+
+## DEC-013: Spoilerful compendium without progress-gate tracking
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** Show content openly with no spoiler warnings, hiding or reveal controls. Omit Available Now filters and manual story/ability milestone tracking. Keep required abilities and access conditions in acquisition guidance.
+- **Rationale:** Explicit user direction; the app provides direct reference answers.
+- **Consequences:** Remove prior spoiler and optional availability-tracker proposals across all games, search, media and Data Jiminy. World collectible progress remains unaffected by narrative gates.
+- **Supersedes:** Prior unresolved spoiler/Available Now questions and proposed hidden-media behavior.
+
+## DEC-014: Steam context and Apple-first app acceptance
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** User plays Steam. Initial app smoke and acceptance use Apple browser, iPhone and iPad; Android is a follow-up test target. Validate app functionality without requiring user gameplay or a completion playthrough.
+- **Rationale:** Explicit user testing plan.
+- **Consequences:** Record actual device/browser versions during execution. Source reconciliation and structured-data validation still establish content accuracy; they do not depend on the user's game progress. See [testing policy](./testing-and-content-validation.md).
+- **Supersedes:** User-device question and mandatory gameplay/modern-save verification gates.
+
+## DEC-015: First-class synthesis with optional inventory
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** Make synthesis a first-class feature. Optional player inventory displays owned/required (x/y) reminders on recipe ingredients and supports accurate remaining-material calculations.
+- **Rationale:** The user identifies synthesis as the least enjoyable part of collection and wants strong functional support.
+- **Consequences:** Prioritize recipe/source navigation, persistent optional stock, deterministic calculations and independent acceptance fixtures. Keep crafted history separate from current stock and avoid double-allocating inventory. Propagate applicable lessons to KH2/KH3 synthesis, BBS melding and DDD creation without inventing crafting in 0.2. See [shared contract](./content/synthesis-and-inventory.md).
+- **Supersedes:** Unresolved KH1 inventory question; strengthens existing crafting MVP priority.
