@@ -69,7 +69,7 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Decision:** Include optional screenshot, map, annotation, accessibility, provenance, rights, and offline fields in the architecture from the start. Test media-capable UI with synthetic or project-owned fixtures, while shipping no production screenshot unless an approved asset already exists.
 - **Rationale:** This prevents costly schema and layout retrofits while keeping MVP text-first and avoiding rights problems.
 - **Alternatives considered:** Ignore media until after MVP; require screenshots for MVP; display empty placeholders.
-- **Consequences:** Records and components must render cleanly with zero media. Production builds validate rights state and accessibility metadata. Media caching and bulk visual downloads remain post-MVP work.
+- **Consequences:** Records and components must render cleanly with zero media. Production builds validate rights state and accessibility metadata. Media-support design and testing remain MVP. Only production visual assets awaiting acquisition are explicitly deferred; no blanket deferral of media functionality is implied (clarified by DEC-008).
 - **Supersedes / superseded by:** None
 
 ## DEC-006: Use game-specific journal presentations
@@ -93,3 +93,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Consequences:** Stable identifiers, game/character scope, migrations, failure handling, and accessible completion controls are required. Local-first storage and export/import are proposed safeguards; cloud sync is not implied.
 - **Alternatives considered:** Session-only checklists; reference-only guides.
 - **Supersedes / superseded by:** Makes persistent checklist behavior mandatory rather than a generic future planning item.
+
+## DEC-008: MVP by default; Coppermind included
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** “Later” was incorrectly interpreted as permission to defer the SLM/Coppermind feature beyond MVP.
+- **Decision:** All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features or authorize implementation while discovery is ongoing.
+- **Rationale:** The user explicitly clarified that later refers to their planning sequence, not the project's release scope.
+- **Consequences:** Bundled SLM and per-game, data-grounded Coppermind Q&A are required for MVP. Model/runtime selection, packaging, offline compatibility, and integration with WintersRain/coppermind remain engineering decisions to resolve for MVP. Escalate feasibility constraints rather than silently moving requirements to another release.
+- **Alternatives considered:** Automatically classifying unimplemented or technically unresolved requirements as future features; rejected.
+- **Supersedes / superseded by:** Supersedes prior outside-MVP Coppermind wording and any unapproved release deferrals; clarifies DEC-005 without removing the production screenshot asset exception.
