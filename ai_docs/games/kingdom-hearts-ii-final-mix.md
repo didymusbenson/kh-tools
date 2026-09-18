@@ -116,9 +116,19 @@ Every record needs world, area, unlock prerequisites, target score/time/rank, st
 - “How do I unlock and clear Mushroom XIII number X?”
 - “What is the shortest route from current progress to 100%?”
 
-## Visual direction hypothesis
+## Visual direction — green journal
 
-Use KH2's sharper, higher-contrast identity: black and silver framing, white space, red or warm accent cues, angular menu geometry, and organization-themed iconography. The visual system should evoke KH2 without copying its interface or compromising data density.
+Accepted user direction: KH2 shares the green Jiminy's Journal family with KH1. This replaces the earlier speculative black/silver theme.
+
+- Green outer framing, pale cream/lime pages, visible binder cues, and burgundy category tabs.
+- Purple/lavender contents panels can contrast with the lighter detail pages, as in the supplied references.
+- World/category context stays visible above the content.
+- Compact portrait/entry grids can organize collections when assets exist; labels remain sufficient without images.
+- Completion and newly available states must be distinct and accessible.
+- Single-page mobile reading; optional index/detail or facing-page composition on larger screens.
+- The character-grid reference informs browsing structure, not a requirement to copy its exact arrangement.
+
+See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
 ## Known source risks
 
