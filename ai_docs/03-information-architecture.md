@@ -137,3 +137,7 @@ World details answer where an item is, how to reach it, required abilities/acces
 ## Accepted presentation policy
 
 Content is fully spoilerful: no warnings or reveal flows. Omit Available Now filters and story/ability milestone entry. Access requirements remain visible facts in acquisition details. Synthesis is a first-class destination; recipe, required material and farming/source entries cross-link directly. Inventory is optional and governed by the [shared contract](./content/synthesis-and-inventory.md).
+
+## Data Jiminy within a game
+
+The selected journal establishes Data Jiminy's game scope. A bottom-right Jiminy representation with a tappable “…” bubble opens that game's query interface from any journal section. Game selection has no unscoped launcher. Changing journals selects a separate session/context while reusing the same app-wide model. History, suggested questions, retrieval and citations stay within the active game. See [Data Jiminy](./data-jiminy.md).
