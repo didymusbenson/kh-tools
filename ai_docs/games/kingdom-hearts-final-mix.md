@@ -4,6 +4,10 @@
 
 Discovery draft based on the legacy **KH FM TABLES** workbook. All factual data must be independently verified before release.
 
+## Supported release baseline and readiness
+
+Use modern Final Mix releases. Original/non-Final-Mix and PS2-era compatibility are out of scope. Reconcile legacy data against the modern baseline; preserve only relevant modern platform differences. See the [readiness workbook](../readiness/kingdom-hearts-final-mix.md) for data gaps, user decisions, and validation gates.
+
 ## Product objective
 
 Provide a complete, mobile-friendly companion for Kingdom Hearts Final Mix completion: what exists, where it is, when it becomes obtainable, what it unlocks, and how completion categories interact.
