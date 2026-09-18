@@ -169,15 +169,21 @@ The legacy wide crystal matrix should become one row per recipe-type/crystal/abi
 - “What must all three characters complete for the secret ending?”
 - “What remains in Aqua's 0.2 objectives?”
 
-## Ars Arcanum visual direction
+## Ars Arcanum visual direction — blue Reports
 
-Use a shared Wayfinder-family journal treatment with distinct inserts:
+Accepted user direction: Birth by Sleep uses the blue Reports journal treatment shown in the supplied references.
 
-- Terra, Ventus, and Aqua character accents for BBS
-- Wayfinder geometry and command-deck motifs
-- A darker, fragmented Aqua treatment for 0.2
-- Page edges, ink, or ornaments that transition into Realm of Darkness motifs
-- Explicit labels and icons so character/theme color is never the only signal
+- Cobalt/royal-blue framing with cyan header accents.
+- Deep navy, lightly starry contents surfaces with violet-blue list panels.
+- Pale icy-blue reading pages for tables, collectibles, and detailed entries.
+- Binder-ring cues and burgundy section tabs maintain the journal relationship to KH1–2.
+- Clear character name and emblem identify Terra, Ventus, or Aqua; character accents are secondary to the shared blue theme.
+- Completion badges align with rows; rewards and point thresholds remain scannable.
+- The Sticker Album reference informs reward-table hierarchy. Album art is optional and not required for MVP.
+- On phones, collapse the portrait/contents spread into a compact character header and full-width content.
+- 0.2 remains part of the BBS family, but its exact visual variation awaits additional inspiration; do not treat the earlier dark/fragmented suggestion as approved.
+
+See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
 ## Known source risks and gaps
 
