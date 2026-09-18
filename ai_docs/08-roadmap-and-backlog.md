@@ -76,3 +76,9 @@ This roadmap is intentionally phase-based. Dates and detailed estimates should w
 - Canonical capture platform/resolution
 - Maintaining annotations when images change
 - Ensuring decorative journal treatments do not crowd media or text
+
+## Future exploration: per-game Coppermind
+
+Outside MVP, investigate a bundled SLM that answers player questions from each game's stored guide data. See [the architecture direction](./05-technical-architecture.md#future-direction-per-game-coppermind-with-a-bundled-slm).
+
+Discovery should assess the existing WintersRain/coppermind project, grounding and source citations, game/edition boundaries, on-device offline feasibility, model licensing, download packaging, device resource limits, and privacy. Prototype only after these choices are scoped; preserve a complete model-free guide and checklist experience. This is a recorded product idea, not authorization to implement AI functionality during planning.
