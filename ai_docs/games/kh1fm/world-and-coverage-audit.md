@@ -14,7 +14,7 @@ These pages were inspected for treasure, reward, prerequisite and revisit covera
 
 | World / inspected source | Required inventory and notable rules |
 |---|---|
-| [Destiny Islands](https://www.khwiki.com/Game:Destiny_Islands) | Raft/supply items, Protect Chain alcove, sparring, race/Pretty Stone, Kairi's supply rewards. Capture day-specific availability and temporary objectives separately from permanent collection. |
+| [Destiny Islands](https://www.khwiki.com/Game:Destiny_Islands) | Raft/supply items, Protect Chain alcove, sparring, race/Pretty Stone, Kairi's supply rewards. Capture day-specific availability and relevant collectible rewards. Temporary plot objectives are route context, not required collection checks. |
 | [Traverse Town](https://www.khwiki.com/Game:Traverse_Town) | Chests, shop-stock phases, Gizmo/Postcards, Dalmatians and turn-ins, workshop, Geppetto, spell/summon reward NPCs. The same action can open access and yield a collectible; avoid duplicate checks for one event. |
 | [Wonderland](https://www.khwiki.com/Game:Wonderland) | Bizarre Room orientations, Lotus Forest flowers, evidence, Tea Party Garden, Trinities and changed puppy placements. Evidence is pre-trial; Rabbit Hole rewards vary by story phase. |
 | [Olympus Coliseum](https://www.khwiki.com/Game:Olympus_Coliseum) | Grounds chests, torch interactions, training, preliminary tournament, four cups/variants, Gold/Platinum. Blizzara/Blizzaga torch rewards and the pot reward must not disappear behind a “cups only” checklist. |
@@ -43,13 +43,13 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 
 | ID | What this pass supplies | Remaining work before content is complete |
 |---|---|---|
-| D01 | World atlas; key ability/color unlocks; important phase changes | Full area graph, earliest-access flags and text routes |
+| D01 | World atlas; key ability/color unlocks; important phase changes | Collectible-relevant area links, earliest-access flags and text routes; no full story-route graph |
 | D02 | Inspected per-world treasure/reward sources; specific missability examples | Extract every FM container/reward; deduplicate interactions; reconcile per-area totals |
 | D03 | 33-group/99-puppy denominator, milestone rewards and relocated-group corrections | Import/check every group and exact route against legacy data |
 | D04 | 46-mark denominator, color counts/unlocks, party condition and missability correction | Import all locations/rewards; reconcile story marks and chest relations |
 | D05 | All ten acquisition slots and ten mailing rewards | Expand Gizmo route into exact steps; verify acquisition/mailing state transitions |
 | D06 | Five page sources, episode rewards, Cheer thresholds, Rare Nut rewards | Exact activity tutorials, nut/treasure routes and all record-entry conditions |
-| D07 | Journal section taxonomy and all 13 Report acquisitions | Full Chronicles, Characters I/II and Heartless entry/update manifests |
+| D07 | Journal section context and all 13 Report acquisitions | Normalize Report acquisition/reward dependencies; exhaustive narrative/biography update manifests are not required |
 | D08 | All 33 recipe ingredient rows; six unlock sets; recalculated direct material totals | Resolve C01 below, reconcile workbook, verify in game and normalize |
 | D09 | Ordinary base sources, ten special-material encounters, reset/modifier rules and mushroom rewards | Every source alternative, spawn room, phase, conditional roll and farming route |
 | D10 | 18 Keyblades, 15 staves, 15 shields with acquisition paths; shop prices/stages | Complete accessory/item catalog and all stats/effects; achievement membership |
@@ -72,14 +72,14 @@ These remain research/validation tasks for the agent, not questions asking the u
 | KH1-C01 | Energy Bangle Spirit Shard quantity conflicts across two source pages | Dedicated [recipe](https://www.khwiki.com/Energy_Bangle) says 2; [material summary](https://www.khwiki.com/Spirit_Shard) says 1. Current planning calculation uses 2 provisionally; check modern recipe screen. |
 | KH1-C02 | Earliest Unknown portal appearance | [Battle source](https://www.khwiki.com/Game:Xemnas) establishes mechanics/rewards; exact story flag still needs reliable evidence. |
 | KH1-C03 | Restricted-run edge cases | [Achievement descriptions](https://steamcommunity.com/stats/2552430/achievements/) do not establish party-equipment scope, scripted exceptions, reload handling or pause/timer semantics. Validate before prescribing a route. |
-| KH1-C04 | Exact Journal entry/update manifest | [Journal source](https://www.khwiki.com/Jiminy%27s_Journal) establishes categories; enumerate every required entry and trigger, including updates to an existing character. |
+| KH1-C04 | Retired scope assumption: exhaustive narrative Journal entry/update manifest | User clarification 2026-09-18 removes this as a compendium release blocker. Retain [Journal context](https://www.khwiki.com/Jiminy%27s_Journal) where a real trophy/unlock needs it; do not include story or biography flags in world collectible progress. |
 | KH1-C05 | Wonderland Gummi mission 2 wording | [Mission source](https://www.khwiki.com/Gummi_Missions) uses ambiguous wording for Haste blocks; verify whether the in-game requirement is activation count before implementing its predicate. |
 
 ## Counts and provenance discipline
 
 Transcribed here: 33 recipes, 10 postcard acquisition slots, 13 Report numbers, 21 magic acquisition events, 6 summons, 30 Gummi objectives, 48 blueprint names and 48 obtainable party weapons. Expected source counts additionally include 33 puppy groups, 46 Trinities and 5 Torn Pages. A grouped table row may represent more than one record; expand it explicitly during import.
 
-No app database was populated by this pass. Full treasure, Journal-entry, accessory, enemy/stat and level-row totals remain **unmeasured**, not zero. No row has been hands-on verified by this research pass. Counts above describe planning coverage and source inventories only.
+No app database was populated by this pass. Full treasure, accessory, acquisition-relevant enemy/stat and level-row totals remain **unmeasured**, not zero. Narrative Journal entry/update totals are outside the current compendium inventory requirement. No row has been hands-on verified by this research pass. Counts above describe planning coverage and source inventories only.
 
 Most game-mechanic evidence here is from KHWiki, a community reference; its version annotations and occasional inconsistencies need review. Steam provides primary evidence for the modern package and public achievement wording. Store `source_url`, `checked_at`, `ruleset`, `evidence_kind`, `verification_status` and any unresolved conflict with each imported record. Retain original concise instructions rather than copying source guide prose.
 
@@ -87,4 +87,4 @@ Most game-mechanic evidence here is from KHWiki, a community reference; its vers
 
 Package the actual verified records and authored directions with the game content. Citation links are provenance users can open when online; they must not be the only place an answer exists. Data Jiminy must return a known record's location/prerequisites or a clear unknown status. It must not turn a research lead, ambiguous source or unresolved field into a confident answer. App code performs recipe and completion calculations.
 
-All remaining rows above are MVP work. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
+All active remaining rows above are MVP work; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
