@@ -126,3 +126,25 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Consequences:** Jiminy remains the visual identity; the existing user-authored disclaimer remains intact. Prefer direct structured results and application-controlled retrieval. Standing model instructions support the behavior but do not guarantee output correctness or enforce access controls.
 - **Alternatives considered:** General conversational assistant; character-driven chat.
 - **Supersedes / superseded by:** Refines DEC-009. Any earlier chatbot/conversational wording describes the input mechanism or model technology, not a personality-driven product experience. See [Data Jiminy](./data-jiminy.md#direct-answer-contract).
+
+## DEC-011: Collectible compendium and world progress
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** Treating every in-game Journal flag as required content expanded the app into a narrative walkthrough and obscured collectible progress.
+- **Decision:** Focus on finding and acquiring collectibles and completion items. World percentages count explicitly scoped collectible records, excluding routine story progression, conversations and character-biography updates. Keep necessary acquisition/access conditions. Crafting, equipment, optional challenges, Gummi, records, unlocks and achievements retain distinct goal tracks.
+- **Rationale:** The user wants direct “where is this thing?” answers and collection tracking.
+- **Alternatives considered:** Recreating every narrative Journal flag; a full sequential story walkthrough.
+- **Consequences:** Full narrative Journal manifests are not release blockers. An actual achievement or secret unlock may reference Journal completion accurately without implying that the app's collectible percentage proves it.
+- **Supersedes / superseded by:** Supersedes broader planning assumptions requiring exhaustive Chronicles/character-update manifests; refines DEC-003 and DEC-007. Does not defer other accepted MVP features.
+
+## DEC-012: One saved collectible across compact and expanded lists
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** Journal-style compact lists and practical location guides must not create duplicate progress states.
+- **Decision:** Group collectible slots by world in a compact index. World details expand those same records into location/acquisition rows. Both surfaces check/uncheck the same stable item ID in both directions. Apply this to every checklist with collection details.
+- **Rationale:** Players can match the familiar overview and immediately find the missing item without losing their checks.
+- **Alternatives considered:** Independent checks in each presentation; aggregate-only world lists without item mapping.
+- **Consequences:** Derived parent summaries, explicit counting units, stable ordering metadata, deduplication, offline persistence and accessible separate open/toggle actions are required. See the [shared contract](./content/collectible-compendium-and-linked-views.md).
+- **Supersedes / superseded by:** Refines DEC-007; does not change persistent progress requirements.
