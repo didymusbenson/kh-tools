@@ -14,7 +14,7 @@ These documents fill the system-level research gaps in the [KH1FM specification]
 
 ## What changed
 
-The planning baseline now distinguishes Journal completion, exhaustive collection, synthesis, equipment, optional challenges, Gummi content, secret unlocks and platform achievements. An achievement threshold is not a full-category denominator. The recipe reference calculates direct totals from individual ingredient rows, rather than trusting a legacy aggregate table.
+The planning baseline foregrounds world collectible completion, with synthesis, equipment, optional challenges, Gummi content, secret unlocks and platform achievements as distinct goals. The [accepted compendium contract](../../content/collectible-compendium-and-linked-views.md) excludes exhaustive narrative Journal flags and requires compact world indexes and detailed location lists to share saved item records. An achievement threshold is not a full-category denominator. The recipe reference calculates direct totals from individual ingredient rows, rather than trusting a legacy aggregate table.
 
 Final Mix corrections are documented where they matter: changed treasure/puppy locations, recoverable Halloween Town red Trinity, cup rewards, level-choice landmarks, modern difficulty stacking and Gummi blueprint thresholds. Game-specific facts link to their sources; app recommendations are labeled as such.
 
@@ -22,7 +22,7 @@ Final Mix corrections are documented where they matter: changed treasure/puppy l
 
 1. Reconcile each sourced table with the legacy workbook and repository data.
 2. Expand grouped rows into stable records with dependencies and goal memberships.
-3. Finish the full treasure, Journal-entry, accessory, enemy/spawn and level-data inventories identified in the audit.
+3. Finish the full treasure, Report-acquisition, accessory, acquisition-relevant enemy/spawn and level-data inventories identified in the audit; narrative/biography update manifests are not required.
 4. Resolve the small set of explicit source/behavior uncertainties before exposing those fields as verified answers.
 5. Validate the normalized data and practical directions in the agreed modern game release.
 
