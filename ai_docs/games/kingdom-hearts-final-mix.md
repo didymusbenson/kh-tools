@@ -95,11 +95,15 @@ The old workbook separates recipes from aggregate material totals. The new model
 - Rewards and completion conditions
 - Optional bosses
 
-### Journal and 100% completion
+### Collection views and separate completion goals
 
-The [sourced reference](kh1fm/collectibles-and-progression.md) establishes the Journal categories, 13 Report acquisitions and related collection systems. Full Chronicles, Characters I/II and Heartless entry/update manifests still need extraction and verification.
+Use the [shared compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md). A compact world-grouped collection index and expanded world location rows share the same stable saved item IDs. Checking or unchecking either view updates both, search and derived summaries, including offline. Apply this to treasures, puppy groups, Trinities and other collections with detail records.
 
-Keep Journal, exhaustive collection, synthesis, equipment, challenges, Gummi completion, secret unlocks and platform achievements as separate requirement sets. An achievement threshold is not the complete collection denominator.
+KH1's in-game Journal has no comprehensive treasure inventory; use explicitly app-defined treasure ordering rather than claiming official chest numbers. Preserve verified Journal ordering for categories that have it.
+
+World percentages count collectible acquisition records with documented counting units. Exclude narrative flags, routine conversations and character biography updates. Full Chronicles/Characters/Heartless entry-update manifests are not required. Keep enemy information needed for drops, encounters and acquisition guidance.
+
+The [sourced reference](kh1fm/collectibles-and-progression.md) includes all 13 Report acquisitions. Necessary access conditions and acquisition conversations remain in entries; a full story walkthrough does not. Maintain collection, synthesis, equipment, challenges, Gummi completion, secret unlocks and platform achievements as separate requirement sets. Where an actual trophy or unlock requires Journal completion, state that condition accurately in that goal's guidance without treating world collection percentage as proof. An achievement threshold is not the complete collection denominator.
 
 ### Gummi completion and other records
 
@@ -149,10 +153,10 @@ See [shared design direction](../ui/jiminys-journal-design-direction.md) for ref
 - Several descriptions appear copied from external guides and require attribution/licensing review.
 - “SYNTH NEEDED” is likely hand-calculated and may drift from recipe data.
 - The experience chart contains a duplicate level-15 row.
-- Treasure and Journal coverage is incomplete or absent.
+- Exhaustive treasure and acquisition-route coverage is incomplete. Full narrative Journal tracking is outside the accepted compendium scope.
 - The legacy “Figure out tournaments” note is partly resolved by sourced unlock/variant/reward tables; complete seed and intermediate-reward imports still remain.
 - Energy Bangle has conflicting Spirit Shard quantities in public sources; the recipe reference uses 2 provisionally and flags the resulting total for verification.
 
 ## Release acceptance criteria
 
-This game is not comprehensive until every defined completion category has a verified inventory, every record has acquisition/location data, cross-category prerequisites resolve correctly, and a user can derive a complete 100% checklist without another guide.
+This game is not comprehensive until every scoped collection and completion-goal category has a verified inventory, every relevant record has acquisition/location guidance, dependencies resolve, and a player can find and track the missing items without another reference guide. Verify that compact and expanded checks persist as one state and narrative updates never inflate collectible percentages. Full story walkthrough and biography-update coverage are not release gates.
