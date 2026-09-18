@@ -18,7 +18,7 @@ The original KH Tools site mimicked the KH1 home and pause menus. That concept e
 
 The redesign keeps:
 
-- A fly-in home-menu presentation for selecting a game
+- An anchored game-selection menu with large game-specific artwork that flies in when the highlighted game changes
 - A sense that each game is a distinct destination
 - Strong motion and visual identity at the top level
 - Immediate recognition for Kingdom Hearts players
@@ -34,11 +34,15 @@ The redesign changes:
 
 ### The cover
 
-The application entry establishes Ars Arcanum and leads into the retained fly-in game selector. A cover/title-page treatment is a proposal, not a requirement to make every game a physical book.
+The application entry establishes Ars Arcanum and presents an anchored game list with a prominent artwork stage. A cover/title-page treatment is a proposal, not a requirement to make every game a physical book.
 
-### Fly-in game selection
+### Main menu with flying artwork
 
-Game choices fly into view using a spatial, cinematic transition inspired by the original project's home-menu interaction.
+Accepted clarification, 2026-09-18: the artwork flies in; game choices remain anchored. Preserve the original main-menu composition: branding and a compact readable game list on the left, with substantial game-specific illustration space alongside. Highlighting a game changes its artwork with a short entrance/exit transition. This is not a carousel of flying game cards.
+
+The original home screen was inspected in-browser. Hovering KH:FM displays the large Sora-and-flag illustration; switching the highlighted game triggers artwork slide-in/slide-out styling while menu entries remain in their list. Pointer/selection feedback belongs to the menu; cinematic motion belongs to the illustration.
+
+Keyboard focus must provide the corresponding artwork preview. Touch behavior must provide explicit, readable selection/entry without requiring hover; exact tap-to-preview versus direct-entry treatment remains a design proposal to evaluate. Reduced motion keeps the composition and usable game list with immediate artwork replacement or a restrained fade. Missing artwork never removes a game choice.
 
 Requirements:
 
@@ -53,10 +57,10 @@ Requirements:
 Selecting a game opens its journal. Shared structural sections may include:
 
 - Contents
-- Story/world progress
+- Worlds and collectible locations
 - Collections
 - Treasures
-- Characters
+- Character context where useful for acquisition
 - Adversaries
 - Synthesis or crafting
 - Equipment and abilities
@@ -137,7 +141,7 @@ Theme differences must not change fundamental navigation, accessibility, or data
 
 ## Open design questions
 
-- Is the home screen a journal cover, a world-map-like shelf of volumes, or a distinct fly-in carousel?
+- How should the anchored game list and artwork stage adapt to narrow phones? The artwork-transition main-menu direction is settled; a flying game-card carousel is not the brief.
 - Is each game one volume or one major tab inside a shared volume?
 - How should the 1.5, 2.5, 2.8, and Integrum collection layers appear without confusing them with games?
 - How literal should page turns be on phones?
@@ -182,3 +186,11 @@ References are identified by attachment order and original filename so later ins
 - Do not extract Jiminy renders, portraits, logos, watermark-bearing screenshots, or other artwork into production from these references.
 - Exact fonts, colors, ornament, animation timings, and icon designs remain open.
 - Future inspiration refines these directions; record which decisions it changes.
+
+## Original KHFM browser exploration
+
+Inspected [original home](https://didymusbenson.github.io/kh-tools/) and [KHFM](https://didymusbenson.github.io/kh-tools/games/khfm.html) on 2026-09-18. This was a desktop browser interaction review, not a mobile acceptance test.
+
+The original KHFM interior uses a dark pause-menu-inspired shell, category buttons, and hash-addressed table overlays with a close control, scrollable rows and contextual notes beneath. Explored Synthesis Sets (set/product/ingredients), Synthesis Items (material/total/source/world/strategy), Dalmatians (group/ability/world/location and reward notes) and Trinities (color/world/location/prize and unlock notes).
+
+Retain the direct-reference intent and useful relationship between recipes, material sources and practical directions. The separate legacy recipe/material overlays suggest a stronger linked synthesis workspace in Ars Arcanum. These are interaction lessons, not a requirement to preserve modal tables, dark pause-menu colors or fixed-width desktop layout. New game interiors use the accepted per-game journal themes and persistent checklists. Legacy displayed quantities remain unverified source evidence.
