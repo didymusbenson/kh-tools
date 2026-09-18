@@ -42,3 +42,7 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - Existing useful content should be inventoried before it is migrated or replaced.
 - Legacy data is discovery evidence until it has been verified and its reuse rights established.
 - Proposals are not decisions until they appear in the decision log.
+
+## Player progress
+
+[Persistent checklists and player progress](./content/persistent-checklists-and-progress.md) is a shared MVP requirement for every game. Checkmarks must survive visits and offline use.
