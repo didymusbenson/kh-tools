@@ -200,3 +200,7 @@ Retain the direct-reference intent and useful relationship between recipes, mate
 Inside every selected game, anchor Jiminy at the bottom right with a small visible “…” chat bubble that opens the game-scoped Data Jiminy interface. Preserve this location across green journals, blue Reports and KH3's digital treatment. The main game-selection screen has no unscoped Jiminy launcher.
 
 The interface clearly labels its game and keeps the same concise factual behavior. One shared model serves separate game sessions. Adapt panel/sheet layout to phone, tablet and desktop, with safe-area/keyboard spacing and no obscured checklist or synthesis controls. See [Data Jiminy](../data-jiminy.md) for behavior, accessibility and disclaimer requirements.
+
+## Supplied Data Jiminy character artwork
+
+The user supplied `6a6444f0-2e49-4a3e-9cd2-13b0af30b59d.png`: a transparent 408 × 608 PNG of Jiminy with umbrella and raised finger. Use it as the launcher artwork reference across journals. Preserve proportions and keep the “…” bubble a separate accessible button, provisionally above/beside the raised finger. Test the silhouette and control spacing at actual phone/tablet sizes. The [Data Jiminy asset record](../data-jiminy.md#user-supplied-jiminy-asset) identifies the original attachment; no modified image or repository binary was created in this planning pass.
