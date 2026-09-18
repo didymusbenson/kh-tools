@@ -1,10 +1,10 @@
 # Per-game readiness
 
-These are working readiness checklists and answer logs, not declarations that a game is ready. All specified games/features remain MVP unless explicitly deferred. KH1FM is the first detailed readiness assessment; other games are stubs. 0.2 has a separate readiness checklist within the BBS family. There is no 2.8 collection checklist.
+These are working readiness checklists and answer logs, not declarations that a game is ready. All specified games/features remain MVP unless explicitly deferred. KH1FM is the first detailed readiness assessment; parallel researchers are expanding the other games from their existing stubs. See [research assignments](../research/parallel-game-research.md); each game's readiness document records the latest completed evidence. 0.2 has a separate readiness checklist within the BBS family. There is no 2.8 collection checklist.
 
 ## Edition policy — accepted
 
-Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern releases. Do not build support for original/non-Final-Mix or PS2-era rulesets. Legacy material is evidence to reconcile against the modern baseline, not a compatibility obligation. Record relevant differences among supported modern platforms, especially achievements; do not assume they are identical. Research should pin the precise releases/builds verified, rather than using an unversioned “latest” label.
+Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern releases. Do not build support for original/non-Final-Mix or PS2-era rulesets. Legacy material is evidence to reconcile against the modern baseline, not a compatibility obligation. Record relevant differences among supported modern platforms, especially achievements; do not assume they are identical. Research should pin the precise releases/builds verified, rather than using an unversioned “latest” label. Distinguish already released builds from announced upcoming editions as of the research date; announcements do not verify mechanics in an unreleased build.
 
 ## Readiness documents
 
@@ -26,4 +26,4 @@ Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern
 - Scope questions refine organization and user experience; unanswered questions do not silently exclude completion content.
 - Production screenshots/assets awaiting acquisition are the existing exception. Text location details and media-capable design/testing remain required.
 
-Shared contracts: [Data Jiminy](../data-jiminy.md), [progress](../content/persistent-checklists-and-progress.md), [architecture](../05-technical-architecture.md).
+Shared contracts: [collectible scope and linked views](../content/collectible-compendium-and-linked-views.md), [Data Jiminy](../data-jiminy.md), [progress](../content/persistent-checklists-and-progress.md), [architecture](../05-technical-architecture.md).
