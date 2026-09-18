@@ -1,173 +1,84 @@
-# Kingdom Hearts Birth by Sleep Family Specification
+# Kingdom Hearts Birth by Sleep Final Mix — family specification
 
-## Status
+## Status and boundary
 
-Discovery draft covering Birth by Sleep Final Mix and the related Birth by Sleep 0.2 — A Fragmentary Passage experience. The KHBBS command-melding source is substantial but unverified.
+Research assessment updated 2026-09-18. [Research pack](bbsfm/README.md) and [readiness](../readiness/birth-by-sleep-final-mix.md) replace the previous unaudited discovery claims. Candidate inventories and detailed mechanics exist; the content is not yet certified or implemented.
 
-## Product objective
+BBS Final Mix is the modern HD game with separate Terra, Ventus and Aqua progress. **0.2 remains in the Birth by Sleep family with its own [dedicated specification](kingdom-hearts-02.md), data, objectives and completion state.** Do not apply BBS command melding or three-character progression to 0.2. BBS's playable Secret Episode “A Fragmentary Passage” and the later game “0.2 … A fragmentary passage” are different scopes. 2.8 is a collection, not a separate game checklist.
 
-Build the definitive command-melding and completion companion for Birth by Sleep Final Mix across Terra, Ventus, and Aqua, with 0.2 represented as a related Aqua-focused journal section rather than conflated with the original game's systems.
+The user's game baseline is Steam BBSFM in HD 1.5+2.5 ReMIX, published on Steam on 2024-06-13. [Steam product](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/). Pin the installed/current build when validating rules; no unsupported “latest” claim. Square Enix lists new editions for 2026-10-08, which are announced and unreleased on this audit date; no future platform mechanics are certified. [Official collection site](https://www.jp.square-enix.com/kingdom/collection/). PSP/non-Final-Mix compatibility is outside the product baseline.
 
-## Birth by Sleep Final Mix legacy evidence
+## Accepted product behavior
 
-- 297 command-melding result rows
-- Result command, first ingredient, second ingredient, recipe type, and success chance
-- A crystal-to-ability matrix for Shimmering, Fleeting, Pulsing, Wellspring, Soothing, Hungry, and Abounding crystals
-- A small crystal/material source table mapping crystals to Unversed
-- A catalog of approximately 150 commands grouped as Attack, Magic, Friendship, Movement, Defense, and Reaction
-- Some Final Mix-only commands identified in labels
+Ars Arcanum answers where an acquisition is and how to obtain it. Apply the [collectible compendium and linked views contract](../content/collectible-compendium-and-linked-views.md), [synthesis and inventory contract](../content/synthesis-and-inventory.md), and [app/content validation contract](../testing-and-content-validation.md).
 
-Spreadsheet helper cells such as “DO NOT TOUCH” are implementation details and must not become product data.
+- Spoilerific throughout: no spoiler warnings, hiding or reveal controls.
+- No Available Now filter, story-progress-gate tracker or milestone input. Prerequisites remain useful acquisition text.
+- World percentages count applicable collectible acquisitions only. Narrative story/character Reports content is context and does not block world completion.
+- Compact world marks, detailed location rows, indexes, search and Data Jiminy use one stable record and saved value.
+- Commands, equipment, melding, optional challenges and platform achievements remain separately named MVP modules.
+- React offline PWA, persistent local progress, backup/migration safety and bundled local SLM/per-game Coppermind remain MVP.
+- Inventory tracking is optional and opt-in. When enabled, recipes show owned/required counts such as `2/3`; command instances retain level/ability information needed by melding.
+- Initial app smoke/acceptance targets Apple browsers on iPhone/iPad; Android follows. The user playing on Steam does not mean the app runs only on Windows.
+- Validate app behavior, formulas and content sources. A required user gameplay playthrough is not a release gate. Only missing production screenshots/map image assets are deferred; text directions, media fields and image-free rendering are MVP.
 
-## Birth by Sleep Final Mix completion modules
+## Evidence now available
 
-### Command melding
+| Dataset | Inspected/created evidence | Important limit |
+|---|---|---|
+| Legacy workbook | All bounded grids read; 296 outcome rows, 112 matrix cells, 150 catalog rows, nine materials | Old letter mappings and typos are incompatible with naïve migration |
+| Existing user reference | Reused 296 outcomes with ingredient levels, character rates and rare-Shotlock ownership rules | Two current-source conflicts quarantined |
+| Collectibles | 443 candidates: 374 numbered main chests, eight Secret Episode chests, one tutorial chest, 60 stickers | Area inventory; complete directions and Reports order still need source validation |
+| Reports | Letter and I–XII acquisition table | Chest-linked reports must not double-count |
+| Abilities | 30 stack-cap entries; 28 meldable types | CP/learning and random-crystal details need final checks |
+| Keyblades | 24 forms, scoped stats and acquisition | Reach/passive normalization remains partial |
+| Other acquisition tables | 14 ice cream recipes, 42 flavors, 108 command-shop candidate rows, 42 finish-unlock predicate rows | Source leads; not all acquisition alternatives or mode exceptions |
+| Challenges | 16 Arena battles, 29 level-up conditions, nine Unversed Missions, four racing courses, five rhythm songs, seven boards | Complete strategies and modern source reconciliation remain open |
 
-- Every valid command combination
-- Ingredient order behavior, if relevant
-- Result command and probability
-- Recipe/type code translated into explicit rules
-- Required ingredient levels
-- Character availability
-- Shop, chest, board, or event alternatives
-- Rare-result behavior
-- Final Mix/version restrictions
+The inventory totals are measured candidate-source coverage, not automatic proof of a complete production compendium. [Source manifest](bbsfm/source-manifest.json).
 
-### Ability synthesis
+## First-class command melding
 
-- Every crystal
-- Ability produced for each recipe type
-- Ability category and maximum useful stacks
-- Recommended reliable meld path
-- Crystal sources and drop rates
-- Character-specific exceptions
-- Explanation of permanent ability learning
+Support both directions: “What can these commands become?” and “How do I obtain this command with this ability?” Show alternative acquisition routes and guaranteed versus random outcomes. The result depends on character, input levels, retained movement/defense copies, ability crystal, and previously obtained rare Shotlocks.
 
-The tool must answer both directions:
+Store recipe outcomes separately from input-pair identity; probabilities can vary by character and ownership. Recipe type A–P means crystal/ability mapping, not command class or DDD-style rank. Basic/Advanced/Ultimate and recipe-item visibility are distinct properties. Both commands must meet their recipe-specific level requirements; do not assume universal mastery.
 
-- “What can I make from these two commands?”
-- “How do I make this command with this ability?”
+With inventory enabled, validate quantities and levels, reserve the required action-command copy, account for two identical ingredients, consume both input commands and the chosen material only when the user records a completed meld, and add the actual selected outcome atomically. Do not record a probabilistic preview as a guaranteed acquisition. Undo restores quantities, levels and identities exactly. With inventory disabled, all reference/calculation features remain useful.
 
-### Command catalog
+Permanent learned ability, attached ability, enabled stack count, command ownership and mastered-command state are distinct. The planner must not claim abilities attach to Shotlocks or treat a rare Shotlock's already-obtained state as irrelevant. Strong validation covers probability sums, source conflicts, formula boundaries, levels, inventory consumption, duplicate inputs, optional inventory, undo and persistence.
 
-- Attack, Magic, Item, Friendship, Movement, Defense, and Reprisal commands
-- Shotlocks
-- D-Link commands
-- Finish Commands
-- Character restrictions
-- Acquisition and leveling requirements
+Historical acquired/crafted checks never consume stock or imply present ownership. An explicit completed-meld transaction is a separate action. Unknown inventory differs from zero; show surplus honestly and calculate missing quantities as max(required − owned, 0). Multi-recipe plans allocate the shared command/crystal pool once and expand only the chosen route, with cycle detection and no duplicate prerequisite crafting. Disabling inventory preserves its saved values. Data Jiminy uses the same deterministic calculations as the planner.
 
-### Character progression and completion
+## Collectible and acquisition modules
 
-Track Terra, Ventus, and Aqua separately while sharing common reference data:
+Terra, Ventus and Aqua share reference facts but retain independent acquisition state. Separate main, Final and Secret Episode save contexts where applicable.
 
-- Treasures by world and character
-- Sticker locations and placement rewards
-- Xehanort Reports
-- Commands and abilities
-- Shotlocks and D-Links
-- Finish Commands
-- Keyblades
-- Arena Missions and Arena Level
-- Command Board
-- Rumble Racing
-- Ice Cream Beat
-- Fruitball
-- Unversed Missions
-- Optional bosses
-- Mirage Arena rewards
-- Final Episode and Secret Episode requirements
-- Platform trophy/achievement overlay
+- Treasures by world/character in verified Reports order; tutorial and Secret Episode scope explicit.
+- Sticker pickup locations and album placement/point rewards. Collection and optimal placement are distinct.
+- Xehanort reports and letter, linking chest or event sources.
+- Command catalog: attack, magic, item, friendship, movement, defense/reprisal, Shotlocks, D-Links, Styles and Finish Commands, with modern availability.
+- Every material/flavor and its enemy/shop/event source; conditional rates, precise area and farming directions.
+- Every Keyblade with character/episode scope and acquisition.
+- Mirage Arena battles, bonus challenges, cumulative medal missions, level progression and rewards.
+- Command Board panels/modes, Rumble Racing, Ice Cream Beat, Fruitball and Unversed Missions.
+- Optional bosses, Final/Secret Episode unlock requirements and separate in-game Trinity trophies/platform achievements.
 
-### Materials and enemies
+Each collectible detail needs precise text directions, action, reward, movement/character prerequisite, revisit/missability facts, unit/count scope and provenance. Search filters never shrink the full-world denominator. Duplicate representations and chest-contained reports resolve to a single acquisition record.
 
-- Crystal/material family
-- Enemy source
-- World/area and drop rate
-- Special conditions
-- Best farming route
-- Lucky Strike effects
+## 0.2 relationship
 
-## Birth by Sleep 0.2 — A Fragmentary Passage
+The separate [0.2 spec](kingdom-hearts-02.md) owns its numbered objectives, treasures, wardrobe unlocks, equipment/combat facts, optional encounters, difficulty requirements and achievements. The full KHBBS workbook contains no 0.2 data. Family navigation may connect the experiences; saved state, denominators and mechanics must remain distinct.
 
-### Scope boundary
+## Primary questions and grounded answers
 
-0.2 belongs in the Birth by Sleep family because it follows Aqua and extends that story, but it has its own completion state, mechanics, objectives, and release/platform applicability.
-
-Do not reuse BBS command-melding or three-character progression structures for 0.2.
-
-### Required completion modules
-
-- Story objectives
-- Optional objectives and exact completion requirements
-- Treasure chests
-- Wardrobe items and unlock conditions
-- Areas within the Realm of Darkness
-- Enemy/adversary entries
-- Magic and combat progression
-- equipment and abilities
-- optional encounters
-- Critical Mode and difficulty-specific requirements
-- platform trophies/achievements
-- secret/ending unlock requirements
-- version and collection membership
-
-### Required record fields
-
-For an objective:
-
-- Objective number and canonical name
-- Description
-- Unlock timing
-- Area/location
-- Exact condition
-- Strategy
-- Reward
-- Difficulty or version applicability
-- Completion state
-
-For a treasure or wardrobe item:
-
-- Category
-- Area
-- Precise location
-- Prerequisite
-- Acquisition instructions
-- Related objective or reward
-
-### 0.2 primary user experiences
-
-- “Which objective am I missing?”
-- “Where is this treasure or wardrobe item?”
-- “When does this objective become available?”
-- “Does difficulty affect this requirement?”
-- “What remains for every trophy?”
-
-## Shared data model additions
-
-- `game_family`
-- `playable_character`
-- `command` with category and character availability
-- `meld_recipe`
-- `meld_ability_result`
-- `command_level_requirement`
-- `completion_state` scoped by character and game
-- `objective`
-- `wardrobe_item`
-- edition/platform applicability
-- release-collection membership
-
-The legacy wide crystal matrix should become one row per recipe-type/crystal/ability relationship.
-
-## Primary user experiences
-
-- “I want Magic Haste on Aero—what crystal and recipe should I use?”
-- “What are all ways to meld this command?”
-- “Which option guarantees the result?”
-- “Where can I farm this crystal?”
-- “What commands or collectibles am I missing for this character?”
-- “What must all three characters complete for the secret ending?”
-- “What remains in Aqua's 0.2 objectives?”
+- Which Terra/Ventus/Aqua treasure or sticker am I missing, and how do I reach it?
+- Which meld guarantees this command for my character?
+- Which crystal and recipe grant Second Chance, Once More or Magic Haste?
+- Can an ability be attached to a base command such as Aero? Check whether it can be a meld result; never invent a recipe.
+- Where can this character obtain a crystal, command, Keyblade or ice cream ingredient?
+- What will this meld consume from my optional inventory, and what can it produce?
+- What remains for the album's 140-point reward, Arena level 30, or a separate Steam achievement?
+- Is this the BBS Secret Episode or the distinct 0.2 game?
 
 ## Ars Arcanum visual direction — blue Reports
 
@@ -185,16 +96,9 @@ Accepted user direction: Birth by Sleep uses the blue Reports journal treatment 
 
 See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
-## Known source risks and gaps
 
-- Meld data lacks clear character restrictions and required ingredient levels.
-- Recipe type uses opaque letters needing a documented ruleset.
-- Drop locations are largely absent.
-- Final Mix-only labeling is inconsistent.
-- Broader BBS completion content is absent from the legacy workbook.
-- No legacy 0.2 dataset has been identified.
-- 0.2 platform, objective, treasure, wardrobe, and trophy data all require new research.
+## Current blockers and acceptance
 
-## Release acceptance criteria
+Detailed rows and algorithms are ready to be modeled, but shipment still requires resolving the two meld conflicts, precise collectible directions, independent inventory/order validation, complete alternative command acquisitions, normalized character/mode exceptions, and Steam achievement predicates. None requires the user to play through the game for us.
 
-The BBS melding tool must provide trustworthy bidirectional answers and the guide must track character-specific completion accurately. The 0.2 section must independently account for every objective, treasure, wardrobe unlock, and platform completion requirement without suggesting that BBS meld/progression systems apply to it.
+Acceptance must demonstrate bidirectional checklist synchronization, character/episode isolation, stable denominators, source-grounded answers, opt-in inventory and correct atomic melding/undo, image-free text guidance, offline/relaunch/backup behavior and accessible Apple mobile layouts. Formula/content validation must exercise the known conflicting cases rather than trusting extraction totals.
