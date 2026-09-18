@@ -2,14 +2,17 @@
 
 Each supported game gets its own product and content specification because completion systems, terminology, platform variants, and visual identity differ substantially across the series.
 
-These documents define what the product must eventually cover. The imported KHTABLES material is treated as discovery evidence, not as verified final data.
+These documents define what Ars Arcanum must eventually cover. The imported KHTABLES material is treated as discovery evidence, not as verified final data.
 
 ## Current specifications
 
 - [Kingdom Hearts Final Mix](./kingdom-hearts-final-mix.md)
 - [Kingdom Hearts II Final Mix](./kingdom-hearts-ii-final-mix.md)
-- [Kingdom Hearts Birth by Sleep Final Mix](./birth-by-sleep-final-mix.md)
+- [Kingdom Hearts Birth by Sleep Final Mix and 0.2](./birth-by-sleep-final-mix.md)
 - [Kingdom Hearts Dream Drop Distance](./dream-drop-distance.md)
+- [Kingdom Hearts III](./kingdom-hearts-iii.md)
+
+Release collections are modeled separately from games and do not receive a standalone gameplay specification merely because they bundle multiple components.
 
 ## Specification contract
 
@@ -24,7 +27,7 @@ Every game specification should eventually define:
 - Spoiler handling
 - Offline content requirements
 - Source provenance and verification status
-- Game-specific visual direction
+- Game-specific Ars Arcanum journal theme
 - Acceptance criteria for declaring the guide comprehensive
 
 ## Shared content standard
