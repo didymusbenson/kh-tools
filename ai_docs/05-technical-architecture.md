@@ -101,7 +101,7 @@ User-facing identity: **Data Jiminy**, represented by Jiminy Cricket. [Data Jimi
 
 Confirmed MVP requirement: bundle a small language model (SLM) with Ars Arcanum so players can ask natural-language questions and receive answers grounded in the guide data we store for the selected game.
 
-- Treat each game's Coppermind as a game-scoped knowledge assistant; shared inference infrastructure is possible, and separate model weights per game are not assumed.
+- Use one app-wide answering model with shared weights/runtime and isolated per-game sessions/Copperminds. Reuse the download across games. Shared query-embedding infrastructure remains separate from answering; no model per game.
 - Preserve edition, character, world, and DLC applicability when retrieving facts. Do not mix facts across games or incompatible editions.
 - Return links to the underlying guide entries and their provenance. If stored data does not answer a question, say so rather than inventing a guide fact.
 - Keep canonical structured content independent of the model. Use local retrieval over versioned game data; the browser storage/search implementation remains to be chosen.
@@ -120,3 +120,7 @@ Related project: [WintersRain/coppermind](https://github.com/WintersRain/copperm
 Implement [synthesis/inventory](./content/synthesis-and-inventory.md) as deterministic domain logic shared by UI and Data Jiminy. Optional owned-stock counters and historical crafted checks are separate state; multi-recipe calculations allocate stock once. Validate game-specific formulas and conflict status with independent fixtures.
 
 Follow [testing/content validation](./testing-and-content-validation.md): Apple browser, iPhone and iPad initial app smoke/acceptance, Android follow-up. No mandatory user gameplay test. Do not implement spoiler concealment or a manual progress-gate/Available Now system.
+
+## Data Jiminy session lifecycle
+
+The active journal binds retrieval, prompts, history, caches, citations and progress/inventory reads to its canonical game and applicable subscopes. Restore/create the target game's context on navigation and replace active inference context; cancel/discard stale responses. Question text cannot override the active game. 0.2 remains separate from BBS. The journal shell owns the bottom-right Jiminy/“…” launcher, absent on game selection. See [Data Jiminy](./data-jiminy.md#shared-model-isolated-game-sessions) for the required session and UI acceptance scenarios.
