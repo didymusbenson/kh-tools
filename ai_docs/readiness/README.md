@@ -27,3 +27,9 @@ Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern
 - Production screenshots/assets awaiting acquisition are the existing exception. Text location details and media-capable design/testing remain required.
 
 Shared contracts: [collectible scope and linked views](../content/collectible-compendium-and-linked-views.md), [Data Jiminy](../data-jiminy.md), [progress](../content/persistent-checklists-and-progress.md), [architecture](../05-technical-architecture.md).
+
+## Accepted cross-game defaults
+
+User game context: Steam. Initial app smoke/acceptance: Apple browser, iPhone and iPad; Android follow-up. Validate app functionality and source/data accuracy without requiring user gameplay. See [testing/content validation](../testing-and-content-validation.md).
+
+No spoiler warnings/concealment and no Available Now/ability-story tracker. Keep acquisition prerequisites as text. [Synthesis and optional inventory](../content/synthesis-and-inventory.md) are first-class where applicable, with owned/required (x/y) recipe reminders and rigorous calculation acceptance. Do not reopen these settled questions in each game's readiness.
