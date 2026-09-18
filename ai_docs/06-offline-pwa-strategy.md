@@ -52,7 +52,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Handle browser storage eviction gracefully.
 - Version persisted schemas.
 - Track optional-media cache size separately.
-- Test iOS Safari/Home Screen, Android Chrome installation, and desktop browsers.
+- Initial smoke/acceptance: browser on Apple computer, iPhone Safari/Home Screen and iPad browser/Home Screen. Android installation/browser testing follows when the test device is used. Record exact versions during execution; see [shared testing policy](./testing-and-content-validation.md).
 
 ## Validation scenarios
 
@@ -66,3 +66,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Update downloaded while old version is open
 - Stale cache after a schema change
 - Storage cleared or evicted
+
+## Optional synthesis inventory offline
+
+When enabled, [inventory](./content/synthesis-and-inventory.md) and owned/required recipe reminders work offline using the same persisted stock as planner calculations. Disabling reminders preserves quantities. Updates, interrupted writes and export/import must preserve both stock and crafted-history state. Validate these flows on the initial Apple matrix.
