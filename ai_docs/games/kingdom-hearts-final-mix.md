@@ -103,11 +103,18 @@ The legacy workbook is not sufficient here. Research must establish the full Fin
 - “Which ability do I learn at this level with my starting choice?”
 - “What remains for 100% or the platinum trophy?”
 
-## Visual direction hypothesis
+## Visual direction — green journal
 
-Capture KH1's simpler, mysterious storybook quality: deep blue night-sky surfaces, restrained gold accents, stained-glass motifs, rounded menu frames, and clear world iconography. This is a design hypothesis requiring user approval, not a locked theme.
+Accepted user direction: KH1 and KH2 share the green Jiminy's Journal family, based on the supplied journal references. This replaces the earlier speculative blue/stained-glass palette.
 
-The UI must remain readable and accessible; decorative motifs should frame content rather than imitate the game interface so closely that dense reference data becomes difficult to use.
+- Emerald/forest-green framing with lime accents and pale cream-green reading pages.
+- Binder-ring or page-edge cues, subtle paper texture, and restrained ruled lines.
+- Burgundy section tabs, clear section titles, and compact completion marks.
+- Page-based lists, indexes, and entry details; distinct KH1 refinements await further inspiration.
+- On phones, use one readable page with compact navigation rather than shrinking a two-page console screen.
+- Portraits and illustrations are optional; no empty portrait space or borrowed screenshot assets in MVP.
+
+See [shared design direction](../ui/jiminys-journal-design-direction.md) for reference interpretation and accessibility requirements.
 
 ## Known source risks
 
