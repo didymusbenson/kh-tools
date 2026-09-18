@@ -56,6 +56,12 @@ Application code controls allowed retrieval, game/edition filters, exact calcula
 
 Evaluate latency, correctness, concise output, unsupported-query handling, and attempts to induce roleplay or unrelated output. Do not assume prompt instructions eliminate hallucinations.
 
+## Collection lookup scope
+
+Follow the [collectible compendium contract](./content/collectible-compendium-and-linked-views.md). For “where is this?” return the matched item's world/area, concise directions and necessary acquisition prerequisites, with a link to the same stable record used by compact and expanded checklists. Progress answers use application-computed collectible sets; routine plot flags and character biography updates do not affect world percentages. Do not turn answers into a full story walkthrough.
+
+A necessary NPC reward conversation is valid acquisition guidance. Retrieving an answer does not mark anything collected, and the model must not infer acquisition from story progress. Saved-state changes remain application-controlled and explicit user actions. Other scoped crafting/challenge/achievement queries remain supported with distinct goal definitions.
+
 ## Local architecture
 
 1. Application code receives the question and active game context.
