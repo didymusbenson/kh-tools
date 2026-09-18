@@ -47,7 +47,7 @@ A prerequisite such as “requires High Jump,” “return on the second visit,�
 - A collectible shown in the compact index, expanded view, search and a reward reference contributes once to the same collection set.
 - If two catalog entries are satisfied by the same verified acquisition event, link that event and avoid double-counting it in an aggregate. Preserve distinct actions: activating a Trinity and later opening a newly accessible chest are not automatically the same action.
 - World parent completion is derived from child records. Partial groups have an accessible mixed state. A condensed world status is not an implicit bulk-complete button.
-- Remaining/search/area/available-now filters do not redefine the full world denominator. Make a filtered result count visually distinct from full-world collection progress.
+- Remaining/search/area filters do not redefine the full world denominator. Make a filtered result count visually distinct from full-world collection progress.
 - Character-specific BBS and DDD collections remain correctly separated. Shared records count once in the applicable scope. 0.2 and Re Mind boundaries remain explicit.
 - Unknown/unverified inventory totals must not produce a false 100%. Unsupported or inapplicable categories are distinct from missing data.
 - Global crafted-item, equipment, challenge, story-dependent achievement and Gummi goals use their own declared sets. They do not silently inflate a world's collectible percentage.
@@ -60,7 +60,7 @@ Full Chronicles transcripts, exhaustive character biography/update manifests, or
 
 A trophy or a secret unlock may require actual Journal completion. State that requirement accurately in its separate reference/goal track without claiming that the collectible percentage proves it. No full story walkthrough is thereby introduced.
 
-Optional manually supplied access milestones may later support “available now” filtering if accepted. They are availability inputs, not extra collectible checks, and an unchecked item must never mean “inaccessible.”
+Accepted 2026-09-18: omit Available Now filtering and manual access/ability/story milestone tracking. Keep prerequisite facts in item directions. An unchecked item never means inaccessible. The app is fully spoilerful; no spoiler warnings or reveal controls.
 
 ## Persistence and acceptance
 
@@ -73,6 +73,6 @@ Use the [persistent progress contract](persistent-checklists-and-progress.md) fo
 5. Apply Remaining or area filters; full-world progress keeps its denominator.
 6. View grouped rewards or an item in several categories; aggregate counts do not duplicate the same acquisition.
 7. Switch character, game or DLC scope; unrelated checks remain intact.
-8. Change a narrative/character-reference flag or access milestone; collectible percentage does not change.
+8. Acquisition prerequisite text and narrative reference content never add checks or change collectible percentages; no progress-gate tracker is presented.
 9. With zero images, the detailed list still provides usable location/acquisition directions.
 10. With incomplete inventory evidence, the UI does not present a certified complete world.
