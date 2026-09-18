@@ -50,7 +50,7 @@ A media asset should support:
 - Source/provenance
 - Rights or permission status
 - Capture platform and display settings where relevant
-- Spoiler classification
+- No spoiler classification or concealment requirement
 - Sort order
 - Optional annotations
 - Offline priority
@@ -79,7 +79,7 @@ A record may have:
 - A small ordered gallery
 - A map plus one or more screenshots
 - Images scoped to different editions/platforms
-- A spoiler-hidden image
+- Available images displayed without spoiler concealment
 - The same approved asset referenced by multiple entries
 
 Media should be linked to records by stable IDs, not embedded directly in prose.
@@ -92,7 +92,7 @@ Media should be linked to records by stable IDs, not embedded directly in prose.
 - Users can open an enlarged view without losing journal position.
 - Captions distinguish map context from exact in-game view.
 - Edition/platform labels appear when imagery differs.
-- Spoiler-sensitive images remain hidden until intentionally revealed.
+- Display available images openly; no spoiler warnings or reveal controls.
 - Missing or offline-uncached optional media has a clear, non-blocking state.
 
 ## Accessibility requirements
@@ -139,7 +139,7 @@ Test cases:
 - Edition-specific media selection
 - Missing asset validation failure
 - Missing alt text validation failure
-- Spoiler-hidden media
+- Media shown without spoiler warnings or reveal controls
 - Offline text with uncached optional media
 - Cached media available offline
 - Responsive enlargement and keyboard controls
