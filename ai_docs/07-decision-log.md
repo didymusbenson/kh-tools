@@ -104,3 +104,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Consequences:** Bundled SLM and per-game, data-grounded Coppermind Q&A are required for MVP. Model/runtime selection, packaging, offline compatibility, and integration with WintersRain/coppermind remain engineering decisions to resolve for MVP. Escalate feasibility constraints rather than silently moving requirements to another release.
 - **Alternatives considered:** Automatically classifying unimplemented or technically unresolved requirements as future features; rejected.
 - **Supersedes / superseded by:** Supersedes prior outside-MVP Coppermind wording and any unapproved release deferrals; clarifies DEC-005 without removing the production screenshot asset exception.
+
+## DEC-009: Data Jiminy identity and offline AI disclosure
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** The MVP assistant needs a settled user-facing identity and a clear, prominent AI disclaimer.
+- **Decision:** Represent the chatbot as Jiminy Cricket and name him **Data Jiminy**. Preserve the user's initial disclaimer verbatim in [data-jiminy.md](./data-jiminy.md), with final technical wording reviewed during implementation. Chat runs locally after setup without user credentials, external account connections, or model configuration.
+- **Rationale:** Explicit user direction; integrates conversational help with the journal presentation.
+- **Consequences:** Bundled embedding and conversational models support game-scoped browser-local retrieval. SmolLM2 is the candidate family; exact model/runtime selection remains an implementation decision. Final copy must match actual download, offline, and data-access behavior while retaining the intended playful tone.
+- **Alternatives considered:** Generic chatbot branding; user-configured external assistants.
+- **Supersedes / superseded by:** Refines DEC-008 and resolves prior uncertainty about hosted inference and user setup; no cloud inference fallback is included.
