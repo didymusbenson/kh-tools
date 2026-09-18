@@ -8,7 +8,7 @@
 
 Build the definitive, mobile-first Kingdom Hearts completion journal: a fast React PWA that helps players find, understand, and track every collectible, synthesis requirement, unlock, challenge, record, and other completion item across supported games—even offline.
 
-Ars Arcanum interprets Jiminy's Journal as a living cross-game reference rather than reproducing a specific game's menu UI.
+Ars Arcanum interprets Jiminy's Journal as a cross-game collectible compendium. Its central question is “where is this thing, and how do I obtain it?” Journal presentation does not require recreating narrative or character-biography completion flags. See the [collection scope and linked views](./content/collectible-compendium-and-linked-views.md).
 
 ## MVP scope rule
 
@@ -19,7 +19,7 @@ All user-requested features and specified games are MVP scope unless the user ex
 - Select a game through the retained fly-in home-menu interaction.
 - Enter a game-specific volume or section of the journal.
 - Find the direct answer first, with deeper explanation and relationships available.
-- Track completion using the game's own terminology.
+- Track collectibles using familiar game terminology, compact world lists and expanded location details backed by the same saved checks.
 - Move between related entries—item, recipe, enemy, area, prerequisite, and reward—without consulting another guide.
 - Continue using installed core content offline.
 
@@ -72,6 +72,7 @@ Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-F
 
 ## Out of scope unless later accepted
 
+- A full story walkthrough or exhaustive tracking of narrative Journal/character updates
 - Direct replicas of copyrighted in-game menu screens
 - Native iOS/Android apps for the initial delivery
 - Treating release collections as if they were standalone games
@@ -80,7 +81,8 @@ Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-F
 
 ## Success criteria
 
-- A player can complete a supported game without needing another guide.
+- A player can find, obtain and track all scoped collectibles and completion items, including crafting and challenge goals, without another reference guide.
+- World percentages represent collectibles; achievement, crafting and challenge tracks use their own explicit requirements.
 - Common lookups reach an answer in a few taps on a phone.
 - The installed core experience works offline.
 - Game and edition context is always clear.
