@@ -17,7 +17,7 @@ A detailed repository audit is still required.
 
 ## Legacy Drive sources
 
-The KHTABLES folder has been audited. See [the source audit](./sources/khtables-drive-audit.md) for the complete ten-file inventory and data-quality findings.
+The KHTABLES folder's ten-file inventory is recorded in [the source audit](./sources/khtables-drive-audit.md). File discovery is not an exhaustive row audit. [Parallel researchers](./research/parallel-game-research.md) are inspecting actual ranges and reconciling old findings; per-game evidence supersedes older tab-level assumptions.
 
 | Source | Game | High-value coverage | Migration status |
 |---|---|---|---|
@@ -32,8 +32,8 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 
 | Game/family | Specification | Current strongest source area | Largest known gap |
 |---|---|---|---|
-| Kingdom Hearts Final Mix | [Open](./games/kingdom-hearts-final-mix.md) | World collectibles and synthesis | Full Journal/100% definition |
-| Kingdom Hearts II Final Mix | [Open](./games/kingdom-hearts-ii-final-mix.md) | Relational synthesis and treasure data | Empty intended tabs and exact Journal rules |
+| Kingdom Hearts Final Mix | [Open](./games/kingdom-hearts-final-mix.md) | World collectibles and synthesis | Exhaustive treasure/accessory inventories, exact routes and validation |
+| Kingdom Hearts II Final Mix | [Open](./games/kingdom-hearts-ii-final-mix.md) | Relational synthesis and treasure data | Reconcile actual tab contents, FM edition differences, exact collection routes and goal rules |
 | Birth by Sleep Final Mix + 0.2 | [Open](./games/birth-by-sleep-final-mix.md) | BBS command melding | Broader BBS completion and all 0.2 data |
 | Dream Drop Distance | [Open](./games/dream-drop-distance.md) | Spirit creation and Links | Portals, treasures, board topology, HD differences |
 | Kingdom Hearts III + Re Mind | [Open](./games/kingdom-hearts-iii.md) | Specification only | All factual datasets and exact completion rules |
@@ -49,7 +49,7 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 | Objective tracker | 0.2 | Which objectives remain and how are they completed? | Objectives, unlocks, conditions, rewards | High | Independent from BBS progression |
 | Spirit recipe planner | DDD | What can I create and which recipe is best? | Recipes, materials, probabilities, ranking rules | High | Recommendation logic must be explainable |
 | Lucky Emblem and Gummiphone tracker | KH3 | What remains in each record category? | Emblems, treasures, records, requirements | High | Base game and DLC separated |
-| Journal/100% checklist | Per game | What remains for true completion? | Edition-specific completion rules | High | Separate trophies from in-game completion |
+| Linked collection checklists | Per game | Which collectibles am I missing, and where are they? | Stable item IDs, world/area directions, explicit counting units | High | Compact index and expanded details share saved state; narrative flags excluded from world percentages |
 | Equipment catalog | Per game | What does this item do and where is it? | Stats, effects, acquisition | Medium | |
 | Optional encounter guide | Per game | How do I unlock and clear this fight/challenge? | Requirements, strategies, rewards | Medium | |
 
@@ -73,3 +73,7 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 - Empty legacy tables that imply intended scope but contain no facts
 - Missing prerequisite and earliest-availability data
 - Incomplete distinction between in-game completion and platform achievements
+
+## Accepted collection focus
+
+Follow the [shared compendium contract](./content/collectible-compendium-and-linked-views.md). Keep synthesis, equipment, optional challenges, Gummi, records and achievements in their own named tracks. Necessary acquisition prerequisites belong in item guidance; full story walkthroughs and exhaustive narrative Journal flags are outside current scope.
