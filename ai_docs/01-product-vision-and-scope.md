@@ -67,11 +67,12 @@ Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-F
 - Distinct per-game visual themes within shared navigation
 - Search, filtering, cross-linking, checklists, and progress
 - Structured provenance and edition applicability
-- Game-specific calculators and planners
+- First-class synthesis/crafting tools, optional persistent inventory, owned/required ingredient reminders and accurate remaining-material planners
 - Bundled SLM powering game-scoped Coppermind Q&A grounded in stored guide data
 
 ## Out of scope unless later accepted
 
+- Spoiler warnings/concealment and Available Now/progress-gate tracking
 - A full story walkthrough or exhaustive tracking of narrative Journal/character updates
 - Direct replicas of copyrighted in-game menu screens
 - Native iOS/Android apps for the initial delivery
@@ -97,3 +98,7 @@ Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-F
 - Which progress state remains device-local, and is synchronization needed? No cloud-sync decision has been made.
 - What original visual assets and icon system will define Ars Arcanum?
 - How much lore/context belongs beside completion-focused material?
+
+## Accepted use and validation context
+
+The app is fully spoilerful. Required abilities/access conditions remain visible acquisition guidance without player milestone entry. The user plays Steam and will initially test app functionality on Apple browser, iPhone and iPad, with Android follow-up. No user gameplay/playthrough verification gate. See [testing](./testing-and-content-validation.md) and [synthesis/inventory](./content/synthesis-and-inventory.md).
