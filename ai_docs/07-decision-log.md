@@ -184,3 +184,12 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Rationale:** Explicit user correction, corroborated by browser exploration of the original site.
 - **Consequences:** Adapt list/artwork composition to phones/tablets, support keyboard/touch and reduced motion, and keep direct game access independent of art loading. Preserve the original KHFM tool's direct-reference intent while replacing its pause-menu interior with journal views.
 - **Supersedes:** The design document's incorrect “Game choices fly into view” statement and ambiguous fly-in-selector wording. Refines DEC-003/006.
+
+## DEC-017: Shared model, per-game Jiminy sessions and anchored launcher
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** One answering SLM serves the entire app. Sessions/context and Coppermind retrieval are per-game, selected by the active journal. Place Jiminy at the bottom right inside a game with a tappable “…” bubble opening Data Jiminy.
+- **Rationale:** Explicit user direction: KH1 must not surface BBS questions or context, while avoiding a model per game.
+- **Consequences:** Isolate history, retrieved context, suggested questions and answer caches; discard stale responses after switching. Reuse shared model weights/downloads. No unscoped launcher on the game-selection screen. Maintain accessible controls, safe-area/keyboard spacing and the existing direct-answer/disclaimer requirements. All games inherit this contract.
+- **Supersedes:** Earlier wording that shared inference was merely possible. Refines DEC-009/010; the shared query-embedding component remains part of local retrieval.
