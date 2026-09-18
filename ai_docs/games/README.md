@@ -72,3 +72,7 @@ Use the [per-game readiness workbooks](../readiness/README.md) to resolve questi
 ## Shared decisions propagated from KH1
 
 Every game inherits [first-class synthesis and optional inventory](../content/synthesis-and-inventory.md) where applicable, including owned/required recipe reminders when enabled, and [Apple-first app testing](../testing-and-content-validation.md). Steam is the user's gameplay context. No user playthrough validation gate, spoiler warnings or Available Now/progress-gate tracker. Preserve text acquisition prerequisites. Crafting rules and inventory scope remain game-specific; 0.2 gains no invented crafting feature.
+
+## Shared Data Jiminy requirement
+
+Every game inherits [Data Jiminy](../data-jiminy.md): one app-wide answering model, separate per-game sessions and Coppermind retrieval. The active journal controls history, prompts, answers and citations; KH1 must not surface BBS context. 0.2 is a separate session from BBS. Anchor Jiminy bottom right within the game, with a tappable “…” bubble opening its scoped interface. No launcher on the unscoped game-selection screen. Apply across every visual theme and test model reuse, context isolation and safe-area/keyboard behavior.
