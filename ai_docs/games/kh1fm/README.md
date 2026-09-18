@@ -24,8 +24,10 @@ Final Mix corrections are documented where they matter: changed treasure/puppy l
 2. Expand grouped rows into stable records with dependencies and goal memberships.
 3. Finish the full treasure, Report-acquisition, accessory, acquisition-relevant enemy/spawn and level-data inventories identified in the audit; narrative/biography update manifests are not required.
 4. Resolve the small set of explicit source/behavior uncertainties before exposing those fields as verified answers.
-5. Validate the normalized data and practical directions in the agreed modern game release.
+5. Validate normalized data, directions and calculations against edition-correct sources and fixtures; execute app acceptance on the Apple-first matrix. A user playthrough is not required.
 
 The Energy Bangle recipe has a visible source conflict: the current recipe/totals use two Spirit Shards provisionally. Source presence, transcription, normalization and hands-on verification remain separate statuses.
 
 All documented systems, persistent checklists, offline content and Data Jiminy remain MVP. Only production screenshot/map image assets are deferred; text directions, media support and media tests remain required.
+
+Apply [synthesis/inventory](../../content/synthesis-and-inventory.md) as a first-class requirement and [testing/content validation](../../testing-and-content-validation.md) for the Steam context and Apple-first app checks. Source-presence and optional historical in-game evidence remain distinct labels; no manual gameplay gate is imposed.
