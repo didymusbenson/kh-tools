@@ -1,0 +1,2235 @@
+{
+  "status": "candidate planning facts; modern source and complete source-route verification pending",
+  "ice_cream": {
+    "source": "https://www.khwiki.com/Ice_cream",
+    "recipes": [
+      {
+        "name": "Vanilla Glitz",
+        "characters": [
+          "Terra"
+        ],
+        "ingredients": [
+          {
+            "name": "Golden Jam",
+            "quantity": 1
+          },
+          {
+            "name": "Bijou Bean",
+            "quantity": 1
+          },
+          {
+            "name": "Crystal Sugar",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Honeybunny",
+        "characters": [
+          "Ventus"
+        ],
+        "ingredients": [
+          {
+            "name": "Honeybunch",
+            "quantity": 3
+          },
+          {
+            "name": "Apple Pie",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "name": "Fabracadabra",
+        "characters": [
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Balloon Melon",
+            "quantity": 2
+          },
+          {
+            "name": "Heroic Orange",
+            "quantity": 2
+          },
+          {
+            "name": "Peach Fantasy",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Bueno Volcano",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Prickle Pepper",
+            "quantity": 5
+          },
+          {
+            "name": "Toonbasco",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Snow Bear",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Open Sesame",
+            "quantity": 3
+          },
+          {
+            "name": "Soy Milk",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "name": "Spark Lemon",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Thundercracker",
+            "quantity": 4
+          },
+          {
+            "name": "Rocket Soda",
+            "quantity": 2
+          },
+          {
+            "name": "Dancin' Lemon",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Royalberry",
+        "characters": [
+          "Terra",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Gaspberry",
+            "quantity": 7
+          },
+          {
+            "name": "Nebula Nectar",
+            "quantity": 10
+          },
+          {
+            "name": "Birthday Cake",
+            "quantity": 8
+          },
+          {
+            "name": "Rose Honey",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "name": "Rockin' Crunch",
+        "characters": [
+          "Terra"
+        ],
+        "ingredients": [
+          {
+            "name": "Galactic Caramel",
+            "quantity": 15
+          },
+          {
+            "name": "Nutty Nut",
+            "quantity": 12
+          }
+        ]
+      },
+      {
+        "name": "Big Bad Pete",
+        "characters": [
+          "Terra"
+        ],
+        "ingredients": [
+          {
+            "name": "Bizarro Bean",
+            "quantity": 20
+          },
+          {
+            "name": "Whipped Dream",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "name": "Sugary Skies",
+        "characters": [
+          "Ventus",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Cream Fluff",
+            "quantity": 10
+          },
+          {
+            "name": "Rainbow Syrup",
+            "quantity": 8
+          },
+          {
+            "name": "Cotton Cloudcandy",
+            "quantity": 14
+          }
+        ]
+      },
+      {
+        "name": "Goofy Parfait",
+        "characters": [
+          "Ventus"
+        ],
+        "ingredients": [
+          {
+            "name": "Moogle Coffee",
+            "quantity": 7
+          },
+          {
+            "name": "Jumbo Almond",
+            "quantity": 6
+          },
+          {
+            "name": "Chocolate Valentine",
+            "quantity": 5
+          },
+          {
+            "name": "Forest Muffin",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "name": "Double Crunch",
+        "characters": [
+          "Ventus"
+        ],
+        "ingredients": [
+          {
+            "name": "Cherryberry",
+            "quantity": 9
+          },
+          {
+            "name": "Merry Dairy",
+            "quantity": 5
+          },
+          {
+            "name": "Wedding Cake",
+            "quantity": 14
+          },
+          {
+            "name": "Star Syrup",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "name": "Donald Fizz",
+        "characters": [
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Crystal Soda",
+            "quantity": 8
+          },
+          {
+            "name": "Mermaid Salt",
+            "quantity": 13
+          },
+          {
+            "name": "Fizzy Tizzy",
+            "quantity": 15
+          },
+          {
+            "name": "Sky Blue Mousse",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "name": "Daisy Sorbet",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "ingredients": [
+          {
+            "name": "Starry Sky Delight",
+            "quantity": 8
+          },
+          {
+            "name": "Rich Marshmallow",
+            "quantity": 15
+          },
+          {
+            "name": "Merry Mint",
+            "quantity": 10
+          },
+          {
+            "name": "Melodious Grape",
+            "quantity": 12
+          }
+        ]
+      }
+    ],
+    "one_of_each_eligible_recipe_totals_by_character": {
+      "Terra": {
+        "Golden Jam": 1,
+        "Bijou Bean": 1,
+        "Crystal Sugar": 3,
+        "Prickle Pepper": 5,
+        "Toonbasco": 3,
+        "Open Sesame": 3,
+        "Soy Milk": 5,
+        "Thundercracker": 4,
+        "Rocket Soda": 2,
+        "Dancin' Lemon": 3,
+        "Gaspberry": 7,
+        "Nebula Nectar": 10,
+        "Birthday Cake": 8,
+        "Rose Honey": 7,
+        "Galactic Caramel": 15,
+        "Nutty Nut": 12,
+        "Bizarro Bean": 20,
+        "Whipped Dream": 20,
+        "Starry Sky Delight": 8,
+        "Rich Marshmallow": 15,
+        "Merry Mint": 10,
+        "Melodious Grape": 12
+      },
+      "Ventus": {
+        "Honeybunch": 3,
+        "Apple Pie": 2,
+        "Prickle Pepper": 5,
+        "Toonbasco": 3,
+        "Open Sesame": 3,
+        "Soy Milk": 5,
+        "Thundercracker": 4,
+        "Rocket Soda": 2,
+        "Dancin' Lemon": 3,
+        "Cream Fluff": 10,
+        "Rainbow Syrup": 8,
+        "Cotton Cloudcandy": 14,
+        "Moogle Coffee": 7,
+        "Jumbo Almond": 6,
+        "Chocolate Valentine": 5,
+        "Forest Muffin": 10,
+        "Cherryberry": 9,
+        "Merry Dairy": 5,
+        "Wedding Cake": 14,
+        "Star Syrup": 15,
+        "Starry Sky Delight": 8,
+        "Rich Marshmallow": 15,
+        "Merry Mint": 10,
+        "Melodious Grape": 12
+      },
+      "Aqua": {
+        "Balloon Melon": 2,
+        "Heroic Orange": 2,
+        "Peach Fantasy": 1,
+        "Prickle Pepper": 5,
+        "Toonbasco": 3,
+        "Open Sesame": 3,
+        "Soy Milk": 5,
+        "Thundercracker": 4,
+        "Rocket Soda": 2,
+        "Dancin' Lemon": 3,
+        "Gaspberry": 7,
+        "Nebula Nectar": 10,
+        "Birthday Cake": 8,
+        "Rose Honey": 7,
+        "Cream Fluff": 10,
+        "Rainbow Syrup": 8,
+        "Cotton Cloudcandy": 14,
+        "Crystal Soda": 8,
+        "Mermaid Salt": 13,
+        "Fizzy Tizzy": 15,
+        "Sky Blue Mousse": 8,
+        "Starry Sky Delight": 8,
+        "Rich Marshmallow": 15,
+        "Merry Mint": 10,
+        "Melodious Grape": 12
+      }
+    },
+    "notes": "Recipe quantities summed arithmetically. These are manufacture totals, not required inventory if some ice cream was obtained elsewhere. Sugary Skies is the HD name; Milky Way is an alias. Daisy Sorbet is Final Mix."
+  },
+  "flavors": {
+    "source": "https://www.khwiki.com/Flavors",
+    "rows": [
+      {
+        "name": "Dancin' Lemon",
+        "used_in": "Spark Lemon",
+        "world_or_event": "Neverland Risky Riches",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cherryberry",
+        "used_in": "Double Crunch",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Apple Pie",
+        "used_in": "Honeybunny",
+        "world_or_event": "Dwarf Woodlands",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Balloon Melon",
+        "used_in": "Fabracadabra",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Peach Fantasy",
+        "used_in": "Fabracadabra",
+        "world_or_event": "Dwarf Woodlands",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Heroic Orange",
+        "used_in": "Fabracadabra",
+        "world_or_event": "Olympus Coliseum",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Melodious Grape",
+        "used_in": "Daisy Sorbet",
+        "world_or_event": "Disney Town",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Open Sesame",
+        "used_in": "Snow Bear",
+        "world_or_event": "Treasure Tussle Risky Riches [ KH BbS FM ]",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Bijou Bean",
+        "used_in": "Vanilla Glitz",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Nutty Nut",
+        "used_in": "Rockin' Crunch",
+        "world_or_event": "Dwarf Woodlands Olympus Coliseum",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Bizarro Bean",
+        "used_in": "Big Bad Pete",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Gaspberry",
+        "used_in": "Royalberry",
+        "world_or_event": "Dwarf Woodlands",
+        "characters": [
+          "Terra",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Crystal Sugar",
+        "used_in": "Vanilla Glitz",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Jumbo Almond",
+        "used_in": "Goofy Parfait",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Mermaid Salt",
+        "used_in": "Donald Fizz",
+        "world_or_event": "Neverland",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Prickle Pepper",
+        "used_in": "Bueno Volcano",
+        "world_or_event": "Disney Town",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Toonbasco",
+        "used_in": "Bueno Volcano",
+        "world_or_event": "Disney Town",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Merry Mint",
+        "used_in": "Daisy Sorbet",
+        "world_or_event": "Dwarf Woodlands",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Rose Honey",
+        "used_in": "Royalberry",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Terra",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Golden Jam",
+        "used_in": "Vanilla Glitz",
+        "world_or_event": "Neverland",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Whipped Dream",
+        "used_in": "Big Bad Pete",
+        "world_or_event": "Neverland",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Honeybunch",
+        "used_in": "Honeybunny",
+        "world_or_event": "Neverland",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Star Syrup",
+        "used_in": "Double Crunch",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Rainbow Syrup",
+        "used_in": "Sugary Skies",
+        "world_or_event": "Neverland",
+        "characters": [
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Sky Blue Mousse",
+        "used_in": "Donald Fizz",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cream Fluff",
+        "used_in": "Sugary Skies",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Soy Milk",
+        "used_in": "Snow Bear",
+        "world_or_event": "Radiant Garden",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Merry Dairy",
+        "used_in": "Double Crunch",
+        "world_or_event": "Dwarf Woodlands",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Moogle Coffee",
+        "used_in": "Goofy Parfait",
+        "world_or_event": "Radiant Garden",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Crystal Soda",
+        "used_in": "Donald Fizz",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Rocket Soda",
+        "used_in": "Spark Lemon",
+        "world_or_event": "Radiant Garden",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Fizzy Tizzy",
+        "used_in": "Donald Fizz",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Galactic Caramel",
+        "used_in": "Rockin' Crunch",
+        "world_or_event": "Deep Space",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Chocolate Valentine",
+        "used_in": "Goofy Parfait",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Thundercracker",
+        "used_in": "Spark Lemon",
+        "world_or_event": "Olympus Coliseum",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cotton Cloudcandy",
+        "used_in": "Sugary Skies",
+        "world_or_event": "Olympus Coliseum",
+        "characters": [
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Nebula Nectar",
+        "used_in": "Royalberry",
+        "world_or_event": "Radiant Garden",
+        "characters": [
+          "Terra",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Birthday Cake",
+        "used_in": "Royalberry",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Terra",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Wedding Cake",
+        "used_in": "Double Crunch",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Forest Muffin",
+        "used_in": "Goofy Parfait",
+        "world_or_event": "Enchanted Dominion",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Rich Marshmallow",
+        "used_in": "Daisy Sorbet",
+        "world_or_event": "Castle of Dreams",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Starry Sky Delight",
+        "used_in": "Daisy Sorbet",
+        "world_or_event": "Treasure Tussle",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      }
+    ],
+    "status": "world/event leads; Prize Pod exact spawns and respawn conditions need per-character normalization"
+  },
+  "finish_unlocks": {
+    "source": "https://www.khwiki.com/Finish_command_(KHBBS)",
+    "rows": [
+      {
+        "name": "Finish",
+        "characters": [
+          "Terra"
+        ],
+        "level": "1",
+        "metric": "initial",
+        "target": 0,
+        "parent_equipped": null,
+        "style": null
+      },
+      {
+        "name": "Finish",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "1",
+        "metric": "initial",
+        "target": 0,
+        "parent_equipped": null,
+        "style": null
+      },
+      {
+        "name": "Finish",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "1",
+        "metric": "initial",
+        "target": 0,
+        "parent_equipped": null,
+        "style": null
+      },
+      {
+        "name": "Rising Rock 1",
+        "characters": [
+          "Terra"
+        ],
+        "level": "2",
+        "metric": "cp",
+        "target": 2000,
+        "parent_equipped": "Finish (Terra)",
+        "style": null
+      },
+      {
+        "name": "Air Flair 1",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "2",
+        "metric": "cp",
+        "target": 2000,
+        "parent_equipped": "Finish (Ventus)",
+        "style": null
+      },
+      {
+        "name": "Magic Pulse 1",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "2",
+        "metric": "cp",
+        "target": 2000,
+        "parent_equipped": "Finish (Aqua)",
+        "style": null
+      },
+      {
+        "name": "Heat Slash 1",
+        "characters": [
+          "Terra"
+        ],
+        "level": "2",
+        "metric": "command-style-activations",
+        "target": 8,
+        "parent_equipped": "Finish (Terra)",
+        "style": "Firestorm"
+      },
+      {
+        "name": "Heat Slash 1",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "2",
+        "metric": "command-style-activations",
+        "target": 8,
+        "parent_equipped": "Finish (Ventus)",
+        "style": "Firestorm"
+      },
+      {
+        "name": "Heat Slash 1",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "2",
+        "metric": "command-style-activations",
+        "target": 8,
+        "parent_equipped": "Finish (Aqua)",
+        "style": "Firestorm"
+      },
+      {
+        "name": "Gold Rush",
+        "characters": [
+          "Terra"
+        ],
+        "level": "2",
+        "metric": "munny-collected",
+        "target": 1000,
+        "parent_equipped": "Finish (Terra)",
+        "style": null
+      },
+      {
+        "name": "Gold Rush",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "2",
+        "metric": "munny-collected",
+        "target": 1000,
+        "parent_equipped": "Finish (Ventus)",
+        "style": null
+      },
+      {
+        "name": "Gold Rush",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "2",
+        "metric": "munny-collected",
+        "target": 1000,
+        "parent_equipped": "Finish (Aqua)",
+        "style": null
+      },
+      {
+        "name": "Rising Rock 2",
+        "characters": [
+          "Terra"
+        ],
+        "level": "3",
+        "metric": "cp",
+        "target": 4200,
+        "parent_equipped": "Rising Rock 1",
+        "style": null
+      },
+      {
+        "name": "Air Flair 2",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "3",
+        "metric": "cp",
+        "target": 4000,
+        "parent_equipped": "Air Flair 1",
+        "style": null
+      },
+      {
+        "name": "Magic Pulse 2",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "3",
+        "metric": "cp",
+        "target": 3800,
+        "parent_equipped": "Magic Pulse 1",
+        "style": null
+      },
+      {
+        "name": "Heat Slash 2",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "3",
+        "metric": "command-style-activations",
+        "target": 12,
+        "parent_equipped": "Heat Slash 1",
+        "style": "Firestorm"
+      },
+      {
+        "name": "Ramuh's Judgement",
+        "characters": [
+          "Terra"
+        ],
+        "level": "3",
+        "metric": "command-style-activations",
+        "target": 12,
+        "parent_equipped": "Rising Rock 1",
+        "style": "Thunderbolt"
+      },
+      {
+        "name": "Ramuh's Judgement",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "3",
+        "metric": "command-style-activations",
+        "target": 12,
+        "parent_equipped": "Air Flair 1",
+        "style": "Thunderbolt"
+      },
+      {
+        "name": "Ramuh's Judgement",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "3",
+        "metric": "command-style-activations",
+        "target": 12,
+        "parent_equipped": "Magic Pulse 1",
+        "style": "Thunderbolt"
+      },
+      {
+        "name": "Twisted Hours",
+        "characters": [
+          "Terra"
+        ],
+        "level": "3",
+        "metric": "steps",
+        "target": 7000,
+        "parent_equipped": "Rising Rock 1 or Gold Rush",
+        "style": null
+      },
+      {
+        "name": "Twisted Hours",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "3",
+        "metric": "steps",
+        "target": 7000,
+        "parent_equipped": "Air Flair 1 or Gold Rush",
+        "style": null
+      },
+      {
+        "name": "Twisted Hours",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "3",
+        "metric": "steps",
+        "target": 7000,
+        "parent_equipped": "Magic Pulse 1 or Gold Rush",
+        "style": null
+      },
+      {
+        "name": "Surprise! 1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "level": "3",
+        "metric": "munny-collected",
+        "target": 1400,
+        "parent_equipped": "Gold Rush",
+        "style": null
+      },
+      {
+        "name": "Dark Star 1",
+        "characters": [
+          "Terra"
+        ],
+        "level": "4",
+        "metric": "enemies-defeated",
+        "target": 420,
+        "parent_equipped": "Rising Rock 2",
+        "style": null
+      },
+      {
+        "name": "Air Flair 3",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "4",
+        "metric": "steps",
+        "target": 4500,
+        "parent_equipped": "Air Flair 2",
+        "style": null
+      },
+      {
+        "name": "Magic Pulse 3",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "4",
+        "metric": "enemies-defeated",
+        "target": 350,
+        "parent_equipped": "Magic Pulse 2",
+        "style": null
+      },
+      {
+        "name": "Heal Strike",
+        "characters": [
+          "Terra"
+        ],
+        "level": "4",
+        "metric": "lethal-hits-survived",
+        "target": 5,
+        "parent_equipped": "Rising Rock 2",
+        "style": null
+      },
+      {
+        "name": "Heal Strike",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "4",
+        "metric": "lethal-hits-survived",
+        "target": 5,
+        "parent_equipped": "Air Flair 2",
+        "style": null
+      },
+      {
+        "name": "Heal Strike",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "4",
+        "metric": "lethal-hits-survived",
+        "target": 5,
+        "parent_equipped": "Magic Pulse 2",
+        "style": null
+      },
+      {
+        "name": "Random End",
+        "characters": [
+          "Terra"
+        ],
+        "level": "4",
+        "metric": "steps",
+        "target": 8000,
+        "parent_equipped": "Twisted Hours",
+        "style": null
+      },
+      {
+        "name": "Surprise! 2",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ],
+        "level": "4",
+        "metric": "munny-collected",
+        "target": 5200,
+        "parent_equipped": "Twisted Hours or Surprise! 1",
+        "style": null
+      },
+      {
+        "name": "Dark Star 2",
+        "characters": [
+          "Terra"
+        ],
+        "level": "5",
+        "metric": "enemies-defeated",
+        "target": 550,
+        "parent_equipped": "Dark Star 1",
+        "style": null
+      },
+      {
+        "name": "Air Flair 4",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "5",
+        "metric": "steps",
+        "target": 7000,
+        "parent_equipped": "Air Flair 3",
+        "style": null
+      },
+      {
+        "name": "Magic Pulse 4",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "5",
+        "metric": "enemies-defeated",
+        "target": 500,
+        "parent_equipped": "Magic Pulse 3",
+        "style": null
+      },
+      {
+        "name": "Explosion",
+        "characters": [
+          "Terra"
+        ],
+        "level": "5",
+        "metric": "cp",
+        "target": 6400,
+        "parent_equipped": "Dark Star 1",
+        "style": null
+      },
+      {
+        "name": "Explosion",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "5",
+        "metric": "cp",
+        "target": 6400,
+        "parent_equipped": "Air Flair 3",
+        "style": null
+      },
+      {
+        "name": "Explosion",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "5",
+        "metric": "cp",
+        "target": 6400,
+        "parent_equipped": "Magic Pulse 3",
+        "style": null
+      },
+      {
+        "name": "Celebration",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "5",
+        "metric": "munny-collected",
+        "target": 7000,
+        "parent_equipped": "Surprise! 2",
+        "style": null
+      },
+      {
+        "name": "Ice Burst",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "5",
+        "metric": "command-style-activations",
+        "target": 15,
+        "parent_equipped": "Magic Pulse 3",
+        "style": "Diamond Dust or Frozen Fortune"
+      },
+      {
+        "name": "Demolition",
+        "characters": [
+          "Terra"
+        ],
+        "level": "6",
+        "metric": "cp",
+        "target": 10000,
+        "parent_equipped": "Dark Star 2",
+        "style": null
+      },
+      {
+        "name": "Stratosphere",
+        "characters": [
+          "Ventus"
+        ],
+        "level": "6",
+        "metric": "enemies-defeated",
+        "target": 800,
+        "parent_equipped": "Air Flair 4",
+        "style": null
+      },
+      {
+        "name": "Teleport Spike",
+        "characters": [
+          "Aqua"
+        ],
+        "level": "6",
+        "metric": "enemies-defeated",
+        "target": 800,
+        "parent_equipped": "Magic Pulse 4",
+        "style": null
+      }
+    ],
+    "notes": "Parent must be equipped while accumulating the metric; parent alternatives are OR. D-Link, Style and Illusion finishers are distinct catalogs."
+  },
+  "command_shop": {
+    "source": "https://www.khwiki.com/Command_Shop",
+    "rows": [
+      {
+        "name": "Quick Blitz",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Collision Magnet",
+        "munny": "1300",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Zero Graviga",
+        "munny": "1300",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Potion",
+        "munny": "30",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Blitz",
+        "munny": "1200",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Geo Impact",
+        "munny": "2100",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Magnet",
+        "munny": "120",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Hi-Potion",
+        "munny": "80",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Sliding Dash",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Sacrifice",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Magnera",
+        "munny": "550",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Mega-Potion",
+        "munny": "150",
+        "shop_level": "7",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Fire Dash",
+        "munny": "150",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Fire",
+        "munny": "100",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Magnega",
+        "munny": "1250",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Ether",
+        "munny": "50",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Dark Haze",
+        "munny": "1100",
+        "shop_level": "8",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Fira",
+        "munny": "500",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Munny Magnet",
+        "munny": "800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Mega-Ether",
+        "munny": "160",
+        "shop_level": "7",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Sonic Blade",
+        "munny": "2000",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Firaga",
+        "munny": "1200",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Energy Magnet",
+        "munny": "800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Panacea",
+        "munny": "50",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Zantetsuken",
+        "munny": "1700",
+        "shop_level": "5",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Dark Firaga",
+        "munny": "2000",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "D-Link Magnet",
+        "munny": "800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Elixir",
+        "munny": "250",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Strike Raid",
+        "munny": "100",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Fission Firaga",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Aero",
+        "munny": "150",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Megalixir",
+        "munny": "350",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Freeze Raid",
+        "munny": "200",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Triple Firaga",
+        "munny": "1800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Aerora",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Balloon Letter",
+        "munny": "120",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Spark Raid",
+        "munny": "1300",
+        "shop_level": "—",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Crawling Fire",
+        "munny": "1800",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Aeroga",
+        "munny": "1300",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "High Jump",
+        "munny": "500",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Wind Raid",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Blizzard",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Warp",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Dodge Roll",
+        "munny": "200",
+        "shop_level": "1",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Fire Surge",
+        "munny": "650",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Blizzara",
+        "munny": "500",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Deep Freeze",
+        "munny": "2200",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cartwheel",
+        "munny": "200",
+        "shop_level": "1",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Barrier Surge",
+        "munny": "500",
+        "shop_level": "5",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Blizzaga",
+        "munny": "1200",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Glacier",
+        "munny": "2500",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Firewheel",
+        "munny": "2000",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Thunder Surge",
+        "munny": "700",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Triple Blizzaga",
+        "munny": "1800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Ice Barrage",
+        "munny": "1800",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Air Slide",
+        "munny": "800",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Aerial Slam",
+        "munny": "1500",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Thunder",
+        "munny": "150",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Firaga Burst",
+        "munny": "2500",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Slide",
+        "munny": "200",
+        "shop_level": "1",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Poison Edge",
+        "munny": "150",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Thundara",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Quake",
+        "munny": "2500",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Glide",
+        "munny": "2000",
+        "shop_level": "—",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Wishing Edge",
+        "munny": "550",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Thundaga",
+        "munny": "1300",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Mini",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Block",
+        "munny": "200",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Blizzard Edge",
+        "munny": "200",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Thundaga Shot",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Blackout",
+        "munny": "600",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Stun Block",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Stun Edge",
+        "munny": "150",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cure",
+        "munny": "150",
+        "shop_level": "2",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Ignite",
+        "munny": "600",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Barrier",
+        "munny": "200",
+        "shop_level": "1",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Slot Edge",
+        "munny": "700",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Cura",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Confuse",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Confuse Barrier",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Fire Strike",
+        "munny": "450",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Curaga",
+        "munny": "1300",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Bind",
+        "munny": "150",
+        "shop_level": "2",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Counter Hammer",
+        "munny": "1200",
+        "shop_level": "5",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Confusion Strike",
+        "munny": "450",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Esuna",
+        "munny": "600",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Poison",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Payback Fang",
+        "munny": "1400",
+        "shop_level": "7",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Binding Strike",
+        "munny": "400",
+        "shop_level": "4",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Mine Shield",
+        "munny": "1000",
+        "shop_level": "7",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Slow",
+        "munny": "150",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Counter Rush",
+        "munny": "1200",
+        "shop_level": "6",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Brutal Blast",
+        "munny": "1800",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Mine Square",
+        "munny": "1000",
+        "shop_level": "7",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Stop",
+        "munny": "100",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Reversal Slash",
+        "munny": "800",
+        "shop_level": "7",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Magnet Spiral",
+        "munny": "2300",
+        "shop_level": "—",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Seeker Mine",
+        "munny": "2300",
+        "shop_level": "—",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Stopra",
+        "munny": "500",
+        "shop_level": "5",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Payback Raid",
+        "munny": "1400",
+        "shop_level": "3",
+        "characters": [
+          "Ventus"
+        ]
+      },
+      {
+        "name": "Windcutter",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Zero Gravity",
+        "munny": "150",
+        "shop_level": "3",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Stopga",
+        "munny": "1200",
+        "shop_level": "8",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Counter Blast",
+        "munny": "1200",
+        "shop_level": "6",
+        "characters": [
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Limit Storm",
+        "munny": "1500",
+        "shop_level": "—",
+        "characters": [
+          "Terra"
+        ]
+      },
+      {
+        "name": "Zero Gravira",
+        "munny": "600",
+        "shop_level": "6",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Sleep",
+        "munny": "100",
+        "shop_level": "1",
+        "characters": [
+          "Terra",
+          "Ventus",
+          "Aqua"
+        ]
+      },
+      {
+        "name": "Payback Surge",
+        "munny": "1400",
+        "shop_level": "4",
+        "characters": [
+          "Aqua"
+        ]
+      }
+    ],
+    "status": "source table candidates; dash availability requires acquisition gating, not free availability; cross-check HD removed commands"
+  },
+  "counts": {
+    "ice_cream_recipes": 14,
+    "flavors": 42,
+    "finish_character_predicates": 42,
+    "command_shop_rows": 108
+  }
+}

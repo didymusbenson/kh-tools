@@ -1,0 +1,84 @@
+name: Deploy Ars Arcanum to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Only the deployment job receives permission to publish.
+permissions: {}
+
+# Keep an in-flight deployment intact; GitHub retains the newest pending run.
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Validate and build
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: read
+    env:
+      ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+    steps:
+      - name: Check out production source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run application tests
+        run: npm test
+
+      - name: Validate and assemble canonical content
+        run: npm run content:build
+
+      - name: Verify the committed Coppermind pack
+        run: npm run coppermind:check
+
+      - name: Read GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: false
+
+      - name: Build the production site
+        env:
+          # Project site: /kh-tools/; custom domain or user site: /.
+          BASE_URL: ${{ steps.pages.outputs.base_path }}/
+        run: npm run build
+
+      - name: Upload the built site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    name: Publish GitHub Pages
+    if: github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the validated site
+        id: deployment
+        uses: actions/deploy-pages@v4

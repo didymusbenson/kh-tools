@@ -1,0 +1,25 @@
+name,character,strength,magic,critical_rate,critical_multiplier,acquisition,source,status
+Earthshaker,Terra,+3,+1,25%,x1.2,Terra's default Keyblade.,https://www.khwiki.com/Earthshaker,community-source inspected; modern source validation pending
+Wayward Wind,Ventus,+3,+1,50%,x1.35,Ventus's default Keyblade.,https://www.khwiki.com/Wayward_Wind,community-source inspected; modern source validation pending
+Rainfell,Aqua,+2,+2,25%,x1.2,Aqua's default Keyblade.,https://www.khwiki.com/Rainfell,community-source inspected; modern source validation pending
+Treasure Trove,Terra;Ventus;Aqua,+3,+2,25%,x1.2,Clear Dwarf Woodlands.,https://www.khwiki.com/Treasure_Trove,community-source inspected; modern source validation pending
+Stroke of Midnight,Terra;Ventus;Aqua,+2,+2,75%,x1.35,Clear Castle of Dreams.,https://www.khwiki.com/Stroke_of_Midnight,community-source inspected; modern source validation pending
+Fairy Stars,Terra;Ventus;Aqua,+2,+3,25%,x1.2,Clear Enchanted Dominion.,https://www.khwiki.com/Fairy_Stars,community-source inspected; modern source validation pending
+Victory Line,Terra;Ventus;Aqua,+4,+2,75%,x1.35,Achieve a 1st place finish on the Castle Circuit,https://www.khwiki.com/Victory_Line,community-source inspected; modern source validation pending
+Mark of a Hero,Terra;Ventus;Aqua,+5,+1,50%,x1.5,Clear Olympus Coliseum.,https://www.khwiki.com/Mark_of_a_Hero,community-source inspected; modern source validation pending
+Hyperdrive,Terra;Ventus;Aqua,+4,+3,50%,x1.35,Clear Deep Space.,https://www.khwiki.com/Hyperdrive,community-source inspected; modern source validation pending
+Pixie Petal,Terra;Ventus;Aqua,+3,+6,75%,x1.5,Clear Neverland.,https://www.khwiki.com/Pixie_Petal,community-source inspected; modern source validation pending
+Sweetstack,Terra;Ventus;Aqua,+6,+4,100%,x1.2,Make every kind of Ice Cream.,https://www.khwiki.com/Sweetstack,community-source inspected; modern source validation pending
+Ultima Weapon,Terra;Ventus;Aqua,+7,+6,75%,x1.5,Complete Villains' Vendetta.,https://www.khwiki.com/Ultima_Weapon,community-source inspected; modern source validation pending
+Void Gear,Terra;Ventus;Aqua,+8,+4,50%,x1.5,Defeat Vanitas Remnant.,https://www.khwiki.com/Void_Gear,community-source inspected; modern source validation pending
+No Name,Terra;Ventus;Aqua,+6,+7,75%,x1.35,Defeat the Unknown.,https://www.khwiki.com/No_Name_(KHBBS),community-source inspected; modern source validation pending
+Royal Radiance,Terra;Ventus;Aqua,+8,+7,75%,x2.0,Complete Peering into Darkness.,https://www.khwiki.com/Royal_Radiance,community-source inspected; modern source validation pending
+Ends of the Earth,Terra,+5,+3,50%,x1.35,Meet Riku on Destiny Islands.,https://www.khwiki.com/Ends_of_the_Earth,community-source inspected; modern source validation pending
+Darkgnaw,Terra,+5,+2,25%,x1.35,Complete Dead Ringer.,https://www.khwiki.com/Darkgnaw,community-source inspected; modern source validation pending
+Chaos Ripper,Terra,+10,-2,25%,x1.5,Defeat Master Eraqus.,https://www.khwiki.com/Chaos_Ripper,community-source inspected; modern source validation pending
+Frolic Flame,Ventus,+3,+3,50%,x1.5,Meet Lea in Radiant Garden.,https://www.khwiki.com/Frolic_Flame,community-source inspected; modern source validation pending
+Lost Memory,Ventus,+6,+5,75%,x1.5,Meet Vanitas on Destiny Islands.,https://www.khwiki.com/Lost_Memory,community-source inspected; modern source validation pending
+Destiny's Embrace,Aqua,+3,+3,75%,x1.35,Meet Kairi in Radiant Garden.,https://www.khwiki.com/Destiny's_Embrace,community-source inspected; modern source validation pending
+Stormfall,Aqua,+5,+4,50%,x1.35,Meet Sora and Riku on Destiny Islands.,https://www.khwiki.com/Stormfall,community-source inspected; modern source validation pending
+Brightcrest,Aqua: Final Episode,+4,+7,75%,x1.5,Start the Final Episode.,https://www.khwiki.com/Brightcrest,community-source inspected; modern source validation pending
+Master's Defender,Aqua: Secret Episode,+7,+7,50%,x1.5,Start the Secret Episode.,https://www.khwiki.com/Master's_Defender,community-source inspected; modern source validation pending

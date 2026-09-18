@@ -1,0 +1,11030 @@
+{
+  "status": "legacy candidate evidence; not production verified",
+  "source": "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+  "inspected": "2026-09-18",
+  "tables": {
+    "Spirit": [
+      [
+        "spirit_id",
+        "spirit_name ",
+        "attribute_type (fk common lookup)",
+        "style_type (fk common lookup)"
+      ],
+      [
+        "1",
+        "Aura Lion",
+        null,
+        null
+      ],
+      [
+        "2",
+        "Beatalike",
+        null,
+        null
+      ],
+      [
+        "3",
+        "Catanuki",
+        null,
+        null
+      ],
+      [
+        "4",
+        "Cera Terror",
+        null,
+        null
+      ],
+      [
+        "5",
+        "Chef Kyroo",
+        null,
+        null
+      ],
+      [
+        "6",
+        "Cyber Yog",
+        null,
+        null
+      ],
+      [
+        "7",
+        "Drak Quack",
+        null,
+        null
+      ],
+      [
+        "8",
+        "Drill Sye",
+        null,
+        null
+      ],
+      [
+        "9",
+        "Ducky Goose",
+        null,
+        null
+      ],
+      [
+        "10",
+        "Eaglider",
+        null,
+        null
+      ],
+      [
+        "11",
+        "Electricorn",
+        null,
+        null
+      ],
+      [
+        "12",
+        "Escarglow",
+        null,
+        null
+      ],
+      [
+        "13",
+        "Fin Fatale",
+        null,
+        null
+      ],
+      [
+        "14",
+        "Fishbone",
+        null,
+        null
+      ],
+      [
+        "15",
+        "Flowbermeow",
+        null,
+        null
+      ],
+      [
+        "16",
+        "Ghostabocky",
+        null,
+        null
+      ],
+      [
+        "17",
+        "Halbird",
+        null,
+        null
+      ],
+      [
+        "18",
+        "Hebby Repp",
+        null,
+        null
+      ],
+      [
+        "19",
+        "Iceguin Ace",
+        null,
+        null
+      ],
+      [
+        "20",
+        "Jeggle Pup",
+        null,
+        null
+      ],
+      [
+        "21",
+        "Jestabocky",
+        null,
+        null
+      ],
+      [
+        "22",
+        "Keeba Tiger",
+        null,
+        null
+      ],
+      [
+        "23",
+        "KO Kabuto",
+        null,
+        null
+      ],
+      [
+        "24",
+        "Komory Bat",
+        null,
+        null
+      ],
+      [
+        "25",
+        "Kooma Panda",
+        null,
+        null
+      ],
+      [
+        "26",
+        "Lord Kyroo",
+        null,
+        null
+      ],
+      [
+        "27",
+        "Magic Rabbit",
+        null,
+        null
+      ],
+      [
+        "28",
+        "Me Me Bunny",
+        null,
+        null
+      ],
+      [
+        "29",
+        "Meow Wow",
+        null,
+        null
+      ],
+      [
+        "30",
+        "Necho Cat",
+        null,
+        null
+      ],
+      [
+        "31",
+        "Peepsta Hoo",
+        null,
+        null
+      ],
+      [
+        "32",
+        "Pegaslick",
+        null,
+        null
+      ],
+      [
+        "33",
+        "Pricklemane",
+        null,
+        null
+      ],
+      [
+        "34",
+        "Ryu Dragon",
+        null,
+        null
+      ],
+      [
+        "35",
+        "Sir Kyroo",
+        null,
+        null
+      ],
+      [
+        "36",
+        "Skelterwild",
+        null,
+        null
+      ],
+      [
+        "37",
+        "Staggerceps",
+        null,
+        null
+      ],
+      [
+        "38",
+        "Tama Sheep",
+        null,
+        null
+      ],
+      [
+        "39",
+        "Tatsu Blaze",
+        null,
+        null
+      ],
+      [
+        "40",
+        "Tatsu Steed",
+        null,
+        null
+      ],
+      [
+        "41",
+        "Thunderaffe",
+        null,
+        null
+      ],
+      [
+        "42",
+        "Toximander",
+        null,
+        null
+      ],
+      [
+        "43",
+        "Tubguin Ace",
+        null,
+        null
+      ],
+      [
+        "44",
+        "Tyranto Rex",
+        null,
+        null
+      ],
+      [
+        "45",
+        "Wheeflower",
+        null,
+        null
+      ],
+      [
+        "46",
+        "Woeflower",
+        null,
+        null
+      ],
+      [
+        "47",
+        "Yoggy Ram",
+        null,
+        null
+      ],
+      [
+        "48",
+        "Zolephant",
+        null,
+        null
+      ],
+      [
+        "49",
+        "Frootz Cat",
+        null,
+        null
+      ],
+      [
+        "50",
+        "Meowjesty",
+        null,
+        null
+      ],
+      [
+        "51",
+        "Kab Kannon",
+        null,
+        null
+      ],
+      [
+        "52",
+        "Ursa Circus",
+        null,
+        null
+      ]
+    ],
+    "common_lookup": [
+      [
+        "common_lookup_id",
+        "common_lookup_name",
+        "common_lookup_type",
+        "common_lookup_table",
+        "common_lookup_column"
+      ],
+      [
+        "1",
+        "Sora",
+        "character",
+        null,
+        null
+      ],
+      [
+        "2",
+        "Riku",
+        "character",
+        null,
+        null
+      ],
+      [
+        "3",
+        "Both",
+        "character",
+        null,
+        null
+      ],
+      [
+        "4",
+        "Attack",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "5",
+        "Magic",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "6",
+        "Item",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "7",
+        "movement",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "8",
+        "defense",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "9",
+        "flowmotion",
+        "deck_command",
+        null,
+        null
+      ],
+      [
+        "10",
+        "Blizzard",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "11",
+        "Neutral",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "12",
+        "Physical",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "13",
+        "Thunder",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "14",
+        "Dark",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "15",
+        "Fire",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "16",
+        "Light",
+        "damage_type",
+        null,
+        null
+      ],
+      [
+        "17",
+        "deck_command",
+        "unlock_type",
+        "deck_command",
+        null
+      ],
+      [
+        "18",
+        "ability",
+        "unlock_type",
+        "ability",
+        null
+      ],
+      [
+        "19",
+        "stat ability",
+        "ability_type",
+        null,
+        null
+      ],
+      [
+        "20",
+        "support ability",
+        "ability_type",
+        null,
+        null
+      ],
+      [
+        "21",
+        "spirit ability",
+        "ability_type",
+        null,
+        null
+      ],
+      [
+        "22",
+        "Meow Wow Family",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "23",
+        "Anything",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "24",
+        "Physical",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "25",
+        "Fire",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "26",
+        "Dark",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "27",
+        "Thunder",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "28",
+        "Blizzard",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "29",
+        "Light",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "30",
+        "Water",
+        "link_attribute",
+        "dual_link_attack",
+        null
+      ],
+      [
+        "31",
+        "single",
+        "link_style_type",
+        null,
+        null
+      ],
+      [
+        "32",
+        "dual",
+        "link_style_type",
+        null,
+        null
+      ],
+      [
+        "33",
+        "Physical/Light",
+        "link_style",
+        "link_style",
+        null
+      ],
+      [
+        "34",
+        "Fire",
+        "link_style",
+        "link_style",
+        null
+      ],
+      [
+        "35",
+        "Aqua",
+        "link_style",
+        "link_style",
+        null
+      ],
+      [
+        "36",
+        "Lightning",
+        "link_style",
+        "link_style",
+        null
+      ],
+      [
+        "37",
+        "Dark",
+        "link_style",
+        "link_style",
+        null
+      ]
+    ],
+    "single_link_attack": [
+      [
+        "link_attack_id",
+        "link_attack_name"
+      ],
+      [
+        "1",
+        "Meow Wounce"
+      ],
+      [
+        "2",
+        "Roll Call"
+      ],
+      [
+        "3",
+        "Whirling Bronco"
+      ],
+      [
+        "4",
+        "Fly-by Knight"
+      ],
+      [
+        "5",
+        "Hammer Throw"
+      ],
+      [
+        "6",
+        "Flame Thrower"
+      ],
+      [
+        "7",
+        "Decussation"
+      ],
+      [
+        "8",
+        "Poison Dash"
+      ],
+      [
+        "9",
+        "Water Blaster"
+      ],
+      [
+        "10",
+        "Bubble Blaster"
+      ],
+      [
+        "11",
+        "Paw Groove"
+      ],
+      [
+        "12",
+        "Equestrian Raid"
+      ],
+      [
+        "13",
+        "Swing Fling"
+      ],
+      [
+        "14",
+        "Belly Raid"
+      ],
+      [
+        "15",
+        "Target Shot"
+      ],
+      [
+        "16",
+        "Trap Shot"
+      ],
+      [
+        "17",
+        "Cure Sun"
+      ],
+      [
+        "18",
+        "Vacuum Ghost"
+      ],
+      [
+        "19",
+        "Berserker Bronco"
+      ],
+      [
+        "20",
+        "Lucky Dice"
+      ],
+      [
+        "21",
+        "Fire Blaster"
+      ],
+      [
+        "22",
+        "Poison Rain"
+      ],
+      [
+        "23",
+        "Flame Raid"
+      ],
+      [
+        "24",
+        "Ice Raid"
+      ],
+      [
+        "25",
+        "Tail Groove"
+      ],
+      [
+        "26",
+        "Aura Raid"
+      ],
+      [
+        "27",
+        "Unwind"
+      ]
+    ],
+    "dual_link_attack": [
+      [
+        "link_attack_id",
+        "link_attack_name"
+      ],
+      [
+        "1",
+        "Whomperstomp"
+      ],
+      [
+        "2",
+        "Comet"
+      ],
+      [
+        "3",
+        "Unison Rush"
+      ],
+      [
+        "4",
+        "Chaos Snake"
+      ],
+      [
+        "5",
+        "Prism Light"
+      ],
+      [
+        "6",
+        "Trinity Limit"
+      ],
+      [
+        "7",
+        "Ragnarok"
+      ]
+    ],
+    "dual_attack_recipe": [
+      [
+        "dual_attack_recipe_id",
+        "link_attack_id (fk link_attack)",
+        "primary_attribute_type (fk common_lookup)",
+        "secondary_attribute_type (fk common_lookup)"
+      ],
+      [
+        "1",
+        "Whomperstomp",
+        "meow wow family",
+        "anything"
+      ],
+      [
+        "2",
+        "Whomperstomp",
+        "anything",
+        "meow wow family"
+      ],
+      [
+        "3",
+        "Comet",
+        "physical",
+        "fire"
+      ],
+      [
+        "4",
+        "Comet",
+        "physical",
+        "dark"
+      ],
+      [
+        "5",
+        "Comet",
+        "fire",
+        "fire"
+      ],
+      [
+        "6",
+        "Comet",
+        "fire",
+        "water"
+      ],
+      [
+        "7",
+        "Comet",
+        "fire",
+        "dark"
+      ],
+      [
+        "8",
+        "Unison Rush",
+        "physical",
+        "physical"
+      ],
+      [
+        "9",
+        "Unison Rush",
+        "physical",
+        "thunder"
+      ],
+      [
+        "10",
+        "Unison Rush",
+        "physical",
+        "light"
+      ],
+      [
+        "11",
+        "Unison Rush",
+        "physical",
+        "blizzard"
+      ],
+      [
+        "12",
+        "Chaos Snake",
+        "physical",
+        "water"
+      ],
+      [
+        "13",
+        "Chaos Snake",
+        "fire",
+        "thunder"
+      ],
+      [
+        "14",
+        "Chaos Snake",
+        "water",
+        "water"
+      ],
+      [
+        "15",
+        "Chaos Snake",
+        "dark",
+        "dark"
+      ],
+      [
+        "16",
+        "Chaos Snake",
+        "dark",
+        "blizzard"
+      ],
+      [
+        "17",
+        "Prism Light",
+        "fire",
+        "blizzard"
+      ],
+      [
+        "18",
+        "Prism Light",
+        "water",
+        "blizzard"
+      ],
+      [
+        "19",
+        "Prism Light",
+        "thunder",
+        "blizzard"
+      ],
+      [
+        "20",
+        "Prism Light",
+        "light",
+        "blizzard"
+      ],
+      [
+        "21",
+        "Prism Light",
+        "blizzard",
+        "blizzard"
+      ],
+      [
+        "22",
+        "Trinity Limit",
+        "fire",
+        "light"
+      ],
+      [
+        "23",
+        "Trinity Limit",
+        "water",
+        "thunder"
+      ],
+      [
+        "24",
+        "Trinity Limit",
+        "water",
+        "light"
+      ],
+      [
+        "25",
+        "Trinity Limit",
+        "light",
+        "light"
+      ],
+      [
+        "26",
+        "Trinity Limit",
+        "light",
+        "dark"
+      ],
+      [
+        "27",
+        "Ragnarok",
+        "water",
+        "dark"
+      ],
+      [
+        "28",
+        "Ragnarok",
+        "thunder",
+        "thunder"
+      ],
+      [
+        "29",
+        "Ragnarok",
+        "thunder",
+        "light"
+      ],
+      [
+        "30",
+        "Ragnarok",
+        "thunder",
+        "dark"
+      ]
+    ],
+    "single_link_style": [
+      [
+        "link_style_id",
+        "link_style_name",
+        "style_type"
+      ],
+      [
+        "1",
+        "Shining Hammer",
+        "single"
+      ],
+      [
+        "2",
+        "Fire Raid",
+        "single"
+      ],
+      [
+        "3",
+        "Wavesurfer",
+        "single"
+      ],
+      [
+        "4",
+        "Thunderstorm",
+        "single"
+      ],
+      [
+        "5",
+        "Darkest Fears",
+        "single"
+      ]
+    ],
+    "dual_link_style": [
+      [
+        "link_style_id",
+        "link_style_name",
+        "style_type"
+      ],
+      [
+        "1",
+        "Bladecharge",
+        "dual"
+      ],
+      [
+        "2",
+        "Rising Wing",
+        "dual"
+      ],
+      [
+        "3",
+        "Ghost Drive",
+        "dual"
+      ]
+    ],
+    "dual_style_recipe": [
+      [
+        "dual link style id",
+        "dual link name",
+        "primary link style (fk common_lookup)",
+        "secondary link style (fk common_lookup)"
+      ],
+      [
+        "1",
+        "Bladecharge",
+        "physical/light",
+        "physical/light"
+      ],
+      [
+        "2",
+        "Bladecharge",
+        "physical/light",
+        "fire"
+      ],
+      [
+        "3",
+        "Bladecharge",
+        "physical/light",
+        "dark"
+      ],
+      [
+        "4",
+        "Bladecharge",
+        "fire",
+        "fire"
+      ],
+      [
+        "5",
+        "Bladecharge",
+        "fire",
+        "lightning"
+      ],
+      [
+        "6",
+        "Bladecharge",
+        "aqua",
+        "lightning"
+      ],
+      [
+        "7",
+        "Rising Wing",
+        "physical/light",
+        "aqua"
+      ],
+      [
+        "8",
+        "Rising Wing",
+        "fire",
+        "aqua"
+      ],
+      [
+        "9",
+        "Rising Wing",
+        "aqua",
+        "aqua"
+      ],
+      [
+        "10",
+        "Rising Wing",
+        "aqua",
+        "dark"
+      ],
+      [
+        "11",
+        "Ghost Drive",
+        "physical/light",
+        "lightning"
+      ],
+      [
+        "12",
+        "Ghost Drive",
+        "fire",
+        "dark"
+      ],
+      [
+        "13",
+        "Ghost Drive",
+        "lightning",
+        "lightning"
+      ],
+      [
+        "14",
+        "Ghost Drive",
+        "lightning",
+        "dark"
+      ],
+      [
+        "15",
+        "Ghost Drive",
+        "dark",
+        "dark"
+      ]
+    ],
+    "ability": [
+      [
+        "ability_id",
+        "ability_name",
+        "max_stack",
+        "ability_type"
+      ],
+      [
+        "1",
+        "Link Critical",
+        "1",
+        "spirit"
+      ],
+      [
+        "2",
+        "Support Boost",
+        "3",
+        "spirit"
+      ],
+      [
+        "3",
+        "Waking Dream",
+        "1",
+        "spirit"
+      ],
+      [
+        "4",
+        "Combo Plus",
+        "3",
+        "support"
+      ],
+      [
+        "5",
+        "Air Combo Plus",
+        "3",
+        "support"
+      ],
+      [
+        "6",
+        "Combo Master",
+        "1",
+        "support"
+      ],
+      [
+        "7",
+        "EXP Boost",
+        "1",
+        "support"
+      ],
+      [
+        "8",
+        "EXP Walker",
+        "1",
+        "support"
+      ],
+      [
+        "9",
+        "EXP Zero",
+        "1",
+        "support"
+      ],
+      [
+        "10",
+        "Damage Syphon",
+        "1",
+        "support"
+      ],
+      [
+        "11",
+        "Second Chance",
+        "1",
+        "support"
+      ],
+      [
+        "12",
+        "Once More",
+        "1",
+        "support"
+      ],
+      [
+        "13",
+        "Scan",
+        "1",
+        "support"
+      ],
+      [
+        "14",
+        "Leaf Bracer",
+        "1",
+        "support"
+      ],
+      [
+        "15",
+        "Treasure Magnet",
+        "5",
+        "support"
+      ],
+      [
+        "16",
+        "HP Boost",
+        "5",
+        "stat"
+      ],
+      [
+        "17",
+        "Fire Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "18",
+        "Blizzard Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "19",
+        "Thunder Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "20",
+        "Water Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "21",
+        "Cure Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "22",
+        "Item Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "23",
+        "Attack Haste",
+        "5",
+        "stat"
+      ],
+      [
+        "24",
+        "Magic Haste",
+        "5",
+        "stat"
+      ],
+      [
+        "25",
+        "Attack Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "26",
+        "Magic Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "27",
+        "Defense Boost",
+        "3",
+        "stat"
+      ],
+      [
+        "28",
+        "Fire Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "29",
+        "Blizzard Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "30",
+        "Thunder Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "31",
+        "Water Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "32",
+        "Dark Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "33",
+        "Light Screen",
+        "5",
+        "stat"
+      ],
+      [
+        "34",
+        "Mini Block",
+        "1",
+        "stat"
+      ],
+      [
+        "35",
+        "Blindness Block",
+        "1",
+        "stat"
+      ],
+      [
+        "36",
+        "Confusion Block",
+        "1",
+        "stat"
+      ],
+      [
+        "37",
+        "Bind Block",
+        "1",
+        "stat"
+      ],
+      [
+        "38",
+        "Poison Block",
+        "1",
+        "stat"
+      ],
+      [
+        "39",
+        "Slow Block",
+        "1",
+        "stat"
+      ],
+      [
+        "40",
+        "Sleep Block",
+        "1",
+        "stat"
+      ],
+      [
+        "41",
+        "Stop Block",
+        "1",
+        "stat"
+      ],
+      [
+        "42",
+        "Reload Boost",
+        "1",
+        "stat"
+      ],
+      [
+        "43",
+        "Defender",
+        "1",
+        "stat"
+      ]
+    ],
+    "Deck_Command": [
+      [
+        "Command ID",
+        "Command",
+        "Slots",
+        "Primary Type (fk common lookup)",
+        "Secondary Type (fk common lookup)",
+        "Character (fk TO COMMON LOOKUP)",
+        "Command Type (fk COMMON LOOKUP)"
+      ],
+      [
+        "1",
+        "Quick Blitz",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "2",
+        "Blizzard Edge",
+        "1",
+        "Blizzard",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "3",
+        "Dark Break",
+        "1",
+        "Dark",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "4",
+        "Slot Edge",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "5",
+        "Blitz",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "6",
+        "Meteor Crash",
+        "2",
+        "Physical",
+        "Fire",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "7",
+        "Spark Dive",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "8",
+        "Poison Dive",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "9",
+        "Drain Dive",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "10",
+        "Sliding Dash",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "11",
+        "Thunder Dash ",
+        "1",
+        "Thunder",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "12",
+        "Sonic Blade",
+        "2",
+        "Physical",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "13",
+        "Dark Aura",
+        "2",
+        "Dark",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "14",
+        "Zantetsuken",
+        "2",
+        "Neutral",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "15",
+        "Strike Raid",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "16",
+        "Spark Raid",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "17",
+        "Circle Raid",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "18",
+        "Aerial Slam",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "19",
+        "Ars Arcanum",
+        "2",
+        "Physical",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "20",
+        "Dark Splicer",
+        "2",
+        "Dark",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "21",
+        "Gravity Strike",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "22",
+        "Confusing Strike",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "23",
+        "Tornado Strike",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "24",
+        "Prism Windmill",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "25",
+        "Timestorm",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "26",
+        "Fire Windmill",
+        "1",
+        "Fire",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "27",
+        "Icebreaker",
+        "1",
+        "Blizzard",
+        "Fire",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "28",
+        "Shadowbreaker",
+        "1",
+        "Dark",
+        "Light",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "29",
+        "Magnet Spiral",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "30",
+        "Salvation",
+        "2",
+        "Light",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "31",
+        "Limit Storm",
+        "1",
+        "Physical",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "32",
+        "Collision Magnet",
+        "1",
+        "Physical",
+        "-",
+        "Both",
+        "ATTACK"
+      ],
+      [
+        "33",
+        "Sacrifice",
+        "1",
+        "Physical",
+        "-",
+        "Riku",
+        "ATTACK"
+      ],
+      [
+        "34",
+        "Break Time",
+        "1",
+        "—",
+        "-",
+        "Sora",
+        "ATTACK"
+      ],
+      [
+        "35",
+        "Fire",
+        "1",
+        "Fire",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "36",
+        "Fira ",
+        "1",
+        "Fire",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "37",
+        "Firaga",
+        "1",
+        "Fire",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "38",
+        "Dark Firaga",
+        "1",
+        "Dark",
+        "-",
+        "Riku",
+        "MAGIC"
+      ],
+      [
+        "39",
+        "Firaga Burst",
+        "2",
+        "Fire",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "40",
+        "Mega Flare",
+        "2",
+        "Fire",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "41",
+        "Blizzard",
+        "1",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "42",
+        "Blizzara",
+        "1",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "43",
+        "Blizzaga",
+        "1",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "44",
+        "Icicle Splitter",
+        "1",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "45",
+        "Deep Freeze",
+        "2",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "46",
+        "Ice Barrage",
+        "2",
+        "Blizzard",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "47",
+        "Thunder",
+        "1",
+        "Thunder",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "48",
+        "Thundara",
+        "1",
+        "Thunder",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "49",
+        "Thundaga",
+        "1",
+        "Thunder",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "50",
+        "Triple Plasma",
+        "1",
+        "Thunder",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "51",
+        "Cure",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "52",
+        "Cura",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "53",
+        "Curaga",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "54",
+        "Esuna",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "55",
+        "Zero Gravity",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "56",
+        "Zero Gravira",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "57",
+        "Zero Graviga",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "58",
+        "Zero Graviza",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "59",
+        "Balloon",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "60",
+        "Balloonra",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "61",
+        "Balloonga",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "62",
+        "Spark",
+        "1",
+        "Light",
+        "-",
+        "Sora",
+        "MAGIC"
+      ],
+      [
+        "63",
+        "Sparkra",
+        "1",
+        "Light",
+        "-",
+        "Sora",
+        "MAGIC"
+      ],
+      [
+        "64",
+        "Sparkga",
+        "2",
+        "Light",
+        "-",
+        "Sora",
+        "MAGIC"
+      ],
+      [
+        "65",
+        "Faith",
+        "2",
+        "Light",
+        "-",
+        "Sora",
+        "MAGIC"
+      ],
+      [
+        "66",
+        "Tornado",
+        "2",
+        "Neutral",
+        "-",
+        "Sora",
+        "MAGIC"
+      ],
+      [
+        "67",
+        "Meteor",
+        "2",
+        "Neutral",
+        "-",
+        "Riku",
+        "MAGIC"
+      ],
+      [
+        "68",
+        "Mini",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "69",
+        "Blackout",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "70",
+        "Time Bomb",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "71",
+        "Confuse",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "72",
+        "Bind",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "73",
+        "Poison",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "74",
+        "Slow",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "75",
+        "Sleep",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "76",
+        "Sleepra",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "77",
+        "Sleepga",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "78",
+        "Stop",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "79",
+        "Vanish",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MAGIC"
+      ],
+      [
+        "80",
+        "Potion",
+        "6",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "81",
+        "Hi-Potion",
+        "4",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "82",
+        "Mega-Potion",
+        "3",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "83",
+        "Drop-Me-Not",
+        "2",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "84",
+        "Drop-Me-Never",
+        "2",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "85",
+        "Panacea",
+        "3",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "86",
+        "Elixir",
+        "2",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "87",
+        "Megalixir",
+        "2",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "88",
+        "Dream Candy",
+        "3",
+        "—",
+        "-",
+        "Both",
+        "ITEM"
+      ],
+      [
+        "89",
+        "Jump",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "90",
+        "High Jump",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "91",
+        "Dodge Roll",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "92",
+        "Slide Roll",
+        "1",
+        "—",
+        "-",
+        "Sora",
+        "MOVEMENT"
+      ],
+      [
+        "93",
+        "Dark Roll",
+        "1",
+        "—",
+        "-",
+        "Riku",
+        "MOVEMENT"
+      ],
+      [
+        "94",
+        "Air Slide",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "95",
+        "Sonic Impact",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "96",
+        "Double Impact",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "MOVEMENT"
+      ],
+      [
+        "97",
+        "Glide",
+        "1",
+        "—",
+        "-",
+        "Sora",
+        "MOVEMENT"
+      ],
+      [
+        "98",
+        "Superglide",
+        "1",
+        "—",
+        "-",
+        "Sora",
+        "MOVEMENT"
+      ],
+      [
+        "99",
+        "Shadow Slide",
+        "1",
+        "—",
+        "-",
+        "Riku",
+        "MOVEMENT"
+      ],
+      [
+        "100",
+        "Doubleflight",
+        "1",
+        "—",
+        "-",
+        "Riku",
+        "MOVEMENT"
+      ],
+      [
+        "101",
+        "Counter Rush",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "DEFENSE"
+      ],
+      [
+        "102",
+        "Counter Aura",
+        "1",
+        "Dark",
+        "-",
+        "Riku",
+        "DEFENSE"
+      ],
+      [
+        "103",
+        "Shadow Strike",
+        "1",
+        "Physical",
+        "-",
+        "Riku",
+        "DEFENSE"
+      ],
+      [
+        "104",
+        "Payback Raid",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "DEFENSE"
+      ],
+      [
+        "105",
+        "Payback Blast",
+        "1",
+        "Dark",
+        "-",
+        "Riku",
+        "DEFENSE"
+      ],
+      [
+        "106",
+        "Aerial Recovery",
+        "1",
+        "—",
+        "-",
+        "Both",
+        "DEFENSE"
+      ],
+      [
+        "107",
+        "Steep Climb",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "DEFENSE"
+      ],
+      [
+        "108",
+        "Rapid Descent",
+        "1",
+        "Physical",
+        "-",
+        "Riku",
+        "DEFENSE"
+      ],
+      [
+        "109",
+        "Sliding Sidewinder",
+        "1",
+        "Physical",
+        "-",
+        "Sora",
+        "DEFENSE"
+      ],
+      [
+        "110",
+        "Sliding Crescent",
+        "1",
+        "Physical",
+        "-",
+        "Riku",
+        "DEFENSE"
+      ],
+      [
+        "111",
+        "Pole Spin",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "112",
+        "Pole Swing",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "113",
+        "Rail Slide",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "114",
+        "Kick Dive",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "115",
+        "Buzz Saw ",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "116",
+        "Blow-off ",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "117",
+        "Wheel Rush",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "118",
+        "Sliding Dive",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ],
+      [
+        "119",
+        "Shock Dive",
+        "1",
+        "Neutral",
+        "-",
+        "Both",
+        "FLOWMOTION"
+      ]
+    ],
+    "spirit_unlocks": [
+      [
+        "spirit_unlock_id",
+        "spirit_name (fk to dream eater)",
+        "unlock_name (surrogate key crap)",
+        "unlock_type (fk - common lookup)",
+        "unlock_price"
+      ],
+      [
+        "1",
+        "Aura Lion",
+        "Curaga",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "2",
+        "Aura Lion",
+        "Faith",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "3",
+        "Aura Lion",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "4",
+        "Aura Lion",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "5",
+        "Aura Lion",
+        "Leaf Bracer",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "6",
+        "Aura Lion",
+        "Limit Storm",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "7",
+        "Aura Lion",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "8",
+        "Aura Lion",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "9",
+        "Aura Lion",
+        "Sacrifice",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "10",
+        "Aura Lion",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "11",
+        "Aura Lion",
+        "Second Chance",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "12",
+        "Aura Lion",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "13",
+        "Aura Lion",
+        "Light Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "14",
+        "Aura Lion",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "15",
+        "Aura Lion",
+        "Light Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "16",
+        "Aura Lion",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "17",
+        "Cera Terror",
+        "Steep Climb",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "18",
+        "Cera Terror",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "19",
+        "Cera Terror",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "20",
+        "Cera Terror",
+        "EXP Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "21",
+        "Cera Terror",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "22",
+        "Cera Terror",
+        "Mini Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "23",
+        "Cera Terror",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "24",
+        "Cera Terror",
+        "Zantetsuken",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "25",
+        "Cera Terror",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "26",
+        "Cera Terror",
+        "Dark Break",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "27",
+        "Cera Terror",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "28",
+        "Cera Terror",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "29",
+        "Cera Terror",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "30",
+        "Cera Terror",
+        "Sonic Blade",
+        "deck_command",
+        "250 LP"
+      ],
+      [
+        "31",
+        "Cera Terror",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "32",
+        "Cera Terror",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "33",
+        "Chef Kyroo",
+        "Cura",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "34",
+        "Chef Kyroo",
+        "Air Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "35",
+        "Chef Kyroo",
+        "Fira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "36",
+        "Chef Kyroo",
+        "Firaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "37",
+        "Chef Kyroo",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "38",
+        "Chef Kyroo",
+        "Aerial Slam",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "39",
+        "Chef Kyroo",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "40",
+        "Chef Kyroo",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "41",
+        "Chef Kyroo",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "42",
+        "Chef Kyroo",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "43",
+        "Chef Kyroo",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "44",
+        "Chef Kyroo",
+        "Blitz",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "45",
+        "Chef Kyroo",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "46",
+        "Chef Kyroo",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "47",
+        "Chef Kyroo",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "48",
+        "Chef Kyroo",
+        "Item Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "49",
+        "Cyber Yog",
+        "Thunder",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "50",
+        "Cyber Yog",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "51",
+        "Cyber Yog",
+        "Thunder Dash",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "52",
+        "Cyber Yog",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "53",
+        "Cyber Yog",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "54",
+        "Cyber Yog",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "55",
+        "Cyber Yog",
+        "Thundaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "56",
+        "Cyber Yog",
+        "Thunder Screen",
+        "deck_command",
+        "20 LP"
+      ],
+      [
+        "57",
+        "Cyber Yog",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "58",
+        "Cyber Yog",
+        "Treasure Magnet",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "59",
+        "Cyber Yog",
+        "Thundara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "60",
+        "Cyber Yog",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "61",
+        "Cyber Yog",
+        "Thunder Screen",
+        "deck_command",
+        "40 LP"
+      ],
+      [
+        "62",
+        "Cyber Yog",
+        "Thunder Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "63",
+        "Cyber Yog",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "64",
+        "Cyber Yog",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "65",
+        "Drak Quack",
+        "Drop-Me-Never",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "66",
+        "Drak Quack",
+        "Reload Boost",
+        "ability",
+        "75 LP"
+      ],
+      [
+        "67",
+        "Drak Quack",
+        "Dream Candy",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "68",
+        "Drak Quack",
+        "Fire Boost",
+        "ability",
+        "15 LP"
+      ],
+      [
+        "69",
+        "Drak Quack",
+        "Attack Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "70",
+        "Drak Quack",
+        "Magic Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "71",
+        "Drak Quack",
+        "Item Boost",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "72",
+        "Drak Quack",
+        "Once More",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "73",
+        "Drak Quack",
+        "Mega-Potion",
+        "deck_command",
+        "25 LP"
+      ],
+      [
+        "74",
+        "Drak Quack",
+        "Treasure Magnet",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "75",
+        "Drak Quack",
+        "Item Boost",
+        "ability",
+        "15 LP"
+      ],
+      [
+        "76",
+        "Drak Quack",
+        "Defender",
+        "ability",
+        "75 LP"
+      ],
+      [
+        "77",
+        "Drak Quack",
+        "HP Boost",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "78",
+        "Drak Quack",
+        "Defense Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "79",
+        "Drak Quack",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "80",
+        "Drak Quack",
+        "Megalixir",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "81",
+        "Drill Sye",
+        "Circle Raid",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "82",
+        "Drill Sye",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "83",
+        "Drill Sye",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "84",
+        "Drill Sye",
+        "Blitz",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "85",
+        "Drill Sye",
+        "EXP Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "86",
+        "Drill Sye",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "87",
+        "Drill Sye",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "88",
+        "Drill Sye",
+        "Mini Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "89",
+        "Drill Sye",
+        "Item Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "90",
+        "Drill Sye",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "91",
+        "Drill Sye",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "92",
+        "Drill Sye",
+        "Sonic Blade",
+        "deck_command",
+        "250 LP"
+      ],
+      [
+        "93",
+        "Drill Sye",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "94",
+        "Drill Sye",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "95",
+        "Drill Sye",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "96",
+        "Drill Sye",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "97",
+        "Duckey Goose",
+        "Dream Candy",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "98",
+        "Duckey Goose",
+        "Mega-Potion",
+        "deck_command",
+        "25 LP"
+      ],
+      [
+        "99",
+        "Duckey Goose",
+        "Treasure Magnet",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "100",
+        "Duckey Goose",
+        "Magic Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "101",
+        "Duckey Goose",
+        "Item Boost",
+        "ability",
+        "15 LP"
+      ],
+      [
+        "102",
+        "Duckey Goose",
+        "Magic Haste",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "103",
+        "Duckey Goose",
+        "Support Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "104",
+        "Duckey Goose",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "105",
+        "Duckey Goose",
+        "Elixir",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "106",
+        "Duckey Goose",
+        "Drop-Me-Never",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "107",
+        "Duckey Goose",
+        "HP Boost",
+        "ability",
+        "15 LP"
+      ],
+      [
+        "108",
+        "Duckey Goose",
+        "Magic Haste",
+        "ability",
+        "15 LP"
+      ],
+      [
+        "109",
+        "Duckey Goose",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "110",
+        "Duckey Goose",
+        "Blizzard Screen",
+        "ability",
+        "10 LP"
+      ],
+      [
+        "111",
+        "Duckey Goose",
+        "Item Boost",
+        "ability",
+        "25 LP"
+      ],
+      [
+        "112",
+        "Duckey Goose",
+        "Damage Syphon",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "113",
+        "Eaglider",
+        "Air Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "114",
+        "Eaglider",
+        "Firaga",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "115",
+        "Eaglider",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "116",
+        "Eaglider",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "117",
+        "Eaglider",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "118",
+        "Eaglider",
+        "Aerial Slam",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "119",
+        "Eaglider",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "120",
+        "Eaglider",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "121",
+        "Eaglider",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "122",
+        "Eaglider",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "123",
+        "Eaglider",
+        "Attack Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "124",
+        "Eaglider",
+        "Firaga Burst",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "125",
+        "Eaglider",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "126",
+        "Eaglider",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "127",
+        "Eaglider",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "128",
+        "Eaglider",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "129",
+        "Electricorn",
+        "Rapid Descent",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "130",
+        "Electricorn",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "131",
+        "Electricorn",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "132",
+        "Electricorn",
+        "Spark Raid",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "133",
+        "Electricorn",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "134",
+        "Electricorn",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "135",
+        "Electricorn",
+        "Triple Plasma",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "136",
+        "Electricorn",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "137",
+        "Electricorn",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "138",
+        "Electricorn",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "139",
+        "Electricorn",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "140",
+        "Electricorn",
+        "Curaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "141",
+        "Electricorn",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "142",
+        "Electricorn",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "143",
+        "Electricorn",
+        "Leaf Bracer",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "144",
+        "Electricorn",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "145",
+        "Escarglow",
+        "Slow",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "146",
+        "Escarglow",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "147",
+        "Escarglow",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "148",
+        "Escarglow",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "149",
+        "Escarglow",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "150",
+        "Escarglow",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "151",
+        "Escarglow",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "152",
+        "Escarglow",
+        "Thunder Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "153",
+        "Escarglow",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "154",
+        "Escarglow",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "155",
+        "Escarglow",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "156",
+        "Escarglow",
+        "Second Chance",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "157",
+        "Escarglow",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "158",
+        "Escarglow",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "159",
+        "Escarglow",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "160",
+        "Escarglow",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "161",
+        "Fin Fatale",
+        "Zero Gravity",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "162",
+        "Fin Fatale",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "163",
+        "Fin Fatale",
+        "Water Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "164",
+        "Fin Fatale",
+        "Gravity Strike",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "165",
+        "Fin Fatale",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "166",
+        "Fin Fatale",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "167",
+        "Fin Fatale",
+        "Zero Gravira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "168",
+        "Fin Fatale",
+        "Zero Graviga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "169",
+        "Fin Fatale",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "170",
+        "Fin Fatale",
+        "Water Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "171",
+        "Fin Fatale",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "172",
+        "Fin Fatale",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "173",
+        "Fin Fatale",
+        "Water Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "174",
+        "Fin Fatale",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "175",
+        "Fin Fatale",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "176",
+        "Fin Fatale",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "177",
+        "Fishbone",
+        "Poison Dive",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "178",
+        "Fishbone",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "179",
+        "Fishbone",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "180",
+        "Fishbone",
+        "Dark Break",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "181",
+        "Fishbone",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "182",
+        "Fishbone",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "183",
+        "Fishbone",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "184",
+        "Fishbone",
+        "Water Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "185",
+        "Fishbone",
+        "Leaf Bracer",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "186",
+        "Fishbone",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "187",
+        "Fishbone",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "188",
+        "Fishbone",
+        "Zero Graviga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "189",
+        "Fishbone",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "190",
+        "Fishbone",
+        "Water Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "191",
+        "Fishbone",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "192",
+        "Fishbone",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "193",
+        "Flowbermeow",
+        "Sparkra",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "194",
+        "Flowbermeow",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "195",
+        "Flowbermeow",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "196",
+        "Flowbermeow",
+        "Faith",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "197",
+        "Flowbermeow",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "198",
+        "Flowbermeow",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "199",
+        "Flowbermeow",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "200",
+        "Flowbermeow",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "201",
+        "Flowbermeow",
+        "Light Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "202",
+        "Flowbermeow",
+        "Sparkga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "203",
+        "Flowbermeow",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "204",
+        "Flowbermeow",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "205",
+        "Flowbermeow",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "206",
+        "Flowbermeow",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "207",
+        "Flowbermeow",
+        "Once More",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "208",
+        "Flowbermeow",
+        "Light Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "209",
+        "Frootz Cat",
+        "Thundara",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "210",
+        "Frootz Cat",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "211",
+        "Frootz Cat",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "212",
+        "Frootz Cat",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "213",
+        "Frootz Cat",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "214",
+        "Frootz Cat",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "215",
+        "Frootz Cat",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "216",
+        "Frootz Cat",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "217",
+        "Frootz Cat",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "218",
+        "Frootz Cat",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "219",
+        "Frootz Cat",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "220",
+        "Frootz Cat",
+        "Triple Plasma",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "221",
+        "Frootz Cat",
+        "Salvation",
+        "deck_command",
+        "250 LP"
+      ],
+      [
+        "222",
+        "Frootz Cat",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "223",
+        "Frootz Cat",
+        "Attack Haste",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "224",
+        "Frootz Cat",
+        "Magic Haste",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "225",
+        "Ghostabocky",
+        "Zero Gravira",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "226",
+        "Ghostabocky",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "227",
+        "Ghostabocky",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "228",
+        "Ghostabocky",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "229",
+        "Ghostabocky",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "230",
+        "Ghostabocky",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "231",
+        "Ghostabocky",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "232",
+        "Ghostabocky",
+        "Treasure Magnet",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "233",
+        "Ghostabocky",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "234",
+        "Ghostabocky",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "235",
+        "Ghostabocky",
+        "Dark Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "236",
+        "Ghostabocky",
+        "Dark Aura",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "237",
+        "Ghostabocky",
+        "Dark Screen",
+        "ability",
+        "80 LP"
+      ],
+      [
+        "238",
+        "Ghostabocky",
+        "Vanish",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "239",
+        "Ghostabocky",
+        "Dark Screen",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "240",
+        "Ghostabocky",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "241",
+        "Halbird",
+        "Steep Climb",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "242",
+        "Halbird",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "243",
+        "Halbird",
+        "Air Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "244",
+        "Halbird",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "245",
+        "Halbird",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "246",
+        "Halbird",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "247",
+        "Halbird",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "248",
+        "Halbird",
+        "Tornado",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "249",
+        "Halbird",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "250",
+        "Halbird",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "251",
+        "Halbird",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "252",
+        "Halbird",
+        "Break Time",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "253",
+        "Halbird",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "254",
+        "Halbird",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "255",
+        "Halbird",
+        "Timestorm",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "256",
+        "Halbird",
+        "Air Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "257",
+        "Hebby Repp",
+        "Fire",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "258",
+        "Hebby Repp",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "259",
+        "Hebby Repp",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "260",
+        "Hebby Repp",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "261",
+        "Hebby Repp",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "262",
+        "Hebby Repp",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "263",
+        "Hebby Repp",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "264",
+        "Hebby Repp",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "265",
+        "Hebby Repp",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "266",
+        "Hebby Repp",
+        "Fire Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "267",
+        "Hebby Repp",
+        "Fira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "268",
+        "Hebby Repp",
+        "Fire Windmill",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "269",
+        "Hebby Repp",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "270",
+        "Hebby Repp",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "271",
+        "Hebby Repp",
+        "Fire Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "272",
+        "Hebby Repp",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "273",
+        "Iceguin Ace",
+        "Icicle Splitter",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "274",
+        "Iceguin Ace",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "275",
+        "Iceguin Ace",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "276",
+        "Iceguin Ace",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "277",
+        "Iceguin Ace",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "278",
+        "Iceguin Ace",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "279",
+        "Iceguin Ace",
+        "Blizzard Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "280",
+        "Iceguin Ace",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "281",
+        "Iceguin Ace",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "282",
+        "Iceguin Ace",
+        "Blizzaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "283",
+        "Iceguin Ace",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "284",
+        "Iceguin Ace",
+        "Ice Barrage",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "285",
+        "Iceguin Ace",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "286",
+        "Iceguin Ace",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "287",
+        "Iceguin Ace",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "288",
+        "Iceguin Ace",
+        "Blizzard Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "289",
+        "Jestabocky",
+        "Balloon",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "290",
+        "Jestabocky",
+        "Treasure Magnet",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "291",
+        "Jestabocky",
+        "Collision Magnet",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "292",
+        "Jestabocky",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "293",
+        "Jestabocky",
+        "Spark",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "294",
+        "Jestabocky",
+        "Bind",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "295",
+        "Jestabocky",
+        "Balloonra",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "296",
+        "Jestabocky",
+        "Thunder Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "297",
+        "Jestabocky",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "298",
+        "Jestabocky",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "299",
+        "Jestabocky",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "300",
+        "Jestabocky",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "301",
+        "Jestabocky",
+        "Thunder Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "302",
+        "Jestabocky",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "303",
+        "Jestabocky",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "304",
+        "Jestabocky",
+        "Thunder Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "305",
+        "Juggle Pup",
+        "Balloonra",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "306",
+        "Juggle Pup",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "307",
+        "Juggle Pup",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "308",
+        "Juggle Pup",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "309",
+        "Juggle Pup",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "310",
+        "Juggle Pup",
+        "Slot Edge",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "311",
+        "Juggle Pup",
+        "Blizzaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "312",
+        "Juggle Pup",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "313",
+        "Juggle Pup",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "314",
+        "Juggle Pup",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "315",
+        "Juggle Pup",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "316",
+        "Juggle Pup",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "317",
+        "Juggle Pup",
+        "Blizzard Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "318",
+        "Juggle Pup",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "319",
+        "Juggle Pup",
+        "Leaf Bracer",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "320",
+        "Juggle Pup",
+        "Balloonga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "321",
+        "Kab Kannon",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "322",
+        "Kab Kannon",
+        "Thunder Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "323",
+        "Kab Kannon",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "324",
+        "Kab Kannon",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "325",
+        "Kab Kannon",
+        "Defense Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "326",
+        "Kab Kannon",
+        "Dark Firaga",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "327",
+        "Kab Kannon",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "328",
+        "Kab Kannon",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "329",
+        "Kab Kannon",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "330",
+        "Kab Kannon",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "331",
+        "Kab Kannon",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "332",
+        "Kab Kannon",
+        "Thunder Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "333",
+        "Kab Kannon",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "334",
+        "Kab Kannon",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "335",
+        "Kab Kannon",
+        "Zero Graviga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "336",
+        "Kab Kannon",
+        "Salvation",
+        "deck_command",
+        "250 LP"
+      ],
+      [
+        "337",
+        "Keeba Tiger",
+        "EXP Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "338",
+        "Keeba Tiger",
+        "Sacrifice",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "339",
+        "Keeba Tiger",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "340",
+        "Keeba Tiger",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "341",
+        "Keeba Tiger",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "342",
+        "Keeba Tiger",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "343",
+        "Keeba Tiger",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "344",
+        "Keeba Tiger",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "345",
+        "Keeba Tiger",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "346",
+        "Keeba Tiger",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "347",
+        "Keeba Tiger",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "348",
+        "Keeba Tiger",
+        "Dark Aura",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "349",
+        "Keeba Tiger",
+        "Dark Splicer",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "350",
+        "Keeba Tiger",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "351",
+        "Keeba Tiger",
+        "Attack Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "352",
+        "Keeba Tiger",
+        "Meteor",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "353",
+        "KO Kabuto",
+        "Link Block",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "354",
+        "KO Kabuto",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "355",
+        "KO Kabuto",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "356",
+        "KO Kabuto",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "357",
+        "KO Kabuto",
+        "Circle Raid",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "358",
+        "KO Kabuto",
+        "Fira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "359",
+        "KO Kabuto",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "360",
+        "KO Kabuto",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "361",
+        "KO Kabuto",
+        "Blizzard Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "362",
+        "KO Kabuto",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "363",
+        "KO Kabuto",
+        "Thunder Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "364",
+        "KO Kabuto",
+        "Thunder Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "365",
+        "KO Kabuto",
+        "Thunder Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "366",
+        "KO Kabuto",
+        "Icebreaker",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "367",
+        "KO Kabuto",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "368",
+        "KO Kabuto",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "369",
+        "Komory Bat",
+        "Waking Dream",
+        "ability",
+        "10 LP"
+      ],
+      [
+        "370",
+        "Komory Bat",
+        "Confuse",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "371",
+        "Komory Bat",
+        "Drain Dive",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "372",
+        "Komory Bat",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "373",
+        "Komory Bat",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "374",
+        "Komory Bat",
+        "Confusing Strike",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "375",
+        "Komory Bat",
+        "Zero Gravity",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "376",
+        "Komory Bat",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "377",
+        "Komory Bat",
+        "Zero Gravira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "378",
+        "Komory Bat",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "379",
+        "Komory Bat",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "380",
+        "Komory Bat",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "381",
+        "Komory Bat",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "382",
+        "Komory Bat",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "383",
+        "Komory Bat",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "384",
+        "Komory Bat",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "385",
+        "Kooma Panda",
+        "Circle Raid",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "386",
+        "Kooma Panda",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "387",
+        "Kooma Panda",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "388",
+        "Kooma Panda",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "389",
+        "Kooma Panda",
+        "Mini Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "390",
+        "Kooma Panda",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "391",
+        "Kooma Panda",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "392",
+        "Kooma Panda",
+        "Aerial Slam",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "393",
+        "Kooma Panda",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "394",
+        "Kooma Panda",
+        "Bind",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "395",
+        "Kooma Panda",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "396",
+        "Kooma Panda",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "397",
+        "Kooma Panda",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "398",
+        "Kooma Panda",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "399",
+        "Kooma Panda",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "400",
+        "Kooma Panda",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "401",
+        "Lord Kyroo",
+        "Blitz",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "402",
+        "Lord Kyroo",
+        "Ars Arcanum",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "403",
+        "Lord Kyroo",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "404",
+        "Lord Kyroo",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "405",
+        "Lord Kyroo",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "406",
+        "Lord Kyroo",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "407",
+        "Lord Kyroo",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "408",
+        "Lord Kyroo",
+        "Combo Master",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "409",
+        "Lord Kyroo",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "410",
+        "Lord Kyroo",
+        "Triple Plasma",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "411",
+        "Lord Kyroo",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "412",
+        "Lord Kyroo",
+        "Zantetsuken",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "413",
+        "Lord Kyroo",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "414",
+        "Lord Kyroo",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "415",
+        "Lord Kyroo",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "416",
+        "Lord Kyroo",
+        "Cure Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "417",
+        "Majik Lapin",
+        "Dark Barrier",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "418",
+        "Majik Lapin",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "419",
+        "Majik Lapin",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "420",
+        "Majik Lapin",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "421",
+        "Majik Lapin",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "422",
+        "Majik Lapin",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "423",
+        "Majik Lapin",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "424",
+        "Majik Lapin",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "425",
+        "Majik Lapin",
+        "Firaga Burst",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "426",
+        "Majik Lapin",
+        "Deep Freeze",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "427",
+        "Majik Lapin",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "428",
+        "Majik Lapin",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "429",
+        "Majik Lapin",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "430",
+        "Majik Lapin",
+        "Magic Haste",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "431",
+        "Majik Lapin",
+        "Magic Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "432",
+        "Majik Lapin",
+        "Zero Graviza",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "433",
+        "Me Me Bunny",
+        "Dark Barrier",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "434",
+        "Me Me Bunny",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "435",
+        "Me Me Bunny",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "436",
+        "Me Me Bunny",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "437",
+        "Me Me Bunny",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "438",
+        "Me Me Bunny",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "439",
+        "Me Me Bunny",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "440",
+        "Me Me Bunny",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "441",
+        "Me Me Bunny",
+        "Prism Windmill",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "442",
+        "Me Me Bunny",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "443",
+        "Me Me Bunny",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "444",
+        "Me Me Bunny",
+        "Break time",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "445",
+        "Me Me Bunny",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "446",
+        "Me Me Bunny",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "447",
+        "Me Me Bunny",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "448",
+        "Me Me Bunny",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "449",
+        "Meow Wow",
+        "Link Critical",
+        "ability",
+        "10 LP"
+      ],
+      [
+        "450",
+        "Meow Wow",
+        "Cure",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "451",
+        "Meow Wow",
+        "Cura",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "452",
+        "Meow Wow",
+        "Leaf Bracer",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "453",
+        "Meow Wow",
+        "Curaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "454",
+        "Meow Wow",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "455",
+        "Meow Wow",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "456",
+        "Meow Wow",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "457",
+        "Meow Wow",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "458",
+        "Meow Wow",
+        "Slow",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "459",
+        "Meow Wow",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "460",
+        "Meow Wow",
+        "Spark",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "461",
+        "Meow Wow",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "462",
+        "Meow Wow",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "463",
+        "Meow Wow",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "464",
+        "Meow Wow",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "465",
+        "Meowjesty",
+        "Spark",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "466",
+        "Meowjesty",
+        "Cura",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "467",
+        "Meowjesty",
+        "Curaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "468",
+        "Meowjesty",
+        "Second Chance",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "469",
+        "Meowjesty",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "470",
+        "Meowjesty",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "471",
+        "Meowjesty",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "472",
+        "Meowjesty",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "473",
+        "Meowjesty",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "474",
+        "Meowjesty",
+        "Thunder Dash",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "475",
+        "Meowjesty",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "476",
+        "Meowjesty",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "477",
+        "Meowjesty",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "478",
+        "Meowjesty",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "479",
+        "Meowjesty",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "480",
+        "Meowjesty",
+        "Sparkra",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "481",
+        "Necho Cat",
+        "Thunder",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "482",
+        "Necho Cat",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "483",
+        "Necho Cat",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "484",
+        "Necho Cat",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "485",
+        "Necho Cat",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "486",
+        "Necho Cat",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "487",
+        "Necho Cat",
+        "Time Bomb",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "488",
+        "Necho Cat",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "489",
+        "Necho Cat",
+        "Sleepra",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "490",
+        "Necho Cat",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "491",
+        "Necho Cat",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "492",
+        "Necho Cat",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "493",
+        "Necho Cat",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "494",
+        "Necho Cat",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "495",
+        "Necho Cat",
+        "Thunder Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "496",
+        "Necho Cat",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "497",
+        "Peepsta Hoo",
+        "Blackout",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "498",
+        "Peepsta Hoo",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "499",
+        "Peepsta Hoo",
+        "Fira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "500",
+        "Peepsta Hoo",
+        "Blizzara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "501",
+        "Peepsta Hoo",
+        "Thundara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "502",
+        "Peepsta Hoo",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "503",
+        "Peepsta Hoo",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "504",
+        "Peepsta Hoo",
+        "Blizzard Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "505",
+        "Peepsta Hoo",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "506",
+        "Peepsta Hoo",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "507",
+        "Peepsta Hoo",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "508",
+        "Peepsta Hoo",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "509",
+        "Peepsta Hoo",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "510",
+        "Peepsta Hoo",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "511",
+        "Peepsta Hoo",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "512",
+        "Peepsta Hoo",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "513",
+        "Pegaslick",
+        "Prism Windmill",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "514",
+        "Pegaslick",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "515",
+        "Pegaslick",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "516",
+        "Pegaslick",
+        "Sparkra",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "517",
+        "Pegaslick",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "518",
+        "Pegaslick",
+        "Sparkga",
+        "deck_command",
+        "250 LP"
+      ],
+      [
+        "519",
+        "Pegaslick",
+        "Light Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "520",
+        "Pegaslick",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "521",
+        "Pegaslick",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "522",
+        "Pegaslick",
+        "Air Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "523",
+        "Pegaslick",
+        "Light Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "524",
+        "Pegaslick",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "525",
+        "Pegaslick",
+        "Light Screen",
+        "ability",
+        "80 LP"
+      ],
+      [
+        "526",
+        "Pegaslick",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "527",
+        "Pegaslick",
+        "Light Screen",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "528",
+        "Pegaslick",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "529",
+        "Pricklemane",
+        "Strike Raid",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "530",
+        "Pricklemane",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "531",
+        "Pricklemane",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "532",
+        "Pricklemane",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "533",
+        "Pricklemane",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "534",
+        "Pricklemane",
+        "Time Bomb",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "535",
+        "Pricklemane",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "536",
+        "Pricklemane",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "537",
+        "Pricklemane",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "538",
+        "Pricklemane",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "539",
+        "Pricklemane",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "540",
+        "Pricklemane",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "541",
+        "Pricklemane",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "542",
+        "Pricklemane",
+        "Circle Raid",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "543",
+        "Pricklemane",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "544",
+        "Pricklemane",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "545",
+        "R & R Seal",
+        "Second Chance",
+        "ability",
+        "10 LP"
+      ],
+      [
+        "546",
+        "R & R Seal",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "547",
+        "R & R Seal",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "548",
+        "R & R Seal",
+        "Mini Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "549",
+        "R & R Seal",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "550",
+        "R & R Seal",
+        "Shadowbreaker",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "551",
+        "R & R Seal",
+        "Balloonga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "552",
+        "R & R Seal",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "553",
+        "R & R Seal",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "554",
+        "R & R Seal",
+        "HP Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "555",
+        "R & R Seal",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "556",
+        "R & R Seal",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "557",
+        "R & R Seal",
+        "HP Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "558",
+        "R & R Seal",
+        "Megalixir",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "559",
+        "R & R Seal",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "560",
+        "R & R Seal",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "561",
+        "Ryu Dragon",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "562",
+        "Ryu Dragon",
+        "Superglide",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "563",
+        "Ryu Dragon",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "564",
+        "Ryu Dragon",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "565",
+        "Ryu Dragon",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "566",
+        "Ryu Dragon",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "567",
+        "Ryu Dragon",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "568",
+        "Ryu Dragon",
+        "Meteor Crash",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "569",
+        "Ryu Dragon",
+        "Firaga Burst",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "570",
+        "Ryu Dragon",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "571",
+        "Ryu Dragon",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "572",
+        "Ryu Dragon",
+        "Megaflare",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "573",
+        "Ryu Dragon",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "574",
+        "Ryu Dragon",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "575",
+        "Ryu Dragon",
+        "Combo Master",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "576",
+        "Ryu Dragon",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "577",
+        "Sir Kyroo",
+        "Strike Raid",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "578",
+        "Sir Kyroo",
+        "Water Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "579",
+        "Sir Kyroo",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "580",
+        "Sir Kyroo",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "581",
+        "Sir Kyroo",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "582",
+        "Sir Kyroo",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "583",
+        "Sir Kyroo",
+        "Cure Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "584",
+        "Sir Kyroo",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "585",
+        "Sir Kyroo",
+        "Water Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "586",
+        "Sir Kyroo",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "587",
+        "Sir Kyroo",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "588",
+        "Sir Kyroo",
+        "Blitz",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "589",
+        "Sir Kyroo",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "590",
+        "Sir Kyroo",
+        "Cure Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "591",
+        "Sir Kyroo",
+        "Water Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "592",
+        "Sir Kyroo",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "593",
+        "Skelterwild",
+        "Limit Storm",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "594",
+        "Skelterwild",
+        "EXP Walker",
+        "ability",
+        "400 LP"
+      ],
+      [
+        "595",
+        "Skelterwild",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "596",
+        "Skelterwild",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "597",
+        "Skelterwild",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "598",
+        "Skelterwild",
+        "Ice Barrage",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "599",
+        "Skelterwild",
+        "Ars Arcanum",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "600",
+        "Skelterwild",
+        "Blizzard Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "601",
+        "Skelterwild",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "602",
+        "Skelterwild",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "603",
+        "Skelterwild",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "604",
+        "Skelterwild",
+        "Deep Freeze",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "605",
+        "Skelterwild",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "606",
+        "Skelterwild",
+        "Blizzard Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "607",
+        "Skelterwild",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "608",
+        "Skelterwild",
+        "Defense Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "609",
+        "Staggerceps",
+        "Link Block",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "610",
+        "Staggerceps",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "611",
+        "Staggerceps",
+        "Collision Magnet",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "612",
+        "Staggerceps",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "613",
+        "Staggerceps",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "614",
+        "Staggerceps",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "615",
+        "Staggerceps",
+        "Light Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "616",
+        "Staggerceps",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "617",
+        "Staggerceps",
+        "Light Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "618",
+        "Staggerceps",
+        "Zantetsuken",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "619",
+        "Staggerceps",
+        "Light Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "620",
+        "Staggerceps",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "621",
+        "Staggerceps",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "622",
+        "Staggerceps",
+        "Blizzara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "623",
+        "Staggerceps",
+        "Dark Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "624",
+        "Staggerceps",
+        "Combo Plus",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "625",
+        "Sudo Neku",
+        "Fira",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "626",
+        "Sudo Neku",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "627",
+        "Sudo Neku",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "628",
+        "Sudo Neku",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "629",
+        "Sudo Neku",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "630",
+        "Sudo Neku",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "631",
+        "Sudo Neku",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "632",
+        "Sudo Neku",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "633",
+        "Sudo Neku",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "634",
+        "Sudo Neku",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "635",
+        "Sudo Neku",
+        "Circle Raid",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "636",
+        "Sudo Neku",
+        "Reload Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "637",
+        "Sudo Neku",
+        "Magic Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "638",
+        "Sudo Neku",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "639",
+        "Sudo Neku",
+        "Magic Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "640",
+        "Sudo Neku",
+        "Slot Edge",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "641",
+        "Tama Sheep",
+        "Sleep",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "642",
+        "Tama Sheep",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "643",
+        "Tama Sheep",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "644",
+        "Tama Sheep",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "645",
+        "Tama Sheep",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "646",
+        "Tama Sheep",
+        "Sleepra",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "647",
+        "Tama Sheep",
+        "Sleepga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "648",
+        "Tama Sheep",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "649",
+        "Tama Sheep",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "650",
+        "Tama Sheep",
+        "Balloon",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "651",
+        "Tama Sheep",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "652",
+        "Tama Sheep",
+        "Stop Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "653",
+        "Tama Sheep",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "654",
+        "Tama Sheep",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "655",
+        "Tama Sheep",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "656",
+        "Tama Sheep",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "657",
+        "Tatsu Blaze",
+        "Fira",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "658",
+        "Tatsu Blaze",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "659",
+        "Tatsu Blaze",
+        "Firaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "660",
+        "Tatsu Blaze",
+        "Meteor Crash",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "661",
+        "Tatsu Blaze",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "662",
+        "Tatsu Blaze",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "663",
+        "Tatsu Blaze",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "664",
+        "Tatsu Blaze",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "665",
+        "Tatsu Blaze",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "666",
+        "Tatsu Blaze",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "667",
+        "Tatsu Blaze",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "668",
+        "Tatsu Blaze",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "669",
+        "Tatsu Blaze",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "670",
+        "Tatsu Blaze",
+        "Support Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "671",
+        "Tatsu Blaze",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "672",
+        "Tatsu Blaze",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "673",
+        "Tatsu Steed",
+        "Bind",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "674",
+        "Tatsu Steed",
+        "Blizzard Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "675",
+        "Tatsu Steed",
+        "Blizzara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "676",
+        "Tatsu Steed",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "677",
+        "Tatsu Steed",
+        "Mini",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "678",
+        "Tatsu Steed",
+        "Blizzard Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "679",
+        "Tatsu Steed",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "680",
+        "Tatsu Steed",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "681",
+        "Tatsu Steed",
+        "Blizzard Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "682",
+        "Tatsu Steed",
+        "Blizzaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "683",
+        "Tatsu Steed",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "684",
+        "Tatsu Steed",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "685",
+        "Tatsu Steed",
+        "Blizzard Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "686",
+        "Tatsu Steed",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "687",
+        "Tatsu Steed",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "688",
+        "Tatsu Steed",
+        "Blizzard Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "689",
+        "Thunderaffe",
+        "Thundara",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "690",
+        "Thunderaffe",
+        "Thunder Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "691",
+        "Thunderaffe",
+        "Thundaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "692",
+        "Thunderaffe",
+        "Triple Plasma",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "693",
+        "Thunderaffe",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "694",
+        "Thunderaffe",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "695",
+        "Thunderaffe",
+        "Zantetsuken",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "696",
+        "Thunderaffe",
+        "Thunder Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "697",
+        "Thunderaffe",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "698",
+        "Thunderaffe",
+        "Damage Syphon",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "699",
+        "Thunderaffe",
+        "Slow Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "700",
+        "Thunderaffe",
+        "Thunder Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "701",
+        "Thunderaffe",
+        "Thunder Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "702",
+        "Thunderaffe",
+        "Thunder Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "703",
+        "Thunderaffe",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "704",
+        "Thunderaffe",
+        "Attack Haste",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "705",
+        "Toximander",
+        "Poison",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "706",
+        "Toximander",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "707",
+        "Toximander",
+        "Poison Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "708",
+        "Toximander",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "709",
+        "Toximander",
+        "Confusion Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "710",
+        "Toximander",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "711",
+        "Toximander",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "712",
+        "Toximander",
+        "Poison Dive",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "713",
+        "Toximander",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "714",
+        "Toximander",
+        "Gravity Strike",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "715",
+        "Toximander",
+        "Mini Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "716",
+        "Toximander",
+        "Treasure Manget",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "717",
+        "Toximander",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "718",
+        "Toximander",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "719",
+        "Toximander",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "720",
+        "Toximander",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "721",
+        "Tyranto Rex",
+        "Rapid Descent",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "722",
+        "Tyranto Rex",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "723",
+        "Tyranto Rex",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "724",
+        "Tyranto Rex",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "725",
+        "Tyranto Rex",
+        "Firaga Burst",
+        "deck_command",
+        "300 LP"
+      ],
+      [
+        "726",
+        "Tyranto Rex",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "727",
+        "Tyranto Rex",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "728",
+        "Tyranto Rex",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "729",
+        "Tyranto Rex",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "730",
+        "Tyranto Rex",
+        "Once More",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "731",
+        "Tyranto Rex",
+        "Meteor Crash",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "732",
+        "Tyranto Rex",
+        "Megaflare",
+        "deck_command",
+        "400 LP"
+      ],
+      [
+        "733",
+        "Tyranto Rex",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "734",
+        "Tyranto Rex",
+        "Fire Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "735",
+        "Tyranto Rex",
+        "Fire Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "736",
+        "Tyranto Rex",
+        "Attack Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "737",
+        "Ursa Circus",
+        "Damage Syphon",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "738",
+        "Ursa Circus",
+        "Aerial Slam",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "739",
+        "Ursa Circus",
+        "Attack Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "740",
+        "Ursa Circus",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "741",
+        "Ursa Circus",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "742",
+        "Ursa Circus",
+        "Attack Haste",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "743",
+        "Ursa Circus",
+        "Defender",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "744",
+        "Ursa Circus",
+        "Attack Haste",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "745",
+        "Ursa Circus",
+        "Attack Boost",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "746",
+        "Ursa Circus",
+        "Item Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "747",
+        "Ursa Circus",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "748",
+        "Ursa Circus",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "749",
+        "Ursa Circus",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "750",
+        "Ursa Circus",
+        "Attack Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "751",
+        "Ursa Circus",
+        "Item Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "752",
+        "Ursa Circus",
+        "Blitz",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "753",
+        "Wheeflower",
+        "Blizzard",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "754",
+        "Wheeflower",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "755",
+        "Wheeflower",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "756",
+        "Wheeflower",
+        "Esuna",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "757",
+        "Wheeflower",
+        "Sleep Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "758",
+        "Wheeflower",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "759",
+        "Wheeflower",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "760",
+        "Wheeflower",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "761",
+        "Wheeflower",
+        "Blizzara",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "762",
+        "Wheeflower",
+        "Blizzaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "763",
+        "Wheeflower",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "764",
+        "Wheeflower",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "765",
+        "Wheeflower",
+        "Water Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "766",
+        "Wheeflower",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "767",
+        "Wheeflower",
+        "Cure Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "768",
+        "Wheeflower",
+        "Magic Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "769",
+        "Woeflower",
+        "Poison",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "770",
+        "Woeflower",
+        "Attack Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "771",
+        "Woeflower",
+        "Drain Dive",
+        "deck_command",
+        "50 LP"
+      ],
+      [
+        "772",
+        "Woeflower",
+        "Attack Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "773",
+        "Woeflower",
+        "Magic Haste",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "774",
+        "Woeflower",
+        "Poison Dive",
+        "deck_command",
+        "200 LP"
+      ],
+      [
+        "775",
+        "Woeflower",
+        "Magic Haste",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "776",
+        "Woeflower",
+        "Sleepra",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "777",
+        "Woeflower",
+        "Sleepga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "778",
+        "Woeflower",
+        "Treasure Magnet",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "779",
+        "Woeflower",
+        "Magic Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "780",
+        "Woeflower",
+        "Dark Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "781",
+        "Woeflower",
+        "Magic Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "782",
+        "Woeflower",
+        "Dark Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "783",
+        "Woeflower",
+        "Attack Haste",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "784",
+        "Woeflower",
+        "Blindness Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "785",
+        "Yoggy Ram",
+        "Fire",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "786",
+        "Yoggy Ram",
+        "Fire Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "787",
+        "Yoggy Ram",
+        "Fira",
+        "deck_command",
+        "100 LP"
+      ],
+      [
+        "788",
+        "Yoggy Ram",
+        "Firaga",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "789",
+        "Yoggy Ram",
+        "Esuna",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "790",
+        "Yoggy Ram",
+        "Fire Windmill",
+        "deck_command",
+        "150 LP"
+      ],
+      [
+        "791",
+        "Yoggy Ram",
+        "Treasure Magnet",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "792",
+        "Yoggy Ram",
+        "Fire Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "793",
+        "Yoggy Ram",
+        "Bind Block",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "794",
+        "Yoggy Ram",
+        "Fire Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "795",
+        "Yoggy Ram",
+        "Fire Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "796",
+        "Yoggy Ram",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "797",
+        "Yoggy Ram",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "798",
+        "Yoggy Ram",
+        "Fire Screen",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "799",
+        "Yoggy Ram",
+        "Fire Screen",
+        "ability",
+        "80 LP"
+      ],
+      [
+        "800",
+        "Yoggy Ram",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "801",
+        "Zolephant",
+        "Collision Magnet",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "802",
+        "Zolephant",
+        "Magnet Spiral",
+        "deck_command",
+        "10 LP"
+      ],
+      [
+        "803",
+        "Zolephant",
+        "Water Screen",
+        "ability",
+        "20 LP"
+      ],
+      [
+        "804",
+        "Zolephant",
+        "Water Screen",
+        "ability",
+        "40 LP"
+      ],
+      [
+        "805",
+        "Zolephant",
+        "Defense Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "806",
+        "Zolephant",
+        "HP Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "807",
+        "Zolephant",
+        "Second Chance",
+        "ability",
+        "300 LP"
+      ],
+      [
+        "808",
+        "Zolephant",
+        "Water Boost",
+        "ability",
+        "30 LP"
+      ],
+      [
+        "809",
+        "Zolephant",
+        "HP Boost",
+        "ability",
+        "100 LP"
+      ],
+      [
+        "810",
+        "Zolephant",
+        "HP Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "811",
+        "Zolephant",
+        "Water Screen",
+        "ability",
+        "60 LP"
+      ],
+      [
+        "812",
+        "Zolephant",
+        "Cure Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "813",
+        "Zolephant",
+        "HP Boost",
+        "ability",
+        "150 LP"
+      ],
+      [
+        "814",
+        "Zolephant",
+        "HP Boost",
+        "ability",
+        "200 LP"
+      ],
+      [
+        "815",
+        "Zolephant",
+        "Water Boost",
+        "ability",
+        "50 LP"
+      ],
+      [
+        "816",
+        "Zolephant",
+        "Defense Boost",
+        "ability",
+        "200 LP"
+      ]
+    ],
+    "synthesis_item": [
+      [
+        "synth_item_id",
+        "synth_item_name",
+        "min required for best base spirit recipes"
+      ],
+      [
+        "1",
+        "Fleeting Figment",
+        null
+      ],
+      [
+        "2",
+        "Fleeting Fancy",
+        null
+      ],
+      [
+        "3",
+        "Fleeting Fantasy",
+        null
+      ],
+      [
+        "4",
+        "Lofty Figment",
+        null
+      ],
+      [
+        "5",
+        "Lofty Fancy",
+        null
+      ],
+      [
+        "6",
+        "Lofty Fantasy",
+        null
+      ],
+      [
+        "7",
+        "Rampant Figment",
+        null
+      ],
+      [
+        "8",
+        "Rampant Fancy",
+        null
+      ],
+      [
+        "9",
+        "Rampant Fantasy",
+        null
+      ],
+      [
+        "10",
+        "Dulcet Figment",
+        null
+      ],
+      [
+        "11",
+        "Dulcet Fancy",
+        null
+      ],
+      [
+        "12",
+        "Dulcet Fantasy",
+        null
+      ],
+      [
+        "13",
+        "Intrepid Figment",
+        null
+      ],
+      [
+        "14",
+        "Intrepid Fancy",
+        null
+      ],
+      [
+        "15",
+        "Intrepid Fantasy",
+        null
+      ],
+      [
+        "16",
+        "Noble Figment",
+        null
+      ],
+      [
+        "17",
+        "Noble Fancy",
+        null
+      ],
+      [
+        "18",
+        "Noble Fantasy",
+        null
+      ],
+      [
+        "19",
+        "Grim Figment",
+        null
+      ],
+      [
+        "20",
+        "Grim Fancy",
+        null
+      ],
+      [
+        "21",
+        "Grim Fantasy",
+        null
+      ],
+      [
+        "22",
+        "Vibrant Figment",
+        null
+      ],
+      [
+        "23",
+        "Vibrant Fancy",
+        null
+      ],
+      [
+        "24",
+        "Vibrant Fantasy",
+        null
+      ],
+      [
+        "25",
+        "Troubling Figment",
+        null
+      ],
+      [
+        "26",
+        "Troubling Fancy",
+        null
+      ],
+      [
+        "27",
+        "Troubling Fantasy",
+        null
+      ],
+      [
+        "28",
+        "Wondrous Figment",
+        null
+      ],
+      [
+        "29",
+        "Wondrous Fancy",
+        null
+      ],
+      [
+        "30",
+        "Wondrous Fantasy",
+        null
+      ],
+      [
+        "31",
+        "Malleable Fantasy",
+        null
+      ],
+      [
+        "32",
+        "Prickly Fantasy",
+        null
+      ],
+      [
+        "33",
+        "Wild Fantasy",
+        null
+      ],
+      [
+        "34",
+        "Epic Fantasy",
+        null
+      ],
+      [
+        "35",
+        "Charming Fantasy",
+        null
+      ],
+      [
+        "36",
+        "Brilliant Fantasy",
+        null
+      ],
+      [
+        "37",
+        "Savage Fantasy",
+        null
+      ]
+    ],
+    "spirit recipe": [
+      [
+        "recipe_id",
+        "spirit_name (fk dream eater table)",
+        "first_amount",
+        "first_ingredient (FK synth_item)",
+        "second_amount",
+        "second_ingredient (FK synth_item)",
+        "base_rank",
+        "percent_chance",
+        "BEST BASE"
+      ],
+      [
+        "1",
+        "Aura Lion",
+        "2",
+        "Brilliant Fantasy",
+        "4",
+        "Intrepid Fantasy",
+        "B",
+        "60",
+        "1"
+      ],
+      [
+        "2",
+        "Aura Lion",
+        "3",
+        "Intrepid Fantasy",
+        "3",
+        "Noble Fantasy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "3",
+        "Aura Lion",
+        "3",
+        "Savage Fantasy",
+        "3",
+        "Noble Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "4",
+        "Aura Lion",
+        "4",
+        "Intrepid Fantasy",
+        "16",
+        "Wondrous Fantasy",
+        "B",
+        "40",
+        "0"
+      ],
+      [
+        "5",
+        "Cera Terror",
+        "4",
+        "Grim Fantasy",
+        "8",
+        "Intrepid Fancy",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "6",
+        "Cera Terror",
+        "5",
+        "Grim Fantasy",
+        "2",
+        "Intrepid Fantasy",
+        "C",
+        "70",
+        "0"
+      ],
+      [
+        "7",
+        "Cera Terror",
+        "6",
+        "Grim Fantasy",
+        "8",
+        "Fleeting Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "8",
+        "Cera Terror",
+        "3",
+        "Grim Fantasy",
+        "2",
+        "Fleeting Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "9",
+        "Cera Terror",
+        "3",
+        "Grim Fantasy",
+        "1",
+        "Wild Fantasy",
+        "B",
+        null,
+        "1"
+      ],
+      [
+        "10",
+        "Cera Terror",
+        "3",
+        "Vibrant Fantasy",
+        "2",
+        "Epic Fantasy",
+        "C",
+        "40",
+        "0"
+      ],
+      [
+        "11",
+        "Chef Kyroo",
+        "2",
+        "Lofty Fantasy",
+        "2",
+        "Brilliant Fantasy",
+        "A",
+        "70",
+        "0"
+      ],
+      [
+        "12",
+        "Chef Kyroo",
+        "3",
+        "Wondrous Fancy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "13",
+        "Chef Kyroo",
+        "3",
+        "Wondrous Fancy",
+        "4",
+        "Intrepid Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "14",
+        "Chef Kyroo",
+        "3",
+        "Wondrous Fancy",
+        "3",
+        "Noble Fancy",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "15",
+        "Chef Kyroo",
+        "3",
+        "Wondrous Fancy",
+        "8",
+        "Troubling Figment",
+        "F",
+        null,
+        "0"
+      ],
+      [
+        "16",
+        "Chef Kyroo",
+        "6",
+        "Noble Fancy",
+        "10",
+        "Intrepid Figment",
+        "D",
+        "40",
+        "0"
+      ],
+      [
+        "17",
+        "Cyber Yog",
+        "3",
+        "Noble Fancy",
+        "3",
+        "Fleeting Figment",
+        "F",
+        null,
+        "0"
+      ],
+      [
+        "18",
+        "Cyber Yog",
+        "1",
+        "Noble Fantasy",
+        "4",
+        "Lofty Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "19",
+        "Cyber Yog",
+        "4",
+        "Noble Fancy",
+        "4",
+        "Grim Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "20",
+        "Cyber Yog",
+        "2",
+        "Noble Fantasy",
+        "4",
+        "Grim Fancy",
+        "B",
+        "70%",
+        "1"
+      ],
+      [
+        "21",
+        "Cyber Yog",
+        "3",
+        "Noble Fancy",
+        "4",
+        "Grim Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "22",
+        "Cyber Yog",
+        "5",
+        "Grim Figment",
+        "3",
+        "Dulcet Fancy",
+        "C",
+        "30%",
+        "0"
+      ],
+      [
+        "23",
+        "Drak Quack",
+        "5",
+        "Wondrous Fantasy",
+        "2",
+        "Dulcet Fantasy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "24",
+        "Drak Quack",
+        "5",
+        "Wondrous Fantasy",
+        "1",
+        "Wild Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "25",
+        "Drak Quack",
+        "3",
+        "Wondrous Fantasy",
+        "4",
+        "Vibrant Fancy",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "26",
+        "Drill Sye",
+        "2",
+        "Malleable Fantasy",
+        "3",
+        "Fleeting Fancy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "27",
+        "Drill Sye",
+        "3",
+        "Vibrant Fantasy",
+        "2",
+        "Epic Fantasy",
+        "A",
+        "60%",
+        "0"
+      ],
+      [
+        "28",
+        "Drill Sye",
+        "2",
+        "Noble Fantasy",
+        "5",
+        "Intrepid Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "29",
+        "Drill Sye",
+        "4",
+        "Noble Fantasy",
+        "2",
+        "Intrepid Fantasy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "30",
+        "Drill Sye",
+        "3",
+        "Noble Fantasy",
+        "4",
+        "Fleeting Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "31",
+        "Drill Sye",
+        "4",
+        "Intrepid Figment",
+        "1",
+        "Wild Fantasy",
+        "B",
+        "20%",
+        "0"
+      ],
+      [
+        "32",
+        "Ducky Goose",
+        "3",
+        "Vibrant Fancy",
+        "3",
+        "Dulcet Fancy",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "33",
+        "Ducky Goose",
+        "1",
+        "Prickly Fantasy",
+        "2",
+        "Dulcet Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "34",
+        "Eaglider",
+        "1",
+        "Prickly Fantasy",
+        "3",
+        "Fleeting Figment",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "35",
+        "Eaglider",
+        "2",
+        "Prickly Fantasy",
+        "4",
+        "Fleeting Fancy",
+        "B",
+        null,
+        "1"
+      ],
+      [
+        "36",
+        "Eaglider",
+        "1",
+        "Epic Fantasy",
+        "6",
+        "Lofty Fancy",
+        "B",
+        "80%",
+        "0"
+      ],
+      [
+        "37",
+        "Eaglider",
+        "1",
+        "Prickly Fantasy",
+        "3",
+        "Grim Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "38",
+        "Eaglider",
+        "1",
+        "Prickly Fantasy",
+        "8",
+        "Troubling Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "39",
+        "Eaglider",
+        "2",
+        "Noble Fantasy",
+        "4",
+        "Grim Fancy",
+        "C",
+        "30%",
+        "0"
+      ],
+      [
+        "40",
+        "Electricorn",
+        "1",
+        "Lofty Fancy",
+        "4",
+        "Fleeting Fancy",
+        "B",
+        "60%",
+        "1"
+      ],
+      [
+        "41",
+        "Electricorn",
+        "4",
+        "Lofty Fancy",
+        "2",
+        "Fleeting Fantasy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "42",
+        "Electricorn",
+        "2",
+        "Lofty Fantasy",
+        "3",
+        "Fleeting Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "43",
+        "Electricorn",
+        "5",
+        "Grim Fantasy",
+        "2",
+        "Intrepid Fantasy",
+        "C",
+        "30%",
+        "0"
+      ],
+      [
+        "44",
+        "Escarglow",
+        "4",
+        "Fleeting Figment",
+        "6",
+        "Noble Figment",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "45",
+        "Escarglow",
+        "3",
+        "Fleeting Figment",
+        "4",
+        "Grim Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "46",
+        "Escarglow",
+        "2",
+        "Fleeting Figment",
+        "11",
+        "Vibrant Figment",
+        "C",
+        "70%",
+        "0"
+      ],
+      [
+        "47",
+        "Escarglow",
+        "6",
+        "Fleeting Figment",
+        "10",
+        "Wondrous Figment",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "48",
+        "Escarglow",
+        "3",
+        "Fleeting Fancy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "49",
+        "Escarglow",
+        "3",
+        "Fleeting Fancy",
+        "8",
+        "Grim Figment",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "50",
+        "Escarglow",
+        "3",
+        "Troubling Fancy",
+        "1",
+        "Rampant Fantasy",
+        "B",
+        "40%",
+        "0"
+      ],
+      [
+        "51",
+        "Fin Fatale",
+        "3",
+        "Rampant Fancy",
+        "3",
+        "Noble Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "52",
+        "Fin Fatale",
+        "4",
+        "Rampant Fancy",
+        "6",
+        "Troubling Figment",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "53",
+        "Fin Fatale",
+        "6",
+        "Rampant Fancy",
+        "4",
+        "Troubling Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "54",
+        "Fin Fatale",
+        "2",
+        "Rampant Fantasy",
+        "1",
+        "Prickly Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "55",
+        "Fin Fatale",
+        "2",
+        "Rampant Fantasy",
+        "3",
+        "Noble Fancy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "56",
+        "Fin Fatale",
+        "4",
+        "Wondrous Fancy",
+        "4",
+        "Noble Figment",
+        "C",
+        "60%",
+        "0"
+      ],
+      [
+        "57",
+        "Fishbone",
+        "3",
+        "Wondrous Fancy",
+        "6",
+        "Rampant Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "58",
+        "Fishbone",
+        "3",
+        "Wondrous Fancy",
+        "5",
+        "Rampant Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "59",
+        "Fishbone",
+        "3",
+        "Wondrous Fancy",
+        "1",
+        "Prickly Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "60",
+        "Fishbone",
+        "2",
+        "Noble Fantasy",
+        "2",
+        "Wild Fantasy",
+        "A",
+        "80%",
+        "0"
+      ],
+      [
+        "61",
+        "Fishbone",
+        "4",
+        "Wondrous Fancy",
+        "4",
+        "Noble Figment",
+        "C",
+        "40%",
+        "0"
+      ],
+      [
+        "62",
+        "Flowbermeow",
+        "3",
+        "Malleable Fantasy",
+        "2",
+        "Fleeting Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "63",
+        "Flowbermeow",
+        "2",
+        "Malleable Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "B",
+        null,
+        "1"
+      ],
+      [
+        "64",
+        "Flowbermeow",
+        "3",
+        "Malleable Fantasy",
+        "2",
+        "Wild Fantasy",
+        "A",
+        "10%",
+        "0"
+      ],
+      [
+        "65",
+        "Frootz Cat",
+        "2",
+        "Brilliant Fantasy",
+        "2",
+        "Charming Fantasy",
+        "C",
+        null,
+        "1"
+      ],
+      [
+        "66",
+        "Ghostabocky",
+        "3",
+        "Wondrous Fantasy",
+        "3",
+        "Lofty Fancy",
+        "F",
+        null,
+        "0"
+      ],
+      [
+        "67",
+        "Ghostabocky",
+        "3",
+        "Wondrous Fantasy",
+        "5",
+        "Dulcet Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "68",
+        "Ghostabocky",
+        "4",
+        "Wondrous Fantasy",
+        "4",
+        "Dulcet Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "69",
+        "Ghostabocky",
+        "6",
+        "Wondrous Fantasy",
+        "2",
+        "Troubling Fantasy",
+        "B",
+        "60%",
+        "1"
+      ],
+      [
+        "70",
+        "Halbird",
+        "4",
+        "Lofty Fancy",
+        "1",
+        "Epic Fantasy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "71",
+        "Halbird",
+        "3",
+        "Lofty Fantasy",
+        "1",
+        "Prickly Fantasy",
+        "B",
+        null,
+        "1"
+      ],
+      [
+        "72",
+        "Halbird",
+        "2",
+        "Lofty Fantasy",
+        "1",
+        "Epic Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "73",
+        "Halbird",
+        "5",
+        "Rampant Fancy",
+        "3",
+        "Lofty Fancy",
+        "D",
+        "40%",
+        "0"
+      ],
+      [
+        "74",
+        "Halbird",
+        "1",
+        "Epic Fantasy",
+        "6",
+        "Lofty Fancy",
+        "C",
+        "20%",
+        "0"
+      ],
+      [
+        "75",
+        "Hebby Repp",
+        "4",
+        "Intrepid Figment",
+        "2",
+        "Fleeting Figment",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "76",
+        "Hebby Repp",
+        "6",
+        "Intrepid Figment",
+        "1",
+        "Rampant Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "77",
+        "Hebby Repp",
+        "3",
+        "Intrepid Figment",
+        "2",
+        "Noble Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "78",
+        "Hebby Repp",
+        "5",
+        "Intrepid Figment",
+        "2",
+        "Troubling Fantasy",
+        "B",
+        "70%",
+        "0"
+      ],
+      [
+        "79",
+        "Hebby Repp",
+        "3",
+        "Intrepid Fancy",
+        "3",
+        "Noble Figment",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "80",
+        "Hebby Repp",
+        "3",
+        "Intrepid Fancy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "81",
+        "Iceguin Ace",
+        "5",
+        "Rampant Fancy",
+        "3",
+        "Lofty Fancy",
+        "C",
+        "60%",
+        "0"
+      ],
+      [
+        "82",
+        "Iceguin Ace",
+        "2",
+        "Rampant Fantasy",
+        "6",
+        "Lofty Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "83",
+        "Iceguin Ace",
+        "2",
+        "Rampant Fantasy",
+        "4",
+        "Lofty Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "84",
+        "Iceguin Ace",
+        "2",
+        "Rampant Fantasy",
+        "2",
+        "Lofty Fantasy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "85",
+        "Iceguin Ace",
+        "2",
+        "Rampant Fantasy",
+        "1",
+        "Wild Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "86",
+        "Iceguin Ace",
+        "2",
+        "Vibrant Fantasy",
+        "5",
+        "Intrepid Fancy",
+        "B",
+        "40%",
+        "0"
+      ],
+      [
+        "87",
+        "Jestabocky",
+        "4",
+        "Rampant Figment",
+        "3",
+        "Vibrant Fancy",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "88",
+        "Jestabocky",
+        "8",
+        "Rampant Figment",
+        "2",
+        "Vibrant Fantasy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "89",
+        "Jestabocky",
+        "1",
+        "Charming Fantasy",
+        "2",
+        "Vibrant Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "90",
+        "Jestabocky",
+        "2",
+        "Fleeting Figment",
+        "11",
+        "Vibrant Figment",
+        "C",
+        "30%",
+        "0"
+      ],
+      [
+        "91",
+        "Juggle Pup",
+        "2",
+        "Vibrant Fantasy",
+        "1",
+        "Epic Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "92",
+        "Juggle Pup",
+        "2",
+        "Vibrant Fantasy",
+        "2",
+        "Fleeting Fantasy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "93",
+        "Juggle Pup",
+        "2",
+        "Vibrant Fantasy",
+        "4",
+        "Wondrous Fancy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "94",
+        "Juggle Pup",
+        "3",
+        "Vibrant Fantasy",
+        "3",
+        "Wondrous Fantasy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "95",
+        "Juggle Pup",
+        "3",
+        "Dulcet Fancy",
+        "1",
+        "Charming Fantasy",
+        "B",
+        "40%",
+        "0"
+      ],
+      [
+        "96",
+        "Kab Kannon",
+        "2",
+        "Savage Fantasy",
+        "2",
+        "Brilliant Fantasy",
+        "C",
+        null,
+        "1"
+      ],
+      [
+        "97",
+        "Keeba Tiger",
+        "2",
+        "Savage Fantasy",
+        "1",
+        "Prickly Fantasy",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "98",
+        "Keeba Tiger",
+        "2",
+        "Savage Fantasy",
+        "6",
+        "Noble Fantasy",
+        "B",
+        null,
+        "1"
+      ],
+      [
+        "99",
+        "Keeba Tiger",
+        "2",
+        "Brilliant Fantasy",
+        "4",
+        "Intrepid Fantasy",
+        "C",
+        "40%",
+        "0"
+      ],
+      [
+        "100",
+        "KO Kabuto",
+        "4",
+        "Noble Fancy",
+        "3",
+        "Lofty Fancy",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "101",
+        "KO Kabuto",
+        "3",
+        "Noble Fancy",
+        "3",
+        "Grim Fancy",
+        "B",
+        "60%",
+        "0"
+      ],
+      [
+        "102",
+        "KO Kabuto",
+        "3",
+        "Noble Fancy",
+        "4",
+        "Intrepid Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "103",
+        "KO Kabuto",
+        "3",
+        "Noble Fancy",
+        "6",
+        "Rampant Figment",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "104",
+        "KO Kabuto",
+        "2",
+        "Noble Fantasy",
+        "3",
+        "Intrepid Fancy",
+        "B",
+        null,
+        "0"
+      ],
+      [
+        "105",
+        "KO Kabuto",
+        "2",
+        "Noble Fantasy",
+        "2",
+        "Troubling Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "106",
+        "KO Kabuto",
+        "6",
+        "Noble Fancy",
+        "2",
+        "Intrepid Fantasy",
+        "A",
+        "40%",
+        "0"
+      ],
+      [
+        "107",
+        "Komory Bat",
+        "3",
+        "Troubling Figment",
+        "2",
+        "Rampant Figment",
+        "E",
+        null,
+        "0"
+      ],
+      [
+        "108",
+        "Komory Bat",
+        "4",
+        "Troubling Figment",
+        "2",
+        "Lofty Figment",
+        "D",
+        null,
+        "0"
+      ],
+      [
+        "109",
+        "Komory Bat",
+        "5",
+        "Troubling Figment",
+        "4",
+        "Intrepid Figment",
+        "B",
+        "70%",
+        "0"
+      ],
+      [
+        "110",
+        "Komory Bat",
+        "2",
+        "Troubling Fancy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        null,
+        "1"
+      ],
+      [
+        "111",
+        "Komory Bat",
+        "2",
+        "Troubling Fancy",
+        "3",
+        "Rampant Figment",
+        "C",
+        null,
+        "0"
+      ],
+      [
+        "112",
+        "Kooma Panda",
+        "3",
+        "Vibrant Fancy",
+        "8",
+        "Rampant Figment",
+        "F",
+        null,
+        null
+      ],
+      [
+        "113",
+        "Kooma Panda",
+        "3",
+        "Vibrant Fancy",
+        "5",
+        "Intrepid Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "114",
+        "Kooma Panda",
+        "4",
+        "Vibrant Fancy",
+        "3",
+        "Intrepid Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "115",
+        "Kooma Panda",
+        "2",
+        "Vibrant Fantasy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "116",
+        "Kooma Panda",
+        "2",
+        "Vibrant Fantasy",
+        "4",
+        "Intrepid Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "117",
+        "Kooma Panda",
+        "2",
+        "Vibrant Fantasy",
+        "5",
+        "Intrepid Fancy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "118",
+        "Lord Kyroo",
+        "2",
+        "Brilliant Fantasy",
+        "5",
+        "Noble Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "119",
+        "Lord Kyroo",
+        "3",
+        "Brilliant Fantasy",
+        "2",
+        "Noble Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "120",
+        "Lord Kyroo",
+        "2",
+        "Lofty Fantasy",
+        "2",
+        "Brilliant Fantasy",
+        "E",
+        "30%",
+        null
+      ],
+      [
+        "121",
+        "Lord Kyroo",
+        "2",
+        "Brilliant Fantasy",
+        "3",
+        "Epic Fantasy",
+        "A",
+        "20%",
+        null
+      ],
+      [
+        "122",
+        "Majik Lapin",
+        "2",
+        "Dulcet Fantasy",
+        "4",
+        "Fleeting Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "123",
+        "Majik Lapin",
+        "3",
+        "Dulcet Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "124",
+        "Majik Lapin",
+        "2",
+        "Dulcet Fantasy",
+        "8",
+        "Troubling Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "125",
+        "Majik Lapin",
+        "3",
+        "Dulcet Fantasy",
+        "4",
+        "Troubling Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "126",
+        "Majik Lapin",
+        "4",
+        "Intrepid Fantasy",
+        "16",
+        "Wondrous Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "127",
+        "Majik Lapin",
+        "3",
+        "Fleeting fancy",
+        "2",
+        "Lofty Fantasy",
+        "B",
+        "30%",
+        null
+      ],
+      [
+        "128",
+        "Majik Lapin",
+        "3",
+        "Troubling Fantasy",
+        "1",
+        "Charming Fantasy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "129",
+        "Majik Lapin",
+        "6",
+        "Wondrous Fantasy",
+        "2",
+        "Troubling Fantasy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "130",
+        "Me Me Bunny",
+        "3",
+        "Fleeting Fancy",
+        "2",
+        "Lofty Fantasy",
+        "A",
+        "70%",
+        null
+      ],
+      [
+        "131",
+        "Me Me Bunny",
+        "3",
+        "Intrepid Fancy",
+        "6",
+        "Troubling Figment",
+        "F",
+        null,
+        null
+      ],
+      [
+        "132",
+        "Me Me Bunny",
+        "4",
+        "Intrepid Fancy",
+        "6",
+        "Fleeting Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "133",
+        "Me Me Bunny",
+        "3",
+        "Intrepid Fancy",
+        "6",
+        "Rampant Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "134",
+        "Me Me Bunny",
+        "2",
+        "Intrepid Fantasy",
+        "1",
+        "Prickly Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "135",
+        "Me Me Bunny",
+        "2",
+        "Intrepid Fantasy",
+        "8",
+        "Rampant Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "136",
+        "Meow Wow",
+        "3",
+        "Rampant Figment",
+        "2",
+        "Vibrant Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "137",
+        "Meow Wow",
+        "4",
+        "Rampant Figment",
+        "3",
+        "Vibrant Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "138",
+        "Meow Wow",
+        "6",
+        "Rampant Figment",
+        "1",
+        "Vibrant Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "139",
+        "Meow Wow",
+        "3",
+        "Malleable Fantasy",
+        "2",
+        "Wild Fantasy",
+        "S",
+        "90%",
+        null
+      ],
+      [
+        "140",
+        "Meow Wow",
+        "1",
+        "Malleable Fantasy",
+        "2",
+        "Vibrant Fancy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "141",
+        "Meow Wow",
+        "6",
+        "Vibrant Figment",
+        "2",
+        "Vibrant Fancy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "142",
+        "Meowjesty",
+        "1",
+        "Malleable Fantasy",
+        "2",
+        "Rampant Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "143",
+        "Meowjesty",
+        "2",
+        "Malleable Fantasy",
+        "3",
+        "Dulcet Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "144",
+        "Necho Cat",
+        "1",
+        "Dulcet Fantasy",
+        "2",
+        "Charming Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "145",
+        "Necho Cat",
+        "1",
+        "Dulcet Fantasy",
+        "6",
+        "Rampant Figment",
+        "C",
+        null,
+        null
+      ],
+      [
+        "146",
+        "Necho Cat",
+        "3",
+        "Dulcet Fancy",
+        "6",
+        "Rampant Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "147",
+        "Necho Cat",
+        "3",
+        "Dulcet Fancy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "148",
+        "Necho Cat",
+        "3",
+        "Dulcet Fancy",
+        "8",
+        "Troubling Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "149",
+        "Necho Cat",
+        "6",
+        "Dulcet Fancy",
+        "3",
+        "Wondrous Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "150",
+        "Necho Cat",
+        "1",
+        "Charming Fantasy",
+        "3",
+        "Dulcet Fantasy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "151",
+        "Peepsta Hoo",
+        "3",
+        "Wondrous Figment",
+        "3",
+        "Dulcet Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "152",
+        "Peepsta Hoo",
+        "4",
+        "Wondrous Figment",
+        "8",
+        "Troubling Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "153",
+        "Peepsta Hoo",
+        "3",
+        "Wondrous Fancy",
+        "4",
+        "Dulcet Figment",
+        "C",
+        null,
+        null
+      ],
+      [
+        "154",
+        "Peepsta Hoo",
+        "3",
+        "Wondrous Fancy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "155",
+        "Peepsta Hoo",
+        "3",
+        "Troubling Fantasy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "156",
+        "Peepsta Hoo",
+        "5",
+        "Intrepid Figment",
+        "2",
+        "Troubling Fantasy",
+        "B",
+        "30%",
+        null
+      ],
+      [
+        "157",
+        "Pegaslick",
+        "4",
+        "Lofty Fancy",
+        "8",
+        "Fleeting Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "158",
+        "Pegaslick",
+        "6",
+        "Lofty Fancy",
+        "4",
+        "Fleeting Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "159",
+        "Pegaslick",
+        "3",
+        "Lofty Fancy",
+        "4",
+        "Dulcet Fancy",
+        "E",
+        null,
+        null
+      ],
+      [
+        "160",
+        "Pegaslick",
+        "2",
+        "Lofty Fantasy",
+        "4",
+        "Dulcet Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "161",
+        "Pegaslick",
+        "4",
+        "Lofty Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "A",
+        "80%",
+        null
+      ],
+      [
+        "162",
+        "Pegaslick",
+        "4",
+        "Fleeting fancy",
+        "1",
+        "lofty fancy",
+        "A",
+        "40%",
+        null
+      ],
+      [
+        "163",
+        "Pegaslick",
+        "2",
+        "Fleeting Fantasy",
+        "3",
+        "Lofty Fancy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "164",
+        "Pricklemane",
+        "3",
+        "Intrepid Figment",
+        "2",
+        "Rampant Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "165",
+        "Pricklemane",
+        "4",
+        "Intrepid Figment",
+        "3",
+        "Rampant Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "166",
+        "Pricklemane",
+        "4",
+        "Intrepid Figment",
+        "1",
+        "Wild Fantasy",
+        "S",
+        "80%",
+        null
+      ],
+      [
+        "167",
+        "Pricklemane",
+        "3",
+        "Intrepid Figment",
+        "1",
+        "Charming Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "168",
+        "Pricklemane",
+        "4",
+        "Vibrant Figment",
+        "5",
+        "Intrepid Figment",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "169",
+        "R&R Seal",
+        "2",
+        "Wild Fantasy",
+        "2",
+        "Charming Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "170",
+        "Ryu Dragon",
+        "2",
+        "Brilliant Fantasy",
+        "3",
+        "Lofty Fancy",
+        "E",
+        null,
+        null
+      ],
+      [
+        "171",
+        "Ryu Dragon",
+        "2",
+        "Brilliant Fantasy",
+        "3",
+        "Lofty Fantasy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "172",
+        "Ryu Dragon",
+        "3",
+        "Brilliant Fantasy",
+        "2",
+        "Prickly Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "173",
+        "Ryu Dragon",
+        "2",
+        "Brilliant Fantasy",
+        "3",
+        "Epic Fantasy",
+        "B",
+        "80%",
+        null
+      ],
+      [
+        "174",
+        "Ryu Dragon",
+        "4",
+        "Lofty Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "E",
+        "20%",
+        null
+      ],
+      [
+        "175",
+        "Sir Kyroo",
+        "4",
+        "Noble Fancy",
+        "5",
+        "Lofty Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "176",
+        "Sir Kyroo",
+        "6",
+        "Noble Fancy",
+        "7",
+        "Rampant Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "177",
+        "Sir Kyroo",
+        "6",
+        "Noble Fancy",
+        "10",
+        "Intrepid Figment",
+        "C",
+        "60%",
+        null
+      ],
+      [
+        "178",
+        "Sir Kyroo",
+        "3",
+        "Noble Fancy",
+        "4",
+        "Grim Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "179",
+        "Sir Kyroo",
+        "2",
+        "Noble Fantasy",
+        "1",
+        "Epic Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "180",
+        "Sir Kyroo",
+        "2",
+        "Noble Fantasy",
+        "6",
+        "Grim Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "181",
+        "Skelterwild",
+        "2",
+        "Wild Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "182",
+        "Skelterwild",
+        "4",
+        "Wild Fantasy",
+        "3",
+        "Prickly Fantasy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "183",
+        "Skelterwild",
+        "2",
+        "Noble Fantasy",
+        "2",
+        "Wild Fantasy",
+        "F",
+        "20%",
+        null
+      ],
+      [
+        "184",
+        "Staggerceps",
+        "3",
+        "Grim Fancy",
+        "4",
+        "Fleeting Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "185",
+        "Staggerceps",
+        "4",
+        "Grim Fancy",
+        "3",
+        "Lofty Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "186",
+        "Staggerceps",
+        "3",
+        "Grim Fantasy",
+        "4",
+        "Fleeting Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "187",
+        "Staggerceps",
+        "3",
+        "Grim Fantasy",
+        "1",
+        "Epic Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "188",
+        "Staggerceps",
+        "6",
+        "Noble Fancy",
+        "2",
+        "Intrepid Fantasy",
+        "B",
+        "60%",
+        null
+      ],
+      [
+        "189",
+        "Staggerceps",
+        "3",
+        "Noble Fancy",
+        "3",
+        "Grim Fancy",
+        "D",
+        "40%",
+        null
+      ],
+      [
+        "190",
+        "Sudo Neku",
+        "2",
+        "Wild Fantasy",
+        "3",
+        "Fleeting Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "191",
+        "Sudo Neku",
+        "1",
+        "Wild Fantasy",
+        "2",
+        "Noble Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "192",
+        "Tama Sheep",
+        "4",
+        "Vibrant Figment",
+        "3",
+        "Dulcet Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "193",
+        "Tama Sheep",
+        "4",
+        "Vibrant Figment",
+        "5",
+        "Intrepid Figment",
+        "B",
+        "60%",
+        null
+      ],
+      [
+        "194",
+        "Tama Sheep",
+        "3",
+        "Vibrant Figment",
+        "2",
+        "Troubling Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "195",
+        "Tama Sheep",
+        "6",
+        "Vibrant Figment",
+        "2",
+        "Wondrous Figment",
+        "C",
+        null,
+        null
+      ],
+      [
+        "196",
+        "Tama Sheep",
+        "3",
+        "Vibrant Fancy",
+        "3",
+        "Dulcet Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "197",
+        "Tama Sheep",
+        "3",
+        "Vibrant Fancy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "198",
+        "Tatsu Blaze",
+        "3",
+        "Grim Fancy",
+        "5",
+        "Lofty Figment",
+        "F",
+        null,
+        null
+      ],
+      [
+        "199",
+        "Tatsu Blaze",
+        "3",
+        "Grim Fancy",
+        "3",
+        "Rampant Fancy",
+        "E",
+        null,
+        null
+      ],
+      [
+        "200",
+        "Tatsu Blaze",
+        "3",
+        "Grim Fantasy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "201",
+        "Tatsu Blaze",
+        "3",
+        "Grim Fantasy",
+        "8",
+        "Rampant Fancy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "202",
+        "Tatsu Blaze",
+        "4",
+        "Rampant Fancy",
+        "5",
+        "Dulcet Figment",
+        "C",
+        "40%",
+        null
+      ],
+      [
+        "203",
+        "Tatsu Steed",
+        "3",
+        "Lofty Figment",
+        "3",
+        "Wondrous Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "204",
+        "Tatsu Steed",
+        "3",
+        "Lofty Fancy",
+        "1",
+        "Dulcet Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "205",
+        "Tatsu Steed",
+        "3",
+        "Lofty Fancy",
+        "3",
+        "Wondrous Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "206",
+        "Tatsu Steed",
+        "4",
+        "Rampant Fancy",
+        "5",
+        "Dulcet Figment",
+        "C",
+        "60%",
+        null
+      ],
+      [
+        "207",
+        "Thunderaffe",
+        "5",
+        "Fleeting Fancy",
+        "9",
+        "Noble Figment",
+        "F",
+        null,
+        null
+      ],
+      [
+        "208",
+        "Thunderaffe",
+        "5",
+        "Fleeting Fancy",
+        "7",
+        "Noble Fancy",
+        "E",
+        null,
+        null
+      ],
+      [
+        "209",
+        "Thunderaffe",
+        "2",
+        "Fleeting Fantasy",
+        "3",
+        "Lofty Fancy",
+        "B",
+        "60%",
+        null
+      ],
+      [
+        "210",
+        "Thunderaffe",
+        "2",
+        "Fleeting Fantasy",
+        "1",
+        "Brilliant Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "211",
+        "Thunderaffe",
+        "2",
+        "Fleeting Fantasy",
+        "4",
+        "Noble Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "212",
+        "Toximander",
+        "10",
+        "Troubling Figment",
+        "4",
+        "Wondrous Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "213",
+        "Toximander",
+        "7",
+        "Troubling Figment",
+        "3",
+        "Wondrous Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "214",
+        "Toximander",
+        "5",
+        "Troubling Figment",
+        "6",
+        "Vibrant Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "215",
+        "Toximander",
+        "2",
+        "Troubling Fancy",
+        "4",
+        "Vibrant Fancy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "216",
+        "Toximander",
+        "2",
+        "Troubling Fancy",
+        "1",
+        "Malleable Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "217",
+        "Toximander",
+        "3",
+        "Troubling Fancy",
+        "1",
+        "Rampant Fantasy",
+        "B",
+        "60%",
+        null
+      ],
+      [
+        "218",
+        "Toximander",
+        "5",
+        "Troubling Figment",
+        "4",
+        "Intrepid Figment",
+        "C",
+        "30%",
+        null
+      ],
+      [
+        "219",
+        "Tyranto Rex",
+        "4",
+        "Wild Fantasy",
+        "3",
+        "Prickly Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "220",
+        "Tyranto Rex",
+        "3",
+        "Wild Fantasy",
+        "2",
+        "Savage Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "221",
+        "Tyranto Rex",
+        "1",
+        "Epic Fantasy",
+        "3",
+        "Intrepid Fantasy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "222",
+        "Ursa Circus",
+        "1",
+        "Epic Fantasy",
+        "3",
+        "Intrepid Fantasy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "223",
+        "Ursa Circus",
+        "2",
+        "Epic Fantasy",
+        "1",
+        "Wondrous Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "224",
+        "Wheeflower",
+        "3",
+        "Lofty Figment",
+        "4",
+        "Rampant Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "225",
+        "Wheeflower",
+        "4",
+        "Lofty Figment",
+        "2",
+        "Dulcet Figment",
+        "D",
+        null,
+        null
+      ],
+      [
+        "226",
+        "Wheeflower",
+        "4",
+        "Lofty Figment",
+        "2",
+        "Troubling Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "227",
+        "Wheeflower",
+        "3",
+        "Lofty Fancy",
+        "8",
+        "Rampant Figment",
+        "B",
+        null,
+        null
+      ],
+      [
+        "228",
+        "Wheeflower",
+        "3",
+        "Lofty Fancy",
+        "1",
+        "Charming Fantasy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "229",
+        "Woeflower",
+        "3",
+        "Troubling Fancy",
+        "3",
+        "Lofty Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "230",
+        "Woeflower",
+        "4",
+        "Troubling Fancy",
+        "4",
+        "Wondrous Figment",
+        "C",
+        null,
+        null
+      ],
+      [
+        "231",
+        "Woeflower",
+        "6",
+        "Troubling Fancy",
+        "4",
+        "Wondrous Fancy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "232",
+        "Woeflower",
+        "2",
+        "Troubling Fantasy",
+        "3",
+        "Lofty Fancy",
+        "A",
+        null,
+        null
+      ],
+      [
+        "233",
+        "Woeflower",
+        "1",
+        "Charming Fantasy",
+        "3",
+        "Dulcet Fantasy",
+        "A",
+        "60%",
+        null
+      ],
+      [
+        "234",
+        "Woeflower",
+        "4",
+        "Lofty Figment",
+        "2",
+        "Troubling Fantasy",
+        "B",
+        "40%",
+        null
+      ],
+      [
+        "235",
+        "Yoggy Ram",
+        "6",
+        "Grim Figment",
+        "2",
+        "Rampant Fancy",
+        "C",
+        null,
+        null
+      ],
+      [
+        "236",
+        "Yoggy Ram",
+        "3",
+        "Grim Figment",
+        "2",
+        "Dulcet Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "237",
+        "Yoggy Ram",
+        "5",
+        "Grim Figment",
+        "3",
+        "Dulcet Fancy",
+        "B",
+        "70%",
+        null
+      ],
+      [
+        "238",
+        "Yoggy Ram",
+        "4",
+        "Grim Figment",
+        "2",
+        "Vibrant Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "239",
+        "Yoggy Ram",
+        "3",
+        "Grim Fancy",
+        "1",
+        "Vibrant Fantasy",
+        "B",
+        null,
+        null
+      ],
+      [
+        "240",
+        "Zolephant",
+        "1",
+        "Malleable Fantasy",
+        "4",
+        "Dulcet Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "241",
+        "Zolephant",
+        "1",
+        "Malleable Fantasy",
+        "4",
+        "Intrepid Figment",
+        "E",
+        null,
+        null
+      ],
+      [
+        "242",
+        "Zolephant",
+        "2",
+        "Troubling Fantasy",
+        "4",
+        "Dulcet Fancy",
+        "D",
+        null,
+        null
+      ],
+      [
+        "243",
+        "Zolephant",
+        "2",
+        "Troubling Fantasy",
+        "2",
+        "Dulcet Fantasy",
+        "B",
+        null,
+        null
+      ]
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+name: Validate Ars Arcanum
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches-ignore: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/coppermind/requirements.txt
+
+      - name: Install locked application dependencies
+        run: npm ci
+
+      - name: Install pinned Chroma test dependency
+        run: python -m pip install -r tools/coppermind/requirements.txt
+
+      - name: Validate canonical content
+        run: npm run content:build
+
+      - name: Check the committed Coppermind pack
+        run: npm run coppermind:check
+
+      - name: Run application and pack-verification tests
+        run: |
+          npm test
+          python tests/coppermind_pack_test.py
+          python tests/coppermind_seed_test.py
+
+      - name: Build the production app
+        run: npm run build
+
+      - name: Install Chromium for browser checks
+        run: npx playwright install --with-deps chromium
+
+      - name: Exercise desktop and mobile journal flows
+        # Heavy model download/inference acceptance remains an explicit, separate check.
+        run: npm run test:e2e
+
+      - name: Retain browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-failure-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: ignore
+          retention-days: 7

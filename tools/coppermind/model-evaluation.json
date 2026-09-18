@@ -1,0 +1,33 @@
+{
+  "model": "onnx-community/SmolLM2-135M-Instruct-ONNX",
+  "dtype": "q8",
+  "runtime": "Node ONNX CPU (not iPhone evidence)",
+  "loadMs": 15910,
+  "results": [
+    {
+      "question": "Where is the Moogle shop?",
+      "evidence": "The Moogle shop is above the Accessory Shop in Traverse Town.",
+      "expected": "The Moogle shop is above the Accessory Shop in Traverse Town.",
+      "answer": "The Moogle shop is above the Accessory Shop in Traverse Town.",
+      "exact": true,
+      "ms": 1196
+    },
+    {
+      "question": "How many Gales?",
+      "evidence": "The recipe requires 3 Gales.",
+      "expected": "The recipe requires 3 Gales.",
+      "answer": "The answer to the question \"How many Gales?\" is \"3.\"",
+      "exact": false,
+      "ms": 830
+    },
+    {
+      "question": "Tell me the weather.",
+      "evidence": "The Moogle shop is above the Accessory Shop in Traverse Town.",
+      "expected": "No matching information in this journal.",
+      "answer": "The Moogle shop is above the Accessory Shop in Traverse Town.",
+      "exact": false,
+      "ms": 778
+    }
+  ],
+  "revision": "b8a5c0f183b78c55955a5364f610c36668b5e681"
+}

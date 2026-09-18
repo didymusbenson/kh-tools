@@ -1,0 +1,4543 @@
+{
+  "checkedAt": "2026-09-18",
+  "sourceRows": 535,
+  "counts": {
+    "guide": 31,
+    "trinity": 46,
+    "treasure": 306,
+    "dalmatian": 33,
+    "torn-page": 5,
+    "postcard": 10,
+    "magic": 21,
+    "report": 13,
+    "summon": 6
+  },
+  "trinityColors": {
+    "Blue": 17,
+    "Red": 6,
+    "Green": 9,
+    "Yellow": 4,
+    "White": 10
+  },
+  "unresolved": [],
+  "auditedTreasureManifest": {
+    "Destiny Islands": 4,
+    "Traverse Town": 33,
+    "Wonderland": 23,
+    "Olympus Coliseum": 18,
+    "Deep Jungle": 30,
+    "Agrabah": 34,
+    "Monstro": 16,
+    "Atlantica": 25,
+    "Halloween Town": 16,
+    "Neverland": 21,
+    "100 Acre Wood": 23,
+    "Hollow Bastion": 37,
+    "End of the World": 26
+  },
+  "collectionActionsByWorld": {
+    "Destiny Islands": 4,
+    "Traverse Town": 63,
+    "Wonderland": 33,
+    "Olympus Coliseum": 29,
+    "Deep Jungle": 39,
+    "Agrabah": 49,
+    "Monstro": 27,
+    "Atlantica": 28,
+    "Halloween Town": 25,
+    "Neverland": 32,
+    "100 Acre Wood": 24,
+    "Hollow Bastion": 51,
+    "End of the World": 26
+  },
+  "sourceLedger": [
+    {
+      "sourceRow": "Agrabah/Treasures/0",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-plaza-mega-potion-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/1",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-plaza-mega-ether-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/2",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-plaza-cottage-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/3",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-storage-mega-potion-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/4",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-storage-ap-up-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/5",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-main-street-mega-ether-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/6",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-main-street-dark-matter-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/7",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-main-street-mythril-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/8",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-alley-mega-potion-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/9",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-aladdins-house-megalixir-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/10",
+      "item": "Scissors-G ►",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-aladdins-house-scissors-g-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/11",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-bazaar-thundara-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/12",
+      "item": "Fire Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-agrabah-bazaar-fire-ring-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/13",
+      "item": "Mega-Ether; Munny (small) x25; Munny (medium) x15; Munny (large) x5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-11",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/14",
+      "item": "Protera Chain",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-palace-gates-protera-chain-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/15",
+      "item": "Puppy No. 52, No. 53, and No. 54",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-052-054",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/16",
+      "item": "Osmose-G ►",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-palace-gates-osmose-g-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/17",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-cave-entrance-mega-ether-18",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/18",
+      "item": "Puppy No. 49, No. 50, and No. 51",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-049-051",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/19",
+      "item": "Ifrit Belt",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-cave-entrance-ifrit-belt-20",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/20",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-cave-hall-elixir-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/21",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-cave-hall-mythril-shard-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/22",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-bottomless-hall-mega-potion-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/23",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-bottomless-hall-elixir-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/24",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-bottomless-hall-cottage-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/25",
+      "item": "Thunder Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-relic-chamber-thunder-ring-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/26",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-relic-chamber-mythril-27",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/27",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-dark-chamber-cottage-28",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/28",
+      "item": "Torn Page",
+      "classification": "represented",
+      "entryId": "kh1fm-torn-page-agrabah",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/29",
+      "item": "Protera Chain",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-dark-chamber-protera-chain-30",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/30",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-dark-chamber-meteor-g-31",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/31",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-silent-chamber-thundara-g-32",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/32",
+      "item": "Haste2-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-hidden-room-haste2-g-33",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/33",
+      "item": "Puppy No. 46, No. 47, and No. 48",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-046-048",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/34",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-treasure-room-mythril-shard-35",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/35",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-treasure-room-thundaga-g-36",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/36",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-treasure-room-defense-up-37",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/37",
+      "item": "Puppy No. 37, No. 38, and No. 39",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-037-039",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/38",
+      "item": "Mythril Shard; Munny (small) x18; Munny (medium) x15; Munny (large) x12",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-04",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/0",
+      "item": "Genie; Green Trinity; Three Wishes",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-reward-01-three-wishes",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/1",
+      "item": "Ray of Light",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-agrabah-reward-02-ray-of-light",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/2",
+      "item": "Power of ice",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-blizzard-jafar",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/3",
+      "item": "Power of fire; Ansem's Report 1",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-fire-genie-jafar",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/0",
+      "item": "Green Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/1",
+      "item": "Blue Trinity #11",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/2",
+      "item": "White Trinity #6",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/3",
+      "item": "Yellow Trinity #3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-yellow-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/4",
+      "item": "Blue Trinity #12",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Agrabah/Trinities/5",
+      "item": "Red Trinity #4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/0",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-elixir-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/1",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-cottage-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/2",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-mega-ether-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/3",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-mega-potion-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/4",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-mythril-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/5",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-valley-mythril-shard-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/6",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-cave-cottage-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/7",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-gorge-mega-ether-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/8",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-gorge-mythril-shard-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/9",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-gorge-orichalcum-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/10",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-undersea-garden-mega-potion-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/11",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-tritons-palace-mega-ether-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/12",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-tritons-palace-cottage-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/13",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-tritons-palace-elixir-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/14",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-tritons-palace-mythril-shard-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/15",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-tritons-palace-orichalcum-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/16",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-ariels-grotto-mega-potion-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/17",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-ariels-grotto-cottage-18",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/18",
+      "item": "Torn Page",
+      "classification": "represented",
+      "entryId": "kh1fm-torn-page-atlantica",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/19",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-sunken-ship-elixir-20",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/20",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-sunken-ship-mythril-shard-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/21",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-below-deck-mythril-shard-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/22",
+      "item": "Crystal Trident",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/23",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-below-deck-mythril-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/24",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-cavern-nook-mega-ether-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/25",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-ursulas-lair-mythril-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Rewards/0",
+      "item": "Mermaid Kick",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Atlantica/Rewards/1",
+      "item": "Power of thunder; Ansem's Report 3",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-thunder-giant-ursula",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Atlantica/Rewards/2",
+      "item": "Crabclaw",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-atlantica-reward-03-crabclaw",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Atlantica/Trinities/0",
+      "item": "White Trinity #8",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/0",
+      "item": "Camping Set",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-rabbit-hole-camping-set-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/1",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-rabbit-hole-mega-potion-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/2",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-rabbit-hole-megalixir-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/3",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-rabbit-hole-elixir-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/4",
+      "item": "Stench",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/5",
+      "item": "Claw Marks",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/6",
+      "item": "Potion x2; Mythril Shard; HP Orb (small) x30",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-bizarre-room-potion-x2-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/7",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-bizarre-room-mythril-shard-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/8",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-bizarre-room-mythril-shard-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/9",
+      "item": "Puppy No. 13, No. 14, and No. 15",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-013-015",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/10",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-queens-castle-meteor-g-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/11",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-queens-castle-thundara-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/12",
+      "item": "Footprints",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/13",
+      "item": "Potion; Ether; Tent; MP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-05",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/14",
+      "item": "Puppy No. 16, No. 17, and No. 18",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-016-018",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/15",
+      "item": "Antenna",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/16",
+      "item": "Scan-G ◯",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-lotus-forest-scan-g-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/17",
+      "item": "Camping Set; MP Orb (small) x40; MP Orb (large) x5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-05",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/18",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-lotus-forest-thundara-g-19",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/19",
+      "item": "Puppy No. 58, No. 59, and No. 60",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-058-060",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/20",
+      "item": "Lady Luck",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-lotus-forest-lady-luck-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/21",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-lotus-forest-orichalcum-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/22",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-bizarre-room-sideways-defense-up-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/23",
+      "item": "Potion; HP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-potion-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/24",
+      "item": "Potion; MP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-potion-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/25",
+      "item": "Ether; MP Orb (small) x30; MP Orb (large) x10",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-ether-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/26",
+      "item": "Elixir; HP Orb (small) x10; MP Orb (small) x10; Munny (small) x30",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-elixir-27",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/27",
+      "item": "Potion; Munny (small) x40; Munny (medium) x4",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-potion-28",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/28",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-dark-matter-29",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/29",
+      "item": "Flare-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-flare-g-30",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/30",
+      "item": "Puppy No. 19, No. 20, and No. 21",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-019-021",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/31",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-tea-party-garden-mythril-32",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/0",
+      "item": "Power of ice",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-blizzard-wonderland",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/1",
+      "item": "Ifrit's Horn; Navi-G Piece",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-02-ifrits-horn",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/2",
+      "item": "Camping Set; HP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-03-camping-set",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/3",
+      "item": "Hi-Potion; MP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-04-hi-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/4",
+      "item": "Camping Set; HP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-05-camping-set",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/5",
+      "item": "Mega-Potion; MP Orb (small) x30; MP Orb (large) x10",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-06-mega-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/6",
+      "item": "Mythril Shard; Munny (small) x40; Munny (large) x5",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-07-mythril-shard",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/7",
+      "item": "Hi-Potion; MP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-wonderland-reward-08-hi-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Trinities/0",
+      "item": "Green Trinity #3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Trinities/1",
+      "item": "Green Trinity #4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Trinities/2",
+      "item": "Blue Trinity #5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Trinities/3",
+      "item": "Blue Trinity #6",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Wonderland/Trinities/4",
+      "item": "White Trinity #3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/0",
+      "item": "Scan-G ◯",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-mouth-scan-g-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/1",
+      "item": "High Jump",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-mouth-high-jump-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/2",
+      "item": "Watergleam",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-mouth-watergleam-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/3",
+      "item": "Puppy No. 73, No. 74, and No. 75",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-073-075",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/4",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-mouth-cottage-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/5",
+      "item": "Potion x2; Cottage; Munny (medium) x10",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-13",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/6",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-mouth-mythril-shard-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/7",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-2-cottage-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/8",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-2-megalixir-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/9",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-3-mega-ether-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/10",
+      "item": "Puppy No. 55, No. 56, and No. 57",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-055-057",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/11",
+      "item": "Osmose-G ◄",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-3-osmose-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/12",
+      "item": "Flare-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-3-flare-g-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/13",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-5-mega-ether-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/14",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-5-thundaga-g-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/15",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-5-mythril-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/16",
+      "item": "Puppy No. 79, No. 80, and No. 81",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-079-081",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/17",
+      "item": "Cottage; Munny (small) x18; Munny (medium) x15; Munny (large) x12",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-14",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/18",
+      "item": "Puppy No. 76, No. 77, and No. 78",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-076-078",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/19",
+      "item": "Torn Page",
+      "classification": "represented",
+      "entryId": "kh1fm-torn-page-monstro",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/20",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-6-megalixir-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/21",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-6-mythril-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/22",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-monstro-monstro-chamber-6-dark-matter-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/23",
+      "item": "Mythril Shard; Munny (small) x40; Munny (large) x3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-15",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Rewards/0",
+      "item": "Goofy: Cheer",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Monstro/Rewards/1",
+      "item": "Power of time",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-stop-parasite-cage",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Monstro/Trinities/0",
+      "item": "Blue Trinity #14",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Trinities/1",
+      "item": "Green Trinity #7",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Trinities/2",
+      "item": "Blue Trinity #13",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Trinities/3",
+      "item": "White Trinity #7",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Monstro/Trinities/4",
+      "item": "Blue Trinity #15",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/0",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-wood-meadow-mythril-shard-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/1",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-poohs-room-elixir-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/2",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-poohs-room-mega-ether-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/3",
+      "item": "Potion (8%); Elixir (2%)",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/4",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-mythril-shard-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/5",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-dark-matter-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/6",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-ap-up-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/7",
+      "item": "Shield2-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-shield2-g-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/8",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-mythril-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/9",
+      "item": "Rare Nut",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-rare-nut-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/10",
+      "item": "Rare Nut",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-rare-nut-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/11",
+      "item": "Rare Nut",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-rare-nut-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/12",
+      "item": "Rare Nut",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-rare-nut-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/13",
+      "item": "Rare Nut",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-bouncing-spot-rare-nut-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/0",
+      "item": "Naturespark",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-01-naturespark",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/1",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-02-mythril-shard",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/2",
+      "item": "Power of time",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-stop-pooh-swing",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/3",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-04-mythril",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/4",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-05-mythril",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/5",
+      "item": "Cheer",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/6",
+      "item": "Power Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-07-power-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/7",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-08-defense-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/8",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-09-mythril-shard",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/9",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-10-ap-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/10",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-11-orichalcum",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/11",
+      "item": "EXP Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-100-acre-wood-reward-12-exp-ring",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/0",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-mega-potion-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/1",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-mythril-shard-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/2",
+      "item": "Puppy No. 22, No. 23, and No. 24",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-022-024",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/3",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-mythril-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/4",
+      "item": "Holy-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-holy-g-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/5",
+      "item": "Violetta",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-violetta-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/6",
+      "item": "Shiva Belt",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-shiva-belt-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Treasures/7",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-coliseum-gates-orichalcum-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/0",
+      "item": "Entry Pass",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/1",
+      "item": "Sonic Blade",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/2",
+      "item": "Power of thunder",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-thunder-phil-training",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/3",
+      "item": "Hero's License",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/4",
+      "item": "Yellow Trinity",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/5",
+      "item": "Olympia",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-06-olympia",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/6",
+      "item": "Inferno Band",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-07-inferno-band",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/7",
+      "item": "Power of stars",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-gravity-phil-cup",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/8",
+      "item": "Combo Plus",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/9",
+      "item": "Tech Boost",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/10",
+      "item": "Strike Raid",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/11",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-12-orichalcum",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/12",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-13-dark-matter",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/13",
+      "item": "Metal Chocobo",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-14-metal-chocobo",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/14",
+      "item": "Herc's Shield",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-15-hercs-shield",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/15",
+      "item": "Critical Plus",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/16",
+      "item": "Gravity Break",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/17",
+      "item": "Genji Shield",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-18-genji-shield",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/18",
+      "item": "Power of ice",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-blizzard-hades-behemoth",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/19",
+      "item": "Power of thunder",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-thunder-hades-cerberus",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/20",
+      "item": "Lionheart",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-21-lionheart",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/21",
+      "item": "Power of stars; Ansem's Report 8",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-gravity-hades",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/22",
+      "item": "Trinity Limit",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/23",
+      "item": "Save the Queen",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-24-save-the-queen",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/24",
+      "item": "Save the King",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-25-save-the-king",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/25",
+      "item": "Diamond Dust",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-olympus-coliseum-reward-26-diamond-dust",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/26",
+      "item": "Ansem's Report 12; One-Winged Angel",
+      "classification": "represented",
+      "entryId": "kh1fm-report-12",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Trinities/0",
+      "item": "Blue Trinity #7",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Trinities/1",
+      "item": "Blue Trinity #8",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Trinities/2",
+      "item": "Green Trinity #5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Trinities/3",
+      "item": "White Trinity #4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Trinities/4",
+      "item": "Yellow Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-yellow-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/0",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-mythril-shard-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/1",
+      "item": "Pretty Stone",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-pretty-stone-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/2",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-mega-potion-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/3",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-mythril-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/4",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-elixir-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/5",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-mythril-shard-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/6",
+      "item": "Pretty Stone",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-pretty-stone-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/7",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-cottage-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/8",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-ap-up-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/9",
+      "item": "Gale",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-dimension-gale-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/10",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-giant-crevasse-dark-matter-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/11",
+      "item": "Full-Life-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-giant-crevasse-full-life-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/12",
+      "item": "Ultima-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-giant-crevasse-ultima-g-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/13",
+      "item": "Drill-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-giant-crevasse-drill-g-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/14",
+      "item": "Meteor Strike",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-giant-crevasse-meteor-strike-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/15",
+      "item": "Spirit Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-spirit-gem-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/16",
+      "item": "Thunder Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-thunder-gem-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/17",
+      "item": "Frost Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-frost-gem-18",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/18",
+      "item": "Bright Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-bright-gem-19",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/19",
+      "item": "Blaze Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-blaze-gem-20",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/20",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-ap-up-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/21",
+      "item": "Lucid Gem",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-lucid-gem-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/22",
+      "item": "Mighty Shield",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-mighty-shield-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/23",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-megalixir-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/24",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-world-terminus-elixir-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Treasures/25",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-end-of-the-world-final-rest-megalixir-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "End of the World/Rewards/0",
+      "item": "Superglide",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/0",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/1",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/2",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/3",
+      "item": "Munny (small) x35; Munny (medium) x5; Munny (large) x3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-01",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/4",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-first-district-defense-up-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/5",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/6",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-accessory-shop-mythril-shard-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/7",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-second-district-mega-potion-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/8",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/9",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-second-district-mythril-shard-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/10",
+      "item": "Postcard x2",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/11",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-green-room-elixir-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/12",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-green-room-mythril-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/13",
+      "item": "Pretty Stone",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-red-room-pretty-stone-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/14",
+      "item": "Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-alleyway-potion-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/15",
+      "item": "Pretty Stone",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-alleyway-pretty-stone-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/16",
+      "item": "Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-alleyway-potion-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/17",
+      "item": "Puppy no. 4, no. 5, and no. 6",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-004-006",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/18",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/19",
+      "item": "Camping Set; Munny (small) x40; Munny (medium) x4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-03",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/20",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-mystical-house-ap-up-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/21",
+      "item": "Puppy no. 1, no. 2, and no. 3",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-001-003",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/22",
+      "item": "Mega-Ether; Munny (small) x40; Munny (medium) x2",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-04",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/23",
+      "item": "Puppy no. 10, no. 11, and no. 12",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-010-012",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/24",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-secret-waterway-orichalcum-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/25",
+      "item": "Navi-Gummi",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/26",
+      "item": "Puppy no. 7, no. 8, and no. 9",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-007-009",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/27",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-item-workshop-mythril-shard-28",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/28",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/29",
+      "item": "Wishing Star",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-geppettos-house-wishing-star-30",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/30",
+      "item": "Postcard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/0",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-01-mega-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/1",
+      "item": "Munny x500; Power of fire; Blue Trinity; Dodge Roll",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-fire-guard-armor",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/2",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-03-elixir",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/3",
+      "item": "Comet-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-04-comet-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/4",
+      "item": "Transform-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-05-transform-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/5",
+      "item": "Cottage",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-01",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/6",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-02",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/7",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-03",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/8",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-04",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/9",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-05",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/10",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-06",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/11",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-07",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/12",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-08",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/13",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-09",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/14",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-postcard-mail-10",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/15",
+      "item": "Old Book",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/16",
+      "item": "Power of wind; Navi-G Piece",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-aero-opposite-armor",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/17",
+      "item": "Curaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-18-curaga-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/18",
+      "item": "Firaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-19-firaga-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/19",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-20-thundara-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/20",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-21-mythril-shard",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/21",
+      "item": "Torn Page; Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-torn-page-traverse-town",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/22",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-23-megalixir",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/23",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-24-orichalcum",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/24",
+      "item": "Ultima-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-25-ultima-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/25",
+      "item": "Tech Boost",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/26",
+      "item": "Power of wind; Complete gummi collection",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-aero-all-puppies",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/27",
+      "item": "Brave Warrior",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-28-brave-warrior",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/28",
+      "item": "Warp-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-29-warp-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/29",
+      "item": "Simba",
+      "classification": "represented",
+      "entryId": "kh1fm-summon-simba",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/30",
+      "item": "Dumbo",
+      "classification": "represented",
+      "entryId": "kh1fm-summon-dumbo",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/31",
+      "item": "Bambi",
+      "classification": "represented",
+      "entryId": "kh1fm-summon-bambi",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/32",
+      "item": "Mushu",
+      "classification": "represented",
+      "entryId": "kh1fm-summon-mushu",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/33",
+      "item": "Spellbinder",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-34-spellbinder",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/34",
+      "item": "Dream Shield",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-35-dream-shield",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/35",
+      "item": "Dream Rod",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-36-dream-rod",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/36",
+      "item": "Lord Fortune",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-37-lord-fortune",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/37",
+      "item": "Earthshine",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-38-earthshine",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/38",
+      "item": "Oathkeeper",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-traverse-town-reward-39-oathkeeper",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/39",
+      "item": "Geppetto",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/40",
+      "item": "Cid",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/41",
+      "item": "Cactuar",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/42",
+      "item": "Yuffie",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/43",
+      "item": "Aerith",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/44",
+      "item": "Leon",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/45",
+      "item": "Chocobo",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/46",
+      "item": "Hyperion",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/0",
+      "item": "Blue Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/1",
+      "item": "Blue Trinity #2",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/2",
+      "item": "Red Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/3",
+      "item": "Green Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/4",
+      "item": "Red Trinity #3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/5",
+      "item": "Red Trinity #2",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/6",
+      "item": "Blue Trinity #3",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/7",
+      "item": "Yellow Trinity #2",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-yellow-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/8",
+      "item": "Blue Trinity #4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Traverse Town/Trinities/9",
+      "item": "White Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/0",
+      "item": "Life-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-life-g-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/1",
+      "item": "Puppy No. 91, No. 92, and No.93",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-091-093",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/2",
+      "item": "Blizzara Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-blizzara-ring-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/3",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-megalixir-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/4",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-meteor-g-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/5",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-defense-up-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/6",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-rising-falls-thundaga-g-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/7",
+      "item": "Puppy No. 94, No. 95, and No. 96",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-094-096",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/8",
+      "item": "Haste2-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-castle-gates-haste2-g-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/9",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-castle-gates-orichalcum-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/10",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-base-level-mythril-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/11",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-base-level-thundara-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/12",
+      "item": "Paper-G ◄",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-base-level-paper-g-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/13",
+      "item": "Fira Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-waterway-fira-ring-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/14",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-waterway-dark-matter-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/15",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-waterway-thundaga-g-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/16",
+      "item": "Ultima-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-dungeon-ultima-g-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/17",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-dungeon-thundaga-g-18",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/18",
+      "item": "Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-16",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/19",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-entrance-hall-ap-up-20",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/20",
+      "item": "Emblem Piece",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/21",
+      "item": "Emblem Piece",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/22",
+      "item": "Emblem Piece",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/23",
+      "item": "Emblem Piece",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/24",
+      "item": "Ultima-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-library-ultima-g-25",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/25",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-library-elixir-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/26",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-library-mythril-27",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/27",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-library-mega-potion-28",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/28",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-library-ap-up-29",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/29",
+      "item": "Khama vol. 8",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/30",
+      "item": "Salegg vol. 6",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/31",
+      "item": "Nahara vol. 5",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/32",
+      "item": "Hafet vol. 4",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/33",
+      "item": "Azal vol. 3",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/34",
+      "item": "Theon vol. 6",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/35",
+      "item": "Mava vol. 6",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/36",
+      "item": "Mava vol. 3",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/37",
+      "item": "Mythril; MP prize (small) x20; MP prize (large) x20",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-lift-stop-mythril-38",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/38",
+      "item": "Puppy No. 97, No. 98, and No. 99",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-097-099",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/39",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-lift-stop-orichalcum-40",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/40",
+      "item": "Royal Crown",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-lift-stop-royal-crown-41",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/41",
+      "item": "Osmose-G ►",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-lift-stop-osmose-g-42",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/42",
+      "item": "Ramuh Belt",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-lift-stop-ramuh-belt-43",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/43",
+      "item": "Thundaga-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-great-crest-thundaga-g-44",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/44",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-great-crest-orichalcum-45",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/45",
+      "item": "Megalixir; Cottage x2; MP prize (small) x20; MP prize (large) x20",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-17",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/46",
+      "item": "Thundara Ring",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-high-tower-thundara-ring-47",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/47",
+      "item": "Osmose-G ◄",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-high-tower-osmose-g-48",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/48",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-high-tower-megalixir-49",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/49",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-grand-hall-dark-matter-50",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/50",
+      "item": "Oblivion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-grand-hall-oblivion-51",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/51",
+      "item": "Puppy No. 61, No. 62, and No. 63",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-061-063",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/0",
+      "item": "Wooden Sword",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/1",
+      "item": "White Trinity",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/2",
+      "item": "Divine Rose",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-reward-03-divine-rose",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/3",
+      "item": "Ansem's Report 2; Ansem's Report 4; Ansem's Report 6; Ansem's Report 10",
+      "classification": "represented",
+      "entryId": "kh1fm-report-02",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/4",
+      "item": "Power of healing",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-cure-aerith",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/5",
+      "item": "Donald: Cheer; Ansem's Report 5",
+      "classification": "represented",
+      "entryId": "kh1fm-report-05",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/6",
+      "item": "Power of fire",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-fire-princesses",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/7",
+      "item": "Fireglow",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-reward-08-fireglow",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/8",
+      "item": "Ragnarok",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/9",
+      "item": "Omega Arts",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-hollow-bastion-reward-10-omega-arts",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Trinities/0",
+      "item": "White Trinity #1",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Trinities/1",
+      "item": "Blue Trinity #16",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Trinities/2",
+      "item": "Red Trinity #6",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-06",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Trinities/3",
+      "item": "Green Trinity #9",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Trinities/4",
+      "item": "Blue Trinity #17",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/0",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-tree-house-mega-potion-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/1",
+      "item": "Protect Chain",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-tree-house-protect-chain-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/2",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-tree-house-mythril-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/3",
+      "item": "HP Orb (small) x6; Potion (20%)",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/4",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-jungle-tunnel-mega-ether-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/5",
+      "item": "Mythril Shard; HP Orb (small) x40",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-05",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/6",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-climbing-trees-thundara-g-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/7",
+      "item": "Puppy No. 28, No. 29, and No. 30",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-028-030",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/8",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-vines-mythril-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/9",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-hippos-lagoon-mega-potion-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/10",
+      "item": "Puppy No. 25, No. 26, and No. 27",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-025-027",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/11",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-hippos-lagoon-meteor-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/12",
+      "item": "HP Orb (small) x6; Potion (20%)",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/13",
+      "item": "Puppy No. 34, No. 35, and No. 36",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-034-036",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/14",
+      "item": "Slide 1",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/15",
+      "item": "Slide 2",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/16",
+      "item": "Slide 3",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/17",
+      "item": "Slide 4",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/18",
+      "item": "Slide 5",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/19",
+      "item": "Slide 6",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/20",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-camp-tent-mythril-shard-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/21",
+      "item": "Mega-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-cliff-mega-potion-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/22",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-cliff-mythril-shard-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/23",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-waterfall-cavern-mythril-shard-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/24",
+      "item": "Puppy No. 31, No. 32, and No. 33",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-031-033",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/25",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-waterfall-cavern-mythril-26",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/26",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-waterfall-cavern-orichalcum-27",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/27",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-cavern-of-hearts-orichalcum-28",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/0",
+      "item": "Shell-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-01-shell-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/1",
+      "item": "Aeroga-G ◄",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-02-aeroga-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/2",
+      "item": "Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-04-ether-x2",
+      "reason": "Alternative Ether payout of the same camp experiment; merged with complete-memo reward."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/3",
+      "item": "Ether x2",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-04-ether-x2",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/4",
+      "item": "Hi-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-05-hi-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/5",
+      "item": "Protect-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-06-protect-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/6",
+      "item": "Protect-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-07-protect-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/7",
+      "item": "Jungle King; Red Trinity",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-08-jungle-king",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/8",
+      "item": "Fire-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-09-fire-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/9",
+      "item": "White Fang",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-10-white-fang",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/10",
+      "item": "Aeroga-G ►",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-11-aeroga-g",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/11",
+      "item": "Power of healing",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-cure-clayton",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/12",
+      "item": "Navi-G Piece",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/13",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-14-elixir",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/14",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-15-ap-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/15",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-16-dark-matter",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/16",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-17-defense-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/17",
+      "item": "Power Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-deep-jungle-reward-18-power-up",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Trinities/0",
+      "item": "Green Trinity #6",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Trinities/1",
+      "item": "Blue Trinity #10",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Trinities/2",
+      "item": "Blue Trinity #9",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-blue-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Deep Jungle/Trinities/3",
+      "item": "White Trinity #5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/0",
+      "item": "Puppy No. 82, No. 83, and No. 84",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-082-084",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/1",
+      "item": "Paper-G ►",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-ship-hold-paper-g-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/2",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-ship-hold-dark-matter-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/3",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-ship-hold-orichalcum-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/4",
+      "item": "Puppy No. 85, No. 86, and No. 87",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-085-087",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/5",
+      "item": "Power of wind",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-aero-hold-chest",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/6",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-ship-galley-meteor-g-07",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/7",
+      "item": "Protera Chain",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-ship-cabin-protera-chain-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/8",
+      "item": "Puppy No. 88, No. 89, and No. 90",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-088-090",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/9",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-pirate-ship-orichalcum-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/10",
+      "item": "Puppy No. 43, No. 44, and No. 45",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-043-045",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/11",
+      "item": "Flare-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-flare-g-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/12",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-orichalcum-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/13",
+      "item": "Power Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-power-up-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/14",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-mythril-shard-15",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/15",
+      "item": "Power Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-power-up-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/16",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-ap-up-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/17",
+      "item": "Mythril",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-mythril-18",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/18",
+      "item": "AP Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-ap-up-19",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/19",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-defense-up-20",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/20",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-orichalcum-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/21",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-defense-up-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/22",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-mythril-shard-23",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Treasures/23",
+      "item": "Megalixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-clock-tower-megalixir-24",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/0",
+      "item": "Raven's Claw",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-reward-01-ravens-claw",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/1",
+      "item": "Power of healing",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-cure-peter-pan",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/2",
+      "item": "Ars Arcanum; Ansem's Report 9",
+      "classification": "represented",
+      "entryId": "kh1fm-report-09",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/3",
+      "item": "Navi-G Piece; Tinker Bell; Fairy Harp; Glide",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-neverland-reward-04-fairy-harp",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/4",
+      "item": "Power of time",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-stop-phantom",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Trinities/0",
+      "item": "Yellow Trinity #4",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-yellow-04",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Trinities/1",
+      "item": "Green Trinity #8",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-green-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Neverland/Trinities/2",
+      "item": "White Trinity #10",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/0",
+      "item": "Thundara-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-guillotine-square-thundara-g-01",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/1",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-guillotine-square-elixir-02",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/2",
+      "item": "Power Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-guillotine-square-power-up-03",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/3",
+      "item": "Puppy No. 70, No. 71, and No. 72",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-070-072",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/4",
+      "item": "Elixir",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-guillotine-square-elixir-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/5",
+      "item": "Torn Page",
+      "classification": "represented",
+      "entryId": "kh1fm-torn-page-halloween-town",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/6",
+      "item": "Jack-in-the-Box",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/7",
+      "item": "Puppy No. 67, No. 68, and No. 69",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-067-069",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/8",
+      "item": "Flare-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-bridge-flare-g-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/9",
+      "item": "Meteor-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-bridge-meteor-g-10",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/10",
+      "item": "Defense Up",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-bridge-defense-up-11",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/11",
+      "item": "Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-ether-12",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/12",
+      "item": "Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-ether-13",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/13",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-mythril-shard-14",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/14",
+      "item": "Puppy No. 40, No. 41, and No. 42",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-040-042",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/15",
+      "item": "Orichalcum",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-orichalcum-16",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/16",
+      "item": "Mega-Ether",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-mega-ether-17",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/17",
+      "item": "Mythril Shard",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-oogies-manor-manor-ruins-mythril-shard-14",
+      "reason": "Rejected duplicate: independent Final Mix location manifest and modern route account for all six manor chests; the shard is represented by the Red Trinity chest."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/18",
+      "item": "Scissors-G ◄",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-cemetery-scissors-g-19",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/19",
+      "item": "Puppy No. 64, No. 65, and No. 66",
+      "classification": "represented",
+      "entryId": "kh1fm-dalmatian-064-066",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/20",
+      "item": "Dark Matter",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-cemetery-dark-matter-21",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/21",
+      "item": "Holy-G",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-cemetery-holy-g-22",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/0",
+      "item": "Forget-Me-Not",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/1",
+      "item": "Holy Circlet; Ansem's Report 7",
+      "classification": "represented",
+      "entryId": "kh1fm-report-07",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/2",
+      "item": "Power of stars",
+      "classification": "represented",
+      "entryId": "kh1fm-magic-gravity-oogie-manor",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/3",
+      "item": "Pumpkinhead",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-halloween-town-reward-04-pumpkinhead",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Trinities/0",
+      "item": "Red Trinity #5",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-red-05",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Halloween Town/Trinities/1",
+      "item": "White Trinity #9",
+      "classification": "represented",
+      "entryId": "kh1fm-trinity-white-08",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/0",
+      "item": "Rope",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/1",
+      "item": "Cloth",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/2",
+      "item": "Log",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/3",
+      "item": "Log",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/4",
+      "item": "Seagull Egg",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/5",
+      "item": "Fish x3",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/6",
+      "item": "Drinking Water",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/7",
+      "item": "Mushroom",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/8",
+      "item": "Protect Chain",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-cove-protect-chain-09",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/9",
+      "item": "Drinking Water",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/10",
+      "item": "Mushroom",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/11",
+      "item": "Mushroom",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/12",
+      "item": "Coconut x2",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/0",
+      "item": "Potion",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/1",
+      "item": "Potion",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/2",
+      "item": "Hi-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-reward-03-hi-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/3",
+      "item": "Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-reward-03-hi-potion",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/4",
+      "item": "Kingdom Key",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-reward-05-kingdom-key",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/5",
+      "item": "Pretty Stone",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/6",
+      "item": "Empty Bottle",
+      "classification": "excluded",
+      "entryId": null,
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/7",
+      "item": "Hi-Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-reward-08-hi-potion",
+      "reason": "Canonical acquisition or useful reference record."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/8",
+      "item": "Potion",
+      "classification": "represented",
+      "entryId": "kh1fm-treasure-destiny-islands-reward-08-hi-potion",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    }
+  ],
+  "independentChestReconciliation": [
+    {
+      "world": "Destiny Islands",
+      "wikiComparableChestRows": 1,
+      "independentChestLocations": 1,
+      "wikiRowsOutsideComparison": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "world": "Traverse Town",
+      "wikiComparableChestRows": 21,
+      "independentChestLocations": 21,
+      "wikiRowsOutsideComparison": [
+        1,
+        3,
+        5,
+        10,
+        18,
+        19,
+        22,
+        25,
+        28,
+        30
+      ]
+    },
+    {
+      "world": "Wonderland",
+      "wikiComparableChestRows": 19,
+      "independentChestLocations": 19,
+      "wikiRowsOutsideComparison": [
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        15,
+        17,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "world": "Olympus Coliseum",
+      "wikiComparableChestRows": 6,
+      "independentChestLocations": 6,
+      "wikiRowsOutsideComparison": [
+        3,
+        7
+      ]
+    },
+    {
+      "world": "Deep Jungle",
+      "wikiComparableChestRows": 19,
+      "independentChestLocations": 19,
+      "wikiRowsOutsideComparison": [
+        3,
+        5,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "world": "Agrabah",
+      "wikiComparableChestRows": 37,
+      "independentChestLocations": 37,
+      "wikiRowsOutsideComparison": [
+        13,
+        38
+      ]
+    },
+    {
+      "world": "Monstro",
+      "wikiComparableChestRows": 21,
+      "independentChestLocations": 21,
+      "wikiRowsOutsideComparison": [
+        5,
+        17,
+        23
+      ]
+    },
+    {
+      "world": "Atlantica",
+      "wikiComparableChestRows": 0,
+      "independentChestLocations": 0,
+      "wikiRowsOutsideComparison": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "world": "Halloween Town",
+      "wikiComparableChestRows": 19,
+      "independentChestLocations": 19,
+      "wikiRowsOutsideComparison": [
+        1,
+        5,
+        17
+      ]
+    },
+    {
+      "world": "Neverland",
+      "wikiComparableChestRows": 11,
+      "independentChestLocations": 11,
+      "wikiRowsOutsideComparison": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        6
+      ]
+    },
+    {
+      "world": "100 Acre Wood",
+      "wikiComparableChestRows": 4,
+      "independentChestLocations": 4,
+      "wikiRowsOutsideComparison": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "world": "Hollow Bastion",
+      "wikiComparableChestRows": 33,
+      "independentChestLocations": 33,
+      "wikiRowsOutsideComparison": [
+        18,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        45
+      ]
+    },
+    {
+      "world": "End of the World",
+      "wikiComparableChestRows": 25,
+      "independentChestLocations": 25,
+      "wikiRowsOutsideComparison": [
+        20
+      ]
+    }
+  ],
+  "excludedOrMerged": [
+    {
+      "sourceRow": "Destiny Islands/Treasures/0",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/1",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/2",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/3",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/4",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/5",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/6",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/7",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/9",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/10",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/11",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Destiny Islands/Treasures/12",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/3",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/19",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/22",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Traverse Town/Treasures/25",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/4",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/5",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/12",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/13",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/15",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Wonderland/Treasures/17",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/3",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/5",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/12",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/14",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/15",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/16",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/17",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/18",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Deep Jungle/Treasures/19",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/13",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Agrabah/Treasures/38",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/5",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/17",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Monstro/Treasures/23",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Atlantica/Treasures/22",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/6",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Treasures/3",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/18",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/20",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/21",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/22",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/23",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/29",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/30",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/31",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/32",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/33",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/34",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/35",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/36",
+      "reason": "Temporary story object or repeatable source; explained in world guidance/reference."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Treasures/45",
+      "reason": "Immediate Trinity reward bundle; represented by its mark."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/0",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/3",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/5",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/6",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Destiny Islands/Rewards/8",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/5",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/6",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/7",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/8",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/9",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/10",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/11",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/12",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/13",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/14",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/15",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/16",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/21",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/25",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/26",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/29",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/30",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/31",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/32",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/39",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/40",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/41",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/42",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/43",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/44",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/45",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Traverse Town/Rewards/46",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Wonderland/Rewards/0",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/1",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/2",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/3",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/4",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/7",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/8",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/9",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/10",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/15",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/16",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/18",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/19",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/21",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/22",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Olympus Coliseum/Rewards/26",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/2",
+      "reason": "Alternative Ether payout of the same camp experiment; merged with complete-memo reward."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/11",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Deep Jungle/Rewards/12",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/2",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Agrabah/Rewards/3",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Monstro/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Monstro/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Atlantica/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Atlantica/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Halloween Town/Rewards/2",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/1",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/2",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Neverland/Rewards/4",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/2",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "100 Acre Wood/Rewards/5",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/1",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/3",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/4",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/5",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/6",
+      "reason": "Canonical magic/report/page/mail record, alternate payout of same event, or repeatable reward."
+    },
+    {
+      "sourceRow": "Hollow Bastion/Rewards/8",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "End of the World/Rewards/0",
+      "reason": "Ability/unlock, temporary story item, summon conversion or blueprint catalog; no extra treasure check."
+    },
+    {
+      "sourceRow": "Halloween Town/Treasures/17",
+      "reason": "Rejected duplicate: independent Final Mix location manifest and modern route account for all six manor chests; the shard is represented by the Red Trinity chest.",
+      "evidence": [
+        "https://github.com/ArchipelagoMW/Archipelago/blob/1322ce866eddb1ccf0ca042db93ceef8789d6029/worlds/kh1/Locations.py",
+        "https://www.gamerguides.com/kingdom-hearts-hd-15-remix/guide/kingdom-hearts-final-mix/walkthrough/halloween-town",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/14"
+      ]
+    }
+  ]
+}

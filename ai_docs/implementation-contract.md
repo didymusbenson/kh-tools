@@ -1,0 +1,9 @@
+# KH1FM implementation coordination
+
+Latest user direction: desktop Chrome and iPhone 17 initial targets. Jiminy conversation stays in memory only and never persists across reload/restart. Checklist and stock persistence remain required. Each game's Coppermind requires its own ChromaDB PersistentClient database directory/instance, not merely a collection in a shared database. Seed KH1FM only after app wiring is complete. Browser runtime must remain offline: export the game instance's documents, metadata and matching embeddings as a browser retrieval pack; no Chroma server dependency on the phone.
+
+Shared types live in `src/domain/types.ts`. Data contributors write JSON arrays to `data/kh1fm/collectibles.json` and `data/kh1fm/reference.json`; crafting contributor also writes `data/kh1fm/recipes.json`. Coverage arrays use corresponding `*-coverage.json`. Root integration builds `public/data/kh1fm.json` from these arrays. Avoid modifying shared types without coordinating.
+
+Data Jiminy source entries and UI rows use the same IDs. Entry routes use `#/kh1fm/entry/<id>`. Source-backed is not hands-on verified. Preserve explicit uncertainty; do not seed planning TODOs as game facts. Category names: treasure, dalmatian, trinity, postcard, torn-page, report, magic, summon, recipe, material, weapon, accessory, enemy, ability, cup, boss, minigame, gummi, achievement, guide.
+
+Implementation boundaries: UI consumes canonical content and shared domain calculations. Player state owns persistent progress; Jiminy owns temporary conversations and local retrieval. Content importers own factual normalization and provenance. A separate reviewer checks responsive layout and interactions before the final integration pass. See implementation reports for executed checks and outstanding device acceptance.

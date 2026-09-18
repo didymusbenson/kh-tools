@@ -1,0 +1,140 @@
+.entry-media {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.6rem 0;
+  max-width: 100%;
+}
+.entry-media figure {
+  margin: 0;
+  min-width: 0;
+}
+.media-open {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid #9aab83;
+  border-radius: 8px;
+  background: #e8ebd8;
+  overflow: hidden;
+  cursor: zoom-in;
+  text-align: left;
+  color: #223d2b;
+}
+.media-frame {
+  position: relative;
+  display: block;
+}
+.media-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.media-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  background: #354d31;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 5px #0008;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  font: bold 13px sans-serif;
+}
+.entry-media figcaption,
+.media-viewer-caption {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #374832;
+  padding: 0.6rem 0;
+}
+.media-context {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  color: #536048;
+  overflow-wrap: anywhere;
+}
+.media-annotation-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+.media-unavailable {
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.media-dialog {
+  width: min(960px, calc(100vw - 24px));
+  max-width: calc(100vw - 24px);
+  max-height: calc(100dvh - 24px);
+  padding: 16px;
+  border: 1px solid #5b704a;
+  border-radius: 12px;
+  background: #f3f3e5;
+  color: #263824;
+  overflow: auto;
+}
+.media-dialog::backdrop {
+  background: rgb(10 22 17 / 0.8);
+}
+.media-viewer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.media-viewer-controls button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.media-viewer-controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+.media-viewer-controls input {
+  min-height: 44px;
+  width: 100px;
+}
+.media-viewer-controls output {
+  min-width: 38px;
+  text-align: right;
+}
+.media-pan {
+  overflow: auto;
+  max-height: 65dvh;
+  background: #e6e8d7;
+  overscroll-behavior: contain;
+}
+.media-pan > div {
+  min-width: 100%;
+}
+.media-pan:focus-visible,
+.media-open:focus-visible,
+.media-viewer-controls input:focus-visible {
+  outline: 3px solid #845591;
+  outline-offset: 3px;
+}
+@media (max-width: 480px) {
+  .media-dialog {
+    padding: 12px;
+  }
+  .media-pan {
+    max-height: 58dvh;
+  }
+  .media-viewer-controls label {
+    flex: 1;
+    justify-content: flex-end;
+  }
+}

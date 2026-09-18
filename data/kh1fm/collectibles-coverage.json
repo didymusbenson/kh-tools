@@ -1,0 +1,74 @@
+[
+  {
+    "category": "dalmatian",
+    "label": "Dalmatians (33 chests / 99 puppies)",
+    "expected": 33,
+    "actual": 33,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. One check per three-puppy chest."
+  },
+  {
+    "category": "trinity",
+    "label": "Trinity Marks",
+    "expected": 46,
+    "actual": 46,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "postcard",
+    "label": "Postcards",
+    "expected": 10,
+    "actual": 10,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "torn-page",
+    "label": "Torn Pages",
+    "expected": 5,
+    "actual": 5,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "report",
+    "label": "Ansem Reports",
+    "expected": 13,
+    "actual": 13,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "magic",
+    "label": "Magic acquisitions",
+    "expected": 21,
+    "actual": 21,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "summon",
+    "label": "Summons",
+    "expected": 6,
+    "actual": 6,
+    "complete": true,
+    "notes": "Source-backed Final Mix inventory; no hands-on claim. Acquisition records are distinct from reward turn-ins and references."
+  },
+  {
+    "category": "treasure",
+    "label": "Treasures and one-time world rewards",
+    "expected": 306,
+    "actual": 306,
+    "complete": true,
+    "notes": "Complete declared inventory across 13 worlds, reconciled against all 535 source-table rows and independent Final Mix physical-location data. This 306-record compendium is not an official in-game treasure counter. Specialist collections, temporary story objects and repeatable sources are excluded; simultaneous automatic rewards share acquisition IDs."
+  },
+  {
+    "category": "guide",
+    "label": "World collection routes and turn-in guidance",
+    "expected": null,
+    "actual": 31,
+    "complete": true,
+    "notes": "13 world routes, Library puzzle, Trinity unlocks, six repeatable flower references and ten separately checkable postcard mailings. These do not contribute to world collectible counts."
+  }
+]
