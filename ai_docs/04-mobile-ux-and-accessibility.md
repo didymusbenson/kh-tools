@@ -102,3 +102,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 ## Accepted collection and synthesis controls
 
 No Available Now filter or story/ability milestone tracker. Keep acquisition conditions readable in detail rows. Optional inventory displays ingredient owned/required (x/y) values with accessible labels; recipe reference remains usable with it off. Follow [synthesis/inventory](./content/synthesis-and-inventory.md) and the [Apple-first app acceptance plan](./testing-and-content-validation.md).
+
+## Bottom-right Data Jiminy launcher
+
+Within a game, keep Jiminy anchored bottom right with a visible “…” bubble button opening that game's interface. Supply a generous touch target, accessible game-specific name and focus indicator. Avoid covering checklist rows, synthesis inputs, navigation and safe areas; adjust for the virtual keyboard and orientation. Closing restores focus and journal position. Hide the unscoped launcher on game selection. The open panel labels the current game; game switching replaces the session/context while reusing one shared model. Validate the [Data Jiminy acceptance cases](./data-jiminy.md#session-and-launcher-acceptance).
