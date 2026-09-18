@@ -194,3 +194,9 @@ Inspected [original home](https://didymusbenson.github.io/kh-tools/) and [KHFM](
 The original KHFM interior uses a dark pause-menu-inspired shell, category buttons, and hash-addressed table overlays with a close control, scrollable rows and contextual notes beneath. Explored Synthesis Sets (set/product/ingredients), Synthesis Items (material/total/source/world/strategy), Dalmatians (group/ability/world/location and reward notes) and Trinities (color/world/location/prize and unlock notes).
 
 Retain the direct-reference intent and useful relationship between recipes, material sources and practical directions. The separate legacy recipe/material overlays suggest a stronger linked synthesis workspace in Ars Arcanum. These are interaction lessons, not a requirement to preserve modal tables, dark pause-menu colors or fixed-width desktop layout. New game interiors use the accepted per-game journal themes and persistent checklists. Legacy displayed quantities remain unverified source evidence.
+
+## Data Jiminy placement — accepted
+
+Inside every selected game, anchor Jiminy at the bottom right with a small visible “…” chat bubble that opens the game-scoped Data Jiminy interface. Preserve this location across green journals, blue Reports and KH3's digital treatment. The main game-selection screen has no unscoped Jiminy launcher.
+
+The interface clearly labels its game and keeps the same concise factual behavior. One shared model serves separate game sessions. Adapt panel/sheet layout to phone, tablet and desktop, with safe-area/keyboard spacing and no obscured checklist or synthesis controls. See [Data Jiminy](../data-jiminy.md) for behavior, accessibility and disclaimer requirements.
