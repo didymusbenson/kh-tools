@@ -33,6 +33,8 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 ## Detailed specifications
 
 - [Data Jiminy: offline AI assistant and disclaimer](./data-jiminy.md)
+- [First-class synthesis and optional inventory](./content/synthesis-and-inventory.md)
+- [App testing and content validation](./testing-and-content-validation.md)
 
 - [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
