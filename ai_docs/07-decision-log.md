@@ -44,7 +44,7 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Status:** Accepted
 - **Date:** 2026-09-18
 - **Problem:** The original project directly mimicked KH1 home and pause menus, but the expanded cross-game guide needs a cohesive identity that supports dense reference material.
-- **Decision:** Retain the fly-in home-menu concept for game selection, then present game content as Ars Arcanum's interpretation of Jiminy's Journal rather than recreating in-game pause menus.
+- **Decision:** Retain the anchored home-menu game list and fly-in game-specific artwork, then present game content as Ars Arcanum's interpretation of Jiminy's Journal rather than recreating in-game pause menus.
 - **Rationale:** A journal naturally accommodates entries, indexes, checklists, cross-references, sources, and completion tracking while allowing per-game visual variation.
 - **Alternatives considered:** Continue mimicking KH1 menus; recreate each game's own pause menu; use a neutral documentation UI.
 - **Consequences:** The design system needs a shared journal shell, per-game theme tokens, accessible motion alternatives, and purpose-built layouts for dense tools. It must avoid becoming a literal book simulation that obstructs navigation.
@@ -77,7 +77,7 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Status:** Accepted
 - **Date:** 2026-09-18
 - **Problem:** A single physical-book skin would miss the distinct journal identities shown in the user's references.
-- **Decision:** KH1–2 use green journal theming; BBS uses blue Reports theming; KH3 uses a dark, menu-like digital journal. Preserve fly-in game selection and shared navigation semantics.
+- **Decision:** KH1–2 use green journal theming; BBS uses blue Reports theming; KH3 uses a dark, menu-like digital journal. Preserve the anchored game menu with fly-in artwork and shared navigation semantics.
 - **Rationale:** The user selected these directions from supplied journal screenshots.
 - **Alternatives considered:** Earlier speculative game palettes; one literal book treatment for all games.
 - **Consequences:** Theme support must cover layout variants as well as color tokens. DDD and a distinct 0.2 treatment await further inspiration. Reference images are not production screenshot assets; text-first MVP remains unchanged.
@@ -175,3 +175,12 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Rationale:** The user identifies synthesis as the least enjoyable part of collection and wants strong functional support.
 - **Consequences:** Prioritize recipe/source navigation, persistent optional stock, deterministic calculations and independent acceptance fixtures. Keep crafted history separate from current stock and avoid double-allocating inventory. Propagate applicable lessons to KH2/KH3 synthesis, BBS melding and DDD creation without inventing crafting in 0.2. See [shared contract](./content/synthesis-and-inventory.md).
 - **Supersedes:** Unresolved KH1 inventory question; strengthens existing crafting MVP priority.
+
+## DEC-016: Main-menu artwork flies in; game choices stay anchored
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** Preserve the original main menu's anchored game list and large game-specific artwork transitions. Highlighted-game artwork flies in/out; the games themselves are not flying cards. The journal UI begins inside the selected game.
+- **Rationale:** Explicit user correction, corroborated by browser exploration of the original site.
+- **Consequences:** Adapt list/artwork composition to phones/tablets, support keyboard/touch and reduced motion, and keep direct game access independent of art loading. Preserve the original KHFM tool's direct-reference intent while replacing its pause-menu interior with journal views.
+- **Supersedes:** The design document's incorrect “Game choices fly into view” statement and ambiguous fly-in-selector wording. Refines DEC-003/006.
