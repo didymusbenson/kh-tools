@@ -2,7 +2,7 @@
 
 ## Design direction
 
-Ars Arcanum uses a Jiminy's Journal metaphor inside each game while retaining the original project's fly-in game-selection concept.
+Ars Arcanum uses a Jiminy's Journal metaphor inside each game while retaining the original project's anchored game-selection menu with fly-in artwork.
 
 See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md).
 
@@ -18,10 +18,10 @@ See [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md
 - Direct links open content immediately without forcing an intro sequence.
 - Entries remain complete and well-composed when they contain no screenshots.
 
-## Fly-in game selector
+## Anchored game selector and artwork transitions
 
-- Preserve the recognizable fly-in interaction.
-- Support swipe, tap, keyboard, and accessible list navigation.
+- Preserve the recognizable fly-in artwork interaction. Keep game choices anchored and readable; animate the selected game's illustration.
+- Support tap, keyboard focus and accessible list navigation without requiring hover or swipe. Keyboard focus previews corresponding artwork; touch selection/entry treatment should be evaluated in the design.
 - Provide a reduced-motion variant using fades or immediate positioning.
 - Keep game labels readable before selection.
 - Avoid carousel traps and hidden offscreen options.
@@ -60,7 +60,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Allow persistent contents/index navigation where space permits.
 - Tools may use split views for inputs and results.
 - Media and text may use a coordinated split layout.
-- Game selection can become more spatial while preserving a list-equivalent navigation model.
+- Use the larger screen for a prominent artwork stage beside the anchored game list; do not turn game choices into flying cards.
 
 ## Accessibility baseline
 
