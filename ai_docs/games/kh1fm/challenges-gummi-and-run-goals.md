@@ -31,7 +31,7 @@ Unknown's exact earliest portal-spawn flag remains a targeted verification item;
 
 For Sephiroth, Heartless Angel reduces HP to 1 and MP to 0; interrupt it before it lands or recover immediately with an item. Leaf Bracer, Second Chance and MP recovery help. Final Mix Sonic Blade does not retain invulnerability throughout all follow-up thrusts, so older advice about that tactic needs correction. [KH1 battle mechanics](https://www.khwiki.com/Game:Sephiroth)
 
-“Optional boss” is broader than these five endgame encounters: retain Destiny Islands sparring, Coliseum story/round opponents, and world bosses in the encounter catalog with their own required/optional status. Do not confuse an endgame checklist with a complete enemy/Journal inventory.
+“Optional boss” is broader than these five endgame encounters: retain Destiny Islands sparring and other acquisition/challenge-relevant encounters with their reward, access and required/optional status. Story opponents may be linked as acquisition prerequisites; an exhaustive narrative Journal manifest and sequential story walkthrough are not required. Encounter clears are separate from world collectible counts unless a distinct actual acquisition record belongs to that collection.
 
 ## Minigames and reward interactions
 
