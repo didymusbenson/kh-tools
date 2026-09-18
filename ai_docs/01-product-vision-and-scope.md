@@ -16,7 +16,7 @@ All user-requested features and specified games are MVP scope unless the user ex
 
 ## Experience promise
 
-- Select a game through the retained fly-in home-menu interaction.
+- Select a game from the retained anchored home menu while its artwork flies into the adjacent illustration stage.
 - Enter a game-specific volume or section of the journal.
 - Find the direct answer first, with deeper explanation and relationships available.
 - Track collectibles using familiar game terminology, compact world lists and expanded location details backed by the same saved checks.
@@ -62,7 +62,7 @@ Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-F
 
 - Responsive, installable React PWA
 - Offline core reference content
-- Fly-in game selection
+- Anchored game selection with animated game-specific artwork
 - Jiminy's Journal-inspired information experience
 - Distinct per-game visual themes within shared navigation
 - Search, filtering, cross-linking, checklists, and progress
