@@ -18,7 +18,7 @@ Accepted refinement (2026-09-18): follow the [collectible compendium and linked-
 - Show completed/total collectible counts by category and world with an explicit counting unit and membership. Narrative progression, conversations and character biography updates do not count. Keep crafting, challenges, records and achievements in named separate goal tracks.
 - Remember the last game, section, and relevant filters; offer a clear Resume action.
 - Allow undo for recent changes. Never reset progress during a content update.
-- Keep completion separate from selected, focused, new, unavailable, or spoiler-hidden state.
+- Keep completion separate from selected, focused and new state. No spoiler-hidden state or player progress-gate tracking is required.
 - Checking an item is a manual player record; do not imply automatic reading of game saves.
 
 ## Progress scope
@@ -106,4 +106,8 @@ Cloud accounts, background sync, conflict resolution across devices, and automat
 
 The compact journal index groups collectible slots by world; opening a world expands those same records into precise location/acquisition rows. Use verified in-game ordering where available and label app-defined ordering where the game has no corresponding inventory. Group summaries are derived, not independently saved checkmarks. Filters change visible rows, not the underlying collection denominator. A checked chest appearing in several categories must not be counted several times in one world total.
 
-Acceptance: toggle in the compact index and verify the expanded row and count; toggle back in details and verify the index, search and saved offline state. Reorder content and retain the same checks by ID. Record an access milestone or character-story update and verify world collectible progress does not change. See the shared contract for grouped rewards, explicit scopes and remaining cases.
+Acceptance: toggle in the compact index and verify the expanded row and count; toggle back in details and verify the index, search and saved offline state. Reorder content and retain the same checks by ID. Verify that acquisition prerequisite text and character-story context do not affect world collectible progress; no milestone tracker is presented. See the shared contract for grouped rewards, explicit scopes and remaining cases.
+
+## Optional inventory persistence
+
+The [synthesis contract](synthesis-and-inventory.md) adds optional inventory as MVP. Save manually entered quantities separately from historical crafted checks. Preserve quantities when inventory display is disabled; include them in export/import and content/progress migration validation. This is a shared first-class feature where the game actually has crafting.
