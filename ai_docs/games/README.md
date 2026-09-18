@@ -56,3 +56,7 @@ The content model and layouts must support location screenshots, maps, and annot
 See [Screenshot, Map, and Visual Location Support](../content/screenshot-and-map-support.md).
 
 A source being present in the legacy material does not make it correct or complete.
+
+## Mandatory persistent checklist behavior
+
+Every game inherits [Persistent Checklists and Player Progress](../content/persistent-checklists-and-progress.md). Each specification must map its completion items to stable IDs, define counting rules, identify character/edition-specific versus shared state, and support saved checks, Remaining filters, counts, and resuming the last section. This is required for MVP. 0.2 has independent progress even though it sits within the BBS family.
