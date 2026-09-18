@@ -49,7 +49,7 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - Core reference material should remain usable offline after initial installation.
 - Content should be structured data where practical, rather than embedded in presentation markup.
 - Search and quick answers are first-class experiences.
-- The fly-in game selector is retained from the original project.
+- The original anchored game menu is retained, with fly-in game artwork beside it; game choices do not fly in.
 - Game interiors use a Jiminy's Journal metaphor rather than recreating pause menus.
 - Each game has a distinct completion model and visual theme within a shared journal system.
 - Shared UI and data primitives should not erase game-specific terminology or workflows.
