@@ -58,7 +58,9 @@ The workbook also contains source reminders, including a synthesis guide and KH 
 
 Each collectible needs world, area, precise instructions, prerequisite abilities or story flags, reward, earliest availability, missability status, and verification source.
 
-### Synthesis
+### Synthesis — first-class feature
+
+Follow the [shared synthesis and inventory contract](../content/synthesis-and-inventory.md). Optional opt-in material inventory adds owned/required (x/y) ingredient reminders and remaining-material calculations. Recipe reference remains complete with inventory off. Validate shared-stock allocation, craftable-material dependencies, historical crafted state and accurate farming shortfalls; no automatic stock deduction from a historical check.
 
 - Every recipe and recipe-unlock condition
 - Ingredients and quantities
@@ -126,7 +128,7 @@ Use HD 1.5 + 2.5 ReMIX rules; maintain platform-specific IDs and conditions. Mod
 
 ## Primary user experiences
 
-- “What can I complete in this world right now?”
+- “Which collectibles am I missing in this world, and where are they?”
 - “Where are the Dalmatians I am missing?”
 - “What does this Trinity give me, and can I reach it yet?”
 - “What materials remain for every synthesis item?”
@@ -160,3 +162,9 @@ See [shared design direction](../ui/jiminys-journal-design-direction.md) for ref
 ## Release acceptance criteria
 
 This game is not comprehensive until every scoped collection and completion-goal category has a verified inventory, every relevant record has acquisition/location guidance, dependencies resolve, and a player can find and track the missing items without another reference guide. Verify that compact and expanded checks persist as one state and narrative updates never inflate collectible percentages. Full story walkthrough and biography-update coverage are not release gates.
+
+## Accepted presentation and testing decisions
+
+Fully spoilerful: no warnings, hiding or reveal controls. No Available Now filter or manual story/ability progress-gate tracker. Item directions still state necessary abilities/access conditions such as High Jump.
+
+User game context is Steam. Test app functionality first on Apple browser, iPhone and iPad; Android follows. No user gameplay or playthrough verification gate. Follow [testing and content validation](../testing-and-content-validation.md); source conflicts remain research work.
