@@ -26,6 +26,7 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 - [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
+- [Screenshot, map, and visual location support](./content/screenshot-and-map-support.md)
 - [KHTABLES Drive source audit](./sources/khtables-drive-audit.md)
 
 ## Working principles
