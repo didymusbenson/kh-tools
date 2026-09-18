@@ -24,7 +24,7 @@ Every game specification should eventually define:
 - User questions and workflows
 - Checklist and progress-tracking requirements
 - Search, filtering, sorting, and cross-linking requirements
-- Spoiler handling
+- Fully spoilerful presentation with no warnings or concealment
 - Offline content requirements
 - Source provenance and verification status
 - Screenshot and map opportunities
@@ -47,7 +47,7 @@ Every factual record should support:
 - Optional media references
 - Source provenance
 - Verification status
-- Optional spoiler classification
+- No spoiler classification requirement
 
 ## Screenshot and map policy
 
@@ -68,3 +68,7 @@ Use the [per-game readiness workbooks](../readiness/README.md) to resolve questi
 ## Parallel research
 
 [Five game research assignments](../research/parallel-game-research.md) cover KH2FM, BBSFM, 0.2, DDD HD and KH3/Re Mind. Each starts with the user's existing source records, then documents edition-correct findings, citations and unresolved inventory/verification gaps in its own spec and readiness file.
+
+## Shared decisions propagated from KH1
+
+Every game inherits [first-class synthesis and optional inventory](../content/synthesis-and-inventory.md) where applicable, including owned/required recipe reminders when enabled, and [Apple-first app testing](../testing-and-content-validation.md). Steam is the user's gameplay context. No user playthrough validation gate, spoiler warnings or Available Now/progress-gate tracker. Preserve text acquisition prerequisites. Crafting rules and inventory scope remain game-specific; 0.2 gains no invented crafting feature.
