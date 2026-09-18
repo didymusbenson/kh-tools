@@ -54,6 +54,10 @@ All user-requested features and specified games are MVP scope unless the user ex
 
 All listed games are MVP scope. Development order does not remove games from the first release without explicit user approval.
 
+## Release baseline
+
+Target modern/current releases. KH1 and KH2 use modern Final Mix; original/non-Final-Mix and PS2-era support are excluded. Verify relevant modern platform differences and pin researched releases. See [readiness workbooks](./readiness/README.md).
+
 ## In scope
 
 - Responsive, installable React PWA
