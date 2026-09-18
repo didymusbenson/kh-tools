@@ -115,3 +115,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Consequences:** Bundled embedding and conversational models support game-scoped browser-local retrieval. SmolLM2 is the candidate family; exact model/runtime selection remains an implementation decision. Final copy must match actual download, offline, and data-access behavior while retaining the intended playful tone.
 - **Alternatives considered:** Generic chatbot branding; user-configured external assistants.
 - **Supersedes / superseded by:** Refines DEC-008 and resolves prior uncertainty about hosted inference and user setup; no cloud inference fallback is included.
+
+## DEC-010: Direct Coppermind answers without conversational personality
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** Chatbot framing suggests personality and elaboration that the user does not want.
+- **Decision:** Data Jiminy is a natural-language interface to the per-game Copperminds. Return fast, concise, factual answers with compact source links. No roleplay, personality, filler, or unsolicited elaboration. Preserve necessary conditions and ask only essential clarifications.
+- **Rationale:** Explicit user direction to prioritize direct answers.
+- **Consequences:** Jiminy remains the visual identity; the existing user-authored disclaimer remains intact. Prefer direct structured results and application-controlled retrieval. Standing model instructions support the behavior but do not guarantee output correctness or enforce access controls.
+- **Alternatives considered:** General conversational assistant; character-driven chat.
+- **Supersedes / superseded by:** Refines DEC-009. Any earlier chatbot/conversational wording describes the input mechanism or model technology, not a personality-driven product experience. See [Data Jiminy](./data-jiminy.md#direct-answer-contract).
