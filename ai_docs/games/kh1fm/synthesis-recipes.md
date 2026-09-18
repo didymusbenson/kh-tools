@@ -1,6 +1,6 @@
 # KH1FM synthesis recipe reference
 
-Research date: 2026-09-18. Scope: modern Final Mix. These 33 recipes were transcribed from the linked individual item pages, selecting KH1FM ingredients. They are planning data, awaiting reconciliation with the legacy workbook and in-game validation. No original KH recipes are supported.
+Research date: 2026-09-18. Scope: modern Final Mix. These 33 recipes were transcribed from the linked individual item pages, selecting KH1FM ingredients. They are planning data, awaiting reconciliation with the legacy workbook, corroborating modern-edition sources and calculation fixtures. No original KH recipes are supported.
 
 ## Unlocks and completion semantics
 
@@ -82,3 +82,9 @@ Derived here by summing one craft of each of the 33 rows above; these are not co
 - Example: Ultima Weapon alone directly requires 5 Thunder Gems, 5 Mystery Goo, 3 Serenity Powers, 3 Stormy Stones and 3 Dark Matters. “Craft Ultima” must also expose the 30-product unlock prerequisite; the recipe ingredients alone are not a complete plan.
 
 See [farming and equipment research](synthesis-farming-and-equipment.md) for source mechanics and [readiness](../../readiness/kingdom-hearts-final-mix.md) for the remaining audit.
+
+## Accepted synthesis UX and acceptance priority
+
+Apply the [first-class synthesis contract](../../content/synthesis-and-inventory.md). Optional inventory shows each ingredient as owned/required (x/y), computes exact shortfalls and persists offline. Without inventory, show full requirements. Shared stock must be allocated once across a multi-recipe plan. Historical crafted checks do not silently consume stock. Validate direct totals, nested craft shortfalls, alternate acquisition routes and unresolved quantities independently.
+
+Use the [Apple-first app test plan](../../testing-and-content-validation.md). No user gameplay validation gate; source conflicts still require research resolution. Keep unlock conditions as text, with no Available Now/progression tracker or spoiler warnings.
