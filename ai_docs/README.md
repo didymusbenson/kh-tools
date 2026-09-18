@@ -10,7 +10,7 @@ Discovery and specification only. Application implementation should not begin un
 
 Put unstructured notes, links, examples, feature ideas, and source material into [00-planning-inbox.md](./00-planning-inbox.md). Information can be reorganized into the focused documents as decisions become clearer. Preserve the original intent when consolidating notes, and record consequential choices in the decision log.
 
-## Documents
+## Core planning documents
 
 1. [Planning inbox](./00-planning-inbox.md) — raw information and unresolved input
 2. [Product vision and scope](./01-product-vision-and-scope.md) — audience, goals, boundaries, and success criteria
@@ -22,11 +22,19 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 8. [Decision log](./07-decision-log.md) — durable architectural and product decisions
 9. [Roadmap and backlog](./08-roadmap-and-backlog.md) — phased delivery plan and outstanding work
 
+## Detailed specifications
+
+- [Per-game specifications](./games/README.md)
+- [KHTABLES Drive source audit](./sources/khtables-drive-audit.md)
+
 ## Working principles
 
 - Mobile-first, but fully usable on larger screens.
 - Core reference material should remain usable offline after initial installation.
 - Content should be structured data where practical, rather than embedded in presentation markup.
 - Search and quick answers are first-class experiences.
+- Each game has a distinct completion model and may have a distinct visual theme.
+- Shared UI and data primitives should not erase game-specific terminology or workflows.
 - Existing useful content should be inventoried before it is migrated or replaced.
+- Legacy data is discovery evidence until it has been verified and its reuse rights established.
 - Proposals are not decisions until they appear in the decision log.
