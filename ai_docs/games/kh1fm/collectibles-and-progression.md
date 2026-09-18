@@ -4,9 +4,9 @@ Researched 2026-09-18 for modern Final Mix. Linked facts are research evidence, 
 
 ## Completion is several distinct goals
 
-KH1's Journal contains Chronicles, Ansem's Report, Characters I, Characters II, Heartless, 101 Dalmatians, Trinity Marks and Mini-Games. It does not supply the comprehensive treasure inventory the app needs. Story entries, character updates and enemy encounters require their own acquisition records. [Journal structure](https://www.khwiki.com/Jiminy%27s_Journal)
+KH1's Journal contains Chronicles, Ansem's Report, Characters I, Characters II, Heartless, 101 Dalmatians, Trinity Marks and Mini-Games. It does not supply the comprehensive treasure inventory the app needs. Story entries and character biography updates are contextual reference, not required collection checks. Retain enemy encounter/drop data where useful for acquisition, optional challenges or a separately named achievement. [Journal structure](https://www.khwiki.com/Jiminy%27s_Journal)
 
-Ars Arcanum must maintain separate requirement sets for Journal completion, all collectibles/rewards, synthesis, equipment, optional challenges, Gummi completion, secret unlocks and platform achievements. An item may participate in several goals, but its acquisition event must not be duplicated. These are app planning requirements, not a claim that every category contributes to the game's Journal counter.
+Ars Arcanum foregrounds world/category collectibles and maintains separate requirement sets for synthesis, equipment, optional challenges, Gummi completion, secret unlocks and platform achievements. Full narrative Journal tracking is outside scope. Preserve actual Journal-dependent trophy/unlock conditions without equating them with collectible percentages. The [shared contract](../../content/collectible-compendium-and-linked-views.md) requires compact and expanded collection views to share the same saved records. An item may participate in several goals, but its acquisition event must not be duplicated. These are app planning requirements, not a claim that every category contributes to the game's Journal counter.
 
 ## Collectible counts and Final Mix corrections
 
@@ -85,7 +85,7 @@ Five acquisition sources: return 51 puppies; Agrabah Dark Chamber chest; Monstro
 | Tigger's Giant Pot | Bouncing Spot | Within 30 seconds |
 | Pooh's Muddy Path | Muddy Path | Within 5 minutes |
 
-Complete the episode stories to seal the book. For Cheer, meet all five targets and then speak to Owl at Pooh's House. Record best score/time, story clear, reward claimed and Cheer eligibility separately. [Episode structure](https://www.khwiki.com/100_Acre_Wood), [Cheer thresholds](https://www.khwiki.com/Cheer)
+Complete the episode stories to seal the book. For Cheer, meet all five targets and then speak to Owl at Pooh's House. Record best score/time, reward claimed and Cheer eligibility separately. Episode/story access is prerequisite context; it does not increase world collectible percentage. [Episode structure](https://www.khwiki.com/100_Acre_Wood), [Cheer thresholds](https://www.khwiki.com/Cheer)
 
 Additional rewards must be covered: Naturespark after Hunny Hunt; Mythril Shard after Block Tigger; Stop upgrade after Swing; Mythril after Giant Pot; EXP Ring after Muddy Path. Five Rare Nuts returned to Owl award Power Up, Defense Up, Mythril Shard, AP Up and Orichalcum in that order. Include the campfire reward and tree/log interactions in the world inventory. [World rewards](https://www.khwiki.com/Game:100_Acre_Wood)
 
@@ -168,4 +168,4 @@ Deep Dive replaces the shorter ending when qualified. Collection theater access 
 
 ## Remaining record work
 
-Research now establishes these systems and their key counts/rules. Still required: enumerate and reconcile every puppy group, mark, Journal entry/update, area dependency and level row; add exact room routes; check actual modern game behavior. See the [world and coverage audit](world-and-coverage-audit.md). No category may show “complete” merely because its overview exists.
+Research now establishes these systems and their key counts/rules. Still required: enumerate and reconcile every puppy group, mark, Report acquisition, collectible access dependency and level row; add exact room routes; check actual modern game behavior. See the [world and coverage audit](world-and-coverage-audit.md). No category may show “complete” merely because its overview exists.
