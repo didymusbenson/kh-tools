@@ -89,3 +89,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Annotation format and authoring tool
 - Analytics and privacy posture
 - Whether any user state requires cloud synchronization
+
+## Persistent checklist requirement
+
+Every shipped game must implement [Persistent Checklists and Player Progress](./content/persistent-checklists-and-progress.md) for MVP. Persist changes offline, separate user progress from content/media caches, use stable record IDs, and preserve progress during updates and migrations. Local-first storage with IndexedDB and JSON export/import are proposed implementation choices; account/cloud sync remains undecided. Test restart persistence, character/game isolation, storage failure, content migrations, multi-tab changes, and recovery.
