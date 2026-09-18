@@ -67,8 +67,8 @@ Phases below describe work order, not separate releases. All non-deferred requir
 
 | Item | Phase | Priority | Status | Dependencies | Notes |
 |---|---|---|---|---|---|
-| Detailed legacy content audit | Discovery | High | In progress | None | Drive audit complete; repository audit remains |
-| Validate specified MVP game coverage | Discovery | High | Not started | Information dump | All specified games included unless explicitly deferred |
+| Detailed legacy content audit | Discovery | High | In progress | None | Drive file inventory complete; actual range/record and repository audits ongoing in per-game research |
+| Validate specified MVP game coverage | Discovery | High | In progress | Legacy evidence and cited research | KH1 baseline documented; five parallel game research assignments underway; no dataset certified complete |
 | Select React build stack | Discovery | High | Not started | Requirements | |
 | Define content schema | Discovery | High | Not started | Content inventory | Include optional media relationships |
 | Define media/annotation schema | Discovery | High | Spec drafted | Rights and content model | |
@@ -90,3 +90,7 @@ Phases below describe work order, not separate releases. All non-deferred requir
 Include a bundled SLM in MVP that answers player questions from each game's stored guide data. See [the architecture direction](./05-technical-architecture.md#mvp-requirement-per-game-coppermind-with-a-bundled-slm).
 
 Discovery should assess the existing WintersRain/coppermind project, grounding and source citations, game/edition boundaries, on-device offline feasibility, model licensing, download packaging, device resource limits, and privacy. Prototype only after these choices are scoped; preserve a complete model-free guide and checklist experience. This is an accepted MVP requirement. Continue specification now; implementation still waits for the end of the planning phase. Technical uncertainty must be resolved or raised with the user, not treated as an implicit deferral.
+
+## Accepted compendium interaction
+
+Build world-grouped compact collectible indexes and expanded location details backed by one persistent item identity. Validate both-direction checks, deduplication, offline persistence and collectible-only world percentages. Full narrative Journal manifests and story walkthroughs are not release gates. Separate crafting/challenge/achievement goals remain MVP. See the [shared contract](./content/collectible-compendium-and-linked-views.md) and [research assignments](./research/parallel-game-research.md).
