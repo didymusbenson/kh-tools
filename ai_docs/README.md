@@ -26,6 +26,10 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 8. [Decision log](./07-decision-log.md) — durable architectural and product decisions
 9. [Roadmap and backlog](./08-roadmap-and-backlog.md) — phased delivery plan and outstanding work
 
+## Readiness
+
+[Per-game readiness workbooks](./readiness/README.md) track what we have, what is missing, user questions, and release gates. Start with the [KH1FM assessment](./readiness/kingdom-hearts-final-mix.md).
+
 ## Detailed specifications
 
 - [Data Jiminy: offline AI assistant and disclaimer](./data-jiminy.md)
