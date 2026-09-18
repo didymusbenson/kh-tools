@@ -1,0 +1,1066 @@
+{
+  "audit_date": "2026-09-18",
+  "legacy_workbook": {
+    "id": "10P_1nFwhUHGAf6IJkzjkdgN7bB3u4S8REp6okXv7v4U",
+    "url": "https://docs.google.com/spreadsheets/d/10P_1nFwhUHGAf6IJkzjkdgN7bB3u4S8REp6okXv7v4U/edit",
+    "reads": [
+      {
+        "tab": "command_melding",
+        "sheet_id": 1053757914,
+        "range": "A1:Y990",
+        "occupied_rows": 298,
+        "recipe_result_rows": 296,
+        "matrix_relationships": 112
+      },
+      {
+        "tab": "Synthesis",
+        "sheet_id": 0,
+        "range": "A1:Z999",
+        "occupied_rows": 10,
+        "material_rows": 9,
+        "populated_location_cells": 0
+      },
+      {
+        "tab": "Sheet3",
+        "sheet_id": 1862685006,
+        "range": "A1:B1000",
+        "occupied_rows": 151,
+        "catalog_rows": 150
+      }
+    ],
+    "zero_point_two_data_found": false
+  },
+  "library_reference": {
+    "id": "libfile_6b305649aa108191afefdb5d34338d14",
+    "filename": "khbbs_command_melding_reference.json",
+    "read_lines": "1-8669",
+    "read_bytes": 249601,
+    "outcome_rows": 296
+  },
+  "repo_inspected": [
+    "ai_docs/games/birth-by-sleep-final-mix.md",
+    "ai_docs/readiness/birth-by-sleep-final-mix.md",
+    "ai_docs/readiness/README.md",
+    "ai_docs/sources/khtables-drive-audit.md",
+    "bbsmelding/seed_objects.js",
+    "bbsmelding/script.js",
+    "bbsmelding/index.html",
+    "games/bbs.html"
+  ],
+  "repo_notes": "Recursive mobile-friendly tree inspected; no AGENTS.md present. Legacy BBS page is a placeholder; melding UI is unfinished.",
+  "primary_sources": [
+    {
+      "url": "https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/",
+      "scope": "shipped Steam collection includes BBSFM; PC release 2024-06-13"
+    },
+    {
+      "url": "https://steamcommunity.com/stats/2552430/achievements",
+      "scope": "197 collection-wide published entries; hidden descriptions unavailable in public view; not 197 BBS achievements"
+    },
+    {
+      "url": "https://www.jp.square-enix.com/kingdom/collection/",
+      "scope": "announced 2026-10-08 editions; not shipped at audit date"
+    }
+  ],
+  "community_sources": [
+    {
+      "url": "https://www.khwiki.com/Abilities_(KHBBS)",
+      "title": "Abilities (KHBBS) - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 3,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Prize abilities",
+        "Stats abilities",
+        "Support abilities",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Arena_Mode",
+      "title": "Arena Mode - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Mechanics",
+        "Battles",
+        "Gallery",
+        "See also",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Brightcrest",
+      "title": "Brightcrest - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Chaos_Ripper",
+      "title": "Chaos Ripper - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Command_Board",
+      "title": "Command Board - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Boards and Pieces",
+        "Display",
+        "GP Counter",
+        "Map",
+        "Command Cards",
+        "Cards",
+        "Hands",
+        "Panels",
+        "Start Panel",
+        "Checkpoints",
+        "Command Panels",
+        "Bonus Panels",
+        "Damage Panels and Prize Cube",
+        "Special Panels",
+        "GP Booster Panel",
+        "Wireless Gameplay",
+        "Notes and references",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Command_Shop",
+      "title": "Moogle Shop - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 62,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts",
+        "Kingdom Hearts Chain of Memories",
+        "Kingdom Hearts II",
+        "Kingdom Hearts 358/2 Days",
+        "Kingdom Hearts Re:coded",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts 3D: Dream Drop Distance",
+        "Kingdom Hearts χ",
+        "Kingdom Hearts III"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Darkgnaw",
+      "title": "Darkgnaw - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 7,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Destiny's_Embrace",
+      "title": "Destiny's Embrace - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 3,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts II",
+        "Kingdom Hearts 3D: Dream Drop Distance",
+        "Kingdom Hearts III",
+        "Kingdom Hearts: Melody of Memory",
+        "Design",
+        "Other appearances",
+        "Final Fantasy Brave Exvius",
+        "Gallery",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Earthshaker",
+      "title": "Earthshaker - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 4,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Ends_of_the_Earth",
+      "title": "Ends of the Earth - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 4,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts II",
+        "Kingdom Hearts III",
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Fairy_Stars",
+      "title": "Fairy Stars - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 7,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Finish_command_(KHBBS)",
+      "title": "Finish command (KHBBS) - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 4,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Mechanics",
+        "List of Finish Commands",
+        "D-Link Finish Commands",
+        "Illusion Finish Commands",
+        "Command Trees",
+        "Terra",
+        "Ventus",
+        "Aqua",
+        "Notes and references",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Flavors",
+      "title": "Flavors - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 3,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "List of Flavors",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Frolic_Flame",
+      "title": "Frolic Flame - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Fruitball",
+      "title": "Fruitball - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Mechanics",
+        "Controls",
+        "Types of fruit",
+        "Matches",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Castle_of_Dreams",
+      "title": "Game:Castle of Dreams - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 13,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Deep_Space",
+      "title": "Game:Deep Space - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 13,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Disney_Town",
+      "title": "Game:Disney Town - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 16,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Mini-games",
+        "Treasures",
+        "Stickers",
+        "Rewards"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Dwarf_Woodlands",
+      "title": "Game:Dwarf Woodlands - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 13,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Enchanted_Dominion",
+      "title": "Game:Enchanted Dominion - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 13,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Keyblade_Graveyard",
+      "title": "Game:Keyblade Graveyard - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 17,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts III",
+        "Battle Levels",
+        "Treasures",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts III Re Mind",
+        "Bonus Levels",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Land_of_Departure",
+      "title": "Game:Land of Departure - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 10,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Mirage_Arena",
+      "title": "Game:Mirage Arena - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 8,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep",
+        "Medal Shop",
+        "Mini-games",
+        "Arena Missions",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Mysterious_Tower",
+      "title": "Game:Mysterious Tower - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 9,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts II",
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Neverland",
+      "title": "Game:Neverland - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 25,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts",
+        "Battle Levels",
+        "Save Points",
+        "Treasures",
+        "Rewards",
+        "Trinities",
+        "Kingdom Hearts Chain of Memories",
+        "Sora's Story",
+        "Reverse/Rebirth",
+        "Kingdom Hearts 358/2 Days",
+        "Missions",
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "title": "Game:Olympus Coliseum - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 37,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts",
+        "Battle Levels",
+        "Save Points",
+        "Mini-games",
+        "Treasures",
+        "Rewards",
+        "Trinities",
+        "Kingdom Hearts Chain of Memories",
+        "Sora's Story",
+        "Reverse/Rebirth",
+        "Kingdom Hearts II",
+        "Battle Levels",
+        "Shop",
+        "Mosh's Moogle Shop",
+        "Mini-games",
+        "Missions",
+        "Treasures",
+        "Puzzle Pieces",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts 358/2 Days",
+        "Mini-games",
+        "Missions",
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Mini-games",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts Re:coded",
+        "Mini-games",
+        "System Sectors",
+        "Treasures",
+        "Prize Blox",
+        "Rewards"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Radiant_Garden",
+      "title": "Game:Radiant Garden - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 24,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts II",
+        "Battle Levels",
+        "Shop",
+        "Huey, Dewey, and Louie's Item Shop",
+        "Huey, Dewey, and Louie's Accessory Shop",
+        "Huey, Dewey, and Louie's Weapon Shop",
+        "Wedge's Armor Shop",
+        "Mog's Workshop",
+        "Mini-games",
+        "Missions",
+        "Treasures",
+        "Puzzle Pieces",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts Birth by Sleep",
+        "Battle Levels",
+        "Treasures",
+        "Stickers",
+        "Rewards",
+        "Bonus Levels",
+        "Kingdom Hearts III Re Mind",
+        "Rewards"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Realm_of_Darkness",
+      "title": "Game:Realm of Darkness - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 4,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Kingdom Hearts Birth by Sleep Final Mix",
+        "Treasures",
+        "Rewards",
+        "Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
+        "Battle Levels",
+        "Treasures",
+        "Kingdom Hearts III",
+        "Battle Levels",
+        "Bonus Levels"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Hyperdrive",
+      "title": "Hyperdrive - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Ice_Cream_Beat",
+      "title": "Ice Cream Beat - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Mechanics",
+        "Songs",
+        "Japanese version",
+        "International version/ Kingdom Hearts Birth by Sleep Final Mix",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Ice_cream",
+      "title": "Ice Cream - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 6,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Mechanics",
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Ice Cream Shop",
+        "List of Ice Creams",
+        "Vanilla Glitz",
+        "Honeybunny",
+        "Fabracadabra",
+        "Bueno Volcano",
+        "Snow Bear",
+        "Spark Lemon",
+        "Royalberry",
+        "Rockin' Crunch",
+        "Big Bad Pete",
+        "Goofy Parfait",
+        "Sugary Skies",
+        "Double Crunch",
+        "Donald Fizz",
+        "Daisy Sorbet",
+        "Related trophies",
+        "Kingdom Hearts Birth by Sleep",
+        "Other appearances",
+        "Kingdom Hearts Re:coded",
+        "See also",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Lost_Memory",
+      "title": "Lost Memory - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Mark_of_a_Hero",
+      "title": "Mark of a Hero - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Master's_Defender",
+      "title": "Master's Defender - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 3,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Union χ",
+        "Between Kingdom Hearts Union χ[Cross] and Kingdom Hearts Dark Road",
+        "Kingdom Hearts Dark Road",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
+        "Kingdom Hearts III",
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/No_Name_(KHBBS)",
+      "title": "No Name (KHBBS) - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "See also",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/No_Name",
+      "title": "No Name - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 6,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts χ Back Cover",
+        "Kingdom Hearts χ",
+        "Between Kingdom Hearts χ and Kingdom Hearts Dark Road",
+        "Kingdom Hearts Dark Road",
+        "Kingdom Hearts Birth by Sleep",
+        "Between Kingdom Hearts Birth by Sleep and Kingdom Hearts",
+        "Kingdom Hearts Re:coded",
+        "Kingdom Hearts 3D: Dream Drop Distance",
+        "Kingdom Hearts III",
+        "Kingdom Hearts Melody of Memory",
+        "Design",
+        "Other appearances",
+        "Birth by Sleep",
+        "Gallery",
+        "Notes and references",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Pixie_Petal",
+      "title": "Pixie Petal - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Prize_Pod",
+      "title": "Prize Pod - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 8,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Strategy",
+        "Locations",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Rainfell",
+      "title": "Rainfell - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Royal_Radiance",
+      "title": "Royal Radiance - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Rumble_Racing",
+      "title": "Rumble Racing - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 6,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Mechanics",
+        "Controls",
+        "Stats",
+        "Opponents",
+        "Courses",
+        "Country Chase",
+        "Disney Drive",
+        "Grand Spree",
+        "Castle Circuit",
+        "Keyblade Gliders",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Secret_Gem",
+      "title": "Secret Gem - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Obtainment",
+        "Kingdom Hearts Birth by Sleep",
+        "Drops",
+        "Rewards",
+        "Kingdom Hearts Birth by Sleep Final Mix",
+        "Drops",
+        "Treasures",
+        "Synthesized items",
+        "Kingdom Hearts Birth by Sleep",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Sticker_Album",
+      "title": "Sticker Album - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 5,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Sticker Album Rewards",
+        "List of stickers",
+        "See also",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Stormfall",
+      "title": "Stormfall - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 3,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Story",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts II Final Mix",
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Stroke_of_Midnight",
+      "title": "Stroke of Midnight - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 7,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Sweetstack",
+      "title": "Sweetstack - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Treasure_Trove",
+      "title": "Treasure Trove - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 15,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Trophies",
+      "title": "Trophies - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 15,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Trophy mechanics",
+        "List of Trophies",
+        "Kingdom Hearts Birth by Sleep",
+        "Kingdom Hearts Re:coded",
+        "Kingdom Hearts 3D: Dream Drop Distance",
+        "Kingdom Hearts HD 1.5 ReMIX",
+        "Kingdom Hearts Final Mix",
+        "Kingdom Hearts Re:Chain of Memories",
+        "Kingdom Hearts 358/2 Days",
+        "Kingdom Hearts HD 2.5 ReMIX",
+        "Kingdom Hearts II Final Mix",
+        "Kingdom Hearts Birth by Sleep Final Mix",
+        "Kingdom Hearts Re:coded",
+        "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+        "Kingdom Hearts Dream Drop Distance HD",
+        "Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
+        "Kingdom Hearts Union χ",
+        "Kingdom Hearts III",
+        "Kingdom Hearts III Re Mind",
+        "Kingdom Hearts Melody of Memory",
+        "Trivia",
+        "See also",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "title": "Ultima Weapon - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 17,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Recipes",
+        "Kingdom Hearts",
+        "Kingdom Hearts II",
+        "Kingdom Hearts III",
+        "Gameplay",
+        "Other appearances",
+        "Kingdom Hearts 358/2 Days",
+        "Gallery",
+        "Notes and references",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Unversed_Mission",
+      "title": "Unversed Mission - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Missions",
+        "Enchanted Dominion",
+        "Strategy",
+        "Castle of Dreams",
+        "Strategy",
+        "Dwarf Woodlands",
+        "Strategy",
+        "Radiant Garden",
+        "Strategy",
+        "Disney Town",
+        "Strategy",
+        "Deep Space",
+        "Strategy",
+        "Neverland",
+        "Strategy",
+        "Olympus Coliseum",
+        "Strategy",
+        "Keyblade Graveyard",
+        "Strategy",
+        "Videos"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Victory_Line",
+      "title": "Victory Line - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Void_Gear",
+      "title": "Void Gear - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 1,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Other appearances",
+        "Birth by Sleep",
+        "Kingdom Hearts Re:coded",
+        "Gallery",
+        "Notes and references"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Wayward_Wind",
+      "title": "Wayward Wind - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 2,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Design",
+        "Gallery",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Xehanort's_Report",
+      "title": "Xehanort's Report - Kingdom Hearts Wiki, the Kingdom Hearts encyclopedia",
+      "extracted_table_count": 0,
+      "status": "community reference inspected; not in-game verified",
+      "available_headings": [
+        "Xehanort's Letter",
+        "Xehanort's Report I",
+        "Xehanort's Report II",
+        "Xehanort's Report III",
+        "Xehanort's Report IV",
+        "Xehanort's Report V",
+        "Xehanort's Report VI",
+        "Xehanort's Report VII",
+        "Xehanort's Report VIII",
+        "Xehanort's Report IX",
+        "Xehanort's Report X",
+        "Xehanort's Report XI",
+        "Xehanort's Report XII",
+        "See also"
+      ],
+      "inspection_scope": "Structured tables extracted; task-relevant facts reviewed. No claim of line-by-line narrative review."
+    },
+    {
+      "url": "https://www.khwiki.com/Command_Meld",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Mine_Square",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Collision_Magnet",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Magnet_Spiral",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Shimmering",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Fleeting",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Pulsing",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Wellspring",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Soothing",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Hungry",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Abounding",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Chaos",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Final_Episode",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Blank_Points",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/A_Fragmentary_Passage",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Hearts_Birth_by_Sleep_Final_Mix",
+      "inspection_scope": "BBS-specific mechanics, acquisition/drop/recipe facts and footnotes inspected via public page or cached page text.",
+      "status": "community evidence; source validation pending"
+    }
+  ],
+  "ignored_searches": "Broad web searches yielded unrelated results and were not used as evidence."
+}
