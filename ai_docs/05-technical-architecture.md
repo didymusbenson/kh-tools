@@ -97,18 +97,20 @@ Every shipped game must implement [Persistent Checklists and Player Progress](./
 
 ## MVP requirement: per-game Coppermind with a bundled SLM
 
+User-facing identity: **Data Jiminy**, represented by Jiminy Cricket. [Data Jiminy specifications](./data-jiminy.md) define the accepted offline behavior, initial AI disclaimer, and model evaluation requirements.
+
 Confirmed MVP requirement: bundle a small language model (SLM) with Ars Arcanum so players can ask natural-language questions and receive answers grounded in the guide data we store for the selected game.
 
 - Treat each game's Coppermind as a game-scoped knowledge assistant; shared inference infrastructure is possible, and separate model weights per game are not assumed.
 - Preserve edition, character, world, and DLC applicability when retrieving facts. Do not mix facts across games or incompatible editions.
 - Return links to the underlying guide entries and their provenance. If stored data does not answer a question, say so rather than inventing a guide fact.
-- Keep canonical structured content independent of the model. A retrieval layer over versioned game data is a candidate approach, not a settled implementation.
+- Keep canonical structured content independent of the model. Use local retrieval over versioned game data; the browser storage/search implementation remains to be chosen.
 - Keep normal browsing, search, and persistent checklists usable without the model. Do not make automatic checklist changes through chat; any separately approved progress-aware actions need explicit user confirmation.
-- Explore on-device inference and offline Q&A once the required model and game data are downloaded. This is a feasibility target, not an all-platform guarantee.
-- Evaluate whether “bundled” means shipped with the app or an optional downloadable model pack; avoid assuming a large model belongs in the initial PWA install.
+- Provide on-device inference and offline Q&A once the required model and game data are downloaded. Validate and define the supported device matrix before release.
+- Manage model/runtime downloads within the app with no user model selection or configuration. Final packaging and initial download flow remain implementation decisions.
 - Measure mobile memory, download/storage size, startup time, response latency, battery impact, runtime/browser support, and model licensing before choosing a model or runtime.
 - Version the model, retrieval index, and guide dataset compatibly; keep downloads and model-cache cleanup separate from player progress.
-- Clarify privacy and whether any hosted fallback is acceptable. Do not assume cloud inference, accounts, or transmission of player questions/progress.
+- Require no login, API keys, external connections, or separately installed services for chat. Run embedding, retrieval, and answer generation locally; no hosted inference fallback is part of the accepted design.
 - Test factual grounding, citations, missing-data responses, game/edition isolation, offline behavior, unsupported devices, and content/index updates before release.
 
 Related project: [WintersRain/coppermind](https://github.com/WintersRain/coppermind), identified by the user as a collaboration. Inspect its architecture and license before deciding whether to reuse code, integrate it, or borrow its approach. No integration or model selection has been committed to.
