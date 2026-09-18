@@ -71,3 +71,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Alternatives considered:** Ignore media until after MVP; require screenshots for MVP; display empty placeholders.
 - **Consequences:** Records and components must render cleanly with zero media. Production builds validate rights state and accessibility metadata. Media caching and bulk visual downloads remain post-MVP work.
 - **Supersedes / superseded by:** None
+
+## DEC-006: Use game-specific journal presentations
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** A single physical-book skin would miss the distinct journal identities shown in the user's references.
+- **Decision:** KH1–2 use green journal theming; BBS uses blue Reports theming; KH3 uses a dark, menu-like digital journal. Preserve fly-in game selection and shared navigation semantics.
+- **Rationale:** The user selected these directions from supplied journal screenshots.
+- **Alternatives considered:** Earlier speculative game palettes; one literal book treatment for all games.
+- **Consequences:** Theme support must cover layout variants as well as color tokens. DDD and a distinct 0.2 treatment await further inspiration. Reference images are not production screenshot assets; text-first MVP remains unchanged.
+- **Supersedes / superseded by:** Replaces earlier speculative KH1/KH2/KH3 palette proposals and refines DEC-003; does not replace the journal concept.
