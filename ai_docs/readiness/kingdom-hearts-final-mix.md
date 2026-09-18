@@ -1,7 +1,7 @@
 # Kingdom Hearts Final Mix readiness
 
-Status: **Ready for foundation work and content research; not ready to declare a comprehensive guide or ship.**
-Assessment: 2026-09-18. Based on current [KH1FM spec](../games/kingdom-hearts-final-mix.md), [content inventory](../02-content-inventory.md), and [legacy source audit](../sources/khtables-drive-audit.md). This is a planning assessment, not a new exhaustive workbook/repository audit or gameplay fact verification.
+Status: **Sourced planning substantially expanded; full data extraction and validation still required before declaring a comprehensive guide or shipping.**
+Assessment: 2026-09-18, updated after public-source research. Based on the [KH1FM spec](../games/kingdom-hearts-final-mix.md), [sourced planning reference](../games/kh1fm/README.md), [content inventory](../02-content-inventory.md), and [legacy source audit](../sources/khtables-drive-audit.md). This pass adds real planning tables and citation links; it is not an exhaustive legacy-workbook audit, normalized database import or hands-on gameplay verification.
 
 ## Settled scope
 
@@ -24,25 +24,27 @@ The rows below are required coverage areas to audit, not a claim that every name
 
 | ID | Coverage / logical tables | Details required for a completion run | Current evidence and gap |
 |---|---|---|---|
-| KH1-D01 | Worlds, areas, access requirements, story flags | Navigation links, access/unlock conditions, revisit changes, earliest availability, return route | Names/locations occur in legacy data; normalized access graph not verified |
-| KH1-D02 | All treasure chests and one-time rewards | Contents, world/area, exact text location, route, required abilities, availability/missability, counts by area | Treasure coverage incomplete or absent in current spec |
-| KH1-D03 | Dalmatians and reward milestones | Puppy numbers, chest/group identity, location, access conditions, turn-in rewards | Legacy groups reported; modern locations and totals need reconciliation |
-| KH1-D04 | Trinity Marks and Trinity unlocks | Color, precise location, unlock and activation conditions, reward, counting rules | Legacy locations/colors/prizes reported; completeness unverified |
-| KH1-D05 | Postcards and turn-in rewards | Acquisition steps, prerequisites, delivery action, reward sequence, completion count | Legacy ten-card list reported; verify every entry and reward |
-| KH1-D06 | Torn Pages and Hundred Acre Wood | Page locations, episode unlocks, activities, completion/score targets, rewards | Page locations reported; full activity and record coverage missing |
-| KH1-D07 | Ansem Reports and Journal entries | Entry/report IDs, acquisition triggers, character/enemy/story lists, exact Journal completion requirements | Full verified inventory missing |
-| KH1-D08 | Synthesis recipes and unlock sets | Product, ingredient IDs/quantities, unlock conditions, crafted state, all-catalog requirement | Legacy recipes/totals reported; normalize and recalculate independently |
-| KH1-D09 | Materials, enemies, drops, encounters | Source locations, spawn/respawn conditions, drop rules/rates/modifiers, special-enemy mechanics and concise farming steps | Legacy drops and some strategies reported; special rules and rates unverified |
-| KH1-D10 | Weapons, accessories and item catalog | Sora/Donald/Goofy equipment, stats/effects, shops/prices where needed, all acquisition routes and completion relevance | Legacy equipment reported; verified inventory and acquisition coverage pending |
-| KH1-D11 | Abilities, level rewards and progression choices | Starting-choice dependencies, level unlocks, AP/effects where relevant, movement unlocks, EXP data needed for leveling | Legacy tables reported; duplicate level-15 row flagged; reconcile paths |
-| KH1-D12 | Magic and summons | Every relevant tier/unlock, acquisition requirements, summon acquisition/activation and completion links | Magic data reported; summon coverage not established |
-| KH1-D13 | Olympus cups, rounds and variants | Unlocks, opponents, solo/time variants, target rules, rewards, practical strategies | Legacy tables reported; unresolved tournament note and full validation needed |
-| KH1-D14 | Optional bosses and special encounters | Unlock/location, required preparation, mechanics, concise clear strategy, rewards and goal membership | Comprehensive encounter coverage not established |
-| KH1-D15 | Minigames, records and world interactions | Each completion-relevant activity, trigger, target, repeatability, reward, strategy; audit races, timed activities and interaction rewards | Full list and applicability not established; do not infer from Journal alone |
-| KH1-D16 | Gummi completion | Relevant missions, routes, objectives/ranks, blueprints/parts, unlocks, rewards, practical build/control guidance | No confirmed legacy coverage in current spec; research needed |
-| KH1-D17 | Modern trophies/achievements and run constraints | Per-platform requirements, difficulty/clear conditions, stacking rules, missable or incompatible goals, safe route planning | Full modern platform mapping missing |
-| KH1-D18 | Endgame and secret unlocks | Ending/unlock conditions by difficulty where applicable; links to required completion records | Verified requirement mapping missing |
-| KH1-D19 | Completion rules and dependencies | Goal membership, unique IDs, grouped-item counts, parent/child rules, prerequisites, no double counting | Domain intent exists; normalized rules and acceptance fixtures needed |
+| KH1-D01 | Worlds, areas, access requirements, story flags | Navigation links, access/unlock conditions, revisit changes, earliest availability, return route | World source atlas and movement/Trinity unlocks documented; full area graph and earliest-access flags pending |
+| KH1-D02 | All treasure chests and one-time rewards | Contents, world/area, exact text location, route, required abilities, availability/missability, counts by area | Per-world treasure/reward sources inspected; missability examples documented; exhaustive FM rows/counts/routes still pending |
+| KH1-D03 | Dalmatians and reward milestones | Puppy numbers, chest/group identity, location, access conditions, turn-in rewards | 99 puppies / 33 groups, turn-in rewards and FM relocations sourced; reconcile every group/route against legacy data |
+| KH1-D04 | Trinity Marks and Trinity unlocks | Color, precise location, unlock and activation conditions, reward, counting rules | 46 marks (17/6/9/4/10 by blue/red/green/yellow/white), unlocks and party rules sourced; full location/reward import pending |
+| KH1-D05 | Postcards and turn-in rewards | Acquisition steps, prerequisites, delivery action, reward sequence, completion count | All ten acquisition slots and mailing rewards transcribed; precise Gizmo route and state validation remain |
+| KH1-D06 | Torn Pages and Hundred Acre Wood | Page locations, episode unlocks, activities, completion/score targets, rewards | Five page sources, episode rewards, Cheer targets and Rare Nut rewards documented; full tutorials/locations remain |
+| KH1-D07 | Ansem Reports and Journal entries | Entry/report IDs, acquisition triggers, character/enemy/story lists, exact Journal completion requirements | Journal taxonomy and all 13 Report acquisitions sourced; complete character/enemy/story entry-update manifests remain |
+| KH1-D08 | Synthesis recipes and unlock sets | Product, ingredient IDs/quantities, unlock conditions, crafted state, all-catalog requirement | All 33 ingredient rows and unlock sets transcribed; direct totals calculated; Energy Bangle source conflict requires resolution |
+| KH1-D09 | Materials, enemies, drops, encounters | Source locations, spawn/respawn conditions, drop rules/rates/modifiers, special-enemy mechanics and concise farming steps | Ordinary base rates, ten special-material encounters, mushroom rewards and reset/modifier rules sourced; full spawn/alternative-source data remain |
+| KH1-D10 | Weapons, accessories and item catalog | Sora/Donald/Goofy equipment, stats/effects, shops/prices where needed, all acquisition routes and completion relevance | 18 Keyblades, 15 staves, 15 shields and acquisition methods documented; complete accessories/items/stats and trophy membership remain |
+| KH1-D11 | Abilities, level rewards and progression choices | Starting-choice dependencies, level unlocks, AP/effects where relevant, movement unlocks, EXP data needed for leveling | Movement unlocks and FM level landmarks sourced; full choice/stat/EXP matrix and duplicate legacy level-15 row unresolved |
+| KH1-D12 | Magic and summons | Every relevant tier/unlock, acquisition requirements, summon acquisition/activation and completion links | 21 magic acquisitions and six summon acquisition paths documented; normalize dependencies and verify alternate orders |
+| KH1-D13 | Olympus cups, rounds and variants | Unlocks, opponents, solo/time variants, target rules, rewards, practical strategies | Four cup unlock/variant/reward tables sourced; full seeds, intermediate rewards and checkpoint import remain |
+| KH1-D14 | Optional bosses and special encounters | Unlock/location, required preparation, mechanics, concise clear strategy, rewards and goal membership | Five endgame bosses with reward/mechanic summaries; exact Unknown earliest unlock and full strategy validation remain |
+| KH1-D15 | Minigames, records and world interactions | Each completion-relevant activity, trigger, target, repeatability, reward, strategy; audit races, timed activities and interaction rewards | Training, Slider/Vines, Pooh, Clock Tower and mushroom systems documented; full record manifest and interaction routes remain |
+| KH1-D16 | Gummi completion | Relevant missions, routes, objectives/ranks, blueprints/parts, unlocks, rewards, practical build/control guidance | All 30 mission objectives and 48-blueprint roster documented; detailed rewards/parts/drop routes/builds remain |
+| KH1-D17 | Modern trophies/achievements and run constraints | Per-platform requirements, difficulty/clear conditions, stacking rules, missable or incompatible goals, safe route planning | Modern stacking, restricted-run conditions and narrower achievement thresholds sourced; per-platform IDs and edge cases remain |
+| KH1-D18 | Endgame and secret unlocks | Ending/unlock conditions by difficulty where applicable; links to required completion records | Secret-ending conditions by difficulty sourced; normalize predicates and verify modern save/theater distinction |
+| KH1-D19 | Completion rules and dependencies | Goal membership, unique IDs, grouped-item counts, parent/child rules, prerequisites, no double counting | Separate goal sets, grouped events and synthesis dependency rules documented; normalized memberships and fixtures unbuilt |
+
+The [D01–D19 research coverage audit](../games/kh1fm/world-and-coverage-audit.md#coverage-against-readiness-ids) links these findings to their detailed tables and original citation sources.
 
 These are logical datasets, not a mandate for nineteen separate SQL tables. Every verified requirement must map to a record or a documented rule; the audit must add categories if it finds omissions.
 
@@ -57,7 +59,7 @@ These are logical datasets, not a mandate for nineteen separate SQL tables. Ever
 - Explicit “not applicable” versus “unknown”; unknown data must not look complete.
 - Optional media references only; no missing-image dependency.
 
-For each KH1-D row, attach: source files/ranges inspected, expected record count and its source, extracted count, verified count, unresolved conflicts, and reviewer/evidence. All these counts are currently **unknown**, not zero.
+For each KH1-D row, attach: source files/ranges inspected, expected record count and its source, extracted count, verified count, unresolved conflicts, and reviewer/evidence. Expected/source counts now include 33 recipes, 33 puppy groups / 99 puppies, 46 Trinities, 10 Postcards, 5 Torn Pages, 13 Reports, 21 magic acquisition events, 6 summons, 30 Gummi missions, 48 blueprints and 48 obtainable party weapons. The research audit distinguishes what was transcribed from what was only inventoried. Full treasure, Journal-entry, accessory, enemy/stat and level-row totals remain **unmeasured**, not zero; no normalized app import or hands-on verification is claimed.
 
 ## User decisions — answer as we reach them
 
@@ -84,12 +86,12 @@ Record new answers under the question ID, then update status and corresponding s
 ## Research queue — agent work, not questions for the user
 
 - [ ] KH1-R01: Audit every relevant workbook range and existing repository file. Extract real records, not just tab names; identify duplicates and incomplete ranges.
-- [ ] KH1-R02: Pin the modern Final Mix verification baseline and investigate material differences across current supported platforms. Do not spend time supporting PS2 variants.
-- [ ] KH1-R03: Establish an independently sourced complete inventory for KH1-D01–D19; record counts and goal membership. Explicitly audit summons, Gummi content, Journal records, minigames and special rewards.
-- [ ] KH1-R04: Verify recipes, source rates/conditions, grouped collectibles, tournament data and level-choice tables; resolve conflicting legacy facts.
-- [ ] KH1-R05: Write missing precise locations, prerequisites, farming instructions and encounter strategies in original concise prose.
-- [ ] KH1-R06: Verify missability, incompatible run goals, difficulty rules and achievement stacking. Derive route advice only from confirmed constraints.
-- [ ] KH1-R07: Produce a provenance/completeness report with unresolved records; never report source presence as release readiness.
+- [ ] KH1-R02: Research baseline now uses KH1FM in HD 1.5 + 2.5 ReMIX, with official Steam evidence. Finish exact per-platform achievement mapping and hands-on verification targets; no PS2 compatibility work.
+- [ ] KH1-R03: System inventories/counts for the previously missing modules are now sourced. Complete exhaustive treasure, Journal-entry/update, accessory, enemy and level manifests; normalize goal membership.
+- [ ] KH1-R04: Reconcile the 33 transcribed recipes and calculated totals against legacy/in-game data; resolve Energy Bangle conflict KH1-C01. Verify complete drop conditions, grouped collectibles, tournament seeds and level-choice tables.
+- [ ] KH1-R05: Sourced acquisition/farming/encounter summaries now exist. Expand remaining room routes, activity tutorials, boss strategies and Gummi builds into self-contained practical guides.
+- [ ] KH1-R06: Modern stacking and specific missability examples are sourced. Verify all record-level availability and restricted-run edge cases; resolve KH1-C02–C05 in the research audit.
+- [x] KH1-R07: Produce a sourced planning/completeness report with unresolved records — [2026-09-18 audit](../games/kh1fm/world-and-coverage-audit.md). This reporting task is complete; the content/data gates remain open.
 
 ## Engineering queue and validation
 
@@ -119,4 +121,4 @@ Record new answers under the question ID, then update status and corresponding s
 
 KH1FM is ready only when every required coverage row has a verified inventory and usable details, all critical research conflicts are resolved, needed product decisions are answered, and offline/progress/calculation/Data Jiminy tests pass on the agreed device matrix. A completion walkthrough must succeed using Ars Arcanum alone. Screenshots are not a release blocker; missing text guidance is.
 
-Current blockers: unverified/incomplete content, unpinned modern platform facts, unbuilt normalized data and UI, and untested offline model/retrieval behavior. No completion percentage or release date is claimed.
+Current blockers: exhaustive inventories and precise routes still incomplete; five targeted fact/behavior issues remain in the research audit; platform mapping and hands-on verification are incomplete; normalized data/UI are unbuilt; offline model/retrieval behavior is untested. No completion percentage or release date is claimed.
