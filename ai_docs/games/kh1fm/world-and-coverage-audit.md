@@ -4,7 +4,7 @@ Research date: 2026-09-18. This is the remaining-work ledger for the sourced pla
 
 ## Release baseline
 
-Use KH1 Final Mix in **Kingdom Hearts HD 1.5 + 2.5 ReMIX**, with Steam as an official, inspectable reference for package contents and achievement wording. This research choice does not answer the user's open question about their first gameplay/device validation target or exclude other modern releases. [Official Steam package](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/)
+Use KH1 Final Mix in **Kingdom Hearts HD 1.5 + 2.5 ReMIX**, with Steam as an official, inspectable reference for package contents and achievement wording. The user confirms Steam as their gameplay context. App smoke/acceptance starts on Apple browser, iPhone and iPad, with Android follow-up; no user playthrough verification gate. Other scoped modern release differences remain reference data. [Official Steam package](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/)
 
 The content is Final Mix; original KH and PS2-era compatibility remain out of scope. Source tables often mix versions and sequels. Select KH1FM annotations and the KH1 section explicitly. PS3-only achievement or control behavior must not become the modern default. Keep modern platform achievement IDs and observed differences in a separate mapping. [Final Mix changes](https://www.khwiki.com/Kingdom_Hearts_Final_Mix), [modern collection changes](https://www.khwiki.com/Kingdom_Hearts_HD_1.5_%2B_2.5_ReMIX)
 
@@ -50,7 +50,7 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 | D05 | All ten acquisition slots and ten mailing rewards | Expand Gizmo route into exact steps; verify acquisition/mailing state transitions |
 | D06 | Five page sources, episode rewards, Cheer thresholds, Rare Nut rewards | Exact activity tutorials, nut/treasure routes and all record-entry conditions |
 | D07 | Journal section context and all 13 Report acquisitions | Normalize Report acquisition/reward dependencies; exhaustive narrative/biography update manifests are not required |
-| D08 | All 33 recipe ingredient rows; six unlock sets; recalculated direct material totals | Resolve C01 below, reconcile workbook, verify in game and normalize |
+| D08 | All 33 recipe ingredient rows; six unlock sets; recalculated direct material totals | Resolve C01 below, reconcile workbook and edition-correct evidence, normalize and validate fixtures |
 | D09 | Ordinary base sources, ten special-material encounters, reset/modifier rules and mushroom rewards | Every source alternative, spawn room, phase, conditional roll and farming route |
 | D10 | 18 Keyblades, 15 staves, 15 shields with acquisition paths; shop prices/stages | Complete accessory/item catalog and all stats/effects; achievement membership |
 | D11 | Movement unlocks and FM level landmarks; separate choice/EXP variables | Full level/stat/EXP matrix; resolve duplicate legacy level-15 row |
@@ -60,7 +60,7 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 | D15 | Jungle Slider/Vines/training/Pooh/clock/mushroom coverage | Full minigame entry manifest, exact tutorials and contextual world interactions |
 | D16 | All 30 mission objectives; complete 48-blueprint roster by source class | Mission 1/2 reward rows, route-specific enemy drops, all parts, working build guides |
 | D17 | Modern stacking, restricted-run conditions, threshold-vs-full-collection distinctions | Exact platform ID lists and requirement predicates; tricky run behavior |
-| D18 | Standard/Proud/Beginner secret-ending conditions | Validate goal predicates against a modern save; distinguish theater availability |
+| D18 | Standard/Proud/Beginner secret-ending conditions | Reconcile goal predicates with modern-release evidence and validate structured rules; distinguish theater availability |
 | D19 | Separate goal sets, event/group counting rules and recipe dependencies | Implement membership records, cross-links and acceptance fixtures |
 
 ## Facts still requiring targeted resolution
@@ -69,7 +69,7 @@ These remain research/validation tasks for the agent, not questions asking the u
 
 | ID | Specific issue | Evidence / resolution needed |
 |---|---|---|
-| KH1-C01 | Energy Bangle Spirit Shard quantity conflicts across two source pages | Dedicated [recipe](https://www.khwiki.com/Energy_Bangle) says 2; [material summary](https://www.khwiki.com/Spirit_Shard) says 1. Current planning calculation uses 2 provisionally; check modern recipe screen. |
+| KH1-C01 | Energy Bangle Spirit Shard quantity conflicts across two source pages | Dedicated [recipe](https://www.khwiki.com/Energy_Bangle) says 2; [material summary](https://www.khwiki.com/Spirit_Shard) says 1. Current planning calculation uses 2 provisionally; resolve using reliable modern-recipe evidence; no required user gameplay check. |
 | KH1-C02 | Earliest Unknown portal appearance | [Battle source](https://www.khwiki.com/Game:Xemnas) establishes mechanics/rewards; exact story flag still needs reliable evidence. |
 | KH1-C03 | Restricted-run edge cases | [Achievement descriptions](https://steamcommunity.com/stats/2552430/achievements/) do not establish party-equipment scope, scripted exceptions, reload handling or pause/timer semantics. Validate before prescribing a route. |
 | KH1-C04 | Retired scope assumption: exhaustive narrative Journal entry/update manifest | User clarification 2026-09-18 removes this as a compendium release blocker. Retain [Journal context](https://www.khwiki.com/Jiminy%27s_Journal) where a real trophy/unlock needs it; do not include story or biography flags in world collectible progress. |
@@ -88,3 +88,5 @@ Most game-mechanic evidence here is from KHWiki, a community reference; its vers
 Package the actual verified records and authored directions with the game content. Citation links are provenance users can open when online; they must not be the only place an answer exists. Data Jiminy must return a known record's location/prerequisites or a clear unknown status. It must not turn a research lead, ambiguous source or unresolved field into a confident answer. App code performs recipe and completion calculations.
 
 All active remaining rows above are MVP work; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
+
+The [shared validation policy](../../testing-and-content-validation.md) supersedes any older mandatory in-game/manual-save verification wording. Source conflicts remain content accuracy work. Initial functional acceptance includes first-class optional synthesis inventory, correct x/y and planner totals, no spoiler UI, and no Available Now tracker.
