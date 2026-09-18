@@ -2,11 +2,21 @@
 
 ## Status
 
-Discovery draft based on the legacy **KH FM TABLES** workbook. All factual data must be independently verified before release.
+Planning draft based on the legacy **KH FM TABLES** workbook and the **2026-09-18 sourced research pass**. Concrete reference tables and citations now live in [KH1FM research](kh1fm/README.md). Research, transcription, normalized app data and hands-on verification are separate statuses; this is not yet a release-complete guide.
 
 ## Supported release baseline and readiness
 
 Use modern Final Mix releases. Original/non-Final-Mix and PS2-era compatibility are out of scope. Reconcile legacy data against the modern baseline; preserve only relevant modern platform differences. See the [readiness workbook](../readiness/kingdom-hearts-final-mix.md) for data gaps, user decisions, and validation gates.
+
+## Sourced planning reference
+
+- [Collectibles and progression](kh1fm/collectibles-and-progression.md): counts, rewards, unlocks, magic, summons and ending conditions.
+- [All 33 synthesis recipes](kh1fm/synthesis-recipes.md): ingredient quantities, unlock sets and recalculated direct totals.
+- [Farming and equipment](kh1fm/synthesis-farming-and-equipment.md): material sources, special-enemy mechanics and 48 obtainable party weapons.
+- [Challenges, Gummi and run goals](kh1fm/challenges-gummi-and-run-goals.md): cup variants, bosses, minigames, 30 missions and 48 blueprints.
+- [World and coverage audit](kh1fm/world-and-coverage-audit.md): inspected per-world sources, D01–D19 coverage and exact remaining work.
+
+Citations are attached to the relevant facts in these documents. Content answers and directions must be stored in the offline game package; an external citation link cannot substitute for the guide itself.
 
 ## Product objective
 
@@ -74,6 +84,7 @@ The old workbook separates recipes from aggregate material totals. The new model
 
 - Fire, Blizzard, Thunder, Cure, Gravity, Stop, and Aero tiers
 - Acquisition event and prerequisites
+- All six summons, including summon-gem acquisition and restoration
 - Cross-links to collectibles gated by that spell or tier
 
 ### Olympus Coliseum
@@ -86,7 +97,19 @@ The old workbook separates recipes from aggregate material totals. The new model
 
 ### Journal and 100% completion
 
-The legacy workbook is not sufficient here. Research must establish the full Final Mix completion surface, including Journal requirements, enemy entries, character entries, minigames, bosses, reports, and any platform trophy/achievement layer.
+The [sourced reference](kh1fm/collectibles-and-progression.md) establishes the Journal categories, 13 Report acquisitions and related collection systems. Full Chronicles, Characters I/II and Heartless entry/update manifests still need extraction and verification.
+
+Keep Journal, exhaustive collection, synthesis, equipment, challenges, Gummi completion, secret unlocks and platform achievements as separate requirement sets. An achievement threshold is not the complete collection denominator.
+
+### Gummi completion and other records
+
+Include all 30 Final Mix missions, the 48-blueprint roster, all relevant parts and acquisition methods, route/enemy information and practical mission build guidance. Track installed blocks, collected blocks, score, enemy/obstacle counts and restrictions distinctly. See [Gummi research](kh1fm/challenges-gummi-and-run-goals.md).
+
+Include Jungle Slider, Vine Swinging, Phil's Training, Hundred Acre Wood records, Clock Tower rewards, mushroom challenges, early-world activities and incidental interaction rewards. A chest-only checklist is insufficient.
+
+### Modern achievement and restricted-run guidance
+
+Use HD 1.5 + 2.5 ReMIX rules; maintain platform-specific IDs and conditions. Model difficulty stacking, equipment restrictions, Continue usage and time limits. A route recommendation must distinguish convenient separate runs from mechanically required separate runs. Detailed edge cases remain explicit research tasks.
 
 ## Data model additions
 
@@ -127,7 +150,8 @@ See [shared design direction](../ui/jiminys-journal-design-direction.md) for ref
 - “SYNTH NEEDED” is likely hand-calculated and may drift from recipe data.
 - The experience chart contains a duplicate level-15 row.
 - Treasure and Journal coverage is incomplete or absent.
-- “Figure out tournaments” remains an unresolved legacy note.
+- The legacy “Figure out tournaments” note is partly resolved by sourced unlock/variant/reward tables; complete seed and intermediate-reward imports still remain.
+- Energy Bangle has conflicting Spirit Shard quantities in public sources; the recipe reference uses 2 provisionally and flags the resulting total for verification.
 
 ## Release acceptance criteria
 
