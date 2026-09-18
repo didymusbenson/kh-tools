@@ -46,9 +46,11 @@ The app is a manually maintained guide, not a game-save reader. Collection paren
 
 ## Edition baseline and known differences
 
+Use the modern Steam edition as the user's content baseline. The other rows preserve scoped modern-platform differences and release metadata.
+
 | Edition | Evidence / treatment as of audit date |
 |---|---|
-| PS4 / Xbox One HD 2.8 | Existing released content baseline; 0.2 launched on PS4 in 2017 and Xbox One in 2020. Source is a community chronology; native platform IDs still need extraction. [Game reference](https://www.khwiki.com/Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-) |
+| PS4 / Xbox One HD 2.8 | Earlier released modern versions; 0.2 launched on PS4 in 2017 and Xbox One in 2020. Source is a community chronology; native platform IDs still need extraction. [Game reference](https://www.khwiki.com/Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-) |
 | Epic Windows | Official listing dates release to 2021-03-30. Content parity and achievement availability need direct checks. [Epic listing](https://store.epicgames.com/en-US/p/kingdom-hearts-hd-2-8-final-chapter-prologue) |
 | Steam Windows | Official release 2024-06-13. Store separates Japanese and International versions and says their save data cannot be transferred; preserve locale/version metadata. Collection has 69 platform achievements, of which the researched 0.2 subset is 15. [Steam store](https://store.steampowered.com/app/2552440/KINGDOM_HEARTS_HD_28_Final_Chapter_Prologue/) |
 | Switch cloud version | Official listing describes an internet-dependent cloud game. This does not change Ars Arcanum's offline guide requirement. [Nintendo listing](https://www.nintendo.com/us/store/products/kingdom-hearts-hd-2-8-final-chapter-prologue-cloud-version-switch/) |
