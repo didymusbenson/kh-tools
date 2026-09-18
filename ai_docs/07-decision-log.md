@@ -60,3 +60,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Alternatives considered:** Create a complete guide specification for every retail collection.
 - **Consequences:** The data model must represent collection membership and platform releases while routing users to component guides.
 - **Supersedes / superseded by:** None
+
+## DEC-005: Design for screenshots but defer production media
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** Location screenshots and maps will materially improve future guides, but Ars Arcanum should reach MVP without delaying for a media library or adding unowned images.
+- **Decision:** Include optional screenshot, map, annotation, accessibility, provenance, rights, and offline fields in the architecture from the start. Test media-capable UI with synthetic or project-owned fixtures, while shipping no production screenshot unless an approved asset already exists.
+- **Rationale:** This prevents costly schema and layout retrofits while keeping MVP text-first and avoiding rights problems.
+- **Alternatives considered:** Ignore media until after MVP; require screenshots for MVP; display empty placeholders.
+- **Consequences:** Records and components must render cleanly with zero media. Production builds validate rights state and accessibility metadata. Media caching and bulk visual downloads remain post-MVP work.
+- **Supersedes / superseded by:** None
