@@ -4,6 +4,10 @@
 
 Discovery draft based on **Kh2FM tables** and six legacy SQL/setup documents. The database scripts are implementation archaeology, not a target architecture. All game facts require verification.
 
+## Supported release baseline and readiness
+
+Use modern Final Mix releases. Original/non-Final-Mix and PS2-era compatibility are out of scope. Reconcile legacy data against the modern baseline; preserve only relevant modern platform differences. See the [readiness workbook](../readiness/kingdom-hearts-ii-final-mix.md) for data gaps, user decisions, and validation gates.
+
 ## Product objective
 
 Create a complete KH2 Final Mix companion that joins treasures, puzzle pieces, synthesis, enemy drops, equipment, missions, optional encounters, Journal requirements, and trophies into one navigable completion system.
