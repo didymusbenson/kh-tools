@@ -2,11 +2,19 @@
 
 ## Status
 
-Initial scope specification. No legacy KHTABLES source material has been identified for Kingdom Hearts III.
+Research baseline established on 2026-09-18; not implementation-ready. No reusable KH3 KHTABLES data was identified after auditing the inventory and ambiguous legacy documents. See the [research set](kh3/README.md), [source manifest](kh3/sources-and-conflicts.md) and [readiness matrix](../readiness/kingdom-hearts-iii.md).
 
 ## Product objective
 
-Provide a definitive Kingdom Hearts III completion journal covering the base game, supported platform editions, and clearly separated downloadable or expanded content such as Re Mind.
+Provide a Kingdom Hearts III acquisition compendium: where a collectible, ingredient, material or equipment item is and how to obtain it, covering updated base-game content and explicitly separated Re Mind episodes.
+
+Apply the accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis and inventory contract](../content/synthesis-and-inventory.md), and [testing/content-validation contract](../testing-and-content-validation.md). The user plays Steam. The app is openly spoilerific: no spoiler warnings, hiding or reveal controls. Do not track story milestones or offer an Available Now/progress-gate filter; explain necessary prerequisites in the acquisition text.
+
+World percentages count applicable collectibles only, not plot, biographies or ordinary conversations. Compact world marks, expanded detail rows, search and Data Jiminy resolve to one stable record and one saved state. Preserve verified journal order/numbers without making display order the storage key. Filters do not change full denominators.
+
+Inventory is optional and opt-in. When enabled, show owned/required ingredient quantities as x/y, with tested game-specific synthesis and forging formulas. Inventory and first-crafted history are distinct. Synthesis remains a first-class module.
+
+React offline PWA, local persistence, bundled SLM/per-game Coppermind, text directions and media support remain MVP. Only missing production screenshot/map images are deferred. Initial functionality testing targets Apple browsers/iPhone/iPad; Android follows. User gameplay or a complete user playthrough is not a release gate.
 
 ## Required completion modules
 
@@ -68,11 +76,11 @@ Provide a definitive Kingdom Hearts III completion journal covering the base gam
 - Lucky Emblems
 - Classic Kingdom games
 - Game Records
-- Character files and glossary entries
+- Character files and glossary as reference/search context, without narrative completion gates
 - Secret Reports
 - Photo Missions
 - synthesis records
-- completion percentages and their exact rules
+- category collection counts and exact goal predicates, separate from narrative Journal state
 
 ### Minigames and challenges
 
@@ -99,7 +107,7 @@ Provide a definitive Kingdom Hearts III completion journal covering the base gam
 
 - Routes and zones
 - treasures and blueprints
-- enemy constellations
+- constellation photographs and their blueprints
 - missions, ranks, and rewards
 - ship parts and customization
 - optional bosses
@@ -142,6 +150,9 @@ Keep add-on progress distinct from base-game completion:
 - `dlc_content_set`
 - `premium_menu_code` and `merit`
 - `platform_achievement`
+- `acquisition_event` linking collectible, contained item and reward without duplicate counting
+- `save_profile`, `save_lineage`, `edition_status` and `content_entitlement`
+- `material_discovery`, `inventory_quantity`, `crafted_once` and independent `recipe_unlock`
 
 ## Primary user experiences
 
@@ -170,15 +181,17 @@ This supersedes the earlier bright-page palette proposal. The journal is the inf
 
 See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
-## Known research gaps
+## Evidence baseline and unresolved data
 
-- Exact base-game completion formula and Gummiphone category rules
-- Complete platform and patch differences
-- Re Mind/platform achievement distinctions
-- Exact minigame rank thresholds
-- Record-level authoritative sourcing
-- Whether later releases bundle DLC in ways that affect edition labeling
+The [numbered inventory](kh3/collectible-inventory.md) accounts for 245 base chests, 90 Lucky Emblems and nine separate Re Mind chests. Five Golden Herc Figures, ten Frozen Slider prizes, reports and Gummi collectibles use their own units. The research also enumerates 23 Classic Kingdom acquisitions, 20 Photo Mission subjects/rewards, 59 ingredients, 28 dishes, 15 Battlegates/13 Reports and 13 Limitcut first-clear rewards. These are candidate source-grounded inventories, not completed precise route/equipment/recipe datasets.
+
+Concrete synthesis fixtures include the seven Orichalcum+ paths, Ultima's 58-type recipe unlock and full recipe, and the Kingdom Key's ten forge transitions with calculated material totals. Preserve uncertainty around Flan equality comparisons, Forest Clasp's exact cutoff, Toy Box emblem 8's floor label, Premium Menu rank/score rules and stale synthesis UI statements. Resolve these through content research and app/data validation; do not require the user to replay the game.
+
+The [edition audit](kh3/editions-and-dlc.md) separates free updates from paid Re Mind, shipped Steam/console/cloud releases from announced native 2026-10-08 editions, and platform-exclusive Keyblades. The official cloud sunset notice and new native announcements are recorded with dates. Upcoming builds are not certified by this research.
+
+Required remaining data: complete original chest/emblem/camera routes; all synthesis/equipment/material/cooking relationships and quantities; all Gummi treasure/fragment/mission/part records; complete Game Records and optional reward predicates; base/DLC/NG+ save semantics; exact achievement sets and code eligibility by shipped platform. See [readiness](../readiness/kingdom-hearts-iii.md) for coverage and fixtures.
 
 ## Release acceptance criteria
 
-A player must be able to account for every base-game and Re Mind completion item, trace every material and collectible to an acquisition path, distinguish optional records from required completion, and understand platform-specific achievement requirements without another guide.
+A player can find/acquire the specified collectibles, materials and equipment from complete text guidance and clearly see separate base, Re Mind, recipe, record and achievement goals. The app must pass meaningful calculation, linked-state, offline, migration, backup and mobile functionality checks, with source conflicts represented honestly. No full narrative Journal reproduction, Available Now tracking, spoiler controls or user playthrough gate is implied.
+
