@@ -82,3 +82,14 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Alternatives considered:** Earlier speculative game palettes; one literal book treatment for all games.
 - **Consequences:** Theme support must cover layout variants as well as color tokens. DDD and a distinct 0.2 treatment await further inspiration. Reference images are not production screenshot assets; text-first MVP remains unchanged.
 - **Supersedes / superseded by:** Replaces earlier speculative KH1/KH2/KH3 palette proposals and refines DEC-003; does not replace the journal concept.
+
+## DEC-007: Persistent checklists for every game
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Problem:** Players need to track completion across sessions without losing their place.
+- **Decision:** Every game has checkable completion items with automatically saved state, offline persistence, Remaining filters, progress counts, and resume context in MVP.
+- **Rationale:** Explicit user requirement that players can check things off as they go and return reliably.
+- **Consequences:** Stable identifiers, game/character scope, migrations, failure handling, and accessible completion controls are required. Local-first storage and export/import are proposed safeguards; cloud sync is not implied.
+- **Alternatives considered:** Session-only checklists; reference-only guides.
+- **Supersedes / superseded by:** Makes persistent checklist behavior mandatory rather than a generic future planning item.
