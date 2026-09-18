@@ -143,4 +143,13 @@ References discussed during planning:
 - Depiction: full-body Jiminy with blue hat, yellow vest, folded umbrella and raised index finger. User supplied this asset for Data Jiminy.
 - Design use: bottom-right launcher across game journals. Preserve aspect ratio, transparent silhouette and the raised hand. Proposed placement puts the separate “…” button above/beside the raised finger; evaluate at actual phone size without covering journal controls.
 - Keep the bubble as an independent accessible UI control, not text baked into the image. Scale responsively; avoid enlarging the raster beyond useful sharpness. No image alteration was requested or performed.
-- Storage status: original retained as the user attachment; this planning update records its identity and metadata, not a repository binary import. Import a named app asset during implementation. User-supplied provenance is recorded; no independent license assertion is made.
+- Repository original: [data-jiminy-full.png](../assets/data-jiminy/data-jiminy-full.png). The actual PNG is checked in unchanged, including transparency. User-supplied provenance is recorded; no independent license assertion is made.
+
+## User-supplied chat icon
+
+Use the supplied compact Jiminy face as his chat icon. Original attachment: `2de78f28-3dea-4a09-8c36-28f09030bc21.png`; persistent attachment ID: `libfile_aa5043b420148191838e98a9dcfafa6e`.
+
+- Repository original: [data-jiminy-chat-icon.png](../assets/data-jiminy/data-jiminy-chat-icon.png).
+- 512 × 512 RGBA PNG with transparency, preserved byte-for-byte.
+- SHA-256: `7693584fe123b003176275fff7321297f99cc353e5b0dcc7cef320ff4c3488a1`.
+- Use for compact chat/avatar presentation; retain the full-body asset for the larger anchored Jiminy treatment. Both are available for responsive design. The separate accessible “…” button remains the specified opener; this asset does not itself change that interaction.
