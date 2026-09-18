@@ -6,14 +6,16 @@ Accepted requirement: every supported game needs checklists with memory so playe
 
 This document specifies future implementation; no progress storage or application UI has been built yet.
 
+Accepted refinement (2026-09-18): follow the [collectible compendium and linked-view contract](collectible-compendium-and-linked-views.md). World progress measures collectibles; narrative Journal updates do not enter its denominator.
+
 ## Required behavior
 
 - Check or uncheck an individual completion item in one action from its list or detail entry.
 - Automatically persist each change; no separate Save button.
 - Restore checked state after navigation, refresh, app/browser closure, and offline relaunch.
-- Show the same state wherever the same item appears, including world lists, search, recipe details, and completion dashboards.
+- Show the same state wherever the same item appears, including compact world indexes, expanded location rows, search, recipe details, and completion dashboards. Compact and expanded checks address one stable saved record in both directions; they are not separately synchronized copies.
 - Provide All, Remaining, and Completed filters, plus world/area/category filters.
-- Show completed/total counts by category and world with a clear definition of what counts.
+- Show completed/total collectible counts by category and world with an explicit counting unit and membership. Narrative progression, conversations and character biography updates do not count. Keep crafting, challenges, records and achievements in named separate goal tracks.
 - Remember the last game, section, and relevant filters; offer a clear Resume action.
 - Allow undo for recent changes. Never reset progress during a content update.
 - Keep completion separate from selected, focused, new, unavailable, or spoiler-hidden state.
@@ -99,3 +101,9 @@ Cloud accounts, background sync, conflict resolution across devices, and automat
 11. Reset cancellation preserves everything; confirmed reset affects only the named scope.
 12. Keyboard/screen-reader toggling, partial groups, filtered-list focus, and undo work.
 13. Restore the last section/filter and provide a usable Resume action.
+
+## Linked collection views
+
+The compact journal index groups collectible slots by world; opening a world expands those same records into precise location/acquisition rows. Use verified in-game ordering where available and label app-defined ordering where the game has no corresponding inventory. Group summaries are derived, not independently saved checkmarks. Filters change visible rows, not the underlying collection denominator. A checked chest appearing in several categories must not be counted several times in one world total.
+
+Acceptance: toggle in the compact index and verify the expanded row and count; toggle back in details and verify the index, search and saved offline state. Reorder content and retain the same checks by ID. Record an access milestone or character-story update and verify world collectible progress does not change. See the shared contract for grouped rewards, explicit scopes and remaining cases.
