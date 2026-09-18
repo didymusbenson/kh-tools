@@ -47,7 +47,7 @@ Production screenshots and maps are deferred beyond MVP, but the layouts must su
 - Maps and screenshots may appear together with clearly distinct captions.
 - Enlarged media must preserve journal position when closed.
 - Edition/platform-specific images require visible context.
-- Spoiler-sensitive media remains intentionally hidden.
+- Show all available content openly; no spoiler warnings, blur, hiding or reveal controls.
 - Optional uncached images do not block offline entry content.
 - Test synthetic/owned fixtures must never be confused with production guide assets.
 
@@ -83,7 +83,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Per-game theme tokens for color, ornament, display type, icons, and motion
 - Quiet reading surfaces for dense reference material
 - Texture treated as decoration rather than the source of contrast
-- Consistent completion, source, edition, spoiler, and media indicators across themes
+- Consistent completion, source, edition and media indicators across themes
 - Original visual interpretation rather than direct menu reproduction
 
 ## Usability scenarios
@@ -98,3 +98,7 @@ See [Screenshot, Map, and Visual Location Support](./content/screenshot-and-map-
 - Search for a material, follow it to an enemy, then to the enemy's area.
 - Use a dense melding/recipe planner at phone width.
 - Return to the most recent journal entry after relaunch.
+
+## Accepted collection and synthesis controls
+
+No Available Now filter or story/ability milestone tracker. Keep acquisition conditions readable in detail rows. Optional inventory displays ingredient owned/required (x/y) values with accessible labels; recipe reference remains usable with it off. Follow [synthesis/inventory](./content/synthesis-and-inventory.md) and the [Apple-first app acceptance plan](./testing-and-content-validation.md).
