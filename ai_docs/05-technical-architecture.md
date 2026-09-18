@@ -114,3 +114,9 @@ Confirmed MVP requirement: bundle a small language model (SLM) with Ars Arcanum 
 - Test factual grounding, citations, missing-data responses, game/edition isolation, offline behavior, unsupported devices, and content/index updates before release.
 
 Related project: [WintersRain/coppermind](https://github.com/WintersRain/coppermind), identified by the user as a collaboration. Inspect its architecture and license before deciding whether to reuse code, integrate it, or borrow its approach. No integration or model selection has been committed to.
+
+## First-class synthesis and validation policy
+
+Implement [synthesis/inventory](./content/synthesis-and-inventory.md) as deterministic domain logic shared by UI and Data Jiminy. Optional owned-stock counters and historical crafted checks are separate state; multi-recipe calculations allocate stock once. Validate game-specific formulas and conflict status with independent fixtures.
+
+Follow [testing/content validation](./testing-and-content-validation.md): Apple browser, iPhone and iPad initial app smoke/acceptance, Android follow-up. No mandatory user gameplay test. Do not implement spoiler concealment or a manual progress-gate/Available Now system.
