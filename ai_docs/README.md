@@ -36,6 +36,8 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 - [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
+- [Collectible compendium and linked collection views](./content/collectible-compendium-and-linked-views.md)
+- [Parallel game research assignments](./research/parallel-game-research.md)
 - [Screenshot, map, and visual location support](./content/screenshot-and-map-support.md)
 - [KHTABLES Drive source audit](./sources/khtables-drive-audit.md)
 
@@ -55,4 +57,4 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 ## Player progress
 
-[Persistent checklists and player progress](./content/persistent-checklists-and-progress.md) is a shared MVP requirement for every game. Checkmarks must survive visits and offline use.
+[Persistent checklists and player progress](./content/persistent-checklists-and-progress.md) is a shared MVP requirement for every game. Checkmarks must survive visits and offline use. Compact world indexes and expanded location rows share the same saved item records. World progress measures collectibles; narrative Journal flags are not collection requirements.
