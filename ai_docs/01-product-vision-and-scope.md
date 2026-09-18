@@ -10,6 +10,10 @@ Build the definitive, mobile-first Kingdom Hearts completion journal: a fast Rea
 
 Ars Arcanum interprets Jiminy's Journal as a living cross-game reference rather than reproducing a specific game's menu UI.
 
+## MVP scope rule
+
+All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features or authorize implementation while discovery is ongoing.
+
 ## Experience promise
 
 - Select a game through the retained fly-in home-menu interaction.
@@ -38,6 +42,7 @@ Ars Arcanum interprets Jiminy's Journal as a living cross-game reference rather 
 - Use game-specific tools such as BBS command melding
 - Distinguish edition, platform, base-game, and add-on requirements
 - Verify source provenance and data freshness
+- Ask a per-game Coppermind questions and receive sourced answers from stored guide data using a bundled SLM
 
 ## Confirmed game specifications
 
@@ -47,7 +52,7 @@ Ars Arcanum interprets Jiminy's Journal as a living cross-game reference rather 
 - Dream Drop Distance, including HD-version differences
 - Kingdom Hearts III, including separately scoped Re Mind content
 
-This list can expand; it does not yet establish first-release sequencing.
+All listed games are MVP scope. Development order does not remove games from the first release without explicit user approval.
 
 ## In scope
 
@@ -59,6 +64,7 @@ This list can expand; it does not yet establish first-release sequencing.
 - Search, filtering, cross-linking, checklists, and progress
 - Structured provenance and edition applicability
 - Game-specific calculators and planners
+- Bundled SLM powering game-scoped Coppermind Q&A grounded in stored guide data
 
 ## Out of scope unless later accepted
 
@@ -80,8 +86,8 @@ This list can expand; it does not yet establish first-release sequencing.
 
 ## Open questions
 
-- Which game ships first?
+- In what order do we build and validate the MVP games?
 - What is the minimum content threshold for a game to appear in production?
-- Which progress state remains device-local, and does any later version sync?
+- Which progress state remains device-local, and is synchronization needed? No cloud-sync decision has been made.
 - What original visual assets and icon system will define Ars Arcanum?
 - How much lore/context belongs beside completion-focused material?
