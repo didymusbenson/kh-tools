@@ -27,9 +27,9 @@ Deep links may enter directly at steps 3–5.
   - Completion overview
 - Game journal
   - Contents
-  - Worlds/story progress
+  - Worlds and collectible locations
   - Collections and treasures
-  - Characters
+  - Character context where useful for acquisition
   - Adversaries
   - Synthesis/crafting
   - Equipment and abilities
@@ -77,7 +77,10 @@ Sections adapt to the selected game's actual systems. Empty generic sections sho
 
 ### Completion semantics
 
-- Required for in-game 100%
+World collection progress uses explicit collectible membership; it is not a story-progress meter. Narrative Journal flags are outside the default checklist. Keep other goals separate and name their verified requirements.
+
+- Required for a named collection goal
+- Required for an explicitly identified in-game reward/unlock
 - Required for trophy/achievement
 - Optional collection
 - Optional encounter
@@ -122,3 +125,9 @@ Sections adapt to the selected game's actual systems. Empty generic sections sho
 - Are games presented as separate volumes or major sections of one volume?
 - How should release collections be exposed without competing with canonical games?
 - Which filters and progress choices persist locally?
+
+## Compact index and expanded world details
+
+Follow the [shared compendium contract](./content/collectible-compendium-and-linked-views.md): world-grouped collectible slots lead to the same items' location/acquisition rows. Both views read and write one persistent record per item; no second set of checks. Preserve journal ordering where verified and distinguish app-defined ordering otherwise. Checking and opening details must be distinct accessible actions.
+
+World details answer where an item is, how to reach it, required abilities/access conditions, and what it yields. Routine plot steps and character conversations are not completion tasks. A necessary acquisition conversation remains valid guidance. Synthesis, equipment, challenge, Gummi and achievement navigation remain in scope as separate goals.
