@@ -1,6 +1,6 @@
-# KH Tools Planning Documentation
+# Ars Arcanum Planning Documentation
 
-This directory is the planning workspace for rebuilding KH Tools as a mobile-first React Progressive Web App.
+This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented as a comprehensive interpretation of Jiminy's Journal.
 
 ## Current phase
 
@@ -24,6 +24,7 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 ## Detailed specifications
 
+- [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
 - [KHTABLES Drive source audit](./sources/khtables-drive-audit.md)
 
@@ -33,7 +34,9 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - Core reference material should remain usable offline after initial installation.
 - Content should be structured data where practical, rather than embedded in presentation markup.
 - Search and quick answers are first-class experiences.
-- Each game has a distinct completion model and may have a distinct visual theme.
+- The fly-in game selector is retained from the original project.
+- Game interiors use a Jiminy's Journal metaphor rather than recreating pause menus.
+- Each game has a distinct completion model and visual theme within a shared journal system.
 - Shared UI and data primitives should not erase game-specific terminology or workflows.
 - Existing useful content should be inventoried before it is migrated or replaced.
 - Legacy data is discovery evidence until it has been verified and its reuse rights established.
