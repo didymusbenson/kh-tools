@@ -1,0 +1,37 @@
+{
+  "name": "ars-arcanum",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "content:build": "node tools/content/build.mjs && node tools/coppermind/restore-pack.mjs",
+    "coppermind:check": "python3 tools/coppermind/check_pack.py",
+    "build": "npm run content:build && npm run coppermind:check && tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "predev": "node tools/prepare-runtime.mjs",
+    "prebuild": "node tools/prepare-runtime.mjs",
+    "coppermind:package": "python3 tools/coppermind/package.py"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@sparticuz/chromium": "^153.0.0",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.7.0",
+    "fake-indexeddb": "^6.2.2",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.6",
+    "vite-plugin-pwa": "^1.0.3",
+    "vitest": "^3.2.4"
+  }
+}

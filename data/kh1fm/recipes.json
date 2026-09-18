@@ -1,0 +1,988 @@
+[
+  {
+    "id": "kh1fm-recipe-mega-potion",
+    "entryId": "kh1fm-recipe-mega-potion",
+    "productId": "kh1fm-recipe-mega-potion",
+    "name": "Mega-Potion",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-spirit-shard",
+        "name": "Spirit Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-power-shard",
+        "name": "Power Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril-shard",
+        "name": "Mythril Shard",
+        "quantity": 4
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-cottage",
+    "entryId": "kh1fm-recipe-cottage",
+    "productId": "kh1fm-recipe-cottage",
+    "name": "Cottage",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-shard",
+        "name": "Lucid Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-bright-shard",
+        "name": "Bright Shard",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-energy-bangle",
+    "entryId": "kh1fm-recipe-energy-bangle",
+    "productId": "kh1fm-accessory-energy-bangle",
+    "name": "Energy Bangle",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-spirit-shard",
+        "name": "Spirit Shard",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-bright-shard",
+        "name": "Bright Shard",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-power-chain",
+    "entryId": "kh1fm-recipe-power-chain",
+    "productId": "kh1fm-accessory-power-chain",
+    "name": "Power Chain",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-power-shard",
+        "name": "Power Shard",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-lucid-shard",
+        "name": "Lucid Shard",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-magic-armlet",
+    "entryId": "kh1fm-recipe-magic-armlet",
+    "productId": "kh1fm-accessory-magic-armlet",
+    "name": "Magic Armlet",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-shard",
+        "name": "Blaze Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-frost-shard",
+        "name": "Frost Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-thunder-shard",
+        "name": "Thunder Shard",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-exp-earring",
+    "entryId": "kh1fm-recipe-exp-earring",
+    "productId": "kh1fm-accessory-exp-earring",
+    "name": "EXP Earring",
+    "set": 1,
+    "unlock": "Initial set",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-fury-stone",
+        "name": "Fury Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-power-stone",
+        "name": "Power Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril-stone",
+        "name": "Mythril Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-serenity-power",
+        "name": "Serenity Power",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-mega-ether",
+    "entryId": "kh1fm-recipe-mega-ether",
+    "productId": "kh1fm-recipe-mega-ether",
+    "name": "Mega-Ether",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-shard",
+        "name": "Blaze Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-frost-shard",
+        "name": "Frost Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-thunder-shard",
+        "name": "Thunder Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril",
+        "name": "Mythril",
+        "quantity": 2
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-guard-earring",
+    "entryId": "kh1fm-recipe-guard-earring",
+    "productId": "kh1fm-accessory-guard-earring",
+    "name": "Guard Earring",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-bright-shard",
+        "name": "Bright Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-frost-shard",
+        "name": "Frost Shard",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril-shard",
+        "name": "Mythril Shard",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-angel-bangle",
+    "entryId": "kh1fm-recipe-angel-bangle",
+    "productId": "kh1fm-accessory-angel-bangle",
+    "name": "Angel Bangle",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-thunder-shard",
+        "name": "Thunder Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-bright-gem",
+        "name": "Bright Gem",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-golem-chain",
+    "entryId": "kh1fm-recipe-golem-chain",
+    "productId": "kh1fm-accessory-golem-chain",
+    "name": "Golem Chain",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-shard",
+        "name": "Blaze Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-spirit-gem",
+        "name": "Spirit Gem",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-rune-armlet",
+    "entryId": "kh1fm-recipe-rune-armlet",
+    "productId": "kh1fm-accessory-rune-armlet",
+    "name": "Rune Armlet",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-gem",
+        "name": "Blaze Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-frost-gem",
+        "name": "Frost Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-thunder-gem",
+        "name": "Thunder Gem",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-moogle-badge",
+    "entryId": "kh1fm-recipe-moogle-badge",
+    "productId": "kh1fm-accessory-moogle-badge",
+    "name": "Moogle Badge",
+    "set": 2,
+    "unlock": "Craft 3 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blazing-stone",
+        "name": "Blazing Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-frost-stone",
+        "name": "Frost Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-lightning-stone",
+        "name": "Lightning Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril",
+        "name": "Mythril",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-orichalcum",
+        "name": "Orichalcum",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-ap-up",
+    "entryId": "kh1fm-recipe-ap-up",
+    "productId": "kh1fm-recipe-ap-up",
+    "name": "AP Up",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-gem",
+        "name": "Blaze Gem",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-frost-gem",
+        "name": "Frost Gem",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-thunder-gem",
+        "name": "Thunder Gem",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-mythril",
+        "name": "Mythril",
+        "quantity": 4
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-dark-ring",
+    "entryId": "kh1fm-recipe-dark-ring",
+    "productId": "kh1fm-accessory-dark-ring",
+    "name": "Dark Ring",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-gem",
+        "name": "Lucid Gem",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-bright-gem",
+        "name": "Bright Gem",
+        "quantity": 2
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-master-earring",
+    "entryId": "kh1fm-recipe-master-earring",
+    "productId": "kh1fm-accessory-master-earring",
+    "name": "Master Earring",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-spirit-shard",
+        "name": "Spirit Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-spirit-gem",
+        "name": "Spirit Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-fury-stone",
+        "name": "Fury Stone",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-gaia-bangle",
+    "entryId": "kh1fm-recipe-gaia-bangle",
+    "productId": "kh1fm-accessory-gaia-bangle",
+    "name": "Gaia Bangle",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-shard",
+        "name": "Lucid Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-lucid-gem",
+        "name": "Lucid Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-lightning-stone",
+        "name": "Lightning Stone",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-titan-chain",
+    "entryId": "kh1fm-recipe-titan-chain",
+    "productId": "kh1fm-accessory-titan-chain",
+    "name": "Titan Chain",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-power-shard",
+        "name": "Power Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-power-gem",
+        "name": "Power Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-power-stone",
+        "name": "Power Stone",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-mythril",
+    "entryId": "kh1fm-recipe-mythril",
+    "productId": "kh1fm-material-mythril",
+    "name": "Mythril",
+    "set": 3,
+    "unlock": "Craft 9 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-mythril-shard",
+        "name": "Mythril Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-mythril-stone",
+        "name": "Mythril Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mystery-goo",
+        "name": "Mystery Goo",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-elixir",
+    "entryId": "kh1fm-recipe-elixir",
+    "productId": "kh1fm-recipe-elixir",
+    "name": "Elixir",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-power-crystal",
+        "name": "Power Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-shiny-crystal",
+        "name": "Shiny Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-bright-crystal",
+        "name": "Bright Crystal",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-orichalcum",
+        "name": "Orichalcum",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-defense-up",
+    "entryId": "kh1fm-recipe-defense-up",
+    "productId": "kh1fm-recipe-defense-up",
+    "name": "Defense Up",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-shard",
+        "name": "Lucid Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-bright-shard",
+        "name": "Bright Shard",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-bright-gem",
+        "name": "Bright Gem",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-power-crystal",
+        "name": "Power Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-orichalcum",
+        "name": "Orichalcum",
+        "quantity": 5
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-heartguard",
+    "entryId": "kh1fm-recipe-heartguard",
+    "productId": "kh1fm-accessory-heartguard",
+    "name": "Heartguard",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-gem",
+        "name": "Lucid Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-lucid-crystal",
+        "name": "Lucid Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-bright-crystal",
+        "name": "Bright Crystal",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-three-stars",
+    "entryId": "kh1fm-recipe-three-stars",
+    "productId": "kh1fm-accessory-three-stars",
+    "name": "Three Stars",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-power-gem",
+        "name": "Power Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-mystery-goo",
+        "name": "Mystery Goo",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-shiny-crystal",
+        "name": "Shiny Crystal",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-atlas-armlet",
+    "entryId": "kh1fm-recipe-atlas-armlet",
+    "productId": "kh1fm-accessory-atlas-armlet",
+    "name": "Atlas Armlet",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-shard",
+        "name": "Blaze Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-frost-shard",
+        "name": "Frost Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-thunder-shard",
+        "name": "Thunder Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-mystery-goo",
+        "name": "Mystery Goo",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-crystal-crown",
+    "entryId": "kh1fm-recipe-crystal-crown",
+    "productId": "kh1fm-accessory-crystal-crown",
+    "name": "Crystal Crown",
+    "set": 4,
+    "unlock": "Craft 15 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-crystal",
+        "name": "Lucid Crystal",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-power-crystal",
+        "name": "Power Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-shiny-crystal",
+        "name": "Shiny Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-blazing-stone",
+        "name": "Blazing Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-frost-stone",
+        "name": "Frost Stone",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-megalixir",
+    "entryId": "kh1fm-recipe-megalixir",
+    "productId": "kh1fm-recipe-megalixir",
+    "name": "Megalixir",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-gem",
+        "name": "Lucid Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-lucid-crystal",
+        "name": "Lucid Crystal",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-gale",
+        "name": "Gale",
+        "quantity": 2
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-power-up",
+    "entryId": "kh1fm-recipe-power-up",
+    "productId": "kh1fm-recipe-power-up",
+    "name": "Power Up",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-spirit-shard",
+        "name": "Spirit Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-spirit-gem",
+        "name": "Spirit Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-power-shard",
+        "name": "Power Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-power-gem",
+        "name": "Power Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 1
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-cosmic-arts",
+    "entryId": "kh1fm-recipe-cosmic-arts",
+    "productId": "kh1fm-accessory-cosmic-arts",
+    "name": "Cosmic Arts",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-bright-shard",
+        "name": "Bright Shard",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-bright-gem",
+        "name": "Bright Gem",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-bright-crystal",
+        "name": "Bright Crystal",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril-stone",
+        "name": "Mythril Stone",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-exp-bracelet",
+    "entryId": "kh1fm-recipe-exp-bracelet",
+    "productId": "kh1fm-accessory-exp-bracelet",
+    "name": "EXP Bracelet",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-energy-stone",
+        "name": "Energy Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-dazzling-stone",
+        "name": "Dazzling Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-stormy-stone",
+        "name": "Stormy Stone",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-orichalcum",
+        "name": "Orichalcum",
+        "quantity": 8
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-ribbon",
+    "entryId": "kh1fm-recipe-ribbon",
+    "productId": "kh1fm-accessory-ribbon",
+    "name": "Ribbon",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blaze-gem",
+        "name": "Blaze Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-frost-gem",
+        "name": "Frost Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-thunder-gem",
+        "name": "Thunder Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-gale",
+        "name": "Gale",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-serenity-power",
+        "name": "Serenity Power",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-dark-matter",
+    "entryId": "kh1fm-recipe-dark-matter",
+    "productId": "kh1fm-material-dark-matter",
+    "name": "Dark Matter",
+    "set": 5,
+    "unlock": "Craft 21 different products",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-lucid-shard",
+        "name": "Lucid Shard",
+        "quantity": 9
+      },
+      {
+        "itemId": "kh1fm-material-gale",
+        "name": "Gale",
+        "quantity": 1
+      },
+      {
+        "itemId": "kh1fm-material-mythril",
+        "name": "Mythril",
+        "quantity": 2
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-fantasista",
+    "entryId": "kh1fm-recipe-fantasista",
+    "productId": "kh1fm-weapon-fantasista",
+    "name": "Fantasista",
+    "set": 6,
+    "unlock": "Craft all 30 products from sets I–V",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-fury-stone",
+        "name": "Fury Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-power-stone",
+        "name": "Power Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-mythril-stone",
+        "name": "Mythril Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-energy-stone",
+        "name": "Energy Stone",
+        "quantity": 5
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-seven-elements",
+    "entryId": "kh1fm-recipe-seven-elements",
+    "productId": "kh1fm-weapon-seven-elements",
+    "name": "Seven Elements",
+    "set": 6,
+    "unlock": "Craft all 30 products from sets I–V",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-blazing-stone",
+        "name": "Blazing Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-frost-stone",
+        "name": "Frost Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-lightning-stone",
+        "name": "Lightning Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-dazzling-stone",
+        "name": "Dazzling Stone",
+        "quantity": 5
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  },
+  {
+    "id": "kh1fm-recipe-ultima-weapon",
+    "entryId": "kh1fm-recipe-ultima-weapon",
+    "productId": "kh1fm-weapon-ultima-weapon",
+    "name": "Ultima Weapon",
+    "set": 6,
+    "unlock": "Craft all 30 products from sets I–V",
+    "ingredients": [
+      {
+        "itemId": "kh1fm-material-thunder-gem",
+        "name": "Thunder Gem",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-mystery-goo",
+        "name": "Mystery Goo",
+        "quantity": 5
+      },
+      {
+        "itemId": "kh1fm-material-serenity-power",
+        "name": "Serenity Power",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-stormy-stone",
+        "name": "Stormy Stone",
+        "quantity": 3
+      },
+      {
+        "itemId": "kh1fm-material-dark-matter",
+        "name": "Dark Matter",
+        "quantity": 3
+      }
+    ],
+    "outputQuantity": 1,
+    "verification": "source-backed"
+  }
+]

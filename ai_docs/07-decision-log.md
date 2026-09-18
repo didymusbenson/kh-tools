@@ -1,5 +1,16 @@
 # Decision Log
 
+## DEC-018: Implementation, isolated Chroma instances and transient Jiminy conversations
+
+- **Status:** Accepted
+- **Date:** 2026-09-18
+- **Decision:** Implement KH1FM now using a specialist agent team and a corrective UI/UX review, followed by orchestrator review and fixes. Save repeatable implementation patterns for the remaining games. Initial user acceptance devices are desktop Chrome and iPhone 17; these supersede the previous initial three-device matrix.
+- **Copperminds:** Every canonical game owns a separate ChromaDB persistent database instance/directory, not a collection inside a shared database. Inspect/reuse the original WintersRain Coppermind capability. Wire the application and retrieval pipeline before seeding actual KH1FM thoughts. Seed concise factual units with useful tags, categories, stable source links and compatible embeddings.
+- **Offline compatibility:** Chroma instances are the content-preparation/query source. Export their data and embeddings into separate browser-local game packs so the phone requires neither Python nor a Chroma server. This retains the accepted fully offline player runtime.
+- **Conversation:** Do not persist Jiminy chat history or conversational memory. In-memory follow-up context may remain isolated per game during the current app session. A reload/restart clears it. Player checklists, inventory and resume state continue to persist.
+- **Consequences:** Test real instance separation and pack scoping, idempotent seeding, browser retrieval parity, no transcript storage, and downloaded model readiness. Distinguish desktop/mobile emulation from real iPhone 17 acceptance.
+- **Supersedes:** Earlier undecided transcript retention, shared-database interpretations, planning-only implementation restrictions for the now-authorized KH1FM work, and the initial iPad acceptance requirement. Does not remove other games from overall MVP scope.
+
 Record decisions that should survive individual planning conversations. Each entry should include the problem, decision, rationale, alternatives, and consequences.
 
 ## Decision template
@@ -193,3 +204,8 @@ Record decisions that should survive individual planning conversations. Each ent
 - **Rationale:** Explicit user direction: KH1 must not surface BBS questions or context, while avoiding a model per game.
 - **Consequences:** Isolate history, retrieved context, suggested questions and answer caches; discard stale responses after switching. Reuse shared model weights/downloads. No unscoped launcher on the game-selection screen. Maintain accessible controls, safe-area/keyboard spacing and the existing direct-answer/disclaimer requirements. All games inherit this contract.
 - **Supersedes:** Earlier wording that shared inference was merely possible. Refines DEC-009/010; the shared query-embedding component remains part of local retrieval.
+
+
+## DEC-019 — Research citations stay out of player-facing entries
+
+The user clarified during implementation that external research citations were for their review. Data Jiminy's visible citations and journal cross-references link to canonical in-app entries. Removed external research link lists, verification badges and research-audit copy from the player UI. Provenance remains in canonical records, Coppermind metadata and developer documentation for maintenance and factual checks. Necessary factual uncertainty remains visible. Media credit/attribution is a separate asset requirement.

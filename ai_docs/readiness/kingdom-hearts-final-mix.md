@@ -1,5 +1,19 @@
 # Kingdom Hearts Final Mix readiness
 
+## Current implementation assessment — 2026-09-18
+
+The user authorized implementation after the discovery assessment below. The React journal, local progress, exact synthesis planner, normalized content, per-game Coppermind tooling and local Jiminy runtime now exist. See [implementation verification](../implementation/verification.md), [collection reconciliation](../implementation/collectibles.md), [reference data](../implementation/reference-data.md), [corrective UX review](../implementation/ui-ux-review.md) and [reuse lessons](../implementation/lessons-for-other-games.md).
+
+Collection coverage is now 471 records, including 306 treasure/reward records and all finite specialist sets, reconciled to 430 distinct acquisition actions. All 535 candidate world-source rows are classified. The reference data includes all 33 synthesis recipes, complete level/EXP rows and equipment, material, cup, Gummi and Steam-goal catalogs. Machine-readable coverage and per-record uncertainty remain authoritative.
+
+The remaining content qualifications are narrow and visible: Three Stars' conflicting Defense statistic, Unknown's precise earliest portal flag (a guaranteed practical route is supplied), and restricted-run/minigame edge cases not established by available sources. Do not call source-backed records hands-on verified or declare every possible record metric exhaustive. Production location images remain explicitly deferred; optional media behavior is implemented and tested with synthetic assets.
+
+Initial device targets were clarified to **desktop Chrome and iPhone 17**. Automated Chromium desktop and phone-layout checks are implemented. Physical iPhone 17, its soft keyboard, VoiceOver and real mobile model-memory acceptance remain unverified; see the final verification report for executed results. User gameplay verification is not required.
+
+## Historical discovery assessment
+
+The rest of this document is retained as the pre-implementation baseline and requirements checklist. Its statements that schemas/UI are unbuilt or extraction is pending describe that earlier phase, not current implementation status. The reports linked above supersede those historical status claims.
+
 Status: **Sourced planning substantially expanded; full data extraction and validation still required before declaring a comprehensive guide or shipping.**
 Assessment: 2026-09-18, updated after public-source research and the user's collectible-compendium clarification. Based on the [KH1FM spec](../games/kingdom-hearts-final-mix.md), [sourced planning reference](../games/kh1fm/README.md), [content inventory](../02-content-inventory.md), and [legacy source audit](../sources/khtables-drive-audit.md). This pass adds real planning tables and citation links; it is not an exhaustive legacy-workbook audit, normalized database import or hands-on gameplay verification.
 

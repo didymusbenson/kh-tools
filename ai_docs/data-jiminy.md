@@ -37,6 +37,8 @@ These notes do not replace the quoted draft. Review final copy against the imple
 
 ## Shared model, isolated game sessions
 
+Implementation clarification, 2026-09-18: each game has a separate ChromaDB PersistentClient instance and database directory during content preparation. Separate browser packs carry those documents, metadata and matching embeddings to offline clients. Merely partitioning one shared Chroma database into game collections does not satisfy the user's requirement. Seed the KH1FM instance only after the application and retrieval wiring are complete. Chat transcripts and conversational memory are never persisted; per-game follow-up context exists only in RAM for the current app session.
+
 Accepted 2026-09-18: one app-wide answering model, separate game contexts. The active journal determines scope; question text cannot change it.
 
 - Bind every request to the active canonical game ID and applicable ruleset/character/DLC context. Retrieve only that game's permitted records and apply the same scope to citations, suggested questions, progress and inventory calculations.

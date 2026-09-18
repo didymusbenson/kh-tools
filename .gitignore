@@ -3,3 +3,17 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+/dist/
+/.venv/
+/__pycache__/
+*.pyc
+/test-results/
+/playwright-report/
+/copperminds/
+/.copperminds/
+/.cache/
+/.model-cache/
+/public/ort/
+*.tsbuildinfo
+
+/public/data/*-coppermind.json

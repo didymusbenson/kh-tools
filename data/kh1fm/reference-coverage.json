@@ -1,0 +1,114 @@
+[
+  {
+    "category": "recipe",
+    "label": "Final Mix synthesis recipes",
+    "expected": 33,
+    "actual": 33,
+    "complete": true,
+    "notes": "33 distinct products; sets 6/6/6/6/6/3. Energy Bangle reconciled to 2 Spirit Shards using independent KHGuides and dedicated item source. Three Stars corrected to 5 Power Gems. Source-backed, no gameplay verification."
+  },
+  {
+    "category": "material",
+    "label": "Synthesis materials and farming",
+    "expected": 34,
+    "actual": 34,
+    "complete": true,
+    "notes": "All 34 ingredients, ordinary sources, ten special encounters, and all nine Bambi world/gauge reward tables. Membership complete; no hands-on verification."
+  },
+  {
+    "category": "weapon",
+    "label": "Obtainable party weapons",
+    "expected": 48,
+    "actual": 48,
+    "complete": true,
+    "notes": "18 Keyblades, 15 staves, 15 shields. Explicit Final Mix strength/MP overrides replace mixed-version legacy stats; prices and shop gates included."
+  },
+  {
+    "category": "accessory",
+    "label": "Accessory catalog",
+    "expected": 54,
+    "actual": 54,
+    "complete": true,
+    "notes": "All accessories from the KH 1/FM source roster; Final Mix stat overrides applied. Acquisition entries emphasize synthesis/shop/unique reward; every alternative chest is linked through the collectible catalog where available. Three Stars Defense remains an explicit +3/+4 source conflict; roster and recipes are complete."
+  },
+  {
+    "category": "enemy",
+    "label": "Acquisition-relevant enemies",
+    "expected": 44,
+    "actual": 44,
+    "complete": true,
+    "notes": "All 44 acquisition-relevant enemy records include practical farming rooms, source world appearances, field-phase HP/Strength/Defense/EXP, effectiveness and Final Mix reward tables. Shadow has 13 world/phase rows. Cup populations/variants are separate records; an exhaustive room-by-room spawn manifest is not claimed."
+  },
+  {
+    "category": "ability",
+    "label": "Abilities and chosen-weapon unlocks",
+    "expected": 65,
+    "actual": 65,
+    "complete": true,
+    "notes": "65 abilities with AP costs, chosen Sword/Shield/Rod unlocks, party-member unlock clauses and movement abilities; complete 99 level Sora reward matrix links matching abilities. HD Combo Master is Sword 50, Shield 55, Rod 55."
+  },
+  {
+    "category": "progression",
+    "label": "Sora level rewards and complete party EXP curves",
+    "expected": 99,
+    "actual": 99,
+    "complete": true,
+    "notes": "99 Sora level rewards for all three chosen weapons; exact full Dawn/Midday/Dusk, Donald, Goofy and six-guest EXP curves. Complete guide agrees with sums of documented vanilla battle-table increments. HD Combo Master overlay is included. No hands-on verification; party stat gains are outside this matrix."
+  },
+  {
+    "category": "cup",
+    "label": "Cup rounds and clear variants",
+    "expected": 96,
+    "actual": 96,
+    "complete": true,
+    "notes": "83 rounds (7 preliminary + 76 main-cup seeds) and 13 clear records (preliminaries + four party/solo/timed variants). Final Mix opponent variants and corrected counts come from current cup tables; legacy CSV transcription errors were not retained. Gold/Platinum encounters are boss records."
+  },
+  {
+    "category": "boss",
+    "label": "Optional endgame boss encounters",
+    "expected": 5,
+    "actual": 5,
+    "complete": true,
+    "notes": "Ice Titan, Sephiroth, Kurt Zisa, Phantom and Unknown, with practical strategies and rewards. Unknown’s exact earliest portal flag remains explicit uncertainty. Five additional Destiny Islands sparring checks are present outside this endgame denominator."
+  },
+  {
+    "category": "gummi-mission",
+    "label": "Final Mix Gummi missions",
+    "expected": 30,
+    "actual": 30,
+    "complete": true,
+    "notes": "All 30 destination objectives, departures, rewards and build restrictions. Wonderland 2 specifies at least five Accelerate activations with Haste-G/Haste2-G and no damage, corroborated by a Steam-era guide. Manual checklist, not an automatic game-state validator."
+  },
+  {
+    "category": "blueprint",
+    "label": "Final Mix Gummi blueprints",
+    "expected": 48,
+    "actual": 48,
+    "complete": true,
+    "notes": "9 default/NPC, 28 enemy drops, 11 mission rewards. Enemy entries include a sourced route. Ownership is distinct from ship assembly."
+  },
+  {
+    "category": "achievement",
+    "label": "Steam KH1 Final Mix achievement goals",
+    "expected": 55,
+    "actual": 55,
+    "complete": true,
+    "notes": "All KH1 goals; excludes PlayStation platinum and other games in Steam app 2552430. Modern stacking and 30-blueprint requirement used. Steam API keys are not exposed by the public page and are not invented; platform-key mapping remains unimplemented."
+  },
+  {
+    "category": "minigame",
+    "label": "Minigame clear and Cheer record checks",
+    "expected": null,
+    "actual": 22,
+    "complete": false,
+    "notes": "Two Phil tests, five fruit courses, four vine courses, five Pooh episodes, five independent Cheer records and Riku’s race. Muddy Path now has a complete linked friends route. A linked Phil route covers both barrel layouts; separate saved replay-record fields and repeat rewards are not established. Early sparring is listed under bosses."
+  },
+  {
+    "category": "guide",
+    "label": "Practical challenge and secret-ending guides",
+    "expected": null,
+    "actual": 20,
+    "complete": false,
+    "notes": "Cup boss strategies, Gummi builds, Cheer, both secret endings, full Muddy Path route and both Phil barrel routes. Restricted-run guide now covers party equipment planning, allowed ability/item use, clean-save reloads and post-credits award checks with Steam community evidence. Exact scripted-swap flags, guest edge cases and timer/persistence behavior remain targeted gaps."
+  }
+]

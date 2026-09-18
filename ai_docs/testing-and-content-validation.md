@@ -12,6 +12,8 @@ Content still needs cited, edition-correct sources, reconciliation of contradict
 
 ## Initial app smoke and acceptance matrix
 
+Updated user direction, 2026-09-18: **desktop Chrome and iPhone 17** are the initial acceptance targets. The historical table below records the earlier broader matrix; iPad is no longer an initial requirement. Automated Chromium/WebKit mobile emulation is useful engineering evidence but is not a claim of real iPhone 17 hardware acceptance. Jiminy has no persistent conversation memory.
+
 | Target | Initial scope |
 |---|---|
 | Browser on an Apple computer | Navigation, responsive layouts, keyboard, search, checklist/inventory persistence, synthesis calculations, offline content and Data Jiminy. Record actual browser/OS versions when executing tests. |

@@ -1,14 +1,23 @@
-# Ars Arcanum Planning Documentation
+# Ars Arcanum Design and Implementation Documentation
 
 This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented as a comprehensive interpretation of Jiminy's Journal.
 
 ## Current phase
 
-Discovery and specification only. Application implementation should not begin until the requirements, content model, and first release scope are sufficiently understood.
+KH1FM implementation is authorized and underway. The accepted design remains the contract; implemented behavior, corrective review, validation and reusable patterns are recorded in [implementation](./implementation/). Other game specifications remain in scope and serve as the next implementation workbooks.
 
 ## MVP scope rule
 
-All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features or authorize implementation while discovery is ongoing.
+All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features. The user subsequently authorized implementation of KH1FM and the shared application infrastructure.
+
+## Implementation reports
+
+- [Verification and remaining acceptance boundaries](./implementation/verification.md)
+- [Collection reconciliation](./implementation/collectibles.md)
+- [Reference data and conflicts](./implementation/reference-data.md)
+- [Corrective UI/UX review](./implementation/ui-ux-review.md)
+- [Reusable lessons for other games](./implementation/lessons-for-other-games.md)
+- [GitHub Pages deployment](./implementation/github-pages.md)
 
 ## How to contribute information
 

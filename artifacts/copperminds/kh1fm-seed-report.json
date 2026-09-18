@@ -1,0 +1,32 @@
+{
+  "game": "kh1fm",
+  "databasePath": ".copperminds/kh1fm",
+  "thoughtCount": 4300,
+  "entryCount": 1148,
+  "contentHash": "0cf7929d25f06612c64c2b8b201893f865f6c404aa47a99793408fe7ee21de72",
+  "exportSha256": "e3c32c88ca4d312fcf36f55c829bbed35573be6847686c7c168d91f1382b5258",
+  "categories": {
+    "ability": 166,
+    "accessory": 159,
+    "achievement": 113,
+    "boss": 45,
+    "cup": 370,
+    "dalmatian": 165,
+    "enemy": 131,
+    "guide": 453,
+    "gummi": 188,
+    "magic": 105,
+    "material": 83,
+    "minigame": 83,
+    "postcard": 50,
+    "recipe": 165,
+    "report": 65,
+    "summon": 30,
+    "torn-page": 25,
+    "treasure": 1530,
+    "trinity": 230,
+    "weapon": 144
+  },
+  "archiveSha256": "dab4f540e6ab911b7678353c5ea043943af63eec96f8138bbe5a1d041ac8e414",
+  "browserArchiveSha256": "9597f11947ddd7a440e83a5a89ca7492736918cedd1c0d6d31c2b096d2aa2941"
+}

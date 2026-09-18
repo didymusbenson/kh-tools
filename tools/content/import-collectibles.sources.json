@@ -1,0 +1,4091 @@
+{
+  "checkedAt": "2026-09-18",
+  "worldTables": {
+    "Agrabah": {
+      "Treasures": [
+        [
+          "Mega-Potion",
+          "Agrabah: Plaza",
+          ""
+        ],
+        [
+          "Mega-Ether",
+          "Agrabah: Plaza",
+          ""
+        ],
+        [
+          "Cottage",
+          "Agrabah: Plaza",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Agrabah: Storage",
+          ""
+        ],
+        [
+          "AP Up",
+          "Agrabah: Storage",
+          "Activate the Green Trinity."
+        ],
+        [
+          "Mega-Ether",
+          "Agrabah: Main Street",
+          ""
+        ],
+        [
+          "Dark Matter",
+          "Agrabah: Main Street",
+          ""
+        ],
+        [
+          "Mythril",
+          "Agrabah: Main Street",
+          "Requires High Jump."
+        ],
+        [
+          "Mega-Potion",
+          "Agrabah: Alley",
+          ""
+        ],
+        [
+          "Megalixir",
+          "Aladdin's House",
+          ""
+        ],
+        [
+          "Scissors-G ►",
+          "Aladdin's House",
+          ""
+        ],
+        [
+          "Thundara-G",
+          "Agrabah: Bazaar",
+          ""
+        ],
+        [
+          "Fire Ring",
+          "Agrabah: Bazaar",
+          ""
+        ],
+        [
+          "Mega-Ether; Munny (small) x25; Munny (medium) x15; Munny (large) x5",
+          "Agrabah: Bazaar",
+          "Activate the Blue Trinity."
+        ],
+        [
+          "Protera Chain",
+          "Palace Gates",
+          ""
+        ],
+        [
+          "Puppy No. 52, No. 53, and No. 54",
+          "Palace Gates",
+          "Requires High Jump."
+        ],
+        [
+          "Osmose-G ►",
+          "Palace Gates",
+          "Requires High Jump and Glide."
+        ],
+        [
+          "Mega-Ether",
+          "Cave: Entrance",
+          ""
+        ],
+        [
+          "Puppy No. 49, No. 50, and No. 51",
+          "Cave: Entrance",
+          "Requires High Jump and Glide."
+        ],
+        [
+          "Ifrit Belt",
+          "Cave: Entrance",
+          "Activate the White Trinity."
+        ],
+        [
+          "Elixir",
+          "Cave: Hall",
+          ""
+        ],
+        [
+          "Mythril Shard",
+          "Cave: Hall",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Bottomless Hall",
+          ""
+        ],
+        [
+          "Elixir",
+          "Bottomless Hall",
+          "Requires Glide."
+        ],
+        [
+          "Cottage",
+          "Bottomless Hall",
+          ""
+        ],
+        [
+          "Thunder Ring",
+          "Relic Chamber",
+          ""
+        ],
+        [
+          "Mythril",
+          "Relic Chamber",
+          "Push down block from Bottomless Hall, then return to jump over."
+        ],
+        [
+          "Cottage",
+          "Dark Chamber",
+          "Use High Jump, or jump and attack."
+        ],
+        [
+          "Torn Page",
+          "Dark Chamber",
+          "Go around from Relic Chamber."
+        ],
+        [
+          "Protera Chain",
+          "Dark Chamber",
+          "Go around from Relic Chamber."
+        ],
+        [
+          "Meteor-G",
+          "Dark Chamber",
+          "Go around from Relic Chamber."
+        ],
+        [
+          "Thundara-G",
+          "Silent Chamber",
+          "Activate the Blue Trinity."
+        ],
+        [
+          "Haste2-G",
+          "Hidden Room",
+          "Need to activate Yellow Trinity in Cave: Hall to access area that lowers wall."
+        ],
+        [
+          "Puppy No. 46, No. 47, and No. 48",
+          "Hidden Room",
+          "Need to activate Yellow Trinity in Cave: Hall to access area that lowers wall."
+        ],
+        [
+          "Mythril Shard",
+          "Treasure Room",
+          "Jump over from the Defense Up chest."
+        ],
+        [
+          "Thundaga-G",
+          "Treasure Room",
+          ""
+        ],
+        [
+          "Defense Up",
+          "Treasure Room",
+          "Jump up or make Abu activate statue."
+        ],
+        [
+          "Puppy No. 37, No. 38, and No. 39",
+          "Treasure Room",
+          "Jump over from the Mythril Shard chest."
+        ],
+        [
+          "Mythril Shard; Munny (small) x18; Munny (medium) x15; Munny (large) x12",
+          "Treasure Room",
+          "Activate the Red Trinity."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Genie; Green Trinity; Three Wishes",
+          "Aladdin's House",
+          "Obtained after locking the Keyhole."
+        ],
+        [
+          "Ray of Light",
+          "Agrabah",
+          "Defeat the Pot Centipede."
+        ],
+        [
+          "Power of ice",
+          "Lamp Chamber",
+          "Defeat Jafar."
+        ],
+        [
+          "Power of fire; Ansem's Report 1",
+          "Cave: Core",
+          "Defeat Jafar (Genie)."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Green Trinity #1",
+          "Agrabah: Storage",
+          "In front of the shelf.",
+          "AP Up"
+        ],
+        [
+          "Blue Trinity #11",
+          "Agrabah: Bazaar",
+          "In the middle of the floor.",
+          "Mega-Ether; Munny (small) x25; Munny (medium) x15; Munny (large) x5"
+        ],
+        [
+          "White Trinity #6",
+          "Cave: Entrance",
+          "Entrance, in the middle of floor.",
+          "Ifrit Belt"
+        ],
+        [
+          "Yellow Trinity #3",
+          "Cave: Hall",
+          "Hall, in front of pillar.",
+          "Gain access to Hidden Room."
+        ],
+        [
+          "Blue Trinity #12",
+          "Silent Chamber",
+          "Right in front of the steps.",
+          "Thundara-G"
+        ],
+        [
+          "Red Trinity #4",
+          "Treasure Room",
+          "In front of statue.",
+          "Mythril Shard; Munny (small) x18; Munny (medium) x15; Munny (large) x12"
+        ]
+      ]
+    },
+    "Atlantica": {
+      "Treasures": [
+        [
+          "Elixir",
+          "Undersea Valley",
+          "Inside white clam."
+        ],
+        [
+          "Cottage",
+          "Undersea Valley",
+          "Inside white clam."
+        ],
+        [
+          "Mega-Ether",
+          "Undersea Valley",
+          "Inside white clam."
+        ],
+        [
+          "Mega-Potion",
+          "Undersea Valley",
+          "Inside white clam."
+        ],
+        [
+          "Mythril",
+          "Undersea Valley",
+          "Inside white clam."
+        ],
+        [
+          "Mythril Shard",
+          "Undersea Valley",
+          "Inside red clam, requires Fire magic to open."
+        ],
+        [
+          "Cottage",
+          "Undersea Cave",
+          "Inside white clam."
+        ],
+        [
+          "Mega-Ether",
+          "Undersea Gorge",
+          "Inside white clam."
+        ],
+        [
+          "Mythril Shard",
+          "Undersea Gorge",
+          "Inside blue clam, requires Blizzard magic to open."
+        ],
+        [
+          "Orichalcum",
+          "Undersea Gorge",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Undersea Garden",
+          "Inside white clam."
+        ],
+        [
+          "Mega-Ether",
+          "Triton's Palace",
+          "Inside white clam."
+        ],
+        [
+          "Cottage",
+          "Triton's Palace",
+          "Inside white clam."
+        ],
+        [
+          "Elixir",
+          "Triton's Palace",
+          "Inside white clam."
+        ],
+        [
+          "Mythril Shard",
+          "Triton's Palace",
+          "Inside yellow clam, requires Thunder magic to open."
+        ],
+        [
+          "Orichalcum",
+          "Triton's Palace",
+          "Activate the White Trinity."
+        ],
+        [
+          "Mega-Potion",
+          "Ariel's Grotto",
+          ""
+        ],
+        [
+          "Cottage",
+          "Ariel's Grotto",
+          ""
+        ],
+        [
+          "Torn Page",
+          "Ariel's Grotto",
+          ""
+        ],
+        [
+          "Elixir",
+          "Sunken Ship",
+          ""
+        ],
+        [
+          "Mythril Shard",
+          "Sunken Ship",
+          ""
+        ],
+        [
+          "Mythril Shard",
+          "Below Deck",
+          ""
+        ],
+        [
+          "Crystal Trident",
+          "Below Deck",
+          ""
+        ],
+        [
+          "Mythril",
+          "Below Deck",
+          "Inside white clam."
+        ],
+        [
+          "Mega-Ether",
+          "Cavern Nook",
+          "Inside white clam."
+        ],
+        [
+          "Mythril",
+          "Ursula's Lair",
+          "Hit the sea urchin with fire to open the shell. Requires you to leave the map once after defeating Ursula before being able to hit the sea urchin."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Mermaid Kick",
+          "Ursula's Lair",
+          "Defeat Ursula."
+        ],
+        [
+          "Power of thunder; Ansem's Report 3",
+          "Triton's Throne",
+          "Defeat giant Ursula."
+        ],
+        [
+          "Crabclaw",
+          "Ariel's Grotto",
+          "Lock the Keyhole."
+        ]
+      ],
+      "Trinities": [
+        [
+          "White Trinity #8",
+          "Triton's Palace",
+          "On the floor in the center of the spiral shell structure.",
+          "Orichalcum"
+        ]
+      ]
+    },
+    "Wonderland": {
+      "Treasures": [
+        [
+          "Camping Set",
+          "Rabbit Hole",
+          "Appears after defeating the enemies; only available between visiting the Queen's Castle and starting the trial."
+        ],
+        [
+          "Mega-Potion",
+          "Rabbit Hole",
+          "Appears after defeating the enemies; only available between starting the trial and rescuing Kairi."
+        ],
+        [
+          "Megalixir",
+          "Rabbit Hole",
+          "Appears after defeating the enemies; only available after rescuing Kairi."
+        ],
+        [
+          "Elixir",
+          "Rabbit Hole",
+          "Activate the Green Trinity."
+        ],
+        [
+          "Stench",
+          "Bizarre Room",
+          "On stove; only obtainable before trial."
+        ],
+        [
+          "Claw Marks",
+          "Bizarre Room",
+          "On top of the cabinet; only obtainable before trial."
+        ],
+        [
+          "Potion x2; Mythril Shard; HP Orb (small) x30",
+          "Bizarre Room",
+          "Investigate the plant after lighting the lamp in the Bizarre Room (upside-down)"
+        ],
+        [
+          "Mythril Shard",
+          "Bizarre Room",
+          "Available after materializing the book."
+        ],
+        [
+          "Mythril Shard",
+          "Bizarre Room",
+          "Activate the Green Trinity in the fireplace."
+        ],
+        [
+          "Puppy No. 13, No. 14, and No. 15",
+          "Queen's Castle",
+          "On top of the right-hand hedge."
+        ],
+        [
+          "Meteor-G",
+          "Queen's Castle",
+          "On top of the right hedge."
+        ],
+        [
+          "Thundara-G",
+          "Queen's Castle",
+          "On top of the left hedge."
+        ],
+        [
+          "Footprints",
+          "Lotus Forest",
+          "Found to the right of the mushroom-steps."
+        ],
+        [
+          "Potion; Ether; Tent; MP Orb (small) x40",
+          "Lotus Forest",
+          "Activate the Blue Trinity."
+        ],
+        [
+          "Puppy No. 16, No. 17, and No. 18",
+          "Lotus Forest",
+          "On a ledge near the center tree."
+        ],
+        [
+          "Antenna",
+          "Lotus Forest",
+          "Found atop a lily-pad platform."
+        ],
+        [
+          "Scan-G ◯",
+          "Lotus Forest",
+          "Back corner behind the tree."
+        ],
+        [
+          "Camping Set; MP Orb (small) x40; MP Orb (large) x5",
+          "Lotus Forest",
+          "Activate the Blue Trinity in the hidden area."
+        ],
+        [
+          "Thundara-G",
+          "Lotus Forest",
+          "Use Thunder on the Lily of the Valley in the hidden area."
+        ],
+        [
+          "Puppy No. 58, No. 59, and No. 60",
+          "Lotus Forest",
+          "Use Thunder on the Lily of the Valley in the area with the White Trinity."
+        ],
+        [
+          "Lady Luck",
+          "Lotus Forest",
+          "Activate the White Trinity."
+        ],
+        [
+          "Orichalcum",
+          "Lotus Forest",
+          "Mushroom over the pond. Need Glide to reach."
+        ],
+        [
+          "Defense Up",
+          "Bizarre Room (Sideways)",
+          "After touching the lamp."
+        ],
+        [
+          "Potion; HP Orb (small) x40",
+          "Tea Party Garden",
+          "Sit on the far chair on the left side of the table."
+        ],
+        [
+          "Potion; MP Orb (small) x40",
+          "Tea Party Garden",
+          "Sit on the middle chair on the left side of the table."
+        ],
+        [
+          "Ether; MP Orb (small) x30; MP Orb (large) x10",
+          "Tea Party Garden",
+          "Sit on the nearest chair on the left side of the table."
+        ],
+        [
+          "Elixir; HP Orb (small) x10; MP Orb (small) x10; Munny (small) x30",
+          "Tea Party Garden",
+          "Sit on the far chair on the right side of the table."
+        ],
+        [
+          "Potion; Munny (small) x40; Munny (medium) x4",
+          "Tea Party Garden",
+          "Sit on the nearest chair on the right side of the table."
+        ],
+        [
+          "Dark Matter",
+          "Tea Party Garden",
+          "On balcony."
+        ],
+        [
+          "Flare-G",
+          "Tea Party Garden",
+          "On the arched entrance."
+        ],
+        [
+          "Puppy No. 19, No. 20, and No. 21",
+          "Tea Party Garden",
+          "On the arched entrance."
+        ],
+        [
+          "Mythril",
+          "Tea Party Garden",
+          "On ledge on far side of the wall. Need Glide to reach."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Power of ice",
+          "Bizarre Room",
+          "Obtained after finding the Claw Marks / Obtained after defeating the Trickmaster."
+        ],
+        [
+          "Ifrit's Horn; Navi-G Piece",
+          "Bizarre Room",
+          "Defeat the Trickmaster."
+        ],
+        [
+          "Camping Set; HP Orb (small) x40",
+          "Lotus Forest",
+          "Give an Ether to the Red Flower."
+        ],
+        [
+          "Hi-Potion; MP Orb (small) x40",
+          "Lotus Forest",
+          "Give a Potion to the Yellow Flower."
+        ],
+        [
+          "Camping Set; HP Orb (small) x40",
+          "Lotus Forest",
+          "Give an Ether to the Red Flower."
+        ],
+        [
+          "Mega-Potion; MP Orb (small) x30; MP Orb (large) x10",
+          "Lotus Forest",
+          "Give a Hi-Potion to the Red Flower in the hidden area."
+        ],
+        [
+          "Mythril Shard; Munny (small) x40; Munny (large) x5",
+          "Lotus Forest",
+          "Give an Elixir to the Yellow Flower in the area with the White Trinity."
+        ],
+        [
+          "Hi-Potion; MP Orb (small) x40",
+          "Lotus Forest",
+          "Give a Potion to the Yellow Flower in the area with the White Trinity."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Green Trinity #3",
+          "Rabbit Hole",
+          "Where Sora and the party enter at the beginning of the world.",
+          "Elixir"
+        ],
+        [
+          "Green Trinity #4",
+          "Bizarre Room",
+          "In the fireplace.",
+          "Mythril Shard"
+        ],
+        [
+          "Blue Trinity #5",
+          "Lotus Forest",
+          "In the alcove to the right where you can give the flower a potion.",
+          "Potion; Ether; Tent; MP Orb (small) x40"
+        ],
+        [
+          "Blue Trinity #6",
+          "Lotus Forest",
+          "After the boulder comes out of the flower, grow big and move the boulder into the water, then jump up the lily Pads into the hidden area.",
+          "Camping Set; MP Orb (small) x40; MP Orb (large) x5"
+        ],
+        [
+          "White Trinity #3",
+          "Lotus Forest",
+          "In the closed off area that can be reached through the painting on the wall of the Bizarre Room.",
+          "Lady Luck"
+        ]
+      ]
+    },
+    "Monstro": {
+      "Treasures": [
+        [
+          "Scan-G ◯",
+          "Monstro: Mouth",
+          "On the tall pile of wreckage next to Geppetto's ship."
+        ],
+        [
+          "High Jump",
+          "Monstro: Mouth",
+          "On Geppetto's ship after first Parasite Cage battle."
+        ],
+        [
+          "Watergleam",
+          "Monstro: Mouth",
+          "On the tallest rock in the Mouth; near entrance."
+        ],
+        [
+          "Puppy No. 73, No. 74, and No. 75",
+          "Monstro: Mouth",
+          "Requires High Jump."
+        ],
+        [
+          "Cottage",
+          "Monstro: Mouth",
+          "Requires High Jump."
+        ],
+        [
+          "Potion x2; Cottage; Munny (medium) x10",
+          "Monstro: Mouth",
+          "Activate Blue Trinity."
+        ],
+        [
+          "Mythril Shard",
+          "Monstro: Mouth",
+          "Activate Green Trinity."
+        ],
+        [
+          "Cottage",
+          "Monstro: Chamber 2",
+          ""
+        ],
+        [
+          "Megalixir",
+          "Monstro: Chamber 2",
+          ""
+        ],
+        [
+          "Mega-Ether",
+          "Monstro: Chamber 3",
+          ""
+        ],
+        [
+          "Puppy No. 55, No. 56, and No. 57",
+          "Monstro: Chamber 3",
+          "On the highest ledge in the room."
+        ],
+        [
+          "Osmose-G ◄",
+          "Monstro: Chamber 3",
+          "On one of the mid-level ledges."
+        ],
+        [
+          "Flare-G",
+          "Monstro: Chamber 3",
+          "Requires High Jump."
+        ],
+        [
+          "Mega-Ether",
+          "Monstro: Chamber 5",
+          ""
+        ],
+        [
+          "Thundaga-G",
+          "Monstro: Chamber 5",
+          ""
+        ],
+        [
+          "Mythril",
+          "Monstro: Chamber 5",
+          ""
+        ],
+        [
+          "Puppy No. 79, No. 80, and No. 81",
+          "Monstro: Chamber 5",
+          "On the high ledge."
+        ],
+        [
+          "Cottage; Munny (small) x18; Munny (medium) x15; Munny (large) x12",
+          "Monstro: Chamber 5",
+          "Activate Blue Trinity."
+        ],
+        [
+          "Puppy No. 76, No. 77, and No. 78",
+          "Monstro: Chamber 6",
+          ""
+        ],
+        [
+          "Torn Page",
+          "Monstro: Chamber 6",
+          ""
+        ],
+        [
+          "Megalixir",
+          "Monstro: Chamber 6",
+          ""
+        ],
+        [
+          "Mythril",
+          "Monstro: Chamber 6",
+          ""
+        ],
+        [
+          "Dark Matter",
+          "Monstro: Chamber 6",
+          "Activate White Trinity."
+        ],
+        [
+          "Mythril Shard; Munny (small) x40; Munny (large) x3",
+          "Monstro: Throat",
+          "Activate Blue Trinity."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Goofy: Cheer",
+          "Monstro: Bowels",
+          "Defeat the Parasite Cage."
+        ],
+        [
+          "Power of time",
+          "Monstro: Stomach",
+          "Defeat the Parasite Cage."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Blue Trinity #14",
+          "Monstro: Mouth",
+          "On the platform on top of the tall rock in the center of the Mouth.",
+          "Potion x2; Cottage; Munny (medium) x10"
+        ],
+        [
+          "Green Trinity #7",
+          "Monstro: Mouth",
+          "On the roof of Gepetto's ship; requires High Jump.",
+          "Mythril Shard"
+        ],
+        [
+          "Blue Trinity #13",
+          "Monstro: Chamber 5",
+          "On the ground right in front of the lower entrance from Chamber 6.",
+          "Cottage; Munny (small) x18; Munny (medium) x15; Munny (large) x12"
+        ],
+        [
+          "White Trinity #7",
+          "Monstro: Chamber 6",
+          "In the low-lying area behind the tallest \"step\".",
+          "Dark Matter"
+        ],
+        [
+          "Blue Trinity #15",
+          "Monstro: Throat",
+          "In the center of the floor of the room.",
+          "Mythril Shard; Munny (small) x40; Munny (large) x3"
+        ]
+      ]
+    },
+    "100 Acre Wood": {
+      "Treasures": [
+        [
+          "Mythril Shard",
+          "Wood: Meadow",
+          ""
+        ],
+        [
+          "Elixir",
+          "Pooh's Room",
+          "Open the cabinet."
+        ],
+        [
+          "Mega-Ether",
+          "Pooh's Room",
+          "Hit the chimney on the top of Pooh's House."
+        ],
+        [
+          "Potion (8%); Elixir (2%)",
+          "Rabbit's House",
+          "Pull a pumpkin or cabbage out of the ground. By exiting and re-entering the map, the vegetables will reappear."
+        ],
+        [
+          "Mythril Shard",
+          "Bouncing Spot",
+          ""
+        ],
+        [
+          "Dark Matter",
+          "Bouncing Spot",
+          ""
+        ],
+        [
+          "AP Up",
+          "Bouncing Spot",
+          "Beneath giant honey pot."
+        ],
+        [
+          "Shield2-G",
+          "Bouncing Spot",
+          "Inside tree near Pooh."
+        ],
+        [
+          "Mythril",
+          "Bouncing Spot",
+          "Hit the fallen tree."
+        ],
+        [
+          "Rare Nut",
+          "Bouncing Spot",
+          "Use the seesaw with Roo to reach."
+        ],
+        [
+          "Rare Nut",
+          "Bouncing Spot",
+          "Use the seesaw with Roo to reach."
+        ],
+        [
+          "Rare Nut",
+          "Bouncing Spot",
+          "Use the seesaw with Tigger to reach."
+        ],
+        [
+          "Rare Nut",
+          "Bouncing Spot",
+          "Activate the geyser near Piglet to reach."
+        ],
+        [
+          "Rare Nut",
+          "Bouncing Spot",
+          "Activate the geyser in the corner to reach."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Naturespark",
+          "100 Acre Wood",
+          "Complete Pooh's Hunny Hunt."
+        ],
+        [
+          "Mythril Shard",
+          "100 Acre Wood",
+          "Complete Block Tigger."
+        ],
+        [
+          "Power of time",
+          "100 Acre Wood",
+          "Complete Pooh's Swing."
+        ],
+        [
+          "Mythril",
+          "100 Acre Wood",
+          "Return to the map after completing Tigger's Giant Pot."
+        ],
+        [
+          "Mythril",
+          "Pooh's House",
+          "After completing Pooh's Swing, light the campfire and talk to Pooh."
+        ],
+        [
+          "Cheer",
+          "Pooh's House",
+          "After getting the required scores on all five mini-games, talk to Owl."
+        ],
+        [
+          "Power Up",
+          "Bouncing Spot",
+          "Give the first Rare Nut to Owl."
+        ],
+        [
+          "Defense Up",
+          "Bouncing Spot",
+          "Give the second Rare Nut to Owl."
+        ],
+        [
+          "Mythril Shard",
+          "Bouncing Spot",
+          "Give the third Rare Nut to Owl."
+        ],
+        [
+          "AP Up",
+          "Bouncing Spot",
+          "Give the fourth Rare Nut to Owl."
+        ],
+        [
+          "Orichalcum",
+          "Bouncing Spot",
+          "Give the fifth Rare Nut to Owl."
+        ],
+        [
+          "EXP Ring",
+          "Muddy Path",
+          "Complete Pooh's Muddy Path."
+        ]
+      ]
+    },
+    "Olympus Coliseum": {
+      "Treasures": [
+        [
+          "Mega-Potion",
+          "Coliseum Gates",
+          "Behind the columns to the left of the Lobby entrance."
+        ],
+        [
+          "Mythril Shard",
+          "Coliseum Gates",
+          "Activate the Blue Trinity under the left statue."
+        ],
+        [
+          "Puppy No. 22, No. 23, and No. 24",
+          "Coliseum Gates",
+          "Activate the Blue Trinity under the right statue."
+        ],
+        [
+          "Mythril",
+          "Coliseum Gates",
+          "Activate the Green Trinity."
+        ],
+        [
+          "Holy-G",
+          "Coliseum Gates",
+          "Use Blizzara to put out all the torches. Appears on the left side."
+        ],
+        [
+          "Violetta",
+          "Coliseum Gates",
+          "Activate the White Trinity."
+        ],
+        [
+          "Shiva Belt",
+          "Coliseum Gates",
+          "Use Blizzaga to put out all the torches. Appears on the right side."
+        ],
+        [
+          "Orichalcum",
+          "Coliseum Gates",
+          "On the right side of the Lobby entrance, after winning the Hades Cup."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Entry Pass",
+          "Coliseum Gates",
+          "Obtained after completing Phil's Training."
+        ],
+        [
+          "Sonic Blade",
+          "Coliseum Gates",
+          "Talk to Cloud after defeating Cerberus."
+        ],
+        [
+          "Power of thunder",
+          "Coliseum: Lobby",
+          "Complete Phil's Training."
+        ],
+        [
+          "Hero's License",
+          "Coliseum: Lobby",
+          "Obtained after defeating Cerberus."
+        ],
+        [
+          "Yellow Trinity",
+          "Coliseum: Lobby",
+          "Win the Hercules Cup."
+        ],
+        [
+          "Olympia",
+          "Coliseum: Lobby",
+          "Win the Phil Cup, Pegasus Cup, and Hercules Cup."
+        ],
+        [
+          "Inferno Band",
+          "The Coliseum",
+          "Defeat Cerberus."
+        ],
+        [
+          "Power of stars",
+          "The Coliseum",
+          "Win the Phil Cup."
+        ],
+        [
+          "Combo Plus",
+          "The Coliseum",
+          "Win the Phil Cup alone."
+        ],
+        [
+          "Tech Boost",
+          "The Coliseum",
+          "Win the Phil Cup time trial."
+        ],
+        [
+          "Strike Raid",
+          "The Coliseum",
+          "Win the Pegasus Cup."
+        ],
+        [
+          "Orichalcum",
+          "The Coliseum",
+          "Win the Pegasus Cup alone."
+        ],
+        [
+          "Dark Matter",
+          "The Coliseum",
+          "Win the Pegasus Cup time trial."
+        ],
+        [
+          "Metal Chocobo",
+          "The Coliseum",
+          "Defeat Cloud in the Hercules Cup."
+        ],
+        [
+          "Herc's Shield",
+          "The Coliseum",
+          "Win the Hercules Cup."
+        ],
+        [
+          "Critical Plus",
+          "The Coliseum",
+          "Win the Hercules Cup alone."
+        ],
+        [
+          "Gravity Break",
+          "The Coliseum",
+          "Win the Hercules Cup time trial."
+        ],
+        [
+          "Genji Shield",
+          "The Coliseum",
+          "Defeat Yuffie in the Hades Cup."
+        ],
+        [
+          "Power of ice",
+          "The Coliseum",
+          "Defeat the Behemoth in the Hades Cup."
+        ],
+        [
+          "Power of thunder",
+          "The Coliseum",
+          "Defeat Cerberus in the Hades Cup."
+        ],
+        [
+          "Lionheart",
+          "The Coliseum",
+          "Defeat Cloud and Leon in the Hades Cup."
+        ],
+        [
+          "Power of stars; Ansem's Report 8",
+          "The Coliseum",
+          "Defeat Hades in the Hades Cup."
+        ],
+        [
+          "Trinity Limit",
+          "The Coliseum",
+          "Win the Hades Cup."
+        ],
+        [
+          "Save the Queen",
+          "The Coliseum",
+          "Win the Hades Cup alone."
+        ],
+        [
+          "Save the King",
+          "The Coliseum",
+          "Win the Hades Cup time trial."
+        ],
+        [
+          "Diamond Dust",
+          "The Coliseum",
+          "Win the Gold Match."
+        ],
+        [
+          "Ansem's Report 12; One-Winged Angel",
+          "The Coliseum",
+          "Win the Platinum Match."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Blue Trinity #7",
+          "Coliseum Gates",
+          "Under the left statue.",
+          "Mythril Shard"
+        ],
+        [
+          "Blue Trinity #8",
+          "Coliseum Gates",
+          "Under the right statue.",
+          "Puppy No. 22, No. 23, and No. 24"
+        ],
+        [
+          "Green Trinity #5",
+          "Coliseum Gates",
+          "To the left of the main entrance in front of the Tournament rankings.",
+          "Mythril"
+        ],
+        [
+          "White Trinity #4",
+          "Coliseum Gates",
+          "On the ground in the very center of the area.",
+          "Violetta"
+        ],
+        [
+          "Yellow Trinity #1",
+          "Coliseum: Lobby",
+          "Next to the stone Phil asks you to move.",
+          "Olympus Coliseum Keyhole"
+        ]
+      ]
+    },
+    "End of the World": {
+      "Treasures": [
+        [
+          "Mythril Shard",
+          "Final Dimension",
+          ""
+        ],
+        [
+          "Pretty Stone",
+          "Final Dimension",
+          "Obtained after fighting Darkballs and Invisibles."
+        ],
+        [
+          "Mega-Potion",
+          "Final Dimension",
+          ""
+        ],
+        [
+          "Mythril",
+          "Final Dimension",
+          "Arch Behemoth."
+        ],
+        [
+          "Elixir",
+          "Final Dimension",
+          ""
+        ],
+        [
+          "Mythril Shard",
+          "Final Dimension",
+          ""
+        ],
+        [
+          "Pretty Stone",
+          "Final Dimension",
+          "Obtained after fighting Invisibles and Angel Stars."
+        ],
+        [
+          "Cottage",
+          "Final Dimension",
+          ""
+        ],
+        [
+          "AP Up",
+          "Final Dimension",
+          "Obtained after fighting Shadows, Darkballs, and Invisibles."
+        ],
+        [
+          "Gale",
+          "Final Dimension",
+          "Obtained after fighting Darkballs, Invisibles, and Angel Stars."
+        ],
+        [
+          "Dark Matter",
+          "Giant Crevasse",
+          ""
+        ],
+        [
+          "Full-Life-G",
+          "Giant Crevasse",
+          ""
+        ],
+        [
+          "Ultima-G",
+          "Giant Crevasse",
+          ""
+        ],
+        [
+          "Drill-G",
+          "Giant Crevasse",
+          ""
+        ],
+        [
+          "Meteor Strike",
+          "Giant Crevasse",
+          ""
+        ],
+        [
+          "Spirit Gem",
+          "World Terminus",
+          "Traverse Town area."
+        ],
+        [
+          "Thunder Gem",
+          "World Terminus",
+          "Wonderland area."
+        ],
+        [
+          "Frost Gem",
+          "World Terminus",
+          "Olympus Coliseum area."
+        ],
+        [
+          "Bright Gem",
+          "World Terminus",
+          "Deep Jungle area."
+        ],
+        [
+          "Blaze Gem",
+          "World Terminus",
+          "Agrabah area."
+        ],
+        [
+          "AP Up",
+          "World Terminus",
+          "Atlantica area."
+        ],
+        [
+          "Lucid Gem",
+          "World Terminus",
+          "Halloween Town area."
+        ],
+        [
+          "Mighty Shield",
+          "World Terminus",
+          "Neverland area."
+        ],
+        [
+          "Megalixir",
+          "World Terminus",
+          "100 Acre Wood area."
+        ],
+        [
+          "Elixir",
+          "World Terminus",
+          "Laboratory area."
+        ],
+        [
+          "Megalixir",
+          "Final Rest",
+          ""
+        ]
+      ],
+      "Rewards": [
+        [
+          "Superglide",
+          "Evil Grounds",
+          "Defeat Chernabog."
+        ]
+      ]
+    },
+    "Traverse Town": {
+      "Treasures": [
+        [
+          "Postcard",
+          "First District",
+          "Accessory Shop roof."
+        ],
+        [
+          "Postcard",
+          "First District",
+          "Blue safe near Second District door; open after speaking to Yuffie in the Green Room."
+        ],
+        [
+          "Postcard",
+          "First District",
+          "On cafe balcony; activate Blue Trinity to reach it."
+        ],
+        [
+          "Munny (small) x35; Munny (medium) x5; Munny (large) x3",
+          "First District",
+          "Activate Blue Trinity near World Exit."
+        ],
+        [
+          "Defense Up",
+          "First District",
+          "Extinguish all candles in cafe."
+        ],
+        [
+          "Postcard",
+          "Item Shop",
+          "Hit the fan in the Item Shop."
+        ],
+        [
+          "Mythril Shard",
+          "Accessory Shop",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Second District",
+          "Ledge on Gizmo Shop front."
+        ],
+        [
+          "Postcard",
+          "Second District",
+          "Awning near door to First District."
+        ],
+        [
+          "Mythril Shard",
+          "Second District",
+          "On buildings after crossing from the top of Gizmo Shop. Available after defeating the Guard Armor."
+        ],
+        [
+          "Postcard x2",
+          "Gizmo Shop",
+          "Examine the clock in the Gizmo Shop after turning on the power."
+        ],
+        [
+          "Elixir",
+          "Green Room",
+          "Talk to Leon or Yuffie to learn how to unlock the chest."
+        ],
+        [
+          "Mythril",
+          "Green Room",
+          "Strike the clock until it reads 7:00."
+        ],
+        [
+          "Pretty Stone",
+          "Red Room",
+          ""
+        ],
+        [
+          "Potion",
+          "Alleyway",
+          ""
+        ],
+        [
+          "Pretty Stone",
+          "Alleyway",
+          "On small awning near entrance of Alleyway."
+        ],
+        [
+          "Potion",
+          "Alleyway",
+          "On balcony of the farthest Hotel room, near the entrance."
+        ],
+        [
+          "Puppy no. 4, no. 5, and no. 6",
+          "Alleyway",
+          "Behind the tall stack of crates. Red Trinity or High Jump is required."
+        ],
+        [
+          "Postcard",
+          "Third District",
+          "Examine end of balcony; accessible from Second District rooftops. Available after defeating the Guard Armor."
+        ],
+        [
+          "Camping Set; Munny (small) x40; Munny (medium) x4",
+          "Third District",
+          "Activate Blue Trinity in the alley running behind the Lady and the Tramp fountain."
+        ],
+        [
+          "AP Up",
+          "Mystical House",
+          "Activate Yellow Trinity to reach it."
+        ],
+        [
+          "Puppy no. 1, no. 2, and no. 3",
+          "Mystical House",
+          "On the tiny island behind the Mystical House. Requires Mermaid Kick or Glide."
+        ],
+        [
+          "Mega-Ether; Munny (small) x40; Munny (medium) x2",
+          "Magician's Study",
+          "Activate Blue Trinity on the floor."
+        ],
+        [
+          "Puppy no. 10, no. 11, and no. 12",
+          "Secret Waterway",
+          "In the Secret Waterway, just inside the door leading to the stairs."
+        ],
+        [
+          "Orichalcum",
+          "Secret Waterway",
+          "Activate White Trinity."
+        ],
+        [
+          "Navi-Gummi",
+          "Secret Waterway",
+          "Examine mural after first visit to Hollow Bastion."
+        ],
+        [
+          "Puppy no. 7, no. 8, and no. 9",
+          "Item Workshop",
+          ""
+        ],
+        [
+          "Mythril Shard",
+          "Item Workshop",
+          ""
+        ],
+        [
+          "Postcard",
+          "Item Workshop",
+          "Examine messages on wall."
+        ],
+        [
+          "Wishing Star",
+          "Geppetto's House",
+          ""
+        ],
+        [
+          "Postcard",
+          "Geppetto's House",
+          "Examine pot."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Mega-Potion",
+          "First District",
+          "Talk to Aerith between leaving the Green Room and fighting the Guard Armor."
+        ],
+        [
+          "Munny x500; Power of fire; Blue Trinity; Dodge Roll",
+          "First District",
+          "Obtained after defeating the Guard Armor."
+        ],
+        [
+          "Elixir",
+          "First District",
+          "Obtained after defeating the Guard Armor, if you won the fight against Leon."
+        ],
+        [
+          "Comet-G",
+          "First District",
+          "Talk to Cid after locking the Keyholes in Wonderland and Deep Jungle."
+        ],
+        [
+          "Transform-G",
+          "First District",
+          "Talk to Cid after locking Neverland's Keyhole."
+        ],
+        [
+          "Cottage",
+          "First District",
+          "Mail the first Postcard."
+        ],
+        [
+          "Mythril Shard",
+          "First District",
+          "Mail the second Postcard."
+        ],
+        [
+          "Mega-Potion",
+          "First District",
+          "Mail the third Postcard."
+        ],
+        [
+          "Mega-Ether",
+          "First District",
+          "Mail the fourth Postcard."
+        ],
+        [
+          "Mythril",
+          "First District",
+          "Mail the fifth Postcard."
+        ],
+        [
+          "Elixir",
+          "First District",
+          "Mail the sixth Postcard."
+        ],
+        [
+          "Megalixir",
+          "First District",
+          "Mail the seventh Postcard."
+        ],
+        [
+          "Orichalcum",
+          "First District",
+          "Mail the eighth Postcard."
+        ],
+        [
+          "AP Up",
+          "First District",
+          "Mail the ninth Postcard."
+        ],
+        [
+          "Defense Up",
+          "First District",
+          "Mail the tenth Postcard."
+        ],
+        [
+          "Old Book",
+          "Accessory Shop",
+          "Talk to Cid after locking the Keyholes in Wonderland and Deep Jungle."
+        ],
+        [
+          "Power of wind; Navi-G Piece",
+          "Second District",
+          "Defeat the Opposite Armor."
+        ],
+        [
+          "Curaga-G",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 12 puppies."
+        ],
+        [
+          "Firaga-G",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 21 puppies."
+        ],
+        [
+          "Thundara-G",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 30 puppies."
+        ],
+        [
+          "Mythril Shard",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 42 puppies."
+        ],
+        [
+          "Torn Page; Mythril",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 51 puppies."
+        ],
+        [
+          "Megalixir",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 60 puppies."
+        ],
+        [
+          "Orichalcum",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 72 puppies."
+        ],
+        [
+          "Ultima-G",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 81 puppies."
+        ],
+        [
+          "Tech Boost",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 90 puppies."
+        ],
+        [
+          "Power of wind; Complete gummi collection",
+          "Dalmatians' Den",
+          "Talk to Pongo and Perdita after rescuing 99 puppies."
+        ],
+        [
+          "Brave Warrior",
+          "Third District",
+          "Defeat the Guard Armor."
+        ],
+        [
+          "Warp-G",
+          "Small House",
+          "Talk to Cid."
+        ],
+        [
+          "Simba",
+          "Magician's Study",
+          "Give the Earthshine to Fairy Godmother."
+        ],
+        [
+          "Dumbo",
+          "Magician's Study",
+          "Give the Watergleam to Fairy Godmother."
+        ],
+        [
+          "Bambi",
+          "Magician's Study",
+          "Give the Naturespark to Fairy Godmother."
+        ],
+        [
+          "Mushu",
+          "Magician's Study",
+          "Give the Fireglow to Fairy Godmother."
+        ],
+        [
+          "Spellbinder",
+          "Magician's Study",
+          "Talk to Merlin after learning all 7 Magic spells."
+        ],
+        [
+          "Dream Shield",
+          "Magician's Study",
+          "Talk to Merlin after obtaining all 7 Arts items."
+        ],
+        [
+          "Dream Rod",
+          "Magician's Study",
+          "Talk to Merlin after upgrading all 7 Magic spells to -ga tier."
+        ],
+        [
+          "Lord Fortune",
+          "Magician's Study",
+          "Talk to Fairy Godmother after obtaining all Summon spells."
+        ],
+        [
+          "Earthshine",
+          "Secret Waterway",
+          "Talk to Leon after locking Deep Jungle's Keyhole."
+        ],
+        [
+          "Oathkeeper",
+          "Secret Waterway",
+          "Talk to Kairi after first visit to Hollow Bastion."
+        ],
+        [
+          "Geppetto",
+          "Geppetto's House",
+          "Talk to Geppetto."
+        ],
+        [
+          "Cid",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 500 enemies."
+        ],
+        [
+          "Cactuar",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 1000 enemies."
+        ],
+        [
+          "Yuffie",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 1500 enemies."
+        ],
+        [
+          "Aerith",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 3000 enemies."
+        ],
+        [
+          "Leon",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 4000 enemies."
+        ],
+        [
+          "Chocobo",
+          "Geppetto's House",
+          "Talk to Pinocchio after entering Geppetto's House 30 times."
+        ],
+        [
+          "Hyperion",
+          "Geppetto's House",
+          "Talk to Geppetto after defeating 5000 enemies and obtaining all Summon spells."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Blue Trinity #1",
+          "First District",
+          "In front of the restaurant tables.",
+          "Transported to balcony with Postcard in chest."
+        ],
+        [
+          "Blue Trinity #2",
+          "First District",
+          "In the left corner near the world exit.",
+          "Munny (small) x35; Munny (medium) x5; Munny (large) x3"
+        ],
+        [
+          "Red Trinity #1",
+          "First District",
+          "At the end of the short alley behind the Item Shop.",
+          "Opens access to Alleyway and chest with Puppy No. 4, No. 5, and No. 6."
+        ],
+        [
+          "Green Trinity #1",
+          "Accessory Shop",
+          "In the middle of the floor.",
+          "Lowers ladder to Item Workshop."
+        ],
+        [
+          "Red Trinity #3",
+          "Second District",
+          "On top of the Gizmo Shop roof in Second District, along the back wall.",
+          "Access to bell which reveals Keyhole."
+        ],
+        [
+          "Red Trinity #2",
+          "Alleyway",
+          "On the drainage grate on the end of the alley near the Dalmatian's House.",
+          "Access to Secret Waterway."
+        ],
+        [
+          "Blue Trinity #3",
+          "Third District",
+          "In the alley running behind the Lady and the Tramp fountain.",
+          "Camping Set; Munny (small) x40; Munny (medium) x4"
+        ],
+        [
+          "Yellow Trinity #2",
+          "Mystical House",
+          "In the back of the house, on the stack of crates.",
+          "AP Up."
+        ],
+        [
+          "Blue Trinity #4",
+          "Magician's Study",
+          "On the floor near the main entrance.",
+          "Mega-Ether; Munny (small) x40; Munny (medium) x2"
+        ],
+        [
+          "White Trinity #1",
+          "Secret Waterway",
+          "In the middle of the passage, where the short tunnel connects with the main tunnel.",
+          "Orichalcum"
+        ]
+      ]
+    },
+    "Hollow Bastion": {
+      "Treasures": [
+        [
+          "Life-G",
+          "Rising Falls",
+          ""
+        ],
+        [
+          "Puppy No. 91, No. 92, and No.93",
+          "Rising Falls",
+          ""
+        ],
+        [
+          "Blizzara Ring",
+          "Rising Falls",
+          ""
+        ],
+        [
+          "Megalixir",
+          "Rising Falls",
+          ""
+        ],
+        [
+          "Meteor-G",
+          "Rising Falls",
+          "Underwater."
+        ],
+        [
+          "Defense Up",
+          "Rising Falls",
+          "Underwater."
+        ],
+        [
+          "Thundaga-G",
+          "Rising Falls",
+          "Activate White Trinity."
+        ],
+        [
+          "Puppy No. 94, No. 95, and No. 96",
+          "Castle Gates",
+          "Require Gravity."
+        ],
+        [
+          "Haste2-G",
+          "Castle Gates",
+          ""
+        ],
+        [
+          "Orichalcum",
+          "Castle Gates",
+          ""
+        ],
+        [
+          "Mythril",
+          "Base Level",
+          ""
+        ],
+        [
+          "Thundara-G",
+          "Base Level",
+          ""
+        ],
+        [
+          "Paper-G ◄",
+          "Base Level",
+          ""
+        ],
+        [
+          "Fira Ring",
+          "Waterway",
+          ""
+        ],
+        [
+          "Dark Matter",
+          "Waterway",
+          "Freeze the bubble to use it as a platform."
+        ],
+        [
+          "Thundaga-G",
+          "Waterway",
+          ""
+        ],
+        [
+          "Ultima-G",
+          "Dungeon",
+          ""
+        ],
+        [
+          "Thundaga-G",
+          "Dungeon",
+          ""
+        ],
+        [
+          "Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40",
+          "Dungeon",
+          "Activate Blue Trinity."
+        ],
+        [
+          "AP Up",
+          "Entrance Hall",
+          "Requires High Jump."
+        ],
+        [
+          "Emblem Piece",
+          "Entrance Hall",
+          "In the fountain after breaking the vases on the upper level."
+        ],
+        [
+          "Emblem Piece",
+          "Entrance Hall",
+          "On a platform in the center of the upper level. Can be reached after casting Fire on all 8 candles."
+        ],
+        [
+          "Emblem Piece",
+          "Entrance Hall",
+          "In a treasure chest on the lower level, which appears after pushing a statue on the upper level."
+        ],
+        [
+          "Emblem Piece",
+          "Entrance Hall",
+          "In the center of the lower level, after activating the Red Trinity on the upper level."
+        ],
+        [
+          "Ultima-G",
+          "Library",
+          "On top of bookcase."
+        ],
+        [
+          "Elixir",
+          "Library",
+          "On rotating shelf on ground floor."
+        ],
+        [
+          "Mythril",
+          "Library",
+          "On rotating shelf on second floor."
+        ],
+        [
+          "Mega-Potion",
+          "Library",
+          "On rotating shelf on second floor."
+        ],
+        [
+          "AP Up",
+          "Library",
+          "On rotating shelf on top of bookcase."
+        ],
+        [
+          "Khama vol. 8",
+          "Library",
+          "To the left of ground floor entrance."
+        ],
+        [
+          "Salegg vol. 6",
+          "Library",
+          "In bookshelf on ground floor."
+        ],
+        [
+          "Nahara vol. 5",
+          "Library",
+          "Near bookshelf on ground floor."
+        ],
+        [
+          "Hafet vol. 4",
+          "Library",
+          "On table on ground floor. Requires placing Mava vol. 3 and Mava vol. 6"
+        ],
+        [
+          "Azal vol. 3",
+          "Library",
+          "Activate Green Trinity."
+        ],
+        [
+          "Theon vol. 6",
+          "Library",
+          "On table on second floor."
+        ],
+        [
+          "Mava vol. 6",
+          "Library",
+          "In bookshelf near second floor entrance."
+        ],
+        [
+          "Mava vol. 3",
+          "Library",
+          "In bookshelf on second floor. Requires placing Nahara vol. 5"
+        ],
+        [
+          "Mythril; MP prize (small) x20; MP prize (large) x20",
+          "Lift Stop",
+          "Activate switch in section reached by elevator in the Waterway."
+        ],
+        [
+          "Puppy No. 97, No. 98, and No. 99",
+          "Lift Stop",
+          "In section reached from Library. Requires Gravity."
+        ],
+        [
+          "Orichalcum",
+          "Lift Stop",
+          "In section reached from Waterway, take the lift to the higher floor. Requires Gravity."
+        ],
+        [
+          "Royal Crown",
+          "Lift Stop",
+          "In section reached from doorway underneath moving stairs in the High Tower. Requires Gravity."
+        ],
+        [
+          "Osmose-G ►",
+          "Lift Stop",
+          "In section reached from Library, take the lift. Requires Gravity."
+        ],
+        [
+          "Ramuh Belt",
+          "Lift Stop",
+          "In section reached from Library, take the lift after activating the switch at the High Tower. Requires Gravity."
+        ],
+        [
+          "Thundaga-G",
+          "Great Crest",
+          ""
+        ],
+        [
+          "Orichalcum",
+          "Great Crest",
+          ""
+        ],
+        [
+          "Megalixir; Cottage x2; MP prize (small) x20; MP prize (large) x20",
+          "Great Crest",
+          "Activate Blue Trinity."
+        ],
+        [
+          "Thundara Ring",
+          "High Tower",
+          "On side reached from Great Crest. Requires Gravity."
+        ],
+        [
+          "Osmose-G ◄",
+          "High Tower",
+          "On side reached from Lift Stop. Requires Gravity."
+        ],
+        [
+          "Megalixir",
+          "High Tower",
+          "On highest platform."
+        ],
+        [
+          "Dark Matter",
+          "Grand Hall",
+          ""
+        ],
+        [
+          "Oblivion",
+          "Grand Hall",
+          ""
+        ],
+        [
+          "Puppy No. 61, No. 62, and No. 63",
+          "Grand Hall",
+          ""
+        ]
+      ],
+      "Rewards": [
+        [
+          "Wooden Sword",
+          "Rising Falls",
+          "Meet with Riku."
+        ],
+        [
+          "White Trinity",
+          "Entrance Hall",
+          "Defeat Riku."
+        ],
+        [
+          "Divine Rose",
+          "Library",
+          "Talk to Belle after rescuing Kairi."
+        ],
+        [
+          "Ansem's Report 2; Ansem's Report 4; Ansem's Report 6; Ansem's Report 10",
+          "Library",
+          "Talk to Aerith after sealing the Final Keyhole."
+        ],
+        [
+          "Power of healing",
+          "Library",
+          "Talk to Aerith a third time."
+        ],
+        [
+          "Donald: Cheer; Ansem's Report 5",
+          "Castle Chapel",
+          "Defeat Maleficent."
+        ],
+        [
+          "Power of fire",
+          "Castle Chapel",
+          "Talk to the princesses after sealing the Final Keyhole."
+        ],
+        [
+          "Fireglow",
+          "???",
+          "Defeat Maleficent (Dragon)."
+        ],
+        [
+          "Ragnarok",
+          "Grand Hall",
+          "Defeat Riku."
+        ],
+        [
+          "Omega Arts",
+          "Dark Depths",
+          "Defeat Behemoth."
+        ]
+      ],
+      "Trinities": [
+        [
+          "White Trinity #1",
+          "Rising Falls",
+          "In shallow pool where you met Riku.",
+          "Thundaga-G"
+        ],
+        [
+          "Blue Trinity #16",
+          "Dungeon",
+          "On the ground.",
+          "Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40"
+        ],
+        [
+          "Red Trinity #6",
+          "Entrance Hall",
+          "Upper level, in front of statue.",
+          "Breaks statue, revealing an Emblem Piece."
+        ],
+        [
+          "Green Trinity #9",
+          "Library",
+          "Second floor, near table.",
+          "Azal vol. 3"
+        ],
+        [
+          "Blue Trinity #17",
+          "Great Crest",
+          "Right-hand lower balcony, near the landing point for the large magic lift.",
+          "Megalixir; Cottage x2; MP prize (small) x20; MP prize (large) x20"
+        ]
+      ]
+    },
+    "Deep Jungle": {
+      "Treasures": [
+        [
+          "Mega-Potion",
+          "Tree House",
+          "Underneath the tree house."
+        ],
+        [
+          "Protect Chain",
+          "Tree House",
+          "On top of the tree house."
+        ],
+        [
+          "Mythril",
+          "Tree House",
+          "In the boat."
+        ],
+        [
+          "HP Orb (small) x6; Potion (20%)",
+          "Tree House",
+          "Smash the barrel. Can be obtained multiple times."
+        ],
+        [
+          "Mega-Ether",
+          "Jungle: Tunnel",
+          "Near Climbing Trees exit."
+        ],
+        [
+          "Mythril Shard; HP Orb (small) x40",
+          "Treetop",
+          "Activate the Green Trinity."
+        ],
+        [
+          "Thundara-G",
+          "Climbing Trees",
+          "Activate the Blue Trinity."
+        ],
+        [
+          "Puppy No. 28, No. 29, and No. 30",
+          "Vines 2",
+          ""
+        ],
+        [
+          "Mythril",
+          "Vines",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Hippos' Lagoon",
+          "On top of a tree."
+        ],
+        [
+          "Puppy No. 25, No. 26, and No. 27",
+          "Hippos' lagoon",
+          "On the farthest bank of the Hippos' Lagoon, near the entrance to the Vines."
+        ],
+        [
+          "Meteor-G",
+          "Hippos' Lagoon",
+          "Hidden on top of a tall tree."
+        ],
+        [
+          "HP Orb (small) x6; Potion (20%)",
+          "Camp",
+          "Smash the barrel. Can be obtained multiple times."
+        ],
+        [
+          "Puppy No. 34, No. 35, and No. 36",
+          "Camp",
+          "Activate the Blue Trinity."
+        ],
+        [
+          "Slide 1",
+          "Camp",
+          "Found on top of a tent that can be reached by climbing a cluster of crates."
+        ],
+        [
+          "Slide 2",
+          "Camp",
+          "Found in the shaded area to the left."
+        ],
+        [
+          "Slide 3",
+          "Camp",
+          "Found by the chalkboard."
+        ],
+        [
+          "Slide 4",
+          "Camp",
+          "Found on top of a cluster of crates and bags."
+        ],
+        [
+          "Slide 5",
+          "Camp",
+          "Found past the shaded area to the left."
+        ],
+        [
+          "Slide 6",
+          "Camp",
+          "Found near the chalkboard on top of a stack of bags."
+        ],
+        [
+          "Mythril Shard",
+          "Camp: Tent",
+          ""
+        ],
+        [
+          "Mega-Potion",
+          "Cliff",
+          "Climb pole to cliff."
+        ],
+        [
+          "Mythril Shard",
+          "Cliff",
+          "Climb pole to cliff."
+        ],
+        [
+          "Mythril Shard",
+          "Waterfall Cavern",
+          "Lower ledge."
+        ],
+        [
+          "Puppy No. 31, No. 32, and No. 33",
+          "Waterfall Cavern",
+          "On one of the lower ledges."
+        ],
+        [
+          "Mythril",
+          "Waterfall Cavern",
+          "Lower ledge."
+        ],
+        [
+          "Orichalcum",
+          "Waterfall Cavern",
+          "Lower ledge."
+        ],
+        [
+          "Orichalcum",
+          "Cavern of Hearts",
+          "Activate White Trinity."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Shell-G",
+          "Tree House",
+          "Rescue the gorilla from the Heartless."
+        ],
+        [
+          "Aeroga-G ◄",
+          "Climbing Trees",
+          "Rescue the gorilla from the Heartless."
+        ],
+        [
+          "Ether",
+          "Camp",
+          "Use Blizzard on the experiment tool after reading Memo 1 and 2."
+        ],
+        [
+          "Ether x2",
+          "Camp",
+          "Use Blizzard on the experiment tool after reading Memo 1 ,2, and 3."
+        ],
+        [
+          "Hi-Potion",
+          "Camp",
+          "Use Fire on the furnace after reading Recipe 1 and 2."
+        ],
+        [
+          "Protect-G",
+          "Camp",
+          "Rescue the gorilla from the Heartless."
+        ],
+        [
+          "Protect-G",
+          "Camp: Tent",
+          "Reunite with Donald and Goofy."
+        ],
+        [
+          "Jungle King; Red Trinity",
+          "Camp: Tent",
+          "Obtained after locking the Keyhole."
+        ],
+        [
+          "Fire-G",
+          "Bamboo Thicket",
+          "Rescue the gorilla from the Heartless."
+        ],
+        [
+          "White Fang",
+          "Bamboo Thicket",
+          "Defeat Sabor."
+        ],
+        [
+          "Aeroga-G ►",
+          "Cliff",
+          "Rescue the gorilla from the Heartless."
+        ],
+        [
+          "Power of healing",
+          "Cliff",
+          "Defeat Clayton and Stealth Sneak."
+        ],
+        [
+          "Navi-G Piece",
+          "Cavern of Hearts",
+          "Lock the Keyhole."
+        ],
+        [
+          "Elixir",
+          "Green Serpent",
+          "Collect 10 fruits on the Green Serpent course."
+        ],
+        [
+          "AP Up",
+          "Splash Tunnel",
+          "Collect 10 fruits on the Splash Tunnel course."
+        ],
+        [
+          "Dark Matter",
+          "Jade Spiral",
+          "Collect 10 fruits on the Jade Spiral course."
+        ],
+        [
+          "Defense Up",
+          "Panic Fall",
+          "Collect 10 fruits on the Panic Fall course."
+        ],
+        [
+          "Power Up",
+          "Shadow Cavern",
+          "Collect 10 fruits on the Shadow Cavern course."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Green Trinity #6",
+          "Treetop",
+          "Right in the center of the area. Hard to see because of the foliage on the ground.",
+          "Mythril Shard; HP Orb (small) x40"
+        ],
+        [
+          "Blue Trinity #10",
+          "Climbing Trees",
+          "On the topmost ledge, near the Tree House entrance.",
+          "Thundara-G"
+        ],
+        [
+          "Blue Trinity #9",
+          "Camp",
+          "Near the Lab Equipment.",
+          "Puppy No. 34, No. 35, and No. 36"
+        ],
+        [
+          "White Trinity #5",
+          "Cavern of Hearts",
+          "In front of the Keyhole.",
+          "Orichalcum"
+        ]
+      ]
+    },
+    "Neverland": {
+      "Treasures": [
+        [
+          "Puppy No. 82, No. 83, and No. 84",
+          "Ship: Hold",
+          "Requires flying ability."
+        ],
+        [
+          "Paper-G ►",
+          "Ship: Hold",
+          "Requires flying ability."
+        ],
+        [
+          "Dark Matter",
+          "Ship: Hold",
+          "Requires Yellow Trinity."
+        ],
+        [
+          "Orichalcum",
+          "Ship: Hold",
+          "Requires Yellow Trinity."
+        ],
+        [
+          "Puppy No. 85, No. 86, and No. 87",
+          "Ship: Hold",
+          "Requires Yellow Trinity."
+        ],
+        [
+          "Power of wind",
+          "Ship: Hold",
+          "Requires Yellow Trinity."
+        ],
+        [
+          "Meteor-G",
+          "Ship: Galley",
+          ""
+        ],
+        [
+          "Protera Chain",
+          "Ship: Cabin",
+          ""
+        ],
+        [
+          "Puppy No. 88, No. 89, and No. 90",
+          "Captain's Cabin",
+          ""
+        ],
+        [
+          "Orichalcum",
+          "Pirate Ship",
+          "On front mast, requires flying ability."
+        ],
+        [
+          "Puppy No. 43, No. 44, and No. 45",
+          "Pirate Ship",
+          "Activate White Trinity."
+        ],
+        [
+          "Flare-G",
+          "Clock Tower",
+          ""
+        ],
+        [
+          "Orichalcum",
+          "Clock Tower",
+          "Open 1:00 door."
+        ],
+        [
+          "Power Up",
+          "Clock Tower",
+          "Open 2:00 door."
+        ],
+        [
+          "Mythril Shard",
+          "Clock Tower",
+          "Open 3:00 door."
+        ],
+        [
+          "Power Up",
+          "Clock Tower",
+          "Open 4:00 door."
+        ],
+        [
+          "AP Up",
+          "Clock Tower",
+          "Open 5:00 door."
+        ],
+        [
+          "Mythril",
+          "Clock Tower",
+          "Open 6:00 door."
+        ],
+        [
+          "AP Up",
+          "Clock Tower",
+          "Open 7:00 door."
+        ],
+        [
+          "Defense Up",
+          "Clock Tower",
+          "Open 8:00 door."
+        ],
+        [
+          "Orichalcum",
+          "Clock Tower",
+          "Open 9:00 door."
+        ],
+        [
+          "Defense Up",
+          "Clock Tower",
+          "Open 10:00 door."
+        ],
+        [
+          "Mythril Shard",
+          "Clock Tower",
+          "Open 11:00 door."
+        ],
+        [
+          "Megalixir",
+          "Clock Tower",
+          "Open 12:00 door."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Raven's Claw",
+          "Captain's Cabin",
+          "Defeat Anti-Sora."
+        ],
+        [
+          "Power of healing",
+          "Pirate Ship",
+          "Peter Pan rejoins your party."
+        ],
+        [
+          "Ars Arcanum; Ansem's Report 9",
+          "Pirate Ship",
+          "Defeat Captain Hook."
+        ],
+        [
+          "Navi-G Piece; Tinker Bell; Fairy Harp; Glide",
+          "Clock Tower",
+          "Lock the Keyhole."
+        ],
+        [
+          "Power of time",
+          "Clock Tower",
+          "Defeat the Phantom."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Yellow Trinity #4",
+          "Ship: Hold",
+          "On the left hand door on the upper level.",
+          "Gain access to room."
+        ],
+        [
+          "Green Trinity #8",
+          "Ship: Cabin",
+          "In the middle of the floor.",
+          "Gain access to the Captain's Cabin"
+        ],
+        [
+          "White Trinity #10",
+          "Pirate Ship",
+          "On the back of the ship",
+          "Puppy No. 43, No. 44, and No. 45"
+        ]
+      ]
+    },
+    "Halloween Town": {
+      "Treasures": [
+        [
+          "Thundara-G",
+          "Guillotine Square",
+          "Underneath stairs to house."
+        ],
+        [
+          "Elixir",
+          "Guillotine Square",
+          "Ring doorbell three times."
+        ],
+        [
+          "Power Up",
+          "Guillotine Square",
+          "Requires High Jump or Glide."
+        ],
+        [
+          "Puppy No. 70, No. 71, and No. 72",
+          "Guillotine Square",
+          "Requires Glide."
+        ],
+        [
+          "Elixir",
+          "Guillotine Square",
+          "Requires Glide."
+        ],
+        [
+          "Torn Page",
+          "Research Lab",
+          "Check the bookshelf."
+        ],
+        [
+          "Jack-in-the-Box",
+          "Boneyard",
+          "Inside pumpkin, complete the Mayor's puzzle to gain access."
+        ],
+        [
+          "Puppy No. 67, No. 68, and No. 69",
+          "Moonlight Hill",
+          "Activate White Trinity."
+        ],
+        [
+          "Flare-G",
+          "Bridge",
+          "Underneath bridge."
+        ],
+        [
+          "Meteor-G",
+          "Bridge",
+          "On ledge left of bridge."
+        ],
+        [
+          "Defense Up",
+          "Bridge",
+          "On ledge right of bridge."
+        ],
+        [
+          "Ether",
+          "Oogie's Manor; Manor Ruins",
+          "Can be found in the Manor Ruins if missed."
+        ],
+        [
+          "Ether",
+          "Oogie's Manor; Manor Ruins",
+          "Can be found in the Manor Ruins if missed."
+        ],
+        [
+          "Mythril Shard",
+          "Oogie's Manor; Manor Ruins",
+          "Activate Red Trinity."
+        ],
+        [
+          "Puppy No. 40, No. 41, and No. 42",
+          "Oogie's Manor; Manor Ruins",
+          "Can be found in the Manor Ruins if missed."
+        ],
+        [
+          "Orichalcum",
+          "Oogie's Manor; Manor Ruins",
+          "Can be found in the Manor Ruins if missed."
+        ],
+        [
+          "Mega-Ether",
+          "Oogie's Manor; Manor Ruins",
+          "Can be found in the Manor Ruins if missed."
+        ],
+        [
+          "Mythril Shard",
+          "Manor Ruins",
+          ""
+        ],
+        [
+          "Scissors-G ◄",
+          "Cemetery",
+          ""
+        ],
+        [
+          "Puppy No. 64, No. 65, and No. 66",
+          "Cemetery",
+          ""
+        ],
+        [
+          "Dark Matter",
+          "Cemetery",
+          ""
+        ],
+        [
+          "Holy-G",
+          "Cemetery",
+          ""
+        ]
+      ],
+      "Rewards": [
+        [
+          "Forget-Me-Not",
+          "Graveyard",
+          "Defeat the Heartless at the Graveyard and talk to Sally."
+        ],
+        [
+          "Holy Circlet; Ansem's Report 7",
+          "Torture Chamber",
+          "Defeat Oogie Boogie."
+        ],
+        [
+          "Power of stars",
+          "Manor Ruins",
+          "Defeat Oogie's Manor."
+        ],
+        [
+          "Pumpkinhead",
+          "Research Lab",
+          "Defeat Oogie's Manor."
+        ]
+      ],
+      "Trinities": [
+        [
+          "Red Trinity #5",
+          "Oogie's Manor; Manor Ruins",
+          "On the gate.",
+          "Mythril Shard"
+        ],
+        [
+          "White Trinity #9",
+          "Moonlight Hill",
+          "To the left of the entrance, near a broken segment of wall.",
+          "Puppy No. 67, No. 68, and No. 69"
+        ]
+      ]
+    },
+    "Destiny Islands": {
+      "Treasures": [
+        [
+          "Rope",
+          "Seashore",
+          "On the docks."
+        ],
+        [
+          "Cloth",
+          "Seashore",
+          "Within a room of the massive treehouse, hanging from the wall."
+        ],
+        [
+          "Log",
+          "Seashore",
+          "On the beach."
+        ],
+        [
+          "Log",
+          "Seashore",
+          "On the miniature island across the bridge."
+        ],
+        [
+          "Seagull Egg",
+          "Seashore",
+          "Climb the trees above the Seaside Shack. Second day only."
+        ],
+        [
+          "Fish x3",
+          "Seashore",
+          "Found in the sea. Touch one to catch it. Second day only."
+        ],
+        [
+          "Drinking Water",
+          "Seashore",
+          "From the spring outside the Secret Place. Can also be obtained at the Cove. Second day only."
+        ],
+        [
+          "Mushroom",
+          "Secret Place",
+          "In front of the locked door. Second day only."
+        ],
+        [
+          "Protect Chain",
+          "Cove",
+          "In small alcove near the tower. Use box to reach it."
+        ],
+        [
+          "Drinking Water",
+          "Cove",
+          "From the spring in the wall of the Cove. Can also be obtained at the Seashore."
+        ],
+        [
+          "Mushroom",
+          "Cove",
+          "In the bushes to the left of the zip-line tower."
+        ],
+        [
+          "Mushroom",
+          "Cove",
+          "Behind a boulder below the zip-line tower."
+        ],
+        [
+          "Coconut x2",
+          "Cove",
+          "Drops from a palm tree when attacked. Only yellow coconuts can be picked up."
+        ]
+      ],
+      "Rewards": [
+        [
+          "Potion",
+          "Seashore",
+          "Win a 3-against-1 battle against Tidus, Selphie, and Wakka. Can be obtained multiple times."
+        ],
+        [
+          "Potion",
+          "Seashore",
+          "Win a battle against Riku. Can be obtained multiple times. First day only."
+        ],
+        [
+          "Hi-Potion",
+          "Seashore",
+          "Bring all materials to Kairi without requiring a hint."
+        ],
+        [
+          "Potion",
+          "Seashore",
+          "Bring all materials to Kairi while requiring a vague hint."
+        ],
+        [
+          "Kingdom Key",
+          "Seashore",
+          "Approach Riku during the storm."
+        ],
+        [
+          "Pretty Stone",
+          "Cove",
+          "Win the race against Riku. Can be obtained multiple times."
+        ],
+        [
+          "Empty Bottle",
+          "Cove",
+          "Obtained from Kairi for gathering Drinking Water."
+        ],
+        [
+          "Hi-Potion",
+          "Cove",
+          "Bring all supplies to Kairi without requiring a hint."
+        ],
+        [
+          "Potion",
+          "Cove",
+          "Bring all supplies to Kairi while requiring a vague hint."
+        ]
+      ]
+    }
+  },
+  "independentChestInventory": {
+    "source": "https://github.com/ArchipelagoMW/Archipelago/blob/1322ce866eddb1ccf0ca042db93ceef8789d6029/worlds/kh1/Locations.py",
+    "checkedAt": "2026-09-18",
+    "scope": "Vanilla chest locations used by the Final Mix PC randomizer; not randomized reward contents. Atlantica clam/static rewards and other static acquisitions are not typed Chest. Temporary story containers may be included.",
+    "physicalChestLocations": [
+      {
+        "name": "Destiny Islands Chest",
+        "world": "Destiny Islands",
+        "locationCode": 2650011
+      },
+      {
+        "name": "Traverse Town 1st District Candle Puzzle Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650211
+      },
+      {
+        "name": "Traverse Town 1st District Accessory Shop Roof Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650212
+      },
+      {
+        "name": "Traverse Town 2nd District Boots and Shoes Awning Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650213
+      },
+      {
+        "name": "Traverse Town 2nd District Rooftop Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650214
+      },
+      {
+        "name": "Traverse Town 2nd District Gizmo Shop Facade Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650251
+      },
+      {
+        "name": "Traverse Town Alleyway Balcony Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650252
+      },
+      {
+        "name": "Traverse Town Alleyway Blue Room Awning Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650253
+      },
+      {
+        "name": "Traverse Town Alleyway Corner Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650254
+      },
+      {
+        "name": "Traverse Town Green Room Clock Puzzle Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650292
+      },
+      {
+        "name": "Traverse Town Green Room Table Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650293
+      },
+      {
+        "name": "Traverse Town Red Room Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650294
+      },
+      {
+        "name": "Traverse Town Mystical House Yellow Trinity Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650331
+      },
+      {
+        "name": "Traverse Town Accessory Shop Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650332
+      },
+      {
+        "name": "Traverse Town Secret Waterway White Trinity Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650333
+      },
+      {
+        "name": "Traverse Town Geppetto's House Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650334
+      },
+      {
+        "name": "Traverse Town Item Workshop Right Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650371
+      },
+      {
+        "name": "Traverse Town 1st District Blue Trinity Balcony Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650411
+      },
+      {
+        "name": "Traverse Town Mystical House Glide Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650891
+      },
+      {
+        "name": "Traverse Town Alleyway Behind Crates Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650892
+      },
+      {
+        "name": "Traverse Town Item Workshop Left Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650893
+      },
+      {
+        "name": "Traverse Town Secret Waterway Near Stairs Chest",
+        "world": "Traverse Town",
+        "locationCode": 2650894
+      },
+      {
+        "name": "Wonderland Rabbit Hole Green Trinity Chest",
+        "world": "Wonderland",
+        "locationCode": 2650931
+      },
+      {
+        "name": "Wonderland Rabbit Hole Defeat Heartless 1 Chest",
+        "world": "Wonderland",
+        "locationCode": 2650932
+      },
+      {
+        "name": "Wonderland Rabbit Hole Defeat Heartless 2 Chest",
+        "world": "Wonderland",
+        "locationCode": 2650933
+      },
+      {
+        "name": "Wonderland Rabbit Hole Defeat Heartless 3 Chest",
+        "world": "Wonderland",
+        "locationCode": 2650934
+      },
+      {
+        "name": "Wonderland Bizarre Room Green Trinity Chest",
+        "world": "Wonderland",
+        "locationCode": 2650971
+      },
+      {
+        "name": "Wonderland Queen's Castle Hedge Left Red Chest",
+        "world": "Wonderland",
+        "locationCode": 2651011
+      },
+      {
+        "name": "Wonderland Queen's Castle Hedge Right Blue Chest",
+        "world": "Wonderland",
+        "locationCode": 2651012
+      },
+      {
+        "name": "Wonderland Queen's Castle Hedge Right Red Chest",
+        "world": "Wonderland",
+        "locationCode": 2651013
+      },
+      {
+        "name": "Wonderland Lotus Forest Thunder Plant Chest",
+        "world": "Wonderland",
+        "locationCode": 2651014
+      },
+      {
+        "name": "Wonderland Lotus Forest Through the Painting Thunder Plant Chest",
+        "world": "Wonderland",
+        "locationCode": 2651051
+      },
+      {
+        "name": "Wonderland Lotus Forest Glide Chest",
+        "world": "Wonderland",
+        "locationCode": 2651052
+      },
+      {
+        "name": "Wonderland Lotus Forest Nut Chest",
+        "world": "Wonderland",
+        "locationCode": 2651053
+      },
+      {
+        "name": "Wonderland Lotus Forest Corner Chest",
+        "world": "Wonderland",
+        "locationCode": 2651054
+      },
+      {
+        "name": "Wonderland Bizarre Room Lamp Chest",
+        "world": "Wonderland",
+        "locationCode": 2651091
+      },
+      {
+        "name": "Wonderland Tea Party Garden Above Lotus Forest Entrance 2nd Chest",
+        "world": "Wonderland",
+        "locationCode": 2651093
+      },
+      {
+        "name": "Wonderland Tea Party Garden Above Lotus Forest Entrance 1st Chest",
+        "world": "Wonderland",
+        "locationCode": 2651094
+      },
+      {
+        "name": "Wonderland Tea Party Garden Bear and Clock Puzzle Chest",
+        "world": "Wonderland",
+        "locationCode": 2651131
+      },
+      {
+        "name": "Wonderland Tea Party Garden Across From Bizarre Room Entrance Chest",
+        "world": "Wonderland",
+        "locationCode": 2651132
+      },
+      {
+        "name": "Wonderland Lotus Forest Through the Painting White Trinity Chest",
+        "world": "Wonderland",
+        "locationCode": 2651133
+      },
+      {
+        "name": "Deep Jungle Tree House Beneath Tree House Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651213
+      },
+      {
+        "name": "Deep Jungle Tree House Rooftop Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651214
+      },
+      {
+        "name": "Deep Jungle Hippo's Lagoon Center Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651251
+      },
+      {
+        "name": "Deep Jungle Hippo's Lagoon Left Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651252
+      },
+      {
+        "name": "Deep Jungle Hippo's Lagoon Right Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651253
+      },
+      {
+        "name": "Deep Jungle Vines Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651291
+      },
+      {
+        "name": "Deep Jungle Vines 2 Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651292
+      },
+      {
+        "name": "Deep Jungle Climbing Trees Blue Trinity Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651293
+      },
+      {
+        "name": "Deep Jungle Tunnel Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651331
+      },
+      {
+        "name": "Deep Jungle Cavern of Hearts White Trinity Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651332
+      },
+      {
+        "name": "Deep Jungle Camp Blue Trinity Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651333
+      },
+      {
+        "name": "Deep Jungle Tent Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651334
+      },
+      {
+        "name": "Deep Jungle Waterfall Cavern Low Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651371
+      },
+      {
+        "name": "Deep Jungle Waterfall Cavern Middle Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651372
+      },
+      {
+        "name": "Deep Jungle Waterfall Cavern High Wall Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651373
+      },
+      {
+        "name": "Deep Jungle Waterfall Cavern High Middle Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651374
+      },
+      {
+        "name": "Deep Jungle Cliff Right Cliff Left Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651411
+      },
+      {
+        "name": "Deep Jungle Cliff Right Cliff Right Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651412
+      },
+      {
+        "name": "Deep Jungle Tree House Suspended Boat Chest",
+        "world": "Deep Jungle",
+        "locationCode": 2651413
+      },
+      {
+        "name": "100 Acre Wood Meadow Inside Log Chest",
+        "world": "100 Acre Wood",
+        "locationCode": 2651654
+      },
+      {
+        "name": "100 Acre Wood Bouncing Spot Left Cliff Chest",
+        "world": "100 Acre Wood",
+        "locationCode": 2651691
+      },
+      {
+        "name": "100 Acre Wood Bouncing Spot Right Tree Alcove Chest",
+        "world": "100 Acre Wood",
+        "locationCode": 2651692
+      },
+      {
+        "name": "100 Acre Wood Bouncing Spot Under Giant Pot Chest",
+        "world": "100 Acre Wood",
+        "locationCode": 2651693
+      },
+      {
+        "name": "Agrabah Plaza By Storage Chest",
+        "world": "Agrabah",
+        "locationCode": 2651972
+      },
+      {
+        "name": "Agrabah Plaza Raised Terrace Chest",
+        "world": "Agrabah",
+        "locationCode": 2651973
+      },
+      {
+        "name": "Agrabah Plaza Top Corner Chest",
+        "world": "Agrabah",
+        "locationCode": 2651974
+      },
+      {
+        "name": "Agrabah Alley Chest",
+        "world": "Agrabah",
+        "locationCode": 2652011
+      },
+      {
+        "name": "Agrabah Bazaar Across Windows Chest",
+        "world": "Agrabah",
+        "locationCode": 2652012
+      },
+      {
+        "name": "Agrabah Bazaar High Corner Chest",
+        "world": "Agrabah",
+        "locationCode": 2652013
+      },
+      {
+        "name": "Agrabah Main Street Right Palace Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652014
+      },
+      {
+        "name": "Agrabah Main Street High Above Alley Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652051
+      },
+      {
+        "name": "Agrabah Main Street High Above Palace Gates Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652052
+      },
+      {
+        "name": "Agrabah Palace Gates Low Chest",
+        "world": "Agrabah",
+        "locationCode": 2652053
+      },
+      {
+        "name": "Agrabah Palace Gates High Opposite Palace Chest",
+        "world": "Agrabah",
+        "locationCode": 2652054
+      },
+      {
+        "name": "Agrabah Palace Gates High Close to Palace Chest",
+        "world": "Agrabah",
+        "locationCode": 2652091
+      },
+      {
+        "name": "Agrabah Storage Green Trinity Chest",
+        "world": "Agrabah",
+        "locationCode": 2652092
+      },
+      {
+        "name": "Agrabah Storage Behind Barrel Chest",
+        "world": "Agrabah",
+        "locationCode": 2652093
+      },
+      {
+        "name": "Agrabah Cave of Wonders Entrance Left Chest",
+        "world": "Agrabah",
+        "locationCode": 2652094
+      },
+      {
+        "name": "Agrabah Cave of Wonders Entrance Tall Tower Chest",
+        "world": "Agrabah",
+        "locationCode": 2652131
+      },
+      {
+        "name": "Agrabah Cave of Wonders Hall High Left Chest",
+        "world": "Agrabah",
+        "locationCode": 2652132
+      },
+      {
+        "name": "Agrabah Cave of Wonders Hall Near Bottomless Hall Chest",
+        "world": "Agrabah",
+        "locationCode": 2652133
+      },
+      {
+        "name": "Agrabah Cave of Wonders Bottomless Hall Raised Platform Chest",
+        "world": "Agrabah",
+        "locationCode": 2652134
+      },
+      {
+        "name": "Agrabah Cave of Wonders Bottomless Hall Pillar Chest",
+        "world": "Agrabah",
+        "locationCode": 2652171
+      },
+      {
+        "name": "Agrabah Cave of Wonders Bottomless Hall Across Chasm Chest",
+        "world": "Agrabah",
+        "locationCode": 2652172
+      },
+      {
+        "name": "Agrabah Cave of Wonders Treasure Room Across Platforms Chest",
+        "world": "Agrabah",
+        "locationCode": 2652173
+      },
+      {
+        "name": "Agrabah Cave of Wonders Treasure Room Small Treasure Pile Chest",
+        "world": "Agrabah",
+        "locationCode": 2652174
+      },
+      {
+        "name": "Agrabah Cave of Wonders Treasure Room Large Treasure Pile Chest",
+        "world": "Agrabah",
+        "locationCode": 2652211
+      },
+      {
+        "name": "Agrabah Cave of Wonders Treasure Room Above Fire Chest",
+        "world": "Agrabah",
+        "locationCode": 2652212
+      },
+      {
+        "name": "Agrabah Cave of Wonders Relic Chamber Jump from Stairs Chest",
+        "world": "Agrabah",
+        "locationCode": 2652213
+      },
+      {
+        "name": "Agrabah Cave of Wonders Relic Chamber Stairs Chest",
+        "world": "Agrabah",
+        "locationCode": 2652214
+      },
+      {
+        "name": "Agrabah Cave of Wonders Dark Chamber Abu Gem Chest",
+        "world": "Agrabah",
+        "locationCode": 2652251
+      },
+      {
+        "name": "Agrabah Cave of Wonders Dark Chamber Across from Relic Chamber Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652252
+      },
+      {
+        "name": "Agrabah Cave of Wonders Dark Chamber Bridge Chest",
+        "world": "Agrabah",
+        "locationCode": 2652253
+      },
+      {
+        "name": "Agrabah Cave of Wonders Dark Chamber Near Save Chest",
+        "world": "Agrabah",
+        "locationCode": 2652254
+      },
+      {
+        "name": "Agrabah Cave of Wonders Silent Chamber Blue Trinity Chest",
+        "world": "Agrabah",
+        "locationCode": 2652291
+      },
+      {
+        "name": "Agrabah Cave of Wonders Hidden Room Right Chest",
+        "world": "Agrabah",
+        "locationCode": 2652292
+      },
+      {
+        "name": "Agrabah Cave of Wonders Hidden Room Left Chest",
+        "world": "Agrabah",
+        "locationCode": 2652293
+      },
+      {
+        "name": "Agrabah Aladdin's House Main Street Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652294
+      },
+      {
+        "name": "Agrabah Aladdin's House Plaza Entrance Chest",
+        "world": "Agrabah",
+        "locationCode": 2652331
+      },
+      {
+        "name": "Agrabah Cave of Wonders Entrance White Trinity Chest",
+        "world": "Agrabah",
+        "locationCode": 2652332
+      },
+      {
+        "name": "Monstro Chamber 6 Other Platform Chest",
+        "world": "Monstro",
+        "locationCode": 2652413
+      },
+      {
+        "name": "Monstro Chamber 6 Platform Near Chamber 5 Entrance Chest",
+        "world": "Monstro",
+        "locationCode": 2652414
+      },
+      {
+        "name": "Monstro Chamber 6 Raised Area Near Chamber 1 Entrance Chest",
+        "world": "Monstro",
+        "locationCode": 2652451
+      },
+      {
+        "name": "Monstro Chamber 6 Low Chest",
+        "world": "Monstro",
+        "locationCode": 2652452
+      },
+      {
+        "name": "Halloween Town Moonlight Hill White Trinity Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653014
+      },
+      {
+        "name": "Halloween Town Bridge Under Bridge",
+        "world": "Halloween Town",
+        "locationCode": 2653051
+      },
+      {
+        "name": "Halloween Town Boneyard Tombstone Puzzle Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653052
+      },
+      {
+        "name": "Halloween Town Bridge Right of Gate Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653053
+      },
+      {
+        "name": "Halloween Town Cemetery Behind Grave Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653054
+      },
+      {
+        "name": "Halloween Town Cemetery By Cat Shape Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653091
+      },
+      {
+        "name": "Halloween Town Cemetery Between Graves Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653092
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Lower Iron Cage Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653093
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Upper Iron Cage Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653094
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Hollow Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653131
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Grounds Red Trinity Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653132
+      },
+      {
+        "name": "Halloween Town Guillotine Square High Tower Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653133
+      },
+      {
+        "name": "Halloween Town Guillotine Square Pumpkin Structure Left Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653134
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Entrance Steps Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653171
+      },
+      {
+        "name": "Halloween Town Oogie's Manor Inside Entrance Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653172
+      },
+      {
+        "name": "Halloween Town Bridge Left of Gate Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653291
+      },
+      {
+        "name": "Halloween Town Cemetery By Striped Grave Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653292
+      },
+      {
+        "name": "Halloween Town Guillotine Square Under Jack's House Stairs Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653293
+      },
+      {
+        "name": "Halloween Town Guillotine Square Pumpkin Structure Right Chest",
+        "world": "Halloween Town",
+        "locationCode": 2653294
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates Left Behind Columns Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653332
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates Right Blue Trinity Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653333
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates Left Blue Trinity Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653334
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates White Trinity Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653371
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates Blizzara Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653372
+      },
+      {
+        "name": "Olympus Coliseum Coliseum Gates Blizzaga Chest",
+        "world": "Olympus Coliseum",
+        "locationCode": 2653373
+      },
+      {
+        "name": "Monstro Mouth Boat Deck Chest",
+        "world": "Monstro",
+        "locationCode": 2653454
+      },
+      {
+        "name": "Monstro Mouth High Platform Boat Side Chest",
+        "world": "Monstro",
+        "locationCode": 2653491
+      },
+      {
+        "name": "Monstro Mouth High Platform Across from Boat Chest",
+        "world": "Monstro",
+        "locationCode": 2653492
+      },
+      {
+        "name": "Monstro Mouth Near Ship Chest",
+        "world": "Monstro",
+        "locationCode": 2653493
+      },
+      {
+        "name": "Monstro Mouth Green Trinity Top of Boat Chest",
+        "world": "Monstro",
+        "locationCode": 2653494
+      },
+      {
+        "name": "Monstro Chamber 2 Ground Chest",
+        "world": "Monstro",
+        "locationCode": 2653534
+      },
+      {
+        "name": "Monstro Chamber 2 Platform Chest",
+        "world": "Monstro",
+        "locationCode": 2653571
+      },
+      {
+        "name": "Monstro Chamber 5 Platform Chest",
+        "world": "Monstro",
+        "locationCode": 2653613
+      },
+      {
+        "name": "Monstro Chamber 3 Ground Chest",
+        "world": "Monstro",
+        "locationCode": 2653614
+      },
+      {
+        "name": "Monstro Chamber 3 Platform Above Chamber 2 Entrance Chest",
+        "world": "Monstro",
+        "locationCode": 2653651
+      },
+      {
+        "name": "Monstro Chamber 3 Near Chamber 6 Entrance Chest",
+        "world": "Monstro",
+        "locationCode": 2653652
+      },
+      {
+        "name": "Monstro Chamber 3 Platform Near Chamber 6 Entrance Chest",
+        "world": "Monstro",
+        "locationCode": 2653653
+      },
+      {
+        "name": "Monstro Mouth High Platform Near Teeth Chest",
+        "world": "Monstro",
+        "locationCode": 2653732
+      },
+      {
+        "name": "Monstro Chamber 5 Atop Barrel Chest",
+        "world": "Monstro",
+        "locationCode": 2653733
+      },
+      {
+        "name": "Monstro Chamber 5 Low 2nd Chest",
+        "world": "Monstro",
+        "locationCode": 2653734
+      },
+      {
+        "name": "Monstro Chamber 5 Low 1st Chest",
+        "world": "Monstro",
+        "locationCode": 2653771
+      },
+      {
+        "name": "Neverland Pirate Ship Deck White Trinity Chest",
+        "world": "Neverland",
+        "locationCode": 2653772
+      },
+      {
+        "name": "Neverland Pirate Ship Crows Nest Chest",
+        "world": "Neverland",
+        "locationCode": 2653773
+      },
+      {
+        "name": "Neverland Hold Yellow Trinity Right Blue Chest",
+        "world": "Neverland",
+        "locationCode": 2653774
+      },
+      {
+        "name": "Neverland Hold Yellow Trinity Left Blue Chest",
+        "world": "Neverland",
+        "locationCode": 2653811
+      },
+      {
+        "name": "Neverland Galley Chest",
+        "world": "Neverland",
+        "locationCode": 2653812
+      },
+      {
+        "name": "Neverland Cabin Chest",
+        "world": "Neverland",
+        "locationCode": 2653813
+      },
+      {
+        "name": "Neverland Hold Flight 1st Chest",
+        "world": "Neverland",
+        "locationCode": 2653814
+      },
+      {
+        "name": "Neverland Clock Tower Chest",
+        "world": "Neverland",
+        "locationCode": 2654014
+      },
+      {
+        "name": "Neverland Hold Flight 2nd Chest",
+        "world": "Neverland",
+        "locationCode": 2654051
+      },
+      {
+        "name": "Neverland Hold Yellow Trinity Green Chest",
+        "world": "Neverland",
+        "locationCode": 2654052
+      },
+      {
+        "name": "Neverland Captain's Cabin Chest",
+        "world": "Neverland",
+        "locationCode": 2654053
+      },
+      {
+        "name": "Hollow Bastion Rising Falls Water's Surface Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654054
+      },
+      {
+        "name": "Hollow Bastion Rising Falls Under Water 1st Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654091
+      },
+      {
+        "name": "Hollow Bastion Rising Falls Under Water 2nd Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654092
+      },
+      {
+        "name": "Hollow Bastion Rising Falls Floating Platform Near Save Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654093
+      },
+      {
+        "name": "Hollow Bastion Rising Falls Floating Platform Near Bubble Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654094
+      },
+      {
+        "name": "Hollow Bastion Rising Falls High Platform Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654131
+      },
+      {
+        "name": "Hollow Bastion Castle Gates Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654132
+      },
+      {
+        "name": "Hollow Bastion Castle Gates Freestanding Pillar Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654133
+      },
+      {
+        "name": "Hollow Bastion Castle Gates High Pillar Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654134
+      },
+      {
+        "name": "Hollow Bastion Great Crest Lower Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654171
+      },
+      {
+        "name": "Hollow Bastion Great Crest After Battle Platform Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654172
+      },
+      {
+        "name": "Hollow Bastion High Tower 2nd Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654173
+      },
+      {
+        "name": "Hollow Bastion High Tower 1st Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654174
+      },
+      {
+        "name": "Hollow Bastion High Tower Above Sliding Blocks Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654211
+      },
+      {
+        "name": "Hollow Bastion Library Top of Bookshelf Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654213
+      },
+      {
+        "name": "Hollow Bastion Lift Stop Library Node After High Tower Switch Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654254
+      },
+      {
+        "name": "Hollow Bastion Lift Stop Library Node Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654291
+      },
+      {
+        "name": "Hollow Bastion Lift Stop Under High Tower Sliding Blocks Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654292
+      },
+      {
+        "name": "Hollow Bastion Lift Stop Outside Library Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654293
+      },
+      {
+        "name": "Hollow Bastion Lift Stop Heartless Sigil Door Gravity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654294
+      },
+      {
+        "name": "Hollow Bastion Base Level Bubble Under the Wall Platform Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654331
+      },
+      {
+        "name": "Hollow Bastion Base Level Platform Near Entrance Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654332
+      },
+      {
+        "name": "Hollow Bastion Base Level Near Crystal Switch Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654333
+      },
+      {
+        "name": "Hollow Bastion Waterway Near Save Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654334
+      },
+      {
+        "name": "Hollow Bastion Waterway Blizzard on Bubble Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654371
+      },
+      {
+        "name": "Hollow Bastion Waterway Unlock Passage from Base Level Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654372
+      },
+      {
+        "name": "Hollow Bastion Dungeon By Candles Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654373
+      },
+      {
+        "name": "Hollow Bastion Dungeon Corner Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654374
+      },
+      {
+        "name": "Hollow Bastion Grand Hall Steps Right Side Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654454
+      },
+      {
+        "name": "Hollow Bastion Grand Hall Oblivion Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654491
+      },
+      {
+        "name": "Hollow Bastion Grand Hall Left of Gate Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654492
+      },
+      {
+        "name": "Hollow Bastion Entrance Hall Left of Emblem Door Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654212
+      },
+      {
+        "name": "Hollow Bastion Rising Falls White Trinity Chest",
+        "world": "Hollow Bastion",
+        "locationCode": 2654494
+      },
+      {
+        "name": "End of the World Final Dimension 1st Chest",
+        "world": "End of the World",
+        "locationCode": 2654531
+      },
+      {
+        "name": "End of the World Final Dimension 2nd Chest",
+        "world": "End of the World",
+        "locationCode": 2654532
+      },
+      {
+        "name": "End of the World Final Dimension 3rd Chest",
+        "world": "End of the World",
+        "locationCode": 2654533
+      },
+      {
+        "name": "End of the World Final Dimension 4th Chest",
+        "world": "End of the World",
+        "locationCode": 2654534
+      },
+      {
+        "name": "End of the World Final Dimension 5th Chest",
+        "world": "End of the World",
+        "locationCode": 2654571
+      },
+      {
+        "name": "End of the World Final Dimension 6th Chest",
+        "world": "End of the World",
+        "locationCode": 2654572
+      },
+      {
+        "name": "End of the World Final Dimension 10th Chest",
+        "world": "End of the World",
+        "locationCode": 2654573
+      },
+      {
+        "name": "End of the World Final Dimension 9th Chest",
+        "world": "End of the World",
+        "locationCode": 2654574
+      },
+      {
+        "name": "End of the World Final Dimension 8th Chest",
+        "world": "End of the World",
+        "locationCode": 2654611
+      },
+      {
+        "name": "End of the World Final Dimension 7th Chest",
+        "world": "End of the World",
+        "locationCode": 2654612
+      },
+      {
+        "name": "End of the World Giant Crevasse 3rd Chest",
+        "world": "End of the World",
+        "locationCode": 2654613
+      },
+      {
+        "name": "End of the World Giant Crevasse 5th Chest",
+        "world": "End of the World",
+        "locationCode": 2654614
+      },
+      {
+        "name": "End of the World Giant Crevasse 1st Chest",
+        "world": "End of the World",
+        "locationCode": 2654651
+      },
+      {
+        "name": "End of the World Giant Crevasse 4th Chest",
+        "world": "End of the World",
+        "locationCode": 2654652
+      },
+      {
+        "name": "End of the World Giant Crevasse 2nd Chest",
+        "world": "End of the World",
+        "locationCode": 2654653
+      },
+      {
+        "name": "End of the World World Terminus Traverse Town Chest",
+        "world": "End of the World",
+        "locationCode": 2654654
+      },
+      {
+        "name": "End of the World World Terminus Wonderland Chest",
+        "world": "End of the World",
+        "locationCode": 2654691
+      },
+      {
+        "name": "End of the World World Terminus Olympus Coliseum Chest",
+        "world": "End of the World",
+        "locationCode": 2654692
+      },
+      {
+        "name": "End of the World World Terminus Deep Jungle Chest",
+        "world": "End of the World",
+        "locationCode": 2654693
+      },
+      {
+        "name": "End of the World World Terminus Agrabah Chest",
+        "world": "End of the World",
+        "locationCode": 2654694
+      },
+      {
+        "name": "End of the World World Terminus Halloween Town Chest",
+        "world": "End of the World",
+        "locationCode": 2654732
+      },
+      {
+        "name": "End of the World World Terminus Neverland Chest",
+        "world": "End of the World",
+        "locationCode": 2654733
+      },
+      {
+        "name": "End of the World World Terminus 100 Acre Wood Chest",
+        "world": "End of the World",
+        "locationCode": 2654734
+      },
+      {
+        "name": "End of the World World Terminus Hollow Bastion Chest",
+        "world": "End of the World",
+        "locationCode": 2654771
+      },
+      {
+        "name": "End of the World Final Rest Chest",
+        "world": "End of the World",
+        "locationCode": 2654772
+      },
+      {
+        "name": "Monstro Chamber 6 White Trinity Chest",
+        "world": "Monstro",
+        "locationCode": 2655092
+      }
+    ],
+    "countsByWorld": {
+      "Destiny Islands": 1,
+      "Traverse Town": 21,
+      "Wonderland": 19,
+      "Deep Jungle": 19,
+      "100 Acre Wood": 4,
+      "Agrabah": 37,
+      "Monstro": 21,
+      "Halloween Town": 19,
+      "Olympus Coliseum": 6,
+      "Neverland": 11,
+      "Hollow Bastion": 33,
+      "End of the World": 25
+    },
+    "wikiRowsOutsideChestType": {
+      "Destiny Islands": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "Traverse Town": [
+        1,
+        3,
+        5,
+        10,
+        18,
+        19,
+        22,
+        25,
+        28,
+        30
+      ],
+      "Wonderland": [
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        15,
+        17,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "Olympus Coliseum": [
+        3,
+        7
+      ],
+      "Deep Jungle": [
+        3,
+        5,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "Agrabah": [
+        13,
+        38
+      ],
+      "Monstro": [
+        5,
+        17,
+        23
+      ],
+      "Atlantica": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "Halloween Town": [
+        1,
+        5,
+        17
+      ],
+      "Neverland": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        6
+      ],
+      "100 Acre Wood": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "Hollow Bastion": [
+        18,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        45
+      ],
+      "End of the World": [
+        20
+      ]
+    }
+  },
+  "auditedTreasureManifest": {
+    "Destiny Islands": 4,
+    "Traverse Town": 33,
+    "Wonderland": 23,
+    "Olympus Coliseum": 18,
+    "Deep Jungle": 30,
+    "Agrabah": 34,
+    "Monstro": 16,
+    "Atlantica": 25,
+    "Halloween Town": 16,
+    "Neverland": 21,
+    "100 Acre Wood": 23,
+    "Hollow Bastion": 37,
+    "End of the World": 26
+  }
+}
