@@ -69,11 +69,13 @@ These refine presentation and workflow; none authorizes dropping a completion ca
 | ID | Question | Default / accepted direction | When needed | Answer/status |
 |---|---|---|---|---|
 | KH1-Q01 | What completion goal should the first dashboard foreground? | World/category collectibles; separate named tracks for synthesis, challenges and other goals; exclude narrative flags | Dashboard design | Answered 2026-09-18 — user clarification |
-| KH1-Q02 | Should spoilers be visible by default or hidden until the player reveals them? | User-controlled reveal for locations/boss details; keep progress counts usable | Entry/search/Data Jiminy presentation | Open |
-| KH1-Q03 | Which current game platform and phone/browser should be our first hands-on validation target? | Start with the user's own setup, then validate the supported matrix | Platform acceptance and device testing | Open |
-| KH1-Q04 | Should “available now” filtering use manually entered access/ability milestones? | Optional manual access context; never infer that “not checked” means inaccessible, and never include milestones in collectible percentages | Availability UI | Open — collection denominator is settled |
-| KH1-Q05 | How should synthesis material ownership be entered? | Simple optional inventory counters alongside crafted checks; calculate both full requirements and remaining requirements | Planner interaction | Open |
+| KH1-Q02 | Spoiler policy | Fully spoilerful app; no warnings, concealment or reveal controls | All presentation | Answered 2026-09-18 |
+| KH1-Q03 | Game context and initial app test targets | User plays Steam. Initial app smoke/acceptance on Apple browser, iPhone and iPad; Android later. No gameplay/playthrough acceptance gate | App testing | Answered 2026-09-18 |
+| KH1-Q04 | Available Now / progress gates | Omit Available Now filtering and manual ability/story tracking; keep required abilities and access conditions in acquisition text | Collection UX | Answered 2026-09-18 — feature declined |
+| KH1-Q05 | Synthesis inventory | Optional opt-in owned quantities; ingredient reminders show owned/required (x/y). Synthesis is first-class with robust remaining-material calculations and functional acceptance | Planner interaction | Answered 2026-09-18 |
 | KH1-Q06 | How should collection guidance be organized? | Compact lists by world, expanded into precise item location/acquisition rows; shared checks; relevant prerequisites and missability guidance; no full story walkthrough | Guide navigation | Answered 2026-09-18 — user clarification |
+
+All six current product questions are answered. Remaining work is research and implementation; new product questions should be raised only when a concrete unresolved choice requires one.
 
 ### Answer log
 
@@ -84,12 +86,14 @@ These refine presentation and workflow; none authorizes dropping a completion ca
 | 2026-09-18 | KH1-A03 / Q01 | World percentages represent collectibles, not narrative Journal flags, conversations or character updates; retain other completion goals separately |
 | 2026-09-18 | KH1-A04 / Q06 | Use a world-grouped compact index and expanded item-location details backed by identical persistent item records; compendium scope, not a full story walkthrough |
 
+Accepted 2026-09-18: Q02 no spoiler warnings; Q03 Steam context and Apple-first app testing; Q04 no progress-gate filtering/tracking; Q05 optional inventory and first-class synthesis. These apply across the game specs. See [synthesis/inventory](../content/synthesis-and-inventory.md) and [testing/content validation](../testing-and-content-validation.md).
+
 Record new answers under the question ID, then update status and corresponding spec; preserve rejected alternatives in notes rather than reopening settled questions.
 
 ## Research queue — agent work, not questions for the user
 
 - [ ] KH1-R01: Audit every relevant workbook range and existing repository file. Extract real records, not just tab names; identify duplicates and incomplete ranges.
-- [ ] KH1-R02: Research baseline now uses KH1FM in HD 1.5 + 2.5 ReMIX, with official Steam evidence. Finish exact per-platform achievement mapping and hands-on verification targets; no PS2 compatibility work.
+- [ ] KH1-R02: Research baseline now uses KH1FM in HD 1.5 + 2.5 ReMIX, with official Steam evidence. Finish exact per-platform achievement mapping and source reconciliation; no PS2 compatibility work.
 - [ ] KH1-R03: System inventories/counts for the previously missing modules are now sourced. Complete exhaustive treasure, Report-acquisition, accessory, acquisition-relevant enemy and level manifests; normalize goal membership. Do not require narrative/biography update manifests.
 - [ ] KH1-R04: Reconcile the 33 transcribed recipes and calculated totals against legacy/in-game data; resolve Energy Bangle conflict KH1-C01. Verify complete drop conditions, grouped collectibles, tournament seeds and level-choice tables.
 - [ ] KH1-R05: Sourced acquisition/farming/encounter summaries now exist. Expand remaining room routes, activity tutorials, boss strategies and Gummi builds into self-contained practical guides.
@@ -101,7 +105,7 @@ Record new answers under the question ID, then update status and corresponding s
 - [ ] KH1-E01: Define versioned schemas, stable IDs, relationships, import validation and update migrations.
 - [ ] KH1-E02: Implement green mobile journal with compact world-grouped slots and expanded location rows using the same stable records, search, Remaining filters and compact source links.
 - [ ] KH1-E03: Implement saved checks/counters, progress counts, resume, undo, export/import and failure recovery.
-- [ ] KH1-E04: Calculate synthesis requirements from recipes; define inventory allocation and crafted-item semantics to prevent double counting.
+- [ ] KH1-E04: Treat synthesis as first-class: optional persistent inventory, owned/required ingredient reminders, accurate per-recipe and aggregate shortfalls, source navigation and independently checked calculation fixtures. Allocate shared stock once; keep crafted-history checks separate from current stock. Follow the shared synthesis contract.
 - [ ] KH1-E05: Package app/content/models for offline cold starts; distinguish download completion from verified readiness; preserve progress through updates.
 - [ ] KH1-E06: Build game-scoped Coppermind data and query embeddings; select/evaluate the small model and runtime. Render exact data directly where possible.
 - [ ] KH1-E07: Validate Data Jiminy on locations, prerequisites, recipes, quantities, progress queries, ambiguous questions, unsupported questions and instruction-override attempts. No personality or unsolicited elaboration.
@@ -125,4 +129,8 @@ Record new answers under the question ID, then update status and corresponding s
 
 KH1FM is ready only when every required coverage row has a verified inventory and usable details, all critical research conflicts are resolved, needed product decisions are answered, and offline/progress/calculation/Data Jiminy tests pass on the agreed device matrix. A player must be able to find, obtain and track the scoped collectibles and completion items using Ars Arcanum alone. A full narrative walkthrough is not a release requirement. Screenshots are not a release blocker; missing text guidance is.
 
-Current blockers: exhaustive inventories and precise routes still incomplete; four active targeted fact/behavior issues remain in the research audit; the narrative-manifest issue is retired; platform mapping and hands-on verification are incomplete; normalized data/UI are unbuilt; offline model/retrieval behavior is untested. No completion percentage or release date is claimed.
+Current blockers: exhaustive inventories and precise routes still incomplete; four active targeted fact/behavior issues remain in the research audit; the narrative-manifest issue is retired; platform mapping and source reconciliation are incomplete; normalized data/UI are unbuilt; offline model/retrieval behavior is untested. No completion percentage or release date is claimed.
+
+## Accepted app acceptance policy
+
+Use the [shared test plan](../testing-and-content-validation.md): Apple browser, iPhone and iPad initially; Android follow-up. The user plays Steam, but no manual playthrough or in-game verification is required from them. Preserve content accuracy through cited source reconciliation and data/calculation validation. App checks must also verify optional inventory off/on, x/y quantities, no spoiler UI, and no Available Now tracker/filter.
