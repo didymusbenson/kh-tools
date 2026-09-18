@@ -34,7 +34,7 @@ The redesign changes:
 
 ### The cover
 
-The application entry should read as the cover or title page of Ars Arcanum. It establishes the project identity and leads into game selection.
+The application entry establishes Ars Arcanum and leads into the retained fly-in game selector. A cover/title-page treatment is a proposal, not a requirement to make every game a physical book.
 
 ### Fly-in game selection
 
@@ -110,7 +110,7 @@ Every game receives theme tokens layered onto the shared journal shell:
 - Section-divider motif
 - Optional ambient texture
 
-Theme differences must not change fundamental navigation, accessibility, or data meaning.
+Theme differences must not change fundamental navigation, accessibility, or data meaning. They may change layout composition: a physical journal for KH1–2/BBS and a digital tile menu for KH3. Shared shell means shared behavior, not mandatory binder decoration.
 
 ## Interaction principles
 
@@ -143,3 +143,42 @@ Theme differences must not change fundamental navigation, accessibility, or data
 - How literal should page turns be on phones?
 - Does progress appear as inked checkmarks, stamps, filled emblems, or another motif?
 - Which visual assets can be used safely and consistently?
+
+## Accepted screenshot-led theme direction
+
+The user supplied six journal screenshots on 2026-09-18. These are design references, not production guide media. The rendered attachments were visually reviewed; no screenshot binaries were imported into the repository.
+
+| Game | Accepted direction | Reference-derived cues |
+|---|---|---|
+| KH1 and KH2 | Green Jiminy's Journal | Green frame, pale cream/lime pages, binder rings, burgundy tabs; purple contents panels |
+| Birth by Sleep | Blue Reports journal | Cobalt/cyan frame, navy contents, blue-violet lists, icy-blue detail pages, aligned completion badges |
+| KH3 | Digital, menu-like journal | Dark star field, blue/violet category tiles, white icons, cyan selection, contextual side panel |
+| DDD | Await further inspiration | Earlier palette is a proposal only |
+| 0.2 | BBS family; exact variation pending | Do not assume a confirmed 0.2-specific theme from BBS screenshots |
+
+The user explicitly chose the green family for both KH1 and KH2. This is a design assignment, not a claim that every supplied green screenshot depicts KH1.
+
+### Reference inventory
+
+References are identified by attachment order and original filename so later inspiration can be compared without guessing game/edition provenance.
+
+| Ref | Attachment filename | Visible composition | Design lesson |
+|---|---|---|---|
+| R1 | 4e4f7343-6d91-4fc8-a864-1346bd0adecb.png | Green Collection cover; Jiminy left, purple category list right | Distinguish contents surfaces from reading pages |
+| R2 | 20e656d7-4556-49d5-af18-b45863fbe0b1.png | Green Character Files detail; pale lined page, binding and red tabs | Strong page hierarchy and contextual section labels |
+| R3 | cefb5484-de2c-4e34-a507-5835e0e460b8.png | Green Beast's Castle character grid | Visual indexes with selected-entry labels |
+| R4 | 345d3bec-7beb-4314-8624-8c848d8e10b3.png | Blue Reports contents with Aqua portrait | Character identity, compact section list, row-end progress marks |
+| R5 | 79b376c0-c493-44ea-8128-4f9676883ce6.png | Blue Sticker Album reward table | Point summary, readable thresholds, repeated completion indicators |
+| R6 | 0ac48c9d-3732-4ea1-a0e0-0e83bf9c63bf.png | Dark Gummiphone category tiles and context panel | Digital journal variant, icon-plus-label navigation, selected-state contrast |
+
+### Adaptation requirements
+
+- Preserve visual hierarchy and each theme's character without tracing the console layout pixel-for-pixel.
+- Do not require a mouse-hover help bar: supporting descriptions must also work with touch and keyboard focus.
+- Selection, newly available content, and completion are separate states with text/semantic equivalents.
+- Use a single readable page on narrow screens; binding and margins become compact decoration.
+- KH3 category tiles reflow rather than becoming miniature console tiles.
+- Make portraits, background imagery, and large world illustrations optional; text-only MVP must look intentional.
+- Do not extract Jiminy renders, portraits, logos, watermark-bearing screenshots, or other artwork into production from these references.
+- Exact fonts, colors, ornament, animation timings, and icon designs remain open.
+- Future inspiration refines these directions; record which decisions it changes.
