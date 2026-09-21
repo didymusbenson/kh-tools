@@ -30,6 +30,11 @@ export function compareMaterials(a: GuideEntry, b: GuideEntry): number {
   return aRank - bRank || a.name.localeCompare(b.name) || a.id.localeCompare(b.id);
 }
 
+function hasConditionalLabel(entry: GuideEntry): boolean {
+  const rule = String(entry.facts?.["reward rule"] || entry.facts?.["drop rules"] || entry.summary);
+  return !rule.includes("%") && (typeof entry.facts?.["reward rule"] === "string" || /conditional/i.test(rule));
+}
+
 /** Compact source rules without treating conditional rewards as ordinary drops. */
 export function materialDropLines(entry: GuideEntry): string[] {
   if (entry.id === "kh1fm-material-orichalcum")
@@ -46,11 +51,12 @@ export function materialDropLines(entry: GuideEntry): string[] {
   const source = entry.facts?.["source enemy"];
   const reward = entry.facts?.["reward rule"];
   if (typeof source === "string" && typeof reward === "string")
-    return [`${source}: ${reward}`];
+    return [`${source}: ${hasConditionalLabel(entry) ? "Conditional" : reward}`];
   const rules = typeof entry.facts?.["drop rules"] === "string"
     ? entry.facts["drop rules"] as string
     : entry.summary;
   if (!rules) return [];
+  if (hasConditionalLabel(entry)) return ["Conditional"];
   // Split only an entire verified simple enemy/rate list. A conditional clause,
   // component-specific exception, or other prose keeps the whole rule intact.
   if (/^[^:;\n]+: \d+(?:\.\d+)?%(?:; [^:;\n]+: \d+(?:\.\d+)?%)*\.?$/.test(rules))
@@ -66,10 +72,10 @@ export function materialDetailEntry(entry: GuideEntry): GuideEntry {
   const facts = { ...entry.facts };
   delete facts["drop rules"];
   delete facts["source enemy"];
-  delete facts["reward rule"];
+  if (!hasConditionalLabel(entry)) delete facts["reward rule"];
   return {
     ...entry,
-    summary: materialDropLines(entry).length ? "" : entry.summary,
+    summary: hasConditionalLabel(entry) && !entry.facts?.["reward rule"] ? entry.summary : materialDropLines(entry).length ? "" : entry.summary,
     instructions: instructions.replace(/\s{2,}/g, " ").trim(),
     facts,
     relatedIds: entry.relatedIds.filter(id => !genericAbilityIds.has(id)),
