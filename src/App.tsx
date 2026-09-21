@@ -61,10 +61,15 @@ const categories: Record<string, string> = {
   achievement: "Achievements",
   guide: "Field notes",
 };
+const catalogueIcons: Record<string, IconName> = {
+  bestiary: "monster", treasures: "chest", trinities: "trinity",
+  dalmatians: "paw", "magic-upgrades": "wand", "torn-pages": "torn-page",
+  "ansem-reports": "scroll", challenges: "cup", achievements: "medal",
+};
 const nav: { id: string; label: string; icon: IconName; chapter: string }[] = [
   {id:"worlds", label:"Worlds", icon:"world", chapter:""},
-  {id:"synthesis", label:"Synthesis Workshop", icon:"spark", chapter:""},
-  ...cataloguePages.map(page=>({id:page.id, label:page.title, icon:"book" as IconName, chapter:""})),
+  {id:"synthesis", label:"Synthesis Workshop", icon:"flask", chapter:""},
+  ...cataloguePages.map(page=>({id:page.id, label:page.title, icon:catalogueIcons[page.id] || "book", chapter:""})),
 ];
 function routeTo(path: string) {
   window.location.hash = `/${path}`;

@@ -1,6 +1,15 @@
 import type { CSSProperties } from "react";
 
 export type IconName =
+  | "flask"
+  | "monster"
+  | "chest"
+  | "trinity"
+  | "paw"
+  | "wand"
+  | "torn-page"
+  | "scroll"
+  | "medal"
   | "book"
   | "world"
   | "spark"
@@ -24,6 +33,15 @@ export type IconName =
   | "heart"
   | "filter";
 const paths: Record<IconName, string> = {
+  flask: "M9 3h6M10 3v6L4 19q-1 2 2 2h12q3 0 2-2L14 9V3M7 15h10m-7 3h.01",
+  monster: "M6 8 4 3l6 3h4l6-3-2 5q3 3 2 7l-3 5H7l-3-5q-1-4 2-7Zm1 4 2 1m8-1-2 1m-6 4 3-1 3 1",
+  chest: "M3 11V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v3M3 11h18v10H3V11Zm6 0v4h6v-4M7 4v7m10-7v7",
+  trinity: "M15 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM9 17a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm12 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM10 9l-2 5m6-5 2 5m-7 3h6",
+  paw: "M8 15q4-6 8 0l2 3q1 4-3 3l-3-1-3 1q-4 1-3-3l2-3ZM7 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm14 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM11 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z",
+  wand: "m4 20 11-11 3 3L7 23l-3-3Zm8-8 3 3M5 3v6M2 6h6m10-5v6m-3-3h6m-1 12v6m-3-3h6",
+  "torn-page": "M5 3h10l4 4v14l-4-2-3 2-3-2-4 2V3Zm10 0v5h4M8 11h8m-8 4h5",
+  scroll: "M7 3h12a2 2 0 0 1 2 2v3h-4V5a2 2 0 0 1 4 0M7 3a2 2 0 0 0-2 2v13H2v1a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8M8 9h6m-6 4h6m-6 4h4",
+  medal: "m5 3 4 7m10-7-4 7M5 3h5l2 4 2-4h5M18 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0Zm-6-3 .9 1.8 2 .3-1.4 1.4.3 2-1.8-.9-1.8.9.3-2-1.4-1.4 2-.3L12 13Z",
   book: "M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1m0-15c3-2 6-2 9-1v15c-3-1-6-1-9 1V5Z",
   world:
     "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z",

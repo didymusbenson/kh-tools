@@ -132,3 +132,7 @@ Implementation research and the thirteen available canonical world overview reco
 Implemented the requested primary menu, 13 world overview pages, world-filtered category shortcuts, world-grouped catalogues, canonical links and legacy redirects. Postcards stay in a distinct Treasures section; Steam Achievements are separate from Challenges and Minigames. Secondary reference content remains accessible. Resume last page now accepts all new destinations and query filters.
 
 Production build and 57 unit tests passed. All 46 existing/new navigation browser cases passed across the full run and locator-only rerun; two added resume cases also passed. Final affected run: 26/26 desktop/phone navigation, journal and regression cases. Two optional heavyweight model tests were skipped. Shared preview refreshed; Trinities, Worlds hub and Traverse Town overview visually inspected. Changes remain local, pending human acceptance.
+
+## September 20, 2026 — Distinct menu icons
+
+User feedback: menu icons are too similar. Replaced repeated book symbols with distinct silhouettes: globe for Worlds, flask for Synthesis, monster face for Bestiary, chest for Treasures, three connected marks for Trinities, paw for Dalmatians, wand for Magic Upgrades, torn sheet for Torn Pages, scroll for Ansem Reports, trophy for Challenges, medal for Steam Achievements. Uses the existing SVG style and retains text labels.
