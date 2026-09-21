@@ -74,7 +74,6 @@ test("synthesis preserves stock and catalog independently across restart", async
   page,
 }) => {
   await page.goto("./#/kh1fm/synthesis/materials");
-  await page.getByRole("checkbox", { name: "Track owned materials" }).check();
   const stock = page.getByRole("textbox", {
     name: "Spirit Shard owned stock; blank means unknown",
     exact: true,

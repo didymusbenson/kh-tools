@@ -15,10 +15,9 @@ test("remaining filter preserves completed category counts", async ({ page }) =>
   await expect(heading).toContainText(`1/${total} groups`);
 });
 
-test("recipe entry shows unknown, surplus and disabled inventory consistently", async ({ page }) => {
+test("recipe entry distinguishes unknown, surplus and zero stock consistently", async ({ page }) => {
   const recipe = data.recipes.find((r: any) => r.name === "Energy Bangle");
   await page.goto("./#/kh1fm/synthesis/materials");
-  await page.getByRole("checkbox", {name: "Track owned materials"}).check();
   await page.goto(`./#/kh1fm/entry/${recipe.entryId}`);
   await expect(page.locator(".recipe-card").filter({has: page.getByRole("button", {name: recipe.name, exact: true})}).getByLabel("Unknown owned, 2 required; unknown remaining", {exact: true})).toBeVisible();
   await page.goto("./#/kh1fm/synthesis/materials");
@@ -27,9 +26,9 @@ test("recipe entry shows unknown, surplus and disabled inventory consistently", 
   await page.goto(`./#/kh1fm/entry/${recipe.entryId}`);
   await expect(page.locator(".recipe-card").filter({has: page.getByRole("button", {name: recipe.name, exact: true})}).getByLabel("8 owned, 2 required; 0 remaining", {exact: true})).toBeVisible();
   await page.goto("./#/kh1fm/synthesis/materials");
-  await page.getByRole("checkbox", {name: "Track owned materials"}).uncheck();
+  await stock.fill("0"); await stock.press("Tab");
   await page.goto(`./#/kh1fm/entry/${recipe.entryId}`);
-  await expect(page.getByLabel("2 required", {exact: true}).first()).toBeVisible();
+  await expect(page.locator(".recipe-card").filter({has: page.getByRole("button", {name: recipe.name, exact: true})}).getByLabel("0 owned, 2 required; 2 remaining", {exact: true})).toBeVisible();
   await expect(page.getByText("8 / 2 · 0 remaining", {exact: true})).toHaveCount(0);
 });
 

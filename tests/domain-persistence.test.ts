@@ -3,7 +3,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { createPlayerStore } from "../src/state/playerStore";
 import type { PlayerStore } from "../src/state/playerStore";
 import { emptyPlayerState, makeBackup } from "../src/domain/player";
-import type { GameData, GuideEntry } from "../src/domain/types";
+import type { GameData, GuideEntry, PlayerState } from "../src/domain/types";
 
 const entry = (id: string): GuideEntry => ({
   id,
@@ -40,6 +40,20 @@ const data: GameData = {
   coverage: [],
 };
 const stores: PlayerStore[] = [];
+async function seedLegacyProfile(state: PlayerState, key = "kh1fm-current") {
+  await new Promise<void>((resolve, reject) => {
+    const request = indexedDB.open("ars-arcanum-player", 1);
+    request.onupgradeneeded = () => request.result.createObjectStore("profiles");
+    request.onerror = () => reject(request.error);
+    request.onsuccess = () => {
+      const db = request.result;
+      const transaction = db.transaction("profiles", "readwrite");
+      transaction.objectStore("profiles").put({ revision: 1, state }, key);
+      transaction.oncomplete = () => { db.close(); resolve(); };
+      transaction.onabort = () => { db.close(); reject(transaction.error); };
+    };
+  });
+}
 async function open(content: GameData = data) {
   const store = createPlayerStore(content);
   stores.push(store);
@@ -58,8 +72,9 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 describe("transactional browser progress", () => {
-  it("restores checks, stock, goals and route after reopening; inventory toggle preserves stock", async () => {
+  it("restores checks, stock, goals and route after reopening; legacy toggles cannot disable tracking", async () => {
     const store = await open();
+    expect(store.getSnapshot().state.inventoryEnabled).toBe(true);
     await store.setInventory("ore", 8);
     await store.setInventoryEnabled(true);
     await store.setCheck("first", true);
@@ -70,11 +85,40 @@ describe("transactional browser progress", () => {
     expect(reopened.getSnapshot().state).toMatchObject({
       checks: { first: true },
       inventory: { ore: 8 },
-      inventoryEnabled: false,
+      inventoryEnabled: true,
       plan: { craft: 2 },
       lastRoute: "#/kh1fm/synthesis?view=remaining",
     });
     expect(reopened.getSnapshot().status).toBe("saved");
+  });
+  it("normalizes saved disabled inventory profiles while preserving stock, checks and craft plans", async () => {
+    const legacy = {
+      ...emptyPlayerState(), inventoryEnabled: false,
+      checks: { first: true }, inventory: { ore: 8, product: 0 },
+      plan: { craft: 2 }, planMode: "first-craft" as const,
+      lastRoute: "#/kh1fm/synthesis/materials",
+    };
+    await seedLegacyProfile(legacy);
+    const store = await open();
+    expect(store.getSnapshot().state).toEqual({ ...legacy, inventoryEnabled: true });
+    expect(JSON.parse(store.exportBackup()).player.inventoryEnabled).toBe(true);
+    await store.setCheck("second", true);
+    expect((await open()).getSnapshot().state).toMatchObject({
+      inventoryEnabled: true, inventory: legacy.inventory, plan: legacy.plan,
+      planMode: "first-craft", checks: { first: true, second: true },
+    });
+  });
+  it("normalizes disabled imports and recovery snapshots without erasing quantities or treating unknown stock as zero", async () => {
+    const store = await open();
+    const legacy = { ...emptyPlayerState(), inventoryEnabled: false, inventory: { ore: 0 }, plan: { craft: 3 } };
+    await store.importBackup(makeBackup(legacy));
+    expect(store.getSnapshot().state).toMatchObject({ inventoryEnabled: true, inventory: { ore: 0 }, plan: { craft: 3 } });
+    expect(store.getSnapshot().state.inventory.product).toBeUndefined();
+    await seedLegacyProfile({ ...legacy, inventory: { ore: 9 }, plan: { craft: 2 } }, "kh1fm-recovery");
+    await store.restoreRecovery();
+    expect(store.getSnapshot().state).toMatchObject({ inventoryEnabled: true, inventory: { ore: 9 }, plan: { craft: 2 } });
+    await store.undo();
+    expect(store.getSnapshot().state).toMatchObject({ inventoryEnabled: true, inventory: { ore: 0 }, plan: { craft: 3 } });
   });
   it("keeps historical crafted checks independent and supports undo without consuming stock", async () => {
     const store = await open();

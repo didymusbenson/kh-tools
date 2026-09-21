@@ -9,6 +9,7 @@ import { collectibleProgress } from "./domain/progress";
 import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
 import { EntryDetails } from "./components/EntryDetails";
+import { compareMaterials, materialFamily, materialDropLines, materialDropLocation } from "./domain/materialPresentation";
 import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
@@ -831,9 +832,9 @@ function EntryToggle({ entry, children }: { entry: GuideEntry; children?: ReactN
     <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
   </button>;
 }
-function InlineDetails({entry, state}: {entry: GuideEntry; state: PlayerState}) {
+function InlineDetails({entry, state, compactMaterial = false}: {entry: GuideEntry; state: PlayerState; compactMaterial?: boolean}) {
   const {data, expanded} = useContext(ExpansionContext);
-  return <div className="entry-inline-details" id={`details-${entry.id}`} hidden={!expanded.has(entry.id)}>{expanded.has(entry.id) && <EntryDetails data={data} state={state} entry={entry} />}</div>;
+  return <div className="entry-inline-details" id={`details-${entry.id}`} hidden={!expanded.has(entry.id)}>{expanded.has(entry.id) && <EntryDetails data={data} state={state} entry={entry} compactMaterial={compactMaterial} />}</div>;
 }
 function EntryRow({ entry: e, state, onToggle }: { entry: GuideEntry; state: PlayerState; onToggle: (id: string) => unknown }) {
   return <article className={`entry-row ${state.checks[e.id] ? "recorded" : ""}`} id={`row-${e.id}`}>
@@ -1056,7 +1057,7 @@ function Synthesis({
       r.name.toLowerCase().includes(query.toLowerCase()) &&
       ((expanded.has(r.entryId) && retained.has(r.entryId)) || !remaining || !state.checks[r.entryId])),
   );
-  const materials = data.entries.filter((e) => e.category === "material");
+  const materials = data.entries.filter((e) => e.category === "material").sort(compareMaterials);
   const plan = useMemo(
     () =>
       calculatePlan(data.recipes, state.plan, state.inventory, {
@@ -1086,7 +1087,7 @@ function Synthesis({
           {[
             ["recipes", "Recipes"],
             ["materials", "Materials"],
-            ["plan", `Craft plan${planCount ? ` · ${planCount}` : ""}`],
+            ["plan", `Planning${planCount ? ` · ${planCount}` : ""}`],
           ].map(([id, text]) => (
             <a
               key={id}
@@ -1097,17 +1098,9 @@ function Synthesis({
             </a>
           ))}
         </div>
-        <label className="toggle-label">
-          <input
-            type="checkbox"
-            checked={state.inventoryEnabled}
-            onChange={(e) => player.setInventoryEnabled(e.target.checked)}
-          />
-          <span className="toggle-track" />
-          Track owned materials
-        </label>
+
       </div>
-      <p className="tool-note">Marking a recipe crafted does not deduct stock.{state.inventoryEnabled && " Counts show owned / required; ? means unknown. Leave a field to save; clear it to reset to unknown."}</p>
+      <p className="tool-note">{tab === "materials" ? "Enter owned stock; blank means unknown. Changes save when you leave the field." : "Counts show owned / required; ? means unknown. Marking a recipe crafted does not deduct stock."}</p>
       {tab === "recipes" ? (
         <>
           <div className="recipe-filters">
@@ -1226,52 +1219,36 @@ function Synthesis({
         </>
       ) : tab === "materials" ? (
         <>
-          <div className="section-heading">
-            <h2>Materials</h2>
-            <span className="eyebrow">
-              {materials.length} recorded materials
-            </span>
-          </div>
-          <CategoryExpansion entries={materials} />
           <div className="material-list">
-            {materials.map((e) => (
-              <article className="material-card" key={e.id} id={`row-${e.id}`}>
-                <div className="material-heading">
-                  <div>
-                    <span className="entry-kicker">
-                      {e.world || "Synthesis material"}
-                    </span>
-                    <h3>
-                      <EntryToggle entry={e} />
-                    </h3>
+            {uniq(materials.map(materialFamily)).map(family => {
+              const group = materials.filter(e=>materialFamily(e) === family);
+              return <section className="material-family" key={family}>
+                <div className="compact-category-heading"><h2>{family}</h2><CategoryExpansion entries={group} /></div>
+                {group.map(e=><article className="material-card" key={e.id} id={`row-${e.id}`}>
+                  <div className="material-heading">
+                    <div className="material-summary">
+                      <h3><EntryToggle entry={e} /></h3>
+                      <div className="material-drop-summary">{materialDropLines(e).map((line,i)=><p key={i}>{line.replace(/\.$/, "")}<span className="material-location">{materialDropLocation(e,line) && ` — ${materialDropLocation(e,line)}`}</span></p>)}
+                      </div>
+                    </div>
+                    <label className="stock-field"><span>Owned</span><Quantity unknown value={state.inventory[e.id]} name={`${e.name} owned stock; blank means unknown`} onChange={n=>player.setInventory(e.id,n)} /></label>
                   </div>
-                  {state.inventoryEnabled && (
-                    <label className="stock-field">
-                      <span>Owned</span>
-                      <Quantity
-                        unknown
-                        value={state.inventory[e.id]}
-                        name={`${e.name} owned stock; blank means unknown`}
-                        onChange={(n) => player.setInventory(e.id, n)}
-                      />
-                    </label>
-                  )}
-                </div>
-                <InlineDetails entry={e} state={state} />
-              </article>
-            ))}
+                  <InlineDetails entry={e} state={state} compactMaterial />
+                </article>)}
+              </section>;
+            })}
           </div>
         </>
       ) : (
         <>
           <div className="section-heading">
-            <h2>Your next creations</h2>
+            <h2>Planning</h2>
             <span className="eyebrow">{selected.length} selected recipes</span>
           </div>
           {selected.length === 0 ? (
             <div className="empty-state">
               <Icon name="spark" size={30} />
-              <h3>A blank page, full of possibilities.</h3>
+              <h3>No recipes selected</h3>
               <p>
                 Add quantities from the recipe catalog to build your material
                 plan.
@@ -1307,10 +1284,7 @@ function Synthesis({
               <div className="plan-explanation">
                 <Icon name="info" size={19} />
                 <p>
-                  {plan.allocationRule}{" "}
-                  {state.inventoryEnabled
-                    ? "Stock is allocated once across the complete plan."
-                    : "Inventory is off: these are full material requirements."}
+                  Stock is shared across the selected recipes. Required prerequisite crafts are included. Unknown stock keeps the totals provisional.
                 </p>
               </div>
               {plan.issues.length > 0 && (
@@ -1325,9 +1299,7 @@ function Synthesis({
               )}
               <div className="section-heading">
                 <h2>
-                  {state.inventoryEnabled
-                    ? "Materials still needed"
-                    : "Total materials required"}
+                  Materials still needed
                 </h2>
                 {plan.provisional && (
                   <span className="badge badge-unresolved">
@@ -1404,7 +1376,7 @@ function Synthesis({
                           }
                         >
                           <small>
-                            {state.inventoryEnabled ? "To gather" : "Gather"}
+                            To gather
                           </small>
                           <strong>
                             {m.missing === null ? "?" : m.missing}
@@ -1667,24 +1639,6 @@ function Settings({
           </div>
         </section>
       )}
-      <section className="settings-section">
-        <div>
-          <h2>Optional material inventory</h2>
-          <p>
-            Enter your own material counts in the workshop. Turning this off
-            preserves your quantities, and hides stock-adjusted calculations.
-          </p>
-        </div>
-        <label className="toggle-label">
-          <input
-            type="checkbox"
-            checked={state.inventoryEnabled}
-            onChange={(e) => player.setInventoryEnabled(e.target.checked)}
-          />
-          <span className="toggle-track" />
-          {state.inventoryEnabled ? "Inventory enabled" : "Inventory disabled"}
-        </label>
-      </section>
       <section className="settings-section">
         <div>
           <h2>Offline journal & Data Jiminy</h2>

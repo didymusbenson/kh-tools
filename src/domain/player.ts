@@ -15,7 +15,7 @@ export function emptyPlayerState(): PlayerState {
     schemaVersion: 1,
     game: "kh1fm",
     checks: {},
-    inventoryEnabled: false,
+    inventoryEnabled: true,
     inventory: {},
     plan: {},
     planMode: "selected",
@@ -152,7 +152,9 @@ export function validatePlayerState(
     schemaVersion: 1,
     game: "kh1fm",
     checks: data ? normalizeAcquisitionChecks(checks, data, true) : checks,
-    inventoryEnabled: value.inventoryEnabled,
+    // Version 1 backups retain this field, but inventory is now always available.
+    // Normalize legacy disabled profiles without changing any recorded quantities.
+    inventoryEnabled: true,
     inventory,
     plan,
     planMode: value.planMode === "first-craft" ? "first-craft" : "selected",

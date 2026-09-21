@@ -140,3 +140,13 @@ User feedback: menu icons are too similar. Replaced repeated book symbols with d
 ## September 20, 2026 — Restore inline detail styling
 
 User identified visual drift in expanded details. The inline component had dropped the original detail-specific sage body/fact colors, warm requirement treatment and reference-link styling, inheriting generic dark body text with heavy labels. Font families had not been removed (Georgia headings and Arial/Helvetica body remain). Restored the journal detail palette, serif field labels, warm requirement highlighting and styled links while preserving compact rows and larger readable text.
+
+## September 20, 2026 — Synthesis workshop cleanup
+
+**Status: Implemented locally; awaiting human review.**
+
+User requested Recipes → Materials → Planning tab order, with Planning replacing Craft Plan. Inventory tracking must always be active, including existing saves. Material rows group by family and expose source/drop rules, farming location and editable owned count while collapsed; multiple sources can occupy separate lines. Expanded details retain tactics, conditions, finite treasures/rewards and related links. Remove repeated generic Lucky Strike advice; retain meaningful item-specific exceptions.
+
+Implementation preserves blank-as-unknown versus explicit zero, existing inventory quantities and craft plans, and compatibility with older backup schema. Material display uses the existing sourced drop data without inventing rates for conditional encounters. Repeated generic reset/ability boilerplate is omitted; ability entries remain available in Reference. Non-farmable sources and detailed crafting/encounter requirements remain in expanded content.
+
+Verification: production build passed. All 59 unit tests passed, including legacy inventory migration and backup/recovery preservation. Browser suite: 52 passed on desktop/phone, two optional heavyweight model cases skipped. Verified collapsed drops/locations, family grouping, editable unknown/zero stock, tab naming and existing planning workflows. Shared materials preview visually inspected.

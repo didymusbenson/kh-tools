@@ -83,6 +83,7 @@ export interface PlayerState {
   schemaVersion: 1;
   game: "kh1fm";
   checks: Record<string, boolean>;
+  /** Retained for version 1 backup compatibility; restored and live profiles use true. */
   inventoryEnabled: boolean;
   inventory: Record<string, number>;
   plan: Record<string, number>;

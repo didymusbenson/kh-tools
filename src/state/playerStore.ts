@@ -59,6 +59,7 @@ const RECOVERY = "kh1fm-recovery";
 function cloneState(state: PlayerState): PlayerState {
   return {
     ...state,
+    inventoryEnabled: true,
     checks: { ...state.checks },
     inventory: { ...state.inventory },
     plan: { ...state.plan },
@@ -80,7 +81,7 @@ function applyPatch(state: PlayerState, patch: Patch): void {
       state.checks[patch.key] = patch.value as boolean;
     else state[patch.field][patch.key] = patch.value as number;
   } else if (patch.field === "inventoryEnabled")
-    state.inventoryEnabled = patch.value as boolean;
+    state.inventoryEnabled = true;
   else if (patch.field === "planMode")
     state.planMode = patch.value as "selected" | "first-craft";
   else if (patch.field === "plan")
@@ -473,7 +474,8 @@ export function createPlayerStore(data: GameData): PlayerStore {
     setInventoryEnabled(enabled) {
       if (typeof enabled !== "boolean")
         return rejectInput("Inventory preference is invalid.");
-      return patch([{ field: "inventoryEnabled", value: enabled }]);
+      // Keep older callers compatible without allowing them to hide saved stock.
+      return patch([{ field: "inventoryEnabled", value: true }], false);
     },
     setPlan(id, quantity) {
       if (!recipeIds.has(id) || !validQuantity(quantity))
