@@ -1121,28 +1121,23 @@ function Synthesis({
             </label>
           </div>
           <div className="catalog-actions">
-            <div className="results-note">
-              {recipes.length} recipes ·{" "}
-              {data.recipes.filter((r) => state.checks[r.entryId]).length}/
-              {data.recipes.length} historically crafted
-            </div>
-
+            <div className="results-note">{recipes.length} {recipes.length === 1 ? "recipe" : "recipes"}</div>
+            <CategoryExpansion entries={recipes.flatMap(r => data.entries.filter(e=>e.id === r.entryId))} />
           </div>
-          <CategoryExpansion entries={recipes.flatMap(r => data.entries.filter(e=>e.id === r.entryId))} />
           <div className="recipe-grid">
             {recipes.map((recipe) => {
               const entry = data.entries.find((e) => e.id === recipe.entryId);
               return (
                 <article className="recipe-card" key={recipe.id} id={`row-${recipe.entryId}`}>
                   <div className="recipe-card-heading">
+                    {entry && <Check compact entry={entry} state={state} onToggle={onToggle} />}
                     <span className="recipe-set">
                       SET {String(recipe.set).padStart(2, "0")}
                     </span>
                     <h2>{entry && <EntryToggle entry={entry} />}</h2>
-                    {entry && <Check compact entry={entry} state={state} onToggle={onToggle} />}
                   </div>
-                  {entry && <InlineDetails entry={entry} state={state} />}
                   <button className="button button-secondary farm-add-button" disabled={adding} aria-label={`Add ${recipe.name} ingredients to farming plan`} onClick={()=>addToFarm(()=>player.addRecipeToFarmPlan(recipe.id), `Added ingredients for one ${recipe.name} craft to the farming plan.`)}>Add to farming plan</button>
+                  {entry && <InlineDetails entry={entry} state={state} />}
                 </article>
               );
             })}

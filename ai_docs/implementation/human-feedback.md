@@ -179,3 +179,9 @@ Verification: production build and 65 unit tests passed, including migration, im
 ## September 20, 2026 — Compact conditional drops
 
 User requested non-percentage conditional drops show only “Conditional” in collapsed rows. Kept enemy names and locations, preserved percentage-based rules, and retained the full conditional reward text in expanded material details. Applies consistently to Materials, Farming Plan and inline ingredient sources.
+
+## September 20, 2026 — Workshop aesthetic cleanup
+
+User requested a visual cleanup after the functional changes, highlighting oversized recipe action buttons and loose layout. Consolidated recipe count and expansion control into one toolbar, removed duplicated crafted totals, moved completion checks to the leading edge, and aligned compact farming actions beside recipe/material content where width allows. Narrow layouts keep right-aligned content-sized actions. Applied consistent paper surfaces, sage borders, detail separators, family headings and field spacing across the workshop. Preserve readable text, touch targets and journal typography.
+
+Verification: production build and all 20 targeted desktop/phone browser checks passed. Inspected the refreshed shared recipe view and phone layout, plus farming-plan screenshots. Changes saved locally; no deployment.
