@@ -5121,3 +5121,17 @@ p {
 .recipe-card-heading h2 { flex: 1; min-width: 0; }
 .recipe-card-heading .recipe-set { flex-shrink: 0; }
 .recipe-card-heading .check-control { flex-shrink: 0; }
+
+/* Category destinations stay within reach; worlds provide overview and shortcuts. */
+.journal-sidebar { max-height: calc(100dvh - 78px); overflow-y: auto; min-height: 0; }
+.chapter-nav a { flex-shrink: 0; }
+.sidebar-bottom > a { display: flex; align-items: center; min-height: 44px; }
+.world-hub-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; }
+.world-hub-list > a { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; min-height: 48px; border: 1px solid #c5d0b6; border-radius: 3px; }
+.world-hub-list > a:hover { background: #e9eddc; }
+.world-hub-list > a > span { display: flex; align-items: center; gap: 12px; }
+.world-overview { font-size: 17px; line-height: 1.55; margin-bottom: 14px; }
+.world-overview p { margin: 0 0 10px; }
+.world-notes { margin-top: 18px; }
+@media (max-width: 650px) { .journal-sidebar { max-height: calc(100dvh - 66px); } }
+.world-card-heading > h2 { flex: 1; min-width: 0; margin: 0; }

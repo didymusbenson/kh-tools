@@ -4,7 +4,7 @@ const data = JSON.parse(readFileSync("public/data/kh1fm.json", "utf8"));
 const entry = data.entries.find((item: any) => item.category === "trinity" && item.checkable);
 
 test("category items expand inline by keyboard and bulk controls without leaving the list", async ({ page }) => {
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/trinities?world=${encodeURIComponent(entry.world)}`);
   const row = page.locator(`#row-${entry.id}`);
   const category = page.locator(".compact-category").filter({ has: row });
   const toggle = row.locator("h3 button");
@@ -27,7 +27,7 @@ test("category items expand inline by keyboard and bulk controls without leaving
 });
 
 test("world collection rows remain a single column on each viewport", async ({ page }) => {
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/trinities?world=${encodeURIComponent(entry.world)}`);
   await expect(page.locator(`#row-${entry.id}`)).toBeVisible();
   await expect(page.getByRole("button", { name: "Compact index", exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Location details", exact: true })).toHaveCount(0);
@@ -45,7 +45,7 @@ test("world collection rows remain a single column on each viewport", async ({ p
 });
 
 test("legacy collectible links reveal focused items despite a saved remaining filter", async ({ page }) => {
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/trinities?world=${encodeURIComponent(entry.world)}`);
   const row = page.locator(`#row-${entry.id}`);
   await row.getByRole("checkbox", { name: `Mark ${entry.name} as collected`, exact: true }).click();
   await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
@@ -62,7 +62,7 @@ test("legacy collectible links reveal focused items despite a saved remaining fi
 });
 
 test("explicit filters hide expanded completed items while a new check stays readable until collapse", async ({ page }) => {
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/trinities?world=${encodeURIComponent(entry.world)}`);
   const row = page.locator(`#row-${entry.id}`);
   await row.locator("h3 button").click();
   await row.getByRole("checkbox", { name: `Mark ${entry.name} as collected`, exact: true }).click();
@@ -79,7 +79,7 @@ test("explicit filters hide expanded completed items while a new check stays rea
 });
 
 test("following the same Jiminy citation reopens a collapsed focused item", async ({ page }) => {
-  await page.goto("./#/kh1fm/contents");
+  await page.goto("./#/kh1fm/worlds");
   const launcher = page.getByRole("button", { name: "Open Data Jiminy for Kingdom Hearts Final Mix" });
   await launcher.click();
   await page.getByRole("textbox", { name: "Ask about Kingdom Hearts Final Mix" }).fill("Where are the Torn Pages in Agrabah?");

@@ -9,7 +9,7 @@ import { collectibleProgress } from "./domain/progress";
 import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
 import { EntryDetails } from "./components/EntryDetails";
-import { resolveEntryHref } from "./domain/entryNavigation";
+import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
@@ -62,27 +62,9 @@ const categories: Record<string, string> = {
   guide: "Field notes",
 };
 const nav: { id: string; label: string; icon: IconName; chapter: string }[] = [
-  { id: "contents", label: "Contents", icon: "book", chapter: "01" },
-  { id: "worlds", label: "World collectibles", icon: "world", chapter: "02" },
-  {
-    id: "synthesis",
-    label: "Synthesis workshop",
-    icon: "spark",
-    chapter: "03",
-  },
-  { id: "reference", label: "Reference library", icon: "sword", chapter: "04" },
-  {
-    id: "challenges",
-    label: "Challenges & records",
-    icon: "cup",
-    chapter: "05",
-  },
-  {
-    id: "progress",
-    label: "Progress & settings",
-    icon: "settings",
-    chapter: "06",
-  },
+  {id:"worlds", label:"Worlds", icon:"world", chapter:""},
+  {id:"synthesis", label:"Synthesis Workshop", icon:"spark", chapter:""},
+  ...cataloguePages.map(page=>({id:page.id, label:page.title, icon:"book" as IconName, chapter:""})),
 ];
 function routeTo(path: string) {
   window.location.hash = `/${path}`;
@@ -305,13 +287,8 @@ const games = [
 function ResumeGame({ data }: { data: GameData }) {
   const player = usePlayerState(data);
   const route = player.state.lastRoute;
-  if (
-    !player.ready ||
-    !/^#\/kh1fm\/(worlds|entry|synthesis|reference|challenges|progress)(?:\/|$)/.test(
-      route,
-    )
-  )
-    return null;
+  const section = route.split("?")[0].split("/")[2];
+  if (!player.ready || !route.startsWith("#/kh1fm/") || ![...nav.map(item=>item.id), "contents", "entry", "reference", "progress"].includes(section)) return null;
   return (
     <a className="cover-cta" href={route}>
       Resume last page <Icon name="arrow" size={16} />
@@ -477,8 +454,9 @@ function Journal({ data, route }: { data: GameData; route: string }) {
   useEffect(() => {
     setRetained(new Set());
     setSuppressFocus(false);
-    if (parts[1] === "entry") {
-      const id = decodeURIComponent(parts.slice(2).join("/"));
+    if (parts[1] === "contents" || !parts[1]) location.replace("#/kh1fm/worlds");
+    if (parts[1] === "entry" || (parts[1] === "worlds" && focusId)) {
+      const id = focusId || decodeURIComponent(parts.slice(2).join("/"));
       if (data.entries.some(e=>e.id === id)) location.replace(resolveEntryHref(data, id));
     }
     if (focusId) setMany([focusId], true);
@@ -492,7 +470,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     }));
     return () => cancelAnimationFrame(frame);
   }, [route, player.ready]);
-  const section = parts[1] || "contents";
+  const section = !parts[1] || parts[1] === "contents" ? "worlds" : parts[1];
   const collection = data.entries.filter((e) => e.collectible && e.checkable);
   const count = formatCount(collection, state);
   const [online, setOnline] = useState(navigator.onLine);
@@ -620,6 +598,8 @@ function Journal({ data, route }: { data: GameData; route: string }) {
             <p>Recorded guide entries; coverage varies.</p>
           </div>
           <div className="sidebar-bottom">
+            <a href="#/kh1fm/reference">Reference library</a>
+            <a href="#/kh1fm/progress">Progress & backups</a>
             <a href="#/" className="back-games">
               <Icon name="back" size={16} /> Change journal
             </a>
@@ -709,17 +689,17 @@ function Journal({ data, route }: { data: GameData; route: string }) {
               <ExpansionContext.Provider value={{data, expanded, retained, resetVisibility, focusId: suppressFocus ? "" : focusId, setMany, toggle: id => setMany([id], !expanded.has(id))}}>
               {!player.ready ? (
                 <div className="empty-state">Restoring your journal…</div>
-              ) : section === "contents" ? (
-                <Contents {...props} />
               ) : section === "worlds" ? (
-                <Worlds
+                <Contents
                   {...props}
                   world={parts[2] ? decodeURIComponent(parts[2]) : undefined}
                 />
+              ) : cataloguePages.some(page => page.id === section) ? (
+                <Catalogue key={section} {...props} page={cataloguePages.find(page=>page.id===section)!} route={route} />
               ) : section === "synthesis" ? (
                 <Synthesis {...props} player={player} initialTab={parts[2]} />
-              ) : section === "reference" || section === "challenges" ? (
-                <Reference key={section} {...props} challenges={section === "challenges"} />
+              ) : section === "reference" ? (
+                <Reference key={section} {...props} challenges={false} />
               ) : section === "progress" ? (
                 <Settings {...props} player={player} notify={setMessage} />
               ) : section === "entry" ? (
@@ -774,213 +754,62 @@ type Common = {
   state: PlayerState;
   onToggle: (id: string) => unknown;
 };
-function Contents({ data, state }: Common) {
-  const collectibles = data.entries.filter((e) => e.collectible && e.checkable);
-  const worlds = uniq(collectibles.map((e) => e.world || "Other collections"));
-  const count = formatCount(collectibles, state);
-  const checkedRecipes = data.recipes.filter(
-    (r) => state.checks[r.entryId],
-  ).length;
-  return (
-    <>
-      <PageTitle title="KHFM Journal" aside={<span className="heading-stat">{count.done}/{count.total} collectibles</span>} />
-      <div className="chapter-grid">
-        {[
-          {
-            id: "worlds",
-            icon: "world" as IconName,
-            title: "World collectibles",
-            text: "Chest locations, Dalmatians, Trinities, and other collectibles.",
-            meta: `${count.done}/${count.total} collected · ${worlds.length} groups`,
-          },
-          {
-            id: "synthesis",
-            icon: "spark" as IconName,
-            title: "Synthesis workshop",
-            text: "Recipes, material sources, inventory, and craft planning.",
-            meta: `${data.recipes.length} recipes · ${checkedRecipes} crafted`,
-          },
-          {
-            id: "reference",
-            icon: "sword" as IconName,
-            title: "Reference library",
-            text: "Weapons, accessories, magic, abilities, and adversaries.",
-            meta: "",
-          },
-          {
-            id: "challenges",
-            icon: "cup" as IconName,
-            title: "Challenges & records",
-            text: "Coliseum, bosses, minigames, Gummi missions, and achievements.",
-            meta: "",
-          },
-        ].map((card) => (
-          <a href={`#/kh1fm/${card.id}`} className="chapter-card" key={card.id}>
-            <h3>{card.title}<Icon name="arrow" size={17} /></h3>
-            <p>{card.text}</p>
-            {card.meta && <span className="chapter-card-meta">{card.meta}</span>}
-          </a>
-        ))}
-      </div>
-      <a className="contents-backup" href="#/kh1fm/progress">Progress, backups & guide coverage</a>
-    </>
-  );
-}
+function Contents({ data, state, onToggle, world }: Common & {world?:string}) {
+  const overviewEntries = data.entries.filter(e=>e.category === "guide" && e.id.startsWith("kh1fm-guide-") && e.id.endsWith("-collectibles") && e.world);
+  const worlds = overviewEntries.map(e=>e.world!);
+  const overview = overviewEntries.find(e=>e.world === world);
+  const worldEntries = data.entries.filter(e=>e.world === world);
+  const shortcuts = cataloguePages.map(page=>({page, entries: worldEntries.filter(e=>page.categories.includes(e.category))})).filter(item=>item.entries.length);
+  return <>
+    {world && <a href="#/kh1fm/worlds" className="text-back">All worlds</a>}
+    <PageTitle title={world || "Worlds"} />
+    {!world ? <div className="world-hub-list">{worlds.map(name=> {
+      const count = formatCount(data.entries.filter(e=>e.world === name && e.collectible && e.checkable),state);
+      return <a href={`#/kh1fm/worlds/${encodeURIComponent(name)}`} key={name}><strong>{name}</strong><span>{count.done}/{count.total}<Icon name="arrow" size={16} /></span></a>;
+    })}</div> : <>
+      {overview && <section className="world-overview"><p>{overview.instructions}</p>{overview.uncertainty && <p>{overview.uncertainty}</p>}</section>}
+      <div className="world-hub-list">{shortcuts.map(({page,entries})=> {
+        const checkable = entries.filter(e=>e.checkable);
+        return <a key={page.id} href={`#/kh1fm/${page.id}?world=${encodeURIComponent(world)}`}><strong>{page.title}</strong><span>{checkable.length ? `${checkable.filter(e=>state.checks[e.id]).length}/${checkable.length}` : `${entries.length} entries`}<Icon name="arrow" size={16} /></span></a>;
+      })}</div>
+      {worldEntries.some(e=>(e.category === "guide" || e.category === "summon") && e.id !== overview?.id) && <section className="world-notes"><h2>World notes</h2><GroupedEntries entries={worldEntries.filter(e=>(e.category === "guide" || e.category === "summon") && e.id !== overview?.id)} state={state} onToggle={onToggle} /></section>}
 
-function Filters({
-  category,
-  onCategory,
-  options,
-  status,
-  onStatus,
-}: {
-  category: string;
-  onCategory: (v: string) => void;
-  options: string[];
-  status: string;
-  onStatus: (v: string) => void;
-}) {
-  return (
+    </>}
+  </>;
+}
+function Catalogue({data,state,onToggle,page,route}: Common & {page: {id:string;title:string;categories:string[]}; route:string}) {
+  const {expanded,retained,resetVisibility,focusId} = useContext(ExpansionContext);
+  const [world,setWorld] = useStoredChoice<string>(`ars-arcanum:${page.id}:world`, "all");
+  const [status,setStatus] = useStoredChoice<string>(`ars-arcanum:${page.id}:status`, "all");
+  const queryWorld = new URLSearchParams(route.split("?")[1] || "").get("world");
+  useEffect(()=>{ if(queryWorld) setWorld(queryWorld); },[queryWorld]);
+  const entries = data.entries.filter(e=>page.categories.includes(e.category));
+  const worldOrder = data.entries.filter(e=>e.category === "guide" && e.id.startsWith("kh1fm-guide-") && e.id.endsWith("-collectibles")).map(e=>e.world!);
+  const worlds = uniq([...worldOrder, ...entries.map(e=>e.world || "General")]).filter(w=>entries.some(e=>(e.world || "General") === w));
+  const filtered = entries.filter(e=>e.id === focusId || ((world === "all" || (e.world || "General") === world) && ((expanded.has(e.id) && retained.has(e.id)) || status === "all" || (e.checkable && (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])))));
+  const checkable = entries.filter(e=>e.checkable);
+  return <>
+    <PageTitle title={page.title} aside={<span className="heading-stat">{checkable.length ? `${checkable.filter(e=>state.checks[e.id]).length}/${checkable.length}` : `${entries.length} entries`}</span>} />
     <div className="filter-bar">
-      <label className="select-field">
-        <Icon name="filter" size={16} />
-        <span className="sr-only">Filter by category</span>
-        <select value={category} onChange={(e) => onCategory(e.target.value)}>
-          <option value="all">All categories</option>
-          {options.map((c) => (
-            <option key={c} value={c}>
-              {label(c)}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label className="select-field">
-        <span className="sr-only">Filter by completion</span>
-        <select value={status} onChange={(e) => onStatus(e.target.value)}>
-          <option value="all">All records</option>
-          <option value="remaining">Remaining only</option>
-          <option value="completed">Completed only</option>
-        </select>
-      </label>
+      {entries.some(e=>e.world) && <label className="select-field"><span className="sr-only">Filter by world</span><select value={world} onChange={event=>{resetVisibility();setWorld(event.target.value);routeTo(`kh1fm/${page.id}?world=${encodeURIComponent(event.target.value)}`);}}><option value="all">All worlds</option>{worlds.map(w=><option key={w}>{w}</option>)}</select></label>}
+      {checkable.length > 0 && <label className="select-field"><span className="sr-only">Filter by completion</span><select value={status} onChange={event=>{resetVisibility();setStatus(event.target.value);}}><option value="all">All records</option><option value="remaining">Remaining only</option><option value="completed">Completed only</option></select></label>}
     </div>
-  );
-}
-function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
-  const [category, setCategory] = useStoredChoice<string>(
-      "ars-arcanum:world-category",
-      "all",
-    ),
-    [status, setStatus] = useStoredChoice<string>(
-      "ars-arcanum:world-status",
-      "all",
-    );
-  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
-  const entries = data.entries.filter((e) => e.collectible && e.checkable);
-  const worlds = uniq(entries.map((e) => e.world || "Other collections"));
-  const worldEntries = world
-    ? entries.filter((e) => (e.world || "Other collections") === world)
-    : entries;
-  const count = formatCount(worldEntries, state);
-  const filtered = worldEntries.filter(
-    (e) =>
-      (e.id === focusId || category === "all" || e.category === category) &&
-      (e.id === focusId || (expanded.has(e.id) && retained.has(e.id)) || status === "all" ||
-        (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])),
-  );
-  return (
-    <>
-      <PageTitle title={world || "KHFM Collectibles"} aside={<span className="heading-stat" aria-label={`${count.done} of ${count.total} collectibles checked`}>{count.done}/{count.total}</span>} />
-      <div className="world-tabs" aria-label="Worlds">
-        <a href="#/kh1fm/worlds" className={!world ? "active" : ""}>
-          All worlds
-        </a>
-        {worlds.map((w) => (
-          <a
-            href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}
-            key={w}
-            className={world === w ? "active" : ""}
-          >
-            {w}
-          </a>
-        ))}
-      </div>
-      <div className="collection-tools">
-        <a href="#/kh1fm/progress">Guide coverage</a>
-
-      </div>
-      <Filters
-        category={category}
-        onCategory={value => { resetVisibility(); setCategory(value); }}
-        options={uniq(entries.map((e) => e.category))}
-        status={status}
-        onStatus={value => { resetVisibility(); setStatus(value); }}
-      />
-      <div className="results-note">
-        {filtered.length} matching{" "}
-        {filtered.length === 1 ? "record" : "records"}{" "}
-        <span>· Filters do not change collection totals.</span>
-      </div>
-      {!filtered.length ? (
-        <Empty>Try a different category or choose “All records.”</Empty>
-      ) : (
-        <div className="world-grid">
-          {(world ? [world] : worlds).map((w) => {
-            const list = filtered.filter(
-              (e) => (e.world || "Other collections") === w,
-            );
-            if (!list.length) return null;
-            const all = entries.filter(
-              (e) => (e.world || "Other collections") === w,
-            );
-            const wc = formatCount(all, state);
-            return (
-              <section className="world-card" key={w}>
-                <div className="world-card-heading">
-                  <span className="world-emblem">
-                    <Icon name="world" size={24} />
-                  </span>
-                  <div>
-                    <h2>
-                      <a href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}>
-                        {w}
-                      </a>
-                    </h2>
-                  </div>
-                  <span className="world-count">
-                    {wc.done}
-                    <span>/{wc.total}</span>
-                  </span>
-                </div>
-                {uniq(list.map((e) => e.category)).map((c) => (
-                  <div className="compact-category" key={c}>
-                    <div className="compact-category-heading">
-                      <h3>{label(c)}</h3><CategoryExpansion entries={list.filter(e => e.category === c)} />
-                      <span>
-                        {
-                          all.filter(
-                            (e) => e.category === c && state.checks[e.id],
-                          ).length
-                        }
-                        /{all.filter((e) => e.category === c).length}
-                        {c === "dalmatian" ? " groups" : ""}
-                      </span>
-                    </div>
-                    <div className="compact-marks">
-                      {list.filter(e => e.category === c).map(e => <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}
-                    </div>
-                  </div>
-                ))}
-
-              </section>
-            );
-          })}
-        </div>
-      )}
-      <p className="fine-print">
-        A Dalmatian group counts as one check for three puppies.
-      </p>
-    </>
-  );
+    <div className="results-note">{filtered.length} matching records</div>
+    <div className="world-grid">{worlds.map(w=> {
+      const visible = filtered.filter(e=>(e.world || "General")===w);
+      if (!visible.length) return null;
+      const all = entries.filter(e=>(e.world || "General")===w && e.checkable);
+      return <section className="world-card" key={w}><div className="world-card-heading"><h2>{worldOrder.includes(w) ? <a href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}>{w}</a> : w}</h2><span className="world-count">{all.length ? `${all.filter(e=>state.checks[e.id]).length}/${all.length}` : `${visible.length} entries`}</span></div>
+        {uniq(visible.map(e=>e.category)).map(c=> {
+          const group = visible.filter(e=>e.category === c);
+          const total = all.filter(e=>e.category === c);
+          return <div className="compact-category" key={c}><div className="compact-category-heading"><h3>{label(c)}</h3><CategoryExpansion entries={group} /><span>{total.length ? `${total.filter(e=>state.checks[e.id]).length}/${total.length}${c === "dalmatian" ? " groups" : ""}` : ""}</span></div><div className="compact-marks">{group.map(e=><EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}</div></div>;
+        })}
+      </section>;
+    })}</div>
+    {!filtered.length && <Empty>No entries match these filters.</Empty>}
+    {page.id === "dalmatians" && <p className="fine-print">A Dalmatian group counts as one check for three puppies.</p>}
+  </>;
 }
 type ExpansionState = { data: GameData; expanded: Set<string>; retained: Set<string>; resetVisibility: () => void; focusId: string; toggle: (id: string) => void; setMany: (ids: string[], open: boolean) => void };
 const ExpansionContext = createContext<ExpansionState>(null!);

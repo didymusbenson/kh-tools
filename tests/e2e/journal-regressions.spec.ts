@@ -5,7 +5,7 @@ const data = JSON.parse(readFileSync("public/data/kh1fm.json", "utf8"));
 test("remaining filter preserves completed category counts", async ({ page }) => {
   const entry = data.entries.find((e: any) => e.category === "dalmatian" && e.checkable);
   const total = data.entries.filter((e: any) => e.category === "dalmatian" && e.world === entry.world && e.checkable).length;
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/dalmatians?world=${encodeURIComponent(entry.world)}`);
   await page.getByRole("checkbox", {name: `Mark ${entry.name} as collected`, exact: true}).click();
   await page.getByLabel("Filter by completion").selectOption("remaining");
   const heading = page.locator(".compact-category-heading").filter({hasText: "Dalmatian groups"});
@@ -45,9 +45,9 @@ test("reference, challenge and synthesis filters survive entry visits and reload
   await expect(page.getByRole("button", {name: /^Weapons/})).toHaveClass("active");
   await expect(page.getByLabel("Filter reference entries by completion")).toHaveValue("remaining");
   await page.goto("./#/kh1fm/challenges");
-  await page.getByRole("button", {name: /^Optional bosses/}).click();
+  await page.getByLabel("Filter by completion").selectOption("remaining");
   await page.reload();
-  await expect(page.getByRole("button", {name: /^Optional bosses/})).toHaveClass("active");
+  await expect(page.getByLabel("Filter by completion")).toHaveValue("remaining");
   await page.goto("./#/kh1fm/reference");
   await expect(page.getByRole("button", {name: /^Weapons/})).toHaveClass("active");
   await page.goto("./#/kh1fm/synthesis/recipes");

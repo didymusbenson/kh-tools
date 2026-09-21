@@ -10,7 +10,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
     .getByRole("button", { name: /Kingdom Hearts.*Final Mix, open journal/i })
     .click();
   await expect(
-    page.getByRole("heading", { name: "KHFM Journal" }),
+    page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
   const viewport = await page.evaluate(() => ({
     width: innerWidth,
@@ -24,7 +24,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
   const entry = data.entries.find(
     (e: any) => e.category === "dalmatian" && e.checkable,
   );
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/dalmatians?world=${encodeURIComponent(entry.world)}`);
   const check = page.getByRole("checkbox", {
     name: `Mark ${entry.name} as collected`,
     exact: true,
@@ -125,7 +125,7 @@ test("synthesis preserves stock and catalog independently across restart", async
 });
 
 test("installed guide cold-reloads offline", async ({ page, context }) => {
-  await page.goto("./#/kh1fm/contents");
+  await page.goto("./#/kh1fm/worlds");
   await page.evaluate(async () => {
     await navigator.serviceWorker.ready;
   });
@@ -145,7 +145,7 @@ test("installed guide cold-reloads offline", async ({ page, context }) => {
   await context.setOffline(true);
   await page.reload();
   await expect(
-    page.getByRole("heading", { name: "KHFM Journal" }),
+    page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
   await page.goto("./#/kh1fm/synthesis/recipes");
   await expect(

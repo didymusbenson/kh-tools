@@ -85,3 +85,50 @@ Applied inline item expansion and category expand/collapse controls across world
 Expansion persists through reload and navigation. An expanded item stays readable immediately after checking it; explicit filter changes apply normally. Reopening the same citation expands it again. Meaningful instructions, conditions, rewards, missability, media, facts and uncertainty remain; repeated summary/edition/color text and generic revisit boilerplate are omitted.
 
 Production build and 57 unit tests passed. Final browser suite: 40 passed on desktop and phone, two optional heavyweight model cases skipped. Shared preview updated and visually inspected. Changes remain local; human acceptance is pending.
+
+## September 20, 2026 — Category menu and world hub
+
+**Status: Accepted direction; implementation and human review pending.**
+
+### Exact primary navigation
+
+Use this order and wording:
+
+1. Worlds
+2. Synthesis Workshop
+3. Bestiary
+4. Treasures
+5. Trinities
+6. Dalmatians
+7. Magic Upgrades
+8. Torn Pages
+9. Ansem Reports
+10. Challenges and Minigames
+11. Steam Achievements
+
+Use the correct spelling **Dalmatians**. **Reference library** and **Progress & backups** remain secondary sidebar links. Reference content stays unchanged pending later review; this is not permission to remove its information.
+
+### World and category behavior
+
+- Replace Contents with a world hub.
+- Each world opens its general information and quick links to the relevant collection-type pages, filtered to that world.
+- Use the existing canonical world collection-route instructions for the general overview. Keep other relevant guide entries and summons available as inline World notes.
+- Collection-type pages group their records by world and use full-width inline expandable rows. Keep category expand/collapse controls and independent saved completion checks.
+- Preserve inline details and canonical cross-links; do not reintroduce nested item pages.
+- Keep the main game-selection menu unchanged.
+
+Implementation research and the thirteen available canonical world overview records are documented in [Category navigation research and plan](../research/2026-09-20-category-navigation.md).
+
+### Acceptance checks
+
+- Primary menu labels and order match the list above; Reference library and Progress & backups are secondary.
+- The world hub replaces Contents, and world shortcuts open the correct type list with that world's filter applied.
+- World general information and inline notes remain factual and useful; neither adds completion checks or inflates collection totals.
+- Per-type lists remain grouped by world with full-width inline rows; saved checks, expansion, category controls, search and cross-links continue to work.
+- Existing bookmarks resolve into the new navigation without losing the target record.
+
+### Verification
+
+Implemented the requested primary menu, 13 world overview pages, world-filtered category shortcuts, world-grouped catalogues, canonical links and legacy redirects. Postcards stay in a distinct Treasures section; Steam Achievements are separate from Challenges and Minigames. Secondary reference content remains accessible. Resume last page now accepts all new destinations and query filters.
+
+Production build and 57 unit tests passed. All 46 existing/new navigation browser cases passed across the full run and locator-only rerun; two added resume cases also passed. Final affected run: 26/26 desktop/phone navigation, journal and regression cases. Two optional heavyweight model tests were skipped. Shared preview refreshed; Trinities, Worlds hub and Traverse Town overview visually inspected. Changes remain local, pending human acceptance.
