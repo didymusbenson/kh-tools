@@ -70,6 +70,14 @@ Selecting a game opens its journal. Shared structural sections may include:
 
 Section names and availability must adapt to the game's actual terminology.
 
+### Navigation copy and page headers
+
+Accepted human feedback, 2026-09-20: game-journal navigation pages should lead with their navigation and useful content. Remove SaaS-style marketing preambles, promotional titles, redundant subtitles, and decorative copy. Use at most a compact page title with useful statistics where appropriate. Captions must be descriptive or necessary; functional instructions and meaningful content remain.
+
+This supersedes any earlier interpretation of the journal metaphor that adds promotional page headers, chapter slogans, or introductory marketing copy to navigation pages. Visual identity belongs in the journal design and content, without requiring an advertising-style introduction to each section.
+
+Apply the change to KH1 Final Mix first, then reuse the pattern for other games. The existing main game-selection menu is explicitly unchanged by this feedback. See the [human feedback record](../implementation/human-feedback.md) for scope and acceptance checks.
+
 ### Entry pages
 
 An entry should behave like an annotated journal page:

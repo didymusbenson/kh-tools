@@ -151,12 +151,10 @@ function Progress({
   );
 }
 function PageTitle({
-  eyebrow,
   title,
   children,
   aside,
 }: {
-  eyebrow: string;
   title: string;
   children?: ReactNode;
   aside?: ReactNode;
@@ -164,7 +162,6 @@ function PageTitle({
   return (
     <header className="page-heading">
       <div>
-        <span className="eyebrow">{eyebrow}</span>
         <h1>{title}</h1>
         {children && <p>{children}</p>}
       </div>
@@ -757,71 +754,21 @@ function Contents({ data, state }: Common) {
   ).length;
   return (
     <>
-      <PageTitle
-        eyebrow="Volume I · The beginning of a journey"
-        title="A record of your adventure."
-        aside={
-          <div className="chapter-stamp" aria-hidden="true">
-            I<span>FINAL MIX</span>
-          </div>
-        }
-      >
-        Keep track of the things you find. Find the things you’re missing.
-      </PageTitle>
-      <div className="contents-feature">
-        <div className="feature-copy">
-          <span className="eyebrow">
-            Your collection, one discovery at a time
-          </span>
-          <h2>
-            There’s always something
-            <br />
-            left to find.
-          </h2>
-          <p>
-            Treasure chests, lost puppies, hidden marks. Explore the world index
-            for locations, prerequisites, and one-tap checks.
-          </p>
-          <a href="#/kh1fm/worlds" className="button button-cream">
-            Explore the worlds <Icon name="arrow" size={17} />
-          </a>
-        </div>
-        <div className="feature-chart">
-          <span className="feature-count">
-            {count.done}
-            <span>/{count.total}</span>
-          </span>
-          <p>World collectible checks</p>
-          <div className="feature-rule" />
-          <span>{worlds.length} world & collection groups</span>
-          <small>
-            Counts cover the records in this guide,
-            <br />
-            not official Journal completion.
-          </small>
-        </div>
-        <span className="feature-spark" aria-hidden="true">
-          ✧
-        </span>
-      </div>
-      <div className="section-heading">
-        <h2>Turn to a chapter</h2>
-        <span className="eyebrow">The useful things, all together</span>
-      </div>
+      <PageTitle title="KHFM Journal" aside={<span className="heading-stat">{count.done}/{count.total} collectibles</span>} />
       <div className="chapter-grid">
         {[
           {
             id: "worlds",
             icon: "world" as IconName,
             title: "World collectibles",
-            text: "Compact checks, complete locations, and everything in between.",
-            meta: `${worlds.length} world & collection groups`,
+            text: "Chest locations, Dalmatians, Trinities, and other collectibles.",
+            meta: `${count.done}/${count.total} collected · ${worlds.length} groups`,
           },
           {
             id: "synthesis",
             icon: "spark" as IconName,
             title: "Synthesis workshop",
-            text: "Recipes, material sources, and a plan for your next creation.",
+            text: "Recipes, material sources, inventory, and craft planning.",
             meta: `${data.recipes.length} recipes · ${checkedRecipes} crafted`,
           },
           {
@@ -829,43 +776,24 @@ function Contents({ data, state }: Common) {
             icon: "sword" as IconName,
             title: "Reference library",
             text: "Weapons, accessories, magic, abilities, and adversaries.",
-            meta: "Find it. Understand it. Get it.",
+            meta: "",
           },
           {
             id: "challenges",
             icon: "cup" as IconName,
             title: "Challenges & records",
-            text: "Coliseum cups, optional encounters, minigames, and more.",
-            meta: "Separate goals for the extra mile",
+            text: "Coliseum, bosses, minigames, Gummi missions, and achievements.",
+            meta: "",
           },
-        ].map((card, i) => (
+        ].map((card) => (
           <a href={`#/kh1fm/${card.id}`} className="chapter-card" key={card.id}>
-            <span className="chapter-card-icon">
-              <Icon name={card.icon} size={25} />
-            </span>
-            <span className="chapter-card-number">0{i + 2}</span>
-            <h3>{card.title}</h3>
+            <h3>{card.title}<Icon name="arrow" size={17} /></h3>
             <p>{card.text}</p>
-            <span className="chapter-card-meta">
-              {card.meta}
-              <Icon name="arrow" size={17} />
-            </span>
+            {card.meta && <span className="chapter-card-meta">{card.meta}</span>}
           </a>
         ))}
       </div>
-      <div className="journal-note">
-        <Icon name="book" size={22} />
-        <div>
-          <strong>A living field guide</strong>
-          <p>
-            Checks save on this device. Follow journal links for locations,
-            rewards, and related entries.{" "}
-            <a href="#/kh1fm/progress">
-              Review coverage and back up your progress.
-            </a>
-          </p>
-        </div>
-      </div>
+      <a className="contents-backup" href="#/kh1fm/progress">Progress, backups & guide coverage</a>
     </>
   );
 }
@@ -956,14 +884,7 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
   );
   return (
     <>
-      <PageTitle
-        eyebrow="Chapter 02 · A world of discoveries"
-        title={world || "World collectibles"}
-      >
-        {world
-          ? "Locations, conditions, and one shared check for every discovery."
-          : "An index of things to find, grouped by the worlds they call home."}
-      </PageTitle>
+      <PageTitle title={world || "KHFM Collectibles"} aside={<span className="heading-stat" aria-label={`${count.done} of ${count.total} collectibles checked`}>{count.done}/{count.total}</span>} />
       <div className="world-tabs" aria-label="Worlds">
         <a href="#/kh1fm/worlds" className={!world ? "active" : ""}>
           All worlds
@@ -979,20 +900,7 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
         ))}
       </div>
       <div className="collection-tools">
-        <div className="collection-progress">
-          <Progress
-            {...count}
-            caption={
-              world
-                ? "World collectible checks"
-                : "All recorded collectible checks"
-            }
-          />
-          <small>
-            Guide coverage may be incomplete.{" "}
-            <a href="#/kh1fm/progress">View coverage</a>
-          </small>
-        </div>
+        <a href="#/kh1fm/progress">Guide coverage</a>
         <div className="segmented" aria-label="Collection presentation">
           <button
             className={view === "compact" ? "active" : ""}
@@ -1048,7 +956,6 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
                     <Icon name="world" size={24} />
                   </span>
                   <div>
-                    <span className="eyebrow">World collection</span>
                     <h2>
                       <a href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}>
                         {w}
@@ -1117,9 +1024,7 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
         </div>
       )}
       <p className="fine-print">
-        Compact checks and location rows share the same saved record. Ordering
-        is this app’s index unless the item itself has an official number. A
-        Dalmatian group is one check, containing three puppies.
+        A Dalmatian group counts as one check for three puppies.
       </p>
     </>
   );
@@ -1179,7 +1084,7 @@ function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
   if (!e)
     return (
       <>
-        <PageTitle eyebrow="Journal entry" title="This page wasn’t found." />
+        <PageTitle title="Entry not found" />
         <p>
           The link may refer to a different guide edition or an entry that has
           moved.
@@ -1229,7 +1134,6 @@ function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
             : "reference"}
       </a>
       <PageTitle
-        eyebrow={`${label(e.category)} · Kingdom Hearts Final Mix`}
         title={e.name}
         aside={
           e.checkable && <Check entry={e} state={state} onToggle={onToggle} />
@@ -1321,7 +1225,6 @@ function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
         </div>
         {e.uncertainty && (
           <aside className="entry-source-panel">
-            <span className="eyebrow">A detail to check</span>
             <h2>Entry note</h2>
             <p>{e.uncertainty}</p>
           </aside>
@@ -1331,7 +1234,6 @@ function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
         <section className="related-section">
           <div className="section-heading">
             <h2>Cross-references</h2>
-            <span className="eyebrow">Keep following the thread</span>
           </div>
           <div className="related-grid">
             {related.map((r) => (
@@ -1369,11 +1271,7 @@ function Search({ data, state, onToggle, query }: Common & { query: string }) {
     : [];
   return (
     <>
-      <PageTitle eyebrow="The journal index" title="Find your next discovery.">
-        {normalized
-          ? `${found.length} ${found.length === 1 ? "entry" : "entries"} matching “${query}” in Kingdom Hearts Final Mix.`
-          : "Search by item, world, material, adversary, or anything you’re trying to find."}
-      </PageTitle>
+      <PageTitle title={normalized ? `Search: ${query}` : "Search"} aside={normalized ? <span className="heading-stat">{found.length} results</span> : undefined} />
       {found.length ? (
         <div className="entry-list">
           {found.map((e) => (
@@ -1423,18 +1321,7 @@ function Reference({
   );
   return (
     <>
-      <PageTitle
-        eyebrow={
-          challenges
-            ? "Chapter 05 · The extra mile"
-            : "Chapter 04 · Notes worth keeping"
-        }
-        title={challenges ? "Challenges & records" : "The reference library"}
-      >
-        {challenges
-          ? "Optional encounters, records, and named goals. These checks are separate from world collectibles."
-          : "Equipment, spells, abilities, adversaries, and the useful details behind them."}
-      </PageTitle>
+      <PageTitle title={challenges ? "Challenges & records" : "Reference"} aside={<span className="heading-stat">{filtered.length} entries</span>} />
       <div className="category-tabs">
         <button
           className={category === "all" ? "active" : ""}
@@ -1464,7 +1351,6 @@ function Reference({
           <option value="completed">Completed goals</option>
         </select>
       </label>
-      <div className="results-note">{filtered.length} matching records</div>
       {filtered.length ? (
         <div className="entry-list">
           {filtered.map((e) => (
@@ -1593,22 +1479,7 @@ function Synthesis({
   const planCount = Object.values(state.plan).reduce((sum, n) => sum + n, 0);
   return (
     <>
-      <PageTitle
-        eyebrow="Chapter 03 · Made of little discoveries"
-        title="The synthesis workshop"
-      >
-        Find a recipe. Gather what you need. Make something worth keeping.
-      </PageTitle>
-      <div className="workshop-intro">
-        <Icon name="spark" size={27} />
-        <div>
-          <strong>Catalog history and material stock are independent.</strong>
-          <p>
-            “Crafted” records a past achievement. It never deducts materials.
-            Your plan calculates what to gather for the quantities you choose.
-          </p>
-        </div>
-      </div>
+      <PageTitle title="Synthesis" aside={<span className="heading-stat">{data.recipes.filter((r) => state.checks[r.entryId]).length}/{data.recipes.length} crafted</span>} />
       <div className="workshop-toolbar">
         <div
           className="segmented workshop-tabs"
@@ -1638,13 +1509,7 @@ function Synthesis({
           Track owned materials
         </label>
       </div>
-      {state.inventoryEnabled && (
-        <div className="inventory-note">
-          <strong>Owned / required</strong> compares manually entered stock with
-          recipe needs. “?” means you haven’t entered a count. Edits save when
-          you leave the field; clearing a field restores unknown.
-        </div>
-      )}
+      <p className="tool-note">Marking a recipe crafted does not deduct stock.{state.inventoryEnabled && " Counts show owned / required; ? means unknown. Leave a field to save; clear it to reset to unknown."}</p>
       {tab === "recipes" ? (
         <>
           <div className="recipe-filters">
@@ -1811,7 +1676,7 @@ function Synthesis({
       ) : tab === "materials" ? (
         <>
           <div className="section-heading">
-            <h2>Your material field notes</h2>
+            <h2>Materials</h2>
             <span className="eyebrow">
               {materials.length} recorded materials
             </span>
@@ -2094,13 +1959,7 @@ function Settings({
   );
   return (
     <>
-      <PageTitle
-        eyebrow="Chapter 06 · Keep your place"
-        title="Your progress, safely kept."
-      >
-        This journal is yours. Review what’s recorded and keep a backup for
-        another device.
-      </PageTitle>
+      <PageTitle title="Progress & backups" />
       <div className="progress-summary-grid">
         <div>
           <span className="eyebrow">World collectibles</span>
@@ -2310,10 +2169,7 @@ function Settings({
         </span>
       </section>
       <section className="coverage-section">
-        <PageTitle eyebrow="An honest record" title="Guide coverage">
-          Entries included in this journal, grouped by collection or reference
-          category.
-        </PageTitle>
+        <h2>Guide coverage</h2>
         <div className="coverage-list">
           {data.coverage.map((c, i) => (
             <article key={`${c.category}-${i}`} className="coverage-row">

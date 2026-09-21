@@ -36,7 +36,7 @@ test("journal skip link, launcher safe region, and primary touch target", async 
 }) => {
   await page.goto("./#/kh1fm/contents");
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "KHFM Journal" }),
   ).toBeVisible();
   const skip = page.getByRole("link", { name: "Skip to journal content" });
   await skip.focus();

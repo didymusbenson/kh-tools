@@ -10,7 +10,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
     .getByRole("button", { name: /Kingdom Hearts.*Final Mix, open journal/i })
     .click();
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "KHFM Journal" }),
   ).toBeVisible();
   const viewport = await page.evaluate(() => ({
     width: innerWidth,
@@ -142,18 +142,18 @@ test("installed guide cold-reloads offline", async ({ page, context }) => {
   await context.setOffline(true);
   await page.reload();
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "KHFM Journal" }),
   ).toBeVisible();
   await page.goto("./#/kh1fm/synthesis/recipes");
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
 });
 
 test("the cover resumes the last saved journal page", async ({ page }) => {
   await page.goto("./#/kh1fm/synthesis/recipes");
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
   await expect(page.locator(".save-status")).toContainText(
     "Progress saved on this device",
@@ -165,6 +165,6 @@ test("the cover resumes the last saved journal page", async ({ page }) => {
   await page.reload();
   await page.getByRole("link", { name: "Resume last page" }).click();
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
 });
