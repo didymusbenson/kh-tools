@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import type { GameData, PlayerState } from "../domain/types";
+import { resolveEntryHref } from "../domain/entryNavigation";
 import { jiminy } from "../jiminy";
 import {
   AI_DISCLAIMER,
@@ -274,7 +275,7 @@ export function DataJiminy({
                               {x.answer.citations.map((c) => (
                                 <a
                                   key={c.entryId}
-                                  href={`#/kh1fm/entry/${encodeURIComponent(c.entryId)}`}
+                                  href={resolveEntryHref(data, c.entryId)}
                                   onClick={close}
                                 >
                                   {c.name}

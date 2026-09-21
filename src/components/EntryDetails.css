@@ -1,0 +1,35 @@
+.entry-details-content {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.entry-details-content p,
+.entry-details-content dl,
+.entry-details-content ul {
+  margin: 0;
+}
+.entry-details-facts > div {
+  display: grid;
+  grid-template-columns: minmax(100px, 25%) minmax(0, 1fr);
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid #d7ddc9;
+}
+.entry-details-facts dt { font-weight: 600; }
+.entry-details-facts dd { margin: 0; }
+.entry-details-ingredients { display: grid; gap: 8px; }
+.entry-details-ingredient-list { list-style: none; padding: 0; }
+.entry-details-ingredient-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding: 5px 0;
+}
+.entry-details-related ul { padding-left: 20px; }
+@media (max-width: 480px) {
+  .entry-details-facts > div { grid-template-columns: 1fr; gap: 2px; }
+}

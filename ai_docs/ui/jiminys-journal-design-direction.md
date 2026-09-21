@@ -80,6 +80,10 @@ Apply the change to KH1 Final Mix first, then reuse the pattern for other games.
 
 ### Entry pages
 
+Accepted human feedback, 2026-09-20: collectible category views such as Trinities use single-column item rows with inline expandable details and category-level expand/collapse controls. Do not require another nested item page beyond the category. This supersedes earlier standalone-entry-page guidance for the collectible browsing flow; the information contract below still applies to the expanded item. Other reference flows are not automatically removed by this clarification.
+
+Retain two backup designs if human review rejects inline expansion: an individual compact detail-card modal, or a category detail page/table containing all relevant items for the world/category. These alternatives are recorded, not requested as simultaneous implementations. See [human feedback](../implementation/human-feedback.md#saved-backup-alternatives).
+
 An entry should behave like an annotated journal page:
 
 - Canonical title

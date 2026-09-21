@@ -45,3 +45,43 @@ Raised body text to 16px and increased small labels, navigation, inputs, referen
 Production build and all 30 standard desktop/phone browser checks passed before the final collection/assistant spacing adjustment. Desktop collection and phone synthesis screenshots inspected; final affected checks recorded below.
 
 Final build passed; all 14 affected collection, journal, assistant and navigation browser cases passed after the spacing adjustment (two heavyweight model cases skipped). Updated preview activated and visually checked. Changes remain local.
+
+## September 20, 2026 — Inline collectible details
+
+**Status: Implemented locally; awaiting human review.** Both backup approaches below remain saved.
+
+### Accepted direction
+
+- Show items as single-column rows.
+- Expand item details inline, keeping the player in the current collection view.
+- Provide category-level controls to expand or collapse the items in that category.
+- Remove deeper nested item pages beyond a category such as Trinities. The category is the browsing destination; opening an item reveals its details in place.
+
+Keep the current focus on KH1 Final Mix. This continues the compact, direct-reference navigation direction; the main game-selection menu remains outside this change. Preserve item facts, completion state, counts, filters and useful location context while changing their presentation.
+
+### Saved backup alternatives
+
+The user asked to retain both alternatives explicitly in case the inline expandable version is rejected:
+
+1. **Item modal:** open an individual item in a compact detail-card modal.
+2. **Category detail page/table:** show all relevant items for the current world/category together on a category detail page or table.
+
+These are saved fallback designs, not additional interfaces to implement alongside the accepted inline version. Revisit them if human review rejects the expandable version.
+
+### Acceptance checks
+
+- Category item lists use one column at desktop and phone sizes.
+- An item opens and closes its details inline without taking the player to another nested page.
+- Each category provides working expand/collapse controls for its items.
+- Checks and derived counts still agree after expanding, collapsing and filtering.
+- Details retain their useful acquisition information and related context.
+
+The shared [collectible contract](../content/collectible-compendium-and-linked-views.md) and [design direction](../ui/jiminys-journal-design-direction.md#entry-pages) supersede the earlier standalone-item-page presentation for this collection flow. Record actual implementation and verification results when complete.
+
+### Implementation and verification
+
+Applied inline item expansion and category expand/collapse controls across world collectibles, reference, challenges, search, synthesis recipes and materials. Each world and recipe occupies one full-width row. Item pages are removed; old bookmarks resolve to their owning list with the item expanded, and Jiminy/ingredient/related links use those same destinations. Craft quantities and stock controls remain accessible without expansion. Duplicate Trinity names include location landmarks.
+
+Expansion persists through reload and navigation. An expanded item stays readable immediately after checking it; explicit filter changes apply normally. Reopening the same citation expands it again. Meaningful instructions, conditions, rewards, missability, media, facts and uncertainty remain; repeated summary/edition/color text and generic revisit boilerplate are omitted.
+
+Production build and 57 unit tests passed. Final browser suite: 40 passed on desktop and phone, two optional heavyweight model cases skipped. Shared preview updated and visually inspected. Changes remain local; human acceptance is pending.

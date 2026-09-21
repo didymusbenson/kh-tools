@@ -86,10 +86,12 @@ test("synthesis preserves stock and catalog independently across restart", async
     .getByRole("searchbox", { name: "Find a synthesis recipe" })
     .fill("Energy Bangle");
   const card = page.locator(".recipe-card").filter({
-    has: page.getByRole("link", { name: "Energy Bangle", exact: true }),
+    has: page.getByRole("button", { name: "Energy Bangle", exact: true }),
   });
+  const recipeToggle = card.getByRole("button", { name: "Energy Bangle", exact: true });
+  if (await recipeToggle.getAttribute("aria-expanded") !== "true") await recipeToggle.click();
   await expect(
-    card.getByLabel("8 owned, 2 required", { exact: true }),
+    card.getByLabel("8 owned, 2 required; 0 remaining", { exact: true }),
   ).toBeVisible();
   await card
     .getByRole("checkbox", { name: "Mark Energy Bangle as crafted" })
@@ -106,8 +108,9 @@ test("synthesis preserves stock and catalog independently across restart", async
   await expect(
     card.getByRole("checkbox", { name: "Unmark Energy Bangle as crafted" }),
   ).toHaveAttribute("aria-checked", "true");
+  if (await recipeToggle.getAttribute("aria-expanded") !== "true") await recipeToggle.click();
   await expect(
-    card.getByLabel("8 owned, 2 required", { exact: true }),
+    card.getByLabel("8 owned, 2 required; 0 remaining", { exact: true }),
   ).toBeVisible();
   await expect(
     card.getByRole("textbox", {

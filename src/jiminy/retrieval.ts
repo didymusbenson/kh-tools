@@ -1,4 +1,5 @@
 import { collectibleProgress } from "../domain/progress";
+import { entryHref } from "../domain/entryNavigation";
 import {
   calculatePlan,
   recipeRequirements,
@@ -18,7 +19,7 @@ export const words = (s: string) =>
     .split(/\s+/)
     .filter((x) => x && !stop.has(x));
 export function citation(e: GuideEntry) {
-  return { entryId: e.id, name: e.name, href: `#/kh1fm/entry/${e.id}` };
+  return { entryId: e.id, name: e.name, href: entryHref(e) };
 }
 export function scopedQuestion(question: string): JiminyAnswer | null {
   if (

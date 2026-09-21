@@ -16,7 +16,7 @@ async function fixture(page: any, media: any[]) {
   );
   await page.goto(`./#/kh1fm/entry/${entry.id}`);
   await expect(
-    page.getByRole("heading", { name: entry.name, exact: true }),
+    page.locator(`#row-${entry.id} h3 button`),
   ).toBeVisible();
   return entry;
 }
@@ -38,7 +38,7 @@ test("entry without media has no empty gallery", async ({ page }) => {
   await expect(
     page.getByRole("region", { name: "Location images and maps" }),
   ).toHaveCount(0);
-  await expect(page.locator(".entry-detail-main")).toContainText(
+  await expect(page.locator(`#row-${entry.id} .entry-inline-details`)).toContainText(
     entry.instructions,
   );
 });
@@ -102,7 +102,7 @@ test("unavailable optional image keeps location directions readable", async ({
   await expect(
     page.getByText(/Image unavailable. If you’re offline/),
   ).toBeVisible();
-  await expect(page.locator(".entry-detail-main")).toContainText(
+  await expect(page.locator(`#row-${entry.id} .entry-inline-details`)).toContainText(
     entry.instructions,
   );
 });

@@ -5086,3 +5086,38 @@ p {
   .current-edition { gap: 4px; }
   .current-edition i { letter-spacing: 0.5px; }
 }
+
+/* Inline records share one readable column across every KHFM catalogue. */
+.journal-page .world-grid,
+.journal-page .recipe-grid,
+.journal-page .related-grid { grid-template-columns: minmax(0, 1fr); }
+.entry-row, .entry-row.recorded { padding: 4px 10px; border-left-width: 1px; }
+.entry-row-top { display: flex; align-items: center; gap: 10px; margin: 0; }
+.entry-row-label { flex: 1; min-width: 0; }
+.entry-row h3 { margin: 0; font-size: 18px; }
+.entry-toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 44px; padding: 4px 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.entry-toggle > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.entry-toggle > span:last-child { flex-shrink: 0; font-family: sans-serif; font-size: 22px; color: #657551; }
+.entry-toggle:focus-visible, .category-expansion:focus-visible { outline: 2px solid #536d43; outline-offset: 2px; }
+.entry-row .entry-area { display: block; margin: -2px 0 6px; font-size: 16px; }
+.entry-inline-details:not([hidden]) { padding: 6px 0 10px; }
+.entry-details-content { font-size: 17px; line-height: 1.5; gap: 8px; }
+.entry-category { min-width: 0; }
+.entry-category > .entry-row + .entry-row { margin-top: 5px; }
+.compact-category-heading { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.compact-category-heading h2, .compact-category-heading h3 { font-size: 17px; margin: 0; }
+.compact-category-heading > span { margin-left: auto; }
+.category-expansion { min-height: 44px; padding: 4px 8px; font-size: 16px; background: transparent; color: #435734; border: 1px solid #bdc9ac; border-radius: 4px; cursor: pointer; }
+.recipe-grid > .recipe-card h2 { margin: 0; font-size: 20px; }
+.material-heading > div:first-child { flex: 1; min-width: 0; }
+.material-heading h3 { margin: 0; }
+.entry-landmark { display: block; font-size: 16px; font-weight: 400; }
+@media (max-width: 650px) {
+  .entry-row, .entry-row.recorded { padding: 4px 8px; }
+  .entry-row-top { flex-direction: row; align-items: center; }
+  .compact-category-heading { gap: 6px; }
+}
+.recipe-card-heading { gap: 10px; }
+.recipe-card-heading h2 { flex: 1; min-width: 0; }
+.recipe-card-heading .recipe-set { flex-shrink: 0; }
+.recipe-card-heading .check-control { flex-shrink: 0; }

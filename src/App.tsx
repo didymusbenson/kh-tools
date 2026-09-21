@@ -1,15 +1,15 @@
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { GameData, GuideEntry, PlayerState, Recipe } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
 import {
   calculatePlan,
-  recipeRequirements,
   getMaterialRoutes,
 } from "./domain/planner";
 import { collectibleProgress } from "./domain/progress";
 import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
-import { EntryMedia } from "./components/EntryMedia";
+import { EntryDetails } from "./components/EntryDetails";
+import { resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
@@ -37,14 +37,6 @@ function journalScroll() {
 function journalScrollY() {
   const target = journalScroll();
   return target instanceof Window ? target.scrollY : target.scrollTop;
-}
-function worldReturnHref() {
-  try {
-    const saved = localStorage.getItem("ars-arcanum:world-route");
-    return saved?.startsWith("kh1fm/worlds") ? `#/${saved}` : "#/kh1fm/worlds";
-  } catch {
-    return "#/kh1fm/worlds";
-  }
 }
 
 const categories: Record<string, string> = {
@@ -94,9 +86,6 @@ const nav: { id: string; label: string; icon: IconName; chapter: string }[] = [
 ];
 function routeTo(path: string) {
   window.location.hash = `/${path}`;
-}
-function entryHref(id: string) {
-  return `#/kh1fm/entry/${encodeURIComponent(id)}`;
 }
 function label(category: string) {
   return categories[category] || category.replaceAll("-", " ");
@@ -473,7 +462,36 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     [menu, setMenu] = useState(false),
     [message, setMessage] = useState("");
   const mainRef = useRef<HTMLElement>(null);
-  const parts = route.split("/");
+  const parts = route.split("?")[0].split("/");
+  const focusId = new URLSearchParams(route.split("?")[1] || "").get("entry") || "";
+  const [retained, setRetained] = useState(new Set<string>());
+  const [suppressFocus, setSuppressFocus] = useState(false);
+  const resetVisibility = () => { setRetained(new Set()); setSuppressFocus(true); };
+  const [expanded, setExpanded] = useState<Set<string>>(() => {
+    try { return new Set(JSON.parse(sessionStorage.getItem("ars-arcanum:expanded") || "[]")); } catch { return new Set(); }
+  });
+  const setMany = (ids: string[], open: boolean) => setExpanded(previous => {
+    const next = new Set(previous); ids.forEach(id => open ? next.add(id) : next.delete(id)); return next;
+  });
+  useEffect(() => { try { sessionStorage.setItem("ars-arcanum:expanded", JSON.stringify([...expanded])); } catch {} }, [expanded]);
+  useEffect(() => {
+    setRetained(new Set());
+    setSuppressFocus(false);
+    if (parts[1] === "entry") {
+      const id = decodeURIComponent(parts.slice(2).join("/"));
+      if (data.entries.some(e=>e.id === id)) location.replace(resolveEntryHref(data, id));
+    }
+    if (focusId) setMany([focusId], true);
+  }, [route]);
+  useEffect(() => {
+    if (!focusId || !player.ready) return;
+    const frame = requestAnimationFrame(() => requestAnimationFrame(() => {
+      const row = document.getElementById(`row-${focusId}`);
+      row?.scrollIntoView({block:"center"});
+      row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true});
+    }));
+    return () => cancelAnimationFrame(frame);
+  }, [route, player.ready]);
   const section = parts[1] || "contents";
   const collection = data.entries.filter((e) => e.collectible && e.checkable);
   const count = formatCount(collection, state);
@@ -489,16 +507,20 @@ function Journal({ data, route }: { data: GameData; route: string }) {
   }, []);
   useEffect(() => {
     setMenu(false);
-    if (section !== "search") {
-      journalScroll().scrollTo({ top: 0, behavior: "instant" });
-      requestAnimationFrame(() =>
-        mainRef.current?.focus({ preventScroll: true }),
-      );
-    }
-    if (player.ready) void player.rememberRoute(`#/${route}`);
-    try {
-      localStorage.setItem("ars-arcanum:last-game", "kh1fm");
-    } catch {}
+    if (!player.ready) return;
+    const scrollKey = "ars-arcanum:scroll:" + route.split("?")[0];
+    let scroll = 0;
+    try { scroll = Number(sessionStorage.getItem(scrollKey) || 0); } catch {}
+    const target = journalScroll();
+    const frame = requestAnimationFrame(() => {
+      if (section !== "search" && !focusId) target.scrollTo({top: scroll, behavior:"instant"});
+      if (!focusId) mainRef.current?.focus({preventScroll:true});
+    });
+    const saveScroll = () => { try { sessionStorage.setItem(scrollKey, String(journalScrollY())); } catch {} };
+    target.addEventListener("scroll", saveScroll, {passive:true});
+    void player.rememberRoute(`#/${route}`);
+    try { localStorage.setItem("ars-arcanum:last-game", "kh1fm"); } catch {}
+    return () => { cancelAnimationFrame(frame); target.removeEventListener("scroll", saveScroll); };
   }, [route, player.ready]);
   useEffect(() => {
     if (!message) return;
@@ -506,6 +528,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     return () => clearTimeout(timer);
   }, [message]);
   async function toggle(id: string) {
+    if (expanded.has(id)) setRetained(previous => new Set([...previous, id]));
     await player.toggleCheck(id);
   }
   const props = { data, state, onToggle: toggle };
@@ -513,7 +536,14 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     nav.find((n) => n.id === section)?.label ||
     (section === "entry" ? "Journal entry" : "Search the journal");
   return (
-    <div className="journal-app">
+    <div className="journal-app" onClick={event => {
+      const anchor = (event.target as HTMLElement).closest<HTMLAnchorElement>("a[href]");
+      if (!anchor || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || anchor.hash !== location.hash) return;
+      const id = new URLSearchParams(anchor.hash.split("?")[1] || "").get("entry");
+      if (!id) return;
+      event.preventDefault(); setSuppressFocus(false); setMany([id], true);
+      requestAnimationFrame(() => { const row = document.getElementById(`row-${id}`); row?.scrollIntoView({block:"center"}); row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true}); });
+    }}>
       <a
         className="skip-link"
         href="#journal-main"
@@ -676,6 +706,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
               tabIndex={-1}
               ref={mainRef}
             >
+              <ExpansionContext.Provider value={{data, expanded, retained, resetVisibility, focusId: suppressFocus ? "" : focusId, setMany, toggle: id => setMany([id], !expanded.has(id))}}>
               {!player.ready ? (
                 <div className="empty-state">Restoring your journal…</div>
               ) : section === "contents" ? (
@@ -692,15 +723,13 @@ function Journal({ data, route }: { data: GameData; route: string }) {
               ) : section === "progress" ? (
                 <Settings {...props} player={player} notify={setMessage} />
               ) : section === "entry" ? (
-                <EntryPage
-                  {...props}
-                  id={decodeURIComponent(parts.slice(2).join("/"))}
-                />
+                <MissingEntry />
               ) : section === "search" ? (
                 <Search {...props} query={search} />
               ) : (
                 <Contents {...props} />
               )}
+              </ExpansionContext.Provider>
             </main>
             <footer className="page-footer">
               <span>
@@ -844,32 +873,8 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
     [status, setStatus] = useStoredChoice<string>(
       "ars-arcanum:world-status",
       "all",
-    ),
-    [view, setView] = useStoredChoice<"compact" | "details">(
-      "ars-arcanum:world-view",
-      "compact",
     );
-  useEffect(() => {
-    const route =
-      "kh1fm/worlds" + (world ? "/" + encodeURIComponent(world) : "");
-    try {
-      localStorage.setItem("ars-arcanum:world-route", route);
-      const scroll = Number(
-        sessionStorage.getItem("ars-arcanum:scroll:" + route) || 0,
-      );
-      requestAnimationFrame(() =>
-        journalScroll().scrollTo({ top: scroll, behavior: "instant" }),
-      );
-    } catch {}
-    return () => {
-      try {
-        sessionStorage.setItem(
-          "ars-arcanum:scroll:" + route,
-          String(journalScrollY()),
-        );
-      } catch {}
-    };
-  }, [world]);
+  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
   const entries = data.entries.filter((e) => e.collectible && e.checkable);
   const worlds = uniq(entries.map((e) => e.world || "Other collections"));
   const worldEntries = world
@@ -878,8 +883,8 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
   const count = formatCount(worldEntries, state);
   const filtered = worldEntries.filter(
     (e) =>
-      (category === "all" || e.category === category) &&
-      (status === "all" ||
+      (e.id === focusId || category === "all" || e.category === category) &&
+      (e.id === focusId || (expanded.has(e.id) && retained.has(e.id)) || status === "all" ||
         (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])),
   );
   return (
@@ -901,29 +906,14 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
       </div>
       <div className="collection-tools">
         <a href="#/kh1fm/progress">Guide coverage</a>
-        <div className="segmented" aria-label="Collection presentation">
-          <button
-            className={view === "compact" ? "active" : ""}
-            onClick={() => setView("compact")}
-            aria-pressed={view === "compact"}
-          >
-            Compact index
-          </button>
-          <button
-            className={view === "details" ? "active" : ""}
-            onClick={() => setView("details")}
-            aria-pressed={view === "details"}
-          >
-            Location details
-          </button>
-        </div>
+
       </div>
       <Filters
         category={category}
-        onCategory={setCategory}
+        onCategory={value => { resetVisibility(); setCategory(value); }}
         options={uniq(entries.map((e) => e.category))}
         status={status}
-        onStatus={setStatus}
+        onStatus={value => { resetVisibility(); setStatus(value); }}
       />
       <div className="results-note">
         {filtered.length} matching{" "}
@@ -932,12 +922,6 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
       </div>
       {!filtered.length ? (
         <Empty>Try a different category or choose “All records.”</Empty>
-      ) : view === "details" ? (
-        <div className="entry-list">
-          {filtered.map((e) => (
-            <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />
-          ))}
-        </div>
       ) : (
         <div className="world-grid">
           {(world ? [world] : worlds).map((w) => {
@@ -970,7 +954,7 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
                 {uniq(list.map((e) => e.category)).map((c) => (
                   <div className="compact-category" key={c}>
                     <div className="compact-category-heading">
-                      <h3>{label(c)}</h3>
+                      <h3>{label(c)}</h3><CategoryExpansion entries={list.filter(e => e.category === c)} />
                       <span>
                         {
                           all.filter(
@@ -982,42 +966,11 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
                       </span>
                     </div>
                     <div className="compact-marks">
-                      {list
-                        .filter((e) => e.category === c)
-                        .map((e, i) => (
-                          <div
-                            className={`compact-item ${state.checks[e.id] ? "complete" : ""}`}
-                            key={e.id}
-                          >
-                            <Check
-                              compact
-                              entry={e}
-                              state={state}
-                              onToggle={onToggle}
-                            />
-                            <a
-                              href={entryHref(e.id)}
-                              title={`Open ${e.name} location`}
-                            >
-                              <span>
-                                {e.category === "dalmatian"
-                                  ? e.name.replace(/Dalmatian(?:s)?\s*/i, "")
-                                  : e.name}
-                              </span>
-                              <Icon name="arrow" size={12} />
-                            </a>
-                          </div>
-                        ))}
+                      {list.filter(e => e.category === c).map(e => <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}
                     </div>
                   </div>
                 ))}
-                <a
-                  className="world-details-link"
-                  href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}
-                  onClick={() => setView("details")}
-                >
-                  View location details <Icon name="arrow" size={15} />
-                </a>
+
               </section>
             );
           })}
@@ -1029,227 +982,44 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
     </>
   );
 }
-function EntryRow({
-  entry: e,
-  state,
-  onToggle,
-}: {
-  entry: GuideEntry;
-  state: PlayerState;
-  onToggle: (id: string) => unknown;
-}) {
-  return (
-    <article
-      className={`entry-row ${state.checks[e.id] ? "recorded" : ""}`}
-      id={`row-${e.id}`}
-    >
-      <div className="entry-row-top">
-        <div>
-          <span className="entry-kicker">
-            {label(e.category)}
-            {e.world && ` · ${e.world}`}
-          </span>
-          <h3>
-            <a href={entryHref(e.id)}>{e.name}</a>
-          </h3>
-          {e.area && <p className="entry-area">{e.area}</p>}
-        </div>
-        {e.checkable && <Check entry={e} state={state} onToggle={onToggle} />}
-      </div>
-      <p>{e.instructions || e.summary}</p>
-      {e.prerequisites && (
-        <div className="prerequisite">
-          <Icon name="info" size={15} />
-          <span>
-            <strong>Requires:</strong> {e.prerequisites}
-          </span>
-        </div>
-      )}
-      {e.reward && (
-        <p className="entry-reward">
-          <strong>Reward:</strong> {e.reward}
-        </p>
-      )}
-      <div className="entry-row-footer">
-        <a href={entryHref(e.id)}>
-          Open entry <Icon name="arrow" size={14} />
-        </a>
-      </div>
-    </article>
-  );
+type ExpansionState = { data: GameData; expanded: Set<string>; retained: Set<string>; resetVisibility: () => void; focusId: string; toggle: (id: string) => void; setMany: (ids: string[], open: boolean) => void };
+const ExpansionContext = createContext<ExpansionState>(null!);
+function CategoryExpansion({ entries }: { entries: GuideEntry[] }) {
+  const { expanded, setMany } = useContext(ExpansionContext);
+  const allOpen = entries.length > 0 && entries.every(e => expanded.has(e.id));
+  return <button className="category-expansion" onClick={() => setMany(entries.map(e => e.id), !allOpen)}>{allOpen ? "Collapse all" : "Expand all"}</button>;
 }
-
-function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
-  const e = data.entries.find((e) => e.id === id);
-  if (!e)
-    return (
-      <>
-        <PageTitle title="Entry not found" />
-        <p>
-          The link may refer to a different guide edition or an entry that has
-          moved.
-        </p>
-        <a className="button" href="#/kh1fm/contents">
-          Return to contents
-        </a>
-      </>
-    );
-  const related = data.entries.filter((item) => e.relatedIds.includes(item.id));
-  const recipe = data.recipes.find((r) => r.entryId === id);
-  const internalFacts = new Set([
-    "countingUnit",
-    "sourceRow",
-    "acquisitionId",
-    "recordGame",
-    "recordType",
-    "steamAppId",
-    "platformApiId",
-    "evidenceKind",
-    "sourceCheckedAt",
-    "source reconciliation",
-    "legacy correction",
-    "earliestUnlockStatus",
-  ]);
-  const visibleFacts = Object.entries(e.facts || {}).filter(
-    ([key]) => !internalFacts.has(key),
-  );
-  return (
-    <>
-      <a
-        className="text-back"
-        href={
-          e.collectible
-            ? worldReturnHref()
-            : e.category === "recipe"
-              ? "#/kh1fm/synthesis"
-              : "#/kh1fm/reference"
-        }
-      >
-        <Icon name="back" size={16} />
-        Back to{" "}
-        {e.collectible
-          ? "world collectibles"
-          : e.category === "recipe"
-            ? "synthesis"
-            : "reference"}
-      </a>
-      <PageTitle
-        title={e.name}
-        aside={
-          e.checkable && <Check entry={e} state={state} onToggle={onToggle} />
-        }
-      >
-        {e.summary}
-      </PageTitle>
-      <div
-        className={`entry-detail ${e.uncertainty ? "" : "entry-detail-full"}`}
-      >
-        <div className="entry-detail-main">
-          <EntryMedia media={e.media} />
-          {(e.world || e.area) && (
-            <div className="location-banner">
-              <Icon name="world" size={26} />
-              <div>
-                <span className="eyebrow">Location</span>
-                <strong>
-                  {e.world}
-                  {e.world && e.area ? " · " : ""}
-                  {e.area}
-                </strong>
-              </div>
-            </div>
-          )}
-          <section>
-            <h2>{e.collectible ? "How to find it" : "Journal notes"}</h2>
-            <p className="readable-text">{e.instructions}</p>
-          </section>
-          {e.prerequisites && (
-            <section className="detail-condition">
-              <span className="eyebrow">Acquisition conditions</span>
-              <p>{e.prerequisites}</p>
-            </section>
-          )}
-          {e.reward && (
-            <section>
-              <h2>Reward / effect</h2>
-              <p>{e.reward}</p>
-            </section>
-          )}
-          {e.missability && (
-            <section>
-              <h2>Revisit & missability</h2>
-              <p>{e.missability}</p>
-            </section>
-          )}
-          {recipe && (
-            <section>
-              <h2>Ingredients</h2>
-              {state.inventoryEnabled && <p className="fine-print">Owned / required for one craft. “?” means your stock is unknown.</p>}
-              <ul className="ingredient-list">
-                {recipeRequirements(recipe, 1, state.inventory, state.inventoryEnabled).map((ing) => (
-                  <li key={ing.itemId}>
-                    <a href={entryHref(ing.itemId)}>{ing.name}</a>
-                    <strong aria-label={state.inventoryEnabled
-                      ? `${ing.owned === null ? "Unknown" : ing.owned} owned, ${ing.required} required; ${ing.missing === null ? "unknown" : ing.missing} remaining`
-                      : `${ing.required} required`}>
-                      {state.inventoryEnabled
-                        ? `${ing.owned === null ? "?" : ing.owned} / ${ing.required} · ${ing.missing === null ? "?" : ing.missing} remaining`
-                        : `× ${ing.required}`}
-                    </strong>
-                  </li>
-                ))}
-              </ul>
-              <p className="fine-print">{recipe.unlock}</p>
-              <a href="#/kh1fm/synthesis" className="button">
-                Open synthesis planner <Icon name="arrow" size={16} />
-              </a>
-            </section>
-          )}
-          {visibleFacts.length > 0 && (
-            <section>
-              <h2>At a glance</h2>
-              <dl className="facts-list">
-                {visibleFacts.map(([key, value]) => (
-                  <div key={key}>
-                    <dt>
-                      {key
-                        .replace(/([a-z])([A-Z])/g, "$1 $2")
-                        .replaceAll("_", " ")}
-                    </dt>
-                    <dd>{String(value)}</dd>
-                  </div>
-                ))}
-              </dl>
-            </section>
-          )}
-        </div>
-        {e.uncertainty && (
-          <aside className="entry-source-panel">
-            <h2>Entry note</h2>
-            <p>{e.uncertainty}</p>
-          </aside>
-        )}
+function EntryToggle({ entry, children }: { entry: GuideEntry; children?: ReactNode }) {
+  const { data, expanded, toggle } = useContext(ExpansionContext);
+  const duplicate = data.entries.some(e => e.id !== entry.id && e.name === entry.name && e.world === entry.world);
+  const landmark = duplicate && entry.category === "trinity" ? entry.instructions.split(". ")[1] : "";
+  return <button className="entry-toggle" aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
+    <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
+  </button>;
+}
+function InlineDetails({entry, state}: {entry: GuideEntry; state: PlayerState}) {
+  const {data, expanded} = useContext(ExpansionContext);
+  return <div className="entry-inline-details" id={`details-${entry.id}`} hidden={!expanded.has(entry.id)}>{expanded.has(entry.id) && <EntryDetails data={data} state={state} entry={entry} />}</div>;
+}
+function EntryRow({ entry: e, state, onToggle }: { entry: GuideEntry; state: PlayerState; onToggle: (id: string) => unknown }) {
+  return <article className={`entry-row ${state.checks[e.id] ? "recorded" : ""}`} id={`row-${e.id}`}>
+    <div className="entry-row-top">
+      {e.checkable && <Check compact entry={e} state={state} onToggle={onToggle} />}
+      <div className="entry-row-label"><h3><EntryToggle entry={e} /></h3>
+        {e.area && !e.name.includes(e.area) && <span className="entry-area">{e.area}</span>}
       </div>
-      {related.length > 0 && (
-        <section className="related-section">
-          <div className="section-heading">
-            <h2>Cross-references</h2>
-          </div>
-          <div className="related-grid">
-            {related.map((r) => (
-              <a href={entryHref(r.id)} key={r.id}>
-                <span>
-                  <small>{label(r.category)}</small>
-                  <strong>{r.name}</strong>
-                </span>
-                <Icon name="arrow" size={17} />
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-    </>
-  );
+    </div>
+    <InlineDetails entry={e} state={state} />
+  </article>;
+}
+function GroupedEntries({entries, state, onToggle}: {entries: GuideEntry[]; state: PlayerState; onToggle: (id: string) => unknown}) {
+  return <div className="entry-list">{uniq(entries.map(e=>e.category)).map(category => {
+    const group = entries.filter(e=>e.category === category);
+    return <section className="entry-category" key={category}><div className="compact-category-heading"><h2>{label(category)}</h2><CategoryExpansion entries={group} /></div>{group.map(e=><EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}</section>;
+  })}</div>;
+}
+function MissingEntry() {
+  return <><PageTitle title="Entry not found" /><a href="#/kh1fm/contents">Return to contents</a></>;
 }
 function Search({ data, state, onToggle, query }: Common & { query: string }) {
   const normalized = query.trim().toLowerCase();
@@ -1273,11 +1043,7 @@ function Search({ data, state, onToggle, query }: Common & { query: string }) {
     <>
       <PageTitle title={normalized ? `Search: ${query}` : "Search"} aside={normalized ? <span className="heading-stat">{found.length} results</span> : undefined} />
       {found.length ? (
-        <div className="entry-list">
-          {found.map((e) => (
-            <EntryRow entry={e} key={e.id} state={state} onToggle={onToggle} />
-          ))}
-        </div>
+        <GroupedEntries entries={found} state={state} onToggle={onToggle} />
       ) : (
         <Empty>
           {normalized
@@ -1294,6 +1060,7 @@ function Reference({
   onToggle,
   challenges,
 }: Common & { challenges: boolean }) {
+  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
   const permitted = challenges
     ? ["cup", "boss", "minigame", "gummi", "achievement"]
     : [
@@ -1312,8 +1079,8 @@ function Reference({
   const entries = data.entries.filter((e) => permitted.includes(e.category));
   const filtered = entries.filter(
     (e) =>
-      (category === "all" || e.category === category) &&
-      (status === "all" ||
+      (e.id === focusId || category === "all" || e.category === category) &&
+      (e.id === focusId || (expanded.has(e.id) && retained.has(e.id)) || status === "all" ||
         (e.checkable &&
           (status === "completed"
             ? !!state.checks[e.id]
@@ -1325,7 +1092,7 @@ function Reference({
       <div className="category-tabs">
         <button
           className={category === "all" ? "active" : ""}
-          onClick={() => setCategory("all")}
+          onClick={() => { resetVisibility(); setCategory("all"); }}
         >
           All entries <span>{entries.length}</span>
         </button>
@@ -1335,7 +1102,7 @@ function Reference({
             <button
               key={c}
               className={category === c ? "active" : ""}
-              onClick={() => setCategory(c)}
+              onClick={() => { resetVisibility(); setCategory(c); }}
             >
               {label(c)}
               <span>{n}</span>
@@ -1345,18 +1112,14 @@ function Reference({
       </div>
       <label className="select-field reference-remaining">
         <span className="sr-only">Filter reference entries by completion</span>
-        <select value={status} onChange={(e) => setStatus(e.target.value)}>
+        <select value={status} onChange={(e) => { resetVisibility(); setStatus(e.target.value); }}>
           <option value="all">All reference entries</option>
           <option value="remaining">Remaining checkable goals</option>
           <option value="completed">Completed goals</option>
         </select>
       </label>
       {filtered.length ? (
-        <div className="entry-list">
-          {filtered.map((e) => (
-            <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />
-          ))}
-        </div>
+        <GroupedEntries entries={filtered} state={state} onToggle={onToggle} />
       ) : (
         <Empty>
           No entries match this selection. Choose all reference entries to
@@ -1434,6 +1197,7 @@ function Synthesis({
   player,
   initialTab,
 }: Common & { player: Player; initialTab?: string }) {
+  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
   const tab = ["materials", "plan"].includes(initialTab || "")
     ? initialTab!
     : "recipes";
@@ -1454,9 +1218,9 @@ function Synthesis({
   const setRoutes = (next: Record<string, string>) => setSavedRoutes(JSON.stringify(next));
   const recipes = data.recipes.filter(
     (r) =>
-      (setFilter === "all" || r.set === Number(setFilter)) &&
+      r.entryId === focusId || ((setFilter === "all" || r.set === Number(setFilter)) &&
       r.name.toLowerCase().includes(query.toLowerCase()) &&
-      (!remaining || !state.checks[r.entryId]),
+      ((expanded.has(r.entryId) && retained.has(r.entryId)) || !remaining || !state.checks[r.entryId])),
   );
   const materials = data.entries.filter((e) => e.category === "material");
   const plan = useMemo(
@@ -1519,7 +1283,7 @@ function Synthesis({
               <input
                 type="search"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => { resetVisibility(); setQuery(e.target.value); }}
                 placeholder="Find a recipe…"
               />
             </label>
@@ -1527,7 +1291,7 @@ function Synthesis({
               <span>Set</span>
               <select
                 value={setFilter}
-                onChange={(e) => setSetFilter(e.target.value)}
+                onChange={(e) => { resetVisibility(); setSetFilter(e.target.value); }}
               >
                 <option value="all">All sets</option>
                 {uniq(data.recipes.map((r) => r.set))
@@ -1543,7 +1307,7 @@ function Synthesis({
               <input
                 type="checkbox"
                 checked={remaining}
-                onChange={(e) => setCompletion(e.target.checked ? "remaining" : "all")}
+                onChange={(e) => { resetVisibility(); setCompletion(e.target.checked ? "remaining" : "all"); }}
               />
               <span className="toggle-track" />
               Not yet crafted
@@ -1572,67 +1336,20 @@ function Synthesis({
               Plan all uncrafted recipes <Icon name="arrow" size={15} />
             </button>
           </div>
+          <CategoryExpansion entries={recipes.flatMap(r => data.entries.filter(e=>e.id === r.entryId))} />
           <div className="recipe-grid">
             {recipes.map((recipe) => {
               const entry = data.entries.find((e) => e.id === recipe.entryId);
-              const requirements = recipeRequirements(
-                recipe,
-                1,
-                state.inventory,
-                state.inventoryEnabled,
-              );
               return (
-                <article className="recipe-card" key={recipe.id}>
+                <article className="recipe-card" key={recipe.id} id={`row-${recipe.entryId}`}>
                   <div className="recipe-card-heading">
                     <span className="recipe-set">
                       SET {String(recipe.set).padStart(2, "0")}
                     </span>
-                    {entry && (
-                      <Check entry={entry} state={state} onToggle={onToggle} />
-                    )}
+                    <h2>{entry && <EntryToggle entry={entry} />}</h2>
+                    {entry && <Check compact entry={entry} state={state} onToggle={onToggle} />}
                   </div>
-                  <h2>
-                    <a href={entryHref(recipe.entryId)}>{recipe.name}</a>
-                  </h2>
-                  <p className="recipe-unlock">{recipe.unlock}</p>
-                  <ul className="ingredient-list">
-                    {requirements.map((item) => (
-                      <li key={item.itemId}>
-                        <a href={entryHref(item.itemId)}>
-                          {item.name}
-                          <Icon name="arrow" size={12} />
-                        </a>
-                        <strong
-                          className={
-                            state.inventoryEnabled && item.missing === 0
-                              ? "stock-enough"
-                              : ""
-                          }
-                          aria-label={
-                            state.inventoryEnabled
-                              ? `${item.owned === null ? "Unknown" : item.owned} owned, ${item.required} required`
-                              : `${item.required} required`
-                          }
-                        >
-                          {state.inventoryEnabled ? (
-                            <>
-                              <span>
-                                {item.owned === null ? "?" : item.owned}
-                              </span>{" "}
-                              / {item.required}
-                            </>
-                          ) : (
-                            <>
-                              <span>×</span> {item.required}
-                            </>
-                          )}
-                        </strong>
-                      </li>
-                    ))}
-                  </ul>
-                  {recipe.uncertainty && (
-                    <p className="uncertainty">{recipe.uncertainty}</p>
-                  )}
+                  {entry && <InlineDetails entry={entry} state={state} />}
                   <div className="recipe-plan-control">
                     <label>Craft plan quantity</label>
                     <div className="stepper">
@@ -1681,16 +1398,17 @@ function Synthesis({
               {materials.length} recorded materials
             </span>
           </div>
+          <CategoryExpansion entries={materials} />
           <div className="material-list">
             {materials.map((e) => (
-              <article className="material-card" key={e.id}>
+              <article className="material-card" key={e.id} id={`row-${e.id}`}>
                 <div className="material-heading">
                   <div>
                     <span className="entry-kicker">
                       {e.world || "Synthesis material"}
                     </span>
                     <h3>
-                      <a href={entryHref(e.id)}>{e.name}</a>
+                      <EntryToggle entry={e} />
                     </h3>
                   </div>
                   {state.inventoryEnabled && (
@@ -1705,15 +1423,7 @@ function Synthesis({
                     </label>
                   )}
                 </div>
-                <p>{e.instructions || e.summary}</p>
-                {e.prerequisites && (
-                  <p className="prerequisite">
-                    <strong>Conditions:</strong> {e.prerequisites}
-                  </p>
-                )}
-                <a className="material-source-link" href={entryHref(e.id)}>
-                  Farming notes <Icon name="arrow" size={15} />
-                </a>
+                <InlineDetails entry={e} state={state} />
               </article>
             ))}
           </div>
@@ -1741,7 +1451,7 @@ function Synthesis({
               <div className="plan-goals">
                 {selected.map((r) => (
                   <div className="plan-goal" key={r.id}>
-                    <a href={entryHref(r.entryId)}>{r.name}</a>
+                    <a href={resolveEntryHref(data, r.entryId)}>{r.name}</a>
                     <label>
                       <span>Crafts</span>
                       <Quantity
@@ -1797,7 +1507,7 @@ function Synthesis({
                   return (
                     <div className="plan-material" key={m.itemId}>
                       <div className="plan-material-name">
-                        <a href={entryHref(m.itemId)}>
+                        <a href={resolveEntryHref(data, m.itemId)}>
                           {m.name}
                           <Icon name="arrow" size={14} />
                         </a>
