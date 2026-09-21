@@ -32,7 +32,7 @@ export function EntryDetails({ data, state, entry }: {
       {entry.instructions && <p>{entry.instructions}</p>}
       {fields.length > 0 && (
         <dl className="entry-details-facts">
-          {fields.map(([name, value]) => <div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}
+          {fields.map(([name, value]) => <div key={name} data-field={name}><dt>{name}</dt><dd>{value}</dd></div>)}
         </dl>
       )}
       <EntryMedia media={entry.media} />

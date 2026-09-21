@@ -136,3 +136,7 @@ Production build and 57 unit tests passed. All 46 existing/new navigation browse
 ## September 20, 2026 — Distinct menu icons
 
 User feedback: menu icons are too similar. Replaced repeated book symbols with distinct silhouettes: globe for Worlds, flask for Synthesis, monster face for Bestiary, chest for Treasures, three connected marks for Trinities, paw for Dalmatians, wand for Magic Upgrades, torn sheet for Torn Pages, scroll for Ansem Reports, trophy for Challenges, medal for Steam Achievements. Uses the existing SVG style and retains text labels.
+
+## September 20, 2026 — Restore inline detail styling
+
+User identified visual drift in expanded details. The inline component had dropped the original detail-specific sage body/fact colors, warm requirement treatment and reference-link styling, inheriting generic dark body text with heavy labels. Font families had not been removed (Georgia headings and Arial/Helvetica body remain). Restored the journal detail palette, serif field labels, warm requirement highlighting and styled links while preserving compact rows and larger readable text.
