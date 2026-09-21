@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { GameData, GuideEntry, PlayerState, Recipe } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
 import {
@@ -11,15 +11,9 @@ import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
 import { EntryMedia } from "./components/EntryMedia";
 import "./styles.css";
+import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
 const base = import.meta.env.BASE_URL;
-const installation = { offline: false, update: false };
-window.addEventListener("ars-offline-ready", () => {
-  installation.offline = true;
-});
-window.addEventListener("ars-update-ready", () => {
-  installation.update = true;
-});
 function useStoredChoice<T extends string>(key: string, fallback: T) {
   const [value, setValue] = useState<T>(() => {
     try {
@@ -226,6 +220,15 @@ function Empty({ children }: { children: ReactNode }) {
   );
 }
 
+function UpdateNotice() {
+  const installation = useSyncExternalStore(subscribeInstallation, getInstallationState);
+  if (!installation.update) return null;
+  return <div className="save-alert app-update-notice" role="status">
+    <p>{installation.message || "A new journal version is ready."}</p>
+    <button onClick={() => void applyAppUpdate()}>Load available update</button>
+  </div>;
+}
+
 export default function App() {
   const [data, setData] = useState<GameData | null>(null),
     [error, setError] = useState("");
@@ -341,6 +344,7 @@ function Cover({ data }: { data: GameData | null }) {
   }
   return (
     <div className="cover">
+      <UpdateNotice />
       <a
         className="skip-link"
         href="#game-list"
@@ -623,6 +627,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
             ))}
           </div>
           <div className="journal-page">
+            <UpdateNotice />
             <div className="page-toolbar">
               <div className="breadcrumb">
                 <span>KH · FINAL MIX</span>
@@ -686,7 +691,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
               ) : section === "synthesis" ? (
                 <Synthesis {...props} player={player} initialTab={parts[2]} />
               ) : section === "reference" || section === "challenges" ? (
-                <Reference {...props} challenges={section === "challenges"} />
+                <Reference key={section} {...props} challenges={section === "challenges"} />
               ) : section === "progress" ? (
                 <Settings {...props} player={player} notify={setMessage} />
               ) : section === "entry" ? (
@@ -1061,7 +1066,7 @@ function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
                       <h3>{label(c)}</h3>
                       <span>
                         {
-                          list.filter(
+                          all.filter(
                             (e) => e.category === c && state.checks[e.id],
                           ).length
                         }
@@ -1275,11 +1280,18 @@ function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
           {recipe && (
             <section>
               <h2>Ingredients</h2>
+              {state.inventoryEnabled && <p className="fine-print">Owned / required for one craft. “?” means your stock is unknown.</p>}
               <ul className="ingredient-list">
-                {recipe.ingredients.map((ing) => (
+                {recipeRequirements(recipe, 1, state.inventory, state.inventoryEnabled).map((ing) => (
                   <li key={ing.itemId}>
                     <a href={entryHref(ing.itemId)}>{ing.name}</a>
-                    <strong>{ing.quantity}</strong>
+                    <strong aria-label={state.inventoryEnabled
+                      ? `${ing.owned === null ? "Unknown" : ing.owned} owned, ${ing.required} required; ${ing.missing === null ? "unknown" : ing.missing} remaining`
+                      : `${ing.required} required`}>
+                      {state.inventoryEnabled
+                        ? `${ing.owned === null ? "?" : ing.owned} / ${ing.required} · ${ing.missing === null ? "?" : ing.missing} remaining`
+                        : `× ${ing.required}`}
+                    </strong>
                   </li>
                 ))}
               </ul>
@@ -1396,12 +1408,9 @@ function Reference({
         "report",
         "guide",
       ];
-  const [category, setCategory] = useState("all"),
-    [status, setStatus] = useState("all");
-  useEffect(() => {
-    setCategory("all");
-    setStatus("all");
-  }, [challenges]);
+  const scope = challenges ? "challenges" : "reference";
+  const [category, setCategory] = useStoredChoice<string>(`ars-arcanum:kh1fm:${scope}:category`, "all"),
+    [status, setStatus] = useStoredChoice<string>(`ars-arcanum:kh1fm:${scope}:status`, "all");
   const entries = data.entries.filter((e) => permitted.includes(e.category));
   const filtered = entries.filter(
     (e) =>
@@ -1485,10 +1494,16 @@ function Quantity({
 }) {
   const [draft, setDraft] = useState(value === undefined ? "" : String(value));
   const [error, setError] = useState("");
-  useEffect(() => setDraft(value === undefined ? "" : String(value)), [value]);
+  const dirty = useRef(false);
+  useEffect(() => {
+    setDraft(value === undefined ? "" : String(value));
+    dirty.current = false;
+  }, [value]);
   const commit = () => {
+    if (!dirty.current) return;
     if (draft === "" && unknown) {
       setError("");
+      dirty.current = false;
       onChange(null);
       return;
     }
@@ -1498,6 +1513,7 @@ function Quantity({
       return;
     }
     setError("");
+    dirty.current = false;
     onChange(n);
   };
   return (
@@ -1511,7 +1527,7 @@ function Quantity({
         title={error || name}
         placeholder={unknown ? "?" : "0"}
         value={draft}
-        onChange={(e) => setDraft(e.target.value)}
+        onChange={(e) => { dirty.current = true; setDraft(e.target.value); }}
         onBlur={commit}
         onKeyDown={(e) => {
           if (e.key === "Enter") e.currentTarget.blur();
@@ -1535,10 +1551,21 @@ function Synthesis({
   const tab = ["materials", "plan"].includes(initialTab || "")
     ? initialTab!
     : "recipes";
-  const [setFilter, setSetFilter] = useState("all"),
-    [query, setQuery] = useState(""),
-    [remaining, setRemaining] = useState(false),
-    [routes, setRoutes] = useState<Record<string, string>>({});
+  const [setFilter, setSetFilter] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:set", "all"),
+    [query, setQuery] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:query", ""),
+    [completion, setCompletion] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:completion", "all"),
+    [savedRoutes, setSavedRoutes] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:routes", "{}");
+  const remaining = completion === "remaining";
+  const routes = useMemo<Record<string, string>>(() => {
+    try {
+      const parsed = JSON.parse(savedRoutes);
+      if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
+      return Object.fromEntries(Object.entries(parsed).filter(([itemId, route]) =>
+        typeof route === "string" && (route === "gather" || getMaterialRoutes(data.recipes, itemId).some((r) => r.id === route)),
+      )) as Record<string, string>;
+    } catch { return {}; }
+  }, [savedRoutes, data.recipes]);
+  const setRoutes = (next: Record<string, string>) => setSavedRoutes(JSON.stringify(next));
   const recipes = data.recipes.filter(
     (r) =>
       (setFilter === "all" || r.set === Number(setFilter)) &&
@@ -1651,7 +1678,7 @@ function Synthesis({
               <input
                 type="checkbox"
                 checked={remaining}
-                onChange={(e) => setRemaining(e.target.checked)}
+                onChange={(e) => setCompletion(e.target.checked ? "remaining" : "all")}
               />
               <span className="toggle-track" />
               Not yet crafted
@@ -2014,19 +2041,8 @@ function Settings({
     > | null>(null),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
-    [offlineReady, setOfflineReady] = useState(installation.offline),
-    [updateReady, setUpdateReady] = useState(installation.update),
     [recoveryReview, setRecoveryReview] = useState(false);
-  useEffect(() => {
-    const offline = () => setOfflineReady(true),
-      update = () => setUpdateReady(true);
-    window.addEventListener("ars-offline-ready", offline);
-    window.addEventListener("ars-update-ready", update);
-    return () => {
-      window.removeEventListener("ars-offline-ready", offline);
-      window.removeEventListener("ars-update-ready", update);
-    };
-  }, []);
+  const installation = useSyncExternalStore(subscribeInstallation, getInstallationState);
   async function readBackup(file: File | undefined) {
     if (!file) return;
     try {
@@ -2270,18 +2286,20 @@ function Settings({
         <div>
           <h2>Offline journal & Data Jiminy</h2>
           <p>
-            {offlineReady
-              ? "The journal has finished caching for offline use."
+            {installation.offline
+              ? "Saved journal files are available on this device."
               : "The journal caches guide pages for offline use when installation completes. Assistant models need their own one-time download in Data Jiminy."}{" "}
             Data Jiminy’s conversation stays in memory for this session and
             clears when you reload or leave the journal.
           </p>
-          {updateReady && (
+          <button className="button button-secondary" disabled={installation.checking} onClick={() => void checkForAppUpdate()}>
+            {installation.checking ? "Checking for updates…" : "Check for updates"}
+          </button>
+          <p className="fine-print" role="status">{installation.message} · App build {BUILD_REVISION}</p>
+          {installation.update && (
             <button
               className="button"
-              onClick={() =>
-                window.dispatchEvent(new Event("ars-apply-update"))
-              }
+              onClick={() => void applyAppUpdate()}
             >
               Load the available update
             </button>

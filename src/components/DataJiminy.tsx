@@ -39,7 +39,9 @@ export function DataJiminy({
   useEffect(() => {
     alive.current = true;
     jiminy.activateGame("kh1fm");
+    const unsubscribe = jiminy.subscribe(setProgress);
     return () => {
+      unsubscribe();
       alive.current = false;
       serial.current++;
       jiminy.activateGame(null);
@@ -49,9 +51,7 @@ export function DataJiminy({
   useEffect(() => {
     if (open) {
       dialog.current?.showModal();
-      void jiminy.restore(data, (p) => {
-        if (alive.current) setProgress(p);
-      });
+      void jiminy.restore(data);
     } else if (dialog.current?.open) {
       dialog.current.close();
       launcher.current?.focus();
@@ -64,22 +64,8 @@ export function DataJiminy({
     });
   }, [history, busy]);
   async function setup() {
-    try {
-      await jiminy.setup((p) => {
-        if (alive.current) setProgress(p);
-      });
-    } catch (error) {
-      if (alive.current)
-        setProgress({
-          phase: "error",
-          message:
-            error instanceof Error
-              ? error.message
-              : "The local model could not be prepared.",
-        });
-    } finally {
-      if (alive.current) setProgress(jiminy.status());
-    }
+    // The engine publishes errors and readiness only to the active panel.
+    await jiminy.setup().catch(() => undefined);
   }
   async function ask(event?: FormEvent, provided?: string) {
     event?.preventDefault();

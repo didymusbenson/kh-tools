@@ -29,6 +29,12 @@ test("Jiminy answers sourced requests, rejects another game, and forgets chat on
   const input = page.getByRole("textbox", {
     name: "Ask about Kingdom Hearts Final Mix",
   });
+  await input.fill("Where are my missing Torn Pages in Agrabah?");
+  await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
+  await expect(answers.last()).toContainText("Torn Page — Agrabah");
+  const scopedLinks = page.locator(".jiminy-exchange").last().locator(".answer-citations a");
+  await expect(scopedLinks).toHaveCount(1);
+  await expect(scopedLinks).toHaveAttribute("href", "#/kh1fm/entry/kh1fm-torn-page-agrabah");
   await input.fill("How do I meld commands in Birth by Sleep?");
   await page
     .getByRole("button", { name: "Ask Data Jiminy", exact: true })

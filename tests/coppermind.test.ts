@@ -85,6 +85,42 @@ describe("Coppermind application guardrails", () => {
       exactAnswer("What collectibles am I missing?", data, player)?.mode,
     ).toBe("exact");
   });
+  it("lists only missing collection actions in the requested world, with directions and links", () => {
+    const entry = data.entries[0];
+    const fixture: GameData = {
+      ...data,
+      entries: [
+        { ...entry, id: "checked", name: "Page one", category: "torn-page", collectible: true, world: "Agrabah", facts: { acquisitionId: "chest-one" } },
+        { ...entry, id: "linked", name: "Linked page", category: "torn-page", collectible: true, world: "Agrabah", facts: { acquisitionId: "chest-one" } },
+        { ...entry, id: "missing", name: "Page two", category: "torn-page", collectible: true, world: "Agrabah", area: "Hidden Room", instructions: "Open the chest.", prerequisites: "Enter the cave." },
+        { ...entry, id: "elsewhere", name: "Page three", category: "torn-page", collectible: true, world: "Monstro" },
+      ],
+    };
+    const player = { checks: { linked: true }, inventory: {}, plan: {} } as PlayerState;
+    const before = JSON.stringify(player);
+    const answer = exactAnswer("Where are my missing Torn Pages in Agrabah?", fixture, player);
+    expect(answer?.text).toContain("1 of 2 recorded collectibles checked; 1 remaining");
+    expect(answer?.text).toContain("Page two: Agrabah — Hidden Room. Open the chest. Enter the cave.");
+    expect(answer?.citations.map((c) => c.entryId)).toEqual(["missing"]);
+    expect(answer?.text).not.toContain("Page one");
+    expect(answer?.text).not.toContain("Page three");
+    expect(JSON.stringify(player)).toBe(before);
+    expect(exactAnswer("How many Torn Pages are remaining in Agrabah?", fixture, player)?.citations).toEqual([]);
+  });
+  it("scopes category location lists to the named world", () => {
+    const fixture: GameData = { ...data, entries: [
+      { ...data.entries[0], id: "a", name: "Agrabah page", category: "torn-page", world: "Agrabah" },
+      { ...data.entries[0], id: "b", name: "Monstro page", category: "torn-page", world: "Monstro" },
+    ] };
+    expect(exactAnswer("Where are the Torn Pages in Agrabah?", fixture)?.citations.map((c) => c.entryId)).toEqual(["a"]);
+  });
+  it("reports a completed missing-item selection without inventing locations", () => {
+    const fixture: GameData = { ...data, entries: [{ ...data.entries[0], collectible: true }] };
+    const player = { checks: { test: true }, inventory: {}, plan: {} } as PlayerState;
+    const answer = exactAnswer("What collectibles am I missing?", fixture, player);
+    expect(answer?.text).toContain("No recorded collectibles remain");
+    expect(answer?.citations).toEqual([]);
+  });
   it("uses an explicit craft quantity and rejects fractional quantities", () => {
     expect(exactAnswer("make 2 Ultima Weapon", data)?.text).toContain(
       "6 × Gale",

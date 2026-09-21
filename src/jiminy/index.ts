@@ -31,6 +31,7 @@ export class JiminyEngine {
   private worker?: Worker;
   private sequence = 0;
   private generation = 0;
+  private activation = 0;
   private active: string | null = null;
   private pack?: CoppermindPack;
   private lastQuestions = new Map<string, string>();
@@ -48,6 +49,16 @@ export class JiminyEngine {
     }
   >();
   private setupPromise?: Promise<void>;
+  private listeners = new Set<(p: JiminyProgress) => void>();
+  subscribe(listener: (p: JiminyProgress) => void) {
+    this.listeners.add(listener);
+    listener(this.status());
+    return () => { this.listeners.delete(listener); };
+  }
+  private reportProgress(p: JiminyProgress) {
+    this.progress = p;
+    for (const listener of this.listeners) listener(this.status());
+  }
   status() {
     return { ...this.progress };
   }
@@ -55,12 +66,13 @@ export class JiminyEngine {
     if (this.active !== game) {
       this.active = game;
       this.generation++;
+      this.activation++;
       this.pack = undefined;
-      this.progress = {
+      this.reportProgress({
         phase: "idle",
         message:
           "Open the assistant to restore this journal’s local files, or download them once.",
-      };
+      });
     }
   }
   clearSession() {
@@ -109,15 +121,19 @@ export class JiminyEngine {
     data: GameData,
     onProgress?: (p: JiminyProgress) => void,
   ): Promise<void> {
-    if (
-      this.active !== data.game ||
-      this.progress.phase === "ready" ||
-      this.setupPromise
-    )
+    if (this.active !== data.game) return;
+    const origin = this.activation;
+    // A previous panel may still own the shared worker's setup. Wait for it,
+    // then restore for this activation instead of leaving the new panel idle.
+    while (this.setupPromise) await this.setupPromise.catch(() => undefined);
+    if (origin !== this.activation) return;
+    if (this.progress.phase === "ready") {
+      onProgress?.(this.status());
       return;
-    const origin = this.generation;
+    }
     const report = (p: JiminyProgress) => {
-      this.progress = p;
+      if (origin !== this.activation) return;
+      this.reportProgress(p);
       onProgress?.(p);
     };
     this.setupPromise = (async () => {
@@ -140,14 +156,7 @@ export class JiminyEngine {
           wasmPath: new URL(`${import.meta.env.BASE_URL}ort/`, document.baseURI)
             .href,
         });
-        if (origin !== this.generation) {
-          report({
-            phase: "idle",
-            message:
-              "Local files are cached. Open this journal’s assistant to restore them.",
-          });
-          return;
-        }
+        if (origin !== this.activation) return;
         this.pack = pack;
         report({
           phase: "ready",
@@ -167,15 +176,21 @@ export class JiminyEngine {
     return this.setupPromise;
   }
   async setup(onProgress?: (p: JiminyProgress) => void): Promise<void> {
-    if (this.setupPromise) return this.setupPromise;
     if (!this.active)
       throw new Error("Open a game journal before preparing Data Jiminy.");
+    const setupGame = this.active,
+      setupGeneration = this.activation;
+    while (this.setupPromise) await this.setupPromise.catch(() => undefined);
+    if (setupGeneration !== this.activation) return;
+    if (this.progress.phase === "ready") {
+      onProgress?.(this.status());
+      return;
+    }
     const report = (p: JiminyProgress) => {
-      this.progress = p;
+      if (setupGeneration !== this.activation) return;
+      this.reportProgress(p);
       onProgress?.(p);
     };
-    const setupGame = this.active,
-      setupGeneration = this.generation;
     this.setupPromise = (async () => {
       report({
         phase: "loading",
@@ -224,7 +239,7 @@ export class JiminyEngine {
             throw new Error(
               "The Coppermind pack needs an update for this journal.",
             );
-          if (setupGeneration === this.generation) this.pack = pack;
+          if (setupGeneration === this.activation) this.pack = pack;
           const cache = await caches.open("ars-arcanum-copperminds-v1");
           await cache.put(
             `${import.meta.env.BASE_URL}data/${setupGame}-coppermind.json`,
@@ -234,14 +249,8 @@ export class JiminyEngine {
           );
         }
         await navigator.storage?.persist?.();
-        if (setupGeneration !== this.generation || setupGame !== this.active) {
-          report({
-            phase: "idle",
-            message:
-              "Local files are cached. Open this journal’s assistant to restore them.",
-          });
+        if (setupGeneration !== this.activation || setupGame !== this.active)
           return;
-        }
         report({
           phase: "ready",
           message:

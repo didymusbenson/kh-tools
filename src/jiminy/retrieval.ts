@@ -46,12 +46,20 @@ export function scopedQuestion(question: string): JiminyAnswer | null {
 function materialText(i: MaterialRequirement, enabled: boolean) {
   return `${i.required} × ${i.name}${enabled ? (i.owned === null ? " (stock unknown; remaining unknown)" : ` (${i.owned} owned; ${i.missing} needed)`) : ""}`;
 }
+function locationText(entry: GuideEntry) {
+  if (entry.verification === "unresolved")
+    return `${entry.name}: ${entry.uncertainty || "Location not verified in this journal."}`;
+  const location = [entry.world, entry.area].filter(Boolean).join(" — ");
+  return `${entry.name}: ${location ? `${location}. ` : ""}${entry.instructions || entry.summary}${entry.prerequisites ? ` ${entry.prerequisites}` : ""}${entry.uncertainty ? ` Qualification: ${entry.uncertainty}` : ""}`;
+}
 export function exactAnswer(
   question: string,
   data: GameData,
   player?: PlayerState,
 ): JiminyAnswer | null {
   const q = question.toLowerCase();
+  const world = [...new Set(data.entries.map((e) => e.world).filter(Boolean))]
+    .find((w) => q.includes(w!.toLowerCase()));
   if (
     player &&
     /\b(plan|all uncrafted|all remaining recipes)\b/.test(q) &&
@@ -95,12 +103,9 @@ export function exactAnswer(
   }
   if (
     player &&
-    /\b(progress|collected|remaining|missing|completion|complete)\b/.test(q) &&
+    /\b(progress|collected|uncollected|remaining|missing|completion|complete)\b/.test(q) &&
     !/\b(recipe|synthesi[sz]|material)\b/.test(q)
   ) {
-    const world = [
-      ...new Set(data.entries.map((e) => e.world).filter(Boolean)),
-    ].find((w) => q.includes(w!.toLowerCase()));
     let entries = data.entries.filter(
       (e) => e.collectible && (!world || e.world === world),
     );
@@ -119,8 +124,32 @@ export function exactAnswer(
     });
     const total = progress.total,
       checked = progress.completed;
+    const summary = `${world || "This journal"}: ${checked} of ${total} recorded collectibles checked; ${total - checked} remaining.`;
+    if (
+      /\b(missing|remaining|uncollected)\b/.test(q) &&
+      /\b(where|which|what|list|show|find|locations)\b/.test(q) &&
+      !/\bhow many\b/.test(q)
+    ) {
+      // Match the progress calculator's acquisition groups: a chest represented
+      // by multiple linked records is one action, and any linked check completes it.
+      const groups = new Map<string, GuideEntry[]>();
+      for (const entry of entries.filter((e) => e.checkable)) {
+        const id = typeof entry.facts?.acquisitionId === "string"
+          ? entry.facts.acquisitionId : entry.id;
+        groups.set(id, [...(groups.get(id) ?? []), entry]);
+      }
+      const remaining = [...groups.entries()]
+        .filter(([id, group]) => !player.checks[id] && !group.some((e) => player.checks[e.id]))
+        .map(([, group]) => group[0]);
+      const shown = remaining.slice(0, 12);
+      return {
+        text: `${summary}${shown.length ? `\n${shown.map(locationText).join("\n")}` : " No recorded collectibles remain in this selection."}${remaining.length > shown.length ? `\nShowing ${shown.length} of ${remaining.length} remaining collection actions.` : ""}`,
+        citations: shown.map(citation),
+        mode: "exact",
+      };
+    }
     return {
-      text: `${world || "This journal"}: ${checked} of ${total} recorded collectibles checked; ${total - checked} remaining. This counts the entries currently documented in this journal.`,
+      text: `${summary} This counts the entries currently documented in this journal.`,
       citations: [],
       mode: "exact",
     };
@@ -137,19 +166,15 @@ export function exactAnswer(
           ? "trinity"
           : "report";
     const entries = data.entries.filter(
-      (e) => e.category === category && e.verification !== "unresolved",
+      (e) => e.category === category && (!world || e.world === world) && e.verification !== "unresolved",
     );
     if (entries.length)
       return {
-        text: entries
-          .map(
-            (e) =>
-              `${e.name}: ${[e.world, e.area].filter(Boolean).join(" — ")}. ${e.instructions || e.summary}${e.prerequisites ? ` ${e.prerequisites}` : ""}${e.uncertainty ? ` Qualification: ${e.uncertainty}` : ""}`,
-          )
-          .join("\n"),
+        text: entries.map(locationText).join("\n"),
         citations: entries.map(citation),
         mode: "exact",
       };
+    return { text: "No matching information in this journal.", citations: [], mode: "missing" };
   }
   const candidates = data.entries
     .filter((e) =>

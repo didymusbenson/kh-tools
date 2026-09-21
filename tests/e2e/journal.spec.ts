@@ -97,6 +97,8 @@ test("synthesis preserves stock and catalog independently across restart", async
   await card
     .getByRole("button", { name: "Add one Energy Bangle to plan" })
     .click();
+  await expect(card.getByRole("textbox", { name: "Energy Bangle craft plan quantity", exact: true })).toHaveValue("1");
+  await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
   await page.reload();
   await page
     .getByRole("searchbox", { name: "Find a synthesis recipe" })
