@@ -4,7 +4,7 @@
   background: #17372d;
   font-synthesis: none;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.55;
   --green: #244c3c;
   --green-deep: #15362b;
@@ -135,7 +135,7 @@ p {
 }
 .eyebrow {
   display: block;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.4;
   font-weight: 700;
   letter-spacing: 1.7px;
@@ -169,7 +169,7 @@ p {
   gap: 11px;
   min-height: 44px;
   padding: 10px 18px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   text-align: center;
 }
@@ -200,7 +200,7 @@ p {
   flex-wrap: wrap;
 }
 .fine-print {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
   line-height: 1.7;
   margin-top: 25px;
@@ -228,7 +228,7 @@ p {
 .brand small {
   display: block;
   font-family: Arial, sans-serif;
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 2.2px;
   margin-top: 4px;
   opacity: 0.65;
@@ -286,7 +286,7 @@ p {
   z-index: 2;
 }
 .cover-volume {
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 2.5px;
   color: #c5c9b2;
   display: flex;
@@ -324,7 +324,7 @@ p {
   color: #d7cbb0;
 }
 .cover-intro {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
   color: #bdc7b7;
   margin-bottom: 25px;
@@ -376,7 +376,7 @@ p {
   color: var(--gold);
 }
 .game-number {
-  font-size: 10px;
+  font-size: 14px;
   color: #839880;
   font-variant-numeric: tabular-nums;
 }
@@ -389,7 +389,7 @@ p {
   display: block;
   margin-top: 4px;
   font:
-    9px Arial,
+    12px Arial,
     sans-serif;
   letter-spacing: 1.1px;
   text-transform: uppercase;
@@ -399,7 +399,7 @@ p {
   color: var(--gold);
 }
 .soon {
-  font-size: 8px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 1px solid #c5cbb329;
@@ -408,7 +408,7 @@ p {
   color: #9cae96;
 }
 .cover-note {
-  font-size: 10px;
+  font-size: 14px;
   color: #98ad96;
   margin: 19px 0 0;
 }
@@ -504,7 +504,7 @@ p {
   margin: 12px 0 4px;
 }
 .artwork-caption p {
-  font-size: 10px;
+  font-size: 14px;
   color: #abb99f;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -518,7 +518,7 @@ p {
   color: #efe4c4;
   padding: 13px 0 8px;
   margin-top: 8px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .cover-cta:hover {
   text-decoration: none;
@@ -526,7 +526,7 @@ p {
 }
 .artwork-caption .unavailable-note {
   font:
-    11px Arial,
+    14px Arial,
     sans-serif;
   text-transform: none;
   letter-spacing: 0.2px;
@@ -540,7 +540,7 @@ p {
   justify-content: space-between;
   align-items: center;
   color: #94a68f;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.2px;
   position: relative;
   z-index: 1;
@@ -548,7 +548,7 @@ p {
 .cover-footer > span:last-child {
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 13px;
+  font-size: 15px;
 }
 .cover-footer > span:last-child span {
   margin-left: 18px;
@@ -584,14 +584,14 @@ p {
   backdrop-filter: blur(12px);
 }
 .journal-brand {
-  font-size: 15px;
+  font-size: 16px;
   gap: 13px;
   letter-spacing: 2px;
   width: 218px;
   flex-shrink: 0;
 }
 .journal-brand small {
-  font-size: 7px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 .journal-brand .brand-seal {
@@ -607,7 +607,7 @@ p {
   flex: 1;
 }
 .current-edition > span {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.4px;
   opacity: 0.55;
   border-right: 1px solid #bac99c44;
@@ -616,11 +616,11 @@ p {
 .current-edition strong {
   font-weight: 400;
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 .current-edition i {
   font:
-    9px Arial,
+    12px Arial,
     sans-serif;
   font-style: normal;
   margin-left: 9px;
@@ -629,7 +629,7 @@ p {
   opacity: 0.6;
 }
 .topbar-status {
-  font-size: 10px;
+  font-size: 14px;
   color: #b1c2a6;
   display: flex;
   align-items: center;
@@ -674,7 +674,7 @@ p {
   margin-bottom: 23px;
 }
 .sidebar-volume .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #a5bb96;
   letter-spacing: 1.4px;
 }
@@ -685,7 +685,7 @@ p {
   line-height: 1.15;
 }
 .sidebar-volume p {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 3px;
   color: #c9b58b;
   margin: 0;
@@ -708,7 +708,7 @@ p {
   align-items: center;
   padding: 9px 11px;
   gap: 11px;
-  font-size: 11px;
+  font-size: 14px;
   border: 1px solid transparent;
   border-radius: 3px;
   position: relative;
@@ -722,7 +722,7 @@ p {
   flex: 1;
 }
 .chapter-nav a > small {
-  font-size: 8px;
+  font-size: 12px;
   opacity: 0.45;
 }
 .chapter-nav a:hover {
@@ -756,12 +756,12 @@ p {
   align-items: baseline;
   justify-content: space-between;
   gap: 15px;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.4;
   margin-bottom: 9px;
 }
 .progress-label strong {
-  font-size: 12px;
+  font-size: 15px;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
@@ -782,7 +782,7 @@ p {
   transition: width 0.2s;
 }
 .sidebar-progress > p {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.6;
   color: #8ba380;
   margin-top: 10px;
@@ -798,11 +798,11 @@ p {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 11px;
+  font-size: 14px;
   color: #c5cdb1;
 }
 .save-status {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.6;
   color: #97ac8b;
   display: flex;
@@ -884,12 +884,12 @@ p {
   display: flex;
   align-items: center;
   gap: 11px;
-  font-size: 9px;
+  font-size: 12px;
   color: #8a8c77;
   white-space: nowrap;
 }
 .breadcrumb > span:first-child {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.1px;
   color: #727c67;
 }
@@ -914,7 +914,7 @@ p {
   width: 100%;
   outline: none;
   min-width: 80px;
-  font-size: 11px;
+  font-size: 14px;
   color: #31432f;
   height: 36px;
   padding: 0;
@@ -964,7 +964,7 @@ p {
   min-width: 0;
 }
 .page-heading p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.7;
   color: #7a7e6d;
   max-width: 590px;
@@ -989,7 +989,7 @@ p {
 }
 .chapter-stamp span {
   font:
-    6px Arial,
+    12px Arial,
     sans-serif;
   letter-spacing: 1px;
   margin-top: 3px;
@@ -1020,7 +1020,7 @@ p {
   max-width: 430px;
 }
 .feature-copy .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #cdc0aa;
   letter-spacing: 1.3px;
 }
@@ -1031,14 +1031,14 @@ p {
   letter-spacing: -0.5px;
 }
 .feature-copy p {
-  font-size: 11px;
+  font-size: 14px;
   color: #d1c9c6;
   max-width: 365px;
   line-height: 1.75;
   margin-bottom: 19px;
 }
 .feature-copy .button {
-  font-size: 10px;
+  font-size: 14px;
   min-height: 37px;
   padding: 8px 13px;
 }
@@ -1062,7 +1062,7 @@ p {
   letter-spacing: -1px;
 }
 .feature-chart > p {
-  font-size: 10px;
+  font-size: 14px;
   margin: 9px 0 17px;
   color: #e0d2bc;
 }
@@ -1072,12 +1072,12 @@ p {
   margin-bottom: 14px;
 }
 .feature-chart > span:not(.feature-count) {
-  font-size: 10px;
+  font-size: 14px;
   color: #d1c4b0;
 }
 .feature-chart > small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.7;
   margin-top: 9px;
   color: #b2abb0;
@@ -1102,7 +1102,7 @@ p {
   margin: 0;
 }
 .section-heading .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #90937d;
   letter-spacing: 1.3px;
 }
@@ -1143,7 +1143,7 @@ p {
   top: 23px;
   right: 23px;
   font:
-    11px Georgia,
+    14px Georgia,
     serif;
   color: #9ba587;
 }
@@ -1152,7 +1152,7 @@ p {
   margin: 0 0 9px;
 }
 .chapter-card > p {
-  font-size: 11px;
+  font-size: 14px;
   color: #737c65;
   line-height: 1.7;
   min-height: 36px;
@@ -1166,7 +1166,7 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  font-size: 9px;
+  font-size: 12px;
   color: #657650;
 }
 .journal-note {
@@ -1187,7 +1187,7 @@ p {
   font-weight: 400;
 }
 .journal-note p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
   color: #7c826f;
   margin: 7px 0 0;
@@ -1198,7 +1198,7 @@ p {
   padding: 17px 0 22px;
   display: flex;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 12px;
   color: #939780;
   gap: 20px;
 }
@@ -1221,7 +1221,7 @@ p {
   color: #694928;
   padding: 14px 18px;
   margin: 18px 34px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .save-alert p {
   margin: 0;
@@ -1253,7 +1253,7 @@ p {
   padding: 8px 10px 8px 17px;
   border-radius: 5px;
   max-width: min(580px, calc(100vw - 160px));
-  font-size: 12px;
+  font-size: 15px;
 }
 .toast > span {
   min-width: 0;
@@ -1265,7 +1265,7 @@ p {
   background: none;
   padding: 5px 0;
   margin-left: 8px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .toast > .icon-button {
   width: 30px;
@@ -1290,7 +1290,7 @@ p {
 }
 .loading-page a {
   text-decoration: underline;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* Readable indexes and collection marks. */
@@ -1311,7 +1311,7 @@ p {
   color: #71805e;
   border-radius: 3px;
   padding: 9px 12px;
-  font-size: 10px;
+  font-size: 14px;
   min-height: 37px;
 }
 .world-tabs a:hover,
@@ -1327,7 +1327,7 @@ p {
   color: #fff8e3;
 }
 .category-tabs button span {
-  font-size: 9px;
+  font-size: 12px;
   opacity: 0.7;
 }
 .collection-tools {
@@ -1346,10 +1346,10 @@ p {
   flex: 1;
 }
 .collection-progress .progress-label {
-  font-size: 11px;
+  font-size: 14px;
 }
 .collection-progress .progress-label strong {
-  font-size: 15px;
+  font-size: 16px;
 }
 .collection-progress .progress-track {
   height: 5px;
@@ -1360,7 +1360,7 @@ p {
 }
 .collection-progress > small {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   color: #92937f;
   margin-top: 8px;
 }
@@ -1380,7 +1380,7 @@ p {
   border-radius: 2px;
   color: #7c826c;
   white-space: nowrap;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 600;
   padding: 9px 13px;
   min-height: 36px;
@@ -1410,21 +1410,21 @@ p {
   padding: 0 10px;
   background: #f2f3e8;
   color: #68795a;
-  font-size: 11px;
+  font-size: 14px;
 }
 .select-field select {
   min-height: 40px;
   background: transparent;
   border: 0;
   color: #536748;
-  font-size: 11px;
+  font-size: 14px;
   min-width: 110px;
 }
 .toggle-label {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 14px;
   color: #657256;
   cursor: pointer;
   position: relative;
@@ -1475,12 +1475,12 @@ p {
   outline-offset: 3px;
 }
 .results-note {
-  font-size: 10px;
+  font-size: 14px;
   color: #7c846b;
   margin: 0 0 15px;
 }
 .results-note > span {
-  font-size: 9px;
+  font-size: 12px;
   color: #939581;
   margin-left: 4px;
 }
@@ -1519,7 +1519,7 @@ p {
   flex: 1;
 }
 .world-card-heading .eyebrow {
-  font-size: 7px;
+  font-size: 12px;
   letter-spacing: 1.2px;
   color: #7c8a67;
   margin-bottom: 4px;
@@ -1536,7 +1536,7 @@ p {
   white-space: nowrap;
 }
 .world-count > span {
-  font-size: 12px;
+  font-size: 15px;
   color: #899978;
 }
 .compact-category {
@@ -1552,14 +1552,14 @@ p {
 .compact-category-heading h3 {
   font-family: Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
   color: #7c866c;
   margin: 0;
 }
 .compact-category-heading > span {
-  font-size: 9px;
+  font-size: 12px;
   color: #8b927c;
 }
 .compact-marks {
@@ -1587,7 +1587,7 @@ p {
   justify-content: space-between;
   gap: 7px;
   padding: 7px 9px 7px 0;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.4;
   min-height: 36px;
   color: #5c6b50;
@@ -1608,7 +1608,7 @@ p {
   border-radius: 3px;
   color: #788367;
   padding: 7px 10px;
-  font-size: 9px;
+  font-size: 12px;
   min-height: 36px;
   white-space: nowrap;
   flex-shrink: 0;
@@ -1654,7 +1654,7 @@ p {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #d9dfca;
-  font-size: 9px;
+  font-size: 12px;
   color: #6c7f56;
 }
 .entry-list {
@@ -1681,7 +1681,7 @@ p {
 }
 .entry-kicker {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #8b8c72;
@@ -1692,12 +1692,12 @@ p {
   margin: 0;
 }
 .entry-area {
-  font-size: 10px;
+  font-size: 14px;
   color: #758468;
   margin: 6px 0 0;
 }
 .entry-row > p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: #677360;
   max-width: 860px;
@@ -1707,7 +1707,7 @@ p {
   display: flex;
   gap: 7px;
   color: #807554;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
   background: #eae9d735;
   padding: 6px 0;
@@ -1721,7 +1721,7 @@ p {
   font-weight: 600;
 }
 .entry-row > p.entry-reward {
-  font-size: 10px;
+  font-size: 14px;
   color: #707c60;
 }
 .entry-row-footer {
@@ -1737,14 +1737,14 @@ p {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 9px;
+  font-size: 12px;
   color: #677d50;
 }
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.5;
   padding: 4px 7px;
   border: 1px solid #cdd7ba;
@@ -1792,7 +1792,7 @@ p {
   margin: 0 0 12px;
 }
 .empty-state p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.7;
   max-width: 390px;
   margin: 0 0 18px;
@@ -1804,7 +1804,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 14px;
   color: #819171;
   margin-bottom: 24px;
 }
@@ -1821,7 +1821,7 @@ p {
   margin-bottom: 14px;
 }
 .entry-detail-main p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.9;
   color: #68725e;
 }
@@ -1839,7 +1839,7 @@ p {
   color: #688152;
 }
 .location-banner .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 5px;
   color: #8b9275;
 }
@@ -1856,7 +1856,7 @@ p {
 }
 .detail-condition .eyebrow {
   color: #928063;
-  font-size: 9px;
+  font-size: 12px;
 }
 .detail-condition p {
   margin: 8px 0 0;
@@ -1871,7 +1871,7 @@ p {
 }
 .entry-source-panel > .eyebrow {
   color: #8b9175;
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.2px;
 }
 .entry-source-panel h2 {
@@ -1879,7 +1879,7 @@ p {
   margin: 11px 0 13px;
 }
 .entry-source-panel > p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   color: #7b826c;
   margin: 15px 0;
@@ -1888,7 +1888,7 @@ p {
   background: #f2e8d6;
   border: 1px solid #dfd0ac;
   padding: 11px 12px;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
   color: #877140;
   display: flex;
@@ -1910,7 +1910,7 @@ p {
   padding: 11px 0;
 }
 .source-list li a {
-  font-size: 11px;
+  font-size: 14px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1924,12 +1924,12 @@ p {
 }
 .source-list li small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #91987e;
   margin-top: 6px;
 }
 .record-id {
-  font-size: 8px;
+  font-size: 12px;
   color: #979b85;
   overflow-wrap: anywhere;
   border-top: 1px solid #d8dec8;
@@ -1945,7 +1945,7 @@ p {
   gap: 20px;
   padding: 10px 0;
   border-bottom: 1px solid #dfe3d0;
-  font-size: 11px;
+  font-size: 14px;
 }
 .facts-list dt {
   text-transform: capitalize;
@@ -1978,7 +1978,7 @@ p {
 }
 .related-grid small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #929b81;
   margin-bottom: 6px;
 }
@@ -1986,7 +1986,7 @@ p {
   display: block;
   font-family: Georgia, serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   color: #62784f;
 }
 .related-grid svg {
@@ -2016,7 +2016,7 @@ p {
   font-weight: 400;
 }
 .workshop-intro p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
   color: #89816d;
   margin: 5px 0 0;
@@ -2037,7 +2037,7 @@ p {
   padding: 9px 17px;
 }
 .inventory-note {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   color: #838c75;
   border-left: 2px solid #a2b287;
@@ -2083,12 +2083,12 @@ p {
   margin-bottom: 13px;
 }
 .recipe-set {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.3px;
   color: #929875;
 }
 .recipe-card .check-control {
-  font-size: 8px;
+  font-size: 12px;
   padding: 5px 7px;
   min-height: 32px;
 }
@@ -2097,7 +2097,7 @@ p {
   margin: 0 0 9px;
 }
 .recipe-unlock {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.7;
   color: #8a8e76;
   margin-bottom: 15px;
@@ -2115,7 +2115,7 @@ p {
   gap: 12px;
   border-top: 1px solid #dce1cc;
   padding: 9px 0;
-  font-size: 11px;
+  font-size: 14px;
 }
 .ingredient-list li a {
   display: flex;
@@ -2128,7 +2128,7 @@ p {
   flex-shrink: 0;
 }
 .ingredient-list li > strong {
-  font-size: 12px;
+  font-size: 15px;
   color: #596e49;
   font-weight: 600;
   white-space: nowrap;
@@ -2152,7 +2152,7 @@ p {
   gap: 10px;
 }
 .recipe-plan-control > label {
-  font-size: 9px;
+  font-size: 12px;
   color: #81916c;
 }
 .stepper {
@@ -2184,7 +2184,7 @@ p {
   background: #fcfcf3;
   color: #456036;
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 15px;
   font-variant-numeric: tabular-nums;
 }
 .quantity-control input::placeholder {
@@ -2197,7 +2197,7 @@ p {
   position: absolute;
   right: 0;
   top: 100%;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.5;
   background: #f5dfd1;
   color: #7e412e;
@@ -2233,24 +2233,24 @@ p {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 14px;
   color: #8c9a78;
 }
 .material-card > p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: #6f7e60;
   margin-bottom: 12px;
 }
 .material-card > p.prerequisite {
-  font-size: 10px;
+  font-size: 14px;
   color: #8b7b57;
 }
 .material-source-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 14px;
   color: #718a5c;
 }
 .plan-goals {
@@ -2280,7 +2280,7 @@ p {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 9px;
+  font-size: 12px;
   color: #889b72;
 }
 .plan-explanation {
@@ -2295,7 +2295,7 @@ p {
   margin-top: 2px;
 }
 .plan-explanation > p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   margin: 0;
 }
@@ -2303,12 +2303,12 @@ p {
   border: 1px solid #dfc996;
   background: #f4ecd7;
   padding: 15px 18px;
-  font-size: 10px;
+  font-size: 14px;
   color: #8b7343;
   margin-bottom: 25px;
 }
 .plan-issues strong {
-  font-size: 12px;
+  font-size: 15px;
 }
 .plan-issues p {
   margin: 6px 0 0;
@@ -2345,7 +2345,7 @@ p {
 }
 .plan-material-figures small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #899875;
   margin-bottom: 6px;
 }
@@ -2364,7 +2364,7 @@ p {
   align-items: center;
   gap: 7px;
   margin-top: 8px;
-  font-size: 9px;
+  font-size: 12px;
   color: #929c7f;
 }
 .route-choice select {
@@ -2373,14 +2373,14 @@ p {
   padding: 5px;
   max-width: 210px;
   color: #698056;
-  font-size: 9px;
+  font-size: 12px;
 }
 .dependency-note {
   background: #ebefdd;
   border: 1px solid #d3debe;
   padding: 19px 21px;
   margin-top: 24px;
-  font-size: 11px;
+  font-size: 14px;
   color: #738860;
 }
 .dependency-note h3 {
@@ -2393,7 +2393,7 @@ p {
 }
 .dependency-note small {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.7;
   margin-top: 13px;
   color: #8c9a79;
@@ -2413,7 +2413,7 @@ p {
   border-radius: 3px;
 }
 .progress-summary-grid .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #82936e;
   letter-spacing: 1.1px;
 }
@@ -2432,7 +2432,7 @@ p {
   color: #929e7e;
 }
 .progress-summary-grid p {
-  font-size: 9px;
+  font-size: 12px;
   color: #929b7f;
   margin: 0;
 }
@@ -2449,14 +2449,14 @@ p {
   margin-bottom: 12px;
 }
 .settings-section p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
   color: #838d73;
   max-width: 550px;
   margin: 0 0 12px;
 }
 .settings-section p.fine-print {
-  font-size: 9px;
+  font-size: 12px;
 }
 .settings-actions {
   display: flex;
@@ -2466,7 +2466,7 @@ p {
   min-width: 180px;
 }
 .settings-actions .button {
-  font-size: 10px;
+  font-size: 14px;
 }
 .file-upload {
   position: relative;
@@ -2517,7 +2517,7 @@ p {
   color: #5f764d;
 }
 .coverage-row p {
-  font-size: 10px;
+  font-size: 14px;
   color: #899579;
   line-height: 1.8;
   margin: 0;
@@ -2536,11 +2536,11 @@ p {
 }
 .coverage-count strong > span {
   color: #99a585;
-  font-size: 16px;
+  font-size: 17px;
 }
 .coverage-count small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #8e9a7d;
   margin-top: 5px;
 }
@@ -2553,14 +2553,14 @@ p {
 }
 .import-preview > .eyebrow {
   color: #829366;
-  font-size: 9px;
+  font-size: 12px;
   margin-bottom: 13px;
 }
 .import-preview h2 {
   font-size: 25px;
 }
 .import-preview > p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: #75895e;
 }
@@ -2614,7 +2614,7 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
-  font-size: 7px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: #d0dabb;
   background: #264431df;
@@ -2668,7 +2668,7 @@ p {
   flex: 1;
 }
 .jiminy-header .eyebrow {
-  font-size: 7px;
+  font-size: 12px;
   color: #859b6d;
   letter-spacing: 1px;
 }
@@ -2678,7 +2678,7 @@ p {
   line-height: 1.1;
 }
 .jiminy-header p {
-  font-size: 9px;
+  font-size: 12px;
   color: #879973;
   margin: 0;
 }
@@ -2712,7 +2712,7 @@ p {
   text-align: left;
   padding: 0;
   color: #8b7443;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 600;
   min-height: 26px;
 }
@@ -2722,7 +2722,7 @@ p {
   gap: 7px;
 }
 .ai-disclaimer > p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   color: #8a7c5f;
   margin: 11px 0 0;
@@ -2738,27 +2738,27 @@ p {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
+  font-size: 14px;
   color: #6b8553;
 }
 .model-status .status-dot {
   background: #94ad70;
 }
 .model-status > p {
-  font-size: 10px;
+  font-size: 14px;
   color: #8b9b77;
   line-height: 1.7;
   margin: 7px 0 11px;
 }
 .model-status > small {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.7;
   color: #93a080;
   margin-top: 9px;
 }
 .model-status .button {
-  font-size: 10px;
+  font-size: 14px;
   padding: 7px 12px;
   min-height: 36px;
 }
@@ -2769,7 +2769,7 @@ p {
   margin-right: 8px;
 }
 .download-percent {
-  font-size: 9px;
+  font-size: 12px;
   color: #718d59;
 }
 .model-error {
@@ -2777,7 +2777,7 @@ p {
   border-color: #dac8a0;
 }
 .jiminy-start > .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #94a27d;
   margin-bottom: 11px;
 }
@@ -2786,7 +2786,7 @@ p {
   margin-bottom: 12px;
 }
 .jiminy-start > p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
   color: #859776;
 }
@@ -2806,7 +2806,7 @@ p {
   border: 1px solid #d3dfc0;
   border-radius: 3px;
   padding: 12px;
-  font-size: 11px;
+  font-size: 14px;
   color: #698451;
 }
 .suggested-questions button:hover {
@@ -2820,7 +2820,7 @@ p {
   padding: 11px 14px;
   border-radius: 8px 8px 0 8px;
   margin-left: 32px;
-  font-size: 12px;
+  font-size: 15px;
   color: #61794d;
   line-height: 1.7;
 }
@@ -2843,7 +2843,7 @@ p {
 }
 .answer-text {
   white-space: pre-wrap;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: #566e43;
   margin: 0;
@@ -2858,7 +2858,7 @@ p {
   gap: 6px;
 }
 .answer-citations > span {
-  font-size: 8px;
+  font-size: 12px;
   color: #99a987;
   width: 100%;
   margin-bottom: 2px;
@@ -2869,7 +2869,7 @@ p {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 9px;
+  font-size: 12px;
   border: 1px solid #d0dfbd;
   background: #edf3e0;
   padding: 5px 7px;
@@ -2877,12 +2877,12 @@ p {
   color: #758f5e;
 }
 .answer-waiting {
-  font-size: 11px;
+  font-size: 14px;
   font-style: italic;
   color: #8ca37a;
 }
 .answer-error {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
   color: #9a7445;
 }
@@ -2907,7 +2907,7 @@ p {
   max-height: 100px;
   background: none;
   border: 0;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
   color: #506c3f;
   padding: 1px 0;
@@ -2940,14 +2940,14 @@ p {
   justify-content: space-between;
   gap: 10px;
   margin-top: 9px;
-  font-size: 7px;
+  font-size: 12px;
   color: #97a484;
 }
 .jiminy-compose-footer button {
   background: none;
   border: 0;
   color: #81996a;
-  font-size: 8px;
+  font-size: 12px;
   padding: 4px;
 }
 
@@ -3080,13 +3080,13 @@ p {
     font-size: 18px;
   }
   .world-card-heading .eyebrow {
-    font-size: 6px;
+    font-size: 12px;
   }
   .compact-category {
     padding: 13px 13px 6px;
   }
   .compact-item > a {
-    font-size: 9px;
+    font-size: 12px;
   }
   .cover {
     padding: 0 5vw;
@@ -3126,7 +3126,7 @@ p {
     grid-template-columns: minmax(320px, 1fr) minmax(300px, 1fr);
   }
   .soon {
-    font-size: 7px;
+    font-size: 12px;
     padding: 3px 4px;
   }
   .settings-section {
@@ -3153,12 +3153,12 @@ p {
     display: none;
   }
   .current-edition strong {
-    font-size: 13px;
+    font-size: 15px;
   }
   .current-edition i {
     display: block;
     margin: 3px 0 0;
-    font-size: 7px;
+    font-size: 12px;
   }
   .topbar-status {
     display: none;
@@ -3251,7 +3251,7 @@ p {
     padding: 15px 17px 7px;
   }
   .compact-item > a {
-    font-size: 10px;
+    font-size: 14px;
   }
   .workshop-toolbar {
     align-items: center;
@@ -3270,13 +3270,13 @@ p {
     font-size: 37px;
   }
   .cover-intro {
-    font-size: 11px;
+    font-size: 14px;
   }
   .cover-copy {
     padding-right: 0;
   }
   .game-title {
-    font-size: 16px;
+    font-size: 17px;
   }
   .game-option {
     gap: 12px;
@@ -3297,7 +3297,7 @@ p {
     font-size: 24px;
   }
   .artwork-caption .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .orbit-one {
     width: 330px;
@@ -3312,13 +3312,13 @@ p {
     top: 23%;
   }
   .cover-footer {
-    font-size: 8px;
+    font-size: 12px;
   }
   .cover-footer > span:last-child {
-    font-size: 11px;
+    font-size: 14px;
   }
   .cover-volume {
-    font-size: 8px;
+    font-size: 12px;
     gap: 20px;
   }
   .cover-main {
@@ -3330,7 +3330,7 @@ p {
 }
 @media (max-width: 650px) {
   :root {
-    font-size: 14px;
+    font-size: 16px;
   }
   .cover {
     padding: 0 25px;
@@ -3342,12 +3342,12 @@ p {
     height: 85px;
   }
   .brand {
-    font-size: 15px;
+    font-size: 16px;
     gap: 11px;
     letter-spacing: 2.1px;
   }
   .brand small {
-    font-size: 6px;
+    font-size: 12px;
     letter-spacing: 1.7px;
   }
   .brand-seal {
@@ -3356,7 +3356,7 @@ p {
     border-radius: 7px;
   }
   .cover-volume {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 1.2px;
     gap: 0;
   }
@@ -3373,7 +3373,7 @@ p {
     order: 1;
   }
   .cover-copy > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 1.5px;
     margin-bottom: 16px;
   }
@@ -3384,7 +3384,7 @@ p {
     margin-bottom: 16px;
   }
   .cover-intro {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.8;
     margin-bottom: 21px;
     color: #b4c3ac;
@@ -3401,22 +3401,22 @@ p {
     gap: 14px;
   }
   .game-number {
-    font-size: 9px;
+    font-size: 12px;
   }
   .game-title {
     font-size: 19px;
   }
   .game-title small {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
   .soon {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 0.6px;
     padding: 4px 5px;
   }
   .cover-note {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
     padding: 0 3px;
     margin-top: 17px;
@@ -3459,10 +3459,10 @@ p {
     gap: 9px;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 8px;
+    font-size: 12px;
   }
   .cover-footer > span:last-child {
-    font-size: 11px;
+    font-size: 14px;
   }
   .cover-footer > span:last-child span {
     margin-left: 8px;
@@ -3473,12 +3473,12 @@ p {
     gap: 10px;
   }
   .journal-brand {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1.5px;
     gap: 10px;
   }
   .journal-brand small {
-    font-size: 6px;
+    font-size: 12px;
     letter-spacing: 1.3px;
   }
   .journal-brand .brand-seal {
@@ -3494,11 +3494,11 @@ p {
     text-align: right;
   }
   .current-edition strong {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.2;
   }
   .current-edition i {
-    font-size: 6px;
+    font-size: 12px;
     letter-spacing: 1px;
     margin-top: 5px;
   }
@@ -3546,11 +3546,11 @@ p {
     padding: 13px 0 14px;
   }
   .breadcrumb {
-    font-size: 8px;
+    font-size: 12px;
     gap: 8px;
   }
   .breadcrumb > span:first-child {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 0.8px;
   }
   .page-toolbar .search-control {
@@ -3558,7 +3558,7 @@ p {
     min-height: 36px;
   }
   .search-control input {
-    font-size: 12px;
+    font-size: 15px;
     height: 34px;
   }
   .journal-main {
@@ -3569,7 +3569,7 @@ p {
     margin-bottom: 24px;
   }
   .page-heading .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 1.2px;
     margin-bottom: 12px;
   }
@@ -3580,7 +3580,7 @@ p {
     margin-bottom: 13px;
   }
   .page-heading p {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.8;
   }
   .chapter-stamp {
@@ -3592,7 +3592,7 @@ p {
     margin-bottom: 29px;
   }
   .feature-copy .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
   .feature-copy h2 {
@@ -3600,14 +3600,14 @@ p {
     margin: 13px 0;
   }
   .feature-copy p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.85;
     max-width: 340px;
     margin-bottom: 18px;
   }
   .feature-copy .button {
     min-height: 40px;
-    font-size: 10px;
+    font-size: 14px;
     padding: 9px 13px;
   }
   .feature-chart {
@@ -3629,7 +3629,7 @@ p {
     font-size: 21px;
   }
   .feature-chart > p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.6;
     margin: 0;
     max-width: 85px;
@@ -3642,7 +3642,7 @@ p {
   }
   .feature-chart > small {
     width: 100%;
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 7px;
   }
   .feature-chart > small br {
@@ -3661,7 +3661,7 @@ p {
     font-size: 23px;
   }
   .section-heading .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 0.8px;
     text-align: right;
     max-width: 135px;
@@ -3683,7 +3683,7 @@ p {
   .chapter-card-number {
     top: 21px;
     right: 14px;
-    font-size: 9px;
+    font-size: 12px;
   }
   .chapter-card h3 {
     font-size: 20px;
@@ -3692,13 +3692,13 @@ p {
     letter-spacing: -0.5px;
   }
   .chapter-card p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
     margin-bottom: 13px;
     min-height: 48px;
   }
   .chapter-card-meta {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.6;
     gap: 7px;
     padding-top: 10px;
@@ -3717,7 +3717,7 @@ p {
     font-size: 17px;
   }
   .journal-note p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.8;
   }
   .page-footer {
@@ -3726,7 +3726,7 @@ p {
     gap: 10px;
     align-items: flex-start;
     line-height: 1.7;
-    font-size: 7px;
+    font-size: 12px;
   }
   .page-footer > span:first-child {
     letter-spacing: 0.8px;
@@ -3744,7 +3744,7 @@ p {
   }
   .world-tabs a {
     padding: 8px 10px;
-    font-size: 9px;
+    font-size: 12px;
     min-height: 36px;
   }
   .collection-tools {
@@ -3758,10 +3758,10 @@ p {
     min-width: 0;
   }
   .collection-progress .progress-label {
-    font-size: 10px;
+    font-size: 14px;
   }
   .collection-progress > small {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.6;
   }
   .segmented {
@@ -3769,7 +3769,7 @@ p {
   }
   .segmented button,
   .segmented a {
-    font-size: 10px;
+    font-size: 14px;
     padding: 9px 12px;
     min-height: 38px;
   }
@@ -3783,19 +3783,19 @@ p {
   }
   .select-field select {
     min-width: 95px;
-    font-size: 10px;
+    font-size: 14px;
     min-height: 40px;
   }
   .toggle-label {
-    font-size: 9px;
+    font-size: 12px;
     gap: 7px;
   }
   .results-note {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .results-note > span {
-    font-size: 8px;
+    font-size: 12px;
     display: block;
     margin: 0;
   }
@@ -3810,7 +3810,7 @@ p {
     font-size: 23px;
   }
   .world-card-heading .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
   .world-emblem {
@@ -3821,10 +3821,10 @@ p {
     font-size: 24px;
   }
   .compact-category-heading h3 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .compact-category-heading > span {
-    font-size: 9px;
+    font-size: 12px;
   }
   .compact-category {
     padding: 15px 17px 6px;
@@ -3833,7 +3833,7 @@ p {
     min-height: 42px;
   }
   .compact-item > a {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 42px;
     padding-right: 10px;
   }
@@ -3844,12 +3844,12 @@ p {
     padding: 10px 12px;
   }
   .world-details-link {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 45px;
     margin-top: 13px;
   }
   .fine-print {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.9;
     margin-top: 21px;
   }
@@ -3863,7 +3863,7 @@ p {
     gap: 10px;
   }
   .entry-kicker {
-    font-size: 7px;
+    font-size: 12px;
     letter-spacing: 0.8px;
     line-height: 1.6;
     margin-bottom: 6px;
@@ -3880,21 +3880,21 @@ p {
     display: none;
   }
   .entry-row > p {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.9;
   }
   .prerequisite {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .entry-row-footer {
     gap: 9px;
   }
   .entry-row-footer > a {
-    font-size: 8px;
+    font-size: 12px;
   }
   .badge {
-    font-size: 7px;
+    font-size: 12px;
     padding: 4px 6px;
   }
   .category-tabs {
@@ -3903,13 +3903,13 @@ p {
   .category-tabs button {
     padding: 8px 10px;
     min-height: 38px;
-    font-size: 9px;
+    font-size: 12px;
   }
   .category-tabs button span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .reference-remaining {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 12px;
   }
   .entry-detail {
@@ -3923,7 +3923,7 @@ p {
     font-size: 24px;
   }
   .entry-detail-main p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.9;
   }
   .location-banner {
@@ -3934,23 +3934,23 @@ p {
     font-size: 19px;
   }
   .location-banner .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .entry-source-panel {
     padding: 21px;
   }
   .entry-source-panel > p,
   .source-list li a {
-    font-size: 11px;
+    font-size: 14px;
   }
   .entry-source-panel > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .source-list li small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .record-id {
-    font-size: 8px;
+    font-size: 12px;
   }
   .entry-detail-main .ingredient-list {
     margin-bottom: 20px;
@@ -3965,7 +3965,7 @@ p {
     font-size: 18px;
   }
   .related-grid small {
-    font-size: 8px;
+    font-size: 12px;
   }
   .page-heading > .check-control {
     padding: 9px 8px;
@@ -3976,7 +3976,7 @@ p {
     display: none;
   }
   .text-back {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 21px;
   }
   .workshop-intro {
@@ -3992,7 +3992,7 @@ p {
     display: block;
   }
   .workshop-intro p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
     margin-top: 8px;
   }
@@ -4008,14 +4008,14 @@ p {
   }
   .workshop-tabs > a {
     flex: 1;
-    font-size: 10px;
+    font-size: 14px;
     padding: 9px 10px;
   }
   .workshop-toolbar > .toggle-label {
-    font-size: 10px;
+    font-size: 14px;
   }
   .inventory-note {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.9;
     margin-bottom: 22px;
   }
@@ -4030,11 +4030,11 @@ p {
   }
   .recipe-filters .select-field select {
     min-width: 57px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .recipe-filters > .toggle-label {
     width: 100%;
-    font-size: 10px;
+    font-size: 14px;
     margin: 0;
     min-height: 32px;
   }
@@ -4047,33 +4047,33 @@ p {
   }
   .recipe-card .check-control {
     min-height: 38px;
-    font-size: 9px;
+    font-size: 12px;
     padding: 6px 9px;
   }
   .recipe-set {
-    font-size: 8px;
+    font-size: 12px;
   }
   .recipe-card h2 {
     font-size: 28px;
   }
   .recipe-unlock {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.8;
     min-height: 0;
     margin-bottom: 18px;
   }
   .ingredient-list li {
-    font-size: 12px;
+    font-size: 15px;
     padding: 11px 0;
   }
   .ingredient-list li > strong {
-    font-size: 13px;
+    font-size: 15px;
   }
   .recipe-plan-control {
     padding: 13px 20px;
   }
   .recipe-plan-control > label {
-    font-size: 10px;
+    font-size: 14px;
   }
   .stepper > button {
     width: 38px;
@@ -4082,7 +4082,7 @@ p {
   .stepper .quantity-control input {
     min-height: 38px;
     width: 46px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .material-card {
     padding: 18px 16px;
@@ -4094,20 +4094,20 @@ p {
     font-size: 24px;
   }
   .material-card > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .stock-field {
-    font-size: 9px;
+    font-size: 12px;
     gap: 6px;
   }
   .quantity-control input {
     width: 44px;
     min-height: 39px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .material-source-link {
     min-height: 36px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .plan-goals {
     padding: 0 12px;
@@ -4130,11 +4130,11 @@ p {
     height: 40px;
   }
   .plan-explanation {
-    font-size: 10px;
+    font-size: 14px;
     margin: 20px 0 24px;
   }
   .plan-explanation p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.9;
   }
   .plan-material {
@@ -4150,7 +4150,7 @@ p {
     margin-top: 15px;
   }
   .plan-material-figures small {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
   .plan-material-figures strong {
@@ -4160,16 +4160,16 @@ p {
     width: 50px;
   }
   .route-choice {
-    font-size: 9px;
+    font-size: 12px;
     margin-top: 10px;
   }
   .route-choice select {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 36px;
     max-width: 225px;
   }
   .plan-issues {
-    font-size: 10px;
+    font-size: 14px;
   }
   .plan-materials + .dependency-note {
     padding: 17px;
@@ -4187,7 +4187,7 @@ p {
     align-items: center;
   }
   .progress-summary-grid .eyebrow {
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
   .progress-summary-grid strong {
@@ -4200,7 +4200,7 @@ p {
     font-size: 17px;
   }
   .progress-summary-grid p {
-    font-size: 9px;
+    font-size: 12px;
     grid-column: 1;
   }
   .settings-section {
@@ -4211,7 +4211,7 @@ p {
     font-size: 25px;
   }
   .settings-section p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .settings-actions {
     flex-wrap: wrap;
@@ -4221,7 +4221,7 @@ p {
     min-width: 0;
   }
   .settings-actions .button {
-    font-size: 10px;
+    font-size: 14px;
     flex: 1;
     min-width: 130px;
     padding: 10px;
@@ -4234,7 +4234,7 @@ p {
     display: none;
   }
   .settings-section > .toggle-label {
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 7px;
   }
   .coverage-section {
@@ -4252,7 +4252,7 @@ p {
     font-size: 19px;
   }
   .coverage-row p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.9;
   }
   .coverage-count {
@@ -4263,10 +4263,10 @@ p {
     font-size: 24px;
   }
   .coverage-count strong > span {
-    font-size: 15px;
+    font-size: 16px;
   }
   .coverage-count small {
-    font-size: 7px;
+    font-size: 12px;
     line-height: 1.6;
   }
   .import-preview {
@@ -4276,18 +4276,18 @@ p {
     font-size: 24px;
   }
   .import-preview > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .import-preview .button-row > .button {
     width: 100%;
-    font-size: 10px;
+    font-size: 14px;
   }
   .save-alert {
     margin: 16px;
     flex-wrap: wrap;
     gap: 10px;
     padding: 13px;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.8;
   }
   .save-alert > p {
@@ -4295,7 +4295,7 @@ p {
   }
   .save-alert > button {
     min-height: 38px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .toast {
     bottom: 22px;
@@ -4305,7 +4305,7 @@ p {
     transform: none;
     gap: 9px;
     padding: 9px 8px 9px 12px;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.6;
     flex-wrap: wrap;
   }
@@ -4323,7 +4323,7 @@ p {
     padding-right: 15px;
   }
   .toast > button:not(.icon-button) {
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 0;
   }
   .jiminy-launcher {
@@ -4346,7 +4346,7 @@ p {
     padding-bottom: 12px;
   }
   .jiminy-label {
-    font-size: 6px;
+    font-size: 12px;
     padding: 2px 4px;
     letter-spacing: 0.7px;
     right: -1px;
@@ -4372,7 +4372,7 @@ p {
     font-size: 25px;
   }
   .jiminy-header p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .jiminy-scroll {
     padding: 17px;
@@ -4381,41 +4381,41 @@ p {
     padding: 12px;
   }
   .ai-disclaimer > p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.85;
   }
   .disclaimer-heading {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 32px;
   }
   .model-status > div {
-    font-size: 11px;
+    font-size: 14px;
   }
   .model-status > p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .model-status > small {
-    font-size: 8px;
+    font-size: 12px;
   }
   .jiminy-start h3 {
     font-size: 27px;
   }
   .jiminy-start > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .suggested-questions button {
     min-height: 46px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .jiminy-compose {
     padding: 13px 14px max(14px, env(safe-area-inset-bottom));
   }
   .jiminy-compose textarea {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.45;
   }
   .jiminy-compose textarea::placeholder {
-    font-size: 12px;
+    font-size: 15px;
   }
   .jiminy-compose form {
     padding: 10px;
@@ -4425,25 +4425,25 @@ p {
     height: 40px;
   }
   .jiminy-compose-footer {
-    font-size: 7px;
+    font-size: 12px;
   }
   .jiminy-compose-footer button {
-    font-size: 9px;
+    font-size: 12px;
     min-height: 27px;
     padding: 5px;
   }
   .answer-text {
-    font-size: 12px;
+    font-size: 15px;
   }
   .user-question {
-    font-size: 12px;
+    font-size: 15px;
   }
   .answer-citations > a {
-    font-size: 9px;
+    font-size: 12px;
     min-height: 33px;
   }
   .answer-citations > span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .jiminy-answer {
     gap: 8px;
@@ -4496,10 +4496,10 @@ p {
   }
   .chapter-card > p {
     min-height: 0;
-    font-size: 11px;
+    font-size: 14px;
   }
   .chapter-card-meta {
-    font-size: 9px;
+    font-size: 12px;
   }
   .chapter-card-icon {
     float: left;
@@ -4573,7 +4573,7 @@ p {
   }
   a[href^="http"]:after {
     content: " (" attr(href) ")";
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
@@ -4588,7 +4588,7 @@ p {
   margin: 0;
 }
 .catalog-actions .button {
-  font-size: 9px;
+  font-size: 12px;
   min-height: 38px;
   padding: 8px 12px;
 }
@@ -4608,7 +4608,7 @@ p {
     gap: 13px;
   }
   .catalog-actions .button {
-    font-size: 10px;
+    font-size: 14px;
     min-height: 42px;
   }
   .reference-remaining.select-field {
@@ -4617,7 +4617,7 @@ p {
   }
   .reference-remaining select {
     width: 100%;
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -4762,7 +4762,7 @@ p {
     width: 46px;
   }
   .jiminy-label {
-    font-size: 7px;
+    font-size: 12px;
   }
   .journal-main p,
   .entry-row > p,
@@ -4776,16 +4776,16 @@ p {
   .page-heading p,
   .plan-explanation p,
   .coverage-row p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7;
   }
   .feature-copy p,
   .chapter-card > p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.65;
   }
   .chapter-card-meta {
-    font-size: 11px;
+    font-size: 14px;
   }
   .chapter-grid {
     grid-template-columns: 1fr;
@@ -4807,7 +4807,7 @@ p {
   .results-note,
   .material-source-link,
   .entry-row-footer > a {
-    font-size: 12px;
+    font-size: 15px;
   }
   .entry-kicker,
   .prerequisite,
@@ -4819,14 +4819,14 @@ p {
   .coverage-count small,
   .collection-progress > small,
   .page-footer {
-    font-size: 10px;
+    font-size: 14px;
   }
   .search-control input,
   .select-field select,
   .quantity-control input,
   .stepper .quantity-control input,
   .route-choice select {
-    font-size: 16px;
+    font-size: 17px;
     min-height: 44px;
   }
   .search-control {
@@ -4857,20 +4857,20 @@ p {
   .jiminy-start > p,
   .answer-text,
   .user-question {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.7;
   }
   .disclaimer-heading,
   .model-status > div,
   .suggested-questions button {
-    font-size: 12px;
+    font-size: 15px;
   }
   .model-status > small,
   .jiminy-compose-footer {
-    font-size: 10px;
+    font-size: 14px;
   }
   .answer-citations > a {
-    font-size: 12px;
+    font-size: 15px;
   }
   .jiminy-compose-footer {
     align-items: center;
@@ -4878,7 +4878,7 @@ p {
     flex-wrap: wrap;
   }
   .jiminy-compose-footer button {
-    font-size: 12px;
+    font-size: 15px;
   }
   .send-question {
     width: 44px;
@@ -4888,7 +4888,7 @@ p {
     bottom: 18px;
     right: 105px;
     left: 15px;
-    font-size: 12px;
+    font-size: 15px;
     max-height: 95px;
     overflow: auto;
   }
@@ -4939,12 +4939,12 @@ p {
 /* Update availability stays within the journal's existing scroll region. */
 .app-update-notice {
   flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 .app-update-notice button {
   min-height: 44px;
-  font-size: 14px;
+  font-size: 16px;
   white-space: normal;
 }
 @media (max-width: 650px) {
@@ -4973,7 +4973,7 @@ p {
 .heading-stat {
   margin-left: auto;
   flex-shrink: 0;
-  font-size: 15px;
+  font-size: 16px;
   font-variant-numeric: tabular-nums;
   color: #435b39;
 }
@@ -4993,14 +4993,14 @@ p {
   min-height: 0;
   max-width: none;
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
 }
 .journal-page .chapter-card-meta {
   margin-top: 10px;
   padding: 0;
   border: 0;
-  font-size: 13px;
+  font-size: 15px;
 }
 .contents-backup {
   display: inline-flex;
@@ -5009,8 +5009,80 @@ p {
   margin-top: 12px;
 }
 .tool-note {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   color: #505b43;
   margin: 8px 0 16px;
+}
+
+/* Readable text with less surrounding space; touch controls retain 44px targets. */
+.journal-sidebar { padding: 20px 12px 16px; }
+.sidebar-volume { padding: 0 8px 14px; margin-bottom: 12px; }
+.chapter-nav { gap: 3px; }
+.chapter-nav a { padding: 6px 8px; min-height: 44px; gap: 8px; }
+.chapter-nav a > svg { flex-shrink: 0; }
+.sidebar-bottom { padding: 16px 8px 0; gap: 12px; }
+.page-toolbar { margin: 0 20px; min-height: 58px; gap: 12px; padding: 6px 0; }
+.journal-main { padding: 18px 20px 24px; }
+.journal-page .page-heading { margin-bottom: 12px; }
+.journal-page .chapter-card { padding: 12px; }
+.chapter-grid { gap: 10px; }
+.world-tabs, .category-tabs { gap: 5px; margin-bottom: 12px; }
+.world-tabs a, .category-tabs button { padding: 5px 9px; }
+.collection-tools { padding: 8px 0; margin-bottom: 10px; gap: 12px; flex-wrap: wrap; }
+.filter-bar { gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+.segmented button, .segmented a { padding: 5px 9px; }
+.world-card { padding: 0; margin-bottom: 0; }
+.world-grid { gap: 10px; }
+.world-card-heading { padding: 10px; margin-bottom: 0; gap: 8px; }
+.compact-category { padding: 8px 10px; margin-top: 0; }
+.compact-category-heading { margin-bottom: 6px; }
+.compact-item { padding: 0; }
+.entry-list, .recipe-grid, .material-list { gap: 10px; }
+.entry-row, .recipe-card, .material-card { padding: 12px; }
+.entry-row.recorded { padding-left: 10px; }
+.entry-row-top { gap: 10px; margin-bottom: 8px; }
+.entry-row > p, .entry-detail-main p, .material-card > p,
+.settings-section p, .plan-explanation p, .answer-text, .user-question { line-height: 1.5; }
+.entry-detail { gap: 16px; }
+.entry-detail-main > section { margin-bottom: 18px; }
+.entry-source-panel { padding: 12px; }
+.workshop-toolbar { gap: 10px; padding-bottom: 8px; margin-bottom: 8px; }
+.recipe-filters { gap: 8px; margin-bottom: 10px; }
+.recipe-unlock { margin-bottom: 8px; }
+.ingredient-list li { padding: 6px 0; }
+.recipe-plan-control { gap: 8px; padding-top: 8px; }
+.tool-note { margin: 6px 0 10px; }
+.settings-section { padding: 16px 0; gap: 14px; }
+.progress-summary-grid { gap: 10px; margin-bottom: 16px; }
+.progress-summary-grid > div { padding: 12px; }
+.coverage-row { padding: 10px 0; }
+.related-grid { gap: 8px; }
+.related-grid > a { padding: 10px; }
+.jiminy-header { padding: 14px 16px; }
+.jiminy-scroll { padding: 12px 16px; }
+.ai-disclaimer, .model-status { padding: 12px; }
+.jiminy-compose { padding: 12px 16px; }
+.jiminy-compose-footer { flex-wrap: wrap; gap: 8px; }
+.jiminy-compose-footer button { flex-shrink: 0; }
+.page-footer { margin: 12px 20px 0; padding: 12px 0; gap: 12px; flex-wrap: wrap; }
+@media (max-width: 650px) {
+  .journal-sidebar { padding: 16px 12px; overflow-y: auto; }
+  .page-toolbar { margin: 0 12px; min-height: 0; padding: 8px 0; gap: 6px; }
+  .journal-main { padding: 14px 12px 18px; }
+  .page-footer { margin: 8px 12px 0; }
+  .journal-page .chapter-card { padding: 10px; }
+  .entry-row, .recipe-card, .material-card { padding: 10px; }
+  .workshop-tabs > a { padding: 5px 6px; }
+  .workshop-tabs { flex-wrap: wrap; }
+  .segmented { max-width: 100%; }
+  .collection-tools > .segmented { flex-wrap: wrap; }
+  .filter-bar > .select-field { min-width: 0; max-width: 100%; }
+  .select-field select { min-width: 0; max-width: 100%; }
+  .recipe-filters > .search-control { min-width: 0; }
+  .jiminy-header { padding: 10px 12px; }
+  .jiminy-scroll { padding: 10px 12px; }
+  .jiminy-compose { padding: 10px 12px; }
+  .current-edition { gap: 4px; }
+  .current-edition i { letter-spacing: 0.5px; }
 }

@@ -33,3 +33,15 @@ The accepted shared rule is recorded in [Jiminy's Journal Design Direction](../u
 Removed navigation-page promotional preambles/subtitles and the oversized contents feature block. KHFM pages use compact identifying titles with relevant collection, crafting or result counts. Contents links have short factual descriptions. Synthesis retains a concise stock-behavior note; entry facts, acquisition conditions and backup instructions remain. Main-menu markup and behavior are unchanged.
 
 Production build passed. All 30 standard desktop/phone browser cases passed (two heavyweight model cases skipped). Inspected the shared contents preview and phone synthesis screenshot. The preview is refreshed for human review; passing checks do not imply human acceptance. Nothing deployed.
+
+## September 20, 2026 — Larger text, less padding
+
+**Status: Implemented locally; awaiting human review.**
+
+User feedback: most fonts throughout the app are too small and surrounded by excessive padding. Increase font sizes modestly and reduce padding.
+
+Raised body text to 16px and increased small labels, navigation, inputs, reference text and Jiminy text across responsive layouts. Reduced page, toolbar, card, category and dialog spacing. Preserved 44px interactive targets and the reserved assistant space. Media captions now use the larger base size. No content or saved-state behavior changed.
+
+Production build and all 30 standard desktop/phone browser checks passed before the final collection/assistant spacing adjustment. Desktop collection and phone synthesis screenshots inspected; final affected checks recorded below.
+
+Final build passed; all 14 affected collection, journal, assistant and navigation browser cases passed after the spacing adjustment (two heavyweight model cases skipped). Updated preview activated and visually checked. Changes remain local.
