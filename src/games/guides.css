@@ -1,0 +1,404 @@
+.multi-guide {
+  --guide-accent: #536d46;
+}
+.multi-guide .journal-page-wrap {
+  margin-right: 28px;
+  padding-bottom: 24px;
+}
+.multi-guide .journal-page {
+  min-height: 75vh;
+}
+.multi-guide .journal-sidebar {
+  bottom: 0;
+}
+.multi-guide .chapter-nav a.active {
+  background: var(--guide-accent);
+}
+.multi-guide h1,
+.multi-guide h2,
+.multi-guide .guide-expand strong {
+  font-family: Georgia, "Times New Roman", serif;
+}
+.guide-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.guide-title h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.guide-title > span {
+  white-space: nowrap;
+  color: #526c42;
+  font-size: 20px;
+}
+.guide-world-links {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0;
+}
+.guide-world-links a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.guide-world-links a strong {
+  flex: 1;
+  font:
+    22px Georgia,
+    serif;
+}
+.guide-world-links a:hover {
+  background: #e9eddc;
+}
+.guide-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+.guide-filters input,
+.guide-filters select {
+  font:
+    16px Arial,
+    sans-serif;
+  min-height: 44px;
+  min-width: 0;
+  padding: 8px;
+  background: #f7f7ed;
+  color: #435a3d;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.guide-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 180px;
+}
+.guide-search input {
+  width: 100%;
+}
+.guide-list-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 4px 0;
+}
+.multi-guide button {
+  cursor: pointer;
+}
+.multi-guide button:disabled,
+.multi-guide input:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+.guide-list-tools button,
+.guide-farm-add,
+.guide-backup-actions > button,
+.guide-import {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #edf0e2;
+  padding: 6px 10px;
+  color: #435c39;
+  font:
+    16px Arial,
+    sans-serif;
+}
+.guide-group {
+  margin: 14px 0;
+}
+.guide-group > h2 {
+  font-size: 24px;
+  color: #536c43;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 6px;
+}
+.guide-group > h2 span {
+  font:
+    18px Arial,
+    sans-serif;
+}
+.guide-row {
+  margin: 6px 0;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+}
+.guide-row-head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.guide-row-head > h2 {
+  flex: 1;
+  margin: 0;
+  font-size: 23px;
+}
+.guide-check {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+.guide-check input {
+  accent-color: var(--guide-accent);
+  width: 20px;
+  height: 20px;
+}
+.guide-expand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 4px;
+  color: var(--ink);
+  text-align: left;
+  font-size: 17px;
+}
+.guide-expand strong {
+  font-size: 22px;
+  font-weight: normal;
+}
+.guide-expand small {
+  display: block;
+  font:
+    16px Arial,
+    sans-serif;
+  color: #65715c;
+  margin-top: 3px;
+}
+.guide-expand svg {
+  flex: none;
+  color: #6c7c56;
+}
+.guide-farm-add {
+  flex: none;
+  margin: 4px 0;
+}
+.guide-row > .guide-farm-add {
+  display: block;
+  margin-left: auto;
+}
+.guide-details {
+  border-top: 1px solid var(--line);
+  padding: 8px 2px 2px;
+  margin-top: 8px;
+  font-size: 17px;
+  line-height: 1.55;
+  color: #526546;
+}
+.guide-details p {
+  margin: 4px 0 12px;
+  white-space: pre-line;
+}
+.guide-details dl {
+  margin: 0;
+}
+.guide-details dl > div,
+.guide-coverage > div {
+  display: grid;
+  grid-template-columns: 135px minmax(0, 1fr);
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid var(--line);
+}
+.guide-details dt {
+  font:
+    18px Georgia,
+    serif;
+  color: #425d3b;
+}
+.guide-details dd,
+.guide-coverage dd {
+  margin: 0;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.guide-drops {
+  font:
+    16px/1.5 Arial,
+    sans-serif;
+  color: #65715b;
+  margin: 4px 0;
+}
+.guide-drops strong {
+  color: #536f42;
+  font-weight: normal;
+}
+.guide-quantity {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+.guide-quantity input {
+  width: 68px;
+  min-height: 44px;
+  padding: 6px;
+  border: 1px solid var(--line);
+  background: #fffff5;
+  color: #435e37;
+  font-size: 17px;
+}
+.guide-farm-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  margin: 10px 0;
+}
+.more-info {
+  width: auto;
+  max-width: 160px;
+}
+.guide-ingredient {
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+.guide-ingredient summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.guide-backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.guide-import {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.guide-import input {
+  max-width: 240px;
+  font-size: 16px;
+}
+.multi-guide :focus-visible {
+  outline: 2px solid var(--guide-accent);
+  outline-offset: 3px;
+}
+@media (max-width: 1000px) {
+  .guide-row-head {
+    flex-wrap: wrap;
+  }
+  .guide-row-head > .guide-farm-add {
+    margin-left: auto;
+  }
+  .guide-expand {
+    flex-basis: 55%;
+  }
+}
+@media (max-width: 650px) {
+  .multi-guide .journal-shell {
+    padding-bottom: 0;
+    height: calc(100dvh - 66px);
+  }
+  .multi-guide .journal-page-wrap {
+    margin: 0;
+    padding-bottom: 12px;
+  }
+  .multi-guide .journal-page {
+    padding: 16px 12px;
+  }
+  .multi-guide .current-edition {
+    max-width: 45%;
+  }
+  .guide-title h1 {
+    font-size: 27px;
+  }
+  .guide-title {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .guide-filters > * {
+    max-width: 100%;
+  }
+  .guide-filters select {
+    flex: 1;
+  }
+  .guide-details dl > div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .guide-expand strong {
+    font-size: 21px;
+  }
+  .guide-row {
+    padding: 6px;
+  }
+  .guide-row-head {
+    gap: 4px;
+  }
+  .guide-world-links a strong {
+    font-size: 21px;
+  }
+  .guide-world-links a {
+    padding: 10px;
+  }
+  .multi-guide .journal-sidebar {
+    padding-bottom: 24px;
+  }
+}
+.guide-character {
+  display: block;
+  font:
+    16px Arial,
+    sans-serif;
+  color: #66745d;
+  margin-top: 4px;
+}
+.multi-guide .journal-topbar,
+.multi-guide .journal-sidebar {
+  background: color-mix(in srgb, var(--guide-accent) 42%, #102d25);
+}
+.multi-guide .chapter-nav a.active {
+  background: color-mix(in srgb, var(--guide-accent) 78%, #f0e8d0);
+  color: #fffbea;
+}
+.multi-guide .guide-group > h2 {
+  color: var(--guide-accent);
+}
+.multi-guide .journal-page {
+  padding: 20px;
+}
+.guide-filters select {
+  min-width: 130px;
+}
+@media (max-width: 650px) {
+  .journal-app.multi-guide {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .multi-guide .journal-page {
+    padding: 16px 12px;
+  }
+  .guide-filters .guide-search {
+    flex: 1 0 100%;
+  }
+  .guide-filters select {
+    flex: 1 1 130px;
+  }
+}

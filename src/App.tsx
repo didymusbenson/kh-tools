@@ -1,3 +1,6 @@
+import { loadProfile } from './games/profile';
+import GuideLoader from './games/GuideLoader';
+import { guideLoaders } from './games/registry';
 import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { GameData, GuideEntry, PlayerState } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
@@ -220,6 +223,7 @@ export default function App() {
       alive = false;
     };
   }, []);
+  if (guideLoaders[route.split("/")[0]]) return <GuideLoader id={route.split("/")[0]} route={route} updateNotice={<UpdateNotice />} />;
   if (!route.startsWith("kh1fm")) return <Cover data={data} />;
   if (!data)
     return (
@@ -251,7 +255,7 @@ const games = [
     edition: "Final Mix",
     number: "II",
     art: "kh2fm.png",
-    ready: false,
+    ready: true,
   },
   {
     id: "bbsfm",
@@ -259,7 +263,7 @@ const games = [
     edition: "Final Mix",
     number: "BBS",
     art: "bbs.jpg",
-    ready: false,
+    ready: true,
   },
   {
     id: "dddhd",
@@ -267,7 +271,7 @@ const games = [
     edition: "HD",
     number: "DDD",
     art: "ddd.png",
-    ready: false,
+    ready: true,
   },
   {
     id: "kh02",
@@ -275,7 +279,7 @@ const games = [
     edition: "Kingdom Hearts 0.2",
     number: "0.2",
     art: "",
-    ready: false,
+    ready: true,
   },
   {
     id: "kh3",
@@ -283,7 +287,7 @@ const games = [
     edition: "& Re Mind",
     number: "III",
     art: "",
-    ready: false,
+    ready: true,
   },
 ];
 function ResumeGame({ data }: { data: GameData }) {
@@ -296,6 +300,12 @@ function ResumeGame({ data }: { data: GameData }) {
       Resume last page <Icon name="arrow" size={16} />
     </a>
   );
+}
+
+function ResumeOtherGame({id}:{id:string}) {
+  const [saved,setSaved]=useState<{route:string;name:string}|null>(null);
+  useEffect(()=>{let active=true;setSaved(null);if(guideLoaders[id])void guideLoaders[id]().then(async module=>{const state=await loadProfile(module.default);if(active)setSaved({route:state.route,name:module.default.name})}).catch(()=>{});return()=>{active=false}},[id]);
+  return saved?<a className="cover-cta" href={`#/${saved.route}`}>Resume {saved.name}<Icon name="arrow" size={16}/></a>:null;
 }
 
 function Cover({ data }: { data: GameData | null }) {
@@ -360,7 +370,7 @@ function Cover({ data }: { data: GameData | null }) {
                 onFocus={() => setSelected(g.id)}
                 onClick={() => {
                   setSelected(g.id);
-                  if (g.ready) routeTo("kh1fm/contents");
+                  if (g.ready) routeTo(`${g.id}/worlds`);
                 }}
                 aria-label={`${g.name} ${g.edition}${g.ready ? ", open journal" : ", journal not yet available"}`}
               >
@@ -380,11 +390,9 @@ function Cover({ data }: { data: GameData | null }) {
             ))}
           </nav>
           <p className="cover-note">
-            {previous === "kh1fm"
-              ? "Welcome back. Your KH1 Final Mix journal is ready."
-              : "Begin with Kingdom Hearts Final Mix. More volumes are in preparation."}
+            {previous ? "Choose a journal to continue." : "Choose a game."}
           </p>
-          {data && <ResumeGame data={data} />}
+          {previous && previous!=="kh1fm" ? <ResumeOtherGame id={previous}/> : data && <ResumeGame data={data} />}
         </section>
         <section
           className="artwork-stage"
@@ -407,12 +415,12 @@ function Cover({ data }: { data: GameData | null }) {
           )}
           <div className="artwork-caption">
             <span className="eyebrow gold">
-              {game.ready ? "The first volume" : "A future volume"}
+              {game.edition}
             </span>
             <h2>{game.name}</h2>
             <p>{game.edition}</p>
             {game.ready ? (
-              <a href="#/kh1fm/contents" className="cover-cta">
+              <a href={`#/${game.id}/worlds`} className="cover-cta">
                 Open the journal <Icon name="arrow" size={18} />
               </a>
             ) : (
@@ -1072,6 +1080,7 @@ function Synthesis({
               key={id}
               className={tab === id ? "active" : ""}
               href={`#/kh1fm/synthesis/${id}`}
+              aria-current={tab === id ? "page" : undefined}
             >
               {text}
             </a>
@@ -1291,7 +1300,7 @@ function Settings({
         <div>
           <h2>Saved on this device</h2>
           <p>
-            Checks, material stock, and craft quantities save locally. Clearing
+            Checks, material stock, and farming targets save locally. Clearing
             browser data can remove them. A backup lets you restore your
             journal.
           </p>
@@ -1390,7 +1399,7 @@ function Settings({
           <h2>Restore this Kingdom Hearts Final Mix backup?</h2>
           <p>
             This replaces this device’s current KH1FM checks, material stock,
-            and craft plan. A recovery snapshot is kept before the replacement.
+            and farming targets. A recovery snapshot is kept before the replacement.
           </p>
           <dl className="facts-list">
             <div>

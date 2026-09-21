@@ -185,3 +185,7 @@ User requested non-percentage conditional drops show only “Conditional” in c
 User requested a visual cleanup after the functional changes, highlighting oversized recipe action buttons and loose layout. Consolidated recipe count and expansion control into one toolbar, removed duplicated crafted totals, moved completion checks to the leading edge, and aligned compact farming actions beside recipe/material content where width allows. Narrow layouts keep right-aligned content-sized actions. Applied consistent paper surfaces, sage borders, detail separators, family headings and field spacing across the workshop. Preserve readable text, touch targets and journal typography.
 
 Verification: production build and all 20 targeted desktop/phone browser checks passed. Inspected the refreshed shared recipe view and phone layout, plus farming-plan screenshots. Changes saved locally; no deployment.
+
+## September 20–21, 2026 — Propagate refinements to every game
+
+User requested documenting the session lessons and assigning every game an implementation pass, excluding Data Jiminy. Proceed autonomously with design decisions; the next review will use the same feedback process. The [playbook](refinement-playbook.md) is the governing presentation contract and [rollout status](multi-game-rollout.md) records actual implementation, validation and content limitations.
