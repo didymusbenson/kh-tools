@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 test("material stock is always available and zero remains distinct from unknown after reload", async ({ page }) => {
   await page.goto("./#/kh1fm/synthesis/materials");
   await expect(page.getByRole("checkbox", { name: "Track owned materials" })).toHaveCount(0);
-  await expect(page.getByRole("link", { name: "Planning", exact: true })).toHaveAttribute("href", "#/kh1fm/synthesis/plan");
+  await expect(page.getByRole("link", { name: "Farming Plan", exact: true })).toHaveAttribute("href", "#/kh1fm/synthesis/plan");
   const stock = page.locator("#row-kh1fm-material-blaze-shard").getByRole("textbox", { name: "Blaze Shard owned stock; blank means unknown", exact: true });
   await expect(stock).toBeVisible();
   await expect(stock).toHaveValue("");
@@ -45,5 +45,7 @@ test("collapsed materials show drop rates and locations within contiguous famili
   await expect(frost.locator("#row-kh1fm-material-blaze-gem")).toHaveCount(0);
   await shard.locator("h3 button").click();
   await expect(shard.locator(".entry-inline-details")).toBeVisible();
-  await expect(shard.locator(".entry-inline-details")).not.toContainText("Lucky Strike");
+  for (const paragraph of await shard.locator(".entry-inline-details > .entry-details-content > p").all()) {
+    await expect(paragraph).not.toContainText("Lucky Strike");
+  }
 });

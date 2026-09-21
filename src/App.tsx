@@ -1,10 +1,6 @@
-import { createContext, useContext, useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
-import type { GameData, GuideEntry, PlayerState, Recipe } from "./domain/types";
+import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import type { GameData, GuideEntry, PlayerState } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
-import {
-  calculatePlan,
-  getMaterialRoutes,
-} from "./domain/planner";
 import { collectibleProgress } from "./domain/progress";
 import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
@@ -824,11 +820,11 @@ function CategoryExpansion({ entries }: { entries: GuideEntry[] }) {
   const allOpen = entries.length > 0 && entries.every(e => expanded.has(e.id));
   return <button className="category-expansion" onClick={() => setMany(entries.map(e => e.id), !allOpen)}>{allOpen ? "Collapse all" : "Expand all"}</button>;
 }
-function EntryToggle({ entry, children }: { entry: GuideEntry; children?: ReactNode }) {
+function EntryToggle({ entry, children, ariaLabel }: { entry: GuideEntry; children?: ReactNode; ariaLabel?: string }) {
   const { data, expanded, toggle } = useContext(ExpansionContext);
   const duplicate = data.entries.some(e => e.id !== entry.id && e.name === entry.name && e.world === entry.world);
   const landmark = duplicate && entry.category === "trinity" ? entry.instructions.split(". ")[1] : "";
-  return <button className="entry-toggle" aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
+  return <button className="entry-toggle" aria-label={ariaLabel} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
     <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
   </button>;
 }
@@ -1038,19 +1034,17 @@ function Synthesis({
     : "recipes";
   const [setFilter, setSetFilter] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:set", "all"),
     [query, setQuery] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:query", ""),
-    [completion, setCompletion] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:completion", "all"),
-    [savedRoutes, setSavedRoutes] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:routes", "{}");
+    [completion, setCompletion] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:completion", "all");
   const remaining = completion === "remaining";
-  const routes = useMemo<Record<string, string>>(() => {
-    try {
-      const parsed = JSON.parse(savedRoutes);
-      if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
-      return Object.fromEntries(Object.entries(parsed).filter(([itemId, route]) =>
-        typeof route === "string" && (route === "gather" || getMaterialRoutes(data.recipes, itemId).some((r) => r.id === route)),
-      )) as Record<string, string>;
-    } catch { return {}; }
-  }, [savedRoutes, data.recipes]);
-  const setRoutes = (next: Record<string, string>) => setSavedRoutes(JSON.stringify(next));
+  const [farmNotice, setFarmNotice] = useState("");
+  const [adding, setAdding] = useState(false);
+  useEffect(() => { setFarmNotice(""); }, [initialTab]);
+  async function addToFarm(action: () => Promise<void>, message: string) {
+    setAdding(true);
+    try { await action(); setFarmNotice(message); }
+    catch(error) { setFarmNotice(error instanceof Error ? error.message : "Could not update the farming plan."); }
+    finally { setAdding(false); }
+  }
   const recipes = data.recipes.filter(
     (r) =>
       r.entryId === focusId || ((setFilter === "all" || r.set === Number(setFilter)) &&
@@ -1058,24 +1052,9 @@ function Synthesis({
       ((expanded.has(r.entryId) && retained.has(r.entryId)) || !remaining || !state.checks[r.entryId])),
   );
   const materials = data.entries.filter((e) => e.category === "material").sort(compareMaterials);
-  const plan = useMemo(
-    () =>
-      calculatePlan(data.recipes, state.plan, state.inventory, {
-        inventoryEnabled: state.inventoryEnabled,
-        routeChoices: routes,
-        mode: state.planMode ?? "selected",
-      }),
-    [
-      data.recipes,
-      state.plan,
-      state.inventory,
-      state.inventoryEnabled,
-      state.planMode,
-      routes,
-    ],
-  );
-  const selected = data.recipes.filter((r) => state.plan[r.id] > 0);
-  const planCount = Object.values(state.plan).reduce((sum, n) => sum + n, 0);
+  const farmPlan = state.farmPlan || {};
+  const plannedMaterials = materials.filter(e=>(farmPlan[e.id] || 0) > 0);
+  const planCount = plannedMaterials.length;
   return (
     <>
       <PageTitle title="Synthesis" aside={<span className="heading-stat">{data.recipes.filter((r) => state.checks[r.entryId]).length}/{data.recipes.length} crafted</span>} />
@@ -1087,7 +1066,7 @@ function Synthesis({
           {[
             ["recipes", "Recipes"],
             ["materials", "Materials"],
-            ["plan", `Planning${planCount ? ` · ${planCount}` : ""}`],
+            ["plan", `Farming Plan${planCount ? ` · ${planCount}` : ""}`],
           ].map(([id, text]) => (
             <a
               key={id}
@@ -1100,7 +1079,8 @@ function Synthesis({
         </div>
 
       </div>
-      <p className="tool-note">{tab === "materials" ? "Enter owned stock; blank means unknown. Changes save when you leave the field." : "Counts show owned / required; ? means unknown. Marking a recipe crafted does not deduct stock."}</p>
+      <p className="tool-note">{tab === "materials" ? "Enter owned stock; blank means unknown. Changes save when you leave the field." : tab === "plan" ? "Targets are total stock to have; remaining is target minus owned. Blank stock means unknown." : "Counts show owned / required; ? means unknown. Marking a recipe crafted does not deduct stock."}</p>
+      {farmNotice && <p className="tool-note" role="status">{farmNotice}</p>}
       {tab === "recipes" ? (
         <>
           <div className="recipe-filters">
@@ -1146,22 +1126,7 @@ function Synthesis({
               {data.recipes.filter((r) => state.checks[r.entryId]).length}/
               {data.recipes.length} historically crafted
             </div>
-            <button
-              className="button button-secondary"
-              onClick={async () => {
-                await player.setPlanGoals(
-                  Object.fromEntries(
-                    data.recipes
-                      .filter((r) => !state.checks[r.entryId])
-                      .map((r) => [r.id, 1]),
-                  ),
-                  "first-craft",
-                );
-                routeTo("kh1fm/synthesis/plan");
-              }}
-            >
-              Plan all uncrafted recipes <Icon name="arrow" size={15} />
-            </button>
+
           </div>
           <CategoryExpansion entries={recipes.flatMap(r => data.entries.filter(e=>e.id === r.entryId))} />
           <div className="recipe-grid">
@@ -1177,40 +1142,7 @@ function Synthesis({
                     {entry && <Check compact entry={entry} state={state} onToggle={onToggle} />}
                   </div>
                   {entry && <InlineDetails entry={entry} state={state} />}
-                  <div className="recipe-plan-control">
-                    <label>Craft plan quantity</label>
-                    <div className="stepper">
-                      <button
-                        aria-label={`Remove one ${recipe.name} from plan`}
-                        disabled={!state.plan[recipe.id]}
-                        onClick={() =>
-                          player.setPlan(
-                            recipe.id,
-                            Math.max(0, (state.plan[recipe.id] || 0) - 1),
-                          )
-                        }
-                      >
-                        <Icon name="minus" size={15} />
-                      </button>
-                      <Quantity
-                        name={`${recipe.name} craft plan quantity`}
-                        value={state.plan[recipe.id] || 0}
-                        onChange={(n) => player.setPlan(recipe.id, n || 0)}
-                      />
-                      <button
-                        aria-label={`Add one ${recipe.name} to plan`}
-                        disabled={(state.plan[recipe.id] || 0) >= 9999}
-                        onClick={() =>
-                          player.setPlan(
-                            recipe.id,
-                            (state.plan[recipe.id] || 0) + 1,
-                          )
-                        }
-                      >
-                        <Icon name="plus" size={15} />
-                      </button>
-                    </div>
-                  </div>
+                  <button className="button button-secondary farm-add-button" disabled={adding} aria-label={`Add ${recipe.name} ingredients to farming plan`} onClick={()=>addToFarm(()=>player.addRecipeToFarmPlan(recipe.id), `Added ingredients for one ${recipe.name} craft to the farming plan.`)}>Add to farming plan</button>
                 </article>
               );
             })}
@@ -1233,6 +1165,7 @@ function Synthesis({
                     </div>
                     <label className="stock-field"><span>Owned</span><Quantity unknown value={state.inventory[e.id]} name={`${e.name} owned stock; blank means unknown`} onChange={n=>player.setInventory(e.id,n)} /></label>
                   </div>
+                  <button className="button button-secondary farm-add-button" disabled={adding || (farmPlan[e.id] || 0) > 0} aria-label={`Add ${e.name} to farming plan`} onClick={()=>addToFarm(()=>player.addMaterialToFarmPlan(e.id), `${e.name} added with a target of 1. Edit the target in Farming Plan.`)}>{(farmPlan[e.id] || 0) > 0 ? "In farming plan" : "Add to farming plan"}</button>
                   <InlineDetails entry={e} state={state} compactMaterial />
                 </article>)}
               </section>;
@@ -1241,170 +1174,27 @@ function Synthesis({
         </>
       ) : (
         <>
-          <div className="section-heading">
-            <h2>Planning</h2>
-            <span className="eyebrow">{selected.length} selected recipes</span>
-          </div>
-          {selected.length === 0 ? (
-            <div className="empty-state">
-              <Icon name="spark" size={30} />
-              <h3>No recipes selected</h3>
-              <p>
-                Add quantities from the recipe catalog to build your material
-                plan.
-              </p>
-              <a href="#/kh1fm/synthesis/recipes" className="button">
-                Browse recipes <Icon name="arrow" size={16} />
-              </a>
-            </div>
-          ) : (
-            <>
-              <div className="plan-goals">
-                {selected.map((r) => (
-                  <div className="plan-goal" key={r.id}>
-                    <a href={resolveEntryHref(data, r.entryId)}>{r.name}</a>
-                    <label>
-                      <span>Crafts</span>
-                      <Quantity
-                        value={state.plan[r.id]}
-                        name={`${r.name} planned craft quantity`}
-                        onChange={(n) => player.setPlan(r.id, n || 0)}
-                      />
-                    </label>
-                    <button
-                      className="icon-button"
-                      onClick={() => player.setPlan(r.id, 0)}
-                      aria-label={`Remove ${r.name} from craft plan`}
-                    >
-                      <Icon name="close" size={16} />
-                    </button>
+          <div className="section-heading"><h2>Farming Plan</h2><span>{planCount} {planCount === 1 ? "material" : "materials"}</span></div>
+          {plannedMaterials.length === 0 ? <Empty>Add materials or recipe ingredients to start a farming plan.</Empty> :
+            <div className="material-list farm-plan-list">{uniq(plannedMaterials.map(materialFamily)).map(family => <section className="material-family" key={family}>
+              <div className="compact-category-heading"><h2>{family}</h2></div>
+              {plannedMaterials.filter(e=>materialFamily(e)===family).map(e=> {
+                const target = farmPlan[e.id];
+                const owned = state.inventory[e.id];
+                const needed = owned === undefined ? null : Math.max(0,target-owned);
+                return <article className="material-card farm-plan-row" id={`row-${e.id}`} key={e.id}>
+                  <div className="farm-row-heading"><h3>{e.name}</h3><button className="icon-button" aria-label={`Remove ${e.name} from farming plan`} onClick={()=>player.setFarmTarget(e.id,0)}><Icon name="close" size={16} /></button></div>
+                  <div className="material-drop-summary">{materialDropLines(e).map((line,i)=><p key={i}>{line.replace(/\.$/, "")}<span className="material-location">{materialDropLocation(e,line) && ` — ${materialDropLocation(e,line)}`}</span></p>)}</div>
+                  <div className="farm-target-controls">
+                    <label><span>Target</span><Quantity value={target} name={`${e.name} target stock`} onChange={n=>player.setFarmTarget(e.id,n || 0)} /></label>
+                    <label><span>Owned</span><Quantity unknown value={owned} name={`${e.name} owned stock`} onChange={n=>player.setInventory(e.id,n)} /></label>
+                    <div className={needed === 0 ? "stock-enough" : "needed-count"}><span>Remaining</span><strong aria-label={`${e.name}: ${needed === null ? "unknown" : needed} remaining`}>{needed === null ? "?" : needed}</strong></div>
                   </div>
-                ))}
-              </div>
-              <div className="plan-explanation">
-                <Icon name="info" size={19} />
-                <p>
-                  Stock is shared across the selected recipes. Required prerequisite crafts are included. Unknown stock keeps the totals provisional.
-                </p>
-              </div>
-              {plan.issues.length > 0 && (
-                <div className="plan-issues" role="status">
-                  <strong>
-                    {plan.valid ? "Calculation notes" : "Check this plan"}
-                  </strong>
-                  {plan.issues.map((issue, i) => (
-                    <p key={i}>{issue.message}</p>
-                  ))}
-                </div>
-              )}
-              <div className="section-heading">
-                <h2>
-                  Materials still needed
-                </h2>
-                {plan.provisional && (
-                  <span className="badge badge-unresolved">
-                    Provisional · check unknown quantities
-                  </span>
-                )}
-              </div>
-              <div className="plan-materials">
-                {plan.materials.map((m) => {
-                  const options = getMaterialRoutes(data.recipes, m.itemId);
-                  return (
-                    <div className="plan-material" key={m.itemId}>
-                      <div className="plan-material-name">
-                        <a href={resolveEntryHref(data, m.itemId)}>
-                          {m.name}
-                          <Icon name="arrow" size={14} />
-                        </a>
-                        {options.length > 0 && (
-                          <label className="route-choice">
-                            <span>Acquire by</span>
-                            <select
-                              aria-label={`${m.name} acquisition route`}
-                              value={
-                                routes[m.itemId] ||
-                                (options.length === 1 ? options[0].id : "")
-                              }
-                              onChange={(e) =>
-                                setRoutes({
-                                  ...routes,
-                                  [m.itemId]: e.target.value,
-                                })
-                              }
-                            >
-                              {options.length > 1 && (
-                                <option value="">Choose a route</option>
-                              )}
-                              <option value="gather">
-                                Gather / already obtained
-                              </option>
-                              {options.map((r) => (
-                                <option key={r.id} value={r.id}>
-                                  Synthesize · {r.name}
-                                </option>
-                              ))}
-                            </select>
-                          </label>
-                        )}
-                      </div>
-                      <div className="plan-material-figures">
-                        <span>
-                          <small>Required</small>
-                          <strong>{m.required}</strong>
-                        </span>
-                        {state.inventoryEnabled && (
-                          <label>
-                            <small>Owned</small>
-                            <Quantity
-                              unknown
-                              value={state.inventory[m.itemId]}
-                              name={`${m.name} owned stock`}
-                              onChange={(n) => player.setInventory(m.itemId, n)}
-                            />
-                          </label>
-                        )}
-                        {m.crafted > 0 && (
-                          <span>
-                            <small>Crafted in plan</small>
-                            <strong>{m.crafted}</strong>
-                          </span>
-                        )}
-                        <span
-                          className={
-                            m.missing === 0 ? "stock-enough" : "needed-count"
-                          }
-                        >
-                          <small>
-                            To gather
-                          </small>
-                          <strong>
-                            {m.missing === null ? "?" : m.missing}
-                          </strong>
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-              {plan.crafts.some((c) => c.prerequisite > 0) && (
-                <div className="dependency-note">
-                  <h3>Included prerequisite crafts</h3>
-                  {plan.crafts
-                    .filter((c) => c.prerequisite > 0)
-                    .map((c) => (
-                      <p key={c.recipeId}>
-                        {c.name} × {c.prerequisite}
-                      </p>
-                    ))}
-                  <small>
-                    Only the shortfall is synthesized. These crafts do not
-                    automatically mark your catalog complete.
-                  </small>
-                </div>
-              )}
-            </>
-          )}
+                  <EntryToggle entry={e} ariaLabel={`More info about ${e.name}`}>More info</EntryToggle>
+                  <InlineDetails entry={e} state={state} compactMaterial />
+                </article>;
+              })}
+            </section>)}</div>}
         </>
       )}
     </>
@@ -1617,8 +1407,8 @@ function Settings({
               <dd>{preview.inventoryItems}</dd>
             </div>
             <div>
-              <dt>Planned recipes</dt>
-              <dd>{preview.plannedRecipes}</dd>
+              <dt>Farming targets</dt>
+              <dd>{preview.farmingTargets}</dd>
             </div>
           </dl>
           {preview.warnings.map((w, i) => (

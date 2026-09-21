@@ -88,7 +88,7 @@ Production build and 57 unit tests passed. Final browser suite: 40 passed on des
 
 ## September 20, 2026 — Category menu and world hub
 
-**Status: Accepted direction; implementation and human review pending.**
+**Status: Implemented locally; awaiting human review.**
 
 ### Exact primary navigation
 
@@ -150,3 +150,28 @@ User requested Recipes → Materials → Planning tab order, with Planning repla
 Implementation preserves blank-as-unknown versus explicit zero, existing inventory quantities and craft plans, and compatibility with older backup schema. Material display uses the existing sourced drop data without inventing rates for conditional encounters. Repeated generic reset/ability boilerplate is omitted; ability entries remain available in Reference. Non-farmable sources and detailed crafting/encounter requirements remain in expanded content.
 
 Verification: production build passed. All 59 unit tests passed, including legacy inventory migration and backup/recovery preservation. Browser suite: 52 passed on desktop/phone, two optional heavyweight model cases skipped. Verified collapsed drops/locations, family grouping, editable unknown/zero stock, tab naming and existing planning workflows. Shared materials preview visually inspected.
+
+## September 20, 2026 — Material targets and a self-contained farming plan
+
+**Status: Implemented locally; awaiting human review.**
+
+The Farming Plan tab tracks **material targets**, not a queue of recipes to craft.
+
+- Adding a recipe adds its direct ingredient quantities for one craft to the existing material targets. Repeated additions are additive; shared ingredients accumulate into one target for that material.
+- Adding a material directly gives it a target of 1 if it is absent. An existing target is preserved rather than reset.
+- Each planned material shows editable target and owned quantities, plus its remaining quantity.
+- Preserve unknown stock as distinct from confirmed zero. A blank owned count must not silently become zero or produce a falsely exact remaining quantity.
+- Keep the useful farming information on the Planning page: source/drop rules, farming location and the complete expandable material details. Players should not have to navigate away to assemble a farming plan.
+- Craftable materials retain their synthesis requirements and acquisition alternatives within those inline details. Do not turn a direct-ingredient addition into an unrequested recursive recipe queue or automatically consume inventory.
+
+### Acceptance checks
+
+- Add a recipe twice and verify each direct ingredient target increases twice by the recipe quantity; common material IDs merge into one target.
+- Add a new material and verify target 1; add it again and verify the existing target is preserved.
+- Change target or owned stock and verify remaining quantities, including unknown, zero, exact and surplus stock.
+- Open a planned material's details without leaving Planning and verify its complete source conditions, locations, tactics and crafting alternatives are available.
+- Preserve saved stock, meaningful planning data, and historical crafted checks through the planning change. Historical checks do not consume materials.
+
+Implementation: collapsed recipe/material cards have Add to farming plan actions. Existing recipe goals migrate once into summed direct ingredient targets; saved inventory and historical completion stay intact. Targets persist through backups, recovery, undo and concurrent tabs. Removing a target preserves stock. More info embeds material tactics, source-enemy/guide details, and synthesis options with expandable ingredient sources (including Dark Matter → Mythril), with cycle guards and no automatic recursive target additions.
+
+Verification: production build and 65 unit tests passed, including migration, import/recovery, additive target transactions, undo, overflow bounds and concurrent tabs. All 56 standard desktop/phone browser cases passed across the full run and corrected-test reruns; two optional heavyweight model cases skipped. Confirmed target/owned/remaining math, persisted removal, no stock loss, collapsed source details, and nested Dark Matter/Mythril information without leaving the plan. Desktop/phone screenshots inspected. Final copy cleanup clears stale add notices on tab changes. Changes remain local.

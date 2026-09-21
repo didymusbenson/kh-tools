@@ -49,3 +49,23 @@
 @media (max-width: 480px) {
   .entry-details-facts > div { grid-template-columns: 1fr; gap: 2px; }
 }
+.material-crafting-option { padding-top: 8px; border-top: 1px solid var(--line); }
+.entry-details-ingredient-list > .material-crafting-ingredient {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  padding: 8px 0;
+}
+.material-crafting-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; }
+.material-ingredient-sources { color: #68725e; }
+.material-ingredient-sources span { color: #5a7049; }
+.material-source-details { min-width: 0; }
+.material-source-details > summary {
+  cursor: pointer;
+  color: #526d40;
+  min-height: 44px;
+  padding: 8px 0;
+}
+.material-source-details > summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 2px; }
+.material-source-details > .entry-details-content { border-left: 2px solid var(--line); padding: 4px 0 8px 12px; }
+.entry-details-related li.material-related-source { flex: 1 0 100%; min-width: 0; }

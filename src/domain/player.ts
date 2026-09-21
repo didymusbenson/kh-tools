@@ -7,6 +7,7 @@ export interface ImportPreview {
   checked: number;
   inventoryItems: number;
   plannedRecipes: number;
+  farmingTargets: number;
   updatedAt: string;
   warnings: string[];
 }
@@ -18,6 +19,7 @@ export function emptyPlayerState(): PlayerState {
     inventoryEnabled: true,
     inventory: {},
     plan: {},
+    farmPlan: {},
     planMode: "selected",
     lastRoute: "#/kh1fm/contents",
     updatedAt: new Date(0).toISOString(),
@@ -48,6 +50,28 @@ export function inventoryIds(data: GameData): Set<string> {
       ...r.ingredients.map((i) => i.itemId),
     ]),
   ]);
+}
+export function farmingMaterialIds(data: GameData): Set<string> {
+  return new Set([
+    ...data.entries.filter((entry) => entry.category === "material").map((entry) => entry.id),
+    ...data.recipes.flatMap((recipe) => recipe.ingredients.map((ingredient) => ingredient.itemId)),
+  ]);
+}
+/** Convert legacy recipe goals exactly once, after the matching guide is available. */
+export function initializeFarmPlan(state: PlayerState, data: GameData): PlayerState {
+  if (state.farmPlan !== undefined) return state;
+  const farmPlan: Record<string, number> = {};
+  for (const recipe of data.recipes) {
+    const crafts = state.plan[recipe.id] || 0;
+    if (!crafts) continue;
+    for (const ingredient of recipe.ingredients) {
+      const target = (farmPlan[ingredient.itemId] || 0) + crafts * ingredient.quantity;
+      if (!validQuantity(target))
+        throw new Error(`The legacy farming target for ${ingredient.name} exceeds ${MAX_QUANTITY}. Reduce its recipe goals before importing.`);
+      if (target) farmPlan[ingredient.itemId] = target;
+    }
+  }
+  return { ...state, farmPlan };
 }
 /** Only explicitly verified shared acquisitions are linked; prerequisite relationships never imply a shared check. */
 export function acquisitionGroups(data: GameData): Map<string, string[]> {
@@ -115,11 +139,14 @@ export function validatePlayerState(
   const checks: Record<string, boolean> = {};
   const inventory: Record<string, number> = {};
   const plan: Record<string, number> = {};
+  const farmPlan: Record<string, number> = {};
   const checkIds =
     data && new Set(data.entries.filter((e) => e.checkable).map((e) => e.id));
   const stockIds = data && inventoryIds(data);
   const recipeIds = data && new Set(data.recipes.map((r) => r.id));
-  for (const field of ["checks", "inventory", "plan"] as const) {
+  const materialIds = data && farmingMaterialIds(data);
+  for (const field of ["checks", "inventory", "plan", "farmPlan"] as const) {
+    if (field === "farmPlan" && value.farmPlan === undefined) continue;
     if (!isRecord(value[field]) || Object.keys(value[field]).length > 30_000)
       throw new Error(`The backup ${field} map is invalid.`);
     for (const [id, item] of Object.entries(value[field])) {
@@ -130,7 +157,7 @@ export function validatePlayerState(
           ? checkIds
           : field === "inventory"
             ? stockIds
-            : recipeIds;
+            : field === "farmPlan" ? materialIds : recipeIds;
       if (known && !known.has(id))
         throw new Error(
           `Unknown ${field} identifier: ${id}. The backup was not applied.`,
@@ -144,11 +171,12 @@ export function validatePlayerState(
           throw new Error(
             `Quantity for ${id} must be a whole number from 0 to ${MAX_QUANTITY}.`,
           );
-        (field === "inventory" ? inventory : plan)[id] = item;
+        if (field !== "farmPlan" || item > 0)
+          (field === "inventory" ? inventory : field === "farmPlan" ? farmPlan : plan)[id] = item;
       }
     }
   }
-  return {
+  const state: PlayerState = {
     schemaVersion: 1,
     game: "kh1fm",
     checks: data ? normalizeAcquisitionChecks(checks, data, true) : checks,
@@ -157,10 +185,13 @@ export function validatePlayerState(
     inventoryEnabled: true,
     inventory,
     plan,
+    // Keep absence distinguishable until GameData can migrate direct ingredients.
+    ...(value.farmPlan !== undefined ? { farmPlan } : {}),
     planMode: value.planMode === "first-craft" ? "first-craft" : "selected",
     lastRoute: value.lastRoute,
     updatedAt: value.updatedAt,
   };
+  return data ? initializeFarmPlan(state, data) : state;
 }
 export function parseBackup(text: string, data: GameData): PlayerState {
   if (text.length > 5_000_000)
@@ -203,6 +234,7 @@ export function importPreview(state: PlayerState): ImportPreview {
     checked: Object.values(state.checks).filter(Boolean).length,
     inventoryItems: Object.keys(state.inventory).length,
     plannedRecipes: Object.values(state.plan).filter((n) => n > 0).length,
+    farmingTargets: Object.values(state.farmPlan ?? {}).filter((n) => n > 0).length,
     updatedAt: state.updatedAt,
     warnings: [
       "Replaces this device’s current Kingdom Hearts Final Mix profile, including checks, stock and craft plan. A recovery snapshot is kept.",

@@ -61,34 +61,3 @@ test("reference, challenge and synthesis filters survive entry visits and reload
   await expect(page.getByRole("searchbox", {name: "Find a synthesis recipe"})).toHaveValue("Energy Bangle");
   await expect(page.getByRole("checkbox", {name: "Not yet crafted"})).toBeChecked();
 });
-
-test("a chosen material acquisition route survives source navigation", async ({ page }) => {
-  const recipe = data.recipes.find((r: any) => r.ingredients.some((i: any) => data.recipes.some((other: any) => other.productId === i.itemId)));
-  await page.goto("./#/kh1fm/synthesis/recipes");
-  await page.getByRole("searchbox", {name: "Find a synthesis recipe"}).fill(recipe.name);
-  await page.getByRole("button", {name: `Add one ${recipe.name} to plan`, exact: true}).click();
-  await page.goto("./#/kh1fm/synthesis/plan");
-  const route = page.getByRole("combobox", {name: /acquisition route/}).first();
-  const name = await route.getAttribute("aria-label");
-  await route.selectOption("gather");
-  await route.locator("xpath=ancestor::div[contains(@class, 'plan-material-name')]").getByRole("link").first().click();
-  await page.goto("./#/kh1fm/synthesis/plan");
-  await expect(page.getByRole("combobox", {name: name!, exact: true})).toHaveValue("gather");
-  await page.reload();
-  await expect(page.getByRole("combobox", {name: name!, exact: true})).toHaveValue("gather");
-});
-
-test("editing then stepping a plan quantity preserves the latest value", async ({ page }) => {
-  await page.goto("./#/kh1fm/synthesis/recipes");
-  await page.getByRole("searchbox", {name: "Find a synthesis recipe"}).fill("Energy Bangle");
-  const quantity = page.getByRole("textbox", {name: "Energy Bangle craft plan quantity", exact: true});
-  await quantity.fill("3");
-  await page.getByRole("button", {name: "Add one Energy Bangle to plan", exact: true}).click();
-  await expect(quantity).toHaveValue("4");
-  await quantity.focus();
-  await page.getByRole("button", {name: "Add one Energy Bangle to plan", exact: true}).click();
-  await expect(quantity).toHaveValue("5");
-  await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
-  await page.reload();
-  await expect(quantity).toHaveValue("5");
-});

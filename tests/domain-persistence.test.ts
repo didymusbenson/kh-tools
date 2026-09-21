@@ -2,7 +2,7 @@ import "fake-indexeddb/auto";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { createPlayerStore } from "../src/state/playerStore";
 import type { PlayerStore } from "../src/state/playerStore";
-import { emptyPlayerState, makeBackup } from "../src/domain/player";
+import { emptyPlayerState, makeBackup, validatePlayerState } from "../src/domain/player";
 import type { GameData, GuideEntry, PlayerState } from "../src/domain/types";
 
 const entry = (id: string): GuideEntry => ({
@@ -72,6 +72,96 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 describe("transactional browser progress", () => {
+  it("migrates legacy recipe plans only when guide data is available, without subtracting stock or expanding components", async () => {
+    const content: GameData = { ...data, recipes: [
+      data.recipes[0],
+      { ...data.recipes[0], id: "other", ingredients: [{ itemId: "ore", name: "Ore", quantity: 2 }, { itemId: "product", name: "Product", quantity: 1 }] },
+    ] };
+    const legacy: PlayerState = {
+      ...emptyPlayerState(), farmPlan: undefined,
+      plan: { craft: 2, other: 3 }, inventory: { ore: 99, product: 9 },
+    };
+    expect(validatePlayerState(legacy).farmPlan).toBeUndefined();
+    await seedLegacyProfile(legacy);
+    const store = await open(content);
+    expect(store.getSnapshot().state.farmPlan).toEqual({ ore: 12, product: 3 });
+    expect(store.getSnapshot().state.inventory).toEqual(legacy.inventory);
+    expect(store.getSnapshot().state.plan).toEqual(legacy.plan);
+    await store.setFarmTarget("ore", 0);
+    await store.setFarmTarget("product", 0);
+    expect((await open(content)).getSnapshot().state.farmPlan).toEqual({});
+    expect((await open(content)).getSnapshot().state.plan).toEqual(legacy.plan);
+  });
+  it("imports old recipe goals once and preserves explicit farming targets through export, recovery and undo", async () => {
+    const store = await open();
+    await store.importBackup(makeBackup({ ...emptyPlayerState(), farmPlan: undefined, plan: { craft: 2 }, inventory: { ore: 50 } }));
+    expect(store.getSnapshot().state.farmPlan).toEqual({ ore: 6 });
+    const exported = store.exportBackup();
+    expect(store.previewImport(exported)).toMatchObject({ farmingTargets: 1, plannedRecipes: 1 });
+    expect(JSON.parse(exported).player.farmPlan).toEqual({ ore: 6 });
+    await store.importBackup(makeBackup({ ...emptyPlayerState(), farmPlan: {}, plan: { craft: 4 } }));
+    expect(store.getSnapshot().state.farmPlan).toEqual({});
+    await store.restoreRecovery();
+    expect(store.getSnapshot().state.farmPlan).toEqual({ ore: 6 });
+    await store.undo();
+    expect(store.getSnapshot().state.farmPlan).toEqual({});
+    await store.importBackup(exported);
+    expect((await open()).getSnapshot().state.farmPlan).toEqual({ ore: 6 });
+  });
+  it("adds direct recipe materials atomically and safely combines rapid and simultaneous-tab additions", async () => {
+    const content: GameData = { ...data, recipes: [
+      data.recipes[0],
+      { ...data.recipes[0], id: "other", ingredients: [{ itemId: "ore", name: "Ore", quantity: 2 }, { itemId: "product", name: "Product", quantity: 1 }] },
+    ] };
+    const [a, b] = await Promise.all([open(content), open(content)]);
+    await a.setInventory("ore", 20);
+    await Promise.all([a.addRecipeToFarmPlan("craft"), a.addRecipeToFarmPlan("craft"), b.addRecipeToFarmPlan("other")]);
+    const reopened = await open(content);
+    expect(reopened.getSnapshot().state.farmPlan).toEqual({ ore: 8, product: 1 });
+    expect(reopened.getSnapshot().state.inventory).toEqual({ ore: 20 });
+    expect(reopened.getSnapshot().state.plan).toEqual({});
+    expect(reopened.getSnapshot().state.checks).toEqual({});
+    await reopened.addRecipeToFarmPlan("other");
+    expect(reopened.getSnapshot().state.farmPlan).toEqual({ ore: 10, product: 2 });
+    await reopened.undo();
+    expect(reopened.getSnapshot().state.farmPlan).toEqual({ ore: 8, product: 1 });
+  });
+  it("adds absent materials once, preserves existing targets, and supports removing and undoing a target", async () => {
+    const [a, b] = await Promise.all([open(), open()]);
+    await Promise.all([a.addMaterialToFarmPlan("ore"), a.addMaterialToFarmPlan("ore"), b.addMaterialToFarmPlan("ore")]);
+    expect((await open()).getSnapshot().state.farmPlan).toEqual({ ore: 1 });
+    await a.setFarmTarget("ore", 12);
+    await b.addMaterialToFarmPlan("ore");
+    expect((await open()).getSnapshot().state.farmPlan).toEqual({ ore: 12 });
+    await b.setFarmTarget("ore", 0);
+    expect(b.getSnapshot().state.farmPlan).toEqual({});
+    await b.undo();
+    expect(b.getSnapshot().state.farmPlan).toEqual({ ore: 12 });
+  });
+  it("does not let farming undo overwrite a later target edit from another tab", async () => {
+    const [a, b] = await Promise.all([open(), open()]);
+    await a.addRecipeToFarmPlan("craft");
+    await b.setFarmTarget("ore", 9);
+    await a.undo();
+    expect(a.getSnapshot().status).toBe("error");
+    expect((await open()).getSnapshot().state.farmPlan).toEqual({ ore: 9 });
+  });
+  it("rejects invalid and overflowing farming changes without partially applying ingredients", async () => {
+    const content: GameData = { ...data, recipes: [{ ...data.recipes[0], ingredients: [
+      { itemId: "product", name: "Product", quantity: 1 },
+      { itemId: "ore", name: "Ore", quantity: 3 },
+    ] }] };
+    const store = await open(content);
+    await store.setFarmTarget("ore", 999998);
+    await store.addRecipeToFarmPlan("craft");
+    expect(store.getSnapshot().status).toBe("error");
+    expect(store.getSnapshot().state.farmPlan).toEqual({ ore: 999998 });
+    expect((await open(content)).getSnapshot().state.farmPlan).toEqual({ ore: 999998 });
+    expect(() => store.importBackup(makeBackup({ ...emptyPlayerState(), farmPlan: { unknown: 2 } }))).toThrow("Unknown farmPlan");
+    expect(() => store.importBackup(makeBackup({ ...emptyPlayerState(), farmPlan: { ore: -1 } }))).toThrow("Quantity");
+    expect(() => store.importBackup(makeBackup({ ...emptyPlayerState(), farmPlan: undefined, plan: { craft: 999999 } }))).toThrow("exceeds");
+    expect(store.getSnapshot().state.farmPlan).toEqual({ ore: 999998 });
+  });
   it("restores checks, stock, goals and route after reopening; legacy toggles cannot disable tracking", async () => {
     const store = await open();
     expect(store.getSnapshot().state.inventoryEnabled).toBe(true);

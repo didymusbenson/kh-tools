@@ -96,9 +96,9 @@ test("synthesis preserves stock and catalog independently across restart", async
     .getByRole("checkbox", { name: "Mark Energy Bangle as crafted" })
     .click();
   await card
-    .getByRole("button", { name: "Add one Energy Bangle to plan" })
+    .getByRole("button", { name: "Add Energy Bangle ingredients to farming plan" })
     .click();
-  await expect(card.getByRole("textbox", { name: "Energy Bangle craft plan quantity", exact: true })).toHaveValue("1");
+
   await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
   await page.reload();
   await page
@@ -111,12 +111,8 @@ test("synthesis preserves stock and catalog independently across restart", async
   await expect(
     card.getByLabel("8 owned, 2 required; 0 remaining", { exact: true }),
   ).toBeVisible();
-  await expect(
-    card.getByRole("textbox", {
-      name: "Energy Bangle craft plan quantity",
-      exact: true,
-    }),
-  ).toHaveValue("1");
+  await page.goto("./#/kh1fm/synthesis/plan");
+  await expect(page.getByRole("textbox", { name: "Spirit Shard target stock", exact: true })).toHaveValue("2");
   await page.screenshot({
     path: `test-results/${test.info().project.name}-synthesis.png`,
     fullPage: true,

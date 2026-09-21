@@ -1,0 +1,90 @@
+import { test, expect } from "@playwright/test";
+
+test("recipes add shared ingredients to targets without deducting owned stock", async ({ page }) => {
+  await page.goto("./#/kh1fm/synthesis/materials");
+  const stock = page.getByRole("textbox", { name: "Spirit Shard owned stock; blank means unknown", exact: true });
+  await stock.fill("8"); await stock.press("Tab");
+  await page.goto("./#/kh1fm/synthesis/recipes");
+  await page.getByRole("button", { name: "Add Energy Bangle ingredients to farming plan", exact: true }).click();
+  await page.getByRole("button", { name: "Add Mega-Potion ingredients to farming plan", exact: true }).click();
+  await page.goto("./#/kh1fm/synthesis/plan");
+  const target = page.getByRole("textbox", { name: "Spirit Shard target stock", exact: true });
+  await expect(target).toHaveValue("3");
+  await expect(page.getByRole("textbox", { name: /^Spirit Shard owned stock/ })).toHaveValue("8");
+  await expect(page.getByRole("combobox", { name: /acquisition route/ })).toHaveCount(0);
+  await expect(page.getByRole("textbox", { name: /craft plan quantity/ })).toHaveCount(0);
+  await page.reload();
+  await expect(target).toHaveValue("3");
+  await page.goto("./#/kh1fm/synthesis/recipes");
+  await page.getByRole("button", { name: "Add Energy Bangle ingredients to farming plan", exact: true }).click();
+  await page.goto("./#/kh1fm/synthesis/plan");
+  await expect(target).toHaveValue("5");
+});
+
+test("material farming targets keep unknown, partial and surplus stock separate and persist edits", async ({ page }) => {
+  await page.goto("./#/kh1fm/synthesis/materials");
+  const add = page.getByRole("button", { name: "Add Blaze Shard to farming plan", exact: true });
+  await add.click();
+  await expect(add).toBeDisabled();
+  await expect(add).toHaveText("In farming plan");
+  await page.getByRole("link", { name: /^Farming Plan/ }).click();
+  const row = page.locator(".farm-plan-row#row-kh1fm-material-blaze-shard");
+  const target = row.getByRole("textbox", { name: "Blaze Shard target stock", exact: true });
+  const owned = row.getByRole("textbox", { name: /^Blaze Shard owned stock/ });
+  await expect(owned).toHaveValue("");
+  await expect(row.getByLabel("Blaze Shard: unknown remaining", { exact: true })).toBeVisible();
+  await target.fill("5"); await target.press("Tab");
+  await owned.fill("2"); await owned.press("Tab");
+  await expect(row.getByLabel("Blaze Shard: 3 remaining", { exact: true })).toBeVisible();
+  await page.screenshot({ path: `test-results/${test.info().project.name}-farm-plan.png`, fullPage: true });
+  await owned.fill("8"); await owned.press("Tab");
+  await expect(target).toHaveValue("5");
+  await expect(row.getByLabel("Blaze Shard: 0 remaining", { exact: true })).toBeVisible();
+  await page.reload();
+  await expect(target).toHaveValue("5");
+  await expect(owned).toHaveValue("8");
+  await owned.fill(""); await owned.press("Tab");
+  await expect(row.getByLabel("Blaze Shard: unknown remaining", { exact: true })).toBeVisible();
+  await expect(row.locator(".material-drop-summary")).toContainText("Red Nocturne");
+  await expect(row).toContainText("Bizarre Room");
+  const currentUrl = page.url();
+  await row.getByRole("button", { name: "More info about Blaze Shard", exact: true }).click();
+  await expect(row.locator(".entry-inline-details")).toBeVisible();
+  expect(page.url()).toBe(currentUrl);
+  await target.fill("0"); await target.press("Tab");
+  await expect(row).toHaveCount(0);
+  await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
+  await page.reload();
+  await expect(row).toHaveCount(0);
+});
+
+test("removing a farming target preserves its owned inventory", async ({ page }) => {
+  await page.goto("./#/kh1fm/synthesis/materials");
+  await page.getByRole("button", { name: "Add Blaze Shard to farming plan", exact: true }).click();
+  await page.goto("./#/kh1fm/synthesis/plan");
+  const owned = page.getByRole("textbox", { name: /^Blaze Shard owned stock/ });
+  await owned.fill("3"); await owned.press("Tab");
+  await page.getByRole("button", { name: "Remove Blaze Shard from farming plan", exact: true }).click();
+  await expect(page.locator(".farm-plan-row#row-kh1fm-material-blaze-shard")).toHaveCount(0);
+  await page.goto("./#/kh1fm/synthesis/materials");
+  await expect(page.getByRole("textbox", { name: /^Blaze Shard owned stock/ })).toHaveValue("3");
+});
+
+test("craftable material information includes its ingredients without leaving the farming plan", async ({ page }) => {
+  await page.goto("./#/kh1fm/synthesis/materials");
+  await page.getByRole("button", { name: "Add Dark Matter to farming plan", exact: true }).click();
+  await page.goto("./#/kh1fm/synthesis/plan");
+  const row = page.locator(".farm-plan-row#row-kh1fm-material-dark-matter");
+  await row.getByRole("button", { name: "More info about Dark Matter", exact: true }).click();
+  const details = row.locator(".entry-inline-details");
+  await expect(details).toContainText("Lucid Shard");
+  await expect(details).toContainText("Gale");
+  await expect(details).toContainText("Mythril");
+  const mythril = details.locator(".material-crafting-ingredient").filter({ has: page.locator(".material-crafting-heading strong", { hasText: /^Mythril$/ }) });
+  await mythril.locator("summary").filter({ hasText: /^More info about Mythril$/ }).click();
+  await expect(mythril.locator(".material-source-details[open]")).toBeVisible();
+  await expect(mythril).toContainText("Mythril Shard");
+  await page.screenshot({ path: `test-results/${test.info().project.name}-farm-plan-dark-matter.png`, fullPage: true });
+  await expect(page).toHaveURL(/#\/kh1fm\/synthesis\/plan$/);
+  await expect(page.locator(".farm-plan-row")).toHaveCount(1);
+});

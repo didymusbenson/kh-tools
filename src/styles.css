@@ -5153,3 +5153,12 @@ p {
 @media (min-width: 1100px) {
   .material-card .material-summary { display: grid; grid-template-columns: minmax(135px, 0.7fr) minmax(0, 1.5fr); align-items: center; gap: 14px; }
 }
+
+.farm-add-button { margin-top: 6px; padding: 6px 10px; min-height: 44px; }
+.farm-row-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.farm-row-heading h3 { margin: 0; }
+.farm-target-controls { display: flex; align-items: flex-end; gap: 18px; flex-wrap: wrap; margin: 10px 0 2px; }
+.farm-target-controls > label, .farm-target-controls > div { display: flex; align-items: center; gap: 8px; font-size: 16px; }
+.farm-target-controls strong { font-family: Georgia, serif; font-size: 22px; font-weight: 400; }
+.farm-plan-row > .entry-toggle { color: #526d40; font-size: 16px; }
+@media (max-width: 650px) { .farm-target-controls { gap: 8px 12px; } }

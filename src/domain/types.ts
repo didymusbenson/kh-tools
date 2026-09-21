@@ -87,6 +87,8 @@ export interface PlayerState {
   inventoryEnabled: boolean;
   inventory: Record<string, number>;
   plan: Record<string, number>;
+  /** Material gathering targets; absent only in legacy version 1 profiles. */
+  farmPlan?: Record<string, number>;
   planMode?: "selected" | "first-craft";
   lastRoute: string;
   updatedAt: string;
