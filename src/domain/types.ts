@@ -83,9 +83,12 @@ export interface PlayerState {
   schemaVersion: 1;
   game: "kh1fm";
   checks: Record<string, boolean>;
+  /** Retained for version 1 backup compatibility; restored and live profiles use true. */
   inventoryEnabled: boolean;
   inventory: Record<string, number>;
   plan: Record<string, number>;
+  /** Material gathering targets; absent only in legacy version 1 profiles. */
+  farmPlan?: Record<string, number>;
   planMode?: "selected" | "first-craft";
   lastRoute: string;
   updatedAt: string;

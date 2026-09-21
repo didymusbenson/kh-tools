@@ -70,7 +70,19 @@ Selecting a game opens its journal. Shared structural sections may include:
 
 Section names and availability must adapt to the game's actual terminology.
 
+### Navigation copy and page headers
+
+Accepted human feedback, 2026-09-20: game-journal navigation pages should lead with their navigation and useful content. Remove SaaS-style marketing preambles, promotional titles, redundant subtitles, and decorative copy. Use at most a compact page title with useful statistics where appropriate. Captions must be descriptive or necessary; functional instructions and meaningful content remain.
+
+This supersedes any earlier interpretation of the journal metaphor that adds promotional page headers, chapter slogans, or introductory marketing copy to navigation pages. Visual identity belongs in the journal design and content, without requiring an advertising-style introduction to each section.
+
+Apply the change to KH1 Final Mix first, then reuse the pattern for other games. The existing main game-selection menu is explicitly unchanged by this feedback. See the [human feedback record](../implementation/human-feedback.md) for scope and acceptance checks.
+
 ### Entry pages
+
+Accepted human feedback, 2026-09-20: collectible category views such as Trinities use single-column item rows with inline expandable details and category-level expand/collapse controls. Do not require another nested item page beyond the category. This supersedes earlier standalone-entry-page guidance for the collectible browsing flow; the information contract below still applies to the expanded item. Other reference flows are not automatically removed by this clarification.
+
+Retain two backup designs if human review rejects inline expansion: an individual compact detail-card modal, or a category detail page/table containing all relevant items for the world/category. These alternatives are recorded, not requested as simultaneous implementations. See [human feedback](../implementation/human-feedback.md#saved-backup-alternatives).
 
 An entry should behave like an annotated journal page:
 
@@ -206,3 +218,7 @@ The interface clearly labels its game and keeps the same concise factual behavio
 The user supplied `6a6444f0-2e49-4a3e-9cd2-13b0af30b59d.png`: a transparent 408 × 608 PNG of Jiminy with umbrella and raised finger. Use it as the launcher artwork reference across journals. Preserve proportions and keep the “…” bubble a separate accessible button, provisionally above/beside the raised finger. Test the silhouette and control spacing at actual phone/tablet sizes. The [Data Jiminy asset record](../data-jiminy.md#user-supplied-jiminy-asset) identifies the original attachment and checked-in PNG. The original bytes and transparency are preserved.
 
 The compact Jiminy face supplied subsequently is the chat icon: [data-jiminy-chat-icon.png](../../assets/data-jiminy/data-jiminy-chat-icon.png), 512 × 512 with transparency. The [full-body original](../../assets/data-jiminy/data-jiminy-full.png) is also checked in. Use the compact icon for chat/avatar presentation while preserving the bottom-right Jiminy and accessible “…” interaction.
+
+## KHFM navigation revision — September 20, 2026
+
+Primary destinations now follow the collectible/activity type: Worlds, Synthesis Workshop, Bestiary, Treasures, Trinities, Dalmatians, Magic Upgrades, Torn Pages, Ansem Reports, Challenges and Minigames, Steam Achievements. Worlds replaces Contents and offers factual world overviews with filtered shortcuts into the type catalogues. Catalogues group full-width inline entries by world. Reference library and Progress & backups remain secondary links. See the durable human-feedback file for accepted scope and pending human review.

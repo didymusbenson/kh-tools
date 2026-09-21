@@ -31,6 +31,19 @@ This pattern generalizes to every collection checklist with detailed entries. Us
 - Opening a compact item locates/highlights its detailed row; returning preserves useful list position and filters.
 - Renames, sorting changes, grouping changes and responsive layouts never create new progress identities.
 
+## Accepted inline browsing direction — September 20, 2026
+
+Human feedback now specifies single-column item rows, details that expand inline, and category-level expand/collapse controls. Remove deeper nested item-page navigation beyond categories such as Trinities. Keep the player in the current collection view while reading acquisition details. This supersedes any earlier standalone-item-page interpretation of the compact/detail relationship in this contract; stable IDs, shared check state, counting rules, filter context and useful acquisition information remain required.
+
+Apply this direction to KH1 Final Mix first and retain it as the pattern for later games. The main game-selection menu remains unchanged. Implementation is in progress, pending verification and human review.
+
+Saved fallback alternatives, only if human review rejects the inline expandable version:
+
+1. An individual item opens in a compact detail-card modal.
+2. A category detail page/table shows all relevant items for the current world/category together.
+
+These alternatives are preserved in the [human feedback record](../implementation/human-feedback.md#saved-backup-alternatives); they are not extra modes to implement during the current pass.
+
 ## What each detail needs
 
 Provide world and area; a recognizable text landmark; where to approach from if the route is ambiguous; the collection action; the reward/content; required movement/spell/character or access condition; and verified missability/revisit behavior. Include compact source links and optional media references.

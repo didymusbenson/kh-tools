@@ -1,25 +1,16 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import type { GameData, GuideEntry, PlayerState, Recipe } from "./domain/types";
+import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import type { GameData, GuideEntry, PlayerState } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
-import {
-  calculatePlan,
-  recipeRequirements,
-  getMaterialRoutes,
-} from "./domain/planner";
 import { collectibleProgress } from "./domain/progress";
 import { Icon, type IconName } from "./components/Icon";
 import { DataJiminy } from "./components/DataJiminy";
-import { EntryMedia } from "./components/EntryMedia";
+import { EntryDetails } from "./components/EntryDetails";
+import { compareMaterials, materialFamily, materialDropLines, materialDropLocation } from "./domain/materialPresentation";
+import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
+import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
 const base = import.meta.env.BASE_URL;
-const installation = { offline: false, update: false };
-window.addEventListener("ars-offline-ready", () => {
-  installation.offline = true;
-});
-window.addEventListener("ars-update-ready", () => {
-  installation.update = true;
-});
 function useStoredChoice<T extends string>(key: string, fallback: T) {
   const [value, setValue] = useState<T>(() => {
     try {
@@ -44,14 +35,6 @@ function journalScrollY() {
   const target = journalScroll();
   return target instanceof Window ? target.scrollY : target.scrollTop;
 }
-function worldReturnHref() {
-  try {
-    const saved = localStorage.getItem("ars-arcanum:world-route");
-    return saved?.startsWith("kh1fm/worlds") ? `#/${saved}` : "#/kh1fm/worlds";
-  } catch {
-    return "#/kh1fm/worlds";
-  }
-}
 
 const categories: Record<string, string> = {
   treasure: "Treasures",
@@ -75,34 +58,18 @@ const categories: Record<string, string> = {
   achievement: "Achievements",
   guide: "Field notes",
 };
+const catalogueIcons: Record<string, IconName> = {
+  bestiary: "monster", treasures: "chest", trinities: "trinity",
+  dalmatians: "paw", "magic-upgrades": "wand", "torn-pages": "torn-page",
+  "ansem-reports": "scroll", challenges: "cup", achievements: "medal",
+};
 const nav: { id: string; label: string; icon: IconName; chapter: string }[] = [
-  { id: "contents", label: "Contents", icon: "book", chapter: "01" },
-  { id: "worlds", label: "World collectibles", icon: "world", chapter: "02" },
-  {
-    id: "synthesis",
-    label: "Synthesis workshop",
-    icon: "spark",
-    chapter: "03",
-  },
-  { id: "reference", label: "Reference library", icon: "sword", chapter: "04" },
-  {
-    id: "challenges",
-    label: "Challenges & records",
-    icon: "cup",
-    chapter: "05",
-  },
-  {
-    id: "progress",
-    label: "Progress & settings",
-    icon: "settings",
-    chapter: "06",
-  },
+  {id:"worlds", label:"Worlds", icon:"world", chapter:""},
+  {id:"synthesis", label:"Synthesis Workshop", icon:"flask", chapter:""},
+  ...cataloguePages.map(page=>({id:page.id, label:page.title, icon:catalogueIcons[page.id] || "book", chapter:""})),
 ];
 function routeTo(path: string) {
   window.location.hash = `/${path}`;
-}
-function entryHref(id: string) {
-  return `#/kh1fm/entry/${encodeURIComponent(id)}`;
 }
 function label(category: string) {
   return categories[category] || category.replaceAll("-", " ");
@@ -157,12 +124,10 @@ function Progress({
   );
 }
 function PageTitle({
-  eyebrow,
   title,
   children,
   aside,
 }: {
-  eyebrow: string;
   title: string;
   children?: ReactNode;
   aside?: ReactNode;
@@ -170,7 +135,6 @@ function PageTitle({
   return (
     <header className="page-heading">
       <div>
-        <span className="eyebrow">{eyebrow}</span>
         <h1>{title}</h1>
         {children && <p>{children}</p>}
       </div>
@@ -224,6 +188,15 @@ function Empty({ children }: { children: ReactNode }) {
       <p>{children}</p>
     </div>
   );
+}
+
+function UpdateNotice() {
+  const installation = useSyncExternalStore(subscribeInstallation, getInstallationState);
+  if (!installation.update) return null;
+  return <div className="save-alert app-update-notice" role="status">
+    <p>{installation.message || "A new journal version is ready."}</p>
+    <button onClick={() => void applyAppUpdate()}>Load available update</button>
+  </div>;
 }
 
 export default function App() {
@@ -316,13 +289,8 @@ const games = [
 function ResumeGame({ data }: { data: GameData }) {
   const player = usePlayerState(data);
   const route = player.state.lastRoute;
-  if (
-    !player.ready ||
-    !/^#\/kh1fm\/(worlds|entry|synthesis|reference|challenges|progress)(?:\/|$)/.test(
-      route,
-    )
-  )
-    return null;
+  const section = route.split("?")[0].split("/")[2];
+  if (!player.ready || !route.startsWith("#/kh1fm/") || ![...nav.map(item=>item.id), "contents", "entry", "reference", "progress"].includes(section)) return null;
   return (
     <a className="cover-cta" href={route}>
       Resume last page <Icon name="arrow" size={16} />
@@ -341,6 +309,7 @@ function Cover({ data }: { data: GameData | null }) {
   }
   return (
     <div className="cover">
+      <UpdateNotice />
       <a
         className="skip-link"
         href="#game-list"
@@ -472,8 +441,38 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     [menu, setMenu] = useState(false),
     [message, setMessage] = useState("");
   const mainRef = useRef<HTMLElement>(null);
-  const parts = route.split("/");
-  const section = parts[1] || "contents";
+  const parts = route.split("?")[0].split("/");
+  const focusId = new URLSearchParams(route.split("?")[1] || "").get("entry") || "";
+  const [retained, setRetained] = useState(new Set<string>());
+  const [suppressFocus, setSuppressFocus] = useState(false);
+  const resetVisibility = () => { setRetained(new Set()); setSuppressFocus(true); };
+  const [expanded, setExpanded] = useState<Set<string>>(() => {
+    try { return new Set(JSON.parse(sessionStorage.getItem("ars-arcanum:expanded") || "[]")); } catch { return new Set(); }
+  });
+  const setMany = (ids: string[], open: boolean) => setExpanded(previous => {
+    const next = new Set(previous); ids.forEach(id => open ? next.add(id) : next.delete(id)); return next;
+  });
+  useEffect(() => { try { sessionStorage.setItem("ars-arcanum:expanded", JSON.stringify([...expanded])); } catch {} }, [expanded]);
+  useEffect(() => {
+    setRetained(new Set());
+    setSuppressFocus(false);
+    if (parts[1] === "contents" || !parts[1]) location.replace("#/kh1fm/worlds");
+    if (parts[1] === "entry" || (parts[1] === "worlds" && focusId)) {
+      const id = focusId || decodeURIComponent(parts.slice(2).join("/"));
+      if (data.entries.some(e=>e.id === id)) location.replace(resolveEntryHref(data, id));
+    }
+    if (focusId) setMany([focusId], true);
+  }, [route]);
+  useEffect(() => {
+    if (!focusId || !player.ready) return;
+    const frame = requestAnimationFrame(() => requestAnimationFrame(() => {
+      const row = document.getElementById(`row-${focusId}`);
+      row?.scrollIntoView({block:"center"});
+      row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true});
+    }));
+    return () => cancelAnimationFrame(frame);
+  }, [route, player.ready]);
+  const section = !parts[1] || parts[1] === "contents" ? "worlds" : parts[1];
   const collection = data.entries.filter((e) => e.collectible && e.checkable);
   const count = formatCount(collection, state);
   const [online, setOnline] = useState(navigator.onLine);
@@ -488,16 +487,20 @@ function Journal({ data, route }: { data: GameData; route: string }) {
   }, []);
   useEffect(() => {
     setMenu(false);
-    if (section !== "search") {
-      journalScroll().scrollTo({ top: 0, behavior: "instant" });
-      requestAnimationFrame(() =>
-        mainRef.current?.focus({ preventScroll: true }),
-      );
-    }
-    if (player.ready) void player.rememberRoute(`#/${route}`);
-    try {
-      localStorage.setItem("ars-arcanum:last-game", "kh1fm");
-    } catch {}
+    if (!player.ready) return;
+    const scrollKey = "ars-arcanum:scroll:" + route.split("?")[0];
+    let scroll = 0;
+    try { scroll = Number(sessionStorage.getItem(scrollKey) || 0); } catch {}
+    const target = journalScroll();
+    const frame = requestAnimationFrame(() => {
+      if (section !== "search" && !focusId) target.scrollTo({top: scroll, behavior:"instant"});
+      if (!focusId) mainRef.current?.focus({preventScroll:true});
+    });
+    const saveScroll = () => { try { sessionStorage.setItem(scrollKey, String(journalScrollY())); } catch {} };
+    target.addEventListener("scroll", saveScroll, {passive:true});
+    void player.rememberRoute(`#/${route}`);
+    try { localStorage.setItem("ars-arcanum:last-game", "kh1fm"); } catch {}
+    return () => { cancelAnimationFrame(frame); target.removeEventListener("scroll", saveScroll); };
   }, [route, player.ready]);
   useEffect(() => {
     if (!message) return;
@@ -505,6 +508,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     return () => clearTimeout(timer);
   }, [message]);
   async function toggle(id: string) {
+    if (expanded.has(id)) setRetained(previous => new Set([...previous, id]));
     await player.toggleCheck(id);
   }
   const props = { data, state, onToggle: toggle };
@@ -512,7 +516,14 @@ function Journal({ data, route }: { data: GameData; route: string }) {
     nav.find((n) => n.id === section)?.label ||
     (section === "entry" ? "Journal entry" : "Search the journal");
   return (
-    <div className="journal-app">
+    <div className="journal-app" onClick={event => {
+      const anchor = (event.target as HTMLElement).closest<HTMLAnchorElement>("a[href]");
+      if (!anchor || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || anchor.hash !== location.hash) return;
+      const id = new URLSearchParams(anchor.hash.split("?")[1] || "").get("entry");
+      if (!id) return;
+      event.preventDefault(); setSuppressFocus(false); setMany([id], true);
+      requestAnimationFrame(() => { const row = document.getElementById(`row-${id}`); row?.scrollIntoView({block:"center"}); row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true}); });
+    }}>
       <a
         className="skip-link"
         href="#journal-main"
@@ -589,6 +600,8 @@ function Journal({ data, route }: { data: GameData; route: string }) {
             <p>Recorded guide entries; coverage varies.</p>
           </div>
           <div className="sidebar-bottom">
+            <a href="#/kh1fm/reference">Reference library</a>
+            <a href="#/kh1fm/progress">Progress & backups</a>
             <a href="#/" className="back-games">
               <Icon name="back" size={16} /> Change journal
             </a>
@@ -623,6 +636,7 @@ function Journal({ data, route }: { data: GameData; route: string }) {
             ))}
           </div>
           <div className="journal-page">
+            <UpdateNotice />
             <div className="page-toolbar">
               <div className="breadcrumb">
                 <span>KH · FINAL MIX</span>
@@ -674,31 +688,30 @@ function Journal({ data, route }: { data: GameData; route: string }) {
               tabIndex={-1}
               ref={mainRef}
             >
+              <ExpansionContext.Provider value={{data, expanded, retained, resetVisibility, focusId: suppressFocus ? "" : focusId, setMany, toggle: id => setMany([id], !expanded.has(id))}}>
               {!player.ready ? (
                 <div className="empty-state">Restoring your journal…</div>
-              ) : section === "contents" ? (
-                <Contents {...props} />
               ) : section === "worlds" ? (
-                <Worlds
+                <Contents
                   {...props}
                   world={parts[2] ? decodeURIComponent(parts[2]) : undefined}
                 />
+              ) : cataloguePages.some(page => page.id === section) ? (
+                <Catalogue key={section} {...props} page={cataloguePages.find(page=>page.id===section)!} route={route} />
               ) : section === "synthesis" ? (
                 <Synthesis {...props} player={player} initialTab={parts[2]} />
-              ) : section === "reference" || section === "challenges" ? (
-                <Reference {...props} challenges={section === "challenges"} />
+              ) : section === "reference" ? (
+                <Reference key={section} {...props} challenges={false} />
               ) : section === "progress" ? (
                 <Settings {...props} player={player} notify={setMessage} />
               ) : section === "entry" ? (
-                <EntryPage
-                  {...props}
-                  id={decodeURIComponent(parts.slice(2).join("/"))}
-                />
+                <MissingEntry />
               ) : section === "search" ? (
                 <Search {...props} query={search} />
               ) : (
                 <Contents {...props} />
               )}
+              </ExpansionContext.Provider>
             </main>
             <footer className="page-footer">
               <span>
@@ -743,599 +756,101 @@ type Common = {
   state: PlayerState;
   onToggle: (id: string) => unknown;
 };
-function Contents({ data, state }: Common) {
-  const collectibles = data.entries.filter((e) => e.collectible && e.checkable);
-  const worlds = uniq(collectibles.map((e) => e.world || "Other collections"));
-  const count = formatCount(collectibles, state);
-  const checkedRecipes = data.recipes.filter(
-    (r) => state.checks[r.entryId],
-  ).length;
-  return (
-    <>
-      <PageTitle
-        eyebrow="Volume I · The beginning of a journey"
-        title="A record of your adventure."
-        aside={
-          <div className="chapter-stamp" aria-hidden="true">
-            I<span>FINAL MIX</span>
-          </div>
-        }
-      >
-        Keep track of the things you find. Find the things you’re missing.
-      </PageTitle>
-      <div className="contents-feature">
-        <div className="feature-copy">
-          <span className="eyebrow">
-            Your collection, one discovery at a time
-          </span>
-          <h2>
-            There’s always something
-            <br />
-            left to find.
-          </h2>
-          <p>
-            Treasure chests, lost puppies, hidden marks. Explore the world index
-            for locations, prerequisites, and one-tap checks.
-          </p>
-          <a href="#/kh1fm/worlds" className="button button-cream">
-            Explore the worlds <Icon name="arrow" size={17} />
-          </a>
-        </div>
-        <div className="feature-chart">
-          <span className="feature-count">
-            {count.done}
-            <span>/{count.total}</span>
-          </span>
-          <p>World collectible checks</p>
-          <div className="feature-rule" />
-          <span>{worlds.length} world & collection groups</span>
-          <small>
-            Counts cover the records in this guide,
-            <br />
-            not official Journal completion.
-          </small>
-        </div>
-        <span className="feature-spark" aria-hidden="true">
-          ✧
-        </span>
-      </div>
-      <div className="section-heading">
-        <h2>Turn to a chapter</h2>
-        <span className="eyebrow">The useful things, all together</span>
-      </div>
-      <div className="chapter-grid">
-        {[
-          {
-            id: "worlds",
-            icon: "world" as IconName,
-            title: "World collectibles",
-            text: "Compact checks, complete locations, and everything in between.",
-            meta: `${worlds.length} world & collection groups`,
-          },
-          {
-            id: "synthesis",
-            icon: "spark" as IconName,
-            title: "Synthesis workshop",
-            text: "Recipes, material sources, and a plan for your next creation.",
-            meta: `${data.recipes.length} recipes · ${checkedRecipes} crafted`,
-          },
-          {
-            id: "reference",
-            icon: "sword" as IconName,
-            title: "Reference library",
-            text: "Weapons, accessories, magic, abilities, and adversaries.",
-            meta: "Find it. Understand it. Get it.",
-          },
-          {
-            id: "challenges",
-            icon: "cup" as IconName,
-            title: "Challenges & records",
-            text: "Coliseum cups, optional encounters, minigames, and more.",
-            meta: "Separate goals for the extra mile",
-          },
-        ].map((card, i) => (
-          <a href={`#/kh1fm/${card.id}`} className="chapter-card" key={card.id}>
-            <span className="chapter-card-icon">
-              <Icon name={card.icon} size={25} />
-            </span>
-            <span className="chapter-card-number">0{i + 2}</span>
-            <h3>{card.title}</h3>
-            <p>{card.text}</p>
-            <span className="chapter-card-meta">
-              {card.meta}
-              <Icon name="arrow" size={17} />
-            </span>
-          </a>
-        ))}
-      </div>
-      <div className="journal-note">
-        <Icon name="book" size={22} />
-        <div>
-          <strong>A living field guide</strong>
-          <p>
-            Checks save on this device. Follow journal links for locations,
-            rewards, and related entries.{" "}
-            <a href="#/kh1fm/progress">
-              Review coverage and back up your progress.
-            </a>
-          </p>
-        </div>
-      </div>
-    </>
-  );
-}
+function Contents({ data, state, onToggle, world }: Common & {world?:string}) {
+  const overviewEntries = data.entries.filter(e=>e.category === "guide" && e.id.startsWith("kh1fm-guide-") && e.id.endsWith("-collectibles") && e.world);
+  const worlds = overviewEntries.map(e=>e.world!);
+  const overview = overviewEntries.find(e=>e.world === world);
+  const worldEntries = data.entries.filter(e=>e.world === world);
+  const shortcuts = cataloguePages.map(page=>({page, entries: worldEntries.filter(e=>page.categories.includes(e.category))})).filter(item=>item.entries.length);
+  return <>
+    {world && <a href="#/kh1fm/worlds" className="text-back">All worlds</a>}
+    <PageTitle title={world || "Worlds"} />
+    {!world ? <div className="world-hub-list">{worlds.map(name=> {
+      const count = formatCount(data.entries.filter(e=>e.world === name && e.collectible && e.checkable),state);
+      return <a href={`#/kh1fm/worlds/${encodeURIComponent(name)}`} key={name}><strong>{name}</strong><span>{count.done}/{count.total}<Icon name="arrow" size={16} /></span></a>;
+    })}</div> : <>
+      {overview && <section className="world-overview"><p>{overview.instructions}</p>{overview.uncertainty && <p>{overview.uncertainty}</p>}</section>}
+      <div className="world-hub-list">{shortcuts.map(({page,entries})=> {
+        const checkable = entries.filter(e=>e.checkable);
+        return <a key={page.id} href={`#/kh1fm/${page.id}?world=${encodeURIComponent(world)}`}><strong>{page.title}</strong><span>{checkable.length ? `${checkable.filter(e=>state.checks[e.id]).length}/${checkable.length}` : `${entries.length} entries`}<Icon name="arrow" size={16} /></span></a>;
+      })}</div>
+      {worldEntries.some(e=>(e.category === "guide" || e.category === "summon") && e.id !== overview?.id) && <section className="world-notes"><h2>World notes</h2><GroupedEntries entries={worldEntries.filter(e=>(e.category === "guide" || e.category === "summon") && e.id !== overview?.id)} state={state} onToggle={onToggle} /></section>}
 
-function Filters({
-  category,
-  onCategory,
-  options,
-  status,
-  onStatus,
-}: {
-  category: string;
-  onCategory: (v: string) => void;
-  options: string[];
-  status: string;
-  onStatus: (v: string) => void;
-}) {
-  return (
+    </>}
+  </>;
+}
+function Catalogue({data,state,onToggle,page,route}: Common & {page: {id:string;title:string;categories:string[]}; route:string}) {
+  const {expanded,retained,resetVisibility,focusId} = useContext(ExpansionContext);
+  const [world,setWorld] = useStoredChoice<string>(`ars-arcanum:${page.id}:world`, "all");
+  const [status,setStatus] = useStoredChoice<string>(`ars-arcanum:${page.id}:status`, "all");
+  const queryWorld = new URLSearchParams(route.split("?")[1] || "").get("world");
+  useEffect(()=>{ if(queryWorld) setWorld(queryWorld); },[queryWorld]);
+  const entries = data.entries.filter(e=>page.categories.includes(e.category));
+  const worldOrder = data.entries.filter(e=>e.category === "guide" && e.id.startsWith("kh1fm-guide-") && e.id.endsWith("-collectibles")).map(e=>e.world!);
+  const worlds = uniq([...worldOrder, ...entries.map(e=>e.world || "General")]).filter(w=>entries.some(e=>(e.world || "General") === w));
+  const filtered = entries.filter(e=>e.id === focusId || ((world === "all" || (e.world || "General") === world) && ((expanded.has(e.id) && retained.has(e.id)) || status === "all" || (e.checkable && (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])))));
+  const checkable = entries.filter(e=>e.checkable);
+  return <>
+    <PageTitle title={page.title} aside={<span className="heading-stat">{checkable.length ? `${checkable.filter(e=>state.checks[e.id]).length}/${checkable.length}` : `${entries.length} entries`}</span>} />
     <div className="filter-bar">
-      <label className="select-field">
-        <Icon name="filter" size={16} />
-        <span className="sr-only">Filter by category</span>
-        <select value={category} onChange={(e) => onCategory(e.target.value)}>
-          <option value="all">All categories</option>
-          {options.map((c) => (
-            <option key={c} value={c}>
-              {label(c)}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label className="select-field">
-        <span className="sr-only">Filter by completion</span>
-        <select value={status} onChange={(e) => onStatus(e.target.value)}>
-          <option value="all">All records</option>
-          <option value="remaining">Remaining only</option>
-          <option value="completed">Completed only</option>
-        </select>
-      </label>
+      {entries.some(e=>e.world) && <label className="select-field"><span className="sr-only">Filter by world</span><select value={world} onChange={event=>{resetVisibility();setWorld(event.target.value);routeTo(`kh1fm/${page.id}?world=${encodeURIComponent(event.target.value)}`);}}><option value="all">All worlds</option>{worlds.map(w=><option key={w}>{w}</option>)}</select></label>}
+      {checkable.length > 0 && <label className="select-field"><span className="sr-only">Filter by completion</span><select value={status} onChange={event=>{resetVisibility();setStatus(event.target.value);}}><option value="all">All records</option><option value="remaining">Remaining only</option><option value="completed">Completed only</option></select></label>}
     </div>
-  );
+    <div className="results-note">{filtered.length} matching records</div>
+    <div className="world-grid">{worlds.map(w=> {
+      const visible = filtered.filter(e=>(e.world || "General")===w);
+      if (!visible.length) return null;
+      const all = entries.filter(e=>(e.world || "General")===w && e.checkable);
+      return <section className="world-card" key={w}><div className="world-card-heading"><h2>{worldOrder.includes(w) ? <a href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}>{w}</a> : w}</h2><span className="world-count">{all.length ? `${all.filter(e=>state.checks[e.id]).length}/${all.length}` : `${visible.length} entries`}</span></div>
+        {uniq(visible.map(e=>e.category)).map(c=> {
+          const group = visible.filter(e=>e.category === c);
+          const total = all.filter(e=>e.category === c);
+          return <div className="compact-category" key={c}><div className="compact-category-heading"><h3>{label(c)}</h3><CategoryExpansion entries={group} /><span>{total.length ? `${total.filter(e=>state.checks[e.id]).length}/${total.length}${c === "dalmatian" ? " groups" : ""}` : ""}</span></div><div className="compact-marks">{group.map(e=><EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}</div></div>;
+        })}
+      </section>;
+    })}</div>
+    {!filtered.length && <Empty>No entries match these filters.</Empty>}
+    {page.id === "dalmatians" && <p className="fine-print">A Dalmatian group counts as one check for three puppies.</p>}
+  </>;
 }
-function Worlds({ data, state, onToggle, world }: Common & { world?: string }) {
-  const [category, setCategory] = useStoredChoice<string>(
-      "ars-arcanum:world-category",
-      "all",
-    ),
-    [status, setStatus] = useStoredChoice<string>(
-      "ars-arcanum:world-status",
-      "all",
-    ),
-    [view, setView] = useStoredChoice<"compact" | "details">(
-      "ars-arcanum:world-view",
-      "compact",
-    );
-  useEffect(() => {
-    const route =
-      "kh1fm/worlds" + (world ? "/" + encodeURIComponent(world) : "");
-    try {
-      localStorage.setItem("ars-arcanum:world-route", route);
-      const scroll = Number(
-        sessionStorage.getItem("ars-arcanum:scroll:" + route) || 0,
-      );
-      requestAnimationFrame(() =>
-        journalScroll().scrollTo({ top: scroll, behavior: "instant" }),
-      );
-    } catch {}
-    return () => {
-      try {
-        sessionStorage.setItem(
-          "ars-arcanum:scroll:" + route,
-          String(journalScrollY()),
-        );
-      } catch {}
-    };
-  }, [world]);
-  const entries = data.entries.filter((e) => e.collectible && e.checkable);
-  const worlds = uniq(entries.map((e) => e.world || "Other collections"));
-  const worldEntries = world
-    ? entries.filter((e) => (e.world || "Other collections") === world)
-    : entries;
-  const count = formatCount(worldEntries, state);
-  const filtered = worldEntries.filter(
-    (e) =>
-      (category === "all" || e.category === category) &&
-      (status === "all" ||
-        (status === "completed" ? !!state.checks[e.id] : !state.checks[e.id])),
-  );
-  return (
-    <>
-      <PageTitle
-        eyebrow="Chapter 02 · A world of discoveries"
-        title={world || "World collectibles"}
-      >
-        {world
-          ? "Locations, conditions, and one shared check for every discovery."
-          : "An index of things to find, grouped by the worlds they call home."}
-      </PageTitle>
-      <div className="world-tabs" aria-label="Worlds">
-        <a href="#/kh1fm/worlds" className={!world ? "active" : ""}>
-          All worlds
-        </a>
-        {worlds.map((w) => (
-          <a
-            href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}
-            key={w}
-            className={world === w ? "active" : ""}
-          >
-            {w}
-          </a>
-        ))}
-      </div>
-      <div className="collection-tools">
-        <div className="collection-progress">
-          <Progress
-            {...count}
-            caption={
-              world
-                ? "World collectible checks"
-                : "All recorded collectible checks"
-            }
-          />
-          <small>
-            Guide coverage may be incomplete.{" "}
-            <a href="#/kh1fm/progress">View coverage</a>
-          </small>
-        </div>
-        <div className="segmented" aria-label="Collection presentation">
-          <button
-            className={view === "compact" ? "active" : ""}
-            onClick={() => setView("compact")}
-            aria-pressed={view === "compact"}
-          >
-            Compact index
-          </button>
-          <button
-            className={view === "details" ? "active" : ""}
-            onClick={() => setView("details")}
-            aria-pressed={view === "details"}
-          >
-            Location details
-          </button>
-        </div>
-      </div>
-      <Filters
-        category={category}
-        onCategory={setCategory}
-        options={uniq(entries.map((e) => e.category))}
-        status={status}
-        onStatus={setStatus}
-      />
-      <div className="results-note">
-        {filtered.length} matching{" "}
-        {filtered.length === 1 ? "record" : "records"}{" "}
-        <span>· Filters do not change collection totals.</span>
-      </div>
-      {!filtered.length ? (
-        <Empty>Try a different category or choose “All records.”</Empty>
-      ) : view === "details" ? (
-        <div className="entry-list">
-          {filtered.map((e) => (
-            <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />
-          ))}
-        </div>
-      ) : (
-        <div className="world-grid">
-          {(world ? [world] : worlds).map((w) => {
-            const list = filtered.filter(
-              (e) => (e.world || "Other collections") === w,
-            );
-            if (!list.length) return null;
-            const all = entries.filter(
-              (e) => (e.world || "Other collections") === w,
-            );
-            const wc = formatCount(all, state);
-            return (
-              <section className="world-card" key={w}>
-                <div className="world-card-heading">
-                  <span className="world-emblem">
-                    <Icon name="world" size={24} />
-                  </span>
-                  <div>
-                    <span className="eyebrow">World collection</span>
-                    <h2>
-                      <a href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}>
-                        {w}
-                      </a>
-                    </h2>
-                  </div>
-                  <span className="world-count">
-                    {wc.done}
-                    <span>/{wc.total}</span>
-                  </span>
-                </div>
-                {uniq(list.map((e) => e.category)).map((c) => (
-                  <div className="compact-category" key={c}>
-                    <div className="compact-category-heading">
-                      <h3>{label(c)}</h3>
-                      <span>
-                        {
-                          list.filter(
-                            (e) => e.category === c && state.checks[e.id],
-                          ).length
-                        }
-                        /{all.filter((e) => e.category === c).length}
-                        {c === "dalmatian" ? " groups" : ""}
-                      </span>
-                    </div>
-                    <div className="compact-marks">
-                      {list
-                        .filter((e) => e.category === c)
-                        .map((e, i) => (
-                          <div
-                            className={`compact-item ${state.checks[e.id] ? "complete" : ""}`}
-                            key={e.id}
-                          >
-                            <Check
-                              compact
-                              entry={e}
-                              state={state}
-                              onToggle={onToggle}
-                            />
-                            <a
-                              href={entryHref(e.id)}
-                              title={`Open ${e.name} location`}
-                            >
-                              <span>
-                                {e.category === "dalmatian"
-                                  ? e.name.replace(/Dalmatian(?:s)?\s*/i, "")
-                                  : e.name}
-                              </span>
-                              <Icon name="arrow" size={12} />
-                            </a>
-                          </div>
-                        ))}
-                    </div>
-                  </div>
-                ))}
-                <a
-                  className="world-details-link"
-                  href={`#/kh1fm/worlds/${encodeURIComponent(w)}`}
-                  onClick={() => setView("details")}
-                >
-                  View location details <Icon name="arrow" size={15} />
-                </a>
-              </section>
-            );
-          })}
-        </div>
-      )}
-      <p className="fine-print">
-        Compact checks and location rows share the same saved record. Ordering
-        is this app’s index unless the item itself has an official number. A
-        Dalmatian group is one check, containing three puppies.
-      </p>
-    </>
-  );
+type ExpansionState = { data: GameData; expanded: Set<string>; retained: Set<string>; resetVisibility: () => void; focusId: string; toggle: (id: string) => void; setMany: (ids: string[], open: boolean) => void };
+const ExpansionContext = createContext<ExpansionState>(null!);
+function CategoryExpansion({ entries }: { entries: GuideEntry[] }) {
+  const { expanded, setMany } = useContext(ExpansionContext);
+  const allOpen = entries.length > 0 && entries.every(e => expanded.has(e.id));
+  return <button className="category-expansion" onClick={() => setMany(entries.map(e => e.id), !allOpen)}>{allOpen ? "Collapse all" : "Expand all"}</button>;
 }
-function EntryRow({
-  entry: e,
-  state,
-  onToggle,
-}: {
-  entry: GuideEntry;
-  state: PlayerState;
-  onToggle: (id: string) => unknown;
-}) {
-  return (
-    <article
-      className={`entry-row ${state.checks[e.id] ? "recorded" : ""}`}
-      id={`row-${e.id}`}
-    >
-      <div className="entry-row-top">
-        <div>
-          <span className="entry-kicker">
-            {label(e.category)}
-            {e.world && ` · ${e.world}`}
-          </span>
-          <h3>
-            <a href={entryHref(e.id)}>{e.name}</a>
-          </h3>
-          {e.area && <p className="entry-area">{e.area}</p>}
-        </div>
-        {e.checkable && <Check entry={e} state={state} onToggle={onToggle} />}
-      </div>
-      <p>{e.instructions || e.summary}</p>
-      {e.prerequisites && (
-        <div className="prerequisite">
-          <Icon name="info" size={15} />
-          <span>
-            <strong>Requires:</strong> {e.prerequisites}
-          </span>
-        </div>
-      )}
-      {e.reward && (
-        <p className="entry-reward">
-          <strong>Reward:</strong> {e.reward}
-        </p>
-      )}
-      <div className="entry-row-footer">
-        <a href={entryHref(e.id)}>
-          Open entry <Icon name="arrow" size={14} />
-        </a>
-      </div>
-    </article>
-  );
+function EntryToggle({ entry, children, ariaLabel }: { entry: GuideEntry; children?: ReactNode; ariaLabel?: string }) {
+  const { data, expanded, toggle } = useContext(ExpansionContext);
+  const duplicate = data.entries.some(e => e.id !== entry.id && e.name === entry.name && e.world === entry.world);
+  const landmark = duplicate && entry.category === "trinity" ? entry.instructions.split(". ")[1] : "";
+  return <button className="entry-toggle" aria-label={ariaLabel} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
+    <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
+  </button>;
 }
-
-function EntryPage({ data, state, onToggle, id }: Common & { id: string }) {
-  const e = data.entries.find((e) => e.id === id);
-  if (!e)
-    return (
-      <>
-        <PageTitle eyebrow="Journal entry" title="This page wasn’t found." />
-        <p>
-          The link may refer to a different guide edition or an entry that has
-          moved.
-        </p>
-        <a className="button" href="#/kh1fm/contents">
-          Return to contents
-        </a>
-      </>
-    );
-  const related = data.entries.filter((item) => e.relatedIds.includes(item.id));
-  const recipe = data.recipes.find((r) => r.entryId === id);
-  const internalFacts = new Set([
-    "countingUnit",
-    "sourceRow",
-    "acquisitionId",
-    "recordGame",
-    "recordType",
-    "steamAppId",
-    "platformApiId",
-    "evidenceKind",
-    "sourceCheckedAt",
-    "source reconciliation",
-    "legacy correction",
-    "earliestUnlockStatus",
-  ]);
-  const visibleFacts = Object.entries(e.facts || {}).filter(
-    ([key]) => !internalFacts.has(key),
-  );
-  return (
-    <>
-      <a
-        className="text-back"
-        href={
-          e.collectible
-            ? worldReturnHref()
-            : e.category === "recipe"
-              ? "#/kh1fm/synthesis"
-              : "#/kh1fm/reference"
-        }
-      >
-        <Icon name="back" size={16} />
-        Back to{" "}
-        {e.collectible
-          ? "world collectibles"
-          : e.category === "recipe"
-            ? "synthesis"
-            : "reference"}
-      </a>
-      <PageTitle
-        eyebrow={`${label(e.category)} · Kingdom Hearts Final Mix`}
-        title={e.name}
-        aside={
-          e.checkable && <Check entry={e} state={state} onToggle={onToggle} />
-        }
-      >
-        {e.summary}
-      </PageTitle>
-      <div
-        className={`entry-detail ${e.uncertainty ? "" : "entry-detail-full"}`}
-      >
-        <div className="entry-detail-main">
-          <EntryMedia media={e.media} />
-          {(e.world || e.area) && (
-            <div className="location-banner">
-              <Icon name="world" size={26} />
-              <div>
-                <span className="eyebrow">Location</span>
-                <strong>
-                  {e.world}
-                  {e.world && e.area ? " · " : ""}
-                  {e.area}
-                </strong>
-              </div>
-            </div>
-          )}
-          <section>
-            <h2>{e.collectible ? "How to find it" : "Journal notes"}</h2>
-            <p className="readable-text">{e.instructions}</p>
-          </section>
-          {e.prerequisites && (
-            <section className="detail-condition">
-              <span className="eyebrow">Acquisition conditions</span>
-              <p>{e.prerequisites}</p>
-            </section>
-          )}
-          {e.reward && (
-            <section>
-              <h2>Reward / effect</h2>
-              <p>{e.reward}</p>
-            </section>
-          )}
-          {e.missability && (
-            <section>
-              <h2>Revisit & missability</h2>
-              <p>{e.missability}</p>
-            </section>
-          )}
-          {recipe && (
-            <section>
-              <h2>Ingredients</h2>
-              <ul className="ingredient-list">
-                {recipe.ingredients.map((ing) => (
-                  <li key={ing.itemId}>
-                    <a href={entryHref(ing.itemId)}>{ing.name}</a>
-                    <strong>{ing.quantity}</strong>
-                  </li>
-                ))}
-              </ul>
-              <p className="fine-print">{recipe.unlock}</p>
-              <a href="#/kh1fm/synthesis" className="button">
-                Open synthesis planner <Icon name="arrow" size={16} />
-              </a>
-            </section>
-          )}
-          {visibleFacts.length > 0 && (
-            <section>
-              <h2>At a glance</h2>
-              <dl className="facts-list">
-                {visibleFacts.map(([key, value]) => (
-                  <div key={key}>
-                    <dt>
-                      {key
-                        .replace(/([a-z])([A-Z])/g, "$1 $2")
-                        .replaceAll("_", " ")}
-                    </dt>
-                    <dd>{String(value)}</dd>
-                  </div>
-                ))}
-              </dl>
-            </section>
-          )}
-        </div>
-        {e.uncertainty && (
-          <aside className="entry-source-panel">
-            <span className="eyebrow">A detail to check</span>
-            <h2>Entry note</h2>
-            <p>{e.uncertainty}</p>
-          </aside>
-        )}
+function InlineDetails({entry, state, compactMaterial = false}: {entry: GuideEntry; state: PlayerState; compactMaterial?: boolean}) {
+  const {data, expanded} = useContext(ExpansionContext);
+  return <div className="entry-inline-details" id={`details-${entry.id}`} hidden={!expanded.has(entry.id)}>{expanded.has(entry.id) && <EntryDetails data={data} state={state} entry={entry} compactMaterial={compactMaterial} />}</div>;
+}
+function EntryRow({ entry: e, state, onToggle }: { entry: GuideEntry; state: PlayerState; onToggle: (id: string) => unknown }) {
+  return <article className={`entry-row ${state.checks[e.id] ? "recorded" : ""}`} id={`row-${e.id}`}>
+    <div className="entry-row-top">
+      {e.checkable && <Check compact entry={e} state={state} onToggle={onToggle} />}
+      <div className="entry-row-label"><h3><EntryToggle entry={e} /></h3>
+        {e.area && !e.name.includes(e.area) && <span className="entry-area">{e.area}</span>}
       </div>
-      {related.length > 0 && (
-        <section className="related-section">
-          <div className="section-heading">
-            <h2>Cross-references</h2>
-            <span className="eyebrow">Keep following the thread</span>
-          </div>
-          <div className="related-grid">
-            {related.map((r) => (
-              <a href={entryHref(r.id)} key={r.id}>
-                <span>
-                  <small>{label(r.category)}</small>
-                  <strong>{r.name}</strong>
-                </span>
-                <Icon name="arrow" size={17} />
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-    </>
-  );
+    </div>
+    <InlineDetails entry={e} state={state} />
+  </article>;
+}
+function GroupedEntries({entries, state, onToggle}: {entries: GuideEntry[]; state: PlayerState; onToggle: (id: string) => unknown}) {
+  return <div className="entry-list">{uniq(entries.map(e=>e.category)).map(category => {
+    const group = entries.filter(e=>e.category === category);
+    return <section className="entry-category" key={category}><div className="compact-category-heading"><h2>{label(category)}</h2><CategoryExpansion entries={group} /></div>{group.map(e=><EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />)}</section>;
+  })}</div>;
+}
+function MissingEntry() {
+  return <><PageTitle title="Entry not found" /><a href="#/kh1fm/contents">Return to contents</a></>;
 }
 function Search({ data, state, onToggle, query }: Common & { query: string }) {
   const normalized = query.trim().toLowerCase();
@@ -1357,17 +872,9 @@ function Search({ data, state, onToggle, query }: Common & { query: string }) {
     : [];
   return (
     <>
-      <PageTitle eyebrow="The journal index" title="Find your next discovery.">
-        {normalized
-          ? `${found.length} ${found.length === 1 ? "entry" : "entries"} matching “${query}” in Kingdom Hearts Final Mix.`
-          : "Search by item, world, material, adversary, or anything you’re trying to find."}
-      </PageTitle>
+      <PageTitle title={normalized ? `Search: ${query}` : "Search"} aside={normalized ? <span className="heading-stat">{found.length} results</span> : undefined} />
       {found.length ? (
-        <div className="entry-list">
-          {found.map((e) => (
-            <EntryRow entry={e} key={e.id} state={state} onToggle={onToggle} />
-          ))}
-        </div>
+        <GroupedEntries entries={found} state={state} onToggle={onToggle} />
       ) : (
         <Empty>
           {normalized
@@ -1384,6 +891,7 @@ function Reference({
   onToggle,
   challenges,
 }: Common & { challenges: boolean }) {
+  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
   const permitted = challenges
     ? ["cup", "boss", "minigame", "gummi", "achievement"]
     : [
@@ -1396,17 +904,14 @@ function Reference({
         "report",
         "guide",
       ];
-  const [category, setCategory] = useState("all"),
-    [status, setStatus] = useState("all");
-  useEffect(() => {
-    setCategory("all");
-    setStatus("all");
-  }, [challenges]);
+  const scope = challenges ? "challenges" : "reference";
+  const [category, setCategory] = useStoredChoice<string>(`ars-arcanum:kh1fm:${scope}:category`, "all"),
+    [status, setStatus] = useStoredChoice<string>(`ars-arcanum:kh1fm:${scope}:status`, "all");
   const entries = data.entries.filter((e) => permitted.includes(e.category));
   const filtered = entries.filter(
     (e) =>
-      (category === "all" || e.category === category) &&
-      (status === "all" ||
+      (e.id === focusId || category === "all" || e.category === category) &&
+      (e.id === focusId || (expanded.has(e.id) && retained.has(e.id)) || status === "all" ||
         (e.checkable &&
           (status === "completed"
             ? !!state.checks[e.id]
@@ -1414,22 +919,11 @@ function Reference({
   );
   return (
     <>
-      <PageTitle
-        eyebrow={
-          challenges
-            ? "Chapter 05 · The extra mile"
-            : "Chapter 04 · Notes worth keeping"
-        }
-        title={challenges ? "Challenges & records" : "The reference library"}
-      >
-        {challenges
-          ? "Optional encounters, records, and named goals. These checks are separate from world collectibles."
-          : "Equipment, spells, abilities, adversaries, and the useful details behind them."}
-      </PageTitle>
+      <PageTitle title={challenges ? "Challenges & records" : "Reference"} aside={<span className="heading-stat">{filtered.length} entries</span>} />
       <div className="category-tabs">
         <button
           className={category === "all" ? "active" : ""}
-          onClick={() => setCategory("all")}
+          onClick={() => { resetVisibility(); setCategory("all"); }}
         >
           All entries <span>{entries.length}</span>
         </button>
@@ -1439,7 +933,7 @@ function Reference({
             <button
               key={c}
               className={category === c ? "active" : ""}
-              onClick={() => setCategory(c)}
+              onClick={() => { resetVisibility(); setCategory(c); }}
             >
               {label(c)}
               <span>{n}</span>
@@ -1449,19 +943,14 @@ function Reference({
       </div>
       <label className="select-field reference-remaining">
         <span className="sr-only">Filter reference entries by completion</span>
-        <select value={status} onChange={(e) => setStatus(e.target.value)}>
+        <select value={status} onChange={(e) => { resetVisibility(); setStatus(e.target.value); }}>
           <option value="all">All reference entries</option>
           <option value="remaining">Remaining checkable goals</option>
           <option value="completed">Completed goals</option>
         </select>
       </label>
-      <div className="results-note">{filtered.length} matching records</div>
       {filtered.length ? (
-        <div className="entry-list">
-          {filtered.map((e) => (
-            <EntryRow key={e.id} entry={e} state={state} onToggle={onToggle} />
-          ))}
-        </div>
+        <GroupedEntries entries={filtered} state={state} onToggle={onToggle} />
       ) : (
         <Empty>
           No entries match this selection. Choose all reference entries to
@@ -1485,10 +974,16 @@ function Quantity({
 }) {
   const [draft, setDraft] = useState(value === undefined ? "" : String(value));
   const [error, setError] = useState("");
-  useEffect(() => setDraft(value === undefined ? "" : String(value)), [value]);
+  const dirty = useRef(false);
+  useEffect(() => {
+    setDraft(value === undefined ? "" : String(value));
+    dirty.current = false;
+  }, [value]);
   const commit = () => {
+    if (!dirty.current) return;
     if (draft === "" && unknown) {
       setError("");
+      dirty.current = false;
       onChange(null);
       return;
     }
@@ -1498,6 +993,7 @@ function Quantity({
       return;
     }
     setError("");
+    dirty.current = false;
     onChange(n);
   };
   return (
@@ -1511,7 +1007,7 @@ function Quantity({
         title={error || name}
         placeholder={unknown ? "?" : "0"}
         value={draft}
-        onChange={(e) => setDraft(e.target.value)}
+        onChange={(e) => { dirty.current = true; setDraft(e.target.value); }}
         onBlur={commit}
         onKeyDown={(e) => {
           if (e.key === "Enter") e.currentTarget.blur();
@@ -1532,56 +1028,36 @@ function Synthesis({
   player,
   initialTab,
 }: Common & { player: Player; initialTab?: string }) {
+  const {expanded, retained, resetVisibility, focusId} = useContext(ExpansionContext);
   const tab = ["materials", "plan"].includes(initialTab || "")
     ? initialTab!
     : "recipes";
-  const [setFilter, setSetFilter] = useState("all"),
-    [query, setQuery] = useState(""),
-    [remaining, setRemaining] = useState(false),
-    [routes, setRoutes] = useState<Record<string, string>>({});
+  const [setFilter, setSetFilter] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:set", "all"),
+    [query, setQuery] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:query", ""),
+    [completion, setCompletion] = useStoredChoice<string>("ars-arcanum:kh1fm:synthesis:completion", "all");
+  const remaining = completion === "remaining";
+  const [farmNotice, setFarmNotice] = useState("");
+  const [adding, setAdding] = useState(false);
+  useEffect(() => { setFarmNotice(""); }, [initialTab]);
+  async function addToFarm(action: () => Promise<void>, message: string) {
+    setAdding(true);
+    try { await action(); setFarmNotice(message); }
+    catch(error) { setFarmNotice(error instanceof Error ? error.message : "Could not update the farming plan."); }
+    finally { setAdding(false); }
+  }
   const recipes = data.recipes.filter(
     (r) =>
-      (setFilter === "all" || r.set === Number(setFilter)) &&
+      r.entryId === focusId || ((setFilter === "all" || r.set === Number(setFilter)) &&
       r.name.toLowerCase().includes(query.toLowerCase()) &&
-      (!remaining || !state.checks[r.entryId]),
+      ((expanded.has(r.entryId) && retained.has(r.entryId)) || !remaining || !state.checks[r.entryId])),
   );
-  const materials = data.entries.filter((e) => e.category === "material");
-  const plan = useMemo(
-    () =>
-      calculatePlan(data.recipes, state.plan, state.inventory, {
-        inventoryEnabled: state.inventoryEnabled,
-        routeChoices: routes,
-        mode: state.planMode ?? "selected",
-      }),
-    [
-      data.recipes,
-      state.plan,
-      state.inventory,
-      state.inventoryEnabled,
-      state.planMode,
-      routes,
-    ],
-  );
-  const selected = data.recipes.filter((r) => state.plan[r.id] > 0);
-  const planCount = Object.values(state.plan).reduce((sum, n) => sum + n, 0);
+  const materials = data.entries.filter((e) => e.category === "material").sort(compareMaterials);
+  const farmPlan = state.farmPlan || {};
+  const plannedMaterials = materials.filter(e=>(farmPlan[e.id] || 0) > 0);
+  const planCount = plannedMaterials.length;
   return (
     <>
-      <PageTitle
-        eyebrow="Chapter 03 · Made of little discoveries"
-        title="The synthesis workshop"
-      >
-        Find a recipe. Gather what you need. Make something worth keeping.
-      </PageTitle>
-      <div className="workshop-intro">
-        <Icon name="spark" size={27} />
-        <div>
-          <strong>Catalog history and material stock are independent.</strong>
-          <p>
-            “Crafted” records a past achievement. It never deducts materials.
-            Your plan calculates what to gather for the quantities you choose.
-          </p>
-        </div>
-      </div>
+      <PageTitle title="Synthesis" aside={<span className="heading-stat">{data.recipes.filter((r) => state.checks[r.entryId]).length}/{data.recipes.length} crafted</span>} />
       <div className="workshop-toolbar">
         <div
           className="segmented workshop-tabs"
@@ -1590,7 +1066,7 @@ function Synthesis({
           {[
             ["recipes", "Recipes"],
             ["materials", "Materials"],
-            ["plan", `Craft plan${planCount ? ` · ${planCount}` : ""}`],
+            ["plan", `Farming Plan${planCount ? ` · ${planCount}` : ""}`],
           ].map(([id, text]) => (
             <a
               key={id}
@@ -1601,23 +1077,10 @@ function Synthesis({
             </a>
           ))}
         </div>
-        <label className="toggle-label">
-          <input
-            type="checkbox"
-            checked={state.inventoryEnabled}
-            onChange={(e) => player.setInventoryEnabled(e.target.checked)}
-          />
-          <span className="toggle-track" />
-          Track owned materials
-        </label>
+
       </div>
-      {state.inventoryEnabled && (
-        <div className="inventory-note">
-          <strong>Owned / required</strong> compares manually entered stock with
-          recipe needs. “?” means you haven’t entered a count. Edits save when
-          you leave the field; clearing a field restores unknown.
-        </div>
-      )}
+      <p className="tool-note">{tab === "materials" ? "Enter owned stock; blank means unknown. Changes save when you leave the field." : tab === "plan" ? "Targets are total stock to have; remaining is target minus owned. Blank stock means unknown." : "Counts show owned / required; ? means unknown. Marking a recipe crafted does not deduct stock."}</p>
+      {farmNotice && <p className="tool-note" role="status">{farmNotice}</p>}
       {tab === "recipes" ? (
         <>
           <div className="recipe-filters">
@@ -1627,7 +1090,7 @@ function Synthesis({
               <input
                 type="search"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => { resetVisibility(); setQuery(e.target.value); }}
                 placeholder="Find a recipe…"
               />
             </label>
@@ -1635,7 +1098,7 @@ function Synthesis({
               <span>Set</span>
               <select
                 value={setFilter}
-                onChange={(e) => setSetFilter(e.target.value)}
+                onChange={(e) => { resetVisibility(); setSetFilter(e.target.value); }}
               >
                 <option value="all">All sets</option>
                 {uniq(data.recipes.map((r) => r.set))
@@ -1651,130 +1114,30 @@ function Synthesis({
               <input
                 type="checkbox"
                 checked={remaining}
-                onChange={(e) => setRemaining(e.target.checked)}
+                onChange={(e) => { resetVisibility(); setCompletion(e.target.checked ? "remaining" : "all"); }}
               />
               <span className="toggle-track" />
               Not yet crafted
             </label>
           </div>
           <div className="catalog-actions">
-            <div className="results-note">
-              {recipes.length} recipes ·{" "}
-              {data.recipes.filter((r) => state.checks[r.entryId]).length}/
-              {data.recipes.length} historically crafted
-            </div>
-            <button
-              className="button button-secondary"
-              onClick={async () => {
-                await player.setPlanGoals(
-                  Object.fromEntries(
-                    data.recipes
-                      .filter((r) => !state.checks[r.entryId])
-                      .map((r) => [r.id, 1]),
-                  ),
-                  "first-craft",
-                );
-                routeTo("kh1fm/synthesis/plan");
-              }}
-            >
-              Plan all uncrafted recipes <Icon name="arrow" size={15} />
-            </button>
+            <div className="results-note">{recipes.length} {recipes.length === 1 ? "recipe" : "recipes"}</div>
+            <CategoryExpansion entries={recipes.flatMap(r => data.entries.filter(e=>e.id === r.entryId))} />
           </div>
           <div className="recipe-grid">
             {recipes.map((recipe) => {
               const entry = data.entries.find((e) => e.id === recipe.entryId);
-              const requirements = recipeRequirements(
-                recipe,
-                1,
-                state.inventory,
-                state.inventoryEnabled,
-              );
               return (
-                <article className="recipe-card" key={recipe.id}>
+                <article className="recipe-card" key={recipe.id} id={`row-${recipe.entryId}`}>
                   <div className="recipe-card-heading">
+                    {entry && <Check compact entry={entry} state={state} onToggle={onToggle} />}
                     <span className="recipe-set">
                       SET {String(recipe.set).padStart(2, "0")}
                     </span>
-                    {entry && (
-                      <Check entry={entry} state={state} onToggle={onToggle} />
-                    )}
+                    <h2>{entry && <EntryToggle entry={entry} />}</h2>
                   </div>
-                  <h2>
-                    <a href={entryHref(recipe.entryId)}>{recipe.name}</a>
-                  </h2>
-                  <p className="recipe-unlock">{recipe.unlock}</p>
-                  <ul className="ingredient-list">
-                    {requirements.map((item) => (
-                      <li key={item.itemId}>
-                        <a href={entryHref(item.itemId)}>
-                          {item.name}
-                          <Icon name="arrow" size={12} />
-                        </a>
-                        <strong
-                          className={
-                            state.inventoryEnabled && item.missing === 0
-                              ? "stock-enough"
-                              : ""
-                          }
-                          aria-label={
-                            state.inventoryEnabled
-                              ? `${item.owned === null ? "Unknown" : item.owned} owned, ${item.required} required`
-                              : `${item.required} required`
-                          }
-                        >
-                          {state.inventoryEnabled ? (
-                            <>
-                              <span>
-                                {item.owned === null ? "?" : item.owned}
-                              </span>{" "}
-                              / {item.required}
-                            </>
-                          ) : (
-                            <>
-                              <span>×</span> {item.required}
-                            </>
-                          )}
-                        </strong>
-                      </li>
-                    ))}
-                  </ul>
-                  {recipe.uncertainty && (
-                    <p className="uncertainty">{recipe.uncertainty}</p>
-                  )}
-                  <div className="recipe-plan-control">
-                    <label>Craft plan quantity</label>
-                    <div className="stepper">
-                      <button
-                        aria-label={`Remove one ${recipe.name} from plan`}
-                        disabled={!state.plan[recipe.id]}
-                        onClick={() =>
-                          player.setPlan(
-                            recipe.id,
-                            Math.max(0, (state.plan[recipe.id] || 0) - 1),
-                          )
-                        }
-                      >
-                        <Icon name="minus" size={15} />
-                      </button>
-                      <Quantity
-                        name={`${recipe.name} craft plan quantity`}
-                        value={state.plan[recipe.id] || 0}
-                        onChange={(n) => player.setPlan(recipe.id, n || 0)}
-                      />
-                      <button
-                        aria-label={`Add one ${recipe.name} to plan`}
-                        disabled={(state.plan[recipe.id] || 0) >= 9999}
-                        onClick={() =>
-                          player.setPlan(
-                            recipe.id,
-                            (state.plan[recipe.id] || 0) + 1,
-                          )
-                        }
-                      >
-                        <Icon name="plus" size={15} />
-                      </button>
-                    </div>
-                  </div>
+                  <button className="button button-secondary farm-add-button" disabled={adding} aria-label={`Add ${recipe.name} ingredients to farming plan`} onClick={()=>addToFarm(()=>player.addRecipeToFarmPlan(recipe.id), `Added ingredients for one ${recipe.name} craft to the farming plan.`)}>Add to farming plan</button>
+                  {entry && <InlineDetails entry={entry} state={state} />}
                 </article>
               );
             })}
@@ -1783,220 +1146,50 @@ function Synthesis({
         </>
       ) : tab === "materials" ? (
         <>
-          <div className="section-heading">
-            <h2>Your material field notes</h2>
-            <span className="eyebrow">
-              {materials.length} recorded materials
-            </span>
-          </div>
           <div className="material-list">
-            {materials.map((e) => (
-              <article className="material-card" key={e.id}>
-                <div className="material-heading">
-                  <div>
-                    <span className="entry-kicker">
-                      {e.world || "Synthesis material"}
-                    </span>
-                    <h3>
-                      <a href={entryHref(e.id)}>{e.name}</a>
-                    </h3>
+            {uniq(materials.map(materialFamily)).map(family => {
+              const group = materials.filter(e=>materialFamily(e) === family);
+              return <section className="material-family" key={family}>
+                <div className="compact-category-heading"><h2>{family}</h2><CategoryExpansion entries={group} /></div>
+                {group.map(e=><article className="material-card" key={e.id} id={`row-${e.id}`}>
+                  <div className="material-heading">
+                    <div className="material-summary">
+                      <h3><EntryToggle entry={e} /></h3>
+                      <div className="material-drop-summary">{materialDropLines(e).map((line,i)=><p key={i}>{line.replace(/\.$/, "")}<span className="material-location">{materialDropLocation(e,line) && ` — ${materialDropLocation(e,line)}`}</span></p>)}
+                      </div>
+                    </div>
+                    <label className="stock-field"><span>Owned</span><Quantity unknown value={state.inventory[e.id]} name={`${e.name} owned stock; blank means unknown`} onChange={n=>player.setInventory(e.id,n)} /></label>
                   </div>
-                  {state.inventoryEnabled && (
-                    <label className="stock-field">
-                      <span>Owned</span>
-                      <Quantity
-                        unknown
-                        value={state.inventory[e.id]}
-                        name={`${e.name} owned stock; blank means unknown`}
-                        onChange={(n) => player.setInventory(e.id, n)}
-                      />
-                    </label>
-                  )}
-                </div>
-                <p>{e.instructions || e.summary}</p>
-                {e.prerequisites && (
-                  <p className="prerequisite">
-                    <strong>Conditions:</strong> {e.prerequisites}
-                  </p>
-                )}
-                <a className="material-source-link" href={entryHref(e.id)}>
-                  Farming notes <Icon name="arrow" size={15} />
-                </a>
-              </article>
-            ))}
+                  <button className="button button-secondary farm-add-button" disabled={adding || (farmPlan[e.id] || 0) > 0} aria-label={`Add ${e.name} to farming plan`} onClick={()=>addToFarm(()=>player.addMaterialToFarmPlan(e.id), `${e.name} added with a target of 1. Edit the target in Farming Plan.`)}>{(farmPlan[e.id] || 0) > 0 ? "In farming plan" : "Add to farming plan"}</button>
+                  <InlineDetails entry={e} state={state} compactMaterial />
+                </article>)}
+              </section>;
+            })}
           </div>
         </>
       ) : (
         <>
-          <div className="section-heading">
-            <h2>Your next creations</h2>
-            <span className="eyebrow">{selected.length} selected recipes</span>
-          </div>
-          {selected.length === 0 ? (
-            <div className="empty-state">
-              <Icon name="spark" size={30} />
-              <h3>A blank page, full of possibilities.</h3>
-              <p>
-                Add quantities from the recipe catalog to build your material
-                plan.
-              </p>
-              <a href="#/kh1fm/synthesis/recipes" className="button">
-                Browse recipes <Icon name="arrow" size={16} />
-              </a>
-            </div>
-          ) : (
-            <>
-              <div className="plan-goals">
-                {selected.map((r) => (
-                  <div className="plan-goal" key={r.id}>
-                    <a href={entryHref(r.entryId)}>{r.name}</a>
-                    <label>
-                      <span>Crafts</span>
-                      <Quantity
-                        value={state.plan[r.id]}
-                        name={`${r.name} planned craft quantity`}
-                        onChange={(n) => player.setPlan(r.id, n || 0)}
-                      />
-                    </label>
-                    <button
-                      className="icon-button"
-                      onClick={() => player.setPlan(r.id, 0)}
-                      aria-label={`Remove ${r.name} from craft plan`}
-                    >
-                      <Icon name="close" size={16} />
-                    </button>
+          <div className="section-heading"><h2>Farming Plan</h2><span>{planCount} {planCount === 1 ? "material" : "materials"}</span></div>
+          {plannedMaterials.length === 0 ? <Empty>Add materials or recipe ingredients to start a farming plan.</Empty> :
+            <div className="material-list farm-plan-list">{uniq(plannedMaterials.map(materialFamily)).map(family => <section className="material-family" key={family}>
+              <div className="compact-category-heading"><h2>{family}</h2></div>
+              {plannedMaterials.filter(e=>materialFamily(e)===family).map(e=> {
+                const target = farmPlan[e.id];
+                const owned = state.inventory[e.id];
+                const needed = owned === undefined ? null : Math.max(0,target-owned);
+                return <article className="material-card farm-plan-row" id={`row-${e.id}`} key={e.id}>
+                  <div className="farm-row-heading"><h3>{e.name}</h3><button className="icon-button" aria-label={`Remove ${e.name} from farming plan`} onClick={()=>player.setFarmTarget(e.id,0)}><Icon name="close" size={16} /></button></div>
+                  <div className="material-drop-summary">{materialDropLines(e).map((line,i)=><p key={i}>{line.replace(/\.$/, "")}<span className="material-location">{materialDropLocation(e,line) && ` — ${materialDropLocation(e,line)}`}</span></p>)}</div>
+                  <div className="farm-target-controls">
+                    <label><span>Target</span><Quantity value={target} name={`${e.name} target stock`} onChange={n=>player.setFarmTarget(e.id,n || 0)} /></label>
+                    <label><span>Owned</span><Quantity unknown value={owned} name={`${e.name} owned stock`} onChange={n=>player.setInventory(e.id,n)} /></label>
+                    <div className={needed === 0 ? "stock-enough" : "needed-count"}><span>Remaining</span><strong aria-label={`${e.name}: ${needed === null ? "unknown" : needed} remaining`}>{needed === null ? "?" : needed}</strong></div>
                   </div>
-                ))}
-              </div>
-              <div className="plan-explanation">
-                <Icon name="info" size={19} />
-                <p>
-                  {plan.allocationRule}{" "}
-                  {state.inventoryEnabled
-                    ? "Stock is allocated once across the complete plan."
-                    : "Inventory is off: these are full material requirements."}
-                </p>
-              </div>
-              {plan.issues.length > 0 && (
-                <div className="plan-issues" role="status">
-                  <strong>
-                    {plan.valid ? "Calculation notes" : "Check this plan"}
-                  </strong>
-                  {plan.issues.map((issue, i) => (
-                    <p key={i}>{issue.message}</p>
-                  ))}
-                </div>
-              )}
-              <div className="section-heading">
-                <h2>
-                  {state.inventoryEnabled
-                    ? "Materials still needed"
-                    : "Total materials required"}
-                </h2>
-                {plan.provisional && (
-                  <span className="badge badge-unresolved">
-                    Provisional · check unknown quantities
-                  </span>
-                )}
-              </div>
-              <div className="plan-materials">
-                {plan.materials.map((m) => {
-                  const options = getMaterialRoutes(data.recipes, m.itemId);
-                  return (
-                    <div className="plan-material" key={m.itemId}>
-                      <div className="plan-material-name">
-                        <a href={entryHref(m.itemId)}>
-                          {m.name}
-                          <Icon name="arrow" size={14} />
-                        </a>
-                        {options.length > 0 && (
-                          <label className="route-choice">
-                            <span>Acquire by</span>
-                            <select
-                              aria-label={`${m.name} acquisition route`}
-                              value={
-                                routes[m.itemId] ||
-                                (options.length === 1 ? options[0].id : "")
-                              }
-                              onChange={(e) =>
-                                setRoutes({
-                                  ...routes,
-                                  [m.itemId]: e.target.value,
-                                })
-                              }
-                            >
-                              {options.length > 1 && (
-                                <option value="">Choose a route</option>
-                              )}
-                              <option value="gather">
-                                Gather / already obtained
-                              </option>
-                              {options.map((r) => (
-                                <option key={r.id} value={r.id}>
-                                  Synthesize · {r.name}
-                                </option>
-                              ))}
-                            </select>
-                          </label>
-                        )}
-                      </div>
-                      <div className="plan-material-figures">
-                        <span>
-                          <small>Required</small>
-                          <strong>{m.required}</strong>
-                        </span>
-                        {state.inventoryEnabled && (
-                          <label>
-                            <small>Owned</small>
-                            <Quantity
-                              unknown
-                              value={state.inventory[m.itemId]}
-                              name={`${m.name} owned stock`}
-                              onChange={(n) => player.setInventory(m.itemId, n)}
-                            />
-                          </label>
-                        )}
-                        {m.crafted > 0 && (
-                          <span>
-                            <small>Crafted in plan</small>
-                            <strong>{m.crafted}</strong>
-                          </span>
-                        )}
-                        <span
-                          className={
-                            m.missing === 0 ? "stock-enough" : "needed-count"
-                          }
-                        >
-                          <small>
-                            {state.inventoryEnabled ? "To gather" : "Gather"}
-                          </small>
-                          <strong>
-                            {m.missing === null ? "?" : m.missing}
-                          </strong>
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-              {plan.crafts.some((c) => c.prerequisite > 0) && (
-                <div className="dependency-note">
-                  <h3>Included prerequisite crafts</h3>
-                  {plan.crafts
-                    .filter((c) => c.prerequisite > 0)
-                    .map((c) => (
-                      <p key={c.recipeId}>
-                        {c.name} × {c.prerequisite}
-                      </p>
-                    ))}
-                  <small>
-                    Only the shortfall is synthesized. These crafts do not
-                    automatically mark your catalog complete.
-                  </small>
-                </div>
-              )}
-            </>
-          )}
+                  <EntryToggle entry={e} ariaLabel={`More info about ${e.name}`}>More info</EntryToggle>
+                  <InlineDetails entry={e} state={state} compactMaterial />
+                </article>;
+              })}
+            </section>)}</div>}
         </>
       )}
     </>
@@ -2014,19 +1207,8 @@ function Settings({
     > | null>(null),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
-    [offlineReady, setOfflineReady] = useState(installation.offline),
-    [updateReady, setUpdateReady] = useState(installation.update),
     [recoveryReview, setRecoveryReview] = useState(false);
-  useEffect(() => {
-    const offline = () => setOfflineReady(true),
-      update = () => setUpdateReady(true);
-    window.addEventListener("ars-offline-ready", offline);
-    window.addEventListener("ars-update-ready", update);
-    return () => {
-      window.removeEventListener("ars-offline-ready", offline);
-      window.removeEventListener("ars-update-ready", update);
-    };
-  }, []);
+  const installation = useSyncExternalStore(subscribeInstallation, getInstallationState);
   async function readBackup(file: File | undefined) {
     if (!file) return;
     try {
@@ -2078,13 +1260,7 @@ function Settings({
   );
   return (
     <>
-      <PageTitle
-        eyebrow="Chapter 06 · Keep your place"
-        title="Your progress, safely kept."
-      >
-        This journal is yours. Review what’s recorded and keep a backup for
-        another device.
-      </PageTitle>
+      <PageTitle title="Progress & backups" />
       <div className="progress-summary-grid">
         <div>
           <span className="eyebrow">World collectibles</span>
@@ -2226,8 +1402,8 @@ function Settings({
               <dd>{preview.inventoryItems}</dd>
             </div>
             <div>
-              <dt>Planned recipes</dt>
-              <dd>{preview.plannedRecipes}</dd>
+              <dt>Farming targets</dt>
+              <dd>{preview.farmingTargets}</dd>
             </div>
           </dl>
           {preview.warnings.map((w, i) => (
@@ -2250,38 +1426,22 @@ function Settings({
       )}
       <section className="settings-section">
         <div>
-          <h2>Optional material inventory</h2>
-          <p>
-            Enter your own material counts in the workshop. Turning this off
-            preserves your quantities, and hides stock-adjusted calculations.
-          </p>
-        </div>
-        <label className="toggle-label">
-          <input
-            type="checkbox"
-            checked={state.inventoryEnabled}
-            onChange={(e) => player.setInventoryEnabled(e.target.checked)}
-          />
-          <span className="toggle-track" />
-          {state.inventoryEnabled ? "Inventory enabled" : "Inventory disabled"}
-        </label>
-      </section>
-      <section className="settings-section">
-        <div>
           <h2>Offline journal & Data Jiminy</h2>
           <p>
-            {offlineReady
-              ? "The journal has finished caching for offline use."
+            {installation.offline
+              ? "Saved journal files are available on this device."
               : "The journal caches guide pages for offline use when installation completes. Assistant models need their own one-time download in Data Jiminy."}{" "}
             Data Jiminy’s conversation stays in memory for this session and
             clears when you reload or leave the journal.
           </p>
-          {updateReady && (
+          <button className="button button-secondary" disabled={installation.checking} onClick={() => void checkForAppUpdate()}>
+            {installation.checking ? "Checking for updates…" : "Check for updates"}
+          </button>
+          <p className="fine-print" role="status">{installation.message} · App build {BUILD_REVISION}</p>
+          {installation.update && (
             <button
               className="button"
-              onClick={() =>
-                window.dispatchEvent(new Event("ars-apply-update"))
-              }
+              onClick={() => void applyAppUpdate()}
             >
               Load the available update
             </button>
@@ -2292,10 +1452,7 @@ function Settings({
         </span>
       </section>
       <section className="coverage-section">
-        <PageTitle eyebrow="An honest record" title="Guide coverage">
-          Entries included in this journal, grouped by collection or reference
-          category.
-        </PageTitle>
+        <h2>Guide coverage</h2>
         <div className="coverage-list">
           {data.coverage.map((c, i) => (
             <article key={`${c.category}-${i}`} className="coverage-row">

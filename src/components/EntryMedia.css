@@ -1,7 +1,7 @@
 .entry-media {
   display: grid;
-  gap: 1.5rem;
-  margin: 1.6rem 0;
+  gap: 1rem;
+  margin: 1rem 0;
   max-width: 100%;
 }
 .entry-media figure {
@@ -47,20 +47,20 @@
 }
 .entry-media figcaption,
 .media-viewer-caption {
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   line-height: 1.55;
   color: #374832;
   padding: 0.6rem 0;
 }
 .media-context {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   margin-top: 0.2rem;
   color: #536048;
   overflow-wrap: anywhere;
 }
 .media-annotation-text {
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   line-height: 1.6;
   margin: 0.5rem 0;
   padding-left: 1.5rem;
@@ -68,7 +68,7 @@
 .media-unavailable {
   display: block;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   line-height: 1.55;
 }
 .media-dialog {
@@ -101,7 +101,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.85rem;
+  font-size: 0.9375rem;
 }
 .media-viewer-controls input {
   min-height: 44px;

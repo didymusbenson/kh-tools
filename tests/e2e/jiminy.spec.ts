@@ -9,7 +9,7 @@ test.use({ trace: process.env.ARS_TEST_MODELS ? "off" : "retain-on-failure" });
 test("Jiminy answers sourced requests, rejects another game, and forgets chat on reload", async ({
   page,
 }) => {
-  await page.goto("./#/kh1fm/contents");
+  await page.goto("./#/kh1fm/worlds");
   await page
     .getByRole("button", {
       name: "Open Data Jiminy for Kingdom Hearts Final Mix",
@@ -29,6 +29,12 @@ test("Jiminy answers sourced requests, rejects another game, and forgets chat on
   const input = page.getByRole("textbox", {
     name: "Ask about Kingdom Hearts Final Mix",
   });
+  await input.fill("Where are my missing Torn Pages in Agrabah?");
+  await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
+  await expect(answers.last()).toContainText("Torn Page — Agrabah");
+  const scopedLinks = page.locator(".jiminy-exchange").last().locator(".answer-citations a");
+  await expect(scopedLinks).toHaveCount(1);
+  await expect(scopedLinks).toHaveAttribute("href", "#/kh1fm/torn-pages?entry=kh1fm-torn-page-agrabah");
   await input.fill("How do I meld commands in Birth by Sleep?");
   await page
     .getByRole("button", { name: "Ask Data Jiminy", exact: true })
@@ -120,7 +126,7 @@ test.describe("Real local-model acceptance", () => {
         },
       });
     });
-    await page.goto("./#/kh1fm/contents");
+    await page.goto("./#/kh1fm/worlds");
     await page.evaluate(async () => {
       await navigator.serviceWorker.ready;
     });

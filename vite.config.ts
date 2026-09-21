@@ -4,6 +4,11 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
   base: process.env.BASE_URL || "./",
+  define: {
+    "import.meta.env.VITE_BUILD_REVISION": JSON.stringify(
+      (process.env.GITHUB_SHA || process.env.VITE_BUILD_REVISION || "development").slice(0, 12),
+    ),
+  },
   build: { emptyOutDir: true },
   plugins: [
     react(),

@@ -34,14 +34,14 @@ test("anchored game choices preview the original artwork with keyboard focus", a
 test("journal skip link, launcher safe region, and primary touch target", async ({
   page,
 }) => {
-  await page.goto("./#/kh1fm/contents");
+  await page.goto("./#/kh1fm/worlds");
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
   const skip = page.getByRole("link", { name: "Skip to journal content" });
   await skip.focus();
   await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/#\/kh1fm\/contents$/);
+  await expect(page).toHaveURL(/#\/kh1fm\/worlds$/);
   await expect(page.locator("#journal-main")).toBeFocused();
   const launcher = page.getByRole("button", {
     name: "Open Data Jiminy for Kingdom Hearts Final Mix",

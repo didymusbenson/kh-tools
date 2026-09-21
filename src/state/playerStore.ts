@@ -2,6 +2,8 @@ import type { GameData, PlayerState } from "../domain/types";
 import {
   acquisitionGroups,
   emptyPlayerState,
+  farmingMaterialIds,
+  initializeFarmPlan,
   importPreview,
   inventoryIds,
   makeBackup,
@@ -21,7 +23,7 @@ export interface PlayerSnapshot {
   error: string | null;
   canUndo: boolean;
 }
-type Field = "checks" | "inventory" | "plan";
+type Field = "checks" | "inventory" | "plan" | "farmPlan";
 type Patch =
   | { field: Field; key: string; value: boolean | number | undefined }
   | {
@@ -31,6 +33,7 @@ type Patch =
 type Change = { patch: Patch; before: Patch };
 type Action =
   | { kind: "patch"; patches: Patch[]; undoable: boolean; expected?: Change[] }
+  | { kind: "farm-add"; quantities: Record<string, number>; onlyAbsent: boolean }
   | {
       kind: "replace";
       state: PlayerState;
@@ -59,9 +62,11 @@ const RECOVERY = "kh1fm-recovery";
 function cloneState(state: PlayerState): PlayerState {
   return {
     ...state,
+    inventoryEnabled: true,
     checks: { ...state.checks },
     inventory: { ...state.inventory },
     plan: { ...state.plan },
+    ...(state.farmPlan !== undefined ? { farmPlan: { ...state.farmPlan } } : {}),
   };
 }
 function readPatch(state: PlayerState, patch: Patch): Patch {
@@ -69,18 +74,19 @@ function readPatch(state: PlayerState, patch: Patch): Patch {
     return {
       field: patch.field,
       key: patch.key,
-      value: state[patch.field][patch.key],
+      value: state[patch.field]?.[patch.key],
     };
   return { field: patch.field, value: state[patch.field] };
 }
 function applyPatch(state: PlayerState, patch: Patch): void {
   if ("key" in patch) {
-    if (patch.value === undefined) delete state[patch.field][patch.key];
+    if (patch.field === "farmPlan") state.farmPlan ??= {};
+    if (patch.value === undefined) delete state[patch.field]![patch.key];
     else if (patch.field === "checks")
       state.checks[patch.key] = patch.value as boolean;
-    else state[patch.field][patch.key] = patch.value as number;
+    else state[patch.field]![patch.key] = patch.value as number;
   } else if (patch.field === "inventoryEnabled")
-    state.inventoryEnabled = patch.value as boolean;
+    state.inventoryEnabled = true;
   else if (patch.field === "planMode")
     state.planMode = patch.value as "selected" | "first-craft";
   else if (patch.field === "plan")
@@ -99,8 +105,19 @@ function sameValue(a: Patch["value"], b: Patch["value"]): boolean {
 function applyAction(state: PlayerState, action: Action): PlayerState {
   if (action.kind === "replace") return cloneState(action.state);
   const next = cloneState(state);
-  for (const patch of action.patches) applyPatch(next, patch);
+  const patches = action.kind === "farm-add" ? farmPatches(state, action) : action.patches;
+  for (const patch of patches) applyPatch(next, patch);
   return next;
+}
+function farmPatches(state: PlayerState, action: Extract<Action, {kind: "farm-add"}>): Patch[] {
+  return Object.entries(action.quantities).flatMap(([key, quantity]) => {
+    const existing = state.farmPlan?.[key];
+    if (action.onlyAbsent && existing !== undefined) return [];
+    const target = (existing || 0) + quantity;
+    if (!validQuantity(target))
+      throw new Error("The farming target would exceed 999999. No materials were added.");
+    return [{ field: "farmPlan" as const, key, value: target }];
+  });
 }
 function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -141,7 +158,7 @@ function readRecord(
           resolve(undefined);
           return;
         }
-        const state = validatePlayerState(raw.state);
+        const state = initializeFarmPlan(validatePlayerState(raw.state), data);
         state.checks = normalizeAcquisitionChecks(state.checks, data);
         resolve({
           revision: Number.isSafeInteger(raw.revision) ? raw.revision : 0,
@@ -171,7 +188,7 @@ function transact(
       try {
         const raw = request.result as StoredRecord | undefined;
         const current = raw
-          ? { revision: raw.revision, state: validatePlayerState(raw.state) }
+          ? { revision: raw.revision, state: initializeFarmPlan(validatePlayerState(raw.state), data) }
           : { revision: 0, state: emptyPlayerState() };
         current.state.checks = normalizeAcquisitionChecks(
           current.state.checks,
@@ -207,9 +224,11 @@ function transact(
         const revision = current.revision + 1;
         if (!Number.isSafeInteger(revision))
           throw new Error("The saved progress revision exceeds safe bounds.");
+        const patches = action.kind === "patch" ? action.patches
+          : action.kind === "farm-add" ? farmPatches(current.state, action) : undefined;
         const changes =
-          action.kind === "patch"
-            ? action.patches.map((patch) => ({
+          patches
+            ? patches.map((patch) => ({
                 patch,
                 before: readPatch(current.state, patch),
               }))
@@ -257,6 +276,9 @@ export interface PlayerStore {
   toggleCheck(id: string): Promise<void>;
   setInventory(id: string, quantity: number | null): Promise<void>;
   setInventoryEnabled(enabled: boolean): Promise<void>;
+  setFarmTarget(materialId: string, target: number): Promise<void>;
+  addRecipeToFarmPlan(recipeId: string): Promise<void>;
+  addMaterialToFarmPlan(materialId: string): Promise<void>;
   setPlan(id: string, quantity: number): Promise<void>;
   rememberRoute(route: string): Promise<void>;
   setPlanGoals(
@@ -295,6 +317,7 @@ export function createPlayerStore(data: GameData): PlayerStore {
   for (const members of acquisitionGroups(data).values())
     for (const id of members) linkedChecks.set(id, members);
   const stockIds = inventoryIds(data);
+  const farmMaterialIds = farmingMaterialIds(data);
   const recipeIds = new Set(data.recipes.map((recipe) => recipe.id));
   let channel: BroadcastChannel | undefined;
   try {
@@ -308,7 +331,10 @@ export function createPlayerStore(data: GameData): PlayerStore {
     error: string | null = snapshot.error,
   ) => {
     let state = base.state;
-    for (const item of pending) state = applyAction(state, item.action);
+    for (const item of pending) {
+      try { state = applyAction(state, item.action); }
+      catch { /* The transaction reports bounded additive failures atomically. */ }
+    }
     snapshot = {
       state,
       ready: snapshot.ready,
@@ -380,7 +406,8 @@ export function createPlayerStore(data: GameData): PlayerStore {
         if (result.record.revision >= base.revision) base = result.record;
         if (
           (item.action.kind === "patch" && item.action.undoable) ||
-          item.action.kind === "replace"
+          item.action.kind === "replace" ||
+          (item.action.kind === "farm-add" && result.undo.changes?.length)
         ) {
           undos.push(result.undo);
           if (undos.length > 30) undos.shift();
@@ -473,7 +500,30 @@ export function createPlayerStore(data: GameData): PlayerStore {
     setInventoryEnabled(enabled) {
       if (typeof enabled !== "boolean")
         return rejectInput("Inventory preference is invalid.");
-      return patch([{ field: "inventoryEnabled", value: enabled }]);
+      // Keep older callers compatible without allowing them to hide saved stock.
+      return patch([{ field: "inventoryEnabled", value: true }], false);
+    },
+    setFarmTarget(materialId, target) {
+      if (!farmMaterialIds.has(materialId) || !validQuantity(target))
+        return rejectInput("Choose a material and a whole-number farming target from 0 to 999999.");
+      return patch([{ field: "farmPlan", key: materialId, value: target || undefined }]);
+    },
+    addRecipeToFarmPlan(recipeId) {
+      const recipe = data.recipes.find((candidate) => candidate.id === recipeId);
+      if (!recipe) return rejectInput("This recipe cannot be added to the farming plan.");
+      const quantities: Record<string, number> = {};
+      for (const ingredient of recipe.ingredients) {
+        const quantity = (quantities[ingredient.itemId] || 0) + ingredient.quantity;
+        if (!farmMaterialIds.has(ingredient.itemId) || !validQuantity(quantity) || quantity === 0)
+          return rejectInput("This recipe has an invalid material quantity. No materials were added.");
+        quantities[ingredient.itemId] = quantity;
+      }
+      return enqueue({ kind: "farm-add", quantities, onlyAbsent: false });
+    },
+    addMaterialToFarmPlan(materialId) {
+      if (!farmMaterialIds.has(materialId))
+        return rejectInput("This material cannot be added to the farming plan.");
+      return enqueue({ kind: "farm-add", quantities: { [materialId]: 1 }, onlyAbsent: true });
     },
     setPlan(id, quantity) {
       if (!recipeIds.has(id) || !validQuantity(quantity))

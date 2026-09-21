@@ -10,7 +10,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
     .getByRole("button", { name: /Kingdom Hearts.*Final Mix, open journal/i })
     .click();
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
   const viewport = await page.evaluate(() => ({
     width: innerWidth,
@@ -24,7 +24,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
   const entry = data.entries.find(
     (e: any) => e.category === "dalmatian" && e.checkable,
   );
-  await page.goto(`./#/kh1fm/worlds/${encodeURIComponent(entry.world)}`);
+  await page.goto(`./#/kh1fm/dalmatians?world=${encodeURIComponent(entry.world)}`);
   const check = page.getByRole("checkbox", {
     name: `Mark ${entry.name} as collected`,
     exact: true,
@@ -74,7 +74,6 @@ test("synthesis preserves stock and catalog independently across restart", async
   page,
 }) => {
   await page.goto("./#/kh1fm/synthesis/materials");
-  await page.getByRole("checkbox", { name: "Track owned materials" }).check();
   const stock = page.getByRole("textbox", {
     name: "Spirit Shard owned stock; blank means unknown",
     exact: true,
@@ -86,17 +85,21 @@ test("synthesis preserves stock and catalog independently across restart", async
     .getByRole("searchbox", { name: "Find a synthesis recipe" })
     .fill("Energy Bangle");
   const card = page.locator(".recipe-card").filter({
-    has: page.getByRole("link", { name: "Energy Bangle", exact: true }),
+    has: page.getByRole("button", { name: "Energy Bangle", exact: true }),
   });
+  const recipeToggle = card.getByRole("button", { name: "Energy Bangle", exact: true });
+  if (await recipeToggle.getAttribute("aria-expanded") !== "true") await recipeToggle.click();
   await expect(
-    card.getByLabel("8 owned, 2 required", { exact: true }),
+    card.getByLabel("8 owned, 2 required; 0 remaining", { exact: true }),
   ).toBeVisible();
   await card
     .getByRole("checkbox", { name: "Mark Energy Bangle as crafted" })
     .click();
   await card
-    .getByRole("button", { name: "Add one Energy Bangle to plan" })
+    .getByRole("button", { name: "Add Energy Bangle ingredients to farming plan" })
     .click();
+
+  await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
   await page.reload();
   await page
     .getByRole("searchbox", { name: "Find a synthesis recipe" })
@@ -104,15 +107,12 @@ test("synthesis preserves stock and catalog independently across restart", async
   await expect(
     card.getByRole("checkbox", { name: "Unmark Energy Bangle as crafted" }),
   ).toHaveAttribute("aria-checked", "true");
+  if (await recipeToggle.getAttribute("aria-expanded") !== "true") await recipeToggle.click();
   await expect(
-    card.getByLabel("8 owned, 2 required", { exact: true }),
+    card.getByLabel("8 owned, 2 required; 0 remaining", { exact: true }),
   ).toBeVisible();
-  await expect(
-    card.getByRole("textbox", {
-      name: "Energy Bangle craft plan quantity",
-      exact: true,
-    }),
-  ).toHaveValue("1");
+  await page.goto("./#/kh1fm/synthesis/plan");
+  await expect(page.getByRole("textbox", { name: "Spirit Shard target stock", exact: true })).toHaveValue("2");
   await page.screenshot({
     path: `test-results/${test.info().project.name}-synthesis.png`,
     fullPage: true,
@@ -120,7 +120,7 @@ test("synthesis preserves stock and catalog independently across restart", async
 });
 
 test("installed guide cold-reloads offline", async ({ page, context }) => {
-  await page.goto("./#/kh1fm/contents");
+  await page.goto("./#/kh1fm/worlds");
   await page.evaluate(async () => {
     await navigator.serviceWorker.ready;
   });
@@ -140,18 +140,18 @@ test("installed guide cold-reloads offline", async ({ page, context }) => {
   await context.setOffline(true);
   await page.reload();
   await expect(
-    page.getByRole("heading", { name: "A record of your adventure." }),
+    page.getByRole("heading", { name: "Worlds" }),
   ).toBeVisible();
   await page.goto("./#/kh1fm/synthesis/recipes");
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
 });
 
 test("the cover resumes the last saved journal page", async ({ page }) => {
   await page.goto("./#/kh1fm/synthesis/recipes");
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
   await expect(page.locator(".save-status")).toContainText(
     "Progress saved on this device",
@@ -163,6 +163,6 @@ test("the cover resumes the last saved journal page", async ({ page }) => {
   await page.reload();
   await page.getByRole("link", { name: "Resume last page" }).click();
   await expect(
-    page.getByRole("heading", { name: "The synthesis workshop" }),
+    page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
 });

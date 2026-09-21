@@ -1,0 +1,71 @@
+.entry-details-content {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  color: #68725e;
+}
+.entry-details-content p,
+.entry-details-content dl,
+.entry-details-content ul {
+  margin: 0;
+}
+.entry-details-facts > div {
+  display: grid;
+  grid-template-columns: minmax(100px, 25%) minmax(0, 1fr);
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+}
+.entry-details-facts dt { font-family: Georgia, "Times New Roman", serif; font-weight: 400; color: #526d40; }
+.entry-details-facts dd { margin: 0; color: #5a7049; }
+.entry-details-ingredients { display: grid; gap: 8px; }
+.entry-details-ingredient-list { list-style: none; padding: 0; }
+.entry-details-ingredient-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding: 5px 0;
+}
+.entry-details-related ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.entry-details-content > p { white-space: pre-line; }
+.entry-details-facts > div[data-field="Requires"] {
+  background: #eee9d8;
+  border-left: 3px solid #b6a676;
+  border-bottom: 0;
+  padding: 6px 8px;
+}
+.entry-details-facts > div[data-field="Requires"] dt,
+.entry-details-facts > div[data-field="Requires"] dd { color: #766548; }
+.entry-details-content strong { font-weight: 400; font-family: Georgia, "Times New Roman", serif; color: #526d40; }
+.entry-details-content a { color: #526d40; text-decoration: underline; text-decoration-color: #a7b496; text-underline-offset: 3px; }
+.entry-details-content a:hover { color: var(--burgundy); }
+.entry-details-related { display: grid; gap: 4px; padding-top: 6px; border-top: 1px solid var(--line); }
+.entry-details-ingredient-list li { border-bottom: 1px solid var(--line); }
+.entry-details-ingredient-list li > span { color: #5a7049; }
+@media (max-width: 480px) {
+  .entry-details-facts > div { grid-template-columns: 1fr; gap: 2px; }
+}
+.material-crafting-option { padding-top: 8px; border-top: 1px solid var(--line); }
+.entry-details-ingredient-list > .material-crafting-ingredient {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  padding: 8px 0;
+}
+.material-crafting-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; }
+.material-ingredient-sources { color: #68725e; }
+.material-ingredient-sources span { color: #5a7049; }
+.material-source-details { min-width: 0; }
+.material-source-details > summary {
+  cursor: pointer;
+  color: #526d40;
+  min-height: 44px;
+  padding: 8px 0;
+}
+.material-source-details > summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 2px; }
+.material-source-details > .entry-details-content { border-left: 2px solid var(--line); padding: 4px 0 8px 12px; }
+.entry-details-related li.material-related-source { flex: 1 0 100%; min-width: 0; }
