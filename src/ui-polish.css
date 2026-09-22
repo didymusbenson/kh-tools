@@ -62,3 +62,13 @@
  .multi-guide .workshop-tabs>a { flex:1;min-width:0;white-space:nowrap; }
 }
 @media(max-width:360px) { .multi-guide .journal-brand { flex-basis:135px;font-size:13px;letter-spacing:1px; }.multi-guide .journal-brand .brand-seal { display:none; } }
+.bbs-campaign { display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding-bottom:10px;margin-bottom:12px;border-bottom:1px solid var(--line); }
+.bbs-campaign label { display:flex;align-items:center;gap:8px;font-size:16px; }
+.bbs-campaign select { min-height:44px;padding:6px 10px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);font-size:16px;max-width:100%; }
+.bbs-campaign>span { color:#65715b;font-size:15px; }
+.bbs-meld-outcomes { margin:4px 4px 6px;color:#536d46;font-size:16px;line-height:1.45; }
+.bbs-meld-inputs { color:#526d40; }
+@media(max-width:650px) { .bbs-campaign label { width:100%; }.bbs-campaign select { flex:1;min-width:0; } }
+[data-game="bbsfm"] .guide-filters>input { flex:1;min-width:180px; }
+[data-game="bbsfm"] select[aria-label="Recipe type"] { min-width:190px; }
+@media(max-width:650px) { [data-game="bbsfm"] select[aria-label="Recipe type"] { flex:1 0 100%; } }

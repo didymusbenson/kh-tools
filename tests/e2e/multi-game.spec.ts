@@ -71,7 +71,7 @@ test("character filters and alias checks share the right records", async ({
 }) => {
   await page.goto("./#/bbsfm/treasures");
   await page
-    .getByRole("combobox", { name: "Filter by character" })
+    .getByRole("combobox", { name: "Campaign", exact:true })
     .selectOption("Terra");
   await expect(page.locator(".guide-row")).not.toHaveCount(0);
   for (const label of await page

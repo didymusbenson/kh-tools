@@ -33,3 +33,7 @@ Added a primary Steam Achievements destination with 34 actual public BBS goals, 
 Added a primary Bestiary destination with16 researched crystal-source enemies, including exact Shop Level rate ranges from `materials-and-equipment.md`. Missing spawn rooms are flagged; the index is not described as an exhaustive enemy roster. These source records are non-checkable and excluded from collectible totals.
 
 Both additions live in `src/games/bbsfm/generate.py` and regenerate into `content.json`; no module/theme overrides were modified. Generation now produces1368 entries and483 recipes. Unique IDs and full `npx tsc --noEmit` pass. Shared browser integration remains parent-owned.
+
+## BBS UX correction — September 21
+
+The initial all-character synthesis-style interface was unsuitable for BBS. Campaign is now a persistent global journal context, initially Terra, with explicit main/episode/all views and correctly scoped world counts, links and plans. Character IDs remain unchanged. Melding and ice cream have separate recipe-type views; input levels and probabilistic results are visible before expansion. Ingredient types distinguish commands, crystals and flavors. See the detailed review in [human feedback](human-feedback.md). This corrects presentation and scoping, not the remaining factual coverage gaps above.

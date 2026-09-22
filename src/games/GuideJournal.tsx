@@ -1,3 +1,4 @@
+import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
 import { entryTitle, chestReference } from "../domain/entryPresentation";
 import { materialFamily, sortMaterials, inWorld } from "./presentation";
 import {
@@ -36,7 +37,36 @@ export default function GuideJournal({
   const [menu, setMenu] = useState(false),
     [query, setQuery] = useState(""),
     [status, setStatus] = useState("all"),
-    [character, setCharacter] = useState("all");
+    [character, setCharacter] = useState(() => {
+      if (guide.id !== "bbsfm") return "all";
+      try {
+        const saved = localStorage.getItem("ars-arcanum:bbsfm:campaign");
+        if (saved && [...bbsCampaigns, "all"].includes(saved)) return saved;
+      } catch {}
+      return "Terra";
+    });
+  const isBbs = guide.id === "bbsfm";
+  const [recipeGroup, setRecipeGroup] = useState("Command melding");
+  const [materialKind, setMaterialKind] = useState("all");
+  const commandInputs = new Set(
+    guide.recipes
+      ?.filter((r) => r.group === "Command melding")
+      .flatMap((r) => r.ingredients.map((i) => i.id)) || [],
+  );
+  const bbsMaterialKind = (e: CollectionEntry) =>
+    /Crystal$/.test(e.name)
+      ? "Melding crystals"
+      : commandInputs.has(e.id)
+        ? "Commands"
+        : "Ice cream flavors";
+  const family = (e: CollectionEntry) =>
+    isBbs ? bbsMaterialKind(e) : materialFamily(e);
+  useEffect(() => {
+    if (isBbs)
+      try {
+        localStorage.setItem("ars-arcanum:bbsfm:campaign", character);
+      } catch {}
+  }, [isBbs, character]);
   const [open, setOpen] = useState<Set<string>>(() => new Set());
   const main = useRef<HTMLElement>(null),
     channel = useRef<BroadcastChannel | null>(null);
@@ -139,6 +169,21 @@ export default function GuideJournal({
   }
   const entries = guide.entries;
   const byId = new Map(entries.map((e) => [e.id, e]));
+  function changeCampaign(value: string) {
+    setCharacter(value);
+    const locationFilter = selectedWorld || (world !== "all" ? world : null);
+    if (
+      locationFilter &&
+      !entries.some(
+        (e) => bbsScope(e.character, value) && inWorld(e, locationFilter),
+      )
+    ) {
+      location.hash = href(
+        selectedWorld ? "worlds" : `${section}${crafting ? `/${tab}` : ""}`,
+      );
+    }
+  }
+
   const chars = [
     ...new Set(
       entries.flatMap((e) =>
@@ -146,11 +191,13 @@ export default function GuideJournal({
       ),
     ),
   ];
-  const scope = (e: CollectionEntry) =>
-    character === "all" ||
-    !e.character ||
-    e.character === "Both" ||
-    e.character === character;
+  const scope = (e: { character?: string }) =>
+    isBbs
+      ? bbsScope(e.character, character)
+      : character === "all" ||
+        !e.character ||
+        e.character === "Both" ||
+        e.character === character;
   const matches = (e: CollectionEntry) =>
     scope(e) &&
     inWorld(e, world) &&
@@ -177,6 +224,8 @@ export default function GuideJournal({
   );
   const count = (list: CollectionEntry[]) => {
     const c = list.filter((e) => e.checkable !== false);
+    if (isBbs && !c.length)
+      return list.length ? `${list.length} entries` : "World guide";
     return `${c.filter((e) => profile.checks[e.id]).length}/${c.length}`;
   };
   const filtered = entries.filter(
@@ -186,6 +235,20 @@ export default function GuideJournal({
         e.categories?.includes(section)) &&
       matches(e),
   );
+  const visibleRecipes = (guide.recipes || []).filter(
+    (r) =>
+      scope(r) &&
+      (!isBbs || r.group === recipeGroup) &&
+      `${r.name} ${isBbs ? r.instructions || "" : ""}`
+        .toLowerCase()
+        .includes(query.toLowerCase()),
+  );
+  if (isBbs)
+    visibleRecipes.sort(
+      (a, b) =>
+        a.name.localeCompare(b.name) ||
+        (a.instructions || "").localeCompare(b.instructions || ""),
+    );
   function field(label: string, text?: string) {
     return text ? (
       <div data-field={label}>
@@ -197,8 +260,22 @@ export default function GuideJournal({
   function details(e: CollectionEntry) {
     return (
       <div className="guide-details">
-        {e.summary && ![e.name, e.area, e.reward, e.instructions, `${entryTitle(e)} — ${e.area}`, `${entryTitle(e)} · ${e.area}`].some(text => text?.replace(/[.\s]+$/, "") === e.summary.replace(/[.\s]+$/, "")) && !e.instructions?.includes(e.summary) && <p>{e.summary}</p>}
-        {e.instructions && !(e.instructions === "Open the chest." && e.summary) && e.instructions !== `Chest in ${e.area}.` && <p>{e.instructions}</p>}
+        {e.summary &&
+          ![
+            e.name,
+            e.area,
+            e.reward,
+            e.instructions,
+            `${entryTitle(e)} — ${e.area}`,
+            `${entryTitle(e)} · ${e.area}`,
+          ].some(
+            (text) =>
+              text?.replace(/[.\s]+$/, "") === e.summary.replace(/[.\s]+$/, ""),
+          ) &&
+          !e.instructions?.includes(e.summary) && <p>{e.summary}</p>}
+        {e.instructions &&
+          !(e.instructions === "Open the chest." && e.summary) &&
+          e.instructions !== `Chest in ${e.area}.` && <p>{e.instructions}</p>}
         <dl>
           {field("Location", [e.world, e.area].filter(Boolean).join(" · "))}
           {field("Character", e.character)}
@@ -275,7 +352,13 @@ export default function GuideJournal({
           >
             <span>
               <strong>{entryTitle(e)}</strong>
-              {((!material && e.area) || (chars.length > 1 && e.character)) && <small className="entry-meta">{[!material && e.area, chars.length > 1 && e.character].filter(Boolean).join(" · ")}</small>}
+              {((!material && e.area) || (chars.length > 1 && (!isBbs || character === "all") && e.character)) && (
+                <small className="entry-meta">
+                  {[!material && e.area, chars.length > 1 && (!isBbs || character === "all") && e.character]
+                    .filter(Boolean)
+                    .join(" · ")}
+                </small>
+              )}
             </span>
             <Icon name={open.has(e.id) ? "minus" : "plus"} size={18} />
           </button>
@@ -332,7 +415,7 @@ export default function GuideJournal({
             <option key={w.name}>{w.name}</option>
           ))}
         </select>
-        {chars.length > 1 && (
+        {!isBbs && chars.length > 1 && (
           <select
             aria-label="Filter by character"
             value={character}
@@ -388,11 +471,11 @@ export default function GuideJournal({
           </button>
         </div>
         {material
-          ? [...new Set(list.map(materialFamily))].map((family) => (
-              <section className="guide-group" key={family}>
-                <h2>{family}</h2>
+          ? [...new Set(list.map(family))].map((familyName) => (
+              <section className="guide-group" key={familyName}>
+                <h2>{familyName}</h2>
                 {list
-                  .filter((e) => materialFamily(e) === family)
+                  .filter((e) => family(e) === familyName)
                   .map((e) => row(e, true))}
               </section>
             ))
@@ -426,7 +509,7 @@ export default function GuideJournal({
     .sort(sortMaterials);
   return (
     <div
-      className="journal-app multi-guide"
+      className="journal-app multi-guide" data-game={guide.id}
       style={{ "--guide-accent": guide.accent } as CSSProperties}
     >
       <a
@@ -498,9 +581,11 @@ export default function GuideJournal({
               </a>
             ))}
           </nav>
-          {collectible.length > 0 && <div className="sidebar-progress">
-            World collectibles <strong>{count(collectible)}</strong>
-          </div>}
+          {collectible.length > 0 && (
+            <div className="sidebar-progress">
+              World collectibles <strong>{count(collectible)}</strong>
+            </div>
+          )}
           <div className="sidebar-bottom">
             <a href={href("search")}>Search this journal</a>
             <a href={href("progress")}>Progress & backups</a>
@@ -534,6 +619,24 @@ export default function GuideJournal({
           </div>
           <div className="journal-page">
             {updateNotice}
+            {isBbs && (
+              <div className="bbs-campaign">
+                <label>
+                  Campaign
+                  <select
+                    aria-label="Campaign"
+                    value={character}
+                    onChange={(e) => changeCampaign(e.target.value)}
+                  >
+                    {bbsCampaigns.map((c) => (
+                      <option key={c}>{c}</option>
+                    ))}
+                    <option value="all">All campaigns</option>
+                  </select>
+                </label>
+                <span>Checks, stock and plans stay with their character.</span>
+              </div>
+            )}
             <div className="guide-title">
               <h1>{title}</h1>
               {category && (
@@ -543,7 +646,8 @@ export default function GuideJournal({
                       (e) =>
                         (e.category === section ||
                           e.categories?.includes(section)) &&
-                        scope(e),
+                        scope(e) &&
+                        (!isBbs || inWorld(e, world)),
                     ),
                   )}
                 </span>
@@ -573,12 +677,19 @@ export default function GuideJournal({
                 {selectedWorld ? (
                   <>
                     <a href={href("worlds")}>All worlds</a>
-                    <p>
-                      {
-                        guide.worlds.find((w) => w.name === selectedWorld)
-                          ?.summary
-                      }
-                    </p>
+                    {(!isBbs ||
+                      !guide.worlds
+                        .find((w) => w.name === selectedWorld)
+                        ?.summary.startsWith(
+                          "Character-specific treasure",
+                        )) && (
+                      <p>
+                        {
+                          guide.worlds.find((w) => w.name === selectedWorld)
+                            ?.summary
+                        }
+                      </p>
+                    )}
                     <div className="guide-world-links">
                       {guide.categories
                         .filter((c) =>
@@ -586,7 +697,8 @@ export default function GuideJournal({
                             (e) =>
                               (e.category === c.id ||
                                 e.categories?.includes(c.id)) &&
-                              e.world === selectedWorld,
+                              e.world === selectedWorld &&
+                              scope(e),
                           ),
                         )
                         .map((c) => (
@@ -604,7 +716,8 @@ export default function GuideJournal({
                                   (e) =>
                                     (e.category === c.id ||
                                       e.categories?.includes(c.id)) &&
-                                    e.world === selectedWorld,
+                                    e.world === selectedWorld &&
+                                    scope(e),
                                 ),
                               )}
                             </span>
@@ -614,18 +727,26 @@ export default function GuideJournal({
                   </>
                 ) : (
                   <div className="guide-world-links">
-                    {guide.worlds.map((w) => (
-                      <a
-                        key={w.name}
-                        href={href(`worlds/${encodeURIComponent(w.name)}`)}
-                      >
-                        <strong>{w.name}</strong>
-                        <span>
-                          {count(collectible.filter((e) => e.world === w.name))}
-                        </span>
-                        <Icon name="arrow" />
-                      </a>
-                    ))}
+                    {guide.worlds
+                      .filter(
+                        (w) =>
+                          !isBbs ||
+                          entries.some((e) => e.world === w.name && scope(e)),
+                      )
+                      .map((w) => (
+                        <a
+                          key={w.name}
+                          href={href(`worlds/${encodeURIComponent(w.name)}`)}
+                        >
+                          <strong>{w.name}</strong>
+                          <span>
+                            {count(
+                              collectible.filter((e) => e.world === w.name),
+                            )}
+                          </span>
+                          <Icon name="arrow" />
+                        </a>
+                      ))}
                   </div>
                 )}
               </>
@@ -638,7 +759,10 @@ export default function GuideJournal({
             )}
             {crafting && (
               <>
-                <nav className="segmented workshop-tabs" aria-label="Workshop sections">
+                <nav
+                  className="segmented workshop-tabs"
+                  aria-label="Workshop sections"
+                >
                   {[
                     ["recipes", "Recipes"],
                     ["materials", "Materials"],
@@ -657,7 +781,20 @@ export default function GuideJournal({
                 {tab === "recipes" && (
                   <>
                     <div className="guide-filters">
-                      {chars.length > 1 && (
+                      {isBbs && (
+                        <select
+                          aria-label="Recipe type"
+                          value={recipeGroup}
+                          onChange={(e) => {
+                            setRecipeGroup(e.target.value);
+                            setOpen(new Set());
+                          }}
+                        >
+                          <option>Command melding</option>
+                          <option>Ice cream</option>
+                        </select>
+                      )}
+                      {!isBbs && chars.length > 1 && (
                         <select
                           aria-label="Recipe character"
                           value={character}
@@ -671,7 +808,11 @@ export default function GuideJournal({
                       )}
                       <input
                         aria-label="Find a recipe"
-                        placeholder="Find a recipe…"
+                        placeholder={
+                          isBbs
+                            ? "Find a command, input or ability…"
+                            : "Find a recipe…"
+                        }
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                       />
@@ -681,81 +822,133 @@ export default function GuideJournal({
                         No fixed ingredient recipes are recorded in this guide.
                       </p>
                     )}
-                    {guide.recipes
-                      ?.filter(
-                        (r) =>
-                          (character === "all" ||
-                            !r.character ||
-                            r.character === "Both" ||
-                            r.character === character) &&
-                          r.name.toLowerCase().includes(query.toLowerCase()),
-                      )
-                      .map((r) => (
-                        <article className="guide-row" key={r.id}>
-                          <div className="guide-row-head">
-                            <label className="guide-check">
-                              <input
-                                type="checkbox"
-                                checked={!!profile.checks[r.id]}
-                                aria-label={`Crafted ${r.name}`}
-                                onChange={() => toggle(r.id)}
-                                disabled={!ready}
-                              />
-                            </label>
-                            <button
-                              className="guide-expand"
-                              aria-expanded={open.has(r.id)}
-                              onClick={() => expand(r.id)}
-                            >
-                              <span>
-                                <strong>{r.name}</strong>
-                                {r.character && <small>{r.character}</small>}
-                                {r.group && <small>{r.group}</small>}
-                              </span>
-                              <Icon name={open.has(r.id) ? "minus" : "plus"} />
-                            </button>
-                            <button
-                              className="guide-farm-add"
+                    {!visibleRecipes.length && (
+                      <p>No recipes match this campaign and search.</p>
+                    )}
+                    {visibleRecipes.map((r) => (
+                      <article className="guide-row" key={r.id}>
+                        <div className="guide-row-head">
+                          <label className="guide-check">
+                            <input
+                              type="checkbox"
+                              checked={!!profile.checks[r.id]}
+                              aria-label={`Crafted ${r.name}`}
+                              onChange={() => toggle(r.id)}
                               disabled={!ready}
-                              onClick={() =>
-                                void update((p) => addTargets(p, r.ingredients))
-                              }
-                            >
-                              Add to farming plan
-                            </button>
-                          </div>
-                          {open.has(r.id) && (
-                            <div className="guide-details">
-                              <p>{r.instructions}</p>
-                              {r.character && <p>{r.character}</p>}
-                              {r.ingredients.map((i) => {
-                                const e = byId.get(i.id);
-                                return (
-                                  <div key={i.id} className="guide-ingredient">
-                                    <strong>
-                                      {e?.name || i.id} —{" "}
-                                      {profile.owned[i.id] ?? "?"}/{i.quantity}
-                                    </strong>
-                                    {e && (
-                                      <details>
-                                        <summary>Source details</summary>
-                                        {drops(e)}
-                                        {details(e)}
-                                      </details>
-                                    )}
-                                  </div>
-                                );
-                              })}
-                            </div>
+                            />
+                          </label>
+                          <button
+                            className="guide-expand"
+                            aria-expanded={open.has(r.id)}
+                            onClick={() => expand(r.id)}
+                          >
+                            <span>
+                              <strong>{r.name}</strong>
+                              {r.character && (!isBbs || character === "all") && <small>{r.character}</small>}
+                              {!isBbs && r.group && <small>{r.group}</small>}
+                              {isBbs && r.group === "Command melding" && (
+                                <small className="bbs-meld-inputs">
+                                  {bbsRecipeSummary(r.instructions).inputs}
+                                </small>
+                              )}
+                            </span>
+                            <Icon name={open.has(r.id) ? "minus" : "plus"} />
+                          </button>
+                          <button
+                            className="guide-farm-add"
+                            disabled={!ready}
+                            onClick={() =>
+                              void update((p) => addTargets(p, r.ingredients))
+                            }
+                          >
+                            Add to farming plan
+                          </button>
+                        </div>
+                        {isBbs &&
+                          r.group === "Command melding" &&
+                          bbsRecipeSummary(r.instructions).outcomes && (
+                            <p className="bbs-meld-outcomes">
+                              Results:{" "}
+                              {bbsRecipeSummary(r.instructions).outcomes}
+                            </p>
                           )}
-                        </article>
-                      ))}
+                        {open.has(r.id) && (
+                          <div className="guide-details">
+                            {isBbs ? (
+                              (r.instructions || "")
+                                .split(/\.\s+/)
+                                .filter(Boolean)
+                                .map((text, index) => (
+                                  <p key={index}>
+                                    {text.replace(
+                                      /; (?=[^;]+Crystal:)/g,
+                                      ";\n",
+                                    )}
+                                    {text.endsWith(".") ? "" : "."}
+                                  </p>
+                                ))
+                            ) : (
+                              <p>{r.instructions}</p>
+                            )}
+                            {r.character && <p>{r.character}</p>}
+                            {r.ingredients.map((i) => {
+                              const e = byId.get(i.id);
+                              return (
+                                <div key={i.id} className="guide-ingredient">
+                                  <strong>
+                                    {e?.name || i.id} —{" "}
+                                    {profile.owned[i.id] ?? "?"}/{i.quantity}
+                                  </strong>
+                                  {e && (
+                                    <details>
+                                      <summary>Source details</summary>
+                                      {drops(e)}
+                                      {details(e)}
+                                    </details>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </article>
+                    ))}
                   </>
                 )}
                 {tab === "materials" && (
                   <>
                     {toolbar()}
-                    {groupRows(materials.filter(matches), true)}
+                    {isBbs && (
+                      <div className="guide-filters">
+                        <label>
+                          Ingredient type{" "}
+                          <select
+                            aria-label="Ingredient type"
+                            value={materialKind}
+                            onChange={(e) => setMaterialKind(e.target.value)}
+                          >
+                            <option value="all">All ingredients</option>
+                            {[
+                              "Commands",
+                              "Melding crystals",
+                              "Ice cream flavors",
+                            ].map((k) => (
+                              <option key={k}>{k}</option>
+                            ))}
+                          </select>
+                        </label>
+                      </div>
+                    )}
+                    {groupRows(
+                      materials.filter(
+                        (e) =>
+                          matches(e) &&
+                          (!isBbs ||
+                            materialKind === "all" ||
+                            bbsMaterialKind(e) === materialKind),
+                      ),
+                      true,
+                    )}
                   </>
                 )}
                 {tab === "plan" && (
@@ -764,14 +957,22 @@ export default function GuideJournal({
                       Targets are total stock to have. Blank owned stock means
                       unknown.
                     </p>
-                    {!Object.values(profile.targets).some((n) => n > 0) && (
+                    {!entries.some(
+                      (e) =>
+                        (profile.targets[e.id] || 0) > 0 &&
+                        (!isBbs || scope(e)),
+                    ) && (
                       <p>
                         Your farming plan is empty. Add materials or a recipe to
                         set targets.
                       </p>
                     )}
                     {entries
-                      .filter((e) => (profile.targets[e.id] || 0) > 0)
+                      .filter(
+                        (e) =>
+                          (profile.targets[e.id] || 0) > 0 &&
+                          (!isBbs || scope(e)),
+                      )
                       .sort(sortMaterials)
                       .map((e) => (
                         <article className="guide-row" key={e.id}>
