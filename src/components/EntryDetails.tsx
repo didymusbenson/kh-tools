@@ -1,3 +1,4 @@
+import { chestReference } from "../domain/entryPresentation";
 import type { GameData, GuideEntry, PlayerState } from "../domain/types";
 import { recipeRequirements } from "../domain/planner";
 import { entryHref } from "../domain/entryNavigation";
@@ -33,6 +34,7 @@ export function EntryDetails({ data, state, entry: originalEntry, compactMateria
   const location = compactMaterial ? "" : [entry.world, entry.area].filter(Boolean).join(" · ");
   const fields = [
     ["Location", location],
+    ["Chest reference", chestReference(entry)],
     ["Requires", entry.prerequisites],
     ["Reward / effect", entry.reward],
     ["Missability", entry.missability === "Revisitable after the relevant access requirements are met." ? "" : entry.missability],

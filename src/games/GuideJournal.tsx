@@ -1,3 +1,4 @@
+import { entryTitle, chestReference } from "../domain/entryPresentation";
 import { materialFamily, sortMaterials, inWorld } from "./presentation";
 import {
   useEffect,
@@ -187,7 +188,7 @@ export default function GuideJournal({
   );
   function field(label: string, text?: string) {
     return text ? (
-      <div>
+      <div data-field={label}>
         <dt>{label}</dt>
         <dd>{text}</dd>
       </div>
@@ -196,10 +197,12 @@ export default function GuideJournal({
   function details(e: CollectionEntry) {
     return (
       <div className="guide-details">
-        <p>{e.instructions || e.summary}</p>
+        {e.summary && ![e.name, e.area, e.reward, e.instructions, `${entryTitle(e)} — ${e.area}`, `${entryTitle(e)} · ${e.area}`].some(text => text?.replace(/[.\s]+$/, "") === e.summary.replace(/[.\s]+$/, "")) && !e.instructions?.includes(e.summary) && <p>{e.summary}</p>}
+        {e.instructions && !(e.instructions === "Open the chest." && e.summary) && e.instructions !== `Chest in ${e.area}.` && <p>{e.instructions}</p>}
         <dl>
           {field("Location", [e.world, e.area].filter(Boolean).join(" · "))}
           {field("Character", e.character)}
+          {field("Chest reference", chestReference(e))}
           {field("Requires", e.prerequisites)}
           {field("Reward", e.reward)}
           {field("Missability", e.missability)}
@@ -271,9 +274,8 @@ export default function GuideJournal({
             aria-controls={`details-${e.id}`}
           >
             <span>
-              <strong>{e.name}</strong>
-              {chars.length > 1 && e.character && <small>{e.character}</small>}
-              {!material && e.area && <small>{e.area}</small>}
+              <strong>{entryTitle(e)}</strong>
+              {((!material && e.area) || (chars.length > 1 && e.character)) && <small className="entry-meta">{[!material && e.area, chars.length > 1 && e.character].filter(Boolean).join(" · ")}</small>}
             </span>
             <Icon name={open.has(e.id) ? "minus" : "plus"} size={18} />
           </button>
@@ -496,9 +498,9 @@ export default function GuideJournal({
               </a>
             ))}
           </nav>
-          <div className="sidebar-progress">
+          {collectible.length > 0 && <div className="sidebar-progress">
             World collectibles <strong>{count(collectible)}</strong>
-          </div>
+          </div>}
           <div className="sidebar-bottom">
             <a href={href("search")}>Search this journal</a>
             <a href={href("progress")}>Progress & backups</a>
@@ -636,7 +638,7 @@ export default function GuideJournal({
             )}
             {crafting && (
               <>
-                <nav className="workshop-tabs" aria-label="Workshop sections">
+                <nav className="segmented workshop-tabs" aria-label="Workshop sections">
                   {[
                     ["recipes", "Recipes"],
                     ["materials", "Materials"],

@@ -1,3 +1,4 @@
+import { entryTitle, isTreasure } from "./domain/entryPresentation";
 import { loadProfile } from './games/profile';
 import GuideLoader from './games/GuideLoader';
 import { guideLoaders } from './games/registry';
@@ -11,6 +12,7 @@ import { EntryDetails } from "./components/EntryDetails";
 import { compareMaterials, materialFamily, materialDropLines, materialDropLocation } from "./domain/materialPresentation";
 import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
+import "./ui-polish.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
 const base = import.meta.env.BASE_URL;
@@ -414,9 +416,6 @@ function Cover({ data }: { data: GameData | null }) {
             />
           )}
           <div className="artwork-caption">
-            <span className="eyebrow gold">
-              {game.edition}
-            </span>
             <h2>{game.name}</h2>
             <p>{game.edition}</p>
             {game.ready ? (
@@ -832,8 +831,8 @@ function EntryToggle({ entry, children, ariaLabel }: { entry: GuideEntry; childr
   const { data, expanded, toggle } = useContext(ExpansionContext);
   const duplicate = data.entries.some(e => e.id !== entry.id && e.name === entry.name && e.world === entry.world);
   const landmark = duplicate && entry.category === "trinity" ? entry.instructions.split(". ")[1] : "";
-  return <button className="entry-toggle" aria-label={ariaLabel} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
-    <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
+  return <button className="entry-toggle" aria-label={ariaLabel || entry.name} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
+    <span>{children || entryTitle(entry)}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
   </button>;
 }
 function InlineDetails({entry, state, compactMaterial = false}: {entry: GuideEntry; state: PlayerState; compactMaterial?: boolean}) {
@@ -845,7 +844,7 @@ function EntryRow({ entry: e, state, onToggle }: { entry: GuideEntry; state: Pla
     <div className="entry-row-top">
       {e.checkable && <Check compact entry={e} state={state} onToggle={onToggle} />}
       <div className="entry-row-label"><h3><EntryToggle entry={e} /></h3>
-        {e.area && !e.name.includes(e.area) && <span className="entry-area">{e.area}</span>}
+        {e.area && (isTreasure(e) || !e.name.includes(e.area)) && <span className="entry-area">{e.area}</span>}
       </div>
     </div>
     <InlineDetails entry={e} state={state} />

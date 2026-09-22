@@ -29,3 +29,7 @@ Player state is game-scoped, with character scope when required, persistent comp
 ## Delivery and review
 
 Research the game's available facts and mechanics, record a plan, implement functional routes and content, then verify build, calculations, persistence and desktop/phone layouts. No new assistant/model/retrieval work. Do not count a placeholder or a list of feature promises as a finished guide. Document actual content coverage and unresolved factual gaps clearly in maintenance notes. Save feedback and implementation lessons in the repository, commit the work and report validation honestly.
+
+## Treasure presentation standard — September 21 cosmetic review
+
+Use the contents/acquisition name as the row title and area · character as secondary metadata. Existing chest numbers belong in expanded details as a reference, not as inconsistent prefixes/suffixes in titles. Never manufacture a numbering scheme. Keep canonical IDs, original names, ordering and progress untouched; this is display normalization. Preserve meaningful acquisition names for non-chest rewards that share the treasure catalog. Use the same paper/sage fields, checkbox treatment, active workshop tabs and compact controls throughout all games.

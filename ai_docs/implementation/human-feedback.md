@@ -189,3 +189,13 @@ Verification: production build and all 20 targeted desktop/phone browser checks 
 ## September 20–21, 2026 — Propagate refinements to every game
 
 User requested documenting the session lessons and assigning every game an implementation pass, excluding Data Jiminy. Proceed autonomously with design decisions; the next review will use the same feedback process. The [playbook](refinement-playbook.md) is the governing presentation contract and [rollout status](multi-game-rollout.md) records actual implementation, validation and content limitations.
+
+## September 21, 2026 — Cross-game cosmetic consistency
+
+User requested a standard treasure-chest presentation and a whole-app UI/UX polish pass across every game, with no major feature changes.
+
+Chosen standard: contents/acquisition name as the primary row title; area and, when relevant, character on one muted secondary line. Strip chest-number prefixes/suffixes and duplicated area suffixes only in presentation. Preserve existing numbered references in expanded details as “Chest reference”; do not invent numbering for unnumbered catalogs. Canonical names, source data, IDs, order, search matching and saved checks remain unchanged. Once-only rewards in the treasure catalog retain their acquisition names rather than replacing them with long conditional reward prose.
+
+Polish applied across the journal shells: consistent row typography, quieter expansion controls, count spacing and tabular numerals, sage checkbox surfaces, compact farming actions, detail-field spacing and beige prerequisite treatment. New-game workshop tabs now reuse the existing segmented active-tab styling. Phone headers reserve space for the game title and menu; the full edition remains in navigation. Removed a duplicated cover edition and empty 0/0 sidebar stats. Existing useful summary/location prose is visible in expanded details; redundant “Open the chest” and exact area-only instructions are omitted when already represented.
+
+Verification: production build and type check passed; all 72 standard browser cases passed, with two optional heavyweight model tests skipped. After final cosmetic adjustments, all 28 affected desktop/phone cases passed again. A route sweep covered 214 desktop/phone page views across all six games without horizontal document overflow, empty main content or runtime errors. Screenshots of every game's treasure listings and applicable material views were inspected. Additional 320px/390px review verified 0.2's phone header and BBS's workshop tabs. No player-state, game-data, calculation, navigation-structure or Data Jiminy changes.
