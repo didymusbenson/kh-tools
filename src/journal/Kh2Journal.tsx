@@ -33,7 +33,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
 }) {
   const [path,queryString='']=route.split('?');
   const parts=path.split('/');
-  const section=parts[1]||'worlds';
+  const section=parts[1]||'contents';
   const params=new URLSearchParams(queryString);
   const workshop=section==='workshop';
   const tab=workshop&&['materials','plan'].includes(parts[2])?parts[2]:'recipes';
@@ -45,7 +45,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const collection=section==='contents'||section==='collection';
   const progress=section==='progress';
   const category=guide.categories.find(c=>c.id===section);
-  const title=cover?world:worlds?'Select World':collection?'Collection':workshop?'Synthesis':progress?'Save & Settings':section==='search'?'Search':category?.label||'Page not found';
+  const title=cover?world:worlds?'Browse by World':collection?'Collection':workshop?'Synthesis':progress?'Save & Settings':section==='search'?'Search':category?.label||'Page not found';
   const q=params.get('q')||'';
   const status=params.get('status')||'';
   const [search,setSearch]=useState(q);
@@ -79,7 +79,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   if(worlds) indexItems=guide.worlds.map(w=>({id:w.name,name:w.name,meta:count(entries.filter(e=>['treasures','puzzles'].includes(e.category)&&inWorld(e,w.name))),href:href(`worlds/${encodeURIComponent(w.name)}`)}));
   else if(collection||cover||progress) {
     indexItems=chapterItems.map(c=>({id:c.id,name:c.label,href:href(c.id,cover?new URLSearchParams({world}):undefined),meta:cover?count(entries.filter(e=>(e.category===c.id||e.categories?.includes(c.id))&&inWorld(e,world))):undefined}));
-    if(!cover)indexItems.unshift({id:'workshop',name:'Synthesis',href:href('workshop/recipes')});
+    if(!cover)indexItems.unshift({id:'worlds',name:'Browse by World',href:href('worlds')},{id:'workshop',name:'Synthesis',href:href('workshop/recipes')});
   } else if(workshop&&tab==='recipes') {
     matchingRecipes=(guide.recipes||[]).filter(r=>(!q||r.name.toLowerCase().includes(q.toLowerCase()))&&(!status||(status==='done'?!!profile.checks[r.id]:!profile.checks[r.id])));
     indexItems=matchingRecipes.map(r=>({id:r.id,name:r.name,meta:r.group,href:withParams({entry:r.id}),checkId:r.id}));
@@ -95,12 +95,13 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   const record=selected?byId.get(selected.id):undefined;
   const recipe=workshop&&tab==='recipes'?matchingRecipes.find(r=>r.id===selected?.id):undefined;
   const worldPreview=worldData||(worlds?guide.worlds.find(w=>w.name===selected?.id):undefined);
-  const back=cover?href('worlds'):world?href(`worlds/${encodeURIComponent(world)}`):href('contents');
+  const back=collection?'#/':cover?href('worlds'):world?href(`worlds/${encodeURIComponent(world)}`):href('contents');
+  const parentLabel=cover?'Browse by World':world?world:'Collection';
   useEffect(()=>setSearch(q),[q]);
   useEffect(()=>{
     setLeaf(selectedId?'right':'left');
     setMessage('');
-    setHelp(cover?'Choose a section of this world’s journal.':worlds?'Choose a world to open its journal.':collection?'Choose a collection to read.':'Choose a record on the left to read its notes.');
+    setHelp(cover?'Choose a section of this world’s journal.':worlds?'Choose a world to open its journal.':collection?'Browse by world or choose a collection.':'Choose a record on the left to read its notes.');
     document.title=`${title} · KH2FM Journal`;
     main.current?.focus({preventScroll:true});
   },[route]);
@@ -112,7 +113,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
   function saveQuantity(field:'owned'|'targets',id:string,value:number|undefined) {
     return update(p=>{const values={...p[field]};if(value===undefined)delete values[id];else values[id]=value;return {...p,[field]:values};});
   }
-  const subtitle=worlds?'Worlds':workshop?{recipes:'Recipes',materials:'Materials',plan:'Farming Plan'}[tab]:world||'Collection';
+  const currentBookmark=workshop?`Synthesis · ${{recipes:'Recipes',materials:'Materials',plan:'Farming Plan'}[tab]}`:title;
   const pageControls=<nav className="kh2-pagination" aria-label="Index pages"><a aria-label="Previous index page" aria-disabled={page===0} tabIndex={page===0?-1:undefined} href={page===0?undefined:withParams({page:String(page-1),entry:'',item:''})}>◀</a><span>{page+1} / {pages}</span><a aria-label="Next index page" aria-disabled={page+1>=pages} tabIndex={page+1>=pages?-1:undefined} href={page+1>=pages?undefined:withParams({page:String(page+1),entry:'',item:''})}>▶</a></nav>;
   function worldArt() {
     return <div className={`kh2-world-picture ${worldPreview?.name==='Port Royal'?'':'kh2-world-emblem'}`}><img src={asset+(worldPreview?.name==='Port Royal'?'port-royal-world.png':'gold-crown.png')} alt={worldPreview?.name==='Port Royal'?'Port Royal':''}/>{worldPreview?.name!=='Port Royal'&&<span>{worldPreview?.name||'Jiminy’s Journal'}</span>}</div>;
@@ -121,7 +122,7 @@ export function Kh2Journal({guide,route,profile,ready,error,notice,updateNotice,
     <a className="skip-link" href="#kh2-reading" onClick={e=>{e.preventDefault();main.current?.focus();}}>Skip to journal</a>
     <div className="kh2-outer"><a href="#/">‹ Games</a><span>KINGDOM HEARTS II · FINAL MIX</span><nav aria-label="Journal tools"><a href={href('search')}>Search</a><a href={href('progress')}>Save & Settings</a></nav></div>
     <section className="kh2-volume" aria-label="Kingdom Hearts II Final Mix journal">
-      <header className="kh2-header"><nav className="kh2-header-controls" aria-label="Journal navigation"><a href={href('worlds')}>Select World</a><h1>{world||'Jiminy’s Journal'}</h1><a href={href('contents')}>Collection</a></nav><span className="kh2-watermark" aria-hidden="true">JIMINY’S JOURNAL</span><div className="kh2-ribbons"><a href={back}>{cover?'Journal':title}</a><span>{subtitle}</span></div></header>
+      <header className="kh2-header"><nav className="kh2-header-controls" aria-label="Journal navigation"><a href={href('worlds')}>Select World</a><h1>{world||'Jiminy’s Journal'}</h1><a href={href('contents')}>Collection</a></nav><span className="kh2-watermark" aria-hidden="true">JIMINY’S JOURNAL</span><nav className="kh2-ribbons" aria-label="Journal location">{!collection&&<a href={back} aria-label={`Back to ${parentLabel}`}>{parentLabel}</a>}<span aria-current="page">{currentBookmark}</span></nav></header>
       {updateNotice}
       {error&&<div className="kh2-error" role="alert">{error}<button onClick={retry}>Retry loading saved progress</button></div>}
       <nav className="kh2-leaf-picker" aria-label="Book pages"><button aria-pressed={leaf==='left'} onClick={()=>setLeaf('left')}>{worlds?'Worlds':cover?'Sections':'Index'}</button><button aria-pressed={leaf==='right'} onClick={()=>setLeaf('right')}>{worlds||cover?'Overview':progress?'Backups':'Notes'}</button></nav>

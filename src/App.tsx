@@ -1,6 +1,6 @@
 import { Kh1Journal } from './journal/Kh1Journal';
 import { entryTitle, isTreasure } from "./domain/entryPresentation";
-import { loadProfile } from './games/profile';
+import { journalStartRoute, loadProfile } from './games/profile';
 import GuideLoader from './games/GuideLoader';
 import { guideLoaders } from './games/registry';
 import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
@@ -373,7 +373,7 @@ function Cover({ data }: { data: GameData | null }) {
                 onFocus={() => setSelected(g.id)}
                 onClick={() => {
                   setSelected(g.id);
-                  if (g.ready) routeTo(`${g.id}/${g.id === "kh1fm" ? "contents" : "worlds"}`);
+                  if (g.ready) routeTo(journalStartRoute(g.id));
                 }}
                 aria-label={`${g.name} ${g.edition}${g.ready ? ", open journal" : ", journal not yet available"}`}
               >
@@ -420,7 +420,7 @@ function Cover({ data }: { data: GameData | null }) {
             <h2>{game.name}</h2>
             <p>{game.edition}</p>
             {game.ready ? (
-              <a href={`#/${game.id}/worlds`} className="cover-cta">
+              <a href={`#/${journalStartRoute(game.id)}`} className="cover-cta">
                 Open the journal <Icon name="arrow" size={18} />
               </a>
             ) : (

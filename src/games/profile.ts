@@ -7,13 +7,16 @@ export interface GuideProfile {
   targets: Record<string, number>;
   route: string;
 }
+export const journalStartRoute = (game: string) =>
+  `${game}/${game === "kh1fm" || game === "kh2fm" ? "contents" : "worlds"}`;
+
 export const emptyProfile = (game: string): GuideProfile => ({
   version: 1,
   game,
   checks: {},
   owned: {},
   targets: {},
-  route: `${game}/worlds`,
+  route: journalStartRoute(game),
 });
 export function parseProfile(value: unknown, guide: GameGuide): GuideProfile {
   if (!value || typeof value !== "object")

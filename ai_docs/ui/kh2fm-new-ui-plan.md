@@ -1,6 +1,7 @@
 # KH2FM faithful journal — new UI plan
 
-**Revision:** 0.1 · 2026-09-24  
+**Revision:** 0.2 · 2026-09-27
+
 **Status:** Working local pass for revision; visual direction accepted, individual adaptations provisional.
 
 The user requested the KH1 treatment for KH2, using KH2's own journal menu styles. This extends [DEC-020](../07-decision-log.md#dec-020-faithful-game-journals-replace-the-initial-ars-arcanum-ui). The earlier generic collection/workshop interface is superseded as KH2's presentation target. Existing content, acquisition IDs, checks, inventory, farming targets and backup behavior remain the foundation.
@@ -22,15 +23,17 @@ The supplied video was opened and inspected directly, including Story reading sc
 - Long notes continue on numbered pages. Neither book leaves nor the outer journal should require vertical scrolling at supported desktop/phone sizes.
 - Synthesis, search and settings continue the journal's visual language. Use index on the left, details on the right; avoid a sudden return to dashboard cards.
 - Existing guide categories are directly available in Collection. No extra Guide Notes submenu.
+- Collection is the landing page, with Browse by World as its first index option. Existing saved Resume links still reopen their saved page.
+- Header bookmarks describe the linked parent and current destination; the landing page has one Collection bookmark. World-cover selection hands occupy a permanently reserved gutter clear of the outside binding.
 - Narrow phones display one leaf at a time, with explicit Index / Notes or Sections / Overview controls. Opening an entry selects its notes. This is an app adaptation, not a reproduced game interaction.
 
 ## 3. Working screen map
 
 | Screen | Current treatment | Data and behavior |
 |---|---|---|
-| Select World | Cream index and world preview | All 15 existing world overviews; collectible counts |
+| Browse by World | Cream index and world preview | All 15 existing world overviews; collectible counts |
 | World cover | Burgundy cover, gold world title, section index, green overview | Only sections with applicable existing records; filtered destination links |
-| Collection | Facing-page category index | All 16 existing categories plus Synthesis directly accessible |
+| Collection (landing) | Facing-page category index | Browse by World, Synthesis and all 16 existing categories directly accessible |
 | Record category | Compact index / selected notes | World, text and completion filters; independent saved checkbox; existing acquisition details |
 | Synthesis | Recipes / Materials / Farming Plan inside the same book | Crafted checks, linked ingredients, optional stock, total-stock targets and remaining amounts |
 | Search | Search results / selected notes | Existing records across categories; canonical entry selection |
@@ -52,7 +55,7 @@ This pass changes presentation, not catalog completeness. The [KH2 rollout repor
 
 | ID | Clarification | Current working choice |
 |---|---|---|
-| KH2-Q01 | Keep Select World as entry, or open Collection first? | Preserve the existing Worlds landing route. |
+| KH2-Q01 — resolved 2026-09-27 | Keep Select World as entry, or open Collection first? | User chose Collection as the landing page, with a Browse by World option. |
 | KH2-Q02 | Match native Treasures / Pieces grids more closely, or retain the approved compact index/detail interaction? | Use index/detail for working acquisition tracking; native grids need focused references. |
 | KH2-Q03 | Which native world sections should have full content beyond existing acquisition records? | No invented biographies, story transcription, album or map content. |
 | KH2-Q04 | Should world covers retain this summary panel, or should collection progress dominate it? | Existing world summary plus clearly labeled treasures/pieces total. |

@@ -27,3 +27,11 @@ Existing suite coverage is a regression check; this pass does not claim a fresh 
 ## Provisional items
 
 Port Royal uses the approved artwork/logo; other world covers use a written title and crown pending matching assets. Typography remains the accepted study's approximation. Native Treasure/Pieces grids, full story/character/album/map content and certified official Journal completion are not claimed. Broader KH2 catalog and Data Jiminy gaps remain tracked in their existing specs. Open design questions are listed in the UI plan for the next user revision.
+
+## Landing and navigation revision — 2026-09-27
+
+User feedback resolved the landing-page question: KH2 now opens Collection, with Browse by World first in the index. Game-selection buttons, artwork links, bare KH2 routes and fresh-profile defaults agree; existing saved Resume destinations are preserved.
+
+Header bookmarks now show a linked parent followed by the current page. Collection has one bookmark; world categories link back to their world, and world covers link back to Browse by World. World-cover rows reserve an internal cursor gutter in every interaction state, keeping the hand clear of the rings. Phones omit this gutter with the hidden cursor. The existing book sizing and compact-row rules remain intact.
+
+Verified the game-selection → Collection → Browse by World → Twilight Town → Treasures flow in the browser. The cover hand cleared the binding by 15px at 1280×720; focusing the row left all row and book bounds unchanged. All 76 tests and the Pages-base production build passed.

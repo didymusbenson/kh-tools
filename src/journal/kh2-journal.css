@@ -17,6 +17,7 @@
 .kh2-watermark{position:absolute;bottom:4px;right:7%;font:italic 600 24px KH2Menu;letter-spacing:.06em;color:#b4c883;opacity:.6}
 .kh2-ribbons{display:flex;position:absolute;left:8%;bottom:2px;max-width:68%;gap:3px;z-index:1}
 .kh2-ribbons>a,.kh2-ribbons>span{display:block;border:1px solid #c29268;border-top:2px solid #e4c9a1;background:linear-gradient(#8b2f1e,#5e1208);border-radius:12px 2px 12px 2px;padding:2px 17px;min-width:100px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f8f4d7;text-shadow:1px 1px #421605}
+.kh2-ribbons>a::before{content:'‹ ';}
 .kh2-book{position:relative;min-height:0;flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:minmax(0,1fr);margin:14px 8%;outline:none;border-radius:10px;box-shadow:5px 5px #343c50,7px 7px #819166}
 .kh2-leaf{min-width:0;min-height:0;display:flex;flex-direction:column;background:#f0f3d5;background-image:repeating-linear-gradient(173deg,#adb87309 0,#adb87309 1px,transparent 1px,transparent 4px);color:var(--kh2-ink);border:2px solid #a4b183;border-radius:9px;padding:20px 30px;font:400 18px/1.4 KH2Hand;overflow:visible}
 .kh2-left{padding-right:36px}.kh2-right{padding-left:36px}
@@ -125,7 +126,9 @@
 @media(max-height:650px) and (min-width:651px){.kh2-native{padding-top:6px;padding-bottom:6px;gap:4px;grid-template-rows:20px minmax(0,1fr) 20px}.kh2-header{height:94px;min-height:94px}.kh2-book{margin-top:8px;margin-bottom:10px}.kh2-leaf{padding-top:12px;padding-bottom:10px}.kh2-leaf h2{font-size:23px;margin-bottom:8px}.kh2-filters{gap:5px;margin-bottom:6px}.kh2-world-title{height:70px}.kh2-footer{height:44px;min-height:44px}}
 .kh2-cover .kh2-index-row>a>span:first-child{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:1}
 .kh2-cover .kh2-index-row small{white-space:nowrap;font-size:12px;margin:0}
-.kh2-cover .kh2-index-row>a{padding-top:7px;padding-bottom:7px}
+.kh2-cover .kh2-index-row>a{padding-top:7px;padding-bottom:7px;padding-left:40px}
+/* Reserve the cursor gutter in every state, inside the cover and beyond the rings. */
+.kh2-cover .kh2-index-row>a:hover::before,.kh2-cover .kh2-index-row>a:focus-visible::before{left:6px}
 .kh2-cover .kh2-world-picture img{width:100%;height:120%;transform:scaleX(1.4)}
 .kh2-cover .kh2-world-emblem img{height:55%;width:75px;transform:none}
 .kh2-book:not(.kh2-cover){box-shadow:4px 4px #633440,6px 6px #829066}
@@ -139,3 +142,4 @@
 .kh2-native .kh1-note-flow h3:first-child{margin-top:0}
 .kh2-ingredients li{padding:5px 0}
 @media(max-width:650px){.kh2-workshop-filters:has(select){grid-template-columns:minmax(0,1fr) auto}.kh2-workshop-filters:has(select) label:last-child{grid-column:1/-1}}
+@media(max-width:650px){.kh2-cover .kh2-index-row>a{padding-left:3px}}
