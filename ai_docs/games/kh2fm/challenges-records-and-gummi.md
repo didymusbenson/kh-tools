@@ -1,6 +1,6 @@
 # KH2FM challenges, records, Gummi and achievements
 
-Research snapshot: 2026-09-18. These remain MVP modules with their own declared goals. They do not inflate World collectibles percentages. Show spoilers directly; no warning/reveal flow. A fight or activity matters here because it grants something or has a separately selected challenge/record goal, not because every story event needs a checklist.
+Research snapshot: 2026-09-18; cup and Gummi audit updated 2026-09-27. These remain MVP modules with their own declared goals. They do not inflate World collectibles percentages. Show spoilers directly; no warning/reveal flow. A fight or activity matters here because it grants something or has a separately selected challenge/record goal, not because every story event needs a checklist.
 
 ## Mushroom XIII
 
@@ -50,7 +50,7 @@ All thirteen Data fights are in Garden of Assemblage. Defeating the original mem
 | Magic Boost | Axel, Roxas |
 | AP Boost | Demyx, Luxord |
 
-Sephiroth is fought at Dark Depths; Fenrir requires the post-fight Cloud follow-up rather than merely setting Sephiroth defeated. Lingering Will is reached via Disney Castle's Hall of the Cornerstone portal and supplies Proof of Connection and Manifest Illusion. Exact portal-unlock conditions and controller-neutral encounter guidance still need a stronger source pass. [Fenrir](https://www.khwiki.com/Fenrir), [Proof](https://www.khwiki.com/Proof), [Illusion](https://www.khwiki.com/Illusion).
+Sephiroth is fought at Dark Depths; Fenrir requires the post-fight Cloud follow-up rather than merely setting Sephiroth defeated. Lingering Will is reached via Disney Castle's Hall of the Cornerstone portal and supplies Proof of Connection and Manifest Illusion. Complete every world’s story, including Atlantica and 100 Acre Wood, then defeat the final boss and save the cleared game to open the portal. The first Lingering Will victory grants the proof and stat rewards; subsequent victories grant Manifest Illusion. See [battle rewards](https://www.khwiki.com/Game:Lingering_Will) and the [HD achievement guide](https://www.trueachievements.com/a293114/lingering-will-achievement). Full combat walkthroughs remain outside this acquisition-data pass. [Fenrir](https://www.khwiki.com/Fenrir), [Proof](https://www.khwiki.com/Proof), [Illusion](https://www.khwiki.com/Illusion).
 
 The three proofs are Peace, Nonexistence and Connection. Count each acquisition once. The cosmetic crown and linked equipment/encounter goals must not create extra collectible units for the same receipt.
 
@@ -60,16 +60,16 @@ Use separate clear, high-score and reward states. Regular cups are entered throu
 
 | Cup | Unlock evidence | Journal score | Acquisition reward evidence |
 |---|---|---:|---|
-| [Pain and Panic](https://www.khwiki.com/Pain_and_Panic_Cup) | Clear Disney Castle | 2,000 | Protect Belt + Serenity Stone in Final Mix; legacy Lucky Ring is wrong |
+| [Pain and Panic](https://www.khwiki.com/Pain_and_Panic_Cup) | Clear Disney Castle | 2,000 | Protect Belt + Serenity Stone |
 | [Cerberus](https://www.khwiki.com/Cerberus_Cup) | First Agrabah, Halloween Town and Pride Lands clears | 1,000 | Rising Dragon + Serenity Crystal in Final Mix |
-| [Titan](https://www.khwiki.com/Titan_Cup) | Second-visit progress after 1,000 Heartless; exact world set still needs reconciliation | 5,000 | Genji Shield + Skillful Ring |
+| [Titan](https://www.khwiki.com/Titan_Cup) | Complete the second Olympus Coliseum episode | 5,000 | Genji Shield + Skillful Ring |
 | [Goddess of Fate](https://www.khwiki.com/Goddess_of_Fate_Cup) | First three cups + first Xemnas fight | 3,000 | Fatal Crest + Orichalcum+ |
 | Pain and Panic Paradox | Goddess of Fate clear | 2,500 | Challenge/record |
-| Cerberus Paradox | Pain and Panic Paradox unlocked; form-level requirement | 1,300 | Challenge/record |
+| Cerberus Paradox | Pain and Panic Paradox unlocked; Valor, Wisdom and Master Forms at level 5 | 1,300 | Challenge/record |
 | Titan Paradox | Cerberus Paradox unlocked; summon level 5 | 10,000 | Challenge/record |
-| [Hades Paradox](https://www.khwiki.com/Hades_Paradox_Cup) | Drive/summon levels 7 and second Space Paranoids clear, per source | 15,000 | Hades Cup Trophy |
+| [Hades Paradox](https://www.khwiki.com/Hades_Paradox_Cup) | Valor, Wisdom, Master and Final Forms and Summons at level 7; complete the second Space Paranoids episode | 15,000 | Hades Cup Trophy |
 
-The Cerberus source says forms other than Final at level 5; Hades says all forms at 7. **Whether these checks include Final Mix's Limit Form needs independent confirmation.** Do not implement a guessed predicate. The Titan page also flags incomplete requirements. These are source-validation gaps, not requests for the user to perform a playthrough.
+The Final Mix [Paradox Cup guide](https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups) names the required forms explicitly: Cerberus uses Valor/Wisdom/Master; Hades adds Final. Limit Form is not included in these level checks. The [Olympus Coliseum world article](https://www.khwiki.com/Olympus_Coliseum) ties Titan to completing the second episode, resolving the old vague progress note.
 
 Cup rule effects matter to acquisition guidance: Pain/Panic disables Drive and changes Limit cost; Cerberus is solo with special Drive behavior; Titan permits solo summons; Hades changes rules by ten-round block. Full round rosters and tactic coverage are still incomplete.
 
@@ -109,7 +109,7 @@ The workbook also lists repeat performances of the five Atlantica songs. Keep th
 
 Nine routes: Asteroid Sweep, Stardust Sweep, Phantom Storm, Splash Island, Floating Island, Ancient Highway, Broken Highway, Sunlight Storm, Assault of the Dreadnought. Each has three normal missions and three Final Mix EX S variants: **27 + 27 = 54 route/mission/mode records**, independently computed. Mission 1 scores medals, 2 enemy kills, 3 points. Clear 1 and 2 to unlock 3; S rank unlocks that mission's EX S option. [Gummi Missions](https://www.khwiki.com/Gummi_Missions).
 
-Track route unlock, mission mode, best rank/score, EX build constraint, rank rewards, treasure rewards, and blueprint acquisition separately. Full per-route score thresholds, all 27 EX constraints, enemy treasures and Teeny Ship dependency data remain unextracted; a route list is not completed Gummi coverage.
+Track route unlock, mission mode, best rank/score, EX build constraint, rank rewards, treasure rewards, and blueprint acquisition separately. The checked-in [mission data](verified-gummi-missions.json) now records all 27 normal S-rank targets, all 27 EX targets and ship constraints, and both sets of S-rank rewards. Mission 3 uses the higher Final Mix scores, not original KHII scores. Lower-rank reward tables, enemy treasure manifests and the full sample/Teeny blueprint dependency catalog remain separate coverage work.
 
 The inspected [Blueprint](https://www.khwiki.com/Blueprint) tables contain **28 sample and 12 special main-ship models**; Teeny Ships are linked children, not included in that forty-model main-ship count. Samples unlock from required block ownership. Special sources:
 

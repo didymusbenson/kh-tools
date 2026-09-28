@@ -66,6 +66,8 @@ The accepted design and per-game scope live in [ai_docs](ai_docs/README.md). KH1
 
 The original static entry page is preserved as `legacy-index.html`. Old tables remain migration inputs, not production truth.
 
+KH2 puzzle-location prose is adapted from Kingdom Hearts Wiki contributors under CC BY-SA 4.0. See [source attribution](public/kh2-content-sources.html) and the [KH2 data audit](ai_docs/games/kh2fm/data-gap-audit-2026-09-27.md).
+
 ### Credits
 
 Special thanks to the following sources that helped me figure out what I was breaking: 

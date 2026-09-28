@@ -4,7 +4,7 @@ import { entries, recipes } from './kh2fm/catalog';
 const guide: GameGuide = {
   id: 'kh2fm', name: 'Kingdom Hearts II', edition: 'Final Mix', accent: '#526d40',
   craftingLabel: 'Synthesis Workshop',
-  coverage: '301 Sora treasures and 144 puzzle pieces are indexed by area; exact landmarks remain incomplete. The guide also covers 59 synthesis outputs, 60 materials and the represented acquisition/challenge records. These counts are not complete Jiminy’s Journal or Steam achievement coverage. Roxas prologue chests, full equipment/bestiary catalogs and the remaining Steam achievements still require source normalization. The achievement list currently includes 23 verified public goals, not the complete platform set.',
+  coverage: '301 Sora treasures have room directions; 144 puzzle pieces have collection routes. Materials include Final Mix drop sources and post-game farming rooms, and all 54 Gummi mission records include S-rank targets. The guide also covers 59 synthesis outputs, 60 materials and the represented acquisition/challenge records. These counts are not complete Jiminy’s Journal or Steam achievement coverage. Roxas prologue chests, full equipment and combat bestiary catalogs and the remaining Steam achievements still require source normalization. The achievement list currently includes 23 verified public goals, not the complete platform set.',
   categories: [
     {id:'bestiary',label:'Bestiary',icon:'monster'},
     {id:'treasures',label:'Treasures',icon:'chest'},

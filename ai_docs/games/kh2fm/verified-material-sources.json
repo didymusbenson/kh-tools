@@ -1,0 +1,1738 @@
+{
+  "verifiedOn": "2026-09-27",
+  "edition": "Kingdom Hearts II Final Mix",
+  "locationScope": "Post-game repeatable spawns; representative rooms, not every spawn. Enemy compositions may alternate on room entry.",
+  "locationSource": "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
+  "materials": {
+    "Blazing Shard": {
+      "drops": [
+        {
+          "enemy": "Hammer Frame",
+          "rate": "10%",
+          "locations": [
+            "Beast's Castle · Entrance Hall",
+            "Beast's Castle · Secret Passage",
+            "Beast's Castle · The West Wing"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hammer_Frame"
+          ]
+        },
+        {
+          "enemy": "Minute Bomb",
+          "rate": "6%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: Entrance",
+            "Olympus Coliseum · Valley of the Dead"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Minute_Bomb"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blazing"
+      ]
+    },
+    "Blazing Stone": {
+      "drops": [
+        {
+          "enemy": "Cannon Gun",
+          "rate": "6%",
+          "locations": [
+            "The Land of Dragons · Summit",
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Simulation Hangar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Cannon_Gun"
+          ]
+        },
+        {
+          "enemy": "Tornado Step",
+          "rate": "8%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: The Lost Road",
+            "Olympus Coliseum · Cave of the Dead: Passage"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Tornado_Step"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blazing"
+      ]
+    },
+    "Blazing Gem": {
+      "drops": [
+        {
+          "enemy": "Fat Bandit",
+          "rate": "12%",
+          "locations": [
+            "Agrabah · Agrabah",
+            "Agrabah · Bazaar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Fat_Bandit"
+          ]
+        },
+        {
+          "enemy": "Fiery Globe",
+          "rate": "4%",
+          "locations": [
+            "Agrabah · Agrabah"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Fiery_Globe"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blazing"
+      ]
+    },
+    "Blazing Crystal": {
+      "drops": [
+        {
+          "enemy": "Crescendo",
+          "rate": "6%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: The Lost Road",
+            "Olympus Coliseum · Cave of the Dead: Passage"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Crescendo"
+          ]
+        },
+        {
+          "enemy": "Crimson Jazz",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Bailey",
+            "Radiant Garden · Corridors",
+            "Beast's Castle · Entrance Hall"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Crimson_Jazz"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Blazing"
+      ]
+    },
+    "Frost Shard": {
+      "drops": [
+        {
+          "enemy": "Hook Bat",
+          "rate": "6%",
+          "locations": [
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hook_Bat"
+          ]
+        },
+        {
+          "enemy": "Lance Soldier",
+          "rate": "10%",
+          "locations": [
+            "Port Royal · Town",
+            "Port Royal · Isla de Muerta: Cave Mouth",
+            "Port Royal · Ship Graveyard: Seadrift Row"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Lance_Soldier"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Frost"
+      ]
+    },
+    "Frost Stone": {
+      "drops": [
+        {
+          "enemy": "Aeroplane",
+          "rate": "8%",
+          "locations": [
+            "Timeless River · Pier",
+            "Timeless River · Lilliput",
+            "Timeless River · Scene of the Fire"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aeroplane"
+          ]
+        },
+        {
+          "enemy": "Hot Rod",
+          "rate": "12%",
+          "locations": [
+            "Timeless River · Wharf",
+            "Timeless River · Building Site",
+            "Timeless River · Lilliput"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hot_Rod"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Frost"
+      ]
+    },
+    "Frost Gem": {
+      "drops": [
+        {
+          "enemy": "Fortuneteller",
+          "rate": "10%",
+          "locations": [
+            "Agrabah · Cave of Wonders: Valley of Stone"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Fortuneteller"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        },
+        {
+          "enemy": "Icy Cube",
+          "rate": "4%",
+          "locations": [
+            "Agrabah · Cave of Wonders: Entrance"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Icy_Cube"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Frost"
+      ]
+    },
+    "Frost Crystal": {
+      "drops": [
+        {
+          "enemy": "Living Bone",
+          "rate": "12%",
+          "locations": [
+            "Pride Lands · Elephant Graveyard",
+            "Pride Lands · The Savannah",
+            "Pride Lands · Wastelands"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Living_Bone"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Frost"
+      ]
+    },
+    "Lightning Shard": {
+      "drops": [
+        {
+          "enemy": "Bolt Tower",
+          "rate": "10%",
+          "locations": [
+            "The Land of Dragons · Imperial Square",
+            "Pride Lands · The Savannah"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Bolt_Tower"
+          ]
+        },
+        {
+          "enemy": "Rapid Thruster",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Checkpoint",
+            "The Land of Dragons · Village Cave",
+            "The Land of Dragons · Ridge"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Rapid_Thruster"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lightning"
+      ]
+    },
+    "Lightning Stone": {
+      "drops": [
+        {
+          "enemy": "Driller Mole",
+          "rate": "6%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: Entrance",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Olympus Coliseum · Valley of the Dead"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Driller_Mole"
+          ]
+        },
+        {
+          "enemy": "Emerald Blues",
+          "rate": "10%",
+          "locations": [
+            "The Land of Dragons · Encampment",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Emerald_Blues"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lightning"
+      ]
+    },
+    "Lightning Gem": {
+      "drops": [
+        {
+          "enemy": "Armored Knight",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Bailey",
+            "Radiant Garden · Ravine Trail",
+            "Radiant Garden · Restoration Site"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Armored_Knight"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        },
+        {
+          "enemy": "Surveillance Robot",
+          "rate": "6%",
+          "locations": [
+            "Radiant Garden · Restoration Site",
+            "Port Royal · Harbor",
+            "Port Royal · Town"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Surveillance_Robot"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lightning"
+      ]
+    },
+    "Lightning Crystal": {
+      "drops": [
+        {
+          "enemy": "Devastator",
+          "rate": "12%",
+          "locations": [
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Dataspace",
+            "Space Paranoids · I/O Tower: Hallway"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Devastator"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        },
+        {
+          "enemy": "Strafer",
+          "rate": "8%",
+          "locations": [
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Solar Sailer Simulation"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Strafer"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lightning"
+      ]
+    },
+    "Lucid Shard": {
+      "drops": [
+        {
+          "enemy": "Rabid Dog",
+          "rate": "6%",
+          "locations": [
+            "Port Royal · Harbor",
+            "Port Royal · The Black Pearl",
+            "Port Royal · Ship Graveyard: Seadrift Keep"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Rabid_Dog"
+          ]
+        },
+        {
+          "enemy": "Trick Ghost",
+          "rate": "10%",
+          "locations": [
+            "Halloween Town · Curly Hill",
+            "Halloween Town · Hinterlands",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Trick_Ghost_(KHII)"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lucid"
+      ]
+    },
+    "Lucid Stone": {
+      "drops": [
+        {
+          "enemy": "Graveyard",
+          "rate": "12%",
+          "locations": [
+            "Halloween Town · Halloween Town Square",
+            "Halloween Town · Graveyard",
+            "Halloween Town · Curly Hill"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Graveyard"
+          ]
+        },
+        {
+          "enemy": "Toy Soldier",
+          "rate": "12%",
+          "locations": [
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Toy_Soldier"
+          ]
+        },
+        {
+          "enemy": "Wight Knight",
+          "rate": "8%",
+          "locations": [
+            "Halloween Town · Halloween Town Square",
+            "Halloween Town · Graveyard"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Wight_Knight"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lucid"
+      ]
+    },
+    "Lucid Gem": {
+      "drops": [
+        {
+          "enemy": "Bookmaster",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Space Paranoids · I/O Tower: Hallway"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Bookmaster"
+          ]
+        },
+        {
+          "enemy": "Magnum Loader",
+          "rate": "8%",
+          "locations": [
+            "Space Paranoids · Dataspace"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Magnum_Loader"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lucid"
+      ]
+    },
+    "Lucid Crystal": {
+      "drops": [
+        {
+          "enemy": "Neoshadow",
+          "rate": "8%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Radiant Garden · Bailey",
+            "Radiant Garden · Corridors"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Neoshadow"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Lucid"
+      ]
+    },
+    "Power Shard": {
+      "drops": [
+        {
+          "enemy": "Creeper Plant",
+          "rate": "8%",
+          "locations": [
+            "Halloween Town · Hinterlands"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Creeper_Plant"
+          ]
+        },
+        {
+          "enemy": "Large Body",
+          "rate": "12%",
+          "locations": [
+            "Beast's Castle · Ballroom",
+            "Beast's Castle · Secret Passage",
+            "Timeless River · Building Site"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Large_Body"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Pulsing"
+      ]
+    },
+    "Power Stone": {
+      "drops": [
+        {
+          "enemy": "Luna Bandit",
+          "rate": "8%",
+          "locations": [
+            "Agrabah · Bazaar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Luna_Bandit"
+          ]
+        },
+        {
+          "enemy": "Silver Rock",
+          "rate": "6%",
+          "locations": [
+            "Agrabah · Bazaar",
+            "Agrabah · Cave of Wonders: Valley of Stone"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Silver_Rock"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Pulsing"
+      ]
+    },
+    "Power Gem": {
+      "drops": [
+        {
+          "enemy": "Aerial Knocker",
+          "rate": "8%",
+          "locations": [
+            "Pride Lands · Jungle"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Knocker"
+          ]
+        },
+        {
+          "enemy": "Shaman",
+          "rate": "10%",
+          "locations": [
+            "Pride Lands · Elephant Graveyard",
+            "Pride Lands · The Savannah",
+            "Pride Lands · Wildebeest Valley"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Shaman"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Pulsing"
+      ]
+    },
+    "Power Crystal": {
+      "drops": [
+        {
+          "enemy": "Morning Star",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Radiant Garden · Ravine Trail",
+            "Radiant Garden · Restoration Site"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Morning_Star"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Pulsing"
+      ]
+    },
+    "Dark Shard": {
+      "drops": [
+        {
+          "enemy": "Shadow",
+          "rate": "4%",
+          "locations": [
+            "Timeless River · Wharf",
+            "Timeless River · Pier",
+            "Timeless River · Mickey's House"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Shadow"
+          ]
+        },
+        {
+          "enemy": "Soldier",
+          "rate": "8%",
+          "locations": [
+            "Timeless River · Lilliput",
+            "Timeless River · Mickey's House"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Soldier"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Writhing"
+      ]
+    },
+    "Dark Stone": {
+      "drops": [
+        {
+          "enemy": "Assault Rider",
+          "rate": "12%",
+          "locations": [
+            "The Land of Dragons · Antechamber",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Assault_Rider"
+          ]
+        },
+        {
+          "enemy": "Nightwalker",
+          "rate": "10%",
+          "locations": [
+            "The Land of Dragons · Imperial Square",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Ridge"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Nightwalker"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Writhing"
+      ]
+    },
+    "Dark Gem": {
+      "drops": [
+        {
+          "enemy": "Gargoyle Knight",
+          "rate": "10%",
+          "locations": [
+            "Beast's Castle · Courtyard",
+            "Beast's Castle · The East Wing",
+            "Beast's Castle · Undercroft"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Gargoyle_Knight"
+          ]
+        },
+        {
+          "enemy": "Gargoyle Warrior",
+          "rate": "10%",
+          "locations": [
+            "Beast's Castle · Entrance Hall",
+            "Beast's Castle · Courtyard",
+            "Beast's Castle · The East Wing"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Gargoyle_Warrior"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Writhing"
+      ]
+    },
+    "Dark Crystal": {
+      "drops": [
+        {
+          "enemy": "Air Pirate",
+          "rate": "8%",
+          "locations": [
+            "The Land of Dragons · Encampment",
+            "The Land of Dragons · Checkpoint",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Air_Pirate"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Writhing"
+      ]
+    },
+    "Dense Shard": {
+      "drops": [
+        {
+          "enemy": "Creeper",
+          "rate": "8%",
+          "locations": [
+            "Radiant Garden · Transport to Remembrance",
+            "The World That Never Was · Nothing's Call",
+            "The World That Never Was · Hall of Empty Melodies (lower floor)"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Creeper"
+          ]
+        },
+        {
+          "enemy": "Dragoon",
+          "rate": "12%",
+          "locations": [
+            "Twilight Town · Mansion: Library",
+            "Twilight Town · Tower: Star Chamber",
+            "Radiant Garden · Transport to Remembrance"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Dragoon"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Betwixt"
+      ]
+    },
+    "Dense Stone": {
+      "drops": [
+        {
+          "enemy": "Sniper",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Transport to Remembrance",
+            "The Land of Dragons · Summit",
+            "The World That Never Was · Fragment Crossing"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Sniper"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Betwixt"
+      ]
+    },
+    "Dense Gem": {
+      "drops": [
+        {
+          "enemy": "Samurai",
+          "rate": "12%",
+          "locations": [
+            "Twilight Town · Mansion: Basement Hall",
+            "Twilight Town · Tower: Wayward Stairs (blue)",
+            "Radiant Garden · Transport to Remembrance"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Samurai"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Betwixt"
+      ]
+    },
+    "Dense Crystal": {
+      "drops": [
+        {
+          "enemy": "Berserker",
+          "rate": "12%",
+          "locations": [
+            "Twilight Town · Wayward Stairs: Orange",
+            "Radiant Garden · Transport to Remembrance",
+            "The World That Never Was · Naught's Skyway"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Berserker"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Betwixt"
+      ]
+    },
+    "Twilight Shard": {
+      "drops": [
+        {
+          "enemy": "Dusk",
+          "rate": "10%",
+          "locations": [
+            "Twilight Town · Mansion: Foyer",
+            "Twilight Town · Mansion: Library",
+            "Twilight Town · Mansion: Basement Corridor"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Dusk"
+          ]
+        },
+        {
+          "enemy": "Gambler",
+          "rate": "12%",
+          "locations": [
+            "Twilight Town · Mansion: Foyer",
+            "Twilight Town · Mansion: Dining Room",
+            "Twilight Town · Tower: Moon Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Gambler"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Twilight"
+      ]
+    },
+    "Twilight Stone": {
+      "drops": [
+        {
+          "enemy": "Dancer",
+          "rate": "12%",
+          "locations": [
+            "Twilight Town · Mansion: Basement Corridor",
+            "Twilight Town · Tower: Wayward Stairs (green)",
+            "Radiant Garden · Transport to Remembrance"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Dancer"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Twilight"
+      ]
+    },
+    "Twilight Gem": {
+      "drops": [
+        {
+          "enemy": "Assassin",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Transport to Remembrance",
+            "The World That Never Was · Hall of Empty Melodies (upper floor)",
+            "The World That Never Was · Ruin and Creation's Passage"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Assassin"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Twilight"
+      ]
+    },
+    "Twilight Crystal": {
+      "drops": [
+        {
+          "enemy": "Sorcerer",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Transport to Remembrance",
+            "The World That Never Was · Naught's Approach"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Sorcerer"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Twilight"
+      ]
+    },
+    "Bright Shard": {
+      "drops": [
+        {
+          "enemy": "Creeper Plant",
+          "rate": "4%",
+          "locations": [
+            "Halloween Town · Hinterlands"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Creeper_Plant"
+          ]
+        },
+        {
+          "enemy": "Hook Bat",
+          "rate": "3%",
+          "locations": [
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hook_Bat"
+          ]
+        },
+        {
+          "enemy": "Minute Bomb",
+          "rate": "3%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: Entrance",
+            "Olympus Coliseum · Valley of the Dead"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Minute_Bomb"
+          ]
+        },
+        {
+          "enemy": "Rabid Dog",
+          "rate": "3%",
+          "locations": [
+            "Port Royal · Harbor",
+            "Port Royal · The Black Pearl",
+            "Port Royal · Ship Graveyard: Seadrift Keep"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Rabid_Dog"
+          ]
+        },
+        {
+          "enemy": "Soldier",
+          "rate": "4%",
+          "locations": [
+            "Timeless River · Lilliput",
+            "Timeless River · Mickey's House"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Soldier"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bright"
+      ]
+    },
+    "Bright Stone": {
+      "drops": [
+        {
+          "enemy": "Aeroplane",
+          "rate": "4%",
+          "locations": [
+            "Timeless River · Pier",
+            "Timeless River · Lilliput",
+            "Timeless River · Scene of the Fire"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aeroplane"
+          ]
+        },
+        {
+          "enemy": "Cannon Gun",
+          "rate": "3%",
+          "locations": [
+            "The Land of Dragons · Summit",
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Simulation Hangar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Cannon_Gun"
+          ]
+        },
+        {
+          "enemy": "Driller Mole",
+          "rate": "3%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: Entrance",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Olympus Coliseum · Valley of the Dead"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Driller_Mole"
+          ],
+          "resolution": "Use the edition-specific enemy reward table; the aggregate material table disagrees."
+        },
+        {
+          "enemy": "Luna Bandit",
+          "rate": "4%",
+          "locations": [
+            "Agrabah · Bazaar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Luna_Bandit"
+          ]
+        },
+        {
+          "enemy": "Silver Rock",
+          "rate": "3%",
+          "locations": [
+            "Agrabah · Bazaar",
+            "Agrabah · Cave of Wonders: Valley of Stone"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Silver_Rock"
+          ]
+        },
+        {
+          "enemy": "Tornado Step",
+          "rate": "4%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: The Lost Road",
+            "Olympus Coliseum · Cave of the Dead: Passage"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Tornado_Step"
+          ]
+        },
+        {
+          "enemy": "Wight Knight",
+          "rate": "4%",
+          "locations": [
+            "Halloween Town · Halloween Town Square",
+            "Halloween Town · Graveyard"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Wight_Knight"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bright"
+      ]
+    },
+    "Bright Gem": {
+      "drops": [
+        {
+          "enemy": "Aerial Knocker",
+          "rate": "4%",
+          "locations": [
+            "Pride Lands · Jungle"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Knocker"
+          ]
+        },
+        {
+          "enemy": "Magnum Loader",
+          "rate": "4%",
+          "locations": [
+            "Space Paranoids · Dataspace"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Magnum_Loader"
+          ]
+        },
+        {
+          "enemy": "Surveillance Robot",
+          "rate": "3%",
+          "locations": [
+            "Radiant Garden · Restoration Site",
+            "Port Royal · Harbor",
+            "Port Royal · Town"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Surveillance_Robot"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bright"
+      ]
+    },
+    "Bright Crystal": {
+      "drops": [
+        {
+          "enemy": "Air Pirate",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Encampment",
+            "The Land of Dragons · Checkpoint",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Air_Pirate"
+          ]
+        },
+        {
+          "enemy": "Crescendo",
+          "rate": "3%",
+          "locations": [
+            "Olympus Coliseum · Underworld Caverns: The Lost Road",
+            "Olympus Coliseum · Cave of the Dead: Passage"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Crescendo"
+          ]
+        },
+        {
+          "enemy": "Neoshadow",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Radiant Garden · Bailey",
+            "Radiant Garden · Corridors"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Neoshadow"
+          ]
+        },
+        {
+          "enemy": "Strafer",
+          "rate": "4%",
+          "locations": [
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Solar Sailer Simulation"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Strafer"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Bright"
+      ]
+    },
+    "Energy Shard": {
+      "drops": [
+        {
+          "enemy": "Bolt Tower",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Imperial Square",
+            "Pride Lands · The Savannah"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Bolt_Tower"
+          ]
+        },
+        {
+          "enemy": "Gargoyle Knight",
+          "rate": "4%",
+          "locations": [
+            "Beast's Castle · Courtyard",
+            "Beast's Castle · The East Wing",
+            "Beast's Castle · Undercroft"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Gargoyle_Knight"
+          ]
+        },
+        {
+          "enemy": "Gargoyle Warrior",
+          "rate": "4%",
+          "locations": [
+            "Beast's Castle · Entrance Hall",
+            "Beast's Castle · Courtyard",
+            "Beast's Castle · The East Wing"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Gargoyle_Warrior"
+          ]
+        },
+        {
+          "enemy": "Nightwalker",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Imperial Square",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Ridge"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Nightwalker"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wellspring"
+      ]
+    },
+    "Energy Stone": {
+      "drops": [
+        {
+          "enemy": "Hammer Frame",
+          "rate": "4%",
+          "locations": [
+            "Beast's Castle · Entrance Hall",
+            "Beast's Castle · Secret Passage",
+            "Beast's Castle · The West Wing"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hammer_Frame"
+          ]
+        },
+        {
+          "enemy": "Lance Soldier",
+          "rate": "4%",
+          "locations": [
+            "Port Royal · Town",
+            "Port Royal · Isla de Muerta: Cave Mouth",
+            "Port Royal · Ship Graveyard: Seadrift Row"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Lance_Soldier"
+          ]
+        },
+        {
+          "enemy": "Trick Ghost",
+          "rate": "4%",
+          "locations": [
+            "Halloween Town · Curly Hill",
+            "Halloween Town · Hinterlands",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Trick_Ghost_(KHII)"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wellspring"
+      ]
+    },
+    "Energy Gem": {
+      "drops": [
+        {
+          "enemy": "Emerald Blues",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Encampment",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Emerald_Blues"
+          ]
+        },
+        {
+          "enemy": "Fortuneteller",
+          "rate": "4%",
+          "locations": [
+            "Agrabah · Cave of Wonders: Valley of Stone"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Fortuneteller"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wellspring"
+      ]
+    },
+    "Energy Crystal": {
+      "drops": [
+        {
+          "enemy": "Bookmaster",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Space Paranoids · I/O Tower: Hallway"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Bookmaster"
+          ]
+        },
+        {
+          "enemy": "Shaman",
+          "rate": "4%",
+          "locations": [
+            "Pride Lands · Elephant Graveyard",
+            "Pride Lands · The Savannah",
+            "Pride Lands · Wildebeest Valley"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Shaman"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Wellspring"
+      ]
+    },
+    "Serenity Shard": {
+      "drops": [
+        {
+          "enemy": "Assault Rider",
+          "rate": "4%",
+          "locations": [
+            "The Land of Dragons · Antechamber",
+            "The Land of Dragons · Mountain Trail",
+            "The Land of Dragons · Village Cave"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Assault_Rider"
+          ]
+        },
+        {
+          "enemy": "Fat Bandit",
+          "rate": "4%",
+          "locations": [
+            "Agrabah · Agrabah",
+            "Agrabah · Bazaar"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Fat_Bandit"
+          ]
+        },
+        {
+          "enemy": "Graveyard",
+          "rate": "4%",
+          "locations": [
+            "Halloween Town · Halloween Town Square",
+            "Halloween Town · Graveyard",
+            "Halloween Town · Curly Hill"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Graveyard"
+          ]
+        },
+        {
+          "enemy": "Hot Rod",
+          "rate": "4%",
+          "locations": [
+            "Timeless River · Wharf",
+            "Timeless River · Building Site",
+            "Timeless River · Lilliput"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Hot_Rod"
+          ]
+        },
+        {
+          "enemy": "Large Body",
+          "rate": "4%",
+          "locations": [
+            "Beast's Castle · Ballroom",
+            "Beast's Castle · Secret Passage",
+            "Timeless River · Building Site"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Large_Body"
+          ]
+        },
+        {
+          "enemy": "Toy Soldier",
+          "rate": "4%",
+          "locations": [
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Toy_Soldier"
+          ]
+        },
+        {
+          "enemy": "Beffudler",
+          "rate": "3%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Beffudler"
+          ]
+        },
+        {
+          "enemy": "Camo Cannon",
+          "rate": "3%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Camo_Cannon"
+          ]
+        },
+        {
+          "enemy": "Iron Hammer",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Iron_Hammer"
+          ]
+        },
+        {
+          "enemy": "Bulky Vendor",
+          "rate": "Conditional",
+          "locations": [
+            "The Land of Dragons · Checkpoint",
+            "Beast's Castle · The West Hall",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Agrabah · Bazaar",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "details": "Capsule Prize at 75–100% HP gives one Serenity Shard. Stay on the ground to use the reaction command; a successful reaction guarantees this material.",
+          "sources": [
+            "https://www.khwiki.com/Bulky_Vendor"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Serenity"
+      ]
+    },
+    "Serenity Stone": {
+      "drops": [
+        {
+          "enemy": "Crimson Jazz",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Bailey",
+            "Radiant Garden · Corridors",
+            "Beast's Castle · Entrance Hall"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Crimson_Jazz"
+          ]
+        },
+        {
+          "enemy": "Devastator",
+          "rate": "4%",
+          "locations": [
+            "Space Paranoids · Canyon",
+            "Space Paranoids · Dataspace",
+            "Space Paranoids · I/O Tower: Hallway"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Devastator"
+          ]
+        },
+        {
+          "enemy": "Living Bone",
+          "rate": "4%",
+          "locations": [
+            "Pride Lands · Elephant Graveyard",
+            "Pride Lands · The Savannah",
+            "Pride Lands · Wastelands"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Living_Bone"
+          ]
+        },
+        {
+          "enemy": "Morning Star",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Borough",
+            "Radiant Garden · Ravine Trail",
+            "Radiant Garden · Restoration Site"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Morning_Star"
+          ]
+        },
+        {
+          "enemy": "Aerial Champ",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Champ"
+          ]
+        },
+        {
+          "enemy": "Aerial Viking",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Viking"
+          ]
+        },
+        {
+          "enemy": "Lance Warrior",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Lance_Warrior"
+          ]
+        },
+        {
+          "enemy": "Magic Phantom",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Magic_Phantom"
+          ]
+        },
+        {
+          "enemy": "Necromancer",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Necromancer"
+          ]
+        },
+        {
+          "enemy": "Bulky Vendor",
+          "rate": "Conditional",
+          "locations": [
+            "The Land of Dragons · Checkpoint",
+            "Beast's Castle · The West Hall",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Agrabah · Bazaar",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "details": "Rare Capsule at 50–74% HP gives one Serenity Stone. Stay on the ground to use the reaction command; a successful reaction guarantees this material.",
+          "sources": [
+            "https://www.khwiki.com/Bulky_Vendor"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Serenity"
+      ]
+    },
+    "Serenity Gem": {
+      "drops": [
+        {
+          "enemy": "Mad Ride",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Mad_Ride"
+          ]
+        },
+        {
+          "enemy": "Reckless",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Reckless"
+          ]
+        },
+        {
+          "enemy": "Runemaster",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Runemaster"
+          ]
+        },
+        {
+          "enemy": "Spring Metal",
+          "rate": "4%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Spring_Metal"
+          ]
+        },
+        {
+          "enemy": "Bulky Vendor",
+          "rate": "Conditional",
+          "locations": [
+            "The Land of Dragons · Checkpoint",
+            "Beast's Castle · The West Hall",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Agrabah · Bazaar",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "details": "Limited Capsule at 25–49% HP gives one Serenity Gem. Stay on the ground to use the reaction command; a successful reaction guarantees this material.",
+          "sources": [
+            "https://www.khwiki.com/Bulky_Vendor"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Serenity"
+      ]
+    },
+    "Remembrance Shard": {
+      "drops": [
+        {
+          "enemy": "Beffudler",
+          "rate": "6%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Beffudler"
+          ]
+        },
+        {
+          "enemy": "Iron Hammer",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Iron_Hammer"
+          ]
+        },
+        {
+          "enemy": "Camo Cannon",
+          "rate": "6%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Camo_Cannon"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Remembrance"
+      ]
+    },
+    "Remembrance Stone": {
+      "drops": [
+        {
+          "enemy": "Aerial Viking",
+          "rate": "6%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Viking"
+          ]
+        },
+        {
+          "enemy": "Magic Phantom",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Magic_Phantom"
+          ]
+        },
+        {
+          "enemy": "Lance Warrior",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Lance_Warrior"
+          ]
+        },
+        {
+          "enemy": "Necromancer",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Necromancer"
+          ]
+        },
+        {
+          "enemy": "Aerial Champ",
+          "rate": "8%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Aerial_Champ"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Remembrance"
+      ]
+    },
+    "Remembrance Gem": {
+      "drops": [
+        {
+          "enemy": "Spring Metal",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Spring_Metal"
+          ]
+        },
+        {
+          "enemy": "Runemaster",
+          "rate": "10%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Runemaster"
+          ]
+        },
+        {
+          "enemy": "Mad Ride",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Depths"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Mad_Ride"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Remembrance"
+      ]
+    },
+    "Remembrance Crystal": {
+      "drops": [
+        {
+          "enemy": "Reckless",
+          "rate": "12%",
+          "locations": [
+            "Radiant Garden · Cavern of Remembrance: Engine Chamber"
+          ],
+          "sources": [
+            "https://www.khwiki.com/Reckless"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Remembrance"
+      ]
+    },
+    "Serenity Crystal": {
+      "drops": [
+        {
+          "enemy": "Bulky Vendor",
+          "rate": "Conditional",
+          "locations": [
+            "The Land of Dragons · Checkpoint",
+            "Beast's Castle · The West Hall",
+            "Olympus Coliseum · Cave of the Dead: Entrance",
+            "Agrabah · Bazaar",
+            "Halloween Town · Candy Cane Lane"
+          ],
+          "details": "Prime Capsule at 1–24% HP gives one Serenity Crystal. Stay on the ground to use the reaction command; a successful reaction guarantees this material.",
+          "sources": [
+            "https://www.khwiki.com/Bulky_Vendor"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Serenity"
+      ]
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "verifiedOn": "2026-09-27",
+  "edition": "Kingdom Hearts II Final Mix",
+  "routes": {
+    "Asteroid Sweep": {
+      "source": "https://www.khwiki.com/Asteroid_Sweep",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Patterned Skins A",
+          "exRequirement": "Fly a Gummi Ship with 50 or more speed.",
+          "exSRank": 30,
+          "exReward": "Caterpillar/G"
+        },
+        "2": {
+          "sRank": 500,
+          "reward": "Highwind α",
+          "exRequirement": "Fly a Gummi Ship with 100 or more power.",
+          "exSRank": 500,
+          "exReward": "Shuriken/G"
+        },
+        "3": {
+          "sRank": 2900000,
+          "reward": "Flat Helm/G",
+          "exRequirement": "Fly a Gummi Ship with 250 or more power.",
+          "exSRank": 2900000,
+          "exReward": "Figure/G Set"
+        }
+      }
+    },
+    "Stardust Sweep": {
+      "source": "https://www.khwiki.com/Stardust_Sweep",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Patterned Skins B",
+          "exRequirement": "Fly a Gummi Ship set with 12 or more Wing Gummies.",
+          "exSRank": 30,
+          "exReward": "Flag/G"
+        },
+        "2": {
+          "sRank": 500,
+          "reward": "PuPu",
+          "exRequirement": "Fly a Gummi Ship with only Projectile Gummies as Weapon Gummies.",
+          "exSRank": 500,
+          "exReward": "Boomerang/G"
+        },
+        "3": {
+          "sRank": 3100000,
+          "reward": "Bubble Helm/G",
+          "exRequirement": "Fly a Gummi Ship set with 20 or more Projectile Gummies.",
+          "exSRank": 3100000,
+          "exReward": "Strike/G"
+        }
+      }
+    },
+    "Phantom Storm": {
+      "source": "https://www.khwiki.com/Phantom_Storm",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Realistic Skins",
+          "exRequirement": "Fly a Highwind model from the sample blueprints.",
+          "exSRank": 30,
+          "exReward": "Mast/G"
+        },
+        "2": {
+          "sRank": 500,
+          "reward": "Tonberry",
+          "exRequirement": "Fly a Gummi Ship with 50 or less HP.",
+          "exSRank": 500,
+          "exReward": "Strike/G"
+        },
+        "3": {
+          "sRank": 3100000,
+          "reward": "Drill/G",
+          "exRequirement": "Fly a Gummi Ship and Teeny Ship with a combination of 20 or less HP.",
+          "exSRank": 3100000,
+          "exReward": "Caterpillar/G"
+        }
+      }
+    },
+    "Splash Island": {
+      "source": "https://www.khwiki.com/Splash_Island",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Decal Skins",
+          "exRequirement": "Fly a Gummi Ship set with the Formation Change Ability.",
+          "exSRank": 30,
+          "exReward": "Flag/G"
+        },
+        "2": {
+          "sRank": 350,
+          "reward": "Moogle",
+          "exRequirement": "Fly an Invincible model from the sample blueprints.",
+          "exSRank": 350,
+          "exReward": "Boomerang/G"
+        },
+        "3": {
+          "sRank": 1700000,
+          "reward": "Solid Helm/G",
+          "exRequirement": "Fly a Gummi Ship with no Weapon Gummies.",
+          "exSRank": 1700000,
+          "exReward": "Mast/G"
+        }
+      }
+    },
+    "Floating Island": {
+      "source": "https://www.khwiki.com/Floating_Island",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Variety Skins A",
+          "exRequirement": "Fly a special model Ship.",
+          "exSRank": 30,
+          "exReward": "Moon Ring/G"
+        },
+        "2": {
+          "sRank": 300,
+          "reward": "Mandragora",
+          "exRequirement": "Fly a Gummi Ship with 4 or more Lock-on Gummies.",
+          "exSRank": 300,
+          "exReward": "Caterpillar/G"
+        },
+        "3": {
+          "sRank": 1900000,
+          "reward": "Sphere Helm/G",
+          "exRequirement": "Fly without any Teeny Ships.",
+          "exSRank": 1900000,
+          "exReward": "Figure/G Set"
+        }
+      }
+    },
+    "Ancient Highway": {
+      "source": "https://www.khwiki.com/Ancient_Highway",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Variety Skins B",
+          "exRequirement": "Fly a Gummi Ship set with 8 or more Wheel Gummies.",
+          "exSRank": 30,
+          "exReward": "Figure/G Set"
+        },
+        "2": {
+          "sRank": 350,
+          "reward": "Chocobo",
+          "exRequirement": "Fly a Gummi Ship set with 8 or more Abilities.",
+          "exSRank": 350,
+          "exReward": "Caterpillar/G"
+        },
+        "3": {
+          "sRank": 1900000,
+          "reward": "Saw/G",
+          "exRequirement": "Fly a Gummi Ship and Teeny Ship with a combination of 80 or more speed.",
+          "exSRank": 1900000,
+          "exReward": "Boomerang/G"
+        }
+      }
+    },
+    "Broken Highway": {
+      "source": "https://www.khwiki.com/Broken_Highway",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Neon Skins A",
+          "exRequirement": "Fly a Gummi Ship set with 6 or more Shield Gummies.",
+          "exSRank": 30,
+          "exReward": "Caterpillar/G"
+        },
+        "2": {
+          "sRank": 350,
+          "reward": "Cactuar",
+          "exRequirement": "Fly a Gummi Ship set with 2 or more Slash Gummies.",
+          "exSRank": 350,
+          "exReward": "Figure/G Set"
+        },
+        "3": {
+          "sRank": 2100000,
+          "reward": "Gungnir/G",
+          "exRequirement": "Fly a Gummi Ship set with 4 or more Slash Gummies.",
+          "exSRank": 2100000,
+          "exReward": "Strike/G"
+        }
+      }
+    },
+    "Sunlight Storm": {
+      "source": "https://www.khwiki.com/Sunlight_Storm",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Neon Skins B",
+          "exRequirement": "Fly alongside a Teeny Ship set with 4 or more Impact Gummies.",
+          "exSRank": 30,
+          "exReward": "Figure/G Set"
+        },
+        "2": {
+          "sRank": 600,
+          "reward": "Cait Sith",
+          "exRequirement": "Fly a Falcon model from the sample blueprints.",
+          "exSRank": 600,
+          "exReward": "Shuriken/G"
+        },
+        "3": {
+          "sRank": 3600000,
+          "reward": "Bridge/G",
+          "exRequirement": "Fly a Gummi Ship with a cost of 400 or less.",
+          "exSRank": 3600000,
+          "exReward": "Strike/G"
+        }
+      }
+    },
+    "Assault of the Dreadnought": {
+      "source": "https://www.khwiki.com/Assault_of_the_Dreadnought",
+      "missions": {
+        "1": {
+          "sRank": 30,
+          "reward": "Mushroom",
+          "exRequirement": "Fly a Gummi Ship set with 2 or more Ultima Gummies.",
+          "exSRank": 30,
+          "exReward": "Shuriken/G"
+        },
+        "2": {
+          "sRank": 650,
+          "reward": "Fenrir",
+          "exRequirement": "Fly a Gummi Ship with dimensions of 3 x 3 x 3 or smaller.",
+          "exSRank": 650,
+          "exReward": "Caterpillar/G"
+        },
+        "3": {
+          "sRank": 7000000,
+          "reward": "Big Bridge/G",
+          "exRequirement": "Fly a Gummi Ship set with a Drain Gummi.",
+          "exSRank": 7000000,
+          "exReward": "Bomb/G"
+        }
+      }
+    }
+  }
+}

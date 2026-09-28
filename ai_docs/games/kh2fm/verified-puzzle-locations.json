@@ -1,0 +1,890 @@
+{
+  "verifiedOn": "2026-09-27",
+  "edition": "Kingdom Hearts II Final Mix",
+  "attribution": "Location notes adapted from Kingdom Hearts Wiki contributors, Puzzle (retrieved 2026-09-27); modifications clarify routes and fill missing landmarks using cited sources.",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "entries": {
+    "kh2fm.puzzle.awakening.01": {
+      "instructions": "Above the bed.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.02": {
+      "instructions": "On a ledge near a shophouse. Accessible from the entrance of the world.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.03": {
+      "instructions": "On a wall section near the Bailey.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.04": {
+      "instructions": "Top left, back. Accessible by climbing a big pile of furniture.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.05": {
+      "instructions": "Acquired after Sora obtains his new clothes from the Fairies. Piece #5 is a mandatory puzzle piece: a cutscene will be played upon leaving the room.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.06": {
+      "instructions": "Look beside the broken furniture against the west wall.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.07": {
+      "instructions": "At highest point.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.08": {
+      "instructions": "Accessible by riding the air currents and jumping.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.09": {
+      "instructions": "From the entrance, go straight and turn right.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.10": {
+      "instructions": "Atop a small pile of furniture.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.11": {
+      "instructions": "Hidden behind a pile of fireworks.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.awakening.12": {
+      "instructions": "On a haystack behind a house.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.01": {
+      "instructions": "Above the trumpet player bonsai cutting.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.02": {
+      "instructions": "On top of the entrance.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.03": {
+      "instructions": "Jump toward the crown above the eastern ramp.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.heart.04": {
+      "instructions": "At the entrance.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.05": {
+      "instructions": "Found in the cave behind the crates of gunpowder.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.06": {
+      "instructions": "On top of Mog's Moogle Shop. Accessible by High Jump LV2. Alternatively, LV1 High Jump and Reflect can be used.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.07": {
+      "instructions": "At the opposite end of the Rampart from the save point.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.08": {
+      "instructions": "Left end.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.09": {
+      "instructions": "Jump from the north ledge toward the crown over the mist.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.heart.10": {
+      "instructions": "Near the pole on the left side of the pedestal near Shang's tent.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.11": {
+      "instructions": "On a low rooftop. Reach it with High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.heart.12": {
+      "instructions": "By the staircase.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.01": {
+      "instructions": "Under the ledge to the left of the save point.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.02": {
+      "instructions": "Behind the Christmas Town tree.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.03": {
+      "instructions": "Above the archway. Route: use LV3 High Jump or Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.04": {
+      "instructions": "Hidden behind one of the crates of gunpowder.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.05": {
+      "instructions": "Above a stand near the entrance to the Palace Gates.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.06": {
+      "instructions": "By the exit towards the Atrium. Instead of going straight in, stray off a little to the right.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.07": {
+      "instructions": "On the stairs to the Restoration Site.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.08": {
+      "instructions": "Stand on the metal grate to be hit by a jet of green water. This will propel Sora high enough to get the puzzle piece.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.09": {
+      "instructions": "Above the tree upon entering. Route: use LV2 High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.10": {
+      "instructions": "At the back of the lock.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.11": {
+      "instructions": "Near the first set of exploding crates of gunpowder upon entry.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.duality.12": {
+      "instructions": "Near the trombone player bonsai cutting is a tall hedge. Jump from the top of the hedge to get puzzle piece.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.01": {
+      "instructions": "To the right of the doors to the station in the northeast corner.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.02": {
+      "instructions": "On top of the dresser.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.03": {
+      "instructions": "Behind a stall near exit to the Bazaar. Destroy the stand.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.04": {
+      "instructions": "Above the Corridors doorway. Jump with High Jump LV2 and Aerial Dodge LV1 to reach it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.05": {
+      "instructions": "On top of the northernmost building's rooftop.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.06": {
+      "instructions": "On the pier next to the river.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.07": {
+      "instructions": "Above exploding gunpowder crates. Route: use LV2 High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.08": {
+      "instructions": "Above the large boulder near the entrance. Jump from the rock using High Jump LV2 and Aerial Dodge LV1.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.09": {
+      "instructions": "Go through the middle entrance to the Bazaar and there will be a stand with a puzzle piece behind it. Destroy the stand to get it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.10": {
+      "instructions": "Inside the first chamber and on top of a lone pillar.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.frontier.11": {
+      "instructions": "Jump above the bubbling brazier behind the throne on its northwest side.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.12": {
+      "instructions": "Jump above the bubbling brazier behind the throne on its northeast side.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.01": {
+      "instructions": "First puzzle piece on trail.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.02": {
+      "instructions": "Left from the entrance behind a rock column.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.03": {
+      "instructions": "Second puzzle piece on trail.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.04": {
+      "instructions": "Dash off of the waterfall basin and then jump to get piece.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.05": {
+      "instructions": "On the steps going down and around the central area.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.06": {
+      "instructions": "Hidden behind a pile of treasure to the left of the entrance.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.07": {
+      "instructions": "Above Pooh's house. Route: use LV2 High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.08": {
+      "instructions": "Above the awning above the Moogle Shop. Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.09": {
+      "instructions": "Left side of the room. Route: use LV2 High Jump and Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.10": {
+      "instructions": "In midair while falling down to the next level.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.11": {
+      "instructions": "In midair while falling down to the next level.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.12": {
+      "instructions": "Behind the Halloween Town tree.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.13": {
+      "instructions": "On top of cardboard boxes.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.14": {
+      "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.15": {
+      "instructions": "Right side of the room. Route: use LV3 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.16": {
+      "instructions": "Route: use LV2 High Jump, Aerial Dodge and attack.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.17": {
+      "instructions": "Route: use LV3 Glide. Alternatively, LV3 High Jump, LV3 Aerial Dodge, and LV1 Glide can be used after jumping from the highest point.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.18": {
+      "instructions": "Jump off the small rock.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.19": {
+      "instructions": "In the cabbage patch.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.20": {
+      "instructions": "Across from first treasure chest.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.21": {
+      "instructions": "On the counter top.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.22": {
+      "instructions": "Route: use LV2 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.23": {
+      "instructions": "After traveling to the Other Twilight Town.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.24": {
+      "instructions": "Collect the crown on the floor in the middle of the chamber.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.25": {
+      "instructions": "Use skateboard or Glide to reach it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.26": {
+      "instructions": "On a tree stump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.27": {
+      "instructions": "Ride the tram to reach it on the Synthesis shop roof.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.28": {
+      "instructions": "Route: use LV2 Glide and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.29": {
+      "instructions": "Behind tiger head.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.30": {
+      "instructions": "Dash off of the big ledge in the middle.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.31": {
+      "instructions": "Return with Sora and collect the crown in front of his pod.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.32": {
+      "instructions": "Enter from outside; collect the crown on the floor to your right.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.33": {
+      "instructions": "In the wreckage that has a hole through it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.34": {
+      "instructions": "Route: use Aerial Dodge to get piece hidden behind the pillar.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.35": {
+      "instructions": "Underneath the second arch.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.36": {
+      "instructions": "Collect the crown at floor level inside the captain’s cabin.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.37": {
+      "instructions": "Fall on it to get it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.38": {
+      "instructions": "On the top ledge in area with the computer.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.39": {
+      "instructions": "Route: use LV2 Aerial Dodge to reach it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.40": {
+      "instructions": "Route: use LV2 High Jump and Aerial Dodge. On the second column.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.41": {
+      "instructions": "On broken bridge to the tower.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.42": {
+      "instructions": "In the small alcove.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.43": {
+      "instructions": "In front of the statue's face. Route: use LV2 High Jump and Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.44": {
+      "instructions": "Above entrance.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.45": {
+      "instructions": "On the stern.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.46": {
+      "instructions": "On the first column. Route: use LV2 High Jump and Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.47": {
+      "instructions": "Jump off the ledge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.daylight.48": {
+      "instructions": "Under the tree near the entrance to the Wastelands.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.01": {
+      "instructions": "In the area with yellow colored orbs. Route: use LV3 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.02": {
+      "instructions": "Jump off the top of the hill.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.03": {
+      "instructions": "Collect the crown at floor level.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.04": {
+      "instructions": "Atop the building across from Merlin's House. Route: use LV3 High Jump. Alternatively, LV1 High Jump, Wisdom Form, and Reflect can be used.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.05": {
+      "instructions": "Collect the crown at floor level inside the wreck’s hold.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.06": {
+      "instructions": "On a ledge under the door to the Mineshaft. Route: use Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.07": {
+      "instructions": "On top of lone building near the track.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.08": {
+      "instructions": "At the top waterfall. Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.09": {
+      "instructions": "On the column in the middle of the room. Route: use High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.10": {
+      "instructions": "Atop column. Route: use Glide and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.11": {
+      "instructions": "Above the entrance. Route: use LV3 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.12": {
+      "instructions": "Route: use LV3 Aerial Dodge. Alternatively, LV2 Aerial Dodge and Reflect can be used.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.13": {
+      "instructions": "On bench next to the mini clock tower.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.14": {
+      "instructions": "On the top of the middle mining drill near an air vent.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.15": {
+      "instructions": "Route: use High Jump. Jump off of the staircase leading up to the tower.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.16": {
+      "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge to jump on to platform. Then use the air vent to reach a higher moving platform.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.17": {
+      "instructions": "Above the second to last platform. Route: use Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.18": {
+      "instructions": "Under the first arch.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.19": {
+      "instructions": "Under the ledge with the treasure chest containing the Map. Route: use Glide or LV3 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.20": {
+      "instructions": "Route: use LV2 Glide. Alternatively, LV3 High Jump and LV3 Aerial Dodge can be used.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.21": {
+      "instructions": "Route: use LV2 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.22": {
+      "instructions": "Check the desk at the back of the wardrobe room.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.23": {
+      "instructions": "Atop the pile of gold to the right of the entrance. Route: use LV3 High Jump.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.24": {
+      "instructions": "Collect the crown above the table.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.25": {
+      "instructions": "Route: use LV2 Aerial Dodge or skateboard.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.26": {
+      "instructions": "Check the floor near the northern exit.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.27": {
+      "instructions": "On the top of the highest mining drill.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.28": {
+      "instructions": "Cross to the far end of the bridge. It becomes accessible during the Xaldin fight.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.29": {
+      "instructions": "Jump off the side of Pride Rock.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.30": {
+      "instructions": "In the area with blue orbs. Route: use LV1 Quick Run and LV2 Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.31": {
+      "instructions": "By the waterfall.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.32": {
+      "instructions": "In the area with white orbs. Route: use LV3 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.33": {
+      "instructions": "Attack anchor to get behind it.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.34": {
+      "instructions": "Collect the crown at floor level.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.35": {
+      "instructions": "Collect the crown at floor level.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.36": {
+      "instructions": "In the area with white orbs. Route: use LV3 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.37": {
+      "instructions": "Route: use Glide and Aerial Dodge.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.38": {
+      "instructions": "Drop from the southwest ledge toward the crown.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.39": {
+      "instructions": "In the broken crow's nest.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.40": {
+      "instructions": "First piece in the area with white orbs. Route: use LV3 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.41": {
+      "instructions": "Route: use LV2 High Jump. Jump off one of the booths.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.42": {
+      "instructions": "Route: use LV3 Aerial Dodge and LV2 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.43": {
+      "instructions": "Route: use LV2 Glide.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.44": {
+      "instructions": "Cross the canyon toward the suspended crown using Glide LV2.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.45": {
+      "instructions": "Above the pit area.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.46": {
+      "instructions": "On the other side of entrance.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.47": {
+      "instructions": "Route: use LV2 High Jump. Alternatively, LV1 High Jump and Reflect can be used.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    "kh2fm.puzzle.sunset.48": {
+      "instructions": "Behind the closed door that leads to the Heartless Manufactory.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle"
+      ]
+    }
+  }
+}

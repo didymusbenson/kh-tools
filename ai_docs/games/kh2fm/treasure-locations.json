@@ -1,0 +1,1841 @@
+{
+  "reviewedOn": "2026-09-27",
+  "edition": "Kingdom Hearts II Final Mix",
+  "method": "Restored room-relative locators from the original project workbook; reviewed against current world/item indices and available walkthroughs. Missing Cavern routes and ambiguous room descriptions have individual source overrides. Source review, not an in-game playtest.",
+  "entries": {
+    "kh2fm.treasure.twilight-town.01": {
+      "instructions": "Lower left corner of the yard.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.02": {
+      "instructions": "Top right corner of the yard.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.03": {
+      "instructions": "In the lower part of the forest.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.04": {
+      "instructions": "In the upper part of the forest towards the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.05": {
+      "instructions": "In the upper part of the forest towards the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.06": {
+      "instructions": "Go through the arch on the way to the Sandlot and find this chest in front of the green-roofed building.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.07": {
+      "instructions": "Get on top of that green-roofed building and hop on over to the blue ones. The bigger blue has this chest.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.08": {
+      "instructions": "Near green roof at the bottom of stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.09": {
+      "instructions": "Across one of the bridges on a building.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.10": {
+      "instructions": "Behind the Accessory Shop.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.11": {
+      "instructions": "Find the small bridge between two buildings and climb up to the rooftop.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.12": {
+      "instructions": "In front of the building near the hole in the wall leading to The Woods.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.13": {
+      "instructions": "Between two tracks.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.14": {
+      "instructions": "Lower left corner of the station.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.15": {
+      "instructions": "Top right corner of the station.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.16": {
+      "instructions": "Bushes to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.17": {
+      "instructions": "Bushes to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.18": {
+      "instructions": "Bushes to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.19": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.20": {
+      "instructions": "Under the staircase.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.21": {
+      "instructions": "Near the green door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.22": {
+      "instructions": "Near the door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.23": {
+      "instructions": "Down a corridor and down stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.24": {
+      "instructions": "Through the doorway and drop down to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.25": {
+      "instructions": "Down the ramp and to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.26": {
+      "instructions": "Around a corner top of stairs in the corner to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.27": {
+      "instructions": "In the beginning to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.28": {
+      "instructions": "Down the corridor around a corner to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.29": {
+      "instructions": "Jump onto the train and find this on a nearby roof.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.30": {
+      "instructions": "All the way down the left end of the tracks and to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.31": {
+      "instructions": "Halfway down the tracks between two buildings.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.32": {
+      "instructions": "Down an alley to the right of the tracks.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.33": {
+      "instructions": "In front of glass doors to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.34": {
+      "instructions": "Up the staircase to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.35": {
+      "instructions": "Up the staircase on a balcony.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.36": {
+      "instructions": "Opposite side of room near a shelf.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.37": {
+      "instructions": "In the corner to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.38": {
+      "instructions": "In the corner to the left near stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.39": {
+      "instructions": "Straight and to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.01": {
+      "instructions": "To the left towards the Bailey.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.02": {
+      "instructions": "Behind the large machine at the top of the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.03": {
+      "instructions": "To the right of Merlin’s House door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.04": {
+      "instructions": "To the right of the Bailey doorway.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.05": {
+      "instructions": "At the bottom of the stairs near Merlin’s House.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.06": {
+      "instructions": "Over the railing and to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.07": {
+      "instructions": "On a pipe near the stairs leading to the Restoration Site.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.08": {
+      "instructions": "Bottom of the winding ramp to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.09": {
+      "instructions": "Near pile of debris.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.10": {
+      "instructions": "Near pipe.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.11": {
+      "instructions": "In a corner near the fork in the road.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.12": {
+      "instructions": "At the end of the right fork in a corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.13": {
+      "instructions": "Near Leon (after first visit to Space Paranoids).",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.14": {
+      "instructions": "Back to Secret Passage in the corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.15": {
+      "instructions": "Up on a ledge to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.16": {
+      "instructions": "Near a pipe on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.17": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.18": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.19": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.20": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.21": {
+      "instructions": "After the 1,000 Heartless battle, speak to Yuna at the Postern, then open the chest she leaves.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.22": {
+      "instructions": "During the second Space Paranoids episode, take the passage from Ansem’s Study to the Manufactory and open the visible chest.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.23": {
+      "instructions": "Ledge just above the entrance.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.24": {
+      "instructions": "On the cavern floor.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.25": {
+      "instructions": "Opposite end of the cavern floor.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.26": {
+      "instructions": "Upper ledge reached by climbing back from the exit.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.27": {
+      "instructions": "Glide to the opposite upper ledge.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.28": {
+      "instructions": "Upper alcove accessed from the Mineshaft.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.29": {
+      "instructions": "Center of the room, below the upper platforms.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.30": {
+      "instructions": "Platform reached from the tall rising pillar.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.31": {
+      "instructions": "Upper platform opposite the exit door.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.32": {
+      "instructions": "Corner platform beside the map chest.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.33": {
+      "instructions": "Left of the lower entrance; beside the valves.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.34": {
+      "instructions": "Corner platform on the upper level.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.35": {
+      "instructions": "Corner of the large conveyor belt.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.36": {
+      "instructions": "Above the far end of the conveyor.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.37": {
+      "instructions": "Glide past the exit doorway.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.38": {
+      "instructions": "Small platform left of chest 37.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.39": {
+      "instructions": "Walk around the first Mineshaft section.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.40": {
+      "instructions": "Far end of the final Glide passage.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.41": {
+      "instructions": "First Mineshaft entry, near the Depths doorway.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.42": {
+      "instructions": "Second Mineshaft section, before the Aerial Dodge pipes.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.43": {
+      "instructions": "Final Mineshaft section, by the Engine Chamber doorway.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.44": {
+      "instructions": "Beside the computer terminal.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.45": {
+      "instructions": "Beside the computer terminal.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.46": {
+      "instructions": "After defeating all thirteen Replica Data battles, open the new chest near the terminal.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.01": {
+      "instructions": "Exit castle’s front door far right of the courtyard.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.02": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.03": {
+      "instructions": "Left of the door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.04": {
+      "instructions": "Big treasure chest in the corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.05": {
+      "instructions": "Small chest in other corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.06": {
+      "instructions": "Near the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.07": {
+      "instructions": "In the center of the hallway near a window.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.08": {
+      "instructions": "Between the suits of armor against the north wall.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.09": {
+      "instructions": "Between the suits of armor against the south wall.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.10": {
+      "instructions": "To the right of the staircase base.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.11": {
+      "instructions": "To the left of the staircase base.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.12": {
+      "instructions": "To the right of the Secret Passage entrance.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.13": {
+      "instructions": "In front of the stairs to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.14": {
+      "instructions": "Northeast corner, beside the Undercroft door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.15": {
+      "instructions": "East wall, between the chair and hay.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.16": {
+      "instructions": "Stairs up behind the door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.17": {
+      "instructions": "Stairs up behind the door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.18": {
+      "instructions": "Open the secret door and it will be before the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.19": {
+      "instructions": "Up the right stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.20": {
+      "instructions": "Southwest wall, opposite the West Hall passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.21": {
+      "instructions": "Near the window.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.01": {
+      "instructions": "On the east path toward the Underworld Caverns.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.02": {
+      "instructions": "On the left path of the fork.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.03": {
+      "instructions": "Near the door for Inner Chamber.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.04": {
+      "instructions": "On the left path of the fork.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.05": {
+      "instructions": "On the left path of the fork.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.06": {
+      "instructions": "On the right path of the fork.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.07": {
+      "instructions": "Near the save point.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.08": {
+      "instructions": "Near the Passage doorway.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.09": {
+      "instructions": "Up the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.10": {
+      "instructions": "On the left up the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.11": {
+      "instructions": "Drop down onto a ledge.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.12": {
+      "instructions": "Left path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.13": {
+      "instructions": "Southwest wall, opposite the Caverns Entrance passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.14": {
+      "instructions": "Towards Atrium right path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.15": {
+      "instructions": "North wall, east of the upper Entrance passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.16": {
+      "instructions": "On the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.17": {
+      "instructions": "Next to the stairs on a ledge.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.18": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.19": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.20": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.01": {
+      "instructions": "Upper platform overlooking the Palace passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.02": {
+      "instructions": "Upper level along the western boundary.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.03": {
+      "instructions": "Southeast platform by the lower Bazaar passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.04": {
+      "instructions": "Recessed southwest alcove.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.05": {
+      "instructions": "Small upper-level corner on the west side.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.06": {
+      "instructions": "Southeast upper level by the upper Bazaar passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.07": {
+      "instructions": "Raised platform in the northwest corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.08": {
+      "instructions": "On top of stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.09": {
+      "instructions": "Bottom of the staircase.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.10": {
+      "instructions": "Among booths.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.11": {
+      "instructions": "Among booths.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.12": {
+      "instructions": "Among booths.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.13": {
+      "instructions": "Near the desert path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.14": {
+      "instructions": "On a block.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.15": {
+      "instructions": "Behind the actual Cave of Wonders entrance.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.16": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.17": {
+      "instructions": "Right side on a platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.18": {
+      "instructions": "Left side on a platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.19": {
+      "instructions": "Left side on a platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.20": {
+      "instructions": "Right side on a platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.21": {
+      "instructions": "Near the transporter.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.22": {
+      "instructions": "Near the save point.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.23": {
+      "instructions": "Left side near wall.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.24": {
+      "instructions": "Near gold piles.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.25": {
+      "instructions": "Near the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.agrabah.26": {
+      "instructions": "Near save point.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.01": {
+      "instructions": "To the right of large rock.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.02": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.03": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.04": {
+      "instructions": "Near rocks across from stream.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.05": {
+      "instructions": "Near wagon.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.06": {
+      "instructions": "Edge of the cliff.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.07": {
+      "instructions": "Uppermost platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.08": {
+      "instructions": "Uppermost platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.09": {
+      "instructions": "On a ledge near the path leading to the Village.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.10": {
+      "instructions": "Behind the small wagon.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.11": {
+      "instructions": "In plain sight.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.12": {
+      "instructions": "Edge of cliff.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.13": {
+      "instructions": "Near the rockets and wagon.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.14": {
+      "instructions": "On ledge behind throne.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.15": {
+      "instructions": "On ledge behind throne.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.16": {
+      "instructions": "On the side of staircases on the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.17": {
+      "instructions": "Down stairs to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.18": {
+      "instructions": "On the side of staircases on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.19": {
+      "instructions": "Down stairs to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.20": {
+      "instructions": "On ledge behind throne.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.21": {
+      "instructions": "On ledge behind throne.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.01": {
+      "instructions": "Outside Pooh’s house, open the large chest on the far side.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.02": {
+      "instructions": "Outside Pooh’s house, check beside the large map chest.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.03": {
+      "instructions": "Outside Pooh’s house, check the small chest behind the house.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.04": {
+      "instructions": "On a tree stump.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.05": {
+      "instructions": "On left side of house.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.06": {
+      "instructions": "In front of tree stump.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.07": {
+      "instructions": "Behind clothesline.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.08": {
+      "instructions": "Near fence.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.09": {
+      "instructions": "In pumpkin patch.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.10": {
+      "instructions": "Left side of house.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.11": {
+      "instructions": "Near edge of fence.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.12": {
+      "instructions": "Right side of house.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.13": {
+      "instructions": "On left across the ice.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.14": {
+      "instructions": "Crystal room end of left path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.15": {
+      "instructions": "Crystal room end of right path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.16": {
+      "instructions": "Crystal room third opening from the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.17": {
+      "instructions": "Crystal room third opening from the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.18": {
+      "instructions": "Crystal room second path from the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.19": {
+      "instructions": "Near bushes on the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.20": {
+      "instructions": "Near bushes upper right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.01": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.02": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.03": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.04": {
+      "instructions": "On left near wall.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.05": {
+      "instructions": "On a ledge to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.06": {
+      "instructions": "Near exit of area.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.07": {
+      "instructions": "Behind you to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.08": {
+      "instructions": "Jump off ledge to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.09": {
+      "instructions": "Edge of the ledge in front of Pride Rock.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.10": {
+      "instructions": "Under Pride Rock.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.11": {
+      "instructions": "Near a wall in the distance.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.12": {
+      "instructions": "Between two rocks.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.13": {
+      "instructions": "In front of a rock.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.14": {
+      "instructions": "Behind rocks to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.15": {
+      "instructions": "Behind rocks.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.16": {
+      "instructions": "Near the tree.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.17": {
+      "instructions": "Around the curved path to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.18": {
+      "instructions": "Around the curved path to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.19": {
+      "instructions": "Around the curved path to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.20": {
+      "instructions": "Near the ant hills.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.21": {
+      "instructions": "Past the ant hills near a tree.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.22": {
+      "instructions": "Below the raised ledge opposite the Wastelands passage.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.23": {
+      "instructions": "Edge of the cliff to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.24": {
+      "instructions": "Near a tree.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.25": {
+      "instructions": "On the side of the waterfall.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.01": {
+      "instructions": "On a ledge near the French Horn shrub player.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.02": {
+      "instructions": "Highest rampart of Castle shrub.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.03": {
+      "instructions": "In a corner near the Cymbals shrub player.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.04": {
+      "instructions": "Ledge near the Trumpet shrub player.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.05": {
+      "instructions": "Ledge near Flute shrub player.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.06": {
+      "instructions": "Right side of Castle shrub.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.07": {
+      "instructions": "Ledge near Trombone shrub player.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.08": {
+      "instructions": "In plain sight on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.01": {
+      "instructions": "Big ledge near the door.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.02": {
+      "instructions": "Big ledge near the Wharf path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.03": {
+      "instructions": "Under a tree to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.04": {
+      "instructions": "Under a tree to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.05": {
+      "instructions": "Near a wall to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.06": {
+      "instructions": "End of the left path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.07": {
+      "instructions": "Right path near the windmill.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.01": {
+      "instructions": "On the right near the cross tombstone.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.02": {
+      "instructions": "To the left near the chained gate.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.03": {
+      "instructions": "To the left of the big book.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.04": {
+      "instructions": "To the right of the opening and closing gate.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.05": {
+      "instructions": "Near the guillotine.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.06": {
+      "instructions": "Upper left area.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.07": {
+      "instructions": "On the left side.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.08": {
+      "instructions": "Right side behind a tree.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.09": {
+      "instructions": "Near the house on the right of Santa’s house.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.10": {
+      "instructions": "Near the house to the right of the Yuletide Hill path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.11": {
+      "instructions": "To the right of the gates.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.12": {
+      "instructions": "To the right of Santa’s house doors.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.13": {
+      "instructions": "On the counter.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.14": {
+      "instructions": "Next to the counter near the save point.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.01": {
+      "instructions": "In plain sight in the corner.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.02": {
+      "instructions": "Around the second corner on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.03": {
+      "instructions": "Around the corner on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.04": {
+      "instructions": "Destroy boxes, go down an alley into the opening and in the corner to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.05": {
+      "instructions": "Towards the Rampart area destroy boxes on the right and go through that hole in the alley.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.06": {
+      "instructions": "Building near Rampart entry to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.07": {
+      "instructions": "Next to #4 destroy boxes go down an alley into the opening.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.08": {
+      "instructions": "To the left on the edge of the ledge.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.09": {
+      "instructions": "To the left farther along the edge.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.10": {
+      "instructions": "Inside the gap of the cave near the path leading to Moonlight Nook.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.11": {
+      "instructions": "Behind the boxes to the left where a pirate explodes from.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.12": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.13": {
+      "instructions": "To the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.14": {
+      "instructions": "Near the stairs.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.15": {
+      "instructions": "Near the save point.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.16": {
+      "instructions": "Down the right ramp under the path leading to the Black Pearl.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.17": {
+      "instructions": "Towards the upper left path.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.18": {
+      "instructions": "To the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.19": {
+      "instructions": "To the right before the bridge.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.20": {
+      "instructions": "Across the bridge to the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.port-royal.21": {
+      "instructions": "Across the bridge and further down on the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.01": {
+      "instructions": "Northwest corner of the corridor to the transporter.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.02": {
+      "instructions": "North wall, beside the map chest.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.03": {
+      "instructions": "Up the ramp ahead.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.04": {
+      "instructions": "Up the ramp on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.05": {
+      "instructions": "Over the walkway and to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.06": {
+      "instructions": "Left of the south energy-core opening.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.07": {
+      "instructions": "North wall beside the windows.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.08": {
+      "instructions": "West corner, near the Simulation Hangar entrance.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.09": {
+      "instructions": "Southeast outer edge of the room.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.10": {
+      "instructions": "Northeast outer edge of the room.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.11": {
+      "instructions": "After using the Solar Sailor on the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.12": {
+      "instructions": "After using the Solar Sailor on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.13": {
+      "instructions": "After using the Solar Sailor on the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.14": {
+      "instructions": "After using the Solar Sailor on the right.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.01": {
+      "instructions": "Around the building in the corner to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.02": {
+      "instructions": "Around the building in the corner further left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.03": {
+      "instructions": "In the area with purple ground in the corner near pipes.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.04": {
+      "instructions": "Platform to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.05": {
+      "instructions": "To the left of the skyscraper.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.06": {
+      "instructions": "To the right of the skyscraper near the crashed semi.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.07": {
+      "instructions": "To the left of the skyscraper.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.08": {
+      "instructions": "In plain sight near Moogle.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.09": {
+      "instructions": "Edge of the cliff leading to area’s exit.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.10": {
+      "instructions": "To the left of the Crooked Ascension doorway.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.11": {
+      "instructions": "Go up first ramp to the left on the platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.12": {
+      "instructions": "On top of the staircase.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.13": {
+      "instructions": "Near the railing to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.14": {
+      "instructions": "Up two ramps on the ledge to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.15": {
+      "instructions": "Up the third ramp to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.16": {
+      "instructions": "On first platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.17": {
+      "instructions": "On second platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.18": {
+      "instructions": "On third platform.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.19": {
+      "instructions": "On final platform to the left.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      ]
+    }
+  }
+}

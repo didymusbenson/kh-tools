@@ -509,6 +509,7 @@ export default function GuideJournal({
               <>
                 <h2>Guide coverage</h2>
                 <p>{guide.coverage}</p>
+                {guide.id === "kh2fm" && <p><a href={`${import.meta.env.BASE_URL}kh2-content-sources.html`}>Sources & attribution</a></p>}
                 <dl className="guide-coverage">
                   {guide.categories.map((c) => (
                     <div key={c.id}>

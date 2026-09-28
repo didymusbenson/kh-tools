@@ -1,6 +1,8 @@
 # Kingdom Hearts II Final Mix readiness
 
-Status: **Audited; substantial research available, not implementation-ready in every category and not release-validated.** Updated 2026-09-18.
+Status: **Implemented journal; existing records enriched by the 2026-09-27 data audit. Full catalog scope remains incomplete.**
+
+The [2026-09-27 audit](../games/kh2fm/data-gap-audit-2026-09-27.md) supersedes the resolved gaps in this original September 18 baseline: R01 Shock Charm is corroborated; R02 Mythril modifier and Manifest rank resolved (Moon/Star still open); R04 routes supplied without asserting minimum abilities; R05 cup gates resolved. R06 now has all 301 treasure and 144 puzzle directions, with brief legacy chest locators explicitly distinguished from newly reviewed routes. R08 has numbered assembly instructions. R09 has full material-source guidance and representative farm rooms. R12 has all 54 S-rank targets, EX constraints and rewards. The historical tables below remain a record of the starting evidence; use the linked audit for current unresolved work.
 
 Specification: [KHII Final Mix](../games/kingdom-hearts-ii-final-mix.md). Evidence: [research pack](../games/kh2fm/README.md), [inspected-source manifest](../games/kh2fm/sources-and-legacy-audit.md). All specified modules remain MVP. The accepted [collectible contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content validation](../testing-and-content-validation.md) govern acceptance.
 
@@ -95,7 +97,7 @@ The per-game Coppermind must ground these answers in acquisition IDs/source rows
 - Does beating Xigbar give the final Magnet element in Final Mix? Correct to Luxord.
 - Where are all seven Orichalcum+ sources? Distinguish three chests and four rewards.
 - Does 100% World collectibles prove the Journal trophy? Explain the separate goal set.
-- What is the Shock Charm recipe? Surface the unresolved disagreement and provenance rather than invent certainty.
+- What is the Shock Charm recipe? Use the corroborated Lost Illusion 1, Remembrance Gem 1 / Stone 3, and Tranquility Gem 1 / Stone 3; do not restore the aggregate table reversal.
 - How do Form level 7 and standard Glide level 3 relate? State the correct scopes.
 
 Answer evaluation, offline SLM performance, app build, responsive UI and persistence migrations remain engineering work. No feature is validated simply because this research pack exists.
