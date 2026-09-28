@@ -1,5 +1,7 @@
 # Information Architecture
 
+> **New UI precedence — 2026-09-22.** The navigation/page hierarchy below describes the prior UI proposal. The [KH1FM new UI plan](ui/kh1fm-new-ui-plan.md) now governs presentation and proposes native Journal plus companion tools. Data taxonomy, canonical links, search, saved state and completion semantics remain requirements; old shell placement and inline-expanded views are not mandatory.
+
 ## Goals
 
 - Let a player reach a specific answer quickly on a phone.

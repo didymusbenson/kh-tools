@@ -1,5 +1,7 @@
 # Roadmap and Backlog
 
+> **Active work sequence — 2026-09-22.** The next UI work follows the [KH1FM faithful-journal plan](ui/kh1fm-new-ui-plan.md#7-work-sequence-and-review-points): reference/decision pass, shell, first persistent collection, complete content mapping, tools and cutover. The phases below are the earlier broad roadmap; old UI completion is not acceptance of the new visual direction. All games and retained functional scope remain in scope.
+
 This roadmap is intentionally phase-based. Dates and detailed estimates should wait until discovery is sufficiently complete.
 
 ## MVP scope rule

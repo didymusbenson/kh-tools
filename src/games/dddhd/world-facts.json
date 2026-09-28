@@ -1,0 +1,4290 @@
+{
+  "treasures": [
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 1,
+      "item": "Ice Dream Cone",
+      "area": "First District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 2,
+      "item": "Potion",
+      "area": "First District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 3,
+      "item": "Confetti Candy",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 4,
+      "item": "Balloon",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 5,
+      "item": "Hi-Potion",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 6,
+      "item": "Vibrant Fantasy",
+      "area": "Third District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 7,
+      "item": "Block-it Chocolate",
+      "area": "Third District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 8,
+      "item": "Shield Cookie",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 9,
+      "item": "Water Barrel",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 10,
+      "item": "Hi-Potion",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 11,
+      "item": "Ice Dream Cone",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 12,
+      "item": "Balloon",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 13,
+      "item": "Potion",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 14,
+      "item": "Block-it Chocolate",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 15,
+      "item": "Potion",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 16,
+      "item": "Shield Cookie",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 17,
+      "item": "Potion",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 18,
+      "item": "Block-it Chocolate",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 19,
+      "item": "Royal Cake",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 20,
+      "item": "Confetti Candy",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 21,
+      "item": "Rampant Figment",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 22,
+      "item": "Drop-Me-Not",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 23,
+      "item": "Rampant Fantasy",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 24,
+      "item": "Vibrant Fantasy",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 25,
+      "item": "Troubling Fantasy",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 26,
+      "item": "Spark",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 27,
+      "item": "Paint Gun: Red x10",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 28,
+      "item": "Potion",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 29,
+      "item": "Ice Dream Cone",
+      "area": "Post Office",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 30,
+      "item": "Balloon",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 31,
+      "item": "Intrepid Figment",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 32,
+      "item": "Ice Dream Cone",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 33,
+      "item": "Rampant Fantasy",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 34,
+      "item": "Strike Raid",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 1,
+      "item": "Rampant Fantasy",
+      "area": "First District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 2,
+      "item": "Potion",
+      "area": "First District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 3,
+      "item": "Block-it Chocolate",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 4,
+      "item": "Balloon",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 5,
+      "item": "Yoggy Ram Recipe",
+      "area": "Second District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 6,
+      "item": "Ice Dream Cone",
+      "area": "Third District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 7,
+      "item": "Confetti Candy",
+      "area": "Third District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 8,
+      "item": "Potion",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 9,
+      "item": "Intrepid Figment",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 10,
+      "item": "Balloon",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 11,
+      "item": "Confetti Candy",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 12,
+      "item": "Candy Goggles",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 13,
+      "item": "Potion",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 14,
+      "item": "Shield Cookie",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 15,
+      "item": "Confetti Candy",
+      "area": "Fourth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 16,
+      "item": "Troubling Fantasy",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 17,
+      "item": "Hi-Potion",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 18,
+      "item": "Block-it Chocolate",
+      "area": "Fifth District",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 19,
+      "item": "Drop-Me-Not",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 20,
+      "item": "Paint Gun: Green x10",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 21,
+      "item": "Royal Cake",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 22,
+      "item": "Hi-Potion",
+      "area": "Garden",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 23,
+      "item": "Troubling Fantasy",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 24,
+      "item": "Thunder",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 25,
+      "item": "Potion",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 26,
+      "item": "Shield Cookie",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 27,
+      "item": "Intrepid Figment",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 28,
+      "item": "Paint Gun: Sky Blue x10",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 29,
+      "item": "Potion",
+      "area": "Back Streets",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 30,
+      "item": "Vibrant Fantasy",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 31,
+      "item": "Ice Dream Cone",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 32,
+      "item": "Blizzard Edge",
+      "area": "Fountain Plaza",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 1,
+      "item": "Block-it Chocolate",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 2,
+      "item": "Balloon",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 3,
+      "item": "Ice Dream Cone",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 4,
+      "item": "Potion",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 5,
+      "item": "Water Barrel",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 6,
+      "item": "Royal Cake",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 7,
+      "item": "Block-it Chocolate",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 8,
+      "item": "Drop-Me-Not",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 9,
+      "item": "Potion",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 10,
+      "item": "Drop-Me-Not",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 11,
+      "item": "Dulcet Figment",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 12,
+      "item": "Drop-Me-Not",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 13,
+      "item": "Balloon",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 14,
+      "item": "Drop-Me-Not",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 15,
+      "item": "Sparkra",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 16,
+      "item": "Candy Goggles",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 17,
+      "item": "Lofty Figment",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 18,
+      "item": "Ice Dream Cone",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 19,
+      "item": "Wheeflower Recipe",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 20,
+      "item": "Confetti Candy",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 21,
+      "item": "Troubling Fancy",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 22,
+      "item": "Shield Cookie",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 23,
+      "item": "Paint Gun: Red x10",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 24,
+      "item": "Block-it Chocolate",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 25,
+      "item": "Potion",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 26,
+      "item": "Confetti Candy",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 27,
+      "item": "Noble Figment",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 28,
+      "item": "Balloon",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 29,
+      "item": "Potion",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 30,
+      "item": "Drop-Me-Not",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 31,
+      "item": "Ice Dream Cone",
+      "area": "Graveyard Gate",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 32,
+      "item": "Drop-Me-Not",
+      "area": "Graveyard Gate",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 33,
+      "item": "Potion",
+      "area": "Graveyard Gate",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 34,
+      "item": "Sleepra",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 35,
+      "item": "Drop-Me-Not",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 36,
+      "item": "Catanuki Recipe",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 37,
+      "item": "Paint Gun: Purple x10",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 38,
+      "item": "Ice Dream Cone 2",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 39,
+      "item": "Noble Fantasy",
+      "area": "Tunnels",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 40,
+      "item": "Drop-Me-Not",
+      "area": "Old Graveyard",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 41,
+      "item": "Water Barrel",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 42,
+      "item": "Fire Windmill",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 43,
+      "item": "Toximander Recipe",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 44,
+      "item": "Royal Cake",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 45,
+      "item": "Drop-Me-Not",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 46,
+      "item": "Shield Cookie",
+      "area": "Catacombs",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 47,
+      "item": "Thunder Dash",
+      "area": "Court of Miracles",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 48,
+      "item": "Hi-Potion",
+      "area": "Court of Miracles",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 49,
+      "item": "Block-it Chocolate",
+      "area": "Court of Miracles",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 1,
+      "item": "Balloon",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 2,
+      "item": "Shield Cookie",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 3,
+      "item": "Confetti Candy",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 4,
+      "item": "Potion",
+      "area": "Square",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 5,
+      "item": "Shield Cookie 2",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 6,
+      "item": "Fira",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 7,
+      "item": "Drop-Me-Not",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 8,
+      "item": "Rampant Figment",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 9,
+      "item": "Paint Gun: Yellow x10",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 10,
+      "item": "Drop-Me-Not",
+      "area": "Nave",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 11,
+      "item": "Royal Cake",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 12,
+      "item": "Dulcet Figment",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 13,
+      "item": "Drop-Me-Not",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 14,
+      "item": "Drop-Me-Not",
+      "area": "Bell Tower",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 15,
+      "item": "Block-it Chocolate",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 16,
+      "item": "Candy Goggles",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 17,
+      "item": "Water Barrel",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 18,
+      "item": "Noble Fantasy",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 19,
+      "item": "Potion",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 20,
+      "item": "Ice Dream Cone",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 21,
+      "item": "Drop-Me-Not",
+      "area": "Town",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 22,
+      "item": "Balloon",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 23,
+      "item": "Confetti Candy 2",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 24,
+      "item": "Confetti Candy",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 25,
+      "item": "Potion",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 26,
+      "item": "Shield Cookie",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 27,
+      "item": "Potion",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 28,
+      "item": "Drop-Me-Not",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 29,
+      "item": "Paint Gun: Purple x10",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 30,
+      "item": "Confetti Candy",
+      "area": "Outskirts",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 31,
+      "item": "Block-it Chocolate",
+      "area": "Windmill",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 32,
+      "item": "Sliding Crescent",
+      "area": "Windmill",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 33,
+      "item": "Water Barrel",
+      "area": "Windmill",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 34,
+      "item": "Shield Cookie",
+      "area": "Windmill",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 1,
+      "item": "Drop-Me-Not",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 2,
+      "item": "Troubling Fancy",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 3,
+      "item": "Potion",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 4,
+      "item": "Water Barrel",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 5,
+      "item": "Block-it Chocolate 2",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 6,
+      "item": "Eaglider Recipe",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 7,
+      "item": "Candy Goggles",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 8,
+      "item": "Paint Gun: Black x10",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 9,
+      "item": "Panacea",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 10,
+      "item": "Drop-Me-Not",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 11,
+      "item": "Balloon",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 12,
+      "item": "Fleeting Figment",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 13,
+      "item": "Circle Raid",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 14,
+      "item": "Dulcet Figment",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 15,
+      "item": "Royal Cake",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 16,
+      "item": "Confetti Candy",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 17,
+      "item": "Potion",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 18,
+      "item": "Block-it Chocolate",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 19,
+      "item": "Drop-Me-Not",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 20,
+      "item": "Confetti Candy 2",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 21,
+      "item": "Wondrous Figment",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 22,
+      "item": "Fleeting Figment",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 23,
+      "item": "Balloon",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 24,
+      "item": "Hi-Potion",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 25,
+      "item": "Panacea",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 26,
+      "item": "Candy Goggles",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 27,
+      "item": "Balloonra",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 28,
+      "item": "Water Barrel",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 29,
+      "item": "Ice Dream Cone 2",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 30,
+      "item": "Drop-Me-Not",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 31,
+      "item": "Potion",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 32,
+      "item": "Panacea",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 33,
+      "item": "Shield Cookie",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 34,
+      "item": "Hi-Potion",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 35,
+      "item": "Lofty Fantasy",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 36,
+      "item": "Ice Dream Cone",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 37,
+      "item": "Cyber Yog Recipe",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 38,
+      "item": "Shield Cookie 2",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 39,
+      "item": "Ice Dream Cone",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 40,
+      "item": "Potion",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 41,
+      "item": "Drop-Me-Not",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 42,
+      "item": "Paint Gun: Green x10",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 1,
+      "item": "Confetti Candy",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 2,
+      "item": "Thundara",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 3,
+      "item": "Potion",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 4,
+      "item": "Fleeting Figment",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 5,
+      "item": "Drop-Me-Not",
+      "area": "City",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 6,
+      "item": "Confetti Candy 2",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 7,
+      "item": "Counter Aura",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 8,
+      "item": "Shield Cookie",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 9,
+      "item": "Drop-Me-Not",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 10,
+      "item": "Potion",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 11,
+      "item": "Balloon",
+      "area": "Docks",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 12,
+      "item": "Royal Cake",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 13,
+      "item": "Wondrous Figment",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 14,
+      "item": "Noble Fantasy",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 15,
+      "item": "Ice Dream Cone 2",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 16,
+      "item": "Shield Cookie",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 17,
+      "item": "Potion",
+      "area": "Throughput",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 18,
+      "item": "Panacea",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 19,
+      "item": "Water Barrel",
+      "area": "Bridge",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 20,
+      "item": "Panacea",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 21,
+      "item": "Troubling Fancy",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 22,
+      "item": "Wondrous Figment",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 23,
+      "item": "Paint Gun: White x10",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 24,
+      "item": "Hi-Potion",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 25,
+      "item": "Drop-Me-Not",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 26,
+      "item": "Candy Goggles",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 27,
+      "item": "Shield Cookie 2",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 28,
+      "item": "Royal Cake",
+      "area": "Solar Sailer",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 29,
+      "item": "Balloon",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 30,
+      "item": "Hi-Potion",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 31,
+      "item": "Block-it Chocolate",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 32,
+      "item": "Shield Cookie 2",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 33,
+      "item": "Panacea",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 34,
+      "item": "Potion",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 35,
+      "item": "Fleeting Figment",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 36,
+      "item": "Peepsta Hoo Recipe",
+      "area": "Rectifier 1F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 37,
+      "item": "Gravity Strike",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 38,
+      "item": "Block-it Chocolate 2",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 39,
+      "item": "Noble Figment",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 40,
+      "item": "Potion",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 41,
+      "item": "Confetti Candy 2",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 42,
+      "item": "Drop-Me-Not",
+      "area": "Rectifier 2F",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 43,
+      "item": "Paint Gun: Black x10",
+      "area": "Portal: Stairs",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 44,
+      "item": "Drop-Me-Not",
+      "area": "Portal: Stairs",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 45,
+      "item": "Hi-Potion",
+      "area": "Portal: Stairs",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 1,
+      "item": "Blizzara",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 2,
+      "item": "Drop-Me-Not",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 3,
+      "item": "Balloon",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 4,
+      "item": "Shield Cookie 2",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 5,
+      "item": "Malleable Fantasy",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 6,
+      "item": "Paint Gun: Yellow x10",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 7,
+      "item": "Ice Dream Cone 2",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 8,
+      "item": "Block-it Chocolate 2",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 9,
+      "item": "Hi-Potion",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 10,
+      "item": "Candy Goggles",
+      "area": "Amusement Park",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 11,
+      "item": "Hi-Potion",
+      "area": "Promontory",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 12,
+      "item": "Water Barrel",
+      "area": "Promontory",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 13,
+      "item": "Ice Dream Cone 2",
+      "area": "Promontory",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 14,
+      "item": "Block-it Chocolate 2",
+      "area": "Windup Way",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 15,
+      "item": "Drop-Me-Not",
+      "area": "Windup Way",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 16,
+      "item": "Aerial Slam",
+      "area": "Windup Way",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 17,
+      "item": "Royal Cake",
+      "area": "Windup Way",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 18,
+      "item": "Hi-Potion",
+      "area": "Windup Way",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 19,
+      "item": "Balloon",
+      "area": "Circus",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 20,
+      "item": "Drop-Me-Not",
+      "area": "Circus",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 21,
+      "item": "Confetti Candy 2",
+      "area": "Circus",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 22,
+      "item": "Rampant Fancy",
+      "area": "Circus",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 23,
+      "item": "Panacea",
+      "area": "Ocean Floor",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 24,
+      "item": "Lofty Fantasy",
+      "area": "Ocean Floor",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 25,
+      "item": "Paint Gun: Sky Blue x10",
+      "area": "Ocean Floor",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 26,
+      "item": "Zero Gravira",
+      "area": "Ocean Floor",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 27,
+      "item": "Rampant Fancy",
+      "area": "Ocean Depths",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 28,
+      "item": "Candy Goggles",
+      "area": "Ocean Depths",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 29,
+      "item": "Royal Cake",
+      "area": "Ocean Depths",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 30,
+      "item": "Tatsu Steed Recipe",
+      "area": "Ocean Depths",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 31,
+      "item": "Shield Cookie 2",
+      "area": "Ocean Depths",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 1,
+      "item": "Ice Dream Cone 2",
+      "area": "Monstro: Mouth",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 2,
+      "item": "Paint Gun: Blue x10",
+      "area": "Monstro: Mouth",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 3,
+      "item": "Balloon",
+      "area": "Monstro: Mouth",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 4,
+      "item": "Panacea",
+      "area": "Monstro: Mouth",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 5,
+      "item": "Hi-Potion",
+      "area": "Monstro: Mouth",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 6,
+      "item": "Shield Cookie 2",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 7,
+      "item": "Sir Kyroo Recipe",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 8,
+      "item": "Charming Fantasy",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 9,
+      "item": "Mini",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 10,
+      "item": "Hi-Potion",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 11,
+      "item": "Shield Cookie 2",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 12,
+      "item": "Candy Goggles",
+      "area": "Monstro: Gullet",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 13,
+      "item": "Drop-Me-Not",
+      "area": "Monstro: Belly",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 14,
+      "item": "Confetti Candy 2",
+      "area": "Monstro: Belly",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 15,
+      "item": "Block-it Chocolate 2",
+      "area": "Monstro: Belly",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 16,
+      "item": "Hi-Potion",
+      "area": "Monstro: Belly",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 17,
+      "item": "Collision Magnet",
+      "area": "Monstro: Belly",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 18,
+      "item": "Confetti Candy 2",
+      "area": "Monstro: Cavity",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 19,
+      "item": "Royal Cake",
+      "area": "Monstro: Cavity",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 20,
+      "item": "Water Barrel",
+      "area": "Monstro: Cavity",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 21,
+      "item": "Drop-Me-Not",
+      "area": "Monstro: Cavity",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 22,
+      "item": "Panacea",
+      "area": "Monstro: Cavity",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 1,
+      "item": "Mega-Potion",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 2,
+      "item": "Confetti Candy 2",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 3,
+      "item": "Ice Dream Cone 3",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 4,
+      "item": "Hi-Potion",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 5,
+      "item": "Block-it Chocolate 2",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 6,
+      "item": "Drop-Me-Not",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 7,
+      "item": "Hi-Potion",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 8,
+      "item": "Block-it Chocolate 2",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 9,
+      "item": "Mega-Potion",
+      "area": "The Training Yard",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 10,
+      "item": "Ice Dream Cone 2",
+      "area": "The Training Yard",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 11,
+      "item": "Paint Gun: Sky Blue x10",
+      "area": "The Training Yard",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 12,
+      "item": "Firaga",
+      "area": "Tower Road",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 13,
+      "item": "Dream Candy",
+      "area": "Tower Road",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 14,
+      "item": "Shield Cookie 2",
+      "area": "Tower Road",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 15,
+      "item": "Candy Goggles",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 16,
+      "item": "Drop-Me-Not",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 17,
+      "item": "Ice Dream Cone 2",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 18,
+      "item": "Paint Gun: Blue x10",
+      "area": "Shore",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 19,
+      "item": "Dream Candy",
+      "area": "Shore",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 20,
+      "item": "Confetti Candy 3",
+      "area": "Theatre",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 21,
+      "item": "Dulcet Fancy",
+      "area": "Theatre",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 22,
+      "item": "Fleeting Fantasy",
+      "area": "Mont Saint-Michel",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 23,
+      "item": "Sparkga",
+      "area": "Mont Saint-Michel",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 24,
+      "item": "Hi-Potion",
+      "area": "Mont Saint-Michel",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 25,
+      "item": "Royal Cake",
+      "area": "Mont Saint-Michel",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 26,
+      "item": "Block-it Chocolate 3",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 27,
+      "item": "Sonic Blade",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 28,
+      "item": "Fleeting Fancy",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 29,
+      "item": "Chef Kyroo Recipe",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 30,
+      "item": "Water Barrel",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 31,
+      "item": "Royal Cake",
+      "area": "Dungeon",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 32,
+      "item": "Tornado Strike",
+      "area": "Cell",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 1,
+      "item": "Water Barrel",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 2,
+      "item": "Confetti Candy 2",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 3,
+      "item": "Royal Cake",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 4,
+      "item": "Shadowbreaker",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 5,
+      "item": "Mega-Potion",
+      "area": "Grand Lobby",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 6,
+      "item": "Hi-Potion",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 7,
+      "item": "Shield Cookie 2",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 8,
+      "item": "Panacea",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 9,
+      "item": "Dream Candy",
+      "area": "The Opéra",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 10,
+      "item": "Candy Goggles",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 11,
+      "item": "Prickly Fantasy",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 12,
+      "item": "Fleeting Fantasy",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 13,
+      "item": "Shield Cookie 3",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 14,
+      "item": "Hi-Potion",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 15,
+      "item": "Stop",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 16,
+      "item": "Drop-Me-Not",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 17,
+      "item": "Confetti Candy 3",
+      "area": "Green Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 18,
+      "item": "Blizzaga",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 19,
+      "item": "Ducky Goose Recipe",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 20,
+      "item": "Ice Dream Cone 2",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 21,
+      "item": "Drop-Me-Not",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 22,
+      "item": "Hi-Potion",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 23,
+      "item": "Mega-Potion",
+      "area": "Machine Room",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 24,
+      "item": "Royal Cake",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 25,
+      "item": "Fleeting Fantasy",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 26,
+      "item": "Dream Candy",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 27,
+      "item": "Staggerceps Recipe",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 28,
+      "item": "Drop-Me-Not",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 29,
+      "item": "Mega-Potion",
+      "area": "Backstage",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 30,
+      "item": "Confetti Candy 2",
+      "area": "Theatre",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 31,
+      "item": "Balloon",
+      "area": "Theatre",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 1,
+      "item": "Dream Candy",
+      "area": "Tower Entrance",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 2,
+      "item": "Block-it Chocolate 3",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 3,
+      "item": "Elixir",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 4,
+      "item": "Glide",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 5,
+      "item": "Intrepid Fantasy",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 6,
+      "item": "Ice Dream Cone 3",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 7,
+      "item": "Mega-Potion",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 8,
+      "item": "Prism Windmill",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 9,
+      "item": "Paint Gun: White x10",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 10,
+      "item": "Elixir",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 11,
+      "item": "Candy Goggles",
+      "area": "Cloudwalk",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 12,
+      "item": "Tornado",
+      "area": "Glen",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 13,
+      "item": "Royal Cake",
+      "area": "Glen",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 14,
+      "item": "Intrepid Fantasy",
+      "area": "Glen",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 15,
+      "item": "Ice Dream Cone 3",
+      "area": "Glen",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 16,
+      "item": "Mega-Potion",
+      "area": "Glen",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 17,
+      "item": "Block-it Chocolate 3",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 18,
+      "item": "Epic Fantasy",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 19,
+      "item": "Electricorn Recipe",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 20,
+      "item": "Triple Plasma",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 21,
+      "item": "Panacea",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 22,
+      "item": "Mega-Potion",
+      "area": "Fields",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 1,
+      "item": "Water Barrel",
+      "area": "Tower Entrance",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 2,
+      "item": "Royal Cake",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 3,
+      "item": "Dream Candy",
+      "area": "Tower",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 4,
+      "item": "Zero Graviza",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 5,
+      "item": "Confetti Candy 3",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 6,
+      "item": "Shield Cookie 3",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 7,
+      "item": "Paint Gun: Green x10",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 8,
+      "item": "Mega-Potion",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 9,
+      "item": "Drop-Me-Not",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 10,
+      "item": "Intrepid Fancy",
+      "area": "Moonlight Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 11,
+      "item": "Elixir",
+      "area": "Golden Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 12,
+      "item": "Intrepid Fantasy",
+      "area": "Golden Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 13,
+      "item": "Mega-Potion",
+      "area": "Golden Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 14,
+      "item": "Paint Gun: Red x10",
+      "area": "Golden Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 15,
+      "item": "Ryu Dragon Recipe",
+      "area": "Golden Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 16,
+      "item": "Ice Barrage",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 17,
+      "item": "Candy Goggles",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 18,
+      "item": "Block-it Chocolate 3",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 19,
+      "item": "Ice Dream Cone 3",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 20,
+      "item": "Dulcet Fancy",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 21,
+      "item": "Confetti Candy 3",
+      "area": "Snowgleam Wood",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 1,
+      "item": "Shield Cookie 3",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 2,
+      "item": "Dulcet Fantasy",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 3,
+      "item": "Savage Fantasy",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 4,
+      "item": "Salvation",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 5,
+      "item": "Elixir",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 6,
+      "item": "Dream Candy",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 7,
+      "item": "Water Barrel",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 8,
+      "item": "Drak Quack Recipe",
+      "area": "Avenue to Dreams",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 9,
+      "item": "Elixir",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 10,
+      "item": "Block-it Chocolate 3",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 11,
+      "item": "Shield Cookie 3",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 12,
+      "item": "Confetti Candy 3",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 13,
+      "item": "Wondrous Fantasy",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 14,
+      "item": "Ice Dream Cone 3",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 15,
+      "item": "Ars Arcanum",
+      "area": "Contorted City",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 1,
+      "item": "Dream Candy",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 2,
+      "item": "Curaga",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 3,
+      "item": "Doubleflight",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 4,
+      "item": "Elixir",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 5,
+      "item": "Elixir",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 6,
+      "item": "Confetti Candy 3",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 7,
+      "item": "Dulcet Fantasy",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 8,
+      "item": "Dark Splicer",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 9,
+      "item": "Dream Candy",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 10,
+      "item": "Elixir",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 11,
+      "item": "Keeba Tiger Recipe",
+      "area": "Delusive Beginning",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 12,
+      "item": "Ice Dream Cone 3",
+      "area": "Walk of Delusions",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 13,
+      "item": "Drop-Me-Not",
+      "area": "Walk of Delusions",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 14,
+      "item": "Lofty Fantasy",
+      "area": "Walk of Delusions",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 15,
+      "item": "Spark Raid",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 16,
+      "item": "Intrepid Fancy",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 17,
+      "item": "Royal Cake",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 18,
+      "item": "Block-it Chocolate 3",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 19,
+      "item": "Mega-Potion",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 20,
+      "item": "Balloon",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 21,
+      "item": "Elixir",
+      "area": "Fact within Fiction",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 22,
+      "item": "Elixir",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 23,
+      "item": "Skelterwild Recipe",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 24,
+      "item": "Candy Goggles",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 25,
+      "item": "Wondrous Fantasy",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 26,
+      "item": "Paint Gun: Black x10",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 27,
+      "item": "Shield Cookie 3",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 28,
+      "item": "Elixir",
+      "area": "Verge of Chaos",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    }
+  ],
+  "portals": [
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 1,
+      "area": "Post Office",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Kooma Panda Recipe (100%)",
+      "forecast": "Heavyweight hulk",
+      "nightmare": "Kooma Panda",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 2,
+      "area": "Fourth District",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow, Flowbermeow",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 3,
+      "area": "Garden",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%)",
+      "forecast": "Heavyweight hulk",
+      "nightmare": "Kooma Panda, Tama Sheep",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 4,
+      "area": "Second District",
+      "reward": "Malleable Fantasy (100%); Thunderaffe Recipe (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 5,
+      "area": "Fifth District",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Sora",
+      "number": 6,
+      "area": "Fountain Plaza",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 1,
+      "area": "Fountain Plaza",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 2,
+      "area": "Second District",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Flowbermeow Recipe (100%)",
+      "forecast": "Pup with a petal",
+      "nightmare": "Flowbermeow, Kooma Panda",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 3,
+      "area": "Fourth District",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Tama Sheep Recipe (100%)",
+      "forecast": "Roly-poly snoozer",
+      "nightmare": "Tama Sheep",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 4,
+      "area": "First District",
+      "reward": "Charming Fantasy (100%); Thunderaffe Recipe (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 5,
+      "area": "Garden",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "Traverse Town",
+      "character": "Riku",
+      "number": 6,
+      "area": "Back Streets",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Zippy zap-meister",
+      "nightmare": "Thunderaffe",
+      "source": "https://www.khwiki.com/Game:Traverse_Town"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 1,
+      "area": "Catacombs",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Footloose feline",
+      "nightmare": "Necho Cat",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 2,
+      "area": "Town",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%); Drill Sye Recipe (100%)",
+      "forecast": "Dire driller",
+      "nightmare": "Drill Sye",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 3,
+      "area": "Town",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Snouted lout",
+      "nightmare": "Zolephant",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 4,
+      "area": "Court of Miracles",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Snouted lout",
+      "nightmare": "Zolephant, Drill Sye",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 5,
+      "area": "Nave",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Sora",
+      "number": 6,
+      "area": "Square",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Footloose feline",
+      "nightmare": "Necho Cat, Zolephant, Drill Sye",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 1,
+      "area": "Windmill",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Dire driller",
+      "nightmare": "Drill Sye, Zolephant",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 2,
+      "area": "Town",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Footloose feline",
+      "nightmare": "Necho Cat",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 3,
+      "area": "Outskirts",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%); Necho Cat Recipe (100%)",
+      "forecast": "Footloose feline",
+      "nightmare": "Necho Cat",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 4,
+      "area": "Square",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 5,
+      "area": "Outskirts",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Footloose feline",
+      "nightmare": "Necho Cat",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "La Cité des Cloches",
+      "character": "Riku",
+      "number": 6,
+      "area": "Nave",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow, Zolephant, Drill Sye",
+      "source": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 1,
+      "area": "Rectifier 1F",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 2,
+      "area": "City",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Horned scorcher",
+      "nightmare": "Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 3,
+      "area": "Bridge",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto, Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 4,
+      "area": "Rectifier 2F",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 5,
+      "area": "Docks",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto, Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Sora",
+      "number": 6,
+      "area": "Throughput",
+      "reward": "Malleable Fantasy (100%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 1,
+      "area": "Rectifier 1F",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 2,
+      "area": "City",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Horned Scorcher",
+      "nightmare": "Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 3,
+      "area": "Bridge",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto, Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 4,
+      "area": "Rectifier 2F",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 5,
+      "area": "Docks",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Deft deadeye",
+      "nightmare": "KO Kabuto, Yoggy Ram",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "The Grid",
+      "character": "Riku",
+      "number": 6,
+      "area": "Portal Stairs",
+      "reward": "Charming Fantasy (100%)",
+      "forecast": "Doggish cat-thing",
+      "nightmare": "Meow Wow",
+      "source": "https://www.khwiki.com/Game:The_Grid"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 1,
+      "area": "Amusement Park",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Iceguin Ace Recipe (100%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 2,
+      "area": "Windup Way",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Lucky customer",
+      "nightmare": "Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 3,
+      "area": "Promontory",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%)",
+      "forecast": "Pup with a petal",
+      "nightmare": "Flowbermeow",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 4,
+      "area": "Ocean Floor",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "Lucky customer",
+      "nightmare": "Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 5,
+      "area": "Ocean Depths",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Sora",
+      "number": 6,
+      "area": "Circus",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "Lucky customer",
+      "nightmare": "Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 1,
+      "area": "Monstro: Mouth",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%)",
+      "forecast": "Lucky customer",
+      "nightmare": "Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 2,
+      "area": "Monstro: Gullet",
+      "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 3,
+      "area": "Monstro: Cavity (Converted)",
+      "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Juggle Pup Recipe (100%)",
+      "forecast": "Lucky customer",
+      "nightmare": "Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 4,
+      "area": "Monstro: Belly",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace, Juggle Pup",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 5,
+      "area": "Monstro: Bowels",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Prankster's Paradise",
+      "character": "Riku",
+      "number": 6,
+      "area": "Monstro: Cavity",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "Slippery slider",
+      "nightmare": "Iceguin Ace",
+      "source": "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 1,
+      "area": "Mont Saint-Michel",
+      "reward": "Fleeting Fantasy (67%); Grim Fantasy (33%)",
+      "forecast": "Lop-eared cutie",
+      "nightmare": "Me Me Bunny",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 2,
+      "area": "Shore",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (67%); Halbird Recipe (100%)",
+      "forecast": "Winged wanderer",
+      "nightmare": "Halbird",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 3,
+      "area": "Tower Road",
+      "reward": "Fleeting Fantasy (67%); Grim Fantasy (33%)",
+      "forecast": "Prehistoric fiend",
+      "nightmare": "Tyranto Rex",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 4,
+      "area": "Dungeon",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "Fowlish fool",
+      "nightmare": "Ducky Goose, Tyranto Rex",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 5,
+      "area": "Training Yard",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "Winged wanderer",
+      "nightmare": "Halbird",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Sora",
+      "number": 6,
+      "area": "Theatre",
+      "reward": "Prickly Fantasy (100%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 1,
+      "area": "Grand Lobby",
+      "reward": "Fleeting Fantasy (67%); Grim Fantasy (33%); Aura Lion Recipe (100%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 2,
+      "area": "The Opéra",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (67%)",
+      "forecast": "Fowlish fool",
+      "nightmare": "Ducky Goose, Me Me Bunny",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 3,
+      "area": "Machine Room",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (67%)",
+      "forecast": "Lop-eared cutie",
+      "nightmare": "Me Me Bunny",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 4,
+      "area": "Backstage",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 5,
+      "area": "Theatre",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "Winged wanderer",
+      "nightmare": "Halbird",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Country of the Musketeers",
+      "character": "Riku",
+      "number": 6,
+      "area": "Green Room",
+      "reward": "Epic Fantasy (100%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion, Me Me Bunny",
+      "source": "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 1,
+      "area": "Cloudwalk",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Savage Fantasy (33%); Pegaslick Recipe (100%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 2,
+      "area": "Mysterious Tower",
+      "reward": "Grim Fantasy (33%); Intrepid Fantasy (33%); Savage Fantasy (33%)",
+      "forecast": "Ruler of the skies",
+      "nightmare": "Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 3,
+      "area": "Glen",
+      "reward": "Intrepid Fantasy (33%); Fleeting Fantasy (33%); Savage Fantasy (33%)",
+      "forecast": "Spectal snarfer",
+      "nightmare": "Ghostabocky",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 4,
+      "area": "Precipice",
+      "reward": "Savage Fantasy (33%); Prickly Fantasy (67%)",
+      "forecast": "Ruler of the skies",
+      "nightmare": "Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 5,
+      "area": "Fields",
+      "reward": "Savage Fantasy (33%); Prickly Fantasy (67%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Sora",
+      "number": 6,
+      "area": "Cloudwalk",
+      "reward": "Wild Fantasy (100%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick, Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 1,
+      "area": "Mysterious Tower",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Intrepid Fantasy (33%)",
+      "forecast": "Ruler of the skies",
+      "nightmare": "Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 2,
+      "area": "Moonlight Wood",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Intrepid Fantasy (33%); Ghostabocky Recipe (100%)",
+      "forecast": "Spectral snarfer",
+      "nightmare": "Ghostabocky",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 3,
+      "area": "Snowgleam Wood",
+      "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Intrepid Fantasy (33%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 4,
+      "area": "Golden Wood",
+      "reward": "Savage Fantasy (33%); Epic Fantasy (67%)",
+      "forecast": "Ruler of the skies",
+      "nightmare": "Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 5,
+      "area": "Moonlight Wood",
+      "reward": "Savage Fantasy (33%); Epic Fantasy (67%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "Symphony of Sorcery",
+      "character": "Riku",
+      "number": 6,
+      "area": "Snowgleam Wood",
+      "reward": "Brilliant Fantasy (100%)",
+      "forecast": "Ruler of the skies",
+      "nightmare": "Ryu Dragon, Pegaslick",
+      "source": "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 1,
+      "area": "Avenue to Dreams",
+      "reward": "Intrepid Fantasy (33%); Savage Fantasy (33%); Wild Fantasy (33%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 2,
+      "area": "Contorted City",
+      "reward": "Savage Fantasy (33%); Wild Fantasy (67%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick, Halbird",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Sora",
+      "number": 3,
+      "area": "Avenue to Dreams",
+      "reward": "Wild Fantasy (100%)",
+      "forecast": "Prehistoric fiend",
+      "nightmare": "Tyranto Rex, Aura Lion, Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 1,
+      "area": "Fact within Fiction",
+      "reward": "Intrepid Fantasy (33%); Savage Fantasy (33%); Brilliant Fantasy (33%)",
+      "forecast": "King of beasts",
+      "nightmare": "Aura Lion",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 2,
+      "area": "Verge of Chaos",
+      "reward": "Savage Fantasy (33%); Brilliant Fantasy (67%)",
+      "forecast": "Sky prancer",
+      "nightmare": "Pegaslick, Thunderaffe, Halbird",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    },
+    {
+      "world": "The World That Never Was",
+      "character": "Riku",
+      "number": 3,
+      "area": "Delusive Beginning",
+      "reward": "Brilliant Fantasy (100%)",
+      "forecast": "Prehistoric fiend",
+      "nightmare": "Tyranto Rex, Aura Lion, Ryu Dragon",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was"
+    }
+  ]
+}

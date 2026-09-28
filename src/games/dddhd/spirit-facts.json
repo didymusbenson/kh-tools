@@ -1,0 +1,4595 @@
+[
+  {
+    "name": "Aura Lion",
+    "source": "https://www.khwiki.com/Aura_Lion",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            3
+          ],
+          [
+            "Noble Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Savage Fantasy",
+            3
+          ],
+          [
+            "Noble Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Brilliant Fantasy",
+            2
+          ],
+          [
+            "Intrepid Fantasy",
+            4
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Keeba Tiger"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            4
+          ],
+          [
+            "Wondrous Fantasy",
+            16
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Majik Lapin"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 2 (3%), Hi-Potion (2%)<br>Intrepid Fancy (12%), Intrepid Fantasy (6%)",
+    "rareDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 2 (3%), Hi-Potion (2%)<br>Intrepid Fancy (16%), Intrepid Fantasy (8%)",
+    "worlds": "Country of the Musketeers<br>The Grid (Portal)",
+    "link": "Aura Raid",
+    "attribute": "Light",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Beatalike",
+    "source": "https://www.khwiki.com/Beatalike",
+    "formulas": [
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            3
+          ],
+          [
+            "Noble Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            3
+          ],
+          [
+            "Savage Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            2
+          ],
+          [
+            "Vibrant Fancy",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Berserker Bronco",
+    "attribute": "Water",
+    "style": "Aqua"
+  },
+  {
+    "name": "Catanuki",
+    "source": "https://www.khwiki.com/Catanuki",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            4
+          ],
+          [
+            "Vibrant Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            3
+          ],
+          [
+            "Dulcet Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Noble Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Meow Wounce",
+    "attribute": "Physical<!--needs confirmation-->",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Cera Terror",
+    "source": "https://www.khwiki.com/Cera_Terror",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            8
+          ],
+          [
+            "Grim Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            8
+          ],
+          [
+            "Grim Fantasy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            2
+          ],
+          [
+            "Vibrant Fantasy",
+            3
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Drill Sye"
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            2
+          ],
+          [
+            "Grim Fantasy",
+            5
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Electricorn"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            1
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 2 (3%), Hi-Potion (2%)<br>Grim Fantasy (12%), Intrepid Fancy (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, Country of the Musketeers, The World That Never Was<br>Symphony of Sorcery (Portal)",
+    "link": "Roll Call",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Chef Kyroo",
+    "source": "https://www.khwiki.com/Chef_Kyroo",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Troubling Figment",
+            8
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            3
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            10
+          ],
+          [
+            "Noble Fancy",
+            6
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Sir Kyroo"
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            4
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Lord Kyroo"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Potion (2%)<br>Wondrous Fancy (12%), Wondrous Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, Country of the Musketeers, Symphony of Sorcery",
+    "link": "Decussation",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Cyber Yog",
+    "source": "https://www.khwiki.com/Cyber_Yog",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            3
+          ],
+          [
+            "Noble Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            3
+          ],
+          [
+            "Grim Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            4
+          ],
+          [
+            "Grim Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            4
+          ],
+          [
+            "Noble Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Grim Figment",
+            5
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Yoggy Ram"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Noble Fantasy",
+            2
+          ],
+          [
+            "Grim Fancy",
+            4
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Eaglider"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Confetti Candy (3%), Balloon (1%)<br>Noble Figment (12%), Grim Figment (6%)",
+    "rareDrops": "",
+    "worlds": "The Grid",
+    "link": "Whirling Bronco",
+    "attribute": "Thunder",
+    "style": "Thunder"
+  },
+  {
+    "name": "Drak Quack",
+    "source": "https://www.khwiki.com/Drak_Quack",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Vibrant Fancy",
+            4
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            2
+          ],
+          [
+            "Wondrous Fantasy",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fantasy",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone 3 (3%), Treasure Goggles (1%)<br>Wondrous Fantasy (12%), Rampant Fancy (6%)",
+    "rareDrops": "",
+    "worlds": "The World That Never Was<br>Country of the Musketeers (Portal)",
+    "link": "Tail Groove",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Drill Sye",
+    "source": "https://www.khwiki.com/Drill_Sye",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            5
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            4
+          ],
+          [
+            "Noble Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            1
+          ],
+          [
+            "Intrepid Figment",
+            4
+          ]
+        ],
+        "probability": "20%",
+        "alternate": "Pricklemane"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            2
+          ],
+          [
+            "Noble Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            3
+          ],
+          [
+            "Malleable Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            2
+          ],
+          [
+            "Vibrant Fantasy",
+            3
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Cera Terror"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x2 (40%), Droplet x3 (30%)<br>Confetti Candy (3%), Water Barrel (1%)<br>Noble Figment (12%), Rampant Figment (6%)",
+    "rareDrops": "HP Orb x3 (30%), Big Munny x2 (40%), Droplet x3 (30%)<br>Confetti Candy (3%), Water Barrel (1%)<br>Noble Figment (16%), Intrepid Fancy (8%)",
+    "worlds": "La Cité des Cloches, Traverse Town<br>Prankster's Paradise (Portal), Symphony of Sorcery (Portal)",
+    "link": "Roll Call",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Ducky Goose",
+    "source": "https://www.khwiki.com/Ducky_Goose",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            2
+          ],
+          [
+            "Vibrant Fancy",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            2
+          ],
+          [
+            "Prickly Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Treasure Goggles (1%)<br>Dulcet Fancy (12%), Wondrous Fancy (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Treasure Goggles (1%)<br>Dulcet Fancy (12%), Dulcet Fantasy (8%)",
+    "worlds": "Country of the Musketeers<br>Traverse Town (Portal), Symphony of Sorcery (Portal)",
+    "link": "Tail Groove",
+    "attribute": "Blizzard",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Eaglider",
+    "source": "https://www.khwiki.com/Eaglider",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            1
+          ],
+          [
+            "Troubling Figment",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            1
+          ],
+          [
+            "Grim Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            3
+          ],
+          [
+            "Prickly Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Noble Fantasy",
+            2
+          ],
+          [
+            "Grim Fancy",
+            4
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Cyber Yog"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            4
+          ],
+          [
+            "Prickly Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            6
+          ],
+          [
+            "Epic Fantasy",
+            1
+          ]
+        ],
+        "probability": "80%",
+        "alternate": "Halbird"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Block-it Chocolate (3%), Treasure Goggles (1%)<br>Lofty Figment (12%), Vibrant Figment (6%)",
+    "rareDrops": "",
+    "worlds": "The Grid, The World That Never Was",
+    "link": "Fly-By Knight",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Electricorn",
+    "source": "https://www.khwiki.com/Electricorn",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Lofty Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            3
+          ],
+          [
+            "Lofty Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            2
+          ],
+          [
+            "Grim Fantasy",
+            5
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Cera Terror"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            12
+          ],
+          [
+            "Fleeting Fancy",
+            4
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Pegaslick"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Shield Cookie 3 (3%), Hi-Potion (2%)<br>Fleeting Fancy (12%), Fleeting Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Symphony of Sorcery, The World That Never Was<br>Traverse Town (Portal)",
+    "link": "Equestrian Raid",
+    "attribute": "Thunder",
+    "style": "Thunder"
+  },
+  {
+    "name": "Escarglow",
+    "source": "https://www.khwiki.com/Escarglow",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            3
+          ],
+          [
+            "Grim Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            4
+          ],
+          [
+            "Noble Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            2
+          ],
+          [
+            "Vibrant Figment",
+            11
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Jestabocky"
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            6
+          ],
+          [
+            "Wondrous Figment",
+            10
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            3
+          ],
+          [
+            "Grim Figment",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            1
+          ],
+          [
+            "Troubling Fancy",
+            3
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Toximander"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            3
+          ],
+          [
+            "Malleable Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Shield Cookie (3%), Potion (2%)<br>Fleeting Figment (12%), Grim Figment (6%)",
+    "rareDrops": "",
+    "worlds": "The Grid, Symphony of Sorcery<br>La Cité des Cloches (Portal), Prankster's Paradise (Portal)",
+    "link": "Roll Call",
+    "attribute": "Physical",
+    "style": "Aqua"
+  },
+  {
+    "name": "Fin Fatale",
+    "source": "https://www.khwiki.com/Fin_Fatale",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            3
+          ],
+          [
+            "Noble Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            4
+          ],
+          [
+            "Troubling Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            6
+          ],
+          [
+            "Troubling Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Wondrous Fancy",
+            4
+          ],
+          [
+            "Noble Figment",
+            4
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Fishboné"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            2
+          ],
+          [
+            "Noble Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            2
+          ],
+          [
+            "Prickly Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 2 (3%), Balloon (1%)<br>Rampant Fancy (12%), Grim Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Prankster's Paradise, Symphony of Sorcery<br>Traverse Town (Portal)",
+    "link": "Water Blaster",
+    "attribute": "Water",
+    "style": "Aqua"
+  },
+  {
+    "name": "Fishboné",
+    "source": "https://www.khwiki.com/Fishbon%C3%A9",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            5
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Noble Figment",
+            4
+          ],
+          [
+            "Wondrous Fancy",
+            4
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Fin Fatale"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            2
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": "80%",
+        "alternate": "Skelterwild"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 2 (3%), Water Barrel (1%)<br>Wondrous Fancy (12%), Noble Fancy (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, Country of the Musketeers, Symphony of Sorcery",
+    "link": "Water Blaster",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Flowbermeow",
+    "source": "https://www.khwiki.com/Flowbermeow",
+    "formulas": [
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Malleable Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            3
+          ],
+          [
+            "Wild Fantasy",
+            2
+          ]
+        ],
+        "probability": "10%",
+        "alternate": "Meow Wow"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone (3%), Potion (2%)<br>Rampant Figment (12%), Malleable Fantasy (3%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town (Special Portal), Prankster's Paradise (Special Portal)",
+    "link": "Meow Wounce",
+    "attribute": "Light",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Frootz Cat",
+    "source": "https://www.khwiki.com/Frootz_Cat",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Wondrous Fancy",
+            4
+          ],
+          [
+            "Grim Fantasy",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            2
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fantasy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Paw Groove",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Ghostabocky",
+    "source": "https://www.khwiki.com/Ghostabocky",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            5
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            4
+          ],
+          [
+            "Wondrous Fantasy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Troubling Fantasy",
+            2
+          ],
+          [
+            "Wondrous Fantasy",
+            6
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Majik Lapin"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Block-it Chocolate 3 (3%), Balloon (1%)<br>Wondrous Fantasy (12%), Troubling Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Block-it Chocolate 3 (3%), Balloon (1%)<br>Wondrous Fantasy (16%), Troubling Fantasy (8%)",
+    "worlds": "Symphony of Sorcery, The World That Never Was<br>La Cité des Cloches (Portal), Country of the Musketeers (Portal)",
+    "link": "Vacuum Ghost",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Halbird",
+    "source": "https://www.khwiki.com/Halbird",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Rampant Fancy",
+            5
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Iceguin Ace"
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            4
+          ],
+          [
+            "Epic Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            6
+          ],
+          [
+            "Epic Fantasy",
+            1
+          ]
+        ],
+        "probability": "20%",
+        "alternate": "Eaglider"
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Epic Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            3
+          ],
+          [
+            "Prickly Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Lofty Fancy (12%), Vibrant Fancy (6%)",
+    "rareDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Lofty Fancy (16%), Lofty Fantasy (8%)",
+    "worlds": "The Grid, Country of the Musketeers, The World That Never Was<br>La Cité des Cloches (Portal)",
+    "link": "Fly-By Knight",
+    "attribute": "Light",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Hebby Repp",
+    "source": "https://www.khwiki.com/Hebby_Repp",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            4
+          ],
+          [
+            "Noble Figment",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            2
+          ],
+          [
+            "Intrepid Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            1
+          ],
+          [
+            "Intrepid Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            3
+          ],
+          [
+            "Noble Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            5
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Peepsta Hoo"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Intrepid Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate (3%), Potion (2%)<br>Intrepid Figment (12%), Troubling Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, La Cité des Cloches, Prankster's Paradise<br>Country of the Musketeers (Portal)",
+    "link": "Flame Thrower",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Iceguin Ace",
+    "source": "https://www.khwiki.com/Iceguin_Ace",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            6
+          ],
+          [
+            "Rampant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            4
+          ],
+          [
+            "Rampant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Rampant Fancy",
+            5
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Halbird"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Rampant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            5
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Kooma Panda"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            2
+          ],
+          [
+            "Wild Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Potion (2%)<br>Rampant Fancy (12%), Rampant Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Potion (2%)<br>Rampant Fancy (16%), Rampant Fantasy (8%)",
+    "worlds": "Prankster's Paradise, Traverse Town, Country of the Musketeers, Symphony of Sorcery",
+    "link": "Belly Raid",
+    "attribute": "Blizzard",
+    "style": "Aqua"
+  },
+  {
+    "name": "Jestabocky",
+    "source": "https://www.khwiki.com/Jestabocky",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            4
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            2
+          ],
+          [
+            "Vibrant Fancy",
+            11
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Escarglow"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            8
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Treasure Goggles (1%)<br>Vibrant Fancy (12%), Wondrous Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Prankster's Paradise, Traverse Town, Country of the Musketeers",
+    "link": "Vacuum Ghost",
+    "attribute": "Thunder",
+    "style": "Thunder"
+  },
+  {
+    "name": "Juggle Pup",
+    "source": "https://www.khwiki.com/Juggle_Pup",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Vibrant Fantasy",
+            2
+          ],
+          [
+            "Wondrous Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Vibrant Fantasy",
+            3
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Charming Fantasy",
+            1
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Necho Cat"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Vibrant Fancy (12%), Vibrant Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Vibrant Fancy (16%), Vibrant Fantasy (8%)",
+    "worlds": "Prankster's Paradise, Traverse Town, Symphony of Sorcery",
+    "link": "Lucky Dice",
+    "attribute": "Blizzard",
+    "style": "Aqua"
+  },
+  {
+    "name": "KO Kabuto",
+    "source": "https://www.khwiki.com/KO_Kabuto",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            4
+          ],
+          [
+            "Noble Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Noble Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Noble Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            3
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            3
+          ],
+          [
+            "Grim Fancy",
+            3
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Staggerceps"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            2
+          ],
+          [
+            "Noble Fancy",
+            6
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Staggerceps"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Noble Fantasy",
+            2
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Noble Figment (12%), Fleeting Figment (6%)",
+    "rareDrops": "HP Ball x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Noble Figment (16%), Noble Fancy (8%)",
+    "worlds": "The Grid, Country of the Musketeers, Symphony of Sorcery<br>Traverse Town (Portal), La Cité des Cloches (Portal), Prankster's Paradise (Portal)",
+    "link": "Target Shot",
+    "attribute": "Physical",
+    "style": "Fire"
+  },
+  {
+    "name": "Kab Kannon",
+    "source": "https://www.khwiki.com/Kab_Kannon",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Grim Figment",
+            4
+          ],
+          [
+            "Noble Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Grim Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            6
+          ],
+          [
+            "Prickly Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Epic Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Target Shot",
+    "attribute": "Physical",
+    "style": "Fire"
+  },
+  {
+    "name": "Keeba Tiger",
+    "source": "https://www.khwiki.com/Keeba_Tiger",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            1
+          ],
+          [
+            "Savage Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Brilliant Fantasy",
+            2
+          ],
+          [
+            "Intrepid Fantasy",
+            4
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Aura Lion"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Savage Fantasy",
+            2
+          ],
+          [
+            "Noble Fantasy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 3 (3%), Treasure Goggles (1%)<br>Dulcet Fancy (12%), Intrepid Fantasy (6%)",
+    "rareDrops": "",
+    "worlds": "The World That Never Was<br>Country of the Musketeers (Portal)",
+    "link": "Aura Raid",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Komory Bat",
+    "source": "https://www.khwiki.com/Komory_Bat",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            2
+          ],
+          [
+            "Troubling Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            2
+          ],
+          [
+            "Troubling Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            3
+          ],
+          [
+            "Troubling Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            4
+          ],
+          [
+            "Troubling Figment",
+            5
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Toximander"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Troubling Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate (3%), Panacea (2%)<br>Troubling Figment (12%), Rampant Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town , La Cité des Cloches, The Grid, Prankster's Paradise",
+    "link": "Fly-By Knight",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Kooma Panda",
+    "source": "https://www.khwiki.com/Kooma_Panda",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            8
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            5
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            3
+          ],
+          [
+            "Vibrant Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            4
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            5
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Iceguin Ace"
+      }
+    ],
+    "normalDrops": "HP Ball x 3 (30%), Big Munny x 1 (40%), Droplet x 3 (30%)<br>Confetti Candy (3%), Treasure Goggles (1%)<!-- Balloon during the trampoline fight in PP as Sora. {{fact}}--><br>Vibrant Figment (12%), Intrepid Figment (6%)",
+    "rareDrops": "HP Ball x 3 (30%), Big Munny x 1 (40%), Droplet x 3 (30%)<br>Confetti Candy (3%), Treasure Goggles (1%)<br>Vibrant Figment (16%), Vibrant Fancy (8%)",
+    "worlds": "Traverse Town, La Cité des Cloches, The Grid,<br>Prankster's Paradise, Country of the Musketeers,<br>Symphony of Sorcery",
+    "link": "Swing Fling",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Lord Kyroo",
+    "source": "https://www.khwiki.com/Lord_Kyroo",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Chef Kyroo"
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Brilliant Fantasy",
+            2
+          ],
+          [
+            "Noble Fancy",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Brilliant Fantasy",
+            3
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            3
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": "20%",
+        "alternate": "Ryu Dragon"
+      }
+    ],
+    "normalDrops": "Maximum HP +20, [[Link Accelerator]] Drop Bonus",
+    "rareDrops": "",
+    "worlds": "La Cité des Cloches, Prankster's Paradise, Symphony of Sorcery",
+    "link": "Decussation",
+    "attribute": "Thunder",
+    "style": "Thunder"
+  },
+  {
+    "name": "Majik Lapin",
+    "source": "https://www.khwiki.com/Majik_Lapin",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            4
+          ],
+          [
+            "Dulcet Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            2
+          ],
+          [
+            "Troubling Figment",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Troubling Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            3
+          ],
+          [
+            "Lofty Fantasy",
+            2
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Me Me Bunny"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Troubling Fantasy",
+            3
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Peepsta Hoo"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Troubling Fantasy",
+            2
+          ],
+          [
+            "Wondrous Fantasy",
+            6
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Ghostabocky"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            4
+          ],
+          [
+            "Wondrous Fantasy",
+            16
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Aura Lion"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 3 (3%), Drop-Me-Not (2%)<br>Fleeting Fancy (12%), Dulcet Fantasy (6%)",
+    "rareDrops": "",
+    "worlds": "The World That Never Was<br>Country of the Musketeers (Portal)",
+    "link": "Swing Fling",
+    "attribute": "Dark",
+    "style": "Thunder"
+  },
+  {
+    "name": "Me Me Bunny",
+    "source": "https://www.khwiki.com/Me_Me_Bunny",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            3
+          ],
+          [
+            "Troubling Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Intrepid Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            6
+          ],
+          [
+            "Intrepid Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            8
+          ],
+          [
+            "Intrepid Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            3
+          ],
+          [
+            "Lofty Fantasy",
+            2
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Majik Lapin"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            1
+          ],
+          [
+            "Intrepid Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 2 (3%), Drop-Me-Not (2%)<br>Intrepid Fancy (12%), Fleeting Fancy (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 2 (3%), Drop-Me-Not (2%)<br>Intrepid Fancy (16%), Intrepid Fantasy (8%)",
+    "worlds": "Country of the Musketeers",
+    "link": "Swing Fling",
+    "attribute": "Physical",
+    "style": "Thunder"
+  },
+  {
+    "name": "Meow Wow",
+    "source": "https://www.khwiki.com/Meow_Wow",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            3
+          ],
+          [
+            "Vibrant Figment",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            4
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Vibrant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Vibrant Figment",
+            6
+          ],
+          [
+            "Vibrant Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "S",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            3
+          ],
+          [
+            "Wild Fantasy",
+            2
+          ]
+        ],
+        "probability": "90%",
+        "alternate": "Flowbermeow"
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone (3%), Balloon (1%)<br>Rampant Figment (12%), Vibrant Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone (3%), Balloon (1%)<br>Rampant Figment (16%), Rampant Fancy (8%)",
+    "worlds": "Traverse Town, La Cité des Cloches, The Grid, Prankster's Paradise",
+    "link": "Meow Wounce",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Meowjesty",
+    "source": "https://www.khwiki.com/Meowjesty",
+    "formulas": [
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            2
+          ],
+          [
+            "Malleable Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Malleable Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Meow Wounce",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Necho Cat",
+    "source": "https://www.khwiki.com/Necho_Cat",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Troubling Figment",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Dulcet Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            6
+          ],
+          [
+            "Dulcet Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            6
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Charming Fantasy",
+            1
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Woeflower"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Charming Fantasy",
+            1
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Juggle Pup"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            1
+          ],
+          [
+            "Charming Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Dulcet Figment (12%), Troubling Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Dulcet Figment (16%), Dulcet Fancy (8%)",
+    "worlds": "La Cité des Cloches, Traverse Town, Symphony of Sorcery",
+    "link": "Paw Groove",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Peepsta Hoo",
+    "source": "https://www.khwiki.com/Peepsta_Hoo",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            3
+          ],
+          [
+            "Wondrous Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Troubling Figment",
+            8
+          ],
+          [
+            "Wondrous Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            4
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            5
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Hebby Repp"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Wondrous Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Troubling Fantasy",
+            3
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Majik Lapin"
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone (3%), Drop-Me-Not (2%)<br>Wondrous Figment (12%), Troubling Figment (6%)",
+    "rareDrops": "",
+    "worlds": "The Grid, Traverse Town, Country of the Musketeers, Symphony of Sorcery<br>La Cité des Cloches (Portal)",
+    "link": "Fly-By Knight",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Pegaslick",
+    "source": "https://www.khwiki.com/Pegaslick",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Dulcet Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            8
+          ],
+          [
+            "Lofty Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            4
+          ],
+          [
+            "Lofty Fancy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Dulcet Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Lofty Fancy",
+            3
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Thunderaffe"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            4
+          ],
+          [
+            "Lofty Fancy",
+            12
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Electricorn"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            4
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": "80%",
+        "alternate": "Ryu Dragon"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Ice Dream Cone 3 (3%), Treasure Goggles (1%)<br>Lofty Fancy (12%), Fleeting Fancy (6%)",
+    "rareDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Ice Dream Cone 3 (3%), Treasure Goggles (1%)<br>Lofty Fancy (16%), Lofty Fantasy (8%)",
+    "worlds": "Symphony of Sorcery, The World That Never Was<br>Prankster's Paradise (Portal), Traverse Town (Portal)",
+    "link": "Equestrian Raid",
+    "attribute": "Light",
+    "style": "Thunder"
+  },
+  {
+    "name": "Pricklemane",
+    "source": "https://www.khwiki.com/Pricklemane",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Figment",
+            2
+          ],
+          [
+            "Intrepid Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            3
+          ],
+          [
+            "Intrepid Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            5
+          ],
+          [
+            "Vibrant Figment",
+            4
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Tama Sheep"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Intrepid Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "S",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            1
+          ],
+          [
+            "Intrepid Figment",
+            4
+          ]
+        ],
+        "probability": "80%",
+        "alternate": "Drill Sye"
+      }
+    ],
+    "normalDrops": "HP Ball x 2 (30%), Munny x 3 (40%), Droplet x 2 (30%)<br>Shield Cookie (3%), Water Barrel (1%)<br>Intrepid Figment (12%), Rampant Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, La Cité des Cloches, Prankster's Paradise<br>Country of the Musketeers (Portal)",
+    "link": "Hammer Throw",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "R & R Seal",
+    "source": "https://www.khwiki.com/R_%26_R_Seal",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Wondrous Figment",
+            6
+          ],
+          [
+            "Vibrant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Wondrous Fancy",
+            4
+          ],
+          [
+            "Vibrant Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            6
+          ],
+          [
+            "Wondrous Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            4
+          ],
+          [
+            "Dulcet Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Lucky Dice",
+    "attribute": "Blizzard",
+    "style": "Aqua"
+  },
+  {
+    "name": "Ryu Dragon",
+    "source": "https://www.khwiki.com/Ryu_Dragon",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            4
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": "20%",
+        "alternate": "Pegaslick"
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            3
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            3
+          ],
+          [
+            "Brilliant Fantasy",
+            2
+          ]
+        ],
+        "probability": "80%",
+        "alternate": "Lord Kyroo"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Confetti Candy 3 (3%), Treasure Goggles (1%)<br>Lofty Fancy (12%), Savage Fantasy (3%)",
+    "rareDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Lofty Fancy (16%), Lofty Fantasy (8%)",
+    "worlds": "Symphony of Sorcery, The World That Never Was<br>Prankster's Paradise (Portal), Country of the Musketeers (Portal) ",
+    "link": "Decussation",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Sir Kyroo",
+    "source": "https://www.khwiki.com/Sir_Kyroo",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            3
+          ],
+          [
+            "Grim Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            5
+          ],
+          [
+            "Noble Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            7
+          ],
+          [
+            "Noble Fancy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            10
+          ],
+          [
+            "Noble Fancy",
+            6
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Chef Kyroo"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Noble Fantasy",
+            2
+          ],
+          [
+            "Grim Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            1
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate 2 (3%), Potion (2%)<br>Noble Fancy (12%), Noble Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Prankster's Paradise, Traverse Town, Country of the Musketeers, Symphony of Sorcery",
+    "link": "Decussation",
+    "attribute": "Water",
+    "style": "Aqua"
+  },
+  {
+    "name": "Skelterwild",
+    "source": "https://www.khwiki.com/Skelterwild",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            2
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": "20%",
+        "alternate": "Fishboné"
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            3
+          ],
+          [
+            "Wild Fantasy",
+            4
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Tyranto Rex"
+      }
+    ],
+    "normalDrops": "HP Orb x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Shield Cookie 3 (3%), Mega-Potion (2%)<br>Grim Fantasy (12%), Savage Fantasy (3%)",
+    "rareDrops": "",
+    "worlds": "The World That Never Was<br>Country of the Musketeers (Portal)",
+    "link": "Ice Raid",
+    "attribute": "Blizzard",
+    "style": "Dark"
+  },
+  {
+    "name": "Staggerceps",
+    "source": "https://www.khwiki.com/Staggerceps",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            4
+          ],
+          [
+            "Grim Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Figment",
+            4
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Grim Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Noble Fancy",
+            3
+          ],
+          [
+            "Grim Fancy",
+            3
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "KO Kabuto"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Fantasy",
+            2
+          ],
+          [
+            "Noble Fancy",
+            6
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "KO Kabuto"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            1
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie 2 (3%), Treasure Goggles (1%)<br>Grim Fancy (12%), Grim Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, Country of the Musketeers, Symphony of Sorcery",
+    "link": "Trap Shot",
+    "attribute": "Physical",
+    "style": "Fire"
+  },
+  {
+    "name": "Sudo Neku",
+    "source": "https://www.khwiki.com/Sudo_Neku",
+    "formulas": [
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            1
+          ],
+          [
+            "Noble Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            3
+          ],
+          [
+            "Wild Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Flame Thrower",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Tama Sheep",
+    "source": "https://www.khwiki.com/Tama_Sheep",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Vibrant Figment",
+            3
+          ],
+          [
+            "Troubling Figment",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            3
+          ],
+          [
+            "Vibrant Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Vibrant Figment",
+            6
+          ],
+          [
+            "Wondrous Figment",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            3
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            5
+          ],
+          [
+            "Vibrant Figment",
+            4
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Pricklemane"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplets x2 (30%)<br>Shield Cookie (3%), Drop-Me-Not (2%)<br>Vibrant Figment (12%), Grim Figment (6%)",
+    "rareDrops": "HP Orb x2 (30%), Munny x2 (40%), Droplets x2 (30%)<br>Shield Cookie (3%), Drop-Me-Not (2%)<br>Vibrant Figment (16%), Vibrant Fancy (8%)",
+    "worlds": "Traverse Town, La Cité des Cloches, Symphony of Sorcery",
+    "link": "Roll Call",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Tatsu Blaze",
+    "source": "https://www.khwiki.com/Tatsu_Blaze",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            5
+          ],
+          [
+            "Grim Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            3
+          ],
+          [
+            "Grim Fancy",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            4
+          ],
+          [
+            "Dulcet Figment",
+            5
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Tatsu Steed"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            8
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Charming Fantasy",
+            1
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Ice Dream Cone 2 (3%), Balloon (1%)<br>Grim Fancy (12%), Lofty Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Traverse Town, Country of the Musketeers<br>La Cité des Cloches (Portal)",
+    "link": "Fire Blaster",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Tatsu Steed",
+    "source": "https://www.khwiki.com/Tatsu_Steed",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            3
+          ],
+          [
+            "Wondrous Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Wondrous Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            4
+          ],
+          [
+            "Dulcet Figment",
+            5
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Tatsu Blaze"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Dulcet Figment",
+            12
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Shield Cookie 2 (3%), Water Barrel (1%)<br>Lofty Figment (12%), Dulcet Figment (6%)",
+    "rareDrops": "",
+    "worlds": "Prankster's Paradise, Symphony of Sorcery<br>La Cité des Cloches (Portal)",
+    "link": "Bubble Blaster",
+    "attribute": "Water",
+    "style": "Aqua"
+  },
+  {
+    "name": "Thunderaffe",
+    "source": "https://www.khwiki.com/Thunderaffe",
+    "formulas": [
+      {
+        "rank": "F",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            5
+          ],
+          [
+            "Noble Figment",
+            9
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Fleeting Fancy",
+            9
+          ],
+          [
+            "Noble Fancy",
+            7
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Noble Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Lofty Fancy",
+            3
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Pegaslick"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Fleeting Fantasy",
+            2
+          ],
+          [
+            "Brilliant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x3 (30%), Big Munny x1 (40%), Droplet x 3 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Fleeting Fancy (12%), Fleeting Figment (6%)",
+    "rareDrops": "HP Ball x3 (30%), Big Munny x1 (40%), Droplet x 3 (30%)<br>Confetti Candy 2 (3%), Treasure Goggles (1%)<br>Fleeting Fancy (16%), Fleeting Fantasy (8%)",
+    "worlds": "Traverse Town, Country of the Musketeers, Symphony of Sorcery, The World That Never Was",
+    "link": "Equestrian Raid",
+    "attribute": "Thunder",
+    "style": "Thunder"
+  },
+  {
+    "name": "Toximander",
+    "source": "https://www.khwiki.com/Toximander",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Vibrant Figment",
+            6
+          ],
+          [
+            "Troubling Figment",
+            5
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Troubling Figment",
+            7
+          ],
+          [
+            "Wondrous Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Figment",
+            4
+          ],
+          [
+            "Troubling Figment",
+            5
+          ]
+        ],
+        "probability": "30%",
+        "alternate": "Komory Bat"
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Troubling Figment",
+            10
+          ],
+          [
+            "Wondrous Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Rampant Fantasy",
+            1
+          ],
+          [
+            "Troubling Fancy",
+            3
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Escarglow"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Vibrant Fancy",
+            4
+          ],
+          [
+            "Troubling Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Troubling Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x 2 (30%), Munny x 2 (40%), Droplet x 2 (30%)<br>Block-it Chocolate (3%), Treasure Goggles (1%)<br>Troubling Fancy (12%), Troubling Figment (6%)",
+    "rareDrops": "",
+    "worlds": "La Cité des Cloches, Country of the Musketeers",
+    "link": "Poison Dash",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Tubguin Ace",
+    "source": "https://www.khwiki.com/Tubguin_Ace",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Vibrant Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fantasy",
+            2
+          ],
+          [
+            "Grim Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Brilliant Fantasy",
+            1
+          ],
+          [
+            "Vibrant Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Intrepid Fancy",
+            3
+          ],
+          [
+            "Noble Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Unwind",
+    "attribute": "Fire",
+    "style": "Aqua"
+  },
+  {
+    "name": "Tyranto Rex",
+    "source": "https://www.khwiki.com/Tyranto_Rex",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            1
+          ],
+          [
+            "Intrepid Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Wild Fantasy",
+            3
+          ],
+          [
+            "Savage Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Prickly Fantasy",
+            3
+          ],
+          [
+            "Wild Fantasy",
+            4
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Skelterwild"
+      }
+    ],
+    "normalDrops": "None",
+    "rareDrops": "HP Ball x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Shield Cookie 2 (3%), Hi-Potion (2%)<br>Wondrous Fancy (16%), Savage Fantasy (4%)",
+    "worlds": "Country of the Musketeers",
+    "link": "Flame Raid",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Ursa Circus",
+    "source": "https://www.khwiki.com/Ursa_Circus",
+    "formulas": [
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            1
+          ],
+          [
+            "Intrepid Fantasy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Epic Fantasy",
+            2
+          ],
+          [
+            "Wondrous Fantasy",
+            12
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "",
+    "rareDrops": "",
+    "worlds": "",
+    "link": "Swing Fling",
+    "attribute": "Physical",
+    "style": "Physical/Light"
+  },
+  {
+    "name": "Wheeflower",
+    "source": "https://www.khwiki.com/Wheeflower",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            3
+          ],
+          [
+            "Rampant Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            4
+          ],
+          [
+            "Dulcet Figment",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Rampant Figment",
+            8
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            4
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Woeflower"
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Charming Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x2 (40%), Droplet x2 (30%)<br>Block-it Chocolate (3%), Potion (2%)<br>Lofty Figment (12%), Rampany Figment (6%)",
+    "rareDrops": "",
+    "worlds": "La Cité des Cloches (Event)",
+    "link": "Cure Sun",
+    "attribute": "Water",
+    "style": "Aqua"
+  },
+  {
+    "name": "Woeflower",
+    "source": "https://www.khwiki.com/Woeflower",
+    "formulas": [
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Troubling Fancy",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Troubling Fancy",
+            4
+          ],
+          [
+            "Wondrous Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Lofty Figment",
+            4
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": "40%",
+        "alternate": "Wheeflower"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Troubling Fancy",
+            6
+          ],
+          [
+            "Wondrous Fancy",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Lofty Fancy",
+            3
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "A",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            3
+          ],
+          [
+            "Charming Fantasy",
+            1
+          ]
+        ],
+        "probability": "60%",
+        "alternate": "Necho Cat"
+      }
+    ],
+    "normalDrops": "HP Ball x2 (30%), Munny x3 (40%), Droplet x2 (30%)<br>Ice Dream Cone (3%), Panacea (2%)<br>Troubling Fancy (12%), Lofty Figment (6%)",
+    "rareDrops": "",
+    "worlds": "La Cité des Cloches (Event)",
+    "link": "Poison Rain",
+    "attribute": "Dark",
+    "style": "Dark"
+  },
+  {
+    "name": "Yoggy Ram",
+    "source": "https://www.khwiki.com/Yoggy_Ram",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Dulcet Figment",
+            2
+          ],
+          [
+            "Grim Figment",
+            3
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Grim Figment",
+            4
+          ],
+          [
+            "Vibrant Fancy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "C",
+        "ingredients": [
+          [
+            "Rampant Fancy",
+            2
+          ],
+          [
+            "Grim Figment",
+            6
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            3
+          ],
+          [
+            "Grim Figment",
+            5
+          ]
+        ],
+        "probability": "70%",
+        "alternate": "Cyber Yog"
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Grim Fancy",
+            3
+          ],
+          [
+            "Vibrant Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x 2 (30%), Munny x 3 (40%), Droplet x 2 (30%)<br>Confetti Candy (3%), Treasure Goggles (1%)<br>Grim Figment (12%), Vibrant Figment (6%)",
+    "rareDrops": "HP Ball x 2 (30%), Munny x 3 (40%), Droplet x 2 (30%)<br>Confetti Candy (3%), Treasure Goggles (1%)<br>Grim Figment (16%), Vibrant Fancy (8%)",
+    "worlds": "Traverse Town, La Cité des Cloches, Symphony of Sorcery<br>Prankster's Paradise (Portal)",
+    "link": "Whirling Bronco",
+    "attribute": "Fire",
+    "style": "Fire"
+  },
+  {
+    "name": "Zolephant",
+    "source": "https://www.khwiki.com/Zolephant",
+    "formulas": [
+      {
+        "rank": "E",
+        "ingredients": [
+          [
+            "Malleable Fantasy",
+            1
+          ],
+          [
+            "Intrepid Figment",
+            4
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            4
+          ],
+          [
+            "Malleable Fantasy",
+            1
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "D",
+        "ingredients": [
+          [
+            "Dulcet Fancy",
+            4
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      },
+      {
+        "rank": "B",
+        "ingredients": [
+          [
+            "Dulcet Fantasy",
+            2
+          ],
+          [
+            "Troubling Fantasy",
+            2
+          ]
+        ],
+        "probability": null,
+        "alternate": null
+      }
+    ],
+    "normalDrops": "HP Ball x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Noble Figment (12%), Intrepid Figment (6%)<!-- Rampant Figment (12%) CotM Mont St-Michel battle. {{fact}}-->",
+    "rareDrops": "HP Ball x3 (30%), Big Munny x1 (40%), Droplet x3 (30%)<br>Shield Cookie (3%), Balloon (1%)<br>Noble Figment (16%), Rampant Fancy (8%)",
+    "worlds": "La Cité des Cloches, Traverse Town, Country of the Musketeers<br>Prankster's Paradise (Portal)",
+    "link": "Berserker Bronco",
+    "attribute": "Water",
+    "style": "Aqua"
+  }
+]

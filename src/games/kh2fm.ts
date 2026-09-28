@@ -1,0 +1,45 @@
+import type { GameGuide } from './types';
+import { entries, recipes } from './kh2fm/catalog';
+
+const guide: GameGuide = {
+  id: 'kh2fm', name: 'Kingdom Hearts II', edition: 'Final Mix', accent: '#526d40',
+  craftingLabel: 'Synthesis Workshop',
+  coverage: '301 Sora treasures and 144 puzzle pieces are indexed by area; exact landmarks remain incomplete. The guide also covers 59 synthesis outputs, 60 materials and the represented acquisition/challenge records. These counts are not complete Jiminy’s Journal or Steam achievement coverage. Roxas prologue chests, full equipment/bestiary catalogs and the remaining Steam achievements still require source normalization. The achievement list currently includes 23 verified public goals, not the complete platform set.',
+  categories: [
+    {id:'bestiary',label:'Bestiary',icon:'monster'},
+    {id:'treasures',label:'Treasures',icon:'chest'},
+    {id:'puzzles',label:'Puzzle Pieces',icon:'spark'},
+    {id:'assembly',label:'Puzzle Assembly',icon:'settings'},
+    {id:'keyblades',label:'Keyblades',icon:'sword'},
+    {id:'magic',label:'Magic Upgrades',icon:'wand'},
+    {id:'forms',label:'Drive Forms',icon:'heart'},
+    {id:'pages',label:'Torn Pages',icon:'torn-page'},
+    {id:'summons',label:'Summon Charms',icon:'paw'},
+    {id:'reports',label:'Secret Ansem Reports',icon:'scroll'},
+    {id:'mushrooms',label:'Mushroom XIII',icon:'leaf'},
+    {id:'challenges',label:'Optional Battles',icon:'monster'},
+    {id:'cups',label:'Coliseum Cups',icon:'cup'},
+    {id:'minigames',label:'Minigame Records',icon:'medal'},
+    {id:'achievements',label:'Steam Achievements',icon:'medal'},
+    {id:'gummi',label:'Gummi Missions & Blueprints',icon:'world'},
+  ],
+  worlds: [
+    {name:'Twilight Town',summary:'Sora’s 39 numbered chests are separate from Roxas’s time-limited prologue chests. The Tower and Other Twilight Town are included here. Daylight piece 23 belongs to Sora in the Other Twilight Town Computer Room.'},
+    {name:'Radiant Garden',summary:'Hollow Bastion and Radiant Garden share this world’s records, including the Cavern of Remembrance. After defeating all thirteen Replica Data battles, open the new Garden of Assemblage chest to collect Proof of Nonexistence.'},
+    {name:'The Land of Dragons',summary:'The Throne Room Torn Page is treasure 14. Mushroom IV is at the Palace Gate; its Journal target is 85 clones without taking a hit.'},
+    {name:"Beast's Castle",summary:'Mushroom III appears on the Bridge after Xaldin. Marluxia’s Absent Silhouette appears in Beast’s Room during the second visit.'},
+    {name:'Olympus Coliseum',summary:'Regular cups are entered through Pain and Panic; Paradox cups through Hades. Cup score goals are separate from collectible acquisitions. Zexion’s silhouette is in Cave of the Dead: Inner Chamber.'},
+    {name:'Disney Castle',summary:'The Library contains Torn Page treasure 8. The Hall of the Cornerstone portal leads to Lingering Will; the battle rewards Proof of Connection and Manifest Illusion.'},
+    {name:'Timeless River',summary:'Completing this world grants Wisdom Form and Monochrome. Mushroom XI is in the Waterway; finish its 99-hit counter within 19 seconds for the Journal target.'},
+    {name:'Port Royal',summary:'The Feather Charm is a chest acquisition in Interceptor’s Hold. Mushroom X is at Isla de Muerta: Moonlight Nook. Larxene’s silhouette is at Rock Face after the gunpowder sequence.'},
+    {name:'Agrabah',summary:'Ruined Chamber treasure 25 contains a Torn Page. Treasure 24 is Serenity Gem in Final Mix. Vexen’s silhouette appears in the remodeled Peddler’s Shop during the second visit.'},
+    {name:'Halloween Town',summary:'Mushroom II appears at Christmas Tree Plaza after the Experiment. Its Journal target is 80; material reward ranks are a different goal.'},
+    {name:'Pride Lands',summary:'Oasis treasure 24 contains a Torn Page. Speak to Simba at the Oasis for Circle of Life. This world includes ten puzzle pieces.'},
+    {name:'Atlantica',summary:'There are three puzzle pieces and no numbered treasure chests in this catalog. Complete A New Day is Dawning for one of the seven Orichalcum+ rewards.'},
+    {name:'100 Acre Wood',summary:'Deliver the five Torn Pages found in other worlds to open activities. Finishing the final Starry Hill activity awards an Orichalcum+. Collecting puzzle pieces and assembling their puzzles are separate actions.'},
+    {name:'Space Paranoids',summary:'Central Computer Mesa contains an Orichalcum+ chest. Hostile Program grants Photon Debugger; MCP grants a Reflect element upgrade.'},
+    {name:'The World That Never Was',summary:'Brink of Despair contains an Orichalcum+ chest. Final Mix awards the final Magnet element from Luxord. Mushroom I appears at Memory’s Skyscraper after Xemnas.'},
+  ],
+  entries, recipes,
+};
+export default guide;

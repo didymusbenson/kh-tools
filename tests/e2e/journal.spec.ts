@@ -7,7 +7,7 @@ test("journal renders, stays within viewport, and shares saved checks between vi
 }) => {
   await page.goto("./");
   await page
-    .getByRole("button", { name: /Kingdom Hearts.*Final Mix, open journal/i })
+    .getByRole("button", { name: /^Kingdom Hearts Final Mix, open journal$/i })
     .click();
   await expect(
     page.getByRole("heading", { name: "Worlds" }),

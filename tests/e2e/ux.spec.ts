@@ -18,7 +18,7 @@ test("anchored game choices preview the original artwork with keyboard focus", a
   const before = await first.boundingBox();
   await page
     .getByRole("button", {
-      name: /Birth by Sleep Final Mix, journal not yet available/,
+      name: /Birth by Sleep Final Mix, open journal/,
     })
     .focus();
   await expect(page.locator(".game-artwork")).toHaveAttribute(

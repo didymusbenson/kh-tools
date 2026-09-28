@@ -34,7 +34,7 @@ export default defineConfig({
         dontCacheBustURLsMatching:
           /assets\/[^/]+-[A-Za-z0-9_-]{8,}\.(?:js|css|wasm)$/,
         globPatterns: [
-          "**/*.{js,mjs,css,html,ico,png,svg,jpg,json,woff2,wasm}",
+          "**/*.{js,mjs,css,html,ico,png,svg,jpg,json,woff2,ttf,otf,wasm}",
         ],
         maximumFileSizeToCacheInBytes: 32 * 1024 * 1024,
         cleanupOutdatedCaches: true,

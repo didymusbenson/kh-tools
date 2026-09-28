@@ -1,3 +1,8 @@
+import { Kh1Journal } from './journal/Kh1Journal';
+import { entryTitle, isTreasure } from "./domain/entryPresentation";
+import { loadProfile } from './games/profile';
+import GuideLoader from './games/GuideLoader';
+import { guideLoaders } from './games/registry';
 import { createContext, useContext, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { GameData, GuideEntry, PlayerState } from "./domain/types";
 import { usePlayerState } from "./state/usePlayerState";
@@ -8,6 +13,7 @@ import { EntryDetails } from "./components/EntryDetails";
 import { compareMaterials, materialFamily, materialDropLines, materialDropLocation } from "./domain/materialPresentation";
 import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
+import "./ui-polish.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
 const base = import.meta.env.BASE_URL;
@@ -220,6 +226,7 @@ export default function App() {
       alive = false;
     };
   }, []);
+  if (guideLoaders[route.split("/")[0]]) return <GuideLoader id={route.split("/")[0]} route={route} updateNotice={<UpdateNotice />} />;
   if (!route.startsWith("kh1fm")) return <Cover data={data} />;
   if (!data)
     return (
@@ -251,7 +258,7 @@ const games = [
     edition: "Final Mix",
     number: "II",
     art: "kh2fm.png",
-    ready: false,
+    ready: true,
   },
   {
     id: "bbsfm",
@@ -259,7 +266,7 @@ const games = [
     edition: "Final Mix",
     number: "BBS",
     art: "bbs.jpg",
-    ready: false,
+    ready: true,
   },
   {
     id: "dddhd",
@@ -267,7 +274,7 @@ const games = [
     edition: "HD",
     number: "DDD",
     art: "ddd.png",
-    ready: false,
+    ready: true,
   },
   {
     id: "kh02",
@@ -275,7 +282,7 @@ const games = [
     edition: "Kingdom Hearts 0.2",
     number: "0.2",
     art: "",
-    ready: false,
+    ready: true,
   },
   {
     id: "kh3",
@@ -283,7 +290,7 @@ const games = [
     edition: "& Re Mind",
     number: "III",
     art: "",
-    ready: false,
+    ready: true,
   },
 ];
 function ResumeGame({ data }: { data: GameData }) {
@@ -296,6 +303,12 @@ function ResumeGame({ data }: { data: GameData }) {
       Resume last page <Icon name="arrow" size={16} />
     </a>
   );
+}
+
+function ResumeOtherGame({id}:{id:string}) {
+  const [saved,setSaved]=useState<{route:string;name:string}|null>(null);
+  useEffect(()=>{let active=true;setSaved(null);if(guideLoaders[id])void guideLoaders[id]().then(async module=>{const state=await loadProfile(module.default);if(active)setSaved({route:state.route,name:module.default.name})}).catch(()=>{});return()=>{active=false}},[id]);
+  return saved?<a className="cover-cta" href={`#/${saved.route}`}>Resume {saved.name}<Icon name="arrow" size={16}/></a>:null;
 }
 
 function Cover({ data }: { data: GameData | null }) {
@@ -360,7 +373,7 @@ function Cover({ data }: { data: GameData | null }) {
                 onFocus={() => setSelected(g.id)}
                 onClick={() => {
                   setSelected(g.id);
-                  if (g.ready) routeTo("kh1fm/contents");
+                  if (g.ready) routeTo(`${g.id}/${g.id === "kh1fm" ? "contents" : "worlds"}`);
                 }}
                 aria-label={`${g.name} ${g.edition}${g.ready ? ", open journal" : ", journal not yet available"}`}
               >
@@ -380,11 +393,9 @@ function Cover({ data }: { data: GameData | null }) {
             ))}
           </nav>
           <p className="cover-note">
-            {previous === "kh1fm"
-              ? "Welcome back. Your KH1 Final Mix journal is ready."
-              : "Begin with Kingdom Hearts Final Mix. More volumes are in preparation."}
+            {previous ? "Choose a journal to continue." : "Choose a game."}
           </p>
-          {data && <ResumeGame data={data} />}
+          {previous && previous!=="kh1fm" ? <ResumeOtherGame id={previous}/> : data && <ResumeGame data={data} />}
         </section>
         <section
           className="artwork-stage"
@@ -406,13 +417,10 @@ function Cover({ data }: { data: GameData | null }) {
             />
           )}
           <div className="artwork-caption">
-            <span className="eyebrow gold">
-              {game.ready ? "The first volume" : "A future volume"}
-            </span>
             <h2>{game.name}</h2>
             <p>{game.edition}</p>
             {game.ready ? (
-              <a href="#/kh1fm/contents" className="cover-cta">
+              <a href={`#/${game.id}/worlds`} className="cover-cta">
                 Open the journal <Icon name="arrow" size={18} />
               </a>
             ) : (
@@ -435,321 +443,19 @@ function Cover({ data }: { data: GameData | null }) {
 
 type Player = ReturnType<typeof usePlayerState>;
 function Journal({ data, route }: { data: GameData; route: string }) {
-  const player = usePlayerState(data),
-    { state } = player;
-  const [search, setSearch] = useState(""),
-    [menu, setMenu] = useState(false),
-    [message, setMessage] = useState("");
-  const mainRef = useRef<HTMLElement>(null);
-  const parts = route.split("?")[0].split("/");
+  const player = usePlayerState(data);
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const [message, setMessage] = useState("");
   const focusId = new URLSearchParams(route.split("?")[1] || "").get("entry") || "";
-  const [retained, setRetained] = useState(new Set<string>());
-  const [suppressFocus, setSuppressFocus] = useState(false);
-  const resetVisibility = () => { setRetained(new Set()); setSuppressFocus(true); };
-  const [expanded, setExpanded] = useState<Set<string>>(() => {
-    try { return new Set(JSON.parse(sessionStorage.getItem("ars-arcanum:expanded") || "[]")); } catch { return new Set(); }
-  });
   const setMany = (ids: string[], open: boolean) => setExpanded(previous => {
     const next = new Set(previous); ids.forEach(id => open ? next.add(id) : next.delete(id)); return next;
   });
-  useEffect(() => { try { sessionStorage.setItem("ars-arcanum:expanded", JSON.stringify([...expanded])); } catch {} }, [expanded]);
-  useEffect(() => {
-    setRetained(new Set());
-    setSuppressFocus(false);
-    if (parts[1] === "contents" || !parts[1]) location.replace("#/kh1fm/worlds");
-    if (parts[1] === "entry" || (parts[1] === "worlds" && focusId)) {
-      const id = focusId || decodeURIComponent(parts.slice(2).join("/"));
-      if (data.entries.some(e=>e.id === id)) location.replace(resolveEntryHref(data, id));
-    }
-    if (focusId) setMany([focusId], true);
-  }, [route]);
-  useEffect(() => {
-    if (!focusId || !player.ready) return;
-    const frame = requestAnimationFrame(() => requestAnimationFrame(() => {
-      const row = document.getElementById(`row-${focusId}`);
-      row?.scrollIntoView({block:"center"});
-      row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true});
-    }));
-    return () => cancelAnimationFrame(frame);
-  }, [route, player.ready]);
-  const section = !parts[1] || parts[1] === "contents" ? "worlds" : parts[1];
-  const collection = data.entries.filter((e) => e.collectible && e.checkable);
-  const count = formatCount(collection, state);
-  const [online, setOnline] = useState(navigator.onLine);
-  useEffect(() => {
-    const change = () => setOnline(navigator.onLine);
-    window.addEventListener("online", change);
-    window.addEventListener("offline", change);
-    return () => {
-      window.removeEventListener("online", change);
-      window.removeEventListener("offline", change);
-    };
-  }, []);
-  useEffect(() => {
-    setMenu(false);
-    if (!player.ready) return;
-    const scrollKey = "ars-arcanum:scroll:" + route.split("?")[0];
-    let scroll = 0;
-    try { scroll = Number(sessionStorage.getItem(scrollKey) || 0); } catch {}
-    const target = journalScroll();
-    const frame = requestAnimationFrame(() => {
-      if (section !== "search" && !focusId) target.scrollTo({top: scroll, behavior:"instant"});
-      if (!focusId) mainRef.current?.focus({preventScroll:true});
-    });
-    const saveScroll = () => { try { sessionStorage.setItem(scrollKey, String(journalScrollY())); } catch {} };
-    target.addEventListener("scroll", saveScroll, {passive:true});
-    void player.rememberRoute(`#/${route}`);
-    try { localStorage.setItem("ars-arcanum:last-game", "kh1fm"); } catch {}
-    return () => { cancelAnimationFrame(frame); target.removeEventListener("scroll", saveScroll); };
-  }, [route, player.ready]);
-  useEffect(() => {
-    if (!message) return;
-    const timer = setTimeout(() => setMessage(""), 4500);
-    return () => clearTimeout(timer);
-  }, [message]);
-  async function toggle(id: string) {
-    if (expanded.has(id)) setRetained(previous => new Set([...previous, id]));
-    await player.toggleCheck(id);
-  }
-  const props = { data, state, onToggle: toggle };
-  const title =
-    nav.find((n) => n.id === section)?.label ||
-    (section === "entry" ? "Journal entry" : "Search the journal");
-  return (
-    <div className="journal-app" onClick={event => {
-      const anchor = (event.target as HTMLElement).closest<HTMLAnchorElement>("a[href]");
-      if (!anchor || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || anchor.hash !== location.hash) return;
-      const id = new URLSearchParams(anchor.hash.split("?")[1] || "").get("entry");
-      if (!id) return;
-      event.preventDefault(); setSuppressFocus(false); setMany([id], true);
-      requestAnimationFrame(() => { const row = document.getElementById(`row-${id}`); row?.scrollIntoView({block:"center"}); row?.querySelector<HTMLButtonElement>(".entry-toggle")?.focus({preventScroll:true}); });
-    }}>
-      <a
-        className="skip-link"
-        href="#journal-main"
-        onClick={(e) => {
-          e.preventDefault();
-          mainRef.current?.focus();
-        }}
-      >
-        Skip to journal content
-      </a>
-      <header className="journal-topbar">
-        <a
-          href="#/"
-          className="brand journal-brand"
-          aria-label="Ars Arcanum game selection"
-        >
-          <span className="brand-seal">
-            <Icon name="spark" size={23} />
-          </span>
-          <span>
-            ARS ARCANUM<small>THE JOURNALS</small>
-          </span>
-        </a>
-        <div className="current-edition">
-          <span>VOLUME I</span>
-          <strong>
-            Kingdom Hearts <i>Final Mix</i>
-          </strong>
-        </div>
-        <div className="topbar-status" role="status">
-          <span className={`status-dot ${online ? "" : "offline"}`} />
-          {online ? "Local journal" : "You’re offline"}
-        </div>
-        <button
-          className="icon-button mobile-menu"
-          onClick={() => setMenu(!menu)}
-          aria-label={
-            menu ? "Close journal navigation" : "Open journal navigation"
-          }
-          aria-expanded={menu}
-        >
-          <Icon name={menu ? "close" : "menu"} />
-        </button>
-      </header>
-      <div className="journal-shell">
-        <aside
-          className={`journal-sidebar ${menu ? "mobile-open" : ""}`}
-          aria-label="Journal navigation"
-        >
-          <div className="sidebar-volume">
-            <span className="eyebrow">Jiminy’s Journal</span>
-            <h2>Kingdom Hearts</h2>
-            <p>FINAL MIX</p>
-            <span className="volume-ornament" aria-hidden="true">
-              ✦
-            </span>
-          </div>
-          <nav className="chapter-nav" aria-label="Journal chapters">
-            {nav.map((n) => (
-              <a
-                key={n.id}
-                href={`#/kh1fm/${n.id}`}
-                className={section === n.id ? "active" : ""}
-                aria-current={section === n.id ? "page" : undefined}
-              >
-                <Icon name={n.icon} />
-                <span>{n.label}</span>
-                <small>{n.chapter}</small>
-              </a>
-            ))}
-          </nav>
-          <div className="sidebar-progress">
-            <Progress {...count} caption="World collectibles" />
-            <p>Recorded guide entries; coverage varies.</p>
-          </div>
-          <div className="sidebar-bottom">
-            <a href="#/kh1fm/reference">Reference library</a>
-            <a href="#/kh1fm/progress">Progress & backups</a>
-            <a href="#/" className="back-games">
-              <Icon name="back" size={16} /> Change journal
-            </a>
-            <span
-              role="status"
-              className={`save-status ${player.status === "error" ? "save-error" : ""}`}
-            >
-              <span className="status-dot" />
-              {player.status === "saved"
-                ? "Progress saved on this device"
-                : player.status === "saving"
-                  ? "Saving progress…"
-                  : player.status === "error"
-                    ? "Progress could not be saved"
-                    : player.status === "memory"
-                      ? "Progress is in memory only"
-                      : "Loading saved progress…"}
-            </span>
-          </div>
-        </aside>
-        {menu && (
-          <button
-            className="nav-scrim"
-            aria-label="Close navigation"
-            onClick={() => setMenu(false)}
-          />
-        )}
-        <div className="journal-page-wrap">
-          <div className="binding" aria-hidden="true">
-            {[0, 1, 2, 3, 4].map((i) => (
-              <span key={i} />
-            ))}
-          </div>
-          <div className="journal-page">
-            <UpdateNotice />
-            <div className="page-toolbar">
-              <div className="breadcrumb">
-                <span>KH · FINAL MIX</span>
-                <span>/</span>
-                <span>{title}</span>
-              </div>
-              <label className="search-control">
-                <Icon name="search" size={18} />
-                <span className="sr-only">
-                  Search the Kingdom Hearts Final Mix journal
-                </span>
-                <input
-                  type="search"
-                  placeholder="Search this journal…"
-                  value={search}
-                  onChange={(e) => {
-                    setSearch(e.target.value);
-                    if (e.target.value && section !== "search")
-                      routeTo("kh1fm/search");
-                  }}
-                />
-                {search && (
-                  <button
-                    type="button"
-                    className="clear-search"
-                    aria-label="Clear search"
-                    onClick={() => setSearch("")}
-                  >
-                    <Icon name="close" size={14} />
-                  </button>
-                )}
-              </label>
-            </div>
-            {player.error && (
-              <div className="save-alert" role="alert">
-                <Icon name="info" />
-                <p>
-                  {player.error}{" "}
-                  <strong>
-                    Your latest changes may not survive closing this page.
-                  </strong>
-                </p>
-                <button onClick={() => player.retry()}>Retry save</button>
-              </div>
-            )}
-            <main
-              id="journal-main"
-              className="journal-main"
-              tabIndex={-1}
-              ref={mainRef}
-            >
-              <ExpansionContext.Provider value={{data, expanded, retained, resetVisibility, focusId: suppressFocus ? "" : focusId, setMany, toggle: id => setMany([id], !expanded.has(id))}}>
-              {!player.ready ? (
-                <div className="empty-state">Restoring your journal…</div>
-              ) : section === "worlds" ? (
-                <Contents
-                  {...props}
-                  world={parts[2] ? decodeURIComponent(parts[2]) : undefined}
-                />
-              ) : cataloguePages.some(page => page.id === section) ? (
-                <Catalogue key={section} {...props} page={cataloguePages.find(page=>page.id===section)!} route={route} />
-              ) : section === "synthesis" ? (
-                <Synthesis {...props} player={player} initialTab={parts[2]} />
-              ) : section === "reference" ? (
-                <Reference key={section} {...props} challenges={false} />
-              ) : section === "progress" ? (
-                <Settings {...props} player={player} notify={setMessage} />
-              ) : section === "entry" ? (
-                <MissingEntry />
-              ) : section === "search" ? (
-                <Search {...props} query={search} />
-              ) : (
-                <Contents {...props} />
-              )}
-              </ExpansionContext.Provider>
-            </main>
-            <footer className="page-footer">
-              <span>
-                ARS ARCANUM <span aria-hidden="true">✦</span> VOLUME I
-              </span>
-              <span>
-                Final Mix · <a href="#/kh1fm/progress">Guide coverage</a>
-              </span>
-            </footer>
-          </div>
-        </div>
-      </div>
-      <DataJiminy data={data} state={state} />
-      {message && player.status !== "error" && (
-        <div className="toast" role="status">
-          <Icon name="check" size={18} />
-          <span>{message}</span>
-          {player.canUndo && (
-            <button
-              onClick={async () => {
-                await player.undo();
-                setMessage("Last change undone.");
-              }}
-            >
-              Undo
-            </button>
-          )}
-          <button
-            className="icon-button"
-            aria-label="Dismiss notification"
-            onClick={() => setMessage("")}
-          >
-            <Icon name="close" size={16} />
-          </button>
-        </div>
-      )}
-    </div>
-  );
+  const props = {data, state: player.state, onToggle: player.toggleCheck};
+  return <ExpansionContext.Provider value={{data, expanded, retained: new Set(), resetVisibility: () => {}, focusId, setMany, toggle: id => setMany([id], !expanded.has(id))}}>
+    <Kh1Journal data={data} route={route} player={player} updateNotice={<UpdateNotice />} renderTool={(section, tab) => section === "synthesis"
+      ? <Synthesis {...props} player={player} initialTab={tab} />
+      : <><Settings {...props} player={player} notify={setMessage} />{message && <p role="status">{message}</p>}</>} />
+  </ExpansionContext.Provider>;
 }
 type Common = {
   data: GameData;
@@ -824,8 +530,8 @@ function EntryToggle({ entry, children, ariaLabel }: { entry: GuideEntry; childr
   const { data, expanded, toggle } = useContext(ExpansionContext);
   const duplicate = data.entries.some(e => e.id !== entry.id && e.name === entry.name && e.world === entry.world);
   const landmark = duplicate && entry.category === "trinity" ? entry.instructions.split(". ")[1] : "";
-  return <button className="entry-toggle" aria-label={ariaLabel} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
-    <span>{children || entry.name}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
+  return <button className="entry-toggle" aria-label={ariaLabel || entry.name} aria-expanded={expanded.has(entry.id)} aria-controls={`details-${entry.id}`} onClick={() => toggle(entry.id)}>
+    <span>{children || entryTitle(entry)}{landmark && <span className="entry-landmark">{landmark.replace(/\.$/, "")}</span>}</span><span aria-hidden="true">{expanded.has(entry.id) ? "−" : "+"}</span>
   </button>;
 }
 function InlineDetails({entry, state, compactMaterial = false}: {entry: GuideEntry; state: PlayerState; compactMaterial?: boolean}) {
@@ -837,7 +543,7 @@ function EntryRow({ entry: e, state, onToggle }: { entry: GuideEntry; state: Pla
     <div className="entry-row-top">
       {e.checkable && <Check compact entry={e} state={state} onToggle={onToggle} />}
       <div className="entry-row-label"><h3><EntryToggle entry={e} /></h3>
-        {e.area && !e.name.includes(e.area) && <span className="entry-area">{e.area}</span>}
+        {e.area && (isTreasure(e) || !e.name.includes(e.area)) && <span className="entry-area">{e.area}</span>}
       </div>
     </div>
     <InlineDetails entry={e} state={state} />
@@ -1072,6 +778,7 @@ function Synthesis({
               key={id}
               className={tab === id ? "active" : ""}
               href={`#/kh1fm/synthesis/${id}`}
+              aria-current={tab === id ? "page" : undefined}
             >
               {text}
             </a>
@@ -1291,7 +998,7 @@ function Settings({
         <div>
           <h2>Saved on this device</h2>
           <p>
-            Checks, material stock, and craft quantities save locally. Clearing
+            Checks, material stock, and farming targets save locally. Clearing
             browser data can remove them. A backup lets you restore your
             journal.
           </p>
@@ -1390,7 +1097,7 @@ function Settings({
           <h2>Restore this Kingdom Hearts Final Mix backup?</h2>
           <p>
             This replaces this device’s current KH1FM checks, material stock,
-            and craft plan. A recovery snapshot is kept before the replacement.
+            and farming targets. A recovery snapshot is kept before the replacement.
           </p>
           <dl className="facts-list">
             <div>

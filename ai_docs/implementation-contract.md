@@ -1,5 +1,7 @@
 # KH1FM implementation coordination
 
+> **New UI coordination — 2026-09-22.** The [KH1FM new UI plan](ui/kh1fm-new-ui-plan.md) supersedes prior presentation requirements. Preserve canonical IDs, saved profiles, domain calculations, offline behavior and Jiminy session semantics. Replace KH1 presentation through a route-compatible adapter; do not reset progress or force other games onto KH1 geometry. The follow-up MVP pass is authorized; see [implementation status](implementation/kh1fm-faithful-journal-mvp.md). Open design questions remain provisional.
+
 Latest user direction: desktop Chrome and iPhone 17 initial targets. Jiminy conversation stays in memory only and never persists across reload/restart. Checklist and stock persistence remain required. Each game's Coppermind requires its own ChromaDB PersistentClient database directory/instance, not merely a collection in a shared database. Seed KH1FM only after app wiring is complete. Browser runtime must remain offline: export the game instance's documents, metadata and matching embeddings as a browser retrieval pack; no Chroma server dependency on the phone.
 
 Shared types live in `src/domain/types.ts`. Data contributors write JSON arrays to `data/kh1fm/collectibles.json` and `data/kh1fm/reference.json`; crafting contributor also writes `data/kh1fm/recipes.json`. Coverage arrays use corresponding `*-coverage.json`. Root integration builds `public/data/kh1fm.json` from these arrays. Avoid modifying shared types without coordinating.

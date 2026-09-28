@@ -1,5 +1,7 @@
 # Kingdom Hearts II Final Mix Specification
 
+**Current presentation direction — 2026-09-24:** The faithful KH2 journal is implemented locally for review. Follow the [new UI plan](../ui/kh2fm-new-ui-plan.md), [reference workbook](../ui/references/kh2fm/README.md) and [MVP report](../implementation/kh2fm-faithful-journal-mvp.md) over older generic-shell directions. The research/coverage boundaries below remain applicable.
+
 ## Status and evidence
 
 Research assessment updated **2026-09-18**. The [research pack](kh2fm/README.md) contains a complete legacy-source coverage audit, all 301 numbered treasure candidates, all 144 puzzle-piece candidates, and new synthesis/equipment/challenge findings. This is planning and content research; no KH2 application implementation or release validation is claimed. See the [readiness assessment](../readiness/kingdom-hearts-ii-final-mix.md).

@@ -1,5 +1,7 @@
 # Product Vision and Scope
 
+> **Presentation reset — 2026-09-22.** The initial Ars Arcanum UI is superseded by faithful game journals, starting with the [KH1FM new UI plan](ui/kh1fm-new-ui-plan.md). Preserve the completion-companion purpose and data. Full native Chronicles/biography coverage and the global cover composition are explicit open questions; do not infer either expansion or removal from visual mockup acceptance.
+
 ## Product name
 
 **Ars Arcanum**

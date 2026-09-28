@@ -1,5 +1,7 @@
 # Human feedback
 
+> **Historical UI feedback — superseded where conflicting.** On 2026-09-22 the user scrapped the initial Ars Arcanum UI in favor of faithful in-game journals. Follow the [new KH1FM plan](../ui/kh1fm-new-ui-plan.md) for presentation. Earlier inline-expansion and home-layout instructions below describe their original passes, not permanent constraints on this redesign. Functional correctness and useful regression findings remain relevant.
+
 ## September 20, 2026 — KH1 Final Mix navigation copy
 
 **Status: Implemented locally; awaiting human review.**
@@ -185,3 +187,27 @@ User requested non-percentage conditional drops show only “Conditional” in c
 User requested a visual cleanup after the functional changes, highlighting oversized recipe action buttons and loose layout. Consolidated recipe count and expansion control into one toolbar, removed duplicated crafted totals, moved completion checks to the leading edge, and aligned compact farming actions beside recipe/material content where width allows. Narrow layouts keep right-aligned content-sized actions. Applied consistent paper surfaces, sage borders, detail separators, family headings and field spacing across the workshop. Preserve readable text, touch targets and journal typography.
 
 Verification: production build and all 20 targeted desktop/phone browser checks passed. Inspected the refreshed shared recipe view and phone layout, plus farming-plan screenshots. Changes saved locally; no deployment.
+
+## September 20–21, 2026 — Propagate refinements to every game
+
+User requested documenting the session lessons and assigning every game an implementation pass, excluding Data Jiminy. Proceed autonomously with design decisions; the next review will use the same feedback process. The [playbook](refinement-playbook.md) is the governing presentation contract and [rollout status](multi-game-rollout.md) records actual implementation, validation and content limitations.
+
+## September 21, 2026 — Cross-game cosmetic consistency
+
+User requested a standard treasure-chest presentation and a whole-app UI/UX polish pass across every game, with no major feature changes.
+
+Chosen standard: contents/acquisition name as the primary row title; area and, when relevant, character on one muted secondary line. Strip chest-number prefixes/suffixes and duplicated area suffixes only in presentation. Preserve existing numbered references in expanded details as “Chest reference”; do not invent numbering for unnumbered catalogs. Canonical names, source data, IDs, order, search matching and saved checks remain unchanged. Once-only rewards in the treasure catalog retain their acquisition names rather than replacing them with long conditional reward prose.
+
+Polish applied across the journal shells: consistent row typography, quieter expansion controls, count spacing and tabular numerals, sage checkbox surfaces, compact farming actions, detail-field spacing and beige prerequisite treatment. New-game workshop tabs now reuse the existing segmented active-tab styling. Phone headers reserve space for the game title and menu; the full edition remains in navigation. Removed a duplicated cover edition and empty 0/0 sidebar stats. Existing useful summary/location prose is visible in expanded details; redundant “Open the chest” and exact area-only instructions are omitted when already represented.
+
+Verification: production build and type check passed; all 72 standard browser cases passed, with two optional heavyweight model tests skipped. After final cosmetic adjustments, all 28 affected desktop/phone cases passed again. A route sweep covered 214 desktop/phone page views across all six games without horizontal document overflow, empty main content or runtime errors. Screenshots of every game's treasure listings and applicable material views were inspected. Additional 320px/390px review verified 0.2's phone header and BBS's workshop tabs. No player-state, game-data, calculation, navigation-structure or Data Jiminy changes.
+
+## September 21, 2026 — BBS-specific UX review
+
+User reported that BBS did not feel right and requested a UX review. Review found the shared single-character synthesis interface was obscuring BBS's campaign boundaries: all three inventories displayed together by default, campaign selection was unavailable in Worlds and reset on reload, world-category counts ignored scope, and the farming plan ignored the selected character. Recipe lists mixed ice cream with command melding and hid input levels/probabilities in long paragraphs. Episode labels used both colon and middle-dot spellings, creating mismatched filters.
+
+Implemented a persistent journal-wide Campaign selector (Terra initially, plus Ventus, Aqua, Final Episode, Secret Episode and All campaigns). It applies to world hubs, collection links/counts, recipes, material lists and farming plans without changing stored identities or stock. Episode-label normalization is presentation-only. Switching to a campaign with no records at the currently filtered world returns to a relevant unfiltered route. Shared reference records remain visible. Removed repeated generic world instructions and redundant per-row character labels in a single campaign.
+
+Workshop recipes now default to Command melding, with Ice cream as a separate type. Search also matches input/ability details; recipes sort by result name. Input names and required levels, plus existing outcome percentages, appear collapsed. Expanded rule paragraphs and crystal mappings are spaced for reading. Ingredients can be grouped/filtered as Commands, Melding crystals or Ice cream flavors instead of an undifferentiated materials dump. World-reference rows without checklist records no longer display meaningless 0/0 statistics.
+
+Validation: production build/typecheck passed, 20 cross-game/BBS desktop/phone browser checks passed, and final BBS cases reran after narrow-screen polish. Reviewed desktop Worlds and phone melding screenshots; fixed clipping of the recipe-type selector. Checks, stock and targets are preserved; no game facts, crafting simulation or Data Jiminy changes.
