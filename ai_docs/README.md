@@ -1,10 +1,14 @@
 # Ars Arcanum Design and Implementation Documentation
 
-This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented as a comprehensive interpretation of Jiminy's Journal.
+This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented through faithful, game-specific journals.
 
 ## Current phase
 
-KH1FM implementation is authorized and underway. The accepted design remains the contract; implemented behavior, corrective review, validation and reusable patterns are recorded in [implementation](./implementation/). Other game specifications remain in scope and serve as the next implementation workbooks.
+The initial Ars Arcanum UI direction is superseded. The user accepted the faithful-journal mockups and requested a new implementation plan, beginning with KH1FM. Start with the [KH1FM new UI plan](./ui/kh1fm-new-ui-plan.md), its [open questions](./ui/kh1fm-new-ui-plan.md#8-open-questions-for-revision), and the [reference workbook](./ui/references/kh1fm/README.md). The direction is accepted; detailed design proposals remain open for revision. The user subsequently authorized an MVP implementation pass; the [local MVP report](./implementation/kh1fm-faithful-journal-mvp.md) records what is working, provisional choices and remaining checks.
+
+Existing factual content, persistent progress, synthesis/farming behavior, offline infrastructure and Data Jiminy remain the foundation. Earlier implementation reports describe the old interface and provide regression evidence, not the current visual target. See [DEC-020](./07-decision-log.md#dec-020-faithful-game-journals-replace-the-initial-ars-arcanum-ui) for precedence.
+
+The user has now authorized the same treatment for KH2 using its own journal menus. The [KH2FM new UI plan](./ui/kh2fm-new-ui-plan.md) and [working MVP report](./implementation/kh2fm-faithful-journal-mvp.md) carry forward the KH1 interaction lessons and identify remaining reference/design questions.
 
 ## MVP scope rule
 
@@ -45,7 +49,11 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - [First-class synthesis and optional inventory](./content/synthesis-and-inventory.md)
 - [App testing and content validation](./testing-and-content-validation.md)
 
-- [Jiminy's Journal design direction](./ui/jiminys-journal-design-direction.md)
+- [KH1FM new UI plan — active draft](./ui/kh1fm-new-ui-plan.md)
+- [KH1FM reference images and gaps](./ui/references/kh1fm/README.md)
+- [KH2FM new UI plan and open questions](./ui/kh2fm-new-ui-plan.md)
+- [KH2FM video reference and visual gaps](./ui/references/kh2fm/README.md)
+- [Initial Jiminy's Journal design direction — superseded historical record](./ui/jiminys-journal-design-direction.md)
 - [Per-game specifications](./games/README.md)
 - [Collectible compendium and linked collection views](./content/collectible-compendium-and-linked-views.md)
 - [Parallel game research assignments](./research/parallel-game-research.md)
@@ -58,9 +66,9 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 - Core reference material should remain usable offline after initial installation.
 - Content should be structured data where practical, rather than embedded in presentation markup.
 - Search and quick answers are first-class experiences.
-- The original anchored game menu is retained, with fly-in game artwork beside it; game choices do not fly in.
-- Game interiors use a Jiminy's Journal metaphor rather than recreating pause menus.
-- Each game has a distinct completion model and visual theme within a shared journal system.
+- Global game-selection design is an open clarification; the current work starts inside KH1FM.
+- Game interiors faithfully recreate their journal compositions; app-only tools extend that visual language.
+- Each game retains its own journal composition and completion model; shared behavior does not require one shared layout.
 - Shared UI and data primitives should not erase game-specific terminology or workflows.
 - Existing useful content should be inventoried before it is migrated or replaced.
 - Legacy data is discovery evidence until it has been verified and its reuse rights established.

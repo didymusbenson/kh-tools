@@ -21,9 +21,11 @@ type Exchange = {
 export function DataJiminy({
   data,
   state,
+  compactLauncher = false,
 }: {
   data: GameData;
   state: PlayerState;
+  compactLauncher?: boolean;
 }) {
   const [open, setOpen] = useState(false),
     [question, setQuestion] = useState(""),
@@ -113,8 +115,8 @@ export function DataJiminy({
   }
   return (
     <>
-      <div className={`jiminy-launcher ${open ? "launcher-hidden" : ""}`}>
-        <img src={`${base}assets/data-jiminy/data-jiminy-full.png`} alt="" />
+      <div className={`jiminy-launcher ${compactLauncher ? "compact-launcher" : ""} ${open ? "launcher-hidden" : ""}`}>
+        {!compactLauncher && <img src={`${base}assets/data-jiminy/data-jiminy-full.png`} alt="" />}
         <button
           ref={launcher}
           className="jiminy-bubble"
@@ -122,9 +124,9 @@ export function DataJiminy({
           aria-haspopup="dialog"
           onClick={() => setOpen(true)}
         >
-          …
+          {compactLauncher ? "Ask Jiminy" : "…"}
         </button>
-        <span className="jiminy-label">DATA JIMINY</span>
+        {!compactLauncher && <span className="jiminy-label">DATA JIMINY</span>}
       </div>
       <dialog
         ref={dialog}

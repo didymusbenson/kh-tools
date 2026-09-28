@@ -1,5 +1,7 @@
 # Kingdom Hearts Final Mix readiness
 
+> **New UI acceptance pending — 2026-09-22.** This document retains content-readiness and old implementation evidence. The [faithful-journal redesign](../ui/kh1fm-new-ui-plan.md) requires a new visual and interaction acceptance pass. Existing data does not need to be re-researched merely because its presentation changes; native narrative expansion remains Q02.
+
 ## Current implementation assessment — 2026-09-18
 
 The user authorized implementation after the discovery assessment below. The React journal, local progress, exact synthesis planner, normalized content, per-game Coppermind tooling and local Jiminy runtime now exist. See [implementation verification](../implementation/verification.md), [collection reconciliation](../implementation/collectibles.md), [reference data](../implementation/reference-data.md), [corrective UX review](../implementation/ui-ux-review.md) and [reuse lessons](../implementation/lessons-for-other-games.md).

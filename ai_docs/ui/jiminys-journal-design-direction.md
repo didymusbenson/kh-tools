@@ -1,5 +1,7 @@
 # Jiminy's Journal Design Direction
 
+> **Superseded visual direction — 2026-09-22.** The user scrapped the initial Ars Arcanum UI and accepted faithful recreations of the in-game journals. The material below is a historical record, including its former “Accepted” labels; it is not the current presentation contract. Follow the [KH1FM new UI plan](kh1fm-new-ui-plan.md) and DEC-020. Do not enforce its anti-reproduction, generic-shell, mandatory inline-row or fixed assistant-placement rules against the new design. Nonvisual behavior survives unless explicitly changed.
+
 ## Status
 
 Accepted product direction. Detailed visual design remains in discovery.

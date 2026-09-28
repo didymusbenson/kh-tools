@@ -8,7 +8,7 @@ import "./EntryDetails.css";
 
 const internalFacts = new Set([
   "countingUnit", "sourceRow", "acquisitionId", "recordGame", "recordType",
-  "steamAppId", "platformApiId", "evidenceKind", "sourceCheckedAt",
+  "puppyStart", "puppyEnd", "puppiesPerGroup", "steamAppId", "platformApiId", "evidenceKind", "sourceCheckedAt",
   "source reconciliation", "legacy correction", "earliestUnlockStatus", "ruleset",
 ]);
 

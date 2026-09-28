@@ -1,5 +1,7 @@
 # Decision Log
 
+Latest presentation decision: [DEC-020](#dec-020-faithful-game-journals-replace-the-initial-ars-arcanum-ui). Earlier accepted visual decisions remain history and are superseded where they conflict.
+
 ## DEC-018: Implementation, isolated Chroma instances and transient Jiminy conversations
 
 - **Status:** Accepted
@@ -209,3 +211,32 @@ Record decisions that should survive individual planning conversations. Each ent
 ## DEC-019 — Research citations stay out of player-facing entries
 
 The user clarified during implementation that external research citations were for their review. Data Jiminy's visible citations and journal cross-references link to canonical in-app entries. Removed external research link lists, verification badges and research-audit copy from the player UI. Provenance remains in canonical records, Coppermind metadata and developer documentation for maintenance and factual checks. Necessary factual uncertainty remains visible. Media credit/attribution is a separate asset requirement.
+
+
+## DEC-020: Faithful game journals replace the initial Ars Arcanum UI
+
+- **Status:** Accepted direction; detailed KH1FM implementation plan is a revision draft.
+- **Date:** 2026-09-22
+- **Decision:** Scrap the initial Ars Arcanum UI as the visual target. Build workable journals faithful to the games, based on the accepted standalone mockups. Start with KH1FM. KH2FM remains the user's preferred overall clarity reference; each game keeps its own journal identity.
+- **Rationale:** User feedback: the earlier interface is too wiki-like, crowded and overdesigned; the faithful mockups are working for them.
+- **Consequences:** Replace presentation architecture while retaining researched content, saved progress, synthesis/farming logic, canonical linking, offline use and Data Jiminy behavior. Draft the plan in `ai_docs`, independently source additional KH1FM reference material, and keep numbered questions and blockers for user revision. Mockup placeholders, fonts and fixed-canvas scaling are not automatically production requirements. No application code is changed in this planning pass.
+- **Supersedes:** Prior anti-reproduction and generic-theme language (DEC-003/006), mandatory inline-expanded collectible presentation, and conflicting presentation instructions in the old UI documents. Earlier global-menu composition (DEC-016) and fixed assistant placement (visual part of DEC-017) are reopened as explicit design clarifications, not silently reapproved or deleted. Nonvisual contracts remain in force.
+- **Open scope:** Full native Chronicles/biography/report-text coverage, app-only tool navigation, phone composition, assistant placement and production assets. Do not silently add a complete narrative encyclopedia or remove existing companion capabilities.
+- **Plan:** [KH1FM new UI plan](ui/kh1fm-new-ui-plan.md), [reference workbook](ui/references/kh1fm/README.md).
+
+
+## DEC-021: Implement a KH1FM MVP to support design revision
+
+- **Status:** Accepted authorization; implemented locally for review.
+- **Date:** 2026-09-23
+- **Decision:** Following the logged new-UI plan, the user authorized an MVP pass so unknowns can be evaluated in a working journal.
+- **Consequences:** Implement reversible provisional choices without treating them as final answers to the plan's questions. Preserve content and player state. Record approximations, transitional tool layouts, reference gaps and executed checks. This authorizes implementation; it does not assert full native journal content, final visual acceptance or production deployment.
+- **Record:** [KH1FM faithful-journal MVP](implementation/kh1fm-faithful-journal-mvp.md).
+
+## DEC-022: Apply the faithful-journal treatment to KH2FM
+
+- **Status:** User-authorized implementation; local pass ready for revision.
+- **Date:** 2026-09-24
+- **Decision:** Use the supplied KH2 video and accepted mockup for KH2's journal style. Carry forward KH1's stable interaction geometry, viewport-height frame, equal facing pages, compact rows, measured page capacity, direct collection navigation and book-based synthesis.
+- **Consequences:** Replace the generic KH2 guide interior while retaining existing content and progress behavior. Keep world-specific artwork, native subsection adaptations and typography gaps explicit. Ask for focused reference screenshots if needed; do not fabricate reference evidence or native journal content.
+- **Record:** [KH2FM UI plan](ui/kh2fm-new-ui-plan.md), [local MVP](implementation/kh2fm-faithful-journal-mvp.md).

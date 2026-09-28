@@ -1,3 +1,4 @@
+import { Kh2Journal } from "../journal/Kh2Journal";
 import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
 import { entryTitle, chestReference } from "../domain/entryPresentation";
 import { materialFamily, sortMaterials, inWorld } from "./presentation";
@@ -504,9 +505,109 @@ export default function GuideJournal({
       </>
     );
   }
+  function progressPage() { return (
+              <>
+                <h2>Guide coverage</h2>
+                <p>{guide.coverage}</p>
+                <dl className="guide-coverage">
+                  {guide.categories.map((c) => (
+                    <div key={c.id}>
+                      <dt>{c.label}</dt>
+                      <dd>
+                        {count(
+                          entries.filter(
+                            (e) =>
+                              e.category === c.id ||
+                              e.categories?.includes(c.id),
+                          ),
+                        )}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+                <h2>Backups</h2>
+                <p>
+                  Backups contain this game's checks, owned stock and farming
+                  targets.
+                </p>
+                <div className="guide-backup-actions">
+                  <button
+                    disabled={!ready}
+                    onClick={() => {
+                      const blob = new Blob(
+                          [JSON.stringify(profile, null, 2)],
+                          { type: "application/json" },
+                        ),
+                        url = URL.createObjectURL(blob),
+                        a = document.createElement("a");
+                      a.href = url;
+                      a.download = `ars-arcanum-${guide.id}.json`;
+                      a.click();
+                      setTimeout(() => URL.revokeObjectURL(url), 1000);
+                    }}
+                  >
+                    Export backup
+                  </button>
+                  <label className="guide-import">
+                    Import backup
+                    <input
+                      type="file"
+                      accept="application/json,.json"
+                      disabled={!ready}
+                      onChange={async (e) => {
+                        const file = e.target.files?.[0];
+                        if (!file) return;
+                        try {
+                          if (file.size > 5000000)
+                            throw new Error("Backup is too large.");
+                          const next = parseProfile(
+                            JSON.parse(await file.text()),
+                            guide,
+                          );
+                          if (await update(() => next, true))
+                            setNotice(
+                              "Backup imported. The previous profile is available through recovery.",
+                            );
+                        } catch (err) {
+                          setError(
+                            err instanceof Error
+                              ? err.message
+                              : "Invalid backup",
+                          );
+                        }
+                        e.target.value = "";
+                      }}
+                    />
+                  </label>
+                  <button
+                    disabled={!ready}
+                    onClick={async () => {
+                      try {
+                        const p = await loadRecovery(guide);
+                        await update(() => p, true);
+                      } catch (e) {
+                        setError(
+                          e instanceof Error
+                            ? e.message
+                            : "Recovery unavailable",
+                        );
+                      }
+                    }}
+                  >
+                    Recover pre-import progress
+                  </button>
+                </div>
+              </>
+  ); }
   const materials = entries
     .filter((e) => ["material", "materials"].includes(e.category))
     .sort(sortMaterials);
+  if (guide.id === "kh2fm") return <Kh2Journal
+    guide={guide} route={route} profile={profile} ready={ready}
+    error={error} notice={notice} updateNotice={updateNotice}
+    update={update} toggle={toggle} renderDetails={details} progressPage={progressPage()}
+    retry={()=>{void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError("");}).catch(e=>setError(e.message));}}
+  />;
   return (
     <div
       className="journal-app multi-guide" data-game={guide.id}
@@ -1043,100 +1144,7 @@ export default function GuideJournal({
                 )}
               </>
             )}
-            {section === "progress" && (
-              <>
-                <h2>Guide coverage</h2>
-                <p>{guide.coverage}</p>
-                <dl className="guide-coverage">
-                  {guide.categories.map((c) => (
-                    <div key={c.id}>
-                      <dt>{c.label}</dt>
-                      <dd>
-                        {count(
-                          entries.filter(
-                            (e) =>
-                              e.category === c.id ||
-                              e.categories?.includes(c.id),
-                          ),
-                        )}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-                <h2>Backups</h2>
-                <p>
-                  Backups contain this game's checks, owned stock and farming
-                  targets.
-                </p>
-                <div className="guide-backup-actions">
-                  <button
-                    disabled={!ready}
-                    onClick={() => {
-                      const blob = new Blob(
-                          [JSON.stringify(profile, null, 2)],
-                          { type: "application/json" },
-                        ),
-                        url = URL.createObjectURL(blob),
-                        a = document.createElement("a");
-                      a.href = url;
-                      a.download = `ars-arcanum-${guide.id}.json`;
-                      a.click();
-                      setTimeout(() => URL.revokeObjectURL(url), 1000);
-                    }}
-                  >
-                    Export backup
-                  </button>
-                  <label className="guide-import">
-                    Import backup
-                    <input
-                      type="file"
-                      accept="application/json,.json"
-                      disabled={!ready}
-                      onChange={async (e) => {
-                        const file = e.target.files?.[0];
-                        if (!file) return;
-                        try {
-                          if (file.size > 5000000)
-                            throw new Error("Backup is too large.");
-                          const next = parseProfile(
-                            JSON.parse(await file.text()),
-                            guide,
-                          );
-                          if (await update(() => next, true))
-                            setNotice(
-                              "Backup imported. The previous profile is available through recovery.",
-                            );
-                        } catch (err) {
-                          setError(
-                            err instanceof Error
-                              ? err.message
-                              : "Invalid backup",
-                          );
-                        }
-                        e.target.value = "";
-                      }}
-                    />
-                  </label>
-                  <button
-                    disabled={!ready}
-                    onClick={async () => {
-                      try {
-                        const p = await loadRecovery(guide);
-                        await update(() => p, true);
-                      } catch (e) {
-                        setError(
-                          e instanceof Error
-                            ? e.message
-                            : "Recovery unavailable",
-                        );
-                      }
-                    }}
-                  >
-                    Recover pre-import progress
-                  </button>
-                </div>
-              </>
-            )}
+            {section === "progress" && progressPage()}
             {!category &&
               !["worlds", "workshop", "progress", "search"].includes(
                 section,

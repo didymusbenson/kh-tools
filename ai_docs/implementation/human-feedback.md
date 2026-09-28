@@ -1,5 +1,7 @@
 # Human feedback
 
+> **Historical UI feedback — superseded where conflicting.** On 2026-09-22 the user scrapped the initial Ars Arcanum UI in favor of faithful in-game journals. Follow the [new KH1FM plan](../ui/kh1fm-new-ui-plan.md) for presentation. Earlier inline-expansion and home-layout instructions below describe their original passes, not permanent constraints on this redesign. Functional correctness and useful regression findings remain relevant.
+
 ## September 20, 2026 — KH1 Final Mix navigation copy
 
 **Status: Implemented locally; awaiting human review.**

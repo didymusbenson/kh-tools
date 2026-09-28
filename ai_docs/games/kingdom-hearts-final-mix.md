@@ -136,18 +136,11 @@ Use HD 1.5 + 2.5 ReMIX rules; maintain platform-specific IDs and conditions. Mod
 - “Which ability do I learn at this level with my starting choice?”
 - “What remains for 100% or the platinum trophy?”
 
-## Visual direction — green journal
+## Visual direction — faithful KH1FM journal
 
-Accepted user direction: KH1 and KH2 share the green Jiminy's Journal family, based on the supplied journal references. This replaces the earlier speculative blue/stained-glass palette.
+The initial Ars Arcanum UI is superseded as of 2026-09-22. Follow the [KH1FM new UI plan](../ui/kh1fm-new-ui-plan.md) and [verified reference workbook](../ui/references/kh1fm/README.md): green framing, purple Jiminy/index leaf, pale ruled reading spreads, central binding and compact native-style navigation. KH1 and KH2 are no longer treated as interchangeable green themes.
 
-- Emerald/forest-green framing with lime accents and pale cream-green reading pages.
-- Binder-ring or page-edge cues, subtle paper texture, and restrained ruled lines.
-- Burgundy section tabs, clear section titles, and compact completion marks.
-- Page-based lists, indexes, and entry details; distinct KH1 refinements await further inspiration.
-- On phones, use one readable page with compact navigation rather than shrinking a two-page console screen.
-- Portraits and illustrations are optional; no empty portrait space or borrowed screenshot assets in MVP.
-
-See [shared design direction](../ui/jiminys-journal-design-direction.md) for reference interpretation and accessibility requirements.
+The user accepted the mockup direction and requested a workable KH1 journal plan. Exact typography, native collection screens, phone adaptation and app-tool placement remain explicit revision items. Full Chronicles/biography/report-text coverage is Q02, since the established content contract above does not require exhaustive narrative manifests. Preserve the existing completion content and saved state while that scope question is resolved.
 
 ## Known source risks
 

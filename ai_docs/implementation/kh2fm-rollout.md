@@ -1,5 +1,7 @@
 # KH2FM guide rollout — September 20, 2026
 
+**Presentation superseded:** The user subsequently requested a faithful KH2 journal. See the [new UI plan](../ui/kh2fm-new-ui-plan.md) and [working MVP report](kh2fm-faithful-journal-mvp.md). This report remains the content/behavior baseline; its shared-interface and inline-detail choices no longer define the visual target.
+
 ## Research and plan
 
 Read the refinement playbook, KH2FM specification/readiness, complete treasure and puzzle candidate indexes, synthesis recipes, material/equipment acquisitions, world rules, and challenge/Gummi research. The old `games/kh2fm.html` is a placeholder, so this implements a new typed guide on the shared collection/workshop interface. No Data Jiminy code or data was changed.

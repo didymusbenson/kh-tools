@@ -1,5 +1,7 @@
 # Mobile UX and Accessibility
 
+> **New UI precedence — 2026-09-22.** Use the [KH1FM new UI plan](ui/kh1fm-new-ui-plan.md) for the faithful-journal composition and its proposed phone adaptation. Readability, reflow, input parity and offline requirements remain. The earlier home/shell layout is not reapproved by the new direction. Reference-image research is authorized; the separate deferral of production location-guide screenshots is not automatically reversed.
+
 ## Design direction
 
 Ars Arcanum uses a Jiminy's Journal metaphor inside each game while retaining the original project's anchored game-selection menu with fly-in artwork.
