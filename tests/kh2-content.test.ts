@@ -58,7 +58,32 @@ describe('KH2 Final Mix source corrections', () => {
     expect(ingredient('Shock Charm', 'tranquility-stone')).toBe(3);
     expect(ingredient('Shock Charm+', 'serenity-crystal')).toBe(1);
     expect(recipe('Shock Charm').instructions).not.toContain('conflict');
-    expect(recipe('Star Charm').instructions).toContain('Sources disagree');
+    expect(ingredient('Star Charm', 'serenity-gem')).toBe(1);
+    expect(ingredient('Star Charm', 'serenity-crystal')).toBeUndefined();
+    expect(recipe('Star Charm').instructions).toContain('A / 22');
+    expect(recipe('Star Charm').instructions).not.toContain('Sources disagree');
+    expect(ingredient('Petite Ribbon', 'mythril-crystal')).toBe(3);
+    expect(ingredient('Ribbon', 'mythril-crystal')).toBe(3);
+  });
+
+  it('keeps the missable prologue separate from Sora’s treasure totals', () => {
+    const roxas = kh2.entries.filter(e => e.category === 'prologue');
+    expect(roxas).toHaveLength(16);
+    expect(roxas.every(e => e.character === 'Roxas' && e.collectible === false && !!e.missability)).toBe(true);
+    expect(roxas.filter(e => e.reward === 'Potion')).toHaveLength(9);
+    expect(roxas.filter(e => e.reward === 'Hi-Potion')).toHaveLength(5);
+    expect(kh2.entries.filter(e => e.category === 'treasures' && e.world === 'Twilight Town')).toHaveLength(39);
+  });
+
+  it('covers the complete KH2 Steam set without KH1 blueprint requirements', () => {
+    const goals = kh2.entries.filter(e => e.category === 'achievements');
+    expect(goals).toHaveLength(50);
+    expect(new Set(goals.map(e => e.id)).size).toBe(50);
+    expect(entry('achievements.gummi-ship-collector').summary).toBe('Collect every Gummi ship blueprint.');
+    expect(entry('achievements.corroded-by-darkness').summary).toContain('thirteen');
+    expect(entry('achievements.top-gun').summary).toContain('EX-mission');
+    expect(entry('achievements.critical-competitor').summary).toContain('Critical');
+    expect(entry('materials.orichalcum').instructions).toContain('55 material types');
   });
 
   it('uses Final Mix Gummi targets and preserves EX equipment constraints', () => {
@@ -78,5 +103,22 @@ describe('KH2 Final Mix source corrections', () => {
     expect(entry('cups.titan').prerequisites).toBe('Complete the second Olympus Coliseum episode');
     expect(entry('cups.cerberus-paradox').prerequisites).toContain('Valor, Wisdom and Master Forms at level 5');
     expect(entry('cups.hades-paradox').prerequisites).toContain('Valor, Wisdom, Master and Final Forms');
+  });
+
+  it('distinguishes Mushroom material ranks, weapon ranks and Journal targets', () => {
+    const one = entry('mushrooms.mushroom-xiii-1').instructions!;
+    expect(one).toContain('B: 70–89');
+    expect(one).toContain('B: 80–93');
+    expect(entry('mushrooms.mushroom-xiii-4').instructions).toContain('no A or S reward rank');
+    expect(entry('mushrooms.mushroom-xiii-5').summary).toContain('10');
+    expect(entry('mushrooms.mushroom-xiii-5').instructions).toContain('S: 3.00 or less');
+    expect(entry('mushrooms.mushroom-xiii-6').instructions).toContain('Ultimate Mushroom');
+    expect(entry('mushrooms.mushroom-xiii-13').instructions).toContain('Ready, Go!');
+  });
+
+  it('gives the Spooky Cave branches the correct chest numbers', () => {
+    expect(entry('treasure.100-acre-wood.14').instructions).toContain('right branch');
+    expect(entry('treasure.100-acre-wood.15').instructions).toContain('left branch');
+    expect(entry('treasure.twilight-town.19').instructions).toContain('Enter from outside');
   });
 });

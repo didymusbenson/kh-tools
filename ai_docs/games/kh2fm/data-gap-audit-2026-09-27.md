@@ -1,5 +1,7 @@
 # KH2FM data gap audit — 2026-09-27
 
+**Follow-up:** [September 28 audit](data-gap-audit-2026-09-28.md) resolves Moon/Star, corrects Petite Ribbon and collector rewards, supplies all Steam goals, Roxas chests and Mushroom rank bands, and improves selected chest locators. Remaining-research bullets below describe the September 27 state.
+
 This pass updates the live catalog, not just its coverage labels. `src/games/kh2fm/generate.py` consumes the research files below; regenerate with `python3 src/games/kh2fm/generate.py`. Existing entry and recipe IDs are preserved so saved checks, stock and plans remain attached. Five synthesis-source enemy records were added, taking that index from 62 to 67.
 
 Evidence is a review of community references and the original project workbook, **not an independent in-game playtest**. Final Mix reward tables take precedence over original KHII tables. “Unknown” player stock remains a valid saved state and is not changed to zero.

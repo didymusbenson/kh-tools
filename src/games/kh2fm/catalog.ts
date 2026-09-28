@@ -191,9 +191,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Tent",
     "character": "Sora",
     "order": 13,
-    "instructions": "Between two tracks.",
+    "instructions": "West station wall, between the tracks.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -206,9 +207,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 14,
-    "instructions": "Lower left corner of the station.",
+    "instructions": "Southwest station corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -221,9 +223,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 15,
-    "instructions": "Top right corner of the station.",
+    "instructions": "Northeast station corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -281,9 +284,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 19,
-    "instructions": "To the right.",
+    "instructions": "Enter from outside the Tower; follow the right wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -296,9 +300,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 20,
-    "instructions": "Under the staircase.",
+    "instructions": "Beneath the Entryway staircase.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -326,9 +331,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 22,
-    "instructions": "Near the door.",
+    "instructions": "South end of the Wardrobe, beside the door.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -1524,9 +1530,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 16,
-    "instructions": "Stairs up behind the door.",
+    "instructions": "Behind the opened secret door; climb the eastern stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -1539,9 +1546,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 17,
-    "instructions": "Stairs up behind the door.",
+    "instructions": "Behind the opened secret door; climb the eastern stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -1554,9 +1562,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Lucid Shard",
     "character": "Sora",
     "order": 18,
-    "instructions": "Open the secret door and it will be before the stairs.",
+    "instructions": "Through the secret door, south side before the stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -2834,9 +2843,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 14,
-    "instructions": "Crystal room end of left path.",
+    "instructions": "From the main crystal chamber, take the first right branch.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -2849,9 +2859,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 15,
-    "instructions": "Crystal room end of right path.",
+    "instructions": "From the main crystal chamber, take the first left branch.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -3179,9 +3190,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 17,
-    "instructions": "Around the curved path to the left.",
+    "instructions": "Follow the Wastelands from the Savannah; left after the third bend.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -3194,9 +3206,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 18,
-    "instructions": "Around the curved path to the right.",
+    "instructions": "Continue past chest 17; right after the next bend.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -3209,9 +3222,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 19,
-    "instructions": "Around the curved path to the left.",
+    "instructions": "Left wall near the Jungle exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -3984,9 +3998,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 16,
-    "instructions": "Down the right ramp under the path leading to the Black Pearl.",
+    "instructions": "Descend the eastern ramp; beneath the Black Pearl access path.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -3999,9 +4014,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 17,
-    "instructions": "Towards the upper left path.",
+    "instructions": "Northwest path, at the wall corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -4014,9 +4030,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Meteor Staff",
     "character": "Sora",
     "order": 18,
-    "instructions": "To the left.",
+    "instructions": "Northeast of the Black Pearl landing.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
     ]
   },
   {
@@ -8199,7 +8216,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Orichalcum",
     "summary": "Bulky Vendor reaction rewards; finite chests and collector rewards.",
-    "instructions": "React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 45 material types and 1,000 materials deposited.",
+    "instructions": "React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 55 material types and 1,000 materials deposited. The 45-type reward in Final Mix is AP Boost.",
     "drops": [
       {
         "enemy": "Bulky Vendor",
@@ -8212,7 +8229,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Bulky_Vendor",
-      "https://www.khwiki.com/Orichalcum"
+      "https://www.khwiki.com/Orichalcum",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143"
     ]
   },
   {
@@ -8995,9 +9014,10 @@ export const entries: CollectionEntry[] = [
     "world": "The World That Never Was",
     "area": "Memory's Skyscraper",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 90–98; B: 70–89; C: 60–69; D: 50–59; E: 40–49.\n\nWeapon ranks (hits): S: 99; A: 94–98; B: 80–93; C: 65–79; D: 55–64; E: 45–54.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9008,9 +9028,10 @@ export const entries: CollectionEntry[] = [
     "world": "Halloween Town",
     "area": "Christmas Tree Plaza",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (points): S: 99; A: 95–98; B: 80–94; C: 70–79; D: 65–69; E: 60–64.\n\nWeapon ranks (points): S: 99; A: 97–98; B: 87–96; C: 75–86; D: 67–74; E: 62–66.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9021,9 +9042,10 @@ export const entries: CollectionEntry[] = [
     "world": "Beast's Castle",
     "area": "Bridge",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (prizes): S: 500; A: 490–499; B: 450–489; C: 400–449; D: 350–399; E: 250–349.\n\nWeapon ranks (prizes): S: 500; A: 495–499; B: 470–494; C: 425–469; D: 375–424; E: 300–374.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9034,9 +9056,10 @@ export const entries: CollectionEntry[] = [
     "world": "The Land of Dragons",
     "area": "Palace Gate",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. Mushroom IV has no A or S reward rank.\n\nMaterial ranks (clones): B: 85+; C: 70–84; D: 60–69; E: 50–59.\n\nWeapon ranks (clones): B: 85+; C: 75–84; D: 65–74; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%).",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9047,9 +9070,10 @@ export const entries: CollectionEntry[] = [
     "world": "Agrabah",
     "area": "Cave of Wonders: Treasure Room",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–60.00; E: 60.01–100.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–45.00; E: 45.01–80.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9060,9 +9084,10 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "area": "Underworld Caverns: Atrium",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 31.00 or less; A: 31.01–40.00; B: 40.01–45.00; C: 45.01–65.00; D: 65.01–80.00; E: 80.01–90.00.\n\nWeapon ranks (seconds): S: 31.00 or less; A: 31.01–35.00; B: 35.01–42.00; C: 42.01–55.00; D: 55.01–72.00; E: 72.01–85.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9073,9 +9098,10 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "Tunnelway",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–40.00; E: 40.01–60.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–35.00; E: 35.01–50.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9086,9 +9112,10 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "The Tower",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 85–94; C: 60–84; D: 55–59; E: 50–54.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 90–96; C: 72–89; D: 57–71; E: 52–56.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9099,9 +9126,10 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Castle Gate",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 75–94; C: 70–74; D: 60–69; E: 50–59.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 85–96; C: 72–84; D: 65–71; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9112,9 +9140,10 @@ export const entries: CollectionEntry[] = [
     "world": "Port Royal",
     "area": "Isla de Muerta: Moonlight Nook",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 36.00 or less; A: 36.01–39.00; B: 39.01–55.00; C: 55.01–80.00; D: 80.01–100.00; E: 100.01–120.00.\n\nWeapon ranks (seconds): S: 36.00 or less; A: 36.01–37.00; B: 37.01–47.00; C: 47.01–67.00; D: 67.01–90.00; E: 90.01–110.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9125,9 +9154,10 @@ export const entries: CollectionEntry[] = [
     "world": "Timeless River",
     "area": "Waterway",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 15.00 or less; A: 15.01–17.00; B: 17.01–19.00; C: 19.01–22.00; D: 22.01–25.00; E: 25.01–30.00.\n\nWeapon ranks (seconds): S: 15.00 or less; A: 15.01–16.00; B: 16.01–18.00; C: 18.01–20.00; D: 20.01–23.00; E: 23.01–27.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -9138,9 +9168,10 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "The Old Mansion",
     "collectible": false,
-    "instructions": "This is the Journal target; farming reward ranks have separate thresholds.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (clones): S: 50; A: 44–49; B: 40–43; C: 30–39; D: 25–29; E: 20–24.\n\nWeapon ranks (clones): S: 50; A: 47–49; B: 42–46; C: 35–41; D: 27–34; E: 22–26.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
     ]
   },
   {
@@ -12066,7 +12097,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Timeless River complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12076,7 +12109,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Land of Dragons episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12086,7 +12121,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Beast’s Castle episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12096,7 +12133,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Port Royal episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12106,7 +12145,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Agrabah episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12116,7 +12157,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Halloween Town episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12126,7 +12169,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Olympus episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12136,7 +12181,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Twilight Town episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12146,7 +12193,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Pride Lands episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12156,7 +12205,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Space Paranoids episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12166,7 +12217,9 @@ export const entries: CollectionEntry[] = [
     "summary": "100 Acre Wood complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12176,7 +12229,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Atlantica episodes complete.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12186,7 +12241,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Pain and Panic Cup victory.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12196,7 +12253,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Cerberus Cup victory.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12206,7 +12265,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Titan Cup victory.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12216,7 +12277,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Goddess of Fate Cup victory.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12226,7 +12289,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Take every opponent orb.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12236,7 +12301,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Complete Nobody Journal entries.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12246,7 +12313,9 @@ export const entries: CollectionEntry[] = [
     "summary": "Collect all maps.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12256,17 +12325,21 @@ export const entries: CollectionEntry[] = [
     "summary": "Assemble every puzzle.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
     "id": "kh2fm.achievements.level-master",
     "category": "achievements",
     "name": "Level Master",
-    "summary": "Sora reaches level99.",
+    "summary": "Raise Sora to level 99.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
@@ -12276,17 +12349,653 @@ export const entries: CollectionEntry[] = [
     "summary": "Earn a Gummi S rank.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
     ]
   },
   {
     "id": "kh2fm.achievements.gummi-ship-collector",
     "category": "achievements",
     "name": "Gummi Ship Collector",
-    "summary": "Acquire at least30 blueprints.",
+    "summary": "Collect every Gummi ship blueprint.",
     "collectible": false,
     "sources": [
-      "https://steamcommunity.com/stats/2552430/achievements/"
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ],
+    "instructions": "This KH2 achievement requires the complete blueprint collection. The 30-blueprint requirement belongs to KH1."
+  },
+  {
+    "id": "kh2fm.achievements.critical-competitor",
+    "category": "achievements",
+    "name": "Critical Competitor",
+    "summary": "Finish on Critical.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.proud-player",
+    "category": "achievements",
+    "name": "Proud Player",
+    "summary": "Finish on Proud or Critical.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.ambitious-adventurer",
+    "category": "achievements",
+    "name": "Ambitious Adventurer",
+    "summary": "Finish the story and watch the ending.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.summer-s-end",
+    "category": "achievements",
+    "name": "Summer's End",
+    "summary": "Finish the Roxas prologue.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.coliseum-competitor",
+    "category": "achievements",
+    "name": "Coliseum Competitor",
+    "summary": "Win Pain and Panic Paradox.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.coliseum-star",
+    "category": "achievements",
+    "name": "Coliseum Star",
+    "summary": "Win Cerberus Paradox.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.hero-of-the-coliseum",
+    "category": "achievements",
+    "name": "Hero of the Coliseum",
+    "summary": "Win Titan Paradox.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.coliseum-champion",
+    "category": "achievements",
+    "name": "Coliseum Champion",
+    "summary": "Win Hades Paradox.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.searcher",
+    "category": "achievements",
+    "name": "Searcher",
+    "summary": "Record all thirteen Secret Ansem Reports.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.professor",
+    "category": "achievements",
+    "name": "Professor",
+    "summary": "Complete the Journal character roster.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.heartless-highbrow",
+    "category": "achievements",
+    "name": "Heartless Highbrow",
+    "summary": "Complete the Journal Heartless roster.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.treasure-hunter",
+    "category": "achievements",
+    "name": "Treasure Hunter",
+    "summary": "Finish the Journal treasure list.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ],
+    "instructions": "Complete Sora’s numbered treasure list. Roxas’s separate prologue chests do not count toward this Journal goal."
+  },
+  {
+    "id": "kh2fm.achievements.conqueror",
+    "category": "achievements",
+    "name": "Conqueror",
+    "summary": "Complete every Journal mission.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.minigame-maniac",
+    "category": "achievements",
+    "name": "Minigame Maniac",
+    "summary": "Complete the Journal minigame list.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.limit-master",
+    "category": "achievements",
+    "name": "Limit Master",
+    "summary": "Record every Journal Limit.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.craftsman",
+    "category": "achievements",
+    "name": "Craftsman",
+    "summary": "Complete Synthesis Notes.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.youtube.com/watch?v=30GuarhSuoA&t=1515s"
+    ],
+    "instructions": "Reach Moogle level 9, collect all 60 material types, complete every collection list, and synthesize all 59 outputs."
+  },
+  {
+    "id": "kh2fm.achievements.seeker",
+    "category": "achievements",
+    "name": "Seeker",
+    "summary": "Complete Character Links.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.ace-pilot",
+    "category": "achievements",
+    "name": "Ace Pilot",
+    "summary": "Earn a normal-mission S rank on every Gummi route.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.top-gun",
+    "category": "achievements",
+    "name": "Top Gun",
+    "summary": "Earn an EX-mission S rank on every Gummi route.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.mushroom-master",
+    "category": "achievements",
+    "name": "Mushroom Master",
+    "summary": "Appease all thirteen Mushrooms.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.pro-skater",
+    "category": "achievements",
+    "name": "Pro Skater",
+    "summary": "Score 5,000 skateboard points.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.reunion",
+    "category": "achievements",
+    "name": "Reunion",
+    "summary": "Rejoin Riku and Kairi.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.my-hero",
+    "category": "achievements",
+    "name": "My Hero",
+    "summary": "Have Mickey rescue Sora.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.lingering-will",
+    "category": "achievements",
+    "name": "Lingering Will",
+    "summary": "Win against Lingering Will.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.one-winged-angel",
+    "category": "achievements",
+    "name": "One-Winged Angel",
+    "summary": "Win against Sephiroth.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.to-rule-them-all",
+    "category": "achievements",
+    "name": "To Rule Them All",
+    "summary": "Win all thirteen Replica Data battles.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "id": "kh2fm.achievements.corroded-by-darkness",
+    "category": "achievements",
+    "name": "Corroded by Darkness",
+    "summary": "Enter Antiform thirteen times.",
+    "collectible": false,
+    "sources": [
+      "https://steamcommunity.com/stats/2552430/achievements/",
+      "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.serenity",
+    "name": "Potion · Station of Serenity",
+    "area": "Station of Serenity",
+    "summary": "Day 3: Potion.",
+    "reward": "Potion",
+    "order": 1,
+    "instructions": "Open the chest after the first three Dusks.",
+    "prerequisites": "Roxas’s prologue, day 3.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.calling",
+    "name": "Potion · Station of Calling",
+    "area": "Station of Calling",
+    "summary": "Day 3: Potion.",
+    "reward": "Potion",
+    "order": 2,
+    "instructions": "Climb the first ramp and defeat the Dusks; collect the chest before continuing.",
+    "prerequisites": "Roxas’s prologue, day 3.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.station-southwest",
+    "name": "Potion · Southwest corner",
+    "area": "Central Station",
+    "summary": "Day 5: Potion.",
+    "reward": "Potion",
+    "order": 3,
+    "instructions": "Check the southwest corner of the station.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.station-northeast",
+    "name": "Potion · Northeast corner",
+    "area": "Central Station",
+    "summary": "Day 5: Potion.",
+    "reward": "Potion",
+    "order": 4,
+    "instructions": "Check the northeast corner of the station.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.station-train",
+    "name": "Hi-Potion · Central Station",
+    "area": "Central Station",
+    "summary": "Day 5: Hi-Potion.",
+    "reward": "Hi-Potion",
+    "order": 5,
+    "instructions": "Look west of the train. Return here from Sunset Station on day five.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.terrace-hill",
+    "name": "Potion · Sunset Hill entrance",
+    "area": "Sunset Terrace",
+    "summary": "Day 5: Potion.",
+    "reward": "Potion",
+    "order": 6,
+    "instructions": "Outside the Sunset Hill entrance.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.terrace-roof-base",
+    "name": "Potion · Below the roof",
+    "area": "Sunset Terrace",
+    "summary": "Day 5: Potion.",
+    "reward": "Potion",
+    "order": 7,
+    "instructions": "Drop from the Ability Ring roof to the chest below.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.terrace-stream",
+    "name": "Hi-Potion · Sunset Terrace",
+    "area": "Sunset Terrace",
+    "summary": "Day 5: Hi-Potion.",
+    "reward": "Hi-Potion",
+    "order": 8,
+    "instructions": "Cross the stream to the northwest corner.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.terrace-roof",
+    "name": "Ability Ring · Sunset Terrace",
+    "area": "Sunset Terrace",
+    "summary": "Day 5: Ability Ring.",
+    "reward": "Ability Ring",
+    "order": 9,
+    "instructions": "Ride the tram, then jump onto the nearby roof.",
+    "prerequisites": "Roxas’s prologue, day 5.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.foyer-west",
+    "name": "Potion · West staircase",
+    "area": "Mansion: Foyer",
+    "summary": "Day 6: Potion.",
+    "reward": "Potion",
+    "order": 10,
+    "instructions": "On the left staircase toward the White Room.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.foyer-east",
+    "name": "Potion · Library landing",
+    "area": "Mansion: Foyer",
+    "summary": "Day 6: Potion.",
+    "reward": "Potion",
+    "order": 11,
+    "instructions": "Upstairs on the way to the Library.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.foyer-window",
+    "name": "Hi-Potion · Mansion: Foyer",
+    "area": "Mansion: Foyer",
+    "summary": "Day 6: Hi-Potion.",
+    "reward": "Hi-Potion",
+    "order": 12,
+    "instructions": "Check beside the ground-floor window.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.dining-potion",
+    "name": "Potion · Mansion: Dining Room",
+    "area": "Mansion: Dining Room",
+    "summary": "Day 6: Potion.",
+    "reward": "Potion",
+    "order": 13,
+    "instructions": "Enter left from the Foyer; collect both chests after clearing the Nobodies.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.dining-bandanna",
+    "name": "Elven Bandanna · Mansion: Dining Room",
+    "area": "Mansion: Dining Room",
+    "summary": "Day 6: Elven Bandanna.",
+    "reward": "Elven Bandanna",
+    "order": 14,
+    "instructions": "The other chest in the Dining Room; equip the armor if useful.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.library",
+    "name": "Hi-Potion · Mansion: Library",
+    "area": "Mansion: Library",
+    "summary": "Day 6: Hi-Potion.",
+    "reward": "Hi-Potion",
+    "order": 15,
+    "instructions": "Open the Library chest before descending toward the Computer Room.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+    ]
+  },
+  {
+    "category": "prologue",
+    "world": "Twilight Town",
+    "character": "Roxas",
+    "collectible": false,
+    "id": "kh2fm.prologue.basement",
+    "name": "Hi-Potion · Mansion: Basement Corridor",
+    "area": "Mansion: Basement Corridor",
+    "summary": "Day 6: Hi-Potion.",
+    "reward": "Hi-Potion",
+    "order": 16,
+    "instructions": "After Axel, open the chest before the final room.",
+    "prerequisites": "Roxas’s prologue, day 6.",
+    "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+    "sources": [
+      "https://www.khwiki.com/Game:Twilight_Town",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
     ]
   }
 ];
@@ -12565,7 +13274,7 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts. Sources disagree on Moon/Star rank and the Star Charm modifier; this planner uses the item-page Serenity Crystal. Automatic rank discounts are not applied."
+    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts."
   },
   {
     "id": "kh2fm.recipe.star-charm",
@@ -12589,11 +13298,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       },
       {
-        "id": "kh2fm.materials.serenity-crystal",
+        "id": "kh2fm.materials.serenity-gem",
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output. Sources disagree on Moon/Star rank and the Star Charm modifier; this planner uses the item-page Serenity Crystal. Automatic rank discounts are not applied."
+    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
   },
   {
     "id": "kh2fm.recipe.petite-ribbon",
@@ -12602,7 +13311,7 @@ export const recipes: CollectionRecipe[] = [
     "ingredients": [
       {
         "id": "kh2fm.materials.mythril-crystal",
-        "quantity": 2
+        "quantity": 3
       },
       {
         "id": "kh2fm.materials.orichalcum",
@@ -12626,7 +13335,7 @@ export const recipes: CollectionRecipe[] = [
     "ingredients": [
       {
         "id": "kh2fm.materials.mythril-crystal",
-        "quantity": 2
+        "quantity": 3
       },
       {
         "id": "kh2fm.materials.orichalcum",

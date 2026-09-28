@@ -1,0 +1,429 @@
+{
+  "reviewed": "2026-09-28",
+  "source": "https://www.khwiki.com/Mushroom_XIII",
+  "corroboration": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "method": "Type A maps to the source’s material/consumable reward column, Type B to its weapon column. They are reward tables, not selectable mushroom variants. Preserve separate thresholds; do not confuse either with the Journal target. S thresholds corroborated by Gamer Guides; detailed lower tiers from KH Wiki.",
+  "mushrooms": {
+    "1": {
+      "unit": "hits",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "99",
+          "weapons": "99"
+        },
+        {
+          "rank": "A",
+          "materials": "90–98",
+          "weapons": "94–98"
+        },
+        {
+          "rank": "B",
+          "materials": "70–89",
+          "weapons": "80–93"
+        },
+        {
+          "rank": "C",
+          "materials": "60–69",
+          "weapons": "65–79"
+        },
+        {
+          "rank": "D",
+          "materials": "50–59",
+          "weapons": "55–64"
+        },
+        {
+          "rank": "E",
+          "materials": "40–49",
+          "weapons": "45–54"
+        }
+      ]
+    },
+    "2": {
+      "unit": "points",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "99",
+          "weapons": "99"
+        },
+        {
+          "rank": "A",
+          "materials": "95–98",
+          "weapons": "97–98"
+        },
+        {
+          "rank": "B",
+          "materials": "80–94",
+          "weapons": "87–96"
+        },
+        {
+          "rank": "C",
+          "materials": "70–79",
+          "weapons": "75–86"
+        },
+        {
+          "rank": "D",
+          "materials": "65–69",
+          "weapons": "67–74"
+        },
+        {
+          "rank": "E",
+          "materials": "60–64",
+          "weapons": "62–66"
+        }
+      ]
+    },
+    "3": {
+      "unit": "prizes",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "500",
+          "weapons": "500"
+        },
+        {
+          "rank": "A",
+          "materials": "490–499",
+          "weapons": "495–499"
+        },
+        {
+          "rank": "B",
+          "materials": "450–489",
+          "weapons": "470–494"
+        },
+        {
+          "rank": "C",
+          "materials": "400–449",
+          "weapons": "425–469"
+        },
+        {
+          "rank": "D",
+          "materials": "350–399",
+          "weapons": "375–424"
+        },
+        {
+          "rank": "E",
+          "materials": "250–349",
+          "weapons": "300–374"
+        }
+      ]
+    },
+    "4": {
+      "unit": "clones",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "—",
+          "weapons": "—"
+        },
+        {
+          "rank": "A",
+          "materials": "—",
+          "weapons": "—"
+        },
+        {
+          "rank": "B",
+          "materials": "85+",
+          "weapons": "85+"
+        },
+        {
+          "rank": "C",
+          "materials": "70–84",
+          "weapons": "75–84"
+        },
+        {
+          "rank": "D",
+          "materials": "60–69",
+          "weapons": "65–74"
+        },
+        {
+          "rank": "E",
+          "materials": "50–59",
+          "weapons": "55–64"
+        }
+      ]
+    },
+    "5": {
+      "unit": "seconds",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "3.00 or less",
+          "weapons": "3.00 or less"
+        },
+        {
+          "rank": "A",
+          "materials": "3.01–5.00",
+          "weapons": "3.01–4.00"
+        },
+        {
+          "rank": "B",
+          "materials": "5.01–10.00",
+          "weapons": "4.01–7.00"
+        },
+        {
+          "rank": "C",
+          "materials": "10.01–30.00",
+          "weapons": "7.01–20.00"
+        },
+        {
+          "rank": "D",
+          "materials": "30.01–60.00",
+          "weapons": "20.01–45.00"
+        },
+        {
+          "rank": "E",
+          "materials": "60.01–100.00",
+          "weapons": "45.01–80.00"
+        }
+      ]
+    },
+    "6": {
+      "unit": "seconds",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "31.00 or less",
+          "weapons": "31.00 or less"
+        },
+        {
+          "rank": "A",
+          "materials": "31.01–40.00",
+          "weapons": "31.01–35.00"
+        },
+        {
+          "rank": "B",
+          "materials": "40.01–45.00",
+          "weapons": "35.01–42.00"
+        },
+        {
+          "rank": "C",
+          "materials": "45.01–65.00",
+          "weapons": "42.01–55.00"
+        },
+        {
+          "rank": "D",
+          "materials": "65.01–80.00",
+          "weapons": "55.01–72.00"
+        },
+        {
+          "rank": "E",
+          "materials": "80.01–90.00",
+          "weapons": "72.01–85.00"
+        }
+      ]
+    },
+    "7": {
+      "unit": "seconds",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "3.00 or less",
+          "weapons": "3.00 or less"
+        },
+        {
+          "rank": "A",
+          "materials": "3.01–5.00",
+          "weapons": "3.01–4.00"
+        },
+        {
+          "rank": "B",
+          "materials": "5.01–10.00",
+          "weapons": "4.01–7.00"
+        },
+        {
+          "rank": "C",
+          "materials": "10.01–30.00",
+          "weapons": "7.01–20.00"
+        },
+        {
+          "rank": "D",
+          "materials": "30.01–40.00",
+          "weapons": "20.01–35.00"
+        },
+        {
+          "rank": "E",
+          "materials": "40.01–60.00",
+          "weapons": "35.01–50.00"
+        }
+      ]
+    },
+    "8": {
+      "unit": "hits",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "99",
+          "weapons": "99"
+        },
+        {
+          "rank": "A",
+          "materials": "95–98",
+          "weapons": "97–98"
+        },
+        {
+          "rank": "B",
+          "materials": "85–94",
+          "weapons": "90–96"
+        },
+        {
+          "rank": "C",
+          "materials": "60–84",
+          "weapons": "72–89"
+        },
+        {
+          "rank": "D",
+          "materials": "55–59",
+          "weapons": "57–71"
+        },
+        {
+          "rank": "E",
+          "materials": "50–54",
+          "weapons": "52–56"
+        }
+      ]
+    },
+    "9": {
+      "unit": "hits",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "99",
+          "weapons": "99"
+        },
+        {
+          "rank": "A",
+          "materials": "95–98",
+          "weapons": "97–98"
+        },
+        {
+          "rank": "B",
+          "materials": "75–94",
+          "weapons": "85–96"
+        },
+        {
+          "rank": "C",
+          "materials": "70–74",
+          "weapons": "72–84"
+        },
+        {
+          "rank": "D",
+          "materials": "60–69",
+          "weapons": "65–71"
+        },
+        {
+          "rank": "E",
+          "materials": "50–59",
+          "weapons": "55–64"
+        }
+      ]
+    },
+    "10": {
+      "unit": "seconds",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "36.00 or less",
+          "weapons": "36.00 or less"
+        },
+        {
+          "rank": "A",
+          "materials": "36.01–39.00",
+          "weapons": "36.01–37.00"
+        },
+        {
+          "rank": "B",
+          "materials": "39.01–55.00",
+          "weapons": "37.01–47.00"
+        },
+        {
+          "rank": "C",
+          "materials": "55.01–80.00",
+          "weapons": "47.01–67.00"
+        },
+        {
+          "rank": "D",
+          "materials": "80.01–100.00",
+          "weapons": "67.01–90.00"
+        },
+        {
+          "rank": "E",
+          "materials": "100.01–120.00",
+          "weapons": "90.01–110.00"
+        }
+      ]
+    },
+    "11": {
+      "unit": "seconds",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "15.00 or less",
+          "weapons": "15.00 or less"
+        },
+        {
+          "rank": "A",
+          "materials": "15.01–17.00",
+          "weapons": "15.01–16.00"
+        },
+        {
+          "rank": "B",
+          "materials": "17.01–19.00",
+          "weapons": "16.01–18.00"
+        },
+        {
+          "rank": "C",
+          "materials": "19.01–22.00",
+          "weapons": "18.01–20.00"
+        },
+        {
+          "rank": "D",
+          "materials": "22.01–25.00",
+          "weapons": "20.01–23.00"
+        },
+        {
+          "rank": "E",
+          "materials": "25.01–30.00",
+          "weapons": "23.01–27.00"
+        }
+      ]
+    },
+    "12": {
+      "unit": "clones",
+      "ranks": [
+        {
+          "rank": "S",
+          "materials": "50",
+          "weapons": "50"
+        },
+        {
+          "rank": "A",
+          "materials": "44–49",
+          "weapons": "47–49"
+        },
+        {
+          "rank": "B",
+          "materials": "40–43",
+          "weapons": "42–46"
+        },
+        {
+          "rank": "C",
+          "materials": "30–39",
+          "weapons": "35–41"
+        },
+        {
+          "rank": "D",
+          "materials": "25–29",
+          "weapons": "27–34"
+        },
+        {
+          "rank": "E",
+          "materials": "20–24",
+          "weapons": "22–26"
+        }
+      ]
+    }
+  }
+}

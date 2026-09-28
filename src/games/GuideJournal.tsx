@@ -276,7 +276,8 @@ export default function GuideJournal({
           !e.instructions?.includes(e.summary) && <p>{e.summary}</p>}
         {e.instructions &&
           !(e.instructions === "Open the chest." && e.summary) &&
-          e.instructions !== `Chest in ${e.area}.` && <p>{e.instructions}</p>}
+          e.instructions !== `Chest in ${e.area}.` &&
+          e.instructions.split(/\n\n+/).map((paragraph, i) => <p key={i}>{paragraph}</p>)}
         <dl>
           {field("Location", [e.world, e.area].filter(Boolean).join(" · "))}
           {field("Character", e.character)}

@@ -1,10 +1,10 @@
 # Kingdom Hearts II Final Mix research pack
 
-Research snapshot: **2026-09-18**, updated by the **2026-09-27 data gap audit**. The generated journal consumes these records; source-backed does not mean independently playtested. Start with the [game specification](../kingdom-hearts-ii-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-ii-final-mix.md).
+Research snapshot: **2026-09-18**, updated by the **2026-09-28 audit follow-up**. The generated journal consumes these records; source-backed does not mean independently playtested. Start with the [game specification](../kingdom-hearts-ii-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-ii-final-mix.md).
 
 ## Latest data pass
 
-Read the [2026-09-27 gap audit](data-gap-audit-2026-09-27.md) first. It supersedes resolved uncertainty notes in the original candidate tables and documents the live material sources, treasure/puzzle directions, corrected recipes, cup unlocks and Gummi targets.
+Read the [2026-09-28 follow-up](data-gap-audit-2026-09-28.md) first, then the [September 27 gap audit](data-gap-audit-2026-09-27.md). It supersedes resolved uncertainty notes in the original candidate tables and documents the live material sources, treasure/puzzle directions, corrected recipes, cup unlocks and Gummi targets.
 
 ## Findings and inventories
 
@@ -25,9 +25,9 @@ Spoilers are shown directly. There is no Available Now/progress-gate filter; rel
 
 ## Important corrections
 
-The trailing-space `Accessories ` tab contains 33 candidates; the old empty-tab claim was wrong. Agrabah treasure 24 is Serenity Gem. Twilight Town's Daylight 23 belongs to Sora in the Other Twilight Town. The 16 Roxas prologue chests need their own scope. Data completion makes the final Proof chest appear; it does not open it. Final Mix's Magnet grant is Luxord, and old Lucky Lucky equipment/Serenity farms are unreliable.
+The trailing-space `Accessories ` tab contains 33 candidates; the old empty-tab claim was wrong. Agrabah treasure 24 is Serenity Gem. Twilight Town's Daylight 23 belongs to Sora in the Other Twilight Town. The 16 Roxas prologue chests now have their own checklist scope. Data completion makes the final Proof chest appear; it does not open it. Final Mix's Magnet grant is Luxord, and old Lucky Lucky equipment/Serenity farms are unreliable.
 
-Restored treasure directions still need richer orientation in places. Full staff/shield acquisitions, a visual assembly solution, the Moon/Star recipe disagreement, optional discount cases and complete Gummi/platform catalogs remain unfinished. These are explicit research tasks, not silent feature deferrals. Only missing production screenshot/map image acquisition is deferred.
+Restored treasure directions still need richer orientation in places. Full staff/shield acquisitions, a visual assembly solution, optional discount implementation and the complete Gummi catalog remain unfinished. These are explicit research tasks, not silent feature deferrals. Only missing production screenshot/map image acquisition is deferred.
 
 ## Edition evidence
 

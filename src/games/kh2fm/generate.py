@@ -48,7 +48,6 @@ for c in rows('synthesis-recipes.md'):
   if base=='Ultima Weapon':
    ing=[dict(id=i['id'],quantity=math.ceil(i['quantity']/2)) for i in ing];ing.append(dict(id='kh2fm.materials.energy-crystal',quantity=1))
    note='Ultimate Recipe; Moogle level 2 or higher. Includes the mandatory Energy Crystal: displayed raw 13 Orichalcum+ becomes 7, and all other base ingredients are halved, rounding each up. Only seven Orichalcum+ acquisitions exist. No additional Moogle discount assumed.'
-  if base=='Moon Amulet':note+=' Sources disagree on Moon/Star rank and the Star Charm modifier; this planner uses the item-page Serenity Crystal. Automatic rank discounts are not applied.'
   recipes.append(dict(id='kh2fm.recipe.'+slug(name),name=name,group='Upgraded outputs' if is_upgrade else 'Base recipes',ingredients=ing,instructions=note))
 # Verified Final Mix drops and representative post-game rooms. Conditional prizes remain explicit.
 for name, research in material_research['materials'].items():
@@ -69,7 +68,7 @@ for tier in ['Shard','Stone','Gem','Crystal']:
 for tier,rank in [('Shard','E'),('Stone','D'),('Gem','C'),('Crystal','B')]:
  add('materials','Tranquility '+tier,'Mushroom XIII challenge rewards.',instructions='Repeat Mushrooms I–XII for material rewards. '+('B rank gives one Crystal; A or S gives two.' if tier=='Crystal' else 'Ranks '+rank+' through S give one '+tier+'.')+' These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.',drops=[dict(enemy='Mushroom V',rate='Conditional',location='Agrabah · The Cave of Wonders: Treasure Room',details='A defeat within 3 seconds guarantees the S-rank material set. Its HP regenerates during the challenge.')],collectible=False,checkable=False,sources=['https://www.khwiki.com/Tranquility','https://www.khwiki.com/Mushroom_XIII#No._5'])
 vendor_rooms='The Land of Dragons · Checkpoint; Beast’s Castle · The West Hall; Olympus Coliseum · Cave of the Dead: Entrance; Agrabah · Bazaar; Halloween Town · Candy Cane Lane'
-add('materials','Orichalcum','Bulky Vendor reaction rewards; finite chests and collector rewards.',instructions='React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 45 material types and 1,000 materials deposited.',drops=[dict(enemy='Bulky Vendor',rate='Conditional',location=vendor_rooms,details='Orichalcum chance depends on the reaction command: 8%, 10%, 12% or 16%.')],checkable=False,collectible=False,sources=['https://www.khwiki.com/Bulky_Vendor','https://www.khwiki.com/Orichalcum'])
+add('materials','Orichalcum','Bulky Vendor reaction rewards; finite chests and collector rewards.',instructions='React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 55 material types and 1,000 materials deposited. The 45-type reward in Final Mix is AP Boost.',drops=[dict(enemy='Bulky Vendor',rate='Conditional',location=vendor_rooms,details='Orichalcum chance depends on the reaction command: 8%, 10%, 12% or 16%.')],checkable=False,collectible=False,sources=['https://www.khwiki.com/Bulky_Vendor','https://www.khwiki.com/Orichalcum','https://www.khwiki.com/Moogle_Shop','https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143'])
 for n,summary,detail,enemy,location in [
  ('Orichalcum+','Seven finite acquisitions.','Chests: Twilight Town Sunset Terrace; Space Paranoids Central Computer Mesa; The World That Never Was Brink of Despair. Rewards: finish 100 Acre Wood; finish A New Day is Dawning; win Goddess of Fate Cup; deposit all 60 material types and claim the Moogle collection reward. These cannot be farmed repeatedly.','Finite rewards','Twilight Town; Space Paranoids; The World That Never Was; 100 Acre Wood; Atlantica; Olympus Coliseum; Moogle shop'),
  ('Lost Illusion','Absent Silhouettes and corresponding Replica Data rewards.','Each Absent Silhouette awards one on its first defeat. A Garden of Assemblage chest and the Moogle reward for all S-rank materials are additional finite sources. For repeatable rewards, defeat Replica Data Vexen, Lexaeus, Zexion, Marluxia or Larxene in the Garden of Assemblage.','Replica Data','Radiant Garden · Garden of Assemblage'),
@@ -108,6 +107,20 @@ for route,research in gummi_research['routes'].items():
    add('gummi',f'{route} · Mission {mission} · {mode}',goal,area=route,prerequisites=('Earn S rank in this normal mission to unlock EX. '+data['exRequirement']) if ex else 'Complete the route to open missions 1 and 2; clear both to open mission 3.',instructions=('Meet the listed ship constraint, then reach the score target in the EX mission.' if ex else 'Use Mission '+mission+' from the Gummi route menu. Check this record when you earn S rank.')+' Targets are for Final Mix.',reward=data['exReward'] if ex else data['reward'],collectible=False,sources=[research['source']])
 add('summons','Baseball Charm','Receive from Merlin when he explains Pooh’s damaged book.',world='Radiant Garden',reward='Chicken Little summon',sources=['https://www.khwiki.com/Summon_Charms'])
 add('summons','Lamp Charm','Complete the first Agrabah visit.',world='Agrabah',reward='Genie summon',sources=['https://www.khwiki.com/Summon_Charms'])
+# Material and weapon reward ranks have different score bands; neither replaces the Journal target.
+mushroom_research=json.loads((root/'verified-mushroom-ranks.json').read_text())
+for e in entries:
+ if e['category']!='mushrooms':continue
+ number=e['name'].split(' · ')[-1]
+ if number not in mushroom_research['mushrooms']:continue
+ data=mushroom_research['mushrooms'][number]
+ bands=[]
+ for key,label in [('materials','Material ranks'),('weapons','Weapon ranks')]:
+  bands.append(label+' ('+data['unit']+'): '+ '; '.join(r['rank']+': '+r[key] for r in data['ranks'] if r[key]!='—')+'.')
+ odd=int(number)%2==1
+ weapon=['Plain Mushroom','Plain Mushroom+','Precious Mushroom','Precious Mushroom+','Premium Mushroom'] if odd else ['Joyous Mushroom','Joyous Mushroom+','Majestic Mushroom','Majestic Mushroom+','Ultimate Mushroom']
+ e['instructions']='The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. '+('Mushroom IV has no A or S reward rank.' if number=='4' else '')+'\n\n'+'\n\n'.join(bands)+'\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.'+'\n\nWeapon prizes: E has a 55% chance of '+weapon[0]+'. D gives '+weapon[0]+' (65%) or '+weapon[1]+' (35%). C gives '+weapon[1]+' (75%) or '+weapon[2]+' (25%). B gives '+weapon[2]+' (85%) or '+weapon[3]+' (15%).'+('' if number=='4' else ' A gives '+weapon[3]+' (90%) or '+weapon[4]+' (10%). S guarantees '+weapon[4]+'.')
+ e['sources']=[mushroom_research['source'],mushroom_research['corroboration']]
 # Assign world scopes to normalized reward events without introducing duplicate acquisitions.
 magic_worlds = [
  'Radiant Garden','Pride Lands','Agrabah','Radiant Garden','Radiant Garden','Atlantica',
@@ -127,22 +140,13 @@ for e in list(entries):
   data['locations'].extend(d['location'].split('; '));data['sources'].extend(e['sources'])
 for enemy,data in sorted(enemies.items()):
  add('bestiary',enemy,'; '.join(data['items'])+'.',area='; '.join(dict.fromkeys(data['locations'])),instructions='Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.',checkable=False,collectible=False,sources=list(dict.fromkeys(data['sources'])))
-# Non-hidden, uniquely KHII-scoped goals verified in Steam’s public collection list on 2026-09-20.
-steam_goals=[
- ('A Timeless World','Timeless River complete'),('Above Honor','Land of Dragons episodes complete'),
- ('A Budding Romance',"Beast’s Castle episodes complete"),('Lifting the Curse','Port Royal episodes complete'),
- ('What Friends Are For','Agrabah episodes complete'),('The Gift of Love','Halloween Town episodes complete'),
- ('Hail the Hero','Olympus episodes complete'),('A Taste of the Past','Twilight Town episodes complete'),
- ('Return of the King','Pride Lands episodes complete'),('Electric Spark','Space Paranoids episodes complete'),
- ('Always Together','100 Acre Wood complete'),('Kindred Spirits','Atlantica episodes complete'),
- ('Rookie','Pain and Panic Cup victory'),('Novice Hero','Cerberus Cup victory'),
- ('Artisan Hero','Titan Cup victory'),('True Hero','Goddess of Fate Cup victory'),
- ('Struggle Champion','Take every opponent orb'),('Nobody Know-It-All','Complete Nobody Journal entries'),
- ('Navigator','Collect all maps'),('Puzzler','Assemble every puzzle'),
- ('Level Master','Sora reaches level99'),('Veteran Pilot','Earn a Gummi S rank'),
- ('Gummi Ship Collector','Acquire at least30 blueprints')]
-for name,goal in steam_goals:
- add('achievements',name,goal+'.',collectible=False,sources=['https://steamcommunity.com/stats/2552430/achievements/'])
+# Steam names shared across games remain scoped by the stable kh2fm prefix.
+for research in json.loads((root/'verified-steam-achievements.json').read_text())['entries']:
+ data=dict(research);name=data.pop('name');summary=data.pop('summary')
+ add('achievements',name,summary,collectible=False,**data)
+# Prologue chests are separate from Sora's 301 Journal treasures and world totals.
+for research in json.loads((root/'verified-prologue-chests.json').read_text())['entries']:
+ entries.append(dict(category='prologue',world='Twilight Town',character='Roxas',collectible=False,**research))
 assert len([e for e in entries if e['category']=='treasures'])==301
 assert len([e for e in entries if e['category']=='puzzles'])==144
 assert len(recipes)==59

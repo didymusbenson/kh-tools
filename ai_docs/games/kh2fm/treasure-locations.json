@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-09-27",
+  "reviewedOn": "2026-09-28",
   "edition": "Kingdom Hearts II Final Mix",
   "method": "Restored room-relative locators from the original project workbook; reviewed against current world/item indices and available walkthroughs. Missing Cavern routes and ambiguous room descriptions have individual source overrides. Source review, not an in-game playtest.",
   "entries": {
@@ -76,21 +76,24 @@
       ]
     },
     "kh2fm.treasure.twilight-town.13": {
-      "instructions": "Between two tracks.",
+      "instructions": "West station wall, between the tracks.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.14": {
-      "instructions": "Lower left corner of the station.",
+      "instructions": "Southwest station corner.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.15": {
-      "instructions": "Top right corner of the station.",
+      "instructions": "Northeast station corner.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.16": {
@@ -112,15 +115,17 @@
       ]
     },
     "kh2fm.treasure.twilight-town.19": {
-      "instructions": "To the right.",
+      "instructions": "Enter from outside the Tower; follow the right wall.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.20": {
-      "instructions": "Under the staircase.",
+      "instructions": "Beneath the Entryway staircase.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.21": {
@@ -130,9 +135,10 @@
       ]
     },
     "kh2fm.treasure.twilight-town.22": {
-      "instructions": "Near the door.",
+      "instructions": "South end of the Wardrobe, beside the door.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.twilight-town.23": {
@@ -610,21 +616,24 @@
       ]
     },
     "kh2fm.treasure.beast-s-castle.16": {
-      "instructions": "Stairs up behind the door.",
+      "instructions": "Behind the opened secret door; climb the eastern stairs.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.beast-s-castle.17": {
-      "instructions": "Stairs up behind the door.",
+      "instructions": "Behind the opened secret door; climb the eastern stairs.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.beast-s-castle.18": {
-      "instructions": "Open the secret door and it will be before the stairs.",
+      "instructions": "Through the secret door, south side before the stairs.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.beast-s-castle.19": {
@@ -1140,15 +1149,17 @@
       ]
     },
     "kh2fm.treasure.100-acre-wood.14": {
-      "instructions": "Crystal room end of left path.",
+      "instructions": "From the main crystal chamber, take the first right branch.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.100-acre-wood.15": {
-      "instructions": "Crystal room end of right path.",
+      "instructions": "From the main crystal chamber, take the first left branch.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.100-acre-wood.16": {
@@ -1278,21 +1289,24 @@
       ]
     },
     "kh2fm.treasure.pride-lands.17": {
-      "instructions": "Around the curved path to the left.",
+      "instructions": "Follow the Wastelands from the Savannah; left after the third bend.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.pride-lands.18": {
-      "instructions": "Around the curved path to the right.",
+      "instructions": "Continue past chest 17; right after the next bend.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.pride-lands.19": {
-      "instructions": "Around the curved path to the left.",
+      "instructions": "Left wall near the Jungle exit.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.pride-lands.20": {
@@ -1597,21 +1611,24 @@
       ]
     },
     "kh2fm.treasure.port-royal.16": {
-      "instructions": "Down the right ramp under the path leading to the Black Pearl.",
+      "instructions": "Descend the eastern ramp; beneath the Black Pearl access path.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.port-royal.17": {
-      "instructions": "Towards the upper left path.",
+      "instructions": "Northwest path, at the wall corner.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.port-royal.18": {
-      "instructions": "To the left.",
+      "instructions": "Northeast of the Black Pearl landing.",
       "sources": [
-        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
       ]
     },
     "kh2fm.treasure.port-royal.19": {
@@ -1837,5 +1854,6 @@
         "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
       ]
     }
-  }
+  },
+  "followup": "17 locators clarified against the GameFAQs chest guide; Spooky Cave 14/15 branch directions corrected. Other workbook directions retain their existing provenance."
 }

@@ -1,0 +1,246 @@
+{
+  "reviewed": "2026-09-28",
+  "scope": "16 Roxas-only chests. Local ordering is a checklist order, not Jiminy treasure numbering.",
+  "entries": [
+    {
+      "id": "kh2fm.prologue.serenity",
+      "name": "Potion · Station of Serenity",
+      "area": "Station of Serenity",
+      "summary": "Day 3: Potion.",
+      "reward": "Potion",
+      "order": 1,
+      "instructions": "Open the chest after the first three Dusks.",
+      "prerequisites": "Roxas’s prologue, day 3.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.calling",
+      "name": "Potion · Station of Calling",
+      "area": "Station of Calling",
+      "summary": "Day 3: Potion.",
+      "reward": "Potion",
+      "order": 2,
+      "instructions": "Climb the first ramp and defeat the Dusks; collect the chest before continuing.",
+      "prerequisites": "Roxas’s prologue, day 3.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.station-southwest",
+      "name": "Potion · Southwest corner",
+      "area": "Central Station",
+      "summary": "Day 5: Potion.",
+      "reward": "Potion",
+      "order": 3,
+      "instructions": "Check the southwest corner of the station.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.station-northeast",
+      "name": "Potion · Northeast corner",
+      "area": "Central Station",
+      "summary": "Day 5: Potion.",
+      "reward": "Potion",
+      "order": 4,
+      "instructions": "Check the northeast corner of the station.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.station-train",
+      "name": "Hi-Potion · Central Station",
+      "area": "Central Station",
+      "summary": "Day 5: Hi-Potion.",
+      "reward": "Hi-Potion",
+      "order": 5,
+      "instructions": "Look west of the train. Return here from Sunset Station on day five.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42793"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.terrace-hill",
+      "name": "Potion · Sunset Hill entrance",
+      "area": "Sunset Terrace",
+      "summary": "Day 5: Potion.",
+      "reward": "Potion",
+      "order": 6,
+      "instructions": "Outside the Sunset Hill entrance.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.terrace-roof-base",
+      "name": "Potion · Below the roof",
+      "area": "Sunset Terrace",
+      "summary": "Day 5: Potion.",
+      "reward": "Potion",
+      "order": 7,
+      "instructions": "Drop from the Ability Ring roof to the chest below.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.terrace-stream",
+      "name": "Hi-Potion · Sunset Terrace",
+      "area": "Sunset Terrace",
+      "summary": "Day 5: Hi-Potion.",
+      "reward": "Hi-Potion",
+      "order": 8,
+      "instructions": "Cross the stream to the northwest corner.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.terrace-roof",
+      "name": "Ability Ring · Sunset Terrace",
+      "area": "Sunset Terrace",
+      "summary": "Day 5: Ability Ring.",
+      "reward": "Ability Ring",
+      "order": 9,
+      "instructions": "Ride the tram, then jump onto the nearby roof.",
+      "prerequisites": "Roxas’s prologue, day 5.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.foyer-west",
+      "name": "Potion · West staircase",
+      "area": "Mansion: Foyer",
+      "summary": "Day 6: Potion.",
+      "reward": "Potion",
+      "order": 10,
+      "instructions": "On the left staircase toward the White Room.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.foyer-east",
+      "name": "Potion · Library landing",
+      "area": "Mansion: Foyer",
+      "summary": "Day 6: Potion.",
+      "reward": "Potion",
+      "order": 11,
+      "instructions": "Upstairs on the way to the Library.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.foyer-window",
+      "name": "Hi-Potion · Mansion: Foyer",
+      "area": "Mansion: Foyer",
+      "summary": "Day 6: Hi-Potion.",
+      "reward": "Hi-Potion",
+      "order": 12,
+      "instructions": "Check beside the ground-floor window.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.dining-potion",
+      "name": "Potion · Mansion: Dining Room",
+      "area": "Mansion: Dining Room",
+      "summary": "Day 6: Potion.",
+      "reward": "Potion",
+      "order": 13,
+      "instructions": "Enter left from the Foyer; collect both chests after clearing the Nobodies.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.dining-bandanna",
+      "name": "Elven Bandanna · Mansion: Dining Room",
+      "area": "Mansion: Dining Room",
+      "summary": "Day 6: Elven Bandanna.",
+      "reward": "Elven Bandanna",
+      "order": 14,
+      "instructions": "The other chest in the Dining Room; equip the armor if useful.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.library",
+      "name": "Hi-Potion · Mansion: Library",
+      "area": "Mansion: Library",
+      "summary": "Day 6: Hi-Potion.",
+      "reward": "Hi-Potion",
+      "order": 15,
+      "instructions": "Open the Library chest before descending toward the Computer Room.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    },
+    {
+      "id": "kh2fm.prologue.basement",
+      "name": "Hi-Potion · Mansion: Basement Corridor",
+      "area": "Mansion: Basement Corridor",
+      "summary": "Day 6: Hi-Potion.",
+      "reward": "Hi-Potion",
+      "order": 16,
+      "instructions": "After Axel, open the chest before the final room.",
+      "prerequisites": "Roxas’s prologue, day 6.",
+      "missability": "Roxas-only chest; collect during the prologue. Sora cannot return to collect it. These chests are outside Jiminy’s numbered treasure list.",
+      "sources": [
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
+      ]
+    }
+  ]
+}
