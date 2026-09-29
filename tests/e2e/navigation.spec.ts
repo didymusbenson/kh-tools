@@ -47,11 +47,11 @@ test("cover resumes a collection type with its selected world", async ({ page })
   const hash = `#/kh1fm/trinities?world=${encodeURIComponent(entry.world)}`;
   await page.goto(`./${hash}`);
   await expect(page.getByRole("combobox", { name: "Filter by world", exact: true })).toHaveValue(entry.world);
-  await expect(page.locator(".save-status")).toHaveText("Progress saved on this device");
-  await page.getByRole("link", { name: "Ars Arcanum game selection" }).click();
+  await expect(page.getByRole("status").filter({ hasText: "Progress saved on this device" })).toHaveText("Progress saved on this device");
+  await page.getByRole("link", { name: "‹ Games", exact: true }).click();
   await expect(page.getByRole("link", { name: "Resume last page", exact: true })).toHaveAttribute("href", hash);
   await page.reload();
   await page.getByRole("link", { name: "Resume last page", exact: true }).click();
   await expect(page.getByRole("combobox", { name: "Filter by world", exact: true })).toHaveValue(entry.world);
-  await expect(page.locator(`#row-${entry.id}`)).toBeVisible();
+  await expect(page.getByRole("link").and(page.locator(`[data-record-id="${entry.id}"]`))).toBeVisible();
 });

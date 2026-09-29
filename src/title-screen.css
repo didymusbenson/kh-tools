@@ -1,0 +1,267 @@
+@font-face {
+  font-family: TitleMenu;
+  src: url('../public/assets/kh1-journal/chakra.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* The original white title screen: stationary choices, moving illustrations. */
+.title-screen {
+  --title-inset: clamp(24px, 4vw, 76px);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  isolation: isolate;
+  background: #fff;
+  color: #34363c;
+}
+
+.title-screen-main {
+  position: relative;
+  isolation: isolate;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: clamp(35px, 6vh, 80px);
+}
+
+.title-screen-heading {
+  position: relative;
+  z-index: 1;
+  width: 58%;
+  min-height: clamp(230px, 34vh, 400px);
+  padding: 0 0 40px calc(var(--title-inset) + 25px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-screen-heading h1 {
+  font: 400 clamp(64px, 7.8vw, 132px)/.87 Georgia, 'Times New Roman', serif;
+  font-variant: small-caps;
+  letter-spacing: -.055em;
+  color: #303239;
+  margin: 0;
+  text-shadow: 0 2px 0 #fff, 0 4px 0 #c6c8ce;
+}
+
+.title-screen-heading h1 > span {
+  display: block;
+  margin-left: .42em;
+  font-size: .74em;
+  letter-spacing: .04em;
+}
+
+.title-screen-heading p {
+  margin: 24px 0 0 5px;
+  font: 500 12px/1.5 TitleMenu, sans-serif;
+  letter-spacing: .23em;
+  text-transform: uppercase;
+  color: #777b84;
+}
+
+.title-screen-art {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  top: 10px;
+  right: 1vw;
+  width: 52%;
+  height: min(85%, 900px);
+  mask-image: linear-gradient(90deg, transparent, #000 18%), linear-gradient(#000 82%, transparent);
+  mask-composite: intersect;
+}
+
+.title-screen .game-artwork {
+  position: absolute;
+  inset: 0 0 auto auto;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: right top;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+  opacity: .52;
+  filter: none;
+  mix-blend-mode: multiply;
+  animation: title-art-enter .48s cubic-bezier(.16, .75, .25, 1) both;
+}
+
+.title-screen-games {
+  position: relative;
+  margin-top: auto;
+  padding: 0 0 0 var(--title-inset);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.title-screen .game-option {
+  isolation: isolate;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  min-height: clamp(48px, 6.1vh, 68px);
+  padding: 5px var(--title-inset) 8px 3px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #96989e;
+  text-align: left;
+  transition: color .16s;
+}
+
+/* The line and pale color band continue across the screen, as in the games. */
+.title-screen .game-option::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 4px 0 4px 35%;
+  width: auto;
+  height: auto;
+  transform: none;
+  background: linear-gradient(90deg, transparent, #cccdb52b 60%, #85b3c43b);
+  transition: opacity .16s;
+  opacity: .55;
+}
+
+.title-screen .game-option::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 3px;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #c9cace, #dedee0 50%, transparent 90%);
+}
+
+.title-screen .game-option.selected {
+  color: #303136;
+  background: transparent;
+}
+
+.title-screen .game-option.selected::before { opacity: 1; }
+.title-screen .game-option.selected::after {
+  height: 4px;
+  background: linear-gradient(90deg, #393a3e, #77787c 40%, #b9bbbf55 75%, transparent);
+  box-shadow: 0 1px 1px #41424722;
+}
+
+.title-screen-cursor {
+  flex: 0 0 auto;
+  width: 31px;
+  height: 31px;
+  background: #cbccce;
+  border: 5px solid transparent;
+  transition: background .16s, border-color .16s, box-shadow .16s;
+}
+
+.selected .title-screen-cursor {
+  background: #fffca0;
+  border-color: #424044;
+  box-shadow: inset 0 0 0 3px #f9c669, inset 0 0 7px 3px #ffad39, 0 0 2px 1px #9b8980;
+}
+
+.title-screen-game-name {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px 17px;
+  font: 600 clamp(19px, 2.2vw, 34px)/1.2 TitleMenu, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .065em;
+}
+
+.title-screen-game-name small {
+  font-size: .48em;
+  letter-spacing: .12em;
+  white-space: nowrap;
+}
+
+.title-screen .game-option:focus-visible {
+  outline: 2px solid #797f8b;
+  outline-offset: 2px;
+}
+
+.title-screen-continue {
+  position: relative;
+  min-height: 64px;
+  padding: 20px var(--title-inset) 12px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  font: 13px/1.6 TitleMenu, sans-serif;
+  color: #72757d;
+}
+
+.title-screen-continue p { margin: 0; }
+.title-screen .cover-cta {
+  margin: 0;
+  padding: 0;
+  min-height: 30px;
+  gap: 12px;
+  font: inherit;
+  color: #444952;
+  border-color: #a7abb3;
+}
+.title-screen .cover-cta:hover { color: #111; }
+
+.title-screen-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 30px;
+  padding: 16px var(--title-inset) 20px;
+  font: 11px/1.5 TitleMenu, sans-serif;
+  color: #81848b;
+  letter-spacing: .03em;
+}
+
+.title-screen-footer > :last-child { font-style: italic; }
+
+@keyframes title-art-enter {
+  from { opacity: 0; transform: translateX(100px); }
+  to { opacity: .52; transform: translateX(0); }
+}
+
+@media (max-width: 650px) {
+  .title-screen { --title-inset: 20px; }
+  .title-screen-main { padding-top: 32px; }
+  .title-screen-heading {
+    min-height: 230px;
+    width: 65%;
+    padding: 0 0 40px var(--title-inset);
+  }
+  .title-screen-heading h1 { font-size: clamp(42px, 10.5vw, 68px); }
+  .title-screen-heading p {
+    max-width: 170px;
+    font-size: 9px;
+    letter-spacing: .15em;
+    margin: 18px 0 0;
+  }
+  .title-screen-art { top: 15px; right: -16px; width: 55%; height: 270px; }
+  .title-screen-games { gap: 7px; }
+  .title-screen .game-option { min-height: 57px; gap: 12px; padding: 6px 12px 9px 2px; }
+  .title-screen-cursor { width: 25px; height: 25px; border-width: 4px; }
+  .title-screen-game-name { display: block; font-size: clamp(15px, 3.85vw, 24px); letter-spacing: .035em; }
+  .title-screen-game-name small { display: block; margin-top: 4px; font-size: 10px; letter-spacing: .1em; }
+  .title-screen-continue { padding-top: 16px; min-height: 54px; }
+  .title-screen-footer { font-size: 10px; padding-top: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .title-screen .game-artwork { animation: none; }
+  .title-screen .game-option,
+  .title-screen .game-option::before,
+  .title-screen-cursor { transition: none; }
+}

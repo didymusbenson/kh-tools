@@ -153,10 +153,10 @@ test("the cover resumes the last saved journal page", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "Synthesis" }),
   ).toBeVisible();
-  await expect(page.locator(".save-status")).toContainText(
+  await expect(page.getByRole("status").filter({ hasText: "Progress saved on this device" })).toContainText(
     "Progress saved on this device",
   );
-  await page.getByRole("link", { name: "Ars Arcanum game selection" }).click();
+  await page.getByRole("link", { name: "‹ Games", exact: true }).click();
   await expect(
     page.getByRole("link", { name: "Resume last page" }),
   ).toHaveAttribute("href", "#/kh1fm/synthesis/recipes");

@@ -14,6 +14,7 @@ import { compareMaterials, materialFamily, materialDropLines, materialDropLocati
 import { cataloguePages, resolveEntryHref } from "./domain/entryNavigation";
 import "./styles.css";
 import "./ui-polish.css";
+import "./title-screen.css";
 import { BUILD_REVISION, getInstallationState, subscribeInstallation, checkForAppUpdate, applyAppUpdate } from "./pwa";
 
 const base = import.meta.env.BASE_URL;
@@ -329,7 +330,7 @@ function Cover({ data }: { data: GameData | null }) {
     /* Storage optional for selection. */
   }
   return (
-    <div className="cover">
+    <div className="title-screen">
       <UpdateNotice />
       <a
         className="skip-link"
@@ -341,81 +342,12 @@ function Cover({ data }: { data: GameData | null }) {
       >
         Skip to game selection
       </a>
-      <div className="cover-grain" aria-hidden="true" />
-      <header className="cover-masthead">
-        <a className="brand" href="#/">
-          <span className="brand-seal">
-            <Icon name="spark" size={25} />
-          </span>
-          <span>
-            ARS ARCANUM<small>A KINGDOM HEARTS COMPANION</small>
-          </span>
-        </a>
-        <span className="cover-volume">
-          THE JOURNALS <span>✦</span>
-        </span>
-      </header>
-      <main className="cover-main">
-        <section className="cover-copy">
-          <div className="eyebrow gold">Every world. Every discovery.</div>
-          <h1>
-            A little guidance.
-            <br />
-            <em>A grand adventure.</em>
-          </h1>
-          <p className="cover-intro">
-            Your worlds, discoveries, and unfinished business.
-            <br className="desktop-break" /> All in one well-kept journal.
-          </p>
-          <nav
-            className="game-list"
-            id="game-list"
-            tabIndex={-1}
-            aria-label="Choose a game"
-          >
-            {games.map((g, index) => (
-              <button
-                key={g.id}
-                className={`game-option ${selected === g.id ? "selected" : ""}`}
-                onPointerEnter={() => setSelected(g.id)}
-                onFocus={() => setSelected(g.id)}
-                onClick={() => {
-                  setSelected(g.id);
-                  if (g.ready) routeTo(journalStartRoute(g.id));
-                }}
-                aria-label={`${g.name} ${g.edition}${g.ready ? ", open journal" : ", journal not yet available"}`}
-              >
-                <span className="game-number">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <span className="game-title">
-                  {g.name}
-                  <small>{g.edition}</small>
-                </span>
-                {g.ready ? (
-                  <Icon name="arrow" />
-                ) : (
-                  <span className="soon">Coming later</span>
-                )}
-              </button>
-            ))}
-          </nav>
-          <p className="cover-note">
-            {previous ? "Choose a journal to continue." : "Choose a game."}
-          </p>
-          {previous && previous!=="kh1fm" ? <ResumeOtherGame id={previous}/> : data && <ResumeGame data={data} />}
-        </section>
-        <section
-          className="artwork-stage"
-          aria-label={`${game.name} artwork preview`}
-        >
-          <div className="artwork-orbit orbit-one" />
-          <div className="artwork-orbit orbit-two" />
-          <span className="artwork-star star-a">✦</span>
-          <span className="artwork-star star-b">✧</span>
-          <span className="artwork-roman" aria-hidden="true">
-            {game.number}
-          </span>
+      <main className="title-screen-main">
+        <header className="title-screen-heading">
+          <h1 aria-label="Ars Arcanum"><span>Ars</span> Arcanum</h1>
+          <p>A Kingdom Hearts companion</p>
+        </header>
+        <div className="title-screen-art" aria-hidden="true">
           {game.art && (
             <img
               key={game.art}
@@ -424,26 +356,53 @@ function Cover({ data }: { data: GameData | null }) {
               alt=""
             />
           )}
-          <div className="artwork-caption">
-            <h2>{game.name}</h2>
-            <p>{game.edition}</p>
-            {game.ready ? (
-              <a href={`#/${journalStartRoute(game.id)}`} className="cover-cta">
-                Open the journal <Icon name="arrow" size={18} />
-              </a>
-            ) : (
-              <p className="unavailable-note">
-                This journal is not yet implemented.
-              </p>
-            )}
-          </div>
-        </section>
+        </div>
+        <nav
+          className="title-screen-games"
+          id="game-list"
+          tabIndex={-1}
+          aria-label="Choose a game"
+          onKeyDown={(event) => {
+            const buttons = Array.from(event.currentTarget.querySelectorAll("button"));
+            const index = buttons.indexOf(document.activeElement as HTMLButtonElement);
+            let next: number;
+            if (event.key === "ArrowDown") next = (index + 1) % buttons.length;
+            else if (event.key === "ArrowUp") next = index <= 0 ? buttons.length - 1 : index - 1;
+            else if (event.key === "Home") next = 0;
+            else if (event.key === "End") next = buttons.length - 1;
+            else return;
+            event.preventDefault();
+            buttons[next]?.focus();
+          }}
+        >
+          {games.map((g) => (
+            <button
+              key={g.id}
+              type="button"
+              className={`game-option ${selected === g.id ? "selected" : ""}`}
+              onPointerEnter={() => setSelected(g.id)}
+              onFocus={() => setSelected(g.id)}
+              onClick={() => {
+                setSelected(g.id);
+                if (g.ready) routeTo(journalStartRoute(g.id));
+              }}
+              aria-label={`${g.name} ${g.edition}${g.ready ? ", open journal" : ", journal not yet available"}`}
+            >
+              <span className="title-screen-cursor" aria-hidden="true" />
+              <span className="title-screen-game-name">
+                {g.name}<small>{g.edition}</small>
+              </span>
+            </button>
+          ))}
+        </nav>
+        <div className="title-screen-continue">
+          <p>{previous ? "Choose a journal to continue." : "Choose a game."}</p>
+          {previous && previous!=="kh1fm" ? <ResumeOtherGame id={previous}/> : data && <ResumeGame data={data} />}
+        </div>
       </main>
-      <footer className="cover-footer">
+      <footer className="title-screen-footer">
         <span>An unofficial companion, made for the journey.</span>
-        <span>
-          May your heart be your guiding key. <span aria-hidden="true">✧</span>
-        </span>
+        <span>May your heart be your guiding key.</span>
       </footer>
     </div>
   );
