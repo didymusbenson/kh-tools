@@ -103,14 +103,17 @@
 }
 
 .title-screen .game-option {
+  --cursor-size: 31px;
+  --row-start: 3px;
+  --row-bottom: 8px;
   isolation: isolate;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 18px;
   width: 100%;
   min-height: clamp(48px, 6.1vh, 68px);
-  padding: 5px var(--title-inset) 8px 3px;
+  padding: 5px var(--title-inset) var(--row-bottom) var(--row-start);
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -119,7 +122,7 @@
   transition: color .16s;
 }
 
-/* The line and pale color band continue across the screen, as in the games. */
+/* Each line meets the cursor’s bottom-right corner, including wrapped phone labels. */
 .title-screen .game-option::before {
   content: '';
   position: absolute;
@@ -136,8 +139,8 @@
 .title-screen .game-option::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 3px;
+  bottom: var(--row-bottom);
+  left: calc(var(--row-start) + var(--cursor-size));
   right: 0;
   height: 3px;
   background: linear-gradient(90deg, #c9cace, #dedee0 50%, transparent 90%);
@@ -157,8 +160,8 @@
 
 .title-screen-cursor {
   flex: 0 0 auto;
-  width: 31px;
-  height: 31px;
+  width: var(--cursor-size);
+  height: var(--cursor-size);
   background: #cbccce;
   border: 5px solid transparent;
   transition: background .16s, border-color .16s, box-shadow .16s;
@@ -171,6 +174,7 @@
 }
 
 .title-screen-game-name {
+  padding-bottom: 4px;
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
@@ -251,8 +255,8 @@
   }
   .title-screen-art { top: 15px; right: -16px; width: 55%; height: 270px; }
   .title-screen-games { gap: 7px; }
-  .title-screen .game-option { min-height: 57px; gap: 12px; padding: 6px 12px 9px 2px; }
-  .title-screen-cursor { width: 25px; height: 25px; border-width: 4px; }
+  .title-screen .game-option { --cursor-size: 25px; --row-start: 2px; --row-bottom: 9px; min-height: 57px; gap: 12px; padding: 6px 12px var(--row-bottom) var(--row-start); }
+  .title-screen-cursor { border-width: 4px; }
   .title-screen-game-name { display: block; font-size: clamp(15px, 3.85vw, 24px); letter-spacing: .035em; }
   .title-screen-game-name small { display: block; margin-top: 4px; font-size: 10px; letter-spacing: .1em; }
   .title-screen-continue { padding-top: 16px; min-height: 54px; }
