@@ -4,6 +4,20 @@
 
 User request: research Chain of Memories' own menu feel at the level of KH1, KH2 and BBS, using the **HD 1.5 ReMIX Re:Chain of Memories** presentation. [Visual evidence and 24 references](references/recom/README.md) · [Capture manifest](references/recom/source-manifest.json) · [Content specification](../games/kingdom-hearts-re-chain-of-memories.md) · [Readiness](../readiness/kingdom-hearts-re-chain-of-memories.md).
 
+## Current revision: shared display contracts
+
+The user's subsequent cleanup request makes the accepted KH1/KH2 display rules binding for Re:CoM as well. Earlier proposals below that allow scrolling are superseded by this revision. Their game-specific geometry is still reference evidence, not a request to add Story or Characters tracking.
+
+- The outside frame and book bounds stay fixed across cover, catalogue, reading, system tools and settings. Reserve header, help, utilities and saving-status space.
+- Reuse `useIndexCapacity` for compact indices; its optional grid mode measures actual columns and row gaps. Never use a fixed 24-card or eight-entry page count. Taller screens show more entries without stretching rows.
+- Reuse `JournalNotePages` for numbered note continuations, mini-game records and settings. Entry navigation and continuation navigation are separately labeled. Neither the book nor the document scrolls vertically at the tested desktop/phone sizes.
+- Source lists and research-status notes do not belong in journal reading pages. Keep provenance and extraction TODOs in the research pack; show useful acquisition guidance and gameplay-relevant qualifications. The collection grid uses the card image as an accessible collected toggle, with a gold check seal when collected; the name opens details. Uncollected cards have no persistent empty box or badge. Preserve a minimum 44-pixel toggle target and keyboard focus.
+- Keep selection gutters and stable row dimensions. Preserve filters, originating card, page and keyboard focus on return. A return anchor keeps the card on the correct page after the available capacity changes.
+- Keep Re:CoM's outside-left binding and single cream leaf, Sora's saturated green/olive/purple cover, Riku's charcoal treatment, grey collection plaques, red hierarchy tabs and green footer.
+- Exact native card art/mosaic is optional, per the user. Readable names and existing symbolic card faces are the deliberate fallback. No collector rank or native completion percentage is fabricated. The suggested [TrueTrophies card page](https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories/walkthrough/5) returned access errors during this pass; no assets from it were verified or added.
+
+See the [implementation revision](../implementation/recom-hd-journal.md#journal-cleanup-revision) for validation and screenshots.
+
 ## 1. What defines this game's interface
 
 Re:CoM has three related menu families worth preserving: the blue player/system menu, Sora's green Journal, and Riku's charcoal D-Report. The player menu organizes card tools and statistics around a dimmed gameplay scene. The reports use a ring-bound cover at the root and a single broad cream page for interior content. Cards retain their distinctive crown-shaped silhouettes, family colors and large selected previews.
@@ -98,7 +112,7 @@ Do not imitate native statistics by adding unsolicited gameplay-time, Moogle-poi
 
 The game reference is a landscape stage. A scaled-down 16:9 screenshot would make the card mosaic, menu rows and prose unusable on a phone. Preserve color, hierarchy, card shape and binding while changing layout deliberately:
 
-- **Phone:** single readable page; compact left binding; clear campaign/category label; tap-sized card tiles in a paged or scrollable grid; selected card opens a detail page with card preview above the text. Keep back navigation and progress visible. Do not force tiny native rows or require horizontal scrolling to read directions.
+- **Phone:** single readable page; compact left binding; clear campaign/category label; tap-sized card tiles in a measured, paged grid; selected card opens a detail page with card preview above the text. Keep back navigation and progress visible. Do not force tiny native rows or require horizontal scrolling to read directions.
 - **Tablet:** wider index and detail regions where readable; collection overview may coexist with selected-card detail. Preserve enough room for card names, quantities and campaign labels.
 - **Desktop:** native-inspired stage proportions, left-card/right-detail reading, clear top tabs and bottom help. Extra width can support acquisition context, but must not stretch short rows across the viewport.
 

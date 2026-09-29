@@ -31,15 +31,15 @@ Star Seeker and Bond of Flame remain additional bonus attack cards. Seven extra 
 
 | Field | Aggregate source | More specific source | Treatment |
 |---|---:|---:|---|
-| Soldier CP | 15 | 20 | Unresolved |
-| Powerwild CP | 30 | 40 | Unresolved |
-| Wyvern CP | 20 | 25 | Unresolved |
-| Defender CP | 30 | 25 | Unresolved |
-| Tornado Step CP | 30 | 25 | Unresolved |
-| Crescendo CP | 30 | 20 | Unresolved |
-| Neoshadow CP | 30 | 25 | Unresolved |
+| Soldier CP | 15 | 20 | Use aggregate; two independent remake guides agree |
+| Powerwild CP | 30 | 40 | Use aggregate; two independent remake guides agree |
+| Wyvern CP | 20 | 25 | Use aggregate; two independent remake guides agree |
+| Defender CP | 30 | 25 | Use aggregate; two independent remake guides agree |
+| Tornado Step CP | 30 | 25 | Use aggregate; two independent remake guides agree |
+| Crescendo CP | 30 | 20 | Use aggregate; two independent remake guides agree |
+| Neoshadow CP | 30 | 25 | Use aggregate; two independent remake guides agree |
 
-The aggregate is [Enemy Card](https://www.khwiki.com/Enemy_Card). The competing values come from the explicitly Re:CoM infobox on each named enemy's page. [Conflict records](source-conflicts.json) link both. This may be edition contamination, but that explanation is an inference. No cost is selected until independent evidence resolves it; `null` must not become zero in a calculator. Some infobox sale values also appear inconsistent with their CP values, reinforcing the need for review.
+The aggregate is [Enemy Card](https://www.khwiki.com/Enemy_Card). The competing values come from the explicitly Re:CoM infobox on each named enemy's page. [Conflict records](source-conflicts.json) link both. This may be edition contamination, but that explanation is an inference. The two independent remake guides now resolve these costs in favor of the aggregate; the contrary values remain recorded. See the [closure audit](data-gap-audit-2026-09-28.md). Some infobox sale values also appear inconsistent with their CP values, reinforcing the need for review.
 
 Other corrections and boundaries:
 

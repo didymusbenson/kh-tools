@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "23 HD Sora attack identities. Excludes four replaced PS2 bonus identities, Riku Soul Eater, minigame-only Keyblade and enemy attacks. Multipliers are source candidates; not CP costs or numeric card values.",
+  "status": "Source-backed journal data; not independently gameplay-verified",
+  "notes": "All 23 HD attack cards. CP matrices cross-checked with the remake guides; HD replacements use their independently documented Required CP B rank (20–38).",
   "records": [
     {
       "id": "recom-card-attack-kingdom-key",
@@ -14,12 +14,58 @@
       "finish": 1.5,
       "element": "Physical",
       "acquisition": "Starting deck.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 10,
+        "2": 11,
+        "3": 12,
+        "4": 13,
+        "5": 14,
+        "6": 15,
+        "7": 16,
+        "8": 17,
+        "9": 18,
+        "0": 19
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Kingdom_Key",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 10,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 27.0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 6.0,
+          "Agrabah": 9.0,
+          "Halloween Town": 8.6,
+          "Monstro": 9.8,
+          "Atlantica": 6.2,
+          "Neverland": 4.2,
+          "Hollow Bastion": 1.2,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 10.8,
+          "Castle Oblivion": 4.8
+        },
+        "Bounty": {
+          "Traverse Town": 17.5
+        }
+      }
     },
     {
       "id": "recom-card-attack-three-wishes",
@@ -30,12 +76,36 @@
       "finish": 3.0,
       "element": "Physical",
       "acquisition": "Enter Agrabah to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Three_Wishes",
+        "https://www.khwiki.com/Game:Agrabah"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Agrabah": 18.0
+        },
+        "Bounty": {
+          "Agrabah": 17.5
+        }
+      }
     },
     {
       "id": "recom-card-attack-crabclaw",
@@ -46,12 +116,36 @@
       "finish": 3.5,
       "element": "Physical",
       "acquisition": "Enter Atlantica to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Crabclaw",
+        "https://www.khwiki.com/Game:Atlantica"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Atlantica": 17.1
+        },
+        "Bounty": {
+          "Atlantica": 12.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-pumpkinhead",
@@ -62,12 +156,36 @@
       "finish": 1.5,
       "element": "Physical",
       "acquisition": "Enter Halloween Town to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Pumpkinhead",
+        "https://www.khwiki.com/Game:Halloween_Town"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Halloween Town": 21.5
+        },
+        "Bounty": {
+          "Halloween Town": 24.5
+        }
+      }
     },
     {
       "id": "recom-card-attack-fairy-harp",
@@ -78,12 +196,36 @@
       "finish": 2.0,
       "element": "Physical",
       "acquisition": "Enter Neverland to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Fairy_Harp",
+        "https://www.khwiki.com/Game:Neverland"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Neverland": 8.4
+        },
+        "Bounty": {
+          "Neverland": 7.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-wishing-star",
@@ -94,12 +236,38 @@
       "finish": 1.5,
       "element": "Physical",
       "acquisition": "Enter Monstro to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Wishing_Star",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Monstro": 19.5,
+          "Castle Oblivion": 12.0
+        },
+        "Bounty": {
+          "Monstro": 11.3
+        }
+      }
     },
     {
       "id": "recom-card-attack-spellbinder",
@@ -110,12 +278,48 @@
       "finish": 1.5,
       "element": "Lightning",
       "acquisition": "100 Acre Wood: chest at Tigger’s Playground; return with Glide or Super Glide.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Spellbinder",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Atlantica": 2.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 14.0,
+          "Castle Oblivion": 9.0
+        },
+        "Bounty": {
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-metal-chocobo",
@@ -126,12 +330,47 @@
       "finish": 3.5,
       "element": "Neutral",
       "acquisition": "Olympus Coliseum: base Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Metal_Chocobo",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Olympus Coliseum": 15.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 11.0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Olympus Coliseum": 10.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-olympia",
@@ -142,12 +381,46 @@
       "finish": 3.0,
       "element": "Physical",
       "acquisition": "Enter Olympus Coliseum to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Olympia",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Olympus Coliseum": 13.2,
+          "Atlantica": 3.1,
+          "Neverland": 1.4,
+          "Hollow Bastion": 0.6,
+          "Twilight Town": 2.0,
+          "Castle Oblivion": 2.4
+        },
+        "Bounty": {
+          "Olympus Coliseum": 21.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-lionheart",
@@ -158,12 +431,51 @@
       "finish": 3.0,
       "element": "Fire",
       "acquisition": "Traverse Town: base Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Lionheart",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 29.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 15.0,
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-lady-luck",
@@ -174,12 +486,36 @@
       "finish": 1.0,
       "element": "Physical",
       "acquisition": "Enter Wonderland to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Lady_Luck",
+        "https://www.khwiki.com/Game:Wonderland"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Wonderland": 22.0
+        },
+        "Bounty": {
+          "Wonderland": 21.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-divine-rose",
@@ -190,12 +526,36 @@
       "finish": 2.0,
       "element": "Physical",
       "acquisition": "Enter Hollow Bastion to unlock random card sources; opening a world does not guarantee a copy.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Divine_Rose",
+        "https://www.khwiki.com/Game:Hollow_Bastion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Hollow Bastion": 4.2
+        },
+        "Bounty": {
+          "Hollow Bastion": 8.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-oathkeeper",
@@ -206,12 +566,36 @@
       "finish": 3.5,
       "element": "Physical",
       "acquisition": "Destiny Islands: Naminé reward following Darkside.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Oathkeeper",
+        "https://www.khwiki.com/Game:Destiny_Islands"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 25,
+      "randomSources": {
+        "Field drop": {
+          "Destiny Islands": 10.0
+        },
+        "Bounty": {
+          "Destiny Islands": 20.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-oblivion",
@@ -222,12 +606,36 @@
       "finish": 1.0,
       "element": "Neutral",
       "acquisition": "Naminé reward following the final Larxene encounter.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Oblivion",
+        "https://www.khwiki.com/Game:Destiny_Islands"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 25,
+      "randomSources": {
+        "Field drop": {
+          "Destiny Islands": 10.0
+        },
+        "Bounty": {
+          "Destiny Islands": 20.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-ultima-weapon",
@@ -238,12 +646,69 @@
       "finish": 4.0,
       "element": "Physical",
       "acquisition": "Castle Oblivion: Bounty after first Marluxia battle and a completed Reverse/Rebirth save.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 30,
+        "2": 33,
+        "3": 36,
+        "4": 39,
+        "5": 42,
+        "6": 45,
+        "7": 48,
+        "8": 51,
+        "9": 54,
+        "0": 57
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Ultima_Weapon",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 30,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-diamond-dust",
@@ -253,13 +718,37 @@
       "thrust": 3.0,
       "finish": 3.0,
       "element": "Ice",
-      "acquisition": "Random card sources after first Marluxia battle; exact pool by world remains to reconcile.",
-      "cpByValue": null,
+      "acquisition": "After defeating Marluxia for the first time, look for this card in random drops, treasure, or Moogle Shop packs.",
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Diamond_Dust",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 25,
+      "randomSources": {
+        "Field drop": {
+          "Castle Oblivion": 10.0
+        },
+        "Bounty": {
+          "Castle Oblivion": 10.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-one-winged-angel",
@@ -269,13 +758,37 @@
       "thrust": 1.5,
       "finish": 6.0,
       "element": "Fire",
-      "acquisition": "Random card sources after first Marluxia battle; exact pool by world remains to reconcile.",
-      "cpByValue": null,
+      "acquisition": "After defeating Marluxia for the first time, look for this card in random drops, treasure, or Moogle Shop packs.",
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/One-Winged_Angel",
+        "https://www.khwiki.com/Game:Twilight_Town"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 25,
+      "randomSources": {
+        "Field drop": {
+          "Twilight Town": 15.0
+        },
+        "Bounty": {
+          "Twilight Town": 15.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-star-seeker",
@@ -286,12 +799,66 @@
       "finish": 3.5,
       "element": "Physical",
       "acquisition": "Castle Oblivion: Days-unlocked Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Star_Seeker",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 15,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-bond-of-flame",
@@ -302,12 +869,66 @@
       "finish": 3.0,
       "element": "Fire",
       "acquisition": "Halloween Town: Days-unlocked Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Bond_of_Flame",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 25,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Neverland": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-total-eclipse",
@@ -318,12 +939,66 @@
       "finish": 3.5,
       "element": "Neutral",
       "acquisition": "Olympus Coliseum: Days-unlocked Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Total_Eclipse",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-midnight-roar",
@@ -334,12 +1009,67 @@
       "finish": 1.0,
       "element": "Physical",
       "acquisition": "Neverland: Days-unlocked Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Midnight_Roar",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-maverick-flare",
@@ -350,12 +1080,67 @@
       "finish": 3.5,
       "element": "Physical",
       "acquisition": "Traverse Town: Days-unlocked Bounty.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Maverick_Flare",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Monstro": 5.0,
+          "Atlantica": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     },
     {
       "id": "recom-card-attack-two-become-one",
@@ -366,12 +1151,67 @@
       "finish": 3.5,
       "element": "Physical",
       "acquisition": "Destiny Islands: Days-unlocked Room of Rewards chest.",
-      "cpByValue": null,
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
       "sources": [
         "https://www.khwiki.com/Attack_Card",
-        "https://www.khwiki.com/World_Cards"
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Two_Become_One",
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Game:Wonderland",
+        "https://www.khwiki.com/Game:Olympus_Coliseum",
+        "https://www.khwiki.com/Game:Agrabah",
+        "https://www.khwiki.com/Game:Halloween_Town",
+        "https://www.khwiki.com/Game:Monstro",
+        "https://www.khwiki.com/Game:Atlantica",
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.khwiki.com/Game:Hollow_Bastion",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://www.khwiki.com/Game:Destiny_Islands",
+        "https://www.khwiki.com/Game:Castle_Oblivion"
       ],
-      "verification": "single-community-family; CP/value matrix not extracted"
+      "verification": "CP matrix reconciled against two Re:CoM guides; HD identity and CP rank checked separately",
+      "premiumCp": 20,
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 3.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 3.0,
+          "Agrabah": 3.0,
+          "Halloween Town": 3.0,
+          "Monstro": 3.0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 3.0
+        },
+        "Bounty": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Agrabah": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      }
     }
   ]
 }

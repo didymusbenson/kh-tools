@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "name": "models/station.glb",
+      "bytes": 432604,
+      "gzipBytes": 295015
+    },
+    {
+      "name": "models/terra.glb",
+      "bytes": 268104,
+      "gzipBytes": 169498
+    },
+    {
+      "name": "models/ventus.glb",
+      "bytes": 278840,
+      "gzipBytes": 176754
+    },
+    {
+      "name": "models/aqua.glb",
+      "bytes": 293564,
+      "gzipBytes": 182190
+    },
+    {
+      "name": "scene.js",
+      "bytes": 570358,
+      "gzipBytes": 145423
+    },
+    {
+      "name": "shell.js",
+      "bytes": 2683,
+      "gzipBytes": 1129
+    },
+    {
+      "name": "style.css",
+      "bytes": 3574,
+      "gzipBytes": 1477
+    },
+    {
+      "name": "index.html",
+      "bytes": 2285,
+      "gzipBytes": 1183
+    }
+  ],
+  "totalBytes": 1852012,
+  "totalGzipBytes": 972669
+}

@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "41 acquisition records: 12 base Room of Rewards chests, 12 Days bonus chests, 17 Bounties. Not all world acquisitions: story rewards, random-pool unlocks and 100 Acre Wood are recorded separately. Bounty ordering and regeneration need further audit.",
+  "status": "Source-backed journal data; not independently gameplay-verified",
+  "notes": "41 acquisition records: 12 base Room of Rewards chests, 12 Days bonus chests and 17 Bounties. Bounty order is among eligible unique rewards; story rewards and random pools are separate.",
   "records": [
     {
       "id": "recom-sora-traverse-town-room-of-rewards-base-lionheart",
@@ -11,11 +11,16 @@
       "world": "Traverse Town",
       "method": "room-of-rewards-base",
       "reward": "Lionheart",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-traverse-town-room-of-rewards-days-saix",
@@ -23,11 +28,16 @@
       "world": "Traverse Town",
       "method": "room-of-rewards-days",
       "reward": "Saïx",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-traverse-town-bounty-maverick-flare",
@@ -35,11 +45,17 @@
       "world": "Traverse Town",
       "method": "bounty",
       "reward": "Maverick Flare",
-      "prerequisite": "days",
-      "preciseDoorCost": null,
+      "prerequisite": "Complete the Days movie, then read its unlocked journal entries.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-wonderland-room-of-rewards-base-synchro",
@@ -47,11 +63,16 @@
       "world": "Wonderland",
       "method": "room-of-rewards-base",
       "reward": "Synchro",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-wonderland-room-of-rewards-days-xemnas",
@@ -59,11 +80,16 @@
       "world": "Wonderland",
       "method": "room-of-rewards-days",
       "reward": "Xemnas",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-wonderland-bounty-stop",
@@ -71,11 +97,17 @@
       "world": "Wonderland",
       "method": "bounty",
       "reward": "Stop",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-olympus-coliseum-room-of-rewards-base-metal-chocobo",
@@ -83,11 +115,16 @@
       "world": "Olympus Coliseum",
       "method": "room-of-rewards-base",
       "reward": "Metal Chocobo",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-olympus-coliseum-room-of-rewards-days-total-eclipse",
@@ -95,11 +132,16 @@
       "world": "Olympus Coliseum",
       "method": "room-of-rewards-days",
       "reward": "Total Eclipse",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-olympus-coliseum-bounty-blizzard-raid",
@@ -107,11 +149,17 @@
       "world": "Olympus Coliseum",
       "method": "bounty",
       "reward": "Blizzard Raid",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-agrabah-room-of-rewards-base-warp",
@@ -119,11 +167,16 @@
       "world": "Agrabah",
       "method": "room-of-rewards-base",
       "reward": "Warp",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-agrabah-room-of-rewards-days-luxord",
@@ -131,11 +184,16 @@
       "world": "Agrabah",
       "method": "room-of-rewards-days",
       "reward": "Luxord",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-agrabah-bounty-gravity",
@@ -143,11 +201,17 @@
       "world": "Agrabah",
       "method": "bounty",
       "reward": "Gravity",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-halloween-town-room-of-rewards-base-bind",
@@ -155,11 +219,16 @@
       "world": "Halloween Town",
       "method": "room-of-rewards-base",
       "reward": "Bind",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-halloween-town-room-of-rewards-days-bond-of-flame",
@@ -167,11 +236,16 @@
       "world": "Halloween Town",
       "method": "room-of-rewards-days",
       "reward": "Bond of Flame",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-halloween-town-bounty-gifted-miracle",
@@ -179,11 +253,17 @@
       "world": "Halloween Town",
       "method": "bounty",
       "reward": "Gifted Miracle",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-monstro-room-of-rewards-base-aqua-splash",
@@ -191,11 +271,16 @@
       "world": "Monstro",
       "method": "room-of-rewards-base",
       "reward": "Aqua Splash",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-monstro-room-of-rewards-days-xaldin",
@@ -203,11 +288,16 @@
       "world": "Monstro",
       "method": "room-of-rewards-days",
       "reward": "Xaldin",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-monstro-bounty-fire-raid",
@@ -215,11 +305,17 @@
       "world": "Monstro",
       "method": "bounty",
       "reward": "Fire Raid",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-atlantica-room-of-rewards-base-quake",
@@ -227,11 +323,16 @@
       "world": "Atlantica",
       "method": "room-of-rewards-base",
       "reward": "Quake",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-atlantica-room-of-rewards-days-demyx",
@@ -239,11 +340,16 @@
       "world": "Atlantica",
       "method": "room-of-rewards-days",
       "reward": "Demyx",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-atlantica-bounty-homing-blizzara",
@@ -251,11 +357,17 @@
       "world": "Atlantica",
       "method": "bounty",
       "reward": "Homing Blizzara",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 2
     },
     {
       "id": "recom-sora-atlantica-bounty-shock-impact",
@@ -263,11 +375,17 @@
       "world": "Atlantica",
       "method": "bounty",
       "reward": "Shock Impact",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-neverland-room-of-rewards-base-thunder-raid",
@@ -275,11 +393,16 @@
       "world": "Neverland",
       "method": "room-of-rewards-base",
       "reward": "Thunder Raid",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-neverland-room-of-rewards-days-midnight-roar",
@@ -287,11 +410,16 @@
       "world": "Neverland",
       "method": "room-of-rewards-days",
       "reward": "Midnight Roar",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-neverland-bounty-teleport",
@@ -299,11 +427,17 @@
       "world": "Neverland",
       "method": "bounty",
       "reward": "Teleport",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-hollow-bastion-room-of-rewards-base-mushu",
@@ -311,11 +445,16 @@
       "world": "Hollow Bastion",
       "method": "room-of-rewards-base",
       "reward": "Mushu",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-hollow-bastion-room-of-rewards-days-xigbar",
@@ -323,11 +462,16 @@
       "world": "Hollow Bastion",
       "method": "room-of-rewards-days",
       "reward": "Xigbar",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-hollow-bastion-bounty-reflect-raid",
@@ -335,11 +479,17 @@
       "world": "Hollow Bastion",
       "method": "bounty",
       "reward": "Reflect Raid",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-twilight-town-room-of-rewards-base-stardust-blitz",
@@ -347,11 +497,16 @@
       "world": "Twilight Town",
       "method": "room-of-rewards-base",
       "reward": "Stardust Blitz",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-twilight-town-room-of-rewards-days-roxas",
@@ -359,11 +514,16 @@
       "world": "Twilight Town",
       "method": "room-of-rewards-days",
       "reward": "Roxas",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-twilight-town-bounty-warpinator",
@@ -371,11 +531,17 @@
       "world": "Twilight Town",
       "method": "bounty",
       "reward": "Warpinator",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-twilight-town-bounty-ansem",
@@ -383,11 +549,17 @@
       "world": "Twilight Town",
       "method": "bounty",
       "reward": "Ansem",
-      "prerequisite": "reverse-rebirth-clear-and-first-marluxia",
-      "preciseDoorCost": null,
+      "prerequisite": "Clear Reverse/Rebirth and keep its clear save. In Sora’s story, defeat Marluxia for the first time.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 2
     },
     {
       "id": "recom-sora-destiny-islands-room-of-rewards-base-megalixir",
@@ -395,11 +567,16 @@
       "world": "Destiny Islands",
       "method": "room-of-rewards-base",
       "reward": "Megalixir",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-destiny-islands-room-of-rewards-days-two-become-one",
@@ -407,11 +584,16 @@
       "world": "Destiny Islands",
       "method": "room-of-rewards-days",
       "reward": "Two Become One",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-destiny-islands-bounty-judgment",
@@ -419,11 +601,17 @@
       "world": "Destiny Islands",
       "method": "bounty",
       "reward": "Judgment",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-destiny-islands-bounty-zexion",
@@ -431,11 +619,17 @@
       "world": "Destiny Islands",
       "method": "bounty",
       "reward": "Zexion",
-      "prerequisite": "reverse-rebirth-clear-and-first-marluxia",
-      "preciseDoorCost": null,
+      "prerequisite": "Clear Reverse/Rebirth and keep its clear save. In Sora’s story, defeat Marluxia for the first time.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 2
     },
     {
       "id": "recom-sora-castle-oblivion-room-of-rewards-base-super-glide",
@@ -443,11 +637,16 @@
       "world": "Castle Oblivion",
       "method": "room-of-rewards-base",
       "reward": "Super Glide",
-      "prerequisite": "Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-castle-oblivion-room-of-rewards-days-star-seeker",
@@ -455,11 +654,16 @@
       "world": "Castle Oblivion",
       "method": "room-of-rewards-days",
       "reward": "Star Seeker",
-      "prerequisite": "Days completion flag; Key to Rewards and world door requirements",
-      "preciseDoorCost": null,
+      "prerequisite": "Key to Rewards; complete the Days movie and read its unlocked journal entries for the second chest.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "floor-rewards",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
     },
     {
       "id": "recom-sora-castle-oblivion-bounty-raging-storm",
@@ -467,11 +671,17 @@
       "world": "Castle Oblivion",
       "method": "bounty",
       "reward": "Raging Storm",
-      "prerequisite": "base",
-      "preciseDoorCost": null,
+      "prerequisite": "Create a Calm Bounty, Guarded Trove or False Bounty room.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 1
     },
     {
       "id": "recom-sora-castle-oblivion-bounty-ultima-weapon",
@@ -479,11 +689,17 @@
       "world": "Castle Oblivion",
       "method": "bounty",
       "reward": "Ultima Weapon",
-      "prerequisite": "reverse-rebirth-clear-and-first-marluxia",
-      "preciseDoorCost": null,
+      "prerequisite": "Clear Reverse/Rebirth and keep its clear save. In Sora’s story, defeat Marluxia for the first time.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 2
     },
     {
       "id": "recom-sora-castle-oblivion-bounty-lexaeus",
@@ -491,11 +707,17 @@
       "world": "Castle Oblivion",
       "method": "bounty",
       "reward": "Lexaeus",
-      "prerequisite": "reverse-rebirth-clear-and-first-marluxia",
-      "preciseDoorCost": null,
+      "prerequisite": "Clear Reverse/Rebirth and keep its clear save. In Sora’s story, defeat Marluxia for the first time.",
       "source": "https://www.khwiki.com/World_Cards",
       "supportingSource": "https://www.khwiki.com/Map_Card",
-      "verification": "HD columns and footnotes selected; exact door costs pending"
+      "verification": "HD reward identity checked; door predicates resolved by floor",
+      "doorRule": "ordinary-room",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "bountyOrder": 3
     }
   ]
 }

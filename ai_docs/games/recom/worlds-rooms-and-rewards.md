@@ -1,5 +1,7 @@
 # Worlds, Room Synthesis and acquisition goals
 
+Current data update: see the [2026-09-28 closure audit](data-gap-audit-2026-09-28.md). The initial research notes below retain their original evidence limits; the audit supersedes missing-field statements where data has now been filled.
+
 Research: 2026-09-28. All tables below select Re:CoM/HD rules. [World records](worlds.json) · [41 acquisition records](worlds-and-rewards.json).
 
 ## World order is partly chosen

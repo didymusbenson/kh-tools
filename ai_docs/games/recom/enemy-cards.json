@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "56 Sora candidates plus 22 Riku campaign records. Darkball is Riku-only in Re:CoM. CP disagreements are null with both candidates preserved; no deck-cost calculator may treat null as zero.",
+  "status": "Source-backed journal data; not independently gameplay-verified",
+  "notes": "56 Sora and 22 Riku identities. Seven CP disputes resolved using independent remake guides; contrary wiki infobox values retained in source-conflicts.json.",
   "records": [
     {
       "id": "recom-sora-enemy-shadow",
@@ -14,7 +14,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 25,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Card values rise by 1.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-soldier",
@@ -23,14 +24,21 @@
       "ability": "Combo Plus",
       "duration": "3 reloads",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 15,
       "cpCandidates": {
         "aggregate": 15,
         "recomInfobox": 20
       },
-      "additionalSource": "https://www.khwiki.com/Soldier"
+      "additionalSource": "https://www.khwiki.com/Soldier",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Soldier",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Normal combos gain one additional hit.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Twilight Town Neverland."
     },
     {
       "id": "recom-sora-enemy-powerwild",
@@ -39,14 +47,21 @@
       "ability": "Retrograde",
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 30,
       "cpCandidates": {
         "aggregate": 30,
         "recomInfobox": 40
       },
-      "additionalSource": "https://www.khwiki.com/Powerwild"
+      "additionalSource": "https://www.khwiki.com/Powerwild",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Powerwild",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Values 1–9 reverse (1 ↔ 9, 2 ↔ 8); zero stays zero.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum."
     },
     {
       "id": "recom-sora-enemy-bouncywild",
@@ -57,7 +72,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 10,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Nearby prizes are drawn toward you.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum."
     },
     {
       "id": "recom-sora-enemy-large-body",
@@ -68,7 +84,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Blocks physical attacks coming from the front.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Olympus Coliseum, Monstro."
     },
     {
       "id": "recom-sora-enemy-fat-bandit",
@@ -79,7 +96,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Attacks from behind deal extra damage.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah."
     },
     {
       "id": "recom-sora-enemy-sea-neon",
@@ -90,7 +108,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 20,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Your played card values become random.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-bandit",
@@ -101,7 +120,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "The first hit gains combo-finisher power.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah."
     },
     {
       "id": "recom-sora-enemy-pirate",
@@ -112,7 +132,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "All card values become zero.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland."
     },
     {
       "id": "recom-sora-enemy-red-nocturne",
@@ -123,7 +144,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 20,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts fire damage.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-blue-rhapsody",
@@ -134,7 +156,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 20,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts ice damage.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Olympus Coliseum, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-yellow-opera",
@@ -145,7 +168,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 20,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts lightning damage.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Neverland, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-green-requiem",
@@ -156,7 +180,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 20,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Strengthens healing.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-wizard",
@@ -167,7 +192,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts magic, but disables summons.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-air-soldier",
@@ -178,7 +204,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Lets you move while reloading.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Twilight Town."
     },
     {
       "id": "recom-sora-enemy-barrel-spider",
@@ -189,7 +216,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Reloading becomes instantaneous.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-wight-knight",
@@ -200,7 +228,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 15,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Raises jump height.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town."
     },
     {
       "id": "recom-sora-enemy-air-pirate",
@@ -211,7 +240,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Protects item cards against breaks.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland."
     },
     {
       "id": "recom-sora-enemy-gargoyle",
@@ -222,7 +252,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Turns you invisible, making attacks less likely to hit.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town."
     },
     {
       "id": "recom-sora-enemy-search-ghost",
@@ -233,7 +264,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 35,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Attack-card hits restore HP; enemies drop fewer prizes.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Halloween Town, Atlantica."
     },
     {
       "id": "recom-sora-enemy-aquatank",
@@ -244,7 +276,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Reloads automatically when the deck runs out.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-screwdiver",
@@ -255,7 +288,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 15,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Card values fall by 1.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-wyvern",
@@ -264,14 +298,21 @@
       "ability": "Reload Lock",
       "duration": "3 reloads",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 20,
       "cpCandidates": {
         "aggregate": 20,
         "recomInfobox": 25
       },
-      "additionalSource": "https://www.khwiki.com/Wyvern"
+      "additionalSource": "https://www.khwiki.com/Wyvern",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Wyvern",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Prevents the reload counter from increasing.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-defender",
@@ -280,14 +321,21 @@
       "ability": "Protect",
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 30,
       "cpCandidates": {
         "aggregate": 30,
         "recomInfobox": 25
       },
-      "additionalSource": "https://www.khwiki.com/Defender"
+      "additionalSource": "https://www.khwiki.com/Defender",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Defender",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Reduces incoming physical damage.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-white-mushroom",
@@ -298,7 +346,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Using a friend card restores HP.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (White Room only)."
     },
     {
       "id": "recom-sora-enemy-black-fungus",
@@ -309,7 +358,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Activates a randomly chosen enemy-card effect.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (Black Room only)."
     },
     {
       "id": "recom-sora-enemy-creeper-plant",
@@ -320,7 +370,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 35,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Protects Cure against breaks.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Halloween Town, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-tornado-step",
@@ -329,14 +380,21 @@
       "ability": "Reload Haste",
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 30,
       "cpCandidates": {
         "aggregate": 30,
         "recomInfobox": 25
       },
-      "additionalSource": "https://www.khwiki.com/Tornado_Step"
+      "additionalSource": "https://www.khwiki.com/Tornado_Step",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Tornado_Step",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Reduces the reload counter by 2.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Hollow Bastion, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-crescendo",
@@ -345,14 +403,21 @@
       "ability": "Summon Boost",
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 30,
       "cpCandidates": {
         "aggregate": 30,
         "recomInfobox": 20
       },
-      "additionalSource": "https://www.khwiki.com/Crescendo"
+      "additionalSource": "https://www.khwiki.com/Crescendo",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Crescendo",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Boosts summons, but disables magic cards.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Neverland, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-neoshadow",
@@ -361,14 +426,21 @@
       "ability": "Bio",
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
-      "verification": "conflicted-cp",
-      "cp": null,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending",
+      "verification": "CP reconciled: mk_spirit and falconesque Re:CoM guides agree",
+      "cp": 30,
       "cpCandidates": {
         "aggregate": 30,
         "recomInfobox": 25
       },
-      "additionalSource": "https://www.khwiki.com/Neoshadow"
+      "additionalSource": "https://www.khwiki.com/Neoshadow",
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Neoshadow",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "effect": "Enemy HP drains over time.",
+      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-guard-armor",
@@ -379,7 +451,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 30,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Extends attack-card reach.",
+      "acquisition": "Defeat Guard Armor at Traverse Town · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-hades",
@@ -390,7 +463,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts attack power at critical HP. Resists fire; ice can stun you.",
+      "acquisition": "Defeat Hades at Olympus Coliseum · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-trickmaster",
@@ -401,7 +475,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 25,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "An enemy card loses value when it breaks yours.",
+      "acquisition": "Defeat Trickmaster at Wonderland · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-jafar-genie",
@@ -412,7 +487,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 65,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Protects attack cards against breaks.",
+      "acquisition": "Defeat Jafar-Genie at Agrabah · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-ursula",
@@ -423,7 +499,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 50,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Halves incoming magic damage.",
+      "acquisition": "Defeat Ursula at Atlantica · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-oogie-boogie",
@@ -434,7 +511,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Restores HP gradually, faster at low HP.",
+      "acquisition": "Defeat Oogie Boogie at Halloween Town · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-parasite-cage",
@@ -445,7 +523,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 60,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Cancels the opponent’s active enemy card.",
+      "acquisition": "Defeat Parasite Cage at Monstro · Room of Guidance."
     },
     {
       "id": "recom-sora-enemy-hook",
@@ -456,7 +535,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 35,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Survive a lethal hit with 1 HP if you had at least 2. Resists lightning; fire can stun you.",
+      "acquisition": "Defeat Hook at Neverland · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-dragon-maleficent",
@@ -467,7 +547,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 70,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts attacks at the cost of slower reloads.",
+      "acquisition": "Defeat Dragon Maleficent at Hollow Bastion · Room of Truth."
     },
     {
       "id": "recom-sora-enemy-darkside",
@@ -478,7 +559,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Copies the opponent’s active enemy-card effect.",
+      "acquisition": "Defeat Darkside at Destiny Islands · Room of Guidance."
     },
     {
       "id": "recom-sora-enemy-riku-replica",
@@ -489,7 +571,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 80,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Keeps sleight cards reloadable. Resists fire, ice and lightning.",
+      "acquisition": "Defeat Riku Replica at 12F Exit Hall (fourth Riku Replica battle)."
     },
     {
       "id": "recom-sora-enemy-card-soldier",
@@ -500,7 +583,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 55,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Attack animations become faster.",
+      "acquisition": "Defeat Card Soldier at Wonderland · Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-ansem",
@@ -511,7 +595,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Resists fire, ice and lightning.",
+      "acquisition": "Twilight Town · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
     },
     {
       "id": "recom-sora-enemy-xemnas",
@@ -522,7 +607,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 65,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Blocks follow-up hits in a chain after the second hit. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Wonderland · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-xigbar",
@@ -533,7 +619,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 80,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts projectile attacks, including Fire and Strike Raid. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Hollow Bastion · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-xaldin",
@@ -544,7 +631,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 65,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Surrounds you with damaging Aero. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Monstro · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-vexen",
@@ -555,7 +643,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 60,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Revives you once with a little HP. Immune to ice; fire can stun you.",
+      "acquisition": "Defeat Vexen at Twilight Town · Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-lexaeus",
@@ -566,7 +655,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Combo finishers may instantly defeat enemies. Immune to ice; resists physical damage; vulnerable to special attacks.",
+      "acquisition": "Castle Oblivion · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
     },
     {
       "id": "recom-sora-enemy-zexion",
@@ -577,7 +667,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 65,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Attacks may confuse enemies. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Destiny Islands · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
     },
     {
       "id": "recom-sora-enemy-saix",
@@ -588,7 +679,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 80,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Successive attack-card hits become stronger until a card break. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Traverse Town · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-axel",
@@ -599,7 +691,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 75,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Allows card use while staggering. Immune to fire; ice can stun you.",
+      "acquisition": "Defeat Axel at Castle Oblivion · Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-demyx",
@@ -610,7 +703,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 80,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Boosts ice attacks, including Aqua Splash. In HD: immune to ice; resists lightning and special attacks.",
+      "acquisition": "Atlantica · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-luxord",
@@ -621,7 +715,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Breaks opposing cards regardless of value. Resists fire, ice, lightning and special attacks.",
+      "acquisition": "Agrabah · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-marluxia",
@@ -632,7 +727,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Repeats stocked attacks and sleights. Resists fire, ice, lightning and special attacks; vulnerable to physical damage.",
+      "acquisition": "Defeat Marluxia at Castle Oblivion · first Marluxia battle."
     },
     {
       "id": "recom-sora-enemy-larxene",
@@ -643,7 +739,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 65,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Increases movement speed. Immune to lightning; vulnerable to special attacks.",
+      "acquisition": "Defeat Larxene at 12F Exit Hall (second Larxene battle)."
     },
     {
       "id": "recom-sora-enemy-roxas",
@@ -654,7 +751,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "acquisitionStatus": "see world rewards / farm records; full boss-event mapping pending"
+      "effect": "Attack cards deal double damage.",
+      "acquisition": "Twilight Town · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-riku-enemy-shadow",
@@ -664,8 +762,9 @@
       "duration": "2 reloads",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Traverse Town",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Traverse Town world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Card values rise by 1."
     },
     {
       "id": "recom-riku-enemy-large-body",
@@ -675,8 +774,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Wonderland",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Wonderland world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Blocks physical attacks coming from the front."
     },
     {
       "id": "recom-riku-enemy-powerwild",
@@ -686,8 +786,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Olympus Coliseum",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Olympus Coliseum world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Values 1–9 reverse (1 ↔ 9, 2 ↔ 8); zero stays zero."
     },
     {
       "id": "recom-riku-enemy-fat-bandit",
@@ -697,8 +798,9 @@
       "duration": "2 reloads",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Agrabah",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Agrabah world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Attacks from behind deal extra damage."
     },
     {
       "id": "recom-riku-enemy-search-ghost",
@@ -708,8 +810,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Monstro",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Monstro world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Attack-card hits restore HP; enemies drop fewer prizes."
     },
     {
       "id": "recom-riku-enemy-sea-neon",
@@ -719,8 +822,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Atlantica",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Atlantica world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Your played card values become random."
     },
     {
       "id": "recom-riku-enemy-wight-knight",
@@ -730,8 +834,9 @@
       "duration": "3 reloads",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Halloween Town",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Halloween Town world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Raises jump height."
     },
     {
       "id": "recom-riku-enemy-pirate",
@@ -741,8 +846,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Neverland",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Neverland world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "All card values become zero."
     },
     {
       "id": "recom-riku-enemy-defender",
@@ -752,8 +858,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Hollow Bastion",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Hollow Bastion world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "Reduces incoming physical damage."
     },
     {
       "id": "recom-riku-enemy-darkball",
@@ -763,8 +870,9 @@
       "duration": "1 reload",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Atlantica",
-      "scope": "world-deck"
+      "acquisition": "Included automatically in the Atlantica world deck. Riku does not farm enemy-card drops.",
+      "scope": "world-deck",
+      "effect": "The next card starts a duel regardless of its value."
     },
     {
       "id": "recom-riku-enemy-guard-armor",
@@ -774,8 +882,9 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Guard Armor",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Guard Armor. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Extends attack-card reach."
     },
     {
       "id": "recom-riku-enemy-parasite-cage",
@@ -785,8 +894,9 @@
       "duration": "1 use",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Parasite Cage",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Parasite Cage. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Cancels the opponent’s active enemy card."
     },
     {
       "id": "recom-riku-enemy-trickmaster",
@@ -796,8 +906,9 @@
       "duration": "10 card breaks taken",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Trickmaster",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Trickmaster. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "An enemy card loses value when it breaks yours."
     },
     {
       "id": "recom-riku-enemy-darkside",
@@ -807,8 +918,9 @@
       "duration": "1 use",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Darkside",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Darkside. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Copies the opponent’s active enemy-card effect."
     },
     {
       "id": "recom-riku-enemy-hades",
@@ -818,8 +930,9 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Hades",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Hades. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Boosts attack power at critical HP. Resists fire; ice can stun you."
     },
     {
       "id": "recom-riku-enemy-jafar-genie",
@@ -829,8 +942,9 @@
       "duration": "20 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Jafar",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Jafar. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Protects attack cards against breaks."
     },
     {
       "id": "recom-riku-enemy-oogie-boogie",
@@ -840,8 +954,9 @@
       "duration": "10 uses",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Oogie Boogie",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Oogie Boogie. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Restores HP gradually, faster at low HP."
     },
     {
       "id": "recom-riku-enemy-ursula",
@@ -851,8 +966,9 @@
       "duration": "5 hits taken",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Ursula",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Ursula. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Halves incoming magic damage."
     },
     {
       "id": "recom-riku-enemy-hook",
@@ -862,8 +978,9 @@
       "duration": "3 uses.",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Captain Hook",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Captain Hook. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Survive a lethal hit with 1 HP if you had at least 2. Resists lightning; fire can stun you."
     },
     {
       "id": "recom-riku-enemy-dragon-maleficent",
@@ -873,8 +990,9 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Dragon Maleficent",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Dragon Maleficent. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Boosts attacks at the cost of slower reloads."
     },
     {
       "id": "recom-riku-enemy-lexaeus",
@@ -884,8 +1002,9 @@
       "duration": "50 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Lexaeus",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Lexaeus. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Combo finishers may instantly defeat enemies. Immune to ice; resists physical damage; vulnerable to special attacks."
     },
     {
       "id": "recom-riku-enemy-zexion",
@@ -895,8 +1014,9 @@
       "duration": "50 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Zexion",
-      "scope": "retained-boss-card"
+      "acquisition": "Defeat Zexion. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "scope": "retained-boss-card",
+      "effect": "Attacks may confuse enemies. Resists fire, ice, lightning and special attacks."
     }
   ]
 }

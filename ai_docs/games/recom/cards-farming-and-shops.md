@@ -1,5 +1,7 @@
 # Cards, enemy farming and Moogle shops
 
+Current data update: see the [2026-09-28 closure audit](data-gap-audit-2026-09-28.md). The initial research notes below retain their original evidence limits; the audit supersedes missing-field statements where data has now been filled.
+
 Research: 2026-09-28. [Card inventories](README.md#machine-readable-research).
 
 ## What counts as a card

@@ -2,7 +2,7 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
+  "status": "Source-backed journal data; not independently gameplay-verified",
   "notes": "29 map/key identities, not values 0–9 multiplied into collectible counts. Includes 4 keycards and Random Joker. Riku uses a restricted subset.",
   "records": [
     {
@@ -14,7 +14,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Few Heartless; a small encounter room.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 10.0,
+          "Wonderland": 4.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 6.0,
+          "Monstro": 4.0,
+          "Halloween Town": 2.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 8.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-teeming-darkness",
@@ -25,7 +46,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Many Heartless; enemy-card drop rates are multiplied by 2.5.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 10.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 4.0,
+          "Agrabah": 4.0,
+          "Monstro": 4.0,
+          "Halloween Town": 2.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 8.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-feeble-darkness",
@@ -36,7 +78,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Enemy cards lose 2 value (minimum 1).",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 10.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 2.0,
+          "Agrabah": 4.0,
+          "Monstro": 6.0,
+          "Halloween Town": 0,
+          "Atlantica": 2.0,
+          "Neverland": 0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 8.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-almighty-darkness",
@@ -47,7 +110,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Enemy cards gain 2 value; enemy-card drop rates are multiplied by 2.5.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 2.0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 4.0,
+          "Atlantica": 12.0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 12.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 12.0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-sleeping-darkness",
@@ -58,7 +142,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Sleeping Heartless are easier to approach for a first strike.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 10.0,
+          "Wonderland": 8.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 0,
+          "Monstro": 5.0,
+          "Halloween Town": 2.0,
+          "Atlantica": 2.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 8.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-looming-darkness",
@@ -69,7 +174,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Heartless pursue you; enemy-card drop rates are multiplied by 2.5.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 2.0,
+          "Agrabah": 2.0,
+          "Monstro": 0,
+          "Halloween Town": 2.0,
+          "Atlantica": 8.0,
+          "Neverland": 12.0,
+          "Hollow Bastion": 8.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 12.0,
+          "Castle Oblivion": 6.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-premium-room",
@@ -79,7 +205,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "More battles award a Premium Bonus.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 5.0,
+          "Wonderland": 4.0,
+          "Olympus Coliseum": 2.0,
+          "Agrabah": 7.0,
+          "Monstro": 4.0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 16.0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-white-room",
@@ -89,7 +236,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Contains White Mushrooms. Use the spells their gestures request.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 2.0,
+          "Agrabah": 0,
+          "Monstro": 4.0,
+          "Halloween Town": 0,
+          "Atlantica": 15.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-black-room",
@@ -100,7 +268,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Contains Black Fungi.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 5.0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 4.0,
+          "Agrabah": 0,
+          "Monstro": 4.0,
+          "Halloween Town": 6.0,
+          "Atlantica": 2.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 16.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-bottomless-darkness",
@@ -111,7 +300,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "A dark room populated by Shadows.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 2.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 14.0,
+          "Atlantica": 5.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 5.0,
+          "Twilight Town": 4.0,
+          "Destiny Islands": 10.0,
+          "Castle Oblivion": 3.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-roulette-room",
@@ -122,7 +332,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "More battles award a Roulette Bonus, letting you choose a map card.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 8.0,
+          "Olympus Coliseum": 6.0,
+          "Agrabah": 10.0,
+          "Monstro": 5.0,
+          "Halloween Town": 0,
+          "Atlantica": 3.0,
+          "Neverland": 3.0,
+          "Hollow Bastion": 3.0,
+          "Twilight Town": 10.0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 10.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-martial-waking",
@@ -133,7 +364,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Your attack cards gain 2 value.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 5.0,
+          "Wonderland": 3.0,
+          "Olympus Coliseum": 17.0,
+          "Agrabah": 0,
+          "Monstro": 2.0,
+          "Halloween Town": 0,
+          "Atlantica": 5.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 4.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-sorcerous-waking",
@@ -143,7 +395,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Your magic cards gain 2 value.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 4.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 10.0,
+          "Monstro": 2.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 4.0,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-alchemic-waking",
@@ -153,7 +426,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Your item cards gain 2 value.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 4.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 14.0,
+          "Halloween Town": 10.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 4.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-meeting-ground",
@@ -164,7 +458,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Starts battles with a friend-card pickup when a friend is available.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 17.0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 10.0,
+          "Monstro": 0,
+          "Halloween Town": 8.0,
+          "Atlantica": 4.0,
+          "Neverland": 4.0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-stagnant-space",
@@ -175,7 +490,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Heartless move more slowly.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 10.0,
+          "Wonderland": 7.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 0,
+          "Monstro": 4.0,
+          "Halloween Town": 10.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 11.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-strong-initiative",
@@ -186,7 +522,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "A field first strike deals extra damage.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 5.0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Monstro": 4.0,
+          "Halloween Town": 0,
+          "Atlantica": 4.0,
+          "Neverland": 0,
+          "Hollow Bastion": 4.0,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-lasting-daze",
@@ -197,7 +554,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "A field first strike stuns all enemies joining the fight.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 5.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 5.0,
+          "Monstro": 4.0,
+          "Halloween Town": 4.0,
+          "Atlantica": 2.0,
+          "Neverland": 8.0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-calm-bounty",
@@ -207,7 +585,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Treasure with no battles.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 12.0,
+          "Olympus Coliseum": 12.0,
+          "Agrabah": 15.0,
+          "Monstro": 17.0,
+          "Halloween Town": 13.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 9.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 7.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-guarded-trove",
@@ -217,7 +616,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Treasure guarded by Heartless.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 14.0,
+          "Neverland": 13.0,
+          "Hollow Bastion": 14.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 12.0,
+          "Castle Oblivion": 7.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-false-bounty",
@@ -227,7 +647,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Only one chest is real; false chests start fights.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 14.0,
+          "Neverland": 13.0,
+          "Hollow Bastion": 14.0,
+          "Twilight Town": 0,
+          "Destiny Islands": 12.0,
+          "Castle Oblivion": 7.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-moment-s-reprieve",
@@ -238,7 +679,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "A safe room with a save point.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 10.0,
+          "Agrabah": 12.0,
+          "Monstro": 10.0,
+          "Halloween Town": 10.0,
+          "Atlantica": 6.0,
+          "Neverland": 6.0,
+          "Hollow Bastion": 6.0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 10.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-mingling-worlds",
@@ -249,7 +711,28 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Creates a randomly selected room.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "Twilight Town": 17.0,
+          "Destiny Islands": 22.0,
+          "Castle Oblivion": 10.0
+        },
+        "riku": {
+          "Hollow Bastion": 6.66,
+          "Other worlds": 6.25
+        }
+      }
     },
     {
       "id": "recom-map-moogle-room",
@@ -259,7 +742,28 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Creates a shop for buying packs and selling cards.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 7.0,
+          "Olympus Coliseum": 7.0,
+          "Agrabah": 10.0,
+          "Monstro": 7.0,
+          "Halloween Town": 8.0,
+          "Atlantica": 2.0,
+          "Neverland": 2.0,
+          "Hollow Bastion": 2.0,
+          "Twilight Town": 2.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 10.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      }
     },
     {
       "id": "recom-map-key-to-rewards",
@@ -269,7 +773,29 @@
         "sora"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Opens the Room of Rewards. Only one Key to Rewards can be held at once.",
+      "dropRates": {
+        "sora": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 15.0,
+          "Neverland": 15.0,
+          "Hollow Bastion": 15.0,
+          "Twilight Town": 16.0,
+          "Destiny Islands": 18.0,
+          "Castle Oblivion": 20.0
+        },
+        "riku": {
+          "Hollow Bastion": 0,
+          "Other worlds": 0
+        }
+      },
+      "dropConditions": "Available from 7F onward if you hold none and still have a reward chest left to claim."
     },
     {
       "id": "recom-map-key-of-beginnings",
@@ -280,7 +806,9 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Opens the first story room.",
+      "dropConditions": "Earned from story events, rather than random drops."
     },
     {
       "id": "recom-map-key-of-guidance",
@@ -291,7 +819,9 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Opens the next story room.",
+      "dropConditions": "Earned from story events, rather than random drops."
     },
     {
       "id": "recom-map-key-to-truth",
@@ -302,7 +832,9 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Opens the final story room.",
+      "dropConditions": "Earned from story events, rather than random drops."
     },
     {
       "id": "recom-map-random-joker",
@@ -313,7 +845,19 @@
         "riku"
       ],
       "source": "https://www.khwiki.com/Map_Card",
-      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+      "verification": "Re:CoM room effects and world-rate table extracted",
+      "effect": "Replaces one non-key door requirement; the resulting room is random. It never replaces a story or reward key.",
+      "difficultyRates": {
+        "Beginner": 4,
+        "Standard": 1.3,
+        "Proud": 0.7
+      },
+      "dropConditions": "A separate rare drop, unavailable to Sora in Traverse Town. Not a roulette prize.",
+      "sources": [
+        "https://www.khwiki.com/Map_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Map_Card"
+      ]
     }
   ]
 }

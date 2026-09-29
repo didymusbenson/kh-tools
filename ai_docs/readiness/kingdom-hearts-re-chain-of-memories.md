@@ -1,6 +1,6 @@
 # Re:Chain of Memories readiness
 
-Snapshot: **2026-09-28**. Status: **Initial HD journal implemented locally; partial catalogue and artwork; explicit data conflicts/gaps remain.** [Specification](../games/kingdom-hearts-re-chain-of-memories.md) · [Research pack](../games/recom/README.md).
+Snapshot: **2026-09-28**. Status: **HD journal revised locally; complete campaign card rosters, numeric CP, acquisition pools and event-door data; remaining evidence limits are listed in the current audit.** [Specification](../games/kingdom-hearts-re-chain-of-memories.md) · [Research pack](../games/recom/README.md).
 
 ## Inherited decisions and current working baseline
 
@@ -15,7 +15,9 @@ Snapshot: **2026-09-28**. Status: **Initial HD journal implemented locally; part
 
 HD scope is the application of the existing modern-release policy, not a newly solicited user decision. No product clarification blocks further factfinding.
 
-## Content readiness
+Current closure: [data audit](../games/recom/data-gap-audit-2026-09-28.md). It supersedes the initial content-readiness rows below for card membership, CP, map rates, door costs, Bounty order and pack prices. Attack/assorted pack probabilities and Riku corridor/boss substitutions remain research work.
+
+## Initial content readiness (historical)
 
 | ID | Category | Delivered evidence | Remaining gate |
 |---|---|---|---|
@@ -45,10 +47,10 @@ Counts above are measured research records, not declared game-completion denomin
 |---|---|---|
 | COM-E01 | Scope checks/inventory/run state by game and campaign; compact/detail/search share identities | Implemented for current catalogue; unit and browser checks pass |
 | COM-E02 | Do not double-count chest/output; repeat room creation preserves historical claims | Independent finite reward claims implemented; repeat room creation is not modeled |
-| COM-E03 | Fixed denominators under Remaining/search; partial catalogs never claim full 100% | Implemented; fixed totals and explicit partial-catalogue labels |
+| COM-E03 | Fixed denominators under Remaining/search; partial catalogs never claim full 100% | Implemented; fixed 152/59 campaign totals with independent reward checks |
 | COM-E04 | Optional copy inventory respects type/value/Premium; historical checks do not create/deduct stock | Not implemented; discovery checks only |
 | COM-E05 | Recipe alternatives/order, two-card sleights, sums and same/different constraints | Sourced references implemented; recipe normalization remains |
-| COM-E06 | CP conflicts fail closed for calculations; unknown cost never equals zero | Unknown/conflicting CP labeled; no calculator implemented |
+| COM-E06 | CP conflicts fail closed for calculations; unknown cost never equals zero | 44 ten-value CP tables and seven reconciled enemy costs; no calculator implemented |
 | COM-E07 | Riku preset + retained boss cards; no Sora-only card/editor/shop leakage | Twelve preset references and campaign boundaries implemented; retained boss-card completeness remains |
 | COM-E08 | All scoped answers/directions usable offline; Data Jiminy retains sources and uncertainty | Catalogue/notes tested offline; CoM-specific Data Jiminy not implemented |
 | COM-E09 | Native journal evidence, mobile navigation, accessibility and Apple acceptance | HD-inspired UI and desktop/phone browser checks complete; exact assets and physical Apple-device acceptance remain |
@@ -56,7 +58,7 @@ Counts above are measured research records, not declared game-completion denomin
 
 The user subsequently authorized implementation. See the [working implementation report](../implementation/recom-hd-journal.md) for delivered behavior, screenshots, validation and remaining boundaries.
 
-## Next research sequence
+## Original research sequence (see current audit for completed items)
 
 1. Verify native Card Index and Sleight-menu inventories and reconcile completion membership.
 2. Resolve CP conflicts using modern native screens or independent tables; complete value/Premium matrices.

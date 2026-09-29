@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>BBS · 3D selection study</title><link rel="stylesheet" href="./style.css"></head><body>
+<header><a href="http://127.0.0.1:4173/#/bbsfm/home">‹ Current BBS home</a><span>3D FEASIBILITY STUDY · NOT FINAL ART</span></header>
+<main class="selection"><h1>SELECT A CHARACTER</h1><div id="stage" role="img" aria-label="Terra preview on the Wayfinder Station"><img id="fallback" src="/assets/bbs-journal/terra-stage.jpg" alt=""/><div id="canvas-mount"></div></div>
+<nav aria-label="Character preview" class="characters">
+<button data-character="terra" aria-pressed="true" style="--accent:#da9138"><img src="/assets/bbs-journal/terra-portrait.jpg" alt=""><strong>TERRA</strong></button>
+<button data-character="ventus" aria-pressed="false" style="--accent:#20a550"><img src="/assets/bbs-journal/ventus-portrait.jpg" alt=""><strong>VENTUS</strong></button>
+<button data-character="aqua" aria-pressed="false" style="--accent:#2360e9"><img src="/assets/bbs-journal/aqua-portrait.jpg" alt=""><strong>AQUA</strong></button>
+<a id="open-journal" href="http://127.0.0.1:4173/#/bbsfm/contents?character=Terra">Open Terra’s Reports ›</a>
+</nav><footer><p id="status" role="status">Preparing the scene…</p><button id="toggle-3d">Use still images</button><label><input id="motion" type="checkbox" checked> Rotate between characters</label></footer></main>
+<details class="study-notes"><summary>About this study and performance</summary><p>Hover, keyboard-focus or tap a character to preview. This does not change your saved playthrough. Open Reports is a separate action.</p><p>The PSP meshes and station are real assets. The relaxed poses are authored for this study using their skin weights; these archives contain no idle animation or Keyblades. Final poses, framing and motion still need approval.</p><p>Only selection transitions render continuously. The scene stops when settled, offscreen, hidden or replaced with stills. Reduced-motion and data-saving preferences default to stills; you can opt into 3D.</p><pre id="metrics">3D has not loaded.</pre></details>
+<script type="module" src="./shell.js"></script></body></html>

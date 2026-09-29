@@ -1,5 +1,7 @@
 # Minigames, completion goals and Steam achievements
 
+Current data update: see the [2026-09-28 closure audit](data-gap-audit-2026-09-28.md). The initial research notes below retain their original evidence limits; the audit supersedes missing-field statements where data has now been filled.
+
 Research: 2026-09-28. [47 Steam goal candidates](steam-achievements.json).
 
 ## 100 Acre Wood: rewards are not score thresholds

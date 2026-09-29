@@ -666,14 +666,15 @@
       "name": "Battle Card Collector",
       "campaignScope": "sora",
       "category": "counter",
-      "requirement": "Obtain more than 300 battle cards; cumulative versus held predicate still needs checking.",
+      "requirement": "Obtain over 300 battle cards in total. Repeated copies count; this is not a count of different card types.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23"
       ],
       "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
     },
@@ -682,14 +683,15 @@
       "name": "Moogle Mogul",
       "campaignScope": "sora",
       "category": "counter",
-      "requirement": "Get more than 10000 Moogle Points; cumulative versus held predicate still needs checking.",
+      "requirement": "Hold over 10,000 Moogle Points at once. Points already spent do not count toward the balance.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html"
       ],
       "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
     },

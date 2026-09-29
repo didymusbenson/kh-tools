@@ -1,0 +1,242 @@
+[
+  {
+    "crystal": "Shimmering Crystal",
+    "enemy": "Archraven",
+    "rate": "2.4% (Shop Lv 1–4); 3% (Shop Lv 5–6)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Radiant Garden"
+      }
+    ],
+    "conditions": "Enemy table lists these rate bands; Shimmering is replaced by Chaos Crystal at Shop Lv 7–8. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Archraven"
+  },
+  {
+    "crystal": "Fleeting Crystal",
+    "enemy": "Sonic Blaster",
+    "rate": "7.2% (Shop Lv 5–6); 11.4% (Shop Lv 7–8)",
+    "locations": [
+      {
+        "world": "Deep Space"
+      },
+      {
+        "world": "Keyblade Graveyard"
+      }
+    ],
+    "conditions": "Rates depend on Shop Level, not character level. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Sonic_Blaster"
+  },
+  {
+    "crystal": "Fleeting Crystal",
+    "enemy": "Chrono Twister",
+    "rate": "12% (Shop Lv 4–8)",
+    "locations": [
+      {
+        "world": "Radiant Garden"
+      },
+      {
+        "world": "Disney Town"
+      },
+      {
+        "world": "Olympus Coliseum"
+      },
+      {
+        "world": "Deep Space"
+      },
+      {
+        "world": "Keyblade Graveyard"
+      }
+    ],
+    "conditions": "Enemy table has separate Shop Lv 4–5 and 6–8 bands, both 12%. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Chrono_Twister"
+  },
+  {
+    "crystal": "Fleeting Crystal",
+    "enemy": "Thornbite",
+    "rate": "4.8% (Shop Lv 1–2); 6% (Shop Lv 3–5); 11.4% (Shop Lv 6–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      }
+    ],
+    "conditions": "Castle of Dreams is omitted here because its character-specific availability has not been normalized. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Thornbite"
+  },
+  {
+    "crystal": "Pulsing Crystal",
+    "enemy": "Wild Bruiser",
+    "rate": "21.6% (Shop Lv 7–8)",
+    "locations": [
+      {
+        "world": "Neverland"
+      }
+    ],
+    "conditions": "Rate is listed only for Shop Lv 7–8 in the ordinary-world table. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Wild_Bruiser"
+  },
+  {
+    "crystal": "Wellspring Crystal",
+    "enemy": "Scrapper",
+    "rate": "1.8% (Shop Lv 1–2); 3% (Shop Lv 3–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Castle of Dreams"
+      },
+      {
+        "world": "Dwarf Woodlands"
+      },
+      {
+        "world": "Radiant Garden"
+      },
+      {
+        "world": "Disney Town"
+      },
+      {
+        "world": "Olympus Coliseum"
+      },
+      {
+        "world": "Neverland"
+      },
+      {
+        "world": "Mysterious Tower"
+      }
+    ],
+    "conditions": "Deep Space is omitted here because its character-specific availability has not been normalized. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Scrapper"
+  },
+  {
+    "crystal": "Soothing Crystal",
+    "enemy": "Flood",
+    "rate": "4% (Shop Lv 1–6); 3.96% (Shop Lv 7–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Castle of Dreams"
+      },
+      {
+        "world": "Dwarf Woodlands"
+      },
+      {
+        "world": "Radiant Garden"
+      },
+      {
+        "world": "Disney Town"
+      },
+      {
+        "world": "Olympus Coliseum"
+      },
+      {
+        "world": "Neverland"
+      },
+      {
+        "world": "Mysterious Tower"
+      },
+      {
+        "world": "Keyblade Graveyard"
+      }
+    ],
+    "conditions": "Deep Space is omitted here because its character-specific availability has not been normalized. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Flood"
+  },
+  {
+    "crystal": "Hungry Crystal",
+    "enemy": "Bruiser",
+    "rate": "6% (Shop Lv 1–2); 7.2% (Shop Lv 3–5); 9.6% (Shop Lv 6–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Castle of Dreams"
+      },
+      {
+        "world": "Dwarf Woodlands"
+      },
+      {
+        "world": "Radiant Garden"
+      },
+      {
+        "world": "Disney Town"
+      },
+      {
+        "world": "Olympus Coliseum"
+      },
+      {
+        "world": "Keyblade Graveyard"
+      }
+    ],
+    "conditions": "Rates depend on Shop Level, not character level; listed worlds are examples, not an exhaustive encounter roster. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Bruiser"
+  },
+  {
+    "crystal": "Abounding Crystal",
+    "enemy": "Axe Flapper",
+    "rate": "14.4% (Shop Lv 5–6)",
+    "locations": [
+      {
+        "world": "Olympus Coliseum"
+      }
+    ],
+    "conditions": "Only the explicitly listed Shop Lv 5–6 band is represented; later-level rates are not inferred. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Axe_Flapper"
+  },
+  {
+    "crystal": "Chaos Crystal",
+    "enemy": "Archraven",
+    "rate": "0.3% (Shop Lv 7–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Radiant Garden"
+      }
+    ],
+    "conditions": "Requires Shop Lv 7–8; earlier bands drop Shimmering Crystal instead. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Archraven"
+  },
+  {
+    "crystal": "Secret Gem",
+    "enemy": "Flood",
+    "rate": "0.04% (Shop Lv 7–8)",
+    "locations": [
+      {
+        "world": "Enchanted Dominion"
+      },
+      {
+        "world": "Castle of Dreams"
+      },
+      {
+        "world": "Dwarf Woodlands"
+      },
+      {
+        "world": "Radiant Garden"
+      },
+      {
+        "world": "Disney Town"
+      },
+      {
+        "world": "Olympus Coliseum"
+      },
+      {
+        "world": "Neverland"
+      },
+      {
+        "world": "Mysterious Tower"
+      },
+      {
+        "world": "Keyblade Graveyard"
+      }
+    ],
+    "conditions": "Requires Shop Lv 7–8. Deep Space is omitted here because its character-specific availability has not been normalized. Ordinary world encounters; Arena rewards are separate. World-level examples only; exact rooms and character-specific routes are not yet indexed.",
+    "source": "https://www.khwiki.com/Flood"
+  }
+]

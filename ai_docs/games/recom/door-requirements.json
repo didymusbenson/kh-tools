@@ -1,0 +1,703 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-reconciled; not an in-game capture",
+  "notes": "Static event-door predicates by floor, independent of world selection; consume the named keycard in addition. An empty predicate array means only the keycard. Null means no event room. Event-door zeroes are literal, not universal wildcards.",
+  "records": [
+    {
+      "campaign": "sora",
+      "floor": 1,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 1
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 3
+        }
+      ],
+      "truth": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "rewards": [],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 2,
+      "beginnings": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 15
+        }
+      ],
+      "truth": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 3,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 5
+        },
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 7
+        }
+      ],
+      "guidance": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "truth": [
+        {
+          "color": "any",
+          "comparison": "at-most",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 0
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 4,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 8
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 1
+        }
+      ],
+      "truth": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "rewards": [
+        {
+          "color": "green",
+          "comparison": "exact",
+          "value": 9
+        },
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 9
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 5,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 20
+        }
+      ],
+      "guidance": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "any",
+          "comparison": "at-most",
+          "value": 5
+        }
+      ],
+      "truth": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 0
+        }
+      ],
+      "rewards": [
+        {
+          "color": "green",
+          "comparison": "sum-at-least",
+          "value": 15
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 6,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 3
+        },
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 4
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 6
+        },
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 7
+        }
+      ],
+      "truth": [
+        {
+          "color": "red",
+          "comparison": "at-most",
+          "value": 3
+        },
+        {
+          "color": "green",
+          "comparison": "sum-at-least",
+          "value": 30
+        }
+      ],
+      "rewards": [
+        {
+          "color": "red",
+          "comparison": "sum-at-least",
+          "value": 20
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 7,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "truth": [
+        {
+          "color": "blue",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "rewards": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 30
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 8,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 5
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 6
+        }
+      ],
+      "truth": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 30
+        }
+      ],
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "sum-at-least",
+          "value": 15
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 9,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 9
+        }
+      ],
+      "truth": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "exact",
+          "value": 2
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 10,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "any",
+          "comparison": "at-most",
+          "value": 3
+        }
+      ],
+      "guidance": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 7
+        }
+      ],
+      "truth": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 0
+        }
+      ],
+      "rewards": [
+        {
+          "color": "green",
+          "comparison": "exact",
+          "value": 3
+        },
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 7
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 11,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 5
+        },
+        {
+          "color": "any",
+          "comparison": "at-most",
+          "value": 5
+        },
+        {
+          "color": "blue",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "exact",
+          "value": 8
+        },
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 1
+        },
+        {
+          "color": "green",
+          "comparison": "sum-at-least",
+          "value": 20
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 12,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 2
+        },
+        {
+          "color": "any",
+          "comparison": "exact",
+          "value": 8
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 50
+        }
+      ],
+      "truth": null,
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "sum-at-least",
+          "value": 33
+        },
+        {
+          "color": "red",
+          "comparison": "sum-at-least",
+          "value": 33
+        },
+        {
+          "color": "green",
+          "comparison": "sum-at-least",
+          "value": 33
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "sora",
+      "floor": 13,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "exact",
+          "value": 1
+        },
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 3
+        },
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 99
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "rewards": [
+        {
+          "color": "blue",
+          "comparison": "sum-at-least",
+          "value": 30
+        },
+        {
+          "color": "red",
+          "comparison": "sum-at-least",
+          "value": 40
+        },
+        {
+          "color": "green",
+          "comparison": "sum-at-least",
+          "value": 20
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 12,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": [
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "truth": [
+        {
+          "color": "any",
+          "comparison": "at-least",
+          "value": 5
+        }
+      ],
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 11,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "at-least",
+          "value": 3
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 10,
+      "beginnings": [
+        {
+          "color": "green",
+          "comparison": "at-least",
+          "value": 5
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 9,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 8,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "exact",
+          "value": 0
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 7,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "sum-at-least",
+          "value": 20
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 6,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "any",
+          "value": null
+        },
+        {
+          "color": "green",
+          "comparison": "any",
+          "value": null
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 5,
+      "beginnings": [
+        {
+          "color": "red",
+          "comparison": "sum-at-least",
+          "value": 30
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 4,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "at-most",
+          "value": 5
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 3,
+      "beginnings": [
+        {
+          "color": "green",
+          "comparison": "at-least",
+          "value": 7
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 2,
+      "beginnings": [
+        {
+          "color": "blue",
+          "comparison": "exact",
+          "value": 0
+        }
+      ],
+      "guidance": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 50
+        }
+      ],
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    },
+    {
+      "campaign": "riku",
+      "floor": 1,
+      "beginnings": [
+        {
+          "color": "any",
+          "comparison": "sum-at-least",
+          "value": 13
+        }
+      ],
+      "guidance": null,
+      "truth": null,
+      "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+    }
+  ]
+}

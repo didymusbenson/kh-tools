@@ -224,3 +224,7 @@ The compact Jiminy face supplied subsequently is the chat icon: [data-jiminy-cha
 ## KHFM navigation revision — September 20, 2026
 
 Primary destinations now follow the collectible/activity type: Worlds, Synthesis Workshop, Bestiary, Treasures, Trinities, Dalmatians, Magic Upgrades, Torn Pages, Ansem Reports, Challenges and Minigames, Steam Achievements. Worlds replaces Contents and offers factual world overviews with filtered shortcuts into the type catalogues. Catalogues group full-width inline entries by world. Reference library and Progress & backups remain secondary links. See the durable human-feedback file for accepted scope and pending human review.
+
+## BBS reference refinement — 2026-09-28
+
+The [five user-supplied BBS references](references/bbsfm/README.md) and DEC-026 supersede older BBS shared-blue and journal-styled melding direction above. Terra Reports use orange/amber outer framing, Ventus green, Aqua blue/cyan; all share the navy ring-bound book, portrait/name/emblem and violet-blue menu composition. The independent root Command Melding tool specifically mimics the player-menu melding screen, including its blue/red/cyan chrome, input/result panel, category strip, dense lists and contextual footer. Preserve the explicitly requested command catalog and acquisition/recipe detail functions. The fifth image supplies pale lined interior-page treatment; its character identity is unconfirmed.

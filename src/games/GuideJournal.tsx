@@ -1,3 +1,4 @@
+import { BbsJournal } from '../journal/BbsJournal';
 import { Kh2Journal } from "../journal/Kh2Journal";
 import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
 import { entryTitle, chestReference } from "../domain/entryPresentation";
@@ -613,6 +614,13 @@ export default function GuideJournal({
     update={update} toggle={toggle} progressPage={progressPage()}
     retry={()=>{void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError("");}).catch(e=>setError(e.message));}}
   /></Suspense>;
+  if (guide.id === "bbsfm") return <BbsJournal
+    guide={guide} route={route} profile={profile} ready={ready}
+    error={error} notice={notice} updateNotice={updateNotice}
+    update={update} toggle={toggle} progressPage={progressPage()}
+    character={character} onCharacter={setCharacter}
+    retry={()=>{void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError("");}).catch(e=>setError(e.message));}}
+  />;
   if (guide.id === "kh2fm") return <Kh2Journal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}

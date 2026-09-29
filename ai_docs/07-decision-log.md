@@ -240,3 +240,116 @@ The user clarified during implementation that external research citations were f
 - **Decision:** Use the supplied KH2 video and accepted mockup for KH2's journal style. Carry forward KH1's stable interaction geometry, viewport-height frame, equal facing pages, compact rows, measured page capacity, direct collection navigation and book-based synthesis.
 - **Consequences:** Replace the generic KH2 guide interior while retaining existing content and progress behavior. Keep world-specific artwork, native subsection adaptations and typography gaps explicit. Ask for focused reference screenshots if needed; do not fabricate reference evidence or native journal content.
 - **Record:** [KH2FM UI plan](ui/kh2fm-new-ui-plan.md), [local MVP](implementation/kh2fm-faithful-journal-mvp.md).
+
+## DEC-023: BBS starts with character selection and isolates each playthrough
+
+- **Status:** Accepted user requirement; research and design preparation underway.
+- **Date:** 2026-09-28
+- **Decision:** Center the BBS root on Terra, Ventus and Aqua in the manner of the game's initial character-selection screen. Scope all downstream information and progress to the selected story. Give Final Chapter its own section.
+- **Rationale:** The game takes players through separate stories; Aqua players do not need irrelevant Terra/Ventus information.
+- **Consequences:** Character scope applies to journal content, acquisition alternatives, recipes, search and Data Jiminy. Shared reference records remain possible, with independent playthrough progress. Keep Final/Secret Episode scopes distinct and verify exact labels/menu treatment during research. Preserve the high-fidelity game-UI requirement for both the selector and Reports interior. Existing Reports/Sticker Album screenshots do not establish the selector's design; find references and request a user image/video only if necessary.
+- **Specification:** [BBS character-first root](games/birth-by-sleep-final-mix.md#character-first-root-and-episode-sections--accepted-2026-09-28).
+
+## DEC-024: Independent root-level BBS Synthesis tool
+
+- **Status:** Accepted user requirement; detailed visual design pending.
+- **Date:** 2026-09-28
+- **Decision:** Synthesis is an independent BBS root category alongside the character stories and Final Chapter. Command melding is the user's highest-priority BBS tool.
+- **Rationale:** The user's research artifacts and personally built Google Drive tables already supported a functioning crafting tool. Melding requires prominent, practical planning support.
+- **Consequences:** Audit and build on existing tool behavior and source tables. Preserve both ingredient-to-result and desired-result/ability-to-recipe workflows. Select character context within Synthesis for valid recipes, outcomes and independent inventory; do not require entering a character journal. Develop a dedicated journal-faithful visual treatment for the tool rather than treating static reference tables as sufficient.
+- **Clarifies:** DEC-023 character scoping governs story journals and relevant data, not exclusive ownership of Synthesis navigation.
+- **Specification:** [First-class command melding](games/birth-by-sleep-final-mix.md#first-class-command-melding).
+
+## DEC-025: Command Melding catalog, character markers and two-way recipe details
+
+- **Status:** Accepted user requirement; price terminology clarified.
+- **Date:** 2026-09-28
+- **Decision:** Give the independent root tool the working label Command Melding and a visually distinct, accessible entry beside the character stories. Group its command catalog by type. Place acquiring-character markers to the right of command names, using portraits or colored initials. A selected command shows Moogle Shop purchase prices in munny, medal purchase prices where applicable, enemy drops, producing recipes with recipe-specific crystal/ability results, and recipes that use it as an ingredient.
+- **Consequences:** Catalog acquisition markers cover all acquisition methods, not just meld eligibility. Preserve the independent catalog's cross-character overview alongside explicit recipe/inventory character context. Exact icon treatment remains open. The user clarified “price to unlock” as price to buy from a Moogle or with medals, and explicitly added enemies that drop the command. Identify vendors/currencies and enemy locations/conditions; retain unknown-versus-absent source distinctions. Validate forward and reverse recipe relationships against the same source records.
+- **Specification:** [Command Melding catalog and details](games/birth-by-sleep-final-mix.md#command-melding-catalog-and-details--accepted-2026-09-28).
+
+## DEC-031: Final Chapter is a character-style home entry below Aqua
+
+- **Status:** Accepted user placement requirement, conditioned on relevant collectible content.
+- **Date:** 2026-09-28
+- **Decision:** Place Final Chapter directly beneath Aqua on the home menu, styled as a character/story option when it has collectibles to highlight.
+- **Consequences:** Existing research identifies eight Secret Episode chest candidates and episode-specific Keyblade forms, supporting inclusion. Keep the entry with the story choices, separate from universal tools, and preserve Final Episode/Secret Episode contexts and Aqua main-story progress independently. This settles home placement without fixing the section's internal layout or certifying all candidate collectible details.
+- **Additional acquisition requirement:** Include treasure chests containing each command, identified by character/episode, world and location, with directions and links to the same canonical treasure checklist records. Chest references share acquisition state and never double-count progress.
+
+## DEC-026: Supplied BBS references define separate melding and character Reports styles
+
+- **Status:** Accepted user visual direction; references preserved locally.
+- **Date:** 2026-09-28
+- **Decision:** Mimic the supplied in-game player-menu melding UI specifically for Command Melding. Character Reports use the supplied Terra orange, Ventus green and Aqua blue frames with the shared ring-bound book composition. Use the fifth image for interior-page treatment; its character identity remains tentative.
+- **Consequences:** Supersedes the shared-blue framing and journal-styled melding assumptions in earlier decisions/specification. Retain all requested catalog, acquisition and two-way recipe functions. Screenshot labels and incidental UI are visual evidence, not new feature instructions. These Reports roots do not replace the distinct initial character-selector reference requirement.
+- **References:** [Five supplied BBS screenshots and design notes](ui/references/bbsfm/README.md).
+
+## DEC-027: Research shared categories before assigning BBS navigation scope
+
+- **Status:** Accepted information-architecture requirement; category classification under research.
+- **Date:** 2026-09-28
+- **Decision:** Separate character-specific content such as treasures and Keyblades while keeping universal information readily accessible. Explicitly investigate bestiary/The Unversed, Mirage Arena and Unversed Missions for shared versus playthrough-specific behavior, plus other categories as applicable.
+- **Consequences:** Research must distinguish universal reference definitions from character/episode availability, locations, rewards, requirements and independent saved progress. No candidate category is assumed fully universal based on its name. Produce a sourced matrix before fixing additional shared navigation placement. Preserve the already approved independent Command Melding tool.
+- **Specification:** [Shared versus playthrough-specific categories](games/birth-by-sleep-final-mix.md#shared-versus-playthrough-specific-categories--research-requested-2026-09-28).
+
+## DEC-028: Character-specific Finish Commands presentation under consideration
+
+- **Status:** User-proposed design options; exact presentation not selected.
+- **Date:** 2026-09-28
+- **Direction:** Consider a faithful Finish Commands menu or a character-specific menu/panel opened from the character section. Preserve the relevant character's progression tree and unlock requirements.
+- **Evidence:** [Supplied unlock guide](ui/references/bbsfm/finish-commands-unlock-guide.png), a third-party infographic rather than a verified native-menu screenshot. Research must verify conditions, dependencies and counter behavior, and inspect native UI before claiming an exact match.
+- **Resolved by DEC-032:** Character journal list/details are primary; View chart opens a coded fly-in chart modal.
+
+## DEC-029: Supplied selector establishes BBS root; book video is visual-only evidence
+
+- **Status:** Accepted reference direction and permitted adaptations; exact layout pending mockup.
+- **Date:** 2026-09-28
+- **Decision:** Use the supplied native three-character selector as the root reference. Its lower blue description area can hold other menu items; portrait areas may be reduced/cut to accommodate universal entries. Preserve the three character choices, independent Command Melding and Final Chapter.
+- **Book reference:** Sampled four frames from the supplied 14:33 video at 1:32, 4:21, 8:43 and 13:05, without watching it all. Distinct index and detail layouts are recorded. Character Files content/tracking is explicitly out of scope; the video informs presentation only.
+- **References:** [Selector screenshots and video sample notes](ui/references/bbsfm/README.md#character-selector-and-sampled-book-video--2026-09-28).
+
+## DEC-030: Three-column Command Melding with a separate crystal catalog
+
+- **Status:** Accepted user layout and interaction requirement.
+- **Date:** 2026-09-28
+- **Decision:** Rearrange the supplied in-game melding menu: scrollable list at left, recipes plus abilities in the middle, other information at right. Provide Commands and Crystals list tabs. Selecting a synthesis crystal opens bestiary information identifying enemies that drop it and their locations, with character flags when relevant.
+- **Consequences:** The central pane preserves producing and ingredient-use recipes plus crystal/ability mapping; the right pane holds purchase prices and enemy/chest acquisition details. Crystals are browsable independently of recipes. Reuse conditional canonical enemy-drop records, including location/shop-level/Arena distinctions. The wide-screen arrangement is settled; exact pane dimensions, crystal detail popup mechanics and responsive adaptation remain design work.
+- **Specification:** [Command Melding catalog and details](games/birth-by-sleep-final-mix.md#command-melding-catalog-and-details--accepted-2026-09-28).
+
+## DEC-032: Track Finish Commands in character journals with a coded chart modal
+
+- **Status:** Accepted user presentation and tracking requirement.
+- **Date:** 2026-09-28
+- **Decision:** List Finish Commands by name as per-character journal collectibles. Details state prerequisite finishers, then unlock conditions. A View chart link at the bottom opens a fly-in popup modal of the character's chart, recreated in code rather than displayed as a JPG.
+- **Consequences:** Journal list, details and chart share canonical finisher records and saved character-specific acquisition state. Preserve alternative parent requirements and equipped-parent conditions. Use labeled code-rendered nodes/connectors, accessible modal controls and reduced-motion behavior. Do not add automatic gameplay-counter tracking or assume unresolved reset rules.
+- **Supersedes:** DEC-028's open presentation alternatives.
+- **Specification:** [Finish Commands journal list and coded chart](games/birth-by-sleep-final-mix.md#finish-commands-journal-list-and-coded-chart--accepted-2026-09-28).
+
+## DEC-033: Equal-weight first Command Melding entry and character pills
+
+- **Status:** Accepted mockup revision; first pass positively received, final fidelity still pending.
+- **Date:** 2026-09-28
+- **Decision:** Command Melding comes first among the shared menu options and uses the same styling/size as its peers. Replace Terra/Ventus/Aqua dropdown selection with pills showing clear selected/unselected states.
+- **Consequences:** Keep active-playthrough isolation; pills include both visual and accessible selected state. Retain temporary character art while the user explores improved assets later. The current mockup is not approved as fully faithful; KH1FM/KH2FM-level reference fidelity remains the target.
+
+## DEC-034: Character hover preview and ability-first melding lookup
+
+- **Status:** Accepted user requirement; interactive mockup updated.
+- **Date:** 2026-09-28
+- **Decision:** Hovering a home character swaps to that character's visual. Add an Abilities tab to Command Melding; selecting an ability shows recipes that can make it.
+- **Consequences:** Keyboard focus also previews character artwork; activation still opens the journal. Hover does not change active character context. Ability lookup joins recipes to crystal mappings and character eligibility, displaying input levels, output commands, required crystals and probabilities while excluding no-ability outcomes. Retain Commands and Crystals tabs.
+
+## DEC-035: BBS mockup structure approved; visual fidelity remains open
+
+- **Status:** Structure accepted; visual presentation not approved.
+- **Date:** 2026-09-28
+- **Decision:** The user confirms the mockups' structure is correct but remains uncertain about UI faithfulness.
+- **Consequences:** Preserve the agreed navigation and interaction structure. Perform a dedicated visual refinement against supplied native references and the KH1FM/KH2FM standard before claiming faithful production UI. Approximate mockup styling and stand-in assets are not approved production targets. This acceptance does not certify sample content, incomplete views or app implementation.
+
+
+## DEC-036: Implement the accepted BBS structure for local review
+
+- **Status:** User authorized implementation; visual review pending.
+- **Date:** 2026-09-28
+- **Decision:** Implement the working character home, character Reports, separate episode collection and Command Melding tool in the app. Preserve the existing saved profile identities and the accepted temporary artwork boundary.
+- **Consequences:** The local build is reviewable and interactive. Research gaps remain explicit, and quarantined meld conflicts remain excluded. Planning and historical meld checks do not consume stock. No deployment or final visual-fidelity approval is implied.

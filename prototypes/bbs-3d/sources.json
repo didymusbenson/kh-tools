@@ -1,0 +1,26 @@
+[
+  {
+    "name": "station",
+    "page": "https://models.spriters-resource.com/psp/kingdomheartsbirthbysleep/asset/359417/",
+    "archiveBytes": 1824438,
+    "sha256": "18c2175c745e34784f2c8553155f773d8d1312e3b3bbc408d0ceba3b1f07992d"
+  },
+  {
+    "name": "terra",
+    "page": "https://models.spriters-resource.com/psp/kingdomheartsbirthbysleep/asset/283464/",
+    "archiveBytes": 241399,
+    "sha256": "564d18c0aed9f0e1bc2ad15be3952f8e84dcbefef70ba6090d2c5d3eb75f85f9"
+  },
+  {
+    "name": "ventus",
+    "page": "https://models.spriters-resource.com/psp/kingdomheartsbirthbysleep/asset/283463/",
+    "archiveBytes": 249097,
+    "sha256": "1e682166e51fa44a3f0bbceef66ba9ed9c9c9bdf4c916756e0bffb73003da55c"
+  },
+  {
+    "name": "aqua",
+    "page": "https://models.spriters-resource.com/psp/kingdomheartsbirthbysleep/asset/283465/",
+    "archiveBytes": 254260,
+    "sha256": "87a0e0214546334caaa9edf9b597f55eff92d7d1134cd057838c0977be137fce"
+  }
+]

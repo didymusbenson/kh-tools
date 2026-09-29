@@ -1,5 +1,7 @@
 # Reverse/Rebirth — separate campaign, separate completion
 
+Current data update: see the [2026-09-28 closure audit](data-gap-audit-2026-09-28.md). The initial research notes below retain their original evidence limits; the audit supersedes missing-field statements where data has now been filled.
+
 Research: 2026-09-28. [World preset decks](riku-decks.json) · [Enemy-card records](enemy-cards.json) · [Sleights](sleights.json).
 
 Riku's campaign unlocks after Sora's clear. It starts at Hollow Bastion on B12F, then follows selectable world groups and the fixed Destiny Islands → Twilight Town → Castle Oblivion ending floors. No 100 Acre Wood visit is present. Riku's deck is prescribed by the current world; Sora's card-buying and free deck editing are inapplicable. [Riku gameplay](https://www.khwiki.com/Riku), [World Cards](https://www.khwiki.com/World_Cards).

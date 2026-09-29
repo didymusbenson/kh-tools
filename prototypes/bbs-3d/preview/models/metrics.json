@@ -1,0 +1,100 @@
+{
+  "terra": {
+    "triangles": 1628,
+    "meshObjects": 1,
+    "materials": 3,
+    "textures": {
+      "706_p03ex00_00.png": [
+        256,
+        256
+      ],
+      "706_p03ex00_e.png": [
+        128,
+        64
+      ],
+      "706_p03ex00_m.png": [
+        32,
+        64
+      ]
+    },
+    "bytes": 268104,
+    "smdNodes": 84,
+    "skeletonFrames": 1,
+    "pose": "Authored arm-lowered pose baked from source skin weights. No animation or weapons."
+  },
+  "ventus": {
+    "triangles": 1659,
+    "meshObjects": 1,
+    "materials": 3,
+    "textures": {
+      "702_p01ex00_00.png": [
+        256,
+        256
+      ],
+      "702_p01ex00_e.png": [
+        128,
+        64
+      ],
+      "702_p01ex00_m.png": [
+        32,
+        32
+      ]
+    },
+    "bytes": 278840,
+    "smdNodes": 87,
+    "skeletonFrames": 1,
+    "pose": "Authored arm-lowered pose baked from source skin weights. No animation or weapons."
+  },
+  "aqua": {
+    "triangles": 1804,
+    "meshObjects": 1,
+    "materials": 3,
+    "textures": {
+      "704_p02ex00.png": [
+        256,
+        256
+      ],
+      "704_p02ex00_e.png": [
+        128,
+        64
+      ],
+      "704_p02ex00_m.png": [
+        32,
+        32
+      ]
+    },
+    "bytes": 293564,
+    "smdNodes": 86,
+    "skeletonFrames": 1,
+    "pose": "Authored arm-lowered pose baked from source skin weights. No animation or weapons."
+  },
+  "station": {
+    "triangles": 3229,
+    "meshObjects": 10,
+    "materials": 10,
+    "textures": {
+      "Side2.png": [
+        128,
+        256
+      ],
+      "ULC.png": [
+        512,
+        512
+      ],
+      "URC.png": [
+        512,
+        512
+      ],
+      "LLC.png": [
+        512,
+        512
+      ],
+      "LRC.png": [
+        512,
+        512
+      ]
+    },
+    "bytes": 432604,
+    "omitted": "Skybox, layered fog, deep lower pillar; platform diameter 8.995 units."
+  }
+}

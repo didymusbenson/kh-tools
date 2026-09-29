@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "scope": "Research candidates and documentation only",
+  "scope": "Initial research-only validation snapshot; superseded for current fields by followupValidation",
   "result": "pass",
   "assertionsPassed": 755,
   "jsonCatalogsChecked": 12,
@@ -41,5 +41,22 @@
     "App build/browser/unit tests: application code was not changed",
     "Connected Drive re-audit",
     "External link permanence or production media licensing approval"
-  ]
+  ],
+  "followupValidation": {
+    "date": "2026-09-28",
+    "build": "pass",
+    "unitTests": 109,
+    "runtimeEntries": 431,
+    "campaignCardCounts": {
+      "sora": 152,
+      "riku": 59
+    },
+    "cpMatrices": 44,
+    "cpCells": 440,
+    "resolvedEnemyCpConflicts": 7,
+    "eventFloorRecords": 25,
+    "browserTests": 24,
+    "audit": "data-gap-audit-2026-09-28.md",
+    "existingEntryIdsPreserved": true
+  }
 }

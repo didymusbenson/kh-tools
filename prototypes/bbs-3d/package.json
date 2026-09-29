@@ -1,0 +1,1 @@
+{"name":"bbs-3d-feasibility-prototype","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"three":"0.180.0"},"devDependencies":{"esbuild":"0.25.10"}}

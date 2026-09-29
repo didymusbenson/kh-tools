@@ -1,0 +1,385 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-reconciled; not an in-game capture",
+  "notes": "28 missing native entries: 24 World Cards, two Gimmick Cards and two Riku item cards. Sora has no Castle Oblivion World Card; Riku has no 100 Acre Wood card. Bumble-Rumble-only cards are not extra collection slots.",
+  "records": [
+    {
+      "id": "recom-sora-world-card-traverse-town",
+      "name": "Traverse Town",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 1F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-wonderland",
+      "name": "Wonderland",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 2F–6F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-olympus-coliseum",
+      "name": "Olympus Coliseum",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 2F–6F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-agrabah",
+      "name": "Agrabah",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 2F–6F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-halloween-town",
+      "name": "Halloween Town",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 2F–6F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-monstro",
+      "name": "Monstro",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 2F–6F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-atlantica",
+      "name": "Atlantica",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 7F–10F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-neverland",
+      "name": "Neverland",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 7F–10F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-hollow-bastion",
+      "name": "Hollow Bastion",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 7F–10F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-100-acre-wood",
+      "name": "100 Acre Wood",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 7F–10F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-twilight-town",
+      "name": "Twilight Town",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 11F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-world-card-destiny-islands",
+      "name": "Destiny Islands",
+      "campaign": "sora",
+      "family": "world",
+      "acquisition": "Obtained through the Sora story. Use this World Card on 12F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-sora-card-gimmick-card",
+      "name": "Gimmick Card",
+      "campaign": "sora",
+      "family": "gimmick",
+      "acquisition": "Pick up the green Mickey card during a supported boss battle. Its value is 0; it cannot be broken or stocked. Use it to create an opening against the boss.",
+      "sources": [
+        "https://www.khwiki.com/Gimmick_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "notes": [
+        {
+          "title": "Guard Armor",
+          "text": "Break a boss card: 30% chance. Using the Gimmick Card leaves the armor collapsed for 10 seconds."
+        },
+        {
+          "title": "Trickmaster",
+          "text": "Break a boss card after the furniture is destroyed: 30% chance. The card restores the table and chair."
+        },
+        {
+          "title": "Jafar",
+          "text": "Hit Jafar’s body with ice for a guaranteed card, or break a boss card for a 25% chance. The card raises all platforms until his next two moves finish."
+        },
+        {
+          "title": "Parasite Cage",
+          "text": "Break a boss card: 30% chance. The card removes the acid and platforms and prevents Dark Spray and Both Hands Strike for 10 seconds."
+        },
+        {
+          "title": "Oogie Boogie",
+          "text": "Break his Dice attack and destroy a die: 50% chance. The card lowers the fence and holds Oogie still for 13 seconds."
+        },
+        {
+          "title": "Ursula",
+          "text": "Destroy a tentacle: 25% chance. The card removes her remaining tentacles and exposes her head for 8 seconds."
+        },
+        {
+          "title": "Dragon Maleficent",
+          "text": "Break a boss card: 30% chance. The card creates a platform for 8 seconds; boarding it gives you 17 seconds to steer it."
+        },
+        {
+          "title": "Darkside",
+          "text": "Destroy every Shadow from Dark Punch for a guaranteed card. The card raises steps to his head and stops him moving for 17 seconds."
+        }
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-traverse-town",
+      "name": "Traverse Town",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B11F–B8F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-wonderland",
+      "name": "Wonderland",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B7F–B4F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-olympus-coliseum",
+      "name": "Olympus Coliseum",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B7F–B4F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-agrabah",
+      "name": "Agrabah",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B11F–B8F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-halloween-town",
+      "name": "Halloween Town",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B7F–B4F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-monstro",
+      "name": "Monstro",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B11F–B8F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-atlantica",
+      "name": "Atlantica",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B7F–B4F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-neverland",
+      "name": "Neverland",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B11F–B8F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-hollow-bastion",
+      "name": "Hollow Bastion",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B12F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-twilight-town",
+      "name": "Twilight Town",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B2F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-destiny-islands",
+      "name": "Destiny Islands",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B3F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-world-card-castle-oblivion",
+      "name": "Castle Oblivion",
+      "campaign": "riku",
+      "family": "world",
+      "acquisition": "Obtained through the Reverse/Rebirth story. Use this World Card on B1F.",
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-card-gimmick-card",
+      "name": "Gimmick Card",
+      "campaign": "riku",
+      "family": "gimmick",
+      "acquisition": "Pick up the green Mickey card during a supported boss battle. Its value is 0; it cannot be broken or stocked. Use it to create an opening against the boss.",
+      "sources": [
+        "https://www.khwiki.com/Gimmick_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ],
+      "notes": [
+        {
+          "title": "Guard Armor",
+          "text": "Break a boss card: 30% chance. Using the Gimmick Card leaves the armor collapsed for 10 seconds."
+        },
+        {
+          "title": "Trickmaster",
+          "text": "Break a boss card after the furniture is destroyed: 30% chance. The card restores the table and chair."
+        },
+        {
+          "title": "Jafar",
+          "text": "Break a boss card: 25% chance. The card raises all platforms until his next two moves finish."
+        },
+        {
+          "title": "Parasite Cage",
+          "text": "Break a boss card: 30% chance. The card removes the acid and platforms and prevents Dark Spray and Both Hands Strike for 10 seconds."
+        },
+        {
+          "title": "Oogie Boogie",
+          "text": "Break his Dice attack and destroy a die: 10% chance. The card lowers the fence and holds Oogie still for 12 seconds."
+        },
+        {
+          "title": "Ursula",
+          "text": "Destroy a tentacle: 20% chance. The card removes her remaining tentacles and exposes her head for 8 seconds."
+        },
+        {
+          "title": "Dragon Maleficent",
+          "text": "Break a boss card: 20% chance. The card creates a platform for 8 seconds; boarding it gives you 17 seconds to steer it."
+        },
+        {
+          "title": "Darkside",
+          "text": "Destroy every Shadow from Dark Punch for a guaranteed card. The card raises steps to his head and stops him moving for 17 seconds."
+        }
+      ]
+    },
+    {
+      "id": "recom-riku-card-potion",
+      "name": "Potion",
+      "campaign": "riku",
+      "family": "battle",
+      "acquisition": "Automatically included in the Twilight Town deck. Reloads attack cards that are still reloadable.",
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    },
+    {
+      "id": "recom-riku-card-hi-potion",
+      "name": "Hi-Potion",
+      "campaign": "riku",
+      "family": "battle",
+      "acquisition": "Automatically included in Olympus Coliseum, Destiny Islands and Castle Oblivion decks. Reloads attack cards, including those spent in sleights.",
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
+      ]
+    }
+  ]
+}

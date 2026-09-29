@@ -1,0 +1,19 @@
+{
+  "state": "settled (no render loop)",
+  "triangles": 8320,
+  "drawCalls": 19,
+  "loadedTextures": 14,
+  "loadedGeometries": 19,
+  "devicePixelRatio": 1,
+  "canvas": [
+    960,
+    606
+  ],
+  "firstReadyMs": 48,
+  "renderedFrames": 90,
+  "transitionSamples": 85,
+  "medianFrameIntervalMs": 16.7,
+  "p95FrameIntervalMs": 16.7,
+  "p95CpuRenderMs": 0.6,
+  "embeddedBufferBytes": 1251884
+}

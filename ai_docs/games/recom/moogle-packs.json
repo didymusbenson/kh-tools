@@ -2,7 +2,7 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
+  "status": "Source-backed journal data; not independently gameplay-verified",
   "notes": "16 tier/type prices, Re:CoM shop table. No promise of a particular card/value from a random pack.",
   "records": [
     {
@@ -16,7 +16,18 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "1": 2,
+        "2–6": 4,
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-grass-magic",
@@ -29,7 +40,48 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "1": 2,
+        "2–6": 4,
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder",
+        "https://www.khwiki.com/Cure",
+        "https://www.khwiki.com/Gravity",
+        "https://www.khwiki.com/Stop",
+        "https://www.khwiki.com/Aero",
+        "https://www.khwiki.com/Simba",
+        "https://www.khwiki.com/Genie",
+        "https://www.khwiki.com/Bambi",
+        "https://www.khwiki.com/Dumbo",
+        "https://www.khwiki.com/Tinker_Bell",
+        "https://www.khwiki.com/Mushu",
+        "https://www.khwiki.com/Cloud"
+      ],
+      "cardRates": {
+        "Fire": 20.0,
+        "Blizzard": 20.0,
+        "Thunder": 20.0,
+        "Cure": 10.0,
+        "Gravity": 0,
+        "Stop": 0,
+        "Aero": 0,
+        "Simba": 10.0,
+        "Genie": 10.0,
+        "Bambi": 0,
+        "Dumbo": 10.0,
+        "Tinker Bell": 0,
+        "Mushu": 0,
+        "Cloud": 0
+      }
     },
     {
       "id": "recom-shop-grass-item",
@@ -42,7 +94,34 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "1": 2,
+        "2–6": 4,
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Potion",
+        "https://www.khwiki.com/Hi-Potion",
+        "https://www.khwiki.com/Mega-Potion",
+        "https://www.khwiki.com/Ether",
+        "https://www.khwiki.com/Mega-Ether",
+        "https://www.khwiki.com/Elixir",
+        "https://www.khwiki.com/Megalixir"
+      ],
+      "cardRates": {
+        "Potion": 50.0,
+        "Hi-Potion": 0,
+        "Mega-Potion": 0,
+        "Ether": 50.0,
+        "Mega-Ether": 0,
+        "Elixir": 0,
+        "Megalixir": 0
+      }
     },
     {
       "id": "recom-shop-grass-assorted",
@@ -55,7 +134,18 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "1": 2,
+        "2–6": 4,
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-brown-attack",
@@ -68,7 +158,16 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 2,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-brown-magic",
@@ -81,7 +180,46 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 2,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder",
+        "https://www.khwiki.com/Cure",
+        "https://www.khwiki.com/Gravity",
+        "https://www.khwiki.com/Stop",
+        "https://www.khwiki.com/Aero",
+        "https://www.khwiki.com/Simba",
+        "https://www.khwiki.com/Genie",
+        "https://www.khwiki.com/Bambi",
+        "https://www.khwiki.com/Dumbo",
+        "https://www.khwiki.com/Tinker_Bell",
+        "https://www.khwiki.com/Mushu",
+        "https://www.khwiki.com/Cloud"
+      ],
+      "cardRates": {
+        "Fire": 7.0,
+        "Blizzard": 7.0,
+        "Thunder": 7.0,
+        "Cure": 10.0,
+        "Gravity": 6.0,
+        "Stop": 6.0,
+        "Aero": 6.0,
+        "Simba": 15.0,
+        "Genie": 15.0,
+        "Bambi": 0,
+        "Dumbo": 15.0,
+        "Tinker Bell": 0,
+        "Mushu": 0,
+        "Cloud": 6.0
+      }
     },
     {
       "id": "recom-shop-brown-item",
@@ -94,7 +232,32 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 2,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Potion",
+        "https://www.khwiki.com/Hi-Potion",
+        "https://www.khwiki.com/Mega-Potion",
+        "https://www.khwiki.com/Ether",
+        "https://www.khwiki.com/Mega-Ether",
+        "https://www.khwiki.com/Elixir",
+        "https://www.khwiki.com/Megalixir"
+      ],
+      "cardRates": {
+        "Potion": 30.0,
+        "Hi-Potion": 20.0,
+        "Mega-Potion": 0,
+        "Ether": 30.0,
+        "Mega-Ether": 20.0,
+        "Elixir": 0,
+        "Megalixir": 0
+      }
     },
     {
       "id": "recom-shop-brown-assorted",
@@ -107,7 +270,16 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 2,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-black-attack",
@@ -120,20 +292,68 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-black-magic",
       "tier": "Black",
       "kind": "magic",
-      "priceMooglePoints": 270,
+      "priceMooglePoints": 350,
       "floorRange": [
         7,
         13
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder",
+        "https://www.khwiki.com/Cure",
+        "https://www.khwiki.com/Gravity",
+        "https://www.khwiki.com/Stop",
+        "https://www.khwiki.com/Aero",
+        "https://www.khwiki.com/Simba",
+        "https://www.khwiki.com/Genie",
+        "https://www.khwiki.com/Bambi",
+        "https://www.khwiki.com/Dumbo",
+        "https://www.khwiki.com/Tinker_Bell",
+        "https://www.khwiki.com/Mushu",
+        "https://www.khwiki.com/Cloud"
+      ],
+      "cardRates": {
+        "Fire": 5.0,
+        "Blizzard": 5.0,
+        "Thunder": 5.0,
+        "Cure": 6.0,
+        "Gravity": 10.0,
+        "Stop": 10.0,
+        "Aero": 10.0,
+        "Simba": 3.0,
+        "Genie": 3.0,
+        "Bambi": 10.0,
+        "Dumbo": 3.0,
+        "Tinker Bell": 10.0,
+        "Mushu": 10.0,
+        "Cloud": 10.0
+      }
     },
     {
       "id": "recom-shop-black-item",
@@ -146,7 +366,32 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Potion",
+        "https://www.khwiki.com/Hi-Potion",
+        "https://www.khwiki.com/Mega-Potion",
+        "https://www.khwiki.com/Ether",
+        "https://www.khwiki.com/Mega-Ether",
+        "https://www.khwiki.com/Elixir",
+        "https://www.khwiki.com/Megalixir"
+      ],
+      "cardRates": {
+        "Potion": 10.0,
+        "Hi-Potion": 25.0,
+        "Mega-Potion": 15.0,
+        "Ether": 10.0,
+        "Mega-Ether": 25.0,
+        "Elixir": 15.0,
+        "Megalixir": 0
+      }
     },
     {
       "id": "recom-shop-black-assorted",
@@ -159,7 +404,16 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "7–10": 1,
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-mog-attack",
@@ -172,20 +426,66 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     },
     {
       "id": "recom-shop-mog-magic",
       "tier": "Mog",
       "kind": "magic",
-      "priceMooglePoints": 300,
+      "priceMooglePoints": 400,
       "floorRange": [
         11,
         13
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder",
+        "https://www.khwiki.com/Cure",
+        "https://www.khwiki.com/Gravity",
+        "https://www.khwiki.com/Stop",
+        "https://www.khwiki.com/Aero",
+        "https://www.khwiki.com/Simba",
+        "https://www.khwiki.com/Genie",
+        "https://www.khwiki.com/Bambi",
+        "https://www.khwiki.com/Dumbo",
+        "https://www.khwiki.com/Tinker_Bell",
+        "https://www.khwiki.com/Mushu",
+        "https://www.khwiki.com/Cloud"
+      ],
+      "cardRates": {
+        "Fire": 2.0,
+        "Blizzard": 2.0,
+        "Thunder": 2.0,
+        "Cure": 0,
+        "Gravity": 10.0,
+        "Stop": 10.0,
+        "Aero": 10.0,
+        "Simba": 0,
+        "Genie": 0,
+        "Bambi": 16.0,
+        "Dumbo": 0,
+        "Tinker Bell": 16.0,
+        "Mushu": 16.0,
+        "Cloud": 16.0
+      }
     },
     {
       "id": "recom-shop-mog-item",
@@ -198,7 +498,31 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "https://www.khwiki.com/Potion",
+        "https://www.khwiki.com/Hi-Potion",
+        "https://www.khwiki.com/Mega-Potion",
+        "https://www.khwiki.com/Ether",
+        "https://www.khwiki.com/Mega-Ether",
+        "https://www.khwiki.com/Elixir",
+        "https://www.khwiki.com/Megalixir"
+      ],
+      "cardRates": {
+        "Potion": 0,
+        "Hi-Potion": 20.0,
+        "Mega-Potion": 25.0,
+        "Ether": 0,
+        "Mega-Ether": 25.0,
+        "Elixir": 20.0,
+        "Megalixir": 10.0
+      }
     },
     {
       "id": "recom-shop-mog-assorted",
@@ -211,7 +535,15 @@
       ],
       "cardsPerPack": 5,
       "source": "https://www.khwiki.com/Moogle_Shop",
-      "verification": "source-inspected; pack probability matrix not extracted"
+      "verification": "Re:CoM price and floor stock reconciled; magic/item identity weights extracted from explicit remake tables",
+      "stockByFloor": {
+        "11–13": 1
+      },
+      "sources": [
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops"
+      ]
     }
   ]
 }

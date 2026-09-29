@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 const guides = [
   ["kh2fm", "treasures"],
-  ["bbsfm", "treasures"],
+  // BBS uses its character book UI; equivalent persistence/fit coverage is in bbs-ux.spec.ts.
   ["dddhd", "treasures"],
   ["kh02", "treasures"],
   ["kh3", "treasures"],
@@ -63,7 +63,7 @@ test("workshop uses material targets, inline sources and isolated games", async 
   );
   await page.goto("./#/bbsfm/workshop/plan");
   await expect(
-    page.getByText("Your farming plan is empty.", { exact: false }),
+    page.getByText("Your farming plan is empty for this character.", { exact: true }),
   ).toBeVisible();
 });
 test("character filters and alias checks share the right records", async ({
@@ -71,11 +71,11 @@ test("character filters and alias checks share the right records", async ({
 }) => {
   await page.goto("./#/bbsfm/treasures");
   await page
-    .getByRole("combobox", { name: "Campaign", exact:true })
-    .selectOption("Terra");
-  await expect(page.locator(".guide-row")).not.toHaveCount(0);
+    .getByRole("button", { name: "Terra", exact:true })
+    .click();
+  await expect(page.locator(".bbs-record-row")).not.toHaveCount(0);
   for (const label of await page
-    .locator(".guide-check input")
+    .locator(".bbs-record-row input")
     .evaluateAll((inputs) =>
       inputs.map((input) => input.getAttribute("aria-label")),
     ))

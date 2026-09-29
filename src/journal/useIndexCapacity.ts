@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 
 /** Keep compact rows, and spend the available leaf height on more entries. */
-export function useIndexCapacity(scope: string, minimumRowHeight = 44) {
+export function useIndexCapacity(scope: string, minimumRowHeight = 44, grid = false) {
   const ref = useRef<HTMLElement>(null);
   const [capacity, setCapacity] = useState(5);
   const measured = useRef({scope: '', width: 0, height: 0, row: minimumRowHeight});
@@ -19,7 +19,10 @@ export function useIndexCapacity(scope: string, minimumRowHeight = 44) {
       const row = Math.max(minimumRowHeight, sameSpace ? previous.row : 0,
         ...Array.from(node.children, child => child.getBoundingClientRect().height));
       measured.current = {scope, width, height, row};
-      setCapacity(Math.max(1, Math.floor(height / row)));
+      const style = getComputedStyle(node);
+      const columns = grid ? style.gridTemplateColumns.split(' ').length : 1;
+      const gap = grid ? parseFloat(style.rowGap) || 0 : 0;
+      setCapacity(Math.max(1, Math.floor((height + gap) / (row + gap))) * columns);
     };
     const observer = new ResizeObserver(measure);
     observer.observe(node);

@@ -2,7 +2,7 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
+  "status": "Source-backed journal data; not independently gameplay-verified",
   "notes": "31 records: 7 magic, 7 summons, 7 items, 8 friends, 2 specials. Not a full Card Index denominator: map/world/gimmick/minigame cards and Riku are separate. Friends are battle pickups, not permanent deck copies.",
   "records": [
     {
@@ -13,7 +13,64 @@
       "acquisition": "Axel encounter at 1F exit.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
+      "premiumCp": 15,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Fire"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 10.0,
+          "Agrabah": 10.0,
+          "Monstro": 12.0,
+          "Halloween Town": 10.0,
+          "Atlantica": 0,
+          "Neverland": 8.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 15.0,
+          "Twilight Town": 8.0,
+          "Destiny Islands": 8.0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 10.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 10.0,
+          "Monstro": 20.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 10.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 5.0
+        }
+      },
+      "shopRates": {
+        "Grass": 20.0,
+        "Brown": 7.0,
+        "Black": 5.0,
+        "Mog": 2.0
+      }
     },
     {
       "id": "recom-card-magic-blizzard",
@@ -23,7 +80,64 @@
       "acquisition": "Traverse Town tutorial: break the barrel in Unknown Room.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
+      "premiumCp": 15,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Blizzard"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 4.5,
+          "Wonderland": 4.0,
+          "Olympus Coliseum": 1.2,
+          "Agrabah": 1.5,
+          "Monstro": 1.2,
+          "Halloween Town": 2.2,
+          "Atlantica": 1.6,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0.5,
+          "Destiny Islands": 7.2,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 5.3,
+          "Wonderland": 3.5,
+          "Olympus Coliseum": 4.5,
+          "Agrabah": 3.8,
+          "Monstro": 1.5,
+          "Halloween Town": 3.5,
+          "Atlantica": 3.0,
+          "Neverland": 1.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 6.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 5.0
+        }
+      },
+      "shopRates": {
+        "Grass": 20.0,
+        "Brown": 7.0,
+        "Black": 5.0,
+        "Mog": 2.0
+      }
     },
     {
       "id": "recom-card-magic-thunder",
@@ -33,7 +147,64 @@
       "acquisition": "Larxene encounter at 6F exit.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 15,
+        "2": 16,
+        "3": 17,
+        "4": 18,
+        "5": 19,
+        "6": 20,
+        "7": 21,
+        "8": 22,
+        "9": 23,
+        "0": 24
+      },
+      "premiumCp": 15,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Thunder"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 9.0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 25.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 12.0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 15.0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 15.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 10.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 5.0
+        }
+      },
+      "shopRates": {
+        "Grass": 20.0,
+        "Brown": 7.0,
+        "Black": 5.0,
+        "Mog": 2.0
+      }
     },
     {
       "id": "recom-card-magic-cure",
@@ -43,7 +214,64 @@
       "acquisition": "Starting deck.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
+      "premiumCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Cure"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 6.8,
+          "Wonderland": 0,
+          "Olympus Coliseum": 3.6,
+          "Agrabah": 1.5,
+          "Monstro": 4.7,
+          "Halloween Town": 4.3,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0.5,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.8
+        },
+        "Bounty": {
+          "Traverse Town": 7.0,
+          "Wonderland": 7.0,
+          "Olympus Coliseum": 4.5,
+          "Agrabah": 3.8,
+          "Monstro": 2.3,
+          "Halloween Town": 3.5,
+          "Atlantica": 0,
+          "Neverland": 1.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 4.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 10.0,
+        "Brown": 10.0,
+        "Black": 6.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-magic-gravity",
@@ -53,7 +281,64 @@
       "acquisition": "Agrabah Bounty.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Gravity"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 4.0,
+          "Agrabah": 10.0,
+          "Monstro": 6.0,
+          "Halloween Town": 8.0,
+          "Atlantica": 5.0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 5.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 4.0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 10.0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 15.0,
+          "Hollow Bastion": 10.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 2.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 6.0,
+        "Black": 10.0,
+        "Mog": 10.0
+      }
     },
     {
       "id": "recom-card-magic-stop",
@@ -63,7 +348,64 @@
       "acquisition": "Wonderland Bounty.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Stop"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 6.0,
+          "Monstro": 5.0,
+          "Halloween Town": 8.0,
+          "Atlantica": 10.0,
+          "Neverland": 5.0,
+          "Hollow Bastion": 6.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 4.0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 10.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 15.0,
+          "Neverland": 0,
+          "Hollow Bastion": 10.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 2.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 6.0,
+        "Black": 10.0,
+        "Mog": 10.0
+      }
     },
     {
       "id": "recom-card-magic-aero",
@@ -73,7 +415,64 @@
       "acquisition": "Riku Replica encounter at 7F exit.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Magic_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Magic_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Aero"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 15.0,
+          "Neverland": 20.0,
+          "Hollow Bastion": 15.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 4.0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 15.0,
+          "Neverland": 20.0,
+          "Hollow Bastion": 12.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 5.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 6.0,
+        "Black": 10.0,
+        "Mog": 10.0
+      }
     },
     {
       "id": "recom-card-summon-simba",
@@ -83,7 +482,64 @@
       "acquisition": "Traverse Town: finish Room of Beginnings.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Simba"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 5.0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 10.0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 10.0,
+        "Brown": 15.0,
+        "Black": 3.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-summon-genie",
@@ -93,7 +549,64 @@
       "acquisition": "Agrabah: finish Room of Truth.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Genie"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 7.0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 10.0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 10.0,
+        "Brown": 15.0,
+        "Black": 3.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-summon-bambi",
@@ -103,7 +616,64 @@
       "acquisition": "Complete 100 Acre Wood.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Bambi"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 10.0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 10.0,
+        "Mog": 16.0
+      }
     },
     {
       "id": "recom-card-summon-dumbo",
@@ -113,7 +683,64 @@
       "acquisition": "Monstro: finish Room of Truth.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Dumbo"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 7.0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 15.0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 10.0,
+        "Brown": 15.0,
+        "Black": 3.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-summon-tinker-bell",
@@ -123,7 +750,64 @@
       "acquisition": "Neverland: finish Room of Truth.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "premiumCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Tinker_Bell"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 10.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 10.0,
+        "Mog": 16.0
+      }
     },
     {
       "id": "recom-card-summon-mushu",
@@ -133,7 +817,64 @@
       "acquisition": "Hollow Bastion: base Room of Rewards chest.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
+      "premiumCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Mushu"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 10.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 15.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 10.0,
+        "Mog": 16.0
+      }
     },
     {
       "id": "recom-card-summon-cloud",
@@ -143,7 +884,64 @@
       "acquisition": "Olympus Coliseum: finish Room of Truth.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Summon_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 25,
+        "2": 27,
+        "3": 29,
+        "4": 31,
+        "5": 33,
+        "6": 35,
+        "7": 37,
+        "8": 39,
+        "9": 41,
+        "0": 43
+      },
+      "premiumCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Summon_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Cloud"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 10.0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 10.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 1.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 15.0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 6.0,
+        "Black": 10.0,
+        "Mog": 16.0
+      }
     },
     {
       "id": "recom-card-item-potion",
@@ -153,7 +951,63 @@
       "acquisition": "Starting deck.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 30,
+        "2": 33,
+        "3": 36,
+        "4": 39,
+        "5": 42,
+        "6": 45,
+        "7": 48,
+        "8": 51,
+        "9": 54,
+        "0": 57
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Potion"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 6.8,
+          "Wonderland": 4.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 3.9,
+          "Halloween Town": 6.5,
+          "Atlantica": 3.1,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 5.3,
+          "Wonderland": 3.5,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 3.5,
+          "Atlantica": 0,
+          "Neverland": 1.0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 50.0,
+        "Brown": 30.0,
+        "Black": 10.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-item-hi-potion",
@@ -163,7 +1017,63 @@
       "acquisition": "Olympus Coliseum: finish Room of Guidance.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 40,
+        "2": 44,
+        "3": 48,
+        "4": 52,
+        "5": 56,
+        "6": 60,
+        "7": 64,
+        "8": 68,
+        "9": 72,
+        "0": 76
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Hi-Potion"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 7.0,
+          "Olympus Coliseum": 7.0,
+          "Agrabah": 6.0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 4.0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 10.0,
+          "Agrabah": 0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 20.0,
+        "Black": 25.0,
+        "Mog": 20.0
+      }
     },
     {
       "id": "recom-card-item-mega-potion",
@@ -173,7 +1083,63 @@
       "acquisition": "Riku Replica encounter at 11F exit.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 45,
+        "2": 49,
+        "3": 53,
+        "4": 57,
+        "5": 61,
+        "6": 65,
+        "7": 69,
+        "8": 73,
+        "9": 77,
+        "0": 81
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Mega-Potion"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 1.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 5.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 15.0,
+        "Mog": 25.0
+      }
     },
     {
       "id": "recom-card-item-ether",
@@ -183,7 +1149,63 @@
       "acquisition": "Agrabah: finish Room of Guidance.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 20,
+        "2": 22,
+        "3": 24,
+        "4": 26,
+        "5": 28,
+        "6": 30,
+        "7": 32,
+        "8": 34,
+        "9": 36,
+        "0": 38
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Ether"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 7.0,
+          "Olympus Coliseum": 5.0,
+          "Agrabah": 10.0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 3.0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 3.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 5.0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 10.0,
+          "Monstro": 5.0,
+          "Halloween Town": 5.0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 5.0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 0
+        }
+      },
+      "shopRates": {
+        "Grass": 50.0,
+        "Brown": 30.0,
+        "Black": 10.0,
+        "Mog": 0
+      }
     },
     {
       "id": "recom-card-item-mega-ether",
@@ -193,7 +1215,63 @@
       "acquisition": "First Whirlwind Plunge clear.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 35,
+        "2": 38,
+        "3": 41,
+        "4": 44,
+        "5": 47,
+        "6": 50,
+        "7": 53,
+        "8": 56,
+        "9": 59,
+        "0": 62
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Mega-Ether"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 1.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 6.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 20.0,
+        "Black": 25.0,
+        "Mog": 25.0
+      }
     },
     {
       "id": "recom-card-item-elixir",
@@ -203,7 +1281,63 @@
       "acquisition": "First Bumble-Rumble clear.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 45,
+        "2": 49,
+        "3": 53,
+        "4": 57,
+        "5": 61,
+        "6": 65,
+        "7": 69,
+        "8": 73,
+        "9": 77,
+        "0": 81
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Elixir"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 5.0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 2.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 5.0,
+          "Castle Oblivion": 3.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 15.0,
+        "Mog": 20.0
+      }
     },
     {
       "id": "recom-card-item-megalixir",
@@ -213,7 +1347,63 @@
       "acquisition": "Destiny Islands: base Room of Rewards chest.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Item_Card",
-      "verification": "source-inspected candidate"
+      "verification": "Re:CoM CP/value matrix reconciled",
+      "cpByValue": {
+        "1": 50,
+        "2": 55,
+        "3": 60,
+        "4": 65,
+        "5": 70,
+        "6": 75,
+        "7": 80,
+        "8": 85,
+        "9": 90,
+        "0": 95
+      },
+      "sources": [
+        "https://www.khwiki.com/Item_Card",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.khwiki.com/Megalixir"
+      ],
+      "randomSources": {
+        "Field drop": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 3.0,
+          "Castle Oblivion": 4.0
+        },
+        "Bounty": {
+          "Traverse Town": 0,
+          "Wonderland": 0,
+          "Olympus Coliseum": 0,
+          "Agrabah": 0,
+          "Monstro": 0,
+          "Halloween Town": 0,
+          "Atlantica": 0,
+          "Neverland": 0,
+          "Hollow Bastion": 0,
+          "100 Acre Wood": 0,
+          "Twilight Town": 0,
+          "Destiny Islands": 0,
+          "Castle Oblivion": 2.0
+        }
+      },
+      "shopRates": {
+        "Grass": 0,
+        "Brown": 0,
+        "Black": 0,
+        "Mog": 10.0
+      }
     },
     {
       "id": "recom-card-friend-donald-duck",
@@ -300,20 +1490,50 @@
       "name": "Gold Card",
       "family": "special",
       "campaign": "sora",
-      "acquisition": "Bounty after ordinary Card Collection completion; exact unlock predicate needs modern independent check.",
+      "acquisition": "Collect all 150 other card types, including the Days bonus cards. Open a new Bounty-room chest to obtain Gold Card.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Special_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "cp": 99,
+      "notes": [
+        {
+          "title": "Effect",
+          "text": "Premium Guard allows Premium cards to reload for five reloads."
+        },
+        {
+          "title": "Finding the chest",
+          "text": "Create a Calm Bounty, Guarded Trove or False Bounty room. Collect any earlier world-specific bounty rewards, then create another room. Castle Oblivion on 13F is a convenient place to finish this sequence."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/69856569?page=1",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3275455575"
+      ]
     },
     {
       "id": "recom-card-special-platinum-card",
       "name": "Platinum Card",
       "family": "special",
       "campaign": "sora",
-      "acquisition": "Bounty after ordinary Card Collection completion; Gold-before-Platinum sequencing needs modern independent check.",
+      "acquisition": "After obtaining Gold Card, open another new Bounty-room chest to obtain Platinum Card.",
       "permanentDeckInventory": true,
       "source": "https://www.khwiki.com/Special_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "cp": 99,
+      "notes": [
+        {
+          "title": "Effect",
+          "text": "Invincible prevents damage for 20 attacks."
+        },
+        {
+          "title": "Finding the chest",
+          "text": "Create a Calm Bounty, Guarded Trove or False Bounty room. Collect any earlier world-specific bounty rewards, then create another room. Castle Oblivion on 13F is a convenient place to finish this sequence."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/69856569?page=1",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3275455575"
+      ]
     }
   ]
 }

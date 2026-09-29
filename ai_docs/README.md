@@ -18,6 +18,7 @@ All user-requested features and specified games are MVP scope unless the user ex
 
 - [Re:Chain of Memories HD journal](./implementation/recom-hd-journal.md) — working Sora/Riku interfaces, sourced catalogue, persistence, offline validation and remaining boundaries
 
+- [BBS review and approval checklist](./implementation/bbsfm-review-checklist.md) — personal review queue, working preview links, approval notes and research follow-ups
 - [Verification and remaining acceptance boundaries](./implementation/verification.md)
 - [Collection reconciliation](./implementation/collectibles.md)
 - [Reference data and conflicts](./implementation/reference-data.md)
