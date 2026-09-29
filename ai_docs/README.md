@@ -16,6 +16,8 @@ All user-requested features and specified games are MVP scope unless the user ex
 
 ## Implementation reports
 
+- [Re:Chain of Memories HD journal](./implementation/recom-hd-journal.md) — working Sora/Riku interfaces, sourced catalogue, persistence, offline validation and remaining boundaries
+
 - [Verification and remaining acceptance boundaries](./implementation/verification.md)
 - [Collection reconciliation](./implementation/collectibles.md)
 - [Reference data and conflicts](./implementation/reference-data.md)
@@ -45,6 +47,10 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 ## Detailed specifications
 
+- [Re:Chain of Memories research pack](./games/recom/README.md) — 2026-09-28 factfinding, both campaigns, structured inventories, sources and remaining gaps
+- [Re:Chain of Memories coverage audit](./research/recom-2026-09-28-coverage-and-gap-research.md)
+- [Re:Chain of Memories HD menu design research](./ui/recom-menu-design-research.md) — distinct Journal, D-Report and system-menu compositions
+- [Re:Chain of Memories HD reference workbook](./ui/references/recom/README.md) — 24 inspected references and capture provenance
 - [Data Jiminy: offline AI assistant and disclaimer](./data-jiminy.md)
 - [First-class synthesis and optional inventory](./content/synthesis-and-inventory.md)
 - [App testing and content validation](./testing-and-content-validation.md)

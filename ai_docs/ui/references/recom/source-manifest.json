@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-09-28",
+  "scope": "HD 1.5 ReMIX Re:Chain of Memories visual research; original PS2/GBA imagery excluded",
+  "full_videos_watched": false,
+  "sources": [
+    {
+      "id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI",
+      "title": "Kingdom Hearts Re:Chain of Memories 1.5 HD - Jiminy's Journal Sora",
+      "creator": "RantsiArchives",
+      "published": "2019-01-27",
+      "edition_evidence": "Uploader labels 1.5 HD; inspected Midnight Roar card corroborates HD roster; page game metadata identifies HD 1.5 + 2.5 collection.",
+      "exact_recording_platform": null
+    },
+    {
+      "id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw",
+      "title": "Kingdom Hearts Re:Chain of Memories 1.5 HD - D Report Riku",
+      "creator": "RantsiArchives",
+      "published": "2019-01-27",
+      "edition_evidence": "Uploader labels 1.5 HD; companion footage with matching HD presentation.",
+      "exact_recording_platform": null
+    },
+    {
+      "id": "COM-UI-O",
+      "url": "https://www.jp.square-enix.com/kingdom/khhd/khrecom.html",
+      "title": "Re:Chain of Memories \u2014 HD 1.5 ReMIX official website",
+      "creator": "Square Enix",
+      "edition_evidence": "First-party HD 1.5 ReMIX system panels; excludes SD comparison assets.",
+      "language": "Japanese"
+    }
+  ],
+  "captures": [
+    {
+      "id": "S01",
+      "file": "sora-pause-menu-0007.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=7s",
+      "playback_seconds": 7.499997,
+      "screen": "Player menu",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "c9008c4e6658024434ecb8bf7f6fa891766b24143d80cfb8b5754dfc94ca6a85",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S02",
+      "file": "sora-journal-root-0010.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=10s",
+      "playback_seconds": 10.5,
+      "screen": "Journal root",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "3306a442d57a896935f38fac903f13e0e23e835eb564c82d3e2b929a74a0c145",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S03",
+      "file": "sora-story-list-0012.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=12s",
+      "playback_seconds": 12.3,
+      "screen": "Story list",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "b203671e1fee6489e62f8b1d947d3d0e4a590eac361e31ea8b70c9845c90c203",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S04",
+      "file": "sora-story-0018.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=18s",
+      "playback_seconds": 18.4,
+      "screen": "Story detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "10a6631ae702d736618b71545f906068c9e84bb11401db621220d482a2dfd533",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S05",
+      "file": "sora-card-collection-0520.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=320s",
+      "playback_seconds": 320.299999,
+      "screen": "Card Collection",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "2d421388e0f0d089c5a2e9037e240883d26dbef1317a019eafc7e4518ba46591",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S06",
+      "file": "sora-card-categories-0530.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=330s",
+      "playback_seconds": 330.299999,
+      "screen": "Card Index category list",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "6c3e492f5b631dcc57775460d26f27882733ed324af7b5c38d03460a94efa34f",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S07",
+      "file": "sora-attack-detail-0542.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=342s",
+      "playback_seconds": 342.399999,
+      "screen": "Three Wishes detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "a97c4931b7dab6afa770f87faed58adea54b66545304ab75faed8a8523b31fe7",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S08",
+      "file": "sora-midnight-roar-0710.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=430s",
+      "playback_seconds": 430.299999,
+      "screen": "Midnight Roar detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "d3aeeaa584779e39802eae783bb453542bf79e6012c5c9a95424cc58e6b8a198",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S09",
+      "file": "sora-map-card-1420.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=860s",
+      "playback_seconds": 860.299999,
+      "screen": "Feeble Darkness detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "6de38131278bbbb146805e323baf92f51516813a2d1e7b18b81e1409ff593e5f",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S10",
+      "file": "sora-gimmick-card-1612.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=972s",
+      "playback_seconds": 972.299999,
+      "screen": "Gimmick Cards detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "b62a767490b22f69e1e8f1d78786b07cebf9416a2422c7da072c9969a1fbefe8",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S11",
+      "file": "sora-special-card-1622.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=982s",
+      "playback_seconds": 982.299999,
+      "screen": "Gold Card detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "4937e94c15eaa1e08e7a41f6b74a6cfcebb174a7ebf9f53e26953dee15c91419",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S12",
+      "file": "sora-character-list-1640.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=1000s",
+      "playback_seconds": 1000.299999,
+      "screen": "Characters I list",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "5cba14a66890aa663d329162753c7f7b8768fa61928dcdf864e3d51c96aabae3",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S13",
+      "file": "sora-character-detail-1650.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=1010s",
+      "playback_seconds": 1010.299999,
+      "screen": "Sora character detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "1f767362517e70be8a3aaddfddd40c56ff26f10628dcfb4d1b31333dc482e685",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S14",
+      "file": "sora-minigames-4602.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=2762s",
+      "playback_seconds": 2762.3,
+      "screen": "Mini-games records",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "6a0eb5e9467bbaf08cf8b84f5a4f8c46f2e59bf561b14ce8d28a60d3160f2f99",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "S15",
+      "file": "sora-status-4610.png",
+      "source_id": "COM-UI-S",
+      "url": "https://www.youtube.com/watch?v=hb2RFXT5tDI&t=2770s",
+      "playback_seconds": 2770.3,
+      "screen": "Status",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "3073fd1b8c950ce6f1c7e7c77885c40cfa81a5055476bb75f8da143e02e91ffb",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R01",
+      "file": "riku-root-0002.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=2s",
+      "playback_seconds": 1.999999,
+      "screen": "D-Report root",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "6f661db124e42445184a6324c750fefdc63cf0c6fd4fdcd8f5005fa57aa86272",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R02",
+      "file": "riku-story-0008.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=8s",
+      "playback_seconds": 8.499997,
+      "screen": "Story detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "8576ae0aa8f0c4e7741ab02c86e7742bd8a47a17dfcc9c981ee4b53908a5d263",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R03",
+      "file": "riku-card-collection-0225.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=145s",
+      "playback_seconds": 145,
+      "screen": "Card Collection",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "4cff53bde92c8252de35800e1adc24f207a80319676302e0ccbb3df6699afdf5",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R04",
+      "file": "riku-card-categories-0240.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=160s",
+      "playback_seconds": 160.5,
+      "screen": "Card Index category list",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "ab0c5edc53f5498cb1e6d70ef4e5c1b1bd6f30bd7aee2afe0f4dd8409aa789f6",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R05",
+      "file": "riku-soul-eater-0245.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=165s",
+      "playback_seconds": 164.999999,
+      "screen": "Soul Eater detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "d2b1e0766497ea9d610d1c25b5c8a030431ed1958794358d297a0bc9e312e0f4",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R06",
+      "file": "riku-enemy-card-0315.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=195s",
+      "playback_seconds": 195,
+      "screen": "Darkside detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "cab871f5a57ee14e32ddb9c4829dca473618759d09317c7bafa2a34a48ec6276",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "R07",
+      "file": "riku-character-0405.png",
+      "source_id": "COM-UI-R",
+      "url": "https://www.youtube.com/watch?v=dEv2eFLATZw&t=245s",
+      "playback_seconds": 245,
+      "screen": "Riku character detail",
+      "capture_method": "Unmodified CUA browser screenshot after paused keyboard seek; retains browser context",
+      "source_video_resolution": null,
+      "width": 1265,
+      "height": 712,
+      "sha256": "46a3d3bdd8aa8e88a7985c91c7bf64165640a399634a40dc4600e52fd8d8bf3d",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset",
+      "observed_video_rectangle_css_pixels": {
+        "x": 16,
+        "y": 68,
+        "width": 873,
+        "height": 491
+      }
+    },
+    {
+      "id": "O01",
+      "file": "official-hd-world-map.jpg",
+      "source_id": "COM-UI-O",
+      "url": "https://www.jp.square-enix.com/kingdom/khhd/img/khrecom/khrecom_system_detail_2_1.jpg",
+      "screen": "World Map",
+      "capture_method": "Unmodified official promotional JPEG; Japanese caption retained",
+      "width": 690,
+      "height": 490,
+      "sha256": "ba138c2b638fadff0be1a5c524a954faecccd848a6d0bc256799cc166d5621fa",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset"
+    },
+    {
+      "id": "O02",
+      "file": "official-hd-room-creation.jpg",
+      "source_id": "COM-UI-O",
+      "url": "https://www.jp.square-enix.com/kingdom/khhd/img/khrecom/khrecom_system_detail_2_2.jpg",
+      "screen": "Room Creation",
+      "capture_method": "Unmodified official promotional JPEG; Japanese caption retained",
+      "width": 690,
+      "height": 490,
+      "sha256": "993f19179b68dfaf79fce93897465dc8a94c8c2dfbcc5a87b0bea21b06bedca3",
+      "inspected_on": "2026-09-28",
+      "usage": "documentation reference only; not a production app asset"
+    }
+  ],
+  "capture_count": 24,
+  "limitations": [
+    "Exact video recording hardware/build unverified",
+    "Browser-rendered video resolution and compression limit font/color measurement",
+    "Complete-save examples do not verify unknown/NEW states or complete percentage formula",
+    "Official Japanese promotional captions are not English in-game labels"
+  ]
+}

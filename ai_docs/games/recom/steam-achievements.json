@@ -1,0 +1,761 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "47 Re:CoM goals within the 197-entry compilation. No PlayStation platinum. IDs are proposed app IDs, not Steam API names. run scope means campaign attribution/aggregation needs further research, not shared Sora/Riku save counters.",
+  "records": [
+    {
+      "id": "recom-steam-proud-player-sora",
+      "name": "Proud Player Sora",
+      "campaignScope": "sora",
+      "category": "difficulty",
+      "requirement": "Finish Sora on Proud.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-proud-player-riku",
+      "name": "Proud Player Riku",
+      "campaignScope": "riku",
+      "category": "difficulty",
+      "requirement": "Finish Riku on Proud.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-undefeated",
+      "name": "Undefeated",
+      "campaignScope": "run",
+      "category": "restriction",
+      "requirement": "Finish without selecting Continue.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": true,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-natural-player-sora",
+      "name": "Natural Player Sora",
+      "campaignScope": "sora",
+      "category": "difficulty",
+      "requirement": "Finish Sora on Standard or Proud.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-natural-player-riku",
+      "name": "Natural Player Riku",
+      "campaignScope": "riku",
+      "category": "difficulty",
+      "requirement": "Finish Riku on Standard or Proud.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-novice-player-sora",
+      "name": "Novice Player Sora",
+      "campaignScope": "sora",
+      "category": "difficulty",
+      "requirement": "Finish Sora on any difficulty.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-novice-player-riku",
+      "name": "Novice Player Riku",
+      "campaignScope": "riku",
+      "category": "difficulty",
+      "requirement": "Finish Riku on any difficulty.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-veggie-master",
+      "name": "Veggie Master",
+      "campaignScope": "sora",
+      "category": "minigame",
+      "requirement": "Veggie Panic: score >= 150.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-ace-pilot",
+      "name": "Ace Pilot",
+      "campaignScope": "sora",
+      "category": "minigame",
+      "requirement": "Balloon Glider: score >= 500.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": true,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-high-jumper",
+      "name": "High Jumper",
+      "campaignScope": "sora",
+      "category": "minigame",
+      "requirement": "Tigger’s Jump-a-Thon: score >= 120.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-sky-diver",
+      "name": "Sky Diver",
+      "campaignScope": "sora",
+      "category": "minigame",
+      "requirement": "Whirlwind Plunge: score >= 2000.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-bee-buster",
+      "name": "Bee Buster",
+      "campaignScope": "sora",
+      "category": "minigame",
+      "requirement": "Bumble-Rumble: 70 bees within 100 seconds; platform description calls it Bumble-Buster.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-a-slumber-to-remember",
+      "name": "A Slumber to Remember",
+      "campaignScope": "sora",
+      "category": "story",
+      "requirement": "Finish Sora campaign.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-sleight-master",
+      "name": "Sleight Master",
+      "campaignScope": "sora",
+      "category": "collection",
+      "requirement": "Learn every required Sora sleight.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-card-of-memories",
+      "name": "Card of Memories",
+      "campaignScope": "sora",
+      "category": "story",
+      "requirement": "Finish 1F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-woven-memories",
+      "name": "Woven Memories",
+      "campaignScope": "sora",
+      "category": "story",
+      "requirement": "Finish 5F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-the-truth",
+      "name": "The Truth",
+      "campaignScope": "sora",
+      "category": "story",
+      "requirement": "Finish 13F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-road-to-dawn",
+      "name": "Road to Dawn",
+      "campaignScope": "riku",
+      "category": "story",
+      "requirement": "Finish Riku campaign.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-hard-hitter",
+      "name": "Hard Hitter",
+      "campaignScope": "riku",
+      "category": "level",
+      "requirement": "Take every Riku attack bonus.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-confronting-the-darkness",
+      "name": "Confronting the Darkness",
+      "campaignScope": "riku",
+      "category": "story",
+      "requirement": "Finish B12F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-challenge-from-the-inner-darkness",
+      "name": "Challenge from the Inner Darkness",
+      "campaignScope": "riku",
+      "category": "story",
+      "requirement": "Finish B8F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-overcoming-the-darkness",
+      "name": "Overcoming the Darkness",
+      "campaignScope": "riku",
+      "category": "story",
+      "requirement": "Finish B1F.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-record-keeper-sora",
+      "name": "Record Keeper Sora",
+      "campaignScope": "sora",
+      "category": "journal",
+      "requirement": "Complete Jiminy’s Journal.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-card-master-sora",
+      "name": "Card Master Sora",
+      "campaignScope": "sora",
+      "category": "collection",
+      "requirement": "Complete the required Card Collection in Jiminy’s Journal.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-storyteller-sora",
+      "name": "Storyteller Sora",
+      "campaignScope": "sora",
+      "category": "journal",
+      "requirement": "Complete Journal story entries.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-character-professor-sora",
+      "name": "Character Professor Sora",
+      "campaignScope": "sora",
+      "category": "journal",
+      "requirement": "Complete Journal character entries.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-mini-game-maniac-sora",
+      "name": "Mini-game Maniac Sora",
+      "campaignScope": "sora",
+      "category": "journal",
+      "requirement": "Register every Journal minigame entry.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-record-keeper-riku",
+      "name": "Record Keeper Riku",
+      "campaignScope": "riku",
+      "category": "journal",
+      "requirement": "Complete D-Report.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-card-master-riku",
+      "name": "Card Master Riku",
+      "campaignScope": "riku",
+      "category": "collection",
+      "requirement": "Complete D-Report’s Card Collection.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-storyteller-riku",
+      "name": "Storyteller Riku",
+      "campaignScope": "riku",
+      "category": "journal",
+      "requirement": "Complete D-Report story entries.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-character-professor-riku",
+      "name": "Character Professor Riku",
+      "campaignScope": "riku",
+      "category": "journal",
+      "requirement": "Complete D-Report character entries.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-novice-deck-builder",
+      "name": "Novice Deck Builder",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Edit a deck once.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-expert-deck-builder",
+      "name": "Expert Deck Builder",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Edit decks 500 times.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-premium-card-maker",
+      "name": "Premium Card Maker",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Perform 20 Premium conversions.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-no-escape",
+      "name": "No Escape",
+      "campaignScope": "run",
+      "category": "restriction",
+      "requirement": "Finish without fleeing a battle.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-level-master-sora",
+      "name": "Level Master Sora",
+      "campaignScope": "sora",
+      "category": "level",
+      "requirement": "Reach Sora’s maximum level.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-level-master-riku",
+      "name": "Level Master Riku",
+      "campaignScope": "riku",
+      "category": "level",
+      "requirement": "Reach Riku’s maximum level.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-card-breaker",
+      "name": "Card Breaker",
+      "campaignScope": "run",
+      "category": "counter",
+      "requirement": "Perform 1500 enemy card breaks.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-tightrope-walker",
+      "name": "Tightrope Walker",
+      "campaignScope": "run",
+      "category": "combat",
+      "requirement": "Heal while below 5% HP.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-interceptor",
+      "name": "Interceptor",
+      "campaignScope": "run",
+      "category": "counter",
+      "requirement": "Land 150 field hits before battle.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-duel-master",
+      "name": "Duel Master",
+      "campaignScope": "riku",
+      "category": "counter",
+      "requirement": "Win 100 duels.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-battle-card-collector",
+      "name": "Battle Card Collector",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Obtain more than 300 battle cards; cumulative versus held predicate still needs checking.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-moogle-mogul",
+      "name": "Moogle Mogul",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Get more than 10000 Moogle Points; cumulative versus held predicate still needs checking.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-regular-customer",
+      "name": "Regular Customer",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Spend more than 20000 Moogle Points in shops.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-room-creator",
+      "name": "Room Creator",
+      "campaignScope": "run",
+      "category": "counter",
+      "requirement": "Create 300 rooms.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": true,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-treasure-hunter",
+      "name": "Treasure Hunter",
+      "campaignScope": "sora",
+      "category": "counter",
+      "requirement": "Open 10 hidden-room chests.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": true,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    },
+    {
+      "id": "recom-steam-ace-striker",
+      "name": "Ace Striker",
+      "campaignScope": "run",
+      "category": "combat",
+      "requirement": "Hit an enemy using a field object.",
+      "steamApiName": null,
+      "primaryNameConfirmed": true,
+      "primaryDescriptionVisible": false,
+      "primaryNameAmbiguousAcrossGames": false,
+      "sources": [
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+      ],
+      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+    }
+  ]
+}

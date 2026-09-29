@@ -33,6 +33,7 @@ No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 | Game/family | Specification | Current strongest source area | Largest known gap |
 |---|---|---|---|
 | Kingdom Hearts Final Mix | [Open](./games/kingdom-hearts-final-mix.md) | World collectibles and synthesis | Exhaustive treasure/accessory inventories, exact routes and validation |
+| Kingdom Hearts Re:Chain of Memories HD | [Open](./games/kingdom-hearts-re-chain-of-memories.md) | [2026-09-28 research pack](./games/recom/README.md): cards, rooms/rewards, Riku presets, sleights, shops and Steam goals | Native collection membership, seven CP conflicts, exact door predicates, independent modern validation and full catalogue coverage |
 | Kingdom Hearts II Final Mix | [Open](./games/kingdom-hearts-ii-final-mix.md) | Relational synthesis and treasure data | Reconcile actual tab contents, FM edition differences, exact collection routes and goal rules |
 | Birth by Sleep Final Mix + 0.2 | [Open](./games/birth-by-sleep-final-mix.md) | BBS command melding | Broader BBS completion and all 0.2 data |
 | Dream Drop Distance | [Open](./games/dream-drop-distance.md) | Spirit creation and Links | Portals, treasures, board topology, HD differences |

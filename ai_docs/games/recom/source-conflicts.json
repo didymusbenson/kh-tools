@@ -1,0 +1,79 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "CP discrepancies between the aggregate Enemy Card page and explicitly Re:CoM individual enemy infoboxes. Neither is independently certified.",
+  "records": [
+    {
+      "card": "Soldier",
+      "aggregateCp": 15,
+      "recomEnemyPageCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Soldier"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Powerwild",
+      "aggregateCp": 30,
+      "recomEnemyPageCp": 40,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Powerwild"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Wyvern",
+      "aggregateCp": 20,
+      "recomEnemyPageCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Wyvern"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Defender",
+      "aggregateCp": 30,
+      "recomEnemyPageCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Defender"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Tornado Step",
+      "aggregateCp": 30,
+      "recomEnemyPageCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Tornado_Step"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Crescendo",
+      "aggregateCp": 30,
+      "recomEnemyPageCp": 20,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Crescendo"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    },
+    {
+      "card": "Neoshadow",
+      "aggregateCp": 30,
+      "recomEnemyPageCp": 25,
+      "sources": [
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Neoshadow"
+      ],
+      "resolution": "unresolved; no production CP assigned"
+    }
+  ]
+}

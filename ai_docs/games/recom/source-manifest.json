@@ -1,0 +1,811 @@
+{
+  "game": "recom",
+  "researchDate": "2026-09-28",
+  "baseline": "English modern Re:CoM HD; Steam context; no game build run",
+  "scope": "Research documentation and candidate data only",
+  "snapshotNote": "Hashes identify the inspected temporary HTML/text representations, not game files. Raw external pages and media are not distributed with this pack. No archived-URL permanence is claimed.",
+  "localEvidence": [
+    "ai_docs/games/kh1fm/README.md",
+    "ai_docs/games/kh2fm/README.md",
+    "ai_docs/games/kh2fm/data-gap-audit-2026-09-28.md",
+    "ai_docs/games/bbsfm/README.md",
+    "ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md",
+    "ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md",
+    "ai_docs/games/kingdom-hearts-final-mix.md",
+    "ai_docs/readiness/README.md",
+    "ai_docs/readiness/birth-by-sleep-final-mix.md",
+    "ai_docs/sources/khtables-drive-audit.md",
+    "src/App.tsx game list"
+  ],
+  "privateDriveAudit": "Not performed this pass; prior KHTABLES file inventory had no CoM workbook.",
+  "sources": [
+    {
+      "id": "com-source-attack-card",
+      "url": "https://www.khwiki.com/Attack_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Sora attack table; HD footnotes and four replaced PS2 identities; multipliers/element/acquisition. CP-by-value absent.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2ba004dc8dd1f7f927c5f8067b5fdaf6c5403883d3b2ade8a6c094b51e86744d",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-enemy-card",
+      "url": "https://www.khwiki.com/Enemy_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Sora and Reverse/Rebirth tables; acquisition mechanics. Boss attack-card table not imported.",
+      "access": "retrieved-html",
+      "snapshotSha256": "a6a061a7a2b4dc47a3e14e60733c8e09f2218d504aae30d823ffde499fe7e55f",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-map-card",
+      "url": "https://www.khwiki.com/Map_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Type/campaign tables, Room Synthesis rules and Room of Rewards. Probability matrices not normalized.",
+      "access": "retrieved-html",
+      "snapshotSha256": "d2142dfffb3894901f6d0d826701a50540720981707e9a503b63158906ad662c",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-world-cards",
+      "url": "https://www.khwiki.com/World_Cards",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Floor groups, Bounties, HD reward columns, clear-save/Days footnotes. coded section excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "7bdd19d31ea368d0a3995e4341e7825a92bd6371ac46d69c730ac16ec10c2180",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-sleight",
+      "url": "https://www.khwiki.com/Sleight",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Sora attack/magic/summon/friend/minigame and Riku attack/friend/duel tables. GBA-only names and boss moves excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "1c70556f56edd6f07e9b300d0d9cb70c163d7121bc983064c20060be3c850b71",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-moogle-shop",
+      "url": "https://www.khwiki.com/Moogle_Shop",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Chain of Memories section only: Re:CoM prices, free packs, restocking and sale-rule discussion. Other games excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "92efcc3c88152a9ffa27cc1e81bd6733ca79ca12afbe470b96af5bbdf5d11503",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-magic-card",
+      "url": "https://www.khwiki.com/Magic_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Seven Sora types and first acquisitions; minigame/enemy tables not normalized.",
+      "access": "retrieved-html",
+      "snapshotSha256": "f274995f5925935a999ff88340532200e356b78b4427b24ff20cd5f1e6fc0056",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-summon-card",
+      "url": "https://www.khwiki.com/Summon_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Seven Sora types and first acquisitions.",
+      "access": "retrieved-html",
+      "snapshotSha256": "11d9103c4bebad8465b616a9d91b67a36fd8562e2d6a150ce571c3c6a5649e2a",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-item-card",
+      "url": "https://www.khwiki.com/Item_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Seven Sora types; Re:CoM first-acquisition alternatives selected.",
+      "access": "retrieved-html",
+      "snapshotSha256": "fcafe44bf501de12096962ede9dfa964aaee235e06fa57ac4268406ba1813a58",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-friend-card",
+      "url": "https://www.khwiki.com/Friend_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Eight Sora types, Riku King entry and appearance footnotes.",
+      "access": "retrieved-html",
+      "snapshotSha256": "c247df0e4f212489b934c19224712bbc511b143af318d5a6ade105de45e9a114",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-special-card",
+      "url": "https://www.khwiki.com/Special_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Gold/Platinum definitions and Bounty collection prerequisite; sequencing not resolved.",
+      "access": "retrieved-html",
+      "snapshotSha256": "ddb1263b0d5972f5587957f36f4fc57cf5caebab9f41205ee87bd04570e0ce5a",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-jiminy-s-journal",
+      "url": "https://www.khwiki.com/Jiminy's_Journal",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:Chain of Memories contents subsection; textual category evidence only.",
+      "access": "retrieved-html",
+      "snapshotSha256": "5ca39a57ca43324d60be9bf22683776d1992a08761475fbbb1cf5aebe271c271",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-report",
+      "url": "https://www.khwiki.com/Report",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "D-Report subsection; original/remake wording mixed; native visual confirmation pending.",
+      "access": "retrieved-html",
+      "snapshotSha256": "25fd9535aa5ca7338ed6703b64ac11591c541ce7a883490a0a22a3b5e2648e91",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-level",
+      "url": "https://www.khwiki.com/Level",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "CoM/Re:CoM mechanics paragraph, character-specific bonus choices; full curves not extracted.",
+      "access": "retrieved-html",
+      "snapshotSha256": "7560b0306fc2b59f846c576554dbbd6a951a7eb8eab686f55131664fb2b6e1c3",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-dark-mode",
+      "url": "https://www.khwiki.com/Dark_Mode",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Mechanics and Riku sleight tables; no narrative text reused.",
+      "access": "retrieved-html",
+      "snapshotSha256": "54be1d600140efe5603c9e94c3acbfcedaa03259e1c865f9eaeb8deec6192009",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-kingdom-hearts-re-chain-of-memories",
+      "url": "https://www.khwiki.com/Kingdom_Hearts_Re:Chain_of_Memories",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Remake changes and HD substitution markers; overview has Hollow Bastion Xaldin error.",
+      "access": "retrieved-html",
+      "snapshotSha256": "8ccd4a420abbffa81695fbe08d51dc49b0b3d27cb1ed6f4be96769a715f45f91",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-game-100-acre-wood",
+      "url": "https://www.khwiki.com/Game:100_Acre_Wood",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM activities/reward table, card values and Spellbinder access; other games excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "d3d36a2cea2b1eb121deb373c57424880a4d24c0cffa9a979294c9219a184552",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-game-traverse-town",
+      "url": "https://www.khwiki.com/Game:Traverse_Town",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Sora first acquisitions/Pluto footnote and Riku KHRECOM preset; original deck excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "7838cfa72e0ecd13eed3ae910acd6bf68cd9b03dac5413d5afcc292e21e3402d",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-veggie-panic",
+      "url": "https://www.khwiki.com/Veggie_Panic",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Clear condition, first reward and play rules.",
+      "access": "retrieved-html",
+      "snapshotSha256": "e6f72575967ecb3c6e171a4bb967405f33695556535e9c13bb5a74c4b6ed0b65",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-balloon-glider",
+      "url": "https://www.khwiki.com/Balloon_Glider",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Clear condition, first reward and play rules.",
+      "access": "retrieved-html",
+      "snapshotSha256": "02fa1d66ba060df94960d81e8978c0c232b75b4eff17d1c504538a15287df782",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-tigger-s-jump-a-thon",
+      "url": "https://www.khwiki.com/Tigger's_Jump-a-Thon",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Clear condition, first reward and play rules.",
+      "access": "retrieved-html",
+      "snapshotSha256": "1d2a476f857b4986b92b5d131ab48dda4edbe39671c3903f6620008730b0bcaf",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-whirlwind-plunge",
+      "url": "https://www.khwiki.com/Whirlwind_Plunge",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "First reward and play rules.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2ac6976200bb0a5281f59ec2f68ffd33907546c70842c01452d688660de61d40",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-bumble-rumble",
+      "url": "https://www.khwiki.com/Bumble-Rumble",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Minigame deck and initial objective; separate from achievement target.",
+      "access": "retrieved-html",
+      "snapshotSha256": "a48c285524458ba70a7b4002a45479fe5f7e107121563f2705f75b6a5604bb42",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-high-jump",
+      "url": "https://www.khwiki.com/High_Jump",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM learning entry.",
+      "access": "retrieved-html",
+      "snapshotSha256": "6c2f8cc252341aae3b8261f051b83b9a43c6c11b34c9b0527bf4b33a0901420f",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-glide",
+      "url": "https://www.khwiki.com/Glide",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM learning entry.",
+      "access": "retrieved-html",
+      "snapshotSha256": "83f541f6f354bb97271d276eb7beec1ba1ad6e508d9d7af97e1b3b3853a321f8",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-superglide",
+      "url": "https://www.khwiki.com/Superglide",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM Super Glide acquisition.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2f025567758a410b9b9671821b6371d361154ca60557369f86d8884ae4820a79",
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-battle-card",
+      "url": "https://www.khwiki.com/Battle_Card",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Battle, reload and Premium card mechanics; aliases Premium Cards/Card break redirect here.",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "evidenceStatus": "source-inspected; not independent gameplay verification"
+    },
+    {
+      "id": "com-source-enemy-air-pirate",
+      "url": "https://www.khwiki.com/Air_Pirate",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "c019d1b0a366719637a69bd29b37df3cec397fe91dc2e1c690e907913736ab5c",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-air-soldier",
+      "url": "https://www.khwiki.com/Air_Soldier",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2f727ceba514adcd399368b39756e14ebae29ec4d5e3a7faf8f2b279fd93939b",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-aquatank",
+      "url": "https://www.khwiki.com/Aquatank",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2816905ce9d7da62beca9cba0d3a77e3703bdfbd3feeb5a13d37df39ab70b434",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-bandit",
+      "url": "https://www.khwiki.com/Bandit",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "a755d5f3a0f726ec0408f99e0100f6f7a693ed5f06557b96a922bc8833a7c374",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-barrel-spider",
+      "url": "https://www.khwiki.com/Barrel_Spider",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "95127c6bb1757211c009be4bac63761b0a2fd03c99ef96589d7d50bb3a75aad5",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-black-fungus",
+      "url": "https://www.khwiki.com/Black_Fungus",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "1c8e0cde4c819616c892606d39049d1690aa49642bfd2d2d188b73643f3ae638",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-blue-rhapsody",
+      "url": "https://www.khwiki.com/Blue_Rhapsody",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "e9c36c55950f2b55152bb61c78b723f8ab40b993c71cf82b25173aea20c35263",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-bouncywild",
+      "url": "https://www.khwiki.com/Bouncywild",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "590decfdc2fdf50f86808402a721cf58a44a0939008e3e9cae5eb67fd375d95a",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-creeper-plant",
+      "url": "https://www.khwiki.com/Creeper_Plant",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "1163860c1dd2268119456e4953e841b443d5e9e30f75f2462b352215364d46dc",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-crescendo",
+      "url": "https://www.khwiki.com/Crescendo",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "f1953d7859e68d8a6a3477ac436545a87cb66892c8803a37c580fc0a04b6057a",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-defender",
+      "url": "https://www.khwiki.com/Defender",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "63370e3278f896f061b64d212cee2239a8c8032375e4e8cca39f32651b93d6be",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-fat-bandit",
+      "url": "https://www.khwiki.com/Fat_Bandit",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "da01d1f010da4edef313ed0a50be56cdabc8e361a079624766bdd87970fb4c22",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-gargoyle",
+      "url": "https://www.khwiki.com/Gargoyle",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "8b960bfe5078dd358e3e6882702f1a51fbcabc0d4df89823205e268754afdb3b",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-green-requiem",
+      "url": "https://www.khwiki.com/Green_Requiem",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "87636661f06305717a6bb34a89bbf2c05783cf227a435e8eec4c5fac903d9569",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-large-body",
+      "url": "https://www.khwiki.com/Large_Body",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "38ceed51a14ef12085ccd655f63c222dfeddea4940036b016ab4a6c4f7dc1b97",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-neoshadow",
+      "url": "https://www.khwiki.com/Neoshadow",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "76d64b359279ae3b32402dbcebdd1a8732a3ec5f2f23e2fd3f5f43f0354bd906",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-pirate",
+      "url": "https://www.khwiki.com/Pirate",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "7458a9049be530bf87f062a020f467ec4ce155f6dcc73e412a35848dcae18505",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-powerwild",
+      "url": "https://www.khwiki.com/Powerwild",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "98ae096285b3677e1d8e0e6b351e6ee1d15ccd0b3a6e43ee2809695c90bcb851",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-red-nocturne",
+      "url": "https://www.khwiki.com/Red_Nocturne",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "a6dd5e2e86f9b6be6e26ce9bc14dd6f8a77d7a205832afa4cc806a341e42426b",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-screwdiver",
+      "url": "https://www.khwiki.com/Screwdiver",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2f497504a04a3f01fd8d077437979a8c299fdd3352bd6820de282e1d1c982e59",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-sea-neon",
+      "url": "https://www.khwiki.com/Sea_Neon",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "9bcd73e52f61d8090846ab960943d7c4179df57ce41173a265da743c091a381d",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-search-ghost",
+      "url": "https://www.khwiki.com/Search_Ghost",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "257c32d644a13dc9350cf6737fef6a8b2aba8a1d6502c1c0cca7a123b4ab17ce",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-shadow",
+      "url": "https://www.khwiki.com/Shadow",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "fda515900580068fd1fc8214a3a59ee1306ba1075e4b1f24bd9c6c7a6f27031a",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-soldier",
+      "url": "https://www.khwiki.com/Soldier",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "d00e4419012ac9085fcc50c8ce187d3175b31955f6159967c5fb6bdc9dbb9dd5",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-tornado-step",
+      "url": "https://www.khwiki.com/Tornado_Step",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "56251dcb4b560536b71fcb5f7dadafbae8a364b684aa93d063a0d7327b79a87b",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-white-mushroom",
+      "url": "https://www.khwiki.com/White_Mushroom",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "d30735601a05eb983ccbe57160df451d6fec992e7072064ef3b7a398decc5507",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-wight-knight",
+      "url": "https://www.khwiki.com/Wight_Knight",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "642ace09eacf7e74a799b3a5740ec5d2ecf4f316a0c626132946372dde291377",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-wizard",
+      "url": "https://www.khwiki.com/Wizard",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "74c18389314e838c678ccdaa633418f4f6d3a47344006b99895f66dc3460cfe3",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-wyvern",
+      "url": "https://www.khwiki.com/Wyvern",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "a24a2e8c209cf9319cc2e2d48e37c2ae4cf7825b70f5cc9f8349cde18e259a4f",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-enemy-yellow-opera",
+      "url": "https://www.khwiki.com/Yellow_Opera",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Explicit Re:CoM infobox: worlds, enemy-card cost and drop-rate fields; excludes original CoM infobox. No full bestiary transcription.",
+      "access": "retrieved-html",
+      "snapshotSha256": "b7161f6b85b36fe9a0f9e71d25966f1ba6ddc8c7f89124725c8f4b37985e22b1",
+      "evidenceStatus": "single-source rate candidate; compare CP conflicts"
+    },
+    {
+      "id": "com-source-game-agrabah",
+      "url": "https://www.khwiki.com/Game:Agrabah",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "259b536c7b642f7c8ba434228c688e3cf6dcee504ba912d15e680fbcd80c7782",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-atlantica",
+      "url": "https://www.khwiki.com/Game:Atlantica",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "690b5f82909ebe0e2923a090bd0afcde3b5bc7df44f7736c46aa70829b29e7ab",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-castle-oblivion",
+      "url": "https://www.khwiki.com/Game:Castle_Oblivion",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "9fb6ff05be3b61e85d139efc52ca53ba85aa95aa786c39db637f9ff67970eaf2",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-destiny-islands",
+      "url": "https://www.khwiki.com/Game:Destiny_Islands",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2d9f27f3f25d2a3f73b77a57f825fb6f372376132b64b7d5de2972e46fde1b81",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-halloween-town",
+      "url": "https://www.khwiki.com/Game:Halloween_Town",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "507e25758937a841316500eca512789d770fe002ca53488b1609ff1c6d2e5034",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-hollow-bastion",
+      "url": "https://www.khwiki.com/Game:Hollow_Bastion",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "22591b006c5da6080164afb8270c0086f86e2daf41f3376355733af767f727dd",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-monstro",
+      "url": "https://www.khwiki.com/Game:Monstro",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "7db6bb3836c43d33be9616d5f8f498adbe11fdef3aff8415a0b4d40df2822933",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-neverland",
+      "url": "https://www.khwiki.com/Game:Neverland",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "f8ea4e8e46c70fcca203da24718784fdd089aacb4c017ee0ca85405bd60116f4",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-olympus-coliseum",
+      "url": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "e74189fe762fdc12d86a7f89c984a096e525d5bad54e1bf0746180d12b3f1f34",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-twilight-town",
+      "url": "https://www.khwiki.com/Game:Twilight_Town",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "2a258d5860e158dd4452eb53d4834740355f6d387abbb9694bb532b4e6a55654",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-game-wonderland",
+      "url": "https://www.khwiki.com/Game:Wonderland",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Reverse/Rebirth KHRECOM tab: alternating card-image/value rows through end of Deck section; source order preserved. KHCOM excluded.",
+      "access": "retrieved-html",
+      "snapshotSha256": "409b2aaa1046d9335d5e25e6122e11b47df9f941f2cd6e1da9c3e30c52b5cd94",
+      "evidenceStatus": "preset candidate; not independently checked in game"
+    },
+    {
+      "id": "com-source-steam-store",
+      "url": "https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/",
+      "kind": "primary-publisher-store",
+      "accessed": "2026-09-28",
+      "inspection": "Collection contents, release date, region/save notice; no installed build inspection.",
+      "access": "web-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-steam-goals",
+      "url": "https://steamcommunity.com/stats/2552430/achievements/",
+      "kind": "primary-platform",
+      "accessed": "2026-09-28",
+      "inspection": "197 achievement names and visible descriptions; hidden descriptions absent; duplicate display names retained.",
+      "access": "retrieved-html",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-exophase",
+      "url": "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "kind": "secondary-platform-index",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM partition, 47 names/conditions including hidden descriptions. Not Steam trigger code.",
+      "access": "web-readable; direct HTTP 403",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-steam-days",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3268206940",
+      "kind": "community-guide",
+      "accessed": "2026-09-28",
+      "inspection": "13 HD bonus cards and movie/diary/character route; guide cites KHWiki and is not independent for every table value.",
+      "access": "web-readable; direct HTTP rate-limited",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-modern-general",
+      "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories/walkthrough/2",
+      "kind": "community-walkthrough",
+      "accessed": "2026-09-28",
+      "inspection": "Modern HD room/card/Days guidance and deck example; not a complete local import.",
+      "access": "indexed-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-ps3-journal",
+      "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories-PS3/walkthrough/5",
+      "kind": "community-walkthrough",
+      "accessed": "2026-09-28",
+      "inspection": "Map/world/gimmick/special excerpts; PS3 source with a world-grant discrepancy. Not a Steam roster certificate.",
+      "access": "indexed-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-sleight-master",
+      "url": "https://www.playstationtrophies.org/game/kingdom-hearts-re-chain-of-memories-ps4/trophy/170888-sleight-master.html",
+      "kind": "community-achievement-guide",
+      "accessed": "2026-09-28",
+      "inspection": "Level 57 landmark for collecting Sora sleights; not all mechanics inspected.",
+      "access": "indexed-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-falconesque",
+      "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+      "kind": "community-walkthrough",
+      "accessed": "2026-09-28",
+      "inspection": "Clear-save/Bounty flow and deck-review menu lead; original-English bonus rule not used for HD.",
+      "access": "indexed-passages-only",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-riku",
+      "url": "https://www.khwiki.com/Riku",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Gameplay paragraph: fixed per-world decks and remake duels.",
+      "access": "indexed-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-source-mega-flare",
+      "url": "https://www.khwiki.com/Mega_Flare",
+      "kind": "community-reference",
+      "accessed": "2026-09-28",
+      "inspection": "Re:CoM earliest level 57; same wiki family, not independent evidence.",
+      "access": "indexed-readable",
+      "evidenceStatus": "source-inspected within stated bounds"
+    }
+  ],
+  "leadsNotUsedAsFullEvidence": [
+    {
+      "url": "https://www.kingdomhearts.com/kh15manual/kingdom_hearts_15_manual.pdf",
+      "reason": "Discovered official PS3 manual; web retrieval failed; not cited as inspected mechanics evidence."
+    },
+    {
+      "url": "https://www.destinyislands.com/re-com/sleights/",
+      "reason": "Web landing text readable but no useful full table; direct request 406; not used for roster confirmation."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3276335381",
+      "reason": "Checklist landing page found; linked spreadsheet not inspected/imported."
+    },
+    {
+      "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories-PS3/walkthrough/6",
+      "reason": "Indexed level snippets found; full open failed; no independent full sleight count claimed."
+    }
+  ]
+}

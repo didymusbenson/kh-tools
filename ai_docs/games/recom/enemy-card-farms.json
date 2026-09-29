@@ -1,0 +1,481 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "30 Sora ordinary enemy-card farm candidates. Percentages apply to eligible final-enemy drops, not each slain enemy. World listings are source text, not guaranteed spawn routes; numbered footnotes remain unresolved where present.",
+  "records": [
+    {
+      "id": "recom-farm-shadow",
+      "enemy": "Shadow",
+      "worldsSourceText": "Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica [ 3 ] , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Shadow",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-soldier",
+      "enemy": "Soldier",
+      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town Neverland [ 3 ]",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Soldier",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-powerwild",
+      "enemy": "Powerwild",
+      "worldsSourceText": "Olympus Coliseum",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Powerwild",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-bouncywild",
+      "enemy": "Bouncywild",
+      "worldsSourceText": "Olympus Coliseum",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Bouncywild",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-large-body",
+      "enemy": "Large Body",
+      "worldsSourceText": "Wonderland, Olympus Coliseum, Monstro",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Large_Body",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-fat-bandit",
+      "enemy": "Fat Bandit",
+      "worldsSourceText": "Agrabah",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Fat_Bandit",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-sea-neon",
+      "enemy": "Sea Neon",
+      "worldsSourceText": "Atlantica",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Sea_Neon",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-bandit",
+      "enemy": "Bandit",
+      "worldsSourceText": "Agrabah",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Bandit",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-pirate",
+      "enemy": "Pirate",
+      "worldsSourceText": "Neverland",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Pirate",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-red-nocturne",
+      "enemy": "Red Nocturne",
+      "worldsSourceText": "Traverse Town, Wonderland, Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Red_Nocturne",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-blue-rhapsody",
+      "enemy": "Blue Rhapsody",
+      "worldsSourceText": "Traverse Town, Olympus Coliseum, Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Blue_Rhapsody",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-yellow-opera",
+      "enemy": "Yellow Opera",
+      "worldsSourceText": "Agrabah, Monstro, Neverland, Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Yellow_Opera",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-green-requiem",
+      "enemy": "Green Requiem",
+      "worldsSourceText": "Agrabah, Monstro, Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Green_Requiem",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-wizard",
+      "enemy": "Wizard",
+      "worldsSourceText": "Hollow Bastion, Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Wizard",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-air-soldier",
+      "enemy": "Air Soldier",
+      "worldsSourceText": "Agrabah, Monstro, Twilight Town",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Air_Soldier",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-barrel-spider",
+      "enemy": "Barrel Spider",
+      "worldsSourceText": "Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Barrel_Spider",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-wight-knight",
+      "enemy": "Wight Knight",
+      "worldsSourceText": "Halloween Town",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Wight_Knight",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-air-pirate",
+      "enemy": "Air Pirate",
+      "worldsSourceText": "Neverland",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Air_Pirate",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-gargoyle",
+      "enemy": "Gargoyle",
+      "worldsSourceText": "Halloween Town",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Gargoyle",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-search-ghost",
+      "enemy": "Search Ghost",
+      "worldsSourceText": "Monstro, Halloween Town, Atlantica",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Search_Ghost",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-aquatank",
+      "enemy": "Aquatank",
+      "worldsSourceText": "Atlantica",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Aquatank",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-screwdiver",
+      "enemy": "Screwdiver",
+      "worldsSourceText": "Atlantica",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Screwdiver",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-wyvern",
+      "enemy": "Wyvern",
+      "worldsSourceText": "Hollow Bastion, Castle Oblivion",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Wyvern",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-defender",
+      "enemy": "Defender",
+      "worldsSourceText": "Hollow Bastion, Castle Oblivion",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Defender",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-white-mushroom",
+      "enemy": "White Mushroom",
+      "worldsSourceText": "Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (White Room only)",
+      "basePercent": 4.0,
+      "boostedPercent": null,
+      "boostRooms": [],
+      "specialRoom": "White Room",
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/White_Mushroom",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-black-fungus",
+      "enemy": "Black Fungus",
+      "worldsSourceText": "Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (Black Room only)",
+      "basePercent": 3.0,
+      "boostedPercent": null,
+      "boostRooms": [],
+      "specialRoom": "Black Room",
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Black_Fungus",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-creeper-plant",
+      "enemy": "Creeper Plant",
+      "worldsSourceText": "Wonderland, Halloween Town, Destiny Islands",
+      "basePercent": 2.0,
+      "boostedPercent": 5.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Creeper_Plant",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-tornado-step",
+      "enemy": "Tornado Step",
+      "worldsSourceText": "Monstro, Hollow Bastion, Destiny Islands",
+      "basePercent": 4.0,
+      "boostedPercent": 10.0,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Tornado_Step",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-crescendo",
+      "enemy": "Crescendo",
+      "worldsSourceText": "Wonderland, Neverland, Destiny Islands",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Crescendo",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    },
+    {
+      "id": "recom-farm-neoshadow",
+      "enemy": "Neoshadow",
+      "worldsSourceText": "Castle Oblivion",
+      "basePercent": 3.0,
+      "boostedPercent": 7.5,
+      "boostRooms": [
+        "Teeming Darkness",
+        "Almighty Darkness",
+        "Looming Darkness"
+      ],
+      "specialRoom": null,
+      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "source": "https://www.khwiki.com/Neoshadow",
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+    }
+  ]
+}

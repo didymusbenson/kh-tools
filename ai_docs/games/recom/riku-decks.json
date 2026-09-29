@@ -1,0 +1,1041 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "12 Re:CoM world preset deck candidates. Includes source-listed non-attack cards. Counts refer to preset rows, not every card available in a battle. GBA tab expressly excluded.",
+  "records": [
+    {
+      "id": "recom-riku-deck-traverse-town",
+      "world": "Traverse Town",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Shadow",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Traverse_Town",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-wonderland",
+      "world": "Wonderland",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Large Body",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Wonderland",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-olympus-coliseum",
+      "world": "Olympus Coliseum",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Hi-Potion",
+          "value": 5
+        },
+        {
+          "name": "Powerwild",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-agrabah",
+      "world": "Agrabah",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Fat Bandit",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Agrabah",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-halloween-town",
+      "world": "Halloween Town",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Wight Knight",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Halloween_Town",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-monstro",
+      "world": "Monstro",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Search Ghost",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Monstro",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-atlantica",
+      "world": "Atlantica",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Darkball",
+          "value": null
+        },
+        {
+          "name": "Sea Neon",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Atlantica",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-neverland",
+      "world": "Neverland",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Pirate",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Neverland",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-hollow-bastion",
+      "world": "Hollow Bastion",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Defender",
+          "value": null
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Hollow_Bastion",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-twilight-town",
+      "world": "Twilight Town",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Potion",
+          "value": 4
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Twilight_Town",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-destiny-islands",
+      "world": "Destiny Islands",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 2
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 1
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Hi-Potion",
+          "value": 8
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Destiny_Islands",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    },
+    {
+      "id": "recom-riku-deck-castle-oblivion",
+      "world": "Castle Oblivion",
+      "campaign": "riku",
+      "cardsInSourceOrder": [
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 8
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 6
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 5
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 3
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 0
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 7
+        },
+        {
+          "name": "Soul Eater",
+          "value": 4
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Soul Eater",
+          "value": 9
+        },
+        {
+          "name": "Hi-Potion",
+          "value": 8
+        }
+      ],
+      "source": "https://www.khwiki.com/Game:Castle_Oblivion",
+      "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+    }
+  ]
+}

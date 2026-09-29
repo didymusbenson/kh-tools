@@ -1,0 +1,165 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "13 Sora world visits, 12 Riku world visits; Castle Oblivion is a world visit even though Sora does not use a Castle Oblivion World Card. World-card inventory denominator is therefore not 13 for Sora.",
+  "records": [
+    {
+      "id": "recom-world-traverse-town",
+      "name": "Traverse Town",
+      "soraFloors": "1F",
+      "rikuFloors": "B11F–B8F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-wonderland",
+      "name": "Wonderland",
+      "soraFloors": "2F–6F",
+      "rikuFloors": "B7F–B4F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-olympus-coliseum",
+      "name": "Olympus Coliseum",
+      "soraFloors": "2F–6F",
+      "rikuFloors": "B7F–B4F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-agrabah",
+      "name": "Agrabah",
+      "soraFloors": "2F–6F",
+      "rikuFloors": "B11F–B8F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-halloween-town",
+      "name": "Halloween Town",
+      "soraFloors": "2F–6F",
+      "rikuFloors": "B7F–B4F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-monstro",
+      "name": "Monstro",
+      "soraFloors": "2F–6F",
+      "rikuFloors": "B11F–B8F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-atlantica",
+      "name": "Atlantica",
+      "soraFloors": "7F–10F",
+      "rikuFloors": "B7F–B4F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-neverland",
+      "name": "Neverland",
+      "soraFloors": "7F–10F",
+      "rikuFloors": "B11F–B8F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-hollow-bastion",
+      "name": "Hollow Bastion",
+      "soraFloors": "7F–10F",
+      "rikuFloors": "B12F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-100-acre-wood",
+      "name": "100 Acre Wood",
+      "soraFloors": "7F–10F",
+      "rikuFloors": null,
+      "roomSynthesis": false,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-twilight-town",
+      "name": "Twilight Town",
+      "soraFloors": "11F",
+      "rikuFloors": "B2F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-destiny-islands",
+      "name": "Destiny Islands",
+      "soraFloors": "12F",
+      "rikuFloors": "B3F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    },
+    {
+      "id": "recom-world-castle-oblivion",
+      "name": "Castle Oblivion",
+      "soraFloors": "13F",
+      "rikuFloors": "B1F",
+      "roomSynthesis": true,
+      "sources": [
+        "https://www.khwiki.com/World_Cards",
+        "https://www.khwiki.com/Map_Card"
+      ],
+      "verification": "source-inspected; configurable groups are not mandatory visit orders"
+    }
+  ]
+}

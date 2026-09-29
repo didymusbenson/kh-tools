@@ -9,6 +9,7 @@ Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern
 ## Readiness documents
 
 - [Kingdom Hearts Final Mix](./kingdom-hearts-final-mix.md)
+- [Kingdom Hearts Re:Chain of Memories](./kingdom-hearts-re-chain-of-memories.md) — initial HD journal implemented 2026-09-28; partial catalogue and artwork
 - [Kingdom Hearts II Final Mix](./kingdom-hearts-ii-final-mix.md)
 - [Birth by Sleep Final Mix](./birth-by-sleep-final-mix.md)
 - [Kingdom Hearts 0.2](./kingdom-hearts-02.md)

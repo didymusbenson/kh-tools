@@ -1,0 +1,319 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "31 records: 7 magic, 7 summons, 7 items, 8 friends, 2 specials. Not a full Card Index denominator: map/world/gimmick/minigame cards and Riku are separate. Friends are battle pickups, not permanent deck copies.",
+  "records": [
+    {
+      "id": "recom-card-magic-fire",
+      "name": "Fire",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Axel encounter at 1F exit.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-blizzard",
+      "name": "Blizzard",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Traverse Town tutorial: break the barrel in Unknown Room.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-thunder",
+      "name": "Thunder",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Larxene encounter at 6F exit.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-cure",
+      "name": "Cure",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Starting deck.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-gravity",
+      "name": "Gravity",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Agrabah Bounty.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-stop",
+      "name": "Stop",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Wonderland Bounty.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-magic-aero",
+      "name": "Aero",
+      "family": "magic",
+      "campaign": "sora",
+      "acquisition": "Riku Replica encounter at 7F exit.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Magic_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-simba",
+      "name": "Simba",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Traverse Town: finish Room of Beginnings.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-genie",
+      "name": "Genie",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Agrabah: finish Room of Truth.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-bambi",
+      "name": "Bambi",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Complete 100 Acre Wood.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-dumbo",
+      "name": "Dumbo",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Monstro: finish Room of Truth.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-tinker-bell",
+      "name": "Tinker Bell",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Neverland: finish Room of Truth.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-mushu",
+      "name": "Mushu",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Hollow Bastion: base Room of Rewards chest.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-summon-cloud",
+      "name": "Cloud",
+      "family": "summon",
+      "campaign": "sora",
+      "acquisition": "Olympus Coliseum: finish Room of Truth.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Summon_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-potion",
+      "name": "Potion",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "Starting deck.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-hi-potion",
+      "name": "Hi-Potion",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "Olympus Coliseum: finish Room of Guidance.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-mega-potion",
+      "name": "Mega-Potion",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "Riku Replica encounter at 11F exit.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-ether",
+      "name": "Ether",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "Agrabah: finish Room of Guidance.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-mega-ether",
+      "name": "Mega-Ether",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "First Whirlwind Plunge clear.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-elixir",
+      "name": "Elixir",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "First Bumble-Rumble clear.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-item-megalixir",
+      "name": "Megalixir",
+      "family": "item",
+      "campaign": "sora",
+      "acquisition": "Destiny Islands: base Room of Rewards chest.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Item_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-donald-duck",
+      "name": "Donald Duck",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Sora campaign; availability follows party presence.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-goofy",
+      "name": "Goofy",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Sora campaign; availability follows party presence.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-aladdin",
+      "name": "Aladdin",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Agrabah entry.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-jack",
+      "name": "Jack",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Halloween Town entry.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-ariel",
+      "name": "Ariel",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Atlantica: Room of Guidance.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-peter-pan",
+      "name": "Peter Pan",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Neverland: Room of Beginnings; absent during his temporary story departure.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-beast",
+      "name": "Beast",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "Hollow Bastion: Room of Guidance.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-friend-pluto",
+      "name": "Pluto",
+      "family": "friend",
+      "campaign": "sora",
+      "acquisition": "After Traverse Town Room of Beginnings; conditional battle appearance, not a permanent deck item.",
+      "permanentDeckInventory": false,
+      "source": "https://www.khwiki.com/Friend_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-special-gold-card",
+      "name": "Gold Card",
+      "family": "special",
+      "campaign": "sora",
+      "acquisition": "Bounty after ordinary Card Collection completion; exact unlock predicate needs modern independent check.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Special_Card",
+      "verification": "source-inspected candidate"
+    },
+    {
+      "id": "recom-card-special-platinum-card",
+      "name": "Platinum Card",
+      "family": "special",
+      "campaign": "sora",
+      "acquisition": "Bounty after ordinary Card Collection completion; Gold-before-Platinum sequencing needs modern independent check.",
+      "permanentDeckInventory": true,
+      "source": "https://www.khwiki.com/Special_Card",
+      "verification": "source-inspected candidate"
+    }
+  ]
+}

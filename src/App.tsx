@@ -253,6 +253,14 @@ const games = [
     ready: true,
   },
   {
+    id: "recom",
+    name: "Re:Chain of Memories",
+    edition: "HD 1.5 ReMIX",
+    number: "CoM",
+    art: "",
+    ready: true,
+  },
+  {
     id: "kh2fm",
     name: "Kingdom Hearts II",
     edition: "Final Mix",

@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-28",
+  "scope": "Research candidates and documentation only",
+  "result": "pass",
+  "assertionsPassed": 755,
+  "jsonCatalogsChecked": 12,
+  "recordCounts": {
+    "attack-cards": 23,
+    "other-cards": 31,
+    "enemy-cards": 78,
+    "enemy-card-farms": 30,
+    "source-conflicts": 7,
+    "map-cards": 29,
+    "sleights": 98,
+    "worlds-and-rewards": 41,
+    "worlds": 13,
+    "steam-achievements": 47,
+    "moogle-packs": 16,
+    "riku-decks": 12
+  },
+  "uniqueCandidateIds": 418,
+  "sourceRecords": 78,
+  "markdownFilesChecked": 15,
+  "localLinksChecked": 154,
+  "checks": [
+    "JSON parse and actual record counts",
+    "unique candidate IDs and per-record sources",
+    "HD/GBA exclusions",
+    "Sora/Riku separation and preset values/counts",
+    "seven CP conflicts retain both values with null CP",
+    "drop-rate domain and eligible 2.5 multiplier",
+    "reward, sleight and map scope counts",
+    "twelve Re:CoM level milestones",
+    "primary Steam display-name matches and absent native API IDs",
+    "local Markdown target existence"
+  ],
+  "notPerformed": [
+    "Game playthrough or native-screen confirmation",
+    "Steam runtime achievement trigger validation",
+    "Independent verification of every source row",
+    "App build/browser/unit tests: application code was not changed",
+    "Connected Drive re-audit",
+    "External link permanence or production media licensing approval"
+  ]
+}

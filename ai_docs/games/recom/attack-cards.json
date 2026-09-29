@@ -1,0 +1,377 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "23 HD Sora attack identities. Excludes four replaced PS2 bonus identities, Riku Soul Eater, minigame-only Keyblade and enemy attacks. Multipliers are source candidates; not CP costs or numeric card values.",
+  "records": [
+    {
+      "id": "recom-card-attack-kingdom-key",
+      "name": "Kingdom Key",
+      "campaign": "sora",
+      "strike": 1.0,
+      "thrust": 1.0,
+      "finish": 1.5,
+      "element": "Physical",
+      "acquisition": "Starting deck.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-three-wishes",
+      "name": "Three Wishes",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 1.0,
+      "finish": 3.0,
+      "element": "Physical",
+      "acquisition": "Enter Agrabah to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-crabclaw",
+      "name": "Crabclaw",
+      "campaign": "sora",
+      "strike": 1.5,
+      "thrust": 1.5,
+      "finish": 3.5,
+      "element": "Physical",
+      "acquisition": "Enter Atlantica to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-pumpkinhead",
+      "name": "Pumpkinhead",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 2.0,
+      "finish": 1.5,
+      "element": "Physical",
+      "acquisition": "Enter Halloween Town to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-fairy-harp",
+      "name": "Fairy Harp",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 2.0,
+      "finish": 2.0,
+      "element": "Physical",
+      "acquisition": "Enter Neverland to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-wishing-star",
+      "name": "Wishing Star",
+      "campaign": "sora",
+      "strike": 1.5,
+      "thrust": 1.5,
+      "finish": 1.5,
+      "element": "Physical",
+      "acquisition": "Enter Monstro to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-spellbinder",
+      "name": "Spellbinder",
+      "campaign": "sora",
+      "strike": 1.0,
+      "thrust": 3.5,
+      "finish": 1.5,
+      "element": "Lightning",
+      "acquisition": "100 Acre Wood: chest at Tigger’s Playground; return with Glide or Super Glide.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-metal-chocobo",
+      "name": "Metal Chocobo",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 2.0,
+      "finish": 3.5,
+      "element": "Neutral",
+      "acquisition": "Olympus Coliseum: base Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-olympia",
+      "name": "Olympia",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 1.0,
+      "finish": 3.0,
+      "element": "Physical",
+      "acquisition": "Enter Olympus Coliseum to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-lionheart",
+      "name": "Lionheart",
+      "campaign": "sora",
+      "strike": 2.5,
+      "thrust": 2.5,
+      "finish": 3.0,
+      "element": "Fire",
+      "acquisition": "Traverse Town: base Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-lady-luck",
+      "name": "Lady Luck",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 2.0,
+      "finish": 1.0,
+      "element": "Physical",
+      "acquisition": "Enter Wonderland to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-divine-rose",
+      "name": "Divine Rose",
+      "campaign": "sora",
+      "strike": 3.5,
+      "thrust": 1.0,
+      "finish": 2.0,
+      "element": "Physical",
+      "acquisition": "Enter Hollow Bastion to unlock random card sources; opening a world does not guarantee a copy.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-oathkeeper",
+      "name": "Oathkeeper",
+      "campaign": "sora",
+      "strike": 2.5,
+      "thrust": 4.0,
+      "finish": 3.5,
+      "element": "Physical",
+      "acquisition": "Destiny Islands: Naminé reward following Darkside.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-oblivion",
+      "name": "Oblivion",
+      "campaign": "sora",
+      "strike": 3.5,
+      "thrust": 3.5,
+      "finish": 1.0,
+      "element": "Neutral",
+      "acquisition": "Naminé reward following the final Larxene encounter.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-ultima-weapon",
+      "name": "Ultima Weapon",
+      "campaign": "sora",
+      "strike": 4.0,
+      "thrust": 4.0,
+      "finish": 4.0,
+      "element": "Physical",
+      "acquisition": "Castle Oblivion: Bounty after first Marluxia battle and a completed Reverse/Rebirth save.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-diamond-dust",
+      "name": "Diamond Dust",
+      "campaign": "sora",
+      "strike": 3.0,
+      "thrust": 3.0,
+      "finish": 3.0,
+      "element": "Ice",
+      "acquisition": "Random card sources after first Marluxia battle; exact pool by world remains to reconcile.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-one-winged-angel",
+      "name": "One-Winged Angel",
+      "campaign": "sora",
+      "strike": 1.5,
+      "thrust": 1.5,
+      "finish": 6.0,
+      "element": "Fire",
+      "acquisition": "Random card sources after first Marluxia battle; exact pool by world remains to reconcile.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-star-seeker",
+      "name": "Star Seeker",
+      "campaign": "sora",
+      "strike": 1.5,
+      "thrust": 1.0,
+      "finish": 3.5,
+      "element": "Physical",
+      "acquisition": "Castle Oblivion: Days-unlocked Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-bond-of-flame",
+      "name": "Bond of Flame",
+      "campaign": "sora",
+      "strike": 4.0,
+      "thrust": 2.0,
+      "finish": 3.0,
+      "element": "Fire",
+      "acquisition": "Halloween Town: Days-unlocked Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-total-eclipse",
+      "name": "Total Eclipse",
+      "campaign": "sora",
+      "strike": 1.0,
+      "thrust": 2.5,
+      "finish": 3.5,
+      "element": "Neutral",
+      "acquisition": "Olympus Coliseum: Days-unlocked Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-midnight-roar",
+      "name": "Midnight Roar",
+      "campaign": "sora",
+      "strike": 2.0,
+      "thrust": 3.5,
+      "finish": 1.0,
+      "element": "Physical",
+      "acquisition": "Neverland: Days-unlocked Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-maverick-flare",
+      "name": "Maverick Flare",
+      "campaign": "sora",
+      "strike": 1.0,
+      "thrust": 2.0,
+      "finish": 3.5,
+      "element": "Physical",
+      "acquisition": "Traverse Town: Days-unlocked Bounty.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    },
+    {
+      "id": "recom-card-attack-two-become-one",
+      "name": "Two Become One",
+      "campaign": "sora",
+      "strike": 3.0,
+      "thrust": 3.0,
+      "finish": 3.5,
+      "element": "Physical",
+      "acquisition": "Destiny Islands: Days-unlocked Room of Rewards chest.",
+      "cpByValue": null,
+      "sources": [
+        "https://www.khwiki.com/Attack_Card",
+        "https://www.khwiki.com/World_Cards"
+      ],
+      "verification": "single-community-family; CP/value matrix not extracted"
+    }
+  ]
+}

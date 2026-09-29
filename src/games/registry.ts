@@ -3,6 +3,7 @@ export const guideLoaders: Record<
   string,
   () => Promise<{ default: GameGuide }>
 > = {
+  recom: () => import("./recom"),
   kh2fm: () => import("./kh2fm"),
   bbsfm: () => import("./bbsfm"),
   dddhd: () => import("./dddhd"),

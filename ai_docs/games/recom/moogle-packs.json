@@ -1,0 +1,217 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "16 tier/type prices, Re:CoM shop table. No promise of a particular card/value from a random pack.",
+  "records": [
+    {
+      "id": "recom-shop-grass-attack",
+      "tier": "Grass",
+      "kind": "attack",
+      "priceMooglePoints": 100,
+      "floorRange": [
+        1,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-grass-magic",
+      "tier": "Grass",
+      "kind": "magic",
+      "priceMooglePoints": 200,
+      "floorRange": [
+        1,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-grass-item",
+      "tier": "Grass",
+      "kind": "item",
+      "priceMooglePoints": 150,
+      "floorRange": [
+        1,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-grass-assorted",
+      "tier": "Grass",
+      "kind": "assorted",
+      "priceMooglePoints": 150,
+      "floorRange": [
+        1,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-brown-attack",
+      "tier": "Brown",
+      "kind": "attack",
+      "priceMooglePoints": 200,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-brown-magic",
+      "tier": "Brown",
+      "kind": "magic",
+      "priceMooglePoints": 250,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-brown-item",
+      "tier": "Brown",
+      "kind": "item",
+      "priceMooglePoints": 200,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-brown-assorted",
+      "tier": "Brown",
+      "kind": "assorted",
+      "priceMooglePoints": 200,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-black-attack",
+      "tier": "Black",
+      "kind": "attack",
+      "priceMooglePoints": 300,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-black-magic",
+      "tier": "Black",
+      "kind": "magic",
+      "priceMooglePoints": 270,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-black-item",
+      "tier": "Black",
+      "kind": "item",
+      "priceMooglePoints": 300,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-black-assorted",
+      "tier": "Black",
+      "kind": "assorted",
+      "priceMooglePoints": 300,
+      "floorRange": [
+        7,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-mog-attack",
+      "tier": "Mog",
+      "kind": "attack",
+      "priceMooglePoints": 500,
+      "floorRange": [
+        11,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-mog-magic",
+      "tier": "Mog",
+      "kind": "magic",
+      "priceMooglePoints": 300,
+      "floorRange": [
+        11,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-mog-item",
+      "tier": "Mog",
+      "kind": "item",
+      "priceMooglePoints": 350,
+      "floorRange": [
+        11,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    },
+    {
+      "id": "recom-shop-mog-assorted",
+      "tier": "Mog",
+      "kind": "assorted",
+      "priceMooglePoints": 400,
+      "floorRange": [
+        11,
+        13
+      ],
+      "cardsPerPack": 5,
+      "source": "https://www.khwiki.com/Moogle_Shop",
+      "verification": "source-inspected; pack probability matrix not extracted"
+    }
+  ]
+}

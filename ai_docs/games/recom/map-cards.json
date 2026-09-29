@@ -1,0 +1,319 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-09-28",
+  "status": "source-backed candidates; not gameplay-verified or production data",
+  "notes": "29 map/key identities, not values 0–9 multiplied into collectible counts. Includes 4 keycards and Random Joker. Riku uses a restricted subset.",
+  "records": [
+    {
+      "id": "recom-map-tranquil-darkness",
+      "name": "Tranquil Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-teeming-darkness",
+      "name": "Teeming Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-feeble-darkness",
+      "name": "Feeble Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-almighty-darkness",
+      "name": "Almighty Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-sleeping-darkness",
+      "name": "Sleeping Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-looming-darkness",
+      "name": "Looming Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-premium-room",
+      "name": "Premium Room",
+      "family": "red",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-white-room",
+      "name": "White Room",
+      "family": "red",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-black-room",
+      "name": "Black Room",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-bottomless-darkness",
+      "name": "Bottomless Darkness",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-roulette-room",
+      "name": "Roulette Room",
+      "family": "red",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-martial-waking",
+      "name": "Martial Waking",
+      "family": "green",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-sorcerous-waking",
+      "name": "Sorcerous Waking",
+      "family": "green",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-alchemic-waking",
+      "name": "Alchemic Waking",
+      "family": "green",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-meeting-ground",
+      "name": "Meeting Ground",
+      "family": "green",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-stagnant-space",
+      "name": "Stagnant Space",
+      "family": "green",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-strong-initiative",
+      "name": "Strong Initiative",
+      "family": "green",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-lasting-daze",
+      "name": "Lasting Daze",
+      "family": "green",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-calm-bounty",
+      "name": "Calm Bounty",
+      "family": "blue",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-guarded-trove",
+      "name": "Guarded Trove",
+      "family": "blue",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-false-bounty",
+      "name": "False Bounty",
+      "family": "blue",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-moment-s-reprieve",
+      "name": "Moment's Reprieve",
+      "family": "blue",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-mingling-worlds",
+      "name": "Mingling Worlds",
+      "family": "blue",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-moogle-room",
+      "name": "Moogle Room",
+      "family": "blue",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-key-to-rewards",
+      "name": "Key to Rewards",
+      "family": "key",
+      "campaigns": [
+        "sora"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-key-of-beginnings",
+      "name": "Key of Beginnings",
+      "family": "key",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-key-of-guidance",
+      "name": "Key of Guidance",
+      "family": "key",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-key-to-truth",
+      "name": "Key to Truth",
+      "family": "key",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    },
+    {
+      "id": "recom-map-random-joker",
+      "name": "Random Joker",
+      "family": "joker",
+      "campaigns": [
+        "sora",
+        "riku"
+      ],
+      "source": "https://www.khwiki.com/Map_Card",
+      "verification": "Re:CoM availability selected; full world/difficulty rate matrices not extracted"
+    }
+  ]
+}

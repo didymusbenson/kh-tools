@@ -7,6 +7,7 @@ These documents define what Ars Arcanum must eventually cover. The imported KHTA
 ## Current specifications
 
 - [Kingdom Hearts Final Mix](./kingdom-hearts-final-mix.md)
+- [Kingdom Hearts Re:Chain of Memories](./kingdom-hearts-re-chain-of-memories.md) — [sourced research pack](./recom/README.md), added 2026-09-28; [working HD journal](../implementation/recom-hd-journal.md)
 - [Kingdom Hearts II Final Mix](./kingdom-hearts-ii-final-mix.md)
 - [Kingdom Hearts Birth by Sleep Final Mix and 0.2](./birth-by-sleep-final-mix.md)
 - [Kingdom Hearts Dream Drop Distance](./dream-drop-distance.md)
@@ -80,3 +81,5 @@ Every game inherits [Data Jiminy](../data-jiminy.md): one app-wide answering mod
 ## Implemented guide refinement pass
 
 All six game selectors now open working journals. See the [refinement playbook](../implementation/refinement-playbook.md) and [rollout status](../implementation/multi-game-rollout.md). This pass explicitly excludes new Data Jiminy integrations. Per-game rollout notes distinguish implemented interactions from incomplete factual catalogs.
+
+Re:Chain of Memories was subsequently added to research scope on 2026-09-28. Its initial HD journal now adds a seventh working selector. See its [readiness workbook](../readiness/kingdom-hearts-re-chain-of-memories.md) for the boundary between completed factfinding and remaining data/implementation work.

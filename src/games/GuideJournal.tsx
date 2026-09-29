@@ -3,6 +3,8 @@ import { bbsCampaigns, bbsScope, bbsRecipeSummary } from "./bbsPresentation";
 import { entryTitle, chestReference } from "../domain/entryPresentation";
 import { materialFamily, sortMaterials, inWorld } from "./presentation";
 import {
+  lazy,
+  Suspense,
   useEffect,
   useRef,
   useState,
@@ -21,6 +23,7 @@ import {
   type GuideProfile,
 } from "./profile";
 import "./guides.css";
+const RecomJournal = lazy(() => import("../journal/RecomJournal").then(m => ({default: m.RecomJournal})));
 
 export default function GuideJournal({
   guide,
@@ -604,6 +607,12 @@ export default function GuideJournal({
   const materials = entries
     .filter((e) => ["material", "materials"].includes(e.category))
     .sort(sortMaterials);
+  if (guide.id === "recom") return <Suspense fallback={<div className="loading-page">Opening your journal…</div>}><RecomJournal
+    guide={guide} route={route} profile={profile} ready={ready}
+    error={error} notice={notice} updateNotice={updateNotice}
+    update={update} toggle={toggle} progressPage={progressPage()}
+    retry={()=>{void loadProfile(guide).then(p=>{setProfile(p);setReady(true);setError("");}).catch(e=>setError(e.message));}}
+  /></Suspense>;
   if (guide.id === "kh2fm") return <Kh2Journal
     guide={guide} route={route} profile={profile} ready={ready}
     error={error} notice={notice} updateNotice={updateNotice}
