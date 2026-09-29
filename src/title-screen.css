@@ -99,21 +99,21 @@
   padding: 0 0 0 var(--title-inset);
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 0;
 }
 
 .title-screen .game-option {
   --cursor-size: 31px;
   --row-start: 3px;
-  --row-bottom: 8px;
+  --row-bottom: 4px;
   isolation: isolate;
   position: relative;
   display: flex;
   align-items: flex-end;
   gap: 18px;
   width: 100%;
-  min-height: clamp(48px, 6.1vh, 68px);
-  padding: 5px var(--title-inset) var(--row-bottom) var(--row-start);
+  min-height: 44px;
+  padding: 2px var(--title-inset) var(--row-bottom) var(--row-start);
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -254,8 +254,8 @@
     margin: 18px 0 0;
   }
   .title-screen-art { top: 15px; right: -16px; width: 55%; height: 270px; }
-  .title-screen-games { gap: 7px; }
-  .title-screen .game-option { --cursor-size: 25px; --row-start: 2px; --row-bottom: 9px; min-height: 57px; gap: 12px; padding: 6px 12px var(--row-bottom) var(--row-start); }
+  .title-screen-games { gap: 0; }
+  .title-screen .game-option { --cursor-size: 25px; --row-start: 2px; --row-bottom: 4px; min-height: 48px; gap: 12px; padding: 2px 12px var(--row-bottom) var(--row-start); }
   .title-screen-cursor { border-width: 4px; }
   .title-screen-game-name { display: block; font-size: clamp(15px, 3.85vw, 24px); letter-spacing: .035em; }
   .title-screen-game-name small { display: block; margin-top: 4px; font-size: 10px; letter-spacing: .1em; }
