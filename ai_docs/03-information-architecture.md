@@ -41,7 +41,7 @@ Deep links may enter directly at steps 3–5.
   - Reports/records
   - Game-specific tools
   - Completion summary
-- Sources and verification
+- Sources & Research (dismissible modal opened from global game-selection home; [requirements draft](./content/sources-and-research-modal.md))
 - About and legal information
 
 Sections adapt to the selected game's actual systems. Empty generic sections should not appear.

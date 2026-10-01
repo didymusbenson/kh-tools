@@ -353,3 +353,20 @@ The user clarified during implementation that external research citations were f
 - **Date:** 2026-09-28
 - **Decision:** Implement the working character home, character Reports, separate episode collection and Command Melding tool in the app. Preserve the existing saved profile identities and the accepted temporary artwork boundary.
 - **Consequences:** The local build is reviewable and interactive. Research gaps remain explicit, and quarantined meld conflicts remain excluded. Planning and historical meld checks do not consume stock. No deployment or final visual-fidelity approval is implied.
+
+## DEC-037: Centralize attribution and research explanation in a home modal
+
+- **Status:** Accepted user direction; requirements drafting authorized.
+- **Date:** 2026-10-01
+- **Decision:** Provide a popup modal on the global game-selection home page that users can open, read and dismiss. It credits the sources behind the guide and explains how the research was performed.
+- **Rationale:** The user wants community-sourced information to be acknowledged without spending space on repeated citations throughout individual journal pages.
+- **Consequences:** Retain detailed provenance in research documents and underlying records. Centralize the user-facing explanation and credits, preserve existing source-specific attribution resources, and keep the modal optional and accessible. This request drafts requirements; it does not implement or deploy the feature.
+- **Specification:** [Sources & Research home modal requirements](content/sources-and-research-modal.md).
+
+## DEC-038: Flush Coppermind memories and put Jiminy's notice behind About
+
+- **Status:** Accepted user instruction, including explicit clarification to flush memories rather than disable infrastructure.
+- **Date:** 2026-10-01
+- **Decision:** Empty the existing game Coppermind memories because the underlying facts need correction. Keep the databases, model infrastructure and feature available for rebuilding. Label Data Jiminy under construction, and show the full AI notice through an **About Data Jiminy** popup.
+- **Consequences:** Ship empty, revisioned knowledge exports and Chroma instances; reject or remove obsolete cached exports after the app updates. Do not return the same unchecked guide facts through deterministic fallback. Preserve research, player state and model weights. Restore factual answering through a reviewed future knowledge release. Keep the full user-authored notice accessible, with modal dismissal and focus restoration.
+- **Specification:** [Data Jiminy current knowledge reset](data-jiminy.md#current-knowledge-reset--2026-10-01).

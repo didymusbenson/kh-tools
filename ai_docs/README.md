@@ -16,6 +16,7 @@ All user-requested features and specified games are MVP scope unless the user ex
 
 ## Implementation reports
 
+- [Data Jiminy memory flush and About popup](./implementation/jiminy-memory-flush-2026-10-01.md) — empty knowledge release, retained infrastructure and validation
 - [Re:Chain of Memories HD journal](./implementation/recom-hd-journal.md) — working Sora/Riku interfaces, sourced catalogue, persistence, offline validation and remaining boundaries
 
 - [BBS review and approval checklist](./implementation/bbsfm-review-checklist.md) — personal review queue, working preview links, approval notes and research follow-ups
@@ -44,10 +45,13 @@ Put unstructured notes, links, examples, feature ideas, and source material into
 
 ## Readiness
 
+[October 1 research audit](./research/research-audit-2026-10-01.md) indexes all seven per-game `research_audit.md` reports, including open questions, affected records and resolved historical caveats.
+
 [Per-game readiness workbooks](./readiness/README.md) track what we have, what is missing, user questions, and release gates. Start with the [KH1FM assessment](./readiness/kingdom-hearts-final-mix.md).
 
 ## Detailed specifications
 
+- [Sources & Research home modal](./content/sources-and-research-modal.md) — centralized attribution, research-method explanation and dismissible home-page reading experience; requirements draft
 - [Re:Chain of Memories research pack](./games/recom/README.md) — 2026-09-28 factfinding, both campaigns, structured inventories, sources and remaining gaps
 - [Re:Chain of Memories coverage audit](./research/recom-2026-09-28-coverage-and-gap-research.md)
 - [Re:Chain of Memories HD menu design research](./ui/recom-menu-design-research.md) — distinct Journal, D-Report and system-menu compositions

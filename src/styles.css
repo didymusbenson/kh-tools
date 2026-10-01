@@ -2694,6 +2694,55 @@ p {
   scrollbar-width: thin;
   scrollbar-color: #cbd7ba transparent;
 }
+.jiminy-construction {
+  margin: 0 0 4px;
+  line-height: 1.6;
+}
+.jiminy-about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 6px 0;
+  margin-bottom: 12px;
+  border: 0;
+  background: transparent;
+  color: #365530;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.jiminy-about-dialog {
+  width: min(540px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #cad5b6;
+  border-radius: 9px;
+  background: #f6f7eb;
+  color: #3b5132;
+  box-shadow: 0 18px 70px #0c211b66;
+  overflow: hidden;
+}
+.jiminy-about-dialog::backdrop { background: #10261f88; }
+.jiminy-about-inner {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100dvh - 36px);
+}
+.jiminy-about-inner > header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 18px;
+  background: #e8efda;
+  border-bottom: 1px solid #d5dec5;
+  flex-shrink: 0;
+}
+.jiminy-about-inner h2 { flex: 1; font-size: 21px; margin: 0; }
+.jiminy-about-inner .icon-button { flex-shrink: 0; min-width: 44px; min-height: 44px; }
+.jiminy-about-copy { overflow: auto; overscroll-behavior: contain; padding: 4px 20px 18px; line-height: 1.7; }
 .ai-disclaimer {
   border: 1px solid #daccaa;
   background: #f2eddb;

@@ -77,23 +77,3 @@ test("explicit filters hide expanded completed items while a new check stays rea
   await row.locator("h3 button").click();
   await expect(row).toHaveCount(0);
 });
-
-test("following the same Jiminy citation reopens a collapsed focused item", async ({ page }) => {
-  await page.goto("./#/kh1fm/worlds");
-  const launcher = page.getByRole("button", { name: "Open Data Jiminy for Kingdom Hearts Final Mix" });
-  await launcher.click();
-  await page.getByRole("textbox", { name: "Ask about Kingdom Hearts Final Mix" }).fill("Where are the Torn Pages in Agrabah?");
-  await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
-  const citation = page.locator('.answer-citations a[href$="?entry=kh1fm-torn-page-agrabah"]');
-  await citation.click();
-  const row = page.locator("#row-kh1fm-torn-page-agrabah");
-  await expect(row.locator("h3 button")).toHaveAttribute("aria-expanded", "true");
-  await row.locator("h3 button").click();
-  await expect(row.locator("h3 button")).toHaveAttribute("aria-expanded", "false");
-  const currentUrl = page.url();
-  await launcher.click();
-  await citation.click();
-  expect(page.url()).toBe(currentUrl);
-  await expect(row.locator("h3 button")).toHaveAttribute("aria-expanded", "true");
-  await expect(row.locator(".entry-inline-details")).toBeVisible();
-});

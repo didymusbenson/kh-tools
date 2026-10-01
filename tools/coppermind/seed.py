@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MODEL = 'Xenova/all-MiniLM-L6-v2'
+KNOWLEDGE_RELEASE = json.loads((ROOT / 'src/jiminy/knowledge-release.json').read_text())
 
 def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
@@ -103,7 +104,7 @@ def seed(data, db_root, output, embedder):
         collection.delete(ids=stale)
     stored = collection.get(include=['documents', 'metadatas', 'embeddings'])
     ordered = sorted(zip(stored['ids'], stored['documents'], stored['metadatas'], stored['embeddings']), key=lambda x:x[0])
-    pack = {'schemaVersion': 1, 'game': game, 'contentVersion': data['version'], 'contentHash': digest(data),
+    pack = {'schemaVersion': 1, 'knowledgeRevision': KNOWLEDGE_RELEASE['revision'], 'knowledgeState': 'ready', 'game': game, 'contentVersion': data['version'], 'contentHash': digest(data),
             'embedding': {'model': MODEL, 'dtype': 'fp32', 'dimensions':384, 'pooling':'mean', 'normalize':True, 'revision':'751bff37182d3f1213fa05d7196b954e230abad9'},
             'thoughts': [{'id': i, 'text': t, 'metadata': m, 'vector': [round(float(x), 8) for x in v]} for i,t,m,v in ordered]}
     Path(output).parent.mkdir(parents=True, exist_ok=True)
@@ -122,6 +123,8 @@ def local_embeddings(texts):
         return json.loads(target.read_text())
 
 if __name__ == '__main__':
+    if KNOWLEDGE_RELEASE['state'] == 'empty':
+        raise SystemExit('Knowledge has been flushed for research review. Approve corrected content and update knowledge-release.json before reseeding.')
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', required=True)
     parser.add_argument('--db-root', default=str(ROOT / '.copperminds'))

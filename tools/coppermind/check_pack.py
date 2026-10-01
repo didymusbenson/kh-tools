@@ -7,7 +7,7 @@ import math
 from pathlib import Path
 import sys
 
-from seed import MODEL, ROOT, digest, thoughts
+from seed import MODEL, ROOT, KNOWLEDGE_RELEASE, digest, thoughts
 
 
 EXPECTED_EMBEDDING = {
@@ -20,17 +20,28 @@ EXPECTED_EMBEDDING = {
 }
 
 
-def validate_pack(data, pack):
+def validate_pack(data, pack, allow_empty=False):
     if not isinstance(pack, dict) or type(pack.get('schemaVersion')) is not int or pack['schemaVersion'] != 1:
         raise ValueError('Unsupported Coppermind pack schema; expected version 1.')
     if pack.get('game') != data.get('game'):
         raise ValueError('The Coppermind pack belongs to a different game.')
+    if pack.get('knowledgeRevision') != KNOWLEDGE_RELEASE['revision']:
+        raise ValueError('The Coppermind predates the current knowledge release.')
     if pack.get('contentVersion') != data.get('version'):
         raise ValueError('The Coppermind content version is stale. Re-seed after building the canonical content.')
     if pack.get('contentHash') != digest(data):
         raise ValueError('The Coppermind content hash is stale. Re-seed after building the canonical content.')
     if digest(pack.get('embedding')) != digest(EXPECTED_EMBEDDING):
         raise ValueError('The Coppermind embedding settings do not match the pinned browser encoder.')
+
+    if allow_empty:
+        if pack.get('knowledgeState') != 'empty' or pack.get('thoughts') != []:
+            raise ValueError('The current knowledge release must contain zero memories.')
+        return {'game': data['game'], 'knowledgeRevision': pack['knowledgeRevision'],
+                'knowledgeState': 'empty', 'thoughtCount': 0, 'entryCount': 0,
+                'contentHash': pack['contentHash']}
+    if pack.get('knowledgeState') != 'ready':
+        raise ValueError('Expected a populated knowledge release.')
 
     expected = sorted(thoughts(data), key=lambda thought: thought['id'])
     actual = pack.get('thoughts')
@@ -72,7 +83,7 @@ def main():
     try:
         data = json.loads(args.input.read_text(encoding='utf-8'))
         pack = json.loads(args.pack.read_text(encoding='utf-8'))
-        report = validate_pack(data, pack)
+        report = validate_pack(data, pack, allow_empty=KNOWLEDGE_RELEASE['state'] == 'empty')
     except (OSError, ValueError, KeyError, TypeError) as error:
         print(f'Coppermind pack verification failed: {error}', file=sys.stderr)
         return 1

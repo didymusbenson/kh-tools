@@ -6,59 +6,68 @@ import { resolve } from "node:path";
 // Configure tracing at file scope; heavy model responses must not be traced.
 test.use({ trace: process.env.ARS_TEST_MODELS ? "off" : "retain-on-failure" });
 
-test("Jiminy answers sourced requests, rejects another game, and forgets chat on reload", async ({
-  page,
-}) => {
-  await page.goto("./#/kh1fm/worlds");
-  await page
-    .getByRole("button", {
-      name: "Open Data Jiminy for Kingdom Hearts Final Mix",
-    })
-    .click();
-  await expect(
-    page.getByText(/AI DISCLAIMER: This is Data Jiminy/),
-  ).toBeVisible();
-  await page
-    .getByRole("button", { name: /What do I need for Ultima Weapon/ })
-    .click();
-  const answers = page.locator(".answer-text");
-  await expect(answers.last()).toContainText("5 × Thunder Gem");
-  await expect(
-    page.locator(".answer-citations").getByRole("link").first(),
-  ).toBeVisible();
-  const input = page.getByRole("textbox", {
-    name: "Ask about Kingdom Hearts Final Mix",
+test("Jiminy has empty memories and opens the full notice only on request", async ({ page }) => {
+  const external: string[] = [];
+  page.on("request", request => {
+    if (/huggingface|coppermind.*old/.test(request.url())) external.push(request.url());
   });
-  await input.fill("Where are my missing Torn Pages in Agrabah?");
+  await page.goto("./#/kh1fm/worlds");
+  const launcher = page.getByRole("button", { name: "Open Data Jiminy for Kingdom Hearts Final Mix" });
+  await launcher.click();
+  const panel = page.getByRole("dialog", { name: "Data Jiminy", exact: true });
+  await expect(panel.getByText("Under construction", { exact: true })).toBeVisible();
+  await expect(page.getByText(/AI DISCLAIMER: This is Data Jiminy/)).not.toBeVisible();
+  const about = page.getByRole("button", { name: "About Data Jiminy", exact: true });
+  await about.click();
+  const notice = page.getByRole("dialog", { name: "About Data Jiminy", exact: true });
+  await expect(notice).toBeVisible();
+  await expect(notice.getByText(/AI DISCLAIMER: This is Data Jiminy/)).toBeVisible();
+  await expect(notice.getByText(/pretrained model can make mistakes/)).toBeVisible();
+  await page.screenshot({ path: `test-results/${test.info().project.name}-jiminy-about.png` });
+  await page.keyboard.press("Escape");
+  await expect(notice).not.toBeVisible();
+  await expect(panel).toBeVisible();
+  await expect(about).toBeFocused();
+  await about.click();
+  await page.getByRole("button", { name: "Close About Data Jiminy", exact: true }).click();
+  await expect(about).toBeFocused();
+  await page.getByRole("textbox", { name: "Ask about Kingdom Hearts Final Mix" }).fill("What do I need for Ultima Weapon?");
   await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
-  await expect(answers.last()).toContainText("Torn Page — Agrabah");
-  const scopedLinks = page.locator(".jiminy-exchange").last().locator(".answer-citations a");
-  await expect(scopedLinks).toHaveCount(1);
-  await expect(scopedLinks).toHaveAttribute("href", "#/kh1fm/torn-pages?entry=kh1fm-torn-page-agrabah");
-  await input.fill("How do I meld commands in Birth by Sleep?");
-  await page
-    .getByRole("button", { name: "Ask Data Jiminy", exact: true })
-    .click();
-  await expect(answers.last()).toContainText("matching game journal");
-  await page.screenshot({
-    path: `test-results/${test.info().project.name}-jiminy.png`,
-    fullPage: true,
+  await expect(page.locator(".answer-text").last()).toContainText("still under construction");
+  await expect(page.locator(".answer-citations")).toHaveCount(0);
+  expect(external).toEqual([]);
+  await page.screenshot({ path: `test-results/${test.info().project.name}-jiminy.png` });
+  await page.keyboard.press("Escape");
+  await expect(launcher).toBeFocused();
+});
+
+test("an update flushes old cached knowledge without deleting guide data or model files", async ({ page, context }) => {
+  await page.goto("./#/kh1fm/worlds");
+  await page.evaluate(async () => { await navigator.serviceWorker.ready; });
+  const urls = await page.evaluate(async () => {
+    const root = new URL('.', location.href);
+    const old = new URL('data/kh1fm-coppermind.json?__WB_REVISION__=old', root).href;
+    const guide = new URL('data/keep-guide.json', root).href;
+    const model = new URL('ort/keep-model.wasm', root).href;
+    const cache = await caches.open('ars-arcanum-copperminds-v1');
+    await cache.put(old, new Response(JSON.stringify({ thoughts: [{ text: 'Incorrect memory' }] })));
+    await cache.put(guide, new Response('saved guide'));
+    await cache.put(model, new Response('saved model'));
+    localStorage.setItem('jiminy-flush-progress-sentinel', 'preserved');
+    return { old, guide, model };
   });
   await page.reload();
-  await page
-    .getByRole("button", {
-      name: "Open Data Jiminy for Kingdom Hearts Final Mix",
-    })
-    .click();
-  await expect(page.locator(".jiminy-exchange")).toHaveCount(0);
-  await page
-    .getByRole("button", { name: "Close Data Jiminy", exact: true })
-    .click();
-  await expect(
-    page.getByRole("button", {
-      name: "Open Data Jiminy for Kingdom Hearts Final Mix",
-    }),
-  ).toBeFocused();
+  await expect.poll(() => page.evaluate(async old => { const cache = await caches.open('ars-arcanum-copperminds-v1'); return !!(await cache.match(old)); }, urls.old)).toBe(false);
+  expect(await page.evaluate(async ({ guide, model }) => {
+    const cache = await caches.open('ars-arcanum-copperminds-v1');
+    return [!!(await cache.match(guide)), !!(await cache.match(model)), localStorage.getItem('jiminy-flush-progress-sentinel')];
+  }, urls)).toEqual([true, true, 'preserved']);
+  await context.setOffline(true);
+  await page.reload();
+  await page.getByRole("button", { name: "Open Data Jiminy for Kingdom Hearts Final Mix" }).click();
+  await page.getByRole("textbox", { name: "Ask about Kingdom Hearts Final Mix" }).fill("Where are the Torn Pages?");
+  await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
+  await expect(page.locator(".answer-text").last()).toContainText("still under construction");
 });
 
 test.describe("Real local-model acceptance", () => {
@@ -169,26 +178,11 @@ test.describe("Real local-model acceptance", () => {
     ).toBeVisible({ timeout: 120_000 });
     expect(served.length).toBe(downloaded);
     await expect(page.locator(".jiminy-exchange")).toHaveCount(0);
-    await page
-      .getByRole("button", { name: /What do I need for Ultima Weapon/ })
-      .click();
-    await expect(page.locator(".answer-text").last()).toContainText(
-      "Thunder Gem",
-    );
-    // Bypass deterministic lookup: exercise local embedding, retrieval and generation offline.
-    const input = page.getByRole("textbox", {
-      name: "Ask about Kingdom Hearts Final Mix",
-    });
+    const input = page.getByRole("textbox", { name: "Ask about Kingdom Hearts Final Mix" });
     await input.fill("What does Lucky Strike do?");
-    await page
-      .getByRole("button", { name: "Ask Data Jiminy", exact: true })
-      .click();
-    await expect(
-      page.locator('.answer-citations a[href*="kh1fm-ability-lucky-strike"]'),
-    ).toBeVisible({ timeout: 90_000 });
-    await expect(page.locator(".answer-text").last()).not.toContainText(
-      "No matching information",
-    );
+    await page.getByRole("button", { name: "Ask Data Jiminy", exact: true }).click();
+    await expect(page.locator(".answer-text").last()).toContainText("still under construction");
+    await expect(page.locator(".answer-citations")).toHaveCount(0);
     expect(served.length).toBe(downloaded);
   });
 });

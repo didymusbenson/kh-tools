@@ -1,3 +1,8 @@
+import knowledgeRelease from "./knowledge-release.json";
+
+export const KNOWLEDGE_REVISION = knowledgeRelease.revision;
+export const CONSTRUCTION_MESSAGE = "Data Jiminy is still under construction. His game knowledge is being reviewed and rebuilt.";
+
 export interface JiminyProgress {
   phase: "idle" | "downloading" | "loading" | "ready" | "error";
   message: string;
@@ -32,6 +37,8 @@ export interface Thought {
 }
 export interface CoppermindPack {
   schemaVersion: 1;
+  knowledgeRevision?: string;
+  knowledgeState?: "empty" | "ready";
   game: string;
   contentVersion: string;
   embedding: {

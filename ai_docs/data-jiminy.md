@@ -1,5 +1,13 @@
 # Data Jiminy
 
+## Current knowledge reset — 2026-10-01
+
+The user requested that the inaccurate Coppermind memories be **flushed, not that the feature or database infrastructure be disabled**. The KH1FM Chroma instance and browser export now retain their structure with zero thoughts; it was the only populated game instance. Model setup, the assistant and future seeding infrastructure remain available. Canonical guide/research records and player progress are not removed.
+
+The UI says Data Jiminy is **under construction** while game knowledge is reviewed and rebuilt. Empty knowledge returns that status instead of using raw guide data as a direct-answer fallback. A new knowledge revision rejects pre-flush exports, and app startup removes obsolete game-pack cache entries while preserving models, guides and saved progress. The build gate requires the empty release until corrected content is approved for reseeding. Existing installed/offline clients receive this change when they load the updated app; devices that have not updated cannot be remotely flushed.
+
+Replace the expanded notice with a compact **About Data Jiminy** control. Activation opens the full existing disclaimer and limitations in a separate accessible modal, with a close action, Escape dismissal, scrollable text and focus returned to About. Closing About leaves the assistant open. This supersedes earlier directions for a prominent block in the chat; the full notice remains available.
+
 ## Status and identity
 
 Accepted MVP feature for Ars Arcanum. The natural-language Coppermind query interface is represented by Jiminy Cricket and is specifically named **Data Jiminy**. This is the user-facing identity of the per-game Coppermind assistant. Planning remains the current phase; no application implementation is authorized by this document.
@@ -12,7 +20,7 @@ Preserve this copy as the initial design baseline. The user explicitly allows ad
 
 > AI DISCLAIMER: This is Data Jiminy. He runs on an open source SLM called {modelname}, which is completely offline and only reads data from this app, nothing else. The only way he's consuming any water is if you drop your phone in the bath. I'm sure the more technically inclined of you are going to try to make him say weird stuff. That would only be a reflection of the darkness in your own heart. May your heart be your guiding key.
 
-The disclaimer must be prominently presented in the question-and-answer interface, not buried solely in general terms. Proposed placement: first-use introduction with an always-accessible “About Data Jiminy / AI disclaimer” entry. Exact layout and dismissal behavior remain design decisions; an extra login or consent wizard is not implied.
+Current placement is the always-accessible **About Data Jiminy** popup described above. Do not expand the full disclaimer in the chat by default or add a consent wizard.
 
 Resolve `{modelname}` from the shipped model metadata. Do not publish an unresolved placeholder or imply a model has been selected before evaluation. Retain the playful Kingdom Hearts tone, water joke, darkness-in-your-heart line, and closing sentiment when refining the copy.
 

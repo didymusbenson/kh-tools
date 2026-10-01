@@ -5,6 +5,7 @@
 /node_modules/
 /dist/
 /.venv/
+/.venv-coppermind/
 /__pycache__/
 *.pyc
 /test-results/

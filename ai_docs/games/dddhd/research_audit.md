@@ -1,0 +1,3145 @@
+# DDD HD research audit
+
+Audit date: 2026-10-01. Repository baseline: `f933ab1`; audit branch: `research/audit-2026-10-01`. This is an evidence and gap audit of existing tracked files, not new external research. The target is the modern Steam HD edition. Original 3DS data is comparison evidence; the announced 2026-10-08 editions remain future-version follow-up, not the baseline.
+
+## Method, coverage, and counts
+
+Read the entire DDD research pack, standalone specification, readiness assessment, source/Drive manifest, rollout, all three source JSON files and their shapes, generator/fetch scripts, runtime guide/config, shared schema and applicable tests. Searched tracked Markdown/JSON/TypeScript/Python/CSV for game names and hedge/absence language, then inspected context, missing fields, source-to-runtime joins and scope omissions. No relevant tracked DDD CSV was found. No sources were fetched or formulas regenerated. IDs, counts, source-reference strings and imported chest contents were checked in memory. Functional tests were inspected, not executed; their existence is not gameplay evidence.
+
+Current represented content is **860 entries and 263 formula rows**: 438 treasures, 54 Spirits, 124 commands, 43 abilities, 37 materials, 89 portals (78 Special + 11 Secret), 14 Dives, 13 challenges (10 cups + 3 encounter goals), 15 Keyblade types, 18 in-game awards and 15 selected Steam achievements. All 438 runtime chest contents match `world-facts.json`; all 54 breeds have formulas and Link/attribute/style fields. All 37 materials have at least one runtime source route. These inventories supersede September 18 statements that no production datasets exist, while leaving route completeness unresolved.
+
+**25 deduplicated findings:** 21 open game-fact/coverage questions (DDD-001–009, DDD-011–022), 2 mixed source-extraction/verification issues (DDD-010, DDD-024), and 2 researched-but-unintegrated findings (DDD-023, DDD-025). Historical/resolved and nonfactual limitations are separately recorded below. Findings can cover many records; the occurrence appendices enumerate identities rather than treating every repeated generic caveat as a separate research question.
+
+195/263 current formulas have `probability:null` and `alternate:null`; the historical workbook had 175/243 blank probabilities. Those are different datasets, not contradictory counts. 37 unordered ingredient-pair groups occur for more than one breed; these need outcome-event reconciliation, not automatic deduplication of valid alternatives. 814/860 runtime entries have an `uncertainty` field. No null runtime optional field remains because the generator strips it; absence is not evidence of a known negative.
+
+## Findings
+
+### DDD-001 — Complete chest directions and access/returnability
+
+**Open.** For each of 438 HD character/world chests, what exact landmark, approach, action, movement/access condition and return/re-entry rule leads to it? Census and item/area facts are present; 412 generated rows contain only an area, and 26 authored examples vary in precision. The historical source had 387 missing location-note cells, not 387 missing runtime records. `summary`, absent `instructions`/`prerequisites`/`missability`, and `uncertainty` are affected; all IDs and lines are in Appendix A.
+
+Evidence: “precise approach directions and prerequisites are not yet verified” (`src/games/dddhd/generate.py:81`); `ai_docs/games/dddhd/worlds-and-collectibles.md:20`, `:28–53`, `:59`, `:70–71`; `ai_docs/implementation/dddhd-rollout.md:31`. Specific unresolved cases include Grid upper Docks/Solar Sailer roof, Prankster Ferris wheel and inverted Monstro, Musketeers breakable Machine Room wall, and final-world traversal. Lead: the seven world sources in `ai_docs/games/dddhd/sources.md:32–38` plus independent HD location evidence. The 51 source notes were not all preserved: see DDD-024.
+
+### DDD-002 — Official HD treasure order and consequential edition replacements
+
+**Open.** Do source row numbers match the HD Reports order, and is every 3DS/HD content replacement represented correctly? All 438 `order` values and number-derived IDs are source-reported, not separately certified Journal order. “verify against reliable HD references” (`ai_docs/games/dddhd/worlds-and-collectibles.md:18`, also `:69`, `:72`). Source changes already integrated include Catanuki Recipe and Candy Goggles (`:29`, `:32`, `:35`, `:46`); do not reopen their established substitutions merely because they were not played in-game. The unresolved part is exhaustive ordering/delta coverage. Lead: HD reference/source change sections; preserve migration aliases if source order changes.
+
+### DDD-003 — All 54 Ability Link graphs and legacy integrity
+
+**Open.** What are every board's coordinates, node kinds, LP costs, prerequisite edges, level/Link/disposition gates and state-dependent rewards? 816 legacy rows are exactly 16 flattened rewards for each of 51 breeds; they do not establish topology, and the three HD additions have only selected node examples. `spirits.instructions`, provider references and future board models are affected. “not a complete path” (`src/games/dddhd/generate.py:21`); `ai_docs/games/dddhd/legacy-audit.md:35`, `:39–42`; `ai_docs/games/dddhd/spirits-and-commands.md:49–59`. Cyber Yog's two Thunder Screen legacy rows remain classified `deck_command`; generator name matching bypasses classification without correcting the source. Lord Kyroo transformed Blitz/Ars Arcanum are still present in a flat list with appended explanation. Lead: breed board tables and independent topology evidence. Appendix C enumerates every legacy row; Appendix A all 54 runtime IDs.
+
+### DDD-004 — Aura Lion red-secret coordinate conflict
+
+**Open, disputed.** Is Secret: Red C-7 or D-7, and what exact path/cost opens transformed C-2 Faith? Table says C-7; footnote says D-7, also identified as level-30 checkpoint. Affects `dddhd:spirits:aura-lion`, `dddhd:commands:faith`, `dddhd:commands:curaga`, `dddhd:abilities:second-chance` and board routes. “C-7 versus D-7” (`src/games/dddhd/generate.py:22`); `ai_docs/games/dddhd/spirits-and-commands.md:49`, `:55`, `:84`; `ai_docs/readiness/dream-drop-distance.md:68`. Faith acquisition by either character versus Sora-only equipping is already distinguished (`src/games/dddhd/generate.py:32`). Lead: independent HD board image/text; no mandatory user playthrough.
+
+### DDD-005 — Spirit dispositions, stats, variants and interaction details
+
+**Open.** What are the exact four-disposition change interactions, body parts, affinity/training behavior, rank-dependent stats and Nightmare variant coverage for the full encyclopedia? Beatalike/Tubguin Ace sources have missing body-part text and “???” base stats (`ai_docs/games/dddhd/spirits-and-commands.md:21`). The 54-breed roster is represented but an independent full breed/variant census and encyclopedia fields remain incomplete (`ai_docs/readiness/dream-drop-distance.md:27`; `ai_docs/games/dream-drop-distance.md:33–46`). `spirit-facts.json` extracts no disposition/stat/family fields. Empty Nightmare drops/worlds for nine breeds are not automatically gaps: distinguish Spirit-only/non-applicable forms from omitted extraction before filling. Lead: breed pages and Spirit mechanics source; exact empty-field identities are in Appendix B.
+
+### DDD-006 — Formula probabilities and shared outcomes
+
+**Open.** What success probability and alternate outcome apply to each of the 195 null formulas, and which of all 263 rows describe the same creation attempt? `formulas[].probability`, `alternate`, runtime `recipes[].instructions` lack normalized outcome grouping. “Success probability is not explicitly recorded” (`src/games/dddhd/generate.py:98`). `ai_docs/games/dddhd/spirits-and-commands.md:29` requires shared outcome events. Existing Aura Lion/Keeba Tiger and Lord Kyroo/Ryu Dragon paired percentages are now source-backed in the snapshot; the old wording that those probabilities are wholly unresearched is stale. Preserve per-outcome base ranks. Appendix B lists all 263 formula identities, nulls and all 37 repeated ingredient groups. Lead: original synthesis templates/HD tables, documenting template defaults if any; never infer null = 100%.
+
+### DDD-007 — Creation rank, initial stats and optimization rules
+
+**Open.** What exact extra-material thresholds, weaker-ingredient rule, initial-level/stat variation, donated-command effects and probability changes support target-rank calculations? The existing 263 rows are direct one-attempt material targets, not optimized guaranteed results. “rank-boost thresholds and probability changes need explicit fixtures” (`ai_docs/games/dddhd/spirits-and-commands.md:25–31`); `src/games/dddhd/generate.py:101`. Fixed post-creation rank, recipe-item independence and Risky Winds restrictions are already researched. Legacy BEST BASE is unfinished (24 true/87 false/132 null), not optimization proof. Lead: Spirit/Drop System mechanics and independent worked fixtures. All recipe IDs in Appendix B.
+
+### DDD-008 — Recipe-item, Moogle and Medal Shop acquisition inventory
+
+**Open.** Where is every recipe item obtained, with exact HD shop level, price, Bargain Flurry price, medal rank/cost and non-shop alternatives? Frootz Cat, Kab Kannon, R & R Seal shop price/unlock are explicitly unresolved (`ai_docs/games/dddhd/spirits-and-commands.md:14–16`). Beatalike, Tubguin Ace, Catanuki and Sudo Neku routes are researched (`:11–13`, `:17`) and preserved in selected formula prose; most breeds have no recipe-item acquisition metadata. “Stock/level tables remain unextracted” (`ai_docs/games/dddhd/sources.md:53`); recipe table partly migrated (`:52`). Affects all 54 recipe-item goals, missing as an independent category, and `dddhd:achievements:recipe-collector`. Lead: already fetched Moogle Shop page, Recipe table, Flick Rush medal stock. Knowing formulas does not satisfy ownership.
+
+### DDD-009 — Complete Dream Piece acquisition routes
+
+**Open.** For all 37 materials, what exact enemy room/character/form, spawn requirement, shop stock, finite treasure, first-clear/expiration yield and forecast modifier applies? “not exhaustive” (`src/games/dddhd/generate.py:113`); world-level farming is not a room route (`:108`). `ai_docs/games/dddhd/spirits-and-commands.md:35–43`; `ai_docs/implementation/dddhd-rollout.md:19`, `:31`. All 37 have current farming sources; the old two-fixture-only coverage is obsolete. Brilliant portal probabilities and Savage finite-chest alternative are already retained. Lead: breed/material/world/Drop System pages; do not multiply portal probabilities by Treasure Front without evidence. Appendix A enumerates every drop occurrence and parent record.
+
+### DDD-010 — Rare-form locations and mixed-edition extraction
+
+**Mixed extraction/verification.** Are rare Nightmare locations actually the same as normal Nightmare worlds in each generated source row? `src/games/dddhd/fetch-spirits.py:16` reads only `DDDNworlds`; `src/games/dddhd/generate.py:105–108` uses it for both normal and rare drops. The result preserves distinct rates but cannot prove rare locations/spawn conditions. Nineteen breeds have nonempty rare-drop fields; Appendix B enumerates them and Appendix A the material/drop outputs. Raw drop text includes original Treasure Goggles for several breeds, so entire raw fields cannot be treated as HD-clean toy evidence. Current runtime extracts Dream Pieces only; this audit does not claim a current false toy-drop output. Lead: separate rare-form/HD source fields and version-qualified spawn evidence.
+
+### DDD-011 — Command acquisitions, defaults and mechanics
+
+**Open.** For all 124 commands, what complete chest/shop/Dive/board/default route, reload, slot/use count, element and acquisition/equip eligibility applies? All 119 imported commands have incomplete-provider caveats; 38 have no board provider; the five added Defense commands have no acquisition route. “Additional chest, shop and challenge routes may exist” (`src/games/dddhd/generate.py:30–33`); `ai_docs/games/dddhd/spirits-and-commands.md:65–76`. Some non-board commands legitimately have no provider; this is not proof they are unobtainable. Item uses are no longer mislabeled slots, but actual uses/slot fields remain absent. Balloonra multi-route example and Faith equip distinction are integrated. HD board providers Catanuki Spark Raid/Vanish, Beatalike Ars Arcanum and Tubguin Ace Dark Firaga are missing from reverse provider lists despite being known (DDD-023). Appendix A lists all IDs and no-provider cases. Lead: command tables, item pages, shop and boards.
+
+### DDD-012 — Ability providers, stacks, defaults and achievement exceptions
+
+**Open.** For all 43 abilities, what complete HD providers/gates, maximum useful stacks and mode eligibility apply? “Legacy stack/provider inventory” (`src/games/dddhd/generate.py:36`). EXP Zero/Scan are presented with “No provider recorded”, while source evidence states defaults and Proud/Critical-only EXP Zero (`ai_docs/games/dddhd/spirits-and-commands.md:59`). Ability Ace's mode-dependent handling remains open (`ai_docs/games/dddhd/rewards-and-achievements.md:103`). Permanent Support/Spirit versus party-equipped Stats distinction is researched and implemented. Lead: Abilities table/default footnotes and achievement evidence; Appendix A includes all IDs.
+
+### DDD-013 — Complete HD Links and pair mechanics
+
+**Open.** Which attribute/family pairs and wildcard precedence produce all single/dual attacks/styles, with exact controls, duration and HD behavior? Legacy catalogs have 27 single/7 dual attacks, 5 single/3 dual styles and 30/15 pairing rows but no operational Link catalog/calculator. “Recover actual breed-to-link/attribute mappings, controls and HD behavior” (`ai_docs/games/dddhd/spirits-and-commands.md:78`). All 54 breed Link/attribute/style fields are now present, so that subgap is resolved; full dual pair rules and broken control glyph recovery remain. `ai_docs/games/dream-drop-distance.md:89–95`; `ai_docs/sources/khtables-drive-audit.md:58`. Lead: Link System, individual attacks/styles and platform controls. Appendix C preserves every legacy pair ID.
+
+### DDD-014 — Special/Secret Portal approaches, bonuses and reward semantics
+
+**Open.** What exact approach, bonus predicate, first-clear/repeat reward rule and forecast/rotation identity applies to each 78 Special/11 Secret Portal? All are now represented with Special forecasts/Nightmares/reward strings and Secret areas. “Bonus-objective details and exact approach landmarks are not yet imported” (`src/games/dddhd/generate.py:85`); Secret approach caveat (`:60`); `ai_docs/games/dddhd/portals-and-challenges.md:19–23`. The older claim that all 78 area/enemy/reward rows are absent is stale. Lead: seven world portal source tables and Portal mechanics. Current fetcher selects only Special parameters (`src/games/dddhd/fetch-worlds.py:31–34`) and does not extract bonus fields. All portal IDs are in Appendix A.
+
+### DDD-015 — Built-in Battle/Friendship portals and seven bonus types
+
+**Open.** What are the complete built-in Battle/Friendship inventories and exact seven bonus-objective types used by Brave Challengers? They remain absent, despite HD removing only player StreetPass content. `ai_docs/games/dddhd/portals-and-challenges.md:7`, `:23`; `ai_docs/readiness/dream-drop-distance.md:34`; `dddhd:achievements:brave-challengers` (`src/games/dddhd/generate.py:73`). Lead: built-in portal tables; do not invent a denominator or mark the removed user-created portals missing HD content.
+
+### DDD-016 — Dive reward identity and shared first-award behavior
+
+**Open.** Does each A-rank reward award once per world or separately per character, and what is The Grid's actual HD toy reward? All 14 course scores are researched; reward ownership is unresolved. “Treasure Goggles in 3DS source; verify HD Candy Goggles replacement” (`ai_docs/games/dddhd/portals-and-challenges.md:33`, also `:39`; `src/games/dddhd/generate.py:62`). Affects all `dives.reward`/ownership rules, especially Sora/Riku Grid IDs in Appendix A. Lead: HD Dive reward source; keep unrelated heart/credits sequences outside the 14-course denominator.
+
+### DDD-017 — Flick Rush matches, ranks, prizes and stock
+
+**Open.** What are all 27 match lineups, card strategies, rank thresholds, prizes and medal shop costs/access? Ten cup/round/access records exist; only Secret Cup match 5 Sweet Dreams is attached. “Opponent lineups, card strategies, complete rank/prize tables and all shop stock need extraction” (`ai_docs/games/dddhd/portals-and-challenges.md:58`; `ai_docs/games/dddhd/sources.md:56`). Affects the ten cup IDs, medal currency vs lifetime Medal Master rules and missing per-match entities. Lead: Flick Rush source; no 3DS wireless support is required.
+
+### DDD-018 — Toys, food, training, Reality Shifts and controller instructions
+
+**Open.** Where is each HD toy/food obtained and what exact Steam/controller actions, training/affinity effects and world Reality Shift mechanics are needed? Minigame score achievements exist but no full acquisition/mechanics catalog. “Complete toy/shop acquisition and controller-specific input records remain outstanding” (`ai_docs/games/dddhd/portals-and-challenges.md:71–73`); broken glyph evidence `ai_docs/games/dddhd/legacy-audit.md:13`. Lead: HD changes, individual mechanics and shop sources. Raw original Treasure Goggles drops are not HD confirmation (DDD-010).
+
+### DDD-019 — Optional encounter approaches and Lord Kyroo persistence
+
+**Open.** What exact approaches and encounter reset/persistence conditions govern the shared Lord Kyroo chain and Julius? Kyroo's Nave → Promontory → Moonlight Wood sequence and temporary Nave lockout are known; detailed persistence/reset and route fixture are not (`ai_docs/games/dddhd/portals-and-challenges.md:64–67`). Runtime `dddhd:challenges:lord-kyroo`, `julius-sora`, `julius-riku` contain short facts but no complete approach/strategy. Lead: Lord Kyroo/Julius pages and HD encounter evidence. Do not turn three Kyroo appearances into three bosses/rewards.
+
+### DDD-020 — Keyblade delivery and scope
+
+**Open.** Which reward events give weapons to one character versus both, and when is the second character's ownership satisfied? 15 types / 13 per character are researched; “shared reward delivery must be verified” (`ai_docs/games/dddhd/rewards-and-achievements.md:7`, `:27`). Runtime `character:Both` does not prove shared reward delivery. Particularly preserve character-specific Divewing/End of Pain/Unbound requirements and Julius victories. Lead: the 15 individual Keyblade acquisition pages; all record IDs in Appendix A. Their researched stats are an integration gap (DDD-025), not wholly unresearched.
+
+### DDD-021 — In-game trophy exact predicates
+
+**Open.** What breed exclusions, maximum-affinity/stat-stack aggregation, held-vs-lifetime quantities and claim behavior govern the 18 HD in-game awards? “Exact breed exclusions, stat-stack aggregation, ‘amassed’ versus lifetime quantities … need verification” (`ai_docs/games/dddhd/rewards-and-achievements.md:75`). Affects all `awards.summary` predicates, especially Dream Pleaser, Spirit Guide, In the Munny, Stop Drop Roller, Stat Builder, Daring Diver and Keyblade Conqueror. Lead: in-game Trophies HD table. These are not platform trophy counters; Appendix A enumerates the entire set.
+
+### DDD-022 — Full platform manifest, hidden requirements and mode applicability
+
+**Open.** What is the exact DDD-only Steam achievement set with platform identifiers, hidden predicates, mode exceptions and relevant other-platform mappings? Only 15 selected entries are imported (`src/games/dddhd/generate.py:73`; `ai_docs/games/dddhd/rewards-and-achievements.md:79–103`). 69 is collection-wide; 55 PlayStation rows include platinum; neither number is an automatic DDD Steam denominator. Ability Ace/EXP Zero and full Command/Recipe/Report completion eligibility need precise rules. Lead: existing official Steam list and platform table; future 2026 ports after shipment. No lack of user gameplay is a blocker by itself.
+
+### DDD-023 — Known HD provider/default facts omitted from reverse indexes
+
+**Researched but unintegrated.** The command reverse index is built from legacy 51-breed rewards (`src/games/dddhd/generate.py:29`), while new HD facts only override Spirit prose (`:24–26`): Catanuki Spark Raid E-4 300 LP/Vanish A-4 300 LP; Beatalike Ars Arcanum G-3 400 LP; Tubguin Ace Balloonra D-4 150 LP/Dark Firaga D-1 400 LP/Combo Plus D-3 200 LP. Balloonra gets a manual command supplement; the other known reverse providers do not. Scan default and difficulty-specific EXP Zero default also remain absent (`:36`). Evidence is `ai_docs/games/dddhd/spirits-and-commands.md:51–59`. This needs faithful integration before new research is sought; full gate verification remains DDD-003/011/012.
+
+### DDD-024 — Extraction coverage and per-fact provenance loss
+
+**Mixed extraction/verification.** Which omitted source fields and edition/source qualifiers must be restored? `src/games/dddhd/fetch-worlds.py:22–25` only reads number/item/area, dropping original location-note cells; only 26 manually authored examples survive. `src/games/dddhd/fetch-spirits.py:8–17` selects the last synthesis table by position, extracts only formulas/drop/world/link/attribute/style fields and no source revision/edition marker. Formula sources are embedded in prose rather than structured `sources`; material portal sources do not append their world URLs (`src/games/dddhd/generate.py:86–89`), though the corresponding portal entries do retain them. Current source snapshots have no revision/hash/inspection timestamp. `src/games/types.ts:1–28` lacks per-fact edition/confidence and normalized outcomes. This is a provenance/extraction limitation, not proof existing sourced facts are false. Lead: original fetched source sections and explicit source manifests; avoid treating redirects as independent corroboration.
+
+### DDD-025 — Researched statistics/secret criteria absent; HD secret verification remains
+
+**Researched but unintegrated, with a bounded open HD check.** The 15 Keyblade stat rows (Strength/Magic/length/critical/Reality Shift) at `ai_docs/games/dddhd/rewards-and-achievements.md:29–47` are omitted by `src/games/dddhd/generate.py:64–67`. Secret ending difficulty thresholds, three answers and credits/Theater steps are documented at `:107–115` but have no runtime secret-reward entity. The source primarily describes original DDD; complete HD trigger, failed-condition recovery, Critical unlock/new-run carryover and Secret Message rules still require edition-specific corroboration. Lead: Another Guardian of Light/HD sources. Treat the absent stat fields as integration work; treat only the enumerated HD/recovery uncertainties as research.
+
+## Historical and resolved caveat ledger
+
+- **H01 — No operational data / not implementation-ready:** historical statements in `ai_docs/games/dddhd/README.md:3`, `ai_docs/games/dddhd/legacy-audit.md:26`, `ai_docs/games/dddhd/sources.md:12`, `ai_docs/readiness/dream-drop-distance.md:3`, `:26`, `:34`, `:40–42` are superseded in part by `ai_docs/implementation/dddhd-rollout.md:13–21` and the live files. Full content readiness remains false; schema/UI implementation is not absent.
+- **H02 — Roster aliases, missing Defense, 3DS recipes:** 54 breeds including Sudo Neku/R & R Seal, all 124 commands, Reprisal correction, and HD changed-breed formulas are integrated (`src/games/dddhd/generate.py:14–16`, `:28–33`, `:90–103`). Historical defects remain in the archival candidate file; they are not all active missing runtime records.
+- **H03 — 175 missing probabilities and blank attributes:** legacy counts stay historically correct. Current counts are 195 null probabilities among 263 formulas; all 54 Link/attribute/style fields are populated. `ai_docs/readiness/dream-drop-distance.md:28`, `:33`, `:46` must be read with rollout evidence.
+- **H04 — Special Portal inventory entirely absent:** 78 records now have area/forecast/enemy/reward. The retained gap is exact approach, bonus fields and first/repeat semantics, plus missing built-in kinds. `ai_docs/games/dddhd/portals-and-challenges.md:23` is partly superseded by `ai_docs/implementation/dddhd-rollout.md:20`.
+- **H05 — “remaining chest records … not yet imported”:** this generic uncertainty appears on all 26 authored runtime examples (`src/games/dddhd/generate.py:55`) even though all 438 exist. Only route/order uncertainty remains; Appendix A flags the text.
+- **H06 — No source-backed farming:** all 37 now have routes (`ai_docs/implementation/dddhd-rollout.md:19`); precision/completeness is still open. Empty legacy synthesis totals are abandoned recommendation bookkeeping, not missing material identities.
+- **H07 — Items’ uses misrendered as slots:** fixed by suppressing slots for Item entries (`src/games/dddhd/generate.py:30`), but actual uses and command mechanics are not yet modeled. Source legacy rows remain unchanged.
+- **H08 — Tests never run / missing root KH3 module:** historical rollout-era typecheck limitation is superseded by integrated build/typecheck/unit/e2e evidence (`ai_docs/implementation/multi-game-rollout.md:37–41`). Current test files exercise identities, recipe references, persistence and offline content; they do not validate game predicates.
+
+## Provenance/access and nonfactual caveat ledger
+
+- **P01:** Legacy workbook coverage is bounded to listed keyed rectangles, not arbitrary off-table notes (`ai_docs/games/dddhd/legacy-audit.md:7–24`). Drive's ten-file inventory is not proof no private records exist. The candidate `status` is “legacy candidate evidence; not production verified” (`ai_docs/games/dddhd/legacy-factual-candidates.json:2`); reused flat rewards carry that limitation.
+- **P02:** GameFAQs 64749 and TrueAchievements were inaccessible; wrong Trophy/disambiguation/category routes were discarded; Ability Link and Forecast redirects are not independent confirmations (`ai_docs/games/dddhd/sources.md:65–73`). No external access was attempted in this audit.
+- **P03:** The public community-source designation or absence of in-game verification alone is not an open fact. Modern Steam source checks, reconciliation and independently checked calculations suffice under `ai_docs/testing-and-content-validation.md:5–9`, `ai_docs/testing-and-content-validation.md:38`; do not require a user playthrough.
+- **N01:** Spirit-instance state, graph UI, calculators, Link tool, counters, acquisition-event propagation, Coppermind/Data Jiminy and migration features are implementation questions. They must not inflate counts of unknown game facts. Scope appears in `ai_docs/games/dream-drop-distance.md`; rollout explicitly excludes Data Jiminy (`ai_docs/implementation/dddhd-rollout.md:5`, `:31`).
+- **N02:** DDD visual inspiration remains a user-owned appearance decision, not research uncertainty (`ai_docs/readiness/dream-drop-distance.md:54`). Production map/screenshot assets alone are deferred; text routes are not (`ai_docs/games/dddhd/worlds-and-collectibles.md:75`). Shared source availability/rights concerns are provenance, not gameplay.
+- **N03:** Older Apple/iPad acceptance language is superseded by desktop Chrome/iPhone 17 (`ai_docs/testing-and-content-validation.md:13`); Chromium emulation is not physical hardware evidence (`ai_docs/implementation/multi-game-rollout.md:39`). App test status is separate from game research.
+- **N04:** Ordinary narrative/biography manifests, 3DS AR/StreetPass, invented progress-gate filters and unrelated games are excluded. Future-port parity/IDs belong to follow-up after release, not a reason to reopen PS2/3DS support.
+
+## Appendix A — Every runtime record and affected field occurrence
+
+Canonical inputs are the research Markdown, legacy candidate JSON and fetched `world-facts.json` / `spirit-facts.json`. `content.json` is generated by `generate.py`; generated instances below preserve exact IDs/line locations but do not count as independent evidence. Compiled bundles, images and public duplicate artwork are excluded; they add no independent game facts. For every row below the cited line is the exact ID location. Fields listed after it are the relevant literal uncertainty/missing-provider/drop-detail locations; the surrounding object carries category/edition context. Category-wide absent fields are governed by the findings above.
+
+- `dddhd:spirits:aura-lion` — `src/games/dddhd/content.json:4`; spirits; caveat/provider/drop detail lines 9 ; canonical extract `src/games/dddhd/spirit-facts.json:3`.
+- `dddhd:spirits:beatalike` — `src/games/dddhd/content.json:16`; spirits; caveat/provider/drop detail lines 21 ; canonical extract `src/games/dddhd/spirit-facts.json:75`.
+- `dddhd:spirits:catanuki` — `src/games/dddhd/content.json:28`; spirits; caveat/provider/drop detail lines 33 ; canonical extract `src/games/dddhd/spirit-facts.json:132`.
+- `dddhd:spirits:cera-terror` — `src/games/dddhd/content.json:40`; spirits; caveat/provider/drop detail lines 45 ; canonical extract `src/games/dddhd/spirit-facts.json:189`.
+- `dddhd:spirits:chef-kyroo` — `src/games/dddhd/content.json:52`; spirits; caveat/provider/drop detail lines 57 ; canonical extract `src/games/dddhd/spirit-facts.json:291`.
+- `dddhd:spirits:cyber-yog` — `src/games/dddhd/content.json:64`; spirits; caveat/provider/drop detail lines 69 ; canonical extract `src/games/dddhd/spirit-facts.json:393`.
+- `dddhd:spirits:drak-quack` — `src/games/dddhd/content.json:76`; spirits; caveat/provider/drop detail lines 81 ; canonical extract `src/games/dddhd/spirit-facts.json:495`.
+- `dddhd:spirits:drill-sye` — `src/games/dddhd/content.json:88`; spirits; caveat/provider/drop detail lines 93 ; canonical extract `src/games/dddhd/spirit-facts.json:552`.
+- `dddhd:spirits:ducky-goose` — `src/games/dddhd/content.json:100`; spirits; caveat/provider/drop detail lines 105 ; canonical extract `src/games/dddhd/spirit-facts.json:654`.
+- `dddhd:spirits:eaglider` — `src/games/dddhd/content.json:112`; spirits; caveat/provider/drop detail lines 117 ; canonical extract `src/games/dddhd/spirit-facts.json:711`.
+- `dddhd:spirits:electricorn` — `src/games/dddhd/content.json:124`; spirits; caveat/provider/drop detail lines 129 ; canonical extract `src/games/dddhd/spirit-facts.json:813`.
+- `dddhd:spirits:escarglow` — `src/games/dddhd/content.json:136`; spirits; caveat/provider/drop detail lines 141 ; canonical extract `src/games/dddhd/spirit-facts.json:885`.
+- `dddhd:spirits:fin-fatale` — `src/games/dddhd/content.json:148`; spirits; caveat/provider/drop detail lines 153 ; canonical extract `src/games/dddhd/spirit-facts.json:1002`.
+- `dddhd:spirits:fishbone` — `src/games/dddhd/content.json:160`; spirits; caveat/provider/drop detail lines 165 ; canonical extract `src/games/dddhd/spirit-facts.json:1104`.
+- `dddhd:spirits:flowbermeow` — `src/games/dddhd/content.json:172`; spirits; caveat/provider/drop detail lines 177 ; canonical extract `src/games/dddhd/spirit-facts.json:1191`.
+- `dddhd:spirits:frootz-cat` — `src/games/dddhd/content.json:184`; spirits; caveat/provider/drop detail lines 189 ; canonical extract `src/games/dddhd/spirit-facts.json:1248`.
+- `dddhd:spirits:ghostabocky` — `src/games/dddhd/content.json:196`; spirits; caveat/provider/drop detail lines 201 ; canonical extract `src/games/dddhd/spirit-facts.json:1320`.
+- `dddhd:spirits:halbird` — `src/games/dddhd/content.json:208`; spirits; caveat/provider/drop detail lines 213 ; canonical extract `src/games/dddhd/spirit-facts.json:1392`.
+- `dddhd:spirits:hebby-repp` — `src/games/dddhd/content.json:220`; spirits; caveat/provider/drop detail lines 225 ; canonical extract `src/games/dddhd/spirit-facts.json:1479`.
+- `dddhd:spirits:iceguin-ace` — `src/games/dddhd/content.json:232`; spirits; caveat/provider/drop detail lines 237 ; canonical extract `src/games/dddhd/spirit-facts.json:1581`.
+- `dddhd:spirits:jestabocky` — `src/games/dddhd/content.json:244`; spirits; caveat/provider/drop detail lines 249 ; canonical extract `src/games/dddhd/spirit-facts.json:1683`.
+- `dddhd:spirits:juggle-pup` — `src/games/dddhd/content.json:256`; spirits; caveat/provider/drop detail lines 261 ; canonical extract `src/games/dddhd/spirit-facts.json:1755`.
+- `dddhd:spirits:ko-kabuto` — `src/games/dddhd/content.json:268`; spirits; caveat/provider/drop detail lines 273 ; canonical extract `src/games/dddhd/spirit-facts.json:1842`.
+- `dddhd:spirits:kab-kannon` — `src/games/dddhd/content.json:280`; spirits; caveat/provider/drop detail lines 285 ; canonical extract `src/games/dddhd/spirit-facts.json:1959`.
+- `dddhd:spirits:keeba-tiger` — `src/games/dddhd/content.json:292`; spirits; caveat/provider/drop detail lines 297 ; canonical extract `src/games/dddhd/spirit-facts.json:2031`.
+- `dddhd:spirits:komory-bat` — `src/games/dddhd/content.json:304`; spirits; caveat/provider/drop detail lines 309 ; canonical extract `src/games/dddhd/spirit-facts.json:2088`.
+- `dddhd:spirits:kooma-panda` — `src/games/dddhd/content.json:316`; spirits; caveat/provider/drop detail lines 321 ; canonical extract `src/games/dddhd/spirit-facts.json:2175`.
+- `dddhd:spirits:lord-kyroo` — `src/games/dddhd/content.json:328`; spirits; caveat/provider/drop detail lines 333 ; canonical extract `src/games/dddhd/spirit-facts.json:2277`.
+- `dddhd:spirits:majik-lapin` — `src/games/dddhd/content.json:340`; spirits; caveat/provider/drop detail lines 345 ; canonical extract `src/games/dddhd/spirit-facts.json:2349`.
+- `dddhd:spirits:me-me-bunny` — `src/games/dddhd/content.json:352`; spirits; caveat/provider/drop detail lines 357 ; canonical extract `src/games/dddhd/spirit-facts.json:2481`.
+- `dddhd:spirits:meow-wow` — `src/games/dddhd/content.json:364`; spirits; caveat/provider/drop detail lines 369 ; canonical extract `src/games/dddhd/spirit-facts.json:2583`.
+- `dddhd:spirits:meowjesty` — `src/games/dddhd/content.json:376`; spirits; caveat/provider/drop detail lines 381 ; canonical extract `src/games/dddhd/spirit-facts.json:2685`.
+- `dddhd:spirits:necho-cat` — `src/games/dddhd/content.json:388`; spirits; caveat/provider/drop detail lines 393 ; canonical extract `src/games/dddhd/spirit-facts.json:2727`.
+- `dddhd:spirits:peepsta-hoo` — `src/games/dddhd/content.json:400`; spirits; caveat/provider/drop detail lines 405 ; canonical extract `src/games/dddhd/spirit-facts.json:2844`.
+- `dddhd:spirits:pegaslick` — `src/games/dddhd/content.json:412`; spirits; caveat/provider/drop detail lines 417 ; canonical extract `src/games/dddhd/spirit-facts.json:2946`.
+- `dddhd:spirits:pricklemane` — `src/games/dddhd/content.json:424`; spirits; caveat/provider/drop detail lines 429 ; canonical extract `src/games/dddhd/spirit-facts.json:3063`.
+- `dddhd:spirits:r-r-seal` — `src/games/dddhd/content.json:436`; spirits; caveat/provider/drop detail lines 441 ; canonical extract `src/games/dddhd/spirit-facts.json:3150`.
+- `dddhd:spirits:ryu-dragon` — `src/games/dddhd/content.json:448`; spirits; caveat/provider/drop detail lines 453 ; canonical extract `src/games/dddhd/spirit-facts.json:3222`.
+- `dddhd:spirits:sir-kyroo` — `src/games/dddhd/content.json:460`; spirits; caveat/provider/drop detail lines 465 ; canonical extract `src/games/dddhd/spirit-facts.json:3309`.
+- `dddhd:spirits:skelterwild` — `src/games/dddhd/content.json:472`; spirits; caveat/provider/drop detail lines 477 ; canonical extract `src/games/dddhd/spirit-facts.json:3411`.
+- `dddhd:spirits:staggerceps` — `src/games/dddhd/content.json:484`; spirits; caveat/provider/drop detail lines 489 ; canonical extract `src/games/dddhd/spirit-facts.json:3468`.
+- `dddhd:spirits:sudo-neku` — `src/games/dddhd/content.json:496`; spirits; caveat/provider/drop detail lines 501 ; canonical extract `src/games/dddhd/spirit-facts.json:3570`.
+- `dddhd:spirits:tama-sheep` — `src/games/dddhd/content.json:508`; spirits; caveat/provider/drop detail lines 513 ; canonical extract `src/games/dddhd/spirit-facts.json:3612`.
+- `dddhd:spirits:tatsu-blaze` — `src/games/dddhd/content.json:520`; spirits; caveat/provider/drop detail lines 525 ; canonical extract `src/games/dddhd/spirit-facts.json:3714`.
+- `dddhd:spirits:tatsu-steed` — `src/games/dddhd/content.json:532`; spirits; caveat/provider/drop detail lines 537 ; canonical extract `src/games/dddhd/spirit-facts.json:3801`.
+- `dddhd:spirits:thunderaffe` — `src/games/dddhd/content.json:544`; spirits; caveat/provider/drop detail lines 549 ; canonical extract `src/games/dddhd/spirit-facts.json:3873`.
+- `dddhd:spirits:toximander` — `src/games/dddhd/content.json:556`; spirits; caveat/provider/drop detail lines 561 ; canonical extract `src/games/dddhd/spirit-facts.json:3960`.
+- `dddhd:spirits:tubguin-ace` — `src/games/dddhd/content.json:568`; spirits; caveat/provider/drop detail lines 573 ; canonical extract `src/games/dddhd/spirit-facts.json:4077`.
+- `dddhd:spirits:tyranto-rex` — `src/games/dddhd/content.json:580`; spirits; caveat/provider/drop detail lines 585 ; canonical extract `src/games/dddhd/spirit-facts.json:4149`.
+- `dddhd:spirits:ursa-circus` — `src/games/dddhd/content.json:592`; spirits; caveat/provider/drop detail lines 597 ; canonical extract `src/games/dddhd/spirit-facts.json:4206`.
+- `dddhd:spirits:wheeflower` — `src/games/dddhd/content.json:604`; spirits; caveat/provider/drop detail lines 609 ; canonical extract `src/games/dddhd/spirit-facts.json:4248`.
+- `dddhd:spirits:woeflower` — `src/games/dddhd/content.json:616`; spirits; caveat/provider/drop detail lines 621 ; canonical extract `src/games/dddhd/spirit-facts.json:4335`.
+- `dddhd:spirits:yoggy-ram` — `src/games/dddhd/content.json:628`; spirits; caveat/provider/drop detail lines 633 ; canonical extract `src/games/dddhd/spirit-facts.json:4437`.
+- `dddhd:spirits:zolephant` — `src/games/dddhd/content.json:640`; spirits; caveat/provider/drop detail lines 645 ; canonical extract `src/games/dddhd/spirit-facts.json:4524`.
+- `dddhd:commands:quick-blitz` — `src/games/dddhd/content.json:652`; commands; caveat/provider/drop detail lines 657, 658.
+- `dddhd:commands:blizzard-edge` — `src/games/dddhd/content.json:665`; commands; caveat/provider/drop detail lines 670, 671.
+- `dddhd:commands:dark-break` — `src/games/dddhd/content.json:678`; commands; caveat/provider/drop detail lines 684.
+- `dddhd:commands:slot-edge` — `src/games/dddhd/content.json:691`; commands; caveat/provider/drop detail lines 697.
+- `dddhd:commands:blitz` — `src/games/dddhd/content.json:704`; commands; caveat/provider/drop detail lines 710.
+- `dddhd:commands:meteor-crash` — `src/games/dddhd/content.json:717`; commands; caveat/provider/drop detail lines 723.
+- `dddhd:commands:spark-dive` — `src/games/dddhd/content.json:730`; commands; caveat/provider/drop detail lines 735, 736.
+- `dddhd:commands:poison-dive` — `src/games/dddhd/content.json:743`; commands; caveat/provider/drop detail lines 749.
+- `dddhd:commands:drain-dive` — `src/games/dddhd/content.json:756`; commands; caveat/provider/drop detail lines 762.
+- `dddhd:commands:sliding-dash` — `src/games/dddhd/content.json:769`; commands; caveat/provider/drop detail lines 774, 775.
+- `dddhd:commands:thunder-dash` — `src/games/dddhd/content.json:782`; commands; caveat/provider/drop detail lines 788.
+- `dddhd:commands:sonic-blade` — `src/games/dddhd/content.json:795`; commands; caveat/provider/drop detail lines 801.
+- `dddhd:commands:dark-aura` — `src/games/dddhd/content.json:808`; commands; caveat/provider/drop detail lines 814.
+- `dddhd:commands:zantetsuken` — `src/games/dddhd/content.json:821`; commands; caveat/provider/drop detail lines 827.
+- `dddhd:commands:strike-raid` — `src/games/dddhd/content.json:834`; commands; caveat/provider/drop detail lines 840.
+- `dddhd:commands:spark-raid` — `src/games/dddhd/content.json:847`; commands; caveat/provider/drop detail lines 853.
+- `dddhd:commands:circle-raid` — `src/games/dddhd/content.json:860`; commands; caveat/provider/drop detail lines 866.
+- `dddhd:commands:aerial-slam` — `src/games/dddhd/content.json:873`; commands; caveat/provider/drop detail lines 879.
+- `dddhd:commands:ars-arcanum` — `src/games/dddhd/content.json:886`; commands; caveat/provider/drop detail lines 892.
+- `dddhd:commands:dark-splicer` — `src/games/dddhd/content.json:899`; commands; caveat/provider/drop detail lines 905.
+- `dddhd:commands:gravity-strike` — `src/games/dddhd/content.json:912`; commands; caveat/provider/drop detail lines 918.
+- `dddhd:commands:confusing-strike` — `src/games/dddhd/content.json:925`; commands; caveat/provider/drop detail lines 931.
+- `dddhd:commands:tornado-strike` — `src/games/dddhd/content.json:938`; commands; caveat/provider/drop detail lines 943, 944.
+- `dddhd:commands:prism-windmill` — `src/games/dddhd/content.json:951`; commands; caveat/provider/drop detail lines 957.
+- `dddhd:commands:timestorm` — `src/games/dddhd/content.json:964`; commands; caveat/provider/drop detail lines 970.
+- `dddhd:commands:fire-windmill` — `src/games/dddhd/content.json:977`; commands; caveat/provider/drop detail lines 983.
+- `dddhd:commands:icebreaker` — `src/games/dddhd/content.json:990`; commands; caveat/provider/drop detail lines 996.
+- `dddhd:commands:shadowbreaker` — `src/games/dddhd/content.json:1003`; commands; caveat/provider/drop detail lines 1009.
+- `dddhd:commands:magnet-spiral` — `src/games/dddhd/content.json:1016`; commands; caveat/provider/drop detail lines 1022.
+- `dddhd:commands:salvation` — `src/games/dddhd/content.json:1029`; commands; caveat/provider/drop detail lines 1035.
+- `dddhd:commands:limit-storm` — `src/games/dddhd/content.json:1042`; commands; caveat/provider/drop detail lines 1048.
+- `dddhd:commands:collision-magnet` — `src/games/dddhd/content.json:1055`; commands; caveat/provider/drop detail lines 1061.
+- `dddhd:commands:sacrifice` — `src/games/dddhd/content.json:1068`; commands; caveat/provider/drop detail lines 1074.
+- `dddhd:commands:break-time` — `src/games/dddhd/content.json:1081`; commands; caveat/provider/drop detail lines 1087.
+- `dddhd:commands:fire` — `src/games/dddhd/content.json:1094`; commands; caveat/provider/drop detail lines 1100.
+- `dddhd:commands:fira` — `src/games/dddhd/content.json:1107`; commands; caveat/provider/drop detail lines 1113.
+- `dddhd:commands:firaga` — `src/games/dddhd/content.json:1120`; commands; caveat/provider/drop detail lines 1126.
+- `dddhd:commands:dark-firaga` — `src/games/dddhd/content.json:1133`; commands; caveat/provider/drop detail lines 1139.
+- `dddhd:commands:firaga-burst` — `src/games/dddhd/content.json:1146`; commands; caveat/provider/drop detail lines 1152.
+- `dddhd:commands:mega-flare` — `src/games/dddhd/content.json:1159`; commands; caveat/provider/drop detail lines 1165.
+- `dddhd:commands:blizzard` — `src/games/dddhd/content.json:1172`; commands; caveat/provider/drop detail lines 1178.
+- `dddhd:commands:blizzara` — `src/games/dddhd/content.json:1185`; commands; caveat/provider/drop detail lines 1191.
+- `dddhd:commands:blizzaga` — `src/games/dddhd/content.json:1198`; commands; caveat/provider/drop detail lines 1204.
+- `dddhd:commands:icicle-splitter` — `src/games/dddhd/content.json:1211`; commands; caveat/provider/drop detail lines 1217.
+- `dddhd:commands:deep-freeze` — `src/games/dddhd/content.json:1224`; commands; caveat/provider/drop detail lines 1230.
+- `dddhd:commands:ice-barrage` — `src/games/dddhd/content.json:1237`; commands; caveat/provider/drop detail lines 1243.
+- `dddhd:commands:thunder` — `src/games/dddhd/content.json:1250`; commands; caveat/provider/drop detail lines 1256.
+- `dddhd:commands:thundara` — `src/games/dddhd/content.json:1263`; commands; caveat/provider/drop detail lines 1269.
+- `dddhd:commands:thundaga` — `src/games/dddhd/content.json:1276`; commands; caveat/provider/drop detail lines 1282.
+- `dddhd:commands:triple-plasma` — `src/games/dddhd/content.json:1289`; commands; caveat/provider/drop detail lines 1295.
+- `dddhd:commands:cure` — `src/games/dddhd/content.json:1302`; commands; caveat/provider/drop detail lines 1308.
+- `dddhd:commands:cura` — `src/games/dddhd/content.json:1315`; commands; caveat/provider/drop detail lines 1321.
+- `dddhd:commands:curaga` — `src/games/dddhd/content.json:1328`; commands; caveat/provider/drop detail lines 1334.
+- `dddhd:commands:esuna` — `src/games/dddhd/content.json:1341`; commands; caveat/provider/drop detail lines 1347.
+- `dddhd:commands:zero-gravity` — `src/games/dddhd/content.json:1354`; commands; caveat/provider/drop detail lines 1360.
+- `dddhd:commands:zero-gravira` — `src/games/dddhd/content.json:1367`; commands; caveat/provider/drop detail lines 1373.
+- `dddhd:commands:zero-graviga` — `src/games/dddhd/content.json:1380`; commands; caveat/provider/drop detail lines 1386.
+- `dddhd:commands:zero-graviza` — `src/games/dddhd/content.json:1393`; commands; caveat/provider/drop detail lines 1399.
+- `dddhd:commands:balloon` — `src/games/dddhd/content.json:1406`; commands; caveat/provider/drop detail lines 1412.
+- `dddhd:commands:balloonra` — `src/games/dddhd/content.json:1419`; commands; caveat/provider/drop detail lines 1425.
+- `dddhd:commands:balloonga` — `src/games/dddhd/content.json:1432`; commands; caveat/provider/drop detail lines 1438.
+- `dddhd:commands:spark` — `src/games/dddhd/content.json:1445`; commands; caveat/provider/drop detail lines 1451.
+- `dddhd:commands:sparkra` — `src/games/dddhd/content.json:1458`; commands; caveat/provider/drop detail lines 1464.
+- `dddhd:commands:sparkga` — `src/games/dddhd/content.json:1471`; commands; caveat/provider/drop detail lines 1477.
+- `dddhd:commands:faith` — `src/games/dddhd/content.json:1484`; commands; caveat/provider/drop detail lines 1490.
+- `dddhd:commands:tornado` — `src/games/dddhd/content.json:1497`; commands; caveat/provider/drop detail lines 1503.
+- `dddhd:commands:meteor` — `src/games/dddhd/content.json:1510`; commands; caveat/provider/drop detail lines 1516.
+- `dddhd:commands:mini` — `src/games/dddhd/content.json:1523`; commands; caveat/provider/drop detail lines 1529.
+- `dddhd:commands:blackout` — `src/games/dddhd/content.json:1536`; commands; caveat/provider/drop detail lines 1542.
+- `dddhd:commands:time-bomb` — `src/games/dddhd/content.json:1549`; commands; caveat/provider/drop detail lines 1555.
+- `dddhd:commands:confuse` — `src/games/dddhd/content.json:1562`; commands; caveat/provider/drop detail lines 1568.
+- `dddhd:commands:bind` — `src/games/dddhd/content.json:1575`; commands; caveat/provider/drop detail lines 1581.
+- `dddhd:commands:poison` — `src/games/dddhd/content.json:1588`; commands; caveat/provider/drop detail lines 1594.
+- `dddhd:commands:slow` — `src/games/dddhd/content.json:1601`; commands; caveat/provider/drop detail lines 1607.
+- `dddhd:commands:sleep` — `src/games/dddhd/content.json:1614`; commands; caveat/provider/drop detail lines 1620.
+- `dddhd:commands:sleepra` — `src/games/dddhd/content.json:1627`; commands; caveat/provider/drop detail lines 1633.
+- `dddhd:commands:sleepga` — `src/games/dddhd/content.json:1640`; commands; caveat/provider/drop detail lines 1646.
+- `dddhd:commands:stop` — `src/games/dddhd/content.json:1653`; commands; caveat/provider/drop detail lines 1658, 1659.
+- `dddhd:commands:vanish` — `src/games/dddhd/content.json:1666`; commands; caveat/provider/drop detail lines 1672.
+- `dddhd:commands:potion` — `src/games/dddhd/content.json:1679`; commands; caveat/provider/drop detail lines 1684, 1685.
+- `dddhd:commands:hi-potion` — `src/games/dddhd/content.json:1692`; commands; caveat/provider/drop detail lines 1697, 1698.
+- `dddhd:commands:mega-potion` — `src/games/dddhd/content.json:1705`; commands; caveat/provider/drop detail lines 1711.
+- `dddhd:commands:drop-me-not` — `src/games/dddhd/content.json:1718`; commands; caveat/provider/drop detail lines 1723, 1724.
+- `dddhd:commands:drop-me-never` — `src/games/dddhd/content.json:1731`; commands; caveat/provider/drop detail lines 1737.
+- `dddhd:commands:panacea` — `src/games/dddhd/content.json:1744`; commands; caveat/provider/drop detail lines 1749, 1750.
+- `dddhd:commands:elixir` — `src/games/dddhd/content.json:1757`; commands; caveat/provider/drop detail lines 1763.
+- `dddhd:commands:megalixir` — `src/games/dddhd/content.json:1770`; commands; caveat/provider/drop detail lines 1776.
+- `dddhd:commands:dream-candy` — `src/games/dddhd/content.json:1783`; commands; caveat/provider/drop detail lines 1789.
+- `dddhd:commands:jump` — `src/games/dddhd/content.json:1796`; commands; caveat/provider/drop detail lines 1801, 1802.
+- `dddhd:commands:high-jump` — `src/games/dddhd/content.json:1809`; commands; caveat/provider/drop detail lines 1814, 1815.
+- `dddhd:commands:dodge-roll` — `src/games/dddhd/content.json:1822`; commands; caveat/provider/drop detail lines 1827, 1828.
+- `dddhd:commands:slide-roll` — `src/games/dddhd/content.json:1835`; commands; caveat/provider/drop detail lines 1840, 1841.
+- `dddhd:commands:dark-roll` — `src/games/dddhd/content.json:1848`; commands; caveat/provider/drop detail lines 1853, 1854.
+- `dddhd:commands:air-slide` — `src/games/dddhd/content.json:1861`; commands; caveat/provider/drop detail lines 1866, 1867.
+- `dddhd:commands:sonic-impact` — `src/games/dddhd/content.json:1874`; commands; caveat/provider/drop detail lines 1879, 1880.
+- `dddhd:commands:double-impact` — `src/games/dddhd/content.json:1887`; commands; caveat/provider/drop detail lines 1892, 1893.
+- `dddhd:commands:glide` — `src/games/dddhd/content.json:1900`; commands; caveat/provider/drop detail lines 1905, 1906.
+- `dddhd:commands:superglide` — `src/games/dddhd/content.json:1913`; commands; caveat/provider/drop detail lines 1919.
+- `dddhd:commands:shadow-slide` — `src/games/dddhd/content.json:1926`; commands; caveat/provider/drop detail lines 1931, 1932.
+- `dddhd:commands:doubleflight` — `src/games/dddhd/content.json:1939`; commands; caveat/provider/drop detail lines 1944, 1945.
+- `dddhd:commands:counter-rush` — `src/games/dddhd/content.json:1952`; commands; caveat/provider/drop detail lines 1957, 1958.
+- `dddhd:commands:counter-aura` — `src/games/dddhd/content.json:1965`; commands; caveat/provider/drop detail lines 1970, 1971.
+- `dddhd:commands:shadow-strike` — `src/games/dddhd/content.json:1978`; commands; caveat/provider/drop detail lines 1983, 1984.
+- `dddhd:commands:payback-raid` — `src/games/dddhd/content.json:1991`; commands; caveat/provider/drop detail lines 1996, 1997.
+- `dddhd:commands:payback-blast` — `src/games/dddhd/content.json:2004`; commands; caveat/provider/drop detail lines 2009, 2010.
+- `dddhd:commands:aerial-recovery` — `src/games/dddhd/content.json:2017`; commands; caveat/provider/drop detail lines 2022, 2023.
+- `dddhd:commands:steep-climb` — `src/games/dddhd/content.json:2030`; commands; caveat/provider/drop detail lines 2036.
+- `dddhd:commands:rapid-descent` — `src/games/dddhd/content.json:2043`; commands; caveat/provider/drop detail lines 2049.
+- `dddhd:commands:sliding-sidewinder` — `src/games/dddhd/content.json:2056`; commands; caveat/provider/drop detail lines 2061, 2062.
+- `dddhd:commands:sliding-crescent` — `src/games/dddhd/content.json:2069`; commands; caveat/provider/drop detail lines 2074, 2075.
+- `dddhd:commands:pole-spin` — `src/games/dddhd/content.json:2082`; commands; caveat/provider/drop detail lines 2087, 2088.
+- `dddhd:commands:pole-swing` — `src/games/dddhd/content.json:2095`; commands; caveat/provider/drop detail lines 2100, 2101.
+- `dddhd:commands:rail-slide` — `src/games/dddhd/content.json:2108`; commands; caveat/provider/drop detail lines 2113, 2114.
+- `dddhd:commands:kick-dive` — `src/games/dddhd/content.json:2121`; commands; caveat/provider/drop detail lines 2126, 2127.
+- `dddhd:commands:buzz-saw` — `src/games/dddhd/content.json:2134`; commands; caveat/provider/drop detail lines 2139, 2140.
+- `dddhd:commands:blow-off` — `src/games/dddhd/content.json:2147`; commands; caveat/provider/drop detail lines 2152, 2153.
+- `dddhd:commands:wheel-rush` — `src/games/dddhd/content.json:2160`; commands; caveat/provider/drop detail lines 2165, 2166.
+- `dddhd:commands:sliding-dive` — `src/games/dddhd/content.json:2173`; commands; caveat/provider/drop detail lines 2178, 2179.
+- `dddhd:commands:shock-dive` — `src/games/dddhd/content.json:2186`; commands; caveat/provider/drop detail lines 2191, 2192.
+- `dddhd:commands:block` — `src/games/dddhd/content.json:2199`; commands; caveat/provider/drop detail lines 2204.
+- `dddhd:commands:wake-up-block` — `src/games/dddhd/content.json:2210`; commands; caveat/provider/drop detail lines 2215.
+- `dddhd:commands:link-block` — `src/games/dddhd/content.json:2221`; commands; caveat/provider/drop detail lines 2226.
+- `dddhd:commands:sliding-block` — `src/games/dddhd/content.json:2232`; commands; caveat/provider/drop detail lines 2237.
+- `dddhd:commands:dark-barrier` — `src/games/dddhd/content.json:2243`; commands; caveat/provider/drop detail lines 2248.
+- `dddhd:abilities:link-critical` — `src/games/dddhd/content.json:2254`; abilities; caveat/provider/drop detail lines 2259.
+- `dddhd:abilities:support-boost` — `src/games/dddhd/content.json:2266`; abilities; caveat/provider/drop detail lines 2271.
+- `dddhd:abilities:waking-dream` — `src/games/dddhd/content.json:2278`; abilities; caveat/provider/drop detail lines 2283.
+- `dddhd:abilities:combo-plus` — `src/games/dddhd/content.json:2290`; abilities; caveat/provider/drop detail lines 2295.
+- `dddhd:abilities:air-combo-plus` — `src/games/dddhd/content.json:2302`; abilities; caveat/provider/drop detail lines 2307.
+- `dddhd:abilities:combo-master` — `src/games/dddhd/content.json:2314`; abilities; caveat/provider/drop detail lines 2319.
+- `dddhd:abilities:exp-boost` — `src/games/dddhd/content.json:2326`; abilities; caveat/provider/drop detail lines 2331.
+- `dddhd:abilities:exp-walker` — `src/games/dddhd/content.json:2338`; abilities; caveat/provider/drop detail lines 2343.
+- `dddhd:abilities:exp-zero` — `src/games/dddhd/content.json:2350`; abilities; caveat/provider/drop detail lines 2354, 2355.
+- `dddhd:abilities:damage-syphon` — `src/games/dddhd/content.json:2362`; abilities; caveat/provider/drop detail lines 2367.
+- `dddhd:abilities:second-chance` — `src/games/dddhd/content.json:2374`; abilities; caveat/provider/drop detail lines 2379.
+- `dddhd:abilities:once-more` — `src/games/dddhd/content.json:2386`; abilities; caveat/provider/drop detail lines 2391.
+- `dddhd:abilities:scan` — `src/games/dddhd/content.json:2398`; abilities; caveat/provider/drop detail lines 2402, 2403.
+- `dddhd:abilities:leaf-bracer` — `src/games/dddhd/content.json:2410`; abilities; caveat/provider/drop detail lines 2415.
+- `dddhd:abilities:treasure-magnet` — `src/games/dddhd/content.json:2422`; abilities; caveat/provider/drop detail lines 2427.
+- `dddhd:abilities:hp-boost` — `src/games/dddhd/content.json:2434`; abilities; caveat/provider/drop detail lines 2439.
+- `dddhd:abilities:fire-boost` — `src/games/dddhd/content.json:2446`; abilities; caveat/provider/drop detail lines 2451.
+- `dddhd:abilities:blizzard-boost` — `src/games/dddhd/content.json:2458`; abilities; caveat/provider/drop detail lines 2463.
+- `dddhd:abilities:thunder-boost` — `src/games/dddhd/content.json:2470`; abilities; caveat/provider/drop detail lines 2475.
+- `dddhd:abilities:water-boost` — `src/games/dddhd/content.json:2482`; abilities; caveat/provider/drop detail lines 2487.
+- `dddhd:abilities:cure-boost` — `src/games/dddhd/content.json:2494`; abilities; caveat/provider/drop detail lines 2499.
+- `dddhd:abilities:item-boost` — `src/games/dddhd/content.json:2506`; abilities; caveat/provider/drop detail lines 2511.
+- `dddhd:abilities:attack-haste` — `src/games/dddhd/content.json:2518`; abilities; caveat/provider/drop detail lines 2523.
+- `dddhd:abilities:magic-haste` — `src/games/dddhd/content.json:2530`; abilities; caveat/provider/drop detail lines 2535.
+- `dddhd:abilities:attack-boost` — `src/games/dddhd/content.json:2542`; abilities; caveat/provider/drop detail lines 2547.
+- `dddhd:abilities:magic-boost` — `src/games/dddhd/content.json:2554`; abilities; caveat/provider/drop detail lines 2559.
+- `dddhd:abilities:defense-boost` — `src/games/dddhd/content.json:2566`; abilities; caveat/provider/drop detail lines 2571.
+- `dddhd:abilities:fire-screen` — `src/games/dddhd/content.json:2578`; abilities; caveat/provider/drop detail lines 2583.
+- `dddhd:abilities:blizzard-screen` — `src/games/dddhd/content.json:2590`; abilities; caveat/provider/drop detail lines 2595.
+- `dddhd:abilities:thunder-screen` — `src/games/dddhd/content.json:2602`; abilities; caveat/provider/drop detail lines 2607.
+- `dddhd:abilities:water-screen` — `src/games/dddhd/content.json:2614`; abilities; caveat/provider/drop detail lines 2619.
+- `dddhd:abilities:dark-screen` — `src/games/dddhd/content.json:2626`; abilities; caveat/provider/drop detail lines 2631.
+- `dddhd:abilities:light-screen` — `src/games/dddhd/content.json:2638`; abilities; caveat/provider/drop detail lines 2643.
+- `dddhd:abilities:mini-block` — `src/games/dddhd/content.json:2650`; abilities; caveat/provider/drop detail lines 2655.
+- `dddhd:abilities:blindness-block` — `src/games/dddhd/content.json:2662`; abilities; caveat/provider/drop detail lines 2667.
+- `dddhd:abilities:confusion-block` — `src/games/dddhd/content.json:2674`; abilities; caveat/provider/drop detail lines 2679.
+- `dddhd:abilities:bind-block` — `src/games/dddhd/content.json:2686`; abilities; caveat/provider/drop detail lines 2691.
+- `dddhd:abilities:poison-block` — `src/games/dddhd/content.json:2698`; abilities; caveat/provider/drop detail lines 2703.
+- `dddhd:abilities:slow-block` — `src/games/dddhd/content.json:2710`; abilities; caveat/provider/drop detail lines 2715.
+- `dddhd:abilities:sleep-block` — `src/games/dddhd/content.json:2722`; abilities; caveat/provider/drop detail lines 2727.
+- `dddhd:abilities:stop-block` — `src/games/dddhd/content.json:2734`; abilities; caveat/provider/drop detail lines 2739.
+- `dddhd:abilities:reload-boost` — `src/games/dddhd/content.json:2746`; abilities; caveat/provider/drop detail lines 2751.
+- `dddhd:abilities:defender` — `src/games/dddhd/content.json:2758`; abilities; caveat/provider/drop detail lines 2763.
+- `dddhd:materials:brilliant-fantasy` — `src/games/dddhd/content.json:2770`; materials; caveat/provider/drop detail lines 2778, 2785, 2791, 2797, 2803.
+- `dddhd:materials:charming-fantasy` — `src/games/dddhd/content.json:2808`; materials; caveat/provider/drop detail lines 2816, 2822, 2828, 2834, 2840, 2846, 2852, 2858, 2864, 2870.
+- `dddhd:materials:dulcet-figment` — `src/games/dddhd/content.json:2875`; materials; caveat/provider/drop detail lines 2885, 2891, 2897, 2903.
+- `dddhd:materials:dulcet-fancy` — `src/games/dddhd/content.json:2908`; materials; caveat/provider/drop detail lines 2919, 2925, 2931, 2937, 2943.
+- `dddhd:materials:dulcet-fantasy` — `src/games/dddhd/content.json:2948`; materials; caveat/provider/drop detail lines 2958, 2964, 2970, 2976, 2982, 2988, 2994, 3000, 3006, 3012, 3018, 3024, 3030, 3036, 3042, 3048, 3054, 3060.
+- `dddhd:materials:epic-fantasy` — `src/games/dddhd/content.json:3065`; materials; caveat/provider/drop detail lines 3073, 3079, 3085, 3091, 3097, 3103, 3109, 3115, 3121.
+- `dddhd:materials:fleeting-figment` — `src/games/dddhd/content.json:3126`; materials; caveat/provider/drop detail lines 3138, 3144, 3150, 3156, 3162.
+- `dddhd:materials:fleeting-fancy` — `src/games/dddhd/content.json:3167`; materials; caveat/provider/drop detail lines 3180, 3186, 3192, 3198, 3204, 3210, 3216.
+- `dddhd:materials:fleeting-fantasy` — `src/games/dddhd/content.json:3221`; materials; caveat/provider/drop detail lines 3230, 3236, 3242, 3248, 3254, 3260, 3266, 3272, 3278, 3284, 3290, 3296, 3302.
+- `dddhd:materials:grim-figment` — `src/games/dddhd/content.json:3307`; materials; caveat/provider/drop detail lines 3321, 3327, 3333, 3339, 3345, 3351, 3357, 3363.
+- `dddhd:materials:grim-fancy` — `src/games/dddhd/content.json:3368`; materials; caveat/provider/drop detail lines 3378, 3384, 3390.
+- `dddhd:materials:grim-fantasy` — `src/games/dddhd/content.json:3395`; materials; caveat/provider/drop detail lines 3405, 3411, 3417, 3423, 3429, 3435, 3441, 3447, 3453, 3459, 3465, 3471, 3477, 3483.
+- `dddhd:materials:intrepid-figment` — `src/games/dddhd/content.json:3488`; materials; caveat/provider/drop detail lines 3500, 3506, 3512, 3518, 3524.
+- `dddhd:materials:intrepid-fancy` — `src/games/dddhd/content.json:3529`; materials; caveat/provider/drop detail lines 3541, 3547, 3553, 3559, 3565, 3571, 3577.
+- `dddhd:materials:intrepid-fantasy` — `src/games/dddhd/content.json:3582`; materials; caveat/provider/drop detail lines 3593, 3599, 3605, 3611, 3617, 3623, 3629, 3635, 3641, 3647, 3653, 3659.
+- `dddhd:materials:lofty-figment` — `src/games/dddhd/content.json:3664`; materials; caveat/provider/drop detail lines 3677, 3683, 3689, 3695, 3701, 3707.
+- `dddhd:materials:lofty-fancy` — `src/games/dddhd/content.json:3712`; materials; caveat/provider/drop detail lines 3723, 3729, 3735, 3741, 3747, 3753, 3759.
+- `dddhd:materials:lofty-fantasy` — `src/games/dddhd/content.json:3764`; materials; caveat/provider/drop detail lines 3775, 3781, 3787, 3793, 3799, 3805, 3811, 3817, 3823, 3829, 3835, 3841, 3847, 3853, 3859, 3865, 3871, 3877, 3883.
+- `dddhd:materials:malleable-fantasy` — `src/games/dddhd/content.json:3888`; materials; caveat/provider/drop detail lines 3897, 3903, 3909, 3915, 3921, 3927, 3933, 3939, 3945, 3951.
+- `dddhd:materials:noble-figment` — `src/games/dddhd/content.json:3956`; materials; caveat/provider/drop detail lines 3969, 3975, 3981, 3987, 3993, 3999, 4005, 4011, 4017.
+- `dddhd:materials:noble-fancy` — `src/games/dddhd/content.json:4022`; materials; caveat/provider/drop detail lines 4033, 4039, 4045, 4051.
+- `dddhd:materials:noble-fantasy` — `src/games/dddhd/content.json:4056`; materials; caveat/provider/drop detail lines 4064, 4070, 4076, 4082, 4088, 4094, 4100, 4106, 4112, 4118, 4124, 4130, 4136, 4142, 4148, 4154.
+- `dddhd:materials:prickly-fantasy` — `src/games/dddhd/content.json:4159`; materials; caveat/provider/drop detail lines 4167, 4173, 4179, 4185, 4191, 4197, 4203, 4209, 4215.
+- `dddhd:materials:rampant-figment` — `src/games/dddhd/content.json:4220`; materials; caveat/provider/drop detail lines 4235, 4241, 4247, 4253, 4259, 4265, 4271, 4277, 4283.
+- `dddhd:materials:rampant-fancy` — `src/games/dddhd/content.json:4288`; materials; caveat/provider/drop detail lines 4301, 4307, 4313, 4319, 4325, 4331, 4337.
+- `dddhd:materials:rampant-fantasy` — `src/games/dddhd/content.json:4342`; materials; caveat/provider/drop detail lines 4351, 4357, 4363, 4369, 4375, 4381, 4387, 4393, 4399, 4405, 4411, 4417.
+- `dddhd:materials:savage-fantasy` — `src/games/dddhd/content.json:4422`; materials; caveat/provider/drop detail lines 4433, 4440, 4446, 4452, 4458, 4464, 4470, 4476, 4482, 4488, 4494, 4500, 4506, 4512, 4518.
+- `dddhd:materials:troubling-figment` — `src/games/dddhd/content.json:4523`; materials; caveat/provider/drop detail lines 4537, 4543, 4549, 4555, 4561, 4567, 4573.
+- `dddhd:materials:troubling-fancy` — `src/games/dddhd/content.json:4578`; materials; caveat/provider/drop detail lines 4588, 4594, 4600.
+- `dddhd:materials:troubling-fantasy` — `src/games/dddhd/content.json:4605`; materials; caveat/provider/drop detail lines 4614, 4620, 4626, 4632, 4638, 4644, 4650, 4656, 4662, 4668, 4674, 4680.
+- `dddhd:materials:vibrant-figment` — `src/games/dddhd/content.json:4685`; materials; caveat/provider/drop detail lines 4699, 4705, 4711, 4717, 4723, 4729, 4735, 4741, 4747.
+- `dddhd:materials:vibrant-fancy` — `src/games/dddhd/content.json:4752`; materials; caveat/provider/drop detail lines 4766, 4772, 4778, 4784, 4790, 4796, 4802, 4808.
+- `dddhd:materials:vibrant-fantasy` — `src/games/dddhd/content.json:4813`; materials; caveat/provider/drop detail lines 4822, 4828, 4834, 4840, 4846, 4852, 4858, 4864, 4870, 4876, 4882, 4888.
+- `dddhd:materials:wild-fantasy` — `src/games/dddhd/content.json:4893`; materials; caveat/provider/drop detail lines 4901, 4907, 4913, 4919, 4925.
+- `dddhd:materials:wondrous-figment` — `src/games/dddhd/content.json:4930`; materials; caveat/provider/drop detail lines 4941, 4947, 4953, 4959.
+- `dddhd:materials:wondrous-fancy` — `src/games/dddhd/content.json:4964`; materials; caveat/provider/drop detail lines 4976, 4982, 4988, 4994, 5000.
+- `dddhd:materials:wondrous-fantasy` — `src/games/dddhd/content.json:5005`; materials; caveat/provider/drop detail lines 5015, 5021, 5027, 5033.
+- `dddhd:treasure:riku:traverse-town:005` — `src/games/dddhd/content.json:5038`; treasures; caveat/provider/drop detail lines 5051 ; canonical extract `src/games/dddhd/world-facts.json:308`.
+- `dddhd:treasure:riku:traverse-town:012` — `src/games/dddhd/content.json:5054`; treasures; caveat/provider/drop detail lines 5067 ; canonical extract `src/games/dddhd/world-facts.json:364`.
+- `dddhd:treasure:sora:la-cite-des-cloches:019` — `src/games/dddhd/content.json:5070`; treasures; caveat/provider/drop detail lines 5083 ; canonical extract `src/games/dddhd/world-facts.json:676`.
+- `dddhd:treasure:sora:la-cite-des-cloches:021` — `src/games/dddhd/content.json:5086`; treasures; caveat/provider/drop detail lines 5099 ; canonical extract `src/games/dddhd/world-facts.json:692`.
+- `dddhd:treasure:sora:la-cite-des-cloches:036` — `src/games/dddhd/content.json:5102`; treasures; caveat/provider/drop detail lines 5115 ; canonical extract `src/games/dddhd/world-facts.json:812`.
+- `dddhd:treasure:sora:la-cite-des-cloches:043` — `src/games/dddhd/content.json:5118`; treasures; caveat/provider/drop detail lines 5131 ; canonical extract `src/games/dddhd/world-facts.json:868`.
+- `dddhd:treasure:sora:the-grid:006` — `src/games/dddhd/content.json:5134`; treasures; caveat/provider/drop detail lines 5147 ; canonical extract `src/games/dddhd/world-facts.json:1236`.
+- `dddhd:treasure:sora:the-grid:026` — `src/games/dddhd/content.json:5150`; treasures; caveat/provider/drop detail lines 5163 ; canonical extract `src/games/dddhd/world-facts.json:1396`.
+- `dddhd:treasure:sora:the-grid:037` — `src/games/dddhd/content.json:5166`; treasures; caveat/provider/drop detail lines 5179 ; canonical extract `src/games/dddhd/world-facts.json:1484`.
+- `dddhd:treasure:riku:the-grid:036` — `src/games/dddhd/content.json:5182`; treasures; caveat/provider/drop detail lines 5195 ; canonical extract `src/games/dddhd/world-facts.json:1812`.
+- `dddhd:treasure:sora:prankster-s-paradise:001` — `src/games/dddhd/content.json:5198`; treasures; caveat/provider/drop detail lines 5211 ; canonical extract `src/games/dddhd/world-facts.json:1892`.
+- `dddhd:treasure:sora:prankster-s-paradise:005` — `src/games/dddhd/content.json:5214`; treasures; caveat/provider/drop detail lines 5227 ; canonical extract `src/games/dddhd/world-facts.json:1924`.
+- `dddhd:treasure:sora:prankster-s-paradise:030` — `src/games/dddhd/content.json:5230`; treasures; caveat/provider/drop detail lines 5243 ; canonical extract `src/games/dddhd/world-facts.json:2124`.
+- `dddhd:treasure:riku:prankster-s-paradise:007` — `src/games/dddhd/content.json:5246`; treasures; caveat/provider/drop detail lines 5259 ; canonical extract `src/games/dddhd/world-facts.json:2188`.
+- `dddhd:treasure:riku:prankster-s-paradise:017` — `src/games/dddhd/content.json:5262`; treasures; caveat/provider/drop detail lines 5275 ; canonical extract `src/games/dddhd/world-facts.json:2268`.
+- `dddhd:treasure:sora:country-of-the-musketeers:029` — `src/games/dddhd/content.json:5278`; treasures; caveat/provider/drop detail lines 5291 ; canonical extract `src/games/dddhd/world-facts.json:2540`.
+- `dddhd:treasure:sora:country-of-the-musketeers:032` — `src/games/dddhd/content.json:5294`; treasures; caveat/provider/drop detail lines 5307 ; canonical extract `src/games/dddhd/world-facts.json:2564`.
+- `dddhd:treasure:riku:country-of-the-musketeers:004` — `src/games/dddhd/content.json:5310`; treasures; caveat/provider/drop detail lines 5323 ; canonical extract `src/games/dddhd/world-facts.json:2596`.
+- `dddhd:treasure:riku:country-of-the-musketeers:010` — `src/games/dddhd/content.json:5326`; treasures; caveat/provider/drop detail lines 5339 ; canonical extract `src/games/dddhd/world-facts.json:2644`.
+- `dddhd:treasure:riku:country-of-the-musketeers:019` — `src/games/dddhd/content.json:5342`; treasures; caveat/provider/drop detail lines 5355 ; canonical extract `src/games/dddhd/world-facts.json:2716`.
+- `dddhd:treasure:sora:symphony-of-sorcery:004` — `src/games/dddhd/content.json:5358`; treasures; caveat/provider/drop detail lines 5371 ; canonical extract `src/games/dddhd/world-facts.json:2844`.
+- `dddhd:treasure:sora:symphony-of-sorcery:019` — `src/games/dddhd/content.json:5374`; treasures; caveat/provider/drop detail lines 5387 ; canonical extract `src/games/dddhd/world-facts.json:2964`.
+- `dddhd:treasure:riku:symphony-of-sorcery:015` — `src/games/dddhd/content.json:5390`; treasures; caveat/provider/drop detail lines 5403 ; canonical extract `src/games/dddhd/world-facts.json:3108`.
+- `dddhd:treasure:sora:the-world-that-never-was:008` — `src/games/dddhd/content.json:5406`; treasures; caveat/provider/drop detail lines 5419 ; canonical extract `src/games/dddhd/world-facts.json:3220`.
+- `dddhd:treasure:riku:the-world-that-never-was:011` — `src/games/dddhd/content.json:5422`; treasures; caveat/provider/drop detail lines 5435 ; canonical extract `src/games/dddhd/world-facts.json:3364`.
+- `dddhd:treasure:riku:the-world-that-never-was:023` — `src/games/dddhd/content.json:5438`; treasures; caveat/provider/drop detail lines 5451 ; canonical extract `src/games/dddhd/world-facts.json:3460`.
+- `dddhd:portals:sora-traverse-town-secret-portal` — `src/games/dddhd/content.json:5454`; portals; caveat/provider/drop detail lines 5464.
+- `dddhd:portals:riku-traverse-town-secret-portal` — `src/games/dddhd/content.json:5471`; portals; caveat/provider/drop detail lines 5481.
+- `dddhd:portals:sora-la-cite-des-cloches-secret-portal` — `src/games/dddhd/content.json:5488`; portals; caveat/provider/drop detail lines 5498.
+- `dddhd:portals:riku-la-cite-des-cloches-secret-portal` — `src/games/dddhd/content.json:5505`; portals; caveat/provider/drop detail lines 5515.
+- `dddhd:portals:sora-the-grid-secret-portal` — `src/games/dddhd/content.json:5522`; portals; caveat/provider/drop detail lines 5532.
+- `dddhd:portals:riku-the-grid-secret-portal` — `src/games/dddhd/content.json:5539`; portals; caveat/provider/drop detail lines 5549.
+- `dddhd:portals:sora-prankster-s-paradise-secret-portal` — `src/games/dddhd/content.json:5556`; portals; caveat/provider/drop detail lines 5566.
+- `dddhd:portals:riku-prankster-s-paradise-secret-portal` — `src/games/dddhd/content.json:5573`; portals; caveat/provider/drop detail lines 5583.
+- `dddhd:portals:sora-country-of-the-musketeers-secret-portal` — `src/games/dddhd/content.json:5590`; portals; caveat/provider/drop detail lines 5600.
+- `dddhd:portals:riku-country-of-the-musketeers-secret-portal` — `src/games/dddhd/content.json:5607`; portals; caveat/provider/drop detail lines 5617.
+- `dddhd:portals:sora-symphony-of-sorcery-secret-portal` — `src/games/dddhd/content.json:5624`; portals; caveat/provider/drop detail lines 5634.
+- `dddhd:dives:sora-traverse-town-dive` — `src/games/dddhd/content.json:5641`; dives; caveat/provider/drop detail lines 5649.
+- `dddhd:dives:riku-traverse-town-dive` — `src/games/dddhd/content.json:5655`; dives; caveat/provider/drop detail lines 5663.
+- `dddhd:dives:sora-la-cite-des-cloches-dive` — `src/games/dddhd/content.json:5669`; dives; caveat/provider/drop detail lines 5677.
+- `dddhd:dives:riku-la-cite-des-cloches-dive` — `src/games/dddhd/content.json:5683`; dives; caveat/provider/drop detail lines 5691.
+- `dddhd:dives:sora-the-grid-dive` — `src/games/dddhd/content.json:5697`; dives; caveat/provider/drop detail lines 5705.
+- `dddhd:dives:riku-the-grid-dive` — `src/games/dddhd/content.json:5711`; dives; caveat/provider/drop detail lines 5719.
+- `dddhd:dives:sora-prankster-s-paradise-dive` — `src/games/dddhd/content.json:5725`; dives; caveat/provider/drop detail lines 5733.
+- `dddhd:dives:riku-prankster-s-paradise-dive` — `src/games/dddhd/content.json:5739`; dives; caveat/provider/drop detail lines 5747.
+- `dddhd:dives:sora-country-of-the-musketeers-dive` — `src/games/dddhd/content.json:5753`; dives; caveat/provider/drop detail lines 5761.
+- `dddhd:dives:riku-country-of-the-musketeers-dive` — `src/games/dddhd/content.json:5767`; dives; caveat/provider/drop detail lines 5775.
+- `dddhd:dives:sora-symphony-of-sorcery-dive` — `src/games/dddhd/content.json:5781`; dives; caveat/provider/drop detail lines 5789.
+- `dddhd:dives:riku-symphony-of-sorcery-dive` — `src/games/dddhd/content.json:5795`; dives; caveat/provider/drop detail lines 5803.
+- `dddhd:dives:sora-the-world-that-never-was-dive` — `src/games/dddhd/content.json:5809`; dives; caveat/provider/drop detail lines 5817.
+- `dddhd:dives:riku-the-world-that-never-was-dive` — `src/games/dddhd/content.json:5823`; dives; caveat/provider/drop detail lines 5831.
+- `dddhd:challenges:training-cup` — `src/games/dddhd/content.json:5837`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:beginner-s-cup` — `src/games/dddhd/content.json:5850`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:rainbow-cup` — `src/games/dddhd/content.json:5863`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:digital-cup` — `src/games/dddhd/content.json:5876`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:tin-pin-cup` — `src/games/dddhd/content.json:5889`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:speed-cup` — `src/games/dddhd/content.json:5902`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:yummy-cup` — `src/games/dddhd/content.json:5915`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:final-cup` — `src/games/dddhd/content.json:5928`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:horror-cup` — `src/games/dddhd/content.json:5941`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:secret-cup` — `src/games/dddhd/content.json:5954`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:kingdom-key` — `src/games/dddhd/content.json:5968`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:way-to-the-dawn` — `src/games/dddhd/content.json:5979`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:skull-noise` — `src/games/dddhd/content.json:5990`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:guardian-bell` — `src/games/dddhd/content.json:6001`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:dual-disc` — `src/games/dddhd/content.json:6012`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:ferris-gear` — `src/games/dddhd/content.json:6023`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:ocean-s-rage` — `src/games/dddhd/content.json:6034`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:knockout-punch` — `src/games/dddhd/content.json:6045`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:all-for-one` — `src/games/dddhd/content.json:6056`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:counterpoint` — `src/games/dddhd/content.json:6067`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:sweet-dreams` — `src/games/dddhd/content.json:6078`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:divewing` — `src/games/dddhd/content.json:6089`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:end-of-pain` — `src/games/dddhd/content.json:6100`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:unbound` — `src/games/dddhd/content.json:6111`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:keyblades:ultima-weapon` — `src/games/dddhd/content.json:6122`; keyblades; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:in-the-clear` — `src/games/dddhd/content.json:6133`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:badge-of-pride` — `src/games/dddhd/content.json:6143`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:stop-drop-roller` — `src/games/dddhd/content.json:6153`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:king-of-rush` — `src/games/dddhd/content.json:6163`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:keyslinger` — `src/games/dddhd/content.json:6173`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:in-the-munny` — `src/games/dddhd/content.json:6183`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:dream-pleaser` — `src/games/dddhd/content.json:6193`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:portal-champ` — `src/games/dddhd/content.json:6203`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:daring-diver` — `src/games/dddhd/content.json:6213`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:motion-slickness` — `src/games/dddhd/content.json:6223`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:treasure-seeker` — `src/games/dddhd/content.json:6233`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:spirit-guide` — `src/games/dddhd/content.json:6243`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:critical-praise` — `src/games/dddhd/content.json:6253`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:reality-shifter` — `src/games/dddhd/content.json:6263`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:pro-linker` — `src/games/dddhd/content.json:6273`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:stat-builder` — `src/games/dddhd/content.json:6283`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:ribbit-reaper` — `src/games/dddhd/content.json:6293`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:awards:keyblade-conqueror` — `src/games/dddhd/content.json:6303`; awards; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:julius-sora` — `src/games/dddhd/content.json:6313`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:julius-riku` — `src/games/dddhd/content.json:6326`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:challenges:lord-kyroo` — `src/games/dddhd/content.json:6339`; challenges; no explicit uncertainty; scope omissions covered by category finding.
+- `dddhd:achievements:balloon-master` — `src/games/dddhd/content.json:6351`; achievements; caveat/provider/drop detail lines 6358.
+- `dddhd:achievements:water-barrel-master` — `src/games/dddhd/content.json:6361`; achievements; caveat/provider/drop detail lines 6368.
+- `dddhd:achievements:candy-goggles-master` — `src/games/dddhd/content.json:6371`; achievements; caveat/provider/drop detail lines 6378.
+- `dddhd:achievements:super-cyclist` — `src/games/dddhd/content.json:6381`; achievements; caveat/provider/drop detail lines 6388.
+- `dddhd:achievements:medal-master` — `src/games/dddhd/content.json:6391`; achievements; caveat/provider/drop detail lines 6398.
+- `dddhd:achievements:flick-rush-fever` — `src/games/dddhd/content.json:6401`; achievements; caveat/provider/drop detail lines 6408.
+- `dddhd:achievements:brave-challengers` — `src/games/dddhd/content.json:6411`; achievements; caveat/provider/drop detail lines 6418.
+- `dddhd:achievements:golden-egg` — `src/games/dddhd/content.json:6421`; achievements; caveat/provider/drop detail lines 6428.
+- `dddhd:achievements:strongest-link` — `src/games/dddhd/content.json:6431`; achievements; caveat/provider/drop detail lines 6438.
+- `dddhd:achievements:kindred-spirits` — `src/games/dddhd/content.json:6441`; achievements; caveat/provider/drop detail lines 6448.
+- `dddhd:achievements:ability-ace` — `src/games/dddhd/content.json:6451`; achievements; caveat/provider/drop detail lines 6458.
+- `dddhd:achievements:command-collector` — `src/games/dddhd/content.json:6461`; achievements; caveat/provider/drop detail lines 6468.
+- `dddhd:achievements:dream-piece-collector` — `src/games/dddhd/content.json:6471`; achievements; caveat/provider/drop detail lines 6478.
+- `dddhd:achievements:recipe-collector` — `src/games/dddhd/content.json:6481`; achievements; caveat/provider/drop detail lines 6488.
+- `dddhd:achievements:record-keeper` — `src/games/dddhd/content.json:6491`; achievements; caveat/provider/drop detail lines 6498.
+- `dddhd:treasure:sora:traverse-town:001` — `src/games/dddhd/content.json:6501`; treasures; caveat/provider/drop detail lines 6514 ; canonical extract `src/games/dddhd/world-facts.json:4`.
+- `dddhd:treasure:sora:traverse-town:002` — `src/games/dddhd/content.json:6517`; treasures; caveat/provider/drop detail lines 6530 ; canonical extract `src/games/dddhd/world-facts.json:12`.
+- `dddhd:treasure:sora:traverse-town:003` — `src/games/dddhd/content.json:6533`; treasures; caveat/provider/drop detail lines 6546 ; canonical extract `src/games/dddhd/world-facts.json:20`.
+- `dddhd:treasure:sora:traverse-town:004` — `src/games/dddhd/content.json:6549`; treasures; caveat/provider/drop detail lines 6562 ; canonical extract `src/games/dddhd/world-facts.json:28`.
+- `dddhd:treasure:sora:traverse-town:005` — `src/games/dddhd/content.json:6565`; treasures; caveat/provider/drop detail lines 6578 ; canonical extract `src/games/dddhd/world-facts.json:36`.
+- `dddhd:treasure:sora:traverse-town:006` — `src/games/dddhd/content.json:6581`; treasures; caveat/provider/drop detail lines 6594 ; canonical extract `src/games/dddhd/world-facts.json:44`.
+- `dddhd:treasure:sora:traverse-town:007` — `src/games/dddhd/content.json:6597`; treasures; caveat/provider/drop detail lines 6610 ; canonical extract `src/games/dddhd/world-facts.json:52`.
+- `dddhd:treasure:sora:traverse-town:008` — `src/games/dddhd/content.json:6613`; treasures; caveat/provider/drop detail lines 6626 ; canonical extract `src/games/dddhd/world-facts.json:60`.
+- `dddhd:treasure:sora:traverse-town:009` — `src/games/dddhd/content.json:6629`; treasures; caveat/provider/drop detail lines 6642 ; canonical extract `src/games/dddhd/world-facts.json:68`.
+- `dddhd:treasure:sora:traverse-town:010` — `src/games/dddhd/content.json:6645`; treasures; caveat/provider/drop detail lines 6658 ; canonical extract `src/games/dddhd/world-facts.json:76`.
+- `dddhd:treasure:sora:traverse-town:011` — `src/games/dddhd/content.json:6661`; treasures; caveat/provider/drop detail lines 6674 ; canonical extract `src/games/dddhd/world-facts.json:84`.
+- `dddhd:treasure:sora:traverse-town:012` — `src/games/dddhd/content.json:6677`; treasures; caveat/provider/drop detail lines 6690 ; canonical extract `src/games/dddhd/world-facts.json:92`.
+- `dddhd:treasure:sora:traverse-town:013` — `src/games/dddhd/content.json:6693`; treasures; caveat/provider/drop detail lines 6706 ; canonical extract `src/games/dddhd/world-facts.json:100`.
+- `dddhd:treasure:sora:traverse-town:014` — `src/games/dddhd/content.json:6709`; treasures; caveat/provider/drop detail lines 6722 ; canonical extract `src/games/dddhd/world-facts.json:108`.
+- `dddhd:treasure:sora:traverse-town:015` — `src/games/dddhd/content.json:6725`; treasures; caveat/provider/drop detail lines 6738 ; canonical extract `src/games/dddhd/world-facts.json:116`.
+- `dddhd:treasure:sora:traverse-town:016` — `src/games/dddhd/content.json:6741`; treasures; caveat/provider/drop detail lines 6754 ; canonical extract `src/games/dddhd/world-facts.json:124`.
+- `dddhd:treasure:sora:traverse-town:017` — `src/games/dddhd/content.json:6757`; treasures; caveat/provider/drop detail lines 6770 ; canonical extract `src/games/dddhd/world-facts.json:132`.
+- `dddhd:treasure:sora:traverse-town:018` — `src/games/dddhd/content.json:6773`; treasures; caveat/provider/drop detail lines 6786 ; canonical extract `src/games/dddhd/world-facts.json:140`.
+- `dddhd:treasure:sora:traverse-town:019` — `src/games/dddhd/content.json:6789`; treasures; caveat/provider/drop detail lines 6802 ; canonical extract `src/games/dddhd/world-facts.json:148`.
+- `dddhd:treasure:sora:traverse-town:020` — `src/games/dddhd/content.json:6805`; treasures; caveat/provider/drop detail lines 6818 ; canonical extract `src/games/dddhd/world-facts.json:156`.
+- `dddhd:treasure:sora:traverse-town:021` — `src/games/dddhd/content.json:6821`; treasures; caveat/provider/drop detail lines 6834 ; canonical extract `src/games/dddhd/world-facts.json:164`.
+- `dddhd:treasure:sora:traverse-town:022` — `src/games/dddhd/content.json:6837`; treasures; caveat/provider/drop detail lines 6850 ; canonical extract `src/games/dddhd/world-facts.json:172`.
+- `dddhd:treasure:sora:traverse-town:023` — `src/games/dddhd/content.json:6853`; treasures; caveat/provider/drop detail lines 6866 ; canonical extract `src/games/dddhd/world-facts.json:180`.
+- `dddhd:treasure:sora:traverse-town:024` — `src/games/dddhd/content.json:6869`; treasures; caveat/provider/drop detail lines 6882 ; canonical extract `src/games/dddhd/world-facts.json:188`.
+- `dddhd:treasure:sora:traverse-town:025` — `src/games/dddhd/content.json:6885`; treasures; caveat/provider/drop detail lines 6898 ; canonical extract `src/games/dddhd/world-facts.json:196`.
+- `dddhd:treasure:sora:traverse-town:026` — `src/games/dddhd/content.json:6901`; treasures; caveat/provider/drop detail lines 6914 ; canonical extract `src/games/dddhd/world-facts.json:204`.
+- `dddhd:treasure:sora:traverse-town:027` — `src/games/dddhd/content.json:6917`; treasures; caveat/provider/drop detail lines 6930 ; canonical extract `src/games/dddhd/world-facts.json:212`.
+- `dddhd:treasure:sora:traverse-town:028` — `src/games/dddhd/content.json:6933`; treasures; caveat/provider/drop detail lines 6946 ; canonical extract `src/games/dddhd/world-facts.json:220`.
+- `dddhd:treasure:sora:traverse-town:029` — `src/games/dddhd/content.json:6949`; treasures; caveat/provider/drop detail lines 6962 ; canonical extract `src/games/dddhd/world-facts.json:228`.
+- `dddhd:treasure:sora:traverse-town:030` — `src/games/dddhd/content.json:6965`; treasures; caveat/provider/drop detail lines 6978 ; canonical extract `src/games/dddhd/world-facts.json:236`.
+- `dddhd:treasure:sora:traverse-town:031` — `src/games/dddhd/content.json:6981`; treasures; caveat/provider/drop detail lines 6994 ; canonical extract `src/games/dddhd/world-facts.json:244`.
+- `dddhd:treasure:sora:traverse-town:032` — `src/games/dddhd/content.json:6997`; treasures; caveat/provider/drop detail lines 7010 ; canonical extract `src/games/dddhd/world-facts.json:252`.
+- `dddhd:treasure:sora:traverse-town:033` — `src/games/dddhd/content.json:7013`; treasures; caveat/provider/drop detail lines 7026 ; canonical extract `src/games/dddhd/world-facts.json:260`.
+- `dddhd:treasure:sora:traverse-town:034` — `src/games/dddhd/content.json:7029`; treasures; caveat/provider/drop detail lines 7042 ; canonical extract `src/games/dddhd/world-facts.json:268`.
+- `dddhd:treasure:riku:traverse-town:001` — `src/games/dddhd/content.json:7045`; treasures; caveat/provider/drop detail lines 7058 ; canonical extract `src/games/dddhd/world-facts.json:276`.
+- `dddhd:treasure:riku:traverse-town:002` — `src/games/dddhd/content.json:7061`; treasures; caveat/provider/drop detail lines 7074 ; canonical extract `src/games/dddhd/world-facts.json:284`.
+- `dddhd:treasure:riku:traverse-town:003` — `src/games/dddhd/content.json:7077`; treasures; caveat/provider/drop detail lines 7090 ; canonical extract `src/games/dddhd/world-facts.json:292`.
+- `dddhd:treasure:riku:traverse-town:004` — `src/games/dddhd/content.json:7093`; treasures; caveat/provider/drop detail lines 7106 ; canonical extract `src/games/dddhd/world-facts.json:300`.
+- `dddhd:treasure:riku:traverse-town:006` — `src/games/dddhd/content.json:7109`; treasures; caveat/provider/drop detail lines 7122 ; canonical extract `src/games/dddhd/world-facts.json:316`.
+- `dddhd:treasure:riku:traverse-town:007` — `src/games/dddhd/content.json:7125`; treasures; caveat/provider/drop detail lines 7138 ; canonical extract `src/games/dddhd/world-facts.json:324`.
+- `dddhd:treasure:riku:traverse-town:008` — `src/games/dddhd/content.json:7141`; treasures; caveat/provider/drop detail lines 7154 ; canonical extract `src/games/dddhd/world-facts.json:332`.
+- `dddhd:treasure:riku:traverse-town:009` — `src/games/dddhd/content.json:7157`; treasures; caveat/provider/drop detail lines 7170 ; canonical extract `src/games/dddhd/world-facts.json:340`.
+- `dddhd:treasure:riku:traverse-town:010` — `src/games/dddhd/content.json:7173`; treasures; caveat/provider/drop detail lines 7186 ; canonical extract `src/games/dddhd/world-facts.json:348`.
+- `dddhd:treasure:riku:traverse-town:011` — `src/games/dddhd/content.json:7189`; treasures; caveat/provider/drop detail lines 7202 ; canonical extract `src/games/dddhd/world-facts.json:356`.
+- `dddhd:treasure:riku:traverse-town:013` — `src/games/dddhd/content.json:7205`; treasures; caveat/provider/drop detail lines 7218 ; canonical extract `src/games/dddhd/world-facts.json:372`.
+- `dddhd:treasure:riku:traverse-town:014` — `src/games/dddhd/content.json:7221`; treasures; caveat/provider/drop detail lines 7234 ; canonical extract `src/games/dddhd/world-facts.json:380`.
+- `dddhd:treasure:riku:traverse-town:015` — `src/games/dddhd/content.json:7237`; treasures; caveat/provider/drop detail lines 7250 ; canonical extract `src/games/dddhd/world-facts.json:388`.
+- `dddhd:treasure:riku:traverse-town:016` — `src/games/dddhd/content.json:7253`; treasures; caveat/provider/drop detail lines 7266 ; canonical extract `src/games/dddhd/world-facts.json:396`.
+- `dddhd:treasure:riku:traverse-town:017` — `src/games/dddhd/content.json:7269`; treasures; caveat/provider/drop detail lines 7282 ; canonical extract `src/games/dddhd/world-facts.json:404`.
+- `dddhd:treasure:riku:traverse-town:018` — `src/games/dddhd/content.json:7285`; treasures; caveat/provider/drop detail lines 7298 ; canonical extract `src/games/dddhd/world-facts.json:412`.
+- `dddhd:treasure:riku:traverse-town:019` — `src/games/dddhd/content.json:7301`; treasures; caveat/provider/drop detail lines 7314 ; canonical extract `src/games/dddhd/world-facts.json:420`.
+- `dddhd:treasure:riku:traverse-town:020` — `src/games/dddhd/content.json:7317`; treasures; caveat/provider/drop detail lines 7330 ; canonical extract `src/games/dddhd/world-facts.json:428`.
+- `dddhd:treasure:riku:traverse-town:021` — `src/games/dddhd/content.json:7333`; treasures; caveat/provider/drop detail lines 7346 ; canonical extract `src/games/dddhd/world-facts.json:436`.
+- `dddhd:treasure:riku:traverse-town:022` — `src/games/dddhd/content.json:7349`; treasures; caveat/provider/drop detail lines 7362 ; canonical extract `src/games/dddhd/world-facts.json:444`.
+- `dddhd:treasure:riku:traverse-town:023` — `src/games/dddhd/content.json:7365`; treasures; caveat/provider/drop detail lines 7378 ; canonical extract `src/games/dddhd/world-facts.json:452`.
+- `dddhd:treasure:riku:traverse-town:024` — `src/games/dddhd/content.json:7381`; treasures; caveat/provider/drop detail lines 7394 ; canonical extract `src/games/dddhd/world-facts.json:460`.
+- `dddhd:treasure:riku:traverse-town:025` — `src/games/dddhd/content.json:7397`; treasures; caveat/provider/drop detail lines 7410 ; canonical extract `src/games/dddhd/world-facts.json:468`.
+- `dddhd:treasure:riku:traverse-town:026` — `src/games/dddhd/content.json:7413`; treasures; caveat/provider/drop detail lines 7426 ; canonical extract `src/games/dddhd/world-facts.json:476`.
+- `dddhd:treasure:riku:traverse-town:027` — `src/games/dddhd/content.json:7429`; treasures; caveat/provider/drop detail lines 7442 ; canonical extract `src/games/dddhd/world-facts.json:484`.
+- `dddhd:treasure:riku:traverse-town:028` — `src/games/dddhd/content.json:7445`; treasures; caveat/provider/drop detail lines 7458 ; canonical extract `src/games/dddhd/world-facts.json:492`.
+- `dddhd:treasure:riku:traverse-town:029` — `src/games/dddhd/content.json:7461`; treasures; caveat/provider/drop detail lines 7474 ; canonical extract `src/games/dddhd/world-facts.json:500`.
+- `dddhd:treasure:riku:traverse-town:030` — `src/games/dddhd/content.json:7477`; treasures; caveat/provider/drop detail lines 7490 ; canonical extract `src/games/dddhd/world-facts.json:508`.
+- `dddhd:treasure:riku:traverse-town:031` — `src/games/dddhd/content.json:7493`; treasures; caveat/provider/drop detail lines 7506 ; canonical extract `src/games/dddhd/world-facts.json:516`.
+- `dddhd:treasure:riku:traverse-town:032` — `src/games/dddhd/content.json:7509`; treasures; caveat/provider/drop detail lines 7522 ; canonical extract `src/games/dddhd/world-facts.json:524`.
+- `dddhd:treasure:sora:la-cite-des-cloches:001` — `src/games/dddhd/content.json:7525`; treasures; caveat/provider/drop detail lines 7538 ; canonical extract `src/games/dddhd/world-facts.json:532`.
+- `dddhd:treasure:sora:la-cite-des-cloches:002` — `src/games/dddhd/content.json:7541`; treasures; caveat/provider/drop detail lines 7554 ; canonical extract `src/games/dddhd/world-facts.json:540`.
+- `dddhd:treasure:sora:la-cite-des-cloches:003` — `src/games/dddhd/content.json:7557`; treasures; caveat/provider/drop detail lines 7570 ; canonical extract `src/games/dddhd/world-facts.json:548`.
+- `dddhd:treasure:sora:la-cite-des-cloches:004` — `src/games/dddhd/content.json:7573`; treasures; caveat/provider/drop detail lines 7586 ; canonical extract `src/games/dddhd/world-facts.json:556`.
+- `dddhd:treasure:sora:la-cite-des-cloches:005` — `src/games/dddhd/content.json:7589`; treasures; caveat/provider/drop detail lines 7602 ; canonical extract `src/games/dddhd/world-facts.json:564`.
+- `dddhd:treasure:sora:la-cite-des-cloches:006` — `src/games/dddhd/content.json:7605`; treasures; caveat/provider/drop detail lines 7618 ; canonical extract `src/games/dddhd/world-facts.json:572`.
+- `dddhd:treasure:sora:la-cite-des-cloches:007` — `src/games/dddhd/content.json:7621`; treasures; caveat/provider/drop detail lines 7634 ; canonical extract `src/games/dddhd/world-facts.json:580`.
+- `dddhd:treasure:sora:la-cite-des-cloches:008` — `src/games/dddhd/content.json:7637`; treasures; caveat/provider/drop detail lines 7650 ; canonical extract `src/games/dddhd/world-facts.json:588`.
+- `dddhd:treasure:sora:la-cite-des-cloches:009` — `src/games/dddhd/content.json:7653`; treasures; caveat/provider/drop detail lines 7666 ; canonical extract `src/games/dddhd/world-facts.json:596`.
+- `dddhd:treasure:sora:la-cite-des-cloches:010` — `src/games/dddhd/content.json:7669`; treasures; caveat/provider/drop detail lines 7682 ; canonical extract `src/games/dddhd/world-facts.json:604`.
+- `dddhd:treasure:sora:la-cite-des-cloches:011` — `src/games/dddhd/content.json:7685`; treasures; caveat/provider/drop detail lines 7698 ; canonical extract `src/games/dddhd/world-facts.json:612`.
+- `dddhd:treasure:sora:la-cite-des-cloches:012` — `src/games/dddhd/content.json:7701`; treasures; caveat/provider/drop detail lines 7714 ; canonical extract `src/games/dddhd/world-facts.json:620`.
+- `dddhd:treasure:sora:la-cite-des-cloches:013` — `src/games/dddhd/content.json:7717`; treasures; caveat/provider/drop detail lines 7730 ; canonical extract `src/games/dddhd/world-facts.json:628`.
+- `dddhd:treasure:sora:la-cite-des-cloches:014` — `src/games/dddhd/content.json:7733`; treasures; caveat/provider/drop detail lines 7746 ; canonical extract `src/games/dddhd/world-facts.json:636`.
+- `dddhd:treasure:sora:la-cite-des-cloches:015` — `src/games/dddhd/content.json:7749`; treasures; caveat/provider/drop detail lines 7762 ; canonical extract `src/games/dddhd/world-facts.json:644`.
+- `dddhd:treasure:sora:la-cite-des-cloches:016` — `src/games/dddhd/content.json:7765`; treasures; caveat/provider/drop detail lines 7778 ; canonical extract `src/games/dddhd/world-facts.json:652`.
+- `dddhd:treasure:sora:la-cite-des-cloches:017` — `src/games/dddhd/content.json:7781`; treasures; caveat/provider/drop detail lines 7794 ; canonical extract `src/games/dddhd/world-facts.json:660`.
+- `dddhd:treasure:sora:la-cite-des-cloches:018` — `src/games/dddhd/content.json:7797`; treasures; caveat/provider/drop detail lines 7810 ; canonical extract `src/games/dddhd/world-facts.json:668`.
+- `dddhd:treasure:sora:la-cite-des-cloches:020` — `src/games/dddhd/content.json:7813`; treasures; caveat/provider/drop detail lines 7826 ; canonical extract `src/games/dddhd/world-facts.json:684`.
+- `dddhd:treasure:sora:la-cite-des-cloches:022` — `src/games/dddhd/content.json:7829`; treasures; caveat/provider/drop detail lines 7842 ; canonical extract `src/games/dddhd/world-facts.json:700`.
+- `dddhd:treasure:sora:la-cite-des-cloches:023` — `src/games/dddhd/content.json:7845`; treasures; caveat/provider/drop detail lines 7858 ; canonical extract `src/games/dddhd/world-facts.json:708`.
+- `dddhd:treasure:sora:la-cite-des-cloches:024` — `src/games/dddhd/content.json:7861`; treasures; caveat/provider/drop detail lines 7874 ; canonical extract `src/games/dddhd/world-facts.json:716`.
+- `dddhd:treasure:sora:la-cite-des-cloches:025` — `src/games/dddhd/content.json:7877`; treasures; caveat/provider/drop detail lines 7890 ; canonical extract `src/games/dddhd/world-facts.json:724`.
+- `dddhd:treasure:sora:la-cite-des-cloches:026` — `src/games/dddhd/content.json:7893`; treasures; caveat/provider/drop detail lines 7906 ; canonical extract `src/games/dddhd/world-facts.json:732`.
+- `dddhd:treasure:sora:la-cite-des-cloches:027` — `src/games/dddhd/content.json:7909`; treasures; caveat/provider/drop detail lines 7922 ; canonical extract `src/games/dddhd/world-facts.json:740`.
+- `dddhd:treasure:sora:la-cite-des-cloches:028` — `src/games/dddhd/content.json:7925`; treasures; caveat/provider/drop detail lines 7938 ; canonical extract `src/games/dddhd/world-facts.json:748`.
+- `dddhd:treasure:sora:la-cite-des-cloches:029` — `src/games/dddhd/content.json:7941`; treasures; caveat/provider/drop detail lines 7954 ; canonical extract `src/games/dddhd/world-facts.json:756`.
+- `dddhd:treasure:sora:la-cite-des-cloches:030` — `src/games/dddhd/content.json:7957`; treasures; caveat/provider/drop detail lines 7970 ; canonical extract `src/games/dddhd/world-facts.json:764`.
+- `dddhd:treasure:sora:la-cite-des-cloches:031` — `src/games/dddhd/content.json:7973`; treasures; caveat/provider/drop detail lines 7986 ; canonical extract `src/games/dddhd/world-facts.json:772`.
+- `dddhd:treasure:sora:la-cite-des-cloches:032` — `src/games/dddhd/content.json:7989`; treasures; caveat/provider/drop detail lines 8002 ; canonical extract `src/games/dddhd/world-facts.json:780`.
+- `dddhd:treasure:sora:la-cite-des-cloches:033` — `src/games/dddhd/content.json:8005`; treasures; caveat/provider/drop detail lines 8018 ; canonical extract `src/games/dddhd/world-facts.json:788`.
+- `dddhd:treasure:sora:la-cite-des-cloches:034` — `src/games/dddhd/content.json:8021`; treasures; caveat/provider/drop detail lines 8034 ; canonical extract `src/games/dddhd/world-facts.json:796`.
+- `dddhd:treasure:sora:la-cite-des-cloches:035` — `src/games/dddhd/content.json:8037`; treasures; caveat/provider/drop detail lines 8050 ; canonical extract `src/games/dddhd/world-facts.json:804`.
+- `dddhd:treasure:sora:la-cite-des-cloches:037` — `src/games/dddhd/content.json:8053`; treasures; caveat/provider/drop detail lines 8066 ; canonical extract `src/games/dddhd/world-facts.json:820`.
+- `dddhd:treasure:sora:la-cite-des-cloches:038` — `src/games/dddhd/content.json:8069`; treasures; caveat/provider/drop detail lines 8082 ; canonical extract `src/games/dddhd/world-facts.json:828`.
+- `dddhd:treasure:sora:la-cite-des-cloches:039` — `src/games/dddhd/content.json:8085`; treasures; caveat/provider/drop detail lines 8098 ; canonical extract `src/games/dddhd/world-facts.json:836`.
+- `dddhd:treasure:sora:la-cite-des-cloches:040` — `src/games/dddhd/content.json:8101`; treasures; caveat/provider/drop detail lines 8114 ; canonical extract `src/games/dddhd/world-facts.json:844`.
+- `dddhd:treasure:sora:la-cite-des-cloches:041` — `src/games/dddhd/content.json:8117`; treasures; caveat/provider/drop detail lines 8130 ; canonical extract `src/games/dddhd/world-facts.json:852`.
+- `dddhd:treasure:sora:la-cite-des-cloches:042` — `src/games/dddhd/content.json:8133`; treasures; caveat/provider/drop detail lines 8146 ; canonical extract `src/games/dddhd/world-facts.json:860`.
+- `dddhd:treasure:sora:la-cite-des-cloches:044` — `src/games/dddhd/content.json:8149`; treasures; caveat/provider/drop detail lines 8162 ; canonical extract `src/games/dddhd/world-facts.json:876`.
+- `dddhd:treasure:sora:la-cite-des-cloches:045` — `src/games/dddhd/content.json:8165`; treasures; caveat/provider/drop detail lines 8178 ; canonical extract `src/games/dddhd/world-facts.json:884`.
+- `dddhd:treasure:sora:la-cite-des-cloches:046` — `src/games/dddhd/content.json:8181`; treasures; caveat/provider/drop detail lines 8194 ; canonical extract `src/games/dddhd/world-facts.json:892`.
+- `dddhd:treasure:sora:la-cite-des-cloches:047` — `src/games/dddhd/content.json:8197`; treasures; caveat/provider/drop detail lines 8210 ; canonical extract `src/games/dddhd/world-facts.json:900`.
+- `dddhd:treasure:sora:la-cite-des-cloches:048` — `src/games/dddhd/content.json:8213`; treasures; caveat/provider/drop detail lines 8226 ; canonical extract `src/games/dddhd/world-facts.json:908`.
+- `dddhd:treasure:sora:la-cite-des-cloches:049` — `src/games/dddhd/content.json:8229`; treasures; caveat/provider/drop detail lines 8242 ; canonical extract `src/games/dddhd/world-facts.json:916`.
+- `dddhd:treasure:riku:la-cite-des-cloches:001` — `src/games/dddhd/content.json:8245`; treasures; caveat/provider/drop detail lines 8258 ; canonical extract `src/games/dddhd/world-facts.json:924`.
+- `dddhd:treasure:riku:la-cite-des-cloches:002` — `src/games/dddhd/content.json:8261`; treasures; caveat/provider/drop detail lines 8274 ; canonical extract `src/games/dddhd/world-facts.json:932`.
+- `dddhd:treasure:riku:la-cite-des-cloches:003` — `src/games/dddhd/content.json:8277`; treasures; caveat/provider/drop detail lines 8290 ; canonical extract `src/games/dddhd/world-facts.json:940`.
+- `dddhd:treasure:riku:la-cite-des-cloches:004` — `src/games/dddhd/content.json:8293`; treasures; caveat/provider/drop detail lines 8306 ; canonical extract `src/games/dddhd/world-facts.json:948`.
+- `dddhd:treasure:riku:la-cite-des-cloches:005` — `src/games/dddhd/content.json:8309`; treasures; caveat/provider/drop detail lines 8322 ; canonical extract `src/games/dddhd/world-facts.json:956`.
+- `dddhd:treasure:riku:la-cite-des-cloches:006` — `src/games/dddhd/content.json:8325`; treasures; caveat/provider/drop detail lines 8338 ; canonical extract `src/games/dddhd/world-facts.json:964`.
+- `dddhd:treasure:riku:la-cite-des-cloches:007` — `src/games/dddhd/content.json:8341`; treasures; caveat/provider/drop detail lines 8354 ; canonical extract `src/games/dddhd/world-facts.json:972`.
+- `dddhd:treasure:riku:la-cite-des-cloches:008` — `src/games/dddhd/content.json:8357`; treasures; caveat/provider/drop detail lines 8370 ; canonical extract `src/games/dddhd/world-facts.json:980`.
+- `dddhd:treasure:riku:la-cite-des-cloches:009` — `src/games/dddhd/content.json:8373`; treasures; caveat/provider/drop detail lines 8386 ; canonical extract `src/games/dddhd/world-facts.json:988`.
+- `dddhd:treasure:riku:la-cite-des-cloches:010` — `src/games/dddhd/content.json:8389`; treasures; caveat/provider/drop detail lines 8402 ; canonical extract `src/games/dddhd/world-facts.json:996`.
+- `dddhd:treasure:riku:la-cite-des-cloches:011` — `src/games/dddhd/content.json:8405`; treasures; caveat/provider/drop detail lines 8418 ; canonical extract `src/games/dddhd/world-facts.json:1004`.
+- `dddhd:treasure:riku:la-cite-des-cloches:012` — `src/games/dddhd/content.json:8421`; treasures; caveat/provider/drop detail lines 8434 ; canonical extract `src/games/dddhd/world-facts.json:1012`.
+- `dddhd:treasure:riku:la-cite-des-cloches:013` — `src/games/dddhd/content.json:8437`; treasures; caveat/provider/drop detail lines 8450 ; canonical extract `src/games/dddhd/world-facts.json:1020`.
+- `dddhd:treasure:riku:la-cite-des-cloches:014` — `src/games/dddhd/content.json:8453`; treasures; caveat/provider/drop detail lines 8466 ; canonical extract `src/games/dddhd/world-facts.json:1028`.
+- `dddhd:treasure:riku:la-cite-des-cloches:015` — `src/games/dddhd/content.json:8469`; treasures; caveat/provider/drop detail lines 8482 ; canonical extract `src/games/dddhd/world-facts.json:1036`.
+- `dddhd:treasure:riku:la-cite-des-cloches:016` — `src/games/dddhd/content.json:8485`; treasures; caveat/provider/drop detail lines 8498 ; canonical extract `src/games/dddhd/world-facts.json:1044`.
+- `dddhd:treasure:riku:la-cite-des-cloches:017` — `src/games/dddhd/content.json:8501`; treasures; caveat/provider/drop detail lines 8514 ; canonical extract `src/games/dddhd/world-facts.json:1052`.
+- `dddhd:treasure:riku:la-cite-des-cloches:018` — `src/games/dddhd/content.json:8517`; treasures; caveat/provider/drop detail lines 8530 ; canonical extract `src/games/dddhd/world-facts.json:1060`.
+- `dddhd:treasure:riku:la-cite-des-cloches:019` — `src/games/dddhd/content.json:8533`; treasures; caveat/provider/drop detail lines 8546 ; canonical extract `src/games/dddhd/world-facts.json:1068`.
+- `dddhd:treasure:riku:la-cite-des-cloches:020` — `src/games/dddhd/content.json:8549`; treasures; caveat/provider/drop detail lines 8562 ; canonical extract `src/games/dddhd/world-facts.json:1076`.
+- `dddhd:treasure:riku:la-cite-des-cloches:021` — `src/games/dddhd/content.json:8565`; treasures; caveat/provider/drop detail lines 8578 ; canonical extract `src/games/dddhd/world-facts.json:1084`.
+- `dddhd:treasure:riku:la-cite-des-cloches:022` — `src/games/dddhd/content.json:8581`; treasures; caveat/provider/drop detail lines 8594 ; canonical extract `src/games/dddhd/world-facts.json:1092`.
+- `dddhd:treasure:riku:la-cite-des-cloches:023` — `src/games/dddhd/content.json:8597`; treasures; caveat/provider/drop detail lines 8610 ; canonical extract `src/games/dddhd/world-facts.json:1100`.
+- `dddhd:treasure:riku:la-cite-des-cloches:024` — `src/games/dddhd/content.json:8613`; treasures; caveat/provider/drop detail lines 8626 ; canonical extract `src/games/dddhd/world-facts.json:1108`.
+- `dddhd:treasure:riku:la-cite-des-cloches:025` — `src/games/dddhd/content.json:8629`; treasures; caveat/provider/drop detail lines 8642 ; canonical extract `src/games/dddhd/world-facts.json:1116`.
+- `dddhd:treasure:riku:la-cite-des-cloches:026` — `src/games/dddhd/content.json:8645`; treasures; caveat/provider/drop detail lines 8658 ; canonical extract `src/games/dddhd/world-facts.json:1124`.
+- `dddhd:treasure:riku:la-cite-des-cloches:027` — `src/games/dddhd/content.json:8661`; treasures; caveat/provider/drop detail lines 8674 ; canonical extract `src/games/dddhd/world-facts.json:1132`.
+- `dddhd:treasure:riku:la-cite-des-cloches:028` — `src/games/dddhd/content.json:8677`; treasures; caveat/provider/drop detail lines 8690 ; canonical extract `src/games/dddhd/world-facts.json:1140`.
+- `dddhd:treasure:riku:la-cite-des-cloches:029` — `src/games/dddhd/content.json:8693`; treasures; caveat/provider/drop detail lines 8706 ; canonical extract `src/games/dddhd/world-facts.json:1148`.
+- `dddhd:treasure:riku:la-cite-des-cloches:030` — `src/games/dddhd/content.json:8709`; treasures; caveat/provider/drop detail lines 8722 ; canonical extract `src/games/dddhd/world-facts.json:1156`.
+- `dddhd:treasure:riku:la-cite-des-cloches:031` — `src/games/dddhd/content.json:8725`; treasures; caveat/provider/drop detail lines 8738 ; canonical extract `src/games/dddhd/world-facts.json:1164`.
+- `dddhd:treasure:riku:la-cite-des-cloches:032` — `src/games/dddhd/content.json:8741`; treasures; caveat/provider/drop detail lines 8754 ; canonical extract `src/games/dddhd/world-facts.json:1172`.
+- `dddhd:treasure:riku:la-cite-des-cloches:033` — `src/games/dddhd/content.json:8757`; treasures; caveat/provider/drop detail lines 8770 ; canonical extract `src/games/dddhd/world-facts.json:1180`.
+- `dddhd:treasure:riku:la-cite-des-cloches:034` — `src/games/dddhd/content.json:8773`; treasures; caveat/provider/drop detail lines 8786 ; canonical extract `src/games/dddhd/world-facts.json:1188`.
+- `dddhd:treasure:sora:the-grid:001` — `src/games/dddhd/content.json:8789`; treasures; caveat/provider/drop detail lines 8802 ; canonical extract `src/games/dddhd/world-facts.json:1196`.
+- `dddhd:treasure:sora:the-grid:002` — `src/games/dddhd/content.json:8805`; treasures; caveat/provider/drop detail lines 8818 ; canonical extract `src/games/dddhd/world-facts.json:1204`.
+- `dddhd:treasure:sora:the-grid:003` — `src/games/dddhd/content.json:8821`; treasures; caveat/provider/drop detail lines 8834 ; canonical extract `src/games/dddhd/world-facts.json:1212`.
+- `dddhd:treasure:sora:the-grid:004` — `src/games/dddhd/content.json:8837`; treasures; caveat/provider/drop detail lines 8850 ; canonical extract `src/games/dddhd/world-facts.json:1220`.
+- `dddhd:treasure:sora:the-grid:005` — `src/games/dddhd/content.json:8853`; treasures; caveat/provider/drop detail lines 8866 ; canonical extract `src/games/dddhd/world-facts.json:1228`.
+- `dddhd:treasure:sora:the-grid:007` — `src/games/dddhd/content.json:8869`; treasures; caveat/provider/drop detail lines 8882 ; canonical extract `src/games/dddhd/world-facts.json:1244`.
+- `dddhd:treasure:sora:the-grid:008` — `src/games/dddhd/content.json:8885`; treasures; caveat/provider/drop detail lines 8898 ; canonical extract `src/games/dddhd/world-facts.json:1252`.
+- `dddhd:treasure:sora:the-grid:009` — `src/games/dddhd/content.json:8901`; treasures; caveat/provider/drop detail lines 8914 ; canonical extract `src/games/dddhd/world-facts.json:1260`.
+- `dddhd:treasure:sora:the-grid:010` — `src/games/dddhd/content.json:8917`; treasures; caveat/provider/drop detail lines 8930 ; canonical extract `src/games/dddhd/world-facts.json:1268`.
+- `dddhd:treasure:sora:the-grid:011` — `src/games/dddhd/content.json:8933`; treasures; caveat/provider/drop detail lines 8946 ; canonical extract `src/games/dddhd/world-facts.json:1276`.
+- `dddhd:treasure:sora:the-grid:012` — `src/games/dddhd/content.json:8949`; treasures; caveat/provider/drop detail lines 8962 ; canonical extract `src/games/dddhd/world-facts.json:1284`.
+- `dddhd:treasure:sora:the-grid:013` — `src/games/dddhd/content.json:8965`; treasures; caveat/provider/drop detail lines 8978 ; canonical extract `src/games/dddhd/world-facts.json:1292`.
+- `dddhd:treasure:sora:the-grid:014` — `src/games/dddhd/content.json:8981`; treasures; caveat/provider/drop detail lines 8994 ; canonical extract `src/games/dddhd/world-facts.json:1300`.
+- `dddhd:treasure:sora:the-grid:015` — `src/games/dddhd/content.json:8997`; treasures; caveat/provider/drop detail lines 9010 ; canonical extract `src/games/dddhd/world-facts.json:1308`.
+- `dddhd:treasure:sora:the-grid:016` — `src/games/dddhd/content.json:9013`; treasures; caveat/provider/drop detail lines 9026 ; canonical extract `src/games/dddhd/world-facts.json:1316`.
+- `dddhd:treasure:sora:the-grid:017` — `src/games/dddhd/content.json:9029`; treasures; caveat/provider/drop detail lines 9042 ; canonical extract `src/games/dddhd/world-facts.json:1324`.
+- `dddhd:treasure:sora:the-grid:018` — `src/games/dddhd/content.json:9045`; treasures; caveat/provider/drop detail lines 9058 ; canonical extract `src/games/dddhd/world-facts.json:1332`.
+- `dddhd:treasure:sora:the-grid:019` — `src/games/dddhd/content.json:9061`; treasures; caveat/provider/drop detail lines 9074 ; canonical extract `src/games/dddhd/world-facts.json:1340`.
+- `dddhd:treasure:sora:the-grid:020` — `src/games/dddhd/content.json:9077`; treasures; caveat/provider/drop detail lines 9090 ; canonical extract `src/games/dddhd/world-facts.json:1348`.
+- `dddhd:treasure:sora:the-grid:021` — `src/games/dddhd/content.json:9093`; treasures; caveat/provider/drop detail lines 9106 ; canonical extract `src/games/dddhd/world-facts.json:1356`.
+- `dddhd:treasure:sora:the-grid:022` — `src/games/dddhd/content.json:9109`; treasures; caveat/provider/drop detail lines 9122 ; canonical extract `src/games/dddhd/world-facts.json:1364`.
+- `dddhd:treasure:sora:the-grid:023` — `src/games/dddhd/content.json:9125`; treasures; caveat/provider/drop detail lines 9138 ; canonical extract `src/games/dddhd/world-facts.json:1372`.
+- `dddhd:treasure:sora:the-grid:024` — `src/games/dddhd/content.json:9141`; treasures; caveat/provider/drop detail lines 9154 ; canonical extract `src/games/dddhd/world-facts.json:1380`.
+- `dddhd:treasure:sora:the-grid:025` — `src/games/dddhd/content.json:9157`; treasures; caveat/provider/drop detail lines 9170 ; canonical extract `src/games/dddhd/world-facts.json:1388`.
+- `dddhd:treasure:sora:the-grid:027` — `src/games/dddhd/content.json:9173`; treasures; caveat/provider/drop detail lines 9186 ; canonical extract `src/games/dddhd/world-facts.json:1404`.
+- `dddhd:treasure:sora:the-grid:028` — `src/games/dddhd/content.json:9189`; treasures; caveat/provider/drop detail lines 9202 ; canonical extract `src/games/dddhd/world-facts.json:1412`.
+- `dddhd:treasure:sora:the-grid:029` — `src/games/dddhd/content.json:9205`; treasures; caveat/provider/drop detail lines 9218 ; canonical extract `src/games/dddhd/world-facts.json:1420`.
+- `dddhd:treasure:sora:the-grid:030` — `src/games/dddhd/content.json:9221`; treasures; caveat/provider/drop detail lines 9234 ; canonical extract `src/games/dddhd/world-facts.json:1428`.
+- `dddhd:treasure:sora:the-grid:031` — `src/games/dddhd/content.json:9237`; treasures; caveat/provider/drop detail lines 9250 ; canonical extract `src/games/dddhd/world-facts.json:1436`.
+- `dddhd:treasure:sora:the-grid:032` — `src/games/dddhd/content.json:9253`; treasures; caveat/provider/drop detail lines 9266 ; canonical extract `src/games/dddhd/world-facts.json:1444`.
+- `dddhd:treasure:sora:the-grid:033` — `src/games/dddhd/content.json:9269`; treasures; caveat/provider/drop detail lines 9282 ; canonical extract `src/games/dddhd/world-facts.json:1452`.
+- `dddhd:treasure:sora:the-grid:034` — `src/games/dddhd/content.json:9285`; treasures; caveat/provider/drop detail lines 9298 ; canonical extract `src/games/dddhd/world-facts.json:1460`.
+- `dddhd:treasure:sora:the-grid:035` — `src/games/dddhd/content.json:9301`; treasures; caveat/provider/drop detail lines 9314 ; canonical extract `src/games/dddhd/world-facts.json:1468`.
+- `dddhd:treasure:sora:the-grid:036` — `src/games/dddhd/content.json:9317`; treasures; caveat/provider/drop detail lines 9330 ; canonical extract `src/games/dddhd/world-facts.json:1476`.
+- `dddhd:treasure:sora:the-grid:038` — `src/games/dddhd/content.json:9333`; treasures; caveat/provider/drop detail lines 9346 ; canonical extract `src/games/dddhd/world-facts.json:1492`.
+- `dddhd:treasure:sora:the-grid:039` — `src/games/dddhd/content.json:9349`; treasures; caveat/provider/drop detail lines 9362 ; canonical extract `src/games/dddhd/world-facts.json:1500`.
+- `dddhd:treasure:sora:the-grid:040` — `src/games/dddhd/content.json:9365`; treasures; caveat/provider/drop detail lines 9378 ; canonical extract `src/games/dddhd/world-facts.json:1508`.
+- `dddhd:treasure:sora:the-grid:041` — `src/games/dddhd/content.json:9381`; treasures; caveat/provider/drop detail lines 9394 ; canonical extract `src/games/dddhd/world-facts.json:1516`.
+- `dddhd:treasure:sora:the-grid:042` — `src/games/dddhd/content.json:9397`; treasures; caveat/provider/drop detail lines 9410 ; canonical extract `src/games/dddhd/world-facts.json:1524`.
+- `dddhd:treasure:riku:the-grid:001` — `src/games/dddhd/content.json:9413`; treasures; caveat/provider/drop detail lines 9426 ; canonical extract `src/games/dddhd/world-facts.json:1532`.
+- `dddhd:treasure:riku:the-grid:002` — `src/games/dddhd/content.json:9429`; treasures; caveat/provider/drop detail lines 9442 ; canonical extract `src/games/dddhd/world-facts.json:1540`.
+- `dddhd:treasure:riku:the-grid:003` — `src/games/dddhd/content.json:9445`; treasures; caveat/provider/drop detail lines 9458 ; canonical extract `src/games/dddhd/world-facts.json:1548`.
+- `dddhd:treasure:riku:the-grid:004` — `src/games/dddhd/content.json:9461`; treasures; caveat/provider/drop detail lines 9474 ; canonical extract `src/games/dddhd/world-facts.json:1556`.
+- `dddhd:treasure:riku:the-grid:005` — `src/games/dddhd/content.json:9477`; treasures; caveat/provider/drop detail lines 9490 ; canonical extract `src/games/dddhd/world-facts.json:1564`.
+- `dddhd:treasure:riku:the-grid:006` — `src/games/dddhd/content.json:9493`; treasures; caveat/provider/drop detail lines 9506 ; canonical extract `src/games/dddhd/world-facts.json:1572`.
+- `dddhd:treasure:riku:the-grid:007` — `src/games/dddhd/content.json:9509`; treasures; caveat/provider/drop detail lines 9522 ; canonical extract `src/games/dddhd/world-facts.json:1580`.
+- `dddhd:treasure:riku:the-grid:008` — `src/games/dddhd/content.json:9525`; treasures; caveat/provider/drop detail lines 9538 ; canonical extract `src/games/dddhd/world-facts.json:1588`.
+- `dddhd:treasure:riku:the-grid:009` — `src/games/dddhd/content.json:9541`; treasures; caveat/provider/drop detail lines 9554 ; canonical extract `src/games/dddhd/world-facts.json:1596`.
+- `dddhd:treasure:riku:the-grid:010` — `src/games/dddhd/content.json:9557`; treasures; caveat/provider/drop detail lines 9570 ; canonical extract `src/games/dddhd/world-facts.json:1604`.
+- `dddhd:treasure:riku:the-grid:011` — `src/games/dddhd/content.json:9573`; treasures; caveat/provider/drop detail lines 9586 ; canonical extract `src/games/dddhd/world-facts.json:1612`.
+- `dddhd:treasure:riku:the-grid:012` — `src/games/dddhd/content.json:9589`; treasures; caveat/provider/drop detail lines 9602 ; canonical extract `src/games/dddhd/world-facts.json:1620`.
+- `dddhd:treasure:riku:the-grid:013` — `src/games/dddhd/content.json:9605`; treasures; caveat/provider/drop detail lines 9618 ; canonical extract `src/games/dddhd/world-facts.json:1628`.
+- `dddhd:treasure:riku:the-grid:014` — `src/games/dddhd/content.json:9621`; treasures; caveat/provider/drop detail lines 9634 ; canonical extract `src/games/dddhd/world-facts.json:1636`.
+- `dddhd:treasure:riku:the-grid:015` — `src/games/dddhd/content.json:9637`; treasures; caveat/provider/drop detail lines 9650 ; canonical extract `src/games/dddhd/world-facts.json:1644`.
+- `dddhd:treasure:riku:the-grid:016` — `src/games/dddhd/content.json:9653`; treasures; caveat/provider/drop detail lines 9666 ; canonical extract `src/games/dddhd/world-facts.json:1652`.
+- `dddhd:treasure:riku:the-grid:017` — `src/games/dddhd/content.json:9669`; treasures; caveat/provider/drop detail lines 9682 ; canonical extract `src/games/dddhd/world-facts.json:1660`.
+- `dddhd:treasure:riku:the-grid:018` — `src/games/dddhd/content.json:9685`; treasures; caveat/provider/drop detail lines 9698 ; canonical extract `src/games/dddhd/world-facts.json:1668`.
+- `dddhd:treasure:riku:the-grid:019` — `src/games/dddhd/content.json:9701`; treasures; caveat/provider/drop detail lines 9714 ; canonical extract `src/games/dddhd/world-facts.json:1676`.
+- `dddhd:treasure:riku:the-grid:020` — `src/games/dddhd/content.json:9717`; treasures; caveat/provider/drop detail lines 9730 ; canonical extract `src/games/dddhd/world-facts.json:1684`.
+- `dddhd:treasure:riku:the-grid:021` — `src/games/dddhd/content.json:9733`; treasures; caveat/provider/drop detail lines 9746 ; canonical extract `src/games/dddhd/world-facts.json:1692`.
+- `dddhd:treasure:riku:the-grid:022` — `src/games/dddhd/content.json:9749`; treasures; caveat/provider/drop detail lines 9762 ; canonical extract `src/games/dddhd/world-facts.json:1700`.
+- `dddhd:treasure:riku:the-grid:023` — `src/games/dddhd/content.json:9765`; treasures; caveat/provider/drop detail lines 9778 ; canonical extract `src/games/dddhd/world-facts.json:1708`.
+- `dddhd:treasure:riku:the-grid:024` — `src/games/dddhd/content.json:9781`; treasures; caveat/provider/drop detail lines 9794 ; canonical extract `src/games/dddhd/world-facts.json:1716`.
+- `dddhd:treasure:riku:the-grid:025` — `src/games/dddhd/content.json:9797`; treasures; caveat/provider/drop detail lines 9810 ; canonical extract `src/games/dddhd/world-facts.json:1724`.
+- `dddhd:treasure:riku:the-grid:026` — `src/games/dddhd/content.json:9813`; treasures; caveat/provider/drop detail lines 9826 ; canonical extract `src/games/dddhd/world-facts.json:1732`.
+- `dddhd:treasure:riku:the-grid:027` — `src/games/dddhd/content.json:9829`; treasures; caveat/provider/drop detail lines 9842 ; canonical extract `src/games/dddhd/world-facts.json:1740`.
+- `dddhd:treasure:riku:the-grid:028` — `src/games/dddhd/content.json:9845`; treasures; caveat/provider/drop detail lines 9858 ; canonical extract `src/games/dddhd/world-facts.json:1748`.
+- `dddhd:treasure:riku:the-grid:029` — `src/games/dddhd/content.json:9861`; treasures; caveat/provider/drop detail lines 9874 ; canonical extract `src/games/dddhd/world-facts.json:1756`.
+- `dddhd:treasure:riku:the-grid:030` — `src/games/dddhd/content.json:9877`; treasures; caveat/provider/drop detail lines 9890 ; canonical extract `src/games/dddhd/world-facts.json:1764`.
+- `dddhd:treasure:riku:the-grid:031` — `src/games/dddhd/content.json:9893`; treasures; caveat/provider/drop detail lines 9906 ; canonical extract `src/games/dddhd/world-facts.json:1772`.
+- `dddhd:treasure:riku:the-grid:032` — `src/games/dddhd/content.json:9909`; treasures; caveat/provider/drop detail lines 9922 ; canonical extract `src/games/dddhd/world-facts.json:1780`.
+- `dddhd:treasure:riku:the-grid:033` — `src/games/dddhd/content.json:9925`; treasures; caveat/provider/drop detail lines 9938 ; canonical extract `src/games/dddhd/world-facts.json:1788`.
+- `dddhd:treasure:riku:the-grid:034` — `src/games/dddhd/content.json:9941`; treasures; caveat/provider/drop detail lines 9954 ; canonical extract `src/games/dddhd/world-facts.json:1796`.
+- `dddhd:treasure:riku:the-grid:035` — `src/games/dddhd/content.json:9957`; treasures; caveat/provider/drop detail lines 9970 ; canonical extract `src/games/dddhd/world-facts.json:1804`.
+- `dddhd:treasure:riku:the-grid:037` — `src/games/dddhd/content.json:9973`; treasures; caveat/provider/drop detail lines 9986 ; canonical extract `src/games/dddhd/world-facts.json:1820`.
+- `dddhd:treasure:riku:the-grid:038` — `src/games/dddhd/content.json:9989`; treasures; caveat/provider/drop detail lines 10002 ; canonical extract `src/games/dddhd/world-facts.json:1828`.
+- `dddhd:treasure:riku:the-grid:039` — `src/games/dddhd/content.json:10005`; treasures; caveat/provider/drop detail lines 10018 ; canonical extract `src/games/dddhd/world-facts.json:1836`.
+- `dddhd:treasure:riku:the-grid:040` — `src/games/dddhd/content.json:10021`; treasures; caveat/provider/drop detail lines 10034 ; canonical extract `src/games/dddhd/world-facts.json:1844`.
+- `dddhd:treasure:riku:the-grid:041` — `src/games/dddhd/content.json:10037`; treasures; caveat/provider/drop detail lines 10050 ; canonical extract `src/games/dddhd/world-facts.json:1852`.
+- `dddhd:treasure:riku:the-grid:042` — `src/games/dddhd/content.json:10053`; treasures; caveat/provider/drop detail lines 10066 ; canonical extract `src/games/dddhd/world-facts.json:1860`.
+- `dddhd:treasure:riku:the-grid:043` — `src/games/dddhd/content.json:10069`; treasures; caveat/provider/drop detail lines 10082 ; canonical extract `src/games/dddhd/world-facts.json:1868`.
+- `dddhd:treasure:riku:the-grid:044` — `src/games/dddhd/content.json:10085`; treasures; caveat/provider/drop detail lines 10098 ; canonical extract `src/games/dddhd/world-facts.json:1876`.
+- `dddhd:treasure:riku:the-grid:045` — `src/games/dddhd/content.json:10101`; treasures; caveat/provider/drop detail lines 10114 ; canonical extract `src/games/dddhd/world-facts.json:1884`.
+- `dddhd:treasure:sora:prankster-s-paradise:002` — `src/games/dddhd/content.json:10117`; treasures; caveat/provider/drop detail lines 10130 ; canonical extract `src/games/dddhd/world-facts.json:1900`.
+- `dddhd:treasure:sora:prankster-s-paradise:003` — `src/games/dddhd/content.json:10133`; treasures; caveat/provider/drop detail lines 10146 ; canonical extract `src/games/dddhd/world-facts.json:1908`.
+- `dddhd:treasure:sora:prankster-s-paradise:004` — `src/games/dddhd/content.json:10149`; treasures; caveat/provider/drop detail lines 10162 ; canonical extract `src/games/dddhd/world-facts.json:1916`.
+- `dddhd:treasure:sora:prankster-s-paradise:006` — `src/games/dddhd/content.json:10165`; treasures; caveat/provider/drop detail lines 10178 ; canonical extract `src/games/dddhd/world-facts.json:1932`.
+- `dddhd:treasure:sora:prankster-s-paradise:007` — `src/games/dddhd/content.json:10181`; treasures; caveat/provider/drop detail lines 10194 ; canonical extract `src/games/dddhd/world-facts.json:1940`.
+- `dddhd:treasure:sora:prankster-s-paradise:008` — `src/games/dddhd/content.json:10197`; treasures; caveat/provider/drop detail lines 10210 ; canonical extract `src/games/dddhd/world-facts.json:1948`.
+- `dddhd:treasure:sora:prankster-s-paradise:009` — `src/games/dddhd/content.json:10213`; treasures; caveat/provider/drop detail lines 10226 ; canonical extract `src/games/dddhd/world-facts.json:1956`.
+- `dddhd:treasure:sora:prankster-s-paradise:010` — `src/games/dddhd/content.json:10229`; treasures; caveat/provider/drop detail lines 10242 ; canonical extract `src/games/dddhd/world-facts.json:1964`.
+- `dddhd:treasure:sora:prankster-s-paradise:011` — `src/games/dddhd/content.json:10245`; treasures; caveat/provider/drop detail lines 10258 ; canonical extract `src/games/dddhd/world-facts.json:1972`.
+- `dddhd:treasure:sora:prankster-s-paradise:012` — `src/games/dddhd/content.json:10261`; treasures; caveat/provider/drop detail lines 10274 ; canonical extract `src/games/dddhd/world-facts.json:1980`.
+- `dddhd:treasure:sora:prankster-s-paradise:013` — `src/games/dddhd/content.json:10277`; treasures; caveat/provider/drop detail lines 10290 ; canonical extract `src/games/dddhd/world-facts.json:1988`.
+- `dddhd:treasure:sora:prankster-s-paradise:014` — `src/games/dddhd/content.json:10293`; treasures; caveat/provider/drop detail lines 10306 ; canonical extract `src/games/dddhd/world-facts.json:1996`.
+- `dddhd:treasure:sora:prankster-s-paradise:015` — `src/games/dddhd/content.json:10309`; treasures; caveat/provider/drop detail lines 10322 ; canonical extract `src/games/dddhd/world-facts.json:2004`.
+- `dddhd:treasure:sora:prankster-s-paradise:016` — `src/games/dddhd/content.json:10325`; treasures; caveat/provider/drop detail lines 10338 ; canonical extract `src/games/dddhd/world-facts.json:2012`.
+- `dddhd:treasure:sora:prankster-s-paradise:017` — `src/games/dddhd/content.json:10341`; treasures; caveat/provider/drop detail lines 10354 ; canonical extract `src/games/dddhd/world-facts.json:2020`.
+- `dddhd:treasure:sora:prankster-s-paradise:018` — `src/games/dddhd/content.json:10357`; treasures; caveat/provider/drop detail lines 10370 ; canonical extract `src/games/dddhd/world-facts.json:2028`.
+- `dddhd:treasure:sora:prankster-s-paradise:019` — `src/games/dddhd/content.json:10373`; treasures; caveat/provider/drop detail lines 10386 ; canonical extract `src/games/dddhd/world-facts.json:2036`.
+- `dddhd:treasure:sora:prankster-s-paradise:020` — `src/games/dddhd/content.json:10389`; treasures; caveat/provider/drop detail lines 10402 ; canonical extract `src/games/dddhd/world-facts.json:2044`.
+- `dddhd:treasure:sora:prankster-s-paradise:021` — `src/games/dddhd/content.json:10405`; treasures; caveat/provider/drop detail lines 10418 ; canonical extract `src/games/dddhd/world-facts.json:2052`.
+- `dddhd:treasure:sora:prankster-s-paradise:022` — `src/games/dddhd/content.json:10421`; treasures; caveat/provider/drop detail lines 10434 ; canonical extract `src/games/dddhd/world-facts.json:2060`.
+- `dddhd:treasure:sora:prankster-s-paradise:023` — `src/games/dddhd/content.json:10437`; treasures; caveat/provider/drop detail lines 10450 ; canonical extract `src/games/dddhd/world-facts.json:2068`.
+- `dddhd:treasure:sora:prankster-s-paradise:024` — `src/games/dddhd/content.json:10453`; treasures; caveat/provider/drop detail lines 10466 ; canonical extract `src/games/dddhd/world-facts.json:2076`.
+- `dddhd:treasure:sora:prankster-s-paradise:025` — `src/games/dddhd/content.json:10469`; treasures; caveat/provider/drop detail lines 10482 ; canonical extract `src/games/dddhd/world-facts.json:2084`.
+- `dddhd:treasure:sora:prankster-s-paradise:026` — `src/games/dddhd/content.json:10485`; treasures; caveat/provider/drop detail lines 10498 ; canonical extract `src/games/dddhd/world-facts.json:2092`.
+- `dddhd:treasure:sora:prankster-s-paradise:027` — `src/games/dddhd/content.json:10501`; treasures; caveat/provider/drop detail lines 10514 ; canonical extract `src/games/dddhd/world-facts.json:2100`.
+- `dddhd:treasure:sora:prankster-s-paradise:028` — `src/games/dddhd/content.json:10517`; treasures; caveat/provider/drop detail lines 10530 ; canonical extract `src/games/dddhd/world-facts.json:2108`.
+- `dddhd:treasure:sora:prankster-s-paradise:029` — `src/games/dddhd/content.json:10533`; treasures; caveat/provider/drop detail lines 10546 ; canonical extract `src/games/dddhd/world-facts.json:2116`.
+- `dddhd:treasure:sora:prankster-s-paradise:031` — `src/games/dddhd/content.json:10549`; treasures; caveat/provider/drop detail lines 10562 ; canonical extract `src/games/dddhd/world-facts.json:2132`.
+- `dddhd:treasure:riku:prankster-s-paradise:001` — `src/games/dddhd/content.json:10565`; treasures; caveat/provider/drop detail lines 10578 ; canonical extract `src/games/dddhd/world-facts.json:2140`.
+- `dddhd:treasure:riku:prankster-s-paradise:002` — `src/games/dddhd/content.json:10581`; treasures; caveat/provider/drop detail lines 10594 ; canonical extract `src/games/dddhd/world-facts.json:2148`.
+- `dddhd:treasure:riku:prankster-s-paradise:003` — `src/games/dddhd/content.json:10597`; treasures; caveat/provider/drop detail lines 10610 ; canonical extract `src/games/dddhd/world-facts.json:2156`.
+- `dddhd:treasure:riku:prankster-s-paradise:004` — `src/games/dddhd/content.json:10613`; treasures; caveat/provider/drop detail lines 10626 ; canonical extract `src/games/dddhd/world-facts.json:2164`.
+- `dddhd:treasure:riku:prankster-s-paradise:005` — `src/games/dddhd/content.json:10629`; treasures; caveat/provider/drop detail lines 10642 ; canonical extract `src/games/dddhd/world-facts.json:2172`.
+- `dddhd:treasure:riku:prankster-s-paradise:006` — `src/games/dddhd/content.json:10645`; treasures; caveat/provider/drop detail lines 10658 ; canonical extract `src/games/dddhd/world-facts.json:2180`.
+- `dddhd:treasure:riku:prankster-s-paradise:008` — `src/games/dddhd/content.json:10661`; treasures; caveat/provider/drop detail lines 10674 ; canonical extract `src/games/dddhd/world-facts.json:2196`.
+- `dddhd:treasure:riku:prankster-s-paradise:009` — `src/games/dddhd/content.json:10677`; treasures; caveat/provider/drop detail lines 10690 ; canonical extract `src/games/dddhd/world-facts.json:2204`.
+- `dddhd:treasure:riku:prankster-s-paradise:010` — `src/games/dddhd/content.json:10693`; treasures; caveat/provider/drop detail lines 10706 ; canonical extract `src/games/dddhd/world-facts.json:2212`.
+- `dddhd:treasure:riku:prankster-s-paradise:011` — `src/games/dddhd/content.json:10709`; treasures; caveat/provider/drop detail lines 10722 ; canonical extract `src/games/dddhd/world-facts.json:2220`.
+- `dddhd:treasure:riku:prankster-s-paradise:012` — `src/games/dddhd/content.json:10725`; treasures; caveat/provider/drop detail lines 10738 ; canonical extract `src/games/dddhd/world-facts.json:2228`.
+- `dddhd:treasure:riku:prankster-s-paradise:013` — `src/games/dddhd/content.json:10741`; treasures; caveat/provider/drop detail lines 10754 ; canonical extract `src/games/dddhd/world-facts.json:2236`.
+- `dddhd:treasure:riku:prankster-s-paradise:014` — `src/games/dddhd/content.json:10757`; treasures; caveat/provider/drop detail lines 10770 ; canonical extract `src/games/dddhd/world-facts.json:2244`.
+- `dddhd:treasure:riku:prankster-s-paradise:015` — `src/games/dddhd/content.json:10773`; treasures; caveat/provider/drop detail lines 10786 ; canonical extract `src/games/dddhd/world-facts.json:2252`.
+- `dddhd:treasure:riku:prankster-s-paradise:016` — `src/games/dddhd/content.json:10789`; treasures; caveat/provider/drop detail lines 10802 ; canonical extract `src/games/dddhd/world-facts.json:2260`.
+- `dddhd:treasure:riku:prankster-s-paradise:018` — `src/games/dddhd/content.json:10805`; treasures; caveat/provider/drop detail lines 10818 ; canonical extract `src/games/dddhd/world-facts.json:2276`.
+- `dddhd:treasure:riku:prankster-s-paradise:019` — `src/games/dddhd/content.json:10821`; treasures; caveat/provider/drop detail lines 10834 ; canonical extract `src/games/dddhd/world-facts.json:2284`.
+- `dddhd:treasure:riku:prankster-s-paradise:020` — `src/games/dddhd/content.json:10837`; treasures; caveat/provider/drop detail lines 10850 ; canonical extract `src/games/dddhd/world-facts.json:2292`.
+- `dddhd:treasure:riku:prankster-s-paradise:021` — `src/games/dddhd/content.json:10853`; treasures; caveat/provider/drop detail lines 10866 ; canonical extract `src/games/dddhd/world-facts.json:2300`.
+- `dddhd:treasure:riku:prankster-s-paradise:022` — `src/games/dddhd/content.json:10869`; treasures; caveat/provider/drop detail lines 10882 ; canonical extract `src/games/dddhd/world-facts.json:2308`.
+- `dddhd:treasure:sora:country-of-the-musketeers:001` — `src/games/dddhd/content.json:10885`; treasures; caveat/provider/drop detail lines 10898 ; canonical extract `src/games/dddhd/world-facts.json:2316`.
+- `dddhd:treasure:sora:country-of-the-musketeers:002` — `src/games/dddhd/content.json:10901`; treasures; caveat/provider/drop detail lines 10914 ; canonical extract `src/games/dddhd/world-facts.json:2324`.
+- `dddhd:treasure:sora:country-of-the-musketeers:003` — `src/games/dddhd/content.json:10917`; treasures; caveat/provider/drop detail lines 10930 ; canonical extract `src/games/dddhd/world-facts.json:2332`.
+- `dddhd:treasure:sora:country-of-the-musketeers:004` — `src/games/dddhd/content.json:10933`; treasures; caveat/provider/drop detail lines 10946 ; canonical extract `src/games/dddhd/world-facts.json:2340`.
+- `dddhd:treasure:sora:country-of-the-musketeers:005` — `src/games/dddhd/content.json:10949`; treasures; caveat/provider/drop detail lines 10962 ; canonical extract `src/games/dddhd/world-facts.json:2348`.
+- `dddhd:treasure:sora:country-of-the-musketeers:006` — `src/games/dddhd/content.json:10965`; treasures; caveat/provider/drop detail lines 10978 ; canonical extract `src/games/dddhd/world-facts.json:2356`.
+- `dddhd:treasure:sora:country-of-the-musketeers:007` — `src/games/dddhd/content.json:10981`; treasures; caveat/provider/drop detail lines 10994 ; canonical extract `src/games/dddhd/world-facts.json:2364`.
+- `dddhd:treasure:sora:country-of-the-musketeers:008` — `src/games/dddhd/content.json:10997`; treasures; caveat/provider/drop detail lines 11010 ; canonical extract `src/games/dddhd/world-facts.json:2372`.
+- `dddhd:treasure:sora:country-of-the-musketeers:009` — `src/games/dddhd/content.json:11013`; treasures; caveat/provider/drop detail lines 11026 ; canonical extract `src/games/dddhd/world-facts.json:2380`.
+- `dddhd:treasure:sora:country-of-the-musketeers:010` — `src/games/dddhd/content.json:11029`; treasures; caveat/provider/drop detail lines 11042 ; canonical extract `src/games/dddhd/world-facts.json:2388`.
+- `dddhd:treasure:sora:country-of-the-musketeers:011` — `src/games/dddhd/content.json:11045`; treasures; caveat/provider/drop detail lines 11058 ; canonical extract `src/games/dddhd/world-facts.json:2396`.
+- `dddhd:treasure:sora:country-of-the-musketeers:012` — `src/games/dddhd/content.json:11061`; treasures; caveat/provider/drop detail lines 11074 ; canonical extract `src/games/dddhd/world-facts.json:2404`.
+- `dddhd:treasure:sora:country-of-the-musketeers:013` — `src/games/dddhd/content.json:11077`; treasures; caveat/provider/drop detail lines 11090 ; canonical extract `src/games/dddhd/world-facts.json:2412`.
+- `dddhd:treasure:sora:country-of-the-musketeers:014` — `src/games/dddhd/content.json:11093`; treasures; caveat/provider/drop detail lines 11106 ; canonical extract `src/games/dddhd/world-facts.json:2420`.
+- `dddhd:treasure:sora:country-of-the-musketeers:015` — `src/games/dddhd/content.json:11109`; treasures; caveat/provider/drop detail lines 11122 ; canonical extract `src/games/dddhd/world-facts.json:2428`.
+- `dddhd:treasure:sora:country-of-the-musketeers:016` — `src/games/dddhd/content.json:11125`; treasures; caveat/provider/drop detail lines 11138 ; canonical extract `src/games/dddhd/world-facts.json:2436`.
+- `dddhd:treasure:sora:country-of-the-musketeers:017` — `src/games/dddhd/content.json:11141`; treasures; caveat/provider/drop detail lines 11154 ; canonical extract `src/games/dddhd/world-facts.json:2444`.
+- `dddhd:treasure:sora:country-of-the-musketeers:018` — `src/games/dddhd/content.json:11157`; treasures; caveat/provider/drop detail lines 11170 ; canonical extract `src/games/dddhd/world-facts.json:2452`.
+- `dddhd:treasure:sora:country-of-the-musketeers:019` — `src/games/dddhd/content.json:11173`; treasures; caveat/provider/drop detail lines 11186 ; canonical extract `src/games/dddhd/world-facts.json:2460`.
+- `dddhd:treasure:sora:country-of-the-musketeers:020` — `src/games/dddhd/content.json:11189`; treasures; caveat/provider/drop detail lines 11202 ; canonical extract `src/games/dddhd/world-facts.json:2468`.
+- `dddhd:treasure:sora:country-of-the-musketeers:021` — `src/games/dddhd/content.json:11205`; treasures; caveat/provider/drop detail lines 11218 ; canonical extract `src/games/dddhd/world-facts.json:2476`.
+- `dddhd:treasure:sora:country-of-the-musketeers:022` — `src/games/dddhd/content.json:11221`; treasures; caveat/provider/drop detail lines 11234 ; canonical extract `src/games/dddhd/world-facts.json:2484`.
+- `dddhd:treasure:sora:country-of-the-musketeers:023` — `src/games/dddhd/content.json:11237`; treasures; caveat/provider/drop detail lines 11250 ; canonical extract `src/games/dddhd/world-facts.json:2492`.
+- `dddhd:treasure:sora:country-of-the-musketeers:024` — `src/games/dddhd/content.json:11253`; treasures; caveat/provider/drop detail lines 11266 ; canonical extract `src/games/dddhd/world-facts.json:2500`.
+- `dddhd:treasure:sora:country-of-the-musketeers:025` — `src/games/dddhd/content.json:11269`; treasures; caveat/provider/drop detail lines 11282 ; canonical extract `src/games/dddhd/world-facts.json:2508`.
+- `dddhd:treasure:sora:country-of-the-musketeers:026` — `src/games/dddhd/content.json:11285`; treasures; caveat/provider/drop detail lines 11298 ; canonical extract `src/games/dddhd/world-facts.json:2516`.
+- `dddhd:treasure:sora:country-of-the-musketeers:027` — `src/games/dddhd/content.json:11301`; treasures; caveat/provider/drop detail lines 11314 ; canonical extract `src/games/dddhd/world-facts.json:2524`.
+- `dddhd:treasure:sora:country-of-the-musketeers:028` — `src/games/dddhd/content.json:11317`; treasures; caveat/provider/drop detail lines 11330 ; canonical extract `src/games/dddhd/world-facts.json:2532`.
+- `dddhd:treasure:sora:country-of-the-musketeers:030` — `src/games/dddhd/content.json:11333`; treasures; caveat/provider/drop detail lines 11346 ; canonical extract `src/games/dddhd/world-facts.json:2548`.
+- `dddhd:treasure:sora:country-of-the-musketeers:031` — `src/games/dddhd/content.json:11349`; treasures; caveat/provider/drop detail lines 11362 ; canonical extract `src/games/dddhd/world-facts.json:2556`.
+- `dddhd:treasure:riku:country-of-the-musketeers:001` — `src/games/dddhd/content.json:11365`; treasures; caveat/provider/drop detail lines 11378 ; canonical extract `src/games/dddhd/world-facts.json:2572`.
+- `dddhd:treasure:riku:country-of-the-musketeers:002` — `src/games/dddhd/content.json:11381`; treasures; caveat/provider/drop detail lines 11394 ; canonical extract `src/games/dddhd/world-facts.json:2580`.
+- `dddhd:treasure:riku:country-of-the-musketeers:003` — `src/games/dddhd/content.json:11397`; treasures; caveat/provider/drop detail lines 11410 ; canonical extract `src/games/dddhd/world-facts.json:2588`.
+- `dddhd:treasure:riku:country-of-the-musketeers:005` — `src/games/dddhd/content.json:11413`; treasures; caveat/provider/drop detail lines 11426 ; canonical extract `src/games/dddhd/world-facts.json:2604`.
+- `dddhd:treasure:riku:country-of-the-musketeers:006` — `src/games/dddhd/content.json:11429`; treasures; caveat/provider/drop detail lines 11442 ; canonical extract `src/games/dddhd/world-facts.json:2612`.
+- `dddhd:treasure:riku:country-of-the-musketeers:007` — `src/games/dddhd/content.json:11445`; treasures; caveat/provider/drop detail lines 11458 ; canonical extract `src/games/dddhd/world-facts.json:2620`.
+- `dddhd:treasure:riku:country-of-the-musketeers:008` — `src/games/dddhd/content.json:11461`; treasures; caveat/provider/drop detail lines 11474 ; canonical extract `src/games/dddhd/world-facts.json:2628`.
+- `dddhd:treasure:riku:country-of-the-musketeers:009` — `src/games/dddhd/content.json:11477`; treasures; caveat/provider/drop detail lines 11490 ; canonical extract `src/games/dddhd/world-facts.json:2636`.
+- `dddhd:treasure:riku:country-of-the-musketeers:011` — `src/games/dddhd/content.json:11493`; treasures; caveat/provider/drop detail lines 11506 ; canonical extract `src/games/dddhd/world-facts.json:2652`.
+- `dddhd:treasure:riku:country-of-the-musketeers:012` — `src/games/dddhd/content.json:11509`; treasures; caveat/provider/drop detail lines 11522 ; canonical extract `src/games/dddhd/world-facts.json:2660`.
+- `dddhd:treasure:riku:country-of-the-musketeers:013` — `src/games/dddhd/content.json:11525`; treasures; caveat/provider/drop detail lines 11538 ; canonical extract `src/games/dddhd/world-facts.json:2668`.
+- `dddhd:treasure:riku:country-of-the-musketeers:014` — `src/games/dddhd/content.json:11541`; treasures; caveat/provider/drop detail lines 11554 ; canonical extract `src/games/dddhd/world-facts.json:2676`.
+- `dddhd:treasure:riku:country-of-the-musketeers:015` — `src/games/dddhd/content.json:11557`; treasures; caveat/provider/drop detail lines 11570 ; canonical extract `src/games/dddhd/world-facts.json:2684`.
+- `dddhd:treasure:riku:country-of-the-musketeers:016` — `src/games/dddhd/content.json:11573`; treasures; caveat/provider/drop detail lines 11586 ; canonical extract `src/games/dddhd/world-facts.json:2692`.
+- `dddhd:treasure:riku:country-of-the-musketeers:017` — `src/games/dddhd/content.json:11589`; treasures; caveat/provider/drop detail lines 11602 ; canonical extract `src/games/dddhd/world-facts.json:2700`.
+- `dddhd:treasure:riku:country-of-the-musketeers:018` — `src/games/dddhd/content.json:11605`; treasures; caveat/provider/drop detail lines 11618 ; canonical extract `src/games/dddhd/world-facts.json:2708`.
+- `dddhd:treasure:riku:country-of-the-musketeers:020` — `src/games/dddhd/content.json:11621`; treasures; caveat/provider/drop detail lines 11634 ; canonical extract `src/games/dddhd/world-facts.json:2724`.
+- `dddhd:treasure:riku:country-of-the-musketeers:021` — `src/games/dddhd/content.json:11637`; treasures; caveat/provider/drop detail lines 11650 ; canonical extract `src/games/dddhd/world-facts.json:2732`.
+- `dddhd:treasure:riku:country-of-the-musketeers:022` — `src/games/dddhd/content.json:11653`; treasures; caveat/provider/drop detail lines 11666 ; canonical extract `src/games/dddhd/world-facts.json:2740`.
+- `dddhd:treasure:riku:country-of-the-musketeers:023` — `src/games/dddhd/content.json:11669`; treasures; caveat/provider/drop detail lines 11682 ; canonical extract `src/games/dddhd/world-facts.json:2748`.
+- `dddhd:treasure:riku:country-of-the-musketeers:024` — `src/games/dddhd/content.json:11685`; treasures; caveat/provider/drop detail lines 11698 ; canonical extract `src/games/dddhd/world-facts.json:2756`.
+- `dddhd:treasure:riku:country-of-the-musketeers:025` — `src/games/dddhd/content.json:11701`; treasures; caveat/provider/drop detail lines 11714 ; canonical extract `src/games/dddhd/world-facts.json:2764`.
+- `dddhd:treasure:riku:country-of-the-musketeers:026` — `src/games/dddhd/content.json:11717`; treasures; caveat/provider/drop detail lines 11730 ; canonical extract `src/games/dddhd/world-facts.json:2772`.
+- `dddhd:treasure:riku:country-of-the-musketeers:027` — `src/games/dddhd/content.json:11733`; treasures; caveat/provider/drop detail lines 11746 ; canonical extract `src/games/dddhd/world-facts.json:2780`.
+- `dddhd:treasure:riku:country-of-the-musketeers:028` — `src/games/dddhd/content.json:11749`; treasures; caveat/provider/drop detail lines 11762 ; canonical extract `src/games/dddhd/world-facts.json:2788`.
+- `dddhd:treasure:riku:country-of-the-musketeers:029` — `src/games/dddhd/content.json:11765`; treasures; caveat/provider/drop detail lines 11778 ; canonical extract `src/games/dddhd/world-facts.json:2796`.
+- `dddhd:treasure:riku:country-of-the-musketeers:030` — `src/games/dddhd/content.json:11781`; treasures; caveat/provider/drop detail lines 11794 ; canonical extract `src/games/dddhd/world-facts.json:2804`.
+- `dddhd:treasure:riku:country-of-the-musketeers:031` — `src/games/dddhd/content.json:11797`; treasures; caveat/provider/drop detail lines 11810 ; canonical extract `src/games/dddhd/world-facts.json:2812`.
+- `dddhd:treasure:sora:symphony-of-sorcery:001` — `src/games/dddhd/content.json:11813`; treasures; caveat/provider/drop detail lines 11826 ; canonical extract `src/games/dddhd/world-facts.json:2820`.
+- `dddhd:treasure:sora:symphony-of-sorcery:002` — `src/games/dddhd/content.json:11829`; treasures; caveat/provider/drop detail lines 11842 ; canonical extract `src/games/dddhd/world-facts.json:2828`.
+- `dddhd:treasure:sora:symphony-of-sorcery:003` — `src/games/dddhd/content.json:11845`; treasures; caveat/provider/drop detail lines 11858 ; canonical extract `src/games/dddhd/world-facts.json:2836`.
+- `dddhd:treasure:sora:symphony-of-sorcery:005` — `src/games/dddhd/content.json:11861`; treasures; caveat/provider/drop detail lines 11874 ; canonical extract `src/games/dddhd/world-facts.json:2852`.
+- `dddhd:treasure:sora:symphony-of-sorcery:006` — `src/games/dddhd/content.json:11877`; treasures; caveat/provider/drop detail lines 11890 ; canonical extract `src/games/dddhd/world-facts.json:2860`.
+- `dddhd:treasure:sora:symphony-of-sorcery:007` — `src/games/dddhd/content.json:11893`; treasures; caveat/provider/drop detail lines 11906 ; canonical extract `src/games/dddhd/world-facts.json:2868`.
+- `dddhd:treasure:sora:symphony-of-sorcery:008` — `src/games/dddhd/content.json:11909`; treasures; caveat/provider/drop detail lines 11922 ; canonical extract `src/games/dddhd/world-facts.json:2876`.
+- `dddhd:treasure:sora:symphony-of-sorcery:009` — `src/games/dddhd/content.json:11925`; treasures; caveat/provider/drop detail lines 11938 ; canonical extract `src/games/dddhd/world-facts.json:2884`.
+- `dddhd:treasure:sora:symphony-of-sorcery:010` — `src/games/dddhd/content.json:11941`; treasures; caveat/provider/drop detail lines 11954 ; canonical extract `src/games/dddhd/world-facts.json:2892`.
+- `dddhd:treasure:sora:symphony-of-sorcery:011` — `src/games/dddhd/content.json:11957`; treasures; caveat/provider/drop detail lines 11970 ; canonical extract `src/games/dddhd/world-facts.json:2900`.
+- `dddhd:treasure:sora:symphony-of-sorcery:012` — `src/games/dddhd/content.json:11973`; treasures; caveat/provider/drop detail lines 11986 ; canonical extract `src/games/dddhd/world-facts.json:2908`.
+- `dddhd:treasure:sora:symphony-of-sorcery:013` — `src/games/dddhd/content.json:11989`; treasures; caveat/provider/drop detail lines 12002 ; canonical extract `src/games/dddhd/world-facts.json:2916`.
+- `dddhd:treasure:sora:symphony-of-sorcery:014` — `src/games/dddhd/content.json:12005`; treasures; caveat/provider/drop detail lines 12018 ; canonical extract `src/games/dddhd/world-facts.json:2924`.
+- `dddhd:treasure:sora:symphony-of-sorcery:015` — `src/games/dddhd/content.json:12021`; treasures; caveat/provider/drop detail lines 12034 ; canonical extract `src/games/dddhd/world-facts.json:2932`.
+- `dddhd:treasure:sora:symphony-of-sorcery:016` — `src/games/dddhd/content.json:12037`; treasures; caveat/provider/drop detail lines 12050 ; canonical extract `src/games/dddhd/world-facts.json:2940`.
+- `dddhd:treasure:sora:symphony-of-sorcery:017` — `src/games/dddhd/content.json:12053`; treasures; caveat/provider/drop detail lines 12066 ; canonical extract `src/games/dddhd/world-facts.json:2948`.
+- `dddhd:treasure:sora:symphony-of-sorcery:018` — `src/games/dddhd/content.json:12069`; treasures; caveat/provider/drop detail lines 12082 ; canonical extract `src/games/dddhd/world-facts.json:2956`.
+- `dddhd:treasure:sora:symphony-of-sorcery:020` — `src/games/dddhd/content.json:12085`; treasures; caveat/provider/drop detail lines 12098 ; canonical extract `src/games/dddhd/world-facts.json:2972`.
+- `dddhd:treasure:sora:symphony-of-sorcery:021` — `src/games/dddhd/content.json:12101`; treasures; caveat/provider/drop detail lines 12114 ; canonical extract `src/games/dddhd/world-facts.json:2980`.
+- `dddhd:treasure:sora:symphony-of-sorcery:022` — `src/games/dddhd/content.json:12117`; treasures; caveat/provider/drop detail lines 12130 ; canonical extract `src/games/dddhd/world-facts.json:2988`.
+- `dddhd:treasure:riku:symphony-of-sorcery:001` — `src/games/dddhd/content.json:12133`; treasures; caveat/provider/drop detail lines 12146 ; canonical extract `src/games/dddhd/world-facts.json:2996`.
+- `dddhd:treasure:riku:symphony-of-sorcery:002` — `src/games/dddhd/content.json:12149`; treasures; caveat/provider/drop detail lines 12162 ; canonical extract `src/games/dddhd/world-facts.json:3004`.
+- `dddhd:treasure:riku:symphony-of-sorcery:003` — `src/games/dddhd/content.json:12165`; treasures; caveat/provider/drop detail lines 12178 ; canonical extract `src/games/dddhd/world-facts.json:3012`.
+- `dddhd:treasure:riku:symphony-of-sorcery:004` — `src/games/dddhd/content.json:12181`; treasures; caveat/provider/drop detail lines 12194 ; canonical extract `src/games/dddhd/world-facts.json:3020`.
+- `dddhd:treasure:riku:symphony-of-sorcery:005` — `src/games/dddhd/content.json:12197`; treasures; caveat/provider/drop detail lines 12210 ; canonical extract `src/games/dddhd/world-facts.json:3028`.
+- `dddhd:treasure:riku:symphony-of-sorcery:006` — `src/games/dddhd/content.json:12213`; treasures; caveat/provider/drop detail lines 12226 ; canonical extract `src/games/dddhd/world-facts.json:3036`.
+- `dddhd:treasure:riku:symphony-of-sorcery:007` — `src/games/dddhd/content.json:12229`; treasures; caveat/provider/drop detail lines 12242 ; canonical extract `src/games/dddhd/world-facts.json:3044`.
+- `dddhd:treasure:riku:symphony-of-sorcery:008` — `src/games/dddhd/content.json:12245`; treasures; caveat/provider/drop detail lines 12258 ; canonical extract `src/games/dddhd/world-facts.json:3052`.
+- `dddhd:treasure:riku:symphony-of-sorcery:009` — `src/games/dddhd/content.json:12261`; treasures; caveat/provider/drop detail lines 12274 ; canonical extract `src/games/dddhd/world-facts.json:3060`.
+- `dddhd:treasure:riku:symphony-of-sorcery:010` — `src/games/dddhd/content.json:12277`; treasures; caveat/provider/drop detail lines 12290 ; canonical extract `src/games/dddhd/world-facts.json:3068`.
+- `dddhd:treasure:riku:symphony-of-sorcery:011` — `src/games/dddhd/content.json:12293`; treasures; caveat/provider/drop detail lines 12306 ; canonical extract `src/games/dddhd/world-facts.json:3076`.
+- `dddhd:treasure:riku:symphony-of-sorcery:012` — `src/games/dddhd/content.json:12309`; treasures; caveat/provider/drop detail lines 12322 ; canonical extract `src/games/dddhd/world-facts.json:3084`.
+- `dddhd:treasure:riku:symphony-of-sorcery:013` — `src/games/dddhd/content.json:12325`; treasures; caveat/provider/drop detail lines 12338 ; canonical extract `src/games/dddhd/world-facts.json:3092`.
+- `dddhd:treasure:riku:symphony-of-sorcery:014` — `src/games/dddhd/content.json:12341`; treasures; caveat/provider/drop detail lines 12354 ; canonical extract `src/games/dddhd/world-facts.json:3100`.
+- `dddhd:treasure:riku:symphony-of-sorcery:016` — `src/games/dddhd/content.json:12357`; treasures; caveat/provider/drop detail lines 12370 ; canonical extract `src/games/dddhd/world-facts.json:3116`.
+- `dddhd:treasure:riku:symphony-of-sorcery:017` — `src/games/dddhd/content.json:12373`; treasures; caveat/provider/drop detail lines 12386 ; canonical extract `src/games/dddhd/world-facts.json:3124`.
+- `dddhd:treasure:riku:symphony-of-sorcery:018` — `src/games/dddhd/content.json:12389`; treasures; caveat/provider/drop detail lines 12402 ; canonical extract `src/games/dddhd/world-facts.json:3132`.
+- `dddhd:treasure:riku:symphony-of-sorcery:019` — `src/games/dddhd/content.json:12405`; treasures; caveat/provider/drop detail lines 12418 ; canonical extract `src/games/dddhd/world-facts.json:3140`.
+- `dddhd:treasure:riku:symphony-of-sorcery:020` — `src/games/dddhd/content.json:12421`; treasures; caveat/provider/drop detail lines 12434 ; canonical extract `src/games/dddhd/world-facts.json:3148`.
+- `dddhd:treasure:riku:symphony-of-sorcery:021` — `src/games/dddhd/content.json:12437`; treasures; caveat/provider/drop detail lines 12450 ; canonical extract `src/games/dddhd/world-facts.json:3156`.
+- `dddhd:treasure:sora:the-world-that-never-was:001` — `src/games/dddhd/content.json:12453`; treasures; caveat/provider/drop detail lines 12466 ; canonical extract `src/games/dddhd/world-facts.json:3164`.
+- `dddhd:treasure:sora:the-world-that-never-was:002` — `src/games/dddhd/content.json:12469`; treasures; caveat/provider/drop detail lines 12482 ; canonical extract `src/games/dddhd/world-facts.json:3172`.
+- `dddhd:treasure:sora:the-world-that-never-was:003` — `src/games/dddhd/content.json:12485`; treasures; caveat/provider/drop detail lines 12498 ; canonical extract `src/games/dddhd/world-facts.json:3180`.
+- `dddhd:treasure:sora:the-world-that-never-was:004` — `src/games/dddhd/content.json:12501`; treasures; caveat/provider/drop detail lines 12514 ; canonical extract `src/games/dddhd/world-facts.json:3188`.
+- `dddhd:treasure:sora:the-world-that-never-was:005` — `src/games/dddhd/content.json:12517`; treasures; caveat/provider/drop detail lines 12530 ; canonical extract `src/games/dddhd/world-facts.json:3196`.
+- `dddhd:treasure:sora:the-world-that-never-was:006` — `src/games/dddhd/content.json:12533`; treasures; caveat/provider/drop detail lines 12546 ; canonical extract `src/games/dddhd/world-facts.json:3204`.
+- `dddhd:treasure:sora:the-world-that-never-was:007` — `src/games/dddhd/content.json:12549`; treasures; caveat/provider/drop detail lines 12562 ; canonical extract `src/games/dddhd/world-facts.json:3212`.
+- `dddhd:treasure:sora:the-world-that-never-was:009` — `src/games/dddhd/content.json:12565`; treasures; caveat/provider/drop detail lines 12578 ; canonical extract `src/games/dddhd/world-facts.json:3228`.
+- `dddhd:treasure:sora:the-world-that-never-was:010` — `src/games/dddhd/content.json:12581`; treasures; caveat/provider/drop detail lines 12594 ; canonical extract `src/games/dddhd/world-facts.json:3236`.
+- `dddhd:treasure:sora:the-world-that-never-was:011` — `src/games/dddhd/content.json:12597`; treasures; caveat/provider/drop detail lines 12610 ; canonical extract `src/games/dddhd/world-facts.json:3244`.
+- `dddhd:treasure:sora:the-world-that-never-was:012` — `src/games/dddhd/content.json:12613`; treasures; caveat/provider/drop detail lines 12626 ; canonical extract `src/games/dddhd/world-facts.json:3252`.
+- `dddhd:treasure:sora:the-world-that-never-was:013` — `src/games/dddhd/content.json:12629`; treasures; caveat/provider/drop detail lines 12642 ; canonical extract `src/games/dddhd/world-facts.json:3260`.
+- `dddhd:treasure:sora:the-world-that-never-was:014` — `src/games/dddhd/content.json:12645`; treasures; caveat/provider/drop detail lines 12658 ; canonical extract `src/games/dddhd/world-facts.json:3268`.
+- `dddhd:treasure:sora:the-world-that-never-was:015` — `src/games/dddhd/content.json:12661`; treasures; caveat/provider/drop detail lines 12674 ; canonical extract `src/games/dddhd/world-facts.json:3276`.
+- `dddhd:treasure:riku:the-world-that-never-was:001` — `src/games/dddhd/content.json:12677`; treasures; caveat/provider/drop detail lines 12690 ; canonical extract `src/games/dddhd/world-facts.json:3284`.
+- `dddhd:treasure:riku:the-world-that-never-was:002` — `src/games/dddhd/content.json:12693`; treasures; caveat/provider/drop detail lines 12706 ; canonical extract `src/games/dddhd/world-facts.json:3292`.
+- `dddhd:treasure:riku:the-world-that-never-was:003` — `src/games/dddhd/content.json:12709`; treasures; caveat/provider/drop detail lines 12722 ; canonical extract `src/games/dddhd/world-facts.json:3300`.
+- `dddhd:treasure:riku:the-world-that-never-was:004` — `src/games/dddhd/content.json:12725`; treasures; caveat/provider/drop detail lines 12738 ; canonical extract `src/games/dddhd/world-facts.json:3308`.
+- `dddhd:treasure:riku:the-world-that-never-was:005` — `src/games/dddhd/content.json:12741`; treasures; caveat/provider/drop detail lines 12754 ; canonical extract `src/games/dddhd/world-facts.json:3316`.
+- `dddhd:treasure:riku:the-world-that-never-was:006` — `src/games/dddhd/content.json:12757`; treasures; caveat/provider/drop detail lines 12770 ; canonical extract `src/games/dddhd/world-facts.json:3324`.
+- `dddhd:treasure:riku:the-world-that-never-was:007` — `src/games/dddhd/content.json:12773`; treasures; caveat/provider/drop detail lines 12786 ; canonical extract `src/games/dddhd/world-facts.json:3332`.
+- `dddhd:treasure:riku:the-world-that-never-was:008` — `src/games/dddhd/content.json:12789`; treasures; caveat/provider/drop detail lines 12802 ; canonical extract `src/games/dddhd/world-facts.json:3340`.
+- `dddhd:treasure:riku:the-world-that-never-was:009` — `src/games/dddhd/content.json:12805`; treasures; caveat/provider/drop detail lines 12818 ; canonical extract `src/games/dddhd/world-facts.json:3348`.
+- `dddhd:treasure:riku:the-world-that-never-was:010` — `src/games/dddhd/content.json:12821`; treasures; caveat/provider/drop detail lines 12834 ; canonical extract `src/games/dddhd/world-facts.json:3356`.
+- `dddhd:treasure:riku:the-world-that-never-was:012` — `src/games/dddhd/content.json:12837`; treasures; caveat/provider/drop detail lines 12850 ; canonical extract `src/games/dddhd/world-facts.json:3372`.
+- `dddhd:treasure:riku:the-world-that-never-was:013` — `src/games/dddhd/content.json:12853`; treasures; caveat/provider/drop detail lines 12866 ; canonical extract `src/games/dddhd/world-facts.json:3380`.
+- `dddhd:treasure:riku:the-world-that-never-was:014` — `src/games/dddhd/content.json:12869`; treasures; caveat/provider/drop detail lines 12882 ; canonical extract `src/games/dddhd/world-facts.json:3388`.
+- `dddhd:treasure:riku:the-world-that-never-was:015` — `src/games/dddhd/content.json:12885`; treasures; caveat/provider/drop detail lines 12898 ; canonical extract `src/games/dddhd/world-facts.json:3396`.
+- `dddhd:treasure:riku:the-world-that-never-was:016` — `src/games/dddhd/content.json:12901`; treasures; caveat/provider/drop detail lines 12914 ; canonical extract `src/games/dddhd/world-facts.json:3404`.
+- `dddhd:treasure:riku:the-world-that-never-was:017` — `src/games/dddhd/content.json:12917`; treasures; caveat/provider/drop detail lines 12930 ; canonical extract `src/games/dddhd/world-facts.json:3412`.
+- `dddhd:treasure:riku:the-world-that-never-was:018` — `src/games/dddhd/content.json:12933`; treasures; caveat/provider/drop detail lines 12946 ; canonical extract `src/games/dddhd/world-facts.json:3420`.
+- `dddhd:treasure:riku:the-world-that-never-was:019` — `src/games/dddhd/content.json:12949`; treasures; caveat/provider/drop detail lines 12962 ; canonical extract `src/games/dddhd/world-facts.json:3428`.
+- `dddhd:treasure:riku:the-world-that-never-was:020` — `src/games/dddhd/content.json:12965`; treasures; caveat/provider/drop detail lines 12978 ; canonical extract `src/games/dddhd/world-facts.json:3436`.
+- `dddhd:treasure:riku:the-world-that-never-was:021` — `src/games/dddhd/content.json:12981`; treasures; caveat/provider/drop detail lines 12994 ; canonical extract `src/games/dddhd/world-facts.json:3444`.
+- `dddhd:treasure:riku:the-world-that-never-was:022` — `src/games/dddhd/content.json:12997`; treasures; caveat/provider/drop detail lines 13010 ; canonical extract `src/games/dddhd/world-facts.json:3452`.
+- `dddhd:treasure:riku:the-world-that-never-was:024` — `src/games/dddhd/content.json:13013`; treasures; caveat/provider/drop detail lines 13026 ; canonical extract `src/games/dddhd/world-facts.json:3468`.
+- `dddhd:treasure:riku:the-world-that-never-was:025` — `src/games/dddhd/content.json:13029`; treasures; caveat/provider/drop detail lines 13042 ; canonical extract `src/games/dddhd/world-facts.json:3476`.
+- `dddhd:treasure:riku:the-world-that-never-was:026` — `src/games/dddhd/content.json:13045`; treasures; caveat/provider/drop detail lines 13058 ; canonical extract `src/games/dddhd/world-facts.json:3484`.
+- `dddhd:treasure:riku:the-world-that-never-was:027` — `src/games/dddhd/content.json:13061`; treasures; caveat/provider/drop detail lines 13074 ; canonical extract `src/games/dddhd/world-facts.json:3492`.
+- `dddhd:treasure:riku:the-world-that-never-was:028` — `src/games/dddhd/content.json:13077`; treasures; caveat/provider/drop detail lines 13090 ; canonical extract `src/games/dddhd/world-facts.json:3500`.
+- `dddhd:portals:sora-traverse-town-special-portal-1` — `src/games/dddhd/content.json:13093`; portals; caveat/provider/drop detail lines 13102 ; canonical extract `src/games/dddhd/world-facts.json:3510`.
+- `dddhd:portals:sora-traverse-town-special-portal-2` — `src/games/dddhd/content.json:13108`; portals; caveat/provider/drop detail lines 13117 ; canonical extract `src/games/dddhd/world-facts.json:3520`.
+- `dddhd:portals:sora-traverse-town-special-portal-3` — `src/games/dddhd/content.json:13123`; portals; caveat/provider/drop detail lines 13132 ; canonical extract `src/games/dddhd/world-facts.json:3530`.
+- `dddhd:portals:sora-traverse-town-special-portal-4` — `src/games/dddhd/content.json:13138`; portals; caveat/provider/drop detail lines 13147 ; canonical extract `src/games/dddhd/world-facts.json:3540`.
+- `dddhd:portals:sora-traverse-town-special-portal-5` — `src/games/dddhd/content.json:13153`; portals; caveat/provider/drop detail lines 13162 ; canonical extract `src/games/dddhd/world-facts.json:3550`.
+- `dddhd:portals:sora-traverse-town-special-portal-6` — `src/games/dddhd/content.json:13168`; portals; caveat/provider/drop detail lines 13177 ; canonical extract `src/games/dddhd/world-facts.json:3560`.
+- `dddhd:portals:riku-traverse-town-special-portal-1` — `src/games/dddhd/content.json:13183`; portals; caveat/provider/drop detail lines 13192 ; canonical extract `src/games/dddhd/world-facts.json:3570`.
+- `dddhd:portals:riku-traverse-town-special-portal-2` — `src/games/dddhd/content.json:13198`; portals; caveat/provider/drop detail lines 13207 ; canonical extract `src/games/dddhd/world-facts.json:3580`.
+- `dddhd:portals:riku-traverse-town-special-portal-3` — `src/games/dddhd/content.json:13213`; portals; caveat/provider/drop detail lines 13222 ; canonical extract `src/games/dddhd/world-facts.json:3590`.
+- `dddhd:portals:riku-traverse-town-special-portal-4` — `src/games/dddhd/content.json:13228`; portals; caveat/provider/drop detail lines 13237 ; canonical extract `src/games/dddhd/world-facts.json:3600`.
+- `dddhd:portals:riku-traverse-town-special-portal-5` — `src/games/dddhd/content.json:13243`; portals; caveat/provider/drop detail lines 13252 ; canonical extract `src/games/dddhd/world-facts.json:3610`.
+- `dddhd:portals:riku-traverse-town-special-portal-6` — `src/games/dddhd/content.json:13258`; portals; caveat/provider/drop detail lines 13267 ; canonical extract `src/games/dddhd/world-facts.json:3620`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-1` — `src/games/dddhd/content.json:13273`; portals; caveat/provider/drop detail lines 13282 ; canonical extract `src/games/dddhd/world-facts.json:3630`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-2` — `src/games/dddhd/content.json:13288`; portals; caveat/provider/drop detail lines 13297 ; canonical extract `src/games/dddhd/world-facts.json:3640`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-3` — `src/games/dddhd/content.json:13303`; portals; caveat/provider/drop detail lines 13312 ; canonical extract `src/games/dddhd/world-facts.json:3650`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-4` — `src/games/dddhd/content.json:13318`; portals; caveat/provider/drop detail lines 13327 ; canonical extract `src/games/dddhd/world-facts.json:3660`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-5` — `src/games/dddhd/content.json:13333`; portals; caveat/provider/drop detail lines 13342 ; canonical extract `src/games/dddhd/world-facts.json:3670`.
+- `dddhd:portals:sora-la-cite-des-cloches-special-portal-6` — `src/games/dddhd/content.json:13348`; portals; caveat/provider/drop detail lines 13357 ; canonical extract `src/games/dddhd/world-facts.json:3680`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-1` — `src/games/dddhd/content.json:13363`; portals; caveat/provider/drop detail lines 13372 ; canonical extract `src/games/dddhd/world-facts.json:3690`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-2` — `src/games/dddhd/content.json:13378`; portals; caveat/provider/drop detail lines 13387 ; canonical extract `src/games/dddhd/world-facts.json:3700`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-3` — `src/games/dddhd/content.json:13393`; portals; caveat/provider/drop detail lines 13402 ; canonical extract `src/games/dddhd/world-facts.json:3710`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-4` — `src/games/dddhd/content.json:13408`; portals; caveat/provider/drop detail lines 13417 ; canonical extract `src/games/dddhd/world-facts.json:3720`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-5` — `src/games/dddhd/content.json:13423`; portals; caveat/provider/drop detail lines 13432 ; canonical extract `src/games/dddhd/world-facts.json:3730`.
+- `dddhd:portals:riku-la-cite-des-cloches-special-portal-6` — `src/games/dddhd/content.json:13438`; portals; caveat/provider/drop detail lines 13447 ; canonical extract `src/games/dddhd/world-facts.json:3740`.
+- `dddhd:portals:sora-the-grid-special-portal-1` — `src/games/dddhd/content.json:13453`; portals; caveat/provider/drop detail lines 13462 ; canonical extract `src/games/dddhd/world-facts.json:3750`.
+- `dddhd:portals:sora-the-grid-special-portal-2` — `src/games/dddhd/content.json:13468`; portals; caveat/provider/drop detail lines 13477 ; canonical extract `src/games/dddhd/world-facts.json:3760`.
+- `dddhd:portals:sora-the-grid-special-portal-3` — `src/games/dddhd/content.json:13483`; portals; caveat/provider/drop detail lines 13492 ; canonical extract `src/games/dddhd/world-facts.json:3770`.
+- `dddhd:portals:sora-the-grid-special-portal-4` — `src/games/dddhd/content.json:13498`; portals; caveat/provider/drop detail lines 13507 ; canonical extract `src/games/dddhd/world-facts.json:3780`.
+- `dddhd:portals:sora-the-grid-special-portal-5` — `src/games/dddhd/content.json:13513`; portals; caveat/provider/drop detail lines 13522 ; canonical extract `src/games/dddhd/world-facts.json:3790`.
+- `dddhd:portals:sora-the-grid-special-portal-6` — `src/games/dddhd/content.json:13528`; portals; caveat/provider/drop detail lines 13537 ; canonical extract `src/games/dddhd/world-facts.json:3800`.
+- `dddhd:portals:riku-the-grid-special-portal-1` — `src/games/dddhd/content.json:13543`; portals; caveat/provider/drop detail lines 13552 ; canonical extract `src/games/dddhd/world-facts.json:3810`.
+- `dddhd:portals:riku-the-grid-special-portal-2` — `src/games/dddhd/content.json:13558`; portals; caveat/provider/drop detail lines 13567 ; canonical extract `src/games/dddhd/world-facts.json:3820`.
+- `dddhd:portals:riku-the-grid-special-portal-3` — `src/games/dddhd/content.json:13573`; portals; caveat/provider/drop detail lines 13582 ; canonical extract `src/games/dddhd/world-facts.json:3830`.
+- `dddhd:portals:riku-the-grid-special-portal-4` — `src/games/dddhd/content.json:13588`; portals; caveat/provider/drop detail lines 13597 ; canonical extract `src/games/dddhd/world-facts.json:3840`.
+- `dddhd:portals:riku-the-grid-special-portal-5` — `src/games/dddhd/content.json:13603`; portals; caveat/provider/drop detail lines 13612 ; canonical extract `src/games/dddhd/world-facts.json:3850`.
+- `dddhd:portals:riku-the-grid-special-portal-6` — `src/games/dddhd/content.json:13618`; portals; caveat/provider/drop detail lines 13627 ; canonical extract `src/games/dddhd/world-facts.json:3860`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-1` — `src/games/dddhd/content.json:13633`; portals; caveat/provider/drop detail lines 13642 ; canonical extract `src/games/dddhd/world-facts.json:3870`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-2` — `src/games/dddhd/content.json:13648`; portals; caveat/provider/drop detail lines 13657 ; canonical extract `src/games/dddhd/world-facts.json:3880`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-3` — `src/games/dddhd/content.json:13663`; portals; caveat/provider/drop detail lines 13672 ; canonical extract `src/games/dddhd/world-facts.json:3890`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-4` — `src/games/dddhd/content.json:13678`; portals; caveat/provider/drop detail lines 13687 ; canonical extract `src/games/dddhd/world-facts.json:3900`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-5` — `src/games/dddhd/content.json:13693`; portals; caveat/provider/drop detail lines 13702 ; canonical extract `src/games/dddhd/world-facts.json:3910`.
+- `dddhd:portals:sora-prankster-s-paradise-special-portal-6` — `src/games/dddhd/content.json:13708`; portals; caveat/provider/drop detail lines 13717 ; canonical extract `src/games/dddhd/world-facts.json:3920`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-1` — `src/games/dddhd/content.json:13723`; portals; caveat/provider/drop detail lines 13732 ; canonical extract `src/games/dddhd/world-facts.json:3930`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-2` — `src/games/dddhd/content.json:13738`; portals; caveat/provider/drop detail lines 13747 ; canonical extract `src/games/dddhd/world-facts.json:3940`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-3` — `src/games/dddhd/content.json:13753`; portals; caveat/provider/drop detail lines 13762 ; canonical extract `src/games/dddhd/world-facts.json:3950`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-4` — `src/games/dddhd/content.json:13768`; portals; caveat/provider/drop detail lines 13777 ; canonical extract `src/games/dddhd/world-facts.json:3960`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-5` — `src/games/dddhd/content.json:13783`; portals; caveat/provider/drop detail lines 13792 ; canonical extract `src/games/dddhd/world-facts.json:3970`.
+- `dddhd:portals:riku-prankster-s-paradise-special-portal-6` — `src/games/dddhd/content.json:13798`; portals; caveat/provider/drop detail lines 13807 ; canonical extract `src/games/dddhd/world-facts.json:3980`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-1` — `src/games/dddhd/content.json:13813`; portals; caveat/provider/drop detail lines 13822 ; canonical extract `src/games/dddhd/world-facts.json:3990`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-2` — `src/games/dddhd/content.json:13828`; portals; caveat/provider/drop detail lines 13837 ; canonical extract `src/games/dddhd/world-facts.json:4000`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-3` — `src/games/dddhd/content.json:13843`; portals; caveat/provider/drop detail lines 13852 ; canonical extract `src/games/dddhd/world-facts.json:4010`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-4` — `src/games/dddhd/content.json:13858`; portals; caveat/provider/drop detail lines 13867 ; canonical extract `src/games/dddhd/world-facts.json:4020`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-5` — `src/games/dddhd/content.json:13873`; portals; caveat/provider/drop detail lines 13882 ; canonical extract `src/games/dddhd/world-facts.json:4030`.
+- `dddhd:portals:sora-country-of-the-musketeers-special-portal-6` — `src/games/dddhd/content.json:13888`; portals; caveat/provider/drop detail lines 13897 ; canonical extract `src/games/dddhd/world-facts.json:4040`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-1` — `src/games/dddhd/content.json:13903`; portals; caveat/provider/drop detail lines 13912 ; canonical extract `src/games/dddhd/world-facts.json:4050`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-2` — `src/games/dddhd/content.json:13918`; portals; caveat/provider/drop detail lines 13927 ; canonical extract `src/games/dddhd/world-facts.json:4060`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-3` — `src/games/dddhd/content.json:13933`; portals; caveat/provider/drop detail lines 13942 ; canonical extract `src/games/dddhd/world-facts.json:4070`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-4` — `src/games/dddhd/content.json:13948`; portals; caveat/provider/drop detail lines 13957 ; canonical extract `src/games/dddhd/world-facts.json:4080`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-5` — `src/games/dddhd/content.json:13963`; portals; caveat/provider/drop detail lines 13972 ; canonical extract `src/games/dddhd/world-facts.json:4090`.
+- `dddhd:portals:riku-country-of-the-musketeers-special-portal-6` — `src/games/dddhd/content.json:13978`; portals; caveat/provider/drop detail lines 13987 ; canonical extract `src/games/dddhd/world-facts.json:4100`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-1` — `src/games/dddhd/content.json:13993`; portals; caveat/provider/drop detail lines 14002 ; canonical extract `src/games/dddhd/world-facts.json:4110`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-2` — `src/games/dddhd/content.json:14008`; portals; caveat/provider/drop detail lines 14017 ; canonical extract `src/games/dddhd/world-facts.json:4120`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-3` — `src/games/dddhd/content.json:14023`; portals; caveat/provider/drop detail lines 14032 ; canonical extract `src/games/dddhd/world-facts.json:4130`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-4` — `src/games/dddhd/content.json:14038`; portals; caveat/provider/drop detail lines 14047 ; canonical extract `src/games/dddhd/world-facts.json:4140`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-5` — `src/games/dddhd/content.json:14053`; portals; caveat/provider/drop detail lines 14062 ; canonical extract `src/games/dddhd/world-facts.json:4150`.
+- `dddhd:portals:sora-symphony-of-sorcery-special-portal-6` — `src/games/dddhd/content.json:14068`; portals; caveat/provider/drop detail lines 14077 ; canonical extract `src/games/dddhd/world-facts.json:4160`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-1` — `src/games/dddhd/content.json:14083`; portals; caveat/provider/drop detail lines 14092 ; canonical extract `src/games/dddhd/world-facts.json:4170`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-2` — `src/games/dddhd/content.json:14098`; portals; caveat/provider/drop detail lines 14107 ; canonical extract `src/games/dddhd/world-facts.json:4180`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-3` — `src/games/dddhd/content.json:14113`; portals; caveat/provider/drop detail lines 14122 ; canonical extract `src/games/dddhd/world-facts.json:4190`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-4` — `src/games/dddhd/content.json:14128`; portals; caveat/provider/drop detail lines 14137 ; canonical extract `src/games/dddhd/world-facts.json:4200`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-5` — `src/games/dddhd/content.json:14143`; portals; caveat/provider/drop detail lines 14152 ; canonical extract `src/games/dddhd/world-facts.json:4210`.
+- `dddhd:portals:riku-symphony-of-sorcery-special-portal-6` — `src/games/dddhd/content.json:14158`; portals; caveat/provider/drop detail lines 14167 ; canonical extract `src/games/dddhd/world-facts.json:4220`.
+- `dddhd:portals:sora-the-world-that-never-was-special-portal-1` — `src/games/dddhd/content.json:14173`; portals; caveat/provider/drop detail lines 14182 ; canonical extract `src/games/dddhd/world-facts.json:4230`.
+- `dddhd:portals:sora-the-world-that-never-was-special-portal-2` — `src/games/dddhd/content.json:14188`; portals; caveat/provider/drop detail lines 14197 ; canonical extract `src/games/dddhd/world-facts.json:4240`.
+- `dddhd:portals:sora-the-world-that-never-was-special-portal-3` — `src/games/dddhd/content.json:14203`; portals; caveat/provider/drop detail lines 14212 ; canonical extract `src/games/dddhd/world-facts.json:4250`.
+- `dddhd:portals:riku-the-world-that-never-was-special-portal-1` — `src/games/dddhd/content.json:14218`; portals; caveat/provider/drop detail lines 14227 ; canonical extract `src/games/dddhd/world-facts.json:4260`.
+- `dddhd:portals:riku-the-world-that-never-was-special-portal-2` — `src/games/dddhd/content.json:14233`; portals; caveat/provider/drop detail lines 14242 ; canonical extract `src/games/dddhd/world-facts.json:4270`.
+- `dddhd:portals:riku-the-world-that-never-was-special-portal-3` — `src/games/dddhd/content.json:14248`; portals; caveat/provider/drop detail lines 14257 ; canonical extract `src/games/dddhd/world-facts.json:4280`.
+
+## Appendix B — Formula/source-field structural census
+
+All formula rows are enumerated, including explicit probabilities (not new missing-probability findings). Source indices are zero-based JSON paths; formula ordinal in prose is one-based. Runtime formula IDs are paired in generation order.
+
+- `dddhd:recipe:aura-lion:source-1` — `src/games/dddhd/spirit-facts.json:7` / `[0].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:18`; output `src/games/dddhd/content.json:14265`.
+- `dddhd:recipe:aura-lion:source-2` — `src/games/dddhd/spirit-facts.json:22` / `[0].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:33`; output `src/games/dddhd/content.json:14281`.
+- `dddhd:recipe:aura-lion:source-3` — `src/games/dddhd/spirit-facts.json:37` / `[0].formulas[2]`; probability=60%, alternate=Keeba Tiger at `src/games/dddhd/spirit-facts.json:48`; output `src/games/dddhd/content.json:14297`.
+- `dddhd:recipe:aura-lion:source-4` — `src/games/dddhd/spirit-facts.json:52` / `[0].formulas[3]`; probability=40%, alternate=Majik Lapin at `src/games/dddhd/spirit-facts.json:63`; output `src/games/dddhd/content.json:14313`.
+- `dddhd:recipe:beatalike:1` — `src/games/dddhd/spirit-facts.json:79` / `[1].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:90`; output `src/games/dddhd/content.json:14329`.
+- `dddhd:recipe:beatalike:2` — `src/games/dddhd/spirit-facts.json:94` / `[1].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:105`; output `src/games/dddhd/content.json:14345`.
+- `dddhd:recipe:beatalike:3` — `src/games/dddhd/spirit-facts.json:109` / `[1].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:120`; output `src/games/dddhd/content.json:14361`.
+- `dddhd:recipe:catanuki:1` — `src/games/dddhd/spirit-facts.json:136` / `[2].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:147`; output `src/games/dddhd/content.json:14377`.
+- `dddhd:recipe:catanuki:2` — `src/games/dddhd/spirit-facts.json:151` / `[2].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:162`; output `src/games/dddhd/content.json:14393`.
+- `dddhd:recipe:catanuki:3` — `src/games/dddhd/spirit-facts.json:166` / `[2].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:177`; output `src/games/dddhd/content.json:14409`.
+- `dddhd:recipe:cera-terror:source-1` — `src/games/dddhd/spirit-facts.json:193` / `[3].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:204`; output `src/games/dddhd/content.json:14425`.
+- `dddhd:recipe:cera-terror:source-2` — `src/games/dddhd/spirit-facts.json:208` / `[3].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:219`; output `src/games/dddhd/content.json:14441`.
+- `dddhd:recipe:cera-terror:source-3` — `src/games/dddhd/spirit-facts.json:223` / `[3].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:234`; output `src/games/dddhd/content.json:14457`.
+- `dddhd:recipe:cera-terror:source-4` — `src/games/dddhd/spirit-facts.json:238` / `[3].formulas[3]`; probability=40%, alternate=Drill Sye at `src/games/dddhd/spirit-facts.json:249`; output `src/games/dddhd/content.json:14473`.
+- `dddhd:recipe:cera-terror:source-5` — `src/games/dddhd/spirit-facts.json:253` / `[3].formulas[4]`; probability=70%, alternate=Electricorn at `src/games/dddhd/spirit-facts.json:264`; output `src/games/dddhd/content.json:14489`.
+- `dddhd:recipe:cera-terror:source-6` — `src/games/dddhd/spirit-facts.json:268` / `[3].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:279`; output `src/games/dddhd/content.json:14505`.
+- `dddhd:recipe:chef-kyroo:source-1` — `src/games/dddhd/spirit-facts.json:295` / `[4].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:306`; output `src/games/dddhd/content.json:14521`.
+- `dddhd:recipe:chef-kyroo:source-2` — `src/games/dddhd/spirit-facts.json:310` / `[4].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:321`; output `src/games/dddhd/content.json:14537`.
+- `dddhd:recipe:chef-kyroo:source-3` — `src/games/dddhd/spirit-facts.json:325` / `[4].formulas[2]`; probability=40%, alternate=Sir Kyroo at `src/games/dddhd/spirit-facts.json:336`; output `src/games/dddhd/content.json:14553`.
+- `dddhd:recipe:chef-kyroo:source-4` — `src/games/dddhd/spirit-facts.json:340` / `[4].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:351`; output `src/games/dddhd/content.json:14569`.
+- `dddhd:recipe:chef-kyroo:source-5` — `src/games/dddhd/spirit-facts.json:355` / `[4].formulas[4]`; probability=70%, alternate=Lord Kyroo at `src/games/dddhd/spirit-facts.json:366`; output `src/games/dddhd/content.json:14585`.
+- `dddhd:recipe:chef-kyroo:source-6` — `src/games/dddhd/spirit-facts.json:370` / `[4].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:381`; output `src/games/dddhd/content.json:14601`.
+- `dddhd:recipe:cyber-yog:source-1` — `src/games/dddhd/spirit-facts.json:397` / `[5].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:408`; output `src/games/dddhd/content.json:14617`.
+- `dddhd:recipe:cyber-yog:source-2` — `src/games/dddhd/spirit-facts.json:412` / `[5].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:423`; output `src/games/dddhd/content.json:14633`.
+- `dddhd:recipe:cyber-yog:source-3` — `src/games/dddhd/spirit-facts.json:427` / `[5].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:438`; output `src/games/dddhd/content.json:14649`.
+- `dddhd:recipe:cyber-yog:source-4` — `src/games/dddhd/spirit-facts.json:442` / `[5].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:453`; output `src/games/dddhd/content.json:14665`.
+- `dddhd:recipe:cyber-yog:source-5` — `src/games/dddhd/spirit-facts.json:457` / `[5].formulas[4]`; probability=30%, alternate=Yoggy Ram at `src/games/dddhd/spirit-facts.json:468`; output `src/games/dddhd/content.json:14681`.
+- `dddhd:recipe:cyber-yog:source-6` — `src/games/dddhd/spirit-facts.json:472` / `[5].formulas[5]`; probability=70%, alternate=Eaglider at `src/games/dddhd/spirit-facts.json:483`; output `src/games/dddhd/content.json:14697`.
+- `dddhd:recipe:drak-quack:source-1` — `src/games/dddhd/spirit-facts.json:499` / `[6].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:510`; output `src/games/dddhd/content.json:14713`.
+- `dddhd:recipe:drak-quack:source-2` — `src/games/dddhd/spirit-facts.json:514` / `[6].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:525`; output `src/games/dddhd/content.json:14729`.
+- `dddhd:recipe:drak-quack:source-3` — `src/games/dddhd/spirit-facts.json:529` / `[6].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:540`; output `src/games/dddhd/content.json:14745`.
+- `dddhd:recipe:drill-sye:source-1` — `src/games/dddhd/spirit-facts.json:556` / `[7].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:567`; output `src/games/dddhd/content.json:14761`.
+- `dddhd:recipe:drill-sye:source-2` — `src/games/dddhd/spirit-facts.json:571` / `[7].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:582`; output `src/games/dddhd/content.json:14777`.
+- `dddhd:recipe:drill-sye:source-3` — `src/games/dddhd/spirit-facts.json:586` / `[7].formulas[2]`; probability=20%, alternate=Pricklemane at `src/games/dddhd/spirit-facts.json:597`; output `src/games/dddhd/content.json:14793`.
+- `dddhd:recipe:drill-sye:source-4` — `src/games/dddhd/spirit-facts.json:601` / `[7].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:612`; output `src/games/dddhd/content.json:14809`.
+- `dddhd:recipe:drill-sye:source-5` — `src/games/dddhd/spirit-facts.json:616` / `[7].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:627`; output `src/games/dddhd/content.json:14825`.
+- `dddhd:recipe:drill-sye:source-6` — `src/games/dddhd/spirit-facts.json:631` / `[7].formulas[5]`; probability=60%, alternate=Cera Terror at `src/games/dddhd/spirit-facts.json:642`; output `src/games/dddhd/content.json:14841`.
+- `dddhd:recipe:ducky-goose:source-1` — `src/games/dddhd/spirit-facts.json:658` / `[8].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:669`; output `src/games/dddhd/content.json:14857`.
+- `dddhd:recipe:ducky-goose:source-2` — `src/games/dddhd/spirit-facts.json:673` / `[8].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:684`; output `src/games/dddhd/content.json:14873`.
+- `dddhd:recipe:ducky-goose:source-3` — `src/games/dddhd/spirit-facts.json:688` / `[8].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:699`; output `src/games/dddhd/content.json:14889`.
+- `dddhd:recipe:eaglider:source-1` — `src/games/dddhd/spirit-facts.json:715` / `[9].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:726`; output `src/games/dddhd/content.json:14905`.
+- `dddhd:recipe:eaglider:source-2` — `src/games/dddhd/spirit-facts.json:730` / `[9].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:741`; output `src/games/dddhd/content.json:14921`.
+- `dddhd:recipe:eaglider:source-3` — `src/games/dddhd/spirit-facts.json:745` / `[9].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:756`; output `src/games/dddhd/content.json:14937`.
+- `dddhd:recipe:eaglider:source-4` — `src/games/dddhd/spirit-facts.json:760` / `[9].formulas[3]`; probability=30%, alternate=Cyber Yog at `src/games/dddhd/spirit-facts.json:771`; output `src/games/dddhd/content.json:14953`.
+- `dddhd:recipe:eaglider:source-5` — `src/games/dddhd/spirit-facts.json:775` / `[9].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:786`; output `src/games/dddhd/content.json:14969`.
+- `dddhd:recipe:eaglider:source-6` — `src/games/dddhd/spirit-facts.json:790` / `[9].formulas[5]`; probability=80%, alternate=Halbird at `src/games/dddhd/spirit-facts.json:801`; output `src/games/dddhd/content.json:14985`.
+- `dddhd:recipe:electricorn:source-1` — `src/games/dddhd/spirit-facts.json:817` / `[10].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:828`; output `src/games/dddhd/content.json:15001`.
+- `dddhd:recipe:electricorn:source-2` — `src/games/dddhd/spirit-facts.json:832` / `[10].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:843`; output `src/games/dddhd/content.json:15017`.
+- `dddhd:recipe:electricorn:source-3` — `src/games/dddhd/spirit-facts.json:847` / `[10].formulas[2]`; probability=30%, alternate=Cera Terror at `src/games/dddhd/spirit-facts.json:858`; output `src/games/dddhd/content.json:15033`.
+- `dddhd:recipe:electricorn:source-4` — `src/games/dddhd/spirit-facts.json:862` / `[10].formulas[3]`; probability=60%, alternate=Pegaslick at `src/games/dddhd/spirit-facts.json:873`; output `src/games/dddhd/content.json:15049`.
+- `dddhd:recipe:escarglow:source-1` — `src/games/dddhd/spirit-facts.json:889` / `[11].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:900`; output `src/games/dddhd/content.json:15065`.
+- `dddhd:recipe:escarglow:source-2` — `src/games/dddhd/spirit-facts.json:904` / `[11].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:915`; output `src/games/dddhd/content.json:15081`.
+- `dddhd:recipe:escarglow:source-3` — `src/games/dddhd/spirit-facts.json:919` / `[11].formulas[2]`; probability=70%, alternate=Jestabocky at `src/games/dddhd/spirit-facts.json:930`; output `src/games/dddhd/content.json:15097`.
+- `dddhd:recipe:escarglow:source-4` — `src/games/dddhd/spirit-facts.json:934` / `[11].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:945`; output `src/games/dddhd/content.json:15113`.
+- `dddhd:recipe:escarglow:source-5` — `src/games/dddhd/spirit-facts.json:949` / `[11].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:960`; output `src/games/dddhd/content.json:15129`.
+- `dddhd:recipe:escarglow:source-6` — `src/games/dddhd/spirit-facts.json:964` / `[11].formulas[5]`; probability=40%, alternate=Toximander at `src/games/dddhd/spirit-facts.json:975`; output `src/games/dddhd/content.json:15145`.
+- `dddhd:recipe:escarglow:source-7` — `src/games/dddhd/spirit-facts.json:979` / `[11].formulas[6]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:990`; output `src/games/dddhd/content.json:15161`.
+- `dddhd:recipe:fin-fatale:source-1` — `src/games/dddhd/spirit-facts.json:1006` / `[12].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1017`; output `src/games/dddhd/content.json:15177`.
+- `dddhd:recipe:fin-fatale:source-2` — `src/games/dddhd/spirit-facts.json:1021` / `[12].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1032`; output `src/games/dddhd/content.json:15193`.
+- `dddhd:recipe:fin-fatale:source-3` — `src/games/dddhd/spirit-facts.json:1036` / `[12].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1047`; output `src/games/dddhd/content.json:15209`.
+- `dddhd:recipe:fin-fatale:source-4` — `src/games/dddhd/spirit-facts.json:1051` / `[12].formulas[3]`; probability=60%, alternate=Fishboné at `src/games/dddhd/spirit-facts.json:1062`; output `src/games/dddhd/content.json:15225`.
+- `dddhd:recipe:fin-fatale:source-5` — `src/games/dddhd/spirit-facts.json:1066` / `[12].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1077`; output `src/games/dddhd/content.json:15241`.
+- `dddhd:recipe:fin-fatale:source-6` — `src/games/dddhd/spirit-facts.json:1081` / `[12].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1092`; output `src/games/dddhd/content.json:15257`.
+- `dddhd:recipe:fishbone:source-1` — `src/games/dddhd/spirit-facts.json:1108` / `[13].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1119`; output `src/games/dddhd/content.json:15273`.
+- `dddhd:recipe:fishbone:source-2` — `src/games/dddhd/spirit-facts.json:1123` / `[13].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1134`; output `src/games/dddhd/content.json:15289`.
+- `dddhd:recipe:fishbone:source-3` — `src/games/dddhd/spirit-facts.json:1138` / `[13].formulas[2]`; probability=40%, alternate=Fin Fatale at `src/games/dddhd/spirit-facts.json:1149`; output `src/games/dddhd/content.json:15305`.
+- `dddhd:recipe:fishbone:source-4` — `src/games/dddhd/spirit-facts.json:1153` / `[13].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1164`; output `src/games/dddhd/content.json:15321`.
+- `dddhd:recipe:fishbone:source-5` — `src/games/dddhd/spirit-facts.json:1168` / `[13].formulas[4]`; probability=80%, alternate=Skelterwild at `src/games/dddhd/spirit-facts.json:1179`; output `src/games/dddhd/content.json:15337`.
+- `dddhd:recipe:flowbermeow:source-1` — `src/games/dddhd/spirit-facts.json:1195` / `[14].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1206`; output `src/games/dddhd/content.json:15353`.
+- `dddhd:recipe:flowbermeow:source-2` — `src/games/dddhd/spirit-facts.json:1210` / `[14].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1221`; output `src/games/dddhd/content.json:15369`.
+- `dddhd:recipe:flowbermeow:source-3` — `src/games/dddhd/spirit-facts.json:1225` / `[14].formulas[2]`; probability=10%, alternate=Meow Wow at `src/games/dddhd/spirit-facts.json:1236`; output `src/games/dddhd/content.json:15385`.
+- `dddhd:recipe:frootz-cat:1` — `src/games/dddhd/spirit-facts.json:1252` / `[15].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1263`; output `src/games/dddhd/content.json:15401`.
+- `dddhd:recipe:frootz-cat:2` — `src/games/dddhd/spirit-facts.json:1267` / `[15].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1278`; output `src/games/dddhd/content.json:15417`.
+- `dddhd:recipe:frootz-cat:3` — `src/games/dddhd/spirit-facts.json:1282` / `[15].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1293`; output `src/games/dddhd/content.json:15433`.
+- `dddhd:recipe:frootz-cat:4` — `src/games/dddhd/spirit-facts.json:1297` / `[15].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1308`; output `src/games/dddhd/content.json:15449`.
+- `dddhd:recipe:ghostabocky:source-1` — `src/games/dddhd/spirit-facts.json:1324` / `[16].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1335`; output `src/games/dddhd/content.json:15465`.
+- `dddhd:recipe:ghostabocky:source-2` — `src/games/dddhd/spirit-facts.json:1339` / `[16].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1350`; output `src/games/dddhd/content.json:15481`.
+- `dddhd:recipe:ghostabocky:source-3` — `src/games/dddhd/spirit-facts.json:1354` / `[16].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1365`; output `src/games/dddhd/content.json:15497`.
+- `dddhd:recipe:ghostabocky:source-4` — `src/games/dddhd/spirit-facts.json:1369` / `[16].formulas[3]`; probability=60%, alternate=Majik Lapin at `src/games/dddhd/spirit-facts.json:1380`; output `src/games/dddhd/content.json:15513`.
+- `dddhd:recipe:halbird:source-1` — `src/games/dddhd/spirit-facts.json:1396` / `[17].formulas[0]`; probability=40%, alternate=Iceguin Ace at `src/games/dddhd/spirit-facts.json:1407`; output `src/games/dddhd/content.json:15529`.
+- `dddhd:recipe:halbird:source-2` — `src/games/dddhd/spirit-facts.json:1411` / `[17].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1422`; output `src/games/dddhd/content.json:15545`.
+- `dddhd:recipe:halbird:source-3` — `src/games/dddhd/spirit-facts.json:1426` / `[17].formulas[2]`; probability=20%, alternate=Eaglider at `src/games/dddhd/spirit-facts.json:1437`; output `src/games/dddhd/content.json:15561`.
+- `dddhd:recipe:halbird:source-4` — `src/games/dddhd/spirit-facts.json:1441` / `[17].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1452`; output `src/games/dddhd/content.json:15577`.
+- `dddhd:recipe:halbird:source-5` — `src/games/dddhd/spirit-facts.json:1456` / `[17].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1467`; output `src/games/dddhd/content.json:15593`.
+- `dddhd:recipe:hebby-repp:source-1` — `src/games/dddhd/spirit-facts.json:1483` / `[18].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1494`; output `src/games/dddhd/content.json:15609`.
+- `dddhd:recipe:hebby-repp:source-2` — `src/games/dddhd/spirit-facts.json:1498` / `[18].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1509`; output `src/games/dddhd/content.json:15625`.
+- `dddhd:recipe:hebby-repp:source-3` — `src/games/dddhd/spirit-facts.json:1513` / `[18].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1524`; output `src/games/dddhd/content.json:15641`.
+- `dddhd:recipe:hebby-repp:source-4` — `src/games/dddhd/spirit-facts.json:1528` / `[18].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1539`; output `src/games/dddhd/content.json:15657`.
+- `dddhd:recipe:hebby-repp:source-5` — `src/games/dddhd/spirit-facts.json:1543` / `[18].formulas[4]`; probability=70%, alternate=Peepsta Hoo at `src/games/dddhd/spirit-facts.json:1554`; output `src/games/dddhd/content.json:15673`.
+- `dddhd:recipe:hebby-repp:source-6` — `src/games/dddhd/spirit-facts.json:1558` / `[18].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1569`; output `src/games/dddhd/content.json:15689`.
+- `dddhd:recipe:iceguin-ace:source-1` — `src/games/dddhd/spirit-facts.json:1585` / `[19].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1596`; output `src/games/dddhd/content.json:15705`.
+- `dddhd:recipe:iceguin-ace:source-2` — `src/games/dddhd/spirit-facts.json:1600` / `[19].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1611`; output `src/games/dddhd/content.json:15721`.
+- `dddhd:recipe:iceguin-ace:source-3` — `src/games/dddhd/spirit-facts.json:1615` / `[19].formulas[2]`; probability=60%, alternate=Halbird at `src/games/dddhd/spirit-facts.json:1626`; output `src/games/dddhd/content.json:15737`.
+- `dddhd:recipe:iceguin-ace:source-4` — `src/games/dddhd/spirit-facts.json:1630` / `[19].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1641`; output `src/games/dddhd/content.json:15753`.
+- `dddhd:recipe:iceguin-ace:source-5` — `src/games/dddhd/spirit-facts.json:1645` / `[19].formulas[4]`; probability=40%, alternate=Kooma Panda at `src/games/dddhd/spirit-facts.json:1656`; output `src/games/dddhd/content.json:15769`.
+- `dddhd:recipe:iceguin-ace:source-6` — `src/games/dddhd/spirit-facts.json:1660` / `[19].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1671`; output `src/games/dddhd/content.json:15785`.
+- `dddhd:recipe:jestabocky:source-1` — `src/games/dddhd/spirit-facts.json:1687` / `[20].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1698`; output `src/games/dddhd/content.json:15801`.
+- `dddhd:recipe:jestabocky:source-2` — `src/games/dddhd/spirit-facts.json:1702` / `[20].formulas[1]`; probability=30%, alternate=Escarglow at `src/games/dddhd/spirit-facts.json:1713`; output `src/games/dddhd/content.json:15817`.
+- `dddhd:recipe:jestabocky:source-3` — `src/games/dddhd/spirit-facts.json:1717` / `[20].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1728`; output `src/games/dddhd/content.json:15833`.
+- `dddhd:recipe:jestabocky:source-4` — `src/games/dddhd/spirit-facts.json:1732` / `[20].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1743`; output `src/games/dddhd/content.json:15849`.
+- `dddhd:recipe:juggle-pup:source-1` — `src/games/dddhd/spirit-facts.json:1759` / `[21].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1770`; output `src/games/dddhd/content.json:15865`.
+- `dddhd:recipe:juggle-pup:source-2` — `src/games/dddhd/spirit-facts.json:1774` / `[21].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1785`; output `src/games/dddhd/content.json:15881`.
+- `dddhd:recipe:juggle-pup:source-3` — `src/games/dddhd/spirit-facts.json:1789` / `[21].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1800`; output `src/games/dddhd/content.json:15897`.
+- `dddhd:recipe:juggle-pup:source-4` — `src/games/dddhd/spirit-facts.json:1804` / `[21].formulas[3]`; probability=40%, alternate=Necho Cat at `src/games/dddhd/spirit-facts.json:1815`; output `src/games/dddhd/content.json:15913`.
+- `dddhd:recipe:juggle-pup:source-5` — `src/games/dddhd/spirit-facts.json:1819` / `[21].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1830`; output `src/games/dddhd/content.json:15929`.
+- `dddhd:recipe:ko-kabuto:source-1` — `src/games/dddhd/spirit-facts.json:1846` / `[22].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1857`; output `src/games/dddhd/content.json:15945`.
+- `dddhd:recipe:ko-kabuto:source-2` — `src/games/dddhd/spirit-facts.json:1861` / `[22].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1872`; output `src/games/dddhd/content.json:15961`.
+- `dddhd:recipe:ko-kabuto:source-3` — `src/games/dddhd/spirit-facts.json:1876` / `[22].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1887`; output `src/games/dddhd/content.json:15977`.
+- `dddhd:recipe:ko-kabuto:source-4` — `src/games/dddhd/spirit-facts.json:1891` / `[22].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1902`; output `src/games/dddhd/content.json:15993`.
+- `dddhd:recipe:ko-kabuto:source-5` — `src/games/dddhd/spirit-facts.json:1906` / `[22].formulas[4]`; probability=60%, alternate=Staggerceps at `src/games/dddhd/spirit-facts.json:1917`; output `src/games/dddhd/content.json:16009`.
+- `dddhd:recipe:ko-kabuto:source-6` — `src/games/dddhd/spirit-facts.json:1921` / `[22].formulas[5]`; probability=40%, alternate=Staggerceps at `src/games/dddhd/spirit-facts.json:1932`; output `src/games/dddhd/content.json:16025`.
+- `dddhd:recipe:ko-kabuto:source-7` — `src/games/dddhd/spirit-facts.json:1936` / `[22].formulas[6]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1947`; output `src/games/dddhd/content.json:16041`.
+- `dddhd:recipe:kab-kannon:1` — `src/games/dddhd/spirit-facts.json:1963` / `[23].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1974`; output `src/games/dddhd/content.json:16057`.
+- `dddhd:recipe:kab-kannon:2` — `src/games/dddhd/spirit-facts.json:1978` / `[23].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:1989`; output `src/games/dddhd/content.json:16073`.
+- `dddhd:recipe:kab-kannon:3` — `src/games/dddhd/spirit-facts.json:1993` / `[23].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2004`; output `src/games/dddhd/content.json:16089`.
+- `dddhd:recipe:kab-kannon:4` — `src/games/dddhd/spirit-facts.json:2008` / `[23].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2019`; output `src/games/dddhd/content.json:16105`.
+- `dddhd:recipe:keeba-tiger:source-1` — `src/games/dddhd/spirit-facts.json:2035` / `[24].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2046`; output `src/games/dddhd/content.json:16121`.
+- `dddhd:recipe:keeba-tiger:source-2` — `src/games/dddhd/spirit-facts.json:2050` / `[24].formulas[1]`; probability=40%, alternate=Aura Lion at `src/games/dddhd/spirit-facts.json:2061`; output `src/games/dddhd/content.json:16137`.
+- `dddhd:recipe:keeba-tiger:source-3` — `src/games/dddhd/spirit-facts.json:2065` / `[24].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2076`; output `src/games/dddhd/content.json:16153`.
+- `dddhd:recipe:komory-bat:source-1` — `src/games/dddhd/spirit-facts.json:2092` / `[25].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2103`; output `src/games/dddhd/content.json:16169`.
+- `dddhd:recipe:komory-bat:source-2` — `src/games/dddhd/spirit-facts.json:2107` / `[25].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2118`; output `src/games/dddhd/content.json:16185`.
+- `dddhd:recipe:komory-bat:source-3` — `src/games/dddhd/spirit-facts.json:2122` / `[25].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2133`; output `src/games/dddhd/content.json:16201`.
+- `dddhd:recipe:komory-bat:source-4` — `src/games/dddhd/spirit-facts.json:2137` / `[25].formulas[3]`; probability=70%, alternate=Toximander at `src/games/dddhd/spirit-facts.json:2148`; output `src/games/dddhd/content.json:16217`.
+- `dddhd:recipe:komory-bat:source-5` — `src/games/dddhd/spirit-facts.json:2152` / `[25].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2163`; output `src/games/dddhd/content.json:16233`.
+- `dddhd:recipe:kooma-panda:source-1` — `src/games/dddhd/spirit-facts.json:2179` / `[26].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2190`; output `src/games/dddhd/content.json:16249`.
+- `dddhd:recipe:kooma-panda:source-2` — `src/games/dddhd/spirit-facts.json:2194` / `[26].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2205`; output `src/games/dddhd/content.json:16265`.
+- `dddhd:recipe:kooma-panda:source-3` — `src/games/dddhd/spirit-facts.json:2209` / `[26].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2220`; output `src/games/dddhd/content.json:16281`.
+- `dddhd:recipe:kooma-panda:source-4` — `src/games/dddhd/spirit-facts.json:2224` / `[26].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2235`; output `src/games/dddhd/content.json:16297`.
+- `dddhd:recipe:kooma-panda:source-5` — `src/games/dddhd/spirit-facts.json:2239` / `[26].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2250`; output `src/games/dddhd/content.json:16313`.
+- `dddhd:recipe:kooma-panda:source-6` — `src/games/dddhd/spirit-facts.json:2254` / `[26].formulas[5]`; probability=60%, alternate=Iceguin Ace at `src/games/dddhd/spirit-facts.json:2265`; output `src/games/dddhd/content.json:16329`.
+- `dddhd:recipe:lord-kyroo:source-1` — `src/games/dddhd/spirit-facts.json:2281` / `[27].formulas[0]`; probability=30%, alternate=Chef Kyroo at `src/games/dddhd/spirit-facts.json:2292`; output `src/games/dddhd/content.json:16345`.
+- `dddhd:recipe:lord-kyroo:source-2` — `src/games/dddhd/spirit-facts.json:2296` / `[27].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2307`; output `src/games/dddhd/content.json:16361`.
+- `dddhd:recipe:lord-kyroo:source-3` — `src/games/dddhd/spirit-facts.json:2311` / `[27].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2322`; output `src/games/dddhd/content.json:16377`.
+- `dddhd:recipe:lord-kyroo:source-4` — `src/games/dddhd/spirit-facts.json:2326` / `[27].formulas[3]`; probability=20%, alternate=Ryu Dragon at `src/games/dddhd/spirit-facts.json:2337`; output `src/games/dddhd/content.json:16393`.
+- `dddhd:recipe:majik-lapin:source-1` — `src/games/dddhd/spirit-facts.json:2353` / `[28].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2364`; output `src/games/dddhd/content.json:16409`.
+- `dddhd:recipe:majik-lapin:source-2` — `src/games/dddhd/spirit-facts.json:2368` / `[28].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2379`; output `src/games/dddhd/content.json:16425`.
+- `dddhd:recipe:majik-lapin:source-3` — `src/games/dddhd/spirit-facts.json:2383` / `[28].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2394`; output `src/games/dddhd/content.json:16441`.
+- `dddhd:recipe:majik-lapin:source-4` — `src/games/dddhd/spirit-facts.json:2398` / `[28].formulas[3]`; probability=30%, alternate=Me Me Bunny at `src/games/dddhd/spirit-facts.json:2409`; output `src/games/dddhd/content.json:16457`.
+- `dddhd:recipe:majik-lapin:source-5` — `src/games/dddhd/spirit-facts.json:2413` / `[28].formulas[4]`; probability=40%, alternate=Peepsta Hoo at `src/games/dddhd/spirit-facts.json:2424`; output `src/games/dddhd/content.json:16473`.
+- `dddhd:recipe:majik-lapin:source-6` — `src/games/dddhd/spirit-facts.json:2428` / `[28].formulas[5]`; probability=40%, alternate=Ghostabocky at `src/games/dddhd/spirit-facts.json:2439`; output `src/games/dddhd/content.json:16489`.
+- `dddhd:recipe:majik-lapin:source-7` — `src/games/dddhd/spirit-facts.json:2443` / `[28].formulas[6]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2454`; output `src/games/dddhd/content.json:16505`.
+- `dddhd:recipe:majik-lapin:source-8` — `src/games/dddhd/spirit-facts.json:2458` / `[28].formulas[7]`; probability=60%, alternate=Aura Lion at `src/games/dddhd/spirit-facts.json:2469`; output `src/games/dddhd/content.json:16521`.
+- `dddhd:recipe:me-me-bunny:source-1` — `src/games/dddhd/spirit-facts.json:2485` / `[29].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2496`; output `src/games/dddhd/content.json:16537`.
+- `dddhd:recipe:me-me-bunny:source-2` — `src/games/dddhd/spirit-facts.json:2500` / `[29].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2511`; output `src/games/dddhd/content.json:16553`.
+- `dddhd:recipe:me-me-bunny:source-3` — `src/games/dddhd/spirit-facts.json:2515` / `[29].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2526`; output `src/games/dddhd/content.json:16569`.
+- `dddhd:recipe:me-me-bunny:source-4` — `src/games/dddhd/spirit-facts.json:2530` / `[29].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2541`; output `src/games/dddhd/content.json:16585`.
+- `dddhd:recipe:me-me-bunny:source-5` — `src/games/dddhd/spirit-facts.json:2545` / `[29].formulas[4]`; probability=70%, alternate=Majik Lapin at `src/games/dddhd/spirit-facts.json:2556`; output `src/games/dddhd/content.json:16601`.
+- `dddhd:recipe:me-me-bunny:source-6` — `src/games/dddhd/spirit-facts.json:2560` / `[29].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2571`; output `src/games/dddhd/content.json:16617`.
+- `dddhd:recipe:meow-wow:source-1` — `src/games/dddhd/spirit-facts.json:2587` / `[30].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2598`; output `src/games/dddhd/content.json:16633`.
+- `dddhd:recipe:meow-wow:source-2` — `src/games/dddhd/spirit-facts.json:2602` / `[30].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2613`; output `src/games/dddhd/content.json:16649`.
+- `dddhd:recipe:meow-wow:source-3` — `src/games/dddhd/spirit-facts.json:2617` / `[30].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2628`; output `src/games/dddhd/content.json:16665`.
+- `dddhd:recipe:meow-wow:source-4` — `src/games/dddhd/spirit-facts.json:2632` / `[30].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2643`; output `src/games/dddhd/content.json:16681`.
+- `dddhd:recipe:meow-wow:source-5` — `src/games/dddhd/spirit-facts.json:2647` / `[30].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2658`; output `src/games/dddhd/content.json:16697`.
+- `dddhd:recipe:meow-wow:source-6` — `src/games/dddhd/spirit-facts.json:2662` / `[30].formulas[5]`; probability=90%, alternate=Flowbermeow at `src/games/dddhd/spirit-facts.json:2673`; output `src/games/dddhd/content.json:16713`.
+- `dddhd:recipe:meowjesty:source-1` — `src/games/dddhd/spirit-facts.json:2689` / `[31].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2700`; output `src/games/dddhd/content.json:16729`.
+- `dddhd:recipe:meowjesty:source-2` — `src/games/dddhd/spirit-facts.json:2704` / `[31].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2715`; output `src/games/dddhd/content.json:16745`.
+- `dddhd:recipe:necho-cat:source-1` — `src/games/dddhd/spirit-facts.json:2731` / `[32].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2742`; output `src/games/dddhd/content.json:16761`.
+- `dddhd:recipe:necho-cat:source-2` — `src/games/dddhd/spirit-facts.json:2746` / `[32].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2757`; output `src/games/dddhd/content.json:16777`.
+- `dddhd:recipe:necho-cat:source-3` — `src/games/dddhd/spirit-facts.json:2761` / `[32].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2772`; output `src/games/dddhd/content.json:16793`.
+- `dddhd:recipe:necho-cat:source-4` — `src/games/dddhd/spirit-facts.json:2776` / `[32].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2787`; output `src/games/dddhd/content.json:16809`.
+- `dddhd:recipe:necho-cat:source-5` — `src/games/dddhd/spirit-facts.json:2791` / `[32].formulas[4]`; probability=40%, alternate=Woeflower at `src/games/dddhd/spirit-facts.json:2802`; output `src/games/dddhd/content.json:16825`.
+- `dddhd:recipe:necho-cat:source-6` — `src/games/dddhd/spirit-facts.json:2806` / `[32].formulas[5]`; probability=60%, alternate=Juggle Pup at `src/games/dddhd/spirit-facts.json:2817`; output `src/games/dddhd/content.json:16841`.
+- `dddhd:recipe:necho-cat:source-7` — `src/games/dddhd/spirit-facts.json:2821` / `[32].formulas[6]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2832`; output `src/games/dddhd/content.json:16857`.
+- `dddhd:recipe:peepsta-hoo:source-1` — `src/games/dddhd/spirit-facts.json:2848` / `[33].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2859`; output `src/games/dddhd/content.json:16873`.
+- `dddhd:recipe:peepsta-hoo:source-2` — `src/games/dddhd/spirit-facts.json:2863` / `[33].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2874`; output `src/games/dddhd/content.json:16889`.
+- `dddhd:recipe:peepsta-hoo:source-3` — `src/games/dddhd/spirit-facts.json:2878` / `[33].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2889`; output `src/games/dddhd/content.json:16905`.
+- `dddhd:recipe:peepsta-hoo:source-4` — `src/games/dddhd/spirit-facts.json:2893` / `[33].formulas[3]`; probability=30%, alternate=Hebby Repp at `src/games/dddhd/spirit-facts.json:2904`; output `src/games/dddhd/content.json:16921`.
+- `dddhd:recipe:peepsta-hoo:source-5` — `src/games/dddhd/spirit-facts.json:2908` / `[33].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2919`; output `src/games/dddhd/content.json:16937`.
+- `dddhd:recipe:peepsta-hoo:source-6` — `src/games/dddhd/spirit-facts.json:2923` / `[33].formulas[5]`; probability=60%, alternate=Majik Lapin at `src/games/dddhd/spirit-facts.json:2934`; output `src/games/dddhd/content.json:16953`.
+- `dddhd:recipe:pegaslick:source-1` — `src/games/dddhd/spirit-facts.json:2950` / `[34].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2961`; output `src/games/dddhd/content.json:16969`.
+- `dddhd:recipe:pegaslick:source-2` — `src/games/dddhd/spirit-facts.json:2965` / `[34].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2976`; output `src/games/dddhd/content.json:16985`.
+- `dddhd:recipe:pegaslick:source-3` — `src/games/dddhd/spirit-facts.json:2980` / `[34].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:2991`; output `src/games/dddhd/content.json:17001`.
+- `dddhd:recipe:pegaslick:source-4` — `src/games/dddhd/spirit-facts.json:2995` / `[34].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3006`; output `src/games/dddhd/content.json:17017`.
+- `dddhd:recipe:pegaslick:source-5` — `src/games/dddhd/spirit-facts.json:3010` / `[34].formulas[4]`; probability=40%, alternate=Thunderaffe at `src/games/dddhd/spirit-facts.json:3021`; output `src/games/dddhd/content.json:17033`.
+- `dddhd:recipe:pegaslick:source-6` — `src/games/dddhd/spirit-facts.json:3025` / `[34].formulas[5]`; probability=40%, alternate=Electricorn at `src/games/dddhd/spirit-facts.json:3036`; output `src/games/dddhd/content.json:17049`.
+- `dddhd:recipe:pegaslick:source-7` — `src/games/dddhd/spirit-facts.json:3040` / `[34].formulas[6]`; probability=80%, alternate=Ryu Dragon at `src/games/dddhd/spirit-facts.json:3051`; output `src/games/dddhd/content.json:17065`.
+- `dddhd:recipe:pricklemane:source-1` — `src/games/dddhd/spirit-facts.json:3067` / `[35].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3078`; output `src/games/dddhd/content.json:17081`.
+- `dddhd:recipe:pricklemane:source-2` — `src/games/dddhd/spirit-facts.json:3082` / `[35].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3093`; output `src/games/dddhd/content.json:17097`.
+- `dddhd:recipe:pricklemane:source-3` — `src/games/dddhd/spirit-facts.json:3097` / `[35].formulas[2]`; probability=40%, alternate=Tama Sheep at `src/games/dddhd/spirit-facts.json:3108`; output `src/games/dddhd/content.json:17113`.
+- `dddhd:recipe:pricklemane:source-4` — `src/games/dddhd/spirit-facts.json:3112` / `[35].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3123`; output `src/games/dddhd/content.json:17129`.
+- `dddhd:recipe:pricklemane:source-5` — `src/games/dddhd/spirit-facts.json:3127` / `[35].formulas[4]`; probability=80%, alternate=Drill Sye at `src/games/dddhd/spirit-facts.json:3138`; output `src/games/dddhd/content.json:17145`.
+- `dddhd:recipe:r-r-seal:1` — `src/games/dddhd/spirit-facts.json:3154` / `[36].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3165`; output `src/games/dddhd/content.json:17161`.
+- `dddhd:recipe:r-r-seal:2` — `src/games/dddhd/spirit-facts.json:3169` / `[36].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3180`; output `src/games/dddhd/content.json:17177`.
+- `dddhd:recipe:r-r-seal:3` — `src/games/dddhd/spirit-facts.json:3184` / `[36].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3195`; output `src/games/dddhd/content.json:17193`.
+- `dddhd:recipe:r-r-seal:4` — `src/games/dddhd/spirit-facts.json:3199` / `[36].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3210`; output `src/games/dddhd/content.json:17209`.
+- `dddhd:recipe:ryu-dragon:source-1` — `src/games/dddhd/spirit-facts.json:3226` / `[37].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3237`; output `src/games/dddhd/content.json:17225`.
+- `dddhd:recipe:ryu-dragon:source-2` — `src/games/dddhd/spirit-facts.json:3241` / `[37].formulas[1]`; probability=20%, alternate=Pegaslick at `src/games/dddhd/spirit-facts.json:3252`; output `src/games/dddhd/content.json:17241`.
+- `dddhd:recipe:ryu-dragon:source-3` — `src/games/dddhd/spirit-facts.json:3256` / `[37].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3267`; output `src/games/dddhd/content.json:17257`.
+- `dddhd:recipe:ryu-dragon:source-4` — `src/games/dddhd/spirit-facts.json:3271` / `[37].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3282`; output `src/games/dddhd/content.json:17273`.
+- `dddhd:recipe:ryu-dragon:source-5` — `src/games/dddhd/spirit-facts.json:3286` / `[37].formulas[4]`; probability=80%, alternate=Lord Kyroo at `src/games/dddhd/spirit-facts.json:3297`; output `src/games/dddhd/content.json:17289`.
+- `dddhd:recipe:sir-kyroo:source-1` — `src/games/dddhd/spirit-facts.json:3313` / `[38].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3324`; output `src/games/dddhd/content.json:17305`.
+- `dddhd:recipe:sir-kyroo:source-2` — `src/games/dddhd/spirit-facts.json:3328` / `[38].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3339`; output `src/games/dddhd/content.json:17321`.
+- `dddhd:recipe:sir-kyroo:source-3` — `src/games/dddhd/spirit-facts.json:3343` / `[38].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3354`; output `src/games/dddhd/content.json:17337`.
+- `dddhd:recipe:sir-kyroo:source-4` — `src/games/dddhd/spirit-facts.json:3358` / `[38].formulas[3]`; probability=60%, alternate=Chef Kyroo at `src/games/dddhd/spirit-facts.json:3369`; output `src/games/dddhd/content.json:17353`.
+- `dddhd:recipe:sir-kyroo:source-5` — `src/games/dddhd/spirit-facts.json:3373` / `[38].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3384`; output `src/games/dddhd/content.json:17369`.
+- `dddhd:recipe:sir-kyroo:source-6` — `src/games/dddhd/spirit-facts.json:3388` / `[38].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3399`; output `src/games/dddhd/content.json:17385`.
+- `dddhd:recipe:skelterwild:source-1` — `src/games/dddhd/spirit-facts.json:3415` / `[39].formulas[0]`; probability=20%, alternate=Fishboné at `src/games/dddhd/spirit-facts.json:3426`; output `src/games/dddhd/content.json:17401`.
+- `dddhd:recipe:skelterwild:source-2` — `src/games/dddhd/spirit-facts.json:3430` / `[39].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3441`; output `src/games/dddhd/content.json:17417`.
+- `dddhd:recipe:skelterwild:source-3` — `src/games/dddhd/spirit-facts.json:3445` / `[39].formulas[2]`; probability=40%, alternate=Tyranto Rex at `src/games/dddhd/spirit-facts.json:3456`; output `src/games/dddhd/content.json:17433`.
+- `dddhd:recipe:staggerceps:source-1` — `src/games/dddhd/spirit-facts.json:3472` / `[40].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3483`; output `src/games/dddhd/content.json:17449`.
+- `dddhd:recipe:staggerceps:source-2` — `src/games/dddhd/spirit-facts.json:3487` / `[40].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3498`; output `src/games/dddhd/content.json:17465`.
+- `dddhd:recipe:staggerceps:source-3` — `src/games/dddhd/spirit-facts.json:3502` / `[40].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3513`; output `src/games/dddhd/content.json:17481`.
+- `dddhd:recipe:staggerceps:source-4` — `src/games/dddhd/spirit-facts.json:3517` / `[40].formulas[3]`; probability=40%, alternate=KO Kabuto at `src/games/dddhd/spirit-facts.json:3528`; output `src/games/dddhd/content.json:17497`.
+- `dddhd:recipe:staggerceps:source-5` — `src/games/dddhd/spirit-facts.json:3532` / `[40].formulas[4]`; probability=60%, alternate=KO Kabuto at `src/games/dddhd/spirit-facts.json:3543`; output `src/games/dddhd/content.json:17513`.
+- `dddhd:recipe:staggerceps:source-6` — `src/games/dddhd/spirit-facts.json:3547` / `[40].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3558`; output `src/games/dddhd/content.json:17529`.
+- `dddhd:recipe:sudo-neku:1` — `src/games/dddhd/spirit-facts.json:3574` / `[41].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3585`; output `src/games/dddhd/content.json:17545`.
+- `dddhd:recipe:sudo-neku:2` — `src/games/dddhd/spirit-facts.json:3589` / `[41].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3600`; output `src/games/dddhd/content.json:17561`.
+- `dddhd:recipe:tama-sheep:source-1` — `src/games/dddhd/spirit-facts.json:3616` / `[42].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3627`; output `src/games/dddhd/content.json:17577`.
+- `dddhd:recipe:tama-sheep:source-2` — `src/games/dddhd/spirit-facts.json:3631` / `[42].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3642`; output `src/games/dddhd/content.json:17593`.
+- `dddhd:recipe:tama-sheep:source-3` — `src/games/dddhd/spirit-facts.json:3646` / `[42].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3657`; output `src/games/dddhd/content.json:17609`.
+- `dddhd:recipe:tama-sheep:source-4` — `src/games/dddhd/spirit-facts.json:3661` / `[42].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3672`; output `src/games/dddhd/content.json:17625`.
+- `dddhd:recipe:tama-sheep:source-5` — `src/games/dddhd/spirit-facts.json:3676` / `[42].formulas[4]`; probability=60%, alternate=Pricklemane at `src/games/dddhd/spirit-facts.json:3687`; output `src/games/dddhd/content.json:17641`.
+- `dddhd:recipe:tama-sheep:source-6` — `src/games/dddhd/spirit-facts.json:3691` / `[42].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3702`; output `src/games/dddhd/content.json:17657`.
+- `dddhd:recipe:tatsu-blaze:source-1` — `src/games/dddhd/spirit-facts.json:3718` / `[43].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3729`; output `src/games/dddhd/content.json:17673`.
+- `dddhd:recipe:tatsu-blaze:source-2` — `src/games/dddhd/spirit-facts.json:3733` / `[43].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3744`; output `src/games/dddhd/content.json:17689`.
+- `dddhd:recipe:tatsu-blaze:source-3` — `src/games/dddhd/spirit-facts.json:3748` / `[43].formulas[2]`; probability=40%, alternate=Tatsu Steed at `src/games/dddhd/spirit-facts.json:3759`; output `src/games/dddhd/content.json:17705`.
+- `dddhd:recipe:tatsu-blaze:source-4` — `src/games/dddhd/spirit-facts.json:3763` / `[43].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3774`; output `src/games/dddhd/content.json:17721`.
+- `dddhd:recipe:tatsu-blaze:source-5` — `src/games/dddhd/spirit-facts.json:3778` / `[43].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3789`; output `src/games/dddhd/content.json:17737`.
+- `dddhd:recipe:tatsu-steed:source-1` — `src/games/dddhd/spirit-facts.json:3805` / `[44].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3816`; output `src/games/dddhd/content.json:17753`.
+- `dddhd:recipe:tatsu-steed:source-2` — `src/games/dddhd/spirit-facts.json:3820` / `[44].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3831`; output `src/games/dddhd/content.json:17769`.
+- `dddhd:recipe:tatsu-steed:source-3` — `src/games/dddhd/spirit-facts.json:3835` / `[44].formulas[2]`; probability=60%, alternate=Tatsu Blaze at `src/games/dddhd/spirit-facts.json:3846`; output `src/games/dddhd/content.json:17785`.
+- `dddhd:recipe:tatsu-steed:source-4` — `src/games/dddhd/spirit-facts.json:3850` / `[44].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3861`; output `src/games/dddhd/content.json:17801`.
+- `dddhd:recipe:thunderaffe:source-1` — `src/games/dddhd/spirit-facts.json:3877` / `[45].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3888`; output `src/games/dddhd/content.json:17817`.
+- `dddhd:recipe:thunderaffe:source-2` — `src/games/dddhd/spirit-facts.json:3892` / `[45].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3903`; output `src/games/dddhd/content.json:17833`.
+- `dddhd:recipe:thunderaffe:source-3` — `src/games/dddhd/spirit-facts.json:3907` / `[45].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3918`; output `src/games/dddhd/content.json:17849`.
+- `dddhd:recipe:thunderaffe:source-4` — `src/games/dddhd/spirit-facts.json:3922` / `[45].formulas[3]`; probability=60%, alternate=Pegaslick at `src/games/dddhd/spirit-facts.json:3933`; output `src/games/dddhd/content.json:17865`.
+- `dddhd:recipe:thunderaffe:source-5` — `src/games/dddhd/spirit-facts.json:3937` / `[45].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3948`; output `src/games/dddhd/content.json:17881`.
+- `dddhd:recipe:toximander:source-1` — `src/games/dddhd/spirit-facts.json:3964` / `[46].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3975`; output `src/games/dddhd/content.json:17897`.
+- `dddhd:recipe:toximander:source-2` — `src/games/dddhd/spirit-facts.json:3979` / `[46].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:3990`; output `src/games/dddhd/content.json:17913`.
+- `dddhd:recipe:toximander:source-3` — `src/games/dddhd/spirit-facts.json:3994` / `[46].formulas[2]`; probability=30%, alternate=Komory Bat at `src/games/dddhd/spirit-facts.json:4005`; output `src/games/dddhd/content.json:17929`.
+- `dddhd:recipe:toximander:source-4` — `src/games/dddhd/spirit-facts.json:4009` / `[46].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4020`; output `src/games/dddhd/content.json:17945`.
+- `dddhd:recipe:toximander:source-5` — `src/games/dddhd/spirit-facts.json:4024` / `[46].formulas[4]`; probability=60%, alternate=Escarglow at `src/games/dddhd/spirit-facts.json:4035`; output `src/games/dddhd/content.json:17961`.
+- `dddhd:recipe:toximander:source-6` — `src/games/dddhd/spirit-facts.json:4039` / `[46].formulas[5]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4050`; output `src/games/dddhd/content.json:17977`.
+- `dddhd:recipe:toximander:source-7` — `src/games/dddhd/spirit-facts.json:4054` / `[46].formulas[6]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4065`; output `src/games/dddhd/content.json:17993`.
+- `dddhd:recipe:tubguin-ace:1` — `src/games/dddhd/spirit-facts.json:4081` / `[47].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4092`; output `src/games/dddhd/content.json:18009`.
+- `dddhd:recipe:tubguin-ace:2` — `src/games/dddhd/spirit-facts.json:4096` / `[47].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4107`; output `src/games/dddhd/content.json:18025`.
+- `dddhd:recipe:tubguin-ace:3` — `src/games/dddhd/spirit-facts.json:4111` / `[47].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4122`; output `src/games/dddhd/content.json:18041`.
+- `dddhd:recipe:tubguin-ace:4` — `src/games/dddhd/spirit-facts.json:4126` / `[47].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4137`; output `src/games/dddhd/content.json:18057`.
+- `dddhd:recipe:tyranto-rex:source-1` — `src/games/dddhd/spirit-facts.json:4153` / `[48].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4164`; output `src/games/dddhd/content.json:18073`.
+- `dddhd:recipe:tyranto-rex:source-2` — `src/games/dddhd/spirit-facts.json:4168` / `[48].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4179`; output `src/games/dddhd/content.json:18089`.
+- `dddhd:recipe:tyranto-rex:source-3` — `src/games/dddhd/spirit-facts.json:4183` / `[48].formulas[2]`; probability=60%, alternate=Skelterwild at `src/games/dddhd/spirit-facts.json:4194`; output `src/games/dddhd/content.json:18105`.
+- `dddhd:recipe:ursa-circus:source-1` — `src/games/dddhd/spirit-facts.json:4210` / `[49].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4221`; output `src/games/dddhd/content.json:18121`.
+- `dddhd:recipe:ursa-circus:source-2` — `src/games/dddhd/spirit-facts.json:4225` / `[49].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4236`; output `src/games/dddhd/content.json:18137`.
+- `dddhd:recipe:wheeflower:source-1` — `src/games/dddhd/spirit-facts.json:4252` / `[50].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4263`; output `src/games/dddhd/content.json:18153`.
+- `dddhd:recipe:wheeflower:source-2` — `src/games/dddhd/spirit-facts.json:4267` / `[50].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4278`; output `src/games/dddhd/content.json:18169`.
+- `dddhd:recipe:wheeflower:source-3` — `src/games/dddhd/spirit-facts.json:4282` / `[50].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4293`; output `src/games/dddhd/content.json:18185`.
+- `dddhd:recipe:wheeflower:source-4` — `src/games/dddhd/spirit-facts.json:4297` / `[50].formulas[3]`; probability=60%, alternate=Woeflower at `src/games/dddhd/spirit-facts.json:4308`; output `src/games/dddhd/content.json:18201`.
+- `dddhd:recipe:wheeflower:source-5` — `src/games/dddhd/spirit-facts.json:4312` / `[50].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4323`; output `src/games/dddhd/content.json:18217`.
+- `dddhd:recipe:woeflower:source-1` — `src/games/dddhd/spirit-facts.json:4339` / `[51].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4350`; output `src/games/dddhd/content.json:18233`.
+- `dddhd:recipe:woeflower:source-2` — `src/games/dddhd/spirit-facts.json:4354` / `[51].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4365`; output `src/games/dddhd/content.json:18249`.
+- `dddhd:recipe:woeflower:source-3` — `src/games/dddhd/spirit-facts.json:4369` / `[51].formulas[2]`; probability=40%, alternate=Wheeflower at `src/games/dddhd/spirit-facts.json:4380`; output `src/games/dddhd/content.json:18265`.
+- `dddhd:recipe:woeflower:source-4` — `src/games/dddhd/spirit-facts.json:4384` / `[51].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4395`; output `src/games/dddhd/content.json:18281`.
+- `dddhd:recipe:woeflower:source-5` — `src/games/dddhd/spirit-facts.json:4399` / `[51].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4410`; output `src/games/dddhd/content.json:18297`.
+- `dddhd:recipe:woeflower:source-6` — `src/games/dddhd/spirit-facts.json:4414` / `[51].formulas[5]`; probability=60%, alternate=Necho Cat at `src/games/dddhd/spirit-facts.json:4425`; output `src/games/dddhd/content.json:18313`.
+- `dddhd:recipe:yoggy-ram:source-1` — `src/games/dddhd/spirit-facts.json:4441` / `[52].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4452`; output `src/games/dddhd/content.json:18329`.
+- `dddhd:recipe:yoggy-ram:source-2` — `src/games/dddhd/spirit-facts.json:4456` / `[52].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4467`; output `src/games/dddhd/content.json:18345`.
+- `dddhd:recipe:yoggy-ram:source-3` — `src/games/dddhd/spirit-facts.json:4471` / `[52].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4482`; output `src/games/dddhd/content.json:18361`.
+- `dddhd:recipe:yoggy-ram:source-4` — `src/games/dddhd/spirit-facts.json:4486` / `[52].formulas[3]`; probability=70%, alternate=Cyber Yog at `src/games/dddhd/spirit-facts.json:4497`; output `src/games/dddhd/content.json:18377`.
+- `dddhd:recipe:yoggy-ram:source-5` — `src/games/dddhd/spirit-facts.json:4501` / `[52].formulas[4]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4512`; output `src/games/dddhd/content.json:18393`.
+- `dddhd:recipe:zolephant:source-1` — `src/games/dddhd/spirit-facts.json:4528` / `[53].formulas[0]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4539`; output `src/games/dddhd/content.json:18409`.
+- `dddhd:recipe:zolephant:source-2` — `src/games/dddhd/spirit-facts.json:4543` / `[53].formulas[1]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4554`; output `src/games/dddhd/content.json:18425`.
+- `dddhd:recipe:zolephant:source-3` — `src/games/dddhd/spirit-facts.json:4558` / `[53].formulas[2]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4569`; output `src/games/dddhd/content.json:18441`.
+- `dddhd:recipe:zolephant:source-4` — `src/games/dddhd/spirit-facts.json:4573` / `[53].formulas[3]`; probability=null, alternate=null at `src/games/dddhd/spirit-facts.json:4584`; output `src/games/dddhd/content.json:18457`.
+
+### Repeated unordered ingredient inputs
+
+These are possible shared outcome events, not automatically duplicate errors.
+
+- 2 Brilliant Fantasy + 4 Intrepid Fantasy: `dddhd:recipe:aura-lion:source-3`, `dddhd:recipe:keeba-tiger:source-2`.
+- 4 Intrepid Fantasy + 16 Wondrous Fantasy: `dddhd:recipe:aura-lion:source-4`, `dddhd:recipe:majik-lapin:source-8`.
+- 2 Epic Fantasy + 3 Vibrant Fantasy: `dddhd:recipe:cera-terror:source-4`, `dddhd:recipe:drill-sye:source-6`.
+- 5 Grim Fantasy + 2 Intrepid Fantasy: `dddhd:recipe:cera-terror:source-5`, `dddhd:recipe:electricorn:source-3`.
+- 10 Intrepid Figment + 6 Noble Fancy: `dddhd:recipe:chef-kyroo:source-3`, `dddhd:recipe:sir-kyroo:source-4`.
+- 2 Brilliant Fantasy + 2 Lofty Fantasy: `dddhd:recipe:chef-kyroo:source-5`, `dddhd:recipe:lord-kyroo:source-1`.
+- 1 Malleable Fantasy + 3 Wondrous Fancy: `dddhd:recipe:chef-kyroo:source-6`, `dddhd:recipe:peepsta-hoo:source-5`.
+- 4 Grim Figment + 3 Noble Fancy: `dddhd:recipe:cyber-yog:source-2`, `dddhd:recipe:sir-kyroo:source-1`.
+- 3 Dulcet Fancy + 5 Grim Figment: `dddhd:recipe:cyber-yog:source-5`, `dddhd:recipe:yoggy-ram:source-4`.
+- 4 Grim Fancy + 2 Noble Fantasy: `dddhd:recipe:cyber-yog:source-6`, `dddhd:recipe:eaglider:source-4`.
+- 4 Intrepid Figment + 1 Wild Fantasy: `dddhd:recipe:drill-sye:source-3`, `dddhd:recipe:pricklemane:source-5`.
+- 1 Epic Fantasy + 6 Lofty Fancy: `dddhd:recipe:eaglider:source-6`, `dddhd:recipe:halbird:source-3`.
+- 4 Fleeting Fancy + 12 Lofty Fancy: `dddhd:recipe:electricorn:source-4`, `dddhd:recipe:pegaslick:source-6`.
+- 1 Rampant Fantasy + 3 Troubling Fancy: `dddhd:recipe:escarglow:source-6`, `dddhd:recipe:toximander:source-5`.
+- 4 Noble Figment + 4 Wondrous Fancy: `dddhd:recipe:fin-fatale:source-4`, `dddhd:recipe:fishbone:source-3`.
+- 2 Noble Fantasy + 2 Wild Fantasy: `dddhd:recipe:fishbone:source-5`, `dddhd:recipe:skelterwild:source-1`.
+- 3 Malleable Fantasy + 2 Wild Fantasy: `dddhd:recipe:flowbermeow:source-3`, `dddhd:recipe:meow-wow:source-6`.
+- 2 Troubling Fantasy + 6 Wondrous Fantasy: `dddhd:recipe:ghostabocky:source-4`, `dddhd:recipe:majik-lapin:source-6`.
+- 3 Lofty Fancy + 5 Rampant Fancy: `dddhd:recipe:halbird:source-1`, `dddhd:recipe:iceguin-ace:source-3`.
+- 5 Intrepid Figment + 2 Troubling Fantasy: `dddhd:recipe:hebby-repp:source-5`, `dddhd:recipe:peepsta-hoo:source-4`.
+- 5 Intrepid Fancy + 2 Vibrant Fantasy: `dddhd:recipe:iceguin-ace:source-5`, `dddhd:recipe:kooma-panda:source-6`.
+- 4 Rampant Figment + 3 Vibrant Fancy: `dddhd:recipe:jestabocky:source-1`, `dddhd:recipe:meow-wow:source-2`.
+- 1 Charming Fantasy + 3 Dulcet Fancy: `dddhd:recipe:juggle-pup:source-4`, `dddhd:recipe:necho-cat:source-6`.
+- 3 Grim Fancy + 3 Noble Fancy: `dddhd:recipe:ko-kabuto:source-5`, `dddhd:recipe:staggerceps:source-4`.
+- 2 Intrepid Fantasy + 6 Noble Fancy: `dddhd:recipe:ko-kabuto:source-6`, `dddhd:recipe:staggerceps:source-5`.
+- 4 Intrepid Figment + 5 Troubling Figment: `dddhd:recipe:komory-bat:source-4`, `dddhd:recipe:toximander:source-3`.
+- 2 Brilliant Fantasy + 3 Epic Fantasy: `dddhd:recipe:lord-kyroo:source-4`, `dddhd:recipe:ryu-dragon:source-5`.
+- 3 Fleeting Fancy + 2 Lofty Fantasy: `dddhd:recipe:majik-lapin:source-4`, `dddhd:recipe:me-me-bunny:source-5`.
+- 1 Charming Fantasy + 3 Troubling Fantasy: `dddhd:recipe:majik-lapin:source-5`, `dddhd:recipe:peepsta-hoo:source-6`.
+- 1 Charming Fantasy + 3 Dulcet Fantasy: `dddhd:recipe:necho-cat:source-5`, `dddhd:recipe:woeflower:source-6`.
+- 2 Fleeting Fantasy + 3 Lofty Fancy: `dddhd:recipe:pegaslick:source-5`, `dddhd:recipe:thunderaffe:source-4`.
+- 1 Brilliant Fantasy + 4 Lofty Fantasy: `dddhd:recipe:pegaslick:source-7`, `dddhd:recipe:ryu-dragon:source-2`.
+- 5 Intrepid Figment + 4 Vibrant Figment: `dddhd:recipe:pricklemane:source-3`, `dddhd:recipe:tama-sheep:source-5`.
+- 3 Prickly Fantasy + 4 Wild Fantasy: `dddhd:recipe:skelterwild:source-3`, `dddhd:recipe:tyranto-rex:source-3`.
+- 5 Dulcet Figment + 4 Rampant Fancy: `dddhd:recipe:tatsu-blaze:source-3`, `dddhd:recipe:tatsu-steed:source-3`.
+- 1 Epic Fantasy + 3 Intrepid Fantasy: `dddhd:recipe:tyranto-rex:source-1`, `dddhd:recipe:ursa-circus:source-1`.
+- 4 Lofty Figment + 2 Troubling Fantasy: `dddhd:recipe:wheeflower:source-4`, `dddhd:recipe:woeflower:source-3`.
+
+### Empty source fields / rare-form source coverage
+
+No automatic missing-game-data inference is made from an absent rare variant.
+
+- `Aura Lion` — `src/games/dddhd/spirit-facts.json:3`, `[0]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Beatalike` — `src/games/dddhd/spirit-facts.json:75`, `[1]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Catanuki` — `src/games/dddhd/spirit-facts.json:132`, `[2]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Cera Terror` — `src/games/dddhd/spirit-facts.json:189`, `[3]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Chef Kyroo` — `src/games/dddhd/spirit-facts.json:291`, `[4]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Cyber Yog` — `src/games/dddhd/spirit-facts.json:393`, `[5]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Drak Quack` — `src/games/dddhd/spirit-facts.json:495`, `[6]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Drill Sye` — `src/games/dddhd/spirit-facts.json:552`, `[7]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Ducky Goose` — `src/games/dddhd/spirit-facts.json:654`, `[8]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Eaglider` — `src/games/dddhd/spirit-facts.json:711`, `[9]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Electricorn` — `src/games/dddhd/spirit-facts.json:813`, `[10]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Escarglow` — `src/games/dddhd/spirit-facts.json:885`, `[11]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Fin Fatale` — `src/games/dddhd/spirit-facts.json:1002`, `[12]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Fishboné` — `src/games/dddhd/spirit-facts.json:1104`, `[13]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Flowbermeow` — `src/games/dddhd/spirit-facts.json:1191`, `[14]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Frootz Cat` — `src/games/dddhd/spirit-facts.json:1248`, `[15]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Ghostabocky` — `src/games/dddhd/spirit-facts.json:1320`, `[16]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Halbird` — `src/games/dddhd/spirit-facts.json:1392`, `[17]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Hebby Repp` — `src/games/dddhd/spirit-facts.json:1479`, `[18]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Iceguin Ace` — `src/games/dddhd/spirit-facts.json:1581`, `[19]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Jestabocky` — `src/games/dddhd/spirit-facts.json:1683`, `[20]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Juggle Pup` — `src/games/dddhd/spirit-facts.json:1755`, `[21]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `KO Kabuto` — `src/games/dddhd/spirit-facts.json:1842`, `[22]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Kab Kannon` — `src/games/dddhd/spirit-facts.json:1959`, `[23]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Keeba Tiger` — `src/games/dddhd/spirit-facts.json:2031`, `[24]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Komory Bat` — `src/games/dddhd/spirit-facts.json:2088`, `[25]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Kooma Panda` — `src/games/dddhd/spirit-facts.json:2175`, `[26]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Lord Kyroo` — `src/games/dddhd/spirit-facts.json:2277`, `[27]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Majik Lapin` — `src/games/dddhd/spirit-facts.json:2349`, `[28]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Me Me Bunny` — `src/games/dddhd/spirit-facts.json:2481`, `[29]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Meow Wow` — `src/games/dddhd/spirit-facts.json:2583`, `[30]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Meowjesty` — `src/games/dddhd/spirit-facts.json:2685`, `[31]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Necho Cat` — `src/games/dddhd/spirit-facts.json:2727`, `[32]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Peepsta Hoo` — `src/games/dddhd/spirit-facts.json:2844`, `[33]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Pegaslick` — `src/games/dddhd/spirit-facts.json:2946`, `[34]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Pricklemane` — `src/games/dddhd/spirit-facts.json:3063`, `[35]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `R & R Seal` — `src/games/dddhd/spirit-facts.json:3150`, `[36]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Ryu Dragon` — `src/games/dddhd/spirit-facts.json:3222`, `[37]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Sir Kyroo` — `src/games/dddhd/spirit-facts.json:3309`, `[38]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Skelterwild` — `src/games/dddhd/spirit-facts.json:3411`, `[39]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Staggerceps` — `src/games/dddhd/spirit-facts.json:3468`, `[40]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Sudo Neku` — `src/games/dddhd/spirit-facts.json:3570`, `[41]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Tama Sheep` — `src/games/dddhd/spirit-facts.json:3612`, `[42]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Tatsu Blaze` — `src/games/dddhd/spirit-facts.json:3714`, `[43]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Tatsu Steed` — `src/games/dddhd/spirit-facts.json:3801`, `[44]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Thunderaffe` — `src/games/dddhd/spirit-facts.json:3873`, `[45]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Toximander` — `src/games/dddhd/spirit-facts.json:3960`, `[46]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Tubguin Ace` — `src/games/dddhd/spirit-facts.json:4077`, `[47]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Tyranto Rex` — `src/games/dddhd/spirit-facts.json:4149`, `[48]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Ursa Circus` — `src/games/dddhd/spirit-facts.json:4206`, `[49]`; empty fields: normalDrops, rareDrops, worlds; rare-drop field empty (applicability not inferred).
+- `Wheeflower` — `src/games/dddhd/spirit-facts.json:4248`, `[50]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Woeflower` — `src/games/dddhd/spirit-facts.json:4335`, `[51]`; empty fields: rareDrops; rare-drop field empty (applicability not inferred).
+- `Yoggy Ram` — `src/games/dddhd/spirit-facts.json:4437`, `[52]`; empty fields: none; rare-drop field present (normal-world location reused).
+- `Zolephant` — `src/games/dddhd/spirit-facts.json:4524`, `[53]`; empty fields: none; rare-drop field present (normal-world location reused).
+
+## Appendix C — Legacy candidate row/field occurrence ledger
+
+The archive is not a second current formula catalog. Each row ID is enumerated below with its exact row start; missing fields are column names in that row. All `spirit_unlocks` rows have the structural topology/gate omission (DDD-003); all Link pair rows retain HD validation/provenance limits (DDD-013). Null lookup target columns are abandoned relational metadata, not unknown gameplay. Blank Spirit attributes/styles have been superseded by the fetched 54-breed snapshot. `synthesis_item` recommendation totals are nonfactual obsolete planning fields.
+
+
+### `Spirit`
+
+- `1` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:13`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `2` (Beatalike) — `ai_docs/games/dddhd/legacy-factual-candidates.json:19`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `3` (Catanuki) — `ai_docs/games/dddhd/legacy-factual-candidates.json:25`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `4` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:31`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `5` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:37`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `6` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:43`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `7` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:49`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `8` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:55`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `9` (Ducky Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:61`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `10` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:67`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `11` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:73`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `12` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:79`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `13` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:85`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `14` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:91`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `15` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:97`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `16` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:103`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `17` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:109`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `18` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:115`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `19` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:121`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `20` (Jeggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:127`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `21` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:133`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `22` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:139`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `23` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:145`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `24` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:151`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `25` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:157`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `26` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:163`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `27` (Magic Rabbit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:169`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `28` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:175`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `29` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:181`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `30` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:187`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `31` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:193`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `32` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:199`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `33` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:205`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `34` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:211`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `35` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:217`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `36` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:223`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `37` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:229`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `38` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:235`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `39` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:241`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `40` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:247`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `41` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:253`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `42` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:259`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `43` (Tubguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:265`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `44` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:271`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `45` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:277`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `46` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:283`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `47` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:289`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `48` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:295`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `49` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:301`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `50` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:307`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `51` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:313`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+- `52` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:319`; null: attribute_type (fk common lookup), style_type (fk common lookup).
+
+### `common_lookup`
+
+- `1` (Sora) — `ai_docs/games/dddhd/legacy-factual-candidates.json:334`; null: common_lookup_table, common_lookup_column.
+- `2` (Riku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:341`; null: common_lookup_table, common_lookup_column.
+- `3` (Both) — `ai_docs/games/dddhd/legacy-factual-candidates.json:348`; null: common_lookup_table, common_lookup_column.
+- `4` (Attack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:355`; null: common_lookup_table, common_lookup_column.
+- `5` (Magic) — `ai_docs/games/dddhd/legacy-factual-candidates.json:362`; null: common_lookup_table, common_lookup_column.
+- `6` (Item) — `ai_docs/games/dddhd/legacy-factual-candidates.json:369`; null: common_lookup_table, common_lookup_column.
+- `7` (movement) — `ai_docs/games/dddhd/legacy-factual-candidates.json:376`; null: common_lookup_table, common_lookup_column.
+- `8` (defense) — `ai_docs/games/dddhd/legacy-factual-candidates.json:383`; null: common_lookup_table, common_lookup_column.
+- `9` (flowmotion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:390`; null: common_lookup_table, common_lookup_column.
+- `10` (Blizzard) — `ai_docs/games/dddhd/legacy-factual-candidates.json:397`; null: common_lookup_table, common_lookup_column.
+- `11` (Neutral) — `ai_docs/games/dddhd/legacy-factual-candidates.json:404`; null: common_lookup_table, common_lookup_column.
+- `12` (Physical) — `ai_docs/games/dddhd/legacy-factual-candidates.json:411`; null: common_lookup_table, common_lookup_column.
+- `13` (Thunder) — `ai_docs/games/dddhd/legacy-factual-candidates.json:418`; null: common_lookup_table, common_lookup_column.
+- `14` (Dark) — `ai_docs/games/dddhd/legacy-factual-candidates.json:425`; null: common_lookup_table, common_lookup_column.
+- `15` (Fire) — `ai_docs/games/dddhd/legacy-factual-candidates.json:432`; null: common_lookup_table, common_lookup_column.
+- `16` (Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:439`; null: common_lookup_table, common_lookup_column.
+- `17` (deck_command) — `ai_docs/games/dddhd/legacy-factual-candidates.json:446`; null: common_lookup_column.
+- `18` (ability) — `ai_docs/games/dddhd/legacy-factual-candidates.json:453`; null: common_lookup_column.
+- `19` (stat ability) — `ai_docs/games/dddhd/legacy-factual-candidates.json:460`; null: common_lookup_table, common_lookup_column.
+- `20` (support ability) — `ai_docs/games/dddhd/legacy-factual-candidates.json:467`; null: common_lookup_table, common_lookup_column.
+- `21` (spirit ability) — `ai_docs/games/dddhd/legacy-factual-candidates.json:474`; null: common_lookup_table, common_lookup_column.
+- `22` (Meow Wow Family) — `ai_docs/games/dddhd/legacy-factual-candidates.json:481`; null: common_lookup_column.
+- `23` (Anything) — `ai_docs/games/dddhd/legacy-factual-candidates.json:488`; null: common_lookup_column.
+- `24` (Physical) — `ai_docs/games/dddhd/legacy-factual-candidates.json:495`; null: common_lookup_column.
+- `25` (Fire) — `ai_docs/games/dddhd/legacy-factual-candidates.json:502`; null: common_lookup_column.
+- `26` (Dark) — `ai_docs/games/dddhd/legacy-factual-candidates.json:509`; null: common_lookup_column.
+- `27` (Thunder) — `ai_docs/games/dddhd/legacy-factual-candidates.json:516`; null: common_lookup_column.
+- `28` (Blizzard) — `ai_docs/games/dddhd/legacy-factual-candidates.json:523`; null: common_lookup_column.
+- `29` (Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:530`; null: common_lookup_column.
+- `30` (Water) — `ai_docs/games/dddhd/legacy-factual-candidates.json:537`; null: common_lookup_column.
+- `31` (single) — `ai_docs/games/dddhd/legacy-factual-candidates.json:544`; null: common_lookup_table, common_lookup_column.
+- `32` (dual) — `ai_docs/games/dddhd/legacy-factual-candidates.json:551`; null: common_lookup_table, common_lookup_column.
+- `33` (Physical/Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:558`; null: common_lookup_column.
+- `34` (Fire) — `ai_docs/games/dddhd/legacy-factual-candidates.json:565`; null: common_lookup_column.
+- `35` (Aqua) — `ai_docs/games/dddhd/legacy-factual-candidates.json:572`; null: common_lookup_column.
+- `36` (Lightning) — `ai_docs/games/dddhd/legacy-factual-candidates.json:579`; null: common_lookup_column.
+- `37` (Dark) — `ai_docs/games/dddhd/legacy-factual-candidates.json:586`; null: common_lookup_column.
+
+### `single_link_attack`
+
+- `1` (Meow Wounce) — `ai_docs/games/dddhd/legacy-factual-candidates.json:599`.
+- `2` (Roll Call) — `ai_docs/games/dddhd/legacy-factual-candidates.json:603`.
+- `3` (Whirling Bronco) — `ai_docs/games/dddhd/legacy-factual-candidates.json:607`.
+- `4` (Fly-by Knight) — `ai_docs/games/dddhd/legacy-factual-candidates.json:611`.
+- `5` (Hammer Throw) — `ai_docs/games/dddhd/legacy-factual-candidates.json:615`.
+- `6` (Flame Thrower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:619`.
+- `7` (Decussation) — `ai_docs/games/dddhd/legacy-factual-candidates.json:623`.
+- `8` (Poison Dash) — `ai_docs/games/dddhd/legacy-factual-candidates.json:627`.
+- `9` (Water Blaster) — `ai_docs/games/dddhd/legacy-factual-candidates.json:631`.
+- `10` (Bubble Blaster) — `ai_docs/games/dddhd/legacy-factual-candidates.json:635`.
+- `11` (Paw Groove) — `ai_docs/games/dddhd/legacy-factual-candidates.json:639`.
+- `12` (Equestrian Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:643`.
+- `13` (Swing Fling) — `ai_docs/games/dddhd/legacy-factual-candidates.json:647`.
+- `14` (Belly Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:651`.
+- `15` (Target Shot) — `ai_docs/games/dddhd/legacy-factual-candidates.json:655`.
+- `16` (Trap Shot) — `ai_docs/games/dddhd/legacy-factual-candidates.json:659`.
+- `17` (Cure Sun) — `ai_docs/games/dddhd/legacy-factual-candidates.json:663`.
+- `18` (Vacuum Ghost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:667`.
+- `19` (Berserker Bronco) — `ai_docs/games/dddhd/legacy-factual-candidates.json:671`.
+- `20` (Lucky Dice) — `ai_docs/games/dddhd/legacy-factual-candidates.json:675`.
+- `21` (Fire Blaster) — `ai_docs/games/dddhd/legacy-factual-candidates.json:679`.
+- `22` (Poison Rain) — `ai_docs/games/dddhd/legacy-factual-candidates.json:683`.
+- `23` (Flame Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:687`.
+- `24` (Ice Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:691`.
+- `25` (Tail Groove) — `ai_docs/games/dddhd/legacy-factual-candidates.json:695`.
+- `26` (Aura Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:699`.
+- `27` (Unwind) — `ai_docs/games/dddhd/legacy-factual-candidates.json:703`.
+
+### `dual_link_attack`
+
+- `1` (Whomperstomp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:713`.
+- `2` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:717`.
+- `3` (Unison Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:721`.
+- `4` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:725`.
+- `5` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:729`.
+- `6` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:733`.
+- `7` (Ragnarok) — `ai_docs/games/dddhd/legacy-factual-candidates.json:737`.
+
+### `dual_attack_recipe`
+
+- `1` (Whomperstomp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:749`.
+- `2` (Whomperstomp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:755`.
+- `3` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:761`.
+- `4` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:767`.
+- `5` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:773`.
+- `6` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:779`.
+- `7` (Comet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:785`.
+- `8` (Unison Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:791`.
+- `9` (Unison Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:797`.
+- `10` (Unison Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:803`.
+- `11` (Unison Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:809`.
+- `12` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:815`.
+- `13` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:821`.
+- `14` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:827`.
+- `15` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:833`.
+- `16` (Chaos Snake) — `ai_docs/games/dddhd/legacy-factual-candidates.json:839`.
+- `17` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:845`.
+- `18` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:851`.
+- `19` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:857`.
+- `20` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:863`.
+- `21` (Prism Light) — `ai_docs/games/dddhd/legacy-factual-candidates.json:869`.
+- `22` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:875`.
+- `23` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:881`.
+- `24` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:887`.
+- `25` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:893`.
+- `26` (Trinity Limit) — `ai_docs/games/dddhd/legacy-factual-candidates.json:899`.
+- `27` (Ragnarok) — `ai_docs/games/dddhd/legacy-factual-candidates.json:905`.
+- `28` (Ragnarok) — `ai_docs/games/dddhd/legacy-factual-candidates.json:911`.
+- `29` (Ragnarok) — `ai_docs/games/dddhd/legacy-factual-candidates.json:917`.
+- `30` (Ragnarok) — `ai_docs/games/dddhd/legacy-factual-candidates.json:923`.
+
+### `single_link_style`
+
+- `1` (Shining Hammer) — `ai_docs/games/dddhd/legacy-factual-candidates.json:936`.
+- `2` (Fire Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:941`.
+- `3` (Wavesurfer) — `ai_docs/games/dddhd/legacy-factual-candidates.json:946`.
+- `4` (Thunderstorm) — `ai_docs/games/dddhd/legacy-factual-candidates.json:951`.
+- `5` (Darkest Fears) — `ai_docs/games/dddhd/legacy-factual-candidates.json:956`.
+
+### `dual_link_style`
+
+- `1` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:968`.
+- `2` (Rising Wing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:973`.
+- `3` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:978`.
+
+### `dual_style_recipe`
+
+- `1` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:991`.
+- `2` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:997`.
+- `3` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1003`.
+- `4` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1009`.
+- `5` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1015`.
+- `6` (Bladecharge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1021`.
+- `7` (Rising Wing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1027`.
+- `8` (Rising Wing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1033`.
+- `9` (Rising Wing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1039`.
+- `10` (Rising Wing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1045`.
+- `11` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1051`.
+- `12` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1057`.
+- `13` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1063`.
+- `14` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1069`.
+- `15` (Ghost Drive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1075`.
+
+### `ability`
+
+- `1` (Link Critical) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1089`.
+- `2` (Support Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1095`.
+- `3` (Waking Dream) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1101`.
+- `4` (Combo Plus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1107`.
+- `5` (Air Combo Plus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1113`.
+- `6` (Combo Master) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1119`.
+- `7` (EXP Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1125`.
+- `8` (EXP Walker) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1131`.
+- `9` (EXP Zero) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1137`.
+- `10` (Damage Syphon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1143`.
+- `11` (Second Chance) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1149`.
+- `12` (Once More) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1155`.
+- `13` (Scan) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1161`.
+- `14` (Leaf Bracer) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1167`.
+- `15` (Treasure Magnet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1173`.
+- `16` (HP Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1179`.
+- `17` (Fire Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1185`.
+- `18` (Blizzard Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1191`.
+- `19` (Thunder Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1197`.
+- `20` (Water Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1203`.
+- `21` (Cure Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1209`.
+- `22` (Item Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1215`.
+- `23` (Attack Haste) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1221`.
+- `24` (Magic Haste) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1227`.
+- `25` (Attack Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1233`.
+- `26` (Magic Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1239`.
+- `27` (Defense Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1245`.
+- `28` (Fire Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1251`.
+- `29` (Blizzard Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1257`.
+- `30` (Thunder Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1263`.
+- `31` (Water Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1269`.
+- `32` (Dark Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1275`.
+- `33` (Light Screen) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1281`.
+- `34` (Mini Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1287`.
+- `35` (Blindness Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1293`.
+- `36` (Confusion Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1299`.
+- `37` (Bind Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1305`.
+- `38` (Poison Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1311`.
+- `39` (Slow Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1317`.
+- `40` (Sleep Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1323`.
+- `41` (Stop Block) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1329`.
+- `42` (Reload Boost) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1335`.
+- `43` (Defender) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1341`.
+
+### `Deck_Command`
+
+- `1` (Quick Blitz) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1358`.
+- `2` (Blizzard Edge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1367`.
+- `3` (Dark Break) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1376`.
+- `4` (Slot Edge) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1385`.
+- `5` (Blitz) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1394`.
+- `6` (Meteor Crash) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1403`.
+- `7` (Spark Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1412`.
+- `8` (Poison Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1421`.
+- `9` (Drain Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1430`.
+- `10` (Sliding Dash) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1439`.
+- `11` (Thunder Dash ) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1448`.
+- `12` (Sonic Blade) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1457`.
+- `13` (Dark Aura) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1466`.
+- `14` (Zantetsuken) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1475`.
+- `15` (Strike Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1484`.
+- `16` (Spark Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1493`.
+- `17` (Circle Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1502`.
+- `18` (Aerial Slam) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1511`.
+- `19` (Ars Arcanum) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1520`.
+- `20` (Dark Splicer) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1529`.
+- `21` (Gravity Strike) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1538`.
+- `22` (Confusing Strike) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1547`.
+- `23` (Tornado Strike) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1556`.
+- `24` (Prism Windmill) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1565`.
+- `25` (Timestorm) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1574`.
+- `26` (Fire Windmill) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1583`.
+- `27` (Icebreaker) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1592`.
+- `28` (Shadowbreaker) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1601`.
+- `29` (Magnet Spiral) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1610`.
+- `30` (Salvation) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1619`.
+- `31` (Limit Storm) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1628`.
+- `32` (Collision Magnet) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1637`.
+- `33` (Sacrifice) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1646`.
+- `34` (Break Time) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1655`.
+- `35` (Fire) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1664`.
+- `36` (Fira ) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1673`.
+- `37` (Firaga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1682`.
+- `38` (Dark Firaga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1691`.
+- `39` (Firaga Burst) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1700`.
+- `40` (Mega Flare) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1709`.
+- `41` (Blizzard) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1718`.
+- `42` (Blizzara) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1727`.
+- `43` (Blizzaga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1736`.
+- `44` (Icicle Splitter) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1745`.
+- `45` (Deep Freeze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1754`.
+- `46` (Ice Barrage) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1763`.
+- `47` (Thunder) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1772`.
+- `48` (Thundara) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1781`.
+- `49` (Thundaga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1790`.
+- `50` (Triple Plasma) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1799`.
+- `51` (Cure) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1808`.
+- `52` (Cura) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1817`.
+- `53` (Curaga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1826`.
+- `54` (Esuna) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1835`.
+- `55` (Zero Gravity) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1844`.
+- `56` (Zero Gravira) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1853`.
+- `57` (Zero Graviga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1862`.
+- `58` (Zero Graviza) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1871`.
+- `59` (Balloon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1880`.
+- `60` (Balloonra) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1889`.
+- `61` (Balloonga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1898`.
+- `62` (Spark) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1907`.
+- `63` (Sparkra) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1916`.
+- `64` (Sparkga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1925`.
+- `65` (Faith) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1934`.
+- `66` (Tornado) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1943`.
+- `67` (Meteor) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1952`.
+- `68` (Mini) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1961`.
+- `69` (Blackout) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1970`.
+- `70` (Time Bomb) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1979`.
+- `71` (Confuse) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1988`.
+- `72` (Bind) — `ai_docs/games/dddhd/legacy-factual-candidates.json:1997`.
+- `73` (Poison) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2006`.
+- `74` (Slow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2015`.
+- `75` (Sleep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2024`.
+- `76` (Sleepra) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2033`.
+- `77` (Sleepga) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2042`.
+- `78` (Stop) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2051`.
+- `79` (Vanish) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2060`.
+- `80` (Potion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2069`.
+- `81` (Hi-Potion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2078`.
+- `82` (Mega-Potion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2087`.
+- `83` (Drop-Me-Not) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2096`.
+- `84` (Drop-Me-Never) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2105`.
+- `85` (Panacea) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2114`.
+- `86` (Elixir) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2123`.
+- `87` (Megalixir) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2132`.
+- `88` (Dream Candy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2141`.
+- `89` (Jump) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2150`.
+- `90` (High Jump) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2159`.
+- `91` (Dodge Roll) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2168`.
+- `92` (Slide Roll) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2177`.
+- `93` (Dark Roll) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2186`.
+- `94` (Air Slide) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2195`.
+- `95` (Sonic Impact) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2204`.
+- `96` (Double Impact) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2213`.
+- `97` (Glide) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2222`.
+- `98` (Superglide) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2231`.
+- `99` (Shadow Slide) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2240`.
+- `100` (Doubleflight) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2249`.
+- `101` (Counter Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2258`.
+- `102` (Counter Aura) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2267`.
+- `103` (Shadow Strike) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2276`.
+- `104` (Payback Raid) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2285`.
+- `105` (Payback Blast) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2294`.
+- `106` (Aerial Recovery) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2303`.
+- `107` (Steep Climb) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2312`.
+- `108` (Rapid Descent) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2321`.
+- `109` (Sliding Sidewinder) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2330`.
+- `110` (Sliding Crescent) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2339`.
+- `111` (Pole Spin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2348`.
+- `112` (Pole Swing) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2357`.
+- `113` (Rail Slide) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2366`.
+- `114` (Kick Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2375`.
+- `115` (Buzz Saw ) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2384`.
+- `116` (Blow-off ) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2393`.
+- `117` (Wheel Rush) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2402`.
+- `118` (Sliding Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2411`.
+- `119` (Shock Dive) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2420`.
+
+### `spirit_unlocks`
+
+- `1` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2438`.
+- `2` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2445`.
+- `3` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2452`.
+- `4` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2459`.
+- `5` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2466`.
+- `6` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2473`.
+- `7` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2480`.
+- `8` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2487`.
+- `9` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2494`.
+- `10` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2501`.
+- `11` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2508`.
+- `12` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2515`.
+- `13` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2522`.
+- `14` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2529`.
+- `15` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2536`.
+- `16` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2543`.
+- `17` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2550`.
+- `18` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2557`.
+- `19` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2564`.
+- `20` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2571`.
+- `21` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2578`.
+- `22` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2585`.
+- `23` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2592`.
+- `24` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2599`.
+- `25` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2606`.
+- `26` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2613`.
+- `27` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2620`.
+- `28` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2627`.
+- `29` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2634`.
+- `30` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2641`.
+- `31` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2648`.
+- `32` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2655`.
+- `33` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2662`.
+- `34` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2669`.
+- `35` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2676`.
+- `36` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2683`.
+- `37` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2690`.
+- `38` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2697`.
+- `39` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2704`.
+- `40` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2711`.
+- `41` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2718`.
+- `42` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2725`.
+- `43` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2732`.
+- `44` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2739`.
+- `45` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2746`.
+- `46` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2753`.
+- `47` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2760`.
+- `48` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2767`.
+- `49` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2774`.
+- `50` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2781`.
+- `51` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2788`.
+- `52` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2795`.
+- `53` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2802`.
+- `54` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2809`.
+- `55` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2816`.
+- `56` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2823`; known erroneous deck_command classification.
+- `57` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2830`.
+- `58` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2837`.
+- `59` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2844`.
+- `60` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2851`.
+- `61` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2858`; known erroneous deck_command classification.
+- `62` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2865`.
+- `63` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2872`.
+- `64` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2879`.
+- `65` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2886`.
+- `66` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2893`.
+- `67` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2900`.
+- `68` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2907`.
+- `69` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2914`.
+- `70` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2921`.
+- `71` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2928`.
+- `72` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2935`.
+- `73` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2942`.
+- `74` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2949`.
+- `75` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2956`.
+- `76` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2963`.
+- `77` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2970`.
+- `78` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2977`.
+- `79` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2984`.
+- `80` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2991`.
+- `81` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:2998`.
+- `82` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3005`.
+- `83` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3012`.
+- `84` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3019`.
+- `85` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3026`.
+- `86` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3033`.
+- `87` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3040`.
+- `88` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3047`.
+- `89` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3054`.
+- `90` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3061`.
+- `91` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3068`.
+- `92` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3075`.
+- `93` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3082`.
+- `94` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3089`.
+- `95` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3096`.
+- `96` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3103`.
+- `97` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3110`.
+- `98` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3117`.
+- `99` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3124`.
+- `100` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3131`.
+- `101` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3138`.
+- `102` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3145`.
+- `103` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3152`.
+- `104` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3159`.
+- `105` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3166`.
+- `106` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3173`.
+- `107` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3180`.
+- `108` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3187`.
+- `109` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3194`.
+- `110` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3201`.
+- `111` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3208`.
+- `112` (Duckey Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3215`.
+- `113` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3222`.
+- `114` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3229`.
+- `115` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3236`.
+- `116` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3243`.
+- `117` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3250`.
+- `118` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3257`.
+- `119` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3264`.
+- `120` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3271`.
+- `121` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3278`.
+- `122` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3285`.
+- `123` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3292`.
+- `124` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3299`.
+- `125` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3306`.
+- `126` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3313`.
+- `127` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3320`.
+- `128` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3327`.
+- `129` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3334`.
+- `130` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3341`.
+- `131` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3348`.
+- `132` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3355`.
+- `133` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3362`.
+- `134` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3369`.
+- `135` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3376`.
+- `136` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3383`.
+- `137` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3390`.
+- `138` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3397`.
+- `139` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3404`.
+- `140` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3411`.
+- `141` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3418`.
+- `142` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3425`.
+- `143` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3432`.
+- `144` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3439`.
+- `145` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3446`.
+- `146` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3453`.
+- `147` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3460`.
+- `148` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3467`.
+- `149` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3474`.
+- `150` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3481`.
+- `151` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3488`.
+- `152` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3495`.
+- `153` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3502`.
+- `154` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3509`.
+- `155` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3516`.
+- `156` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3523`.
+- `157` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3530`.
+- `158` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3537`.
+- `159` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3544`.
+- `160` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3551`.
+- `161` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3558`.
+- `162` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3565`.
+- `163` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3572`.
+- `164` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3579`.
+- `165` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3586`.
+- `166` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3593`.
+- `167` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3600`.
+- `168` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3607`.
+- `169` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3614`.
+- `170` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3621`.
+- `171` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3628`.
+- `172` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3635`.
+- `173` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3642`.
+- `174` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3649`.
+- `175` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3656`.
+- `176` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3663`.
+- `177` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3670`.
+- `178` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3677`.
+- `179` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3684`.
+- `180` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3691`.
+- `181` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3698`.
+- `182` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3705`.
+- `183` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3712`.
+- `184` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3719`.
+- `185` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3726`.
+- `186` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3733`.
+- `187` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3740`.
+- `188` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3747`.
+- `189` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3754`.
+- `190` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3761`.
+- `191` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3768`.
+- `192` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3775`.
+- `193` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3782`.
+- `194` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3789`.
+- `195` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3796`.
+- `196` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3803`.
+- `197` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3810`.
+- `198` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3817`.
+- `199` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3824`.
+- `200` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3831`.
+- `201` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3838`.
+- `202` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3845`.
+- `203` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3852`.
+- `204` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3859`.
+- `205` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3866`.
+- `206` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3873`.
+- `207` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3880`.
+- `208` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3887`.
+- `209` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3894`.
+- `210` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3901`.
+- `211` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3908`.
+- `212` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3915`.
+- `213` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3922`.
+- `214` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3929`.
+- `215` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3936`.
+- `216` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3943`.
+- `217` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3950`.
+- `218` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3957`.
+- `219` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3964`.
+- `220` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3971`.
+- `221` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3978`.
+- `222` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3985`.
+- `223` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3992`.
+- `224` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:3999`.
+- `225` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4006`.
+- `226` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4013`.
+- `227` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4020`.
+- `228` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4027`.
+- `229` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4034`.
+- `230` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4041`.
+- `231` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4048`.
+- `232` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4055`.
+- `233` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4062`.
+- `234` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4069`.
+- `235` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4076`.
+- `236` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4083`.
+- `237` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4090`.
+- `238` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4097`.
+- `239` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4104`.
+- `240` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4111`.
+- `241` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4118`.
+- `242` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4125`.
+- `243` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4132`.
+- `244` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4139`.
+- `245` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4146`.
+- `246` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4153`.
+- `247` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4160`.
+- `248` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4167`.
+- `249` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4174`.
+- `250` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4181`.
+- `251` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4188`.
+- `252` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4195`.
+- `253` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4202`.
+- `254` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4209`.
+- `255` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4216`.
+- `256` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4223`.
+- `257` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4230`.
+- `258` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4237`.
+- `259` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4244`.
+- `260` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4251`.
+- `261` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4258`.
+- `262` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4265`.
+- `263` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4272`.
+- `264` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4279`.
+- `265` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4286`.
+- `266` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4293`.
+- `267` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4300`.
+- `268` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4307`.
+- `269` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4314`.
+- `270` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4321`.
+- `271` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4328`.
+- `272` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4335`.
+- `273` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4342`.
+- `274` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4349`.
+- `275` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4356`.
+- `276` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4363`.
+- `277` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4370`.
+- `278` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4377`.
+- `279` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4384`.
+- `280` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4391`.
+- `281` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4398`.
+- `282` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4405`.
+- `283` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4412`.
+- `284` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4419`.
+- `285` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4426`.
+- `286` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4433`.
+- `287` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4440`.
+- `288` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4447`.
+- `289` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4454`.
+- `290` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4461`.
+- `291` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4468`.
+- `292` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4475`.
+- `293` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4482`.
+- `294` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4489`.
+- `295` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4496`.
+- `296` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4503`.
+- `297` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4510`.
+- `298` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4517`.
+- `299` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4524`.
+- `300` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4531`.
+- `301` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4538`.
+- `302` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4545`.
+- `303` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4552`.
+- `304` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4559`.
+- `305` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4566`.
+- `306` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4573`.
+- `307` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4580`.
+- `308` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4587`.
+- `309` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4594`.
+- `310` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4601`.
+- `311` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4608`.
+- `312` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4615`.
+- `313` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4622`.
+- `314` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4629`.
+- `315` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4636`.
+- `316` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4643`.
+- `317` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4650`.
+- `318` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4657`.
+- `319` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4664`.
+- `320` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4671`.
+- `321` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4678`.
+- `322` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4685`.
+- `323` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4692`.
+- `324` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4699`.
+- `325` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4706`.
+- `326` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4713`.
+- `327` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4720`.
+- `328` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4727`.
+- `329` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4734`.
+- `330` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4741`.
+- `331` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4748`.
+- `332` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4755`.
+- `333` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4762`.
+- `334` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4769`.
+- `335` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4776`.
+- `336` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4783`.
+- `337` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4790`.
+- `338` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4797`.
+- `339` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4804`.
+- `340` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4811`.
+- `341` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4818`.
+- `342` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4825`.
+- `343` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4832`.
+- `344` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4839`.
+- `345` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4846`.
+- `346` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4853`.
+- `347` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4860`.
+- `348` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4867`.
+- `349` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4874`.
+- `350` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4881`.
+- `351` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4888`.
+- `352` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4895`.
+- `353` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4902`.
+- `354` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4909`.
+- `355` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4916`.
+- `356` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4923`.
+- `357` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4930`.
+- `358` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4937`.
+- `359` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4944`.
+- `360` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4951`.
+- `361` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4958`.
+- `362` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4965`.
+- `363` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4972`.
+- `364` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4979`.
+- `365` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4986`.
+- `366` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:4993`.
+- `367` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5000`.
+- `368` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5007`.
+- `369` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5014`.
+- `370` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5021`.
+- `371` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5028`.
+- `372` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5035`.
+- `373` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5042`.
+- `374` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5049`.
+- `375` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5056`.
+- `376` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5063`.
+- `377` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5070`.
+- `378` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5077`.
+- `379` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5084`.
+- `380` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5091`.
+- `381` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5098`.
+- `382` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5105`.
+- `383` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5112`.
+- `384` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5119`.
+- `385` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5126`.
+- `386` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5133`.
+- `387` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5140`.
+- `388` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5147`.
+- `389` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5154`.
+- `390` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5161`.
+- `391` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5168`.
+- `392` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5175`.
+- `393` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5182`.
+- `394` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5189`.
+- `395` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5196`.
+- `396` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5203`.
+- `397` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5210`.
+- `398` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5217`.
+- `399` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5224`.
+- `400` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5231`.
+- `401` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5238`.
+- `402` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5245`.
+- `403` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5252`.
+- `404` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5259`.
+- `405` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5266`.
+- `406` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5273`.
+- `407` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5280`.
+- `408` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5287`.
+- `409` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5294`.
+- `410` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5301`.
+- `411` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5308`.
+- `412` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5315`.
+- `413` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5322`.
+- `414` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5329`.
+- `415` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5336`.
+- `416` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5343`.
+- `417` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5350`.
+- `418` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5357`.
+- `419` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5364`.
+- `420` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5371`.
+- `421` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5378`.
+- `422` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5385`.
+- `423` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5392`.
+- `424` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5399`.
+- `425` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5406`.
+- `426` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5413`.
+- `427` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5420`.
+- `428` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5427`.
+- `429` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5434`.
+- `430` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5441`.
+- `431` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5448`.
+- `432` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5455`.
+- `433` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5462`.
+- `434` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5469`.
+- `435` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5476`.
+- `436` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5483`.
+- `437` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5490`.
+- `438` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5497`.
+- `439` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5504`.
+- `440` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5511`.
+- `441` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5518`.
+- `442` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5525`.
+- `443` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5532`.
+- `444` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5539`.
+- `445` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5546`.
+- `446` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5553`.
+- `447` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5560`.
+- `448` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5567`.
+- `449` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5574`.
+- `450` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5581`.
+- `451` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5588`.
+- `452` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5595`.
+- `453` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5602`.
+- `454` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5609`.
+- `455` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5616`.
+- `456` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5623`.
+- `457` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5630`.
+- `458` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5637`.
+- `459` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5644`.
+- `460` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5651`.
+- `461` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5658`.
+- `462` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5665`.
+- `463` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5672`.
+- `464` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5679`.
+- `465` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5686`.
+- `466` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5693`.
+- `467` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5700`.
+- `468` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5707`.
+- `469` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5714`.
+- `470` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5721`.
+- `471` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5728`.
+- `472` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5735`.
+- `473` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5742`.
+- `474` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5749`.
+- `475` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5756`.
+- `476` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5763`.
+- `477` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5770`.
+- `478` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5777`.
+- `479` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5784`.
+- `480` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5791`.
+- `481` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5798`.
+- `482` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5805`.
+- `483` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5812`.
+- `484` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5819`.
+- `485` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5826`.
+- `486` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5833`.
+- `487` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5840`.
+- `488` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5847`.
+- `489` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5854`.
+- `490` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5861`.
+- `491` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5868`.
+- `492` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5875`.
+- `493` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5882`.
+- `494` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5889`.
+- `495` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5896`.
+- `496` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5903`.
+- `497` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5910`.
+- `498` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5917`.
+- `499` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5924`.
+- `500` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5931`.
+- `501` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5938`.
+- `502` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5945`.
+- `503` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5952`.
+- `504` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5959`.
+- `505` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5966`.
+- `506` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5973`.
+- `507` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5980`.
+- `508` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5987`.
+- `509` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:5994`.
+- `510` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6001`.
+- `511` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6008`.
+- `512` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6015`.
+- `513` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6022`.
+- `514` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6029`.
+- `515` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6036`.
+- `516` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6043`.
+- `517` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6050`.
+- `518` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6057`.
+- `519` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6064`.
+- `520` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6071`.
+- `521` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6078`.
+- `522` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6085`.
+- `523` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6092`.
+- `524` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6099`.
+- `525` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6106`.
+- `526` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6113`.
+- `527` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6120`.
+- `528` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6127`.
+- `529` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6134`.
+- `530` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6141`.
+- `531` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6148`.
+- `532` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6155`.
+- `533` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6162`.
+- `534` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6169`.
+- `535` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6176`.
+- `536` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6183`.
+- `537` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6190`.
+- `538` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6197`.
+- `539` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6204`.
+- `540` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6211`.
+- `541` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6218`.
+- `542` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6225`.
+- `543` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6232`.
+- `544` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6239`.
+- `545` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6246`.
+- `546` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6253`.
+- `547` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6260`.
+- `548` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6267`.
+- `549` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6274`.
+- `550` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6281`.
+- `551` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6288`.
+- `552` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6295`.
+- `553` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6302`.
+- `554` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6309`.
+- `555` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6316`.
+- `556` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6323`.
+- `557` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6330`.
+- `558` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6337`.
+- `559` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6344`.
+- `560` (R & R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6351`.
+- `561` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6358`.
+- `562` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6365`.
+- `563` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6372`.
+- `564` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6379`.
+- `565` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6386`.
+- `566` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6393`.
+- `567` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6400`.
+- `568` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6407`.
+- `569` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6414`.
+- `570` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6421`.
+- `571` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6428`.
+- `572` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6435`.
+- `573` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6442`.
+- `574` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6449`.
+- `575` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6456`.
+- `576` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6463`.
+- `577` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6470`.
+- `578` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6477`.
+- `579` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6484`.
+- `580` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6491`.
+- `581` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6498`.
+- `582` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6505`.
+- `583` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6512`.
+- `584` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6519`.
+- `585` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6526`.
+- `586` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6533`.
+- `587` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6540`.
+- `588` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6547`.
+- `589` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6554`.
+- `590` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6561`.
+- `591` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6568`.
+- `592` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6575`.
+- `593` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6582`.
+- `594` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6589`.
+- `595` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6596`.
+- `596` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6603`.
+- `597` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6610`.
+- `598` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6617`.
+- `599` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6624`.
+- `600` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6631`.
+- `601` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6638`.
+- `602` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6645`.
+- `603` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6652`.
+- `604` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6659`.
+- `605` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6666`.
+- `606` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6673`.
+- `607` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6680`.
+- `608` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6687`.
+- `609` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6694`.
+- `610` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6701`.
+- `611` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6708`.
+- `612` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6715`.
+- `613` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6722`.
+- `614` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6729`.
+- `615` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6736`.
+- `616` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6743`.
+- `617` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6750`.
+- `618` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6757`.
+- `619` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6764`.
+- `620` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6771`.
+- `621` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6778`.
+- `622` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6785`.
+- `623` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6792`.
+- `624` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6799`.
+- `625` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6806`.
+- `626` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6813`.
+- `627` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6820`.
+- `628` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6827`.
+- `629` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6834`.
+- `630` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6841`.
+- `631` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6848`.
+- `632` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6855`.
+- `633` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6862`.
+- `634` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6869`.
+- `635` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6876`.
+- `636` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6883`.
+- `637` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6890`.
+- `638` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6897`.
+- `639` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6904`.
+- `640` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6911`.
+- `641` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6918`.
+- `642` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6925`.
+- `643` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6932`.
+- `644` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6939`.
+- `645` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6946`.
+- `646` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6953`.
+- `647` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6960`.
+- `648` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6967`.
+- `649` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6974`.
+- `650` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6981`.
+- `651` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6988`.
+- `652` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:6995`.
+- `653` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7002`.
+- `654` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7009`.
+- `655` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7016`.
+- `656` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7023`.
+- `657` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7030`.
+- `658` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7037`.
+- `659` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7044`.
+- `660` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7051`.
+- `661` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7058`.
+- `662` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7065`.
+- `663` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7072`.
+- `664` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7079`.
+- `665` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7086`.
+- `666` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7093`.
+- `667` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7100`.
+- `668` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7107`.
+- `669` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7114`.
+- `670` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7121`.
+- `671` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7128`.
+- `672` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7135`.
+- `673` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7142`.
+- `674` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7149`.
+- `675` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7156`.
+- `676` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7163`.
+- `677` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7170`.
+- `678` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7177`.
+- `679` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7184`.
+- `680` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7191`.
+- `681` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7198`.
+- `682` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7205`.
+- `683` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7212`.
+- `684` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7219`.
+- `685` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7226`.
+- `686` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7233`.
+- `687` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7240`.
+- `688` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7247`.
+- `689` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7254`.
+- `690` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7261`.
+- `691` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7268`.
+- `692` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7275`.
+- `693` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7282`.
+- `694` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7289`.
+- `695` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7296`.
+- `696` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7303`.
+- `697` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7310`.
+- `698` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7317`.
+- `699` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7324`.
+- `700` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7331`.
+- `701` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7338`.
+- `702` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7345`.
+- `703` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7352`.
+- `704` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7359`.
+- `705` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7366`.
+- `706` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7373`.
+- `707` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7380`.
+- `708` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7387`.
+- `709` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7394`.
+- `710` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7401`.
+- `711` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7408`.
+- `712` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7415`.
+- `713` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7422`.
+- `714` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7429`.
+- `715` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7436`.
+- `716` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7443`.
+- `717` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7450`.
+- `718` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7457`.
+- `719` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7464`.
+- `720` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7471`.
+- `721` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7478`.
+- `722` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7485`.
+- `723` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7492`.
+- `724` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7499`.
+- `725` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7506`.
+- `726` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7513`.
+- `727` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7520`.
+- `728` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7527`.
+- `729` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7534`.
+- `730` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7541`.
+- `731` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7548`.
+- `732` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7555`.
+- `733` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7562`.
+- `734` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7569`.
+- `735` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7576`.
+- `736` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7583`.
+- `737` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7590`.
+- `738` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7597`.
+- `739` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7604`.
+- `740` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7611`.
+- `741` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7618`.
+- `742` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7625`.
+- `743` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7632`.
+- `744` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7639`.
+- `745` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7646`.
+- `746` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7653`.
+- `747` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7660`.
+- `748` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7667`.
+- `749` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7674`.
+- `750` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7681`.
+- `751` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7688`.
+- `752` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7695`.
+- `753` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7702`.
+- `754` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7709`.
+- `755` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7716`.
+- `756` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7723`.
+- `757` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7730`.
+- `758` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7737`.
+- `759` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7744`.
+- `760` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7751`.
+- `761` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7758`.
+- `762` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7765`.
+- `763` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7772`.
+- `764` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7779`.
+- `765` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7786`.
+- `766` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7793`.
+- `767` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7800`.
+- `768` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7807`.
+- `769` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7814`.
+- `770` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7821`.
+- `771` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7828`.
+- `772` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7835`.
+- `773` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7842`.
+- `774` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7849`.
+- `775` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7856`.
+- `776` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7863`.
+- `777` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7870`.
+- `778` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7877`.
+- `779` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7884`.
+- `780` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7891`.
+- `781` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7898`.
+- `782` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7905`.
+- `783` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7912`.
+- `784` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7919`.
+- `785` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7926`.
+- `786` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7933`.
+- `787` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7940`.
+- `788` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7947`.
+- `789` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7954`.
+- `790` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7961`.
+- `791` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7968`.
+- `792` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7975`.
+- `793` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7982`.
+- `794` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7989`.
+- `795` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:7996`.
+- `796` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8003`.
+- `797` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8010`.
+- `798` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8017`.
+- `799` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8024`.
+- `800` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8031`.
+- `801` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8038`.
+- `802` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8045`.
+- `803` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8052`.
+- `804` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8059`.
+- `805` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8066`.
+- `806` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8073`.
+- `807` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8080`.
+- `808` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8087`.
+- `809` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8094`.
+- `810` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8101`.
+- `811` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8108`.
+- `812` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8115`.
+- `813` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8122`.
+- `814` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8129`.
+- `815` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8136`.
+- `816` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8143`.
+
+### `synthesis_item`
+
+- `1` (Fleeting Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8157`; null: min required for best base spirit recipes.
+- `2` (Fleeting Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8162`; null: min required for best base spirit recipes.
+- `3` (Fleeting Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8167`; null: min required for best base spirit recipes.
+- `4` (Lofty Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8172`; null: min required for best base spirit recipes.
+- `5` (Lofty Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8177`; null: min required for best base spirit recipes.
+- `6` (Lofty Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8182`; null: min required for best base spirit recipes.
+- `7` (Rampant Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8187`; null: min required for best base spirit recipes.
+- `8` (Rampant Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8192`; null: min required for best base spirit recipes.
+- `9` (Rampant Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8197`; null: min required for best base spirit recipes.
+- `10` (Dulcet Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8202`; null: min required for best base spirit recipes.
+- `11` (Dulcet Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8207`; null: min required for best base spirit recipes.
+- `12` (Dulcet Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8212`; null: min required for best base spirit recipes.
+- `13` (Intrepid Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8217`; null: min required for best base spirit recipes.
+- `14` (Intrepid Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8222`; null: min required for best base spirit recipes.
+- `15` (Intrepid Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8227`; null: min required for best base spirit recipes.
+- `16` (Noble Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8232`; null: min required for best base spirit recipes.
+- `17` (Noble Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8237`; null: min required for best base spirit recipes.
+- `18` (Noble Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8242`; null: min required for best base spirit recipes.
+- `19` (Grim Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8247`; null: min required for best base spirit recipes.
+- `20` (Grim Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8252`; null: min required for best base spirit recipes.
+- `21` (Grim Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8257`; null: min required for best base spirit recipes.
+- `22` (Vibrant Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8262`; null: min required for best base spirit recipes.
+- `23` (Vibrant Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8267`; null: min required for best base spirit recipes.
+- `24` (Vibrant Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8272`; null: min required for best base spirit recipes.
+- `25` (Troubling Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8277`; null: min required for best base spirit recipes.
+- `26` (Troubling Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8282`; null: min required for best base spirit recipes.
+- `27` (Troubling Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8287`; null: min required for best base spirit recipes.
+- `28` (Wondrous Figment) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8292`; null: min required for best base spirit recipes.
+- `29` (Wondrous Fancy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8297`; null: min required for best base spirit recipes.
+- `30` (Wondrous Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8302`; null: min required for best base spirit recipes.
+- `31` (Malleable Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8307`; null: min required for best base spirit recipes.
+- `32` (Prickly Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8312`; null: min required for best base spirit recipes.
+- `33` (Wild Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8317`; null: min required for best base spirit recipes.
+- `34` (Epic Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8322`; null: min required for best base spirit recipes.
+- `35` (Charming Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8327`; null: min required for best base spirit recipes.
+- `36` (Brilliant Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8332`; null: min required for best base spirit recipes.
+- `37` (Savage Fantasy) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8337`; null: min required for best base spirit recipes.
+
+### `spirit recipe`
+
+- `1` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8355`.
+- `2` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8366`; null: percent_chance.
+- `3` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8377`; null: percent_chance.
+- `4` (Aura Lion) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8388`.
+- `5` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8399`; null: percent_chance.
+- `6` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8410`.
+- `7` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8421`; null: percent_chance.
+- `8` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8432`; null: percent_chance.
+- `9` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8443`; null: percent_chance.
+- `10` (Cera Terror) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8454`.
+- `11` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8465`.
+- `12` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8476`; null: percent_chance.
+- `13` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8487`; null: percent_chance.
+- `14` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8498`; null: percent_chance.
+- `15` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8509`; null: percent_chance.
+- `16` (Chef Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8520`.
+- `17` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8531`; null: percent_chance.
+- `18` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8542`; null: percent_chance.
+- `19` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8553`; null: percent_chance.
+- `20` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8564`.
+- `21` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8575`; null: percent_chance.
+- `22` (Cyber Yog) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8586`.
+- `23` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8597`; null: percent_chance.
+- `24` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8608`; null: percent_chance.
+- `25` (Drak Quack) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8619`; null: percent_chance.
+- `26` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8630`; null: percent_chance.
+- `27` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8641`.
+- `28` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8652`; null: percent_chance.
+- `29` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8663`; null: percent_chance.
+- `30` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8674`; null: percent_chance.
+- `31` (Drill Sye) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8685`.
+- `32` (Ducky Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8696`; null: percent_chance.
+- `33` (Ducky Goose) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8707`; null: percent_chance.
+- `34` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8718`; null: percent_chance.
+- `35` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8729`; null: percent_chance.
+- `36` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8740`.
+- `37` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8751`; null: percent_chance.
+- `38` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8762`; null: percent_chance.
+- `39` (Eaglider) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8773`.
+- `40` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8784`.
+- `41` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8795`; null: percent_chance.
+- `42` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8806`; null: percent_chance.
+- `43` (Electricorn) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8817`.
+- `44` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8828`; null: percent_chance.
+- `45` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8839`; null: percent_chance.
+- `46` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8850`.
+- `47` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8861`; null: percent_chance.
+- `48` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8872`; null: percent_chance.
+- `49` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8883`; null: percent_chance.
+- `50` (Escarglow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8894`.
+- `51` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8905`; null: percent_chance.
+- `52` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8916`; null: percent_chance.
+- `53` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8927`; null: percent_chance.
+- `54` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8938`; null: percent_chance.
+- `55` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8949`; null: percent_chance.
+- `56` (Fin Fatale) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8960`.
+- `57` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8971`; null: percent_chance.
+- `58` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8982`; null: percent_chance.
+- `59` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:8993`; null: percent_chance.
+- `60` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9004`.
+- `61` (Fishbone) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9015`.
+- `62` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9026`; null: percent_chance.
+- `63` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9037`; null: percent_chance.
+- `64` (Flowbermeow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9048`.
+- `65` (Frootz Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9059`; null: percent_chance.
+- `66` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9070`; null: percent_chance.
+- `67` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9081`; null: percent_chance.
+- `68` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9092`; null: percent_chance.
+- `69` (Ghostabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9103`.
+- `70` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9114`; null: percent_chance.
+- `71` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9125`; null: percent_chance.
+- `72` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9136`; null: percent_chance.
+- `73` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9147`.
+- `74` (Halbird) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9158`.
+- `75` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9169`; null: percent_chance.
+- `76` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9180`; null: percent_chance.
+- `77` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9191`; null: percent_chance.
+- `78` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9202`.
+- `79` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9213`; null: percent_chance.
+- `80` (Hebby Repp) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9224`; null: percent_chance.
+- `81` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9235`.
+- `82` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9246`; null: percent_chance.
+- `83` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9257`; null: percent_chance.
+- `84` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9268`; null: percent_chance.
+- `85` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9279`; null: percent_chance.
+- `86` (Iceguin Ace) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9290`.
+- `87` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9301`; null: percent_chance.
+- `88` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9312`; null: percent_chance.
+- `89` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9323`; null: percent_chance.
+- `90` (Jestabocky) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9334`.
+- `91` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9345`; null: percent_chance.
+- `92` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9356`; null: percent_chance.
+- `93` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9367`; null: percent_chance.
+- `94` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9378`; null: percent_chance.
+- `95` (Juggle Pup) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9389`.
+- `96` (Kab Kannon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9400`; null: percent_chance.
+- `97` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9411`; null: percent_chance.
+- `98` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9422`; null: percent_chance.
+- `99` (Keeba Tiger) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9433`.
+- `100` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9444`; null: percent_chance.
+- `101` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9455`.
+- `102` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9466`; null: percent_chance.
+- `103` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9477`; null: percent_chance.
+- `104` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9488`; null: percent_chance.
+- `105` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9499`; null: percent_chance.
+- `106` (KO Kabuto) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9510`.
+- `107` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9521`; null: percent_chance.
+- `108` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9532`; null: percent_chance.
+- `109` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9543`.
+- `110` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9554`; null: percent_chance.
+- `111` (Komory Bat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9565`; null: percent_chance.
+- `112` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9576`; null: percent_chance, BEST BASE.
+- `113` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9587`; null: percent_chance, BEST BASE.
+- `114` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9598`; null: percent_chance, BEST BASE.
+- `115` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9609`; null: percent_chance, BEST BASE.
+- `116` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9620`; null: percent_chance, BEST BASE.
+- `117` (Kooma Panda) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9631`; null: BEST BASE.
+- `118` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9642`; null: percent_chance, BEST BASE.
+- `119` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9653`; null: percent_chance, BEST BASE.
+- `120` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9664`; null: BEST BASE.
+- `121` (Lord Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9675`; null: BEST BASE.
+- `122` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9686`; null: percent_chance, BEST BASE.
+- `123` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9697`; null: percent_chance, BEST BASE.
+- `124` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9708`; null: percent_chance, BEST BASE.
+- `125` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9719`; null: percent_chance, BEST BASE.
+- `126` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9730`; null: BEST BASE.
+- `127` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9741`; null: BEST BASE.
+- `128` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9752`; null: BEST BASE.
+- `129` (Majik Lapin) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9763`; null: BEST BASE.
+- `130` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9774`; null: BEST BASE.
+- `131` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9785`; null: percent_chance, BEST BASE.
+- `132` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9796`; null: percent_chance, BEST BASE.
+- `133` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9807`; null: percent_chance, BEST BASE.
+- `134` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9818`; null: percent_chance, BEST BASE.
+- `135` (Me Me Bunny) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9829`; null: percent_chance, BEST BASE.
+- `136` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9840`; null: percent_chance, BEST BASE.
+- `137` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9851`; null: percent_chance, BEST BASE.
+- `138` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9862`; null: percent_chance, BEST BASE.
+- `139` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9873`; null: BEST BASE.
+- `140` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9884`; null: percent_chance, BEST BASE.
+- `141` (Meow Wow) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9895`; null: percent_chance, BEST BASE.
+- `142` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9906`; null: percent_chance, BEST BASE.
+- `143` (Meowjesty) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9917`; null: percent_chance, BEST BASE.
+- `144` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9928`; null: percent_chance, BEST BASE.
+- `145` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9939`; null: percent_chance, BEST BASE.
+- `146` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9950`; null: percent_chance, BEST BASE.
+- `147` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9961`; null: BEST BASE.
+- `148` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9972`; null: percent_chance, BEST BASE.
+- `149` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9983`; null: percent_chance, BEST BASE.
+- `150` (Necho Cat) — `ai_docs/games/dddhd/legacy-factual-candidates.json:9994`; null: BEST BASE.
+- `151` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10005`; null: percent_chance, BEST BASE.
+- `152` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10016`; null: percent_chance, BEST BASE.
+- `153` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10027`; null: percent_chance, BEST BASE.
+- `154` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10038`; null: percent_chance, BEST BASE.
+- `155` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10049`; null: BEST BASE.
+- `156` (Peepsta Hoo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10060`; null: BEST BASE.
+- `157` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10071`; null: percent_chance, BEST BASE.
+- `158` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10082`; null: percent_chance, BEST BASE.
+- `159` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10093`; null: percent_chance, BEST BASE.
+- `160` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10104`; null: percent_chance, BEST BASE.
+- `161` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10115`; null: BEST BASE.
+- `162` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10126`; null: BEST BASE.
+- `163` (Pegaslick) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10137`; null: BEST BASE.
+- `164` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10148`; null: percent_chance, BEST BASE.
+- `165` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10159`; null: percent_chance, BEST BASE.
+- `166` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10170`; null: BEST BASE.
+- `167` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10181`; null: percent_chance, BEST BASE.
+- `168` (Pricklemane) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10192`; null: BEST BASE.
+- `169` (R&R Seal) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10203`; null: percent_chance, BEST BASE.
+- `170` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10214`; null: percent_chance, BEST BASE.
+- `171` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10225`; null: percent_chance, BEST BASE.
+- `172` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10236`; null: percent_chance, BEST BASE.
+- `173` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10247`; null: BEST BASE.
+- `174` (Ryu Dragon) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10258`; null: BEST BASE.
+- `175` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10269`; null: percent_chance, BEST BASE.
+- `176` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10280`; null: percent_chance, BEST BASE.
+- `177` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10291`; null: BEST BASE.
+- `178` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10302`; null: percent_chance, BEST BASE.
+- `179` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10313`; null: percent_chance, BEST BASE.
+- `180` (Sir Kyroo) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10324`; null: percent_chance, BEST BASE.
+- `181` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10335`; null: percent_chance, BEST BASE.
+- `182` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10346`; null: BEST BASE.
+- `183` (Skelterwild) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10357`; null: BEST BASE.
+- `184` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10368`; null: percent_chance, BEST BASE.
+- `185` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10379`; null: percent_chance, BEST BASE.
+- `186` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10390`; null: percent_chance, BEST BASE.
+- `187` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10401`; null: percent_chance, BEST BASE.
+- `188` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10412`; null: BEST BASE.
+- `189` (Staggerceps) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10423`; null: BEST BASE.
+- `190` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10434`; null: percent_chance, BEST BASE.
+- `191` (Sudo Neku) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10445`; null: percent_chance, BEST BASE.
+- `192` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10456`; null: percent_chance, BEST BASE.
+- `193` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10467`; null: BEST BASE.
+- `194` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10478`; null: percent_chance, BEST BASE.
+- `195` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10489`; null: percent_chance, BEST BASE.
+- `196` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10500`; null: percent_chance, BEST BASE.
+- `197` (Tama Sheep) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10511`; null: percent_chance, BEST BASE.
+- `198` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10522`; null: percent_chance, BEST BASE.
+- `199` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10533`; null: percent_chance, BEST BASE.
+- `200` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10544`; null: percent_chance, BEST BASE.
+- `201` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10555`; null: percent_chance, BEST BASE.
+- `202` (Tatsu Blaze) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10566`; null: BEST BASE.
+- `203` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10577`; null: percent_chance, BEST BASE.
+- `204` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10588`; null: percent_chance, BEST BASE.
+- `205` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10599`; null: percent_chance, BEST BASE.
+- `206` (Tatsu Steed) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10610`; null: BEST BASE.
+- `207` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10621`; null: percent_chance, BEST BASE.
+- `208` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10632`; null: percent_chance, BEST BASE.
+- `209` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10643`; null: BEST BASE.
+- `210` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10654`; null: percent_chance, BEST BASE.
+- `211` (Thunderaffe) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10665`; null: percent_chance, BEST BASE.
+- `212` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10676`; null: percent_chance, BEST BASE.
+- `213` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10687`; null: percent_chance, BEST BASE.
+- `214` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10698`; null: percent_chance, BEST BASE.
+- `215` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10709`; null: percent_chance, BEST BASE.
+- `216` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10720`; null: percent_chance, BEST BASE.
+- `217` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10731`; null: BEST BASE.
+- `218` (Toximander) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10742`; null: BEST BASE.
+- `219` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10753`; null: BEST BASE.
+- `220` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10764`; null: percent_chance, BEST BASE.
+- `221` (Tyranto Rex) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10775`; null: percent_chance, BEST BASE.
+- `222` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10786`; null: percent_chance, BEST BASE.
+- `223` (Ursa Circus) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10797`; null: percent_chance, BEST BASE.
+- `224` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10808`; null: percent_chance, BEST BASE.
+- `225` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10819`; null: percent_chance, BEST BASE.
+- `226` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10830`; null: BEST BASE.
+- `227` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10841`; null: percent_chance, BEST BASE.
+- `228` (Wheeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10852`; null: percent_chance, BEST BASE.
+- `229` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10863`; null: percent_chance, BEST BASE.
+- `230` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10874`; null: percent_chance, BEST BASE.
+- `231` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10885`; null: percent_chance, BEST BASE.
+- `232` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10896`; null: percent_chance, BEST BASE.
+- `233` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10907`; null: BEST BASE.
+- `234` (Woeflower) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10918`; null: BEST BASE.
+- `235` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10929`; null: percent_chance, BEST BASE.
+- `236` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10940`; null: percent_chance, BEST BASE.
+- `237` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10951`; null: BEST BASE.
+- `238` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10962`; null: percent_chance, BEST BASE.
+- `239` (Yoggy Ram) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10973`; null: percent_chance, BEST BASE.
+- `240` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10984`; null: percent_chance, BEST BASE.
+- `241` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:10995`; null: percent_chance, BEST BASE.
+- `242` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:11006`; null: percent_chance, BEST BASE.
+- `243` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:11017`; null: percent_chance, BEST BASE.
+
+## Appendix D — All canonical prose caveat occurrences
+
+This location ledger preserves repeated historical, resolved, provenance and nonfactual wording as well as open questions. It is an occurrence index, not a claim that every matching sentence is still an unresolved game fact. Interpret each using the findings and ledgers above. Exact paths/line numbers refer to the audited baseline content.
+
+
+### `ai_docs/games/dddhd/README.md`
+
+- `ai_docs/games/dddhd/README.md:3` — Audited 2026-09-18 for Ars Arcanum's collectible/acquisition compendium. **Planning and source audit are substantially expanded; production data is not complete and the game is not implementation-ready.**
+- `ai_docs/games/dddhd/README.md:9` — | [Legacy audit](legacy-audit.md) | All 14 workbook tabs/ranges; 54-breed reconciliation; 243 recipes, 816 unlock rows, 119 command candidates and integrity defects |
+- `ai_docs/games/dddhd/README.md:10` — | [Legacy factual candidates](legacy-factual-candidates.json) | User-workbook factual cells with raw aliases/nulls; no copied guide prose; research-only |
+- `ai_docs/games/dddhd/README.md:11` — | [Worlds and collectibles](worlds-and-collectibles.md) | Seven-world Sora/Riku census: 225 + 213 = 438; HD chest replacements and explicit location gaps |
+- `ai_docs/games/dddhd/README.md:15` — | [Inspected sources](sources.md) | Read coverage, authority, failed/redirected leads and remaining verification |
+- `ai_docs/games/dddhd/README.md:21` — React offline PWA, local progress/backup/migration, bundled local SLM and per-game Data Jiminy knowledge remain MVP. All specified acquisition planners, commands, challenge modules and achievements remain MVP. Missing production screenshot/map images are the o…
+- `ai_docs/games/dddhd/README.md:29` — ## Highest-priority remaining work
+- `ai_docs/games/dddhd/README.md:31` — 1. Author and independently verify all 438 HD chest directions/order/access conditions; 387 inspected source rows lack location notes.
+- `ai_docs/games/dddhd/README.md:33` — 3. Complete HD recipes, all 54 Spirit boards/edges/dispositions, material sources and every command acquisition route; resolve the Aura Lion coordinate conflict.
+- `ai_docs/games/dddhd/README.md:34` — 4. Verify exact achievement applicability, controller inputs, shop/medal stock, secret unlocks and reward fan-out.
+- `ai_docs/games/dddhd/README.md:39` — Crafting is first-class. Optional opt-in inventory shows recipe ingredients as owned/required (x/y), without requiring inventory entry to use the compendium. Follow [synthesis and inventory](../../content/synthesis-and-inventory.md) and [testing/content valida…
+
+### `ai_docs/games/dddhd/legacy-audit.md`
+
+- `ai_docs/games/dddhd/legacy-audit.md:7` — Metadata identified 14 tabs. Header sentinels read rows 1–6 across the available width; the following content rectangles were then read. Empty trailing ID-column reads were checked from row 101 to each grid's bottom (row 201 for Deck_Command); large tables wer…
+- `ai_docs/games/dddhd/legacy-audit.md:11` — | Spirit | 2005534869 | A1:D100 | 52 | All attribute/style cells blank |
+- `ai_docs/games/dddhd/legacy-audit.md:22` — | synthesis_item | 1163091689 | A1:C100 | 37 | Material names; aggregate column blank |
+- `ai_docs/games/dddhd/legacy-audit.md:28` — [legacy-factual-candidates.json](legacy-factual-candidates.json) preserves the keyed factual cells for review, including raw spellings and nulls. Guide prose and broken controls are excluded. Do not import this file directly as production data.
+- `ai_docs/games/dddhd/legacy-audit.md:34` — | Mixed edition master | Spirit contains Catanuki, Beatalike, Tubguin Ace, but omits Sudo Neku and R & R Seal | HD roster candidate is 54, not 52; reconcile all tables |
+- `ai_docs/games/dddhd/legacy-audit.md:35` — | Missing HD boards and recipes | 51 older Spirits have unlock/recipe rows; three additions have none | Add HD sources; do not infer boards from palette-swap relatives |
+- `ai_docs/games/dddhd/legacy-audit.md:37` — | Missing defense category | Public inventory has five Defense entries absent from the workbook; the workbook calls all ten Reprisals DEFENSE | 124 total command candidate; categories corrected in [Spirits and commands](spirits-and-commands.md) |
+- `ai_docs/games/dddhd/legacy-audit.md:43` — | Null recipe probabilities | 175 of 243 rows have no probability; others mix “60” and “60%” | Unknown is not automatically 100%; verify each outcome group |
+- `ai_docs/games/dddhd/legacy-audit.md:44` — | Incomplete recommendation flags | 24 flags are 1, 87 are 0, 132 blank | “BEST BASE” is unfinished, not a global optimum |
+- `ai_docs/games/dddhd/legacy-audit.md:46` — | Missing source links | EXTRA links one 3DS GameFAQs guide | Per-record provenance still required |
+- `ai_docs/games/dddhd/legacy-audit.md:48` — The missing five commands are Block, Wake-up Block, Link Block, Sliding Block and Dark Barrier. The [DDD command table](https://www.khwiki.com/Deck_Command_(KH3D)) was counted by section: 34 Attack, 45 Magic, 9 Item, 12 Movement, 5 Defense, 10 Reprisal, 9 Flow…
+- `ai_docs/games/dddhd/legacy-audit.md:52` — Counts below are computed from the inspected user workbook after alias normalization. “Master” means present in Spirit; “Recipes” and “Unlocks” remain unverified legacy rows. Zero is source coverage, not lack of an in-game recipe or board.
+- `ai_docs/games/dddhd/legacy-audit.md:93` — | R & R Seal | Missing | 1 | 16 |
+- `ai_docs/games/dddhd/legacy-audit.md:98` — | Sudo Neku | Missing | 2 | 16 |
+
+### `ai_docs/games/dddhd/portals-and-challenges.md`
+
+- `ai_docs/games/dddhd/portals-and-challenges.md:19` — Area evidence comes from each world's Secret Portal first-clear reward row. Those rows award +10 maximum HP. A precise approach landmark for each portal remains unverified; an area is not complete navigation.
+- `ai_docs/games/dddhd/portals-and-challenges.md:21` — Use a stable 'world + character + portal kind + source number' key. A rotation's reference marker/location and the persistent cleared state are different data. Forecast explanations are reference guidance, not a tracked Available Now system. A cleared Special …
+- `ai_docs/games/dddhd/portals-and-challenges.md:23` — The 78 Special Portal **locations, forecast silhouettes, enemies, bonus objectives and all first-clear/repeat rewards are not yet a verified row inventory**. Likewise built-in Battle/Friendship portal locations and all seven bonus-objective types remain extrac…
+- `ai_docs/games/dddhd/portals-and-challenges.md:33` — | The Grid | 100000 | 30000 | Treasure Goggles in 3DS source; verify HD Candy Goggles replacement |
+- `ai_docs/games/dddhd/portals-and-challenges.md:39` — Prizes appear as world-wide cells spanning the two character rows in the source; first-award/shared behavior needs verification before automatic ownership propagation. Track personal best and rank per course, not a single world rank.
+- `ai_docs/games/dddhd/portals-and-challenges.md:43` — The [Flick Rush source](https://www.khwiki.com/Flick_Rush) locates the tournament moogle in Traverse Town's Fourth District and lists ten cups, 27 rounds total (sum below). This remains in HD with revised controls; exclude 3DS wireless matches.
+- `ai_docs/games/dddhd/portals-and-challenges.md:58` — Store static cup access prerequisites, per-match outcome/rank, cup prize, Rush level and medals as separate facts. Do not add Available Now filters or track story/access gates. Medal Shop purchasing consumes currency; lifetime medal achievement totals and curr…
+- `ai_docs/games/dddhd/portals-and-challenges.md:67` — Lord Kyroo's Nave encounter is unavailable during the Square fire before Wargoyle. Its shared chain must not become three independent bosses or three recipe awards. The exact encounter persistence/reset behavior and map approach directions still need a route f…
+- `ai_docs/games/dddhd/portals-and-challenges.md:71` — Balloon, Water Barrel, Candy Goggles, Light Cycle, Reality Shifts, training/affinity, Link use and Flick Rush records remain useful separate modules. The [HD changes page](https://www.khwiki.com/Kingdom_Hearts_Dream_Drop_Distance_HD) confirms controller/single…
+- `ai_docs/games/dddhd/portals-and-challenges.md:73` — Training toys, food and recipes require acquisition entries as well as minigame explanations. The product must answer both “where do I obtain this toy?” and “which score unlocks this award?” Complete toy/shop acquisition and controller-specific input records r…
+
+### `ai_docs/games/dddhd/rewards-and-achievements.md`
+
+- `ai_docs/games/dddhd/rewards-and-achievements.md:27` — All 15 item pages were inspected for their DDD acquisition/stat sections. The following values are community-source candidates; complete cross-platform award delivery still needs validation. Plot milestones appear only as concise reward prerequisites; this doe…
+- `ai_docs/games/dddhd/rewards-and-achievements.md:75` — These counters are not platform trophies. Exact breed exclusions, stat-stack aggregation, “amassed” versus lifetime quantities and how the in-game awards are claimed need verification before automating completion.
+- `ai_docs/games/dddhd/rewards-and-achievements.md:103` — EXP Zero is mode-dependent. Verify how Ability Ace handles it before showing an impossible Beginner/Standard checklist. Equipment availability, node purchase, maximum useful stacks and currently installed ability state must remain distinct.
+- `ai_docs/games/dddhd/rewards-and-achievements.md:115` — The credits' Secret Message is a discrete unlock; avoid converting all glossary or character text into collectible tasks. Critical Mode availability/new-run carryover and the exact secret-ending re-trigger route after correcting a failed condition remain verif…
+- `ai_docs/games/dddhd/rewards-and-achievements.md:123` — - Board completion for Strongest Link needs all real nodes/doors for one actual Spirit instance; 16 legacy reward rows cannot prove it.
+
+### `ai_docs/games/dddhd/sources.md`
+
+- `ai_docs/games/dddhd/sources.md:3` — Audit: 2026-09-18. This records **what was inspected**, not blanket endorsement or in-game verification. Source classes: USER = user's legacy source, REPO = existing implementation/planning, PRIMARY = publisher/platform, COMMUNITY = third-party reference. All …
+- `ai_docs/games/dddhd/sources.md:10` — | REPO: ai_docs/readiness/dream-drop-distance.md | Entire file | Stub replaced with evidence-backed gaps |
+- `ai_docs/games/dddhd/sources.md:28` — All KHWiki sources below are secondary/community. Some contain cleanup tags, unknown values and original-3DS mechanics. They are evidence for candidate facts, not a substitute for independent HD checks.
+- `ai_docs/games/dddhd/sources.md:32` — | [Game:Traverse Town](https://www.khwiki.com/Game:Traverse_Town) | DDD treasures Sora 1–34 / Riku 1–32; Secret reward rows | 66 numbered records; all location notes blank |
+- `ai_docs/games/dddhd/sources.md:37` — | [Game:Symphony of Sorcery](https://www.khwiki.com/Game:Symphony_of_Sorcery) | Sora 1–22 / Riku 1–21; rewards | 43 rows; all note fields blank |
+- `ai_docs/games/dddhd/sources.md:41` — | [Catanuki](https://www.khwiki.com/Catanuki), [Beatalike](https://www.khwiki.com/Beatalike), [Tubguin Ace](https://www.khwiki.com/Tubguin_Ace) | Recipe formulas, acquisition, node tables, dispositions | Ten HD formulas; node samples; unknown stats/body parts …
+- `ai_docs/games/dddhd/sources.md:43` — | [Sudo Neku](https://www.khwiki.com/Sudo_Neku) | Recipe/acquisition section | Missing master breed; two formulas and medal route |
+- `ai_docs/games/dddhd/sources.md:44` — | [Aura Lion](https://www.khwiki.com/Aura_Lion), [Lord Kyroo](https://www.khwiki.com/Lord_Kyroo) | Boards, footnotes, recipes; Kyroo encounter | Red-secret transformations; Aura Lion coordinate discrepancy |
+- `ai_docs/games/dddhd/sources.md:47` — | [Deck Command (KH3D)](https://www.khwiki.com/Deck_Command_(KH3D)) | All seven category tables, counted rows | 124 candidates; five missing defense commands |
+- `ai_docs/games/dddhd/sources.md:49` — | [Link System](https://www.khwiki.com/Link_System) | Gauge and attack/style mechanics, pairing discussion | Character-specific systems; complete mapping still needed |
+- `ai_docs/games/dddhd/sources.md:53` — | [Moogle Shop](https://www.khwiki.com/Moogle_Shop) | DDD shop section located; full page fetched | Stock/level tables remain unextracted; no completeness claim |
+- `ai_docs/games/dddhd/sources.md:55` — | [Dive Mode](https://www.khwiki.com/Dive_Mode) | Fourteen ordinary course rows and special Dives | Score thresholds; HD toy reward needs check |
+- `ai_docs/games/dddhd/sources.md:56` — | [Flick Rush](https://www.khwiki.com/Flick_Rush) | Cup access/round rows and ranking mechanics | Ten cups; lineups/card/prize stock not migrated |
+- `ai_docs/games/dddhd/sources.md:63` — ## Failed or non-evidence leads
+- `ai_docs/games/dddhd/sources.md:65` — - Legacy EXTRA's GameFAQs guide 64749: connector/web retrieval was restricted; not claimed read.
+- `ai_docs/games/dddhd/sources.md:66` — - TrueAchievements walkthrough endpoint: inaccessible through web retrieval; not claimed read.
+- `ai_docs/games/dddhd/sources.md:69` — - “Ability Link” redirects to Spirit; it is not an independent confirming source.
+- `ai_docs/games/dddhd/sources.md:70` — - “Forecast” redirects to Drop System; it is not independent confirmation.
+
+### `ai_docs/games/dddhd/spirits-and-commands.md`
+
+- `ai_docs/games/dddhd/spirits-and-commands.md:3` — Research date: 2026-09-18. The [legacy audit](legacy-audit.md) supplies a full 54-name reconciliation target and preserves candidate factual rows. Community evidence below is not in-game verification.
+- `ai_docs/games/dddhd/spirits-and-commands.md:7` — Each listed formula is a separate candidate record; the grade is the base rank, not a guaranteed ★ rank. “Recipe item” is a collectible; the formula can be used without owning that item. Do not carry the old AR/StreetPass requirement into HD.
+- `ai_docs/games/dddhd/spirits-and-commands.md:9` — | Spirit / inspected source | HD formulas: ingredient quantities → base rank | Recipe-item acquisition / gap |
+- `ai_docs/games/dddhd/spirits-and-commands.md:14` — | [Frootz Cat](https://www.khwiki.com/Frootz_Cat) | 4 Wondrous Fancy + 5 Grim Fantasy → D; 2 Rampant Fantasy + 2 Noble Fantasy → D; 1 Charming Fantasy + 4 Wondrous Fantasy → C; 1 Malleable Fantasy + 6 Wondrous Fantasy → B | HD Moogle shop; price/unlock not ver…
+- `ai_docs/games/dddhd/spirits-and-commands.md:15` — | [Kab Kannon](https://www.khwiki.com/Kab_Kannon) | 4 Grim Figment + 3 Noble Fantasy → D; 2 Lofty Fantasy + 4 Grim Fancy → D; 6 Rampant Fancy + 1 Prickly Fantasy → C; 3 Dulcet Fantasy + 1 Epic Fantasy → A | HD Moogle shop; price/unlock not verified |
+- `ai_docs/games/dddhd/spirits-and-commands.md:16` — | [R & R Seal](https://www.khwiki.com/R_%26_R_Seal) | 6 Wondrous Figment + 2 Vibrant Fantasy → E; 4 Wondrous Fancy + 4 Vibrant Fancy → D; 6 Rampant Fancy + 3 Wondrous Fantasy → D; 4 Rampant Fantasy + 3 Dulcet Fancy → C | HD Moogle shop; price/unlock not verifi…
+- `ai_docs/games/dddhd/spirits-and-commands.md:19` — These are **22 HD formula rows for six corrected/new Spirits**, plus the two Sudo Neku formulas. Frootz Cat, Kab Kannon and R & R Seal have 12 HD formulas replacing the workbook's three 3DS-only candidates. The three new breeds contribute ten formulas. This is…
+- `ai_docs/games/dddhd/spirits-and-commands.md:21` — The individual HD breed pages also expose unresolved data: Beatalike and Tubguin Ace disposition instructions contain missing body-part text; several base-stat fields are “???”. Preserve unknowns instead of inventing a complete calculator.
+- `ai_docs/games/dddhd/spirits-and-commands.md:25` — [Spirit mechanics](https://www.khwiki.com/Spirit): Sora/Riku share the Spirit roster; instances have fixed creation ranks F–E–D–C–B–A–★. Rank cannot be raised after creation. Each breed has four dispositions, which can change combat behavior and board access. …
+- `ai_docs/games/dddhd/spirits-and-commands.md:27` — Planner inputs must distinguish desired breed, target rank, forecast, difficulty and allowed alternate outcomes. Optional opt-in inventory supplies current material counts and owned recipe items; show each ingredient as owned/required (x/y). The recipe referen…
+- `ai_docs/games/dddhd/spirits-and-commands.md:29` — Unverified probability cells cannot become 100%. A two-outcome formula must be one shared recipe event with explicit outcomes, not independently craftable rows whose probabilities are forgotten. Examples requiring verification: Aura Lion versus Keeba Tiger, an…
+- `ai_docs/games/dddhd/spirits-and-commands.md:35` — The workbook enumerates **37** material names: Figment/Fancy/Fantasy grades for Fleeting, Lofty, Rampant, Dulcet, Intrepid, Noble, Grim, Vibrant, Troubling and Wondrous; Fantasy-only Malleable, Prickly, Wild, Epic, Charming, Brilliant and Savage. Names are ext…
+- `ai_docs/games/dddhd/spirits-and-commands.md:43` — Difficulty matters: the inspected forecast table has no Risky Winds on Beginner or in Traverse Town. A planner must not recommend an unavailable forecast. Other Nightmare/rare-Nightmare drops, shops, first-clear rewards and expiration yields still need full it…
+- `ai_docs/games/dddhd/spirits-and-commands.md:50` — | [Lord Kyroo](https://www.khwiki.com/Lord_Kyroo) | B-2 changes Blitz to Ars Arcanum after G-4 red secret 350 LP; E-4 green secret 10 LP precedes level-30 gate; D-1 Zantetsuken 400 LP behind D-3 green secret and level-25 gate | Same coordinate changes reward; …
+- `ai_docs/games/dddhd/spirits-and-commands.md:52` — | [Tubguin Ace](https://www.khwiki.com/Tubguin_Ace) | D-4 Balloonra 150 LP; D-1 Dark Firaga 400 LP; D-3 Combo Plus 200 LP; hidden/disposition routes | Command reverse index needs HD providers |
+- `ai_docs/games/dddhd/spirits-and-commands.md:53` — | [Catanuki](https://www.khwiki.com/Catanuki) | E-4 Spark Raid 300 LP; A-4 Vanish 300 LP; several green secrets and disposition branches | Text node table is not complete edge geometry |
+- `ai_docs/games/dddhd/spirits-and-commands.md:55` — **Visible source conflict:** Aura Lion's table places Secret: Red at C-7, but the transformation footnote calls it D-7 (listed as the level-30 checkpoint). Both refer to the red-secret requirement, but exact graph coordinates need independent checking. Do not …
+- `ai_docs/games/dddhd/spirits-and-commands.md:59` — [Abilities (KH3D)](https://www.khwiki.com/Abilities_(KH3D)) distinguishes Stats abilities (active while their provider remains in the party) from permanent Support/Spirits abilities that can be toggled. Scan is default; EXP Zero is default but only in Proud/Cr…
+- `ai_docs/games/dddhd/spirits-and-commands.md:72` — | **Total** | **119** | **124** | Full acquisition graph still incomplete |
+- `ai_docs/games/dddhd/spirits-and-commands.md:74` — Counts are from the inspected [command table](https://www.khwiki.com/Deck_Command_(KH3D)); they are inventory candidates, not a platform-achievement denominator certification.
+- `ai_docs/games/dddhd/spirits-and-commands.md:78` — Legacy Link catalogs: 27 Sora single attacks, seven dual attacks, five Riku single styles, three dual styles, 30 Sora pairing rows, 15 Riku pairing rows. Keep unordered pairs, character-specific actions, and Meow Wow-family wildcard precedence. Spirit attribut…
+- `ai_docs/games/dddhd/spirits-and-commands.md:83` — - Beginner creation cannot request Risky Winds; unknown success probability produces an explicit unknown result.
+- `ai_docs/games/dddhd/spirits-and-commands.md:84` — - An Aura Lion “Faith costs 10 LP” answer also explains transformed-node prerequisites and flags the coordinate conflict.
+- `ai_docs/games/dddhd/spirits-and-commands.md:87` — - Duplicate Spirit instances retain separate board state; the shared breed acquisition goal remains one mark.
+
+### `ai_docs/games/dddhd/worlds-and-collectibles.md`
+
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:7` — | World / inspected source | Sora chests | Riku chests | Combined | Rows with empty location notes |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:18` — Each character's sequence begins at 1 and runs continuously to the table count. These are source-reported treasure numbers; verify against reliable HD references before certifying official journal order. 438 is a chest census, not a count of distinct item type…
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:20` — 387/438 rows have only area labels and no location notes; the remaining 51 notes also vary in precision. Therefore **the census is established but complete text directions are not ready**. This research set deliberately does not represent blank source notes as…
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:24` — The source for each group is the corresponding world link above. “Area only” explicitly means the approach route remains unverified. All quantities are one chest unless specified as contents.
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:34` — | Sora | The Grid #6 | Eaglider Recipe | Docks, upper level | Local landmark route still needed |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:35` — | Sora | The Grid #26 | Candy Goggles | Solar Sailer roof | Route still needed |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:39` — | Sora | Prankster's Paradise #5 | Malleable Fantasy | Amusement Park, Ferris wheel | Exact platform still needed |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:42` — | Riku | Prankster's Paradise #17 | Collision Magnet | Monstro: Belly, inverted layout | Inversion route still needed |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:47` — | Riku | Musketeers #19 | Ducky Goose Recipe | Machine Room; break a second-floor wall | Exact wall route still needed |
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:59` — Planning fields: stable collectible ID; game 'dddhd'; world; character; category; source-reported number and independently verified journal number; area; contents and quantities; approach landmark; physical action; access/ability prerequisite; returnability/mi…
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:65` — World collection percentage is completed eligible chest records divided by the fixed eligible chest denominator for that world/character scope. Search, “remaining only”, item-type and area filters do not shrink it. Show the combined denominator only when both …
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:70` — 2. Author original directions for every chest, starting with the 387 missing-note rows and known upper/lower, inverted-layout, breakable-wall and return-visit cases.
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:71` — 3. Verify access conditions and returnability for collectible routes, especially final-world traversal; ordinary plot progression does not become a checklist.
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:73` — 5. Verify synchronization, denominator stability, quantity handling, backup restore, content migration and media fallbacks using representative Sora/Riku records.
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:75` — Missing production screenshot/map images are the only deferred assets. Text directions, image fields, gallery behavior, alt text and empty-media states remain required.
+
+### `ai_docs/games/dream-drop-distance.md`
+
+- `ai_docs/games/dream-drop-distance.md:5` — Audited planning draft, 2026-09-18. The actual **KH3D DATABASE PROJECT** ranges and public HD references have been inspected. The workbook is a useful mixed-edition prototype, with material omissions and integrity defects. Production content remains incomplete…
+- `ai_docs/games/dream-drop-distance.md:11` — The supported baseline is **Dream Drop Distance HD**; the user plays Steam. **2.8 is a collection, not a standalone game entry.** Use 3DS evidence only where HD applicability is verified, retaining consequential changes. Announced 2026-10-08 ports remain unrel…
+- `ai_docs/games/dream-drop-distance.md:21` — - 119 command candidates; public category tables supply 124 after adding five omitted Defense commands and separating Reprisals; the legacy Item “Slots” field actually stores use quantities
+- `ai_docs/games/dream-drop-distance.md:22` — - 816 flat reward rows for 51 Spirits with LP prices; topology, gates and transformed reward nodes are missing
+- `ai_docs/games/dream-drop-distance.md:24` — - 243 creation formula candidates for 51 Spirits; mixed/null probability cells and incomplete “best base” flags require validation
+- `ai_docs/games/dream-drop-distance.md:25` — - A GameFAQs source lead (retrieval restricted; not claimed read)
+- `ai_docs/games/dream-drop-distance.md:27` — Exact sheet IDs, inspected ranges, row counts, aliases and conflicts are in the [legacy audit](dddhd/legacy-audit.md). Factual candidate cells are retained separately for review, never auto-imported into production.
+- `ai_docs/games/dream-drop-distance.md:109` — Research now establishes a 438-chest census (Sora 225, Riku 213), 78 Special/11 Secret portals, 14 ordinary Dives, ten Flick Rush cups, and a 15-type Keyblade acquisition catalog. Complete row-level routes/rewards still need source validation. Follow [worlds](…
+- `ai_docs/games/dream-drop-distance.md:131` — - “Which collectibles remain for Sora and Riku, and where are they?”
+- `ai_docs/games/dream-drop-distance.md:137` — DDD visual inspiration remains unconfirmed and user-owned; do not treat the earlier proposed neon palette as accepted. Initial application acceptance targets Apple browser/iPhone/iPad; Android follows. Preserve accessible compact marks/expanded rows, keyboard/…
+- `ai_docs/games/dream-drop-distance.md:139` — The app is spoilerific. No spoiler warnings, hidden content or reveal controls. No Available Now/progress-gate tracking or filtering; acquisition/access conditions remain concise text guidance.
+- `ai_docs/games/dream-drop-distance.md:144` — - Spirit attributes and style types appear incompletely populated in the Spirit table.
+- `ai_docs/games/dream-drop-distance.md:149` — - Aura Lion's public board table/footnote disagree about the red-secret coordinate; preserve this source conflict visibly.
+- `ai_docs/games/dream-drop-distance.md:150` — - External text may require attribution or rewriting.
+- `ai_docs/games/dream-drop-distance.md:154` — A user must be able to locate collectibles, plan Spirit creation, navigate every Ability Link board, understand Link pairings, find every verified acquisition route and track scoped progress without needing another guide. Acceptance validates sources, formulas…
+- `ai_docs/games/dream-drop-distance.md:156` — All specified features remain MVP. Only absent production screenshot/map images are deferred; complete text directions, media fields/support and fallback tests remain required.
+- `ai_docs/games/dream-drop-distance.md:166` — ## Crafting, inventory and application validation
+- `ai_docs/games/dream-drop-distance.md:168` — Follow [synthesis and inventory](../content/synthesis-and-inventory.md) and [testing/content validation](../testing-and-content-validation.md). Crafting is first-class; validate ingredient names/quantities, alternate outcomes, probabilities, rank boosts, forec…
+- `ai_docs/games/dream-drop-distance.md:170` — React offline PWA, persistent local progress, backup/restore/migration, bundled local SLM and the DDD Coppermind for Data Jiminy remain MVP. Source conflicts produce qualified answers rather than invented certainty. Initial functional checks cover Apple browse…
+- `ai_docs/games/dream-drop-distance.md:172` — The [research-source manifest](dddhd/sources.md) states exactly what was inspected. Community source evidence is not in-game verification, and missing evidence stays explicit. A source-backed content pass plus application tests replaces a required manual playe…
+
+### `ai_docs/readiness/dream-drop-distance.md`
+
+- `ai_docs/readiness/dream-drop-distance.md:7` — Apply the [shared readiness method](README.md), [linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content validation](../testing-and-content-validat…
+- `ai_docs/readiness/dream-drop-distance.md:12` — - Steam HD baseline for this user. 2.8 is a collection, not a standalone game. Announced 2026-10-08 ports are unverified/unreleased at audit.
+- `ai_docs/readiness/dream-drop-distance.md:16` — - React offline PWA, local persistent progress/backup, bundled local SLM and DDD Data Jiminy pack remain MVP.
+- `ai_docs/readiness/dream-drop-distance.md:18` — - Only missing production screenshot/map image assets are deferred. Text guidance and media support/testing remain MVP.
+- `ai_docs/readiness/dream-drop-distance.md:23` — | Category | Existing evidence | Research added | Status / concrete gap |
+- `ai_docs/readiness/dream-drop-distance.md:25` — | Edition/platform | Spec had uncertain 3DS provenance | HD mechanics, primary Steam composition, future-port boundary | Partial: exact platform controls/achievement mapping still needed |
+- `ai_docs/readiness/dream-drop-distance.md:26` — | World chests | No operational DDD data | Seven-world Sora/Riku census: 225 + 213 = 438; source numbers; HD replacements/access examples | **Blocked data**: 387 source rows have no precise notes; author/verify all directions and order |
+- `ai_docs/readiness/dream-drop-distance.md:27` — | Spirit roster | 52 master names | 54-name reconciled target; missing Sudo Neku/R & R Seal, aliases | Partial: independent complete HD breed/variant census and fields |
+- `ai_docs/readiness/dream-drop-distance.md:28` — | Creation formulas | 243 candidates for 51 breeds | 22 new/corrected HD formulas for six breeds; Sudo Neku route | **Blocked data**: validate all formulas, outcomes, probabilities, rank rules and recipe-item acquisition |
+- `ai_docs/readiness/dream-drop-distance.md:29` — | Dream Pieces | 37 names, blank totals | Material grade groups; Brilliant/Savage farming and forecast examples | **Blocked data**: complete HD source/rate/enemy/world table |
+- `ai_docs/readiness/dream-drop-distance.md:30` — | Ability Links | 816 flat reward rows, exactly 16 per 51 breeds | Red-secret transformations, gate examples, three missing HD boards identified | **Blocked data**: full 54 graphs/coordinates/edges/dispositions; Aura Lion coordinate conflict |
+- `ai_docs/readiness/dream-drop-distance.md:31` — | Passive abilities | 43 candidates/stacks | Permanent versus provider-equipped distinction; defaults/mode exceptions | Partial: all providers, HD stack behavior and achievement eligibility |
+- `ai_docs/readiness/dream-drop-distance.md:32` — | Commands | 119 candidates | 124-source census; five missing Defense commands, ten mislabeled Reprisals, multi-route examples | **Blocked data**: every acquisition route, reload/uses/slots and character rules |
+- `ai_docs/readiness/dream-drop-distance.md:33` — | Links | 27 single/7 dual attacks, 5 single/3 dual styles; 30/15 pair rules | Gauge/character separation and wildcard priority planning | **Blocked data**: master attribute/style fields blank; complete HD breed mapping/controls |
+- `ai_docs/readiness/dream-drop-distance.md:34` — | Portals | None | 78 Specials, 11 Secrets; Secret areas and reward/counter separation | **Blocked data**: 78 Special location/rotation/enemy/reward rows, Battle/Friendship inventory, seven bonus-objective types |
+- `ai_docs/readiness/dream-drop-distance.md:35` — | Keyblades | None | 15 types, 13 eligible per character; award sources and stats | Partial: exact reward delivery/platform applicability |
+- `ai_docs/readiness/dream-drop-distance.md:36` — | Dives/Flick Rush | None | 14 ordinary courses with A-rank thresholds; ten cups/27 rounds/access; Sweet Dreams reward | Partial: HD shared first-award behavior, complete lineups/ranks/prizes/shop stock |
+- `ai_docs/readiness/dream-drop-distance.md:37` — | Minigames/optional bosses | None | HD toy changes, score thresholds, Julius/Lord Kyroo reward rules | Partial: controller inputs, toy acquisition and original detailed guidance |
+- `ai_docs/readiness/dream-drop-distance.md:38` — | Secret/report goals | Broad unscoped intention | Secret ending criteria and discrete unlock boundaries | Partial: reliable HD trigger/recovery evidence; full ordinary narrative manifest unnecessary |
+- `ai_docs/readiness/dream-drop-distance.md:39` — | In-game/platform awards | Unscoped intention | 18 HD in-game awards separated from selected official platform requirements; 69 Steam total includes 0.2 | Partial: platform IDs, hidden/mode-specific requirements and exact DDD partition |
+- `ai_docs/readiness/dream-drop-distance.md:40` — | Offline progress/inventory | Spec only | Record/event/instance scopes, synchronization/counting fixtures | Engineering not implemented/tested |
+- `ai_docs/readiness/dream-drop-distance.md:41` — | Data Jiminy | Shared MVP requirement | Grounded answer/evaluation fixtures below | Pack/evaluations not built |
+- `ai_docs/readiness/dream-drop-distance.md:42` — | UI/media/accessibility | Unconfirmed DDD theme | Shared checklist contract, accepted Apple-first test target | DDD inspiration still open; no UI implemented |
+- `ai_docs/readiness/dream-drop-distance.md:46` — See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classi…
+- `ai_docs/readiness/dream-drop-distance.md:48` — [World source coverage](../games/dddhd/worlds-and-collectibles.md) explicitly distinguishes an area label from complete text directions. [Source manifest](../games/dddhd/sources.md) records restricted/redirected leads without claiming they were read. No produc…
+- `ai_docs/readiness/dream-drop-distance.md:54` — | DDD-UI-01 | Which DDD Reports/menu inspiration should guide the skin? Keep visual choice unconfirmed until user supplies direction. | Appearance only; research continues | Open |
+- `ai_docs/readiness/dream-drop-distance.md:57` — | DDD-VALIDATION-01 | Source/formula validation and Apple-first app tests; no manual playthrough requirement | Release gates | Accepted |
+- `ai_docs/readiness/dream-drop-distance.md:65` — 2. World/character scope uses the correct fixed count; remaining-only filters do not change it. A ten-item chest counts once. Narrative flags never enter the denominator.
+- `ai_docs/readiness/dream-drop-distance.md:66` — 3. Crafting handles opt-in inventory, x/y quantities, alternate recipes/outcomes, rank/forecast/difficulty rules and consumed resources. Null probability is unknown. Beginner cannot be given a Risky Winds plan.
+- `ai_docs/readiness/dream-drop-distance.md:71` — 8. The Steam 2.8 Treasure Hunter entry is not mapped to DDD chests. Platform awards and in-game trophies/secret-ending counters remain separate.
+- `ai_docs/readiness/dream-drop-distance.md:72` — 9. Data Jiminy answers cite bundled record/source IDs, explain unknown directions/probabilities, and use shared persisted progress. Test unsupported-route refusal and conflicting-source answers.
+- `ai_docs/readiness/dream-drop-distance.md:73` — 10. Test Apple browser/iPhone/iPad touch/keyboard access, compact detail interaction, reduced motion, local offline answers, backup/migration and missing-image states; Android follows.
+- `ai_docs/readiness/dream-drop-distance.md:78` — - Complete formula/board/material/portal datasets and resolve recorded conflicts.
+- `ai_docs/readiness/dream-drop-distance.md:84` — 2026-09-18: Accepted compendium counting, synchronized marks/details, Steam use, spoilerific presentation, no Available Now tracking, optional inventory, first-class crafting and source/app testing. DDD visual inspiration remains the only specific user-owned q…
+
+### `ai_docs/implementation/dddhd-rollout.md`
+
+- `ai_docs/implementation/dddhd-rollout.md:7` — Started with the six DDD research documents and the legacy factual-candidate inventory. The old HTML was a placeholder. The legacy data omitted five Defense commands, used inconsistent breed/command names, mixed 3DS and HD formulas, and flattened board gates. …
+- `ai_docs/implementation/dddhd-rollout.md:9` — Expanded research by fetching factual fields directly from all seven KHWiki world pages and all 54 breed pages on September 20. World extraction asserts the existing researched 438-chest / 78-Special-Portal census. Breed extraction selects the final synthesis …
+- `ai_docs/implementation/dddhd-rollout.md:16` — - 54 shared Spirit breeds with source Link/attribute/style data and legacy board reward reference. Corrected Juggle Pup, Majik Lapin, Fishboné and R & R Seal aliases. Aura Lion and Lord Kyroo transformed-node caveats remain visible.
+- `ai_docs/implementation/dddhd-rollout.md:17` — - 124 commands, with the missing Defense group restored and legacy Defense corrected to Reprisal; 43 abilities with reverse provider references. Item uses are not falsely rendered as deck slots.
+- `ai_docs/implementation/dddhd-rollout.md:18` — - 263 creation formulas for all 54 breeds. Explicit success percentages and alternate outcomes are retained; omitted probabilities remain unknown. HD Frootz Cat, Kab Kannon and R & R Seal formulas replace 3DS formulas. These create material targets for one att…
+- `ai_docs/implementation/dddhd-rollout.md:19` — - 37 Dream Pieces, all with sourced farming routes. Ordinary and rare Nightmare rates remain distinct; portal rewards include character, world, area and forecast. Material family/grade order is deterministic. Finite alternatives remain in expanded descriptions…
+- `ai_docs/implementation/dddhd-rollout.md:23` — ## Reproduction and validation
+- `ai_docs/implementation/dddhd-rollout.md:27` — Generator assertions check unique entry and recipe identities, all ingredient references, exact 438 chest count, and absence of leaked wiki/template/HTML markup. Fetch assertions check 78 Special Portals and all 54 breeds with formulas. Reconciled seven world …
+- `ai_docs/implementation/dddhd-rollout.md:29` — ## Honest remaining coverage
+- `ai_docs/implementation/dddhd-rollout.md:31` — Most chest records have verified area/contents but still need precise approach directions. Special Portal bonus objectives and exact approaches are not yet imported. Enemy farming locations are world-level, with portal-only qualifiers retained; rare encounter …
+
+### `ai_docs/sources/khtables-drive-audit.md`
+
+- `ai_docs/sources/khtables-drive-audit.md:13` — | KHBBS Tables | Google Sheet | Birth by Sleep Final Mix | High | Extract domain model and verify all facts |
+- `ai_docs/sources/khtables-drive-audit.md:14` — | KH FM TABLES | Google Sheet | Kingdom Hearts Final Mix | High | Extract completion categories and candidate records |
+- `ai_docs/sources/khtables-drive-audit.md:17` — | KH2 SETUP | Google Doc | Kingdom Hearts II Final Mix | Medium | Schema and data dump with TODOs |
+- `ai_docs/sources/khtables-drive-audit.md:20` — | Kh2FM tables | Google Sheet | Kingdom Hearts II Final Mix | High | Extract candidate datasets and gaps |
+- `ai_docs/sources/khtables-drive-audit.md:26` — The old database work models relationships that remain product-relevant:
+- `ai_docs/sources/khtables-drive-audit.md:49` — - Some intended tabs are empty.
+- `ai_docs/sources/khtables-drive-audit.md:50` — - TODO comments explicitly acknowledge missing areas and weak sources.
+- `ai_docs/sources/khtables-drive-audit.md:56` — - Several datasets are broad but incomplete.
+- `ai_docs/sources/khtables-drive-audit.md:58` — - Controller-button glyphs are missing from some Dream Drop Distance descriptions.
+- `ai_docs/sources/khtables-drive-audit.md:64` — For each candidate record:
+- `ai_docs/sources/khtables-drive-audit.md:68` — 3. Verify the fact against an acceptable source.
+- `ai_docs/sources/khtables-drive-audit.md:73` — 8. Preserve uncertainty explicitly until resolved.
+
+### `ai_docs/02-content-inventory.md`
+
+- `ai_docs/02-content-inventory.md:27` — | KH3D DATABASE PROJECT | Dream Drop Distance | Spirits, recipes, board unlocks, commands, abilities, Link Attacks and Styles | Specified; facts unverified |
+
+### `ai_docs/implementation/multi-game-rollout.md`
+
+- `ai_docs/implementation/multi-game-rollout.md:12` — - Collapsed drop/location summaries, Conditional labels, inline source details, target/owned/remaining quantities and no automatic stock consumption.
+- `ai_docs/implementation/multi-game-rollout.md:13` — - Game-isolated IndexedDB profiles, atomic concurrent mutations, cross-tab refresh, resume links, backup import/export and pre-import recovery. Unknown stock remains distinct from zero; errors are visible.
+- `ai_docs/implementation/multi-game-rollout.md:18` — Concurrency limits required running the game assignments in waves. Each game received a bounded implementation/review assignment; root owned shared integration, persistence, responsive styling and validation.
+- `ai_docs/implementation/multi-game-rollout.md:31` — This is a functional review build, not a declaration that every game's research is complete. Some precise chest approach directions, hidden achievement conditions, complete enemy/equipment/synthesis catalogs and advanced game-specific calculators remain incomp…
+- `ai_docs/implementation/multi-game-rollout.md:33` — The common presentation intentionally prioritizes browsable answers over separate detail pages. The recorded modal and world-category table alternatives remain backup approaches for the next human review.
+- `ai_docs/implementation/multi-game-rollout.md:35` — ## Validation
+- `ai_docs/implementation/multi-game-rollout.md:37` — Production build and type checking passed. All 76 unit checks passed, including new catalog identity/recipe integrity, atomic concurrent target additions, recovery, game isolation, quantity validation and family sorting checks. The targeted integration rerun p…
+- `ai_docs/implementation/multi-game-rollout.md:39` — Desktop and phone screenshots were inspected; corrected cramped mobile filters, desktop paper padding and the inherited empty assistant dock. This is Chromium phone emulation, not a claim of physical iPhone/Safari testing.
+- `ai_docs/implementation/multi-game-rollout.md:43` — Work is committed on 'feat/refined-game-guides' for review and remote backup. The deployed master branch remains the previously approved KHFM refinement build.
+
+### `ai_docs/testing-and-content-validation.md`
+
+- `ai_docs/testing-and-content-validation.md:1` — # Testing and content validation
+- `ai_docs/testing-and-content-validation.md:11` — Content still needs cited, edition-correct sources, reconciliation of contradictory values, schema/reference checks, inventory counts and independently checked calculation fixtures. Do not label a source-backed fact “in-game tested” without such evidence. Reso…
+- `ai_docs/testing-and-content-validation.md:29` — - Scope isolation, grouped-item counts, filters, resume, undo, export/import, migrations and failed writes behave correctly.
+- `ai_docs/testing-and-content-validation.md:31` — - Offline installation/readiness, cold relaunch, interrupted downloads, safe updates, local inference and missing-data responses work on the initial matrix.
+- `ai_docs/testing-and-content-validation.md:32` — - Readable dense tables, touch/keyboard access and accessible names/states work without production images; optional-media fixture tests remain in scope.
+- `ai_docs/testing-and-content-validation.md:34` — - No Available Now filter, ability/story milestone questionnaire or progression-gate tracker. Required abilities/access conditions remain plain acquisition guidance.
+- `ai_docs/testing-and-content-validation.md:38` — Passing app tests does not certify unverified guide facts. Conversely, source validation does not require the user to test facts while playing. Record research, structured-data validation, app implementation and executed app acceptance separately. This superse…
+
+Caveat occurrence index: **190 source lines**. This is a lexical backstop after the structural/manual audit, not the finding count.
+
+## Coverage inventory and exclusions
+
+Full game-owned source/data files were inspected, including all records using structured scans for large JSON/TypeScript artifacts. Shared and related-game files were searched and relevant sections/context inspected; their unrelated game content is outside this audit. No files were edited except this game's audit report.
+
+- `ai_docs/01-product-vision-and-scope.md:1` — 106 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/02-content-inventory.md:1` — 82 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/games/README.md:1` — 85 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/games/bbsfm/source-manifest.json:1` — 1066 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/games/dddhd/README.md:1` — 42 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/legacy-audit.md:1` — 112 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/portals-and-challenges.md:1` — 74 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/rewards-and-achievements.md:1` — 125 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/sources.md:1` — 76 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/spirits-and-commands.md:1` — 89 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dddhd/worlds-and-collectibles.md:1` — 76 lines; full game-owned evidence/runtime.
+- `ai_docs/games/dream-drop-distance.md:1` — 173 lines; full game-owned evidence/runtime.
+- `ai_docs/games/kh3/sources-and-conflicts.md:1` — 95 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/implementation/dddhd-rollout.md:1` — 31 lines; full game-owned evidence/runtime.
+- `ai_docs/implementation/human-feedback.md:1` — 213 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/implementation/multi-game-rollout.md:1` — 43 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/implementation/ui-ux-review.md:1` — 47 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/readiness/README.md:1` — 36 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/readiness/dream-drop-distance.md:1` — 85 lines; full game-owned evidence/runtime.
+- `ai_docs/research/parallel-game-research.md:1` — 33 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/research/recom-2026-09-28-coverage-and-gap-research.md:1` — 71 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/sources/khtables-drive-audit.md:1` — 84 lines; shared/related context or lexical discovery; relevant sections only.
+- `ai_docs/testing-and-content-validation.md:1` — 38 lines; shared/related context or lexical discovery; relevant sections only.
+- `games/ddd.html:1` — 75 lines; shared/related context or lexical discovery; relevant sections only.
+- `legacy-index.html:1` — 65 lines; shared/related context or lexical discovery; relevant sections only.
+- `legalstuff.html:1` — 77 lines; shared/related context or lexical discovery; relevant sections only.
+- `src/App.tsx:1` — 1159 lines; shared/related context or lexical discovery; relevant sections only.
+- `src/games/dddhd.ts:1` — 35 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/content.json:1` — 18473 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/fetch-spirits.py:1` — 20 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/fetch-worlds.py:1` — 42 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/generate.py:1` — 123 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/spirit-facts.json:1` — 4595 lines; full game-owned evidence/runtime.
+- `src/games/dddhd/world-facts.json:1` — 4290 lines; full game-owned evidence/runtime.
+- `src/games/registry.ts:1` — 12 lines; shared/related context or lexical discovery; relevant sections only.
+- `src/games/types.ts:1` — 40 lines; shared/related context or lexical discovery; relevant sections only.
+- `tests/e2e/multi-game.spec.ts:1` — 106 lines; shared/related context or lexical discovery; relevant sections only.
+- `tests/multi-game.test.ts:1` — 78 lines; shared/related context or lexical discovery; relevant sections only.
+
+No independent facts were taken from generated browser bundles, image assets, untracked work, external private files or newly fetched pages. Cross-game BBS Secret Episode/DDD/0.2 mentions were used only to enforce game boundaries. Source URLs and local links were inspected as provenance strings; external reachability and live source changes were not checked in this existing-evidence audit.
+
+## Consistency results
+
+- 860 entry IDs and 263 recipe IDs are unique; all recipe ingredient IDs resolve to the 37 material records.
+- Runtime 438 chest rewards equal all corresponding canonical world-extract item fields; seven-world and two-character inventories reconcile.
+- Current source extract has 54 nonempty formula sets and all Link/attribute/style fields populated; all 78 Special Portal extracted fields are nonempty.
+- Source-extract emptiness is preserved where semantics are not established; no unknown probability is silently converted to 100%.
+- Formula source URLs are embedded in instructions, while entry sources use URL lists; no cited runtime source URL contains an unescaped space. These string checks do not verify external pages.
+- Existing tests at `tests/multi-game.test.ts:18–33` and `tests/e2e/multi-game.spec.ts:1–35`, `tests/e2e/multi-game.spec.ts:94–108` cover schema/reference and UI/offline behavior, not independent gameplay research.
+
+Local Markdown link targets within the game research pack all resolve. Legacy navigation/credits HTML mentions were checked only for game identity or source leads; they contain no operational DDD acquisition catalog.

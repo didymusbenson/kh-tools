@@ -1,5 +1,7 @@
 # Ars Arcanum
 
+**Data Jiminy status — 2026-10-01:** His game memories have been flushed while research is audited. The Chroma instance, model setup and chat infrastructure remain intact; the shipped knowledge pack is empty. Jiminy displays “under construction,” and the full AI notice opens from **About Data Jiminy**. Research records and player progress are preserved. Earlier populated-pack counts below are historical; see [current Coppermind status](artifacts/copperminds/README.md).
+
 A mobile-first offline Kingdom Hearts completion journal. The first implementation covers modern **Kingdom Hearts Final Mix**: world collectibles, linked locations, synthesis and optional material inventory, equipment, challenges, and Data Jiminy.
 
 ## Run

@@ -2,6 +2,8 @@ import type { GameData, PlayerState } from "../domain/types";
 import {
   EMBEDDING_MODEL,
   EMBEDDING_REVISION,
+  KNOWLEDGE_REVISION,
+  CONSTRUCTION_MESSAGE,
   type CoppermindPack,
   type JiminyAnswer,
   type JiminyProgress,
@@ -16,6 +18,7 @@ export { AI_DISCLAIMER, MODEL_NAME } from "./types";
 export type { JiminyAnswer, JiminyProgress } from "./types";
 const matchingEmbedding = (pack: CoppermindPack) =>
   pack.schemaVersion === 1 &&
+  pack.knowledgeRevision === KNOWLEDGE_REVISION &&
   pack.embedding?.model === EMBEDDING_MODEL &&
   pack.embedding.revision === EMBEDDING_REVISION &&
   pack.embedding.dimensions === 384 &&
@@ -38,7 +41,7 @@ export class JiminyEngine {
   private progress: JiminyProgress = {
     phase: "idle",
     message:
-      "Download Data Jiminy for local semantic answers. Journal lookups already work offline.",
+      "Local models can be prepared independently of Jiminy’s game knowledge.",
   };
   private pending = new Map<
     number,
@@ -71,7 +74,7 @@ export class JiminyEngine {
       this.reportProgress({
         phase: "idle",
         message:
-          "Open the assistant to restore this journal’s local files, or download them once.",
+          "Game knowledge is being rebuilt. You can still prepare the local models.",
       });
     }
   }
@@ -268,6 +271,21 @@ export class JiminyEngine {
     })();
     return this.setupPromise;
   }
+  private async knowledge(data: GameData): Promise<CoppermindPack | undefined> {
+    if (this.pack && this.pack.contentVersion === data.version && matchingEmbedding(this.pack))
+      return this.pack;
+    const generation = this.generation;
+    const url = `${import.meta.env.BASE_URL}data/${data.game}-coppermind.json`;
+    const response = await fetch(url).catch(async () => await caches.match(url, { ignoreSearch: true }));
+    if (!response?.ok) return undefined;
+    const pack = (await response.json()) as CoppermindPack;
+    if (generation !== this.generation || this.active !== data.game)
+      throw new Error("The active journal changed; the old answer was discarded.");
+    if (pack.game !== data.game || pack.contentVersion !== data.version || !matchingEmbedding(pack))
+      return undefined;
+    this.pack = pack;
+    return pack;
+  }
   async ask(
     question: string,
     data: GameData,
@@ -275,6 +293,9 @@ export class JiminyEngine {
   ): Promise<JiminyAnswer> {
     if (this.active !== data.game)
       throw new Error("Open this game journal before asking Data Jiminy.");
+    const knowledge = await this.knowledge(data);
+    if (!knowledge || knowledge.knowledgeState === "empty" || !knowledge.thoughts.length)
+      return { text: CONSTRUCTION_MESSAGE, citations: [], mode: "missing" };
     if (question.length > 1000)
       return {
         text: "Please shorten the question to 1,000 characters.",

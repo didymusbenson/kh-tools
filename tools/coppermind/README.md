@@ -1,5 +1,7 @@
 # Game Copperminds and Data Jiminy
 
+> **Current state — 2026-10-01:** Existing game memories are flushed. KH1FM is the only seeded instance and now has an empty `thoughts` collection and browser export. Infrastructure remains enabled. See [artifact status](../../artifacts/copperminds/README.md). Population/setup measurements below are historical. The seed CLI refuses to refill the empty release until reviewed content and `src/jiminy/knowledge-release.json` are explicitly updated; synthetic seed tests remain available.
+
 ## Reference and provenance
 
 Inspected `WintersRain/coppermind` commit `864a2ef57cd1f7a926a637221a68bef40d5f8bd2`, specifically `src/server.py` and README. That implementation stores content, category and comma-separated tags in Chroma with cosine retrieval. It creates `brain_{PROJECT}` collections under one database directory. KH Tools deliberately creates **a separate `chromadb.PersistentClient` directory for each game**. The browser consumes an export and never connects to a Chroma server.

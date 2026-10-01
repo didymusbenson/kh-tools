@@ -6,6 +6,7 @@ import {
   AI_DISCLAIMER,
   AI_LIMITATIONS,
   MODEL_NAME,
+  CONSTRUCTION_MESSAGE,
   type JiminyAnswer,
   type JiminyProgress,
 } from "../jiminy/types";
@@ -32,8 +33,9 @@ export function DataJiminy({
     [history, setHistory] = useState<Exchange[]>([]),
     [busy, setBusy] = useState(false),
     [progress, setProgress] = useState<JiminyProgress>(jiminy.status());
-  const [disclaimer, setDisclaimer] = useState(true);
   const dialog = useRef<HTMLDialogElement>(null),
+    aboutDialog = useRef<HTMLDialogElement>(null),
+    aboutButton = useRef<HTMLButtonElement>(null),
     launcher = useRef<HTMLButtonElement>(null),
     questionRef = useRef<HTMLTextAreaElement>(null),
     threadRef = useRef<HTMLDivElement>(null),
@@ -105,6 +107,7 @@ export function DataJiminy({
     }
   }
   function close() {
+    aboutDialog.current?.close();
     setOpen(false);
   }
   function clear() {
@@ -147,7 +150,7 @@ export function DataJiminy({
               alt=""
             />
             <div>
-              <span className="eyebrow">A little guidance</span>
+              <span className="eyebrow">Under construction</span>
               <h2 id="jiminy-title">Data Jiminy</h2>
               <p>Kingdom Hearts · Final Mix</p>
             </div>
@@ -161,25 +164,16 @@ export function DataJiminy({
             </button>
           </header>
           <div className="jiminy-scroll" ref={threadRef}>
-            <section className="ai-disclaimer">
-              <button
-                className="disclaimer-heading"
-                aria-expanded={disclaimer}
-                onClick={() => setDisclaimer(!disclaimer)}
-              >
-                <span>
-                  <Icon name="info" size={17} />
-                  About Data Jiminy / AI disclaimer
-                </span>
-                <Icon name={disclaimer ? "minus" : "plus"} size={17} />
-              </button>
-              {disclaimer && (
-                <>
-                  <p>{AI_DISCLAIMER}</p>
-                  <p className="ai-limitations">{AI_LIMITATIONS}</p>
-                </>
-              )}
-            </section>
+            <p className="jiminy-construction">{CONSTRUCTION_MESSAGE}</p>
+            <button
+              ref={aboutButton}
+              type="button"
+              className="jiminy-about-link"
+              aria-haspopup="dialog"
+              onClick={() => aboutDialog.current?.showModal()}
+            >
+              <Icon name="info" size={16} /> About Data Jiminy
+            </button>
             <section
               className={`model-status model-${progress.phase}`}
               aria-label="Local assistant readiness"
@@ -198,7 +192,7 @@ export function DataJiminy({
               </div>
               <p>
                 {progress.message ||
-                  `Download ${MODEL_NAME} and its search model once. Guide browsing and exact lookups remain available during setup.`}
+                  `Download ${MODEL_NAME} and its search model once. Game knowledge is being rebuilt separately.`}
               </p>
               {typeof progress.percent === "number" && (
                 <>
@@ -227,28 +221,8 @@ export function DataJiminy({
             </section>
             {history.length === 0 && (
               <div className="jiminy-start">
-                <span className="eyebrow">Open to the right page</span>
-                <h3>What are you looking for?</h3>
-                <p>
-                  Ask for a location, recipe, material source, or your recorded
-                  progress in this journal.
-                </p>
-                <div className="suggested-questions">
-                  {[
-                    "Where are the Torn Pages?",
-                    "What do I need for Ultima Weapon?",
-                    "What collectibles am I missing?",
-                  ].map((text) => (
-                    <button
-                      key={text}
-                      onClick={() => ask(undefined, text)}
-                      disabled={busy}
-                    >
-                      {text}
-                      <Icon name="arrow" size={15} />
-                    </button>
-                  ))}
-                </div>
+                <h3>A fresh start for Jiminy</h3>
+                <p>His previous memories have been cleared while we check the facts. There are no game facts in his knowledge base yet.</p>
               </div>
             )}
             <div
@@ -311,7 +285,7 @@ export function DataJiminy({
                 id="jiminy-question"
                 rows={2}
                 maxLength={1000}
-                placeholder="Ask about Kingdom Hearts Final Mix…"
+                placeholder="Game knowledge is being rebuilt…"
                 value={question}
                 onChange={(e) => setQuestion(e.target.value)}
                 onKeyDown={(e) => {
@@ -342,6 +316,29 @@ export function DataJiminy({
                 </button>
               )}
             </div>
+          </div>
+        </div>
+      </dialog>
+      <dialog
+        ref={aboutDialog}
+        className="jiminy-about-dialog"
+        aria-labelledby="jiminy-about-title"
+        onClose={() => aboutButton.current?.focus()}
+        onClick={(event) => {
+          if (event.target === event.currentTarget) aboutDialog.current?.close();
+        }}
+      >
+        <div className="jiminy-about-inner">
+          <header>
+            <h2 id="jiminy-about-title">About Data Jiminy</h2>
+            <button type="button" className="icon-button" aria-label="Close About Data Jiminy" onClick={() => aboutDialog.current?.close()} autoFocus>
+              <Icon name="close" />
+            </button>
+          </header>
+          <div className="jiminy-about-copy">
+            <p>{CONSTRUCTION_MESSAGE}</p>
+            <p>{AI_DISCLAIMER}</p>
+            <p>{AI_LIMITATIONS}</p>
           </div>
         </div>
       </dialog>

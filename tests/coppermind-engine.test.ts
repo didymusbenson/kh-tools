@@ -1,10 +1,12 @@
 import { afterEach, describe, it, expect, vi } from "vitest";
 import { JiminyEngine } from "../src/jiminy";
-import { EMBEDDING_MODEL, EMBEDDING_REVISION } from "../src/jiminy/types";
+import { EMBEDDING_MODEL, EMBEDDING_REVISION, KNOWLEDGE_REVISION, CONSTRUCTION_MESSAGE } from "../src/jiminy/types";
 import type { GameData } from "../src/domain/types";
 const data = { game: "kh1fm", version: "fixture" } as GameData;
 const pack = {
   schemaVersion: 1,
+  knowledgeRevision: KNOWLEDGE_REVISION,
+  knowledgeState: "ready",
   game: "kh1fm",
   contentVersion: "fixture",
   embedding: {
@@ -22,6 +24,31 @@ afterEach(() => {
   vi.unstubAllEnvs();
 });
 describe("cached Jiminy restore", () => {
+  it("returns the rebuilding message for empty memories before any direct guide lookup", async () => {
+    vi.stubGlobal("fetch", async () => new Response(JSON.stringify({ ...pack, knowledgeState: "empty" })));
+    const worker = vi.fn();
+    vi.stubGlobal("Worker", worker);
+    const engine = new JiminyEngine();
+    engine.activateGame("kh1fm");
+    // This fixture has no entries: attempting the old direct-lookup fallback would fail.
+    expect(await engine.ask("What do I need for Ultima Weapon?", data)).toEqual({
+      text: CONSTRUCTION_MESSAGE, citations: [], mode: "missing",
+    });
+    expect(worker).not.toHaveBeenCalled();
+  });
+  it("does not resurrect a populated pack from before the memory flush", async () => {
+    const oldPack = { ...pack, knowledgeRevision: "old", thoughts: [{ text: "Stale fact" }] };
+    vi.stubGlobal("fetch", async () => new Response(JSON.stringify(oldPack)));
+    vi.stubGlobal("caches", { match: async () => new Response(JSON.stringify(oldPack)) });
+    const worker = vi.fn();
+    vi.stubGlobal("Worker", worker);
+    const engine = new JiminyEngine();
+    engine.activateGame("kh1fm");
+    await engine.restore(data);
+    expect(engine.status().phase).toBe("idle");
+    expect((await engine.ask("Where is the chest?", data)).text).toBe(CONSTRUCTION_MESSAGE);
+    expect(worker).not.toHaveBeenCalled();
+  });
   it.each(["setup", "restore"] as const)("reopens after leaving during %s without stale progress or duplicate work", async (action) => {
     const sent: any[] = [];
     let worker: any;

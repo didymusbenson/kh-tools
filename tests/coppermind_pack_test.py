@@ -6,7 +6,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools/coppermind'))
 from check_pack import EXPECTED_EMBEDDING, validate_pack
-from seed import digest, thoughts
+from seed import KNOWLEDGE_RELEASE, digest, thoughts
 
 
 class CommittedPackTest(unittest.TestCase):
@@ -22,6 +22,7 @@ class CommittedPackTest(unittest.TestCase):
             }],
         }
         self.pack = {
+            'knowledgeRevision': KNOWLEDGE_RELEASE['revision'], 'knowledgeState': 'ready',
             'schemaVersion': 1, 'game': 'kh1fm', 'contentVersion': self.data['version'],
             'contentHash': digest(self.data), 'embedding': dict(EXPECTED_EMBEDDING),
             'thoughts': [{**thought, 'vector': [1.0] + [0.0] * 383}
@@ -32,6 +33,16 @@ class CommittedPackTest(unittest.TestCase):
         report = validate_pack(self.data, self.pack)
         self.assertEqual(report['entryCount'], 1)
         self.assertEqual(report['thoughtCount'], 3)
+
+    def test_empty_release_requires_explicit_empty_state_and_zero_memories(self):
+        empty = {**self.pack, 'knowledgeState': 'empty', 'thoughts': []}
+        self.assertEqual(validate_pack(self.data, empty, allow_empty=True)['thoughtCount'], 0)
+        with self.assertRaises(ValueError):
+            validate_pack(self.data, empty)
+        with self.assertRaisesRegex(ValueError, 'zero memories'):
+            validate_pack(self.data, {**self.pack, 'knowledgeState': 'empty'}, allow_empty=True)
+        with self.assertRaisesRegex(ValueError, 'predates'):
+            validate_pack(self.data, {**empty, 'knowledgeRevision': 'old'}, allow_empty=True)
 
     def test_stale_content_is_rejected_even_if_version_was_not_bumped(self):
         changed = copy.deepcopy(self.data)
