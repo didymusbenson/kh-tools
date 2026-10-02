@@ -1,6 +1,6 @@
 # KH1FM research resolution — 2026-10-01
 
-Scope: modern Steam KH1 Final Mix in app 2552430. This pass investigated **all 20 findings**, consulted live sources and later local resolutions, and changed canonical inputs, the collectible importer and the KH1 item view. Source-backed does not mean binary-tested. **10 closed, 6 partial, 4 unresolved**; residuals below are specific evidence limits, not untouched work relabeled blocked. The original audit and its appendices are historical snapshots.
+Scope: modern Steam KH1 Final Mix in app 2552430. This pass investigated **all 20 findings**, consulted live sources and later local resolutions, and changed canonical inputs, the collectible importer and the KH1 item view. Source-backed does not mean binary-tested. **11 closed, 6 partial, 3 unresolved**; residuals below are specific evidence limits, not untouched work relabeled blocked. The original audit and its appendices are historical snapshots.
 
 Current generated content: **1,259 entries** (471 collection + 788 reference), **33 recipes**, **26 coverage groups**. Added 80 Gummi part variants, seven editor tools and 23 general items; all twelve originally empty enemy facts now have their exceptional damage/EXP rules. The declared 22-activity minigame roster is complete; four Journal cup timers remain correctly represented under cups. Item records appear in Equipment, Items & Abilities as well as All Reference.
 
@@ -68,3 +68,7 @@ Continuation: [all 12 residual investigations, pinned source evidence and valida
 ## Lineage and validation
 
 Canonical edits: `tools/content/import-reference.source.json`, `tools/content/challenge-reference.json`, `tools/content/challenge-coverage.json`, and `tools/content/import-collectibles.py`. Ran both KH1 importers and KH1-only `tools/content/build.mjs`, generating `data/kh1fm/*`, collectible source ledger and `public/data/kh1fm.json`. Added the KH1-only legacy audit generator and exposed general items in `src/journal/Kh1Journal.tsx`. No full repository suite or commit was run by this research agent. Root owns integration checks and refreshing the deliberately empty Jiminy artifacts; this pass did not seed any memories.
+
+## 2026-10-02 continuation
+
+KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. Other open findings remain under investigation.

@@ -7755,7 +7755,7 @@
     "game": "kh1fm",
     "category": "minigame",
     "name": "Pooh’s Swing — Cheer record",
-    "summary": "Target: 40 distance units.",
+    "summary": "Target: at least 40 m.",
     "instructions": "Use the push command in time with Owl. For the story target, time the final push around Owl opening his wings so Pooh lands near Eeyore’s home. For the high-score attempt, time the fourth push near Owl closing his wings. Reach the stated target, then check the corresponding honeypot behind Pooh’s House. Complete all five record targets and speak to Owl there for Cheer.",
     "tags": [
       "minigame",
@@ -7782,6 +7782,16 @@
         "label": "Steam guide — 40 yards wording",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3267604660",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "Squid Gaming — Steam-linked swing gameplay; HUD shows m at 0:03 and 0:38",
+        "url": "https://www.youtube.com/watch?v=MbRKk8JlsVw&t=38s",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "Steam — player links their own swing footage (13 January 2025)",
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/601893430931532381/",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -7793,10 +7803,9 @@
     "reward": "One of five requirements for Sora’s Cheer.",
     "facts": {
       "subtype": "minigame-record",
-      "target": "40 distance units",
+      "target": "40 m",
       "recordGame": "Pooh’s Swing"
-    },
-    "uncertainty": "Steam guide prose and KHGuides use yards; other references use meters. A Steam-localized result-screen capture or string table was not available to identify the exact display unit. A displayed score of at least 40 is the supported target."
+    }
   },
   {
     "id": "kh1fm-minigame-tigger-s-giant-pot-episode-clear",

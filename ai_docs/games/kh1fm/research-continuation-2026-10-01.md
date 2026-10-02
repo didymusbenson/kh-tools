@@ -1,6 +1,6 @@
 # KH1FM research continuation — 2026-10-01
 
-Continuation from checkpoint `2fd2927`; scope is Steam KH1 Final Mix in app 2552430. Every residual finding was reopened for a bounded source investigation. Current disposition: **10 closed, 6 partial, 4 unresolved**. KH1-016 closes with explicit modern PC documentary evidence and KH1-019 closes with all 55 individually observed API key/condition pairs; KH1-005 narrows to saved replay-time persistence. Neither result is described as a playthrough or executable verification.
+Continuation from checkpoint `2fd2927`; scope is Steam KH1 Final Mix in app 2552430. Every residual finding was reopened for a bounded source investigation. Current disposition: **11 closed, 6 partial, 3 unresolved**. KH1-016 closes with explicit modern PC documentary evidence and KH1-019 closes with all 55 individually observed API key/condition pairs; KH1-005 narrows to saved replay-time persistence. Neither result is described as a playthrough or executable verification.
 
 ## Every residual finding
 
@@ -40,3 +40,7 @@ Closed catalog/route findings **KH1-006, 007, 008, 009, 011, 012, 013, 017** wer
 ## Validation
 
 KH1 reference importer and KH1-only content generator pass: **788 reference records**, **1,259 total entries**, **33 recipes**, **26 coverage groups**. The stable ID set and all counts are unchanged; three existing guide records and all 55 achievement metadata records changed. Canonical-to-runtime equality and unique-ID/link validation pass. `git diff --check` passes for the owned files. No whole-project build, Jiminy seeding, packaging, commit or push was performed.
+
+## 2026-10-02 continuation
+
+KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. Other open findings remain under investigation.
