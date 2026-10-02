@@ -66,4 +66,4 @@ Data Jiminy remains **empty, zero thoughts**. Its existing empty pack was refres
 - `57e359a`: BBS continuation.
 - `9cf1b9d`: DDD/KH0.2 continuation and active-document reconciliation.
 
-The final combined validation/documentation checkpoint follows these in git history. Changes are local on `research/audit-2026-10-01`; this recovery did not push, merge or deploy.
+`a7a5f1b` records the final combined validation/documentation checkpoint. At the end of recovery, changes were local on `research/audit-2026-10-01`; that recovery did not push, merge or deploy. The user subsequently requested merging all current work into `master`. Research remains in progress with 75 partial and 16 unresolved/conflicted factual families; merging this checkpoint is not research completion. Git history records the subsequent integration.

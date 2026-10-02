@@ -1,5 +1,7 @@
 # Research gap resolution — October 1, 2026
 
+**Task status: research remains in progress.** There are 91 factual families still partially resolved or unresolved. The user requested merging the current work into `master`; that integration checkpoint does not mark the fact-finding mission complete. Passing application tests establishes implementation behavior, not completeness or accuracy of every game fact.
+
 This follows through on **all 208 issue families across all seven games** in the [original audit](research-audit-2026-10-01.md). It supersedes the earlier two-game correction summary. Every finding has a current disposition, researched corrections or an exact remaining evidence boundary. The original audit appendices remain explicitly historical at `f933ab1`.
 
 This is a complete review of the audited backlog, **not a claim that every game fact is now resolved**. After the [recovery continuation](research-recovery-2026-10-01.md), the current register contains 103 closed families (including preserved historical closures), 75 partially resolved families, 16 unresolved/conflicted families, and 14 provenance, engineering or excluded-scope families. All 99 factual residual families from checkpoint `2fd2927` received follow-up investigation; eight more families closed. Counts classify issue families, not individual facts or source accuracy. The per-game ledgers control the exact meaning of each status.
