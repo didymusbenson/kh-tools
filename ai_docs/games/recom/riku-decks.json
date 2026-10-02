@@ -65,7 +65,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Traverse_Town",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-wonderland",
@@ -115,7 +126,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Wonderland",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-olympus-coliseum",
@@ -217,7 +239,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Olympus_Coliseum",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-agrabah",
@@ -311,7 +344,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Agrabah",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-halloween-town",
@@ -393,7 +437,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Halloween_Town",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-monstro",
@@ -487,7 +542,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Monstro",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-atlantica",
@@ -561,7 +627,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Atlantica",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-neverland",
@@ -635,16 +712,23 @@
       ],
       "source": "https://www.khwiki.com/Game:Neverland",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
       "encounterNotes": [
         {
           "title": "B8F corridor encounter",
           "text": "The first Riku Replica battle is in the B8F Exit Hall, independently of which world you placed on that floor. An HD walkthrough author reports winning a five-card duel here (Maelstrom). This does not identify the full corridor deck order or certify the duel timer."
+        },
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
         }
       ],
       "sources": [
         "https://www.khwiki.com/Game:Neverland",
-        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7",
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
       ]
     },
     {
@@ -719,11 +803,15 @@
       ],
       "source": "https://www.khwiki.com/Game:Hollow_Bastion",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
       "encounterNotes": [
         {
           "title": "Ansem tutorial after Hollow Bastion",
           "text": "Follow the card-break lesson, then match Ansem’s 7 to initiate the scripted duel. Three 9s are available for the duel. Completing the lesson unlocks Dark Mode and Card Duels."
+        },
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
         }
       ],
       "encounterEvidence": {
@@ -732,7 +820,10 @@
         "scope": "Tutorial actions and partial card observations; no complete ordered corridor deck or numeric tutorial enemy stats."
       },
       "sources": [
-        "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k"
+        "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k",
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
       ]
     },
     {
@@ -835,7 +926,18 @@
       ],
       "source": "https://www.khwiki.com/Game:Twilight_Town",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        }
+      ]
     },
     {
       "id": "recom-riku-deck-destiny-islands",
@@ -941,11 +1043,15 @@
       ],
       "source": "https://www.khwiki.com/Game:Destiny_Islands",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
       "encounterNotes": [
         {
           "title": "Zexion",
           "text": "Riku stays in Dark Mode throughout this battle. Zexion steals cards that cannot reload until recovered. Destroy his books to recover the stolen Soul Eaters, and avoid the differently colored decoy card. Break Dark Punisher and Catastrophe; save King Mickey cards for healing."
+        },
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
         }
       ],
       "encounterEvidence": {
@@ -954,7 +1060,10 @@
         "scope": "Encounter mechanics; no certified ordered deck override."
       },
       "sources": [
-        "https://www.khwiki.com/Game:Zexion"
+        "https://www.khwiki.com/Game:Zexion",
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
       ]
     },
     {
@@ -1073,7 +1182,22 @@
       ],
       "source": "https://www.khwiki.com/Game:Castle_Oblivion",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World base preset, excluding separately earned boss cards. Castle exit-hall battles use the Castle Oblivion preset; early Ansem tutorial exact inventory remains separately unverified.",
+      "sources": [
+        "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+        "https://w.atwiki.jp/wrtb/pages/13395.html",
+        "https://www.khwiki.com/Dark_Mode"
+      ],
+      "encounterNotes": [
+        {
+          "title": "Dark Mode inventory",
+          "text": "Entering Dark Mode reloads the deck and temporarily removes Item cards. Items return on the next reload after reverting to normal; this is not a permanent loss of the world preset."
+        },
+        {
+          "title": "Castle corridor battles",
+          "text": "Use this base deck for the castle exit-hall boss battles, including Vexen, the first Riku Replica fight and Lexaeus, as well as B1F. Previously earned boss cards are additional. The early Ansem tutorial has scripted card actions."
+        }
+      ]
     }
   ],
   "retainedBossCards": [
@@ -1151,5 +1275,15 @@
     }
   ],
   "retentionRule": "Union the earned retainedBossCards with the current world base deck; world enemy cards are not retained. This does not certify corridor/boss override contents or their order.",
-  "followUpDate": "2026-10-01"
+  "followUpDate": "2026-10-02",
+  "corridorRule": {
+    "presetId": "recom-riku-deck-castle-oblivion",
+    "scope": "Castle exit-hall boss battles use the Castle Oblivion base deck, also used on B1F. Scripted early Ansem tutorial inventory is not certified by this general rule.",
+    "sources": [
+      "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+      "https://w.atwiki.jp/wrtb/pages/13395.html"
+    ],
+    "verification": "Community references explicitly identify hallway applicability; use the existing KHRECOM sequence, not the original GBA sequence."
+  },
+  "remainingEvidence": "Exact early Ansem tutorial inventory and ordered retained-boss-card insertion/state exceptions lack a complete independently checked encounter inventory."
 }

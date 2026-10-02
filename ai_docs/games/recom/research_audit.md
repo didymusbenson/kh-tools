@@ -10,7 +10,9 @@ Read all 16 research JSON files and eight pre-existing Markdown files in `ai_doc
 
 **32 deduplicated findings at baseline:** 18 factual research/extraction gaps (COM-001–018; COM-005 is a narrow corroboration limitation, not a demand for measured gameplay), two integration/provenance gaps (COM-019–020), eight resolved/historical groups (COM-021–028), three non-factual limitation groups (COM-029–031), and one current presentation/caveat-propagation defect (COM-032). Repeated occurrences do not increase this count. Appendices enumerate records and lexical occurrences separately; a record may belong to multiple findings.
 
-**Current status — October 1:** 15 closed (14 supported, one false gap), 11 partial, three open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+**Current status — October 2:** 15 closed (14 supported, one false gap), 12 partial, two open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+
+The [COM-001–003 targeted pass](research-com-001-003-2026-10-02.md) supplies the latest shop, corridor and farm evidence.
 
 The [residual continuation](research-continuation-2026-10-01.md) challenges every partial/open finding and records all integrations and genuine no-change outcomes.
 
@@ -22,9 +24,9 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
-| COM-001 | Open, investigated | HD attack/assorted identity, value and Premium odds and locked-pool renormalization remain absent from edition-correct accessible evidence. Existing prices, stock and eight magic/item identity pools remain closed. |
-| COM-002 | Partial | Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved. |
-| COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Full room spawn compositions, scripted exceptions beyond those footnotes and repeat/reset routes remain incomplete. |
+| COM-001 | Partial | Ultimania-backed attack weights, value odds, eligible Premium frequency and exact assorted category selection integrated with HD replacements. Locked-pool rejection/redistribution/fallback remains unproved; no Steam execution claimed. |
+| COM-002 | Partial | Twelve presets and retained identities preserved; Castle deck corridor applicability and Dark Mode item removal integrated. Exact early Ansem inventory and full ordered retained-card/state exceptions remain unproved. |
+| COM-003 | Partial | Thirty farm references and three detailed RNG routes retained; eight carrier leads and Barrel reset caveat added. Soldier Neverland footnote conflicts with remake summon behavior and is quarantined. Exhaustive formations/scripted exceptions remain incomplete. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
 | COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
@@ -53,7 +55,7 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 | COM-029 | Non-factual limitation | Source access/independence and absence of game execution are evidence boundaries, not additional missing mechanics. |
 | COM-030 | Non-factual limitation | Native partial/NEW/deck/shop/room UI states and licensed artwork remain visual-design work; no new capture/asset certification claimed. |
 | COM-031 | Non-factual limitation | Fixed the null Riku 100 Acre Wood filter. Optional inventory/solver, physical-device acceptance and Jiminy integration remain separate engineering scope; Jiminy memories stay empty. |
-| COM-032 | Closed, supported | Both farm footnotes and both mushroom rules now reach runtime; ordinary enemies have no copied mushroom TODO; obsolete door warning is gone. |
+| COM-032 | Closed, supported | Farm caveats and both mushroom rules now reach runtime; disputed Soldier advice is quarantined; ordinary enemies have no copied mushroom TODO; obsolete door warning is gone. |
 
 
 Each row’s consulted URLs, failed attempts, integration and exact residual are in [the resolution ledger](research-resolution-2026-10-01.md#investigation-evidence-and-remaining-blockers).

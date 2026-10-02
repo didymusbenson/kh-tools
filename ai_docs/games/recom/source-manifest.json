@@ -788,6 +788,82 @@
       "inspection": "Re:CoM earliest level 57; same wiki family, not independent evidence.",
       "access": "indexed-readable",
       "evidenceStatus": "source-inspected within stated bounds"
+    },
+    {
+      "id": "com-001-ultimania-382",
+      "url": "https://www.kh13.com/gallery/image/18575-kh2fm_ultimania_382/",
+      "kind": "primary-guide-scan",
+      "accessed": "2026-10-02",
+      "inspection": "Japanese Re:CoM shop chapter: locked exclusion, value odds and Premium frequency.",
+      "snapshotSha256": "b9c8b7336d5699ab04bde027c74b604ee47255959d9ec9f3a5284528437752e2",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-001-ultimania-383",
+      "url": "https://www.kh13.com/gallery/image/18552-kh2fm_ultimania_383/",
+      "kind": "primary-guide-scan",
+      "accessed": "2026-10-02",
+      "inspection": "Japanese Re:CoM identity weights, exact one-third assorted categories and prices.",
+      "snapshotSha256": "ce4892d71528bb7e624e46abf7eba6d1ddf6aa03ec7f12ae5b8380a996774da1",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-001-shop-draft",
+      "url": "https://www.khwiki.com/User:TheSilentHero/Moogle_Shop",
+      "kind": "community-editor-draft",
+      "accessed": "2026-10-02",
+      "inspection": "Edition-separated table, HD replacement mapping; corroborated against primary scan.",
+      "snapshotSha256": "fa674a224a16a3524be70234cd1fe5d7aba2906a51bd6918d8450250e9ffc81e",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-003-soldier-conflict",
+      "url": "https://www.khwiki.com/Soldier",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "Both edition infoboxes inspected in HTML; remake also carries Neverland footnote.",
+      "snapshotSha256": "9fb9d6ca6a0fa0e57c6c6bbca25b9b902aea26cab3a15d3e37908996d697db66",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-002-castle-jp",
+      "url": "https://wikiwiki.jp/kh_series/ワールド/【忘却の城】",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "Hallway preset rule; remake arena and deck changes explicitly distinguished.",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-002-castle-atwiki",
+      "url": "https://w.atwiki.jp/wrtb/pages/13395.html",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "B1F and castle exit halls share base deck; not presumed independent of other community references.",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-002-dark-mode",
+      "url": "https://www.khwiki.com/Dark_Mode",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "Temporary item removal until reload after normal-mode return.",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-003-crescendo",
+      "url": "https://www.khwiki.com/Crescendo",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "Original Soldier summon versus remake current-roster summon.",
+      "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-003-barrel",
+      "url": "https://www.khwiki.com/Barrel_Spider",
+      "kind": "community-reference",
+      "accessed": "2026-10-02",
+      "inspection": "Remake barrel reset restriction and self-destruct prize loss.",
+      "evidenceStatus": "Source inspected; no Steam execution"
     }
   ],
   "leadsNotUsedAsFullEvidence": [

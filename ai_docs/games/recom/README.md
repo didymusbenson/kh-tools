@@ -6,7 +6,7 @@ Research snapshot: **2026-09-28**, fully reassessed **2026-10-01**. Baseline: En
 
 The journal now uses this pack for 431 guide entries, including all 152 Sora and 59 Riku card types. See the [data closure audit](data-gap-audit-2026-09-28.md) for delivered fields, evidence decisions and remaining narrow gaps. Source reconciliation is distinct from native-game verification.
 
-October 1 follow-up: [all 32 dispositions](research-resolution-2026-10-01.md) — 15 closed, 11 partial, three open after investigation, three non-factual limitations. All 98 sleight and 29 basic-card effects, structured recipes, full progression, 59 combat records, six minigame routes and friend/mushroom conditions are now integrated.
+October 1 follow-up: [all 32 dispositions](research-resolution-2026-10-01.md) — 15 closed, 12 partial, two open after investigation, three non-factual limitations. All 98 sleight and 29 basic-card effects, structured recipes, full progression, 59 combat records, six minigame routes and friend/mushroom conditions are now integrated.
 
 All residuals were challenged in the [continuation report](research-continuation-2026-10-01.md), including 47 explicitly matched Steam API keys and additional summon/stock/encounter guidance.
 
@@ -36,7 +36,7 @@ Every JSON file carries edition, date, scope notes and status. IDs are stable sh
 | [Worlds](worlds.json) | 13 | World visits and floor groups; 100 Acre Wood is Sora-only |
 | [World rewards](worlds-and-rewards.json) | 41 | 12 base reward chests + 12 Days chests + 17 Bounties; other acquisitions remain separate |
 | [Riku decks](riku-decks.json) | 12 | Re:CoM world presets, values and source order; retained boss cards additional |
-| [Moogle packs](moogle-packs.json) | 16 | Corrected prices, floor stock, eight magic/item pack pools and sale rules |
+| [Moogle packs](moogle-packs.json) | 16 | Corrected prices, floor stock, twelve identity pools, value/Premium odds, assorted selection and sale rules |
 | [Steam achievements](steam-achievements.json) | 47 | Primary names, secondary partition/hidden descriptions; no PlayStation platinum |
 | [CP conflicts](source-conflicts.json) | 7 | Reconciled remake costs with contrary source values retained |
 | [Additional native cards](additional-cards.json) | 28 | World/Gimmick cards and Riku items; completes both campaign rosters |
@@ -56,4 +56,6 @@ See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historic
 
 Source URLs, classifications and research tasks belong in this pack. Journal entries provide acquisition directions, costs and effects without sources/reference panels or research TODOs.
 
-October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 12 partial, two open and three non-factual limitations.
+
+October 2 targeted COM-001–003 pass: [research results](research-com-001-003-2026-10-02.md). Published shop distributions and corridor deck applicability are now integrated; locked-pool algorithms, scripted Riku inventories and exhaustive formations remain partial. The Soldier Neverland summon footnote is disputed, not a confirmed farm.

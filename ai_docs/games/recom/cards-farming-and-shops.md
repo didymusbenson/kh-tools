@@ -41,7 +41,7 @@ The [30-row farm file](enemy-card-farms.json) selects explicitly Re:CoM enemy in
 | Enemy | Candidate base → boosted | Useful world/source |
 |---|---|---|
 | Shadow | 4% → 10% | [Traverse Town and other worlds](https://www.khwiki.com/Shadow); Atlantica only in Bottomless Darkness |
-| Soldier | 3% → 7.5% | [Traverse Town / Wonderland / Twilight Town](https://www.khwiki.com/Soldier); Neverland only when summoned by Crescendo |
+| Soldier | 3% → 7.5% | [Traverse Town / Wonderland / Twilight Town](https://www.khwiki.com/Soldier); Neverland summon footnote disputed; use the three listed worlds |
 | Powerwild | 2% → 5% | [Olympus Coliseum](https://www.khwiki.com/Powerwild) |
 | Fat Bandit | 2% → 5% | [Agrabah](https://www.khwiki.com/Fat_Bandit) |
 | Search Ghost | 2% → 5% | [Monstro / Halloween Town / Atlantica](https://www.khwiki.com/Search_Ghost) |
@@ -49,7 +49,7 @@ The [30-row farm file](enemy-card-farms.json) selects explicitly Re:CoM enemy in
 | White Mushroom | 4%; no darkness boost | [White Room](https://www.khwiki.com/White_Mushroom) |
 | Black Fungus | 3%; no darkness boost | [Black Room](https://www.khwiki.com/Black_Fungus) |
 
-These are source-reported rates, not measured Steam probabilities. Shadow/Soldier footnotes and both mushroom success rules are now resolved. White Mushroom requires three requested Fire/Blizzard/Thunder casts in White Room (Warp also permits card drops); Black Fungus must be defeated in Black Room, waiting out its invulnerability. Finish the intended target last. Complete generated encounter compositions/reset routes and independent corroboration of all 30 rates remain open. Do not claim a guaranteed number of attempts or add unverified RNG manipulation instructions.
+These are source-reported rates, not measured Steam probabilities. Shadow’s footnote and both mushroom success rules are resolved; Soldier’s Neverland footnote is disputed. White Mushroom requires three requested Fire/Blizzard/Thunder casts in White Room (Warp also permits card drops); Black Fungus must be defeated in Black Room, waiting out its invulnerability. Finish the intended target last. Complete generated encounter compositions/reset routes and independent corroboration of all 30 rates remain open. Do not claim a guaranteed number of attempts or add unverified RNG manipulation instructions.
 
 ## Moogle economy
 
@@ -64,7 +64,7 @@ Each pack holds five random cards. The [reconciled remake pack records](moogle-p
 
 Units are Moogle Points. A newly generated shop grants a free Attack Pack: Grass on 1–6, Brown on 7–13 in Re:CoM. A shop has finite stock; a newly created Moogle Room supplies a new shop. Riku has no shop/deck-building workflow.
 
-[16 structured pack records](moogle-packs.json) preserve the numerical table. All 16 floor-stock records and eight magic/item identity pools are filled. Attack/assorted identity odds, value odds and Premium frequency remain unknown. Trade value is twice CP divided by three, rounding the division down first; Premium uses value-1 CP then adds 10 MP. Unique boss/Special Cards cannot be sold.
+[16 structured pack records](moogle-packs.json) preserve the numerical table. All 16 floor-stock records, twelve attack/magic/item pools, four tier-value distributions, eligible-card Premium frequency and exact assorted category selection are filled. Locked-pool redistribution remains unknown. Trade value is twice CP divided by three, rounding the division down first; Premium uses value-1 CP then adds 10 MP. Unique boss/Special Cards cannot be sold.
 
 ## App implications
 
@@ -72,6 +72,8 @@ Room Synthesis is a card-consuming room system, not material crafting. There is 
 
 ## October 1 edition clarification
 
-Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). All 29 basic-card effects and 22 numeric/use-detail notes now reach the journal. The continuation sources Dumbo’s base duration and additional summon output; exact Bambi/Goofy base durations remain open. All copied mushroom TODOs and both farm footnotes are corrected (COM-032 closed).
+Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). All 29 basic-card effects and 22 numeric/use-detail notes now reach the journal. The continuation sources Dumbo’s base duration and additional summon output; exact Bambi/Goofy base durations remain open. All copied mushroom TODOs are removed and farm caveats reach runtime (COM-032 closed).
 
-October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 12 partial, two open and three non-factual limitations.
+
+October 2 targeted COM-001–003 pass: [research results](research-com-001-003-2026-10-02.md). Published shop distributions and corridor deck applicability are now integrated; locked-pool algorithms, scripted Riku inventories and exhaustive formations remain partial. The Soldier Neverland summon footnote is disputed, not a confirmed farm.

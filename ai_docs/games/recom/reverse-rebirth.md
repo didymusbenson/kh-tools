@@ -25,7 +25,7 @@ Each linked source has separate original/remake tabs. These records come from **
 | Destiny Islands | 23 | Hi-Potion | [World table](https://www.khwiki.com/Game:Destiny_Islands) |
 | Castle Oblivion | 26 | Hi-Potion | [World table](https://www.khwiki.com/Game:Castle_Oblivion) |
 
-These are source-backed remake world inventories, including non-attack items. All 12 retained boss-card identities and defeat conditions are separately structured in `riku-decks.json`. Exact ordered corridor/boss substitutions and their retained-card exceptions remain a separate research gap.
+These are source-backed remake world inventories, including non-attack items. All 12 retained boss-card identities and defeat conditions are separately structured in `riku-decks.json`. Castle exit-hall fights use the Castle Oblivion preset. Exact early Ansem tutorial inventory and ordered retained-card/state exceptions remain a separate research gap.
 
 Wonderland's attack sequence is **5, 2, 1, 5, 4, 3, 5, 2, 1**. It contains no zero and no value above five. Explaining that constraint is more useful than recommending Sora's Sonic Blade deck. Traverse Town likewise differs substantially from the five-attack-card GBA preset; importing the original tab would be wrong.
 
@@ -57,10 +57,12 @@ October 1: these form rules, early-story unlock context and duel initiation requ
 
 Use **D-Report** terminology for Riku, retain campaign-specific checks and last-view state, and expose shared reference definitions with scoped acquisitions. A campaign toggle is a content/state boundary, not a cosmetic skin.
 
-Riku world completion cannot be a duplicate Sora chest list. Track the finite Riku acquisitions/collection goals that actually exist, with story/character Report achievements in their own track. The 59-card Riku roster and complete level 1–99 progression/caps are supplied. Riku caps are 560 HP, 30 AP and 99 DP; AP choices unlock at level 2 then every three levels through 59, and unchosen choices persist. Character-entry conditions, native order/percentage, full boss routes and corridor overrides remain explicit gaps.
+Riku world completion cannot be a duplicate Sora chest list. Track the finite Riku acquisitions/collection goals that actually exist, with story/character Report achievements in their own track. The 59-card Riku roster and complete level 1–99 progression/caps are supplied. Riku caps are 560 HP, 30 AP and 99 DP; AP choices unlock at level 2 then every three levels through 59, and unchosen choices persist. Character-entry conditions, native order/percentage, full boss routes and scripted inventory exceptions remain explicit gaps.
 
 ## October 1 encounter continuation
 
 The Hollow Bastion deck reference now distinguishes the early Ansem card-break/duel tutorial from his final boss fight, using the [PS4 Beginner route](https://www.speedrun.com/de-DE/khrecom/guides/bzl3k). The Destiny Islands reference includes [Zexion’s remake card-stealing/book mechanics](https://www.khwiki.com/Game:Zexion). These additions do not certify every ordered corridor deck or a universal speedrun route.
 
-October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 12 partial, two open and three non-factual limitations.
+
+October 2 targeted COM-001–003 pass: [research results](research-com-001-003-2026-10-02.md). Published shop distributions and corridor deck applicability are now integrated; locked-pool algorithms, scripted Riku inventories and exhaustive formations remain partial. The Soldier Neverland summon footnote is disputed, not a confirmed farm.

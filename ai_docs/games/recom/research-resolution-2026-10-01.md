@@ -2,13 +2,13 @@
 
 Updated by the [October 2 remaining-gap pass](gap-closure-2026-10-02.md) and the [Steam answer pass](minigames-and-achievements.md#october-2-answers-from-steam-observations). This is the current disposition of **all 32 findings** in [the audit](research_audit.md), after live source inspection and canonical-data/runtime integration. The original `f933ab1` register and appendices remain historical evidence. Source-backed resolution is not a claim that a Steam game build was executed.
 
-**15 closed (14 supported resolutions and one false gap), 11 partially resolved, three open after investigation, and three non-factual limitations.** No finding was skipped or changed to “blocked” merely because it was large. A partial status means useful supported facts are integrated while the exact remainder below is still unproved.
+**15 closed (14 supported resolutions and one false gap), 12 partially resolved, two open after investigation, and three non-factual limitations.** No finding was skipped or changed to “blocked” merely because it was large. A partial status means useful supported facts are integrated while the exact remainder below is still unproved.
 
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
-| COM-001 | Open, investigated | Recovered Prima probability rows conflict with selected remake values; HD attack/assorted identity, value/Premium odds and locked-pool behavior remain unproved. Existing prices, stock and eight magic/item identity pools remain closed. |
-| COM-002 | Partial | Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved. |
-| COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Steam save/reload guidance now reaches all 30 farms, with three detailed optional RNG routes. Full spawn compositions and scripted exceptions remain incomplete. |
+| COM-001 | Partial | Ultimania-backed attack weights, value odds, eligible Premium frequency and exact assorted category selection integrated with HD replacements. Locked-pool rejection/redistribution/fallback remains unproved; no Steam execution claimed. |
+| COM-002 | Partial | Twelve presets and retained identities preserved; Castle deck corridor applicability and Dark Mode item removal integrated. Exact early Ansem inventory and full ordered retained-card/state exceptions remain unproved. |
+| COM-003 | Partial | Thirty farm references and three detailed RNG routes retained; eight carrier leads and Barrel reset caveat added. Soldier Neverland footnote conflicts with remake summon behavior and is quarantined. Exhaustive formations/scripted exceptions remain incomplete. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
 | COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; all 83 ordinary names also match an inspected Steam-aware mod catalog, but native order and vanilla Steam membership/denominator remain unestablished. |
@@ -37,7 +37,9 @@ Updated by the [October 2 remaining-gap pass](gap-closure-2026-10-02.md) and the
 | COM-029 | Non-factual limitation | Source access/independence and absence of game execution are evidence boundaries, not additional missing mechanics. |
 | COM-030 | Non-factual limitation | Native partial/NEW/deck/shop/room UI states and licensed artwork remain visual-design work; no new capture/asset certification claimed. |
 | COM-031 | Non-factual limitation | Fixed the null Riku 100 Acre Wood filter. Optional inventory/solver, physical-device acceptance and Jiminy integration remain separate engineering scope; Jiminy memories stay empty. |
-| COM-032 | Closed, supported | Both farm footnotes and both mushroom rules now reach runtime; ordinary enemies have no copied mushroom TODO; obsolete door warning is gone. |
+| COM-032 | Closed, supported | Farm caveats and both mushroom rules now reach runtime; disputed Soldier advice is quarantined; ordinary enemies have no copied mushroom TODO; obsolete door warning is gone. |
+
+Current COM-001–003 evidence: [targeted research and integration](research-com-001-003-2026-10-02.md).
 
 ## First-pass investigation, evidence and remaining blockers
 

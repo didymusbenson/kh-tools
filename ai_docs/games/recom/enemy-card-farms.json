@@ -30,7 +30,7 @@
     {
       "id": "recom-farm-soldier",
       "enemy": "Soldier",
-      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town; Neverland only when summoned by a Crescendo",
+      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town",
       "basePercent": 3.0,
       "boostedPercent": 7.5,
       "boostRooms": [
@@ -45,8 +45,19 @@
       "encounterExceptions": [
         {
           "world": "Neverland",
-          "condition": "Only when summoned by a Crescendo"
+          "condition": "Disputed: Soldier infobox lists Crescendo summoning; remake Crescendo description instead restricts summons to the current battle roster. Not a recommended farm.",
+          "status": "conflicting-sources"
         }
+      ],
+      "guidance": [
+        {
+          "title": "Finding Soldiers",
+          "text": "Use Traverse Town, Wonderland or Twilight Town and defeat a Soldier last."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Soldier",
+        "https://www.khwiki.com/Crescendo"
       ]
     },
     {
@@ -159,7 +170,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Pirate by entering a Shadow encounter in Neverland / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-red-nocturne",
@@ -191,7 +218,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Blue_Rhapsody",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Traverse Town",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Soldier",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Blue Rhapsody by entering a Soldier encounter in Traverse Town / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-yellow-opera",
@@ -255,7 +298,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Large Body",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Air Soldier by entering a Large Body encounter in Monstro / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-barrel-spider",
@@ -281,7 +340,13 @@
         "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
         "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
         "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
-      }
+      },
+      "guidance": [
+        {
+          "title": "Barrel encounters",
+          "text": "Save while the barrels are intact. Leaving and re-entering a room does not restore broken barrels in Re:CoM; reload the earlier save or synthesize a fresh room. Defeat the Spider before it self-destructs, which gives no card prize."
+        }
+      ]
     },
     {
       "id": "recom-farm-wight-knight",
@@ -313,7 +378,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Neverland",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Darkball",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Air Pirate by entering a Darkball encounter in Neverland / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-gargoyle",
@@ -345,7 +426,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Search_Ghost",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Search Ghost by entering a Shadow encounter in Monstro / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-aquatank",
@@ -393,7 +490,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wyvern",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Wyvern by entering a Shadow encounter in Hollow Bastion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-defender",
@@ -409,7 +522,23 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Defender",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Hollow Bastion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Shadow",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Defender by entering a Shadow encounter in Hollow Bastion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     },
     {
       "id": "recom-farm-white-mushroom",
@@ -514,7 +643,16 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Crescendo",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "guidance": [
+        {
+          "title": "Summoned enemies",
+          "text": "In Re:CoM, Crescendo summons a non-Crescendo enemy from the current battle roster. Defeat the summoned enemies first if farming Crescendo itself."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Crescendo"
+      ]
     },
     {
       "id": "recom-farm-neoshadow",
@@ -530,10 +668,30 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Neoshadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterLead": {
+        "world": "Castle Oblivion",
+        "room": "Sleeping Darkness",
+        "fieldEnemy": "Red Nocturne",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "scope": "Reported RNG-route encounter; not an exhaustive or guaranteed room formation."
+      },
+      "guidance": [
+        {
+          "title": "Encounter lead",
+          "text": "The published RNG route finds Neoshadow by entering a Red Nocturne encounter in Castle Oblivion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
+        },
+        {
+          "title": "Later wave",
+          "text": "The reported route targets Neoshadows in the second wave. Wait for them to appear before using the finishing sleight."
+        }
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      ]
     }
   ],
-  "followUpDate": "2026-10-01",
+  "followUpDate": "2026-10-02",
   "repeatRoute": {
     "instructions": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing.",
     "evidence": "Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt.",

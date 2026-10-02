@@ -37,6 +37,27 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
    if(recipe.recipeAlternatives?.length)expect(entry.thirdCardPrecedence,recipe.id).toBeNull();
   }
  });
+ it('preserves published pack distributions without treating locked pools or items as Premium',()=>{
+  for(const p of packs.records){
+   expect(Object.values(p.valueOdds).reduce((a,b)=>a+b,0),p.id).toBe(100);
+   expect(p.premiumFrequency.percent).toBe(p.kind==='item'?0:10);
+   const entry=recomEntries.find(e=>e.id===p.id)!;
+   expect(entry.notes?.some(n=>n.title==='Locked cards')).toBe(true);
+   if(p.kind==='assorted'){
+    for(const category of Object.values(p.categorySelection!)){
+     expect(category).toMatchObject({numerator:1,denominator:3});
+     expect(packs.records.some(pool=>pool.id===category.poolId&&pool.tier===p.tier)).toBe(true);
+    }
+   }
+  }
+  expect(attacks.records.find(r=>r.name==='Kingdom Key')!.shopRates).toEqual({Grass:20,Brown:0,Black:0,Mog:0});
+  expect(attacks.records.find(r=>r.name==='Total Eclipse')!.shopRates).toEqual({Grass:0,Brown:0,Black:2,Mog:6});
+  expect(recomEntries.find(e=>e.id==='recom-sora-enemy-soldier')!.drops?.[0].location).not.toContain('Neverland');
+  const castle=recomEntries.find(e=>e.id==='recom-riku-deck-castle-oblivion')!;
+  expect(castle.cards).toHaveLength(27);
+  expect(castle.notes?.find(n=>n.title==='Castle corridor battles')?.text).toContain('Lexaeus');
+  expect(castle.notes?.find(n=>n.title==='Dark Mode inventory')?.text).toContain('next reload');
+ });
  it('does not give Riku Sora shops, minigames or editable-deck categories',()=>{
   const riku=recomEntries.filter(e=>inCampaign(e,'riku'));
   expect(riku.filter(e=>['shop','minigames'].includes(e.category))).toHaveLength(0);
@@ -94,7 +115,7 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(packs.records.find(p=>p.tier==='Black'&&p.kind==='magic')!.priceMooglePoints).toBe(350);
   expect(packs.records.find(p=>p.tier==='Mog'&&p.kind==='magic')!.priceMooglePoints).toBe(400);
   const withRates=packs.records.filter(p=>'cardRates' in p);
-  expect(withRates).toHaveLength(8);
+  expect(withRates).toHaveLength(12);
   for(const p of withRates)expect(Object.values(p.cardRates!).reduce((sum,rate)=>sum+(rate??0),0)).toBeCloseTo(100);
   const dust=attacks.records.find(c=>c.name==='Diamond Dust')!;
   const angel=attacks.records.find(c=>c.name==='One-Winged Angel')!;
@@ -156,7 +177,7 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(recomEntries.find(e=>e.name==='Goofy')!.instructions).toContain('Larxene');
  });
  it('preserves farm exceptions and mushroom card-drop conditions in player guidance',()=>{
-  for(const [name,condition] of [['Shadow','Bottomless Darkness'],['Soldier','Crescendo']]){
+  for(const [name,condition] of [['Shadow','Bottomless Darkness'],['Soldier','Traverse Town']]){
    const e=recomEntries.find(e=>e.name===name&&e.campaign==='sora')!;
    expect(e.instructions).toContain(condition);expect(e.drops?.[0].location).toContain(condition);
   }
