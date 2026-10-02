@@ -41,3 +41,7 @@ After DDD, BBS and KH1 integration: **104 closed, 75 partial, 15 unresolved/conf
 The coordinator ran the baseline locally after pulling `c5ea2de`: all 133 tests in 14 files passed, and the complete production build passed, including content and empty Jiminy pack validation. The existing bundle-size advisory remains. The main checkout was clean after generation.
 
 Initial scope checkpoints are published on the game branches: KH1 `1dfa184`, BBS `252be0f`, DDD `0ef9f3d`. These record assignments and recovery scope; they are not claims of completed research.
+
+## Browser validation limitation
+
+The full DDD-branch [GitHub browser run](https://github.com/didymusbenson/kh-tools/actions/runs/36958854601) reported 61 passing, 51 failing and 2 skipped browser scenarios. Many failures address older KH1/KH2 layouts; the DDD research diff changes no journal components, styles or browser tests. The coordinator reproduced two representative failures against untouched baseline `c5ea2de` in a detached checkout: `navigation.spec.ts:19` expects the old `#row-...` list, and `navigation.spec.ts:37` expects `#/kh1fm/contents` to redirect to `worlds`. Both fail there for the same selector/URL reasons. This demonstrates those two failures predate the new research; it does not certify every failure as pre-existing. Unit tests, focused content validation and production build success are reported separately. The complete browser suite is not claimed green, and its failures have not been hidden by changing or disabling tests.
