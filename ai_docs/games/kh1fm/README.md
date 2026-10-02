@@ -1,8 +1,8 @@
 # KH1 Final Mix — sourced planning reference
 
-**Research priority:** KH1-003 has **practical needs met**; remaining details are deferred to [future improvements](future-improvements.md). KH1-005’s remaining barrel-record question is dropped from research scope, with no future task. The evidence totals above retain both as partial and do not represent an active task count.
+**Research priority:** KH1-003, KH1-010, KH1-014, KH1-018 and KH1-020 have **practical needs met**; remaining details are deferred to [future improvements](future-improvements.md). KH1-005’s remaining barrel-record question is dropped from research scope, with no future task. The evidence totals retain the six partial findings as partial and do not represent an active task count.
 
-**Current status — 2026-10-02:** 12 closed, 6 partial, 2 unresolved; [continuation evidence for all residuals](research-continuation-2026-10-01.md). [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+**Current status — 2026-10-02:** 14 closed, 6 partial, 0 unresolved; [continuation evidence for all residuals](research-continuation-2026-10-01.md). [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Initial planning: **2026-09-18**; full audit-resolution pass: **2026-10-01**. Product: Ars Arcanum. Scope: modern KH1 Final Mix in HD 1.5 + 2.5 ReMIX; no original-KH/PS2 compatibility work.
 
@@ -36,3 +36,7 @@ Energy Bangle is resolved to two Spirit Shards, with 13 direct Spirit Shards acr
 All documented systems, persistent checklists, offline content and Data Jiminy remain MVP. Only production screenshot/map image assets are deferred; text directions, media support and media tests remain required.
 
 Apply [synthesis/inventory](../../content/synthesis-and-inventory.md) as a first-class requirement and [testing/content validation](../../testing-and-content-validation.md) for the Steam context and Apple-first app checks. Source-presence and optional historical in-game evidence remain distinct labels; no manual gameplay gate is imposed.
+
+KH1-015 is closed for practical needs: choose all first/middle/third answers for Dawn/Midday/Dead of Night, confirm, and reselect if needed. Mixed-answer edge cases are outside scope. See the [accepted method](research-resolution-2026-10-01.md#kh1-015-accepted-selection-method).
+
+The KH1 practical research pass is integrated: [results, sources and remaining limits](research-integration-2026-10-02.md). No active research family remains in this reviewed scope; five partial families are deferred and KH1-005 is dropped. This does not certify app release acceptance.

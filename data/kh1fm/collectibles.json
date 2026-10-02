@@ -806,7 +806,7 @@
     "world": "Traverse Town",
     "area": "Magician's Study",
     "summary": "Blue mark: Mega-Ether; Munny (small) x40; Munny (medium) x2",
-    "instructions": "Find the blue mark in Magician's Study. On the floor near the main entrance. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
+    "instructions": "Inside the Magician’s Study (Merlin’s house), activate the blue Trinity near the save station with Donald and Goofy.",
     "prerequisites": "Defeat Guard Armor in Traverse Town. Sora, Donald and Goofy must all be active and able to use the mark.",
     "missability": "Revisitable after the relevant access requirements are met.",
     "reward": "Mega-Ether; Munny (small) x40; Munny (medium) x2",
@@ -828,6 +828,11 @@
         "label": "KHWiki: Traverse Town — KH1 Final Mix tables",
         "url": "https://www.khwiki.com/Game:Traverse_Town",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Follow-up Trinity route evidence",
+        "url": "https://www.khguides.com/kh/collectibles/trinities/",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -1029,8 +1034,8 @@
     "world": "Wonderland",
     "area": "Lotus Forest",
     "summary": "Blue mark: Camping Set; MP Orb (small) x40; MP Orb (large) x5",
-    "instructions": "Find the blue mark in Lotus Forest. After the boulder comes out of the flower, grow big and move the boulder into the water, then jump up the lily Pads into the hidden area. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
-    "prerequisites": "Defeat Guard Armor in Traverse Town. Sora, Donald and Goofy must all be active and able to use the mark.",
+    "instructions": "After Alice’s trial and the ensuing tower battle, return to Lotus Forest. Use the flower to grow, move the boulder into the pond, then shrink and cross the new platforms into the hidden alcove. Activate the blue Trinity with Donald and Goofy.",
+    "prerequisites": "After Alice’s trial and the tower battle; Blue Trinity; Donald and Goofy.",
     "missability": "Revisitable after the relevant access requirements are met.",
     "reward": "Camping Set; MP Orb (small) x40; MP Orb (large) x5",
     "tags": [
@@ -1051,6 +1056,11 @@
         "label": "KHWiki: Wonderland — KH1 Final Mix tables",
         "url": "https://www.khwiki.com/Game:Wonderland",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Follow-up Trinity route evidence",
+        "url": "https://www.destinyislands.com/kh-fm/collectables/trinity-marks/",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -2331,7 +2341,7 @@
     "world": "Hollow Bastion",
     "area": "Dungeon",
     "summary": "Blue mark: Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40",
-    "instructions": "Find the blue mark in Dungeon. On the ground. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
+    "instructions": "From Entrance Hall, pass through the unlocked four-Emblem Heartless door into Lift Stop. Set the direction crystal to red for descent, then operate the separate blue lift crystal. Follow the lower passage to Waterway and take the platform descending to Dungeon. The blue Trinity is near the room’s center. Alternatively, from Base Level take the lower bubble to Waterway’s save point; have Beast open the barrier, take the corridor bubble under the grate, and have Beast break the stone wall into Dungeon. Return with Donald and Goofy to activate the Trinity.",
     "prerequisites": "Defeat Guard Armor in Traverse Town. Sora, Donald and Goofy must all be active and able to use the mark.",
     "missability": "Revisitable after the relevant access requirements are met.",
     "reward": "Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40",
@@ -2353,6 +2363,11 @@
         "label": "KHWiki: Hollow Bastion — KH1 Final Mix tables",
         "url": "https://www.khwiki.com/Game:Hollow_Bastion",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Follow-up Trinity route evidence",
+        "url": "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/khfm-walkthrough/hollow-bastion/hollow-bastion",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -16477,8 +16492,8 @@
     "world": "Hollow Bastion",
     "area": "Castle Chapel / Unknown arena",
     "summary": "Collect Report 13; report text is not required for this checklist.",
-    "instructions": "After reaching Final Rest, return to Hollow Bastion’s Castle Chapel, examine the dark portal and defeat Unknown (Xemnas). The encounter awards Ansem’s Report 13 and EXP Necklace.",
-    "prerequisites": "Reach Final Rest in End of the World, then return to Hollow Bastion Castle Chapel.",
+    "instructions": "Visit End of the World and exit the arrival tunnel to trigger its first cutscene. Return to Hollow Bastion’s Castle Chapel and enter the purple portal. Defeat Unknown (Xemnas) to obtain Ansem’s Report 13 and EXP Necklace.",
+    "prerequisites": "Trigger the first End of the World cutscene, then return to Castle Chapel; reaching Final Rest is not required.",
     "missability": "Revisitable after the relevant access requirements are met.",
     "reward": "Ansem’s Report 13; EXP Necklace",
     "tags": [
@@ -16500,19 +16515,14 @@
         "checkedAt": "2026-09-18"
       },
       {
-        "label": "KHWiki: Final Mix battle additions and guaranteed Unknown access",
-        "url": "https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle",
-        "checkedAt": "2026-09-18"
-      },
-      {
-        "label": "KHGuides: first End of the World cutscene lead",
+        "label": "KHGuides Unknown unlock",
         "url": "https://www.khguides.com/kh/combat/bosses/unknown/",
-        "checkedAt": "2026-09-18"
+        "checkedAt": "2026-10-02"
       },
       {
-        "label": "KHWiki: Final Mix changes — Unknown access",
-        "url": "https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle",
-        "checkedAt": "2026-09-18"
+        "label": "HD portal troubleshooting",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/68885972",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -16523,14 +16533,13 @@
     "facts": {
       "reportNumber": 13,
       "countingUnit": "report",
-      "earliestUnlockStatus": "Unresolved; practical late-game route is source-backed.",
+      "earliestUnlockStatus": "Source-backed: first End of the World cutscene.",
       "acquisitionId": "kh1fm-report-13"
     },
     "aliases": [
       "Ansem Report 13",
       "Report 13"
-    ],
-    "uncertainty": "Earliest portal trigger remains disputed: KHGuides says the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki says Final Rest. Final Rest is the sufficient route used here."
+    ]
   },
   {
     "id": "kh1fm-summon-simba",

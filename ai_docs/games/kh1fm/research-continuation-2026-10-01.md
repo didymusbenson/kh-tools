@@ -1,5 +1,7 @@
 # KH1FM research continuation — 2026-10-01
 
+**Subsequent integration:** [2026-10-02 practical research results](research-integration-2026-10-02.md) supersede the residual statuses below for 002, 014, 018 and 020. Earlier investigation text is preserved as history, not the active backlog.
+
 > Subsequent user decision, 2026-10-02: KH1-001 is closed at +4 Defense. Current KH1 totals are 12 closed, 6 partial and 2 unresolved. The dated investigation below preserves prior evidence; see the current resolution ledger.
 
 Continuation from checkpoint `2fd2927`; scope is Steam KH1 Final Mix in app 2552430. Every residual finding was reopened for a bounded source investigation. Current disposition: **11 closed, 6 partial, 3 unresolved**. KH1-016 closes with explicit modern PC documentary evidence and KH1-019 closes with all 55 individually observed API key/condition pairs; KH1-005 narrows to saved replay-time persistence. Neither result is described as a playthrough or executable verification.

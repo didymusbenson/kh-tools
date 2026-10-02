@@ -102,3 +102,7 @@ Bundle the explanation and credits with the app so the modal opens and remains r
 - Reopening and dismissing preserve the home state and saved player data. Individual journal pages do not acquire repeated citation panels as part of this feature.
 
 See [testing and content validation](../testing-and-content-validation.md) for the existing distinction between research evidence and app/device acceptance. Final copy, exact credit inventory and visual layout are implementation work against this draft.
+
+## Potential future asset source
+
+[Kingdom Hearts Re:Collection by Televo](../sources/kingdom-hearts-recollection.md) is a user-suggested font and icon reference. No assets adopted yet; add appropriate credits if used.

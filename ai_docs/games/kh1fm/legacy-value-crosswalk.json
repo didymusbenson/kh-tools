@@ -9818,7 +9818,7 @@
           "column": 2,
           "canonicalField": "facts.Defense",
           "legacy": "+2",
-          "current": "Unresolved: +3 or +4",
+          "current": "+4",
           "comparison": "different-or-unresolved"
         }
       ]

@@ -10395,7 +10395,7 @@
         "checkedAt": "2026-09-18"
       },
       {
-        "label": "HD 1.5 experiment — +12 versus Ultimania +15",
+        "label": "HD 1.5 MP recovery experiment",
         "url": "https://www.reddit.com/r/KingdomHearts/comments/1koased/how_mp_recharge_works/",
         "checkedAt": "2026-10-01"
       },
@@ -10414,8 +10414,7 @@
       "Sword level": 45,
       "Shield level": 72,
       "Rod level": 21
-    },
-    "uncertainty": "Published KH1 formula accounts disagree: Ultimania-derived descriptions use +15 while an HD 1.5 experiment reports +12 in the level/enemy-recovery term. KHWiki only describes faster charge; no Steam-specific adjudication was found. Do not reuse KH2 cooldown percentages."
+    }
   },
   {
     "id": "kh1fm-ability-mp-rage",
@@ -10460,7 +10459,7 @@
     "category": "ability",
     "name": "Berserk",
     "summary": "Raises physical power while HP is critical.",
-    "instructions": "Sora: LV 78 [Sword] / LV 9 [Shield] / LV 60 [Rod]; Donald Duck: LV 9; Goofy: LV 45; Tarzan: Default; Beast: Default. Equip it from the Abilities menu; learning it does not automatically guarantee enough AP to equip it. Adds 4 Strength while HP is critically low.",
+    "instructions": "Sora: LV 78 [Sword] / LV 9 [Shield] / LV 60 [Rod]; Donald Duck: LV 9; Goofy: LV 45; Tarzan: Default; Beast: Default. Equip it from the Abilities menu; learning it does not automatically guarantee enough AP to equip it. Adds 4 Strength while HP is critically low. Critical HP is the flashing-red HP warning. The reported threshold depends on maximum HP; see Activation threshold.",
     "tags": [
       "Final Mix",
       "Steam",
@@ -10482,6 +10481,16 @@
         "label": "https://www.khwiki.com/Berserk_(ability)",
         "url": "https://www.khwiki.com/Berserk_(ability)",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "HD Berserk mechanics research — reported HP thresholds",
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/1l959or/i_casually_changed_the_way_we_understand_khfm/",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "KH1 HP gauge and audible warning",
+        "url": "https://www.rinoadiary.it/soluzione/kingdom_hearts/index.php?page=testo_menu_comando",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -10493,7 +10502,8 @@
       "Sword level": 78,
       "Shield level": 9,
       "Rod level": 60,
-      "Quantitative effect": "Adds 4 Strength while HP is critically low."
+      "Quantitative effect": "Adds 4 Strength while HP is critically low.",
+      "Activation threshold": "Reported: below 20% HP when maximum HP is above 40; 8 HP or less when maximum HP is below 40. At maximum HP exactly 40, the cited account does not specify the boundary."
     }
   },
   {
@@ -26647,7 +26657,7 @@
     "category": "boss",
     "name": "Unknown",
     "summary": "Optional endgame encounter: EXP Necklace; Ansem’s Report 13.",
-    "instructions": "Prepare healing and MP restoration, and summon Tinker Bell early if desired. Track his teleport cloud and use Gravity to create an opening, then use a brief combo before backing off. If the command menu becomes Shock/Release, select Release to break the curse. Avoid selecting Shock. Save recovery items for the faster closing phase.",
+    "instructions": "Visit End of the World and exit the arrival tunnel to trigger its first cutscene. Return to Hollow Bastion’s Castle Chapel and enter the purple portal. Defeat Unknown (Xemnas) to obtain Ansem’s Report 13 and EXP Necklace. Prepare healing and MP restoration, and summon Tinker Bell early if desired. Track his teleport cloud and use Gravity to create an opening, then use a brief combo before backing off. If the command menu becomes Shock/Release, select Release to break the curse. Avoid selecting Shock. Save recovery items for the faster closing phase.",
     "tags": [
       "boss",
       "optional",
@@ -26679,6 +26689,11 @@
         "label": "KHGuides — first End of the World cutscene trigger",
         "url": "https://www.khguides.com/kh/combat/bosses/unknown/",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "HD portal troubleshooting — exit tunnel and trigger scene",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/68885972",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -26686,17 +26701,16 @@
     "collectible": false,
     "world": "Hollow Bastion",
     "area": "Chapel",
-    "prerequisites": "Reach Final Rest in End of the World, then return to Hollow Bastion Castle Chapel and inspect the portal to the former Dragon Maleficent arena.",
+    "prerequisites": "Trigger the first End of the World cutscene, then return to Castle Chapel; reaching Final Rest is not required.",
     "reward": "EXP Necklace; Ansem’s Report 13",
     "facts": {
       "optional": "yes",
-      "Earlier access lead": "KHGuides: enter End of the World and watch its first cutscene, then return to Castle Chapel; not reconciled with competing earliest-trigger sources."
+      "Unlock": "Trigger the first End of the World cutscene after exiting the arrival tunnel."
     },
     "aliases": [
       "Mysterious Man",
       "Xemnas"
-    ],
-    "uncertainty": "Earliest trigger remains disputed: KHGuides specifies the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki FM changes says Final Rest. The Final Rest route is sufficient; it does not prove that an earlier visit is impossible."
+    ]
   },
   {
     "id": "kh1fm-gummi-traverse-town-gummi-mission-1",
@@ -30247,7 +30261,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Jump Course",
     "summary": "Complete the Jump Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. The introductory course uses ordinary vines. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Cross the first vine chain from the flower/save-point platform. After landing, turn left and cross the next chain, then continue straight across another. Turn right and cross toward the exit into Vines 2. Cross the chain ahead; on its landing platform, turn around and remount the vine you just left, following its next connections toward the finish. Aim for the ivy leading up to the treetops. Glide or Superglide can bypass the vines on a later visit. Use the ordinary vines to learn the transfer prompts.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -30265,6 +30279,21 @@
         "label": "https://www.khwiki.com/Vine_Jump",
         "url": "https://www.khwiki.com/Vine_Jump",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "ElectroSpecter original KH1 guide — shared course route",
+        "url": "https://gamefaqs.gamespot.com/ps4/200737-kingdom-hearts-hd-i5-plus-ii5-remix/faqs/19404",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD all-course guide description",
+        "url": "https://www.youtube.com/watch?v=SLc6wruUjAk",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD finish landmark and Glide discussion",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/67313767",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -30277,10 +30306,9 @@
       "subtype": "minigame-clear",
       "course": "Jump",
       "recordType": "lowest time",
-      "Course hazard": "The introductory course uses ordinary vines."
+      "Course hazard": "Use the ordinary vines to learn the transfer prompts."
     },
-    "order": 0,
-    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
+    "order": 0
   },
   {
     "id": "kh1fm-minigame-vine-swinging-trap-course",
@@ -30288,7 +30316,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Trap Course",
     "summary": "Complete the Trap Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This course introduces snakes among the vines; leave a snake within about two seconds after DANGER appears. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Cross the first vine chain from the flower/save-point platform. After landing, turn left and cross the next chain, then continue straight across another. Turn right and cross toward the exit into Vines 2. Cross the chain ahead; on its landing platform, turn around and remount the vine you just left, following its next connections toward the finish. Aim for the ivy leading up to the treetops. Glide or Superglide can bypass the vines on a later visit. Leave slippery snake vines promptly when DANGER appears.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -30306,6 +30334,21 @@
         "label": "https://www.khwiki.com/Vine_Jump",
         "url": "https://www.khwiki.com/Vine_Jump",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "ElectroSpecter original KH1 guide — shared course route",
+        "url": "https://gamefaqs.gamespot.com/ps4/200737-kingdom-hearts-hd-i5-plus-ii5-remix/faqs/19404",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD all-course guide description",
+        "url": "https://www.youtube.com/watch?v=SLc6wruUjAk",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD finish landmark and Glide discussion",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/67313767",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -30318,10 +30361,9 @@
       "subtype": "minigame-clear",
       "course": "Trap",
       "recordType": "lowest time",
-      "Course hazard": "This course introduces snakes among the vines; leave a snake within about two seconds after DANGER appears."
+      "Course hazard": "Leave slippery snake vines promptly when DANGER appears."
     },
-    "order": 1,
-    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
+    "order": 1
   },
   {
     "id": "kh1fm-minigame-vine-swinging-acrobat-course",
@@ -30329,7 +30371,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Acrobat Course",
     "summary": "Complete the Acrobat Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This course mixes vines and snakes in a harder layout. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Cross the first vine chain from the flower/save-point platform. After landing, turn left and cross the next chain, then continue straight across another. Turn right and cross toward the exit into Vines 2. Cross the chain ahead; on its landing platform, turn around and remount the vine you just left, following its next connections toward the finish. Aim for the ivy leading up to the treetops. Glide or Superglide can bypass the vines on a later visit. The dismount prompt is shorter; be ready to jump manually near the final ledge.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -30347,6 +30389,21 @@
         "label": "https://www.khwiki.com/Vine_Jump",
         "url": "https://www.khwiki.com/Vine_Jump",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "ElectroSpecter original KH1 guide — shared course route",
+        "url": "https://gamefaqs.gamespot.com/ps4/200737-kingdom-hearts-hd-i5-plus-ii5-remix/faqs/19404",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD all-course guide description",
+        "url": "https://www.youtube.com/watch?v=SLc6wruUjAk",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD finish landmark and Glide discussion",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/67313767",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -30359,10 +30416,9 @@
       "subtype": "minigame-clear",
       "course": "Acrobat",
       "recordType": "lowest time",
-      "Course hazard": "This course mixes vines and snakes in a harder layout."
+      "Course hazard": "The dismount prompt is shorter; be ready to jump manually near the final ledge."
     },
-    "order": 2,
-    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
+    "order": 2
   },
   {
     "id": "kh1fm-minigame-vine-swinging-expert-course",
@@ -30370,7 +30426,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Expert Course",
     "summary": "Complete the Expert Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This is the hardest layout, with many snake hazards. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Cross the first vine chain from the flower/save-point platform. After landing, turn left and cross the next chain, then continue straight across another. Turn right and cross toward the exit into Vines 2. Cross the chain ahead; on its landing platform, turn around and remount the vine you just left, following its next connections toward the finish. Aim for the ivy leading up to the treetops. Glide or Superglide can bypass the vines on a later visit. Many vines are slippery and transfer/dismount prompts are shorter; transfer promptly and be ready to jump near ledges.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -30388,6 +30444,21 @@
         "label": "https://www.khwiki.com/Vine_Jump",
         "url": "https://www.khwiki.com/Vine_Jump",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "ElectroSpecter original KH1 guide — shared course route",
+        "url": "https://gamefaqs.gamespot.com/ps4/200737-kingdom-hearts-hd-i5-plus-ii5-remix/faqs/19404",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD all-course guide description",
+        "url": "https://www.youtube.com/watch?v=SLc6wruUjAk",
+        "checkedAt": "2026-10-02"
+      },
+      {
+        "label": "HD finish landmark and Glide discussion",
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/67313767",
+        "checkedAt": "2026-10-02"
       }
     ],
     "verification": "source-backed",
@@ -30400,10 +30471,9 @@
       "subtype": "minigame-clear",
       "course": "Expert",
       "recordType": "lowest time",
-      "Course hazard": "This is the hardest layout, with many snake hazards."
+      "Course hazard": "Many vines are slippery and transfer/dismount prompts are shorter; transfer promptly and be ready to jump near ledges."
     },
-    "order": 3,
-    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
+    "order": 3
   },
   {
     "id": "kh1fm-minigame-pooh-s-hunny-hunt-episode-clear",

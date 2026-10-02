@@ -30,7 +30,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 - BBS FM branch endpoint `6dba616c25830e7126804a0cccd48f08c301dd33`: normalized 108 shop records, 95 prior-acquisition alternatives, 288 Command Board opponent rows, 22 D-Link action summaries, independent recipe corroboration and Arena clarification. All 21 starting residuals investigated; totals remain 12 closed, 17 partial, 4 unresolved and 5 other limitations. [BBS pass report](../games/bbsfm/gap-closure-2026-10-02.md). All 135 application tests, full production build and cross-game identity/source/recipe/ledger checks passed before publication.
 
-- KH1 FM branch endpoint `3003c200b11b6084698fc6d58e5231ecd185f65a`: closed KH1-004 using directly inspected Steam-linked footage (Pooh's Swing HUD uses metres); canonical target is 40 m. Also completed 642 queued legacy comparison cells as 787 scoped clause decisions. At that integration: 11 closed, 6 partial, 3 unresolved. Subsequent user resolution of KH1-001 changes current KH1 totals to 12 closed, 6 partial, 2 unresolved. [KH1 pass report](../games/kh1fm/gap-closure-2026-10-02.md). Empty Jiminy browser/archive metadata was refreshed while retaining zero records and original empty SQLite bytes. All 135 application tests, the full production build, 7 pack-verification tests and cross-game identity/source/recipe/ledger checks passed before publication.
+- KH1 FM branch endpoint `3003c200b11b6084698fc6d58e5231ecd185f65a`: closed KH1-004 using directly inspected Steam-linked footage (Pooh's Swing HUD uses metres); canonical target is 40 m. Also completed 642 queued legacy comparison cells as 787 scoped clause decisions. At that integration: 11 closed, 6 partial, 3 unresolved. Subsequent user resolution of KH1-001 changes current KH1 totals to 14 closed, 6 partial, 0 unresolved. [KH1 pass report](../games/kh1fm/gap-closure-2026-10-02.md). Empty Jiminy browser/archive metadata was refreshed while retaining zero records and original empty SQLite bytes. All 135 application tests, the full production build, 7 pack-verification tests and cross-game identity/source/recipe/ledger checks passed before publication.
 
 - KH0.2 branch endpoint `1253db49f9547d68b6c68d8d7ba159d735153e9e`: closed KH02-016 with all 15 directly inspected Steam achievement key associations; the coordinator propagated every key and its source into runtime metadata while preserving progress IDs. Improved collection guidance and investigated all eight residual findings. Current totals: 11 closed, 6 partial, 1 unresolved. [KH0.2 pass report](../games/kh02/gap-closure-2026-10-02.md). All 135 application tests, full production build, KH0.2 audit and cross-game identity/source/recipe/ledger checks passed.
 
@@ -42,7 +42,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 ## Current factual totals
 
-After the seven-game integrations and subsequent user resolution of KH1-001 at +4 Defense: **107 closed, 73 partial, 14 unresolved/conflicted, 14 other limitations**. The original integration checkpoint below had 106 closed; the additional closure is a user-selected source-backed value, not new gameplay verification. Every one of the 91 starting partial/unresolved findings received a research pass. Three whole families newly closed (KH1-004, KH02-016, KH3-024); many other subclauses improved while their families remain partial. This completes the assigned seven-agent investigation and integration pass, not every remaining factual gap.
+After the seven-game integrations and subsequent user resolution of KH1-001 at +4 Defense: **109 closed, 73 partial, 12 unresolved/conflicted, 14 other limitations**. The original integration checkpoint below had 106 closed; the additional closure is a user-selected source-backed value, not new gameplay verification. Every one of the 91 starting partial/unresolved findings received a research pass. Three whole families newly closed (KH1-004, KH02-016, KH3-024); many other subclauses improved while their families remain partial. This completes the assigned seven-agent investigation and integration pass, not every remaining factual gap.
 
 ## Verified starting state and published worker checkpoints
 
@@ -74,11 +74,11 @@ This classification covers **all 208 existing audit families**, including closed
 
 | Primary work | Closed | Partial | Unresolved/conflicted | Other limitations | Total |
 |---|---:|---:|---:|---:|---:|
-| Game factual research and supporting evidence | 94 | 73 | 14 | 8 | 189 |
+| Game factual research and supporting evidence | 96 | 73 | 12 | 8 | 189 |
 | App development, content integration, design and acceptance | 13 | 0 | 0 | 6 | 19 |
-| Total | 107 | 73 | 14 | 14 | 208 |
+| Total | 109 | 73 | 12 | 14 | 208 |
 
-The game side contains **87 partial/unresolved evidence families** (KH1-003 has practical needs met and is [deferred](../games/kh1fm/future-improvements.md), KH1-005 is dropped from research scope, leaving 85 active families), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 107 closed count.
+The game side contains **85 partial/unresolved evidence families** (five KH1 families deferred and one dropped, leaving 79 active families outside KH1), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 109 closed count.
 
 Mixed families have one primary assignment based on the question being resolved; the original wording and related factual IDs remain in the register. This does not split one family into multiple counted tasks or change any factual disposition. Game save behavior, achievement counters and native Steam controls stay under game research; our app saved state, controls and acceptance stay under app development.
 
@@ -117,3 +117,7 @@ Evidence/provenance/platform records: `BBS-033`, `BBS-034`, `COM-029`, `KH2-036`
 | KH02-017 | Closed | Propagate existing citations and conflict qualifiers through the generator. |
 | KH02-018 | Closed | Propagate researched context, aliases and objective/reward guidance. |
 | KH3-035 | Closed | Integrate known reward ladders and relationships; missing factual inventories retain their own IDs. |
+
+KH1-015 subsequently closed for practical needs by user decision on 2026-10-02: guaranteed matching answer sets plus departure confirmation suffice; mixed-answer edge cases are outside scope. Current totals include this scope closure, not new verification of the mixed-answer table.
+
+KH1-002 is now closed with first-cutscene unlock evidence. Practical integration of 014/018/020 is complete, with residual precision/provenance deferred. [Current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md).

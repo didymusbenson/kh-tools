@@ -361,22 +361,24 @@ refine('Olympus Coliseum',5,'Win the Phil, Pegasus and Hercules Cups with the pa
 refine('Deep Jungle',3,'At Camp, read research memos on the clothesline, globe and record player. Examine the laboratory flasks with a Potion in stock, then cast Blizzard. Reading all three memos gives two Ethers; memos 1 and 2 alone give one.',section='Rewards',page='walkthrough/deep-jungle',prerequisites='Potion; Blizzard; research memos. Read memo 3 before performing the experiment for the larger payout.')
 refine('Deep Jungle',4,'At Camp, examine the grandfather clock and flagpole for both recipe cards. With a Potion in stock, examine the stove pot and then cast Fire to receive Hi-Potion.',section='Rewards',page='walkthrough/deep-jungle',prerequisites='Potion; Fire; both recipe cards.')
 
-# Use the documented guaranteed access route, without inventing an earliest flag.
-unknown=next(e for e in E if e['id']=='kh1fm-report-13')
-unknown['instructions']='Reach Final Rest in End of the World, then return to Hollow Bastion’s Castle Chapel. Examine the dark portal and defeat Unknown (Xemnas) to obtain Report 13 and EXP Necklace.'
-unknown['prerequisites']='Reach Final Rest in End of the World; return to Castle Chapel. This is a guaranteed access route, not a claim about the earliest possible portal appearance.'
-unknown['uncertainty']='Sources disagree on the earliest portal flag. The Final Rest route is documented; an earlier unlock is not asserted.'
-unknown['sources'].append(link('KHWiki: Final Mix battle additions and guaranteed Unknown access','https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle'))
-
-# Give a guaranteed practical route without claiming the disputed earliest portal flag.
-e=next(x for x in E if x['id']=='kh1fm-report-13')
-e['prerequisites']='Reach Final Rest in End of the World, then return to Hollow Bastion Castle Chapel.'
-e['instructions']='After reaching Final Rest, return to Hollow Bastion’s Castle Chapel, examine the dark portal and defeat Unknown (Xemnas). The encounter awards Ansem’s Report 13 and EXP Necklace.'
-e['uncertainty']='Sources disagree about the earliest portal appearance. Reaching Final Rest is the conservative source-backed access point used here; this is not a claim that an earlier visit cannot work.'
-e['facts']['earliestUnlockStatus']='Unresolved; practical late-game route is source-backed.'
-e['uncertainty']='Earliest portal trigger remains disputed: KHGuides says the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki says Final Rest. Final Rest is the sufficient route used here.'
-e['sources'].append(link('KHGuides: first End of the World cutscene lead','https://www.khguides.com/kh/combat/bosses/unknown/'))
-e['sources'].append(link('KHWiki: Final Mix changes — Unknown access','https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle'))
+# Source-backed follow-up resolutions, 2026-10-02.
+e=next(x for x in E if x["id"]=="kh1fm-report-13")
+e["instructions"]='Visit End of the World and exit the arrival tunnel to trigger its first cutscene. Return to Hollow Bastion’s Castle Chapel and enter the purple portal. Defeat Unknown (Xemnas) to obtain Ansem’s Report 13 and EXP Necklace.'
+e["prerequisites"]='Trigger the first End of the World cutscene, then return to Castle Chapel; reaching Final Rest is not required.'
+e.pop("uncertainty",None)
+e["facts"]["earliestUnlockStatus"]="Source-backed: first End of the World cutscene."
+e["sources"].append({'label': 'KHGuides Unknown unlock', 'url': 'https://www.khguides.com/kh/combat/bosses/unknown/', 'checkedAt': '2026-10-02'})
+e["sources"].append({'label': 'HD portal troubleshooting', 'url': 'https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/68885972', 'checkedAt': '2026-10-02'})
+e=next(x for x in E if x["id"]=="kh1fm-trinity-blue-04")
+e["instructions"]='Inside the Magician’s Study (Merlin’s house), activate the blue Trinity near the save station with Donald and Goofy.'
+e["sources"].append({'label': 'Follow-up Trinity route evidence', 'url': 'https://www.khguides.com/kh/collectibles/trinities/', 'checkedAt': '2026-10-02'})
+e=next(x for x in E if x["id"]=="kh1fm-trinity-blue-06")
+e["instructions"]='After Alice’s trial and the ensuing tower battle, return to Lotus Forest. Use the flower to grow, move the boulder into the pond, then shrink and cross the new platforms into the hidden alcove. Activate the blue Trinity with Donald and Goofy.'
+e["sources"].append({'label': 'Follow-up Trinity route evidence', 'url': 'https://www.destinyislands.com/kh-fm/collectables/trinity-marks/', 'checkedAt': '2026-10-02'})
+e["prerequisites"]="After Alice’s trial and the tower battle; Blue Trinity; Donald and Goofy."
+e=next(x for x in E if x["id"]=="kh1fm-trinity-blue-16")
+e["instructions"]='From Entrance Hall, pass through the unlocked four-Emblem Heartless door into Lift Stop. Set the direction crystal to red for descent, then operate the separate blue lift crystal. Follow the lower passage to Waterway and take the platform descending to Dungeon. The blue Trinity is near the room’s center. Alternatively, from Base Level take the lower bubble to Waterway’s save point; have Beast open the barrier, take the corridor bubble under the grate, and have Beast break the stone wall into Dungeon. Return with Donald and Goofy to activate the Trinity.'
+e["sources"].append({'label': 'Follow-up Trinity route evidence', 'url': 'https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/khfm-walkthrough/hollow-bastion/hollow-bastion', 'checkedAt': '2026-10-02'})
 
 # Every row links back to its world route; canonical related checks resolve locally.
 IDS={e['id'] for e in E}

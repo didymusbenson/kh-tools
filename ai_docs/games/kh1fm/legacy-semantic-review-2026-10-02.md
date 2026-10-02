@@ -1,6 +1,6 @@
 # KH1-020 remaining semantic comparison review
 
-The previously queued **154 prose/phase cells, 396 abbreviated/empty level cells and 46 Trinity location groups are now assessed**, not merely counted. [legacy-semantic-audit.json](legacy-semantic-audit.json) records 787 clause decisions across 642 cells: 466 accept, 277 superseded, 41 reject and three narrowly unverifiable clauses. Each decision contains the legacy row and column, exact clause, reason, current field/value and canonical IDs. Its `evidence` catalog gives those IDs' current instructions, facts and source URLs. `tools/content/audit-kh1-semantics.py` reproduces the artifact and asserts exhaustive coverage of this queue; hand-reviewed route identities and exception decisions are explicit in the script.
+The previously queued **154 prose/phase cells, 396 abbreviated/empty level cells and 46 Trinity location groups are now assessed**, not merely counted. [legacy-semantic-audit.json](legacy-semantic-audit.json) records 787 clause decisions across 642 cells: 467 accept, 279 superseded and 41 reject clauses. Each decision contains the legacy row and column, exact clause, reason, current field/value and canonical IDs. Its `evidence` catalog gives those IDs' current instructions, facts and source URLs. `tools/content/audit-kh1-semantics.py` reproduces the artifact and asserts exhaustive coverage of this queue; hand-reviewed route identities and exception decisions are explicit in the script.
 
 This is an audit **against the current sourced canonical content**, not independent confirmation of each source or an inspected Steam executable. It does not claim that all unrelated historical acquisition alternatives or narrative biographies are equivalent. The earlier 824-row crosswalk retains its original structural comparison labels for reproducibility; the companion supplies the semantic decisions rather than changing a string comparison into an unsupported equality assertion.
 
@@ -15,15 +15,7 @@ This is an audit **against the current sourced canonical content**, not independ
 
 ## Exact remaining evidence boundaries
 
-Three optional legacy clauses are quarantined as **unverifiable against the current cited route descriptions**, without importing them:
-
-| Legacy row | Current ID | Missing corroboration |
-| --- | --- | --- |
-| `khfmtrinity.csv:5` | `kh1fm-trinity-blue-04` | “Near the Save Point” landmark inside Merlin's house; current entry describes the main entrance. Room/mark and reward are assessed separately. |
-| `khfmtrinity.csv:7` | `kh1fm-trinity-blue-06` | “After defeating the Queen” as a prerequisite. Current route establishes growing, moving the boulder and platform traversal, not that named battle condition. |
-| `khfmtrinity.csv:17` | `kh1fm-trinity-blue-16` | The full Grand Hall → Lift Stop → blue crystal → Waterway lift itinerary and Beast-breakable-wall alternative. Current source-backed entry establishes the Dungeon mark, not every transition in this optional itinerary. |
-
-An explicit passage or observed room traversal would adjudicate those qualifiers. They are not a reason to leave the other 642 cells unevaluated. Exact modern Steam binary/depot/build provenance also remains unavailable, as documented in [gap closure](gap-closure-2026-10-02.md). KH1-020 stays **partial** for those precise boundaries; no additional finding is marked closed.
+All three formerly quarantined qualifiers are resolved in the [integration evidence](research-integration-2026-10-02.md): save-station landmark accepted, Queen prerequisite superseded by the trial/tower battle, and Grand Hall superseded by Entrance Hall with corrected descent controls and a valid Beast alternative. The generator now reproduces those decisions against the updated canonical entries. Only exact Steam executable/build provenance remains deferred.
 
 ## Validation
 

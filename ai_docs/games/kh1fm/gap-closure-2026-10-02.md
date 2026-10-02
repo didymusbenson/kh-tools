@@ -1,5 +1,7 @@
 # KH1FM remaining-gap investigation — 2026-10-02
 
+**Subsequent integration:** [2026-10-02 practical research results](research-integration-2026-10-02.md) supersede the residual statuses below for 002, 014, 018 and 020. Earlier investigation text is preserved as history, not the active backlog.
+
 > Subsequent user decision, 2026-10-02: KH1-001 is closed at +4 Defense. Current KH1 totals are 12 closed, 6 partial and 2 unresolved. The dated investigation below preserves prior evidence; see the current resolution ledger.
 
 Scope: vanilla modern Steam KH1 Final Mix, app 2552430. Starting ledger: 10 closed, 6 partial, 4 unresolved. Reopened IDs: KH1-001, 002, 003, 004, 005, 010, 014, 015, 018, 020. Progress IDs remain stable; Data Jiminy stays empty.

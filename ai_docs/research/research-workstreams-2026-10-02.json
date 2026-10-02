@@ -7,12 +7,12 @@
     "Mixed families get one primary assignment to prevent double counting. Their original disposition and linked factual dependencies remain visible; classification does not close or reopen findings.",
     "Game save/counter behavior and Steam game controls are game research; our app persistence and UI controls are app development.",
     "Evidence limitations and exclusions are not eight new unknown mechanics or eight automatically actionable tasks.",
-    "Evidence counts retain partial findings whose research is deferred or dropped. Of 87 partial/unresolved game families, KH1-003 has practical needs met and is deferred, KH1-005 is dropped from research scope, and 85 remain active."
+    "Evidence counts retain deferred/dropped findings. Of 85 partial/unresolved game families, five KH1 families (003,010,014,018,020) are deferred and KH1-005 is dropped; 79 remain active outside KH1."
   ],
   "counts": {
     "game-factual-research": {
-      "closed": 94,
-      "unresolved/conflicted": 14,
+      "closed": 96,
+      "unresolved/conflicted": 12,
       "partial": 73,
       "other limitation": 8
     },
@@ -39,12 +39,14 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Unresolved",
-      "normalizedStatus": "unresolved/conflicted",
+      "originalStatus": "Closed",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Added the third, more precise first-End-of-World-cutscene claim to boss and Report 13. It conflicts with sealing Hollow Bastion and Final Rest claims. Final Rest remains a sufficient route, not the asserted earliest flag.",
+      "currentDisposition": "Unknown and Report 13 now unlock after exiting the End of the World arrival tunnel and triggering its first cutscene. KHGuides plus HD troubleshooting reconcile the earlier claims; Final Rest is not required.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "resolved",
+      "furtherResearch": "none"
     },
     {
       "id": "KH1-003",
@@ -143,9 +145,12 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "All nine Bambi guides now give six qualifying defeats per gauge and 6/12/18 checkpoints; Gigas Shadows explicitly excluded. Sources do not enumerate all other excluded special enemies or establish an exhaustive modifier specification.",
+      "currentDisposition": "Practical needs met; further research deferred by user decision on 2026-10-02. Six-defeat gauge, 6/12/18 checkpoints and Gigas Shadow exclusion remain documented. Revisit exhaustive enemy exclusions and modifiers only for a concrete farming problem.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "deferred",
+      "futureImprovements": "ai_docs/games/kh1fm/future-improvements.md"
     },
     {
       "id": "KH1-011",
@@ -188,24 +193,28 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial",
+      "originalStatus": "Partial — practical guidance integrated; depth deferred",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "All five Slider courses now have distinct fruit lines plus slowdown/restart instructions. All four Vine courses have differentiated hazards and Glide bypass advice. A checked vine-by-vine sequence for each layout was not found; all four carry this precise caveat.",
+      "currentDisposition": "All four courses now include the shared platform route, finish ivy landmark and course-specific prompt/hazard advice. Exact modern per-vine layouts remain unverified and deferred to future improvements.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "deferred"
     },
     {
       "id": "KH1-015",
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Unresolved",
-      "normalizedStatus": "unresolved/conflicted",
+      "originalStatus": "Closed — practical needs met",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Compared full 27-case legacy matrix, modern walkthrough “average” wording and forum majority/tie advice. They conflict. Do not invent a majority rule; all-same responses plus departure-time confirmation remain supported.",
+      "currentDisposition": "User accepted guaranteed matching answer positions on 2026-10-02: first for Dawn, middle for Midday, third for Dead of Night (Dusk); confirm the result and back out/reselect if needed. User-supplied FAQ 67842 excerpt. Mixed-answer edge cases are outside scope, not independently verified or queued for future research.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "none"
     },
     {
       "id": "KH1-016",
@@ -236,12 +245,18 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial",
+      "originalStatus": "Partial — practical guidance integrated; depth deferred",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Eight of nine abilities now include quantitative effects/stacking. MP Haste has a documented +15 Ultimania-derived versus +12 HD experimental conflict; no Steam-specific adjudication. Berserk is +4 Strength at critical HP; exact numeric critical-HP boundary is not asserted.",
+      "currentDisposition": "MP Haste statistics omitted by user judgement call. Berserk now gives reported thresholds: below 20% with max HP above 40, or 8 HP or less below 40; exact max HP 40 is unspecified. Further formula/boundary verification is deferred.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "deferredSubtopics": [
+        "MP Haste quantitative formula"
+      ],
+      "futureImprovements": "ai_docs/games/kh1fm/future-improvements.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "deferred"
     },
     {
       "id": "KH1-019",
@@ -260,12 +275,14 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Partial",
+      "originalStatus": "Partial — route questions resolved; provenance deferred",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "All 824 legacy rows inventoried. The remaining comparison queue is now semantically assessed: 154 prose/phase cells, 396 level abbreviation/empty cells and exact route/reward matches for all 46 Trinity groups (642 cells, 787 clause decisions). See legacy-semantic-audit.json and legacy-semantic-review-2026-10-02.md. Three exact optional route qualifiers remain unverifiable; no inspected Steam binary/depot/build provenance.",
+      "currentDisposition": "All three Trinity qualifiers adjudicated: Merlin save station accepted; Queen wording corrected to trial/tower battle; Grand Hall corrected to Entrance Hall with descent and Beast alternative supplied. Only inspected Steam build provenance remains deferred.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "deferred"
     },
     {
       "id": "COM-001",
