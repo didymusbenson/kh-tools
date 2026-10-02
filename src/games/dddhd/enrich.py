@@ -216,6 +216,24 @@ def enrich(entries,recipes,root):
   e=add('reference',fact['name'],fact['summary'],instructions=fact['instructions'],sources=fact['sources'],checkable=False,collectible=False)
   if fact.get('uncertainty'):e['uncertainty']=fact['uncertainty']
  for r in recipes:append(r,'Extra-material rank thresholds and command donation rules are described in the Spirit creation reference.')
+ # Player-goal review: retain unresolved facts, but expose usable alternatives.
+ practical=json.loads((root/'ai_docs/games/dddhd/practical-facts-2026-10-02.json').read_text())
+ for fact in practical['newReferences']:
+  add('reference',fact['name'],fact['summary'],instructions=fact['instructions'],sources=fact['sources'],checkable=False,collectible=False)
+ for route in practical['portalLandmarks']:
+  e=index[route['id']]
+  assert (e['character'],e['world'],e['area'])==(route['character'],route['world'],route['expectedArea']), 'Reconcile portal identity before applying landmark'
+  append(e,'HD guide landmark: '+route['landmark']+'. Use the expanded mini-map to find the active portal.');sources(e,route['source'])
+  e['uncertainty']='Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.'
+  for material in [x for x in entries if x['category']=='materials']:
+   for drop in material.get('drops',[]):
+    if drop['enemy']==route['character']+' Special Portal '+str(route['number']) and drop['location'].startswith(route['world']+' · '):
+     drop['details']+=' HD guide landmark: '+route['landmark']+'.';sources(material,route['source'])
+ for patch in practical['entryPatches']:
+  assert patch['id'] in index, patch['id']
+  append(index[patch['id']],patch['appendInstructions']);sources(index[patch['id']],*patch['sources'])
+ for e in [x for x in entries if x['category']=='links']:
+  append(e,'Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.')
  for e in entries:
   if e.get('uncertainty')=='':e.pop('uncertainty',None)
  return entries,recipes

@@ -3,7 +3,7 @@ import json,pathlib,collections,re,subprocess
 root=pathlib.Path(__file__).resolve().parents[3];folder=pathlib.Path(__file__).parent
 read=lambda n:json.loads((folder/n).read_text())
 c=read('content.json');s=read('spirit-facts.json');w=read('world-facts.json');f=read('catalog-facts.json');idx={e['id']:e for e in c['entries']}
-assert len(idx)==len(c['entries'])==1283
+assert len(idx)==len(c['entries'])==1285
 assert len(c['recipes'])==263
 assert len(s)==54 and sum(len(x['board']['nodes']) for x in s)==1144
 assert sum(len(x['board']['unmatchedSourceDirections']) for x in s)==1

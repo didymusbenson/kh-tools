@@ -1,5 +1,7 @@
 # Kingdom Hearts Dream Drop Distance HD Specification
 
+**2026-10-02 practical review:** 1,285 entries / 263 formulas. Research disposition: 7 resolved, 17 deferred, 1 open; evidence: 7 resolved, 17 partial, 1 blocked. [Current player-goal review](dddhd/practical-review-2026-10-02.md) and [deferral reasons](dddhd/future-improvements.md) supersede older exhaustive-research task lists below. The open question is wrong-answer ending recovery without a pre-finale backup. Stable IDs and empty Data Jiminy remain preserved; application/UI acceptance is separate.
+
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](dddhd/audit-dispositions.md).
 
 ## Status

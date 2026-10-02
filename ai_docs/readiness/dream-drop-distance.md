@@ -1,5 +1,7 @@
 # Dream Drop Distance HD readiness
 
+**2026-10-02 practical review:** 1,285 entries / 263 formulas. Research disposition: 7 resolved, 17 deferred, 1 open; evidence: 7 resolved, 17 partial, 1 blocked. [Current player-goal review](../games/dddhd/practical-review-2026-10-02.md) and [deferral reasons](../games/dddhd/future-improvements.md) supersede older exhaustive-research task lists below. The open question is wrong-answer ending recovery without a pre-finale backup. Stable IDs and empty Data Jiminy remain preserved; application/UI acceptance is separate.
+
 2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **7 resolved, 17 partial, 1 blocked**. [Evidence and exact residuals](../games/dddhd/gap-closure-2026-10-02.md).
 
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).

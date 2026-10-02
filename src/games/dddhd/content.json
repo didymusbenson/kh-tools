@@ -5,11 +5,14 @@
       "category": "spirits",
       "name": "Aura Lion",
       "summary": "Sora Link: Aura Raid · Attribute: Light · Riku style: Physical/Light.",
-      "instructions": "Ability Link nodes: C-1: Start. C-2: Curaga; Faith (10 LP; 10 LP) [Changes to Faith after Secret: Red at D-7 is unlocked.]. B-3: Attack Boost (100 LP). C-3: Magic Haste (30 LP). D-3: Light Screen (60 LP) [Becomes available when in Clear Mind disposition.]. A-4: Leaf Bracer (300 LP). B-4: Checkpoint (Link x1). C-4: Limit Storm (200 LP). D-4: Cure Boost (50 LP) [Becomes available when in Clear Mind disposition.]. B-5: Light Screen (40 LP) [Becomes available when in Lionheart disposition.]. C-5: Attack Haste (30 LP). D-5: Attack Boost (200 LP). E-5: Checkpoint (Link x3). F-5: Second Chance (300 LP). B-6: HP Boost (100 LP) [Becomes available when in Lionheart disposition.]. C-6: Light Screen (20 LP). D-6: Sacrifice (200 LP). E-6: Secret: Green (10 LP). C-7: Secret: Red (250 LP) [Becomes available after unlocking Secret: Green at E-6]. D-7: Checkpoint (Level 30) [Becomes available after unlocking Secret: Green at E-6]. E-7: HP Boost (30 LP) [Becomes available after unlocking Secret: Green at E-6]. Connections: A-4 ↔ B-4, B-3 ↔ B-4, B-3 ↔ C-3, B-5 ↔ B-6, B-5 ↔ C-5, C-1 ↔ C-2, C-2 ↔ C-3, C-3 ↔ C-4, C-3 ↔ D-3, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, C-7 ↔ D-7, D-3 ↔ D-4, D-5 ↔ D-6, D-5 ↔ E-5, D-6 ↔ E-6, D-7 ↔ E-7, E-5 ↔ F-5, E-6 ↔ E-7. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 47.8; strength 11.0; magic 10.8; defense 7.6; expModifier 1.21. Disposition changes: Lionheart: rub hind legs and tail → Paragon; poke head or front legs and body → Clear Mind; rub head or front legs and body → Noble. Paragon: poke head → Lionheart; poke front legs and body or hind legs and tail → Clear Mind; rub front legs and body or hind legs and tail → Noble. Clear Mind: poke front legs and body → Lionheart; rub front legs and body → Paragon; rub head or hind legs and tail → Noble. Noble: poke front legs and body or hind legs and tail → Lionheart; rub front legs and body or hind legs and tail → Paragon; poke head → Clear Mind.",
+      "instructions": "Ability Link nodes: C-1: Start. C-2: Curaga; Faith (10 LP; 10 LP) [Changes to Faith after Secret: Red at D-7 is unlocked.]. B-3: Attack Boost (100 LP). C-3: Magic Haste (30 LP). D-3: Light Screen (60 LP) [Becomes available when in Clear Mind disposition.]. A-4: Leaf Bracer (300 LP). B-4: Checkpoint (Link x1). C-4: Limit Storm (200 LP). D-4: Cure Boost (50 LP) [Becomes available when in Clear Mind disposition.]. B-5: Light Screen (40 LP) [Becomes available when in Lionheart disposition.]. C-5: Attack Haste (30 LP). D-5: Attack Boost (200 LP). E-5: Checkpoint (Link x3). F-5: Second Chance (300 LP). B-6: HP Boost (100 LP) [Becomes available when in Lionheart disposition.]. C-6: Light Screen (20 LP). D-6: Sacrifice (200 LP). E-6: Secret: Green (10 LP). C-7: Secret: Red (250 LP) [Becomes available after unlocking Secret: Green at E-6]. D-7: Checkpoint (Level 30) [Becomes available after unlocking Secret: Green at E-6]. E-7: HP Boost (30 LP) [Becomes available after unlocking Secret: Green at E-6]. Connections: A-4 ↔ B-4, B-3 ↔ B-4, B-3 ↔ C-3, B-5 ↔ B-6, B-5 ↔ C-5, C-1 ↔ C-2, C-2 ↔ C-3, C-3 ↔ C-4, C-3 ↔ D-3, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, C-7 ↔ D-7, D-3 ↔ D-4, D-5 ↔ D-6, D-5 ↔ E-5, D-6 ↔ E-6, D-7 ↔ E-7, E-5 ↔ F-5, E-6 ↔ E-7. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 47.8; strength 11.0; magic 10.8; defense 7.6; expModifier 1.21. Disposition changes: Lionheart: rub hind legs and tail → Paragon; poke head or front legs and body → Clear Mind; rub head or front legs and body → Noble. Paragon: poke head → Lionheart; poke front legs and body or hind legs and tail → Clear Mind; rub front legs and body or hind legs and tail → Noble. Clear Mind: poke front legs and body → Lionheart; rub front legs and body → Paragon; rub head or hind legs and tail → Noble. Noble: poke front legs and body or hind legs and tail → Lionheart; rub front legs and body or hind legs and tail → Paragon; poke head → Clear Mind. For the affected rewards without relying on this coordinate conflict, use Flowbermeow for Faith, the Moogle Shop at LV8 for Curaga, and Escarglow for Second Chance; those entries give costs and access routes.",
       "uncertainty": "Source conflict: the grid/table places Red Secret at C-7 (250 LP) and the level-30 checkpoint at D-7, but the Curaga→Faith footnote names D-7. Do not substitute the level gate for the secret purchase.",
       "sources": [
         "https://www.khwiki.com/Aura_Lion",
-        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
+        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+        "https://www.khwiki.com/Flowbermeow",
+        "https://www.khwiki.com/Curaga",
+        "https://www.khwiki.com/Escarglow"
       ]
     },
     {
@@ -17,11 +20,12 @@
       "category": "spirits",
       "name": "Beatalike",
       "summary": "Sora Link: Berserker Bronco · Attribute: Water · Riku style: Aqua.",
-      "instructions": "Ability Link nodes: A-1: Combo Plus (200 LP) [Becomes available after Secret: Green at D-1 has been unlocked.]. B-1: Limit Storm (200 LP) [Becomes available when in Psychic disposition.]. C-1: Attack Boost (200 LP) [Becomes available when in Psychic disposition.]. D-1: Secret: Green (10 LP). E-1: Attack Haste (50 LP) [Becomes available when in Groovy disposition.]. F-1: Air Combo Plus (200 LP) [Becomes available when in Groovy disposition.]. G-1: Attack Haste (100 LP) [Becomes available after Secret: Green at A-4 has been unlocked.]. A-2: Checkpoint (Link x3) [Becomes available after Secret: Green at D-1 has been unlocked.]. D-2: Checkpoint (Level 30). G-2: Checkpoint (Link x3) [Becomes available after Secret: Green at A-4 has been unlocked.]. A-3: Bind Block (100 LP) [Becomes available after Secret: Green at D-1 has been unlocked.]. D-3: Confusing Strike (100 LP). G-3: Ars Arcanum (400 LP). A-4: Secret: Green (10 LP). B-4: Checkpoint (Level 20). C-4: Water Boost (30 LP). D-4: Attack Haste (30 LP). E-4: Blizzard Boost (30 LP). F-4: Checkpoint (Level 20). G-4: Attack Boost (100 LP). C-5: Checkpoint (Link x1). D-5: Start. E-5: Checkpoint (Link x1). C-6: Thunder Boost (30 LP). D-6: Attack Boost (10 LP). E-6: Fire Boost (30 LP). Connections: A-1 ↔ A-2, A-2 ↔ A-3, A-3 ↔ A-4, A-4 ↔ B-4, B-1 ↔ C-1, B-4 ↔ C-4, C-1 ↔ D-1, C-4 ↔ C-5, C-4 ↔ D-4, C-5 ↔ C-6, C-6 ↔ D-6, D-1 ↔ D-2, D-1 ↔ E-1, D-2 ↔ D-3, D-3 ↔ D-4, D-4 ↔ E-4, D-5 ↔ D-6, D-6 ↔ E-6, E-1 ↔ F-1, E-4 ↔ E-5, E-4 ↔ F-4, E-5 ↔ E-6, F-1 ↔ G-1, F-4 ↔ G-4, G-1 ↔ G-2, G-2 ↔ G-3. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Disposition changes: Passionate: rub wings → Reaper; poke body → Psychic. Reaper: poke tail → Passionate; poke wings → Psychic; rub face → Groovy. Psychic: poke tail → Passionate; rub legs → Reaper; rub wings → Groovy. Groovy: rub legs → Reaper; poke tail → Psychic. Spirit-only breed: no Nightmare enemy form or enemy-drop route.",
+      "instructions": "Ability Link nodes: A-1: Combo Plus (200 LP) [Becomes available after Secret: Green at D-1 has been unlocked.]. B-1: Limit Storm (200 LP) [Becomes available when in Psychic disposition.]. C-1: Attack Boost (200 LP) [Becomes available when in Psychic disposition.]. D-1: Secret: Green (10 LP). E-1: Attack Haste (50 LP) [Becomes available when in Groovy disposition.]. F-1: Air Combo Plus (200 LP) [Becomes available when in Groovy disposition.]. G-1: Attack Haste (100 LP) [Becomes available after Secret: Green at A-4 has been unlocked.]. A-2: Checkpoint (Link x3) [Becomes available after Secret: Green at D-1 has been unlocked.]. D-2: Checkpoint (Level 30). G-2: Checkpoint (Link x3) [Becomes available after Secret: Green at A-4 has been unlocked.]. A-3: Bind Block (100 LP) [Becomes available after Secret: Green at D-1 has been unlocked.]. D-3: Confusing Strike (100 LP). G-3: Ars Arcanum (400 LP). A-4: Secret: Green (10 LP). B-4: Checkpoint (Level 20). C-4: Water Boost (30 LP). D-4: Attack Haste (30 LP). E-4: Blizzard Boost (30 LP). F-4: Checkpoint (Level 20). G-4: Attack Boost (100 LP). C-5: Checkpoint (Link x1). D-5: Start. E-5: Checkpoint (Link x1). C-6: Thunder Boost (30 LP). D-6: Attack Boost (10 LP). E-6: Fire Boost (30 LP). Connections: A-1 ↔ A-2, A-2 ↔ A-3, A-3 ↔ A-4, A-4 ↔ B-4, B-1 ↔ C-1, B-4 ↔ C-4, C-1 ↔ D-1, C-4 ↔ C-5, C-4 ↔ D-4, C-5 ↔ C-6, C-6 ↔ D-6, D-1 ↔ D-2, D-1 ↔ E-1, D-2 ↔ D-3, D-3 ↔ D-4, D-4 ↔ E-4, D-5 ↔ D-6, D-6 ↔ E-6, E-1 ↔ F-1, E-4 ↔ E-5, E-4 ↔ F-4, E-5 ↔ E-6, F-1 ↔ G-1, F-4 ↔ G-4, G-1 ↔ G-2, G-2 ↔ G-3. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Disposition changes: Passionate: rub wings → Reaper; poke body → Psychic. Reaper: poke tail → Passionate; poke wings → Psychic; rub face → Groovy. Psychic: poke tail → Passionate; rub legs → Reaper; rub wings → Groovy. Groovy: rub legs → Reaper; poke tail → Psychic. Spirit-only breed: no Nightmare enemy form or enemy-drop route. Known detours around missing direct petting instructions: Passionate → Reaper by rubbing wings, then Reaper → Groovy by rubbing face; Groovy → Reaper by rubbing legs, then Reaper → Passionate by poking tail. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
       "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. Source base-stat values are incomplete. Source omits some disposition body-part instructions.",
       "sources": [
         "https://www.khwiki.com/Beatalike",
-        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
+        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+        "https://www.khwiki.com/Spirit"
       ]
     },
     {
@@ -173,11 +177,12 @@
       "category": "spirits",
       "name": "Flowbermeow",
       "summary": "Sora Link: Meow Wounce · Attribute: Light · Riku style: Physical/Light.",
-      "instructions": "Ability Link nodes: A-2: Attack Haste (100 LP) [Becomes available after unlocking Secret: Green at B-2.]. A-3: Attack Haste (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. A-6: Start. B-1: Magic Haste (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. B-2: Secret: Green (10 LP). B-3: Light Screen (40 LP). B-4: Checkpoint (Link x3) [Becomes available after unlocking Secret: Green at B-2.]. B-5: Sparkga (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. B-6: Sparkra (10 LP). C-1: Attack Haste (50 LP) [Becomes available after unlocking Secret: Green at B-2.]. C-2: Magic Haste (100 LP). C-3: Magic Haste (50 LP). C-4: Magic Haste (30 LP). C-5: Attack Haste (30 LP). C-6: Light Screen (20 LP). D-2: Once More (300 LP) [Becomes available after unlocking Secret: Green at B-2.]. D-3: Light Screen (60 LP) [Becomes available after unlocking Secret: Green at B-2.]. D-6: Reload Boost (150 LP). E-6: Checkpoint (Level 25). F-6: Faith (300 LP). Connections: A-2 ↔ A-3, A-2 ↔ B-2, A-3 ↔ B-3, A-6 ↔ B-6, B-1 ↔ B-2, B-1 ↔ C-1, B-2 ↔ B-3, B-2 ↔ C-2, B-3 ↔ B-4, B-3 ↔ C-3, B-4 ↔ B-5, B-4 ↔ C-4, B-6 ↔ C-6, C-1 ↔ C-2, C-2 ↔ C-3, C-2 ↔ D-2, C-3 ↔ C-4, C-3 ↔ D-3, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, D-2 ↔ D-3, D-6 ↔ E-6, E-6 ↔ F-6. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 39.2; strength 9.7; magic 11.7; defense 7.2; expModifier 1.16. Disposition changes: Fido: rub legs or rear and tail → Rover; poke head and body → Whiskers; rub head and body → Mittens. Rover: poke head and body or rear and tail → Fido; poke legs → Whiskers; rub legs → Mittens. Whiskers: poke head and body or legs → Fido; rub head and body or legs → Rover; rub rear and tail → Mittens. Mittens: poke head and body → Fido; rub head and body → Rover; poke legs or rear and tail → Whiskers.",
+      "instructions": "Ability Link nodes: A-2: Attack Haste (100 LP) [Becomes available after unlocking Secret: Green at B-2.]. A-3: Attack Haste (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. A-6: Start. B-1: Magic Haste (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. B-2: Secret: Green (10 LP). B-3: Light Screen (40 LP). B-4: Checkpoint (Link x3) [Becomes available after unlocking Secret: Green at B-2.]. B-5: Sparkga (150 LP) [Becomes available after unlocking Secret: Green at B-2.]. B-6: Sparkra (10 LP). C-1: Attack Haste (50 LP) [Becomes available after unlocking Secret: Green at B-2.]. C-2: Magic Haste (100 LP). C-3: Magic Haste (50 LP). C-4: Magic Haste (30 LP). C-5: Attack Haste (30 LP). C-6: Light Screen (20 LP). D-2: Once More (300 LP) [Becomes available after unlocking Secret: Green at B-2.]. D-3: Light Screen (60 LP) [Becomes available after unlocking Secret: Green at B-2.]. D-6: Reload Boost (150 LP). E-6: Checkpoint (Level 25). F-6: Faith (300 LP). Connections: A-2 ↔ A-3, A-2 ↔ B-2, A-3 ↔ B-3, A-6 ↔ B-6, B-1 ↔ B-2, B-1 ↔ C-1, B-2 ↔ B-3, B-2 ↔ C-2, B-3 ↔ B-4, B-3 ↔ C-3, B-4 ↔ B-5, B-4 ↔ C-4, B-6 ↔ C-6, C-1 ↔ C-2, C-2 ↔ C-3, C-2 ↔ D-2, C-3 ↔ C-4, C-3 ↔ D-3, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, D-2 ↔ D-3, D-6 ↔ E-6, E-6 ↔ F-6. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 39.2; strength 9.7; magic 11.7; defense 7.2; expModifier 1.16. Disposition changes: Fido: rub legs or rear and tail → Rover; poke head and body → Whiskers; rub head and body → Mittens. Rover: poke head and body or rear and tail → Fido; poke legs → Whiskers; rub legs → Mittens. Whiskers: poke head and body or legs → Fido; rub head and body or legs → Rover; rub rear and tail → Mittens. Mittens: poke head and body → Fido; rub head and body → Rover; poke legs or rear and tail → Whiskers. Alternative to the disputed Aura Lion secret: on Flowbermeow, follow Start A-6 → Sparkra B-6 (10 LP) → Light Screen C-6 (20 LP) → Reload Boost D-6 (150 LP) → level-25 checkpoint E-6 → Faith F-6 (300 LP). Total for this path from an untouched board: 480 LP. Faith is equipped by Sora.",
       "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional.",
       "sources": [
         "https://www.khwiki.com/Flowbermeow",
-        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
+        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+        "https://www.khwiki.com/Faith"
       ]
     },
     {
@@ -245,11 +250,12 @@
       "category": "spirits",
       "name": "Jestabocky",
       "summary": "Sora Link: Vacuum Ghost · Attribute: Thunder · Riku style: Thunder.",
-      "instructions": "Ability Link nodes: A-1: Start. A-2: Balloon (10 LP). A-3: Magic Boost (100 LP). A-4: Spark (50 LP). A-5: Checkpoint (Level 10). A-6: Bind (50 LP). A-7: Checkpoint (Level 15). A-8: Balloonra (150 LP). B-2: Checkpoint (Link x1). B-3: Thunder Screen (20 LP). B-6: Thunder Screen (40 LP) [Becomes available when in Chicken disposition.]. B-7: Magic Haste (50 LP) [Becomes available when in Chicken disposition.]. C-2: Treasure Magnet (50 LP). C-3: Magic Haste (30 LP). C-4: Attack Haste (30 LP). C-5: Magic Boost (200 LP). C-6: Blindness Block (30 LP). D-2: Secret: Green (10 LP). D-5: Thunder Screen (60 LP) [Becomes available when in Flake disposition.]. D-6: Attack Haste (50 LP) [Becomes available when in Flake disposition.]. E-2: Checkpoint (Level 20) [Becomes available after unlocking Secret: Green at D-2.]. F-2: Collision Magnet (150 LP) [Becomes available after unlocking Secret: Green at D-2.]. Connections: A-1 ↔ A-2, A-2 ↔ A-3, A-2 ↔ B-2, A-3 ↔ A-4, A-4 ↔ A-5, A-5 ↔ A-6, A-6 ↔ A-7, A-7 ↔ A-8, B-2 ↔ C-2, B-3 ↔ C-3, B-6 ↔ B-7, B-6 ↔ C-6, C-2 ↔ D-2, C-3 ↔ C-4, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, D-2 ↔ E-2, D-5 ↔ D-6, E-2 ↔ F-2. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 37.0; strength 10.0; magic 9.2; defense 6.2; expModifier 0.99. Disposition changes: Picky Eater: rub hat → Flake; poke face and belly or back → Chicken; rub face and belly or back → Gourmand. Flake: poke face and belly → Picky Eater; poke hat or back → Chicken; rub hat or back → Gourmand. Chicken: poke back → Picky Eater; rub back → Flake; rub hat or face and belly → Gourmand. Gourmand: poke face and belly or back → Picky Eater; rub face and belly or back → Flake; poke hat → Chicken.",
+      "instructions": "Ability Link nodes: A-1: Start. A-2: Balloon (10 LP). A-3: Magic Boost (100 LP). A-4: Spark (50 LP). A-5: Checkpoint (Level 10). A-6: Bind (50 LP). A-7: Checkpoint (Level 15). A-8: Balloonra (150 LP). B-2: Checkpoint (Link x1). B-3: Thunder Screen (20 LP). B-6: Thunder Screen (40 LP) [Becomes available when in Chicken disposition.]. B-7: Magic Haste (50 LP) [Becomes available when in Chicken disposition.]. C-2: Treasure Magnet (50 LP). C-3: Magic Haste (30 LP). C-4: Attack Haste (30 LP). C-5: Magic Boost (200 LP). C-6: Blindness Block (30 LP). D-2: Secret: Green (10 LP). D-5: Thunder Screen (60 LP) [Becomes available when in Flake disposition.]. D-6: Attack Haste (50 LP) [Becomes available when in Flake disposition.]. E-2: Checkpoint (Level 20) [Becomes available after unlocking Secret: Green at D-2.]. F-2: Collision Magnet (150 LP) [Becomes available after unlocking Secret: Green at D-2.]. Connections: A-1 ↔ A-2, A-2 ↔ A-3, A-2 ↔ B-2, A-3 ↔ A-4, A-4 ↔ A-5, A-5 ↔ A-6, A-6 ↔ A-7, A-7 ↔ A-8, B-2 ↔ C-2, B-3 ↔ C-3, B-6 ↔ B-7, B-6 ↔ C-6, C-2 ↔ D-2, C-3 ↔ C-4, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, D-2 ↔ E-2, D-5 ↔ D-6, E-2 ↔ F-2. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 37.0; strength 10.0; magic 9.2; defense 6.2; expModifier 0.99. Disposition changes: Picky Eater: rub hat → Flake; poke face and belly or back → Chicken; rub face and belly or back → Gourmand. Flake: poke face and belly → Picky Eater; poke hat or back → Chicken; rub hat or back → Gourmand. Chicken: poke back → Picky Eater; rub back → Flake; rub hat or face and belly → Gourmand. Gourmand: poke face and belly or back → Picky Eater; rub face and belly or back → Flake; poke hat → Chicken. The uncertain A-3 edge need not hold up Magic Boost: Meow Wow G-3 (Smart Cookie) is an alternative. For Strongest Link, complete another fully connected board such as Meow Wow.",
       "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. The source draws a leftward path from B-3 toward the existing A-3 Magic Boost node, but A-3 lacks the reciprocal Right direction. That connection is not confirmed; no node is missing.",
       "sources": [
         "https://www.khwiki.com/Jestabocky",
-        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
+        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+        "https://www.khwiki.com/Meow_Wow"
       ]
     },
     {
@@ -569,12 +575,13 @@
       "category": "spirits",
       "name": "Tubguin Ace",
       "summary": "Sora Link: Unwind · Attribute: Fire · Riku style: Aqua.",
-      "instructions": "Ability Link nodes: B-1: Fire Windmill (150 LP) [Becomes available when in Sauna disposition.]. D-1: Dark Firaga (400 LP) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-1: Secret: Green (10 LP) [Becomes available when in Whirlpool disposition.]. B-2: Fire Boost (100 LP) [Becomes available when in Sauna disposition.]. D-2: Checkpoint (Link x3) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-2: Water Boost (100 LP) [Becomes available when in Whirlpool disposition.]. B-3: Checkpoint (Link x2). C-3: Fire Screen (60 LP). D-3: Combo Plus (200 LP). E-3: Water Screen (60 LP). F-3: Checkpoint (Link x2). A-4: Checkpoint (Level 15). B-4: Fire Boost (50 LP). D-4: Balloonra (150 LP) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-4: Water Boost (50 LP). G-4: Checkpoint (Link x2). A-5: Fire Screen (40 LP). G-5: Water Screen (40 LP). A-6: Checkpoint (Link x1). B-6: Fire Boost (30 LP). F-6: Water Boost (30 LP). G-6: Checkpoint (Level 10). B-7: Checkpoint (Link x1). C-7: Fire Screen (10 LP). D-7: Start. E-7: Water Screen (10 LP). F-7: Checkpoint (Link x1). Connections: A-4 ↔ A-5, A-4 ↔ B-4, A-5 ↔ A-6, A-6 ↔ B-6, B-1 ↔ B-2, B-2 ↔ B-3, B-3 ↔ B-4, B-3 ↔ C-3, B-6 ↔ B-7, B-7 ↔ C-7, C-3 ↔ D-3, C-7 ↔ D-7, D-1 ↔ D-2, D-2 ↔ D-3, D-3 ↔ D-4, D-3 ↔ E-3, D-7 ↔ E-7, E-3 ↔ F-3, E-7 ↔ F-7, F-1 ↔ F-2, F-2 ↔ F-3, F-3 ↔ F-4, F-4 ↔ G-4, F-6 ↔ F-7, F-6 ↔ G-6, G-4 ↔ G-5, G-5 ↔ G-6. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Disposition changes: Hot Springs: rub back → Spa; poke face → Sauna. Spa: poke back → Hot Springs; poke belly → Sauna; rub face → Whirlpool. Sauna: poke belly → Hot Springs; rub belly → Spa; rub feet → Whirlpool. Whirlpool: poke belly → Hot Springs; rub belly → Spa. Spirit-only breed: no Nightmare enemy form or enemy-drop route. HD player-reported interaction: from Hot Springs, rub the face to reach Whirlpool.",
+      "instructions": "Ability Link nodes: B-1: Fire Windmill (150 LP) [Becomes available when in Sauna disposition.]. D-1: Dark Firaga (400 LP) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-1: Secret: Green (10 LP) [Becomes available when in Whirlpool disposition.]. B-2: Fire Boost (100 LP) [Becomes available when in Sauna disposition.]. D-2: Checkpoint (Link x3) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-2: Water Boost (100 LP) [Becomes available when in Whirlpool disposition.]. B-3: Checkpoint (Link x2). C-3: Fire Screen (60 LP). D-3: Combo Plus (200 LP). E-3: Water Screen (60 LP). F-3: Checkpoint (Link x2). A-4: Checkpoint (Level 15). B-4: Fire Boost (50 LP). D-4: Balloonra (150 LP) [Becomes available after Secret: Green at F-1 has been unlocked.]. F-4: Water Boost (50 LP). G-4: Checkpoint (Link x2). A-5: Fire Screen (40 LP). G-5: Water Screen (40 LP). A-6: Checkpoint (Link x1). B-6: Fire Boost (30 LP). F-6: Water Boost (30 LP). G-6: Checkpoint (Level 10). B-7: Checkpoint (Link x1). C-7: Fire Screen (10 LP). D-7: Start. E-7: Water Screen (10 LP). F-7: Checkpoint (Link x1). Connections: A-4 ↔ A-5, A-4 ↔ B-4, A-5 ↔ A-6, A-6 ↔ B-6, B-1 ↔ B-2, B-2 ↔ B-3, B-3 ↔ B-4, B-3 ↔ C-3, B-6 ↔ B-7, B-7 ↔ C-7, C-3 ↔ D-3, C-7 ↔ D-7, D-1 ↔ D-2, D-2 ↔ D-3, D-3 ↔ D-4, D-3 ↔ E-3, D-7 ↔ E-7, E-3 ↔ F-3, E-7 ↔ F-7, F-1 ↔ F-2, F-2 ↔ F-3, F-3 ↔ F-4, F-4 ↔ G-4, F-6 ↔ F-7, F-6 ↔ G-6, G-4 ↔ G-5, G-5 ↔ G-6. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Disposition changes: Hot Springs: rub back → Spa; poke face → Sauna. Spa: poke back → Hot Springs; poke belly → Sauna; rub face → Whirlpool. Sauna: poke belly → Hot Springs; rub belly → Spa; rub feet → Whirlpool. Whirlpool: poke belly → Hot Springs; rub belly → Spa. Spirit-only breed: no Nightmare enemy form or enemy-drop route. HD player-reported interaction: from Hot Springs, rub the face to reach Whirlpool. Known detours around missing direct petting instructions: Hot Springs → Spa by rubbing back, then Spa → Whirlpool by rubbing face; Whirlpool → Hot Springs by poking belly, then Hot Springs → Sauna by poking face. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
       "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. Source base-stat values are incomplete. Source omits some disposition body-part instructions. This additional interaction is a PS4 player report, not independently verified on Steam.",
       "sources": [
         "https://www.khwiki.com/Tubguin_Ace",
         "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
-        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561"
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+        "https://www.khwiki.com/Spirit"
       ]
     },
     {
@@ -618,11 +625,12 @@
       "category": "spirits",
       "name": "Woeflower",
       "summary": "Sora Link: Poison Rain · Attribute: Dark · Riku style: Dark.",
-      "instructions": "Ability Link nodes: A-3: Start. B-1: Sleepra (100 LP). B-2: Magic Haste (30 LP). B-3: Poison (10 LP). B-4: Checkpoint (Link x1). B-5: Treasure Magnet (50 LP). C-1: Checkpoint (Level 20). C-3: Attack Haste (30 LP). D-1: Sleepga (150 LP). D-3: Drain Dive (50 LP). E-2: Magic Boost (100 LP). E-3: Attack Haste (50 LP). E-4: Dark Screen (20 LP). F-2: Magic Haste (100 LP) [Becomes available when in Natural disposition.]. F-3: Magic Haste (50 LP). F-4: Attack Haste (100 LP) [Becomes available when in Bag of Tricks disposition.]. G-2: Dark Screen (40 LP) [Becomes available when in Natural disposition.]. G-3: Poison Dive (200 LP). G-4: Blindness Block (30 LP) [Becomes available when in Bag of Tricks disposition.]. Connections: A-3 ↔ B-3, B-1 ↔ B-2, B-1 ↔ C-1, B-2 ↔ B-3, B-3 ↔ B-4, B-3 ↔ C-3, B-4 ↔ B-5, C-1 ↔ D-1, C-3 ↔ D-3, D-3 ↔ E-3, E-2 ↔ E-3, E-2 ↔ F-2, E-3 ↔ E-4, E-3 ↔ F-3, E-4 ↔ F-4, F-2 ↔ G-2, F-3 ↔ G-3, F-4 ↔ G-4. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 32.7; strength 8.4; magic 11.4; defense 6.2; expModifier 1.04. Disposition changes: Bag of Tricks: rub bulb → Shrinking Violet; poke head or leaves → Meddler; rub head or leaves → Natural. Shrinking Violet: poke leaves → Bag of Tricks; poke head or bulb → Meddler; rub head or bulb → Natural. Meddler: rub head → Shrinking Violet; rub leaves or bulb → Natural. Natural: poke head or leaves → Bag of Tricks; rub head or leaves → Shrinking Violet; poke bulb → Meddler.",
+      "instructions": "Ability Link nodes: A-3: Start. B-1: Sleepra (100 LP). B-2: Magic Haste (30 LP). B-3: Poison (10 LP). B-4: Checkpoint (Link x1). B-5: Treasure Magnet (50 LP). C-1: Checkpoint (Level 20). C-3: Attack Haste (30 LP). D-1: Sleepga (150 LP). D-3: Drain Dive (50 LP). E-2: Magic Boost (100 LP). E-3: Attack Haste (50 LP). E-4: Dark Screen (20 LP). F-2: Magic Haste (100 LP) [Becomes available when in Natural disposition.]. F-3: Magic Haste (50 LP). F-4: Attack Haste (100 LP) [Becomes available when in Bag of Tricks disposition.]. G-2: Dark Screen (40 LP) [Becomes available when in Natural disposition.]. G-3: Poison Dive (200 LP). G-4: Blindness Block (30 LP) [Becomes available when in Bag of Tricks disposition.]. Connections: A-3 ↔ B-3, B-1 ↔ B-2, B-1 ↔ C-1, B-2 ↔ B-3, B-3 ↔ B-4, B-3 ↔ C-3, B-4 ↔ B-5, C-1 ↔ D-1, C-3 ↔ D-3, D-3 ↔ E-3, E-2 ↔ E-3, E-2 ↔ F-2, E-3 ↔ E-4, E-3 ↔ F-3, E-4 ↔ F-4, F-2 ↔ G-2, F-3 ↔ G-3, F-4 ↔ G-4. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 32.7; strength 8.4; magic 11.4; defense 6.2; expModifier 1.04. Disposition changes: Bag of Tricks: rub bulb → Shrinking Violet; poke head or leaves → Meddler; rub head or leaves → Natural. Shrinking Violet: poke leaves → Bag of Tricks; poke head or bulb → Meddler; rub head or bulb → Natural. Meddler: rub head → Shrinking Violet; rub leaves or bulb → Natural. Natural: poke head or leaves → Bag of Tricks; rub head or leaves → Shrinking Violet; poke bulb → Meddler. Known detour from Meddler to Bag of Tricks: rub head to reach Shrinking Violet, then poke leaves to reach Bag of Tricks. Close and reopen the Spirit menu after each successful disposition change; repeat the interaction as needed because changes are probabilistic.",
       "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. Source omits some disposition body-part instructions.",
       "sources": [
         "https://www.khwiki.com/Woeflower",
-        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
+        "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
+        "https://www.khwiki.com/Spirit"
       ]
     },
     {
@@ -890,7 +898,7 @@
       "name": "Strike Raid",
       "summary": "Attack command · 1 slots · Physical",
       "character": "Both",
-      "instructions": "Ability Link: Pricklemane B-2 (10 LP); Sir Kyroo B-2 (10 LP). Sora can obtain Strike Raid from a chest in the Fountain Plaza. Sora and Riku can purchase Strike Raid from the Sir Kyroo Ability Link for 10 Link Points. Sora and Riku can purchase Strike Raid from the Pricklemane Ability Link for 10 Link Points. Sora and Riku can purchase Strike Raid from the shop for 200 munny, 160 munny during Bargain Flurry, after reaching Shop Level 3. Creation donation bonuses: defense +1. Donating consumes the command. Chest: Sora · Traverse Town · Fountain Plaza #34. Map location in Fountain Plaza: north, top of fountain. Moogle Shop: 200 munny; Bargain Flurry 160; stock level 3.",
+      "instructions": "Ability Link: Pricklemane B-2 (10 LP); Sir Kyroo B-2 (10 LP). Sora can obtain Strike Raid from a chest in the Fountain Plaza. Sora and Riku can purchase Strike Raid from the Sir Kyroo Ability Link for 10 Link Points. Sora and Riku can purchase Strike Raid from the Pricklemane Ability Link for 10 Link Points. Sora and Riku can purchase Strike Raid from the shop for 200 munny, 160 munny during Bargain Flurry, after reaching Shop Level 3. Creation donation bonuses: defense +1. Donating consumes the command. Chest: Sora · Traverse Town · Fountain Plaza #34. Map location in Fountain Plaza: north, top of fountain. Moogle Shop: 200 munny; Bargain Flurry 160; stock level 3. Acquisition is unaffected by the reload dispute. For combat, use the command when its deck recharge indicator is ready rather than planning a fixed 22- or 24-second loop.",
       "uncertainty": "Board access requires preceding nodes and the listed level, Link, disposition or secret gates. Reload source conflict: 22, 24 seconds are reported in the same DDD page; no value is certified.",
       "sources": [
         "https://www.khwiki.com/Deck_Command_(KH3D)",
@@ -1584,7 +1592,7 @@
       "name": "Curaga",
       "summary": "Magic command · 1 slots · —",
       "character": "Both",
-      "instructions": "Ability Link: Aura Lion C-2 (10 LP; 10 LP) — Changes to Faith after Secret: Red at D-7 is unlocked.; Electricorn G-5 (150 LP) — Becomes available after Secret: Green at E-3 has been unlocked.; Meow Wow H-2 (150 LP); Meowjesty G-3 (150 LP). Riku can obtain Curaga from a chest at the Delusive Beginning. Sora and Riku can purchase Curaga from the Electricorn Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the Aura Lion Ability Link for 10 Link Points. Sora and Riku can purchase Curaga from the Meowjesty Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the Meow Wow Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the shop for 1000 munny, 800 munny during Bargain Flurry, after reaching Shop Level 8. Reload: 30 seconds. Creation donation bonuses: hp +30, magic +3. Donating consumes the command. Chest: Riku · The World That Never Was · Delusive Beginning #2. In Delusive Beginning, open the chest on the north side of the central room at ground level. Moogle Shop: 1000 munny; Bargain Flurry 800; stock level 8.",
+      "instructions": "Ability Link: Aura Lion C-2 (10 LP; 10 LP) — Changes to Faith after Secret: Red at D-7 is unlocked.; Electricorn G-5 (150 LP) — Becomes available after Secret: Green at E-3 has been unlocked.; Meow Wow H-2 (150 LP); Meowjesty G-3 (150 LP). Riku can obtain Curaga from a chest at the Delusive Beginning. Sora and Riku can purchase Curaga from the Electricorn Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the Aura Lion Ability Link for 10 Link Points. Sora and Riku can purchase Curaga from the Meowjesty Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the Meow Wow Ability Link for 150 Link Points. Sora and Riku can purchase Curaga from the shop for 1000 munny, 800 munny during Bargain Flurry, after reaching Shop Level 8. Reload: 30 seconds. Creation donation bonuses: hp +30, magic +3. Donating consumes the command. Chest: Riku · The World That Never Was · Delusive Beginning #2. In Delusive Beginning, open the chest on the north side of the central room at ground level. Moogle Shop: 1000 munny; Bargain Flurry 800; stock level 8. To avoid the Aura Lion transformation ambiguity, use the LV8 Moogle Shop route (1000 munny, or 800 during Bargain Flurry) or the listed Riku chest.",
       "uncertainty": "Board access requires preceding nodes and the listed level, Link, disposition or secret gates. Aura Lion source conflict: the red secret is C-7 in its grid/table, D-7 in its transformation footnote; D-7 is also the level-30 checkpoint.",
       "sources": [
         "https://www.khwiki.com/Deck_Command_(KH3D)",
@@ -1813,7 +1821,7 @@
       "name": "Faith",
       "summary": "Magic command · 2 slots · Light",
       "character": "Sora",
-      "instructions": "Ability Link: Aura Lion C-2 (10 LP; 10 LP) — Changes to Faith after Secret: Red at D-7 is unlocked.; Flowbermeow F-6 (300 LP). Sora and Riku can purchase Faith from the Aura Lion Ability Link for 10 Link Points. Sora and Riku can purchase Faith from the Flowbermeow Ability Link for 300 Link Points. Reload: 40 seconds. Creation donation bonuses: magic +4, light +30. Donating consumes the command.",
+      "instructions": "Ability Link: Aura Lion C-2 (10 LP; 10 LP) — Changes to Faith after Secret: Red at D-7 is unlocked.; Flowbermeow F-6 (300 LP). Sora and Riku can purchase Faith from the Aura Lion Ability Link for 10 Link Points. Sora and Riku can purchase Faith from the Flowbermeow Ability Link for 300 Link Points. Reload: 40 seconds. Creation donation bonuses: magic +4, light +30. Donating consumes the command. Alternative to the disputed Aura Lion secret: on Flowbermeow, follow Start A-6 → Sparkra B-6 (10 LP) → Light Screen C-6 (20 LP) → Reload Boost D-6 (150 LP) → level-25 checkpoint E-6 → Faith F-6 (300 LP). Total for this path from an untouched board: 480 LP. Faith is equipped by Sora.",
       "uncertainty": "Board access requires preceding nodes and the listed level, Link, disposition or secret gates. Aura Lion source conflict: the red secret is C-7 in its grid/table, D-7 in its transformation footnote; D-7 is also the level-30 checkpoint.",
       "sources": [
         "https://www.khwiki.com/Deck_Command_(KH3D)",
@@ -2899,7 +2907,7 @@
       "category": "abilities",
       "name": "Second Chance",
       "summary": "Support ability · maximum useful stack 1.",
-      "instructions": "Ability Link: Aura Lion F-5 (300 LP); Escarglow B-6 (200 LP); Meowjesty H-3 (300 LP); R & R Seal B-2 (10 LP) — Becomes available after Secret: Green at B-1 has been unlocked.; Zolephant B-1 (300 LP). Support and Spirit abilities remain learned after changing the party.",
+      "instructions": "Ability Link: Aura Lion F-5 (300 LP); Escarglow B-6 (200 LP); Meowjesty H-3 (300 LP); R & R Seal B-2 (10 LP) — Becomes available after Secret: Green at B-1 has been unlocked.; Zolephant B-1 (300 LP). Support and Spirit abilities remain learned after changing the party. An alternative to Aura Lion is Escarglow B-6 (200 LP); follow its connected board route and level/link gates.",
       "uncertainty": "Board access requires preceding nodes and the listed level, Link, disposition or secret gates. Aura Lion source conflict: the red secret is C-7 in its grid/table, D-7 in its transformation footnote; D-7 is also the level-30 checkpoint.",
       "sources": [
         "https://www.khwiki.com/Abilities_(KH3D)",
@@ -3278,7 +3286,7 @@
       "category": "abilities",
       "name": "Magic Boost",
       "summary": "Stat ability · maximum useful stack 3.",
-      "instructions": "Ability Link: Chef Kyroo D-5 (100 LP); Drak Quack F-8 (50 LP); Ducky Goose C-8 (100 LP); Ducky Goose H-1 (50 LP); Electricorn H-1 (100 LP) — Becomes available while in Shock Therapist disposition.; Ghostabocky C-4 (100 LP); Hebby Repp C-3 (100 LP); Iceguin Ace D-1 (100 LP); Iceguin Ace D-5 (100 LP); Jestabocky A-3 (100 LP); Jestabocky C-5 (200 LP); Juggle Pup D-7 (100 LP) — Becomes available after Secret: Green at E-2 has been unlocked.; Komory Bat D-4 (100 LP); Lord Kyroo B-6 (100 LP); Majik Lapin A-5 (200 LP); Majik Lapin D-5 (100 LP); Majik Lapin E-6 (300 LP) — Becomes available when in Illusionist disposition.; Meow Wow G-3 (100 LP) — Becomes available when in Smart Cookie disposition.; Meowjesty C-5 (100 LP); Necho Cat C-2 (100 LP); Necho Cat A-4 (200 LP) — Becomes available when in Diva disposition.; Peepsta Hoo F-4 (100 LP); R & R Seal D-7 (100 LP) — Becomes available after Secret: Green at A-4 has been unlocked.; Ryu Dragon C-2 (100 LP); Ryu Dragon E-3 (200 LP) — Becomes available when in Wyvern disposition.; Sir Kyroo E-1 (100 LP); Sudo Neku B-1 (100 LP); Sudo Neku E-1 (200 LP); Sudo Neku G-1 (300 LP); Tama Sheep A-3 (100 LP); Tatsu Steed A-3 (100 LP); Tatsu Steed C-5 (200 LP); Wheeflower C-3 (100 LP); Wheeflower G-4 (200 LP) — Becomes available when in Spell Slinger disposition.; Woeflower E-2 (100 LP). Stat abilities require the provider in the party.",
+      "instructions": "Ability Link: Chef Kyroo D-5 (100 LP); Drak Quack F-8 (50 LP); Ducky Goose C-8 (100 LP); Ducky Goose H-1 (50 LP); Electricorn H-1 (100 LP) — Becomes available while in Shock Therapist disposition.; Ghostabocky C-4 (100 LP); Hebby Repp C-3 (100 LP); Iceguin Ace D-1 (100 LP); Iceguin Ace D-5 (100 LP); Jestabocky A-3 (100 LP); Jestabocky C-5 (200 LP); Juggle Pup D-7 (100 LP) — Becomes available after Secret: Green at E-2 has been unlocked.; Komory Bat D-4 (100 LP); Lord Kyroo B-6 (100 LP); Majik Lapin A-5 (200 LP); Majik Lapin D-5 (100 LP); Majik Lapin E-6 (300 LP) — Becomes available when in Illusionist disposition.; Meow Wow G-3 (100 LP) — Becomes available when in Smart Cookie disposition.; Meowjesty C-5 (100 LP); Necho Cat C-2 (100 LP); Necho Cat A-4 (200 LP) — Becomes available when in Diva disposition.; Peepsta Hoo F-4 (100 LP); R & R Seal D-7 (100 LP) — Becomes available after Secret: Green at A-4 has been unlocked.; Ryu Dragon C-2 (100 LP); Ryu Dragon E-3 (200 LP) — Becomes available when in Wyvern disposition.; Sir Kyroo E-1 (100 LP); Sudo Neku B-1 (100 LP); Sudo Neku E-1 (200 LP); Sudo Neku G-1 (300 LP); Tama Sheep A-3 (100 LP); Tatsu Steed A-3 (100 LP); Tatsu Steed C-5 (200 LP); Wheeflower C-3 (100 LP); Wheeflower G-4 (200 LP) — Becomes available when in Spell Slinger disposition.; Woeflower E-2 (100 LP). Stat abilities require the provider in the party. To avoid Jestabocky’s disputed A-3 connection, use a different listed provider, such as Meow Wow G-3 in Smart Cookie disposition. Stat Boosts need the provider in the party.",
       "uncertainty": "Board access requires preceding nodes and the listed level, Link, disposition or secret gates.",
       "sources": [
         "https://www.khwiki.com/Abilities_(KH3D)",
@@ -3307,7 +3315,8 @@
         "https://www.khwiki.com/Tatsu_Steed",
         "https://www.khwiki.com/Wheeflower",
         "https://www.khwiki.com/Woeflower",
-        "https://www.khwiki.com/Abilities_%28KH3D%29"
+        "https://www.khwiki.com/Abilities_%28KH3D%29",
+        "https://www.khwiki.com/Spirit"
       ]
     },
     {
@@ -3707,7 +3716,8 @@
       "sources": [
         "https://www.khwiki.com/Brilliant",
         "https://www.khwiki.com/Game:Symphony_of_Sorcery",
-        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+        "https://www.khwiki.com/Game:The_World_That_Never_Was",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "instructions": "Clear Riku’s listed portals. Portal reward probabilities are separate from ordinary enemy drop rates. StreetPass rewards are not available in HD. Other source: Obtained for an expired Lord Kyroo or Keeba Tiger.",
@@ -3716,7 +3726,7 @@
           "enemy": "Riku Special Portal 6",
           "rate": "100%",
           "location": "Symphony of Sorcery · Snowgleam Wood",
-          "details": "Forecast: Ruler of the skies. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Ruler of the skies. Portal reward probability; not a Nightmare drop rate. HD guide landmark: south-central large ice sheet."
         },
         {
           "enemy": "Riku Special Portal 1",
@@ -3750,7 +3760,8 @@
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:Traverse_Town",
         "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -3776,19 +3787,19 @@
           "enemy": "Riku Special Portal 4",
           "rate": "100%",
           "location": "La Cité des Cloches · Square",
-          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate. HD guide landmark: ground level."
         },
         {
           "enemy": "Riku Special Portal 5",
           "rate": "100%",
           "location": "La Cité des Cloches · Outskirts",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: southeast corner."
         },
         {
           "enemy": "Riku Special Portal 6",
           "rate": "100%",
           "location": "La Cité des Cloches · Nave",
-          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate. HD guide landmark: upper level."
         },
         {
           "enemy": "Riku Special Portal 4",
@@ -3800,7 +3811,7 @@
           "enemy": "Riku Special Portal 5",
           "rate": "100%",
           "location": "The Grid · Docks",
-          "details": "Forecast: Deft deadeye. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Deft deadeye. Portal reward probability; not a Nightmare drop rate. HD guide landmark: upper section."
         },
         {
           "enemy": "Riku Special Portal 6",
@@ -3909,7 +3920,8 @@
         "https://www.khwiki.com/Moogle_Shop",
         "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
         "https://www.khwiki.com/Game:The_Grid",
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -3923,13 +3935,13 @@
           "enemy": "Sora Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate. HD guide landmark: southeast corner."
         },
         {
           "enemy": "Sora Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central tower."
         },
         {
           "enemy": "Sora Special Portal 4",
@@ -3947,13 +3959,13 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central area."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Outskirts",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: west side."
         },
         {
           "enemy": "Sora Special Portal 1",
@@ -4029,7 +4041,8 @@
         "https://www.khwiki.com/Game:Symphony_of_Sorcery",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:Prankster%27s_Paradise",
-        "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+        "https://www.khwiki.com/Game:Country_of_the_Musketeers",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4049,7 +4062,7 @@
           "enemy": "Riku Special Portal 6",
           "rate": "100%",
           "location": "Prankster's Paradise · Monstro: Cavity",
-          "details": "Forecast: Slippery slider. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Slippery slider. Portal reward probability; not a Nightmare drop rate. HD guide landmark: upright Cavity."
         },
         {
           "enemy": "Riku Special Portal 4",
@@ -4079,7 +4092,7 @@
           "enemy": "Riku Special Portal 5",
           "rate": "67%",
           "location": "Symphony of Sorcery · Moonlight Wood",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: east-central area, near the first Melody Catcher flowers."
         }
       ],
       "instructions": "Chest: Sora · Symphony of Sorcery · Fields #18. Map location in Fields: southeast, dead-end path, ground floor (after stopping storm). Other source: obtained for an expired Ursa Circus. Other source: obtained for an expired Kab Kannon.."
@@ -4200,7 +4213,8 @@
         "https://www.khwiki.com/Game:Country_of_the_Musketeers",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4238,13 +4252,13 @@
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Country of the Musketeers · Machine Room",
-          "details": "Forecast: Lop-eared cutie. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Lop-eared cutie. Portal reward probability; not a Nightmare drop rate. HD guide landmark: hidden side room reached from the southeast."
         },
         {
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "Symphony of Sorcery · Cloudwalk",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: beyond the first rainbow slide."
         },
         {
           "enemy": "Sora Special Portal 3",
@@ -4262,13 +4276,13 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "Symphony of Sorcery · Moonlight Wood",
-          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: east-central area, beside the Zero Graviza chest."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Symphony of Sorcery · Snowgleam Wood",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: northeast corner."
         },
         {
           "enemy": "Thunderaffe (Rare Nightmare)",
@@ -4383,7 +4397,8 @@
         "https://www.khwiki.com/Skelterwild",
         "https://www.khwiki.com/Moogle_Shop",
         "https://www.khwiki.com/Game:Country_of_the_Musketeers",
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4421,13 +4436,13 @@
           "enemy": "Riku Special Portal 3",
           "rate": "67%",
           "location": "Country of the Musketeers · Machine Room",
-          "details": "Forecast: Lop-eared cutie. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Lop-eared cutie. Portal reward probability; not a Nightmare drop rate. HD guide landmark: hidden side room reached from the southeast."
         },
         {
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "Symphony of Sorcery · Cloudwalk",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: beyond the first rainbow slide."
         },
         {
           "enemy": "Sora Special Portal 2",
@@ -4445,13 +4460,13 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "Symphony of Sorcery · Moonlight Wood",
-          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: east-central area, beside the Zero Graviza chest."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Symphony of Sorcery · Snowgleam Wood",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: northeast corner."
         },
         {
           "enemy": "Cera Terror (Nightmare)",
@@ -4586,7 +4601,8 @@
         "https://www.khwiki.com/Game:Symphony_of_Sorcery",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+        "https://www.khwiki.com/Game:The_World_That_Never_Was",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4612,19 +4628,19 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "Symphony of Sorcery · Moonlight Wood",
-          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Spectral snarfer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: east-central area, beside the Zero Graviza chest."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Symphony of Sorcery · Snowgleam Wood",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: northeast corner."
         },
         {
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "The World That Never Was · Avenue to Dreams",
-          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate. HD guide landmark: rooftop."
         },
         {
           "enemy": "Riku Special Portal 1",
@@ -4787,7 +4803,8 @@
         "https://tamaki-game.com/kh3d-sora-grid",
         "https://www.khwiki.com/Game:Prankster%27s_Paradise",
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4801,13 +4818,13 @@
           "enemy": "Sora Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate. HD guide landmark: southeast corner."
         },
         {
           "enemy": "Sora Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central tower."
         },
         {
           "enemy": "Sora Special Portal 4",
@@ -4825,13 +4842,13 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central area."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Outskirts",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: west side."
         },
         {
           "enemy": "Sora Special Portal 1",
@@ -4915,7 +4932,8 @@
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:Traverse_Town",
         "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -4941,13 +4959,13 @@
           "enemy": "Sora Special Portal 5",
           "rate": "100%",
           "location": "La Cité des Cloches · Nave",
-          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Doggish cat-thing. Portal reward probability; not a Nightmare drop rate. HD guide landmark: upper level."
         },
         {
           "enemy": "Sora Special Portal 6",
           "rate": "100%",
           "location": "La Cité des Cloches · Square",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: rooftop."
         },
         {
           "enemy": "Sora Special Portal 4",
@@ -4959,7 +4977,7 @@
           "enemy": "Sora Special Portal 5",
           "rate": "100%",
           "location": "The Grid · Docks",
-          "details": "Forecast: Deft deadeye. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Deft deadeye. Portal reward probability; not a Nightmare drop rate. HD guide landmark: upper section."
         },
         {
           "enemy": "Sora Special Portal 6",
@@ -5102,7 +5120,8 @@
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:The_Grid",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -5116,13 +5135,13 @@
           "enemy": "Sora Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Dire driller. Portal reward probability; not a Nightmare drop rate. HD guide landmark: southeast corner."
         },
         {
           "enemy": "Sora Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Snouted lout. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central tower."
         },
         {
           "enemy": "Sora Special Portal 4",
@@ -5140,13 +5159,13 @@
           "enemy": "Riku Special Portal 2",
           "rate": "33%",
           "location": "La Cité des Cloches · Town",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central area."
         },
         {
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "La Cité des Cloches · Outskirts",
-          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Footloose feline. Portal reward probability; not a Nightmare drop rate. HD guide landmark: west side."
         },
         {
           "enemy": "Sora Special Portal 1",
@@ -5408,7 +5427,8 @@
         "https://www.khwiki.com/Game:Traverse_Town",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -5470,7 +5490,7 @@
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Prankster's Paradise · Monstro: Cavity (Converted)",
-          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: inverted Cavity."
         },
         {
           "enemy": "Iceguin Ace (Rare Nightmare)",
@@ -5495,7 +5515,8 @@
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "instructions": "A finite alternative is Sora’s Avenue to Dreams chest in The World That Never Was. Ordinary Nightmare and rare Nightmare rates are distinct. Chest: Sora · The World That Never Was · Avenue to Dreams #3. Map location in Avenue to Dreams: southwest center, roof of tall building. Moogle Shop: 2000 munny; Bargain Flurry 1600; stock level 8. Other source: obtained for an expired Aura Lion, Tyranto Rex, Skelterwild, or Ryu Dragon. Other source: obtained for an expired Beatalike..",
@@ -5504,7 +5525,7 @@
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "Symphony of Sorcery · Cloudwalk",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: beyond the first rainbow slide."
         },
         {
           "enemy": "Sora Special Portal 2",
@@ -5540,13 +5561,13 @@
           "enemy": "Riku Special Portal 5",
           "rate": "33%",
           "location": "Symphony of Sorcery · Moonlight Wood",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: east-central area, near the first Melody Catcher flowers."
         },
         {
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "The World That Never Was · Avenue to Dreams",
-          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate. HD guide landmark: rooftop."
         },
         {
           "enemy": "Sora Special Portal 2",
@@ -5688,7 +5709,8 @@
         "https://www.khwiki.com/Game:Traverse_Town",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -5750,7 +5772,7 @@
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Prankster's Paradise · Monstro: Cavity (Converted)",
-          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: inverted Cavity."
         },
         {
           "enemy": "Ghostabocky (Rare Nightmare)",
@@ -5912,7 +5934,8 @@
         "https://www.khwiki.com/Game:Traverse_Town",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Moogle_Shop",
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -5974,7 +5997,7 @@
           "enemy": "Riku Special Portal 3",
           "rate": "33%",
           "location": "Prankster's Paradise · Monstro: Cavity (Converted)",
-          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Lucky customer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: inverted Cavity."
         },
         {
           "enemy": "Juggle Pup (Rare Nightmare)",
@@ -5994,7 +6017,8 @@
       "sources": [
         "https://www.khwiki.com/Wild",
         "https://www.khwiki.com/Game:Symphony_of_Sorcery",
-        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+        "https://www.khwiki.com/Game:The_World_That_Never_Was",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "uncertainty": "Finite chests, extracted shop stock, distinct normal/rare/portal drops and reported expiration sources are included. Exact ordinary encounter rooms and expiration quantities are not fully specified.",
       "drops": [
@@ -6002,13 +6026,13 @@
           "enemy": "Sora Special Portal 6",
           "rate": "100%",
           "location": "Symphony of Sorcery · Cloudwalk",
-          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Sky prancer. Portal reward probability; not a Nightmare drop rate. HD guide landmark: north end."
         },
         {
           "enemy": "Sora Special Portal 1",
           "rate": "33%",
           "location": "The World That Never Was · Avenue to Dreams",
-          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: King of beasts. Portal reward probability; not a Nightmare drop rate. HD guide landmark: rooftop."
         },
         {
           "enemy": "Sora Special Portal 2",
@@ -6020,7 +6044,7 @@
           "enemy": "Sora Special Portal 3",
           "rate": "100%",
           "location": "The World That Never Was · Avenue to Dreams",
-          "details": "Forecast: Prehistoric fiend. Portal reward probability; not a Nightmare drop rate."
+          "details": "Forecast: Prehistoric fiend. Portal reward probability; not a Nightmare drop rate. HD guide landmark: central streets."
         }
       ],
       "instructions": "Other source: Obtained for an expired Sudo Neku.."
@@ -7141,7 +7165,7 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Win the other cups; published unlock thresholds disagree between Rush LV 15 and LV 17.",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Pavo: Pegaslick; Kab Kannon; Halbird; 2 Fornax: Majik Lapin; Electricorn; Ursa Circus; 3 Draco: Drak Quack; Ryu Dragon; Skelterwild; 4 Canis Major: Meowjesty x3; 5 Orion: Keeba Tiger; Tyranto Rex; Cera Terror. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–3:59 = 10, 4:00–4:22 = 9, 4:23–4:44 = 8, 4:45–5:07 = 7, 5:08–5:29 = 6, 5:30–5:52 = 5, 5:53–6:14 = 4, 6:15–6:37 = 3, 6:38–6:59 = 2, 7:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 7+, Silver 14+, Gold 20+. These points are not spendable Medals. Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Pavo: Pegaslick; Kab Kannon; Halbird; 2 Fornax: Majik Lapin; Electricorn; Ursa Circus; 3 Draco: Drak Quack; Ryu Dragon; Skelterwild; 4 Canis Major: Meowjesty x3; 5 Orion: Keeba Tiger; Tyranto Rex; Cera Terror. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–3:59 = 10, 4:00–4:22 = 9, 4:23–4:44 = 8, 4:45–5:07 = 7, 5:08–5:29 = 6, 5:30–5:52 = 5, 5:53–6:14 = 4, 6:15–6:37 = 3, 6:38–6:59 = 2, 7:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 7+, Silver 14+, Gold 20+. These points are not spendable Medals. Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement. Conservative access plan: win every other cup and reach Rush LV17, which satisfies both published thresholds. Check whether the cup opens sooner; LV17 is a planning ceiling for the conflicting requirements, not a newly verified minimum.",
       "reward": "Sweet Dreams for clearing Secret Cup match 5 (Orion).",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
@@ -7385,9 +7409,10 @@
       "category": "awards",
       "name": "Dream Pleaser",
       "summary": "Every Spirit's maximum affinity",
-      "instructions": "Raise every available Spirit breed to maximum affinity. Sources do not establish whether released or NG+ instances retain every partial award flag.",
+      "instructions": "Raise every available Spirit breed to maximum affinity. Sources do not establish whether released or NG+ instances retain every partial award flag. Conservative plan: keep one instance of every breed on the same save, train each to its maximum affinity, and keep the trained instances until the award is visible. This avoids relying on released-instance or NG+ flag retention; it is not a claim that release necessarily erases progress.",
       "sources": [
-        "https://www.khwiki.com/Trophies"
+        "https://www.khwiki.com/Trophies",
+        "https://www.khwiki.com/Spirit"
       ]
     },
     {
@@ -7405,9 +7430,11 @@
       "category": "awards",
       "name": "Daring Diver",
       "summary": "Over 7500000 Dive points",
-      "instructions": "Exceed 7,500,000 total Dive points. The source description does not specify whether repeat-run totals or retained course bests supply the counter.",
+      "instructions": "Exceed 7,500,000 total Dive points. The source description does not specify whether repeat-run totals or retained course bests supply the counter. Conservative target: improve the recorded scores across all 14 ordinary Sora/Riku Dive courses until their sum exceeds 7,500,000, then check the Trophy Shelf. Do not depend on replaying one easy course without improving its best. This approach covers both candidate interpretations; the hidden aggregation rule remains unverified.",
       "sources": [
-        "https://www.khwiki.com/Trophies"
+        "https://www.khwiki.com/Trophies",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.khwiki.com/Dive_Mode"
       ]
     },
     {
@@ -7534,7 +7561,7 @@
       "category": "challenges",
       "name": "Lord Kyroo",
       "summary": "Shared timed encounter chain; damage persists as he escapes.",
-      "instructions": "Challenge Riku’s Nave, then Sora’s Promontory, then Riku’s Moonlight Wood; the sequence loops. After 70 seconds he escapes and retains remaining HP. Leaving the room mid-battle resets that attempt. Skipping Nave allows Riku to meet him at Moonlight Wood. The character delivering the final blow alone receives the HP bonus.",
+      "instructions": "Challenge Riku’s Nave, then Sora’s Promontory, then Riku’s Moonlight Wood; the sequence loops. After 70 seconds he escapes and retains remaining HP. Leaving the room mid-battle resets that attempt. Skipping Nave allows Riku to meet him at Moonlight Wood. The character delivering the final blow alone receives the HP bonus. Conservative plan: finish the encounter chain without loading a save between appearances. Let the timed escape carry damage forward; do not leave mid-fight. This avoids depending on the undocumented save/reload behavior.",
       "prerequisites": "Nave encounter is unavailable during the Square fire before Wargoyle.",
       "reward": "Lord Kyroo Recipe, Link Accelerator, and HP bonus to the character who finishes the encounter.",
       "sources": [
@@ -7549,8 +7576,10 @@
       "summary": "Earn a score of 200 or higher in the Balloon mini-game.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "instructions": "Use Balloon from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Balloon acquisition entry lists sources. Confirm the score result and award after the game."
     },
     {
       "id": "dddhd:achievements:water-barrel-master",
@@ -7559,8 +7588,10 @@
       "summary": "Earn a score of 400 or higher in the Water Barrel mini-game.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "instructions": "Use Water Barrel from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Water Barrel acquisition entry lists sources. Confirm the score result and award after the game."
     },
     {
       "id": "dddhd:achievements:candy-goggles-master",
@@ -7569,8 +7600,10 @@
       "summary": "Earn a score of 800 or higher in the Candy Goggles mini-game.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "instructions": "Use Candy Goggles from the training menu and follow the current on-screen prompts. The HD training controls reference describes the scoring actions; the Candy Goggles acquisition entry lists sources. Confirm the score result and award after the game."
     },
     {
       "id": "dddhd:achievements:super-cyclist",
@@ -7633,8 +7666,11 @@
       "summary": "Unlock all nodes on any Spirit's Ability Link board.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Meow_Wow",
+        "https://www.khwiki.com/Spirit"
+      ],
+      "instructions": "One complete board is enough. A practical choice is Meow Wow: raise it to level 25, buy all its nodes, and visit both Stray and Smart Cookie dispositions to expose the hidden branches. Use the Spirit disposition reference if petting is awkward."
     },
     {
       "id": "dddhd:achievements:kindred-spirits",
@@ -7643,8 +7679,11 @@
       "summary": "Max out a Spirit's Affinity Level.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Training_Toy"
+      ],
+      "instructions": "Keep the chosen Spirit in the active party, use affinity-granting toys such as Balloon or Candy Goggles, and use Affinity Gain to improve training. Continue until maximum affinity and the award are shown; no breed-optimal timing formula is needed."
     },
     {
       "id": "dddhd:achievements:ability-ace",
@@ -15359,10 +15398,11 @@
       "character": "Sora",
       "area": "Town",
       "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%); Drill Sye Recipe (100%)",
-      "instructions": "Forecast configuration 2: Dire driller. Unlock: Default. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 2: Dire driller. Unlock: Default. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: southeast corner. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -15375,10 +15415,11 @@
       "character": "Sora",
       "area": "Town",
       "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
-      "instructions": "Forecast configuration 3: Snouted lout. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Zolephant. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Snouted lout. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Zolephant. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: central tower. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -15407,10 +15448,11 @@
       "character": "Sora",
       "area": "Nave",
       "reward": "Malleable Fantasy (100%)",
-      "instructions": "Forecast configuration 5: Doggish cat-thing. Unlock: Complete La Cité des Cloches. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: Meow Wow. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 5: Doggish cat-thing. Unlock: Complete La Cité des Cloches. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: Meow Wow. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: upper level. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete La Cité des Cloches"
     },
@@ -15423,10 +15465,11 @@
       "character": "Sora",
       "area": "Square",
       "reward": "Malleable Fantasy (100%)",
-      "instructions": "Forecast configuration 6: Footloose feline. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Necho Cat, Zolephant, Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 6: Footloose feline. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Necho Cat, Zolephant, Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: rooftop. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 - 5"
     },
@@ -15455,10 +15498,11 @@
       "character": "Riku",
       "area": "Town",
       "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%)",
-      "instructions": "Forecast configuration 2: Footloose feline. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 2: Footloose feline. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: central area. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -15471,10 +15515,11 @@
       "character": "Riku",
       "area": "Outskirts",
       "reward": "Lofty Fantasy (33%); Dulcet Fantasy (33%); Noble Fantasy (33%); Necho Cat Recipe (100%)",
-      "instructions": "Forecast configuration 3: Footloose feline. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Footloose feline. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: west side. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -15487,10 +15532,11 @@
       "character": "Riku",
       "area": "Square",
       "reward": "Charming Fantasy (100%)",
-      "instructions": "Forecast configuration 4: Doggish cat-thing. Unlock: Complete La Cité des Cloches. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Meow Wow. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 4: Doggish cat-thing. Unlock: Complete La Cité des Cloches. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Meow Wow. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: ground level. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete La Cité des Cloches"
     },
@@ -15503,10 +15549,11 @@
       "character": "Riku",
       "area": "Outskirts",
       "reward": "Charming Fantasy (100%)",
-      "instructions": "Forecast configuration 5: Footloose feline. Unlock: Complete La Cité des Cloches. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 5: Footloose feline. Unlock: Complete La Cité des Cloches. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Necho Cat. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: southeast corner. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete La Cité des Cloches"
     },
@@ -15519,10 +15566,11 @@
       "character": "Riku",
       "area": "Nave",
       "reward": "Charming Fantasy (100%)",
-      "instructions": "Forecast configuration 6: Doggish cat-thing. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Meow Wow, Zolephant, Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 6: Doggish cat-thing. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Meow Wow, Zolephant, Drill Sye. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: upper level. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches"
+        "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 - 5"
     },
@@ -15599,10 +15647,11 @@
       "character": "Sora",
       "area": "Docks",
       "reward": "Malleable Fantasy (100%)",
-      "instructions": "Forecast configuration 5: Deft deadeye. Unlock: Complete The Grid. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: KO Kabuto, Yoggy Ram. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 5: Deft deadeye. Unlock: Complete The Grid. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: KO Kabuto, Yoggy Ram. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: upper section. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete The Grid"
     },
@@ -15695,10 +15744,11 @@
       "character": "Riku",
       "area": "Docks",
       "reward": "Charming Fantasy (100%)",
-      "instructions": "Forecast configuration 5: Deft deadeye. Unlock: Complete The Grid. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: KO Kabuto, Yoggy Ram. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 5: Deft deadeye. Unlock: Complete The Grid. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: KO Kabuto, Yoggy Ram. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: upper section. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete The Grid"
     },
@@ -15855,10 +15905,11 @@
       "character": "Riku",
       "area": "Monstro: Cavity (Converted)",
       "reward": "Rampant Fantasy (33%); Vibrant Fantasy (33%); Troubling Fantasy (33%); Juggle Pup Recipe (100%)",
-      "instructions": "Forecast configuration 3: Lucky customer. Unlock: Default. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Juggle Pup. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Lucky customer. Unlock: Default. Bonus: Block at least three enemy attacks! Reward: Candy Goggles. Rare enemies: Juggle Pup. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: inverted Cavity. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -15903,10 +15954,11 @@
       "character": "Riku",
       "area": "Monstro: Cavity",
       "reward": "Epic Fantasy (100%)",
-      "instructions": "Forecast configuration 6: Slippery slider. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Iceguin Ace. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 6: Slippery slider. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Iceguin Ace. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: upright Cavity. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Prankster%27s_Paradise"
+        "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 - 5"
     },
@@ -16047,10 +16099,11 @@
       "character": "Riku",
       "area": "Machine Room",
       "reward": "Fleeting Fantasy (33%); Grim Fantasy (67%)",
-      "instructions": "Forecast configuration 3: Lop-eared cutie. Unlock: Default. Bonus: Land at least 10 attacks while linked! Reward: Candy Goggles. Rare enemies: Me Me Bunny. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Lop-eared cutie. Unlock: Default. Bonus: Land at least 10 attacks while linked! Reward: Candy Goggles. Rare enemies: Me Me Bunny. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: hidden side room reached from the southeast. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Country_of_the_Musketeers"
+        "https://www.khwiki.com/Game:Country_of_the_Musketeers",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -16111,10 +16164,11 @@
       "character": "Sora",
       "area": "Cloudwalk",
       "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Savage Fantasy (33%); Pegaslick Recipe (100%)",
-      "instructions": "Forecast configuration 1: Sky prancer. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 1: Sky prancer. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: beyond the first rainbow slide. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -16191,10 +16245,11 @@
       "character": "Sora",
       "area": "Cloudwalk",
       "reward": "Wild Fantasy (100%)",
-      "instructions": "Forecast configuration 6: Sky prancer. Unlock: Complete Special Portals #1 - 5. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: Pegaslick, Ryu Dragon. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 6: Sky prancer. Unlock: Complete Special Portals #1 - 5. Bonus: Take damage no more than two times! Reward: Candy Goggles. Rare enemies: Pegaslick, Ryu Dragon. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: north end. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 - 5"
     },
@@ -16223,10 +16278,11 @@
       "character": "Riku",
       "area": "Moonlight Wood",
       "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Intrepid Fantasy (33%); Ghostabocky Recipe (100%)",
-      "instructions": "Forecast configuration 2: Spectral snarfer. Unlock: Default. Bonus: Achieve victory without using deck commands! Reward: Candy Goggles. Rare enemies: Ghostabocky. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 2: Spectral snarfer. Unlock: Default. Bonus: Achieve victory without using deck commands! Reward: Candy Goggles. Rare enemies: Ghostabocky. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: east-central area, beside the Zero Graviza chest. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -16239,10 +16295,11 @@
       "character": "Riku",
       "area": "Snowgleam Wood",
       "reward": "Fleeting Fantasy (33%); Grim Fantasy (33%); Intrepid Fantasy (33%)",
-      "instructions": "Forecast configuration 3: Sky prancer. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Sky prancer. Unlock: Default. Bonus: Achieve victory in 20 seconds or less! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: northeast corner. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -16271,10 +16328,11 @@
       "character": "Riku",
       "area": "Moonlight Wood",
       "reward": "Savage Fantasy (33%); Epic Fantasy (67%)",
-      "instructions": "Forecast configuration 5: Sky prancer. Unlock: Complete Symphony of Sorcery. Bonus: Land at least 10 attacks while linked! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 5: Sky prancer. Unlock: Complete Symphony of Sorcery. Bonus: Land at least 10 attacks while linked! Reward: Candy Goggles. Rare enemies: Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: east-central area, near the first Melody Catcher flowers. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Symphony of Sorcery"
     },
@@ -16287,10 +16345,11 @@
       "character": "Riku",
       "area": "Snowgleam Wood",
       "reward": "Brilliant Fantasy (100%)",
-      "instructions": "Forecast configuration 6: Ruler of the skies. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Ryu Dragon, Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 6: Ruler of the skies. Unlock: Complete Special Portals #1 - 5. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Ryu Dragon, Pegaslick. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: south-central large ice sheet. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:Symphony_of_Sorcery"
+        "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 - 5"
     },
@@ -16303,10 +16362,11 @@
       "character": "Sora",
       "area": "Avenue to Dreams",
       "reward": "Intrepid Fantasy (33%); Savage Fantasy (33%); Wild Fantasy (33%)",
-      "instructions": "Forecast configuration 1: King of beasts. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Aura Lion. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 1: King of beasts. Unlock: Default. Bonus: Pull off at least three Flowmotion Attacks! Reward: Candy Goggles. Rare enemies: Aura Lion. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: rooftop. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+        "https://www.khwiki.com/Game:The_World_That_Never_Was",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Default"
     },
@@ -16335,10 +16395,11 @@
       "character": "Sora",
       "area": "Avenue to Dreams",
       "reward": "Wild Fantasy (100%)",
-      "instructions": "Forecast configuration 3: Prehistoric fiend. Unlock: Complete Special Portals #1 and 2. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Tyranto Rex, Aura Lion, Ryu Dragon. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain.",
-      "uncertainty": "Area is sourced; exact approach landmarks and first-clear versus repeat item delivery are not fully specified.",
+      "instructions": "Forecast configuration 3: Prehistoric fiend. Unlock: Complete Special Portals #1 and 2. Bonus: Pull off at least three successful counters! Reward: Candy Goggles. Rare enemies: Tyranto Rex, Aura Lion, Ryu Dragon. Only one Special Portal per world is active each Drop. Clear all 39 for this character to earn End of Pain. HD guide landmark: central streets. Use the expanded mini-map to find the active portal.",
+      "uncertainty": "Area and HD guide landmark are sourced; exhaustive walking routes and every first-clear versus repeat item transition are not established.",
       "sources": [
-        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+        "https://www.khwiki.com/Game:The_World_That_Never_Was",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
       ],
       "prerequisites": "Complete Special Portals #1 and 2"
     },
@@ -21210,7 +21271,7 @@
       "category": "links",
       "name": "Meow Wounce",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Meow Wow; Flowbermeow; Meowjesty; Catanuki. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 7.8% per second.",
+      "instructions": "Providers / pair rules: Meow Wow; Flowbermeow; Meowjesty; Catanuki. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 7.8% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21224,7 +21285,7 @@
       "category": "links",
       "name": "Roll Call",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Cera Terror; Drill Sye; Escarglow; Tama Sheep. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Cera Terror; Drill Sye; Escarglow; Tama Sheep. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21238,7 +21299,7 @@
       "category": "links",
       "name": "Whirling Bronco",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Cyber Yog; Yoggy Ram. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Cyber Yog; Yoggy Ram. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21252,7 +21313,7 @@
       "category": "links",
       "name": "Fly-By Knight",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Eaglider; Halbird; Komory Bat; Peepsta Hoo. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Eaglider; Halbird; Komory Bat; Peepsta Hoo. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21266,7 +21327,7 @@
       "category": "links",
       "name": "Hammer Throw",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Pricklemane. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second.",
+      "instructions": "Providers / pair rules: Pricklemane. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21280,7 +21341,7 @@
       "category": "links",
       "name": "Flame Thrower",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Hebby Repp; Sudo Neku. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second.",
+      "instructions": "Providers / pair rules: Hebby Repp; Sudo Neku. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21294,7 +21355,7 @@
       "category": "links",
       "name": "Decussation",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Chef Kyroo; Lord Kyroo; Ryu Dragon; Sir Kyroo. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Chef Kyroo; Lord Kyroo; Ryu Dragon; Sir Kyroo. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21308,7 +21369,7 @@
       "category": "links",
       "name": "Poison Dash",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Toximander. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second.",
+      "instructions": "Providers / pair rules: Toximander. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21322,7 +21383,7 @@
       "category": "links",
       "name": "Water Blaster",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Fin Fatale; Fishboné. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second.",
+      "instructions": "Providers / pair rules: Fin Fatale; Fishboné. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21336,7 +21397,7 @@
       "category": "links",
       "name": "Bubble Blaster",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Tatsu Steed. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Tatsu Steed. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21350,7 +21411,7 @@
       "category": "links",
       "name": "Paw Groove",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Necho Cat; Frootz Cat. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 0%.",
+      "instructions": "Providers / pair rules: Necho Cat; Frootz Cat. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 0%. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21364,7 +21425,7 @@
       "category": "links",
       "name": "Equestrian Raid",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Electricorn; Pegaslick; Thunderaffe. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second / 4.8% per second.",
+      "instructions": "Providers / pair rules: Electricorn; Pegaslick; Thunderaffe. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second / 4.8% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21378,7 +21439,7 @@
       "category": "links",
       "name": "Swing Fling",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Kooma Panda; Majik Lapin; Me Me Bunny; Ursa Circus. Link Gauge must be full for each participating active Spirit. Link Gauge drain: —.",
+      "instructions": "Providers / pair rules: Kooma Panda; Majik Lapin; Me Me Bunny; Ursa Circus. Link Gauge must be full for each participating active Spirit. Link Gauge drain: —. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21392,7 +21453,7 @@
       "category": "links",
       "name": "Belly Raid",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Iceguin Ace. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Iceguin Ace. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21406,7 +21467,7 @@
       "category": "links",
       "name": "Target Shot",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Kab Kannon; KO Kabuto. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Kab Kannon; KO Kabuto. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21420,7 +21481,7 @@
       "category": "links",
       "name": "Trap Shot",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Staggerceps. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Staggerceps. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21434,7 +21495,7 @@
       "category": "links",
       "name": "Cure Sun",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Wheeflower. Link Gauge must be full for each participating active Spirit.",
+      "instructions": "Providers / pair rules: Wheeflower. Link Gauge must be full for each participating active Spirit. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21448,7 +21509,7 @@
       "category": "links",
       "name": "Vacuum Ghost",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Ghostabocky; Jestabocky. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second.",
+      "instructions": "Providers / pair rules: Ghostabocky; Jestabocky. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 9.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21462,7 +21523,7 @@
       "category": "links",
       "name": "Berserker Bronco",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Zolephant; Beatalike. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Zolephant; Beatalike. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21476,7 +21537,7 @@
       "category": "links",
       "name": "Lucky Dice",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Juggle Pup; R & R Seal. Link Gauge must be full for each participating active Spirit.",
+      "instructions": "Providers / pair rules: Juggle Pup; R & R Seal. Link Gauge must be full for each participating active Spirit. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21490,7 +21551,7 @@
       "category": "links",
       "name": "Fire Blaster",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Tatsu Blaze. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Tatsu Blaze. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21504,7 +21565,7 @@
       "category": "links",
       "name": "Poison Rain",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Woeflower. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Woeflower. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21518,7 +21579,7 @@
       "category": "links",
       "name": "Flame Raid",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Tyranto Rex. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Tyranto Rex. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21532,7 +21593,7 @@
       "category": "links",
       "name": "Ice Raid",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Skelterwild. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Skelterwild. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21546,7 +21607,7 @@
       "category": "links",
       "name": "Tail Groove",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Drak Quack; Ducky Goose. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 0%.",
+      "instructions": "Providers / pair rules: Drak Quack; Ducky Goose. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 0%. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21560,7 +21621,7 @@
       "category": "links",
       "name": "Aura Raid",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Aura Lion; Keeba Tiger. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second.",
+      "instructions": "Providers / pair rules: Aura Lion; Keeba Tiger. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 6.6% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21574,7 +21635,7 @@
       "category": "links",
       "name": "Unwind",
       "summary": "Single attack",
-      "instructions": "Providers / pair rules: Tubguin Ace. Link Gauge must be full for each participating active Spirit. Link Gauge drain: ?% per second.",
+      "instructions": "Providers / pair rules: Tubguin Ace. Link Gauge must be full for each participating active Spirit. Link Gauge drain: ?% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21588,7 +21649,7 @@
       "category": "links",
       "name": "Whomperstomp",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Meow Wow, Flowbermeow, Catanuki, or Meowjesty + anything. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per second + 5% per bounce.",
+      "instructions": "Providers / pair rules: Meow Wow, Flowbermeow, Catanuki, or Meowjesty + anything. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per second + 5% per bounce. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21602,7 +21663,7 @@
       "category": "links",
       "name": "Comet",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Physical + Fire; Physical + Dark; Fire + Fire; Fire + Water; Fire + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%.",
+      "instructions": "Providers / pair rules: Physical + Fire; Physical + Dark; Fire + Fire; Fire + Water; Fire + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21616,7 +21677,7 @@
       "category": "links",
       "name": "Unison Rush",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Physical + Physical; Physical + Thunder; Physical + Light; Physical + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per second + 5% per hit.",
+      "instructions": "Providers / pair rules: Physical + Physical; Physical + Thunder; Physical + Light; Physical + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per second + 5% per hit. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21630,7 +21691,7 @@
       "category": "links",
       "name": "Chaos Snake",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Physical + Water; Fire + Thunder; Water + Water; Dark + Dark; Dark + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per sec.",
+      "instructions": "Providers / pair rules: Physical + Water; Fire + Thunder; Water + Water; Dark + Dark; Dark + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 4.8% per sec. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21644,7 +21705,7 @@
       "category": "links",
       "name": "Prism Light",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Fire + Blizzard; Water + Blizzard; Thunder + Blizzard; Light + Blizzard; Blizzard + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%.",
+      "instructions": "Providers / pair rules: Fire + Blizzard; Water + Blizzard; Thunder + Blizzard; Light + Blizzard; Blizzard + Blizzard. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21658,7 +21719,7 @@
       "category": "links",
       "name": "Trinity Limit",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Fire + Light; Water + Thunder; Water + Light; Light + Light; Light + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%.",
+      "instructions": "Providers / pair rules: Fire + Light; Water + Thunder; Water + Light; Light + Light; Light + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 100%. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21672,7 +21733,7 @@
       "category": "links",
       "name": "Ragnarok",
       "summary": "Dual attack",
-      "instructions": "Providers / pair rules: Water + Dark; Thunder + Thunder; Thunder + Light; Thunder + Dark. Link Gauge must be full for each participating active Spirit.",
+      "instructions": "Providers / pair rules: Water + Dark; Thunder + Thunder; Thunder + Light; Thunder + Dark. Link Gauge must be full for each participating active Spirit. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21686,7 +21747,7 @@
       "category": "links",
       "name": "Shining Hammer",
       "summary": "Single style",
-      "instructions": "Providers / pair rules: Physical/Light. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second.",
+      "instructions": "Providers / pair rules: Physical/Light. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21700,7 +21761,7 @@
       "category": "links",
       "name": "Fire Raid",
       "summary": "Single style",
-      "instructions": "Providers / pair rules: Fire. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second.",
+      "instructions": "Providers / pair rules: Fire. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21714,7 +21775,7 @@
       "category": "links",
       "name": "Wavesurfer",
       "summary": "Single style",
-      "instructions": "Providers / pair rules: Aqua. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second.",
+      "instructions": "Providers / pair rules: Aqua. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21728,7 +21789,7 @@
       "category": "links",
       "name": "Thunderstorm",
       "summary": "Single style",
-      "instructions": "Providers / pair rules: Lightning. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second.",
+      "instructions": "Providers / pair rules: Lightning. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 2.4% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21742,7 +21803,7 @@
       "category": "links",
       "name": "Darkest Fears",
       "summary": "Single style",
-      "instructions": "Providers / pair rules: Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second.",
+      "instructions": "Providers / pair rules: Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21756,7 +21817,7 @@
       "category": "links",
       "name": "Bladecharge",
       "summary": "Dual style",
-      "instructions": "Providers / pair rules: Lord Kyroo + anything; Physical/Light + Physical/Light; Physical/Light + Fire; Physical/Light + Dark; Fire + Fire; Fire + Lightning; Aqua + Lightning. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second.",
+      "instructions": "Providers / pair rules: Lord Kyroo + anything; Physical/Light + Physical/Light; Physical/Light + Fire; Physical/Light + Dark; Fire + Fire; Fire + Lightning; Aqua + Lightning. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21770,7 +21831,7 @@
       "category": "links",
       "name": "Rising Wing",
       "summary": "Dual style",
-      "instructions": "Providers / pair rules: Komory Bat, Eaglider, Halbird, Pegaslick, or Ryu Dragon + anything, except Lord Kyroo or Ghostabocky; Physical/Light + Aqua; Fire + Aqua; Aqua + Aqua; Aqua + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second.",
+      "instructions": "Providers / pair rules: Komory Bat, Eaglider, Halbird, Pegaslick, or Ryu Dragon + anything, except Lord Kyroo or Ghostabocky; Physical/Light + Aqua; Fire + Aqua; Aqua + Aqua; Aqua + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21784,7 +21845,7 @@
       "category": "links",
       "name": "Ghost Drive",
       "summary": "Dual style",
-      "instructions": "Providers / pair rules: Ghostabocky + anything, except Lord Kyroo; Physical/Light + Lightning; Fire + Dark; Lightning + Lightning; Lightning + Dark; Dark + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second.",
+      "instructions": "Providers / pair rules: Ghostabocky + anything, except Lord Kyroo; Physical/Light + Lightning; Fire + Dark; Lightning + Lightning; Lightning + Dark; Dark + Dark. Link Gauge must be full for each participating active Spirit. Link Gauge drain: 3% per second. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -21798,7 +21859,7 @@
       "category": "links",
       "name": "Nightmare Clash",
       "summary": "Dual style",
-      "instructions": "Providers / pair rules: Anything. Story-only Armored Ventus Nightmare encounter; this is not an ordinary Spirit-pair result.",
+      "instructions": "Providers / pair rules: Anything. Story-only Armored Ventus Nightmare encounter; this is not an ordinary Spirit-pair result. Use the configured on-screen action prompts on Steam; the gauge shows the remaining Link time. The listed pair and gauge requirements do not depend on a fixed keyboard binding.",
       "checkable": false,
       "collectible": false,
       "sources": [
@@ -22207,7 +22268,7 @@
       "category": "reference",
       "name": "Spirit creation",
       "summary": "Extra materials improve creation rank and level; created ranks remain fixed.",
-      "instructions": "For a base ingredient quantity q, rank boosts +1/+2/+3/+4 require ceil(1.5q), 2q, 3q and 5q of that ingredient. For q=1, two pieces already give +2, three or four give +3, five give +4. Apply the smaller boost of the two ingredients; Risky Winds adds one further rank, capped at ★. Total materials grant ceil(total/3) bonus starting levels, capped at 20. Marked recipe-item formulas guarantee their intended breed. A donated command is consumed; Movement/Defense donations require retaining another copy. Exact command bonuses are recorded in the factual catalog.",
+      "instructions": "For a base ingredient quantity q, rank boosts +1/+2/+3/+4 require ceil(1.5q), 2q, 3q and 5q of that ingredient. For q=1, two pieces already give +2, three or four give +3, five give +4. Apply the smaller boost of the two ingredients; Risky Winds adds one further rank, capped at ★. Total materials grant ceil(total/3) bonus starting levels, capped at 20. Marked recipe-item formulas guarantee their intended breed. A donated command is consumed; Movement/Defense donations require retaining another copy. Exact command bonuses are recorded in the factual catalog. For collecting a breed, prefer its marked recipe-item formula, whose intended-breed success is documented, rather than assuming an unreported alternative has 100% odds. Extra rank is useful but is not required just to own the breed. Check the creation preview before spending materials; train the created Spirit normally instead of relying on the malformed starting-level cells.",
       "sources": [
         "https://www.khwiki.com/Spirit",
         "https://www.khwiki.com/Drop_System"
@@ -22246,7 +22307,7 @@
       "category": "reference",
       "name": "Reality Shift",
       "summary": "World-specific field and battle interactions use marked targets.",
-      "instructions": "HD PS4 activation is Triangle + Circle when a pink target appears. It pauses the action for the Shift. International layouts can also spend the selected deck command on activation, so choose it deliberately. Worlds use Slingshot (Traverse Town), Faithline (La Cité), Code Break (Grid), Bubble Burst (Prankster’s Paradise), Wonder Comic (Musketeers), Melody Catcher (Symphony), and Nightmare’s End/Mirage Split (The World That Never Was). Dreamline is a separate story crossing.",
+      "instructions": "HD PS4 activation is Triangle + Circle when a pink target appears. It pauses the action for the Shift. International layouts can also spend the selected deck command on activation, so choose it deliberately. Worlds use Slingshot (Traverse Town), Faithline (La Cité), Code Break (Grid), Bubble Burst (Prankster’s Paradise), Wonder Comic (Musketeers), Melody Catcher (Symphony), and Nightmare’s End/Mirage Split (The World That Never Was). Dreamline is a separate story crossing. On Steam, follow the configured action prompts; the PS4 button pair above is a labelled reference, not a keyboard binding.",
       "sources": [
         "https://www.khwiki.com/Reality_Shift"
       ],
@@ -22259,7 +22320,7 @@
       "category": "reference",
       "name": "Secret ending",
       "summary": "Another Guardian of Light is a separate Theater unlock.",
-      "instructions": "The published criteria require in-game trophies: Beginner 13, Standard 7, Proud 5, Critical 0. After Armored Ventus Nightmare, choose the answers about losing something important, close friends, and recovering something important. Beginner/Standard also need every golden credits letter. Replay credits through Mementos → Theater for another letter attempt; the ending appears in Theater instead of playing automatically.",
+      "instructions": "The published criteria require in-game trophies: Beginner 13, Standard 7, Proud 5, Critical 0. After Armored Ventus Nightmare, choose the answers about losing something important, close friends, and recovering something important. Beginner/Standard also need every golden credits letter. Replay credits through Mementos → Theater for another letter attempt; the ending appears in Theater instead of playing automatically. Before the finale, retain a separate save and meet the trophy requirement. Give the three listed answers during the actual ending and check Theater afterward. If you answered incorrectly, a retained pre-finale save lets you repeat that known initial route. Theater credits replay is documented for letters only; recovery from an already-saved wrong answer without that backup remains unverified.",
       "sources": [
         "https://www.khwiki.com/Another_Guardian_of_Light"
       ],
@@ -22275,6 +22336,33 @@
       "instructions": "NG+ transfers Spirit instances and affinity, trophy shelf progress, Story, Glossary, Character Files and Mementos. Spirit levels and Ability Link boards reset; Game Records and Treasures reset. Keep the original clear save before beginning a new run.",
       "sources": [
         "https://www.khwiki.com/Game_Clear_Data"
+      ],
+      "checkable": false,
+      "collectible": false
+    },
+    {
+      "id": "dddhd:reference:spirit-disposition-routes",
+      "category": "reference",
+      "name": "Spirit disposition routes",
+      "summary": "Treats and known two-step petting routes avoid missing interaction cells.",
+      "instructions": "Feed Confetti Candy for purple eyes, Ice Dream Cone for yellow, Shield Cookie for blue, or Block-it Chocolate for green. Repeat as needed: a single treat does not guarantee a change. After a successful change, close and reopen the Spirit menu before trying another. Check the displayed disposition and then its Ability Link branch. Beatalike, Tubguin Ace and Woeflower entries include known two-step petting alternatives; no missing body part is guessed.",
+      "sources": [
+        "https://www.khwiki.com/Spirit",
+        "https://www.khwiki.com/Training_Toy",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      ],
+      "checkable": false,
+      "collectible": false
+    },
+    {
+      "id": "dddhd:reference:portal-hunting",
+      "category": "reference",
+      "name": "Portal hunting",
+      "summary": "Use forecast, Reports and the expanded map to find active portals.",
+      "instructions": "Choose the correct character and world. Match the forecast enemy to the portal entries, then compare the still-needed numbers in Reports → Game Records → Link Portals. One enemy can describe several candidate areas, so inspect each matching area and its expanded mini-map. Use your configured map control on Steam; the HD guide labels the PS4 touchpad. Portal configurations change when you Drop, so an absent portal is not proof it was collected. Complete the earlier Specials to unlock that world’s last one. Bonus-objective rewards and first-clear rewards are separate; do not count a repeated clear as a new portal.",
+      "sources": [
+        "https://www.playstationtrophies.org/forum/topic/284042-kingdom-hearts-dream-drop-distance-trophy-guide-and-road-map/",
+        "https://www.khwiki.com/Portal"
       ],
       "checkable": false,
       "collectible": false

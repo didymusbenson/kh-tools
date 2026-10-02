@@ -1,6 +1,6 @@
 # DDD HD research audit
 
-**Current continuation:** 7 resolved, 17 partial, 1 blocked; see [every residual outcome](research-continuation-2026-10-01.md). The historical findings below are preserved.
+**Current practical review:** evidence 7 resolved, 17 partial, 1 blocked; research disposition 7 resolved, 17 deferred, 1 open. See [every-family practical review](practical-review-2026-10-02.md) and [deferrals](future-improvements.md). The historical findings below are preserved and are not the active work queue.
 
 **Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.
 

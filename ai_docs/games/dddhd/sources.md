@@ -1,5 +1,7 @@
 # DDD HD inspected-source manifest
 
+**Current practical scope, 2026-10-02:** [Every-family review](practical-review-2026-10-02.md) separates 17 optional precision deferrals from one active HD ending-recovery question. Evidence uncertainty below remains valid, but historical demands for exhaustive matrices are no longer active by default. Runtime now has 1,285 entries / 263 formulas; Data Jiminy remains empty.
+
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
 
 Audit: 2026-09-18. This records **what was inspected**, not blanket endorsement or in-game verification. Source classes: USER = user's legacy source, REPO = existing implementation/planning, PRIMARY = publisher/platform, COMMUNITY = third-party reference. All directions in planning prose are concise original summaries.
