@@ -1,10 +1,14 @@
 # Birth by Sleep Final Mix research audit
 
-Audit date: 2026-10-01. Repository baseline: `f933ab1` on `research/audit-2026-10-01`. This is an audit of repository evidence, not new external research or certification. This audit changes only this report; concurrent parent/other-agent changes are outside its scope.
+Audit date: 2026-10-01. Repository baseline: `f933ab1` on `research/audit-2026-10-01`. This is an audit of repository evidence, not new external research or certification. The original audit changed only this report; subsequent status updates are dated separately below.
 
 Scope: Steam HD Final Mix; Terra, Ventus, Aqua main stories; Aqua’s **Final Episode** and **Secret Episode** as separate save/acquisition contexts. The BBS Secret Episode is included; the standalone **KH0.2** is excluded. Shared enemy/command definitions never imply shared character progress. “Unknown acquisition” does not mean unobtainable. No user playthrough is a prerequisite: `ai_docs/testing-and-content-validation.md:5–9` requires sourced edition-correct facts and app validation separately.
 
-## Method and measured coverage
+## Current resolution status
+
+The original audit below measured `f933ab1`. October 1 follow-up closes **BBS-007, BBS-008 and BBS-017**, narrows **BBS-006** to the minimum Ignite level, and corrects the Archraven Shop 1–4 band within **BBS-015**. The [resolution log](research-resolution-2026-10-01.md) records sources, integration and remaining questions. Inventory counts and appendix quotations below are baseline snapshots, not current gap claims.
+
+## Method and measured coverage (baseline)
 
 Read the full BBS research pack, specification/readiness, both September 28 research supplements, implementation/review/reference notes, source manifest/Drive audit, legacy melding input, current generators, generated JSON, runtime model/journal/solver and tests. Parsed every JSON/CSV record, checked absent fields and null/empty/zero semantics, compared canonical and generated records, audited recipe quarantines and source-name joins, and searched tracked text broadly for uncertainty, missing-data, TODO, candidate, conflict, source/edition and acceptance language. Source lines below refer to this baseline, not this report. JSON paths use zero-based array indices.
 
@@ -58,19 +62,19 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:72`; `ai_docs/games/b
 
 ### BBS-006 — Mine Square recipe correction and collateral exclusion
 
-**Status: PARTLY ANSWERED.** Raw `$.recipes[90]` incorrectly says Aerora Lv 3 + Aerora Lv 3 → Mine Square, producing 200% groups. September 28 independently corroborates ingredient identity Aerora + Ignite, 100%, all three. KHWiki gives Ignite Lv 3; the independent Destiny Islands table omits Ignite’s level, so that one minimum-level corroboration remains open. Both generators still exclude the whole old pair, also suppressing valid Aeroga/Tornado outcomes. Corrected in-memory research would restore three Aerora/Aerora groups plus three new Aerora/Ignite groups; no checked-in recipe fix occurred. Appendix C enumerates all five quarantined raw outcome rows and expected nine restored groups together with BBS-007.
+**Status: PARTLY RESOLVED — 2026-10-01.** Corrected outcome 90 to Aerora + Ignite and regenerated all six affected character groups, including valid Aerora/Aerora outcomes. The app uses the sourced Lv3 Ignite combination and carries a specific lower-level eligibility note. KHWiki lists Lv3; the guiding-key FM guide lists Lv1; Destiny Islands omits the level. Only the exact minimum remains open; ingredient identity, outcome, rates, attached abilities and former whole-pair exclusion are no longer gaps. See [resolution evidence](research-resolution-2026-10-01.md). Appendix C records the baseline, not current quarantines.
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:14`, `ai_docs/games/bbsfm/melding-and-abilities.md:18`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:28`, `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:33`; `src/games/bbsfm/generate.py:46`–53; `src/games/bbsfm/build-ui-data.py:12–16`; `ai_docs/games/bbsfm/melding-reference.json:8671`.
 
-### BBS-007 — Magnet Spiral 20% correction remains quarantined
+### BBS-007 — Magnet Spiral 20% correction (closed: integrated)
 
-**Status: ANSWERED / NOT INTEGRATED.** Raw `$.recipes[182]` labels the 20% Stun Edge Lv 3 + Magnera Lv 3 alternative Collision Magnet. September 28 Destiny Islands and Magnet Spiral sources corroborate Collision Magnet 80% / Magnet Spiral 20%, all three, including levels and crystal mappings. Both 80% and 20% rows remain excluded as one whole pair; restoration adds three character groups. This is no longer a wholly unresearched recipe-name question; it is an unapplied correction requiring regeneration/validation.
+**Status: CLOSED — 2026-10-01.** Corrected outcome 182 to Magnet Spiral 20%, retaining Collision Magnet 80%, Stun Edge/Magnera Lv3, all three characters and existing crystal mappings. Both generators now include the three restored groups. Original value and supporting sources are retained on the corrected row. See [resolution evidence](research-resolution-2026-10-01.md); Appendix C is historical.
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:15`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:29`–33; `src/games/bbsfm/generate.py:48`–56; `src/games/bbsfm/build-ui-data.py:12–23`; `ai_docs/implementation/bbsfm-review-checklist.md:82`.
 
-### BBS-008 — Confusing Strike / Confusion Strike identity split
+### BBS-008 — Confusing Strike / Confusion Strike identity split (closed)
 
-**Status: PARTLY ANSWERED.** The raw reference has one “Confusing Strike” result versus two “Confusion Strike” results and eight consuming outcome rows. UI builder now canonicalizes the spelling to Confusion Strike and legacy Reaction to Reprisal, but raw evidence and generated recipe prose still contain Confusing Strike. Preserve source spelling in provenance and finish the canonical correction across search/material/recipe joins. The September 28 research explicitly requests sourced alias/correction; builder’s hard-coded alias does not add a new source verification. Appendix C enumerates every relevant raw row and remaining generated spelling.
+**Status: CLOSED — 2026-10-01.** Canonical raw outcome 140 now uses the BBS name Confusion Strike; generated recipe prose and structured joins agree. The original Confusing Strike spelling remains only in correction provenance/legacy evidence. KHWiki distinguishes the BBS and DDD names, corroborated by the Destiny Islands FM table. See [resolution evidence](research-resolution-2026-10-01.md).
 
 Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:154`; `src/games/bbsfm/build-ui-data.py:10,21,23,26`; `src/games/bbsfm/generate.py:67`–69.
 
@@ -112,7 +116,7 @@ Evidence: `ai_docs/games/bbsfm/ability-stacks.csv:1`, `ai_docs/games/bbsfm/abili
 
 ### BBS-015 — Complete crystal farms and bestiary encounter variants
 
-**Status: OPEN.** Normalize every crystal source, all rate intervals, exact rooms, eligible characters, story/world scaling, access/reset routes and world-versus-Arena tables. All 11 `crystal-sources` records explicitly remain world examples; no location has area/characters fields. Thornbite omits Castle of Dreams; Scrapper and both Flood rows omit Deep Space pending character normalization. Axe Flapper only certifies Shop 5–6; later bands are not inferred. The 16-entry generated bestiary is only parsed material examples, with no complete per-character Reports enemy roster, stat variants or Arena-to-Reports inclusion rules. Bruiser/Tank Toppler/Buckle Bruiser Pulsing rates are unspecified prose and parser drops their nonnumeric leads. Do not label Secret Episode Dark Hide/Heartless Unversed. Appendix B/F records every crystal, bestiary ID and source row. Source discrepancy: older Archraven Shimmering says Shop 2–4, newer enemy record says 1–4; reconcile applicability/provenance instead of silently assuming parity.
+**Status: OPEN.** Normalize every crystal source, all rate intervals, exact rooms, eligible characters, story/world scaling, access/reset routes and world-versus-Arena tables. The baseline had 11 `crystal-sources` world-example records; the current 12 include the conditional Spiderchest relationship without an asserted route. No location has area/characters fields. Thornbite omits Castle of Dreams; Scrapper and both Flood rows omit Deep Space pending character normalization. Axe Flapper only certifies Shop 5–6; later bands are not inferred. The 16-entry generated bestiary is only parsed material examples, with no complete per-character Reports enemy roster, stat variants or Arena-to-Reports inclusion rules. Bruiser/Tank Toppler/Buckle Bruiser Pulsing rates are unspecified prose and parser drops their nonnumeric leads. Do not label Secret Episode Dark Hide/Heartless Unversed. Appendix B/F records every crystal, bestiary ID and source row. **October 1 update:** the Archraven first Shimmering band is now reconciled to Shop 1–4 in material prose and bestiary, and the conditional Spiderchest Fleeting relationship is integrated. These specific details are no longer open; full character/room routes remain open.
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:5`–19; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:69`–77; `src/games/bbsfm/generate.py:76`–80, `src/games/bbsfm/generate.py:144`–154; `src/games/bbsfm/crystal-sources.json:5`; `src/games/bbsfm/crystal-sources.json:65`; `src/games/bbsfm/crystal-sources.json:110`; `src/games/bbsfm/crystal-sources.json:146`; `src/games/bbsfm/crystal-sources.json:188`; `src/games/bbsfm/crystal-sources.json:239`.
 
@@ -122,9 +126,9 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:5`–19; `ai_docs/rese
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:19`; `ai_docs/readiness/birth-by-sleep-final-mix.md:35`; `ai_docs/games/bbsfm/ability-stacks.csv:5`. Existing lead: Lucky Strike/Abilities and individual enemy tables.
 
-### BBS-017 — Spiderchest Fleeting discrepancy
+### BBS-017 — Spiderchest Fleeting discrepancy (closed: conditional drop integrated)
 
-**Status: ANSWERED / NOT INTEGRATED.** September 28 Spiderchest enemy table answers the old material-page omission: Fleeting 3.6% at Shop 1–2, absent from its later bands. This is a conditional candidate farm, not unconditional. Legacy/source disagreement is no longer unanswered at that level; however runtime material/bestiary sources do not add this Fleeting relationship. Exact character/room route remains under BBS-015.
+**Status: CLOSED — 2026-10-01 (conditional drop relationship).** Spiderchest Fleeting Crystal 3.6% at Shop 1–2 is now in the structured melding sources, material details and generated bestiary; it is explicitly absent from Shop 3–8 tables. No accessible character/room route is implied. Those route questions remain BBS-015. See [resolution evidence](research-resolution-2026-10-01.md).
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:16`; `ai_docs/readiness/birth-by-sleep-final-mix.md:35`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:39`; `ai_docs/games/bbsfm/materials-and-equipment.md:10`; `src/games/bbsfm/generate.py:76`; Appendix B source list. Lead: `Spiderchest`.
 

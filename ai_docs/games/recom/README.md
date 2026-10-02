@@ -6,6 +6,8 @@ Research snapshot: **2026-09-28**. Baseline: English **Re:Chain of Memories in m
 
 The journal now uses this pack for 431 guide entries, including all 152 Sora and 59 Riku card types. See the [data closure audit](data-gap-audit-2026-09-28.md) for delivered fields, evidence decisions and remaining narrow gaps. Source reconciliation is distinct from native-game verification.
 
+October 1 follow-up: [research resolutions](research-resolution-2026-10-01.md) close the false Ansem-effect gap and integrate all Riku mode requirements; stale door/mushroom wording is partly corrected.
+
 ## Readable references
 
 | Document | Coverage |

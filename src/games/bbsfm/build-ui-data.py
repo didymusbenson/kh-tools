@@ -20,7 +20,7 @@ for r in raw['recipes']:
   ident=f"bbsfm:{slug(character)}:meld:{slug('-'.join(f'{n}-{l}' for n,l in inputs))}"
   assert ident in existing,ident
   group=groups.setdefault(ident,dict(id=ident,character=character,inputs=[dict(name=canonical(n),level=l) for n,l in inputs],outcomes=[]))
-  group['outcomes'].append(dict(name=canonical(r['result']),rate=rate,type=r['recipe_type'],abilities=r['possible_abilities_by_crystal'] if r['abilities_attachable'] else {},attachable=r['abilities_attachable'],notes=[raw['footnote_rules'].get(str(n),str(n)) for n in r['footnotes']]))
+  group['outcomes'].append(dict(name=canonical(r['result']),rate=rate,type=r['recipe_type'],abilities=r['possible_abilities_by_crystal'] if r['abilities_attachable'] else {},attachable=r['abilities_attachable'],notes=[raw['footnote_rules'].get(str(n),str(n)) for n in r['footnotes']]+r.get('notes',[])))
 for g in groups.values(): assert sum(r['rate'] for r in g['outcomes'])==100,g['id']
 seed=(root/'bbsmelding/seed_objects.js').read_text()
 types={canonical(r['Command']):r['Type'].replace('Reaction','Reprisal') for r in json.loads(re.search(r'var command_types\s*=\s*(\[[\s\S]*?\]);',seed).group(1))}

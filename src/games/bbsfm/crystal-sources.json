@@ -66,6 +66,14 @@
     "source": "https://www.khwiki.com/Thornbite"
   },
   {
+    "crystal": "Fleeting Crystal",
+    "enemy": "Spiderchest",
+    "rate": "3.6% (Shop Lv 1–2 only)",
+    "locations": [],
+    "conditions": "Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed.",
+    "source": "https://www.khwiki.com/Spiderchest"
+  },
+  {
     "crystal": "Pulsing Crystal",
     "enemy": "Wild Bruiser",
     "rate": "21.6% (Shop Lv 7–8)",

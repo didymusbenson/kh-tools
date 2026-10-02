@@ -807,5 +807,42 @@
       "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories-PS3/walkthrough/6",
       "reason": "Indexed level snippets found; full open failed; no independent full sleight count claimed."
     }
+  ],
+  "followUpInspections": [
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Sleight",
+      "inspection": "Riku unlock context, Dark Mode attacks, friend/duel variants, duel initiation and 8 reloadable cards.",
+      "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Holy_Burst",
+      "inspection": "Re:CoM Holy Burst is replaced by Inverse Burst in Dark Mode.",
+      "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/MM_Miracle",
+      "inspection": "Re:CoM King friend sleights, with no form restriction.",
+      "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Sleightblind",
+      "inspection": "Re:CoM player effect is elemental resistance only; original Link Mode concealment and enemy Ansem use distinguished.",
+      "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Enemy_Card",
+      "inspection": "Ansem player table explicitly distinguishes CoM concealment from Re:CoM elemental resistance.",
+      "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    }
   ]
 }

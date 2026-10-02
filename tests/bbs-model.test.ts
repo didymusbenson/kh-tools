@@ -37,6 +37,33 @@ describe('BBS structured UI data and persistence boundaries',()=>{
   const shotlock=rare.outcomes.find(o=>!o.attachable)!;
   const adjusted=effectiveOutcomes(rare,new Set([shotlock.name]));expect(adjusted).toHaveLength(1);expect(adjusted[0].rate).toBe(100);expect(adjusted[0].attachable).toBe(true);
  });
+ it('restores corrected meld outcomes without mixing characters or crystal mappings',()=>{
+  for(const character of ['Terra','Ventus','Aqua'] as const){
+   const group=(suffix:string)=>bbsData.groups.find(g=>g.id===`bbsfm:${character.toLowerCase()}:meld:${suffix}`)!;
+   const mine=group('aerora-3-ignite-3');
+   expect(mine.outcomes.map(o=>[o.name,o.rate])).toEqual([['Mine Square',100]]);
+   expect(mine.outcomes[0].abilities['Pulsing Crystal']).toBe('Leaf Bracer');
+   expect(mine.outcomes[0].notes.join(' ')).toContain('Lv1–2');
+   expect(group('aerora-3-aerora-3').outcomes.map(o=>[o.name,o.rate])).toEqual(character==='Ventus'?[['Aeroga',90],['Tornado',10]]:[['Aeroga',100]]);
+   const magnet=group('magnera-3-stun-edge-3');
+   expect(magnet.outcomes.map(o=>[o.name,o.rate])).toEqual([['Collision Magnet',80],['Magnet Spiral',20]]);
+   expect(magnet.outcomes[1].abilities['Abounding Crystal']).toBe('Lucky Strike');
+   expect(calculateMeld(character,'Stun Edge',2,'Magnera',3)).toHaveLength(0);
+   expect(calculateMeld(character,'Stun Edge',3,'Magnera',3).some(r=>r.group.id===magnet.id)).toBe(true);
+  }
+ });
+ it('keeps the BBS command name and conditional Spiderchest drop consistent across views',()=>{
+  for(const recipe of guide.recipes??[])expect(`${recipe.name} ${recipe.instructions}`).not.toContain('Confusing Strike');
+  expect(producingGroups('Confusion Strike','Aqua').some(g=>g.inputs.some(i=>i.name==='Quick Blitz'))).toBe(true);
+  const drop=sources.find(s=>s.enemy==='Spiderchest'&&s.crystal==='Fleeting Crystal')!;
+  expect(drop.rate).toBe('3.6% (Shop Lv 1–2 only)');
+  expect(drop.conditions).toContain('Absent from the Shop Lv 3–8');
+  for(const e of guide.entries.filter(e=>e.category==='materials'&&e.name==='Fleeting Crystal')){
+   expect(e.drops?.some(d=>d.enemy==='Spiderchest'&&d.rate===drop.rate)).toBe(true);
+   expect(e.sources).toContain(drop.source);
+  }
+  expect(guide.entries.find(e=>e.id==='bbsfm:bestiary:spiderchest')!.summary).toContain('Fleeting Crystal: 3.6% at 1–2 only');
+ });
  it('retains OR prerequisites and typed finish conditions; every crystal has a grounded source',()=>{
   const f=bbsData.finish.find(f=>f.character==='Aqua'&&f.name==='Surprise! 2')!;
   expect(f.parents).toEqual(['Twisted Hours','Surprise! 1']);expect(finishCondition(f)).toBe('Collect 5,200 munny.');expect(f.id).toBe(bbsId('Aqua','finish','Surprise! 2'));

@@ -1,12 +1,12 @@
 # Birth by Sleep Final Mix research pack
 
-Audit: 2026-09-18. This is sourced planning and candidate data, not an implemented or certified compendium. The modern HD Final Mix rules are the baseline. [Specification](../birth-by-sleep-final-mix.md) · [Readiness](../../readiness/birth-by-sleep-final-mix.md) · [Separate 0.2 specification](../kingdom-hearts-02.md).
+Initial audit: 2026-09-18; [latest resolutions](research-resolution-2026-10-01.md): 2026-10-01. This pack feeds the implemented guide; it is not a complete certified compendium. The modern HD Final Mix rules are the baseline. [Specification](../birth-by-sleep-final-mix.md) · [Readiness](../../readiness/birth-by-sleep-final-mix.md) · [Separate 0.2 specification](../kingdom-hearts-02.md).
 
 | File | Concrete coverage |
 |---|---|
 | [Collectible inventory](collectible-inventory.csv) | 374 numbered main-story chest candidates, 8 Secret Episode chests, 1 unnumbered tutorial chest, 60 stickers; character/world/area/source retained |
 | [Collectibles and reports](collectibles-and-reports.md) | Counting rules, world totals, 13 report/letter acquisitions, sticker rewards, precise-location examples and source conflicts |
-| [Melding reference](melding-reference.json) | Reused 296-outcome user reference, 112 crystal/type relationships, required levels, character rates and ownership footnotes; two rows quarantined |
+| [Melding reference](melding-reference.json) | Reused 296-outcome user reference, 112 crystal/type relationships, required levels, character rates and ownership footnotes; three documented source corrections; exact minimum Ignite level remains open |
 | [Melding and abilities](melding-and-abilities.md) | Legacy reconciliation, solver contract, exceptions and grounded evaluation cases |
 | [Acquisition tables](acquisition-tables.json) | 14 ice cream recipes, 42 flavors, 108 command-shop entries, 42 finish predicates; exact quantities retained |
 | [Ability stacks](ability-stacks.csv) | 30 ability names and maximum stacks, including the two non-meld abilities |

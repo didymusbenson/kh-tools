@@ -948,7 +948,10 @@
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (5-15)",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01"
     },
     {
       "id": "recom-sleight-riku-dark-firaga",
@@ -958,7 +961,10 @@
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (16-25)",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01"
     },
     {
       "id": "recom-sleight-riku-dark-aura",
@@ -968,7 +974,10 @@
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (27)",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01"
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv2",
@@ -978,7 +987,10 @@
       "combinationReference": "The King + The King",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal or Dark Mode.",
+      "modeReviewed": "2026-10-01"
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv3",
@@ -988,7 +1000,10 @@
       "combinationReference": "The King + The King + The King",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal or Dark Mode.",
+      "modeReviewed": "2026-10-01"
     },
     {
       "id": "recom-sleight-riku-holy-burst",
@@ -998,7 +1013,11 @@
       "combinationReference": "The King + Soul Eater + Soul Eater",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal Mode only.",
+      "modeReviewed": "2026-10-01",
+      "supportingSource": "https://www.khwiki.com/Holy_Burst"
     },
     {
       "id": "recom-sleight-riku-inverse-burst",
@@ -1008,7 +1027,11 @@
       "combinationReference": "The King + Soul Eater + Soul Eater",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01",
+      "supportingSource": "https://www.khwiki.com/Holy_Burst"
     },
     {
       "id": "recom-sleight-riku-impulse",
@@ -1018,7 +1041,11 @@
       "combinationReference": "Win a duel that requires you to break three cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     },
     {
       "id": "recom-sleight-riku-dark-impulse",
@@ -1028,7 +1055,11 @@
       "combinationReference": "Win a duel that requires you to break three cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     },
     {
       "id": "recom-sleight-riku-maelstrom",
@@ -1038,7 +1069,11 @@
       "combinationReference": "Win a duel that requires you to break five cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     },
     {
       "id": "recom-sleight-riku-dark-maelstrom",
@@ -1048,7 +1083,11 @@
       "combinationReference": "Win a duel that requires you to break five cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     },
     {
       "id": "recom-sleight-riku-barrage",
@@ -1058,7 +1097,11 @@
       "combinationReference": "Win a duel that requires you to break seven cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Normal Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     },
     {
       "id": "recom-sleight-riku-dark-barrage",
@@ -1068,7 +1111,11 @@
       "combinationReference": "Win a duel that requires you to break seven cards.",
       "source": "https://www.khwiki.com/Sleight",
       "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
-      "normalCombat": true
+      "normalCombat": true,
+      "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
+      "modeRequirement": "Dark Mode only.",
+      "modeReviewed": "2026-10-01",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
     }
   ]
 }

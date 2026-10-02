@@ -1,5 +1,7 @@
 # BBS Final Mix guide rollout — September 20, 2026
 
+**October 1 supersession:** both historical meld quarantines below are corrected and integrated (468 melds + 24 ice cream recipes); the BBS command name and conditional Spiderchest Fleeting drop are corrected too. Only minimum Ignite level remains disputed within those recipe findings. See [current resolution evidence](../games/bbsfm/research-resolution-2026-10-01.md). Counts and non-integration statements below describe the earlier pass.
+
 ## Research and decisions
 
 Read the per-game specification/readiness, collectible, melding, equipment and challenge research packs and structured inventories. The current refinement playbook supersedes optional stock tracking. BBS uses blue Reports styling, character-specific inventories, single-column inline answers and category-first navigation. Data Jiminy is untouched.

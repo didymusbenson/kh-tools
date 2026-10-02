@@ -15,7 +15,7 @@
       "verification": "source-inspected candidate",
       "cp": 25,
       "effect": "Card values rise by 1.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-soldier",
@@ -38,7 +38,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Normal combos gain one additional hit.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Twilight Town Neverland."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Twilight Town Neverland."
     },
     {
       "id": "recom-sora-enemy-powerwild",
@@ -61,7 +61,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Values 1–9 reverse (1 ↔ 9, 2 ↔ 8); zero stays zero.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum."
+      "acquisition": "Target must be final enemy defeated. Worlds: Olympus Coliseum."
     },
     {
       "id": "recom-sora-enemy-bouncywild",
@@ -73,7 +73,7 @@
       "verification": "source-inspected candidate",
       "cp": 10,
       "effect": "Nearby prizes are drawn toward you.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum."
+      "acquisition": "Target must be final enemy defeated. Worlds: Olympus Coliseum."
     },
     {
       "id": "recom-sora-enemy-large-body",
@@ -85,7 +85,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Blocks physical attacks coming from the front.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Olympus Coliseum, Monstro."
+      "acquisition": "Target must be final enemy defeated. Worlds: Wonderland, Olympus Coliseum, Monstro."
     },
     {
       "id": "recom-sora-enemy-fat-bandit",
@@ -97,7 +97,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Attacks from behind deal extra damage.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah."
+      "acquisition": "Target must be final enemy defeated. Worlds: Agrabah."
     },
     {
       "id": "recom-sora-enemy-sea-neon",
@@ -109,7 +109,7 @@
       "verification": "source-inspected candidate",
       "cp": 20,
       "effect": "Your played card values become random.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
+      "acquisition": "Target must be final enemy defeated. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-bandit",
@@ -121,7 +121,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "The first hit gains combo-finisher power.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah."
+      "acquisition": "Target must be final enemy defeated. Worlds: Agrabah."
     },
     {
       "id": "recom-sora-enemy-pirate",
@@ -133,7 +133,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "All card values become zero.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland."
+      "acquisition": "Target must be final enemy defeated. Worlds: Neverland."
     },
     {
       "id": "recom-sora-enemy-red-nocturne",
@@ -145,7 +145,7 @@
       "verification": "source-inspected candidate",
       "cp": 20,
       "effect": "Boosts fire damage.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-blue-rhapsody",
@@ -157,7 +157,7 @@
       "verification": "source-inspected candidate",
       "cp": 20,
       "effect": "Boosts ice damage.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Olympus Coliseum, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Olympus Coliseum, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-yellow-opera",
@@ -169,7 +169,7 @@
       "verification": "source-inspected candidate",
       "cp": 20,
       "effect": "Boosts lightning damage.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Neverland, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Neverland, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-green-requiem",
@@ -181,7 +181,7 @@
       "verification": "source-inspected candidate",
       "cp": 20,
       "effect": "Strengthens healing.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-wizard",
@@ -193,7 +193,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Boosts magic, but disables summons.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-air-soldier",
@@ -205,7 +205,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Lets you move while reloading.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Twilight Town."
+      "acquisition": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Twilight Town."
     },
     {
       "id": "recom-sora-enemy-barrel-spider",
@@ -217,7 +217,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Reloading becomes instantaneous.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands."
+      "acquisition": "Target must be final enemy defeated. Worlds: Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-wight-knight",
@@ -229,7 +229,7 @@
       "verification": "source-inspected candidate",
       "cp": 15,
       "effect": "Raises jump height.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town."
+      "acquisition": "Target must be final enemy defeated. Worlds: Halloween Town."
     },
     {
       "id": "recom-sora-enemy-air-pirate",
@@ -241,7 +241,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Protects item cards against breaks.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland."
+      "acquisition": "Target must be final enemy defeated. Worlds: Neverland."
     },
     {
       "id": "recom-sora-enemy-gargoyle",
@@ -253,7 +253,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Turns you invisible, making attacks less likely to hit.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town."
+      "acquisition": "Target must be final enemy defeated. Worlds: Halloween Town."
     },
     {
       "id": "recom-sora-enemy-search-ghost",
@@ -265,7 +265,7 @@
       "verification": "source-inspected candidate",
       "cp": 35,
       "effect": "Attack-card hits restore HP; enemies drop fewer prizes.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Halloween Town, Atlantica."
+      "acquisition": "Target must be final enemy defeated. Worlds: Monstro, Halloween Town, Atlantica."
     },
     {
       "id": "recom-sora-enemy-aquatank",
@@ -277,7 +277,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Reloads automatically when the deck runs out.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
+      "acquisition": "Target must be final enemy defeated. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-screwdiver",
@@ -289,7 +289,7 @@
       "verification": "source-inspected candidate",
       "cp": 15,
       "effect": "Card values fall by 1.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica."
+      "acquisition": "Target must be final enemy defeated. Worlds: Atlantica."
     },
     {
       "id": "recom-sora-enemy-wyvern",
@@ -312,7 +312,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Prevents the reload counter from increasing.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-defender",
@@ -335,7 +335,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Reduces incoming physical damage.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-white-mushroom",
@@ -371,7 +371,7 @@
       "verification": "source-inspected candidate",
       "cp": 35,
       "effect": "Protects Cure against breaks.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Halloween Town, Destiny Islands."
+      "acquisition": "Target must be final enemy defeated. Worlds: Wonderland, Halloween Town, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-tornado-step",
@@ -394,7 +394,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Reduces the reload counter by 2.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Hollow Bastion, Destiny Islands."
+      "acquisition": "Target must be final enemy defeated. Worlds: Monstro, Hollow Bastion, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-crescendo",
@@ -417,7 +417,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Boosts summons, but disables magic cards.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Neverland, Destiny Islands."
+      "acquisition": "Target must be final enemy defeated. Worlds: Wonderland, Neverland, Destiny Islands."
     },
     {
       "id": "recom-sora-enemy-neoshadow",
@@ -440,7 +440,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Enemy HP drains over time.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-guard-armor",
@@ -595,8 +595,11 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 40,
-      "effect": "Resists fire, ice and lightning.",
-      "acquisition": "Twilight Town · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
+      "effect": "In Re:CoM, grants resistance to fire, ice and lightning only.",
+      "acquisition": "Twilight Town · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora.",
+      "supportingSource": "https://www.khwiki.com/Sleightblind",
+      "editionNote": "Stocked-card concealment is the original CoM Link Mode effect, not an omitted player benefit in Re:CoM. Enemy Ansem’s own use is a separate mechanic.",
+      "effectReviewed": "2026-10-01"
     },
     {
       "id": "recom-sora-enemy-xemnas",

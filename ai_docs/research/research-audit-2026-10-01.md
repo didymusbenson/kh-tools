@@ -4,7 +4,7 @@ The user requested an exhaustive scan for incomplete, unverified, unresearched, 
 
 ## Per-game reports
 
-| Game | Report | Finding groups and current interpretation |
+| Game | Report | Finding groups (baseline; live status below) |
 |---|---|---|
 | KH1 Final Mix | [research_audit.md](../games/kh1fm/research_audit.md) | 20: 16 active content gaps, 2 lower-priority detail questions, 2 provenance limitations; historical resolutions separately listed |
 | Re:Chain of Memories HD | [research_audit.md](../games/recom/research_audit.md) | 32: 18 factual/extraction gaps, 2 integration/provenance, 8 resolved groups, 3 nonfactual groups, 1 caveat-propagation defect |
@@ -30,7 +30,15 @@ Historical limitations were checked against later work. For example, the later R
 - **Provenance gaps:** some source URLs remain only in developer tables, some transformations discard caveats or citations, and source manifests do not always include later references.
 - **Stale language:** closed questions and old implementation limitations still appear in earlier documents. Reports retain those occurrences and mark the later resolution rather than calling them unanswered again.
 
-The user and parent agent will select answer-finding priorities and sources next. This audit did not rewrite guide facts or repopulate Copperminds.
+The initial audit did not rewrite guide facts. Follow-up corrections are now tracked in [the resolution pass](research-resolution-2026-10-01.md) and each per-game audit. Copperminds remain empty.
+
+## Current closure ledger — October 1
+
+- **BBS:** BBS-007/008/017 closed; BBS-006 narrowed to the exact minimum Ignite level. The Archraven Shop 1–4 transcription is also fixed within the still-open BBS-015 route/coverage finding. Nine character-scoped meld groups restored. [Evidence and integration](../games/bbsfm/research-resolution-2026-10-01.md).
+- **Re:CoM:** COM-018 closed as a false gap after checking edition differences; COM-019 integrated for all 13 Riku sleights. COM-032 partially corrected; remaining mushroom/encounter questions stay open. [Evidence and integration](../games/recom/research-resolution-2026-10-01.md).
+- **Other five games:** no findings changed in this pass.
+
+The baseline counts above are preserved for audit history; use dated per-finding statuses and this ledger for the current backlog.
 
 ## Concurrent work and reference stability
 

@@ -85,6 +85,20 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
    const copy=JSON.stringify([e.summary,e.instructions,e.prerequisites,e.notes,e.stats]);
    expect(copy,e.id).not.toMatch(/unresolved|needs (?:checking|modern|verification)|not yet available|remains to reconcile|source order/i);
   }
+  for(const e of recomEntries.filter(e=>e.family==='enemy'&&!['White Mushroom','Black Fungus'].includes(e.name)))expect(e.instructions).not.toContain('mushroom-specific');
+ });
+ it('retains Riku form and duel conditions and keeps Ansem edition-correct',()=>{
+  const riku=recomEntries.filter(e=>e.campaign==='riku'&&e.category==='sleights');
+  expect(riku).toHaveLength(13);
+  for(const e of riku)expect(e.prerequisites).toContain('after leaving Hollow Bastion');
+  for(const [normal,dark] of [['Holy Burst','Inverse Burst'],['Impulse','Dark Impulse'],['Maelstrom','Dark Maelstrom'],['Barrage','Dark Barrage']]){
+   expect(riku.find(e=>e.name===normal)!.stats).toContainEqual(['Mode','Normal Mode only.']);
+   expect(riku.find(e=>e.name===dark)!.stats).toContainEqual(['Mode','Dark Mode only.']);
+  }
+  for(const e of riku.filter(e=>e.family==='duel'))expect(e.prerequisites).toContain('at least 8 reloadable cards');
+  const ansem=recomEntries.find(e=>e.id==='recom-sora-enemy-ansem')!;
+  expect(ansem.summary).toBe('In Re:CoM, grants resistance to fire, ice and lightning only.');
+  expect(ansem.sources).toContain('https://www.khwiki.com/Sleightblind');
  });
  it('loads the report root and preserves campaign in links',()=>{
   expect(journalStartRoute('recom')).toBe('recom/contents');

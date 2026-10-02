@@ -1,5 +1,7 @@
 # BBS Final Mix coverage and focused research — 2026-09-28
 
+**October 1 supersession:** both historical meld quarantines below are corrected and integrated (468 melds + 24 ice cream recipes); the BBS command name and conditional Spiderchest Fleeting drop are corrected too. Only minimum Ignite level remains disputed within those recipe findings. See [current resolution evidence](../games/bbsfm/research-resolution-2026-10-01.md). Counts and non-integration statements below describe the earlier pass.
+
 This supplement records a read-only app audit and targeted source research while the user supplies requirements. No app code or existing source inventory was changed. Community references establish corroboration, not gameplay certification. The Steam HD Final Mix baseline remains in force.
 
 ## Current coverage, correcting stale readiness wording

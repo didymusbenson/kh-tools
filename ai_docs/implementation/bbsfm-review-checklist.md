@@ -79,7 +79,7 @@ Specialist agent dispatched September 28 at the user's request to inspect these 
 
 These are tracked work items for the researcher/developer, not a request for you to replay the game or personally audit every row. Flag priorities or examples during review; source reconciliation remains our work.
 
-- [ ] **D01 — Apply corroborated meld corrections.** Two input-pair conflicts remain quarantined in the app. Use the [focused research corrections](../research/bbsfm-2026-09-28-coverage-and-gap-research.md#two-meld-corrections-now-corroborated), regenerate the data and validate complete outcome groups before including them.
+- [x] **D01 — Apply corroborated meld corrections.** Corrected and regenerated October 1: 468 complete groups, restored output identities and attached abilities. The exact minimum Ignite level remains a separate narrow question; see [resolution log](../games/bbsfm/research-resolution-2026-10-01.md).
 - [ ] **D02 — Complete command acquisitions.** Finish the catalog/eligibility audit, both shop channels, enemy drops, chest routes and other rewards. “Not documented” must not be interpreted as “impossible to obtain.”
 - [ ] **D03 — Complete drop and location evidence.** Expand the bestiary and exact encounter rooms; verify character and world-versus-Arena exceptions. Resolve precise collectible directions, ordering, sticker placement and the Secret Gem area conflict.
 - [ ] **D04 — Reconcile progression predicates.** Resolve Arena gates/rewards, mission thresholds, episode unlock conditions, achievement aggregation and any remaining finisher-counter uncertainties. Keep shared definitions separate from character-owned progress. See the [scope matrix](../research/bbsfm-category-scope-matrix-2026-09-28.md).

@@ -30,10 +30,10 @@ No blocking product questions remain from this audit. The work below consists of
 | BBS-R04 Tutorial / Secret | Absent | One unnumbered tutorial acquisition; eight BBS Secret Episode chests, separated from 0.2 | **Missing/partial:** Secret Gem Lower-vs-Upper Zone conflict and precise directions |
 | BBS-R05 Stickers | Absent | 60 pickups, 20 per character; FM 20/40/70/110/140 reward tiers | **Missing/partial:** all text directions and optimal placement regions; world table omits Ventus Mine Entrance Balloon |
 | BBS-R06 Reports | Absent | Letter + I–XII, character/event/chest mapping | **Source-inspected:** link acquisitions to existing chest/event IDs; source validation pending |
-| BBS-R07 Melding | Legacy lead | Existing 8,669-line artifact reused; 296 outcomes / 99 result names, levels, character rates, ownership footnotes | **Conflicted:** two aggregate-source rows quarantined; probability audit finds three 200% groups |
+| BBS-R07 Melding | Legacy lead | Existing 8,669-line artifact reused; 296 outcomes / 98 canonical result names, levels, character rates, ownership footnotes | **Integrated October 1:** corrected ingredients/output/spelling; 468 groups total 100%. Minimum Ignite level remains disputed; [resolution log](../games/bbsfm/research-resolution-2026-10-01.md) |
 | BBS-R08 Abilities | Wide old matrix | 112 relationships reused; 30 ability stack caps, 28 meldable | **Missing/partial:** final learning/CP/random-crystal rule checks and source reconciliation |
-| BBS-R09 Materials / farms | Nine materials, blank locations | Prices/gates and conditional Shop-Level drop examples | **Missing/partial:** full enemy-area-character routes, all rate intervals, Lucky Strike formula; Spiderchest/Fleeting disagreement |
-| BBS-R10 Command catalog / acquisition | 150 old rows | 108 command-shop candidates plus recipe/chest/board/reward leads | **Missing/partial:** complete modern catalog, all alternate sources, CP/mastery and HD exclusions; 99 meld results are not catalog completeness |
+| BBS-R09 Materials / farms | Nine materials, blank locations | Prices/gates and conditional Shop-Level drop examples | **Missing/partial:** full enemy-area-character routes, all rate intervals, Lucky Strike formula; Spiderchest/Fleeting conditional drop resolved, accessible routes still open |
+| BBS-R10 Command catalog / acquisition | 150 old rows | 108 command-shop candidates plus recipe/chest/board/reward leads | **Missing/partial:** complete modern catalog, all alternate sources, CP/mastery and HD exclusions; 98 canonical meld results are not catalog completeness |
 | BBS-R11 Keyblades | Absent | 24 forms with scoped stats and acquisition; T16/V15/A15 main plus Aqua episode forms | **Source-inspected/partial:** normalize reach/passives and independent modern roster validation |
 | BBS-R12 Ice cream | Absent | 14 recipes; eight per character; 42 flavor leads; exact per-character ingredient totals | **Missing/partial:** normalized Prize Pod spots/spawn/reset conditions; independent recipe verification |
 | BBS-R13 Finish / D-Link / Style / Shotlock | Scope only | 30 finish definitions normalized into 42 predicate rows; character/parent/metric/target | **Missing/partial:** complete linked acquisition/usage records for the other command families |
@@ -50,7 +50,7 @@ Evidence lives in the [manifest](../games/bbsfm/source-manifest.json) and linked
 |---|---|---|
 | BBS-E01 | Shared stable record state; toggle compact/detail both ways; offline relaunch and character/episode isolation | Not implemented |
 | BBS-E02 | Fixed full-world denominators under search/Remaining filters; no report/chest/reward double-counting; incomplete evidence cannot claim certified 100% | Not implemented |
-| BBS-E03 | Bidirectional meld query by unordered ingredients, minimum levels, character, crystal and previously obtained Shotlocks | Rules drafted; conflicts block certification |
+| BBS-E03 | Bidirectional meld query by unordered ingredients, minimum levels, character, crystal and previously obtained Shotlocks | Solver implemented; corrected meld distributions covered by regression fixtures. Minimum Ignite level remains open. |
 | BBS-E04 | Probability sums and names; conditional ownership reweighting; no abilities on Shotlocks; correct crystal/type join | Candidate audit performed; production calculation fixtures required |
 | BBS-E05 | Optional inventory x/y; duplicate-ingredient quantities; retained action-command copy; consume inputs/material atomically only for recorded actual outcome; exact undo | Not implemented |
 | BBS-E06 | Inventory disabled: reference/calculations fully usable; no implicit balances or progress-gate tracking | Not implemented |
@@ -65,7 +65,7 @@ Strong formula validation is a core melding requirement, not optional UI polish.
 
 ## Next authorized work
 
-1. Resolve quarantined meld rows against independent modern sources, document the resolution and validate all input-pair probability groups and output identities.
+1. Resolve the remaining minimum Ignite level question (Lv1 versus Lv3). The former two input-pair quarantines are corrected and all 468 groups validate; do not reopen their resolved ingredients/output identities.
 2. Complete precise collectible text directions and official-order evidence; resolve missing sticker and Secret Gem area conflicts without inventing facts.
 3. Finish command/Shotlock/D-Link/Style acquisitions, materials/Prize Pods, board panel modes and modern shop exceptions.
 4. Normalize Steam achievements and episode unlock/save aggregation from sources; retain the separation from world collectibles.
@@ -77,3 +77,5 @@ Strong formula validation is a core melding requirement, not optional UI polish.
 - 2026-09-18: Reused the existing melding artifact rather than recreating it; found and quarantined two source defects.
 - 2026-09-18: Added concrete inventories and challenge/acquisition tables; retained honest missing-detail/source gates.
 - 2026-09-18: Applied collectible-only scope, linked checklist state, spoilerific behavior, no availability tracking, opt-in inventory, first-class melding and app-focused Apple testing.
+
+- 2026-10-01: Integrated BBS-007/008/017, narrowed BBS-006 to minimum Ignite level, corrected Archraven Shop 1–4; see the per-game resolution log.

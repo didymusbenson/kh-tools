@@ -69,3 +69,7 @@ Units are Moogle Points. A newly generated shop grants a free Attack Pack: Grass
 ## App implications
 
 Room Synthesis is a card-consuming room system, not material crafting. There is no justification for grafting KH1 synthesis recipes onto this game. Optional card inventory needs identity, value, Premium status and count; historical discovery must survive spending/selling. A room-key or deck planner can become useful after cost rules are verified, but this research does not authorize implementing a speculative optimizer.
+
+## October 1 edition clarification
+
+Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). The copied mushroom research caveat was removed from 28 ordinary enemy entries; actual White Mushroom/Black Fungus conditions and encounter-route footnotes remain open.

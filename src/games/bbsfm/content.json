@@ -15668,9 +15668,10 @@
       "name": "Shimmering Crystal",
       "character": "Terra",
       "summary": "Mirage Arena · 300 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 2–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15688,9 +15689,13 @@
       "name": "Fleeting Crystal",
       "character": "Terra",
       "summary": "Mirage Arena · 350 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Spiderchest 3.6% (Shop Lv 1–2 only). Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Sonic_Blaster",
+        "https://www.khwiki.com/Chrono_Twister",
+        "https://www.khwiki.com/Thornbite",
+        "https://www.khwiki.com/Spiderchest"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15699,6 +15704,12 @@
           "rate": "Conditional",
           "location": "Mirage Arena",
           "details": "350 medals; shop level 1, Arena level 1."
+        },
+        {
+          "enemy": "Spiderchest",
+          "rate": "3.6% (Shop Lv 1–2 only)",
+          "location": "Character-specific route not indexed",
+          "details": "Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed."
         }
       ]
     },
@@ -15710,7 +15721,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Wild Bruiser 21.6%; other enemy rates vary by shop level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Wild_Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15730,7 +15742,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Scrapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15750,7 +15763,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15770,7 +15784,8 @@
       "summary": "Mirage Arena · 350 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15790,7 +15805,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 4, Arena level 1. Axe Flapper 14.4%; Mandrake 4.8% at shop 5–6, 7.6% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Axe_Flapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15810,7 +15826,8 @@
       "summary": "Mirage Arena · 500 medals",
       "instructions": "Medal shop: shop level 5, Arena level 10. Archraven 0.3% at shop 7–8. Attaches a random ability. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15830,7 +15847,8 @@
       "summary": "Mirage Arena · 1500 medals",
       "instructions": "Medal shop: shop level 8, Arena level 15. Flood 0.04% at shop 7–8. Random ability and maximizes result level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15848,9 +15866,10 @@
       "name": "Shimmering Crystal",
       "character": "Ventus",
       "summary": "Mirage Arena · 300 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 2–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15868,9 +15887,13 @@
       "name": "Fleeting Crystal",
       "character": "Ventus",
       "summary": "Mirage Arena · 350 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Spiderchest 3.6% (Shop Lv 1–2 only). Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Sonic_Blaster",
+        "https://www.khwiki.com/Chrono_Twister",
+        "https://www.khwiki.com/Thornbite",
+        "https://www.khwiki.com/Spiderchest"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15879,6 +15902,12 @@
           "rate": "Conditional",
           "location": "Mirage Arena",
           "details": "350 medals; shop level 1, Arena level 1."
+        },
+        {
+          "enemy": "Spiderchest",
+          "rate": "3.6% (Shop Lv 1–2 only)",
+          "location": "Character-specific route not indexed",
+          "details": "Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed."
         }
       ]
     },
@@ -15890,7 +15919,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Wild Bruiser 21.6%; other enemy rates vary by shop level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Wild_Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15910,7 +15940,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Scrapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15930,7 +15961,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15950,7 +15982,8 @@
       "summary": "Mirage Arena · 350 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15970,7 +16003,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 4, Arena level 1. Axe Flapper 14.4%; Mandrake 4.8% at shop 5–6, 7.6% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Axe_Flapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -15990,7 +16024,8 @@
       "summary": "Mirage Arena · 500 medals",
       "instructions": "Medal shop: shop level 5, Arena level 10. Archraven 0.3% at shop 7–8. Attaches a random ability. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16010,7 +16045,8 @@
       "summary": "Mirage Arena · 1500 medals",
       "instructions": "Medal shop: shop level 8, Arena level 15. Flood 0.04% at shop 7–8. Random ability and maximizes result level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16028,9 +16064,10 @@
       "name": "Shimmering Crystal",
       "character": "Aqua",
       "summary": "Mirage Arena · 300 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 2–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16048,9 +16085,13 @@
       "name": "Fleeting Crystal",
       "character": "Aqua",
       "summary": "Mirage Arena · 350 medals",
-      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
+      "instructions": "Medal shop: shop level 1, Arena level 1. Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8. Spiderchest 3.6% (Shop Lv 1–2 only). Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Sonic_Blaster",
+        "https://www.khwiki.com/Chrono_Twister",
+        "https://www.khwiki.com/Thornbite",
+        "https://www.khwiki.com/Spiderchest"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16059,6 +16100,12 @@
           "rate": "Conditional",
           "location": "Mirage Arena",
           "details": "350 medals; shop level 1, Arena level 1."
+        },
+        {
+          "enemy": "Spiderchest",
+          "rate": "3.6% (Shop Lv 1–2 only)",
+          "location": "Character-specific route not indexed",
+          "details": "Absent from the Shop Lv 3–8 drop tables. This is a conditional enemy drop, not a route available to every character; character-specific encounters at Shop Lv 1–2 are not yet indexed."
         }
       ]
     },
@@ -16070,7 +16117,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Wild Bruiser 21.6%; other enemy rates vary by shop level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Wild_Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16090,7 +16138,8 @@
       "summary": "Mirage Arena · 300 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Scrapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16110,7 +16159,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16130,7 +16180,8 @@
       "summary": "Mirage Arena · 350 medals",
       "instructions": "Medal shop: shop level 1, Arena level 1. Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Bruiser"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16150,7 +16201,8 @@
       "summary": "Mirage Arena · 400 medals",
       "instructions": "Medal shop: shop level 4, Arena level 1. Axe Flapper 14.4%; Mandrake 4.8% at shop 5–6, 7.6% at 7–8. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Axe_Flapper"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16170,7 +16222,8 @@
       "summary": "Mirage Arena · 500 medals",
       "instructions": "Medal shop: shop level 5, Arena level 10. Archraven 0.3% at shop 7–8. Attaches a random ability. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Archraven"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -16190,7 +16243,8 @@
       "summary": "Mirage Arena · 1500 medals",
       "instructions": "Medal shop: shop level 8, Arena level 15. Flood 0.04% at shop 7–8. Random ability and maximizes result level. Rates refer to shop level, not enemy level. Exact enemy farm areas remain unverified.",
       "sources": [
-        "https://www.khwiki.com/Game:Mirage_Arena"
+        "https://www.khwiki.com/Game:Mirage_Arena",
+        "https://www.khwiki.com/Flood"
       ],
       "world": "Mirage Arena",
       "drops": [
@@ -18777,14 +18831,13 @@
       "id": "bbsfm:bestiary:archraven",
       "category": "bestiary",
       "name": "Archraven",
-      "summary": "Shimmering Crystal: 2.4% at Shop 2–4, 3% at 5–6; Chaos Crystal: 0.3% at 7–8.",
+      "summary": "Shimmering Crystal: 2.4% at Shop 1–4, 3% at 5–6; Chaos Crystal: 0.3% at 7–8.",
       "instructions": "Rate bands are Shop Levels, not enemy or character levels. This is a material-source reference, not a complete enemy catalog.",
       "uncertainty": "Exact spawn rooms are not yet documented.",
       "checkable": false,
       "collectible": false,
       "sources": [
-        "https://www.khwiki.com/Shimmering",
-        "https://www.khwiki.com/Chaos"
+        "https://www.khwiki.com/Archraven"
       ]
     },
     {
@@ -18935,13 +18988,13 @@
       "id": "bbsfm:bestiary:spiderchest",
       "category": "bestiary",
       "name": "Spiderchest",
-      "summary": "Shimmering Crystal: 3.6% at 1–2, 4.8% at 3–8.",
+      "summary": "Shimmering Crystal: 3.6% at 1–2, 4.8% at 3–8; Fleeting Crystal: 3.6% at 1–2 only.",
       "instructions": "Rate bands are Shop Levels, not enemy or character levels. This is a material-source reference, not a complete enemy catalog.",
       "uncertainty": "Exact spawn rooms are not yet documented.",
       "checkable": false,
       "collectible": false,
       "sources": [
-        "https://www.khwiki.com/Shimmering"
+        "https://www.khwiki.com/Spiderchest"
       ]
     },
     {
@@ -22280,6 +22333,57 @@
       ]
     },
     {
+      "id": "bbsfm:terra:meld:aerora-3-ignite-3",
+      "name": "Mine Square",
+      "character": "Terra",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Ignite level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Mine Square 100%. Mine Square: type E; Shimmering Crystal: Fire Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Leaf Bracer, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: HP Prize Plus, Abounding Crystal: Link Prize Plus.  This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved. An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:terra:material:aerora",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:terra:material:ignite",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:aerora-3-ignite-3",
+      "name": "Mine Square",
+      "character": "Ventus",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Ignite level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Mine Square 100%. Mine Square: type E; Shimmering Crystal: Fire Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Leaf Bracer, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: HP Prize Plus, Abounding Crystal: Link Prize Plus.  This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved. An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:ventus:material:aerora",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:ventus:material:ignite",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:aerora-3-ignite-3",
+      "name": "Mine Square",
+      "character": "Aqua",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Ignite level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Mine Square 100%. Mine Square: type E; Shimmering Crystal: Fire Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Leaf Bracer, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: HP Prize Plus, Abounding Crystal: Link Prize Plus.  This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved. An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:aqua:material:aerora",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:aqua:material:ignite",
+          "quantity": 1
+        }
+      ]
+    },
+    {
       "id": "bbsfm:terra:meld:ignite-3-stop-3",
       "name": "Mine Shield",
       "character": "Terra",
@@ -23964,10 +24068,10 @@
     },
     {
       "id": "bbsfm:terra:meld:confuse-2-quick-blitz-2",
-      "name": "Confusing Strike",
+      "name": "Confusion Strike",
       "character": "Terra",
       "group": "Command melding",
-      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusing Strike 100%. Confusing Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusion Strike 100%. Confusion Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
       "ingredients": [
         {
           "id": "bbsfm:terra:material:confuse",
@@ -23981,10 +24085,10 @@
     },
     {
       "id": "bbsfm:ventus:meld:confuse-2-quick-blitz-2",
-      "name": "Confusing Strike",
+      "name": "Confusion Strike",
       "character": "Ventus",
       "group": "Command melding",
-      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusing Strike 100%. Confusing Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusion Strike 100%. Confusion Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
       "ingredients": [
         {
           "id": "bbsfm:ventus:material:confuse",
@@ -23998,10 +24102,10 @@
     },
     {
       "id": "bbsfm:aqua:meld:confuse-2-quick-blitz-2",
-      "name": "Confusing Strike",
+      "name": "Confusion Strike",
       "character": "Aqua",
       "group": "Command melding",
-      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusing Strike 100%. Confusing Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "instructions": "Confuse level 2 + Quick Blitz level 2. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Confusion Strike 100%. Confusion Strike: type H; Shimmering Crystal: Dark Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Air Combo Plus, Soothing Crystal: Item Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
       "ingredients": [
         {
           "id": "bbsfm:aqua:material:confuse",
@@ -25080,6 +25184,57 @@
         },
         {
           "id": "bbsfm:aqua:material:thunder",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:terra:meld:magnera-3-stun-edge-3",
+      "name": "Collision Magnet / Magnet Spiral",
+      "character": "Terra",
+      "group": "Command melding",
+      "instructions": "Magnera level 3 + Stun Edge level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Collision Magnet 80%; Magnet Spiral 20%. Collision Magnet: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  Magnet Spiral: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:terra:material:magnera",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:terra:material:stun-edge",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:magnera-3-stun-edge-3",
+      "name": "Collision Magnet / Magnet Spiral",
+      "character": "Ventus",
+      "group": "Command melding",
+      "instructions": "Magnera level 3 + Stun Edge level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Collision Magnet 80%; Magnet Spiral 20%. Collision Magnet: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  Magnet Spiral: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:ventus:material:magnera",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:ventus:material:stun-edge",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:magnera-3-stun-edge-3",
+      "name": "Collision Magnet / Magnet Spiral",
+      "character": "Aqua",
+      "group": "Command melding",
+      "instructions": "Magnera level 3 + Stun Edge level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Collision Magnet 80%; Magnet Spiral 20%. Collision Magnet: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  Magnet Spiral: type K; Shimmering Crystal: Thunder Screen, Fleeting Crystal: Attack Haste, Pulsing Crystal: Finish Boost, Wellspring Crystal: Combo Plus, Soothing Crystal: HP Boost, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:aqua:material:magnera",
+          "quantity": 1
+        },
+        {
+          "id": "bbsfm:aqua:material:stun-edge",
           "quantity": 1
         }
       ]
@@ -27071,7 +27226,46 @@
           "quantity": 1
         }
       ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:aerora-3-aerora-3",
+      "name": "Aeroga / Tornado",
+      "character": "Ventus",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Aerora level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Aeroga 90%; Tornado 10%. Aeroga: type P; Shimmering Crystal: Cure Boost, Fleeting Crystal: Reload Boost, Pulsing Crystal: Second Chance, Wellspring Crystal: Combo Plus, Soothing Crystal: Defender, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  Tornado: type P; Shimmering Crystal: Cure Boost, Fleeting Crystal: Reload Boost, Pulsing Crystal: Second Chance, Wellspring Crystal: Combo Plus, Soothing Crystal: Defender, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:ventus:material:aerora",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:terra:meld:aerora-3-aerora-3",
+      "name": "Aeroga",
+      "character": "Terra",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Aerora level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Aeroga 100%. Aeroga: type P; Shimmering Crystal: Cure Boost, Fleeting Crystal: Reload Boost, Pulsing Crystal: Second Chance, Wellspring Crystal: Combo Plus, Soothing Crystal: Defender, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:terra:material:aerora",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:aerora-3-aerora-3",
+      "name": "Aeroga",
+      "character": "Aqua",
+      "group": "Command melding",
+      "instructions": "Aerora level 3 + Aerora level 3. One attempt consumes both inputs; keep an extra copy of movement/defense commands. Outcomes: Aeroga 100%. Aeroga: type P; Shimmering Crystal: Cure Boost, Fleeting Crystal: Reload Boost, Pulsing Crystal: Second Chance, Wellspring Crystal: Combo Plus, Soothing Crystal: Defender, Hungry Crystal: Treasure Magnet, Abounding Crystal: Lucky Strike.  An optional crystal is not included in these input targets. The menu Recipe item is not required. Recording a check does not simulate a successful outcome.",
+      "ingredients": [
+        {
+          "id": "bbsfm:aqua:material:aerora",
+          "quantity": 2
+        }
+      ]
     }
   ],
-  "coverage": "Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Melding excludes both conflicted input pairs; probabilities describe attempts, not guaranteed results. Steam lists 34 verified public goals here; hidden goals and exact save aggregation remain incomplete. Bestiary is a partial crystal-drop reference; full challenge/command/enemy catalogs are not yet certified."
+  "coverage": "Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. Steam lists 34 verified public goals here; hidden goals and exact save aggregation remain incomplete. Bestiary is a partial crystal-drop reference; full challenge/command/enemy catalogs are not yet certified."
 }

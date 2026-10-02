@@ -51,6 +51,8 @@ Dark Mode activates after the battle's DP buildup reaches the activation conditi
 
 The [Sleight source](https://www.khwiki.com/Sleight) requires at least eight reloadable cards to initiate a duel and describes matching an enemy card followed by the duel prompt, or using Duel Trigger. Enemy-specific timers and practical boss strategies remain to be normalized. The 13 listed move names must not inflate Sora's Sleight Master goal.
 
+October 1: these form rules, early-story unlock context and duel initiation requirements now propagate to all 13 structured/runtime sleight entries. COM-019 is closed; enemy-specific timers remain open. See [resolution log](research-resolution-2026-10-01.md).
+
 ## Product implications
 
 Use **D-Report** terminology for Riku, retain campaign-specific checks and last-view state, and expose shared reference definitions with scoped acquisitions. A campaign toggle is a content/state boundary, not a cosmetic skin.

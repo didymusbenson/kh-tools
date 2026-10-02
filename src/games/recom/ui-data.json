@@ -2804,7 +2804,7 @@
           "25"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Shadow",
@@ -2849,7 +2849,7 @@
           "15"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Twilight Town Neverland.",
+      "instructions": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Twilight Town Neverland.",
       "drops": [
         {
           "enemy": "Soldier",
@@ -2894,7 +2894,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum.",
+      "instructions": "Target must be final enemy defeated. Worlds: Olympus Coliseum.",
       "drops": [
         {
           "enemy": "Powerwild",
@@ -2936,7 +2936,7 @@
           "10"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum.",
+      "instructions": "Target must be final enemy defeated. Worlds: Olympus Coliseum.",
       "drops": [
         {
           "enemy": "Bouncywild",
@@ -2978,7 +2978,7 @@
           "40"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Olympus Coliseum, Monstro.",
+      "instructions": "Target must be final enemy defeated. Worlds: Wonderland, Olympus Coliseum, Monstro.",
       "drops": [
         {
           "enemy": "Large Body",
@@ -3020,7 +3020,7 @@
           "40"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah.",
+      "instructions": "Target must be final enemy defeated. Worlds: Agrabah.",
       "drops": [
         {
           "enemy": "Fat Bandit",
@@ -3062,7 +3062,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica.",
+      "instructions": "Target must be final enemy defeated. Worlds: Atlantica.",
       "drops": [
         {
           "enemy": "Sea Neon",
@@ -3104,7 +3104,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah.",
+      "instructions": "Target must be final enemy defeated. Worlds: Agrabah.",
       "drops": [
         {
           "enemy": "Bandit",
@@ -3146,7 +3146,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland.",
+      "instructions": "Target must be final enemy defeated. Worlds: Neverland.",
       "drops": [
         {
           "enemy": "Pirate",
@@ -3188,7 +3188,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Red Nocturne",
@@ -3230,7 +3230,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Olympus Coliseum, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Traverse Town, Olympus Coliseum, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Blue Rhapsody",
@@ -3272,7 +3272,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Neverland, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Neverland, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Yellow Opera",
@@ -3314,7 +3314,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Green Requiem",
@@ -3356,7 +3356,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Wizard",
@@ -3398,7 +3398,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Agrabah, Monstro, Twilight Town.",
+      "instructions": "Target must be final enemy defeated. Worlds: Agrabah, Monstro, Twilight Town.",
       "drops": [
         {
           "enemy": "Air Soldier",
@@ -3440,7 +3440,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands.",
+      "instructions": "Target must be final enemy defeated. Worlds: Olympus Coliseum, Agrabah, Monstro, Neverland, Twilight Town, Destiny Islands.",
       "drops": [
         {
           "enemy": "Barrel Spider",
@@ -3482,7 +3482,7 @@
           "15"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town.",
+      "instructions": "Target must be final enemy defeated. Worlds: Halloween Town.",
       "drops": [
         {
           "enemy": "Wight Knight",
@@ -3524,7 +3524,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Neverland.",
+      "instructions": "Target must be final enemy defeated. Worlds: Neverland.",
       "drops": [
         {
           "enemy": "Air Pirate",
@@ -3566,7 +3566,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Halloween Town.",
+      "instructions": "Target must be final enemy defeated. Worlds: Halloween Town.",
       "drops": [
         {
           "enemy": "Gargoyle",
@@ -3608,7 +3608,7 @@
           "35"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Halloween Town, Atlantica.",
+      "instructions": "Target must be final enemy defeated. Worlds: Monstro, Halloween Town, Atlantica.",
       "drops": [
         {
           "enemy": "Search Ghost",
@@ -3650,7 +3650,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica.",
+      "instructions": "Target must be final enemy defeated. Worlds: Atlantica.",
       "drops": [
         {
           "enemy": "Aquatank",
@@ -3692,7 +3692,7 @@
           "15"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Atlantica.",
+      "instructions": "Target must be final enemy defeated. Worlds: Atlantica.",
       "drops": [
         {
           "enemy": "Screwdiver",
@@ -3737,7 +3737,7 @@
           "20"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Wyvern",
@@ -3782,7 +3782,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Hollow Bastion, Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Hollow Bastion, Castle Oblivion.",
       "drops": [
         {
           "enemy": "Defender",
@@ -3908,7 +3908,7 @@
           "35"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Halloween Town, Destiny Islands.",
+      "instructions": "Target must be final enemy defeated. Worlds: Wonderland, Halloween Town, Destiny Islands.",
       "drops": [
         {
           "enemy": "Creeper Plant",
@@ -3953,7 +3953,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Monstro, Hollow Bastion, Destiny Islands.",
+      "instructions": "Target must be final enemy defeated. Worlds: Monstro, Hollow Bastion, Destiny Islands.",
       "drops": [
         {
           "enemy": "Tornado Step",
@@ -3998,7 +3998,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Wonderland, Neverland, Destiny Islands.",
+      "instructions": "Target must be final enemy defeated. Worlds: Wonderland, Neverland, Destiny Islands.",
       "drops": [
         {
           "enemy": "Crescendo",
@@ -4043,7 +4043,7 @@
           "30"
         ]
       ],
-      "instructions": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Castle Oblivion.",
+      "instructions": "Target must be final enemy defeated. Worlds: Castle Oblivion.",
       "drops": [
         {
           "enemy": "Neoshadow",
@@ -4471,11 +4471,12 @@
       "name": "Ansem",
       "category": "cards",
       "campaign": "sora",
-      "summary": "Resists fire, ice and lightning.",
+      "summary": "In Re:CoM, grants resistance to fire, ice and lightning only.",
       "checkable": true,
       "collectible": false,
       "sources": [
-        "https://www.khwiki.com/Enemy_Card"
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Sleightblind"
       ],
       "family": "enemy",
       "stats": [
@@ -9619,10 +9620,15 @@
       ],
       "family": "attack",
       "instructions": "Soul Eater + Soul Eater + Soul Eater (5-15)",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9639,10 +9645,15 @@
       ],
       "family": "attack",
       "instructions": "Soul Eater + Soul Eater + Soul Eater (16-25)",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9659,10 +9670,15 @@
       ],
       "family": "attack",
       "instructions": "Soul Eater + Soul Eater + Soul Eater (27)",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9679,10 +9695,15 @@
       ],
       "family": "friend",
       "instructions": "The King + The King",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal or Dark Mode.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal or Dark Mode."
         ]
       ]
     },
@@ -9699,10 +9720,15 @@
       ],
       "family": "friend",
       "instructions": "The King + The King + The King",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal or Dark Mode.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal or Dark Mode."
         ]
       ]
     },
@@ -9715,14 +9741,20 @@
       "checkable": true,
       "collectible": false,
       "sources": [
-        "https://www.khwiki.com/Sleight"
+        "https://www.khwiki.com/Sleight",
+        "https://www.khwiki.com/Holy_Burst"
       ],
       "family": "friend",
       "instructions": "The King + Soul Eater + Soul Eater",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal Mode only.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal Mode only."
         ]
       ]
     },
@@ -9735,14 +9767,20 @@
       "checkable": true,
       "collectible": false,
       "sources": [
-        "https://www.khwiki.com/Sleight"
+        "https://www.khwiki.com/Sleight",
+        "https://www.khwiki.com/Holy_Burst"
       ],
       "family": "friend",
       "instructions": "The King + Soul Eater + Soul Eater",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9759,10 +9797,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break three cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal Mode only."
         ]
       ]
     },
@@ -9779,10 +9822,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break three cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9799,10 +9847,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break five cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal Mode only."
         ]
       ]
     },
@@ -9819,10 +9872,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break five cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },
@@ -9839,10 +9897,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break seven cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Normal Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Normal Mode only."
         ]
       ]
     },
@@ -9859,10 +9922,15 @@
       ],
       "family": "duel",
       "instructions": "Win a duel that requires you to break seven cards.",
+      "prerequisites": "Available after leaving Hollow Bastion and meeting Ansem and the King. Dark Mode only. Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "stats": [
         [
           "Use",
           "Combat"
+        ],
+        [
+          "Mode",
+          "Dark Mode only."
         ]
       ]
     },

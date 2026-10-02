@@ -2837,7 +2837,7 @@
       "recipe_type": "E",
       "command_1": "Aerora",
       "command_1_level": 3,
-      "command_2": "Aerora",
+      "command_2": "Ignite",
       "command_2_level": 3,
       "result": "Mine Square",
       "success_rate_display": "100%",
@@ -2863,7 +2863,22 @@
         "Abounding Crystal": "Link Prize Plus"
       },
       "footnotes": [],
-      "audit_status": "quarantined-source-conflict"
+      "audit_status": "corrected-source-backed",
+      "correction": {
+        "reviewed": "2026-10-01",
+        "original_values": {
+          "command_2": "Aerora"
+        },
+        "sources": [
+          "https://www.khwiki.com/Mine_Square",
+          "https://www.destinyislands.com/bbs-fm/melding/magic-commands/",
+          "https://guiding-key.tumblr.com/khbbs-abilities"
+        ],
+        "remaining_question": "Minimum Ignite level: KHWiki lists Lv3; guiding-key FM guide lists Lv1; Destiny Islands omits the level."
+      },
+      "notes": [
+        "This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved."
+      ]
     },
     {
       "recipe_type": "E",
@@ -4326,7 +4341,7 @@
       "command_1_level": 2,
       "command_2": "Confuse",
       "command_2_level": 2,
-      "result": "Confusing Strike",
+      "result": "Confusion Strike",
       "success_rate_display": "100%",
       "success_rate_percent_by_character": {
         "Terra": 100,
@@ -4349,7 +4364,18 @@
         "Hungry Crystal": "Treasure Magnet",
         "Abounding Crystal": "Lucky Strike"
       },
-      "footnotes": []
+      "footnotes": [],
+      "correction": {
+        "reviewed": "2026-10-01",
+        "original_values": {
+          "result": "Confusing Strike"
+        },
+        "sources": [
+          "https://www.khwiki.com/Confusion_Strike",
+          "https://www.destinyislands.com/bbs-fm/melding/attack-commands/"
+        ]
+      },
+      "audit_status": "corrected-source-backed"
     },
     {
       "recipe_type": "H",
@@ -5534,7 +5560,7 @@
       "command_1_level": 3,
       "command_2": "Magnera",
       "command_2_level": 3,
-      "result": "Collision Magnet",
+      "result": "Magnet Spiral",
       "success_rate_display": "20%",
       "success_rate_percent_by_character": {
         "Terra": 20,
@@ -5558,7 +5584,17 @@
         "Abounding Crystal": "Lucky Strike"
       },
       "footnotes": [],
-      "audit_status": "quarantined-source-conflict"
+      "audit_status": "corrected-source-backed",
+      "correction": {
+        "reviewed": "2026-10-01",
+        "original_values": {
+          "result": "Collision Magnet"
+        },
+        "sources": [
+          "https://www.khwiki.com/Magnet_Spiral",
+          "https://www.destinyislands.com/bbs-fm/melding/attack-commands/"
+        ]
+      }
     },
     {
       "recipe_type": "K",
@@ -8669,18 +8705,20 @@
     }
   ],
   "audit": {
-    "date": "2026-09-18",
-    "status": "candidate; not production-certified",
+    "date": "2026-10-01",
+    "status": "source-backed reference with three documented corrections; not a complete command/acquisition audit",
     "input_library_file_id": "libfile_6b305649aa108191afefdb5d34338d14",
     "input_sha256": "7027091fb216f7329383f87855c0035474a51462a6a377b341eeccda98ca03b5",
     "input_outcome_rows": 296,
-    "distinct_result_names": 99,
+    "distinct_result_names": 98,
     "matrix_relationships": 112,
-    "conflict_rows_zero_based": [
+    "conflict_rows_zero_based": [],
+    "source_review": "Ingredient/result/name corrections integrated; original field values and sources retained per row. Mine Square minimum Ignite level remains a specific open question. See research-resolution-2026-10-01.md.",
+    "probability_audit": "468 character/input/level groups after correction; all base-rate groups total 100%. Validates distributions, not all underlying facts.",
+    "corrected_rows_zero_based": [
       90,
+      140,
       182
-    ],
-    "source_review": "Live Command_Meld reproduces both errors; individual Mine_Square and Magnet_Spiral pages disagree. See melding-and-abilities.md.",
-    "probability_audit": "465 character/input/level groups; 3 total 200% (Aerora + Aerora, one per character). All other base-rate groups total 100%. No in-game verification."
+    ]
   }
 }

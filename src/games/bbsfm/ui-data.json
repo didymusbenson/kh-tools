@@ -7011,6 +7011,108 @@
       ]
     },
     {
+      "id": "bbsfm:terra:meld:aerora-3-ignite-3",
+      "character": "Terra",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Ignite",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Mine Square",
+          "rate": 100,
+          "type": "E",
+          "abilities": {
+            "Shimmering Crystal": "Fire Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Leaf Bracer",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "HP Prize Plus",
+            "Abounding Crystal": "Link Prize Plus"
+          },
+          "attachable": true,
+          "notes": [
+            "This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:aerora-3-ignite-3",
+      "character": "Ventus",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Ignite",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Mine Square",
+          "rate": 100,
+          "type": "E",
+          "abilities": {
+            "Shimmering Crystal": "Fire Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Leaf Bracer",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "HP Prize Plus",
+            "Abounding Crystal": "Link Prize Plus"
+          },
+          "attachable": true,
+          "notes": [
+            "This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:aerora-3-ignite-3",
+      "character": "Aqua",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Ignite",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Mine Square",
+          "rate": 100,
+          "type": "E",
+          "abilities": {
+            "Shimmering Crystal": "Fire Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Leaf Bracer",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "HP Prize Plus",
+            "Abounding Crystal": "Link Prize Plus"
+          },
+          "attachable": true,
+          "notes": [
+            "This documented recipe uses Ignite Lv3; eligibility at Lv1–2 remains unresolved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "bbsfm:terra:meld:ignite-3-stop-3",
       "character": "Terra",
       "inputs": [
@@ -12791,6 +12893,150 @@
       ]
     },
     {
+      "id": "bbsfm:terra:meld:magnera-3-stun-edge-3",
+      "character": "Terra",
+      "inputs": [
+        {
+          "name": "Magnera",
+          "level": 3
+        },
+        {
+          "name": "Stun Edge",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Collision Magnet",
+          "rate": 80,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        },
+        {
+          "name": "Magnet Spiral",
+          "rate": 20,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:magnera-3-stun-edge-3",
+      "character": "Ventus",
+      "inputs": [
+        {
+          "name": "Magnera",
+          "level": 3
+        },
+        {
+          "name": "Stun Edge",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Collision Magnet",
+          "rate": 80,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        },
+        {
+          "name": "Magnet Spiral",
+          "rate": 20,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:magnera-3-stun-edge-3",
+      "character": "Aqua",
+      "inputs": [
+        {
+          "name": "Magnera",
+          "level": 3
+        },
+        {
+          "name": "Stun Edge",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Collision Magnet",
+          "rate": 80,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        },
+        {
+          "name": "Magnet Spiral",
+          "rate": 20,
+          "type": "K",
+          "abilities": {
+            "Shimmering Crystal": "Thunder Screen",
+            "Fleeting Crystal": "Attack Haste",
+            "Pulsing Crystal": "Finish Boost",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "HP Boost",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "bbsfm:terra:meld:block-1-stun-edge-3",
       "character": "Terra",
       "inputs": [
@@ -17218,6 +17464,118 @@
       "outcomes": [
         {
           "name": "Tornado",
+          "rate": 100,
+          "type": "P",
+          "abilities": {
+            "Shimmering Crystal": "Cure Boost",
+            "Fleeting Crystal": "Reload Boost",
+            "Pulsing Crystal": "Second Chance",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "Defender",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:ventus:meld:aerora-3-aerora-3",
+      "character": "Ventus",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Aerora",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Aeroga",
+          "rate": 90,
+          "type": "P",
+          "abilities": {
+            "Shimmering Crystal": "Cure Boost",
+            "Fleeting Crystal": "Reload Boost",
+            "Pulsing Crystal": "Second Chance",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "Defender",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        },
+        {
+          "name": "Tornado",
+          "rate": 10,
+          "type": "P",
+          "abilities": {
+            "Shimmering Crystal": "Cure Boost",
+            "Fleeting Crystal": "Reload Boost",
+            "Pulsing Crystal": "Second Chance",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "Defender",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:terra:meld:aerora-3-aerora-3",
+      "character": "Terra",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Aerora",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Aeroga",
+          "rate": 100,
+          "type": "P",
+          "abilities": {
+            "Shimmering Crystal": "Cure Boost",
+            "Fleeting Crystal": "Reload Boost",
+            "Pulsing Crystal": "Second Chance",
+            "Wellspring Crystal": "Combo Plus",
+            "Soothing Crystal": "Defender",
+            "Hungry Crystal": "Treasure Magnet",
+            "Abounding Crystal": "Lucky Strike"
+          },
+          "attachable": true,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "bbsfm:aqua:meld:aerora-3-aerora-3",
+      "character": "Aqua",
+      "inputs": [
+        {
+          "name": "Aerora",
+          "level": 3
+        },
+        {
+          "name": "Aerora",
+          "level": 3
+        }
+      ],
+      "outcomes": [
+        {
+          "name": "Aeroga",
           "rate": 100,
           "type": "P",
           "abilities": {

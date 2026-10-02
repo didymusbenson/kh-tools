@@ -6,8 +6,8 @@ There are nine legacy material entries: seven deterministic ability crystals, Ch
 
 | Material | Medal cost / gate | Inspected drop examples | Source |
 |---|---|---|---|
-| Shimmering Crystal | 300; Shop 1, Arena 1 | Blobmob 12%; Archraven 2.4% at Shop 2–4, 3% at 5–6; Spiderchest 3.6% at 1–2, 4.8% at 3–8 | [Shimmering](https://www.khwiki.com/Shimmering) |
-| Fleeting Crystal | 350; Shop 1, Arena 1 | Chrono Twister 12%; Sonic Blaster 7.2% at 5–6, 11.4% at 7–8; Thornbite 4.8% at 1–2, 6% at 3–5, 11.4% at 6–8 | [Fleeting](https://www.khwiki.com/Fleeting) |
+| Shimmering Crystal | 300; Shop 1, Arena 1 | Blobmob 12%; Archraven 2.4% at Shop 1–4, 3% at 5–6; Spiderchest 3.6% at 1–2, 4.8% at 3–8 | [Shimmering](https://www.khwiki.com/Shimmering) |
+| Fleeting Crystal | 350; Shop 1, Arena 1 | Chrono Twister 12%; Sonic Blaster 7.2% at 5–6, 11.4% at 7–8; Thornbite 4.8% at 1–2, 6% at 3–5, 11.4% at 6–8; Spiderchest 3.6% at 1–2 only | [Fleeting](https://www.khwiki.com/Fleeting), [Spiderchest](https://www.khwiki.com/Spiderchest) |
 | Pulsing Crystal | 300; Shop 1, Arena 1 | Wild Bruiser 21.6%; Bruiser, Tank Toppler and Buckle Bruiser have level-dependent rates | [Pulsing](https://www.khwiki.com/Pulsing) |
 | Wellspring Crystal | 300; Shop 1, Arena 1 | Scrapper 1.8% at 1–2, 3% at 3–8; Triple Wrecker 10.8% | [Wellspring](https://www.khwiki.com/Wellspring) |
 | Soothing Crystal | 400; Shop 1, Arena 1 | Flood 4% at 1–6, 3.96% at 7–8; Jellyshade 3.2% | [Soothing](https://www.khwiki.com/Soothing) |
@@ -15,6 +15,8 @@ There are nine legacy material entries: seven deterministic ability crystals, Ch
 | Abounding Crystal | 400; Shop 4, Arena 1 | Axe Flapper 14.4%; Mandrake 4.8% at 5–6, 7.6% at 7–8 | [Abounding](https://www.khwiki.com/Abounding) |
 | Chaos Crystal | 500; Shop 5, Arena 10 | Archraven 0.3% at 7–8; also first Fantastic on Destiny Islands Master in Ice Cream Beat | [Chaos](https://www.khwiki.com/Chaos) |
 | Secret Gem | 1,500; Shop 8, Arena 15 | Flood 0.04% at 7–8; Secret Episode chest has an area conflict | [Secret Gem](https://www.khwiki.com/Secret_Gem) |
+
+October 1 correction: Spiderchest’s Fleeting drop is present only at Shop Levels 1–2; a character-specific accessible farming route is still open. The Archraven enemy table establishes Shimmering’s first band as Shop 1–4, superseding the older 2–4 transcription. See [the resolution log](research-resolution-2026-10-01.md).
 
 Medal gates: [Mirage Arena shop](https://www.khwiki.com/Game:Mirage_Arena). Chaos attaches a random ability; Secret Gem also maximizes the resulting command's level. Keep their distributions separate from the seven standard crystal/type mappings. Lucky Strike has a five-stack cap; the quantitative adjusted drop formula and enemy-world-area routes remain unverified. Do not label an unmeasured route “best.”
 

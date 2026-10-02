@@ -6,16 +6,16 @@ The full KHBBS workbook was read, including blank tails: `command_melding!A1:Y99
 
 The existing `khbbs_command_melding_reference.json` was read in full (8,669 lines / 249,601 bytes). Its 296 outcome rows and 16×7 matrix are reused in [the audited copy](melding-reference.json). No Library original was changed. The repository seed/UI were also read: the seed reproduces the old wide model; the script builds source-command lists, and the page is an unfinished melding mockup. Neither proves a working solver.
 
-## Source conflicts that block trustworthy answers
+## Source conflicts and current resolutions
 
 | ID | Finding | Required treatment |
 |---|---|---|
 | BBS-MELD-01 | Legacy recipe letters differ from the current reference. Legacy B maps to current M; legacy E maps to current B. Legacy G uses “Luck Boost.” | Treat type labels as source-local IDs. Never mix the old recipe rows with the new ability matrix. Preserve original labels for provenance. |
-| BBS-MELD-02 | [Command Meld](https://www.khwiki.com/Command_Meld) and the user reference claim Aerora 3 + Aerora 3 → Mine Square, alongside Aeroga/Tornado outcomes. That yields 200% per character. [Mine Square](https://www.khwiki.com/Mine_Square) instead lists Aerora 3 + Ignite 3, matching the legacy sheet. | Quarantine zero-based row 90. Candidate correction is the Ignite ingredient; confirm against an independent modern source before certification. |
-| BBS-MELD-03 | Stun Edge 3 + Magnera 3 has Collision Magnet twice, at 80% and 20%, in the current aggregate source/reference. [Collision Magnet](https://www.khwiki.com/Collision_Magnet) lists 80%; [Magnet Spiral](https://www.khwiki.com/Magnet_Spiral) lists the 20% alternative. | Quarantine row 182. Preserve the likely Magnet Spiral correction as evidence, rather than silently replacing source data. |
-| BBS-MELD-04 | Crystal source sheet lists Spiderchest under Fleeting; the inspected [Fleeting page](https://www.khwiki.com/Fleeting) omits it. | Resolve from enemy drop table before including that farm. |
+| BBS-MELD-02 | [Command Meld](https://www.khwiki.com/Command_Meld) and the user reference claim Aerora 3 + Aerora 3 → Mine Square, alongside Aeroga/Tornado outcomes. That yields 200% per character. [Mine Square](https://www.khwiki.com/Mine_Square) instead lists Aerora 3 + Ignite 3, matching the legacy sheet. | Corrected row 90 on October 1; restored the documented Lv3 recipe and valid Aerora/Aerora groups. Minimum Ignite level remains disputed (Lv3 versus Lv1); see [resolution log](research-resolution-2026-10-01.md). |
+| BBS-MELD-03 | Stun Edge 3 + Magnera 3 has Collision Magnet twice, at 80% and 20%, in the current aggregate source/reference. [Collision Magnet](https://www.khwiki.com/Collision_Magnet) lists 80%; [Magnet Spiral](https://www.khwiki.com/Magnet_Spiral) lists the 20% alternative. | Corrected row 182 to Magnet Spiral on October 1 after corroboration by the Destiny Islands FM table; original value retained in row provenance. All three character groups restored. |
+| BBS-MELD-04 | Crystal source sheet lists Spiderchest under Fleeting; the inspected [Fleeting page](https://www.khwiki.com/Fleeting) omits it. | Resolved October 1: enemy table lists Fleeting 3.6% at Shop 1–2 only; relationship integrated. Accessible character/room farming routes remain open. |
 
-The mechanical audit grouped by character plus unordered ingredient+level pairs: **465 groups, three 200% groups**, all from BBS-MELD-02. Other base-rate groups sum to 100%, which does not prove their output names are correct (BBS-MELD-03 demonstrates this). There are 99 distinct result names, not a complete command catalog.
+The original mechanical audit found 465 groups, including three 200% groups. After the October 1 corrections, **468 character/input/level groups all total 100%**. This does not independently prove every output name or acquisition. Correcting the BBS Confusion Strike spelling leaves **98 distinct result names**, not a complete command catalog.
 
 ## Solver contract
 
@@ -35,7 +35,7 @@ The 112 standard crystal/type mappings are in the JSON. [ability-stacks.csv](abi
 | Which crystal attaches Second Chance? | Pulsing with type N or P; select an eligible character recipe, then check level/copies |
 | Which crystal attaches Once More? | Wellspring with type M or O |
 | Can a crystal attach an ability to a rare Shotlock? | No |
-| Why is Aerora + Aerora inconsistent? | Explain the quarantined Mine Square row; do not combine it into a 200% answer |
+| Aerora 3 + Aerora 3 | Terra/Aqua: Aeroga 100%; Ventus: Aeroga 90%, Tornado 10%. The incorrect Mine Square row is corrected to Aerora + Ignite. |
 | I only have one Block | Explain the retained-copy requirement before allowing a meld |
 
 Remaining acquisition work: modern HD command catalog, every chest/shop/board/event/drop route, command shop levels and unlocks, D-Links, Shotlocks, complete CP curves, Chaos/Secret Gem random ability distribution, and all character/version exceptions. A 296-row recipe list does not close those gates.

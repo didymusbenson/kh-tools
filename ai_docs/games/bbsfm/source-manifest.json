@@ -1062,5 +1062,55 @@
       "status": "community evidence; source validation pending"
     }
   ],
-  "ignored_searches": "Broad web searches yielded unrelated results and were not used as evidence."
+  "ignored_searches": "Broad web searches yielded unrelated results and were not used as evidence.",
+  "follow_up_inspections": [
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Mine_Square",
+      "inspection": "Aerora/Ignite Lv3 recipe, all characters, rates and ability mappings."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.destinyislands.com/bbs-fm/melding/magic-commands/",
+      "inspection": "FM ingredient identity, rate and abilities; Ignite level omitted."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://guiding-key.tumblr.com/khbbs-abilities",
+      "inspection": "Contrary Ignite Lv1 recipe in ability lists; lower-level eligibility remains disputed."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Magnet_Spiral",
+      "inspection": "Stun Edge/Magnera Lv3, 20%, all characters, ability mapping."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.destinyislands.com/bbs-fm/melding/attack-commands/",
+      "inspection": "FM Collision Magnet/Magnet Spiral 80/20 and BBS Confusion Strike spelling."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Confusion_Strike",
+      "inspection": "BBS Confusion Strike versus DDD Confusing Strike; Quick Blitz/Confuse recipe."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Spiderchest",
+      "inspection": "Fleeting 3.6% Shop 1–2, absent later; does not establish every character’s accessible farm."
+    },
+    {
+      "accessed": "2026-10-01",
+      "access": "web text retrieval",
+      "url": "https://www.khwiki.com/Archraven",
+      "inspection": "Shimmering first rate band Shop 1–4."
+    }
+  ]
 }
