@@ -59,5 +59,5 @@ Canonical inputs and generated runtime were updated for the verified Daylight lo
 
 - KH2 generator: 1,315 entries, 59 recipes.
 - Focused content suite: 21 tests passed.
-- Repeated generation, stable-ID comparison, machine-readable census/ledger counts and whitespace checks: recorded at final checkpoint.
+- Repeated generation produced identical SHA256 `8cd9dc40a1417d7fc2a6a86d44dcdf31e762668ecc12e0d560885b184bdde583`; all 1,644 ordered ID occurrences match the initial checkpoint. Census has 14 files; ledger counts match its 40 rows; `git diff --check` passed.
 - No browser acceptance or legacy E2E repair is claimed. Cross-game tests/build and integration are the coordinator's responsibility.

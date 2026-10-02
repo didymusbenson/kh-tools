@@ -523,7 +523,7 @@
   },
   "verifiedInterpretations": [
     "I sets part-0 minimum HP to maximum HP (line2146). II/III/IV/VI/VI_SU/VIII/IX/XI/XII explicitly set part-0 minimum HP to1.",
-    "I\u2013XII all have general element-rate0/100 writes (element6); these modify the general rate, not a replacement of all per-element ENMP values.",
+    "I\u2013XII all have element-rate0/100 writes with element argument6. The syscall documentation labels6 All; this callsite audit does not certify the downstream engine implementation or every active phase.",
     "XII move_warp callback L7471 explicitly sets element3 (Thunder) to0 at line3790.",
     "XIII fall_down action L4439 invokes L4469, which writes general element6 rate0. No HP setter or sheet-selection trap occurs in its available object script. This is a scoped negative result, not proof of no external initialization.",
     "V recovery helper L495 waits on a timer decremented by trap_frametime, checks motion201, HP above minimum and local flag112, resets timer to2, and invokes add_hp with3. No new Steam frames-per-second recovery rate is inferred.",
