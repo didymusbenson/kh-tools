@@ -50,7 +50,7 @@ The rows below are required coverage areas to audit, not a claim that every name
 | KH1-D03 | Dalmatians and reward milestones | Puppy numbers, chest/group identity, location, access conditions, turn-in rewards | All 33 puppy groups / 99 puppies and reward milestones normalized, including FM relocations. |
 | KH1-D04 | Trinity Marks and Trinity unlocks | Color, precise location, unlock and activation conditions, reward, counting rules | All 46 marks and activation/reward routes normalized; counts 17/6/9/4/10. |
 | KH1-D05 | Postcards and turn-in rewards | Acquisition steps, prerequisites, delivery action, reward sequence, completion count | All ten acquisition slots and turn-in rewards normalized, including Gizmo route. |
-| KH1-D06 | Torn Pages and Hundred Acre Wood | Page locations, episode unlocks, activities, completion/score targets, rewards | Five page sources and activities/rewards normalized. Pooh Swing display unit remains KH1-004; numeric target 40 is supplied. |
+| KH1-D06 | Torn Pages and Hundred Acre Wood | Page locations, episode unlocks, activities, completion/score targets, rewards | Five page sources and activities/rewards normalized. Pooh Swing target is 40 m, resolved by inspected Steam-linked HUD footage (KH1-004). |
 | KH1-D07 | Ansem Reports and collectible reference mapping | Stable Report IDs, acquisition triggers, required encounters/reward conversations and goal links | All 13 acquisition records normalized. Unknown earliest portal boundary remains KH1-002; safe later route supplied. |
 | KH1-D08 | Synthesis recipes and unlock sets | Product, ingredient IDs/quantities, unlock conditions, crafted state, all-catalog requirement | All 33 recipes normalized and totals calculated. Energy Bangle resolved to two Spirit Shards; no remaining recipe conflict. |
 | KH1-D09 | Materials, enemies, drops, encounters | Source locations, spawn/respawn conditions, drop rules/rates/modifiers, special-enemy mechanics and concise farming steps | 34 materials and 44 acquisition-relevant enemies; all eight named farm loops supplied. Bambi exhaustive eligibility remains KH1-010; every-room encounter enumeration is not claimed. |
@@ -117,7 +117,7 @@ Record new answers under the question ID, then update status and corresponding s
 - [x] KH1-R03: Declared treasure, Report, equipment, item, enemy, level and Gummi manifests normalized. No narrative/biography manifest gate.
 - [x] KH1-R04: Recipe totals, Energy Bangle, grouped collectibles, cup seeds and level rows reconciled. Three Stars Defense KH1-001 and mixed-answer mapping KH1-015 remain separate precise questions.
 - [ ] KH1-R05: Four exact Vine chains KH1-014 and exhaustive Bambi eligibility KH1-010 remain; practical farming routes and Gummi builds are supplied.
-- [ ] KH1-R06: Resolve Unknown earliest flag KH1-002, run flags/menu/persistence KH1-003, Pooh display unit KH1-004, Phil saved best-time persistence KH1-005 and precise ability boundaries KH1-018.
+- [ ] KH1-R06: Resolve Unknown earliest flag KH1-002, run flags/menu/persistence KH1-003, Phil saved best-time persistence KH1-005 and precise ability boundaries KH1-018.
 - [x] KH1-R07: Complete disposition/evidence reports supplied for all 20 findings and all 12 prior residuals; no untouched issue closed by relabeling.
 
 ## Historical engineering queue — implementation evidence supersedes unchecked boxes

@@ -13,7 +13,7 @@ Continuation: [all 12 residual investigations, pinned source evidence and valida
 | KH1-001 | Unresolved | Rechecked dedicated item, FM changes, KHGuides, original FM FAQ and Steam-era guide. +4 versus +3 remains a real edition-source contradiction. Retain unresolved Defense; recipe stays five Power Gems. |
 | KH1-002 | Unresolved | Added the third, more precise first-End-of-World-cutscene claim to boss and Report 13. It conflicts with sealing Hollow Bastion and Final Rest claims. Final Rest remains a sufficient route, not the asserted earliest flag. |
 | KH1-003 | Partial | Steam evidence added for pause/cutscene counting, reported 100-hour timer rollover, and awards from eligible pre-final-boss saves. Exact scripted/guest swap flags, every individual menu, and persistent-versus-save-local flag storage remain undocumented. |
-| KH1-004 | Unresolved | Steam guide and KHGuides prose support “yards”; other references use meters. No Steam result-screen/string evidence establishes localization. Keep numeric 40 target and precise unit caveat. |
+| KH1-004 | Closed | Directly inspected Steam-linked player footage shows HUD `m` at 0:03 and 0:38. Canonical target is 40 m; see [exact source/platform boundary](gap-closure-2026-10-02.md). |
 | KH1-005 | Partial | Complete 22-activity roster and Journal registration remain supplied. New HD collection evidence explicitly resolves repeat training to no further reward; a saved best-time field outside the Journal remains undocumented. |
 | KH1-006 | Closed | All 12 blanks resolved from shared footnotes: Gigas after-rescue Tech-only EXP; Pink fixed 2 HP/hit after Stop; Black Fungus fixed 1 vulnerable damage and hardened invulnerability. |
 | KH1-007 | Closed | Normalized complete 80-part shape roster plus seven tools, size/stat/stock/shop/source fields and functional limits. Original-only treasure clauses excluded. Mission sources linked, including the missing sixth Wheel-G at Agrabah 1. Roster completeness does not promise every redundant source alternative. |
@@ -71,4 +71,4 @@ Canonical edits: `tools/content/import-reference.source.json`, `tools/content/ch
 
 ## 2026-10-02 continuation
 
-KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. Other open findings remain under investigation.
+KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. The new pass investigated all ten remaining IDs; nine remain open with exact missing evidence recorded in the gap-closure report.
