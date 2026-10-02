@@ -66,3 +66,5 @@ All 51 baseline manifest omissions have fresh access attempts (47 direct success
 ## October 1 continuation: Steam Days observations
 
 In a [Steam-specific community thread](https://www.reddit.com/r/KingdomHearts/comments/1dl9sjt/about_unlocking_the_rechain_of_memories_room_of/), the questioner reports that opening the character files completed the unlock, and another participant reports successfully skipping chapters through chapter select. These are firsthand community observations, not a minimal system-save specification. A later reply claims both campaign clears are necessary; this conflicts with the selected HD Days route and is not promoted to a new prerequisite. Restart/transfer semantics remain unknown.
+
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.

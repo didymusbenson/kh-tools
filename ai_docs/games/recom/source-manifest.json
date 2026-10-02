@@ -5017,5 +5017,107 @@
       ]
     },
     "originalFollowUpSummaryUnchanged": true
+  },
+  "gapClosure20261002": {
+    "accessed": "2026-10-02",
+    "method": "Web retrieval and indexed text; no game execution or historical snapshot reconstruction",
+    "sources": [
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+        "access": "retrieved text",
+        "sections": "Comments #2 and #4",
+        "edition": "Steam",
+        "result": "Firsthand collection success with exact RNG routes; reset between attempts; adjacent save/farm rooms and last-enemy selection. Tornado Step took at least twelve attempts, contradicting a universal ten-attempt cap."
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "access": "indexed full guide text",
+        "edition": "Cataloged PS2; author explicitly transcribes DERIKUF videos rather than original tests",
+        "result": "Setup and complete listed routes recovered; not an independent rate table or firsthand Steam validation. No universal ten-attempt guarantee imported."
+      },
+      {
+        "url": "https://www.khwiki.com/Sleight",
+        "access": "retrieved text",
+        "sections": "Introduction, two-card paragraph",
+        "edition": "CoM/Re:CoM explicit remake controls",
+        "result": "Three-card matching takes priority over a two-card sleight. Exact arbitrary slot and overlap cases are not supplied."
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4514380244076462759/",
+        "access": "retrieved text",
+        "sections": "Comments #8, #11 and #12",
+        "edition": "Steam",
+        "result": "Mid-playthrough unlock observation; falling title-screen cards cue; long Days entries must be scrolled to bottom to mark read. No minimum flag or save transfer predicate proven."
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/1dhaoyf/recom_moogle_shop_rng_manip_explained_rolling/",
+        "access": "retrieved text",
+        "edition": "Re:CoM; platform not explicitly certified",
+        "sections": "Original tester’s post",
+        "result": "Observed pack/roll relationships; author expressly uses proxy indices, not source-code indices, and leaves assorted packs unexplained. No probability or locked-pool table."
+      },
+      {
+        "url": "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "access": "indexed full chapter text",
+        "edition": "Labeled HD 1.5; probability table conflicts with remake card tables",
+        "result": "All rows inspected. HD prices coexist with legacy-looking identity probabilities: Fire Grass 15% versus canonical remake 20%; no HD replacement cards. Do not promote this to certified HD attack or assorted distributions."
+      },
+      {
+        "url": "https://www.nexusmods.com/kingdomheartsrechainofmemories/mods/42?tab=posts",
+        "access": "retrieved text",
+        "edition": "PC mod; Steam and Epic snippets",
+        "result": "Inspected posted Lua and user reports. Writes forcing enemy-card selection are mod behavior, not a vanilla 30-enemy probability table."
+      },
+      {
+        "url": "https://github.com/gaithern/KH-RECOM-AP-LUA/blob/d5e5c06bb8dd803ee153d2ba47a862fc773c9901/recomAPConnector.lua",
+        "access": "git clone, exact commit inspected",
+        "edition": "Mod explicitly detects Steam/Epic",
+        "sections": "get_empty_sleights_array; set_sleights; get_extra_checks; set_level_up_sleights",
+        "result": "84 allocated slots; writes learned bits and replaces level-up unlocks. Mod checks synthesized from source events are not vanilla achievement predicates."
+      },
+      {
+        "url": "https://github.com/gaithernOrg/ArchipelagoKHRECOM/blob/6f5e8aa227fe16cd96748bdc04a793a6d24b22a2/worlds/khrecom/Locations.py",
+        "access": "git clone, exact commit inspected",
+        "edition": "Archipelago mod location definitions",
+        "result": "All 83 ordinary Sora names match canonical names after case/space/hyphen normalization. This cross-check does not prove vanilla menu order or Steam Sleight Master membership."
+      },
+      {
+        "url": "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7",
+        "access": "indexed chapter text; route and concluding sections inspected",
+        "edition": "HD PS4 guide, first-person battle observations",
+        "result": "B8F Replica five-card duel observation, B1F Entrance Hall final story-entry registration and ordinary-enemy encounter guidance integrated. Not a timer/frame data source."
+      },
+      {
+        "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories/walkthrough/8",
+        "access": "direct web fetch failed 403; indexed excerpt only",
+        "edition": "HD guide",
+        "result": "No complete registration-event/rank table obtained."
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/954016-kingdom-hearts-rechain-of-memories/55255370",
+        "access": "direct fetch failed; subsequent indexed thread text recovered",
+        "edition": "PS2 firsthand guide author reply",
+        "result": "Only two 100 Acre Wood prizes; Monstro closes after a win. Does not independently test Steam."
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "access": "indexed sections; not an original September snapshot",
+        "edition": "PS2 guide with separate HD appendix",
+        "sections": "D.2.6 Minigames; F clear-save flowchart; HD differences",
+        "result": "Explicit no-additional-prizes clause recovered and recorded as edition-qualified minigame lineage. PS2 clear-save rules are not substituted for HD Days gates."
+      },
+      {
+        "url": "https://www.khwiki.com/Goofy_Tornado",
+        "access": "indexed mechanic sections",
+        "edition": "Multiple games explicitly separated",
+        "result": "No exact Re:CoM duration; 11-second number is Re:coded reload time, rejected."
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55405",
+        "access": "indexed Bambi/Dumbo journal text",
+        "edition": "PS2 transcript",
+        "result": "Qualitative effects only, no Bambi seconds."
+      }
+    ]
   }
 }

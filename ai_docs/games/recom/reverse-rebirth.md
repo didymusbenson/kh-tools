@@ -62,3 +62,5 @@ Riku world completion cannot be a duplicate Sora chest list. Track the finite Ri
 ## October 1 encounter continuation
 
 The Hollow Bastion deck reference now distinguishes the early Ansem card-break/duel tutorial from his final boss fight, using the [PS4 Beginner route](https://www.speedrun.com/de-DE/khrecom/guides/bzl3k). The Destiny Islands reference includes [Zexion’s remake card-stealing/book mechanics](https://www.khwiki.com/Game:Zexion). These additions do not certify every ordered corridor deck or a universal speedrun route.
+
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.

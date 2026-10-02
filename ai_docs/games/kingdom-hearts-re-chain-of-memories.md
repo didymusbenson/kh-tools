@@ -84,3 +84,5 @@ The user subsequently authorized implementation and the October 1 full audit fol
 ## Current research disposition
 
 See [all 32 findings](recom/research-resolution-2026-10-01.md): 14 closed (including one false gap), 12 partial, three open after investigation and three non-factual limitations. New reference catalogs contain 99 progression rows and 59 combat/form/body records with 379 floor rows and 43 explicit duel timers. The full frame/tactics/deck catalog remains incomplete; these records do not add collectible checks.
+
+October 2 evidence pass: [remaining-gap report](recom/gap-closure-2026-10-02.md). Runtime now includes 30 qualified farming retry references, three optional detailed routes, 13 Days completion checks, two-card stock priority and bounded Riku Report/duel guidance. 431 IDs and collectible denominators are preserved; no additional whole finding is certified closed.

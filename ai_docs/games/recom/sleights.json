@@ -3,7 +3,7 @@
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
   "status": "Runtime source data; no game execution; recipe precedence and menu membership remain bounded research questions",
-  "notes": "83 normal-combat Sora candidate names, 2 Bumble-Rumble-only names, 13 Riku names. These are extracted source counts, not certified native menu or achievement denominators. Attack illustrations normalize to Attack; explicit same/different type constraints remain in reference text. Individual-card recipe illustrations followed by a generic clause are examples, not extra constraints. All 92 stock recipes now have ordered alternatives and explicit constraints; six duels have activation conditions. Third-card precedence remains unknown.",
+  "notes": "83 normal-combat Sora candidate names, 2 Bumble-Rumble-only names, 13 Riku names. These are extracted source counts, not certified native menu or achievement denominators. Attack illustrations normalize to Attack; explicit same/different type constraints remain in reference text. Individual-card recipe illustrations followed by a generic clause are examples, not extra constraints. All 92 stock recipes now have ordered alternatives and explicit constraints; six duels have activation conditions. The documented three-card-over-two-card priority is integrated; arbitrary slot/overlap matching remains unverified.",
   "records": [
     {
       "id": "recom-sleight-sora-sliding-dash",
@@ -426,7 +426,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals fire damage; base power multiplier 10×.",
-      "effectSource": "https://www.khwiki.com/Fira"
+      "effectSource": "https://www.khwiki.com/Fira",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-firaga",
@@ -485,7 +486,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals ice damage; base power multiplier 7×.",
-      "effectSource": "https://www.khwiki.com/Blizzara"
+      "effectSource": "https://www.khwiki.com/Blizzara",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-blizzaga",
@@ -544,7 +546,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals lightning damage; base power multiplier 6×.",
-      "effectSource": "https://www.khwiki.com/Thundara"
+      "effectSource": "https://www.khwiki.com/Thundara",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-thundaga",
@@ -613,7 +616,8 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
-      ]
+      ],
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-curaga",
@@ -672,7 +676,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Base damage is 40% of the target’s remaining HP, subject to resistance.",
-      "effectSource": "https://www.khwiki.com/Gravira"
+      "effectSource": "https://www.khwiki.com/Gravira",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-graviga",
@@ -731,7 +736,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Stops susceptible targets for 5 seconds before modifiers.",
-      "effectSource": "https://www.khwiki.com/Stopra"
+      "effectSource": "https://www.khwiki.com/Stopra",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-stopga",
@@ -790,7 +796,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Deals neutral damage; base power multiplier 6×.",
-      "effectSource": "https://www.khwiki.com/Aerora"
+      "effectSource": "https://www.khwiki.com/Aerora",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-aeroga",
@@ -1676,7 +1683,8 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
-      ]
+      ],
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv3",
@@ -1735,7 +1743,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Genie casts random Thundara, Gravira or Stopra spells. Casts 2 spells; Stopra lasts 8 seconds before resistance.",
-      "effectSource": "https://www.khwiki.com/Showtime_Lv2"
+      "effectSource": "https://www.khwiki.com/Showtime_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-showtime-lv3",
@@ -1794,7 +1803,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Cloud performs successive sword strikes.",
-      "effectSource": "https://www.khwiki.com/Cross-slash"
+      "effectSource": "https://www.khwiki.com/Cross-slash",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-cross-slash-plus",
@@ -1888,7 +1898,8 @@
       "durationSeconds": 10,
       "sources": [
         "https://kingdomhearts.fandom.com/wiki/Summon_cards"
-      ]
+      ],
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-splash-lv3",
@@ -1950,7 +1961,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 4 seconds; base heal 13% max HP plus 1% per added input.",
-      "effectSource": "https://www.khwiki.com/Twinkle_Lv2"
+      "effectSource": "https://www.khwiki.com/Twinkle_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-twinkle-lv3",
@@ -2009,7 +2021,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Bambi drops large healing orbs.",
-      "effectSource": "https://www.khwiki.com/Paradise_Lv2"
+      "effectSource": "https://www.khwiki.com/Paradise_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-paradise-lv3",
@@ -2099,7 +2112,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
-      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2"
+      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv3",
@@ -2158,7 +2172,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Donald casts two random spells of the matching tier.",
-      "effectSource": "https://www.khwiki.com/Magic_Lv2"
+      "effectSource": "https://www.khwiki.com/Magic_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-magic-lv3",
@@ -2227,7 +2242,8 @@
       },
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
-      ]
+      ],
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv2",
@@ -2255,7 +2271,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Goofy spins around Sora, striking nearby enemies.",
-      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv2"
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv3",
@@ -2314,7 +2331,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "A timed Sora/Goofy aerial combo; incorrect input ends it.",
-      "effectSource": "https://www.khwiki.com/Goofy_Smash"
+      "effectSource": "https://www.khwiki.com/Goofy_Smash",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-wild-crush",
@@ -2373,7 +2391,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Pluto digs up cards or prizes; a bone or nothing is also possible. Recovers up to 6 spent cards, or 7 large HP and Moogle Point orbs each.",
-      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv2"
+      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv3",
@@ -2432,7 +2451,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Aladdin slashes, stuns enemies and drops Moogle Points. Lasts 5 seconds.",
-      "effectSource": "https://www.khwiki.com/Sandstorm_Lv2"
+      "effectSource": "https://www.khwiki.com/Sandstorm_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv3",
@@ -2491,7 +2511,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Jack casts random elemental or Gravity spells. Up to 2 exchanges/spells.",
-      "effectSource": "https://www.khwiki.com/Surprise!_Lv2"
+      "effectSource": "https://www.khwiki.com/Surprise!_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-surprise-lv3",
@@ -2550,7 +2571,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Ariel charges and finishes with a kick; follow the reaction prompts.",
-      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv2"
+      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv3",
@@ -2609,7 +2631,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 9 seconds.",
-      "effectSource": "https://www.khwiki.com/Hummingbird_Lv2"
+      "effectSource": "https://www.khwiki.com/Hummingbird_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv3",
@@ -2668,7 +2691,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Beast knocks enemies toward Sora for timed return hits. Up to 2 exchanges/spells.",
-      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv2"
+      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv3",
@@ -2738,7 +2762,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Eliminates the bees currently on screen.",
-      "effectSource": "https://www.khwiki.com/Honey_Storm"
+      "effectSource": "https://www.khwiki.com/Honey_Storm",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-sora-honey-pot",
@@ -2766,7 +2791,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Restores about two-thirds of the honey gauge over about seven seconds.",
-      "effectSource": "https://www.khwiki.com/Honey_Pot"
+      "effectSource": "https://www.khwiki.com/Honey_Pot",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-riku-dark-break",
@@ -2913,7 +2939,8 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Mickey damages/stuns enemies, heals Riku and reloads cards.",
-      "effectSource": "https://www.khwiki.com/MM_Miracle_Lv2"
+      "effectSource": "https://www.khwiki.com/MM_Miracle_Lv2",
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv3",
@@ -3149,5 +3176,10 @@
       "effectSource": "https://www.khwiki.com/Dark_Barrage"
     }
   ],
-  "followUpDate": "2026-10-01"
+  "followUpDate": "2026-10-01",
+  "stockPriority": {
+    "rule": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight.",
+    "source": "https://www.khwiki.com/Sleight",
+    "verification": "Explicit general rule in the source introduction; does not establish every slot permutation or conflicts between multiple matching recipes."
+  }
 }

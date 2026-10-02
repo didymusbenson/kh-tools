@@ -9,7 +9,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 | KH1 FM | `research/finish-kh1fm-gaps-2026-10-01` | 6 / 4 | Integrated; 1 new closure, exact residuals remain |
 | BBS FM | `research/finish-bbsfm-gaps-2026-10-01` | 17 / 4 | Integrated; exact factual residuals remain |
 | DDD HD | `research/finish-dddhd-gaps-2026-10-01` | 17 / 1 | Integrated; exact factual residuals remain |
-| Re:CoM | `research/finish-recom-gaps-2026-10-01` | 11 / 3 | Ready for integration |
+| Re:CoM | `research/finish-recom-gaps-2026-10-01` | 11 / 3 | Integrated; exact factual residuals remain |
 | KH2 FM | `research/finish-kh2fm-gaps-2026-10-01` | 3 / 0 | Running |
 | KH0.2 | `research/finish-kh02-gaps-2026-10-01` | 7 / 1 | Integrated; 1 new closure, exact residuals remain |
 | KH3 / Re Mind | `research/finish-kh3-gaps-2026-10-01` | 14 / 3 | Running |
@@ -34,9 +34,11 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 - KH0.2 branch endpoint `1253db49f9547d68b6c68d8d7ba159d735153e9e`: closed KH02-016 with all 15 directly inspected Steam achievement key associations; the coordinator propagated every key and its source into runtime metadata while preserving progress IDs. Improved collection guidance and investigated all eight residual findings. Current totals: 11 closed, 6 partial, 1 unresolved. [KH0.2 pass report](../games/kh02/gap-closure-2026-10-02.md). All 135 application tests, full production build, KH0.2 audit and cross-game identity/source/recipe/ledger checks passed.
 
+- Re:CoM branch endpoint `dae1ec89a3e1eccbb858e8b2abccca43f392e152`: scoped retry guidance on all 30 Sora enemy-card farms, three optional detailed RNG routes, three-card priority on two-card recipes, Days reading/unlock guidance on all 13 bonus rewards, and additional Riku encounter/report directions. All 14 residual findings investigated; totals remain 15 closed, 11 partial, 3 unresolved and 3 other limitations. [Re:CoM pass report](../games/recom/gap-closure-2026-10-02.md). All 136 application tests, full production build and cross-game identity/source/recipe/ledger checks passed.
+
 ## Current factual totals
 
-After DDD, BBS, KH1 and KH0.2 integration: **105 closed, 74 partial, 15 unresolved/conflicted, 14 other limitations**. The other three games are still in progress or awaiting integration; these are current checked-in results, not projected closures.
+After DDD, BBS, KH1, KH0.2 and Re:CoM integration: **105 closed, 74 partial, 15 unresolved/conflicted, 14 other limitations**. The other two games are still in progress; these are current checked-in results, not projected closures.
 
 ## Verified starting state and published worker checkpoints
 

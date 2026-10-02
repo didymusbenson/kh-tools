@@ -23,7 +23,7 @@ Current disposition: [all 32 findings](../games/recom/research-resolution-2026-1
 |---|---|---|
 | Card economy / rooms | 152/59 rosters, 440 CP cells, 37 Premium costs, 25 floor doors, 17 Bounty priorities, 16 packs | Full probability distributions; clear-save/fallback semantics (001,009) |
 | Farms | All 30 rate/world records, both footnotes, both mushroom rules | Full spawn/reset routes and independent 30-row rate evidence (003,005) |
-| Sleights | All 98 effects, 92 stock recipes, six duel activations and all Riku form rules | Native order/Steam denominator and recipe precedence (006,007) |
+| Sleights | All 98 effects, 92 stock recipes, six duel activations and all Riku form rules | Native order/Steam denominator and arbitrary slot/overlap matching (006,007) |
 | Progression / combat | All 99 levels/caps/deferred choices; 59 combat records/379 floor rows/43 timers/24 boss deck tables | Complete encounter decks/tactics/frames and quarantined source ambiguities (014) |
 | Riku | 12 world presets and all 12 retained boss-card conditions | Corridor/boss overrides (002) |
 | Basic cards / friends | All 29 effects, seven reload matrices, all eight friend windows | Bambi/Goofy exact base durations and unlisted higher tiers (017) |
@@ -63,7 +63,7 @@ Counts above are measured research records, not declared game-completion denomin
 | COM-E02 | Do not double-count chest/output; repeat room creation preserves historical claims | Independent finite reward claims implemented; repeat room creation is not modeled |
 | COM-E03 | Fixed denominators under Remaining/search; partial catalogs never claim full 100% | Implemented; fixed 152/59 campaign totals with independent reward checks |
 | COM-E04 | Optional copy inventory respects type/value/Premium; historical checks do not create/deduct stock | Not implemented; discovery checks only |
-| COM-E05 | Recipe alternatives/order, two-card sleights, sums and same/different constraints | All 92 stock recipes and six duel activations normalized; third-card/overlap precedence remains |
+| COM-E05 | Recipe alternatives/order, two-card sleights, sums and same/different constraints | All 92 stock recipes and six duel activations normalized; three-card-over-two-card rule integrated; arbitrary slot/overlap matching remains |
 | COM-E06 | CP conflicts fail closed for calculations; unknown cost never equals zero | 44 ten-value CP tables and seven reconciled enemy costs; no calculator implemented |
 | COM-E07 | Riku preset + retained boss cards; no Sora-only card/editor/shop leakage | Twelve presets, all 12 retained boss acquisitions and campaign boundaries implemented; corridor overrides remain |
 | COM-E08 | All scoped answers/directions usable offline; Data Jiminy retains sources and uncertainty | Catalogue/notes tested offline; CoM-specific Data Jiminy not implemented |
@@ -95,3 +95,5 @@ The user subsequently authorized implementation. See the [working implementation
 - 2026-10-01: Reassessed all 32 audit findings, integrated all basic/sleight effects, structured recipes, progression, combat/form tables, minigame routes and complete friend/mushroom conditions; reconciled fresh access for all 51 old manifest omissions without rewriting historical evidence. Fixed null Riku 100 Acre Wood filtering. Jiminy memories remain empty. Targeted validation is recorded in the per-game resolution ledger.
 
 October 1 continuation: [all residual findings challenged](../games/recom/research-continuation-2026-10-01.md), with complete Steam-key mapping and additional bounded mechanics integrated. No user playthrough required.
+
+October 2 evidence pass: [remaining-gap report](../games/recom/gap-closure-2026-10-02.md). Runtime now includes 30 qualified farming retry references, three optional detailed routes, 13 Days completion checks, two-card stock priority and bounded Riku Report/duel guidance. 431 IDs and collectible denominators are preserved; no additional whole finding is certified closed.
