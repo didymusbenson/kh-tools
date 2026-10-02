@@ -129,6 +129,16 @@
       "url": "https://www.khwiki.com/Kingdom_Hearts_Dream_Drop_Distance_HD",
       "access": "full web retrieval",
       "use": "Edition-change context; all14 Goggles replacements checked against specific current world rows."
+    },
+    {
+      "url": "https://tamaki-game.com/kh3d-sora-grid",
+      "access": "full web retrieval, 2026-10-02",
+      "use": "HD Reports-number table and textual access actions for Solar Sailer, Rectifier and isolated Riku Portal area; images not inspected in this pass."
+    },
+    {
+      "url": "https://tamaki-game.com/kh3d-riku-grid",
+      "access": "full web retrieval, 2026-10-02",
+      "use": "HD Reports-number table and textual access actions for Solar Sailer, Rectifier and isolated Riku Portal area; images not inspected in this pass."
     }
   ],
   "rows": [
@@ -2872,12 +2882,18 @@
       "legacyItem": "Wondrous Figment",
       "hdItem": "Wondrous Figment",
       "area": "Solar Sailer",
-      "directions": "Map location in Solar Sailer: southwest, lower floor.",
+      "directions": "Map location in Solar Sailer: southwest, lower floor. During the story visit, use Code Break on the Solar Sailer roof and enter through the broken floor.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-sora-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-sora-grid"
+      }
     },
     {
       "id": "dddhd:treasure:sora:the-grid:022",
@@ -3097,12 +3113,18 @@
       "legacyItem": "Lofty Fantasy",
       "hdItem": "Lofty Fantasy",
       "area": "Rectifier 1F",
-      "directions": "Map location in Rectifier 1F: south center, atop moving container.",
+      "directions": "Map location in Rectifier 1F: south center, atop moving container. Climb onto the moving container from the north, using jumps or Flowmotion.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-sora-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-sora-grid"
+      }
     },
     {
       "id": "dddhd:treasure:sora:the-grid:036",
@@ -3129,13 +3151,19 @@
       "legacyItem": "Cyber Yog Recipe",
       "hdItem": "Cyber Yog Recipe",
       "area": "Rectifier 2F",
-      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon.",
+      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon. Use Code Break on the Recognizer near the north end, then ride it past the wall to the hidden section.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-sora-grid"
       ],
       "identityStatus": "same-item-area-and-source-number",
-      "accessActionPresent": true
+      "accessActionPresent": true,
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-sora-grid"
+      }
     },
     {
       "id": "dddhd:treasure:sora:the-grid:038",
@@ -3146,13 +3174,19 @@
       "legacyItem": "Shield Cookie 2",
       "hdItem": "Shield Cookie 2",
       "area": "Rectifier 2F",
-      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon.",
+      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon. Use Code Break on the Recognizer near the north end, then ride it past the wall to the hidden section.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-sora-grid"
       ],
       "identityStatus": "same-item-area-and-source-number",
-      "accessActionPresent": true
+      "accessActionPresent": true,
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-sora-grid"
+      }
     },
     {
       "id": "dddhd:treasure:sora:the-grid:039",
@@ -3554,12 +3588,18 @@
       "legacyItem": "Troubling Fancy",
       "hdItem": "Troubling Fancy",
       "area": "Solar Sailer",
-      "directions": "Map location in Solar Sailer: southwest, lower floor.",
+      "directions": "Map location in Solar Sailer: southwest, lower floor. During the story visit, use Code Break on the Solar Sailer roof and enter through the broken floor.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:022",
@@ -3780,12 +3820,18 @@
       "legacyItem": "Fleeting Figment",
       "hdItem": "Fleeting Figment",
       "area": "Rectifier 1F",
-      "directions": "Map location in Rectifier 1F: south center, atop moving container.",
+      "directions": "Map location in Rectifier 1F: south center, atop moving container. Climb onto the moving container from the north, using jumps or Flowmotion.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:036",
@@ -3812,13 +3858,19 @@
       "legacyItem": "Gravity Strike",
       "hdItem": "Gravity Strike",
       "area": "Rectifier 2F",
-      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon.",
+      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon. Use Code Break on the Recognizer near the north end, then ride it past the wall to the hidden section.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
       "identityStatus": "same-item-area-and-source-number",
-      "accessActionPresent": true
+      "accessActionPresent": true,
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:038",
@@ -3829,13 +3881,19 @@
       "legacyItem": "Block-it Chocolate 2",
       "hdItem": "Block-it Chocolate 2",
       "area": "Rectifier 2F",
-      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon.",
+      "directions": "Map location in Rectifier 2F: northwest, hidden hexagon, use Reality Shift at north end of first hexagon. Use Code Break on the Recognizer near the north end, then ride it past the wall to the hidden section.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
       "identityStatus": "same-item-area-and-source-number",
-      "accessActionPresent": true
+      "accessActionPresent": true,
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:039",
@@ -3910,13 +3968,19 @@
       "legacyItem": "Paint Gun: Black",
       "hdItem": "Paint Gun: Black x10",
       "area": "Portal: Stairs",
-      "directions": "Map location in Portal: Stairs: north, ground floor.",
+      "directions": "Map location in Portal: Stairs: north, ground floor. Land here from the world map; this isolated Portal entrance cannot be approached through the other Grid areas.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
       "identityStatus": "quantity-notation-normalized",
-      "identityNote": "Current world-table quantity/name retained; legacy Paint Gun label omits the x10 quantity."
+      "identityNote": "Current world-table quantity/name retained; legacy Paint Gun label omits the x10 quantity.",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:044",
@@ -3927,12 +3991,18 @@
       "legacyItem": "Drop-Me-Not",
       "hdItem": "Drop-Me-Not",
       "area": "Portal: Stairs",
-      "directions": "Map location in Portal: Stairs: center, ground floor.",
+      "directions": "Map location in Portal: Stairs: center, ground floor. Land here from the world map; this isolated Portal entrance cannot be approached through the other Grid areas.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-grid:045",
@@ -3943,12 +4013,18 @@
       "legacyItem": "Hi-Potion",
       "hdItem": "Hi-Potion",
       "area": "Portal: Stairs",
-      "directions": "Map location in Portal: Stairs: south, ground floor.",
+      "directions": "Map location in Portal: Stairs: south, ground floor. Land here from the world map; this isolated Portal entrance cannot be approached through the other Grid areas.",
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.khwiki.com/Game:The_Grid"
+        "https://www.khwiki.com/Game:The_Grid",
+        "https://tamaki-game.com/kh3d-riku-grid"
       ],
-      "identityStatus": "same-item-area-and-source-number"
+      "identityStatus": "same-item-area-and-source-number",
+      "accessEvidence": {
+        "edition": "HD Japanese guide",
+        "scope": "Specific access action; not an exhaustive earliest-access or movement-minimum proof",
+        "source": "https://tamaki-game.com/kh3d-riku-grid"
+      }
     },
     {
       "id": "dddhd:treasure:sora:prankster-s-paradise:001",

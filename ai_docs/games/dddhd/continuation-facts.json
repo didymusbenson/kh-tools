@@ -13,5 +13,26 @@
       ],
       "basis": "The DDD infobox itself says buy=100, bargain=80, shop=1; complete Moogle and independent GamerGuides shop tables agree. The same article prose says 400/320. Adopt mutually corroborated structured values; preserve the conflicting raw extraction. PS4 GameFAQs answer465557 indexed excerpt independently describes80instead100; full page access was blocked. No Steam measurement claimed."
     }
-  ]
+  ],
+  "gapFollowup": {
+    "date": "2026-10-02",
+    "sweetDreams": {
+      "instructions": "Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement.",
+      "uncertainty": "HD player documentation supports character-specific delivery. Exact minimum replay scope and Steam event retrigger details are not independently verified.",
+      "sources": [
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+        "https://www.khwiki.com/Sweet_Dreams",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/74405?page=1"
+      ]
+    },
+    "reportedInteraction": {
+      "breed": "Tubguin Ace",
+      "from": "Hot Springs",
+      "to": "Whirlpool",
+      "action": "rub",
+      "bodyPart": "face",
+      "source": "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+      "quality": "Indexed first-hand PS4 HD player report; full forum retrieval restricted; not independently Steam-verified."
+    }
+  }
 }
