@@ -74,3 +74,25 @@ assert keys['mapped']==54
 assert len({x['steamApiKey'] for x in keys['records']})==keys['mapped']
 assert all(x['source']=='https://steamdb.info/app/2552440/stats/' and x['observedRequirement'] for x in keys['records'])
 assert {x['name'] for x in keys['records']}=={x['name'] for x in c['entries'] if x['category']=='achievements'}
+
+# Follow-up evidence must survive both direct entries and reverse acquisition routes.
+followup=json.loads((root/'ai_docs/games/dddhd/continuation-facts.json').read_text())['gapFollowup']
+assert sum('accessEvidence' in r for r in routes)==11
+for r in routes:
+ if 'accessEvidence' in r:assert r['accessEvidence']['source'] in idx[r['id']]['sources']
+assert 'ride it past the wall' in idx['dddhd:commands:gravity-strike']['instructions']
+for key in ['keyblades:sweet-dreams','challenges:secret-cup']:
+ assert 'verify ownership separately for Sora and Riku' in idx['dddhd:'+key]['instructions']
+ assert 'Steam event retrigger' in idx['dddhd:'+key]['uncertainty']
+scoring=followup['flickRushScoring']
+assert scoring['spendableMedalPayoutMatrix'] is None
+assert len({cup for group in scoring['timeGroups'] for cup in group['cups']})==9
+assert scoring['unassignedTimeGroups']==['Speed Cup']
+for cup in f['cups']:
+ runtime=next(e for e in c['entries'] if e['category']=='challenges' and e['name']==cup['name'])
+ assert 'These points are not spendable Medals.' in runtime['instructions']
+ assert 'not independently verified' in runtime['uncertainty']
+ rounds=len(cup['matches']);assert scoring['cupPrizeThresholdsByRounds'][str(rounds)]['gold']==4*rounds
+assert 'LV 15 and LV 17' in idx['dddhd:challenges:secret-cup']['prerequisites']
+assert all(next(s for s in read('spirit-facts.json') if s['name']==name)['baseStats']['hp']=='???' for name in ['Catanuki','Beatalike','Tubguin Ace'])
+print('DDD follow-up: route propagation, separate character delivery, score/prize boundaries and unknown vanilla stats passed.')

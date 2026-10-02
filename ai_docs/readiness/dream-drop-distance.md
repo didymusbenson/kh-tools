@@ -1,5 +1,7 @@
 # Dream Drop Distance HD readiness
 
+2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **7 resolved, 17 partial, 1 blocked**. [Evidence and exact residuals](../games/dddhd/gap-closure-2026-10-02.md).
+
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).
 
 Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 7 resolved, 17 partial and 1 blocked finding. Shared application acceptance remains root-owned.
@@ -29,8 +31,8 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 | Creation | 263 formulas, 37 shared events, 54 marked 100% combinations, 105 donation rows | 141 unreported probabilities; malformed initial-level table; Risky Winds odds wording |
 | Materials/shops | 37 materials, 54 recipe-item goals, 176 shop rows, 17 family pages; Quick Blitz corrected to 100 munny / 80 during Bargain Flurry at Shop LV 1 | Ordinary room routes and expiration quantities remain incomplete; no known shop-price conflict remains |
 | Commands/abilities/Links | 124 commands, 43 ability stacks/providers, 43 Link entries | Strike Raid 22/24-second source conflict and complete Steam input mapping |
-| Portals/Dives/Flick | 346 source-number portal identities, 14 Dives, 27 cup lineups | Portal approaches/first-repeat semantics; missing medal/rank cells |
-| Weapons/awards | 15 stat rows, 18 in-game awards, 54 Steam goals and 54 observed Steam API key mappings | Selected internal counters, Sweet Dreams delivery and other-platform native IDs remain unverified |
+| Portals/Dives/Flick | 346 source-number portal identities, 14 Dives, 27 cup lineups | Portal approaches/first-repeat semantics; missing spendable Medal yields and Speed Cup time group; Secret Cup unlock source conflict |
+| Weapons/awards | 15 stat rows, 18 in-game awards, 54 Steam goals and 54 observed Steam API key mappings | Selected internal counters, Sweet Dreams minimum replay/retrigger scope remain unverified; other-platform native IDs are out of Steam scope |
 | Runtime |Generated guide and category integration present|Shared root integration owns functional acceptance|
 | Data Jiminy |No content added|Remains empty by task instruction|
 

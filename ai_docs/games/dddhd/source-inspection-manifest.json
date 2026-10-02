@@ -2174,5 +2174,191 @@
     "sha256": "1f976af79e0a8934f77169a0c86d31e4c82b4a3b4f6107cf86427e93688716b2",
     "bytes": 4553,
     "method": "pinned format documentation; no species-labelled game data"
+  },
+  {
+    "url": "https://tamaki-game.com/kh3d-sora-grid",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://tamaki-game.com/kh3d-riku-grid",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/LuxMake/Archipelago-KHDDD/blob/859db185a6729c77eb8f92ec3a95eed2a3cb215c/worlds/khddd/Rules.py",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Items/Spirits.lua",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/btlparam.md",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.khwiki.com/Spirit",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://openkh.dev/ddd/file/dropprm.html",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74939821",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/techprm.md",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.reddit.com/r/KingdomHearts/comments/1fhs14e/all_commands_links_in_ddd/",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://docs.google.com/spreadsheets/d/1PYjCdblr2vUda8eQayPE73ZmRmY4BzP448__Fvq2AjM/edit?usp=sharing",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/DDDAPConnector.lua",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.khwiki.com/Flick_Rush",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.khwiki.com/Talk:Flick_Rush",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.khwiki.com/Secret_Cup",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Locations/LocationHandler.lua",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.khwiki.com/Sweet_Dreams",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.cheatcc.com/articles/kingdom-hearts-hd-2-8-final-chapter-prologue-cheats-codes-cheat-codes-walkthrough-guide-faq-unlockables-for-playstation-4-ps4-ps4/",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
+  },
+  {
+    "url": "https://www.kh13.com/forums/topic/39388-then-end-part-with-riku-spoilers/",
+    "inspected": "2026-10-02",
+    "method": "See per-finding inspection/access outcome in gap-evidence-2026-10-02.json; includes indexed-only and failed-access leads, not a claim of full retrieval",
+    "evidenceRecord": "gap-evidence-2026-10-02.json"
   }
 ]

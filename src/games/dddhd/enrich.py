@@ -165,6 +165,30 @@ def enrich(entries,recipes,root):
  for cup in facts['cups']:
   e=next(x for x in entries if x['category']=='challenges' and slug(x['name']).replace('beginners','beginner')==slug(cup['name']).replace('beginners','beginner'))
   append(e,'Match roster: '+'; '.join(str(m['round'])+' '+str(m['team'])+': '+m['opponents'] for m in cup['matches'])+'. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.');sources(e,cup['source']);e['uncertainty']='All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source.'
+ # Keep the fully published scoring tables separate from unreported Medal payouts.
+ scoring=followup['flickRushScoring']
+ for cup in facts['cups']:
+  e=next(x for x in entries if x['category']=='challenges' and slug(x['name']).replace('beginners','beginner')==slug(cup['name']).replace('beginners','beginner'))
+  group=next((g for g in scoring['timeGroups'] if cup['name'] in g['cups']),None)
+  def mmss(seconds):return str(seconds//60)+':'+str(seconds%60).zfill(2)
+  if group:
+   lower=0;times=[]
+   for points,upper in group['maximumSecondsByPoints']:
+    times.append(mmss(lower)+'–'+mmss(upper)+' = '+str(points));lower=upper+1
+   times.append(mmss(group['onePointFromSeconds'])+' or longer = 1; defeat = 0')
+   append(e,'Published match-time scoring: '+', '.join(times)+'.')
+  else:append(e,'The published time-score table does not assign Speed Cup to a time group.')
+  for label,key in [('Remaining HP','remainingHpMinimumPercentByPoints'),('Successful attacks','successfulAttackMinimumPercentByPoints')]:
+   append(e,label+' scoring (use the highest matching threshold): '+', '.join(str(percent)+'% or more = '+str(points) for points,percent in scoring[key])+'.')
+  append(e,'Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below.')
+  prizes=scoring['cupPrizeThresholdsByRounds'][str(len(cup['matches']))]
+  append(e,'Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze '+str(prizes['bronze'])+'+, Silver '+str(prizes['silver'])+'+, Gold '+str(prizes['gold'])+'+. These points are not spendable Medals.')
+  sources(e,scoring['source']);e['uncertainty']+=' '+scoring['editionBoundary']
+ e=record('achievements','Flick Rush Fever')
+ append(e,'Published Rush LV progression: start at 1; gain one level for the first win of each of the ten cups, lifetime medal totals of 300, 700, 3000 and 5000, totals of 5 and 10 Silver/Gold prizes, and totals of 3, 5 and 10 Gold prizes. These 19 milestones reach LV20. Current medal wallet and lifetime earnings are different values.')
+ sources(e,scoring['source']);e['uncertainty']='Exact HD progression thresholds are not independently verified; published Rush LV and prize rules are provided as a mechanics reference.'
+ for correction in followup['cupAccessCorrections']:
+  e=record('challenges',correction['name']);e['prerequisites']=correction['replacement'];sources(e,*correction['sources'])
  for e in [record('keyblades','Sweet Dreams'),record('challenges','Secret Cup')]:
   reward=followup['sweetDreams'];append(e,reward['instructions']);sources(e,*reward['sources'])
   e['uncertainty']=(e.get('uncertainty','')+' '+reward['uncertainty']).strip()

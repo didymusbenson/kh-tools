@@ -7006,12 +7006,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Initial",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Mog: Meow Wow; Hebby Repp; Komory Bat. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Mog: Meow Wow; Hebby Repp; Komory Bat. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–1:59 = 10, 2:00–2:22 = 9, 2:23–2:44 = 8, 2:45–3:07 = 7, 3:08–3:29 = 6, 3:30–3:52 = 5, 3:53–4:14 = 4, 4:15–4:37 = 3, 4:38–4:59 = 2, 5:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 2+, Silver 3+, Gold 4+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Training_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:beginner-s-cup",
@@ -7021,12 +7021,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Rush LV2",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Hayner: Yoggy Ram; Pricklemane; Hebby Repp; 2 Pence: Meowjesty; Kooma Panda; Tama Sheep. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Hayner: Yoggy Ram; Pricklemane; Hebby Repp; 2 Pence: Meowjesty; Kooma Panda; Tama Sheep. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–1:59 = 10, 2:00–2:22 = 9, 2:23–2:44 = 8, 2:45–3:07 = 7, 3:08–3:29 = 6, 3:30–3:52 = 5, 3:53–4:14 = 4, 4:15–4:37 = 3, 4:38–4:59 = 2, 5:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 3+, Silver 6+, Gold 8+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Beginner%27s_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:rainbow-cup",
@@ -7036,12 +7036,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Clear La Cité and Prankster's Paradise with either character",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Yellow: Tama Sheep; Iceguin Ace; Juggle Pup; 2 Purple: Fin Fatale; Woeflower; Tatsu Steed; 3 Green: Wheeflower; Sir Kyroo; Toximander; 4 Red: Jestabocky; Staggerceps; Kooma Panda. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Yellow: Tama Sheep; Iceguin Ace; Juggle Pup; 2 Purple: Fin Fatale; Woeflower; Tatsu Steed; 3 Green: Wheeflower; Sir Kyroo; Toximander; 4 Red: Jestabocky; Staggerceps; Kooma Panda. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–1:59 = 10, 2:00–2:22 = 9, 2:23–2:44 = 8, 2:45–3:07 = 7, 3:08–3:29 = 6, 3:30–3:52 = 5, 3:53–4:14 = 4, 4:15–4:37 = 3, 4:38–4:59 = 2, 5:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 6+, Silver 11+, Gold 16+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Rainbow_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:digital-cup",
@@ -7051,12 +7051,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Clear The Grid with either character",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Bit: Cyber Yog; Escarglow; KO Kabuto; 2 Byte: Peepsta Hoo; Cyber Yog; Eaglider. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Bit: Cyber Yog; Escarglow; KO Kabuto; 2 Byte: Peepsta Hoo; Cyber Yog; Eaglider. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–1:59 = 10, 2:00–2:22 = 9, 2:23–2:44 = 8, 2:45–3:07 = 7, 3:08–3:29 = 6, 3:30–3:52 = 5, 3:53–4:14 = 4, 4:15–4:37 = 3, 4:38–4:59 = 2, 5:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 3+, Silver 6+, Gold 8+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Digital_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:tin-pin-cup",
@@ -7066,12 +7066,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Rush LV6",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 777: Woeflower; KO Kabuto; Ducky Goose; 2 B.J: Escarglow; Staggerceps; Fishboné; 3 Tenho: Tatsu Blaze; Cera Terror; Zolephant; 4 Minamimoto: Necho Cat; Sudo Neku; Tyranto Rex. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 777: Woeflower; KO Kabuto; Ducky Goose; 2 B.J: Escarglow; Staggerceps; Fishboné; 3 Tenho: Tatsu Blaze; Cera Terror; Zolephant; 4 Minamimoto: Necho Cat; Sudo Neku; Tyranto Rex. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–2:29 = 10, 2:30–2:52 = 9, 2:53–3:14 = 8, 3:15–3:37 = 7, 3:38–3:59 = 6, 4:00–4:22 = 5, 4:23–4:44 = 4, 4:45–5:07 = 3, 5:08–5:29 = 2, 5:30 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 6+, Silver 11+, Gold 16+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Tin_Pin_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:speed-cup",
@@ -7081,12 +7081,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Rush LV7",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Mortimer: Me Me Bunny; Thunderaffe; Halbird. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Mortimer: Me Me Bunny; Thunderaffe; Halbird. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. The published time-score table does not assign Speed Cup to a time group. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 2+, Silver 3+, Gold 4+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Speed_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:yummy-cup",
@@ -7096,12 +7096,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Complete second Traverse Town visit",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Sea Salt: Fin Fatale; Iceguin Ace; Juggle Pup; 2 Chili Pepper: Tatsu Blaze; Chef Kyroo; KO Kabuto; 3 Sugar Tooth: Ghostabocky; Frootz Cat; R & R Seal. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Sea Salt: Fin Fatale; Iceguin Ace; Juggle Pup; 2 Chili Pepper: Tatsu Blaze; Chef Kyroo; KO Kabuto; 3 Sugar Tooth: Ghostabocky; Frootz Cat; R & R Seal. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–2:29 = 10, 2:30–2:52 = 9, 2:53–3:14 = 8, 3:15–3:37 = 7, 3:38–3:59 = 6, 4:00–4:22 = 5, 4:23–4:44 = 4, 4:45–5:07 = 3, 5:08–5:29 = 2, 5:30 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 4+, Silver 8+, Gold 12+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Yummy_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:final-cup",
@@ -7111,12 +7111,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Clear Musketeers and Symphony",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Moglin: Flowbermeow; Ducky Goose; Komory Bat; 2 Cait Sith: Pricklemane; Necho Cat; Aura Lion; 3 Quina: Sir Kyroo; Chef Kyroo; Lord Kyroo; 4 Vivi: Majik Lapin; Ryu Dragon; Pegaslick. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Moglin: Flowbermeow; Ducky Goose; Komory Bat; 2 Cait Sith: Pricklemane; Necho Cat; Aura Lion; 3 Quina: Sir Kyroo; Chef Kyroo; Lord Kyroo; 4 Vivi: Majik Lapin; Ryu Dragon; Pegaslick. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–2:59 = 10, 3:00–3:22 = 9, 3:23–3:44 = 8, 3:45–4:07 = 7, 4:08–4:29 = 6, 4:30–4:52 = 5, 4:53–5:14 = 4, 5:15–5:37 = 3, 5:38–5:59 = 2, 6:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 6+, Silver 11+, Gold 16+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Final_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:horror-cup",
@@ -7126,12 +7126,12 @@
       "world": "Traverse Town",
       "area": "Fourth District",
       "prerequisites": "Rush LV13",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Sparrow: Fishboné; Ghostabocky; Skelterwild. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Sparrow: Fishboné; Ghostabocky; Skelterwild. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–2:59 = 10, 3:00–3:22 = 9, 3:23–3:44 = 8, 3:45–4:07 = 7, 4:08–4:29 = 6, 4:30–4:52 = 5, 4:53–5:14 = 4, 5:15–5:37 = 3, 5:38–5:59 = 2, 6:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 2+, Silver 3+, Gold 4+. These points are not spendable Medals.",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Horror_Cup"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals."
     },
     {
       "id": "dddhd:challenges:secret-cup",
@@ -7140,8 +7140,8 @@
       "summary": "5 rounds.",
       "world": "Traverse Town",
       "area": "Fourth District",
-      "prerequisites": "Win all other cups; Rush LV15",
-      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Pavo: Pegaslick; Kab Kannon; Halbird; 2 Fornax: Majik Lapin; Electricorn; Ursa Circus; 3 Draco: Drak Quack; Ryu Dragon; Skelterwild; 4 Canis Major: Meowjesty x3; 5 Orion: Keeba Tiger; Tyranto Rex; Cera Terror. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement.",
+      "prerequisites": "Win the other cups; published unlock thresholds disagree between Rush LV 15 and LV 17.",
+      "instructions": "Enter Flick Rush at the tournament moogle. HD uses local tournament play; 3DS wireless play does not apply. Match roster: 1 Pavo: Pegaslick; Kab Kannon; Halbird; 2 Fornax: Majik Lapin; Electricorn; Ursa Circus; 3 Draco: Drak Quack; Ryu Dragon; Skelterwild; 4 Canis Major: Meowjesty x3; 5 Orion: Keeba Tiger; Tyranto Rex; Cera Terror. Defend with a higher card total to evolve the first card; evolved value doubles. Switch Spirits to let the reserve reload. Published match-time scoring: 0:00–3:59 = 10, 4:00–4:22 = 9, 4:23–4:44 = 8, 4:45–5:07 = 7, 5:08–5:29 = 6, 5:30–5:52 = 5, 5:53–6:14 = 4, 6:15–6:37 = 3, 6:38–6:59 = 2, 7:00 or longer = 1; defeat = 0. Remaining HP scoring (use the highest matching threshold): 70% or more = 12, 60% or more = 11, 50% or more = 10, 45% or more = 9, 39% or more = 8, 34% or more = 7, 28% or more = 6, 23% or more = 5, 17% or more = 4, 12% or more = 3, 6% or more = 2, 1% or more = 1, 0% or more = 0. Successful attacks scoring (use the highest matching threshold): 90% or more = 12, 87% or more = 11, 83% or more = 10, 80% or more = 9, 76% or more = 8, 72% or more = 7, 69% or more = 6, 65% or more = 5, 61% or more = 4, 58% or more = 3, 54% or more = 2, 0% or more = 1. Blocks score one point each, capped at 5. Add time, HP, successful attacks and blocks: S at 30+, A at 23–29, B at 16–22, C at 15 or below. Cup prize scoring: S = 4, A = 3, B = 2, C = 1 point per round; sum the round points. Bronze 7+, Silver 14+, Gold 20+. These points are not spendable Medals. Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement.",
       "reward": "Sweet Dreams for clearing Secret Cup match 5 (Orion).",
       "sources": [
         "https://www.khwiki.com/Flick_Rush",
@@ -7150,7 +7150,7 @@
         "https://www.khwiki.com/Sweet_Dreams",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/74405?page=1"
       ],
-      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. HD player documentation supports character-specific delivery. Exact minimum replay scope and Steam event retrigger details are not independently verified."
+      "uncertainty": "All match lineups are extracted. Per-round medal cells are blank for some cups; exact HD input bindings are not specified by the 3DS-oriented mechanics source. Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals. HD player documentation supports character-specific delivery. Exact minimum replay scope and Steam event retrigger details are not independently verified."
     },
     {
       "id": "dddhd:keyblades:kingdom-key",
@@ -7599,8 +7599,11 @@
       "summary": "Achieve a Rush Level of 20.",
       "sources": [
         "https://steamcommunity.com/stats/2552440/achievements",
-        "https://steamcommunity.com/stats/2552440/achievements/?l=english"
-      ]
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Flick_Rush"
+      ],
+      "instructions": "Published Rush LV progression: start at 1; gain one level for the first win of each of the ten cups, lifetime medal totals of 300, 700, 3000 and 5000, totals of 5 and 10 Silver/Gold prizes, and totals of 3, 5 and 10 Gold prizes. These 19 milestones reach LV20. Current medal wallet and lifetime earnings are different values.",
+      "uncertainty": "Exact HD progression thresholds are not independently verified; published Rush LV and prize rules are provided as a mechanics reference."
     },
     {
       "id": "dddhd:achievements:brave-challengers",

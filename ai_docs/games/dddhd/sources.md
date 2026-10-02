@@ -80,3 +80,6 @@ No public page alone makes an entire category ready. Preserve source/edition/con
 ## Complete chest landmark reconciliation (2026-10-01)
 
 The complete 438-row KH13 treasure list and independent GamerGuides final-world landmarks are recorded with edition/access status in `chest-route-enrichment.json`. All current world identities were reconciled: 16 explicit HD replacements and two Curaga/Doubleflight source-number conflicts. GameFAQs 64798 was HTTP403/web-restricted; indexed excerpts are shared lineage with KH13, not an independent full-table check. Every pickup landmark is integrated; earliest access, movement minima and returnability have bounded residuals.
+
+
+2026-10-02: [Full-scope follow-up](gap-closure-2026-10-02.md) and [per-family inspection outcomes](gap-evidence-2026-10-02.json) distinguish full HD pages, indexed-only player reports, inaccessible images/spreadsheets, generic binary schemas and mod-only values. OpenKH is pinned to `7a3b945c538d32c6a285128c98aefba093f52ceb`; Steam AP to `aae4da6f2658154866f9e88dde14506c9a576de8`. AP explicitly substitutes missing breed stats and writes encounter events, so it is excluded as vanilla proof for those fields.

@@ -1,8 +1,10 @@
 # DDD current audit dispositions
 
-2026-10-01 current state: **7 resolved, 17 partial, 1 blocked**. Original audit findings remain historical. [Continuation report](research-continuation-2026-10-01.md) accounts for every prior residual, including no-change outcomes. Documentary evidence is not a claimed playtest.
+2026-10-02 current state: **7 resolved, 17 partial, 1 blocked**. Original audit findings remain historical. [Continuation report](research-continuation-2026-10-01.md) accounts for every prior residual, including no-change outcomes. Documentary evidence is not a claimed playtest. [Full residual follow-up](gap-closure-2026-10-02.md) and [machine-readable attempts](gap-evidence-2026-10-02.json) retain all 18 unresolved families; none was closed by assumption.
 
 ## DDD-001 — partial
+
+2026-10-02 follow-up: 11 Grid chest access actions integrated; 438 IDs preserved. Remaining evidence: Complete per-chest earliest event, minimum movement and returnability matrix; the 437-ID earliest-access residual is not reduced merely by new route actions.
 
 All 438 pickup landmarks integrated from the complete KH13 location table, reconciled by HD item/area identity; all 51 KHWiki notes and existing longer approaches retained. Directions also reach command, material, recipe-item and training-item acquisition references. Map compass convention and available access actions are explicit.
 
@@ -32,6 +34,8 @@ Consulted URLs: [Game:Country_of_the_Musketeers](https://www.khwiki.com/Game:Cou
 
 ## DDD-003 — partial
 
+2026-10-02 follow-up: Jestabocky reciprocal connection remains uncertified. Remaining evidence: Unmodified HD Jestabocky board screenshot or identified board bytes proving A-3/B-3 edge and checkpoint edition.
+
 All 54 boards extracted: 1,144 nodes with reciprocal edges, quotas, costs, conditional transformations and disposition references. Live Cyber Yog nodes classify both Thunder Screens as Stat abilities; legacy import remains historical.
 
 Remaining / closure basis: Jestabocky B-3 Left reaches existing A-3 Magic Boost, but A-3 lacks reciprocal Right. Aura Lion C-7/D-7 remains separately blocked. 3DS corroboration cannot certify HD.
@@ -45,6 +49,8 @@ Follow-up: A provenance-labelled HD Jestabocky board image or lboard.bin resolvi
 Consulted URLs: [Aura_Lion](https://www.khwiki.com/Aura_Lion); [Beatalike](https://www.khwiki.com/Beatalike); [Catanuki](https://www.khwiki.com/Catanuki); [Cera_Terror](https://www.khwiki.com/Cera_Terror); [Chef_Kyroo](https://www.khwiki.com/Chef_Kyroo); [Cyber_Yog](https://www.khwiki.com/Cyber_Yog); [Drak_Quack](https://www.khwiki.com/Drak_Quack); [Drill_Sye](https://www.khwiki.com/Drill_Sye). All 59 URLs are enumerated in the JSON ledger.
 
 ## DDD-004 — blocked
+
+2026-10-02 follow-up: Aura Lion C-7/D-7 red-secret ambiguity remains blocked. Remaining evidence: Species-labelled HD red-secret node and transformation target, including coordinates and LV30 path.
 
 Conflict propagated to Aura Lion, Faith, Curaga and Second Chance; table costs and level-30 gate retained.
 
@@ -60,6 +66,8 @@ Consulted URLs: [Aura_Lion](https://www.khwiki.com/Aura_Lion); [64749](https://g
 
 ## DDD-005 — partial
 
+2026-10-02 follow-up: Added one explicitly PS4-player-reported Tubguin interaction; all 15 unknown numeric fields and five unverified body cells remain explicit. Remaining evidence: Vanilla species parameter rows with base-stat conversion semantics; independent HD corroboration for the five missing interaction cells.
+
 All 54 four-disposition tables, base stats and normal/rare form flags extracted; nine Spirit-only breeds explicitly distinguished from absent enemy data.
 
 Remaining / closure basis: 15 base-stat fields are ??? across Beatalike, Catanuki and Tubguin Ace. Five body-part instructions are blank: Beatalike two, Tubguin Ace two, Woeflower one. Individual pages retain these blanks; the 3DS FAQ cannot fill new HD breeds.
@@ -74,6 +82,8 @@ Consulted URLs: [Aura_Lion](https://www.khwiki.com/Aura_Lion); [Beatalike](https
 
 ## DDD-006 — partial
 
+2026-10-02 follow-up: 141 omitted probabilities remain unknown; no automatic100% assumption. Remaining evidence: HD recipe outcome probability table or identified vanilla synthesis routine for unmarked combinations.
+
 263 formulas retained; 37 shared ingredient events cross-linked. The 54 marked recipe-item formulas receive the explicit 100% rule; nulls are never defaulted wholesale.
 
 Remaining / closure basis: 141 unmarked formulas retain unreported odds. SynthKH3D has no probability default establishing 100%; absence of chance/success fields is not proof. Risky Winds wording is separately ambiguous (DDD-007).
@@ -87,6 +97,8 @@ Follow-up: Explicit HD probability/outcome table or code/data explaining unmarke
 Consulted URLs: [Aura_Lion](https://www.khwiki.com/Aura_Lion); [Beatalike](https://www.khwiki.com/Beatalike); [Catanuki](https://www.khwiki.com/Catanuki); [Cera_Terror](https://www.khwiki.com/Cera_Terror); [Chef_Kyroo](https://www.khwiki.com/Chef_Kyroo); [Cyber_Yog](https://www.khwiki.com/Cyber_Yog); [Drak_Quack](https://www.khwiki.com/Drak_Quack); [Drill_Sye](https://www.khwiki.com/Drill_Sye). All 57 URLs are enumerated in the JSON ledger.
 
 ## DDD-007 — partial
+
+2026-10-02 follow-up: Initial-level malformed cells and Risky Winds transformation remain unverified. Remaining evidence: Correct table for malformed level cells and a vanilla HD weather odds rule, including50% boundary and recipe-item behavior.
 
 Exact extra-material rank thresholds, weaker-ingredient rule, bonus-level formula, rank/stat correction and 105 command-donation rows integrated as references and command details.
 
@@ -116,6 +128,8 @@ Consulted URLs: [Recipe](https://www.khwiki.com/Recipe); [Talk:Recipe](https://w
 
 ## DDD-009 — partial
 
+2026-10-02 follow-up: No guaranteed new material loop or expiration yield asserted. Remaining evidence: Edition-labelled drop records plus room mapping, vendor stock limits and exact expiration/repeat reward quantities.
+
 All 37 materials joined to chests, normal/rare worlds, portals and shop stock; all 17 material-family pages inspected, non-3DS tutorial/expiration clauses integrated.
 
 Remaining / closure basis: Ordinary enemy sources are mostly world lists, not room-level spawn walks. Expiration pages name breeds but omit quantities. Rampant page also contains an unresolved Ultimania Dungeon comment. Portal first/repeat item semantics not uniformly described.
@@ -137,6 +151,8 @@ Remaining / closure basis: No remaining extraction defect in this finding; deepe
 Consulted URLs: [Aura_Lion](https://www.khwiki.com/Aura_Lion); [Beatalike](https://www.khwiki.com/Beatalike); [Catanuki](https://www.khwiki.com/Catanuki); [Cera_Terror](https://www.khwiki.com/Cera_Terror); [Chef_Kyroo](https://www.khwiki.com/Chef_Kyroo); [Cyber_Yog](https://www.khwiki.com/Cyber_Yog); [Drak_Quack](https://www.khwiki.com/Drak_Quack); [Drill_Sye](https://www.khwiki.com/Drill_Sye). All 54 URLs are enumerated in the JSON ledger.
 
 ## DDD-011 — partial
+
+2026-10-02 follow-up: Strike Raid remains22/24 seconds, not certified. Remaining evidence: Unmodified HD command cooldown definition or independent exact timing accounting for haste.
 
 All 124 commands audited for mechanics extraction: all 88 Attack/Magic/Item slot/use fields, 78 of 79 applicable Attack/Magic reloads, all player acquisition/default assertions, complete chest/shop/54-board joins and donation bonuses. The other 45 commands are consumables or non-reloading movement/defense/reprisal/Flowmotion actions, not missing reload values. Exact-tier Fire 12/18/26, Cure 20/24/30, Thunder 12/18/26, Balloon 12/18/26 and Spark 12/20/36 now survive generation; Spark Dive is 22 seconds and one slot.
 
@@ -160,6 +176,8 @@ Consulted URLs: [Abilities_(KH3D)](https://www.khwiki.com/Abilities_(KH3D)); [77
 
 ## DDD-013 — partial
 
+2026-10-02 follow-up: Action names retained; no guessed Steam keyboard/controller mapping. Remaining evidence: Steam default binding/config reference for each Link action and gauge duration, separated from remapping.
+
 43 Link entries cover 27 single attacks, seven dual attacks, five single styles, three normal dual styles, plus story-only Nightmare Clash. All breed mappings, full pair tables and wildcard exclusions preserved; per-Link gauge rates imported where present.
 
 Remaining / closure basis: All 43 individual technique pages consulted. Their button vocabularies are predominantly 3DS, not a verified Steam controller/keyboard crosswalk; some lack gauge duration. No universal HD input mapping is invented.
@@ -174,6 +192,8 @@ Consulted URLs: [Link_System](https://www.khwiki.com/Link_System); [Meow_Wounce]
 
 ## DDD-014 — partial
 
+2026-10-02 follow-up: No new HD portal landmark routes certified. Remaining evidence: HD landmark/activation-state atlas keyed to the existing346 identities.
+
 All 78 Specials have forecast/enemy/bonus/unlock/reward data; 11 Secret areas/HP rewards retained.
 
 Remaining / closure basis: World templates mostly identify areas, not exact landmark approaches. Not every reward cell separates first-clear delivery from repeat/bonus delivery. The HD goal guide is not a comprehensive 89-route/reward-state matrix.
@@ -187,6 +207,8 @@ Follow-up: HD portal landmark/activation-state atlas matched to existing identit
 Consulted URLs: [Game:Country_of_the_Musketeers](https://www.khwiki.com/Game:Country_of_the_Musketeers); [Game:La_Cit%C3%A9_des_Cloches](https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches); [Game:Prankster%27s_Paradise](https://www.khwiki.com/Game:Prankster%27s_Paradise); [Game:Symphony_of_Sorcery](https://www.khwiki.com/Game:Symphony_of_Sorcery); [Game:The_Grid](https://www.khwiki.com/Game:The_Grid); [Game:The_World_That_Never_Was](https://www.khwiki.com/Game:The_World_That_Never_Was); [Game:Traverse_Town](https://www.khwiki.com/Game:Traverse_Town); [Portal](https://www.khwiki.com/Portal). All 11 URLs are enumerated in the JSON ledger.
 
 ## DDD-015 — partial
+
+2026-10-02 follow-up: First-clear/repeat/bonus transitions remain separate unknowns. Remaining evidence: Vanilla HD award transition data with first, repeat, bonus success and failure cases.
 
 316 Battle/Friend forecast configurations grouped into 257 source-number identities; combined portal catalog 346. All seven bonus types explicitly enumerated for Brave Challengers; timed thresholds remain variants of one type.
 
@@ -210,6 +232,8 @@ Consulted URLs: [Dive_Mode](https://www.khwiki.com/Dive_Mode); [Game:The_Grid](h
 
 ## DDD-017 — partial
 
+2026-10-02 follow-up: Transcribed the complete published match-score tables, rank thresholds, cup-prize points and 19 Rush LV milestones into canonical inputs and runtime. Speed Cup time group remains explicitly absent; spendable Medal payout matrix remains unknown. Exposed Secret Cup LV15+other-cups versusLV17 source conflict. Remaining: unmodified HD equivalence, Speed Cup missing time group, Secret Cup minimum unlock, and spendable Medal payouts.
+
 All ten cups/27 match lineups and available medal cells extracted, complete Medal stock joined; evolved-card and reserve-reload tactics added.
 
 Remaining / closure basis: Some cup source medal fields are blank and per-rank medal tables are not complete. Flick Rush mechanics page retains 3DS input terminology rather than complete Steam bindings; these blanks remain explicit.
@@ -223,6 +247,8 @@ Follow-up: HD payout data or documentary result table separating cup/rank/bonus 
 Consulted URLs: [Flick_Rush](https://www.khwiki.com/Flick_Rush); [Moogle_Shop](https://www.khwiki.com/Moogle_Shop); [Training_Cup](https://www.khwiki.com/Training_Cup); [Beginner%27s_Cup](https://www.khwiki.com/Beginner%27s_Cup); [Rainbow_Cup](https://www.khwiki.com/Rainbow_Cup); [Digital_Cup](https://www.khwiki.com/Digital_Cup); [Tin_Pin_Cup](https://www.khwiki.com/Tin_Pin_Cup); [Speed_Cup](https://www.khwiki.com/Speed_Cup). All 13 URLs are enumerated in the JSON ledger.
 
 ## DDD-018 — partial
+
+2026-10-02 follow-up: No universal Steam toy bindings or breed-optimal route invented. Remaining evidence: Steam training input/scoring and size parameter semantics; breed-specific efficient training evidence.
 
 24 training/treat acquisition references plus HD Balloon/Water Barrel/Candy Goggles controls and reward types; Reality Shift world map and HD activation cautions integrated.
 
@@ -238,6 +264,8 @@ Consulted URLs: [Training_Toy](https://www.khwiki.com/Training_Toy); [Reality_Sh
 
 ## DDD-019 — partial
 
+2026-10-02 follow-up: Lord Kyroo save/reload HP persistence remains unknown. Remaining evidence: Vanilla HD saved boss-HP field plus load/exit transition, not mod-maintained encounter flags.
+
 Lord Kyroo 70-second escape, shared retained HP, Riku→Sora→Riku loop, room-exit reset, skipped Nave alternative and finishing-character HP reward integrated; Julius location/clear-data entry and character rewards retained.
 
 Remaining / closure basis: Lord Kyroo source defines timeout/room-exit behavior but does not define save-reload persistence. No save experiment is fabricated.
@@ -251,6 +279,8 @@ Follow-up: HD save schema/event code identifying boss HP persistence and reset c
 Consulted URLs: [Lord_Kyroo](https://www.khwiki.com/Lord_Kyroo); [Julius](https://www.khwiki.com/Julius); [77497](https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497); [37a7a9dde19463a0d5f0c9588c634d6129e536f6](https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6). All 4 URLs are enumerated in the JSON ledger.
 
 ## DDD-020 — partial
+
+2026-10-02 follow-up: HD character-specific Sweet Dreams delivery now has independent full-page corroboration; practical replay route integrated. Remaining evidence: Exact minimum replay scope (final round versus whole cup) and Steam retrigger behavior for already-completed cups. No automatic second-character ownership. Shared checklist type IDs remain unchanged.
 
 All 15 Keyblade source pages read; 13 eligible types per character preserved. Per-character Dive/portal/Julius conditions and all stat rows integrated.
 
@@ -266,6 +296,8 @@ Consulted URLs: [Kingdom_Key](https://www.khwiki.com/Kingdom_Key); [Way_to_the_D
 
 ## DDD-021 — partial
 
+2026-10-02 follow-up: Daring Diver and released-instance aggregation remain partial. Remaining evidence: Award aggregation code or explicit HD reports demonstration distinguishing course bests/repeats and released Spirit flags.
+
 All 18 HD trophy rows reconciled. Stat Builder exact 5/3/3/3 simultaneous party stacks; Ribbit Reaper ordinary or boss form; Keyblade Conqueror both characters.
 
 Remaining / closure basis: Dream Pleaser partial/released-instance flags and Daring Diver best-score versus repeat-score accumulation are not unambiguously established. KHWiki text and cumulative HD guide wording do not resolve every internal counter; no total catalog closed from Stat Builder alone.
@@ -279,6 +311,8 @@ Follow-up: HD award counter definitions, especially course-best versus cumulativ
 Consulted URLs: [Trophies](https://www.khwiki.com/Trophies); [77497](https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497); [https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/](https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/); [https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/trophy-conditions-and-tips/](https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/trophy-conditions-and-tips/); [37a7a9dde19463a0d5f0c9588c634d6129e536f6](https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6). All 5 URLs are enumerated in the JSON ledger.
 
 ## DDD-022 — partial
+
+2026-10-02 follow-up: All54 observed Steam keys retained; public names/requirements do not certify internal counters. Remaining evidence: Steam internal unlock/counter semantics. PSN/Xbox/Epic native identifiers are outside this Steam-only closure scope, retained as future portability work.
 
 Official Steam 69 partitioned into all 54 DDD goals plus 15 0.2. Exact public DDD names/requirements replace the selected 15 subset; Ability Ace mode exception applied. All 54 native Steam API key associations are now independently observed and recorded in steam-key-provenance.json and platform-facts.json. Runtime checklist IDs remain unchanged. Other platform native IDs and internal unlock counters remain unverified.
 
@@ -309,6 +343,8 @@ Remaining / closure basis: No remaining enumerated extraction/provenance omissio
 Consulted URLs: [Game:Country_of_the_Musketeers](https://www.khwiki.com/Game:Country_of_the_Musketeers); [Game:La_Cit%C3%A9_des_Cloches](https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches); [Game:Prankster%27s_Paradise](https://www.khwiki.com/Game:Prankster%27s_Paradise); [Game:Symphony_of_Sorcery](https://www.khwiki.com/Game:Symphony_of_Sorcery); [Game:The_Grid](https://www.khwiki.com/Game:The_Grid); [Game:The_World_That_Never_Was](https://www.khwiki.com/Game:The_World_That_Never_Was); [Game:Traverse_Town](https://www.khwiki.com/Game:Traverse_Town); [Aura_Lion](https://www.khwiki.com/Aura_Lion). All 67 URLs are enumerated in the JSON ledger.
 
 ## DDD-025 — partial
+
+2026-10-02 follow-up: No promise that Theater wrong-answer replay always repairs the ending. Remaining evidence: HD trigger/retrigger decision table for wrong answers, boss replays, saved clear data and credits letters.
 
 All 15 Keyblade stat rows and secret-ending criteria/replay reference integrated. Clear-data/NG+ state rules added.
 
