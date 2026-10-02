@@ -271,7 +271,17 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Barrel_Spider",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "rngRoute": {
+        "world": "Monstro",
+        "room": "Sleeping Darkness",
+        "deck": "Warp, then three Attack cards",
+        "rolls": 6,
+        "encounter": "Strike the barrels: break the rear barrel, then the two left barrels together.",
+        "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
+        "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      }
     },
     {
       "id": "recom-farm-wight-knight",
@@ -418,7 +428,17 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Warp"
       ],
-      "successVerification": "Source-backed shared success rules and explicit remake room/rate rows; Warp mechanics explicitly preserve map/enemy-card prizes while excluding EXP. Not a guaranteed card drop."
+      "successVerification": "Source-backed shared success rules and explicit remake room/rate rows; Warp mechanics explicitly preserve map/enemy-card prizes while excluding EXP. Not a guaranteed card drop.",
+      "rngRoute": {
+        "world": "Traverse Town",
+        "room": "White Room",
+        "deck": "Two Warps, then one Attack card",
+        "rolls": 10,
+        "encounter": "Strike the bottom-right mushroom promptly; locate its spawn on a practice attempt first.",
+        "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
+        "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      }
     },
     {
       "id": "recom-farm-black-fungus",
@@ -468,7 +488,17 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Tornado_Step",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "rngRoute": {
+        "world": "Hollow Bastion",
+        "room": "Strong Initiative",
+        "deck": "Two Warps, then six Attack cards",
+        "rolls": 0,
+        "encounter": "Strike the Shadow up one step and left of the lower entrance, near the rear triangle.",
+        "setup": "Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately.",
+        "caveat": "Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure.",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+      }
     },
     {
       "id": "recom-farm-crescendo",

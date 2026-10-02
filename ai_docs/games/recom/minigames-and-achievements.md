@@ -19,7 +19,7 @@ Research: updated 2026-10-01. [47 Steam goal candidates](steam-achievements.json
 
 Reward locations/values: [Game:100 Acre Wood](https://www.khwiki.com/Game:100_Acre_Wood). Bambi: [Summon Card](https://www.khwiki.com/Summon_Card). Score requirements: [Steam's public achievement list](https://steamcommunity.com/stats/2552430/achievements/).
 
-The first-clear and second-clear columns do not promise every later replay repeats the same fixed reward. Preserve card value as a property of the reward copy, not a new card identity. No Torn Page hunt from KH1/KH2 belongs here.
+The recovered PS2 guide explicitly reports no further prizes after first-clear/Challenge rewards and closes Monstro after a successful clear. This is recorded as edition-qualified lineage; Steam-specific replay behavior remains uncorroborated. The first-clear and second-clear columns do not promise repeated fixed rewards. Preserve card value as a property of the reward copy, not a new card identity. No Torn Page hunt from KH1/KH2 belongs here.
 
 Practical rules from individual minigame pages:
 
@@ -61,3 +61,5 @@ The modern card roster is 152 Sora / 59 Riku types. Gold unlocks after the other
 A complete platform Report achievement can include narrative/character entries even though the app's world collectible denominator excludes them. Preserve the achievement's full requirement without turning story flags into world treasures. All eight friend availability rules are supplied, and Journal/Report references describe Mickey stamps for completed sections/subsections. Full character registration triggers, rank thresholds, native ordering/percentage and exact Steam predicates remain incomplete. The firsthand No Escape save-reload report in the resolution ledger is limited evidence, not a universal save-state guarantee.
 
 The continuation adds PS4 HD character-completion guidance to the Sora character and whole-Journal goals; its scope and remaining exact-event gaps are recorded in [COM-012](research-continuation-2026-10-01.md).
+
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.

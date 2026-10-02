@@ -1,31 +1,31 @@
 # Re:CoM research resolution — October 1, 2026
 
-This is the current disposition of **all 32 findings** in [the audit](research_audit.md), after live source inspection and canonical-data/runtime integration. The original `f933ab1` register and appendices remain historical evidence. Source-backed resolution is not a claim that a Steam game build was executed.
+Updated by the [October 2 remaining-gap pass](gap-closure-2026-10-02.md). This is the current disposition of **all 32 findings** in [the audit](research_audit.md), after live source inspection and canonical-data/runtime integration. The original `f933ab1` register and appendices remain historical evidence. Source-backed resolution is not a claim that a Steam game build was executed.
 
 **15 closed (14 supported resolutions and one false gap), 11 partially resolved, three open after investigation, and three non-factual limitations.** No finding was skipped or changed to “blocked” merely because it was large. A partial status means useful supported facts are integrated while the exact remainder below is still unproved.
 
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
-| COM-001 | Open, investigated | HD attack/assorted identity, value and Premium odds and locked-pool renormalization remain absent from edition-correct accessible evidence. Existing prices, stock and eight magic/item identity pools remain closed. |
+| COM-001 | Open, investigated | Recovered Prima probability rows conflict with selected remake values; HD attack/assorted identity, value/Premium odds and locked-pool behavior remain unproved. Existing prices, stock and eight magic/item identity pools remain closed. |
 | COM-002 | Partial | Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved. |
-| COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Full room spawn compositions, scripted exceptions beyond those footnotes and repeat/reset routes remain incomplete. |
+| COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Steam save/reload guidance now reaches all 30 farms, with three detailed optional RNG routes. Full spawn compositions and scripted exceptions remain incomplete. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
-| COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
-| COM-007 | Partial | All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. General overlapping/extra-card precedence remains unknown. |
-| COM-008 | Partial | Steam firsthand chapter-skipping and character-file completion observations recorded. Minimum flags, restart and save-transfer semantics remain unknown. |
+| COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; all 83 ordinary names also match an inspected Steam-aware mod catalog, but native order and vanilla Steam membership/denominator remain unestablished. |
+| COM-007 | Partial | All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. Three-card-over-two-card priority now reaches all two-card moves. Arbitrary slot/overlap matching remains unknown. |
+| COM-008 | Partial | Steam firsthand chapter-skipping and character-file completion observations recorded. Steam mid-playthrough unlock and long-entry scrolling guidance integrated; minimum flags, restart timing and save-transfer semantics remain unknown. |
 | COM-009 | Partial | All 17 named Bounty priorities and clear gates retained. Precise save-loading/system-clear sequence and ineligible/exhausted unique-reward fallback remain unproved. |
 | COM-010 | Closed, supported | All 47 Steam API names explicitly recovered from individual indexed SteamDB requirement/game/key associations and propagated to runtime. No order/percentage inference; trigger implementation remains COM-011. |
 | COM-011 | Partial | Public requirements and previously resolved economy boundaries retained; firsthand save-reload/No Escape evidence recorded with its limited scope. Full 47-goal exact counters/comparisons/save ownership and forced-escape exceptions remain unproved. |
-| COM-012 | Partial | Report stamps and eight friend conditions retained; PS4 character-completion guidance now reaches two Sora goals. Full registration events, ranks, native order/percentage and Steam report predicates remain unproved. |
+| COM-012 | Partial | Report stamps and eight friend conditions retained; PS4 character-completion guidance now reaches two Sora goals. B1F final Riku story registration and enemy-encounter guidance integrated. Full registration events, ranks, native order/percentage and Steam predicates remain unproved. |
 | COM-013 | Closed, supported | All 99 levels, EXP increments/cumulative totals, five variable stat caps, maximum level and deferred AP/sleight-choice rules extracted. |
-| COM-014 | Partial | 59 combat records/379 floor rows/24 boss decks retained; early Ansem tutorial and Zexion tactics integrated. Ordered decks, full encounter/frame coverage and quarantined stat/duel conflicts remain. |
-| COM-015 | Partial | All six start/return routes and initial objectives now have canonical records. Third-and-later replay reward behavior is not specified by consulted sources. |
+| COM-014 | Partial | 59 combat records/379 floor rows/24 boss decks retained; early Ansem tutorial and Zexion tactics integrated. First Replica five-card duel observation added without an inferred timer. Ordered decks, full encounter/frame coverage and remaining stat/duel conflicts persist. |
+| COM-015 | Partial | All six start/return routes and initial objectives now have canonical records. Recovered PS2 guide explicitly says no further prizes and no Monstro replay after a win; Steam corroboration remains absent, so canonical later-replay values stay null. |
 | COM-016 | Closed, supported | All eight friend availability entries checked; exact Pluto thresholds/chance and Donald/Goofy/Peter Pan story windows integrated. |
 | COM-017 | Partial | Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved. |
 | COM-018 | Closed, false gap | Resistance-only Ansem player card is correct for Re:CoM. Concealment is original CoM Link Mode; enemy Ansem's use is separate. |
 | COM-019 | Closed, supported | All 13 Riku unlock/form requirements and six duel initiation requirements reach generated entries. |
-| COM-020 | Partial | All baseline missing URLs retain dated outcomes; additional indexed GameFAQs 56913/modern TrueTrophies text recovered with separate provenance. Original September 28 inspection metadata cannot be reconstructed. |
+| COM-020 | Partial | All baseline missing URLs retain dated outcomes; additional indexed GameFAQs 56913/modern TrueTrophies text recovered with separate provenance. October 2 indexed recoveries and exact mod-source commits recorded separately; original September 28 inspection metadata cannot be reconstructed. |
 | COM-021 | Closed, supported | 440 CP cells, 37 Premium costs and seven resolved enemy-cost conflicts preserved. |
 | COM-022 | Closed, supported | Complete 152 Sora / 59 Riku card-type rosters preserved. |
 | COM-023 | Closed, supported | 25 floor-door records, map matrices and all 17 Bounty priorities preserved. |

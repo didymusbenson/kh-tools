@@ -635,7 +635,17 @@
       ],
       "source": "https://www.khwiki.com/Game:Neverland",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "encounterNotes": [
+        {
+          "title": "B8F corridor encounter",
+          "text": "The first Riku Replica battle is in the B8F Exit Hall, independently of which world you placed on that floor. An HD walkthrough author reports winning a five-card duel here (Maelstrom). This does not identify the full corridor deck order or certify the duel timer."
+        }
+      ],
+      "sources": [
+        "https://www.khwiki.com/Game:Neverland",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
+      ]
     },
     {
       "id": "recom-riku-deck-hollow-bastion",

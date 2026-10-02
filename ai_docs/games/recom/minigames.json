@@ -13,13 +13,19 @@
       "target": null,
       "instructions": "Enter Monstro’s Room of Truth for the story Shadow battle. Defeat Heartless quickly to fill the meter. If it empties, leave and re-enter the Room of Truth to retry.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Monstro%27s_Belly_Brawl",
         "https://www.khwiki.com/Game:Monstro",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Room closes after the first successful clear; retry failed attempts beforehand."
+      }
     },
     {
       "id": "recom-sora-minigame-balloon-glider",
@@ -30,12 +36,18 @@
       "target": 500,
       "instructions": "At the Hunny Tree, approach the balloons tied to the log. Reach the top while avoiding branches and bees; losing every balloon ends the attempt. First clear: Firaga Burst. Second clear: Stop 0.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Balloon_Glider",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Further score attempts award no additional prizes after the two initial rewards."
+      }
     },
     {
       "id": "recom-sora-minigame-whirlwind-plunge",
@@ -46,12 +58,18 @@
       "target": 2000,
       "instructions": "At Muddy Road, jump onto the well with rising air. Collect honey while holding Pooh; use the reaction command to recover him after a collision. First clear: Mega-Ether 5. Second clear: Gravity 9.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Whirlwind_Plunge",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Further score attempts award no additional prizes after the two initial rewards."
+      }
     },
     {
       "id": "recom-sora-minigame-bumble-rumble",
@@ -62,12 +80,18 @@
       "target": 100,
       "instructions": "At Muddy Road, approach the honey hole in the tree. Protect Pooh with the supplied Attack, Wind and Honey cards. First clear: Elixir 1 after the 50-bee objective. Second clear: Hi-Potion 7. The achievement uses the 70-bee replay.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Bumble-Rumble",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Further score attempts award no additional prizes after the two initial rewards."
+      }
     },
     {
       "id": "recom-sora-minigame-tiggers-jump-a-thon",
@@ -78,12 +102,18 @@
       "target": 120,
       "instructions": "Return to Tigger’s Playground and repeat Tigger’s four-stump button sequence. The initial clear requires 25 correct jumps. First clear: Idyll Romp. Second clear: Ether 9.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Tigger%27s_Jump-a-Thon",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Further score attempts award no additional prizes after the two initial rewards."
+      }
     },
     {
       "id": "recom-sora-minigame-veggie-panic",
@@ -94,12 +124,18 @@
       "target": 150,
       "instructions": "Talk to Rabbit after the Rabbit’s House scene. Send cabbages left and pumpkins right; use Strike Raid on large pumpkins or to protect Pooh. The initial clear requires 30 vegetables. First clear: Cross-slash+. Second clear: Fire 8.",
       "laterReplayReward": null,
-      "replayVerification": "First/second rewards sourced; third-and-later fixed-reward repetition is not established by the consulted pages.",
+      "replayVerification": "PS2 firsthand guide section D.2.6 explicitly reports no additional prizes after first clear and Challenge Mode; Monstro cannot be replayed after clearing. Steam-specific repetition has not been independently established.",
       "sources": [
         "https://www.khwiki.com/Veggie_Panic",
         "https://www.khwiki.com/Game:100_Acre_Wood",
         "https://steamcommunity.com/stats/2552430/achievements/"
-      ]
+      ],
+      "replayLineage": {
+        "edition": "North American PS2 Re:CoM; guide includes separate PS3 HD differences appendix",
+        "source": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "section": "D.2.6 Journal — Minigames",
+        "behavior": "Further score attempts award no additional prizes after the two initial rewards."
+      }
     }
   ]
 }

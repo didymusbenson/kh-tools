@@ -53,3 +53,5 @@ These files overlap by design: a card definition, its chest reward and its achie
 See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historical baseline audit](research_audit.md). Exact pack distributions, Riku overrides, full farm routes, native sleight order, recipe precedence, save-state/Steam trigger predicates, Report registration and two basic-card durations remain precisely bounded; existing CP/card membership/doors remain closed.
 
 Source URLs, classifications and research tasks belong in this pack. Journal entries provide acquisition directions, costs and effects without sources/reference panels or research TODOs.
+
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.

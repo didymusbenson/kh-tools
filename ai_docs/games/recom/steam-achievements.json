@@ -773,7 +773,8 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -785,7 +786,13 @@
         "retrievalReference": "turn386search0",
         "matchedRequirement": "Complete D-Report.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "guidance": [
+        {
+          "title": "D Report completion",
+          "text": "Fight each Heartless type rather than only finishing the story. The HD walkthrough identifies Castle Oblivion’s Neoshadows as the last ordinary type encountered. Check the D Report stamps for remaining entries; story completion alone does not prove every enemy was encountered."
+        }
+      ]
     },
     {
       "id": "recom-steam-card-master-riku",
@@ -827,7 +834,8 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -839,7 +847,13 @@
         "retrievalReference": "turn379search0",
         "matchedRequirement": "Complete D-Report story entries.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "guidance": [
+        {
+          "title": "D Report completion",
+          "text": "The HD walkthrough places the final story entry, Riku’s Tale VI, at the B1F Entrance Hall before the final Ansem battle."
+        }
+      ]
     },
     {
       "id": "recom-steam-character-professor-riku",
@@ -854,7 +868,8 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -866,7 +881,13 @@
         "retrievalReference": "turn382search0",
         "matchedRequirement": "Complete D-Report character entries.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "guidance": [
+        {
+          "title": "D Report completion",
+          "text": "Fight each Heartless type rather than only finishing the story. The HD walkthrough identifies Castle Oblivion’s Neoshadows as the last ordinary type encountered. Check the D Report stamps for remaining entries; story completion alone does not prove every enemy was encountered."
+        }
+      ]
     },
     {
       "id": "recom-steam-novice-deck-builder",

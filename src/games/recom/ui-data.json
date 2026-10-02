@@ -3987,7 +3987,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Barrel_Spider",
-        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
       ],
       "family": "enemy",
       "stats": [
@@ -4032,6 +4033,10 @@
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+        },
+        {
+          "title": "Optional RNG route",
+          "text": "Monstro · Sleeping Darkness. Deck: Warp, then three Attack cards. 6 dodge rolls. Strike the barrels: break the rear barrel, then the two left barrels together. Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately. Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure."
         },
         {
           "title": "Active effect",
@@ -4559,6 +4564,7 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/White_Mushroom",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://www.khwiki.com/Warp"
       ],
       "family": "enemy",
@@ -4600,6 +4606,10 @@
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+        },
+        {
+          "title": "Optional RNG route",
+          "text": "Traverse Town · White Room. Deck: Two Warps, then one Attack card. 10 dodge rolls. Strike the bottom-right mushroom promptly; locate its spawn on a practice attempt first. Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately. Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure."
         },
         {
           "title": "Active effect",
@@ -4746,7 +4756,8 @@
         "https://www.khwiki.com/Tornado_Step",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
+        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
       ],
       "family": "enemy",
       "stats": [
@@ -4791,6 +4802,10 @@
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+        },
+        {
+          "title": "Optional RNG route",
+          "text": "Hollow Bastion · Strong Initiative. Deck: Two Warps, then six Attack cards. 0 dodge rolls. Strike the Shadow up one step and left of the lower entrance, near the rear triangle. Replace the entry Unknown Room with Moment’s Reprieve; create the specified room adjacent. Save with the stated deck, return to title, reload, then roll only the stated number inside the save room. Enter the target encounter and activate the stocked sleights immediately. Community route transcribed from DERIKUF; Steam players report success with the video methods, not a guaranteed per-route outcome. Retry from the save after failure."
         },
         {
           "title": "Active effect",
@@ -16257,6 +16272,7 @@
       "collectible": false,
       "sources": [
         "https://www.khwiki.com/Game:Neverland",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats",
         "https://www.khwiki.com/Enemy_Card"
@@ -16329,6 +16345,10 @@
         }
       ],
       "notes": [
+        {
+          "title": "B8F corridor encounter",
+          "text": "The first Riku Replica battle is in the B8F Exit Hall, independently of which world you placed on that floor. An HD walkthrough author reports winning a five-card duel here (Maelstrom). This does not identify the full corridor deck order or certify the duel timer."
+        },
         {
           "title": "Leveling",
           "text": "Riku reaches level 99; caps are 560 HP, 30 AP and 99 DP. Unchosen AP increases remain available on later levels."
@@ -18119,11 +18139,17 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "steamApiName": "ACH_083",
       "instructions": "Complete D-Report.",
-      "notes": []
+      "notes": [
+        {
+          "title": "D Report completion",
+          "text": "Fight each Heartless type rather than only finishing the story. The HD walkthrough identifies Castle Oblivion’s Neoshadows as the last ordinary type encountered. Check the D Report stamps for remaining entries; story completion alone does not prove every enemy was encountered."
+        }
+      ]
     },
     {
       "id": "recom-steam-card-master-riku",
@@ -18153,11 +18179,17 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "steamApiName": "ACH_085",
       "instructions": "Complete D-Report story entries.",
-      "notes": []
+      "notes": [
+        {
+          "title": "D Report completion",
+          "text": "The HD walkthrough places the final story entry, Riku’s Tale VI, at the B1F Entrance Hall before the final Ansem battle."
+        }
+      ]
     },
     {
       "id": "recom-steam-character-professor-riku",
@@ -18170,11 +18202,17 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/7"
       ],
       "steamApiName": "ACH_086",
       "instructions": "Complete D-Report character entries.",
-      "notes": []
+      "notes": [
+        {
+          "title": "D Report completion",
+          "text": "Fight each Heartless type rather than only finishing the story. The HD walkthrough identifies Castle Oblivion’s Neoshadows as the last ordinary type encountered. Check the D Report stamps for remaining entries; story completion alone does not prove every enemy was encountered."
+        }
+      ]
     },
     {
       "id": "recom-steam-novice-deck-builder",

@@ -73,3 +73,5 @@ Room Synthesis is a card-consuming room system, not material crafting. There is 
 ## October 1 edition clarification
 
 Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). All 29 basic-card effects and 22 numeric/use-detail notes now reach the journal. The continuation sources Dumbo’s base duration and additional summon output; exact Bambi/Goofy base durations remain open. All copied mushroom TODOs and both farm footnotes are corrected (COM-032 closed).
+
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.

@@ -22,6 +22,21 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   for(const name of ['Midnight Roar','Total Eclipse','Maverick Flare','Two Become One'])expect(attack.some(e=>e.name===name)).toBe(true);
   for(const name of ['Hidden Dragon','Monochrome','Follow the Wind','Photon Debugger'])expect(attack.some(e=>e.name===name)).toBe(false);
  });
+ it('keeps bounded research guidance scoped to the affected records',()=>{
+  const farms=recomEntries.filter(e=>e.notes?.some(n=>n.title==='Retrying a farm'));
+  expect(farms).toHaveLength(30);
+  expect(farms.every(e=>e.campaign==='sora'&&e.family==='enemy')).toBe(true);
+  expect(farms.filter(e=>e.notes?.some(n=>n.title==='Optional RNG route')).map(e=>e.name).sort()).toEqual(['Barrel Spider','Tornado Step','White Mushroom']);
+  const days=recomEntries.filter(e=>e.notes?.some(n=>n.title==='Days completion check'));
+  expect(days).toHaveLength(13);
+  expect(days.every(e=>e.category==='rewards'&&e.campaign==='sora')).toBe(true);
+  for(const recipe of sleights.records){
+   const entry=recomEntries.find(e=>e.id===recipe.id)!;
+   const twoCard=recipe.recipeAlternatives?.some(a=>a.slots.length===2)??false;
+   expect(entry.notes?.some(n=>n.title==='Stock priority')??false,recipe.id).toBe(twoCard);
+   if(recipe.recipeAlternatives?.length)expect(entry.thirdCardPrecedence,recipe.id).toBeNull();
+  }
+ });
  it('does not give Riku Sora shops, minigames or editable-deck categories',()=>{
   const riku=recomEntries.filter(e=>inCampaign(e,'riku'));
   expect(riku.filter(e=>['shop','minigames'].includes(e.category))).toHaveLength(0);
