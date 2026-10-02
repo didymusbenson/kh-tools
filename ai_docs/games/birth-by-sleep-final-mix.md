@@ -1,5 +1,7 @@
 # Kingdom Hearts Birth by Sleep Final Mix — family specification
 
+October 2 follow-up: 108 shop rows now use eight named-world milestones and 95 explicitly supported prior-acquisition alternatives; seven boards include 17 opponent variants / 288 command-level rows (39 Skull quantities unknown); 22 unique D-Link finisher actions are documented; all 14 ice-cream quantity lists have independent PSP-FM corroboration. Combined Threat normal entry combines Arena Level 7 and Radiant Garden. Exact current Steam thresholds, ticket/story exceptions, damage/CP values and save predicates retain explicit residuals. Family counts remain 17 partial and four researched-open; this is substantive subfield progress, not full factual closure. See the [inspected sources and exact residuals](bbsfm/gap-closure-2026-10-02.md).
+
 ## Status and boundary
 
 Research assessment updated 2026-10-01. [Research pack](bbsfm/README.md) and [readiness](../readiness/birth-by-sleep-final-mix.md) replace the previous unaudited discovery claims. The character journal, solver and shared profile are implemented. Content completeness and production acceptance remain partial; [the current per-ID ledger](bbsfm/research-dispositions-2026-10-01.json) supersedes historical research gaps.
@@ -32,8 +34,8 @@ Ars Arcanum answers where an acquisition is and how to obtain it. Apply the [col
 | Reports | Letter and I–XII acquisition table | Chest-linked reports must not double-count |
 | Abilities | 30 stack-cap entries; 28 meldable types | 152 CP curves integrated; Collision Magnet maximum, incomplete curves and random-crystal weights remain open |
 | Keyblades | 24 forms, scoped stats and acquisition | 48 reach/passive records integrated; Pixie Petal critical multiplier and complete independent modern stats remain open |
-| Other acquisition tables | 14 ice cream recipes, 42 flavors, 108 command-shop candidate rows, 42 finish-unlock predicate rows | Source leads; not all acquisition alternatives or mode exceptions |
-| Challenges | 16 Arena battles, 29 level-up conditions, nine Unversed Missions, four racing courses, five rhythm songs, seven boards with 45 mode-specific bonus-panel rows | Full opponent-card inventories, selected exact rank boundaries and complete boss strategies remain open |
+| Other acquisition tables | 14 ice cream recipes, 42 flavors, 108 normalized command-shop rows, 42 finish-unlock predicate rows | Source leads; not all acquisition alternatives or mode exceptions |
+| Challenges | 16 Arena battles, 29 level-up conditions, nine Unversed Missions, four racing courses, five rhythm songs, seven boards with 45 mode-specific bonus-panel rows | Published opponent inventories are indexed; Skull quantities, mode-specific differences, selected exact rank boundaries and complete boss strategies remain open |
 
 The inventory totals are measured candidate-source coverage, not automatic proof of a complete production compendium. [Source manifest](bbsfm/source-manifest.json).
 

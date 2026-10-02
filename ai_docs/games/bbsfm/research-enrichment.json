@@ -6553,6 +6553,12 @@
     },
     "Treasure Tussle": {
       "all": "Arena Level 15 OR consume one Treasure Ticket."
+    },
+    "Combined Threat": {
+      "all": "Normal entry requires Arena Level 7 and clearing Radiant Garden. Threat Ticket bypasses the Arena Level requirement; whether it bypasses the story requirement is not established."
+    },
+    "A Time to Chill": {
+      "all": "Arena Level 13 is published alongside an Aqua clear-data condition. Exact character-specific clear-data exceptions and Chill Ticket bypass of story conditions remain unverified."
     }
   },
   "boss_encounters": [
@@ -6594,8 +6600,8 @@
       "world": "Mirage Arena",
       "area": "Light’s Lessons",
       "access": "Arena Level 28.",
-      "reward": "Maximum HP +15",
-      "instructions": "The HD encounter has 1,000 HP (the PSP value is 1,200). Striking the protected back can stun the attacker. Favor openings created by blocking/countering; reflected attacks, mines, surges and Shotlocks provide alternatives to long exposed combos.",
+      "reward": "Maximum HP: HD sources report +15; independent mixed-edition guide lists +10",
+      "instructions": "The HD encounter has 1,000 HP (the PSP value is 1,200). Striking the protected back can stun the attacker. Favor openings created by blocking/countering; reflected attacks, mines, surges and Shotlocks provide alternatives to long exposed combos. The reward amount has an edition ambiguity: the independent guide combines HD/PSP columns without separating this reward (https://kouryakutsushin.com/khbbs/arenamode.htm).",
       "source": "https://www.khwiki.com/Armor_of_Eraqus"
     },
     {
@@ -6852,7 +6858,11 @@
         "Ventus": "Fire Glide keeps attacks airborne.",
         "Aqua": "Use Doubleflight, Air Slide and surges."
       },
-      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold."
+      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold.",
+      "independent_corroboration": {
+        "source": "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "scope": "PSP Final Mix guide corroborates the inclusive three-star table. Exact equality has not been tested on current Steam."
+      }
     },
     "Belly Balloon": {
       "ranks": {
@@ -6881,7 +6891,11 @@
         "Ventus": "Superglide shortens travel between groups.",
         "Aqua": "Use Doubleflight for travel; avoid wide attacks near decoys."
       },
-      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold."
+      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold.",
+      "independent_corroboration": {
+        "source": "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "scope": "PSP Final Mix guide corroborates the inclusive three-star table. Exact equality has not been tested on current Steam."
+      }
     },
     "Gluttonous Goo": {
       "ranks": {
@@ -6896,7 +6910,11 @@
         "Ventus": "Thunder Roll past its sides.",
         "Aqua": "Fabracadabra activates Spellweaver; use its finisher, then Barrier/Counter Blast."
       },
-      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold."
+      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold.",
+      "independent_corroboration": {
+        "source": "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "scope": "PSP Final Mix guide corroborates the inclusive three-star table. Exact equality has not been tested on current Steam."
+      }
     },
     "Element Cluster": {
       "ranks": {
@@ -6911,7 +6929,11 @@
         "Ventus": "Use Ice Slide, Fire Glide and Thunder Roll.",
         "Aqua": "Combine Ice Slide, Firewheel and Thunder Surge."
       },
-      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold."
+      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold.",
+      "independent_corroboration": {
+        "source": "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "scope": "PSP Final Mix guide corroborates the inclusive three-star table. Exact equality has not been tested on current Steam."
+      }
     },
     "Jellyshade": {
       "ranks": {
@@ -6940,7 +6962,11 @@
         "Ventus": "Chain available aerial commands.",
         "Aqua": "Use Fabracadabra twice to reach Spellweaver’s finisher."
       },
-      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold."
+      "boundary_note": "The source rank table includes the printed threshold, while its strategy prose says more than that value. Exact equality is not independently established; aim beyond the threshold.",
+      "independent_corroboration": {
+        "source": "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "scope": "PSP Final Mix guide corroborates the inclusive three-star table. Exact equality has not been tested on current Steam."
+      }
     }
   },
   "fruitball": {
@@ -7038,6 +7064,287 @@
             "limited": "—",
             "arena": "—"
           }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Ventus",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Strike Raid",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Strike Raid",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "opponent": "Aqua",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Fire",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Fire",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzard",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzard",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravity",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "opponent": "Terra",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Poison Edge",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravity",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Poison",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Sleep",
+                "level": 1,
+                "quantity": 4
+              }
+            ]
+          }
         ]
       },
       {
@@ -7073,6 +7380,282 @@
             "normal": "Bind (40%) / Stop (40%) / Blackout (20%)",
             "limited": "—",
             "arena": "—"
+          }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Cinderella (Casual Wear)",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Barrier Surge[3]",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Wishing Edge[3]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Wishing Edge[3]",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Confusion Strike",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzard",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravity",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Stop",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Stop",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Other",
+                "command": "Focus Block[4]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Other",
+                "command": "Focus Block[4]",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Other",
+                "command": "Focus Barrier[3]",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Other",
+                "command": "Focus Barrier[3]",
+                "level": 2,
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "opponent": "Cinderella (Dress)",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Barrier Surge[5]",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Wishing Edge[5]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Wishing Edge[5]",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Confusion Strike",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzard",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravity",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravity",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Stop",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Stop",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Other",
+                "command": "Focus Block",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Other",
+                "command": "Focus Block",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Other",
+                "command": "Focus Barrier[5]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Other",
+                "command": "Focus Barrier[5]",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
           }
         ]
       },
@@ -7122,6 +7705,281 @@
             "limited": "—",
             "arena": "—"
           }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Minnie",
+            "cards": [
+              {
+                "type": "Magic",
+                "command": "Blizzara",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzara",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzaga",
+                "level": 2,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 3,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Cura",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Cura",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Mini",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Mini",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 2,
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "opponent": "Captain Justice",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Freeze Raid",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Freeze Raid",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Blizzard Edge",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Slot Edge",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Slot Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 1,
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "opponent": "Captain Dark",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Freeze Raid",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Blizzard Edge",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -7169,6 +8027,228 @@
             "normal": "Mini",
             "limited": "Limit Storm (Terra only)",
             "arena": "—"
+          }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Experiment 626 (Stitch)",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Blitz",
+                "level": 1,
+                "quantity": 5
+              },
+              {
+                "type": "Attack",
+                "command": "Collision Magnet",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Collision Magnet",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thunder",
+                "level": 1,
+                "quantity": 5
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 3,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Shield",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Shield",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Graviga",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Graviga",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Magnet",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "opponent": "Gantu",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 2,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Sonic Blade",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Sonic Blade",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 1,
+                "quantity": 5
+              },
+              {
+                "type": "Attack",
+                "command": "Limit Storm[1]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Limit Storm[1]",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Firaga",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Firaga",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Ignite",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Ignite",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
           }
         ]
       },
@@ -7218,6 +8298,252 @@
             "limited": "—",
             "arena": "—"
           }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Peter Pan",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Blitz",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Treasure Raid",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Treasure Raid",
+                "level": 3,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Cura",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Cura",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": null
+              }
+            ]
+          },
+          {
+            "opponent": "Captain Hook",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Treasure Raid",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Treasure Raid",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Poison Edge",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Poison Edge",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Fire",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Fire",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Firaga",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Firaga",
+                "level": 3,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Square",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Square",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Blackout",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Ignite",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Ignite",
+                "level": 2,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 1,
+                "quantity": null
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 2,
+                "quantity": null
+              }
+            ]
+          }
         ]
       },
       {
@@ -7247,6 +8573,204 @@
             "normal": "Mine Square (50%) / Zero Gravira (50%)",
             "limited": "—",
             "arena": "—"
+          }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Pooh",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Fire Surge",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Surge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Confusion Strike",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Confusion Strike",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundaga",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Square",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Square",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Mine Square",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Aero",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 1,
+                "quantity": 7
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Sleep",
+                "level": 1,
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "opponent": "Tigger",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Strike",
+                "level": 3,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Sacrifice[1]",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Sacrifice[1]",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundaga",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Cura",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Stopra",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Other",
+                "command": "High Jump",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Other",
+                "command": "High Jump",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
           }
         ]
       },
@@ -7314,9 +8838,343 @@
             "limited": "Blitz",
             "arena": "Confusion Strike"
           }
+        ],
+        "opponent_decks": [
+          {
+            "opponent": "Ventus",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Blitz",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Blitz",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Sliding Dash",
+                "level": 1,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Strike Raid",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Magnera",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Magnera",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Aerora",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Confuse",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Slow",
+                "level": 2,
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "opponent": "Aqua",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Quick Blitz",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Fira",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Fission Firaga",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzara",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Blizzara",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Cure",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 1,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 2,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Magnera",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Magnera",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Bind",
+                "level": 1,
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "opponent": "Terra",
+            "cards": [
+              {
+                "type": "Attack",
+                "command": "Blitz",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Fire Dash",
+                "level": 1,
+                "quantity": 5
+              },
+              {
+                "type": "Attack",
+                "command": "Sonic Blade",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Aerial Slam",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Attack",
+                "command": "Poison Edge",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Poison Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Attack",
+                "command": "Stun Edge",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Attack",
+                "command": "Binding Strike",
+                "level": 2,
+                "quantity": 1
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Thundara",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 1,
+                "quantity": 3
+              },
+              {
+                "type": "Magic",
+                "command": "Zero Gravira",
+                "level": 2,
+                "quantity": 2
+              },
+              {
+                "type": "Magic",
+                "command": "Poison",
+                "level": 1,
+                "quantity": 4
+              },
+              {
+                "type": "Magic",
+                "command": "Poison",
+                "level": 2,
+                "quantity": 1
+              }
+            ]
+          }
         ]
       }
     ],
-    "remaining": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
-  }
+    "remaining": "Published opponent command levels and quantities are indexed; Skull Board quantities are unspecified. Exact Menu/Arena deck differences, AI purchase strategy, and current Steam implementation have not been independently established.",
+    "opponent_deck_evidence": "Transcribed published board tables; these are opponent inventories, not random draw probabilities. Null quantity means unspecified. Keyblade/Secret playable-character opponents depend on the selected character. Source tables do not certify mode-specific deck differences."
+  },
+  "arena_entry_rules_sources": [
+    "https://kouryakutsushin.com/khbbs/arenamode.htm",
+    "https://www.khwiki.com/Mirage_Arena"
+  ]
 }

@@ -97,3 +97,33 @@ describe('BBS October research expansion',()=>{
 it('rejects invalid levels instead of indexing a fractional chance row',()=>{
  for (const bad of [NaN,Infinity,-1,0,1.5,7]) expect(noCrystalAbilityChance(bad,3)).toBeUndefined();
 });
+
+it('uses named-world shop milestones and preserves unresolved Fire Dash prices',()=>{
+ const shop=(name:string)=>bbsData.shops.find(s=>s.name===name)!;
+ expect(shop('Blitz').instructions).toContain('Complete Never Land');
+ expect(shop('Cure').instructions).toContain('Complete any one');
+ expect(shop('Sliding Dash').instructions).toContain('game start');
+ expect(shop('Collision Magnet').unlock.any_of).toEqual([{kind:'previously-obtained'}]);
+ expect(shop('Fire Dash').instructions).toContain('Price and story gate conflict');
+ for(const character of ['terra','ventus','aqua']){
+  const command=guide.entries.find(e=>e.id===`bbsfm:${character}:command:blitz`)!;
+  expect(command.instructions).toContain('Complete Never Land');
+  expect(command.instructions).not.toContain('eight worlds');
+  const material=guide.entries.find(e=>e.id===`bbsfm:${character}:material:fire-dash`);
+  if(material)expect(material.instructions).toContain('Price and story gate conflict');
+ }
+});
+ it('publishes sourced opponent decks and D-Link actions without inventing missing quantities',()=>{
+  const board=guide.entries.find(e=>e.name==='Skull Command Board')!;
+  expect(board.instructions).toContain('Peter Pan:');
+  expect(board.instructions).toContain('Captain Hook:');
+  expect(board.instructions).toContain('× ?');
+  expect(board.uncertainty).toContain('Skull Board quantities are unspecified');
+  const link=guide.entries.find(e=>e.category==='dlinks'&&e.name==='Donald Duck')!;
+  expect(link.instructions).toContain('Cosmic Donald:');
+  expect(link.sources).toContain('https://www.khwiki.com/Cosmic_Donald');
+  expect(guide.recipes?.find(r=>r.group==='Ice cream')?.instructions).toContain('Purchase/story-award substitutes are not verified');
+  const battle=guide.entries.find(e=>e.category==='arena'&&e.name==='Combined Threat')!;
+  expect(battle.prerequisites).toContain('Arena Level 7 and clearing Radiant Garden');
+  expect(battle.prerequisites).toContain('whether it bypasses the story requirement is not established');
+ });

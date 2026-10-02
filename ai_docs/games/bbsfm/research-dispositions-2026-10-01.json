@@ -14,8 +14,8 @@
     {
       "id": "BBS-001",
       "status": "partial",
-      "applied": "Systematically reviewed all 382 guide chest rows: 374 main chests now have linked source approach/landmark text, plus the independently sourced Secret Gem route and all 60 sticker pickups. Reconciled three mismatches: Terra Tower Entrance, Ventus Rainbow Falls: Base, and Aqua chest 4 Mega Magic Recipe (saved IDs retained). Continuation integrates all eight Secret Episode approach notes.",
-      "remaining": "Some source rows still give only an area or relative landmark, not a full save-point approach. Exact earliest movement/access remains BBS-003; official ordering is BBS-002. Secret Episode routes now use the HD walkthrough; the tutorial has no added route. Guiding-key is fully accessible through web retrieval despite direct HTTP 403; no access blocker is claimed.",
+      "applied": "Systematically reviewed all 382 guide chest rows: 374 main chests now have linked source approach/landmark text, plus the independently sourced Secret Gem route and all 60 sticker pickups. Reconciled three mismatches: Terra Tower Entrance, Ventus Rainbow Falls: Base, and Aqua chest 4 Mega Magic Recipe (saved IDs retained). Continuation integrates all eight Secret Episode approach notes. October 2: Inspected Archipelago Locations.py chest inventory and Rules.py alongside existing routes. Its memory offsets and modified world flags are not physical approach directions. No unsupported route was imported.",
+      "remaining": "Remaining room-only directions require a vanilla walkthrough or direct route observation; a reward-memory address does not supply a save-point approach.",
       "consulted_sources": [
         "https://guiding-key.tumblr.com/khbbs-locations",
         "https://khrealm.com/kh-bbs-stickers-guide",
@@ -27,7 +27,9 @@
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/ventus-story/never-land",
         "https://www.khwiki.com/Megalixir",
         "https://www.khwiki.com/Recipe",
-        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html"
+        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html",
+        "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Locations.py",
+        "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Rules.py"
       ],
       "continuation_2026_10_01": {
         "outcome": "Integrated all eight Secret Episode approach notes from the HD walkthrough; retained 374 main routes and 60 pickups. Full save-point paths and earliest movement levels are still not universal.",
@@ -39,19 +41,28 @@
       "sources": [
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
         "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/83"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected Archipelago Locations.py chest inventory and Rules.py alongside existing routes. Its memory offsets and modified world flags are not physical approach directions. No unsupported route was imported.",
+        "remaining": "Remaining room-only directions require a vanilla walkthrough or direct route observation; a reward-memory address does not supply a save-point approach.",
+        "sources": [
+          "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Locations.py",
+          "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Rules.py"
+        ]
+      }
     },
     {
       "id": "BBS-002",
       "status": "researched-open",
-      "applied": "Preserved 374 main, eight Secret and one tutorial chest records; fixed generated collectible flags so all eight Secret chests count (442 total including 60 stickers).",
-      "remaining": "World/album inventories and GameFAQs Reports lists do not establish an independently reconciled HD Reports sequence for all 374 main chests. Source numbering remains source order, not certified UI numbering.",
+      "applied": "Preserved 374 main, eight Secret and one tutorial chest records; fixed generated collectible flags so all eight Secret chests count (442 total including 60 stickers). October 2: OpenKH ITB documents a Report ID byte in each eight-byte chest record; inspected Archipelago chest offsets, which do not contain that Reports sequence.",
+      "remaining": "Need unmodified Steam per-character common archive ITB values and a Reports UI comparison for 374 main chests; source order is still not official numbering.",
       "consulted_sources": [
         "https://guiding-key.tumblr.com/khbbs-locations",
         "https://khrealm.com/kh-bbs-stickers-guide",
         "https://www.khwiki.com/Sticker_Album",
         "https://www.khwiki.com/Game:Realm_of_Darkness",
-        "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/74825/v-treasures"
+        "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/74825/v-treasures",
+        "https://openkh.dev/bbs/file/type/itb.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Japanese FM treasure lists explicitly describe numbering from the upper-left, but also disclose original-version copying. They provide a new corroboration lead, not a completed 374-record modern UI reconciliation. The existing source_position values remain source numbering.",
@@ -65,13 +76,20 @@
         "https://wikiwiki.jp/kh_bbsfm/宝物リスト/ヴェントゥス",
         "https://wikiwiki.jp/kh_bbsfm/宝物リスト/テラ",
         "https://wikiwiki.jp/kh_bbsfm/宝物リスト/アクア"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "OpenKH ITB documents a Report ID byte in each eight-byte chest record; inspected Archipelago chest offsets, which do not contain that Reports sequence.",
+        "remaining": "Need unmodified Steam per-character common archive ITB values and a Reports UI comparison for 374 main chests; source order is still not official numbering.",
+        "sources": [
+          "https://openkh.dev/bbs/file/type/itb.html"
+        ]
+      }
     },
     {
       "id": "BBS-003",
       "status": "partial",
-      "applied": "Integrated post-Mad-Treant access for Ventus Soothing Crystal and source-described movement prerequisites in sticker pickup notes. Resolved modern Land of Departure revisit: original-Japanese-only permanent missability does not apply to HD.",
-      "remaining": "Exact minimum movement levels/earliest access and completeness of alternate sticker approaches remain unresolved. Main-save Land of Departure revisit is resolved; separate Final Episode exclusion remains.",
+      "applied": "Integrated post-Mad-Treant access for Ventus Soothing Crystal and source-described movement prerequisites in sticker pickup notes. Resolved modern Land of Departure revisit: original-Japanese-only permanent missability does not apply to HD. October 2: Inspected Archipelago access rules, including advanced-logic jumps and optional movement comments. Those rules assume modified world availability and do not certify vanilla minimum movement levels.",
+      "remaining": "Need character/room traversal observations at the disputed minimum levels under vanilla progression; alternate-route completeness remains open.",
       "consulted_sources": [
         "https://guiding-key.tumblr.com/khbbs-locations",
         "https://khrealm.com/kh-bbs-stickers-guide",
@@ -80,7 +98,8 @@
         "https://www.khwiki.com/Game:Land_of_Departure",
         "https://www.khwiki.com/Game:Young_Xehanort",
         "https://kingdomhearts.fandom.com/wiki/Land_of_Departure",
-        "https://www.playstationtrophies.org/forum/topic/237564-reports-completion/"
+        "https://www.playstationtrophies.org/forum/topic/237564-reports-completion/",
+        "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Rules.py"
       ],
       "continuation_2026_10_01": {
         "outcome": "Resolved the Land of Departure edition confusion: the world article explicitly limits permanent loss to original Japanese BBS and says later editions retain the ruined world. Added main-save revisit notes, preserving the separate Final Episode restriction. Sticker alternate-route sources still do not certify global minimum movement levels.",
@@ -96,7 +115,14 @@
         "https://www.playstationtrophies.org/forum/topic/237564-reports-completion/",
         "https://strategywiki.org/wiki/Kingdom_Hearts:_Birth_by_Sleep/Ventus/Castle_of_Dreams",
         "https://khrealm.com/kh-bbs-stickers-guide"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected Archipelago access rules, including advanced-logic jumps and optional movement comments. Those rules assume modified world availability and do not certify vanilla minimum movement levels.",
+        "remaining": "Need character/room traversal observations at the disputed minimum levels under vanilla progression; alternate-route completeness remains open.",
+        "sources": [
+          "https://github.com/gaithernOrg/ArchipelagoKHBBS/blob/HEAD/worlds/khbbs/Rules.py"
+        ]
+      }
     },
     {
       "id": "BBS-004",
@@ -133,12 +159,14 @@
     {
       "id": "BBS-006",
       "status": "partial",
-      "applied": "Aerora + Ignite identity is resolved; all six affected groups remain restored, with the documented level-3 combination.",
-      "remaining": "Exact minimum Ignite level remains 3 in KHWiki versus 1 in guiding-key; Destiny Islands omits levels. This is not a whole-pair quarantine.",
+      "applied": "Aerora + Ignite identity is resolved; all six affected groups remain restored, with the documented level-3 combination. October 2: Independent Japanese command-charge table confirms Aerora plus Ignite but omits levels. OpenKH CmdCharge records have two minimum-level bytes.",
+      "remaining": "Need original Steam Menu/Camp.arc CmdCharge record for Aerora/Ignite: Ignite minimum 1 versus 3 remains unresolved.",
       "consulted_sources": [
         "https://www.khwiki.com/Mine_Square",
         "https://guiding-key.tumblr.com/khbbs-abilities",
-        "https://www.destinyislands.com/bbs-fm/melding/magic-commands/"
+        "https://www.destinyislands.com/bbs-fm/melding/magic-commands/",
+        "https://kouryakutsushin.com/khbbs/commandcharge-magic.htm",
+        "https://openkh.dev/bbs/file/type/CmdCharge.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "The 2015 HD melding guide explicitly derives from Destiny Islands and also omits Ignite’s level for Mine Square, while specifying it elsewhere. This is neither independent corroboration nor proof of level 1. Keep the working level 3 combination and narrow minimum-level dispute.",
@@ -150,7 +178,15 @@
       "sources": [
         "https://shinigaming.wordpress.com/2015/01/07/kingdom-hearts-birth-by-sleep-final-mix-command-melding-guide/",
         "https://www.khwiki.com/Mine_Square"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independent Japanese command-charge table confirms Aerora plus Ignite but omits levels. OpenKH CmdCharge records have two minimum-level bytes.",
+        "remaining": "Need original Steam Menu/Camp.arc CmdCharge record for Aerora/Ignite: Ignite minimum 1 versus 3 remains unresolved.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/commandcharge-magic.htm",
+          "https://openkh.dev/bbs/file/type/CmdCharge.html"
+        ]
+      }
     },
     {
       "id": "BBS-007",
@@ -186,8 +222,8 @@
     {
       "id": "BBS-010",
       "status": "partial",
-      "applied": "Individually inspected all 187 command pages; integrated acquisition bullets for 154 identities, including Focus/Renewal defensive command routes. Command detail panels show the sourced routes.",
-      "remaining": "Not every command page has a BBS acquisition list. The 108 legacy shop rows are not yet a complete normalized character-specific AND/OR gate table; purchased/previously-obtained and board mode conditions must remain separate. Per-command source URLs are in command-catalog.json.",
+      "applied": "Individually inspected all 187 command pages; integrated acquisition bullets for 154 identities, including Focus/Renewal defensive command routes. Command detail panels show the sourced routes. October 2: Normalized all 108 shop records and eight named-world milestones; 95 rows have explicitly sourced previously-obtained alternatives. Independent Japanese shop lists Fire Dash 150, agreeing with table rather than conflicting acquisition prose. Inspected Steam shop mod: it overwrites gates, so zero gates are not retail evidence.",
+      "remaining": "The full shop milestone table is now normalized. Remaining: first-acquisition alternatives not documented on 13 rows, complete non-shop acquisitions and mode conditions, plus Fire Dash conflicting prose. Missing evidence is original shop gate data or direct first-acquisition observation.",
       "consulted_sources": [
         "https://www.khwiki.com/Deck_Command_(KHBBS)",
         "https://www.khwiki.com/Moogle_Shop",
@@ -196,7 +232,10 @@
         "https://www.khwiki.com/Focus_Barrier",
         "https://www.khwiki.com/Renewal_Block",
         "https://www.khwiki.com/Renewal_Barrier",
-        "https://www.khwiki.com/Zantetsuken"
+        "https://www.khwiki.com/Zantetsuken",
+        "https://kouryakutsushin.com/khbbs/shop.htm",
+        "https://github.com/d4hy/BBS-All-Commands-Shop",
+        "https://openkh.dev/bbs/file/type/cmdShop.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Expanded board-mode acquisition evidence through every board bonus table. Rechecked Moogle Shop and Stop as an explicit worlds-cleared OR prior-acquisition example. The 108 legacy shop rows still need a complete per-command currency/gate normalization; no global AND/OR rewrite is justified.",
@@ -210,19 +249,32 @@
         "https://www.khwiki.com/Moogle_Shop",
         "https://www.khwiki.com/Stop",
         "https://www.khwiki.com/Command_Board"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Normalized all 108 shop records and eight named-world milestones; 95 rows have explicitly sourced previously-obtained alternatives. Independent Japanese shop lists Fire Dash 150, agreeing with table rather than conflicting acquisition prose. Inspected Steam shop mod: it overwrites gates, so zero gates are not retail evidence.",
+        "remaining": "The full shop milestone table is now normalized. Remaining: first-acquisition alternatives not documented on 13 rows, complete non-shop acquisitions and mode conditions, plus Fire Dash conflicting prose. Missing evidence is original shop gate data or direct first-acquisition observation.",
+        "sources": [
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://kouryakutsushin.com/khbbs/shop.htm",
+          "https://github.com/d4hy/BBS-All-Commands-Shop",
+          "https://openkh.dev/bbs/file/type/cmdShop.html"
+        ]
+      }
     },
     {
       "id": "BBS-011",
       "status": "partial",
-      "applied": "Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples.",
-      "remaining": "Individual command and enemy tables provide world drop rates but not a complete character/room/reset inventory. No-drop text means no recorded route, not evidence that a command cannot drop.",
+      "applied": "Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples. October 2: Inspected EPD, PRIZEBOXDATA and room-format leads; outer drop chance and inner reward percentages are separate data. Randomizer resources list assets but do not supply vanilla tables.",
+      "remaining": "Need joined unmodified EPD/PRIZEBOXDATA/room spawn values plus character and reset observations; published world rates do not certify complete room routes.",
       "consulted_sources": [
         "https://www.khwiki.com/Mine_Square",
         "https://www.khwiki.com/Buckle_Bruiser",
         "https://www.khwiki.com/Quick_Blitz",
         "https://www.khwiki.com/Sonic_Blaster",
-        "https://www.destinyislands.com/bbs-fm/bestiary/enemies/"
+        "https://www.destinyislands.com/bbs-fm/bestiary/enemies/",
+        "https://openkh.dev/bbs/file/type/epd.html",
+        "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html",
+        "https://github.com/Truthkey/Birth-by-Sleep-Randomizer"
       ],
       "continuation_2026_10_01": {
         "outcome": "Reviewed the independent enemy/farm results and existing conditional-drop catalog. Older forum percentages often omit the outer drop roll or Shop Level; no complete edition-correct character/room/reset inventory emerged. All 38 command drop records retained; absence of a listed drop remains unknown, not impossible.",
@@ -236,13 +288,22 @@
         "https://www.destinyislands.com/bbs-fm/bestiary/enemies/",
         "https://strategywiki.org/wiki/Kingdom_Hearts:_Birth_by_Sleep/Enemies",
         "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/answers/225474-whats-a-good-spot-to-farm-abounding-crystals"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected EPD, PRIZEBOXDATA and room-format leads; outer drop chance and inner reward percentages are separate data. Randomizer resources list assets but do not supply vanilla tables.",
+        "remaining": "Need joined unmodified EPD/PRIZEBOXDATA/room spawn values plus character and reset observations; published world rates do not certify complete room routes.",
+        "sources": [
+          "https://openkh.dev/bbs/file/type/epd.html",
+          "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html",
+          "https://github.com/Truthkey/Birth-by-Sleep-Randomizer"
+        ]
+      }
     },
     {
       "id": "BBS-012",
       "status": "partial",
-      "applied": "Integrated 152 published CP curves; Blizzaga maximum 4 and 580/610/640 steps corroborated. Preserved original roster 3 as historical evidence.",
-      "remaining": "Collision Magnet maximum 4 versus CP-table 5 remains; Homing Slide maximum 4 is corroborated but CP table only shows level 1. Five Illusions, High Jump and Barrier lack complete curves. Item/max-level-one rows are not missing curves.",
+      "applied": "Integrated 152 published CP curves; Blizzaga maximum 4 and 580/610/640 steps corroborated. Preserved original roster 3 as historical evidence. October 2: Japanese tables corroborate Collision Magnet maximum 4, Homing Slide 4, High Jump 4, Barrier 3 and all five Illusions 3, but omit CP curves. OpenKH executable CommandParam documents maxLevel, baseCP and CP increment fields.",
+      "remaining": "Need inspected Steam CommandParam rows for Collision Magnet, Homing Slide, High Jump, Barrier and five Illusions; format documentation alone is not actual retail CP values.",
       "consulted_sources": [
         "https://www.khwiki.com/Deck_Command_(KHBBS)",
         "https://www.khwiki.com/Collision_Magnet",
@@ -250,7 +311,11 @@
         "https://www.khwiki.com/Homing_Slide",
         "https://www.khwiki.com/High_Jump",
         "https://www.khwiki.com/Barrier",
-        "https://www.khwiki.com/Illusion-L"
+        "https://www.khwiki.com/Illusion-L",
+        "https://kouryakutsushin.com/khbbs/attack-command.htm",
+        "https://kouryakutsushin.com/khbbs/action-command.htm",
+        "https://kouryakutsushin.com/khbbs/illusion-command.htm",
+        "https://openkh.dev/bbs/executable/CommandParam.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Blizzaga level 4 is supported by its BBS mechanics/CP table and the independent translation guide; integrated CP steps 580/610/640 and retained the old roster 3 in history. Collision Magnet still has roster/prose/independent max 4 versus infobox 5. Homing Slide has prose/independent max 4 but a one-row CP table; table incompleteness cannot prove max 1. High Jump/Barrier and five Illusions still lack curves.",
@@ -274,19 +339,31 @@
         "https://www.destinyislands.com/bbs-fm/action-commands/movement-commands/",
         "https://www.destinyislands.com/bbs-fm/battle-commands/attack-commands/",
         "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/58719"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Japanese tables corroborate Collision Magnet maximum 4, Homing Slide 4, High Jump 4, Barrier 3 and all five Illusions 3, but omit CP curves. OpenKH executable CommandParam documents maxLevel, baseCP and CP increment fields.",
+        "remaining": "Need inspected Steam CommandParam rows for Collision Magnet, Homing Slide, High Jump, Barrier and five Illusions; format documentation alone is not actual retail CP values.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/attack-command.htm",
+          "https://kouryakutsushin.com/khbbs/action-command.htm",
+          "https://kouryakutsushin.com/khbbs/illusion-command.htm",
+          "https://openkh.dev/bbs/executable/CommandParam.html"
+        ]
+      }
     },
     {
       "id": "BBS-013",
       "status": "researched-open",
-      "applied": "Preserved Chaos/Secret Gem random-ability semantics and Secret Gem maximum-command-level rule.",
-      "remaining": "Chaos, Secret Gem and Command Meld pages and independent item guide state random ability without exhaustive pool weights or conditional distribution. No uniform distribution is inferred from that word.",
+      "applied": "Preserved Chaos/Secret Gem random-ability semantics and Secret Gem maximum-command-level rule. October 2: Japanese material guide describes Chaos as varied/random and Secret Gem as raising command level, without weighted outcomes. OpenKH AbiPattern documents eight ability IDs and a chance array but explicitly leaves use incompletely understood.",
+      "remaining": "Need the retail ability-pattern values plus selection logic/conditional execution; neither eight slots nor random wording proves a uniform distribution.",
       "consulted_sources": [
         "https://www.khwiki.com/Chaos",
         "https://www.khwiki.com/Secret_Gem",
         "https://www.khwiki.com/Command_Meld",
         "https://www.destinyislands.com/bbs-fm/items/",
-        "https://gamefaqs.gamespot.com/boards/943347-kingdom-hearts-birth-by-sleep/62045599"
+        "https://gamefaqs.gamespot.com/boards/943347-kingdom-hearts-birth-by-sleep/62045599",
+        "https://kouryakutsushin.com/khbbs/mixitem.htm",
+        "https://openkh.dev/bbs/file/type/AbiPattern.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Chaos/Secret Gem references and specific community questions still do not publish an exhaustive weighted pool conditional on recipe type. Reports that choices are not entirely random are not a complete distribution. No uniform probabilities added.",
@@ -302,7 +379,15 @@
         "https://www.khwiki.com/Secret_Gem",
         "https://www.khwiki.com/Abilities_(KHBBS)",
         "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/answers/202683-what-are-all-the-possible-effects-of-the-chaos-crystals"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Japanese material guide describes Chaos as varied/random and Secret Gem as raising command level, without weighted outcomes. OpenKH AbiPattern documents eight ability IDs and a chance array but explicitly leaves use incompletely understood.",
+        "remaining": "Need the retail ability-pattern values plus selection logic/conditional execution; neither eight slots nor random wording proves a uniform distribution.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/mixitem.htm",
+          "https://openkh.dev/bbs/file/type/AbiPattern.html"
+        ]
+      }
     },
     {
       "id": "BBS-014",
@@ -318,14 +403,17 @@
     {
       "id": "BBS-015",
       "status": "partial",
-      "applied": "Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship.",
-      "remaining": "Complete enemy-room-character/reset coverage remains absent. Destiny Islands bestiary supplies nested item percentages (must multiply by enemy drop probability) and Shop Level bands, but not full character-specific room routes; existing crystal sources cover 12 relationships, not all farms. No fastest-farm certification is claimed.",
+      "applied": "Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship. October 2: Japanese material guide recommends Trench for ordinary crystals; it is not a full character/room/reset or timed yield comparison. EPD and PRIZEBOXDATA identify the missing nested drop joins.",
+      "remaining": "Need complete vanilla enemy-room-character inventory, reset rules and measured route costs before exhaustive or fastest-farm claims.",
       "consulted_sources": [
         "https://www.khwiki.com/Archraven",
         "https://www.khwiki.com/Spiderchest",
         "https://www.khwiki.com/Sonic_Blaster",
         "https://www.khwiki.com/Game:Mirage_Arena",
-        "https://www.destinyislands.com/bbs-fm/bestiary/enemies/"
+        "https://www.destinyislands.com/bbs-fm/bestiary/enemies/",
+        "https://kouryakutsushin.com/khbbs/mixitem.htm",
+        "https://openkh.dev/bbs/file/type/epd.html",
+        "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Additional farm searches surfaced Mandrake/Radiant Garden and Axe Flapper reports, but these do not supply complete character-specific rooms/reset intervals. An old answer even mixes conditional 60–95% figures with outdated medal prices. Kept verified conditional relationships; no fastest route or total coverage asserted.",
@@ -339,16 +427,27 @@
         "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/answers/225474-whats-a-good-spot-to-farm-abounding-crystals",
         "https://gamefaqs.gamespot.com/boards/943347-kingdom-hearts-birth-by-sleep/62337034",
         "https://www.destinyislands.com/bbs-fm/bestiary/enemies/"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Japanese material guide recommends Trench for ordinary crystals; it is not a full character/room/reset or timed yield comparison. EPD and PRIZEBOXDATA identify the missing nested drop joins.",
+        "remaining": "Need complete vanilla enemy-room-character inventory, reset rules and measured route costs before exhaustive or fastest-farm claims.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/mixitem.htm",
+          "https://openkh.dev/bbs/file/type/epd.html",
+          "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html"
+        ]
+      }
     },
     {
       "id": "BBS-016",
       "status": "partial",
-      "applied": "Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five.",
-      "remaining": "KHWiki explicitly requests BBS mechanics cleanup, and no independent edition-specific probability derivation was found. Formula is labeled community-sourced; it cannot certify comparative fastest routes or guaranteed drops.",
+      "applied": "Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five. October 2: Inspected nested drop formats; neither EPD nor PRIZEBOXDATA documentation identifies the runtime Lucky Strike transformation. Randomizer/mod writes cannot establish it.",
+      "remaining": "Need edition-specific ability application code or controlled drops sufficient to discriminate candidate probability formulas; existing formula remains community-sourced.",
       "consulted_sources": [
         "https://www.khwiki.com/Lucky_Strike",
-        "https://www.khwiki.com/Abilities_(KHBBS)"
+        "https://www.khwiki.com/Abilities_(KHBBS)",
+        "https://openkh.dev/bbs/file/type/epd.html",
+        "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "KHWiki still gives 1 + 0.3n for BBS but retains its BBS-mechanics cleanup notice. Additional exact-formula searches mostly return KH1/KH2 mechanics, which cannot corroborate BBS. No primary or independently edition-specific derivation found.",
@@ -360,7 +459,15 @@
       "sources": [
         "https://www.khwiki.com/Lucky_Strike",
         "https://www.khwiki.com/Talk:Lucky_Strike"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected nested drop formats; neither EPD nor PRIZEBOXDATA documentation identifies the runtime Lucky Strike transformation. Randomizer/mod writes cannot establish it.",
+        "remaining": "Need edition-specific ability application code or controlled drops sufficient to discriminate candidate probability formulas; existing formula remains community-sourced.",
+        "sources": [
+          "https://openkh.dev/bbs/file/type/epd.html",
+          "https://openkh.dev/bbs/file/type/PRIZEBOXDATA.html"
+        ]
+      }
     },
     {
       "id": "BBS-017",
@@ -374,12 +481,14 @@
     {
       "id": "BBS-018",
       "status": "partial",
-      "applied": "Integrated 48 character/episode weapon reach records and Royal Radiance command-gauge passive alongside existing 24 weapon forms.",
-      "remaining": "Sweetstack STR 6 agrees across canonical CSV, KHWiki and Destiny Islands; prior ledger 7-versus-8 claim was erroneous. Pixie Petal critical multiplier 1.35 versus 1.5 remains. KHWiki sometimes gives qualitative Long reach for FM weapons. Complete independent modern stat certification remains open.",
+      "applied": "Integrated 48 character/episode weapon reach records and Royal Radiance command-gauge passive alongside existing 24 weapon forms. October 2: OpenKH Weapon records document critical damage and reach bytes. Inspected Archipelago keyblade Lua, which deliberately writes new stats rather than preserving originals.",
+      "remaining": "Need original Steam Weapon rows, particularly Pixie Petal critical multiplier 1.35 versus 1.5 and FM reach values; patched stats cannot certify vanilla values.",
       "consulted_sources": [
         "https://www.khwiki.com/Weapons_(KHBBS)",
         "https://www.khwiki.com/Royal_Radiance",
-        "https://www.destinyislands.com/bbs-fm/weapons/"
+        "https://www.destinyislands.com/bbs-fm/weapons/",
+        "https://openkh.dev/bbs/executable/Weapon.html",
+        "https://github.com/gaithern/KH-BBS-AP-LUA/blob/HEAD/bbsAPKeybladeStats.lua"
       ],
       "continuation_2026_10_01": {
         "outcome": "Corrected a false conflict in the prior ledger: both Destiny Islands and KHWiki give Sweetstack STR 6, matching the unchanged canonical CSV; neither supports the reported 7-versus-8 conflict. Pixie Petal x1.35 versus x1.5 remains real. Numeric reach for FM superboss weapons and complete independent modern certification remain open.",
@@ -395,18 +504,28 @@
         "https://www.khwiki.com/Pixie_Petal",
         "https://www.khwiki.com/Weapons_(KHBBS)",
         "https://www.destinyislands.com/bbs-fm/weapons/"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "OpenKH Weapon records document critical damage and reach bytes. Inspected Archipelago keyblade Lua, which deliberately writes new stats rather than preserving originals.",
+        "remaining": "Need original Steam Weapon rows, particularly Pixie Petal critical multiplier 1.35 versus 1.5 and FM reach values; patched stats cannot certify vanilla values.",
+        "sources": [
+          "https://openkh.dev/bbs/executable/Weapon.html",
+          "https://github.com/gaithern/KH-BBS-AP-LUA/blob/HEAD/bbsAPKeybladeStats.lua"
+        ]
+      }
     },
     {
       "id": "BBS-019",
       "status": "partial",
-      "applied": "Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides.",
-      "remaining": "Making unlocks later purchase, and story-awarded ice creams exist; whether every alternative satisfies each modern obtain/make/achievement predicate is not established by the sources. Recipe arithmetic is validated separately from complete independent numeric certification.",
+      "applied": "Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. October 2: Independently reconciled all 14 ingredient quantity lists with Japanese FM guide and retained source name per recipe. Corrected runtime Sweetstack wording to make all eight eligible recipes rather than equating every obtain route. OpenKH iceShop exposes createCount but no achievement predicate.",
+      "remaining": "Numeric recipes have independent corroboration. Remaining: whether purchased/story-awarded substitutes satisfy each current Steam completion flag; requires actual predicate or controlled save comparison.",
       "consulted_sources": [
         "https://www.khwiki.com/Ice_cream",
         "https://www.khwiki.com/Sweetstack",
         "https://khrealm.com/kh-bbs-ice-cream-guide",
-        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html"
+        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html",
+        "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+        "https://openkh.dev/bbs/file/type/iceShop.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "Original ice-cream guide and modern synthesis/item wording corroborate crafting each recipe as the documented Sweetstack route, but do not prove all bought/story-awarded alternatives satisfy identical modern achievement flags. Ingredient totals remain arithmetic-validated, not independently certified in every number.",
@@ -422,7 +541,15 @@
         "https://www.khwiki.com/Sweetstack",
         "https://www.khwiki.com/Ice_Cream",
         "https://strategywiki.org/wiki/Kingdom_Hearts:_Birth_by_Sleep/Ice_Cream"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independently reconciled all 14 ingredient quantity lists with Japanese FM guide and retained source name per recipe. Corrected runtime Sweetstack wording to make all eight eligible recipes rather than equating every obtain route. OpenKH iceShop exposes createCount but no achievement predicate.",
+        "remaining": "Numeric recipes have independent corroboration. Remaining: whether purchased/story-awarded substitutes satisfy each current Steam completion flag; requires actual predicate or controlled save comparison.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "https://openkh.dev/bbs/file/type/iceShop.html"
+        ]
+      }
     },
     {
       "id": "BBS-020",
@@ -438,14 +565,17 @@
     {
       "id": "BBS-021",
       "status": "partial",
-      "applied": "Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates.",
-      "remaining": "Combined Threat aggregate story/clear-file conditions conflict with HD guide Arena 7; A Time to Chill aggregate story conditions conflict with individual Arena 13. Exact cross-file and ticket AND/OR logic remains unresolved for those battles.",
+      "applied": "Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. October 2: Independent guide explicitly distinguishes HD/PSP columns and states story requirements supplement Arena Level. Normal Combined Threat now requires Level 7 plus Radiant Garden; Time to Chill retains published Level 13 and Aqua clear-data condition. Inspected ArenaData format and a mod that forces Arena 30; neither supplies original cross-file logic.",
+      "remaining": "Need precise character-specific Time to Chill exceptions and ticket bypass of story/clear-data conditions. Arena/story conditions are not automatically contradictory; only those exact alternatives remain unverified.",
       "consulted_sources": [
         "https://www.khwiki.com/Game:Mirage_Arena",
         "https://www.khwiki.com/Arena_Mode",
         "https://www.khwiki.com/Battle_Ticket",
         "https://www.khwiki.com/A_Time_to_Chill",
-        "https://www.destinyislands.com/bbs-fm/mirage-arena/"
+        "https://www.destinyislands.com/bbs-fm/mirage-arena/",
+        "https://kouryakutsushin.com/khbbs/arenamode.htm",
+        "https://openkh.dev/bbs/file/type/ArenaData.html",
+        "https://github.com/gaithern/KH-BBS-AP-LUA/blob/HEAD/bbsMaxLevelArena.lua"
       ],
       "continuation_2026_10_01": {
         "outcome": "HD Gamer Guides contradicts itself across summary and detailed unlock entries: Combined Threat says Arena 7, while detailed A Time to Chill lists Aqua Olympus/other-character Aqua clear plus Arena 13. This narrows the apparent Arena 13 contradiction to omitted conjunctions, but ticket bypass of story/cross-file predicates remains unproven. Existing conservative six normalized rules retained.",
@@ -461,17 +591,28 @@
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/mirage-arena/time-to-chill",
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/trophy-guide/gameplay-related-trophies",
         "https://www.khwiki.com/Battle_Ticket"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independent guide explicitly distinguishes HD/PSP columns and states story requirements supplement Arena Level. Normal Combined Threat now requires Level 7 plus Radiant Garden; Time to Chill retains published Level 13 and Aqua clear-data condition. Inspected ArenaData format and a mod that forces Arena 30; neither supplies original cross-file logic.",
+        "remaining": "Need precise character-specific Time to Chill exceptions and ticket bypass of story/clear-data conditions. Arena/story conditions are not automatically contradictory; only those exact alternatives remain unverified.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/arenamode.htm",
+          "https://openkh.dev/bbs/file/type/ArenaData.html",
+          "https://github.com/gaithern/KH-BBS-AP-LUA/blob/HEAD/bbsMaxLevelArena.lua"
+        ]
+      }
     },
     {
       "id": "BBS-022",
       "status": "partial",
-      "applied": "Added character-specific HP/Sky Climber bonuses and Monster of the Sea Mini reward.",
-      "remaining": "A Time to Chill HP reward is +5 on individual page versus +10 on world Bonus Levels table; retained explicit conflict rather than selecting one. Arena 13 access contradiction is BBS-021.",
+      "applied": "Added character-specific HP/Sky Climber bonuses and Monster of the Sea Mini reward. October 2: Independent mixed-edition guide lists Time to Chill max HP without an amount, so cannot resolve +5/+10. Its Lights Lessons +10 additionally differs from existing HD +15; runtime now preserves this edition ambiguity.",
+      "remaining": "Need original Steam bonus rows or before/after HP observations for Time to Chill and Lights Lessons; mixed-column guide is not decisive modern numeric evidence.",
       "consulted_sources": [
         "https://www.khwiki.com/A_Time_to_Chill",
         "https://www.khwiki.com/Game:Mirage_Arena",
-        "https://www.khwiki.com/Game:Monstro"
+        "https://www.khwiki.com/Game:Monstro",
+        "https://kouryakutsushin.com/khbbs/arenamode.htm",
+        "https://openkh.dev/bbs/file/type/mission.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "HD Gamer Guides explicitly corroborates A Time to Chill +10 HP for Ventus/Aqua, agreeing with the world Bonus Levels table; the individual battle-page +5 still conflicts. Added the independent +10 corroboration to runtime uncertainty without silently deciding the conflict.",
@@ -485,7 +626,15 @@
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/mirage-arena/time-to-chill",
         "https://www.khwiki.com/A_Time_to_Chill",
         "https://www.khwiki.com/Game:Mirage_Arena"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independent mixed-edition guide lists Time to Chill max HP without an amount, so cannot resolve +5/+10. Its Lights Lessons +10 additionally differs from existing HD +15; runtime now preserves this edition ambiguity.",
+        "remaining": "Need original Steam bonus rows or before/after HP observations for Time to Chill and Lights Lessons; mixed-column guide is not decisive modern numeric evidence.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/arenamode.htm",
+          "https://openkh.dev/bbs/file/type/mission.html"
+        ]
+      }
     },
     {
       "id": "BBS-023",
@@ -512,12 +661,14 @@
     {
       "id": "BBS-025",
       "status": "partial",
-      "applied": "All nine missions now have full one/two/three-star bands and original per-character tactics (27 guides). Contradictory equality phrasing remains explicitly separated from the published tables.",
-      "remaining": "Five source sections have inclusive tables versus strict prose: Vitality Vial 2:00, Ringer40, Gluttonous Goo90, Element Cluster70 and Floating Flora350. No decisive exact-boundary evidence was found; aim beyond those thresholds. Rank/strategy extraction itself is complete.",
+      "applied": "All nine missions now have full one/two/three-star bands and original per-character tactics (27 guides). Contradictory equality phrasing remains explicitly separated from the published tables. October 2: Independent PSP-FM mission guide corroborates inclusive published three-star scores 40/90/70/350 and two-minute survival. OpenKH generic EXB format does not identify the game comparator.",
+      "remaining": "Current Steam exact equality remains untested. Inclusive tables now have independent older-edition support; strict prose conflict is retained and aiming beyond threshold remains conservative.",
       "consulted_sources": [
         "https://www.khwiki.com/Unversed_Mission",
         "https://www.khwiki.com/Ringer",
-        "https://www.khwiki.com/Gluttonous_Goo"
+        "https://www.khwiki.com/Gluttonous_Goo",
+        "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+        "https://openkh.dev/bbs/file/type/exb.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "StrategyWiki independently uses 40+ for Ringer and surviving until 2:00 for Vitality Vial. This supports inclusive table language but supplies no exact-boundary recording for all five conflicting missions. Existing rank bands and conservative aim-beyond advice retained.",
@@ -531,7 +682,15 @@
         "https://strategywiki.org/wiki/Kingdom_Hearts:_Birth_by_Sleep/Unversed_Missions",
         "https://www.khwiki.com/Vitality_Vial",
         "https://www.khwiki.com/Ringer"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independent PSP-FM mission guide corroborates inclusive published three-star scores 40/90/70/350 and two-minute survival. OpenKH generic EXB format does not identify the game comparator.",
+        "remaining": "Current Steam exact equality remains untested. Inclusive tables now have independent older-edition support; strict prose conflict is retained and aiming beyond threshold remains conservative.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/battlemisssion.htm",
+          "https://openkh.dev/bbs/file/type/exb.html"
+        ]
+      }
     },
     {
       "id": "BBS-026",
@@ -548,13 +707,20 @@
     {
       "id": "BBS-027",
       "status": "partial",
-      "applied": "Integrated all 45 bonus-panel rows across seven boards with map keys, normal/limited/Arena modes and current-copy ownership rule.",
-      "remaining": "Opponent-card quantity, character and mode inventory still incomplete; Skull Board quantities are explicitly unknown. Bonus-panel normalization does not establish Arena opponent-card acquisition.",
+      "applied": "Integrated all 45 bonus-panel rows across seven boards with map keys, normal/limited/Arena modes and current-copy ownership rule. October 2: Extracted all seven board pages: 17 opponent variants, 288 command/level records, with all 39 Skull quantities explicitly null. Generator publishes these inventories alongside existing 45 bonus panels.",
+      "remaining": "Remaining: unspecified Skull quantities, independently certified Menu/Arena deck differences and acquisition exceptions, AI behavior and current Steam confirmation. Inventory counts are not random draw probabilities.",
       "consulted_sources": [
         "https://www.khwiki.com/Command_Board",
         "https://www.khwiki.com/Focus_Block",
         "https://www.khwiki.com/Focus_Barrier",
-        "https://www.khwiki.com/Meteor_Shower"
+        "https://www.khwiki.com/Meteor_Shower",
+        "https://www.khwiki.com/Keyblade_Board",
+        "https://www.khwiki.com/Royal_Board",
+        "https://www.khwiki.com/Toon_Board",
+        "https://www.khwiki.com/Spaceship_Board",
+        "https://www.khwiki.com/Skull_Board",
+        "https://www.khwiki.com/Hunny_Pot_Board",
+        "https://www.khwiki.com/Secret_Board"
       ],
       "continuation_2026_10_01": {
         "outcome": "Integrated 45 bonus-panel rows from all seven board pages: normal, limited, Arena and source-map key retained. Current-copy limited-reward semantics explicit. Opponent deck quantities/character/mode conditions remain incomplete; Skull Board explicitly marks quantities as unknown. No absence inferred from those question marks.",
@@ -578,17 +744,33 @@
         "https://www.khwiki.com/Hunny_Pot_Board",
         "https://www.khwiki.com/Secret_Board",
         "https://www.khwiki.com/Command_Board"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Extracted all seven board pages: 17 opponent variants, 288 command/level records, with all 39 Skull quantities explicitly null. Generator publishes these inventories alongside existing 45 bonus panels.",
+        "remaining": "Remaining: unspecified Skull quantities, independently certified Menu/Arena deck differences and acquisition exceptions, AI behavior and current Steam confirmation. Inventory counts are not random draw probabilities.",
+        "sources": [
+          "https://www.khwiki.com/Keyblade_Board",
+          "https://www.khwiki.com/Royal_Board",
+          "https://www.khwiki.com/Toon_Board",
+          "https://www.khwiki.com/Spaceship_Board",
+          "https://www.khwiki.com/Skull_Board",
+          "https://www.khwiki.com/Hunny_Pot_Board",
+          "https://www.khwiki.com/Secret_Board"
+        ]
+      }
     },
     {
       "id": "BBS-028",
       "status": "researched-open",
-      "applied": "Preserved the 46-node finisher tree and equipped-parent metric predicates.",
-      "remaining": "KHWiki Finish Commands, Destiny Islands finish guide and community discussion explain eligible parent progression but do not establish whether switching away resets counters or merely pauses them. No reset rule is invented.",
+      "applied": "Preserved the 46-node finisher tree and equipped-parent metric predicates. October 2: Independent finish guide states eligible parent must be equipped. KingdomSaveEditor maps 15 finisher records containing Id, Status and Experience, but does not implement the equipped-switch handler.",
+      "remaining": "Need vanilla switching handler or controlled save differences before/after switching away and back; separate saved experience fields do not prove pause or reset.",
       "consulted_sources": [
         "https://www.khwiki.com/Finish_command_(KHBBS)",
         "https://www.destinyislands.com/bbs-fm/finish-commands/",
-        "https://www.reddit.com/r/KingdomHearts/comments/154ixos/"
+        "https://www.reddit.com/r/KingdomHearts/comments/154ixos/",
+        "https://kouryakutsushin.com/khbbs/finish-command.htm",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/Models/Finisher.cs",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/SaveKhBbs.FinalMix.cs"
       ],
       "continuation_2026_10_01": {
         "outcome": "New HD finisher discussion search and additional finish guides still describe equipped-parent progression without specifying switch-away reset versus pause. GameFAQs full discussion fetch failed; no snippet gives the needed rule. Do not change counters or infer resets.",
@@ -602,17 +784,29 @@
         "https://gamefaqs.gamespot.com/boards/200737-kingdom-hearts-hd-i5-plus-ii5-remix/77038773",
         "https://strategywiki.org/wiki/Kingdom_Hearts:_Birth_by_Sleep/Finish_Commands",
         "https://khrealm.com/kh-bbs-finish-commands"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Independent finish guide states eligible parent must be equipped. KingdomSaveEditor maps 15 finisher records containing Id, Status and Experience, but does not implement the equipped-switch handler.",
+        "remaining": "Need vanilla switching handler or controlled save differences before/after switching away and back; separate saved experience fields do not prove pause or reset.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/finish-command.htm",
+          "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/Models/Finisher.cs",
+          "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/SaveKhBbs.FinalMix.cs"
+        ]
+      }
     },
     {
       "id": "BBS-029",
       "status": "partial",
-      "applied": "Integrated 15 styles, 13 persistent D-Links, 17 Shotlocks plus 39 D-Link decks/finisher lists, 12 probability triples and gauge conditions; applied HD/character substitutions.",
-      "remaining": "Pete emblem probabilities and gauge values are unknown in the source. Full D-Link finisher action/timing/damage and exhaustive usage exceptions remain incomplete. Temporary Vanitas and removed wireless links remain excluded.",
+      "applied": "Integrated 15 styles, 13 persistent D-Links, 17 Shotlocks plus 39 D-Link decks/finisher lists, 12 probability triples and gauge conditions; applied HD/character substitutions. October 2: Inspected all 24 distinct linked finisher page targets. Added 22 concrete action summaries and an explicit Rumble Rave missing-details note; generic Finish page does not supply character-specific mechanics. Corrected obsolete progression text now that decks/probabilities are indexed.",
+      "remaining": "Pete emblem chances/gauge values, generic character Finish mechanics, Rumble Rave timing/input/power, complete damage/frame values and exhaustive exceptions remain absent. Published action summaries are not full damage certification.",
       "consulted_sources": [
         "https://www.khwiki.com/Command_Style",
         "https://www.khwiki.com/Dimension_Link",
-        "https://www.khwiki.com/Shotlock"
+        "https://www.khwiki.com/Shotlock",
+        "https://www.khwiki.com/D-Link",
+        "https://www.khwiki.com/Rumble_Rave",
+        "https://www.khwiki.com/Finish"
       ],
       "continuation_2026_10_01": {
         "outcome": "Fetched all 13 individual character D-Link tables. Integrated 39 temporary decks, 39 finisher lists, 12 complete probability triples and gauge rules; Pete explicitly has unknown probabilities/gauge values. Applied HD Victory Pose substitution and Aqua-only Stitch Thundaga Shot. Full action-specific finisher timing/damage still incomplete.",
@@ -650,20 +844,32 @@
         "https://www.khwiki.com/Pete",
         "https://www.khwiki.com/Dimension_Link",
         "https://www.khwiki.com/Taunt"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected all 24 distinct linked finisher page targets. Added 22 concrete action summaries and an explicit Rumble Rave missing-details note; generic Finish page does not supply character-specific mechanics. Corrected obsolete progression text now that decks/probabilities are indexed.",
+        "remaining": "Pete emblem chances/gauge values, generic character Finish mechanics, Rumble Rave timing/input/power, complete damage/frame values and exhaustive exceptions remain absent. Published action summaries are not full damage certification.",
+        "sources": [
+          "https://www.khwiki.com/D-Link",
+          "https://www.khwiki.com/Rumble_Rave",
+          "https://www.khwiki.com/Finish"
+        ]
+      }
     },
     {
       "id": "BBS-030",
       "status": "partial",
-      "applied": "Inspected all six named encounters; existing Arena/weapon/episode records retain correct separate contexts. Added concise sourced encounter references with access/recovery and FM-specific distinctions.",
-      "remaining": "Full attack/stat tables remain incomplete in sources: Unknown page explicitly requests BBS attack-name/stat cleanup and has unknown damage/block fields; some boss pages mix PSP/HD behavior. Brief encounter notes do not close full per-character strategy/recovery coverage.",
+      "applied": "Inspected all six named encounters; existing Arena/weapon/episode records retain correct separate contexts. Added concise sourced encounter references with access/recovery and FM-specific distinctions. October 2: Inspected independent Arena attack/recovery guide and UltimateMod source inventory. Guide separates some HD mechanics but mixes shared PSP/HD tactics; mod changes encounters. Neither provides complete vanilla attack/stat tables.",
+      "remaining": "Full per-character boss recovery/attack coverage remains incomplete; exact Unknown unknown fields need original enemy parameters and action logic, with current Steam encounter validation.",
       "consulted_sources": [
         "https://www.khwiki.com/Vanitas_Remnant",
         "https://www.khwiki.com/Game:Young_Xehanort",
         "https://www.khwiki.com/Armor_of_Eraqus",
         "https://www.khwiki.com/No_Heart",
         "https://www.khwiki.com/Game:Monstro",
-        "https://www.khwiki.com/Dark_Hide"
+        "https://www.khwiki.com/Dark_Hide",
+        "https://kouryakutsushin.com/khbbs/arenamode.htm",
+        "https://github.com/Truthkey/BBSUM_Mod",
+        "https://openkh.dev/bbs/file/type/epd.html"
       ],
       "continuation_2026_10_01": {
         "outcome": "New HD boss guide pages corroborate No Heart defensive openings and Dark Hide phase tactics, but do not supply complete character-specific frame/damage/recovery tables. Retained six sourced encounter overviews and explicit PSP/HD distinctions; no full-strategy closure.",
@@ -679,18 +885,29 @@
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-bosses",
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
         "https://www.playstationtrophies.org/forum/topic/238525-the-unknown-help-thread/"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected independent Arena attack/recovery guide and UltimateMod source inventory. Guide separates some HD mechanics but mixes shared PSP/HD tactics; mod changes encounters. Neither provides complete vanilla attack/stat tables.",
+        "remaining": "Full per-character boss recovery/attack coverage remains incomplete; exact Unknown unknown fields need original enemy parameters and action logic, with current Steam encounter validation.",
+        "sources": [
+          "https://kouryakutsushin.com/khbbs/arenamode.htm",
+          "https://github.com/Truthkey/BBSUM_Mod",
+          "https://openkh.dev/bbs/file/type/epd.html"
+        ]
+      }
     },
     {
       "id": "BBS-031",
       "status": "researched-open",
-      "applied": "Kept main, Final and Secret episodes separate and preserved published difficulty requirement table.",
-      "remaining": "KHWiki unlock pages and mixed-difficulty Steam/community reports do not agree on exact save aggregation/re-save algorithm across builds. No deletion/replay workaround is recommended as verified behavior.",
+      "applied": "Kept main, Final and Secret episodes separate and preserved published difficulty requirement table. October 2: Inspected FinalMix save difficulty and finisher structures and Steam randomizer warnings about version-dependent executable offsets. Data layout does not implement episode aggregation.",
+      "remaining": "Need current Steam save-selection/aggregation code or controlled mixed-difficulty clear-file matrix; no replay/deletion workaround is certified.",
       "consulted_sources": [
         "https://www.khwiki.com/Final_Episode",
         "https://www.khwiki.com/A_Fragmentary_Passage",
         "https://www.khwiki.com/Blank_Points",
-        "https://steamcommunity.com/app/2552430/discussions/0/7073555028226446724/"
+        "https://steamcommunity.com/app/2552430/discussions/0/7073555028226446724/",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/SaveKhBbs.FinalMix.cs",
+        "https://github.com/Truthkey/Birth-by-Sleep-Randomizer"
       ],
       "continuation_2026_10_01": {
         "outcome": "2025–26 Steam/community discussions continue to disagree about mixed-difficulty unlock aggregation and re-save triggers. Xbox advice is platform-specific; no underlying save algorithm or applicable Steam executable proof was found. No destructive deletion/replay workaround promoted.",
@@ -704,16 +921,26 @@
         "https://steamcommunity.com/app/2552430/discussions/0/732500746974528477/",
         "https://www.trueachievements.com/forum/viewthread.aspx?tid=1407284",
         "https://www.reddit.com/r/KingdomHearts/comments/1sjj4tz/secret_episode/"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Inspected FinalMix save difficulty and finisher structures and Steam randomizer warnings about version-dependent executable offsets. Data layout does not implement episode aggregation.",
+        "remaining": "Need current Steam save-selection/aggregation code or controlled mixed-difficulty clear-file matrix; no replay/deletion workaround is certified.",
+        "sources": [
+          "https://github.com/Xeeynamo/KingdomSaveEditor/blob/master/KHSave.LibBbs/SaveKhBbs.FinalMix.cs",
+          "https://github.com/Truthkey/Birth-by-Sleep-Randomizer"
+        ]
+      }
     },
     {
       "id": "BBS-032",
       "status": "partial",
-      "applied": "Integrated 45 named Steam goals and all 45 individually observed API identifiers, with 10 positive published hidden labels.",
-      "remaining": "Raw API hidden flags, mixed-save aggregation and current-build Collector glitch behavior remain uncertified. Absence of a published hidden label is recorded as an observation, not a verified false API flag. PS3 workaround reports do not establish a Steam bug.",
+      "applied": "Integrated 45 named Steam goals and all 45 individually observed API identifiers, with 10 positive published hidden labels. October 2: Retrieved public Steam achievements HTML: no hidden labels observed, which is not an API boolean. Found an August 2024 first-person Steam Collector report: three 140-point albums did not unlock until a later Terra run. This is Steam anecdote, not merely PS3 evidence.",
+      "remaining": "Raw API hidden booleans, precise mixed-save aggregation and current-build Collector behavior remain uncertified. One Steam report does not establish prevalence, cause or a reliable replay workaround.",
       "consulted_sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://www.truesteamachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/achievements"
+        "https://www.truesteamachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/achievements",
+        "https://steamcommunity.com/stats/2552430/achievements/?l=english",
+        "https://steamcommunity.com/app/2552430/discussions/0/4514381183278271486/"
       ],
       "continuation_2026_10_01": {
         "outcome": "Recovered all 45 BBS API identifiers (ACH_153–197) through individual SteamDB indexed requirement/key pairs. Joined each preceding requirement to the existing named goal, never the following title or percentage/order. Ten published hidden labels are positively observed; the other 35 lack that label in the retrieved row. Raw API hidden booleans, mixed-save aggregation and build-specific Collector behavior remain uncertified. Exact queries and retrieval references are retained in steam-achievements.json.",
@@ -727,7 +954,15 @@
         "https://steamdb.info/app/2552430/stats/",
         "https://steamcommunity.com/stats/2552430/achievements",
         "https://steamcommunity.com/app/2552430/discussions/0/732500746974528477/"
-      ]
+      ],
+      "followup_2026_10_02": {
+        "applied": "Retrieved public Steam achievements HTML: no hidden labels observed, which is not an API boolean. Found an August 2024 first-person Steam Collector report: three 140-point albums did not unlock until a later Terra run. This is Steam anecdote, not merely PS3 evidence.",
+        "remaining": "Raw API hidden booleans, precise mixed-save aggregation and current-build Collector behavior remain uncertified. One Steam report does not establish prevalence, cause or a reliable replay workaround.",
+        "sources": [
+          "https://steamcommunity.com/stats/2552430/achievements/?l=english",
+          "https://steamcommunity.com/app/2552430/discussions/0/4514381183278271486/"
+        ]
+      }
     },
     {
       "id": "BBS-033",
@@ -794,5 +1029,9 @@
         "https://www.khwiki.com/Command_Meld"
       ]
     }
-  ]
+  ],
+  "followup_2026_10_02": {
+    "report": "gap-closure-2026-10-02.md",
+    "result": "All 21 starting factual families investigated; concrete subfields improved, family counts unchanged because exact residuals remain."
+  }
 }

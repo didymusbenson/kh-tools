@@ -21,7 +21,12 @@
             "name": "Crystal Sugar",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ジュエルバニラ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Honeybunny",
@@ -37,7 +42,12 @@
             "name": "Apple Pie",
             "quantity": 2
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ハニーバニー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Fabracadabra",
@@ -57,7 +67,12 @@
             "name": "Peach Fantasy",
             "quantity": 1
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ハットトリック",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Bueno Volcano",
@@ -75,7 +90,12 @@
             "name": "Toonbasco",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ボルケーノカレー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Snow Bear",
@@ -93,7 +113,12 @@
             "name": "Soy Milk",
             "quantity": 5
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "スノウベアー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Spark Lemon",
@@ -115,7 +140,12 @@
             "name": "Dancin' Lemon",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "スパークレモン",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Royalberry",
@@ -140,7 +170,12 @@
             "name": "Rose Honey",
             "quantity": 7
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "クイーンベリー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Rockin' Crunch",
@@ -156,7 +191,12 @@
             "name": "Nutty Nut",
             "quantity": 12
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ロッククランチ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Big Bad Pete",
@@ -172,7 +212,12 @@
             "name": "Whipped Dream",
             "quantity": 20
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ブラック・ピート",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Sugary Skies",
@@ -193,7 +238,12 @@
             "name": "Cotton Cloudcandy",
             "quantity": 14
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ミルキーウェイ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Goofy Parfait",
@@ -217,7 +267,12 @@
             "name": "Forest Muffin",
             "quantity": 10
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "グーフィー・パフェ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Double Crunch",
@@ -241,7 +296,12 @@
             "name": "Star Syrup",
             "quantity": 15
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ダブルクランチ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Donald Fizz",
@@ -265,7 +325,12 @@
             "name": "Sky Blue Mousse",
             "quantity": 8
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ドナルド・ソルト",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Daisy Sorbet",
@@ -291,7 +356,12 @@
             "name": "Melodious Grape",
             "quantity": 12
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "デイジー・ソルベ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       }
     ],
     "one_of_each_eligible_recipe_totals_by_character": {
@@ -1229,7 +1299,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Quick_Blitz"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Collision Magnet",
@@ -1239,7 +1328,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Collision_Magnet"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Zero Graviga",
@@ -1249,7 +1353,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Zero_Graviga"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Potion",
@@ -1259,7 +1378,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 30,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Potion"
+          ]
+        },
+        "instructions": "Command Shop: 30 munny. Shop Level 1: Available from game start."
       },
       {
         "name": "Blitz",
@@ -1269,7 +1404,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blitz"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Geo Impact",
@@ -1277,7 +1431,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Geo_Impact"
+          ]
+        },
+        "instructions": "Command Shop: 2100 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Magnet",
@@ -1287,7 +1456,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 120,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Magnet"
+          ]
+        },
+        "instructions": "Command Shop: 120 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Hi-Potion",
@@ -1297,7 +1485,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 80,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Hi-Potion"
+          ]
+        },
+        "instructions": "Command Shop: 80 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams."
       },
       {
         "name": "Sliding Dash",
@@ -1307,7 +1511,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Sliding_Dash"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Sacrifice",
@@ -1315,7 +1538,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Sacrifice"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Magnera",
@@ -1325,7 +1563,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 550,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Magnera"
+          ]
+        },
+        "instructions": "Command Shop: 550 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Mega-Potion",
@@ -1335,7 +1592,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Mega-Potion"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space."
       },
       {
         "name": "Fire Dash",
@@ -1345,7 +1618,27 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fire_Dash"
+          ]
+        },
+        "uncertainty": "Fire Dash sources disagree: the Moogle and command stat tables list 150 munny at Shop Level 4, while the command acquisition prose lists 450 munny after five worlds. Check the displayed shop price; neither conflicting number is certified for Steam.",
+        "instructions": "Command Shop: obtain Fire Dash elsewhere to unlock a copy. Price and story gate conflict between published tables (150 munny, Shop Level 4) and acquisition prose (450 munny, five worlds). Check the displayed shop price."
       },
       {
         "name": "Fire",
@@ -1355,7 +1648,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fire"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Magnega",
@@ -1365,7 +1677,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1250,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Magnega"
+          ]
+        },
+        "instructions": "Command Shop: 1250 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Ether",
@@ -1375,7 +1702,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 50,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Ether"
+          ]
+        },
+        "instructions": "Command Shop: 50 munny. Shop Level 1: Available from game start."
       },
       {
         "name": "Dark Haze",
@@ -1383,7 +1726,26 @@
         "shop_level": "8",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Dark_Haze"
+          ]
+        },
+        "instructions": "Command Shop: 1100 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Fira",
@@ -1393,7 +1755,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fira"
+          ]
+        },
+        "instructions": "Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Munny Magnet",
@@ -1401,7 +1782,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Munny_Magnet"
+          ]
+        },
+        "instructions": "Command Shop: 800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Mega-Ether",
@@ -1411,7 +1807,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 160,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Mega-Ether"
+          ]
+        },
+        "instructions": "Command Shop: 160 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space."
       },
       {
         "name": "Sonic Blade",
@@ -1421,7 +1833,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Sonic_Blade"
+          ]
+        },
+        "instructions": "Command Shop: 2000 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Firaga",
@@ -1431,7 +1858,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Firaga"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Energy Magnet",
@@ -1439,7 +1885,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Energy_Magnet"
+          ]
+        },
+        "instructions": "Command Shop: 800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Panacea",
@@ -1449,7 +1910,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 50,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Panacea"
+          ]
+        },
+        "instructions": "Command Shop: 50 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams."
       },
       {
         "name": "Zantetsuken",
@@ -1457,7 +1934,26 @@
         "shop_level": "5",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1700,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Zantetsuken"
+          ]
+        },
+        "instructions": "Command Shop: 1700 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Dark Firaga",
@@ -1465,7 +1961,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Dark_Firaga"
+          ]
+        },
+        "instructions": "Command Shop: 2000 munny. Obtain this command elsewhere first."
       },
       {
         "name": "D-Link Magnet",
@@ -1473,7 +1984,18 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 800,
+        "unlock": {
+          "any_of": [],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/D-Link_Magnet"
+          ]
+        },
+        "instructions": "Command Shop: 800 munny. No ordinary Shop Level is listed; the exact first-acquisition gate remains unverified."
       },
       {
         "name": "Elixir",
@@ -1483,7 +2005,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 250,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Elixir"
+          ]
+        },
+        "instructions": "Command Shop: 250 munny. Shop Level 8: Complete Never Land."
       },
       {
         "name": "Strike Raid",
@@ -1493,7 +2031,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Strike_Raid"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Fission Firaga",
@@ -1503,7 +2060,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fission_Firaga"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Aero",
@@ -1513,7 +2085,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Aero"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Megalixir",
@@ -1523,7 +2114,18 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 350,
+        "unlock": {
+          "any_of": [],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Megalixir"
+          ]
+        },
+        "instructions": "Command Shop: 350 munny. No ordinary Shop Level is listed; the exact first-acquisition gate remains unverified."
       },
       {
         "name": "Freeze Raid",
@@ -1533,7 +2135,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Freeze_Raid"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Triple Firaga",
@@ -1541,7 +2162,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Triple_Firaga"
+          ]
+        },
+        "instructions": "Command Shop: 1800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Aerora",
@@ -1551,7 +2187,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Aerora"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Balloon Letter",
@@ -1561,7 +2216,23 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 120,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Balloon_Letter"
+          ]
+        },
+        "instructions": "Command Shop: 120 munny. Shop Level 5: Complete Radiant Garden."
       },
       {
         "name": "Spark Raid",
@@ -1569,7 +2240,22 @@
         "shop_level": "—",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Spark_Raid"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Crawling Fire",
@@ -1579,7 +2265,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Crawling_Fire"
+          ]
+        },
+        "instructions": "Command Shop: 1800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Aeroga",
@@ -1589,7 +2290,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Aeroga"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "High Jump",
@@ -1599,7 +2315,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/High_Jump"
+          ]
+        },
+        "instructions": "Command Shop: 500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Wind Raid",
@@ -1607,7 +2338,22 @@
         "shop_level": "—",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Wind_Raid"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Blizzard",
@@ -1617,7 +2363,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blizzard"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Warp",
@@ -1625,7 +2390,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Warp"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Dodge Roll",
@@ -1633,7 +2413,23 @@
         "shop_level": "1",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Dodge_Roll"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 1: Available from game start."
       },
       {
         "name": "Fire Surge",
@@ -1643,7 +2439,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 650,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fire_Surge"
+          ]
+        },
+        "instructions": "Command Shop: 650 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Blizzara",
@@ -1653,7 +2468,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blizzara"
+          ]
+        },
+        "instructions": "Command Shop: 500 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Deep Freeze",
@@ -1663,7 +2497,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Deep_Freeze_(ability)"
+          ]
+        },
+        "instructions": "Command Shop: 2200 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Cartwheel",
@@ -1671,7 +2520,23 @@
         "shop_level": "1",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Cartwheel"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 1: Available from game start."
       },
       {
         "name": "Barrier Surge",
@@ -1679,7 +2544,26 @@
         "shop_level": "5",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Barrier_Surge"
+          ]
+        },
+        "instructions": "Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Blizzaga",
@@ -1689,7 +2573,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blizzaga"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Glacier",
@@ -1697,7 +2600,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Glacier_(ability)"
+          ]
+        },
+        "instructions": "Command Shop: 2500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Firewheel",
@@ -1705,7 +2623,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Firewheel"
+          ]
+        },
+        "instructions": "Command Shop: 2000 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Thunder Surge",
@@ -1715,7 +2648,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 700,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Thunder_Surge"
+          ]
+        },
+        "instructions": "Command Shop: 700 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Triple Blizzaga",
@@ -1723,7 +2671,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Triple_Blizzaga"
+          ]
+        },
+        "instructions": "Command Shop: 1800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Ice Barrage",
@@ -1731,7 +2694,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Ice_Barrage"
+          ]
+        },
+        "instructions": "Command Shop: 1800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Air Slide",
@@ -1741,7 +2719,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Air_Slide"
+          ]
+        },
+        "instructions": "Command Shop: 800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Aerial Slam",
@@ -1751,7 +2744,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Aerial_Slam"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Thunder",
@@ -1761,7 +2773,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Thunder"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Firaga Burst",
@@ -1769,7 +2800,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Firaga_Burst"
+          ]
+        },
+        "instructions": "Command Shop: 2500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Slide",
@@ -1777,7 +2823,23 @@
         "shop_level": "1",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            }
+          ],
+          "prior_acquisition_supported": false,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Slide"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 1: Available from game start."
       },
       {
         "name": "Poison Edge",
@@ -1787,7 +2849,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Poison_Edge"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Thundara",
@@ -1797,7 +2878,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Thundara"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Quake",
@@ -1805,7 +2905,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Quake"
+          ]
+        },
+        "instructions": "Command Shop: 2500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Glide",
@@ -1813,7 +2928,22 @@
         "shop_level": "—",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Glide"
+          ]
+        },
+        "instructions": "Command Shop: 2000 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Wishing Edge",
@@ -1821,7 +2951,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 550,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Wishing_Edge"
+          ]
+        },
+        "instructions": "Command Shop: 550 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Thundaga",
@@ -1831,7 +2976,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Thundaga"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Mini",
@@ -1841,7 +3005,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Mini"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Block",
@@ -1850,7 +3029,26 @@
         "characters": [
           "Terra",
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Block"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Blizzard Edge",
@@ -1860,7 +3058,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blizzard_Edge"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Thundaga Shot",
@@ -1868,7 +3085,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Thundaga_Shot"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Blackout",
@@ -1878,7 +3110,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Blackout"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Stun Block",
@@ -1887,7 +3138,26 @@
         "characters": [
           "Terra",
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Stun_Block"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Stun Edge",
@@ -1897,7 +3167,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Stun_Edge"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Cure",
@@ -1907,7 +3196,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 2
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Cure"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 2: Complete any one of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Ignite",
@@ -1917,7 +3225,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Ignite"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Barrier",
@@ -1925,7 +3252,26 @@
         "shop_level": "1",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Barrier"
+          ]
+        },
+        "instructions": "Command Shop: 200 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Slot Edge",
@@ -1935,7 +3281,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 700,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Slot_Edge"
+          ]
+        },
+        "instructions": "Command Shop: 700 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Cura",
@@ -1945,7 +3306,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Cura"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Confuse",
@@ -1955,7 +3335,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Confuse"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Confuse Barrier",
@@ -1963,7 +3362,26 @@
         "shop_level": "6",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Confuse_Barrier"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Fire Strike",
@@ -1973,7 +3391,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 450,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Fire_Strike"
+          ]
+        },
+        "instructions": "Command Shop: 450 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Curaga",
@@ -1983,7 +3420,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Curaga"
+          ]
+        },
+        "instructions": "Command Shop: 1300 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Bind",
@@ -1993,7 +3449,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 2
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Bind"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 2: Complete any one of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Counter Hammer",
@@ -2001,7 +3476,26 @@
         "shop_level": "5",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Counter_Hammer"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Confusion Strike",
@@ -2011,7 +3505,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 450,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Confusion_Strike"
+          ]
+        },
+        "instructions": "Command Shop: 450 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Esuna",
@@ -2021,7 +3534,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Esuna"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Poison",
@@ -2031,7 +3563,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Poison"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Payback Fang",
@@ -2039,7 +3590,26 @@
         "shop_level": "7",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1400,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Payback_Fang"
+          ]
+        },
+        "instructions": "Command Shop: 1400 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Binding Strike",
@@ -2049,7 +3619,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 400,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Binding_Strike"
+          ]
+        },
+        "instructions": "Command Shop: 400 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Mine Shield",
@@ -2059,7 +3648,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Mine_Shield"
+          ]
+        },
+        "instructions": "Command Shop: 1000 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Slow",
@@ -2069,7 +3677,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Slow"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Counter Rush",
@@ -2077,7 +3704,26 @@
         "shop_level": "6",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Counter_Rush"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Brutal Blast",
@@ -2085,7 +3731,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Brutal_Blast"
+          ]
+        },
+        "instructions": "Command Shop: 1800 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Mine Square",
@@ -2095,7 +3756,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1000,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Mine_Square"
+          ]
+        },
+        "instructions": "Command Shop: 1000 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Stop",
@@ -2105,7 +3785,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Stop"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Reversal Slash",
@@ -2113,7 +3812,26 @@
         "shop_level": "7",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 800,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 7
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Reversal_Slash"
+          ]
+        },
+        "instructions": "Command Shop: 800 munny. Shop Level 7: Complete both Olympus Coliseum and Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Magnet Spiral",
@@ -2123,7 +3841,22 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Magnet_Spiral"
+          ]
+        },
+        "instructions": "Command Shop: 2300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Seeker Mine",
@@ -2131,7 +3864,22 @@
         "shop_level": "—",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 2300,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Seeker_Mine"
+          ]
+        },
+        "instructions": "Command Shop: 2300 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Stopra",
@@ -2141,7 +3889,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 5
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Stopra"
+          ]
+        },
+        "instructions": "Command Shop: 500 munny. Shop Level 5: Complete Radiant Garden. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Payback Raid",
@@ -2149,7 +3916,26 @@
         "shop_level": "3",
         "characters": [
           "Ventus"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1400,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Payback_Raid"
+          ]
+        },
+        "instructions": "Command Shop: 1400 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Windcutter",
@@ -2157,7 +3943,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Windcutter"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Zero Gravity",
@@ -2167,7 +3968,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 150,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 3
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Zero_Gravity"
+          ]
+        },
+        "instructions": "Command Shop: 150 munny. Shop Level 3: Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Stopga",
@@ -2177,7 +3997,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 8
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Stopga"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 8: Complete Never Land. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Counter Blast",
@@ -2185,7 +4024,26 @@
         "shop_level": "6",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1200,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Counter_Blast"
+          ]
+        },
+        "instructions": "Command Shop: 1200 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Limit Storm",
@@ -2193,7 +4051,22 @@
         "shop_level": "—",
         "characters": [
           "Terra"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1500,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Limit_Storm"
+          ]
+        },
+        "instructions": "Command Shop: 1500 munny. Obtain this command elsewhere first."
       },
       {
         "name": "Zero Gravira",
@@ -2203,7 +4076,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 600,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 6
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Zero_Gravira"
+          ]
+        },
+        "instructions": "Command Shop: 600 munny. Shop Level 6: Complete either Olympus Coliseum or Deep Space. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Sleep",
@@ -2213,7 +4105,26 @@
           "Terra",
           "Ventus",
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 100,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 1
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Sleep"
+          ]
+        },
+        "instructions": "Command Shop: 100 munny. Shop Level 1: Available from game start. Alternatively, obtain this command elsewhere first."
       },
       {
         "name": "Payback Surge",
@@ -2221,10 +4132,102 @@
         "shop_level": "4",
         "characters": [
           "Aqua"
-        ]
+        ],
+        "currency": "munny",
+        "price": 1400,
+        "unlock": {
+          "any_of": [
+            {
+              "kind": "shop-level",
+              "minimum": 4
+            },
+            {
+              "kind": "previously-obtained"
+            }
+          ],
+          "prior_acquisition_supported": true,
+          "sources": [
+            "https://www.khwiki.com/Moogle_Shop",
+            "https://www.khwiki.com/Payback_Surge"
+          ]
+        },
+        "instructions": "Command Shop: 1400 munny. Shop Level 4: Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams. Alternatively, obtain this command elsewhere first."
       }
     ],
-    "status": "source table candidates; dash availability requires acquisition gating, not free availability; cross-check HD removed commands"
+    "status": "source table candidates; dash availability requires acquisition gating, not free availability; cross-check HD removed commands",
+    "level_milestones": [
+      {
+        "level": 1,
+        "instructions": "Available from game start.",
+        "worlds": [],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 2,
+        "instructions": "Complete any one of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams.",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 3,
+        "instructions": "Complete any two of Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams.",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 4,
+        "instructions": "Complete Enchanted Dominion, Dwarf Woodlands, and Castle of Dreams.",
+        "worlds": [
+          "Enchanted Dominion",
+          "Dwarf Woodlands",
+          "Castle of Dreams"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 5,
+        "instructions": "Complete Radiant Garden.",
+        "worlds": [
+          "Radiant Garden"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 6,
+        "instructions": "Complete either Olympus Coliseum or Deep Space.",
+        "worlds": [
+          "Olympus Coliseum",
+          "Deep Space"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 7,
+        "instructions": "Complete both Olympus Coliseum and Deep Space.",
+        "worlds": [
+          "Olympus Coliseum",
+          "Deep Space"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      },
+      {
+        "level": 8,
+        "instructions": "Complete Never Land.",
+        "worlds": [
+          "Never Land"
+        ],
+        "source": "https://www.khwiki.com/Moogle_Shop#Kingdom_Hearts_Birth_by_Sleep"
+      }
+    ],
+    "normalization_note": "Shop Level uses named-world milestones, not an arbitrary count of cleared worlds. Prior-acquisition alternatives are normalized only when the individual command source explicitly records them; false means not evidenced here, not impossible. Fire Dash conflict remains open."
   },
   "counts": {
     "ice_cream_recipes": 14,

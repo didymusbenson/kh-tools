@@ -221,7 +221,15 @@
         "amount": "+20% (Base) | +10% (Enhanced)"
       },
       "mechanics_source": "https://www.khwiki.com/Terra#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Landbreaker",
+          "instructions": "Guide the flaming ground marker with the movement stick to aim six successive stone eruptions.",
+          "source": "https://www.khwiki.com/Landbreaker",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Ventus",
@@ -279,7 +287,15 @@
         "amount": "+10%"
       },
       "mechanics_source": "https://www.khwiki.com/Ventus#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Air Dive",
+          "instructions": "Follow five displayed button prompts to reverse direction in the air. A wrong input ends the finisher early.",
+          "source": "https://www.khwiki.com/Air_Dive",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Aqua",
@@ -339,7 +355,15 @@
         "amount": "+10%"
       },
       "mechanics_source": "https://www.khwiki.com/Aqua#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Magic Volley",
+          "instructions": "Use the attack prompts to teleport and fire more orbs. Ends after three additional inputs, a wrong input, or the time limit.",
+          "source": "https://www.khwiki.com/Magic_Volley",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Mickey Mouse",
@@ -399,7 +423,21 @@
         "amount": "+50%"
       },
       "mechanics_source": "https://www.khwiki.com/Mickey_Mouse#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Lightcharge",
+          "instructions": "Match each button as the Mickey marker passes it on the dial. There are eight input opportunities for alternating horizontal and vertical spins. Wrong inputs briefly stagger you.",
+          "source": "https://www.khwiki.com/Lightcharge",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Faithcharge",
+          "instructions": "Match each button as the Mickey marker passes it on the dial. Eight input opportunities produce spinning attacks and outward light shots; wrong inputs briefly stun you.",
+          "source": "https://www.khwiki.com/Faithcharge",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Donald Duck",
@@ -460,7 +498,21 @@
         "amount": "+15%"
       },
       "mechanics_source": "https://www.khwiki.com/Donald_Duck#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Donald Flare",
+          "instructions": "Follow eight displayed button prompts to launch fireworks. Blue fireworks explode on the target; grey ones burst early. Wrong inputs briefly stagger you.",
+          "source": "https://www.khwiki.com/Donald_Flare",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Cosmic Donald",
+          "instructions": "Follow 12 button prompts. Blue fireworks take one input; red fireworks take three and can ignite enemies. Grey fireworks burst early. Wrong inputs briefly stagger you.",
+          "source": "https://www.khwiki.com/Cosmic_Donald",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Goofy",
@@ -521,7 +573,21 @@
         "amount": "+50%"
       },
       "mechanics_source": "https://www.khwiki.com/Goofy#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Goofy Spin",
+          "instructions": "Steer with the movement stick. Duration is five, seven, or nine seconds at zero, one, or two emblems.",
+          "source": "https://www.khwiki.com/Goofy_Spin",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Goofy Turbo",
+          "instructions": "Steer the spinning attack with the movement stick. The BBS source does not specify its duration.",
+          "source": "https://www.khwiki.com/Goofy_Turbo",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Snow White",
@@ -579,7 +645,21 @@
         "amount": "+1% every 0.08 seconds"
       },
       "mechanics_source": "https://www.khwiki.com/Snow_White#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Sweet Memory",
+          "instructions": "Match the displayed buttons to release twisters. There are three, four, or five prompts at zero, one, or two emblems. Trapped enemies take 10% of maximum HP per second.",
+          "source": "https://www.khwiki.com/Sweet_Memory",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Sweet Seven",
+          "instructions": "Follow four displayed button prompts to send the orbiting gems into enemies.",
+          "source": "https://www.khwiki.com/Sweet_Seven",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Cinderella",
@@ -640,7 +720,21 @@
         "amount": "+100%"
       },
       "mechanics_source": "https://www.khwiki.com/Cinderella#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Dream Sparkle",
+          "instructions": "Press the attack prompt when its icon aligns with the carriage. There are five, six, or eight alignments at zero, one, or two emblems. Wrong inputs briefly stun you.",
+          "source": "https://www.khwiki.com/Dream_Sparkle",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Miracle Dance",
+          "instructions": "Press the attack prompt as its icon meets the carriage to fire projectiles and spin faster. There are eight alignments.",
+          "source": "https://www.khwiki.com/Miracle_Dance",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Maleficent",
@@ -700,7 +794,21 @@
         "amount": "+50%"
       },
       "mechanics_source": "https://www.khwiki.com/Maleficent#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Thunderchaser",
+          "instructions": "Aim the ground marker with the movement stick and use the attack prompt to strike it. Zero, one, or two emblems allow four, five, or seven strikes, with inactivity limits of five, six, or seven seconds.",
+          "source": "https://www.khwiki.com/Thunderchaser",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Dragonfire",
+          "instructions": "Move the ground marker with the movement stick and press the attack prompt to breathe fire at it. Lasts seven seconds, with up to three hits per second.",
+          "source": "https://www.khwiki.com/Dragonfire",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Zack",
@@ -763,7 +871,21 @@
         "amount": "+25%"
       },
       "mechanics_source": "https://www.khwiki.com/Zack#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Hero's Entrance",
+          "instructions": "A Neutral-element finisher whose power increases with collected emblems. No additional input sequence is specified by the source.",
+          "source": "https://www.khwiki.com/Hero%27s_Entrance",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Hero's Pride",
+          "instructions": "Launch nearby enemies, perform eight teleporting slashes, then plunge down for an explosion. Deals Neutral damage; no extra input sequence is specified.",
+          "source": "https://www.khwiki.com/Hero%27s_Pride",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Stitch",
@@ -829,7 +951,21 @@
       "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
       "deck_conditions": {
         "Thundaga Shot": "Aqua only; omit from Terra and Ventus linked decks."
-      }
+      },
+      "finisher_actions": [
+        {
+          "name": "Random Beam",
+          "instructions": "Follow six displayed button prompts to fire beams. Wrong inputs briefly stun you.",
+          "source": "https://www.khwiki.com/Random_Beam",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Ohana Beat",
+          "instructions": "Match each note as it reaches the green line. Double prompts begin after four successes; five consecutive successes enable stun. Wrong inputs slow the rhythm and reduce the waves. Ends after eight prompts.",
+          "source": "https://www.khwiki.com/Ohana_Beat",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Peter Pan",
@@ -889,7 +1025,21 @@
         "amount": "+15%"
       },
       "mechanics_source": "https://www.khwiki.com/Peter_Pan#D-Link",
-      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "finisher_actions": [
+        {
+          "name": "Swordbill",
+          "instructions": "Repeatedly press the attack button. Ten or more presses before the final swing add ten strikes at power 1.8; each hit releases a small munny prize.",
+          "source": "https://www.khwiki.com/Swordbill",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Barrel Roll",
+          "instructions": "Follow four displayed button prompts. Each correct prompt adds two rolls after the opening roll.",
+          "source": "https://www.khwiki.com/Barrel_Roll",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     },
     {
       "name": "Pete",
@@ -952,10 +1102,24 @@
       "deck_conditions": {
         "Victory Pose": "HD replaces PSP Taunt; Taunt excluded."
       },
-      "remaining": "Source explicitly leaves emblem chances and gauge numbers unknown."
+      "remaining": "Source explicitly leaves emblem chances and gauge numbers unknown.",
+      "finisher_actions": [
+        {
+          "name": "Fruit Shot",
+          "instructions": "After jumping, press the displayed command button to launch the pineapple (Triangle in the PlayStation layout).",
+          "source": "https://www.khwiki.com/Fruit_Shot",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        },
+        {
+          "name": "Rumble Rave",
+          "instructions": "Drive the spinning kart into enemies. Exact inputs, hit count, power, and timing remain undocumented on the source page.",
+          "source": "https://www.khwiki.com/Rumble_Rave",
+          "evidence": "Published BBS mechanics; controls follow displayed prompts on Steam. Exact frame timing and complete damage tables are not certified."
+        }
+      ]
     }
   ],
-  "dlink_progression": "Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed.",
+  "dlink_progression": "Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 unlocks an enhanced finisher. Later emblems refill the gauge. Published decks and emblem probabilities are indexed except Pete’s unknown probabilities.",
   "exclusions": [
     "PSP wireless custom D-Links",
     "Vanitas: temporary final battle D-Link, not ordinary persistent acquisition"
