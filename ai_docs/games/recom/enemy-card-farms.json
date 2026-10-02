@@ -3,7 +3,7 @@
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
   "status": "Source-backed implemented journal reference; not independently gameplay-verified",
-  "notes": "Re:CoM infobox farm-rate candidates. Shadow and Soldier appearance footnotes resolved 2026-10-01. Full encounter compositions and reset routes remain separate from world eligibility.",
+  "notes": "Source-reported remake rates, not an independently corroborated 30-row probability table. World eligibility is separate from encounter composition. Shared Steam-reported save/reload route is integrated; complete spawn compositions remain unresolved.",
   "records": [
     {
       "id": "recom-farm-shadow",
@@ -503,5 +503,11 @@
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     }
   ],
-  "followUpDate": "2026-10-01"
+  "followUpDate": "2026-10-01",
+  "repeatRoute": {
+    "instructions": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing.",
+    "evidence": "Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt.",
+    "source": "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+    "accessed": "2026-10-02"
+  }
 }
