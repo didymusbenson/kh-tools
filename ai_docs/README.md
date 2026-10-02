@@ -1,5 +1,7 @@
 # Ars Arcanum Design and Implementation Documentation
 
+**KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](games/kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
+
 This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanum**, a mobile-first React Progressive Web App presented through faithful, game-specific journals.
 
 ## Current phase
@@ -16,7 +18,7 @@ The user has now authorized the same treatment for KH2 using its own journal men
 
 ## MVP scope rule
 
-All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. The only current explicit exception is production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features. The user subsequently authorized implementation of KH1FM and the shared application infrastructure.
+All user-requested features and specified games are MVP scope unless the user explicitly defers them. “Later” in a planning conversation is not a release deferral. Explicit exceptions include the documented KH1 research deferrals/dropped question and production screenshots/visual assets that still need to be obtained; media-support design and testing remain MVP. Unresolved implementation choices require planning, not automatic deferral. This does not add unrequested features. The user subsequently authorized implementation of KH1FM and the shared application infrastructure.
 
 ## Implementation reports
 

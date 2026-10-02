@@ -2,7 +2,7 @@
 
 **Data Jiminy status — 2026-10-01:** His game memories have been flushed while research is audited. The Chroma instance, model setup and chat infrastructure remain intact; the shipped knowledge pack is empty. Jiminy displays “under construction,” and the full AI notice opens from **About Data Jiminy**. Research records and player progress are preserved. Earlier populated-pack counts below are historical; see [current Coppermind status](artifacts/copperminds/README.md).
 
-A mobile-first offline Kingdom Hearts completion journal. The first implementation covers modern **Kingdom Hearts Final Mix**: world collectibles, linked locations, synthesis and optional material inventory, equipment, challenges, and Data Jiminy.
+A mobile-first offline Kingdom Hearts completion journal. All seven scoped journals are implemented. The modern **Kingdom Hearts Final Mix** journal includes world collectibles, linked locations, synthesis and optional material inventory, equipment, challenges, and Data Jiminy.
 
 ## Run
 
@@ -56,7 +56,7 @@ npm run coppermind:package
 npm run build
 ```
 
-The seeded instance is also preserved in [artifacts/copperminds](artifacts/copperminds/README.md), with an export hash and category counts. The initial KH1FM seed has 4,300 thoughts covering 1,148 source-backed entries; the unresolved accessory-stat entry is excluded.
+The seeded instance is also preserved in [artifacts/copperminds](artifacts/copperminds/README.md), with an export hash and category counts. Historically, the initial KH1FM seed had 4,300 thoughts covering 1,148 entries and excluded the then-disputed accessory. That pack was flushed; the current pack has zero thoughts. Three Stars is now resolved to +4 Defense.
 
 This creates `.copperminds/kh1fm/` and exports its actual documents, metadata and embeddings into the offline browser pack. The phone needs neither Python nor a Chroma server. Authored knowledge, player progress, model caches and temporary conversation context remain separate. Seed and browser query encoders use identical pinned weights and preprocessing.
 
@@ -64,7 +64,7 @@ This creates `.copperminds/kh1fm/` and exports its actual documents, metadata an
 
 Canonical records live in `data/kh1fm/`; repeatable import/source ledgers live in `tools/content/`. The content build validates identities, relationships, provenance, quantities and optional media. Conflicting evidence remains explicit. Source-backed is not a claim of independent in-game testing.
 
-The accepted design and per-game scope live in [ai_docs](ai_docs/README.md). KH1FM is the current implementation; other destinations remain clearly unavailable until implemented. Development order does not remove them from overall MVP scope. Production location screenshots remain deferred; optional attributed images/maps are supported and text works without them.
+The accepted design and per-game scope live in [ai_docs](ai_docs/README.md). All seven scoped journals are implemented. KH1 research has practical needs met: see the [current integration report](ai_docs/games/kh1fm/research-integration-2026-10-02.md) for closed, deferred and dropped findings. Development order does not remove them from overall MVP scope. Production location screenshots remain deferred; optional attributed images/maps are supported and text works without them.
 
 The original static entry page is preserved as `legacy-index.html`. Old tables remain migration inputs, not production truth.
 

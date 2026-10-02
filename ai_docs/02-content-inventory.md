@@ -1,5 +1,7 @@
 # Content Inventory
 
+**KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](games/kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
+
 Track current material, proposed additions, ownership, source quality, and migration status here.
 
 ## Current repository content

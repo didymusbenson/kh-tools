@@ -1,5 +1,7 @@
 # Research recovery and continuation — October 1, 2026
 
+**Status boundary:** counts and open-work statements below describe the dated checkpoint, not today’s backlog. KH1 now has 14 closed and 6 partial evidence families (five deferred, one dropped), with no active research family in the reviewed scope. See [current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md) and [current cross-game accounting](gap-closure-coordination-2026-10-02.md).
+
 > Historical October 1 checkpoint. The [active gap-closure coordination report](gap-closure-coordination-2026-10-02.md) and current per-game ledgers supersede its aggregate counts and remaining-work statements.
 
 ## Recovered checkpoint

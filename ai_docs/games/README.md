@@ -1,5 +1,7 @@
 # Per-Game Specifications
 
+**KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
+
 Each supported game gets its own product and content specification because completion systems, terminology, platform variants, and visual identity differ substantially across the series.
 
 These documents define what Ars Arcanum must eventually cover. The imported KHTABLES material is treated as discovery evidence, not as verified final data.

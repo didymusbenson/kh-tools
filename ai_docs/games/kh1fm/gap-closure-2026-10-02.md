@@ -2,7 +2,7 @@
 
 **Subsequent integration:** [2026-10-02 practical research results](research-integration-2026-10-02.md) supersede the residual statuses below for 002, 014, 018 and 020. Earlier investigation text is preserved as history, not the active backlog.
 
-> Subsequent user decision, 2026-10-02: KH1-001 is closed at +4 Defense. Current KH1 totals are 12 closed, 6 partial and 2 unresolved. The dated investigation below preserves prior evidence; see the current resolution ledger.
+> **Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
 
 Scope: vanilla modern Steam KH1 Final Mix, app 2552430. Starting ledger: 10 closed, 6 partial, 4 unresolved. Reopened IDs: KH1-001, 002, 003, 004, 005, 010, 014, 015, 018, 020. Progress IDs remain stable; Data Jiminy stays empty.
 
@@ -60,4 +60,4 @@ The ElectroSpecter route crosses the first chain, turns left to another, continu
 
 ### Semantic-audit follow-up checkpoint
 
-Completed all 154 prose/phase comparisons, 396 abbreviated/empty comparisons and exact location/reward mapping for all 46 Trinity groups. The companion records 787 clause decisions across 642 cells, with current IDs/fields and source catalog; three exact optional route qualifiers are quarantined. No supported missing runtime correction emerged: the wrong legacy stats, drops and FM routes/rewards are already corrected in canonical content. Both audit generators pass; semantic output is byte-idempotent, every evidence ID/source resolves, content tests pass 3/3, and diff whitespace checks pass. Runtime IDs/data and refreshed empty Jiminy artifacts remain unchanged. This checkpoint adds no newly closed finding; current totals remain 11 closed / 6 partial / 3 unresolved.
+Completed all 154 prose/phase comparisons, 396 abbreviated/empty comparisons and exact location/reward mapping for all 46 Trinity groups. The companion records 787 clause decisions across 642 cells, with current IDs/fields and source catalog; three exact optional route qualifiers are quarantined. No supported missing runtime correction emerged: the wrong legacy stats, drops and FM routes/rewards are already corrected in canonical content. Both audit generators pass; semantic output is byte-idempotent, every evidence ID/source resolves, content tests pass 3/3, and diff whitespace checks pass. Runtime IDs/data and refreshed empty Jiminy artifacts remain unchanged. This checkpoint adds no newly closed finding; that historical checkpoint retained 11 closed / 6 partial / 3 unresolved.

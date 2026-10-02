@@ -13,7 +13,7 @@
     "expected": 5,
     "actual": 5,
     "complete": true,
-    "notes": "Ice Titan, Sephiroth, Kurt Zisa, Phantom and Unknown, with practical strategies and rewards. Unknown’s exact earliest portal flag remains explicit uncertainty. Five additional Destiny Islands sparring checks are present outside this endgame denominator."
+    "notes": "Ice Titan, Sephiroth, Kurt Zisa, Phantom and Unknown have practical strategies and rewards. Unknown unlocks after exiting the End of the World arrival tunnel and triggering its first cutscene (KH1-002 resolved). Five additional Destiny Islands sparring checks are outside this endgame denominator."
   },
   {
     "category": "gummi-mission",
@@ -37,7 +37,7 @@
     "expected": 55,
     "actual": 55,
     "complete": true,
-    "notes": "All 55 KH1 goal descriptions, excluding platinum and the other games. The public global-percentage API confirms real keys and a community group identifies ACH_001–ACH_055; exact display-name mapping remains unresolved. The public HTML contains names/descriptions/opaque icons without IDs. Schema request returned HTTP 400 without a key. No guessed platform keys or live state integration."
+    "notes": "All 55 KH1 Steam goal names/conditions have individually recovered key associations (KH1-019 closed); see steam-key-continuation-evidence.json. Direct Valve schema access was unavailable. Manual tracking, with no Steam account or live state integration."
   },
   {
     "category": "minigame",
@@ -45,7 +45,7 @@
     "expected": 22,
     "actual": 22,
     "complete": true,
-    "notes": "Complete declared activity roster: two Phil tests, five Slider courses, four Vine courses, five Pooh episodes, five Cheer targets and Riku race. Journal completion separately needs seven base minigames and four cup time trials (stored under cup). Separate Phil saved replay fields/rewards remain unestablished; not silently counted as existing records."
+    "notes": "Complete declared roster: two Phil tests, five Slider courses, four Vine courses, five Pooh episodes, five Cheer targets and Riku race. Journal registration uses seven base minigames plus four cup timers. Phil replay grants no further reward; saved-best-time persistence research is dropped (005). Practical Vine routes are supplied; exact modern layouts deferred (014)."
   },
   {
     "category": "guide",
@@ -53,6 +53,6 @@
     "expected": null,
     "actual": 20,
     "complete": false,
-    "notes": "Cup boss strategies, Gummi builds, Cheer, both secret endings, full Muddy Path route and both Phil barrel routes. Restricted-run guide now covers party equipment planning, allowed ability/item use, clean-save reloads and post-credits award checks with Steam community evidence. Exact scripted-swap flags, guest edge cases and timer/persistence behavior remain targeted gaps."
+    "notes": "Cup strategies, Gummi builds, Cheer, secret endings, Muddy Path and Phil barrel routes are supplied. Restricted-run practical needs are met; exact equipment flags, menu timing and persistence depth are deferred (003). This open-ended guide category has no fixed completeness denominator; complete=false does not identify an active missing research task."
   }
 ]

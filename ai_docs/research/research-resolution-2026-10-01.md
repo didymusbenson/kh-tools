@@ -1,14 +1,16 @@
 # Research gap resolution — October 1, 2026
 
+**Status boundary:** counts and open-work statements below describe the dated checkpoint, not today’s backlog. KH1 now has 14 closed and 6 partial evidence families (five deferred, one dropped), with no active research family in the reviewed scope. See [current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md) and [current cross-game accounting](gap-closure-coordination-2026-10-02.md).
+
 > Historical October 1 checkpoint. The [active gap-closure coordination report](gap-closure-coordination-2026-10-02.md) and current per-game ledgers supersede its aggregate counts and remaining-work statements.
 
-**Task status: research remains in progress.** There are 91 factual families still partially resolved or unresolved. The user requested merging the current work into `master`; that integration checkpoint does not mark the fact-finding mission complete. Passing application tests establishes implementation behavior, not completeness or accuracy of every game fact.
+**Historical checkpoint task status: research remained in progress.** There are 91 factual families still partially resolved or unresolved. The user requested merging the current work into `master`; that integration checkpoint does not mark the fact-finding mission complete. Passing application tests establishes implementation behavior, not completeness or accuracy of every game fact.
 
 This follows through on **all 208 issue families across all seven games** in the [original audit](research-audit-2026-10-01.md). It supersedes the earlier two-game correction summary. Every finding has a current disposition, researched corrections or an exact remaining evidence boundary. The original audit appendices remain explicitly historical at `f933ab1`.
 
-This is a complete review of the audited backlog, **not a claim that every game fact is now resolved**. After the [recovery continuation](research-recovery-2026-10-01.md), the current register contains 103 closed families (including preserved historical closures), 75 partially resolved families, 16 unresolved/conflicted families, and 14 provenance, engineering or excluded-scope families. All 99 factual residual families from checkpoint `2fd2927` received follow-up investigation; eight more families closed. Counts classify issue families, not individual facts or source accuracy. The per-game ledgers control the exact meaning of each status.
+This is a complete review of the audited backlog, **not a claim that every game fact is now resolved**. After the [recovery continuation](research-recovery-2026-10-01.md), the checkpoint register contained 103 closed families (including preserved historical closures), 75 partially resolved families, 16 unresolved/conflicted families, and 14 provenance, engineering or excluded-scope families. All 99 factual residual families from checkpoint `2fd2927` received follow-up investigation; eight more families closed. Counts classify issue families, not individual facts or source accuracy. The per-game ledgers control the exact meaning of each status.
 
-| Game | Closed | Partial | Unresolved / conflicted | Other limitations | Current evidence and dispositions |
+| Game | Closed | Partial | Unresolved / conflicted | Other limitations | Evidence and dispositions at that checkpoint |
 |---|---:|---:|---:|---:|---|
 | KH1 Final Mix | 10 | 6 | 4 | 0 | [20-finding ledger](../games/kh1fm/research-resolution-2026-10-01.md) |
 | Re:CoM HD | 15 | 11 | 3 | 3 | [32-finding ledger](../games/recom/research-resolution-2026-10-01.md) |
