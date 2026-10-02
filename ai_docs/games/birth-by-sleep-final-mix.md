@@ -28,12 +28,12 @@ Ars Arcanum answers where an acquisition is and how to obtain it. Apply the [col
 |---|---|---|
 | Legacy workbook | All bounded grids read; 296 outcome rows, 112 matrix cells, 150 catalog rows, nine materials | Old letter mappings and typos are incompatible with naïve migration |
 | Existing user reference | Reused 296 outcomes with ingredient levels, character rates and rare-Shotlock ownership rules | Two recipe errors corrected October 1; minimum Ignite level remains open |
-| Collectibles | 443 candidates: 374 numbered main chests, eight Secret Episode chests, one tutorial chest, 60 stickers | Area inventory; complete directions and Reports order still need source validation |
+| Collectibles | 443 candidates: 374 numbered main chests, eight Secret Episode chests, one tutorial chest, 60 stickers | All 374 main approaches, eight Secret routes, 60 sticker pickups and 60 placements integrated; complete earliest-access paths and Reports order remain open |
 | Reports | Letter and I–XII acquisition table | Chest-linked reports must not double-count |
-| Abilities | 30 stack-cap entries; 28 meldable types | CP/learning and random-crystal details need final checks |
-| Keyblades | 24 forms, scoped stats and acquisition | Reach/passive normalization remains partial |
+| Abilities | 30 stack-cap entries; 28 meldable types | 152 CP curves integrated; Collision Magnet maximum, incomplete curves and random-crystal weights remain open |
+| Keyblades | 24 forms, scoped stats and acquisition | 48 reach/passive records integrated; Pixie Petal critical multiplier and complete independent modern stats remain open |
 | Other acquisition tables | 14 ice cream recipes, 42 flavors, 108 command-shop candidate rows, 42 finish-unlock predicate rows | Source leads; not all acquisition alternatives or mode exceptions |
-| Challenges | 16 Arena battles, 29 level-up conditions, nine Unversed Missions, four racing courses, five rhythm songs, seven boards | Complete strategies and modern source reconciliation remain open |
+| Challenges | 16 Arena battles, 29 level-up conditions, nine Unversed Missions, four racing courses, five rhythm songs, seven boards with 45 mode-specific bonus-panel rows | Full opponent-card inventories, selected exact rank boundaries and complete boss strategies remain open |
 
 The inventory totals are measured candidate-source coverage, not automatic proof of a complete production compendium. [Source manifest](bbsfm/source-manifest.json).
 
@@ -143,7 +143,7 @@ See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
 ## Current blockers and acceptance
 
-Detailed rows and algorithms are ready to be modeled, but shipment still requires resolving the two meld conflicts, precise collectible directions, independent inventory/order validation, complete alternative command acquisitions, normalized character/mode exceptions, and Steam achievement predicates. None requires the user to play through the game for us.
+The journal and solver are implemented; the two former meld input-pair conflicts are resolved and all 468 groups validate. Research still needs the exact minimum Ignite level, complete earliest-access directions and independent Reports order, alternative command/shop/drop coverage, selected mastery/arena/finisher rules, Pete D-Link probabilities, and Steam save/episode aggregation. All 45 achievement API identifiers are mapped; raw hidden flags and executable trigger behavior remain uncertified. None requires the user to play through the game for us.
 
 Acceptance must demonstrate bidirectional checklist synchronization, character/episode isolation, stable denominators, source-grounded answers, opt-in inventory and correct atomic melding/undo, image-free text guidance, offline/relaunch/backup behavior and accessible Apple mobile layouts. Formula/content validation must exercise the known conflicting cases rather than trusting extraction totals.
 

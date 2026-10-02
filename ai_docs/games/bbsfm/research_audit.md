@@ -6,7 +6,7 @@ Scope: Steam HD Final Mix; Terra, Ventus, Aqua main stories; Aqua’s **Final Ep
 
 ## Current resolution status
 
-All 38 findings now have researched dispositions: **17 partial**, **4 researched-open**, **12 closed**, **2 provenance**, **1 implementation**, **1 visual**, **1 excluded**. See the [live resolution log](research-resolution-2026-10-01.md) and [complete per-ID ledger](research-dispositions-2026-10-01.json). These supersede baseline statuses, counts and claims below. Closed scopes are BBS-005/007/008/009/014/017/020/023/024/038; partial catalogs are not described as complete.
+All 38 findings now have researched dispositions: **17 partial**, **4 researched-open**, **12 closed**, **2 provenance**, **1 implementation**, **1 visual**, **1 excluded**. See the [live resolution log](research-resolution-2026-10-01.md) and [complete per-ID ledger](research-dispositions-2026-10-01.json). These supersede baseline statuses, counts and claims below. Closed scopes are BBS-004/005/007/008/009/014/017/020/023/024/026/038; partial catalogs are not described as complete.
 
 ## Method and measured coverage (baseline)
 
@@ -32,7 +32,7 @@ The appendices enumerate affected record IDs and source occurrences rather than 
 
 ### BBS-001 — Precise collectible directions
 
-**Current disposition (2026-10-01): partial.** Systematically reviewed all 382 guide chest rows: 374 main chests now have linked source approach/landmark text, plus the independently sourced Secret Gem route and all 60 sticker pickups. Reconciled three mismatches: Terra Tower Entrance, Ventus Rainbow Falls: Base, and Aqua chest4 Mega Magic Recipe (saved IDs retained). See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Systematically reviewed all 382 guide chest rows: 374 main chests now have linked source approach/landmark text, plus the independently sourced Secret Gem route and all 60 sticker pickups. Reconciled three mismatches: Terra Tower Entrance, Ventus Rainbow Falls: Base, and Aqua chest 4 Mega Magic Recipe (saved IDs retained). Continuation integrates all eight Secret Episode approach notes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -42,7 +42,7 @@ Evidence: `ai_docs/games/bbsfm/README.md:18`; `ai_docs/games/bbsfm/collectibles-
 
 ### BBS-002 — Official Reports order and inventory completeness
 
-**Current disposition (2026-10-01): researched-open.** Preserved 374 main, eight Secret and one tutorial chest records; fixed generated collectible flags so all eight Secret chests count (442 total including 60 stickers). See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): researched-open.** Preserved 374 main, eight Secret and one tutorial chest records; fixed generated collectible flags so all eight Secret chests count (442 total including 60 stickers). See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -52,7 +52,7 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:5`, `ai_docs/games/bb
 
 ### BBS-003 — Access timing, movement requirements and returnability
 
-**Current disposition (2026-10-01): partial.** Integrated post-Mad-Treant access for Ventus Soothing Crystal and source-described movement prerequisites in sticker pickup notes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated post-Mad-Treant access for Ventus Soothing Crystal and source-described movement prerequisites in sticker pickup notes. Resolved modern Land of Departure revisit: original-Japanese-only permanent missability does not apply to HD. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -62,7 +62,7 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:22`, `ai_docs/games/b
 
 ### BBS-004 — Sticker placement text and optimal album completion
 
-**Current disposition (2026-10-01): closed.** All 60 album placement regions are integrated. Visually inspected all three completed KHRealm album images and authored the missing 28 placement landmarks, including all20 Ventus. Placement is independent from pickup; seven-point feedback verifies the chosen spot. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** All 60 album placement regions are integrated. Visually inspected all three completed KHRealm album images and authored the missing 28 placement landmarks, including all 20 Ventus. Placement is independent from pickup; seven-point feedback verifies the chosen spot. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -72,7 +72,7 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:32`–42, `ai_docs/ga
 
 ### BBS-005 — Secret Episode Secret Gem area conflict
 
-**Current disposition (2026-10-01): closed.** Secret Gem is in Lower Zone: climb the raised pillars before proceeding to Upper Zone. Corrected generated instructions and retained separate Secret Episode context. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Secret Gem is in Lower Zone: climb the raised pillars before proceeding to Upper Zone. Corrected generated instructions and retained separate Secret Episode context. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -82,7 +82,7 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:72`; `ai_docs/games/b
 
 ### BBS-006 — Mine Square recipe correction and collateral exclusion
 
-**Current disposition (2026-10-01): partial.** Aerora + Ignite identity is resolved; all six affected groups remain restored, with the documented level-3 combination. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Aerora + Ignite identity is resolved; all six affected groups remain restored, with the documented level-3 combination. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -92,7 +92,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:14`, `ai_docs/games/bbsf
 
 ### BBS-007 — Magnet Spiral 20% correction (closed: integrated)
 
-**Current disposition (2026-10-01): closed.** Magnet Spiral 20% / Collision Magnet 80%, Stun Edge Lv3 + Magnera Lv3, all characters and crystal mappings integrated. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Magnet Spiral 20% / Collision Magnet 80%, Stun Edge Lv3 + Magnera Lv3, all characters and crystal mappings integrated. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -102,7 +102,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:15`; `ai_docs/research/b
 
 ### BBS-008 — Confusing Strike / Confusion Strike identity split (closed)
 
-**Current disposition (2026-10-01): closed.** Confusion Strike is the BBS identity; historical Confusing Strike spelling remains correction provenance only. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Confusion Strike is the BBS identity; historical Confusing Strike spelling remains correction provenance only. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -112,7 +112,7 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:154`; 
 
 ### BBS-009 — Complete modern command identity, type and character eligibility catalog
 
-**Current disposition (2026-10-01): closed.** Canonical persistent HD catalog now has 187 identities with independently table-backed types and character eligibility: 40 Attack, 57 Magic, 23 Item, 15 Friendship, 17 Movement, 10 Defense, 8 Reprisal, 17 Shotlock. Exclusion records distinguish temporary, multiplayer and HD-removed commands. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Canonical persistent HD catalog now has 187 identities with independently table-backed types and character eligibility: 40 Attack, 57 Magic, 23 Item, 15 Friendship, 17 Movement, 10 Defense, 8 Reprisal, 17 Shotlock. Exclusion records distinguish temporary, multiplayer and HD-removed commands. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -122,7 +122,7 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:124`�
 
 ### BBS-010 — Complete command acquisition and purchase gates
 
-**Current disposition (2026-10-01): partial.** Individually inspected all 187 command pages; integrated acquisition bullets for 154 identities, including Focus/Renewal defensive command routes. Command detail panels show the sourced routes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Individually inspected all 187 command pages; integrated acquisition bullets for 154 identities, including Focus/Renewal defensive command routes. Command detail panels show the sourced routes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -132,7 +132,7 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:132`�
 
 ### BBS-011 — Command enemy drops and encounter conditions
 
-**Current disposition (2026-10-01): partial.** Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -142,7 +142,7 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:139`�
 
 ### BBS-012 — CP/mastery curves and command/ability rule completeness
 
-**Current disposition (2026-10-01): partial.** Integrated 151 complete published CP curves and catalog max levels; surfaced explicit max-level conflicts rather than merging incompatible curves. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated 152 published CP curves; Blizzaga maximum 4 and 580/610/640 steps corroborated. Preserved original roster 3 as historical evidence. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -152,7 +152,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:22`, `ai_docs/games/bbsf
 
 ### BBS-013 — Chaos Crystal and Secret Gem random ability distribution
 
-**Current disposition (2026-10-01): researched-open.** Preserved Chaos/Secret Gem random-ability semantics and Secret Gem maximum-command-level rule. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): researched-open.** Preserved Chaos/Secret Gem random-ability semantics and Secret Gem maximum-command-level rule. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -162,7 +162,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:19`; `ai_docs/games/bb
 
 ### BBS-014 — Ability effects and non-meld acquisition details
 
-**Current disposition (2026-10-01): closed.** All 30 ability effects, stack references and permanent-learning rules are integrated. Scan and Critical-only Zero EXP starting-command acquisition is visible even without meld recipes; modern Zero EXP CP/damage note is sourced. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** All 30 ability effects, stack references and permanent-learning rules are integrated. Scan and Critical-only Zero EXP starting-command acquisition is visible even without meld recipes; modern Zero EXP CP/damage note is sourced. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -172,7 +172,7 @@ Evidence: `ai_docs/games/bbsfm/ability-stacks.csv:1`, `ai_docs/games/bbsfm/abili
 
 ### BBS-015 — Complete crystal farms and bestiary encounter variants
 
-**Current disposition (2026-10-01): partial.** Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -182,7 +182,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:5`–19; `ai_docs/rese
 
 ### BBS-016 — Lucky Strike adjusted drop formula
 
-**Current disposition (2026-10-01): partial.** Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -192,7 +192,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:19`; `ai_docs/readines
 
 ### BBS-017 — Spiderchest Fleeting discrepancy (closed: conditional drop integrated)
 
-**Current disposition (2026-10-01): closed.** Spiderchest Fleeting Crystal is 3.6% at Shop 1–2 only; source relationship is integrated in both generators and detail views. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Spiderchest Fleeting Crystal is 3.6% at Shop 1–2 only; source relationship is integrated in both generators and detail views. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -202,7 +202,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:16`; `ai_docs/readiness/
 
 ### BBS-018 — Keyblade reach/passives and modern roster validation
 
-**Current disposition (2026-10-01): partial.** Integrated 48 character/episode weapon reach records and Royal Radiance command-gauge passive alongside existing 24 weapon forms. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated 48 character/episode weapon reach records and Royal Radiance command-gauge passive alongside existing 24 weapon forms. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -212,7 +212,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:27`–38, `ai_docs/gam
 
 ### BBS-019 — Ice cream recipe certification and obtain-versus-make alternatives
 
-**Current disposition (2026-10-01): partial.** Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -222,7 +222,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:42`–44; `ai_docs/rea
 
 ### BBS-020 — Flavor/Prize Pod exact farming routes
 
-**Current disposition (2026-10-01): closed.** All 42 flavor records now join character-scoped room/event routes across 22 Prize Pod route records. Spawn-wave/interaction notes and world reset guidance are integrated; Arena replay reset is kept separate. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** All 42 flavor records now join character-scoped room/event routes across 22 Prize Pod route records. Spawn-wave/interaction notes and world reset guidance are integrated; Arena replay reset is kept separate. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -232,7 +232,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:46`; `ai_docs/games/bb
 
 ### BBS-021 — Mirage Arena unlock AND/OR logic
 
-**Current disposition (2026-10-01): partial.** Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -242,7 +242,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:10`–26; `ai_docs/rese
 
 ### BBS-022 — Arena HP/reward source conflict and omitted bonuses
 
-**Current disposition (2026-10-01): partial.** Added character-specific HP/Sky Climber bonuses and Monster of the Sea Mini reward. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Added character-specific HP/Sky Climber bonuses and Monster of the Sea Mini reward. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -252,7 +252,7 @@ Evidence: `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:41`–58; 
 
 ### BBS-023 — Ringer Ticket purchase price
 
-**Current disposition (2026-10-01): closed.** Ringer Ticket costs 250 medals; Shop Level 1 AND Arena Level 5, one Dead Ringer entry. All six tickets are structured and displayed. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Ringer Ticket costs 250 medals; Shop Level 1 AND Arena Level 5, one Dead Ringer entry. All six tickets are structured and displayed. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -262,7 +262,7 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:23`; `ai_docs/readines
 
 ### BBS-024 — Arena level-up predicates are documented but not represented fully
 
-**Current disposition (2026-10-01): closed.** All 29 FM Arena level predicates are structured: six cumulative-medal thresholds, 15 battle clears, four five-lap course times and four board-win counts. Existing battles/races plus 30 scoped medal/board check records cover the predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** All 29 FM Arena level predicates are structured: six cumulative-medal thresholds, 15 battle clears, four five-lap course times and four board-win counts. Existing battles/races plus 30 scoped medal/board check records cover the predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -272,7 +272,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:28`; `ai_docs/games/bir
 
 ### BBS-025 — Unversed Mission exact rank boundaries
 
-**Current disposition (2026-10-01): partial.** All nine missions now have full one/two/three-star bands and original per-character tactics (27 guides). Contradictory equality phrasing remains explicitly separated from the published tables. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** All nine missions now have full one/two/three-star bands and original per-character tactics (27 guides). Contradictory equality phrasing remains explicitly separated from the published tables. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -282,7 +282,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:34`–46; `ai_docs/rese
 
 ### BBS-026 — Minigame full rewards, conditions and strategies
 
-**Current disposition (2026-10-01): closed.** Integrated all five Final Mix Ice Cream Beat songs with Beginner/Master Good/Cool/Fantastic scores, first/repeat prizes and controls; Fruitball opponent first/repeat rewards and tactics; all four race rewards/route guides. Original Japanese Special mode and three/nine-lap targets are explicitly excluded from HD rules. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Integrated all five Final Mix Ice Cream Beat songs with Beginner/Master Good/Cool/Fantastic scores, first/repeat prizes and controls; Fruitball opponent first/repeat rewards and tactics; all four race rewards/route guides. Original Japanese Special mode and three/nine-lap targets are explicitly excluded from HD rules. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -292,7 +292,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:50`–66; `ai_docs/read
 
 ### BBS-027 — Command Board panels, ownership and mode exceptions
 
-**Current disposition (2026-10-01): partial.** Acquisition catalog now includes source-described opponent/bonus-panel command routes across boards; victory is not assumed necessary to retain obtained panels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated all 45 bonus-panel rows across seven boards with map keys, normal/limited/Arena modes and current-copy ownership rule. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -302,7 +302,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:66`; `ai_docs/research/
 
 ### BBS-028 — Finish Command partial counter persistence
 
-**Current disposition (2026-10-01): researched-open.** Preserved the 46-node finisher tree and equipped-parent metric predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): researched-open.** Preserved the 46-node finisher tree and equipped-parent metric predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -312,7 +312,7 @@ Evidence: `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:99`–109;
 
 ### BBS-029 — Complete D-Link, Style and Shotlock families
 
-**Current disposition (2026-10-01): partial.** Added 15 Command Styles and 13 persistent D-Link identities with scoped acquisition/trigger/emblem ability data; all 17 Shotlocks are cataloged. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated 15 styles, 13 persistent D-Links, 17 Shotlocks plus 39 D-Link decks/finisher lists, 12 probability triples and gauge conditions; applied HD/character substitutions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -322,7 +322,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:41`; `ai_docs/games/bbsf
 
 ### BBS-030 — Optional boss access, mechanics and recovery guidance
 
-**Current disposition (2026-10-01): partial.** Inspected all six named encounters; existing Arena/weapon/episode records retain correct separate contexts. Added concise sourced encounter references with access/recovery and FM-specific distinctions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Inspected all six named encounters; existing Arena/weapon/episode records retain correct separate contexts. Added concise sourced encounter references with access/recovery and FM-specific distinctions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -332,7 +332,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:72`; `ai_docs/readiness
 
 ### BBS-031 — Episode and Trinity mixed-save aggregation
 
-**Current disposition (2026-10-01): researched-open.** Kept main, Final and Secret episodes separate and preserved published difficulty requirement table. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): researched-open.** Kept main, Final and Secret episodes separate and preserved published difficulty requirement table. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -342,7 +342,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:76`–87; `ai_docs/rese
 
 ### BBS-032 — Steam achievement roster, hidden IDs/predicates and build issues
 
-**Current disposition (2026-10-01): partial.** Expanded Steam overlay from 34 to 45 BBS goal names using the Steam roster, including the story/boss/Critical goals. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): partial.** Integrated 45 named Steam goals and all 45 individually observed API identifiers, with 10 positive published hidden labels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -352,7 +352,7 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:91`–95; `ai_docs/read
 
 ### BBS-033 — Edition and source provenance limits
 
-**Current disposition (2026-10-01): provenance.** Recorded individual command sources plus every consulted follow-up family and disposition, with inspection date and evidence scope. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): provenance.** Recorded individual command sources plus every consulted follow-up family and disposition, with inspection date and evidence scope. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -362,7 +362,7 @@ Evidence: `ai_docs/games/birth-by-sleep-final-mix.md:9`; `ai_docs/readiness/birt
 
 ### BBS-034 — Original workbook/tool behavior recovery
 
-**Current disposition (2026-10-01): provenance.** Retained original workbook grid ranges, zero populated acquisition-location cells, and local bbsmelding seed/tool lineage. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): provenance.** Retained original workbook grid ranges, zero populated acquisition-location cells, and local bbsmelding seed/tool lineage. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -372,7 +372,7 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:5`–13; `ai_docs/resear
 
 ### BBS-035 — Implementation and app acceptance backlog
 
-**Current disposition (2026-10-01): implementation.** Corrected active readiness text to acknowledge solver/journal/state implementation; fixed eight Secret Episode collectible flags and invalid calculator-level crash. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): implementation.** Corrected active readiness text to acknowledge solver/journal/state implementation; fixed eight Secret Episode collectible flags and invalid calculator-level crash. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -382,7 +382,7 @@ Evidence: `ai_docs/readiness/birth-by-sleep-final-mix.md:47`–72; `ai_docs/game
 
 ### BBS-036 — Visual fidelity, art and isolated 3D prototype
 
-**Current disposition (2026-10-01): visual.** Updated active checklist context: native selector/book references and inspected rigged prototype assets exist. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): visual.** Updated active checklist context: native selector/book references and inspected rigged prototype assets exist. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -392,7 +392,7 @@ Evidence: `ai_docs/ui/references/bbsfm/README.md:11,21–31,39–52`; `ai_docs/i
 
 ### BBS-037 — Historical/resolved caveats and explicit exclusions
 
-**Current disposition (2026-10-01): excluded.** Preserved settled exclusions and historical corrections; HD-removed and temporary commands are explicit catalog exclusions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): excluded.** Preserved settled exclusions and historical corrections; HD-removed and temporary commands are explicit catalog exclusions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 
@@ -402,7 +402,7 @@ Evidence: `ai_docs/games/bbsfm/README.md:3`, `ai_docs/games/bbsfm/collectibles-a
 
 ### BBS-038 — No-crystal chance table and known rule presentation
 
-**Current disposition (2026-10-01): closed.** Calculator displays no-crystal ability chances 10/20/30/40/50% by combined levels, keeps Shotlocks ability-free, and rejects invalid/fractional input levels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+**Current disposition (2026-10-01): closed.** Calculator displays no-crystal ability chances 10/20/30/40/50% by combined levels, keeps Shotlocks ability-free, and rejects invalid/fractional input levels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json) and [continuation](research-continuation-2026-10-01.md).
 
 **Historical baseline finding:**
 

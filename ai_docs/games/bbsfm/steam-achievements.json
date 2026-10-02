@@ -1,0 +1,412 @@
+{
+  "inspected": "2026-10-01",
+  "edition": "Steam HD 1.5+2.5 ReMIX, BBS Final Mix",
+  "method": "Each API key was individually search-retrieved from SteamDB and joined by its preceding BBS requirement to the existing named goal. The following title belongs to another row and was not used. No ordering or percentage join. Raw API hidden flags were not inspected; hidden_label_observed records only the published hidden-achievement marker (10 present, 35 absent). Save aggregation and build-specific trigger behavior are not certified.",
+  "achievements": [
+    {
+      "name": "Critical Competitor",
+      "api_name": "ACH_153",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn485search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_153\"",
+      "requirement_paraphrase": "Critical difficulty completion."
+    },
+    {
+      "name": "The Lost Chapter",
+      "api_name": "ACH_154",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn484search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_154\"",
+      "requirement_paraphrase": "Complete Secret Episode."
+    },
+    {
+      "name": "The Vessel",
+      "api_name": "ACH_155",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn488search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_155\"",
+      "requirement_paraphrase": "Complete Terra’s story."
+    },
+    {
+      "name": "The Dormant",
+      "api_name": "ACH_156",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn530search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_156\" \"Ventus story\"",
+      "requirement_paraphrase": "Complete Ventus’s story."
+    },
+    {
+      "name": "The Seeker",
+      "api_name": "ACH_157",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn531search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_157\" \"Aqua\"",
+      "requirement_paraphrase": "Complete Aqua’s story."
+    },
+    {
+      "name": "Connected Hearts",
+      "api_name": "ACH_158",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn493search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_158\"",
+      "requirement_paraphrase": "Complete Final Episode."
+    },
+    {
+      "name": "A Mere Shell",
+      "api_name": "ACH_159",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn491search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_159\"",
+      "requirement_paraphrase": "Defeat Vanitas Remnant."
+    },
+    {
+      "name": "Time’s Teller",
+      "api_name": "ACH_160",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn490search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_160\"",
+      "requirement_paraphrase": "Defeat Unknown."
+    },
+    {
+      "name": "Darkness’s Will",
+      "api_name": "ACH_161",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn489search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_161\"",
+      "requirement_paraphrase": "Defeat No Heart."
+    },
+    {
+      "name": "Light’s Will",
+      "api_name": "ACH_162",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn492search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_162\"",
+      "requirement_paraphrase": "Defeat Armor of Eraqus."
+    },
+    {
+      "name": "Savage Slayer",
+      "api_name": "ACH_163",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn497search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_163\"",
+      "requirement_paraphrase": "Highest rank in every Unversed mission."
+    },
+    {
+      "name": "Profiler",
+      "api_name": "ACH_164",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn496search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_164\"",
+      "requirement_paraphrase": "Collect all Secret Reports."
+    },
+    {
+      "name": "Collector",
+      "api_name": "ACH_165",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn498search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_165\"",
+      "requirement_paraphrase": "Collect every sticker."
+    },
+    {
+      "name": "The Adventurer: Terra",
+      "api_name": "ACH_166",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn494search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_166\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "The Adventurer: Ventus",
+      "api_name": "ACH_167",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn495search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_167\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "The Adventurer: Aqua",
+      "api_name": "ACH_168",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn503search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_168\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "Perfect Shot",
+      "api_name": "ACH_169",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn502search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_169\"",
+      "requirement_paraphrase": "50 Shotlock uses."
+    },
+    {
+      "name": "Justice & Dark",
+      "api_name": "ACH_170",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn499search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_170\"",
+      "requirement_paraphrase": "10 Pete D-Link uses."
+    },
+    {
+      "name": "D.J.",
+      "api_name": "ACH_171",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn501search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_171\"",
+      "requirement_paraphrase": "20 Rhythm Mixer activations."
+    },
+    {
+      "name": "The Warrior: Terra",
+      "api_name": "ACH_172",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn500search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_172\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "The Warrior: Ventus",
+      "api_name": "ACH_173",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn507search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_173\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "The Warrior: Aqua",
+      "api_name": "ACH_174",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn508search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_174\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "Musclehead",
+      "api_name": "ACH_175",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn505search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_175\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "B-Boy",
+      "api_name": "ACH_176",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn506search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_176\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "Majorette",
+      "api_name": "ACH_177",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn504search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_177\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "Pâtissier",
+      "api_name": "ACH_178",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn512search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_178\"",
+      "requirement_paraphrase": "Make every ice-cream flavor."
+    },
+    {
+      "name": "Command Board Conqueror",
+      "api_name": "ACH_179",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn529search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_179\" \"Command Board\"",
+      "requirement_paraphrase": "Win every playable board."
+    },
+    {
+      "name": "Maestro",
+      "api_name": "ACH_180",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn509search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_180\"",
+      "requirement_paraphrase": "Master Fantastic on every Ice Cream Beat song."
+    },
+    {
+      "name": "Rapid Racer",
+      "api_name": "ACH_181",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn511search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_181\"",
+      "requirement_paraphrase": "Win every Rumble Racing course."
+    },
+    {
+      "name": "Fantasista",
+      "api_name": "ACH_182",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn510search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_182\"",
+      "requirement_paraphrase": "Beat every Fruitball opponent."
+    },
+    {
+      "name": "The Journey Begins",
+      "api_name": "ACH_183",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn518search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_183\"",
+      "requirement_paraphrase": "Land of Departure prologue complete."
+    },
+    {
+      "name": "Pursuit of Truth",
+      "api_name": "ACH_184",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn514search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_184\"",
+      "requirement_paraphrase": "Mysterious Tower complete."
+    },
+    {
+      "name": "Defying Darkness",
+      "api_name": "ACH_185",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn517search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_185\"",
+      "requirement_paraphrase": "Disney Town complete."
+    },
+    {
+      "name": "Entrusting Power",
+      "api_name": "ACH_186",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn516search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_186\"",
+      "requirement_paraphrase": "Destiny Islands complete."
+    },
+    {
+      "name": "Encounters",
+      "api_name": "ACH_187",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn515search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_187\"",
+      "requirement_paraphrase": "Badlands complete."
+    },
+    {
+      "name": "A Moment of Rest",
+      "api_name": "ACH_188",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn519search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_188\"",
+      "requirement_paraphrase": "Disney Town complete."
+    },
+    {
+      "name": "A Friend in Need",
+      "api_name": "ACH_189",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn523search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_189\"",
+      "requirement_paraphrase": "Mysterious Tower complete."
+    },
+    {
+      "name": "Drifting Apart",
+      "api_name": "ACH_190",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn520search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_190\"",
+      "requirement_paraphrase": "Radiant Garden complete."
+    },
+    {
+      "name": "Hopeful Hearts",
+      "api_name": "ACH_191",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn522search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_191\"",
+      "requirement_paraphrase": "Destiny Islands complete."
+    },
+    {
+      "name": "Pawn of the Arena",
+      "api_name": "ACH_192",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn521search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_192\"",
+      "requirement_paraphrase": "Clear every one-star Arena mission."
+    },
+    {
+      "name": "Knight of the Arena",
+      "api_name": "ACH_193",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn525search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_193\"",
+      "requirement_paraphrase": "Clear every two-star Arena mission."
+    },
+    {
+      "name": "Queen of the Arena",
+      "api_name": "ACH_194",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn524search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_194\"",
+      "requirement_paraphrase": "Clear every three-star Arena mission."
+    },
+    {
+      "name": "King of the Arena",
+      "api_name": "ACH_195",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn528search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_195\"",
+      "requirement_paraphrase": "Clear every four-star Arena mission."
+    },
+    {
+      "name": "Keepers of the Arena",
+      "api_name": "ACH_196",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn527search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_196\"",
+      "requirement_paraphrase": "Clear the named Arena battle."
+    },
+    {
+      "name": "Villains' Vendetta",
+      "api_name": "ACH_197",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn526search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_197\"",
+      "requirement_paraphrase": "Clear the named Arena battle."
+    }
+  ]
+}

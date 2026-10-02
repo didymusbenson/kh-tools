@@ -33,6 +33,6 @@ for r in acq['finish_unlocks']['rows']:
 crystals=[]
 for n,cost,shop,arena in [('Shimmering Crystal',300,1,1),('Fleeting Crystal',350,1,1),('Pulsing Crystal',300,1,1),('Wellspring Crystal',300,1,1),('Soothing Crystal',400,1,1),('Hungry Crystal',350,1,1),('Abounding Crystal',400,4,1),('Chaos Crystal',500,5,10),('Secret Gem',1500,8,15)]:
  crystals.append(dict(name=n,cost=cost,shop=shop,arena=arena))
-data=dict(noCrystalChance=raw['random_ability_chance_without_crystal'],research=enrichment,commands=commands,groups=list(groups.values()),finish=finish,crystals=crystals,shops=acq['command_shop']['rows'],abilityStacks=list(csv.DictReader((research/'ability-stacks.csv').open())))
+data=dict(steamAchievements=json.loads((research/'steam-achievements.json').read_text())['achievements'],noCrystalChance=raw['random_ability_chance_without_crystal'],research=enrichment,commands=commands,groups=list(groups.values()),finish=finish,crystals=crystals,shops=acq['command_shop']['rows'],abilityStacks=list(csv.DictReader((research/'ability-stacks.csv').open())))
 (root/'src/games/bbsfm/ui-data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 print(len(groups),'meld groups;',len(commands),'command identities;',len(finish),'finisher nodes')

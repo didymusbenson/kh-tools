@@ -191,6 +191,12 @@ for e in entries:
  if e['category']=='keyblades':
   w=next((w for w in enrichment['weapon_reach'] if w['name'].replace(chr(39),'’')==e['name'].replace(chr(39),'’') and w['character']==e['character'].split(' · ')[0]),None)
   if w:e['instructions']+=' Reach: '+w['length']+'. '+w['passive'];e['sources'].append(w['source'])
+ if e['category']=='minigames' and e['name'].endswith(' Command Board'):
+  board=next((b for b in enrichment['command_boards']['boards'] if e['name']==b['name'].replace(' Board',' Command Board')),None)
+  if board:
+   e['instructions']+=' '+enrichment['command_boards']['rules']+' Bonus panels (map key: normal; limited; Arena): '+'; '.join(str(p['key'])+': '+p['normal']+'; '+p['limited']+'; '+p['arena'] for p in board['panels'])+'.'
+   e['sources'].append(board['source'])
+   e['uncertainty']=enrichment['command_boards']['remaining']
  if e['category']=='abilities':
   detail=enrichment['abilities'][e['name']]
   e['instructions']=detail['effect']+'. '+detail.get('acquisition',e['instructions'])+' '+detail.get('modern_note','')+' An attached ability is active while its command is equipped; mastering it makes it permanent. Enabled stacks are separate from acquired copies.'
@@ -202,7 +208,8 @@ for e in entries:
   if bonus:e['reward']='; '.join(filter(None,[e.get('reward'),bonus]))
   if e['name']=='Monster of the Sea':e['reward']='Mini'
   if e['name']=='A Time to Chill' and e['character'] in ['Ventus','Aqua']:
-   e['uncertainty']+=' HP reward conflicts: individual battle page +5; world Bonus Levels table +10.'
+   e['uncertainty']+=' HP reward conflicts: individual battle page +5; world Bonus Levels table and HD Gamer Guides +10.'
+   e['sources'].append('https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/mirage-arena/time-to-chill')
 for c in chars:
  for r in command_catalog:
   if c not in r['characters']:continue
@@ -243,16 +250,26 @@ for r in enrichment['additional_steam_goals']:
  e=dict(id='bbsfm:achievement:'+slug(r['name']),category='achievements',name=r['name'],summary=r['goal'],instructions=r['goal'],collectible=False,sources=[r['source'],'https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements'])
  if r['character']:e['character']=r['character']
  entries.append(e)
+steam_metadata={r['name']:r for r in json.loads((DATA/'steam-achievements.json').read_text())['achievements']}
+for e in entries:
+ if e['category']!='achievements':continue
+ r=steam_metadata[e['name']]
+ e['sources'].append(r['source'])
 families=json.loads((DATA/'command-families.json').read_text())
 for kind in ['styles','dlinks']:
  for r in families[kind]:
   for c in r['characters']:
    detail=('Trigger: '+r['triggers']+'. '+('A level-two style requires an active first-tier style.' if r['level']=='LV 2' else '')) if kind=='styles' else families['dlink_progression']+' First emblem: '+r['first_emblem']+'. Second emblem: '+r['second_emblem']+'.'
-   entries.append(dict(id=ident(c,kind,r['name']),category=kind,character=c,name=r['name'],summary='Command Style' if kind=='styles' else 'D-Link',instructions=r['acquisition']+'. '+detail,sources=[r['source']]))
+   sources=[r['source']]
+   if kind=='dlinks':
+    decks=[[cmd for cmd in deck if not (r['name']=='Stitch' and c!='Aqua' and cmd=='Thundaga Shot')] for deck in r['deck_by_emblems']]
+    detail+=' '+families['usage']+' Linked decks by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in decks)+'. Finishers by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in r['finish_by_emblems'])+'. Emblem drop chances by current 0/1/2 emblems: '+' / '.join('unknown' if p is None else str(p)+'%' for p in r['emblem_chance_percent'])+'. Attack gauge multiplier: '+r['gauge_attack_multiplier']+'. Gauge bonus: '+r['gauge_bonus']['condition']+' '+r['gauge_bonus']['amount']+'.'
+    sources.append(r['mechanics_source'])
+   entries.append(dict(id=ident(c,kind,r['name']),category=kind,character=c,name=r['name'],summary='Command Style' if kind=='styles' else 'D-Link',instructions=r['acquisition']+'. '+detail,sources=sources))
 # Keep generated content reviewable and reproducible.
 for boss in enrichment['boss_encounters']:
  for c in boss['characters']:
   entries.append(dict(id=ident(c,'boss-reference',boss['name']),category='bestiary',character=c,world=boss['world'],area=boss['area'],name=boss['name'],summary='Encounter reference',prerequisites=boss['access'],instructions=boss['instructions'],reward=boss['reward'],uncertainty='Sourced encounter overview; complete per-character attack/stat/recovery coverage remains unverified.',checkable=False,collectible=False,sources=[boss['source']]))
-guide=dict(id='bbsfm',name='Birth by Sleep',edition='Final Mix',accent='blue',craftingLabel='Melding & Ice Cream',categories=[dict(id=i,label=l,icon=k) for i,l,k in [('bestiary','Bestiary','monster'),('treasures','Treasures','chest'),('stickers','Stickers','spark'),('reports','Xehanort Reports','scroll'),('keyblades','Keyblades','sword'),('commands','Command Shop','wand'),('styles','Command Styles','spark'),('dlinks','D-Links','heart'),('abilities','Abilities','leaf'),('finishers','Finish Commands','heart'),('album','Sticker Album Rewards','book'),('challenges','Unversed Missions','medal'),('arena','Mirage Arena','cup'),('minigames','Minigames','trinity'),('episodes','Episodes','torn-page'),('achievements','Steam Achievements','medal')]],worlds=[dict(name=w,summary=('Aqua’s Secret Episode; separate from the standalone 0.2 game.' if w=='Realm of Darkness' else 'Solo Arena battles, medal shop and character-specific rewards.' if w=='Mirage Arena' else 'Character-specific treasure and sticker records; use collection links to filter this world.')) for w in worlds],entries=entries,recipes=recipes,coverage='Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; API IDs, exact save aggregation and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; 187 persistent HD command identities are indexed with edition exclusions; acquisition routes, CP curves and challenge/enemy coverage retain specific evidence gaps.')
+guide=dict(id='bbsfm',name='Birth by Sleep',edition='Final Mix',accent='blue',craftingLabel='Melding & Ice Cream',categories=[dict(id=i,label=l,icon=k) for i,l,k in [('bestiary','Bestiary','monster'),('treasures','Treasures','chest'),('stickers','Stickers','spark'),('reports','Xehanort Reports','scroll'),('keyblades','Keyblades','sword'),('commands','Command Shop','wand'),('styles','Command Styles','spark'),('dlinks','D-Links','heart'),('abilities','Abilities','leaf'),('finishers','Finish Commands','heart'),('album','Sticker Album Rewards','book'),('challenges','Unversed Missions','medal'),('arena','Mirage Arena','cup'),('minigames','Minigames','trinity'),('episodes','Episodes','torn-page'),('achievements','Steam Achievements','medal')]],worlds=[dict(name=w,summary=('Aqua’s Secret Episode; separate from the standalone 0.2 game.' if w=='Realm of Darkness' else 'Solo Arena battles, medal shop and character-specific rewards.' if w=='Mirage Arena' else 'Character-specific treasure and sticker records; use collection links to filter this world.')) for w in worlds],entries=entries,recipes=recipes,coverage='Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; all 45 API IDs are mapped; exact save aggregation, raw hidden flags and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; 187 persistent HD command identities are indexed with edition exclusions; acquisition routes, CP curves and challenge/enemy coverage retain specific evidence gaps.')
 (ROOT/'src/games/bbsfm/content.json').write_text(json.dumps(guide,ensure_ascii=False,indent=2)+'\n')
 print('entries',len(entries),'recipes',len(recipes),'meld groups',len(groups))

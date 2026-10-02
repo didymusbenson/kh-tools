@@ -157,7 +157,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 0,
@@ -166,7 +167,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 97,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:terra:land-of-departure:treasure:2",
@@ -180,7 +182,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 1,
@@ -189,7 +192,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 98,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:terra:land-of-departure:treasure:3",
@@ -203,7 +207,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 2,
@@ -212,7 +217,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 99,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:terra:land-of-departure:treasure:4",
@@ -226,7 +232,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 3,
@@ -235,7 +242,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 100,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:ventus:land-of-departure:tutorial-treasure:tutorial",
@@ -248,10 +256,12 @@
       "instructions": "Chest in Mountain Path.",
       "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
       "sources": [
-        "https://www.khwiki.com/Game:Land_of_Departure"
+        "https://www.khwiki.com/Game:Land_of_Departure",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": false,
-      "order": 4
+      "order": 4,
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:aqua:land-of-departure:treasure:1",
@@ -265,7 +275,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 5,
@@ -274,7 +285,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 436,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:aqua:land-of-departure:treasure:2",
@@ -288,7 +300,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 6,
@@ -297,7 +310,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 437,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:aqua:land-of-departure:treasure:3",
@@ -311,7 +325,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 7,
@@ -320,7 +335,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 438,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:aqua:land-of-departure:treasure:4",
@@ -334,7 +350,8 @@
       "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
       "sources": [
         "https://www.khwiki.com/Game:Land_of_Departure",
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "collectible": true,
       "order": 8,
@@ -343,7 +360,8 @@
         "source": "https://guiding-key.tumblr.com/khbbs-locations",
         "line": 439,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
-      }
+      },
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     {
       "id": "bbsfm:terra:dwarf-woodlands:treasure:1",
@@ -8785,10 +8803,11 @@
       "area": "Middle Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Zero Graviga — Middle Zone",
-      "instructions": "Chest in Middle Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "From the Blackout exit, return to Middle Zone and open the chest near the next darkness fight.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 375
@@ -8801,10 +8820,11 @@
       "area": "Lower Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Blackout — Lower Zone",
-      "instructions": "Chest in Lower Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "After raising the pillar, descend and clear the lower darkness patch beside the Middle Zone exit.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 376
@@ -8817,10 +8837,11 @@
       "area": "Middle Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Balloon Letter — Middle Zone",
-      "instructions": "Chest in Middle Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "Use the first dark-energy launcher, clear the next darkness patch and open the chest on that ledge.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 377
@@ -8833,10 +8854,11 @@
       "area": "Lower Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Chaos Crystal — Lower Zone",
-      "instructions": "Chest in Lower Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "From the Balloon Letter ledge, launch higher and drop into Lower Zone.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 378
@@ -8849,8 +8871,8 @@
       "area": "Lower Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Secret Gem — Lower Zone",
-      "instructions": "Lower Zone: clear the darkness around the raised pillar, climb onto it, then clear the two higher darkness patches to open the ascent. The Secret Gem is near the top before the exit to the Upper Zone.",
-      "uncertainty": "Exact earliest movement levels are not specified by the walkthrough.",
+      "instructions": "In Lower Zone, climb the raised pillar, clear both upper darkness patches and follow the ascent before Upper Zone.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
         "https://www.khwiki.com/Game:Realm_of_Darkness",
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
@@ -8866,10 +8888,11 @@
       "area": "Lower Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Transcendence — Lower Zone",
-      "instructions": "Chest in Lower Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "From the far-right Triple Firaga platform, drop to the central lower area.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 380
@@ -8882,10 +8905,11 @@
       "area": "Upper Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Triple Firaga — Upper Zone",
-      "instructions": "Chest in Upper Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "In Upper Zone, cross to the platform on the far right.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 381
@@ -8898,10 +8922,11 @@
       "area": "Upper Zone",
       "character": "Aqua · Secret Episode",
       "summary": "Megalixir — Upper Zone",
-      "instructions": "Chest in Upper Zone.",
-      "uncertainty": "Area verified in the research inventory; exact directions and earliest access are not yet documented.",
+      "instructions": "Clear the darkness patches on the left side of Upper Zone.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
-        "https://www.khwiki.com/Game:Realm_of_Darkness"
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode"
       ],
       "collectible": true,
       "order": 382
@@ -15974,7 +15999,7 @@
       "name": "Collision Magnet",
       "character": "Terra",
       "summary": "Command Shop · 1300 munny",
-      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Maximum level conflict: aggregate roster 4, individual BBS page 5. No complete mastery curve certified. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table extends to level 5. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Collision_Magnet",
@@ -15987,7 +16012,7 @@
       "name": "Collision Magnet",
       "character": "Ventus",
       "summary": "Command Shop · 1300 munny",
-      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Ventus: reward for earning 80 points in the Sticker Album.[KH BbS] Ventus: reward for earning 70 points in the Sticker Album.[KH BbS FM] Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Maximum level conflict: aggregate roster 4, individual BBS page 5. No complete mastery curve certified. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Ventus: reward for earning 80 points in the Sticker Album.[KH BbS] Ventus: reward for earning 70 points in the Sticker Album.[KH BbS FM] Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table extends to level 5. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Collision_Magnet",
@@ -16000,7 +16025,7 @@
       "name": "Collision Magnet",
       "character": "Aqua",
       "summary": "Command Shop · 1300 munny",
-      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Maximum level conflict: aggregate roster 4, individual BBS page 5. No complete mastery curve certified. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: make through Command Melding. Terra/Ventus/Aqua: enemy drop. Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere. Terra/Ventus/Aqua: bonus panel — Spaceship Board. Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board. Catalog maximum level 4. Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table extends to level 5. World drops: Collision Magnet: Triple Wrecker (5%). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Collision_Magnet",
@@ -17456,7 +17481,7 @@
       "name": "Blizzaga",
       "character": "Terra",
       "summary": "Command Shop · 1200 munny",
-      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 3. Maximum level conflict: aggregate roster 3, individual BBS page 4. No complete mastery curve certified. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 4. CP required per level step: 2: 580, 3: 610, 4: 640. Level 4 supported by the individual BBS mechanics and CP table and the independent PSP translation guide; aggregate roster’s 3 retained as historical conflict. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Blizzaga",
@@ -17469,7 +17494,7 @@
       "name": "Blizzaga",
       "character": "Ventus",
       "summary": "Command Shop · 1200 munny",
-      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 3. Maximum level conflict: aggregate roster 3, individual BBS page 4. No complete mastery curve certified. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 4. CP required per level step: 2: 580, 3: 610, 4: 640. Level 4 supported by the individual BBS mechanics and CP table and the independent PSP translation guide; aggregate roster’s 3 retained as historical conflict. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Blizzaga",
@@ -17482,7 +17507,7 @@
       "name": "Blizzaga",
       "character": "Aqua",
       "summary": "Command Shop · 1200 munny",
-      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 3. Maximum level conflict: aggregate roster 3, individual BBS page 4. No complete mastery curve certified. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
+      "instructions": "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4] Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition. Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board. Catalog maximum level 4. CP required per level step: 2: 580, 3: 610, 4: 640. Level 4 supported by the individual BBS mechanics and CP table and the independent PSP translation guide; aggregate roster’s 3 retained as historical conflict. World drops: Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8). Exact character rooms/reset routes remain unverified.",
       "sources": [
         "https://www.khwiki.com/Command_Shop",
         "https://www.khwiki.com/Blizzaga",
@@ -21089,11 +21114,13 @@
       "character": "Terra",
       "name": "Keyblade Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Zero Gravity; Ragnarok; Zero Gravity; 2: Magnet (80%) / Cure (20%); —; —; 3: Strike Raid (50%) / Poison Edge (50%); —; —; 4: Blizzard (50%) / Aero (50%); —; —; 5: Confuse (50%) / Slow (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Keyblade_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:royal",
@@ -21101,11 +21128,13 @@
       "character": "Terra",
       "name": "Royal Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Stun Edge; Wishing Edge (Aqua only); —; 2: Focus Barrier (Aqua only); Focus Block (Terra and Ventus only); —; 3: Fire Dash; Meteor Shower; —; 4: Fire (60%) / Thunder (40%); —; —; 5: Bind (40%) / Stop (40%) / Blackout (20%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Royal_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:spaceship",
@@ -21113,11 +21142,13 @@
       "character": "Terra",
       "name": "Spaceship Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Firaga; High Jump; —; 2: Zero Graviga; Lightning Ray; Zero Graviga; 3: Sonic Blade (50%) / Thundaga (50%); —; —; 4: Thundara (50%) / Aerora (50%); —; —; 5: Blackout (50%) / Ignite (50%); —; —; 6: —; Collision Magnet; —; 7: Mini; Limit Storm (Terra only); —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Spaceship_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:toon",
@@ -21125,11 +21156,13 @@
       "character": "Terra",
       "name": "Toon Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Confusion Strike; Binding Strike; —; 2: Blizzard; Blizzara; Zero Graviga; 3: Thundara (50%) / Aerora (50%); —; —; 4: Freeze Raid; Deep Freeze; Freeze Raid; 5: —; Blizzard Edge; —; 6: Cure (50%) / Zero Graviga (50%); —; —; 7: Stopra (50%) / Blackout (25%) / Bind (25%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Toon_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:skull",
@@ -21137,11 +21170,13 @@
       "character": "Terra",
       "name": "Skull Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Quick Blitz (50%) / Aero (50%); —; —; 2: Magnega; Photon Charge; Magnega; 3: Blitz (50%) / Aerial Slam (50%); —; —; 4: Firaga (50%) / Mine Square (50%); —; —; 5: Poison Edge; Munny Magnet (Aqua only); —; 6: Binding Strike; —; —; 7: Zero Gravira (50%) / Aerora (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Skull_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:hunny-pot",
@@ -21149,11 +21184,13 @@
       "character": "Terra",
       "name": "Hunny Pot Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Fira (30%) / Fire Surge (70%); —; —; 2: Confusion Strike; Sacrifice (Terra only); —; 3: Thundara; Thunder Roll (Ventus only); Thundara; 4: Mine Square (50%) / Zero Gravira (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Hunny_Pot_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:terra:board:secret",
@@ -21161,11 +21198,13 @@
       "character": "Terra",
       "name": "Secret Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Magnega; Aerial Slam; Thundara; 2: Thunder Surge; Lightning Ray; Aerial Slam; 3: —; Sonic Blade; Blitz; 4: —; Fission Firaga; Fire Surge; 5: Zero Graviga (50%) / Magnega (50%); —; Magnera; 6: —; Cura; Cura; 7: Thundaga; Ragnarok; Thundara; 8: —; Aeroga; Aerora; 9: Fire Dash; Fire Surge; Fire Dash; 10: —; Blitz; Confusion Strike.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Secret_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:arena:day-of-reckoning",
@@ -21324,9 +21363,10 @@
       "prerequisites": "Aqua Olympus progress / Aqua clear data / ticket conditions",
       "instructions": "Solo HD match. Bonus objective: Blocks ≥50. Group Cure/Cura/Curaga do not count toward heal limits.",
       "reward": "",
-      "uncertainty": "Ticket and cross-character clear-file alternatives need exact AND/OR validation. HP reward conflicts: individual battle page +5; world Bonus Levels table +10.",
+      "uncertainty": "Ticket and cross-character clear-file alternatives need exact AND/OR validation. HP reward conflicts: individual battle page +5; world Bonus Levels table and HD Gamer Guides +10.",
       "sources": [
-        "https://www.khwiki.com/Arena_Mode"
+        "https://www.khwiki.com/Arena_Mode",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/mirage-arena/time-to-chill"
       ]
     },
     {
@@ -21670,11 +21710,13 @@
       "character": "Ventus",
       "name": "Keyblade Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Zero Gravity; Ragnarok; Zero Gravity; 2: Magnet (80%) / Cure (20%); —; —; 3: Strike Raid (50%) / Poison Edge (50%); —; —; 4: Blizzard (50%) / Aero (50%); —; —; 5: Confuse (50%) / Slow (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Keyblade_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:royal",
@@ -21682,11 +21724,13 @@
       "character": "Ventus",
       "name": "Royal Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Stun Edge; Wishing Edge (Aqua only); —; 2: Focus Barrier (Aqua only); Focus Block (Terra and Ventus only); —; 3: Fire Dash; Meteor Shower; —; 4: Fire (60%) / Thunder (40%); —; —; 5: Bind (40%) / Stop (40%) / Blackout (20%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Royal_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:spaceship",
@@ -21694,11 +21738,13 @@
       "character": "Ventus",
       "name": "Spaceship Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Firaga; High Jump; —; 2: Zero Graviga; Lightning Ray; Zero Graviga; 3: Sonic Blade (50%) / Thundaga (50%); —; —; 4: Thundara (50%) / Aerora (50%); —; —; 5: Blackout (50%) / Ignite (50%); —; —; 6: —; Collision Magnet; —; 7: Mini; Limit Storm (Terra only); —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Spaceship_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:toon",
@@ -21706,11 +21752,13 @@
       "character": "Ventus",
       "name": "Toon Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Confusion Strike; Binding Strike; —; 2: Blizzard; Blizzara; Zero Graviga; 3: Thundara (50%) / Aerora (50%); —; —; 4: Freeze Raid; Deep Freeze; Freeze Raid; 5: —; Blizzard Edge; —; 6: Cure (50%) / Zero Graviga (50%); —; —; 7: Stopra (50%) / Blackout (25%) / Bind (25%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Toon_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:skull",
@@ -21718,11 +21766,13 @@
       "character": "Ventus",
       "name": "Skull Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Quick Blitz (50%) / Aero (50%); —; —; 2: Magnega; Photon Charge; Magnega; 3: Blitz (50%) / Aerial Slam (50%); —; —; 4: Firaga (50%) / Mine Square (50%); —; —; 5: Poison Edge; Munny Magnet (Aqua only); —; 6: Binding Strike; —; —; 7: Zero Gravira (50%) / Aerora (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Skull_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:hunny-pot",
@@ -21730,11 +21780,13 @@
       "character": "Ventus",
       "name": "Hunny Pot Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Fira (30%) / Fire Surge (70%); —; —; 2: Confusion Strike; Sacrifice (Terra only); —; 3: Thundara; Thunder Roll (Ventus only); Thundara; 4: Mine Square (50%) / Zero Gravira (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Hunny_Pot_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:ventus:board:secret",
@@ -21742,11 +21794,13 @@
       "character": "Ventus",
       "name": "Secret Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Magnega; Aerial Slam; Thundara; 2: Thunder Surge; Lightning Ray; Aerial Slam; 3: —; Sonic Blade; Blitz; 4: —; Fission Firaga; Fire Surge; 5: Zero Graviga (50%) / Magnega (50%); —; Magnera; 6: —; Cura; Cura; 7: Thundaga; Ragnarok; Thundara; 8: —; Aeroga; Aerora; 9: Fire Dash; Fire Surge; Fire Dash; 10: —; Blitz; Confusion Strike.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Secret_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:arena:day-of-reckoning",
@@ -21905,9 +21959,10 @@
       "prerequisites": "Aqua Olympus progress / Aqua clear data / ticket conditions",
       "instructions": "Solo HD match. Bonus objective: Blocks ≥50. Group Cure/Cura/Curaga do not count toward heal limits.",
       "reward": "",
-      "uncertainty": "Ticket and cross-character clear-file alternatives need exact AND/OR validation. HP reward conflicts: individual battle page +5; world Bonus Levels table +10.",
+      "uncertainty": "Ticket and cross-character clear-file alternatives need exact AND/OR validation. HP reward conflicts: individual battle page +5; world Bonus Levels table and HD Gamer Guides +10.",
       "sources": [
-        "https://www.khwiki.com/Arena_Mode"
+        "https://www.khwiki.com/Arena_Mode",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/mirage-arena/time-to-chill"
       ]
     },
     {
@@ -22251,11 +22306,13 @@
       "character": "Aqua",
       "name": "Keyblade Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Zero Gravity; Ragnarok; Zero Gravity; 2: Magnet (80%) / Cure (20%); —; —; 3: Strike Raid (50%) / Poison Edge (50%); —; —; 4: Blizzard (50%) / Aero (50%); —; —; 5: Confuse (50%) / Slow (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Keyblade_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:royal",
@@ -22263,11 +22320,13 @@
       "character": "Aqua",
       "name": "Royal Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Stun Edge; Wishing Edge (Aqua only); —; 2: Focus Barrier (Aqua only); Focus Block (Terra and Ventus only); —; 3: Fire Dash; Meteor Shower; —; 4: Fire (60%) / Thunder (40%); —; —; 5: Bind (40%) / Stop (40%) / Blackout (20%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Royal_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:spaceship",
@@ -22275,11 +22334,13 @@
       "character": "Aqua",
       "name": "Spaceship Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Firaga; High Jump; —; 2: Zero Graviga; Lightning Ray; Zero Graviga; 3: Sonic Blade (50%) / Thundaga (50%); —; —; 4: Thundara (50%) / Aerora (50%); —; —; 5: Blackout (50%) / Ignite (50%); —; —; 6: —; Collision Magnet; —; 7: Mini; Limit Storm (Terra only); —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Spaceship_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:toon",
@@ -22287,11 +22348,13 @@
       "character": "Aqua",
       "name": "Toon Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Confusion Strike; Binding Strike; —; 2: Blizzard; Blizzara; Zero Graviga; 3: Thundara (50%) / Aerora (50%); —; —; 4: Freeze Raid; Deep Freeze; Freeze Raid; 5: —; Blizzard Edge; —; 6: Cure (50%) / Zero Graviga (50%); —; —; 7: Stopra (50%) / Blackout (25%) / Bind (25%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Toon_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:skull",
@@ -22299,11 +22362,13 @@
       "character": "Aqua",
       "name": "Skull Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Quick Blitz (50%) / Aero (50%); —; —; 2: Magnega; Photon Charge; Magnega; 3: Blitz (50%) / Aerial Slam (50%); —; —; 4: Firaga (50%) / Mine Square (50%); —; —; 5: Poison Edge; Munny Magnet (Aqua only); —; 6: Binding Strike; —; —; 7: Zero Gravira (50%) / Aerora (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Skull_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:hunny-pot",
@@ -22311,11 +22376,13 @@
       "character": "Aqua",
       "name": "Hunny Pot Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Fira (30%) / Fire Surge (70%); —; —; 2: Confusion Strike; Sacrifice (Terra only); —; 3: Thundara; Thunder Roll (Ventus only); Thundara; 4: Mine Square (50%) / Zero Gravira (50%); —; —.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Hunny_Pot_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:aqua:board:secret",
@@ -22323,11 +22390,13 @@
       "character": "Aqua",
       "name": "Secret Command Board",
       "summary": "Win the board",
-      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel.",
+      "instructions": "Win this board. Menu and Mirage Arena sessions have different command acquisition rules; this check records a board win, not acquisition of every panel. Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order. Bonus panels (map key: normal; limited; Arena): 1: Magnega; Aerial Slam; Thundara; 2: Thunder Surge; Lightning Ray; Aerial Slam; 3: —; Sonic Blade; Blitz; 4: —; Fission Firaga; Fire Surge; 5: Zero Graviga (50%) / Magnega (50%); —; Magnera; 6: —; Cura; Cura; 7: Thundaga; Ragnarok; Thundara; 8: —; Aeroga; Aerora; 9: Fire Dash; Fire Surge; Fire Dash; 10: —; Blitz; Confusion Strike.",
       "prerequisites": "Merlin’s book unlocks Hunny Pot; Secret requires winning each of the other six boards.",
       "sources": [
-        "https://www.khwiki.com/Command_Board"
-      ]
+        "https://www.khwiki.com/Command_Board",
+        "https://www.khwiki.com/Secret_Board"
+      ],
+      "uncertainty": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     },
     {
       "id": "bbsfm:final-episode:unlock",
@@ -22360,7 +22429,8 @@
       "summary": "Land of Departure prologue complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22370,7 +22440,8 @@
       "summary": "Mysterious Tower complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -22381,7 +22452,8 @@
       "summary": "Disney Town complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -22392,7 +22464,8 @@
       "summary": "Destiny Islands complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -22403,7 +22476,8 @@
       "summary": "Badlands complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -22414,7 +22488,8 @@
       "summary": "Disney Town complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -22425,7 +22500,8 @@
       "summary": "Mysterious Tower complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -22436,7 +22512,8 @@
       "summary": "Radiant Garden complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua"
     },
@@ -22447,7 +22524,8 @@
       "summary": "Destiny Islands complete.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua"
     },
@@ -22458,7 +22536,8 @@
       "summary": "Use Break Time.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -22469,7 +22548,8 @@
       "summary": "Use Break Time.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -22480,7 +22560,8 @@
       "summary": "Use Break Time.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua"
     },
@@ -22491,7 +22572,8 @@
       "summary": "50 Shotlock uses.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22501,7 +22583,8 @@
       "summary": "Collect every sticker.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "uncertainty": "Exact one-character versus combined-save aggregation is not certified by the public description. Track the platform award independently."
     },
@@ -22512,7 +22595,8 @@
       "summary": "Beat every Fruitball opponent.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22522,7 +22606,8 @@
       "summary": "Win every Rumble Racing course.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22532,7 +22617,8 @@
       "summary": "Win every playable board.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "uncertainty": "Exact one-character versus combined-save aggregation is not certified by the public description. Track the platform award independently."
     },
@@ -22543,7 +22629,8 @@
       "summary": "Clear every one-star Arena mission.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22553,7 +22640,8 @@
       "summary": "Clear every two-star Arena mission.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22563,7 +22651,8 @@
       "summary": "Clear every three-star Arena mission.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22573,7 +22662,8 @@
       "summary": "Clear every four-star Arena mission.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22583,7 +22673,8 @@
       "summary": "Clear the named Arena battle.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22593,7 +22684,8 @@
       "summary": "Clear the named Arena battle.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22603,7 +22695,8 @@
       "summary": "20 Rhythm Mixer activations.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22613,7 +22706,8 @@
       "summary": "10 Pete D-Link uses.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -22623,7 +22717,8 @@
       "summary": "Make every ice-cream flavor.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "uncertainty": "Exact one-character versus combined-save aggregation is not certified by the public description. Track the platform award independently."
     },
@@ -22634,7 +22729,8 @@
       "summary": "Master Fantastic on every Ice Cream Beat song.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "uncertainty": "Exact one-character versus combined-save aggregation is not certified by the public description. Track the platform award independently."
     },
@@ -22645,7 +22741,8 @@
       "summary": "Highest rank in every Unversed mission.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "uncertainty": "Exact one-character versus combined-save aggregation is not certified by the public description. Track the platform award independently."
     },
@@ -22656,7 +22753,8 @@
       "summary": "Learn every Finish Command.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -22667,7 +22765,8 @@
       "summary": "Learn every Finish Command.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -22678,7 +22777,8 @@
       "summary": "Learn every Finish Command.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua"
     },
@@ -22689,7 +22789,8 @@
       "summary": "Complete Reports.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra",
       "instructions": "The platform goal covers the full in-game Reports, including narrative and character categories. The guide’s world collectible checks alone do not establish this achievement."
@@ -22701,7 +22802,8 @@
       "summary": "Complete Reports.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus",
       "instructions": "The platform goal covers the full in-game Reports, including narrative and character categories. The guide’s world collectible checks alone do not establish this achievement."
@@ -22713,7 +22815,8 @@
       "summary": "Complete Reports.",
       "collectible": false,
       "sources": [
-        "https://steamcommunity.com/stats/2552430/achievements/"
+        "https://steamcommunity.com/stats/2552430/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua",
       "instructions": "The platform goal covers the full in-game Reports, including narrative and character categories. The guide’s world collectible checks alone do not establish this achievement."
@@ -24179,7 +24282,7 @@
       "name": "Homing Slide",
       "character": "Ventus",
       "summary": "Movement command",
-      "instructions": "Ventus/Aqua: make through Command Melding. Catalog maximum level 4. Maximum level conflict: aggregate roster 4, individual BBS page 1. No complete mastery curve certified.",
+      "instructions": "Ventus/Aqua: make through Command Melding. Catalog maximum level 4. Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table contains only level 1. An incomplete one-row table does not itself certify maximum level 1.",
       "sources": [
         "https://www.khwiki.com/Homing_Slide",
         "https://www.khwiki.com/Deck_Command_(KHBBS)"
@@ -24933,7 +25036,7 @@
       "name": "Homing Slide",
       "character": "Aqua",
       "summary": "Movement command",
-      "instructions": "Ventus/Aqua: make through Command Melding. Catalog maximum level 4. Maximum level conflict: aggregate roster 4, individual BBS page 1. No complete mastery curve certified.",
+      "instructions": "Ventus/Aqua: make through Command Melding. Catalog maximum level 4. Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table contains only level 1. An incomplete one-row table does not itself certify maximum level 1.",
       "sources": [
         "https://www.khwiki.com/Homing_Slide",
         "https://www.khwiki.com/Deck_Command_(KHBBS)"
@@ -25381,7 +25484,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25393,7 +25497,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua · Secret Episode"
     },
@@ -25406,7 +25511,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua · Final Episode"
     },
@@ -25419,7 +25525,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Terra"
     },
@@ -25432,7 +25539,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Ventus"
     },
@@ -25445,7 +25553,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ],
       "character": "Aqua"
     },
@@ -25458,7 +25567,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25470,7 +25580,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25482,7 +25593,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25494,7 +25606,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25506,7 +25619,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
-        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements"
+        "https://truesteamachievements.com/game/KINGDOM-HEARTS-HD-1525-ReMIX/achievements",
+        "https://steamdb.info/app/2552430/stats/"
       ]
     },
     {
@@ -25812,9 +25926,10 @@
       "character": "Ventus",
       "name": "Terra",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Overdrive. Second emblem: Auto-Block.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Overdrive. Second emblem: Auto-Block. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Sliding Dash, Stun Edge / Quick Blitz, Sliding Dash, Stun Edge, Sliding Dash, Zero Gravity / Quick Blitz, Sonic Blade, Stun Edge, Sonic Blade, Zero Gravira, Binding Strike, Cure. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Landbreaker. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.4. Gauge bonus: Blow an enemy away +20% (Base) | +10% (Enhanced).",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Terra#D-Link"
       ]
     },
     {
@@ -25823,9 +25938,10 @@
       "character": "Aqua",
       "name": "Terra",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Overdrive. Second emblem: Auto-Block.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Overdrive. Second emblem: Auto-Block. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Sliding Dash, Stun Edge / Quick Blitz, Sliding Dash, Stun Edge, Sliding Dash, Zero Gravity / Quick Blitz, Sonic Blade, Stun Edge, Sonic Blade, Zero Gravira, Binding Strike, Cure. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Landbreaker. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.4. Gauge bonus: Blow an enemy away +20% (Base) | +10% (Enhanced).",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Terra#D-Link"
       ]
     },
     {
@@ -25834,9 +25950,10 @@
       "character": "Terra",
       "name": "Ventus",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Haste. Second emblem: Auto-Counter.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Haste. Second emblem: Auto-Counter. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Strike Raid, Aero / Quick Blitz, Strike Raid, Sliding Dash, Aero / Blitz, Strike Raid, Sliding Dash, Blitz, Freeze Raid, Sliding Dash, Aerora, Cura. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Air Dive. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.25. Gauge bonus: Use Attack or an Attack Command +10%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Ventus#D-Link"
       ]
     },
     {
@@ -25845,9 +25962,10 @@
       "character": "Aqua",
       "name": "Ventus",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Haste. Second emblem: Auto-Counter.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Haste. Second emblem: Auto-Counter. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Strike Raid, Aero / Quick Blitz, Strike Raid, Sliding Dash, Aero / Blitz, Strike Raid, Sliding Dash, Blitz, Freeze Raid, Sliding Dash, Aerora, Cura. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Air Dive. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.25. Gauge bonus: Use Attack or an Attack Command +10%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Ventus#D-Link"
       ]
     },
     {
@@ -25856,9 +25974,10 @@
       "character": "Terra",
       "name": "Aqua",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Deflector. Second emblem: Auto-Life.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Deflector. Second emblem: Auto-Life. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Blizzara, Thundara, Cura / Blizzara, Fire, Thundara, Magnera, Fire Strike, Cura / Blizzara, Fire, Thundara, Mine Square, Blizzara, Magnera, Fire Strike, Cura. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Magic Volley. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Use a Magic Command +10%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Aqua#D-Link"
       ]
     },
     {
@@ -25867,9 +25986,10 @@
       "character": "Ventus",
       "name": "Aqua",
       "summary": "D-Link",
-      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Deflector. Second emblem: Auto-Life.",
+      "instructions": "Clear the Land of Departure. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Deflector. Second emblem: Auto-Life. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Blizzara, Thundara, Cura / Blizzara, Fire, Thundara, Magnera, Fire Strike, Cura / Blizzara, Fire, Thundara, Mine Square, Blizzara, Magnera, Fire Strike, Cura. Finishers by 0/1/2 emblems: Finish / Finish / Finish, Magic Volley. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Use a Magic Command +10%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Aqua#D-Link"
       ]
     },
     {
@@ -25878,9 +25998,10 @@
       "character": "Ventus",
       "name": "Mickey Mouse",
       "summary": "D-Link",
-      "instructions": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Teleport. Second emblem: Double EXP.",
+      "instructions": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Teleport. Second emblem: Double EXP. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sliding Dash, Sliding Dash, Binding Strike, Cura / Sliding Dash, Sliding Dash, Binding Strike, Binding Strike, Mine Shield, Cura / Sliding Dash, Binding Strike, Sign of Faith, Binding Strike, Mini, Mine Shield, Cura. Finishers by 0/1/2 emblems: Lightcharge / Lightcharge / Lightcharge, Faithcharge. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Receive damage that would reduce HP to 0 | (Requires Second Chance or Once More) +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Mickey_Mouse#D-Link"
       ]
     },
     {
@@ -25889,9 +26010,10 @@
       "character": "Aqua",
       "name": "Mickey Mouse",
       "summary": "D-Link",
-      "instructions": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Teleport. Second emblem: Double EXP.",
+      "instructions": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Teleport. Second emblem: Double EXP. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sliding Dash, Sliding Dash, Binding Strike, Cura / Sliding Dash, Sliding Dash, Binding Strike, Binding Strike, Mine Shield, Cura / Sliding Dash, Binding Strike, Sign of Faith, Binding Strike, Mini, Mine Shield, Cura. Finishers by 0/1/2 emblems: Lightcharge / Lightcharge / Lightcharge, Faithcharge. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Receive damage that would reduce HP to 0 | (Requires Second Chance or Once More) +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Mickey_Mouse#D-Link"
       ]
     },
     {
@@ -25900,9 +26022,10 @@
       "character": "Ventus",
       "name": "Donald Duck",
       "summary": "D-Link",
-      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Boost. Second emblem: Shell.",
+      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Boost. Second emblem: Shell. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Firaga, Blizzaga, Thundaga, Fire Dash / Firaga, Blizzaga, Thundaga, Fire Dash, Fire Surge, Cura / Firaga, Fission Firaga, Blizzaga, Thundaga, Fire Dash, Fire Surge, Ignite, Cura. Finishers by 0/1/2 emblems: Donald Flare / Donald Flare / Donald Flare, Cosmic Donald. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.25. Gauge bonus: Use a Fire-elemental attack +15%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Donald_Duck#D-Link"
       ]
     },
     {
@@ -25911,9 +26034,10 @@
       "character": "Aqua",
       "name": "Donald Duck",
       "summary": "D-Link",
-      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Boost. Second emblem: Shell.",
+      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Magic Boost. Second emblem: Shell. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Firaga, Blizzaga, Thundaga, Fire Dash / Firaga, Blizzaga, Thundaga, Fire Dash, Fire Surge, Cura / Firaga, Fission Firaga, Blizzaga, Thundaga, Fire Dash, Fire Surge, Ignite, Cura. Finishers by 0/1/2 emblems: Donald Flare / Donald Flare / Donald Flare, Cosmic Donald. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.25. Gauge bonus: Use a Fire-elemental attack +15%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Donald_Duck#D-Link"
       ]
     },
     {
@@ -25922,9 +26046,10 @@
       "character": "Ventus",
       "name": "Goofy",
       "summary": "D-Link",
-      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Protect. Second emblem: Stun Boost.",
+      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Protect. Second emblem: Stun Boost. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sliding Dash, Strike Raid, Stun Edge, Confusion Strike / Sliding Dash, Strike Raid, Stun Edge, Confusion Strike, Freeze Raid, Confusion Strike / Sliding Dash, Strike Raid, Stun Edge, Confusion Strike, Freeze Raid, Confusion Strike, Strike Raid, Sonic Blade. Finishers by 0/1/2 emblems: Goofy Spin / Goofy Spin / Goofy Spin, Goofy Turbo. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Perform a successful block. +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Goofy#D-Link"
       ]
     },
     {
@@ -25933,9 +26058,10 @@
       "character": "Aqua",
       "name": "Goofy",
       "summary": "D-Link",
-      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Protect. Second emblem: Stun Boost.",
+      "instructions": "Clear the Mysterious Tower. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Protect. Second emblem: Stun Boost. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sliding Dash, Strike Raid, Stun Edge, Confusion Strike / Sliding Dash, Strike Raid, Stun Edge, Confusion Strike, Freeze Raid, Confusion Strike / Sliding Dash, Strike Raid, Stun Edge, Confusion Strike, Freeze Raid, Confusion Strike, Strike Raid, Sonic Blade. Finishers by 0/1/2 emblems: Goofy Spin / Goofy Spin / Goofy Spin, Goofy Turbo. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Perform a successful block. +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Goofy#D-Link"
       ]
     },
     {
@@ -25944,9 +26070,10 @@
       "character": "Ventus",
       "name": "Snow White",
       "summary": "D-Link",
-      "instructions": "Clear Dwarf Woodlands. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Gauge Boost. Second emblem: Quickload.",
+      "instructions": "Clear Dwarf Woodlands. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Gauge Boost. Second emblem: Quickload. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sleepy, Grumpy, Doc / Sleepy, Sneezy, Grumpy, Happy, Doc / Sleepy, Sneezy, Grumpy, Happy, Dopey, Bashful, Doc. Finishers by 0/1/2 emblems: Sweet Memory / Sweet Memory / Sweet Memory, Sweet Seven. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5 (x0.75 with Gauge Boost). Gauge bonus: HP is 25% of maximum or lower +1% every 0.08 seconds.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Snow_White#D-Link"
       ]
     },
     {
@@ -25955,9 +26082,10 @@
       "character": "Aqua",
       "name": "Snow White",
       "summary": "D-Link",
-      "instructions": "Clear Dwarf Woodlands. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Gauge Boost. Second emblem: Quickload.",
+      "instructions": "Clear Dwarf Woodlands. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Gauge Boost. Second emblem: Quickload. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Sleepy, Grumpy, Doc / Sleepy, Sneezy, Grumpy, Happy, Doc / Sleepy, Sneezy, Grumpy, Happy, Dopey, Bashful, Doc. Finishers by 0/1/2 emblems: Sweet Memory / Sweet Memory / Sweet Memory, Sweet Seven. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5 (x0.75 with Gauge Boost). Gauge bonus: HP is 25% of maximum or lower +1% every 0.08 seconds.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Snow_White#D-Link"
       ]
     },
     {
@@ -25966,9 +26094,10 @@
       "character": "Terra",
       "name": "Cinderella",
       "summary": "D-Link",
-      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen.",
+      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Shot, Wish Circle, Enchanted Step, Magic Mending, Magic Mending. Finishers by 0/1/2 emblems: Dream Sparkle / Dream Sparkle / Dream Sparkle, Miracle Dance. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Get inflicted with a status effect. +100%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Cinderella#D-Link"
       ]
     },
     {
@@ -25977,9 +26106,10 @@
       "character": "Ventus",
       "name": "Cinderella",
       "summary": "D-Link",
-      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen.",
+      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Shot, Wish Circle, Enchanted Step, Magic Mending, Magic Mending. Finishers by 0/1/2 emblems: Dream Sparkle / Dream Sparkle / Dream Sparkle, Miracle Dance. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Get inflicted with a status effect. +100%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Cinderella#D-Link"
       ]
     },
     {
@@ -25988,9 +26118,10 @@
       "character": "Aqua",
       "name": "Cinderella",
       "summary": "D-Link",
-      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen.",
+      "instructions": "Clear Castle of Dreams. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Auto-Remedy. Second emblem: Regen. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Circle, Enchanted Step, Magic Mending / Wish Shot, Wish Circle, Enchanted Step, Wish Shot, Wish Circle, Enchanted Step, Magic Mending, Magic Mending. Finishers by 0/1/2 emblems: Dream Sparkle / Dream Sparkle / Dream Sparkle, Miracle Dance. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Get inflicted with a status effect. +100%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Cinderella#D-Link"
       ]
     },
     {
@@ -25999,9 +26130,10 @@
       "character": "Terra",
       "name": "Maleficent",
       "summary": "D-Link",
-      "instructions": "Reach Aurora's Chamber. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Focus Saver. Second emblem: Drain.",
+      "instructions": "Reach Aurora's Chamber. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Focus Saver. Second emblem: Drain. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Fire, Binding Strike, Blackout, Sleep / Fire, Fira, Ignite, Binding Strike, Blackout, Sleep / Fire, Fira, Firaga, Ignite, Binding Strike, Dark Firaga, Blackout, Sleep. Finishers by 0/1/2 emblems: Thunderchaser / Thunderchaser / Thunderchaser, Dragonfire. Emblem drop chances by current 0/1/2 emblems: 10% / 7% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Use Dark-elemental attacks +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Maleficent#D-Link"
       ]
     },
     {
@@ -26010,9 +26142,10 @@
       "character": "Terra",
       "name": "Zack",
       "summary": "D-Link",
-      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector.",
+      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Slot Edge / Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Stop, Slot Edge / Fire Strike, Blitz, Fire Strike, Quick Blitz, Fire Strike, Blackout, Stopra, Slot Edge. Finishers by 0/1/2 emblems: Hero's Entrance / Hero's Entrance / Hero's Entrance, Hero's Pride. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.4 (Base) / x0.35 (Enhanced). Gauge bonus: Use a reprisal command +25%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Zack#D-Link"
       ]
     },
     {
@@ -26021,9 +26154,10 @@
       "character": "Ventus",
       "name": "Zack",
       "summary": "D-Link",
-      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector.",
+      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Slot Edge / Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Stop, Slot Edge / Fire Strike, Blitz, Fire Strike, Quick Blitz, Fire Strike, Blackout, Stopra, Slot Edge. Finishers by 0/1/2 emblems: Hero's Entrance / Hero's Entrance / Hero's Entrance, Hero's Pride. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.4 (Base) / x0.35 (Enhanced). Gauge bonus: Use a reprisal command +25%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Zack#D-Link"
       ]
     },
     {
@@ -26032,9 +26166,10 @@
       "character": "Aqua",
       "name": "Zack",
       "summary": "D-Link",
-      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector.",
+      "instructions": "Clear Olympus Coliseum. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Berserk. Second emblem: Attack Deflector. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Slot Edge / Fire Strike, Quick Blitz, Fire Strike, Quick Blitz, Stop, Slot Edge / Fire Strike, Blitz, Fire Strike, Quick Blitz, Fire Strike, Blackout, Stopra, Slot Edge. Finishers by 0/1/2 emblems: Hero's Entrance / Hero's Entrance / Hero's Entrance, Hero's Pride. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.4 (Base) / x0.35 (Enhanced). Gauge bonus: Use a reprisal command +25%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Zack#D-Link"
       ]
     },
     {
@@ -26043,9 +26178,10 @@
       "character": "Terra",
       "name": "Stitch",
       "summary": "D-Link",
-      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP.",
+      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Thundara, Thundara, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Thunder Surge, Zero Graviga, Stun Edge, Cura. Finishers by 0/1/2 emblems: Random Beam / Random Beam / Random Beam, Ohana Beat. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Perform a Counter. +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Stitch#D-Link"
       ]
     },
     {
@@ -26054,9 +26190,10 @@
       "character": "Ventus",
       "name": "Stitch",
       "summary": "D-Link",
-      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP.",
+      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Thundara, Thundara, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Thunder Surge, Zero Graviga, Stun Edge, Cura. Finishers by 0/1/2 emblems: Random Beam / Random Beam / Random Beam, Ohana Beat. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Perform a Counter. +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Stitch#D-Link"
       ]
     },
     {
@@ -26065,9 +26202,10 @@
       "character": "Aqua",
       "name": "Stitch",
       "summary": "D-Link",
-      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP.",
+      "instructions": "Clear Deep Space. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Attack Boost. Second emblem: Double CP. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Thundara, Thundara, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Zero Gravira, Stun Edge, Cura / Thundara, Thundaga, Thunder Surge, Thunder Surge, Zero Graviga, Thundaga Shot, Stun Edge, Cura. Finishers by 0/1/2 emblems: Random Beam / Random Beam / Random Beam, Ohana Beat. Emblem drop chances by current 0/1/2 emblems: 12% / 8% / 5%. Attack gauge multiplier: x0.5. Gauge bonus: Perform a Counter. +50%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Stitch#D-Link"
       ]
     },
     {
@@ -26076,9 +26214,10 @@
       "character": "Terra",
       "name": "Peter Pan",
       "summary": "D-Link",
-      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike.",
+      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike / Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravity / Blitz, Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravira, Cura. Finishers by 0/1/2 emblems: Swordbill / Swordbill / Swordbill, Barrel Roll. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.35. Gauge bonus: Perform an attack while in the air +15%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Peter_Pan#D-Link"
       ]
     },
     {
@@ -26087,9 +26226,10 @@
       "character": "Ventus",
       "name": "Peter Pan",
       "summary": "D-Link",
-      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike.",
+      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike / Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravity / Blitz, Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravira, Cura. Finishers by 0/1/2 emblems: Swordbill / Swordbill / Swordbill, Barrel Roll. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.35. Gauge bonus: Perform an attack while in the air +15%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Peter_Pan#D-Link"
       ]
     },
     {
@@ -26098,9 +26238,10 @@
       "character": "Aqua",
       "name": "Peter Pan",
       "summary": "D-Link",
-      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike.",
+      "instructions": "Clear Never Land. Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Float. Second emblem: Double Strike. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike / Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravity / Blitz, Quick Blitz, Quick Blitz, Sliding Dash, Confusion Strike, Zero Gravira, Cura. Finishers by 0/1/2 emblems: Swordbill / Swordbill / Swordbill, Barrel Roll. Emblem drop chances by current 0/1/2 emblems: 20% / 15% / 5%. Attack gauge multiplier: x0.35. Gauge bonus: Perform an attack while in the air +15%.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Peter_Pan#D-Link"
       ]
     },
     {
@@ -26109,9 +26250,10 @@
       "character": "Terra",
       "name": "Pete",
       "summary": "D-Link",
-      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal.",
+      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Victory Pose, Binding Strike, Confusion Strike / Victory Pose, Binding Strike, Confusion Strike, Confetti, Aerial Slam / Victory Pose, Binding Strike, Confusion Strike, Confetti, Binding Strike, Confusion Strike, Aerial Slam. Finishers by 0/1/2 emblems: Fruit Shot / Fruit Shot / Fruit Shot, Rumble Rave. Emblem drop chances by current 0/1/2 emblems: unknown / unknown / unknown. Attack gauge multiplier: ?. Gauge bonus: Collecting a prize +?.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Pete#D-Link"
       ]
     },
     {
@@ -26120,9 +26262,10 @@
       "character": "Ventus",
       "name": "Pete",
       "summary": "D-Link",
-      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal.",
+      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Victory Pose, Binding Strike, Confusion Strike / Victory Pose, Binding Strike, Confusion Strike, Confetti, Aerial Slam / Victory Pose, Binding Strike, Confusion Strike, Confetti, Binding Strike, Confusion Strike, Aerial Slam. Finishers by 0/1/2 emblems: Fruit Shot / Fruit Shot / Fruit Shot, Rumble Rave. Emblem drop chances by current 0/1/2 emblems: unknown / unknown / unknown. Attack gauge multiplier: ?. Gauge bonus: Collecting a prize +?.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Pete#D-Link"
       ]
     },
     {
@@ -26131,9 +26274,10 @@
       "character": "Aqua",
       "name": "Pete",
       "summary": "D-Link",
-      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal.",
+      "instructions": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated . Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed. First emblem: Munny Plus. Second emblem: Steal. Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles. Linked decks by 0/1/2 emblems: Victory Pose, Binding Strike, Confusion Strike / Victory Pose, Binding Strike, Confusion Strike, Confetti, Aerial Slam / Victory Pose, Binding Strike, Confusion Strike, Confetti, Binding Strike, Confusion Strike, Aerial Slam. Finishers by 0/1/2 emblems: Fruit Shot / Fruit Shot / Fruit Shot, Rumble Rave. Emblem drop chances by current 0/1/2 emblems: unknown / unknown / unknown. Attack gauge multiplier: ?. Gauge bonus: Collecting a prize +?.",
       "sources": [
-        "https://www.khwiki.com/Dimension_Link"
+        "https://www.khwiki.com/Dimension_Link",
+        "https://www.khwiki.com/Pete#D-Link"
       ]
     },
     {
@@ -34655,5 +34799,5 @@
       ]
     }
   ],
-  "coverage": "Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; API IDs, exact save aggregation and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; 187 persistent HD command identities are indexed with edition exclusions; acquisition routes, CP curves and challenge/enemy coverage retain specific evidence gaps."
+  "coverage": "Research-backed catalog: 374 main-story chest candidates, 8 Secret Episode chests, 60 stickers and the separate tutorial chest. Character inventories stay separate. Exact pickup directions and farming routes are partial. Meld probabilities describe attempts, not guaranteed results; Mine Square’s lower Ignite level limit remains unresolved. The Steam overlay includes 45 BBS goals; all 45 API IDs are mapped; exact save aggregation, raw hidden flags and build-specific glitch behavior remain incomplete. Bestiary is a partial crystal-drop reference; 187 persistent HD command identities are indexed with edition exclusions; acquisition routes, CP curves and challenge/enemy coverage retain specific evidence gaps."
 }

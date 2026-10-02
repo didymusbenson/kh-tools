@@ -356,8 +356,8 @@
   },
   "collectible_overrides": {
     "bbsfm:aqua:secret-episode:treasure:5": {
-      "instructions": "Lower Zone: clear the darkness around the raised pillar, climb onto it, then clear the two higher darkness patches to open the ascent. The Secret Gem is near the top before the exit to the Upper Zone.",
-      "uncertainty": "Exact earliest movement levels are not specified by the walkthrough.",
+      "instructions": "In Lower Zone, climb the raised pillar, clear both upper darkness patches and follow the ascent before Upper Zone.",
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
       "sources": [
         "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
         "https://www.khwiki.com/Game:Realm_of_Darkness"
@@ -977,7 +977,8 @@
     "bbsfm:terra:land-of-departure:treasure:1": {
       "instructions": "Location approach: Mountain Path, upper nook near Summit exit.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -985,12 +986,14 @@
         "line": 97,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:terra:land-of-departure:treasure:2": {
       "instructions": "Location approach: Mountain Path, upper nook near Summit exit.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -998,12 +1001,14 @@
         "line": 98,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:terra:land-of-departure:treasure:3": {
       "instructions": "Location approach: Mountain Path, ground level near “table and chair things”?.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -1011,12 +1016,14 @@
         "line": 99,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:terra:land-of-departure:treasure:4": {
       "instructions": "Location approach: Summit, nook looking out to the abyss.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -1024,7 +1031,8 @@
         "line": 100,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:terra:enchanted-dominion:treasure:1": {
       "instructions": "Location approach: Waterside, on left.",
@@ -4123,7 +4131,8 @@
     "bbsfm:aqua:land-of-departure:treasure:1": {
       "instructions": "Location approach: Mountain Path, nook.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -4131,12 +4140,14 @@
         "line": 436,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:aqua:land-of-departure:treasure:2": {
       "instructions": "Location approach: Mountain Path, nook.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -4144,12 +4155,14 @@
         "line": 437,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:aqua:land-of-departure:treasure:3": {
       "instructions": "Location approach: Mountain Path, near table and chairs.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -4157,12 +4170,14 @@
         "line": 438,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:aqua:land-of-departure:treasure:4": {
       "instructions": "Location approach: Summit, nook.",
       "sources": [
-        "https://guiding-key.tumblr.com/khbbs-locations"
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://www.khwiki.com/Land_of_Departure"
       ],
       "route_provenance": {
         "edition": "English HD 2.5 / Final Mix guide",
@@ -4170,7 +4185,8 @@
         "line": 439,
         "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
       },
-      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+      "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
     },
     "bbsfm:aqua:castle-of-dreams:treasure:1": {
       "instructions": "Location approach: The Chateau, bottom right nook.",
@@ -5828,6 +5844,68 @@
         "source": "https://www.khwiki.com/Recipe",
         "join": "independently reconciled source mismatch"
       }
+    },
+    "bbsfm:aqua:secret-episode:treasure:1": {
+      "instructions": "From the Blackout exit, return to Middle Zone and open the chest near the next darkness fight.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:2": {
+      "instructions": "After raising the pillar, descend and clear the lower darkness patch beside the Middle Zone exit.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:3": {
+      "instructions": "Use the first dark-energy launcher, clear the next darkness patch and open the chest on that ledge.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:4": {
+      "instructions": "From the Balloon Letter ledge, launch higher and drop into Lower Zone.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:6": {
+      "instructions": "From the far-right Triple Firaga platform, drop to the central lower area.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:7": {
+      "instructions": "In Upper Zone, cross to the platform on the far right.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:aqua:secret-episode:treasure:8": {
+      "instructions": "Clear the darkness patches on the left side of Upper Zone.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ],
+      "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+    },
+    "bbsfm:ventus:land-of-departure:tutorial-treasure:tutorial": {
+      "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world.",
+      "sources": [
+        "https://www.khwiki.com/Land_of_Departure"
+      ]
     }
   },
   "lucky_strike": {
@@ -6642,7 +6720,8 @@
           "join": "independently reconciled source mismatch"
         }
       }
-    }
+    },
+    "continuation": "research-continuation-2026-10-01.md"
   },
   "ice_cream_beat": {
     "edition": "International / Final Mix; excludes original Japanese Special mode",
@@ -6920,5 +6999,324 @@
         "route": "In the courtyard turn left and jump into the fenced hole for the short route. Underground, the right ledge is safer; a sharp left offers the riskier shortcut."
       }
     }
+  },
+  "command_boards": {
+    "rules": "Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order.",
+    "source": "https://www.khwiki.com/Command_Board",
+    "boards": [
+      {
+        "name": "Keyblade Board",
+        "source": "https://www.khwiki.com/Keyblade_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Zero Gravity",
+            "limited": "Ragnarok",
+            "arena": "Zero Gravity"
+          },
+          {
+            "key": 2,
+            "normal": "Magnet (80%) / Cure (20%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 3,
+            "normal": "Strike Raid (50%) / Poison Edge (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 4,
+            "normal": "Blizzard (50%) / Aero (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 5,
+            "normal": "Confuse (50%) / Slow (50%)",
+            "limited": "—",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Royal Board",
+        "source": "https://www.khwiki.com/Royal_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Stun Edge",
+            "limited": "Wishing Edge (Aqua only)",
+            "arena": "—"
+          },
+          {
+            "key": 2,
+            "normal": "Focus Barrier (Aqua only)",
+            "limited": "Focus Block (Terra and Ventus only)",
+            "arena": "—"
+          },
+          {
+            "key": 3,
+            "normal": "Fire Dash",
+            "limited": "Meteor Shower",
+            "arena": "—"
+          },
+          {
+            "key": 4,
+            "normal": "Fire (60%) / Thunder (40%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 5,
+            "normal": "Bind (40%) / Stop (40%) / Blackout (20%)",
+            "limited": "—",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Toon Board",
+        "source": "https://www.khwiki.com/Toon_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Confusion Strike",
+            "limited": "Binding Strike",
+            "arena": "—"
+          },
+          {
+            "key": 2,
+            "normal": "Blizzard",
+            "limited": "Blizzara",
+            "arena": "Zero Graviga"
+          },
+          {
+            "key": 3,
+            "normal": "Thundara (50%) / Aerora (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 4,
+            "normal": "Freeze Raid",
+            "limited": "Deep Freeze",
+            "arena": "Freeze Raid"
+          },
+          {
+            "key": 5,
+            "normal": "—",
+            "limited": "Blizzard Edge",
+            "arena": "—"
+          },
+          {
+            "key": 6,
+            "normal": "Cure (50%) / Zero Graviga (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 7,
+            "normal": "Stopra (50%) / Blackout (25%) / Bind (25%)",
+            "limited": "—",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Spaceship Board",
+        "source": "https://www.khwiki.com/Spaceship_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Firaga",
+            "limited": "High Jump",
+            "arena": "—"
+          },
+          {
+            "key": 2,
+            "normal": "Zero Graviga",
+            "limited": "Lightning Ray",
+            "arena": "Zero Graviga"
+          },
+          {
+            "key": 3,
+            "normal": "Sonic Blade (50%) / Thundaga (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 4,
+            "normal": "Thundara (50%) / Aerora (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 5,
+            "normal": "Blackout (50%) / Ignite (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 6,
+            "normal": "—",
+            "limited": "Collision Magnet",
+            "arena": "—"
+          },
+          {
+            "key": 7,
+            "normal": "Mini",
+            "limited": "Limit Storm (Terra only)",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Skull Board",
+        "source": "https://www.khwiki.com/Skull_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Quick Blitz (50%) / Aero (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 2,
+            "normal": "Magnega",
+            "limited": "Photon Charge",
+            "arena": "Magnega"
+          },
+          {
+            "key": 3,
+            "normal": "Blitz (50%) / Aerial Slam (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 4,
+            "normal": "Firaga (50%) / Mine Square (50%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 5,
+            "normal": "Poison Edge",
+            "limited": "Munny Magnet (Aqua only)",
+            "arena": "—"
+          },
+          {
+            "key": 6,
+            "normal": "Binding Strike",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 7,
+            "normal": "Zero Gravira (50%) / Aerora (50%)",
+            "limited": "—",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Hunny Pot Board",
+        "source": "https://www.khwiki.com/Hunny_Pot_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Fira (30%) / Fire Surge (70%)",
+            "limited": "—",
+            "arena": "—"
+          },
+          {
+            "key": 2,
+            "normal": "Confusion Strike",
+            "limited": "Sacrifice (Terra only)",
+            "arena": "—"
+          },
+          {
+            "key": 3,
+            "normal": "Thundara",
+            "limited": "Thunder Roll (Ventus only)",
+            "arena": "Thundara"
+          },
+          {
+            "key": 4,
+            "normal": "Mine Square (50%) / Zero Gravira (50%)",
+            "limited": "—",
+            "arena": "—"
+          }
+        ]
+      },
+      {
+        "name": "Secret Board",
+        "source": "https://www.khwiki.com/Secret_Board",
+        "panels": [
+          {
+            "key": 1,
+            "normal": "Magnega",
+            "limited": "Aerial Slam",
+            "arena": "Thundara"
+          },
+          {
+            "key": 2,
+            "normal": "Thunder Surge",
+            "limited": "Lightning Ray",
+            "arena": "Aerial Slam"
+          },
+          {
+            "key": 3,
+            "normal": "—",
+            "limited": "Sonic Blade",
+            "arena": "Blitz"
+          },
+          {
+            "key": 4,
+            "normal": "—",
+            "limited": "Fission Firaga",
+            "arena": "Fire Surge"
+          },
+          {
+            "key": 5,
+            "normal": "Zero Graviga (50%) / Magnega (50%)",
+            "limited": "—",
+            "arena": "Magnera"
+          },
+          {
+            "key": 6,
+            "normal": "—",
+            "limited": "Cura",
+            "arena": "Cura"
+          },
+          {
+            "key": 7,
+            "normal": "Thundaga",
+            "limited": "Ragnarok",
+            "arena": "Thundara"
+          },
+          {
+            "key": 8,
+            "normal": "—",
+            "limited": "Aeroga",
+            "arena": "Aerora"
+          },
+          {
+            "key": 9,
+            "normal": "Fire Dash",
+            "limited": "Fire Surge",
+            "arena": "Fire Dash"
+          },
+          {
+            "key": 10,
+            "normal": "—",
+            "limited": "Blitz",
+            "arena": "Confusion Strike"
+          }
+        ]
+      }
+    ],
+    "remaining": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
   }
 }

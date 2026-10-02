@@ -174,7 +174,54 @@
       "first_emblem": "Overdrive",
       "second_emblem": "Auto-Block",
       "acquisition": "Clear the Land of Departure",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Quick Blitz",
+          "Sliding Dash",
+          "Stun Edge"
+        ],
+        [
+          "Quick Blitz",
+          "Sliding Dash",
+          "Stun Edge",
+          "Sliding Dash",
+          "Zero Gravity"
+        ],
+        [
+          "Quick Blitz",
+          "Sonic Blade",
+          "Stun Edge",
+          "Sonic Blade",
+          "Zero Gravira",
+          "Binding Strike",
+          "Cure"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Finish"
+        ],
+        [
+          "Finish"
+        ],
+        [
+          "Finish",
+          "Landbreaker"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.4",
+      "gauge_bonus": {
+        "condition": "Blow an enemy away",
+        "amount": "+20% (Base) | +10% (Enhanced)"
+      },
+      "mechanics_source": "https://www.khwiki.com/Terra#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Ventus",
@@ -185,7 +232,54 @@
       "first_emblem": "Haste",
       "second_emblem": "Auto-Counter",
       "acquisition": "Clear the Land of Departure",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Quick Blitz",
+          "Strike Raid",
+          "Aero"
+        ],
+        [
+          "Quick Blitz",
+          "Strike Raid",
+          "Sliding Dash",
+          "Aero"
+        ],
+        [
+          "Blitz",
+          "Strike Raid",
+          "Sliding Dash",
+          "Blitz",
+          "Freeze Raid",
+          "Sliding Dash",
+          "Aerora",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Finish"
+        ],
+        [
+          "Finish"
+        ],
+        [
+          "Finish",
+          "Air Dive"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.25",
+      "gauge_bonus": {
+        "condition": "Use Attack or an Attack Command",
+        "amount": "+10%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Ventus#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Aqua",
@@ -196,7 +290,56 @@
       "first_emblem": "Magic Deflector",
       "second_emblem": "Auto-Life",
       "acquisition": "Clear the Land of Departure",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Blizzara",
+          "Thundara",
+          "Cura"
+        ],
+        [
+          "Blizzara",
+          "Fire",
+          "Thundara",
+          "Magnera",
+          "Fire Strike",
+          "Cura"
+        ],
+        [
+          "Blizzara",
+          "Fire",
+          "Thundara",
+          "Mine Square",
+          "Blizzara",
+          "Magnera",
+          "Fire Strike",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Finish"
+        ],
+        [
+          "Finish"
+        ],
+        [
+          "Finish",
+          "Magic Volley"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Use a Magic Command",
+        "amount": "+10%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Aqua#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Mickey Mouse",
@@ -207,7 +350,56 @@
       "first_emblem": "Auto-Teleport",
       "second_emblem": "Double EXP",
       "acquisition": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Sliding Dash",
+          "Sliding Dash",
+          "Binding Strike",
+          "Cura"
+        ],
+        [
+          "Sliding Dash",
+          "Sliding Dash",
+          "Binding Strike",
+          "Binding Strike",
+          "Mine Shield",
+          "Cura"
+        ],
+        [
+          "Sliding Dash",
+          "Binding Strike",
+          "Sign of Faith",
+          "Binding Strike",
+          "Mini",
+          "Mine Shield",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Lightcharge"
+        ],
+        [
+          "Lightcharge"
+        ],
+        [
+          "Lightcharge",
+          "Faithcharge"
+        ]
+      ],
+      "emblem_chance_percent": [
+        12,
+        8,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Receive damage that would reduce HP to 0 | (Requires Second Chance or Once More)",
+        "amount": "+50%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Mickey_Mouse#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Donald Duck",
@@ -218,7 +410,57 @@
       "first_emblem": "Magic Boost",
       "second_emblem": "Shell",
       "acquisition": "Clear the Mysterious Tower",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Firaga",
+          "Blizzaga",
+          "Thundaga",
+          "Fire Dash"
+        ],
+        [
+          "Firaga",
+          "Blizzaga",
+          "Thundaga",
+          "Fire Dash",
+          "Fire Surge",
+          "Cura"
+        ],
+        [
+          "Firaga",
+          "Fission Firaga",
+          "Blizzaga",
+          "Thundaga",
+          "Fire Dash",
+          "Fire Surge",
+          "Ignite",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Donald Flare"
+        ],
+        [
+          "Donald Flare"
+        ],
+        [
+          "Donald Flare",
+          "Cosmic Donald"
+        ]
+      ],
+      "emblem_chance_percent": [
+        20,
+        15,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.25",
+      "gauge_bonus": {
+        "condition": "Use a Fire-elemental attack",
+        "amount": "+15%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Donald_Duck#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Goofy",
@@ -229,7 +471,57 @@
       "first_emblem": "Protect",
       "second_emblem": "Stun Boost",
       "acquisition": "Clear the Mysterious Tower",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Sliding Dash",
+          "Strike Raid",
+          "Stun Edge",
+          "Confusion Strike"
+        ],
+        [
+          "Sliding Dash",
+          "Strike Raid",
+          "Stun Edge",
+          "Confusion Strike",
+          "Freeze Raid",
+          "Confusion Strike"
+        ],
+        [
+          "Sliding Dash",
+          "Strike Raid",
+          "Stun Edge",
+          "Confusion Strike",
+          "Freeze Raid",
+          "Confusion Strike",
+          "Strike Raid",
+          "Sonic Blade"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Goofy Spin"
+        ],
+        [
+          "Goofy Spin"
+        ],
+        [
+          "Goofy Spin",
+          "Goofy Turbo"
+        ]
+      ],
+      "emblem_chance_percent": [
+        20,
+        15,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Perform a successful block.",
+        "amount": "+50%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Goofy#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Snow White",
@@ -240,7 +532,54 @@
       "first_emblem": "Gauge Boost",
       "second_emblem": "Quickload",
       "acquisition": "Clear Dwarf Woodlands",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Sleepy",
+          "Grumpy",
+          "Doc"
+        ],
+        [
+          "Sleepy",
+          "Sneezy",
+          "Grumpy",
+          "Happy",
+          "Doc"
+        ],
+        [
+          "Sleepy",
+          "Sneezy",
+          "Grumpy",
+          "Happy",
+          "Dopey",
+          "Bashful",
+          "Doc"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Sweet Memory"
+        ],
+        [
+          "Sweet Memory"
+        ],
+        [
+          "Sweet Memory",
+          "Sweet Seven"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5 (x0.75 with Gauge Boost)",
+      "gauge_bonus": {
+        "condition": "HP is 25% of maximum or lower",
+        "amount": "+1% every 0.08 seconds"
+      },
+      "mechanics_source": "https://www.khwiki.com/Snow_White#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Cinderella",
@@ -252,7 +591,56 @@
       "first_emblem": "Auto-Remedy",
       "second_emblem": "Regen",
       "acquisition": "Clear Castle of Dreams",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Wish Circle",
+          "Enchanted Step",
+          "Magic Mending"
+        ],
+        [
+          "Wish Shot",
+          "Wish Circle",
+          "Enchanted Step",
+          "Wish Circle",
+          "Enchanted Step",
+          "Magic Mending"
+        ],
+        [
+          "Wish Shot",
+          "Wish Circle",
+          "Enchanted Step",
+          "Wish Shot",
+          "Wish Circle",
+          "Enchanted Step",
+          "Magic Mending",
+          "Magic Mending"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Dream Sparkle"
+        ],
+        [
+          "Dream Sparkle"
+        ],
+        [
+          "Dream Sparkle",
+          "Miracle Dance"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Get inflicted with a status effect.",
+        "amount": "+100%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Cinderella#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Maleficent",
@@ -262,7 +650,57 @@
       "first_emblem": "Focus Saver",
       "second_emblem": "Drain",
       "acquisition": "Reach Aurora's Chamber",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Fire",
+          "Binding Strike",
+          "Blackout",
+          "Sleep"
+        ],
+        [
+          "Fire",
+          "Fira",
+          "Ignite",
+          "Binding Strike",
+          "Blackout",
+          "Sleep"
+        ],
+        [
+          "Fire",
+          "Fira",
+          "Firaga",
+          "Ignite",
+          "Binding Strike",
+          "Dark Firaga",
+          "Blackout",
+          "Sleep"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Thunderchaser"
+        ],
+        [
+          "Thunderchaser"
+        ],
+        [
+          "Thunderchaser",
+          "Dragonfire"
+        ]
+      ],
+      "emblem_chance_percent": [
+        10,
+        7,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Use Dark-elemental attacks",
+        "amount": "+50%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Maleficent#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Zack",
@@ -274,7 +712,58 @@
       "first_emblem": "Berserk",
       "second_emblem": "Attack Deflector",
       "acquisition": "Clear Olympus Coliseum",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Fire Strike",
+          "Quick Blitz",
+          "Fire Strike",
+          "Quick Blitz",
+          "Slot Edge"
+        ],
+        [
+          "Fire Strike",
+          "Quick Blitz",
+          "Fire Strike",
+          "Quick Blitz",
+          "Stop",
+          "Slot Edge"
+        ],
+        [
+          "Fire Strike",
+          "Blitz",
+          "Fire Strike",
+          "Quick Blitz",
+          "Fire Strike",
+          "Blackout",
+          "Stopra",
+          "Slot Edge"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Hero's Entrance"
+        ],
+        [
+          "Hero's Entrance"
+        ],
+        [
+          "Hero's Entrance",
+          "Hero's Pride"
+        ]
+      ],
+      "emblem_chance_percent": [
+        12,
+        8,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.4 (Base) / x0.35 (Enhanced)",
+      "gauge_bonus": {
+        "condition": "Use a reprisal command",
+        "amount": "+25%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Zack#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Stitch",
@@ -286,7 +775,61 @@
       "first_emblem": "Attack Boost",
       "second_emblem": "Double CP",
       "acquisition": "Clear Deep Space",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Thundara",
+          "Thundara",
+          "Zero Gravira",
+          "Stun Edge",
+          "Cura"
+        ],
+        [
+          "Thundara",
+          "Thundaga",
+          "Thunder Surge",
+          "Zero Gravira",
+          "Stun Edge",
+          "Cura"
+        ],
+        [
+          "Thundara",
+          "Thundaga",
+          "Thunder Surge",
+          "Thunder Surge",
+          "Zero Graviga",
+          "Thundaga Shot",
+          "Stun Edge",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Random Beam"
+        ],
+        [
+          "Random Beam"
+        ],
+        [
+          "Random Beam",
+          "Ohana Beat"
+        ]
+      ],
+      "emblem_chance_percent": [
+        12,
+        8,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.5",
+      "gauge_bonus": {
+        "condition": "Perform a Counter.",
+        "amount": "+50%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Stitch#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "deck_conditions": {
+        "Thundaga Shot": "Aqua only; omit from Terra and Ventus linked decks."
+      }
     },
     {
       "name": "Peter Pan",
@@ -298,7 +841,55 @@
       "first_emblem": "Float",
       "second_emblem": "Double Strike",
       "acquisition": "Clear Never Land",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Quick Blitz",
+          "Quick Blitz",
+          "Sliding Dash",
+          "Confusion Strike"
+        ],
+        [
+          "Quick Blitz",
+          "Quick Blitz",
+          "Sliding Dash",
+          "Confusion Strike",
+          "Zero Gravity"
+        ],
+        [
+          "Blitz",
+          "Quick Blitz",
+          "Quick Blitz",
+          "Sliding Dash",
+          "Confusion Strike",
+          "Zero Gravira",
+          "Cura"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Swordbill"
+        ],
+        [
+          "Swordbill"
+        ],
+        [
+          "Swordbill",
+          "Barrel Roll"
+        ]
+      ],
+      "emblem_chance_percent": [
+        20,
+        15,
+        5
+      ],
+      "gauge_attack_multiplier": "x0.35",
+      "gauge_bonus": {
+        "condition": "Perform an attack while in the air",
+        "amount": "+15%"
+      },
+      "mechanics_source": "https://www.khwiki.com/Peter_Pan#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification."
     },
     {
       "name": "Pete",
@@ -310,12 +901,64 @@
       "first_emblem": "Munny Plus",
       "second_emblem": "Steal",
       "acquisition": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated ",
-      "source": "https://www.khwiki.com/Dimension_Link"
+      "source": "https://www.khwiki.com/Dimension_Link",
+      "deck_by_emblems": [
+        [
+          "Victory Pose",
+          "Binding Strike",
+          "Confusion Strike"
+        ],
+        [
+          "Victory Pose",
+          "Binding Strike",
+          "Confusion Strike",
+          "Confetti",
+          "Aerial Slam"
+        ],
+        [
+          "Victory Pose",
+          "Binding Strike",
+          "Confusion Strike",
+          "Confetti",
+          "Binding Strike",
+          "Confusion Strike",
+          "Aerial Slam"
+        ]
+      ],
+      "finish_by_emblems": [
+        [
+          "Fruit Shot"
+        ],
+        [
+          "Fruit Shot"
+        ],
+        [
+          "Fruit Shot",
+          "Rumble Rave"
+        ]
+      ],
+      "emblem_chance_percent": [
+        null,
+        null,
+        null
+      ],
+      "gauge_attack_multiplier": "?",
+      "gauge_bonus": {
+        "condition": "Collecting a prize",
+        "amount": "+?"
+      },
+      "mechanics_source": "https://www.khwiki.com/Pete#D-Link",
+      "mechanics_evidence": "Published BBS character D-Link table; HD-only Pete substitution applied. No Steam executable certification.",
+      "deck_conditions": {
+        "Victory Pose": "HD replaces PSP Taunt; Taunt excluded."
+      },
+      "remaining": "Source explicitly leaves emblem chances and gauge numbers unknown."
     }
   ],
   "dlink_progression": "Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed.",
   "exclusions": [
     "PSP wireless custom D-Links",
     "Vanitas: temporary final battle D-Link, not ordinary persistent acquisition"
-  ]
+  ],
+  "usage": "Activate only with a full D-Link gauge; activation restores HP. The linked deck temporarily replaces the equipped deck. Revert, leaving the room or opening the menu ends the link. Additional emblems at level 2 refill the gauge. D-Links cannot be activated with temporary allies or in Terra’s Eraqus/Terra-Xehanort battles."
 }

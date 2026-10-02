@@ -1,6 +1,6 @@
 # Birth by Sleep Final Mix research pack
 
-Current follow-up (2026-10-01): all 60 album placement landmarks, all 374 main chest source-route/landmark joins, five-song FM complete rank/prize tables, nine mission rank tables with character tactics, and Fruitball/racing reward guides are integrated through `research-enrichment.json`. Aqua’s Tower chest4 is corrected to Mega Magic Recipe. Full earliest-access/Reports-order certification remains separate; older missing-placement/table statements below are historical. See the current per-ID resolution ledger.
+Current follow-up (2026-10-01): all 374 main chest source approaches, eight Secret Episode routes, 60 sticker pickups and album placements, five-song FM ranks/prizes, nine mission rank tables, Fruitball/racing guides, 45 board bonus panels, 39 D-Link decks/finisher lists, 12 probability triples and 152 CP curves are integrated. All 45 Steam API identifiers are mapped. See [every residual family outcome and validation](research-continuation-2026-10-01.md); earliest-access/Reports ordering, raw hidden flags and executable save behavior remain separate.
 
 Current canonical additions: [187-command catalog](command-catalog.json), [styles and D-Links](command-families.json), [pickup/placement, Arena, flavor, ability, equipment and encounter enrichment](research-enrichment.json), and [all 38 researched dispositions](research-dispositions-2026-10-01.json). Both generators consume this data. Twelve findings are closed; partial scopes and specific unresolved evidence are retained rather than certifying example catalogs.
 
@@ -17,6 +17,7 @@ Initial audit: 2026-09-18; [latest resolutions](research-resolution-2026-10-01.m
 | [Materials and equipment](materials-and-equipment.md) | Nine materials, shop gates and conditional drops; ice cream and equipment acquisition coverage |
 | [Keyblades](keyblades.csv) | 24 obtainable weapon forms, character/episode scope, Strength/Magic/critical stats and acquisition |
 | [Challenges and unlocks](challenges-and-unlocks.md) | Arena, Unversed Missions, minigames, finish-tree requirements, episodes and separate achievements |
+| [Steam metadata](steam-achievements.json) | 45 individually observed API identifiers; 10 positive published hidden labels; raw hidden flags and save behavior uncertified |
 | [Source manifest](source-manifest.json) | Exact Drive ranges, reused artifact identity, repository reads, inspected community pages and primary release/achievement evidence |
 
 The CSV supplies stable inventory identities; `research-enrichment.json` supplies all 374 main chest approach/landmark joins and all 60 album placement regions. Complete save-point paths, minimum movement levels, earliest access and independently certified Reports ordering remain open. Placement landmarks use seven-point feedback; pixel coordinates are not a missing acquisition requirement. Numerical source positions are retained as evidence, not certified official in-game numbering. No production screenshot assets were acquired.

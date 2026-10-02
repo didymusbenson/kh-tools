@@ -1,4 +1,411 @@
 {
+  "steamAchievements": [
+    {
+      "name": "Critical Competitor",
+      "api_name": "ACH_153",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn485search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_153\"",
+      "requirement_paraphrase": "Critical difficulty completion."
+    },
+    {
+      "name": "The Lost Chapter",
+      "api_name": "ACH_154",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn484search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_154\"",
+      "requirement_paraphrase": "Complete Secret Episode."
+    },
+    {
+      "name": "The Vessel",
+      "api_name": "ACH_155",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn488search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_155\"",
+      "requirement_paraphrase": "Complete Terra’s story."
+    },
+    {
+      "name": "The Dormant",
+      "api_name": "ACH_156",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn530search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_156\" \"Ventus story\"",
+      "requirement_paraphrase": "Complete Ventus’s story."
+    },
+    {
+      "name": "The Seeker",
+      "api_name": "ACH_157",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn531search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_157\" \"Aqua\"",
+      "requirement_paraphrase": "Complete Aqua’s story."
+    },
+    {
+      "name": "Connected Hearts",
+      "api_name": "ACH_158",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn493search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_158\"",
+      "requirement_paraphrase": "Complete Final Episode."
+    },
+    {
+      "name": "A Mere Shell",
+      "api_name": "ACH_159",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn491search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_159\"",
+      "requirement_paraphrase": "Defeat Vanitas Remnant."
+    },
+    {
+      "name": "Time’s Teller",
+      "api_name": "ACH_160",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn490search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_160\"",
+      "requirement_paraphrase": "Defeat Unknown."
+    },
+    {
+      "name": "Darkness’s Will",
+      "api_name": "ACH_161",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn489search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_161\"",
+      "requirement_paraphrase": "Defeat No Heart."
+    },
+    {
+      "name": "Light’s Will",
+      "api_name": "ACH_162",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn492search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_162\"",
+      "requirement_paraphrase": "Defeat Armor of Eraqus."
+    },
+    {
+      "name": "Savage Slayer",
+      "api_name": "ACH_163",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn497search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_163\"",
+      "requirement_paraphrase": "Highest rank in every Unversed mission."
+    },
+    {
+      "name": "Profiler",
+      "api_name": "ACH_164",
+      "hidden_label_observed": true,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn496search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_164\"",
+      "requirement_paraphrase": "Collect all Secret Reports."
+    },
+    {
+      "name": "Collector",
+      "api_name": "ACH_165",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn498search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_165\"",
+      "requirement_paraphrase": "Collect every sticker."
+    },
+    {
+      "name": "The Adventurer: Terra",
+      "api_name": "ACH_166",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn494search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_166\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "The Adventurer: Ventus",
+      "api_name": "ACH_167",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn495search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_167\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "The Adventurer: Aqua",
+      "api_name": "ACH_168",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn503search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_168\"",
+      "requirement_paraphrase": "Complete Reports."
+    },
+    {
+      "name": "Perfect Shot",
+      "api_name": "ACH_169",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn502search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_169\"",
+      "requirement_paraphrase": "50 Shotlock uses."
+    },
+    {
+      "name": "Justice & Dark",
+      "api_name": "ACH_170",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn499search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_170\"",
+      "requirement_paraphrase": "10 Pete D-Link uses."
+    },
+    {
+      "name": "D.J.",
+      "api_name": "ACH_171",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn501search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_171\"",
+      "requirement_paraphrase": "20 Rhythm Mixer activations."
+    },
+    {
+      "name": "The Warrior: Terra",
+      "api_name": "ACH_172",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn500search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_172\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "The Warrior: Ventus",
+      "api_name": "ACH_173",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn507search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_173\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "The Warrior: Aqua",
+      "api_name": "ACH_174",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn508search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_174\"",
+      "requirement_paraphrase": "Learn every Finish Command."
+    },
+    {
+      "name": "Musclehead",
+      "api_name": "ACH_175",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn505search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_175\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "B-Boy",
+      "api_name": "ACH_176",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn506search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_176\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "Majorette",
+      "api_name": "ACH_177",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn504search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_177\"",
+      "requirement_paraphrase": "Use Break Time."
+    },
+    {
+      "name": "Pâtissier",
+      "api_name": "ACH_178",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn512search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_178\"",
+      "requirement_paraphrase": "Make every ice-cream flavor."
+    },
+    {
+      "name": "Command Board Conqueror",
+      "api_name": "ACH_179",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn529search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_179\" \"Command Board\"",
+      "requirement_paraphrase": "Win every playable board."
+    },
+    {
+      "name": "Maestro",
+      "api_name": "ACH_180",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn509search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_180\"",
+      "requirement_paraphrase": "Master Fantastic on every Ice Cream Beat song."
+    },
+    {
+      "name": "Rapid Racer",
+      "api_name": "ACH_181",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn511search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_181\"",
+      "requirement_paraphrase": "Win every Rumble Racing course."
+    },
+    {
+      "name": "Fantasista",
+      "api_name": "ACH_182",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn510search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_182\"",
+      "requirement_paraphrase": "Beat every Fruitball opponent."
+    },
+    {
+      "name": "The Journey Begins",
+      "api_name": "ACH_183",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn518search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_183\"",
+      "requirement_paraphrase": "Land of Departure prologue complete."
+    },
+    {
+      "name": "Pursuit of Truth",
+      "api_name": "ACH_184",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn514search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_184\"",
+      "requirement_paraphrase": "Mysterious Tower complete."
+    },
+    {
+      "name": "Defying Darkness",
+      "api_name": "ACH_185",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn517search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_185\"",
+      "requirement_paraphrase": "Disney Town complete."
+    },
+    {
+      "name": "Entrusting Power",
+      "api_name": "ACH_186",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn516search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_186\"",
+      "requirement_paraphrase": "Destiny Islands complete."
+    },
+    {
+      "name": "Encounters",
+      "api_name": "ACH_187",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn515search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_187\"",
+      "requirement_paraphrase": "Badlands complete."
+    },
+    {
+      "name": "A Moment of Rest",
+      "api_name": "ACH_188",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn519search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_188\"",
+      "requirement_paraphrase": "Disney Town complete."
+    },
+    {
+      "name": "A Friend in Need",
+      "api_name": "ACH_189",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn523search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_189\"",
+      "requirement_paraphrase": "Mysterious Tower complete."
+    },
+    {
+      "name": "Drifting Apart",
+      "api_name": "ACH_190",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn520search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_190\"",
+      "requirement_paraphrase": "Radiant Garden complete."
+    },
+    {
+      "name": "Hopeful Hearts",
+      "api_name": "ACH_191",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn522search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_191\"",
+      "requirement_paraphrase": "Destiny Islands complete."
+    },
+    {
+      "name": "Pawn of the Arena",
+      "api_name": "ACH_192",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn521search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_192\"",
+      "requirement_paraphrase": "Clear every one-star Arena mission."
+    },
+    {
+      "name": "Knight of the Arena",
+      "api_name": "ACH_193",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn525search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_193\"",
+      "requirement_paraphrase": "Clear every two-star Arena mission."
+    },
+    {
+      "name": "Queen of the Arena",
+      "api_name": "ACH_194",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn524search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_194\"",
+      "requirement_paraphrase": "Clear every three-star Arena mission."
+    },
+    {
+      "name": "King of the Arena",
+      "api_name": "ACH_195",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn528search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_195\"",
+      "requirement_paraphrase": "Clear every four-star Arena mission."
+    },
+    {
+      "name": "Keepers of the Arena",
+      "api_name": "ACH_196",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn527search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_196\"",
+      "requirement_paraphrase": "Clear the named Arena battle."
+    },
+    {
+      "name": "Villains' Vendetta",
+      "api_name": "ACH_197",
+      "hidden_label_observed": false,
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "retrieval_reference": "turn526search0",
+      "query": "site:steamdb.info/app/2552430/stats/ \"ACH_197\"",
+      "requirement_paraphrase": "Clear the named Arena battle."
+    }
+  ],
   "noCrystalChance": [
     {
       "combined_command_level": "4 or less",
@@ -379,8 +786,8 @@
     },
     "collectible_overrides": {
       "bbsfm:aqua:secret-episode:treasure:5": {
-        "instructions": "Lower Zone: clear the darkness around the raised pillar, climb onto it, then clear the two higher darkness patches to open the ascent. The Secret Gem is near the top before the exit to the Upper Zone.",
-        "uncertainty": "Exact earliest movement levels are not specified by the walkthrough.",
+        "instructions": "In Lower Zone, climb the raised pillar, clear both upper darkness patches and follow the ascent before Upper Zone.",
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified.",
         "sources": [
           "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
           "https://www.khwiki.com/Game:Realm_of_Darkness"
@@ -1000,7 +1407,8 @@
       "bbsfm:terra:land-of-departure:treasure:1": {
         "instructions": "Location approach: Mountain Path, upper nook near Summit exit.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -1008,12 +1416,14 @@
           "line": 97,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:terra:land-of-departure:treasure:2": {
         "instructions": "Location approach: Mountain Path, upper nook near Summit exit.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -1021,12 +1431,14 @@
           "line": 98,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:terra:land-of-departure:treasure:3": {
         "instructions": "Location approach: Mountain Path, ground level near “table and chair things”?.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -1034,12 +1446,14 @@
           "line": 99,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:terra:land-of-departure:treasure:4": {
         "instructions": "Location approach: Summit, nook looking out to the abyss.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -1047,7 +1461,8 @@
           "line": 100,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:terra:enchanted-dominion:treasure:1": {
         "instructions": "Location approach: Waterside, on left.",
@@ -4146,7 +4561,8 @@
       "bbsfm:aqua:land-of-departure:treasure:1": {
         "instructions": "Location approach: Mountain Path, nook.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -4154,12 +4570,14 @@
           "line": 436,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:aqua:land-of-departure:treasure:2": {
         "instructions": "Location approach: Mountain Path, nook.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -4167,12 +4585,14 @@
           "line": 437,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:aqua:land-of-departure:treasure:3": {
         "instructions": "Location approach: Mountain Path, near table and chairs.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -4180,12 +4600,14 @@
           "line": 438,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:aqua:land-of-departure:treasure:4": {
         "instructions": "Location approach: Summit, nook.",
         "sources": [
-          "https://guiding-key.tumblr.com/khbbs-locations"
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://www.khwiki.com/Land_of_Departure"
         ],
         "route_provenance": {
           "edition": "English HD 2.5 / Final Mix guide",
@@ -4193,7 +4615,8 @@
           "line": 439,
           "join": "character/world/item/area; repeated identical item group ordered as in source inventory"
         },
-        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated."
+        "uncertainty": "Guide landmark is documented; source order is not independently certified Reports numbering. Minimum movement levels/earliest access remain unverified where not explicitly stated.",
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world."
       },
       "bbsfm:aqua:castle-of-dreams:treasure:1": {
         "instructions": "Location approach: The Chateau, bottom right nook.",
@@ -5851,6 +6274,68 @@
           "source": "https://www.khwiki.com/Recipe",
           "join": "independently reconciled source mismatch"
         }
+      },
+      "bbsfm:aqua:secret-episode:treasure:1": {
+        "instructions": "From the Blackout exit, return to Middle Zone and open the chest near the next darkness fight.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:2": {
+        "instructions": "After raising the pillar, descend and clear the lower darkness patch beside the Middle Zone exit.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:3": {
+        "instructions": "Use the first dark-energy launcher, clear the next darkness patch and open the chest on that ledge.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:4": {
+        "instructions": "From the Balloon Letter ledge, launch higher and drop into Lower Zone.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:6": {
+        "instructions": "From the far-right Triple Firaga platform, drop to the central lower area.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:7": {
+        "instructions": "In Upper Zone, cross to the platform on the far right.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:aqua:secret-episode:treasure:8": {
+        "instructions": "Clear the darkness patches on the left side of Upper Zone.",
+        "sources": [
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://www.khwiki.com/Game:Realm_of_Darkness"
+        ],
+        "uncertainty": "HD walkthrough route; exact minimum movement levels are unspecified."
+      },
+      "bbsfm:ventus:land-of-departure:tutorial-treasure:tutorial": {
+        "prerequisites": "Main-story save: chest areas remain reachable after the world’s destruction in Final Mix/HD. The permanent missability warning applies to the original Japanese release. Aqua’s separate Final Episode cannot visit this world.",
+        "sources": [
+          "https://www.khwiki.com/Land_of_Departure"
+        ]
       }
     },
     "lucky_strike": {
@@ -6665,7 +7150,8 @@
             "join": "independently reconciled source mismatch"
           }
         }
-      }
+      },
+      "continuation": "research-continuation-2026-10-01.md"
     },
     "ice_cream_beat": {
       "edition": "International / Final Mix; excludes original Japanese Special mode",
@@ -6943,6 +7429,325 @@
           "route": "In the courtyard turn left and jump into the fenced hole for the short route. Underground, the right ledge is safer; a sharp left offers the riskier shortcut."
         }
       }
+    },
+    "command_boards": {
+      "rules": "Menu play awards purchased opponent commands at game end. Limited bonus rewards appear only while absent from the current command list; selling all copies can restore them. Arena uses its separate reward column. A dash is the source’s absent reward, not an unknown value. Panel keys refer to the linked board map; they are not Reports order.",
+      "source": "https://www.khwiki.com/Command_Board",
+      "boards": [
+        {
+          "name": "Keyblade Board",
+          "source": "https://www.khwiki.com/Keyblade_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Zero Gravity",
+              "limited": "Ragnarok",
+              "arena": "Zero Gravity"
+            },
+            {
+              "key": 2,
+              "normal": "Magnet (80%) / Cure (20%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 3,
+              "normal": "Strike Raid (50%) / Poison Edge (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 4,
+              "normal": "Blizzard (50%) / Aero (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 5,
+              "normal": "Confuse (50%) / Slow (50%)",
+              "limited": "—",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Royal Board",
+          "source": "https://www.khwiki.com/Royal_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Stun Edge",
+              "limited": "Wishing Edge (Aqua only)",
+              "arena": "—"
+            },
+            {
+              "key": 2,
+              "normal": "Focus Barrier (Aqua only)",
+              "limited": "Focus Block (Terra and Ventus only)",
+              "arena": "—"
+            },
+            {
+              "key": 3,
+              "normal": "Fire Dash",
+              "limited": "Meteor Shower",
+              "arena": "—"
+            },
+            {
+              "key": 4,
+              "normal": "Fire (60%) / Thunder (40%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 5,
+              "normal": "Bind (40%) / Stop (40%) / Blackout (20%)",
+              "limited": "—",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Toon Board",
+          "source": "https://www.khwiki.com/Toon_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Confusion Strike",
+              "limited": "Binding Strike",
+              "arena": "—"
+            },
+            {
+              "key": 2,
+              "normal": "Blizzard",
+              "limited": "Blizzara",
+              "arena": "Zero Graviga"
+            },
+            {
+              "key": 3,
+              "normal": "Thundara (50%) / Aerora (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 4,
+              "normal": "Freeze Raid",
+              "limited": "Deep Freeze",
+              "arena": "Freeze Raid"
+            },
+            {
+              "key": 5,
+              "normal": "—",
+              "limited": "Blizzard Edge",
+              "arena": "—"
+            },
+            {
+              "key": 6,
+              "normal": "Cure (50%) / Zero Graviga (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 7,
+              "normal": "Stopra (50%) / Blackout (25%) / Bind (25%)",
+              "limited": "—",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Spaceship Board",
+          "source": "https://www.khwiki.com/Spaceship_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Firaga",
+              "limited": "High Jump",
+              "arena": "—"
+            },
+            {
+              "key": 2,
+              "normal": "Zero Graviga",
+              "limited": "Lightning Ray",
+              "arena": "Zero Graviga"
+            },
+            {
+              "key": 3,
+              "normal": "Sonic Blade (50%) / Thundaga (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 4,
+              "normal": "Thundara (50%) / Aerora (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 5,
+              "normal": "Blackout (50%) / Ignite (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 6,
+              "normal": "—",
+              "limited": "Collision Magnet",
+              "arena": "—"
+            },
+            {
+              "key": 7,
+              "normal": "Mini",
+              "limited": "Limit Storm (Terra only)",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Skull Board",
+          "source": "https://www.khwiki.com/Skull_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Quick Blitz (50%) / Aero (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 2,
+              "normal": "Magnega",
+              "limited": "Photon Charge",
+              "arena": "Magnega"
+            },
+            {
+              "key": 3,
+              "normal": "Blitz (50%) / Aerial Slam (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 4,
+              "normal": "Firaga (50%) / Mine Square (50%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 5,
+              "normal": "Poison Edge",
+              "limited": "Munny Magnet (Aqua only)",
+              "arena": "—"
+            },
+            {
+              "key": 6,
+              "normal": "Binding Strike",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 7,
+              "normal": "Zero Gravira (50%) / Aerora (50%)",
+              "limited": "—",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Hunny Pot Board",
+          "source": "https://www.khwiki.com/Hunny_Pot_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Fira (30%) / Fire Surge (70%)",
+              "limited": "—",
+              "arena": "—"
+            },
+            {
+              "key": 2,
+              "normal": "Confusion Strike",
+              "limited": "Sacrifice (Terra only)",
+              "arena": "—"
+            },
+            {
+              "key": 3,
+              "normal": "Thundara",
+              "limited": "Thunder Roll (Ventus only)",
+              "arena": "Thundara"
+            },
+            {
+              "key": 4,
+              "normal": "Mine Square (50%) / Zero Gravira (50%)",
+              "limited": "—",
+              "arena": "—"
+            }
+          ]
+        },
+        {
+          "name": "Secret Board",
+          "source": "https://www.khwiki.com/Secret_Board",
+          "panels": [
+            {
+              "key": 1,
+              "normal": "Magnega",
+              "limited": "Aerial Slam",
+              "arena": "Thundara"
+            },
+            {
+              "key": 2,
+              "normal": "Thunder Surge",
+              "limited": "Lightning Ray",
+              "arena": "Aerial Slam"
+            },
+            {
+              "key": 3,
+              "normal": "—",
+              "limited": "Sonic Blade",
+              "arena": "Blitz"
+            },
+            {
+              "key": 4,
+              "normal": "—",
+              "limited": "Fission Firaga",
+              "arena": "Fire Surge"
+            },
+            {
+              "key": 5,
+              "normal": "Zero Graviga (50%) / Magnega (50%)",
+              "limited": "—",
+              "arena": "Magnera"
+            },
+            {
+              "key": 6,
+              "normal": "—",
+              "limited": "Cura",
+              "arena": "Cura"
+            },
+            {
+              "key": 7,
+              "normal": "Thundaga",
+              "limited": "Ragnarok",
+              "arena": "Thundara"
+            },
+            {
+              "key": 8,
+              "normal": "—",
+              "limited": "Aeroga",
+              "arena": "Aerora"
+            },
+            {
+              "key": 9,
+              "normal": "Fire Dash",
+              "limited": "Fire Surge",
+              "arena": "Fire Dash"
+            },
+            {
+              "key": 10,
+              "normal": "—",
+              "limited": "Blitz",
+              "arena": "Confusion Strike"
+            }
+          ]
+        }
+      ],
+      "remaining": "Opponent deck quantities and per-character/mode conditions are not fully normalized; Skull Board source quantities are explicitly unknown. Bonus-panel tables do not establish opponent-card acquisition in Arena."
     }
   },
   "commands": [
@@ -8379,7 +9184,7 @@
       "enemy_drops": [
         "Collision Magnet: Triple Wrecker (5%)"
       ],
-      "cp_evidence_status": "Maximum level conflict: aggregate roster 4, individual BBS page 5. No complete mastery curve certified.",
+      "cp_evidence_status": "Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table extends to level 5.",
       "max_level_conflict": {
         "roster": 4,
         "individual_page": 5
@@ -8857,7 +9662,7 @@
       ],
       "source": "https://www.khwiki.com/Blizzaga",
       "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
-      "max_level": 3,
+      "max_level": 4,
       "slots": 1,
       "acquisitions": [
         "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4]",
@@ -8867,11 +9672,34 @@
       "enemy_drops": [
         "Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8)"
       ],
-      "cp_evidence_status": "Maximum level conflict: aggregate roster 3, individual BBS page 4. No complete mastery curve certified.",
-      "max_level_conflict": {
+      "cp_evidence_status": "Level 4 supported by the individual BBS mechanics and CP table and the independent PSP translation guide; aggregate roster’s 3 retained as historical conflict.",
+      "historical_max_level_conflict": {
         "roster": 3,
         "individual_page": 4
-      }
+      },
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 580
+        },
+        {
+          "level": 3,
+          "cp": 610
+        },
+        {
+          "level": 4,
+          "cp": 640
+        }
+      ],
+      "cp_source": "https://www.khwiki.com/Blizzard#Kingdom_Hearts_Birth_by_Sleep",
+      "max_level_corroboration": [
+        "https://www.khwiki.com/Blizzard#Kingdom_Hearts_Birth_by_Sleep",
+        "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/58719"
+      ]
     },
     {
       "name": "Triple Blizzaga",
@@ -11851,7 +12679,7 @@
         "Ventus/Aqua: make through Command Melding."
       ],
       "enemy_drops": [],
-      "cp_evidence_status": "Maximum level conflict: aggregate roster 4, individual BBS page 1. No complete mastery curve certified.",
+      "cp_evidence_status": "Unresolved internal source discrepancy: roster, mechanics prose and Destiny Islands list maximum level 4; individual CP table contains only level 1. An incomplete one-row table does not itself certify maximum level 1.",
       "max_level_conflict": {
         "roster": 4,
         "individual_page": 1
