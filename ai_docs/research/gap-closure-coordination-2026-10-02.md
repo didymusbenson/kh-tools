@@ -27,3 +27,9 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 ## Integration results
 
 No game from this new closure pass has been integrated yet.
+
+## Verified starting state and published worker checkpoints
+
+The coordinator ran the baseline locally after pulling `c5ea2de`: all 133 tests in 14 files passed, and the complete production build passed, including content and empty Jiminy pack validation. The existing bundle-size advisory remains. The main checkout was clean after generation.
+
+Initial scope checkpoints are published on the game branches: KH1 `1dfa184`, BBS `252be0f`, DDD `0ef9f3d`. These record assignments and recovery scope; they are not claims of completed research.
