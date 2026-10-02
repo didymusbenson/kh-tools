@@ -1,12 +1,10 @@
 {
-  "inspected": "2026-10-01",
+  "inspected": "2026-10-02",
   "appId": 2552440,
-  "method": "Individually queried SteamDB indexed key/requirement pairs; full page returned a loading shell. No key inferred from popularity, order or adjacency to the following title. API keys are provenance, not player instructions.",
-  "mapped": 14,
+  "method": "Rendered SteamDB achievement containers inspected directly in browser. Each name, requirement and API key belong to the same achievement-ACH_nn container; all 15 associations confirmed independently of ordering. SteamDB is a schema mirror, not the official API.",
+  "mapped": 15,
   "total": 15,
-  "remaining": [
-    "Into the Depths of Darkness: ACH_05 query did not expose its own preceding requirement; no assignment inferred."
-  ],
+  "remaining": [],
   "records": [
     {
       "name": "Wandering in the Dark",
@@ -15,7 +13,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_01\" \"journey\"",
       "retrievalReference": "turn649search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Hidden achievement: Begin a journey to escape the Dark World. ..."
+      "observedRequirement": "Hidden achievement: Begin a journey to escape the Dark World. ...",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_01",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Flow of Time",
@@ -24,7 +27,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_02\"",
       "retrievalReference": "turn536search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Hidden achievement: Complete the Castle Town episode. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 35.8%."
+      "observedRequirement": "Hidden achievement: Complete the Castle Town episode. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 35.8%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_02",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "False Temptations",
@@ -33,7 +41,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_03\"",
       "retrievalReference": "turn534search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Hidden achievement: Complete the World Within episode. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 32.7%."
+      "observedRequirement": "Hidden achievement: Complete the World Within episode. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 32.7%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_03",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Real or Illusion?",
@@ -42,7 +55,24 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_04\" \"Forest of Thorns\"",
       "retrievalReference": "turn632search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Hidden achievement: Complete the Forest of Thorns episode. Kingdom ..."
+      "observedRequirement": "Hidden achievement: Complete the Forest of Thorns episode. Kingdom ...",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_04",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
+    },
+    {
+      "name": "Into the Depths of Darkness",
+      "steamApiKey": "ACH_05",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "evidence": "Rendered container achievement-ACH_05 contains the title, hidden requirement and ACH_05. Deft Diver is separate container achievement-ACH_23.",
+      "observedRequirement": "Complete KINGDOM HEARTS 0.2 Birth by Sleep - A fragmentary passage -.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_05",
+        "method": "Rendered browser accessibility tree; container 215, title 216, requirement 218, API key 222."
+      }
     },
     {
       "name": "Treasure Hunter",
@@ -51,7 +81,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_06\"",
       "retrievalReference": "turn543search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Open all treasure chests in the Dark World. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 5.1%."
+      "observedRequirement": "Open all treasure chests in the Dark World. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 5.1%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_06",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Ambitious",
@@ -60,7 +95,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_07\"",
       "retrievalReference": "turn544search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Complete all objectives. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 3.8%."
+      "observedRequirement": "Complete all objectives. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 3.8%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_07",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Undefeated",
@@ -69,7 +109,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_08\" \"Retry\"",
       "retrievalReference": "turn650search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Jun 13, 2024 — Complete the story without having to Retry or Continue after being defeated. ..."
+      "observedRequirement": "Jun 13, 2024 \u2014 Complete the story without having to Retry or Continue after being defeated. ...",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_08",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Heartless Hunter",
@@ -78,7 +123,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_09\"",
       "retrievalReference": "turn541search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Defeat 500 Heartless. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 8.3%."
+      "observedRequirement": "Defeat 500 Heartless. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 8.3%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_09",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Ice Queen",
@@ -87,7 +137,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_10\"",
       "retrievalReference": "turn546search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Execute Spellweaver's Finish command 5 times. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 32.5%."
+      "observedRequirement": "Execute Spellweaver's Finish command 5 times. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 32.5%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_10",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Proud Player/Critical Competitor",
@@ -96,7 +151,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_11\"",
       "retrievalReference": "turn540search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Complete the game in Proud or Critical Mode. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 14.5%."
+      "observedRequirement": "Complete the game in Proud or Critical Mode. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 14.5%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_11",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "A Magical Finale",
@@ -105,7 +165,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_12\"",
       "retrievalReference": "turn539search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Jun 13, 2024 — Execute all Magic Situation Commands. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 28.8%."
+      "observedRequirement": "Jun 13, 2024 \u2014 Execute all Magic Situation Commands. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 28.8%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_12",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Shotlock Star",
@@ -114,7 +179,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_13\"",
       "retrievalReference": "turn537search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Earn an Excellent rating in Shotlock. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 26.7%."
+      "observedRequirement": "Earn an Excellent rating in Shotlock. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 26.7%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_13",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Dark Explorer",
@@ -123,7 +193,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_14\"",
       "retrievalReference": "turn542search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Walk a long distance within a single map. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 34.5%."
+      "observedRequirement": "Walk a long distance within a single map. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 34.5%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_14",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     },
     {
       "name": "Fashionista",
@@ -132,7 +207,12 @@
       "query": "site:steamdb.info/app/2552440/stats/ \"ACH_15\"",
       "retrievalReference": "turn538search0",
       "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
-      "observedRequirement": "Equip an item in all wardrobe slots. Kingdom Hearts 0.2: Birth by Sleep – A Fragmentary Passage. Uncategorized. 21.8%."
+      "observedRequirement": "Equip an item in all wardrobe slots. Kingdom Hearts 0.2: Birth by Sleep \u2013 A Fragmentary Passage. Uncategorized. 21.8%.",
+      "directInspection": {
+        "date": "2026-10-02",
+        "container": "achievement-ACH_15",
+        "method": "Rendered browser accessibility tree: name, requirement and key in the same container."
+      }
     }
   ]
 }

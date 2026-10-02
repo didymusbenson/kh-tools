@@ -13,6 +13,7 @@ export interface CollectionEntry {
   missability?: string;
   uncertainty?: string;
   sources?: string[];
+  steamApiName?: string | null;
   checkable?: boolean;
   collectible?: boolean;
   order?: number;

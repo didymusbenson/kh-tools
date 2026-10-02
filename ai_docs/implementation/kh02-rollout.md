@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 rollout — September 20, 2026
 
+2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](../games/kh02/gap-closure-2026-10-02.md).
+
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
 
 ## Research and plan

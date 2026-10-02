@@ -94,3 +94,9 @@ Each answer must retrieve the relevant versioned fact, location ID, source and c
 ## Defensive defaults reconciled on 2026-10-01
 
 Barrier, Counter Blast, Cartwheel and aerial recovery are innate. Curaga consumes all remaining MP and gives casting invulnerability except on Critical. Single-hit survival normally leaves 1 HP, but can fail on Critical when Aqua is already at critical HP; combo survival remains innate. These 0.2 statements come from the respective KHWiki game sections and are integrated in `mechanics-facts.json`. They are not BBS melding recipes or KH3 equipment abilities.
+
+## Steam schema reconciliation — 2026-10-02
+
+All 15 Steam goals now have direct name/requirement/API-key associations in [canonical provenance](steam-key-provenance.json). Into the Depths of Darkness is `ACH_05`, observed within its own rendered SteamDB container; Deft Diver is the separate DDD `ACH_23`. Keys remain provenance, preserving player checklist IDs. Other-platform native IDs are outside the shipped Steam closure.
+
+Xbox walkthrough pages [18](https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18) and [19](https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19) explicitly describe ordinary chests refilling in NG+. This supports the older-edition baseline, but does not identify partial gem/memory transfers or Steam chest-achievement evaluation. The PS4 [trophy guide](https://www.playstationtrophies.org/game/kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage/guide/) explicitly advises all chests in one playthrough. Safest route: collect all 41 on one cleared save before starting NG+. This is route advice, not proof of a hidden Steam predicate.

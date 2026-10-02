@@ -3,6 +3,13 @@ import json,pathlib
 
 def enrich(entries,root):
  byid={e['id']:e for e in entries}
+ # Preserve progress IDs while exposing verified platform keys in runtime data.
+ keys={x['name']:x for x in json.loads((root/'steam-key-provenance.json').read_text())['records']}
+ for e in entries:
+  if e['category']=='achievements':
+   key=keys[e['name']]
+   e['steamApiName']=key['steamApiKey']
+   e['sources']=list(dict.fromkeys(e.get('sources',[])+[key['source']]))
  for fact in json.loads((root/'mechanics-facts.json').read_text()):
   e=byid.get(fact['id'])
   if e:e.update(fact)

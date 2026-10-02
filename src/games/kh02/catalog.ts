@@ -1296,9 +1296,10 @@ export const entries: CollectionEntry[] = [
     "order": 13,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
+    "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
   },
   {
     "id": "kh02:wardrobe:mystic-pauldron",
@@ -1313,9 +1314,10 @@ export const entries: CollectionEntry[] = [
     "order": 13,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
+    "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
   },
   {
     "id": "kh02:objective:14",
@@ -2650,8 +2652,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_01"
   },
   {
     "id": "kh02:achievement:flow-of-time",
@@ -2664,8 +2668,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_02"
   },
   {
     "id": "kh02:achievement:false-temptations",
@@ -2678,8 +2684,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_03"
   },
   {
     "id": "kh02:achievement:real-or-illusion",
@@ -2692,8 +2700,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_04"
   },
   {
     "id": "kh02:achievement:into-the-depths-of-darkness",
@@ -2706,8 +2716,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_05"
   },
   {
     "id": "kh02:achievement:treasure-hunter",
@@ -2720,9 +2732,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "The researched set contains all 41 chests, including twelve post-clear Zodiac chests and the Main Road chest. Exact runtime trigger remains unverified."
+    "instructions": "The researched set contains all 41 chests, including twelve post-clear Zodiac chests and the Main Road chest. Collect them on one cleared save before starting NG+. The exact Steam trigger across NG+ remains unverified.",
+    "steamApiName": "ACH_06"
   },
   {
     "id": "kh02:achievement:ambitious",
@@ -2735,9 +2749,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Complete all 51 objectives. Area collectible completion alone does not satisfy this goal."
+    "instructions": "Complete all 51 objectives. Area collectible completion alone does not satisfy this goal.",
+    "steamApiName": "ACH_07"
   },
   {
     "id": "kh02:achievement:undefeated",
@@ -2750,9 +2766,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Track this as a run goal. Avoid death-related Retry/Continue; do not assume ordinary checklist completion proves the run condition."
+    "instructions": "Track this as a run goal. Avoid death-related Retry/Continue; do not assume ordinary checklist completion proves the run condition.",
+    "steamApiName": "ACH_08"
   },
   {
     "id": "kh02:achievement:heartless-hunter",
@@ -2765,8 +2783,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-    ]
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "steamApiName": "ACH_09"
   },
   {
     "id": "kh02:achievement:ice-queen",
@@ -2779,9 +2799,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Use Spellweaver Finish five times; objective 20 needs only one."
+    "instructions": "Use Spellweaver Finish five times; objective 20 needs only one.",
+    "steamApiName": "ACH_10"
   },
   {
     "id": "kh02:achievement:proud-player-critical-competitor",
@@ -2794,9 +2816,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Proud or Critical qualifies. Objective 51 requires Critical specifically. Steam name: Proud Player. Xbox name: Critical Competitor."
+    "instructions": "Proud or Critical qualifies. Objective 51 requires Critical specifically. Steam name: Proud Player. Xbox name: Critical Competitor.",
+    "steamApiName": "ACH_11"
   },
   {
     "id": "kh02:achievement:a-magical-finale",
@@ -2809,9 +2833,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Use Firaja, Blizzaja and Thundaja, each at least once. Repeatedly cast the matching lower-tier spell to offer its Situation Command. Cross-run partial-set retention is undocumented."
+    "instructions": "Use Firaja, Blizzaja and Thundaja, each at least once. Repeatedly cast the matching lower-tier spell to offer its Situation Command. Cross-run partial-set retention is undocumented.",
+    "steamApiName": "ACH_12"
   },
   {
     "id": "kh02:achievement:shotlock-star",
@@ -2824,9 +2850,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "One Excellent rating is enough; objective 18 requires six consecutive ratings."
+    "instructions": "One Excellent rating is enough; objective 18 requires six consecutive ratings.",
+    "steamApiName": "ACH_13"
   },
   {
     "id": "kh02:achievement:dark-explorer",
@@ -2839,9 +2867,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Run repeated circuits inside one map. Visits to that same map accumulate movement; switching maps is unnecessary. No numeric hidden threshold is established."
+    "instructions": "Run repeated circuits inside one map. Visits to that same map accumulate movement; switching maps is unnecessary. No numeric hidden threshold is established.",
+    "steamApiName": "ACH_14"
   },
   {
     "id": "kh02:achievement:fashionista",
@@ -2854,9 +2884,11 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552440/achievements/",
       "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Fill all four wardrobe slots. Unlike objective 21, no Spellweaver finisher is required."
+    "instructions": "Fill all four wardrobe slots. Unlike objective 21, no Spellweaver finisher is required.",
+    "steamApiName": "ACH_15"
   },
   {
     "id": "kh02:reference:replay",

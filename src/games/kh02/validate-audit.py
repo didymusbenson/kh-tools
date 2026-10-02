@@ -33,7 +33,14 @@ assert 'https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/' 
 
 # Native key mappings are canonical provenance; retain checklist identities.
 keys=json.loads((root/'ai_docs/games/kh02/steam-key-provenance.json').read_text())
-assert keys['mapped']==14
+assert keys['mapped']==keys['total']==15
+assert not keys['remaining']
+assert next(x for x in keys['records'] if x['name']=='Into the Depths of Darkness')['steamApiKey']=='ACH_05'
+assert all(x['directInspection']['container']=='achievement-'+x['steamApiKey'] for x in keys['records'])
 assert len({x['steamApiKey'] for x in keys['records']})==keys['mapped']
 assert all(x['source']=='https://steamdb.info/app/2552440/stats/' and x['observedRequirement'] for x in keys['records'])
-assert {x['name'] for x in keys['records']}=={x['name'] for x in e if x['category']=='achievements'}-{'Into the Depths of Darkness'}
+assert {x['name'] for x in keys['records']}=={x['name'] for x in e if x['category']=='achievements'}
+achievements={x['name']:x for x in e if x['category']=='achievements'}
+for record in keys['records']:
+ assert achievements[record['name']]['steamApiName']==record['steamApiKey']
+ assert record['source'] in achievements[record['name']]['sources']
