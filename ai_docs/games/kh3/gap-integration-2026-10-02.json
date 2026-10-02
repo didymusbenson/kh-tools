@@ -106,5 +106,7 @@
   "copyRecoveryIds": [
     "kh3.rewards.222-sora-copies",
     "kh3.rewards.333-sora-copies"
-  ]
+  ],
+  "equipmentLinkedAcquisitionRecords": 104,
+  "equipmentAcquisitionLinks": 151
 }

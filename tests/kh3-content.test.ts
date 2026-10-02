@@ -45,7 +45,7 @@ describe('KHIII expanded acquisition catalog', () => {
   });
   it('documents every audit ID without treating the remaining evidence gaps as resolved', () => {
     expect(dispositions.findings.map(f => f.id)).toEqual(Array.from({ length: 35 }, (_, i) => `KH3-${String(i + 1).padStart(3, '0')}`));
-    expect(dispositions.statusCounts).toEqual({ partial: 14, resolved: 18, conflicted: 3 });
+    expect(dispositions.statusCounts).toEqual({ partial: 13, resolved: 19, conflicted: 3 });
     for (const f of dispositions.findings) {
       expect(f.consultedUrls.length, f.id).toBeGreaterThan(0);
       expect(f.remainingEvidenceBoundary.length, f.id).toBeGreaterThan(20);
@@ -53,4 +53,37 @@ describe('KHIII expanded acquisition catalog', () => {
     expect(category('photos').every(e => typeof e.prerequisites === 'string' && e.prerequisites.length > 0)).toBe(true);
     expect(category('challenges').filter(e => e.name.endsWith(' Flan')).every(e => e.uncertainty?.includes('equality'))).toBe(true);
   });
+  it('links obtainable medal variants to their activity pools and equipment to existing acquisitions', () => {
+    const entries = new Map(raw.map(e => [e.id, e]));
+    const recipeIds = new Set(content.recipes.map(r => r.id));
+    const medals = raw.filter(e => e.medalVariant);
+    expect(medals).toHaveLength(28);
+    for (const medal of medals) {
+      expect(entries.get(medal.medalVariant.activityId)?.medalVariantIds).toContain(medal.id);
+      expect(medal.medalVariant.probability).toBeNull();
+      expect(medal.sources.length).toBeGreaterThan(0);
+    }
+    for (const entry of raw) {
+      for (const id of entry.acquisitionRecordIds || []) expect(entries.has(id), entry.id).toBe(true);
+      for (const id of entry.synthesisRecipeIds || []) expect(recipeIds.has(id), entry.id).toBe(true);
+      for (const source of entry.sphereRewards || []) {
+        expect(entries.get(source.sphereId)?.category).toBe('gummi-spheres');
+        expect(source.quantity).toBeGreaterThan(0);
+      }
+    }
+  });
+  it('keeps combined Gummi budgets distinct from main-ship limits and describes copy recovery', () => {
+    const budget = raw.find(e => e.id === 'kh3.gummi-reference.gummi-build-budgeting')!;
+    expect(budget.publishedCombinedCost.levels).toHaveLength(99);
+    expect(budget.publishedCombinedCost.levels.at(-1)).toEqual({ level: 99, cost: 1600 });
+    expect(budget.publishedCombinedCost.steamValidated).toBe(false);
+    expect(budget.instructions).toContain('1,000');
+    expect(budget.publishedCombinedCost.unit).toContain('not main ship alone');
+    for (const n of [222, 333]) {
+      const reward = raw.find(e => e.id === `kh3.rewards.${n}-sora-copies`)!;
+      expect(reward.instructions).toContain('pink portal within The Final World');
+      expect(reward.uncertainty).toContain('repeatable HP');
+    }
+  });
+
 });

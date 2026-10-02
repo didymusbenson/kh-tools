@@ -2,7 +2,7 @@
 
 ## Current research and implementation status — 2026-10-01
 
-KHIII/Re Mind canonical content now has **1926 entries + 286 recipe actions**. The [current per-ID ledger](kh3/audit-resolution-2026-10-01.md) records **14 partial, 18 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; full sphere flight approaches remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+KHIII/Re Mind canonical content now has **1954 entries + 286 recipe actions**. The [current per-ID ledger](kh3/audit-resolution-2026-10-01.md) records **13 partial, 19 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; all nine spheres now have built-in marker flight approaches. This is not a claim that every acquisition route or platform predicate is ready.
 
 Current scope and acceptance requirements below remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
 
@@ -191,9 +191,9 @@ See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
 ## Current evidence and remaining data
 
-The canonical compendium contains 1926 entries and 286 recipe actions. All 245 base chests, 90 emblems and nine Re Mind chests have pickup directions. Synthesis includes 88 recipes/history outputs and 78 ordered Collector Goals. Blade properties/forge ladders, 54 Game Records, 81 adversaries, 23 Classic controls, 20 photo routes, ten Slider prizes and fourteen DLC strategies are integrated. Gummi includes all 45 fragment approaches, 13 special weapons and 46 mission predicates. The [continuation report](kh3/research-continuation-2026-10-01.md) records 59 newly normalized shop rows and the full follow-up evidence.
+The canonical compendium contains 1954 entries and 286 recipe actions. All 245 base chests, 90 emblems and nine Re Mind chests have pickup directions. Synthesis includes 88 recipes/history outputs and 78 ordered Collector Goals. Blade properties/forge ladders, 54 Game Records, 81 adversaries, 23 Classic controls, 20 photo routes, ten Slider prizes and fourteen DLC strategies are integrated. Gummi includes all 45 fragment approaches, 13 special weapons and 46 mission predicates. The [continuation report](kh3/research-continuation-2026-10-01.md) records 59 newly normalized shop rows and the full follow-up evidence.
 
-The remaining conflicts are Forest Clasp’s exact deadline, seven Flan threshold equalities and PRO rank B. Earliest collectible access, modern labels, every alternative source quantity, complete sphere approaches, medal roll distributions, replenishment/reset timers, Gummi cost/AP progression and platform-specific save/code/achievement cases remain scoped evidence limits. Toy Box emblem 8 and crafted-history marker behavior are resolved.
+The remaining conflicts are Forest Clasp’s exact deadline, seven Flan threshold equalities and PRO rank B. Earliest collectible access, modern labels, every alternative source quantity, medal roll distributions, replenishment/reset timers, Gummi cost/AP progression and platform-specific save/code/achievement cases remain scoped evidence limits. Toy Box emblem 8 and crafted-history marker behavior are resolved.
 
 The [edition audit](kh3/editions-and-dlc.md) separates free updates from Re Mind and dated platform entitlements. Native October 8, 2026 editions remain announced/unreleased as of October 1; the official Cloud transfer promise is not a documented procedure. Consult the [readiness matrix](../readiness/kingdom-hearts-iii.md) for current coverage and application acceptance. No user replay is required to close a research finding.
 
@@ -201,3 +201,5 @@ The [edition audit](kh3/editions-and-dlc.md) separates free updates from Re Mind
 
 A player can find/acquire the specified collectibles, materials and equipment from complete text guidance and clearly see separate base, Re Mind, recipe, record and achievement goals. The app must pass meaningful calculation, linked-state, offline, migration, backup and mobile functionality checks, with source conflicts represented honestly. No full narrative Journal reproduction, Available Now tracking, spoiler controls or user playthrough gate is implied.
 
+
+Current gap-closure integration (2026-10-02): 28 obtainable medal variants and five activity/rank pools, 151 acquisition links across 104 equipment records, 12 material/sphere quantity links, 21 detailed ingredient routes, Final World copy-recovery directions, and an attributed 99-level combined Main + Teeny cost table. See [the closure report](kh3/gap-closure-2026-10-02.md) for evidence and the precise remaining boundaries.

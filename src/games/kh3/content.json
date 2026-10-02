@@ -34786,7 +34786,9 @@
       "name": "Mage's Staff+",
       "summary": "Chest at Babies & Toddlers: Dolls .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Donald",
       "properties": {
@@ -34795,7 +34797,11 @@
         "Ability": "Fire Boost",
         "Obtained": "Chest at Babies & Toddlers: Dolls ."
       },
-      "instructions": "Strength: +3; Magic: +4; Ability: Fire Boost"
+      "instructions": "Strength: +3; Magic: +4; Ability: Fire Boost Linked acquisition records: Toy Box / Babies & Toddlers: Dolls: Chest 15 — Mage's Staff+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.015"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.warhammer",
@@ -34827,7 +34833,9 @@
       "name": "Warhammer+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Warhammer",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -34836,7 +34844,11 @@
         "Ability": "Item Boost",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +5; Magic: +4; Ability: Item Boost"
+      "instructions": "Strength: +5; Magic: +4; Ability: Item Boost Linked acquisition records: Synthesis recipe: Warhammer+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.warhammer-plus"
+      ]
     },
     {
       "id": "kh3.equipment.magician-s-wand",
@@ -34868,7 +34880,10 @@
       "name": "Magician's Wand+",
       "summary": "Chest at the Frozen Wall .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
       ],
       "character": "Donald",
       "properties": {
@@ -34877,7 +34892,11 @@
         "Ability": "Blizzard Boost",
         "Obtained": "Chest at the Frozen Wall ."
       },
-      "instructions": "Strength: +4; Magic: +6; Ability: Blizzard Boost"
+      "instructions": "Strength: +4; Magic: +6; Ability: Blizzard Boost Linked acquisition records: Arendelle / Frozen Wall: Chest 23 — Magician's Wand+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.023"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.nirvana",
@@ -34909,7 +34928,9 @@
       "name": "Nirvana+",
       "summary": "Chest at the North District .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Donald",
       "properties": {
@@ -34918,7 +34939,11 @@
         "Ability": "Aero Boost",
         "Obtained": "Chest at the North District ."
       },
-      "instructions": "Strength: +4; Magic: +8; Ability: Aero Boost"
+      "instructions": "Strength: +4; Magic: +8; Ability: Aero Boost Linked acquisition records: San Fransokyo / Central District: Chest 19 — Nirvana+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.019"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.astrolabe",
@@ -34950,7 +34975,9 @@
       "name": "Astrolabe+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Astrolabe+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -34959,7 +34986,11 @@
         "Ability": "Thunder Boost , Full MP Blast",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +7; Magic: +7; Ability: Thunder Boost , Full MP Blast"
+      "instructions": "Strength: +7; Magic: +7; Ability: Thunder Boost , Full MP Blast Linked acquisition records: Synthesis recipe: Astrolabe+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.astrolabe-plus"
+      ]
     },
     {
       "id": "kh3.equipment.heartless-maul",
@@ -34967,7 +34998,9 @@
       "name": "Heartless Maul",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Heartless_Maul+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -34976,7 +35009,11 @@
         "Ability": "Hyper Healing , Heartless Buster",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +8; Magic: +6; Ability: Hyper Healing , Heartless Buster"
+      "instructions": "Strength: +8; Magic: +6; Ability: Hyper Healing , Heartless Buster Linked acquisition records: Synthesis recipe: Heartless Maul. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.heartless-maul"
+      ]
     },
     {
       "id": "kh3.equipment.heartless-maul-plus",
@@ -34984,7 +35021,9 @@
       "name": "Heartless Maul+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Heartless_Maul+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -34993,7 +35032,11 @@
         "Ability": "MP Thrift , Heartless Buster",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +8; Magic: +6; Ability: MP Thrift , Heartless Buster"
+      "instructions": "Strength: +8; Magic: +6; Ability: MP Thrift , Heartless Buster Linked acquisition records: Synthesis recipe: Heartless Maul+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.heartless-maul-plus"
+      ]
     },
     {
       "id": "kh3.equipment.save-the-queen",
@@ -35001,7 +35044,9 @@
       "name": "Save the Queen",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_Queen+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -35010,7 +35055,11 @@
         "Ability": "Damage Syphon , MP Hastera",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +6; Magic: +9; Ability: Damage Syphon , MP Hastera"
+      "instructions": "Strength: +6; Magic: +9; Ability: Damage Syphon , MP Hastera Linked acquisition records: Synthesis recipe: Save the Queen. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.save-the-queen"
+      ]
     },
     {
       "id": "kh3.equipment.save-the-queen-plus",
@@ -35018,7 +35067,9 @@
       "name": "Save the Queen+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_Queen+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Donald",
       "properties": {
@@ -35027,7 +35078,11 @@
         "Ability": "Damage Syphon , MP Hastega",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +6; Magic: +9; Ability: Damage Syphon , MP Hastega"
+      "instructions": "Strength: +6; Magic: +9; Ability: Damage Syphon , MP Hastega Linked acquisition records: Synthesis recipe: Save the Queen+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.save-the-queen-plus"
+      ]
     },
     {
       "id": "kh3.equipment.knight-s-shield",
@@ -35093,7 +35148,9 @@
       "name": "Clockwork Shield+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Clockwork_Shield+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35102,7 +35159,11 @@
         "Ability": "Aero Syphon , Sneeze Protection",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +5; Resistance: Aero: 20%; Ability: Aero Syphon , Sneeze Protection"
+      "instructions": "Strength: +5; Resistance: Aero: 20%; Ability: Aero Syphon , Sneeze Protection Linked acquisition records: Synthesis recipe: Clockwork Shield+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.clockwork-shield-plus"
+      ]
     },
     {
       "id": "kh3.equipment.star-shield",
@@ -35134,7 +35195,9 @@
       "name": "Star Shield+",
       "summary": "Chest at the Lower Level .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35143,7 +35206,11 @@
         "Ability": "Thunder Syphon , Electric Protection",
         "Obtained": "Chest at the Lower Level ."
       },
-      "instructions": "Strength: +6; Resistance: Thunder: 20%; Ability: Thunder Syphon , Electric Protection"
+      "instructions": "Strength: +6; Resistance: Thunder: 20%; Ability: Thunder Syphon , Electric Protection Linked acquisition records: Monstropolis / Lower Level: Chest 06 — Star Shield+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.006"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.aegis-shield",
@@ -35175,7 +35242,9 @@
       "name": "Aegis Shield+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Aegis_Shield+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35184,7 +35253,11 @@
         "Ability": "Blizzard Syphon , Freeze Protection",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +7; Resistance: Blizzard: 20%; Ability: Blizzard Syphon , Freeze Protection"
+      "instructions": "Strength: +7; Resistance: Blizzard: 20%; Ability: Blizzard Syphon , Freeze Protection Linked acquisition records: Synthesis recipe: Aegis Shield+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.aegis-shield-plus"
+      ]
     },
     {
       "id": "kh3.equipment.storm-anchor",
@@ -35216,7 +35289,9 @@
       "name": "Storm Anchor+",
       "summary": "Chest at Sandbar Isle .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35225,7 +35300,11 @@
         "Ability": "Water Syphon , Cloud Protection",
         "Obtained": "Chest at Sandbar Isle ."
       },
-      "instructions": "Strength: +8; Resistance: Water: 20%; Ability: Water Syphon , Cloud Protection"
+      "instructions": "Strength: +8; Resistance: Water: 20%; Ability: Water Syphon , Cloud Protection Linked acquisition records: The Caribbean / Sandbar Isle: Chest 34 — Storm Anchor+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.034"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.nobody-guard",
@@ -35233,7 +35312,9 @@
       "name": "Nobody Guard",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Nobody_Guard+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35242,7 +35323,11 @@
         "Ability": "Nobody Buster",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +7; Resistance: —; Ability: Nobody Buster"
+      "instructions": "Strength: +7; Resistance: —; Ability: Nobody Buster Linked acquisition records: Synthesis recipe: Nobody Guard. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.nobody-guard"
+      ]
     },
     {
       "id": "kh3.equipment.nobody-guard-plus",
@@ -35250,7 +35335,9 @@
       "name": "Nobody Guard+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Nobody_Guard+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35259,7 +35346,11 @@
         "Ability": "Hyper Healing , Nobody Buster",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +8; Resistance: —; Ability: Hyper Healing , Nobody Buster"
+      "instructions": "Strength: +8; Resistance: —; Ability: Hyper Healing , Nobody Buster Linked acquisition records: Synthesis recipe: Nobody Guard+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.nobody-guard-plus"
+      ]
     },
     {
       "id": "kh3.equipment.save-the-king",
@@ -35267,7 +35358,9 @@
       "name": "Save the King",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_King+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35276,7 +35369,11 @@
         "Ability": "Damage Syphon",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +9; Resistance: Dark: 5%; Ability: Damage Syphon"
+      "instructions": "Strength: +9; Resistance: Dark: 5%; Ability: Damage Syphon Linked acquisition records: Synthesis recipe: Save the King. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.save-the-king"
+      ]
     },
     {
       "id": "kh3.equipment.save-the-king-plus",
@@ -35284,7 +35381,9 @@
       "name": "Save the King+",
       "summary": "Item synthesis .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.khwiki.com/Save_the_King+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Goofy",
       "properties": {
@@ -35293,7 +35392,11 @@
         "Ability": "Damage Syphon , Stun Protection",
         "Obtained": "Item synthesis ."
       },
-      "instructions": "Strength: +9; Resistance: Dark: 20%; Ability: Damage Syphon , Stun Protection"
+      "instructions": "Strength: +9; Resistance: Dark: 20%; Ability: Damage Syphon , Stun Protection Linked acquisition records: Synthesis recipe: Save the King+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.save-the-king-plus"
+      ]
     },
     {
       "id": "kh3.equipment.shield-belt",
@@ -35302,7 +35405,9 @@
       "summary": "Chest at the Overlook ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop",
       "sources": [
         "https://www.khwiki.com/Shield_Belt",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35318,13 +35423,17 @@
         "Sell": "50",
         "Obtained": "Chest at the Overlook ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 200; Sell: 50 Moogle Shop: 200 munny. Available from the starting shop tier.",
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 200; Sell: 50 Moogle Shop: 200 munny. Available from the starting shop tier. Linked acquisition records: Olympus / Overlook: Chest 20 — Shield Belt. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 200,
         "tier": 1,
         "unlock": "Available from the starting shop tier.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.020"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.defense-belt",
@@ -35333,7 +35442,9 @@
       "summary": "Chest at the Campsite ; Moogle Shop",
       "sources": [
         "https://www.khwiki.com/Defense_Belt",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35349,13 +35460,17 @@
         "Sell": "150",
         "Obtained": "Chest at the Campsite ; Moogle Shop"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 600; Sell: 150 Moogle Shop: 600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 600; Sell: 150 Moogle Shop: 600 munny. After clearing both Toy Box and Kingdom of Corona. Linked acquisition records: Kingdom of Corona / Wetlands: Chest 15 — Defense Belt. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 600,
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.015"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.guardian-s-belt",
@@ -35364,7 +35479,9 @@
       "summary": "Chest at the Gorge ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop",
       "sources": [
         "https://www.khwiki.com/Guardian's_Belt",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35380,13 +35497,17 @@
         "Sell": "250",
         "Obtained": "Chest at the Gorge ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop"
       },
-      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. After clearing both Monstropolis and Arendelle.",
+      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. After clearing both Monstropolis and Arendelle. Linked acquisition records: Arendelle / Gorge: Chest 05 — Guardian's Belt. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1000,
         "tier": 5,
         "unlock": "After clearing both Monstropolis and Arendelle.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.005"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.power-band",
@@ -35425,7 +35546,10 @@
       "name": "Buster Band",
       "summary": "Chest at the South District ; defeat Heartless on deck of a Normal Ship (Large) (3%) Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Buster_Band+"
+        "https://www.khwiki.com/Buster_Band+",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35441,7 +35565,13 @@
         "Sell": "450",
         "Obtained": "Chest at the South District ; defeat Heartless on deck of a Normal Ship (Large) (3%) Item Synthesis."
       },
-      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: —; Sell: 450"
+      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: —; Sell: 450 Linked acquisition records: San Fransokyo / South District: Chest 27 — Buster Band; Synthesis recipe: Buster Band. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.027"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.buster-band"
+      ]
     },
     {
       "id": "kh3.equipment.buster-band-plus",
@@ -35449,7 +35579,9 @@
       "name": "Buster Band+",
       "summary": "Photograph 35 Lucky Emblems ; Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Buster_Band+"
+        "https://www.khwiki.com/Buster_Band+",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35465,7 +35597,13 @@
         "Sell": "700",
         "Obtained": "Photograph 35 Lucky Emblems ; Item Synthesis."
       },
-      "instructions": "Defense: +5; Fire: +10%; Blizzard: +10%; Thunder: +10%; Water: +10%; Aero: +10%; Dark: +0%; Buy: —; Sell: 700"
+      "instructions": "Defense: +5; Fire: +10%; Blizzard: +10%; Thunder: +10%; Water: +10%; Aero: +10%; Dark: +0%; Buy: —; Sell: 700 Linked acquisition records: 35 Lucky Emblems; Synthesis recipe: Buster Band+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.35-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.buster-band-plus"
+      ]
     },
     {
       "id": "kh3.equipment.cosmic-belt",
@@ -35473,7 +35611,9 @@
       "name": "Cosmic Belt",
       "summary": "Chest at The Badlands ; Ghost Ship fleet (20%).",
       "sources": [
-        "https://www.khwiki.com/Cosmic_Belt+"
+        "https://www.khwiki.com/Cosmic_Belt+",
+        "https://www.khwiki.com/Game:Keyblade_Graveyard",
+        "https://www.powerpyx.com/kingdom-hearts-3-keyblade-graveyard-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35489,7 +35629,11 @@
         "Sell": "550",
         "Obtained": "Chest at The Badlands ; Ghost Ship fleet (20%)."
       },
-      "instructions": "Defense: +6; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: —; Sell: 550"
+      "instructions": "Defense: +6; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: —; Sell: 550 Linked acquisition records: Keyblade Graveyard / The Badlands: Chest 02 — Cosmic Belt. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.keyblade-graveyard.chest.002"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.cosmic-belt-plus",
@@ -35497,7 +35641,10 @@
       "name": "Cosmic Belt+",
       "summary": "Photograph 65 Lucky Emblems ; clear Battlegate 2 .",
       "sources": [
-        "https://www.khwiki.com/Cosmic_Belt+"
+        "https://www.khwiki.com/Cosmic_Belt+",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35511,7 +35658,12 @@
         "Dark": "+10%",
         "Obtained": "Photograph 65 Lucky Emblems ; clear Battlegate 2 ."
       },
-      "instructions": "Defense: +6; Fire: +10%; Blizzard: +10%; Thunder: +10%; Water: +10%; Aero: +10%; Dark: +10%"
+      "instructions": "Defense: +6; Fire: +10%; Blizzard: +10%; Thunder: +10%; Water: +10%; Aero: +10%; Dark: +10% Linked acquisition records: Battlegate 02 (Olympus); 65 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.battlegates.battlegate-02",
+        "kh3.rewards.65-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.fire-bangle",
@@ -35520,7 +35672,10 @@
       "summary": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Fire_Bangle",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35537,13 +35692,19 @@
         "Sell": "250",
         "Obtained": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop. Linked acquisition records: Toy Box / Babies & Toddlers: Dolls: Chest 17 — Fire Bangle; Synthesis recipe: Fire Bangle. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1000,
         "tier": "MOG",
         "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.017"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.fire-bangle"
+      ]
     },
     {
       "id": "kh3.equipment.fira-bangle",
@@ -35551,7 +35712,10 @@
       "name": "Fira Bangle",
       "summary": "Chest at the Accessway ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Fira_Bangle"
+        "https://www.khwiki.com/Fira_Bangle",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35568,7 +35732,13 @@
         "Sell": "350",
         "Obtained": "Chest at the Accessway ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +3; Fire: +25%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 350"
+      "instructions": "Defense: +3; Fire: +25%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 350 Linked acquisition records: Monstropolis / Accessway: Chest 16 — Fira Bangle; Synthesis recipe: Fira Bangle. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.016"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.fira-bangle"
+      ]
     },
     {
       "id": "kh3.equipment.firaga-bangle",
@@ -35576,7 +35746,10 @@
       "name": "Firaga Bangle",
       "summary": "Chest at Isla Verdemontaña ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Firaga_Bangle"
+        "https://www.khwiki.com/Firaga_Bangle",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35593,7 +35766,13 @@
         "Sell": "500",
         "Obtained": "Chest at Isla Verdemontaña ; Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +30%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 500"
+      "instructions": "Defense: +4; Fire: +30%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 500 Linked acquisition records: The Caribbean / Horseshoe Island: Chest 42 — Firaga Bangle; Synthesis recipe: Firaga Bangle. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.042"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.firaga-bangle"
+      ]
     },
     {
       "id": "kh3.equipment.firaza-bangle",
@@ -35601,7 +35780,8 @@
       "name": "Firaza Bangle",
       "summary": "Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Firaza_Bangle"
+        "https://www.khwiki.com/Firaza_Bangle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35618,7 +35798,11 @@
         "Sell": "600",
         "Obtained": "Item synthesis"
       },
-      "instructions": "Defense: +5; Fire: +35%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 600"
+      "instructions": "Defense: +5; Fire: +35%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: —; Sell: 600 Linked acquisition records: Synthesis recipe: Firaza Bangle. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.firaza-bangle"
+      ]
     },
     {
       "id": "kh3.equipment.fire-chain",
@@ -35626,7 +35810,8 @@
       "name": "Fire Chain",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Fire_Chain"
+        "https://www.khwiki.com/Fire_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35643,7 +35828,11 @@
         "Sell": "300",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Defense: +1; Fire: +50%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +50%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Fire Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.fire-chain"
+      ]
     },
     {
       "id": "kh3.equipment.blizzard-choker",
@@ -35652,7 +35841,10 @@
       "summary": "Chest at the Treescape ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis.",
       "sources": [
         "https://www.khwiki.com/Blizzard_Choker",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35669,13 +35861,19 @@
         "Sell": "250",
         "Obtained": "Chest at the Treescape ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis."
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop. Linked acquisition records: Arendelle / Treescape: Chest 02 — Blizzard Choker; Synthesis recipe: Blizzard Choker. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1000,
         "tier": "MOG",
         "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.002"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.blizzard-choker"
+      ]
     },
     {
       "id": "kh3.equipment.blizzara-choker",
@@ -35683,7 +35881,11 @@
       "name": "Blizzara Choker",
       "summary": "Chest at the Valley of Ice ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Blizzara_Choker"
+        "https://www.khwiki.com/Blizzara_Choker",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35700,7 +35902,13 @@
         "Sell": "350",
         "Obtained": "Chest at the Valley of Ice ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis."
       },
-      "instructions": "Defense: +3; Fire: +0%; Blizzard: +25%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 350"
+      "instructions": "Defense: +3; Fire: +0%; Blizzard: +25%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 350 Linked acquisition records: Arendelle / Valley of Ice: Chest 19 — Blizzara Choker; Synthesis recipe: Blizzara Choker. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.019"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.blizzara-choker"
+      ]
     },
     {
       "id": "kh3.equipment.blizzaga-choker",
@@ -35708,7 +35916,10 @@
       "name": "Blizzaga Choker",
       "summary": "Chest at Horseshoe Island ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Blizzaga_Choker"
+        "https://www.khwiki.com/Blizzaga_Choker",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35725,7 +35936,13 @@
         "Sell": "500",
         "Obtained": "Chest at Horseshoe Island ; Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +30%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 500"
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +30%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 500 Linked acquisition records: The Caribbean / Horseshoe Island: Chest 43 — Blizzaga Choker; Synthesis recipe: Blizzaga Choker. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.043"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.blizzaga-choker"
+      ]
     },
     {
       "id": "kh3.equipment.blizzaza-choker",
@@ -35733,7 +35950,8 @@
       "name": "Blizzaza Choker",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Blizzaza_Choker"
+        "https://www.khwiki.com/Blizzaza_Choker",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35750,7 +35968,11 @@
         "Sell": "600",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Defense: +5; Fire: +0%; Blizzard: +35%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 600"
+      "instructions": "Defense: +5; Fire: +0%; Blizzard: +35%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: —; Sell: 600 Linked acquisition records: Synthesis recipe: Blizzaza Choker. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.blizzaza-choker"
+      ]
     },
     {
       "id": "kh3.equipment.blizzard-chain",
@@ -35758,7 +35980,8 @@
       "name": "Blizzard Chain",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Blizzard_Chain"
+        "https://www.khwiki.com/Blizzard_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35775,7 +35998,11 @@
         "Sell": "300",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +50%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +50%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Blizzard Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.blizzard-chain"
+      ]
     },
     {
       "id": "kh3.equipment.thunder-trinket",
@@ -35784,7 +36011,10 @@
       "summary": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Thunder_Trinket",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35801,13 +36031,19 @@
         "Sell": "250",
         "Obtained": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop. Linked acquisition records: Toy Box / Kid Korral: Chest 25 — Thunder Trinket; Synthesis recipe: Thunder Trinket. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1000,
         "tier": "MOG",
         "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.025"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.thunder-trinket"
+      ]
     },
     {
       "id": "kh3.equipment.thundara-trinket",
@@ -35815,7 +36051,9 @@
       "name": "Thundara Trinket",
       "summary": "Photograph 10 Lucky Emblems; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Thundara_Trinket"
+        "https://www.khwiki.com/Thundara_Trinket",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35832,7 +36070,13 @@
         "Sell": "350",
         "Obtained": "Photograph 10 Lucky Emblems; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +25%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 350"
+      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +25%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 350 Linked acquisition records: 10 Lucky Emblems; Synthesis recipe: Thundara Trinket. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.10-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.thundara-trinket"
+      ]
     },
     {
       "id": "kh3.equipment.thundaga-trinket",
@@ -35840,7 +36084,10 @@
       "name": "Thundaga Trinket",
       "summary": "Chest at the South District ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Thundaga_Trinket"
+        "https://www.khwiki.com/Thundaga_Trinket",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35857,7 +36104,13 @@
         "Sell": "500",
         "Obtained": "Chest at the South District ; Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +30%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 500"
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +30%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 500 Linked acquisition records: San Fransokyo / South District: Chest 12 — Thundaga Trinket; Synthesis recipe: Thundaga Trinket. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.012"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.thundaga-trinket"
+      ]
     },
     {
       "id": "kh3.equipment.thundaza-trinket",
@@ -35865,7 +36118,8 @@
       "name": "Thundaza Trinket",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Thundaza_Trinket"
+        "https://www.khwiki.com/Thundaza_Trinket",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35882,7 +36136,11 @@
         "Sell": "600",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +35%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 600"
+      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +35%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: —; Sell: 600 Linked acquisition records: Synthesis recipe: Thundaza Trinket. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.thundaza-trinket"
+      ]
     },
     {
       "id": "kh3.equipment.thunder-chain",
@@ -35890,7 +36148,8 @@
       "name": "Thunder Chain",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Thunder_Chain"
+        "https://www.khwiki.com/Thunder_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35907,7 +36166,11 @@
         "Sell": "300",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +50%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +50%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Thunder Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.thunder-chain"
+      ]
     },
     {
       "id": "kh3.equipment.shadow-anklet",
@@ -35915,7 +36178,10 @@
       "name": "Shadow Anklet",
       "summary": "Chest at the Marsh ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Shadow_Anklet"
+        "https://www.khwiki.com/Shadow_Anklet",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35932,7 +36198,13 @@
         "Sell": "250",
         "Obtained": "Chest at the Marsh ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis."
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +20%; Ability: Dark Syphon; Buy: —; Sell: 250"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +20%; Ability: Dark Syphon; Buy: —; Sell: 250 Linked acquisition records: Kingdom of Corona / Marsh: Chest 12 — Shadow Anklet; Synthesis recipe: Shadow Anklet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.012"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.shadow-anklet"
+      ]
     },
     {
       "id": "kh3.equipment.dark-anklet",
@@ -35940,7 +36212,10 @@
       "name": "Dark Anklet",
       "summary": "Chest at the Lower Tier ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Dark_Anklet"
+        "https://www.khwiki.com/Dark_Anklet",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35957,7 +36232,13 @@
         "Sell": "350",
         "Obtained": "Chest at the Lower Tier ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis."
       },
-      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +25%; Ability: Dark Syphon; Buy: —; Sell: 350"
+      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +25%; Ability: Dark Syphon; Buy: —; Sell: 350 Linked acquisition records: Arendelle / Upper Tier: Chest 11 — Dark Anklet; Synthesis recipe: Dark Anklet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.011"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.dark-anklet"
+      ]
     },
     {
       "id": "kh3.equipment.midnight-anklet",
@@ -35965,7 +36246,11 @@
       "name": "Midnight Anklet",
       "summary": "Chest at the Central District ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Midnight_Anklet"
+        "https://www.khwiki.com/Midnight_Anklet",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35982,7 +36267,13 @@
         "Sell": "500",
         "Obtained": "Chest at the Central District ; Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +30%; Ability: Dark Syphon; Buy: —; Sell: 500"
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +30%; Ability: Dark Syphon; Buy: —; Sell: 500 Linked acquisition records: San Fransokyo / Central District: Chest 30 — Midnight Anklet; Synthesis recipe: Midnight Anklet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.030"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.midnight-anklet"
+      ]
     },
     {
       "id": "kh3.equipment.chaos-anklet",
@@ -35990,7 +36281,10 @@
       "name": "Chaos Anklet",
       "summary": "Chest at Isla Verdemontaña ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Chaos_Anklet"
+        "https://www.khwiki.com/Chaos_Anklet",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36007,7 +36301,13 @@
         "Sell": "600",
         "Obtained": "Chest at Isla Verdemontaña ; Item Synthesis"
       },
-      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +35%; Ability: Dark Syphon; Buy: —; Sell: 600"
+      "instructions": "Defense: +5; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +35%; Ability: Dark Syphon; Buy: —; Sell: 600 Linked acquisition records: The Caribbean / Horseshoe Island: Chest 44 — Chaos Anklet; Synthesis recipe: Chaos Anklet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.044"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.chaos-anklet"
+      ]
     },
     {
       "id": "kh3.equipment.dark-chain",
@@ -36015,7 +36315,8 @@
       "name": "Dark Chain",
       "summary": "Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Dark_Chain"
+        "https://www.khwiki.com/Dark_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36032,7 +36333,11 @@
         "Sell": "300",
         "Obtained": "Item synthesis"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +50%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +50%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Dark Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.dark-chain"
+      ]
     },
     {
       "id": "kh3.equipment.elven-bandanna",
@@ -36041,7 +36346,10 @@
       "summary": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Elven_Bandanna",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36058,7 +36366,7 @@
         "Sell": "250",
         "Obtained": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: 1000; Sell: 250 Source alias: Bandana. Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: 1000; Sell: 250 Source alias: Bandana. Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop. Linked acquisition records: Kingdom of Corona / Hills: Chest 02 — Elven Bandanna; Synthesis recipe: Elven Bandanna. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "aliases": [
         "Bandana"
       ],
@@ -36067,7 +36375,13 @@
         "tier": "MOG",
         "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.002"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.elven-bandanna"
+      ]
     },
     {
       "id": "kh3.equipment.divine-bandanna",
@@ -36075,7 +36389,10 @@
       "name": "Divine Bandanna",
       "summary": "Chest at the Central District ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Divine_Bandanna"
+        "https://www.khwiki.com/Divine_Bandanna",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36092,9 +36409,15 @@
         "Sell": "500",
         "Obtained": "Chest at the Central District ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +30%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: —; Sell: 500 Source alias: Bandana.",
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +30%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: —; Sell: 500 Source alias: Bandana. Linked acquisition records: San Fransokyo / Central District: Chest 23 — Divine Bandanna; Synthesis recipe: Divine Bandanna. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "aliases": [
         "Bandana"
+      ],
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.023"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.divine-bandanna"
       ]
     },
     {
@@ -36103,7 +36426,8 @@
       "name": "Aqua Chaplet",
       "summary": "Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Aqua_Chaplet"
+        "https://www.khwiki.com/Aqua_Chaplet",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36120,7 +36444,11 @@
         "Sell": "300",
         "Obtained": "Item synthesis"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +50%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +50%; Aero: +0%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Aqua Chaplet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.aqua-chaplet"
+      ]
     },
     {
       "id": "kh3.equipment.wind-fan",
@@ -36129,7 +36457,10 @@
       "summary": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Wind_Fan",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36146,13 +36477,19 @@
         "Sell": "250",
         "Obtained": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +0%; Ability: Aero Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +0%; Ability: Aero Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop. Linked acquisition records: Kingdom of Corona / Hills: Chest 03 — Wind Fan; Synthesis recipe: Wind Fan. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1000,
         "tier": "MOG",
         "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.003"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.wind-fan"
+      ]
     },
     {
       "id": "kh3.equipment.storm-fan",
@@ -36160,7 +36497,10 @@
       "name": "Storm Fan",
       "summary": "Chest at the North District ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Storm_Fan"
+        "https://www.khwiki.com/Storm_Fan",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36177,7 +36517,13 @@
         "Sell": "500",
         "Obtained": "Chest at the North District ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: 30%; Dark: +0%; Ability: Aero Syphon; Buy: —; Sell: 500"
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: 30%; Dark: +0%; Ability: Aero Syphon; Buy: —; Sell: 500 Linked acquisition records: San Fransokyo / North District: Chest 14 — Storm Fan; Synthesis recipe: Storm Fan. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.014"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.storm-fan"
+      ]
     },
     {
       "id": "kh3.equipment.aero-armlet",
@@ -36185,7 +36531,8 @@
       "name": "Aero Armlet",
       "summary": "Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Aero_Armlet"
+        "https://www.khwiki.com/Aero_Armlet",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36202,7 +36549,11 @@
         "Sell": "300",
         "Obtained": "Item synthesis"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +50%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +50%; Dark: +0%; Ability: Damage Syphon; Buy: —; Sell: 300 Linked acquisition records: Synthesis recipe: Aero Armlet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.aero-armlet"
+      ]
     },
     {
       "id": "kh3.equipment.abas-chain",
@@ -36211,7 +36562,9 @@
       "summary": "Chest at Babies & Toddlers: Outdoors",
       "sources": [
         "https://www.khwiki.com/Abas_Chain",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36227,13 +36580,17 @@
         "Sell": "400",
         "Obtained": "Chest at Babies & Toddlers: Outdoors"
       },
-      "instructions": "Defense: +1; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 1600; Sell: 400 Moogle Shop: 1,600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Defense: +1; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 1600; Sell: 400 Moogle Shop: 1,600 munny. After clearing both Toy Box and Kingdom of Corona. Linked acquisition records: Toy Box / Babies & Toddlers: Outdoors: Chest 19 — Abas Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1600,
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.019"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.aegis-chain",
@@ -36242,7 +36599,10 @@
       "summary": "Chest at the Central District",
       "sources": [
         "https://www.khwiki.com/Aegis_Chain",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36258,13 +36618,17 @@
         "Sell": "500",
         "Obtained": "Chest at the Central District"
       },
-      "instructions": "Defense: +2; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 2000; Sell: 500 Moogle Shop: 2,000 munny. After clearing both Monstropolis and Arendelle.",
+      "instructions": "Defense: +2; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 2000; Sell: 500 Moogle Shop: 2,000 munny. After clearing both Monstropolis and Arendelle. Linked acquisition records: San Fransokyo / Central District: Chest 01 — Aegis Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 2000,
         "tier": 5,
         "unlock": "After clearing both Monstropolis and Arendelle.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.001"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.acrisius",
@@ -36272,7 +36636,10 @@
       "name": "Acrisius",
       "summary": "Chest at Horseshoe Island ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Acrisius+"
+        "https://www.khwiki.com/Acrisius+",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36288,7 +36655,13 @@
         "Sell": "750",
         "Obtained": "Chest at Horseshoe Island ; Item synthesis"
       },
-      "instructions": "Defense: +3; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 750"
+      "instructions": "Defense: +3; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 750 Linked acquisition records: The Caribbean / Horseshoe Island: Chest 16 — Acrisius; Synthesis recipe: Acrisius. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.016"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.acrisius"
+      ]
     },
     {
       "id": "kh3.equipment.acrisius-plus",
@@ -36296,7 +36669,8 @@
       "name": "Acrisius+",
       "summary": "Ghost Ship fleet (50%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Acrisius+"
+        "https://www.khwiki.com/Acrisius+",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36312,7 +36686,11 @@
         "Sell": "850",
         "Obtained": "Ghost Ship fleet (50%); Item Synthesis"
       },
-      "instructions": "Defense: +4; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 850"
+      "instructions": "Defense: +4; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 850 Linked acquisition records: Synthesis recipe: Acrisius+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.acrisius-plus"
+      ]
     },
     {
       "id": "kh3.equipment.cosmic-chain",
@@ -36320,7 +36698,8 @@
       "name": "Cosmic Chain",
       "summary": "Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Cosmic_Chain"
+        "https://www.khwiki.com/Cosmic_Chain",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36336,7 +36715,11 @@
         "Sell": "950",
         "Obtained": "Item synthesis"
       },
-      "instructions": "Defense: +5; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 950"
+      "instructions": "Defense: +5; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +0%; Buy: —; Sell: 950 Linked acquisition records: Synthesis recipe: Cosmic Chain. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.cosmic-chain"
+      ]
     },
     {
       "id": "kh3.equipment.petite-ribbon",
@@ -36344,7 +36727,8 @@
       "name": "Petite Ribbon",
       "summary": "Chest at the Main Floor: 2F ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Petite_Ribbon"
+        "https://www.khwiki.com/Petite_Ribbon",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36360,9 +36744,13 @@
         "Sell": "750",
         "Obtained": "Chest at the Main Floor: 2F ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +20%; Buy: —; Sell: 750 Source alias: Petit Ribbon.",
+      "instructions": "Defense: +2; Fire: +20%; Blizzard: +20%; Thunder: +20%; Water: +20%; Aero: +20%; Dark: +20%; Buy: —; Sell: 750 Source alias: Petit Ribbon. Linked acquisition records: Synthesis recipe: Petite Ribbon. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "aliases": [
         "Petit Ribbon"
+      ],
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.petite-ribbon"
       ]
     },
     {
@@ -36371,7 +36759,8 @@
       "name": "Ribbon",
       "summary": "Photograph 30 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Ribbon"
+        "https://www.khwiki.com/Ribbon",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36385,7 +36774,11 @@
         "Dark": "+30%",
         "Obtained": "Photograph 30 Lucky Emblems"
       },
-      "instructions": "Defense: +3; Fire: +30%; Blizzard: +30%; Thunder: +30%; Water: +30%; Aero: +30%; Dark: +30%"
+      "instructions": "Defense: +3; Fire: +30%; Blizzard: +30%; Thunder: +30%; Water: +30%; Aero: +30%; Dark: +30% Linked acquisition records: 30 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.30-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.royal-ribbon",
@@ -36393,7 +36786,8 @@
       "name": "Royal Ribbon",
       "summary": "Find 70 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Royal_Ribbon"
+        "https://www.khwiki.com/Royal_Ribbon",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36407,7 +36801,11 @@
         "Dark": "+40%",
         "Obtained": "Find 70 Lucky Emblems"
       },
-      "instructions": "Defense: +4; Fire: +40%; Blizzard: +40%; Thunder: +40%; Water: +40%; Aero: +40%; Dark: +40%"
+      "instructions": "Defense: +4; Fire: +40%; Blizzard: +40%; Thunder: +40%; Water: +40%; Aero: +40%; Dark: +40% Linked acquisition records: 70 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.70-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.firefighter-rosette",
@@ -36415,7 +36813,10 @@
       "name": "Firefighter Rosette",
       "summary": "Chest at the Accessway ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Firefighter_Rosette"
+        "https://www.khwiki.com/Firefighter_Rosette",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36432,7 +36833,13 @@
         "Sell": "300",
         "Obtained": "Chest at the Accessway ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Burn Protection; Buy: —; Sell: 300"
+      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Burn Protection; Buy: —; Sell: 300 Linked acquisition records: Monstropolis / Accessway: Chest 15 — Firefighter Rosette; Synthesis recipe: Firefighter Rosette. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.015"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.firefighter-rosette"
+      ]
     },
     {
       "id": "kh3.equipment.umbrella-rosette",
@@ -36440,7 +36847,10 @@
       "name": "Umbrella Rosette",
       "summary": "Chest at the Ground Floor ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Umbrella_Rosette"
+        "https://www.khwiki.com/Umbrella_Rosette",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36457,7 +36867,13 @@
         "Sell": "300",
         "Obtained": "Chest at the Ground Floor ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +10%; Ability: Cloud Protection; Buy: —; Sell: 300"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +10%; Ability: Cloud Protection; Buy: —; Sell: 300 Linked acquisition records: Monstropolis / Ground Floor: Chest 12 — Umbrella Rosette; Synthesis recipe: Umbrella Rosette. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.012"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.umbrella-rosette"
+      ]
     },
     {
       "id": "kh3.equipment.mask-rosette",
@@ -36465,7 +36881,10 @@
       "name": "Mask Rosette",
       "summary": "Chest at the Tower ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Mask_Rosette"
+        "https://www.khwiki.com/Mask_Rosette",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36482,7 +36901,13 @@
         "Sell": "300",
         "Obtained": "Chest at the Tower ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +10%; Ability: Sneeze Protection; Buy: —; Sell: 300"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +10%; Ability: Sneeze Protection; Buy: —; Sell: 300 Linked acquisition records: Kingdom of Corona / Tower: Chest 01 — Mask Rosette; Synthesis recipe: Mask Rosette. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.001"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.mask-rosette"
+      ]
     },
     {
       "id": "kh3.equipment.snowman-rosette",
@@ -36490,7 +36915,10 @@
       "name": "Snowman Rosette",
       "summary": "Chest at the Middle Tier ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Snowman_Rosette"
+        "https://www.khwiki.com/Snowman_Rosette",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36507,7 +36935,13 @@
         "Sell": "300",
         "Obtained": "Chest at the Middle Tier ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Freeze Protection; Buy: —; Sell: 300"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Freeze Protection; Buy: —; Sell: 300 Linked acquisition records: Arendelle / Middle Tier: Chest 12 — Snowman Rosette; Synthesis recipe: Snowman Rosette. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.012"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.snowman-rosette"
+      ]
     },
     {
       "id": "kh3.equipment.insulator-rosette",
@@ -36515,7 +36949,10 @@
       "name": "Insulator Rosette",
       "summary": "Chest at the Isla de los Mástiles ; Item synthesis",
       "sources": [
-        "https://www.khwiki.com/Insulator_Rosette"
+        "https://www.khwiki.com/Insulator_Rosette",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -36532,7 +36969,13 @@
         "Sell": "300",
         "Obtained": "Chest at the Isla de los Mástiles ; Item synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Electric Protection; Buy: —; Sell: 300"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +10%; Ability: Electric Protection; Buy: —; Sell: 300 Linked acquisition records: The Caribbean / Isla de los Mástiles: Chest 23 — Insulator Rosette; Synthesis recipe: Insulator Rosette. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.023"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.insulator-rosette"
+      ]
     },
     {
       "id": "kh3.equipment.hero-s-belt",
@@ -36659,7 +37102,10 @@
       "summary": "Moogle Shop",
       "sources": [
         "https://www.khwiki.com/Ability_Ring+",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/olympus"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36671,13 +37117,17 @@
         "Sell": "75",
         "Obtained": "Moogle Shop"
       },
-      "instructions": "Strength: +1; Magic: +0; AP: +10; Buy: 300; Sell: 75 Moogle Shop: 300 munny. Available from the starting shop tier.",
+      "instructions": "Strength: +1; Magic: +0; AP: +10; Buy: 300; Sell: 75 Moogle Shop: 300 munny. Available from the starting shop tier. Linked acquisition records: Olympus / Cliff Ascent: Chest 05 — Ability Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 300,
         "tier": 1,
         "unlock": "Available from the starting shop tier.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.005"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.ability-ring-plus",
@@ -36685,7 +37135,10 @@
       "name": "Ability Ring+",
       "summary": "Chest at the Video Games ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Ability_Ring+"
+        "https://www.khwiki.com/Ability_Ring+",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36697,7 +37150,13 @@
         "Sell": "175",
         "Obtained": "Chest at the Video Games ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +14; Buy: —; Sell: 175"
+      "instructions": "Strength: +1; Magic: +1; AP: +14; Buy: —; Sell: 175 Linked acquisition records: Toy Box / Video Games: Chest 20 — Ability Ring+; Synthesis recipe: Ability Ring+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.020"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.ability-ring-plus"
+      ]
     },
     {
       "id": "kh3.equipment.technician-s-ring",
@@ -36732,7 +37191,11 @@
       "name": "Technician's Ring+",
       "summary": "Chest at Lobby & Offices ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Technician's_Ring+"
+        "https://www.khwiki.com/Technician's_Ring+",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Technician's_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36744,7 +37207,13 @@
         "Sell": "350",
         "Obtained": "Chest at Lobby & Offices ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Strength: +2; Magic: +1; AP: +24; Buy: —; Sell: 350"
+      "instructions": "Strength: +2; Magic: +1; AP: +24; Buy: —; Sell: 350 Linked acquisition records: Monstropolis / Lobby & Offices: Chest 03 — Technician's Ring+; Synthesis recipe: Technician's Ring+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.003"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.technician-s-ring-plus"
+      ]
     },
     {
       "id": "kh3.equipment.skill-ring",
@@ -36779,7 +37248,10 @@
       "name": "Skill Ring+",
       "summary": "Chest at the North District ; defeat Heartless on deck of a Black Ship (Large) (30%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Skill_Ring+"
+        "https://www.khwiki.com/Skill_Ring+",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36791,7 +37263,13 @@
         "Sell": "400",
         "Obtained": "Chest at the North District ; defeat Heartless on deck of a Black Ship (Large) (30%); Item Synthesis"
       },
-      "instructions": "Strength: +2; Magic: +1; AP: +36; Buy: —; Sell: 400"
+      "instructions": "Strength: +2; Magic: +1; AP: +36; Buy: —; Sell: 400 Linked acquisition records: San Fransokyo / South District: Chest 02 — Skill Ring+; Synthesis recipe: Skill Ring+. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.002"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.skill-ring-plus"
+      ]
     },
     {
       "id": "kh3.equipment.expert-s-ring",
@@ -36799,7 +37277,8 @@
       "name": "Expert's Ring",
       "summary": "Photograph 5 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Expert's_Ring"
+        "https://www.khwiki.com/Expert's_Ring",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36809,7 +37288,11 @@
         "AP": "+20",
         "Obtained": "Photograph 5 Lucky Emblems"
       },
-      "instructions": "Strength: +1; Magic: +0; AP: +20"
+      "instructions": "Strength: +1; Magic: +0; AP: +20 Linked acquisition records: 5 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.5-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.master-s-ring",
@@ -36817,7 +37300,9 @@
       "name": "Master's Ring",
       "summary": "Chest at the Huddled Isles .",
       "sources": [
-        "https://www.khwiki.com/Master's_Ring"
+        "https://www.khwiki.com/Master's_Ring",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36827,7 +37312,11 @@
         "AP": "+40",
         "Obtained": "Chest at the Huddled Isles ."
       },
-      "instructions": "Strength: +2; Magic: +0; AP: +40"
+      "instructions": "Strength: +2; Magic: +0; AP: +40 Linked acquisition records: The Caribbean / Huddled Isles: Chest 01 — Master's Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.001"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.cosmic-ring",
@@ -36835,7 +37324,8 @@
       "name": "Cosmic Ring",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Cosmic_Ring"
+        "https://www.khwiki.com/Cosmic_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36847,7 +37337,11 @@
         "Sell": "625",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Strength: +3; Magic: +0; AP: +80; Buy: —; Sell: 625"
+      "instructions": "Strength: +3; Magic: +0; AP: +80; Buy: —; Sell: 625 Linked acquisition records: Synthesis recipe: Cosmic Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.cosmic-ring"
+      ]
     },
     {
       "id": "kh3.equipment.power-ring",
@@ -36856,7 +37350,9 @@
       "summary": "Chest at Ravine ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
         "https://www.khwiki.com/Power_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36868,13 +37364,17 @@
         "Sell": "125",
         "Obtained": "Chest at Ravine ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +2; Magic: +0; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus.",
+      "instructions": "Strength: +2; Magic: +0; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus. Linked acquisition records: Olympus / Ravine: Chest 01 — Power Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 500,
         "tier": 2,
         "unlock": "After clearing Olympus.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.001"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.buster-ring",
@@ -36883,7 +37383,9 @@
       "summary": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
         "https://www.khwiki.com/Buster_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36896,13 +37398,17 @@
         "Sell": "225",
         "Obtained": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +3; Magic: +0; AP: +4; Ability: Cure Converter; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Strength: +3; Magic: +0; AP: +4; Ability: Cure Converter; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona. Linked acquisition records: Toy Box / Kid Korral: Chest 23 — Buster Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 900,
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.023"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.valor-ring",
@@ -36911,7 +37417,9 @@
       "summary": "Chest at the Second Floor ; defeat Heartless on deck of a Normal Ship (Large) (3%)",
       "sources": [
         "https://www.khwiki.com/Valor_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36924,13 +37432,17 @@
         "Sell": "350",
         "Obtained": "Chest at the Second Floor ; defeat Heartless on deck of a Normal Ship (Large) (3%)"
       },
-      "instructions": "Strength: +4; Magic: +0; AP: +6; Ability: Cure Converter; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle.",
+      "instructions": "Strength: +4; Magic: +0; AP: +6; Ability: Cure Converter; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle. Linked acquisition records: Monstropolis / Second Floor: Chest 14 — Valor Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1400,
         "tier": 5,
         "unlock": "After clearing both Monstropolis and Arendelle.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.014"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.phantom-ring",
@@ -36939,7 +37451,10 @@
       "summary": "Chest at South District ; Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Phantom_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36952,13 +37467,19 @@
         "Sell": "450",
         "Obtained": "Chest at South District ; Item Synthesis"
       },
-      "instructions": "Strength: +5; Magic: +0; AP: +8; Ability: Cure Converter; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "instructions": "Strength: +5; Magic: +0; AP: +8; Ability: Cure Converter; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard. Linked acquisition records: San Fransokyo / South District: Chest 07 — Phantom Ring; Synthesis recipe: Phantom Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1800,
         "tier": 6,
         "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.007"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.phantom-ring"
+      ]
     },
     {
       "id": "kh3.equipment.orichalcum-ring",
@@ -36966,7 +37487,9 @@
       "name": "Orichalcum Ring",
       "summary": "Item Synthesis; Photograph 60 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Orichalcum_Ring"
+        "https://www.khwiki.com/Orichalcum_Ring",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36979,7 +37502,13 @@
         "Sell": "575",
         "Obtained": "Item Synthesis; Photograph 60 Lucky Emblems"
       },
-      "instructions": "Strength: +6; Magic: +0; AP: +10; Ability: Cure Converter; Buy: —; Sell: 575"
+      "instructions": "Strength: +6; Magic: +0; AP: +10; Ability: Cure Converter; Buy: —; Sell: 575 Linked acquisition records: 60 Lucky Emblems; Synthesis recipe: Orichalcum Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.60-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.orichalcum-ring"
+      ]
     },
     {
       "id": "kh3.equipment.magic-ring",
@@ -36988,7 +37517,10 @@
       "summary": "Chest at the Gardens ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
         "https://www.khwiki.com/Magic_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/olympus"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37000,13 +37532,17 @@
         "Sell": "125",
         "Obtained": "Chest at the Gardens ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +0; Magic: +2; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus.",
+      "instructions": "Strength: +0; Magic: +2; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus. Linked acquisition records: Olympus / Gardens: Chest 18 — Magic Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 500,
         "tier": 2,
         "unlock": "After clearing Olympus.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.018"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.rune-ring",
@@ -37015,7 +37551,9 @@
       "summary": "Chest at the Wharf ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
         "https://www.khwiki.com/Rune_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37028,13 +37566,17 @@
         "Sell": "225",
         "Obtained": "Chest at the Wharf ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +0; Magic: +3; AP: +4; Ability: Extra Cast; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Strength: +0; Magic: +3; AP: +4; Ability: Extra Cast; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona. Linked acquisition records: Kingdom of Corona / Wharf: Chest 27 — Rune Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 900,
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.027"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.force-ring",
@@ -37043,7 +37585,10 @@
       "summary": "Chest at the Snowfield ; defeat Heartless on deck of a Normal Ship (Large) (3%)",
       "sources": [
         "https://www.khwiki.com/Force_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37056,13 +37601,17 @@
         "Sell": "350",
         "Obtained": "Chest at the Snowfield ; defeat Heartless on deck of a Normal Ship (Large) (3%)"
       },
-      "instructions": "Strength: +0; Magic: +4; AP: +6; Ability: Full MP Blast; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle.",
+      "instructions": "Strength: +0; Magic: +4; AP: +6; Ability: Full MP Blast; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle. Linked acquisition records: Arendelle / Snowfield: Chest 06 — Force Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1400,
         "tier": 5,
         "unlock": "After clearing both Monstropolis and Arendelle.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.006"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.sorcerer-s-ring",
@@ -37071,7 +37620,10 @@
       "summary": "Chest at Seaport ; Item Synthesis",
       "sources": [
         "https://www.khwiki.com/Sorcerer's_Ring",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37084,13 +37636,19 @@
         "Sell": "450",
         "Obtained": "Chest at Seaport ; Item Synthesis"
       },
-      "instructions": "Strength: +0; Magic: +5; AP: +8; Ability: MP Haste; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "instructions": "Strength: +0; Magic: +5; AP: +8; Ability: MP Haste; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard. Linked acquisition records: The Caribbean / Seaport: Chest 48 — Sorcerer's Ring; Synthesis recipe: Sorcerer's Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
       "shopStock": {
         "priceMunny": 1800,
         "tier": 6,
         "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.048"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.sorcerer-s-ring"
+      ]
     },
     {
       "id": "kh3.equipment.wisdom-ring",
@@ -37098,7 +37656,9 @@
       "name": "Wisdom Ring",
       "summary": "Item Synthesis; Photograph 50 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Wisdom_Ring"
+        "https://www.khwiki.com/Wisdom_Ring",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37111,7 +37671,13 @@
         "Sell": "475",
         "Obtained": "Item Synthesis; Photograph 50 Lucky Emblems"
       },
-      "instructions": "Strength: +0; Magic: +5; AP: +10; Ability: Wizard's Ruse; Buy: —; Sell: 475"
+      "instructions": "Strength: +0; Magic: +5; AP: +10; Ability: Wizard's Ruse; Buy: —; Sell: 475 Linked acquisition records: 50 Lucky Emblems; Synthesis recipe: Wisdom Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.50-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.wisdom-ring"
+      ]
     },
     {
       "id": "kh3.equipment.soldier-s-earring",
@@ -37119,7 +37685,10 @@
       "name": "Soldier's Earring",
       "summary": "Chest at Action Figures ; item synthesis; default in Critical Mode .",
       "sources": [
-        "https://www.khwiki.com/Soldier's_Earring"
+        "https://www.khwiki.com/Soldier's_Earring",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37132,7 +37701,13 @@
         "Sell": "250",
         "Obtained": "Chest at Action Figures ; item synthesis; default in Critical Mode ."
       },
-      "instructions": "Strength: +3; Magic: +1; AP: +6; Ability: Defender; Buy: —; Sell: 250"
+      "instructions": "Strength: +3; Magic: +1; AP: +6; Ability: Defender; Buy: —; Sell: 250 Linked acquisition records: Toy Box / Action Figures: Chest 10 — Soldier's Earring; Synthesis recipe: Soldier's Earring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.010"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.soldier-s-earring"
+      ]
     },
     {
       "id": "kh3.equipment.fencer-s-earring",
@@ -37140,7 +37715,10 @@
       "name": "Fencer's Earring",
       "summary": "Chest at the Upper Level ; item synthesis.",
       "sources": [
-        "https://www.khwiki.com/Fencer's_Earring"
+        "https://www.khwiki.com/Fencer's_Earring",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37153,7 +37731,13 @@
         "Sell": "550",
         "Obtained": "Chest at the Upper Level ; item synthesis."
       },
-      "instructions": "Strength: +4; Magic: +2; AP: +8; Ability: Defender; Buy: —; Sell: 550"
+      "instructions": "Strength: +4; Magic: +2; AP: +8; Ability: Defender; Buy: —; Sell: 550 Linked acquisition records: Monstropolis / Upper Level: Chest 05 — Fencer's Earring; Synthesis recipe: Fencer's Earring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.005"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.fencer-s-earring"
+      ]
     },
     {
       "id": "kh3.equipment.mage-s-earring",
@@ -37161,7 +37745,10 @@
       "name": "Mage's Earring",
       "summary": "Chest at the Wetlands ; item synthesis.",
       "sources": [
-        "https://www.khwiki.com/Mage's_Earring"
+        "https://www.khwiki.com/Mage's_Earring",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37174,7 +37761,13 @@
         "Sell": "250",
         "Obtained": "Chest at the Wetlands ; item synthesis."
       },
-      "instructions": "Strength: +1; Magic: +3; AP: +6; Ability: Magic Treasure Magnet; Buy: —; Sell: 250"
+      "instructions": "Strength: +1; Magic: +3; AP: +6; Ability: Magic Treasure Magnet; Buy: —; Sell: 250 Linked acquisition records: Kingdom of Corona / Wetlands: Chest 13 — Mage's Earring; Synthesis recipe: Mage's Earring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.013"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.mage-s-earring"
+      ]
     },
     {
       "id": "kh3.equipment.slayer-s-earring",
@@ -37182,7 +37775,11 @@
       "name": "Slayer's Earring",
       "summary": "Chest at the Foothills ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Slayer's_Earring"
+        "https://www.khwiki.com/Slayer's_Earring",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37195,7 +37792,13 @@
         "Sell": "550",
         "Obtained": "Chest at the Foothills ; Item Synthesis"
       },
-      "instructions": "Strength: +2; Magic: +4; AP: +8; Ability: Magic Treasure Magnet; Buy: —; Sell: 550"
+      "instructions": "Strength: +2; Magic: +4; AP: +8; Ability: Magic Treasure Magnet; Buy: —; Sell: 550 Linked acquisition records: Arendelle / Foothills: Chest 24 — Slayer's Earring; Synthesis recipe: Slayer's Earring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.024"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.slayer-s-earring"
+      ]
     },
     {
       "id": "kh3.equipment.bronze-amulet",
@@ -37203,7 +37806,9 @@
       "name": "Bronze Amulet",
       "summary": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Bronze_Amulet"
+        "https://www.khwiki.com/Bronze_Amulet",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37216,7 +37821,11 @@
         "Sell": "150",
         "Obtained": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: HP Converter; Buy: —; Sell: 150"
+      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: HP Converter; Buy: —; Sell: 150 Linked acquisition records: Kingdom of Corona / Hills: Chest 04 — Bronze Amulet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.004"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.silver-amulet",
@@ -37224,7 +37833,10 @@
       "name": "Silver Amulet",
       "summary": "Chest at the Frozen Wall ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Silver_Amulet"
+        "https://www.khwiki.com/Silver_Amulet",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37237,7 +37849,11 @@
         "Sell": "150",
         "Obtained": "Chest at the Frozen Wall ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: MP Converter; Buy: —; Sell: 150"
+      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: MP Converter; Buy: —; Sell: 150 Linked acquisition records: Arendelle / Frozen Wall: Chest 22 — Silver Amulet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.022"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.gold-amulet",
@@ -37245,7 +37861,9 @@
       "name": "Gold Amulet",
       "summary": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Gold_Amulet"
+        "https://www.khwiki.com/Gold_Amulet",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37258,7 +37876,11 @@
         "Sell": "150",
         "Obtained": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: Munny Converter; Buy: —; Sell: 150"
+      "instructions": "Strength: +1; Magic: +1; AP: +7; Ability: Munny Converter; Buy: —; Sell: 150 Linked acquisition records: Toy Box / Babies & Toddlers: Dolls: Chest 14 — Gold Amulet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.014"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.moon-amulet",
@@ -37266,7 +37888,9 @@
       "name": "Moon Amulet",
       "summary": "Photograph 15 Lucky Emblems ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Moon_Amulet"
+        "https://www.khwiki.com/Moon_Amulet",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37279,7 +37903,13 @@
         "Sell": "350",
         "Obtained": "Photograph 15 Lucky Emblems ; Item Synthesis"
       },
-      "instructions": "Strength: +2; Magic: +2; AP: +8; Ability: Damage Syphon; Buy: —; Sell: 350"
+      "instructions": "Strength: +2; Magic: +2; AP: +8; Ability: Damage Syphon; Buy: —; Sell: 350 Linked acquisition records: 15 Lucky Emblems; Synthesis recipe: Moon Amulet. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.15-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.moon-amulet"
+      ]
     },
     {
       "id": "kh3.equipment.star-charm",
@@ -37287,7 +37917,11 @@
       "name": "Star Charm",
       "summary": "Chest at Central District ; photograph 25 Lucky Emblems ; item synthesis.",
       "sources": [
-        "https://www.khwiki.com/Star_Charm"
+        "https://www.khwiki.com/Star_Charm",
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://www.powerpyx.com/kingdom-hearts-3-san-fransokyo-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Lucky_Emblem",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37300,7 +37934,14 @@
         "Sell": "575",
         "Obtained": "Chest at Central District ; photograph 25 Lucky Emblems ; item synthesis."
       },
-      "instructions": "Strength: +3; Magic: +3; AP: +10; Ability: Damage Syphon; Buy: —; Sell: 575"
+      "instructions": "Strength: +3; Magic: +3; AP: +10; Ability: Damage Syphon; Buy: —; Sell: 575 Linked acquisition records: San Fransokyo / Central District: Chest 25 — Star Charm; 25 Lucky Emblems; Synthesis recipe: Star Charm. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.san-fransokyo.chest.025",
+        "kh3.rewards.25-lucky-emblems"
+      ],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.star-charm"
+      ]
     },
     {
       "id": "kh3.equipment.cosmic-arts",
@@ -37308,7 +37949,9 @@
       "name": "Cosmic Arts",
       "summary": "Chest at Ship's End ; defeat Heartless on deck of a Black Ship (Large) (20%)",
       "sources": [
-        "https://www.khwiki.com/Cosmic_Arts"
+        "https://www.khwiki.com/Cosmic_Arts",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37321,7 +37964,11 @@
         "Sell": "775",
         "Obtained": "Chest at Ship's End ; defeat Heartless on deck of a Black Ship (Large) (20%)"
       },
-      "instructions": "Strength: +4; Magic: +4; AP: +12; Ability: Damage Syphon; Buy: —; Sell: 775"
+      "instructions": "Strength: +4; Magic: +4; AP: +12; Ability: Damage Syphon; Buy: —; Sell: 775 Linked acquisition records: The Caribbean / Ship's End: Chest 07 — Cosmic Arts. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.007"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.water-cufflink",
@@ -37329,7 +37976,11 @@
       "name": "Water Cufflink",
       "summary": "Chest at the Ravine ; Clear Battlegate 10",
       "sources": [
-        "https://www.khwiki.com/Water_Cufflink"
+        "https://www.khwiki.com/Water_Cufflink",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37340,7 +37991,12 @@
         "Ability": "Water Boost , Waterza",
         "Obtained": "Chest at the Ravine ; Clear Battlegate 10"
       },
-      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Water Boost , Waterza"
+      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Water Boost , Waterza Linked acquisition records: Olympus / Ravine: Chest 02 — Water Cufflink; Battlegate 10 (The Caribbean). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.002",
+        "kh3.battlegates.battlegate-10"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.thunder-cufflink",
@@ -37348,7 +38004,11 @@
       "name": "Thunder Cufflink",
       "summary": "Chest at Upper Level / Service Area ; Clear Battlegate 5",
       "sources": [
-        "https://www.khwiki.com/Thunder_Cufflink"
+        "https://www.khwiki.com/Thunder_Cufflink",
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://www.powerpyx.com/kingdom-hearts-3-monstropolis-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37359,7 +38019,12 @@
         "Ability": "Thunder Boost , Thundaza",
         "Obtained": "Chest at Upper Level / Service Area ; Clear Battlegate 5"
       },
-      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Thunder Boost , Thundaza"
+      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Thunder Boost , Thundaza Linked acquisition records: Monstropolis / Upper Level / Service Area: Chest 08 — Thunder Cufflink; Battlegate 05 (Toy Box). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.monstropolis.chest.008",
+        "kh3.battlegates.battlegate-05"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.fire-cufflink",
@@ -37367,7 +38032,11 @@
       "name": "Fire Cufflink",
       "summary": "Chest at Main Floor: 2F ; Clear Battlegate 1",
       "sources": [
-        "https://www.khwiki.com/Fire_Cufflink"
+        "https://www.khwiki.com/Fire_Cufflink",
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://www.powerpyx.com/kingdom-hearts-3-toy-box-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37378,7 +38047,12 @@
         "Ability": "Fire Boost , Firaza",
         "Obtained": "Chest at Main Floor: 2F ; Clear Battlegate 1"
       },
-      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Fire Boost , Firaza"
+      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Fire Boost , Firaza Linked acquisition records: Toy Box / Rest Area: Chest 26 — Fire Cufflink; Battlegate 01 (Olympus). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.toy-box.chest.026",
+        "kh3.battlegates.battlegate-01"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.aero-cufflink",
@@ -37386,7 +38060,11 @@
       "name": "Aero Cufflink",
       "summary": "Chest at the Wetlands ; Clear Battlegate 7",
       "sources": [
-        "https://www.khwiki.com/Aero_Cufflink"
+        "https://www.khwiki.com/Aero_Cufflink",
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.powerpyx.com/kingdom-hearts-3-kingdom-of-corona-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37397,7 +38075,12 @@
         "Ability": "Aero Boost , Aeroza",
         "Obtained": "Chest at the Wetlands ; Clear Battlegate 7"
       },
-      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Aero Boost , Aeroza"
+      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Aero Boost , Aeroza Linked acquisition records: Kingdom of Corona / Wetlands: Chest 14 — Aero Cufflink; Battlegate 07 (Kingdom of Corona). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.kingdom-of-corona.chest.014",
+        "kh3.battlegates.battlegate-07"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.blizzard-cufflink",
@@ -37405,7 +38088,11 @@
       "name": "Blizzard Cufflink",
       "summary": "Chest at the Middle Tier ; Clear Battlegate 12",
       "sources": [
-        "https://www.khwiki.com/Blizzard_Cufflink"
+        "https://www.khwiki.com/Blizzard_Cufflink",
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.powerpyx.com/kingdom-hearts-3-arendelle-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37416,7 +38103,12 @@
         "Ability": "Blizzard Boost , Blizzaza",
         "Obtained": "Chest at the Middle Tier ; Clear Battlegate 12"
       },
-      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Blizzard Boost , Blizzaza"
+      "instructions": "Strength: 0; Magic: +1; AP: +3; Ability: Blizzard Boost , Blizzaza Linked acquisition records: Arendelle / Middle Tier: Chest 15 — Blizzard Cufflink; Battlegate 12 (San Fransokyo). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.arendelle.chest.015",
+        "kh3.battlegates.battlegate-12"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.celestriad",
@@ -37424,7 +38116,11 @@
       "name": "Celestriad",
       "summary": "Chest on the high mast of the Leviathan; Clear Battlegate 13",
       "sources": [
-        "https://www.khwiki.com/Celestriad"
+        "https://www.khwiki.com/Celestriad",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37435,7 +38131,12 @@
         "Ability": "Fire Boost , Blizzard Boost , Thunder Boost",
         "Obtained": "Chest on the high mast of the Leviathan; Clear Battlegate 13"
       },
-      "instructions": "Strength: +2; Magic: +3; AP: +5; Ability: Fire Boost , Blizzard Boost , Thunder Boost"
+      "instructions": "Strength: +2; Magic: +3; AP: +5; Ability: Fire Boost , Blizzard Boost , Thunder Boost Linked acquisition records: The Caribbean / Leviathan: Chest 45 — Celestriad; Battlegate 13 (Keyblade Graveyard). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.045",
+        "kh3.battlegates.battlegate-13"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.yin-yang-cufflink",
@@ -37443,7 +38144,11 @@
       "name": "Yin-Yang Cufflink",
       "summary": "Chest at the Northern Waters ; Clear Battlegate 11",
       "sources": [
-        "https://www.khwiki.com/Yin-Yang_Cufflink"
+        "https://www.khwiki.com/Yin-Yang_Cufflink",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37454,7 +38159,12 @@
         "Ability": "Water Boost , Aero Boost , MP Haste",
         "Obtained": "Chest at the Northern Waters ; Clear Battlegate 11"
       },
-      "instructions": "Strength: +2; Magic: +3; AP: +5; Ability: Water Boost , Aero Boost , MP Haste"
+      "instructions": "Strength: +2; Magic: +3; AP: +5; Ability: Water Boost , Aero Boost , MP Haste Linked acquisition records: The Caribbean / Northern Waters: Chest 14 — Yin-Yang Cufflink; Battlegate 11 (San Fransokyo). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.014",
+        "kh3.battlegates.battlegate-11"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.gourmand-s-ring",
@@ -37462,7 +38172,8 @@
       "name": "Gourmand's Ring",
       "summary": "Get first star for Le Grand Bistrot ; unique Prize Postcard reward",
       "sources": [
-        "https://www.khwiki.com/Gourmand's_Ring"
+        "https://www.khwiki.com/Gourmand's_Ring",
+        "https://www.khwiki.com/Le_Grand_Bistrot"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37473,7 +38184,11 @@
         "Ability": "Harvester , Chef Extraordinaire",
         "Obtained": "Get first star for Le Grand Bistrot ; unique Prize Postcard reward"
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +8; Ability: Harvester , Chef Extraordinaire"
+      "instructions": "Strength: +1; Magic: +1; AP: +8; Ability: Harvester , Chef Extraordinaire Linked acquisition records: Bistrot star 1. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.bistrot-star-1"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.draw-ring",
@@ -37481,7 +38196,8 @@
       "name": "Draw Ring",
       "summary": "Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Draw_Ring"
+        "https://www.khwiki.com/Draw_Ring",
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37494,7 +38210,11 @@
         "Sell": "250",
         "Obtained": "Item Synthesis"
       },
-      "instructions": "Strength: +1; Magic: +2; AP: +8; Ability: Master Treasure Magnet; Buy: —; Sell: 250"
+      "instructions": "Strength: +1; Magic: +2; AP: +8; Ability: Master Treasure Magnet; Buy: —; Sell: 250 Linked acquisition records: Synthesis recipe: Draw Ring. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [],
+      "synthesisRecipeIds": [
+        "kh3.synthesis.draw-ring"
+      ]
     },
     {
       "id": "kh3.equipment.lucky-ring",
@@ -37540,7 +38260,10 @@
       "name": "Crystal Regalia",
       "summary": "Complete Battlegate 14",
       "sources": [
-        "https://www.khwiki.com/Crystal_Regalia+"
+        "https://www.khwiki.com/Crystal_Regalia+",
+        "https://www.khwiki.com/Battlegate",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
+        "https://www.khwiki.com/Dark_Inferno"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37551,7 +38274,11 @@
         "Ability": "MP Hastega",
         "Obtained": "Complete Battlegate 14"
       },
-      "instructions": "Strength: +5; Magic: +5; AP: +16; Ability: MP Hastega"
+      "instructions": "Strength: +5; Magic: +5; AP: +16; Ability: MP Hastega Linked acquisition records: Battlegate 14 — Dark Inferno (Keyblade Graveyard). Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.battlegates.battlegate-14-dark-inferno"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.crystal-regalia-plus",
@@ -37578,7 +38305,8 @@
       "name": "Mickey Clasp",
       "summary": "Photograph all 90 Lucky Emblems",
       "sources": [
-        "https://www.khwiki.com/Mickey_Clasp"
+        "https://www.khwiki.com/Mickey_Clasp",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37589,7 +38317,11 @@
         "Ability": "MP Hastega , Endless Magic",
         "Obtained": "Photograph all 90 Lucky Emblems"
       },
-      "instructions": "Strength: +3; Magic: +5; AP: 0; Ability: MP Hastega , Endless Magic"
+      "instructions": "Strength: +3; Magic: +5; AP: 0; Ability: MP Hastega , Endless Magic Linked acquisition records: 90 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.90-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.flanniversary-badge",
@@ -37616,7 +38348,9 @@
       "name": "Bronze Necklace",
       "summary": "Chest at the Cliff Ascent ; defeat Heartless on deck of a Treasure Ship (50%)",
       "sources": [
-        "https://www.khwiki.com/Bronze_Necklace"
+        "https://www.khwiki.com/Bronze_Necklace",
+        "https://www.khwiki.com/Game:Olympus",
+        "https://www.powerpyx.com/kingdom-hearts-3-olympus-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37629,7 +38363,11 @@
         "Sell": "150",
         "Obtained": "Chest at the Cliff Ascent ; defeat Heartless on deck of a Treasure Ship (50%)"
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +5; Ability: MP Haste; Buy: —; Sell: 150"
+      "instructions": "Strength: +1; Magic: +1; AP: +5; Ability: MP Haste; Buy: —; Sell: 150 Linked acquisition records: Olympus / Cliff Ascent: Chest 06 — Bronze Necklace. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.olympus.chest.006"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.silver-necklace",
@@ -37637,7 +38375,9 @@
       "name": "Silver Necklace",
       "summary": "Chest at the Isla De Los Mástiles ; defeat Heartless on deck of a Black Ship (Large) (30%)",
       "sources": [
-        "https://www.khwiki.com/Silver_Necklace"
+        "https://www.khwiki.com/Silver_Necklace",
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.powerpyx.com/kingdom-hearts-3-the-caribbean-collectible-locations-treasures-lucky-emblems/"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37650,7 +38390,11 @@
         "Sell": "375",
         "Obtained": "Chest at the Isla De Los Mástiles ; defeat Heartless on deck of a Black Ship (Large) (30%)"
       },
-      "instructions": "Strength: +2; Magic: +2; AP: +10; Ability: MP Haste; Buy: —; Sell: 375"
+      "instructions": "Strength: +2; Magic: +2; AP: +10; Ability: MP Haste; Buy: —; Sell: 375 Linked acquisition records: The Caribbean / Isla de los Mástiles: Chest 06 — Silver Necklace. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.base.the-caribbean.chest.006"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.master-s-necklace",
@@ -37658,7 +38402,8 @@
       "name": "Master's Necklace",
       "summary": "Ghost Ship fleet (30%); photograph 45 Lucky Emblems .",
       "sources": [
-        "https://www.khwiki.com/Master's_Necklace"
+        "https://www.khwiki.com/Master's_Necklace",
+        "https://www.khwiki.com/Lucky_Emblem"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -37671,7 +38416,11 @@
         "Sell": "600",
         "Obtained": "Ghost Ship fleet (30%); photograph 45 Lucky Emblems ."
       },
-      "instructions": "Strength: +3; Magic: +3; AP: +16; Ability: MP Haste; Buy: —; Sell: 600"
+      "instructions": "Strength: +3; Magic: +3; AP: +16; Ability: MP Haste; Buy: —; Sell: 600 Linked acquisition records: 45 Lucky Emblems. Consult those records for their directions, prerequisites and ingredients; owning this item does not imply crafting it.",
+      "acquisitionRecordIds": [
+        "kh3.rewards.45-lucky-emblems"
+      ],
+      "synthesisRecipeIds": []
     },
     {
       "id": "kh3.equipment.breakthrough",
