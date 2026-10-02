@@ -6600,8 +6600,8 @@
       "world": "Mirage Arena",
       "area": "Light’s Lessons",
       "access": "Arena Level 28.",
-      "reward": "Maximum HP +15",
-      "instructions": "The HD encounter has 1,000 HP (the PSP value is 1,200). Striking the protected back can stun the attacker. Favor openings created by blocking/countering; reflected attacks, mines, surges and Shotlocks provide alternatives to long exposed combos.",
+      "reward": "Maximum HP: HD sources report +15; independent mixed-edition guide lists +10",
+      "instructions": "The HD encounter has 1,000 HP (the PSP value is 1,200). Striking the protected back can stun the attacker. Favor openings created by blocking/countering; reflected attacks, mines, surges and Shotlocks provide alternatives to long exposed combos. The reward amount has an edition ambiguity: the independent guide combines HD/PSP columns without separating this reward (https://kouryakutsushin.com/khbbs/arenamode.htm).",
       "source": "https://www.khwiki.com/Armor_of_Eraqus"
     },
     {
