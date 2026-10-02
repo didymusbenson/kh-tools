@@ -2722,7 +2722,7 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "instructions": "The researched set contains all 41 chests, including twelve post-clear Zodiac chests and the Main Road chest. Exact runtime trigger remains unverified."
+    "instructions": "The researched set contains all 41 chests, including twelve post-clear Zodiac chests and the Main Road chest. Collect them on one cleared save before starting NG+. The exact Steam trigger across NG+ remains unverified."
   },
   {
     "id": "kh02:achievement:ambitious",
