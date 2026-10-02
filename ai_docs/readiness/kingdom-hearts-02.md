@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 readiness
 
+**Practical review — 2026-10-02:** all 7 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 11 resolved, 6 partial and 1 factually blocked. Deferral does not resolve a disputed fact. [Current per-family decisions](../games/kh02/practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](../games/kh02/gap-closure-2026-10-02.md).
 
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
@@ -33,7 +35,7 @@ The historical September 18 source inventory had no 0.2 dataset. The current can
 | Objectives | 51 / 51 | Missing/partial: every objective/unlock/reward, with threshold/predicate discrepancies |
 | Earned wardrobe | 51 / 51 | Integrated: 12 Head + 9 Arms + 9 Back + 21 Pattern; aliases and objective-to-reward joins validated; disputed objective predicates remain explicit |
 | Zodiac Mirror | 5 rounds / 5 | Missing/partial: encounter roster and unlock route; strategy/build checks remain |
-| Platform goals | 15 / 15 | Missing/partial: all 15 goals and 14 observed Steam API key mappings; Into the Depths of Darkness key remains unassigned; other-platform native IDs/tiers unverified |
+| Platform goals | 15 / 15 | Missing/partial: all 15 goals and 15 observed Steam API key mappings, including Into the Depths of Darkness; other-platform native IDs/tiers unverified |
 | Combat/mechanics references | No certified exhaustive denominator | Missing/partial: required mechanics identified, gear timing, defensive defaults, Critical survival/healing exceptions and Steam Finish behavior integrated; numeric boss stats remain incomplete |
 
 The physical collectible baseline is **55**, with area grouping **11/21/16/7**. It is an explicit app metric, not official Journal 100%. Chest objectives use **9/13/12/6**, with the Main Road chest separate; total chests **41**. Numbers reconcile arithmetically but do not prove in-game validation. UI must not present an uncertain inventory as certified complete.
@@ -52,20 +54,18 @@ The physical collectible baseline is **55**, with area grouping **11/21/16/7**. 
 | Mobile UI/accessibility | Missing/partial | Guide integration exists; 0.2 visual inspiration is pending and root owns mobile/accessibility acceptance. |
 | App acceptance and content checks | Not audited | Targeted generation, stable-ID/count validators and route/predicate checks pass; root owns combined application acceptance. No mandatory game playthrough. |
 
-**Implementation exists:** current generated catalog and guide integration are in place. Ambiguous IDs/conditions cannot be silently frozen as verified content. **Ready to ship:** no; documentary content gaps and root-owned functional acceptance remain. Data Jiminy stays empty in this task.
+**Implementation exists:** current generated catalog and guide integration are in place. Ambiguous IDs/conditions cannot be silently frozen as verified content. **Ready to ship:** not certified; root-owned functional acceptance remains separate from deferred research precision. Data Jiminy stays empty in this task.
 
 ## Research and engineering queue
 
-- [ ] Resolve source disputes: objective13 30/50 lightning kills and exact31/50 replay/boss predicates. Ice Breaker, mirror reflection and aliases are resolved.
-- [ ] Resolve the two remaining Forest content joins: save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion. The staircase Ether route, pillar pairing, Pisces, memory positions and flower colors are resolved.
-- [ ] Verify cleared-save travel, gem recovery, counter retroactivity and per-record NG+ carry/reset; preserve distinct run and permanent ownership state.
-- [ ] Resolve uncertified Phantom Aqua numeric stats; other-platform native mappings are separate scope. Defensive defaults and all 15 Steam key mappings are integrated. Verify announced native editions only after availability.
-- [x] Generate researched definitions with provenance, stable IDs, aliases, area order and explicit unknowns.
-- [ ] Implement synchronized compact/detail/search/Data Jiminy state, offline persistence, import/export, undo, rollback/retry and safe migrations.
-- [ ] Build/evaluate the bundled Coppermind and local SLM answers; source disagreements must produce qualified answers.
+- [x] Review all seven remaining factual families for player value and add practical completion guidance where missing. [All deferrals and reopen conditions](../games/kh02/practical-review-2026-10-02.md).
+- [x] Preserve the two Forest item/source disagreements, Lightning threshold conflict and transfer/counter unknowns as evidence limitations, without treating optional precision as active research requirements.
+- [x] Generate researched definitions with provenance, stable IDs, aliases, area order and explicit unknowns. All 15 Steam API mappings remain complete.
+- [ ] Verify synchronized compact/detail/search state, offline persistence, import/export, undo, rollback/retry and safe migrations through the separate app acceptance work.
+- [ ] Rebuild/evaluate Data Jiminy only under a separate authorized reseeding task; it remains empty.
 - [ ] Verify mobile accessibility and text navigation without images, then add available media without changing identities.
 
-No exhaustive plot walkthrough or biography update manifest is a blocker. The full gap register distinguishes research tasks from user decisions.
+Announced native editions and other-platform identifiers are outside this shipped-Steam review. A concrete failure of a documented route reopens its family; deferral is not a universal guarantee for every save history.
 
 ## User decisions and answer log
 

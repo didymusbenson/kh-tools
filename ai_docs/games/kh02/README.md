@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 research pack
 
+**Practical review — 2026-10-02:** all 7 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 11 resolved, 6 partial and 1 factually blocked. Deferral does not resolve a disputed fact. [Current per-family decisions](practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 UI references received October 2, 2026: [three screenshots and source manifest](../../ui/references/kh02/README.md). **Open user follow-up KH02-UI-REF-01:** user will provide more screenshots later; current visual coverage is partial, with no due date set.
 
 2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](gap-closure-2026-10-02.md).

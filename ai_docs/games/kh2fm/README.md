@@ -1,5 +1,7 @@
 # Kingdom Hearts II Final Mix research pack
 
+**Practical review — 2026-10-02:** all 3 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 31 closed, 3 partial and 6 other limitations. Deferral does not resolve a disputed fact. [Current per-family decisions](practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 Research snapshot: **2026-10-01**, following the complete forty-finding audit review. The generated journal consumes these records; source-backed does not mean independently playtested. Start with the [game specification](../kingdom-hearts-ii-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-ii-final-mix.md).
 
 ## Latest data pass

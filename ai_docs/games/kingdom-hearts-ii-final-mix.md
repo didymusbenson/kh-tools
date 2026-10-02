@@ -1,5 +1,7 @@
 # Kingdom Hearts II Final Mix Specification
 
+**Practical review — 2026-10-02:** all 3 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 31 closed, 3 partial and 6 other limitations. Deferral does not resolve a disputed fact. [Current per-family decisions](kh2fm/practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 **Current presentation direction — 2026-09-24:** The faithful KH2 journal is implemented locally for review. Follow the [new UI plan](../ui/kh2fm-new-ui-plan.md), [reference workbook](../ui/references/kh2fm/README.md) and [MVP report](../implementation/kh2fm-faithful-journal-mvp.md) over older generic-shell directions. The research/coverage boundaries below remain applicable.
 
 ## Status and evidence

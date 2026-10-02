@@ -25,12 +25,20 @@
       },
       "gapClosure": {
         "date": "2026-10-02",
-        "outcome": "Inspected original Soraalam1 PS4 footage and English automatic transcript at 5:27\u20135:37: narrator specifies 30 lightning final blows. Video description explicitly targets PSN Ambitious; it is not Steam evidence. Frames at 5:27/5:31 show combat and editorial objective title, not a threshold counter.",
+        "outcome": "Inspected original Soraalam1 PS4 footage and English automatic transcript at 5:27–5:37: narrator specifies 30 lightning final blows. Video description explicitly targets PSN Ambitious; it is not Steam evidence. Frames at 5:27/5:31 show combat and editorial objective title, not a threshold counter.",
         "residual": "Steam-labelled objective-menu/counter or event threshold still absent; the 30/50 conflict remains on objective 13 and Mystic Pauldron.",
         "sources": [
           "https://www.youtube.com/watch?v=RzbFkFwQyAk"
         ]
-      }
+      },
+      "evidenceStatus": "blocked",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Complete Master of Lightning and receive Mystic Pauldron.",
+      "sufficientGuidance": "Objective and wardrobe instructions now tell players to finish Heartless with Thundaga, budget for 50 defeats, and stop as soon as the game awards completion. The 30/50 conflict remains explicit.",
+      "deferredDetails": "Whether the current Steam threshold is exactly 30 or 50 and its underlying event counter.",
+      "deferralReason": "The conservative route satisfies both published counts and supplies an observable stopping condition. Resolving the minimum would save at most the difference in kills, not unlock a currently blocked activity. This is a pragmatic deferral, not a factual resolution of the contradiction.",
+      "reopenWhen": "The objective does not award after the conservative lightning-final-blow route, or precise minimal-kill routing becomes necessary."
     },
     {
       "id": "KH02-002",
@@ -41,7 +49,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-003",
@@ -51,7 +62,10 @@
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-004",
@@ -62,7 +76,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.khwiki.com/Game:Realm_of_Darkness",
         "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-005",
@@ -87,7 +104,7 @@
       },
       "gapClosure": {
         "date": "2026-10-02",
-        "outcome": "Directly inspected Destiny Islands Forest 3/12 image: chest in an alcove, no acquisition popup, HUD, build or locale. Table identifies Ether, but filename/table are editorial labels. Video 20:49\u201321:53 supplies all Forest landmarks without item names in narration; no justified resolution of item identity. Samurai Gamers 2017 map table adds Ether at marker 5 but lacks modern edition provenance.",
+        "outcome": "Directly inspected Destiny Islands Forest 3/12 image: chest in an alcove, no acquisition popup, HUD, build or locale. Table identifies Ether, but filename/table are editorial labels. Video 20:49–21:53 supplies all Forest landmarks without item names in narration; no justified resolution of item identity. Samurai Gamers 2017 map table adds Ether at marker 5 but lacks modern edition provenance.",
         "residual": "Two source joins remain: save-point Ether/Mega-Ether and northern Potion/northwest-thicket Hi-Potion. Do not treat a cropped chest image as item-name proof.",
         "sources": [
           "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
@@ -95,7 +112,15 @@
           "https://www.youtube.com/watch?v=RzbFkFwQyAk",
           "https://samurai-gamers.com/kingdom-hearts-3/dark-side-chapter-3-walkthrough/"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Open all Forest chests for the area objective and Treasure Hunter.",
+      "sufficientGuidance": "The save-point ivy chest is physically located irrespective of Ether/Mega-Ether naming. The northern record now also offers Destiny Islands chest-8 black-thorn dead-end search directions, with explicit uncertainty about its cross-source join and Steam Hi-Potion label. All ten ordinary Forest route records remain available.",
+      "deferredDetails": "Definitive modern item-popup identity for save-point Ether/Mega-Ether and independent binding of northern Potion versus northwest-thicket Hi-Potion.",
+      "deferralReason": "For opening chests, the physical alcove/search route is actionable without deciding the consumable label. The candidate join is not silently certified, no duplicate chest is added, and the 55-find denominator stays unchanged. Exact content naming is optional precision unless it prevents matching a remaining chest.",
+      "reopenWhen": "A player has an unlocatable Forest chest or the candidate search route duplicates another record; then treat identity as a concrete blocker."
     },
     {
       "id": "KH02-006",
@@ -106,7 +131,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.khwiki.com/Zodiac_symbols",
         "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-007",
@@ -116,7 +144,10 @@
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-008",
@@ -127,7 +158,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
         "https://guiding-key.tumblr.com/kh0.2-locations"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-009",
@@ -137,7 +171,10 @@
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-010",
@@ -169,7 +206,15 @@
           "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19",
           "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/24"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Keep earned collection progress while completing post-clear objectives and moving to Critical NG+.",
+      "sufficientGuidance": "Replay guidance now recommends all seven gems in one visit, all four memories and the complete chest sweep on the retained clear save, keeping that save separate before NG+. Known completed-objective/wardrobe and Zodiac retention remains documented.",
+      "deferredDetails": "Per-asset partial gem/memory copy/reset behavior and ordinary-chest flags across Steam NG+ lineage.",
+      "deferralReason": "Completing each set on the retained source save avoids relying on unproved transfer behavior. The app is a manual checklist, not a save-file importer; reverse-engineering every copied bit would not improve this safe route.",
+      "reopenWhen": "A concrete recovery case cannot be completed from its retained source save, or a save-inspection feature is requested."
     },
     {
       "id": "KH02-011",
@@ -195,13 +240,21 @@
       },
       "gapClosure": {
         "date": "2026-10-02",
-        "outcome": "Original PS4 guide transcript 11:00\u201311:26 identifies third story Phantom for objective 31; 26:39\u201327:39 demonstrates a conservative Finish route for 50. GameFAQs mini-guide page 2 independently says 31 does not need simultaneous Finish. None demonstrates Zodiac substitution or Steam pre-unlock counter events.",
+        "outcome": "Original PS4 guide transcript 11:00–11:26 identifies third story Phantom for objective 31; 26:39–27:39 demonstrates a conservative Finish route for 50. GameFAQs mini-guide page 2 independently says 31 does not need simultaneous Finish. None demonstrates Zodiac substitution or Steam pre-unlock counter events.",
         "residual": "31 Zodiac substitution, 50 strict event predicate, and pre-unlock partial-counter behavior for objectives 18/26/31/36/41/47/50 remain. Conservative story/Finish guidance retained.",
         "sources": [
           "https://www.youtube.com/watch?v=RzbFkFwQyAk",
           "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74858364?page=2"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Complete the seven counter/encounter objectives and their wardrobe rewards.",
+      "sufficientGuidance": "Objectives 18/26/31/36/41/47/50 now explicitly advise attempting them after they are visible. Specified story encounters, pre-encounter saves, the third Phantom for 31/41, Spellweaver final blow for 36 and a conservative Wayfinder Finish route for 50 are documented.",
+      "deferredDetails": "Zodiac substitution for objective 31, minimal active-versus-Finish predicate for 50, and pre-unlock partial counter retroactivity.",
+      "deferralReason": "The supported live-story route works without relying on rematch substitution or retroactive progress. Extra trigger archaeology could remove a repeat or relax an input, but is not needed to complete the objective using the stated conservative method.",
+      "reopenWhen": "An objective fails after its documented visible/live-story method, or a concrete save cannot regain the required encounter."
     },
     {
       "id": "KH02-012",
@@ -234,7 +287,15 @@
           "https://www.playstationtrophies.org/game/kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage/guide/",
           "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Earn Treasure Hunter without losing chest progress.",
+      "sufficientGuidance": "All 41 physical chests including Main Road and the twelve post-clear Zodiac chests are listed. The achievement directs a full collection sweep on one retained cleared save before NG+, consistent with HD trophy guides.",
+      "deferredDetails": "Steam achievement evaluation of ordinary and retained Zodiac chest flags after entering NG+; current-run versus lineage/global union.",
+      "deferralReason": "The same-cleared-save method avoids the disputed transfer path and already supplies the whole collection route. Internal flag unions are unnecessary for this recommended route. No cross-run guarantee is added.",
+      "reopenWhen": "A completed same-save 41-chest sweep fails to award, or a specific transferred save needs recovery without an available source save."
     },
     {
       "id": "KH02-013",
@@ -265,7 +326,15 @@
           "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19",
           "https://steamdb.info/app/2552440/stats/"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Earn A Magical Finale.",
+      "sufficientGuidance": "The entry names Firaja, Blizzaja and Thundaja, explains offering them with matching magic, and now advises using all three on one save before NG+. If the used set is uncertain, repeat all three there.",
+      "deferredDetails": "Partial three-command achievement-set accumulation across separate runs, saves or NG+.",
+      "deferralReason": "All three actions can be repeated on the same save. The safe route removes any need to rely on cross-save accumulation, so per-command bit decoding adds no necessary completion step.",
+      "reopenWhen": "All three same-save commands fail to award, or a specific save-recovery report contradicts this method."
     },
     {
       "id": "KH02-014",
@@ -290,7 +359,10 @@
         "https://www.khwiki.com/Second_Chance",
         "https://www.khwiki.com/Leaf_Bracer",
         "https://www.khwiki.com/Withstand_Combo"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-015",
@@ -316,7 +388,15 @@
         "sources": [
           "https://www.khwiki.com/Game:Phantom_Aqua"
         ]
-      }
+      },
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Defeat enhanced Phantom Aqua and finish the Zodiac Mirror.",
+      "sufficientGuidance": "The app provides the five-round context, restart-on-leaving rule and practical block/dodge/opening advice, with story-versus-Zodiac identity clearly distinguished.",
+      "deferredDetails": "Certified Steam boss HP/strength/defense, difficulty-scaled damage and complete parameter tables.",
+      "deferralReason": "The existing tactics explain how to survive and punish the encounter without a damage calculator. Source numbers remain research-only rather than being promoted to false exact build-specific facts.",
+      "reopenWhen": "A concrete tactic is insufficient because of an unmodeled attack or a requested damage-planning feature requires exact parameters."
     },
     {
       "id": "KH02-016",
@@ -333,7 +413,7 @@
         "date": "2026-10-01",
         "outcome": "Recovered14of15native Steam key associations in canonical steam-key-provenance.json. Into the Depths of Darkness remains unmapped:ACH_05snippets show only the following Deft Diver title, not the needed preceding requirement. No guessed assignment.",
         "inspection": "Exact-key individual SteamDB indexed queries; all14accepted pairs expose their own preceding requirement. PSN/Xbox/Epicnative IDs and futureOctober8editions remain unverified.",
-        "followup": "A direct observed Into the Depths of Darkness requirement\u2192key pair or official Steam schema; other platform exact schemas separately."
+        "followup": "A direct observed Into the Depths of Darkness requirement→key pair or official Steam schema; other platform exact schemas separately."
       },
       "gapClosure": {
         "date": "2026-10-02",
@@ -342,7 +422,10 @@
         "sources": [
           "https://steamdb.info/app/2552440/stats/"
         ]
-      }
+      },
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-017",
@@ -353,7 +436,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
         "https://www.khwiki.com/Game:Realm_of_Darkness"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH02-018",
@@ -364,7 +450,17 @@
         "https://www.khwiki.com/Difficulty_Level",
         "https://www.khwiki.com/Wardrobe_(KH0.2)",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-      ]
+      ],
+      "evidenceStatus": "resolved",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     }
-  ]
+  ],
+  "practicalReviewDate": "2026-10-02",
+  "practicalDispositionCounts": {
+    "resolved": 11,
+    "deferred": 7,
+    "open": 0,
+    "other-limitation": 0
+  }
 }

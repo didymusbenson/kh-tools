@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 research audit
 
+**Practical review — 2026-10-02:** all 7 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 11 resolved, 6 partial and 1 factually blocked. Deferral does not resolve a disputed fact. [Current per-family decisions](practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 **Current continuation:** 10 resolved, 7 partial, 1 blocked; see [every residual outcome](research-continuation-2026-10-01.md). The historical findings below are preserved.
 
 **Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.

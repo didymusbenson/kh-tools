@@ -44,7 +44,7 @@ Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www
 | ww-mines-megalixir | Western / mines mirror | Megalixir | Small isolated round platform near the mine exit; rotate the final ramp toward it. | C, W |
 | ft-map | Uncertain Path | Forest of Thorns Area Map | From the Uncertain Path save point, clear the ivy on the entrance route. | C, F, S |
 | ft-start-ledge-potion | Rocky Path | Potion | Between the first and second Darksides, take the rising left branch; Doubleflight to the eastern red-ivy ledge and clear it with Firaga. | C, S |
-| ft-north-potion | Forest of Thorns | Potion | Northern alcove off the broad combat area. | C |
+| ft-north-potion | Forest of Thorns | Potion | Northern alcove off the broad combat area. Search route from Destiny Islands chest 8: from the paired stairways beyond the second Darkside, follow the right stairs over the rise; at the next fork take the descending path through black thorns to its dead end. The exact join to this record and the Steam guide's northwest-thicket Hi-Potion remains uncertain; match by the physical location, not the item name alone. | C, I, S |
 | ft-ring-potion | Rocky Path circular section | Potion | In the southern recess of the ring-shaped thicket, behind red ivy. | C, L, S |
 | ft-gap-hi-potion | Rocky Path | Hi-Potion | After the second Darkside, climb to the raised main path, jump onto the low tan wall on the right, then cross east to the isolated Fluttering platform. | C, F, S |
 | ft-left-hi-potion | Rocky Path | Hi-Potion | Drop left from the raised main path to the optional third Darkside; check behind it. | C, S |
@@ -120,6 +120,8 @@ One per major area, despite the plural objective names. These are physical finds
 | ft-memory | 45 | Orange spinning-wheel symbol | Ground beneath the optional third Darkside in Rocky Path. Sleeping Beauty spindle/spinning-wheel symbol; “sewing machine” is an older guide’s imprecise label. |
 | dd-memory | 49 | Purple heart symbol | Entrance-side lower cavern: from the Mega-Ether chest, turn back toward the climb out and inspect the ledge wall. |
 
-## Remaining release checks
+## Practical review and separate app checks
 
-Pillar pairing, Pisces, flower colors and both memory labels/routes are resolved with existing IDs preserved. Resolve the two explicitly named Forest crosswalks above. Add precise starting save point, directional landmarks, required movement abilities, and evidence per row. Validate clear-data/NG+ recovery for ordinary chests, gems and memories. Complete text is MVP; only production screenshot/map image acquisition is deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.
+Pillar pairing, Pisces, flower colors and both memory labels/routes are resolved. The two named Forest item/source joins remain uncertain; a clearly qualified northern dead-end search route is now provided. Exact joins and exhaustive save-point/minimum-movement/NG+ transfer certification are [deferred optional precision](practical-review-2026-10-02.md), with concrete reopen conditions. Do not claim those details are verified or require a user playthrough.
+
+Text navigation and media support remain required app work. Production screenshot/map acquisition remains deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.

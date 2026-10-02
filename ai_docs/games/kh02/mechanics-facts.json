@@ -3,7 +3,7 @@
     "id": "kh02:reference:replay",
     "name": "Replay and New Game Plus",
     "summary": "First clear opens Critical, objectives 36–51, Zodiac relics and memories.",
-    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary.",
+    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary. Conservative plan: finish all seven mine gems together, all four memories and the full 41-chest sweep on the retained cleared save before making NG+. Keep that clear save separate from the new run so a transfer assumption cannot erase the collection route.",
     "sources": [
       "https://www.khwiki.com/Game_Clear_Data",
       "https://www.khwiki.com/Zodiac_symbols",

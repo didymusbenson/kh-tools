@@ -10,7 +10,10 @@
       "sources": [
         "https://www.playstationtrophies.org/forum/topic/239345-kingdom-hearts-ii-final-mix-~-material-list-guide/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3287632071"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-002",
@@ -19,7 +22,10 @@
       "disposition": "All 301 treasure IDs have self-contained area/landmark approaches, reviewed against all 189 KHGuides Sora rows plus 112 complete-world walkthrough/item-location rows. Preserved Journal identity; explicitly rejected Disney 07 reward and several guide numbering errors. verified-route-review.json records every ID and source use. No untouched chest directions remain.",
       "sources": [
         "https://www.khguides.com/kh2/collectibles/treasures/"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-003",
@@ -37,7 +43,15 @@
         "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
       ],
       "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
-      "gapClosureEvidence": "gap-closure-2026-10-02.md"
+      "gapClosureEvidence": "gap-closure-2026-10-02.md",
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Collect the three remaining upper-Mineshaft crowns and finish Sunset.",
+      "sufficientGuidance": "Each of Sunset 32/36/40 gives the Engine Chamber/Magic Boost/white-orb starting point and complete Glide LV3 pipe sweep to the far landing. All three physical crowns and the solved Sunset board are covered.",
+      "deferredDetails": "Independent binding of each pipe/landing to board slots 32, 36 and 40; not the three-crown route itself.",
+      "deferralReason": "The shared sweep collects the entire small group. Certifying a per-pipe slot would shorten an already localized search, but is not needed to obtain the crowns or finish the board. Existing uncertainty is retained.",
+      "reopenWhen": "A player cannot find a remaining crown with the sweep, or a requested missing-slot-only locator needs exact mapping."
     },
     {
       "id": "KH2-004",
@@ -58,7 +72,10 @@
         "https://img.youtube.com/vi/WodbWF4uv20/maxresdefault.jpg",
         "https://www.youtube.com/watch?v=gpqZ1Z0Xnn8",
         "https://img.youtube.com/vi/gpqZ1Z0Xnn8/hq1.jpg"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-005",
@@ -69,7 +86,10 @@
         "https://www.khwiki.com/Recipe",
         "https://www.khwiki.com/Ansem%27s_Reports",
         "https://www.khguides.com/kh2/atlantica/"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-006",
@@ -89,7 +109,15 @@
         "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/shop.bin"
       ],
       "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
-      "gapClosureEvidence": "gap-closure-2026-10-02.md"
+      "gapClosureEvidence": "gap-closure-2026-10-02.md",
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Find and buy equipment, including avoiding Dark Anklet missability.",
+      "sufficientGuidance": "All 131 equipment records have acquisition text; named vendor/loot/reward/recipe paths are present. Dark Anklet specifically explains visiting Disney Castle Mogjiro before the Lingering Will portal cutoff and the later Twilight Town/Radiant Garden stock sharing.",
+      "deferredDetails": "Every retail shop stock event flag, intermediate story-phase and room-spawn predicate, plus Steam binary parity.",
+      "deferralReason": "No equipment record is left without an acquisition route. Exhaustive early-access vendor availability would support an earliest-purchase optimizer that the current journal does not offer; it is not required for the listed completion routes. The known permanent cutoff remains prominent.",
+      "reopenWhen": "An actual listed vendor route fails in an identified story state, or an earliest-purchase planner is approved."
     },
     {
       "id": "KH2-007",
@@ -101,7 +129,10 @@
         "https://www.khwiki.com/Lucky_Lucky",
         "https://www.khwiki.com/Second_Chance",
         "https://www.khwiki.com/Once_More"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-008",
@@ -112,7 +143,10 @@
         "https://www.khwiki.com/Final_Form",
         "https://www.khwiki.com/AntiForm",
         "https://www.khwiki.com/Light_%26_Darkness"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-009",
@@ -128,7 +162,10 @@
         "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
         "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
         "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-010",
@@ -138,7 +175,10 @@
       "sources": [
         "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
         "https://openkh.dev/kh2/file/type/mixdata.html"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-011",
@@ -149,7 +189,10 @@
         "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis.bin",
         "https://www.khwiki.com/Synthesis",
         "https://www.khwiki.com/Bright"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-012",
@@ -159,7 +202,10 @@
       "sources": [
         "https://www.khwiki.com/Bulky_Vendor",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-013",
@@ -175,7 +221,10 @@
         "https://appmedia.jp/kh2fm/75132744",
         "https://appmedia.jp/kh2fm/75132771"
       ],
-      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-014",
@@ -188,7 +237,10 @@
         "https://www.khwiki.com/Cavern_of_Remembrance",
         "https://www.khwiki.com/Game:Sephiroth",
         "https://www.khwiki.com/Game:Lingering_Will"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-015",
@@ -203,7 +255,10 @@
         "https://appmedia.jp/kh2fm/75148215",
         "https://www.finalfantasykingdom.net/kh2coliseum.php"
       ],
-      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-016",
@@ -214,7 +269,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
         "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62",
         "https://www.khwiki.com/Prop"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-017",
@@ -227,7 +285,10 @@
         "https://www.khwiki.com/Under_the_Sea",
         "https://www.khwiki.com/Ursula%27s_Revenge",
         "https://www.khwiki.com/A_New_Day_is_Dawning"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-018",
@@ -238,7 +299,10 @@
         "https://www.khwiki.com/Blueprint",
         "https://www.khwiki.com/Gummi_Blocks_(KHII)",
         "https://www.khwiki.com/Gummi_Missions"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-019",
@@ -263,7 +327,15 @@
         "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript"
       ],
       "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
-      "gapClosureEvidence": "gap-closure-2026-10-02.md"
+      "gapClosureEvidence": "gap-closure-2026-10-02.md",
+      "evidenceStatus": "partial",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "deferred",
+      "playerGoal": "Meet Mushroom Journal targets and obtain challenge rewards.",
+      "sufficientGuidance": "All twelve scored challenges have targets, rank/reward tables and strategies. The script-derived HP-floor warning and XII warp-specific Thunder protection are integrated. XIII is a reward event after the first twelve, with Look Up and Ready, Go! actions.",
+      "deferredDetails": "Complete Mushroom AI control-flow and external initialization, XIII combat-sheet mapping, every effective phase stat and Steam byte parity.",
+      "deferralReason": "The missing internal model does not change the supplied challenge route or reward action. XIII does not require defeating a hypothetical HP bar. A complete combat simulator or frame-perfect optimizer is beyond this acquisition guide.",
+      "reopenWhen": "A published tactic fails because of a specific phase rule or a separately requested simulator needs exact effective values."
     },
     {
       "id": "KH2-020",
@@ -273,7 +345,10 @@
       "sources": [
         "https://www.khwiki.com/Limit",
         "https://www.khwiki.com/Abilities_(KHII)"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-021",
@@ -282,7 +357,10 @@
       "disposition": "Ten eligible encounters, chance-history100/80/64/50 and charge/revive actions are integrated; arbitrary deaths do not qualify and Mickey cannot deliver the finishing blow.",
       "sources": [
         "https://www.khwiki.com/Mickey_Mouse"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-022",
@@ -291,7 +369,10 @@
       "disposition": "Research is closed: Energy and rank reductions halve and round up per craft. Optional planner controls remain engineering work; live base costs and mandatory Ultima handling stay explicit.",
       "sources": [
         "https://www.khwiki.com/Synthesis"
-      ]
+      ],
+      "evidenceStatus": "implementation",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     },
     {
       "id": "KH2-023",
@@ -301,7 +382,10 @@
       "sources": [
         "https://www.khwiki.com/Absent_Silhouette",
         "https://www.khwiki.com/Mushroom_XIII"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-024",
@@ -311,7 +395,10 @@
       "sources": [
         "https://www.khwiki.com/Proof",
         "https://www.khwiki.com/Game:Lingering_Will"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-025",
@@ -320,21 +407,30 @@
       "disposition": "All 59 recipes emit source arrays; sixteen documents link acquisition identities and output relationships. UI citation blocks are not reintroduced.",
       "sources": [
         "https://www.khwiki.com/Recipe"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-026",
       "status": "closed",
       "topic": "Historical recipe conflicts",
       "disposition": "Shock Charm, Moon/Star, Mythril upgrade, Manifest rank, Firagun modifier and rejected extra Shadow Archive ingredient corrections remain selected and tested.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-027",
       "status": "closed",
       "topic": "Historical raw costs/EXP",
       "disposition": "Raw Petite3, Ultima Serenity Crystals3/paid2 and Orichalcum+13/paid7, and Centurion/Frozen EXP51 remain correct.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-028",
@@ -343,70 +439,100 @@
       "disposition": "Prior count/item/branch corrections remain; exact route expansion is KH2-002. Disney Castle07 stays Mythril Shard: explicit FM world table, HD walkthrough and pinned chest248 agree; KHGuides duplicate Blazing Shard is rejected.",
       "sources": [
         "https://www.khwiki.com/Game:Disney_Castle"
-      ]
+      ],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-029",
       "status": "closed",
       "topic": "Historical puzzle scope/movement",
       "disposition": "All 144 directions and Sora Daylight23 scope remain. Working movement routes suffice; theoretical minima are not invented or required.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-030",
       "status": "closed",
       "topic": "Historical material-source corrections",
       "disposition": "All selected Bright/Dark/Serenity/rate/Orichalcum corrections remain. Active prose tables now derive from canonical drop rows instead of preserving wrong September rates.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-031",
       "status": "closed",
       "topic": "Steam50 and prologue16",
       "disposition": "Fifty Steam goals and sixteen separate Roxas prologue chests remain; no PlayStation platinum or KH1 blueprint count leaks into KH2.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-032",
       "status": "closed",
       "topic": "Historical equipment/magic corrections",
       "disposition": "Thirty-three legacy accessories, Luxord Magnet, FM Sweet Memories/Meteor Staff/Genji Shield abilities and element-upgrade grants remain selected.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-033",
       "status": "closed",
       "topic": "Mushroom reward bands",
       "disposition": "Twelve full material/weapon tables retain separate thresholds; IV has no A/S even though its B weapon table can award Majestic Mushroom+.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-034",
       "status": "closed",
       "topic": "Cup/Lingering Will gates",
       "disposition": "Titan Olympus episode2 and Cerberus/Hades Form lists exclude Limit; Lingering Will story/clear-save rule remains. Detailed new tables are KH2-014/015.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-035",
       "status": "closed",
       "topic": "Gummi FM S/EX normalization",
       "disposition": "All 54 mode records retain FM scores/EX constraints, with lower ranks and full dependencies now integrated under KH2-018.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "closed",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "resolved"
     },
     {
       "id": "KH2-036",
       "status": "provenance",
       "topic": "Legacy SQL/workbook inspection limits",
       "disposition": "Original workbook helper columns and full SQL statements were not retroactively certified. Current source-backed catalogs supersede their placeholders; historical access metadata cannot be reconstructed by rewriting old logs.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "provenance",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     },
     {
       "id": "KH2-037",
       "status": "confidence",
       "topic": "Evidence strength and representative farms",
       "disposition": "Multiple wiki pages are not independent corroboration. Representative postgame farms do not claim every room/stage spawn. These are explicit evidence boundaries, not an extra missing factual catalog.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "confidence",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     },
     {
       "id": "KH2-038",
@@ -416,21 +542,30 @@
       "sources": [
         "https://www.jp.square-enix.com/kingdom/collection/",
         "https://store.steampowered.com/app/2552430/"
-      ]
+      ],
+      "evidenceStatus": "platform",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     },
     {
       "id": "KH2-039",
       "status": "implementation",
       "topic": "UI and Data Jiminy",
       "disposition": "App/device acceptance and future grounded-answer evaluation are engineering. Copperminds remain flushed with zero thoughts; this research does not reseed them.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "implementation",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     },
     {
       "id": "KH2-040",
       "status": "excluded",
       "topic": "Explicit acquisition-scope boundary",
       "disposition": "Biographies, story transcripts, mathematical minimum-movement proofs, exhaustive every-stage spawn maps and all secondary munny/orb details remain excluded from this acquisition-data audit; do not silently count them as completed research.",
-      "sources": []
+      "sources": [],
+      "evidenceStatus": "excluded",
+      "practicalReviewReport": "practical-review-2026-10-02.md",
+      "researchDisposition": "other-limitation"
     }
   ],
   "counts": {
@@ -441,5 +576,12 @@
     "confidence": 1,
     "platform": 1,
     "excluded": 1
+  },
+  "practicalReviewDate": "2026-10-02",
+  "practicalDispositionCounts": {
+    "resolved": 31,
+    "deferred": 3,
+    "open": 0,
+    "other-limitation": 6
   }
 }

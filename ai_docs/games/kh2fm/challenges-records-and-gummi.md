@@ -24,7 +24,7 @@ The legacy `Mushroom XIII` tab is empty, but the Missions and Minigames tab cont
 
 Community corroboration: [Mushroom XIII](https://www.khwiki.com/Mushroom_XIII). No.1 appears after Xemnas; No.2 after the Experiment; No.3 after Xaldin. No.13 is available after Xemnas and the twelve successful challenges; use Look Up, then Ready, Go! to receive Winner's Proof and Proof of Peace. It is a reward event, not a thirteenth time/score trial. Nos.1–12 remain repeatable.
 
-The source itself flags prize/rank details for cleanup. Preserve personal best, target met, reward claimed, and desired farm rank separately. All twelve numeric rank/reward tables and controller-neutral strategies are integrated. Earliest appearance predicates remain bounded for VII and XII; the current ledger records inspected sources and rejects the blanket “all worlds complete” claim contradicted by IV after Shan-Yu. Tranquility and Mushroom weapon acquisition must link rank-reward records; one Journal target cannot stand in for every drop tier.
+The source itself flags prize/rank details for cleanup. Preserve personal best, target met, reward claimed, and desired farm rank separately. All twelve numeric rank/reward tables and controller-neutral strategies are integrated. Named-event appearance predicates for VII and XII are integrated (KH2-013 is closed); the current ledger rejects the blanket “all worlds complete” claim contradicted by IV after Shan-Yu. Tranquility and Mushroom weapon acquisition must link rank-reward records; one Journal target cannot stand in for every drop tier.
 
 ## Absent Silhouettes
 

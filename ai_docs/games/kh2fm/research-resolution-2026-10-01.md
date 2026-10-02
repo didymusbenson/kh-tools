@@ -1,5 +1,7 @@
 # KH2 Final Mix research resolution — October 1, 2026
 
+**Practical review — 2026-10-02:** all 3 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 31 closed, 3 partial and 6 other limitations. Deferral does not resolve a disputed fact. [Current per-family decisions](practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 Current disposition of **all forty findings**, superseding the repository-only `f933ab1` baseline. Every finding was investigated or checked against its existing resolved evidence. All accessible catalog expansions identified during peer review have been integrated; precise remaining facts and engineering/provenance boundaries are separated below. Source-backed does not mean a retail executable was run.
 
 **31 closed**; **3 partial**; **2 implementation**; **1 provenance**; **1 confidence**; **1 platform**; **1 excluded**. These are issue families, not wrong-record counts or an accuracy percentage. Machine-readable evidence: [research-dispositions-2026-10-01.json](research-dispositions-2026-10-01.json).

@@ -1,5 +1,7 @@
 # Kingdom Hearts II Final Mix readiness
 
+**Practical review — 2026-10-02:** all 3 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 31 closed, 3 partial and 6 other limitations. Deferral does not resolve a disputed fact. [Current per-family decisions](../games/kh2fm/practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 Status: **Implemented journal; October 1 complete audit review integrated. Exact residual evidence limits remain.**
 
 The [forty-finding resolution ledger](../games/kh2fm/research-resolution-2026-10-01.md) is the current research queue. Original findings and row-level occurrences remain in the historical [audit appendix](../games/kh2fm/research_audit.md); old September warnings are not active blockers after their documented resolution. All specified modules remain MVP.

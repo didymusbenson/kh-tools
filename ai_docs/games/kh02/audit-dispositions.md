@@ -1,5 +1,7 @@
 # KH0.2 current audit dispositions
 
+**Practical review — 2026-10-02:** all 7 remaining research families are deferred with explicit player-goal reasons; no active practical blocker remains in this reviewed scope. Evidence stays 11 resolved, 6 partial and 1 factually blocked. Deferral does not resolve a disputed fact. [Current per-family decisions](practical-review-2026-10-02.md) supersede older active-research/release-gate wording below; UI/device acceptance and other app work remain separate.
+
 Updated 2026-10-02: **11 resolved, 6 partial, 1 blocked**. Scope: shipped Steam HD. Prior continuation details remain historical evidence in the JSON; current residuals below supersede older follow-up wording.
 
 ## KH02-001 — blocked

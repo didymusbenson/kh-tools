@@ -24,7 +24,7 @@ Sources: [W: KHWiki objective/unlock/reward table](https://www.khwiki.com/Wardro
 | 10 | Master of Counters | Counter Blast final blows ≥5 | Start | Back: Flawless Wings |
 | 11 | Master of Fire | Fire-magic final blows ≥30 | Magic restored | Back: Cyber Blades |
 | 12 | Master of Ice | Ice-magic final blows ≥30 | Magic restored | Back: Blades |
-| 13 | Master of Lightning | Lightning-magic final blows: 30 or 50; unresolved | Magic restored | Arm: Mystic Pauldron |
+| 13 | Master of Lightning | Defeat Heartless with lightning magic until the objective completes | Magic restored | Arm: Mystic Pauldron |
 | 14 | Frozen Rail Ride | Ride a Blizzaga rail along the Castle Town bridge | Magic restored | Arm: Flawless Arm Guards |
 | 15 | Ice Breaker | Freeze five enemies together, then shatter all five in one attack | Magic restored | Pattern: Grace (Purple) |
 | 16 | Magic Advantage | Exploit an elemental weakness once | Magic restored | Arm: Voltaic Arm Plate |

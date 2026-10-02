@@ -246,7 +246,7 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:ft-north-potion",
     "category": "treasures",
     "name": "Potion · Forest of Thorns",
-    "summary": "Northern alcove off the broad combat area.",
+    "summary": "Northern alcove off the broad combat area. Search route from Destiny Islands chest 8: from the paired stairways beyond the second Darkside, follow the right stairs over the rise; at the next fork take the descending path through black thorns to its dead end. The exact join to this record and the Steam guide's northwest-thicket Hi-Potion remains uncertain; match by the physical location, not the item name alone.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Forest of Thorns",
@@ -254,6 +254,8 @@ export const entries: CollectionEntry[] = [
     "instructions": "Open the chest.",
     "sources": [
       "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ],
     "uncertainty": "KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion."
@@ -1288,7 +1290,7 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:objective:13",
     "category": "objectives",
     "name": "13 · Master of Lightning",
-    "summary": "Lightning-magic final blows: 30 or 50; unresolved.",
+    "summary": "Defeat Heartless with lightning magic until the objective completes.",
     "character": "Aqua",
     "reward": "Arms: Mystic Pauldron",
     "prerequisites": "Magic restored",
@@ -1297,8 +1299,11 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
       "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
+    "instructions": "Use Thundaga for the finishing blow, rather than merely damaging a Heartless. Keep going until the objective and Mystic Pauldron award appear. Budget for 50 lightning defeats as the conservative route; stop earlier if the game awards it. This covers both published thresholds without deciding which is the exact Steam minimum.",
     "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
   },
   {
@@ -1308,13 +1313,15 @@ export const entries: CollectionEntry[] = [
     "summary": "Arms · Objective 13: Master of Lightning.",
     "character": "Aqua",
     "area": "Arms",
-    "instructions": "Complete objective 13: Lightning-magic final blows: 30 or 50; unresolved. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 13: Defeat Heartless with lightning magic until the objective completes. Mark ownership here when the reward is received; the objective completion check remains separate. Use Thundaga for the finishing blow, rather than merely damaging a Heartless. Keep going until the objective and Mystic Pauldron award appear. Budget for 50 lightning defeats as the conservative route; stop earlier if the game awards it. This covers both published thresholds without deciding which is the exact Steam minimum.",
     "prerequisites": "Magic restored",
     "collectible": false,
     "order": 13,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
       "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
     "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
@@ -1469,7 +1476,7 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "instructions": "Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts."
+    "instructions": "Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited."
   },
   {
     "id": "kh02:wardrobe:diamond-white",
@@ -1478,7 +1485,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 18: Excellent Aim.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 18: Six consecutive Excellent Shotlock ratings. Mark ownership here when the reward is received; the objective completion check remains separate. Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts.",
+    "instructions": "Complete objective 18: Six consecutive Excellent Shotlock ratings. Mark ownership here when the reward is received; the objective completion check remains separate. Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "prerequisites": "Shotlock restored",
     "collectible": false,
     "order": 18,
@@ -1740,7 +1747,7 @@ export const entries: CollectionEntry[] = [
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "The World Within",
-    "instructions": "Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement."
+    "instructions": "Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited."
   },
   {
     "id": "kh02:wardrobe:mecha-yellow",
@@ -1749,7 +1756,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 26: Heartless That Dwell.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 26: Clear all three small-room combat mirrors. Mark ownership here when the reward is received; the objective completion check remains separate. Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement.",
+    "instructions": "Complete objective 26: Clear all three small-room combat mirrors. Mark ownership here when the reward is received; the objective completion check remains separate. Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "prerequisites": "Reach World Within",
     "collectible": false,
     "order": 26,
@@ -1915,7 +1922,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Spellweaver"
     ],
     "world": "The World Within",
-    "instructions": "Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
+    "instructions": "Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:royal-tiara",
@@ -1924,7 +1931,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 31: Queen of the Rink.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 31: Use Spellweaver Finish during the third story Phantom Aqua encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
+    "instructions": "Complete objective 31: Use Spellweaver Finish during the third story Phantom Aqua encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "First Phantom mirror",
     "collectible": false,
     "order": 31,
@@ -2089,7 +2096,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Spellweaver"
     ],
     "world": "Castle Town",
-    "instructions": "Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
+    "instructions": "Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
@@ -2099,7 +2106,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 36: Turn the Tide.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 36: Castle Town Demon Tower: Spellweaver Finish final blow. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
+    "instructions": "Complete objective 36: Castle Town Demon Tower: Spellweaver Finish final blow. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 36,
@@ -2262,7 +2269,7 @@ export const entries: CollectionEntry[] = [
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "The World Within",
-    "instructions": "Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter.",
+    "instructions": "Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
@@ -2272,7 +2279,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Back · Objective 41: Flawless Victory.",
     "character": "Aqua",
     "area": "Back",
-    "instructions": "Complete objective 41: Third story Phantom Aqua: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter.",
+    "instructions": "Complete objective 41: Third story Phantom Aqua: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 41,
@@ -2472,7 +2479,7 @@ export const entries: CollectionEntry[] = [
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "Forest of Thorns",
-    "instructions": "The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt.",
+    "instructions": "The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
@@ -2482,7 +2489,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 47: Keeper of the Orb.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 47: Orb-supporting Darkside: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt.",
+    "instructions": "Complete objective 47: Orb-supporting Darkside: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 47,
@@ -2579,7 +2586,7 @@ export const entries: CollectionEntry[] = [
       "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness"
     ],
     "world": "Depths of Darkness",
-    "instructions": "Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective.",
+    "instructions": "Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight.",
     "uncertainty": "PSU and the Steam guide say Wayfinder active at victory; StrategyWiki says Finish. Use Finish for a conservative attempt, while the stricter predicate remains disputed."
   },
@@ -2590,7 +2597,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 50: Combined Strength.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 50: Depths Demon Tower: win with Wayfinder active. Mark ownership here when the reward is received; the objective completion check remains separate. Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective.",
+    "instructions": "Complete objective 50: Depths Demon Tower: win with Wayfinder active. Mark ownership here when the reward is received; the objective completion check remains separate. Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective. For a conservative route, attempt this after the objective is visible in the game; do not depend on earlier partial progress being credited.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 50,
@@ -2836,7 +2843,7 @@ export const entries: CollectionEntry[] = [
       "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
       "https://steamdb.info/app/2552440/stats/"
     ],
-    "instructions": "Use Firaja, Blizzaja and Thundaja, each at least once. Repeatedly cast the matching lower-tier spell to offer its Situation Command. Cross-run partial-set retention is undocumented.",
+    "instructions": "Use Firaja, Blizzaja and Thundaja, each at least once. Repeatedly cast the matching lower-tier spell to offer its Situation Command. For a conservative route, use all three on the same save before beginning NG+. If uncertain which was used, repeat the three commands there and check the achievement. Cross-run partial-set retention is undocumented.",
     "steamApiName": "ACH_12"
   },
   {
@@ -2896,7 +2903,7 @@ export const entries: CollectionEntry[] = [
     "name": "Replay and New Game Plus",
     "summary": "First clear opens Critical, objectives 36–51, Zodiac relics and memories.",
     "character": "Aqua",
-    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary.",
+    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary. Conservative plan: finish all seven mine gems together, all four memories and the full 41-chest sweep on the retained cleared save before making NG+. Keep that clear save separate from the new run so a transfer assumption cannot erase the collection route.",
     "checkable": false,
     "collectible": false,
     "sources": [
