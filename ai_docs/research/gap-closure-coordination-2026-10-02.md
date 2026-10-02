@@ -49,3 +49,9 @@ Initial scope checkpoints are published on the game branches: KH1 `1dfa184`, BBS
 ## Browser validation limitation
 
 The full DDD-branch [GitHub browser run](https://github.com/didymusbenson/kh-tools/actions/runs/36958854601) reported 61 passing, 51 failing and 2 skipped browser scenarios. Many failures address older KH1/KH2 layouts; the DDD research diff changes no journal components, styles or browser tests. The coordinator reproduced two representative failures against untouched baseline `c5ea2de` in a detached checkout: `navigation.spec.ts:19` expects the old `#row-...` list, and `navigation.spec.ts:37` expects `#/kh1fm/contents` to redirect to `worlds`. Both fail there for the same selector/URL reasons. This demonstrates those two failures predate the new research; it does not certify every failure as pre-existing. Unit tests, focused content validation and production build success are reported separately. The complete browser suite is not claimed green, and its failures have not been hidden by changing or disabling tests.
+
+## Focused browser checks after five merges
+
+At integrated `1bb9ed6`, `research-expansion.spec.ts` and `bbs-ux.spec.ts` produced 16 passes and two failures across desktop/mobile. Both failures are the KH3 Gummi checkbox immediate-reload scenario; the desktop failure was also reproduced against untouched `c5ea2de`. Selected Re:CoM reward-link, acquisition-note and paged-content scenarios passed 6/6 across desktop/mobile. Thus this selected run has 22 passes and two failures; it is not a full-browser green result. Browser tests have not been altered or disabled.
+
+The repeatable integration checker is `python3 tools/content/verify-gap-integration.py`. It reads the published baseline from Git and checks all seven catalogs for removed/duplicate identities, missing sources, broken recipe links and missing/duplicate audit findings. It does not independently prove the facts.
