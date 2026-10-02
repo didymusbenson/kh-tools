@@ -5171,5 +5171,75 @@
     "decision": "Use Steam primary sources for platform facts and published game metadata; KH guide coverage is not an evidence prerequisite. Inspect actual app configuration and observations for game-specific behavior.",
     "auditDispositionsChanged": false,
     "runtimeChanged": false
+  },
+  "steamAnswers20261002": {
+    "date": "2026-10-02",
+    "cloudEvidence": "steam-cloud-evidence-2026-10-02.json",
+    "resolvedSubquestions": [
+      "Steam Cloud folder and recursive selection",
+      "No Escape/Undefeated either-campaign eligibility",
+      "Practical deck-edit counting procedure",
+      "Two-card stock input on Steam",
+      "Days bonus eligibility on an existing Sora save (corroboration)",
+      "Separate Sora/Riku save-slot preservation"
+    ],
+    "sources": [
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/601895505111392431/",
+        "role": "campaign",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4347743744911045217/",
+        "role": "escape",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3276408411",
+        "role": "guide",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4426562436919937291/",
+        "role": "deck",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://www.trueachievements.com/a293094/expert-deck-builder-achievement",
+        "role": "deckXbox",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "role": "controls",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4410795727359950316/",
+        "role": "days",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/562534024812177572/",
+        "role": "daysRecovery",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3280835800",
+        "role": "save",
+        "accessed": "2026-10-02"
+      },
+      {
+        "url": "https://partner.steamgames.com/doc/features/cloud",
+        "role": "cloud",
+        "accessed": "2026-10-02"
+      }
+    ],
+    "negativeResults": [
+      "Anonymous Player.GetGameAchievements returned an empty list; not evidence of zero achievements. ClientGetUserStats timed out; no hidden schema or trigger predicates recovered.",
+      "KingdomSaveEditor e5eec7403f939d7a94a62d996130d84f59887dda exposes legacy clear flags but does not establish minimal modern Days conditions.",
+      "Gold/Platinum exclusion in Steam discussion 4514381493105894643 is corroborative advice from an author who had not earned Card Master Sora; no exact Steam membership denominator promoted."
+    ],
+    "counts": "Full-family dispositions unchanged: 15 closed, 11 partial, 3 open, 3 non-factual. These are bounded answers within partial families."
   }
 }

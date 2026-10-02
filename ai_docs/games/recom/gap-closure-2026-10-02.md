@@ -43,3 +43,8 @@ No entire finding is newly closed. The register remains **15 closed, 11 partial,
 - Generation passes and repeated generation is byte-identical. Focused Re:CoM tests pass **18/18**, including scope checks for all 30 farm notes, exactly three optional detailed routes, exactly 13 Days reward notes, and priority notes only on two-card recipes.
 - All canonical JSON parses; existing 59 combat records, 379 floor rows, 24 boss decks and 99 progression rows preserved. Jiminy remains empty.
 - No native game execution, game-file modification, remote message or full-repository validation is claimed. Coordinator owns full tests/build and master integration.
+
+
+## Steam answer continuation
+
+The [integrated answer table](minigames-and-achievements.md#october-2-answers-from-steam-observations) now resolves either-campaign No Escape/Undefeated eligibility, supplies the deck-edit session procedure and two-card input, and corroborates Days unlocks on an existing Sora save. The [actual Valve app configuration](steam-cloud-evidence-2026-10-02.json) resolves Cloud folder/recursive scope. Earlier No Escape save-reload wording must be read as a suggestion, not a firsthand recovery test. Canonical data and generated guidance carry the applicable answers; exact hidden predicates remain explicit residuals in the current ledger.

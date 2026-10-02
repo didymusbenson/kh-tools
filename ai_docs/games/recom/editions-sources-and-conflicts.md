@@ -106,3 +106,20 @@ Sources inspected in this follow-up:
 Research order: official public metadata and publisher patch notes; available app schema/cloud configuration; then controlled save or achievement observations for remaining game-specific questions. Inspect exposed progress thresholds where available before assuming an executable investigation is necessary. A schema's display text does not by itself reveal every game-side condition.
 
 This resolves the source-selection question and records the platform baseline. The full game-specific audit families remain partial/open; no runtime behavior or family counts changed. “Steam-specific evidence needed” must not be interpreted as “find a Steam-specific KH walkthrough.”
+
+
+## October 2: actual Steam Cloud configuration recovered
+
+The previous source-route section is now supplemented by a successful **direct anonymous Steam PICS product-information response** for app 2552430. The [retained exact excerpt](steam-cloud-evidence-2026-10-02.json) records access time, change number **39403443**, client method/version and public build **15194255**. This is Valve-served app metadata, not a KH guide or a SteamDB inference.
+
+The collection selects the following folder under Windows Documents:
+
+`My Games/KINGDOM HEARTS HD 1.5+2.5 ReMIX/Steam/{64BitSteamID}`
+
+Its pattern is `*` with recursion enabled; quota is **100 MiB / 50 files**. Thus the configured unit is every matching file in that account-specific collection folder and its subfolders, rather than one Re:CoM in-game slot. For the same Steam account with Cloud enabled, let the game close and synchronization finish before continuing on another machine. [Valve documents the file synchronization behavior](https://partner.steamgames.com/doc/features/cloud).
+
+For a manual backup, preserve the complete account folder. This recommendation follows from the verified selection scope; it does not claim that the location or byte offsets of every Days flag have been decoded. No two-machine transfer was executed. Cloud configuration also does not establish cross-store Epic/Steam compatibility or automatically awarding achievements from an imported completion save.
+
+[KingdomSaveEditor's PC Re:CoM archive implementation](https://github.com/BFlorry/KingdomSaveEditor/blob/e5eec7403f939d7a94a62d996130d84f59887dda/KHSave.Archives/Factories/PcKhRecomFactory.cs) and [firsthand Steam save recovery](https://steamcommunity.com/sharedfiles/filedetails/?id=3280835800) support distinguishing the multi-slot save container from an individual Sora/Riku slot. The editor's legacy `Kh2Cleared` flag name is not evidence that it represents Steam's Days completion flag.
+
+The [Steam answer table](minigames-and-achievements.md#october-2-answers-from-steam-observations) records actual campaign, deck-edit, input and existing-save answers. Minimum Days predicates, exact restart/flag-read timing, and all 47 game-side achievement conditions remain narrower research questions. The official Ultimania candidate remains documented above; its unseen pages have not been treated as evidence.

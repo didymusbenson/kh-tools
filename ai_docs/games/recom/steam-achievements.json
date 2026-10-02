@@ -72,7 +72,10 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://steamcommunity.com/app/2552430/discussions/0/601895505111392431/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3276408411",
+        "https://steamcommunity.com/app/2552430/discussions/0/4347743744911045217/"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -84,7 +87,26 @@
         "retrievalReference": "turn407search0",
         "matchedRequirement": "Finish without selecting Continue.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "eligibleCampaigns": [
+        "sora",
+        "riku"
+      ],
+      "guidance": [
+        {
+          "title": "Either campaign",
+          "text": "Complete one qualifying Sora or Riku playthrough. You do not need to satisfy this restriction in both stories."
+        },
+        {
+          "title": "After a defeat",
+          "text": "Return to the title screen and load a manual save instead of choosing Continue. The restriction concerns using Continue, rather than simply seeing Game Over."
+        }
+      ],
+      "campaignEvidence": {
+        "accessed": "2026-10-02",
+        "basis": "Accepted Steam answer for either campaign, corroborated by player reports. This establishes campaign eligibility, not all forced-escape exceptions or save-counter locations."
+      },
+      "runCaution": "Either campaign qualifies. Track the restriction for that playthrough; card and chest checks do not certify it."
     },
     {
       "id": "recom-steam-natural-player-sora",
@@ -652,7 +674,8 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3280835800"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -664,7 +687,13 @@
         "retrievalReference": "turn389search0",
         "matchedRequirement": "Complete the required Card Collection in Jiminy’s Journal.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "guidance": [
+        {
+          "title": "Keep both stories",
+          "text": "Save Riku in a different slot from Sora. Keep Sora’s collection save so you can return for cards unlocked by completing Riku and Days."
+        }
+      ]
     },
     {
       "id": "recom-steam-storyteller-sora",
@@ -902,7 +931,9 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://steamcommunity.com/app/2552430/discussions/0/4426562436919937291/",
+        "https://www.trueachievements.com/a293094/expert-deck-builder-achievement"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -914,6 +945,17 @@
         "retrievalReference": "turn383search0",
         "matchedRequirement": "Edit a deck once.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      },
+      "guidance": [
+        {
+          "title": "Counting deck edits",
+          "text": "Change a card, back out of the deck editor, then reopen it for the next edit. For 500 edits, repeat these separate editing sessions; do not count every card moved during one session as a separate edit."
+        }
+      ],
+      "guidanceEvidence": {
+        "accessed": "2026-10-02",
+        "edition": "Steam recommendation corroborated by firsthand Xbox HD achievement comments",
+        "boundary": "Supported practical counting procedure; hidden counter storage and no-change/reorder-only cases were not inspected."
       }
     },
     {
@@ -929,7 +971,9 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://steamcommunity.com/app/2552430/discussions/0/4426562436919937291/",
+        "https://www.trueachievements.com/a293094/expert-deck-builder-achievement"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -941,6 +985,17 @@
         "retrievalReference": "turn388search0",
         "matchedRequirement": "Edit decks 500 times.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      },
+      "guidance": [
+        {
+          "title": "Counting deck edits",
+          "text": "Change a card, back out of the deck editor, then reopen it for the next edit. For 500 edits, repeat these separate editing sessions; do not count every card moved during one session as a separate edit."
+        }
+      ],
+      "guidanceEvidence": {
+        "accessed": "2026-10-02",
+        "edition": "Steam recommendation corroborated by firsthand Xbox HD achievement comments",
+        "boundary": "Supported practical counting procedure; hidden counter storage and no-change/reorder-only cases were not inspected."
       }
     },
     {
@@ -983,7 +1038,10 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://steamdb.info/app/2552430/stats/"
+        "https://steamdb.info/app/2552430/stats/",
+        "https://steamcommunity.com/app/2552430/discussions/0/601895505111392431/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3276408411",
+        "https://steamcommunity.com/app/2552430/discussions/0/4347743744911045217/"
       ],
       "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
       "steamApiEvidence": {
@@ -995,7 +1053,26 @@
         "retrievalReference": "turn384search0",
         "matchedRequirement": "Finish without fleeing a battle.",
         "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
-      }
+      },
+      "eligibleCampaigns": [
+        "sora",
+        "riku"
+      ],
+      "guidance": [
+        {
+          "title": "Either campaign",
+          "text": "Complete one qualifying Sora or Riku playthrough. You do not need to satisfy this restriction in both stories."
+        },
+        {
+          "title": "A fresh chance with Riku",
+          "text": "Fleeing during Sora’s story does not rule out earning this achievement on a later Riku playthrough. Avoid escape-based experience farming in the qualifying run."
+        }
+      ],
+      "campaignEvidence": {
+        "accessed": "2026-10-02",
+        "basis": "Accepted Steam answer for either campaign, corroborated by player reports. This establishes campaign eligibility, not all forced-escape exceptions or save-counter locations."
+      },
+      "runCaution": "Either campaign qualifies. Track the restriction for that playthrough; card and chest checks do not certify it."
     },
     {
       "id": "recom-steam-level-master-sora",

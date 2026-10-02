@@ -427,7 +427,11 @@
       "thirdCardPrecedence": null,
       "effect": "Deals fire damage; base power multiplier 10×.",
       "effectSource": "https://www.khwiki.com/Fira",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-firaga",
@@ -487,7 +491,11 @@
       "thirdCardPrecedence": null,
       "effect": "Deals ice damage; base power multiplier 7×.",
       "effectSource": "https://www.khwiki.com/Blizzara",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-blizzaga",
@@ -547,7 +555,11 @@
       "thirdCardPrecedence": null,
       "effect": "Deals lightning damage; base power multiplier 6×.",
       "effectSource": "https://www.khwiki.com/Thundara",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-thundaga",
@@ -615,9 +627,11 @@
         "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
       },
       "sources": [
-        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
       ],
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
     },
     {
       "id": "recom-sleight-sora-curaga",
@@ -677,7 +691,11 @@
       "thirdCardPrecedence": null,
       "effect": "Base damage is 40% of the target’s remaining HP, subject to resistance.",
       "effectSource": "https://www.khwiki.com/Gravira",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-graviga",
@@ -737,7 +755,11 @@
       "thirdCardPrecedence": null,
       "effect": "Stops susceptible targets for 5 seconds before modifiers.",
       "effectSource": "https://www.khwiki.com/Stopra",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-stopga",
@@ -797,7 +819,11 @@
       "thirdCardPrecedence": null,
       "effect": "Deals neutral damage; base power multiplier 6×.",
       "effectSource": "https://www.khwiki.com/Aerora",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-aeroga",
@@ -1682,9 +1708,11 @@
         "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
       },
       "sources": [
-        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
       ],
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv3",
@@ -1744,7 +1772,11 @@
       "thirdCardPrecedence": null,
       "effect": "Genie casts random Thundara, Gravira or Stopra spells. Casts 2 spells; Stopra lasts 8 seconds before resistance.",
       "effectSource": "https://www.khwiki.com/Showtime_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-showtime-lv3",
@@ -1804,7 +1836,11 @@
       "thirdCardPrecedence": null,
       "effect": "Cloud performs successive sword strikes.",
       "effectSource": "https://www.khwiki.com/Cross-slash",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-cross-slash-plus",
@@ -1897,9 +1933,11 @@
       "effectSource": "https://www.khwiki.com/Splash_Lv2",
       "durationSeconds": 10,
       "sources": [
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
       ],
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
     },
     {
       "id": "recom-sleight-sora-splash-lv3",
@@ -1962,7 +2000,11 @@
       "thirdCardPrecedence": null,
       "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 4 seconds; base heal 13% max HP plus 1% per added input.",
       "effectSource": "https://www.khwiki.com/Twinkle_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-twinkle-lv3",
@@ -2022,7 +2064,11 @@
       "thirdCardPrecedence": null,
       "effect": "Bambi drops large healing orbs.",
       "effectSource": "https://www.khwiki.com/Paradise_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-paradise-lv3",
@@ -2113,7 +2159,11 @@
       "thirdCardPrecedence": null,
       "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
       "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv3",
@@ -2173,7 +2223,11 @@
       "thirdCardPrecedence": null,
       "effect": "Donald casts two random spells of the matching tier.",
       "effectSource": "https://www.khwiki.com/Magic_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-magic-lv3",
@@ -2241,9 +2295,11 @@
         "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
       },
       "sources": [
-        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
       ],
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv2",
@@ -2272,7 +2328,11 @@
       "thirdCardPrecedence": null,
       "effect": "Goofy spins around Sora, striking nearby enemies.",
       "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv3",
@@ -2332,7 +2392,11 @@
       "thirdCardPrecedence": null,
       "effect": "A timed Sora/Goofy aerial combo; incorrect input ends it.",
       "effectSource": "https://www.khwiki.com/Goofy_Smash",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-wild-crush",
@@ -2392,7 +2456,11 @@
       "thirdCardPrecedence": null,
       "effect": "Pluto digs up cards or prizes; a bone or nothing is also possible. Recovers up to 6 spent cards, or 7 large HP and Moogle Point orbs each.",
       "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv3",
@@ -2452,7 +2520,11 @@
       "thirdCardPrecedence": null,
       "effect": "Aladdin slashes, stuns enemies and drops Moogle Points. Lasts 5 seconds.",
       "effectSource": "https://www.khwiki.com/Sandstorm_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv3",
@@ -2512,7 +2584,11 @@
       "thirdCardPrecedence": null,
       "effect": "Jack casts random elemental or Gravity spells. Up to 2 exchanges/spells.",
       "effectSource": "https://www.khwiki.com/Surprise!_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-surprise-lv3",
@@ -2572,7 +2648,11 @@
       "thirdCardPrecedence": null,
       "effect": "Ariel charges and finishes with a kick; follow the reaction prompts.",
       "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv3",
@@ -2632,7 +2712,11 @@
       "thirdCardPrecedence": null,
       "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 9 seconds.",
       "effectSource": "https://www.khwiki.com/Hummingbird_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv3",
@@ -2692,7 +2776,11 @@
       "thirdCardPrecedence": null,
       "effect": "Beast knocks enemies toward Sora for timed return hits. Up to 2 exchanges/spells.",
       "effectSource": "https://www.khwiki.com/Furious_Volley_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv3",
@@ -2763,7 +2851,11 @@
       "thirdCardPrecedence": null,
       "effect": "Eliminates the bees currently on screen.",
       "effectSource": "https://www.khwiki.com/Honey_Storm",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-sora-honey-pot",
@@ -2792,7 +2884,11 @@
       "thirdCardPrecedence": null,
       "effect": "Restores about two-thirds of the honey gauge over about seven seconds.",
       "effectSource": "https://www.khwiki.com/Honey_Pot",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-riku-dark-break",
@@ -2940,7 +3036,11 @@
       "thirdCardPrecedence": null,
       "effect": "Mickey damages/stuns enemies, heals Riku and reloads cards.",
       "effectSource": "https://www.khwiki.com/MM_Miracle_Lv2",
-      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here."
+      "stockPriorityNote": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight. Exact arbitrary extra-card permutations are not certified here.",
+      "stockControls": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them.",
+      "sources": [
+        "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/"
+      ]
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv3",
@@ -3181,5 +3281,10 @@
     "rule": "A matching three-card sleight takes priority over a two-card sleight. A two-card sleight can activate when the stock does not match a three-card sleight.",
     "source": "https://www.khwiki.com/Sleight",
     "verification": "Explicit general rule in the source introduction; does not establish every slot permutation or conflicts between multiple matching recipes."
+  },
+  "twoCardControlsEvidence": {
+    "source": "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+    "accessed": "2026-10-02",
+    "basis": "Original Steam questioner confirms keyboard combination after advice to press both card-cycling controls. This is input behavior, not arbitrary third-card matching."
   }
 }

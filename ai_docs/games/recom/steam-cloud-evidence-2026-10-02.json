@@ -1,0 +1,37 @@
+{
+  "game": "Kingdom Hearts HD 1.5+2.5 ReMIX",
+  "appid": 2552430,
+  "accessed": "2026-10-02T04:46:35.461Z",
+  "source": "Steam PICS service: app product information",
+  "method": "Anonymous steam-user 5.3.0 getProductInfo([2552430], [], false); no account credentials or private saves used. Exact ufs/public-branch excerpt below.",
+  "changenumber": 39403443,
+  "missingToken": false,
+  "ufs": {
+    "quota": "104857600",
+    "maxnumfiles": "50",
+    "savefiles": {
+      "0": {
+        "root": "WinMyDocuments",
+        "path": "My Games/KINGDOM HEARTS HD 1.5+2.5 ReMIX/Steam/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1"
+      }
+    }
+  },
+  "publicBranch": {
+    "buildid": "15194255",
+    "timeupdated": "1724662837",
+    "timebuildupdated": "1722309227"
+  },
+  "interpretation": {
+    "root": "Windows Documents",
+    "scope": "All matching files, recursively, under the account-specific collection folder. Configuration selects files, not individual in-game save slots.",
+    "quotaBytes": 104857600,
+    "maximumFiles": 50,
+    "boundary": "Configuration verified; no live two-machine synchronization or Days flag location was tested. The 2024 public build identifier does not make all community observations build-pinned."
+  },
+  "sources": [
+    "https://partner.steamgames.com/doc/features/cloud",
+    "https://github.com/DoctorMcKay/node-steam-user#getproductinfoappids-packageids-includetokens-callback"
+  ]
+}
