@@ -150,7 +150,7 @@ The user accepted the mockup direction and requested a workable KH1 journal plan
 - The legacy experience chart contains a duplicate level-15 row; complete sourced current curves and 99 Sora level rows supersede it.
 - All 535 candidate world rows have dispositions, yielding 471 collection records with text routes; the 306 finite treasure/reward roster is reconciled. Exact residual facts are tracked in the [current audit](kh1fm/research_audit.md). Full narrative Journal tracking remains outside the accepted compendium scope.
 - The legacy tournament note is superseded by 96 current cup records, including seeds and variant/intermediate rewards.
-- Energy Bangle is resolved to two Spirit Shards. Three Stars Defense remains disputed independently of its resolved recipe.
+- Energy Bangle is resolved to two Spirit Shards. Three Stars Defense is resolved to +4 by user decision on October 2, 2026; historical source disagreement is retained in the research ledger.
 
 ## Release acceptance criteria
 

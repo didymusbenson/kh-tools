@@ -1,6 +1,6 @@
 # KH1FM research resolution — 2026-10-01
 
-Scope: modern Steam KH1 Final Mix in app 2552430. This pass investigated **all 20 findings**, consulted live sources and later local resolutions, and changed canonical inputs, the collectible importer and the KH1 item view. Source-backed does not mean binary-tested. **11 closed, 6 partial, 3 unresolved**; residuals below are specific evidence limits, not untouched work relabeled blocked. The original audit and its appendices are historical snapshots.
+Scope: modern Steam KH1 Final Mix in app 2552430. This pass investigated **all 20 findings**, consulted live sources and later local resolutions, and changed canonical inputs, the collectible importer and the KH1 item view. Source-backed does not mean binary-tested. **12 closed, 6 partial, 2 unresolved**; residuals below are specific evidence limits, not untouched work relabeled blocked. The original audit and its appendices are historical snapshots.
 
 Current generated content: **1,259 entries** (471 collection + 788 reference), **33 recipes**, **26 coverage groups**. Added 80 Gummi part variants, seven editor tools and 23 general items; all twelve originally empty enemy facts now have their exceptional damage/EXP rules. The declared 22-activity minigame roster is complete; four Journal cup timers remain correctly represented under cups. Item records appear in Equipment, Items & Abilities as well as All Reference.
 
@@ -10,7 +10,7 @@ Continuation: [all 12 residual investigations, pinned source evidence and valida
 
 | ID | Status | Applied result / exact remaining boundary |
 |---|---|---|
-| KH1-001 | Unresolved | Rechecked dedicated item, FM changes, KHGuides, original FM FAQ and Steam-era guide. +4 versus +3 remains a real edition-source contradiction. Retain unresolved Defense; recipe stays five Power Gems. |
+| KH1-001 | Closed | Closed by user decision on 2026-10-02: use +4 Defense, consistent with the user-reported noz3r0 HD FAQ 67842 and existing +4 references. Preserve contrary +3 sources as history; no independent gameplay verification is claimed. Recipe remains five Power Gems. |
 | KH1-002 | Unresolved | Added the third, more precise first-End-of-World-cutscene claim to boss and Report 13. It conflicts with sealing Hollow Bastion and Final Rest claims. Final Rest remains a sufficient route, not the asserted earliest flag. |
 | KH1-003 | Partial | Steam evidence added for pause/cutscene counting, reported 100-hour timer rollover, and awards from eligible pre-final-boss saves. Exact scripted/guest swap flags, every individual menu, and persistent-versus-save-local flag storage remain undocumented. |
 | KH1-004 | Closed | Directly inspected Steam-linked player footage shows HUD `m` at 0:03 and 0:38. Canonical target is 40 m; see [exact source/platform boundary](gap-closure-2026-10-02.md). |
@@ -72,3 +72,7 @@ Canonical edits: `tools/content/import-reference.source.json`, `tools/content/ch
 ## 2026-10-02 continuation
 
 KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. The new pass investigated all ten remaining IDs; nine remain open with exact missing evidence recorded in the gap-closure report.
+
+## October 2 user resolution — KH1-001
+
+Closed by user decision on 2026-10-02: use +4 Defense, consistent with the user-reported noz3r0 HD FAQ 67842 and existing +4 references. Preserve contrary +3 sources as history; no independent gameplay verification is claimed. Recipe remains five Power Gems. The user explicitly selected +4 after identifying that value in [noz3r0’s HD FAQ](https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/67842). This session could not reopen the FAQ; the user’s reading is identified as such rather than claimed as fresh independent inspection. Earlier investigation sections preserve the prior conflict. Canonical source, generated reference data and runtime now use +4 without a per-item disputed-stat warning. The [Sources & Research requirements](../../content/sources-and-research-modal.md) hold the centralized research-verification notice.

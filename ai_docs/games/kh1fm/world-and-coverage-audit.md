@@ -46,7 +46,7 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 | Prior IDs | Current disposition |
 |---|---|
 | D01–D07 | 471 collection/reference-route entries; 306 finite treasure/reward records, 33 puppy groups, 46 marks, 10 postcards, five pages and 13 Reports. All 535 original world-source rows have dispositions. Remaining Unknown earliest access is KH1-002; Phil/Vine details are KH1-005/014. |
-| D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense remains KH1-001; Bambi's exhaustive exclusions remain KH1-010. |
+| D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense is +4 (KH1-001 closed by user decision); Bambi's exhaustive exclusions remain KH1-010. |
 | D11–D12 | 99 Sora level rows and full EXP curves, 21 magic acquisition events, six summons. Mixed opening answers remain KH1-015; missing level-matrix warning is obsolete. |
 | D13–D16 | 96 cup records, five endgame bosses plus early sparring, 22 activity/record checks, 30 Gummi missions, 48 blueprints, 80 Gummi parts and seven tools. Concrete four-family build guidance supplied. Exact Vine sequences and Phil replay semantics remain scoped residuals. |
 | D17–D18 | All 55 KH1 Steam goals; manual tracking. All 55 API keys mapped from individually observed condition/key rows (KH1-019 closed). Restricted-run flag details remain KH1-003; both secret movies’ independent PC Theater availability is now source-backed (KH1-016 closed). |

@@ -41,6 +41,14 @@ Disclose the use of AI assistance for research organization, comparison and data
 
 Explain briefly that source-backed information is not the same as personally reproducing every event in-game, and that application tests check app behavior rather than proving all guide facts. Research coverage varies and is being improved.
 
+**User-approved direction — October 2, 2026:** Include this concise notice here:
+
+> All facts stated in this tool are based on available research. Some details have not been independently verified.
+
+Show the notice only in this Sources & Research disclosures/credits surface. Do not repeat it on journal pages, individual entries or startup, and do not require acknowledgment. Keep detailed source conflicts and evidence limits in research documentation. Practical source-backed decisions may close minor discrepancies without exhaustive independent verification; do not portray those decisions as hands-on verification or make every minor uncertainty an automatic release blocker.
+
+A way to contact the maintainer with corrections may be added later when the user authorizes it and supplies contact details. Record that as future intent only: do not add a contact form, email address, submission link or promise of a working correction channel now.
+
 Use a concise explanation, not a dump of the research backlog. Do not publish blanket claims of complete verification, official endorsement, exhaustive coverage or guaranteed accuracy. Keep internal audit IDs and developer task lists in the research documentation.
 
 ### 4. Credits and source links
@@ -85,6 +93,7 @@ Bundle the explanation and credits with the app so the modal opens and remains r
 ## Acceptance criteria
 
 - From home, a reader can locate Sources & Research, open it, read all content and dismiss it without entering a game or acknowledging a notice.
+- The centralized notice states that facts are based on available research and some details have not been independently verified; it is not repeated elsewhere. Corrections contact support remains future intent.
 - The explanation accurately describes community contributions, project research and AI assistance, edition handling, source retention and the limits of validation.
 - Published credits cover the sources actually represented in all seven guides and preserve existing detailed attribution resources.
 - No private research access details or raw developer backlog appear in the modal.

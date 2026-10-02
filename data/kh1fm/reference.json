@@ -4795,7 +4795,7 @@
     "game": "kh1fm",
     "category": "accessory",
     "name": "Three Stars",
-    "summary": "Fire, Blizzard and Thunder resistance +20%; Defense bonus disputed (+3 or +4).",
+    "summary": "Defense +4; Fire, Blizzard and Thunder resistance +20%.",
     "instructions": "Synthesize Three Stars at the Traverse Town workshop. The linked recipe lists its unlock and exact quantities.",
     "tags": [
       "Final Mix",
@@ -4832,18 +4832,17 @@
         "checkedAt": "2026-10-01"
       }
     ],
-    "verification": "unresolved",
+    "verification": "source-backed",
     "checkable": true,
     "collectible": false,
     "world": "Traverse Town",
     "reward": "Three Stars",
     "facts": {
-      "Defense": "Unresolved: +3 or +4",
+      "Defense": "+4",
       "Fire resistance": "+20%",
       "Blizzard resistance": "+20%",
       "Thunder resistance": "+20%"
-    },
-    "uncertainty": "Defense conflict: dedicated KHWiki item infobox lists Final Mix +4, while KHGuides Final Mix accessory table and KHWiki Final Mix changes list +3. Acquisition and recipe are reconciled; defense is unresolved."
+    }
   },
   {
     "id": "kh1fm-accessory-thundaga-ring",

@@ -1,12 +1,12 @@
 # KH1 Final Mix research audit — current disposition
 
-All **20** baseline findings were investigated in the live-source resolution pass on **2026-10-01**. **11 closed, 6 partially resolved, 3 unresolved**. Current generated inventory is **1,259 entries**, **33 recipes**, **26 coverage groups**. The [resolution report](research-resolution-2026-10-01.md) records evidence URLs, applied changes and exact remaining contradictions/access/evidence limits for every ID. No user gameplay test is a required gate.
+All **20** baseline findings were investigated in the live-source resolution pass on **2026-10-01**. **12 closed, 6 partially resolved, 2 unresolved**. Current generated inventory is **1,259 entries**, **33 recipes**, **26 coverage groups**. The [resolution report](research-resolution-2026-10-01.md) records evidence URLs, applied changes and exact remaining contradictions/access/evidence limits for every ID. No user gameplay test is a required gate.
 
 See the [continuation evidence log](research-continuation-2026-10-01.md) for all 12 residual investigations and the later KH1-005/016/019 evidence.
 
 | ID | Status | Applied result / exact remaining boundary |
 |---|---|---|
-| KH1-001 | Unresolved | Rechecked dedicated item, FM changes, KHGuides, original FM FAQ and Steam-era guide. +4 versus +3 remains a real edition-source contradiction. Retain unresolved Defense; recipe stays five Power Gems. |
+| KH1-001 | Closed | Closed by user decision on 2026-10-02: use +4 Defense, consistent with the user-reported noz3r0 HD FAQ 67842 and existing +4 references. Preserve contrary +3 sources as history; no independent gameplay verification is claimed. Recipe remains five Power Gems. |
 | KH1-002 | Unresolved | Added the third, more precise first-End-of-World-cutscene claim to boss and Report 13. It conflicts with sealing Hollow Bastion and Final Rest claims. Final Rest remains a sufficient route, not the asserted earliest flag. |
 | KH1-003 | Partial | Steam evidence added for pause/cutscene counting, reported 100-hour timer rollover, and awards from eligible pre-final-boss saves. Exact scripted/guest swap flags, every individual menu, and persistent-versus-save-local flag storage remain undocumented. |
 | KH1-004 | Closed | Directly inspected Steam-linked player footage shows HUD `m` at 0:03 and 0:38. Canonical target is 40 m; see [exact source/platform boundary](gap-closure-2026-10-02.md). |

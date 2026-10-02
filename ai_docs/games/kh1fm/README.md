@@ -1,6 +1,6 @@
 # KH1 Final Mix — sourced planning reference
 
-**Current status — 2026-10-01:** 10 closed, 6 partial, 4 unresolved; [continuation evidence for all residuals](research-continuation-2026-10-01.md). [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+**Current status — 2026-10-02:** 12 closed, 6 partial, 2 unresolved; [continuation evidence for all residuals](research-continuation-2026-10-01.md). [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Initial planning: **2026-09-18**; full audit-resolution pass: **2026-10-01**. Product: Ars Arcanum. Scope: modern KH1 Final Mix in HD 1.5 + 2.5 ReMIX; no original-KH/PS2 compatibility work.
 
@@ -29,7 +29,7 @@ Final Mix corrections are documented where they matter: changed treasure/puppy l
 4. Resolve the small set of explicit source/behavior uncertainties before exposing those fields as verified answers.
 5. Validate normalized data, directions and calculations against edition-correct sources and fixtures; execute app acceptance on the Apple-first matrix. A user playthrough is not required.
 
-Energy Bangle is resolved to two Spirit Shards, with 13 direct Spirit Shards across the recipe catalog. Three Stars Defense remains disputed independently of its resolved five-Power-Gem recipe. Source-backed and optional hands-on evidence remain separate statuses.
+Energy Bangle is resolved to two Spirit Shards, with 13 direct Spirit Shards across the recipe catalog. Three Stars Defense is resolved to +4 by user decision; its five-Power-Gem recipe is unchanged. Source-backed and optional hands-on evidence remain separate statuses.
 
 All documented systems, persistent checklists, offline content and Data Jiminy remain MVP. Only production screenshot/map image assets are deferred; text directions, media support and media tests remain required.
 

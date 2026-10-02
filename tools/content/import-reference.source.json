@@ -4796,7 +4796,7 @@
       "game": "kh1fm",
       "category": "accessory",
       "name": "Three Stars",
-      "summary": "Fire, Blizzard and Thunder resistance +20%; Defense bonus disputed (+3 or +4).",
+      "summary": "Defense +4; Fire, Blizzard and Thunder resistance +20%.",
       "instructions": "Synthesize Three Stars at the Traverse Town workshop. The linked recipe lists its unlock and exact quantities.",
       "tags": [
         "Final Mix",
@@ -4833,18 +4833,17 @@
           "checkedAt": "2026-10-01"
         }
       ],
-      "verification": "unresolved",
+      "verification": "source-backed",
       "checkable": true,
       "collectible": false,
       "world": "Traverse Town",
       "reward": "Three Stars",
       "facts": {
-        "Defense": "Unresolved: +3 or +4",
+        "Defense": "+4",
         "Fire resistance": "+20%",
         "Blizzard resistance": "+20%",
         "Thunder resistance": "+20%"
-      },
-      "uncertainty": "Defense conflict: dedicated KHWiki item infobox lists Final Mix +4, while KHGuides Final Mix accessory table and KHWiki Final Mix changes list +3. Acquisition and recipe are reconciled; defense is unresolved."
+      }
     },
     {
       "id": "kh1fm-accessory-thundaga-ring",
@@ -23874,7 +23873,7 @@
       "expected": 54,
       "actual": 54,
       "complete": true,
-      "notes": "All accessories from the KH 1/FM source roster; Final Mix stat overrides applied. Acquisition entries emphasize synthesis/shop/unique reward; every alternative chest is linked through the collectible catalog where available. Three Stars Defense remains an explicit +3/+4 source conflict; roster and recipes are complete."
+      "notes": "All accessories from the KH 1/FM source roster; Final Mix stat overrides applied. Acquisition entries emphasize synthesis/shop/unique reward; every alternative chest is linked through the collectible catalog where available. Three Stars Defense is resolved to +4 by the user on October 2, 2026; source disagreement remains in the research history. Roster and recipes are complete."
     },
     {
       "category": "enemy",

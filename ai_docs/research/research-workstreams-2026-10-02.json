@@ -10,9 +10,9 @@
   ],
   "counts": {
     "game-factual-research": {
-      "unresolved/conflicted": 15,
+      "closed": 94,
+      "unresolved/conflicted": 14,
       "partial": 73,
-      "closed": 93,
       "other limitation": 8
     },
     "app-development": {
@@ -26,10 +26,10 @@
       "game": "kh1fm",
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
-      "originalStatus": "Unresolved",
-      "normalizedStatus": "unresolved/conflicted",
+      "originalStatus": "Closed",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Rechecked dedicated item, FM changes, KHGuides, original FM FAQ and Steam-era guide. +4 versus +3 remains a real edition-source contradiction. Retain unresolved Defense; recipe stays five Power Gems.",
+      "currentDisposition": "Closed by user decision on 2026-10-02: use +4 Defense, consistent with the user-reported noz3r0 HD FAQ 67842 and existing +4 references. Preserve contrary +3 sources as history; no independent gameplay verification is claimed. Recipe remains five Power Gems.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
     },
@@ -2517,5 +2517,6 @@
       "classificationReason": "Integrate known reward ladders and relationships; missing factual inventories retain their own IDs.",
       "ledger": "ai_docs/games/kh3/audit-dispositions.json"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-02"
 }
