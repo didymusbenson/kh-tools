@@ -6221,7 +6221,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
       "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
     ],
     "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
     "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
@@ -6239,7 +6240,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
       "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
     ],
     "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
     "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
@@ -6257,7 +6259,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
       "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
     ],
     "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
     "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
@@ -7221,10 +7224,10 @@ export const entries: CollectionEntry[] = [
     "order": 27,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=64s"
     ],
-    "instructions": "Tram Common — Ride the tram to reach it on the Synthesis shop roof.",
-    "uncertainty": "Guides disagree on whether this tram-accessed landmark is the Synthesis shop roof or the central pillar."
+    "instructions": "Tram Common — Reach the circular roof ledge above the Synthesis shop, immediately beside the tall central stone pillar and its colored pipes. Ride the tram and jump across to this ledge; the crown is beside the pillar, not on its high top."
   },
   {
     "id": "kh2fm.puzzle.daylight.28",
@@ -20190,9 +20193,12 @@ export const entries: CollectionEntry[] = [
       "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/file/type/00battle.md",
       "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
       "https://www.khwiki.com/Talk:Mushroom_XIII",
-      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript"
+      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript",
+      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_01/m_ex.bdscript",
+      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_12/m_ex.bdscript",
+      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript"
     ],
-    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMushroom XIII — Physical: x0.5[1]; Fire: x0.5; Blizzard: x0.5 | Thunder: x0.5; Dark: x0.5; Neutral: x0.5[2] | Rewards: See Prizes | World(s): Various (See below) Notes: ^ Weapon vulnerability is x1.0 for No. 5, 7, and 10.; ^ Other vulnerability is x1.0 for No. 5, 7, and 10.\n\nSource-derived base parameters for Mushrooms I–XII (HP / STR / DEF / EXP): I 1 / 5 / 2 / 0; II 1 / 5 / 2 / 0; III 1 / 5 / 2 / 0; IV initially 1 / 45 / 26 / 0; V 1000 / 32 / 18 / 0; VI 1 / 5 / 2 / 0; VII 1000 / 32 / 18 / 0; VIII 1 / 5 / 2 / 0; IX 1 / 5 / 2 / 0; X 1000 / 32 / 18 / 0; XI 1 / 5 / 2 / 0; XII 1 / 5 / 2 / 0. IV’s clone HP rises to 2 after 10 defeats, 5 after 50 and 16 after 75. These are enemy-sheet parameters, not the number of hits needed to pass a trial: challenge scripts use invulnerability, minimum HP, counters and clones. XIII is the reward ceremony, with no ordinary defeat target; its unused/internal combat attributes are not asserted. Values combine a pinned OpenKH FM-content test fixture with the published level-scaling formula and Ultimania-attributed level table; they are not newly measured Steam values."
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMushroom XIII — Physical: x0.5[1]; Fire: x0.5; Blizzard: x0.5 | Thunder: x0.5; Dark: x0.5; Neutral: x0.5[2] | Rewards: See Prizes | World(s): Various (See below) Notes: ^ Weapon vulnerability is x1.0 for No. 5, 7, and 10.; ^ Other vulnerability is x1.0 for No. 5, 7, and 10.\n\nSource-derived base parameters for Mushrooms I–XII (HP / STR / DEF / EXP): I 1 / 5 / 2 / 0; II 1 / 5 / 2 / 0; III 1 / 5 / 2 / 0; IV initially 1 / 45 / 26 / 0; V 1000 / 32 / 18 / 0; VI 1 / 5 / 2 / 0; VII 1000 / 32 / 18 / 0; VIII 1 / 5 / 2 / 0; IX 1 / 5 / 2 / 0; X 1000 / 32 / 18 / 0; XI 1 / 5 / 2 / 0; XII 1 / 5 / 2 / 0. IV’s clone HP rises to 2 after 10 defeats, 5 after 50 and 16 after 75. These are enemy-sheet parameters, not the number of hits needed to pass a trial: challenge scripts use invulnerability, minimum HP, counters and clones. XIII is the reward ceremony, with no ordinary defeat target; its unused/internal combat attributes are not asserted. Values combine a pinned OpenKH FM-content test fixture with the published level-scaling formula and Ultimania-attributed level table; they are not newly measured Steam values. Script evidence further shows why base HP is not a trial hit count: I holds its minimum HP at maximum HP; II, III, IV, VI, VIII, IX, XI and XII explicitly use a minimum of 1. XII also disables Thunder damage in its warp callback. These are observations from the published HD-era disassembly; complete Steam script parity and XIII’s internal base sheet remain unverified."
   },
   {
     "id": "kh2fm.bestiary.oogie-boogie",

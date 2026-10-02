@@ -38,3 +38,5 @@ Square Enix announces new native editions for 2026-10-08, including Switch 2, Sw
 No specific game executable/build was run. Community evidence is explicitly secondary, and candidate data must retain provenance and uncertainty through implementation.
 
 Latest focused follow-up: [October 1 research continuation](research-continuation-2026-10-01.md).
+
+October2 evidence follow-up: [puzzle gameplay, shop source inspection and Mushroom script census](gap-closure-2026-10-02.md). Daylight27 now has a visually resolved roof/pillar locator. KH2-003/006/019 remain partial; totals remain31 closed,3 partial and6 separate nonfactual limitations. No retail Steam execution is claimed.

@@ -1,0 +1,532 @@
+{
+  "reviewed": "2026-10-02",
+  "repositoryCommit": "b89a02966494aab1b5feeb80a75e503fd6d80e93",
+  "provenance": "Public disassembly repository, not a new retail Steam extraction. README does not identify the asset build/hash; decompiled syscall implementations contain hd25 source paths. Object-table and ENMP fixtures are independently pinned OpenKH test assets, not proof they were extracted together.",
+  "coverage": "Every available numbered Mushroom object script, including VI_SU. Unnumbered M_EX350 is a decode-failure placeholder per repository README. Callsite census is exhaustive for the selected named traps, not a complete control-flow proof.",
+  "scripts": [
+    {
+      "object": "M_EX350_01",
+      "sha256": "7af0c7ea31e264e0bf9251aeac336fa128dd813f2d5b47e81a86d0af2141e501",
+      "lineCount": 4744,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_01/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 680,
+          "label": "L1246",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 2144,
+          "label": "L3009",
+          "trap": "trap_sheet_max_hp"
+        },
+        {
+          "line": 2146,
+          "label": "L3009",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3769,
+          "label": "L7165",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4035,
+          "label": "L7656",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_02",
+      "sha256": "f28e2442c852182d0c124b952605e5d8afa7cda63c0b2fd43091309077cfe836",
+      "lineCount": 9275,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_02/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 753,
+          "label": "L348",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 2063,
+          "label": "L4146",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 8241,
+          "label": "L15769",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 8509,
+          "label": "L16191",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_03",
+      "sha256": "7c9847c964e8f4f2988686bb1590749ead259c2839da021a0250b6bd3802576e",
+      "lineCount": 4819,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_03/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 1033,
+          "label": "L683",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 2466,
+          "label": "L5002",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3928,
+          "label": "L7651",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4061,
+          "label": "L7854",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_04",
+      "sha256": "19f9ca28b53d3a81ee4006afcc10308c7b3b952e4e5da812b63c714a12808263",
+      "lineCount": 4544,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 208,
+          "label": "L355",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 256,
+          "label": "L451",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 260,
+          "label": "L451",
+          "trap": "trap_sheet_min_hp"
+        },
+        {
+          "line": 1032,
+          "label": "L2192",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3522,
+          "label": "L6710",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3856,
+          "label": "L7282",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_05",
+      "sha256": "b9f3304bd6abe92f47a09132761adf9c92f4ea562baa7d65d808ebdc7c6d8f50",
+      "lineCount": 3643,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_05/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 80,
+          "label": "L121",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 84,
+          "label": "L121",
+          "trap": "trap_sheet_min_hp"
+        },
+        {
+          "line": 155,
+          "label": "L255",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 291,
+          "label": "L495",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 316,
+          "label": "L528",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 320,
+          "label": "L528",
+          "trap": "trap_sheet_min_hp"
+        },
+        {
+          "line": 338,
+          "label": "L571",
+          "trap": "trap_obj_add_hp"
+        },
+        {
+          "line": 343,
+          "label": "L571",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 2940,
+          "label": "L5607",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 2964,
+          "label": "L5627",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_06",
+      "sha256": "f2798fc13a09720f4e295822590b8f3e530b88ec6be5421d73a11ea87691a207",
+      "lineCount": 4737,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_06/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 157,
+          "label": "L247",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 799,
+          "label": "L490",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3394,
+          "label": "L6575",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4012,
+          "label": "L7648",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_06_SU",
+      "sha256": "f2798fc13a09720f4e295822590b8f3e530b88ec6be5421d73a11ea87691a207",
+      "lineCount": 4737,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_06_SU/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 157,
+          "label": "L247",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 799,
+          "label": "L490",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3394,
+          "label": "L6575",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4012,
+          "label": "L7648",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_07",
+      "sha256": "dd85357c28b3f184e2b73f33dd3fc0ce4c0f943f29df77a1d4368515c4481de0",
+      "lineCount": 3899,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_07/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 80,
+          "label": "L121",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 84,
+          "label": "L121",
+          "trap": "trap_sheet_min_hp"
+        },
+        {
+          "line": 251,
+          "label": "L408",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 2767,
+          "label": "L5282",
+          "trap": "trap_sheet_hp_rate"
+        },
+        {
+          "line": 2784,
+          "label": "L5307",
+          "trap": "trap_sheet_hp_rate"
+        },
+        {
+          "line": 2838,
+          "label": "L5382",
+          "trap": "trap_sheet_hp_rate"
+        },
+        {
+          "line": 2942,
+          "label": "L5579",
+          "trap": "trap_sheet_hp_rate"
+        },
+        {
+          "line": 3217,
+          "label": "L6060",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3241,
+          "label": "L6080",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_08",
+      "sha256": "b9eb8eb5d84234e6cb5d86af37791376e6356012372de6e86b89682ddf9e27cc",
+      "lineCount": 3847,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_08/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 64,
+          "label": "L90",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 425,
+          "label": "L720",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 1987,
+          "label": "L2791",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3125,
+          "label": "L5895",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3188,
+          "label": "L5990",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_09",
+      "sha256": "19bce98e8e6b6c054b147f82f0bb548e535661120e1af60f24faa1ec92e383f9",
+      "lineCount": 3986,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_09/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 326,
+          "label": "L539",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 857,
+          "label": "L737",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 2882,
+          "label": "L5488",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3308,
+          "label": "L6246",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_10",
+      "sha256": "34b9ab74c8625684b308d0eb73019aa5cf1b9f696bbb6cf6f2da7f208eaf6e77",
+      "lineCount": 5724,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_10/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 133,
+          "label": "L219",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 970,
+          "label": "L839",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 988,
+          "label": "L2175",
+          "trap": "trap_sheet_set_hp"
+        },
+        {
+          "line": 2241,
+          "label": "L4383",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 2952,
+          "label": "L5669",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 2972,
+          "label": "L5701",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 3174,
+          "label": "L6063",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3386,
+          "label": "L6462",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3392,
+          "label": "L6462",
+          "trap": "trap_sheet_hp"
+        },
+        {
+          "line": 3394,
+          "label": "L6462",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3666,
+          "label": "L6937",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3737,
+          "label": "L7072",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4952,
+          "label": "L9280",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4976,
+          "label": "L9300",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_11",
+      "sha256": "49d55be7935d2a7882853150410e4e776f047689588cf0c3092b9c481077db7a",
+      "lineCount": 5160,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_11/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 1260,
+          "label": "L2217",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 1849,
+          "label": "L2466",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 4426,
+          "label": "L8302",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 4487,
+          "label": "L8384",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_12",
+      "sha256": "1d840f4083f5197091e843ce5af0b0e6f147fd482c1a4af6ed85537796c08211",
+      "lineCount": 4701,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_12/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 215,
+          "label": "L354",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 936,
+          "label": "L796",
+          "trap": "trap_sheet_set_min_hp"
+        },
+        {
+          "line": 3550,
+          "label": "L6982",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3790,
+          "label": "L7471",
+          "trap": "trap_sheet_set_element_rate"
+        },
+        {
+          "line": 3974,
+          "label": "L7799",
+          "trap": "trap_btlobj_set_sheet"
+        }
+      ]
+    },
+    {
+      "object": "M_EX350_13",
+      "sha256": "46fb02f6d8fa562c75da457f3c378cc8b4985e00993bcce5eb4e845bedecf43d",
+      "lineCount": 5116,
+      "source": "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript",
+      "calls": [
+        {
+          "line": 2230,
+          "label": "L4469",
+          "trap": "trap_sheet_set_element_rate"
+        }
+      ]
+    }
+  ],
+  "xiiiObjectFixture": {
+    "source": "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/res/00objentry.bin",
+    "sha256": "8af2318a7771852b60f0d32e26123dbf90d9fff00a8658d86b838c9919daf584",
+    "offset": 164264,
+    "objectId": 2354,
+    "model": "M_EX350_13",
+    "neoStatus": 1059,
+    "limitation": "NeoStatus 1059 is an object-entry field, NOT asserted to equal an ENMP row ID. No verified mapping to a base combat sheet was established; the ENMP dictionary does not identify XIII."
+  },
+  "verifiedInterpretations": [
+    "I sets part-0 minimum HP to maximum HP (line2146). II/III/IV/VI/VI_SU/VIII/IX/XI/XII explicitly set part-0 minimum HP to1.",
+    "I\u2013XII all have element-rate0/100 writes with element argument6. The syscall documentation labels6 All; this callsite audit does not certify the downstream engine implementation or every active phase.",
+    "XII move_warp callback L7471 explicitly sets element3 (Thunder) to0 at line3790.",
+    "XIII fall_down action L4439 invokes L4469, which writes general element6 rate0. No HP setter or sheet-selection trap occurs in its available object script. This is a scoped negative result, not proof of no external initialization.",
+    "V recovery helper L495 waits on a timer decremented by trap_frametime, checks motion201, HP above minimum and local flag112, resets timer to2, and invokes add_hp with3. No new Steam frames-per-second recovery rate is inferred.",
+    "X stores/restores HP via shared state, sets minimum HP to current HP, and clears minimum HP to0 in a damage-reaction branch; no single universal HP floor describes every phase."
+  ]
+}

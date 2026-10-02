@@ -10,7 +10,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 | BBS FM | `research/finish-bbsfm-gaps-2026-10-01` | 17 / 4 | Integrated; exact factual residuals remain |
 | DDD HD | `research/finish-dddhd-gaps-2026-10-01` | 17 / 1 | Integrated; exact factual residuals remain |
 | Re:CoM | `research/finish-recom-gaps-2026-10-01` | 11 / 3 | Integrated; exact factual residuals remain |
-| KH2 FM | `research/finish-kh2fm-gaps-2026-10-01` | 3 / 0 | Running |
+| KH2 FM | `research/finish-kh2fm-gaps-2026-10-01` | 3 / 0 | Integrated; exact factual residuals remain |
 | KH0.2 | `research/finish-kh02-gaps-2026-10-01` | 7 / 1 | Integrated; 1 new closure, exact residuals remain |
 | KH3 / Re Mind | `research/finish-kh3-gaps-2026-10-01` | 14 / 3 | Running |
 
@@ -36,9 +36,11 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 - Re:CoM branch endpoint `dae1ec89a3e1eccbb858e8b2abccca43f392e152`: scoped retry guidance on all 30 Sora enemy-card farms, three optional detailed RNG routes, three-card priority on two-card recipes, Days reading/unlock guidance on all 13 bonus rewards, and additional Riku encounter/report directions. All 14 residual findings investigated; totals remain 15 closed, 11 partial, 3 unresolved and 3 other limitations. [Re:CoM pass report](../games/recom/gap-closure-2026-10-02.md). All 136 application tests, full production build and cross-game identity/source/recipe/ledger checks passed.
 
+- KH2 FM branch endpoint `9e972ccd7f5f4fef81faa7aed5e9bc4120291c9d`: actual HD gameplay resolves the Daylight 27 roof/pillar locator; all 14 numbered Mushroom scripts inventoried with hashes/callsites, supported HP floors and XII warp Thunder behavior integrated. Investigated original shop-data candidates without inventing vanilla predicates. Totals remain 31 closed, 3 partial and 6 other limitations. [KH2 pass report](../games/kh2fm/gap-closure-2026-10-02.md). All 136 application tests, full production build and cross-game integration checks passed. Seven pack and two seed tests also passed (seed tests use the pinned Chroma dependency in an isolated environment).
+
 ## Current factual totals
 
-After DDD, BBS, KH1, KH0.2 and Re:CoM integration: **105 closed, 74 partial, 15 unresolved/conflicted, 14 other limitations**. The other two games are still in progress; these are current checked-in results, not projected closures.
+After DDD, BBS, KH1, KH0.2, Re:CoM and KH2 integration: **105 closed, 74 partial, 15 unresolved/conflicted, 14 other limitations**. KH3 is still in progress; these are current checked-in results, not projected closures.
 
 ## Verified starting state and published worker checkpoints
 

@@ -25,7 +25,7 @@
       "id": "KH2-003",
       "status": "partial",
       "topic": "Sparse puzzle landmarks",
-      "disposition": "All 144 puzzle routes remain reviewed. Follow-up indexed tables and HD video chapter metadata still disagree on Daylight27 roof versus central pillar; image/frame retrieval failed. Sunset32/36/40 retain the supported white-orb Glide sweep, with individual pipe order unresolved.",
+      "disposition": "Actual HD gameplay resolves Daylight 27: the crown is on the circular Synthesis-shop roof ledge beside the tall central pillar. Mineshaft imagery now identifies the first marked pipe gap, another rectangular pipe opening and the far landing, but the footage groups world pieces 22/23 and does not bind them to board IDs 32/36; the three per-ID Sunset locators remain uncertified.",
       "sources": [
         "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
@@ -36,7 +36,8 @@
         "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62",
         "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
       ],
-      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
+      "gapClosureEvidence": "gap-closure-2026-10-02.md"
     },
     {
       "id": "KH2-004",
@@ -74,7 +75,7 @@
       "id": "KH2-006",
       "status": "partial",
       "topic": "Equipment catalog and shops",
-      "disposition": "All 131 equipment records remain integrated. Dark Anklet missability is resolved: talk to Mogjiro in Disney Castle’s Library before the Badlands portal appears to copy his stock permanently to the hub armor shops. Exact retail stage/room predicates for every shop item remain incomplete; a decoded randomizer shop table was rejected as modified.",
+      "disposition": "All 131 equipment records and Dark Anklet conversation/cutoff guidance remain integrated. New repository tree/history and executable-decomp inspection found no vanilla shop payload or implemented predicate resolver: the randomizer input was introduced already modified; decomp shop classes contain declarations only. Exact retail stage/room predicates remain incomplete.",
       "sources": [
         "https://www.khwiki.com/Armor",
         "https://www.khwiki.com/Accessory",
@@ -87,7 +88,8 @@
         "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/shops.md",
         "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/shop.bin"
       ],
-      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
+      "gapClosureEvidence": "gap-closure-2026-10-02.md"
     },
     {
       "id": "KH2-007",
@@ -242,7 +244,7 @@
       "id": "KH2-019",
       "status": "partial",
       "topic": "Bestiary census and combat values",
-      "disposition": "All 127 combat groups/227 contexts remain integrated. Pinned ENMP rows plus the published level formula now supply I–XII base HP/STR/DEF/EXP, including IV’s phased HP. Runtime labels them as base sheets, not trial hit goals. Complete script overrides and XIII unused/internal attributes remain uncertified.",
+      "disposition": "All 127 groups/227 contexts and I–XII base sheets remain integrated. A complete callsite census of all 14 numbered Mushroom scripts (including VI_SU) verifies HP floors and XII Thunder override; runtime explains these. XIII fall_down writes element 6 rate 0; object fixture ID2354/NeoStatus 1059 has no established ENMP mapping. Full effective control-flow/external initialization and Steam parity remain uncertified.",
       "sources": [
         "https://www.khwiki.com/Category:Kingdom_Hearts_II_enemies",
         "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_enemies",
@@ -260,7 +262,8 @@
         "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_12/m_ex.bdscript",
         "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript"
       ],
-      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json",
+      "gapClosureEvidence": "gap-closure-2026-10-02.md"
     },
     {
       "id": "KH2-020",

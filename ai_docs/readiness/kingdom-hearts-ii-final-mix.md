@@ -25,13 +25,13 @@ No additional user decision blocks this research. Facts below are research/engin
 
 | Area | Integrated evidence | Exact residual / boundary |
 |---|---|---|
-| Collectibles | 301 Sora treasures, 144 puzzle pieces, sixteen prologue chests, forty maps, sixteen document relations, thirteen reports and eighteen magic grants | All 301 treasure routes, six assembly grids and 31 reward areas integrated; four precise puzzle-landmark residuals remain in KH2-003 |
+| Collectibles | 301 Sora treasures, 144 puzzle pieces, sixteen prologue chests, forty maps, sixteen document relations, thirteen reports and eighteen magic grants | All 301 treasure routes, six assembly grids and 31 reward areas integrated; Daylight27 roof/pillar locator resolved by inspected HD gameplay; three per-ID Mineshaft locators remain in KH2-003 |
 | Synthesis | Sixty materials/ranks, 54 collection goals, thirty base/59 outputs, Moogle thresholds, Bright and discount rules | Optional discount controls are engineering only (KH2-022); base-cost planner remains explicit |
-| Equipment/abilities | 131 equipment identities and 167 scoped AP/effect/acquisition definitions | Dark Anklet missability conflict and incomplete stage-level shop conditions (KH2-006) |
+| Equipment/abilities | 131 equipment identities and 167 scoped AP/effect/acquisition definitions | Dark Anklet conversation/cutoff resolved; incomplete stage/room shop predicates (KH2-006) |
 | Forms/summons | Five FM Form curves, Final/Anti activation rules, four charms and supported summon behavior | Full FM thresholds and charm caps integrated (KH2-009 closed) |
-| Challenges/records | Twelve Mushroom strategies/rank tables; twenty optional boss records; eight cups/120 rounds; 29 minigames; 21 Limits; Mickey rescue guidance | Earliest Mushroom VII/XII gates (KH2-013); exact Pain/Panic MP reduction conflict (KH2-015) |
+| Challenges/records | Twelve Mushroom strategies/rank tables; twenty optional boss records; eight cups/120 rounds; 29 minigames; 21 Limits; Mickey rescue guidance | VII/XII named-event gates and25MP Pain/Panic costs integrated (KH2-013/015 closed) |
 | Gummi | 54 mission-mode goals, 27 normal rank/treasure tables, forty main and nineteen Teeny dependencies | Shared Material/G inventory and all automatic Teeny dependencies supplied; no invented Steam denominator (KH2-018 closed) |
-| Bestiary | 127  source groups / 227 edition-scoped contexts; individual-source Journal rosters of 82 Heartless and eleven Nobodies | Blank individual Mushroom numeric attributes remain unknown (KH2-019) |
+| Bestiary | 127  source groups / 227 edition-scoped contexts; individual-source Journal rosters of 82 Heartless and eleven Nobodies | I–XII base sheets and selected script overrides integrated; complete effective phase model/XIII internal sheet remain partial (KH2-019) |
 | Platforms/provenance | Fifty Steam goals, explicit legacy-source limits and future-release distinction | No claim of October 8 edition parity, retail verification or recovered historical source metadata |
 
 The resolution ledger controls the current status of all forty IDs. These counts overlap by acquisition; they are not a global percentage denominator. Engineering UI/device acceptance is separate from the evidence queue.
@@ -73,3 +73,5 @@ Future rebuilt per-game Copperminds must ground these answers in acquisition IDs
 - How do Form level 7 and standard Glide level 3 relate? State the correct scopes.
 
 Answer evaluation, offline SLM performance, app build, responsive UI and persistence migrations remain engineering work. No feature is validated simply because this research pack exists.
+
+October2 follow-up: [actual evidence and exact residuals](../games/kh2fm/gap-closure-2026-10-02.md). Ledger remains31 closed/3 partial with6 separately classified nonfactual limitations.
