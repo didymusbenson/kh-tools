@@ -5,7 +5,7 @@ const worlds = [
   ['Olympus','Return with the Gummiphone for Lucky Emblems. Five Golden Herc Figures exchange for Hero’s Belt in Agora.'],
   ['Twilight Town','Tram Common contains the Bistrot, Moogle workshop and Classic Kingdom posters.'],
   ['Toy Box','Galaxy Toys spans several floors and departments; use area names to distinguish repeated rooms.'],
-  ['Kingdom of Corona','Complete Rapunzel’s four Forest Clasp activities before reaching the Shore; sources disagree on the later cutoff.'],
+  ['Kingdom of Corona','Complete Rapunzel’s four Forest Clasp activities before the first Shore reward scene; the item is missable afterward.'],
   ['Monstropolis','Return after the story for elevator/vault treasures and the Vault Passage emblem.'],
   ['Arendelle','Frozen Slider’s ten prizes are separate from the 25 world chests. The score achievement needs 600,000, above the 500,000 A rank.'],
   ['The Caribbean','Island treasures, underwater passages and Port Royal are separate areas. Ship combat is distinct from Gummi combat.'],
@@ -71,6 +71,6 @@ const guide: GameGuide = {
     {id:'naval-rewards',label:'Naval Rewards',icon:'book'},
   ],
   entries:content.entries as CollectionEntry[], recipes:content.recipes,
-  coverage:'Updated Steam/Re Mind: 245 base chests, 90 emblems, nine DLC chests, 10 Slider prizes, 20 Photo Missions, 88 synthesis recipes, 170 forge actions, 28 cooking recipes, 172 ingredient route groups across all 59 ingredients, 81 adversaries, 54 Game Records, 23 Classic scores, 46 Gummi missions, 33 Gummi battles, nine sphere marker routes, 45 blueprint fragments, 13 Special Weapon references, 374 parts/cosmetics, 52 blueprints and 51 Steam achievements. Earliest chest/emblem access, every ingredient/material alternative, medal roll probabilities and platform/code predicates remain partial. Forest Clasp cutoff, Flan score equality and PRO rank B remain disputed. Categories use their own units; reference-only entries are not collection goals. Data Jiminy is excluded.',
+  coverage:'Updated Steam/Re Mind: 245 base chests, 90 emblems, nine DLC chests, 10 Slider prizes, 20 Photo Missions, 88 synthesis recipes, 170 forge actions, 28 cooking recipes, 172 ingredient route groups across all 59 ingredients, 81 adversaries, 54 Game Records, 23 Classic scores, 46 Gummi missions, 33 Gummi battles, nine sphere marker routes, 45 blueprint fragments, 13 Special Weapon references, 374 parts/cosmetics, 52 blueprints and 51 Steam achievements. Includes 33 Gummi battle approaches, 41 gate material routes and nine field routes. Optional earliest-access graphs, exhaustive alternatives, random weights and cross-platform precision are deferred. All seven Flans and five score challenges include start/scoring methods; all 157 equipment items have reviewed acquisition actions. Forest Clasp’s first-Shore deadline is reconciled; Flan equality and PRO rank B retain explicit evidence limits. Normal-ship deck reward-pool selection remains unverified. Salvager recovery after irreversible Gummi Ship Meister activation without an older clean save remains unverified. Categories use their own units; reference-only entries are not collection goals. Data Jiminy is excluded.',
 };
 export default guide;

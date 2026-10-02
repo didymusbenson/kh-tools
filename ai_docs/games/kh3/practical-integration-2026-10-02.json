@@ -73,6 +73,10 @@
     "kh3.material.blazing-stone",
     "kh3.material.blazing-gem",
     "kh3.material.blazing-crystal",
+    "kh3.material.frost-shard",
+    "kh3.material.frost-stone",
+    "kh3.material.frost-gem",
+    "kh3.material.frost-crystal",
     "kh3.material.lightning-shard",
     "kh3.material.lightning-stone",
     "kh3.material.lightning-gem",
@@ -81,6 +85,8 @@
     "kh3.material.soothing-stone",
     "kh3.material.soothing-gem",
     "kh3.material.soothing-crystal",
+    "kh3.material.writhing-shard",
+    "kh3.material.writhing-stone",
     "kh3.material.writhing-gem",
     "kh3.material.writhing-crystal",
     "kh3.material.betwixt-shard",
@@ -91,8 +97,13 @@
     "kh3.material.twilight-stone",
     "kh3.material.twilight-gem",
     "kh3.material.twilight-crystal",
+    "kh3.material.sinister-shard",
+    "kh3.material.sinister-stone",
+    "kh3.material.sinister-gem",
+    "kh3.material.sinister-crystal",
     "kh3.material.hungry-shard",
     "kh3.material.hungry-stone",
+    "kh3.material.hungry-gem",
     "kh3.material.hungry-crystal",
     "kh3.equipment.knight-s-shield-plus",
     "kh3.equipment.hero-s-glove",
@@ -174,7 +185,9 @@
     "kh3.material.twilight-crystal",
     "kh3.material.hungry-shard",
     "kh3.material.hungry-stone",
-    "kh3.material.hungry-crystal"
+    "kh3.material.hungry-crystal",
+    "kh3.material.writhing-shard",
+    "kh3.material.writhing-stone"
   ],
   "evidenceNotes": [
     "Gummi routes use indexed Xbox guide text; direct TrueAchievements request returned HTTP 402. No video frames or installed Steam executable inspected.",
@@ -182,5 +195,24 @@
     "Comet Crawler route guide asks 200 Speed, while KHWiki and GameFAQs say 100; the disagreement is disclosed without a controlled-boundary claim.",
     "Material farm links match exact existing drop-enemy names to sourced Battlegate rosters; they are usable repeat options, not measured fastest farms.",
     "Steam Gummi Ship Meister report supports a concrete Salvager warning but does not verify in-place eligibility recovery."
-  ]
+  ],
+  "materialFieldRouteIds": [
+    "kh3.material.frost-shard",
+    "kh3.material.frost-stone",
+    "kh3.material.frost-gem",
+    "kh3.material.frost-crystal",
+    "kh3.material.hungry-gem",
+    "kh3.material.sinister-shard",
+    "kh3.material.sinister-stone",
+    "kh3.material.sinister-gem",
+    "kh3.material.sinister-crystal"
+  ],
+  "validation": {
+    "tests": "npm test: 145 tests in 15 files passed",
+    "build": "npm run build passed; existing bundle-size advisory only",
+    "entryIdentityCheck": "All 1954 IDs preserved in original order",
+    "recipes": "All 286 recipe objects unchanged",
+    "jiminy": "Empty Coppermind checks passed; no pack file changes",
+    "uiOrGameplayTested": false
+  }
 }

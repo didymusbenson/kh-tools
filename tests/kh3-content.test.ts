@@ -45,7 +45,7 @@ describe('KHIII expanded acquisition catalog', () => {
   });
   it('documents every audit ID without treating the remaining evidence gaps as resolved', () => {
     expect(dispositions.findings.map(f => f.id)).toEqual(Array.from({ length: 35 }, (_, i) => `KH3-${String(i + 1).padStart(3, '0')}`));
-    expect(dispositions.statusCounts).toEqual({ partial: 13, resolved: 19, conflicted: 3 });
+    expect(dispositions.statusCounts).toEqual({ partial: 13, resolved: 20, conflicted: 2 });
     for (const f of dispositions.findings) {
       expect(f.consultedUrls.length, f.id).toBeGreaterThan(0);
       expect(f.remainingEvidenceBoundary.length, f.id).toBeGreaterThan(20);
