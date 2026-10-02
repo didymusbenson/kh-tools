@@ -1,5 +1,7 @@
 # KH1FM challenges, Gummi and run-goal research
 
+**Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
+
 **Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Researched 2026-09-18. Modern Final Mix rules; all systems below remain MVP. Sources describe game behavior; app counting and route recommendations are identified separately.
@@ -17,7 +19,7 @@ Each main cup needs three independent clear records: party, solo and time trial.
 
 Hercules Cup also grants Yellow Trinity; clearing the first three cups opens the Olympia chest. Cloud's Hercules Cup encounter supplies Metal Chocobo. Hades Cup contains additional rewards at named boss rounds; don't collapse these into the final cup reward. The linked cup pages provide the full seed/opponent lists for importing.
 
-Practical notes: defeat Yuffie before Leon to remove her healing in their paired encounter; throw a barrel to remove Hercules's invulnerability. Hades Cup checkpoints and variant unlock behavior need explicit fields in the normalized tournament data. [Pegasus strategy](https://www.khwiki.com/Pegasus_Cup), [Hercules strategy](https://www.khwiki.com/Hercules_Cup)
+Practical notes: defeat Yuffie before Leon to remove her healing in their paired encounter; throw a barrel to remove Hercules's invulnerability. Hades Cup checkpoints and variant unlock behavior are supplied in the normalized tournament data. [Pegasus strategy](https://www.khwiki.com/Pegasus_Cup), [Hercules strategy](https://www.khwiki.com/Hercules_Cup)
 
 ## Optional endgame encounters
 
@@ -29,7 +31,7 @@ Practical notes: defeat Yuffie before Leon to remove her healing in their paired
 | [Phantom](https://www.khwiki.com/Phantom) | Speak to Tinker Bell in the ship cabin with Peter Pan after rescue; Stop upgrade | Stop the clock hands to delay Doom. Match the exposed orb: red Fire, blue Blizzard, yellow Thunder, white physical. Bring MP recovery. |
 | [Unknown](https://www.khwiki.com/Game:Xemnas) | Hollow Bastion Chapel portal; EXP Necklace and Report 13 | Use Gravity openings and brief combos. When commands change, select Release rather than Shock. Save recovery resources for the faster final phase. |
 
-Unknown's exact earliest portal-spawn flag remains a targeted verification item; do not encode “available now” from an assumed Keyhole flag. The source establishes the encounter and rewards but does not establish that exact boundary.
+Unknown access is source-backed: exit the End of the World arrival tunnel to trigger the first cutscene, then return to Castle Chapel. Final Rest is not required (KH1-002 closed). This does not add an Available Now tracker.
 
 For Sephiroth, Heartless Angel reduces HP to 1 and MP to 0; interrupt it before it lands or recover immediately with an item. Leaf Bracer, Second Chance and MP recovery help. Final Mix Sonic Blade does not retain invulnerability throughout all follow-up thrusts, so older advice about that tactic needs correction. [KH1 battle mechanics](https://www.khwiki.com/Game:Sephiroth)
 
@@ -52,7 +54,7 @@ Clock Tower doors 1–12 award: Orichalcum, Power Up, Mythril Shard, Power Up, A
 
 ## Gummi mission objective matrix
 
-There are 30 missions: three for each destination below. This compact planning matrix retains the constraints needed by the future checklist. `S` = score, `E` = enemy ships destroyed, `O` = obstacles destroyed, `B` = blocks collected, `build` = installed block count, `ND` = no damage, `NB` = no braking. An arrow specifies departure; the row is the destination. `noShield` prohibits Shield-G/Shield2-G; `only` restricts weapons.
+There are 30 missions: three for each destination below. This compact planning matrix retains the constraints used by the implemented checklist. `S` = score, `E` = enemy ships destroyed, `O` = obstacles destroyed, `B` = blocks collected, `build` = installed block count, `ND` = no damage, `NB` = no braking. An arrow specifies departure; the row is the destination. `noShield` prohibits Shield-G/Shield2-G; `only` restricts weapons.
 
 | Destination | Mission 1 | Mission 2 | Mission 3 |
 |---|---|---|---|
@@ -111,4 +113,4 @@ Other achievement families cover Journal sections, weapons, magic/summons, level
 
 **App route recommendation, not a game requirement:** offer a thorough completion run and a separate fast restricted run. This reduces tension between exploration/farming and time/equipment restrictions. Do not assert the goals are mechanically incompatible or require two runs. Preserve user choice.
 
-Restricted-run guidance now includes Steam evidence for pause/cutscene timing, reported 100-hour rollover and awards from eligible pre-final-boss saves. Exact scripted/guest equipment flags, individual menu timing and save/system persistence remain KH1-003; the conservative route does not depend on those exceptions.
+Restricted-run guidance now includes Steam evidence for pause/cutscene timing, reported 100-hour rollover and awards from eligible pre-final-boss saves. KH1-003 has practical needs met; exact scripted/guest equipment flags, individual menu timing and save/system persistence are deferred. The existing route does not depend on those exceptions.

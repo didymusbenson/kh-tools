@@ -1,5 +1,7 @@
 # Roadmap and Backlog
 
+**KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](games/kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
+
 > **Current work — 2026-10-01.** Continue factual corrections across all seven games from the recovered research checkpoint. Use the [resolution report](research/research-resolution-2026-10-01.md), per-game ledgers and [recovery log](research/research-recovery-2026-10-01.md) for current research status. The older phase plan and backlog below preserve planning history; their “not started” and original assignment labels are not a current implementation inventory. The React/PWA foundation and all seven journals exist. Data Jiminy is flushed while its infrastructure remains in place.
 
 > **Active work sequence — 2026-09-22.** The next UI work follows the [KH1FM faithful-journal plan](ui/kh1fm-new-ui-plan.md#7-work-sequence-and-review-points): reference/decision pass, shell, first persistent collection, complete content mapping, tools and cutover. The phases below are the earlier broad roadmap; old UI completion is not acceptance of the new visual direction. All games and retained functional scope remain in scope.
@@ -73,7 +75,7 @@ Phases below describe work order, not separate releases. All non-deferred requir
 | Item | Phase | Priority | Status | Dependencies | Notes |
 |---|---|---|---|---|---|
 | Detailed legacy content audit | Discovery | High | In progress | None | Drive file inventory complete; actual range/record and repository audits ongoing in per-game research |
-| Validate specified MVP game coverage | Discovery | High | In progress | Legacy evidence and cited research | KH1 baseline documented; five parallel game research assignments underway; no dataset certified complete |
+| Validate specified MVP game coverage | Discovery | High | In progress | Legacy evidence and cited research | KH1 practical research needs met; other-game status follows the current workstream register. Research completion does not certify all app/device acceptance. |
 | Select React build stack | Discovery | High | Not started | Requirements | |
 | Define content schema | Discovery | High | Not started | Content inventory | Include optional media relationships |
 | Define media/annotation schema | Discovery | High | Spec drafted | Rights and content model | |

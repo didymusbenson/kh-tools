@@ -1,6 +1,6 @@
 # KH1FM implementation verification
 
-This is the historical initial-implementation test report. Its catalog counts, seeded memory pack, unavailable game selectors and named research gaps describe that checkpoint, not the current app. See [current research and validation](../research/research-resolution-2026-10-01.md) and [the memory flush](jiminy-memory-flush-2026-10-01.md): all seven journals are implemented and Data Jiminy is empty. Retain the older test results below as executed evidence, not as a newly run validation or active gap list.
+This is the historical initial-implementation test report. Its catalog counts, seeded memory pack, unavailable game selectors and named research gaps describe that checkpoint, not the current app. See [current KH1 research and validation](../games/kh1fm/research-integration-2026-10-02.md) and [the memory flush](jiminy-memory-flush-2026-10-01.md): all seven journals are implemented and Data Jiminy is empty. Retain the older test results below as executed evidence, not as a newly run validation or active gap list.
 
 ## Delivered scope
 

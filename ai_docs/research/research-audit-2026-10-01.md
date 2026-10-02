@@ -1,10 +1,12 @@
 # Research audit — October 1, 2026
 
+**Status boundary:** counts and open-work statements below describe the dated checkpoint, not today’s backlog. KH1 now has 14 closed and 6 partial evidence families (five deferred, one dropped), with no active research family in the reviewed scope. See [current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md) and [current cross-game accounting](gap-closure-coordination-2026-10-02.md).
+
 The user requested an exhaustive scan for incomplete, unverified, unresearched, hedged and disputed game data. Six high-reasoning agents audited all seven games against repository baseline **`f933ab1`**, with separate per-game deliverables. These are audits of the existing repository evidence, not new external research or certifications of game facts.
 
 ## Per-game reports
 
-| Game | Report | Finding groups (baseline; live status below) |
+| Game | Report | Finding groups at the audited baseline |
 |---|---|---|
 | KH1 Final Mix | [research_audit.md](../games/kh1fm/research_audit.md) | 20: 16 active content gaps, 2 lower-priority detail questions, 2 provenance limitations; historical resolutions separately listed |
 | Re:Chain of Memories HD | [research_audit.md](../games/recom/research_audit.md) | 32: 18 factual/extraction gaps, 2 integration/provenance, 8 resolved groups, 3 nonfactual groups, 1 caveat-propagation defect |

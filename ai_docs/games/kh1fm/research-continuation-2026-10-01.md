@@ -2,9 +2,9 @@
 
 **Subsequent integration:** [2026-10-02 practical research results](research-integration-2026-10-02.md) supersede the residual statuses below for 002, 014, 018 and 020. Earlier investigation text is preserved as history, not the active backlog.
 
-> Subsequent user decision, 2026-10-02: KH1-001 is closed at +4 Defense. Current KH1 totals are 12 closed, 6 partial and 2 unresolved. The dated investigation below preserves prior evidence; see the current resolution ledger.
+> **Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
 
-Continuation from checkpoint `2fd2927`; scope is Steam KH1 Final Mix in app 2552430. Every residual finding was reopened for a bounded source investigation. Current disposition: **11 closed, 6 partial, 3 unresolved**. KH1-016 closes with explicit modern PC documentary evidence and KH1-019 closes with all 55 individually observed API key/condition pairs; KH1-005 narrows to saved replay-time persistence. Neither result is described as a playthrough or executable verification.
+Continuation from checkpoint `2fd2927`; scope is Steam KH1 Final Mix in app 2552430. Every residual finding was reopened for a bounded source investigation. Disposition at that historical checkpoint: **11 closed, 6 partial, 3 unresolved**. KH1-016 closes with explicit modern PC documentary evidence and KH1-019 closes with all 55 individually observed API key/condition pairs; KH1-005 narrows to saved replay-time persistence. Neither result is described as a playthrough or executable verification.
 
 ## Every residual finding
 
@@ -47,4 +47,4 @@ KH1 reference importer and KH1-only content generator pass: **788 reference reco
 
 ## 2026-10-02 continuation
 
-KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. The new pass investigated all ten remaining IDs; nine remain open with exact missing evidence recorded in the gap-closure report.
+KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. At that checkpoint the pass investigated ten residual IDs and left nine open; subsequent decisions and integration supersede that backlog.

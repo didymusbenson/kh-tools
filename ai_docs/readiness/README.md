@@ -1,5 +1,7 @@
 # Per-game readiness
 
+**KH1 research — 2026-10-02:** practical needs met; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families are deferred and one dropped; none remain active in the reviewed research scope. [Current decisions and evidence](../games/kh1fm/research-integration-2026-10-02.md). This does not certify UI/device release acceptance or authorize reseeding Data Jiminy.
+
 These are working readiness checklists and answer logs, not declarations that a game is ready. All specified games/features remain MVP unless explicitly deferred. All seven games have implemented catalogs and a current research disposition ledger; the [October 1 resolution report](../research/research-resolution-2026-10-01.md) links those ledgers and recorded validation. See the [recovery/continuation log](../research/research-recovery-2026-10-01.md) for resumed work. The older [research assignments](../research/parallel-game-research.md) describe the initial September effort. Each game's readiness document records its current evidence and acceptance boundaries. 0.2 has a separate readiness checklist within the BBS family. There is no 2.8 collection checklist.
 
 ## Edition policy — accepted

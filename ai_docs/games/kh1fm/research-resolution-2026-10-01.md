@@ -4,7 +4,7 @@ Scope: modern Steam KH1 Final Mix in app 2552430. This pass investigated **all 2
 
 Current generated content: **1,259 entries** (471 collection + 788 reference), **33 recipes**, **26 coverage groups**. Added 80 Gummi part variants, seven editor tools and 23 general items; all twelve originally empty enemy facts now have their exceptional damage/EXP rules. The declared 22-activity minigame roster is complete; four Journal cup timers remain correctly represented under cups. Item records appear in Equipment, Items & Abilities as well as All Reference.
 
-Continuation: [all 12 residual investigations, pinned source evidence and validation](research-continuation-2026-10-01.md). The evidence narrative below records the first pass; the continuation supersedes KH1-005/016/019 outcomes.
+Current disposition is controlled by the ledger below and [October 2 integration](research-integration-2026-10-02.md). The [continuation](research-continuation-2026-10-01.md) and source narrative below are historical investigation records, superseded where the current ledger differs.
 
 ## Complete disposition ledger
 
@@ -31,7 +31,7 @@ Continuation: [all 12 residual investigations, pinned source evidence and valida
 | KH1-019 | Closed | All 55 key/condition pairs recovered individually from indexed SteamDB rows and matched to existing scoped goal names by requirement. [Per-key evidence](steam-key-continuation-evidence.json) retains queries and snippets. Direct Valve schema access remains unavailable; no order/percentage inference or independent mirror corroboration is claimed. |
 | KH1-020 | Partial — route questions resolved; provenance deferred | All three Trinity qualifiers adjudicated: Merlin save station accepted; Queen wording corrected to trial/tower battle; Grand Hall corrected to Entrance Hall with descent and Beast alternative supplied. Only inspected Steam build provenance remains deferred. See [integration evidence](research-integration-2026-10-02.md). |
 
-## Evidence and checks by finding
+## Historical evidence and checks by finding
 
 ### KH1-001–005: disputed stats, flags and Journal semantics
 
@@ -71,7 +71,7 @@ Canonical edits: `tools/content/import-reference.source.json`, `tools/content/ch
 
 ## 2026-10-02 continuation
 
-KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. The new pass investigated all ten remaining IDs; nine remain open with exact missing evidence recorded in the gap-closure report.
+KH1-004 is now closed: direct inspection of the Steam-linked uploader footage shows the HUD unit `m` at 0:03 and 0:38. Canonical target is 40 m. See [gap closure and exact provenance](gap-closure-2026-10-02.md); earlier unresolved-004 narrative above is historical. At that checkpoint ten residual IDs were investigated and nine remained open; that count is historical and superseded by the current ledger.
 
 ## October 2 user resolution — KH1-001
 

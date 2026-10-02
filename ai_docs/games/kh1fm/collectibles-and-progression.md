@@ -1,5 +1,7 @@
 # KH1FM collectibles and progression research
 
+**Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
+
 **Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Researched 2026-09-18 for modern Final Mix. Linked facts are research evidence, not a claim of hands-on validation. This supplements the [game spec](../kingdom-hearts-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-final-mix.md).
@@ -156,7 +158,7 @@ Verified Final Mix landmarks for reconciling the legacy level table:
 | [Leaf Bracer](https://www.khwiki.com/Leaf_Bracer) | 69 | 27 | 39 |
 | [Second Chance](https://www.khwiki.com/Second_Chance) | 48 | 36 | 90 |
 
-The full level/stat/EXP matrix is imported (99 Sora level rows and complete curves); the legacy duplicate level-15 row is superseded by sourced current data. Mixed-answer curve selection remains KH1-015.
+The full level/stat/EXP matrix is imported (99 Sora level rows and complete curves); the legacy duplicate level-15 row is superseded by sourced current data. KH1-015 is closed for practical needs: choose all first/middle/third answers for Dawn/Midday/Dead of Night, confirm the departure message, and reselect if needed. Mixed-answer edge cases are outside scope.
 
 ## Secret ending requirements
 
@@ -174,4 +176,4 @@ All puppy groups, marks, Report acquisitions and level rows are normalized; see 
 
 ## Current route and theater additions
 
-The two unopened Halloween Town cage chests now have their post-destruction location: enter Manor Ruins from Bridge and descend into the central hole. Mini-game Maniac has a self-contained seven-base-game plus four-cup-timer registration list. Both secret-ending runtime guides distinguish collection-menu Theater access from save unlocks; explicit modern PC documentary evidence now establishes both movies in Theater without gameplay unlock requirements (KH1-016 closed; see the [continuation](research-continuation-2026-10-01.md)). All five Slider fruit lines are supplied; exact four-course Vine sequences remain KH1-014.
+The two unopened Halloween Town cage chests now have their post-destruction location: enter Manor Ruins from Bridge and descend into the central hole. Mini-game Maniac has a self-contained seven-base-game plus four-cup-timer registration list. Both secret-ending runtime guides distinguish collection-menu Theater access from save unlocks; explicit modern PC documentary evidence now establishes both movies in Theater without gameplay unlock requirements (KH1-016 closed; see the [continuation](research-continuation-2026-10-01.md)). All five Slider fruit lines are supplied; all four Vine courses now have shared platform-route guidance and a finish landmark; exact modern per-vine layouts are deferred under KH1-014.

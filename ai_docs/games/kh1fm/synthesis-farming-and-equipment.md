@@ -1,5 +1,7 @@
 # KH1FM farming and equipment research
 
+**Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
+
 **Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Researched 2026-09-18 for modern Final Mix. The [33-recipe table](synthesis-recipes.md) is the calculation input. This document supplies source mechanics and equipment acquisition coverage; it does not claim every enemy's full stats/spawn table has been imported.
@@ -119,4 +121,4 @@ The canonical catalog now includes 54 accessories, 10 restoratives, three perman
 
 **Resolved KH1-C01:** Energy Bangle uses **2 Spirit Shards + 1 Bright Shard**. Dedicated recipe, KHGuides and legacy recipe corroborate this; direct Spirit Shard total is **13**. The former one-shard material-summary discrepancy is superseded by the canonical reconciliation. Three Stars Defense is +4 (KH1-001 closed by user decision); its recipe is independently resolved.
 
-Remaining data tasks: full accessory/stat inventory; complete material-source alternatives including Bambi's world/gauge rules; room-specific spawn/reset routes; conditional drop distributions; comparison to all legacy workbook records. These are required MVP content work, not deferred features.
+The equipment/item rosters, material-source tables, named room/reset farming routes and legacy semantic comparison are integrated. Bambi’s documented gauge and practical routes meet current needs; exhaustive exclusions/modifiers are deferred (KH1-010). MP Haste stays qualitative by user decision; Berserk includes reported max-HP-dependent thresholds, with remaining formula/boundary depth deferred (KH1-018). These are not active missing-catalog tasks.

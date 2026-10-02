@@ -1,5 +1,7 @@
 # KH1FM world inventory and research coverage
 
+**Current KH1 research status — 2026-10-02:** practical needs met for the reviewed scope; 14 closed, 6 partial evidence families, 0 unresolved. Five partial families (003, 010, 014, 018, 020) are deferred; 005 is dropped. No active research family remains in this scope. See [integration evidence](research-integration-2026-10-02.md) and [future improvements](future-improvements.md). App/UI/device acceptance remains separate.
+
 **Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Initial planning date: 2026-09-18; reconciled 2026-10-01. The current research ledger is research-resolution-2026-10-01.md. It distinguishes a researched game rule, a transcribed planning table, a normalized app dataset and an in-game-verified record. These are different milestones.
@@ -45,11 +47,11 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 
 | Prior IDs | Current disposition |
 |---|---|
-| D01–D07 | 471 collection/reference-route entries; 306 finite treasure/reward records, 33 puppy groups, 46 marks, 10 postcards, five pages and 13 Reports. All 535 original world-source rows have dispositions. Remaining Unknown earliest access is KH1-002; Phil/Vine details are KH1-005/014. |
-| D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense is +4 (KH1-001 closed by user decision); Bambi's exhaustive exclusions remain KH1-010. |
-| D11–D12 | 99 Sora level rows and full EXP curves, 21 magic acquisition events, six summons. Mixed opening answers remain KH1-015; missing level-matrix warning is obsolete. |
-| D13–D16 | 96 cup records, five endgame bosses plus early sparring, 22 activity/record checks, 30 Gummi missions, 48 blueprints, 80 Gummi parts and seven tools. Concrete four-family build guidance supplied. Exact Vine sequences and Phil replay semantics remain scoped residuals. |
-| D17–D18 | All 55 KH1 Steam goals; manual tracking. All 55 API keys mapped from individually observed condition/key rows (KH1-019 closed). Restricted-run flag details remain KH1-003; both secret movies’ independent PC Theater availability is now source-backed (KH1-016 closed). |
+| D01–D07 | 471 collection/reference-route entries; 306 finite treasure/reward records, 33 puppy groups, 46 marks, 10 postcards, five pages and 13 Reports. All 535 original world-source rows have dispositions. Unknown first-cutscene unlock is resolved (002); Phil saved replay persistence is dropped (005); practical Vine routes are integrated and exact modern layouts deferred (014). |
+| D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense is +4 (KH1-001 closed by user decision); Bambi's exhaustive exclusions are deferred under KH1-010; practical needs are met. |
+| D11–D12 | 99 Sora level rows and full EXP curves, 21 magic acquisition events, six summons. Guaranteed matching answer sets plus confirmation meet KH1-015; mixed combinations are outside scope. The level matrix is complete. |
+| D13–D16 | 96 cup records, five endgame bosses plus early sparring, 22 activity/record checks, 30 Gummi missions, 48 blueprints, 80 Gummi parts and seven tools. Concrete four-family build guidance supplied. Exact modern Vine layouts are deferred; Phil replay grants no further reward and the saved-best-time question is dropped. |
+| D17–D18 | All 55 KH1 Steam goals; manual tracking. All 55 API keys mapped from individually observed condition/key rows (KH1-019 closed). Restricted-run flag depth is deferred under KH1-003; both secret movies’ independent PC Theater availability is now source-backed (KH1-016 closed). |
 | D19 | Shared acquisition IDs and goal/planner links already implemented; broader integration acceptance belongs to root's engineering checks, not an invented missing game fact. |
 
 ## Earlier caveats reconciled
@@ -57,19 +59,19 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 | Prior ID | Current result |
 |---|---|
 | KH1-C01 | Resolved: Energy Bangle uses two Spirit Shards; direct total 13. |
-| KH1-C02 | KH1-002: exact earliest Unknown flag remains contradictory; safe Final Rest route supplied. |
-| KH1-C03 | KH1-003: pause/cutscene counting, rollover report and eligible-save awards added; exact flag/menu/system details remain. |
+| KH1-C02 | KH1-002 closed: trigger the first End of the World cutscene, then return to Castle Chapel; Final Rest is not required. |
+| KH1-C03 | KH1-003 practical needs met: existing run advice retained; exact flag/menu/system depth deferred. |
 | KH1-C04 | Retired scope: exhaustive narrative Journal/biography updates are not required. |
 | KH1-C05 | Resolved: Wonderland mission 2 requires at least five Accelerate uses and no damage. |
 
 ## Counts and provenance discipline
 
-Current production count is **1,259 entries**, **33 recipes**, **26 coverage groups**. All twelve blank enemy facts are resolved. New catalog completeness is roster completeness, not a claim to every redundant acquisition alternative. The 824-row [legacy crosswalk](legacy-value-crosswalk.json) distinguishes numeric equality, differences, replacement contexts and prose not semantically equated. All records remain source-backed or explicitly unresolved; no user gameplay verification gate is imposed. Precise Steam binary-build provenance remains KH1-020 because no installed binary was inspected. Use the [current resolution ledger](research-resolution-2026-10-01.md) for all active questions.
+Current production count is **1,259 entries**, **33 recipes**, **26 coverage groups**. All twelve blank enemy facts are resolved. New catalog completeness is roster completeness, not a claim to every redundant acquisition alternative. The 824-row [legacy crosswalk](legacy-value-crosswalk.json) distinguishes numeric equality, differences, replacement contexts and prose comparison scope; the companion semantic audit adjudicates all 642 queued cells and all three former Trinity qualifiers. All records remain source-backed or explicitly unresolved; no user gameplay verification gate is imposed. Precise Steam binary-build provenance is deferred under KH1-020; no installed binary was inspected. The [current resolution ledger](research-resolution-2026-10-01.md) distinguishes closed, deferred and dropped work.
 
 ## Offline and Data Jiminy implications
 
 Package the actual verified records and authored directions with the game content. Citation links are provenance users can open when online; they must not be the only place an answer exists. Data Jiminy must return a known record's location/prerequisites or a clear unknown status. It must not turn a research lead, ambiguous source or unresolved field into a confident answer. App code performs recipe and completion calculations.
 
-Only the precise current residuals in the resolution ledger remain research work; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
+No active research family remains in this reviewed scope; the resolution ledger distinguishes deferred evidence depth from the dropped Phil question; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
 
 The [shared validation policy](../../testing-and-content-validation.md) supersedes any older mandatory in-game/manual-save verification wording. Source conflicts remain content accuracy work. Initial functional acceptance includes first-class optional synthesis inventory, correct x/y and planner totals, no spoiler UI, and no Available Now tracker.
