@@ -62,7 +62,7 @@ for (c,p),outcomes in groups.items():
  for name,level in p:
   s=shop.get((c,name)); chest=[r for r in inv if r['character']==c and r['name']==name]
   routes=[]
-  if s: routes.append(f"Command Shop: {s['munny']} munny; "+(f"shop level {s['shop_level']}" if s['shop_level']!='—' else 'ordinary shop level not listed; first acquisition may unlock stock'))
+  if s: routes.append(s['instructions'])
   routes += [f"Chest: {r['world']} — {r['area']}" for r in chest]
   material(c,name,'; '.join(routes) or 'Meld / command acquisition', '; '.join(routes) or 'An input command; exact acquisition route is not yet documented in this guide.',[acq['command_shop']['source'],meld['source']])
   requirements.append(f'{name} level {level}')
@@ -77,7 +77,7 @@ for (c,p),outcomes in groups.items():
  recipes.append(dict(id=ident(c,'meld','-'.join(f'{n}-{l}' for n,l in p)),name=' / '.join(dict.fromkeys(r['result'] for r,rate in outcomes)),character=c,group='Command melding',instructions=instructions,ingredients=[dict(id=ident(c,'material',n),quantity=q) for n,q in counts.items()]))
 # All command-shop inventory, including inputs absent from the surviving meld set.
 for (c,name),r in shop.items():
- entries.append(dict(id=ident(c,'command',name),category='commands',name=name,character=c,summary=f"Command Shop · {r['munny']} munny",instructions=f"Shop level: {r['shop_level']}. A dash means no ordinary shop-level listing; many commands appear after first acquisition. Shop level rises through world completion.",sources=[acq['command_shop']['source']]))
+ entries.append(dict(id=ident(c,'command',name),category='commands',name=name,character=c,summary=f"Command Shop · {r['munny']} munny",instructions=r['instructions'],sources=[acq['command_shop']['source']]))
 crystals=[('Shimmering',300,1,1,'Blobmob 12%; Archraven 2.4% at shop 1–4, 3% at 5–6.'),('Fleeting',350,1,1,'Chrono Twister 12%; Sonic Blaster 7.2% at shop 5–6, 11.4% at 7–8.'),('Pulsing',300,1,1,'Wild Bruiser 21.6%; other enemy rates vary by shop level.'),('Wellspring',300,1,1,'Scrapper 1.8% at shop 1–2, 3% at 3–8; Triple Wrecker 10.8%.'),('Soothing',400,1,1,'Flood 4% at shop 1–6, 3.96% at 7–8; Jellyshade 3.2%.'),('Hungry',350,1,1,'Bruiser 6% at shop 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%.'),('Abounding',400,4,1,'Axe Flapper 14.4%; Mandrake 4.8% at shop 5–6, 7.6% at 7–8.'),('Chaos',500,5,10,'Archraven 0.3% at shop 7–8. Attaches a random ability.'),('Secret Gem',1500,8,15,'Flood 0.04% at shop 7–8. Random ability and maximizes result level.')]
 crystal_sources=json.loads((ROOT/'src/games/bbsfm/crystal-sources.json').read_text())
 spiderchest=next(r for r in crystal_sources if r['enemy']=='Spiderchest' and r['crystal']=='Fleeting Crystal')
