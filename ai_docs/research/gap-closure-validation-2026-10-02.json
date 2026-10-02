@@ -1,0 +1,221 @@
+{
+  "baseline": "c5ea2de",
+  "scope": "Identity, source presence, recipe links and ledger accounting; factual accuracy assessed separately.",
+  "games": {
+    "kh1fm": {
+      "path": "public/data/kh1fm.json",
+      "sha256": "e8901b306822b7187d19005c52167eee0896c148b87cd8d5907df359ea141764",
+      "entries": 1259,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 33,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+        "counts": {
+          "unresolvedOrConflicted": 3,
+          "partial": 6,
+          "closed": 11
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "recom": {
+      "path": "src/games/recom/ui-data.json",
+      "sha256": "58e7c00cdc829c31d161201381631245aa8c9f3ce6b1758a58d53e63aeac4375",
+      "entries": 431,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 0,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+        "counts": {
+          "unresolvedOrConflicted": 3,
+          "partial": 11,
+          "closed": 15,
+          "otherLimitations": 3
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "kh2fm": {
+      "path": "src/games/kh2fm/catalog.ts",
+      "sha256": "8cd9dc40a1417d7fc2a6a86d44dcdf31e762668ecc12e0d560885b184bdde583",
+      "entries": 1315,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 59,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+        "counts": {
+          "closed": 31,
+          "partial": 3,
+          "otherLimitations": 6
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "bbsfm": {
+      "path": "src/games/bbsfm/content.json",
+      "sha256": "80cd033e35628e11c2d4dbb5ace1a7c4c8d9adf00f1dcbe26dc1bbaeacfabbc7",
+      "entries": 1653,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 492,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+        "counts": {
+          "partial": 17,
+          "unresolvedOrConflicted": 4,
+          "closed": 12,
+          "otherLimitations": 5
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "dddhd": {
+      "path": "src/games/dddhd/content.json",
+      "sha256": "7ae9ca09d9ab5bfc9f7a0f317ec6686317adc9b88e2e928f8279cb05ecebdc37",
+      "entries": 1283,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 263,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+        "counts": {
+          "partial": 17,
+          "closed": 7,
+          "unresolvedOrConflicted": 1
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "kh02": {
+      "path": "src/games/kh02/catalog.ts",
+      "sha256": "2363a3fedc9783f7e632dfc77dea212197c647a5f36e15de3334ef026c9273b7",
+      "entries": 177,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 0,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+        "counts": {
+          "unresolvedOrConflicted": 1,
+          "closed": 11,
+          "partial": 6
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    },
+    "kh3": {
+      "path": "src/games/kh3/content.json",
+      "sha256": "29193d3387c328efd8b332507328c3fcc7992692f040a09d158a46471cec9c4d",
+      "entries": 1954,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [
+        "kh3.equipment.junior-medal-burn-protection",
+        "kh3.equipment.junior-medal-cloud-protection",
+        "kh3.equipment.junior-medal-electric-protection",
+        "kh3.equipment.junior-medal-freeze-protection",
+        "kh3.equipment.junior-medal-full-mp-blast",
+        "kh3.equipment.junior-medal-sneeze-protection",
+        "kh3.equipment.junior-medal-treasure-magnet",
+        "kh3.equipment.master-medal-aero-syphon",
+        "kh3.equipment.master-medal-blizzard-syphon",
+        "kh3.equipment.master-medal-defender",
+        "kh3.equipment.master-medal-extra-cast",
+        "kh3.equipment.master-medal-fire-boost",
+        "kh3.equipment.master-medal-fire-syphon",
+        "kh3.equipment.master-medal-lucky-strike",
+        "kh3.equipment.master-medal-magic-treasure-magnet",
+        "kh3.equipment.master-medal-stun-protection",
+        "kh3.equipment.master-medal-thunder-syphon",
+        "kh3.equipment.master-medal-water-boost",
+        "kh3.equipment.master-medal-water-syphon",
+        "kh3.equipment.star-medal-aero-boost",
+        "kh3.equipment.star-medal-blizzard-boost",
+        "kh3.equipment.star-medal-damage-syphon",
+        "kh3.equipment.star-medal-dark-syphon",
+        "kh3.equipment.star-medal-item-boost",
+        "kh3.equipment.star-medal-second-chance",
+        "kh3.equipment.star-medal-thunder-boost",
+        "kh3.equipment.star-medal-withstand-combo",
+        "kh3.equipment.star-medal-wizard-s-ruse"
+      ],
+      "entriesDuplicateIds": [],
+      "recipes": 286,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+        "counts": {
+          "partial": 13,
+          "closed": 19,
+          "unresolvedOrConflicted": 3
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      }
+    }
+  },
+  "errors": [],
+  "passed": true
+}

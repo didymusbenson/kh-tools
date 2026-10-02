@@ -1,6 +1,6 @@
 # Seven-game gap closure coordination — October 2, 2026 UTC
 
-User authorization: research the remaining facts, document evidence, update canonical data and the app, push checkpoints, and merge each game's completed work to `master`. Each game has a dedicated agent at medium reasoning and a separate branch/worktree. Three agents run concurrently; the remaining games start as slots become available. The coordinator serializes integration to avoid concurrent writes to `master`.
+User authorization: research the remaining facts, document evidence, update canonical data and the app, push checkpoints, and merge each game's completed work to `master`. Each game has a dedicated agent at medium reasoning and a separate branch/worktree. All seven agents completed their scoped research passes, with at most three workers running concurrently. The coordinator serializes integration to avoid concurrent writes to `master`.
 
 Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75 partial, 16 unresolved/conflicted, and 14 other limitations. These are issue families, not individual facts. The current game's ledger controls its exact remaining questions. A published checkpoint or passing test does not imply research completion.
 
@@ -12,7 +12,7 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 | Re:CoM | `research/finish-recom-gaps-2026-10-01` | 11 / 3 | Integrated; exact factual residuals remain |
 | KH2 FM | `research/finish-kh2fm-gaps-2026-10-01` | 3 / 0 | Integrated; exact factual residuals remain |
 | KH0.2 | `research/finish-kh02-gaps-2026-10-01` | 7 / 1 | Integrated; 1 new closure, exact residuals remain |
-| KH3 / Re Mind | `research/finish-kh3-gaps-2026-10-01` | 14 / 3 | Running |
+| KH3 / Re Mind | `research/finish-kh3-gaps-2026-10-01` | 14 / 3 | Integrated; 1 new closure, exact residuals remain |
 
 ## Recovery and integration contract
 
@@ -38,9 +38,11 @@ Baseline: `c5ea2de`. All 208 original findings are accounted for: 103 closed, 75
 
 - KH2 FM branch endpoint `9e972ccd7f5f4fef81faa7aed5e9bc4120291c9d`: actual HD gameplay resolves the Daylight 27 roof/pillar locator; all 14 numbered Mushroom scripts inventoried with hashes/callsites, supported HP floors and XII warp Thunder behavior integrated. Investigated original shop-data candidates without inventing vanilla predicates. Totals remain 31 closed, 3 partial and 6 other limitations. [KH2 pass report](../games/kh2fm/gap-closure-2026-10-02.md). All 136 application tests, full production build and cross-game integration checks passed. Seven pack and two seed tests also passed (seed tests use the pinned Chroma dependency in an isolated environment).
 
+- KH3 / Re Mind branch endpoint `6d7e3faf91d9dbca1aab2fef65ca989cfde0f737`: all 59 ingredient pages reviewed and 172 route groups integrated, 28 obtainable medal variants added, nine sphere routes completed, 151 acquisition associations across 104 equipment records, 12 sphere/material quantity links and copy-recovery corrections. Full published 99-level combined Main + Teeny budget table retained with its edition/unit caveats. KH3-024 newly closed; totals 19 closed, 13 partial, 3 conflicted. [KH3 pass report](../games/kh3/gap-closure-2026-10-02.md). All 139 application tests and the full production build passed.
+
 ## Current factual totals
 
-After DDD, BBS, KH1, KH0.2, Re:CoM and KH2 integration: **105 closed, 74 partial, 15 unresolved/conflicted, 14 other limitations**. KH3 is still in progress; these are current checked-in results, not projected closures.
+After all seven game integrations: **106 closed, 73 partial, 15 unresolved/conflicted, 14 other limitations**. Every one of the 91 starting partial/unresolved findings received a research pass. Three whole families newly closed (KH1-004, KH02-016, KH3-024); many other subclauses improved while their families remain partial. This completes the assigned seven-agent investigation and integration pass, not every remaining factual gap.
 
 ## Verified starting state and published worker checkpoints
 
@@ -57,3 +59,11 @@ The full DDD-branch [GitHub browser run](https://github.com/didymusbenson/kh-too
 At integrated `1bb9ed6`, `research-expansion.spec.ts` and `bbs-ux.spec.ts` produced 16 passes and two failures across desktop/mobile. Both failures are the KH3 Gummi checkbox immediate-reload scenario; the desktop failure was also reproduced against untouched `c5ea2de`. Selected Re:CoM reward-link, acquisition-note and paged-content scenarios passed 6/6 across desktop/mobile. Thus this selected run has 22 passes and two failures; it is not a full-browser green result. Browser tests have not been altered or disabled.
 
 The repeatable integration checker is `python3 tools/content/verify-gap-integration.py`. It reads the published baseline from Git and checks all seven catalogs for removed/duplicate identities, missing sources, broken recipe links and missing/duplicate audit findings. It does not independently prove the facts.
+
+## Final integration validation
+
+- All 139 application tests in 14 files pass; production build passes with the existing bundle-size advisory.
+- Seven pack tests and two seed tests pass. Empty Jiminy validation confirms zero thoughts/records.
+- DDD and KH0.2 content audits pass. The repeatable cross-game checker passes; its [machine-readable result](gap-closure-validation-2026-10-02.json) accounts for all 208 findings and preserves all prior entry/recipe IDs and source/recipe references. KH3 adds 28 entries.
+- After the final KH3 integration, desktop/mobile KH3 collection persistence and layout checks pass 2/2. Together with the earlier selected run, 24 selected scenarios passed and two immediate-reload scenarios failed; the separately documented full browser suite is not green.
+- Each worker branch and the serialized merges are published to GitHub. Active game ledgers and linked per-game reports retain the exact unresolved questions and evidence boundaries.

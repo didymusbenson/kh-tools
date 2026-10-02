@@ -4,7 +4,7 @@ This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanu
 
 ## Current phase
 
-The current task is seven-game factual research and correction. The [active gap-closure coordination log](./research/gap-closure-coordination-2026-10-02.md) tracks the new per-game branches, medium-reasoning workers and serialized integrations. The [October 1 resolution report](./research/research-resolution-2026-10-01.md) records the prior audit follow-through, and the [recovery/continuation log](./research/research-recovery-2026-10-01.md) preserves its remaining questions, updated documentation and git checkpoints. Game ledgers take precedence over old planning tables for current data gaps. Data Jiminy remains flushed while research continues.
+The seven-game research pass is integrated: every game had a medium-reasoning agent and its own branch, with reviewed merges to master. The [gap-closure coordination log](./research/gap-closure-coordination-2026-10-02.md) records the changes, validation and exact remaining scope: 106 closed, 73 partial, 15 unresolved/conflicted and 14 other limitations. The [October 1 resolution report](./research/research-resolution-2026-10-01.md) records the prior audit follow-through, and the [recovery/continuation log](./research/research-recovery-2026-10-01.md) preserves its remaining questions, updated documentation and git checkpoints. Game ledgers take precedence over old planning tables for current data gaps. Data Jiminy remains flushed while research continues.
 
 ## Journal implementation context
 

@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-02",
+  "medalVariantIds": [
+    "kh3.equipment.junior-medal-treasure-magnet",
+    "kh3.equipment.junior-medal-full-mp-blast",
+    "kh3.equipment.junior-medal-burn-protection",
+    "kh3.equipment.junior-medal-cloud-protection",
+    "kh3.equipment.junior-medal-sneeze-protection",
+    "kh3.equipment.junior-medal-freeze-protection",
+    "kh3.equipment.junior-medal-electric-protection",
+    "kh3.equipment.master-medal-fire-boost",
+    "kh3.equipment.master-medal-water-boost",
+    "kh3.equipment.master-medal-defender",
+    "kh3.equipment.master-medal-extra-cast",
+    "kh3.equipment.master-medal-lucky-strike",
+    "kh3.equipment.master-medal-magic-treasure-magnet",
+    "kh3.equipment.master-medal-stun-protection",
+    "kh3.equipment.master-medal-fire-syphon",
+    "kh3.equipment.master-medal-blizzard-syphon",
+    "kh3.equipment.master-medal-thunder-syphon",
+    "kh3.equipment.master-medal-water-syphon",
+    "kh3.equipment.master-medal-aero-syphon",
+    "kh3.equipment.star-medal-thunder-boost",
+    "kh3.equipment.star-medal-blizzard-boost",
+    "kh3.equipment.star-medal-aero-boost",
+    "kh3.equipment.star-medal-second-chance",
+    "kh3.equipment.star-medal-item-boost",
+    "kh3.equipment.star-medal-wizard-s-ruse",
+    "kh3.equipment.star-medal-withstand-combo",
+    "kh3.equipment.star-medal-damage-syphon",
+    "kh3.equipment.star-medal-dark-syphon"
+  ],
+  "sphereMaterialLinks": [
+    {
+      "materialId": "kh3.material.fluorite",
+      "sphereId": "kh3.gummi-spheres.02",
+      "quantity": 3
+    },
+    {
+      "materialId": "kh3.material.mythril-shard",
+      "sphereId": "kh3.gummi-spheres.03",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.mythril-stone",
+      "sphereId": "kh3.gummi-spheres.03",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.mythril-gem",
+      "sphereId": "kh3.gummi-spheres.04",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.damascus",
+      "sphereId": "kh3.gummi-spheres.05",
+      "quantity": 3
+    },
+    {
+      "materialId": "kh3.material.mythril-crystal",
+      "sphereId": "kh3.gummi-spheres.06",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.fluorite",
+      "sphereId": "kh3.gummi-spheres.06",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.adamantite",
+      "sphereId": "kh3.gummi-spheres.07",
+      "quantity": 3
+    },
+    {
+      "materialId": "kh3.material.damascus",
+      "sphereId": "kh3.gummi-spheres.07",
+      "quantity": 5
+    },
+    {
+      "materialId": "kh3.material.orichalcum-ordinary",
+      "sphereId": "kh3.gummi-spheres.08",
+      "quantity": 1
+    },
+    {
+      "materialId": "kh3.material.electrum",
+      "sphereId": "kh3.gummi-spheres.09",
+      "quantity": 2
+    },
+    {
+      "materialId": "kh3.material.fluorite",
+      "sphereId": "kh3.gummi-spheres.09",
+      "quantity": 5
+    }
+  ],
+  "sourceScope": "Published KHIII acquisition tables; Steam-specific untested boundaries remain in audit-dispositions.json.",
+  "harvestRouteIds": [
+    "kh3.material.veal",
+    "kh3.material.beef",
+    "kh3.material.quail",
+    "kh3.material.filet-mignon",
+    "kh3.material.crab",
+    "kh3.material.scallop",
+    "kh3.material.lobster",
+    "kh3.material.sole",
+    "kh3.material.eel",
+    "kh3.material.sea-bass",
+    "kh3.material.mussel",
+    "kh3.material.cod",
+    "kh3.material.pumpkin",
+    "kh3.material.zucchini",
+    "kh3.material.onion",
+    "kh3.material.tomato",
+    "kh3.material.eggplant",
+    "kh3.material.carrot",
+    "kh3.material.garlic",
+    "kh3.material.celery",
+    "kh3.material.morel",
+    "kh3.material.porcini",
+    "kh3.material.chanterelle",
+    "kh3.material.portobello",
+    "kh3.material.black-truffle",
+    "kh3.material.king-oyster-mushroom",
+    "kh3.material.black-trumpet",
+    "kh3.material.miller-mushroom",
+    "kh3.material.cloves",
+    "kh3.material.rosemary",
+    "kh3.material.thyme",
+    "kh3.material.bay-leaf",
+    "kh3.material.basil",
+    "kh3.material.dill",
+    "kh3.material.parsley",
+    "kh3.material.saffron",
+    "kh3.material.apricot",
+    "kh3.material.gooseberry",
+    "kh3.material.lemon",
+    "kh3.material.orange",
+    "kh3.material.raspberry",
+    "kh3.material.pear",
+    "kh3.material.blackberry",
+    "kh3.material.apple",
+    "kh3.material.cheese",
+    "kh3.material.chocolate",
+    "kh3.material.caviar",
+    "kh3.material.butter",
+    "kh3.material.olive-oil",
+    "kh3.material.cornichon",
+    "kh3.material.rice",
+    "kh3.material.honey",
+    "kh3.material.sour-cherry",
+    "kh3.material.strawberry",
+    "kh3.material.blood-orange",
+    "kh3.material.banana",
+    "kh3.material.grapes",
+    "kh3.material.melon",
+    "kh3.material.watermelon"
+  ],
+  "harvestRouteCount": 172,
+  "publishedCombinedCostLevels": 99,
+  "copyRecoveryIds": [
+    "kh3.rewards.222-sora-copies",
+    "kh3.rewards.333-sora-copies"
+  ],
+  "equipmentLinkedAcquisitionRecords": 104,
+  "equipmentAcquisitionLinks": 151,
+  "ingredientPagesReviewed": 59
+}

@@ -2,13 +2,13 @@
 
 ## Current research and implementation status — 2026-10-01
 
-KHIII/Re Mind canonical content now has **1926 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **14 partial, 18 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; full sphere flight approaches remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+KHIII/Re Mind canonical content now has **1954 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **13 partial, 19 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; all nine spheres now have built-in marker flight approaches. This is not a claim that every acquisition route or platform predicate is ready.
 
 The coverage matrix below reflects the current canonical content. Product requirements and acceptance contracts remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
 
 ## Current coverage and enduring requirements
 
-Status: **Broad sourced content integrated; specific factual and application gaps remain.** Updated 2026-10-01.
+Status: **Broad sourced content integrated; specific factual and application gaps remain.** Updated 2026-10-02.
 
 Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [KH3 research index](../games/kh3/README.md). Apply the [shared readiness/edition policy](README.md) and accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content-validation contract](../testing-and-content-validation.md). All required modules remain MVP; only missing production screenshot/map images are deferred.
 
@@ -36,12 +36,12 @@ Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [
 | Keyblades/equipment | 22 blade property catalogs, 170 applicable forge actions, 129 non-Keyblade items, 30 equipment shop tiers | Medal roll distributions and every alternative acquisition; regional entitlement edges |
 | Ingredients/cuisine | 59 ingredients, 298 source rows, 28 ingredient shop tiers, 28 recipes, 56 meal variants, four controls | Unique pickup-object coordinates and replenishment timers |
 | Classic Kingdom | 23 controls/acquisitions and registered-result completion rules | No numerical high-score goal is required |
-| Minigames/records | 54 Game Records, 81 adversaries, seven Flan tiers, rank/reward tables and Honey quantities | Flan equality, complete medal distributions and some Honey rank-label evidence |
+| Minigames/records | 54 Game Records, 81 adversaries, seven Flan tiers, rank/reward tables and Honey quantities | Flan equality, medal roll probabilities and some Honey rank-label evidence |
 | Battlegates/Reports | 15 routes/enemy lists/strategies and first-clear versus repeat rewards; 13 reports | Scoped inventory complete; broader farm efficiency remains separate |
-| Gummi | 46 missions, 33 battles, nine spheres, 374 parts, 52 blueprints, 45 fragment approaches, 13 special weapons, 19 abilities, nine constellation routes | Complete sphere flight approaches, numerical coordinates and level-by-level cost/AP curve |
+| Gummi | 46 missions, 33 battles, nine spheres, 374 parts, 52 blueprints, 45 fragment approaches, 13 special weapons, 19 abilities, nine constellation routes | Steam per-ship cost split and AP-cap curve; published combined 99-level cost table is attributed to Xbox |
 | Re Mind/Limitcut/Secret | Fourteen encounter guides, 11→13 order, rewards and episode access | Platform-specific save/control edges |
 | Premium Menu | 28 effects, nine merit predicates/unlocks, 34 boss scores, thirteen rank references | B-rank conflict, full score-replacement eligibility and modern Steam achievement/code persistence matrix |
-| Editions/achievements | 51 Steam predicates including hidden descriptions; Xbox/PlayStation count distinction and dated official notices | Epic authoritative set, every shipped build ID, cross-platform equivalence, transfer procedure; October 8 editions remain unshipped |
+| Editions/achievements | 51 Steam predicates including hidden descriptions; Xbox/PlayStation count distinction and dated official notices | Current Steam public build identified through SteamDB; other-platform predicates and transfer procedures remain outside current Steam certification |
 | Runtime/UX/Data Jiminy | Canonical JSON and shared guide module exist | Shared linked-state, offline/mobile behavior and Jiminy remain separate product validation work |
 
 The [continuation report](../games/kh3/research-continuation-2026-10-01.md) accounts for all 18 follow-up families. Counts describe represented units, not a blanket claim of complete alternative acquisition graphs.
@@ -99,7 +99,9 @@ No new questions were solicited. The parent relayed the accepted decisions above
 ## Next required work
 
 1. Resolve the enumerated minimum-access and modern-label residuals; retain completed pickup routes and stable IDs.
-2. Fill remaining alternative acquisition quantities, sphere flight approaches, replenishment/reset rules and medal distributions; retain completed recipes, forge ladders, goals and shop tiers.
+2. Fill remaining alternative acquisition quantities, replenishment/reset rules and medal roll probabilities; retain completed recipes, forge ladders, goals and shop tiers.
 3. Resolve exact Forest Clasp/Flan/B-rank conflicts and platform-specific save/Premium achievement eligibility edges with decisive evidence.
-4. Establish authoritative Epic predicates, shipped build metadata and final cloud-transfer procedure when available. Future editions stay announced until shipped evidence exists.
+4. Keep the dated Steam public-build mirror reference current; other-platform and future-edition evidence is outside this shipped Steam scope.
 5. Complete shared linked-record/offline/mobile acceptance and KH3 presentation work. Keep application implementation separate from evidence resolution; no user playthrough gate.
+
+Current gap-closure integration (2026-10-02): 28 obtainable medal variants and five activity/rank pools, 151 acquisition links across 104 equipment records, 12 material/sphere quantity links, 172 landmark route groups across all 59 ingredients, Final World copy-recovery directions, and an attributed 99-level combined Main + Teeny cost table. See [the closure report](../games/kh3/gap-closure-2026-10-02.md) for evidence and the precise remaining boundaries.
