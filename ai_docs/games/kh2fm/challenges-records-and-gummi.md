@@ -71,7 +71,7 @@ Use separate clear, high-score and reward states. Regular cups are entered throu
 
 The Final Mix [Paradox Cup guide](https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups) names the required forms explicitly: Cerberus uses Valor/Wisdom/Master; Hades adds Final. Limit Form is not included in these level checks. The [Olympus Coliseum world article](https://www.khwiki.com/Olympus_Coliseum) ties Titan to completing the second episode, resolving the old vague progress note.
 
-Cup rule effects matter to acquisition guidance: Pain/Panic disables Drive and changes Limit cost; Cerberus is solo with special Drive behavior; Titan permits solo summons; Hades changes rules by ten-round block. All eight cup tables (120 rounds) and rule-based tactics are integrated. Pain/Panic’s exact reduced MP cost remains a source conflict (25 MP versus half cost); the live guidance states the supported qualitative reduction.
+Cup rule effects matter to acquisition guidance: Pain/Panic disables Drive and changes Limit cost; Cerberus is solo with special Drive behavior; Titan permits solo summons; Hades changes rules by ten-round block. All eight cup tables (120 rounds) and rule-based tactics are integrated. Party Limits cost **25 MP** in both normal and Paradox Pain/Panic, corroborated by [KHGuides](https://www.khguides.com/kh2/olympus-coliseum/) and [AppMedia’s FM rule table](https://appmedia.jp/kh2fm/75148215). The older unscoped half-cost statement is not selected.
 
 ## Non-cup records recovered from the legacy workbook
 
@@ -135,3 +135,9 @@ Steam is the user's platform. The official [Steam store](https://store.steampowe
 The historical legacy `achievements` range contains 51 trophy-name/description candidates, including a PlayStation platinum. Preserve the useful requirements, but do not import the platinum into Steam or claim platform parity. Separate categories include level/difficulty clears, rescues, optional fights, form/summon development, equipment acquisition, Journal goals and Gummi ranks/blueprints. All fifty KHII Steam names and conditions are now normalized in `verified-steam-achievements.json`, without the PlayStation platinum. Internal platform API-key mapping is not required to explain a goal, and future platform parity is not inferred.
 
 Official Journal-completion requirements on an achievement remain accurate as achievement text. World collectibles 100% does not prove that trophy, and no full Chronicles/biography trigger manifest is introduced as a release blocker. The app should provide the linked acquisition/record requirements and be clear about which goal set is being measured.
+
+### October 1 Mushroom follow-up
+
+Mushroom VII requires completion of the late Twilight Town story visit ending with Axel in Betwixt and Between; return from The World That Never Was to the Tunnelway. Mushroom XII is available after the earlier Twilight Town visit that awards Oathkeeper and Limit Form, but not during the subsequent mansion/computer episode. Japanese guides call those Episode 2 and Episode 1 respectively, excluding Sora’s awakening prologue. Exact source predicates and edition caveats are in the [continuation](research-continuation-2026-10-01.md).
+
+The bestiary now includes source-derived base HP/STR/DEF/EXP for I–XII. Those parameters are not trial hit targets: several mushrooms use counters or invulnerability, and IV’s clone HP changes by phase. The reward ceremony XIII has no normal defeat target.

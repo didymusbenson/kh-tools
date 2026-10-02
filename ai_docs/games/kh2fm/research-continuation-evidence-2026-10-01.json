@@ -1,0 +1,87 @@
+{
+  "reviewed": "2026-10-01",
+  "baseline": "2fd2927",
+  "edition": "English modern KH2 Final Mix; Japanese PS2 FM and HD guides are identified separately. No new retail extraction or live game run.",
+  "findings": [
+    {
+      "id": "KH2-003",
+      "result": "partial",
+      "sources": [
+        "https://guiding-key.tumblr.com/kh2-puzzles",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU",
+        "https://www.youtube.com/watch?v=mURDganqsU4",
+        "https://gamefaqs.gamespot.com/ps3/735143-kingdom-hearts-hd-25-remix/faqs/55322",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62",
+        "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
+      ],
+      "evidence": "New indexed puzzle table repeats shop roof for Daylight27 and white-orb area for all three Sunset crowns. Retrieved HD gameplay video page identifies Tram Common central pillar at 01:01, but does not connect that description to the puzzle number in visible frames.",
+      "accessLimits": "YouTube page and chapter metadata retrieved; storyboard and chapter-thumbnail endpoints returned Site Unavailable/403/404. TA and PST direct requests returned 403; GameFAQs web open failed. No footage frame was visually verified.",
+      "remaining": [
+        "Daylight27 roof versus central pillar naming",
+        "Individual Sunset32/36/40 pipe ordering"
+      ]
+    },
+    {
+      "id": "KH2-006",
+      "result": "partial",
+      "sources": [
+        "https://appmedia.jp/kh2fm/27258790",
+        "https://akizakki.com/kh2fm-torikaesi",
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/SystemData/Shop.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/shops.md",
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/shop.bin"
+      ],
+      "evidence": "Dark Anklet cutoff and talk-once preservation selected; AppMedia explicitly says conversation is enough. Japanese Library is 書斎; English area is Library.",
+      "rejectedInput": "Decoded randomizer shop.bin has 21 shops and 38 inventories, with world shops sharing the same 34 inventory groups and ten staff/shield items. It is a modified randomizer baseline, so it cannot certify retail per-shop story flags.",
+      "remaining": [
+        "Exact retail stage/room predicates for every vendor item beyond supported existing shop/world and stock-copy rules"
+      ]
+    },
+    {
+      "id": "KH2-013",
+      "result": "closed",
+      "sources": [
+        "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+        "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+        "https://appmedia.jp/kh2fm/75132744",
+        "https://appmedia.jp/kh2fm/75132771"
+      ],
+      "evidence": "Wazap’s 2007 FM guide gives VII after Twilight Town EP2 and XII after EP1 except during EP2. AppMedia maps EP1 to Oathkeeper/Limit Form and EP2 to Axel’s passage into TWTNW. KingdomGarden indexed XII entry corroborates, with direct URL now 404.",
+      "editionBoundary": "Event-level access is supported by FM/HD guides; no executable flag address is claimed."
+    },
+    {
+      "id": "KH2-015",
+      "result": "closed",
+      "sources": [
+        "https://www.khguides.com/kh2/olympus-coliseum/",
+        "https://appmedia.jp/kh2fm/75148215",
+        "https://www.finalfantasykingdom.net/kh2coliseum.php"
+      ],
+      "evidence": "FM-specific KHGuides and AppMedia agree on 25 MP; AppMedia explicitly groups normal and Paradox Pain/Panic. FinalFantasyKingdom half-cost rule lacks the FM specificity and is not selected.",
+      "integration": "Both runtime cup patches use 25 MP; the Rapid Thruster tactic is corrected from round9 to its roster’s round8."
+    },
+    {
+      "id": "KH2-019",
+      "result": "partial",
+      "sources": [
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/res/enmp.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Enmp.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/enemy.md",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/file/type/00battle.md",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+        "https://www.khwiki.com/Talk:Mushroom_XIII",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/BattleTests.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Lvpm.cs",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_06/m_ex.bdscript",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_12/m_ex.bdscript",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript"
+      ],
+      "evidence": "Decoded I–XII base parameter rows and IV phase-sheet rows. Published HP formula resolves 1351 raw to 1000 effective base at level34 (HP factor74). IV script selects sheets247/248/249/251. Talk notes corroborate V/VII/X1000 and IV1/2/5/16.",
+      "remaining": [
+        "Complete effective challenge-script overrides and XIII unused/internal combat attributes are not certified; baseline sheet values are explicitly qualified."
+      ]
+    }
+  ]
+}

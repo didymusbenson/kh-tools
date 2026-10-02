@@ -793,7 +793,9 @@
         "get": "[[Mogjiro's Moogle Shop]]"
       },
       "sources": [
-        "https://www.khwiki.com/Dark_Anklet"
+        "https://www.khwiki.com/Dark_Anklet",
+        "https://appmedia.jp/kh2fm/27258790",
+        "https://akizakki.com/kh2fm-torikaesi"
       ],
       "id": "kh2fm.equipment.dark-anklet",
       "displayStats": "Defense +2; Dark resistance +20%",
@@ -802,15 +804,24 @@
         "name": "Dark Anklet",
         "category": "equipment",
         "summary": "Armor · Defense +2; Dark resistance +20%",
-        "instructions": "Mogjiro's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mogjiro — Disney Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there. Visit Mogjiro before the Badlands portal opens to retain access to his stock.",
+        "instructions": "Buy from Mogjiro in Disney Castle’s Library for 300 munny (sale price: 150). Talk to this Moogle before the Badlands portal appears for Lingering Will: once it appears, Mogjiro disappears. One conversation preserves his equipment stock at the armor shops in Twilight Town and Hollow Bastion/Radiant Garden; purchasing the anklet before the cutoff is not required. If Mogjiro was never visited before that cutoff, Dark Anklet can no longer be bought on that save.",
         "sources": [
           "https://www.khwiki.com/Dark_Anklet",
           "https://www.khwiki.com/Moogle_Shop",
-          "https://www.khwiki.com/Moogle"
+          "https://www.khwiki.com/Moogle",
+          "https://appmedia.jp/kh2fm/27258790",
+          "https://akizakki.com/kh2fm-torikaesi"
         ],
         "collectible": false,
         "checkable": false,
-        "uncertainty": "The shop guide says Dark Anklet becomes unavailable if Mogjiro was never visited before the portal opens; the general armor overview calls Champion Belt the only missable armor. These source statements have not been independently reconciled."
+        "world": "Disney Castle",
+        "area": "Library"
+      },
+      "researchResolution": {
+        "reviewed": "2026-10-01",
+        "selected": "Specific FM shop disappearance and talk-once copying rule independently corroborated by AppMedia and Game Tankyuki.",
+        "rejected": "The broad Armor overview statement that only Champion Belt is missable is incomplete for this conditional shop case.",
+        "editionBoundary": "FM/HD guides; no retail Steam executable run."
       }
     },
     {

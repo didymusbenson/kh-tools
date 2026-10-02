@@ -12653,7 +12653,14 @@
       "name": "Mushroom XIII",
       "sourceName": "Mushroom XIII",
       "sources": [
-        "https://www.khwiki.com/Mushroom_XIII"
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/res/enmp.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Enmp.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/enemy.md",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/file/type/00battle.md",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+        "https://www.khwiki.com/Talk:Mushroom_XIII",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript"
       ],
       "contexts": [
         {
@@ -12711,7 +12718,219 @@
       ],
       "types": [
         "Emblem Heartless"
-      ]
+      ],
+      "followupInstructions": "Source-derived base parameters for Mushrooms I–XII (HP / STR / DEF / EXP): I 1 / 5 / 2 / 0; II 1 / 5 / 2 / 0; III 1 / 5 / 2 / 0; IV initially 1 / 45 / 26 / 0; V 1000 / 32 / 18 / 0; VI 1 / 5 / 2 / 0; VII 1000 / 32 / 18 / 0; VIII 1 / 5 / 2 / 0; IX 1 / 5 / 2 / 0; X 1000 / 32 / 18 / 0; XI 1 / 5 / 2 / 0; XII 1 / 5 / 2 / 0. IV’s clone HP rises to 2 after 10 defeats, 5 after 50 and 16 after 75. These are enemy-sheet parameters, not the number of hits needed to pass a trial: challenge scripts use invulnerability, minimum HP, counters and clones. XIII is the reward ceremony, with no ordinary defeat target; its unused/internal combat attributes are not asserted. Values combine a pinned OpenKH FM-content test fixture with the published level-scaling formula and Ultimania-attributed level table; they are not newly measured Steam values.",
+      "parameterEvidence": {
+        "reviewed": "2026-10-01",
+        "fixtureSha256": "e56847720aa99a981aca6f8317bfd4c02adfead653ccd74da3b7ded302461818",
+        "fixtureBytes": 21076,
+        "headerVersion": 2,
+        "entryCount": 229,
+        "entrySize": 92,
+        "formula": "ceil(ENMP.Health[0] * LVPM.HP / 100); fixed nonzero ENMP level selects STR/DEF. EXP multiplier is explicitly zero for each decoded row.",
+        "levelParameters": {
+          "1": {
+            "hpMultiplier": 20,
+            "strength": 5,
+            "defense": 2
+          },
+          "34": {
+            "hpMultiplier": 74,
+            "strength": 32,
+            "defense": 18
+          },
+          "50": {
+            "hpMultiplier": 100,
+            "strength": 45,
+            "defense": 26
+          }
+        },
+        "rows": [
+          {
+            "mushroom": 1,
+            "enmpId": 201,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 2,
+            "enmpId": 202,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 3,
+            "enmpId": 203,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 4,
+            "enmpId": 251,
+            "level": 50,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 45,
+              "defense": 26,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 5,
+            "enmpId": 205,
+            "level": 34,
+            "healthParameter": 1351,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1000,
+              "strength": 32,
+              "defense": 18,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 6,
+            "enmpId": 206,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 7,
+            "enmpId": 207,
+            "level": 34,
+            "healthParameter": 1351,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1000,
+              "strength": 32,
+              "defense": 18,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 8,
+            "enmpId": 208,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 9,
+            "enmpId": 209,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 10,
+            "enmpId": 210,
+            "level": 34,
+            "healthParameter": 1351,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1000,
+              "strength": 32,
+              "defense": 18,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 11,
+            "enmpId": 211,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          },
+          {
+            "mushroom": 12,
+            "enmpId": 212,
+            "level": 1,
+            "healthParameter": 1,
+            "experienceMultiplier": 0,
+            "derivedBaseStats": {
+              "hp": 1,
+              "strength": 5,
+              "defense": 2,
+              "exp": 0
+            }
+          }
+        ],
+        "mushroomIVSheets": [
+          {
+            "enmpId": 251,
+            "level": 50,
+            "healthParameter": 1,
+            "experienceMultiplier": 0
+          },
+          {
+            "enmpId": 247,
+            "level": 50,
+            "healthParameter": 2,
+            "experienceMultiplier": 0
+          },
+          {
+            "enmpId": 248,
+            "level": 50,
+            "healthParameter": 5,
+            "experienceMultiplier": 0
+          },
+          {
+            "enmpId": 249,
+            "level": 50,
+            "healthParameter": 16,
+            "experienceMultiplier": 0
+          }
+        ],
+        "remaining": "The fixture/parser and published level table determine base sheets. A complete Steam runtime trace of every challenge script and XIII internal attributes has not been performed. No one-hit or ordinary HP-depletion claim is made for counter-based trials."
+      }
     },
     {
       "name": "Oogie Boogie",

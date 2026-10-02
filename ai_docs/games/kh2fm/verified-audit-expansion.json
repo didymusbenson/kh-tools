@@ -1347,8 +1347,13 @@
     "kh2fm.mushrooms.mushroom-xiii-7": {
       "appendInstructions": "Keep away from contact; Reflect or long-range magic avoids its knockback.",
       "appendSources": [
-        "https://www.khwiki.com/Mushroom_XIII"
-      ]
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+        "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+        "https://appmedia.jp/kh2fm/75132744",
+        "https://appmedia.jp/kh2fm/75132771"
+      ],
+      "prerequisites": "Complete Twilight Town’s late story visit: finish the fight alongside Axel in Betwixt and Between and reach The World That Never Was, then return to the Tunnelway. This is Episode 2 in Japanese guides, or Sora’s third visit when his awakening visit is counted."
     },
     "kh2fm.mushrooms.mushroom-xiii-8": {
       "appendInstructions": "Use Berserk Charge and Horizontal Slash to keep it airborne; remove MP Haste and empty MP first.",
@@ -1383,8 +1388,13 @@
     "kh2fm.mushrooms.mushroom-xiii-12": {
       "appendInstructions": "Use Wisdom Form shots and turn the camera between clones, including those above the pillars.",
       "appendSources": [
-        "https://www.khwiki.com/Mushroom_XIII"
-      ]
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+        "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+        "https://appmedia.jp/kh2fm/75132744",
+        "https://appmedia.jp/kh2fm/75132771"
+      ],
+      "prerequisites": "Complete the Twilight Town return that awards Oathkeeper and Limit Form, then revisit The Old Mansion. It is temporarily unavailable during the later mansion/computer story episode and returns after that episode is cleared."
     },
     "kh2fm.challenges.absent-silhouette-zexion": {
       "world": "Olympus Coliseum",
@@ -1989,15 +1999,19 @@
       ]
     },
     "kh2fm.cups.pain-and-panic": {
-      "appendInstructions": "Drive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.",
+      "appendInstructions": "Drive use is disabled; party Limits consume 25 MP. Use repeated party Limits for safety; Magnet and Thunder on round 8’s Rapid Thrusters can raise the score.",
       "appendSources": [
-        "https://www.khwiki.com/Pain_and_Panic_Cup"
+        "https://www.khwiki.com/Pain_and_Panic_Cup",
+        "https://www.khguides.com/kh2/olympus-coliseum/",
+        "https://appmedia.jp/kh2fm/75148215"
       ]
     },
     "kh2fm.cups.pain-and-panic-paradox": {
-      "appendInstructions": "Drive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.",
+      "appendInstructions": "Drive use is disabled; party Limits consume 25 MP. Use repeated party Limits for safety; Magnet and Thunder on round 8’s Rapid Thrusters can raise the score.",
       "appendSources": [
-        "https://www.khwiki.com/Pain_and_Panic_Cup"
+        "https://www.khwiki.com/Pain_and_Panic_Cup",
+        "https://www.khguides.com/kh2/olympus-coliseum/",
+        "https://appmedia.jp/kh2fm/75148215"
       ]
     },
     "kh2fm.cups.cerberus": {
@@ -4413,5 +4427,9 @@
         "https://www.khguides.com/kh2/collectibles/treasures/"
       ]
     }
-  ]
+  ],
+  "continuation20261001": {
+    "cupCost": "FM-specific English and Japanese tables select 25 MP; the unscoped half-MP statement is rejected for this catalog.",
+    "mushroomGates": "Japanese episode numbers exclude Sora’s opening prologue; translated to named story events. Wazap supplies both predicates; KingdomGarden’s indexed XII passage corroborates XII, though direct retrieval now returns 404."
+  }
 }

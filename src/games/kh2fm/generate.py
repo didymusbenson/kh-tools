@@ -223,7 +223,7 @@ for record in enemy_research['records']:
    else:lines.append(' / '.join(row))
   sections.append(context['name']+' — '+' | '.join(lines)+(' Notes: '+'; '.join(context['notes']) if context['notes'] else ''))
  e['instructions']=e.get('instructions','')+'\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\n'+'\n\n'.join(sections)
- if record['name']=='Mushroom XIII':e['instructions']+='\n\nIndividual challenge goals, material/weapon prizes and tactics are in Mushroom XIII. The inspected combat table supplies shared resistance factors but no individual HP/STR/DEF/EXP values.'
+ if record.get('followupInstructions'):e['instructions']+='\n\n'+record['followupInstructions']
 for label,id in [('Heartless','heartless-highbrow'),('Nobodies','nobody-know-it-all')]:
  e=entry_by_id['kh2fm.achievements.'+id]
  e['instructions']=e.get('instructions','')+'\n\nJournal roster: '+', '.join(r['name'] for r in enemy_research['journalRoster'][label])+'.'

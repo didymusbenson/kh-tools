@@ -10153,8 +10153,13 @@ export const entries: CollectionEntry[] = [
     "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–40.00; E: 40.01–60.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–35.00; E: 35.01–50.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nKeep away from contact; Reflect or long-range magic avoids its knockback.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+      "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+      "https://appmedia.jp/kh2fm/75132744",
+      "https://appmedia.jp/kh2fm/75132771"
+    ],
+    "prerequisites": "Complete Twilight Town’s late story visit: finish the fight alongside Axel in Betwixt and Between and reach The World That Never Was, then return to the Tunnelway. This is Episode 2 in Japanese guides, or Sora’s third visit when his awakening visit is counted."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-8",
@@ -10229,8 +10234,13 @@ export const entries: CollectionEntry[] = [
     "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (clones): S: 50; A: 44–49; B: 40–43; C: 30–39; D: 25–29; E: 20–24.\n\nWeapon ranks (clones): S: 50; A: 47–49; B: 42–46; C: 35–41; D: 27–34; E: 22–26.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nUse Wisdom Form shots and turn the camera between clones, including those above the pillars.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+      "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+      "https://appmedia.jp/kh2fm/75132744",
+      "https://appmedia.jp/kh2fm/75132771"
+    ],
+    "prerequisites": "Complete the Twilight Town return that awards Oathkeeper and Limit Form, then revisit The Old Mansion. It is temporarily unavailable during the later mansion/computer story episode and returns after that episode is cleared."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-13",
@@ -10559,12 +10569,14 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Clear Disney Castle",
     "reward": "Protect Belt + Serenity Stone",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled; party Limits consume 25 MP. Use repeated party Limits for safety; Magnet and Thunder on round 8’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Pain_and_Panic_Cup",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups",
-      "https://www.khwiki.com/Olympus_Coliseum"
+      "https://www.khwiki.com/Olympus_Coliseum",
+      "https://www.khguides.com/kh2/olympus-coliseum/",
+      "https://appmedia.jp/kh2fm/75148215"
     ]
   },
   {
@@ -10623,12 +10635,14 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Goddess of Fate clear",
     "reward": "Challenge/record",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled; party Limits consume 25 MP. Use repeated party Limits for safety; Magnet and Thunder on round 8’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
     "collectible": false,
     "sources": [
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups",
       "https://www.khwiki.com/Olympus_Coliseum",
-      "https://www.khwiki.com/Pain_and_Panic_Cup"
+      "https://www.khwiki.com/Pain_and_Panic_Cup",
+      "https://www.khguides.com/kh2/olympus-coliseum/",
+      "https://appmedia.jp/kh2fm/75148215"
     ]
   },
   {
@@ -18155,15 +18169,18 @@ export const entries: CollectionEntry[] = [
     "name": "Dark Anklet",
     "category": "equipment",
     "summary": "Armor · Defense +2; Dark resistance +20%",
-    "instructions": "Mogjiro's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mogjiro — Disney Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there. Visit Mogjiro before the Badlands portal opens to retain access to his stock.",
+    "instructions": "Buy from Mogjiro in Disney Castle’s Library for 300 munny (sale price: 150). Talk to this Moogle before the Badlands portal appears for Lingering Will: once it appears, Mogjiro disappears. One conversation preserves his equipment stock at the armor shops in Twilight Town and Hollow Bastion/Radiant Garden; purchasing the anklet before the cutoff is not required. If Mogjiro was never visited before that cutoff, Dark Anklet can no longer be bought on that save.",
     "sources": [
       "https://www.khwiki.com/Dark_Anklet",
       "https://www.khwiki.com/Moogle_Shop",
-      "https://www.khwiki.com/Moogle"
+      "https://www.khwiki.com/Moogle",
+      "https://appmedia.jp/kh2fm/27258790",
+      "https://akizakki.com/kh2fm-torikaesi"
     ],
     "collectible": false,
     "checkable": false,
-    "uncertainty": "The shop guide says Dark Anklet becomes unavailable if Mogjiro was never visited before the portal opens; the general armor overview calls Champion Belt the only missable armor. These source statements have not been independently reconciled."
+    "world": "Disney Castle",
+    "area": "Library"
   },
   {
     "id": "kh2fm.equipment.midnight-anklet",
@@ -20166,9 +20183,16 @@ export const entries: CollectionEntry[] = [
     "checkable": false,
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Mushroom_XIII"
+      "https://www.khwiki.com/Mushroom_XIII",
+      "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/res/enmp.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Enmp.cs",
+      "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/enemy.md",
+      "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/file/type/00battle.md",
+      "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+      "https://www.khwiki.com/Talk:Mushroom_XIII",
+      "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript"
     ],
-    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMushroom XIII — Physical: x0.5[1]; Fire: x0.5; Blizzard: x0.5 | Thunder: x0.5; Dark: x0.5; Neutral: x0.5[2] | Rewards: See Prizes | World(s): Various (See below) Notes: ^ Weapon vulnerability is x1.0 for No. 5, 7, and 10.; ^ Other vulnerability is x1.0 for No. 5, 7, and 10.\n\nIndividual challenge goals, material/weapon prizes and tactics are in Mushroom XIII. The inspected combat table supplies shared resistance factors but no individual HP/STR/DEF/EXP values."
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMushroom XIII — Physical: x0.5[1]; Fire: x0.5; Blizzard: x0.5 | Thunder: x0.5; Dark: x0.5; Neutral: x0.5[2] | Rewards: See Prizes | World(s): Various (See below) Notes: ^ Weapon vulnerability is x1.0 for No. 5, 7, and 10.; ^ Other vulnerability is x1.0 for No. 5, 7, and 10.\n\nSource-derived base parameters for Mushrooms I–XII (HP / STR / DEF / EXP): I 1 / 5 / 2 / 0; II 1 / 5 / 2 / 0; III 1 / 5 / 2 / 0; IV initially 1 / 45 / 26 / 0; V 1000 / 32 / 18 / 0; VI 1 / 5 / 2 / 0; VII 1000 / 32 / 18 / 0; VIII 1 / 5 / 2 / 0; IX 1 / 5 / 2 / 0; X 1000 / 32 / 18 / 0; XI 1 / 5 / 2 / 0; XII 1 / 5 / 2 / 0. IV’s clone HP rises to 2 after 10 defeats, 5 after 50 and 16 after 75. These are enemy-sheet parameters, not the number of hits needed to pass a trial: challenge scripts use invulnerability, minimum HP, counters and clones. XIII is the reward ceremony, with no ordinary defeat target; its unused/internal combat attributes are not asserted. Values combine a pinned OpenKH FM-content test fixture with the published level-scaling formula and Ultimania-attributed level table; they are not newly measured Steam values."
   },
   {
     "id": "kh2fm.bestiary.oogie-boogie",

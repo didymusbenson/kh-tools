@@ -25,11 +25,18 @@
       "id": "KH2-003",
       "status": "partial",
       "topic": "Sparse puzzle landmarks",
-      "disposition": "All thirteen original sparse landmarks are corrected and all 144 pieces reviewed. Four newly isolated precision limits remain: Daylight 27 roof versus central-pillar naming, and the individual pipe/order for Sunset 32/36/40. The complete three-crown Glide sweep is supported. These are four named precision residuals, not 144 missing routes or unproved minimum-movement requirements.",
+      "disposition": "All 144 puzzle routes remain reviewed. Follow-up indexed tables and HD video chapter metadata still disagree on Daylight27 roof versus central pillar; image/frame retrieval failed. Sunset32/36/40 retain the supported white-orb Glide sweep, with individual pipe order unresolved.",
       "sources": [
         "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://guiding-key.tumblr.com/kh2-puzzles",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU",
+        "https://www.youtube.com/watch?v=mURDganqsU4",
+        "https://gamefaqs.gamespot.com/ps3/735143-kingdom-hearts-hd-25-remix/faqs/55322",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62",
+        "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
+      ],
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
     },
     {
       "id": "KH2-004",
@@ -67,14 +74,20 @@
       "id": "KH2-006",
       "status": "partial",
       "topic": "Equipment catalog and shops",
-      "disposition": "All 131 persistent items are integrated: 24 Keyblades, twenty staves, twenty shields, 34 armor, 33 accessories. Stats, abilities, prices, acquisitions and Mushroom tiers are retained. Vendor-world/copy-on-visit rules are supplied. Exact stage/room shop predicates remain incomplete where source item tables lack them, and Dark Anklet missability has a specific conflicting source statement.",
+      "disposition": "All 131 equipment records remain integrated. Dark Anklet missability is resolved: talk to Mogjiro in Disney Castle’s Library before the Badlands portal appears to copy his stock permanently to the hub armor shops. Exact retail stage/room predicates for every shop item remain incomplete; a decoded randomizer shop table was rejected as modified.",
       "sources": [
         "https://www.khwiki.com/Armor",
         "https://www.khwiki.com/Accessory",
         "https://www.khwiki.com/Weapon",
         "https://www.khwiki.com/Moogle",
-        "https://www.khwiki.com/Moogle_Shop"
-      ]
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://appmedia.jp/kh2fm/27258790",
+        "https://akizakki.com/kh2fm-torikaesi",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/SystemData/Shop.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/shops.md",
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/shop.bin"
+      ],
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
     },
     {
       "id": "KH2-007",
@@ -148,14 +161,19 @@
     },
     {
       "id": "KH2-013",
-      "status": "partial",
+      "status": "closed",
       "topic": "Mushroom gates and tactics",
-      "disposition": "All twelve rank tables and practical strategies are integrated. Known gates include IV after Shan-Yu, VIII after third Twilight Town access, XI outside an active story episode. Exact earliest VII/XII appearance predicates remain unproved; the blanket all-worlds-cleared guide claim contradicts IV and is rejected.",
+      "disposition": "VII appears after the late Twilight Town story episode ending with Axel’s passage into TWTNW; XII after the Oathkeeper/Limit Form visit, except during the later mansion episode. Japanese EP1/EP2 naming is mapped to named events using FM/HD guides and integrated into prerequisites.",
       "sources": [
         "https://www.khwiki.com/Mushroom_XIII",
         "https://strategywiki.org/wiki/Kingdom_Hearts_II/Mushroom_XIII",
-        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
-      ]
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+        "https://wazap.com/cheat/%EF%BC%91%EF%BC%93%E6%A9%9F%E9%96%A2%E3%82%AD%E3%83%8E%E3%82%B3%E3%81%AE%E5%87%BA%E3%82%8B%E6%9D%A1%E4%BB%B6%E3%80%81%E5%A0%B4%E6%89%80%E3%80%81%E6%BA%80%E8%B6%B3%E3%81%AE%E3%81%95%E3%81%9B%E6%96%B9/354211/?WAZAP_LAYOUT=1",
+        "https://kingdomgarden.nobody.jp/kh2fm/kh2fm_xiii_12.html",
+        "https://appmedia.jp/kh2fm/75132744",
+        "https://appmedia.jp/kh2fm/75132771"
+      ],
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
     },
     {
       "id": "KH2-014",
@@ -172,14 +190,18 @@
     },
     {
       "id": "KH2-015",
-      "status": "partial",
+      "status": "closed",
       "topic": "Cup rounds and rules",
-      "disposition": "All eight cups/120 rounds and rule-based tactics are integrated. The exact Pain/Panic reduced Limit MP cost remains conflicting (25 versus half); the supported qualitative reduction is used. No unsupported numerical rule is inferred from qualitative cup text.",
+      "disposition": "All eight cups/120 rounds remain integrated. FM-specific KHGuides and AppMedia corroborate 25 MP for party Limits in normal and Paradox Pain/Panic. The unscoped half-cost claim is rejected; the Rapid Thruster tactic now correctly names round8.",
       "sources": [
         "https://www.khwiki.com/Pain_and_Panic_Cup",
         "https://kingdomhearts.fandom.com/wiki/Pain_and_Panic_Cup",
-        "https://www.khwiki.com/Hades_Paradox_Cup"
-      ]
+        "https://www.khwiki.com/Hades_Paradox_Cup",
+        "https://www.khguides.com/kh2/olympus-coliseum/",
+        "https://appmedia.jp/kh2fm/75148215",
+        "https://www.finalfantasykingdom.net/kh2coliseum.php"
+      ],
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
     },
     {
       "id": "KH2-016",
@@ -220,12 +242,25 @@
       "id": "KH2-019",
       "status": "partial",
       "topic": "Bestiary census and combat values",
-      "disposition": "All 127  source groups/227 contexts are integrated (213 explicit FM, fourteen shared KHII tables with no FM alternative), preserving all 67 old IDs. Individual Journal tables give82 Heartless and 11 Nobodies. Missing per-Mushroom HP/STR/DEF/EXP are blank in inspected sources and remain unknown; website category counts are not Journal counts.",
+      "disposition": "All 127 combat groups/227 contexts remain integrated. Pinned ENMP rows plus the published level formula now supply I–XII base HP/STR/DEF/EXP, including IV’s phased HP. Runtime labels them as base sheets, not trial hit goals. Complete script overrides and XIII unused/internal attributes remain uncertified.",
       "sources": [
         "https://www.khwiki.com/Category:Kingdom_Hearts_II_enemies",
         "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_enemies",
-        "https://www.khwiki.com/Mushroom_XIII"
-      ]
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/res/enmp.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Enmp.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/dictionary/enemy.md",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/kh2/file/type/00battle.md",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark",
+        "https://www.khwiki.com/Talk:Mushroom_XIII",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_04/m_ex.bdscript",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Tests/kh2/BattleTests.cs",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/OpenKh.Kh2/Battle/Lvpm.cs",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_06/m_ex.bdscript",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_12/m_ex.bdscript",
+        "https://github.com/thundrio-kh/kh2-ai-decomp/blob/b89a02966494aab1b5feeb80a75e503fd6d80e93/bdscript/obj/M_EX350_13/m_ex.bdscript"
+      ],
+      "continuationEvidence": "research-continuation-evidence-2026-10-01.json"
     },
     {
       "id": "KH2-020",
@@ -396,8 +431,8 @@
     }
   ],
   "counts": {
-    "closed": 29,
-    "partial": 5,
+    "closed": 31,
+    "partial": 3,
     "implementation": 2,
     "provenance": 1,
     "confidence": 1,

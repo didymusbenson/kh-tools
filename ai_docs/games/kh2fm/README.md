@@ -27,7 +27,7 @@ Spoilers are shown directly. There is no Available Now/progress-gate filter; rel
 
 The trailing-space `Accessories ` tab contains 33 candidates; the old empty-tab claim was wrong. Agrabah treasure 24 is Serenity Gem. Twilight Town's Daylight 23 belongs to Sora in the Other Twilight Town. The 16 Roxas prologue chests now have their own checklist scope. Data completion makes the final Proof chest appear; it does not open it. Final Mix's Magnet grant is Luxord, and old Lucky Lucky equipment/Serenity farms are unreliable.
 
-The current ledger identifies four puzzle-landmark precision limits, shop-missability evidence, two Mushroom gates, a cup-cost conflict and missing individual Mushroom attributes. All six assembly grids and the full FM summon curve are now supported. Full staff/shield inventories and blueprint dependency catalogs are now integrated. Optional discount controls remain engineering work; the arithmetic is researched. Only production screenshot/map image acquisition is deferred.
+The current ledger retains four puzzle-landmark precision limits, incomplete exact shop predicates and Mushroom script/internal-stat boundaries. The continuation resolves Dark Anklet missability, VII/XII story gates and the 25 MP Pain/Panic rule, and adds I–XII base combat attributes. All six assembly grids and the full FM summon curve are now supported. Full staff/shield inventories and blueprint dependency catalogs are now integrated. Optional discount controls remain engineering work; the arithmetic is researched. Only production screenshot/map image acquisition is deferred.
 
 ## Edition evidence
 
@@ -36,3 +36,5 @@ Steam's HD 1.5+2.5 release includes KHII Final Mix and launched 2024-06-13; the 
 Square Enix announces new native editions for 2026-10-08, including Switch 2, Switch, PS5, Xbox Series and Microsoft Store Windows for 1.5+2.5. They are **announced/unreleased at this snapshot**, not verified shipped builds or trophy sets. Existing modern editions remain covered under shared policy; no gameplay-difference claim is inferred from the announcement. [Official collection page](https://www.jp.square-enix.com/kingdom/collection/).
 
 No specific game executable/build was run. Community evidence is explicitly secondary, and candidate data must retain provenance and uncertainty through implementation.
+
+Latest focused follow-up: [October 1 research continuation](research-continuation-2026-10-01.md).
