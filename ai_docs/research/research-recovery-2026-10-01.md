@@ -1,5 +1,7 @@
 # Research recovery and continuation — October 1, 2026
 
+> Historical October 1 checkpoint. The [active gap-closure coordination report](gap-closure-coordination-2026-10-02.md) and current per-game ledgers supersede its aggregate counts and remaining-work statements.
+
 ## Recovered checkpoint
 
 The requested recovery inspection found branch `research/audit-2026-10-01` at `2fd2927` (`Resolve seven-game research backlog and reconcile all audit findings`). The worktree and index were clean. The branch was two commits ahead of its local remote-tracking reference; no fetch or push was performed during recovery. There were no running research, build or test commands and no surviving worker agents. Existing work was preserved without a reset, checkout or cleanup.

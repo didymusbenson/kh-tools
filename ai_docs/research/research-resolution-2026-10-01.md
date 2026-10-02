@@ -1,5 +1,7 @@
 # Research gap resolution — October 1, 2026
 
+> Historical October 1 checkpoint. The [active gap-closure coordination report](gap-closure-coordination-2026-10-02.md) and current per-game ledgers supersede its aggregate counts and remaining-work statements.
+
 **Task status: research remains in progress.** There are 91 factual families still partially resolved or unresolved. The user requested merging the current work into `master`; that integration checkpoint does not mark the fact-finding mission complete. Passing application tests establishes implementation behavior, not completeness or accuracy of every game fact.
 
 This follows through on **all 208 issue families across all seven games** in the [original audit](research-audit-2026-10-01.md). It supersedes the earlier two-game correction summary. Every finding has a current disposition, researched corrections or an exact remaining evidence boundary. The original audit appendices remain explicitly historical at `f933ab1`.

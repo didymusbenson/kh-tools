@@ -1,6 +1,6 @@
 # KH1 Final Mix research audit — current disposition
 
-All **20** baseline findings were investigated in the live-source resolution pass on **2026-10-01**. **10 closed, 6 partially resolved, 4 unresolved**. Current generated inventory is **1,259 entries**, **33 recipes**, **26 coverage groups**. The [resolution report](research-resolution-2026-10-01.md) records evidence URLs, applied changes and exact remaining contradictions/access/evidence limits for every ID. No user gameplay test is a required gate.
+All **20** baseline findings were investigated in the live-source resolution pass on **2026-10-01**. **11 closed, 6 partially resolved, 3 unresolved**. Current generated inventory is **1,259 entries**, **33 recipes**, **26 coverage groups**. The [resolution report](research-resolution-2026-10-01.md) records evidence URLs, applied changes and exact remaining contradictions/access/evidence limits for every ID. No user gameplay test is a required gate.
 
 See the [continuation evidence log](research-continuation-2026-10-01.md) for all 12 residual investigations and the later KH1-005/016/019 evidence.
 
@@ -9,7 +9,7 @@ See the [continuation evidence log](research-continuation-2026-10-01.md) for all
 | KH1-001 | Unresolved | Rechecked dedicated item, FM changes, KHGuides, original FM FAQ and Steam-era guide. +4 versus +3 remains a real edition-source contradiction. Retain unresolved Defense; recipe stays five Power Gems. |
 | KH1-002 | Unresolved | Added the third, more precise first-End-of-World-cutscene claim to boss and Report 13. It conflicts with sealing Hollow Bastion and Final Rest claims. Final Rest remains a sufficient route, not the asserted earliest flag. |
 | KH1-003 | Partial | Steam evidence added for pause/cutscene counting, reported 100-hour timer rollover, and awards from eligible pre-final-boss saves. Exact scripted/guest swap flags, every individual menu, and persistent-versus-save-local flag storage remain undocumented. |
-| KH1-004 | Unresolved | Steam guide and KHGuides prose support “yards”; other references use meters. No Steam result-screen/string evidence establishes localization. Keep numeric 40 target and precise unit caveat. |
+| KH1-004 | Closed | Directly inspected Steam-linked player footage shows HUD `m` at 0:03 and 0:38. Canonical target is 40 m; see [exact source/platform boundary](gap-closure-2026-10-02.md). |
 | KH1-005 | Partial | Complete 22-activity roster and Journal registration remain supplied. New HD collection evidence explicitly resolves repeat training to no further reward; a saved best-time field outside the Journal remains undocumented. |
 | KH1-006 | Closed | All 12 blanks resolved from shared footnotes: Gigas after-rescue Tech-only EXP; Pink fixed 2 HP/hit after Stop; Black Fungus fixed 1 vulnerable damage and hardened invulnerability. |
 | KH1-007 | Closed | Normalized complete 80-part shape roster plus seven tools, size/stat/stock/shop/source fields and functional limits. Original-only treasure clauses excluded. Mission sources linked, including the missing sixth Wheel-G at Agrabah 1. Roster completeness does not promise every redundant source alternative. |
@@ -25,7 +25,7 @@ See the [continuation evidence log](research-continuation-2026-10-01.md) for all
 | KH1-017 | Closed | All 28 enemy blueprints now have 10% drop probability and the full bidirectional route/count table, including first-Hollow-Bastion-story phase annotations. Both old route field and instructions updated together. |
 | KH1-018 | Partial | Eight of nine abilities now include quantitative effects/stacking. MP Haste has a documented +15 Ultimania-derived versus +12 HD experimental conflict; no Steam-specific adjudication. Berserk is +4 Strength at critical HP; exact numeric critical-HP boundary is not asserted. |
 | KH1-019 | Closed | All 55 key/condition pairs recovered individually from indexed SteamDB rows and matched to existing scoped goal names by requirement. [Per-key evidence](steam-key-continuation-evidence.json) retains queries and snippets. Direct Valve schema access remains unavailable; no order/percentage inference or independent mirror corroboration is claimed. |
-| KH1-020 | Partial | Reproducible crosswalk covers every one of 824 rows in all 13 legacy CSVs, including field comparisons and explicit replacement/exclusion contexts. 467 equal numeric, 88 differing numeric and two different/unresolved comparisons recorded. Prose/location-group mappings are explicitly not full semantic equivalence; no exact Steam binary build was inspected. |
+| KH1-020 | Partial | All 824 legacy rows inventoried. The remaining comparison queue is now semantically assessed: 154 prose/phase cells, 396 level abbreviation/empty cells and exact route/reward matches for all 46 Trinity groups (642 cells, 787 clause decisions). See legacy-semantic-audit.json and legacy-semantic-review-2026-10-02.md. Three exact optional route qualifiers remain unverifiable; no inspected Steam binary/depot/build provenance. |
 
 
 ---
