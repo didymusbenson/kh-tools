@@ -709,7 +709,21 @@
       ],
       "source": "https://www.khwiki.com/Game:Hollow_Bastion",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "encounterNotes": [
+        {
+          "title": "Ansem tutorial after Hollow Bastion",
+          "text": "Follow the card-break lesson, then match Ansem’s 7 to initiate the scripted duel. Three 9s are available for the duel. Completing the lesson unlocks Dark Mode and Card Duels."
+        }
+      ],
+      "encounterEvidence": {
+        "source": "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k",
+        "edition": "HD 1.5+2.5 PS4 Beginner route",
+        "scope": "Tutorial actions and partial card observations; no complete ordered corridor deck or numeric tutorial enemy stats."
+      },
+      "sources": [
+        "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k"
+      ]
     },
     {
       "id": "recom-riku-deck-twilight-town",
@@ -917,7 +931,21 @@
       ],
       "source": "https://www.khwiki.com/Game:Destiny_Islands",
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
-      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
+      "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification.",
+      "encounterNotes": [
+        {
+          "title": "Zexion",
+          "text": "Riku stays in Dark Mode throughout this battle. Zexion steals cards that cannot reload until recovered. Destroy his books to recover the stolen Soul Eaters, and avoid the differently colored decoy card. Break Dark Punisher and Catastrophe; save King Mickey cards for healing."
+        }
+      ],
+      "encounterEvidence": {
+        "source": "https://www.khwiki.com/Game:Zexion",
+        "edition": "Re:Chain of Memories strategy section",
+        "scope": "Encounter mechanics; no certified ordered deck override."
+      },
+      "sources": [
+        "https://www.khwiki.com/Game:Zexion"
+      ]
     },
     {
       "id": "recom-riku-deck-castle-oblivion",

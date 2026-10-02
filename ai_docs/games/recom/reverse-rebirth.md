@@ -58,3 +58,7 @@ October 1: these form rules, early-story unlock context and duel initiation requ
 Use **D-Report** terminology for Riku, retain campaign-specific checks and last-view state, and expose shared reference definitions with scoped acquisitions. A campaign toggle is a content/state boundary, not a cosmetic skin.
 
 Riku world completion cannot be a duplicate Sora chest list. Track the finite Riku acquisitions/collection goals that actually exist, with story/character Report achievements in their own track. The 59-card Riku roster and complete level 1–99 progression/caps are supplied. Riku caps are 560 HP, 30 AP and 99 DP; AP choices unlock at level 2 then every three levels through 59, and unchosen choices persist. Character-entry conditions, native order/percentage, full boss routes and corridor overrides remain explicit gaps.
+
+## October 1 encounter continuation
+
+The Hollow Bastion deck reference now distinguishes the early Ansem card-break/duel tutorial from his final boss fight, using the [PS4 Beginner route](https://www.speedrun.com/de-DE/khrecom/guides/bzl3k). The Destiny Islands reference includes [Zexion’s remake card-stealing/book mechanics](https://www.khwiki.com/Game:Zexion). These additions do not certify every ordered corridor deck or a universal speedrun route.

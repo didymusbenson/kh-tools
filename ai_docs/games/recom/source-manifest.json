@@ -1821,7 +1821,7 @@
       "snapshotSha256": "05a8094eb522144028267218e80b5656fefb6405710ff8d4b5342d0d40eaa06e",
       "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
       "extractionScope": [
-        "progression:stat caps, level 1\u201399 EXP and deferred choices"
+        "progression:stat caps, level 1–99 EXP and deferred choices"
       ],
       "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
     },
@@ -2195,7 +2195,7 @@
       "snapshotSha256": "bb962ab46d0e8a215f56d5f822c292c4f70544e7c99091f38925a44414b76cec",
       "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
       "extractionScope": [
-        "progression:stat caps, level 1\u201399 EXP and deferred choices"
+        "progression:stat caps, level 1–99 EXP and deferred choices"
       ],
       "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
     },
@@ -3982,7 +3982,7 @@
       "accessed": "2026-10-01",
       "access": "web-readable",
       "snapshotSha256": null,
-      "inspection": "Last-enemy rule, 2\u20134% generic rates and 2.5 multiplier corroborated; no independent 30-row rates, mixed legacy bonus gates.",
+      "inspection": "Last-enemy rule, 2–4% generic rates and 2.5 multiplier corroborated; no independent 30-row rates, mixed legacy bonus gates.",
       "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
     },
     {
@@ -4763,5 +4763,259 @@
     "countScope": "269 distinct direct HTML/API retrieval attempts (252 successes, 17 failures); additional web-readable/indexed inspections are listed separately and are not included in that subtotal.",
     "allLoggedUniqueUrls": 281,
     "backlogRecoveredViaWeb": 1
+  },
+  "continuation20261001": {
+    "baseline": "2fd2927",
+    "scope": "All 15 residual findings challenged; exact outcomes and editions in research-continuation-2026-10-01.md",
+    "sources": [
+      {
+        "url": "https://kingdomhearts.fandom.com/wiki/Moogle_Shop_%28Chain_of_Memories%29",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-001"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56093",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-001"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://speeddemosarchive.com/KingdomHeartsChainOfMemories.html",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-001"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-002",
+          "COM-014"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Game:Zexion",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-002",
+          "COM-014"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-003"
+        ],
+        "access": "guide title indexed; full page blocked; guide steps not inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-003"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.playstationtrophies.org/game/kingdom-hearts-re-chain-of-memories-ps4/trophy/170898-card-master-sora.html",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-005"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/answers/213585-what-is-the-best-strategy-to-obtain-white-mushroom-and-black-fungus-card",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-005"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.nexusmods.com/kingdomheartsrechainofmemories/mods/42?file_id=104&tab=requirements",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-005"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/6",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-006"
+        ],
+        "access": "indexed overview only; direct web retrieval HTTP 402",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.playstationtrophies.org/game/kingdom-hearts-re-chain-of-memories-ps4/trophy/170888-sleight-master.html",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-006"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-007"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/1dl9sjt/about_unlocking_the_rechain_of_memories_room_of/",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-008"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-009"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-009",
+          "COM-012"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-010"
+        ],
+        "access": "47 individually targeted indexed excerpts; direct HTTP 403 and web full-page loading shell",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-010"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.playstationtrophies.org/game/kingdom-hearts-re-chain-of-memories/trophy/61865-undefeated.html",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-011"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/answers/54793-jiminys-journal-completion-question",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-012"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Game:Ansem,_Seeker_of_Darkness",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-014"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Game:Ursula",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-014"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://guiding-key.tumblr.com/khcom-minigames",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-015"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Veggie_Panic",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-015"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-017"
+        ],
+        "access": "indexed source excerpt inspected; full-page access not claimed",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Goofy_Tornado",
+        "accessed": "2026-10-01",
+        "findings": [
+          "COM-017"
+        ],
+        "access": "web-readable page inspected",
+        "historicalInspectionReconstructed": false
+      }
+    ],
+    "steamApiMapping": {
+      "source": "https://steamdb.info/app/2552430/stats/",
+      "mappedRecords": 47,
+      "method": "Each key individually observed adjacent to matching requirement and explicit Re:CoM label; exact per-record query and retrieval reference in steam-achievements.json",
+      "notUsed": [
+        "list order",
+        "percentage join",
+        "duplicate display-name join"
+      ]
+    },
+    "originalFollowUpSummaryUnchanged": true
   }
 }

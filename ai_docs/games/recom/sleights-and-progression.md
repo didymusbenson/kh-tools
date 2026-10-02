@@ -56,7 +56,7 @@ Sources: [High Jump](https://www.khwiki.com/High_Jump), [Glide](https://www.khwi
 1. Sonic Blade accepts three different attack identities totaling 21; the same identities totaling 19 do not match it.
 2. Sliding Dash and Blitz can share a total but differ by the identity constraint.
 3. Zantetsuken accepts 0+0+0 and 9+9+9, not every sum between 0 and 27.
-4. A two-card combination stays two-card; a third card may change precedence.
+4. Cura, Proud Roar Lv2 and Stardust Blitz accept a third-slot Item card according to the HD activation answer; other additions may change the selected move.
 5. Using an item that restores unreloadable cards changes the battle state, not permanent inventory quantities.
 6. Riku's Dark Aura is three Soul Eaters totaling 27 and requires Dark Mode; it is not a Sora unlock.
 
@@ -67,3 +67,5 @@ The targeted Re:CoM tests cover structured recipe boundaries and form-sensitive 
 [Level](https://www.khwiki.com/Level) and [Stats](https://www.khwiki.com/Stats) support all 99 canonical level rows. Level 2 requires 25 EXP; levels 3–99 require four times the square of the destination level. Both campaigns cap at 99. Sora starts at 80 HP/275 CP, gains 15/25 per choice and caps at 560/1625; AP is fixed at 10. Riku starts at 80 HP/10 AP/8 DP, gains 15/1/2 and caps at 560/30/99. AP opportunities are level 2 then every three levels through 59. Deferred AP and Sora sleight choices persist; Sora learns available sleights in fixed order. Only HP choice heals in Re:CoM.
 
 The individual Zantetsuken page and Destiny Islands Sora table contain contradictory 27-level/GBA-style landmarks. The edition-separated Level/Sleight tables retain the Re:CoM sequence above, including Zantetsuken 22 and Sonic Blade 27. See the conflict discussion in the resolution ledger.
+
+[HD activation guidance](https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories) supports three bounded stock notes; the general solver remains uncertified. [Remake summon sections](https://kingdomhearts.fandom.com/wiki/Summon_cards) additionally supply the structured Dumbo/Splash timings and Bambi output now integrated; see the continuation for exact evidence limits.

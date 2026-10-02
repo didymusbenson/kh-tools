@@ -6,7 +6,9 @@ Research snapshot: **2026-09-28**, fully reassessed **2026-10-01**. Baseline: En
 
 The journal now uses this pack for 431 guide entries, including all 152 Sora and 59 Riku card types. See the [data closure audit](data-gap-audit-2026-09-28.md) for delivered fields, evidence decisions and remaining narrow gaps. Source reconciliation is distinct from native-game verification.
 
-October 1 follow-up: [all 32 dispositions](research-resolution-2026-10-01.md) — 14 closed, 12 partial, three open after investigation, three non-factual limitations. All 98 sleight and 29 basic-card effects, structured recipes, full progression, 59 combat records, six minigame routes and friend/mushroom conditions are now integrated.
+October 1 follow-up: [all 32 dispositions](research-resolution-2026-10-01.md) — 15 closed, 11 partial, three open after investigation, three non-factual limitations. All 98 sleight and 29 basic-card effects, structured recipes, full progression, 59 combat records, six minigame routes and friend/mushroom conditions are now integrated.
+
+All residuals were challenged in the [continuation report](research-continuation-2026-10-01.md), including 47 explicitly matched Steam API keys and additional summon/stock/encounter guidance.
 
 ## Readable references
 
@@ -48,6 +50,6 @@ These files overlap by design: a card definition, its chest reward and its achie
 
 ## Remaining research
 
-See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historical baseline audit](research_audit.md). Exact pack distributions, Riku overrides, full farm routes, native sleight order, recipe precedence, save-state/Steam predicates, Report registration and three basic-card durations remain precisely bounded; existing CP/card membership/doors remain closed.
+See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historical baseline audit](research_audit.md). Exact pack distributions, Riku overrides, full farm routes, native sleight order, recipe precedence, save-state/Steam trigger predicates, Report registration and two basic-card durations remain precisely bounded; existing CP/card membership/doors remain closed.
 
 Source URLs, classifications and research tasks belong in this pack. Journal entries provide acquisition directions, costs and effects without sources/reference panels or research TODOs.

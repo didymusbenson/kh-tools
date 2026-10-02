@@ -2099,7 +2099,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Bambi",
-        "https://www.khwiki.com/Paradise"
+        "https://www.khwiki.com/Paradise",
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
       ],
       "family": "summon",
       "instructions": "Complete 100 Acre Wood.",
@@ -2123,7 +2124,7 @@
         },
         {
           "title": "Use details",
-          "text": "Drops small HP orbs; contact power 0.1× per hit."
+          "text": "Drops 12 small HP orbs in four jumps (3 orbs per jump, 3 HP per orb); contact power 0.1× per hit."
         },
         {
           "title": "Breakable scenery",
@@ -2156,7 +2157,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Dumbo",
-        "https://www.khwiki.com/Splash"
+        "https://www.khwiki.com/Splash",
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
       ],
       "family": "summon",
       "instructions": "Monstro: finish Room of Truth.",
@@ -2180,7 +2182,7 @@
         },
         {
           "title": "Use details",
-          "text": "Ice damage, power 1.5× per hit; aim the stream with movement input."
+          "text": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts 5 seconds."
         },
         {
           "title": "Breakable scenery",
@@ -9899,6 +9901,7 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Cura"
       ],
@@ -9923,6 +9926,10 @@
         {
           "title": "Effect",
           "text": "Restores 150 HP before modifiers."
+        },
+        {
+          "title": "Stocking an item",
+          "text": "An Item card can occupy the third stock slot after this two-card recipe."
         }
       ],
       "stats": [
@@ -11438,6 +11445,7 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Proud_Roar_Lv2"
       ],
@@ -11462,6 +11470,10 @@
         {
           "title": "Effect",
           "text": "Simba’s forward roar damages and stuns."
+        },
+        {
+          "title": "Stocking an item",
+          "text": "An Item card can occupy the third stock slot after this two-card recipe."
         }
       ],
       "stats": [
@@ -11744,6 +11756,7 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Splash_Lv2"
       ],
@@ -11767,7 +11780,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Dumbo sprays an aimed ice-element stream."
+          "text": "Dumbo sprays an aimed ice-element stream for 10 seconds."
         }
       ],
       "stats": [
@@ -11786,6 +11799,7 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Splash_Lv3"
       ],
@@ -11812,7 +11826,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Dumbo sprays an aimed ice-element stream."
+          "text": "Dumbo sprays a larger aimed ice-element stream, with power 2× per hit."
         }
       ],
       "stats": [
@@ -12224,6 +12238,7 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Stardust_Blitz"
       ],
@@ -12248,6 +12263,10 @@
         {
           "title": "Effect",
           "text": "Timed reactions let Sora bat Donald’s three fireballs at enemies."
+        },
+        {
+          "title": "Stocking an item",
+          "text": "An Item card can occupy the third stock slot after this two-card recipe."
         }
       ],
       "stats": [
@@ -15881,6 +15900,7 @@
       "checkable": false,
       "collectible": false,
       "sources": [
+        "https://www.speedrun.com/de-DE/khrecom/guides/bzl3k",
         "https://www.khwiki.com/Game:Hollow_Bastion",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats",
@@ -15954,6 +15974,10 @@
         }
       ],
       "notes": [
+        {
+          "title": "Ansem tutorial after Hollow Bastion",
+          "text": "Follow the card-break lesson, then match Ansem’s 7 to initiate the scripted duel. Three 9s are available for the duel. Completing the lesson unlocks Dark Mode and Card Duels."
+        },
         {
           "title": "Leveling",
           "text": "Riku reaches level 99; caps are 560 HP, 30 AP and 99 DP. Unchosen AP increases remain available on later levels."
@@ -16101,6 +16125,7 @@
       "checkable": false,
       "collectible": false,
       "sources": [
+        "https://www.khwiki.com/Game:Zexion",
         "https://www.khwiki.com/Game:Destiny_Islands",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats",
@@ -16206,6 +16231,10 @@
         }
       ],
       "notes": [
+        {
+          "title": "Zexion",
+          "text": "Riku stays in Dark Mode throughout this battle. Zexion steals cards that cannot reload until recovered. Destroy his books to recover the stolen Soul Eaters, and avoid the differently colored decoy card. Break Dark Punisher and Catastrophe; save King Mickey cards for healing."
+        },
         {
           "title": "Leveling",
           "text": "Riku reaches level 99; caps are 560 HP, 30 AP and 99 DP. Unchosen AP increases remain available on later levels."
@@ -17158,9 +17187,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Sora on Proud."
+      "steamApiName": "ACH_056",
+      "instructions": "Finish Sora on Proud.",
+      "notes": []
     },
     {
       "id": "recom-steam-proud-player-riku",
@@ -17172,9 +17204,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Riku on Proud."
+      "steamApiName": "ACH_057",
+      "instructions": "Finish Riku on Proud.",
+      "notes": []
     },
     {
       "id": "recom-steam-undefeated",
@@ -17186,9 +17221,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_058",
       "instructions": "Finish without selecting Continue.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17201,9 +17239,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Sora on Standard or Proud."
+      "steamApiName": "ACH_059",
+      "instructions": "Finish Sora on Standard or Proud.",
+      "notes": []
     },
     {
       "id": "recom-steam-natural-player-riku",
@@ -17215,9 +17256,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Riku on Standard or Proud."
+      "steamApiName": "ACH_060",
+      "instructions": "Finish Riku on Standard or Proud.",
+      "notes": []
     },
     {
       "id": "recom-steam-novice-player-sora",
@@ -17229,9 +17273,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Sora on any difficulty."
+      "steamApiName": "ACH_061",
+      "instructions": "Finish Sora on any difficulty.",
+      "notes": []
     },
     {
       "id": "recom-steam-novice-player-riku",
@@ -17243,9 +17290,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Riku on any difficulty."
+      "steamApiName": "ACH_062",
+      "instructions": "Finish Riku on any difficulty.",
+      "notes": []
     },
     {
       "id": "recom-steam-veggie-master",
@@ -17257,9 +17307,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Veggie Panic: score >= 150."
+      "steamApiName": "ACH_063",
+      "instructions": "Veggie Panic: score >= 150.",
+      "notes": []
     },
     {
       "id": "recom-steam-ace-pilot",
@@ -17271,9 +17324,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Balloon Glider: score >= 500."
+      "steamApiName": "ACH_064",
+      "instructions": "Balloon Glider: score >= 500.",
+      "notes": []
     },
     {
       "id": "recom-steam-high-jumper",
@@ -17285,9 +17341,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Tigger’s Jump-a-Thon: score >= 120."
+      "steamApiName": "ACH_065",
+      "instructions": "Tigger’s Jump-a-Thon: score >= 120.",
+      "notes": []
     },
     {
       "id": "recom-steam-sky-diver",
@@ -17299,9 +17358,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Whirlwind Plunge: score >= 2000."
+      "steamApiName": "ACH_066",
+      "instructions": "Whirlwind Plunge: score >= 2000.",
+      "notes": []
     },
     {
       "id": "recom-steam-bee-buster",
@@ -17313,9 +17375,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Bumble-Rumble: 70 bees within 100 seconds; platform description calls it Bumble-Buster."
+      "steamApiName": "ACH_067",
+      "instructions": "Bumble-Rumble: 70 bees within 100 seconds; platform description calls it Bumble-Buster.",
+      "notes": []
     },
     {
       "id": "recom-steam-a-slumber-to-remember",
@@ -17327,9 +17392,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Sora campaign."
+      "steamApiName": "ACH_068",
+      "instructions": "Finish Sora campaign.",
+      "notes": []
     },
     {
       "id": "recom-steam-sleight-master",
@@ -17341,9 +17409,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Learn every required Sora sleight."
+      "steamApiName": "ACH_069",
+      "instructions": "Learn every required Sora sleight.",
+      "notes": []
     },
     {
       "id": "recom-steam-card-of-memories",
@@ -17355,9 +17426,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish 1F."
+      "steamApiName": "ACH_070",
+      "instructions": "Finish 1F.",
+      "notes": []
     },
     {
       "id": "recom-steam-woven-memories",
@@ -17369,9 +17443,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish 5F."
+      "steamApiName": "ACH_071",
+      "instructions": "Finish 5F.",
+      "notes": []
     },
     {
       "id": "recom-steam-the-truth",
@@ -17383,9 +17460,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish 13F."
+      "steamApiName": "ACH_072",
+      "instructions": "Finish 13F.",
+      "notes": []
     },
     {
       "id": "recom-steam-road-to-dawn",
@@ -17397,9 +17477,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish Riku campaign."
+      "steamApiName": "ACH_073",
+      "instructions": "Finish Riku campaign.",
+      "notes": []
     },
     {
       "id": "recom-steam-hard-hitter",
@@ -17412,9 +17495,11 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats"
       ],
+      "steamApiName": "ACH_074",
       "instructions": "Take every Riku attack bonus.",
       "notes": [
         {
@@ -17433,9 +17518,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish B12F."
+      "steamApiName": "ACH_075",
+      "instructions": "Finish B12F.",
+      "notes": []
     },
     {
       "id": "recom-steam-challenge-from-the-inner-darkness",
@@ -17447,9 +17535,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish B8F."
+      "steamApiName": "ACH_076",
+      "instructions": "Finish B8F.",
+      "notes": []
     },
     {
       "id": "recom-steam-overcoming-the-darkness",
@@ -17461,9 +17552,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Finish B1F."
+      "steamApiName": "ACH_077",
+      "instructions": "Finish B1F.",
+      "notes": []
     },
     {
       "id": "recom-steam-record-keeper-sora",
@@ -17475,9 +17569,18 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete Jiminy’s Journal."
+      "steamApiName": "ACH_078",
+      "instructions": "Complete Jiminy’s Journal.",
+      "notes": [
+        {
+          "title": "Character entries",
+          "text": "Finish each world and leave its floor. In 100 Acre Wood, speak to every friend and complete all five minigames. Obtain Mushu from Hollow Bastion’s Room of Rewards, and create a Moogle Room for the Moogles entry."
+        }
+      ]
     },
     {
       "id": "recom-steam-card-master-sora",
@@ -17489,9 +17592,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete the required Card Collection in Jiminy’s Journal."
+      "steamApiName": "ACH_079",
+      "instructions": "Complete the required Card Collection in Jiminy’s Journal.",
+      "notes": []
     },
     {
       "id": "recom-steam-storyteller-sora",
@@ -17503,9 +17609,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete Journal story entries."
+      "steamApiName": "ACH_080",
+      "instructions": "Complete Journal story entries.",
+      "notes": []
     },
     {
       "id": "recom-steam-character-professor-sora",
@@ -17517,9 +17626,18 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete Journal character entries."
+      "steamApiName": "ACH_081",
+      "instructions": "Complete Journal character entries.",
+      "notes": [
+        {
+          "title": "Character entries",
+          "text": "Finish each world and leave its floor. In 100 Acre Wood, speak to every friend and complete all five minigames. Obtain Mushu from Hollow Bastion’s Room of Rewards, and create a Moogle Room for the Moogles entry."
+        }
+      ]
     },
     {
       "id": "recom-steam-mini-game-maniac-sora",
@@ -17531,9 +17649,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Register every Journal minigame entry."
+      "steamApiName": "ACH_082",
+      "instructions": "Register every Journal minigame entry.",
+      "notes": []
     },
     {
       "id": "recom-steam-record-keeper-riku",
@@ -17545,9 +17666,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete D-Report."
+      "steamApiName": "ACH_083",
+      "instructions": "Complete D-Report.",
+      "notes": []
     },
     {
       "id": "recom-steam-card-master-riku",
@@ -17559,9 +17683,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete D-Report’s Card Collection."
+      "steamApiName": "ACH_084",
+      "instructions": "Complete D-Report’s Card Collection.",
+      "notes": []
     },
     {
       "id": "recom-steam-storyteller-riku",
@@ -17573,9 +17700,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete D-Report story entries."
+      "steamApiName": "ACH_085",
+      "instructions": "Complete D-Report story entries.",
+      "notes": []
     },
     {
       "id": "recom-steam-character-professor-riku",
@@ -17587,9 +17717,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Complete D-Report character entries."
+      "steamApiName": "ACH_086",
+      "instructions": "Complete D-Report character entries.",
+      "notes": []
     },
     {
       "id": "recom-steam-novice-deck-builder",
@@ -17601,9 +17734,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Edit a deck once."
+      "steamApiName": "ACH_087",
+      "instructions": "Edit a deck once.",
+      "notes": []
     },
     {
       "id": "recom-steam-expert-deck-builder",
@@ -17615,9 +17751,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Edit decks 500 times."
+      "steamApiName": "ACH_088",
+      "instructions": "Edit decks 500 times.",
+      "notes": []
     },
     {
       "id": "recom-steam-premium-card-maker",
@@ -17629,9 +17768,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Perform 20 Premium conversions."
+      "steamApiName": "ACH_089",
+      "instructions": "Perform 20 Premium conversions.",
+      "notes": []
     },
     {
       "id": "recom-steam-no-escape",
@@ -17643,9 +17785,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_090",
       "instructions": "Finish without fleeing a battle.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17659,9 +17804,11 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats"
       ],
+      "steamApiName": "ACH_091",
       "instructions": "Reach Sora’s maximum level.",
       "notes": [
         {
@@ -17681,9 +17828,11 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/",
         "https://www.khwiki.com/Level",
         "https://www.khwiki.com/Stats"
       ],
+      "steamApiName": "ACH_092",
       "instructions": "Reach Riku’s maximum level.",
       "notes": [
         {
@@ -17702,9 +17851,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_093",
       "instructions": "Perform 1500 enemy card breaks.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17717,9 +17869,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_094",
       "instructions": "Heal while below 5% HP.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17732,9 +17887,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_095",
       "instructions": "Land 150 field hits before battle.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17747,9 +17905,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Win 100 duels."
+      "steamApiName": "ACH_096",
+      "instructions": "Win 100 duels.",
+      "notes": []
     },
     {
       "id": "recom-steam-battle-card-collector",
@@ -17762,9 +17923,12 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Obtain over 300 battle cards in total. Repeated copies count; this is not a count of different card types."
+      "steamApiName": "ACH_097",
+      "instructions": "Obtain over 300 battle cards in total. Repeated copies count; this is not a count of different card types.",
+      "notes": []
     },
     {
       "id": "recom-steam-moogle-mogul",
@@ -17777,9 +17941,12 @@
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html"
+        "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Hold over 10,000 Moogle Points at once. Points already spent do not count toward the balance."
+      "steamApiName": "ACH_098",
+      "instructions": "Hold over 10,000 Moogle Points at once. Points already spent do not count toward the balance.",
+      "notes": []
     },
     {
       "id": "recom-steam-regular-customer",
@@ -17791,9 +17958,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Spend more than 20000 Moogle Points in shops."
+      "steamApiName": "ACH_099",
+      "instructions": "Spend more than 20000 Moogle Points in shops.",
+      "notes": []
     },
     {
       "id": "recom-steam-room-creator",
@@ -17805,9 +17975,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_100",
       "instructions": "Create 300 rooms.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {
@@ -17820,9 +17993,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "instructions": "Open 10 hidden-room chests."
+      "steamApiName": "ACH_101",
+      "instructions": "Open 10 hidden-room chests.",
+      "notes": []
     },
     {
       "id": "recom-steam-ace-striker",
@@ -17834,9 +18010,12 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
+      "steamApiName": "ACH_102",
       "instructions": "Hit an enemy using a field object.",
+      "notes": [],
       "uncertainty": "Shared run reference. Check manually against your in-game achievement; card or chest checks do not certify run restrictions."
     },
     {

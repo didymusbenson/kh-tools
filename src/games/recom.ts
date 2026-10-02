@@ -7,6 +7,7 @@ export interface RecomEntry extends CollectionEntry {
   stats?: string[][];
   cpByValue?: Record<string, number>;
   premiumCp?: number;
+  steamApiName?: string | null;
   notes?: {title: string; text: string}[];
   cards?: { name: string; value: number | null }[];
   unit?: string;

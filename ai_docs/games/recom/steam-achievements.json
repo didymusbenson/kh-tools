@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "47 Re:CoM goals within the 197-entry compilation. No PlayStation platinum. IDs are proposed app IDs, not Steam API names. run scope means campaign attribution/aggregation needs further research, not shared Sora/Riku save counters.",
+  "status": "47 source-backed Steam key mappings; hidden runtime predicates remain partially unresolved",
+  "notes": "47 Re:CoM goals within the 197-entry compilation. No PlayStation platinum. Stable local IDs preserved; Steam API names individually matched by requirement and game label in indexed SteamDB evidence. run scope does not assert shared Sora/Riku counters.",
   "records": [
     {
       "id": "recom-steam-proud-player-sora",
@@ -11,15 +11,26 @@
       "campaignScope": "sora",
       "category": "difficulty",
       "requirement": "Finish Sora on Proud.",
-      "steamApiName": null,
+      "steamApiName": "ACH_056",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_056\"",
+        "retrievalReference": "turn356search0",
+        "matchedRequirement": "Finish Sora on Proud.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-proud-player-riku",
@@ -27,15 +38,26 @@
       "campaignScope": "riku",
       "category": "difficulty",
       "requirement": "Finish Riku on Proud.",
-      "steamApiName": null,
+      "steamApiName": "ACH_057",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_057\"",
+        "retrievalReference": "turn406search0",
+        "matchedRequirement": "Finish Riku on Proud.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-undefeated",
@@ -43,15 +65,26 @@
       "campaignScope": "run",
       "category": "restriction",
       "requirement": "Finish without selecting Continue.",
-      "steamApiName": null,
+      "steamApiName": "ACH_058",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": true,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_058\"",
+        "retrievalReference": "turn407search0",
+        "matchedRequirement": "Finish without selecting Continue.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-natural-player-sora",
@@ -59,15 +92,26 @@
       "campaignScope": "sora",
       "category": "difficulty",
       "requirement": "Finish Sora on Standard or Proud.",
-      "steamApiName": null,
+      "steamApiName": "ACH_059",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_059\"",
+        "retrievalReference": "turn408search0",
+        "matchedRequirement": "Finish Sora on Standard or Proud.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-natural-player-riku",
@@ -75,15 +119,26 @@
       "campaignScope": "riku",
       "category": "difficulty",
       "requirement": "Finish Riku on Standard or Proud.",
-      "steamApiName": null,
+      "steamApiName": "ACH_060",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_060\"",
+        "retrievalReference": "turn360search0",
+        "matchedRequirement": "Finish Riku on Standard or Proud.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-novice-player-sora",
@@ -91,15 +146,26 @@
       "campaignScope": "sora",
       "category": "difficulty",
       "requirement": "Finish Sora on any difficulty.",
-      "steamApiName": null,
+      "steamApiName": "ACH_061",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_061\"",
+        "retrievalReference": "turn358search0",
+        "matchedRequirement": "Finish Sora on any difficulty.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-novice-player-riku",
@@ -107,15 +173,26 @@
       "campaignScope": "riku",
       "category": "difficulty",
       "requirement": "Finish Riku on any difficulty.",
-      "steamApiName": null,
+      "steamApiName": "ACH_062",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_062\"",
+        "retrievalReference": "turn363search0",
+        "matchedRequirement": "Finish Riku on any difficulty.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-veggie-master",
@@ -123,15 +200,26 @@
       "campaignScope": "sora",
       "category": "minigame",
       "requirement": "Veggie Panic: score >= 150.",
-      "steamApiName": null,
+      "steamApiName": "ACH_063",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_063\"",
+        "retrievalReference": "turn357search0",
+        "matchedRequirement": "Veggie Panic: score >= 150.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-ace-pilot",
@@ -139,31 +227,53 @@
       "campaignScope": "sora",
       "category": "minigame",
       "requirement": "Balloon Glider: score >= 500.",
-      "steamApiName": null,
+      "steamApiName": "ACH_064",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": true,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_064\" \"Balloon\"",
+        "retrievalReference": "turn401search0",
+        "matchedRequirement": "Balloon Glider: score >= 500.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-high-jumper",
       "name": "High Jumper",
       "campaignScope": "sora",
       "category": "minigame",
-      "requirement": "Tigger\u2019s Jump-a-Thon: score >= 120.",
-      "steamApiName": null,
+      "requirement": "Tigger’s Jump-a-Thon: score >= 120.",
+      "steamApiName": "ACH_065",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_065\"",
+        "retrievalReference": "turn362search0",
+        "matchedRequirement": "Tigger’s Jump-a-Thon: score >= 120.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-sky-diver",
@@ -171,15 +281,26 @@
       "campaignScope": "sora",
       "category": "minigame",
       "requirement": "Whirlwind Plunge: score >= 2000.",
-      "steamApiName": null,
+      "steamApiName": "ACH_066",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_066\"",
+        "retrievalReference": "turn361search0",
+        "matchedRequirement": "Whirlwind Plunge: score >= 2000.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-bee-buster",
@@ -187,15 +308,26 @@
       "campaignScope": "sora",
       "category": "minigame",
       "requirement": "Bumble-Rumble: 70 bees within 100 seconds; platform description calls it Bumble-Buster.",
-      "steamApiName": null,
+      "steamApiName": "ACH_067",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_067\"",
+        "retrievalReference": "turn365search0",
+        "matchedRequirement": "Bumble-Rumble: 70 bees within 100 seconds; platform description calls it Bumble-Buster.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-a-slumber-to-remember",
@@ -203,15 +335,26 @@
       "campaignScope": "sora",
       "category": "story",
       "requirement": "Finish Sora campaign.",
-      "steamApiName": null,
+      "steamApiName": "ACH_068",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_068\"",
+        "retrievalReference": "turn377search0",
+        "matchedRequirement": "Finish Sora campaign.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-sleight-master",
@@ -219,15 +362,26 @@
       "campaignScope": "sora",
       "category": "collection",
       "requirement": "Learn every required Sora sleight.",
-      "steamApiName": null,
+      "steamApiName": "ACH_069",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_069\"",
+        "retrievalReference": "turn370search0",
+        "matchedRequirement": "Learn every required Sora sleight.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-card-of-memories",
@@ -235,15 +389,26 @@
       "campaignScope": "sora",
       "category": "story",
       "requirement": "Finish 1F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_070",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_070\"",
+        "retrievalReference": "turn369search0",
+        "matchedRequirement": "Finish 1F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-woven-memories",
@@ -251,15 +416,26 @@
       "campaignScope": "sora",
       "category": "story",
       "requirement": "Finish 5F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_071",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_071\"",
+        "retrievalReference": "turn374search0",
+        "matchedRequirement": "Finish 5F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-the-truth",
@@ -267,15 +443,26 @@
       "campaignScope": "sora",
       "category": "story",
       "requirement": "Finish 13F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_072",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_072\"",
+        "retrievalReference": "turn371search0",
+        "matchedRequirement": "Finish 13F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-road-to-dawn",
@@ -283,15 +470,26 @@
       "campaignScope": "riku",
       "category": "story",
       "requirement": "Finish Riku campaign.",
-      "steamApiName": null,
+      "steamApiName": "ACH_073",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_073\"",
+        "retrievalReference": "turn375search0",
+        "matchedRequirement": "Finish Riku campaign.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-hard-hitter",
@@ -299,15 +497,26 @@
       "campaignScope": "riku",
       "category": "level",
       "requirement": "Take every Riku attack bonus.",
-      "steamApiName": null,
+      "steamApiName": "ACH_074",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_074\"",
+        "retrievalReference": "turn372search0",
+        "matchedRequirement": "Take every Riku attack bonus.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-confronting-the-darkness",
@@ -315,15 +524,26 @@
       "campaignScope": "riku",
       "category": "story",
       "requirement": "Finish B12F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_075",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_075\"",
+        "retrievalReference": "turn366search0",
+        "matchedRequirement": "Finish B12F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-challenge-from-the-inner-darkness",
@@ -331,15 +551,26 @@
       "campaignScope": "riku",
       "category": "story",
       "requirement": "Finish B8F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_076",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_076\"",
+        "retrievalReference": "turn367search0",
+        "matchedRequirement": "Finish B8F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-overcoming-the-darkness",
@@ -347,47 +578,93 @@
       "campaignScope": "riku",
       "category": "story",
       "requirement": "Finish B1F.",
-      "steamApiName": null,
+      "steamApiName": "ACH_077",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_077\"",
+        "retrievalReference": "turn368search0",
+        "matchedRequirement": "Finish B1F.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-record-keeper-sora",
       "name": "Record Keeper Sora",
       "campaignScope": "sora",
       "category": "journal",
-      "requirement": "Complete Jiminy\u2019s Journal.",
-      "steamApiName": null,
+      "requirement": "Complete Jiminy’s Journal.",
+      "steamApiName": "ACH_078",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "guidance": [
+        {
+          "title": "Character entries",
+          "text": "Finish each world and leave its floor. In 100 Acre Wood, speak to every friend and complete all five minigames. Obtain Mushu from Hollow Bastion’s Room of Rewards, and create a Moogle Room for the Moogles entry."
+        }
+      ],
+      "guidanceEvidence": {
+        "source": "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "edition": "HD PS4 trophy walkthrough",
+        "access": "indexed Characters section",
+        "boundary": "Practical Report guidance, not a complete Steam registration/percentage predicate."
+      },
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_078\"",
+        "retrievalReference": "turn373search0",
+        "matchedRequirement": "Complete Jiminy’s Journal.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-card-master-sora",
       "name": "Card Master Sora",
       "campaignScope": "sora",
       "category": "collection",
-      "requirement": "Complete the required Card Collection in Jiminy\u2019s Journal.",
-      "steamApiName": null,
+      "requirement": "Complete the required Card Collection in Jiminy’s Journal.",
+      "steamApiName": "ACH_079",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_079\"",
+        "retrievalReference": "turn389search0",
+        "matchedRequirement": "Complete the required Card Collection in Jiminy’s Journal.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-storyteller-sora",
@@ -395,15 +672,26 @@
       "campaignScope": "sora",
       "category": "journal",
       "requirement": "Complete Journal story entries.",
-      "steamApiName": null,
+      "steamApiName": "ACH_080",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_080\"",
+        "retrievalReference": "turn390search0",
+        "matchedRequirement": "Complete Journal story entries.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-character-professor-sora",
@@ -411,15 +699,39 @@
       "campaignScope": "sora",
       "category": "journal",
       "requirement": "Complete Journal character entries.",
-      "steamApiName": null,
+      "steamApiName": "ACH_081",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "guidance": [
+        {
+          "title": "Character entries",
+          "text": "Finish each world and leave its floor. In 100 Acre Wood, speak to every friend and complete all five minigames. Obtain Mushu from Hollow Bastion’s Room of Rewards, and create a Moogle Room for the Moogles entry."
+        }
+      ],
+      "guidanceEvidence": {
+        "source": "https://www.truetrophies.com/game/kingdom-hearts-rechain-of-memories/walkthrough/5",
+        "edition": "HD PS4 trophy walkthrough",
+        "access": "indexed Characters section",
+        "boundary": "Practical Report guidance, not a complete Steam registration/percentage predicate."
+      },
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_081\"",
+        "retrievalReference": "turn380search0",
+        "matchedRequirement": "Complete Journal character entries.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-mini-game-maniac-sora",
@@ -427,15 +739,26 @@
       "campaignScope": "sora",
       "category": "journal",
       "requirement": "Register every Journal minigame entry.",
-      "steamApiName": null,
+      "steamApiName": "ACH_082",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_082\"",
+        "retrievalReference": "turn385search2",
+        "matchedRequirement": "Register every Journal minigame entry.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-record-keeper-riku",
@@ -443,31 +766,53 @@
       "campaignScope": "riku",
       "category": "journal",
       "requirement": "Complete D-Report.",
-      "steamApiName": null,
+      "steamApiName": "ACH_083",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_083\"",
+        "retrievalReference": "turn386search0",
+        "matchedRequirement": "Complete D-Report.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-card-master-riku",
       "name": "Card Master Riku",
       "campaignScope": "riku",
       "category": "collection",
-      "requirement": "Complete D-Report\u2019s Card Collection.",
-      "steamApiName": null,
+      "requirement": "Complete D-Report’s Card Collection.",
+      "steamApiName": "ACH_084",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_084\"",
+        "retrievalReference": "turn387search0",
+        "matchedRequirement": "Complete D-Report’s Card Collection.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-storyteller-riku",
@@ -475,15 +820,26 @@
       "campaignScope": "riku",
       "category": "journal",
       "requirement": "Complete D-Report story entries.",
-      "steamApiName": null,
+      "steamApiName": "ACH_085",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_085\"",
+        "retrievalReference": "turn379search0",
+        "matchedRequirement": "Complete D-Report story entries.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-character-professor-riku",
@@ -491,15 +847,26 @@
       "campaignScope": "riku",
       "category": "journal",
       "requirement": "Complete D-Report character entries.",
-      "steamApiName": null,
+      "steamApiName": "ACH_086",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_086\"",
+        "retrievalReference": "turn382search0",
+        "matchedRequirement": "Complete D-Report character entries.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-novice-deck-builder",
@@ -507,15 +874,26 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Edit a deck once.",
-      "steamApiName": null,
+      "steamApiName": "ACH_087",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_087\"",
+        "retrievalReference": "turn383search0",
+        "matchedRequirement": "Edit a deck once.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-expert-deck-builder",
@@ -523,15 +901,26 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Edit decks 500 times.",
-      "steamApiName": null,
+      "steamApiName": "ACH_088",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_088\"",
+        "retrievalReference": "turn388search0",
+        "matchedRequirement": "Edit decks 500 times.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-premium-card-maker",
@@ -539,15 +928,26 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Perform 20 Premium conversions.",
-      "steamApiName": null,
+      "steamApiName": "ACH_089",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_089\"",
+        "retrievalReference": "turn378search0",
+        "matchedRequirement": "Perform 20 Premium conversions.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-no-escape",
@@ -555,47 +955,80 @@
       "campaignScope": "run",
       "category": "restriction",
       "requirement": "Finish without fleeing a battle.",
-      "steamApiName": null,
+      "steamApiName": "ACH_090",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_090\"",
+        "retrievalReference": "turn384search0",
+        "matchedRequirement": "Finish without fleeing a battle.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-level-master-sora",
       "name": "Level Master Sora",
       "campaignScope": "sora",
       "category": "level",
-      "requirement": "Reach Sora\u2019s maximum level.",
-      "steamApiName": null,
+      "requirement": "Reach Sora’s maximum level.",
+      "steamApiName": "ACH_091",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_091\"",
+        "retrievalReference": "turn381search0",
+        "matchedRequirement": "Reach Sora’s maximum level.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-level-master-riku",
       "name": "Level Master Riku",
       "campaignScope": "riku",
       "category": "level",
-      "requirement": "Reach Riku\u2019s maximum level.",
-      "steamApiName": null,
+      "requirement": "Reach Riku’s maximum level.",
+      "steamApiName": "ACH_092",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_092\"",
+        "retrievalReference": "turn402search0",
+        "matchedRequirement": "Reach Riku’s maximum level.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-card-breaker",
@@ -603,15 +1036,26 @@
       "campaignScope": "run",
       "category": "counter",
       "requirement": "Perform 1500 enemy card breaks.",
-      "steamApiName": null,
+      "steamApiName": "ACH_093",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_093\"",
+        "retrievalReference": "turn395search0",
+        "matchedRequirement": "Perform 1500 enemy card breaks.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-tightrope-walker",
@@ -619,15 +1063,26 @@
       "campaignScope": "run",
       "category": "combat",
       "requirement": "Heal while below 5% HP.",
-      "steamApiName": null,
+      "steamApiName": "ACH_094",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_094\"",
+        "retrievalReference": "turn394search0",
+        "matchedRequirement": "Heal while below 5% HP.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-interceptor",
@@ -635,15 +1090,26 @@
       "campaignScope": "run",
       "category": "counter",
       "requirement": "Land 150 field hits before battle.",
-      "steamApiName": null,
+      "steamApiName": "ACH_095",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_095\"",
+        "retrievalReference": "turn396search3",
+        "matchedRequirement": "Land 150 field hits before battle.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-duel-master",
@@ -651,15 +1117,26 @@
       "campaignScope": "riku",
       "category": "counter",
       "requirement": "Win 100 duels.",
-      "steamApiName": null,
+      "steamApiName": "ACH_096",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_096\"",
+        "retrievalReference": "turn397search0",
+        "matchedRequirement": "Win 100 duels.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-battle-card-collector",
@@ -667,16 +1144,27 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Obtain over 300 battle cards in total. Repeated copies count; this is not a count of different card types.",
-      "steamApiName": null,
+      "steamApiName": "ACH_097",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_097\"",
+        "retrievalReference": "turn392search0",
+        "matchedRequirement": "Obtain over 300 battle cards in total. Repeated copies count; this is not a count of different card types.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-moogle-mogul",
@@ -684,16 +1172,27 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Hold over 10,000 Moogle Points at once. Points already spent do not count toward the balance.",
-      "steamApiName": null,
+      "steamApiName": "ACH_098",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
         "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-        "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html"
+        "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_098\"",
+        "retrievalReference": "turn393search0",
+        "matchedRequirement": "Hold over 10,000 Moogle Points at once. Points already spent do not count toward the balance.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-regular-customer",
@@ -701,15 +1200,26 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Spend more than 20000 Moogle Points in shops.",
-      "steamApiName": null,
+      "steamApiName": "ACH_099",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_099\"",
+        "retrievalReference": "turn400search0",
+        "matchedRequirement": "Spend more than 20000 Moogle Points in shops.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-room-creator",
@@ -717,15 +1227,26 @@
       "campaignScope": "run",
       "category": "counter",
       "requirement": "Create 300 rooms.",
-      "steamApiName": null,
+      "steamApiName": "ACH_100",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_100\"",
+        "retrievalReference": "turn391search0",
+        "matchedRequirement": "Create 300 rooms.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-treasure-hunter",
@@ -733,15 +1254,26 @@
       "campaignScope": "sora",
       "category": "counter",
       "requirement": "Open 10 hidden-room chests.",
-      "steamApiName": null,
+      "steamApiName": "ACH_101",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": true,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_101\" \"treasure\"",
+        "retrievalReference": "turn405search0",
+        "matchedRequirement": "Open 10 hidden-room chests.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     },
     {
       "id": "recom-steam-ace-striker",
@@ -749,15 +1281,26 @@
       "campaignScope": "run",
       "category": "combat",
       "requirement": "Hit an enemy using a field object.",
-      "steamApiName": null,
+      "steamApiName": "ACH_102",
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
       "primaryNameAmbiguousAcrossGames": false,
       "sources": [
         "https://steamcommunity.com/stats/2552430/achievements/",
-        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/"
+        "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+        "https://steamdb.info/app/2552430/stats/"
       ],
-      "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
+      "verification": "Steam display name confirmed; API key matched to explicit SteamDB indexed requirement and Re:CoM label. Hidden trigger code/counter ownership not audited.",
+      "steamApiEvidence": {
+        "source": "https://steamdb.info/app/2552430/stats/",
+        "accessed": "2026-10-01",
+        "edition": "Steam app 2552430",
+        "access": "indexed SteamDB search excerpt; full page returns a loading shell",
+        "query": "site:steamdb.info/app/2552430/stats/ \"ACH_102\"",
+        "retrievalReference": "turn398search0",
+        "matchedRequirement": "Hit an enemy using a field object.",
+        "method": "Observed API key adjacent to the matching requirement and explicit Re:CoM game label. No order or percentage join."
+      }
     }
   ],
   "followUpEvidence": {
@@ -786,5 +1329,61 @@
       "finding": "References describe Mickey stamps for completed sections/subsections; story entries update through progression.",
       "limit": "Full character-registration conditions, rank thresholds, ordering and percentage formula remain unproved."
     }
+  },
+  "apiPartitionEvidence": {
+    "source": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+    "edition": "Steam app 2552430",
+    "accessed": "2026-10-01",
+    "classification": "Community tool author explicit group example; not Valve schema",
+    "apiNames": [
+      "ACH_056",
+      "ACH_057",
+      "ACH_058",
+      "ACH_059",
+      "ACH_060",
+      "ACH_061",
+      "ACH_062",
+      "ACH_063",
+      "ACH_064",
+      "ACH_065",
+      "ACH_066",
+      "ACH_067",
+      "ACH_068",
+      "ACH_069",
+      "ACH_070",
+      "ACH_071",
+      "ACH_072",
+      "ACH_073",
+      "ACH_074",
+      "ACH_075",
+      "ACH_076",
+      "ACH_077",
+      "ACH_078",
+      "ACH_079",
+      "ACH_080",
+      "ACH_081",
+      "ACH_082",
+      "ACH_083",
+      "ACH_084",
+      "ACH_085",
+      "ACH_086",
+      "ACH_087",
+      "ACH_088",
+      "ACH_089",
+      "ACH_090",
+      "ACH_091",
+      "ACH_092",
+      "ACH_093",
+      "ACH_094",
+      "ACH_095",
+      "ACH_096",
+      "ACH_097",
+      "ACH_098",
+      "ACH_099",
+      "ACH_100",
+      "ACH_101",
+      "ACH_102"
+    ],
+    "boundary": "Explicit 47-key Re:CoM group corroborates the individually observed SteamDB mappings; never used as an order-based join."
   }
 }

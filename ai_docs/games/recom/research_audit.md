@@ -10,7 +10,9 @@ Read all 16 research JSON files and eight pre-existing Markdown files in `ai_doc
 
 **32 deduplicated findings at baseline:** 18 factual research/extraction gaps (COM-001–018; COM-005 is a narrow corroboration limitation, not a demand for measured gameplay), two integration/provenance gaps (COM-019–020), eight resolved/historical groups (COM-021–028), three non-factual limitation groups (COM-029–031), and one current presentation/caveat-propagation defect (COM-032). Repeated occurrences do not increase this count. Appendices enumerate records and lexical occurrences separately; a record may belong to multiple findings.
 
-**Current status — October 1:** 14 closed (13 supported, one false gap), 12 partial, three open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+**Current status — October 1:** 15 closed (14 supported, one false gap), 11 partial, three open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+
+The [residual continuation](research-continuation-2026-10-01.md) challenges every partial/open finding and records all integrations and genuine no-change outcomes.
 
 Evidence scope is explicitly bounded: source-backed does not mean in-game tested; several KHWiki pages are not independent sources; a hidden achievement's public name is not its trigger code. Follow `ai_docs/testing-and-content-validation.md:5–11,33–35`: research can resolve mechanics without making a user playthrough an acceptance gate. GBA, original PS2 bonus rules, PS3-only trophy behavior, production artwork licensing and unrequested Story/Characters trackers are not new factual scope. Story/character requirements remain relevant to the already-scoped Steam achievements.
 
@@ -21,25 +23,25 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
 | COM-001 | Open, investigated | HD attack/assorted identity, value and Premium odds and locked-pool renormalization remain absent from edition-correct accessible evidence. Existing prices, stock and eight magic/item identity pools remain closed. |
-| COM-002 | Partial | All 12 world presets and all 12 retained boss-card identities/defeat conditions are structured; exact ordered/value corridor and boss substitutions, and exception-specific retained union, remain unproved. |
+| COM-002 | Partial | Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved. |
 | COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Full room spawn compositions, scripted exceptions beyond those footnotes and repeat/reset routes remain incomplete. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
 | COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
-| COM-007 | Partial | All 98 move effects, 92 ordered stock recipes and six duel activations are structured. Third-card/two-card and overlapping-recipe precedence remains unknown; no solver is certified. |
-| COM-008 | Partial | Full community Days-unlock route reconfirmed for all 13 bonus identities. Minimum skip/diary trigger, restart requirement and system-save transfer behavior remain unknown. |
+| COM-007 | Partial | All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. General overlapping/extra-card precedence remains unknown. |
+| COM-008 | Partial | Steam firsthand chapter-skipping and character-file completion observations recorded. Minimum flags, restart and save-transfer semantics remain unknown. |
 | COM-009 | Partial | All 17 named Bounty priorities and clear gates retained. Precise save-loading/system-clear sequence and ineligible/exhausted unique-reward fallback remain unproved. |
-| COM-010 | Partial | Primary public API exposes compilation identifiers ACH_001–ACH_197. It provides no display-name mapping; all 47 `steamApiName` values remain null. |
+| COM-010 | Closed, supported | All 47 Steam API names explicitly recovered from individual indexed SteamDB requirement/game/key associations and propagated to runtime. No order/percentage inference; trigger implementation remains COM-011. |
 | COM-011 | Partial | Public requirements and previously resolved economy boundaries retained; firsthand save-reload/No Escape evidence recorded with its limited scope. Full 47-goal exact counters/comparisons/save ownership and forced-escape exceptions remain unproved. |
-| COM-012 | Partial | General Report section/subsection completion stamps and all eight friend availability conditions are documented. Full character-entry trigger catalog, ranks, native ordering/percentage formula and exact Steam report triggers remain unproved. |
+| COM-012 | Partial | Report stamps and eight friend conditions retained; PS4 character-completion guidance now reaches two Sora goals. Full registration events, ranks, native order/percentage and Steam report predicates remain unproved. |
 | COM-013 | Closed, supported | All 99 levels, EXP increments/cumulative totals, five variable stat caps, maximum level and deferred AP/sleight-choice rules extracted. |
-| COM-014 | Partial | 59 enemy/form/body records, 379 floor-stat rows, 24 boss deck multiplicity tables (111 card-family rows), resistances and 43 explicit duel timers integrated. Ordered/unlisted encounter decks, full boss tactics/routes and frame timings remain incomplete; specific source conflicts are quarantined. |
+| COM-014 | Partial | 59 combat records/379 floor rows/24 boss decks retained; early Ansem tutorial and Zexion tactics integrated. Ordered decks, full encounter/frame coverage and quarantined stat/duel conflicts remain. |
 | COM-015 | Partial | All six start/return routes and initial objectives now have canonical records. Third-and-later replay reward behavior is not specified by consulted sources. |
 | COM-016 | Closed, supported | All eight friend availability entries checked; exact Pluto thresholds/chance and Donald/Goofy/Peter Pan story windows integrated. |
-| COM-017 | Partial | All 29 basic-card effects, 22 magic/summon/friend use-detail records and seven item reload matrices integrated. Exact Bambi, Dumbo and Goofy summon/friend durations remain absent from the consulted remake mechanics pages. |
+| COM-017 | Partial | Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved. |
 | COM-018 | Closed, false gap | Resistance-only Ansem player card is correct for Re:CoM. Concealment is original CoM Link Mode; enemy Ansem's use is separate. |
 | COM-019 | Closed, supported | All 13 Riku unlock/form requirements and six duel initiation requirements reach generated entries. |
-| COM-020 | Partial | All 51 baseline missing URLs now have dated fresh access outcomes: 47 direct retrieves/four direct failures; FAQ 55459 additionally recovered through web retrieval. Original September 28 inspection metadata cannot be reconstructed from a new fetch. |
+| COM-020 | Partial | All baseline missing URLs retain dated outcomes; additional indexed GameFAQs 56913/modern TrueTrophies text recovered with separate provenance. Original September 28 inspection metadata cannot be reconstructed. |
 | COM-021 | Closed, supported | 440 CP cells, 37 Premium costs and seven resolved enemy-cost conflicts preserved. |
 | COM-022 | Closed, supported | Complete 152 Sora / 59 Riku card-type rosters preserved. |
 | COM-023 | Closed, supported | 25 floor-door records, map matrices and all 17 Bounty priorities preserved. |

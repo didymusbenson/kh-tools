@@ -2,30 +2,30 @@
 
 This is the current disposition of **all 32 findings** in [the audit](research_audit.md), after live source inspection and canonical-data/runtime integration. The original `f933ab1` register and appendices remain historical evidence. Source-backed resolution is not a claim that a Steam game build was executed.
 
-**14 closed (13 supported resolutions and one false gap), 12 partially resolved, three open after investigation, and three non-factual limitations.** No finding was skipped or changed to “blocked” merely because it was large. A partial status means useful supported facts are integrated while the exact remainder below is still unproved.
+**15 closed (14 supported resolutions and one false gap), 11 partially resolved, three open after investigation, and three non-factual limitations.** No finding was skipped or changed to “blocked” merely because it was large. A partial status means useful supported facts are integrated while the exact remainder below is still unproved.
 
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
 | COM-001 | Open, investigated | HD attack/assorted identity, value and Premium odds and locked-pool renormalization remain absent from edition-correct accessible evidence. Existing prices, stock and eight magic/item identity pools remain closed. |
-| COM-002 | Partial | All 12 world presets and all 12 retained boss-card identities/defeat conditions are structured; exact ordered/value corridor and boss substitutions, and exception-specific retained union, remain unproved. |
+| COM-002 | Partial | Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved. |
 | COM-003 | Partial | Both encounter footnotes are resolved and propagated across all 30 farm references. Full room spawn compositions, scripted exceptions beyond those footnotes and repeat/reset routes remain incomplete. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
 | COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
-| COM-007 | Partial | All 98 move effects, 92 ordered stock recipes and six duel activations are structured. Third-card/two-card and overlapping-recipe precedence remains unknown; no solver is certified. |
-| COM-008 | Partial | Full community Days-unlock route reconfirmed for all 13 bonus identities. Minimum skip/diary trigger, restart requirement and system-save transfer behavior remain unknown. |
+| COM-007 | Partial | All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. General overlapping/extra-card precedence remains unknown. |
+| COM-008 | Partial | Steam firsthand chapter-skipping and character-file completion observations recorded. Minimum flags, restart and save-transfer semantics remain unknown. |
 | COM-009 | Partial | All 17 named Bounty priorities and clear gates retained. Precise save-loading/system-clear sequence and ineligible/exhausted unique-reward fallback remain unproved. |
-| COM-010 | Partial | Primary public API exposes compilation identifiers ACH_001–ACH_197. It provides no display-name mapping; all 47 `steamApiName` values remain null. |
+| COM-010 | Closed, supported | All 47 Steam API names explicitly recovered from individual indexed SteamDB requirement/game/key associations and propagated to runtime. No order/percentage inference; trigger implementation remains COM-011. |
 | COM-011 | Partial | Public requirements and previously resolved economy boundaries retained; firsthand save-reload/No Escape evidence recorded with its limited scope. Full 47-goal exact counters/comparisons/save ownership and forced-escape exceptions remain unproved. |
-| COM-012 | Partial | General Report section/subsection completion stamps and all eight friend availability conditions are documented. Full character-entry trigger catalog, ranks, native ordering/percentage formula and exact Steam report triggers remain unproved. |
+| COM-012 | Partial | Report stamps and eight friend conditions retained; PS4 character-completion guidance now reaches two Sora goals. Full registration events, ranks, native order/percentage and Steam report predicates remain unproved. |
 | COM-013 | Closed, supported | All 99 levels, EXP increments/cumulative totals, five variable stat caps, maximum level and deferred AP/sleight-choice rules extracted. |
-| COM-014 | Partial | 59 enemy/form/body records, 379 floor-stat rows, 24 boss deck multiplicity tables (111 card-family rows), resistances and 43 explicit duel timers integrated. Ordered/unlisted encounter decks, full boss tactics/routes and frame timings remain incomplete; specific source conflicts are quarantined. |
+| COM-014 | Partial | 59 combat records/379 floor rows/24 boss decks retained; early Ansem tutorial and Zexion tactics integrated. Ordered decks, full encounter/frame coverage and quarantined stat/duel conflicts remain. |
 | COM-015 | Partial | All six start/return routes and initial objectives now have canonical records. Third-and-later replay reward behavior is not specified by consulted sources. |
 | COM-016 | Closed, supported | All eight friend availability entries checked; exact Pluto thresholds/chance and Donald/Goofy/Peter Pan story windows integrated. |
-| COM-017 | Partial | All 29 basic-card effects, 22 magic/summon/friend use-detail records and seven item reload matrices integrated. Exact Bambi, Dumbo and Goofy summon/friend durations remain absent from the consulted remake mechanics pages. |
+| COM-017 | Partial | Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved. |
 | COM-018 | Closed, false gap | Resistance-only Ansem player card is correct for Re:CoM. Concealment is original CoM Link Mode; enemy Ansem's use is separate. |
 | COM-019 | Closed, supported | All 13 Riku unlock/form requirements and six duel initiation requirements reach generated entries. |
-| COM-020 | Partial | All 51 baseline missing URLs now have dated fresh access outcomes: 47 direct retrieves/four direct failures; FAQ 55459 additionally recovered through web retrieval. Original September 28 inspection metadata cannot be reconstructed from a new fetch. |
+| COM-020 | Partial | All baseline missing URLs retain dated outcomes; additional indexed GameFAQs 56913/modern TrueTrophies text recovered with separate provenance. Original September 28 inspection metadata cannot be reconstructed. |
 | COM-021 | Closed, supported | 440 CP cells, 37 Premium costs and seven resolved enemy-cost conflicts preserved. |
 | COM-022 | Closed, supported | Complete 152 Sora / 59 Riku card-type rosters preserved. |
 | COM-023 | Closed, supported | 25 floor-door records, map matrices and all 17 Bounty priorities preserved. |
@@ -39,7 +39,9 @@ This is the current disposition of **all 32 findings** in [the audit](research_a
 | COM-031 | Non-factual limitation | Fixed the null Riku 100 Acre Wood filter. Optional inventory/solver, physical-device acceptance and Jiminy integration remain separate engineering scope; Jiminy memories stay empty. |
 | COM-032 | Closed, supported | Both farm footnotes and both mushroom rules now reach runtime; ordinary enemies have no copied mushroom TODO; obsolete door warning is gone. |
 
-## Investigation, evidence and remaining blockers
+## First-pass investigation, evidence and remaining blockers
+
+The following narrative records the first pass. The [complete residual continuation](research-continuation-2026-10-01.md) supersedes its API-null and three-base-duration statements: 47 keys are now mapped, and Dumbo timing is sourced. The current table above incorporates those results.
 
 ### COM-001 — Moogle distributions
 

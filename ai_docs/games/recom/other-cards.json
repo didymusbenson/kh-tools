@@ -72,7 +72,7 @@
         "Mog": 2.0
       },
       "effect": "Launches a fire projectile. Two Fire cards cast Fira; three cast Firaga.",
-      "useParameters": "Power: 5\u00d7; fire element.",
+      "useParameters": "Power: 5×; fire element.",
       "effectSource": "https://www.khwiki.com/Fire"
     },
     {
@@ -142,7 +142,7 @@
         "Mog": 2.0
       },
       "effect": "Deals ice damage. Two Blizzard cards cast Blizzara; three cast Blizzaga.",
-      "useParameters": "Power: 4\u00d7; ice element.",
+      "useParameters": "Power: 4×; ice element.",
       "effectSource": "https://www.khwiki.com/Blizzard"
     },
     {
@@ -212,7 +212,7 @@
         "Mog": 2.0
       },
       "effect": "Deals lightning damage. Two Thunder cards cast Thundara; three cast Thundaga.",
-      "useParameters": "Power: 3.5\u00d7; lightning element.",
+      "useParameters": "Power: 3.5×; lightning element.",
       "effectSource": "https://www.khwiki.com/Thunder"
     },
     {
@@ -492,7 +492,7 @@
         "Mog": 10.0
       },
       "effect": "Damages and blows away nearby enemies. Two cards cast Aerora; three cast Aeroga.",
-      "useParameters": "Power: 3\u00d7; neutral element.",
+      "useParameters": "Power: 3×; neutral element.",
       "effectSource": "https://www.khwiki.com/Aero"
     },
     {
@@ -563,7 +563,7 @@
         "Mog": 0
       },
       "effect": "Roars at enemies ahead. Stacking adds stun.",
-      "useParameters": "Power: 3\u00d7; neutral element.",
+      "useParameters": "Power: 3×; neutral element.",
       "effectSource": "https://www.khwiki.com/Proud_Roar"
     },
     {
@@ -634,7 +634,7 @@
         "Mog": 0
       },
       "effect": "Casts Thundara, Gravira or Stopra. Stacking increases spell count.",
-      "useParameters": "One random spell: Thundara power 6\u00d7, Gravira 40% current HP, or Stopra 8 seconds; target resistance applies.",
+      "useParameters": "One random spell: Thundara power 6×, Gravira 40% current HP, or Stopra 8 seconds; target resistance applies.",
       "effectSource": "https://www.khwiki.com/Showtime"
     },
     {
@@ -664,7 +664,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Bambi",
-        "https://www.khwiki.com/Paradise"
+        "https://www.khwiki.com/Paradise",
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
       ],
       "randomSources": {
         "Field drop": {
@@ -705,9 +706,16 @@
         "Mog": 16.0
       },
       "effect": "Drops healing orbs while running. Stacking improves healing.",
-      "useParameters": "Drops small HP orbs; contact power 0.1\u00d7 per hit.",
+      "useParameters": "Drops 12 small HP orbs in four jumps (3 orbs per jump, 3 HP per orb); contact power 0.1× per hit.",
       "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
-      "effectSource": "https://www.khwiki.com/Paradise"
+      "effectSource": "https://www.khwiki.com/Paradise",
+      "orbOutput": {
+        "jumps": 4,
+        "orbsPerJump": 3,
+        "hpPerOrb": 3,
+        "source": "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "edition": "Re:Chain of Memories remake"
+      }
     },
     {
       "id": "recom-card-summon-dumbo",
@@ -736,7 +744,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Dumbo",
-        "https://www.khwiki.com/Splash"
+        "https://www.khwiki.com/Splash",
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
       ],
       "randomSources": {
         "Field drop": {
@@ -777,9 +786,10 @@
         "Mog": 0
       },
       "effect": "Sprays an ice-element stream. Stacking extends its duration.",
-      "useParameters": "Ice damage, power 1.5\u00d7 per hit; aim the stream with movement input.",
-      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
-      "effectSource": "https://www.khwiki.com/Splash"
+      "useParameters": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts 5 seconds.",
+      "durationEvidence": "Fandom Summon cards, explicitly remake-selected Dumbo section; indexed full section inspected 2026-10-01. Community reference, not independent Steam execution.",
+      "effectSource": "https://www.khwiki.com/Splash",
+      "durationSeconds": 5
     },
     {
       "id": "recom-card-summon-tinker-bell",
@@ -920,7 +930,7 @@
         "Mog": 16.0
       },
       "effect": "Breathes fire. Stacking extends its duration.",
-      "useParameters": "Aim manually while stationary; power 1\u00d7 per fireball. Ends at 11 seconds or 10 shots.",
+      "useParameters": "Aim manually while stationary; power 1× per fireball. Ends at 11 seconds or 10 shots.",
       "effectSource": "https://www.khwiki.com/Flare_Breath"
     },
     {
@@ -1534,7 +1544,7 @@
       "verification": "source-inspected candidate",
       "effect": "Spins around Sora, striking with his shield.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Neutral damage, power 1.5\u00d7 per hit.",
+      "useParameters": "Neutral damage, power 1.5× per hit.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Goofy_Tornado"
@@ -1553,7 +1563,7 @@
       "verification": "source-inspected candidate",
       "effect": "Slashes while running; hits release Moogle Points.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Lasts 3 seconds; power 2\u00d7 per hit; each hit produces three small Moogle Point orbs.",
+      "useParameters": "Lasts 3 seconds; power 2× per hit; each hit produces three small Moogle Point orbs.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Sandstorm"
@@ -1571,7 +1581,7 @@
       "verification": "source-inspected candidate",
       "effect": "Casts Fire, Blizzard, Thunder or Gravity.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "One spell: Fire power 6\u00d7, Blizzard 5\u00d7, Thunder 4\u00d7, or Gravity 10% remaining HP.",
+      "useParameters": "One spell: Fire power 6×, Blizzard 5×, Thunder 4×, or Gravity 10% remaining HP.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Surprise!_Lv2"
@@ -1589,7 +1599,7 @@
       "verification": "source-inspected candidate",
       "effect": "Spins across the battlefield, hitting enemies.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Two hits: power 4.5\u00d7 then 5\u00d7. Follow the reaction prompt; a wrong input ends the attack.",
+      "useParameters": "Two hits: power 4.5× then 5×. Follow the reaction prompt; a wrong input ends the attack.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Spiral_Wave"
@@ -1607,7 +1617,7 @@
       "verification": "source-inspected candidate",
       "effect": "Dagger attacks; repeated reaction-button presses accelerate attacks and release Moogle Points.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Lasts 7 seconds; neutral power 2\u00d7 per hit.",
+      "useParameters": "Lasts 7 seconds; neutral power 2× per hit.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Hummingbird"
@@ -1625,7 +1635,7 @@
       "verification": "source-inspected candidate",
       "effect": "Knocks enemies toward Sora for return hits.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Three hits: power 3\u00d7, 1\u00d7, 5\u00d7; use the reaction prompt for Sora\u2019s return hit.",
+      "useParameters": "Three hits: power 3×, 1×, 5×; use the reaction prompt for Sora’s return hit.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
         "https://www.khwiki.com/Furious_Volley"
@@ -1637,7 +1647,7 @@
       "name": "Pluto",
       "family": "friend",
       "campaign": "sora",
-      "acquisition": "After entering Traverse Town\u2019s Room of Beginnings, Pluto can replace a friend-card spawn with 20% probability when Sora has at most 2 cards left and at most 9 reloadable cards.",
+      "acquisition": "After entering Traverse Town’s Room of Beginnings, Pluto can replace a friend-card spawn with 20% probability when Sora has at most 2 cards left and at most 9 reloadable cards.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
       "verification": "source-inspected candidate",

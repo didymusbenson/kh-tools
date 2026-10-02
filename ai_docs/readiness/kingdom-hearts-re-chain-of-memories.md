@@ -26,9 +26,9 @@ Current disposition: [all 32 findings](../games/recom/research-resolution-2026-1
 | Sleights | All 98 effects, 92 stock recipes, six duel activations and all Riku form rules | Native order/Steam denominator and recipe precedence (006,007) |
 | Progression / combat | All 99 levels/caps/deferred choices; 59 combat records/379 floor rows/43 timers/24 boss deck tables | Complete encounter decks/tactics/frames and quarantined source ambiguities (014) |
 | Riku | 12 world presets and all 12 retained boss-card conditions | Corridor/boss overrides (002) |
-| Basic cards / friends | All 29 effects, seven reload matrices, all eight friend windows | Bambi/Dumbo/Goofy exact durations (017) |
+| Basic cards / friends | All 29 effects, seven reload matrices, all eight friend windows | Bambi/Goofy exact base durations and unlisted higher tiers (017) |
 | Minigames | Six canonical start/objective routes and first/second rewards | Third-and-later replay rewards (015) |
-| Steam / Report / Days | All 47 public goal definitions; namespace observed; actionable Days route; general stamps | Exact API mappings, runtime predicates, full registration/rank formulas, minimum Days/save behavior (008,010–012) |
+| Steam / Report / Days | All 47 public goal definitions and explicit API-key mappings; actionable Days route; Report guidance | Runtime predicates, full registration/rank formulas, minimum Days/save behavior (008,011–012) |
 | Provenance | All 51 missing URLs have new outcomes; 269 direct retrieval attempts plus web inspections | Historical September 28 inspection metadata cannot be reconstructed (020) |
 
 ## Initial content readiness (historical)
@@ -48,7 +48,7 @@ Current disposition: [all 32 findings](../games/recom/research-resolution-2026-1
 | COM-R11 | Deck economics | 16 pack prices; Premium/CP conceptual separation | All per-value CP costs, pack odds, sale exceptions; no calculator yet |
 | COM-R12 | Riku presets | 12 Re:CoM decks, card values/source sequence | Independent modern deck check; corridor/boss substitutions and retained-card union |
 | COM-R13 | Minigames | Five Pooh score goals; first/replay rewards; Monstro entry | Full Journal completion/character triggers, exact replay behavior and text routes |
-| COM-R14 | Steam goals | 47 candidate goals; primary display-name matches | Native API IDs, hidden runtime comparisons and campaign/counter aggregation |
+| COM-R14 | Steam goals | 47 goals with primary names and explicit secondary indexed API mappings | Hidden runtime comparisons and campaign/counter aggregation |
 | COM-R15 | Completion bonuses | Days versus Riku-clear dependency separated | Minimum Steam Days trigger, Gold/Platinum order and ordinary-collection membership |
 | COM-R16 | Level / combat | Sora milestones, movement, Riku Dark Mode/duels | HP/CP/AP/DP caps, EXP tables, full bestiary/boss mechanics and encounter timers |
 | COM-R17 | Presentation | 22 HD video frames + 2 official HD panels; Journal/D-Report roots, native card categories, collection/detail, records, player/Status menus; [design brief](../ui/recom-menu-design-research.md) | Partial/NEW states, Edit Deck/Sleights detail, Moogle shop, English room predicates, exact fonts/assets and responsive mockup |
@@ -93,3 +93,5 @@ The user subsequently authorized implementation. See the [working implementation
 - 2026-09-28: Implemented the HD journal and requested home placement. Added 403 sourced runtime entries, separate campaign reports, saved discovery/score records and offline coverage. Ten desktop/phone browser tests and the 105-test unit suite pass. Native artwork, full card coverage and the remaining research gates are still open.
 
 - 2026-10-01: Reassessed all 32 audit findings, integrated all basic/sleight effects, structured recipes, progression, combat/form tables, minigame routes and complete friend/mushroom conditions; reconciled fresh access for all 51 old manifest omissions without rewriting historical evidence. Fixed null Riku 100 Acre Wood filtering. Jiminy memories remain empty. Targeted validation is recorded in the per-game resolution ledger.
+
+October 1 continuation: [all residual findings challenged](../games/recom/research-continuation-2026-10-01.md), with complete Steam-key mapping and additional bounded mechanics integrated. No user playthrough required.

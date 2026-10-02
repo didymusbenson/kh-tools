@@ -26,7 +26,7 @@ Re:CoM needs finite world-reward goals and card-type collection, plus separate d
 | Moogle shops | Pack types/tiers/prices, floor gates, random distributions, duplicates, sell rules | 16 prices/stock rows, eight identity pools, sale rules and resolved CP; remaining distributions open |
 | Riku | Fixed per-world cards/values, world versus retained enemy cards, DP/AP, Dark Mode, duels, D-Report | 12 world presets, 12 retained boss acquisitions, 22 enemy-card records, 13 sleights and complete progression; corridor overrides open |
 | Minigames | Start location, clear versus score/replay requirements, rewards, practical instructions | Six canonical start/objective routes including Monstro; five score goals and first/second rewards; later replay behavior open |
-| Run goals | All Steam goals, difficulty stacking, counters, no-Continue/no-flee constraints, Journal dependencies | 47 names/requirements with platform provenance; hidden predicates/API IDs open |
+| Run goals | All Steam goals, difficulty stacking, counters, no-Continue/no-flee constraints, Journal dependencies | 47 names/requirements and individually observed Steam API keys; hidden trigger predicates remain partial |
 | Journal identity | Sora's Journal versus Riku's D-Report; actual menus/order and completion marks | HD root/order and sampled card/record/system screens verified; partial/NEW/deck/shop states still open |
 
 Detailed findings live in the research pack rather than being duplicated here. Numerical extraction counts are not certified in-game totals.

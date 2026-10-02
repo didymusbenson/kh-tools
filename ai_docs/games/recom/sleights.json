@@ -425,7 +425,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals fire damage; base power multiplier 10\u00d7.",
+      "effect": "Deals fire damage; base power multiplier 10×.",
       "effectSource": "https://www.khwiki.com/Fira"
     },
     {
@@ -456,7 +456,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals fire damage; base power multiplier 15\u00d7.",
+      "effect": "Deals fire damage; base power multiplier 15×.",
       "effectSource": "https://www.khwiki.com/Firaga"
     },
     {
@@ -484,7 +484,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals ice damage; base power multiplier 7\u00d7.",
+      "effect": "Deals ice damage; base power multiplier 7×.",
       "effectSource": "https://www.khwiki.com/Blizzara"
     },
     {
@@ -515,7 +515,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals ice damage; base power multiplier 11\u00d7.",
+      "effect": "Deals ice damage; base power multiplier 11×.",
       "effectSource": "https://www.khwiki.com/Blizzaga"
     },
     {
@@ -543,7 +543,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals lightning damage; base power multiplier 6\u00d7.",
+      "effect": "Deals lightning damage; base power multiplier 6×.",
       "effectSource": "https://www.khwiki.com/Thundara"
     },
     {
@@ -574,7 +574,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals lightning damage; base power multiplier 9\u00d7.",
+      "effect": "Deals lightning damage; base power multiplier 9×.",
       "effectSource": "https://www.khwiki.com/Thundaga"
     },
     {
@@ -603,7 +603,17 @@
       ],
       "thirdCardPrecedence": null,
       "effect": "Restores 150 HP before modifiers.",
-      "effectSource": "https://www.khwiki.com/Cura"
+      "effectSource": "https://www.khwiki.com/Cura",
+      "stockNotes": "An Item card can occupy the third stock slot after this two-card recipe.",
+      "stockEvidence": {
+        "source": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "edition": "HD 1.5 ReMIX PS3",
+        "access": "indexed answer text",
+        "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
+      },
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+      ]
     },
     {
       "id": "recom-sleight-sora-curaga",
@@ -661,7 +671,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Base damage is 40% of the target\u2019s remaining HP, subject to resistance.",
+      "effect": "Base damage is 40% of the target’s remaining HP, subject to resistance.",
       "effectSource": "https://www.khwiki.com/Gravira"
     },
     {
@@ -692,7 +702,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Base damage is 70% of the target\u2019s remaining HP, subject to resistance.",
+      "effect": "Base damage is 70% of the target’s remaining HP, subject to resistance.",
       "effectSource": "https://www.khwiki.com/Graviga"
     },
     {
@@ -779,7 +789,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals neutral damage; base power multiplier 6\u00d7.",
+      "effect": "Deals neutral damage; base power multiplier 6×.",
       "effectSource": "https://www.khwiki.com/Aerora"
     },
     {
@@ -810,7 +820,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Deals neutral damage; base power multiplier 9\u00d7.",
+      "effect": "Deals neutral damage; base power multiplier 9×.",
       "effectSource": "https://www.khwiki.com/Aeroga"
     },
     {
@@ -934,7 +944,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Lowers other enemies\u2019 HP to the target\u2019s lower remaining HP; ineffective against a lone target or boss parts.",
+      "effect": "Lowers other enemies’ HP to the target’s lower remaining HP; ineffective against a lone target or boss parts.",
       "effectSource": "https://www.khwiki.com/Synchro"
     },
     {
@@ -1503,7 +1513,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Freezes nearby enemies for 7 seconds. A hit breaks the freeze and adds damage equivalent to a \u00d710 power attack; casting Freeze again does not break it.",
+      "effect": "Freezes nearby enemies for 7 seconds. A hit breaks the freeze and adds damage equivalent to a ×10 power attack; casting Freeze again does not break it.",
       "effectSource": "https://www.khwiki.com/Freeze_(ability)"
     },
     {
@@ -1655,8 +1665,18 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Simba\u2019s forward roar damages and stuns.",
-      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv2"
+      "effect": "Simba’s forward roar damages and stuns.",
+      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv2",
+      "stockNotes": "An Item card can occupy the third stock slot after this two-card recipe.",
+      "stockEvidence": {
+        "source": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "edition": "HD 1.5 ReMIX PS3",
+        "access": "indexed answer text",
+        "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
+      },
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+      ]
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv3",
@@ -1686,7 +1706,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Simba\u2019s forward roar damages and stuns.",
+      "effect": "Simba’s forward roar damages and stuns.",
       "effectSource": "https://www.khwiki.com/Proud_Roar_Lv3"
     },
     {
@@ -1863,8 +1883,12 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Dumbo sprays an aimed ice-element stream.",
-      "effectSource": "https://www.khwiki.com/Splash_Lv2"
+      "effect": "Dumbo sprays an aimed ice-element stream for 10 seconds.",
+      "effectSource": "https://www.khwiki.com/Splash_Lv2",
+      "durationSeconds": 10,
+      "sources": [
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+      ]
     },
     {
       "id": "recom-sleight-sora-splash-lv3",
@@ -1894,8 +1918,11 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Dumbo sprays an aimed ice-element stream.",
-      "effectSource": "https://www.khwiki.com/Splash_Lv3"
+      "effect": "Dumbo sprays a larger aimed ice-element stream, with power 2× per hit.",
+      "effectSource": "https://www.khwiki.com/Splash_Lv3",
+      "sources": [
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+      ]
     },
     {
       "id": "recom-sleight-sora-twinkle-lv2",
@@ -2071,7 +2098,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Aim and fire Mushu\u2019s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
+      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
       "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2"
     },
     {
@@ -2102,7 +2129,7 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Aim and fire Mushu\u2019s fireballs while Sora stays still. Ends at 11 seconds or 35 fireballs.",
+      "effect": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 35 fireballs.",
       "effectSource": "https://www.khwiki.com/Flare_Breath_Lv3"
     },
     {
@@ -2189,8 +2216,18 @@
         }
       ],
       "thirdCardPrecedence": null,
-      "effect": "Timed reactions let Sora bat Donald\u2019s three fireballs at enemies.",
-      "effectSource": "https://www.khwiki.com/Stardust_Blitz"
+      "effect": "Timed reactions let Sora bat Donald’s three fireballs at enemies.",
+      "effectSource": "https://www.khwiki.com/Stardust_Blitz",
+      "stockNotes": "An Item card can occupy the third stock slot after this two-card recipe.",
+      "stockEvidence": {
+        "source": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
+        "edition": "HD 1.5 ReMIX PS3",
+        "access": "indexed answer text",
+        "scope": "Explicit two-card examples and third-slot item guidance; not a general overlap-precedence algorithm."
+      },
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories"
+      ]
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv2",
@@ -2991,7 +3028,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
@@ -3013,7 +3050,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
@@ -3035,7 +3072,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
@@ -3057,7 +3094,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
@@ -3079,7 +3116,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
@@ -3101,7 +3138,7 @@
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
       "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
       "activation": {
         "kind": "duel-victory",
