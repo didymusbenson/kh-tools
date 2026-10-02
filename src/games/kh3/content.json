@@ -6757,9 +6757,11 @@
       "category": "challenges",
       "name": "Verum Rex: Beat of Lead",
       "summary": "A rank: 10,000,000.",
-      "instructions": "A rank requires 10,000,000. Achievement/collection goal: 12,000,000 for Centurion. Rank table: 10,000,000 Points / A / Focus Syphon , Strength Boost , Master Medal; 8,000,000 - 9,999,999 Points / B / Junior Medal; 6,000,000 - 7,999,999 Points / C / Wellspring Stone; 0-5,999,999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards.",
+      "instructions": "A rank requires 10,000,000. Achievement/collection goal: 12,000,000 for Centurion. Rank table: 10,000,000 Points / A / Focus Syphon , Strength Boost , Master Medal; 8,000,000 - 9,999,999 Points / B / Junior Medal; 6,000,000 - 7,999,999 Points / C / Wellspring Stone; 0-5,999,999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards. Random medal outcomes by rank: A: Master Medal — Fire Boost, Master Medal — Defender, Master Medal — Lucky Strike; B: Junior Medal — Treasure Magnet, Junior Medal — Burn Protection, Junior Medal — Cloud Protection. These are alternative rolls, not a bundle of every listed medal.",
       "sources": [
-        "https://www.khwiki.com/Verum_Rex:_Beat_of_Lead"
+        "https://www.khwiki.com/Verum_Rex:_Beat_of_Lead",
+        "https://www.khwiki.com/Junior_Medal",
+        "https://www.khwiki.com/Master_Medal"
       ],
       "rankRewards": [
         {
@@ -6782,6 +6784,14 @@
           "rank": "D",
           "reward": "Wellspring Shard"
         }
+      ],
+      "medalVariantIds": [
+        "kh3.equipment.junior-medal-treasure-magnet",
+        "kh3.equipment.junior-medal-burn-protection",
+        "kh3.equipment.junior-medal-cloud-protection",
+        "kh3.equipment.master-medal-fire-boost",
+        "kh3.equipment.master-medal-defender",
+        "kh3.equipment.master-medal-lucky-strike"
       ]
     },
     {
@@ -6789,9 +6799,11 @@
       "category": "challenges",
       "name": "Festival Dance",
       "summary": "A rank: 50,000.",
-      "instructions": "A rank requires 50,000. Achievement/collection goal: 70,000 for Festive Dancer. Rank table: 50000 Points / A / Magic Boost , Unison Thunder , Master Medal; 30000-49999 Points / B / Junior Medal , Master Medal; 10000-29999 Points / C / Wellspring Stone; 0-9999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards.",
+      "instructions": "A rank requires 50,000. Achievement/collection goal: 70,000 for Festive Dancer. Rank table: 50000 Points / A / Magic Boost , Unison Thunder , Master Medal; 30000-49999 Points / B / Junior Medal , Master Medal; 10000-29999 Points / C / Wellspring Stone; 0-9999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards. Random medal outcomes by rank: A: Master Medal — Water Boost, Master Medal — Extra Cast, Master Medal — Magic Treasure Magnet; B: Junior Medal — Sneeze Protection, Junior Medal — Electric Protection, Master Medal — Water Syphon. These are alternative rolls, not a bundle of every listed medal.",
       "sources": [
-        "https://www.khwiki.com/Festival_Dance"
+        "https://www.khwiki.com/Festival_Dance",
+        "https://www.khwiki.com/Junior_Medal",
+        "https://www.khwiki.com/Master_Medal"
       ],
       "rankRewards": [
         {
@@ -6814,6 +6826,14 @@
           "rank": "D",
           "reward": "Wellspring Shard"
         }
+      ],
+      "medalVariantIds": [
+        "kh3.equipment.junior-medal-sneeze-protection",
+        "kh3.equipment.junior-medal-electric-protection",
+        "kh3.equipment.master-medal-water-boost",
+        "kh3.equipment.master-medal-extra-cast",
+        "kh3.equipment.master-medal-magic-treasure-magnet",
+        "kh3.equipment.master-medal-water-syphon"
       ]
     },
     {
@@ -6821,9 +6841,12 @@
       "category": "challenges",
       "name": "Frozen Slider",
       "summary": "A rank: 500,000.",
-      "instructions": "A rank requires 500,000. Achievement/collection goal: 600,000 for Shield Shredder; ten special prizes separately. Rank table: 500000 Points / A / Defense Boost , Fusion Rocket , Star Medal; 400000-499999 Points / B / Master Medal , Junior Medal; 200000-399999 Points / C / Wellspring Stone; 0-199999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards.",
+      "instructions": "A rank requires 500,000. Achievement/collection goal: 600,000 for Shield Shredder; ten special prizes separately. Rank table: 500000 Points / A / Defense Boost , Fusion Rocket , Star Medal; 400000-499999 Points / B / Master Medal , Junior Medal; 200000-399999 Points / C / Wellspring Stone; 0-199999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards. Random medal outcomes by rank: A: Star Medal — Blizzard Boost, Star Medal — Wizard's Ruse, Star Medal — Withstand Combo; B: Junior Medal — Full MP Blast, Junior Medal — Freeze Protection, Master Medal — Blizzard Syphon. These are alternative rolls, not a bundle of every listed medal.",
       "sources": [
-        "https://www.khwiki.com/Frozen_Slider"
+        "https://www.khwiki.com/Frozen_Slider",
+        "https://www.khwiki.com/Junior_Medal",
+        "https://www.khwiki.com/Master_Medal",
+        "https://www.khwiki.com/Star_Medal"
       ],
       "rankRewards": [
         {
@@ -6846,6 +6869,14 @@
           "rank": "D",
           "reward": "Wellspring Shard"
         }
+      ],
+      "medalVariantIds": [
+        "kh3.equipment.junior-medal-full-mp-blast",
+        "kh3.equipment.junior-medal-freeze-protection",
+        "kh3.equipment.master-medal-blizzard-syphon",
+        "kh3.equipment.star-medal-blizzard-boost",
+        "kh3.equipment.star-medal-wizard-s-ruse",
+        "kh3.equipment.star-medal-withstand-combo"
       ]
     },
     {
@@ -6853,9 +6884,11 @@
       "category": "challenges",
       "name": "Flash Tracer A",
       "summary": "A rank: 60,000.",
-      "instructions": "A rank requires 60,000. Achievement/collection goal: A rank in both courses. Rank table: 60000 Points / A / Attraction Enhancer , Strength Boost , Star Medal; 40000-59999 Points / B / Master Medal; 20000-39999 Points / C / Wellspring Stone; 0-19999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards.",
+      "instructions": "A rank requires 60,000. Achievement/collection goal: A rank in both courses. Rank table: 60000 Points / A / Attraction Enhancer , Strength Boost , Star Medal; 40000-59999 Points / B / Master Medal; 20000-39999 Points / C / Wellspring Stone; 0-19999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards. Random medal outcomes by rank: A: Star Medal — Thunder Boost, Star Medal — Second Chance, Star Medal — Damage Syphon; B: Master Medal — Stun Protection, Master Medal — Thunder Syphon. These are alternative rolls, not a bundle of every listed medal.",
       "sources": [
-        "https://www.khwiki.com/Flash_Tracer"
+        "https://www.khwiki.com/Flash_Tracer",
+        "https://www.khwiki.com/Master_Medal",
+        "https://www.khwiki.com/Star_Medal"
       ],
       "rankRewards": [
         {
@@ -6878,6 +6911,13 @@
           "rank": "D",
           "reward": "Wellspring Shard"
         }
+      ],
+      "medalVariantIds": [
+        "kh3.equipment.master-medal-stun-protection",
+        "kh3.equipment.master-medal-thunder-syphon",
+        "kh3.equipment.star-medal-thunder-boost",
+        "kh3.equipment.star-medal-second-chance",
+        "kh3.equipment.star-medal-damage-syphon"
       ]
     },
     {
@@ -6885,9 +6925,11 @@
       "category": "challenges",
       "name": "Flash Tracer B",
       "summary": "A rank: 75,000.",
-      "instructions": "A rank requires 75,000. Achievement/collection goal: A rank in both courses. Rank table: 75000 Points / A / Grand Magic Extender , Magic Boost , Star Medal; 55000-74999 Points / B / Master Medal; 35000-54999 Points / C / Wellspring Stone; 0-34999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards.",
+      "instructions": "A rank requires 75,000. Achievement/collection goal: A rank in both courses. Rank table: 75000 Points / A / Grand Magic Extender , Magic Boost , Star Medal; 55000-74999 Points / B / Master Medal; 35000-54999 Points / C / Wellspring Stone; 0-34999 Points / D / Wellspring Shard. Ability/stat-boost A rewards are first-clear; medals are repeat rewards. Random medal outcomes by rank: A: Star Medal — Aero Boost, Star Medal — Item Boost, Star Medal — Dark Syphon; B: Master Medal — Fire Syphon, Master Medal — Aero Syphon. These are alternative rolls, not a bundle of every listed medal.",
       "sources": [
-        "https://www.khwiki.com/Flash_Tracer"
+        "https://www.khwiki.com/Flash_Tracer",
+        "https://www.khwiki.com/Master_Medal",
+        "https://www.khwiki.com/Star_Medal"
       ],
       "rankRewards": [
         {
@@ -6910,6 +6952,13 @@
           "rank": "D",
           "reward": "Wellspring Shard"
         }
+      ],
+      "medalVariantIds": [
+        "kh3.equipment.master-medal-fire-syphon",
+        "kh3.equipment.master-medal-aero-syphon",
+        "kh3.equipment.star-medal-aero-boost",
+        "kh3.equipment.star-medal-item-boost",
+        "kh3.equipment.star-medal-dark-syphon"
       ]
     },
     {
@@ -11842,7 +11891,13 @@
       "sources": [
         "https://www.khwiki.com/Lucid"
       ],
-      "drops": [],
+      "drops": [
+        {
+          "enemy": "Anchor Raider",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        }
+      ],
       "uncertainty": "A reliable farm location has not yet been added.",
       "instructions": "Drops: Anchor Raider (8%) Repeat route: Caribbean: fight Anchor Raiders; Battlegate 10 contains two. The Isle of Luck can also be reset by warping back with the ship.",
       "acquisitionSources": [
@@ -11861,7 +11916,13 @@
       "sources": [
         "https://www.khwiki.com/Pulsing"
       ],
-      "drops": [],
+      "drops": [
+        {
+          "enemy": "Helmed Body",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        }
+      ],
       "uncertainty": "A reliable farm location has not yet been added.",
       "instructions": "Drops: Helmed Body (4%) Repeat route: San Fransokyo: use Battlegate 11’s Helmed Bodies; its adds respawn while the Metal Troll remains.",
       "acquisitionSources": [
@@ -11944,7 +12005,7 @@
           "location": "Starlight Way"
         }
       ],
-      "instructions": "Drops: Starlight Way (2.5%), Misty Stream (0.5%) Treasures: Chest at the Summit ; chest at the Agora ; chest at the Courtyard ; two chests at the Tram Common ; chest at The Woods ; chest at Andy's House ; chest at Babies & Toddlers: Dolls ; chest at Kid Korral . Rewards: Complete Treasure Sphere β (Fluorite x3), complete Treasure Sphere ζ (Fluorite x5), complete Treasure Sphere ι (Fluorite x5) Moogle Shop: 500 munny. After clearing both Toy Box and Kingdom of Corona. Numbered chest routes: Olympus #11 (Summit); Olympus #15 (Agora); Olympus #25 (Courtyard); Twilight Town #3 (Tram Common); Twilight Town #4 (Tram Common); Twilight Town #9 (The Woods); Toy Box #4 (Andy's House); Toy Box #16 (Babies & Toddlers: Dolls); Toy Box #21 (Kid Korral). Open those chest records for their pickup directions.",
+      "instructions": "Drops: Starlight Way (2.5%), Misty Stream (0.5%) Treasures: Chest at the Summit ; chest at the Agora ; chest at the Courtyard ; two chests at the Tram Common ; chest at The Woods ; chest at Andy's House ; chest at Babies & Toddlers: Dolls ; chest at Kid Korral . Rewards: Complete Treasure Sphere β (Fluorite x3), complete Treasure Sphere ζ (Fluorite x5), complete Treasure Sphere ι (Fluorite x5) Moogle Shop: 500 munny. After clearing both Toy Box and Kingdom of Corona. Numbered chest routes: Olympus #11 (Summit); Olympus #15 (Agora); Olympus #25 (Courtyard); Twilight Town #3 (Tram Common); Twilight Town #4 (Tram Common); Twilight Town #9 (The Woods); Toy Box #4 (Andy's House); Toy Box #16 (Babies & Toddlers: Dolls); Toy Box #21 (Kid Korral). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere β (Starlight Way), 3 units; Treasure Sphere ζ (Misty Stream), 5 units; Treasure Sphere ι (The Eclipse), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -11975,6 +12036,20 @@
         "kh3.base.toy-box.chest.004",
         "kh3.base.toy-box.chest.016",
         "kh3.base.toy-box.chest.021"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.02",
+          "quantity": 3
+        },
+        {
+          "sphereId": "kh3.gummi-spheres.06",
+          "quantity": 5
+        },
+        {
+          "sphereId": "kh3.gummi-spheres.09",
+          "quantity": 5
+        }
       ]
     },
     {
@@ -11993,7 +12068,7 @@
           "location": "The Eclipse"
         }
       ],
-      "instructions": "Drops: The Eclipse (1%) Treasures: Chest at Isla Verdemontaña ; four chests at Sandbar Isle ; chest at the Central District ; chest at the North District ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Complete Treasure Sphere IX (Electrum x2). Numbered chest routes: The Caribbean #9 (Isla Verdemontaña); The Caribbean #11 (Sandbar Isle); The Caribbean #31 (Sandbar Isle); The Caribbean #35 (Sandbar Isle); The Caribbean #38 (Sandbar Isle); San Fransokyo #6 (North District); San Fransokyo #26 (Central District). Open those chest records for their pickup directions.",
+      "instructions": "Drops: The Eclipse (1%) Treasures: Chest at Isla Verdemontaña ; four chests at Sandbar Isle ; chest at the Central District ; chest at the North District ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Complete Treasure Sphere IX (Electrum x2). Numbered chest routes: The Caribbean #9 (Isla Verdemontaña); The Caribbean #11 (Sandbar Isle); The Caribbean #31 (Sandbar Isle); The Caribbean #35 (Sandbar Isle); The Caribbean #38 (Sandbar Isle); San Fransokyo #6 (North District); San Fransokyo #26 (Central District). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere ι (The Eclipse), 2 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -12016,6 +12091,12 @@
         "kh3.base.the-caribbean.chest.038",
         "kh3.base.san-fransokyo.chest.006",
         "kh3.base.san-fransokyo.chest.026"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.09",
+          "quantity": 2
+        }
       ]
     },
     {
@@ -12027,8 +12108,24 @@
       "sources": [
         "https://www.khwiki.com/Damascus"
       ],
-      "drops": [],
-      "instructions": "Drops: Starlight Way (0.3%), Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at the Campsite ; chest at the Wetlands ; chest at the Ground Floor ; chest at the Accessway ; chest at the Treescape ; chest at the Upper Tier ; chest at the Foothills ; chest at Isla De Los Mástiles ; chest at Sandbar Isle ; chest at Horseshoe Island ; chest at the South District ; chest at the North District . Rewards: Complete Treasure Sphere ε (Damascus x3), complete Treasure Sphere η (Damascus x5). Numbered chest routes: Kingdom of Corona #16 (Wetlands); Kingdom of Corona #19 (Campsite); Monstropolis #11 (Ground Floor); Monstropolis #17 (Accessway); Arendelle #3 (Treescape); Arendelle #13 (Upper Tier); Arendelle #25 (Foothills); The Caribbean #5 (Isla de los Mástiles); The Caribbean #28 (Sandbar Isle); The Caribbean #41 (Horseshoe Island); San Fransokyo #21 (South District); San Fransokyo #32 (North District). Open those chest records for their pickup directions.",
+      "drops": [
+        {
+          "enemy": "Asteroids",
+          "rate": "0.3%",
+          "location": "Starlight Way"
+        },
+        {
+          "enemy": "Asteroids",
+          "rate": "2%",
+          "location": "Misty Stream"
+        },
+        {
+          "enemy": "Asteroids",
+          "rate": "0.5%",
+          "location": "The Eclipse"
+        }
+      ],
+      "instructions": "Drops: Starlight Way (0.3%), Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at the Campsite ; chest at the Wetlands ; chest at the Ground Floor ; chest at the Accessway ; chest at the Treescape ; chest at the Upper Tier ; chest at the Foothills ; chest at Isla De Los Mástiles ; chest at Sandbar Isle ; chest at Horseshoe Island ; chest at the South District ; chest at the North District . Rewards: Complete Treasure Sphere ε (Damascus x3), complete Treasure Sphere η (Damascus x5). Numbered chest routes: Kingdom of Corona #16 (Wetlands); Kingdom of Corona #19 (Campsite); Monstropolis #11 (Ground Floor); Monstropolis #17 (Accessway); Arendelle #3 (Treescape); Arendelle #13 (Upper Tier); Arendelle #25 (Foothills); The Caribbean #5 (Isla de los Mástiles); The Caribbean #28 (Sandbar Isle); The Caribbean #41 (Horseshoe Island); San Fransokyo #21 (South District); San Fransokyo #32 (North District). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere ε (Misty Stream), 3 units; Treasure Sphere η (The Eclipse), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -12056,6 +12153,16 @@
         "kh3.base.the-caribbean.chest.041",
         "kh3.base.san-fransokyo.chest.021",
         "kh3.base.san-fransokyo.chest.032"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.05",
+          "quantity": 3
+        },
+        {
+          "sphereId": "kh3.gummi-spheres.07",
+          "quantity": 5
+        }
       ]
     },
     {
@@ -12068,8 +12175,19 @@
         "https://www.khwiki.com/Adamantite",
         "https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/"
       ],
-      "drops": [],
-      "instructions": "Drops: Misty Stream (0.3%), The Eclipse (1.5%) Treasures: Chest at the Undersea Cavern ; chest at Isla De Los Mástiles ; five chests at Sandbar Isle ; two chests at North District . Rewards: Complete Treasure Sphere η (Adamantite x3). A launch-era farming guide reports that visiting a world and re-entering space restores ordinary asteroids; no timed efficiency or special-crystal reset is established. Numbered chest routes: The Caribbean #2 (Undersea Cavern); The Caribbean #24 (Isla de los Mástiles); The Caribbean #27 (Sandbar Isle); The Caribbean #30 (Sandbar Isle); The Caribbean #32 (Sandbar Isle); The Caribbean #37 (Sandbar Isle); The Caribbean #39 (Sandbar Isle); San Fransokyo #10 (North District); San Fransokyo #22 (North District). Open those chest records for their pickup directions.",
+      "drops": [
+        {
+          "enemy": "Asteroids",
+          "rate": "0.3%",
+          "location": "Misty Stream"
+        },
+        {
+          "enemy": "Asteroids",
+          "rate": "1.5%",
+          "location": "The Eclipse"
+        }
+      ],
+      "instructions": "Drops: Misty Stream (0.3%), The Eclipse (1.5%) Treasures: Chest at the Undersea Cavern ; chest at Isla De Los Mástiles ; five chests at Sandbar Isle ; two chests at North District . Rewards: Complete Treasure Sphere η (Adamantite x3). A launch-era farming guide reports that visiting a world and re-entering space restores ordinary asteroids; no timed efficiency or special-crystal reset is established. Numbered chest routes: The Caribbean #2 (Undersea Cavern); The Caribbean #24 (Isla de los Mástiles); The Caribbean #27 (Sandbar Isle); The Caribbean #30 (Sandbar Isle); The Caribbean #32 (Sandbar Isle); The Caribbean #37 (Sandbar Isle); The Caribbean #39 (Sandbar Isle); San Fransokyo #10 (North District); San Fransokyo #22 (North District). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere η (The Eclipse), 3 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -12094,6 +12212,12 @@
         "kh3.base.the-caribbean.chest.039",
         "kh3.base.san-fransokyo.chest.010",
         "kh3.base.san-fransokyo.chest.022"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.07",
+          "quantity": 3
+        }
       ]
     },
     {
@@ -12105,7 +12229,88 @@
       "sources": [
         "https://www.khwiki.com/Wellspring"
       ],
-      "drops": [],
+      "drops": [
+        {
+          "enemy": "Soldier",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Large Body",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Bizarre Archer",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Satyr",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Toy Trooper",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Powerwild",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Parasol Beauty",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Flood",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Gigas: Power Class",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Gigas: Speed Class",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Gigas: Gunner Class",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Beasts & Bugs",
+          "rate": "16%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Patchwork Animals",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Air Droids",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Bouncy Pets",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Supreme Smasher",
+          "rate": "16%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        }
+      ],
       "uncertainty": "A reliable farm location has not yet been added.",
       "instructions": "Drops: Soldier (4%), Large Body (12%), Bizarre Archer (4%), Satyr (8%), Toy Trooper (8%), Powerwild (8%), Parasol Beauty (12%), Flood (4%) , Gigas: Power Class (8%), Gigas: Speed Class (8%), Gigas: Gunner Class (8%), Beasts & Bugs (16%), Patchwork Animals (12%), Air Droids (4%), Bouncy Pets (4%), Supreme Smasher (16%), Olympus , Monstropolis Rewards: Get a D rank in Verum Rex: Beat of Lead ; get a D rank in Festival Dance ; get a D rank in Frozen Slider ; get a D rank in Flash Tracer . Other methods: Wellspring Shard x3 is one of the possible Prize Postcard rewards.",
       "acquisitionSources": [
@@ -12132,7 +12337,103 @@
       "sources": [
         "https://www.khwiki.com/Wellspring"
       ],
-      "drops": [],
+      "drops": [
+        {
+          "enemy": "Neoshadow",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Large Body",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Vitality Popcat",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Magic Popcat",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Focus Popcat",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Munny Popcat",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Rock Troll",
+          "rate": "30%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Metal Troll",
+          "rate": "30%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Pole Cannon",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Pogo Shovel",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Parasol Beauty",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Chief Puff",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Flowersnake",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Turtletoad",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Beasts & Bugs",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Patchwork Animals",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Air Droids",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Bouncy Pets",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Supreme Smasher",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        }
+      ],
       "uncertainty": "A reliable farm location has not yet been added.",
       "instructions": "Drops: Neoshadow (8%), Large Body (4%), Vitality Popcat (8%), Magic Popcat (8%), Focus Popcat (8%), Munny Popcat (8%), Rock Troll (30%), Metal Troll (30%), Pole Cannon (4%), Pogo Shovel (8%), Parasol Beauty (8%), Chief Puff (8%), Flowersnake (8%), Turtletoad (8%), Beasts & Bugs (8%), Patchwork Animals (4%), Air Droids (12%), Bouncy Pets (12%), Supreme Smasher (8%), Monstropolis Rewards: Get a C rank in Verum Rex: Beat of Lead ; get a C rank in Festival Dance ; get a C rank in Frozen Slider ; get a C rank in Flash Tracer . Other methods: Wellspring Stone x2 is one of the possible Prize Postcard rewards.",
       "acquisitionSources": [
@@ -12159,7 +12460,58 @@
       "sources": [
         "https://www.khwiki.com/Wellspring"
       ],
-      "drops": [],
+      "drops": [
+        {
+          "enemy": "High Soldier",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Rock Troll",
+          "rate": "20%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Metal Troll",
+          "rate": "20%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Mechanitaur",
+          "rate": "12%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Pogo Shovel",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Chaos Carriage",
+          "rate": "20%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Vaporfly",
+          "rate": "4%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Sea Sprite (Rainbow)",
+          "rate": "8%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Anchor Raider",
+          "rate": "20%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        },
+        {
+          "enemy": "Spiked Turtletoad",
+          "rate": "10%",
+          "location": "See enemy/world source; encounter-specific access is not implied."
+        }
+      ],
       "uncertainty": "A reliable farm location has not yet been added.",
       "instructions": "Drops: High Soldier (8%), Rock Troll (20%), Metal Troll (20%), Mechanitaur (12%), Pogo Shovel (4%), Chaos Carriage (20%), Vaporfly (4%), Sea Sprite (Rainbow) (8%), Anchor Raider (20%), Spiked Turtletoad (10%), Monstropolis Treasures: Chest at the Breezy Quarter [ KH III RM ] .",
       "acquisitionSources": [
@@ -30090,7 +30442,7 @@
       "category": "material",
       "name": "Orichalcum",
       "summary": "Asteroids in The Eclipse (0.5%)",
-      "instructions": "Drops: Asteroids in The Eclipse (0.5%) Treasures: Chest at the Snowfield ; chest at the Undersea Cavern ; chest at Isla Verdemontaña ; three chests at Sandbar Isle Rewards: Obtain every type of synthesis material; obtain at least 1000 synthesis materials; obtain every type of material; complete Treasure Sphere θ . Numbered chest routes: Arendelle #9 (Snowfield); The Caribbean #3 (Undersea Cavern); The Caribbean #25 (Isla Verdemontaña); The Caribbean #29 (Sandbar Isle); The Caribbean #33 (Sandbar Isle); The Caribbean #36 (Sandbar Isle). Open those chest records for their pickup directions.",
+      "instructions": "Drops: Asteroids in The Eclipse (0.5%) Treasures: Chest at the Snowfield ; chest at the Undersea Cavern ; chest at Isla Verdemontaña ; three chests at Sandbar Isle Rewards: Obtain every type of synthesis material; obtain at least 1000 synthesis materials; obtain every type of material; complete Treasure Sphere θ . Numbered chest routes: Arendelle #9 (Snowfield); The Caribbean #3 (Undersea Cavern); The Caribbean #25 (Isla Verdemontaña); The Caribbean #29 (Sandbar Isle); The Caribbean #33 (Sandbar Isle); The Caribbean #36 (Sandbar Isle). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere θ (The Eclipse), 1 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "sources": [
         "https://www.khwiki.com/Orichalcum"
       ],
@@ -30110,9 +30462,9 @@
       ],
       "drops": [
         {
-          "enemy": "Asteroids in The Eclipse",
+          "enemy": "Asteroids",
           "rate": "0.5%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "The Eclipse"
         }
       ],
       "chestRouteIds": [
@@ -30122,6 +30474,12 @@
         "kh3.base.the-caribbean.chest.029",
         "kh3.base.the-caribbean.chest.033",
         "kh3.base.the-caribbean.chest.036"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.08",
+          "quantity": 1
+        }
       ]
     },
     {
@@ -30589,17 +30947,17 @@
           "location": "See enemy/world source; encounter-specific access is not implied."
         },
         {
-          "enemy": "Power Class",
+          "enemy": "Gigas: Power Class",
           "rate": "12%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         },
         {
-          "enemy": "Speed Class",
+          "enemy": "Gigas: Speed Class",
           "rate": "12%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         },
         {
-          "enemy": "Gunner Class",
+          "enemy": "Gigas: Gunner Class",
           "rate": "12%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
@@ -31221,7 +31579,7 @@
       "category": "material",
       "name": "Mythril Shard",
       "summary": "Olympus , Twilight Town , Toy Box , Starlight Way (2%)",
-      "instructions": "Drops: Olympus , Twilight Town , Toy Box , Starlight Way (2%) Treasures: Chest at the Corridors ; chest at the Tram Common . Rewards: Complete Treasure Sphere γ (Mythril Shard x5). Numbered chest routes: Olympus #28 (Corridors); Twilight Town #2 (Tram Common). Open those chest records for their pickup directions.",
+      "instructions": "Drops: Olympus , Twilight Town , Toy Box , Starlight Way (2%) Treasures: Chest at the Corridors ; chest at the Tram Common . Rewards: Complete Treasure Sphere γ (Mythril Shard x5). Numbered chest routes: Olympus #28 (Corridors); Twilight Town #2 (Tram Common). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere γ (Starlight Way), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31241,14 +31599,20 @@
       ],
       "drops": [
         {
-          "enemy": "Starlight Way",
+          "enemy": "Asteroids",
           "rate": "2%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "Starlight Way"
         }
       ],
       "chestRouteIds": [
         "kh3.base.olympus.chest.028",
         "kh3.base.twilight-town.chest.002"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.03",
+          "quantity": 5
+        }
       ]
     },
     {
@@ -31256,7 +31620,7 @@
       "category": "material",
       "name": "Mythril Stone",
       "summary": "Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%)",
-      "instructions": "Drops: Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%) Treasures: Chest at Babies & Toddlers: Outdoors ; chest at the Wetlands . Rewards: Complete Treasure Sphere γ (Mythril Stone x5); return after completing Olympus and talk to the rescued man at the Overlook . Numbered chest routes: Toy Box #28 (Babies & Toddlers: Outdoors); Kingdom of Corona #17 (Wetlands). Open those chest records for their pickup directions.",
+      "instructions": "Drops: Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%) Treasures: Chest at Babies & Toddlers: Outdoors ; chest at the Wetlands . Rewards: Complete Treasure Sphere γ (Mythril Stone x5); return after completing Olympus and talk to the rescued man at the Overlook . Numbered chest routes: Toy Box #28 (Babies & Toddlers: Outdoors); Kingdom of Corona #17 (Wetlands). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere γ (Starlight Way), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31276,24 +31640,30 @@
       ],
       "drops": [
         {
-          "enemy": "Starlight Way",
+          "enemy": "Asteroids",
           "rate": "2%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "Starlight Way"
         },
         {
-          "enemy": "Misty Stream",
+          "enemy": "Asteroids",
           "rate": "0.5%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "Misty Stream"
         },
         {
-          "enemy": "The Eclipse",
+          "enemy": "Asteroids",
           "rate": "0.5%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "The Eclipse"
         }
       ],
       "chestRouteIds": [
         "kh3.base.toy-box.chest.028",
         "kh3.base.kingdom-of-corona.chest.017"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.03",
+          "quantity": 5
+        }
       ]
     },
     {
@@ -31301,7 +31671,7 @@
       "category": "material",
       "name": "Mythril Gem",
       "summary": "Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%)",
-      "instructions": "Drops: Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at Andy's House . Rewards: Complete Treasure Sphere δ (Mythril Gem x5); return after completing Olympus and talk to the rescued man at the Gardens . Numbered chest routes: Toy Box #3 (Andy's House). Open those chest records for their pickup directions.",
+      "instructions": "Drops: Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at Andy's House . Rewards: Complete Treasure Sphere δ (Mythril Gem x5); return after completing Olympus and talk to the rescued man at the Gardens . Numbered chest routes: Toy Box #3 (Andy's House). Open those chest records for their pickup directions. Sphere routes: Treasure Sphere δ (Misty Stream), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31321,18 +31691,24 @@
       ],
       "drops": [
         {
-          "enemy": "Misty Stream",
+          "enemy": "Asteroids",
           "rate": "2%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "Misty Stream"
         },
         {
-          "enemy": "The Eclipse",
+          "enemy": "Asteroids",
           "rate": "0.5%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "The Eclipse"
         }
       ],
       "chestRouteIds": [
         "kh3.base.toy-box.chest.003"
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.04",
+          "quantity": 5
+        }
       ]
     },
     {
@@ -31340,7 +31716,7 @@
       "category": "material",
       "name": "Mythril Crystal",
       "summary": "San Fransokyo , Misty Stream (0.5%), The Eclipse (2%)",
-      "instructions": "Drops: San Fransokyo , Misty Stream (0.5%), The Eclipse (2%) Rewards: Complete Treasure Sphere ζ (Mythril Crystal x5).",
+      "instructions": "Drops: San Fransokyo , Misty Stream (0.5%), The Eclipse (2%) Rewards: Complete Treasure Sphere ζ (Mythril Crystal x5). Sphere routes: Treasure Sphere ζ (Misty Stream), 5 units. Open the named sphere record for its map-marker approach and circuit sequence.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31356,14 +31732,20 @@
       ],
       "drops": [
         {
-          "enemy": "Misty Stream",
+          "enemy": "Asteroids",
           "rate": "0.5%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "Misty Stream"
         },
         {
-          "enemy": "The Eclipse",
+          "enemy": "Asteroids",
           "rate": "2%",
-          "location": "See enemy/world source; encounter-specific access is not implied."
+          "location": "The Eclipse"
+        }
+      ],
+      "sphereRewards": [
+        {
+          "sphereId": "kh3.gummi-spheres.06",
+          "quantity": 5
         }
       ]
     },
@@ -39152,11 +39534,18 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Fira/G x4, Blizzara/G x4, Water/G x4, Booster/G x2, Propeller/G x1, Roman One/S , EXP prize (big x50)",
-      "instructions": "Target sequence: T-shape (6 seconds) -> X-shape (3 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere α and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (6 seconds) -> X-shape (3 seconds) -> N-shape (6 seconds)",
       "sources": [
-        "https://www.khwiki.com/Starlight_Way"
+        "https://www.khwiki.com/Starlight_Way",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere α",
+        "region": "Starlight Way",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.02",
@@ -39165,11 +39554,18 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Laser Blade/G x2, Cyclone/G x10, Storm/G x10, Roman Two/S , Fluorite x3, EXP prize (big x50)",
-      "instructions": "Target sequence: T-shape (12 seconds) -> X-shape (3 seconds) -> Y-shape (4.5 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere β and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (12 seconds) -> X-shape (3 seconds) -> Y-shape (4.5 seconds)",
       "sources": [
-        "https://www.khwiki.com/Starlight_Way"
+        "https://www.khwiki.com/Starlight_Way",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere β",
+        "region": "Starlight Way",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.03",
@@ -39178,11 +39574,18 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Gravity/G x4, Comet/G x2, Roman Three/S , Mythril Shard x5, Mythril Stone x5, EXP prize (big x50)",
-      "instructions": "Target sequence: Y-shape (4 seconds) -> N-shape (6 seconds) -> T-shape (9 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere γ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (4 seconds) -> N-shape (6 seconds) -> T-shape (9 seconds)",
       "sources": [
-        "https://www.khwiki.com/Starlight_Way"
+        "https://www.khwiki.com/Starlight_Way",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere γ",
+        "region": "Starlight Way",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.04",
@@ -39191,11 +39594,18 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Firaga/G-01 x4, Blizzaga/G-01 x4, Watera/G x4, Excalibur/G x1, Roman Four/S , Mythril Gem x5, EXP prize (big x50)",
-      "instructions": "Target sequence: Y-shape (5 seconds) -> N-shape (4.5 seconds) + X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere δ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (5 seconds) -> N-shape (4.5 seconds) + X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (6 seconds)",
       "sources": [
-        "https://www.khwiki.com/Misty_Stream"
+        "https://www.khwiki.com/Misty_Stream",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere δ",
+        "region": "Misty Stream",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.05",
@@ -39204,11 +39614,18 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Firaga/G-02 x4, Thundara/G x4, Tempest/G x10, Typhoon/G x10, Wall/G x2, Shield/G x2, Roman Five/S , Damascus x3, EXP prize (big x50)",
-      "instructions": "Target sequence: X-shape (3 seconds) -> Y-shape (5 seconds) -> N-shape (5.5 seconds) -> T-shape (12 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ε and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> Y-shape (5 seconds) -> N-shape (5.5 seconds) -> T-shape (12 seconds) -> N-shape (6 seconds)",
       "sources": [
-        "https://www.khwiki.com/Misty_Stream"
+        "https://www.khwiki.com/Misty_Stream",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere ε",
+        "region": "Misty Stream",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.06",
@@ -39217,11 +39634,18 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Gravira/G x4, Meteor/G x1, Saw/G x2, Sonic Turbo/G x2 Roman Six/S , Mythril Crystal x5, Fluorite x5, EXP prize (big x50)",
-      "instructions": "Target sequence: Y-shape (10 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> T-shape (6 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ζ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (10 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> T-shape (6 seconds) -> N-shape (6 seconds)",
       "sources": [
-        "https://www.khwiki.com/Misty_Stream"
+        "https://www.khwiki.com/Misty_Stream",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere ζ",
+        "region": "Misty Stream",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.07",
@@ -39230,11 +39654,18 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Graviga/G-01 x4, Meteor/G x1, Thundaga/G x4, Waterga/G-01 x4, Roman Seven/S , Adamantite x3, Damascus x5, EXP prize (big x50)",
-      "instructions": "Target sequence: N-shape (6 seconds) -> Y-shape (5 seconds) -> T-shape (3 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> Y-shape (5.5 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere η and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: N-shape (6 seconds) -> Y-shape (5 seconds) -> T-shape (3 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> Y-shape (5.5 seconds)",
       "sources": [
-        "https://www.khwiki.com/The_Eclipse"
+        "https://www.khwiki.com/The_Eclipse",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere η",
+        "region": "The Eclipse",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.08",
@@ -39243,11 +39674,18 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Masamune/G x2, Drill/G x2, Hurricane/G x10, Vortex/G x10, Roman Eight/S , Orichalcum x1, EXP prize (big x50)",
-      "instructions": "Target sequence: X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (3 seconds) -> T-shape (2.5 seconds) -> Y-shape (3 seconds) -> Y-shape (12 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere θ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (3 seconds) -> T-shape (2.5 seconds) -> Y-shape (3 seconds) -> Y-shape (12 seconds)",
       "sources": [
-        "https://www.khwiki.com/The_Eclipse"
+        "https://www.khwiki.com/The_Eclipse",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere θ",
+        "region": "The Eclipse",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.gummi-spheres.09",
@@ -39256,11 +39694,18 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Blizzaga/G-02 x2, Graviga/G-02 x2, Waterga/G-02 x2, Large Wall/G x2, Large Shield/G x2, Roman Nine/S , Electrum x2, Fluorite x5, EXP prize (big x50)",
-      "instructions": "Target sequence: T-shape (4 seconds) -> N-shape (6 seconds) -> X-shape (3 seconds) -> Y-shape (6 seconds) -> Y-shape (3 seconds) -> T-shape (6 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere ι and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (4 seconds) -> N-shape (6 seconds) -> X-shape (3 seconds) -> Y-shape (6 seconds) -> Y-shape (3 seconds) -> T-shape (6 seconds)",
       "sources": [
-        "https://www.khwiki.com/The_Eclipse"
+        "https://www.khwiki.com/The_Eclipse",
+        "https://game8.jp/kh3/255107"
       ],
-      "uncertainty": "The source identifies contents and gear sequence; an exact flight approach is not established."
+      "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
+      "sphereApproach": {
+        "method": "in-game-map-marker",
+        "target": "Treasure Sphere ι",
+        "region": "The Eclipse",
+        "source": "https://game8.jp/kh3/255107"
+      }
     },
     {
       "id": "kh3.collector-goals.twilight-shard-shop-stock",
@@ -41742,6 +42187,790 @@
       ],
       "menuIndex": 78,
       "rewardType": "shop unlock"
+    },
+    {
+      "id": "kh3.equipment.junior-medal-treasure-magnet",
+      "category": "equipment",
+      "name": "Junior Medal — Treasure Magnet",
+      "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Treasure Magnet. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Treasure Magnet",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Treasure Magnet",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-full-mp-blast",
+      "category": "equipment",
+      "name": "Junior Medal — Full MP Blast",
+      "summary": "Random rank B reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Full MP Blast. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Full MP Blast",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Full MP Blast",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-burn-protection",
+      "category": "equipment",
+      "name": "Junior Medal — Burn Protection",
+      "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Burn Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Burn Protection",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Burn Protection",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-cloud-protection",
+      "category": "equipment",
+      "name": "Junior Medal — Cloud Protection",
+      "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Cloud Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Cloud Protection",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Cloud Protection",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-sneeze-protection",
+      "category": "equipment",
+      "name": "Junior Medal — Sneeze Protection",
+      "summary": "Random rank B reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Sneeze Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Sneeze Protection",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Sneeze Protection",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-freeze-protection",
+      "category": "equipment",
+      "name": "Junior Medal — Freeze Protection",
+      "summary": "Random rank B reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Freeze Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Freeze Protection",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Freeze Protection",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.junior-medal-electric-protection",
+      "category": "equipment",
+      "name": "Junior Medal — Electric Protection",
+      "summary": "Random rank B reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Electric Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Junior_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 0,
+        "Ability": "Electric Protection",
+        "Sell": 100
+      },
+      "medalVariant": {
+        "family": "Junior Medal",
+        "ability": "Electric Protection",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-fire-boost",
+      "category": "equipment",
+      "name": "Master Medal — Fire Boost",
+      "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Fire Boost. Strength +0; Magic +3; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 3,
+        "AP": 0,
+        "Ability": "Fire Boost",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Fire Boost",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-water-boost",
+      "category": "equipment",
+      "name": "Master Medal — Water Boost",
+      "summary": "Random rank A reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Water Boost. Strength +0; Magic +3; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 3,
+        "AP": 0,
+        "Ability": "Water Boost",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Water Boost",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-defender",
+      "category": "equipment",
+      "name": "Master Medal — Defender",
+      "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Defender. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Defender",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Defender",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-extra-cast",
+      "category": "equipment",
+      "name": "Master Medal — Extra Cast",
+      "summary": "Random rank A reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Extra Cast. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Extra Cast",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Extra Cast",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-lucky-strike",
+      "category": "equipment",
+      "name": "Master Medal — Lucky Strike",
+      "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Lucky Strike. Strength +0; Magic +0; AP +12. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 0,
+        "AP": 12,
+        "Ability": "Lucky Strike",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Lucky Strike",
+        "activityId": "kh3.challenges.verum-rex-beat-of-lead",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-magic-treasure-magnet",
+      "category": "equipment",
+      "name": "Master Medal — Magic Treasure Magnet",
+      "summary": "Random rank A reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Magic Treasure Magnet. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Magic Treasure Magnet",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Magic Treasure Magnet",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-stun-protection",
+      "category": "equipment",
+      "name": "Master Medal — Stun Protection",
+      "summary": "Random rank B reward from Flash Tracer A.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Stun Protection. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Stun Protection",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Stun Protection",
+        "activityId": "kh3.challenges.flash-tracer-a",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-fire-syphon",
+      "category": "equipment",
+      "name": "Master Medal — Fire Syphon",
+      "summary": "Random rank B reward from Flash Tracer B.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Fire Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Fire Syphon",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Fire Syphon",
+        "activityId": "kh3.challenges.flash-tracer-b",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-blizzard-syphon",
+      "category": "equipment",
+      "name": "Master Medal — Blizzard Syphon",
+      "summary": "Random rank B reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Blizzard Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Blizzard Syphon",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Blizzard Syphon",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-thunder-syphon",
+      "category": "equipment",
+      "name": "Master Medal — Thunder Syphon",
+      "summary": "Random rank B reward from Flash Tracer A.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Thunder Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Thunder Syphon",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Thunder Syphon",
+        "activityId": "kh3.challenges.flash-tracer-a",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-water-syphon",
+      "category": "equipment",
+      "name": "Master Medal — Water Syphon",
+      "summary": "Random rank B reward from Festival Dance.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Water Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Water Syphon",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Water Syphon",
+        "activityId": "kh3.challenges.festival-dance",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.master-medal-aero-syphon",
+      "category": "equipment",
+      "name": "Master Medal — Aero Syphon",
+      "summary": "Random rank B reward from Flash Tracer B.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank B in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Aero Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Master_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 6,
+        "Ability": "Aero Syphon",
+        "Sell": 200
+      },
+      "medalVariant": {
+        "family": "Master Medal",
+        "ability": "Aero Syphon",
+        "activityId": "kh3.challenges.flash-tracer-b",
+        "rank": "B",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-thunder-boost",
+      "category": "equipment",
+      "name": "Star Medal — Thunder Boost",
+      "summary": "Random rank A reward from Flash Tracer A.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Thunder Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 4,
+        "AP": 0,
+        "Ability": "Thunder Boost",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Thunder Boost",
+        "activityId": "kh3.challenges.flash-tracer-a",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-blizzard-boost",
+      "category": "equipment",
+      "name": "Star Medal — Blizzard Boost",
+      "summary": "Random rank A reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Blizzard Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 4,
+        "AP": 0,
+        "Ability": "Blizzard Boost",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Blizzard Boost",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-aero-boost",
+      "category": "equipment",
+      "name": "Star Medal — Aero Boost",
+      "summary": "Random rank A reward from Flash Tracer B.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Aero Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 4,
+        "AP": 0,
+        "Ability": "Aero Boost",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Aero Boost",
+        "activityId": "kh3.challenges.flash-tracer-b",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-second-chance",
+      "category": "equipment",
+      "name": "Star Medal — Second Chance",
+      "summary": "Random rank A reward from Flash Tracer A.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Second Chance. Strength +4; Magic +0; AP +0. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 4,
+        "Magic": 0,
+        "AP": 0,
+        "Ability": "Second Chance",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Second Chance",
+        "activityId": "kh3.challenges.flash-tracer-a",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-item-boost",
+      "category": "equipment",
+      "name": "Star Medal — Item Boost",
+      "summary": "Random rank A reward from Flash Tracer B.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Item Boost. Strength +0; Magic +0; AP +18. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 0,
+        "Magic": 0,
+        "AP": 18,
+        "Ability": "Item Boost",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Item Boost",
+        "activityId": "kh3.challenges.flash-tracer-b",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-wizard-s-ruse",
+      "category": "equipment",
+      "name": "Star Medal — Wizard's Ruse",
+      "summary": "Random rank A reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Wizard's Ruse. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 9,
+        "Ability": "Wizard's Ruse",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Wizard's Ruse",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-withstand-combo",
+      "category": "equipment",
+      "name": "Star Medal — Withstand Combo",
+      "summary": "Random rank A reward from Frozen Slider.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Withstand Combo. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 9,
+        "Ability": "Withstand Combo",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Withstand Combo",
+        "activityId": "kh3.challenges.frozen-slider",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-damage-syphon",
+      "category": "equipment",
+      "name": "Star Medal — Damage Syphon",
+      "summary": "Random rank A reward from Flash Tracer A.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Damage Syphon. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 9,
+        "Ability": "Damage Syphon",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Damage Syphon",
+        "activityId": "kh3.challenges.flash-tracer-a",
+        "rank": "A",
+        "probability": null
+      }
+    },
+    {
+      "id": "kh3.equipment.star-medal-dark-syphon",
+      "category": "equipment",
+      "name": "Star Medal — Dark Syphon",
+      "summary": "Random rank A reward from Flash Tracer B.",
+      "world": null,
+      "equipmentType": "Accessory",
+      "character": "Sora / Donald / Goofy",
+      "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Dark Syphon. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
+      "sources": [
+        "https://www.khwiki.com/Star_Medal"
+      ],
+      "uncertainty": "The activity/rank pool is documented; individual roll probabilities are not established.",
+      "properties": {
+        "Strength": 1,
+        "Magic": 1,
+        "AP": 9,
+        "Ability": "Dark Syphon",
+        "Sell": 300
+      },
+      "medalVariant": {
+        "family": "Star Medal",
+        "ability": "Dark Syphon",
+        "activityId": "kh3.challenges.flash-tracer-b",
+        "rank": "A",
+        "probability": null
+      }
     }
   ],
   "recipes": [
