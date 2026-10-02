@@ -36,7 +36,7 @@ The initial audit did not rewrite guide facts. Follow-up corrections are now tra
 
 All **208 issue families** have been revisited. The [current resolution log](research-resolution-2026-10-01.md) lists all seven game ledgers, integrated catalogs, exact residual questions and actual validation results. It supersedes the initial two-game checkpoint: no game remains unchanged merely because it was outside an arbitrary first subset.
 
-Current classifications are 95 closed (including historical closures), 83 partial, sixteen unresolved/conflicted and fourteen non-factual limitations. These are family statuses, not counts of incorrect facts. Every per-game `research_audit.md` now identifies its current ledger before the preserved historical appendices.
+Current classifications after the [recovery continuation](research-recovery-2026-10-01.md) are 103 closed (including historical closures), 75 partial, sixteen unresolved/conflicted and fourteen non-factual limitations. All 99 prior factual residual families received follow-up, closing eight additional families and adding substantial detail within others. These are family statuses, not counts of incorrect facts. Every per-game `research_audit.md` identifies its current ledger before the preserved historical appendices.
 
 ## Concurrent work and reference stability
 

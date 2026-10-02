@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-01",
+  "baseline": "2fd2927",
+  "scope": "Continuation content identity, source presence, audit accounting and documentation coverage; source accuracy is reviewed separately.",
+  "games": {
+    "kh1fm": {
+      "path": "public/data/kh1fm.json",
+      "sha256": "fdd1f17f02be3a74d0ab472ca13db7bf88034b76008cdda797de46e2c4cbd96b",
+      "entries": 1259,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 33,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+        "counts": {
+          "unresolvedOrConflicted": 4,
+          "partial": 6,
+          "closed": 10
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 12,
+        "unaccountedResidualIds": []
+      }
+    },
+    "recom": {
+      "path": "src/games/recom/ui-data.json",
+      "sha256": "5c07c9076d97376e5f007287a7cd4ad9a4421207a0c5fd8087348f9a8310551b",
+      "entries": 431,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 0,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+        "counts": {
+          "unresolvedOrConflicted": 3,
+          "partial": 11,
+          "closed": 15,
+          "otherLimitations": 3
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 15,
+        "unaccountedResidualIds": []
+      }
+    },
+    "kh2fm": {
+      "path": "src/games/kh2fm/catalog.ts",
+      "sha256": "8de33630f8ac6f4aee2c8562fbcf8bd206fb3a480199f93bcc53ba5f68b46c4c",
+      "entries": 1315,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 59,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json",
+        "counts": {
+          "closed": 31,
+          "partial": 3,
+          "otherLimitations": 6
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 5,
+        "unaccountedResidualIds": []
+      }
+    },
+    "bbsfm": {
+      "path": "src/games/bbsfm/content.json",
+      "sha256": "ff56566d10d5bcf8cb36951a1a5290d986d0700fc4a6e894e553d8857a783103",
+      "entries": 1653,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 492,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json",
+        "counts": {
+          "partial": 17,
+          "unresolvedOrConflicted": 4,
+          "closed": 12,
+          "otherLimitations": 5
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 21,
+        "unaccountedResidualIds": []
+      }
+    },
+    "dddhd": {
+      "path": "src/games/dddhd/content.json",
+      "sha256": "19eb5d8ee8833e5474380763dbac58506c7bc8e1748f2327d2ce23aafcfbe817",
+      "entries": 1283,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 263,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/dddhd/audit-dispositions.json",
+        "counts": {
+          "partial": 17,
+          "closed": 7,
+          "unresolvedOrConflicted": 1
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 20,
+        "unaccountedResidualIds": []
+      }
+    },
+    "kh02": {
+      "path": "src/games/kh02/catalog.ts",
+      "sha256": "99c44ad833a25c33d8c9b651fb76235062c66ff6ce0bc5f557fb4cc4dfd7ffbd",
+      "entries": 177,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [],
+      "entriesDuplicateIds": [],
+      "recipes": 0,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh02/audit-dispositions.json",
+        "counts": {
+          "unresolvedOrConflicted": 1,
+          "closed": 10,
+          "partial": 7
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 8,
+        "unaccountedResidualIds": []
+      }
+    },
+    "kh3": {
+      "path": "src/games/kh3/content.json",
+      "sha256": "20aa8f2d380461cb626bae2dd52204ca71549454c83614d1c2d7d7a740a7fee6",
+      "entries": 1926,
+      "entriesRemovedIds": [],
+      "entriesAddedIds": [
+        "kh3.collector-goals.all-betwixt-materials",
+        "kh3.collector-goals.all-blazing-materials",
+        "kh3.collector-goals.all-frost-materials",
+        "kh3.collector-goals.all-hungry-materials",
+        "kh3.collector-goals.all-lightning-materials",
+        "kh3.collector-goals.all-lucid-materials",
+        "kh3.collector-goals.all-material-types",
+        "kh3.collector-goals.all-mythril-materials",
+        "kh3.collector-goals.all-pulsing-materials",
+        "kh3.collector-goals.all-rarity-1",
+        "kh3.collector-goals.all-rarity-2",
+        "kh3.collector-goals.all-rarity-3",
+        "kh3.collector-goals.all-rarity-4",
+        "kh3.collector-goals.all-sinister-materials",
+        "kh3.collector-goals.all-soothing-materials",
+        "kh3.collector-goals.all-twilight-materials",
+        "kh3.collector-goals.all-wellspring-materials",
+        "kh3.collector-goals.all-writhing-materials",
+        "kh3.collector-goals.sinister-gem-shop-stock",
+        "kh3.collector-goals.sinister-shard-shop-stock",
+        "kh3.collector-goals.sinister-stone-shop-stock",
+        "kh3.collector-goals.total-materials-100",
+        "kh3.collector-goals.total-materials-1000",
+        "kh3.collector-goals.total-materials-250",
+        "kh3.collector-goals.total-materials-50",
+        "kh3.collector-goals.total-materials-500"
+      ],
+      "entriesDuplicateIds": [],
+      "recipes": 286,
+      "recipesRemovedIds": [],
+      "recipesAddedIds": [],
+      "recipesDuplicateIds": [],
+      "entriesWithoutSources": [],
+      "brokenIngredients": [],
+      "brokenRecipeEntryLinks": [],
+      "audit": {
+        "ledger": "ai_docs/games/kh3/audit-dispositions.json",
+        "counts": {
+          "partial": 14,
+          "closed": 18,
+          "unresolvedOrConflicted": 3
+        },
+        "missingIds": [],
+        "unexpectedIds": [],
+        "duplicateIds": []
+      },
+      "continuation": {
+        "originalResidualFamilies": 18,
+        "unaccountedResidualIds": []
+      }
+    }
+  },
+  "auditCoverage": {
+    "unresolvedOrConflicted": 16,
+    "partial": 75,
+    "closed": 103,
+    "otherLimitations": 14,
+    "findingFamilies": 208,
+    "priorFactualResidualFamilies": 99,
+    "priorResidualFamiliesAccountedFor": 99,
+    "newlyClosedFamilies": [
+      "KH1-016",
+      "KH1-019",
+      "COM-010",
+      "KH2-013",
+      "KH2-015",
+      "DDD-002",
+      "DDD-008",
+      "KH3-009"
+    ]
+  },
+  "failures": [],
+  "unitTests": {
+    "command": "npm test",
+    "filesPassed": 14,
+    "testsPassed": 133,
+    "result": "passed"
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "includes": [
+      "canonical content validation",
+      "empty Coppermind pack validation",
+      "TypeScript",
+      "Vite",
+      "PWA"
+    ],
+    "advisory": "Existing Vite chunk-size advisory remains."
+  },
+  "browserTests": {
+    "command": "ARS_TEST_CHROMIUM=/tmp/ars-jiminy-chromium/chromium npm run test:e2e -- tests/e2e/research-expansion.spec.ts tests/e2e/bbs-ux.spec.ts --workers=1",
+    "scenariosPassed": 18,
+    "result": "passed",
+    "scope": "Desktop/mobile Chromium viewport emulation; reference access, linked state, reload/offline, character/episode separation and calculator. Not physical iOS certification."
+  },
+  "knowledgePack": {
+    "game": "kh1fm",
+    "knowledgeRevision": "2026-10-01-flush",
+    "knowledgeState": "empty",
+    "thoughtCount": 0,
+    "contentHash": "a2209b2ae17337dfcc89d9ec9439578dd5df98f4f9b174c35c060fd0261d7e3c"
+  },
+  "sourceExtractionReview": {
+    "steamConditionKeySample": [
+      "ACH_021",
+      "ACH_066",
+      "ACH_102"
+    ],
+    "result": "Root independently retrieved matching indexed snippets; validates extraction, not source independence or direct Valve schema."
+  },
+  "formatAndReferences": {
+    "gitDiffCheck": "passed",
+    "jsonFilesParsed": 41,
+    "markdownFilesChecked": 69,
+    "newOrChangedBrokenLocalLinks": [],
+    "unchangedHistoricalQuotedLinksIgnored": 97,
+    "scope": "Changed documents, excluding code spans and pre-existing quoted historical links."
+  }
+}
