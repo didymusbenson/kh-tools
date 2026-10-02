@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-01",
+  "collectorGoals": 78,
+  "newGoals": 26,
+  "shopStockRows": [
+    "kh3.equipment.warhammer",
+    "kh3.equipment.magician-s-wand",
+    "kh3.equipment.nirvana",
+    "kh3.equipment.astrolabe",
+    "kh3.equipment.clockwork-shield",
+    "kh3.equipment.star-shield",
+    "kh3.equipment.aegis-shield",
+    "kh3.equipment.storm-anchor",
+    "kh3.equipment.shield-belt",
+    "kh3.equipment.defense-belt",
+    "kh3.equipment.guardian-s-belt",
+    "kh3.equipment.power-band",
+    "kh3.equipment.fire-bangle",
+    "kh3.equipment.blizzard-choker",
+    "kh3.equipment.thunder-trinket",
+    "kh3.equipment.elven-bandanna",
+    "kh3.equipment.wind-fan",
+    "kh3.equipment.abas-chain",
+    "kh3.equipment.aegis-chain",
+    "kh3.equipment.ability-ring",
+    "kh3.equipment.technician-s-ring",
+    "kh3.equipment.skill-ring",
+    "kh3.equipment.power-ring",
+    "kh3.equipment.buster-ring",
+    "kh3.equipment.valor-ring",
+    "kh3.equipment.phantom-ring",
+    "kh3.equipment.magic-ring",
+    "kh3.equipment.rune-ring",
+    "kh3.equipment.force-ring",
+    "kh3.equipment.sorcerer-s-ring",
+    "kh3.material.veal",
+    "kh3.material.beef",
+    "kh3.material.sole",
+    "kh3.material.eel",
+    "kh3.material.onion",
+    "kh3.material.celery",
+    "kh3.material.morel",
+    "kh3.material.porcini",
+    "kh3.material.chanterelle",
+    "kh3.material.black-truffle",
+    "kh3.material.king-oyster-mushroom",
+    "kh3.material.black-trumpet",
+    "kh3.material.cloves",
+    "kh3.material.rosemary",
+    "kh3.material.thyme",
+    "kh3.material.bay-leaf",
+    "kh3.material.parsley",
+    "kh3.material.saffron",
+    "kh3.material.apricot",
+    "kh3.material.lemon",
+    "kh3.material.apple",
+    "kh3.material.cheese",
+    "kh3.material.chocolate",
+    "kh3.material.caviar",
+    "kh3.material.butter",
+    "kh3.material.olive-oil",
+    "kh3.material.cornichon",
+    "kh3.material.rice",
+    "kh3.material.fluorite"
+  ],
+  "materialChestRouteLinks": {
+    "kh3.material.orichalcum": [
+      "kh3.base.the-caribbean.chest.012",
+      "kh3.base.the-final-world.chest.001"
+    ],
+    "kh3.material.fluorite": [
+      "kh3.base.olympus.chest.011",
+      "kh3.base.olympus.chest.015",
+      "kh3.base.olympus.chest.025",
+      "kh3.base.twilight-town.chest.003",
+      "kh3.base.twilight-town.chest.004",
+      "kh3.base.twilight-town.chest.009",
+      "kh3.base.toy-box.chest.004",
+      "kh3.base.toy-box.chest.016",
+      "kh3.base.toy-box.chest.021"
+    ],
+    "kh3.material.electrum": [
+      "kh3.base.the-caribbean.chest.009",
+      "kh3.base.the-caribbean.chest.011",
+      "kh3.base.the-caribbean.chest.031",
+      "kh3.base.the-caribbean.chest.035",
+      "kh3.base.the-caribbean.chest.038",
+      "kh3.base.san-fransokyo.chest.006",
+      "kh3.base.san-fransokyo.chest.026"
+    ],
+    "kh3.material.damascus": [
+      "kh3.base.kingdom-of-corona.chest.016",
+      "kh3.base.kingdom-of-corona.chest.019",
+      "kh3.base.monstropolis.chest.011",
+      "kh3.base.monstropolis.chest.017",
+      "kh3.base.arendelle.chest.003",
+      "kh3.base.arendelle.chest.013",
+      "kh3.base.arendelle.chest.025",
+      "kh3.base.the-caribbean.chest.005",
+      "kh3.base.the-caribbean.chest.028",
+      "kh3.base.the-caribbean.chest.041",
+      "kh3.base.san-fransokyo.chest.021",
+      "kh3.base.san-fransokyo.chest.032"
+    ],
+    "kh3.material.adamantite": [
+      "kh3.base.the-caribbean.chest.002",
+      "kh3.base.the-caribbean.chest.024",
+      "kh3.base.the-caribbean.chest.027",
+      "kh3.base.the-caribbean.chest.030",
+      "kh3.base.the-caribbean.chest.032",
+      "kh3.base.the-caribbean.chest.037",
+      "kh3.base.the-caribbean.chest.039",
+      "kh3.base.san-fransokyo.chest.010",
+      "kh3.base.san-fransokyo.chest.022"
+    ],
+    "kh3.material.orichalcum-ordinary": [
+      "kh3.base.arendelle.chest.009",
+      "kh3.base.the-caribbean.chest.003",
+      "kh3.base.the-caribbean.chest.025",
+      "kh3.base.the-caribbean.chest.029",
+      "kh3.base.the-caribbean.chest.033",
+      "kh3.base.the-caribbean.chest.036"
+    ],
+    "kh3.material.mythril-shard": [
+      "kh3.base.olympus.chest.028",
+      "kh3.base.twilight-town.chest.002"
+    ],
+    "kh3.material.mythril-stone": [
+      "kh3.base.toy-box.chest.028",
+      "kh3.base.kingdom-of-corona.chest.017"
+    ],
+    "kh3.material.mythril-gem": [
+      "kh3.base.toy-box.chest.003"
+    ],
+    "kh3.material.hungry-crystal": [
+      "kh3.base.the-caribbean.chest.026",
+      "kh3.base.the-caribbean.chest.040"
+    ]
+  },
+  "fragmentRoute": "kh3.gummi-fragments.str-13",
+  "sourceEdition": "Community PS4/Xbox One guides (2019–2020); official Japanese offer history. Modern Steam remains primary applicability target, not capture authority."
+}

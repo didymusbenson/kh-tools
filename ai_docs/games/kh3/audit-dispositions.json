@@ -2,8 +2,8 @@
   "checkedAt": "2026-10-01",
   "edition": "Updated KHIII + Re Mind; Steam primary",
   "statusCounts": {
-    "partial": 15,
-    "resolved": 17,
+    "partial": 14,
+    "resolved": 18,
     "conflicted": 3
   },
   "metrics": {
@@ -28,7 +28,7 @@
     "non_keyblade_equipment": 129,
     "remind_chest_routes": 9,
     "slider_prizes": 10,
-    "material_shop_goals": 27,
+    "material_shop_goals": 30,
     "game_records": 54,
     "classic_control_guides": 23,
     "battlegate_encounters": 15,
@@ -41,13 +41,19 @@
     "ingredients_with_object_sources": 51,
     "party_equipment_references": 25,
     "gummi_abilities": 19,
-    "entries": 1900,
+    "entries": 1926,
     "recipe_actions": 286,
     "collectible_numbered_guide_rows_reviewed": 335,
     "gummi_special_weapons": 13,
     "gummi_fragments": 45,
     "gummi_fragment_images_reviewed": 90,
-    "premium_merit_unlocks": 9
+    "premium_merit_unlocks": 9,
+    "collector_goals": 78,
+    "collector_direct_item_rewards": 24,
+    "equipment_shop_stock_rows": 30,
+    "ingredient_shop_stock_rows": 28,
+    "material_chest_route_links": 52,
+    "gummi_fragment_text_approaches": 45
   },
   "findings": [
     {
@@ -83,10 +89,18 @@
         "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/arendelle",
         "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo",
         "https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/lucky-emblems/olympus",
-        "https://www.powerpyx.com/kingdom-hearts-3-collectibles-guide-treasures-lucky-emblems/"
+        "https://www.powerpyx.com/kingdom-hearts-3-collectibles-guide-treasures-lucky-emblems/",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/arendelle",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/11"
       ],
       "checkedAt": "2026-10-01",
-      "supplement": "route-enrichment.json"
+      "supplement": "route-enrichment.json",
+      "continuationOutcome": "Compared the Arendelle narrative route in ElectroSpecter v3.01 (PS4, 2020-05-30) and the Xbox TrueAchievements route with the already cited PowerPyx/GamerGuides disagreement. Both put the final Slayer’s Earring pickup after the story; neither tests an earlier attempt. No universal earliest-access gate was inferred.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/arendelle",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/11"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-002",
@@ -98,9 +112,17 @@
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Accessory",
         "https://www.khwiki.com/Armor",
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.khwiki.com/Strength_Boost",
+        "https://www.khwiki.com/Stats"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Searched modern Steam Strength/Power label evidence and inspected the cross-series Strength Boost page. It distinguishes historical names but supplies no captured Steam UI or comprehensive regional ingredient concordance. Stable labels/aliases retained.",
+      "continuationUrls": [
+        "https://www.khwiki.com/Strength_Boost",
+        "https://www.khwiki.com/Stats"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-003",
@@ -122,9 +144,19 @@
       "consultedUrls": [
         "https://www.gamerguides.com/kingdom-hearts-iii/guide/re-mind-dlc/re-mind/scala-ad-caelum",
         "https://www.gamerguides.com/kingdom-hearts-iii/guide/re-mind-dlc",
-        "https://www.khwiki.com/Kingdom_Hearts_III_Re_Mind"
+        "https://www.khwiki.com/Kingdom_Hearts_III_Re_Mind",
+        "https://steamcommunity.com/app/2552450/discussions/0/4408543929281281175/",
+        "https://steamcommunity.com/app/2552450/discussions/0/6234751259564949779/",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78673947"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Read the 2024 Steam discussion of hybrid DLC/base saves and console replay explanations. The Steam reply still uses square/X, not a verified keyboard glyph. Epic-to-Steam discussion reports incompatible direct copying; not a supported transfer procedure. Exact keyboard/overwrite/cloud cases remain uncertified.",
+      "continuationUrls": [
+        "https://steamcommunity.com/app/2552450/discussions/0/4408543929281281175/",
+        "https://steamcommunity.com/app/2552450/discussions/0/6234751259564949779/",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78673947"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-005",
@@ -133,9 +165,19 @@
       "remainingEvidenceBoundary": "Item page says before first reaching Shore; Corona world reward description says before Rapunzel leaves. Neither reviewed page resolves the exact event flag or explicitly retracts the other cutoff. Conservative advice is not a resolved trigger.",
       "consultedUrls": [
         "https://www.khwiki.com/Forest_Clasp",
-        "https://www.khwiki.com/Game:Kingdom_of_Corona"
+        "https://www.khwiki.com/Game:Kingdom_of_Corona",
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/walkthrough/kingdom-hearts-iii/kingdom-of-corona",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77464997",
+        "https://www.reddit.com/r/KingdomHearts/comments/gn5qv4/im_playing_kh3_for_the_first_time_and_this_game/"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Read GamerGuides Corona narrative plus launch-era reward reports. They place the reward around the first Shore approach, supporting conservative advice, but do not test returning for an omitted activity after that transition. No flag-level deadline or retraction of the competing wiki wording was found.",
+      "continuationUrls": [
+        "https://www.gamerguides.com/kingdom-hearts-iii/guide/walkthrough/kingdom-hearts-iii/kingdom-of-corona",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77464997",
+        "https://www.reddit.com/r/KingdomHearts/comments/gn5qv4/im_playing_kh3_for_the_first_time_and_this_game/"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-006",
@@ -176,9 +218,9 @@
     },
     {
       "id": "KH3-009",
-      "status": "partial",
-      "implementedOrEstablished": "Integrated 24 material-type unlock thresholds, first-material Ether goal and 27 material shop goals with exact 30/25/20 deposit thresholds and 100/200/300 prices.",
-      "remainingEvidenceBoundary": "These are the 52 sourced goals, not proof of every in-game Collector Goal menu row. The Synthesis and item pages do not provide a closed menu-ordered Collector Goals inventory including any non-recipe discovery rewards. No universal denominator is certified.",
+      "status": "resolved",
+      "implementedOrEstablished": "All 78 numbered Collector Goals: 24 recipe unlocks, 24 direct item rewards and 30 material shop unlocks, with reward type and menu order. Includes first-material Ether item reward, cumulative/rarity/family rewards and Sinister shop thresholds.",
+      "remainingEvidenceBoundary": "None for the published 78-goal menu inventory. Modern English Steam label capture remains KH3-002; material alternative acquisition routes remain KH3-010.",
       "consultedUrls": [
         "https://www.khwiki.com/Synthesis",
         "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/",
@@ -190,15 +232,31 @@
         "https://www.khwiki.com/Soothing",
         "https://www.khwiki.com/Writhing",
         "https://www.khwiki.com/Betwixt",
-        "https://www.khwiki.com/Twilight"
+        "https://www.khwiki.com/Twilight",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Sinister",
+        "https://www.kh13.com/forums/topic/118081-kh3-moogle-guide/",
+        "https://docs.google.com/spreadsheets/d/1PtTOi7YBRb-jLPmpjlXyJgNMzu3TuXYHIov31HKijb8/edit"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Completed all 78 numbered Collector Goals: existing 52 plus 23 direct item rewards and three Sinister shop unlocks. Numbered PS4 guide (2019), ElectroSpecter v3.01 (2020), Samurai Gamers and family pages agree on the covered conditions. Added menu indices and distinct item/recipe/shop reward types. Corrected first-material goal to an Ether item reward; the separate Ether recipe keeps its existing published unlock condition. Samurai’s translated item typos were rejected. KH13’s linked sheet was inaccessible; no contents attributed to it.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Sinister",
+        "https://www.kh13.com/forums/topic/118081-kh3-moogle-guide/",
+        "https://docs.google.com/spreadsheets/d/1PtTOi7YBRb-jLPmpjlXyJgNMzu3TuXYHIov31HKijb8/edit"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-010",
       "status": "partial",
       "implementedOrEstablished": "All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum has a separate ID, retaining the old Orichalcum+ ID. Added shop thresholds and selected gate farm approaches.",
-      "remainingEvidenceBoundary": "Family obtainment tables supply source sets/rates, but some chest/Gummi entries remain area-only. A complete alternative-source route graph, source quantities and every unlock cannot be inferred from item names. Intentional non-enemy empty drops are not defects.",
+      "remainingEvidenceBoundary": "Ten material records now link 52 exact numbered chest routes. Other alternative sources, source quantities, Gummi flight approaches and every unlock remain incomplete; non-enemy empty drop arrays remain intentional.",
       "consultedUrls": [
         "https://www.khwiki.com/Blazing",
         "https://www.khwiki.com/Frost",
@@ -219,24 +277,41 @@
         "https://www.khwiki.com/Electrum",
         "https://www.khwiki.com/Evanescent",
         "https://www.khwiki.com/Illusory",
-        "https://www.khwiki.com/Orichalcum"
+        "https://www.khwiki.com/Orichalcum",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/treasures"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Joined exact material reward names to 52 existing numbered chest routes across ten material records. Added Fluorite shop tier and the three missing Sinister stock goals. This resolves the represented chest-to-material navigation gap; it does not manufacture every alternative source quantity, Gummi approach or unlock.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.khwiki.com/Sinister",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/treasures"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-011",
       "status": "partial",
       "implementedOrEstablished": "Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim.",
-      "remainingEvidenceBoundary": "Consulted sources establish named encounter repeats and random postcards; they do not establish all asteroid reset conditions/timing or measured comparative efficiency. No fastest-farm ranking was added.",
+      "remainingEvidenceBoundary": "Ordinary asteroid reset after world re-entry is now guide-supported. All other asteroid/crystal reset conditions, timing and measured comparative farm efficiency remain unestablished.",
       "consultedUrls": [
         "https://www.khwiki.com/Lucky_Strike",
         "https://www.khwiki.com/Prize_Postcard",
         "https://www.khwiki.com/Battlegate",
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
         "https://www.khwiki.com/Damascus",
-        "https://www.khwiki.com/Adamantite"
+        "https://www.khwiki.com/Adamantite",
+        "https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/",
+        "https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "A launch-era Kakuchopurei farming guide explicitly reports ordinary asteroid reset after visiting a world and re-entering space; added that qualified method to Adamantite. RPG Site corroborates repeatable asteroids. Their prose does not time the route or prove that special blue crystals/fragments reset. No fastest-farm ranking or universal timer was added. Similar se7en wording was treated as a mirror, not independent confirmation.",
+      "continuationUrls": [
+        "https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/",
+        "https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-012",
@@ -258,7 +333,7 @@
       "id": "KH3-013",
       "status": "partial",
       "implementedOrEstablished": "128 new non-Keyblade equipment records plus existing Forest Clasp with stats/acquisition; 25 encounter/party weapon references separated from collectable ownership.",
-      "remainingEvidenceBoundary": "Armor/Accessory/Weapons overview and linked item pages were extracted. Some acquisition cells list a shop without its precise story stock transition; random medal ability variants do not have a normalized exhaustive roll distribution. Thus 129 items is represented coverage, not certification of all alternative acquisitions.",
+      "remainingEvidenceBoundary": "All 30 published Moogle equipment stock rows now have prices and story/card unlocks. Random medal ability distributions and every alternative acquisition route remain unnormalized.",
       "consultedUrls": [
         "https://www.khwiki.com/Weapons_(KHIII)",
         "https://www.khwiki.com/Armor",
@@ -266,9 +341,19 @@
         "https://www.khwiki.com/Junior_Medal",
         "https://www.khwiki.com/Master_Medal",
         "https://www.khwiki.com/Star_Medal",
-        "https://www.khwiki.com/Forest_Clasp"
+        "https://www.khwiki.com/Forest_Clasp",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77447231",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78393085"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Integrated all 30 equipment rows from ElectroSpecter’s six-tier Moogle stock table, including prices and the M.O.G. Card condition. Medal follow-ups confirm activity-specific random abilities but give no exhaustive weighted distribution. All alternative acquisition paths remain a separate boundary.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77447231",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78393085"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-014",
@@ -283,23 +368,41 @@
         "https://www.khwiki.com/Advent_Red",
         "https://www.khwiki.com/Dead_of_Night",
         "https://store.steampowered.com/app/2552450/KINGDOM_HEARTS_III__Re_Mind_DLC/",
-        "https://www.square-enix.com/kingdomhearts/collection/en-us/"
+        "https://www.square-enix.com/kingdomhearts/collection/en-us/",
+        "https://www.jp.square-enix.com/kingdom/kh3/products/index.html",
+        "https://www.gematsu.com/2019/01/kingdom-hearts-iii-pre-order-bonus-keyblade-trailers"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Official Japanese product page establishes Seven Net/Seven-Eleven Dawn Till Dusk offers, the ended download-card campaign, and the digital Integrum Masterpiece Midnight Blue first-month condition. Added those historical Japanese scopes to the two reference entries. This does not establish every region/account’s redemption validity today.",
+      "continuationUrls": [
+        "https://www.jp.square-enix.com/kingdom/kh3/products/index.html",
+        "https://www.gematsu.com/2019/01/kingdom-hearts-iii-pre-order-bonus-keyblade-trailers"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-015",
       "status": "partial",
       "implementedOrEstablished": "Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained.",
-      "remainingEvidenceBoundary": "Tables give object types and appearance odds, not unique object coordinates, every replenishment timer or all shop-stock transitions. During initial Little Chef gathering, alternate quantities in notes are retained rather than silently treated as normal yields.",
+      "remainingEvidenceBoundary": "All 28 shop ingredient rows now have prices and stock unlock tiers. Unique object coordinates and replenishment timing remain incomplete; initial Little Chef alternate yields remain explicit.",
       "consultedUrls": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Twilight_Town",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:100_Acre_Wood",
-        "https://www.khwiki.com/Flantastic_Seven"
+        "https://www.khwiki.com/Flantastic_Seven",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Integrated all 28 ingredient prices and stock tiers from the PS4 guide. The guide explains fixed versus two-item nodes and incomplete spawn availability, but supplies no universal replenishment timer. Existing 298 world rows and alternate yields retained; unique node coordinates remain incomplete.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-016",
@@ -331,9 +434,17 @@
       "remainingEvidenceBoundary": "KHWiki prints strict > thresholds while GameFAQs includes exact threshold equality, e.g. 20,000+. Neither is decisive boundary evidence; equality is still unresolved for all seven.",
       "consultedUrls": [
         "https://www.khwiki.com/Flantastic_Seven",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games",
+        "https://www.rpgsite.net/feature/8243-kingdom-hearts-3-flantastic-seven-guide-where-to-find-every-flan-flan-high-scores",
+        "https://www.reddit.com/r/KingdomHearts/comments/alv4l4/what_are_the_max_points_for_all_the_flans/"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Targeted exact-boundary searches and RPG Site’s seven-score guide add conventional thresholds, not an observed exact-score reward event. Reddit tables even disagree on Orange’s threshold; not accepted as boundary authority. All seven equality questions remain explicit; generic successful-run videos were not used as proof.",
+      "continuationUrls": [
+        "https://www.rpgsite.net/feature/8243-kingdom-hearts-3-flantastic-seven-guide-where-to-find-every-flan-flan-high-scores",
+        "https://www.reddit.com/r/KingdomHearts/comments/alv4l4/what_are_the_max_points_for_all_the_flans/"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-019",
@@ -362,9 +473,21 @@
         "https://www.destinyislands.com/kh3/items/ingredients/honey/",
         "https://www.khwiki.com/Junior_Medal",
         "https://www.khwiki.com/Master_Medal",
-        "https://www.khwiki.com/Star_Medal"
+        "https://www.khwiki.com/Star_Medal",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/100-acre-wood",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77486905",
+        "https://www.reddit.com/r/KingdomHearts/comments/cqu3fj/"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "ElectroSpecter independently corroborates Honey 1/3/6 at 20k/40k/60k but still does not establish all displayed rank labels. Medal guides and player reports confirm random outcome sets without probabilities. Existing reward quantities retained; no fabricated rank label or roll distribution.",
+      "continuationUrls": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/100-acre-wood",
+        "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77486905",
+        "https://www.reddit.com/r/KingdomHearts/comments/cqu3fj/"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-021",
@@ -389,9 +512,19 @@
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Leviathan_(ship)",
         "https://www.khwiki.com/Ghost_Ship",
-        "https://www.khwiki.com/Treasure_Ship"
+        "https://www.khwiki.com/Treasure_Ship",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/16",
+        "https://www.khwiki.com/Heartless_Ship",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/79386/main-story"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Reviewed Final World route/bonus-level explanation and Heartless Ship encounter material. Two +5 HP awards remain corroborated; a different guide’s +4 summary is rejected in favor of the explicit bonus table. Ghost adds respawning in combat does not establish fleet respawn or repeat rescue/copy reward rules. No repeatable HP/rescue farm added.",
+      "continuationUrls": [
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/16",
+        "https://www.khwiki.com/Heartless_Ship",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/79386/main-story"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-023",
@@ -408,8 +541,8 @@
     {
       "id": "KH3-024",
       "status": "partial",
-      "implementedOrEstablished": "33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. 44 fragments have written approaches; STR-13 has a verified visual landmark with its exact embarkation route retained as unknown. A wrong-zone STR-04 overview image is explicitly rejected.",
-      "remainingEvidenceBoundary": "STR-13 exact embarkation route remains unresolved because the independent text has a corrupted sphere glyph. Full sphere flight approaches remain incomplete. Rotated screenshots do not establish numerical world coordinates; no such values are invented. Physical fragment inventory and image review are now complete.",
+      "implementedOrEstablished": "33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected.",
+      "remainingEvidenceBoundary": "Full sphere flight approaches remain incomplete. Rotated screenshots do not establish numerical world coordinates. STR-13 is now mapped to sphere VII/η by independent Japanese text and matching reward contents; its approach is no longer an unresolved glyph guess.",
       "consultedUrls": [
         "https://www.khwiki.com/Starlight_Way",
         "https://www.khwiki.com/Misty_Stream",
@@ -420,10 +553,18 @@
         "https://game8.jp/kh3/255829",
         "https://blog.rebosoku.com/archives/kh3gummi_piece1.html",
         "https://blog.rebosoku.com/archives/kh3gummi_piece2.html",
-        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21",
+        "https://blog.rebosoku.com/archives/kh3mission_gummi.html"
       ],
       "checkedAt": "2026-10-01",
-      "supplement": "peer-enrichment.json"
+      "supplement": "peer-enrichment.json",
+      "continuationOutcome": "Resolved STR-13’s missing approach using independent Japanese launch text: map-relative below-left of Treasure Sphere VII. Its Damascus/Adamantite rewards identify VII as η, consistent with the existing screenshot landmark. Added Keyblade Graveyard embarkation plus sphere marker route. All 45 fragments now have text approaches; all nine sphere approach narratives and numerical coordinates are still not established.",
+      "continuationUrls": [
+        "https://blog.rebosoku.com/archives/kh3mission_gummi.html",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21",
+        "https://www.khwiki.com/The_Eclipse"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-025",
@@ -467,10 +608,18 @@
         "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77500087",
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/teeny-ships"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/teeny-ships",
+        "https://www.reddit.com/r/KingdomHearts/comments/am0e6d/kh3_has_anyone_learned_about_gummi_ship_cost_limit/"
       ],
       "checkedAt": "2026-10-01",
-      "supplement": "special-weapon-enrichment.json and peer-enrichment.json"
+      "supplement": "special-weapon-enrichment.json and peer-enrichment.json",
+      "continuationOutcome": "Targeted cost/AP searches found a TrueAchievements claim that a cost-by-level table follows; indexed retrieval exposes the 500 starting budget but not its rows, and direct page retrieval returned 402. Cost Converter posts disagree (1,300/1,330/1,400). No interpolated curve or foreign-game AP mission rules were accepted.",
+      "continuationUrls": [
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/20",
+        "https://www.reddit.com/r/KingdomHearts/comments/am0e6d/kh3_has_anyone_learned_about_gummi_ship_cost_limit/",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-028",
@@ -507,10 +656,19 @@
         "https://www.khwiki.com/Premium_Menu",
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
         "https://www.playstationtrophies.org/forum/topic/314514-kingdom-hearts-iii-re-mind-~-trophy-guide-amp-roadmap/",
-        "https://steamcommunity.com/app/2552450/discussions/0/4844274928139708304/"
+        "https://steamcommunity.com/app/2552450/discussions/0/4844274928139708304/",
+        "https://steamcommunity.com/app/2552450/discussions/0/604159637570247561/",
+        "https://www.trueachievements.com/a291572/allrounder-achievement"
       ],
       "checkedAt": "2026-10-01",
-      "supplement": "peer-enrichment.json"
+      "supplement": "peer-enrichment.json",
+      "continuationOutcome": "Rechecked Steam’s eligibility discussion and Xbox All-rounder comments. Conflicting guesses about disabled achievements remain; a newer 2025 Steam thread only corroborates code access after the Secret boss. No modern Steam per-achievement/persistence matrix established.",
+      "continuationUrls": [
+        "https://steamcommunity.com/app/2552450/discussions/0/4844274928139708304/",
+        "https://steamcommunity.com/app/2552450/discussions/0/604159637570247561/",
+        "https://www.trueachievements.com/a291572/allrounder-achievement"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-030",
@@ -520,9 +678,19 @@
       "consultedUrls": [
         "https://www.khwiki.com/Premium_Menu",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3274428775",
-        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26"
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26",
+        "https://www.reddit.com/r/KingdomHearts/comments/euhq6x/heres_some_information_to_help_people_get_arank/",
+        "https://www.playstationtrophies.org/game/kingdom-hearts-3/trophy/294104-risk-taker.html"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Retested B-rank evidence: indexed Xbox guide still says 325,000 while wiki says uncertain 320,000; direct Xbox page returned 503. ZeroSora’s launch Reddit guide explicitly reports best-single-score replacement for repeatable fights, but no modern Steam boundary capture or full save/replay matrix was recovered. Keep B disputed and do not infer a calculator from forum prose.",
+      "continuationUrls": [
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26",
+        "https://www.khwiki.com/Premium_Menu",
+        "https://www.reddit.com/r/KingdomHearts/comments/euhq6x/heres_some_information_to_help_people_get_arank/",
+        "https://www.playstationtrophies.org/game/kingdom-hearts-3/trophy/294104-risk-taker.html"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-031",
@@ -549,7 +717,14 @@
         "https://www.square-enix.com/kingdomhearts/collection/en-us/",
         "https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4"
       ],
-      "checkedAt": "2026-10-01"
+      "checkedAt": "2026-10-01",
+      "continuationOutcome": "Reopened official collection and Japanese Cloud sunset notice: release remains October 8, 2026; the notice promises save transfer but gives no steps. Epic achievement page remains inaccessible; third-party multi-store trainer labels do not prove Epic parity. No shipped build IDs or achievement equivalence were guessed.",
+      "continuationUrls": [
+        "https://store.epicgames.com/en-US/achievements/kingdom-hearts-iii",
+        "https://www.square-enix.com/kingdomhearts/collection/en-us/",
+        "https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4"
+      ],
+      "continuationReport": "research-continuation-2026-10-01.md"
     },
     {
       "id": "KH3-033",

@@ -4,7 +4,7 @@ Audit date: **2026-10-01**. Repository baseline: **`f933ab1`**, audit branch `re
 
 ## Current disposition
 
-**15 partial, 17 resolved, 3 conflicted (35 total).** See [complete resolution/evidence ledger](audit-resolution-2026-10-01.md) and [structured dispositions](audit-dispositions.json). Current canonical counts: 1900 entries + 286 recipe actions. No finding is considered closed merely because examples were added.
+**14 partial, 18 resolved, 3 conflicted (35 total).** See [complete resolution/evidence ledger](audit-resolution-2026-10-01.md) and [structured dispositions](audit-dispositions.json). Current canonical counts: 1926 entries + 286 recipe actions. No finding is considered closed merely because examples were added.
 
 ## Historical baseline results and scope
 
@@ -24,7 +24,7 @@ Per `ai_docs/testing-and-content-validation.md:5`–`13` and `:37`–`39`, conte
 
 ### KH3-001 — Base chest and emblem routes
 
-**Current status (2026-10-01): partial.** All 335 numbered base records now have reviewed pickup directions. Eleven full world guides yielded 64 missing directions, four reward-only expansions and corrected compass details; exact access residuals are enumerated in [route-enrichment.json](route-enrichment.json). Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-001--partial).
+**Current status (2026-10-01): partial.** Systematically reconciled all 335 base records with eleven complete numbered PowerPyx world guides and targeted GamerGuides checks. Added directions to 64 empty records and four reward-only Classic Kingdom records; 82 directions added/expanded/corrected overall, including the two San Fransokyo eastern-tower corrections. All 245 chests and 90 emblems have pickup landmarks, stable IDs and per-record guide provenance. Added post-clear recovery, explicit camera/night/story gates and Sandbar lagoon approach. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-001--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-001--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -36,7 +36,7 @@ For 245 base chests and 90 emblems, supply landmark/save-point approaches, actio
 
 ### KH3-002 — Modern English names and journal aliases
 
-**Current status (2026-10-01): partial.** Preserved stable IDs and searchable Trial/Trail, Horseshoe Isle/Island, Petit/Petite and Bandana/Bandanna aliases; corrected source typographical material/equipment names. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-002--partial).
+**Current status (2026-10-01): partial.** Preserved stable IDs and searchable Trial/Trail, Horseshoe Isle/Island, Petit/Petite and Bandana/Bandanna aliases; corrected source typographical material/equipment names. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-002--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-002--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -60,7 +60,7 @@ Is the valid camera standing position on 2F or 3F, and is the apparent disagreem
 
 ### KH3-004 — Re Mind nine chest routes and episode/save boundaries
 
-**Current status (2026-10-01): partial.** All nine Re Mind chest routes integrated. Added separate-episode save guidance, console alternate-load controls, same-DLC-save base progression and warning to preserve Re Mind Scala before Limitcut overwrite. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-004--partial).
+**Current status (2026-10-01): partial.** All nine Re Mind chest routes integrated. Added separate-episode save guidance, console alternate-load controls, same-DLC-save base progression and warning to preserve Re Mind Scala before Limitcut overwrite. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-004--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-004--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -72,7 +72,7 @@ For all nine Scala chests supply full routes and determine post-episode availabi
 
 ### KH3-005 — Forest Clasp exact missability trigger
 
-**Current status (2026-10-01): conflicted.** Retained four activities and conservative completion before first Shore visit, distinct from the nonmissable Rapunzel photo. Forest Clasp stats integrated. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-005--conflicted).
+**Current status (2026-10-01): conflicted.** Retained four activities and conservative completion before first Shore visit, distinct from the nonmissable Rapunzel photo. Forest Clasp stats integrated. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-005--conflicted) and [current ledger](audit-resolution-2026-10-01.md#kh3-005--conflicted).
 
 **Historical baseline scope and evidence:**
 
@@ -120,7 +120,7 @@ Enumerate exact modern output total and every recipe input/quantity/unlock/varia
 
 ### KH3-009 — Collector Goals and material discovery thresholds
 
-**Current status (2026-10-01): partial.** Integrated 24 material-type unlock thresholds, first-material Ether goal and 27 material shop goals with exact 30/25/20 deposit thresholds and 100/200/300 prices. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-009--partial).
+**Current status (2026-10-01): resolved.** All 78 numbered Collector Goals: 24 recipe unlocks, 24 direct item rewards and 30 material shop unlocks, with reward type and menu order. Includes first-material Ether item reward, cumulative/rarity/family rewards and Sinister shop thresholds. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-009--resolved) and [current ledger](audit-resolution-2026-10-01.md#kh3-009--resolved).
 
 **Historical baseline scope and evidence:**
 
@@ -132,7 +132,7 @@ Extract all 24 inspected material-type unlock rows, every Collector Goal, recipe
 
 ### KH3-010 — Complete synthesis material identities and sources
 
-**Current status (2026-10-01): partial.** All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum has a separate ID, retaining the old Orichalcum+ ID. Added shop thresholds and selected gate farm approaches. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-010--partial).
+**Current status (2026-10-01): partial.** All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum has a separate ID, retaining the old Orichalcum+ ID. Added shop thresholds and selected gate farm approaches. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-010--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-010--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -144,7 +144,7 @@ Enumerate every material family/rank and alternative chest/shop/enemy/Gummi sour
 
 ### KH3-011 — Farm mechanics, rate modifiers and postcard acquisition
 
-**Current status (2026-10-01): partial.** Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-011--partial).
+**Current status (2026-10-01): partial.** Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-011--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-011--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -168,7 +168,7 @@ Supply each applicable blade’s initial level, every transition/cost, STR/MAG/a
 
 ### KH3-013 — Complete non-Keyblade equipment and acquisition alternatives
 
-**Current status (2026-10-01): partial.** 128 new non-Keyblade equipment records plus existing Forest Clasp with stats/acquisition; 25 encounter/party weapon references separated from collectable ownership. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-013--partial).
+**Current status (2026-10-01): partial.** 128 new non-Keyblade equipment records plus existing Forest Clasp with stats/acquisition; 25 encounter/party weapon references separated from collectable ownership. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-013--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-013--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -180,7 +180,7 @@ Enumerate Donald staves, Goofy shields, armor/accessories, stats/abilities and e
 
 ### KH3-014 — Platform-exclusive Keyblade entitlement catalogue
 
-**Current status (2026-10-01): partial.** Steam Dead of Night is included; five other shipped platform-exclusive blades have full properties and reference-only eligibility. PS5/Xbox Series changes are explicitly future on audit date. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-014--partial).
+**Current status (2026-10-01): partial.** Steam Dead of Night is included; five other shipped platform-exclusive blades have full properties and reference-only eligibility. PS5/Xbox Series changes are explicitly future on audit date. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-014--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-014--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -192,7 +192,7 @@ Add Steam Dead of Night (officially researched but absent runtime); reconcile cu
 
 ### KH3-015 — 59 ingredient pickup/farming routes and shop availability
 
-**Current status (2026-10-01): partial.** Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-015--partial).
+**Current status (2026-10-01): partial.** Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-015--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-015--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -228,7 +228,7 @@ Resolve source disagreement: Synthesis says five, Bistrot describes four. Runtim
 
 ### KH3-018 — Flantastic Seven exact equality and complete reward/access rules
 
-**Current status (2026-10-01): conflicted.** All seven lower/upper reward tiers, routes, post-world access, first-time abilities and repeat fruit; safe aim-above wording remains. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-018--conflicted).
+**Current status (2026-10-01): conflicted.** All seven lower/upper reward tiers, routes, post-world access, first-time abilities and repeat fruit; safe aim-above wording remains. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-018--conflicted) and [current ledger](audit-resolution-2026-10-01.md#kh3-018--conflicted).
 
 **Historical baseline scope and evidence:**
 
@@ -252,7 +252,7 @@ Determine exact first-record/minimum-score behavior for all 23 games and Classic
 
 ### KH3-020 — Comprehensive minigame reward tables and strategies
 
-**Current status (2026-10-01): partial.** Full published five-course rank/reward tables, two harvest rank/quantity tables, independent Hunny 20k/40k/60k honey quantities and all eight score-record units. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-020--partial).
+**Current status (2026-10-01): partial.** Full published five-course rank/reward tables, two harvest rank/quantity tables, independent Hunny 20k/40k/60k honey quantities and all eight score-record units. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-020--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-020--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -276,7 +276,7 @@ Enumerate all Game Records units (combat actions, shotlocks, links, attractions 
 
 ### KH3-022 — Other world reward quantities and repeatability
 
-**Current status (2026-10-01): partial.** 222/333 Sora copy +5 HP rewards, Olympus rescue rewards, nine Leviathan levels with cumulative white-crab requirements, Black Pearl access and 14 naval fleet reward rows. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-022--partial).
+**Current status (2026-10-01): partial.** 222/333 Sora copy +5 HP rewards, Olympus rescue rewards, nine Leviathan levels with cumulative white-crab requirements, Black Pearl access and 14 naval fleet reward rows. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-022--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-022--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -300,7 +300,7 @@ Supply concrete gate approaches, encounter enemies/actions, repeat-clear reward 
 
 ### KH3-024 — Gummi full battle/treasure/sphere/fragment/part inventory
 
-**Current status (2026-10-01): partial.** 33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. 44 fragments have written approaches; STR-13 has a verified visual landmark with its exact embarkation route retained as unknown. A wrong-zone STR-04 overview image is explicitly rejected. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-024--partial).
+**Current status (2026-10-01): partial.** 33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-024--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-024--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -336,7 +336,7 @@ Replace coarse lower-right/upper-left positions with textual approach and camera
 
 ### KH3-027 — Gummi acquisition build constraints and boss guidance
 
-**Current status (2026-10-01): partial.** 19 Gummi abilities, 374 part properties, all 13 special weapons with damage/recharge/effects/unlocks, Teeny block-sharing guidance and level 99 base cost 1,000. First-clear guidance and a separately identified community-supported A-rank Schwarzgeist replay route are integrated. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-027--partial).
+**Current status (2026-10-01): partial.** 19 Gummi abilities, 374 part properties, all 13 special weapons with damage/recharge/effects/unlocks, Teeny block-sharing guidance and level 99 base cost 1,000. First-clear guidance and a separately identified community-supported A-rank Schwarzgeist replay route are integrated. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-027--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-027--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -360,7 +360,7 @@ Provide encounter-specific acquisition guidance for 13 data fights/Yozora, relev
 
 ### KH3-029 — Premium Menu code/merit/achievement eligibility tables
 
-**Current status (2026-10-01): partial.** All 28 code effects, all 9 merit predicates and explicit unlock stages, Gummi Meister permanence and 34 PRO boss scores are integrated. EZ menu access need only be unlocked; no active EZ code is required except Survival, which requires Survival on and other EZ battle codes off. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-029--partial).
+**Current status (2026-10-01): partial.** All 28 code effects, all 9 merit predicates and explicit unlock stages, Gummi Meister permanence and 34 PRO boss scores are integrated. EZ menu access need only be unlocked; no active EZ code is required except Survival, which requires Survival on and other EZ battle codes off. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-029--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-029--partial).
 
 **Historical baseline scope and evidence:**
 
@@ -372,7 +372,7 @@ Enumerate all 15 EZ and 13 PRO codes, effects, nine exact merit predicates, Surv
 
 ### KH3-030 — PRO rank ladder and score calculation
 
-**Current status (2026-10-01): conflicted.** All 34 boss base/max scores and 13 rank references, maximum 530,000, A 364,125 corroborated by Steam guide; uncertainty explicit for B. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-030--conflicted).
+**Current status (2026-10-01): conflicted.** All 34 boss base/max scores and 13 rank references, maximum 530,000, A 364,125 corroborated by Steam guide; uncertainty explicit for B. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-030--conflicted) and [current ledger](audit-resolution-2026-10-01.md#kh3-030--conflicted).
 
 **Historical baseline scope and evidence:**
 
@@ -396,7 +396,7 @@ Independently confirm The Hearts Joined to His, No Matter What, The Battle to En
 
 ### KH3-032 — Shipped builds/platform sets and transfer details
 
-**Current status (2026-10-01): partial.** Steam/Xbox 51 versus PlayStation 52 including platinum distinction; modern Steam bundle and future 2026-10-08 release/cloud sunset facts are dated. Full evidence and residual: [current ledger](audit-resolution-2026-10-01.md#kh3-032--partial).
+**Current status (2026-10-01): partial.** Steam/Xbox 51 versus PlayStation 52 including platinum distinction; modern Steam bundle and future 2026-10-08 release/cloud sunset facts are dated. Follow-up evidence and exact remaining boundary: [continuation](research-continuation-2026-10-01.md#kh3-032--partial) and [current ledger](audit-resolution-2026-10-01.md#kh3-032--partial).
 
 **Historical baseline scope and evidence:**
 

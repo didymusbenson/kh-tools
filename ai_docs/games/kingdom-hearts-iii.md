@@ -2,9 +2,9 @@
 
 ## Current research and implementation status — 2026-10-01
 
-KHIII/Re Mind canonical content now has **1900 entries + 286 recipe actions**. The [current per-ID ledger](kh3/audit-resolution-2026-10-01.md) records **15 partial, 17 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, but full physical fragment/sphere routes remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+KHIII/Re Mind canonical content now has **1926 entries + 286 recipe actions**. The [current per-ID ledger](kh3/audit-resolution-2026-10-01.md) records **14 partial, 18 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; full sphere flight approaches remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
 
-The earlier coverage/readiness and occurrence statements below are historical snapshots; current ledger dispositions override them. Product requirements and acceptance contracts remain binding. Jiminy remains empty. Shared runtime/UI validation is handled separately from factual resolution.
+Current scope and acceptance requirements below remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
 
 ## Historical baseline and enduring requirements
 
@@ -189,15 +189,13 @@ This supersedes the earlier bright-page palette proposal. The journal is the inf
 
 See [shared design direction](../ui/jiminys-journal-design-direction.md).
 
-## Evidence baseline and unresolved data
+## Current evidence and remaining data
 
-The [numbered inventory](kh3/collectible-inventory.md) accounts for 245 base chests, 90 Lucky Emblems and nine separate Re Mind chests. Five Golden Herc Figures, ten Frozen Slider prizes, reports and Gummi collectibles use their own units. The research also enumerates 23 Classic Kingdom acquisitions, 20 Photo Mission subjects/rewards, 59 ingredients, 28 dishes, 15 Battlegates/13 Reports and 13 Limitcut first-clear rewards. These are candidate source-grounded inventories, not completed precise route/equipment/recipe datasets.
+The canonical compendium contains 1926 entries and 286 recipe actions. All 245 base chests, 90 emblems and nine Re Mind chests have pickup directions. Synthesis includes 88 recipes/history outputs and 78 ordered Collector Goals. Blade properties/forge ladders, 54 Game Records, 81 adversaries, 23 Classic controls, 20 photo routes, ten Slider prizes and fourteen DLC strategies are integrated. Gummi includes all 45 fragment approaches, 13 special weapons and 46 mission predicates. The [continuation report](kh3/research-continuation-2026-10-01.md) records 59 newly normalized shop rows and the full follow-up evidence.
 
-Concrete synthesis fixtures include the seven Orichalcum+ paths, Ultima's 58-type recipe unlock and full recipe, and the Kingdom Key's ten forge transitions with calculated material totals. Preserve uncertainty around Flan equality comparisons, Forest Clasp's exact cutoff, Toy Box emblem 8's floor label, Premium Menu rank/score rules and stale synthesis UI statements. Resolve these through content research and app/data validation; do not require the user to replay the game.
+The remaining conflicts are Forest Clasp’s exact deadline, seven Flan threshold equalities and PRO rank B. Earliest collectible access, modern labels, every alternative source quantity, complete sphere approaches, medal roll distributions, replenishment/reset timers, Gummi cost/AP progression and platform-specific save/code/achievement cases remain scoped evidence limits. Toy Box emblem 8 and crafted-history marker behavior are resolved.
 
-The [edition audit](kh3/editions-and-dlc.md) separates free updates from paid Re Mind, shipped Steam/console/cloud releases from announced native 2026-10-08 editions, and platform-exclusive Keyblades. The official cloud sunset notice and new native announcements are recorded with dates. Upcoming builds are not certified by this research.
-
-Required remaining data: complete original chest/emblem/camera routes; all synthesis/equipment/material/cooking relationships and quantities; all Gummi treasure/fragment/mission/part records; complete Game Records and optional reward predicates; base/DLC/NG+ save semantics; exact achievement sets and code eligibility by shipped platform. See [readiness](../readiness/kingdom-hearts-iii.md) for coverage and fixtures.
+The [edition audit](kh3/editions-and-dlc.md) separates free updates from Re Mind and dated platform entitlements. Native October 8, 2026 editions remain announced/unreleased as of October 1; the official Cloud transfer promise is not a documented procedure. Consult the [readiness matrix](../readiness/kingdom-hearts-iii.md) for current coverage and application acceptance. No user replay is required to close a research finding.
 
 ## Release acceptance criteria
 

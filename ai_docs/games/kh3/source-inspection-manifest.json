@@ -1542,5 +1542,370 @@
     "imagesRetrievedAndVisuallyInspected": 90,
     "wrongZoneImagesRejected": 1,
     "notes": "All 90 Game8 screenshots fetched HTTP 200 and individually inspected in nine five-pair contact sheets. Retain image URLs as evidence, not as substitutes for written locations. Rotated map views have no reliable numeric world coordinates. Starlight/Misty direction words preserve the cited guide map orientation. Greek δ/ε/ζ correspond to the Japanese guide IV/V/VI sphere sequence; α/γ correspond to 1/3. All 40 GameFAQs close-up image links and 3 overview images failed web retrieval; Game8 provided a distinct accessible source. Direct GameFAQs image 202 also 403. Indexed TA retrieval returned full relevant Eclipse route paragraphs after direct/full-page open failed; STR-13 glyph was unusable."
+  },
+  "continuationInspection": {
+    "checkedAt": "2026-10-01",
+    "report": "research-continuation-2026-10-01.md",
+    "sources": [
+      {
+        "url": "https://blog.rebosoku.com/archives/kh3mission_gummi.html",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-024"
+        ]
+      },
+      {
+        "url": "https://docs.google.com/spreadsheets/d/1PtTOi7YBRb-jLPmpjlXyJgNMzu3TuXYHIov31HKijb8/edit",
+        "access": "unavailable; no contents used",
+        "appliesTo": [
+          "KH3-009"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77447231",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-013"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77464997",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-005"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77486905",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-020"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78393085",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-013"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78673947",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-004"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/100-acre-wood",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-020"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/arendelle",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-001"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-015",
+          "KH3-020"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-010",
+          "KH3-013",
+          "KH3-015"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-009"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/treasures",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-010"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-009"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-027"
+        ]
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/79386/main-story",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-022"
+        ]
+      },
+      {
+        "url": "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-009"
+        ]
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552450/discussions/0/4408543929281281175/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-004"
+        ]
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552450/discussions/0/4844274928139708304/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-029"
+        ]
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552450/discussions/0/604159637570247561/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-029"
+        ]
+      },
+      {
+        "url": "https://steamcommunity.com/app/2552450/discussions/0/6234751259564949779/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-004"
+        ]
+      },
+      {
+        "url": "https://store.epicgames.com/en-US/achievements/kingdom-hearts-iii",
+        "access": "unavailable; no contents used",
+        "appliesTo": [
+          "KH3-032"
+        ]
+      },
+      {
+        "url": "https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-032"
+        ]
+      },
+      {
+        "url": "https://www.destinyislands.com/kh3/items/ingredients/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-015"
+        ]
+      },
+      {
+        "url": "https://www.gamerguides.com/kingdom-hearts-iii/guide/walkthrough/kingdom-hearts-iii/kingdom-of-corona",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-005"
+        ]
+      },
+      {
+        "url": "https://www.gematsu.com/2019/01/kingdom-hearts-iii-pre-order-bonus-keyblade-trailers",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-014"
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/kingdom/kh3/products/index.html",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-014"
+        ]
+      },
+      {
+        "url": "https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-011"
+        ]
+      },
+      {
+        "url": "https://www.kh13.com/forums/topic/118081-kh3-moogle-guide/",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-009"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/Heartless_Ship",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-022"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/Premium_Menu",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-030"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/Sinister",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-009",
+          "KH3-010"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/Stats",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-002"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/Strength_Boost",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-002"
+        ]
+      },
+      {
+        "url": "https://www.khwiki.com/The_Eclipse",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-024"
+        ]
+      },
+      {
+        "url": "https://www.playstationtrophies.org/game/kingdom-hearts-3/trophy/294104-risk-taker.html",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-030"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/alv4l4/what_are_the_max_points_for_all_the_flans/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-018"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/am0e6d/kh3_has_anyone_learned_about_gummi_ship_cost_limit/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-027"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/cqu3fj/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-020"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/euhq6x/heres_some_information_to_help_people_get_arank/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-030"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/r/KingdomHearts/comments/gn5qv4/im_playing_kh3_for_the_first_time_and_this_game/",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-005"
+        ]
+      },
+      {
+        "url": "https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-011"
+        ]
+      },
+      {
+        "url": "https://www.rpgsite.net/feature/8243-kingdom-hearts-3-flantastic-seven-guide-where-to-find-every-flan-flan-high-scores",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-018"
+        ]
+      },
+      {
+        "url": "https://www.square-enix.com/kingdomhearts/collection/en-us/",
+        "access": "readable direct web text",
+        "appliesTo": [
+          "KH3-032"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/a291572/allrounder-achievement",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-029"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/11",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-001"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/16",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-022"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/20",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-027"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-024"
+        ]
+      },
+      {
+        "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26",
+        "access": "indexed web text/search result; not a claimed full direct read",
+        "appliesTo": [
+          "KH3-030"
+        ]
+      }
+    ],
+    "specialAccessLimits": {
+      "GameFAQs": "Direct URL requests restricted; indexed table sections used with dated PS4 guide metadata.",
+      "TrueAchievements": "Direct Gummi pages returned 402 and Premium page 503; indexed paragraphs were available.",
+      "Video": "No generic successful-run video accepted as exact threshold evidence."
+    }
   }
 }

@@ -2,13 +2,13 @@
 
 ## Current research and implementation status — 2026-10-01
 
-KHIII/Re Mind canonical content now has **1900 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **15 partial, 17 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, but full physical fragment/sphere routes remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+KHIII/Re Mind canonical content now has **1926 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **14 partial, 18 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, with all 45 fragment approaches; full sphere flight approaches remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
 
-The earlier coverage/readiness and occurrence statements below are historical snapshots; current ledger dispositions override them. Product requirements and acceptance contracts remain binding. Jiminy remains empty. Shared runtime/UI validation is handled separately from factual resolution.
+The coverage matrix below reflects the current canonical content. Product requirements and acceptance contracts remain binding. Jiminy remains empty; shared runtime/UI validation is assessed separately from factual resolution.
 
-## Historical baseline and enduring requirements
+## Current coverage and enduring requirements
 
-Status: **Research baseline established; not implementation-ready.** Assessed 2026-09-18.
+Status: **Broad sourced content integrated; specific factual and application gaps remain.** Updated 2026-10-01.
 
 Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [KH3 research index](../games/kh3/README.md). Apply the [shared readiness/edition policy](README.md) and accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content-validation contract](../testing-and-content-validation.md). All required modules remain MVP; only missing production screenshot/map images are deferred.
 
@@ -25,26 +25,26 @@ Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [
 
 ## Evidence and category matrix
 
-| Category | Earlier baseline | Research added | Status / release gap |
-|---|---|---|---|
-| KHTABLES/repository | No identified KH3 source | Ten-file inventory + full returned-text scan of three ambiguous docs (466,933 chars); complete repo tree | Audited absence of reusable KH3 source; other-game sheet cells not re-audited |
-| Base numbered chests | Scope only | 245 candidate records with contents/areas, per-world counts and contiguous source numbering | Identity inventory complete from community tables; all precise original routes and in-game numbering verification unfinished |
-| Lucky Emblems | Scope only | 90 candidate records across nine worlds; rewards/access exceptions | Precise camera directions/first-visit conditions incomplete; Toy Box #8 floor conflict |
-| Extra world collections | Scope only | Five Golden Herc Figure locations; ten Frozen Slider prizes identified separately | Frozen Slider full routes and Final World bonus acquisition rules unfinished |
-| Re Mind chests | Scope only | Nine separate Scala records | All detailed routes/replay-missability/save behavior unfinished; never count in base 245 |
-| Synthesis/materials | Scope only | 20 photo subject/reward identities; 58-type Ultima unlock; seven Orichalcum+ paths; selected drop rates | Complete recipes/quantities/collector goals/source catalogue and exact total still needed |
-| Keyblades/equipment | Scope only | Acquisition anchors; full ten-step Kingdom Key fixture and calculated totals; DLC reward table | Complete blade/formchange/forge rows, staves/shields/armor/accessories and entitlement edges incomplete |
-| Ingredients/cuisine | Scope only | 59 ingredient identities, 28 dish identities, 20-Classic-dish five-star rule | Full 59 sourcing routes, every recipe quantity/menu assignment, meal effects and farming guidance unfinished |
-| Classic Kingdom | Scope only | All 23 acquisition identities, joined to 18 chest records and five Twilight Town unlocks | High-score success predicates and original play instructions require testing |
-| Minigames/records | Scope only | Seven Flan upper thresholds; rank versus trophy comparison for five courses | Exact Flan equality, full Game Records/100 Acre Wood/Caribbean rewards unfinished |
-| Battlegates/Reports | Scope only | 15 gate identities, 13 report links, first-clear rewards, Dark Inferno distinction | Routes, strategy and repeat-reward verification incomplete |
-| Gummi | Scope only | Three zones; nine constellations; 10/17/6 map battle entries; global goal ladders, two boss access rules | Every treasure/sphere/fragment/part/blueprint/rank reward not yet normalized; full completion predicate unresolved |
-| Re Mind/Limitcut/Secret | Scope only | Official feature list; 11→13 data lock, all 13 first-clear rewards; Yozora reward | Full prerequisite/start/resume/replay test matrix and encounter guidance unfinished |
-| Premium Menu | Scope only | Per-save mode unlocks, 15 EZ/13 PRO identities counted, nine merits, maximum/A-rank points | Exact code predicates, trophy blocking, score replacement/rounding and uncertain rank-B value unresolved |
-| Editions/achievements | Not audited | Primary Steam/DLC/cloud/future-release pages; 51 Steam achievements; visible predicates | All shipped build IDs and PS/Xbox/Epic sets require audit; 2026-10-08 editions **announced/unreleased** |
-| Runtime/UX/Data Jiminy | No KH3 implementation | Domain contracts, examples and acceptance cases below | Not implemented or tested in this research task |
+| Category | Integrated coverage | Remaining evidence / release gap |
+|---|---|---|
+| KHTABLES/repository | Prior complete audit found no reusable dedicated KH3 source | Recorded absence is not a fresh audit of every other-game sheet |
+| Base numbered chests | 245 records with numbered pickup directions and provenance | 316 combined chest/emblem IDs lack proven minimum story gates; Arendelle #24 revisit wording differs |
+| Lucky Emblems | 90 pickup/camera landmarks; Toy Box #8 floor conflict corrected | Modern Steam labels and comprehensive earliest access remain incomplete |
+| Extra world collections | Five Golden Herc Figures, ten Slider prize routes, Final World 222/333 rewards | Rescue/copy replay opportunities and naval reset rules remain incomplete |
+| Re Mind chests | All nine separate Scala routes; console save-lineage guidance | Steam keyboard glyphs and every replay/overwrite/cloud edge remain uncertified |
+| Synthesis/materials | 88 exact recipes/history records, 60 materials, 78 ordered Collector Goals, 20 photo routes; 52 material-to-chest links | Full alternative source quantities, Gummi routes and farm efficiency remain incomplete |
+| Keyblades/equipment | 22 blade property catalogs, 170 applicable forge actions, 129 non-Keyblade items, 30 equipment shop tiers | Medal roll distributions and every alternative acquisition; regional entitlement edges |
+| Ingredients/cuisine | 59 ingredients, 298 source rows, 28 ingredient shop tiers, 28 recipes, 56 meal variants, four controls | Unique pickup-object coordinates and replenishment timers |
+| Classic Kingdom | 23 controls/acquisitions and registered-result completion rules | No numerical high-score goal is required |
+| Minigames/records | 54 Game Records, 81 adversaries, seven Flan tiers, rank/reward tables and Honey quantities | Flan equality, complete medal distributions and some Honey rank-label evidence |
+| Battlegates/Reports | 15 routes/enemy lists/strategies and first-clear versus repeat rewards; 13 reports | Scoped inventory complete; broader farm efficiency remains separate |
+| Gummi | 46 missions, 33 battles, nine spheres, 374 parts, 52 blueprints, 45 fragment approaches, 13 special weapons, 19 abilities, nine constellation routes | Complete sphere flight approaches, numerical coordinates and level-by-level cost/AP curve |
+| Re Mind/Limitcut/Secret | Fourteen encounter guides, 11→13 order, rewards and episode access | Platform-specific save/control edges |
+| Premium Menu | 28 effects, nine merit predicates/unlocks, 34 boss scores, thirteen rank references | B-rank conflict, full score-replacement eligibility and modern Steam achievement/code persistence matrix |
+| Editions/achievements | 51 Steam predicates including hidden descriptions; Xbox/PlayStation count distinction and dated official notices | Epic authoritative set, every shipped build ID, cross-platform equivalence, transfer procedure; October 8 editions remain unshipped |
+| Runtime/UX/Data Jiminy | Canonical JSON and shared guide module exist | Shared linked-state, offline/mobile behavior and Jiminy remain separate product validation work |
 
-Detailed coverage and disagreements: [source manifest](../games/kh3/sources-and-conflicts.md). Candidate inventory coverage is not route completeness or production verification. No category receives a false “ready” merely because a source table exists.
+The [continuation report](../games/kh3/research-continuation-2026-10-01.md) accounts for all 18 follow-up families. Counts describe represented units, not a blanket claim of complete alternative acquisition graphs.
 
 ## Critical corrections
 
@@ -79,7 +79,7 @@ Each answer must cite local record IDs and provenance and expose edition/uncerta
 
 | Question | Required answer behavior |
 |---|---|
-| “Which Toy Box chest gives The Barnyard Battle?” | Chest 24/Kid Korral, linked record; route not invented from area-only evidence |
+| “Which Toy Box chest gives The Barnyard Battle?” | Chest 24/Kid Korral, linked record and its reviewed pickup directions |
 | “Why can’t I finish Olympus emblems on the first visit?” | Gummiphone/revisit prerequisite; category remains 12 |
 | “I have 80 emblems. Am I finished?” | Orichalcum+ event achieved; ten of 90 remain |
 | “Where can I farm Illusory Crystal?” | Battlegate 8 Demon Tower source; first-clear gate rewards separately |
@@ -98,8 +98,8 @@ No new questions were solicited. The parent relayed the accepted decisions above
 
 ## Next required work
 
-1. Finish original route text and reconcile numbered records using reliable modern sources/captures, starting with the documented conflicts and all nine Scala chests.
-2. Normalize complete synthesis, material, equipment, cooking and Gummi acquisition graphs; calculate costs from edge quantities.
-3. Verify base/Re Mind/Limitcut/Secret/NG+ save boundaries, Premium code eligibility and exact reward thresholds.
-4. Read every supported shipped platform achievement set and build metadata; keep upcoming editions in announced status until available and tested.
-5. Implement the shared offline linked-record contract and the KH3 dark menu, then run the meaningful functionality and calculation fixtures above plus source/route completeness checks. Do not make the user’s gameplay or a full playthrough a gate.
+1. Resolve the enumerated minimum-access and modern-label residuals; retain completed pickup routes and stable IDs.
+2. Fill remaining alternative acquisition quantities, sphere flight approaches, replenishment/reset rules and medal distributions; retain completed recipes, forge ladders, goals and shop tiers.
+3. Resolve exact Forest Clasp/Flan/B-rank conflicts and platform-specific save/Premium achievement eligibility edges with decisive evidence.
+4. Establish authoritative Epic predicates, shipped build metadata and final cloud-transfer procedure when available. Future editions stay announced until shipped evidence exists.
+5. Complete shared linked-record/offline/mobile acceptance and KH3 presentation work. Keep application implementation separate from evidence resolution; no user playthrough gate.

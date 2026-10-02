@@ -1,51 +1,24 @@
-# KH3 / Re Mind rollout — 2026-09-20
+# KH3 / Re Mind rollout
 
-## Current research and implementation status — 2026-10-01
+Updated 2026-10-01. Canonical lineage: `src/games/kh3/content.json` → `src/games/kh3.ts` → registry/runtime. The JSON is directly maintained. Current content: **1926 entries + 286 recipe actions**. Original stable IDs and 245/90/9 physical world denominators are preserved.
 
-KHIII/Re Mind canonical content now has **1900 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **15 partial, 17 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, but full physical fragment/sphere routes remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+## Integrated coverage
 
-The earlier coverage/readiness and occurrence statements below are historical snapshots; current ledger dispositions override them. Product requirements and acceptance contracts remain binding. Jiminy remains empty. Shared runtime/UI validation is handled separately from factual resolution.
-
-## Historical baseline and enduring requirements
-
-## Research and plan
-
-Read the complete `ai_docs/games/kh3` research set and readiness assessment, then applied the refinement playbook. The existing research supplies numbered collectible identities but explicitly does not establish complete precise routes. Do not promote those identities to fully verified route guidance.
-
-Normalize the existing factual tables into stable records; reuse chest IDs for Classic Kingdom acquisitions; preserve separate cooking, high-score, DLC and achievement outcomes; expose direct input quantities as additive farming targets. Use the shared journal renderer for searchable category pages, world links and independent inline details. Data Jiminy is excluded.
-
-Additional source inspection on 2026-09-20:
-
-- https://www.khwiki.com/Le_Grand_Bistrot — all 28 recipe ingredient lists, cooking methods and Classic/Special distinction. Recipe inputs are one unit of each listed ingredient. All attempts consume ingredients; crafting history is not Excellent cooking history.
-- https://www.khwiki.com/Ingredients — 59 ingredient identities, listed source areas and available shop prices.
-- https://steamcommunity.com/stats/2552450/achievements/ — 51 achievement names and publicly visible requirements. Three hidden story predicates remain explicitly unavailable; other hidden conditions are tied to the existing research, with uncertainty retained.
-
-## Implemented coverage
-
-`src/games/kh3.ts` configures the guide; `src/games/kh3/content.json` stores 617 entries and 39 recipe actions.
-
-- 245 base chests, 90 Lucky Emblems and nine separate Re Mind chests. Canonical numbered IDs follow the research convention. Base collectible totals exclude Re Mind, achievements, story rewards and record goals.
-- 23 Classic Kingdom acquisition views: 18 share their chest event IDs and five have independent acquisition records. The 23 high-score records remain separate.
-- 20 Photo Missions, with recipe unlocks explicitly distinguished from receiving finished equipment.
-- 15 Battlegates; gates 1–13 appear in the Reports category using the same event IDs. Gate 0 has no report; gate 14 awards Crystal Regalia.
-- Five Golden Herc Figures, seven Flan upper-tier objectives, five named minigame rank/achievement comparisons.
-- 28 Excellent cuisine records, all 28 cooking input recipes, 59 ingredient stock/found-ever records. Twenty Classic and eight Special dishes are distinguished. An acquired dish does not mark it cooked Excellent.
-- Ultima Weapon synthesis and the ten individual Kingdom Key forge steps. Forge steps are explicit source-level→target-level actions, not a purported universal upgrade ladder. Ultima synthesis creates a level-10 weapon.
-- 13 synthesis/forge materials, 16 Keyblade acquisition anchors and Forest Clasp’s conservative missability warning.
-- Nine Gummi constellations and two optional Gummi bosses.
-- Thirteen Limitcut victories and Yozora, distinct from the nine Re Mind chests. DLC labels and prerequisites remain visible.
-- All 51 Steam achievements; completion remains independent from the base collectible denominator.
+- All 335 base chest/emblem pickup landmarks and nine Re Mind chest routes; 20 photo routes and ten Slider prizes.
+- 88 synthesis recipes/history outputs, 60 synthesis materials and 78 ordered Collector Goals, including distinct item, recipe and shop rewards.
+- 22 Keyblade property catalogs, 170 applicable forge actions including ten NG+ Ultima transitions, 129 non-Keyblade items and 25 party/temporary references.
+- 30 equipment and 28 ingredient stock rows plus Fluorite, with prices/unlock conditions; 52 material-to-chest route links.
+- 59 ingredients/298 source rows, 28 cooking recipes, 56 meal effects and four cooking controls.
+- 23 Classic controls/acquisitions, 54 Game Records, 81 adversaries, 15 Battlegates and fourteen DLC encounter guides.
+- 46 Gummi missions, 33 battles, nine spheres, 374 parts, 52 blueprints, 45 fragment routes, thirteen special weapons, nineteen abilities and nine constellation routes.
+- 28 Premium effects, nine merit predicates/unlock stages, 34 PRO boss scores, thirteen rank references and all 51 Steam achievement descriptions.
 
 ## Actual limits
 
-This is a functioning sourced guide with broad coverage, not a complete KH3 acquisition encyclopedia. Full synthesis output/ingredient graphs, all Keyblade forge ladders, bestiary, equipment sources, Gummi treasure/sphere/fragment catalogs, Frozen Slider’s ten exact prize routes, Premium Menu code predicates and comprehensive minigame rewards remain unfinished. No fabricated entries fill those gaps. Several material sources remain explicitly unverified. World chest/emblem records generally give an area and number rather than a precise physical route, and retain a visible note saying so. Toy Box emblem 8 retains the conflicting floor evidence.
+The [current ledger](../games/kh3/audit-resolution-2026-10-01.md) records **14 partial, 18 resolved, 3 conflicted**. The [continuation](../games/kh3/research-continuation-2026-10-01.md) accounts for every formerly partial/conflicted family. Remaining factual work concerns minimum access/Steam labels, exact Forest Clasp and Flan boundaries, PRO rank B, comprehensive alternative acquisition quantities, sphere approaches, Gummi cost/AP progression, medal probabilities, replenishment/reset rules and platform-specific save/achievement/code behavior. Completed catalogs are not listed as missing.
 
-One shared game profile currently contains explicitly named base and DLC records, with distinct IDs/categories; this does not implement multiple save-lineage or New Game+ profiles. Related events do not automatically alter inventory or derived reward checks. Photo missions lack some precise camera positions. The shared journal aesthetic is retained; a complete digital Gummiphone visual skin is not part of this module.
+Runtime concerns remain separate: one shared profile has distinct base/DLC IDs; full save-lineage profiles and automatic inventory/reward derivation are not established by content research. Shared offline/mobile and presentation requirements remain binding. Jiminy is empty. No user playthrough is a release gate.
 
 ## Validation
 
-- `npx tsc --noEmit --pretty false` passed after the module was written.
-- Data validation passed: 656 distinct entry/recipe IDs; all recipe input IDs resolve to entries; all quantities positive.
-- Asserted 28 cuisine records with exactly 20 Classic Menu and eight Special Menu recipes.
-- Numbered inventories reproduce the checked-in 245/90/9 counts.
-- Root integration owns browser, shared-profile and full build checks; these were not independently claimed by this content agent.
+The September 20 module baseline passed TypeScript and 656-ID/reference validation. That historical count is not current. Continuation validation checks 2212 unique current entry/recipe IDs, all 78 goal indices/reward types, unchanged physical denominators, positive/resolving recipe inputs and targeted KH3 tests. Root owns whole-app integration; no whole build, deployment, commit or push is claimed here.

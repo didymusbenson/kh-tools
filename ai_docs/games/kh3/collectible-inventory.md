@@ -2,11 +2,15 @@
 
 ## Current status — 2026-10-01
 
-The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1900 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
+The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1926 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
 
 The full KH3-001 route pass reviewed all 335 numbered base records against complete guides. Every record now has pickup directions and linked guide evidence; 64 blank and four reward-only records were filled. [The per-record route ledger](route-enrichment.json) retains the exact earliest-access residuals and Arendelle chest 24 revisit disagreement. Base collectibles remain recoverable after the story; this does not imply first-visit availability.
 
 Accepted product contracts below remain in force. Historical unresolved language is evidence history, not an additional active backlog.
+
+## Continuation coverage — 2026-10-01
+
+[Every residual follow-up and evidence outcome](research-continuation-2026-10-01.md) is recorded, including unchanged findings. The canonical content now has all 78 ordered Collector Goals, 59 stock rows with unlock conditions, 52 material-to-chest route links and all 45 fragment approaches. STR-13’s sphere VII/η approach is resolved. Current remaining work is the per-finding boundary in the ledger; dated research below is retained as historical evidence.
 
 ## Historical research — 2026-09-18
 

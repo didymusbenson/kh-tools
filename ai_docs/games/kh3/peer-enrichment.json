@@ -7,12 +7,10 @@
     "imagePairsRetrieved": 45,
     "imagesVisuallyReviewed": 90,
     "wrongZoneImagesRejected": 1,
-    "textApproaches": 44,
-    "landmarkOnlyResiduals": [
-      "STR-13"
-    ]
+    "textApproaches": 45,
+    "landmarkOnlyResiduals": []
   },
-  "fragmentMethod": "All 90 Game8 screenshots fetched HTTP 200 and individually inspected in nine five-pair contact sheets. Retain image URLs as evidence, not as substitutes for written locations. Rotated map views have no reliable numeric world coordinates. Starlight/Misty direction words preserve the cited guide map orientation. Greek δ/ε/ζ correspond to the Japanese guide IV/V/VI sphere sequence; α/γ correspond to 1/3. All 40 GameFAQs close-up image links and 3 overview images failed web retrieval; Game8 provided a distinct accessible source. Direct GameFAQs image 202 also 403. Indexed TA retrieval returned full relevant Eclipse route paragraphs after direct/full-page open failed; STR-13 glyph was unusable.",
+  "fragmentMethod": "All 90 Game8 screenshots fetched HTTP 200 and individually inspected in nine five-pair contact sheets. Retain image URLs as evidence, not as substitutes for written locations. Rotated map views have no reliable numeric world coordinates. Starlight/Misty direction words preserve the cited guide map orientation. Greek δ/ε/ζ correspond to the Japanese guide IV/V/VI sphere sequence; α/γ correspond to 1/3. All 40 GameFAQs close-up image links and 3 overview images failed web retrieval; Game8 provided a distinct accessible source. Direct GameFAQs image 202 also 403. Indexed TA retrieval returned full relevant Eclipse route paragraphs after direct/full-page open failed; STR-13 glyph was unusable. Continuation resolves STR-13 through independent Japanese sphere VII text, not by decoding the corrupted glyph. See research-continuation-2026-10-01.md.",
   "fragments": [
     {
       "id": "kh3.gummi-fragments.vga-01",
@@ -1519,12 +1517,14 @@
       "fragment": "STR-13",
       "zone": "The Eclipse",
       "blueprint": "Shooting Star",
-      "route": "On an exterior station platform beside cylindrical machinery; a blue speed-tunnel entrance is visible beyond it.",
+      "route": "Embark from the Keyblade Graveyard and mark Treasure Sphere η (VII). Search just below and to the left of the sphere on the zone map. The fragment is over an exterior station platform beside cylindrical machinery, with a blue speed tunnel beyond it.",
       "visualLandmark": "Crystal floats above a flat station platform, with a blue tunnel beyond.",
-      "routeBasis": "inspected screenshot only",
+      "routeBasis": "Independent Japanese map-relative text plus previously inspected close-up/map screenshots; sphere VII matched to η by the Damascus/Adamantite reward pair.",
       "sources": [
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
-        "https://game8.jp/kh3/255829"
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3mission_gummi.html",
+        "https://www.khwiki.com/The_Eclipse"
       ],
       "sourceImages": [
         {
@@ -1546,7 +1546,7 @@
         "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-290.jpg",
         "webResult": "failed to fetch restricted URL; image not reviewed"
       },
-      "remainingBoundary": "Exact embarkation-to-platform approach remains incomplete: indexed TA sphere glyph is corrupted (╖), so no Greek symbol was guessed; screenshot establishes only the exterior platform landmark."
+      "remainingBoundary": "Directions are qualitative; numerical coordinates and measured flight distance are not established."
     },
     {
       "id": "kh3.gummi-fragments.str-14",
@@ -1733,6 +1733,6 @@
     "cuisine": "No concrete additional omission established:56 normal/+ stat variants,28 recipes,five courses,six cumulative full-course pools and20/23/26/29/32/35-minute durations are present. Four cooking methods remain correct.",
     "codeEligibility": "Modern Steam per-achievement EZ-code eligibility and persistence still conflict across consulted community reports; no unsupported matrix added.",
     "gummiBudget": "Level99 endpoint integrated; full level-by-level cost/AP curve remains absent from the consulted sources.",
-    "fragmentApproach": "STR-13 exact embarkation route remains unresolved; no fabricated repair of a corrupted sphere glyph. Complete sphere flight approaches remain outside this fragment supplement."
+    "fragmentApproach": "All 45 fragments have text approaches. Complete sphere flight approaches and numerical coordinates remain outside this fragment supplement."
   }
 }

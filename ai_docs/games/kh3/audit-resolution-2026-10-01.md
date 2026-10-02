@@ -1,8 +1,8 @@
 # KH3 / Re Mind audit resolution — 2026-10-01
 
-This is the current disposition of every KH3-001–KH3-035 finding. It supersedes the repository-only baseline prose and its historical occurrence appendices. **15 partial, 17 resolved, 3 conflicted; 35 investigated; no unattempted finding marked blocked.** Partial means supported work is integrated and the specific evidence boundary below remains. Conflicted means consulted sources disagree. Neither is full completion.
+This is the current disposition of every KH3-001–KH3-035 finding. It supersedes the repository-only baseline prose and its historical occurrence appendices. **14 partial, 18 resolved, 3 conflicted; 35 investigated; no unattempted finding marked blocked.** Partial means supported work is integrated and the specific evidence boundary below remains. Conflicted means consulted sources disagree. Neither is full completion.
 
-Canonical lineage: `src/games/kh3/content.json` → `src/games/kh3.ts` → registry/runtime. The JSON is the maintained canonical input, not a generated duplicate. All original 656 IDs remain. Current content contains **1900 entries and 286 recipe actions**. Historical per-world chest/emblem counts are unchanged; mixed category totals are not physical collectible denominators. Data Jiminy remains empty.
+Canonical lineage: `src/games/kh3/content.json` → `src/games/kh3.ts` → registry/runtime. The JSON is the maintained canonical input, not a generated duplicate. All original 656 IDs remain. Current content contains **1926 entries and 286 recipe actions**. Historical per-world chest/emblem counts are unchanged; mixed category totals are not physical collectible denominators. Data Jiminy remains empty.
 
 The machine-readable companion is [audit-dispositions.json](audit-dispositions.json). All source URLs below were investigated on this pass; evidence limitations identify where a full read was unavailable or where the source itself lacks a predicate. Per-entry sources in canonical content retain individual equipment, material and Classic-game URLs.
 
@@ -11,7 +11,7 @@ The machine-readable companion is [audit-dispositions.json](audit-dispositions.j
 | Family | Implemented coverage |
 |---|---|
 | Base and DLC collectibles | 245 base chests, 90 emblems, 335 pickup landmarks and guide directions; 9 Re Mind routes; 10 Slider prizes |
-| Workshop | 88 synthesis recipes/history records; 60 materials; 25 type/first-material goals and 27 shop goals |
+| Workshop | 88 synthesis recipes/history records; 60 materials; 78 ordered goals (24 recipe unlocks, 24 item rewards, 30 shop unlocks) |
 | Equipment | 22 Keyblade level/property catalogs; 220 source forge transitions; 170 applicable forge actions including NG+ Ultima; 129 non-Keyblade items; 25 party/temporary references |
 | Cooking/records | 59 ingredients; 298 world source rows; 56 dish effect variants; 23 Classic controls; 54 Game Records; 81 base adversaries |
 | Gummi | 46 missions; 33 battles; 9 spheres; 374 parts/cosmetics; 52 blueprints; 45 physical fragments; 19 abilities; 13 special weapons; 9 constellation routes |
@@ -24,6 +24,8 @@ The machine-readable companion is [audit-dispositions.json](audit-dispositions.j
 Systematically reconciled all 335 base records with eleven complete numbered PowerPyx world guides and targeted GamerGuides checks. Added directions to 64 empty records and four reward-only Classic Kingdom records; 82 directions added/expanded/corrected overall, including the two San Fransokyo eastern-tower corrections. All 245 chests and 90 emblems have pickup landmarks, stable IDs and per-record guide provenance. Added post-clear recovery, explicit camera/night/story gates and Sandbar lagoon approach.
 
 **Remaining boundary:** Spatial pickup-direction coverage is complete, not a claim of 335 save-point narratives or a universal earliest-access graph. route-enrichment.json enumerates 316 IDs without proven minimum story gates and the specific Arendelle chest 24 disagreement (GamerGuides requires revisit; PowerPyx says easier). Original console guides align with current base identities but are not modern Steam capture authority; aliases remain KH3-002. No direction remains unresearched or area-only because a wiki cell was blank.
+
+**Continuation:** Compared the Arendelle narrative route in ElectroSpecter v3.01 (PS4, 2020-05-30) and the Xbox TrueAchievements route with the already cited PowerPyx/GamerGuides disagreement. Both put the final Slayer’s Earring pickup after the story; neither tests an earlier attempt. No universal earliest-access gate was inferred.
 
 **Consulted:**
 
@@ -55,12 +57,16 @@ Systematically reconciled all 335 base records with eleven complete numbered Pow
 - https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/treasures/san-fransokyo
 - https://www.gamerguides.com/kingdom-hearts-iii/guide/the-gummiphone/lucky-emblems/olympus
 - https://www.powerpyx.com/kingdom-hearts-3-collectibles-guide-treasures-lucky-emblems/
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/arendelle
+- https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/11
 
 ### KH3-002 — partial
 
 Preserved stable IDs and searchable Trial/Trail, Horseshoe Isle/Island, Petit/Petite and Bandana/Bandanna aliases; corrected source typographical material/equipment names.
 
 **Remaining boundary:** The community tables establish aliases, not a captured modern English Steam label authority. Strength/Power and all regional ingredient aliases are not completely reconciled; no bulk rename was inferred.
+
+**Continuation:** Searched modern Steam Strength/Power label evidence and inspected the cross-series Strength Boost page. It distinguishes historical names but supplies no captured Steam UI or comprehensive regional ingredient concordance. Stable labels/aliases retained.
 
 **Consulted:**
 
@@ -69,6 +75,8 @@ Preserved stable IDs and searchable Trial/Trail, Horseshoe Isle/Island, Petit/Pe
 - https://www.khwiki.com/Accessory
 - https://www.khwiki.com/Armor
 - https://www.khwiki.com/Ingredients
+- https://www.khwiki.com/Strength_Boost
+- https://www.khwiki.com/Stats
 
 ### KH3-003 — resolved
 
@@ -88,11 +96,16 @@ All nine Re Mind chest routes integrated. Added separate-episode save guidance, 
 
 **Remaining boundary:** GamerGuides describes console controls and episode overwrite boundaries; it does not establish every Steam keyboard/controller glyph, replay/overwrite edge or cloud-transfer interaction. Those exact save-control cases remain uncertified.
 
+**Continuation:** Read the 2024 Steam discussion of hybrid DLC/base saves and console replay explanations. The Steam reply still uses square/X, not a verified keyboard glyph. Epic-to-Steam discussion reports incompatible direct copying; not a supported transfer procedure. Exact keyboard/overwrite/cloud cases remain uncertified.
+
 **Consulted:**
 
 - https://www.gamerguides.com/kingdom-hearts-iii/guide/re-mind-dlc/re-mind/scala-ad-caelum
 - https://www.gamerguides.com/kingdom-hearts-iii/guide/re-mind-dlc
 - https://www.khwiki.com/Kingdom_Hearts_III_Re_Mind
+- https://steamcommunity.com/app/2552450/discussions/0/4408543929281281175/
+- https://steamcommunity.com/app/2552450/discussions/0/6234751259564949779/
+- https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78673947
 
 ### KH3-005 — conflicted
 
@@ -100,10 +113,15 @@ Retained four activities and conservative completion before first Shore visit, d
 
 **Remaining boundary:** Item page says before first reaching Shore; Corona world reward description says before Rapunzel leaves. Neither reviewed page resolves the exact event flag or explicitly retracts the other cutoff. Conservative advice is not a resolved trigger.
 
+**Continuation:** Read GamerGuides Corona narrative plus launch-era reward reports. They place the reward around the first Shore approach, supporting conservative advice, but do not test returning for an omitted activity after that transition. No flag-level deadline or retraction of the competing wiki wording was found.
+
 **Consulted:**
 
 - https://www.khwiki.com/Forest_Clasp
 - https://www.khwiki.com/Game:Kingdom_of_Corona
+- https://www.gamerguides.com/kingdom-hearts-iii/guide/walkthrough/kingdom-hearts-iii/kingdom-of-corona
+- https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77464997
+- https://www.reddit.com/r/KingdomHearts/comments/gn5qv4/im_playing_kh3_for_the_first_time_and_this_game/
 
 ### KH3-006 — resolved
 
@@ -142,11 +160,13 @@ Full 88-output recipe catalog, exact quantities and unlocks, explicit + variants
 - https://www.khwiki.com/Clockwork_Shield
 - https://www.khwiki.com/Acrisius
 
-### KH3-009 — partial
+### KH3-009 — resolved
 
-Integrated 24 material-type unlock thresholds, first-material Ether goal and 27 material shop goals with exact 30/25/20 deposit thresholds and 100/200/300 prices.
+All 78 numbered Collector Goals: 24 recipe unlocks, 24 direct item rewards and 30 material shop unlocks, with reward type and menu order. Includes first-material Ether item reward, cumulative/rarity/family rewards and Sinister shop thresholds.
 
-**Remaining boundary:** These are the 52 sourced goals, not proof of every in-game Collector Goal menu row. The Synthesis and item pages do not provide a closed menu-ordered Collector Goals inventory including any non-recipe discovery rewards. No universal denominator is certified.
+**Remaining boundary:** None for the published 78-goal menu inventory. Modern English Steam label capture remains KH3-002; material alternative acquisition routes remain KH3-010.
+
+**Continuation:** Completed all 78 numbered Collector Goals: existing 52 plus 23 direct item rewards and three Sinister shop unlocks. Numbered PS4 guide (2019), ElectroSpecter v3.01 (2020), Samurai Gamers and family pages agree on the covered conditions. Added menu indices and distinct item/recipe/shop reward types. Corrected first-material goal to an Ether item reward; the separate Ether recipe keeps its existing published unlock condition. Samurai’s translated item typos were rejected. KH13’s linked sheet was inaccessible; no contents attributed to it.
 
 **Consulted:**
 
@@ -161,12 +181,20 @@ Integrated 24 material-type unlock thresholds, first-material Ether goal and 27 
 - https://www.khwiki.com/Writhing
 - https://www.khwiki.com/Betwixt
 - https://www.khwiki.com/Twilight
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop
+- https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/
+- https://www.khwiki.com/Sinister
+- https://www.kh13.com/forums/topic/118081-kh3-moogle-guide/
+- https://docs.google.com/spreadsheets/d/1PtTOi7YBRb-jLPmpjlXyJgNMzu3TuXYHIov31HKijb8/edit
 
 ### KH3-010 — partial
 
 All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum has a separate ID, retaining the old Orichalcum+ ID. Added shop thresholds and selected gate farm approaches.
 
-**Remaining boundary:** Family obtainment tables supply source sets/rates, but some chest/Gummi entries remain area-only. A complete alternative-source route graph, source quantities and every unlock cannot be inferred from item names. Intentional non-enemy empty drops are not defects.
+**Remaining boundary:** Ten material records now link 52 exact numbered chest routes. Other alternative sources, source quantities, Gummi flight approaches and every unlock remain incomplete; non-enemy empty drop arrays remain intentional.
+
+**Continuation:** Joined exact material reward names to 52 existing numbered chest routes across ten material records. Added Fluorite shop tier and the three missing Sinister stock goals. This resolves the represented chest-to-material navigation gap; it does not manufacture every alternative source quantity, Gummi approach or unlock.
 
 **Consulted:**
 
@@ -190,12 +218,16 @@ All 60 material identities and KHIII acquisition/drop data; ordinary Orichalcum 
 - https://www.khwiki.com/Evanescent
 - https://www.khwiki.com/Illusory
 - https://www.khwiki.com/Orichalcum
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/treasures
 
 ### KH3-011 — partial
 
 Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for five crystals, shop-visit postcard lottery and Twilight mailbox; no repeatable Orichalcum+ claim.
 
-**Remaining boundary:** Consulted sources establish named encounter repeats and random postcards; they do not establish all asteroid reset conditions/timing or measured comparative efficiency. No fastest-farm ranking was added.
+**Remaining boundary:** Ordinary asteroid reset after world re-entry is now guide-supported. All other asteroid/crystal reset conditions, timing and measured comparative farm efficiency remain unestablished.
+
+**Continuation:** A launch-era Kakuchopurei farming guide explicitly reports ordinary asteroid reset after visiting a world and re-entering space; added that qualified method to Adamantite. RPG Site corroborates repeatable asteroids. Their prose does not time the route or prove that special blue crystals/fragments reset. No fastest-farm ranking or universal timer was added. Similar se7en wording was treated as a mirror, not independent confirmation.
 
 **Consulted:**
 
@@ -205,6 +237,8 @@ Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for f
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games
 - https://www.khwiki.com/Damascus
 - https://www.khwiki.com/Adamantite
+- https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/
+- https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations
 
 ### KH3-012 — resolved
 
@@ -226,7 +260,9 @@ Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for f
 
 128 new non-Keyblade equipment records plus existing Forest Clasp with stats/acquisition; 25 encounter/party weapon references separated from collectable ownership.
 
-**Remaining boundary:** Armor/Accessory/Weapons overview and linked item pages were extracted. Some acquisition cells list a shop without its precise story stock transition; random medal ability variants do not have a normalized exhaustive roll distribution. Thus 129 items is represented coverage, not certification of all alternative acquisitions.
+**Remaining boundary:** All 30 published Moogle equipment stock rows now have prices and story/card unlocks. Random medal ability distributions and every alternative acquisition route remain unnormalized.
+
+**Continuation:** Integrated all 30 equipment rows from ElectroSpecter’s six-tier Moogle stock table, including prices and the M.O.G. Card condition. Medal follow-ups confirm activity-specific random abilities but give no exhaustive weighted distribution. All alternative acquisition paths remain a separate boundary.
 
 **Consulted:**
 
@@ -237,12 +273,17 @@ Lucky Strike multiplier 1 + 0.3 × active-party copies, repeat gate routes for f
 - https://www.khwiki.com/Master_Medal
 - https://www.khwiki.com/Star_Medal
 - https://www.khwiki.com/Forest_Clasp
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop
+- https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77447231
+- https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/78393085
 
 ### KH3-014 — partial
 
 Steam Dead of Night is included; five other shipped platform-exclusive blades have full properties and reference-only eligibility. PS5/Xbox Series changes are explicitly future on audit date.
 
 **Remaining boundary:** Regional historical preorder/storefront entitlement availability is not established for every country/account. The forthcoming native editions are not shipped evidence. Do not fold all exclusive keys into Steam collection.
+
+**Continuation:** Official Japanese product page establishes Seven Net/Seven-Eleven Dawn Till Dusk offers, the ended download-card campaign, and the digital Integrum Masterpiece Midnight Blue first-month condition. Added those historical Japanese scopes to the two reference entries. This does not establish every region/account’s redemption validity today.
 
 **Consulted:**
 
@@ -254,12 +295,16 @@ Steam Dead of Night is included; five other shipped platform-exclusive blades ha
 - https://www.khwiki.com/Dead_of_Night
 - https://store.steampowered.com/app/2552450/KINGDOM_HEARTS_III__Re_Mind_DLC/
 - https://www.square-enix.com/kingdomhearts/collection/en-us/
+- https://www.jp.square-enix.com/kingdom/kh3/products/index.html
+- https://www.gematsu.com/2019/01/kingdom-hearts-iii-pre-order-bonus-keyblade-trailers
 
 ### KH3-015 — partial
 
 Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained.
 
-**Remaining boundary:** Tables give object types and appearance odds, not unique object coordinates, every replenishment timer or all shop-stock transitions. During initial Little Chef gathering, alternate quantities in notes are retained rather than silently treated as normal yields.
+**Remaining boundary:** All 28 shop ingredient rows now have prices and stock unlock tiers. Unique object coordinates and replenishment timing remain incomplete; initial Little Chef alternate yields remain explicit.
+
+**Continuation:** Integrated all 28 ingredient prices and stock tiers from the PS4 guide. The guide explains fixed versus two-item nodes and incomplete spawn availability, but supplies no universal replenishment timer. Existing 298 world rows and alternate yields retained; unique node coordinates remain incomplete.
 
 **Consulted:**
 
@@ -268,6 +313,9 @@ Reprocessed 298 world ingredient rows, preserving alternate yields and quantitie
 - https://www.khwiki.com/Game:The_Caribbean
 - https://www.khwiki.com/Game:100_Acre_Wood
 - https://www.khwiki.com/Flantastic_Seven
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients
+- https://www.destinyislands.com/kh3/items/ingredients/
 
 ### KH3-016 — resolved
 
@@ -298,10 +346,14 @@ All seven lower/upper reward tiers, routes, post-world access, first-time abilit
 
 **Remaining boundary:** KHWiki prints strict > thresholds while GameFAQs includes exact threshold equality, e.g. 20,000+. Neither is decisive boundary evidence; equality is still unresolved for all seven.
 
+**Continuation:** Targeted exact-boundary searches and RPG Site’s seven-score guide add conventional thresholds, not an observed exact-score reward event. Reddit tables even disagree on Orange’s threshold; not accepted as boundary authority. All seven equality questions remain explicit; generic successful-run videos were not used as proof.
+
 **Consulted:**
 
 - https://www.khwiki.com/Flantastic_Seven
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/side-quests-and-mini-games
+- https://www.rpgsite.net/feature/8243-kingdom-hearts-3-flantastic-seven-guide-where-to-find-every-flan-flan-high-scores
+- https://www.reddit.com/r/KingdomHearts/comments/alv4l4/what_are_the_max_points_for_all_the_flans/
 
 ### KH3-019 — resolved
 
@@ -320,6 +372,8 @@ Full published five-course rank/reward tables, two harvest rank/quantity tables,
 
 **Remaining boundary:** The individual Pooh page is a 404/redlink; independent Honey guide resolves reward quantities but not all rank-label wording. Random medal ability distributions and all cross-minigame reward variants remain unnormalized after reviewing medal pages.
 
+**Continuation:** ElectroSpecter independently corroborates Honey 1/3/6 at 20k/40k/60k but still does not establish all displayed rank labels. Medal guides and player reports confirm random outcome sets without probabilities. Existing reward quantities retained; no fabricated rank label or roll distribution.
+
 **Consulted:**
 
 - https://www.khwiki.com/Festival_Dance
@@ -333,6 +387,10 @@ Full published five-course rank/reward tables, two harvest rank/quantity tables,
 - https://www.khwiki.com/Junior_Medal
 - https://www.khwiki.com/Master_Medal
 - https://www.khwiki.com/Star_Medal
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/cooking-and-ingredients
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/100-acre-wood
+- https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77486905
+- https://www.reddit.com/r/KingdomHearts/comments/cqu3fj/
 
 ### KH3-021 — resolved
 
@@ -352,6 +410,8 @@ Full published five-course rank/reward tables, two harvest rank/quantity tables,
 
 **Remaining boundary:** World tables do not fully establish repeat quantities/replay opportunity for every rescue/copy event; naval reward tables are not a complete spawn/reset model. Those exact repeat conditions remain open.
 
+**Continuation:** Reviewed Final World route/bonus-level explanation and Heartless Ship encounter material. Two +5 HP awards remain corroborated; a different guide’s +4 summary is rejected in favor of the explicit bonus table. Ghost adds respawning in combat does not establish fleet respawn or repeat rescue/copy reward rules. No repeatable HP/rescue farm added.
+
 **Consulted:**
 
 - https://www.khwiki.com/Game:Olympus
@@ -360,6 +420,9 @@ Full published five-course rank/reward tables, two harvest rank/quantity tables,
 - https://www.khwiki.com/Leviathan_(ship)
 - https://www.khwiki.com/Ghost_Ship
 - https://www.khwiki.com/Treasure_Ship
+- https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/16
+- https://www.khwiki.com/Heartless_Ship
+- https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/79386/main-story
 
 ### KH3-023 — resolved
 
@@ -375,9 +438,11 @@ All 15 gate approaches, level/difficulty/enemy counts, first-clear vs repeat dro
 
 ### KH3-024 — partial
 
-33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. 44 fragments have written approaches; STR-13 has a verified visual landmark with its exact embarkation route retained as unknown. A wrong-zone STR-04 overview image is explicitly rejected.
+33 battles, nine spheres/gear sequences, 374 parts and 52 blueprints, plus all 45 physical fragments with 90 inspected images. All 45 fragments have written approaches, including independently identified STR-13 sphere VII/η landmark. A wrong-zone STR-04 overview image is explicitly rejected.
 
-**Remaining boundary:** STR-13 exact embarkation route remains unresolved because the independent text has a corrupted sphere glyph. Full sphere flight approaches remain incomplete. Rotated screenshots do not establish numerical world coordinates; no such values are invented. Physical fragment inventory and image review are now complete.
+**Remaining boundary:** Full sphere flight approaches remain incomplete. Rotated screenshots do not establish numerical world coordinates. STR-13 is now mapped to sphere VII/η by independent Japanese text and matching reward contents; its approach is no longer an unresolved glyph guess.
+
+**Continuation:** Resolved STR-13’s missing approach using independent Japanese launch text: map-relative below-left of Treasure Sphere VII. Its Damascus/Adamantite rewards identify VII as η, consistent with the existing screenshot landmark. Added Keyblade Graveyard embarkation plus sphere marker route. All 45 fragments now have text approaches; all nine sphere approach narratives and numerical coordinates are still not established.
 
 **Consulted:**
 
@@ -391,6 +456,7 @@ All 15 gate approaches, level/difficulty/enemy counts, first-clear vs repeat dro
 - https://blog.rebosoku.com/archives/kh3gummi_piece1.html
 - https://blog.rebosoku.com/archives/kh3gummi_piece2.html
 - https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21
+- https://blog.rebosoku.com/archives/kh3mission_gummi.html
 
 ### KH3-025 — resolved
 
@@ -422,6 +488,8 @@ Nine constellation flight landmarks and camera framing guidance, joined to missi
 
 **Remaining boundary:** Full level-by-level cost/AP-cap progression is absent from consulted sources; level 99 is a supported endpoint. The A-rank replay route uses prior-clear Golden Highwind and is community-reported rather than a guaranteed optimal build. Special-weapon extraction and basic Teeny behavior are no longer missing.
 
+**Continuation:** Targeted cost/AP searches found a TrueAchievements claim that a cost-by-level table follows; indexed retrieval exposes the 500 starting budget but not its rows, and direct page retrieval returned 402. Cost Converter posts disagree (1,300/1,330/1,400). No interpolated curve or foreign-game AP mission rules were accepted.
+
 **Consulted:**
 
 - https://www.khwiki.com/Gummi_Abilities
@@ -437,6 +505,7 @@ Nine constellation flight landmarks and camera framing guidance, joined to missi
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/teeny-ships
+- https://www.reddit.com/r/KingdomHearts/comments/am0e6d/kh3_has_anyone_learned_about_gummi_ship_cost_limit/
 
 ### KH3-028 — resolved
 
@@ -470,12 +539,16 @@ All 28 code effects, all 9 merit predicates and explicit unlock stages, Gummi Me
 
 **Remaining boundary:** Consulted Premium Menu and guide describe restrictions but do not establish a modern Steam per-achievement code eligibility matrix or persistence for every previously activated code. Community Steam replies contradict each other and even mention a nonexistent Critical achievement; those claims were rejected.
 
+**Continuation:** Rechecked Steam’s eligibility discussion and Xbox All-rounder comments. Conflicting guesses about disabled achievements remain; a newer 2025 Steam thread only corroborates code access after the Secret boss. No modern Steam per-achievement/persistence matrix established.
+
 **Consulted:**
 
 - https://www.khwiki.com/Premium_Menu
 - https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus
 - https://www.playstationtrophies.org/forum/topic/314514-kingdom-hearts-iii-re-mind-~-trophy-guide-amp-roadmap/
 - https://steamcommunity.com/app/2552450/discussions/0/4844274928139708304/
+- https://steamcommunity.com/app/2552450/discussions/0/604159637570247561/
+- https://www.trueachievements.com/a291572/allrounder-achievement
 
 ### KH3-030 — conflicted
 
@@ -483,11 +556,15 @@ All 34 boss base/max scores and 13 rank references, maximum 530,000, A 364,125 c
 
 **Remaining boundary:** KHWiki annotates B at 320,000 with uncertainty, TrueAchievements indexed walkthrough says 325,000. Direct walkthrough 403. Best-score replay replacement/eligibility is not fully established; no calculator assumes disputed rank or unsupported overwrite logic. Rounding is not a gap for listed integer-star/base-score combinations.
 
+**Continuation:** Retested B-rank evidence: indexed Xbox guide still says 325,000 while wiki says uncertain 320,000; direct Xbox page returned 503. ZeroSora’s launch Reddit guide explicitly reports best-single-score replacement for repeatable fights, but no modern Steam boundary capture or full save/replay matrix was recovered. Keep B disputed and do not infer a calculator from forum prose.
+
 **Consulted:**
 
 - https://www.khwiki.com/Premium_Menu
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3274428775
 - https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26
+- https://www.reddit.com/r/KingdomHearts/comments/euhq6x/heres_some_information_to_help_people_get_arank/
+- https://www.playstationtrophies.org/game/kingdom-hearts-3/trophy/294104-risk-taker.html
 
 ### KH3-031 — resolved
 
@@ -505,6 +582,8 @@ All seven hidden Steam achievement predicates populated from independently reada
 Steam/Xbox 51 versus PlayStation 52 including platinum distinction; modern Steam bundle and future 2026-10-08 release/cloud sunset facts are dated.
 
 **Remaining boundary:** Epic achievement endpoint returned 403, not proof of no achievements. Full per-platform predicate equivalence, every current shipped build ID and exact cloud transfer steps are not established. Official cloud notice promises transfer but does not supply final procedure; forthcoming builds remain unshipped.
+
+**Continuation:** Reopened official collection and Japanese Cloud sunset notice: release remains October 8, 2026; the notice promises save transfer but gives no steps. Epic achievement page remains inaccessible; third-party multi-store trainer labels do not prove Epic parity. No shipped build IDs or achievement equivalence were guessed.
 
 **Consulted:**
 

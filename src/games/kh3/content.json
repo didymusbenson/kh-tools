@@ -7362,14 +7362,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Veal x2 / Sole x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Veal x2 / Sole x2, appearance 100%. Moogle Shop: 20 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -7379,7 +7380,13 @@
           "quantity": 2,
           "alternativeYields": "Veal x2 / Sole x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.beef",
@@ -7390,15 +7397,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Toy Box / Rest Area: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Monstropolis / Lower Level: Food box. — possible yield Beef x2, appearance 100%.",
+      "instructions": "Toy Box / Rest Area: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Monstropolis / Lower Level: Food box. — possible yield Beef x2, appearance 100%. Moogle Shop: 30 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Toy Box",
@@ -7424,7 +7432,13 @@
           "quantity": 2,
           "alternativeYields": "Beef x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 30,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.quail",
@@ -7929,13 +7943,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Butter x3 when gathering ingredients for Little Chef. — possible yield Sole x2 / Eel x2, appearance 100%; Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Veal x2 / Sole x2, appearance 100%; Kingdom of Corona / Wharf: Fish. — possible yield Sole x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Butter x3 when gathering ingredients for Little Chef. — possible yield Sole x2 / Eel x2, appearance 100%; Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Veal x2 / Sole x2, appearance 100%; Kingdom of Corona / Wharf: Fish. — possible yield Sole x2, appearance 100%. Moogle Shop: 20 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -7961,7 +7976,13 @@
           "quantity": 2,
           "alternativeYields": "Sole x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.eel",
@@ -7972,13 +7993,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Butter x3 when gathering ingredients for Little Chef. — possible yield Sole x2 / Eel x2, appearance 100%; Kingdom of Corona / Tower: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Tower: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; area close to Tower. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Marsh: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Shore: Fish. — possible yield Eel x2, appearance 50%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Butter x3 when gathering ingredients for Little Chef. — possible yield Sole x2 / Eel x2, appearance 100%; Kingdom of Corona / Tower: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Tower: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; area close to Tower. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Hills: Fish; middle area. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Marsh: Fish. — possible yield Eel x2, appearance 50%; Kingdom of Corona / Shore: Fish. — possible yield Eel x2, appearance 50%. Moogle Shop: 20 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -8060,7 +8082,13 @@
           "quantity": 2,
           "alternativeYields": "Eel x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.sea-bass",
@@ -8488,15 +8516,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Agora: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / The Big Olive: In basket. Only available after clearing world. — possible yield Onion x2 / Celery x2, appearance 100%; Monstropolis / Second Floor: Food box. — possible yield Onion x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Onion x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Pumpkin x2 / Onion x2, appearance 100%; The Caribbean / Seaport: In cart. — possible yield Onion x2 / Tomato x2, appearance 100%; San Fransokyo / South District: In carton. — possible yield Onion x2 / Eggplant x2, appearance 100%.",
+      "instructions": "Olympus / Agora: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / The Big Olive: In basket. Only available after clearing world. — possible yield Onion x2 / Celery x2, appearance 100%; Monstropolis / Second Floor: Food box. — possible yield Onion x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Onion x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Pumpkin x2 / Onion x2, appearance 100%; The Caribbean / Seaport: In cart. — possible yield Onion x2 / Tomato x2, appearance 100%; San Fransokyo / South District: In carton. — possible yield Onion x2 / Eggplant x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:San_Fransokyo",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -8570,7 +8599,13 @@
           "quantity": 2,
           "alternativeYields": "Onion x2 / Eggplant x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.tomato",
@@ -8869,14 +8904,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Agora: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / The Big Olive: In basket. Only available after clearing world. — possible yield Onion x2 / Celery x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Celery x2 / Saffron x2, appearance 100%; The Caribbean / Docks: In cart. — possible yield Carrot x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Onion x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Pumpkin x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Carrot x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In wheelbarrow. — possible yield Pumpkin x2 / Celery x2, appearance 100%.",
+      "instructions": "Olympus / Agora: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / Overlook: In basket. — possible yield Onion x2 / Celery x2, appearance 100%; Olympus / The Big Olive: In basket. Only available after clearing world. — possible yield Onion x2 / Celery x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Celery x2 / Saffron x2, appearance 100%; The Caribbean / Docks: In cart. — possible yield Carrot x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Onion x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Pumpkin x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In cart. — possible yield Carrot x2 / Celery x2, appearance 100%; The Caribbean / Settlement: In wheelbarrow. — possible yield Pumpkin x2 / Celery x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Olympus",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -8958,7 +8994,13 @@
           "quantity": 2,
           "alternativeYields": "Pumpkin x2 / Celery x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.morel",
@@ -8969,15 +9011,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Mushroom. — possible yield Morel x2, appearance 50%; Kingdom of Corona / Marsh: Mushroom. — possible yield Morel x2, appearance 100%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield Morel x2, appearance 50%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield Morel x2, appearance 100%.",
+      "instructions": "Olympus / Gardens: Mushroom. — possible yield Morel x2, appearance 50%; Kingdom of Corona / Marsh: Mushroom. — possible yield Morel x2, appearance 100%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield Morel x2, appearance 50%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield Morel x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9011,7 +9054,13 @@
           "quantity": 2,
           "alternativeYields": "Morel x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.porcini",
@@ -9022,14 +9071,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Mushroom. Near fountain. — possible yield Porcini x2, appearance 100%; Olympus / Alleyway: Mushroom. — possible yield Porcini x2, appearance 100%.",
+      "instructions": "Olympus / Gardens: Mushroom. Near fountain. — possible yield Porcini x2, appearance 100%; Olympus / Alleyway: Mushroom. — possible yield Porcini x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9047,7 +9097,13 @@
           "quantity": 2,
           "alternativeYields": "Porcini x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.chanterelle",
@@ -9058,15 +9114,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Kingdom of Corona / Marsh: Mushroom. — possible yield Chanterelle x2, appearance 100%.",
+      "instructions": "Kingdom of Corona / Marsh: Mushroom. — possible yield Chanterelle x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Kingdom of Corona",
@@ -9076,7 +9133,13 @@
           "quantity": 2,
           "alternativeYields": "Chanterelle x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.portobello",
@@ -9124,15 +9187,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / The Big Olive: Mushroom. — possible yield Black Truffle x2, appearance 100%.",
+      "instructions": "Olympus / The Big Olive: Mushroom. — possible yield Black Truffle x2, appearance 100%. Moogle Shop: 20 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9142,7 +9206,13 @@
           "quantity": 2,
           "alternativeYields": "Black Truffle x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.king-oyster-mushroom",
@@ -9153,14 +9223,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%; Olympus / Alleyway: Mushroom. — possible yield King Oyster Mushroom, appearance 100%; Kingdom of Corona / Marsh: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield King Oyster Mushroom x2, appearance 50%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%.",
+      "instructions": "Olympus / Gardens: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%; Olympus / Alleyway: Mushroom. — possible yield King Oyster Mushroom, appearance 100%; Kingdom of Corona / Marsh: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield King Oyster Mushroom x2, appearance 50%; The Caribbean / Isla Verdemontaña: Mushroom. — possible yield King Oyster Mushroom x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9201,7 +9272,13 @@
           "quantity": 2,
           "alternativeYields": "King Oyster Mushroom x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.black-trumpet",
@@ -9212,14 +9289,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Kingdom of Corona / Marsh: Mushroom. — possible yield Black Trumpet x2, appearance 100%.",
+      "instructions": "Kingdom of Corona / Marsh: Mushroom. — possible yield Black Trumpet x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Kingdom of Corona",
@@ -9229,7 +9307,13 @@
           "quantity": 2,
           "alternativeYields": "Black Trumpet x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.miller-mushroom",
@@ -9283,15 +9367,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / The Big Olive: Herb. — possible yield Cloves x2, appearance 50%; Olympus / Alleyway: Herb. — possible yield Cloves x2, appearance 50%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Cloves x2, appearance 100%.",
+      "instructions": "Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / The Big Olive: Herb. — possible yield Cloves x2, appearance 50%; Olympus / Alleyway: Herb. — possible yield Cloves x2, appearance 50%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Cloves x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9333,7 +9418,13 @@
           "quantity": 2,
           "alternativeYields": "Cloves x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.rosemary",
@@ -9344,15 +9435,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Herb. — possible yield Rosemary x2, appearance 50%; Kingdom of Corona / Hills: Herb; area close to Tower. — possible yield Rosemary x2, appearance 100%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Rosemary x2, appearance 100%.",
+      "instructions": "Olympus / Gardens: Herb. — possible yield Rosemary x2, appearance 50%; Kingdom of Corona / Hills: Herb; area close to Tower. — possible yield Rosemary x2, appearance 100%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Rosemary x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9378,7 +9470,13 @@
           "quantity": 2,
           "alternativeYields": "Rosemary x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.thyme",
@@ -9389,14 +9487,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Kingdom of Corona / Hills: Herb; middle area. — possible yield Thyme x2, appearance 100%; Kingdom of Corona / Hills: Herb; area close to Marsh. — possible yield Thyme x2, appearance 100%.",
+      "instructions": "Kingdom of Corona / Hills: Herb; middle area. — possible yield Thyme x2, appearance 100%; Kingdom of Corona / Hills: Herb; area close to Marsh. — possible yield Thyme x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Monstropolis and Arendelle.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Kingdom of Corona",
@@ -9414,7 +9513,13 @@
           "quantity": 2,
           "alternativeYields": "Thyme x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.bay-leaf",
@@ -9425,15 +9530,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Alleyway: Herb. — possible yield Bay Leaf x2, appearance 50%; Kingdom of Corona / Shore: Herb. — possible yield Bay Leaf x2, appearance 100%.",
+      "instructions": "Olympus / Alleyway: Herb. — possible yield Bay Leaf x2, appearance 50%; Kingdom of Corona / Shore: Herb. — possible yield Bay Leaf x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Kingdom_of_Corona",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9451,7 +9557,13 @@
           "quantity": 2,
           "alternativeYields": "Bay Leaf x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.basil",
@@ -9525,15 +9637,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / The Big Olive: Herb. — possible yield Parsley x2, appearance 100%.",
+      "instructions": "Olympus / The Big Olive: Herb. — possible yield Parsley x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9543,7 +9656,13 @@
           "quantity": 2,
           "alternativeYields": "Parsley x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.saffron",
@@ -9554,13 +9673,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Monstropolis / Lobby & Offices: Vending machine. — possible yield Dill x2 / Saffron x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Celery x2 / Saffron x2, appearance 100%.",
+      "instructions": "Monstropolis / Lobby & Offices: Vending machine. — possible yield Dill x2 / Saffron x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Celery x2 / Saffron x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Monstropolis and Arendelle.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Monstropolis"
+        "https://www.khwiki.com/Game:Monstropolis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Monstropolis",
@@ -9578,7 +9698,13 @@
           "quantity": 2,
           "alternativeYields": "Celery x2 / Saffron x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.apricot",
@@ -9589,14 +9715,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Cliff Ascent: Fruit tree. — possible yield Apricot x2, appearance 100%; Olympus / Mountainside: Fruit tree. — possible yield Apricot x2, appearance 100%; Twilight Town / Tram Common: In basket; Lemon x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Pear x2, appearance 100%; Twilight Town / Tram Common: In basket; Onion x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Lemon x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Apricot x2 / Orange x2, appearance 100%; The Caribbean / Seaport: In food crate. — possible yield Apricot x2 / Gooseberry x2, appearance 100%.",
+      "instructions": "Olympus / Cliff Ascent: Fruit tree. — possible yield Apricot x2, appearance 100%; Olympus / Mountainside: Fruit tree. — possible yield Apricot x2, appearance 100%; Twilight Town / Tram Common: In basket; Lemon x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Pear x2, appearance 100%; Twilight Town / Tram Common: In basket; Onion x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Lemon x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Apricot x2 / Orange x2, appearance 100%; The Caribbean / Seaport: In food crate. — possible yield Apricot x2 / Gooseberry x2, appearance 100%. Moogle Shop: 20 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9646,7 +9773,13 @@
           "quantity": 2,
           "alternativeYields": "Apricot x2 / Gooseberry x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.gooseberry",
@@ -9700,15 +9833,16 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Overlook: In basket. Only available after clearing world. — possible yield Lemon x2, appearance 100%; Twilight Town / Tram Common: In basket; Celery x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Pear x2, appearance 100%; Twilight Town / Tram Common: In basket; Onion x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Lemon x2, appearance 100%; Twilight Town / Tram Common: In basket; Cloves x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Apple x2, appearance 100%; Monstropolis / Lobby & Offices: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Gooseberry x2 / Lemon x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x3, appearance 100%.",
+      "instructions": "Olympus / Overlook: In basket. Only available after clearing world. — possible yield Lemon x2, appearance 100%; Twilight Town / Tram Common: In basket; Celery x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Pear x2, appearance 100%; Twilight Town / Tram Common: In basket; Onion x3 when gathering ingredients for Little Chef. — possible yield Apricot x2 / Lemon x2, appearance 100%; Twilight Town / Tram Common: In basket; Cloves x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Apple x2, appearance 100%; Monstropolis / Lobby & Offices: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Gooseberry x2 / Lemon x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x3, appearance 100%. Moogle Shop: 20 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9782,7 +9916,13 @@
           "quantity": 2,
           "alternativeYields": "Lemon x2 / Orange x3"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.orange",
@@ -9995,13 +10135,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Cliff Ascent: Fruit tree. — possible yield Apple x2, appearance 100%; Olympus / Cliff Ascent: Fruit tree. — possible yield Apple x2, appearance 50%; Olympus / Mountainside: Fruit tree. — possible yield Apple x2, appearance 100%; Olympus / Mountainside: Fruit tree. — possible yield Apple x2, appearance 100%; Twilight Town / Tram Common: In basket; Lemon x3 when gathering ingredients for Little Chef. — possible yield Pear x2 / Apple x2, appearance 100%; Twilight Town / Tram Common: In basket; Cloves x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Apple x2, appearance 100%.",
+      "instructions": "Olympus / Cliff Ascent: Fruit tree. — possible yield Apple x2, appearance 100%; Olympus / Cliff Ascent: Fruit tree. — possible yield Apple x2, appearance 50%; Olympus / Mountainside: Fruit tree. — possible yield Apple x2, appearance 100%; Olympus / Mountainside: Fruit tree. — possible yield Apple x2, appearance 100%; Twilight Town / Tram Common: In basket; Lemon x3 when gathering ingredients for Little Chef. — possible yield Pear x2 / Apple x2, appearance 100%; Twilight Town / Tram Common: In basket; Cloves x3 when gathering ingredients for Little Chef. — possible yield Lemon x2 / Apple x2, appearance 100%. Moogle Shop: 20 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -10051,7 +10192,13 @@
           "quantity": 2,
           "alternativeYields": "Lemon x2 / Apple x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 20,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.cheese",
@@ -10062,14 +10209,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Toy Box / Main Floor: 1F: In food box. — possible yield Cheese x2 / Caviar x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Toy Box / Babies & Toddlers: Outdoors: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Monstropolis / Ground Floor: Food box; closed-off area reachable from Second Floor corridor. — possible yield Cheese x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Quail x2 / Cheese x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Quail x2 / Cheese x2, appearance 100%.",
+      "instructions": "Toy Box / Main Floor: 1F: In food box. — possible yield Cheese x2 / Caviar x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Toy Box / Babies & Toddlers: Outdoors: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Monstropolis / Ground Floor: Food box; closed-off area reachable from Second Floor corridor. — possible yield Cheese x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Quail x2 / Cheese x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Quail x2 / Cheese x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:San_Fransokyo"
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Toy Box",
@@ -10119,7 +10267,13 @@
           "quantity": 2,
           "alternativeYields": "Quail x2 / Cheese x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.chocolate",
@@ -10130,13 +10284,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Veal x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Twilight Town / Tram Common: In food box; Chocolate x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Toy Box / Main Floor: 2F: In food box. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Toy Box / Action Figures: In food box. — possible yield Chocolate x2 / Cornichon x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Veal x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Twilight Town / Tram Common: In food box; Chocolate x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Toy Box / Main Floor: 2F: In food box. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Toy Box / Action Figures: In food box. — possible yield Chocolate x2 / Cornichon x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -10178,7 +10333,13 @@
           "quantity": 2,
           "alternativeYields": "Chocolate x2 / Cornichon x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.caviar",
@@ -10189,13 +10350,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Porcini x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Cornichon x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Cheese x2 / Caviar x2, appearance 100%; Toy Box / Main Floor: 2F: In food box. — possible yield Chocolate x2 / Caviar x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Porcini x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Caviar x2, appearance 100%; Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Cornichon x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Cheese x2 / Caviar x2, appearance 100%; Toy Box / Main Floor: 2F: In food box. — possible yield Chocolate x2 / Caviar x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -10245,7 +10407,13 @@
           "quantity": 2,
           "alternativeYields": "Chocolate x2 / Caviar x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.butter",
@@ -10256,14 +10424,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Veal x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Porcini x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Chocolate x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; Toy Box / Rest Area: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Veal x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Sole x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Porcini x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Butter x2, appearance 100%; Twilight Town / Tram Common: In food box; Chocolate x3 when gathering ingredients for Little Chef. — possible yield Chocolate x2 / Butter x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; Toy Box / Rest Area: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:San_Fransokyo",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -10329,7 +10498,13 @@
           "quantity": 2,
           "alternativeYields": "Butter x2 / Olive Oil x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.olive-oil",
@@ -10340,14 +10515,15 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Toy Box / Babies & Toddlers: Outdoors: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Olive Oil x2, appearance 100%; Monstropolis / Accessway: Vending machine. — possible yield Olive Oil x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%.",
+      "instructions": "Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Toy Box / Babies & Toddlers: Outdoors: In food box. — possible yield Cheese x2 / Olive Oil x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Olive Oil x2, appearance 100%; Monstropolis / Accessway: Vending machine. — possible yield Olive Oil x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Butter x2 / Olive Oil x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Monstropolis and Arendelle.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:San_Fransokyo",
-        "https://www.khwiki.com/Game:Toy_Box"
+        "https://www.khwiki.com/Game:Toy_Box",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Toy Box",
@@ -10413,7 +10589,13 @@
           "quantity": 2,
           "alternativeYields": "Olive Oil x2 / Rice x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.cornichon",
@@ -10424,13 +10606,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Cornichon x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; Toy Box / Action Figures: In food box. — possible yield Chocolate x2 / Cornichon x2, appearance 100%; Toy Box / Rest Area: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%.",
+      "instructions": "Twilight Town / Tram Common: In food box; Caviar x3 when gathering ingredients for Little Chef. — possible yield Caviar x2 / Cornichon x2, appearance 100%; Toy Box / Main Floor: 1F: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%; Toy Box / Action Figures: In food box. — possible yield Chocolate x2 / Cornichon x2, appearance 100%; Toy Box / Rest Area: In food box. — possible yield Butter x2 / Cornichon x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://www.khwiki.com/Game:Twilight_Town"
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Twilight Town",
@@ -10464,7 +10647,13 @@
           "quantity": 2,
           "alternativeYields": "Butter x2 / Cornichon x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.rice",
@@ -10475,13 +10664,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Monstropolis / Lobby & Offices: Food box. — possible yield Rice x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Sea Bass x2 / Rice x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%; San Fransokyo / Central District: In food box. — possible yield Quail x2 / Rice x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%.",
+      "instructions": "Monstropolis / Lobby & Offices: Food box. — possible yield Rice x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Sea Bass x2 / Rice x2, appearance 100%; San Fransokyo / South District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%; San Fransokyo / Central District: In food box. — possible yield Quail x2 / Rice x2, appearance 100%; San Fransokyo / North District: In food box. — possible yield Olive Oil x2 / Rice x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Monstropolis and Arendelle.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
-        "https://www.khwiki.com/Game:San_Fransokyo"
+        "https://www.khwiki.com/Game:San_Fransokyo",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
       "pickupSources": [
         {
           "world": "Monstropolis",
@@ -10523,7 +10713,13 @@
           "quantity": 2,
           "alternativeYields": "Olive Oil x2 / Rice x2"
         }
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 10,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.material.honey",
@@ -11579,7 +11775,7 @@
         "https://www.khwiki.com/Orichalcum"
       ],
       "drops": [],
-      "instructions": "Treasures: Chest at Exile Island ; chest at The Final World . Rewards: Photograph 80 Lucky Emblems ; get the required score on all seven Flantastic Seven mini-games; get all 10 treasures in Frozen Slider ; defeat Omega Machina . Other methods: Orichalcum+ is one of the possible Prize Postcard rewards.",
+      "instructions": "Treasures: Chest at Exile Island ; chest at The Final World . Rewards: Photograph 80 Lucky Emblems ; get the required score on all seven Flantastic Seven mini-games; get all 10 treasures in Frozen Slider ; defeat Omega Machina . Other methods: Orichalcum+ is one of the possible Prize Postcard rewards. Numbered chest routes: The Caribbean #12 (Exile Island); The Final World #1 (The Final World). Open those chest records for their pickup directions.",
       "acquisitionSources": [
         {
           "method": "Treasures",
@@ -11593,6 +11789,10 @@
           "method": "Other methods",
           "details": "Orichalcum+ is one of the possible Prize Postcard rewards."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.the-caribbean.chest.012",
+        "kh3.base.the-final-world.chest.001"
       ]
     },
     {
@@ -11734,7 +11934,8 @@
       "summary": "Starlight Way (2.5%), Misty Stream (0.5%)",
       "checkable": false,
       "sources": [
-        "https://www.khwiki.com/Fluorite"
+        "https://www.khwiki.com/Fluorite",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "drops": [
         {
@@ -11743,7 +11944,7 @@
           "location": "Starlight Way"
         }
       ],
-      "instructions": "Drops: Starlight Way (2.5%), Misty Stream (0.5%) Treasures: Chest at the Summit ; chest at the Agora ; chest at the Courtyard ; two chests at the Tram Common ; chest at The Woods ; chest at Andy's House ; chest at Babies & Toddlers: Dolls ; chest at Kid Korral . Rewards: Complete Treasure Sphere β (Fluorite x3), complete Treasure Sphere ζ (Fluorite x5), complete Treasure Sphere ι (Fluorite x5)",
+      "instructions": "Drops: Starlight Way (2.5%), Misty Stream (0.5%) Treasures: Chest at the Summit ; chest at the Agora ; chest at the Courtyard ; two chests at the Tram Common ; chest at The Woods ; chest at Andy's House ; chest at Babies & Toddlers: Dolls ; chest at Kid Korral . Rewards: Complete Treasure Sphere β (Fluorite x3), complete Treasure Sphere ζ (Fluorite x5), complete Treasure Sphere ι (Fluorite x5) Moogle Shop: 500 munny. After clearing both Toy Box and Kingdom of Corona. Numbered chest routes: Olympus #11 (Summit); Olympus #15 (Agora); Olympus #25 (Courtyard); Twilight Town #3 (Tram Common); Twilight Town #4 (Tram Common); Twilight Town #9 (The Woods); Toy Box #4 (Andy's House); Toy Box #16 (Babies & Toddlers: Dolls); Toy Box #21 (Kid Korral). Open those chest records for their pickup directions.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -11757,6 +11958,23 @@
           "method": "Rewards",
           "details": "Complete Treasure Sphere β (Fluorite x3), complete Treasure Sphere ζ (Fluorite x5), complete Treasure Sphere ι (Fluorite x5)"
         }
+      ],
+      "shopStock": {
+        "priceMunny": 500,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      },
+      "chestRouteIds": [
+        "kh3.base.olympus.chest.011",
+        "kh3.base.olympus.chest.015",
+        "kh3.base.olympus.chest.025",
+        "kh3.base.twilight-town.chest.003",
+        "kh3.base.twilight-town.chest.004",
+        "kh3.base.twilight-town.chest.009",
+        "kh3.base.toy-box.chest.004",
+        "kh3.base.toy-box.chest.016",
+        "kh3.base.toy-box.chest.021"
       ]
     },
     {
@@ -11775,7 +11993,7 @@
           "location": "The Eclipse"
         }
       ],
-      "instructions": "Drops: The Eclipse (1%) Treasures: Chest at Isla Verdemontaña ; four chests at Sandbar Isle ; chest at the Central District ; chest at the North District ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Complete Treasure Sphere IX (Electrum x2).",
+      "instructions": "Drops: The Eclipse (1%) Treasures: Chest at Isla Verdemontaña ; four chests at Sandbar Isle ; chest at the Central District ; chest at the North District ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Complete Treasure Sphere IX (Electrum x2). Numbered chest routes: The Caribbean #9 (Isla Verdemontaña); The Caribbean #11 (Sandbar Isle); The Caribbean #31 (Sandbar Isle); The Caribbean #35 (Sandbar Isle); The Caribbean #38 (Sandbar Isle); San Fransokyo #6 (North District); San Fransokyo #26 (Central District). Open those chest records for their pickup directions.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -11789,6 +12007,15 @@
           "method": "Rewards",
           "details": "Complete Treasure Sphere IX (Electrum x2)."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.the-caribbean.chest.009",
+        "kh3.base.the-caribbean.chest.011",
+        "kh3.base.the-caribbean.chest.031",
+        "kh3.base.the-caribbean.chest.035",
+        "kh3.base.the-caribbean.chest.038",
+        "kh3.base.san-fransokyo.chest.006",
+        "kh3.base.san-fransokyo.chest.026"
       ]
     },
     {
@@ -11801,7 +12028,7 @@
         "https://www.khwiki.com/Damascus"
       ],
       "drops": [],
-      "instructions": "Drops: Starlight Way (0.3%), Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at the Campsite ; chest at the Wetlands ; chest at the Ground Floor ; chest at the Accessway ; chest at the Treescape ; chest at the Upper Tier ; chest at the Foothills ; chest at Isla De Los Mástiles ; chest at Sandbar Isle ; chest at Horseshoe Island ; chest at the South District ; chest at the North District . Rewards: Complete Treasure Sphere ε (Damascus x3), complete Treasure Sphere η (Damascus x5).",
+      "instructions": "Drops: Starlight Way (0.3%), Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at the Campsite ; chest at the Wetlands ; chest at the Ground Floor ; chest at the Accessway ; chest at the Treescape ; chest at the Upper Tier ; chest at the Foothills ; chest at Isla De Los Mástiles ; chest at Sandbar Isle ; chest at Horseshoe Island ; chest at the South District ; chest at the North District . Rewards: Complete Treasure Sphere ε (Damascus x3), complete Treasure Sphere η (Damascus x5). Numbered chest routes: Kingdom of Corona #16 (Wetlands); Kingdom of Corona #19 (Campsite); Monstropolis #11 (Ground Floor); Monstropolis #17 (Accessway); Arendelle #3 (Treescape); Arendelle #13 (Upper Tier); Arendelle #25 (Foothills); The Caribbean #5 (Isla de los Mástiles); The Caribbean #28 (Sandbar Isle); The Caribbean #41 (Horseshoe Island); San Fransokyo #21 (South District); San Fransokyo #32 (North District). Open those chest records for their pickup directions.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -11815,6 +12042,20 @@
           "method": "Rewards",
           "details": "Complete Treasure Sphere ε (Damascus x3), complete Treasure Sphere η (Damascus x5)."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.kingdom-of-corona.chest.016",
+        "kh3.base.kingdom-of-corona.chest.019",
+        "kh3.base.monstropolis.chest.011",
+        "kh3.base.monstropolis.chest.017",
+        "kh3.base.arendelle.chest.003",
+        "kh3.base.arendelle.chest.013",
+        "kh3.base.arendelle.chest.025",
+        "kh3.base.the-caribbean.chest.005",
+        "kh3.base.the-caribbean.chest.028",
+        "kh3.base.the-caribbean.chest.041",
+        "kh3.base.san-fransokyo.chest.021",
+        "kh3.base.san-fransokyo.chest.032"
       ]
     },
     {
@@ -11824,10 +12065,11 @@
       "summary": "Misty Stream (0.3%), The Eclipse (1.5%)",
       "checkable": false,
       "sources": [
-        "https://www.khwiki.com/Adamantite"
+        "https://www.khwiki.com/Adamantite",
+        "https://www.kakuchopurei.com/2019/02/kingdom-hearts-3-guide-tips-tricks-how-to-kkp/"
       ],
       "drops": [],
-      "instructions": "Drops: Misty Stream (0.3%), The Eclipse (1.5%) Treasures: Chest at the Undersea Cavern ; chest at Isla De Los Mástiles ; five chests at Sandbar Isle ; two chests at North District . Rewards: Complete Treasure Sphere η (Adamantite x3).",
+      "instructions": "Drops: Misty Stream (0.3%), The Eclipse (1.5%) Treasures: Chest at the Undersea Cavern ; chest at Isla De Los Mástiles ; five chests at Sandbar Isle ; two chests at North District . Rewards: Complete Treasure Sphere η (Adamantite x3). A launch-era farming guide reports that visiting a world and re-entering space restores ordinary asteroids; no timed efficiency or special-crystal reset is established. Numbered chest routes: The Caribbean #2 (Undersea Cavern); The Caribbean #24 (Isla de los Mástiles); The Caribbean #27 (Sandbar Isle); The Caribbean #30 (Sandbar Isle); The Caribbean #32 (Sandbar Isle); The Caribbean #37 (Sandbar Isle); The Caribbean #39 (Sandbar Isle); San Fransokyo #10 (North District); San Fransokyo #22 (North District). Open those chest records for their pickup directions.",
       "acquisitionSources": [
         {
           "method": "Drops",
@@ -11841,6 +12083,17 @@
           "method": "Rewards",
           "details": "Complete Treasure Sphere η (Adamantite x3)."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.the-caribbean.chest.002",
+        "kh3.base.the-caribbean.chest.024",
+        "kh3.base.the-caribbean.chest.027",
+        "kh3.base.the-caribbean.chest.030",
+        "kh3.base.the-caribbean.chest.032",
+        "kh3.base.the-caribbean.chest.037",
+        "kh3.base.the-caribbean.chest.039",
+        "kh3.base.san-fransokyo.chest.010",
+        "kh3.base.san-fransokyo.chest.022"
       ]
     },
     {
@@ -29837,7 +30090,7 @@
       "category": "material",
       "name": "Orichalcum",
       "summary": "Asteroids in The Eclipse (0.5%)",
-      "instructions": "Drops: Asteroids in The Eclipse (0.5%) Treasures: Chest at the Snowfield ; chest at the Undersea Cavern ; chest at Isla Verdemontaña ; three chests at Sandbar Isle Rewards: Obtain every type of synthesis material; obtain at least 1000 synthesis materials; obtain every type of material; complete Treasure Sphere θ .",
+      "instructions": "Drops: Asteroids in The Eclipse (0.5%) Treasures: Chest at the Snowfield ; chest at the Undersea Cavern ; chest at Isla Verdemontaña ; three chests at Sandbar Isle Rewards: Obtain every type of synthesis material; obtain at least 1000 synthesis materials; obtain every type of material; complete Treasure Sphere θ . Numbered chest routes: Arendelle #9 (Snowfield); The Caribbean #3 (Undersea Cavern); The Caribbean #25 (Isla Verdemontaña); The Caribbean #29 (Sandbar Isle); The Caribbean #33 (Sandbar Isle); The Caribbean #36 (Sandbar Isle). Open those chest records for their pickup directions.",
       "sources": [
         "https://www.khwiki.com/Orichalcum"
       ],
@@ -29861,6 +30114,14 @@
           "rate": "0.5%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.arendelle.chest.009",
+        "kh3.base.the-caribbean.chest.003",
+        "kh3.base.the-caribbean.chest.025",
+        "kh3.base.the-caribbean.chest.029",
+        "kh3.base.the-caribbean.chest.033",
+        "kh3.base.the-caribbean.chest.036"
       ]
     },
     {
@@ -30960,7 +31221,7 @@
       "category": "material",
       "name": "Mythril Shard",
       "summary": "Olympus , Twilight Town , Toy Box , Starlight Way (2%)",
-      "instructions": "Drops: Olympus , Twilight Town , Toy Box , Starlight Way (2%) Treasures: Chest at the Corridors ; chest at the Tram Common . Rewards: Complete Treasure Sphere γ (Mythril Shard x5).",
+      "instructions": "Drops: Olympus , Twilight Town , Toy Box , Starlight Way (2%) Treasures: Chest at the Corridors ; chest at the Tram Common . Rewards: Complete Treasure Sphere γ (Mythril Shard x5). Numbered chest routes: Olympus #28 (Corridors); Twilight Town #2 (Tram Common). Open those chest records for their pickup directions.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -30984,6 +31245,10 @@
           "rate": "2%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.olympus.chest.028",
+        "kh3.base.twilight-town.chest.002"
       ]
     },
     {
@@ -30991,7 +31256,7 @@
       "category": "material",
       "name": "Mythril Stone",
       "summary": "Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%)",
-      "instructions": "Drops: Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%) Treasures: Chest at Babies & Toddlers: Outdoors ; chest at the Wetlands . Rewards: Complete Treasure Sphere γ (Mythril Stone x5); return after completing Olympus and talk to the rescued man at the Overlook .",
+      "instructions": "Drops: Toy Box , Monstropolis , Arendelle , Starlight Way (2%), Misty Stream (0.5%), The Eclipse (0.5%) Treasures: Chest at Babies & Toddlers: Outdoors ; chest at the Wetlands . Rewards: Complete Treasure Sphere γ (Mythril Stone x5); return after completing Olympus and talk to the rescued man at the Overlook . Numbered chest routes: Toy Box #28 (Babies & Toddlers: Outdoors); Kingdom of Corona #17 (Wetlands). Open those chest records for their pickup directions.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31025,6 +31290,10 @@
           "rate": "0.5%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.toy-box.chest.028",
+        "kh3.base.kingdom-of-corona.chest.017"
       ]
     },
     {
@@ -31032,7 +31301,7 @@
       "category": "material",
       "name": "Mythril Gem",
       "summary": "Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%)",
-      "instructions": "Drops: Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at Andy's House . Rewards: Complete Treasure Sphere δ (Mythril Gem x5); return after completing Olympus and talk to the rescued man at the Gardens .",
+      "instructions": "Drops: Monstropolis , Arendelle , Misty Stream (2%), The Eclipse (0.5%) Treasures: Chest at Andy's House . Rewards: Complete Treasure Sphere δ (Mythril Gem x5); return after completing Olympus and talk to the rescued man at the Gardens . Numbered chest routes: Toy Box #3 (Andy's House). Open those chest records for their pickup directions.",
       "sources": [
         "https://www.khwiki.com/Mythril"
       ],
@@ -31061,6 +31330,9 @@
           "rate": "0.5%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.toy-box.chest.003"
       ]
     },
     {
@@ -31289,7 +31561,7 @@
       "category": "material",
       "name": "Hungry Crystal",
       "summary": "Mechanitaur (8%), Frost Serpent (Tail) (20%), Berserker (18%), Sorcerer (20%)",
-      "instructions": "Drops: Mechanitaur (8%), Frost Serpent (Tail) (20%), Berserker (18%), Sorcerer (20%) Treasures: Two chests at Sandbar Isle ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Obtain at least 500 total synthesis materials; obtain every type of material; obtain every type of writhing material; obtain every type of betwixt material; obtain every type of twilight material",
+      "instructions": "Drops: Mechanitaur (8%), Frost Serpent (Tail) (20%), Berserker (18%), Sorcerer (20%) Treasures: Two chests at Sandbar Isle ; chest at the Breezy Quarter [ KH III RM ] . Rewards: Obtain at least 500 total synthesis materials; obtain every type of material; obtain every type of writhing material; obtain every type of betwixt material; obtain every type of twilight material Numbered chest routes: The Caribbean #26 (Sandbar Isle); The Caribbean #40 (Sandbar Isle). Open those chest records for their pickup directions.",
       "sources": [
         "https://www.khwiki.com/Hungry"
       ],
@@ -31328,6 +31600,10 @@
           "rate": "20%",
           "location": "See enemy/world source; encounter-specific access is not implied."
         }
+      ],
+      "chestRouteIds": [
+        "kh3.base.the-caribbean.chest.026",
+        "kh3.base.the-caribbean.chest.040"
       ]
     },
     {
@@ -32313,9 +32589,12 @@
       "name": "Obtain 2 different synthesis materials.",
       "summary": "Obtain 2 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Fire Bangle Shadow Anklet Ability Ring+"
+      "reward": "Recipes: Fire Bangle Shadow Anklet Ability Ring+",
+      "menuIndex": 2,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-4-different-synthesis-materials",
@@ -32323,9 +32602,12 @@
       "name": "Obtain 4 different synthesis materials.",
       "summary": "Obtain 4 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Elven Bandana Thunder Trinket Blizzard Choker"
+      "reward": "Recipes: Elven Bandana Thunder Trinket Blizzard Choker",
+      "menuIndex": 3,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-6-different-synthesis-materials",
@@ -32333,9 +32615,12 @@
       "name": "Obtain 6 different synthesis materials.",
       "summary": "Obtain 6 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Mythril Shard"
+      "reward": "Recipes: Mythril Shard",
+      "menuIndex": 4,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-8-different-synthesis-materials",
@@ -32343,9 +32628,12 @@
       "name": "Obtain 8 different synthesis materials.",
       "summary": "Obtain 8 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Wind Fan AP Boost"
+      "reward": "Recipes: Wind Fan AP Boost",
+      "menuIndex": 5,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-10-different-synthesis-materials",
@@ -32353,9 +32641,12 @@
       "name": "Obtain 10 different synthesis materials.",
       "summary": "Obtain 10 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Fira Bangle Thundara Trinket Blizzara Choker"
+      "reward": "Recipes: Fira Bangle Thundara Trinket Blizzara Choker",
+      "menuIndex": 6,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-12-different-synthesis-materials",
@@ -32363,9 +32654,12 @@
       "name": "Obtain 12 different synthesis materials.",
       "summary": "Obtain 12 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Technician's Ring+ Hi-Ether Mega-Potion"
+      "reward": "Recipes: Technician's Ring+ Hi-Ether Mega-Potion",
+      "menuIndex": 7,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-15-different-synthesis-materials",
@@ -32373,9 +32667,12 @@
       "name": "Obtain 15 different synthesis materials.",
       "summary": "Obtain 15 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Dark Anklet Mythril Stone"
+      "reward": "Recipes: Dark Anklet Mythril Stone",
+      "menuIndex": 8,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-18-different-synthesis-materials",
@@ -32383,9 +32680,12 @@
       "name": "Obtain 18 different synthesis materials.",
       "summary": "Obtain 18 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Warhammer+ Clockwork Shield+ Skill Ring+"
+      "reward": "Recipes: Warhammer+ Clockwork Shield+ Skill Ring+",
+      "menuIndex": 9,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-20-different-synthesis-materials",
@@ -32393,9 +32693,12 @@
       "name": "Obtain 20 different synthesis materials.",
       "summary": "Obtain 20 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Refocuser Mega-Ether"
+      "reward": "Recipes: Refocuser Mega-Ether",
+      "menuIndex": 10,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-22-different-synthesis-materials",
@@ -32403,9 +32706,12 @@
       "name": "Obtain 22 different synthesis materials.",
       "summary": "Obtain 22 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Strength Boost Magic Boost Defense Boost"
+      "reward": "Recipes: Strength Boost Magic Boost Defense Boost",
+      "menuIndex": 11,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-25-different-synthesis-materials",
@@ -32413,9 +32719,12 @@
       "name": "Obtain 25 different synthesis materials.",
       "summary": "Obtain 25 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Firaga Bangle Blizzaga Choker Thundaga Trinket"
+      "reward": "Recipes: Firaga Bangle Blizzaga Choker Thundaga Trinket",
+      "menuIndex": 12,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-28-different-synthesis-materials",
@@ -32423,9 +32732,12 @@
       "name": "Obtain 28 different synthesis materials.",
       "summary": "Obtain 28 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Divine Bandanna Storm Fan Midnight Anklet"
+      "reward": "Recipes: Divine Bandanna Storm Fan Midnight Anklet",
+      "menuIndex": 13,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-30-different-synthesis-materials",
@@ -32433,9 +32745,12 @@
       "name": "Obtain 30 different synthesis materials.",
       "summary": "Obtain 30 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Pulsing Crystal Blazing Crystal Frost Crystal Lightning Crystal"
+      "reward": "Recipes: Pulsing Crystal Blazing Crystal Frost Crystal Lightning Crystal",
+      "menuIndex": 14,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-32-different-synthesis-materials",
@@ -32443,9 +32758,12 @@
       "name": "Obtain 32 different synthesis materials.",
       "summary": "Obtain 32 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Hi-Refocuser Mythril Gem Lucid Crystal Soothing Crystal"
+      "reward": "Recipes: Hi-Refocuser Mythril Gem Lucid Crystal Soothing Crystal",
+      "menuIndex": 15,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-35-different-synthesis-materials",
@@ -32453,9 +32771,12 @@
       "name": "Obtain 35 different synthesis materials.",
       "summary": "Obtain 35 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Phantom Ring Sorcerer's Ring Writhing Crystal"
+      "reward": "Recipes: Phantom Ring Sorcerer's Ring Writhing Crystal",
+      "menuIndex": 16,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-38-different-synthesis-materials",
@@ -32463,9 +32784,12 @@
       "name": "Obtain 38 different synthesis materials.",
       "summary": "Obtain 38 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Firaza Bangle Blizzaza Choker Thundaza Trinket"
+      "reward": "Recipes: Firaza Bangle Blizzaza Choker Thundaza Trinket",
+      "menuIndex": 17,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-40-different-synthesis-materials",
@@ -32473,9 +32797,12 @@
       "name": "Obtain 40 different synthesis materials.",
       "summary": "Obtain 40 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Chaos Anklet Acrisius"
+      "reward": "Recipes: Chaos Anklet Acrisius",
+      "menuIndex": 18,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-42-different-synthesis-materials",
@@ -32483,9 +32810,12 @@
       "name": "Obtain 42 different synthesis materials.",
       "summary": "Obtain 42 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Aegis Shield+ Astrolabe+ Elixir Mythril Crystal"
+      "reward": "Recipes: Aegis Shield+ Astrolabe+ Elixir Mythril Crystal",
+      "menuIndex": 19,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-45-different-synthesis-materials",
@@ -32493,9 +32823,12 @@
       "name": "Obtain 45 different synthesis materials.",
       "summary": "Obtain 45 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Buster Band Orichalcum Ring Wisdom Ring"
+      "reward": "Recipes: Buster Band Orichalcum Ring Wisdom Ring",
+      "menuIndex": 20,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-48-different-synthesis-materials",
@@ -32503,9 +32836,12 @@
       "name": "Obtain 48 different synthesis materials.",
       "summary": "Obtain 48 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Heartless Maul Nobody Guard"
+      "reward": "Recipes: Heartless Maul Nobody Guard",
+      "menuIndex": 21,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-50-different-synthesis-materials",
@@ -32513,9 +32849,12 @@
       "name": "Obtain 50 different synthesis materials.",
       "summary": "Obtain 50 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Buster Band+ Acrisius+ Megalixir"
+      "reward": "Recipes: Buster Band+ Acrisius+ Megalixir",
+      "menuIndex": 22,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-52-different-synthesis-materials",
@@ -32523,9 +32862,12 @@
       "name": "Obtain 52 different synthesis materials.",
       "summary": "Obtain 52 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Heartless Maul+ Nobody Guard+"
+      "reward": "Recipes: Heartless Maul+ Nobody Guard+",
+      "menuIndex": 23,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-55-different-synthesis-materials",
@@ -32533,9 +32875,12 @@
       "name": "Obtain 55 different synthesis materials.",
       "summary": "Obtain 55 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Save the Queen Save the King Cosmic Chain"
+      "reward": "Recipes: Save the Queen Save the King Cosmic Chain",
+      "menuIndex": 24,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.collector-goals.obtain-58-different-synthesis-materials",
@@ -32543,9 +32888,12 @@
       "name": "Obtain 58 different synthesis materials.",
       "summary": "Obtain 58 different synthesis materials.",
       "sources": [
-        "https://www.khwiki.com/Synthesis"
+        "https://www.khwiki.com/Synthesis",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop"
       ],
-      "reward": "Ultima Weapon Save the Queen+ Save the King+"
+      "reward": "Recipes: Ultima Weapon Save the Queen+ Save the King+",
+      "menuIndex": 25,
+      "rewardType": "recipe unlock"
     },
     {
       "id": "kh3.platform-keyblades.midnight-blue",
@@ -32554,7 +32902,8 @@
       "summary": "Historical PS4 preorder/paid-DLC entitlement. The PS5 inclusion is announced for 2026-10-08, not shipped at this 2026-10-01 audit.",
       "sources": [
         "https://www.khwiki.com/Midnight_Blue",
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.jp.square-enix.com/kingdom/kh3/products/index.html"
       ],
       "checkable": false,
       "properties": {
@@ -32625,7 +32974,7 @@
         "initialLevel": 0
       },
       "character": "Sora",
-      "instructions": "Formchange: Second Form M. Shotlocks: King of Hearts , Ragnarok. Abilities: Blizzard Boost (LV0) Blizzaza (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9.",
+      "instructions": "Formchange: Second Form M. Shotlocks: King of Hearts , Ragnarok. Abilities: Blizzard Boost (LV0) Blizzaza (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9. Historical Japanese PS4 digital Integrum Masterpiece offer included Midnight Blue during the first month after the original release; the physical package was excluded.",
       "editionScope": "Midnight Blue platform entitlement only; excluded from the universal base collection.",
       "forgeTransitions": [
         {
@@ -33000,7 +33349,8 @@
       "summary": "Pre-order the game from Amazon (North America) or 7-Eleven (Japan) , or buy from the PlayStation Store or the Microsoft Store (LV0).",
       "sources": [
         "https://www.khwiki.com/Dawn_Till_Dusk",
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://www.jp.square-enix.com/kingdom/kh3/products/index.html"
       ],
       "checkable": false,
       "properties": {
@@ -33071,7 +33421,7 @@
         "initialLevel": 0
       },
       "character": "Sora",
-      "instructions": "Formchange: Second Form D. Shotlocks: King of Hearts , Ragnarok. Abilities: Fire Boost (LV0) Firaza (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9.",
+      "instructions": "Formchange: Second Form D. Shotlocks: King of Hearts , Ragnarok. Abilities: Fire Boost (LV0) Firaza (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9. Historical Japanese PS4 offer: Seven Net Shopping bonus and limited Seven-Eleven download-card campaign. The official page marks the download-card campaign ended; Amazon Japan listed a PS4 theme instead.",
       "editionScope": "Dawn Till Dusk platform entitlement only; excluded from the universal base collection.",
       "forgeTransitions": [
         {
@@ -33926,7 +34276,8 @@
       "name": "Warhammer",
       "summary": "Buy for 400 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Donald",
       "properties": {
@@ -33935,7 +34286,13 @@
         "Ability": "—",
         "Obtained": "Buy for 400 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +5; Magic: +4; Ability: —"
+      "instructions": "Strength: +5; Magic: +4; Ability: — Moogle Shop: 400 munny. After clearing Olympus.",
+      "shopStock": {
+        "priceMunny": 400,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.warhammer-plus",
@@ -33960,7 +34317,8 @@
       "name": "Magician's Wand",
       "summary": "Buy for 600 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Donald",
       "properties": {
@@ -33969,7 +34327,13 @@
         "Ability": "—",
         "Obtained": "Buy for 600 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +4; Magic: +5; Ability: —"
+      "instructions": "Strength: +4; Magic: +5; Ability: — Moogle Shop: 600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 600,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.magician-s-wand-plus",
@@ -33994,7 +34358,8 @@
       "name": "Nirvana",
       "summary": "Buy for 800 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Donald",
       "properties": {
@@ -34003,7 +34368,13 @@
         "Ability": "—",
         "Obtained": "Buy for 800 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +4; Magic: +7; Ability: —"
+      "instructions": "Strength: +4; Magic: +7; Ability: — Moogle Shop: 800 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 800,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.nirvana-plus",
@@ -34028,7 +34399,8 @@
       "name": "Astrolabe",
       "summary": "Buy for 1200 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Donald",
       "properties": {
@@ -34037,7 +34409,13 @@
         "Ability": "—",
         "Obtained": "Buy for 1200 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +6; Magic: +7; Ability: —"
+      "instructions": "Strength: +6; Magic: +7; Ability: — Moogle Shop: 1,200 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "shopStock": {
+        "priceMunny": 1200,
+        "tier": 6,
+        "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.astrolabe-plus",
@@ -34164,7 +34542,8 @@
       "name": "Clockwork Shield",
       "summary": "Buy for 400 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Goofy",
       "properties": {
@@ -34173,7 +34552,13 @@
         "Ability": "—",
         "Obtained": "Buy for 400 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +5; Resistance: Aero: 5%; Ability: —"
+      "instructions": "Strength: +5; Resistance: Aero: 5%; Ability: — Moogle Shop: 400 munny. After clearing Olympus.",
+      "shopStock": {
+        "priceMunny": 400,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.clockwork-shield-plus",
@@ -34198,7 +34583,8 @@
       "name": "Star Shield",
       "summary": "Buy for 600 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Goofy",
       "properties": {
@@ -34207,7 +34593,13 @@
         "Ability": "—",
         "Obtained": "Buy for 600 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +6; Resistance: Thunder: 5%; Ability: —"
+      "instructions": "Strength: +6; Resistance: Thunder: 5%; Ability: — Moogle Shop: 600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 600,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.star-shield-plus",
@@ -34232,7 +34624,8 @@
       "name": "Aegis Shield",
       "summary": "Buy for 800 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Goofy",
       "properties": {
@@ -34241,7 +34634,13 @@
         "Ability": "—",
         "Obtained": "Buy for 800 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +7; Resistance: Blizzard: 5%; Ability: —"
+      "instructions": "Strength: +7; Resistance: Blizzard: 5%; Ability: — Moogle Shop: 800 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 800,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.aegis-shield-plus",
@@ -34266,7 +34665,8 @@
       "name": "Storm Anchor",
       "summary": "Buy for 1200 Munny at the Moogle Shop .",
       "sources": [
-        "https://www.khwiki.com/Weapons_(KHIII)"
+        "https://www.khwiki.com/Weapons_(KHIII)",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Goofy",
       "properties": {
@@ -34275,7 +34675,13 @@
         "Ability": "—",
         "Obtained": "Buy for 1200 Munny at the Moogle Shop ."
       },
-      "instructions": "Strength: +8; Resistance: Water: 5%; Ability: —"
+      "instructions": "Strength: +8; Resistance: Water: 5%; Ability: — Moogle Shop: 1,200 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "shopStock": {
+        "priceMunny": 1200,
+        "tier": 6,
+        "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.storm-anchor-plus",
@@ -34368,7 +34774,8 @@
       "name": "Shield Belt",
       "summary": "Chest at the Overlook ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Shield_Belt"
+        "https://www.khwiki.com/Shield_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34384,7 +34791,13 @@
         "Sell": "50",
         "Obtained": "Chest at the Overlook ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop"
       },
-      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 200; Sell: 50"
+      "instructions": "Defense: +1; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 200; Sell: 50 Moogle Shop: 200 munny. Available from the starting shop tier.",
+      "shopStock": {
+        "priceMunny": 200,
+        "tier": 1,
+        "unlock": "Available from the starting shop tier.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.defense-belt",
@@ -34392,7 +34805,8 @@
       "name": "Defense Belt",
       "summary": "Chest at the Campsite ; Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Defense_Belt"
+        "https://www.khwiki.com/Defense_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34408,7 +34822,13 @@
         "Sell": "150",
         "Obtained": "Chest at the Campsite ; Moogle Shop"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 600; Sell: 150"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 600; Sell: 150 Moogle Shop: 600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 600,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.guardian-s-belt",
@@ -34416,7 +34836,8 @@
       "name": "Guardian's Belt",
       "summary": "Chest at the Gorge ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Guardian's_Belt"
+        "https://www.khwiki.com/Guardian's_Belt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34432,7 +34853,13 @@
         "Sell": "250",
         "Obtained": "Chest at the Gorge ; defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop"
       },
-      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1000; Sell: 250"
+      "instructions": "Defense: +3; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.power-band",
@@ -34440,7 +34867,8 @@
       "name": "Power Band",
       "summary": "Defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Power_Band"
+        "https://www.khwiki.com/Power_Band",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34456,7 +34884,13 @@
         "Sell": "350",
         "Obtained": "Defeat Heartless on deck of a Normal Ship (Large) (3%); Moogle Shop"
       },
-      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1400; Sell: 350"
+      "instructions": "Defense: +4; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "shopStock": {
+        "priceMunny": 1400,
+        "tier": 6,
+        "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.buster-band",
@@ -34558,7 +34992,8 @@
       "name": "Fire Bangle",
       "summary": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Fire_Bangle"
+        "https://www.khwiki.com/Fire_Bangle",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34575,7 +35010,13 @@
         "Sell": "250",
         "Obtained": "Chest at Babies & Toddlers: Dolls ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: 1000; Sell: 250"
+      "instructions": "Defense: +2; Fire: +20%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Fire Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": "MOG",
+        "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.fira-bangle",
@@ -34683,7 +35124,8 @@
       "name": "Blizzard Choker",
       "summary": "Chest at the Treescape ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis.",
       "sources": [
-        "https://www.khwiki.com/Blizzard_Choker"
+        "https://www.khwiki.com/Blizzard_Choker",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34700,7 +35142,13 @@
         "Sell": "250",
         "Obtained": "Chest at the Treescape ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis."
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: 1000; Sell: 250"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +20%; Thunder: +0%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Blizzard Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": "MOG",
+        "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.blizzara-choker",
@@ -34808,7 +35256,8 @@
       "name": "Thunder Trinket",
       "summary": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Thunder_Trinket"
+        "https://www.khwiki.com/Thunder_Trinket",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -34825,7 +35274,13 @@
         "Sell": "250",
         "Obtained": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: 1000; Sell: 250"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +20%; Water: +0%; Aero: +0%; Dark: +0%; Ability: Thunder Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": "MOG",
+        "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.thundara-trinket",
@@ -35058,7 +35513,8 @@
       "name": "Elven Bandanna",
       "summary": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Elven_Bandanna"
+        "https://www.khwiki.com/Elven_Bandanna",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35075,10 +35531,16 @@
         "Sell": "250",
         "Obtained": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: 1000; Sell: 250 Source alias: Bandana.",
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +20%; Aero: +0%; Dark: +0%; Ability: Water Syphon; Buy: 1000; Sell: 250 Source alias: Bandana. Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
       "aliases": [
         "Bandana"
-      ]
+      ],
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": "MOG",
+        "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.divine-bandanna",
@@ -35139,7 +35601,8 @@
       "name": "Wind Fan",
       "summary": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Wind_Fan"
+        "https://www.khwiki.com/Wind_Fan",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35156,7 +35619,13 @@
         "Sell": "250",
         "Obtained": "Chest at the Hills ; defeat Heartless on deck of a Normal Ship (Large) (3%); Item Synthesis"
       },
-      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +0%; Ability: Aero Syphon; Buy: 1000; Sell: 250"
+      "instructions": "Defense: +2; Fire: +0%; Blizzard: +0%; Thunder: +0%; Water: +0%; Aero: +20%; Dark: +0%; Ability: Aero Syphon; Buy: 1000; Sell: 250 Moogle Shop: 1,000 munny. With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+      "shopStock": {
+        "priceMunny": 1000,
+        "tier": "MOG",
+        "unlock": "With the M.O.G. Card, earned by spending 10,000 munny cumulatively at the Moogle Shop.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.storm-fan",
@@ -35214,7 +35683,8 @@
       "name": "Abas Chain",
       "summary": "Chest at Babies & Toddlers: Outdoors",
       "sources": [
-        "https://www.khwiki.com/Abas_Chain"
+        "https://www.khwiki.com/Abas_Chain",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35230,7 +35700,13 @@
         "Sell": "400",
         "Obtained": "Chest at Babies & Toddlers: Outdoors"
       },
-      "instructions": "Defense: +1; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 1600; Sell: 400"
+      "instructions": "Defense: +1; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 1600; Sell: 400 Moogle Shop: 1,600 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 1600,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.aegis-chain",
@@ -35238,7 +35714,8 @@
       "name": "Aegis Chain",
       "summary": "Chest at the Central District",
       "sources": [
-        "https://www.khwiki.com/Aegis_Chain"
+        "https://www.khwiki.com/Aegis_Chain",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Armor",
@@ -35254,7 +35731,13 @@
         "Sell": "500",
         "Obtained": "Chest at the Central District"
       },
-      "instructions": "Defense: +2; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 2000; Sell: 500"
+      "instructions": "Defense: +2; Fire: +15%; Blizzard: +15%; Thunder: +15%; Water: +15%; Aero: +15%; Dark: +0%; Buy: 2000; Sell: 500 Moogle Shop: 2,000 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 2000,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.acrisius",
@@ -35648,7 +36131,8 @@
       "name": "Ability Ring",
       "summary": "Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Ability_Ring+"
+        "https://www.khwiki.com/Ability_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35660,7 +36144,13 @@
         "Sell": "75",
         "Obtained": "Moogle Shop"
       },
-      "instructions": "Strength: +1; Magic: +0; AP: +10; Buy: 300; Sell: 75"
+      "instructions": "Strength: +1; Magic: +0; AP: +10; Buy: 300; Sell: 75 Moogle Shop: 300 munny. Available from the starting shop tier.",
+      "shopStock": {
+        "priceMunny": 300,
+        "tier": 1,
+        "unlock": "Available from the starting shop tier.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.ability-ring-plus",
@@ -35688,7 +36178,8 @@
       "name": "Technician's Ring",
       "summary": "Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Technician's_Ring+"
+        "https://www.khwiki.com/Technician's_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35700,7 +36191,13 @@
         "Sell": "225",
         "Obtained": "Moogle Shop"
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +20; Buy: 900; Sell: 225"
+      "instructions": "Strength: +1; Magic: +1; AP: +20; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 900,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.technician-s-ring-plus",
@@ -35728,7 +36225,8 @@
       "name": "Skill Ring",
       "summary": "Moogle Shop",
       "sources": [
-        "https://www.khwiki.com/Skill_Ring+"
+        "https://www.khwiki.com/Skill_Ring+",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35740,7 +36238,13 @@
         "Sell": "275",
         "Obtained": "Moogle Shop"
       },
-      "instructions": "Strength: +1; Magic: +1; AP: +30; Buy: 1100; Sell: 275"
+      "instructions": "Strength: +1; Magic: +1; AP: +30; Buy: 1100; Sell: 275 Moogle Shop: 1,100 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 1100,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.skill-ring-plus",
@@ -35824,7 +36328,8 @@
       "name": "Power Ring",
       "summary": "Chest at Ravine ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Power_Ring"
+        "https://www.khwiki.com/Power_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35836,7 +36341,13 @@
         "Sell": "125",
         "Obtained": "Chest at Ravine ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +2; Magic: +0; AP: +2; Buy: 500; Sell: 125"
+      "instructions": "Strength: +2; Magic: +0; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus.",
+      "shopStock": {
+        "priceMunny": 500,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.buster-ring",
@@ -35844,7 +36355,8 @@
       "name": "Buster Ring",
       "summary": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Buster_Ring"
+        "https://www.khwiki.com/Buster_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35857,7 +36369,13 @@
         "Sell": "225",
         "Obtained": "Chest at Kid Korral ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +3; Magic: +0; AP: +4; Ability: Cure Converter; Buy: 900; Sell: 225"
+      "instructions": "Strength: +3; Magic: +0; AP: +4; Ability: Cure Converter; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 900,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.valor-ring",
@@ -35865,7 +36383,8 @@
       "name": "Valor Ring",
       "summary": "Chest at the Second Floor ; defeat Heartless on deck of a Normal Ship (Large) (3%)",
       "sources": [
-        "https://www.khwiki.com/Valor_Ring"
+        "https://www.khwiki.com/Valor_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35878,7 +36397,13 @@
         "Sell": "350",
         "Obtained": "Chest at the Second Floor ; defeat Heartless on deck of a Normal Ship (Large) (3%)"
       },
-      "instructions": "Strength: +4; Magic: +0; AP: +6; Ability: Cure Converter; Buy: 1400; Sell: 350"
+      "instructions": "Strength: +4; Magic: +0; AP: +6; Ability: Cure Converter; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 1400,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.phantom-ring",
@@ -35886,7 +36411,8 @@
       "name": "Phantom Ring",
       "summary": "Chest at South District ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Phantom_Ring"
+        "https://www.khwiki.com/Phantom_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35899,7 +36425,13 @@
         "Sell": "450",
         "Obtained": "Chest at South District ; Item Synthesis"
       },
-      "instructions": "Strength: +5; Magic: +0; AP: +8; Ability: Cure Converter; Buy: 1800; Sell: 450"
+      "instructions": "Strength: +5; Magic: +0; AP: +8; Ability: Cure Converter; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "shopStock": {
+        "priceMunny": 1800,
+        "tier": 6,
+        "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.orichalcum-ring",
@@ -35928,7 +36460,8 @@
       "name": "Magic Ring",
       "summary": "Chest at the Gardens ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Magic_Ring"
+        "https://www.khwiki.com/Magic_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35940,7 +36473,13 @@
         "Sell": "125",
         "Obtained": "Chest at the Gardens ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +0; Magic: +2; AP: +2; Buy: 500; Sell: 125"
+      "instructions": "Strength: +0; Magic: +2; AP: +2; Buy: 500; Sell: 125 Moogle Shop: 500 munny. After clearing Olympus.",
+      "shopStock": {
+        "priceMunny": 500,
+        "tier": 2,
+        "unlock": "After clearing Olympus.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.rune-ring",
@@ -35948,7 +36487,8 @@
       "name": "Rune Ring",
       "summary": "Chest at the Wharf ; defeat Heartless on deck of a Normal Ship (Large) (3%).",
       "sources": [
-        "https://www.khwiki.com/Rune_Ring"
+        "https://www.khwiki.com/Rune_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35961,7 +36501,13 @@
         "Sell": "225",
         "Obtained": "Chest at the Wharf ; defeat Heartless on deck of a Normal Ship (Large) (3%)."
       },
-      "instructions": "Strength: +0; Magic: +3; AP: +4; Ability: Extra Cast; Buy: 900; Sell: 225"
+      "instructions": "Strength: +0; Magic: +3; AP: +4; Ability: Extra Cast; Buy: 900; Sell: 225 Moogle Shop: 900 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "shopStock": {
+        "priceMunny": 900,
+        "tier": 4,
+        "unlock": "After clearing both Toy Box and Kingdom of Corona.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.force-ring",
@@ -35969,7 +36515,8 @@
       "name": "Force Ring",
       "summary": "Chest at the Snowfield ; defeat Heartless on deck of a Normal Ship (Large) (3%)",
       "sources": [
-        "https://www.khwiki.com/Force_Ring"
+        "https://www.khwiki.com/Force_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -35982,7 +36529,13 @@
         "Sell": "350",
         "Obtained": "Chest at the Snowfield ; defeat Heartless on deck of a Normal Ship (Large) (3%)"
       },
-      "instructions": "Strength: +0; Magic: +4; AP: +6; Ability: Full MP Blast; Buy: 1400; Sell: 350"
+      "instructions": "Strength: +0; Magic: +4; AP: +6; Ability: Full MP Blast; Buy: 1400; Sell: 350 Moogle Shop: 1,400 munny. After clearing both Monstropolis and Arendelle.",
+      "shopStock": {
+        "priceMunny": 1400,
+        "tier": 5,
+        "unlock": "After clearing both Monstropolis and Arendelle.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.sorcerer-s-ring",
@@ -35990,7 +36543,8 @@
       "name": "Sorcerer's Ring",
       "summary": "Chest at Seaport ; Item Synthesis",
       "sources": [
-        "https://www.khwiki.com/Sorcerer's_Ring"
+        "https://www.khwiki.com/Sorcerer's_Ring",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
       ],
       "character": "Sora / Donald / Goofy",
       "equipmentType": "Accessory",
@@ -36003,7 +36557,13 @@
         "Sell": "450",
         "Obtained": "Chest at Seaport ; Item Synthesis"
       },
-      "instructions": "Strength: +0; Magic: +5; AP: +8; Ability: MP Haste; Buy: 1800; Sell: 450"
+      "instructions": "Strength: +0; Magic: +5; AP: +8; Ability: MP Haste; Buy: 1800; Sell: 450 Moogle Shop: 1,800 munny. After the first Vanitas battle before the Keyblade Graveyard.",
+      "shopStock": {
+        "priceMunny": 1800,
+        "tier": 6,
+        "unlock": "After the first Vanitas battle before the Keyblade Graveyard.",
+        "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
+      }
     },
     {
       "id": "kh3.equipment.wisdom-ring",
@@ -36788,9 +37348,12 @@
       "name": "Blazing Shard shop stock",
       "summary": "The Blazing Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Blazing"
+        "https://www.khwiki.com/Blazing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Blazing Shard shop stock at 100 munny."
+      "reward": "Unlock Blazing Shard shop stock at 100 munny.",
+      "menuIndex": 49,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.blazing-stone-shop-stock",
@@ -36798,9 +37361,12 @@
       "name": "Blazing Stone shop stock",
       "summary": "The Blazing Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Blazing"
+        "https://www.khwiki.com/Blazing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Blazing Stone shop stock at 200 munny."
+      "reward": "Unlock Blazing Stone shop stock at 200 munny.",
+      "menuIndex": 50,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.blazing-gem-shop-stock",
@@ -36808,9 +37374,12 @@
       "name": "Blazing Gem shop stock",
       "summary": "The Blazing Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Blazing"
+        "https://www.khwiki.com/Blazing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Blazing Gem shop stock at 300 munny."
+      "reward": "Unlock Blazing Gem shop stock at 300 munny.",
+      "menuIndex": 51,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.frost-shard-shop-stock",
@@ -36818,9 +37387,12 @@
       "name": "Frost Shard shop stock",
       "summary": "The Frost Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Frost"
+        "https://www.khwiki.com/Frost",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Frost Shard shop stock at 100 munny."
+      "reward": "Unlock Frost Shard shop stock at 100 munny.",
+      "menuIndex": 52,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.frost-stone-shop-stock",
@@ -36828,9 +37400,12 @@
       "name": "Frost Stone shop stock",
       "summary": "The Frost Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Frost"
+        "https://www.khwiki.com/Frost",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Frost Stone shop stock at 200 munny."
+      "reward": "Unlock Frost Stone shop stock at 200 munny.",
+      "menuIndex": 53,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.frost-gem-shop-stock",
@@ -36838,9 +37413,12 @@
       "name": "Frost Gem shop stock",
       "summary": "The Frost Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Frost"
+        "https://www.khwiki.com/Frost",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Frost Gem shop stock at 300 munny."
+      "reward": "Unlock Frost Gem shop stock at 300 munny.",
+      "menuIndex": 54,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lightning-shard-shop-stock",
@@ -36848,9 +37426,12 @@
       "name": "Lightning Shard shop stock",
       "summary": "The Lightning Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lightning"
+        "https://www.khwiki.com/Lightning",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lightning Shard shop stock at 100 munny."
+      "reward": "Unlock Lightning Shard shop stock at 100 munny.",
+      "menuIndex": 55,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lightning-stone-shop-stock",
@@ -36858,9 +37439,12 @@
       "name": "Lightning Stone shop stock",
       "summary": "The Lightning Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lightning"
+        "https://www.khwiki.com/Lightning",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lightning Stone shop stock at 200 munny."
+      "reward": "Unlock Lightning Stone shop stock at 200 munny.",
+      "menuIndex": 56,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lightning-gem-shop-stock",
@@ -36868,9 +37452,12 @@
       "name": "Lightning Gem shop stock",
       "summary": "The Lightning Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lightning"
+        "https://www.khwiki.com/Lightning",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lightning Gem shop stock at 300 munny."
+      "reward": "Unlock Lightning Gem shop stock at 300 munny.",
+      "menuIndex": 57,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lucid-shard-shop-stock",
@@ -36878,9 +37465,12 @@
       "name": "Lucid Shard shop stock",
       "summary": "The Lucid Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lucid"
+        "https://www.khwiki.com/Lucid",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lucid Shard shop stock at 100 munny."
+      "reward": "Unlock Lucid Shard shop stock at 100 munny.",
+      "menuIndex": 58,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lucid-stone-shop-stock",
@@ -36888,9 +37478,12 @@
       "name": "Lucid Stone shop stock",
       "summary": "The Lucid Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lucid"
+        "https://www.khwiki.com/Lucid",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lucid Stone shop stock at 200 munny."
+      "reward": "Unlock Lucid Stone shop stock at 200 munny.",
+      "menuIndex": 59,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.lucid-gem-shop-stock",
@@ -36898,9 +37491,12 @@
       "name": "Lucid Gem shop stock",
       "summary": "The Lucid Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Lucid"
+        "https://www.khwiki.com/Lucid",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Lucid Gem shop stock at 300 munny."
+      "reward": "Unlock Lucid Gem shop stock at 300 munny.",
+      "menuIndex": 60,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.pulsing-shard-shop-stock",
@@ -36908,9 +37504,12 @@
       "name": "Pulsing Shard shop stock",
       "summary": "The Pulsing Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Pulsing"
+        "https://www.khwiki.com/Pulsing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Pulsing Shard shop stock at 100 munny."
+      "reward": "Unlock Pulsing Shard shop stock at 100 munny.",
+      "menuIndex": 64,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.pulsing-stone-shop-stock",
@@ -36918,9 +37517,12 @@
       "name": "Pulsing Stone shop stock",
       "summary": "The Pulsing Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Pulsing"
+        "https://www.khwiki.com/Pulsing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Pulsing Stone shop stock at 200 munny."
+      "reward": "Unlock Pulsing Stone shop stock at 200 munny.",
+      "menuIndex": 65,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.pulsing-gem-shop-stock",
@@ -36928,9 +37530,12 @@
       "name": "Pulsing Gem shop stock",
       "summary": "The Pulsing Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Pulsing"
+        "https://www.khwiki.com/Pulsing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Pulsing Gem shop stock at 300 munny."
+      "reward": "Unlock Pulsing Gem shop stock at 300 munny.",
+      "menuIndex": 66,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.soothing-shard-shop-stock",
@@ -36938,9 +37543,12 @@
       "name": "Soothing Shard shop stock",
       "summary": "The Soothing Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Soothing"
+        "https://www.khwiki.com/Soothing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Soothing Shard shop stock at 100 munny."
+      "reward": "Unlock Soothing Shard shop stock at 100 munny.",
+      "menuIndex": 61,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.soothing-stone-shop-stock",
@@ -36948,9 +37556,12 @@
       "name": "Soothing Stone shop stock",
       "summary": "The Soothing Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Soothing"
+        "https://www.khwiki.com/Soothing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Soothing Stone shop stock at 200 munny."
+      "reward": "Unlock Soothing Stone shop stock at 200 munny.",
+      "menuIndex": 62,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.soothing-gem-shop-stock",
@@ -36958,9 +37569,12 @@
       "name": "Soothing Gem shop stock",
       "summary": "The Soothing Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Soothing"
+        "https://www.khwiki.com/Soothing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Soothing Gem shop stock at 300 munny."
+      "reward": "Unlock Soothing Gem shop stock at 300 munny.",
+      "menuIndex": 63,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.writhing-shard-shop-stock",
@@ -36968,9 +37582,12 @@
       "name": "Writhing Shard shop stock",
       "summary": "The Writhing Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Writhing"
+        "https://www.khwiki.com/Writhing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Writhing Shard shop stock at 100 munny."
+      "reward": "Unlock Writhing Shard shop stock at 100 munny.",
+      "menuIndex": 67,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.writhing-stone-shop-stock",
@@ -36978,9 +37595,12 @@
       "name": "Writhing Stone shop stock",
       "summary": "The Writhing Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Writhing"
+        "https://www.khwiki.com/Writhing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Writhing Stone shop stock at 200 munny."
+      "reward": "Unlock Writhing Stone shop stock at 200 munny.",
+      "menuIndex": 68,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.writhing-gem-shop-stock",
@@ -36988,9 +37608,12 @@
       "name": "Writhing Gem shop stock",
       "summary": "The Writhing Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Writhing"
+        "https://www.khwiki.com/Writhing",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Writhing Gem shop stock at 300 munny."
+      "reward": "Unlock Writhing Gem shop stock at 300 munny.",
+      "menuIndex": 69,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.betwixt-shard-shop-stock",
@@ -36998,9 +37621,12 @@
       "name": "Betwixt Shard shop stock",
       "summary": "The Betwixt Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Betwixt"
+        "https://www.khwiki.com/Betwixt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Betwixt Shard shop stock at 100 munny."
+      "reward": "Unlock Betwixt Shard shop stock at 100 munny.",
+      "menuIndex": 70,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.betwixt-stone-shop-stock",
@@ -37008,9 +37634,12 @@
       "name": "Betwixt Stone shop stock",
       "summary": "The Betwixt Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Betwixt"
+        "https://www.khwiki.com/Betwixt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Betwixt Stone shop stock at 200 munny."
+      "reward": "Unlock Betwixt Stone shop stock at 200 munny.",
+      "menuIndex": 71,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.betwixt-gem-shop-stock",
@@ -37018,9 +37647,12 @@
       "name": "Betwixt Gem shop stock",
       "summary": "The Betwixt Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Betwixt"
+        "https://www.khwiki.com/Betwixt",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Betwixt Gem shop stock at 300 munny."
+      "reward": "Unlock Betwixt Gem shop stock at 300 munny.",
+      "menuIndex": 72,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.first-synthesis-material",
@@ -37028,9 +37660,13 @@
       "name": "First synthesis material",
       "summary": "Obtain one synthesis material.",
       "sources": [
-        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/"
+        "https://www.powerpyx.com/kingdom-hearts-3-synthesis-items-list/",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Ether recipe."
+      "reward": "Ether (item reward).",
+      "rewardType": "item",
+      "menuIndex": 1
     },
     {
       "id": "kh3.game-records.cherry-flan-participation",
@@ -38632,9 +39268,12 @@
       "name": "Twilight Shard shop stock",
       "summary": "The Twilight Shard can be purchased once 30 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Twilight"
+        "https://www.khwiki.com/Twilight",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Twilight Shard shop stock at 100 munny."
+      "reward": "Unlock Twilight Shard shop stock at 100 munny.",
+      "menuIndex": 73,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.twilight-stone-shop-stock",
@@ -38642,9 +39281,12 @@
       "name": "Twilight Stone shop stock",
       "summary": "The Twilight Stone can be purchased once 25 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Twilight"
+        "https://www.khwiki.com/Twilight",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Twilight Stone shop stock at 200 munny."
+      "reward": "Unlock Twilight Stone shop stock at 200 munny.",
+      "menuIndex": 74,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.collector-goals.twilight-gem-shop-stock",
@@ -38652,9 +39294,12 @@
       "name": "Twilight Gem shop stock",
       "summary": "The Twilight Gem can be purchased once 20 have been deposited.",
       "sources": [
-        "https://www.khwiki.com/Twilight"
+        "https://www.khwiki.com/Twilight",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
       ],
-      "reward": "Unlock Twilight Gem shop stock at 300 munny."
+      "reward": "Unlock Twilight Gem shop stock at 300 munny.",
+      "menuIndex": 75,
+      "rewardType": "shop unlock"
     },
     {
       "id": "kh3.party-equipment.temporary-playable-character-way-to-the-dawn",
@@ -40660,17 +41305,20 @@
       "checkable": true,
       "summary": "Break the purple crystal to collect this blueprint fragment.",
       "world": "The Eclipse",
-      "instructions": "On an exterior station platform beside cylindrical machinery; a blue speed-tunnel entrance is visible beyond it. Crystal floats above a flat station platform, with a blue tunnel beyond.",
+      "instructions": "Embark from the Keyblade Graveyard and mark Treasure Sphere η (VII). Search just below and to the left of the sphere on the zone map. The fragment is over an exterior station platform beside cylindrical machinery, with a blue speed tunnel beyond it.",
       "reward": "Shooting Star blueprint fragment; collect the zone’s 15 fragments and claim its Builder mission reward.",
       "sources": [
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
         "https://game8.jp/kh3/255829",
         "https://img.game8.jp/2653330/1170aa2b752eef7dd62ef84c7a93ad9a.jpeg/show",
-        "https://img.game8.jp/2653362/d82cd3215444e1a598e614566ef29864.jpeg/show"
+        "https://img.game8.jp/2653362/d82cd3215444e1a598e614566ef29864.jpeg/show",
+        "https://blog.rebosoku.com/archives/kh3mission_gummi.html",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21",
+        "https://www.khwiki.com/The_Eclipse"
       ],
       "fragmentNumber": "STR-13",
-      "routeEvidence": "inspected screenshot only",
-      "uncertainty": "Exact embarkation-to-platform approach remains incomplete: indexed TA sphere glyph is corrupted (╖), so no Greek symbol was guessed; screenshot establishes only the exterior platform landmark."
+      "routeEvidence": "Independent Japanese map-relative text plus previously inspected close-up/map screenshots; sphere VII matched to η by the Damascus/Adamantite reward pair.",
+      "uncertainty": "Directions are qualitative; numerical coordinates and measured flight distance are not established."
     },
     {
       "id": "kh3.gummi-fragments.str-14",
@@ -40720,6 +41368,380 @@
       "sources": [
         "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/teeny-ships"
       ]
+    },
+    {
+      "id": "kh3.collector-goals.all-material-types",
+      "category": "collector-goals",
+      "name": "Discover every synthesis material type",
+      "summary": "Discover every synthesis material type",
+      "reward": "Orichalcum",
+      "rewardType": "item",
+      "menuIndex": 26,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.total-materials-50",
+      "category": "collector-goals",
+      "name": "Collect 50 synthesis materials in total",
+      "summary": "Collect 50 synthesis materials in total",
+      "reward": "Hungry Shard",
+      "rewardType": "item",
+      "menuIndex": 27,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.total-materials-100",
+      "category": "collector-goals",
+      "name": "Collect 100 synthesis materials in total",
+      "summary": "Collect 100 synthesis materials in total",
+      "reward": "Hungry Stone",
+      "rewardType": "item",
+      "menuIndex": 28,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.total-materials-250",
+      "category": "collector-goals",
+      "name": "Collect 250 synthesis materials in total",
+      "summary": "Collect 250 synthesis materials in total",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 29,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.total-materials-500",
+      "category": "collector-goals",
+      "name": "Collect 500 synthesis materials in total",
+      "summary": "Collect 500 synthesis materials in total",
+      "reward": "Hungry Crystal",
+      "rewardType": "item",
+      "menuIndex": 30,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.total-materials-1000",
+      "category": "collector-goals",
+      "name": "Collect 1,000 synthesis materials in total",
+      "summary": "Collect 1,000 synthesis materials in total",
+      "reward": "Orichalcum",
+      "rewardType": "item",
+      "menuIndex": 31,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-rarity-1",
+      "category": "collector-goals",
+      "name": "Discover every 1-star synthesis material",
+      "summary": "Discover every 1-star synthesis material",
+      "reward": "Hungry Stone",
+      "rewardType": "item",
+      "menuIndex": 32,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-rarity-2",
+      "category": "collector-goals",
+      "name": "Discover every 2-star synthesis material",
+      "summary": "Discover every 2-star synthesis material",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 33,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-rarity-3",
+      "category": "collector-goals",
+      "name": "Discover every 3-star synthesis material",
+      "summary": "Discover every 3-star synthesis material",
+      "reward": "Hungry Crystal",
+      "rewardType": "item",
+      "menuIndex": 34,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-rarity-4",
+      "category": "collector-goals",
+      "name": "Discover every 4-star synthesis material",
+      "summary": "Discover every 4-star synthesis material",
+      "reward": "Orichalcum",
+      "rewardType": "item",
+      "menuIndex": 35,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-blazing-materials",
+      "category": "collector-goals",
+      "name": "Discover every Blazing material type",
+      "summary": "Discover every Blazing material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 36,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Blazing"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-frost-materials",
+      "category": "collector-goals",
+      "name": "Discover every Frost material type",
+      "summary": "Discover every Frost material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 37,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Frost"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-lightning-materials",
+      "category": "collector-goals",
+      "name": "Discover every Lightning material type",
+      "summary": "Discover every Lightning material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 38,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Lightning"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-lucid-materials",
+      "category": "collector-goals",
+      "name": "Discover every Lucid material type",
+      "summary": "Discover every Lucid material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 39,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Lucid"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-soothing-materials",
+      "category": "collector-goals",
+      "name": "Discover every Soothing material type",
+      "summary": "Discover every Soothing material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 40,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Soothing"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-pulsing-materials",
+      "category": "collector-goals",
+      "name": "Discover every Pulsing material type",
+      "summary": "Discover every Pulsing material type",
+      "reward": "Hungry Gem",
+      "rewardType": "item",
+      "menuIndex": 41,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Pulsing"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-writhing-materials",
+      "category": "collector-goals",
+      "name": "Discover every Writhing material type",
+      "summary": "Discover every Writhing material type",
+      "reward": "Hungry Crystal",
+      "rewardType": "item",
+      "menuIndex": 42,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Writhing"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-betwixt-materials",
+      "category": "collector-goals",
+      "name": "Discover every Betwixt material type",
+      "summary": "Discover every Betwixt material type",
+      "reward": "Hungry Crystal",
+      "rewardType": "item",
+      "menuIndex": 43,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Betwixt"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-twilight-materials",
+      "category": "collector-goals",
+      "name": "Discover every Twilight material type",
+      "summary": "Discover every Twilight material type",
+      "reward": "Hungry Crystal",
+      "rewardType": "item",
+      "menuIndex": 44,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Twilight"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-sinister-materials",
+      "category": "collector-goals",
+      "name": "Discover every Sinister material type",
+      "summary": "Discover every Sinister material type",
+      "reward": "Defense Boost",
+      "rewardType": "item",
+      "menuIndex": 45,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Sinister"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-mythril-materials",
+      "category": "collector-goals",
+      "name": "Discover every Mythril material type",
+      "summary": "Discover every Mythril material type",
+      "reward": "AP Boost",
+      "rewardType": "item",
+      "menuIndex": 46,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Mythril"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-wellspring-materials",
+      "category": "collector-goals",
+      "name": "Discover every Wellspring material type",
+      "summary": "Discover every Wellspring material type",
+      "reward": "Strength Boost",
+      "rewardType": "item",
+      "menuIndex": 47,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Wellspring"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.all-hungry-materials",
+      "category": "collector-goals",
+      "name": "Discover every Hungry material type",
+      "summary": "Discover every Hungry material type",
+      "reward": "Magic Boost",
+      "rewardType": "item",
+      "menuIndex": 48,
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-workshop",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals",
+        "https://samurai-gamers.com/kingdom-hearts-3/collectors-goals-rewards-list/",
+        "https://www.khwiki.com/Hungry"
+      ]
+    },
+    {
+      "id": "kh3.collector-goals.sinister-shard-shop-stock",
+      "category": "collector-goals",
+      "name": "Sinister Shard shop stock",
+      "summary": "Deposit 30 Sinister Shards.",
+      "reward": "Unlock Sinister Shard shop stock at 100 munny.",
+      "sources": [
+        "https://www.khwiki.com/Sinister",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
+      ],
+      "menuIndex": 76,
+      "rewardType": "shop unlock"
+    },
+    {
+      "id": "kh3.collector-goals.sinister-stone-shop-stock",
+      "category": "collector-goals",
+      "name": "Sinister Stone shop stock",
+      "summary": "Deposit 25 Sinister Stones.",
+      "reward": "Unlock Sinister Stone shop stock at 200 munny.",
+      "sources": [
+        "https://www.khwiki.com/Sinister",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
+      ],
+      "menuIndex": 77,
+      "rewardType": "shop unlock"
+    },
+    {
+      "id": "kh3.collector-goals.sinister-gem-shop-stock",
+      "category": "collector-goals",
+      "name": "Sinister Gem shop stock",
+      "summary": "Deposit 20 Sinister Gems.",
+      "reward": "Unlock Sinister Gem shop stock at 300 munny.",
+      "sources": [
+        "https://www.khwiki.com/Sinister",
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76888/collectors-goals"
+      ],
+      "menuIndex": 78,
+      "rewardType": "shop unlock"
     }
   ],
   "recipes": [
@@ -47689,7 +48711,7 @@
       "non_keyblade_equipment": 129,
       "remind_chest_routes": 9,
       "slider_prizes": 10,
-      "material_shop_goals": 27,
+      "material_shop_goals": 30,
       "game_records": 54,
       "classic_control_guides": 23,
       "battlegate_encounters": 15,
@@ -47702,13 +48724,20 @@
       "ingredients_with_object_sources": 51,
       "party_equipment_references": 25,
       "gummi_abilities": 19,
-      "entries": 1900,
+      "entries": 1926,
       "recipe_actions": 286,
+      "collectible_numbered_guide_rows_reviewed": 335,
       "gummi_special_weapons": 13,
       "gummi_fragments": 45,
       "gummi_fragment_images_reviewed": 90,
       "premium_merit_unlocks": 9,
-      "collectible_numbered_guide_rows_reviewed": 335
-    }
+      "collector_goals": 78,
+      "collector_direct_item_rewards": 24,
+      "equipment_shop_stock_rows": 30,
+      "ingredient_shop_stock_rows": 28,
+      "material_chest_route_links": 52,
+      "gummi_fragment_text_approaches": 45
+    },
+    "continuationReport": "ai_docs/games/kh3/research-continuation-2026-10-01.md"
   }
 }
