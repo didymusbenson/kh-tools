@@ -67,3 +67,53 @@ The repeatable integration checker is `python3 tools/content/verify-gap-integrat
 - DDD and KH0.2 content audits pass. The repeatable cross-game checker passes; its [machine-readable result](gap-closure-validation-2026-10-02.json) accounts for all 208 findings and preserves all prior entry/recipe IDs and source/recipe references. KH3 adds 28 entries.
 - After the final KH3 integration, desktop/mobile KH3 collection persistence and layout checks pass 2/2. Together with the earlier selected run, 24 selected scenarios passed and two immediate-reload scenarios failed; the separately documented full browser suite is not green.
 - Each worker branch and the serialized merges are published to GitHub. Active game ledgers and linked per-game reports retain the exact unresolved questions and evidence boundaries.
+
+## Game factual research versus app development
+
+This classification covers **all 208 existing audit families**, including closed work. It supersedes interpreting the aggregate closed/partial totals as a pure game-research completion measure. Original per-game statuses are preserved. App implementation does not certify game facts; unknown game facts do not become app work simply because the answer will appear in the app. The [complete classification register](research-workstreams-2026-10-02.json) retains every original ID, status, current disposition, ledger and assignment reason.
+
+| Primary work | Closed | Partial | Unresolved/conflicted | Other limitations | Total |
+|---|---:|---:|---:|---:|---:|
+| Game factual research and supporting evidence | 93 | 73 | 15 | 8 | 189 |
+| App development, content integration, design and acceptance | 13 | 0 | 0 | 6 | 19 |
+| Total | 106 | 73 | 15 | 14 | 208 |
+
+The game side contains **88 partial/unresolved families**, plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 106 closed count.
+
+Mixed families have one primary assignment based on the question being resolved; the original wording and related factual IDs remain in the register. This does not split one family into multiple counted tasks or change any factual disposition. Game save behavior, achievement counters and native Steam controls stay under game research; our app saved state, controls and acceptance stay under app development.
+
+### Game factual research — all assigned items
+
+- **kh1fm:** `KH1-001`, `KH1-002`, `KH1-003`, `KH1-004`, `KH1-005`, `KH1-006`, `KH1-007`, `KH1-008`, `KH1-009`, `KH1-010`, `KH1-011`, `KH1-012`, `KH1-013`, `KH1-014`, `KH1-015`, `KH1-016`, `KH1-017`, `KH1-018`, `KH1-019`, `KH1-020`.
+- **recom:** `COM-001`, `COM-002`, `COM-003`, `COM-004`, `COM-005`, `COM-006`, `COM-007`, `COM-008`, `COM-009`, `COM-010`, `COM-011`, `COM-012`, `COM-013`, `COM-014`, `COM-015`, `COM-016`, `COM-017`, `COM-018`, `COM-019`, `COM-020`, `COM-021`, `COM-022`, `COM-023`, `COM-024`, `COM-025`, `COM-026`, `COM-027`, `COM-029`.
+- **kh2fm:** `KH2-001`, `KH2-002`, `KH2-003`, `KH2-004`, `KH2-005`, `KH2-006`, `KH2-007`, `KH2-008`, `KH2-009`, `KH2-010`, `KH2-011`, `KH2-012`, `KH2-013`, `KH2-014`, `KH2-015`, `KH2-016`, `KH2-017`, `KH2-018`, `KH2-019`, `KH2-020`, `KH2-021`, `KH2-026`, `KH2-027`, `KH2-028`, `KH2-029`, `KH2-030`, `KH2-031`, `KH2-032`, `KH2-033`, `KH2-034`, `KH2-035`, `KH2-036`, `KH2-037`, `KH2-038`, `KH2-040`.
+- **bbsfm:** `BBS-001`, `BBS-002`, `BBS-003`, `BBS-004`, `BBS-005`, `BBS-006`, `BBS-007`, `BBS-008`, `BBS-009`, `BBS-010`, `BBS-011`, `BBS-012`, `BBS-013`, `BBS-014`, `BBS-015`, `BBS-016`, `BBS-017`, `BBS-018`, `BBS-019`, `BBS-020`, `BBS-021`, `BBS-022`, `BBS-023`, `BBS-025`, `BBS-026`, `BBS-027`, `BBS-028`, `BBS-029`, `BBS-030`, `BBS-031`, `BBS-032`, `BBS-033`, `BBS-034`, `BBS-037`.
+- **dddhd:** `DDD-001`, `DDD-002`, `DDD-003`, `DDD-004`, `DDD-005`, `DDD-006`, `DDD-007`, `DDD-008`, `DDD-009`, `DDD-011`, `DDD-012`, `DDD-013`, `DDD-014`, `DDD-015`, `DDD-016`, `DDD-017`, `DDD-018`, `DDD-019`, `DDD-020`, `DDD-021`, `DDD-022`, `DDD-025`.
+- **kh02:** `KH02-001`, `KH02-002`, `KH02-003`, `KH02-004`, `KH02-005`, `KH02-006`, `KH02-007`, `KH02-008`, `KH02-009`, `KH02-010`, `KH02-011`, `KH02-012`, `KH02-013`, `KH02-014`, `KH02-015`, `KH02-016`.
+- **kh3:** `KH3-001`, `KH3-002`, `KH3-003`, `KH3-004`, `KH3-005`, `KH3-006`, `KH3-007`, `KH3-008`, `KH3-009`, `KH3-010`, `KH3-011`, `KH3-012`, `KH3-013`, `KH3-014`, `KH3-015`, `KH3-016`, `KH3-017`, `KH3-018`, `KH3-019`, `KH3-020`, `KH3-021`, `KH3-022`, `KH3-023`, `KH3-024`, `KH3-025`, `KH3-026`, `KH3-027`, `KH3-028`, `KH3-029`, `KH3-030`, `KH3-031`, `KH3-032`, `KH3-033`, `KH3-034`.
+
+Evidence/provenance/platform records: `BBS-033`, `BBS-034`, `COM-029`, `KH2-036`, `KH2-037`, `KH2-038`. Excluded-content records: `BBS-037`, `KH2-040`. These remain on the game-data side without being mislabeled app work.
+
+### App development — all assigned items
+
+| ID | Status | Work |
+|---|---|---|
+| COM-028 | Closed | Correct historical app/module/test documentation. |
+| COM-030 | Remaining limitation | Recreate interface states and supply production artwork. |
+| COM-031 | Remaining limitation | Implement inventory/solver features, device acceptance and Jiminy integration. |
+| COM-032 | Closed | Propagate existing facts and caveats; remove stale generated warnings. Factual dependencies remain COM-003/004. |
+| KH2-022 | Remaining limitation | Implement optional synthesis-discount planner controls; the game rules are known. |
+| KH2-023 | Closed | Propagate known encounter prerequisites into runtime records; missing game predicates remain KH2-013/014. |
+| KH2-024 | Closed | Add known encounters/proofs and connect saved acquisition state. |
+| KH2-025 | Closed | Emit existing recipe sources and acquisition relationships. |
+| KH2-039 | Remaining limitation | App/device acceptance and Jiminy answer evaluation. |
+| BBS-024 | Closed | Represent the already-documented Arena level predicates in app records. |
+| BBS-035 | Remaining limitation | Inventory transactions/undo, mobile/offline acceptance and Jiminy integration. |
+| BBS-036 | Remaining limitation | Production art, animation, weapons and device visual fidelity. |
+| BBS-038 | Closed | Display known no-crystal probabilities and validate calculator inputs; unknown outcome distributions remain BBS-013. |
+| DDD-010 | Closed | Correct rare-world and edition parsing; route research remains DDD-009. |
+| DDD-023 | Closed | Populate reverse indexes and defaults from already-known HD facts. |
+| DDD-024 | Closed | Preserve source fields, edition markers and provenance through extraction/generation; remaining unknown facts retain their own IDs. |
+| KH02-017 | Closed | Propagate existing citations and conflict qualifiers through the generator. |
+| KH02-018 | Closed | Propagate researched context, aliases and objective/reward guidance. |
+| KH3-035 | Closed | Integrate known reward ladders and relationships; missing factual inventories retain their own IDs. |
