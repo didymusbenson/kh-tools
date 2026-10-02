@@ -113,3 +113,17 @@ it('uses named-world shop milestones and preserves unresolved Fire Dash prices',
   if(material)expect(material.instructions).toContain('Price and story gate conflict');
  }
 });
+ it('publishes sourced opponent decks and D-Link actions without inventing missing quantities',()=>{
+  const board=guide.entries.find(e=>e.name==='Skull Command Board')!;
+  expect(board.instructions).toContain('Peter Pan:');
+  expect(board.instructions).toContain('Captain Hook:');
+  expect(board.instructions).toContain('× ?');
+  expect(board.uncertainty).toContain('Skull Board quantities are unspecified');
+  const link=guide.entries.find(e=>e.category==='dlinks'&&e.name==='Donald Duck')!;
+  expect(link.instructions).toContain('Cosmic Donald:');
+  expect(link.sources).toContain('https://www.khwiki.com/Cosmic_Donald');
+  expect(guide.recipes?.find(r=>r.group==='Ice cream')?.instructions).toContain('Purchase/story-award substitutes are not verified');
+  const battle=guide.entries.find(e=>e.category==='arena'&&e.name==='Combined Threat')!;
+  expect(battle.prerequisites).toContain('Arena Level 7 and clearing Radiant Garden');
+  expect(battle.prerequisites).toContain('whether it bypasses the story requirement is not established');
+ });

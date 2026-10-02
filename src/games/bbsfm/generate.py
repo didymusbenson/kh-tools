@@ -46,7 +46,7 @@ for r in acq['flavors']['rows']:
   material(c,r['name'],'; '.join(route['world']+' — '+route['area'] for route in routes),' '.join(route['world']+' — '+route['area']+': '+route['instructions'] for route in routes)+' '+(enrichment['prize_pod_arena_reset'] if all(route['world']=='Mirage Arena' for route in routes) else enrichment['prize_pod_reset'])+' Used in '+r['used_in']+'.',[acq['flavors']['source'],'https://www.khwiki.com/Prize_Pod'],drops=[dict(enemy='Prize Pod',rate='Per hit',location=route['world']+' — '+route['area'],details=route['instructions']+' '+(enrichment['prize_pod_arena_reset'] if route['world']=='Mirage Arena' else enrichment['prize_pod_reset'])) for route in routes])
 for r in acq['ice_cream']['recipes']:
  for c in r['characters']:
-  recipes.append(dict(id=ident(c,'ice-cream',r['name']),name=r['name'],group='Ice cream',character=c,instructions='Make at the ice cream shop in Disney Town. Each character has eight eligible kinds; obtaining all kinds awards Sweetstack. These quantities make one ice cream.',ingredients=[dict(id=ident(c,'material',x['name']),quantity=x['quantity']) for x in r['ingredients']]))
+  recipes.append(dict(id=ident(c,'ice-cream',r['name']),name=r['name'],group='Ice cream',character=c,instructions='Make at the ice cream shop in Disney Town. Each character has eight eligible kinds; make all eight at this shop for the documented Sweetstack route. Purchase/story-award substitutes are not verified for every completion flag. These quantities make one ice cream.',ingredients=[dict(id=ident(c,'material',x['name']),quantity=x['quantity']) for x in r['ingredients']]))
 # Quarantine entire ambiguous input groups so no partial probability distribution is presented.
 def pair(r): return tuple(sorted([(r['command_1'],r['command_1_level']),(r['command_2'],r['command_2_level'])]))
 bad={pair(meld['recipes'][i]) for i in meld['audit']['conflict_rows_zero_based']}
@@ -195,6 +195,7 @@ for e in entries:
   board=next((b for b in enrichment['command_boards']['boards'] if e['name']==b['name'].replace(' Board',' Command Board')),None)
   if board:
    e['instructions']+=' '+enrichment['command_boards']['rules']+' Bonus panels (map key: normal; limited; Arena): '+'; '.join(str(p['key'])+': '+p['normal']+'; '+p['limited']+'; '+p['arena'] for p in board['panels'])+'.'
+   e['instructions']+=' Opponent decks (command level × quantity; ? = unspecified): '+'; '.join(deck['opponent']+': '+', '.join(card['command']+' Lv '+str(card['level'])+' × '+(str(card['quantity']) if card['quantity'] is not None else '?') for card in deck['cards']) for deck in board.get('opponent_decks',[]))+'. '+enrichment['command_boards']['opponent_deck_evidence']
    e['sources'].append(board['source'])
    e['uncertainty']=enrichment['command_boards']['remaining']
  if e['category']=='abilities':
@@ -203,9 +204,10 @@ for e in entries:
   e['sources']=list(dict.fromkeys(e['sources']+[detail['source']]))
  if e['category']=='arena':
   rule=enrichment['arena_entry_rules'].get(e['name'])
-  if rule:e['prerequisites']=rule.get(e['character'],rule.get('all'));e['uncertainty']='';e['sources']+=['https://www.khwiki.com/Game:Mirage_Arena','https://www.khwiki.com/Battle_Ticket']
+  if rule:e['prerequisites']=rule.get(e['character'],rule.get('all'));e['uncertainty']='';e['sources']+=['https://www.khwiki.com/Game:Mirage_Arena','https://www.khwiki.com/Battle_Ticket']+enrichment.get('arena_entry_rules_sources',[])
   bonus=enrichment['arena_bonuses'].get(e['character'],{}).get(e['name'])
   if bonus:e['reward']='; '.join(filter(None,[e.get('reward'),bonus]))
+  if e['name']=='Light’s Lessons':e['uncertainty']='HP reward: existing HD sources report +15; an independent guide combining HD and PSP columns reports +10 without separating the reward by edition.';e['sources'].append('https://kouryakutsushin.com/khbbs/arenamode.htm')
   if e['name']=='Monster of the Sea':e['reward']='Mini'
   if e['name']=='A Time to Chill' and e['character'] in ['Ventus','Aqua']:
    e['uncertainty']+=' HP reward conflicts: individual battle page +5; world Bonus Levels table and HD Gamer Guides +10.'
@@ -262,6 +264,8 @@ for kind in ['styles','dlinks']:
    detail=('Trigger: '+r['triggers']+'. '+('A level-two style requires an active first-tier style.' if r['level']=='LV 2' else '')) if kind=='styles' else families['dlink_progression']+' First emblem: '+r['first_emblem']+'. Second emblem: '+r['second_emblem']+'.'
    sources=[r['source']]
    if kind=='dlinks':
+    detail+=' '+ ' '.join(a['name']+': '+a['instructions'] for a in r.get('finisher_actions',[]))
+    sources += [a['source'] for a in r.get('finisher_actions',[])]
     decks=[[cmd for cmd in deck if not (r['name']=='Stitch' and c!='Aqua' and cmd=='Thundaga Shot')] for deck in r['deck_by_emblems']]
     detail+=' '+families['usage']+' Linked decks by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in decks)+'. Finishers by 0/1/2 emblems: '+' / '.join(', '.join(deck) for deck in r['finish_by_emblems'])+'. Emblem drop chances by current 0/1/2 emblems: '+' / '.join('unknown' if p is None else str(p)+'%' for p in r['emblem_chance_percent'])+'. Attack gauge multiplier: '+r['gauge_attack_multiplier']+'. Gauge bonus: '+r['gauge_bonus']['condition']+' '+r['gauge_bonus']['amount']+'.'
     sources.append(r['mechanics_source'])

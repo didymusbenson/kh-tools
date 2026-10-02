@@ -21,7 +21,12 @@
             "name": "Crystal Sugar",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ジュエルバニラ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Honeybunny",
@@ -37,7 +42,12 @@
             "name": "Apple Pie",
             "quantity": 2
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ハニーバニー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Fabracadabra",
@@ -57,7 +67,12 @@
             "name": "Peach Fantasy",
             "quantity": 1
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ハットトリック",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Bueno Volcano",
@@ -75,7 +90,12 @@
             "name": "Toonbasco",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ボルケーノカレー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Snow Bear",
@@ -93,7 +113,12 @@
             "name": "Soy Milk",
             "quantity": 5
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "スノウベアー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Spark Lemon",
@@ -115,7 +140,12 @@
             "name": "Dancin' Lemon",
             "quantity": 3
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "スパークレモン",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Royalberry",
@@ -140,7 +170,12 @@
             "name": "Rose Honey",
             "quantity": 7
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "クイーンベリー",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Rockin' Crunch",
@@ -156,7 +191,12 @@
             "name": "Nutty Nut",
             "quantity": 12
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ロッククランチ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Big Bad Pete",
@@ -172,7 +212,12 @@
             "name": "Whipped Dream",
             "quantity": 20
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ブラック・ピート",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Sugary Skies",
@@ -193,7 +238,12 @@
             "name": "Cotton Cloudcandy",
             "quantity": 14
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ミルキーウェイ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Goofy Parfait",
@@ -217,7 +267,12 @@
             "name": "Forest Muffin",
             "quantity": 10
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "グーフィー・パフェ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Double Crunch",
@@ -241,7 +296,12 @@
             "name": "Star Syrup",
             "quantity": 15
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ダブルクランチ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Donald Fizz",
@@ -265,7 +325,12 @@
             "name": "Sky Blue Mousse",
             "quantity": 8
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "ドナルド・ソルト",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       },
       {
         "name": "Daisy Sorbet",
@@ -291,7 +356,12 @@
             "name": "Melodious Grape",
             "quantity": 12
           }
-        ]
+        ],
+        "quantity_corroboration": {
+          "source": "https://kouryakutsushin.com/khbbs/ice-shop.htm",
+          "source_name": "デイジー・ソルベ",
+          "scope": "Independent PSP Final Mix recipe quantities agree; this does not certify Steam completion flags."
+        }
       }
     ],
     "one_of_each_eligible_recipe_totals_by_character": {

@@ -1,5 +1,7 @@
 # BBS evidence continuation — October 1, 2026
 
+Historical October 1 checkpoint. The [October 2 follow-up](gap-closure-2026-10-02.md) and updated disposition JSON supersede its remaining-work statements for shops, opponent decks, D-Link actions, recipe corroboration and Arena conjunctions.
+
 Continues checkpoint `2fd2927`; all 17 partial and 4 researched-open factual families were revisited. Family statuses remain **17 partial, 4 researched-open, 12 closed** plus five non-factual dispositions. New subfields are integrated below; a residual family is not closed merely because some subfields are now complete. No user playthrough or new save is required.
 
 Changes: all 45 Steam API mappings; 45 bonus-panel rows; 39 D-Link decks and finisher lists; 12 exact emblem probability triples (Pete unknown); all 8 Secret Episode approach notes; modern Land of Departure revisit; Blizzaga level 4 and a 152nd CP curve. Corrected the false Sweetstack conflict in the earlier ledger. Stable IDs and prior citations are preserved.
