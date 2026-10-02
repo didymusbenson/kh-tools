@@ -4,6 +4,10 @@ This directory is the planning workspace for rebuilding KH Tools as **Ars Arcanu
 
 ## Current phase
 
+The current task is seven-game factual research and correction. The [October 1 resolution report](./research/research-resolution-2026-10-01.md) records the completed audit follow-through, and the [recovery/continuation log](./research/research-recovery-2026-10-01.md) tracks remaining questions, updated documentation and git checkpoints. Game ledgers take precedence over old planning tables for current data gaps. Data Jiminy remains flushed while research continues.
+
+## Journal implementation context
+
 The initial Ars Arcanum UI direction is superseded. The user accepted the faithful-journal mockups and requested a new implementation plan, beginning with KH1FM. Start with the [KH1FM new UI plan](./ui/kh1fm-new-ui-plan.md), its [open questions](./ui/kh1fm-new-ui-plan.md#8-open-questions-for-revision), and the [reference workbook](./ui/references/kh1fm/README.md). The direction is accepted; detailed design proposals remain open for revision. The user subsequently authorized an MVP implementation pass; the [local MVP report](./implementation/kh1fm-faithful-journal-mvp.md) records what is working, provisional choices and remaining checks.
 
 Existing factual content, persistent progress, synthesis/farming behavior, offline infrastructure and Data Jiminy remain the foundation. Earlier implementation reports describe the old interface and provide regression evidence, not the current visual target. See [DEC-020](./07-decision-log.md#dec-020-faithful-game-journals-replace-the-initial-ars-arcanum-ui) for precedence.

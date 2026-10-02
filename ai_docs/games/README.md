@@ -68,7 +68,7 @@ Use the [per-game readiness workbooks](../readiness/README.md) to resolve questi
 
 ## Parallel research
 
-[Five game research assignments](../research/parallel-game-research.md) cover KH2FM, BBSFM, 0.2, DDD HD and KH3/Re Mind. Each starts with the user's existing source records, then documents edition-correct findings, citations and unresolved inventory/verification gaps in its own spec and readiness file.
+The [September assignments](../research/parallel-game-research.md) are historical. All seven games now have an October 1 audit and current disposition ledger, indexed in the [resolution report](../research/research-resolution-2026-10-01.md). The [recovery/continuation log](../research/research-recovery-2026-10-01.md) tracks follow-up on the remaining factual questions. Current ledgers supersede old missing-inventory assumptions while retaining citations and exact evidence limitations.
 
 ## Shared decisions propagated from KH1
 

@@ -1,5 +1,7 @@
 # KH1FM implementation verification
 
+This is the historical initial-implementation test report. Its catalog counts, seeded memory pack, unavailable game selectors and named research gaps describe that checkpoint, not the current app. See [current research and validation](../research/research-resolution-2026-10-01.md) and [the memory flush](jiminy-memory-flush-2026-10-01.md): all seven journals are implemented and Data Jiminy is empty. Retain the older test results below as executed evidence, not as a newly run validation or active gap list.
+
 ## Delivered scope
 
 React offline journal with the accepted green/cream/burgundy presentation and purple contents, original anchored game menu and moving artwork, responsive collection/detail/search views, separate challenge goals, exact synthesis planning, optional inventory, persistent checks, recovery/import/export/undo and an in-memory-only Data Jiminy conversation. Other game destinations remain visible but unavailable until their implementations are delivered.

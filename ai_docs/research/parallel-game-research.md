@@ -1,6 +1,6 @@
 # Parallel game research assignments
 
-Started: 2026-09-18, at the user's explicit request. Work is running in parallel so KH1 specification discussion can continue in the main thread.
+Historical assignment record, started 2026-09-18 at the user's explicit request. The briefs, branch and implementation restriction below describe that original planning phase. The later authorized implementation and seven-game research work are recorded in the [October 1 resolution report](research-resolution-2026-10-01.md) and [recovery/continuation log](research-recovery-2026-10-01.md). This file is not a live work dashboard or a current restriction on authorized data corrections.
 
 ## Shared brief
 

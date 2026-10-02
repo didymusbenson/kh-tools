@@ -1,5 +1,7 @@
 # Roadmap and Backlog
 
+> **Current work — 2026-10-01.** Continue factual corrections across all seven games from the recovered research checkpoint. Use the [resolution report](research/research-resolution-2026-10-01.md), per-game ledgers and [recovery log](research/research-recovery-2026-10-01.md) for current research status. The older phase plan and backlog below preserve planning history; their “not started” and original assignment labels are not a current implementation inventory. The React/PWA foundation and all seven journals exist. Data Jiminy is flushed while its infrastructure remains in place.
+
 > **Active work sequence — 2026-09-22.** The next UI work follows the [KH1FM faithful-journal plan](ui/kh1fm-new-ui-plan.md#7-work-sequence-and-review-points): reference/decision pass, shell, first persistent collection, complete content mapping, tools and cutover. The phases below are the earlier broad roadmap; old UI completion is not acceptance of the new visual direction. All games and retained functional scope remain in scope.
 
 This roadmap is intentionally phase-based. Dates and detailed estimates should wait until discovery is sufficiently complete.
@@ -66,7 +68,7 @@ Phases below describe work order, not separate releases. All non-deferred requir
 - Consider optional per-game visual-guide downloads.
 - TBD
 
-## Backlog
+## Historical planning backlog
 
 | Item | Phase | Priority | Status | Dependencies | Notes |
 |---|---|---|---|---|---|

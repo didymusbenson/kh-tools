@@ -1,6 +1,6 @@
 # Per-game readiness
 
-These are working readiness checklists and answer logs, not declarations that a game is ready. All specified games/features remain MVP unless explicitly deferred. KH1FM is the first detailed readiness assessment; parallel researchers are expanding the other games from their existing stubs. See [research assignments](../research/parallel-game-research.md); each game's readiness document records the latest completed evidence. 0.2 has a separate readiness checklist within the BBS family. There is no 2.8 collection checklist.
+These are working readiness checklists and answer logs, not declarations that a game is ready. All specified games/features remain MVP unless explicitly deferred. All seven games have implemented catalogs and a current research disposition ledger; the [October 1 resolution report](../research/research-resolution-2026-10-01.md) links those ledgers and recorded validation. See the [recovery/continuation log](../research/research-recovery-2026-10-01.md) for resumed work. The older [research assignments](../research/parallel-game-research.md) describe the initial September effort. Each game's readiness document records its current evidence and acceptance boundaries. 0.2 has a separate readiness checklist within the BBS family. There is no 2.8 collection checklist.
 
 ## Edition policy — accepted
 
@@ -9,7 +9,7 @@ Target modern/current releases. KH1 and KH2 use Final Mix as delivered in modern
 ## Readiness documents
 
 - [Kingdom Hearts Final Mix](./kingdom-hearts-final-mix.md)
-- [Kingdom Hearts Re:Chain of Memories](./kingdom-hearts-re-chain-of-memories.md) — initial HD journal implemented 2026-09-28; partial catalogue and artwork
+- [Kingdom Hearts Re:Chain of Memories](./kingdom-hearts-re-chain-of-memories.md) — HD journal, both card rosters and expanded mechanics; remaining research and artwork boundaries are listed in the workbook
 - [Kingdom Hearts II Final Mix](./kingdom-hearts-ii-final-mix.md)
 - [Birth by Sleep Final Mix](./birth-by-sleep-final-mix.md)
 - [Kingdom Hearts 0.2](./kingdom-hearts-02.md)

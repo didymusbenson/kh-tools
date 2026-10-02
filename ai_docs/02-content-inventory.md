@@ -2,42 +2,38 @@
 
 Track current material, proposed additions, ownership, source quality, and migration status here.
 
-## Existing repository content
+## Current repository content
 
-Initial repository-level observations:
+The working React/PWA has seven game journals with canonical research inputs, runtime catalogs, persistent collection identities and source provenance. The [October 1 audit](./research/research-audit-2026-10-01.md) inspected all seven games; the [resolution report](./research/research-resolution-2026-10-01.md) records integrated coverage and links the current per-game ledgers. The [recovery/continuation log](./research/research-recovery-2026-10-01.md) tracks the resumed work on remaining factual questions.
 
-- Static HTML entry points
-- Birth by Sleep melding content
-- Boss tables
-- CSV data
-- Game-specific content under `games/`
-- Existing image and stylesheet assets
-
-A detailed repository audit is still required.
+Earlier static HTML, SQL and CSV sources remain historical discovery material. Their existence does not establish a current missing catalog or validate an edition-specific value. Runtime counts and saved-checkpoint hashes are recorded in the [validation record](./research/research-validation-2026-10-01.json), separately from source accuracy.
 
 ## Legacy Drive sources
 
-The KHTABLES folder's ten-file inventory is recorded in [the source audit](./sources/khtables-drive-audit.md). File discovery is not an exhaustive row audit. [Parallel researchers](./research/parallel-game-research.md) are inspecting actual ranges and reconciling old findings; per-game evidence supersedes older tab-level assumptions.
+The KHTABLES folder's ten-file inventory is recorded in [the source audit](./sources/khtables-drive-audit.md). File discovery is not an exhaustive row audit. Per-game reconciliation and current evidence supersede the original tab-level assumptions and [September research assignments](./research/parallel-game-research.md).
 
 | Source | Game | High-value coverage | Migration status |
 |---|---|---|---|
-| KH FM TABLES | Kingdom Hearts Final Mix | Heartless, equipment, synthesis, Trinities, postcards, tournaments, Dalmatians, progression, Torn Pages, magic | Specified; facts unverified |
-| Kh2FM tables and SQL documents | Kingdom Hearts II Final Mix | Treasures, Puzzle Pieces, synthesis, drops, equipment, magic, missions, trophies, intended relational model | Specified; facts unverified |
-| KHBBS Tables | Birth by Sleep Final Mix | Command melding, crystal abilities, material sources, command catalog | Specified; facts unverified |
-| KH3D DATABASE PROJECT | Dream Drop Distance | Spirits, recipes, board unlocks, commands, abilities, Link Attacks and Styles | Specified; facts unverified |
+| KH FM TABLES | Kingdom Hearts Final Mix | Heartless, equipment, synthesis, Trinities, postcards, tournaments, Dalmatians, progression, Torn Pages, magic | Source-backed catalogs integrated; numeric legacy crosswalk recorded, full prose equivalence not claimed |
+| Kh2FM tables and SQL documents | Kingdom Hearts II Final Mix | Treasures, Puzzle Pieces, synthesis, drops, equipment, magic, missions, trophies, intended relational model | Reconciled FM catalogs integrated; original workbook provenance remains distinct from later sources |
+| KHBBS Tables | Birth by Sleep Final Mix | Command melding, crystal abilities, material sources, command catalog | Expanded canonical melding, command and collection catalogs integrated; remaining contradictions tracked by finding ID |
+| KH3D DATABASE PROJECT | Dream Drop Distance | Spirits, recipes, board unlocks, commands, abilities, Link Attacks and Styles | HD boards, formulas and commands integrated; blank probabilities and source conflicts are explicitly retained |
 
 No legacy Drive source was found for 0.2 or Kingdom Hearts III.
 
 ## Per-game specifications
 
-| Game/family | Specification | Current strongest source area | Largest known gap |
+| Game | Specification | Integrated source-backed coverage | Current remaining questions |
 |---|---|---|---|
-| Kingdom Hearts Final Mix | [Open](./games/kingdom-hearts-final-mix.md) | World collectibles and synthesis | Exhaustive treasure/accessory inventories, exact routes and validation |
-| Kingdom Hearts Re:Chain of Memories HD | [Open](./games/kingdom-hearts-re-chain-of-memories.md) | [2026-09-28 research pack](./games/recom/README.md): cards, rooms/rewards, Riku presets, sleights, shops and Steam goals | Native collection membership, seven CP conflicts, exact door predicates, independent modern validation and full catalogue coverage |
-| Kingdom Hearts II Final Mix | [Open](./games/kingdom-hearts-ii-final-mix.md) | Relational synthesis and treasure data | Reconcile actual tab contents, FM edition differences, exact collection routes and goal rules |
-| Birth by Sleep Final Mix + 0.2 | [Open](./games/birth-by-sleep-final-mix.md) | BBS command melding | Broader BBS completion and all 0.2 data |
-| Dream Drop Distance | [Open](./games/dream-drop-distance.md) | Spirit creation and Links | Portals, treasures, board topology, HD differences |
-| Kingdom Hearts III + Re Mind | [Open](./games/kingdom-hearts-iii.md) | Specification only | All factual datasets and exact completion rules |
+| Kingdom Hearts Final Mix | [Open](./games/kingdom-hearts-final-mix.md) | Collectibles, synthesis, equipment/items, abilities, progression, cups, Gummi and challenges | [Current per-finding ledger](./games/kh1fm/research-resolution-2026-10-01.md) |
+| Kingdom Hearts Re:Chain of Memories HD | [Open](./games/kingdom-hearts-re-chain-of-memories.md) | Both card rosters, rooms/rewards, sleights, progression, combat and boss-deck tables, shops and goals | [Current per-finding ledger](./games/recom/research-resolution-2026-10-01.md) |
+| Kingdom Hearts II Final Mix | [Open](./games/kingdom-hearts-ii-final-mix.md) | Treasures/puzzles, recipes/materials, equipment/abilities, combat, cups, minigames and Gummi | [Current per-finding ledger](./games/kh2fm/research-resolution-2026-10-01.md) |
+| Birth by Sleep Final Mix | [Open](./games/birth-by-sleep-final-mix.md) | Melding, command acquisition/CP/drops, abilities, chests/stickers, Arena, D-Links and minigames | [Current per-finding ledger](./games/bbsfm/research-resolution-2026-10-01.md) |
+| Kingdom Hearts 0.2 | [Open](./games/kingdom-hearts-02.md) | Physical collectibles, objectives, routes and defense/healing mechanics | [Current per-finding ledger](./games/kh02/audit-dispositions.md) |
+| Dream Drop Distance HD | [Open](./games/dream-drop-distance.md) | Chests, Spirit boards, commands/Links, recipes/materials/shops, portals and goals | [Current per-finding ledger](./games/dddhd/audit-dispositions.md) |
+| Kingdom Hearts III + Re Mind | [Open](./games/kingdom-hearts-iii.md) | Chests/emblems, synthesis, equipment/forge, cuisine, records, adversaries, Gummi and DLC/Premium goals | [Current per-finding ledger](./games/kh3/audit-resolution-2026-10-01.md) |
+
+These are coverage summaries, not claims of exhaustive correctness. Consult each ledger for exact unresolved subfields instead of treating a broad category as either wholly absent or wholly verified.
 
 ## Proposed guide catalog
 
