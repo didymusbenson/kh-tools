@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 research pack
 
+UI references received October 2, 2026: [three screenshots and source manifest](../../ui/references/kh02/README.md). **Open user follow-up KH02-UI-REF-01:** user will provide more screenshots later; current visual coverage is partial, with no due date set.
+
 2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](gap-closure-2026-10-02.md).
 
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md) and [continuation evidence](research-continuation-2026-10-01.md): **11 resolved, 6 partial, 1 blocked**.

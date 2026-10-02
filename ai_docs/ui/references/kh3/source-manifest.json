@@ -1,0 +1,63 @@
+{
+  "game": "Kingdom Hearts III",
+  "source": "Game UI Database; original JPGs supplied by user",
+  "access_note": "Reviewed local user uploads. Capture platform is not independently established.",
+  "usage": "UI design/research references; not production assets.",
+  "images": [
+    {
+      "file": "Kingdom-Hearts-III04022021-124325-2018.jpg",
+      "description": "Characters: pale two-column category/character list with cyan/blue selection and angular black frame.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-2018.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "6bcb4e0dfbfb1f21caab92a2c68636dfefebef93156d13ea70091cc2cc56be18",
+      "bytes": 221091,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-III04022021-124325-22843.jpg",
+      "description": "Glossary: dark green two-column index/text panel, green selection and vertical dividers.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-22843.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "2237ca81998ea00b808b61c21485dfd0c35c768bc8dec0e474943a81e9b4f99a",
+      "bytes": 298570,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-III04022021-124325-70928.jpg",
+      "description": "Story: dark illustrated backdrop, world index at left and prose at right, blue selection.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-70928.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "989f5f75de7a743eda77af16031a8d5f4acef49b95ccaa7e935028152af9fdf4",
+      "bytes": 382221,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-III04022021-124325-74189.jpg",
+      "description": "Treasures: world totals at left, chest-icon grid and map label at right, dark geometric border.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-74189.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "866ec41a0922f840631321f44178da3dc8314ed92072c87e9777d6999ac95e6d",
+      "bytes": 435278,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-III04022021-124350-43830.jpg",
+      "description": "Game Records: grouped category list at left, blue statistics panel at right, yellow values and bottom description.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124350-43830.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "0ff071080b8c4183f8d801690a222f0ed4131e226c68af5c3551e0b85e633a86",
+      "bytes": 354221,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

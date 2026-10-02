@@ -2,17 +2,16 @@
   "checkedAt": "2026-10-02",
   "scope": "Exhaustive semantic disposition of all 154 remaining bestiary prose/phase cells, all 396 abbreviated/empty level cells, and both route/reward cells of all 46 previously group-only Trinity rows. Each claim is assessed against the cited current canonical record; not a fresh Steam binary verification or a claim to validate unrelated historical prose. Accept is explicitly scoped to the clause, never whole-row equivalence. Superseded preserves context without importing ambiguous legacy claims. Unverifiable means an exact unsupported clause is quarantined, not a pending blanket comparison.",
   "inputHashes": {
-    "ai_docs/games/kh1fm/legacy-value-crosswalk.json": "3abacc410e392d0f0ac2c7da660d5a0b69399599b28f7ca61478b08101609a70",
-    "data/kh1fm/collectibles.json": "fa91c81a2ddd2fd81b84605e2372442e2aaea952a3d2eae341ae649fe07e0ac3",
-    "data/kh1fm/reference.json": "19caa547699373a6c04abf93a565ad3eb47d064d4283c75e7b6848b775f5860a"
+    "ai_docs/games/kh1fm/legacy-value-crosswalk.json": "027d385b8927c7db9b06f57c2659524dafb7570e4d3d980b5b7663051001f67e",
+    "data/kh1fm/collectibles.json": "8c4ed3c92531308f1e41e39b93d0bb5377f59fedc4b89e5eab671f0aed3b4a30",
+    "data/kh1fm/reference.json": "e109b2804dafcda66dae55e73532b33843e3c35171dfa3f960a5316757d2eb7b"
   },
   "coveredCells": 642,
   "claimCount": 787,
   "dispositions": {
-    "accept": 466,
-    "superseded": 277,
-    "reject": 41,
-    "unverifiable": 3
+    "accept": 467,
+    "superseded": 279,
+    "reject": 41
   },
   "evidence": {
     "kh1fm-enemy-air-pirate": {
@@ -6667,7 +6666,7 @@
       "name": "Blue Trinity — Magician's Study",
       "world": "Traverse Town",
       "area": "Magician's Study",
-      "instructions": "Find the blue mark in Magician's Study. On the floor near the main entrance. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
+      "instructions": "Inside the Magician’s Study (Merlin’s house), activate the blue Trinity near the save station with Donald and Goofy.",
       "reward": "Mega-Ether; Munny (small) x40; Munny (medium) x2",
       "facts": {
         "color": "Blue",
@@ -6685,6 +6684,11 @@
           "label": "KHWiki: Traverse Town — KH1 Final Mix tables",
           "url": "https://www.khwiki.com/Game:Traverse_Town",
           "checkedAt": "2026-09-18"
+        },
+        {
+          "label": "Follow-up Trinity route evidence",
+          "url": "https://www.khguides.com/kh/collectibles/trinities/",
+          "checkedAt": "2026-10-02"
         }
       ]
     },
@@ -6717,7 +6721,7 @@
       "name": "Blue Trinity — Lotus Forest",
       "world": "Wonderland",
       "area": "Lotus Forest",
-      "instructions": "Find the blue mark in Lotus Forest. After the boulder comes out of the flower, grow big and move the boulder into the water, then jump up the lily Pads into the hidden area. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
+      "instructions": "After Alice’s trial and the ensuing tower battle, return to Lotus Forest. Use the flower to grow, move the boulder into the pond, then shrink and cross the new platforms into the hidden alcove. Activate the blue Trinity with Donald and Goofy.",
       "reward": "Camping Set; MP Orb (small) x40; MP Orb (large) x5",
       "facts": {
         "color": "Blue",
@@ -6735,6 +6739,11 @@
           "label": "KHWiki: Wonderland — KH1 Final Mix tables",
           "url": "https://www.khwiki.com/Game:Wonderland",
           "checkedAt": "2026-09-18"
+        },
+        {
+          "label": "Follow-up Trinity route evidence",
+          "url": "https://www.destinyislands.com/kh-fm/collectables/trinity-marks/",
+          "checkedAt": "2026-10-02"
         }
       ]
     },
@@ -6967,7 +6976,7 @@
       "name": "Blue Trinity — Dungeon",
       "world": "Hollow Bastion",
       "area": "Dungeon",
-      "instructions": "Find the blue mark in Dungeon. On the ground. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command.",
+      "instructions": "From Entrance Hall, pass through the unlocked four-Emblem Heartless door into Lift Stop. Set the direction crystal to red for descent, then operate the separate blue lift crystal. Follow the lower passage to Waterway and take the platform descending to Dungeon. The blue Trinity is near the room’s center. Alternatively, from Base Level take the lower bubble to Waterway’s save point; have Beast open the barrier, take the corridor bubble under the grate, and have Beast break the stone wall into Dungeon. Return with Donald and Goofy to activate the Trinity.",
       "reward": "Mega-Potion; Mega-Ether; Cottage; HP prize (small) x40",
       "facts": {
         "color": "Blue",
@@ -6985,6 +6994,11 @@
           "label": "KHWiki: Hollow Bastion — KH1 Final Mix tables",
           "url": "https://www.khwiki.com/Game:Hollow_Bastion",
           "checkedAt": "2026-09-18"
+        },
+        {
+          "label": "Follow-up Trinity route evidence",
+          "url": "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/khfm-walkthrough/hollow-bastion/hollow-bastion",
+          "checkedAt": "2026-10-02"
         }
       ]
     },
@@ -16152,27 +16166,27 @@
       "column": 3,
       "clause": "Near the Save Point in Merlin's House",
       "disposition": "superseded",
-      "reason": "Merlin house interior is accepted; precise save-point landmark is not corroborated by the current main-entrance description.",
+      "reason": "Merlin house interior and save-station landmark are corroborated by KHGuides.",
       "canonicalIds": [
         "kh1fm-trinity-blue-04"
       ],
       "canonicalField": "area / instructions",
       "current": {
         "area": "Magician's Study",
-        "instructions": "Find the blue mark in Magician's Study. On the floor near the main entrance. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+        "instructions": "Inside the Magician’s Study (Merlin’s house), activate the blue Trinity near the save station with Donald and Goofy."
       }
     },
     {
       "source": "csv/khfmtrinity.csv:5",
       "column": 3,
       "clause": "Near the Save Point",
-      "disposition": "unverifiable",
-      "reason": "Current cited route establishes the mark and room, but not this additional landmark/prerequisite/itinerary. Do not import it; a room traversal or explicit source passage is missing.",
+      "disposition": "accept",
+      "reason": "KHGuides explicitly corroborates the save-station landmark.",
       "canonicalIds": [
         "kh1fm-trinity-blue-04"
       ],
       "canonicalField": "instructions",
-      "current": "Find the blue mark in Magician's Study. On the floor near the main entrance. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+      "current": "Inside the Magician’s Study (Merlin’s house), activate the blue Trinity near the save station with Donald and Goofy."
     },
     {
       "source": "csv/khfmtrinity.csv:5",
@@ -16218,27 +16232,27 @@
       "column": 3,
       "clause": "In a hidden alcove in Lotus Forest; after defeating the Queen, push the rock into the lake while you're a giant and mushrooms will appear. Jump on the mushrooms to find the hidden trinity.",
       "disposition": "superseded",
-      "reason": "Lotus Forest hidden alcove and moving the boulder while large agree. Current route uses the yellow flower, lily pads and mushrooms; the claimed Queen-defeat prerequisite is not supported.",
+      "reason": "Lotus Forest hidden alcove and moving the boulder while large agree. Current route uses the yellow flower, lily pads and mushrooms; the prerequisite is after the trial and tower battle, not defeating the Queen herself.",
       "canonicalIds": [
         "kh1fm-trinity-blue-06"
       ],
       "canonicalField": "area / instructions",
       "current": {
         "area": "Lotus Forest",
-        "instructions": "Find the blue mark in Lotus Forest. After the boulder comes out of the flower, grow big and move the boulder into the water, then jump up the lily Pads into the hidden area. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+        "instructions": "After Alice’s trial and the ensuing tower battle, return to Lotus Forest. Use the flower to grow, move the boulder into the pond, then shrink and cross the new platforms into the hidden alcove. Activate the blue Trinity with Donald and Goofy."
       }
     },
     {
       "source": "csv/khfmtrinity.csv:7",
       "column": 3,
       "clause": "after defeating the Queen",
-      "disposition": "unverifiable",
-      "reason": "Current cited route establishes the mark and room, but not this additional landmark/prerequisite/itinerary. Do not import it; a room traversal or explicit source passage is missing.",
+      "disposition": "superseded",
+      "reason": "HD/FM guide says after Alice’s trial; tower destruction, not defeating the Queen herself, is the precise event.",
       "canonicalIds": [
         "kh1fm-trinity-blue-06"
       ],
       "canonicalField": "instructions",
-      "current": "Find the blue mark in Lotus Forest. After the boulder comes out of the flower, grow big and move the boulder into the water, then jump up the lily Pads into the hidden area. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+      "current": "After Alice’s trial and the ensuing tower battle, return to Lotus Forest. Use the flower to grow, move the boulder into the pond, then shrink and cross the new platforms into the hidden alcove. Activate the blue Trinity with Donald and Goofy."
     },
     {
       "source": "csv/khfmtrinity.csv:7",
@@ -16500,27 +16514,27 @@
       "column": 3,
       "clause": "In the Dungeon. Enter the Lift Stop through the Grand Hall. Use the blue crystal and go down a level. Use the lift in the Waterway to go down another level. Also accessible through the base level, behind a wall that Beast must break down.",
       "disposition": "superseded",
-      "reason": "Dungeon mark agrees. Detailed Grand Hall/Lift Stop/Waterway itinerary and Beast-wall alternative are not established by the current mark description.",
+      "reason": "Dungeon mark agrees. Corrected Entrance Hall/Lift Stop/Waterway itinerary and Beast-wall alternative are established by HD guide evidence.",
       "canonicalIds": [
         "kh1fm-trinity-blue-16"
       ],
       "canonicalField": "area / instructions",
       "current": {
         "area": "Dungeon",
-        "instructions": "Find the blue mark in Dungeon. On the ground. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+        "instructions": "From Entrance Hall, pass through the unlocked four-Emblem Heartless door into Lift Stop. Set the direction crystal to red for descent, then operate the separate blue lift crystal. Follow the lower passage to Waterway and take the platform descending to Dungeon. The blue Trinity is near the room’s center. Alternatively, from Base Level take the lower bubble to Waterway’s save point; have Beast open the barrier, take the corridor bubble under the grate, and have Beast break the stone wall into Dungeon. Return with Donald and Goofy to activate the Trinity."
       }
     },
     {
       "source": "csv/khfmtrinity.csv:17",
       "column": 3,
       "clause": "Grand Hall → Lift Stop → blue crystal → Waterway lift; alternative Beast-breakable wall route",
-      "disposition": "unverifiable",
-      "reason": "Current cited route establishes the mark and room, but not this additional landmark/prerequisite/itinerary. Do not import it; a room traversal or explicit source passage is missing.",
+      "disposition": "superseded",
+      "reason": "Correct Grand Hall to Entrance Hall. HD guide supports red descent selector plus separate blue activation crystal and Beast wall alternative; return with Donald and Goofy.",
       "canonicalIds": [
         "kh1fm-trinity-blue-16"
       ],
       "canonicalField": "instructions",
-      "current": "Find the blue mark in Dungeon. On the ground. Put Sora, Donald and Goofy in the active party, clear nearby enemies, then use the Trinity command."
+      "current": "From Entrance Hall, pass through the unlocked four-Emblem Heartless door into Lift Stop. Set the direction crystal to red for descent, then operate the separate blue lift crystal. Follow the lower passage to Waterway and take the platform descending to Dungeon. The blue Trinity is near the room’s center. Alternatively, from Base Level take the lower bubble to Waterway’s save point; have Beast open the barrier, take the corridor bubble under the grate, and have Beast break the stone wall into Dungeon. Return with Donald and Goofy to activate the Trinity."
     },
     {
       "source": "csv/khfmtrinity.csv:17",

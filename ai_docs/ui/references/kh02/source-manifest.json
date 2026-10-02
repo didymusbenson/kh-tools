@@ -1,0 +1,40 @@
+{
+  "game": "Kingdom Hearts 0.2 Birth by Sleep \u2014 A fragmentary passage",
+  "source": "Game UI Database; original JPGs supplied by user",
+  "usage": "Limited UI design references; additional user screenshots outstanding. Not production artwork.",
+  "images": [
+    {
+      "file": "Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-23659.jpg",
+      "description": "Story menu: dark cinematic backdrop, grouped story entries and blue selection.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-23659.jpg",
+      "source_url_basis": "Reconstructed from original filename and user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "162e633ff36a6309f986a225657f4f26804158acf9e81d9ef93c1355e60562f9",
+      "bytes": 123483,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-64098.jpg",
+      "description": "Objectives: blue menu frame, numbered progress rows, glove cursor, selected-row outline, reward preview and bottom objective description.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071047-64098.jpg",
+      "source_url_basis": "Reconstructed from original filename and user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "87fe0ff24298a171700bbad33ffdf329fde5420b655a24e976838b2c3920f8a9",
+      "bytes": 364878,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071048-51075.jpg",
+      "description": "Story text overlay: orange selected entry and translucent lined text panel over cinematic artwork.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-02-Birth-by-Sleep--A-Fragmentary-Passage08292021-071048-51075.jpg",
+      "source_url_basis": "Reconstructed from original filename and user-provided Game UI Database source context; not independently fetched",
+      "received_date": "2026-10-02",
+      "sha256": "3bae5715a76e43c0131f0c5e8b8122598f8ca6dd430fa4802325be2216283e4a",
+      "bytes": 240853,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

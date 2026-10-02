@@ -88,3 +88,7 @@ Gameplay thresholds, replay rules and platform lists are research questions for 
 7. Pass the grounded Data Jiminy cases with source/version context and honest answers for unresolved facts.
 
 These are required future validations, not claimed completed tests.
+
+## UI reference follow-up — October 2, 2026
+
+**KH02-UI-REF-01 — Open, owner: user.** [Three supplied UI Database screenshots](../ui/references/kh02/README.md) cover Objectives and two Story views. The user regards this as weak coverage and will provide additional screenshots later (no date set). Keep this reference-coverage gap open; receipt of these files does not complete custom styling or visual acceptance.

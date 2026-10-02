@@ -4796,7 +4796,7 @@
       "game": "kh1fm",
       "category": "accessory",
       "name": "Three Stars",
-      "summary": "Fire, Blizzard and Thunder resistance +20%; Defense bonus disputed (+3 or +4).",
+      "summary": "Defense +4; Fire, Blizzard and Thunder resistance +20%.",
       "instructions": "Synthesize Three Stars at the Traverse Town workshop. The linked recipe lists its unlock and exact quantities.",
       "tags": [
         "Final Mix",
@@ -4833,18 +4833,17 @@
           "checkedAt": "2026-10-01"
         }
       ],
-      "verification": "unresolved",
+      "verification": "source-backed",
       "checkable": true,
       "collectible": false,
       "world": "Traverse Town",
       "reward": "Three Stars",
       "facts": {
-        "Defense": "Unresolved: +3 or +4",
+        "Defense": "+4",
         "Fire resistance": "+20%",
         "Blizzard resistance": "+20%",
         "Thunder resistance": "+20%"
-      },
-      "uncertainty": "Defense conflict: dedicated KHWiki item infobox lists Final Mix +4, while KHGuides Final Mix accessory table and KHWiki Final Mix changes list +3. Acquisition and recipe are reconciled; defense is unresolved."
+      }
     },
     {
       "id": "kh1fm-accessory-thundaga-ring",
@@ -10397,7 +10396,7 @@
           "checkedAt": "2026-09-18"
         },
         {
-          "label": "HD 1.5 experiment — +12 versus Ultimania +15",
+          "label": "HD 1.5 MP recovery experiment",
           "url": "https://www.reddit.com/r/KingdomHearts/comments/1koased/how_mp_recharge_works/",
           "checkedAt": "2026-10-01"
         },
@@ -10416,8 +10415,7 @@
         "Sword level": 45,
         "Shield level": 72,
         "Rod level": 21
-      },
-      "uncertainty": "Published KH1 formula accounts disagree: Ultimania-derived descriptions use +15 while an HD 1.5 experiment reports +12 in the level/enemy-recovery term. KHWiki only describes faster charge; no Steam-specific adjudication was found. Do not reuse KH2 cooldown percentages."
+      }
     },
     {
       "id": "kh1fm-ability-mp-rage",
@@ -10462,7 +10460,7 @@
       "category": "ability",
       "name": "Berserk",
       "summary": "Raises physical power while HP is critical.",
-      "instructions": "Sora: LV 78 [Sword] / LV 9 [Shield] / LV 60 [Rod]; Donald Duck: LV 9; Goofy: LV 45; Tarzan: Default; Beast: Default. Equip it from the Abilities menu; learning it does not automatically guarantee enough AP to equip it. Adds 4 Strength while HP is critically low.",
+      "instructions": "Sora: LV 78 [Sword] / LV 9 [Shield] / LV 60 [Rod]; Donald Duck: LV 9; Goofy: LV 45; Tarzan: Default; Beast: Default. Equip it from the Abilities menu; learning it does not automatically guarantee enough AP to equip it. Adds 4 Strength while HP is critically low. Critical HP is the flashing-red HP warning. The reported threshold depends on maximum HP; see Activation threshold.",
       "tags": [
         "Final Mix",
         "Steam",
@@ -10484,6 +10482,16 @@
           "label": "https://www.khwiki.com/Berserk_(ability)",
           "url": "https://www.khwiki.com/Berserk_(ability)",
           "checkedAt": "2026-10-01"
+        },
+        {
+          "label": "HD Berserk mechanics research — reported HP thresholds",
+          "url": "https://www.reddit.com/r/KingdomHearts/comments/1l959or/i_casually_changed_the_way_we_understand_khfm/",
+          "checkedAt": "2026-10-02"
+        },
+        {
+          "label": "KH1 HP gauge and audible warning",
+          "url": "https://www.rinoadiary.it/soluzione/kingdom_hearts/index.php?page=testo_menu_comando",
+          "checkedAt": "2026-10-02"
         }
       ],
       "verification": "source-backed",
@@ -10495,7 +10503,8 @@
         "Sword level": 78,
         "Shield level": 9,
         "Rod level": 60,
-        "Quantitative effect": "Adds 4 Strength while HP is critically low."
+        "Quantitative effect": "Adds 4 Strength while HP is critically low.",
+        "Activation threshold": "Reported: below 20% HP when maximum HP is above 40; 8 HP or less when maximum HP is below 40. At maximum HP exactly 40, the cited account does not specify the boundary."
       }
     },
     {
@@ -23874,7 +23883,7 @@
       "expected": 54,
       "actual": 54,
       "complete": true,
-      "notes": "All accessories from the KH 1/FM source roster; Final Mix stat overrides applied. Acquisition entries emphasize synthesis/shop/unique reward; every alternative chest is linked through the collectible catalog where available. Three Stars Defense remains an explicit +3/+4 source conflict; roster and recipes are complete."
+      "notes": "All accessories from the KH 1/FM source roster; Final Mix stat overrides applied. Acquisition entries emphasize synthesis/shop/unique reward; every alternative chest is linked through the collectible catalog where available. Three Stars Defense is resolved to +4 by the user on October 2, 2026; source disagreement remains in the research history. Roster and recipes are complete."
     },
     {
       "category": "enemy",
