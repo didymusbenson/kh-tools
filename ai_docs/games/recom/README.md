@@ -50,6 +50,8 @@ These files overlap by design: a card definition, its chest reward and its achie
 
 ## Remaining research
 
+Promising official reference: [Final Mix+ Ultimania, with inspected Re:CoM sample pages](editions-sources-and-conflicts.md#october-2-official-reference-candidate-inspected-sample). For platform questions, use [direct Steam evidence](editions-sources-and-conflicts.md#october-2-direct-steam-evidence-route); a KH-specific guide is not required.
+
 See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historical baseline audit](research_audit.md). Exact pack distributions, Riku overrides, full farm routes, native sleight order, recipe precedence, save-state/Steam trigger predicates, Report registration and two basic-card durations remain precisely bounded; existing CP/card membership/doors remain closed.
 
 Source URLs, classifications and research tasks belong in this pack. Journal entries provide acquisition directions, costs and effects without sources/reference panels or research TODOs.

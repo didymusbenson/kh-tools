@@ -1,6 +1,6 @@
 # Editions, evidence and conflicts
 
-Updated 2026-10-01. [Pack index](README.md).
+Updated 2026-10-02. [Pack index](README.md).
 
 ## Release baseline
 
@@ -89,3 +89,20 @@ This directly establishes the book's suitability for numeric combat questions in
 Use an inspected, applicable official table to settle a disputed original-remake fact; retain the page and edition with the result. Modern Days flags, Steam achievement predicates and save behavior still require modern evidence. No game catalog, runtime value or audit disposition changes in this source-finding pass.
 
 The already-consulted [falconesque GameFAQs guide](https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913) remains a useful free English companion. Its original-game evidence is North American PS2; finding it again is not new independent corroboration or proof of a Steam-only condition.
+
+## October 2: direct Steam evidence route
+
+**A KH guide is not required for Steam facts.** Use Valve's platform documentation for platform behavior, the game's published Steam records for app-specific metadata, and publisher updates or reproducible observations for game behavior. The Ultimania remains a promising original-remake reference; platform research proceeds independently.
+
+Sources inspected in this follow-up:
+
+| Primary source | What it establishes | Application to our gaps |
+|---|---|---|
+| [Valve: Stats and Achievements](https://partner.steamgames.com/doc/features/achievements) — Overview, achievement properties, usage and Offline mode | Steam stats/achievements are account-associated. Offline changes are cached for later synchronization. Achievements can be awarded explicitly or through configured progress-stat thresholds. | COM-011: platform ownership/synchronization is documented. Do not infer which Re:CoM events increment a counter, whether counters span campaigns, or which unlock mechanism this app uses. |
+| [Valve: Steam Cloud](https://partner.steamgames.com/doc/features/cloud) — Overview | Steam synchronizes files selected through a game's Cloud configuration/API; ordinary synchronization includes upload after exit and download before launch on another computer. | COM-008/009: supplies transport behavior. Next inspect this app's selected files and save contents to establish whether Days/clear flags travel with them. Generic Cloud support alone does not identify those flags. |
+| [Steam's published app achievements](https://steamcommunity.com/stats/2552430/achievements/) | Directly confirms public requirements, including Sora's sleights and Riku's D Report card collection. | COM-006/011/012: primary requirement wording, already partly represented in our catalog. The page does not enumerate the hidden membership checks behind those requirements. |
+| [Valve: ISteamUserStats Web API](https://partner.steamgames.com/doc/webapi/ISteamUserStats) — GetSchemaForGame, GetPlayerAchievements, GetUserStatsForGame | Documents ways to retrieve a game's stats/achievement list and accessible player records. These documented calls require a Web API key. | Next research route for COM-011/012: inspect the actual app schema and exposed stats. Documentation was read; no authenticated schema or player-data response was retrieved in this follow-up. |
+
+Research order: official public metadata and publisher patch notes; available app schema/cloud configuration; then controlled save or achievement observations for remaining game-specific questions. Inspect exposed progress thresholds where available before assuming an executable investigation is necessary. A schema's display text does not by itself reveal every game-side condition.
+
+This resolves the source-selection question and records the platform baseline. The full game-specific audit families remain partial/open; no runtime behavior or family counts changed. “Steam-specific evidence needed” must not be interpreted as “find a Steam-specific KH walkthrough.”

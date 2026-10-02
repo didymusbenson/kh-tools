@@ -5142,5 +5142,34 @@
     "result": "Official numeric mechanics coverage verified in sample. Strong primary reference candidate for original remake disputes; remaining requested tables need inspection. Does not certify later Steam behavior.",
     "auditDispositionsChanged": false,
     "runtimeChanged": false
+  },
+  "steamPrimarySourceRoute20261002": {
+    "accessed": "2026-10-02",
+    "assessmentFile": "ai_docs/games/recom/editions-sources-and-conflicts.md",
+    "sources": [
+      {
+        "url": "https://partner.steamgames.com/doc/features/achievements",
+        "sections": "Overview; achievement properties; usage; Offline mode",
+        "access": "retrieved official documentation"
+      },
+      {
+        "url": "https://partner.steamgames.com/doc/features/cloud",
+        "sections": "Overview and synchronization model",
+        "access": "retrieved official documentation"
+      },
+      {
+        "url": "https://steamcommunity.com/stats/2552430/achievements/",
+        "sections": "Sleight Master and Card Master Riku public requirements",
+        "access": "retrieved Steam app page"
+      },
+      {
+        "url": "https://partner.steamgames.com/doc/webapi/ISteamUserStats",
+        "sections": "GetSchemaForGame; GetPlayerAchievements; GetUserStatsForGame",
+        "access": "retrieved API documentation; no authenticated game schema or player response obtained"
+      }
+    ],
+    "decision": "Use Steam primary sources for platform facts and published game metadata; KH guide coverage is not an evidence prerequisite. Inspect actual app configuration and observations for game-specific behavior.",
+    "auditDispositionsChanged": false,
+    "runtimeChanged": false
   }
 }
