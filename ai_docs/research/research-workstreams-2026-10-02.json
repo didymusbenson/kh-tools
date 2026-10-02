@@ -6,7 +6,8 @@
     "App development includes implementing or exposing facts already known, generators/parsers/indexes, app documentation, planners, saved state, artwork, device/offline testing and Jiminy.",
     "Mixed families get one primary assignment to prevent double counting. Their original disposition and linked factual dependencies remain visible; classification does not close or reopen findings.",
     "Game save/counter behavior and Steam game controls are game research; our app persistence and UI controls are app development.",
-    "Evidence limitations and exclusions are not eight new unknown mechanics or eight automatically actionable tasks."
+    "Evidence limitations and exclusions are not eight new unknown mechanics or eight automatically actionable tasks.",
+    "Evidence counts retain partial findings whose research is deferred or dropped. Of 87 partial/unresolved game families, KH1-003 has practical needs met and is deferred, KH1-005 is dropped from research scope, and 85 remain active."
   ],
   "counts": {
     "game-factual-research": {
@@ -53,9 +54,12 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Steam evidence added for pause/cutscene counting, reported 100-hour timer rollover, and awards from eligible pre-final-boss saves. Exact scripted/guest swap flags, every individual menu, and persistent-versus-save-local flag storage remain undocumented.",
+      "currentDisposition": "Practical needs met by user decision on 2026-10-02. Existing restricted-run achievement guidance is sufficient. Further equipment-flag, menu-timer and save/system-file persistence research is deferred; evidence remains partial, not independently verified.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "practical-needs-met",
+      "furtherResearch": "deferred",
+      "futureImprovements": "ai_docs/games/kh1fm/future-improvements.md"
     },
     {
       "id": "KH1-004",
@@ -77,9 +81,11 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Complete 22-activity roster and Journal registration remain supplied. New HD collection evidence explicitly resolves repeat training to no further reward; a saved best-time field outside the Journal remains undocumented.",
+      "currentDisposition": "Dropped from research scope by user decision on 2026-10-02: whether Phil barrel training saves a best time outside the Journal has no current feature need. No future-improvements task. Existing roster, Journal registration and no-further-reward guidance remain supplied; the saved-field question is not claimed verified.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/kh1fm/research-resolution-2026-10-01.md",
+      "researchDisposition": "dropped-from-scope",
+      "furtherResearch": "none"
     },
     {
       "id": "KH1-006",

@@ -1,5 +1,7 @@
 # KH1 Final Mix — sourced planning reference
 
+**Research priority:** KH1-003 has **practical needs met**; remaining details are deferred to [future improvements](future-improvements.md). KH1-005’s remaining barrel-record question is dropped from research scope, with no future task. The evidence totals above retain both as partial and do not represent an active task count.
+
 **Current status — 2026-10-02:** 12 closed, 6 partial, 2 unresolved; [continuation evidence for all residuals](research-continuation-2026-10-01.md). [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
 
 Initial planning: **2026-09-18**; full audit-resolution pass: **2026-10-01**. Product: Ars Arcanum. Scope: modern KH1 Final Mix in HD 1.5 + 2.5 ReMIX; no original-KH/PS2 compatibility work.

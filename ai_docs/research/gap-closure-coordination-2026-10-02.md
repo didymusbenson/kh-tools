@@ -78,7 +78,7 @@ This classification covers **all 208 existing audit families**, including closed
 | App development, content integration, design and acceptance | 13 | 0 | 0 | 6 | 19 |
 | Total | 107 | 73 | 14 | 14 | 208 |
 
-The game side contains **87 partial/unresolved families**, plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 107 closed count.
+The game side contains **87 partial/unresolved evidence families** (KH1-003 has practical needs met and is [deferred](../games/kh1fm/future-improvements.md), KH1-005 is dropped from research scope, leaving 85 active families), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 107 closed count.
 
 Mixed families have one primary assignment based on the question being resolved; the original wording and related factual IDs remain in the register. This does not split one family into multiple counted tasks or change any factual disposition. Game save behavior, achievement counters and native Steam controls stay under game research; our app saved state, controls and acceptance stay under app development.
 
