@@ -1,8 +1,10 @@
 # Kingdom Hearts 0.2 readiness
 
+2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](../games/kh02/gap-closure-2026-10-02.md).
+
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
 
-Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 10 resolved, 7 partial and 1 blocked finding. Shared application acceptance remains root-owned.
+Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 11 resolved, 6 partial and 1 blocked finding. Shared application acceptance remains root-owned.
 
 Specification: [Kingdom Hearts 0.2](../games/kingdom-hearts-02.md) · [Research pack](../games/kh02/README.md). Apply the [shared readiness method and edition policy](./README.md) and [collectible compendium/linked views contract](../content/collectible-compendium-and-linked-views.md). All specified content and features remain MVP.
 
@@ -57,7 +59,7 @@ The physical collectible baseline is **55**, with area grouping **11/21/16/7**. 
 - [ ] Resolve source disputes: objective13 30/50 lightning kills and exact31/50 replay/boss predicates. Ice Breaker, mirror reflection and aliases are resolved.
 - [ ] Resolve the two remaining Forest content joins: save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion. The staircase Ether route, pillar pairing, Pisces, memory positions and flower colors are resolved.
 - [ ] Verify cleared-save travel, gem recovery, counter retroactivity and per-record NG+ carry/reset; preserve distinct run and permanent ownership state.
-- [ ] Resolve missing Phantom Aqua numeric stats, the Into the Depths of Darkness Steam key and other-platform native mappings; defensive defaults and 14 Steam key mappings are integrated. Verify announced native editions only after availability.
+- [ ] Resolve uncertified Phantom Aqua numeric stats; other-platform native mappings are separate scope. Defensive defaults and all 15 Steam key mappings are integrated. Verify announced native editions only after availability.
 - [x] Generate researched definitions with provenance, stable IDs, aliases, area order and explicit unknowns.
 - [ ] Implement synchronized compact/detail/search/Data Jiminy state, offline persistence, import/export, undo, rollback/retry and safe migrations.
 - [ ] Build/evaluate the bundled Coppermind and local SLM answers; source disagreements must produce qualified answers.

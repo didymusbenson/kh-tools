@@ -248,5 +248,85 @@
     "sha256": "224dad91b0e449d324f32cbc6a3ed2f10d41369bba8c5a91576e7bab0ad0b8fd",
     "bytes": 2990,
     "method": "pinned save-slot layout; storage slots not objective census"
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-001",
+    "urls": [
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Inspected original Soraalam1 PS4 footage and English automatic transcript at 5:27\u20135:37: narrator specifies 30 lightning final blows. Video description explicitly targets PSN Ambitious; it is not Steam evidence. Frames at 5:27/5:31 show combat and editorial objective title, not a threshold counter."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-005",
+    "urls": [
+      "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
+      "https://www.destinyislands.com/images/games/kh-02-bbs/collectables/treasure-chests/forest-of-thorns-3-12-ether.png",
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk",
+      "https://samurai-gamers.com/kingdom-hearts-3/dark-side-chapter-3-walkthrough/"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Directly inspected Destiny Islands Forest 3/12 image: chest in an alcove, no acquisition popup, HUD, build or locale. Table identifies Ether, but filename/table are editorial labels. Video 20:49\u201321:53 supplies all Forest landmarks without item names in narration; no justified resolution of item identity. Samurai Gamers 2017 map table adds Ether at marker 5 but lacks modern edition provenance."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-010",
+    "urls": [
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/24"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Retrieved Xbox walkthrough pages 18/19/24 text, including explicit ordinary-chest refill and Objective-progress transfer claims. This improves on the previous isolated page-18 excerpt, but does not specify individual gem/memory flags. Generic GitHub kh02 repository search returned unrelated projects, not a game-state implementation."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-011",
+    "urls": [
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk",
+      "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74858364?page=2"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Original PS4 guide transcript 11:00\u201311:26 identifies third story Phantom for objective 31; 26:39\u201327:39 demonstrates a conservative Finish route for 50. GameFAQs mini-guide page 2 independently says 31 does not need simultaneous Finish. None demonstrates Zodiac substitution or Steam pre-unlock counter events."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-012",
+    "urls": [
+      "https://www.playstationtrophies.org/game/kingdom-hearts-0-2-birth-by-sleep-a-fragmentary-passage/guide/",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "PS4 trophy guide explicitly prescribes all chests in one playthrough; Xbox general-info guide describes refilled chests and a complete NG+ collection route. Added safe same-cleared-save collection advice to canonical generator/runtime."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-013",
+    "urls": [
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/19",
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Xbox general-info guide describes magic Situation Commands and achievement but supplies no save-transfer evidence; its extra Spellweaver wording is not imported into the three-magic set. Direct SteamDB ACH_12 row confirms only the displayed goal, not partial-set storage."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-015",
+    "urls": [
+      "https://www.khwiki.com/Game:Phantom_Aqua"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "Extracted actual wiki numeric table rather than treating its cleanup banner as an empty table: first/second story HP 500, third 1500, Zodiac 4000; strength/defense 51/28 for story and 65/36 Zodiac. These are source claims without Steam build/difficulty attribution."
+  },
+  {
+    "inspected": "2026-10-02",
+    "finding": "KH02-016",
+    "urls": [
+      "https://steamdb.info/app/2552440/stats/"
+    ],
+    "method": "Browser, retrieved article text, or indexed excerpt as described; no game execution",
+    "observations": "All 15 Steam associations observed directly in rendered SteamDB achievement containers. achievement-ACH_05 contains Into the Depths of Darkness and its story-clear requirement; achievement-ACH_23 separately contains Deft Diver. Canonical provenance and validator now require 15/15 unique keys, exact ACH_05 pairing and same-container evidence."
   }
 ]

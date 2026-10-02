@@ -1,5 +1,7 @@
 # 0.2 evidence manifest and unresolved research
 
+2026-10-02: Steam native achievement mapping is complete (15/15); current ledger is 11 resolved, 6 partial, 1 blocked. [Closure evidence and exact residuals](gap-closure-2026-10-02.md).
+
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
 
 Audit date: 2026-09-18. Evidence is **documented research**, not a current-build play test. Factual inventories are paraphrased/normalized; no production screenshot or map assets were acquired. Primary sources establish collection/release/platform facts; community sources supply gameplay conditions and text routes. A complete source list is not equivalent to a complete validated dataset.

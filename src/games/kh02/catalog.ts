@@ -1296,9 +1296,10 @@ export const entries: CollectionEntry[] = [
     "order": 13,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
+    "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
   },
   {
     "id": "kh02:wardrobe:mystic-pauldron",
@@ -1313,9 +1314,10 @@ export const entries: CollectionEntry[] = [
     "order": 13,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
+    "uncertainty": "The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified."
   },
   {
     "id": "kh02:objective:14",

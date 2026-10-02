@@ -67,9 +67,10 @@ for _,c in rows('objectives-and-wardrobe.md'):
  e=add('objective:'+c[0],'objectives',c[0]+' · '+c[1],c[2]+'.',**kw)
  if n in extra:e['instructions']=extra[n]
  if n in [36,41,47,50,51]:e['missability']='A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight.'
- if n==13:e['uncertainty']='Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified.'
+ if n==13:e['uncertainty']='The original PS4 video guide specifies 30 Lightning final blows; the Steam guide says 50. The current Steam threshold remains unverified.'
  if n==50:e['uncertainty']='PSU and the Steam guide say Wayfinder active at victory; StrategyWiki says Finish. Use Finish for a conservative attempt, while the stricter predicate remains disputed.'
  if n in [14,15,18,26,31,36,41,47,50]:e['sources'] += [steam,thundaka]
+ if n==13:e['sources'].append('https://www.youtube.com/watch?v=RzbFkFwQyAk&t=327s')
  if n==50:e['sources'].append('https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness')
  if n==8:e['instructions']='Astral Ornament is also called Divine Back in an older guide; these are the same reward, not two cosmetics.'
  if n==42:e['categories']=['challenges']

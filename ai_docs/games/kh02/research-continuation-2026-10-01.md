@@ -1,5 +1,7 @@
 # KH02 research continuation — 2026-10-01
 
+Historical snapshot; superseded by [October 2 gap closure](gap-closure-2026-10-02.md).
+
 Target: Steam HD, collection 2552440. Starting checkpoint `2fd2927`: **10 resolved, 7 partial, 1 blocked**. Current: **10 resolved, 7 partial, 1 blocked**. Every 8 previously partial/blocked finding is accounted for below. Earlier completed catalogs were retained; no checklist IDs, formula probabilities, board edges or undocumented counter rules were guessed. No user playthrough is required for this documentary pass.
 
 Source access labels distinguish full-page/image inspection, indexed excerpts and uninspected follow-up leads. Source citations and API identifiers stay in canonical provenance; player entries receive useful route/price corrections and necessary gameplay caveats.
