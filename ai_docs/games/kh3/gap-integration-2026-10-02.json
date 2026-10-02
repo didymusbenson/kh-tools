@@ -92,5 +92,19 @@
       "quantity": 5
     }
   ],
-  "sourceScope": "Published KHIII acquisition tables; Steam-specific untested boundaries remain in audit-dispositions.json."
+  "sourceScope": "Published KHIII acquisition tables; Steam-specific untested boundaries remain in audit-dispositions.json.",
+  "harvestRouteIds": [
+    "kh3.material.parsley",
+    "kh3.material.raspberry",
+    "kh3.material.blackberry",
+    "kh3.material.gooseberry",
+    "kh3.material.miller-mushroom",
+    "kh3.material.portobello"
+  ],
+  "harvestRouteCount": 21,
+  "publishedCombinedCostLevels": 99,
+  "copyRecoveryIds": [
+    "kh3.rewards.222-sora-copies",
+    "kh3.rewards.333-sora-copies"
+  ]
 }

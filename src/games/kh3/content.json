@@ -9199,13 +9199,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Arendelle / Frozen Wall: Mushroom. (appearance 100%); The Caribbean / Horseshoe Island: Mushroom. (appearance 100%); The Caribbean / Ship's End: Mushroom. (appearance 100%). Ingredient sources: Frozen Wall , Horseshoe Island , Ship's End.",
+      "instructions": "Arendelle / Frozen Wall: Mushroom. (appearance 100%); The Caribbean / Horseshoe Island: Mushroom. (appearance 100%); The Caribbean / Ship's End: Mushroom. (appearance 100%). Ingredient sources: Frozen Wall , Horseshoe Island , Ship's End. Harvest approaches: Arendelle / Frozen Wall: From Mountain Ridge enter the northeastern cave and follow Frozen Wall east. Cross the opening using the whirlwinds, or Glide if available, and inspect mushrooms near the snowy bushes on the eastern edge. The Caribbean / Horseshoe Island: Sail to Horseshoe Island; inspect beneath the rock bearing a lone palm tree near its northern edge. The Caribbean / Ship’s End: Inspect the mushrooms in front of the old shipwreck near the shore. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.destinyislands.com/kh3/items/ingredients/portobello/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Arendelle",
@@ -9224,6 +9225,26 @@
           "area": "Ship's End",
           "rate": "100%",
           "object": "Mushroom."
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the northeastern cave and follow Frozen Wall east. Cross the opening using the whirlwinds, or Glide if available, and inspect mushrooms near the snowy bushes on the eastern edge.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/portobello/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Horseshoe Island",
+          "directions": "Sail to Horseshoe Island; inspect beneath the rock bearing a lone palm tree near its northern edge.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/portobello/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Ship’s End",
+          "directions": "Inspect the mushrooms in front of the old shipwreck near the shore.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/portobello/"
         }
       ]
     },
@@ -9373,13 +9394,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Arendelle / Mountain Ridge: Mushroom. (appearance 100%); The Caribbean / Huddled Isles: Mushroom. (appearance 100%); The Caribbean / Forsaken Isle: Mushroom. (appearance 100%); The Caribbean / Sandbar Isle: Mushroom. (appearance 100%). Ingredient sources: Mountain Ridge , Huddled Isles , Forsaken Isle , Sandbar Isle.",
+      "instructions": "Arendelle / Mountain Ridge: Mushroom. (appearance 100%); The Caribbean / Huddled Isles: Mushroom. (appearance 100%); The Caribbean / Forsaken Isle: Mushroom. (appearance 100%); The Caribbean / Sandbar Isle: Mushroom. (appearance 100%). Ingredient sources: Mountain Ridge , Huddled Isles , Forsaken Isle , Sandbar Isle. Harvest approaches: Arendelle / Gorge: From Mountain Ridge jump down the southern cliff into the Gorge and inspect the mushrooms under the snowy bushes. The Caribbean / Huddled Isles: Inspect beneath the tree directly behind the save point. The Caribbean / Forsaken Isle: Search the driftwood near the save point. The Caribbean / Sandbar Isle: Inspect beneath the solitary tree south of the save point. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Arendelle",
@@ -9404,6 +9426,32 @@
           "area": "Sandbar Isle",
           "rate": "100%",
           "object": "Mushroom."
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Gorge",
+          "directions": "From Mountain Ridge jump down the southern cliff into the Gorge and inspect the mushrooms under the snowy bushes.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Huddled Isles",
+          "directions": "Inspect beneath the tree directly behind the save point.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Forsaken Isle",
+          "directions": "Search the driftwood near the save point.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Sandbar Isle",
+          "directions": "Inspect beneath the solitary tree south of the save point.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/"
         }
       ]
     },
@@ -9686,16 +9734,17 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / The Big Olive: Herb. — possible yield Parsley x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Olympus / The Big Olive: Herb. — possible yield Parsley x2, appearance 100%. Moogle Shop: 10 munny. After clearing both Toy Box and Kingdom of Corona. Harvest approaches: Olympus / Agora → Big Olive: Take the northeastern stairs, turn right into Big Olive, cross the rubble and inspect the herb patch behind the broken wall on the right. Twilight Town / Old Mansion: Inspect the green herbs by the broken column near the Old Mansion save point. Toy Box / Andy’s House: Jump from the bedroom window; inspect the southeastern flowerbeds and the herbs beside the northwestern roadside trash bin. The Caribbean / Sandbar Isle: From the save point head south and climb the pointed rocks to the cliff above; inspect the herbs between the bushes. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:Toy_Box",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.destinyislands.com/kh3/items/ingredients/parsley/"
       ],
-      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -9711,7 +9760,33 @@
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "harvestRoutes": [
+        {
+          "world": "Olympus",
+          "area": "Agora → Big Olive",
+          "directions": "Take the northeastern stairs, turn right into Big Olive, cross the rubble and inspect the herb patch behind the broken wall on the right.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/parsley/"
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Old Mansion",
+          "directions": "Inspect the green herbs by the broken column near the Old Mansion save point.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/parsley/"
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump from the bedroom window; inspect the southeastern flowerbeds and the herbs beside the northwestern roadside trash bin.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/parsley/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Sandbar Isle",
+          "directions": "From the save point head south and climb the pointed rocks to the cliff above; inspect the herbs between the bushes.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/parsley/"
+        }
+      ]
     },
     {
       "id": "kh3.material.saffron",
@@ -9839,13 +9914,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "The Caribbean / Docks: In food crate. — possible yield Gooseberry x2 / Lemon x2, appearance 100%; The Caribbean / Settlement: In food crate. — possible yield Gooseberry x2 / Pear x2, appearance 100%; The Caribbean / Seaport: In food crate. — possible yield Apricot x2 / Gooseberry x2, appearance 100%.",
+      "instructions": "The Caribbean / Docks: In food crate. — possible yield Gooseberry x2 / Lemon x2, appearance 100%; The Caribbean / Settlement: In food crate. — possible yield Gooseberry x2 / Pear x2, appearance 100%; The Caribbean / Seaport: In food crate. — possible yield Apricot x2 / Gooseberry x2, appearance 100%. Harvest approaches: Arendelle / Treescape: Travel north from the save point, through the ravine into the smaller clearing; inspect the bush on the west side. Arendelle / Snowfield: Climb the cliff northeast of the save point and inspect the bush. The Caribbean / Docks: Break the fruit crate immediately left of the save point; Gooseberry is a possible yield. The Caribbean / Seaport: From the Docks head south to the end of the large pier and break the fruit crate; Gooseberry is a possible yield. The Caribbean / Settlement: Go straight ahead from the save point and break the fruit crate near the produce seller; Gooseberry is a possible yield. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "The Caribbean",
@@ -9870,6 +9946,38 @@
           "object": "In food crate.",
           "quantity": 2,
           "alternativeYields": "Apricot x2 / Gooseberry x2"
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Treescape",
+          "directions": "Travel north from the save point, through the ravine into the smaller clearing; inspect the bush on the west side.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
+        },
+        {
+          "world": "Arendelle",
+          "area": "Snowfield",
+          "directions": "Climb the cliff northeast of the save point and inspect the bush.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks",
+          "directions": "Break the fruit crate immediately left of the save point; Gooseberry is a possible yield.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Seaport",
+          "directions": "From the Docks head south to the end of the large pier and break the fruit crate; Gooseberry is a possible yield.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Go straight ahead from the save point and break the fruit crate near the produce seller; Gooseberry is a possible yield.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/"
         }
       ]
     },
@@ -10049,12 +10157,13 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Arendelle / Gorge: Berry tree. (appearance 100%); Arendelle / Valley of Ice: Berry tree. (appearance 100%); Arendelle / Frozen Wall: Berry tree. (appearance 100%). Ingredient sources: Gorge , Valley of Ice , Frozen Wall.",
+      "instructions": "Arendelle / Gorge: Berry tree. (appearance 100%); Arendelle / Valley of Ice: Berry tree. (appearance 100%); Arendelle / Frozen Wall: Berry tree. (appearance 100%). Ingredient sources: Gorge , Valley of Ice , Frozen Wall. Harvest approaches: Arendelle / Gorge: Head north from the save point and wall-run three cliff faces; cross to the ledge under the icicles and inspect its corner bush. Arendelle / Valley of Ice: From the save point go to the southwestern end and inspect the leafy bush. Arendelle / Frozen Wall: From Mountain Ridge enter the cave; follow the path to the eastern opening and inspect the bush just before the drop. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
-        "https://www.khwiki.com/Game:Arendelle"
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.destinyislands.com/kh3/items/ingredients/raspberry/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Arendelle",
@@ -10073,6 +10182,26 @@
           "area": "Frozen Wall",
           "rate": "100%",
           "object": "Berry tree."
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Gorge",
+          "directions": "Head north from the save point and wall-run three cliff faces; cross to the ledge under the icicles and inspect its corner bush.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/raspberry/"
+        },
+        {
+          "world": "Arendelle",
+          "area": "Valley of Ice",
+          "directions": "From the save point go to the southwestern end and inspect the leafy bush.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/raspberry/"
+        },
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the cave; follow the path to the eastern opening and inspect the bush just before the drop.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/raspberry/"
         }
       ]
     },
@@ -10154,12 +10283,13 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Arendelle / Frozen Wall: Berry tree. (appearance 100%); Arendelle / Foothills: Berry tree. (appearance 100%). Ingredient sources: Frozen Wall , Foothills , Lumpy's Fruit Parade.",
+      "instructions": "Arendelle / Frozen Wall: Berry tree. (appearance 100%); Arendelle / Foothills: Berry tree. (appearance 100%). Ingredient sources: Frozen Wall , Foothills , Lumpy's Fruit Parade. Harvest approaches: Arendelle / Frozen Wall: From Mountain Ridge enter the northeastern cave; go west to the second opening, descend along the northern edge and inspect the leafy bush. Arendelle / Foothills: From the Foothills save point return into the area and inspect the leafy bush on the western side. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
-        "https://www.khwiki.com/Game:Arendelle"
+        "https://www.khwiki.com/Game:Arendelle",
+        "https://www.destinyislands.com/kh3/items/ingredients/blackberry/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "The listed harvest approaches and world re-entry method are guide-supported. Exhaustive unique-node coordinates, spawn probabilities and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Arendelle",
@@ -10172,6 +10302,20 @@
           "area": "Foothills",
           "rate": "100%",
           "object": "Berry tree."
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the northeastern cave; go west to the second opening, descend along the northern edge and inspect the leafy bush.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/blackberry/"
+        },
+        {
+          "world": "Arendelle",
+          "area": "Foothills",
+          "directions": "From the Foothills save point return into the area and inspect the leafy bush on the western side.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/blackberry/"
         }
       ]
     },
@@ -34402,7 +34546,8 @@
       "sources": [
         "https://www.khwiki.com/Dead_of_Night",
         "https://www.khwiki.com/Weapons_(KHIII)",
-        "https://store.steampowered.com/app/2552450/KINGDOM_HEARTS_III__Re_Mind_DLC/"
+        "https://store.steampowered.com/app/2552450/KINGDOM_HEARTS_III__Re_Mind_DLC/",
+        "https://www.square-enix.com/asia/newsportal/en/sg/kingdom-hearts-iii/"
       ],
       "checkable": true,
       "properties": {
@@ -34473,7 +34618,7 @@
         "initialLevel": 0
       },
       "character": "Sora",
-      "instructions": "Formchange: Second Form D. Shotlocks: King of Hearts , Ragnarok. Abilities: Lucky Strike (LV0) Magic Roulette (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9.",
+      "instructions": "Formchange: Second Form D. Shotlocks: King of Hearts , Ragnarok. Abilities: Lucky Strike (LV0) Magic Roulette (LV0) Formchange Extender (LV4). Levels (STR/MAG): 0: 4/4; 1: 4/5; 2: 5/5; 3: 5/6; 4: 6/6; 5: 6/7; 6: 7/7; 7: 7/8; 8: 8/8; 9: 8/9; 10: 9/9. Square Enix identifies Dead of Night as the Steam purchase bonus; the notice does not give it the historical console preorder redemption conditions.",
       "editionScope": "Dead of Night platform entitlement only; excluded from the universal base collection.",
       "forgeTransitions": [
         {
@@ -39060,25 +39205,31 @@
       "id": "kh3.rewards.222-sora-copies",
       "category": "rewards",
       "name": "222 Sora copies",
-      "summary": "Collect 222 copies before leaving the reconstruction sequence.",
+      "summary": "Collect 222 copies in the reconstruction minigame for the HP milestone.",
       "sources": [
-        "https://www.khwiki.com/Game:The_Final_World"
+        "https://www.khwiki.com/Game:The_Final_World",
+        "https://yogdog.blog.fc2.com/blog-entry-3805.html"
       ],
       "world": "The Final World",
       "reward": "Maximum HP +5",
-      "missability": "Take both bonuses before leaving this story sequence; ordinary post-clear visits are not the copy-collection sequence."
+      "missability": "A published firsthand PS4 play diary documents returning to obtain missed copy milestones. Do not confuse an ordinary visit with entering the separate copy-collection portal.",
+      "instructions": "After clearing the initial Final World sequence, enter the pink portal at the Keyblade Graveyard’s Badlands entrance, then use the pink portal within The Final World to replay copy collection. The 222 and 333 milestones each award +5 maximum HP; 333 ends the run automatically.",
+      "uncertainty": "This recovery route does not establish repeatable HP rewards after a milestone was already claimed, or every Steam replay/save edge."
     },
     {
       "id": "kh3.rewards.333-sora-copies",
       "category": "rewards",
       "name": "333 Sora copies",
-      "summary": "Collect 333 copies before leaving the reconstruction sequence.",
+      "summary": "Collect 333 copies in the reconstruction minigame for the HP milestone.",
       "sources": [
-        "https://www.khwiki.com/Game:The_Final_World"
+        "https://www.khwiki.com/Game:The_Final_World",
+        "https://yogdog.blog.fc2.com/blog-entry-3805.html"
       ],
       "world": "The Final World",
       "reward": "Maximum HP +5",
-      "missability": "Take both bonuses before leaving this story sequence; ordinary post-clear visits are not the copy-collection sequence."
+      "missability": "A published firsthand PS4 play diary documents returning to obtain missed copy milestones. Do not confuse an ordinary visit with entering the separate copy-collection portal.",
+      "instructions": "After clearing the initial Final World sequence, enter the pink portal at the Keyblade Graveyard’s Badlands entrance, then use the pink portal within The Final World to replay copy collection. The 222 and 333 milestones each award +5 maximum HP; 333 ends the run automatically.",
+      "uncertainty": "This recovery route does not establish repeatable HP rewards after a milestone was already claimed, or every Steam replay/save edge."
     },
     {
       "id": "kh3.rewards.olympus-rescue-conversation-03",
@@ -39522,10 +39673,22 @@
       "summary": "Steam: 51; Xbox One: 51 (45 base + 6 Re Mind); PS4: 52 (46 base including platinum + 6 Re Mind).",
       "sources": [
         "https://www.trueachievements.com/game/Kingdom-Hearts-3/achievements",
-        "https://psnprofiles.com/trophies/8675-kingdom-hearts-iii"
+        "https://psnprofiles.com/trophies/8675-kingdom-hearts-iii",
+        "https://store.steampowered.com/app/2552450/KINGDOM_HEARTS_III__Re_Mind_DLC/",
+        "https://steamdb.info/app/2552450/depots/"
       ],
       "checkable": false,
-      "uncertainty": "Counts are independently published platform sets, not a verified one-to-one predicate mapping. Epic’s official achievement route returned 403; no Epic set is inferred."
+      "uncertainty": "Counts are independently published platform sets, not a verified one-to-one predicate mapping. Epic’s official achievement route returned 403; no Epic set is inferred.",
+      "instructions": "Steam’s official store lists 51 achievements and bundled Re Mind. As checked 2026-10-02, SteamDB mirrors public-branch build 14790811 (built 2024-06-21, public update 2024-07-04). This is published branch metadata, not verification that a particular installation is on that build.",
+      "steamBuildReference": {
+        "checkedAt": "2026-10-02",
+        "branch": "public",
+        "buildId": 14790811,
+        "builtAt": "2024-06-21T06:47:50Z",
+        "updatedAt": "2024-07-04T09:58:32Z",
+        "source": "https://steamdb.info/app/2552450/depots/",
+        "authority": "SteamDB mirror, not direct Steam API"
+      }
     },
     {
       "id": "kh3.gummi-spheres.01",
@@ -39534,10 +39697,11 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Fira/G x4, Blizzara/G x4, Water/G x4, Booster/G x2, Propeller/G x1, Roman One/S , EXP prize (big x50)",
-      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere α and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (6 seconds) -> X-shape (3 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere α and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (6 seconds) -> X-shape (3 seconds) -> N-shape (6 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Starlight_Way",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39554,10 +39718,11 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Laser Blade/G x2, Cyclone/G x10, Storm/G x10, Roman Two/S , Fluorite x3, EXP prize (big x50)",
-      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere β and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (12 seconds) -> X-shape (3 seconds) -> Y-shape (4.5 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere β and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (12 seconds) -> X-shape (3 seconds) -> Y-shape (4.5 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Starlight_Way",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39574,10 +39739,11 @@
       "world": "Starlight Way",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Gravity/G x4, Comet/G x2, Roman Three/S , Mythril Shard x5, Mythril Stone x5, EXP prize (big x50)",
-      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere γ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (4 seconds) -> N-shape (6 seconds) -> T-shape (9 seconds)",
+      "instructions": "On the Starlight Way embarkation map, select Treasure Sphere γ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (4 seconds) -> N-shape (6 seconds) -> T-shape (9 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Starlight_Way",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39594,10 +39760,11 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Firaga/G-01 x4, Blizzaga/G-01 x4, Watera/G x4, Excalibur/G x1, Roman Four/S , Mythril Gem x5, EXP prize (big x50)",
-      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere δ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (5 seconds) -> N-shape (4.5 seconds) + X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere δ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (5 seconds) -> N-shape (4.5 seconds) + X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (6 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Misty_Stream",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39614,10 +39781,11 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Firaga/G-02 x4, Thundara/G x4, Tempest/G x10, Typhoon/G x10, Wall/G x2, Shield/G x2, Roman Five/S , Damascus x3, EXP prize (big x50)",
-      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ε and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> Y-shape (5 seconds) -> N-shape (5.5 seconds) -> T-shape (12 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ε and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> Y-shape (5 seconds) -> N-shape (5.5 seconds) -> T-shape (12 seconds) -> N-shape (6 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Misty_Stream",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39634,10 +39802,11 @@
       "world": "Misty Stream",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Gravira/G x4, Meteor/G x1, Saw/G x2, Sonic Turbo/G x2 Roman Six/S , Mythril Crystal x5, Fluorite x5, EXP prize (big x50)",
-      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ζ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (10 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> T-shape (6 seconds) -> N-shape (6 seconds)",
+      "instructions": "On the Misty Stream embarkation map, select Treasure Sphere ζ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: Y-shape (10 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> T-shape (6 seconds) -> N-shape (6 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/Misty_Stream",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39654,10 +39823,11 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Graviga/G-01 x4, Meteor/G x1, Thundaga/G x4, Waterga/G-01 x4, Roman Seven/S , Adamantite x3, Damascus x5, EXP prize (big x50)",
-      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere η and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: N-shape (6 seconds) -> Y-shape (5 seconds) -> T-shape (3 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> Y-shape (5.5 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere η and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: N-shape (6 seconds) -> Y-shape (5 seconds) -> T-shape (3 seconds) -> N-shape (4.5 seconds) -> X-shape (3 seconds) -> Y-shape (5.5 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/The_Eclipse",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39674,10 +39844,11 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Masamune/G x2, Drill/G x2, Hurricane/G x10, Vortex/G x10, Roman Eight/S , Orichalcum x1, EXP prize (big x50)",
-      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere θ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (3 seconds) -> T-shape (2.5 seconds) -> Y-shape (3 seconds) -> Y-shape (12 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere θ and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: X-shape (3 seconds) -> T-shape (3 seconds) -> N-shape (3 seconds) -> T-shape (2.5 seconds) -> Y-shape (3 seconds) -> Y-shape (12 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/The_Eclipse",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -39694,10 +39865,11 @@
       "world": "The Eclipse",
       "summary": "Shoot the circuit gears into alignment to open the sphere.",
       "reward": "Blizzaga/G-02 x2, Graviga/G-02 x2, Waterga/G-02 x2, Large Wall/G x2, Large Shield/G x2, Roman Nine/S , Electrum x2, Fluorite x5, EXP prize (big x50)",
-      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere ι and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (4 seconds) -> N-shape (6 seconds) -> X-shape (3 seconds) -> Y-shape (6 seconds) -> Y-shape (3 seconds) -> T-shape (6 seconds)",
+      "instructions": "On the The Eclipse embarkation map, select Treasure Sphere ι and use the displayed marker action. Embark in that region and follow the yellow flag guide to the marked golden sphere; shoot it to start the circuit puzzle. Target sequence: T-shape (4 seconds) -> N-shape (6 seconds) -> X-shape (3 seconds) -> Y-shape (6 seconds) -> Y-shape (3 seconds) -> T-shape (6 seconds) Sphere treasure rewards are collected once; they are not an ordinary-asteroid refill farm.",
       "sources": [
         "https://www.khwiki.com/The_Eclipse",
-        "https://game8.jp/kh3/255107"
+        "https://game8.jp/kh3/255107",
+        "https://blog.rebosoku.com/archives/kh3gummi_record3.html"
       ],
       "uncertainty": "Marker navigation is documented with Japanese console screenshots; no numerical coordinates or Steam-specific button glyph is inferred.",
       "sphereApproach": {
@@ -40511,11 +40683,417 @@
       "summary": "Custom ships must fit their current block-cost and ability-point limits.",
       "sources": [
         "https://www.khwiki.com/Gummi_blocks_(KHIII)",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/20"
       ],
       "checkable": false,
-      "instructions": "Part cost, power, speed and ability AP are separate. Level-gated abilities are listed separately; Cost Converter exchanges teeny-ship capacity for main-ship budget. Special blueprints can be flown without treating their cost as a custom-build allowance. At Gummi level 99, the base custom-ship cost limit is 1,000. This endpoint does not establish the cost or AP limit at every intervening level.",
-      "uncertainty": "The full level-by-level custom-ship cost/AP-cap progression remains unverified; level 99 cost 1,000 is a supported endpoint."
+      "instructions": "Part cost, power, speed and ability AP are separate. Level-gated abilities are listed separately; Cost Converter exchanges teeny-ship capacity for main-ship budget. Special blueprints can be flown without treating their cost as a custom-build allowance. At Gummi level 99, the base custom-ship cost limit is 1,000. This endpoint does not establish the cost or AP limit at every intervening level. The Xbox walkthrough publishes a combined Main + Teeny budget table from 500 at level 1 to 1,600 at level 99. That aggregate is not the base main-ship allowance of 1,000. The per-ship split and AP-cap curve are not supplied by that table.",
+      "uncertainty": "A complete published 99-level combined-budget table is retained as source evidence; it is not a certified Steam per-ship build calculator. Main/Teeny split at each level and AP-cap progression remain unverified.",
+      "publishedCombinedCost": {
+        "edition": "Xbox walkthrough",
+        "unit": "Main Ship plus Teeny Ships total; not main ship alone",
+        "levels": [
+          {
+            "level": 1,
+            "cost": 500
+          },
+          {
+            "level": 2,
+            "cost": 505
+          },
+          {
+            "level": 3,
+            "cost": 510
+          },
+          {
+            "level": 4,
+            "cost": 515
+          },
+          {
+            "level": 5,
+            "cost": 545
+          },
+          {
+            "level": 6,
+            "cost": 549
+          },
+          {
+            "level": 7,
+            "cost": 553
+          },
+          {
+            "level": 8,
+            "cost": 557
+          },
+          {
+            "level": 9,
+            "cost": 561
+          },
+          {
+            "level": 10,
+            "cost": 611
+          },
+          {
+            "level": 11,
+            "cost": 614
+          },
+          {
+            "level": 12,
+            "cost": 677
+          },
+          {
+            "level": 13,
+            "cost": 680
+          },
+          {
+            "level": 14,
+            "cost": 683
+          },
+          {
+            "level": 15,
+            "cost": 708
+          },
+          {
+            "level": 16,
+            "cost": 711
+          },
+          {
+            "level": 17,
+            "cost": 714
+          },
+          {
+            "level": 18,
+            "cost": 757
+          },
+          {
+            "level": 19,
+            "cost": 760
+          },
+          {
+            "level": 20,
+            "cost": 810
+          },
+          {
+            "level": 21,
+            "cost": 812
+          },
+          {
+            "level": 22,
+            "cost": 814
+          },
+          {
+            "level": 23,
+            "cost": 816
+          },
+          {
+            "level": 24,
+            "cost": 818
+          },
+          {
+            "level": 25,
+            "cost": 943
+          },
+          {
+            "level": 26,
+            "cost": 945
+          },
+          {
+            "level": 27,
+            "cost": 947
+          },
+          {
+            "level": 28,
+            "cost": 949
+          },
+          {
+            "level": 29,
+            "cost": 951
+          },
+          {
+            "level": 30,
+            "cost": 1076
+          },
+          {
+            "level": 31,
+            "cost": 1077
+          },
+          {
+            "level": 32,
+            "cost": 1078
+          },
+          {
+            "level": 33,
+            "cost": 1079
+          },
+          {
+            "level": 34,
+            "cost": 1080
+          },
+          {
+            "level": 35,
+            "cost": 1100
+          },
+          {
+            "level": 36,
+            "cost": 1181
+          },
+          {
+            "level": 37,
+            "cost": 1182
+          },
+          {
+            "level": 38,
+            "cost": 1183
+          },
+          {
+            "level": 39,
+            "cost": 1184
+          },
+          {
+            "level": 40,
+            "cost": 1229
+          },
+          {
+            "level": 41,
+            "cost": 1230
+          },
+          {
+            "level": 42,
+            "cost": 1271
+          },
+          {
+            "level": 43,
+            "cost": 1272
+          },
+          {
+            "level": 44,
+            "cost": 1273
+          },
+          {
+            "level": 45,
+            "cost": 1283
+          },
+          {
+            "level": 46,
+            "cost": 1284
+          },
+          {
+            "level": 47,
+            "cost": 1285
+          },
+          {
+            "level": 48,
+            "cost": 1326
+          },
+          {
+            "level": 49,
+            "cost": 1327
+          },
+          {
+            "level": 50,
+            "cost": 1347
+          },
+          {
+            "level": 51,
+            "cost": 1348
+          },
+          {
+            "level": 52,
+            "cost": 1349
+          },
+          {
+            "level": 53,
+            "cost": 1350
+          },
+          {
+            "level": 54,
+            "cost": 1391
+          },
+          {
+            "level": 55,
+            "cost": 1396
+          },
+          {
+            "level": 56,
+            "cost": 1397
+          },
+          {
+            "level": 57,
+            "cost": 1398
+          },
+          {
+            "level": 58,
+            "cost": 1399
+          },
+          {
+            "level": 59,
+            "cost": 1400
+          },
+          {
+            "level": 60,
+            "cost": 1430
+          },
+          {
+            "level": 61,
+            "cost": 1431
+          },
+          {
+            "level": 62,
+            "cost": 1432
+          },
+          {
+            "level": 63,
+            "cost": 1433
+          },
+          {
+            "level": 64,
+            "cost": 1434
+          },
+          {
+            "level": 65,
+            "cost": 1435
+          },
+          {
+            "level": 66,
+            "cost": 1456
+          },
+          {
+            "level": 67,
+            "cost": 1457
+          },
+          {
+            "level": 68,
+            "cost": 1458
+          },
+          {
+            "level": 69,
+            "cost": 1459
+          },
+          {
+            "level": 70,
+            "cost": 1469
+          },
+          {
+            "level": 71,
+            "cost": 1470
+          },
+          {
+            "level": 72,
+            "cost": 1491
+          },
+          {
+            "level": 73,
+            "cost": 1492
+          },
+          {
+            "level": 74,
+            "cost": 1493
+          },
+          {
+            "level": 75,
+            "cost": 1494
+          },
+          {
+            "level": 76,
+            "cost": 1495
+          },
+          {
+            "level": 77,
+            "cost": 1496
+          },
+          {
+            "level": 78,
+            "cost": 1517
+          },
+          {
+            "level": 79,
+            "cost": 1518
+          },
+          {
+            "level": 80,
+            "cost": 1525
+          },
+          {
+            "level": 81,
+            "cost": 1529
+          },
+          {
+            "level": 82,
+            "cost": 1530
+          },
+          {
+            "level": 83,
+            "cost": 1531
+          },
+          {
+            "level": 84,
+            "cost": 1542
+          },
+          {
+            "level": 85,
+            "cost": 1543
+          },
+          {
+            "level": 86,
+            "cost": 1544
+          },
+          {
+            "level": 87,
+            "cost": 1545
+          },
+          {
+            "level": 88,
+            "cost": 1546
+          },
+          {
+            "level": 89,
+            "cost": 1547
+          },
+          {
+            "level": 90,
+            "cost": 1567
+          },
+          {
+            "level": 91,
+            "cost": 1568
+          },
+          {
+            "level": 92,
+            "cost": 1569
+          },
+          {
+            "level": 93,
+            "cost": 1570
+          },
+          {
+            "level": 94,
+            "cost": 1571
+          },
+          {
+            "level": 95,
+            "cost": 1572
+          },
+          {
+            "level": 96,
+            "cost": 1583
+          },
+          {
+            "level": 97,
+            "cost": 1584
+          },
+          {
+            "level": 98,
+            "cost": 1585
+          },
+          {
+            "level": 99,
+            "cost": 1600
+          }
+        ],
+        "source": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/20",
+        "retrieval": "Complete indexed table; direct page returned HTTP 402",
+        "steamValidated": false
+      }
     },
     {
       "id": "kh3.rewards.beginner-secret-movie",
@@ -42193,7 +42771,6 @@
       "category": "equipment",
       "name": "Junior Medal — Treasure Magnet",
       "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Treasure Magnet. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42221,7 +42798,6 @@
       "category": "equipment",
       "name": "Junior Medal — Full MP Blast",
       "summary": "Random rank B reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Full MP Blast. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42249,7 +42825,6 @@
       "category": "equipment",
       "name": "Junior Medal — Burn Protection",
       "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Burn Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42277,7 +42852,6 @@
       "category": "equipment",
       "name": "Junior Medal — Cloud Protection",
       "summary": "Random rank B reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Cloud Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42305,7 +42879,6 @@
       "category": "equipment",
       "name": "Junior Medal — Sneeze Protection",
       "summary": "Random rank B reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Sneeze Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42333,7 +42906,6 @@
       "category": "equipment",
       "name": "Junior Medal — Freeze Protection",
       "summary": "Random rank B reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Freeze Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42361,7 +42933,6 @@
       "category": "equipment",
       "name": "Junior Medal — Electric Protection",
       "summary": "Random rank B reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Electric Protection. Strength +1; Magic +1; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42389,7 +42960,6 @@
       "category": "equipment",
       "name": "Master Medal — Fire Boost",
       "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Fire Boost. Strength +0; Magic +3; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42417,7 +42987,6 @@
       "category": "equipment",
       "name": "Master Medal — Water Boost",
       "summary": "Random rank A reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Water Boost. Strength +0; Magic +3; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42445,7 +43014,6 @@
       "category": "equipment",
       "name": "Master Medal — Defender",
       "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Defender. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42473,7 +43041,6 @@
       "category": "equipment",
       "name": "Master Medal — Extra Cast",
       "summary": "Random rank A reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Extra Cast. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42501,7 +43068,6 @@
       "category": "equipment",
       "name": "Master Medal — Lucky Strike",
       "summary": "Random rank A reward from Verum Rex: Beat of Lead.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Verum Rex: Beat of Lead; repeat the minigame for another medal roll. This variant grants Lucky Strike. Strength +0; Magic +0; AP +12. The listed outcome is possible, not guaranteed.",
@@ -42529,7 +43095,6 @@
       "category": "equipment",
       "name": "Master Medal — Magic Treasure Magnet",
       "summary": "Random rank A reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Festival Dance; repeat the minigame for another medal roll. This variant grants Magic Treasure Magnet. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42557,7 +43122,6 @@
       "category": "equipment",
       "name": "Master Medal — Stun Protection",
       "summary": "Random rank B reward from Flash Tracer A.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Stun Protection. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42585,7 +43149,6 @@
       "category": "equipment",
       "name": "Master Medal — Fire Syphon",
       "summary": "Random rank B reward from Flash Tracer B.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Fire Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42613,7 +43176,6 @@
       "category": "equipment",
       "name": "Master Medal — Blizzard Syphon",
       "summary": "Random rank B reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Frozen Slider; repeat the minigame for another medal roll. This variant grants Blizzard Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42641,7 +43203,6 @@
       "category": "equipment",
       "name": "Master Medal — Thunder Syphon",
       "summary": "Random rank B reward from Flash Tracer A.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Thunder Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42669,7 +43230,6 @@
       "category": "equipment",
       "name": "Master Medal — Water Syphon",
       "summary": "Random rank B reward from Festival Dance.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Festival Dance; repeat the minigame for another medal roll. This variant grants Water Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42697,7 +43257,6 @@
       "category": "equipment",
       "name": "Master Medal — Aero Syphon",
       "summary": "Random rank B reward from Flash Tracer B.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank B in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Aero Syphon. Strength +1; Magic +1; AP +6. The listed outcome is possible, not guaranteed.",
@@ -42725,7 +43284,6 @@
       "category": "equipment",
       "name": "Star Medal — Thunder Boost",
       "summary": "Random rank A reward from Flash Tracer A.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Thunder Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42753,7 +43311,6 @@
       "category": "equipment",
       "name": "Star Medal — Blizzard Boost",
       "summary": "Random rank A reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Blizzard Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42781,7 +43338,6 @@
       "category": "equipment",
       "name": "Star Medal — Aero Boost",
       "summary": "Random rank A reward from Flash Tracer B.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Aero Boost. Strength +0; Magic +4; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42809,7 +43365,6 @@
       "category": "equipment",
       "name": "Star Medal — Second Chance",
       "summary": "Random rank A reward from Flash Tracer A.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Second Chance. Strength +4; Magic +0; AP +0. The listed outcome is possible, not guaranteed.",
@@ -42837,7 +43392,6 @@
       "category": "equipment",
       "name": "Star Medal — Item Boost",
       "summary": "Random rank A reward from Flash Tracer B.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Item Boost. Strength +0; Magic +0; AP +18. The listed outcome is possible, not guaranteed.",
@@ -42865,7 +43419,6 @@
       "category": "equipment",
       "name": "Star Medal — Wizard's Ruse",
       "summary": "Random rank A reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Wizard's Ruse. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
@@ -42893,7 +43446,6 @@
       "category": "equipment",
       "name": "Star Medal — Withstand Combo",
       "summary": "Random rank A reward from Frozen Slider.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Frozen Slider; repeat the minigame for another medal roll. This variant grants Withstand Combo. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
@@ -42921,7 +43473,6 @@
       "category": "equipment",
       "name": "Star Medal — Damage Syphon",
       "summary": "Random rank A reward from Flash Tracer A.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer A; repeat the minigame for another medal roll. This variant grants Damage Syphon. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
@@ -42949,7 +43500,6 @@
       "category": "equipment",
       "name": "Star Medal — Dark Syphon",
       "summary": "Random rank A reward from Flash Tracer B.",
-      "world": null,
       "equipmentType": "Accessory",
       "character": "Sora / Donald / Goofy",
       "instructions": "Earn rank A in Flash Tracer B; repeat the minigame for another medal roll. This variant grants Dark Syphon. Strength +1; Magic +1; AP +9. The listed outcome is possible, not guaranteed.",
