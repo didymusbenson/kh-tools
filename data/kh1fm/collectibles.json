@@ -9633,7 +9633,7 @@
     "world": "Halloween Town",
     "area": "Oogie's Manor; Manor Ruins",
     "summary": "Orichalcum. Can be found in the Manor Ruins if missed.",
-    "instructions": "Strike the Evil Playroom lever, leave and go to the bridge’s end. Drop onto the lowered cage and open Orichalcum. After the manor falls, the unopened chest moves to the ruins.",
+    "instructions": "Strike the Evil Playroom lever, leave and go to the bridge’s end. Drop onto the lowered cage and open Orichalcum. After the manor falls, enter Manor Ruins from the Bridge and descend into the hole in the center; the unopened Orichalcum and Mega-Ether chests are together there.",
     "prerequisites": "Reach this area; clear nearby enemies before opening a container.",
     "missability": "Unopened manor chests relocate to Manor Ruins after destruction; this is the same acquisition, not two chests.",
     "reward": "Orichalcum",
@@ -9659,6 +9659,11 @@
         "label": "Gamer Guides: Final Mix — Halloween Town",
         "url": "https://www.gamerguides.com/kingdom-hearts-hd-15-remix/guide/kingdom-hearts-final-mix/walkthrough/halloween-town",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides: both relocated cage chests in central Manor Ruins hole",
+        "url": "https://www.khguides.com/kh/collectibles/treasures/",
+        "checkedAt": "2026-09-18"
       }
     ],
     "verification": "source-backed",
@@ -9680,7 +9685,7 @@
     "world": "Halloween Town",
     "area": "Oogie's Manor; Manor Ruins",
     "summary": "Mega-Ether. Can be found in the Manor Ruins if missed.",
-    "instructions": "Above the manor’s Fire-powered lift, climb to the broken tower. Jump left onto the jagged wall’s roof, then onto the cage for Mega-Ether. After destruction, check the ruins instead.",
+    "instructions": "Above the manor’s Fire-powered lift, climb to the broken tower. Jump left onto the jagged wall’s roof, then onto the cage for Mega-Ether. After destruction, enter Manor Ruins from the Bridge and descend into the hole in the center; the unopened Mega-Ether and Orichalcum chests are together there.",
     "prerequisites": "Reach this area; clear nearby enemies before opening a container.",
     "missability": "Unopened manor chests relocate to Manor Ruins after destruction; this is the same acquisition, not two chests.",
     "reward": "Mega-Ether",
@@ -9705,6 +9710,11 @@
       {
         "label": "Gamer Guides: Final Mix — Halloween Town",
         "url": "https://www.gamerguides.com/kingdom-hearts-hd-15-remix/guide/kingdom-hearts-final-mix/walkthrough/halloween-town",
+        "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides: both relocated cage chests in central Manor Ruins hole",
+        "url": "https://www.khguides.com/kh/collectibles/treasures/",
         "checkedAt": "2026-09-18"
       }
     ],
@@ -16495,6 +16505,11 @@
         "checkedAt": "2026-09-18"
       },
       {
+        "label": "KHGuides: first End of the World cutscene lead",
+        "url": "https://www.khguides.com/kh/combat/bosses/unknown/",
+        "checkedAt": "2026-09-18"
+      },
+      {
         "label": "KHWiki: Final Mix changes — Unknown access",
         "url": "https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle",
         "checkedAt": "2026-09-18"
@@ -16515,7 +16530,7 @@
       "Ansem Report 13",
       "Report 13"
     ],
-    "uncertainty": "Sources disagree about the earliest portal appearance. Reaching Final Rest is the conservative source-backed access point used here; this is not a claim that an earlier visit cannot work."
+    "uncertainty": "Earliest portal trigger remains disputed: KHGuides says the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki says Final Rest. Final Rest is the sufficient route used here."
   },
   {
     "id": "kh1fm-summon-simba",

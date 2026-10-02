@@ -1,5 +1,7 @@
 # DDD HD: portals, Dives and challenge rewards
 
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Research date: 2026-09-18. These are separate acquisition/challenge modules. They never become story-gate entries in the world collectible percentage.
 
 ## Portal identity and census
@@ -20,7 +22,7 @@ Area evidence comes from each world's Secret Portal first-clear reward row. Thos
 
 Use a stable `world + character + portal kind + source number` key. A rotation's reference marker/location and the persistent cleared state are different data. Forecast explanations are reference guidance, not a tracked Available Now system. A cleared Special Portal remains cleared when inactive; “not currently present” must not appear as “not collected”. Persist clear, bonus objective and claimed first-clear reward separately. Repeating a portal for materials must not increase a completion denominator.
 
-The 78 Special Portal **locations, forecast silhouettes, enemies, bonus objectives and all first-clear/repeat rewards are not yet a verified row inventory**. Likewise built-in Battle/Friendship portal locations and all seven bonus-objective types remain extraction work. No deterministic drop cycle or guaranteed “next drop” is asserted. The legacy workbook contains none of these records.
+The current snapshot extracts all 78 Special rows and 316 built-in Battle/Friend configurations, grouped into 257 source-number identities, plus the 11 Secret records. Bonus objectives, forecast, enemies and listed rewards survive generation; exact approach and first/repeat delivery distinctions remain incomplete. No deterministic drop cycle or guaranteed “next drop” is asserted. The legacy workbook contains none of these records.
 
 ## Dive inventory
 
@@ -30,13 +32,13 @@ The [Dive Mode table](https://www.khwiki.com/Dive_Mode) provides 14 ordinary wor
 |---|---:|---:|---|
 | Traverse Town | 750000 | 420000 | Spark Dive |
 | La Cité des Cloches | 1200000 | 140000 | Water Barrel |
-| The Grid | 100000 | 30000 | Treasure Goggles in 3DS source; verify HD Candy Goggles replacement |
+| The Grid | 100000 | 30000 | Candy Goggles (HD; world gameplay table) |
 | Prankster's Paradise | 730000 | 400000 | Balloonra |
 | Country of the Musketeers | 650000 | 100000 | Zero Graviga |
 | Symphony of Sorcery | 1000000 | 800000 | Fleeting Fantasy |
 | The World That Never Was | 140000 | 1000000 | Meteor |
 
-Prizes appear as world-wide cells spanning the two character rows in the source; first-award/shared behavior needs verification before automatic ownership propagation. Track personal best and rank per course, not a single world rank.
+Dive Mode explicitly awards each world prize once, when either character first earns A. Divewing remains per-character. Track personal best and rank per course, not a single world rank.
 
 ## Flick Rush
 
@@ -55,7 +57,7 @@ The [Flick Rush source](https://www.khwiki.com/Flick_Rush) locates the tournamen
 | Horror | 1 | Rush LV13 |
 | Secret | 5 | Win all other cups; Rush LV15 |
 
-Store static cup access prerequisites, per-match outcome/rank, cup prize, Rush level and medals as separate facts. Do not add Available Now filters or track story/access gates. Medal Shop purchasing consumes currency; lifetime medal achievement totals and current wallet are different counters. Opponent lineups, card strategies, complete rank/prize tables and all shop stock need extraction. [Sweet Dreams](https://www.khwiki.com/Sweet_Dreams) is awarded for Secret Cup match 5 (“Orion”), so attach that reward to the match event.
+Store static cup access prerequisites, per-match outcome/rank, cup prize, Rush level and medals as separate facts. Do not add Available Now filters or track story/access gates. Medal Shop purchasing consumes currency; lifetime medal achievement totals and current wallet are different counters. All27 opponent lineups, available medal cells and176 shop rows are extracted. Blank per-round medal cells and missing complete rank/prize rules remain explicit. [Sweet Dreams](https://www.khwiki.com/Sweet_Dreams) is awarded for Secret Cup match 5 (“Orion”), so attach that reward to the match event.
 
 ## Optional encounter acquisition
 
@@ -64,7 +66,7 @@ Store static cup access prerequisites, per-match outcome/rank, cup prize, Rush l
 | [Julius](https://www.khwiki.com/Julius) | Traverse Town, Fountain Plaza; after game clear | Ultima Weapon; preserve Sora/Riku ownership and fight state |
 | [Lord Kyroo](https://www.khwiki.com/Lord_Kyroo) | Riku Nave → Sora Promontory → Riku Moonlight Wood loop; persistent HP after timed escape | Recipe, Link Accelerator and HP bonus to the finishing character; one shared encounter chain |
 
-Lord Kyroo's Nave encounter is unavailable during the Square fire before Wargoyle. Its shared chain must not become three independent bosses or three recipe awards. The exact encounter persistence/reset behavior and map approach directions still need a route fixture.
+Lord Kyroo's Nave encounter is unavailable during the Square fire before Wargoyle. Its shared chain must not become three independent bosses or three recipe awards. Timeout is70seconds with HP retained; leaving the room resets that attempt. Save-reload persistence is not specified by the source.
 
 ## HD minigames and other challenge goals
 

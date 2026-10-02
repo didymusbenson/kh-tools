@@ -1,5 +1,7 @@
 # 0.2 evidence manifest and unresolved research
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Audit date: 2026-09-18. Evidence is **documented research**, not a current-build play test. Factual inventories are paraphrased/normalized; no production screenshot or map assets were acquired. Primary sources establish collection/release/platform facts; community sources supply gameplay conditions and text routes. A complete source list is not equivalent to a complete validated dataset.
 
 ## Existing sources inspected first
@@ -58,7 +60,7 @@ Absence is bounded to the supplied inventory, audited repository and these inspe
 
 Sources with incomplete access are **not** supporting proof: TrueAchievements walkthrough search excerpt suggests Gem Gatherer missability, but the full page could not be inspected; direct platform trophy/achievement pages were blocked; guessed PSU Castle Town treasure URL failed. No inability to open a page establishes a gameplay fact. The manifest above lists the evidence actually used, rather than every attempted search.
 
-## Explicit discrepancy and completion queue
+## Historical September18 discrepancy queue (superseded)
 
 | ID | Question / missing evidence | Affected records | Required resolution |
 |---|---|---|---|
@@ -76,4 +78,4 @@ Sources with incomplete access are **not** supporting proof: TrueAchievements wa
 | KH02-R12 | Platform-specific requirements/IDs/tiers and new 2026 editions | Fifteen platform goals | Verify current PSN/Xbox/Steam mappings, Epic availability, and new release after shipment |
 | KH02-R13 | Combat-reference acquisition timing and strategy fixture validation | Magic/movement/Shotlock/styles/difficulty | Complete the 0.2-specific mechanics pack with version-aware documented strategy |
 
-These are research/QA tasks, not questions the user must answer. Exact hidden counters need not become invented numbers; a verified, reproducible completion condition can be sufficient. Content validation is source reconciliation and data consistency, not a mandatory manual game playthrough. App functionality testing follows the shared validation contract. Only the distinct visual treatment needs user inspiration. No narrative transcript, biography manifest or ordinary story-step inventory is added as a release gate.
+Current statuses are in the18-ID October1 disposition ledger; this historical queue is not an active blocker list. These are research/QA tasks, not questions the user must answer. Exact hidden counters need not become invented numbers; a verified, reproducible completion condition can be sufficient. Content validation is source reconciliation and data consistency, not a mandatory manual game playthrough. App functionality testing follows the shared validation contract. Only the distinct visual treatment needs user inspiration. No narrative transcript, biography manifest or ordinary story-step inventory is added as a release gate.

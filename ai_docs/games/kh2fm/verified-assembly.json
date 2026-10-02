@@ -1,0 +1,103 @@
+{
+  "reviewed": "2026-10-01",
+  "edition": "Kingdom Hearts II Final Mix (HD gameplay screenshots)",
+  "method": "Viewed actual puzzle-editing UI screenshots via publicly accessible img.youtube.com thumbnails. Counted tile widths/heights against board edges and visible displaced/selected tiles; read the placement-only versus rotation help text. Dimensions were not inferred from artwork aspect ratio. Image reference and underlying video are retained per record. Starting rotations are state-dependent; use the upright artwork and guide piece numbering rather than a fixed input sequence.",
+  "records": [
+    {
+      "id": "kh2fm.assembly.awakening-assembly",
+      "name": "Awakening",
+      "columns": 3,
+      "rows": 4,
+      "rotation": false,
+      "reference": "Sora stands upright in the center; Donald and Goofy portraits sit at the upper left and upper right, with Kairi and Riku at the lower left and lower right.",
+      "sources": [
+        "https://www.youtube.com/watch?v=BGZbqQS6fGk",
+        "https://img.youtube.com/vi/BGZbqQS6fGk/maxresdefault.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    {
+      "id": "kh2fm.assembly.heart-assembly",
+      "name": "Heart",
+      "columns": 3,
+      "rows": 4,
+      "rotation": true,
+      "reference": "Mickey is at the top, Roxas and Goofy below him, and Kairi and Sora fill the lower half; the silver heart ends in a downward point.",
+      "sources": [
+        "https://www.youtube.com/watch?v=7GrfPTW-EnE",
+        "https://img.youtube.com/vi/7GrfPTW-EnE/maxresdefault.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    {
+      "id": "kh2fm.assembly.duality-assembly",
+      "name": "Duality",
+      "columns": 3,
+      "rows": 4,
+      "rotation": true,
+      "reference": "Kairi and Naminé stand inside the yellow heart at the top; Roxas faces forward at the bottom with his arms spread.",
+      "sources": [
+        "https://www.youtube.com/watch?v=HGuGi1t9IV0",
+        "https://img.youtube.com/vi/HGuGi1t9IV0/maxresdefault.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    {
+      "id": "kh2fm.assembly.frontier-assembly",
+      "name": "Frontier",
+      "columns": 3,
+      "rows": 4,
+      "rotation": true,
+      "reference": "The castle fills the upper background. Sora and Roxas stand behind Mickey, Kairi, Donald and Goofy; Kairi sits on the blue ledge with her feet near the bottom.",
+      "sources": [
+        "https://www.youtube.com/watch?v=sf-ekb7pnN8",
+        "https://img.youtube.com/vi/sf-ekb7pnN8/maxresdefault.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    {
+      "id": "kh2fm.assembly.daylight-assembly",
+      "name": "Daylight",
+      "columns": 6,
+      "rows": 8,
+      "rotation": false,
+      "reference": "Sora and Riku occupy the upper left, Mickey the center, and the dark castle the upper right. Marluxia, Larxene, Zexion and Vexen line the bottom.",
+      "sources": [
+        "https://www.youtube.com/watch?v=WodbWF4uv20",
+        "https://img.youtube.com/vi/WodbWF4uv20/maxresdefault.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    },
+    {
+      "id": "kh2fm.assembly.sunset-assembly",
+      "name": "Sunset",
+      "columns": 6,
+      "rows": 8,
+      "rotation": true,
+      "reference": "The sunset town and lamps sit at the upper left; Roxas and Sora occupy the upper center and right. Xigbar, Luxord and Saïx line the bottom, with Xemnas at the lower right.",
+      "sources": [
+        "https://www.youtube.com/watch?v=gpqZ1Z0Xnn8",
+        "https://img.youtube.com/vi/gpqZ1Z0Xnn8/hq1.jpg",
+        "https://www.khwiki.com/Puzzle"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "source": "https://kh.wiki.gallery/images/7/78/Awakening_%28Puzzle%29.png",
+      "result": "HTTP403; wiki file-description HTML accessible but image not downloaded."
+    },
+    {
+      "source": "https://strategywiki.org/wiki/Kingdom_Hearts_II/Puzzles",
+      "result": "HTTP403."
+    },
+    {
+      "source": "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "result": "All six artwork files downloaded and viewed, but no tile boundaries. Frontier is a cropped wide version of its artwork; not used to establish grid dimensions."
+    },
+    {
+      "source": "https://i.ytimg.com",
+      "result": "Thumbnail responses were Site Unavailable HTML, while public img.youtube.com thumbnail URLs returned actual gameplay images."
+    }
+  ]
+}

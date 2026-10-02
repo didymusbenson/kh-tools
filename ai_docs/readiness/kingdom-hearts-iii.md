@@ -1,5 +1,13 @@
 # Kingdom Hearts III readiness
 
+## Current research and implementation status — 2026-10-01
+
+KHIII/Re Mind canonical content now has **1900 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **15 partial, 17 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, but full physical fragment/sphere routes remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+
+The earlier coverage/readiness and occurrence statements below are historical snapshots; current ledger dispositions override them. Product requirements and acceptance contracts remain binding. Jiminy remains empty. Shared runtime/UI validation is handled separately from factual resolution.
+
+## Historical baseline and enduring requirements
+
 Status: **Research baseline established; not implementation-ready.** Assessed 2026-09-18.
 
 Specification: [Kingdom Hearts III](../games/kingdom-hearts-iii.md). Evidence: [KH3 research index](../games/kh3/README.md). Apply the [shared readiness/edition policy](README.md) and accepted [collectible compendium and linked-view contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content-validation contract](../testing-and-content-validation.md). All required modules remain MVP; only missing production screenshot/map images are deferred.

@@ -1,0 +1,6376 @@
+{
+  "edition": "HD Final Mix / Steam",
+  "reviewed": "2026-10-01",
+  "scope": "Obtainable persistent Battle, Action and Shotlock commands. Ice creams are Item commands. Temporary D-Link/Illusion/boss commands and HD-removed multiplayer commands are explicitly excluded.",
+  "commands": [
+    {
+      "name": "Quick Blitz",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Quick_Blitz",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: Quick Blitz in the initial deck.",
+        "Quick Blitz can be bought from the Moogle Shop for 100 munny after acquiring it elsewhere.",
+        "Terra/Aqua: buy opponent panel: Ventus's Quick Blitz panel on the Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Quick Blitz panel on the Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Quick Blitz panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Quick Blitz panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Quick Blitz panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Quick Blitz panel on the Skull Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Quick Blitz panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Quick Blitz: Sonic Blaster (4.8%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 85
+        },
+        {
+          "level": 3,
+          "cp": 105
+        }
+      ]
+    },
+    {
+      "name": "Blitz",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blitz",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: find Blitz in a chest at the Mermaid Lagoon.",
+        "Aqua: find Blitz in a chest at the Turo Prison Block.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny once eight worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Blitz panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Blitz panel on the Skull Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Blitz panel on the Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Blitz panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Blitz: Sonic Blaster (5%)[1]"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 580
+        },
+        {
+          "level": 3,
+          "cp": 610
+        },
+        {
+          "level": 4,
+          "cp": 640
+        }
+      ]
+    },
+    {
+      "name": "Meteor Crash",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Meteor_Crash",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: make through Command Melding.",
+        "Terra: buy at Moogle Shop for 2500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 850
+        },
+        {
+          "level": 5,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Magic Hour",
+      "type": "Attack",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Magic_Hour",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 850
+        },
+        {
+          "level": 5,
+          "cp": 900
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Sliding Dash",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Sliding_Dash",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: Sliding Dash as one of his initial commands.",
+        "Ventus obtains Sliding Dash from a chest on the Mountain Path during the tutorial.[1]",
+        "Terra/Ventus/Aqua: buy at Moogle Shop for 100 munny once one world is cleared or the command has already been obtained elsewhere.",
+        "Terra/Aqua: buy opponent panel: Ventus's Sliding Dash panel on the Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Sliding Dash panel on the Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Sliding Dash panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Sliding Dash panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Sliding Dash panel on the Skull Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Sliding Dash panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Sliding Dash: Thornbite (7.2%, Shop LV 1-2)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 90
+        },
+        {
+          "level": 3,
+          "cp": 110
+        }
+      ]
+    },
+    {
+      "name": "Fire Dash",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fire_Dash",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra, Ventus, and Aqua reward for achieving a top 3 finish on Disney Drive.[1]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 450 munny once five worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Aqua: buy opponent panel: Ventus's Fire Dash panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Fire Dash panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Fire Dash panel on the Skull Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Fire Dash panel on the Secret Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Fire Dash panel on the Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Fire Dash panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 200
+        },
+        {
+          "level": 3,
+          "cp": 220
+        },
+        {
+          "level": 4,
+          "cp": 240
+        }
+      ]
+    },
+    {
+      "name": "Dark Haze",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Dark_Haze",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: acquire Dark Haze from a chest found in Mermaid Lagoon.",
+        "Terra: make through Command Melding.",
+        "Terra: buy at Command Shop for 1100 munny once eight worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 570
+        },
+        {
+          "level": 3,
+          "cp": 600
+        },
+        {
+          "level": 4,
+          "cp": 630
+        }
+      ]
+    },
+    {
+      "name": "Sonic Blade",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Sonic_Blade",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 2000 munny after the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: obtain Sonic Blade as the first reward for beating Hercules in the Break the urns mini-game.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Sonic Blade panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Sonic Blade panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 660
+        },
+        {
+          "level": 3,
+          "cp": 710
+        },
+        {
+          "level": 4,
+          "cp": 760
+        },
+        {
+          "level": 5,
+          "cp": 810
+        }
+      ]
+    },
+    {
+      "name": "Chaos Blade",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Chaos_Blade",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: make through Command Melding.",
+        "Terra: buy at Moogle Shop for 2500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 700
+        },
+        {
+          "level": 3,
+          "cp": 750
+        },
+        {
+          "level": 4,
+          "cp": 800
+        },
+        {
+          "level": 5,
+          "cp": 850
+        },
+        {
+          "level": 6,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Zantetsuken",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Zantetsuken",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: buy at Command Shop for 1700 munny once five worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra: buy at Medal Shop for 1000 medals after reaching Shop Level 5 and Arena Level 8."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 470
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 530
+        },
+        {
+          "level": 5,
+          "cp": 560
+        }
+      ]
+    },
+    {
+      "name": "Strike Raid",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Strike_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: Strike Raid as one of his initial commands.",
+        "Terra: find Strike Raid in a chest in the Foyer.",
+        "Aqua: find Strike Raid in a chest in the Gardens.",
+        "Terra/Ventus/Aqua: buy at Moogle Shop for 100 munny once five worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Strike Raid panel on the Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Strike Raid panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Strike Raid: Monotrucker: (6%, Shop LV 4-5, 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 110
+        },
+        {
+          "level": 3,
+          "cp": 130
+        }
+      ]
+    },
+    {
+      "name": "Freeze Raid",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Freeze_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Moogle Shop for 200 munny once six worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra, Ventus, and Aqua receive Freeze Raid after clearing \"Hand in Hand\" on Ice Cream Beat on Beginner mode.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Freeze Raid panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Freeze Raid panel on the Toon Board."
+      ],
+      "enemy_drops": [
+        "Freeze Raid: Monotrucker (0.5%, Shop LV 6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 340
+        },
+        {
+          "level": 3,
+          "cp": 360
+        },
+        {
+          "level": 4,
+          "cp": 380
+        }
+      ]
+    },
+    {
+      "name": "Treasure Raid",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Treasure_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Treasure Raid from a chest at the Cliff Path."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 380
+        },
+        {
+          "level": 3,
+          "cp": 400
+        },
+        {
+          "level": 4,
+          "cp": 420
+        }
+      ]
+    },
+    {
+      "name": "Spark Raid",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Spark_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: buy Spark Raid from the Moogle Shop for 1300 munny once the command has been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 520
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 580
+        },
+        {
+          "level": 5,
+          "cp": 610
+        }
+      ]
+    },
+    {
+      "name": "Wind Raid",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Wind_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: chest — Twister Trench.",
+        "Ventus: make through Command Melding.",
+        "Ventus: buy at Command Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 590
+        },
+        {
+          "level": 3,
+          "cp": 620
+        },
+        {
+          "level": 4,
+          "cp": 650
+        },
+        {
+          "level": 5,
+          "cp": 680
+        }
+      ]
+    },
+    {
+      "name": "Fire Surge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fire_Surge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Fire Surge from a chest at the Launch Deck.",
+        "Aqua: obtain Fire Surge from a chest at the Ship Hub.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy Fire Surge from the Moogle Shop for 650 munny once six worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Fire Surge panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Fire Surge: Thornbite (0.6%, Shop LV 6-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 470
+        },
+        {
+          "level": 3,
+          "cp": 490
+        }
+      ]
+    },
+    {
+      "name": "Barrier Surge",
+      "type": "Attack",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Barrier_Surge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: obtain Barrier Surge from a chest at the Foyer.",
+        "Aqua: make through Command Melding.",
+        "Aqua: buy Barrier Surge from the Moogle Shop for 500 munny once five worlds are cleared or the command has already been obtained elsewhere.",
+        "Aqua: buy opponent panel: Cinderella's Barrier Surge panel on the Royal Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 460
+        },
+        {
+          "level": 3,
+          "cp": 480
+        }
+      ]
+    },
+    {
+      "name": "Thunder Surge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Thunder_Surge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Thunder Surge from a chest at the Fountain Court.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy Thunder Surge from the Moogle Shop for 700 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 520
+        }
+      ]
+    },
+    {
+      "name": "Aerial Slam",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Aerial_Slam",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Aerial Slam from a chest at Pete's Rec Room.",
+        "Ventus: obtain Aerial Slam from a chest at Pete's Rec Room.",
+        "Aqua: obtain Aerial Slam from a chest at Pete's Rec Room.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny once eight worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aerial Slam panel on the Skull Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Aerial Slam panel on the Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Aerial Slam panel on the Secret Board.",
+        "Terra/Ventus/Aqua: start the game with Aerial Slam if a Kingdom Hearts Birth by Sleep save file with the Keyslinger trophy is on the memory stick.[KH BbS FM][1]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 620
+        },
+        {
+          "level": 3,
+          "cp": 650
+        },
+        {
+          "level": 4,
+          "cp": 680
+        }
+      ]
+    },
+    {
+      "name": "Ars Solum",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Ars_Solum",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: chest — Skull Rock: Cavern.",
+        "Terra: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 950
+        },
+        {
+          "level": 5,
+          "cp": 1050
+        },
+        {
+          "level": 6,
+          "cp": 1150
+        }
+      ]
+    },
+    {
+      "name": "Ars Arcanum",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Ars_Arcanum",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Ventus: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 950
+        },
+        {
+          "level": 5,
+          "cp": 1050
+        },
+        {
+          "level": 6,
+          "cp": 1150
+        }
+      ]
+    },
+    {
+      "name": "Time Splicer",
+      "type": "Attack",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Time_Splicer",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Aqua: obtain Time Splicer from a chest at Rainbow Falls: Ascent.",
+        "Ventus/Aqua: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 950
+        },
+        {
+          "level": 5,
+          "cp": 1050
+        },
+        {
+          "level": 6,
+          "cp": 1150
+        }
+      ]
+    },
+    {
+      "name": "Poison Edge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Poison_Edge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: find Poison Edge in a chest at the Underground Waterway.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once four worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Poison Edge panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Poison Edge panel on the Skull Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Poison Edge panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 320
+        },
+        {
+          "level": 3,
+          "cp": 340
+        }
+      ]
+    },
+    {
+      "name": "Wishing Edge",
+      "type": "Attack",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Wishing_Edge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Moogle Shop for 500 munny after acquiring it elsewhere.",
+        "Aqua: obtain Wishing Edge from a bonus on the Royal Board.",
+        "Aqua: buy opponent panel: Cinderella's Wishing Edge panel on the Royal Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 420
+        },
+        {
+          "level": 3,
+          "cp": 440
+        }
+      ]
+    },
+    {
+      "name": "Blizzard Edge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blizzard_Edge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Moogle Shop for 200 munny once four worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Blizzard Edge panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Blizzard Edge panel on the Toon Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 340
+        },
+        {
+          "level": 3,
+          "cp": 360
+        }
+      ]
+    },
+    {
+      "name": "Stun Edge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Stun_Edge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: Stun Edge in his initial Command Deck.",
+        "Ventus: chest — Cinderella's Room.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once four worlds are cleared or the command has already been obtained elsewhere.",
+        "Ventus/Aqua: buy opponent panel: Terra's Stun Edge panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Stun Edge panel on the Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Stun Edge panel on the Spaceship Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Stun Edge panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 80
+        },
+        {
+          "level": 3,
+          "cp": 100
+        }
+      ]
+    },
+    {
+      "name": "Slot Edge",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Slot_Edge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Slot Edge from a chest at the Raceway.",
+        "Ventus: obtain Slot Edge from a chest at the Raceway.",
+        "Aqua: obtain Slot Edge from a chest at the Raceway.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Moogle Shop for 700 munny after acquiring it elsewhere.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Slot Edge panel on the Toon Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 510
+        },
+        {
+          "level": 3,
+          "cp": 530
+        }
+      ]
+    },
+    {
+      "name": "Fire Strike",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fire_Strike",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Fire Strike from a chest at the Coliseum Gates.",
+        "Ventus: obtain Fire Strike from a chest at the Coliseum Gates.",
+        "Aqua: obtain Fire Strike from a chest at the Coliseum Gates.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 450 munny once five worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Fire Strike panel on the Hunny Pot Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Fire Strike panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Fire Strike panel on the Toon Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 400
+        },
+        {
+          "level": 3,
+          "cp": 420
+        }
+      ]
+    },
+    {
+      "name": "Confusion Strike",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Confusion_Strike",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: obtain Confusion Strike in a chest at Maleficent's Throne.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Confusion Strike can be purchased from the Moogle Shop for 450 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Confusion Strike panel on the Royal Board.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Confusion Strike panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Confusion Strike: Archraven (3%, Shop LV 5-6)(5.7%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 400
+        },
+        {
+          "level": 3,
+          "cp": 420
+        }
+      ]
+    },
+    {
+      "name": "Binding Strike",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Binding_Strike",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Binding Strike from a chest at the Gardens.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 400 munny once four worlds are cleared or the command has already been obtained elsewhere.",
+        "Ventus/Aqua: buy opponent panel: Terra's Binding Strike panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Binding Strike panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Binding Strike panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Binding Strike panel on the Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Binding Strike panel on the Skull Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Binding Strike panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 370
+        },
+        {
+          "level": 3,
+          "cp": 390
+        }
+      ]
+    },
+    {
+      "name": "Tornado Strike",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Tornado_Strike",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 2,
+      "acquisitions": [
+        "Ventus: chest — Dungeon.",
+        "Ventus: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 950
+        },
+        {
+          "level": 3,
+          "cp": 1000
+        },
+        {
+          "level": 4,
+          "cp": 1050
+        }
+      ]
+    },
+    {
+      "name": "Brutal Blast",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Brutal_Blast",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Turo Prison Block.",
+        "Terra: make through Command Melding.",
+        "Terra: buy at Moogle Shop for 1800 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        }
+      ]
+    },
+    {
+      "name": "Magnet Spiral",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Magnet_Spiral",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 2300 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [
+        "Magnet Spiral: Blobmob (1%)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 640
+        },
+        {
+          "level": 3,
+          "cp": 690
+        },
+        {
+          "level": 4,
+          "cp": 740
+        },
+        {
+          "level": 5,
+          "cp": 790
+        }
+      ]
+    },
+    {
+      "name": "Salvation",
+      "type": "Attack",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Salvation",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Ventus: make through Command Melding.",
+        "Ventus: reward for earning 100 points in the Sticker Album.[KH BbS]",
+        "Ventus: reward for earning 110 points in the Sticker Album.[KH BbS FM]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 700
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 1000
+        },
+        {
+          "level": 6,
+          "cp": 1100
+        }
+      ]
+    },
+    {
+      "name": "Windcutter",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Windcutter",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Twister Trench.",
+        "Terra: make through Command Melding.",
+        "Terra: buy Windcutter from the Moogle Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 480
+        },
+        {
+          "level": 4,
+          "cp": 510
+        },
+        {
+          "level": 5,
+          "cp": 540
+        }
+      ]
+    },
+    {
+      "name": "Limit Storm",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Limit_Storm",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: make through Command Melding.",
+        "Terra: reward for earning 60 points in the Sticker Album.[KH BbS]",
+        "Terra: reward for earning 70 points in the Sticker Album.[KH BbS FM]",
+        "Terra: buy at Moogle Shop for 1500 munny after acquiring it elsewhere.",
+        "Terra: bonus panel — Spaceship Board.",
+        "Terra: buy opponent panel: Gantu's Limit Storm panel on the Spaceship Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 480
+        },
+        {
+          "level": 4,
+          "cp": 510
+        },
+        {
+          "level": 5,
+          "cp": 540
+        }
+      ]
+    },
+    {
+      "name": "Collision Magnet",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Collision_Magnet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Ventus: reward for earning 80 points in the Sticker Album.[KH BbS]",
+        "Ventus: reward for earning 70 points in the Sticker Album.[KH BbS FM]",
+        "Collision Magnet can also be bought from the Moogle Shop for 1300 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Collision Magnet panel on the Spaceship Board."
+      ],
+      "enemy_drops": [
+        "Collision Magnet: Triple Wrecker (5%)"
+      ],
+      "cp_evidence_status": "Maximum level conflict: aggregate roster 4, individual BBS page 5. No complete mastery curve certified.",
+      "max_level_conflict": {
+        "roster": 4,
+        "individual_page": 5
+      }
+    },
+    {
+      "name": "Geo Impact",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Geo_Impact",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: chest — Mermaid Lagoon.",
+        "Terra: make through Command Melding.",
+        "Terra: buy at Moogle Shop for 2100 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 580
+        },
+        {
+          "level": 5,
+          "cp": 630
+        }
+      ]
+    },
+    {
+      "name": "Sacrifice",
+      "type": "Attack",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Sacrifice",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: make through Command Melding.",
+        "Terra: buy at Moogle Shop for 1500 munny after acquiring it elsewhere.",
+        "Terra: bonus panel — Hunny Pot Board.",
+        "Terra: buy opponent panel: Tigger's Sacrifice panel on the Hunny Pot Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 420
+        },
+        {
+          "level": 3,
+          "cp": 450
+        },
+        {
+          "level": 4,
+          "cp": 480
+        },
+        {
+          "level": 5,
+          "cp": 510
+        }
+      ]
+    },
+    {
+      "name": "Break Time",
+      "type": "Attack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Break_Time",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: chest — Pete's Rec Room.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: start the game with Break Time if a Kingdom Hearts Birth by Sleep save file with the Power Walker trophy is on the memory stick.[KH BbS FM][1]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        }
+      ]
+    },
+    {
+      "name": "Fire",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fire",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Aqua: chest — Underground Waterway.",
+        "Ventus: chest — Cottage Clearing.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after three worlds have been cleared or prior acquisition.",
+        "Terra/Ventus: buy opponent panel: Aqua's Fire panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Fire panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Fire: Red Hot Chili (4.8%, Shop LV 3)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 110
+        },
+        {
+          "level": 3,
+          "cp": 130
+        }
+      ]
+    },
+    {
+      "name": "Fira",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fira",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Outer Gardens.",
+        "Ventus: chest — Aqueduct.",
+        "Aqua: obtain Fira from a chest at the Raceway.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after five worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Fira panel on the Hunny Pot Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Fira panel on the Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Fira panel on the Spaceship Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Fira panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Fira: Red Hot Chili (3%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 440
+        },
+        {
+          "level": 3,
+          "cp": 460
+        }
+      ]
+    },
+    {
+      "name": "Firaga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Firaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus: obtain Firaga from a chest at the Cliff Path.",
+        "Aqua: obtain Firaga from a chest at the Rainbow Falls: Ascent.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Firaga panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Firaga panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Firaga: Red Hot Chili (0.6%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 580
+        },
+        {
+          "level": 3,
+          "cp": 610
+        },
+        {
+          "level": 4,
+          "cp": 640
+        }
+      ]
+    },
+    {
+      "name": "Dark Firaga",
+      "type": "Magic",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Dark_Firaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: buy at Command Shop for 2000 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 580
+        },
+        {
+          "level": 5,
+          "cp": 630
+        }
+      ]
+    },
+    {
+      "name": "Fission Firaga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fission_Firaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Fission Firaga from a chest at the Courtyard.",
+        "Aqua: obtain Fission Firaga from a chest at the Courtyard.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Fission Firaga panel on the Secret Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 580
+        },
+        {
+          "level": 3,
+          "cp": 610
+        },
+        {
+          "level": 4,
+          "cp": 640
+        }
+      ]
+    },
+    {
+      "name": "Triple Firaga",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Triple_Firaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: buy at Command Shop for 1800 munny after acquiring it elsewhere.",
+        "Aqua: obtain Triple Firaga from a chest at the Upper Zone.[KH BbS FM]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 615
+        },
+        {
+          "level": 3,
+          "cp": 645
+        },
+        {
+          "level": 4,
+          "cp": 675
+        }
+      ]
+    },
+    {
+      "name": "Crawling Fire",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Crawling_Fire",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: create Crawling Fire through Command Meld.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1800 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 600
+        },
+        {
+          "level": 3,
+          "cp": 630
+        },
+        {
+          "level": 4,
+          "cp": 660
+        }
+      ]
+    },
+    {
+      "name": "Blizzard",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blizzard",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: Blizzard in her initial Command Deck.",
+        "Terra: chest — Forest Clearing.",
+        "Ventus: chest — Wardrobe Room.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after one world has been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Blizzard panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Blizzard panel on the Royal Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board."
+      ],
+      "enemy_drops": [
+        "Blizzard: Blue Sea Salt (4.8%, Shop LV 4)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 100
+        },
+        {
+          "level": 3,
+          "cp": 120
+        }
+      ]
+    },
+    {
+      "name": "Blizzara",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blizzara",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: obtain Blizzara as the prize for getting a \"Fantastic\" score for \"Blast Away!-Gummi Ship II-\" on Master Mode in Ice Cream Beat.[4][5]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after six worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzara panel on the Toon Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Blizzara panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Blizzara: Blue Sea Salt (3%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 440
+        },
+        {
+          "level": 3,
+          "cp": 460
+        }
+      ]
+    },
+    {
+      "name": "Blizzaga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blizzaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: obtain Blizzaga as the prize for getting a \"Fantastic\" score for \"Hand in Hand\" on Master Mode in Ice Cream Beat.[4]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Blizzaga panel on the Toon Board."
+      ],
+      "enemy_drops": [
+        "Blizzaga: Blue Sea Salt (0.6%, Shop LV 7-8)"
+      ],
+      "cp_evidence_status": "Maximum level conflict: aggregate roster 3, individual BBS page 4. No complete mastery curve certified.",
+      "max_level_conflict": {
+        "roster": 3,
+        "individual_page": 4
+      }
+    },
+    {
+      "name": "Triple Blizzaga",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Triple_Blizzaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: buy at Moogle Shop for 1800 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        }
+      ]
+    },
+    {
+      "name": "Thunder",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Thunder",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: Thunder in her initial Command Deck.",
+        "Terra: chest — Antechamber.",
+        "Ventus: chest — Audience Chamber.",
+        "Terra/Ventus/Aqua: obtain Thunder from two chests in the Gizmo Gallery.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after three worlds have been cleared or prior acquisition.",
+        "Terra/Ventus: buy opponent panel: Aqua's Thunder panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Thunder panel on the Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Thunder panel on the Spaceship Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 160
+        },
+        {
+          "level": 3,
+          "cp": 180
+        }
+      ]
+    },
+    {
+      "name": "Thundara",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Thundara",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Launch Deck.",
+        "Ventus: chest — Ship Hub.",
+        "Aqua: obtain Thundara from a chest at the Aqueduct.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Thundara panel on the Hunny Pot Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Thundara panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Thundara panel on the Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Thundara panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Thundara panel on the Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Thundara panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Thundara: Yellow Mustard (3%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 470
+        },
+        {
+          "level": 3,
+          "cp": 490
+        }
+      ]
+    },
+    {
+      "name": "Thundaga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Thundaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: obtain Thundaga from a chest at the Rainbow Falls: Ascent.",
+        "Terra/Ventus/Aqua: reward for attacking the top of the totem pole at the Indian Camp.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after eight worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Thundaga panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Thundaga panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Thundaga: Yellow Mustard (0.6%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        }
+      ]
+    },
+    {
+      "name": "Thundaga Shot",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Thundaga_Shot",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Command Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        }
+      ]
+    },
+    {
+      "name": "Cure",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Cure",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Mysterious Tower.",
+        "Ventus/Aqua: obtain Cure from a chest at the Gates.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after two worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Cure panel on the Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Cure panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Cure panel on the Toon Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Cure panel on the Secret Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Cure panel on the Secret Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Cure: Hareraiser (4.8%, Shop LV 3-6)(4.72%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 180
+        },
+        {
+          "level": 3,
+          "cp": 200
+        }
+      ]
+    },
+    {
+      "name": "Cura",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Cura",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus/Aqua: obtain Cura from a chest at the Coliseum Gates.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Cura panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Cura panel on the Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Cura panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Cura: Vile Phial (3%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 510
+        },
+        {
+          "level": 3,
+          "cp": 530
+        }
+      ]
+    },
+    {
+      "name": "Curaga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Curaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after eight worlds have been cleared or prior acquisition."
+      ],
+      "enemy_drops": [
+        "Curaga: Vile Phial (0.6%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 630
+        },
+        {
+          "level": 3,
+          "cp": 660
+        },
+        {
+          "level": 4,
+          "cp": 690
+        }
+      ]
+    },
+    {
+      "name": "Esuna",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Esuna",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Esuna from a chest at the Aqueduct.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Mine Shield",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mine_Shield",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Mine Shield from a chest at the Machinery Bay.",
+        "Aqua: obtain Mine Shield from a chest at Peter's Hideout.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1000 munny once seven worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Mine Shield panel on the Spaceship Board."
+      ],
+      "enemy_drops": [
+        "Mine Shield: Buckle Bruiser (1.2%, Shop LV 6-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 530
+        },
+        {
+          "level": 3,
+          "cp": 560
+        },
+        {
+          "level": 4,
+          "cp": 590
+        }
+      ]
+    },
+    {
+      "name": "Mine Square",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mine_Square",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Mine Square from a chest at the Machinery Bay Access.",
+        "Aqua: obtain Mine Square from a chest at the Front Doors.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1000 munny once seven worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Mine Square panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Mine Square panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Mine Square: Buckle Bruiser (1.2%, Shop LV 6-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 530
+        },
+        {
+          "level": 3,
+          "cp": 560
+        },
+        {
+          "level": 4,
+          "cp": 590
+        }
+      ]
+    },
+    {
+      "name": "Seeker Mine",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Seeker_Mine",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Command Shop for 2300 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 700
+        },
+        {
+          "level": 3,
+          "cp": 750
+        },
+        {
+          "level": 4,
+          "cp": 800
+        }
+      ]
+    },
+    {
+      "name": "Zero Gravity",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Zero_Gravity",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Audience Chamber.",
+        "Ventus: chest — Wardrobe Room.",
+        "Aqua: chest — Gardens.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny after three worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Zero Gravity panel on the Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Zero Gravity panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Zero Gravity panel on the Royal Board."
+      ],
+      "enemy_drops": [
+        "Zero Gravity: Tank Toppler (25%)[2]"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 140
+        },
+        {
+          "level": 3,
+          "cp": 160
+        }
+      ]
+    },
+    {
+      "name": "Zero Gravira",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Zero_Gravira",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Pete's Rec Room.",
+        "Ventus: chest — Ship Hub.",
+        "Aqua: chest — Launch Deck.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny after six worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Hunny Pot Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Zero Gravira panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Zero Gravira panel on the Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Zero Gravira panel on the Skull Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Zero Gravira panel on the Secret Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Zero Gravira panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Zero Gravira: Tank Toppler (25%)[3]"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 490
+        },
+        {
+          "level": 3,
+          "cp": 510
+        }
+      ]
+    },
+    {
+      "name": "Zero Graviga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Zero_Graviga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Zero Graviga from a chest at the Rainbow Falls: Base.",
+        "Aqua: chest — Middle Zone.[KH BbS FM]",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after the command been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Zero Graviga panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Zero Graviga: Tank Toppler (5%)[4]"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 600
+        },
+        {
+          "level": 3,
+          "cp": 630
+        },
+        {
+          "level": 4,
+          "cp": 660
+        }
+      ]
+    },
+    {
+      "name": "Magnet",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Magnet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Magnet from a chest at the Hall.",
+        "Aqua: obtain Magnet from a chest at the Vault.",
+        "Terra/Ventus/Aqua: purchase Magnet at the Command Shop for 120 munny once three worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Magnet panel on the Keyblade Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Magnet panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Magnet panel on the Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Magnet panel on the Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Magnet panel on the Spaceship Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 160
+        },
+        {
+          "level": 3,
+          "cp": 180
+        }
+      ]
+    },
+    {
+      "name": "Magnera",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Magnera",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Magnera at the Command Shop for 550 munny once six worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: reward for beating Chip and Dale in Fruitball for the first time.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Magnera panel on the Secret Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Magnera panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Magnera: Blobmob (6%, Shop LV 5-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 490
+        },
+        {
+          "level": 3,
+          "cp": 510
+        }
+      ]
+    },
+    {
+      "name": "Magnega",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Magnega",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Magnega from a chest at the Mysterious Tower.",
+        "Aqua: obtain Magnega from a chest at the Mysterious Tower.",
+        "Terra/Ventus/Aqua: purchase Magnega at the Command Shop for 1250 munny once the command has been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Magnega: Triple Wrecker (0.6%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 600
+        },
+        {
+          "level": 3,
+          "cp": 630
+        },
+        {
+          "level": 4,
+          "cp": 660
+        }
+      ]
+    },
+    {
+      "name": "Munny Magnet",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Munny_Magnet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Moogle Shop for 800 munny after acquiring it elsewhere.",
+        "Aqua: bonus panel — Skull Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 560
+        }
+      ]
+    },
+    {
+      "name": "Energy Magnet",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Energy_Magnet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Command Shop for 800 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 560
+        }
+      ]
+    },
+    {
+      "name": "D-Link Magnet",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/D-Link_Magnet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 560
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Aero",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Aero",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: Aero in his initial Command Deck.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once three worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Aero panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Aero panel on the Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Aero panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aero panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Aero: Jellyshade (4.8%, Shop LV 5-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 140
+        },
+        {
+          "level": 3,
+          "cp": 160
+        }
+      ]
+    },
+    {
+      "name": "Aerora",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Aerora",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra, Ventus, and Aqua reward for achieving a top 3 finish on the Grand Spree.[4]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once six worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Aerora panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Experiment 626's Aerora panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Aerora panel on the Skull Board.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Aerora panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Aerora: Mandrake (3.2%, Shop LV 4-6)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 500
+        }
+      ]
+    },
+    {
+      "name": "Aeroga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Aeroga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: find Aeroga in a chest at the Mermaid Lagoon.",
+        "Aqua: find Aeroga in a chest at the Twister Trench.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1300 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board."
+      ],
+      "enemy_drops": [
+        "Aeroga: Mandrake (0.4%. Shop LV 7-8), Wild Bruiser (1.2%, Shop LV 7-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        }
+      ]
+    },
+    {
+      "name": "Warp",
+      "type": "Magic",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Warp",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Ship Corridor.",
+        "Terra: make through Command Melding.",
+        "Terra: buy at Command Shop for 1500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 640
+        },
+        {
+          "level": 4,
+          "cp": 670
+        },
+        {
+          "level": 5,
+          "cp": 700
+        }
+      ]
+    },
+    {
+      "name": "Faith",
+      "type": "Magic",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Faith",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Deep Freeze",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Deep_Freeze_(ability)",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Aqua: reward for earning 80 points in the Sticker Album.[KH BbS]",
+        "Aqua: reward for earning 110 points in the Sticker Album.[KH BbS FM]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 2200 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: start the game with Deep Freeze if a Kingdom Hearts Birth by Sleep save file with the Dairy Devotee trophy is on the memory stick.[KH BbS FM][1]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 670
+        },
+        {
+          "level": 3,
+          "cp": 720
+        },
+        {
+          "level": 4,
+          "cp": 770
+        },
+        {
+          "level": 5,
+          "cp": 820
+        }
+      ]
+    },
+    {
+      "name": "Glacier",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Glacier_(ability)",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Command Shop for 2500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 850
+        },
+        {
+          "level": 5,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Ice Barrage",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Ice_Barrage",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Aqua: chest — Dungeon.",
+        "Aqua: buy at Moogle Shop for 1800 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 640
+        },
+        {
+          "level": 3,
+          "cp": 690
+        },
+        {
+          "level": 4,
+          "cp": 740
+        },
+        {
+          "level": 5,
+          "cp": 790
+        }
+      ]
+    },
+    {
+      "name": "Firaga Burst",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Firaga_Burst",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Aqua: obtain Firaga Burst from a chest at the Mermaid Lagoon.",
+        "Aqua: make through Command Melding.",
+        "Aqua: buy at Command Shop for 2500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 850
+        },
+        {
+          "level": 5,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Raging Storm",
+      "type": "Magic",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Raging_Storm",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Aqua: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 840
+        },
+        {
+          "level": 3,
+          "cp": 890
+        },
+        {
+          "level": 4,
+          "cp": 940
+        },
+        {
+          "level": 5,
+          "cp": 990
+        },
+        {
+          "level": 6,
+          "cp": 1040
+        }
+      ]
+    },
+    {
+      "name": "Mega Flare",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mega_Flare",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Quake",
+      "type": "Magic",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Quake",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 5,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: buy at Moogle Shop for 2500 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 750
+        },
+        {
+          "level": 3,
+          "cp": 800
+        },
+        {
+          "level": 4,
+          "cp": 850
+        },
+        {
+          "level": 5,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Meteor",
+      "type": "Magic",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Meteor",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Terra: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ]
+    },
+    {
+      "name": "Tornado",
+      "type": "Magic",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Tornado",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Ventus: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 780
+        },
+        {
+          "level": 3,
+          "cp": 830
+        },
+        {
+          "level": 4,
+          "cp": 880
+        },
+        {
+          "level": 5,
+          "cp": 930
+        },
+        {
+          "level": 6,
+          "cp": 980
+        }
+      ]
+    },
+    {
+      "name": "Transcendence",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Transcendence",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 6,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Aqua: find Transcendence in a chest at the Lower Zone.[KH BbS FM]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 730
+        },
+        {
+          "level": 3,
+          "cp": 780
+        },
+        {
+          "level": 4,
+          "cp": 830
+        },
+        {
+          "level": 5,
+          "cp": 880
+        },
+        {
+          "level": 6,
+          "cp": 930
+        }
+      ]
+    },
+    {
+      "name": "Mini",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mini",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Mini from a chest at the Mine.",
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: obtain Mini as a reward for beating Monster of the Sea for the first time.[KH BbS FM]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 1500 munny after acquiring it elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Mini panel on the Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 610
+        },
+        {
+          "level": 3,
+          "cp": 660
+        },
+        {
+          "level": 4,
+          "cp": 710
+        }
+      ]
+    },
+    {
+      "name": "Blackout",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Blackout",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Blackout from a chest at the Aqueduct.",
+        "Aqua: chest — Lower Zone.[KH BbS FM]",
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once five worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Blackout panel on the Toon Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Blackout panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Blackout panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Blackout: Shoegazer (0.4%, Shop LV 4)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 470
+        },
+        {
+          "level": 3,
+          "cp": 520
+        }
+      ]
+    },
+    {
+      "name": "Ignite",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Ignite",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 600 munny once four worlds are cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Aqua: reward for earning 20 points in the Sticker Album.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Gantu's Ignite panel on the Spaceship Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Ignite panel on the Skull Board."
+      ],
+      "enemy_drops": [
+        "Ignite: Red Hot Chili (0.6%, Shop LV 4)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 470
+        },
+        {
+          "level": 3,
+          "cp": 520
+        },
+        {
+          "level": 4,
+          "cp": 570
+        }
+      ]
+    },
+    {
+      "name": "Confuse",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Confuse",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world has been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Confuse panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Confuse panel on the Skull Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Confuse panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Confuse: Archraven (3.6%, Shop LV 1-4)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 100
+        },
+        {
+          "level": 3,
+          "cp": 150
+        }
+      ]
+    },
+    {
+      "name": "Bind",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Bind",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Aqua: obtain Bind from a chest on the Mountain Path.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once two worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus: buy opponent panel: Aqua's Bind panel on the Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Bind panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Bind panel on the Royal Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Bind panel on the Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Peter Pan's Bind panel on the Skull Board.",
+        "Terra/Ventus: buy opponent panel: Aqua's Bind panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Bind: Shoegazer (4.8%, Shop LV 1-3)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 120
+        },
+        {
+          "level": 3,
+          "cp": 170
+        }
+      ]
+    },
+    {
+      "name": "Poison",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Poison",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Ventus: obtain Poison from a chest at the Cottage Clearing.",
+        "Aqua: chest — Cottage.",
+        "Terra/Ventus/Aqua: enemy drop.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world is cleared or the command has already been obtained elsewhere.",
+        "Ventus/Aqua: buy opponent panel: Terra's Poison panel on the Keyblade Board.",
+        "Ventus/Aqua: buy opponent panel: Terra's Poison panel on the Secret Board."
+      ],
+      "enemy_drops": [
+        "Poison: Spiderchest (4.8%, Shop LV 1-3)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 100
+        },
+        {
+          "level": 3,
+          "cp": 150
+        },
+        {
+          "level": 4,
+          "cp": 200
+        }
+      ]
+    },
+    {
+      "name": "Slow",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Slow",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Slow from a chest at the Palace Courtyard.",
+        "Ventus: obtain Slow from a chest at the Gardens.",
+        "Aqua: obtain Slow from a chest at the Palace Courtyard.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 150 munny once three worlds have been cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Slow panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Slow panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Captain Hook's Slow panel on the Skull Board.",
+        "Terra/Aqua: buy opponent panel: Ventus's Slow panel on the Secret Board.",
+        "Terra/Ventus/Aqua: start the game with Slow if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]"
+      ],
+      "enemy_drops": [
+        "Slow: Chrono Twister (6%, Shop LV 4-5)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 120
+        },
+        {
+          "level": 3,
+          "cp": 170
+        }
+      ]
+    },
+    {
+      "name": "Stop",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Stop",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: obtain Stop from a chest on the Mountain Path.",
+        "Ventus: obtain Stop from a chest at the Raceway.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny after three worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Cinderella's Stop panel on the Royal Board."
+      ],
+      "enemy_drops": [
+        "Stop: Chrono Twister (6%, Shop LV 4-5; 10.8%, Shop LV 6-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 100
+        },
+        {
+          "level": 3,
+          "cp": 150
+        }
+      ]
+    },
+    {
+      "name": "Stopra",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Stopra",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 500 munny after five worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's Stopra panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Toon Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Minnie's Stopra panel on the Toon Board.",
+        "Ventus/Aqua: buy opponent panel: Captain Justice's Stopra panel on the Toon Board.",
+        "Terra: buy opponent panel: Captain Dark's Stopra panel on the Toon Board."
+      ],
+      "enemy_drops": [
+        "Stopra: Chrono Twister (1.2%, Shop LV 6-8)"
+      ],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 440
+        },
+        {
+          "level": 3,
+          "cp": 490
+        }
+      ]
+    },
+    {
+      "name": "Stopga",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Stopga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 1200 munny after eight worlds have been cleared or prior acquisition.",
+        "Terra/Ventus/Aqua: start the game with Stopga if a Kingdom Hearts Birth by Sleep save file with the Clockwork trophy is on the memory stick.[KH BbS FM][1]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 580
+        },
+        {
+          "level": 3,
+          "cp": 630
+        },
+        {
+          "level": 4,
+          "cp": 680
+        }
+      ]
+    },
+    {
+      "name": "Sleep",
+      "type": "Magic",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Sleep",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: chest — Tower Room.",
+        "Ventus: chest — Tower Room.",
+        "Aqua: obtain Sleep from a chest at the Gates",
+        "Terra/Ventus/Aqua: obtain Sleep as a enemy drop",
+        "Terra/Ventus/Aqua: buy at Command Shop for 100 munny once one world has been cleared or the command has already been obtained elsewhere.",
+        "Ventus/Aqua: buy opponent panel: Terra's Sleep panel on the Keyblade Board.",
+        "Terra/Ventus/Aqua: buy opponent panel: Pooh's Sleep panel on the Hunny Pot Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 100
+        },
+        {
+          "level": 3,
+          "cp": 150
+        }
+      ]
+    },
+    {
+      "name": "Potion",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Potion",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 5,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Hi-Potion",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Hi-Potion",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 4,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Mega-Potion",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mega-Potion",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Ether",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Ether",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 4,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Mega-Ether",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Mega-Ether",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Panacea",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Panacea",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Elixir",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Elixir",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 2,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Megalixir",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Megalixir",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 2,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Balloon Letter",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Balloon_Letter",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Vanilla Glitz",
+      "type": "Item",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Vanilla_Glitz",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Honeybunny",
+      "type": "Item",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Honeybunny",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Fabracadabra",
+      "type": "Item",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fabracadabra",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Bueno Volcano",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Bueno_Volcano",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Snow Bear",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Snow_Bear",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Spark Lemon",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Spark_Lemon",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Royalberry",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Royalberry",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Rockin' Crunch",
+      "type": "Item",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Rockin%27_Crunch",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Big Bad Pete",
+      "type": "Item",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Big_Bad_Pete",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Goofy Parfait",
+      "type": "Item",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Goofy_Parfait",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Sugary Skies",
+      "type": "Item",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Sugary_Skies",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Double Crunch",
+      "type": "Item",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Double_Crunch",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Donald Fizz",
+      "type": "Item",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Donald_Fizz",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Daisy Sorbet",
+      "type": "Item",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Daisy_Sorbet",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "capacity": 3,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Group Cure",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Group_Cure",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Medal Shop in the Mirage Arena for 180 medals."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 200
+        },
+        {
+          "level": 3,
+          "cp": 220
+        },
+        {
+          "level": 4,
+          "cp": 240
+        }
+      ]
+    },
+    {
+      "name": "Group Cura",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Group_Cura",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Group Cura at the Medal Shop in the Mirage Arena for 360 medals after reaching Arena Level 5."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 540
+        },
+        {
+          "level": 3,
+          "cp": 560
+        },
+        {
+          "level": 4,
+          "cp": 580
+        }
+      ]
+    },
+    {
+      "name": "Group Curaga",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Group_Curaga",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Group Curaga at the Medal Shop in the Mirage Arena for 500 medals after reaching Arena Level 10."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 670
+        },
+        {
+          "level": 3,
+          "cp": 700
+        },
+        {
+          "level": 4,
+          "cp": 730
+        }
+      ]
+    },
+    {
+      "name": "Confetti",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Confetti",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for hitting the mailbox at the Main Plaza.",
+        "Terra/Ventus/Aqua: purchase Confetti at the Medal Shop in the Mirage Arena after reaching Shop Level 3."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Fireworks",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Fireworks",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 1,
+      "acquisitions": [
+        "Terra: reward for earning 40 points in the Sticker Album.",
+        "Ventus: reward for earning 60 points in the Sticker Album.[KH BbS]",
+        "Ventus: reward for earning 40 points in the Sticker Album.[KH BbS FM]",
+        "Terra/Ventus/Aqua: purchase Fireworks at the Medal Shop in the Mirage Arena for 400 medals after reaching Shop Level 4 and Arena Level 5."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Victory Pose",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Victory_Pose",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Victory Pose at the Medal Shop in the Mirage Arena for 100 medals."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Vanish",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Vanish",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 1,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Vanish at the Medal Shop for 750 medals after reaching Shop Level 3 and Arena Level 5."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Trinity Limit",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Trinity_Limit",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 3,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Mirage Arena Medal Shop for 1400 Arena Medals once the player reach an Arena level of 1.",
+        "Terra/Ventus/Aqua: start the game with Trinity Limit if a Kingdom Hearts Birth by Sleep save file with the Trinity Trophy trophy is on the memory stick.[KH BbS FM][3]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Unison Rush",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Unison_Rush",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 3,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Unison Rush at the Medal Shop for 3000 medals."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Voltage Stack",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Voltage_Stack",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 3,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Voltage Stack at the Medal Shop in the Mirage Arena for 1800 medals.",
+        "Terra/Ventus/Aqua: reward for defeating the Element Cluster Unversed Mission in Neverland.[KH BbS FM]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Illusion-F",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Illusion-F",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for clearing the Floating Flora Unversed Mission with three stars."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Illusion-B",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Illusion-B",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for clearing the Belly Balloon Unversed Mission with three stars."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Illusion-R",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Illusion-R",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for clearing the Ringer Unversed Mission with three stars."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Illusion-L",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Illusion-L",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for clearing the Lone Runner Unversed Mission with three stars."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Illusion-V",
+      "type": "Friendship",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Illusion-V",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 2,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for clearing the Vitality Vial Unversed Mission with three stars."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Jump",
+      "type": "Movement",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Jump",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "High Jump",
+      "type": "Movement",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/High_Jump",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra: chest — Turo Prison Block.",
+        "Ventus obtains High Jump after defeating Vanitas for the first time at the Keyblade Graveyard.",
+        "Aqua obtains High Jump after defeating Maleficent's Goons with Prince Philip in Enchanted Dominion.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 500 munny once it has been obtained elsewhere.",
+        "Terra/Ventus/Aqua: buy opponent panel: Tigger's High Jump panel on the Hunny Pot Board.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Dodge Roll",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Dodge_Roll",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: Dodge Roll as an initial command.",
+        "Ventus: purchase Dodge Roll for 200 munny."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 580
+        }
+      ]
+    },
+    {
+      "name": "Thunder Roll",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Thunder_Roll",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: bonus panel — Hunny Pot Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1200
+        },
+        {
+          "level": 3,
+          "cp": 1300
+        },
+        {
+          "level": 4,
+          "cp": 1400
+        }
+      ]
+    },
+    {
+      "name": "Cartwheel",
+      "type": "Movement",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Cartwheel",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 480
+        },
+        {
+          "level": 3,
+          "cp": 530
+        },
+        {
+          "level": 4,
+          "cp": 580
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Firewheel",
+      "type": "Movement",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Firewheel",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: buy at Command Shop for 2000 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1200
+        },
+        {
+          "level": 3,
+          "cp": 1300
+        },
+        {
+          "level": 4,
+          "cp": 1400
+        }
+      ]
+    },
+    {
+      "name": "Air Slide",
+      "type": "Movement",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Air_Slide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra learns Air Slide after defeating the Unversed swarm in the Flower Glade.",
+        "Ventus learns Air Slide after defeating the Jellyshades with Hercules in the Town Near Thebes.",
+        "Aqua learns Air Slide after defeating the Glidewinders at the Ship Exterior.",
+        "Terra/Ventus/Aqua: buy at Command Shop for 800 munny after the command been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 850
+        },
+        {
+          "level": 3,
+          "cp": 950
+        },
+        {
+          "level": 4,
+          "cp": 1050
+        }
+      ]
+    },
+    {
+      "name": "Ice Slide",
+      "type": "Movement",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Ice_Slide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Command Shop for 2000 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1200
+        },
+        {
+          "level": 3,
+          "cp": 1300
+        },
+        {
+          "level": 4,
+          "cp": 1400
+        }
+      ]
+    },
+    {
+      "name": "Sonic Impact",
+      "type": "Movement",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Sonic_Impact",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra obtains Sonic Impact after winning the first ten rounds of the Games."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1000
+        },
+        {
+          "level": 3,
+          "cp": 1100
+        },
+        {
+          "level": 4,
+          "cp": 1200
+        }
+      ]
+    },
+    {
+      "name": "Slide",
+      "type": "Movement",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Slide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra: Slide as one of his default Deck Commands."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 850
+        },
+        {
+          "level": 3,
+          "cp": 950
+        },
+        {
+          "level": 4,
+          "cp": 1050
+        }
+      ]
+    },
+    {
+      "name": "Reversal",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Reversal",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus obtains Reversal after rescuing Ienzo from a horde of Unversed in Radiant Garden.",
+        "Ventus: buy at Moogle Shop for 600 munny after obtaining it elsewhere."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Glide",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Glide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus obtains Glide after meeting Peter Pan and Tinker Bell at Mermaid Lagoon.",
+        "Ventus: buy at Command Shop for 2000 munny after acquiring it elsewhere."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Superglide",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Superglide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: obtain Superglide from a chest at the Raceway."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1200
+        },
+        {
+          "level": 3,
+          "cp": 1300
+        },
+        {
+          "level": 4,
+          "cp": 1400
+        }
+      ]
+    },
+    {
+      "name": "Fire Glide",
+      "type": "Movement",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Fire_Glide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 1200
+        },
+        {
+          "level": 3,
+          "cp": 1300
+        },
+        {
+          "level": 4,
+          "cp": 1400
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Homing Slide",
+      "type": "Movement",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Homing_Slide",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus/Aqua: make through Command Melding."
+      ],
+      "enemy_drops": [],
+      "cp_evidence_status": "Maximum level conflict: aggregate roster 4, individual BBS page 1. No complete mastery curve certified.",
+      "max_level_conflict": {
+        "roster": 4,
+        "individual_page": 1
+      }
+    },
+    {
+      "name": "Teleport",
+      "type": "Movement",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Teleport",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: find Teleport in a chest at the Turo Prison Block."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Doubleflight",
+      "type": "Movement",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Doubleflight",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 1,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua obtains Doubleflight after encountering Captain Hook in the Gully."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        }
+      ]
+    },
+    {
+      "name": "Block",
+      "type": "Defense",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Block",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Terra/Ventus: Block as an initial command.",
+        "Terra/Ventus: buy at Command Shop for 200 munny once one world is cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 300
+        },
+        {
+          "level": 3,
+          "cp": 350
+        }
+      ]
+    },
+    {
+      "name": "Renewal Block",
+      "type": "Defense",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Renewal_Block",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Focus Block",
+      "type": "Defense",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Focus_Block",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Terra/Ventus: bonus panel — Royal Board.",
+        "Terra/Ventus: buy opponent panel: Cinderella's Focus Block panel on the Royal Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Stun Block",
+      "type": "Defense",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Stun_Block",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Terra/Ventus: reward for completing the Gluttonous Goo Unversed Mission with a ranking of ★★★.[KH BbS FM]",
+        "Terra/Ventus: buy at Command Shop for 600 munny once six worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Poison Block",
+      "type": "Defense",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Poison_Block_(KHBBS)",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Barrier",
+      "type": "Defense",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Barrier",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: Barrier as an initial command.",
+        "Aqua: buy at Command Shop for 200 munny once one world is cleared or the command has already been obtained elsewhere.",
+        "Terra/Ventus/Aqua: use Barrier while riding their Keyblade Glider."
+      ],
+      "enemy_drops": []
+    },
+    {
+      "name": "Renewal Barrier",
+      "type": "Defense",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Renewal_Barrier",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ],
+      "acquisition_status": "Meld/chest/shop sources are joined separately; no direct acquisition bullet recovered from this page."
+    },
+    {
+      "name": "Focus Barrier",
+      "type": "Defense",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Focus_Barrier",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: bonus panel — Royal Board.",
+        "Aqua: buy opponent panel: Cinderella's Focus Barrier panel on the Royal Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Confuse Barrier",
+      "type": "Defense",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Confuse_Barrier",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: reward for completing the Gluttonous Goo Unversed Mission with a ranking of ★★★.[KH BbS FM]",
+        "Aqua: buy at Command Shop for 600 munny once six worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Stop Barrier",
+      "type": "Defense",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Stop_Barrier",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 3,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: reward for earning 60 points in the Sticker Album.[KH BbS]",
+        "Aqua: reward for earning 70 points in the Sticker Album.[KH BbS FM]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Counter Hammer",
+      "type": "Reprisal",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Counter_Hammer",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra obtains Counter Hammer after escorting Cinderella to the ball in the Castle of Dreams.",
+        "Terra: buy at Command Shop for 1200 munny once five worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Payback Fang",
+      "type": "Reprisal",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Payback_Fang",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Terra: obtain Payback Fang from a chest at the Raceway.",
+        "Terra: buy at Command Shop for 1400 munny once seven worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 400
+        },
+        {
+          "level": 3,
+          "cp": 450
+        },
+        {
+          "level": 4,
+          "cp": 500
+        }
+      ]
+    },
+    {
+      "name": "Counter Rush",
+      "type": "Reprisal",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Counter_Rush",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: obtain Counter Rush from a chest at the Fountain Court.",
+        "Ventus: buy at Command Shop for 1200 munny once six worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Reversal Slash",
+      "type": "Reprisal",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Reversal_Slash",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: find Reversal Slash in a chest at the Raceway.",
+        "Ventus: buy at Command Shop for 800 munny once seven worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Payback Raid",
+      "type": "Reprisal",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Payback_Raid",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Ventus: chest — Mine.",
+        "Ventus: buy at Command Shop for 1400 munny once three worlds have been cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 400
+        },
+        {
+          "level": 3,
+          "cp": 450
+        },
+        {
+          "level": 4,
+          "cp": 500
+        }
+      ]
+    },
+    {
+      "name": "Counter Blast",
+      "type": "Reprisal",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Counter_Blast",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: chest — Fountain Court.",
+        "Aqua: buy at Command Shop for 1200 munny once six worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 450
+        },
+        {
+          "level": 3,
+          "cp": 500
+        },
+        {
+          "level": 4,
+          "cp": 550
+        }
+      ]
+    },
+    {
+      "name": "Payback Surge",
+      "type": "Reprisal",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Payback_Surge",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": 4,
+      "slots": 0,
+      "acquisitions": [
+        "Aqua: chest — Cottage Clearing.",
+        "Aqua: buy at Command Shop for 1400 munny once four worlds are cleared or the command has already been obtained elsewhere."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 400
+        },
+        {
+          "level": 3,
+          "cp": 450
+        },
+        {
+          "level": 4,
+          "cp": 500
+        }
+      ]
+    },
+    {
+      "name": "Aerial Recovery",
+      "type": "Reprisal",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Aerial_Recovery",
+      "roster_source": "https://www.khwiki.com/Deck_Command_(KHBBS)",
+      "max_level": null,
+      "slots": 0,
+      "acquisitions": [
+        "Terra/Ventus/Aqua: buy at Medal Shop for 320 medals."
+      ],
+      "enemy_drops": [],
+      "cp_evidence_status": "Multiple variants or maximum level disagreement; source table requires manual normalization."
+    },
+    {
+      "name": "Meteor Shower",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 30,
+      "source": "https://www.khwiki.com/Meteor_Shower",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Royal Board, Command Melding.",
+      "acquisitions": [
+        "Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: bonus panel — Royal Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        }
+      ]
+    },
+    {
+      "name": "Flame Salvo",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 15,
+      "source": "https://www.khwiki.com/Flame_Salvo",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Chest at the Vault.Ventus: InitialAqua: Purchase at the Medal Shop.",
+      "acquisitions": [
+        "Terra: chest — Vault.",
+        "Ventus: Flame Salvo as his default Shotlock.",
+        "Aqua: purchase Flame Salvo at the Mirage Arena Medal Shop for 900 medals."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 250
+        },
+        {
+          "level": 3,
+          "cp": 300
+        },
+        {
+          "level": 4,
+          "cp": 350
+        }
+      ]
+    },
+    {
+      "name": "Chaos Snake",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 20,
+      "source": "https://www.khwiki.com/Chaos_Snake",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Clear the final match of Fruitball.",
+      "acquisitions": [
+        "Terra/Ventus/Aqua: reward for defeating Captain Justice or Captain Dark in the final round of Fruitball in Disney Town."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 650
+        },
+        {
+          "level": 3,
+          "cp": 700
+        },
+        {
+          "level": 4,
+          "cp": 750
+        }
+      ]
+    },
+    {
+      "name": "Dark Volley",
+      "type": "Shotlock",
+      "characters": [
+        "Terra"
+      ],
+      "max_level": 5,
+      "max_locks": 18,
+      "source": "https://www.khwiki.com/Dark_Volley",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Defeat Braig.",
+      "acquisitions": [
+        "Terra obtains Dark Volley after defeating Braig in Radiant Garden."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        },
+        {
+          "level": 5,
+          "cp": 650
+        }
+      ]
+    },
+    {
+      "name": "Bubble Blaster",
+      "type": "Shotlock",
+      "characters": [
+        "Aqua"
+      ],
+      "max_level": 5,
+      "max_locks": 15,
+      "source": "https://www.khwiki.com/Bubble_Blaster",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Aqua: Initial",
+      "acquisitions": [
+        "Aqua: Bubble Blaster as her default Shotlock."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 250
+        },
+        {
+          "level": 3,
+          "cp": 300
+        },
+        {
+          "level": 4,
+          "cp": 350
+        },
+        {
+          "level": 5,
+          "cp": 400
+        }
+      ]
+    },
+    {
+      "name": "Ragnarok",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 16,
+      "source": "https://www.khwiki.com/Ragnarok",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Keyblade Board and Secret Board.",
+      "acquisitions": [
+        "Terra/Ventus/Aqua: bonus panel — Keyblade Board.[3]",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.[3]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        }
+      ]
+    },
+    {
+      "name": "Thunderstorm",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 5,
+      "source": "https://www.khwiki.com/Thunderstorm",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Chest at The Chateau.Ventus: Chest at the Mousehole.Aqua: Chest at the Foyer.",
+      "acquisitions": [
+        "Terra obtains Thunderstorm from a chest in The Chateau.",
+        "Ventus obtains Thunderstorm from a chest in the Mousehole.",
+        "Aqua obtains Thunderstorm from a chest in the Foyer."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        }
+      ]
+    },
+    {
+      "name": "Bio Barrage",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 8,
+      "source": "https://www.khwiki.com/Bio_Barrage",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Purchase at the Medal Shop, Command Melding.",
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: purchase Bio Barrage at the Mirage Arena for 2500 medals at Arena Level 15."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Pulse Bomb",
+      "type": "Shotlock",
+      "characters": [
+        "Ventus"
+      ],
+      "max_level": 5,
+      "max_locks": 20,
+      "source": "https://www.khwiki.com/Pulse_Bomb",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Ventus: Chest at the Ship Hub.",
+      "acquisitions": [
+        "Ventus: obtain Pulse Bomb from a chest at the Ship Hub."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 550
+        },
+        {
+          "level": 3,
+          "cp": 600
+        },
+        {
+          "level": 4,
+          "cp": 650
+        },
+        {
+          "level": 5,
+          "cp": 700
+        }
+      ]
+    },
+    {
+      "name": "Prism Rain",
+      "type": "Shotlock",
+      "characters": [
+        "Aqua"
+      ],
+      "max_level": 5,
+      "max_locks": 16,
+      "source": "https://www.khwiki.com/Prism_Rain",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Aqua: Chest at the Ship Hub.",
+      "acquisitions": [
+        "Aqua obtains Prism Rain from a chest in the Ship Hub."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 570
+        },
+        {
+          "level": 3,
+          "cp": 620
+        },
+        {
+          "level": 4,
+          "cp": 670
+        },
+        {
+          "level": 5,
+          "cp": 720
+        }
+      ]
+    },
+    {
+      "name": "Photon Charge",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 15,
+      "source": "https://www.khwiki.com/Photon_Charge",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Special bonus on the Skull Board, purchase from the Medal Shop.",
+      "acquisitions": [
+        "Terra/Ventus/Aqua: purchase Photon Charge at the Mirage Arena Medal Shop for 1600 medals.",
+        "Terra/Ventus/Aqua: bonus panel — Skull Board."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 650
+        },
+        {
+          "level": 3,
+          "cp": 700
+        },
+        {
+          "level": 4,
+          "cp": 750
+        }
+      ]
+    },
+    {
+      "name": "Absolute Zero",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 12,
+      "source": "https://www.khwiki.com/Absolute_Zero_(ability)",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Chest at the Gizmo Gallery.Ventus/Aqua: Chest at the Gates.",
+      "acquisitions": [
+        "Terra: obtain Absolute Zero from a chest at the Gizmo Gallery.",
+        "Ventus/Aqua: obtain Absolute Zero from a chest at the Gates."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 500
+        },
+        {
+          "level": 3,
+          "cp": 550
+        },
+        {
+          "level": 4,
+          "cp": 600
+        }
+      ]
+    },
+    {
+      "name": "Lightning Ray",
+      "type": "Shotlock",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "max_level": 4,
+      "max_locks": 18,
+      "source": "https://www.khwiki.com/Lightning_Ray",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra/Ventus/Aqua: Rare bonus on the Spaceship Board and Secret Board, Command Melding.",
+      "acquisitions": [
+        "Terra/Ventus/Aqua: make through Command Melding.",
+        "Terra/Ventus/Aqua: bonus panel — Spaceship Board.[1]",
+        "Terra/Ventus/Aqua: bonus panel — Secret Board.[1]"
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        }
+      ]
+    },
+    {
+      "name": "Sonic Shadow",
+      "type": "Shotlock",
+      "characters": [
+        "Terra"
+      ],
+      "max_level": 5,
+      "max_locks": 10,
+      "source": "https://www.khwiki.com/Sonic_Shadow",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Initial",
+      "acquisitions": [
+        "Terra: Sonic Shadow as his default Shotlock."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 300
+        },
+        {
+          "level": 3,
+          "cp": 350
+        },
+        {
+          "level": 4,
+          "cp": 400
+        },
+        {
+          "level": 5,
+          "cp": 450
+        }
+      ]
+    },
+    {
+      "name": "Ultima Cannon",
+      "type": "Shotlock",
+      "characters": [
+        "Terra"
+      ],
+      "max_level": 6,
+      "max_locks": 16,
+      "source": "https://www.khwiki.com/Ultima_Cannon",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Terra: Complete the Keepers of the Arena battle.",
+      "acquisitions": [
+        "Terra obtains Ultima Cannon by completing the Keepers of the Arena mission at the Mirage Arena."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ]
+    },
+    {
+      "name": "Multivortex",
+      "type": "Shotlock",
+      "characters": [
+        "Ventus"
+      ],
+      "max_level": 6,
+      "max_locks": 30,
+      "source": "https://www.khwiki.com/Multivortex",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Ventus: Complete the Keepers of the Arena battle.",
+      "acquisitions": [
+        "Ventus: reward for completing the Keepers of the Arena mission at the Mirage Arena."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ]
+    },
+    {
+      "name": "Lightbloom",
+      "type": "Shotlock",
+      "characters": [
+        "Aqua"
+      ],
+      "max_level": 6,
+      "max_locks": 20,
+      "source": "https://www.khwiki.com/Lightbloom",
+      "roster_source": "https://www.khwiki.com/Shotlock",
+      "acquisition_summary": "Aqua: Complete the Keepers of the Arena battle.",
+      "acquisitions": [
+        "Aqua: reward for completing the Keepers of the Arena mission at the Mirage Arena."
+      ],
+      "enemy_drops": [],
+      "cp_steps": [
+        {
+          "level": 1,
+          "cp": 0
+        },
+        {
+          "level": 2,
+          "cp": 800
+        },
+        {
+          "level": 3,
+          "cp": 850
+        },
+        {
+          "level": 4,
+          "cp": 900
+        },
+        {
+          "level": 5,
+          "cp": 950
+        },
+        {
+          "level": 6,
+          "cp": 1000
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Stomp",
+      "type": "Attack",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-L-1"
+      ]
+    },
+    {
+      "name": "Bloody Bounce",
+      "type": "Attack",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-B-2"
+      ]
+    },
+    {
+      "name": "Aromatherapy",
+      "type": "Magic",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-V-3"
+      ]
+    },
+    {
+      "name": "Group Esuna",
+      "type": "Friendship",
+      "reason": "HD-removed",
+      "source_notes": [
+        "#cite_note-HD-5"
+      ]
+    },
+    {
+      "name": "Taunt",
+      "type": "Friendship",
+      "reason": "HD-removed",
+      "source_notes": [
+        "#cite_note-HD-5"
+      ]
+    },
+    {
+      "name": "Deck Scramble",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Gold",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Black",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Finish",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Finish",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Finish",
+      "type": "Friendship",
+      "reason": "versus-only",
+      "source_notes": [
+        "#cite_note-versus-6"
+      ]
+    },
+    {
+      "name": "Sign of Faith",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Mickey-7"
+      ]
+    },
+    {
+      "name": "Sleepy",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Sneezy",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Grumpy",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Happy",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Dopey",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Bashful",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Doc",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Snow-8"
+      ]
+    },
+    {
+      "name": "Wish Circle",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Cind-9"
+      ]
+    },
+    {
+      "name": "Enchanted Step",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Cind-9"
+      ]
+    },
+    {
+      "name": "Wish Shot",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Cind-9"
+      ]
+    },
+    {
+      "name": "Magic Mending",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Cind-9"
+      ]
+    },
+    {
+      "name": "Dark Spiral",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Van-10"
+      ]
+    },
+    {
+      "name": "Dark Splicer",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-Van-10"
+      ]
+    },
+    {
+      "name": "Wrath of Darkness",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-OttD-11"
+      ]
+    },
+    {
+      "name": "Burrow/Surface",
+      "type": "Friendship",
+      "reason": "temporary-D-Link-Illusion-or-boss",
+      "source_notes": [
+        "#cite_note-F-12"
+      ]
+    },
+    {
+      "name": "Dark Link",
+      "type": "Shotlock",
+      "reason": "temporary-Vanitas-D-Link"
+    }
+  ]
+}

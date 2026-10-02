@@ -1,5 +1,7 @@
 # Kingdom Hearts Dream Drop Distance HD Specification
 
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](dddhd/audit-dispositions.md).
+
 ## Status
 
 Audited planning draft, 2026-09-18. The actual **KH3D DATABASE PROJECT** ranges and public HD references have been inspected. The workbook is a useful mixed-edition prototype, with material omissions and integrity defects. Production content remains incomplete; see the [research pack](dddhd/README.md) and [readiness audit](../readiness/dream-drop-distance.md).

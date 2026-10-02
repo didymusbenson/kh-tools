@@ -1,0 +1,418 @@
+{
+  "verifiedOn": "2026-10-01",
+  "edition": "English Kingdom Hearts II Final Mix",
+  "method": "Read live Game:world KHII Rewards and Bonus Levels tables, excluding KH1/BBS sections and choosing the KHIIFM column. Every area is explicitly associated with the reward event in the source; none inferred merely from a boss arena. Original KHII Xigbar Magnet grant is rejected in favor of the Final Mix Luxord row.",
+  "patches": {
+    "kh2fm.magic.fire-hollow-bastion-gate-defense": {
+      "area": "Bailey",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.magic.fire-scar": {
+      "area": "Peak",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Pride_Lands"
+      ]
+    },
+    "kh2fm.magic.fire-genie-jafar": {
+      "area": "The Palace",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Agrabah"
+      ]
+    },
+    "kh2fm.magic.blizzard-merlin-meeting": {
+      "area": "Merlin's House",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.magic.blizzard-hollow-bastion-demyx": {
+      "area": "Castle Gate",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.magic.blizzard-atlantica-completion": {
+      "area": "Undersea Courtyard",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Atlantica"
+      ]
+    },
+    "kh2fm.magic.thunder-hydra": {
+      "area": "The Coliseum",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Olympus_Coliseum"
+      ]
+    },
+    "kh2fm.magic.thunder-storm-rider": {
+      "area": "Imperial Square",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_Land_of_Dragons"
+      ]
+    },
+    "kh2fm.magic.thunder-groundshaker": {
+      "area": "The Savannah",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Pride_Lands"
+      ]
+    },
+    "kh2fm.magic.cure-beast-s-castle-completion": {
+      "area": "Ballroom",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Beast%27s_Castle"
+      ]
+    },
+    "kh2fm.magic.cure-goofy-reunion": {
+      "area": "Crystal Fissure",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.magic.cure-100-acre-wood-completion": {
+      "area": "Starry Hill",
+      "appendSources": [
+        "https://www.khwiki.com/Game:100_Acre_Wood"
+      ]
+    },
+    "kh2fm.magic.magnet-oogie-boogie": {
+      "area": "Toy Factory: Shipping & Receiving",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Halloween_Town"
+      ]
+    },
+    "kh2fm.magic.magnet-grim-reaper": {
+      "area": "Harbor",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Port_Royal"
+      ]
+    },
+    "kh2fm.magic.magnet-luxord-in-final-mix": {
+      "area": "Havoc's Divide",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.magic.reflect-timeless-river-pete": {
+      "area": "Wharf",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Timeless_River"
+      ]
+    },
+    "kh2fm.magic.reflect-xaldin": {
+      "area": "Bridge",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Beast%27s_Castle"
+      ]
+    },
+    "kh2fm.magic.reflect-mcp": {
+      "area": "Central Computer Core",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Space_Paranoids"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-1": {
+      "area": "The Dark Depths",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-2": {
+      "area": "Station Plaza",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Twilight_Town"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-3": {
+      "area": "Hall of Empty Melodies",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-4": {
+      "area": "Bridge",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Beast%27s_Castle"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-5": {
+      "area": "Underworld Caverns: Atrium",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Olympus_Coliseum"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-6": {
+      "area": "Harbor",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Port_Royal"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-7": {
+      "area": "Bailey",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-8": {
+      "area": "Havoc's Divide",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-9": {
+      "area": "Addled Impasse",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-10": {
+      "area": "Mansion: Computer Room",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Twilight_Town"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-11": {
+      "area": "Naught's Approach",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-12": {
+      "area": "Memory's Skyscraper",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    },
+    "kh2fm.reports.secret-ansem-report-13": {
+      "area": "The Altar of Naught",
+      "appendSources": [
+        "https://www.khwiki.com/Game:The_World_That_Never_Was"
+      ]
+    }
+  },
+  "evidence": {
+    "kh2fm.magic.fire-hollow-bastion-gate-defense": {
+      "area": "Bailey",
+      "event": "Defend the Gate from the Nobodies",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.fire-scar": {
+      "area": "Peak",
+      "event": "Defeat Scar",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Pride_Lands",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.fire-genie-jafar": {
+      "area": "The Palace",
+      "event": "Defeat Jafar-Genie",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Agrabah",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.blizzard-merlin-meeting": {
+      "area": "Merlin's House",
+      "event": "Talk to Leon",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.blizzard-hollow-bastion-demyx": {
+      "area": "Castle Gate",
+      "event": "Defeat Demyx",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.blizzard-atlantica-completion": {
+      "area": "Undersea Courtyard",
+      "event": "Complete A New Day is Dawning",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Atlantica",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.thunder-hydra": {
+      "area": "The Coliseum",
+      "event": "Defeat the Hydra",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.thunder-storm-rider": {
+      "area": "Imperial Square",
+      "event": "Defeat the Storm Rider",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_Land_of_Dragons",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.thunder-groundshaker": {
+      "area": "The Savannah",
+      "event": "Defeat the Groundshaker",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Pride_Lands",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.cure-beast-s-castle-completion": {
+      "area": "Ballroom",
+      "event": "Defeat the Dark Thorn",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Beast%27s_Castle",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.cure-goofy-reunion": {
+      "area": "Crystal Fissure",
+      "event": "Reunite with the others",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.cure-100-acre-wood-completion": {
+      "area": "Starry Hill",
+      "event": "Complete The Hunny Pot",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:100_Acre_Wood",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.magnet-oogie-boogie": {
+      "area": "Toy Factory: Shipping & Receiving",
+      "event": "Defeat Oogie Boogie",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Halloween_Town",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.magnet-grim-reaper": {
+      "area": "Harbor",
+      "event": "Defeat the Grim Reaper at the Harbor",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Port_Royal",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.magnet-luxord-in-final-mix": {
+      "area": "Havoc's Divide",
+      "event": "Defeat Luxord (Final Mix column)",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.reflect-timeless-river-pete": {
+      "area": "Wharf",
+      "event": "Defeat Pete",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Timeless_River",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.reflect-xaldin": {
+      "area": "Bridge",
+      "event": "Defeat Xaldin",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Beast%27s_Castle",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.magic.reflect-mcp": {
+      "area": "Central Computer Core",
+      "event": "Defeat the MCP",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Space_Paranoids",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-1": {
+      "area": "The Dark Depths",
+      "event": "Complete the Battle of 1000 Heartless",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-2": {
+      "area": "Station Plaza",
+      "event": "Defeat the Nobodies",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Twilight_Town",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-3": {
+      "area": "Hall of Empty Melodies",
+      "event": "Defeat Xigbar",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-4": {
+      "area": "Bridge",
+      "event": "Defeat Xaldin",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Beast%27s_Castle",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-5": {
+      "area": "Underworld Caverns: Atrium",
+      "event": "Defeat Demyx",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-6": {
+      "area": "Harbor",
+      "event": "Defeat the Grim Reaper",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Port_Royal",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-7": {
+      "area": "Bailey",
+      "event": "Defend the Gate from the Nobodies",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Radiant_Garden",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-8": {
+      "area": "Havoc's Divide",
+      "event": "Defeat Luxord",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-9": {
+      "area": "Addled Impasse",
+      "event": "Defeat Saïx",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-10": {
+      "area": "Mansion: Computer Room",
+      "event": "Reach the simulated Twilight Town",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:Twilight_Town",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-11": {
+      "area": "Naught's Approach",
+      "event": "Riku joins the party",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-12": {
+      "area": "Memory's Skyscraper",
+      "event": "Meet the man in the black coat",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    },
+    "kh2fm.reports.secret-ansem-report-13": {
+      "area": "The Altar of Naught",
+      "event": "Defeat Xemnas",
+      "section": "Kingdom Hearts II: Rewards or Bonus Levels",
+      "source": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+      "status": "explicit-reward-event-area"
+    }
+  },
+  "validation": {
+    "magic": 18,
+    "reports": 13,
+    "total": 31,
+    "unresolvedIds": []
+  }
+}

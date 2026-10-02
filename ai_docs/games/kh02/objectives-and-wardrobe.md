@@ -1,8 +1,12 @@
 # 0.2 objectives and wardrobe acquisition
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Research date: 2026-09-18. Candidate facts, not an in-game-validated dataset. Objective numbers are the game’s numbers. Stable ID: `kh02:objective:NN`. All rows concern Aqua. The `Dark World` group means any applicable area; it is not an extra world.
 
 This is a challenge track (51 flags/counters), separate from collectible locations. Each completed objective grants one cosmetic. Build a wardrobe index by reward ID pointing back to this table; do not duplicate the acquisition requirement. Reward IDs should use the cosmetic name, not its row position.
+
+2026-10-01 predicate reconciliation: [Steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993) and [Thundaka HD 2.8 guide](https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497) confirm simultaneous #15, the Castle Town bridge route for #14 and #31 Spellweaver Finish during the third story Phantom fight without a final-blow requirement. #13 remains a real 30-versus-50 source conflict.
 
 Sources: [W: KHWiki objective/unlock/reward table](https://www.khwiki.com/Wardrobe_(KH0.2)), [P: PSU objective guide](https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/), [G: GameSkinny objective cross-check](https://www.gameskinny.com/tips/kingdom-hearts-28-guide-every-wardrobe-objective-in-02/). The table is a compact factual index with rewritten conditions; source conflicts are retained below.
 
@@ -21,8 +25,8 @@ Sources: [W: KHWiki objective/unlock/reward table](https://www.khwiki.com/Wardro
 | 11 | Master of Fire | Fire-magic final blows ≥30 | Magic restored | Back: Cyber Blades |
 | 12 | Master of Ice | Ice-magic final blows ≥30 | Magic restored | Back: Blades |
 | 13 | Master of Lightning | Lightning-magic final blows: 30 or 50; unresolved | Magic restored | Arm: Mystic Pauldron |
-| 14 | Frozen Rail Ride | Complete a long ice rail ride; numeric distance unverified | Magic restored | Arm: Flawless Arm Guards |
-| 15 | Ice Breaker | Freeze ≥5 enemies; shatter 5; simultaneous rule needs validation | Magic restored | Pattern: Grace (Purple) |
+| 14 | Frozen Rail Ride | Ride a Blizzaga rail along the Castle Town bridge | Magic restored | Arm: Flawless Arm Guards |
+| 15 | Ice Breaker | Freeze five enemies together, then shatter all five in one attack | Magic restored | Pattern: Grace (Purple) |
 | 16 | Magic Advantage | Exploit an elemental weakness once | Magic restored | Arm: Voltaic Arm Plate |
 | 17 | Fight and Flight | Airborne enemy defeats ≥5 | Doubleflight restored | Back: Radiant Ornament |
 | 18 | Excellent Aim | Six consecutive Excellent Shotlock ratings | Shotlock restored | Pattern: Diamond (White) |
@@ -38,7 +42,7 @@ Sources: [W: KHWiki objective/unlock/reward table](https://www.khwiki.com/Wardro
 | 28 | Treasure Within | Open the genuine Mega-Ether chest | Reach World Within | Arm: Arm Plate |
 | 29 | Gem Gatherer | Acquire seven mine gems | Enter mines | Head: Marie |
 | 30 | Connected | Align the star on moving mine platforms | Reach star puzzle | Pattern: Lace (Crystal) |
-| 31 | Queen of the Rink | Use Spellweaver Finish during Phantom Aqua | First Phantom mirror | Head: Royal Tiara |
+| 31 | Queen of the Rink | Use Spellweaver Finish during the third story Phantom Aqua encounter | First Phantom mirror | Head: Royal Tiara |
 | 32 | Defeat the Darksides | Defeat three path Darksides | First Rocky Path Darkside | Pattern: Diamond (Blue) |
 | 33 | Prickly Problem | Destroy 50 ivy obstacles | Reach Forest | Pattern: Coil (White) |
 | 34 | Fairy Bouquet | Acquire all three flowers | Reach Forest | Head: Minnie Ears (Blue Bow) |
@@ -79,7 +83,7 @@ The reward join produces **12 Head + 9 Arms + 9 Back + 21 Pattern = 51 earned co
 - **24/25:** The summit route uses Doubleflight, Air Slide, and restored floating platforms after the five gears. From the north side of the hub, climb the broken-arch route and take the rising left ledges; the highest floating structure is also the Sagittarius destination. The meteor trigger needs looking skyward there, sometimes briefly waiting. [GameSkinny summit guide](https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-reach-the-highest-point-in-castle-town/).
 - **27/28/30:** The dark-room fight follows extinguishing candles. For the treasure room, inspect the mirror first: the real chest is the one shown **closed**, then open its counterpart inside. For the mine puzzle, stop the platforms when their marks form a star. These are separate objectives; the chest is also one of the eight ordinary World Within chests. [GameSkinny mirror secrets](https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-all-the-secrets-in-the-world-within/).
 - **29/34/38/40/43/45/49:** Resolve these through the shared records in [collectibles](./collectibles.md). Parent objective flags and resulting wardrobe rewards contribute no extra world units.
-- **36 versus 50:** The former explicitly needs the Spellweaver finisher to kill. PSU says the latter needs Wayfinder active at the Depths Demon Tower defeat, without requiring its Finish command. Store distinct predicates.
+- **36 versus 50:** The former explicitly needs the Spellweaver finisher to kill. PSU says the latter needs Wayfinder active at the Depths Demon Tower defeat, without requiring its Finish command. Store distinct predicates. StrategyWiki instead says Wayfinder Finish for50; runtime preserves this exact disagreement.
 - **41:** This means the third story Phantom Aqua, not the harder Zodiac version. [KHWiki Phantom Aqua gameplay](https://www.khwiki.com/Game:Phantom_Aqua).
 
 ## Open discrepancies
@@ -87,10 +91,10 @@ The reward join produces **12 Head + 9 Arms + 9 Back + 21 Pattern = 51 earned co
 | ID | Issue | Working treatment |
 |---|---|---|
 | KH02-R01 | Objective 13: W and G say 30 lightning kills; P and Guiding Key say 50 | Store unresolved threshold; never silently certify either. Seek current-version documentary corroboration; a screenshot is one possible source, not a required user playthrough. |
-| KH02-R02 | Objective 15: W gives freeze/shatter counts; P/Guiding Key describe simultaneous shattering | Preserve ≥5/5 and a suggested group strategy; verify whether simultaneity is mandatory. |
+| KH02-R02 — resolved | Objective15 simultaneity | Explicit Steam/HD guide corroboration: freeze five together, shatter all five in one attack. |
 | KH02-R03 | Objective 28: Guiding Key’s objective page says choose the open reflection; P/G and its own location page say closed | Use closed reflection as corroborated working answer; retain correction history and seek further documentary corroboration. |
 | KH02-R04 | Objective 32 is named “Defeat the Darkness” by P, “Defeat the Darksides” by W | Use W’s game-table label and retain search alias; do not create a second objective. |
 | KH02-R05 | G calls #08 reward Divine Back; W/P use Astral Ornament | Use Astral Ornament; Divine Back is an alias/transliteration lead, not another item. |
-| KH02-R06 | “Long distance” in #14 has no numeric threshold in inspected sources | Text strategy is available; exact hidden distance is not verified. |
+| KH02-R06 | “Long distance” in #14 has no numeric threshold in inspected sources | Castle Town bridge uphill Blizzaga route is integrated; hidden numeric distance is unnecessary. |
 
 See [replay and achievements](./replay-challenges-achievements.md) for post-clear and encounter constraints. No production screenshot assets were collected.

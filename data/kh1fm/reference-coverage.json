@@ -56,6 +56,30 @@
     "notes": "99 Sora level rewards for all three chosen weapons; exact full Dawn/Midday/Dusk, Donald, Goofy and six-guest EXP curves. Complete guide agrees with sums of documented vanilla battle-table increments. HD Combo Master overlay is included. No hands-on verification; party stat gains are outside this matrix."
   },
   {
+    "category": "gummi-part",
+    "label": "Gummi part shapes",
+    "expected": 80,
+    "actual": 80,
+    "complete": true,
+    "notes": "4 cockpits, 5 engines, 24 armor shapes, 11 wings, 14 special parts, 6 weapons, 16 design parts. Size/stat/stock/shop/source tables imported with original-only treasure clauses excluded. Design parts retain mission/chest sources; non-design parts also have the complete-gummi puppy reward. Navi-G story objects excluded."
+  },
+  {
+    "category": "gummi-tool",
+    "label": "Gummi editor tools and computer upgrades",
+    "expected": 7,
+    "actual": 7,
+    "complete": true,
+    "notes": "Spray, Palette, SYS.UP1/2 and COM.LV1/2/3. Tools are not installed mission-count blocks."
+  },
+  {
+    "category": "item",
+    "label": "Restoratives, permanent stat items and rare enemy tokens",
+    "expected": 23,
+    "actual": 23,
+    "complete": true,
+    "notes": "10 restoratives, 3 permanent stat items, 7 Arts and 3 rank/rare tokens. Existing 34 synthesis ingredients and equipment remain separate catalogs; transient story objects remain excluded. Effects/use, FM shop prices, recipes and linked finite/enemy sources are present; this is roster completeness, not certification of every source alternative."
+  },
+  {
     "category": "cup",
     "label": "Cup rounds and clear variants",
     "expected": 96,
@@ -85,7 +109,7 @@
     "expected": 48,
     "actual": 48,
     "complete": true,
-    "notes": "9 default/NPC, 28 enemy drops, 11 mission rewards. Enemy entries include a sourced route. Ownership is distinct from ship assembly."
+    "notes": "9 default/NPC, 28 enemy drops, 11 mission rewards. Enemy entries include a sourced route. Ownership is distinct from ship assembly. All 28 enemy blueprint records now include 10% drop chance and bidirectional routes, encounter counts and post-first-Hollow-Bastion phase markers from KHGuides."
   },
   {
     "category": "achievement",
@@ -93,15 +117,15 @@
     "expected": 55,
     "actual": 55,
     "complete": true,
-    "notes": "All KH1 goals; excludes PlayStation platinum and other games in Steam app 2552430. Modern stacking and 30-blueprint requirement used. Steam API keys are not exposed by the public page and are not invented; platform-key mapping remains unimplemented."
+    "notes": "All 55 KH1 goal descriptions, excluding platinum and the other games. The public global-percentage API confirms real keys and a community group identifies ACH_001–ACH_055; exact display-name mapping remains unresolved. The public HTML contains names/descriptions/opaque icons without IDs. Schema request returned HTTP 400 without a key. No guessed platform keys or live state integration."
   },
   {
     "category": "minigame",
     "label": "Minigame clear and Cheer record checks",
-    "expected": null,
+    "expected": 22,
     "actual": 22,
-    "complete": false,
-    "notes": "Two Phil tests, five fruit courses, four vine courses, five Pooh episodes, five independent Cheer records and Riku’s race. Muddy Path now has a complete linked friends route. A linked Phil route covers both barrel layouts; separate saved replay-record fields and repeat rewards are not established. Early sparring is listed under bosses."
+    "complete": true,
+    "notes": "Complete declared activity roster: two Phil tests, five Slider courses, four Vine courses, five Pooh episodes, five Cheer targets and Riku race. Journal completion separately needs seven base minigames and four cup time trials (stored under cup). Separate Phil saved replay fields/rewards remain unestablished; not silently counted as existing records."
   },
   {
     "category": "guide",

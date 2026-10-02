@@ -4,7 +4,7 @@
 
 ## Status and evidence
 
-Research assessment updated **2026-09-18**. The [research pack](kh2fm/README.md) contains a complete legacy-source coverage audit, all 301 numbered treasure candidates, all 144 puzzle-piece candidates, and new synthesis/equipment/challenge findings. This is planning and content research; no KH2 application implementation or release validation is claimed. See the [readiness assessment](../readiness/kingdom-hearts-ii-final-mix.md).
+Research assessment updated **2026-10-01**. The journal is implemented and consumes the expanded research catalogs. The [research pack](kh2fm/README.md) and [forty-finding resolution ledger](kh2fm/research-resolution-2026-10-01.md) distinguish integrated facts, exact remaining evidence gaps and engineering acceptance. Research completion does not certify source accuracy or retail-build parity. See [readiness](../readiness/kingdom-hearts-ii-final-mix.md).
 
 ## Product objective and accepted boundaries
 
@@ -29,11 +29,11 @@ Square Enix's 2026-10-08 native-edition announcement is tracked as announced/unr
 - World collectibles counts use completed applicable acquisition units divided by the full declared collection set. Remaining/area/search filters never alter the full denominator. Display category counts and units; an incomplete inventory must not produce a certified 100%.
 - A chest-contained map, recipe, charm, Torn Page or Orichalcum+ has one acquisition ID reused by item-specific indexes. Do not count both its parent chest and its contents in the same aggregate. A challenge clear and subsequently opening its reward chest remain distinct actions.
 
-Measured inventory anchors: **301 Sora numbered treasures**, **144 puzzle pieces**, **16 separate unnumbered Roxas prologue chest leads**, **13 Secret Ansem Reports**, **5 Torn Pages**, **7 Orichalcum+ sources**, **4 summon charms** and **16 recipe documents**. These overlap through acquisition relationships; do not add these totals together. See [world research](kh2fm/world-collectibles.md) and the candidate indexes. Directly awarded maps/rewards and their complete world denominators still need normalization.
+Measured inventory anchors: **301 Sora numbered treasures**, **144 puzzle pieces**, **16 separate unnumbered Roxas prologue chests**, **13 Secret Ansem Reports**, **5 Torn Pages**, **7 Orichalcum+ sources**, **4 summon charms** and **16 recipe documents**. These overlap through acquisition relationships; do not add these totals together. See [world research](kh2fm/world-collectibles.md) and the candidate indexes. The forty-map inventory and sixteen recipe-document acquisition relationships are normalized. They use fifteen direct map records and existing chest/challenge/assembly aliases, preserving deduplication.
 
 ## Puzzle collection and assembly
 
-Six puzzles: Awakening, Heart, Duality and Frontier have 12 pieces each; Daylight and Sunset have 48 each. Persist each piece's collected state independently from arrangement/orientation, puzzle completion and reward receipt. World piece collection totals count 144 pieces once; assembly and rewards have their own linked goal states. Supply text assembly instructions and explicit movement routes, distinguishing standard Growth level from Drive Form level. Exact solution-grid/rotation data remains a research gap.
+Six puzzles: Awakening, Heart, Duality and Frontier have 12 pieces each; Daylight and Sunset have 48 each. Persist each piece's collected state independently from arrangement/orientation, puzzle completion and reward receipt. World piece collection totals count 144 pieces once; assembly and rewards have their own linked goal states. Supply text assembly instructions and explicit movement routes, distinguishing standard Growth level from Drive Form level. All six grid dimensions, rotation rules and upright-artwork references are now verified in `verified-assembly.json`; arbitrary starting tile rotations depend on the player’s saved arrangement.
 
 ## Synthesis and material planning
 
@@ -49,15 +49,15 @@ Required data and behavior:
 - The seven-source Orichalcum+ checklist and Ultima Weapon's Energy requirement.
 - User-selectable synthesis alternatives where the game provides them, with assumptions visible in calculated totals.
 
-The [recipe research](kh2fm/synthesis-recipes.md) enumerates 30 base recipes/59 output candidates. This is not yet a certified full planner: Shock Charm ingredient disagreement, rank/modifier inconsistencies, and stacking/rounding rules need source resolution. Do not migrate legacy `Needed` aggregates. Strong formula/quantity validation is required before release; see [testing/content validation](../testing-and-content-validation.md).
+The [recipe research](kh2fm/synthesis-recipes.md) reconciles thirty base recipes and 59 outputs, including the resolved Shock Charm, rank and modifier corrections. Energy/Moogle stacking and per-craft rounding are researched; optional discount controls remain engineering work. The current planner deliberately uses base costs except Ultima’s mandatory Energy reduction. Do not migrate legacy `Needed` aggregates. Strong formula/quantity validation is required before release; see [testing/content validation](../testing-and-content-validation.md).
 
 ## Equipment, abilities, magic, Forms and summons
 
-- Sora's 24 Keyblade acquisition candidates, complete modern Donald staff and Goofy shield inventories, armor and accessories.
+- 131 equipment records: Sora’s 24 Keyblades, Donald’s twenty staves, Goofy’s twenty shields, 34 armor and 33 accessories. Mutually exclusive prologue rewards are references rather than impossible mandatory goals.
 - Character/form-specific action, support and Growth abilities, AP costs, equipment grants, level-choice paths and Critical-specific differences.
 - Eighteen spell-element grants, deriving tier from element count rather than hard-coding route-dependent tier names.
 - Five levelled Forms with distinct EXP units and Growth grants; Final Form acquisition/first activation and Antiform reference where it affects obtaining Forms or movement.
-- Four summon charms, shared summon progression and acquisition/progression hooks.
+- Four summon charms, shared summon EXP behavior and party restrictions. The full FM numeric curve and charm-based caps are now supported under KH2-009.
 
 Keep these globally scoped acquisition/progression goals separate from world collection percentages except where a specific reward already belongs to a world collectible record. Modern corrections include Luxord's Magnet grant and Final Mix replacements for legacy Lucky Lucky equipment. See [materials/equipment research](kh2fm/materials-and-equipment.md).
 
@@ -75,7 +75,7 @@ Retain concepts, not the old SQL Server schema: `acquisition_record`, `collectib
 
 Stable IDs survive names, ordering and numbering corrections. A distinct acquisition event can satisfy multiple linked catalog views without duplicate counts. Availability prerequisites are text metadata, not saved plot flags. Formula and content versions need migrations without losing checks/inventory.
 
-React offline PWA, local persistent progress and backup/update safety, plus bundled local SLM and per-game Coppermind via Data Jiminy, remain MVP. Follow the [shared progress contract](../content/persistent-checklists-and-progress.md) and [Data Jiminy contract](../data-jiminy.md). Source-aware answers point to the same live collectible record and expose unresolved evidence instead of inventing a location or quantity.
+React offline PWA, local persistent progress and backup/update safety, plus bundled local SLM and per-game Coppermind via Data Jiminy, remain MVP. Data Jiminy’s memories are currently flushed and the feature is under construction; this research pass must not reseed them. Follow the [shared progress contract](../content/persistent-checklists-and-progress.md) and [Data Jiminy contract](../data-jiminy.md). Source-aware answers point to the same live collectible record and expose unresolved evidence instead of inventing a location or quantity.
 
 ## Primary user questions
 

@@ -1,12 +1,12 @@
 # Re:Chain of Memories — sourced research pack
 
-Research snapshot: **2026-09-28**. Baseline: English **Re:Chain of Memories in modern HD 1.5 + 2.5 ReMIX**, initially Steam. “Chain of Memories” is a search alias; GBA mechanics and original PS2 bonus rules are not the supported ruleset.
+Research snapshot: **2026-09-28**, fully reassessed **2026-10-01**. Baseline: English **Re:Chain of Memories in modern HD 1.5 + 2.5 ReMIX**, initially Steam. “Chain of Memories” is a search alias; GBA mechanics and original PS2 bonus rules are not the supported ruleset.
 
 [Specification](../kingdom-hearts-re-chain-of-memories.md) · [Readiness](../../readiness/kingdom-hearts-re-chain-of-memories.md) · [Coverage audit](../../research/recom-2026-09-28-coverage-and-gap-research.md) · [Journal references](../../ui/references/recom/README.md)
 
 The journal now uses this pack for 431 guide entries, including all 152 Sora and 59 Riku card types. See the [data closure audit](data-gap-audit-2026-09-28.md) for delivered fields, evidence decisions and remaining narrow gaps. Source reconciliation is distinct from native-game verification.
 
-October 1 follow-up: [research resolutions](research-resolution-2026-10-01.md) close the false Ansem-effect gap and integrate all Riku mode requirements; stale door/mushroom wording is partly corrected.
+October 1 follow-up: [all 32 dispositions](research-resolution-2026-10-01.md) — 14 closed, 12 partial, three open after investigation, three non-factual limitations. All 98 sleight and 29 basic-card effects, structured recipes, full progression, 59 combat records, six minigame routes and friend/mushroom conditions are now integrated.
 
 ## Readable references
 
@@ -21,7 +21,7 @@ October 1 follow-up: [research resolutions](research-resolution-2026-10-01.md) c
 
 ## Machine-readable research
 
-Every JSON file carries edition, date, scope notes and status. IDs are proposed stable app IDs, not native menu numbers or Steam API names.
+Every JSON file carries edition, date, scope notes and status. IDs are stable shipped app IDs, not native menu numbers or Steam API names.
 
 | File | Actual records | Boundary |
 |---|---:|---|
@@ -39,12 +39,15 @@ Every JSON file carries edition, date, scope notes and status. IDs are proposed 
 | [CP conflicts](source-conflicts.json) | 7 | Reconciled remake costs with contrary source values retained |
 | [Additional native cards](additional-cards.json) | 28 | World/Gimmick cards and Riku items; completes both campaign rosters |
 | [Event doors](door-requirements.json) | 25 | Floor-specific story/reward predicates; zero is literal |
+| [Progression](progression.json) | 99 | Complete level/EXP rows, stat caps and deferred choices |
+| [Combat reference](combat-reference.json) | 59 | 379 floor rows, 24 boss deck tables, resistances and 43 explicit duel timers; full encounter/frame catalog incomplete |
+| [Minigames](minigames.json) | 6 | Start routes/objectives and first/second rewards; third-and-later replay behavior unknown |
 | [Source manifest](source-manifest.json) | See manifest | Exact inspected sections and access limitations |
 
 These files overlap by design: a card definition, its chest reward and its achievement membership are not three collectible items. Do not add these row counts together to calculate “100%.” Follow the shared [collection contract](../../content/collectible-compendium-and-linked-views.md).
 
 ## Remaining research
 
-See the [current audit](data-gap-audit-2026-09-28.md#remaining-evidence-limits). Exact HD attack/assorted pack odds and Riku corridor/boss substitutions remain unfilled; the former broad CP, native-card membership and reward-door gaps are closed in the journal data.
+See the [current per-ID ledger](research-resolution-2026-10-01.md) and [historical baseline audit](research_audit.md). Exact pack distributions, Riku overrides, full farm routes, native sleight order, recipe precedence, save-state/Steam predicates, Report registration and three basic-card durations remain precisely bounded; existing CP/card membership/doors remain closed.
 
 Source URLs, classifications and research tasks belong in this pack. Journal entries provide acquisition directions, costs and effects without sources/reference panels or research TODOs.

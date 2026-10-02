@@ -1,5 +1,15 @@
 # KH3 inspected sources, coverage and conflicts
 
+## Current status — 2026-10-01
+
+The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1900 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
+
+Peer review added all45 physical Gummi fragment records (90 screenshots inspected; one erroneous overview rejected), thirteen special weapons, Teeny block-sharing behavior, level99 base cost1000, a community-supported Schwarzgeist A-rank replay route, and allnine merit unlock stages. [Peer evidence](peer-enrichment.json) and [weapon evidence](special-weapon-enrichment.json) distinguish source text, visual inspection and the remaining STR-13 route/level-curve/platform-predicate limits. These records are integrated, not just source leads.
+
+Accepted product contracts below remain in force. Historical unresolved language is evidence history, not an additional active backlog.
+
+## Historical research — 2026-09-18
+
 Research date: 2026-09-18. [Index](README.md). “Inspected” means returned content was read or programmatically bounded and checked as described. It does not mean an in-game test, an official endorsement, or permission to copy guide prose/images. No production screenshots were acquired.
 
 ## Repository and KHTABLES baseline

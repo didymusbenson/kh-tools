@@ -1,118 +1,120 @@
 # DDD HD research audit
 
+**Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.
+
 Audit date: 2026-10-01. Repository baseline: `f933ab1`; audit branch: `research/audit-2026-10-01`. This is an evidence and gap audit of existing tracked files, not new external research. The target is the modern Steam HD edition. Original 3DS data is comparison evidence; the announced 2026-10-08 editions remain future-version follow-up, not the baseline.
 
-## Method, coverage, and counts
+## Historical baseline method, coverage, and counts
 
 Read the entire DDD research pack, standalone specification, readiness assessment, source/Drive manifest, rollout, all three source JSON files and their shapes, generator/fetch scripts, runtime guide/config, shared schema and applicable tests. Searched tracked Markdown/JSON/TypeScript/Python/CSV for game names and hedge/absence language, then inspected context, missing fields, source-to-runtime joins and scope omissions. No relevant tracked DDD CSV was found. No sources were fetched or formulas regenerated. IDs, counts, source-reference strings and imported chest contents were checked in memory. Functional tests were inspected, not executed; their existence is not gameplay evidence.
 
-Current represented content is **860 entries and 263 formula rows**: 438 treasures, 54 Spirits, 124 commands, 43 abilities, 37 materials, 89 portals (78 Special + 11 Secret), 14 Dives, 13 challenges (10 cups + 3 encounter goals), 15 Keyblade types, 18 in-game awards and 15 selected Steam achievements. All 438 runtime chest contents match `world-facts.json`; all 54 breeds have formulas and Link/attribute/style fields. All 37 materials have at least one runtime source route. These inventories supersede September 18 statements that no production datasets exist, while leaving route completeness unresolved.
+Baseline represented content is **860 entries and 263 formula rows**: 438 treasures, 54 Spirits, 124 commands, 43 abilities, 37 materials, 89 portals (78 Special + 11 Secret), 14 Dives, 13 challenges (10 cups + 3 encounter goals), 15 Keyblade types, 18 in-game awards and 15 selected Steam achievements. All 438 runtime chest contents match `world-facts.json`; all 54 breeds have formulas and Link/attribute/style fields. All 37 materials have at least one runtime source route. These inventories supersede September 18 statements that no production datasets exist, while leaving route completeness unresolved.
 
 **25 deduplicated findings:** 21 open game-fact/coverage questions (DDD-001–009, DDD-011–022), 2 mixed source-extraction/verification issues (DDD-010, DDD-024), and 2 researched-but-unintegrated findings (DDD-023, DDD-025). Historical/resolved and nonfactual limitations are separately recorded below. Findings can cover many records; the occurrence appendices enumerate identities rather than treating every repeated generic caveat as a separate research question.
 
-195/263 current formulas have `probability:null` and `alternate:null`; the historical workbook had 175/243 blank probabilities. Those are different datasets, not contradictory counts. 37 unordered ingredient-pair groups occur for more than one breed; these need outcome-event reconciliation, not automatic deduplication of valid alternatives. 814/860 runtime entries have an `uncertainty` field. No null runtime optional field remains because the generator strips it; absence is not evidence of a known negative.
+195/263 baseline formulas have `probability:null` and `alternate:null`; the historical workbook had 175/243 blank probabilities. Those are different datasets, not contradictory counts. 37 unordered ingredient-pair groups occur for more than one breed; these need outcome-event reconciliation, not automatic deduplication of valid alternatives. 814/860 runtime entries have an `uncertainty` field. No null runtime optional field remains because the generator strips it; absence is not evidence of a known negative.
 
-## Findings
+## Historical baseline findings
 
-### DDD-001 — Complete chest directions and access/returnability
+### Baseline DDD-001 — Complete chest directions and access/returnability
 
 **Open.** For each of 438 HD character/world chests, what exact landmark, approach, action, movement/access condition and return/re-entry rule leads to it? Census and item/area facts are present; 412 generated rows contain only an area, and 26 authored examples vary in precision. The historical source had 387 missing location-note cells, not 387 missing runtime records. `summary`, absent `instructions`/`prerequisites`/`missability`, and `uncertainty` are affected; all IDs and lines are in Appendix A.
 
 Evidence: “precise approach directions and prerequisites are not yet verified” (`src/games/dddhd/generate.py:81`); `ai_docs/games/dddhd/worlds-and-collectibles.md:20`, `:28–53`, `:59`, `:70–71`; `ai_docs/implementation/dddhd-rollout.md:31`. Specific unresolved cases include Grid upper Docks/Solar Sailer roof, Prankster Ferris wheel and inverted Monstro, Musketeers breakable Machine Room wall, and final-world traversal. Lead: the seven world sources in `ai_docs/games/dddhd/sources.md:32–38` plus independent HD location evidence. The 51 source notes were not all preserved: see DDD-024.
 
-### DDD-002 — Official HD treasure order and consequential edition replacements
+### Baseline DDD-002 — Official HD treasure order and consequential edition replacements
 
 **Open.** Do source row numbers match the HD Reports order, and is every 3DS/HD content replacement represented correctly? All 438 `order` values and number-derived IDs are source-reported, not separately certified Journal order. “verify against reliable HD references” (`ai_docs/games/dddhd/worlds-and-collectibles.md:18`, also `:69`, `:72`). Source changes already integrated include Catanuki Recipe and Candy Goggles (`:29`, `:32`, `:35`, `:46`); do not reopen their established substitutions merely because they were not played in-game. The unresolved part is exhaustive ordering/delta coverage. Lead: HD reference/source change sections; preserve migration aliases if source order changes.
 
-### DDD-003 — All 54 Ability Link graphs and legacy integrity
+### Baseline DDD-003 — All 54 Ability Link graphs and legacy integrity
 
 **Open.** What are every board's coordinates, node kinds, LP costs, prerequisite edges, level/Link/disposition gates and state-dependent rewards? 816 legacy rows are exactly 16 flattened rewards for each of 51 breeds; they do not establish topology, and the three HD additions have only selected node examples. `spirits.instructions`, provider references and future board models are affected. “not a complete path” (`src/games/dddhd/generate.py:21`); `ai_docs/games/dddhd/legacy-audit.md:35`, `:39–42`; `ai_docs/games/dddhd/spirits-and-commands.md:49–59`. Cyber Yog's two Thunder Screen legacy rows remain classified `deck_command`; generator name matching bypasses classification without correcting the source. Lord Kyroo transformed Blitz/Ars Arcanum are still present in a flat list with appended explanation. Lead: breed board tables and independent topology evidence. Appendix C enumerates every legacy row; Appendix A all 54 runtime IDs.
 
-### DDD-004 — Aura Lion red-secret coordinate conflict
+### Baseline DDD-004 — Aura Lion red-secret coordinate conflict
 
 **Open, disputed.** Is Secret: Red C-7 or D-7, and what exact path/cost opens transformed C-2 Faith? Table says C-7; footnote says D-7, also identified as level-30 checkpoint. Affects `dddhd:spirits:aura-lion`, `dddhd:commands:faith`, `dddhd:commands:curaga`, `dddhd:abilities:second-chance` and board routes. “C-7 versus D-7” (`src/games/dddhd/generate.py:22`); `ai_docs/games/dddhd/spirits-and-commands.md:49`, `:55`, `:84`; `ai_docs/readiness/dream-drop-distance.md:68`. Faith acquisition by either character versus Sora-only equipping is already distinguished (`src/games/dddhd/generate.py:32`). Lead: independent HD board image/text; no mandatory user playthrough.
 
-### DDD-005 — Spirit dispositions, stats, variants and interaction details
+### Baseline DDD-005 — Spirit dispositions, stats, variants and interaction details
 
 **Open.** What are the exact four-disposition change interactions, body parts, affinity/training behavior, rank-dependent stats and Nightmare variant coverage for the full encyclopedia? Beatalike/Tubguin Ace sources have missing body-part text and “???” base stats (`ai_docs/games/dddhd/spirits-and-commands.md:21`). The 54-breed roster is represented but an independent full breed/variant census and encyclopedia fields remain incomplete (`ai_docs/readiness/dream-drop-distance.md:27`; `ai_docs/games/dream-drop-distance.md:33–46`). `spirit-facts.json` extracts no disposition/stat/family fields. Empty Nightmare drops/worlds for nine breeds are not automatically gaps: distinguish Spirit-only/non-applicable forms from omitted extraction before filling. Lead: breed pages and Spirit mechanics source; exact empty-field identities are in Appendix B.
 
-### DDD-006 — Formula probabilities and shared outcomes
+### Baseline DDD-006 — Formula probabilities and shared outcomes
 
 **Open.** What success probability and alternate outcome apply to each of the 195 null formulas, and which of all 263 rows describe the same creation attempt? `formulas[].probability`, `alternate`, runtime `recipes[].instructions` lack normalized outcome grouping. “Success probability is not explicitly recorded” (`src/games/dddhd/generate.py:98`). `ai_docs/games/dddhd/spirits-and-commands.md:29` requires shared outcome events. Existing Aura Lion/Keeba Tiger and Lord Kyroo/Ryu Dragon paired percentages are now source-backed in the snapshot; the old wording that those probabilities are wholly unresearched is stale. Preserve per-outcome base ranks. Appendix B lists all 263 formula identities, nulls and all 37 repeated ingredient groups. Lead: original synthesis templates/HD tables, documenting template defaults if any; never infer null = 100%.
 
-### DDD-007 — Creation rank, initial stats and optimization rules
+### Baseline DDD-007 — Creation rank, initial stats and optimization rules
 
 **Open.** What exact extra-material thresholds, weaker-ingredient rule, initial-level/stat variation, donated-command effects and probability changes support target-rank calculations? The existing 263 rows are direct one-attempt material targets, not optimized guaranteed results. “rank-boost thresholds and probability changes need explicit fixtures” (`ai_docs/games/dddhd/spirits-and-commands.md:25–31`); `src/games/dddhd/generate.py:101`. Fixed post-creation rank, recipe-item independence and Risky Winds restrictions are already researched. Legacy BEST BASE is unfinished (24 true/87 false/132 null), not optimization proof. Lead: Spirit/Drop System mechanics and independent worked fixtures. All recipe IDs in Appendix B.
 
-### DDD-008 — Recipe-item, Moogle and Medal Shop acquisition inventory
+### Baseline DDD-008 — Recipe-item, Moogle and Medal Shop acquisition inventory
 
 **Open.** Where is every recipe item obtained, with exact HD shop level, price, Bargain Flurry price, medal rank/cost and non-shop alternatives? Frootz Cat, Kab Kannon, R & R Seal shop price/unlock are explicitly unresolved (`ai_docs/games/dddhd/spirits-and-commands.md:14–16`). Beatalike, Tubguin Ace, Catanuki and Sudo Neku routes are researched (`:11–13`, `:17`) and preserved in selected formula prose; most breeds have no recipe-item acquisition metadata. “Stock/level tables remain unextracted” (`ai_docs/games/dddhd/sources.md:53`); recipe table partly migrated (`:52`). Affects all 54 recipe-item goals, missing as an independent category, and `dddhd:achievements:recipe-collector`. Lead: already fetched Moogle Shop page, Recipe table, Flick Rush medal stock. Knowing formulas does not satisfy ownership.
 
-### DDD-009 — Complete Dream Piece acquisition routes
+### Baseline DDD-009 — Complete Dream Piece acquisition routes
 
 **Open.** For all 37 materials, what exact enemy room/character/form, spawn requirement, shop stock, finite treasure, first-clear/expiration yield and forecast modifier applies? “not exhaustive” (`src/games/dddhd/generate.py:113`); world-level farming is not a room route (`:108`). `ai_docs/games/dddhd/spirits-and-commands.md:35–43`; `ai_docs/implementation/dddhd-rollout.md:19`, `:31`. All 37 have current farming sources; the old two-fixture-only coverage is obsolete. Brilliant portal probabilities and Savage finite-chest alternative are already retained. Lead: breed/material/world/Drop System pages; do not multiply portal probabilities by Treasure Front without evidence. Appendix A enumerates every drop occurrence and parent record.
 
-### DDD-010 — Rare-form locations and mixed-edition extraction
+### Baseline DDD-010 — Rare-form locations and mixed-edition extraction
 
 **Mixed extraction/verification.** Are rare Nightmare locations actually the same as normal Nightmare worlds in each generated source row? `src/games/dddhd/fetch-spirits.py:16` reads only `DDDNworlds`; `src/games/dddhd/generate.py:105–108` uses it for both normal and rare drops. The result preserves distinct rates but cannot prove rare locations/spawn conditions. Nineteen breeds have nonempty rare-drop fields; Appendix B enumerates them and Appendix A the material/drop outputs. Raw drop text includes original Treasure Goggles for several breeds, so entire raw fields cannot be treated as HD-clean toy evidence. Current runtime extracts Dream Pieces only; this audit does not claim a current false toy-drop output. Lead: separate rare-form/HD source fields and version-qualified spawn evidence.
 
-### DDD-011 — Command acquisitions, defaults and mechanics
+### Baseline DDD-011 — Command acquisitions, defaults and mechanics
 
 **Open.** For all 124 commands, what complete chest/shop/Dive/board/default route, reload, slot/use count, element and acquisition/equip eligibility applies? All 119 imported commands have incomplete-provider caveats; 38 have no board provider; the five added Defense commands have no acquisition route. “Additional chest, shop and challenge routes may exist” (`src/games/dddhd/generate.py:30–33`); `ai_docs/games/dddhd/spirits-and-commands.md:65–76`. Some non-board commands legitimately have no provider; this is not proof they are unobtainable. Item uses are no longer mislabeled slots, but actual uses/slot fields remain absent. Balloonra multi-route example and Faith equip distinction are integrated. HD board providers Catanuki Spark Raid/Vanish, Beatalike Ars Arcanum and Tubguin Ace Dark Firaga are missing from reverse provider lists despite being known (DDD-023). Appendix A lists all IDs and no-provider cases. Lead: command tables, item pages, shop and boards.
 
-### DDD-012 — Ability providers, stacks, defaults and achievement exceptions
+### Baseline DDD-012 — Ability providers, stacks, defaults and achievement exceptions
 
 **Open.** For all 43 abilities, what complete HD providers/gates, maximum useful stacks and mode eligibility apply? “Legacy stack/provider inventory” (`src/games/dddhd/generate.py:36`). EXP Zero/Scan are presented with “No provider recorded”, while source evidence states defaults and Proud/Critical-only EXP Zero (`ai_docs/games/dddhd/spirits-and-commands.md:59`). Ability Ace's mode-dependent handling remains open (`ai_docs/games/dddhd/rewards-and-achievements.md:103`). Permanent Support/Spirit versus party-equipped Stats distinction is researched and implemented. Lead: Abilities table/default footnotes and achievement evidence; Appendix A includes all IDs.
 
-### DDD-013 — Complete HD Links and pair mechanics
+### Baseline DDD-013 — Complete HD Links and pair mechanics
 
 **Open.** Which attribute/family pairs and wildcard precedence produce all single/dual attacks/styles, with exact controls, duration and HD behavior? Legacy catalogs have 27 single/7 dual attacks, 5 single/3 dual styles and 30/15 pairing rows but no operational Link catalog/calculator. “Recover actual breed-to-link/attribute mappings, controls and HD behavior” (`ai_docs/games/dddhd/spirits-and-commands.md:78`). All 54 breed Link/attribute/style fields are now present, so that subgap is resolved; full dual pair rules and broken control glyph recovery remain. `ai_docs/games/dream-drop-distance.md:89–95`; `ai_docs/sources/khtables-drive-audit.md:58`. Lead: Link System, individual attacks/styles and platform controls. Appendix C preserves every legacy pair ID.
 
-### DDD-014 — Special/Secret Portal approaches, bonuses and reward semantics
+### Baseline DDD-014 — Special/Secret Portal approaches, bonuses and reward semantics
 
 **Open.** What exact approach, bonus predicate, first-clear/repeat reward rule and forecast/rotation identity applies to each 78 Special/11 Secret Portal? All are now represented with Special forecasts/Nightmares/reward strings and Secret areas. “Bonus-objective details and exact approach landmarks are not yet imported” (`src/games/dddhd/generate.py:85`); Secret approach caveat (`:60`); `ai_docs/games/dddhd/portals-and-challenges.md:19–23`. The older claim that all 78 area/enemy/reward rows are absent is stale. Lead: seven world portal source tables and Portal mechanics. Current fetcher selects only Special parameters (`src/games/dddhd/fetch-worlds.py:31–34`) and does not extract bonus fields. All portal IDs are in Appendix A.
 
-### DDD-015 — Built-in Battle/Friendship portals and seven bonus types
+### Baseline DDD-015 — Built-in Battle/Friendship portals and seven bonus types
 
 **Open.** What are the complete built-in Battle/Friendship inventories and exact seven bonus-objective types used by Brave Challengers? They remain absent, despite HD removing only player StreetPass content. `ai_docs/games/dddhd/portals-and-challenges.md:7`, `:23`; `ai_docs/readiness/dream-drop-distance.md:34`; `dddhd:achievements:brave-challengers` (`src/games/dddhd/generate.py:73`). Lead: built-in portal tables; do not invent a denominator or mark the removed user-created portals missing HD content.
 
-### DDD-016 — Dive reward identity and shared first-award behavior
+### Baseline DDD-016 — Dive reward identity and shared first-award behavior
 
 **Open.** Does each A-rank reward award once per world or separately per character, and what is The Grid's actual HD toy reward? All 14 course scores are researched; reward ownership is unresolved. “Treasure Goggles in 3DS source; verify HD Candy Goggles replacement” (`ai_docs/games/dddhd/portals-and-challenges.md:33`, also `:39`; `src/games/dddhd/generate.py:62`). Affects all `dives.reward`/ownership rules, especially Sora/Riku Grid IDs in Appendix A. Lead: HD Dive reward source; keep unrelated heart/credits sequences outside the 14-course denominator.
 
-### DDD-017 — Flick Rush matches, ranks, prizes and stock
+### Baseline DDD-017 — Flick Rush matches, ranks, prizes and stock
 
 **Open.** What are all 27 match lineups, card strategies, rank thresholds, prizes and medal shop costs/access? Ten cup/round/access records exist; only Secret Cup match 5 Sweet Dreams is attached. “Opponent lineups, card strategies, complete rank/prize tables and all shop stock need extraction” (`ai_docs/games/dddhd/portals-and-challenges.md:58`; `ai_docs/games/dddhd/sources.md:56`). Affects the ten cup IDs, medal currency vs lifetime Medal Master rules and missing per-match entities. Lead: Flick Rush source; no 3DS wireless support is required.
 
-### DDD-018 — Toys, food, training, Reality Shifts and controller instructions
+### Baseline DDD-018 — Toys, food, training, Reality Shifts and controller instructions
 
 **Open.** Where is each HD toy/food obtained and what exact Steam/controller actions, training/affinity effects and world Reality Shift mechanics are needed? Minigame score achievements exist but no full acquisition/mechanics catalog. “Complete toy/shop acquisition and controller-specific input records remain outstanding” (`ai_docs/games/dddhd/portals-and-challenges.md:71–73`); broken glyph evidence `ai_docs/games/dddhd/legacy-audit.md:13`. Lead: HD changes, individual mechanics and shop sources. Raw original Treasure Goggles drops are not HD confirmation (DDD-010).
 
-### DDD-019 — Optional encounter approaches and Lord Kyroo persistence
+### Baseline DDD-019 — Optional encounter approaches and Lord Kyroo persistence
 
 **Open.** What exact approaches and encounter reset/persistence conditions govern the shared Lord Kyroo chain and Julius? Kyroo's Nave → Promontory → Moonlight Wood sequence and temporary Nave lockout are known; detailed persistence/reset and route fixture are not (`ai_docs/games/dddhd/portals-and-challenges.md:64–67`). Runtime `dddhd:challenges:lord-kyroo`, `julius-sora`, `julius-riku` contain short facts but no complete approach/strategy. Lead: Lord Kyroo/Julius pages and HD encounter evidence. Do not turn three Kyroo appearances into three bosses/rewards.
 
-### DDD-020 — Keyblade delivery and scope
+### Baseline DDD-020 — Keyblade delivery and scope
 
 **Open.** Which reward events give weapons to one character versus both, and when is the second character's ownership satisfied? 15 types / 13 per character are researched; “shared reward delivery must be verified” (`ai_docs/games/dddhd/rewards-and-achievements.md:7`, `:27`). Runtime `character:Both` does not prove shared reward delivery. Particularly preserve character-specific Divewing/End of Pain/Unbound requirements and Julius victories. Lead: the 15 individual Keyblade acquisition pages; all record IDs in Appendix A. Their researched stats are an integration gap (DDD-025), not wholly unresearched.
 
-### DDD-021 — In-game trophy exact predicates
+### Baseline DDD-021 — In-game trophy exact predicates
 
 **Open.** What breed exclusions, maximum-affinity/stat-stack aggregation, held-vs-lifetime quantities and claim behavior govern the 18 HD in-game awards? “Exact breed exclusions, stat-stack aggregation, ‘amassed’ versus lifetime quantities … need verification” (`ai_docs/games/dddhd/rewards-and-achievements.md:75`). Affects all `awards.summary` predicates, especially Dream Pleaser, Spirit Guide, In the Munny, Stop Drop Roller, Stat Builder, Daring Diver and Keyblade Conqueror. Lead: in-game Trophies HD table. These are not platform trophy counters; Appendix A enumerates the entire set.
 
-### DDD-022 — Full platform manifest, hidden requirements and mode applicability
+### Baseline DDD-022 — Full platform manifest, hidden requirements and mode applicability
 
 **Open.** What is the exact DDD-only Steam achievement set with platform identifiers, hidden predicates, mode exceptions and relevant other-platform mappings? Only 15 selected entries are imported (`src/games/dddhd/generate.py:73`; `ai_docs/games/dddhd/rewards-and-achievements.md:79–103`). 69 is collection-wide; 55 PlayStation rows include platinum; neither number is an automatic DDD Steam denominator. Ability Ace/EXP Zero and full Command/Recipe/Report completion eligibility need precise rules. Lead: existing official Steam list and platform table; future 2026 ports after shipment. No lack of user gameplay is a blocker by itself.
 
-### DDD-023 — Known HD provider/default facts omitted from reverse indexes
+### Baseline DDD-023 — Known HD provider/default facts omitted from reverse indexes
 
 **Researched but unintegrated.** The command reverse index is built from legacy 51-breed rewards (`src/games/dddhd/generate.py:29`), while new HD facts only override Spirit prose (`:24–26`): Catanuki Spark Raid E-4 300 LP/Vanish A-4 300 LP; Beatalike Ars Arcanum G-3 400 LP; Tubguin Ace Balloonra D-4 150 LP/Dark Firaga D-1 400 LP/Combo Plus D-3 200 LP. Balloonra gets a manual command supplement; the other known reverse providers do not. Scan default and difficulty-specific EXP Zero default also remain absent (`:36`). Evidence is `ai_docs/games/dddhd/spirits-and-commands.md:51–59`. This needs faithful integration before new research is sought; full gate verification remains DDD-003/011/012.
 
-### DDD-024 — Extraction coverage and per-fact provenance loss
+### Baseline DDD-024 — Extraction coverage and per-fact provenance loss
 
 **Mixed extraction/verification.** Which omitted source fields and edition/source qualifiers must be restored? `src/games/dddhd/fetch-worlds.py:22–25` only reads number/item/area, dropping original location-note cells; only 26 manually authored examples survive. `src/games/dddhd/fetch-spirits.py:8–17` selects the last synthesis table by position, extracts only formulas/drop/world/link/attribute/style fields and no source revision/edition marker. Formula sources are embedded in prose rather than structured `sources`; material portal sources do not append their world URLs (`src/games/dddhd/generate.py:86–89`), though the corresponding portal entries do retain them. Current source snapshots have no revision/hash/inspection timestamp. `src/games/types.ts:1–28` lacks per-fact edition/confidence and normalized outcomes. This is a provenance/extraction limitation, not proof existing sourced facts are false. Lead: original fetched source sections and explicit source manifests; avoid treating redirects as independent corroboration.
 
-### DDD-025 — Researched statistics/secret criteria absent; HD secret verification remains
+### Baseline DDD-025 — Researched statistics/secret criteria absent; HD secret verification remains
 
 **Researched but unintegrated, with a bounded open HD check.** The 15 Keyblade stat rows (Strength/Magic/length/critical/Reality Shift) at `ai_docs/games/dddhd/rewards-and-achievements.md:29–47` are omitted by `src/games/dddhd/generate.py:64–67`. Secret ending difficulty thresholds, three answers and credits/Theater steps are documented at `:107–115` but have no runtime secret-reward entity. The source primarily describes original DDD; complete HD trigger, failed-condition recovery, Critical unlock/new-run carryover and Secret Message rules still require edition-specific corroboration. Lead: Another Guardian of Light/HD sources. Treat the absent stat fields as integration work; treat only the enumerated HD/recovery uncertainties as research.
 
@@ -137,7 +139,7 @@ Evidence: “precise approach directions and prerequisites are not yet verified�
 - **N03:** Older Apple/iPad acceptance language is superseded by desktop Chrome/iPhone 17 (`ai_docs/testing-and-content-validation.md:13`); Chromium emulation is not physical hardware evidence (`ai_docs/implementation/multi-game-rollout.md:39`). App test status is separate from game research.
 - **N04:** Ordinary narrative/biography manifests, 3DS AR/StreetPass, invented progress-gate filters and unrelated games are excluded. Future-port parity/IDs belong to follow-up after release, not a reason to reopen PS2/3DS support.
 
-## Appendix A — Every runtime record and affected field occurrence
+## Historical baseline appendix A — Every runtime record and affected field occurrence
 
 Canonical inputs are the research Markdown, legacy candidate JSON and fetched `world-facts.json` / `spirit-facts.json`. `content.json` is generated by `generate.py`; generated instances below preserve exact IDs/line locations but do not count as independent evidence. Compiled bundles, images and public duplicate artwork are excluded; they add no independent game facts. For every row below the cited line is the exact ID location. Fields listed after it are the relevant literal uncertainty/missing-provider/drop-detail locations; the surrounding object carries category/edition context. Category-wide absent fields are governed by the findings above.
 
@@ -1002,7 +1004,7 @@ Canonical inputs are the research Markdown, legacy candidate JSON and fetched `w
 - `dddhd:portals:riku-the-world-that-never-was-special-portal-2` — `src/games/dddhd/content.json:14233`; portals; caveat/provider/drop detail lines 14242 ; canonical extract `src/games/dddhd/world-facts.json:4270`.
 - `dddhd:portals:riku-the-world-that-never-was-special-portal-3` — `src/games/dddhd/content.json:14248`; portals; caveat/provider/drop detail lines 14257 ; canonical extract `src/games/dddhd/world-facts.json:4280`.
 
-## Appendix B — Formula/source-field structural census
+## Historical baseline appendix B — Formula/source-field structural census
 
 All formula rows are enumerated, including explicit probabilities (not new missing-probability findings). Source indices are zero-based JSON paths; formula ordinal in prose is one-based. Runtime formula IDs are paired in generation order.
 
@@ -1371,7 +1373,7 @@ No automatic missing-game-data inference is made from an absent rare variant.
 - `Yoggy Ram` — `src/games/dddhd/spirit-facts.json:4437`, `[52]`; empty fields: none; rare-drop field present (normal-world location reused).
 - `Zolephant` — `src/games/dddhd/spirit-facts.json:4524`, `[53]`; empty fields: none; rare-drop field present (normal-world location reused).
 
-## Appendix C — Legacy candidate row/field occurrence ledger
+## Historical baseline appendix C — Legacy candidate row/field occurrence ledger
 
 The archive is not a second current formula catalog. Each row ID is enumerated below with its exact row start; missing fields are column names in that row. All `spirit_unlocks` rows have the structural topology/gate omission (DDD-003); all Link pair rows retain HD validation/provenance limits (DDD-013). Null lookup target columns are abandoned relational metadata, not unknown gameplay. Blank Spirit attributes/styles have been superseded by the fetched 54-breed snapshot. `synthesis_item` recommendation totals are nonfactual obsolete planning fields.
 
@@ -2849,7 +2851,7 @@ The archive is not a second current formula catalog. Each row ID is enumerated b
 - `242` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:11006`; null: percent_chance, BEST BASE.
 - `243` (Zolephant) — `ai_docs/games/dddhd/legacy-factual-candidates.json:11017`; null: percent_chance, BEST BASE.
 
-## Appendix D — All canonical prose caveat occurrences
+## Historical baseline appendix D — All canonical prose caveat occurrences
 
 This location ledger preserves repeated historical, resolved, provenance and nonfactual wording as well as open questions. It is an occurrence index, not a claim that every matching sentence is still an unresolved game fact. Interpret each using the findings and ledgers above. Exact paths/line numbers refer to the audited baseline content.
 

@@ -29,7 +29,7 @@
     "expected": 48,
     "actual": 48,
     "complete": true,
-    "notes": "9 default/NPC, 28 enemy drops, 11 mission rewards. Enemy entries include a sourced route. Ownership is distinct from ship assembly."
+    "notes": "9 default/NPC, 28 enemy drops, 11 mission rewards. Enemy entries include a sourced route. Ownership is distinct from ship assembly. All 28 enemy blueprint records now include 10% drop chance and bidirectional routes, encounter counts and post-first-Hollow-Bastion phase markers from KHGuides."
   },
   {
     "category": "achievement",
@@ -37,15 +37,15 @@
     "expected": 55,
     "actual": 55,
     "complete": true,
-    "notes": "All KH1 goals; excludes PlayStation platinum and other games in Steam app 2552430. Modern stacking and 30-blueprint requirement used. Steam API keys are not exposed by the public page and are not invented; platform-key mapping remains unimplemented."
+    "notes": "All 55 KH1 goal descriptions, excluding platinum and the other games. The public global-percentage API confirms real keys and a community group identifies ACH_001–ACH_055; exact display-name mapping remains unresolved. The public HTML contains names/descriptions/opaque icons without IDs. Schema request returned HTTP 400 without a key. No guessed platform keys or live state integration."
   },
   {
     "category": "minigame",
     "label": "Minigame clear and Cheer record checks",
-    "expected": null,
+    "expected": 22,
     "actual": 22,
-    "complete": false,
-    "notes": "Two Phil tests, five fruit courses, four vine courses, five Pooh episodes, five independent Cheer records and Riku’s race. Muddy Path now has a complete linked friends route. A linked Phil route covers both barrel layouts; separate saved replay-record fields and repeat rewards are not established. Early sparring is listed under bosses."
+    "complete": true,
+    "notes": "Complete declared activity roster: two Phil tests, five Slider courses, four Vine courses, five Pooh episodes, five Cheer targets and Riku race. Journal completion separately needs seven base minigames and four cup time trials (stored under cup). Separate Phil saved replay fields/rewards remain unestablished; not silently counted as existing records."
   },
   {
     "category": "guide",

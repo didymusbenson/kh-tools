@@ -1,6 +1,8 @@
 # Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-
 
-Status: **Researched planning baseline; data reconciliation and implementation remain.** Audit date: 2026-09-18. This is the dedicated 0.2 specification. [Research index](./kh02/README.md) · [Readiness](../readiness/kingdom-hearts-02.md) · [BBS family](./birth-by-sleep-final-mix.md).
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](kh02/audit-dispositions.md).
+
+Status: **Generated runtime integrated; bounded documentary gaps remain.** Audit date: 2026-09-18. This is the dedicated 0.2 specification. [Research index](./kh02/README.md) · [Readiness](../readiness/kingdom-hearts-02.md) · [BBS family](./birth-by-sleep-final-mix.md).
 
 Ars Arcanum presents 0.2 as its own Aqua-only compendium and progress namespace within the BBS family. **HD 2.8 Final Chapter Prologue is collection metadata, not a separate game/checklist.** The official collection includes DDD HD, 0.2 and the Back Cover cinematic experience. [Square Enix collection page](https://www.square-enix.com/kingdomhearts/2_8/us/).
 

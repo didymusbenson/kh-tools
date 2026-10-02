@@ -6,6 +6,12 @@ import kh2 from '../src/games/kh2fm';
 import doors from '../ai_docs/games/recom/door-requirements.json';
 import packs from '../ai_docs/games/recom/moogle-packs.json';
 import attacks from '../ai_docs/games/recom/attack-cards.json';
+import sleights from '../ai_docs/games/recom/sleights.json';
+import otherCards from '../ai_docs/games/recom/other-cards.json';
+import progression from '../ai_docs/games/recom/progression.json';
+import combat from '../ai_docs/games/recom/combat-reference.json';
+import minigames from '../ai_docs/games/recom/minigames.json';
+import rikuDecks from '../ai_docs/games/recom/riku-decks.json';
 
 describe('Re:Chain of Memories data and campaign progress',()=>{
  it('has unique, sourced IDs and excludes original-edition bonus cards',()=>{
@@ -99,6 +105,70 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   const ansem=recomEntries.find(e=>e.id==='recom-sora-enemy-ansem')!;
   expect(ansem.summary).toBe('In Re:CoM, grants resistance to fire, ice and lightning only.');
   expect(ansem.sources).toContain('https://www.khwiki.com/Sleightblind');
+ });
+ it('preserves stock recipe alternatives, two-card moves and duel activation boundaries',()=>{
+  const byName=(name:string)=>sleights.records.find(r=>r.name===name)!;
+  expect(sleights.records.filter(r=>r.recipeAlternatives.length)).toHaveLength(92);
+  expect(byName('Zantetsuken').recipeAlternatives[0]).toMatchObject({valueTotal:{comparison:'one-of',values:[0,27]}});
+  expect(byName('Sliding Dash').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-same'});
+  expect(byName('Blitz').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-different'});
+  expect(byName('Stardust Blitz').recipeAlternatives[0].slots).toEqual([{card:'Donald Duck'},{card:'Fire'}]);
+  expect(byName('Trinity Limit').recipeAlternatives).toHaveLength(5);
+  expect(recomEntries.find(e=>e.name==='Trinity Limit')!.recipeAlternatives).toEqual(byName('Trinity Limit').recipeAlternatives);
+  expect(byName('Impulse')).toMatchObject({activation:{kind:'duel-victory',breakCount:3},recipeAlternatives:[]});
+  for(const r of sleights.records){expect(r.effect,r.id).toBeTruthy();if(r.recipeAlternatives.length)expect(r.thirdCardPrecedence).toBeNull();}
+ });
+ it('keeps complete progression caps, deferred-choice opportunities and EXP boundaries',()=>{
+  expect(progression.records).toHaveLength(99);
+  expect(progression.records[1]).toMatchObject({level:2,experienceFromPrevious:25,cumulativeExperience:25});
+  expect(progression.records[98]).toMatchObject({level:99,experienceFromPrevious:39204,cumulativeExperience:1313405});
+  expect(progression.records.filter(r=>r.rikuApChoiceUnlock).map(r=>r.level)).toEqual(Array.from({length:20},(_,i)=>2+3*i));
+  expect(progression.stats.sora.cp.cap).toBe(1625);
+  expect(progression.stats.riku).toMatchObject({hp:{cap:560},ap:{cap:30},dp:{cap:99}});
+  const level=recomEntries.find(e=>e.id==='recom-steam-level-master-riku')!;
+  expect(level.notes?.[0].text).toContain('39,204');
+  expect(level.sources).toContain('https://www.khwiki.com/Level');
+ });
+ it('propagates exact friend windows and item recovery distinctions',()=>{
+  const basic=otherCards.records.filter(r=>r.family!=='special');
+  expect(basic).toHaveLength(29);for(const r of basic)expect(r.effect,r.id).toBeTruthy();
+  expect(basic.find(r=>r.name==='Potion')!.reloadBehavior).toMatchObject({scope:'attack',restoresUnreloadable:false,itemReloadable:false});
+  expect(basic.find(r=>r.name==='Hi-Potion')!.reloadBehavior).toMatchObject({scope:'attack',restoresUnreloadable:true});
+  expect(basic.find(r=>r.name==='Megalixir')!.reloadBehavior).toMatchObject({scope:'attack-magic-and-summon',restoresUnreloadable:true,resetsReloadCounter:true});
+  const pluto=recomEntries.find(e=>e.name==='Pluto')!;
+  expect(pluto.instructions).toContain('20%');expect(pluto.instructions).toContain('9');
+  expect(recomEntries.find(e=>e.name==='Peter Pan')!.instructions).toContain('Room of Truth');
+  expect(recomEntries.find(e=>e.name==='Goofy')!.instructions).toContain('Larxene');
+ });
+ it('preserves farm exceptions and mushroom card-drop conditions in player guidance',()=>{
+  for(const [name,condition] of [['Shadow','Bottomless Darkness'],['Soldier','Crescendo']]){
+   const e=recomEntries.find(e=>e.name===name&&e.campaign==='sora')!;
+   expect(e.instructions).toContain(condition);expect(e.drops?.[0].location).toContain(condition);
+  }
+  const white=recomEntries.find(e=>e.name==='White Mushroom'&&e.campaign==='sora')!;
+  expect(white.instructions).toContain('three requested');expect(white.instructions).toContain('Warp');
+  expect(white.sources).toContain('https://www.khwiki.com/Warp');
+ });
+ it('keeps combat phase/floor uncertainty explicit and sources combat notes',()=>{
+  expect(combat.records).toHaveLength(59);
+  expect(combat.bossDecks).toHaveLength(24);
+  expect(combat.bossDecks.filter(d=>d.enemy==='Riku Replica')).toHaveLength(6);
+  for(const d of combat.bossDecks)for(const c of d.cards)if(c.copiesByValue)expect(Object.values(c.copiesByValue).reduce((a,b)=>a+b,0)).toBe(c.total);
+  expect(combat.bossDecks.filter(d=>d.enemy==='Marluxia').map(d=>d.encounterPath[0])).toEqual(['Marluxia (First Form)','Marluxia (Second Form)','Marluxia (Third Form)']);
+  expect(combat.records.reduce((n,r)=>n+r.floorStats.length,0)).toBe(379);
+  const replica=combat.records.find(r=>r.name==='Riku Replica')!;
+  expect(replica.duel).toBeNull();expect(replica.duelAlternatives).toEqual([{cards:5,seconds:6},{cards:7,seconds:8}]);
+  const ursula=combat.records.filter(r=>r.name==='Ursula').flatMap(r=>r.floorStats);
+  expect(ursula.some(r=>r.rikuFloor==='B11F')).toBe(false);
+  const hook=recomEntries.find(e=>e.name==='Hook'&&e.campaign==='riku')!;
+  expect(hook.sources).toContain('https://www.khwiki.com/Game:Captain_Hook');
+  expect(hook.notes?.some(n=>n.title.startsWith('Enemy stats'))).toBe(true);
+  expect(rikuDecks.retainedBossCards).toHaveLength(12);
+ });
+ it('uses all six canonical minigame routes and keeps later replay rewards unknown',()=>{
+  expect(minigames.records).toHaveLength(6);
+  for(const r of minigames.records){expect(r.laterReplayReward).toBeNull();expect(recomEntries.find(e=>e.id===r.id)!.instructions).toBe(r.instructions);}
+  expect(guide.worlds.find(w=>w.name==='100 Acre Wood')!.summary).toContain('Riku: Not visited');
  });
  it('loads the report root and preserves campaign in links',()=>{
   expect(journalStartRoute('recom')).toBe('recom/contents');

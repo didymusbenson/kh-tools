@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import guide from '../src/games/bbsfm';
-import { bbsData,bbsId,abilityGroups,calculateMeld,commandChests,consumingGroups,effectiveOutcomes,finishCondition,inBbsScope,producingGroups,requiredCrystals } from '../src/games/bbsModel';
+import { bbsData,noCrystalAbilityChance,bbsId,abilityGroups,calculateMeld,commandChests,consumingGroups,effectiveOutcomes,finishCondition,inBbsScope,producingGroups,requiredCrystals } from '../src/games/bbsModel';
 import { emptyProfile,parseProfile,journalStartRoute } from '../src/games/profile';
 import sources from '../src/games/bbsfm/crystal-sources.json';
 describe('BBS structured UI data and persistence boundaries',()=>{
@@ -69,4 +69,31 @@ describe('BBS structured UI data and persistence boundaries',()=>{
   expect(f.parents).toEqual(['Twisted Hours','Surprise! 1']);expect(finishCondition(f)).toBe('Collect 5,200 munny.');expect(f.id).toBe(bbsId('Aqua','finish','Surprise! 2'));
   for(const c of bbsData.crystals)expect(sources.some(s=>s.crystal===c.name&&s.locations.length&&s.source.startsWith('https://'))).toBe(true);
  });
+});
+
+describe('BBS October research expansion',()=>{
+ it('uses the edition-filtered roster and independently sourced character eligibility',()=>{
+  expect(bbsData.commands).toHaveLength(187);
+  expect(bbsData.commands.find(c=>c.name==='Focus Block')?.characters).toEqual(['Terra','Ventus']);
+  expect(bbsData.commands.find(c=>c.name==='Focus Barrier')?.characters).toEqual(['Aqua']);
+  expect(bbsData.commands.find(c=>c.name==='Balloon Letter')?.type).toBe('Item');
+  for(const name of ['Taunt','Group Esuna','Dark Link','Stomp'])expect(bbsData.commands.some(c=>c.name===name)).toBe(false);
+  expect(bbsData.commands.filter(c=>c.type==='Shotlock')).toHaveLength(17);
+ });
+ it('exposes known acquisition corrections and all level-up predicates without altering collectible totals',()=>{
+  expect(bbsData.research.arena_level_missions).toHaveLength(29);
+  const ringer=bbsData.research.tickets.find(t=>t.name==='Ringer Ticket')!;
+  expect([ringer.cost,ringer.shop_level,ringer.arena_level]).toEqual([250,1,5]);
+  expect(bbsData.commands.find(c=>c.name==='Mine Square')?.enemy_drops.join(' ')).toContain('1.2%, Shop LV 6-8');
+  expect(guide.entries.find(e=>e.id==='bbsfm:aqua:secret-episode:treasure:5')?.instructions).toContain('Lower Zone');
+  expect(guide.entries.filter(e=>e.collectible===true)).toHaveLength(442);
+  expect(guide.entries.filter(e=>e.category==='materials'&&e.instructions?.includes('exact acquisition route is not yet documented'))).toHaveLength(0);
+ });
+ it('preserves no-crystal probability boundaries independently of ability identity probabilities',()=>{
+  expect([noCrystalAbilityChance(1,1),noCrystalAbilityChance(2,2),noCrystalAbilityChance(2,3),noCrystalAbilityChance(3,3),noCrystalAbilityChance(3,4),noCrystalAbilityChance(4,4),noCrystalAbilityChance(6,6)]).toEqual([10,10,20,30,40,50,50]);
+ });
+});
+
+it('rejects invalid levels instead of indexing a fractional chance row',()=>{
+ for (const bad of [NaN,Infinity,-1,0,1.5,7]) expect(noCrystalAbilityChance(bad,3)).toBeUndefined();
 });

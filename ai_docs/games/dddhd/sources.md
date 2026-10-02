@@ -1,5 +1,7 @@
 # DDD HD inspected-source manifest
 
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Audit: 2026-09-18. This records **what was inspected**, not blanket endorsement or in-game verification. Source classes: USER = user's legacy source, REPO = existing implementation/planning, PRIMARY = publisher/platform, COMMUNITY = third-party reference. All directions in planning prose are concise original summaries.
 
 ## Existing evidence inspected first
@@ -9,7 +11,7 @@ Audit: 2026-09-18. This records **what was inspected**, not blanket endorsement 
 | REPO: ai_docs/games/dream-drop-distance.md | Entire file on mobile-friendly | Existing scope preserved and clarified |
 | REPO: ai_docs/readiness/dream-drop-distance.md | Entire file | Stub replaced with evidence-backed gaps |
 | REPO: ai_docs/sources/khtables-drive-audit.md | Entire file | Discovery evidence, not production certification |
-| REPO: recursive mobile-friendly tree; games/ddd.html | Tree and entire placeholder page | No DDD operational datasets; no AGENTS.md found in tree |
+| REPO: recursive mobile-friendly tree; games/ddd.html | Tree and entire placeholder page | Historical tree: no DDD operational datasets; current runtime is described above; no AGENTS.md found in that tree |
 | USER: [KH3D DATABASE PROJECT](https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit) | Metadata, header sentinels, bounded data rectangles, full large-table chunks and trailing ID checks | Exact sheetId/ranges and counts in [legacy audit](legacy-audit.md) |
 
 Workbook metadata grid sizes: Spirit/common_lookup/Deck_Command/spirit recipe have 28 columns; ability 27; single/dual_link_attack 25; other tabs 26. Row grids are 1000 except common_lookup 999, dual_attack_recipe/Deck_Command 1001, spirit_unlocks 1124. Grid dimensions are not used-row counts. The user workbook was read-only throughout.
@@ -50,7 +52,7 @@ All KHWiki sources below are secondary/community. Some contain cleanup tags, unk
 | [Drop System](https://www.khwiki.com/Drop_System) | Forecast effects/probabilities, drop mechanics | Difficulty/world forecast restriction |
 | [Brilliant](https://www.khwiki.com/Brilliant), [Savage](https://www.khwiki.com/Savage) | DDD drops/rewards/edition flags | HD-usable farming fixtures; StreetPass exclusions |
 | [Recipe](https://www.khwiki.com/Recipe) | DDD item acquisition table | Recipe item/formula distinction; not all rows migrated |
-| [Moogle Shop](https://www.khwiki.com/Moogle_Shop) | DDD shop section located; full page fetched | Stock/level tables remain unextracted; no completeness claim |
+| [Moogle Shop](https://www.khwiki.com/Moogle_Shop) | DDD shop section located; full page fetched | 176 stock rows extracted in current catalog; individual-command price conflicts flagged |
 | [Portal](https://www.khwiki.com/Portal) | Mechanics and locations paragraphs | Portal census/rotation types; no full location table there |
 | [Dive Mode](https://www.khwiki.com/Dive_Mode) | Fourteen ordinary course rows and special Dives | Score thresholds; HD toy reward needs check |
 | [Flick Rush](https://www.khwiki.com/Flick_Rush) | Cup access/round rows and ranking mechanics | Ten cups; lineups/card/prize stock not migrated |
@@ -74,3 +76,7 @@ Individual Keyblade pages inspected (DDD acquisition/stat sections): [Kingdom Ke
 
 No public page alone makes an entire category ready. Preserve source/edition/confidence per fact; record disagreements rather than silently asserting the latest page is definitive.
 
+
+## Complete chest landmark reconciliation (2026-10-01)
+
+The complete 438-row KH13 treasure list and independent GamerGuides final-world landmarks are recorded with edition/access status in `chest-route-enrichment.json`. All current world identities were reconciled: 16 explicit HD replacements and two Curaga/Doubleflight source-number conflicts. GameFAQs 64798 was HTTP403/web-restricted; indexed excerpts are shared lineage with KH13, not an independent full-table check. Every pickup landmark is integrated; earliest access, movement minima and returnability have bounded residuals.

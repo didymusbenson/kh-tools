@@ -1,10 +1,22 @@
 # KH3 acquisition research
 
+## Current status — 2026-10-01
+
+The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1900 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
+
+The full KH3-001 route pass reviewed all 335 numbered base records against complete guides. Every record now has pickup directions and linked guide evidence; 64 blank and four reward-only records were filled. [The per-record route ledger](route-enrichment.json) retains the exact earliest-access residuals and Arendelle chest 24 revisit disagreement. Base collectibles remain recoverable after the story; this does not imply first-visit availability.
+
+Peer review added all 45 physical Gummi fragment records (90 screenshots inspected; one erroneous overview rejected), thirteen special weapons, Teeny block-sharing behavior, level 99 base cost 1,000, a community-supported Schwarzgeist A-rank replay route, and all nine merit unlock stages. [Peer evidence](peer-enrichment.json) and [weapon evidence](special-weapon-enrichment.json) distinguish source text, visual inspection and the remaining STR-13 route/level-curve/platform-predicate limits. These records are integrated, not just source leads.
+
+Accepted product contracts below remain in force. Historical unresolved language is evidence history, not an additional active backlog.
+
+## Historical research — 2026-09-18
+
 Research date: 2026-09-18. This set expands the [KH3 specification](../kingdom-hearts-iii.md) and [readiness assessment](../../readiness/kingdom-hearts-iii.md). It documents evidence and unresolved work; it is not production data or a claim of complete gameplay verification.
 
 ## Navigation
 
-- [Numbered collectible inventory](collectible-inventory.md): 245 base chests, 90 Lucky Emblems, nine separate Re Mind chests; complete candidate identities/areas, incomplete detailed routes.
+- [Numbered collectible inventory](collectible-inventory.md): 245 base chests, 90 Lucky Emblems, nine separate Re Mind chests; complete numbered identities and reviewed pickup landmarks; minimum-access residuals are explicit.
 - [Workshop and equipment](workshop-and-equipment.md): Photo Missions, Ultima Weapon, materials, Keyblade upgrades and acquisition model.
 - [Cuisine and records](cuisine-and-records.md): ingredient/recipe categories, Flantastic Seven, all 23 Classic Kingdom acquisition identities, minigame thresholds.
 - [Gummi and optional rewards](gummi-and-optional.md): constellations, zone structure, Battlegates/Reports, side rewards and remaining inventories.

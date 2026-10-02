@@ -46,7 +46,7 @@ export function RecomJournal({guide,route,profile,ready,error,notice,updateNotic
   const familyList=section==='cards'&&!family&&!q&&!selectedId;
   const worldList=section==='worlds'&&!world&&!selectedId;
   const families=Object.keys(cardFamilies).filter(f=>allCards.some(e=>e.family===f));
-  const worlds=recomWorlds.filter(w=>campaign==='sora'||w.rikuFloors!=='Not visited');
+  const worlds=recomWorlds.filter(w=>campaign==='sora'||!!w.rikuFloors);
   const {ref:indexRef,capacity:size}=useIndexCapacity(`${campaign}:${section}:${family}:${world}:${q}:${status}`,grid?96:52,grid);
   const total=familyList?families.length:worldList?worlds.length:matching.length;
   const pages=Math.max(1,Math.ceil(total/size));

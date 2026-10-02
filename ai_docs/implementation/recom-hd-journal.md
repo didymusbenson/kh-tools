@@ -1,5 +1,7 @@
 # Re:Chain of Memories HD journal implementation
 
+Historical chronological report. Its earlier missing-field/no-module statements describe their dated snapshots. The current October 1 disposition is [the full Re:CoM ledger](../games/recom/research-resolution-2026-10-01.md), including all resolved fields and exact remaining gaps.
+
 2026-09-28. User authorized implementation following the [HD menu research](../ui/recom-menu-design-research.md), with the home entry between Kingdom Hearts Final Mix and Kingdom Hearts II Final Mix. Implemented locally; not deployed. This report describes the current working interface, not final artwork or complete native-game coverage.
 
 ## Working experience

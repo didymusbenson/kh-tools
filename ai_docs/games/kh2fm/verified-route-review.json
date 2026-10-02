@@ -1,0 +1,4038 @@
+{
+  "reviewedOn": "2026-10-01",
+  "edition": "Modern English Kingdom Hearts II Final Mix",
+  "scope": {
+    "treasures": 301,
+    "puzzles": 144
+  },
+  "method": "Every row read and compared, preserving stable IDs. Area labels come from the existing canonical candidate crosswalk. KHGuides covers 189 Sora treasures; its 14 Roxas rows were excluded. Remaining 112 matched to complete world walkthroughs and indexed item-location tables. All 144 puzzle rows compared to the complete Wizard table; sparse/contradictory routes received targeted numbered-Journal checks. These are source-supported working routes, not playtest certification or minimum-growth proofs.",
+  "sourceInspections": [
+    {
+      "url": "https://www.khguides.com/kh2/collectibles/treasures/",
+      "coverage": "All 189 Sora rows, grouped across 12 worlds, matched by Journal number, reward and area. Disney 07 reward exception explicitly rejected."
+    },
+    {
+      "url": "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "coverage": "Remaining 112 treasure route review, including Beast courtyard, throne side stairs, Fissure chest cluster, Mesa small/large pairs, late worlds and Cavern landmarks. Some mixed-edition locator mistakes rejected."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "coverage": "Twilight Town 23–39; erroneous repeated number 33 for chest 34 rejected."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "coverage": "Radiant Garden 15–22 and event access."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "coverage": "Radiant Garden 23–46; valves, elevator/wind approach, all Mineshaft sections, conveyors and post-Data chest."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle",
+      "coverage": "Beast’s Castle 01–03 courtyard identities."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/agrabah-ii",
+      "coverage": "Agrabah 25–26 and timed-switch chamber access."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii",
+      "coverage": "Land of Dragons 14–21 throne-room identities."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "coverage": "Land of Dragons 14–21; eastern recipe/AP and western shield/AP stair routes."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "coverage": "All 20 chests and page-unlocked areas; swapped Spooky Cave 15/17 source numbers rejected."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii",
+      "coverage": "Port Royal 15–21 and shipwreck access."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "coverage": "Port Royal 16–18 upper wreck, anchor and beneath-ship routes."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "coverage": "Space Paranoids 11–14 and Solar Sailer access."
+    },
+    {
+      "url": "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "coverage": "All 19 late-world chests; successive castle platforms and ramps."
+    },
+    {
+      "url": "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "coverage": "All six tables, 144 puzzle pieces; compared location and movement against all existing rows. Contradictions are recorded below."
+    },
+    {
+      "url": "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "coverage": "All 72 listed world-Journal rows inspected; exact area landmarks used where consistent. KHGuides incomplete-world coverage does not establish all 144."
+    },
+    {
+      "url": "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "coverage": "World-numbered Final Mix puzzle facts; complete guide reviewed, with focused Station Heights, Chasm and Cavern checks. Guide is puzzle-only, not a complete treasure guide."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "coverage": "Bailey crown above Castle Gate exit; full Cavern valve, wind, piston and three-crown Glide route."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+      "coverage": "Chasm world pieces 10 on platform two, 11 on platform four, 9 while falling to bottom; world-ID mapping from KHWiki."
+    },
+    {
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61",
+      "coverage": "Naught’s Skyway and Ruin and Creation’s Passage return-glide launch points."
+    }
+  ],
+  "accessNotes": [
+    "KHGuides, Wizard and KHWiki HTML inspected directly. GamerGuides accessible through the web retrieval service.",
+    "Fandom and TrueAchievements direct retrieval returned 402/403; search-indexed excerpts exposed the relevant tables and numbered passages.",
+    "Thundaka SuperCheats mirror was accessible through web retrieval; direct HTTP returned 403. GameFAQs, Neoseeker, PlayStationTrophies and KHdatabase direct endpoints were blocked; indexed PlayStationTrophies portions were accessible."
+  ],
+  "rejectedOrQualifiedClaims": [
+    {
+      "ids": [
+        "kh2fm.treasure.disney-castle.07"
+      ],
+      "rejected": "KHGuides names Blazing Shard.",
+      "accepted": "Mythril Shard identity preserved; only the trombone hedge locator adopted. KHWiki and 2.5 GamerGuides agree.",
+      "sources": [
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.khwiki.com/Game:Disney_Castle",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/disney-castle"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.treasure.100-acre-wood.15",
+        "kh2fm.treasure.100-acre-wood.17"
+      ],
+      "rejected": "GamerGuides swaps the numbered Orichalcum and Mythril Crystal Spooky Cave chests.",
+      "accepted": "15 Orichalcum in left branch; 17 Mythril Crystal with Guard Recipe. Stable IDs preserved.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.treasure.twilight-town.34"
+      ],
+      "rejected": "GamerGuides repeats 33 for the stair Mythril Stone.",
+      "accepted": "34 retained for the right-stair landing.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.treasure.port-royal.13",
+        "kh2fm.treasure.port-royal.14"
+      ],
+      "rejected": "Fandom mixed-edition table swaps the two Moonlight Nook landmarks.",
+      "accepted": "KHGuides/PST Final Mix numbered mapping: 13 northeast; 14 west/stair base.",
+      "sources": [
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.daylight.28"
+      ],
+      "rejected": "Wizard Tram Common central pillar row.",
+      "accepted": "Station Heights crown above Tram Common exit.",
+      "sources": [
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.khwiki.com/Game:Twilight_Town"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.daylight.10",
+        "kh2fm.puzzle.daylight.11",
+        "kh2fm.puzzle.daylight.37"
+      ],
+      "rejected": "Wizard platform/puzzle mapping and KHGuides world-number sequence disagree with the numbered Journal crosswalk.",
+      "accepted": "Daylight 10 = Journal 11 = fourth platform; Daylight 11 = Journal 10 = second platform; Daylight 37 = Journal 9 = final falling crown.",
+      "sources": [
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.sunset.21"
+      ],
+      "rejected": "KHGuides calls the Curly Hill crown southeast.",
+      "accepted": "Southwest retained; Wizard and Thundaka independently agree.",
+      "sources": [
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.awakening.04",
+        "kh2fm.puzzle.awakening.10"
+      ],
+      "rejected": "KHGuides and Thundaka use conflicting east/west assignments around the Undercroft furniture piles.",
+      "accepted": "Furniture/guarded-door landmarks retained without importing contradictory compass labels.",
+      "sources": [
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.sunset.32",
+        "kh2fm.puzzle.sunset.36",
+        "kh2fm.puzzle.sunset.40"
+      ],
+      "rejected": "Thundaka says Final Form Glide MAX is mandatory; modern walkthrough permits Glide LV3. Also, GamerGuides lists 32/36/40 together without establishing traversal order.",
+      "accepted": "Modern three-crown Glide LV3 route retained; no individual order or universal minimum asserted.",
+      "sources": [
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    }
+  ],
+  "precisionResiduals": [
+    {
+      "ids": [
+        "kh2fm.puzzle.daylight.27"
+      ],
+      "status": "working-route-supported-landmark-disagreement",
+      "checked": [
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.khwiki.com/Game:Twilight_Town",
+        "https://strategywiki.org/wiki/Kingdom_Hearts_II/Puzzles"
+      ],
+      "blocker": "Synthesis-shop roof in modern wiki/Wizard/StrategyWiki versus central pillar in Thundaka. Tram approach retained; no direct modern in-game capture inspected to reconcile landmark identity."
+    },
+    {
+      "ids": [
+        "kh2fm.puzzle.sunset.32",
+        "kh2fm.puzzle.sunset.36",
+        "kh2fm.puzzle.sunset.40"
+      ],
+      "status": "working-route-supported-individual-order-unverified",
+      "checked": [
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khwiki.com/Game:Radiant_Garden"
+      ],
+      "blocker": "All three sources place the crowns on the upper Mineshaft pipe Glide route, but numbered tables and prose do not establish a reliable individual pipe segment/order. The complete sweep is provided for each; resolving order needs a modern numbered capture."
+    }
+  ],
+  "dispositions": {
+    "kh2fm.treasure.twilight-town.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.22": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.23": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.24": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.25": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.26": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.27": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.28": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.29": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.30": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.31": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.32": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.33": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.34": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.35": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.36": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.37": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.38": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.twilight-town.39": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+        "https://www.vizzed.com/boards/thread.php?id=87704"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.22": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.23": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.24": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.25": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.26": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.27": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.28": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.29": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.30": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.31": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.32": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.33": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.34": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.35": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.36": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.37": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.38": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.39": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.40": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.41": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.42": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.43": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.44": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.45": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.radiant-garden.46": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.beast-s-castle.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.olympus-coliseum.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.agrabah.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.22": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.23": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.24": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.agrabah.25": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/agrabah-ii"
+      ]
+    },
+    "kh2fm.treasure.agrabah.26": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/agrabah-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.the-land-of-dragons.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.100-acre-wood.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.22": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.23": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.24": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.pride-lands.25": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.khwiki.com/Game:Disney_Castle",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/disney-castle"
+      ]
+    },
+    "kh2fm.treasure.disney-castle.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.timeless-river.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.halloween-town.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/",
+        "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
+      ]
+    },
+    "kh2fm.treasure.port-royal.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.20": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.port-royal.21": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "KHGuides numbered Sora table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
+      ]
+    },
+    "kh2fm.treasure.space-paranoids.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.01": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.02": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.03": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.04": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.05": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.06": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.07": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.08": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.09": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.10": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.11": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.12": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.13": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.14": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.15": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.16": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.17": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.18": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.treasure.the-world-that-never-was.19": {
+      "status": "working-route-supported",
+      "evidenceGroup": "Numbered world walkthrough and item-location table",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+        "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.puzzle.awakening.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.awakening.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.heart.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.heart.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.duality.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.frontier.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.frontier.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ]
+    },
+    "kh2fm.puzzle.daylight.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ]
+    },
+    "kh2fm.puzzle.daylight.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.13": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.14": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.15": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.16": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.17": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.puzzle.daylight.18": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.19": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.20": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.21": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.22": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.23": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.24": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.25": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.26": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.27": {
+      "status": "working-route-supported-with-precision-residual",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.28": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.daylight.29": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.30": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.31": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.32": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.33": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.34": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.35": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.36": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.37": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ]
+    },
+    "kh2fm.puzzle.daylight.38": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.39": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.40": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.41": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.42": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.43": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.44": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.45": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.46": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.47": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.daylight.48": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.01": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ]
+    },
+    "kh2fm.puzzle.sunset.02": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.03": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.04": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.05": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.06": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.07": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.08": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.09": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.10": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.11": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.puzzle.sunset.12": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.13": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.14": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.15": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.16": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.17": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ]
+    },
+    "kh2fm.puzzle.sunset.18": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.19": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.20": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.21": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.22": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.23": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.24": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.25": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.26": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.27": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.28": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.29": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.30": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.31": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.32": {
+      "status": "working-route-supported-with-precision-residual",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.33": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.34": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.35": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.36": {
+      "status": "working-route-supported-with-precision-residual",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.37": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.38": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.39": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.40": {
+      "status": "working-route-supported-with-precision-residual",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.41": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.42": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.43": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    },
+    "kh2fm.puzzle.sunset.44": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.45": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.46": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ]
+    },
+    "kh2fm.puzzle.sunset.47": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ]
+    },
+    "kh2fm.puzzle.sunset.48": {
+      "status": "working-route-supported",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ]
+    }
+  },
+  "validation": {
+    "treasureIds": 301,
+    "puzzleIds": 144,
+    "allIdsPreserved": true,
+    "allRoutesHaveAreaContext": true,
+    "allRoutesHaveSources": true,
+    "runtimeGeneration": "Root integration; this follow-up does not modify generator/catalog."
+  }
+}

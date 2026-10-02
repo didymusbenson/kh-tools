@@ -1,0 +1,643 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
+  "researchDate": "2026-10-01",
+  "status": "source-backed remake progression; no game execution",
+  "sources": [
+    "https://www.khwiki.com/Level",
+    "https://www.khwiki.com/Stats"
+  ],
+  "stats": {
+    "sora": {
+      "hp": {
+        "initial": 80,
+        "increment": 15,
+        "cap": 560
+      },
+      "cp": {
+        "initial": 275,
+        "increment": 25,
+        "cap": 1625
+      },
+      "ap": {
+        "fixed": 10
+      }
+    },
+    "riku": {
+      "hp": {
+        "initial": 80,
+        "increment": 15,
+        "cap": 560
+      },
+      "ap": {
+        "initial": 10,
+        "increment": 1,
+        "cap": 30
+      },
+      "dp": {
+        "initial": 8,
+        "increment": 2,
+        "cap": 99
+      }
+    }
+  },
+  "maxLevel": 99,
+  "deferredChoices": "Unchosen sleight/AP bonuses remain available on later levels. Sora learns the sleights in their fixed order, even after later unlock levels are reached. Only the HP choice heals on a Re:CoM level-up.",
+  "dpChoice": "Available after Dark Mode unlock; if HP and AP choices are exhausted before that event, DP becomes available anyway.",
+  "records": [
+    {
+      "level": 1,
+      "experienceFromPrevious": 0,
+      "cumulativeExperience": 0,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 2,
+      "experienceFromPrevious": 25,
+      "cumulativeExperience": 25,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 3,
+      "experienceFromPrevious": 36,
+      "cumulativeExperience": 61,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 4,
+      "experienceFromPrevious": 64,
+      "cumulativeExperience": 125,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 5,
+      "experienceFromPrevious": 100,
+      "cumulativeExperience": 225,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 6,
+      "experienceFromPrevious": 144,
+      "cumulativeExperience": 369,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 7,
+      "experienceFromPrevious": 196,
+      "cumulativeExperience": 565,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 8,
+      "experienceFromPrevious": 256,
+      "cumulativeExperience": 821,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 9,
+      "experienceFromPrevious": 324,
+      "cumulativeExperience": 1145,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 10,
+      "experienceFromPrevious": 400,
+      "cumulativeExperience": 1545,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 11,
+      "experienceFromPrevious": 484,
+      "cumulativeExperience": 2029,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 12,
+      "experienceFromPrevious": 576,
+      "cumulativeExperience": 2605,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 13,
+      "experienceFromPrevious": 676,
+      "cumulativeExperience": 3281,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 14,
+      "experienceFromPrevious": 784,
+      "cumulativeExperience": 4065,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 15,
+      "experienceFromPrevious": 900,
+      "cumulativeExperience": 4965,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 16,
+      "experienceFromPrevious": 1024,
+      "cumulativeExperience": 5989,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 17,
+      "experienceFromPrevious": 1156,
+      "cumulativeExperience": 7145,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 18,
+      "experienceFromPrevious": 1296,
+      "cumulativeExperience": 8441,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 19,
+      "experienceFromPrevious": 1444,
+      "cumulativeExperience": 9885,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 20,
+      "experienceFromPrevious": 1600,
+      "cumulativeExperience": 11485,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 21,
+      "experienceFromPrevious": 1764,
+      "cumulativeExperience": 13249,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 22,
+      "experienceFromPrevious": 1936,
+      "cumulativeExperience": 15185,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 23,
+      "experienceFromPrevious": 2116,
+      "cumulativeExperience": 17301,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 24,
+      "experienceFromPrevious": 2304,
+      "cumulativeExperience": 19605,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 25,
+      "experienceFromPrevious": 2500,
+      "cumulativeExperience": 22105,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 26,
+      "experienceFromPrevious": 2704,
+      "cumulativeExperience": 24809,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 27,
+      "experienceFromPrevious": 2916,
+      "cumulativeExperience": 27725,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 28,
+      "experienceFromPrevious": 3136,
+      "cumulativeExperience": 30861,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 29,
+      "experienceFromPrevious": 3364,
+      "cumulativeExperience": 34225,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 30,
+      "experienceFromPrevious": 3600,
+      "cumulativeExperience": 37825,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 31,
+      "experienceFromPrevious": 3844,
+      "cumulativeExperience": 41669,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 32,
+      "experienceFromPrevious": 4096,
+      "cumulativeExperience": 45765,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 33,
+      "experienceFromPrevious": 4356,
+      "cumulativeExperience": 50121,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 34,
+      "experienceFromPrevious": 4624,
+      "cumulativeExperience": 54745,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 35,
+      "experienceFromPrevious": 4900,
+      "cumulativeExperience": 59645,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 36,
+      "experienceFromPrevious": 5184,
+      "cumulativeExperience": 64829,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 37,
+      "experienceFromPrevious": 5476,
+      "cumulativeExperience": 70305,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 38,
+      "experienceFromPrevious": 5776,
+      "cumulativeExperience": 76081,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 39,
+      "experienceFromPrevious": 6084,
+      "cumulativeExperience": 82165,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 40,
+      "experienceFromPrevious": 6400,
+      "cumulativeExperience": 88565,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 41,
+      "experienceFromPrevious": 6724,
+      "cumulativeExperience": 95289,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 42,
+      "experienceFromPrevious": 7056,
+      "cumulativeExperience": 102345,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 43,
+      "experienceFromPrevious": 7396,
+      "cumulativeExperience": 109741,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 44,
+      "experienceFromPrevious": 7744,
+      "cumulativeExperience": 117485,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 45,
+      "experienceFromPrevious": 8100,
+      "cumulativeExperience": 125585,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 46,
+      "experienceFromPrevious": 8464,
+      "cumulativeExperience": 134049,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 47,
+      "experienceFromPrevious": 8836,
+      "cumulativeExperience": 142885,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 48,
+      "experienceFromPrevious": 9216,
+      "cumulativeExperience": 152101,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 49,
+      "experienceFromPrevious": 9604,
+      "cumulativeExperience": 161705,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 50,
+      "experienceFromPrevious": 10000,
+      "cumulativeExperience": 171705,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 51,
+      "experienceFromPrevious": 10404,
+      "cumulativeExperience": 182109,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 52,
+      "experienceFromPrevious": 10816,
+      "cumulativeExperience": 192925,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 53,
+      "experienceFromPrevious": 11236,
+      "cumulativeExperience": 204161,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 54,
+      "experienceFromPrevious": 11664,
+      "cumulativeExperience": 215825,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 55,
+      "experienceFromPrevious": 12100,
+      "cumulativeExperience": 227925,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 56,
+      "experienceFromPrevious": 12544,
+      "cumulativeExperience": 240469,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 57,
+      "experienceFromPrevious": 12996,
+      "cumulativeExperience": 253465,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 58,
+      "experienceFromPrevious": 13456,
+      "cumulativeExperience": 266921,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 59,
+      "experienceFromPrevious": 13924,
+      "cumulativeExperience": 280845,
+      "rikuApChoiceUnlock": true
+    },
+    {
+      "level": 60,
+      "experienceFromPrevious": 14400,
+      "cumulativeExperience": 295245,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 61,
+      "experienceFromPrevious": 14884,
+      "cumulativeExperience": 310129,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 62,
+      "experienceFromPrevious": 15376,
+      "cumulativeExperience": 325505,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 63,
+      "experienceFromPrevious": 15876,
+      "cumulativeExperience": 341381,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 64,
+      "experienceFromPrevious": 16384,
+      "cumulativeExperience": 357765,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 65,
+      "experienceFromPrevious": 16900,
+      "cumulativeExperience": 374665,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 66,
+      "experienceFromPrevious": 17424,
+      "cumulativeExperience": 392089,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 67,
+      "experienceFromPrevious": 17956,
+      "cumulativeExperience": 410045,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 68,
+      "experienceFromPrevious": 18496,
+      "cumulativeExperience": 428541,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 69,
+      "experienceFromPrevious": 19044,
+      "cumulativeExperience": 447585,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 70,
+      "experienceFromPrevious": 19600,
+      "cumulativeExperience": 467185,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 71,
+      "experienceFromPrevious": 20164,
+      "cumulativeExperience": 487349,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 72,
+      "experienceFromPrevious": 20736,
+      "cumulativeExperience": 508085,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 73,
+      "experienceFromPrevious": 21316,
+      "cumulativeExperience": 529401,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 74,
+      "experienceFromPrevious": 21904,
+      "cumulativeExperience": 551305,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 75,
+      "experienceFromPrevious": 22500,
+      "cumulativeExperience": 573805,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 76,
+      "experienceFromPrevious": 23104,
+      "cumulativeExperience": 596909,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 77,
+      "experienceFromPrevious": 23716,
+      "cumulativeExperience": 620625,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 78,
+      "experienceFromPrevious": 24336,
+      "cumulativeExperience": 644961,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 79,
+      "experienceFromPrevious": 24964,
+      "cumulativeExperience": 669925,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 80,
+      "experienceFromPrevious": 25600,
+      "cumulativeExperience": 695525,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 81,
+      "experienceFromPrevious": 26244,
+      "cumulativeExperience": 721769,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 82,
+      "experienceFromPrevious": 26896,
+      "cumulativeExperience": 748665,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 83,
+      "experienceFromPrevious": 27556,
+      "cumulativeExperience": 776221,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 84,
+      "experienceFromPrevious": 28224,
+      "cumulativeExperience": 804445,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 85,
+      "experienceFromPrevious": 28900,
+      "cumulativeExperience": 833345,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 86,
+      "experienceFromPrevious": 29584,
+      "cumulativeExperience": 862929,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 87,
+      "experienceFromPrevious": 30276,
+      "cumulativeExperience": 893205,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 88,
+      "experienceFromPrevious": 30976,
+      "cumulativeExperience": 924181,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 89,
+      "experienceFromPrevious": 31684,
+      "cumulativeExperience": 955865,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 90,
+      "experienceFromPrevious": 32400,
+      "cumulativeExperience": 988265,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 91,
+      "experienceFromPrevious": 33124,
+      "cumulativeExperience": 1021389,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 92,
+      "experienceFromPrevious": 33856,
+      "cumulativeExperience": 1055245,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 93,
+      "experienceFromPrevious": 34596,
+      "cumulativeExperience": 1089841,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 94,
+      "experienceFromPrevious": 35344,
+      "cumulativeExperience": 1125185,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 95,
+      "experienceFromPrevious": 36100,
+      "cumulativeExperience": 1161285,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 96,
+      "experienceFromPrevious": 36864,
+      "cumulativeExperience": 1198149,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 97,
+      "experienceFromPrevious": 37636,
+      "cumulativeExperience": 1235785,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 98,
+      "experienceFromPrevious": 38416,
+      "cumulativeExperience": 1274201,
+      "rikuApChoiceUnlock": false
+    },
+    {
+      "level": 99,
+      "experienceFromPrevious": 39204,
+      "cumulativeExperience": 1313405,
+      "rikuApChoiceUnlock": false
+    }
+  ]
+}

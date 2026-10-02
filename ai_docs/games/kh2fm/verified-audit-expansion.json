@@ -1,0 +1,4417 @@
+{
+  "verifiedOn": "2026-10-01",
+  "edition": "English modern Kingdom Hearts II Final Mix",
+  "entries": [
+    {
+      "id": "kh2fm.maps.twilight-town-map",
+      "category": "maps",
+      "name": "Twilight Town Map",
+      "summary": "Obtained from Hayner in the Back Alley during Roxas's 2nd day.",
+      "collectible": false,
+      "world": "Twilight Town",
+      "instructions": "Automatic prologue story award; retained for the map completion checklist.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ],
+      "character": "Roxas"
+    },
+    {
+      "id": "kh2fm.maps.mansion-map",
+      "category": "maps",
+      "name": "Mansion Map",
+      "summary": "Obtained from Naminé in Mansion: The White Room during Roxas's 6th day.",
+      "collectible": false,
+      "world": "Twilight Town",
+      "instructions": "Automatic prologue story award; retained for the map completion checklist.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ],
+      "character": "Roxas"
+    },
+    {
+      "id": "kh2fm.maps.marketplace-map",
+      "category": "maps",
+      "name": "Marketplace Map",
+      "summary": "Obtained from Yuffie at the Borough.",
+      "collectible": false,
+      "world": "Radiant Garden",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.encampment-area-map",
+      "category": "maps",
+      "name": "Encampment Area Map",
+      "summary": "Obtained from Li-Shang at the Encampment.",
+      "collectible": false,
+      "world": "The Land of Dragons",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.village-area-map",
+      "category": "maps",
+      "name": "Village Area Map",
+      "summary": "Obtained from Mushu at the Village.",
+      "collectible": false,
+      "world": "The Land of Dragons",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.castle-walls-map",
+      "category": "maps",
+      "name": "Castle Walls Map",
+      "summary": "Obtained from Beast in The Beast's Room during the 2nd visit.",
+      "collectible": false,
+      "world": "Beast's Castle",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.coliseum-map",
+      "category": "maps",
+      "name": "Coliseum Map",
+      "summary": "Obtained from Hercules at the Coliseum Foyer.",
+      "collectible": false,
+      "world": "Olympus Coliseum",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.disney-castle-map",
+      "category": "maps",
+      "name": "Disney Castle Map",
+      "summary": "Obtained from Queen Minnie at the Library.",
+      "collectible": false,
+      "world": "Disney Castle",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.window-of-time-map",
+      "category": "maps",
+      "name": "Window of Time Map",
+      "summary": "Obtained from Pete at Cornerstone Hill.",
+      "collectible": false,
+      "world": "Timeless River",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.isla-de-muerta-map",
+      "category": "maps",
+      "name": "Isla de Muerta Map",
+      "summary": "Obtain after fighting the Undead Pirates at Isla de Muerta: Rock Face.",
+      "collectible": false,
+      "world": "Port Royal",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.ship-graveyard-map",
+      "category": "maps",
+      "name": "Ship Graveyard Map",
+      "summary": "Obtained after defeating the Gambler and obtaining the Cursed Medallion at Ship Graveyard: Seadrift Keep.",
+      "collectible": false,
+      "world": "Port Royal",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.agrabah-map",
+      "category": "maps",
+      "name": "Agrabah Map",
+      "summary": "Obtained from Iago at The Peddler's Shop.",
+      "collectible": false,
+      "world": "Agrabah",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.spooky-cave-map",
+      "category": "maps",
+      "name": "Spooky Cave Map",
+      "summary": "Obtained after completing The Expotition.",
+      "collectible": false,
+      "world": "100 Acre Wood",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.maps.undersea-kingdom-map",
+      "category": "maps",
+      "name": "Undersea Kingdom Map",
+      "summary": "Clear Sebastian’s introductory timing tutorial in the Undersea Courtyard.",
+      "collectible": false,
+      "world": "Atlantica",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map",
+        "https://www.khguides.com/kh2/atlantica/"
+      ],
+      "area": "Undersea Courtyard"
+    },
+    {
+      "id": "kh2fm.maps.castle-that-never-was-map",
+      "category": "maps",
+      "name": "Castle That Never Was Map",
+      "summary": "Obtain after talking with Kairi.",
+      "collectible": false,
+      "world": "The World That Never Was",
+      "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.comet",
+      "category": "limits",
+      "name": "Comet",
+      "summary": "Journal Limit · Donald.",
+      "collectible": false,
+      "character": "Donald",
+      "prerequisites": "Free the Cornerstone of Light. Equip Fantasia (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Comet → Comet Rain. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.duck-flare",
+      "category": "limits",
+      "name": "Duck Flare",
+      "summary": "Journal Limit · Donald.",
+      "collectible": false,
+      "character": "Donald",
+      "prerequisites": "Defeat the Grim Reaper at the Harbor on the second Port Royal visit. Equip Flare Force (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Duck Flare → Rocket Flare → Megaduck Flare. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.whirli-goof",
+      "category": "limits",
+      "name": "Whirli-Goof",
+      "summary": "Journal Limit · Goofy.",
+      "collectible": false,
+      "character": "Goofy",
+      "prerequisites": "Defeat Storm Rider. Equip Tornado Fusion (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Whirli-Goof → Whirli-Goofra → Whirli-Goofga. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.knocksmash",
+      "category": "limits",
+      "name": "Knocksmash",
+      "summary": "Journal Limit · Goofy.",
+      "collectible": false,
+      "character": "Goofy",
+      "prerequisites": "Defeat Barbossa. Equip Teamwork (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Knocksmash → Duo Raid → Cosmo Boost. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.twin-howl",
+      "category": "limits",
+      "name": "Twin Howl",
+      "summary": "Journal Limit · Beast.",
+      "collectible": false,
+      "character": "Beast",
+      "prerequisites": "Beast joins the party. Equip Howling Moon (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Twin Howl → Stalwart Fang / Outcry → Last Howl. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.bushido",
+      "category": "limits",
+      "name": "Bushido",
+      "summary": "Journal Limit · Auron.",
+      "collectible": false,
+      "character": "Auron",
+      "prerequisites": "Auron joins the party. Equip Overdrive (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Bushido → Shooting Star / Banishing Blade → Spiral. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.red-rocket",
+      "category": "limits",
+      "name": "Red Rocket",
+      "summary": "Journal Limit · Mulan.",
+      "collectible": false,
+      "character": "Mulan",
+      "prerequisites": "Mulan reveals her identity. Equip Dragonblaze (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Red Rocket → Heat Lance / Flametongue → Red Meteor. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.speedster",
+      "category": "limits",
+      "name": "Speedster",
+      "summary": "Journal Limit · Aladdin.",
+      "collectible": false,
+      "character": "Aladdin",
+      "prerequisites": "Aladdin joins the party. Equip Trick Fantasy (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Speedster → Quickplay → Trickster. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.dance-call",
+      "category": "limits",
+      "name": "Dance Call",
+      "summary": "Journal Limit · Jack Skellington.",
+      "collectible": false,
+      "character": "Jack Skellington",
+      "prerequisites": "Jack joins the party. Equip Applause, Applause (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Dance Call → Downbeat / Synchronization → Finale. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.bluff",
+      "category": "limits",
+      "name": "Bluff",
+      "summary": "Journal Limit · Jack Sparrow.",
+      "collectible": false,
+      "character": "Jack Sparrow",
+      "prerequisites": "Jack joins the party. Equip Treasure Isle (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Bluff → Jackknife / Slasher → Final Trap. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.wildcat",
+      "category": "limits",
+      "name": "Wildcat",
+      "summary": "Journal Limit · Simba.",
+      "collectible": false,
+      "character": "Simba",
+      "prerequisites": "Simba joins the party. Equip King’s Pride (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Wildcat → High Fang / X-Claw → Proud Roar. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.setup",
+      "category": "limits",
+      "name": "Setup",
+      "summary": "Journal Limit · Tron.",
+      "collectible": false,
+      "character": "Tron",
+      "prerequisites": "Access the DTD. Equip Complete Compilement (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Setup → Cluster Code / Burst Pulse → Reprogram. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.session",
+      "category": "limits",
+      "name": "Session",
+      "summary": "Journal Limit · Riku.",
+      "collectible": false,
+      "character": "Riku",
+      "prerequisites": "Riku joins the party. Equip Eternal Session (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Session → Dark Cannon / Last Saber → Master Hearts / XIII Blades → All’s End. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.trinity",
+      "category": "limits",
+      "name": "Trinity",
+      "summary": "Journal Limit · Sora.",
+      "collectible": false,
+      "character": "Sora",
+      "prerequisites": "Defeat Pete at The Lock. Equip Trinity Limit (3 AP).",
+      "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Trinity → Break / Ultima / Major Drive → Begin Combo. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.never-land",
+      "category": "limits",
+      "name": "Never Land",
+      "summary": "Journal Summon Limit · Peter Pan.",
+      "collectible": false,
+      "character": "Peter Pan",
+      "prerequisites": "Feather Charm.",
+      "instructions": "Summon Peter Pan, then use this Limit and complete its sequence: Tiny Fairy / The Flying Boy → Journey’s End. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.fps-mode",
+      "category": "limits",
+      "name": "FPS Mode",
+      "summary": "Journal Summon Limit · Chicken Little.",
+      "collectible": false,
+      "character": "Chicken Little",
+      "prerequisites": "Baseball Charm.",
+      "instructions": "Summon Chicken Little, then use this Limit and complete its sequence: Balls / Firecrackers. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.ohana",
+      "category": "limits",
+      "name": "Ohana!",
+      "summary": "Journal Summon Limit · Stitch.",
+      "collectible": false,
+      "character": "Stitch",
+      "prerequisites": "Ukulele Charm.",
+      "instructions": "Summon Stitch, then use this Limit and complete its sequence: Shoot / Ukulele → Blast. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.sonic-rave",
+      "category": "limits",
+      "name": "Sonic Rave",
+      "summary": "Journal Summon Limit · Genie.",
+      "collectible": false,
+      "character": "Genie",
+      "prerequisites": "Lamp Charm and Valor Form.",
+      "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Sonic → Rave. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.strike-raid",
+      "category": "limits",
+      "name": "Strike Raid",
+      "summary": "Journal Summon Limit · Genie.",
+      "collectible": false,
+      "character": "Genie",
+      "prerequisites": "Lamp Charm and Wisdom Form.",
+      "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Strike → Judgement. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.final-arcana",
+      "category": "limits",
+      "name": "Final Arcana",
+      "summary": "Journal Summon Limit · Genie.",
+      "collectible": false,
+      "character": "Genie",
+      "prerequisites": "Lamp Charm and Master Form.",
+      "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Arcana → Bash. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.limits.infinity",
+      "category": "limits",
+      "name": "Infinity",
+      "summary": "Journal Summon Limit · Genie.",
+      "collectible": false,
+      "character": "Genie",
+      "prerequisites": "Lamp Charm and Final Form.",
+      "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Infinity → Impact. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    {
+      "id": "kh2fm.challenges.sephiroth",
+      "category": "challenges",
+      "name": "Sephiroth",
+      "summary": "Optional battle; Fenrir requires a separate follow-up.",
+      "collectible": false,
+      "world": "Radiant Garden",
+      "area": "Dark Depths",
+      "prerequisites": "Complete the Battle of the 1000 Heartless.",
+      "reward": "Drive Gauge +1; Cloud follow-up unlocks Fenrir",
+      "instructions": "Defeat Sephiroth, talk to Cloud at the Marketplace, then return to Dark Depths and talk to Sephiroth. After the scene Tifa gives Fenrir. Use the Block reaction command for the opening attack and interrupt Heartless Angel before it completes.",
+      "sources": [
+        "https://www.khwiki.com/Fenrir",
+        "https://www.khwiki.com/Game:Sephiroth"
+      ]
+    },
+    {
+      "id": "kh2fm.challenges.lingering-will",
+      "category": "challenges",
+      "name": "Lingering Will",
+      "summary": "Optional battle; first victory and rematches have different rewards.",
+      "collectible": false,
+      "world": "Disney Castle",
+      "area": "Hall of the Cornerstone",
+      "prerequisites": "Complete every world’s story, including Atlantica and 100 Acre Wood, defeat the final boss and load the clear save.",
+      "reward": "First victory: Proof of Connection and stat rewards. Rematches: Manifest Illusion.",
+      "instructions": "Examine the portal to the Badlands. Claim Proof of Connection on the first victory; revisit the portal for repeatable Manifest Illusion. Keep the Proof of Peace and Proof of Nonexistence receipts separate for the crown.",
+      "categories": [
+        "proofs"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Game:Lingering_Will",
+        "https://www.trueachievements.com/a293114/lingering-will-achievement"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-1-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 1 different material types",
+      "summary": "Reward: Elixir.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-5-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 5 different material types",
+      "summary": "Reward: Free Development set 1.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-10-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 10 different material types",
+      "summary": "Reward: AP Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-15-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 15 different material types",
+      "summary": "Reward: Megalixir.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 20 different material types",
+      "summary": "Reward: Free Development set 2.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 25 different material types",
+      "summary": "Reward: AP Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 30 different material types",
+      "summary": "Reward: Defense Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-35-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 35 different material types",
+      "summary": "Reward: AP Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-40-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 40 different material types",
+      "summary": "Reward: Power Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-45-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 45 different material types",
+      "summary": "Reward: AP Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-50-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 50 different material types",
+      "summary": "Reward: Magic Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-55-different-material-types",
+      "category": "moogle",
+      "name": "Deposit 55 different material types",
+      "summary": "Reward: Orichalcum.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-60-material-types",
+      "category": "moogle",
+      "name": "Deposit all 60 material types",
+      "summary": "Reward: Orichalcum+.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock. Deposit an Orichalcum+ from one of the other six sources before completing this goal.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-50-materials-in-total",
+      "category": "moogle",
+      "name": "Deposit 50 materials in total",
+      "summary": "Reward: Serenity Shard.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-100-materials-in-total",
+      "category": "moogle",
+      "name": "Deposit 100 materials in total",
+      "summary": "Reward: Serenity Stone.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-250-materials-in-total",
+      "category": "moogle",
+      "name": "Deposit 250 materials in total",
+      "summary": "Reward: Serenity Gem.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-500-materials-in-total",
+      "category": "moogle",
+      "name": "Deposit 500 materials in total",
+      "summary": "Reward: Serenity Crystal.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-1000-materials-in-total",
+      "category": "moogle",
+      "name": "Deposit 1000 materials in total",
+      "summary": "Reward: Orichalcum.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-dense-materials",
+      "category": "moogle",
+      "name": "Deposit all four Dense materials",
+      "summary": "Reward: Serenity Gem.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-twilight-materials",
+      "category": "moogle",
+      "name": "Deposit all four Twilight materials",
+      "summary": "Reward: Serenity Crystal.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-mythril-materials",
+      "category": "moogle",
+      "name": "Deposit all four Mythril materials",
+      "summary": "Reward: AP Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-remembrance-materials",
+      "category": "moogle",
+      "name": "Deposit all four Remembrance materials",
+      "summary": "Reward: Serenity Crystal.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-tranquility-materials",
+      "category": "moogle",
+      "name": "Deposit all four Tranquility materials",
+      "summary": "Reward: Serenity Crystal.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-bright-materials",
+      "category": "moogle",
+      "name": "Deposit all four Bright materials",
+      "summary": "Reward: Defense Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-energy-materials",
+      "category": "moogle",
+      "name": "Deposit all four Energy materials",
+      "summary": "Reward: Power Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-four-serenity-materials",
+      "category": "moogle",
+      "name": "Deposit all four Serenity materials",
+      "summary": "Reward: Magic Boost.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-14-rank-c-materials",
+      "category": "moogle",
+      "name": "Deposit all 14 rank C materials",
+      "summary": "Reward: Serenity Shard.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-14-rank-b-materials",
+      "category": "moogle",
+      "name": "Deposit all 14 rank B materials",
+      "summary": "Reward: Serenity Stone.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-16-rank-a-materials",
+      "category": "moogle",
+      "name": "Deposit all 16 rank A materials",
+      "summary": "Reward: Manifest Illusion.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-all-16-rank-s-materials",
+      "category": "moogle",
+      "name": "Deposit all 16 rank S materials",
+      "summary": "Reward: Lost Illusion.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-blazing-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Blazing Shards",
+      "summary": "Reward: Unlimited Blazing Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-blazing-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Blazing Stones",
+      "summary": "Reward: Unlimited Blazing Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-blazing-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Blazing Gems",
+      "summary": "Reward: Unlimited Blazing Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-frost-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Frost Shards",
+      "summary": "Reward: Unlimited Frost Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-frost-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Frost Stones",
+      "summary": "Reward: Unlimited Frost Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-frost-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Frost Gems",
+      "summary": "Reward: Unlimited Frost Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-lightning-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Lightning Shards",
+      "summary": "Reward: Unlimited Lightning Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-lightning-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Lightning Stones",
+      "summary": "Reward: Unlimited Lightning Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-lightning-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Lightning Gems",
+      "summary": "Reward: Unlimited Lightning Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-lucid-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Lucid Shards",
+      "summary": "Reward: Unlimited Lucid Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-lucid-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Lucid Stones",
+      "summary": "Reward: Unlimited Lucid Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-lucid-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Lucid Gems",
+      "summary": "Reward: Unlimited Lucid Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-power-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Power Shards",
+      "summary": "Reward: Unlimited Power Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-power-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Power Stones",
+      "summary": "Reward: Unlimited Power Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-power-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Power Gems",
+      "summary": "Reward: Unlimited Power Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-dark-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Dark Shards",
+      "summary": "Reward: Unlimited Dark Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-dark-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Dark Stones",
+      "summary": "Reward: Unlimited Dark Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-dark-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Dark Gems",
+      "summary": "Reward: Unlimited Dark Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-dense-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Dense Shards",
+      "summary": "Reward: Unlimited Dense Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-dense-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Dense Stones",
+      "summary": "Reward: Unlimited Dense Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-dense-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Dense Gems",
+      "summary": "Reward: Unlimited Dense Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-30-twilight-shards",
+      "category": "moogle",
+      "name": "Deposit 30 Twilight Shards",
+      "summary": "Reward: Unlimited Twilight Shard purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-25-twilight-stones",
+      "category": "moogle",
+      "name": "Deposit 25 Twilight Stones",
+      "summary": "Reward: Unlimited Twilight Stone purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.deposit-20-twilight-gems",
+      "category": "moogle",
+      "name": "Deposit 20 Twilight Gems",
+      "summary": "Reward: Unlimited Twilight Gem purchases.",
+      "collectible": false,
+      "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+      "sources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+        "https://www.khwiki.com/Collector%27s_Goals"
+      ]
+    },
+    {
+      "id": "kh2fm.moogle.moogle-levels",
+      "category": "moogle",
+      "name": "Moogle levels",
+      "summary": "Cumulative EXP thresholds for levels 1–9: 0, 40, 100, 180, 280, 480, 830, 1,330, 1,980.",
+      "collectible": false,
+      "checkable": false,
+      "instructions": "Level 2 enables Bright/Energy; level 3 enables Serenity upgrades in Creations; level 4 allows two modifier types. Cost reductions: C at level 5, B at 6, A at 7, S at 9. Level 8 unlocks advanced Free Development. Bright uses one matching-rank material and doubles recipe EXP.",
+      "sources": [
+        "https://www.khwiki.com/Synthesis",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/item-synthesis"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.swim-this-way",
+      "category": "minigames",
+      "name": "Swim This Way",
+      "summary": "Journal goal: perform this song again after the first clear.",
+      "collectible": false,
+      "world": "Atlantica",
+      "area": "Undersea Courtyard",
+      "prerequisites": "Clear Sebastian’s introductory tutorial.",
+      "reward": "First clear: None.",
+      "instructions": "Talk to Sebastian. Clear objective: Finish with at least one note. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+        "https://www.khwiki.com/A_New_Day_is_Dawning",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.part-of-your-world",
+      "category": "minigames",
+      "name": "Part of Your World",
+      "summary": "Journal goal: perform this song again after the first clear.",
+      "collectible": false,
+      "world": "Atlantica",
+      "area": "Undersea Courtyard",
+      "prerequisites": "Clear Swim This Way and obtain Magnet.",
+      "reward": "First clear: None.",
+      "instructions": "Talk to Flounder to move the statue. Clear objective: Get five consecutive Excellent ratings. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+        "https://www.khwiki.com/A_New_Day_is_Dawning",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.under-the-sea",
+      "category": "minigames",
+      "name": "Under the Sea",
+      "summary": "Journal goal: perform this song again after the first clear.",
+      "collectible": false,
+      "world": "Atlantica",
+      "area": "Undersea Courtyard",
+      "prerequisites": "Clear Part of Your World and raise maximum Drive Gauge to five.",
+      "reward": "First clear: None.",
+      "instructions": "Talk to Sebastian; respond to Ariel prompts and ignore Sebastian prompts. Clear objective: Finish with Ariel’s gauge in the top section. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+        "https://www.khwiki.com/A_New_Day_is_Dawning",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.ursula-s-revenge",
+      "category": "minigames",
+      "name": "Ursula’s Revenge",
+      "summary": "Journal goal: perform this song again after the first clear.",
+      "collectible": false,
+      "world": "Atlantica",
+      "area": "Undersea Courtyard",
+      "prerequisites": "Clear Under the Sea and obtain Magnera.",
+      "reward": "First clear: Mysterious Abyss.",
+      "instructions": "Talk to Ariel, then Sebastian; follow timed and rapid-input prompts. Clear objective: Defeat Ursula before the song ends. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+        "https://www.khwiki.com/A_New_Day_is_Dawning",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.a-new-day-is-dawning",
+      "category": "minigames",
+      "name": "A New Day is Dawning",
+      "summary": "Journal goal: perform this song again after the first clear.",
+      "collectible": false,
+      "world": "Atlantica",
+      "area": "Undersea Courtyard",
+      "prerequisites": "Clear Ursula’s Revenge and obtain Thundaga.",
+      "reward": "First clear: Blizzard element upgrade and Orichalcum+.",
+      "instructions": "Talk to Sebastian; this combines the earlier prompt types. Clear objective: Score at least 30,000. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+      "sources": [
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+        "https://www.khwiki.com/A_New_Day_is_Dawning",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+      ]
+    },
+    {
+      "id": "kh2fm.minigames.chasm-of-challenges",
+      "category": "minigames",
+      "name": "Chasm of Challenges",
+      "world": "Agrabah",
+      "area": "The Cave of Wonders: Chasm of Challenges",
+      "summary": "Replay and clear the challenge.",
+      "instructions": "Revisit the challenge after opening the Treasure Room during the first visit. Defeat the enemies on all five descending floors within two minutes. The Journal asks for a repeat clear, not a separate high score.",
+      "collectible": false,
+      "sources": [
+        "https://www.khwiki.com/Chasm_of_Challenges"
+      ]
+    },
+    {
+      "id": "kh2fm.challenges.cavern-of-remembrance",
+      "category": "challenges",
+      "name": "Cavern of Remembrance traversal",
+      "world": "Radiant Garden",
+      "area": "Postern → Garden of Assemblage",
+      "summary": "Reach the Replica Data hub and its treasure chests.",
+      "instructions": "Enter the hole in the Postern after the 1,000-Heartless sequence. Bring level-3 High Jump, Quick Run, Aerial Dodge and Glide as a sufficient traversal loadout. Climb the Depths; cross the first Mineshaft gap with Quick Run. In the Mining Area activate the engines at the bottom, then use the moving machinery to climb. Aerial Dodge through the next Mineshaft pipes, cross the Engine Chamber conveyors, then Glide through the final pipe corridor. Clear all three Nobody wave encounters in Transport to Remembrance to reach the Garden of Assemblage.",
+      "collectible": false,
+      "checkable": false,
+      "sources": [
+        "https://www.khwiki.com/Cavern_of_Remembrance",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/post-game/cavern-of-remembrance"
+      ]
+    }
+  ],
+  "patches": {
+    "kh2fm.achievements.limit-master": {
+      "instructions": "Record all 21 entries in the Journal Limits checklist: 14 party Limits and 7 Summon Limits. Use every Genie form. Limit Form attacks do not count.",
+      "sources": [
+        "https://www.khwiki.com/Limit"
+      ]
+    },
+    "kh2fm.achievements.my-hero": {
+      "instructions": "Lose a qualifying story boss fight and choose “I won’t give up!”: Shan-Yu; Thresholder/Possessor; Shadow Stalker/Dark Thorn; Cerberus; Hydra; Blizzard Lord/Volcanic Lord; Storm Rider; Xaldin; first Grim Reaper; first Armored Xemnas. Rescue chances by prior rescue count are 100%, 80%, 64%, then 50%. With Mickey, fill the Drive Gauge using D-Charge and use Healing Light to revive Sora. Mickey cannot deliver the finishing blow.",
+      "sources": [
+        "https://www.khwiki.com/Mickey_Mouse"
+      ]
+    },
+    "kh2fm.achievements.navigator": {
+      "instructions": "Complete the 40-entry Maps checklist: 37 original map awards plus three Cavern of Remembrance maps added in Final Mix. Chest aliases retain the original treasure check; direct awards have their own map records.",
+      "sources": [
+        "https://www.khwiki.com/Map"
+      ]
+    },
+    "kh2fm.materials.orichalcum-plus": {
+      "instructions": "Seven finite acquisitions. Chests: Sunset Terrace; Central Computer Mesa; Brink of Despair. Rewards: finish 100 Acre Wood; finish A New Day is Dawning; win Goddess of Fate Cup; deposit all 60 material types at a Moogle. The 60 include Orichalcum+ itself: deposit one from another source first, so the collector reward is not your first Orichalcum+. After receiving the reward, leave and re-enter synthesis to deposit it. No repeatable farm.",
+      "sources": [
+        "https://www.khwiki.com/Orichalcum",
+        "https://www.playstationtrophies.org/forum/topic/239345-kingdom-hearts-ii-final-mix-~-material-list-guide/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3287632071"
+      ],
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.mushrooms.mushroom-xiii-1": {
+      "appendInstructions": "Use Reversal until the mushroom turns away, then strike its back.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Defeat Xemnas and load the clear save."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-2": {
+      "appendInstructions": "Face incoming shots and use Guard or Reflect; Final Form’s floating Keyblades can deflect attacks.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Defeat the Experiment."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-3": {
+      "appendInstructions": "Stack Draw and follow with Quick Run or Glide; collect prizes before they disappear.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Defeat Xaldin."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-4": {
+      "appendInstructions": "Circle the square in Wisdom Form while firing; maintain distance from the clones.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Defeat Shan-Yu."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-5": {
+      "appendInstructions": "Use Limit Form’s Zantetsuken finishers or Final Form Firaga to overcome its regeneration.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+      ],
+      "prerequisites": "Return outside an active story episode in this world."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-6": {
+      "appendInstructions": "Use Final Form magic: Fire for clusters, Blizzard for rows and Thunder for vertical groups.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+      ],
+      "prerequisites": "Return outside an active story episode in this world."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-7": {
+      "appendInstructions": "Keep away from contact; Reflect or long-range magic avoids its knockback.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ]
+    },
+    "kh2fm.mushrooms.mushroom-xiii-8": {
+      "appendInstructions": "Use Berserk Charge and Horizontal Slash to keep it airborne; remove MP Haste and empty MP first.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://strategywiki.org/wiki/Kingdom_Hearts_II/Mushroom_XIII"
+      ],
+      "prerequisites": "Return after Twilight Town’s third visit; take the train from Central Station to The Tower."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-9": {
+      "appendInstructions": "Keep the target spinning with Berserk Charge and Horizontal Slash; remove MP Haste before starting.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Defeat Demyx in Hollow Bastion."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-10": {
+      "appendInstructions": "Keep all five mushrooms on screen, follow the original during the shuffle, then attack only that target.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "prerequisites": "Reach the second Port Royal visit."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-11": {
+      "appendInstructions": "Wisdom Form finishers deliver rapid hits; use Negative Combo and Finishing Plus.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII",
+        "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+      ],
+      "prerequisites": "Return to the Waterway outside an active Timeless River story episode."
+    },
+    "kh2fm.mushrooms.mushroom-xiii-12": {
+      "appendInstructions": "Use Wisdom Form shots and turn the camera between clones, including those above the pillars.",
+      "appendSources": [
+        "https://www.khwiki.com/Mushroom_XIII"
+      ]
+    },
+    "kh2fm.challenges.absent-silhouette-zexion": {
+      "world": "Olympus Coliseum",
+      "area": "Cave of the Dead: Inner Chamber",
+      "prerequisites": "Reach The Lock.",
+      "instructions": "Examine the portal to challenge Zexion. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+      "sources": [
+        "https://www.khwiki.com/Absent_Silhouette"
+      ],
+      "appendInstructions": "\n\nBattle approach: Free a captured ally by breaking their book. Inside the book world, identify and damage Zexion’s real book, then use Dispel to escape. When the colored circles shuffle, enter the blue circle before the meteor attack; a long party Limit can protect the group if positioning fails.",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Zexion"
+      ]
+    },
+    "kh2fm.challenges.absent-silhouette-larxene": {
+      "world": "Port Royal",
+      "area": "Isla de Muerta: Rock Face",
+      "prerequisites": "Finish the Interceptor gunpowder sequence.",
+      "instructions": "Examine the portal to challenge Larxene. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+      "sources": [
+        "https://www.khwiki.com/Absent_Silhouette"
+      ],
+      "appendInstructions": "\n\nBattle approach: Avoid Thunder because Larxene absorbs it. Guard or Reflect the rushing copies; a finisher can open Merge to remove a clone and stun her. Her clones share HP, so attacks that hit several copies can deal extra damage. Use lightning-resistant armor and preserve healing for her late lightning barrage.",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Larxene"
+      ]
+    },
+    "kh2fm.challenges.absent-silhouette-lexaeus": {
+      "world": "Twilight Town",
+      "area": "Sandlot",
+      "prerequisites": "Defeat the second-visit Nobodies. During the next Twilight Town visit the portal returns only after clearing that visit.",
+      "instructions": "Examine the portal to challenge Lexaeus. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+      "sources": [
+        "https://www.khwiki.com/Absent_Silhouette"
+      ],
+      "appendInstructions": "\n\nBattle approach: Guard or Reflect the low weapon sweep, then use Mega Impact to stun Lexaeus and create a damage opening. Watch the delayed third ground slam. When he charges from outside the arena, block the charge and use Reflect or stay airborne to avoid the erupting rocks.",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Lexaeus"
+      ]
+    },
+    "kh2fm.challenges.absent-silhouette-vexen": {
+      "world": "Agrabah",
+      "area": "The Peddler’s Shop",
+      "prerequisites": "Reach the remodeled shop on the second visit.",
+      "instructions": "Examine the portal to challenge Vexen. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+      "sources": [
+        "https://www.khwiki.com/Absent_Silhouette"
+      ],
+      "appendInstructions": "\n\nBattle approach: Break the shield before attacking Vexen. Keep moving out of the tracking data circle so Anti-Sora does not grow stronger; eliminate the clone if it interrupts your attacks. Use Fire against Vexen after his shield breaks, and save MP for defense during his ice attacks.",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Vexen"
+      ]
+    },
+    "kh2fm.challenges.absent-silhouette-marluxia": {
+      "world": "Beast's Castle",
+      "area": "The Beast’s Room",
+      "prerequisites": "Reach the expulsion scene on the second visit.",
+      "instructions": "Examine the portal to challenge Marluxia. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+      "sources": [
+        "https://www.khwiki.com/Absent_Silhouette"
+      ],
+      "appendInstructions": "\n\nBattle approach: The death counter starts at Sora’s level and scythe hits reduce it independently of HP. Block his combo and punish the recovery. After blocking Tornado Slash, use Restore Count near the scythe to recover counter points, or Aerial Strike near Marluxia for damage. Keep clear of the dark floor pools.",
+      "appendSources": [
+        "https://www.khwiki.com/Game:Marluxia"
+      ]
+    },
+    "kh2fm.challenges.replica-data-xemnas": {
+      "prerequisites": "Defeat Xemnas for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Xemnas"
+      ],
+      "appendInstructions": "\n\nBattle approach: This rematch has two consecutive phases; losing the second restarts the first. In the solo phase, guard or Reflect the blade combo and punish its recovery; Facedown’s Finish leaves him at 1 HP, and Thunder cannot finish him. With Riku, follow Reversal prompts; when controlling Riku, use Dark Aura to hold back the clone while approaching Sora for the rescue command. During the final laser sequence, repeatedly use both displayed defend actions, then land a finisher or Limit."
+    },
+    "kh2fm.challenges.replica-data-xigbar": {
+      "prerequisites": "Defeat Xigbar for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Xigbar"
+      ],
+      "appendInstructions": "\n\nBattle approach: Data Xigbar no longer pauses to reload. Deflect his shots with Guard or Reflect to create an opening for an aerial combo. Use Warp Snipe when its prompt appears, but defend early against his much faster charged blue shot. Keep moving during the small-platform barrage; avoid relying on repeated Reflect for the entire sequence."
+    },
+    "kh2fm.challenges.replica-data-xaldin": {
+      "prerequisites": "Defeat Xaldin for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Xaldin"
+      ],
+      "appendInstructions": "\n\nBattle approach: Use Learn after defending his spear attacks, then Jump to break through Protective Wind and begin an aerial combo. Ordinary attacks against that wind deal almost no damage. Stay mobile during his leaps and use Reflect against the final landing or wind blast. This rematch provides neither Beast nor Mickey assistance."
+    },
+    "kh2fm.challenges.replica-data-vexen": {
+      "prerequisites": "Defeat Vexen’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Vexen"
+      ],
+      "appendInstructions": "\n\nBattle approach: Break the shield before attacking Vexen. Keep moving out of the tracking data circle so Anti-Sora does not grow stronger; eliminate the clone if it interrupts your attacks. Use Fire against Vexen after his shield breaks, and save MP for defense during his ice attacks. His rematch shield requires physical or neutral damage. Apply the shield/data-circle strategy above, and keep your distance when the screen darkens for Icy Ensemble. A long Donald Limit can protect you through the ice sequence; his shield cannot be broken during that attack."
+    },
+    "kh2fm.challenges.replica-data-lexaeus": {
+      "prerequisites": "Defeat Lexaeus’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Lexaeus"
+      ],
+      "appendInstructions": "\n\nBattle approach: Guard or Reflect the low weapon sweep, then use Mega Impact to stun Lexaeus and create a damage opening. Watch the delayed third ground slam. When he charges from outside the arena, block the charge and use Reflect or stay airborne to avoid the erupting rocks. He begins with more power and HP than the Silhouette. Continue blocking the sweep for Mega Impact and attack during the resulting stun. After Earthen Fury, take safe openings promptly because prolonged combat lets his power rise further."
+    },
+    "kh2fm.challenges.replica-data-zexion": {
+      "prerequisites": "Defeat Zexion’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Zexion"
+      ],
+      "appendInstructions": "\n\nBattle approach: Free a captured ally by breaking their book. Inside the book world, identify and damage Zexion’s real book, then use Dispel to escape. When the colored circles shuffle, enter the blue circle before the meteor attack; a long party Limit can protect the group if positioning fails. The book/Dispel and blue-circle mechanics still apply, with more HP and altered attack ordering. Keep recovery available and use the safe opening after leaving the book world to attack."
+    },
+    "kh2fm.challenges.replica-data-sa-x": {
+      "prerequisites": "Defeat Saïx for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Sa%C3%AFx"
+      ],
+      "appendInstructions": "\n\nBattle approach: Interrupt his opening charge with a finisher if possible. During Berserk, prioritize avoiding his wide attacks and quickly collect a dropped claymore. Complete Berserk → Eclipse → Magna Storm to empty his Berserk gauge, then guard his normal attacks and punish openings. Dropped weapons disappear faster than in the story battle."
+    },
+    "kh2fm.challenges.replica-data-axel": {
+      "prerequisites": "Defeat Axel for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Axel"
+      ],
+      "appendInstructions": "\n\nBattle approach: The burning floor drains HP and prevents the finishing blow. Drive him out of the ring, then follow Burst Frontier → Overtaker → Clear Light to extinguish it. Blizzard and Reflect provide useful damage; Limit Form can restore health while you prepare another safe opening."
+    },
+    "kh2fm.challenges.replica-data-demyx": {
+      "prerequisites": "Defeat Demyx for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Demyx"
+      ],
+      "appendInstructions": "\n\nBattle approach: Keep MP-restoring items ready for both sets of timed water clones. Wisdom Form Firaga quickly clears groups; Blizzaga or finishers can turn clones into notes for Wild Dance. The final clone round requires 99 defeats within 30 seconds. Disable Auto-Limit if it interferes with Wild Dance, then punish Demyx between his water attacks."
+    },
+    "kh2fm.challenges.replica-data-luxord": {
+      "prerequisites": "Defeat Luxord for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Luxord"
+      ],
+      "appendInstructions": "\n\nBattle approach: Watch the command menu and win the circle-symbol games to transfer time from Luxord to Sora. Track his face card while it shuffles and avoid bomb cards. Winning the final four-circle game is necessary in the rematch; finish with a combo finisher or magic once his remaining time is nearly gone."
+    },
+    "kh2fm.challenges.replica-data-marluxia": {
+      "prerequisites": "Defeat Marluxia’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Marluxia"
+      ],
+      "appendInstructions": "\n\nBattle approach: The death counter starts at Sora’s level and scythe hits reduce it independently of HP. Block his combo and punish the recovery. After blocking Tornado Slash, use Restore Count near the scythe to recover counter points, or Aerial Strike near Marluxia for damage. Keep clear of the dark floor pools. In the rematch, Restore Count returns progressively fewer points: 13, 7, 3, 2, then 1. Defend the death counter instead of depending on repeated restoration. Avoid the flower detonation and floor pools at the opening; attack after a guarded scythe sequence."
+    },
+    "kh2fm.challenges.replica-data-larxene": {
+      "prerequisites": "Defeat Larxene’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Larxene"
+      ],
+      "appendInstructions": "\n\nBattle approach: Avoid Thunder because Larxene absorbs it. Guard or Reflect the rushing copies; a finisher can open Merge to remove a clone and stun her. Her clones share HP, so attacks that hit several copies can deal extra damage. Use lightning-resistant armor and preserve healing for her late lightning barrage. Use the same defense, clone and Merge approach as the Silhouette, with extra HP and different attack ordering. Reflect and wide attacks can punish overlapping copies; keep enough resources to survive the late lightning sequence."
+    },
+    "kh2fm.challenges.replica-data-roxas": {
+      "prerequisites": "Defeat Roxas for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+      "appendSources": [
+        "https://www.khwiki.com/Organization_XIII_Replica_Data",
+        "https://www.khwiki.com/Game:Roxas"
+      ],
+      "appendInstructions": "\n\nBattle approach: Guard his opening sweep and the final dash of his combo to create a punish window. Select The End during the duel to steal his Keyblades, then use the brief advantage without extending combos carelessly: he retaliates sooner than in the story fight. Glide around the faster light projectiles and keep a recovery option ready."
+    },
+    "kh2fm.materials.blazing-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.blazing-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.blazing-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.blazing-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.frost-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.frost-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.frost-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.frost-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lightning-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lightning-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lightning-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lightning-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lucid-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lucid-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lucid-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.lucid-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.power-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.power-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.power-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.power-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dark-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dark-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dark-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dark-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dense-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dense-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dense-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.dense-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.twilight-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.twilight-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.twilight-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.twilight-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.mythril-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.mythril-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.mythril-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.mythril-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.bright-shard": {
+      "appendInstructions": "Optional synthesis modifier: add one Bright Shard to a rank C recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis"
+      ]
+    },
+    "kh2fm.materials.bright-stone": {
+      "appendInstructions": "Optional synthesis modifier: add one Bright Stone to a rank B recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis"
+      ]
+    },
+    "kh2fm.materials.bright-gem": {
+      "appendInstructions": "Optional synthesis modifier: add one Bright Gem to a rank A recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis"
+      ]
+    },
+    "kh2fm.materials.bright-crystal": {
+      "appendInstructions": "Optional synthesis modifier: add one Bright Crystal to a rank S recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis"
+      ]
+    },
+    "kh2fm.materials.energy-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.energy-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.energy-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.energy-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.serenity-shard": {
+      "appendInstructions": "Material collection rank: C. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
+      ]
+    },
+    "kh2fm.materials.serenity-stone": {
+      "appendInstructions": "Material collection rank: B. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
+      ]
+    },
+    "kh2fm.materials.serenity-gem": {
+      "appendInstructions": "Material collection rank: A. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
+      ]
+    },
+    "kh2fm.materials.serenity-crystal": {
+      "appendInstructions": "Material collection rank: S. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
+      ]
+    },
+    "kh2fm.materials.orichalcum": {
+      "appendInstructions": "Material collection rank: A. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
+      ]
+    },
+    "kh2fm.materials.remembrance-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.remembrance-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.remembrance-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.remembrance-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.tranquility-shard": {
+      "appendInstructions": "Material collection rank: C.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.tranquility-stone": {
+      "appendInstructions": "Material collection rank: B.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.tranquility-gem": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.tranquility-crystal": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.materials.manifest-illusion": {
+      "appendInstructions": "Material collection rank: A.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material",
+        "https://www.khwiki.com/Illusion"
+      ]
+    },
+    "kh2fm.materials.lost-illusion": {
+      "appendInstructions": "Material collection rank: S.",
+      "appendSources": [
+        "https://www.khwiki.com/Synthesis_material"
+      ]
+    },
+    "kh2fm.achievements.craftsman": {
+      "instructions": "Complete all 54 Moogle Collection List goals, including each material family, all four ranks, all 60 types, total-deposit goals, and the 24 purchase unlocks. Visit synthesis to deposit and claim rewards; spending stock does not undo deposited totals.",
+      "appendSources": [
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin"
+      ]
+    },
+    "kh2fm.forms.final-form": {
+      "prerequisites": "Defeat Roxas; have at least five Drive bars and both eligible party members available.",
+      "appendInstructions": "Before the first unlock, an Antiform-trigger attempt can become Final Form: Final Mix chances are 3%, 9%, 27%, then 75% on subsequent attempts. Equip Two Become One to force eligible Antiform attempts in battle. After the first Final activation it becomes a menu choice.",
+      "appendSources": [
+        "https://www.khwiki.com/Final_Form",
+        "https://www.khwiki.com/Light_%26_Darkness"
+      ]
+    },
+    "kh2fm.keyblades.two-become-one": {
+      "appendInstructions": "Light & Darkness forces eligible in-battle Drive attempts toward Antiform, helping unlock Final Form after Roxas when at least five Drive bars are filled. After Final is unlocked it forces Antiform unless Final itself is selected. It does not override missing/unconscious party members or out-of-combat restrictions.",
+      "appendSources": [
+        "https://www.khwiki.com/Light_%26_Darkness"
+      ]
+    },
+    "kh2fm.achievements.corroded-by-darkness": {
+      "instructions": "Enter Antiform thirteen times. Before multipliers its chance is 0% at 0–4 Anti Points, 10% at 5–9, and 25% at 10+. Valor/Wisdom/Limit/Master add 1 point; Final subtracts 10; Antiform subtracts 4; obtaining a Form resets the counter. Two Become One forces eligible Antiform attempts in battle after Final is unlocked. Both allies must be available; Final Form selection never becomes Antiform.",
+      "appendSources": [
+        "https://www.khwiki.com/Antiform",
+        "https://www.khwiki.com/Light_%26_Darkness"
+      ]
+    },
+    "kh2fm.summons.baseball-charm": {
+      "appendInstructions": "Summoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+      "appendSources": [
+        "https://www.khwiki.com/Summon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+        "https://appmedia.jp/kh2fm/75145473",
+        "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+        "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+      ],
+      "area": "Merlin's House"
+    },
+    "kh2fm.summons.lamp-charm": {
+      "appendInstructions": "Summoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+      "appendSources": [
+        "https://www.khwiki.com/Summon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+        "https://appmedia.jp/kh2fm/75145473",
+        "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+        "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+      ],
+      "area": "The Palace"
+    },
+    "kh2fm.treasure.radiant-garden.14": {
+      "appendInstructions": "Summoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+      "appendSources": [
+        "https://www.khwiki.com/Summon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+        "https://appmedia.jp/kh2fm/75145473",
+        "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+        "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+      ]
+    },
+    "kh2fm.treasure.port-royal.15": {
+      "appendInstructions": "Summoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+      "appendSources": [
+        "https://www.khwiki.com/Summon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+        "https://appmedia.jp/kh2fm/75145473",
+        "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+        "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+        "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+      ]
+    },
+    "kh2fm.cups.pain-and-panic": {
+      "appendInstructions": "Drive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.",
+      "appendSources": [
+        "https://www.khwiki.com/Pain_and_Panic_Cup"
+      ]
+    },
+    "kh2fm.cups.pain-and-panic-paradox": {
+      "appendInstructions": "Drive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.",
+      "appendSources": [
+        "https://www.khwiki.com/Pain_and_Panic_Cup"
+      ]
+    },
+    "kh2fm.cups.cerberus": {
+      "appendInstructions": "Timed solo cup: Forms work without allies and Drive refills faster. Use Forms to clear waves quickly; extra time is awarded after rounds.",
+      "appendSources": [
+        "https://www.khwiki.com/Cerberus_Cup"
+      ]
+    },
+    "kh2fm.cups.cerberus-paradox": {
+      "appendInstructions": "Timed solo cup: Forms work without allies and Drive refills faster. Use Forms to clear waves quickly; extra time is awarded after rounds.",
+      "appendSources": [
+        "https://www.khwiki.com/Cerberus_Cup"
+      ]
+    },
+    "kh2fm.cups.titan": {
+      "appendInstructions": "Solo summons are allowed. Preserve the shared 500 Key Points: damage depletes this nonrefillable allowance. Stitch’s Ohana! Ukulele and Peter Pan’s Journey’s End can generate score before enemies are defeated.",
+      "appendSources": [
+        "https://www.khwiki.com/Titan_Cup"
+      ]
+    },
+    "kh2fm.cups.titan-paradox": {
+      "appendInstructions": "Solo summons are allowed. Preserve the shared 500 Key Points: damage depletes this nonrefillable allowance. Stitch’s Ohana! Ukulele and Peter Pan’s Journey’s End can generate score before enemies are defeated.",
+      "appendSources": [
+        "https://www.khwiki.com/Titan_Cup"
+      ]
+    },
+    "kh2fm.cups.hades-paradox": {
+      "appendInstructions": "Rules by round block: 1–10 unrestricted; 11–20 solo Summons with 500 damage points; 21–30 party and cheaper Limits with Drive locked; 31–40 solo Forms with fast Drive recharge and a ten-minute timer; 41–50 solo with no Summons and only Limit Form available in Final Mix. Hercules joins in round 50. Gain score with summon Limits in early blocks; round 47 is the last scoring opportunity.",
+      "appendSources": [
+        "https://www.khwiki.com/Hades_Paradox_Cup"
+      ]
+    },
+    "kh2fm.minigames.sb-sand-glider": {
+      "name": "SB Sand Slider",
+      "appendSources": [
+        "https://www.khwiki.com/Skateboard"
+      ],
+      "area": "The Peddler’s Shop",
+      "appendInstructions": "Talk to the Peddler. Collect at least ten crystals within 30 seconds."
+    },
+    "kh2fm.minigames.mail-delivery": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Mail_Delivery",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Station Heights",
+      "appendInstructions": "Start at this area’s Help Wanted board. Deliver to all five recipients; use Grind to reach the elevated dove without backtracking."
+    },
+    "kh2fm.minigames.cargo-climb": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Cargo_Climb",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Station Heights",
+      "appendInstructions": "Start at this area’s Help Wanted board. Attack the cart from behind, keeping it centered uphill. Follow its launch with an aerial finisher; Negative Combo reduces the setup hits."
+    },
+    "kh2fm.minigames.grandstander": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Grandstander",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Station Heights",
+      "appendInstructions": "Start at this area’s Help Wanted board. Keep the ball airborne. Berserk Charge during MP recharge suppresses finishers and permits a long string of hits."
+    },
+    "kh2fm.minigames.poster-duty": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Poster_Duty",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Tram Common",
+      "appendInstructions": "Start at this area’s Help Wanted board. Plan a loop through clustered poster sites. Use High Jump, Aerial Dodge and Glide between clusters; posting refreshes the aerial-dodge opportunity."
+    },
+    "kh2fm.minigames.bumble-buster": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Bumble_Buster",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Tram Common",
+      "appendInstructions": "Start at this area’s Help Wanted board. Gather the swarms with Magnet, then use Fire or Thunder to clear them together."
+    },
+    "kh2fm.minigames.junk-sweep": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Junk_Sweep",
+        "https://www.khwiki.com/Prop"
+      ],
+      "area": "Market Street: Tram Common",
+      "appendInstructions": "Start at this area’s Help Wanted board. Start from the help-wanted board. Line up debris so one pile hits others; use Negative Combo and remove Combo Plus to reach finishers immediately. The target counts swings, not elapsed time."
+    },
+    "kh2fm.minigames.hayner-struggle": {
+      "appendSources": [
+        "https://www.khwiki.com/Struggle",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+      ],
+      "area": "Sandlot",
+      "prerequisites": "Return for Sora’s late Twilight Town visit.",
+      "appendInstructions": "Use the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs."
+    },
+    "kh2fm.minigames.setzer-struggle": {
+      "appendSources": [
+        "https://www.khwiki.com/Struggle",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+      ],
+      "area": "Sandlot",
+      "prerequisites": "Win ten matches against Hayner as Sora.",
+      "appendInstructions": "Use the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs."
+    },
+    "kh2fm.minigames.seifer-struggle": {
+      "appendSources": [
+        "https://www.khwiki.com/Struggle",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+      ],
+      "area": "Sandlot",
+      "prerequisites": "Win ten matches against Setzer as Sora.",
+      "appendInstructions": "Use the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs."
+    },
+    "kh2fm.minigames.sb-street-rave": {
+      "appendSources": [
+        "https://www.khwiki.com/Skateboard"
+      ],
+      "area": "Market Street: Station Heights",
+      "appendInstructions": "Talk to the girl beside Wantz’s Item Shop. Score across five jumps; no timer."
+    },
+    "kh2fm.minigames.sb-freestyle": {
+      "appendSources": [
+        "https://www.khwiki.com/Skateboard"
+      ],
+      "area": "Marketplace",
+      "appendInstructions": "Talk to Scrooge McDuck. Reach 200 in one continuous trick sequence; touching ground or a wall resets the score."
+    },
+    "kh2fm.minigames.phil-s-training-maniac": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Phil%27s_Training"
+      ],
+      "area": "Coliseum",
+      "appendInstructions": "Talk to Phil and select Maniac. Break the pots and collect the released points; the Journal requires 1,000 points."
+    },
+    "kh2fm.minigames.magic-carpet": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Magic_Carpet"
+      ],
+      "area": "Ruined Chamber",
+      "appendInstructions": "After Agrabah’s second visit, activate the switch. Use finishers against large enemies and knock airborne enemies into Fat Bandits for additional defeats."
+    },
+    "kh2fm.minigames.a-blustery-rescue": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/A_Blustery_Rescue"
+      ],
+      "area": "Piglet's House",
+      "appendInstructions": "After the first Torn Page, replay by talking to Piglet. Break pots and logs, use whirlwinds when many objects are visible, and reclaim Pooh immediately if hit."
+    },
+    "kh2fm.minigames.hunny-slider": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Hunny_Slider"
+      ],
+      "area": "Rabbit's House",
+      "appendInstructions": "After the second Torn Page, talk to Rabbit. Follow the hunny trails, use Gopher as protection, and recover Pooh immediately after a collision."
+    },
+    "kh2fm.minigames.balloon-bounce": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Balloon_Bounce"
+      ],
+      "area": "Kanga's House",
+      "appendInstructions": "Alternate short bounces along a row with a timed high bounce to reach the next row. Reach the highest balloons for the large score bonus."
+    },
+    "kh2fm.minigames.the-expotition": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/The_Expotition"
+      ],
+      "area": "The Spooky Cave",
+      "appendInstructions": "Talk to Kanga. Keep the group close, calm frightened friends, avoid shining ice, and clear bees with Thunder or Magnet. Final Mix allows five minutes to finish, but the Journal target remains 90 seconds."
+    },
+    "kh2fm.minigames.the-hunny-pot": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/The_Hunny_Pot"
+      ],
+      "area": "Starry Hill",
+      "appendInstructions": "Talk to Pooh. Trigger Swing near full power, then Release toward open ground. In Final Mix Release becomes available after one and a half rotations; the filling gauge resets immediately at maximum."
+    },
+    "kh2fm.minigames.gift-wrapping": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Gift_Wrapping"
+      ],
+      "area": "Santa's House: Wrapping Room",
+      "appendInstructions": "Talk to the elf after the story activity. Fill large boxes quickly, reload the 30-toy magazine, and stun Lock, Shock and Barrel before they knock boxes away."
+    },
+    "kh2fm.minigames.sb-workshop-rave": {
+      "appendSources": [
+        "https://www.khwiki.com/Skateboard"
+      ],
+      "area": "Yuletide Hill",
+      "appendInstructions": "Talk to Lock. Score at least 1,000 within 30 seconds in one attempt."
+    },
+    "kh2fm.minigames.sb-time-attack": {
+      "appendSources": [
+        "https://www.khwiki.com/Skateboard"
+      ],
+      "area": "Rampart",
+      "appendInstructions": "Talk to Will Turner. Collect all 23 crystals within 40 seconds."
+    },
+    "kh2fm.minigames.light-cycle": {
+      "appendSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+        "https://www.khwiki.com/Light_Cycle"
+      ],
+      "area": "Game Grid",
+      "appendInstructions": "Replay through the computer terminal after the story course. Use the attack that counters each enemy action, and watch the directional turn prompts."
+    },
+    "kh2fm.treasure.disney-castle.07": {
+      "appendSources": [
+        "https://www.khwiki.com/Game:Disney_Castle",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/disney-castle",
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/List/location/disneycastle.py"
+      ]
+    }
+  },
+  "aliases": {
+    "kh2fm.treasure.twilight-town.21": [
+      "maps"
+    ],
+    "kh2fm.treasure.radiant-garden.06": [
+      "maps"
+    ],
+    "kh2fm.treasure.radiant-garden.18": [
+      "maps"
+    ],
+    "kh2fm.treasure.radiant-garden.34": [
+      "maps"
+    ],
+    "kh2fm.treasure.radiant-garden.41": [
+      "maps"
+    ],
+    "kh2fm.treasure.radiant-garden.44": [
+      "maps"
+    ],
+    "kh2fm.treasure.the-land-of-dragons.15": [
+      "maps"
+    ],
+    "kh2fm.treasure.beast-s-castle.04": [
+      "maps"
+    ],
+    "kh2fm.treasure.beast-s-castle.14": [
+      "maps"
+    ],
+    "kh2fm.treasure.olympus-coliseum.07": [
+      "maps"
+    ],
+    "kh2fm.treasure.olympus-coliseum.18": [
+      "maps"
+    ],
+    "kh2fm.treasure.timeless-river.01": [
+      "maps"
+    ],
+    "kh2fm.treasure.port-royal.01": [
+      "maps"
+    ],
+    "kh2fm.treasure.agrabah.21": [
+      "maps"
+    ],
+    "kh2fm.treasure.agrabah.26": [
+      "maps"
+    ],
+    "kh2fm.treasure.halloween-town.03": [
+      "maps"
+    ],
+    "kh2fm.treasure.halloween-town.13": [
+      "maps"
+    ],
+    "kh2fm.treasure.pride-lands.01": [
+      "maps"
+    ],
+    "kh2fm.treasure.pride-lands.09": [
+      "maps"
+    ],
+    "kh2fm.treasure.pride-lands.23": [
+      "maps"
+    ],
+    "kh2fm.treasure.space-paranoids.01": [
+      "maps"
+    ],
+    "kh2fm.treasure.space-paranoids.09": [
+      "maps"
+    ],
+    "kh2fm.treasure.space-paranoids.14": [
+      "maps"
+    ],
+    "kh2fm.treasure.100-acre-wood.01": [
+      "maps"
+    ],
+    "kh2fm.treasure.the-world-that-never-was.08": [
+      "maps"
+    ],
+    "kh2fm.treasure.beast-s-castle.05": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.disney-castle.02": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.the-land-of-dragons.07": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.radiant-garden.13": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.100-acre-wood.16": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.100-acre-wood.20": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.radiant-garden.15": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.the-land-of-dragons.17": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.port-royal.20": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.twilight-town.39": [
+      "recipe-documents"
+    ],
+    "kh2fm.challenges.absent-silhouette-zexion": [
+      "recipe-documents"
+    ],
+    "kh2fm.challenges.absent-silhouette-larxene": [
+      "recipe-documents"
+    ],
+    "kh2fm.challenges.absent-silhouette-lexaeus": [
+      "recipe-documents"
+    ],
+    "kh2fm.challenges.absent-silhouette-vexen": [
+      "recipe-documents"
+    ],
+    "kh2fm.challenges.absent-silhouette-marluxia": [
+      "recipe-documents"
+    ],
+    "kh2fm.assembly.duality-assembly": [
+      "recipe-documents"
+    ],
+    "kh2fm.treasure.radiant-garden.46": [
+      "proofs"
+    ],
+    "kh2fm.mushrooms.mushroom-xiii-13": [
+      "proofs"
+    ]
+  },
+  "formProgression": {
+    "Valor Form": [
+      {
+        "level": 1,
+        "totalExp": 0,
+        "soraBonus": "—"
+      },
+      {
+        "level": 2,
+        "totalExp": 80,
+        "soraBonus": "Auto Valor"
+      },
+      {
+        "level": 3,
+        "totalExp": 240,
+        "soraBonus": "High Jump LV1"
+      },
+      {
+        "level": 4,
+        "totalExp": 520,
+        "soraBonus": "Combo Plus"
+      },
+      {
+        "level": 5,
+        "totalExp": 968,
+        "soraBonus": "High Jump LV2"
+      },
+      {
+        "level": 6,
+        "totalExp": 1528,
+        "soraBonus": "Combo Plus"
+      },
+      {
+        "level": 7,
+        "totalExp": 2200,
+        "soraBonus": "High Jump LV3"
+      }
+    ],
+    "Wisdom Form": [
+      {
+        "level": 1,
+        "totalExp": 0,
+        "soraBonus": "—"
+      },
+      {
+        "level": 2,
+        "totalExp": 12,
+        "soraBonus": "Auto Wisdom"
+      },
+      {
+        "level": 3,
+        "totalExp": 36,
+        "soraBonus": "Quick Run LV1"
+      },
+      {
+        "level": 4,
+        "totalExp": 84,
+        "soraBonus": "MP Rage"
+      },
+      {
+        "level": 5,
+        "totalExp": 160,
+        "soraBonus": "Quick Run LV2"
+      },
+      {
+        "level": 6,
+        "totalExp": 293,
+        "soraBonus": "MP Haste"
+      },
+      {
+        "level": 7,
+        "totalExp": 450,
+        "soraBonus": "Quick Run LV3"
+      }
+    ],
+    "Limit Form": [
+      {
+        "level": 1,
+        "totalExp": 0,
+        "soraBonus": "—"
+      },
+      {
+        "level": 2,
+        "totalExp": 3,
+        "soraBonus": "Auto Limit"
+      },
+      {
+        "level": 3,
+        "totalExp": 9,
+        "soraBonus": "Dodge Roll LV1"
+      },
+      {
+        "level": 4,
+        "totalExp": 21,
+        "soraBonus": "Draw"
+      },
+      {
+        "level": 5,
+        "totalExp": 40,
+        "soraBonus": "Dodge Roll LV2"
+      },
+      {
+        "level": 6,
+        "totalExp": 63,
+        "soraBonus": "Lucky Lucky"
+      },
+      {
+        "level": 7,
+        "totalExp": 90,
+        "soraBonus": "Dodge Roll LV3"
+      }
+    ],
+    "Master Form": [
+      {
+        "level": 1,
+        "totalExp": 0,
+        "soraBonus": "—"
+      },
+      {
+        "level": 2,
+        "totalExp": 40,
+        "soraBonus": "Auto Master"
+      },
+      {
+        "level": 3,
+        "totalExp": 120,
+        "soraBonus": "Aerial Dodge LV1"
+      },
+      {
+        "level": 4,
+        "totalExp": 260,
+        "soraBonus": "Air Combo Plus"
+      },
+      {
+        "level": 5,
+        "totalExp": 484,
+        "soraBonus": "Aerial Dodge LV2"
+      },
+      {
+        "level": 6,
+        "totalExp": 932,
+        "soraBonus": "Air Combo Plus"
+      },
+      {
+        "level": 7,
+        "totalExp": 1600,
+        "soraBonus": "Aerial Dodge LV3"
+      }
+    ],
+    "Final Form": [
+      {
+        "level": 1,
+        "totalExp": 0,
+        "soraBonus": "—"
+      },
+      {
+        "level": 2,
+        "totalExp": 12,
+        "soraBonus": "Auto Final"
+      },
+      {
+        "level": 3,
+        "totalExp": 36,
+        "soraBonus": "Glide LV1"
+      },
+      {
+        "level": 4,
+        "totalExp": 84,
+        "soraBonus": "Form Boost"
+      },
+      {
+        "level": 5,
+        "totalExp": 160,
+        "soraBonus": "Glide LV2"
+      },
+      {
+        "level": 6,
+        "totalExp": 293,
+        "soraBonus": "Form Boost"
+      },
+      {
+        "level": 7,
+        "totalExp": 450,
+        "soraBonus": "Glide LV3"
+      }
+    ]
+  },
+  "cupRounds": {
+    "kh2fm.cups.pain-and-panic": {
+      "source": "https://www.khwiki.com/Pain_and_Panic_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Shadow x 5; Hook Bat x 5"
+        },
+        {
+          "round": 2,
+          "enemies": "Large Body x 1; Minute Bomb x 6"
+        },
+        {
+          "round": 3,
+          "enemies": "Soldier x 2; Rabid Dog x 5"
+        },
+        {
+          "round": 4,
+          "enemies": "Shadow x 4; Hot Rod x 2"
+        },
+        {
+          "round": 5,
+          "enemies": "Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2"
+        },
+        {
+          "round": 6,
+          "enemies": "Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4"
+        },
+        {
+          "round": 7,
+          "enemies": "Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2"
+        },
+        {
+          "round": 8,
+          "enemies": "Rapid Thruster x 128"
+        },
+        {
+          "round": 9,
+          "enemies": "Creeper Plant x 4; Gargoyle Warrior x 2"
+        },
+        {
+          "round": 10,
+          "enemies": "LeonYuffie"
+        }
+      ]
+    },
+    "kh2fm.cups.pain-and-panic-paradox": {
+      "source": "https://www.khwiki.com/Pain_and_Panic_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Shadow x 5; Hook Bat x 5"
+        },
+        {
+          "round": 2,
+          "enemies": "Large Body x 1; Minute Bomb x 6"
+        },
+        {
+          "round": 3,
+          "enemies": "Soldier x 2; Rabid Dog x 5"
+        },
+        {
+          "round": 4,
+          "enemies": "Shadow x 4; Hot Rod x 2"
+        },
+        {
+          "round": 5,
+          "enemies": "Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2"
+        },
+        {
+          "round": 6,
+          "enemies": "Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4"
+        },
+        {
+          "round": 7,
+          "enemies": "Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2"
+        },
+        {
+          "round": 8,
+          "enemies": "Rapid Thruster x 128"
+        },
+        {
+          "round": 9,
+          "enemies": "Creeper Plant x 4; Gargoyle Warrior x 2"
+        },
+        {
+          "round": 10,
+          "enemies": "LeonYuffie"
+        }
+      ]
+    },
+    "kh2fm.cups.cerberus": {
+      "source": "https://www.khwiki.com/Cerberus_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Air Pirate x 2; Trick Ghost x 2"
+        },
+        {
+          "round": 2,
+          "enemies": "Driller Mole x 3; Hammer Frame x 3"
+        },
+        {
+          "round": 3,
+          "enemies": "Tornado Step x 3; Wight Knight x 3"
+        },
+        {
+          "round": 4,
+          "enemies": "Silver Rock x 4; Living Bone x 1"
+        },
+        {
+          "round": 5,
+          "enemies": "Icy Cube x 5; Shaman x 1; Fiery Globe x 5"
+        },
+        {
+          "round": 6,
+          "enemies": "Fortuneteller x 2; Aerial Knocker x 2"
+        },
+        {
+          "round": 7,
+          "enemies": "Cannon Gun x 3 Toy Soldier x 1"
+        },
+        {
+          "round": 8,
+          "enemies": "Luna Bandit x 5"
+        },
+        {
+          "round": 9,
+          "enemies": "Emerald Blues x 4; Fat Bandit x 1"
+        },
+        {
+          "round": 10,
+          "enemies": "Cerberus"
+        }
+      ]
+    },
+    "kh2fm.cups.cerberus-paradox": {
+      "source": "https://www.khwiki.com/Cerberus_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Air Pirate x 2; Trick Ghost x 2"
+        },
+        {
+          "round": 2,
+          "enemies": "Driller Mole x 3; Hammer Frame x 3"
+        },
+        {
+          "round": 3,
+          "enemies": "Tornado Step x 3; Wight Knight x 3"
+        },
+        {
+          "round": 4,
+          "enemies": "Silver Rock x 4; Living Bone x 1"
+        },
+        {
+          "round": 5,
+          "enemies": "Icy Cube x 5; Shaman x 1; Fiery Globe x 5"
+        },
+        {
+          "round": 6,
+          "enemies": "Fortuneteller x 2; Aerial Knocker x 2"
+        },
+        {
+          "round": 7,
+          "enemies": "Cannon Gun x 3 Toy Soldier x 1"
+        },
+        {
+          "round": 8,
+          "enemies": "Luna Bandit x 5"
+        },
+        {
+          "round": 9,
+          "enemies": "Emerald Blues x 4; Fat Bandit x 1"
+        },
+        {
+          "round": 10,
+          "enemies": "Cerberus"
+        }
+      ]
+    },
+    "kh2fm.cups.titan": {
+      "source": "https://www.khwiki.com/Titan_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Magnum Loader x 2; Dusk x 3"
+        },
+        {
+          "round": 2,
+          "enemies": "Morning Star x 1; Assassin x 4"
+        },
+        {
+          "round": 3,
+          "enemies": "Strafer x 4; Berserker x 2"
+        },
+        {
+          "round": 4,
+          "enemies": "Sniper x 2; Trick Ghost x 3"
+        },
+        {
+          "round": 5,
+          "enemies": "Dancer x 3; Neoshadow x 3"
+        },
+        {
+          "round": 6,
+          "enemies": "Air Pirate x 2; Dragoon x 2; Bookmaster x 1"
+        },
+        {
+          "round": 7,
+          "enemies": "Samurai x 2; Crimson Jazz x 2"
+        },
+        {
+          "round": 8,
+          "enemies": "Minute Bomb x 3; Sniper x 2; Assassin x 2"
+        },
+        {
+          "round": 9,
+          "enemies": "Devastator x 1; Dancer x 2; Berserker x 2"
+        },
+        {
+          "round": 10,
+          "enemies": "Hercules"
+        }
+      ]
+    },
+    "kh2fm.cups.titan-paradox": {
+      "source": "https://www.khwiki.com/Titan_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Magnum Loader x 2; Dusk x 3"
+        },
+        {
+          "round": 2,
+          "enemies": "Morning Star x 1; Assassin x 4"
+        },
+        {
+          "round": 3,
+          "enemies": "Strafer x 4; Berserker x 2"
+        },
+        {
+          "round": 4,
+          "enemies": "Sniper x 2; Trick Ghost x 3"
+        },
+        {
+          "round": 5,
+          "enemies": "Dancer x 3; Neoshadow x 3"
+        },
+        {
+          "round": 6,
+          "enemies": "Air Pirate x 2; Dragoon x 2; Bookmaster x 1"
+        },
+        {
+          "round": 7,
+          "enemies": "Samurai x 2; Crimson Jazz x 2"
+        },
+        {
+          "round": 8,
+          "enemies": "Minute Bomb x 3; Sniper x 2; Assassin x 2"
+        },
+        {
+          "round": 9,
+          "enemies": "Devastator x 1; Dancer x 2; Berserker x 2"
+        },
+        {
+          "round": 10,
+          "enemies": "Hercules"
+        }
+      ]
+    },
+    "kh2fm.cups.goddess-of-fate": {
+      "source": "https://www.khwiki.com/Goddess_of_Fate_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Morning Star x 5; Emerald Blues x 2 Sniper x 2"
+        },
+        {
+          "round": 2,
+          "enemies": "Hammer Frame x 3; Living Bone x 1"
+        },
+        {
+          "round": 3,
+          "enemies": "Creeper Plant x 3; Toy Soldier x 1"
+        },
+        {
+          "round": 4,
+          "enemies": "Nightwalker x 2; Crimson Jazz x 2"
+        },
+        {
+          "round": 5,
+          "enemies": "Shaman x 4; Assassin x 2; Devastator x 3"
+        },
+        {
+          "round": 6,
+          "enemies": "Fat Bandit x 1; Large Body x 1"
+        },
+        {
+          "round": 7,
+          "enemies": "Lance Soldier x 2 Assault Rider x 2"
+        },
+        {
+          "round": 8,
+          "enemies": "Rapid Thruster x ?"
+        },
+        {
+          "round": 9,
+          "enemies": "Bolt Tower x 2; Hot Rod x 2"
+        },
+        {
+          "round": 10,
+          "enemies": "HadesHammer Frame x ?"
+        }
+      ]
+    },
+    "kh2fm.cups.hades-paradox": {
+      "source": "https://www.khwiki.com/Hades_Paradox_Cup",
+      "rounds": [
+        {
+          "round": 1,
+          "enemies": "Shadow x 3; Soldier x 3"
+        },
+        {
+          "round": 2,
+          "enemies": "Driller Mole x 4; Hook Bats x 2"
+        },
+        {
+          "round": 3,
+          "enemies": "Rapid Thruster x 3; Surveillance Robot x 2"
+        },
+        {
+          "round": 4,
+          "enemies": "Rabid Dogs x 5; Creeper Plant x 2"
+        },
+        {
+          "round": 5,
+          "enemies": "Volcanic LordSoldier x 2"
+        },
+        {
+          "round": 6,
+          "enemies": "Cannon Gun x 3; Silver Rock x 2"
+        },
+        {
+          "round": 7,
+          "enemies": "Icy Cubes x 3; Shadow x 4 Minute Bombs x ?"
+        },
+        {
+          "round": 8,
+          "enemies": "Soldier x ?Silver Rock x ?Armored Knights x 4; Large Body x 1"
+        },
+        {
+          "round": 9,
+          "enemies": "Creepers x 4; Samurai x 1"
+        },
+        {
+          "round": 10,
+          "enemies": "Yuffie Tifa"
+        },
+        {
+          "round": 11,
+          "enemies": "Rapid Thruster x 5; Aeroplane x 3"
+        },
+        {
+          "round": 12,
+          "enemies": "Minute Bomb x 4; Magnum Loader x 1; Air Pirate x 2"
+        },
+        {
+          "round": 13,
+          "enemies": "Luna Bandit x 3; Driller Mole x 2"
+        },
+        {
+          "round": 14,
+          "enemies": "Lance Soldier x 2; Armored Knights x 2; Tornado Step x 2"
+        },
+        {
+          "round": 15,
+          "enemies": "Blizzard Lord"
+        },
+        {
+          "round": 16,
+          "enemies": "Soldier x 4; Wight Knight x 2"
+        },
+        {
+          "round": 17,
+          "enemies": "Strafer x 4 Neoshadow x 4; Aerial Knocker x 4"
+        },
+        {
+          "round": 18,
+          "enemies": "Luna Bandit x 2; Air Pirate x 2; Creeper Plant x 3; Wight Knight x 3"
+        },
+        {
+          "round": 19,
+          "enemies": "Dusk x 2; Assassin x 2; Dragoon x 1"
+        },
+        {
+          "round": 20,
+          "enemies": "Pete"
+        },
+        {
+          "round": 21,
+          "enemies": "Gargoyle Knight x 3; Armored Knight x 3"
+        },
+        {
+          "round": 22,
+          "enemies": "Fortuneteller x 2; Aeroplane x 1; Trick Ghost x 2"
+        },
+        {
+          "round": 23,
+          "enemies": "Soldier x 2; Creeper Plant x 2; Shaman x 2"
+        },
+        {
+          "round": 24,
+          "enemies": "Bulky Vendor x 3"
+        },
+        {
+          "round": 25,
+          "enemies": "CloudTifa"
+        },
+        {
+          "round": 26,
+          "enemies": "Bolt Tower x 2; Hammer Frame x 2; Neoshadow x 1"
+        },
+        {
+          "round": 27,
+          "enemies": "Gargoyle Warrior x 2 Rabid Dog x 4; Nightwalker x 4"
+        },
+        {
+          "round": 28,
+          "enemies": "Bookmaster x 2; Emerald Blues x 4; Shaman x 4; Silver Rock x 3"
+        },
+        {
+          "round": 29,
+          "enemies": "Sniper x 2; Gambler x 2"
+        },
+        {
+          "round": 30,
+          "enemies": "Hades"
+        },
+        {
+          "round": 31,
+          "enemies": "Samurai x 2; Berserker x 1; Creeper x 2"
+        },
+        {
+          "round": 32,
+          "enemies": "Dancer x 3; Water Clone x 3"
+        },
+        {
+          "round": 33,
+          "enemies": "Samurai x 4"
+        },
+        {
+          "round": 34,
+          "enemies": "Sorcerer x 2"
+        },
+        {
+          "round": 35,
+          "enemies": "Rapid Thruster x ?"
+        },
+        {
+          "round": 36,
+          "enemies": "Berserker x 3"
+        },
+        {
+          "round": 37,
+          "enemies": "Sniper x 2; Assassin x 3; Dragoon x 4"
+        },
+        {
+          "round": 38,
+          "enemies": "Dusk x 6; Samurai x 3; Dancer x 3; Gambler x 4; Sorcerer x 1"
+        },
+        {
+          "round": 39,
+          "enemies": "Dragoon x 4"
+        },
+        {
+          "round": 40,
+          "enemies": "Leon Cloud"
+        },
+        {
+          "round": 41,
+          "enemies": "Toy Soldier x 2; Graveyard x 2"
+        },
+        {
+          "round": 42,
+          "enemies": "Living Bone x 2; Fortuneteller x 1"
+        },
+        {
+          "round": 43,
+          "enemies": "Morning Star x 2; Large Body x 2"
+        },
+        {
+          "round": 44,
+          "enemies": "Living Bone x 3"
+        },
+        {
+          "round": 45,
+          "enemies": "Armored Knight x ?Surveillance Robot x ?"
+        },
+        {
+          "round": 46,
+          "enemies": "Hot Rod x 2; Devastator x 1"
+        },
+        {
+          "round": 47,
+          "enemies": "Bulky Vendor x 1; Lance Soldier x 2; Living Bone x 1; Emerald Blues x 2; Assault Rider x 2; Morning Star x 3; Crescendo x 5"
+        },
+        {
+          "round": 48,
+          "enemies": "Cerberus"
+        },
+        {
+          "round": 49,
+          "enemies": "LeonCloudYuffieTifa"
+        },
+        {
+          "round": 50,
+          "enemies": "Hades"
+        }
+      ]
+    }
+  },
+  "mapIndex": [
+    {
+      "name": "Tower Map",
+      "entryId": "kh2fm.treasure.twilight-town.21",
+      "world": "Twilight Town",
+      "acquisition": "Chest at the Tower: Sorcerer's Loft"
+    },
+    {
+      "name": "Twilight Town Map",
+      "entryId": "kh2fm.maps.twilight-town-map",
+      "world": "Twilight Town",
+      "acquisition": "Obtained from Hayner in the Back Alley during Roxas's 2nd day"
+    },
+    {
+      "name": "Mansion Map",
+      "entryId": "kh2fm.maps.mansion-map",
+      "world": "Twilight Town",
+      "acquisition": "Obtained from Naminé in Mansion: The White Room during Roxas's 6th day."
+    },
+    {
+      "name": "Castle Perimeter Map",
+      "entryId": "kh2fm.treasure.radiant-garden.06",
+      "world": "Radiant Garden",
+      "acquisition": "Chest at the Postern"
+    },
+    {
+      "name": "The Great Maw Map",
+      "entryId": "kh2fm.treasure.radiant-garden.18",
+      "world": "Radiant Garden",
+      "acquisition": "Chest at the Crystal Fissure"
+    },
+    {
+      "name": "Marketplace Map",
+      "entryId": "kh2fm.maps.marketplace-map",
+      "world": "Radiant Garden",
+      "acquisition": "Obtained from Yuffie at the Borough"
+    },
+    {
+      "name": "Dark Remembrance Map",
+      "entryId": "kh2fm.treasure.radiant-garden.34",
+      "world": "Radiant Garden",
+      "acquisition": "Chest at the Cavern of Remembrance: Mining Area"
+    },
+    {
+      "name": "Depths of Remembrance Map",
+      "entryId": "kh2fm.treasure.radiant-garden.41",
+      "world": "Radiant Garden",
+      "acquisition": "Chest at the Cavern of Remembrance: Mineshaft"
+    },
+    {
+      "name": "Garden of Assemblage Map",
+      "entryId": "kh2fm.treasure.radiant-garden.44",
+      "world": "Radiant Garden",
+      "acquisition": "Chest at the Garden of Assemblage"
+    },
+    {
+      "name": "Palace Map",
+      "entryId": "kh2fm.treasure.the-land-of-dragons.15",
+      "world": "The Land of Dragons",
+      "acquisition": "Chest at the Throne Room"
+    },
+    {
+      "name": "Encampment Area Map",
+      "entryId": "kh2fm.maps.encampment-area-map",
+      "world": "The Land of Dragons",
+      "acquisition": "Obtained from Li-Shang at the Encampment"
+    },
+    {
+      "name": "Village Area Map",
+      "entryId": "kh2fm.maps.village-area-map",
+      "world": "The Land of Dragons",
+      "acquisition": "Obtained from Mushu at the Village"
+    },
+    {
+      "name": "Castle Map",
+      "entryId": "kh2fm.treasure.beast-s-castle.04",
+      "world": "Beast's Castle",
+      "acquisition": "Chest at Belle's Room"
+    },
+    {
+      "name": "Basement Map",
+      "entryId": "kh2fm.treasure.beast-s-castle.14",
+      "world": "Beast's Castle",
+      "acquisition": "Chest at the Dungeon"
+    },
+    {
+      "name": "Castle Walls Map",
+      "entryId": "kh2fm.maps.castle-walls-map",
+      "world": "Beast's Castle",
+      "acquisition": "Obtained from Beast in The Beast's Room during the 2nd visit"
+    },
+    {
+      "name": "Underworld Map",
+      "entryId": "kh2fm.treasure.olympus-coliseum.07",
+      "world": "Olympus Coliseum",
+      "acquisition": "Chest at the Cave of the Dead: Inner Chamber"
+    },
+    {
+      "name": "Caverns Map",
+      "entryId": "kh2fm.treasure.olympus-coliseum.18",
+      "world": "Olympus Coliseum",
+      "acquisition": "Chest at The Lock"
+    },
+    {
+      "name": "Coliseum Map",
+      "entryId": "kh2fm.maps.coliseum-map",
+      "world": "Olympus Coliseum",
+      "acquisition": "Obtained from Hercules at the Coliseum Foyer"
+    },
+    {
+      "name": "Disney Castle Map",
+      "entryId": "kh2fm.maps.disney-castle-map",
+      "world": "Disney Castle",
+      "acquisition": "Obtained from Queen Minnie at the Library"
+    },
+    {
+      "name": "Cornerstone Hill Map",
+      "entryId": "kh2fm.treasure.timeless-river.01",
+      "world": "Timeless River",
+      "acquisition": "Chest at Cornerstone Hill"
+    },
+    {
+      "name": "Window of Time Map",
+      "entryId": "kh2fm.maps.window-of-time-map",
+      "world": "Timeless River",
+      "acquisition": "Obtained from Pete at Cornerstone Hill"
+    },
+    {
+      "name": "Naval Map",
+      "entryId": "kh2fm.treasure.port-royal.01",
+      "world": "Port Royal",
+      "acquisition": "Chest at the Rampart"
+    },
+    {
+      "name": "Isla de Muerta Map",
+      "entryId": "kh2fm.maps.isla-de-muerta-map",
+      "world": "Port Royal",
+      "acquisition": "Obtain after fighting the Undead Pirates at Isla de Muerta: Rock Face"
+    },
+    {
+      "name": "Ship Graveyard Map",
+      "entryId": "kh2fm.maps.ship-graveyard-map",
+      "world": "Port Royal",
+      "acquisition": "Obtained after defeating the Gambler and obtaining the Cursed Medallion at Ship Graveyard: Seadrift Keep"
+    },
+    {
+      "name": "Cave of Wonders Map",
+      "entryId": "kh2fm.treasure.agrabah.21",
+      "world": "Agrabah",
+      "acquisition": "Chest at The Cave of Wonders: Chasm of Challenges"
+    },
+    {
+      "name": "Ruins Map",
+      "entryId": "kh2fm.treasure.agrabah.26",
+      "world": "Agrabah",
+      "acquisition": "Chest at Ruined Chamber"
+    },
+    {
+      "name": "Agrabah Map",
+      "entryId": "kh2fm.maps.agrabah-map",
+      "world": "Agrabah",
+      "acquisition": "Obtained from Iago at The Peddler's Shop"
+    },
+    {
+      "name": "Halloween Town Map",
+      "entryId": "kh2fm.treasure.halloween-town.03",
+      "world": "Halloween Town",
+      "acquisition": "Chest at Dr. Finkelstein's Lab"
+    },
+    {
+      "name": "Christmas Town Map",
+      "entryId": "kh2fm.treasure.halloween-town.13",
+      "world": "Halloween Town",
+      "acquisition": "Chest at Santa's House"
+    },
+    {
+      "name": "Savannah Map",
+      "entryId": "kh2fm.treasure.pride-lands.01",
+      "world": "Pride Lands",
+      "acquisition": "Chest at the Gorge"
+    },
+    {
+      "name": "Pride Rock Map",
+      "entryId": "kh2fm.treasure.pride-lands.09",
+      "world": "Pride Lands",
+      "acquisition": "Chest at Pride Rock"
+    },
+    {
+      "name": "Oasis Map",
+      "entryId": "kh2fm.treasure.pride-lands.23",
+      "world": "Pride Lands",
+      "acquisition": "Chest at the Oasis"
+    },
+    {
+      "name": "Pit Cell Area Map",
+      "entryId": "kh2fm.treasure.space-paranoids.01",
+      "world": "Space Paranoids",
+      "acquisition": "Chest at the Pit Cell"
+    },
+    {
+      "name": "I/O Tower Map",
+      "entryId": "kh2fm.treasure.space-paranoids.09",
+      "world": "Space Paranoids",
+      "acquisition": "Chest at the I/O Tower: Communications Room"
+    },
+    {
+      "name": "Central Computer Core Map",
+      "entryId": "kh2fm.treasure.space-paranoids.14",
+      "world": "Space Paranoids",
+      "acquisition": "Chest at the Central Computer Mesa"
+    },
+    {
+      "name": "100 Acre Wood Map",
+      "entryId": "kh2fm.treasure.100-acre-wood.01",
+      "world": "100 Acre Wood",
+      "acquisition": "Chest at Pooh Bear's House"
+    },
+    {
+      "name": "Spooky Cave Map",
+      "entryId": "kh2fm.maps.spooky-cave-map",
+      "world": "100 Acre Wood",
+      "acquisition": "Obtained after completing The Expotition"
+    },
+    {
+      "name": "Undersea Kingdom Map",
+      "entryId": "kh2fm.maps.undersea-kingdom-map",
+      "world": "Atlantica",
+      "acquisition": "Obtained after completing Swim This Way"
+    },
+    {
+      "name": "Dark City Map",
+      "entryId": "kh2fm.treasure.the-world-that-never-was.08",
+      "world": "The World That Never Was",
+      "acquisition": "Chest at The Brink of Despair"
+    },
+    {
+      "name": "Castle That Never Was Map",
+      "entryId": "kh2fm.maps.castle-that-never-was-map",
+      "world": "The World That Never Was",
+      "acquisition": "Obtain after talking with Kairi"
+    }
+  ],
+  "recipeDocuments": [
+    {
+      "name": "Mega Recipe",
+      "entryId": "kh2fm.treasure.beast-s-castle.05",
+      "baseOutput": "Mega-Potion"
+    },
+    {
+      "name": "Star Recipe",
+      "entryId": "kh2fm.treasure.disney-castle.02",
+      "baseOutput": "Elixir"
+    },
+    {
+      "name": "Recovery Recipe",
+      "entryId": "kh2fm.treasure.the-land-of-dragons.07",
+      "baseOutput": "Drive Recovery"
+    },
+    {
+      "name": "Skill Recipe",
+      "entryId": "kh2fm.treasure.radiant-garden.13",
+      "baseOutput": "AP Boost"
+    },
+    {
+      "name": "Guard Recipe",
+      "entryId": "kh2fm.treasure.100-acre-wood.16",
+      "baseOutput": "Defense Boost"
+    },
+    {
+      "name": "Style Recipe",
+      "entryId": "kh2fm.treasure.100-acre-wood.20",
+      "baseOutput": "Petite Ribbon"
+    },
+    {
+      "name": "Moon Recipe",
+      "entryId": "kh2fm.treasure.radiant-garden.15",
+      "baseOutput": "Moon Amulet"
+    },
+    {
+      "name": "Queen Recipe",
+      "entryId": "kh2fm.treasure.the-land-of-dragons.17",
+      "baseOutput": "Save the Queen"
+    },
+    {
+      "name": "King Recipe",
+      "entryId": "kh2fm.treasure.port-royal.20",
+      "baseOutput": "Save the King"
+    },
+    {
+      "name": "Ultimate Recipe",
+      "entryId": "kh2fm.treasure.twilight-town.39",
+      "baseOutput": "Ultima Weapon"
+    },
+    {
+      "name": "Book of Shadows",
+      "entryId": "kh2fm.challenges.absent-silhouette-zexion",
+      "baseOutput": "Shadow Archive"
+    },
+    {
+      "name": "Cloaked Thunder",
+      "entryId": "kh2fm.challenges.absent-silhouette-larxene",
+      "baseOutput": "Shock Charm"
+    },
+    {
+      "name": "Strength Beyond Strength",
+      "entryId": "kh2fm.challenges.absent-silhouette-lexaeus",
+      "baseOutput": "Centurion"
+    },
+    {
+      "name": "Road to Discovery",
+      "entryId": "kh2fm.challenges.absent-silhouette-vexen",
+      "baseOutput": "Frozen Pride"
+    },
+    {
+      "name": "Eternal Blossom",
+      "entryId": "kh2fm.challenges.absent-silhouette-marluxia",
+      "baseOutput": "Full Bloom"
+    },
+    {
+      "name": "Rare Document",
+      "entryId": "kh2fm.assembly.duality-assembly",
+      "baseOutput": "Draw Ring"
+    }
+  ],
+  "collectorGoals": [
+    {
+      "id": 48750,
+      "rewardId": 4,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 1,
+      "event": 0,
+      "reward": "Elixir",
+      "goal": "Deposit 1 different material types"
+    },
+    {
+      "id": 48751,
+      "rewardId": 0,
+      "rewardType": 1,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 5,
+      "event": 0,
+      "reward": "Free Development set 1",
+      "goal": "Deposit 5 different material types"
+    },
+    {
+      "id": 48752,
+      "rewardId": 279,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 10,
+      "event": 0,
+      "reward": "AP Boost",
+      "goal": "Deposit 10 different material types"
+    },
+    {
+      "id": 48753,
+      "rewardId": 7,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 15,
+      "event": 0,
+      "reward": "Megalixir",
+      "goal": "Deposit 15 different material types"
+    },
+    {
+      "id": 48754,
+      "rewardId": 1,
+      "rewardType": 1,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 20,
+      "event": 0,
+      "reward": "Free Development set 2",
+      "goal": "Deposit 20 different material types"
+    },
+    {
+      "id": 48755,
+      "rewardId": 279,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 25,
+      "event": 0,
+      "reward": "AP Boost",
+      "goal": "Deposit 25 different material types"
+    },
+    {
+      "id": 48756,
+      "rewardId": 278,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 30,
+      "event": 0,
+      "reward": "Defense Boost",
+      "goal": "Deposit 30 different material types"
+    },
+    {
+      "id": 48757,
+      "rewardId": 279,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 35,
+      "event": 0,
+      "reward": "AP Boost",
+      "goal": "Deposit 35 different material types"
+    },
+    {
+      "id": 48758,
+      "rewardId": 276,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 40,
+      "event": 0,
+      "reward": "Power Boost",
+      "goal": "Deposit 40 different material types"
+    },
+    {
+      "id": 48759,
+      "rewardId": 279,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 45,
+      "event": 0,
+      "reward": "AP Boost",
+      "goal": "Deposit 45 different material types"
+    },
+    {
+      "id": 53451,
+      "rewardId": 277,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 50,
+      "event": 0,
+      "reward": "Magic Boost",
+      "goal": "Deposit 50 different material types"
+    },
+    {
+      "id": 53452,
+      "rewardId": 377,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 1,
+      "count": 55,
+      "event": 0,
+      "reward": "Orichalcum",
+      "goal": "Deposit 55 different material types"
+    },
+    {
+      "id": 48760,
+      "rewardId": 361,
+      "rewardType": 0,
+      "materialType": 15,
+      "rank": 4,
+      "condition": 1,
+      "count": 60,
+      "event": 0,
+      "reward": "Orichalcum+",
+      "goal": "Deposit all 60 material types"
+    },
+    {
+      "id": 48761,
+      "rewardId": 357,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 0,
+      "count": 50,
+      "event": 0,
+      "reward": "Serenity Shard",
+      "goal": "Deposit 50 materials in total"
+    },
+    {
+      "id": 48762,
+      "rewardId": 358,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 0,
+      "count": 100,
+      "event": 0,
+      "reward": "Serenity Stone",
+      "goal": "Deposit 100 materials in total"
+    },
+    {
+      "id": 48763,
+      "rewardId": 359,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 0,
+      "count": 250,
+      "event": 0,
+      "reward": "Serenity Gem",
+      "goal": "Deposit 250 materials in total"
+    },
+    {
+      "id": 48764,
+      "rewardId": 360,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 0,
+      "count": 500,
+      "event": 0,
+      "reward": "Serenity Crystal",
+      "goal": "Deposit 500 materials in total"
+    },
+    {
+      "id": 48765,
+      "rewardId": 377,
+      "rewardType": 0,
+      "materialType": 16,
+      "rank": 5,
+      "condition": 0,
+      "count": 1000,
+      "event": 0,
+      "reward": "Orichalcum",
+      "goal": "Deposit 1000 materials in total"
+    },
+    {
+      "id": 48766,
+      "rewardId": 359,
+      "rewardType": 0,
+      "materialType": 6,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Serenity Gem",
+      "goal": "Deposit all four Dense materials"
+    },
+    {
+      "id": 48767,
+      "rewardId": 360,
+      "rewardType": 0,
+      "materialType": 7,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Serenity Crystal",
+      "goal": "Deposit all four Twilight materials"
+    },
+    {
+      "id": 48768,
+      "rewardId": 279,
+      "rewardType": 0,
+      "materialType": 8,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "AP Boost",
+      "goal": "Deposit all four Mythril materials"
+    },
+    {
+      "id": 53453,
+      "rewardId": 360,
+      "rewardType": 0,
+      "materialType": 13,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Serenity Crystal",
+      "goal": "Deposit all four Remembrance materials"
+    },
+    {
+      "id": 53454,
+      "rewardId": 360,
+      "rewardType": 0,
+      "materialType": 14,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Serenity Crystal",
+      "goal": "Deposit all four Tranquility materials"
+    },
+    {
+      "id": 48769,
+      "rewardId": 278,
+      "rewardType": 0,
+      "materialType": 9,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Defense Boost",
+      "goal": "Deposit all four Bright materials"
+    },
+    {
+      "id": 48770,
+      "rewardId": 276,
+      "rewardType": 0,
+      "materialType": 10,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Power Boost",
+      "goal": "Deposit all four Energy materials"
+    },
+    {
+      "id": 48771,
+      "rewardId": 277,
+      "rewardType": 0,
+      "materialType": 11,
+      "rank": 4,
+      "condition": 1,
+      "count": 4,
+      "event": 0,
+      "reward": "Magic Boost",
+      "goal": "Deposit all four Serenity materials"
+    },
+    {
+      "id": 48772,
+      "rewardId": 357,
+      "rewardType": 0,
+      "materialType": 15,
+      "rank": 0,
+      "condition": 1,
+      "count": 14,
+      "event": 0,
+      "reward": "Serenity Shard",
+      "goal": "Deposit all 14 rank C materials"
+    },
+    {
+      "id": 48773,
+      "rewardId": 358,
+      "rewardType": 0,
+      "materialType": 15,
+      "rank": 1,
+      "condition": 1,
+      "count": 14,
+      "event": 0,
+      "reward": "Serenity Stone",
+      "goal": "Deposit all 14 rank B materials"
+    },
+    {
+      "id": 48774,
+      "rewardId": 585,
+      "rewardType": 0,
+      "materialType": 15,
+      "rank": 2,
+      "condition": 1,
+      "count": 16,
+      "event": 0,
+      "reward": "Manifest Illusion",
+      "goal": "Deposit all 16 rank A materials"
+    },
+    {
+      "id": 48775,
+      "rewardId": 584,
+      "rewardType": 0,
+      "materialType": 15,
+      "rank": 3,
+      "condition": 1,
+      "count": 16,
+      "event": 0,
+      "reward": "Lost Illusion",
+      "goal": "Deposit all 16 rank S materials"
+    },
+    {
+      "id": 48777,
+      "rewardId": 23,
+      "rewardType": 1,
+      "materialType": 1,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 76,
+      "reward": "Unlimited Blazing Shard purchases",
+      "goal": "Deposit 30 Blazing Shards"
+    },
+    {
+      "id": 48785,
+      "rewardId": 24,
+      "rewardType": 1,
+      "materialType": 1,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 77,
+      "reward": "Unlimited Blazing Stone purchases",
+      "goal": "Deposit 25 Blazing Stones"
+    },
+    {
+      "id": 48793,
+      "rewardId": 25,
+      "rewardType": 1,
+      "materialType": 1,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 78,
+      "reward": "Unlimited Blazing Gem purchases",
+      "goal": "Deposit 20 Blazing Gems"
+    },
+    {
+      "id": 48778,
+      "rewardId": 26,
+      "rewardType": 1,
+      "materialType": 2,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 79,
+      "reward": "Unlimited Frost Shard purchases",
+      "goal": "Deposit 30 Frost Shards"
+    },
+    {
+      "id": 48786,
+      "rewardId": 27,
+      "rewardType": 1,
+      "materialType": 2,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 80,
+      "reward": "Unlimited Frost Stone purchases",
+      "goal": "Deposit 25 Frost Stones"
+    },
+    {
+      "id": 48794,
+      "rewardId": 28,
+      "rewardType": 1,
+      "materialType": 2,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 81,
+      "reward": "Unlimited Frost Gem purchases",
+      "goal": "Deposit 20 Frost Gems"
+    },
+    {
+      "id": 48779,
+      "rewardId": 29,
+      "rewardType": 1,
+      "materialType": 3,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 82,
+      "reward": "Unlimited Lightning Shard purchases",
+      "goal": "Deposit 30 Lightning Shards"
+    },
+    {
+      "id": 48787,
+      "rewardId": 20,
+      "rewardType": 1,
+      "materialType": 3,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 83,
+      "reward": "Unlimited Lightning Stone purchases",
+      "goal": "Deposit 25 Lightning Stones"
+    },
+    {
+      "id": 48795,
+      "rewardId": 31,
+      "rewardType": 1,
+      "materialType": 3,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 84,
+      "reward": "Unlimited Lightning Gem purchases",
+      "goal": "Deposit 20 Lightning Gems"
+    },
+    {
+      "id": 48781,
+      "rewardId": 35,
+      "rewardType": 1,
+      "materialType": 5,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 88,
+      "reward": "Unlimited Lucid Shard purchases",
+      "goal": "Deposit 30 Lucid Shards"
+    },
+    {
+      "id": 48789,
+      "rewardId": 36,
+      "rewardType": 1,
+      "materialType": 5,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 89,
+      "reward": "Unlimited Lucid Stone purchases",
+      "goal": "Deposit 25 Lucid Stones"
+    },
+    {
+      "id": 48797,
+      "rewardId": 37,
+      "rewardType": 1,
+      "materialType": 5,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 90,
+      "reward": "Unlimited Lucid Gem purchases",
+      "goal": "Deposit 20 Lucid Gems"
+    },
+    {
+      "id": 48780,
+      "rewardId": 32,
+      "rewardType": 1,
+      "materialType": 4,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 85,
+      "reward": "Unlimited Power Shard purchases",
+      "goal": "Deposit 30 Power Shards"
+    },
+    {
+      "id": 48788,
+      "rewardId": 33,
+      "rewardType": 1,
+      "materialType": 4,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 86,
+      "reward": "Unlimited Power Stone purchases",
+      "goal": "Deposit 25 Power Stones"
+    },
+    {
+      "id": 48796,
+      "rewardId": 34,
+      "rewardType": 1,
+      "materialType": 4,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 87,
+      "reward": "Unlimited Power Gem purchases",
+      "goal": "Deposit 20 Power Gems"
+    },
+    {
+      "id": 48776,
+      "rewardId": 20,
+      "rewardType": 1,
+      "materialType": 0,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 73,
+      "reward": "Unlimited Dark Shard purchases",
+      "goal": "Deposit 30 Dark Shards"
+    },
+    {
+      "id": 48784,
+      "rewardId": 21,
+      "rewardType": 1,
+      "materialType": 0,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 74,
+      "reward": "Unlimited Dark Stone purchases",
+      "goal": "Deposit 25 Dark Stones"
+    },
+    {
+      "id": 48792,
+      "rewardId": 22,
+      "rewardType": 1,
+      "materialType": 0,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 75,
+      "reward": "Unlimited Dark Gem purchases",
+      "goal": "Deposit 20 Dark Gems"
+    },
+    {
+      "id": 48782,
+      "rewardId": 38,
+      "rewardType": 1,
+      "materialType": 6,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 91,
+      "reward": "Unlimited Dense Shard purchases",
+      "goal": "Deposit 30 Dense Shards"
+    },
+    {
+      "id": 48790,
+      "rewardId": 39,
+      "rewardType": 1,
+      "materialType": 6,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 92,
+      "reward": "Unlimited Dense Stone purchases",
+      "goal": "Deposit 25 Dense Stones"
+    },
+    {
+      "id": 48798,
+      "rewardId": 40,
+      "rewardType": 1,
+      "materialType": 6,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 93,
+      "reward": "Unlimited Dense Gem purchases",
+      "goal": "Deposit 20 Dense Gems"
+    },
+    {
+      "id": 48783,
+      "rewardId": 41,
+      "rewardType": 1,
+      "materialType": 7,
+      "rank": 0,
+      "condition": 0,
+      "count": 30,
+      "event": 94,
+      "reward": "Unlimited Twilight Shard purchases",
+      "goal": "Deposit 30 Twilight Shards"
+    },
+    {
+      "id": 48791,
+      "rewardId": 42,
+      "rewardType": 1,
+      "materialType": 7,
+      "rank": 1,
+      "condition": 0,
+      "count": 25,
+      "event": 95,
+      "reward": "Unlimited Twilight Stone purchases",
+      "goal": "Deposit 25 Twilight Stones"
+    },
+    {
+      "id": 48799,
+      "rewardId": 43,
+      "rewardType": 1,
+      "materialType": 7,
+      "rank": 2,
+      "condition": 0,
+      "count": 20,
+      "event": 96,
+      "reward": "Unlimited Twilight Gem purchases",
+      "goal": "Deposit 20 Twilight Gems"
+    }
+  ],
+  "materialRanks": {
+    "Blazing Shard": "C",
+    "Blazing Stone": "B",
+    "Blazing Gem": "A",
+    "Blazing Crystal": "S",
+    "Frost Shard": "C",
+    "Frost Stone": "B",
+    "Frost Gem": "A",
+    "Frost Crystal": "S",
+    "Lightning Shard": "C",
+    "Lightning Stone": "B",
+    "Lightning Gem": "A",
+    "Lightning Crystal": "S",
+    "Lucid Shard": "C",
+    "Lucid Stone": "B",
+    "Lucid Gem": "A",
+    "Lucid Crystal": "S",
+    "Power Shard": "C",
+    "Power Stone": "B",
+    "Power Gem": "A",
+    "Power Crystal": "S",
+    "Dark Shard": "C",
+    "Dark Stone": "B",
+    "Dark Gem": "A",
+    "Dark Crystal": "S",
+    "Dense Shard": "C",
+    "Dense Stone": "B",
+    "Dense Gem": "A",
+    "Dense Crystal": "S",
+    "Twilight Shard": "C",
+    "Twilight Stone": "B",
+    "Twilight Gem": "A",
+    "Twilight Crystal": "S",
+    "Mythril Shard": "C",
+    "Mythril Stone": "B",
+    "Mythril Gem": "A",
+    "Mythril Crystal": "S",
+    "Bright Shard": "C",
+    "Bright Stone": "B",
+    "Bright Gem": "A",
+    "Bright Crystal": "S",
+    "Energy Shard": "C",
+    "Energy Stone": "B",
+    "Energy Gem": "A",
+    "Energy Crystal": "S",
+    "Serenity Shard": "C",
+    "Serenity Stone": "B",
+    "Serenity Gem": "A",
+    "Serenity Crystal": "S",
+    "Orichalcum": "A",
+    "Orichalcum+": "S",
+    "Remembrance Shard": "C",
+    "Remembrance Stone": "B",
+    "Remembrance Gem": "A",
+    "Remembrance Crystal": "S",
+    "Tranquility Shard": "C",
+    "Tranquility Stone": "B",
+    "Tranquility Gem": "A",
+    "Tranquility Crystal": "S",
+    "Manifest Illusion": "A",
+    "Lost Illusion": "S"
+  },
+  "recipeMenuReconciliation": {
+    "source": "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis.bin",
+    "format": "https://openkh.dev/kh2/file/type/mixdata.html",
+    "rows": [
+      {
+        "base": "Drive Recovery",
+        "upgrade": "High Drive Recovery",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Elixir",
+        "upgrade": "Megalixir",
+        "rank": "A",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Mega-Potion",
+        "upgrade": "Mega-Ether",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "AP Boost",
+        "upgrade": "Magic Boost",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Defense Boost",
+        "upgrade": "Power Boost",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Moon Amulet",
+        "upgrade": "Star Charm",
+        "rank": "A",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Petite Ribbon",
+        "upgrade": "Ribbon",
+        "rank": "A",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Save the Queen",
+        "upgrade": "Save the Queen+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Centurion",
+        "upgrade": "Centurion+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Frozen Pride",
+        "upgrade": "Frozen Pride+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Save the King",
+        "upgrade": "Save the King+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Ultima Weapon",
+        "upgrade": "—",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Firaga Bangle",
+        "upgrade": "Firagun Bangle",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Blizzaga Armlet",
+        "upgrade": "Blizzagun Armlet",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Thundaga Trinket",
+        "upgrade": "Thundagun Trinket",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Shock Charm",
+        "upgrade": "Shock Charm+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Full Bloom",
+        "upgrade": "Full Bloom+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Shadow Archive",
+        "upgrade": "Shadow Archive+",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Garnet Ring",
+        "upgrade": "Diamond Ring",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Mythril Ring",
+        "upgrade": "Orichalcum Ring",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Midnight Anklet",
+        "upgrade": "Chaos Anklet",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 1
+      },
+      {
+        "base": "Acrisius",
+        "upgrade": "Acrisius+",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Power Band",
+        "upgrade": "Buster Band",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Soldier Earring",
+        "upgrade": "Fencer Earring",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Mage Earring",
+        "upgrade": "Slayer Earring",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Expert's Ring",
+        "upgrade": "Master's Ring",
+        "rank": "A",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Draw Ring",
+        "upgrade": "Lucky Ring",
+        "rank": "S",
+        "ingredientsMatch": true,
+        "unlockClass": 0
+      },
+      {
+        "base": "Mythril Shard",
+        "upgrade": "Mythril Stone",
+        "rank": "C",
+        "ingredientsMatch": true,
+        "unlockClass": 2
+      },
+      {
+        "base": "Mythril Gem",
+        "upgrade": "Mythril Crystal",
+        "rank": "B",
+        "ingredientsMatch": true,
+        "unlockClass": 3
+      },
+      {
+        "base": "Serenity Crystal",
+        "upgrade": "Manifest Illusion",
+        "rank": "A",
+        "ingredientsMatch": true,
+        "unlockClass": 3
+      }
+    ],
+    "count": 30,
+    "outputCount": 59,
+    "limitations": "Randomizer input template, not a personal retail extraction. Serenity modifiers corroborated from item/FM tables; they are not explicit MIRE fields."
+  },
+  "summonProgressionEvidence": {
+    "reviewed": "2026-10-01",
+    "sharedExperienceUnit": "One EXP whenever the Summon Gauge drops by a whole bar",
+    "modernConfirmedMaxLevel": 7,
+    "modernConfirmedTotalExp": 250,
+    "originalReleaseCumulativeExp": [
+      0,
+      6,
+      22,
+      47,
+      89,
+      152,
+      250
+    ],
+    "originalReleaseCapsByCharmCount": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "sources": [
+      "https://www.khwiki.com/Summon",
+      "https://www.khdestiny.fr/kingdom-hearts-ii-invocations.html",
+      "https://www.neoseeker.com/kingdom-hearts2/faqs/195680-kingdom-hearts-ii-q.html",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+      "https://appmedia.jp/kh2fm/75145473",
+      "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+      "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+    ],
+    "boundary": "The full curve is corroborated by the explicitly named Final Mix fixture in OpenKH, parsed with its FormFm enum; this is source-derived repository evidence, not a fresh retail extraction. PC ReFined code separately confirms caps 2+owned charms with 6 promoted to 7. Original-release guides are supplementary, not the basis for edition parity.",
+    "finalMixCumulativeExp": [
+      0,
+      6,
+      22,
+      47,
+      89,
+      152,
+      250
+    ],
+    "finalMixCapsByCharmCount": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "finalMixFixture": {
+      "source": "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "sha256": "aff944f82d2d5ed110cb0300397c993a31e92f82475513f61dbdc6fd030b6276",
+      "format": "BaseTable header version 2, 45 eight-byte rows; <BBHi; form ID high nibble, level low nibble; FormFm.Summon=0. EXP values are per-level requirements.",
+      "form0Exp": [
+        6,
+        16,
+        25,
+        42,
+        63,
+        98,
+        0
+      ]
+    }
+  },
+  "additionalBattleEvidence": {
+    "reviewed": "2026-10-01",
+    "scope": "All five Absent Silhouettes and thirteen KHII Final Mix Data rematches; each Game page KHII/Final Mix strategy sections read, KHIII sections excluded. Controller-neutral approaches are practical strategies, not minimum-stat or guaranteed-win claims.",
+    "sources": [
+      "https://www.khwiki.com/Game:Axel",
+      "https://www.khwiki.com/Game:Demyx",
+      "https://www.khwiki.com/Game:Larxene",
+      "https://www.khwiki.com/Game:Lexaeus",
+      "https://www.khwiki.com/Game:Luxord",
+      "https://www.khwiki.com/Game:Marluxia",
+      "https://www.khwiki.com/Game:Roxas",
+      "https://www.khwiki.com/Game:Sa%C3%AFx",
+      "https://www.khwiki.com/Game:Vexen",
+      "https://www.khwiki.com/Game:Xaldin",
+      "https://www.khwiki.com/Game:Xemnas",
+      "https://www.khwiki.com/Game:Xigbar",
+      "https://www.khwiki.com/Game:Zexion"
+    ]
+  },
+  "sourceResolutions": [
+    {
+      "id": "kh2fm.treasure.disney-castle.07",
+      "decision": "Retain Mythril Shard. KHGuides current table labels both #6 and #7 Blazing Shard; rejected #7 reward only, retaining independently checked landmark. KH Wiki explicit FM table and Gamer Guides 2.5 numbered walkthrough identify #7 Mythril Shard; pinned randomizer names chest248 CourtyardMythrilShard2 and chest247 CourtyardBlazingShard.",
+      "sources": [
+        "https://www.khwiki.com/Game:Disney_Castle",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/disney-castle",
+        "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/List/location/disneycastle.py",
+        "https://www.khguides.com/kh2/collectibles/treasures/"
+      ]
+    }
+  ]
+}

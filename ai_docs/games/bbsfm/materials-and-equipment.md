@@ -1,5 +1,7 @@
 # Materials, farming and equipment
 
+Current October 1 coverage: all 42 flavor records link to 22 normalized character/event Prize Pod routes, including spawn hints and world-versus-Arena reset instructions. See [the live per-ID ledger](research-dispositions-2026-10-01.json), particularly BBS-015/016/018/019/020; complete crystal farms and ice-cream predicate certification remain partial.
+
 ## Crystals and conditional sources
 
 There are nine legacy material entries: seven deterministic ability crystals, Chaos Crystal and Secret Gem. Drop percentages below are **Shop Level** conditions, not enemy or character levels. Blank world/area data is not evidence of a farm route. The underlying workbook has no filled locations.
@@ -14,15 +16,15 @@ There are nine legacy material entries: seven deterministic ability crystals, Ch
 | Hungry Crystal | 350; Shop 1, Arena 1 | Bruiser 6% at 1–2, 7.2% at 3–5, 9.6% at 6–8; Hareraiser 3.2%; Buckle Bruiser 6% at 5 | [Hungry](https://www.khwiki.com/Hungry) |
 | Abounding Crystal | 400; Shop 4, Arena 1 | Axe Flapper 14.4%; Mandrake 4.8% at 5–6, 7.6% at 7–8 | [Abounding](https://www.khwiki.com/Abounding) |
 | Chaos Crystal | 500; Shop 5, Arena 10 | Archraven 0.3% at 7–8; also first Fantastic on Destiny Islands Master in Ice Cream Beat | [Chaos](https://www.khwiki.com/Chaos) |
-| Secret Gem | 1,500; Shop 8, Arena 15 | Flood 0.04% at 7–8; Secret Episode chest has an area conflict | [Secret Gem](https://www.khwiki.com/Secret_Gem) |
+| Secret Gem | 1,500; Shop 8, Arena 15 | Flood 0.04% at 7–8; Secret Episode chest is in Lower Zone (resolved by HD route) | [Secret Gem](https://www.khwiki.com/Secret_Gem) |
 
 October 1 correction: Spiderchest’s Fleeting drop is present only at Shop Levels 1–2; a character-specific accessible farming route is still open. The Archraven enemy table establishes Shimmering’s first band as Shop 1–4, superseding the older 2–4 transcription. See [the resolution log](research-resolution-2026-10-01.md).
 
-Medal gates: [Mirage Arena shop](https://www.khwiki.com/Game:Mirage_Arena). Chaos attaches a random ability; Secret Gem also maximizes the resulting command's level. Keep their distributions separate from the seven standard crystal/type mappings. Lucky Strike has a five-stack cap; the quantitative adjusted drop formula and enemy-world-area routes remain unverified. Do not label an unmeasured route “best.”
+Medal gates: [Mirage Arena shop](https://www.khwiki.com/Game:Mirage_Arena). Chaos attaches a random ability; Secret Gem also maximizes the resulting command's level. Keep their distributions separate from the seven standard crystal/type mappings. Lucky Strike has a five-stack cap. The [community formula](https://www.khwiki.com/Lucky_Strike) is base rate × (1 + 0.3 × enabled stacks), but that source requests BBS mechanics cleanup; independent edition certification and complete enemy-world-area routes remain open. Do not label an unmeasured route “best.”
 
 Shop Level progression is 1 initially; 2/3/4 for clearing one/two/three of Enchanted Dominion, Dwarf Woodlands and Castle of Dreams; 5 after Radiant Garden; 6/7 after one/both of Olympus Coliseum and Deep Space; 8 after Neverland. Many commands enter stock after first acquisition, independently of ordinary stock levels. [Command Shop](https://www.khwiki.com/Command_Shop).
 
-One observed shop conflict needs resolution: the Command Shop table gives Ringer Ticket as **205**, while the Mirage Arena table gives **250** for international/Final Mix. No ticket price has been certified from this comparison.
+Ringer Ticket is **250 medals**, Shop Level 1 AND Arena Level 5, for one Dead Ringer entry. Dedicated [Battle Ticket](https://www.khwiki.com/Battle_Ticket), Arena and independent item tables supersede the old Command Shop 205 value. All six ticket costs/gates are structured in `research-enrichment.json`.
 
 ## Keyblades
 
@@ -37,7 +39,7 @@ One observed shop conflict needs resolution: the Command Shop table gives Ringer
 | [Void Gear](https://www.khwiki.com/Void_Gear) | Vanitas Remnant |
 | [No Name](https://www.khwiki.com/No_Name_(KHBBS)) | Unknown; this is the obtainable BBS Keychain, not the ancient Xehanort/Luxu weapon page |
 
-Equipment is a separate collection goal; its rewards do not inflate world chest/sticker totals. BBS gear planning centers on Keyblades and command configuration; do not copy KH1's armor/accessory model into BBS. Character-specific weapon reach and passive details still require normalization.
+Equipment is a separate collection goal; its rewards do not inflate world chest/sticker totals. BBS gear planning centers on Keyblades and command configuration; do not copy KH1's armor/accessory model into BBS. Forty-eight character/episode reach records and the Royal Radiance passive are normalized in `research-enrichment.json`. Independent FM stat validation remains partial: the older Destiny Islands roster lacks FM additions and disagrees on Sweetstack/Pixie Petal values.
 
 ## Ice cream, recipes and Prize Pods
 
@@ -45,4 +47,4 @@ Equipment is a separate collection goal; its rewards do not inflate world chest/
 
 There are eight eligible recipes per character. Shared entries are Bueno Volcano, Snow Bear, Spark Lemon and Final Mix Daisy Sorbet. The HD name Sugary Skies retains Milky Way as a search alias. The JSON sums one manufacture of each eligible recipe; it must not demand ingredients again for an item already obtained elsewhere.
 
-[Prize Pod](https://www.khwiki.com/Prize_Pod) location tables were inspected. Example: Terra's Dwarf Woodlands spawn is above the Underground Waterway waterfall near the Courtyard exit; an unwanted Red Hot Chili spawn requires an area reset. Ventus's Mine spawn and Aqua's Flower Glade spawn are different records. Full exact spawn/respawn/character normalization remains open; flavor-world leads alone cannot answer “where do I farm it?” reliably.
+[Prize Pod](https://www.khwiki.com/Prize_Pod) location tables were inspected. Example: Terra's Dwarf Woodlands spawn is above the Underground Waterway waterfall near the Courtyard exit; an unwanted Red Hot Chili spawn requires an area reset. Ventus's Mine spawn and Aqua's Flower Glade spawn are different records. All 42 flavor records now join the 22 character/event routes in `research-enrichment.json`; world reset and Arena replay guidance are distinct. Enemy counts that conflict between tables are not used. This closes the normalized flavor-route gap without certifying unrelated crystal farms.

@@ -1,5 +1,7 @@
 # KH1FM farming and equipment research
 
+**Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+
 Researched 2026-09-18 for modern Final Mix. The [33-recipe table](synthesis-recipes.md) is the calculation input. This document supplies source mechanics and equipment acquisition coverage; it does not claim every enemy's full stats/spawn table has been imported.
 
 ## Ordinary material sources
@@ -23,7 +25,7 @@ Percentages below are listed **base drop rates**, before Lucky Strike, not promi
 | [Mystery Goo](https://www.khwiki.com/Mystery_Goo) | White Mushrooms, Rare Truffles and Black Fungus use challenge-specific drop rules. |
 | [Dark Matter](https://www.khwiki.com/Dark_Matter) | One-time chests/rewards and a repeatable synthesis recipe; stock must reconcile both routes. |
 
-Store encounter phase and location separately from enemy identity: world populations change after Kairi's rescue. Farming advice must include room, access state, reset path and applicable source event. The world atlas supplies the sources for that remaining room-by-room work.
+Store encounter phase and location separately from enemy identity: world populations change after Kairi's rescue. Farming advice must include room, access state, reset path and applicable source event. The eight farms singled out by KH1-011 now have concrete room/phase/reset routes in canonical material and enemy entries. A complete every-room spawn manifest is not claimed.
 
 ## Final Mix special-material encounters
 
@@ -113,8 +115,8 @@ Do not equate buying/finding every weapon with equipping it; acquisition can coe
 
 ## Accessories, stats and outstanding verification
 
-The catalog also needs every accessory, consumable, permanent stat item, spell Arts/rank item and progression key item, with its own acquisition routes. Accessory sources include shops, world chests, boss rewards and synthesis. The recipe table covers synthesized accessories; world and shop inventories cover additional ones. Import KH1FM Strength/MP/AP/HP/Defense/resistances, weapon reach/recoil/critical properties and special effects from the linked item pages, not their KH2/KH3 sections.
+The canonical catalog now includes 54 accessories, 10 restoratives, three permanent stat items, seven Arts and three rank/rare tokens, with effect/use and linked acquisition routes. Temporary story objects are excluded by accepted scope. Coverage certifies each declared roster, not every redundant source alternative. Accessory sources include shops, world chests, boss rewards and synthesis. The recipe table covers synthesized accessories; world and shop inventories cover additional ones. Import KH1FM Strength/MP/AP/HP/Defense/resistances, weapon reach/recoil/critical properties and special effects from the linked item pages, not their KH2/KH3 sections.
 
-**Source conflict KH1-C01:** the [Energy Bangle recipe page](https://www.khwiki.com/Energy_Bangle) lists **2 Spirit Shards + 1 Bright Shard**, while the [Spirit material usage summary](https://www.khwiki.com/Spirit_Shard) lists **1 Spirit Shard** for that product. The recipe reference provisionally uses the dedicated recipe page. Its calculated direct Spirit Shard total is therefore 13. Resolve against the modern in-game recipe before marking the recipe set verified; if 1 is correct, that direct total becomes 12. The discrepancy remains visible rather than silently “fixed.”
+**Resolved KH1-C01:** Energy Bangle uses **2 Spirit Shards + 1 Bright Shard**. Dedicated recipe, KHGuides and legacy recipe corroborate this; direct Spirit Shard total is **13**. The former one-shard material-summary discrepancy is superseded by the canonical reconciliation. Three Stars Defense remains KH1-001; its recipe is independently resolved.
 
 Remaining data tasks: full accessory/stat inventory; complete material-source alternatives including Bambi's world/gauge rules; room-specific spawn/reset routes; conditional drop distributions; comparison to all legacy workbook records. These are required MVP content work, not deferred features.

@@ -6,7 +6,7 @@ Scope: Steam HD Final Mix; Terra, Ventus, Aqua main stories; Aqua’s **Final Ep
 
 ## Current resolution status
 
-The original audit below measured `f933ab1`. October 1 follow-up closes **BBS-007, BBS-008 and BBS-017**, narrows **BBS-006** to the minimum Ignite level, and corrects the Archraven Shop 1–4 band within **BBS-015**. The [resolution log](research-resolution-2026-10-01.md) records sources, integration and remaining questions. Inventory counts and appendix quotations below are baseline snapshots, not current gap claims.
+All 38 findings now have researched dispositions: **17 partial**, **4 researched-open**, **12 closed**, **2 provenance**, **1 implementation**, **1 visual**, **1 excluded**. See the [live resolution log](research-resolution-2026-10-01.md) and [complete per-ID ledger](research-dispositions-2026-10-01.json). These supersede baseline statuses, counts and claims below. Closed scopes are BBS-005/007/008/009/014/017/020/023/024/038; partial catalogs are not described as complete.
 
 ## Method and measured coverage (baseline)
 
@@ -32,11 +32,19 @@ The appendices enumerate affected record IDs and source occurrences rather than 
 
 ### BBS-001 — Precise collectible directions
 
+**Current disposition (2026-10-01): partial.** Systematically reviewed all 382 guide chest rows: 374 main chests now have linked source approach/landmark text, plus the independently sourced Secret Gem route and all 60 sticker pickups. Reconciled three mismatches: Terra Tower Entrance, Ventus Rainbow Falls: Base, and Aqua chest4 Mega Magic Recipe (saved IDs retained). See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** All 443 CSV records carry “area-only; precise directions pending”; exact pickup position, approach/action and repeated-chest disambiguation are absent as a complete inventory. Runtime adds three limited directions: Terra Fission Firaga, Ventus Mine Entrance Balloon Sticker, Aqua Deep Space Dale Sticker. Thus 440 still have only the generic “Chest/Sticker pickup in …” direction; those three are partial exceptions, not fully validated routes. The runtime retains the blanket uncertainty even for them. Appendix A enumerates all 443 IDs, canonical CSV line and runtime path; sources are the row’s world/album URLs.
 
 Evidence: `ai_docs/games/bbsfm/README.md:18`; `ai_docs/games/bbsfm/collectibles-and-reports.md:68`–74; `src/games/bbsfm/generate.py:17`–22; `ai_docs/readiness/birth-by-sleep-final-mix.md:29`–31.
 
 ### BBS-002 — Official Reports order and inventory completeness
+
+**Current disposition (2026-10-01): researched-open.** Preserved 374 main, eight Secret and one tutorial chest records; fixed generated collectible flags so all eight Secret chests count (442 total including 60 stickers). See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Independently reconcile main T122/V130/A122 chest totals and their official Reports sequence; verify the separate eight Secret chests and 20 stickers per character. `source_position` is source numbering, not certified Reports order. Runtime `order=i` is extraction order. Ventus tutorial Sliding Dash intentionally has blank source position and is outside Reports/world totals; that blank is not missing official numbering. Sticker IDs deliberately use name+area. Appendix A covers all records; the counted denominator is 442, not 443.
 
@@ -44,11 +52,19 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:5`, `ai_docs/games/bb
 
 ### BBS-003 — Access timing, movement requirements and returnability
 
+**Current disposition (2026-10-01): partial.** Integrated post-Mad-Treant access for Ventus Soothing Crystal and source-described movement prerequisites in sticker pickup notes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** For all collectibles establish earliest access, story/episode revisit restrictions, exact movement minimum levels and alternate approaches. In particular, do Terra/Aqua’s four Land of Departure chests remain reachable through late revisit/Unknown access? Do not call them permanently missable yet. Ventus Dwarf Woodlands Soothing Crystal #4 has known post-Mad-Treant timing, but this timing is not carried into generated instructions. Aqua’s Dale Sticker requires High Jump/Air Slide, with minimum levels explicitly unverified. Separate original main-save access from Aqua Final Episode’s unavailable Land of Departure.
 
 Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:22`, `ai_docs/games/bbsfm/collectibles-and-reports.md:69`–74; `src/games/bbsfm/generate.py:22`; `ai_docs/games/bbsfm/challenges-and-unlocks.md:76`. Appendix A lists IDs.
 
 ### BBS-004 — Sticker placement text and optimal album completion
+
+**Current disposition (2026-10-01): closed.** All 60 album placement regions are integrated. Visually inspected all three completed KHRealm album images and authored the missing 28 placement landmarks, including all20 Ventus. Placement is independent from pickup; seven-point feedback verifies the chosen spot. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Supply the correct placement region/directions for each of 60 individual stickers, independently of pickup state. No structured placement or coordinates exist in the CSV; fifteen album reward records repeat general “seven points per sticker” guidance. FM tiers 20/40/70/110/140 are already documented; do not reopen them merely because original-game thresholds differ. Ventus Mine Entrance Balloon omission from the world table is answered by the album source and runtime direction, with source omission retained as provenance.
 
@@ -56,11 +72,19 @@ Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:32`–42, `ai_docs/ga
 
 ### BBS-005 — Secret Episode Secret Gem area conflict
 
+**Current disposition (2026-10-01): closed.** Secret Gem is in Lower Zone: climb the raised pillars before proceeding to Upper Zone. Corrected generated instructions and retained separate Secret Episode context. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** `bbsfm:aqua:secret-episode:treasure:5`: Realm of Darkness world table says Lower Zone, Secret Gem material page says Upper Zone. Determine the correct room and exact directions without merging it into KH0.2 or main Aqua. Runtime repeats both claims rather than resolving them; “Area verified” in the same uncertainty field is overbroad for this row.
 
 Evidence: `ai_docs/games/bbsfm/collectibles-and-reports.md:72`; `ai_docs/games/bbsfm/materials-and-equipment.md:17`; `src/games/bbsfm/generate.py:17`; Appendix A records exact CSV/JSON locations; existing leads `Game:Realm_of_Darkness` and `Secret_Gem`.
 
 ### BBS-006 — Mine Square recipe correction and collateral exclusion
+
+**Current disposition (2026-10-01): partial.** Aerora + Ignite identity is resolved; all six affected groups remain restored, with the documented level-3 combination. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: PARTLY RESOLVED — 2026-10-01.** Corrected outcome 90 to Aerora + Ignite and regenerated all six affected character groups, including valid Aerora/Aerora outcomes. The app uses the sourced Lv3 Ignite combination and carries a specific lower-level eligibility note. KHWiki lists Lv3; the guiding-key FM guide lists Lv1; Destiny Islands omits the level. Only the exact minimum remains open; ingredient identity, outcome, rates, attached abilities and former whole-pair exclusion are no longer gaps. See [resolution evidence](research-resolution-2026-10-01.md). Appendix C records the baseline, not current quarantines.
 
@@ -68,11 +92,19 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:14`, `ai_docs/games/bbsf
 
 ### BBS-007 — Magnet Spiral 20% correction (closed: integrated)
 
+**Current disposition (2026-10-01): closed.** Magnet Spiral 20% / Collision Magnet 80%, Stun Edge Lv3 + Magnera Lv3, all characters and crystal mappings integrated. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: CLOSED — 2026-10-01.** Corrected outcome 182 to Magnet Spiral 20%, retaining Collision Magnet 80%, Stun Edge/Magnera Lv3, all three characters and existing crystal mappings. Both generators now include the three restored groups. Original value and supporting sources are retained on the corrected row. See [resolution evidence](research-resolution-2026-10-01.md); Appendix C is historical.
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:15`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:29`–33; `src/games/bbsfm/generate.py:48`–56; `src/games/bbsfm/build-ui-data.py:12–23`; `ai_docs/implementation/bbsfm-review-checklist.md:82`.
 
 ### BBS-008 — Confusing Strike / Confusion Strike identity split (closed)
+
+**Current disposition (2026-10-01): closed.** Confusion Strike is the BBS identity; historical Confusing Strike spelling remains correction provenance only. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: CLOSED — 2026-10-01.** Canonical raw outcome 140 now uses the BBS name Confusion Strike; generated recipe prose and structured joins agree. The original Confusing Strike spelling remains only in correction provenance/legacy evidence. KHWiki distinguishes the BBS and DDD names, corroborated by the Destiny Islands FM table. See [resolution evidence](research-resolution-2026-10-01.md).
 
@@ -80,11 +112,19 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:154`; 
 
 ### BBS-009 — Complete modern command identity, type and character eligibility catalog
 
+**Current disposition (2026-10-01): closed.** Canonical persistent HD catalog now has 187 identities with independently table-backed types and character eligibility: 40 Attack, 57 Magic, 23 Item, 15 Friendship, 17 Movement, 10 Defense, 8 Reprisal, 17 Shotlock. Exclusion records distinguish temporary, multiplayer and HD-removed commands. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** 139 UI identities are a union of shop, surviving meld and typed chest names, not a verified command roster. Character badges infer eligibility from those occurrences; presence as a recipe ingredient must not substitute for independently established ordinary acquisition/usability. Missing route != unavailable. Taxonomy counts: Attack 40, Magic 57, Item 8, Movement 13, Defense 10, Reprisal 7, Shotlock 3, Other 1, Friendship 0. “Balloon Letter” is Other. The legacy 150-row list includes 17 Friendship commands, lacks Item/Shotlock groups, and may contain HD-removed/temporary commands; verify inclusion rather than treating all absent legacy names as missing obtainable commands. Appendix E lists all 139 known IDs/types/character flags and every legacy-only name.
 
 Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:124`–128; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:156`; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:23`; `src/games/bbsfm/build-ui-data.py:25–38`; `ai_docs/games/bbsfm/acquisition-tables.json:2227`; `src/journal/BbsMelding.tsx:24–25`. Existing lead: `Deck_Command_(KHBBS)`.
 
 ### BBS-010 — Complete command acquisition and purchase gates
+
+**Current disposition (2026-10-01): partial.** Individually inspected all 187 command pages; integrated acquisition bullets for 154 identities, including Focus/Renewal defensive command routes. Command detail panels show the sourced routes. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** 108 raw shop records only model name/munny/shop_level/characters. Determine all starting/event/chest/board/medal/Moogle sources, exact first-acquisition alternatives, both currencies and AND/OR gates per character. 38 dash levels are acquisition-gated leads, not free availability, a zero price, or proof not sold. Existing Terra Zantetsuken 1700 munny (five worlds OR prior acquisition), 1000 medals (Shop 5 AND Arena 8) is answered; UI hardcodes medals but ordinary table/generic prose do not express the full alternative. Six ingredient-material records explicitly have no documented route (Focus Block T/V, Focus Barrier A, Renewal Block T/V, Renewal Barrier A). Appendix B and D enumerate those records and all 108 shop rows, with exact source/generated paths.
 
@@ -92,11 +132,19 @@ Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:132`�
 
 ### BBS-011 — Command enemy drops and encounter conditions
 
+**Current disposition (2026-10-01): partial.** Integrated 38 drop-bearing command records, including Mine Square from Buckle Bruiser at 1.2%, Shop Levels 6–8; UI now consumes the catalog rather than two hardcoded examples. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Complete command-specific enemy drops with rates, Shop Level intervals, ordinary-world versus Arena distinction, character rooms and reset routes. Runtime hardcodes only Quick Blitz (Sonic Blaster 4.8%, Shop 5–6) and Blitz (0.6%, Shop 7–8). Mine Square’s Buckle Bruiser 1.2%, Shop 6–8 is already source-inspected but not displayed: current UI says no enemy drop route documented. These three facts are existing leads; exact rooms and full drop catalog remain open. Appendix E enumerates all 139 identities affected by catalog completeness; absence of a displayed drop is not evidence of no drops.
 
 Evidence: `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:139`–143, `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:166`; `src/journal/BbsMelding.tsx:47`; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:75`. Leads: `Quick_Blitz`, `Mine_Square`, `Sonic_Blaster` and world encounter tables.
 
 ### BBS-012 — CP/mastery curves and command/ability rule completeness
+
+**Current disposition (2026-10-01): partial.** Integrated 151 complete published CP curves and catalog max levels; surfaced explicit max-level conflicts rather than merging incompatible curves. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Complete per-command maximum levels, CP curves/mastery and character/version exceptions; clarify any remaining ability-learning detail checks recorded in readiness. Minimum meld levels exist and should not be replaced by blanket “master both.” Retained extra movement/defense copy and permanent ability learning at max level are source-backed rules, presently explanatory rather than transaction-enforced. No full CP curve exists in current command schema. Do not count lack of a gameplay test alone as a missing rule.
 
@@ -104,11 +152,19 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:22`, `ai_docs/games/bbsf
 
 ### BBS-013 — Chaos Crystal and Secret Gem random ability distribution
 
+**Current disposition (2026-10-01): researched-open.** Preserved Chaos/Secret Gem random-ability semantics and Secret Gem maximum-command-level rule. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Which abilities can attach and at what probabilities for Chaos Crystal/Secret Gem, including any level/type/character exceptions? Nine crystal identities are present, but the 112 deterministic mappings cover only seven standard crystals. “Random ability” is not a documented distribution. Secret Gem maximizing the output level is recorded, not a missing fact. Keep this separate from the known no-crystal chance table (BBS-038).
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:19`; `ai_docs/games/bbsfm/melding-and-abilities.md:41`; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:24`; `src/journal/BbsMelding.tsx:47`.
 
 ### BBS-014 — Ability effects and non-meld acquisition details
+
+**Current disposition (2026-10-01): closed.** All 30 ability effects, stack references and permanent-learning rules are integrated. Scan and Critical-only Zero EXP starting-command acquisition is visible even without meld recipes; modern Zero EXP CP/damage note is sourced. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** All 30 ability rows have stack caps and crystal/type mapping or N/A; no effect descriptions or full acquisition rules are structured. Scan and Zero EXP’s N/A/— mean not acquired by crystal melding, not unknown recipe. Runtime only says “Not acquired by crystal melding”; specify their actual acquisition/initial/difficulty conditions and relevant modern behavior from ability sources. Distinguish owned attached, permanently learned and enabled stacks. Appendix F lists 30 source rows and all 90 generated IDs.
 
@@ -116,11 +172,19 @@ Evidence: `ai_docs/games/bbsfm/ability-stacks.csv:1`, `ai_docs/games/bbsfm/abili
 
 ### BBS-015 — Complete crystal farms and bestiary encounter variants
 
+**Current disposition (2026-10-01): partial.** Preserved conditional crystal rates, corrected Archraven first Shimmering band to Shop 1–4, and retained Spiderchest Fleeting relationship. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Normalize every crystal source, all rate intervals, exact rooms, eligible characters, story/world scaling, access/reset routes and world-versus-Arena tables. The baseline had 11 `crystal-sources` world-example records; the current 12 include the conditional Spiderchest relationship without an asserted route. No location has area/characters fields. Thornbite omits Castle of Dreams; Scrapper and both Flood rows omit Deep Space pending character normalization. Axe Flapper only certifies Shop 5–6; later bands are not inferred. The 16-entry generated bestiary is only parsed material examples, with no complete per-character Reports enemy roster, stat variants or Arena-to-Reports inclusion rules. Bruiser/Tank Toppler/Buckle Bruiser Pulsing rates are unspecified prose and parser drops their nonnumeric leads. Do not label Secret Episode Dark Hide/Heartless Unversed. Appendix B/F records every crystal, bestiary ID and source row. **October 1 update:** the Archraven first Shimmering band is now reconciled to Shop 1–4 in material prose and bestiary, and the conditional Spiderchest Fleeting relationship is integrated. These specific details are no longer open; full character/room routes remain open.
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:5`–19; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:69`–77; `src/games/bbsfm/generate.py:76`–80, `src/games/bbsfm/generate.py:144`–154; `src/games/bbsfm/crystal-sources.json:5`; `src/games/bbsfm/crystal-sources.json:65`; `src/games/bbsfm/crystal-sources.json:110`; `src/games/bbsfm/crystal-sources.json:146`; `src/games/bbsfm/crystal-sources.json:188`; `src/games/bbsfm/crystal-sources.json:239`.
 
 ### BBS-016 — Lucky Strike adjusted drop formula
+
+**Current disposition (2026-10-01): partial.** Recorded community formula base_rate × (1 + 0.3 × enabled Lucky Strike stacks), maximum five. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Determine the quantitative adjusted drop formula, stacking and applicable conditions; the known five-stack cap is not a farm-yield formula. No measured fastest/best route is supported. Applies to all material/command/Prize Pod farming comparisons; use source-conditioned rates, not enemy or player level.
 
@@ -128,11 +192,19 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:19`; `ai_docs/readines
 
 ### BBS-017 — Spiderchest Fleeting discrepancy (closed: conditional drop integrated)
 
+**Current disposition (2026-10-01): closed.** Spiderchest Fleeting Crystal is 3.6% at Shop 1–2 only; source relationship is integrated in both generators and detail views. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: CLOSED — 2026-10-01 (conditional drop relationship).** Spiderchest Fleeting Crystal 3.6% at Shop 1–2 is now in the structured melding sources, material details and generated bestiary; it is explicitly absent from Shop 3–8 tables. No accessible character/room route is implied. Those route questions remain BBS-015. See [resolution evidence](research-resolution-2026-10-01.md).
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:16`; `ai_docs/readiness/birth-by-sleep-final-mix.md:35`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:39`; `ai_docs/games/bbsfm/materials-and-equipment.md:10`; `src/games/bbsfm/generate.py:76`; Appendix B source list. Lead: `Spiderchest`.
 
 ### BBS-018 — Keyblade reach/passives and modern roster validation
+
+**Current disposition (2026-10-01): partial.** Integrated 48 character/episode weapon reach records and Royal Radiance command-gauge passive alongside existing 24 weapon forms. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** 24 candidate weapon forms have numeric Strength/Magic/critical stats and acquisition; each retains “modern source validation pending.” Independently reconcile the modern obtainable roster and normalized character-specific reach/passive details, which are absent columns. No claim that every form is required by every achievement. Brightcrest belongs to Final Episode; Master’s Defender to Secret Episode. “Unknown” in No Name’s acquisition is the boss’s proper name, not a missing fact. Appendix F enumerates 24 forms and 48 scoped IDs. Sweetstack wording varies “make every kind” versus “obtain all eligible kinds”; establish acquisition/manufacturing alternatives without demanding already obtained output again.
 
@@ -140,11 +212,19 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:27`–38, `ai_docs/gam
 
 ### BBS-019 — Ice cream recipe certification and obtain-versus-make alternatives
 
+**Current disposition (2026-10-01): partial.** Retained all 14 recipes, 24 character recipes and totals T174/V178/A183; inspected ice cream, Sweetstack and independent recipe guides. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** 14 exact recipes/eight eligible per character and T174/V178/A183 one-manufacture ingredient sums are already extracted. Readiness still calls for independent recipe verification; complete alternative acquisitions and their relationship to Sweetstack/achievement predicates rather than assuming all must be made. Sugary Skies/Milky Way is an established HD alias; do not invent another recipe. Appendix F lists all 14 canonical and 24 generated recipe identities.
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:42`–44; `ai_docs/readiness/birth-by-sleep-final-mix.md:38`, `ai_docs/readiness/birth-by-sleep-final-mix.md:57`; `ai_docs/games/bbsfm/acquisition-tables.json:2`; `src/games/bbsfm/generate.py:43`–45.
 
 ### BBS-020 — Flavor/Prize Pod exact farming routes
+
+**Current disposition (2026-10-01): closed.** All 42 flavor records now join character-scoped room/event routes across 22 Prize Pod route records. Spawn-wave/interaction notes and world reset guidance are integrated; Arena replay reset is kept separate. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** 42 flavors only have character and world/event leads, yielding scoped material records with unnormalized spawn/reset notes. Normalize locations, encounter triggers, unwanted-spawn resets, rooms, character access and Arena/event alternatives. Existing Terra Underground Waterway waterfall example is answered prose but not generated route data; Ventus Mine/Aqua Flower Glade are distinct. Joined strings such as “Neverland Risky Riches”, “Dwarf Woodlands Olympus Coliseum”, and “Treasure Tussle Risky Riches [ KH BbS FM ]” need explicit route records and FM qualification. Appendix B enumerates every generated flavor record; Appendix D lists 42 raw leads.
 
@@ -152,11 +232,19 @@ Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:46`; `ai_docs/games/bb
 
 ### BBS-021 — Mirage Arena unlock AND/OR logic
 
+**Current disposition (2026-10-01): partial.** Normalized six battle entry predicates including character clear-file alternatives and level OR consumable-ticket alternatives; integrated all six ticket prices/gates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Normalize tickets, Arena level, story clear and cross-character clear-file alternatives per character. 24 generated rows (8 named battles× 3) carry explicit uncertainty: Wheels of Misfortune, Risky Riches, Weaver Fever, Sinister Sentinel, Dead Ringer, Combined Threat, Treasure Tussle, A Time to Chill. Plain slash text does not define Boolean logic. A Time to Chill individual page adds Arena 13 while aggregate access table emphasizes Aqua story/clear data. Source-inspected character variation is real; another character’s clear file may unlock access but never grants that character a clear.
 
 Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:10`–26; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:41`–60; `src/games/bbsfm/generate.py:98–107`; Appendix B enumerates 24 uncertainty IDs.
 
 ### BBS-022 — Arena HP/reward source conflict and omitted bonuses
+
+**Current disposition (2026-10-01): partial.** Added character-specific HP/Sky Climber bonuses and Monster of the Sea Mini reward. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: PARTLY ANSWERED.** A Time to Chill Ventus/Aqua HP amount conflicts +5 individual-page versus +10 world bonus table. Keep unresolved along with its gate. Known bonuses are missing in generated reward fields: Aqua Wheels HP+5, Terra Weaver HP+5, Ventus Sinister Sky Climber, Ventus Dead Ringer HP bonus (amount not provided in matrix). Full rewards per character remain partial. Other named key rewards already exist; distinguish source answers omitted from runtime versus precise HP still in dispute. Appendix F lists all 48 Arena records and empty/filled reward values.
 
@@ -164,11 +252,19 @@ Evidence: `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:41`–58; 
 
 ### BBS-023 — Ringer Ticket purchase price
 
+**Current disposition (2026-10-01): closed.** Ringer Ticket costs 250 medals; Shop Level 1 AND Arena Level 5, one Dead Ringer entry. All six tickets are structured and displayed. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Command Shop says 205; Mirage Arena international/FinalMix says 250. Resolve edition-correct price and purchase condition; it is not in the 108 command-shop candidates, so generic row validation will miss it. Scope: Dead Ringer/Arena ticket purchase for eligible characters, distinct from command prices.
 
 Evidence: `ai_docs/games/bbsfm/materials-and-equipment.md:23`; `ai_docs/readiness/birth-by-sleep-final-mix.md:40`. Leads: `Command_Shop`, `Game:Mirage_Arena`.
 
 ### BBS-024 — Arena level-up predicates are documented but not represented fully
+
+**Current disposition (2026-10-01): closed.** All 29 FM Arena level predicates are structured: six cumulative-medal thresholds, 15 battle clears, four five-lap course times and four board-win counts. Existing battles/races plus 30 scoped medal/board check records cover the predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: ANSWERED / NOT INTEGRATED.** 29 FM conditions already recorded: 6 cumulative-medal thresholds (300/1000/3333/5555/7777/9999), 15 battle clears excluding Peering, 4 race times, 4 board win counts (1/3/5/7). Runtime has battle/course/board entries but no cumulative medal threshold or board-count level records. This is a content-integration gap, not an unknown total or permission to track spendable balance as cumulative earned medals.
 
@@ -176,11 +272,19 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:28`; `ai_docs/games/bir
 
 ### BBS-025 — Unversed Mission exact rank boundaries
 
+**Current disposition (2026-10-01): partial.** All nine missions now have full one/two/three-star bands and original per-character tactics (27 guides). Contradictory equality phrasing remains explicitly separated from the published tables. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Reconcile table inclusivity against prose (explicit example Ringer “more than 40” versus “40+”), verify every mission threshold/time boundary and full rank tables, not just the current three-star targets. All 9 missions × 3 characters are listed in Appendix F. Character location/reward splits are answered (Lone Runner, Vitality Vial, Belly Balloon; Gluttonous Goo Stun Block versus Confuse Barrier) but currently encoded combined text. Keep best results/rank/reward ownership separate; a layout screenshot is not threshold evidence.
 
 Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:34`–46; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:62`–71; `src/games/bbsfm/generate.py:92–95`. Lead: `Unversed_Mission`.
 
 ### BBS-026 — Minigame full rewards, conditions and strategies
+
+**Current disposition (2026-10-01): closed.** Integrated all five Final Mix Ice Cream Beat songs with Beginner/Master Good/Cool/Fantastic scores, first/repeat prizes and controls; Fruitball opponent first/repeat rewards and tactics; all four race rewards/route guides. Original Japanese Special mode and three/nine-lap targets are explicitly excluded from HD rules. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: PARTLY ANSWERED.** Current 19 records per character cover 4 races, 5 rhythm songs, 3 Fruitball opponents, 7 boards, but lack full score/rank/repeat-prize alternatives and strategies. Already documented but absent as distinct runtime acquisition: Hand in Hand Beginner Fantastic 1144→Freeze Raid; Aqua story Shoegazers separate from repeatable Fruitball; Pete’s Captain Dark/Justice identities. Runtime retains only Master Fantastic first rewards. Racing top-three, first-place and Arena 5 lap thresholds are different facts. Full alternate minigame command acquisitions stay open. Appendix F enumerates all 57 records.
 
@@ -188,11 +292,19 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:50`–66; `ai_docs/read
 
 ### BBS-027 — Command Board panels, ownership and mode exceptions
 
+**Current disposition (2026-10-01): partial.** Acquisition catalog now includes source-described opponent/bonus-panel command routes across boards; victory is not assumed necessary to retain obtained panels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Complete per-board panel inventory, board/opponent purchases, rewards, menu-versus-Arena availability and character exceptions for all 7 boards. Current ownership determines replacement/reappearance of limited bonus panels after copies sold; this differs from ever-obtained rare Shotlock meld rules. September 28 explicitly rejects blanket “every Arena panel/acquisition absent”; most bonus panels absent is the supported claim. Pete special panel D-Link is documented but acquisition data incomplete. No full panel schema exists.
 
 Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:66`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:41`; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:28`; `src/games/bbsfm/generate.py:114–115`. Lead: `Command_Board`.
 
 ### BBS-028 — Finish Command partial counter persistence
+
+**Current disposition (2026-10-01): researched-open.** Preserved the 46-node finisher tree and equipped-parent metric predicates. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Determine whether switching away from an eligible equipped parent resets or preserves accumulated partial progress, and how progress combines across OR-parent alternatives. Child starts-from-zero is distinct from switch-away reset; neither infographic nor thread certifies the latter. 42 predicate rows become 46 character nodes; all parents resolve in runtime, so graph conversion is solved. Typed metric/target/equipped-parent facts remain source-backed; no automatic counter tracker is authorized. Appendix F lists all 46 nodes and raw mappings; null styles/noninitial fields are separately accounted below.
 
@@ -200,11 +312,19 @@ Evidence: `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:99`–109;
 
 ### BBS-029 — Complete D-Link, Style and Shotlock families
 
+**Current disposition (2026-10-01): partial.** Added 15 Command Styles and 13 persistent D-Link identities with scoped acquisition/trigger/emblem ability data; all 17 Shotlocks are cataloged. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Complete character-specific rosters, acquisitions, usages, level/upgrade conditions and exceptions for D-Links, Command Styles, Shotlocks, plus D-Link/Style/Illusion finishers as distinct systems. Only 3 rare Shotlocks are in UI catalog; Arena ultimate Shotlocks are reward strings, not a complete Shotlock catalog. Do not infer ordinary command availability from temporary D-Link decks. Existing Pete/Frozen Fortune/Rhythm Mixer/Arena reward leads should be preserved, but are not family coverage.
 
 Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:41`; `ai_docs/games/bbsfm/challenges-and-unlocks.md:66`–72; `ai_docs/readiness/birth-by-sleep-final-mix.md:39`; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:25`; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:79`, `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:128`; `ai_docs/games/birth-by-sleep-final-mix.md:92`.
 
 ### BBS-030 — Optional boss access, mechanics and recovery guidance
+
+**Current disposition (2026-10-01): partial.** Inspected all six named encounters; existing Arena/weapon/episode records retain correct separate contexts. Added concise sourced encounter references with access/recovery and FM-specific distinctions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** For Vanitas Remnant (Badlands), Unknown (Land of Departure), Armor of Eraqus (Light’s Lessons), No Heart (Peering), Monstro (Monster of the Sea), and Secret Episode Dark Hide, complete exact character/episode access, mechanics and recovery strategies, and separate clear/reward records. Current Arena and weapon reward rows do not constitute full boss encounters; no standalone boss category is generated. Unknown is a proper boss name. Dark Hide is a Secret Episode Heartless, not a shared Unversed entry.
 
@@ -212,11 +332,19 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:72`; `ai_docs/readiness
 
 ### BBS-031 — Episode and Trinity mixed-save aggregation
 
+**Current disposition (2026-10-01): researched-open.** Kept main, Final and Secret episodes separate and preserved published difficulty requirement table. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: OPEN.** Verify mixed-difficulty combinations, already-cleared-save updates and exact aggregation across main clear files/Final/Secret scenarios for Secret Episode unlock and Trinity requirements. Base difficulty table is documented (Beginner albums+3 trophies; Standard albums+Keyslinger; Proud albums; Critical none extra), with 140 point albums. Final Episode clear/report conditions, Aqua carryover, Radiant Garden entry and Land of Departure exclusion are answered; inherited initial progress is not evidence of ongoing bidirectional sync. Secret Episode no world map and Master’s Defender/eight chests stay separate from Final and KH0.2.
 
 Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:76`–87; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:56`–60; `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:32`, `ai_docs/research/bbsfm-category-scope-matrix-2026-09-28.md:89`; `src/games/bbsfm/generate.py:116`; Appendix B episode record.
 
 ### BBS-032 — Steam achievement roster, hidden IDs/predicates and build issues
+
+**Current disposition (2026-10-01): partial.** Expanded Steam overlay from 34 to 45 BBS goal names using the Steam roster, including the story/boss/Critical goals. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: OPEN.** Complete BBS-specific Steam identities/IDs and hidden predicates from the collection-wide 197 list; do not copy PlayStation 46 including platinum or call 197 the BBS count. Runtime 34 public goals are a subset, not full roster. Five rows explicitly flag one-character versus combined-save aggregation (Collector, Command Board Conqueror, Pâtissier, Maestro, Savage Slayer); audit all ambiguous goals, difficulty requirements and full Reports predicates. Collector glitch affected builds and workaround validity remain unverified; do not recommend deleting system data. In-game Trinity trophies are separate. Appendix F enumerates all 34 runtime goals and sources.
 
@@ -224,11 +352,19 @@ Evidence: `ai_docs/games/bbsfm/challenges-and-unlocks.md:91`–95; `ai_docs/read
 
 ### BBS-033 — Edition and source provenance limits
 
+**Current disposition (2026-10-01): provenance.** Recorded individual command sources plus every consulted follow-up family and disposition, with inspection date and evidence scope. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: PROVENANCE.** Modern applicable Steam baseline is fixed, but exact supported build/current Steam-specific behavior is not pinned. September 18 announced October 8 editions remain future on this audit date; no PSP/non-FM support is opened. Source manifest records structured-table inspection, not line-by-line narrative review or gameplay certification; community facts can be usable without a user playthrough. Its audit status and CSV candidate labels are evidence limits, not proof every fact is wrong. Later source leads in September 28 supplements/crystal JSON are not incorporated into the September 18 manifest; provenance dates differ. Appendix H accounts for all community inspection qualifiers.
 
 Evidence: `ai_docs/games/birth-by-sleep-final-mix.md:9`; `ai_docs/readiness/birth-by-sleep-final-mix.md:27`, `ai_docs/readiness/birth-by-sleep-final-mix.md:45`; `ai_docs/games/bbsfm/source-manifest.json:2`, `ai_docs/games/bbsfm/source-manifest.json:51`; `ai_docs/testing-and-content-validation.md:5–9`.
 
 ### BBS-034 — Original workbook/tool behavior recovery
+
+**Current disposition (2026-10-01): provenance.** Retained original workbook grid ranges, zero populated acquisition-location cells, and local bbsmelding seed/tool lineage. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: PROVENANCE.** The full historical grids and copied user JSON are available evidence; workbook Synthesis has zero populated location cells. September 28 recheck was metadata-only, no fresh formulas/grid/AppsScript execution. Repository `bbsmelding/script.js` only extracts/sorts/logs ingredient commands; this does not disprove the separately remembered working craft tool. Locate surviving functional artifact/formulas/scripts before claiming parity. Legacy letter B → current M, E → current B and legacy Luck Boost are source-local incompatibilities, already identified; preserve rather than mixing matrices.
 
@@ -236,11 +372,19 @@ Evidence: `ai_docs/games/bbsfm/melding-and-abilities.md:5`–13; `ai_docs/resear
 
 ### BBS-035 — Implementation and app acceptance backlog
 
+**Current disposition (2026-10-01): implementation.** Corrected active readiness text to acknowledge solver/journal/state implementation; fixed eight Secret Episode collectible flags and invalid calculator-level crash. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: IMPLEMENTATION.** Review checklist items for atomic consume/undo, recursive planning, inventory instances/levels, persistence, offline, accessibility, phone/Chrome validation, Jiminy and shared profile behavior are engineering/acceptance tasks. Existing current solver handles unordered inputs/minimum levels, outcomes, ownership reweighting, ability reverse lookup and parent graphs; do not repeat historical “no solver/no implementation” as an open factual gap. Planning/history checks deliberately do not consume stock. Existing unit/browser claims do not certify exhaustive game facts or physical iPhone 17 behavior. Appendix G lists every relevant unchecked/source caveat without creating gameplay research counts.
 
 Evidence: `ai_docs/readiness/birth-by-sleep-final-mix.md:47`–72; `ai_docs/games/birth-by-sleep-final-mix.md:148`, `ai_docs/games/birth-by-sleep-final-mix.md:175`–181; `src/games/bbsModel.ts:27–46`; `src/journal/BbsMelding.tsx:19–47`; `tests/bbs-model.test.ts:7–42`; `tests/e2e/bbs-ux.spec.ts:1`; `ai_docs/implementation/bbsfm-review-checklist.md:47–87,103–107`.
 
 ### BBS-036 — Visual fidelity, art and isolated 3D prototype
+
+**Current disposition (2026-10-01): visual.** Updated active checklist context: native selector/book references and inspected rigged prototype assets exist. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: VISUAL.** Native selector/book references now exist and close the older missing-reference claim. Final artwork, precise native Finish menu fidelity, character-pose/motion/native Keyblade assets, phone performance and final 3D production integration remain design/art/acceptance issues. September 28 prototype measured actual assets, so checklist statements “archives/rigging not inspected” and estimated ZIP size are historical. It has rigged relaxed poses but no native idle/selection stance/weapon/grip. Screenshot character uncertainty and clipped video proportions are visual provenance, not unknown mission rules. Character Files tracking is explicitly excluded. These are not gameplay research blockers requiring user facts.
 
@@ -248,11 +392,19 @@ Evidence: `ai_docs/ui/references/bbsfm/README.md:11,21–31,39–52`; `ai_docs/i
 
 ### BBS-037 — Historical/resolved caveats and explicit exclusions
 
+**Current disposition (2026-10-01): excluded.** Preserved settled exclusions and historical corrections; HD-removed and temporary commands are explicit catalog exclusions. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
+
 **Status: HISTORICAL / EXCLUDED.** Resolved: 297→296 outcomes; legacy type letters recognized; Ventus Balloon missing only from world table; report chests alias canonical state; episode punctuation normalized; character-first/root melding structure settled; finisher list+modal selected; screenshots supplied; working runtime supersedes no-implementation/static-solver prose. Excluded intentionally: PSP/non-FM compatibility/multiplayer/transfer bonuses; KH0.2 data; mandatory narrative Character Files/story completion in world totals; tutorial Reports denominator; treating non-meld abilities or absent recipe as unknown facts; production screenshot acquisition as sole allowed content deferral. “Unknown” boss, optional crystal/inventory, “none listed” Critical extra requirement, initial parent nulls, non-style nulls, empty Shotlock ability maps and recipe character rate 0 have meaningful semantics; do not blanket-convert them into missing data. Appendix I provides exact structural-null locations.
 
 Evidence: `ai_docs/games/bbsfm/README.md:3`, `ai_docs/games/bbsfm/collectibles-and-reports.md:22`–28; `ai_docs/games/bbsfm/melding-and-abilities.md:5`, `ai_docs/games/bbsfm/melding-and-abilities.md:13`; `ai_docs/games/bbsfm/challenges-and-unlocks.md:5`, `ai_docs/games/bbsfm/challenges-and-unlocks.md:85`–95; `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:7`, `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:64`, `ai_docs/research/bbsfm-2026-09-28-coverage-and-gap-research.md:182`; `src/games/bbsModel.ts:12–16`; `src/games/bbsfm/generate.py:81–94`; `ai_docs/ui/references/bbsfm/README.md:30,35,50–52`.
 
 ### BBS-038 — No-crystal chance table and known rule presentation
+
+**Current disposition (2026-10-01): closed.** Calculator displays no-crystal ability chances 10/20/30/40/50% by combined levels, keeps Shotlocks ability-free, and rejects invalid/fractional input levels. See [complete per-ID evidence and residual ledger](research-dispositions-2026-10-01.json).
+
+**Historical baseline finding:**
 
 **Status: ANSWERED / NOT INTEGRATED.** Combined command-level no-crystal random ability chances 10%(≤4), 20%(5), 30%(6), 40%(7), 50%(≥8) already exist in raw reference, but calculator only says “A random ability may attach.” Incorporate known chance values if displaying this mechanic; do not invent a distribution over ability identities (BBS-013). Shotlock no-ability rule and previously obtained rare-Shotlock suppression are now implemented. Source phrase “has been obtained” is distinct from current-copy ownership in Command Board rules; do not unify those conditions.
 

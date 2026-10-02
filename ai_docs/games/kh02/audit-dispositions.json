@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-01",
+  "edition": "Steam HD",
+  "findings": [
+    {
+      "id": "KH02-001",
+      "status": "blocked",
+      "integrated": "30/50 disagreement retained on objective 13 and Mystic Pauldron.",
+      "remaining": "KHWiki/GameSkinny say 30; PSU/Guiding Key and 2024 Steam guide say 50. DestinyIslands includes contradictory 30 table/50 instructions. None supplies a version/locale-specific counter capture resolving Steam.",
+      "consultedSources": [
+        "https://www.khwiki.com/Wardrobe_(KH0.2)",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/"
+      ]
+    },
+    {
+      "id": "KH02-002",
+      "status": "resolved",
+      "integrated": "Objective 15 and Grace Purple now require freezing five together and shattering all five in one attack; Blizzaga+Thundaga strategy.",
+      "remaining": "Explicit independent HD/Steam guides settle simultaneity.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      ]
+    },
+    {
+      "id": "KH02-003",
+      "status": "resolved",
+      "integrated": "Objective 14 gives bridge/save-point/barrier/uphill Blizzaga route. Dark Explorer gives same-map circuits with cumulative visits.",
+      "remaining": "A reproducible textual route satisfies this finding; hidden numeric distance is not invented.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+      ]
+    },
+    {
+      "id": "KH02-004",
+      "status": "resolved",
+      "integrated": "First inverted pillar/right chest=Potion; second inversion/exit chest=Hi-Potion. Both existing IDs preserved.",
+      "remaining": "Explicit contents/route pairing in Steam guide reconciles source table and PSU.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
+      ]
+    },
+    {
+      "id": "KH02-005",
+      "status": "partial",
+      "integrated": "All29 ordinary rows reviewed, all ten Forest rows cross-checked; lower Ether and seven Forest joins improved with precise routes.",
+      "remaining": "Three Forest crosswalks remain: ft-save-ether is Ether versus Mega-Ether at same ivy; ft-north-potion cannot join northwest-thicket Hi-Potion; ft-steps-ether cannot securely join elevated second-Darkside Ether. They carry specific runtime caveats, not a generic warning on all ten.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://guiding-key.tumblr.com/kh0.2-locations",
+        "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/"
+      ]
+    },
+    {
+      "id": "KH02-006",
+      "status": "resolved",
+      "integrated": "Pisces approach is turn behind Aqua immediately on initial staircase entry.",
+      "remaining": "PSU and Steam independently specify the starting state; generic wiki end-of-stairs wording is superseded.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.khwiki.com/Zodiac_symbols",
+        "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
+      ]
+    },
+    {
+      "id": "KH02-007",
+      "status": "resolved",
+      "integrated": "Stable flower01/02/03 map Green/Blue/Red; Uncertain Path then Rocky Path preserved.",
+      "remaining": "Steam route/color text joined to GameSkinny route landmarks; runtime named flowers and sources updated.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/"
+      ]
+    },
+    {
+      "id": "KH02-008",
+      "status": "resolved",
+      "integrated": "Castle Town blue slipper: northernmost western house roof by plaza; elevated route/Air Slide.",
+      "remaining": "Exact building guidance supersedes generic roof/awning uncertainty.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://guiding-key.tumblr.com/kh0.2-locations"
+      ]
+    },
+    {
+      "id": "KH02-009",
+      "status": "resolved",
+      "integrated": "Forest memory normalized as Sleeping Beauty spindle/spinning-wheel symbol under optional third Darkside.",
+      "remaining": "Older sewing-machine label retained only as correction context.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      ]
+    },
+    {
+      "id": "KH02-010",
+      "status": "partial",
+      "integrated": "Clear-data transfer now separates completed objectives, items, wardrobe/colors, level reset and Zodiac retained/open chests. Post-clear Leo/Libra routes prove mine re-entry.",
+      "remaining": "Partial gem/memory flags and ordinary chest state across NG+ remain incompletely specified by fully accessible sources. TrueAchievements18 indexed excerpt says ordinary chests refill; full fetch403 prevents exhaustive per-asset validation. No irreversible gem missability claimed.",
+      "consultedSources": [
+        "https://www.khwiki.com/Game_Clear_Data",
+        "https://www.khwiki.com/Zodiac_symbols",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18"
+      ]
+    },
+    {
+      "id": "KH02-011",
+      "status": "partial",
+      "integrated": "All seven named objectives reviewed:18 streak;26 three combat mirrors;31 story Phantom Finish without final blow;36 final blow;41 third-story no damage;47 orb Darkside;50 Wayfinder active. Combat/replay caveats propagate to cosmetics.",
+      "remaining": "Guide conflict on 31 Zodiac substitute (PSN yes versus story-only guide), and 50 active-at-victory versus Finish (PSU/Steam versus StrategyWiki). Pre-unlock partial counters are not documented for all seven; sources do not justify universal retroactivity.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://www.playstationtrophies.org/forum/topic/283492-kingdom-hearts-02-birth-by-sleep-a-fragmentary-passage-trophy-guide-amp-roadmap/",
+        "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness"
+      ]
+    },
+    {
+      "id": "KH02-012",
+      "status": "partial",
+      "integrated": "41-chest set includes Main Road plus twelve Zodiac; separate from55finds and objective 51.",
+      "remaining": "Treasure guides independently certify41 physical chests but not the save-lineage trigger when Zodiac is retained and ordinary chests reset; no cross-run union inferred.",
+      "consultedSources": [
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.truetrophies.com/t159961/treasure-hunter-trophy",
+        "https://www.playstationtrophies.org/forum/topic/283141-kingdom-hearts-02-birth-by-sleep-treasure-hunter-trophy-walkthrough/"
+      ]
+    },
+    {
+      "id": "KH02-013",
+      "status": "partial",
+      "integrated": "Magic Situation Command set normalized to Firaja, Blizzaja, Thundaja; matching lower magic builds offers.",
+      "remaining": "All three are documented, but partial-set accumulation across NG+/unrelated saves is not described. Safe guidance uses each in one lineage.",
+      "consultedSources": [
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder"
+      ]
+    },
+    {
+      "id": "KH02-014",
+      "status": "resolved",
+      "integrated": "Gear acquisition timing, magic/movement/Prism Rain/styles and all inspected defensive defaults are integrated. Barrier, Counter Blast, Cartwheel, Aerial Recovery and Curaga are default. Innate single-hit/combo survival and non-Critical Curaga invulnerability are distinguished; Critical single-hit protection fails at critical HP. Steam immediate Finish versus PS4 refill remains explicit.",
+      "remaining": "The identified combat-tool/default/acquisition/difficulty gap is resolved from explicit 0.2 sections; BBS/KH3 values and invulnerability frame counts are not imported.",
+      "consultedSources": [
+        "https://www.khwiki.com/Doubleflight",
+        "https://www.khwiki.com/Air_Slide",
+        "https://www.khwiki.com/Prism_Rain",
+        "https://www.khwiki.com/Spellweaver",
+        "https://www.khwiki.com/Wayfinder_(ability)",
+        "https://www.khwiki.com/Difficulty_Level",
+        "https://www.khwiki.com/Fire",
+        "https://www.khwiki.com/Blizzard",
+        "https://www.khwiki.com/Thunder",
+        "https://www.khwiki.com/Barrier",
+        "https://www.khwiki.com/Counter_Blast",
+        "https://www.khwiki.com/Cartwheel",
+        "https://www.khwiki.com/Aerial_Recovery",
+        "https://www.khwiki.com/Cure",
+        "https://www.khwiki.com/Second_Chance",
+        "https://www.khwiki.com/Leaf_Bracer",
+        "https://www.khwiki.com/Withstand_Combo"
+      ]
+    },
+    {
+      "id": "KH02-015",
+      "status": "partial",
+      "integrated": "Enhanced Phantom block/dodge/opening advice and five-round reset behavior integrated.",
+      "remaining": "Game:Phantom Aqua still flags missing/incomplete numeric statistics; HD guide strategy is qualitative and not a Steam difficulty-scaled HP/damage table. No invented stats.",
+      "consultedSources": [
+        "https://www.khwiki.com/Game:Phantom_Aqua",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      ]
+    },
+    {
+      "id": "KH02-016",
+      "status": "partial",
+      "integrated": "All 15 officialSteam subset goals preserved; Proud Player/Critical Competitor names distinguished; Steam versusPS4 Spellweaver behavior corrected.",
+      "remaining": "Public listing lacks native API keys; PSN/Xbox IDs/tiers and Epic availability not certified. October 8 editions are unreleased on October 1, so their build behavior cannot be asserted.",
+      "consultedSources": [
+        "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+        "https://www.khwiki.com/Trophies",
+        "https://www.khwiki.com/Spellweaver"
+      ]
+    },
+    {
+      "id": "KH02-017",
+      "status": "resolved",
+      "integrated": "C/L/W/F/D/S row citations propagate into chest records; gem guides, flowerSteam source and memory routes retained. Per-conflict caveats survive on all three affected Forest rows. Objective sources/instructions/caveats propagate to wardrobe.",
+      "remaining": "No remaining identified generator provenance omission.",
+      "consultedSources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://www.khwiki.com/Game:Realm_of_Darkness"
+      ]
+    },
+    {
+      "id": "KH02-018",
+      "status": "resolved",
+      "integrated": "Difficulty reference, four-slot/default distinction, objective 51 Critical-only, Divine Back/Astral Ornament and Darkness/Darksides aliases propagated. Objective-to-cosmetic combat/replay instructions now shared.",
+      "remaining": "No remaining identified researched-context omission.",
+      "consultedSources": [
+        "https://www.khwiki.com/Difficulty_Level",
+        "https://www.khwiki.com/Wardrobe_(KH0.2)",
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      ]
+    }
+  ]
+}

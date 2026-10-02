@@ -1,6 +1,6 @@
 # Editions, evidence and conflicts
 
-Audited 2026-09-28. [Pack index](README.md).
+Updated 2026-10-01. [Pack index](README.md).
 
 ## Release baseline
 
@@ -47,12 +47,18 @@ Other corrections and boundaries:
 - Darkball is unavailable to **Sora** in Re:CoM, but is in **Riku's Atlantica** preset and enables Duel Trigger. Never import its GBA Sora entry. [Enemy Card](https://www.khwiki.com/Enemy_Card).
 - The [PS3 Journal walkthrough](https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories-PS3/walkthrough/5) lists some world-card grants as “Complete 7F.” That conflicts with the late-world group being playable on 7F after the 6F Larxene event. Use world floor ranges and the World Cards story section; do not import that event label.
 - The platform's Bee Buster description says **Bumble-Buster**; the minigame reference calls it **Bumble-Rumble**. Keep both aliases. Initial-clear bee counts and the 70-bee achievement target are different conditions.
-- Gold/Platinum acquisition belongs after ordinary collection completion. Available sources differ in wording about floor and sequence; no “13F only” restriction is adopted. Keep both outside the ordinary Card Master denominator pending a modern roster audit.
+- Gold becomes available after the other 150 Sora card types; Platinum follows in another new eligible Bounty chest, after earlier world rewards. No “13F only” restriction is adopted. The 152-type roster is resolved; exact Steam Card Master trigger code remains separate.
 
 ## Evidence standard
 
 Primary Steam evidence supports product contents and public achievement names/descriptions. KHWiki, GameFAQs, TrueTrophies and Steam user guides are community sources. Several pages within one wiki are **not independent corroboration**, and a Steam user guide is not publisher documentation.
 
-The prior [KHTABLES audit](../../sources/khtables-drive-audit.md) lists no dedicated CoM workbook. Local documentation searches found incidental mentions but no CoM spec, readiness file or catalog. This pass did **not** re-query connected Drive; it does not claim that no private source exists.
+The prior [KHTABLES audit](../../sources/khtables-drive-audit.md) lists no dedicated CoM workbook. The initial September 28 local search predated this dedicated spec/readiness/catalog and is historical. This pass did **not** re-query connected Drive; it does not claim that no private source exists.
 
 Facts and numeric tables are recorded with provenance; guide prose is newly written. External images were not acquired for production. The official PS3 manual was discovered, but its web fetch failed, so it is a lead rather than inspected primary mechanics evidence. See [manifest](source-manifest.json) for accessible sections and blocked/partial sources.
+
+## October 1 source conflicts and provenance
+
+The [Level](https://www.khwiki.com/Level) and [Sleight](https://www.khwiki.com/Sleight) remake tables select Zantetsuken at 22/Sonic Blade at 27; the individual Zantetsuken page and Destiny Islands Sora table contain contrary 27/GBA landmarks and were not adopted. Ursula’s source B11F body/tentacle row conflicts with Riku’s Atlantica placement: the combat catalog preserves the conflict and leaves that Riku floor null. Replica’s two duel timer alternatives lack an encounter mapping; they are not emitted as one unconditional timer.
+
+All 51 baseline manifest omissions have fresh access attempts (47 direct successes/four failures, with FAQ 55459 additionally recovered through web retrieval), with 269 direct URL attempts, plus separately listed web inspections in this pass. The old inspection dates/hashes remain historical; a new successful retrieval does not reconstruct September 28 inspection or independently certify all earlier claims. See the [full disposition ledger](research-resolution-2026-10-01.md).

@@ -1,32 +1,32 @@
 # KH2FM materials, equipment and progression acquisitions
 
-Research snapshot: 2026-09-18. Synthesis is a first-class module. Follow [synthesis and opt-in inventory](../../content/synthesis-and-inventory.md): checklist completion works without inventory entry; when enabled, recipe ingredients show owned/required (`x/y`) and shortage quantities. There is no Available Now filter or plot-gate tracker. Display necessary prerequisites as text.
+Research snapshot: 2026-10-01. Current per-finding status is in [the resolution ledger](research-resolution-2026-10-01.md). Synthesis is a first-class module. Follow [synthesis and opt-in inventory](../../content/synthesis-and-inventory.md): checklist completion works without inventory entry; when enabled, recipe ingredients show owned/required (`x/y`) and shortage quantities. There is no Available Now filter or plot-gate tracker. Display necessary prerequisites as text.
 
 ## Material coverage and meaningful farming rules
 
-The material index contains **60 types**: fourteen four-tier families (Blazing, Frost, Lightning, Lucid, Power, Dark, Dense, Twilight, Mythril, Bright, Energy, Serenity, Remembrance, Tranquility), plus Orichalcum, Orichalcum+, Manifest Illusion and Lost Illusion. Legacy `Tranquil` names should normalize to `Tranquility`. The count is corroborated by the [material index](https://www.khwiki.com/Synthesis_material), but its Manifest Illusion rank conflicts with the item page. Do not derive recipes or rank rewards from that index alone.
+The material index contains **60 types**: fourteen four-tier families (Blazing, Frost, Lightning, Lucid, Power, Dark, Dense, Twilight, Mythril, Bright, Energy, Serenity, Remembrance, Tranquility), plus Orichalcum, Orichalcum+, Manifest Illusion and Lost Illusion. Legacy `Tranquil` names should normalize to `Tranquility`. The count is corroborated by the [material index](https://www.khwiki.com/Synthesis_material), with the aggregate index’s Manifest Illusion rank rejected in favor of Final Mix rank A; Lost Illusion is S. The complete 60-rank mapping and 54 collector predicates are now in `verified-audit-expansion.json`. Do not derive recipes from the aggregate index alone.
 
 These are base drop probabilities, not party-adjusted chances. Each cell lists enemy → chance in percent. Enemy area/spawn conditions remain a separate source relation; the legacy SQL generally records only worlds.
 
 | Material family | Shard | Stone | Gem | Crystal |
 |---|---|---|---|---|
-| [Blazing](https://www.khwiki.com/Blazing) | Hammer Frame 10; Minute Bomb 6 | Cannon Gun 6; Tornado Step 8 | Fat Bandit 12; Fiery Globe 4 | Crescendo 6; Crimson Jazz 12 |
-| [Frost](https://www.khwiki.com/Frost) | Hook Bat 6; Lance Soldier 10 | Aeroplane 8; Hot Rod 12 | Fortuneteller 8; Icy Cube 4 | Living Bone 12 |
-| [Lightning](https://www.khwiki.com/Lightning) | Bolt Tower 10; Rapid Thruster 4 | Driller Mole 6; Emerald Blues 10 | Armored Knight 12; Surveillance Robot 8 | Devastator 4; Strafer 6 |
-| [Lucid](https://www.khwiki.com/Lucid) | Rabid Dog 6; Trick Ghost 10 | Graveyard 12; Toy Soldier 12; Wight Knight 8 | Bookmaster 10; Magnum Loader 8 | Neoshadow 8 |
-| [Power](https://www.khwiki.com/Pulsing) | Creeper Plant 8; Large Body 12 | Luna Bandit 8; Silver Rock 6 | Aerial Knocker 8; Shaman 10 | Morning Star 12 |
-| [Dense](https://www.khwiki.com/Betwixt) | Creeper 8; Dragoon 12 | Sniper 12 | Samurai 12 | Berserker 12 |
-| [Twilight](https://www.khwiki.com/Twilight) | Dusk 10; Gambler 12 | Dancer 12 | Assassin 12 | Sorcerer 12 |
-| [Energy](https://www.khwiki.com/Wellspring) | Bolt Tower, Gargoyle Knight, Gargoyle Warrior, Nightwalker: 4 each | Hammer Frame, Lance Soldier, Trick Ghost: 4 each | Emerald Blues, Fortuneteller: 4 each | Bookmaster, Shaman: 4 each |
-| [Remembrance](https://www.khwiki.com/Remembrance) | Beffudler 6; Iron Hammer 10; Camo Cannon 6 | Aerial Viking 6; Magic Phantom, Lance Warrior, Necromancer: 10 each | Spring Metal, Runemaster: 10; Mad Ride 12 | Reckless 12 |
+| [Blazing](https://www.khwiki.com/Blazing) | Hammer Frame 10%; Minute Bomb 6% | Cannon Gun 6%; Tornado Step 8% | Fat Bandit 12%; Fiery Globe 4% | Crescendo 6%; Crimson Jazz 12% |
+| [Frost](https://www.khwiki.com/Frost) | Hook Bat 6%; Lance Soldier 10% | Aeroplane 8%; Hot Rod 12% | Fortuneteller 10%; Icy Cube 4% | Living Bone 12% |
+| [Lightning](https://www.khwiki.com/Lightning) | Bolt Tower 10%; Rapid Thruster 4% | Driller Mole 6%; Emerald Blues 10% | Armored Knight 4%; Surveillance Robot 6% | Devastator 12%; Strafer 8% |
+| [Lucid](https://www.khwiki.com/Lucid) | Rabid Dog 6%; Trick Ghost 10% | Graveyard 12%; Toy Soldier 12%; Wight Knight 8% | Bookmaster 10%; Magnum Loader 8% | Neoshadow 8% |
+| [Power](https://www.khwiki.com/Pulsing) | Creeper Plant 8%; Large Body 12% | Luna Bandit 8%; Silver Rock 6% | Aerial Knocker 8%; Shaman 10% | Morning Star 12% |
+| [Dense](https://www.khwiki.com/Betwixt) | Creeper 8%; Dragoon 12% | Sniper 12% | Samurai 12% | Berserker 12% |
+| [Twilight](https://www.khwiki.com/Twilight) | Dusk 10%; Gambler 12% | Dancer 12% | Assassin 12% | Sorcerer 12% |
+| [Energy](https://www.khwiki.com/Wellspring) | Bolt Tower 4%; Gargoyle Knight 4%; Gargoyle Warrior 4%; Nightwalker 4% | Hammer Frame 4%; Lance Soldier 4%; Trick Ghost 4% | Emerald Blues 4%; Fortuneteller 4% | Bookmaster 4%; Shaman 4% |
+| [Remembrance](https://www.khwiki.com/Remembrance) | Beffudler 6%; Iron Hammer 10%; Camo Cannon 6% | Aerial Viking 6%; Magic Phantom 10%; Lance Warrior 10%; Necromancer 10%; Aerial Champ 8% | Spring Metal 10%; Runemaster 10%; Mad Ride 12% | Reckless 12% |
 
-Dark and the complete Bright source table remain extraction/normalization work. Sources often redirect family names to KHIII-era names (Power→Pulsing, Dense→Betwixt, Bright→Soothing, Energy→Wellspring, Serenity→Hungry); select the KHII section and retain KH2 display names. A redirect or disambiguation title must never silently rename the game's materials.
+Dark and the complete Bright source tables are integrated in `verified-material-sources.json`; that file is authoritative for the full drop inventory, including Driller Mole’s Bright Stone at 3%. Sources often redirect family names to KHIII-era names (Power→Pulsing, Dense→Betwixt, Bright→Soothing, Energy→Wellspring, Serenity→Hungry); select the KHII section and retain KH2 display names. A redirect or disambiguation title must never silently rename the game's materials.
 
 Final Mix's Serenity sources differ materially from the original game: the original Nobody Serenity drops are replaced. Crystals are available through Bulky Vendor, rewards and synthesis; higher-tier Cavern enemies provide Gems. The legacy source list must not recommend Assassin/Sorcerer as Serenity Crystal farms. [Serenity/Final Mix obtainment](https://www.khwiki.com/Hungry).
 
 Mushroom XIII provides Tranquility tiers according to rank: Shard at E or better, Stone D+, Gem C+, Crystal B+; A/S yield two Crystals in the inspected summary. Keep rank reward tiers separate from the Journal target for appeasing a mushroom. [Tranquility](https://www.khwiki.com/Tranquility).
 
-Bulky Vendor is an interaction source, not a normal enemy kill: trigger it by using/breaking scenery after the rare-Heartless message, then select the reaction command at the relevant HP tier. Candidate rooms are Agrabah Bazaar, Halloween Town Candy Cane Lane, Land of Dragons Checkpoint, Beast's Castle West Hall, and Olympus Cave of the Dead: Entrance. Room/edition-specific reported spawn bugs need independent validation before becoming route instructions. [Bulky Vendor](https://www.khwiki.com/Bulky_Vendor).
+Bulky Vendor is an interaction source, not a normal enemy kill: trigger it by using/breaking scenery after the rare-Heartless message, then select the reaction command at the relevant HP tier. Candidate rooms are Agrabah Bazaar, Halloween Town Candy Cane Lane, Land of Dragons Checkpoint, Beast's Castle West Hall, and Olympus Cave of the Dead: Entrance. The current runtime gives all five scenery actions and a sourced reset route. The old Bazaar second-Vendor disappearance report has not been corroborated for Steam and is not presented as a universal modern behavior. [Bulky Vendor](https://www.khwiki.com/Bulky_Vendor).
 
 Lost Illusion is repeatably sourced from the five Castle Oblivion members' Data fights; the corresponding Absent Silhouettes, Garden chest and collector reward are distinct one-time sources. Manifest Illusion has Cavern chest, puzzle/collector, synthesis and Lingering Will routes. Treat one-time stock and repeatable farms separately. [Illusion](https://www.khwiki.com/Illusion).
 
@@ -42,17 +42,17 @@ Lost Illusion is repeatably sourced from the five Castle Oblivion members' Data 
 | Olympus Coliseum | Win Goddess of Fate Cup |
 | Moogle collection reward | Obtain every material type and claim the reward |
 
-The seven-source set is corroborated by [Orichalcum](https://www.khwiki.com/Orichalcum). Three are chest-linked, four are direct reward acquisitions. They must not be counted again merely because the material checklist links to them. Exact chest landmarks, musical access prerequisites, the collector threshold excluding its own reward, and claim timing still need explicit record-level verification.
+The seven-source set is corroborated by [Orichalcum](https://www.khwiki.com/Orichalcum). Three are chest-linked, four are direct reward acquisitions. They must not be counted again merely because the material checklist links to them. The collector needs all 60 deposited material types, including an Orichalcum+ obtained from another of the six sources. Leave and re-enter synthesis to deposit newly awarded material. The current record includes these actions and the musical prerequisites. This closes the old guessed 59-versus-60 predicate.
 
 ## Moogle and recipe rules
 
-Levels 2/3 enable Bright/Energy and Serenity respectively; level 4 permits two modifier types. Levels 5/6/7/9 reduce costs for C/B/A/S products, and level 8 opens the advanced Free Development group. Five collected material types unlock the initial equipment group; twenty unlock the second group and Mythril Shard/Stone. Bright affects EXP, Energy cost, Serenity output. [Synthesis](https://www.khwiki.com/Synthesis).
+Levels 2/3 enable Bright/Energy and Serenity respectively; level 4 permits two modifier types. Levels 5/6/7/9 reduce costs for C/B/A/S products, and level 8 opens the advanced Free Development group. Five collected material types unlock the initial equipment group; twenty unlock the second group and Mythril Shard/Stone. Bright doubles recipe EXP; Energy affects cost and Serenity output. Cumulative Moogle EXP thresholds are 0, 40, 100, 180, 280, 480, 830, 1330 and 1980. Level 4 permits two different modifier types together. [Synthesis](https://www.khwiki.com/Synthesis).
 
-[The 30-base-recipe catalog](synthesis-recipes.md) supplies concrete ingredients, upgrades, unlocks and conflicts. Reject legacy aggregate `Needed` values. A useful undiscounted fixture, assuming Draw Ring's prerequisite creation is already satisfied: four Lucky Rings request Manifest Illusion 4, Remembrance Shard 12, Bright Gem 12, Bright Stone 20, Bright Shard 36 and Serenity Crystal 4. This is a multiplication fixture, not an optimized farming total; Energy/Moogle choices change the paid quantities. [Draw Ring](https://www.khwiki.com/Draw_Ring).
+[The 30-base-recipe catalog](synthesis-recipes.md) supplies concrete ingredients, upgrades and unlocks. Every base row and all 59 outputs have been reconciled against the pinned Final Mix randomizer recipe input, with its source-derived status explicit. Reject legacy aggregate `Needed` values. A useful undiscounted fixture, assuming Draw Ring's prerequisite creation is already satisfied: four Lucky Rings request Manifest Illusion 4, Remembrance Shard 12, Bright Gem 12, Bright Stone 20, Bright Shard 36 and Serenity Crystal 4. This is a multiplication fixture, not an optimized farming total; Energy/Moogle choices change the paid quantities. [Draw Ring](https://www.khwiki.com/Draw_Ring).
 
 ## Equipment acquisition inventory
 
-[Equipment candidates](equipment-candidates.md) retain all 24 Keyblade, 12 staff, 12 shield, 34 armor and 33 accessory legacy names with row references. The 12 staff/12 shield lists omit Final Mix additions and cannot certify full inventories. Armor/accessory counts are candidates, not a substitute for acquisition/stat verification.
+[Equipment candidates](equipment-candidates.md) preserve historical row provenance. `verified-equipment.json` now contains 131 persistent equipment identities: 24 Keyblades, 20 staves, 20 shields, 34 armor and 33 accessories. It records Final Mix stats, abilities, prices, acquisition and applicable drop/reward tiers. Purchasable records name vendor worlds; visiting a world’s shop copies its unique stock to Radiant Garden/Twilight Town shops. Exact room/stage conditions remain qualified where not supplied by the inspected item tables.
 
 | Sora Keyblade | Acquisition | Evidence |
 |---|---|---|
@@ -83,7 +83,7 @@ Levels 2/3 enable Bright/Energy and Serenity respectively; level 4 permits two m
 
 Final Mix farming corrections: Sweet Memories grants Drive Converter and +4 Magic, Meteor Staff grants Thunder Boost, and Genji Shield grants Hyper Healing. Their original-game Lucky Lucky abilities in legacy equipment rows are wrong for this baseline. [Sweet Memories](https://www.khwiki.com/Sweet_Memories), [Meteor Staff](https://www.khwiki.com/Meteor_Staff), [Genji Shield](https://www.khwiki.com/Genji_Shield).
 
-Do not automatically treat an equipment purchase/synthesis record as permanent current possession. Acquisition/crafted-once completion and optional inventory are different facts. The prologue Medal condition (lose to Setzer) and Champion Belt alternative require explicit scope and missability records; do not add a narrative Struggle walkthrough.
+Do not automatically treat an equipment purchase/synthesis record as permanent current possession. Acquisition/crafted-once completion and optional inventory are different facts. The prologue Medal (lose to Setzer) and Champion Belt (win) are mutually exclusive reference entries, not two mandatory collection goals. Dark Anklet has a retained source conflict: the Moogle Shop article calls it missable if Mogjiro is never visited before the Badlands portal, whereas the Armor overview names only Champion Belt as missable. The conservative visit instruction is supplied without asserting universal missability.
 
 ## Drive Forms, Growth and ability access
 
@@ -95,7 +95,7 @@ Do not automatically treat an equipment purchase/synthesis record as permanent c
 | [Master](https://www.khwiki.com/Master_Form) | Mickey reunion in Hollow Bastion | Small Drive orb 1; large 3 | Aerial Dodge |
 | [Final](https://www.khwiki.com/Final_Form) | After Roxas; first random activation unlocks menu use | Nobody defeats | Glide |
 
-Standard Sora gains Growth levels 1/2/3 at the corresponding Form levels 3/5/7; MAX Growth is a form's own ability, not standard Sora's level 4. The inspected [abilities table](https://www.khwiki.com/Abilities_(KHII)) contains 100 action rows, 20 Growth rows and 47 support rows, including form/party/version-specific variants. These 167 rows are not 167 independently collectible Sora abilities. Normalize character, form, level-choice, equipment and Critical-only grant conditions before counting. Ability AP costs and acquisition mapping remain partial; the legacy Abilities tab contains no values.
+Standard Sora gains Growth levels 1/2/3 at the corresponding Form levels 3/5/7; MAX Growth is a form's own ability, not standard Sora's level 4. The inspected [abilities table](https://www.khwiki.com/Abilities_(KHII)) contains 100 action rows, 20 Growth rows and 47 support rows, including form/party/version-specific variants. These 167 rows are not 167 independently collectible Sora abilities. These 167 definitions now carry character/Form scope, Final Mix AP, numeric effects and sourced acquisition conditions, with level-choice/Critical footnotes expanded. They are read-only references, not 167 mandatory Sora goals. All five Form EXP curves and cap rules are integrated. Final Form’s first replacement probabilities are 3%, 9%, 27%, 75%; original KHII’s different progression is rejected. Final Mix Lucky Lucky uses the sourced factor 1 + 0.5 × equipped active-party copies; displayed enemy drops remain base probabilities.
 
 ## Magic and summon acquisitions
 
@@ -110,4 +110,4 @@ Magic is granted as **element upgrades**; a fixed route does not prove which nam
 | [Magnet](https://www.khwiki.com/Magnet) | Oogie Boogie; Grim Reaper; Luxord in Final Mix |
 | [Reflect](https://www.khwiki.com/Reflect) | Timeless River Pete; Xaldin; MCP |
 
-Four summon charms: Baseball/Chicken Little from Merlin's explanation of Pooh's damaged book; Lamp/Genie after the first Agrabah visit; Ukulele/Stitch in Ansem's Study's chest; Feather/Peter Pan in Interceptor's Hold's chest. The two chest charms link existing treasure state. Peter Pan and Tinker Bell are one charm acquisition, not two. [Summon Charms](https://www.khwiki.com/Summon_Charms). Summon EXP/level thresholds and exact party-use restrictions remain research tasks for the separate progression tool.
+Four summon charms: Baseball/Chicken Little from Merlin's explanation of Pooh's damaged book; Lamp/Genie after the first Agrabah visit; Ukulele/Stitch in Ansem's Study's chest; Feather/Peter Pan in Interceptor's Hold's chest. The two chest charms link existing treasure state. Peter Pan and Tinker Bell are one charm acquisition, not two. [Summon Charms](https://www.khwiki.com/Summon_Charms). Summoning requires three Drive bars and two party members present; unconscious allies still qualify. Shared EXP rises by one per consumed summon-gauge bar, with four charms allowing level 7 and 250 cumulative EXP. Cumulative FM EXP is 0/6/22/47/89/152/250 and caps by one/two/three/four charms are 3/4/5/7. The explicitly FM OpenKH binary fixture and separate PC ReFined cap implementation corroborate these values; original guide cross-listing alone was not used. Exact pinned URLs, parser format and hash remain in the expansion evidence.

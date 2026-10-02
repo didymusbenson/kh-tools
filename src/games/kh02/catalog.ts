@@ -12,7 +12,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://guiding-key.tumblr.com/kh0.2-locations"
     ]
   },
   {
@@ -26,7 +27,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Castle Town Area Map",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://guiding-key.tumblr.com/kh0.2-locations"
     ]
   },
   {
@@ -74,17 +76,18 @@ export const entries: CollectionEntry[] = [
   {
     "id": "kh02:ct-lower-ether",
     "category": "treasures",
-    "name": "Ether · Castle Town",
-    "summary": "Lower district reached from the descending crystal route. Exact route-to-content cross-check pending.",
+    "name": "Ether · Castle Town lower passage",
+    "summary": "Descend into the underground passage; open the chest beside the northern lamppost.",
     "character": "Aqua",
     "world": "Castle Town",
-    "area": "Castle Town",
+    "area": "Castle Town lower passage",
     "reward": "Ether",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ],
-    "uncertainty": "Contents-to-landmark identification needs further documentary verification."
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://guiding-key.tumblr.com/kh0.2-locations",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ]
   },
   {
     "id": "kh02:ww-map",
@@ -97,38 +100,41 @@ export const entries: CollectionEntry[] = [
     "reward": "The World Within Area Map",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
     ]
   },
   {
     "id": "kh02:ww-pillar-potion",
     "category": "treasures",
     "name": "Potion · Mirror-floor / pillar labyrinth",
-    "summary": "One of two gravity-route chests; see paired-route note below.",
+    "summary": "Invert the first pillar room, then check the right side of the first breakable pillar.",
     "character": "Aqua",
     "world": "The World Within",
     "area": "Mirror-floor / pillar labyrinth",
     "reward": "Potion",
-    "instructions": "The two routes are beside the first struck pillar after inversion and near the exit after the second inversion.",
+    "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ],
-    "uncertainty": "The Potion/Hi-Potion contents-to-route pairing is unresolved. The two checklist entries represent two separate physical chests."
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ]
   },
   {
     "id": "kh02:ww-pillar-hi-potion",
     "category": "treasures",
     "name": "Hi-Potion · Mirror-floor / pillar labyrinth",
-    "summary": "Other gravity-route chest; see paired-route note below.",
+    "summary": "During the second inverted section, open the chest beside the exit mirror.",
     "character": "Aqua",
     "world": "The World Within",
     "area": "Mirror-floor / pillar labyrinth",
     "reward": "Hi-Potion",
-    "instructions": "The two routes are beside the first struck pillar after inversion and near the exit after the second inversion.",
+    "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ],
-    "uncertainty": "The Potion/Hi-Potion contents-to-route pairing is unresolved. The two checklist entries represent two separate physical chests."
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ]
   },
   {
     "id": "kh02:ww-stairs-hi-potion",
@@ -141,7 +147,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
     ]
   },
   {
@@ -155,7 +162,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
     ]
   },
   {
@@ -169,7 +177,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Mega-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://guiding-key.tumblr.com/kh0.2-locations"
     ]
   },
   {
@@ -183,7 +192,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Mega-Ether",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
     ]
   },
   {
@@ -197,37 +207,40 @@ export const entries: CollectionEntry[] = [
     "reward": "Megalixir",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/"
     ]
   },
   {
     "id": "kh02:ft-map",
     "category": "treasures",
     "name": "Forest of Thorns Area Map · Uncertain Path",
-    "summary": "At the first save-point approach.",
+    "summary": "From the Uncertain Path save point, clear the ivy on the entrance route.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Uncertain Path",
     "reward": "Forest of Thorns Area Map",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
     "id": "kh02:ft-start-ledge-potion",
     "category": "treasures",
-    "name": "Potion · Forest of Thorns",
-    "summary": "Raised ledge beyond a save point, sealed by red ivy; burn ivy with Firaga. Exact save-point label needs validation.",
+    "name": "Potion · Rocky Path",
+    "summary": "Between the first and second Darksides, take the rising left branch; Doubleflight to the eastern red-ivy ledge and clear it with Firaga.",
     "character": "Aqua",
     "world": "Forest of Thorns",
-    "area": "Forest of Thorns",
+    "area": "Rocky Path",
     "reward": "Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ],
-    "uncertainty": "Contents-to-landmark identification needs further documentary verification."
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ]
   },
   {
     "id": "kh02:ft-north-potion",
@@ -240,77 +253,87 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ]
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ],
+    "uncertainty": "KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion."
   },
   {
     "id": "kh02:ft-ring-potion",
     "category": "treasures",
     "name": "Potion · Rocky Path circular section",
-    "summary": "Inside the ring route, behind red ivy; use Firaga.",
+    "summary": "In the southern recess of the ring-shaped thicket, behind red ivy.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path circular section",
     "reward": "Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://guiding-key.tumblr.com/kh0.2-locations",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
     "id": "kh02:ft-gap-hi-potion",
     "category": "treasures",
     "name": "Hi-Potion · Rocky Path",
-    "summary": "High ledge across the large gap on the right of the broad area; Doubleflight/Air Slide route.",
+    "summary": "After the second Darkside, climb to the raised main path, jump onto the low tan wall on the right, then cross east to the isolated Fluttering platform.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path",
     "reward": "Hi-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
     "id": "kh02:ft-left-hi-potion",
     "category": "treasures",
     "name": "Hi-Potion · Rocky Path",
-    "summary": "Open side area left of the broad area.",
+    "summary": "Drop left from the raised main path to the optional third Darkside; check behind it.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path",
     "reward": "Hi-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
     "id": "kh02:ft-spiral-mega-potion",
     "category": "treasures",
     "name": "Mega-Potion · Uncertain Path spiral tree",
-    "summary": "Ride the optional spiral ivy, then jump to the high adjacent platform.",
+    "summary": "Ride the optional vertical ivy rail; jump onto the high platform on the left.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Uncertain Path spiral tree",
     "reward": "Mega-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
     "id": "kh02:ft-ring-mega-potion",
     "category": "treasures",
     "name": "Mega-Potion · Rocky Path",
-    "summary": "Open space beyond the circular section.",
+    "summary": "Beyond the ring-shaped thicket, turn right at the raised Terra/Ventus sighting; clear red ivy and enemies to the eastern end.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path",
     "reward": "Mega-Potion",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ]
   },
   {
@@ -324,8 +347,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ]
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ],
+    "uncertainty": "KHWiki says Ether; the Steam guide says Mega-Ether at the same save-point ivy."
   },
   {
     "id": "kh02:ft-steps-ether",
@@ -338,8 +364,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
-    ]
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
+    ],
+    "uncertainty": "KHWiki stone-step Ether cannot be securely joined to the Steam guide’s elevated second-Darkside Ether."
   },
   {
     "id": "kh02:dd-map",
@@ -352,7 +380,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Depths of Darkness Area Map",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/"
     ]
   },
   {
@@ -380,7 +409,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Mega-Ether",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/"
     ]
   },
   {
@@ -408,7 +438,8 @@ export const entries: CollectionEntry[] = [
     "reward": "Elixir",
     "instructions": "Open the chest.",
     "sources": [
-      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/"
     ]
   },
   {
@@ -427,7 +458,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -446,7 +479,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -465,7 +500,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -484,7 +521,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -503,7 +542,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -522,7 +563,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -541,7 +584,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -560,7 +605,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -579,9 +626,10 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
-    ],
-    "uncertainty": "Sources disagree between initial staircase arrival and the end of the stairs. Check behind Aqua at arrival first; the exact staircase state is unresolved."
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
+    ]
   },
   {
     "id": "kh02:ft-taurus",
@@ -599,7 +647,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -618,7 +668,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -637,7 +689,9 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear, or New Game Plus seeded from clear data.",
     "missability": "Previously acquired Zodiac relics carry into NG+; their chests remain open.",
     "sources": [
-      "https://www.khwiki.com/Zodiac_symbols"
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/"
     ]
   },
   {
@@ -649,9 +703,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -663,9 +719,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -677,9 +735,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -691,9 +751,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -705,9 +767,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -719,9 +783,11 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
@@ -733,53 +799,55 @@ export const entries: CollectionEntry[] = [
     "world": "The World Within",
     "area": "Mines",
     "instructions": "Collect the visible gem. All seven together satisfy objective 29, Gem Gatherer.",
-    "missability": "Collect all seven before leaving the mines and retain a pre-sequence save. Re-entry and NG+ retention are not verified; permanent missability is not established.",
+    "missability": "The mines are revisited after clear for Leo and Libra. Partial gem collection persistence and NG+ gem reset remain undocumented; collect all seven in one visit.",
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/"
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-29-gem-gatherer/",
+      "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-where-to-find-all-7-gems-for-objective-29/"
     ]
   },
   {
     "id": "kh02:ft-flower-01",
     "category": "flowers",
-    "name": "Flower 01",
+    "name": "Green flower",
     "summary": "Beyond the first optional spiral log, burn the red ivy. At the fork continue straight into the chest/Heartless clearing; search its left edge.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Uncertain Path",
     "instructions": "Use Firaga to remove red ivy. All three flowers satisfy objective 34, Fairy Bouquet.",
     "missability": "The researched guide supports returning through save-point teleportation.",
-    "uncertainty": "Route labels are editorial; colors are not assigned because the color-to-route mapping is not verified.",
     "sources": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/"
     ]
   },
   {
     "id": "kh02:ft-flower-02",
     "category": "flowers",
-    "name": "Flower 02",
+    "name": "Blue flower",
     "summary": "Past the second save point and second Darkside: beside stone stairs on the right, take the dead end left of the Darkside.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path",
     "instructions": "Use Firaga to remove red ivy. All three flowers satisfy objective 34, Fairy Bouquet.",
     "missability": "The researched guide supports returning through save-point teleportation.",
-    "uncertainty": "Route labels are editorial; colors are not assigned because the color-to-route mapping is not verified.",
     "sources": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/"
     ]
   },
   {
     "id": "kh02:ft-flower-03",
     "category": "flowers",
-    "name": "Flower 03",
+    "name": "Red flower",
     "summary": "Just before the Darkside gauntlet, turn back and choose the left branch; remove ivy to reach the flower on the right.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path",
     "instructions": "Use Firaga to remove red ivy. All three flowers satisfy objective 34, Fairy Bouquet.",
     "missability": "The researched guide supports returning through save-point teleportation.",
-    "uncertainty": "Route labels are editorial; colors are not assigned because the color-to-route mapping is not verified.",
     "sources": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/"
     ]
   },
@@ -787,16 +855,16 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:ct-memory",
     "category": "memories",
     "name": "Blue slipper",
-    "summary": "Rooftop/awning around the central plaza. Exact building needs validation.",
+    "summary": "Roof of the northernmost western house by the plaza; use the elevated building route and Air Slide onto the roof.",
     "character": "Aqua",
     "world": "Castle Town",
     "instructions": "Collect this memory for objective 38.",
     "prerequisites": "First clear or seeded New Game Plus.",
     "sources": [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://guiding-key.tumblr.com/kh0.2-locations"
-    ],
-    "uncertainty": "The exact rooftop/awning building is not verified."
+    ]
   },
   {
     "id": "kh02:ww-memory",
@@ -809,6 +877,7 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear or seeded New Game Plus.",
     "sources": [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://guiding-key.tumblr.com/kh0.2-locations"
     ]
   },
@@ -816,16 +885,16 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:ft-memory",
     "category": "memories",
     "name": "Orange spinning-wheel symbol",
-    "summary": "Ground beneath the optional third Darkside in Rocky Path. One source calls this a sewing machine; retain a visual-label check.",
+    "summary": "Ground beneath the optional third Darkside in Rocky Path. Sleeping Beauty spindle/spinning-wheel symbol; “sewing machine” is an older guide’s imprecise label.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "instructions": "Collect this memory for objective 45.",
     "prerequisites": "First clear or seeded New Game Plus.",
     "sources": [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://guiding-key.tumblr.com/kh0.2-locations"
-    ],
-    "uncertainty": "The orange symbol is also described as a sewing machine by one source; visual object label remains uncertain."
+    ]
   },
   {
     "id": "kh02:dd-memory",
@@ -838,6 +907,7 @@ export const entries: CollectionEntry[] = [
     "prerequisites": "First clear or seeded New Game Plus.",
     "sources": [
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
       "https://guiding-key.tumblr.com/kh0.2-locations"
     ]
   },
@@ -868,7 +938,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -898,7 +969,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -928,7 +1000,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 3,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -958,7 +1031,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -988,7 +1062,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1018,7 +1093,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1048,7 +1124,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1074,12 +1151,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Back · Objective 08: Test of Strength II.",
     "character": "Aqua",
     "area": "Back",
-    "instructions": "Complete objective 08: Level ≥70. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 08: Level ≥70. Mark ownership here when the reward is received; the objective completion check remains separate. Astral Ornament is also called Divine Back in an older guide; these are the same reward, not two cosmetics. Older reward alias: Divine Back.",
     "prerequisites": "#07 complete",
     "collectible": false,
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1109,7 +1187,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1139,7 +1218,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1169,7 +1249,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1199,7 +1280,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1216,7 +1298,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows. Neither threshold is certified."
+    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
   },
   {
     "id": "kh02:wardrobe:mystic-pauldron",
@@ -1230,15 +1312,16 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 13,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
-    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows. Neither threshold is certified."
+    "uncertainty": "Sources conflict between 30 and 50 Lightning final blows, including Steam-era guides. Neither threshold is certified."
   },
   {
     "id": "kh02:objective:14",
     "category": "objectives",
     "name": "14 · Frozen Rail Ride",
-    "summary": "Complete a long ice rail ride; numeric distance unverified.",
+    "summary": "Ride a Blizzaga rail along the Castle Town bridge.",
     "character": "Aqua",
     "reward": "Arms: Flawless Arm Guards",
     "prerequisites": "Magic restored",
@@ -1246,9 +1329,11 @@ export const entries: CollectionEntry[] = [
     "order": 14,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "uncertainty": "Exact hidden travel distance is unknown; no numeric target is invented."
+    "instructions": "At Castle Town’s bridge, walk downhill from the save point to the barrier, face uphill toward the arch, cast Blizzaga along the bridge and ride its ice rail uphill."
   },
   {
     "id": "kh02:wardrobe:flawless-arm-guards",
@@ -1257,20 +1342,22 @@ export const entries: CollectionEntry[] = [
     "summary": "Arms · Objective 14: Frozen Rail Ride.",
     "character": "Aqua",
     "area": "Arms",
-    "instructions": "Complete objective 14: Complete a long ice rail ride; numeric distance unverified. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 14: Ride a Blizzaga rail along the Castle Town bridge. Mark ownership here when the reward is received; the objective completion check remains separate. At Castle Town’s bridge, walk downhill from the save point to the barrier, face uphill toward the arch, cast Blizzaga along the bridge and ride its ice rail uphill.",
     "prerequisites": "Magic restored",
     "collectible": false,
     "order": 14,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
-    ],
-    "uncertainty": "Exact hidden travel distance is unknown; no numeric target is invented."
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+    ]
   },
   {
     "id": "kh02:objective:15",
     "category": "objectives",
     "name": "15 · Ice Breaker",
-    "summary": "Freeze ≥5 enemies; shatter 5; simultaneous rule needs validation.",
+    "summary": "Freeze five enemies together, then shatter all five in one attack.",
     "character": "Aqua",
     "reward": "Pattern: Grace (Purple)",
     "prerequisites": "Magic restored",
@@ -1278,9 +1365,11 @@ export const entries: CollectionEntry[] = [
     "order": 15,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "uncertainty": "Freeze five enemies and shatter five; whether all five must shatter simultaneously is unresolved. Grouping enemies is a practical strategy."
+    "instructions": "Gather five Shadows, freeze them together with Blizzaga, and hit all five at once with Thundaga."
   },
   {
     "id": "kh02:wardrobe:grace-purple",
@@ -1289,14 +1378,16 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 15: Ice Breaker.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 15: Freeze ≥5 enemies; shatter 5; simultaneous rule needs validation. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 15: Freeze five enemies together, then shatter all five in one attack. Mark ownership here when the reward is received; the objective completion check remains separate. Gather five Shadows, freeze them together with Blizzaga, and hit all five at once with Thundaga.",
     "prerequisites": "Magic restored",
     "collectible": false,
     "order": 15,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
-    ],
-    "uncertainty": "Freeze five enemies and shatter five; whether all five must shatter simultaneously is unresolved. Grouping enemies is a practical strategy."
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+    ]
   },
   {
     "id": "kh02:objective:16",
@@ -1325,7 +1416,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 16,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1355,7 +1447,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 17,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1370,7 +1463,9 @@ export const entries: CollectionEntry[] = [
     "order": 18,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts."
   },
@@ -1381,12 +1476,15 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 18: Excellent Aim.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 18: Six consecutive Excellent Shotlock ratings. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 18: Six consecutive Excellent Shotlock ratings. Mark ownership here when the reward is received; the objective completion check remains separate. Prism Rain needs 28 locks for bonus prompts. Six consecutive Excellent ratings span attacks; they need not be exactly two perfect attacks. Each complete attack offers three prompts.",
     "prerequisites": "Shotlock restored",
     "collectible": false,
     "order": 18,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -1401,8 +1499,10 @@ export const entries: CollectionEntry[] = [
     "order": 19,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-    ]
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
+    ],
+    "instructions": "Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:diamond-green",
@@ -1411,12 +1511,14 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 19: Stylish Moves.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 19: Style Change defeats ≥50. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 19: Style Change defeats ≥50. Mark ownership here when the reward is received; the objective completion check remains separate. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "Style Change restored",
     "collectible": false,
     "order": 19,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
     ]
   },
   {
@@ -1431,8 +1533,10 @@ export const entries: CollectionEntry[] = [
     "order": 20,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-    ]
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
+    ],
+    "instructions": "Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:classy-blue",
@@ -1441,12 +1545,14 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 20: A Fine Finish.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 20: Use Spellweaver Finish once. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 20: Use Spellweaver Finish once. Mark ownership here when the reward is received; the objective completion check remains separate. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "Style Change restored",
     "collectible": false,
     "order": 20,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
     ]
   },
   {
@@ -1461,8 +1567,10 @@ export const entries: CollectionEntry[] = [
     "order": 21,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-    ]
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
+    ],
+    "instructions": "Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:ribbons",
@@ -1471,12 +1579,14 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 21: Wardrobe Weaver.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 21: Fill four wardrobe slots; use Spellweaver Finish. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 21: Fill four wardrobe slots; use Spellweaver Finish. Mark ownership here when the reward is received; the objective completion check remains separate. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "Style Change restored",
     "collectible": false,
     "order": 21,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://www.khwiki.com/Spellweaver"
     ]
   },
   {
@@ -1506,7 +1616,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 22,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ]
   },
   {
@@ -1537,7 +1648,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 23,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Castle Town"
   },
@@ -1565,12 +1677,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Back · Objective 24: Top of the Town.",
     "character": "Aqua",
     "area": "Back",
-    "instructions": "Complete objective 24: Reach the town summit. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 24: Reach the town summit. Mark ownership here when the reward is received; the objective completion check remains separate. After restoring the floating platforms with all five gears, use Doubleflight and Air Slide. From the north of the hub, climb the broken arch and rising left ledges to the highest floating structure.",
     "prerequisites": "Start",
     "collectible": false,
     "order": 24,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Castle Town"
   },
@@ -1598,12 +1711,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Arms · Objective 25: Starlit Wish.",
     "character": "Aqua",
     "area": "Arms",
-    "instructions": "Complete objective 25: Observe the summit meteor shower. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 25: Observe the summit meteor shower. Mark ownership here when the reward is received; the objective completion check remains separate. Reach the town summit by the north-side broken arch and rising ledges, then look upward at the meteor shower; wait briefly if necessary.",
     "prerequisites": "Start",
     "collectible": false,
     "order": 25,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Castle Town"
   },
@@ -1619,9 +1733,12 @@ export const entries: CollectionEntry[] = [
     "order": 26,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "world": "The World Within"
+    "world": "The World Within",
+    "instructions": "Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement."
   },
   {
     "id": "kh02:wardrobe:mecha-yellow",
@@ -1630,12 +1747,15 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 26: Heartless That Dwell.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 26: Clear all three small-room combat mirrors. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 26: Clear all three small-room combat mirrors. Mark ownership here when the reward is received; the objective completion check remains separate. Clear the three small chamber mirrors, including the room with the genuine chest; entering alone does not complete the combat requirement.",
     "prerequisites": "Reach World Within",
     "collectible": false,
     "order": 26,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "The World Within"
   },
@@ -1663,12 +1783,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 27: Mystery Within.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 27: Extinguish four candelabra; win resulting encounter. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 27: Extinguish four candelabra; win resulting encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Extinguish all four candelabra in the dark mirror room, then defeat the enemies.",
     "prerequisites": "Reach World Within",
     "collectible": false,
     "order": 27,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -1696,12 +1817,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Arms · Objective 28: Treasure Within.",
     "character": "Aqua",
     "area": "Arms",
-    "instructions": "Complete objective 28: Open the genuine Mega-Ether chest. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 28: Open the genuine Mega-Ether chest. Mark ownership here when the reward is received; the objective completion check remains separate. Inspect the outside mirror and select the chest whose reflection is closed. Open its matching chest inside. This is the World Within Mega-Ether treasure, not a second physical acquisition.",
     "prerequisites": "Reach World Within",
     "collectible": false,
     "order": 28,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -1729,12 +1851,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 29: Gem Gatherer.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 29: Acquire seven mine gems. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 29: Acquire seven mine gems. Mark ownership here when the reward is received; the objective completion check remains separate. Track all seven individual mine gems on the Gems page. Objective completion and wardrobe ownership are separate manual checks.",
     "prerequisites": "Enter mines",
     "collectible": false,
     "order": 29,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -1762,12 +1885,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 30: Connected.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 30: Align the star on moving mine platforms. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 30: Align the star on moving mine platforms. Mark ownership here when the reward is received; the objective completion check remains separate. Stop the moving mine platforms when their markings align into a star.",
     "prerequisites": "Reach star puzzle",
     "collectible": false,
     "order": 30,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -1775,7 +1899,7 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:objective:31",
     "category": "objectives",
     "name": "31 · Queen of the Rink",
-    "summary": "Use Spellweaver Finish during Phantom Aqua.",
+    "summary": "Use Spellweaver Finish during the third story Phantom Aqua encounter.",
     "character": "Aqua",
     "reward": "Head: Royal Tiara",
     "prerequisites": "First Phantom mirror",
@@ -1783,9 +1907,13 @@ export const entries: CollectionEntry[] = [
     "order": 31,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.khwiki.com/Spellweaver"
     ],
-    "world": "The World Within"
+    "world": "The World Within",
+    "instructions": "Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version."
   },
   {
     "id": "kh02:wardrobe:royal-tiara",
@@ -1794,12 +1922,16 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 31: Queen of the Rink.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 31: Use Spellweaver Finish during Phantom Aqua. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 31: Use Spellweaver Finish during the third story Phantom Aqua encounter. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish during the third story Phantom Aqua battle. It need not be the killing blow. A Zodiac substitute is disputed between guides; use the story encounter for a reliable attempt. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "First Phantom mirror",
     "collectible": false,
     "order": 31,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.khwiki.com/Spellweaver"
     ],
     "world": "The World Within"
   },
@@ -1817,7 +1949,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
       "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
-    "world": "Forest of Thorns"
+    "world": "Forest of Thorns",
+    "instructions": "Older guide alias: Defeat the Darkness. The targets are the three path Darksides."
   },
   {
     "id": "kh02:wardrobe:diamond-blue",
@@ -1826,12 +1959,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 32: Defeat the Darksides.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 32: Defeat three path Darksides. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 32: Defeat three path Darksides. Mark ownership here when the reward is received; the objective completion check remains separate. Older objective alias: Defeat the Darkness.",
     "prerequisites": "First Rocky Path Darkside",
     "collectible": false,
     "order": 32,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -1863,7 +1997,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 33,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -1891,12 +2026,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 34: Fairy Bouquet.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 34: Acquire all three flowers. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 34: Acquire all three flowers. Mark ownership here when the reward is received; the objective completion check remains separate. Track the three flowers on the Flowers page. Burn red ivy with Firaga.",
     "prerequisites": "Reach Forest",
     "collectible": false,
     "order": 34,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -1928,7 +2064,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 35,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Depths of Darkness"
   },
@@ -1944,10 +2081,13 @@ export const entries: CollectionEntry[] = [
     "order": 36,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.khwiki.com/Spellweaver"
     ],
     "world": "Castle Town",
-    "instructions": "Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective.",
+    "instructions": "Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
@@ -1957,14 +2097,19 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 36: Turn the Tide.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 36: Castle Town Demon Tower: Spellweaver Finish final blow. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 36: Castle Town Demon Tower: Spellweaver Finish final blow. Mark ownership here when the reward is received; the objective completion check remains separate. Use Spellweaver Finish for the final blow against Castle Town’s Demon Tower. The Depths fight does not satisfy this objective. Steam/PC: Spellweaver Finish is available immediately on activation. PS4 guides requiring a second gauge fill describe that earlier version.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 36,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.khwiki.com/Spellweaver"
     ],
-    "world": "Castle Town"
+    "world": "Castle Town",
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
     "id": "kh02:objective:37",
@@ -1994,7 +2139,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 37,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Castle Town"
   },
@@ -2026,7 +2172,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 38,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Castle Town"
   },
@@ -2058,7 +2205,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 39,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -2090,7 +2238,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 40,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -2106,7 +2255,9 @@ export const entries: CollectionEntry[] = [
     "order": 41,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "The World Within",
     "instructions": "Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter.",
@@ -2119,14 +2270,18 @@ export const entries: CollectionEntry[] = [
     "summary": "Back · Objective 41: Flawless Victory.",
     "character": "Aqua",
     "area": "Back",
-    "instructions": "Complete objective 41: Third story Phantom Aqua: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 41: Third story Phantom Aqua: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. Take no damage in the third story Phantom Aqua fight. The enhanced Zodiac Phantom does not substitute for this encounter.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 41,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "world": "The World Within"
+    "world": "The World Within",
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
     "id": "kh02:objective:42",
@@ -2155,12 +2310,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Head · Objective 42: In the Mirror.",
     "character": "Aqua",
     "area": "Head",
-    "instructions": "Complete objective 42: Clear all five Zodiac Mirror rounds. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 42: Clear all five Zodiac Mirror rounds. Mark ownership here when the reward is received; the objective completion check remains separate. Collect all twelve Zodiac relics, return to the central Zodiac circle in The World Within, and enter the mirror. Round 1: Darkside, Flutterings, Shadows, Neoshadows. Round 2: Flame, Earth and Water Cores. Round 3: Shadows, Neoshadows, Flutterings. Round 4: Demon Tower and Shadows. Round 5: enhanced Phantom Aqua. Leaving restarts round one. No mandatory no-damage condition applies here. Evade enhanced Phantom’s red-aura attacks and use openings after attack strings.",
     "prerequisites": "#43 complete; enter Zodiac Mirror",
     "collectible": false,
     "order": 42,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -2188,12 +2344,13 @@ export const entries: CollectionEntry[] = [
     "summary": "Arms · Objective 43: Quest for the Zodiac.",
     "character": "Aqua",
     "area": "Arms",
-    "instructions": "Complete objective 43: Acquire all 12 Zodiac relics. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 43: Acquire all 12 Zodiac relics. Mark ownership here when the reward is received; the objective completion check remains separate. The twelve Zodiac relics are the contents of twelve treasure chests; the Zodiac page and Treasures page share their checklist state.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 43,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "The World Within"
   },
@@ -2225,7 +2382,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 44,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -2257,7 +2415,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 45,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -2289,7 +2448,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 46,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Forest of Thorns"
   },
@@ -2305,7 +2465,9 @@ export const entries: CollectionEntry[] = [
     "order": 47,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "world": "Forest of Thorns",
     "instructions": "The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt.",
@@ -2318,14 +2480,18 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 47: Keeper of the Orb.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 47: Orb-supporting Darkside: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 47: Orb-supporting Darkside: zero damage. Mark ownership here when the reward is received; the objective completion check remains separate. The target is the story Darkside supporting the orb. Preserve a save before the encounter for another attempt.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 47,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "world": "Forest of Thorns"
+    "world": "Forest of Thorns",
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
     "id": "kh02:objective:48",
@@ -2355,7 +2521,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 48,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Depths of Darkness"
   },
@@ -2387,7 +2554,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "order": 49,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
     "world": "Depths of Darkness"
   },
@@ -2403,11 +2571,15 @@ export const entries: CollectionEntry[] = [
     "order": 50,
     "sources": [
       "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness"
     ],
     "world": "Depths of Darkness",
     "instructions": "Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective.",
-    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight.",
+    "uncertainty": "PSU and the Steam guide say Wayfinder active at victory; StrategyWiki says Finish. Use Finish for a conservative attempt, while the stricter predicate remains disputed."
   },
   {
     "id": "kh02:wardrobe:polka-dots",
@@ -2416,14 +2588,20 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 50: Combined Strength.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 50: Depths Demon Tower: win with Wayfinder active. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 50: Depths Demon Tower: win with Wayfinder active. Mark ownership here when the reward is received; the objective completion check remains separate. Win the Depths Demon Tower fight with Wayfinder active. The researched guide does not require its Finish command; do not substitute Castle Town’s Spellweaver objective.",
     "prerequisites": "Clear data + area revisit / NG+",
     "collectible": false,
     "order": 50,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness"
     ],
-    "world": "Depths of Darkness"
+    "world": "Depths of Darkness",
+    "uncertainty": "PSU and the Steam guide say Wayfinder active at victory; StrategyWiki says Finish. Use Finish for a conservative attempt, while the stricter predicate remains disputed.",
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
     "id": "kh02:objective:51",
@@ -2450,14 +2628,16 @@ export const entries: CollectionEntry[] = [
     "summary": "Pattern · Objective 51: Critical Conquest.",
     "character": "Aqua",
     "area": "Pattern",
-    "instructions": "Complete objective 51: Defeat final Demon Tide on Critical. Mark ownership here when the reward is received; the objective completion check remains separate.",
+    "instructions": "Complete objective 51: Defeat final Demon Tide on Critical. Mark ownership here when the reward is received; the objective completion check remains separate. Defeat the final Demon Tide on Critical, unlocked after a first clear. Proud satisfies the difficulty achievement but does not satisfy this objective.",
     "prerequisites": "First clear unlocks Critical",
     "collectible": false,
     "order": 51,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)"
+      "https://www.khwiki.com/Wardrobe_(KH0.2)",
+      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
     ],
-    "world": "Homecoming"
+    "world": "Homecoming",
+    "missability": "A live story encounter may require NG+. Preserve a pre-encounter save; Zodiac rematches do not replace the specified story fight."
   },
   {
     "id": "kh02:achievement:wandering-in-the-dark",
@@ -2468,7 +2648,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2480,7 +2662,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2492,7 +2676,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2504,7 +2690,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2516,7 +2704,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2528,7 +2718,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "The researched set contains all 41 chests, including twelve post-clear Zodiac chests and the Main Road chest. Exact runtime trigger remains unverified."
   },
@@ -2541,7 +2733,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "Complete all 51 objectives. Area collectible completion alone does not satisfy this goal."
   },
@@ -2554,7 +2748,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "Track this as a run goal. Avoid death-related Retry/Continue; do not assume ordinary checklist completion proves the run condition."
   },
@@ -2567,7 +2763,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2579,7 +2777,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "Use Spellweaver Finish five times; objective 20 needs only one."
   },
@@ -2592,9 +2792,11 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "instructions": "Proud or Critical qualifies. Objective 51 requires Critical specifically."
+    "instructions": "Proud or Critical qualifies. Objective 51 requires Critical specifically. Steam name: Proud Player. Xbox name: Critical Competitor."
   },
   {
     "id": "kh02:achievement:a-magical-finale",
@@ -2605,9 +2807,11 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "instructions": "The exact magic Situation Command set and cross-run counting rules are not yet normalized."
+    "instructions": "Use Firaja, Blizzaja and Thundaja, each at least once. Repeatedly cast the matching lower-tier spell to offer its Situation Command. Cross-run partial-set retention is undocumented."
   },
   {
     "id": "kh02:achievement:shotlock-star",
@@ -2618,7 +2822,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "One Excellent rating is enough; objective 18 requires six consecutive ratings."
   },
@@ -2631,9 +2837,11 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
-    "instructions": "No numeric movement distance is established by the inspected sources."
+    "instructions": "Run repeated circuits inside one map. Visits to that same map accumulate movement; switching maps is unnecessary. No numeric hidden threshold is established."
   },
   {
     "id": "kh02:achievement:fashionista",
@@ -2644,7 +2852,9 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://steamcommunity.com/stats/2552440/achievements/",
-      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Trophies#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ],
     "instructions": "Fill all four wardrobe slots. Unlike objective 21, no Spellweaver finisher is required."
   },
@@ -2652,14 +2862,16 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:reference:replay",
     "category": "reference",
     "name": "Replay and New Game Plus",
-    "summary": "First clear unlocks Critical, Zodiac chests, Lingering Memories and late objectives.",
+    "summary": "First clear opens Critical, objectives 36–51, Zodiac relics and memories.",
     "character": "Aqua",
-    "instructions": "Complete post-clear exploration and optional fights, then seed a Critical run from that clear data. Complete encounter-specific objectives while their story fights are live. Zodiac relics remain acquired in NG+; their chests stay open. Objective/wardrobe completion is reported to carry, while levels do not. Ordinary chest, gem and memory carry/re-entry rules are not exhaustively verified. The guide’s saved checks record your manual progress; they do not read or alter game saves.",
+    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary.",
     "checkable": false,
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Wardrobe_(KH0.2)",
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
+      "https://www.khwiki.com/Game_Clear_Data",
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
     ]
   },
   {
@@ -2679,14 +2891,60 @@ export const entries: CollectionEntry[] = [
     "id": "kh02:reference:combat",
     "category": "reference",
     "name": "Combat tools",
-    "summary": "Aqua uses the Command Menu, Prism Rain, Spellweaver and Wayfinder.",
+    "summary": "Castle Town gears restore magic, movement, Shotlock and Style Change.",
     "character": "Aqua",
-    "instructions": "This game has no BBS Command Deck melding or synthesis. Doubleflight and Air Slide support elevated routes. Firaga burns red ivy. Prism Rain’s bonus prompts require 28 locks. Spellweaver Finish conditions and Wayfinder-active victories are different objective predicates; use the specific objective text.",
+    "instructions": "First gear restores Firaga, Blizzaga and Thundaga. Rooftop gear restores Doubleflight: press Jump again in the air. Between-buildings gear restores Air Slide: dodge with a direction while airborne. Floating-path gear restores Prism Rain; charge 28 locks for three bonus rating prompts. Courtyard gear restores Spellweaver and the Firaja/Blizzaja/Thundaja Situation Commands. Physical attacks build Spellweaver. In Steam/PC its Finish is immediately available; PS4 requires another gauge fill. Mickey enables Wayfinder in the Depths; Wayfinder and Spellweaver cancel one another. Use the controls shown by your configured input scheme. Aqua starts with Barrier and Counter Blast: guard while stationary or walking, on the ground or in the air, then press Attack after a successful block to counter. Cartwheel is her default ground dodge. Aerial Recovery is also default: press Jump after being launched to right her in the air. Curaga is her default healing spell and consumes all remaining MP. Single fatal hits normally leave Aqua at 1 HP; on Critical this safeguard fails when she is already at critical HP. Fatal combo survival is innate. Curaga grants default casting invulnerability except on Critical. These are innate 0.2 behaviors, not BBS commands to meld or purchase.",
     "checkable": false,
     "collectible": false,
     "sources": [
-      "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
-      "https://www.khwiki.com/Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-"
+      "https://www.khwiki.com/Doubleflight",
+      "https://www.khwiki.com/Air_Slide",
+      "https://www.khwiki.com/Prism_Rain",
+      "https://www.khwiki.com/Spellweaver",
+      "https://www.khwiki.com/Wayfinder_(ability)",
+      "https://www.khwiki.com/Fire",
+      "https://www.khwiki.com/Blizzard",
+      "https://www.khwiki.com/Thunder",
+      "https://www.khwiki.com/Barrier",
+      "https://www.khwiki.com/Counter_Blast",
+      "https://www.khwiki.com/Cartwheel",
+      "https://www.khwiki.com/Aerial_Recovery",
+      "https://www.khwiki.com/Cure",
+      "https://www.khwiki.com/Second_Chance",
+      "https://www.khwiki.com/Leaf_Bracer",
+      "https://www.khwiki.com/Withstand_Combo"
+    ]
+  },
+  {
+    "category": "reference",
+    "character": "Aqua",
+    "collectible": false,
+    "checkable": false,
+    "id": "kh02:reference:difficulty",
+    "name": "Difficulty and encounter planning",
+    "summary": "Objective 51 requires Critical; the platform difficulty goal also accepts Proud.",
+    "instructions": "Relative to Standard, Beginner deals 1.5× damage and takes 0.5×; Proud deals 0.5× with normal incoming damage. Critical deals 1.5×, takes 2× and halves HP/MP. Critical removes restorative prize drops and Curaga casting invulnerability. Single-hit survival can fail when Aqua is already at critical HP; combo survival remains innate. Difficulty changes strategy, never the 55 physical-find denominator. Complete earned wardrobe goals on a preferred difficulty, then carry them into a Critical run for objective 51.",
+    "sources": [
+      "https://www.khwiki.com/Difficulty_Level",
+      "https://www.khwiki.com/Game_Clear_Data",
+      "https://www.khwiki.com/Second_Chance",
+      "https://www.khwiki.com/Leaf_Bracer",
+      "https://www.khwiki.com/Withstand_Combo"
+    ]
+  },
+  {
+    "category": "reference",
+    "character": "Aqua",
+    "collectible": false,
+    "checkable": false,
+    "id": "kh02:reference:enhanced-phantom",
+    "name": "Enhanced Phantom Aqua strategy",
+    "summary": "Zodiac Mirror round five; separate from the third story fight.",
+    "instructions": "Block ordinary attack strings, then punish the opening. Dodge red-aura rushes. During the clone sequence, block the strike and jump toward the real attacker when an opening appears; Thunder can interrupt the icicle follow-up. Leaving the mirror resets its five rounds. Source boss tables remain incomplete; no exact HP, defense or difficulty-scaled damage numbers are certified.",
+    "sources": [
+      "https://www.khwiki.com/Game:Phantom_Aqua",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-42-in-the-mirror/"
     ]
   }
 ];

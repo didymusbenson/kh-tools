@@ -1,5 +1,7 @@
 # KH1FM challenges, Gummi and run-goal research
 
+**Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+
 Researched 2026-09-18. Modern Final Mix rules; all systems below remain MVP. Sources describe game behavior; app counting and route recommendations are identified separately.
 
 ## Olympus cups and variants
@@ -65,7 +67,7 @@ There are 30 missions: three for each destination below. This compact planning m
 | Hollow Bastion | Neverland→; Ultima-only; E≥130 | S≥1600 | Haste2 uses≥10; ND; noShield |
 | End of World | build≤2; ND; NB | build≤5; S≥350 | S≥600 |
 
-Source: [Final Mix Gummi Missions](https://www.khwiki.com/Gummi_Missions). Verify Wonderland's wording about Haste use against the game before turning it into a machine-evaluated rule. Do not confuse blocks installed with blocks collected.
+Source: [Final Mix Gummi Missions](https://www.khwiki.com/Gummi_Missions). Wonderland 2 is reconciled to at least five Accelerate activations with Haste-G/Haste2-G and no damage; no mandatory user gameplay check remains. Do not confuse blocks installed with blocks collected.
 
 ## Blueprint collection
 
@@ -87,7 +89,7 @@ Enemy-drop roster: Cindy, Shiva, Lamia, Sandy, Sylph, Carbuncle, Mindy, Goblin, 
 
 Mission-3 rewards in the destination order above: Moogles, Valefor, PuPu, Cerberus, Tonberry, Pandaemonium, Ixion, Gilgamesh, Phoenix, Eden. All missions award Bahamut. Track blueprint ownership separately from assembling a ship.
 
-The parts catalog must include shapes, stats, purchase/drop/treasure/mission sources, functional restrictions and the player's stock. Mission-exclusive cosmetic parts also belong in full collection. Provide practical builds for no-damage, small-build, collection and weapon-restricted missions. [KH1 parts catalog](https://www.khwiki.com/Gummi_Blocks_(KH))
+The canonical parts catalog contains all 80 shapes plus seven editor tools, with stats/stock/source/functional fields. Mission-only cosmetic parts are included. All four build guides now provide concrete inventories, placement principles and route tactics; all 28 enemy blueprints include 10% drops and phase/direction/count data. [KH1 parts catalog](https://www.khwiki.com/Gummi_Blocks_(KH))
 
 ## Modern achievements and restricted runs
 
@@ -109,4 +111,4 @@ Other achievement families cover Journal sections, weapons, magic/summons, level
 
 **App route recommendation, not a game requirement:** offer a thorough completion run and a separate fast restricted run. This reduces tension between exploration/farming and time/equipment restrictions. Do not assert the goals are mechanically incompatible or require two runs. Preserve user choice.
 
-Before publishing restricted-run guidance, validate which party equipment changes invalidate Unchanging Armor, scripted equipment exceptions, Continue/reload handling, timer behavior and achievement persistence after returning to a pre-final-boss save. Those details are not established by the terse achievement descriptions and must not be guessed.
+Restricted-run guidance now includes Steam evidence for pause/cutscene timing, reported 100-hour rollover and awards from eligible pre-final-boss saves. Exact scripted/guest equipment flags, individual menu timing and save/system persistence remain KH1-003; the conservative route does not depend on those exceptions.

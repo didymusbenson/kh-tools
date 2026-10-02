@@ -1,6 +1,6 @@
 # KH2FM world collectibles and acquisition rules
 
-Research snapshot: 2026-09-18. Apply the accepted [collectible compendium and linked views contract](../../content/collectible-compendium-and-linked-views.md). The following are measured category inventories, not a claim that every acquisition route has been playtested or that all direct rewards/maps have been normalized.
+Research snapshot: 2026-10-01. Apply the accepted [collectible compendium and linked views contract](../../content/collectible-compendium-and-linked-views.md). The following are measured category inventories, not a claim that every acquisition route has been playtested. The map inventory and recipe-document relationships are now normalized in `verified-audit-expansion.json`.
 
 ## Numbered treasures and puzzle pieces
 
@@ -29,7 +29,7 @@ The workbook's 301 treasure rows and 144 puzzle rows reconcile to the community 
 
 ## Scope, duplicate prevention and access
 
-- The Twilight Town source additionally lists **16 unnumbered Roxas prologue chests**. These are not the 39 Sora entries. Preserve them as a separate, time-limited prologue acquisition scope; do not make their absence prevent Sora's treasure list from reaching 100%. The workbook lacks these 16 rows and their precise approach directions. Do not assign them fabricated official Journal numbers.
+- The Twilight Town source additionally lists **16 unnumbered Roxas prologue chests**. These are not the 39 Sora entries. Preserve them as a separate, time-limited prologue acquisition scope; do not make their absence prevent Sora's treasure list from reaching 100%. The workbook lacks these 16 rows; the modern canonical `verified-prologue-chests.json` supplies their day/room directions and separate scope. Do not assign them fabricated official Journal numbers.
 - Legacy Daylight piece 23 is mislabeled `Twilight Town (Roxas)`. It belongs to Sora's visit to the Other Twilight Town's Mansion: Computer Room. It must remain available in Sora's 20-piece world set.
 - Radiant Garden treasure 46 contains **Proof of Nonexistence**. All 13 Data defeats cause its chest to appear; clearing the challenge does not mean the chest is open. The challenge and acquisition are separate records, but the Proof item and its chest are the same collectible acquisition in aggregate. [Replica Data](https://www.khwiki.com/Organization_XIII_Replica_Data).
 - Treasure-contained maps, recipes, summon charms, Torn Pages and Orichalcum+ link to their treasure record. A recipe/map index must not create a second counted acquisition. Directly awarded maps/reports need their own acquisition records, not story-progress checkboxes.
@@ -47,9 +47,9 @@ The workbook's 301 treasure rows and 144 puzzle rows reconcile to the community 
 | Daylight | 48 | Executive's Ring |
 | Sunset | 48 | Grand Ribbon |
 
-Collection alone does not finish a puzzle: pieces must be arranged and sometimes rotated in Jiminy's Journal. Store collected pieces separately from puzzle assembly and reward receipt. The 144-piece denominator must not count placements or the same reward again. The source numbers pieces left-to-right by rows. **Exact puzzle grid dimensions and rotation/placement solution data remain unextracted**, so assembly guidance is not yet ready. [Puzzle](https://www.khwiki.com/Puzzle).
+Collection alone does not finish a puzzle: pieces must be arranged and sometimes rotated in Jiminy's Journal. Store collected pieces separately from puzzle assembly and reward receipt. The 144-piece denominator must not count placements or the same reward again. The source numbers pieces left-to-right by rows. All six boards now have visually inspected gameplay references in `verified-assembly.json`: Awakening/Heart/Duality/Frontier are three columns by four rows; Daylight/Sunset are six by eight. Awakening and Daylight use placement without rotation; the other four allow rotation. Row-major numbers and upright-artwork landmarks guide placement; starting rotations depend on saved board state. [Puzzle](https://www.khwiki.com/Puzzle).
 
-Useful route evidence already recovered: Awakening 1 is above Merlin's bed; Awakening 5 is granted by the mandatory Wardrobe piece scene after the new clothes. Sunset 30 is in the blue-orb Mineshaft segment; Sunset 32/36/40 occupy the white-orb Glide route. Legacy requirements are candidate routes, not guaranteed minimums: community descriptions allow alternative movement combinations. Daylight 14 (Starry Hill) particularly disagrees across legacy/world/puzzle descriptions about Aerial Dodge and Glide; retain the conflict until independently source-checked.
+Useful route evidence already recovered: Awakening 1 is above Merlin's bed; Awakening 5 is granted by the mandatory Wardrobe piece scene after the new clothes. Sunset 30 is in the blue-orb Mineshaft segment; Sunset 32/36/40 occupy the white-orb Glide route. Legacy requirements are candidate routes, not guaranteed minimums: community descriptions allow alternative movement combinations. Daylight 14 (Starry Hill) now has a source-supported working movement route; no theoretical minimum is claimed. The October pass enriches the previously sparse thirteen landmarks; its exact residuals are listed in KH2-003.
 
 Growth ability levels refer to **standard Sora** unless a route explicitly says to transform. Form level and standard ability level are different values. Include form, ability level, approach landmark and accessible alternate route in the expanded row.
 
@@ -61,7 +61,7 @@ Recipe-document inventory: ten original recipe documents plus six Final Mix addi
 
 ## Secret Ansem Reports — acquisition, not narrative transcript
 
-Use one report record per page. The required data is how the page is received; copying its lore is unnecessary. These 13 report acquisitions are not present as a structured legacy table. Final Mix mapping:
+Use one report record per page. The required data is how the page is received; copying its lore is unnecessary. These 13 report acquisitions are present in the generated catalog, although they were absent from the legacy table. Final Mix mapping:
 
 | Report | Acquisition |
 |---:|---|
@@ -79,10 +79,10 @@ Use one report record per page. The required data is how the page is received; c
 | 12 | Defeat Saïx |
 | 13 | First Xemnas battle |
 
-Evidence: [Ansem's Reports](https://www.khwiki.com/Ansem%27s_Reports), acquisition sentences and Final Mix/International footnotes only. The Japanese-original 8/9/12 allocation must not overwrite the modern Final Mix mapping. Exact area IDs and modern-language labels still need normalization.
+Evidence: [Ansem's Reports](https://www.khwiki.com/Ansem%27s_Reports), acquisition sentences and Final Mix/International footnotes only. The Japanese-original 8/9/12 allocation must not overwrite the modern Final Mix mapping. All thirteen report areas and eighteen magic-grant areas are now normalized from explicit Final Mix world Rewards/Bonus tables in `verified-reward-areas.json`.
 
 ## Location-writing queue
 
-The current inventory index does not substitute for a complete guide. Prioritize Radiant Garden treasure 23–46: all 24 legacy rows lack locator prose. Then rewrite and source-check the other 277 treasure directions, 144 puzzle directions, 16 prologue chests, report areas, and directly awarded maps/charms. The source world tables generally establish area and content, not a precise landmark for every chest. Do not certify full world percentages until the declared collection set also reconciles direct rewards and deduplication.
+All 301 treasures and 144 puzzle pieces have directions; the October source-by-source route review is recorded in KH2-002/003. The old assertion that 24 Cavern locators are blank is historical: all have routes and the Cavern has a consolidated access record. The 40-map index comprises 25 chest aliases and 15 direct grants. All sixteen recipe documents link their actual acquisition (ten chests, five Silhouettes, Duality assembly), retaining one saved acquisition identity. All 31 report/magic event-area mappings are complete under KH2-005. Source world tables alone are not proof of exact landmarks.
 
 Text directions and media-capable records remain MVP. Only acquiring production screenshots/map images is deferred. Store optional media refs, alt text and anchors now; demonstrate usable directions with every image absent.

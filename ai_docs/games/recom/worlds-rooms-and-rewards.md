@@ -1,8 +1,8 @@
 # Worlds, Room Synthesis and acquisition goals
 
-Current data update: see the [2026-09-28 closure audit](data-gap-audit-2026-09-28.md). The initial research notes below retain their original evidence limits; the audit supersedes missing-field statements where data has now been filled.
+Current reference, updated October 1, 2026. See the [complete 32-finding disposition](research-resolution-2026-10-01.md) for supported facts and precise remaining limits; the [September 28 closure](data-gap-audit-2026-09-28.md) remains historical provenance.
 
-Research: 2026-09-28. All tables below select Re:CoM/HD rules. [World records](worlds.json) · [41 acquisition records](worlds-and-rewards.json).
+Research: updated 2026-10-01. All tables below select Re:CoM/HD rules. [World records](worlds.json) · [41 acquisition records](worlds-and-rewards.json).
 
 ## World order is partly chosen
 
@@ -60,7 +60,7 @@ These are **24 distinct reward claims**, not 24 reward rooms. 100 Acre Wood has 
 | Destiny Islands | Judgment | Zexion: Riku clear + first Marluxia |
 | Castle Oblivion | Raging Storm | Ultima Weapon; Lexaeus: Riku clear + first Marluxia |
 
-The 17 rows in the structured inventory expand each named reward separately. This table does not include universal Gold/Platinum follow-up chests or ordinary random card repeats. Calm Bounty, Guarded Trove and False Bounty are room mechanisms, not three independent discoveries of the same reward. [World Cards](https://www.khwiki.com/World_Cards); individual sleight/card pages remain the next independent check for precedence.
+The 17 rows in the structured inventory expand each named reward separately. This table does not include universal Gold/Platinum follow-up chests or ordinary random card repeats. Calm Bounty, Guarded Trove and False Bounty are room mechanisms, not three independent discoveries of the same reward. [World Cards](https://www.khwiki.com/World_Cards); all 17 canonical `bountyOrder` fields are populated. Exact ineligible/exhausted-reward fallback and clear-save loading semantics remain COM-009.
 
 ## Room-use reference
 
@@ -72,9 +72,9 @@ Room cards affect encounters, battle conditions or services. The [29-card invent
 - Leaving a floor resets generated rooms. A previously collected reward remains a historical acquisition in the app; regeneration must not clear its checkmark.
 - 100 Acre Wood uses fixed minigame areas instead of Room Synthesis.
 
-Exact per-world reward-door costs, Bounty reward precedence, and the complete world/difficulty card-drop matrices are **not yet transcribed**. No precise door-cost claim should be inferred from the world tables.
+[All 25 floor-specific event-door records](door-requirements.json), all 17 Bounty priorities and complete sourced world/difficulty map-card matrices are transcribed. Use the assigned floor’s predicate row, not a fixed cost attached to the world name. Event zero is literal; ordinary higher/lower door zero is the separate wildcard rule. Null event entries mean no such room; an empty requirement list means key only.
 
-## Completion model — proposed implementation contract
+## Completion model — implemented contract
 
 Use one acquisition ID for a named world reward and link its output to the card/sleight definition. Keep a separate “card type discovered” flag and optional current quantity. Finding Lionheart once can satisfy both the chest goal and card collection membership, but never adds two units to a world reward denominator.
 

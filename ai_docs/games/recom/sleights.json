@@ -2,8 +2,8 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "83 normal-combat Sora candidate names, 2 Bumble-Rumble-only names, 13 Riku names. These are extracted source counts, not certified native menu or achievement denominators. Attack illustrations normalize to Attack; explicit same/different type constraints remain in reference text. Individual-card recipe illustrations followed by a generic clause are examples, not extra constraints.",
+  "status": "Runtime source data; no game execution; recipe precedence and menu membership remain bounded research questions",
+  "notes": "83 normal-combat Sora candidate names, 2 Bumble-Rumble-only names, 13 Riku names. These are extracted source counts, not certified native menu or achievement denominators. Attack illustrations normalize to Attack; explicit same/different type constraints remain in reference text. Individual-card recipe illustrations followed by a generic clause are examples, not extra constraints. All 92 stock recipes now have ordered alternatives and explicit constraints; six duels have activation conditions. Third-card precedence remains unknown.",
   "records": [
     {
       "id": "recom-sleight-sora-sliding-dash",
@@ -12,9 +12,37 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (10-15) Three attack cards of the same type.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 2",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              10,
+              15
+            ]
+          },
+          "attackIdentityConstraint": "all-same"
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Dashes into a distant target.",
+      "effectSource": "https://www.khwiki.com/Sliding_Dash"
     },
     {
       "id": "recom-sleight-sora-stun-impact",
@@ -23,9 +51,37 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (20-23) Three attack cards of the same type.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 7",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              20,
+              23
+            ]
+          },
+          "attackIdentityConstraint": "all-same"
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Damages and stuns nearby enemies.",
+      "effectSource": "https://www.khwiki.com/Stun_Impact"
     },
     {
       "id": "recom-sleight-sora-strike-raid",
@@ -34,9 +90,36 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (24-26)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 12",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              24,
+              26
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Throws the Keyblade through enemies, damaging and stunning them.",
+      "effectSource": "https://www.khwiki.com/Strike_Raid"
     },
     {
       "id": "recom-sleight-sora-blitz",
@@ -45,9 +128,37 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (10-15) Three attack cards of differing types.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 17",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              10,
+              15
+            ]
+          },
+          "attackIdentityConstraint": "all-different"
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Up to three jumping strikes; follow the reaction prompts.",
+      "effectSource": "https://www.khwiki.com/Blitz"
     },
     {
       "id": "recom-sleight-sora-zantetsuken",
@@ -56,9 +167,36 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (0/27)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 22",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "one-of",
+            "values": [
+              0,
+              27
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A card broken by this attack cannot reload for that battle.",
+      "effectSource": "https://www.khwiki.com/Zantetsuken"
     },
     {
       "id": "recom-sleight-sora-sonic-blade",
@@ -67,9 +205,37 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (20-23) Three attack cards of differing types.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 27",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              20,
+              23
+            ]
+          },
+          "attackIdentityConstraint": "all-different"
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Up to seven targeted rushes; missed rushes or mistimed prompts end the chain.",
+      "effectSource": "https://www.khwiki.com/Sonic_Blade"
     },
     {
       "id": "recom-sleight-sora-ars-arcanum",
@@ -78,9 +244,36 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (1-6)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 42",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              1,
+              6
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Up to thirteen strikes using timed follow-ups.",
+      "effectSource": "https://www.khwiki.com/Ars_Arcanum"
     },
     {
       "id": "recom-sleight-sora-ragnarok",
@@ -89,9 +282,36 @@
       "family": "attack",
       "combinationReference": "Attack + Attack + Attack (7-9)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 52",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              7,
+              9
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Fires steerable energy rays; early release reduces the ray count.",
+      "effectSource": "https://www.khwiki.com/Ragnarok"
     },
     {
       "id": "recom-sleight-sora-trinity-limit",
@@ -100,9 +320,85 @@
       "family": "attack",
       "combinationReference": "Attack + Donald Duck + Goofy OR Attack + Goofy + Donald Duck OR Donald Duck + Attack + Goofy OR Donald Duck + Goofy + Attack OR Goofy + Attack + Donald Duck. Goofy + Donald Duck + Attack is GBA-only for Trinity Limit; Re:CoM uses Wild Crush.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Enter Castle Oblivion.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Goofy"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "family": "attack"
+            },
+            {
+              "card": "Goofy"
+            },
+            {
+              "card": "Donald Duck"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "card": "Goofy"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Goofy"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Goofy"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "card": "Donald Duck"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Damages enemies across the battlefield.",
+      "effectSource": "https://www.khwiki.com/Trinity_Limit"
     },
     {
       "id": "recom-sleight-sora-fira",
@@ -111,9 +407,26 @@
       "family": "magic",
       "combinationReference": "Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Fire.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals fire damage; base power multiplier 10\u00d7.",
+      "effectSource": "https://www.khwiki.com/Fira"
     },
     {
       "id": "recom-sleight-sora-firaga",
@@ -122,9 +435,29 @@
       "family": "magic",
       "combinationReference": "Fire + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Fire.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals fire damage; base power multiplier 15\u00d7.",
+      "effectSource": "https://www.khwiki.com/Firaga"
     },
     {
       "id": "recom-sleight-sora-blizzara",
@@ -133,9 +466,26 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Blizzard"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals ice damage; base power multiplier 7\u00d7.",
+      "effectSource": "https://www.khwiki.com/Blizzara"
     },
     {
       "id": "recom-sleight-sora-blizzaga",
@@ -144,9 +494,29 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard + Blizzard",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Blizzard"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals ice damage; base power multiplier 11\u00d7.",
+      "effectSource": "https://www.khwiki.com/Blizzaga"
     },
     {
       "id": "recom-sleight-sora-thundara",
@@ -155,9 +525,26 @@
       "family": "magic",
       "combinationReference": "Thunder + Thunder",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Thunder.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Thunder"
+            },
+            {
+              "card": "Thunder"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals lightning damage; base power multiplier 6\u00d7.",
+      "effectSource": "https://www.khwiki.com/Thundara"
     },
     {
       "id": "recom-sleight-sora-thundaga",
@@ -166,9 +553,29 @@
       "family": "magic",
       "combinationReference": "Thunder + Thunder + Thunder",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Thunder.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Thunder"
+            },
+            {
+              "card": "Thunder"
+            },
+            {
+              "card": "Thunder"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals lightning damage; base power multiplier 9\u00d7.",
+      "effectSource": "https://www.khwiki.com/Thundaga"
     },
     {
       "id": "recom-sleight-sora-cura",
@@ -177,9 +584,26 @@
       "family": "magic",
       "combinationReference": "Cure + Cure",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cure"
+            },
+            {
+              "card": "Cure"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Restores 150 HP before modifiers.",
+      "effectSource": "https://www.khwiki.com/Cura"
     },
     {
       "id": "recom-sleight-sora-curaga",
@@ -188,9 +612,29 @@
       "family": "magic",
       "combinationReference": "Cure + Cure + Cure",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cure"
+            },
+            {
+              "card": "Cure"
+            },
+            {
+              "card": "Cure"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Restores 300 HP before modifiers.",
+      "effectSource": "https://www.khwiki.com/Curaga"
     },
     {
       "id": "recom-sleight-sora-gravira",
@@ -199,9 +643,26 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Gravity.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Gravity"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Base damage is 40% of the target\u2019s remaining HP, subject to resistance.",
+      "effectSource": "https://www.khwiki.com/Gravira"
     },
     {
       "id": "recom-sleight-sora-graviga",
@@ -210,9 +671,29 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Gravity.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Gravity"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Base damage is 70% of the target\u2019s remaining HP, subject to resistance.",
+      "effectSource": "https://www.khwiki.com/Graviga"
     },
     {
       "id": "recom-sleight-sora-stopra",
@@ -221,9 +702,26 @@
       "family": "magic",
       "combinationReference": "Stop + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Stop.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Stop"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Stops susceptible targets for 5 seconds before modifiers.",
+      "effectSource": "https://www.khwiki.com/Stopra"
     },
     {
       "id": "recom-sleight-sora-stopga",
@@ -232,9 +730,29 @@
       "family": "magic",
       "combinationReference": "Stop + Stop + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Stop.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Stop"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Stops susceptible targets for 7 seconds before modifiers.",
+      "effectSource": "https://www.khwiki.com/Stopga"
     },
     {
       "id": "recom-sleight-sora-aerora",
@@ -243,9 +761,26 @@
       "family": "magic",
       "combinationReference": "Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Aero.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals neutral damage; base power multiplier 6\u00d7.",
+      "effectSource": "https://www.khwiki.com/Aerora"
     },
     {
       "id": "recom-sleight-sora-aeroga",
@@ -254,9 +789,29 @@
       "family": "magic",
       "combinationReference": "Aero + Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Aero.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals neutral damage; base power multiplier 9\u00d7.",
+      "effectSource": "https://www.khwiki.com/Aeroga"
     },
     {
       "id": "recom-sleight-sora-warpinator",
@@ -265,9 +820,29 @@
       "family": "magic",
       "combinationReference": "Stop + Gravity + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Twilight Town Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Attempts to remove the nearest enemy.",
+      "effectSource": "https://www.khwiki.com/Warpinator"
     },
     {
       "id": "recom-sleight-sora-warp",
@@ -276,9 +851,29 @@
       "family": "magic",
       "combinationReference": "Stop + Aero + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Agrabah Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Attempts to remove visible enemies; no EXP, but the battle-end map/enemy card can still appear.",
+      "effectSource": "https://www.khwiki.com/Warp"
     },
     {
       "id": "recom-sleight-sora-blizzard-raid",
@@ -287,9 +882,29 @@
       "family": "magic",
       "combinationReference": "Blizzard + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Olympus Coliseum Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Blizzard"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A thrown Keyblade deals ice damage.",
+      "effectSource": "https://www.khwiki.com/Blizzard_Raid"
     },
     {
       "id": "recom-sleight-sora-synchro",
@@ -298,9 +913,29 @@
       "family": "magic",
       "combinationReference": "Cure + Gravity + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Wonderland Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cure"
+            },
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Lowers other enemies\u2019 HP to the target\u2019s lower remaining HP; ineffective against a lone target or boss parts.",
+      "effectSource": "https://www.khwiki.com/Synchro"
     },
     {
       "id": "recom-sleight-sora-fire-raid",
@@ -309,9 +944,29 @@
       "family": "magic",
       "combinationReference": "Fire + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Monstro Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Fire"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A thrown Keyblade deals fire damage.",
+      "effectSource": "https://www.khwiki.com/Fire_Raid"
     },
     {
       "id": "recom-sleight-sora-aqua-splash",
@@ -320,9 +975,29 @@
       "family": "magic",
       "combinationReference": "Blizzard + Fire + Aero",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Monstro Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Aero"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "An aimed stream deals repeated ice damage.",
+      "effectSource": "https://www.khwiki.com/Aqua_Splash"
     },
     {
       "id": "recom-sleight-sora-terror",
@@ -331,9 +1006,43 @@
       "family": "magic",
       "combinationReference": "Summon + Summon + Jack OR Simba + Mushu + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Enter Halloween Town.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "summon"
+            },
+            {
+              "family": "summon"
+            },
+            {
+              "card": "Jack"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Simba"
+            },
+            {
+              "card": "Mushu"
+            },
+            {
+              "family": "item"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Frightens enemies away from Sora.",
+      "effectSource": "https://www.khwiki.com/Terror"
     },
     {
       "id": "recom-sleight-sora-gifted-miracle",
@@ -342,9 +1051,43 @@
       "family": "magic",
       "combinationReference": "Summon + Magic + Jack OR Bambi + Blizzard + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Halloween Town Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "summon"
+            },
+            {
+              "family": "magic"
+            },
+            {
+              "card": "Jack"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Bambi"
+            },
+            {
+              "card": "Blizzard"
+            },
+            {
+              "family": "item"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Heals Sora and enemies, reloads cards and resets the reload counter.",
+      "effectSource": "https://www.khwiki.com/Gifted_Miracle"
     },
     {
       "id": "recom-sleight-sora-bind",
@@ -353,9 +1096,29 @@
       "family": "magic",
       "combinationReference": "Gravity + Stop + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Halloween Town Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Stop"
+            },
+            {
+              "family": "magic"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Restrains enemies in place.",
+      "effectSource": "https://www.khwiki.com/Bind"
     },
     {
       "id": "recom-sleight-sora-shock-impact",
@@ -364,9 +1127,29 @@
       "family": "magic",
       "combinationReference": "Simba + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Atlantica Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Simba"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Damages and knocks away nearby enemies.",
+      "effectSource": "https://www.khwiki.com/Shock_Impact"
     },
     {
       "id": "recom-sleight-sora-homing-blizzara",
@@ -375,9 +1158,29 @@
       "family": "magic",
       "combinationReference": "Aero + Blizzard + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Atlantica Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Blizzard"
+            },
+            {
+              "family": "magic"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Launches homing ice magic.",
+      "effectSource": "https://www.khwiki.com/Homing_Blizzara"
     },
     {
       "id": "recom-sleight-sora-quake",
@@ -386,9 +1189,29 @@
       "family": "magic",
       "combinationReference": "Gravity + Simba + Magic",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Atlantica Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Simba"
+            },
+            {
+              "family": "magic"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Damages grounded enemies around Sora.",
+      "effectSource": "https://www.khwiki.com/Quake"
     },
     {
       "id": "recom-sleight-sora-teleport",
@@ -397,9 +1220,43 @@
       "family": "magic",
       "combinationReference": "Magic + Magic + Peter Pan OR Stop + Aero + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Neverland Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "family": "magic"
+            },
+            {
+              "family": "magic"
+            },
+            {
+              "card": "Peter Pan"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "card": "Aero"
+            },
+            {
+              "family": "item"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Moves Sora behind the targeted enemy.",
+      "effectSource": "https://www.khwiki.com/Teleport"
     },
     {
       "id": "recom-sleight-sora-thunder-raid",
@@ -408,9 +1265,29 @@
       "family": "magic",
       "combinationReference": "Thunder + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Neverland Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Thunder"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A thrown Keyblade deals lightning damage.",
+      "effectSource": "https://www.khwiki.com/Thunder_Raid"
     },
     {
       "id": "recom-sleight-sora-confuse",
@@ -419,9 +1296,29 @@
       "family": "magic",
       "combinationReference": "Genie + Tinker Bell + Summon",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Find Piglet.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Genie"
+            },
+            {
+              "card": "Tinker Bell"
+            },
+            {
+              "family": "summon"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Confuses enemies.",
+      "effectSource": "https://www.khwiki.com/Confuse"
     },
     {
       "id": "recom-sleight-sora-firaga-burst",
@@ -430,9 +1327,29 @@
       "family": "magic",
       "combinationReference": "Fire + Fire + Gravity",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Clear Balloon Glider.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Gravity"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Launches a large fireball that releases smaller fire projectiles.",
+      "effectSource": "https://www.khwiki.com/Firaga_Burst"
     },
     {
       "id": "recom-sleight-sora-reflect-raid",
@@ -441,9 +1358,29 @@
       "family": "magic",
       "combinationReference": "Cloud + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Hollow Bastion Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cloud"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A thrown Keyblade ricochets between enemies.",
+      "effectSource": "https://www.khwiki.com/Reflect_Raid"
     },
     {
       "id": "recom-sleight-sora-magnet-spiral",
@@ -452,9 +1389,29 @@
       "family": "magic",
       "combinationReference": "Gravity + Gravity + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Defeat Riku Replica on the 8th floor.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Gravity"
+            },
+            {
+              "card": "Gravity"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Draws enemies inward before striking.",
+      "effectSource": "https://www.khwiki.com/Magnet_Spiral"
     },
     {
       "id": "recom-sleight-sora-lethal-frame",
@@ -463,9 +1420,29 @@
       "family": "magic",
       "combinationReference": "Stop + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 32",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Stop"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Stops enemies and lands repeated strikes.",
+      "effectSource": "https://www.khwiki.com/Lethal_Frame"
     },
     {
       "id": "recom-sleight-sora-tornado",
@@ -474,9 +1451,29 @@
       "family": "magic",
       "combinationReference": "Aero + Gravity + Summon",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 37",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Gravity"
+            },
+            {
+              "family": "summon"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A steerable tornado damages and stuns enemies.",
+      "effectSource": "https://www.khwiki.com/Tornado"
     },
     {
       "id": "recom-sleight-sora-freeze",
@@ -485,9 +1482,29 @@
       "family": "magic",
       "combinationReference": "Blizzard + Blizzard + Stop",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Defeat Vexen on the 10th floor.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Blizzard"
+            },
+            {
+              "card": "Stop"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Freezes nearby enemies for 7 seconds. A hit breaks the freeze and adds damage equivalent to a \u00d710 power attack; casting Freeze again does not break it.",
+      "effectSource": "https://www.khwiki.com/Freeze_(ability)"
     },
     {
       "id": "recom-sleight-sora-judgment",
@@ -496,9 +1513,29 @@
       "family": "magic",
       "combinationReference": "Aero + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Destiny Islands Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Throws the Keyblade for repeated hits.",
+      "effectSource": "https://www.khwiki.com/Judgment_(ability)"
     },
     {
       "id": "recom-sleight-sora-holy",
@@ -507,9 +1544,29 @@
       "family": "magic",
       "combinationReference": "Mega-Ether + Megalixir + Item",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 47",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Mega-Ether"
+            },
+            {
+              "card": "Megalixir"
+            },
+            {
+              "family": "item"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Damages enemies with pillars of light.",
+      "effectSource": "https://www.khwiki.com/Holy"
     },
     {
       "id": "recom-sleight-sora-raging-storm",
@@ -518,9 +1575,29 @@
       "family": "magic",
       "combinationReference": "Aero + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Castle Oblivion Bounty",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aero"
+            },
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Three fire pillars surround Sora and damage enemies.",
+      "effectSource": "https://www.khwiki.com/Raging_Storm"
     },
     {
       "id": "recom-sleight-sora-mega-flare",
@@ -529,9 +1606,29 @@
       "family": "magic",
       "combinationReference": "Mushu + Fire + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Level 57",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Mushu"
+            },
+            {
+              "card": "Fire"
+            },
+            {
+              "card": "Fire"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Deals fire damage throughout the battlefield.",
+      "effectSource": "https://www.khwiki.com/Mega_Flare"
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv2",
@@ -540,9 +1637,26 @@
       "family": "summon",
       "combinationReference": "Simba + Simba",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Simba",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Simba"
+            },
+            {
+              "card": "Simba"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Simba\u2019s forward roar damages and stuns.",
+      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv2"
     },
     {
       "id": "recom-sleight-sora-proud-roar-lv3",
@@ -551,9 +1665,29 @@
       "family": "summon",
       "combinationReference": "Simba + Simba + Simba",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Simba",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Simba"
+            },
+            {
+              "card": "Simba"
+            },
+            {
+              "card": "Simba"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Simba\u2019s forward roar damages and stuns.",
+      "effectSource": "https://www.khwiki.com/Proud_Roar_Lv3"
     },
     {
       "id": "recom-sleight-sora-showtime-lv2",
@@ -562,9 +1696,26 @@
       "family": "summon",
       "combinationReference": "Genie + Genie",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Genie",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Genie"
+            },
+            {
+              "card": "Genie"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Genie casts random Thundara, Gravira or Stopra spells. Casts 2 spells; Stopra lasts 8 seconds before resistance.",
+      "effectSource": "https://www.khwiki.com/Showtime_Lv2"
     },
     {
       "id": "recom-sleight-sora-showtime-lv3",
@@ -573,9 +1724,29 @@
       "family": "summon",
       "combinationReference": "Genie + Genie + Genie",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Genie",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Genie"
+            },
+            {
+              "card": "Genie"
+            },
+            {
+              "card": "Genie"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Genie casts random Thundara, Gravira or Stopra spells. Casts 3 spells; Stopra lasts 8 seconds before resistance.",
+      "effectSource": "https://www.khwiki.com/Showtime_Lv3"
     },
     {
       "id": "recom-sleight-sora-cross-slash",
@@ -584,9 +1755,26 @@
       "family": "summon",
       "combinationReference": "Cloud + Cloud",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Cloud",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cloud"
+            },
+            {
+              "card": "Cloud"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Cloud performs successive sword strikes.",
+      "effectSource": "https://www.khwiki.com/Cross-slash"
     },
     {
       "id": "recom-sleight-sora-cross-slash-plus",
@@ -595,9 +1783,29 @@
       "family": "summon",
       "combinationReference": "Cloud + Stop + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Clear Veggie Panic",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cloud"
+            },
+            {
+              "card": "Stop"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Cloud focuses successive sword strikes on one target.",
+      "effectSource": "https://www.khwiki.com/Cross-slash%2B"
     },
     {
       "id": "recom-sleight-sora-omnislash",
@@ -606,9 +1814,29 @@
       "family": "summon",
       "combinationReference": "Cloud + Cloud + Cloud",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Cloud",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Cloud"
+            },
+            {
+              "card": "Cloud"
+            },
+            {
+              "card": "Cloud"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Cloud repeatedly flies between targets and slashes.",
+      "effectSource": "https://www.khwiki.com/Omnislash"
     },
     {
       "id": "recom-sleight-sora-splash-lv2",
@@ -617,9 +1845,26 @@
       "family": "summon",
       "combinationReference": "Dumbo + Dumbo",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Dumbo",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Dumbo"
+            },
+            {
+              "card": "Dumbo"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Dumbo sprays an aimed ice-element stream.",
+      "effectSource": "https://www.khwiki.com/Splash_Lv2"
     },
     {
       "id": "recom-sleight-sora-splash-lv3",
@@ -628,9 +1873,29 @@
       "family": "summon",
       "combinationReference": "Dumbo + Dumbo + Dumbo",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Dumbo",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Dumbo"
+            },
+            {
+              "card": "Dumbo"
+            },
+            {
+              "card": "Dumbo"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Dumbo sprays an aimed ice-element stream.",
+      "effectSource": "https://www.khwiki.com/Splash_Lv3"
     },
     {
       "id": "recom-sleight-sora-twinkle-lv2",
@@ -639,9 +1904,26 @@
       "family": "summon",
       "combinationReference": "Tinker Bell + Tinker Bell",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Tinker Bell",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Tinker Bell"
+            },
+            {
+              "card": "Tinker Bell"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 4 seconds; base heal 13% max HP plus 1% per added input.",
+      "effectSource": "https://www.khwiki.com/Twinkle_Lv2"
     },
     {
       "id": "recom-sleight-sora-twinkle-lv3",
@@ -650,9 +1932,29 @@
       "family": "summon",
       "combinationReference": "Tinker Bell + Tinker Bell + Tinker Bell",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Tinker Bell",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Tinker Bell"
+            },
+            {
+              "card": "Tinker Bell"
+            },
+            {
+              "card": "Tinker Bell"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 5 seconds; base heal 22% max HP plus 1.5% per added input.",
+      "effectSource": "https://www.khwiki.com/Twinkle_Lv3"
     },
     {
       "id": "recom-sleight-sora-paradise-lv2",
@@ -661,9 +1963,26 @@
       "family": "summon",
       "combinationReference": "Bambi + Bambi",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Bambi",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Bambi"
+            },
+            {
+              "card": "Bambi"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Bambi drops large healing orbs.",
+      "effectSource": "https://www.khwiki.com/Paradise_Lv2"
     },
     {
       "id": "recom-sleight-sora-paradise-lv3",
@@ -672,9 +1991,29 @@
       "family": "summon",
       "combinationReference": "Bambi + Bambi + Bambi",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Bambi",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Bambi"
+            },
+            {
+              "card": "Bambi"
+            },
+            {
+              "card": "Bambi"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Bambi drops large healing orbs. Also stuns enemies.",
+      "effectSource": "https://www.khwiki.com/Paradise_Lv3"
     },
     {
       "id": "recom-sleight-sora-idyll-romp",
@@ -683,9 +2022,29 @@
       "family": "summon",
       "combinationReference": "Bambi + Attack + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Clear Tigger's Jump-a-Thon",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Bambi"
+            },
+            {
+              "family": "attack"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Bambi rushes across the field and confuses enemies.",
+      "effectSource": "https://www.khwiki.com/Idyll_Romp"
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv2",
@@ -694,9 +2053,26 @@
       "family": "summon",
       "combinationReference": "Mushu + Mushu",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Mushu",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Mushu"
+            },
+            {
+              "card": "Mushu"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Aim and fire Mushu\u2019s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs.",
+      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv2"
     },
     {
       "id": "recom-sleight-sora-flare-breath-lv3",
@@ -705,9 +2081,29 @@
       "family": "summon",
       "combinationReference": "Mushu + Mushu + Mushu",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Mushu",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Mushu"
+            },
+            {
+              "card": "Mushu"
+            },
+            {
+              "card": "Mushu"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Aim and fire Mushu\u2019s fireballs while Sora stays still. Ends at 11 seconds or 35 fireballs.",
+      "effectSource": "https://www.khwiki.com/Flare_Breath_Lv3"
     },
     {
       "id": "recom-sleight-sora-magic-lv2",
@@ -716,9 +2112,26 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Donald Duck",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Donald Duck"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Donald casts two random spells of the matching tier.",
+      "effectSource": "https://www.khwiki.com/Magic_Lv2"
     },
     {
       "id": "recom-sleight-sora-magic-lv3",
@@ -727,9 +2140,29 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Donald Duck + Donald Duck",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Donald Duck"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Donald casts two random spells of the matching tier.",
+      "effectSource": "https://www.khwiki.com/Magic_Lv3"
     },
     {
       "id": "recom-sleight-sora-stardust-blitz",
@@ -738,9 +2171,26 @@
       "family": "friend",
       "combinationReference": "Donald Duck + Fire",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Twilight Town Room of Rewards",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "card": "Fire"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Timed reactions let Sora bat Donald\u2019s three fireballs at enemies.",
+      "effectSource": "https://www.khwiki.com/Stardust_Blitz"
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv2",
@@ -749,9 +2199,26 @@
       "family": "friend",
       "combinationReference": "Goofy + Goofy",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Goofy"
+            },
+            {
+              "card": "Goofy"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Goofy spins around Sora, striking nearby enemies.",
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv2"
     },
     {
       "id": "recom-sleight-sora-goofy-tornado-lv3",
@@ -760,9 +2227,29 @@
       "family": "friend",
       "combinationReference": "Goofy + Goofy + Goofy",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning.",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Goofy"
+            },
+            {
+              "card": "Goofy"
+            },
+            {
+              "card": "Goofy"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Goofy spins around Sora, striking nearby enemies.",
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado_Lv3"
     },
     {
       "id": "recom-sleight-sora-goofy-smash",
@@ -771,9 +2258,26 @@
       "family": "friend",
       "combinationReference": "Goofy + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Goofy"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "A timed Sora/Goofy aerial combo; incorrect input ends it.",
+      "effectSource": "https://www.khwiki.com/Goofy_Smash"
     },
     {
       "id": "recom-sleight-sora-wild-crush",
@@ -782,9 +2286,29 @@
       "family": "friend",
       "combinationReference": "Goofy + Donald Duck + Attack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Available from the beginning",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Goofy"
+            },
+            {
+              "card": "Donald Duck"
+            },
+            {
+              "family": "attack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Sora and Donald carry Goofy in a steerable rushing attack.",
+      "effectSource": "https://www.khwiki.com/Wild_Crush"
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv2",
@@ -793,9 +2317,26 @@
       "family": "friend",
       "combinationReference": "Pluto + Pluto",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Traverse Town Room of Beginnings",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Pluto"
+            },
+            {
+              "card": "Pluto"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Pluto digs up cards or prizes; a bone or nothing is also possible. Recovers up to 6 spent cards, or 7 large HP and Moogle Point orbs each.",
+      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv2"
     },
     {
       "id": "recom-sleight-sora-lucky-bounty-lv3",
@@ -804,9 +2345,29 @@
       "family": "friend",
       "combinationReference": "Pluto + Pluto + Pluto",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Traverse Town Room of Beginnings",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Pluto"
+            },
+            {
+              "card": "Pluto"
+            },
+            {
+              "card": "Pluto"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Pluto digs up cards or prizes; a bone or nothing is also possible. Recovers up to 9 spent cards, or 10 large HP and Moogle Point orbs each.",
+      "effectSource": "https://www.khwiki.com/Lucky_Bounty_Lv3"
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv2",
@@ -815,9 +2376,26 @@
       "family": "friend",
       "combinationReference": "Aladdin + Aladdin",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Aladdin",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aladdin"
+            },
+            {
+              "card": "Aladdin"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Aladdin slashes, stuns enemies and drops Moogle Points. Lasts 5 seconds.",
+      "effectSource": "https://www.khwiki.com/Sandstorm_Lv2"
     },
     {
       "id": "recom-sleight-sora-sandstorm-lv3",
@@ -826,9 +2404,29 @@
       "family": "friend",
       "combinationReference": "Aladdin + Aladdin + Aladdin",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Aladdin",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Aladdin"
+            },
+            {
+              "card": "Aladdin"
+            },
+            {
+              "card": "Aladdin"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Aladdin slashes, stuns enemies and drops Moogle Points. Lasts 10 seconds.",
+      "effectSource": "https://www.khwiki.com/Sandstorm_Lv3"
     },
     {
       "id": "recom-sleight-sora-surprise-lv2",
@@ -837,9 +2435,26 @@
       "family": "friend",
       "combinationReference": "Jack + Jack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Jack",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Jack"
+            },
+            {
+              "card": "Jack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Jack casts random elemental or Gravity spells. Up to 2 exchanges/spells.",
+      "effectSource": "https://www.khwiki.com/Surprise!_Lv2"
     },
     {
       "id": "recom-sleight-sora-surprise-lv3",
@@ -848,9 +2463,29 @@
       "family": "friend",
       "combinationReference": "Jack + Jack + Jack",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Jack",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Jack"
+            },
+            {
+              "card": "Jack"
+            },
+            {
+              "card": "Jack"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Jack casts random elemental or Gravity spells. Up to 3 exchanges/spells.",
+      "effectSource": "https://www.khwiki.com/Surprise!_Lv3"
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv2",
@@ -859,9 +2494,26 @@
       "family": "friend",
       "combinationReference": "Ariel + Ariel",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Ariel",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Ariel"
+            },
+            {
+              "card": "Ariel"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Ariel charges and finishes with a kick; follow the reaction prompts.",
+      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv2"
     },
     {
       "id": "recom-sleight-sora-spiral-wave-lv3",
@@ -870,9 +2522,29 @@
       "family": "friend",
       "combinationReference": "Ariel + Ariel + Ariel",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Ariel",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Ariel"
+            },
+            {
+              "card": "Ariel"
+            },
+            {
+              "card": "Ariel"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Ariel charges and finishes with a kick; follow the reaction prompts.",
+      "effectSource": "https://www.khwiki.com/Spiral_Wave_Lv3"
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv2",
@@ -881,9 +2553,26 @@
       "family": "friend",
       "combinationReference": "Peter Pan + Peter Pan",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Peter Pan",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Peter Pan"
+            },
+            {
+              "card": "Peter Pan"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 9 seconds.",
+      "effectSource": "https://www.khwiki.com/Hummingbird_Lv2"
     },
     {
       "id": "recom-sleight-sora-hummingbird-lv3",
@@ -892,9 +2581,29 @@
       "family": "friend",
       "combinationReference": "Peter Pan + Peter Pan + Peter Pan",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Peter Pan",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Peter Pan"
+            },
+            {
+              "card": "Peter Pan"
+            },
+            {
+              "card": "Peter Pan"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 11 seconds.",
+      "effectSource": "https://www.khwiki.com/Hummingbird_Lv3"
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv2",
@@ -903,9 +2612,26 @@
       "family": "friend",
       "combinationReference": "Beast + Beast",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Beast",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Beast"
+            },
+            {
+              "card": "Beast"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Beast knocks enemies toward Sora for timed return hits. Up to 2 exchanges/spells.",
+      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv2"
     },
     {
       "id": "recom-sleight-sora-furious-volley-lv3",
@@ -914,9 +2640,29 @@
       "family": "friend",
       "combinationReference": "Beast + Beast + Beast",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Obtain Beast",
-      "normalCombat": true
+      "normalCombat": true,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Beast"
+            },
+            {
+              "card": "Beast"
+            },
+            {
+              "card": "Beast"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Beast knocks enemies toward Sora for timed return hits. Up to 3 exchanges/spells.",
+      "effectSource": "https://www.khwiki.com/Furious_Volley_Lv3"
     },
     {
       "id": "recom-sleight-sora-honey-storm",
@@ -925,9 +2671,37 @@
       "family": "minigame",
       "combinationReference": "Wind + Honey OR Honey + Wind",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Bumble-Rumble",
-      "normalCombat": false
+      "normalCombat": false,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Wind"
+            },
+            {
+              "card": "Honey"
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "slots": [
+            {
+              "card": "Honey"
+            },
+            {
+              "card": "Wind"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Eliminates the bees currently on screen.",
+      "effectSource": "https://www.khwiki.com/Honey_Storm"
     },
     {
       "id": "recom-sleight-sora-honey-pot",
@@ -936,9 +2710,26 @@
       "family": "minigame",
       "combinationReference": "Honey + Honey",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "acquisition": "Bumble-Rumble",
-      "normalCombat": false
+      "normalCombat": false,
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Honey"
+            },
+            {
+              "card": "Honey"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Restores about two-thirds of the honey gauge over about seven seconds.",
+      "effectSource": "https://www.khwiki.com/Honey_Pot"
     },
     {
       "id": "recom-sleight-riku-dark-break",
@@ -947,11 +2738,38 @@
       "family": "attack",
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (5-15)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
-      "modeReviewed": "2026-10-01"
+      "modeReviewed": "2026-10-01",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              5,
+              15
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Repeated leaping attacks with timed follow-ups.",
+      "effectSource": "https://www.khwiki.com/Dark_Break"
     },
     {
       "id": "recom-sleight-riku-dark-firaga",
@@ -960,11 +2778,38 @@
       "family": "attack",
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (16-25)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
-      "modeReviewed": "2026-10-01"
+      "modeReviewed": "2026-10-01",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "range",
+            "values": [
+              16,
+              25
+            ]
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Fires a dark projectile.",
+      "effectSource": "https://www.khwiki.com/Dark_Firaga"
     },
     {
       "id": "recom-sleight-riku-dark-aura",
@@ -973,11 +2818,35 @@
       "family": "attack",
       "combinationReference": "Soul Eater + Soul Eater + Soul Eater (27)",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
-      "modeReviewed": "2026-10-01"
+      "modeReviewed": "2026-10-01",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            }
+          ],
+          "ordered": true,
+          "valueTotal": {
+            "comparison": "exact",
+            "value": 27
+          }
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Six rushes followed by a ground strike and pillars of energy.",
+      "effectSource": "https://www.khwiki.com/Dark_Aura"
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv2",
@@ -986,11 +2855,28 @@
       "family": "friend",
       "combinationReference": "The King + The King",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal or Dark Mode.",
-      "modeReviewed": "2026-10-01"
+      "modeReviewed": "2026-10-01",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "The King"
+            },
+            {
+              "card": "The King"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Mickey damages/stuns enemies, heals Riku and reloads cards.",
+      "effectSource": "https://www.khwiki.com/MM_Miracle_Lv2"
     },
     {
       "id": "recom-sleight-riku-mm-miracle-lv3",
@@ -999,11 +2885,31 @@
       "family": "friend",
       "combinationReference": "The King + The King + The King",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal or Dark Mode.",
-      "modeReviewed": "2026-10-01"
+      "modeReviewed": "2026-10-01",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "The King"
+            },
+            {
+              "card": "The King"
+            },
+            {
+              "card": "The King"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Mickey damages/stuns enemies, heals Riku and reloads cards.",
+      "effectSource": "https://www.khwiki.com/MM_Miracle_Lv3"
     },
     {
       "id": "recom-sleight-riku-holy-burst",
@@ -1012,12 +2918,32 @@
       "family": "friend",
       "combinationReference": "The King + Soul Eater + Soul Eater",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "supportingSource": "https://www.khwiki.com/Holy_Burst"
+      "supportingSource": "https://www.khwiki.com/Holy_Burst",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "The King"
+            },
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Riku and Mickey spin back-to-back and fire projectiles.",
+      "effectSource": "https://www.khwiki.com/Holy_Burst"
     },
     {
       "id": "recom-sleight-riku-inverse-burst",
@@ -1026,12 +2952,32 @@
       "family": "friend",
       "combinationReference": "The King + Soul Eater + Soul Eater",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "supportingSource": "https://www.khwiki.com/Holy_Burst"
+      "supportingSource": "https://www.khwiki.com/Holy_Burst",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "recipeAlternatives": [
+        {
+          "slots": [
+            {
+              "card": "The King"
+            },
+            {
+              "card": "Soul Eater"
+            },
+            {
+              "card": "Soul Eater"
+            }
+          ],
+          "ordered": true
+        }
+      ],
+      "thirdCardPrecedence": null,
+      "effect": "Dark-form back-to-back projectile attack; hits can confuse enemies.",
+      "effectSource": "https://www.khwiki.com/Inverse_Burst"
     },
     {
       "id": "recom-sleight-riku-impulse",
@@ -1040,12 +2986,20 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break three cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 3
+      },
+      "recipeAlternatives": [],
+      "effect": "Launches the enemy, then slams down with an area shockwave.",
+      "effectSource": "https://www.khwiki.com/Impulse"
     },
     {
       "id": "recom-sleight-riku-dark-impulse",
@@ -1054,12 +3008,20 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break three cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 3
+      },
+      "recipeAlternatives": [],
+      "effect": "Dark-form launch and downward finishing strike.",
+      "effectSource": "https://www.khwiki.com/Dark_Impulse_(KHRECOM)"
     },
     {
       "id": "recom-sleight-riku-maelstrom",
@@ -1068,12 +3030,20 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break five cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 5
+      },
+      "recipeAlternatives": [],
+      "effect": "Spinning rush followed by an upward slash.",
+      "effectSource": "https://www.khwiki.com/Maelstrom"
     },
     {
       "id": "recom-sleight-riku-dark-maelstrom",
@@ -1082,12 +3052,20 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break five cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 5
+      },
+      "recipeAlternatives": [],
+      "effect": "Dark energy blades spin toward the target, then slash upward.",
+      "effectSource": "https://www.khwiki.com/Dark_Maelstrom"
     },
     {
       "id": "recom-sleight-riku-barrage",
@@ -1096,12 +3074,20 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break seven cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Normal Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 7
+      },
+      "recipeAlternatives": [],
+      "effect": "Rushes, launches and throws Soul Eater at the enemy.",
+      "effectSource": "https://www.khwiki.com/Barrage"
     },
     {
       "id": "recom-sleight-riku-dark-barrage",
@@ -1110,12 +3096,21 @@
       "family": "duel",
       "combinationReference": "Win a duel that requires you to break seven cards.",
       "source": "https://www.khwiki.com/Sleight",
-      "verification": "source-inspected candidate; recipe alternatives/precedence not executable data",
+      "verification": "Edition-selected recipe text normalized; effect reference added. Third-card matching precedence and native-menu order remain unverified.",
       "normalCombat": true,
       "acquisition": "Available after leaving Hollow Bastion and meeting Ansem and the King.",
       "modeRequirement": "Dark Mode only.",
       "modeReviewed": "2026-10-01",
-      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy’s card value (or play a card with Duel Trigger active), then accept the duel prompt."
+      "duelRequirement": "Keep at least 8 reloadable cards to start a duel. Match the enemy\u2019s card value (or play a card with Duel Trigger active), then accept the duel prompt.",
+      "recipeStatus": "Normalized from the existing edition-selected reference; unresolved third-card precedence is not inferred.",
+      "activation": {
+        "kind": "duel-victory",
+        "breakCount": 7
+      },
+      "recipeAlternatives": [],
+      "effect": "Rushes and launches, then fires multiple dark blades.",
+      "effectSource": "https://www.khwiki.com/Dark_Barrage"
     }
-  ]
+  ],
+  "followUpDate": "2026-10-01"
 }

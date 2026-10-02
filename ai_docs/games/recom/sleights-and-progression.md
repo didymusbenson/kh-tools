@@ -1,6 +1,6 @@
 # Sleights, leveling and movement
 
-Research: 2026-09-28. [98 structured sleight candidates](sleights.json).
+Updated 2026-10-01. [98 structured sleights](sleights.json) · [Complete progression](progression.json) · [Current dispositions](research-resolution-2026-10-01.md).
 
 ## Re:CoM level milestones
 
@@ -37,7 +37,7 @@ Use the card/sleight record as the canonical definition and link each acquisitio
 
 Order, identity, value sum, same/different weapon constraint and campaign all matter. A level requirement cannot substitute for learning the sleight. Two-card moves such as Stardust Blitz are real; a schema that requires exactly three ingredients is wrong. Some recipes have alternatives or a generic card category in one slot.
 
-The JSON records **83 ordinary Sora names, two minigame names and 13 Riku names** from the inspected table. These counts describe the extraction, not an independently audited native menu. `combinationReference` is readable research text, not an executable recipe. Illustrative card icons are not proof that a generic slot requires that exact weapon. Normalize alternatives and precedence before any deck solver or “all sleights” percentage.
+The JSON records **83 ordinary Sora names, two minigame names and 13 Riku names** from the inspected table. These counts describe the extraction, not an independently audited native menu. `combinationReference` remains readable text; `recipeAlternatives` now normalizes all 92 stock recipes, and six duel moves have explicit activation conditions. All 98 moves have effects. Illustrative icons do not narrow generic slots. `thirdCardPrecedence` remains null; full overlap/two-card precedence must be established before certifying a solver. Native order and Steam goal membership remain separate from recipe completeness.
 
 Stocking normally makes the first card unavailable to normal reload for that battle; higher-tier recovery items and enemy effects introduce exceptions. This does not delete the player's permanent copy. Card value zero is a break tool whose behavior depends on play timing, not the numeric “strongest attack.” [Battle Card](https://www.khwiki.com/Battle_Card); the [modern general-info walkthrough](https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories/walkthrough/2) illustrates how deck order affects repeated Sonic Blade use.
 
@@ -51,7 +51,7 @@ Stocking normally makes the first card unavailable to normal reload for that bat
 
 Sources: [High Jump](https://www.khwiki.com/High_Jump), [Glide](https://www.khwiki.com/Glide), [Superglide](https://www.khwiki.com/Superglide), [Spellbinder chest](https://www.khwiki.com/Game:100_Acre_Wood). The card world may be placed on a different floor within its allowed group; never state that Glide is universally a specific floor's reward.
 
-## Validation examples for future implementation
+## Recipe boundary examples
 
 1. Sonic Blade accepts three different attack identities totaling 21; the same identities totaling 19 do not match it.
 2. Sliding Dash and Blitz can share a total but differ by the identity constraint.
@@ -60,4 +60,10 @@ Sources: [High Jump](https://www.khwiki.com/High_Jump), [Glide](https://www.khwi
 5. Using an item that restores unreloadable cards changes the battle state, not permanent inventory quantities.
 6. Riku's Dark Aura is three Soul Eaters totaling 27 and requires Dark Mode; it is not a Sora unlock.
 
-These are acceptance cases, not tests run against an existing Re:CoM app module. Full HP/CP/AP/DP caps, EXP curves, deferred-sleight selection order and frame-level combat data remain open.
+The targeted Re:CoM tests cover structured recipe boundaries and form-sensitive moves. Full frame-level combat data remains open; progression is resolved below.
+
+## Complete progression reference
+
+[Level](https://www.khwiki.com/Level) and [Stats](https://www.khwiki.com/Stats) support all 99 canonical level rows. Level 2 requires 25 EXP; levels 3–99 require four times the square of the destination level. Both campaigns cap at 99. Sora starts at 80 HP/275 CP, gains 15/25 per choice and caps at 560/1625; AP is fixed at 10. Riku starts at 80 HP/10 AP/8 DP, gains 15/1/2 and caps at 560/30/99. AP opportunities are level 2 then every three levels through 59. Deferred AP and Sora sleight choices persist; Sora learns available sleights in fixed order. Only HP choice heals in Re:CoM.
+
+The individual Zantetsuken page and Destiny Islands Sora table contain contradictory 27-level/GBA-style landmarks. The edition-separated Level/Sleight tables retain the Re:CoM sequence above, including Zantetsuken 22 and Sonic Blade 27. See the conflict discussion in the resolution ledger.

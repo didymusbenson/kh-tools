@@ -1,0 +1,5046 @@
+{
+  "reviewed": "2026-10-01",
+  "edition": "Kingdom Hearts II Final Mix",
+  "notes": "Original KHII-only acquisition/AP alternatives excluded. Dream choice and Critical footnotes expanded; Sora inherits Roxas abilities. Form innate and equipment grants have no AP cost; listed AP applies to equippable standard abilities. 167 source definitions, not 167 collectible Sora abilities.",
+  "records": [
+    {
+      "id": "kh2fm.abilities.guard",
+      "name": "Guard",
+      "sourceName": "Guard",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Roxas: Defeat the Twilight Thorn",
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Guard"
+      ],
+      "effect": "Parry incoming attacks with the guard action.",
+      "entry": {
+        "id": "kh2fm.abilities.guard",
+        "name": "Guard",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Parry incoming attacks with the guard action.",
+        "prerequisites": "Roxas: Defeat the Twilight Thorn; Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Guard"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.upper-slash",
+      "name": "Upper Slash",
+      "sourceName": "Upper Slash",
+      "family": "action",
+      "ap": "4",
+      "acquisition": [
+        "Sora: Defeat the Possessor and Thresholder"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Upper_Slash"
+      ],
+      "effect": "Combo action that launches the target upward.",
+      "entry": {
+        "id": "kh2fm.abilities.upper-slash",
+        "name": "Upper Slash",
+        "category": "abilities",
+        "summary": "Action ability · AP 4",
+        "instructions": "Combo action that launches the target upward.",
+        "prerequisites": "Sora: Defeat the Possessor and Thresholder.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Upper_Slash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.horizontal-slash",
+      "name": "Horizontal Slash",
+      "sourceName": "Horizontal Slash",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Defeat the Grim Reaper on The Black Pearl"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Horizontal_Slash"
+      ],
+      "effect": "Wide sideways slash during an aerial combo.",
+      "entry": {
+        "id": "kh2fm.abilities.horizontal-slash",
+        "name": "Horizontal Slash",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Wide sideways slash during an aerial combo.",
+        "prerequisites": "Sora: Defeat the Grim Reaper on The Black Pearl.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Horizontal_Slash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.finishing-leap",
+      "name": "Finishing Leap",
+      "sourceName": "Finishing Leap",
+      "family": "action",
+      "ap": "5",
+      "acquisition": [
+        "Sora: Defeat the Blizzard Lord and Volcanic Lord"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Finishing_Leap"
+      ],
+      "effect": "Guard-piercing finisher activated at a combo's end.",
+      "entry": {
+        "id": "kh2fm.abilities.finishing-leap",
+        "name": "Finishing Leap",
+        "category": "abilities",
+        "summary": "Action ability · AP 5",
+        "instructions": "Guard-piercing finisher activated at a combo's end.",
+        "prerequisites": "Sora: Defeat the Blizzard Lord and Volcanic Lord.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Finishing_Leap"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.retaliating-slash",
+      "name": "Retaliating Slash",
+      "sourceName": "Retaliating Slash",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Defeat the Dark Thorn",
+        "Valor Form: Default",
+        "Wisdom Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Retaliating_Slash"
+      ],
+      "effect": "Recover from knockback with a counterattack.",
+      "entry": {
+        "id": "kh2fm.abilities.retaliating-slash",
+        "name": "Retaliating Slash",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Recover from knockback with a counterattack.",
+        "prerequisites": "Sora: Defeat the Dark Thorn; Valor Form: Default; Wisdom Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Retaliating_Slash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.slapshot",
+      "name": "Slapshot",
+      "sourceName": "Slapshot",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Defeat the Nobodies at the Betwixt and Between",
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Slapshot"
+      ],
+      "effect": "Fast close-range strike that avoids recoil.",
+      "entry": {
+        "id": "kh2fm.abilities.slapshot",
+        "name": "Slapshot",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Fast close-range strike that avoids recoil.",
+        "prerequisites": "Sora: Defeat the Nobodies at the Betwixt and Between; Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Slapshot"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dodge-slash",
+      "name": "Dodge Slash",
+      "sourceName": "Dodge Slash",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Free the Cornerstone of Light"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dodge_Slash"
+      ],
+      "effect": "Attack several enemies around the user.",
+      "entry": {
+        "id": "kh2fm.abilities.dodge-slash",
+        "name": "Dodge Slash",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Attack several enemies around the user.",
+        "prerequisites": "Sora: Free the Cornerstone of Light.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dodge_Slash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.flash-step",
+      "name": "Flash Step",
+      "sourceName": "Flash Step",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Defeat the Prison Keeper"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Flash_Step"
+      ],
+      "effect": "Advance while guarding, then pierce the target's guard.",
+      "entry": {
+        "id": "kh2fm.abilities.flash-step",
+        "name": "Flash Step",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Advance while guarding, then pierce the target's guard.",
+        "prerequisites": "Sora: Defeat the Prison Keeper.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Flash_Step"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.slide-dash",
+      "name": "Slide Dash",
+      "sourceName": "Slide Dash",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Clear the trap at the Village Cave",
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Slide_Dash"
+      ],
+      "effect": "Dash into an attack against a distant enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.slide-dash",
+        "name": "Slide Dash",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Dash into an attack against a distant enemy.",
+        "prerequisites": "Sora: Clear the trap at the Village Cave; Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Slide_Dash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.vicinity-break",
+      "name": "Vicinity Break",
+      "sourceName": "Vicinity Break",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Defeat the Hostile Program"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Vicinity_Break"
+      ],
+      "effect": "Area attack for use when surrounded.",
+      "entry": {
+        "id": "kh2fm.abilities.vicinity-break",
+        "name": "Vicinity Break",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Area attack for use when surrounded.",
+        "prerequisites": "Sora: Defeat the Hostile Program.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Vicinity_Break"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.guard-break",
+      "name": "Guard Break",
+      "sourceName": "Guard Break",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Complete the Battle of the 1000 Heartless"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Guard_Break"
+      ],
+      "effect": "Combo finisher that penetrates guard.",
+      "entry": {
+        "id": "kh2fm.abilities.guard-break",
+        "name": "Guard Break",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Combo finisher that penetrates guard.",
+        "prerequisites": "Sora: Complete the Battle of the 1000 Heartless.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Guard_Break"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.explosion",
+      "name": "Explosion",
+      "sourceName": "Explosion",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Defend the Solar Sailer Simulation"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Explosion_(ability)"
+      ],
+      "effect": "Magic-dependent finisher that knocks down nearby enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.explosion",
+        "name": "Explosion",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Magic-dependent finisher that knocks down nearby enemies.",
+        "prerequisites": "Sora: Defend the Solar Sailer Simulation.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Explosion_(ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-sweep",
+      "name": "Aerial Sweep",
+      "sourceName": "Aerial Sweep",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Defeat Shan-Yu",
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Sweep"
+      ],
+      "effect": "Jumping strike against an airborne target.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-sweep",
+        "name": "Aerial Sweep",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Jumping strike against an airborne target.",
+        "prerequisites": "Sora: Defeat Shan-Yu; Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Sweep"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-dive",
+      "name": "Aerial Dive",
+      "sourceName": "Aerial Dive",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Clear \"Maniac\" Phil's Training"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Dive"
+      ],
+      "effect": "Close the distance to an airborne enemy with an attack.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-dive",
+        "name": "Aerial Dive",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Close the distance to an airborne enemy with an attack.",
+        "prerequisites": "Sora: Clear \"Maniac\" Phil's Training.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Dive"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-spiral",
+      "name": "Aerial Spiral",
+      "sourceName": "Aerial Spiral",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Save the Medallion"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Spiral"
+      ],
+      "effect": "Spinning aerial approach attack.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-spiral",
+        "name": "Aerial Spiral",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Spinning aerial approach attack.",
+        "prerequisites": "Sora: Save the Medallion.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Spiral"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-finish",
+      "name": "Aerial Finish",
+      "sourceName": "Aerial Finish",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Defeat Captain Barbossa"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Finish"
+      ],
+      "effect": "Air-combo finisher focused on one enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-finish",
+        "name": "Aerial Finish",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Air-combo finisher focused on one enemy.",
+        "prerequisites": "Sora: Defeat Captain Barbossa.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Finish"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.magnet-burst",
+      "name": "Magnet Burst",
+      "sourceName": "Magnet Burst",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Defeat Hades"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Magnet_Burst"
+      ],
+      "effect": "Pull enemies together for a magic-dependent finisher.",
+      "entry": {
+        "id": "kh2fm.abilities.magnet-burst",
+        "name": "Magnet Burst",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Pull enemies together for a magic-dependent finisher.",
+        "prerequisites": "Sora: Defeat Hades.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Magnet_Burst"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.counterguard",
+      "name": "Counterguard",
+      "sourceName": "Counterguard",
+      "family": "action",
+      "ap": "4",
+      "acquisition": [
+        "Sora: Defeat Cerberus"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Counterguard"
+      ],
+      "effect": "Use Attack during a guard to retaliate against nearby enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.counterguard",
+        "name": "Counterguard",
+        "category": "abilities",
+        "summary": "Action ability · AP 4",
+        "instructions": "Use Attack during a guard to retaliate against nearby enemies.",
+        "prerequisites": "Sora: Defeat Cerberus.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Counterguard"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-valor",
+      "name": "Auto Valor",
+      "sourceName": "Auto Valor",
+      "family": "action",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Valor Form LV2"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Valor"
+      ],
+      "effect": "Offers Valor Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-valor",
+        "name": "Auto Valor",
+        "category": "abilities",
+        "summary": "Action ability · AP 1",
+        "instructions": "Offers Valor Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Sora: Reach Valor Form LV2.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Valor"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-wisdom",
+      "name": "Auto Wisdom",
+      "sourceName": "Auto Wisdom",
+      "family": "action",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV2"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Wisdom"
+      ],
+      "effect": "Offers Wisdom Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-wisdom",
+        "name": "Auto Wisdom",
+        "category": "abilities",
+        "summary": "Action ability · AP 1",
+        "instructions": "Offers Wisdom Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Sora: Reach Wisdom Form LV2.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Wisdom"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-limit",
+      "name": "Auto Limit",
+      "sourceName": "Auto Limit",
+      "family": "action",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Limit Form LV2"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Limit_(action_ability)"
+      ],
+      "effect": "Offers Limit Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-limit",
+        "name": "Auto Limit",
+        "category": "abilities",
+        "summary": "Action ability · AP 1",
+        "instructions": "Offers Limit Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Sora: Reach Limit Form LV2.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Limit_(action_ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-master",
+      "name": "Auto Master",
+      "sourceName": "Auto Master",
+      "family": "action",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Master Form LV2"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Master"
+      ],
+      "effect": "Offers Master Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-master",
+        "name": "Auto Master",
+        "category": "abilities",
+        "summary": "Action ability · AP 1",
+        "instructions": "Offers Master Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Sora: Reach Master Form LV2.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Master"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-final",
+      "name": "Auto Final",
+      "sourceName": "Auto Final",
+      "family": "action",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Final Form LV2"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Final"
+      ],
+      "effect": "Offers Final Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-final",
+        "name": "Auto Final",
+        "category": "abilities",
+        "summary": "Action ability · AP 1",
+        "instructions": "Offers Final Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Sora: Reach Final Form LV2.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Final"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-summon",
+      "name": "Auto Summon",
+      "sourceName": "Auto Summon",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Escort Queen Minnie to the throne"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Summon"
+      ],
+      "effect": "Offers a Summon reaction prompt when an ally falls, if summoning is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-summon",
+        "name": "Auto Summon",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Offers a Summon reaction prompt when an ally falls, if summoning is available.",
+        "prerequisites": "Sora: Escort Queen Minnie to the throne.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Summon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.trinity-limit",
+      "name": "Trinity Limit",
+      "sourceName": "Trinity Limit",
+      "family": "action",
+      "ap": "5",
+      "acquisition": [
+        "Sora: Defeat Pete at The Lock"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Trinity_Limit"
+      ],
+      "effect": "Team Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.trinity-limit",
+        "name": "Trinity Limit",
+        "category": "abilities",
+        "summary": "Action ability · AP 5",
+        "instructions": "Team Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Sora: Defeat Pete at The Lock.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Trinity_Limit"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.brave-shot",
+      "name": "Brave Shot",
+      "sourceName": "Brave Shot",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Brave_Shot"
+      ],
+      "effect": "Single-target finisher that knocks the enemy down.",
+      "entry": {
+        "id": "kh2fm.abilities.brave-shot",
+        "name": "Brave Shot",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Single-target finisher that knocks the enemy down.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Brave_Shot"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.brave-beat",
+      "name": "Brave Beat",
+      "sourceName": "Brave Beat",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Brave_Beat"
+      ],
+      "effect": "Finishing sequence that hits multiple enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.brave-beat",
+        "name": "Brave Beat",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Finishing sequence that hits multiple enemies.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Brave_Beat"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.sonic-strike",
+      "name": "Sonic Strike",
+      "sourceName": "Sonic Strike",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Sonic_Strike"
+      ],
+      "effect": "Piercing finisher against one enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.sonic-strike",
+        "name": "Sonic Strike",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Piercing finisher against one enemy.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Sonic_Strike"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.sonic-end",
+      "name": "Sonic End",
+      "sourceName": "Sonic End",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Sonic_End"
+      ],
+      "effect": "Rapid airborne finisher against several enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.sonic-end",
+        "name": "Sonic End",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Rapid airborne finisher against several enemies.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Sonic_End"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.over-the-horizon",
+      "name": "Over the Horizon",
+      "sourceName": "Over the Horizon",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Over_the_Horizon"
+      ],
+      "effect": "Action-button leap into an attack.",
+      "entry": {
+        "id": "kh2fm.abilities.over-the-horizon",
+        "name": "Over the Horizon",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Action-button leap into an attack.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Over_the_Horizon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.omega-finale",
+      "name": "Omega Finale",
+      "sourceName": "Omega Finale",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Omega_Finale"
+      ],
+      "effect": "Use the action button to perform a finisher before the combo ends.",
+      "entry": {
+        "id": "kh2fm.abilities.omega-finale",
+        "name": "Omega Finale",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Use the action button to perform a finisher before the combo ends.",
+        "prerequisites": "Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Omega_Finale"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.wisdom-shot",
+      "name": "Wisdom Shot",
+      "sourceName": "Wisdom Shot",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Wisdom Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Wisdom_Shot"
+      ],
+      "effect": "Replaces the Attack command with ranged Shoot.",
+      "entry": {
+        "id": "kh2fm.abilities.wisdom-shot",
+        "name": "Wisdom Shot",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Replaces the Attack command with ranged Shoot.",
+        "prerequisites": "Wisdom Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Wisdom_Shot"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mobile-action",
+      "name": "Mobile Action",
+      "sourceName": "Mobile Action",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Wisdom Form: Default",
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Mobile_Action"
+      ],
+      "effect": "Permits actions while moving.",
+      "entry": {
+        "id": "kh2fm.abilities.mobile-action",
+        "name": "Mobile Action",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Permits actions while moving.",
+        "prerequisites": "Wisdom Form: Default; Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Mobile_Action"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.magic-haste",
+      "name": "Magic Haste",
+      "sourceName": "Magic Haste",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Wisdom Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Magic_Haste"
+      ],
+      "effect": "Faster spell casting and magic-combo execution.",
+      "entry": {
+        "id": "kh2fm.abilities.magic-haste",
+        "name": "Magic Haste",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Faster spell casting and magic-combo execution.",
+        "prerequisites": "Wisdom Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Magic_Haste"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.magic-spice",
+      "name": "Magic Spice",
+      "sourceName": "Magic Spice",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Wisdom Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Magic_Spice"
+      ],
+      "effect": "Boosts magic-combo finishers.",
+      "entry": {
+        "id": "kh2fm.abilities.magic-spice",
+        "name": "Magic Spice",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Boosts magic-combo finishers.",
+        "prerequisites": "Wisdom Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Magic_Spice"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.sonic-rave",
+      "name": "Sonic Rave",
+      "sourceName": "Sonic Rave",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Sonic_Rave"
+      ],
+      "effect": "Rush past the target; timed reaction inputs extend the Limit. Costs 60 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.sonic-rave",
+        "name": "Sonic Rave",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Rush past the target; timed reaction inputs extend the Limit. Costs 60 MP.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Sonic_Rave"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.last-arcanum",
+      "name": "Last Arcanum",
+      "sourceName": "Last Arcanum",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Last_Arcanum"
+      ],
+      "effect": "Multi-hit Limit extended with reaction inputs. Costs 75 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.last-arcanum",
+        "name": "Last Arcanum",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Multi-hit Limit extended with reaction inputs. Costs 75 MP.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Last_Arcanum"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.strike-raid",
+      "name": "Strike Raid",
+      "sourceName": "Strike Raid",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Strike_Raid"
+      ],
+      "effect": "Throw the Keyblade; reaction inputs extend the Limit. Costs 65 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.strike-raid",
+        "name": "Strike Raid",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Throw the Keyblade; reaction inputs extend the Limit. Costs 65 MP.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Strike_Raid"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.infinity",
+      "name": "Infinity",
+      "sourceName": "Infinity",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Infinity_(Limit)"
+      ],
+      "effect": "Use the Limit reaction after an aerial combo. Costs 80 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.infinity",
+        "name": "Infinity",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Use the Limit reaction after an aerial combo. Costs 80 MP.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Infinity_(Limit)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.zantetsuken",
+      "name": "Zantetsuken",
+      "sourceName": "Zantetsuken",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Zantetsuken"
+      ],
+      "effect": "Single-target finisher capable of killing weak enemies immediately.",
+      "entry": {
+        "id": "kh2fm.abilities.zantetsuken",
+        "name": "Zantetsuken",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Single-target finisher capable of killing weak enemies immediately.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Zantetsuken"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.ripple-drive",
+      "name": "Ripple Drive",
+      "sourceName": "Ripple Drive",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Ripple_Drive"
+      ],
+      "effect": "Magic-dependent area finisher for surrounding enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.ripple-drive",
+        "name": "Ripple Drive",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Magic-dependent area finisher for surrounding enemies.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Ripple_Drive"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.hurricane-period",
+      "name": "Hurricane Period",
+      "sourceName": "Hurricane Period",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Hurricane_Period"
+      ],
+      "effect": "Aerial barrage finisher.",
+      "entry": {
+        "id": "kh2fm.abilities.hurricane-period",
+        "name": "Hurricane Period",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Aerial barrage finisher.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Hurricane_Period"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.zantetsu-counter",
+      "name": "Zantetsu Counter",
+      "sourceName": "Zantetsu Counter",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Zantetsu_Counter"
+      ],
+      "effect": "Choose Attack during guard to counter with Zantetsuken.",
+      "entry": {
+        "id": "kh2fm.abilities.zantetsu-counter",
+        "name": "Zantetsu Counter",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Choose Attack during guard to counter with Zantetsuken.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Zantetsu_Counter"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.reflect-combo",
+      "name": "Reflect Combo",
+      "sourceName": "Reflect Combo",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Reflect_Combo"
+      ],
+      "effect": "Permits guarding in the middle of a combo.",
+      "entry": {
+        "id": "kh2fm.abilities.reflect-combo",
+        "name": "Reflect Combo",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Permits guarding in the middle of a combo.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Reflect_Combo"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.master-strike",
+      "name": "Master Strike",
+      "sourceName": "Master Strike",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Master Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Master_Strike"
+      ],
+      "effect": "Repeated finishing attacks focused on one enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.master-strike",
+        "name": "Master Strike",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Repeated finishing attacks focused on one enemy.",
+        "prerequisites": "Master Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Master_Strike"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.disaster",
+      "name": "Disaster",
+      "sourceName": "Disaster",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Master Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Disaster"
+      ],
+      "effect": "Pulls multiple enemies into repeated finishing hits.",
+      "entry": {
+        "id": "kh2fm.abilities.disaster",
+        "name": "Disaster",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Pulls multiple enemies into repeated finishing hits.",
+        "prerequisites": "Master Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Disaster"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.master-magic",
+      "name": "Master Magic",
+      "sourceName": "Master Magic",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Master Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Master_Magic"
+      ],
+      "effect": "Improves magic attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.master-magic",
+        "name": "Master Magic",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Improves magic attacks.",
+        "prerequisites": "Master Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Master_Magic"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.final-arcana",
+      "name": "Final Arcana",
+      "sourceName": "Final Arcana",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Final_Arcana"
+      ],
+      "effect": "Single-target Keyblade finishing sequence.",
+      "entry": {
+        "id": "kh2fm.abilities.final-arcana",
+        "name": "Final Arcana",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Single-target Keyblade finishing sequence.",
+        "prerequisites": "Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Final_Arcana"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.final-strike",
+      "name": "Final Strike",
+      "sourceName": "Final Strike",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Final_Strike"
+      ],
+      "effect": "Spinning airborne finisher against one target.",
+      "entry": {
+        "id": "kh2fm.abilities.final-strike",
+        "name": "Final Strike",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Spinning airborne finisher against one target.",
+        "prerequisites": "Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Final_Strike"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.final-arts",
+      "name": "Final Arts",
+      "sourceName": "Final Arts",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Final_Arts"
+      ],
+      "effect": "Finisher that attacks several targets.",
+      "entry": {
+        "id": "kh2fm.abilities.final-arts",
+        "name": "Final Arts",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Finisher that attacks several targets.",
+        "prerequisites": "Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Final_Arts"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-assault",
+      "name": "Auto Assault",
+      "sourceName": "Auto Assault",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Assault"
+      ],
+      "effect": "Offers Assault Form as a reaction prompt at critical HP, when that Form is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-assault",
+        "name": "Auto Assault",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Offers Assault Form as a reaction prompt at critical HP, when that Form is available.",
+        "prerequisites": "Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Assault"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.crime-punishment",
+      "name": "Crime & Punishment",
+      "sourceName": "Crime & Punishment",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Crime_%26_Punishment_(ability)"
+      ],
+      "effect": "Dual-Keyblade spell attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.crime-punishment",
+        "name": "Crime & Punishment",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Dual-Keyblade spell attacks.",
+        "prerequisites": "Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Crime_%26_Punishment_(ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.combo-upper",
+      "name": "Combo Upper",
+      "sourceName": "Combo Upper",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Combo_Upper"
+      ],
+      "effect": "Combo action that launches an enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.combo-upper",
+        "name": "Combo Upper",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Combo action that launches an enemy.",
+        "prerequisites": "Lion Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Combo_Upper"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-impulse",
+      "name": "Aerial Impulse",
+      "sourceName": "Aerial Impulse",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Impulse"
+      ],
+      "effect": "Air-combo tackle.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-impulse",
+        "name": "Aerial Impulse",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Air-combo tackle.",
+        "prerequisites": "Lion Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Impulse"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.finishing-blast",
+      "name": "Finishing Blast",
+      "sourceName": "Finishing Blast",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Finishing_Blast"
+      ],
+      "effect": "Area attack at the end of a combo.",
+      "entry": {
+        "id": "kh2fm.abilities.finishing-blast",
+        "name": "Finishing Blast",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Area attack at the end of a combo.",
+        "prerequisites": "Lion Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Finishing_Blast"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.retaliating-smash",
+      "name": "Retaliating Smash",
+      "sourceName": "Retaliating Smash",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Retaliating_Smash"
+      ],
+      "effect": "Recover from knockback with an attack.",
+      "entry": {
+        "id": "kh2fm.abilities.retaliating-smash",
+        "name": "Retaliating Smash",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Recover from knockback with an attack.",
+        "prerequisites": "Lion Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Retaliating_Smash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.running-tackle",
+      "name": "Running Tackle",
+      "sourceName": "Running Tackle",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Restore Simba's confidence."
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Running_Tackle"
+      ],
+      "effect": "Attack while dashing to tackle one enemy.",
+      "entry": {
+        "id": "kh2fm.abilities.running-tackle",
+        "name": "Running Tackle",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Attack while dashing to tackle one enemy.",
+        "prerequisites": "Lion Form: Restore Simba's confidence..",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Running_Tackle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dash",
+      "name": "Dash",
+      "sourceName": "Dash",
+      "family": "action",
+      "ap": "—",
+      "acquisition": [
+        "Lion Form: Reach Wildebeest Valley"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dash_(ability)"
+      ],
+      "effect": "Hold the dash action for rapid movement.",
+      "entry": {
+        "id": "kh2fm.abilities.dash",
+        "name": "Dash",
+        "category": "abilities",
+        "summary": "Action ability · AP —",
+        "instructions": "Hold the dash action for rapid movement.",
+        "prerequisites": "Lion Form: Reach Wildebeest Valley.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dash_(ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.donald-fire",
+      "name": "Donald Fire",
+      "sourceName": "Donald Fire",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Donald Duck: Defeat the Possessor and Thresholder"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Donald_Fire"
+      ],
+      "effect": "Nearby fire attack. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.donald-fire",
+        "name": "Donald Fire",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Nearby fire attack. Costs 10 MP.",
+        "prerequisites": "Donald Duck: Defeat the Possessor and Thresholder.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Donald_Fire"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.donald-blizzard",
+      "name": "Donald Blizzard",
+      "sourceName": "Donald Blizzard",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Donald Duck: Clear the trap at The Cave of Wonders: Stone Guardians"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Donald_Blizzard"
+      ],
+      "effect": "Ice projectiles against an enemy. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.donald-blizzard",
+        "name": "Donald Blizzard",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Ice projectiles against an enemy. Costs 10 MP.",
+        "prerequisites": "Donald Duck: Clear the trap at The Cave of Wonders: Stone Guardians.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Donald_Blizzard"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.donald-thunder",
+      "name": "Donald Thunder",
+      "sourceName": "Donald Thunder",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Donald Duck: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Donald_Thunder"
+      ],
+      "effect": "Lightning attack against the target. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.donald-thunder",
+        "name": "Donald Thunder",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Lightning attack against the target. Costs 10 MP.",
+        "prerequisites": "Donald Duck: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Donald_Thunder"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.donald-cure",
+      "name": "Donald Cure",
+      "sourceName": "Donald Cure",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Donald Duck: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Donald_Cure"
+      ],
+      "effect": "Heal an ally; consumes Donald's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.donald-cure",
+        "name": "Donald Cure",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Heal an ally; consumes Donald's remaining MP.",
+        "prerequisites": "Donald Duck: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Donald_Cure"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.fantasia",
+      "name": "Fantasia",
+      "sourceName": "Fantasia",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Donald Duck: Free the Cornerstone of Light"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Fantasia"
+      ],
+      "effect": "Donald's Comet team Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.fantasia",
+        "name": "Fantasia",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Donald's Comet team Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Donald Duck: Free the Cornerstone of Light.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Fantasia"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.flare-force",
+      "name": "Flare Force",
+      "sourceName": "Flare Force",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Donald Duck: Defeat the Grim Reaper at the Harbor"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Flare_Force"
+      ],
+      "effect": "Donald's Duck Flare team Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.flare-force",
+        "name": "Flare Force",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Donald's Duck Flare team Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Donald Duck: Defeat the Grim Reaper at the Harbor.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Flare_Force"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.goofy-tornado",
+      "name": "Goofy Tornado",
+      "sourceName": "Goofy Tornado",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Goofy: Defeat Pete at the Wharf"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Goofy_Tornado"
+      ],
+      "effect": "Vortex that pulls enemies inward and hits them. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.goofy-tornado",
+        "name": "Goofy Tornado",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Vortex that pulls enemies inward and hits them. Costs 10 MP.",
+        "prerequisites": "Goofy: Defeat Pete at the Wharf.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Goofy_Tornado"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.goofy-bash",
+      "name": "Goofy Bash",
+      "sourceName": "Goofy Bash",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Goofy: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Goofy_Bash"
+      ],
+      "effect": "Ranged shield throw. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.goofy-bash",
+        "name": "Goofy Bash",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Ranged shield throw. Costs 10 MP.",
+        "prerequisites": "Goofy: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Goofy_Bash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.goofy-turbo",
+      "name": "Goofy Turbo",
+      "sourceName": "Goofy Turbo",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Goofy: Defeat Shan-Yu"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Goofy_Turbo"
+      ],
+      "effect": "Charge through enemies and knock them toward Sora. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.goofy-turbo",
+        "name": "Goofy Turbo",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Charge through enemies and knock them toward Sora. Costs 10 MP.",
+        "prerequisites": "Goofy: Defeat Shan-Yu.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Goofy_Turbo"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.tornado-fusion",
+      "name": "Tornado Fusion",
+      "sourceName": "Tornado Fusion",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Goofy: Defeat the Storm Rider"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Tornado_Fusion"
+      ],
+      "effect": "Goofy's Whirli-Goof team Limit.",
+      "entry": {
+        "id": "kh2fm.abilities.tornado-fusion",
+        "name": "Tornado Fusion",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Goofy's Whirli-Goof team Limit.",
+        "prerequisites": "Goofy: Defeat the Storm Rider.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Tornado_Fusion"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.teamwork",
+      "name": "Teamwork",
+      "sourceName": "Teamwork",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Goofy: Defeat Captain Barbossa"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Teamwork"
+      ],
+      "effect": "Sora/Goofy Knocksmash Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.teamwork",
+        "name": "Teamwork",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Goofy Knocksmash Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Goofy: Defeat Captain Barbossa.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Teamwork"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mushu-fire",
+      "name": "Mushu Fire",
+      "sourceName": "Mushu Fire",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Mulan: Mulan loses her disguise"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Mushu_Fire"
+      ],
+      "effect": "Mushu breathes fire at nearby enemies. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.mushu-fire",
+        "name": "Mushu Fire",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Mushu breathes fire at nearby enemies. Costs 10 MP.",
+        "prerequisites": "Mulan: Mulan loses her disguise.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Mushu_Fire"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.flametongue",
+      "name": "Flametongue",
+      "sourceName": "Flametongue",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Mulan: Mulan loses her disguise"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Flametongue"
+      ],
+      "effect": "Flaming airborne rush attack. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.flametongue",
+        "name": "Flametongue",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Flaming airborne rush attack. Costs 10 MP.",
+        "prerequisites": "Mulan: Mulan loses her disguise.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Flametongue"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dragonblaze",
+      "name": "Dragonblaze",
+      "sourceName": "Dragonblaze",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Mulan: Mulan loses her disguise"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dragonblaze"
+      ],
+      "effect": "Sora/Mulan Red Rocket Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.dragonblaze",
+        "name": "Dragonblaze",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Mulan Red Rocket Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Mulan: Mulan loses her disguise.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dragonblaze"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.furious-shout",
+      "name": "Furious Shout",
+      "sourceName": "Furious Shout",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Beast: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Furious_Shout"
+      ],
+      "effect": "Roar that knocks down nearby foes. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.furious-shout",
+        "name": "Furious Shout",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Roar that knocks down nearby foes. Costs 10 MP.",
+        "prerequisites": "Beast: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Furious_Shout"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.ferocious-rush",
+      "name": "Ferocious Rush",
+      "sourceName": "Ferocious Rush",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Beast: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Ferocious_Rush"
+      ],
+      "effect": "Sequence of charging tackles. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.ferocious-rush",
+        "name": "Ferocious Rush",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Sequence of charging tackles. Costs 10 MP.",
+        "prerequisites": "Beast: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Ferocious_Rush"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.howling-moon",
+      "name": "Howling Moon",
+      "sourceName": "Howling Moon",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Beast: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Howling_Moon"
+      ],
+      "effect": "Sora/Beast Twin Howl Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.howling-moon",
+        "name": "Howling Moon",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Beast Twin Howl Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Beast: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Howling_Moon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.divider",
+      "name": "Divider",
+      "sourceName": "Divider",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Auron: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Divider"
+      ],
+      "effect": "Leaping attack against nearby enemies. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.divider",
+        "name": "Divider",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Leaping attack against nearby enemies. Costs 10 MP.",
+        "prerequisites": "Auron: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Divider"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.healing-water",
+      "name": "Healing Water",
+      "sourceName": "Healing Water",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Auron: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Healing_Water"
+      ],
+      "effect": "Party healing. Costs 99 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.healing-water",
+        "name": "Healing Water",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Party healing. Costs 99 MP.",
+        "prerequisites": "Auron: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Healing_Water"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.overdrive",
+      "name": "Overdrive",
+      "sourceName": "Overdrive",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Auron: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Overdrive_(Limit)"
+      ],
+      "effect": "Sora/Auron Bushido Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.overdrive",
+        "name": "Overdrive",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Auron Bushido Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Auron: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Overdrive_(Limit)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.no-mercy",
+      "name": "No Mercy",
+      "sourceName": "No Mercy",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Sparrow: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/No_Mercy"
+      ],
+      "effect": "Attack command. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.no-mercy",
+        "name": "No Mercy",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Attack command. Costs 10 MP.",
+        "prerequisites": "Jack Sparrow: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/No_Mercy"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.rain-storm",
+      "name": "Rain Storm",
+      "sourceName": "Rain Storm",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Sparrow: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Rain_Storm"
+      ],
+      "effect": "Repeated thrown-weapon attacks. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.rain-storm",
+        "name": "Rain Storm",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Repeated thrown-weapon attacks. Costs 10 MP.",
+        "prerequisites": "Jack Sparrow: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Rain_Storm"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.bone-smash",
+      "name": "Bone Smash",
+      "sourceName": "Bone Smash",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Sparrow: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Bone_Smash"
+      ],
+      "effect": "Repeated bomb throws. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.bone-smash",
+        "name": "Bone Smash",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Repeated bomb throws. Costs 10 MP.",
+        "prerequisites": "Jack Sparrow: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Bone_Smash"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.treasure-isle",
+      "name": "Treasure Isle",
+      "sourceName": "Treasure Isle",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Jack Sparrow: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Treasure_Isle"
+      ],
+      "effect": "Sora/Jack Sparrow Bluff Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.treasure-isle",
+        "name": "Treasure Isle",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Jack Sparrow Bluff Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Jack Sparrow: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Treasure_Isle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.slash-frenzy",
+      "name": "Slash Frenzy",
+      "sourceName": "Slash Frenzy",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Aladdin: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Slash_Frenzy"
+      ],
+      "effect": "Rapid attacks that interrupt the target. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.slash-frenzy",
+        "name": "Slash Frenzy",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Rapid attacks that interrupt the target. Costs 10 MP.",
+        "prerequisites": "Aladdin: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Slash_Frenzy"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.quickplay",
+      "name": "Quickplay",
+      "sourceName": "Quickplay",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Aladdin: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Quickplay"
+      ],
+      "effect": "Leap onto a target to obtain prize orbs.",
+      "entry": {
+        "id": "kh2fm.abilities.quickplay",
+        "name": "Quickplay",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Leap onto a target to obtain prize orbs.",
+        "prerequisites": "Aladdin: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Quickplay"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.trick-fantasy",
+      "name": "Trick Fantasy",
+      "sourceName": "Trick Fantasy",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Aladdin: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Trick_Fantasy"
+      ],
+      "effect": "Sora/Aladdin Speedster Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.trick-fantasy",
+        "name": "Trick Fantasy",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Aladdin Speedster Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Aladdin: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Trick_Fantasy"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.blazing-fury",
+      "name": "Blazing Fury",
+      "sourceName": "Blazing Fury",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Skellington: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Blazing_Fury"
+      ],
+      "effect": "Flaming pursuit attack. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.blazing-fury",
+        "name": "Blazing Fury",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Flaming pursuit attack. Costs 10 MP.",
+        "prerequisites": "Jack Skellington: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Blazing_Fury"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.icy-terror",
+      "name": "Icy Terror",
+      "sourceName": "Icy Terror",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Skellington: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Icy_Terror"
+      ],
+      "effect": "Ice crystals attack the target. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.icy-terror",
+        "name": "Icy Terror",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Ice crystals attack the target. Costs 10 MP.",
+        "prerequisites": "Jack Skellington: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Icy_Terror"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.bolts-of-sorrow",
+      "name": "Bolts of Sorrow",
+      "sourceName": "Bolts of Sorrow",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Jack Skellington: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Bolts_of_Sorrow"
+      ],
+      "effect": "Lightning strikes the target. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.bolts-of-sorrow",
+        "name": "Bolts of Sorrow",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Lightning strikes the target. Costs 10 MP.",
+        "prerequisites": "Jack Skellington: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Bolts_of_Sorrow"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.applause-applause",
+      "name": "Applause, Applause",
+      "sourceName": "Applause, Applause",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Jack Skellington: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Applause,_Applause"
+      ],
+      "effect": "Sora/Jack Skellington Dance Call Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.applause-applause",
+        "name": "Applause, Applause",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Jack Skellington Dance Call Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Jack Skellington: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Applause,_Applause"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.fierce-claw",
+      "name": "Fierce Claw",
+      "sourceName": "Fierce Claw",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Simba: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Fierce_Claw"
+      ],
+      "effect": "Repeated claw attacks. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.fierce-claw",
+        "name": "Fierce Claw",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Repeated claw attacks. Costs 10 MP.",
+        "prerequisites": "Simba: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Fierce_Claw"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.groundshaker",
+      "name": "Groundshaker",
+      "sourceName": "Groundshaker",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Simba: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Groundshaker_(ability)"
+      ],
+      "effect": "Roar that attacks enemies around the user. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.groundshaker",
+        "name": "Groundshaker",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Roar that attacks enemies around the user. Costs 10 MP.",
+        "prerequisites": "Simba: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Groundshaker_(ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.healing-herb",
+      "name": "Healing Herb",
+      "sourceName": "Healing Herb",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Simba: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Healing_Herb"
+      ],
+      "effect": "Party healing. Costs 99 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.healing-herb",
+        "name": "Healing Herb",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Party healing. Costs 99 MP.",
+        "prerequisites": "Simba: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Healing_Herb"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.king-s-pride",
+      "name": "King's Pride",
+      "sourceName": "King's Pride",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Simba: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/King%27s_Pride"
+      ],
+      "effect": "Sora/Simba Wildcat Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.king-s-pride",
+        "name": "King's Pride",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Simba Wildcat Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Simba: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/King%27s_Pride"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.scouting-disk",
+      "name": "Scouting Disk",
+      "sourceName": "Scouting Disk",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Tron: Access the DTD"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Scouting_Disk"
+      ],
+      "effect": "Homing disk attack. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.scouting-disk",
+        "name": "Scouting Disk",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Homing disk attack. Costs 10 MP.",
+        "prerequisites": "Tron: Access the DTD.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Scouting_Disk"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.pulsing-thunder",
+      "name": "Pulsing Thunder",
+      "sourceName": "Pulsing Thunder",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Tron: Access the DTD"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Pulsing_Thunder"
+      ],
+      "effect": "Electric attack around the user. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.pulsing-thunder",
+        "name": "Pulsing Thunder",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Electric attack around the user. Costs 10 MP.",
+        "prerequisites": "Tron: Access the DTD.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Pulsing_Thunder"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.complete-compilement",
+      "name": "Complete Compilement",
+      "sourceName": "Complete Compilement",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Tron: Access the DTD"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Complete_Compilement"
+      ],
+      "effect": "Sora/Tron Setup Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.complete-compilement",
+        "name": "Complete Compilement",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Tron Setup Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Tron: Access the DTD.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Complete_Compilement"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dark-aura",
+      "name": "Dark Aura",
+      "sourceName": "Dark Aura",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dark_Aura"
+      ],
+      "effect": "Dark magic that interrupts enemies near the end of Sora's combo. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.dark-aura",
+        "name": "Dark Aura",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Dark magic that interrupts enemies near the end of Sora's combo. Costs 10 MP.",
+        "prerequisites": "Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dark_Aura"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dark-shield",
+      "name": "Dark Shield",
+      "sourceName": "Dark Shield",
+      "family": "action",
+      "ap": "2",
+      "acquisition": [
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dark_Shield"
+      ],
+      "effect": "Summon a defensive dark barrier. Costs 10 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.dark-shield",
+        "name": "Dark Shield",
+        "category": "abilities",
+        "summary": "Action ability · AP 2",
+        "instructions": "Summon a defensive dark barrier. Costs 10 MP.",
+        "prerequisites": "Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dark_Shield"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.cure-potion",
+      "name": "Cure Potion",
+      "sourceName": "Cure Potion",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Cure_Potion"
+      ],
+      "effect": "Party healing. Costs 99 MP.",
+      "entry": {
+        "id": "kh2fm.abilities.cure-potion",
+        "name": "Cure Potion",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Party healing. Costs 99 MP.",
+        "prerequisites": "Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Cure_Potion"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.eternal-session",
+      "name": "Eternal Session",
+      "sourceName": "Eternal Session",
+      "family": "action",
+      "ap": "3",
+      "acquisition": [
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Eternal_Session"
+      ],
+      "effect": "Sora/Riku Session Limit; consumes Sora's remaining MP.",
+      "entry": {
+        "id": "kh2fm.abilities.eternal-session",
+        "name": "Eternal Session",
+        "category": "abilities",
+        "summary": "Action ability · AP 3",
+        "instructions": "Sora/Riku Session Limit; consumes Sora's remaining MP.",
+        "prerequisites": "Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Eternal_Session"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.high-jump-lv1",
+      "name": "High Jump LV1",
+      "sourceName": "High Jump LV1",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Valor Form LV3",
+        "Valor Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/High_Jump_LV1"
+      ],
+      "effect": "Higher jump; holding Jump increases height.",
+      "entry": {
+        "id": "kh2fm.abilities.high-jump-lv1",
+        "name": "High Jump LV1",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Higher jump; holding Jump increases height.",
+        "prerequisites": "Sora: Reach Valor Form LV3; Valor Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/High_Jump_LV1"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.high-jump-lv2",
+      "name": "High Jump LV2",
+      "sourceName": "High Jump LV2",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Valor Form LV5",
+        "Valor Form: Reach Valor Form LV3"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/High_Jump_LV2"
+      ],
+      "effect": "Higher jump; holding Jump increases height.",
+      "entry": {
+        "id": "kh2fm.abilities.high-jump-lv2",
+        "name": "High Jump LV2",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Higher jump; holding Jump increases height.",
+        "prerequisites": "Sora: Reach Valor Form LV5; Valor Form: Reach Valor Form LV3.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/High_Jump_LV2"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.high-jump-lv3",
+      "name": "High Jump LV3",
+      "sourceName": "High Jump LV3",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Valor Form LV7",
+        "Valor Form: Reach Valor Form LV5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/High_Jump_LV3"
+      ],
+      "effect": "Higher jump; holding Jump increases height.",
+      "entry": {
+        "id": "kh2fm.abilities.high-jump-lv3",
+        "name": "High Jump LV3",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Higher jump; holding Jump increases height.",
+        "prerequisites": "Sora: Reach Valor Form LV7; Valor Form: Reach Valor Form LV5.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/High_Jump_LV3"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.high-jump-max",
+      "name": "High Jump MAX",
+      "sourceName": "High Jump MAX",
+      "family": "growth",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Reach Valor Form LV7"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/High_Jump_MAX"
+      ],
+      "effect": "Higher jump; holding Jump increases height.",
+      "entry": {
+        "id": "kh2fm.abilities.high-jump-max",
+        "name": "High Jump MAX",
+        "category": "abilities",
+        "summary": "Growth ability · AP —",
+        "instructions": "Higher jump; holding Jump increases height.",
+        "prerequisites": "Valor Form: Reach Valor Form LV7.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/High_Jump_MAX"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.quick-run-lv1",
+      "name": "Quick Run LV1",
+      "sourceName": "Quick Run LV1",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV3",
+        "Wisdom Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Quick_Run_LV1"
+      ],
+      "effect": "Hold the movement action while directing the stick to travel farther.",
+      "entry": {
+        "id": "kh2fm.abilities.quick-run-lv1",
+        "name": "Quick Run LV1",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Hold the movement action while directing the stick to travel farther.",
+        "prerequisites": "Sora: Reach Wisdom Form LV3; Wisdom Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Quick_Run_LV1"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.quick-run-lv2",
+      "name": "Quick Run LV2",
+      "sourceName": "Quick Run LV2",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV5",
+        "Wisdom Form: Reach Wisdom Form LV3"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Quick_Run_LV2"
+      ],
+      "effect": "Hold the movement action while directing the stick to travel farther.",
+      "entry": {
+        "id": "kh2fm.abilities.quick-run-lv2",
+        "name": "Quick Run LV2",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Hold the movement action while directing the stick to travel farther.",
+        "prerequisites": "Sora: Reach Wisdom Form LV5; Wisdom Form: Reach Wisdom Form LV3.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Quick_Run_LV2"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.quick-run-lv3",
+      "name": "Quick Run LV3",
+      "sourceName": "Quick Run LV3",
+      "family": "growth",
+      "ap": "2",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV7",
+        "Wisdom Form: Reach Wisdom Form LV5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Quick_Run_LV3"
+      ],
+      "effect": "Hold the movement action while directing the stick to travel farther.",
+      "entry": {
+        "id": "kh2fm.abilities.quick-run-lv3",
+        "name": "Quick Run LV3",
+        "category": "abilities",
+        "summary": "Growth ability · AP 2",
+        "instructions": "Hold the movement action while directing the stick to travel farther.",
+        "prerequisites": "Sora: Reach Wisdom Form LV7; Wisdom Form: Reach Wisdom Form LV5.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Quick_Run_LV3"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.quick-run-max",
+      "name": "Quick Run MAX",
+      "sourceName": "Quick Run MAX",
+      "family": "growth",
+      "ap": "—",
+      "acquisition": [
+        "Wisdom Form: Reach Wisdom Form LV7"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Quick_Run_MAX"
+      ],
+      "effect": "Hold the movement action while directing the stick to travel farther.",
+      "entry": {
+        "id": "kh2fm.abilities.quick-run-max",
+        "name": "Quick Run MAX",
+        "category": "abilities",
+        "summary": "Growth ability · AP —",
+        "instructions": "Hold the movement action while directing the stick to travel farther.",
+        "prerequisites": "Wisdom Form: Reach Wisdom Form LV7.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Quick_Run_MAX"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dodge-roll-lv1",
+      "name": "Dodge Roll LV1",
+      "sourceName": "Dodge Roll LV1",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Limit Form LV3",
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dodge_Roll_LV1"
+      ],
+      "effect": "Directional evasive roll; higher levels improve it.",
+      "entry": {
+        "id": "kh2fm.abilities.dodge-roll-lv1",
+        "name": "Dodge Roll LV1",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Directional evasive roll; higher levels improve it.",
+        "prerequisites": "Sora: Reach Limit Form LV3; Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dodge_Roll_LV1"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dodge-roll-lv2",
+      "name": "Dodge Roll LV2",
+      "sourceName": "Dodge Roll LV2",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Limit Form LV5",
+        "Limit Form: Reach Limit Form LV3"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dodge_Roll_LV2"
+      ],
+      "effect": "Directional evasive roll; higher levels improve it.",
+      "entry": {
+        "id": "kh2fm.abilities.dodge-roll-lv2",
+        "name": "Dodge Roll LV2",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Directional evasive roll; higher levels improve it.",
+        "prerequisites": "Sora: Reach Limit Form LV5; Limit Form: Reach Limit Form LV3.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dodge_Roll_LV2"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dodge-roll-lv3",
+      "name": "Dodge Roll LV3",
+      "sourceName": "Dodge Roll LV3",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Limit Form LV7",
+        "Limit Form: Reach Limit Form LV5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dodge_Roll_LV3"
+      ],
+      "effect": "Directional evasive roll; higher levels improve it.",
+      "entry": {
+        "id": "kh2fm.abilities.dodge-roll-lv3",
+        "name": "Dodge Roll LV3",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Directional evasive roll; higher levels improve it.",
+        "prerequisites": "Sora: Reach Limit Form LV7; Limit Form: Reach Limit Form LV5.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dodge_Roll_LV3"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.dodge-roll-max",
+      "name": "Dodge Roll MAX",
+      "sourceName": "Dodge Roll MAX",
+      "family": "growth",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Reach Limit Form LV7"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Dodge_Roll_MAX"
+      ],
+      "effect": "Directional evasive roll; higher levels improve it.",
+      "entry": {
+        "id": "kh2fm.abilities.dodge-roll-max",
+        "name": "Dodge Roll MAX",
+        "category": "abilities",
+        "summary": "Growth ability · AP —",
+        "instructions": "Directional evasive roll; higher levels improve it.",
+        "prerequisites": "Limit Form: Reach Limit Form LV7.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Dodge_Roll_MAX"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-dodge-lv1",
+      "name": "Aerial Dodge LV1",
+      "sourceName": "Aerial Dodge LV1",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Master Form LV3",
+        "Master Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Dodge_LV1"
+      ],
+      "effect": "Second midair jump that also evades attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-dodge-lv1",
+        "name": "Aerial Dodge LV1",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Second midair jump that also evades attacks.",
+        "prerequisites": "Sora: Reach Master Form LV3; Master Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Dodge_LV1"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-dodge-lv2",
+      "name": "Aerial Dodge LV2",
+      "sourceName": "Aerial Dodge LV2",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Master Form LV5",
+        "Master Form: Reach Master Form LV3"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Dodge_LV2"
+      ],
+      "effect": "Second midair jump that also evades attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-dodge-lv2",
+        "name": "Aerial Dodge LV2",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Second midair jump that also evades attacks.",
+        "prerequisites": "Sora: Reach Master Form LV5; Master Form: Reach Master Form LV3.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Dodge_LV2"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-dodge-lv3",
+      "name": "Aerial Dodge LV3",
+      "sourceName": "Aerial Dodge LV3",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Master Form LV7",
+        "Master Form: Reach Master Form LV5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Dodge_LV3"
+      ],
+      "effect": "Second midair jump that also evades attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-dodge-lv3",
+        "name": "Aerial Dodge LV3",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Second midair jump that also evades attacks.",
+        "prerequisites": "Sora: Reach Master Form LV7; Master Form: Reach Master Form LV5.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Dodge_LV3"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-dodge-max",
+      "name": "Aerial Dodge MAX",
+      "sourceName": "Aerial Dodge MAX",
+      "family": "growth",
+      "ap": "—",
+      "acquisition": [
+        "Master Form: Reach Master Form LV7"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Dodge_MAX"
+      ],
+      "effect": "Second midair jump that also evades attacks.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-dodge-max",
+        "name": "Aerial Dodge MAX",
+        "category": "abilities",
+        "summary": "Growth ability · AP —",
+        "instructions": "Second midair jump that also evades attacks.",
+        "prerequisites": "Master Form: Reach Master Form LV7.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Dodge_MAX"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.glide-lv1",
+      "name": "Glide LV1",
+      "sourceName": "Glide LV1",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Final Form LV3",
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Glide_LV1"
+      ],
+      "effect": "Hold the glide action in midair; higher levels increase speed.",
+      "entry": {
+        "id": "kh2fm.abilities.glide-lv1",
+        "name": "Glide LV1",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Hold the glide action in midair; higher levels increase speed.",
+        "prerequisites": "Sora: Reach Final Form LV3; Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Glide_LV1"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.glide-lv2",
+      "name": "Glide LV2",
+      "sourceName": "Glide LV2",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Final Form LV5",
+        "Final Form: Reach Final Form LV3"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Glide_LV2"
+      ],
+      "effect": "Hold the glide action in midair; higher levels increase speed.",
+      "entry": {
+        "id": "kh2fm.abilities.glide-lv2",
+        "name": "Glide LV2",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Hold the glide action in midair; higher levels increase speed.",
+        "prerequisites": "Sora: Reach Final Form LV5; Final Form: Reach Final Form LV3.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Glide_LV2"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.glide-lv3",
+      "name": "Glide LV3",
+      "sourceName": "Glide LV3",
+      "family": "growth",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Final Form LV7",
+        "Final Form: Reach Final Form LV5"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Glide_LV3"
+      ],
+      "effect": "Hold the glide action in midair; higher levels increase speed.",
+      "entry": {
+        "id": "kh2fm.abilities.glide-lv3",
+        "name": "Glide LV3",
+        "category": "abilities",
+        "summary": "Growth ability · AP 3",
+        "instructions": "Hold the glide action in midair; higher levels increase speed.",
+        "prerequisites": "Sora: Reach Final Form LV7; Final Form: Reach Final Form LV5.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Glide_LV3"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.glide-max",
+      "name": "Glide MAX",
+      "sourceName": "Glide MAX",
+      "family": "growth",
+      "ap": "—",
+      "acquisition": [
+        "Final Form: Reach Final Form LV7"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Glide_MAX"
+      ],
+      "effect": "Hold the glide action in midair; higher levels increase speed.",
+      "entry": {
+        "id": "kh2fm.abilities.glide-max",
+        "name": "Glide MAX",
+        "category": "abilities",
+        "summary": "Growth ability · AP —",
+        "instructions": "Hold the glide action in midair; higher levels increase speed.",
+        "prerequisites": "Final Form: Reach Final Form LV7.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Glide_MAX"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.synch-blade",
+      "name": "Synch Blade",
+      "sourceName": "Synch Blade",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Valor Form: Default",
+        "Master Form: Default",
+        "Final Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Synch_Blade"
+      ],
+      "effect": "Dual wield; both equipped Keyblade abilities apply.",
+      "entry": {
+        "id": "kh2fm.abilities.synch-blade",
+        "name": "Synch Blade",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Dual wield; both equipped Keyblade abilities apply.",
+        "prerequisites": "Valor Form: Default; Master Form: Default; Final Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Synch_Blade"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.hp-gain",
+      "name": "HP Gain",
+      "sourceName": "HP Gain",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Limit Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/HP_Gain"
+      ],
+      "effect": "Successful Limit Command hits heal Sora.",
+      "entry": {
+        "id": "kh2fm.abilities.hp-gain",
+        "name": "HP Gain",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Successful Limit Command hits heal Sora.",
+        "prerequisites": "Limit Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/HP_Gain"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.endless-magic",
+      "name": "Endless Magic",
+      "sourceName": "Endless Magic",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Master Form: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Endless_Magic"
+      ],
+      "effect": "Removes the usual end to a magic combo.",
+      "entry": {
+        "id": "kh2fm.abilities.endless-magic",
+        "name": "Endless Magic",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Removes the usual end to a magic combo.",
+        "prerequisites": "Master Form: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Endless_Magic"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.light-darkness",
+      "name": "Light & Darkness",
+      "sourceName": "Light & Darkness",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Two Become One"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Light_%26_Darkness"
+      ],
+      "effect": "Forces Antiform when its battle and party conditions allow it. Before Final Form is unlocked, that attempt can instead unlock Final Form. Selecting Final Form itself cannot trigger Antiform.",
+      "entry": {
+        "id": "kh2fm.abilities.light-darkness",
+        "name": "Light & Darkness",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Forces Antiform when its battle and party conditions allow it. Before Final Form is unlocked, that attempt can instead unlock Final Form. Selecting Final Form itself cannot trigger Antiform.",
+        "prerequisites": "Two Become One.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Light_%26_Darkness"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.scan",
+      "name": "Scan",
+      "sourceName": "Scan",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Roxas: Defeat Axel in the Sandlot",
+        "King Mickey: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Scan"
+      ],
+      "effect": "Displays the target's HP gauge.",
+      "entry": {
+        "id": "kh2fm.abilities.scan",
+        "name": "Scan",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Displays the target's HP gauge.",
+        "prerequisites": "Roxas: Defeat Axel in the Sandlot; King Mickey: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Scan"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.aerial-recovery",
+      "name": "Aerial Recovery",
+      "sourceName": "Aerial Recovery",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Roxas: Defeat the Dusks at the Station of Serenity"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Aerial_Recovery"
+      ],
+      "effect": "Use the recovery action after being knocked into the air.",
+      "entry": {
+        "id": "kh2fm.abilities.aerial-recovery",
+        "name": "Aerial Recovery",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Use the recovery action after being knocked into the air.",
+        "prerequisites": "Roxas: Defeat the Dusks at the Station of Serenity.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Aerial_Recovery"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.combo-master",
+      "name": "Combo Master",
+      "sourceName": "Combo Master",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: Defeat Roxas"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Combo_Master"
+      ],
+      "effect": "Continue a combo even when an attack misses.",
+      "entry": {
+        "id": "kh2fm.abilities.combo-master",
+        "name": "Combo Master",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Continue a combo even when an attack misses.",
+        "prerequisites": "Sora: Defeat Roxas.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Combo_Master"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.combo-plus",
+      "name": "Combo Plus",
+      "sourceName": "Combo Plus",
+      "family": "support",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Valor Form LV4",
+        "Sora: Reach Valor Form LV6",
+        "Valor Form: Default",
+        "Lion Form: Default (x2)",
+        "Sleeping Lion"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Combo_Plus"
+      ],
+      "effect": "Adds one ground-combo hit per equipped copy.",
+      "entry": {
+        "id": "kh2fm.abilities.combo-plus",
+        "name": "Combo Plus",
+        "category": "abilities",
+        "summary": "Support ability · AP 1",
+        "instructions": "Adds one ground-combo hit per equipped copy.",
+        "prerequisites": "Sora: Reach Valor Form LV4; Sora: Reach Valor Form LV6; Valor Form: Default; Lion Form: Default (x2); Sleeping Lion.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Combo_Plus"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.air-combo-plus",
+      "name": "Air Combo Plus",
+      "sourceName": "Air Combo Plus",
+      "family": "support",
+      "ap": "1",
+      "acquisition": [
+        "Sora: Reach Master Form LV4",
+        "Sora: Reach Master Form LV6",
+        "Valor Form: Default",
+        "Master Form: Default (x2)",
+        "Lion Form: Default (x2)",
+        "King Mickey: Default",
+        "Star Seeker"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Air_Combo_Plus"
+      ],
+      "effect": "Adds one aerial-combo hit per equipped copy.",
+      "entry": {
+        "id": "kh2fm.abilities.air-combo-plus",
+        "name": "Air Combo Plus",
+        "category": "abilities",
+        "summary": "Support ability · AP 1",
+        "instructions": "Adds one aerial-combo hit per equipped copy.",
+        "prerequisites": "Sora: Reach Master Form LV4; Sora: Reach Master Form LV6; Valor Form: Default; Master Form: Default (x2); Lion Form: Default (x2); King Mickey: Default; Star Seeker.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Air_Combo_Plus"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.combo-boost",
+      "name": "Combo Boost",
+      "sourceName": "Combo Boost",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: LV 7 (Dream Sword choice) / LV 9 (Dream Shield choice) / LV 17 (Dream Rod choice)",
+        "Decisive Pumpkin"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Combo_Boost"
+      ],
+      "effect": "Ground-finisher damage increases with preceding combo hits.",
+      "entry": {
+        "id": "kh2fm.abilities.combo-boost",
+        "name": "Combo Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Ground-finisher damage increases with preceding combo hits.",
+        "prerequisites": "Sora: LV 7 (Dream Sword choice) / LV 9 (Dream Shield choice) / LV 17 (Dream Rod choice); Decisive Pumpkin.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Combo_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.air-combo-boost",
+      "name": "Air Combo Boost",
+      "sourceName": "Air Combo Boost",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: LV 36 (Dream Sword choice) / LV 44 (Dream Shield choice) / LV 73 (Dream Rod choice)",
+        "Hero's Crest"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Air_Combo_Boost"
+      ],
+      "effect": "Air-finisher damage increases with preceding combo hits.",
+      "entry": {
+        "id": "kh2fm.abilities.air-combo-boost",
+        "name": "Air Combo Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Air-finisher damage increases with preceding combo hits.",
+        "prerequisites": "Sora: LV 36 (Dream Sword choice) / LV 44 (Dream Shield choice) / LV 73 (Dream Rod choice); Hero's Crest.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Air_Combo_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.reaction-boost",
+      "name": "Reaction Boost",
+      "sourceName": "Reaction Boost",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Roxas: Start of the Third Day (Critical Mode only)",
+        "Sora: LV 15 (Dream Sword choice) / LV 23 (Dream Shield choice) / LV 33 (Dream Rod choice)",
+        "Guardian Soul"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Reaction_Boost"
+      ],
+      "effect": "Reaction Command damage increases by 50%; multiple copies improve the effect.",
+      "entry": {
+        "id": "kh2fm.abilities.reaction-boost",
+        "name": "Reaction Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Reaction Command damage increases by 50%; multiple copies improve the effect.",
+        "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 15 (Dream Sword choice) / LV 23 (Dream Shield choice) / LV 33 (Dream Rod choice); Guardian Soul.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Reaction_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.finishing-plus",
+      "name": "Finishing Plus",
+      "sourceName": "Finishing Plus",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Roxas: Start of the Third Day (Critical Mode only)",
+        "Sora: LV 49 (Dream Sword choice) / LV 65 (Dream Shield choice) / LV 85 (Dream Rod choice)",
+        "Rumbling Rose"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Finishing_Plus"
+      ],
+      "effect": "Adds another finisher to the combo sequence.",
+      "entry": {
+        "id": "kh2fm.abilities.finishing-plus",
+        "name": "Finishing Plus",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Adds another finisher to the combo sequence.",
+        "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 49 (Dream Sword choice) / LV 65 (Dream Shield choice) / LV 85 (Dream Rod choice); Rumbling Rose.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Finishing_Plus"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.negative-combo",
+      "name": "Negative Combo",
+      "sourceName": "Negative Combo",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Sora: LV 44 (Dream Sword choice) / LV 73 (Dream Shield choice) / LV 36 (Dream Rod choice)",
+        "Fenrir"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Negative_Combo"
+      ],
+      "effect": "Removes one regular hit from ground and air combos.",
+      "entry": {
+        "id": "kh2fm.abilities.negative-combo",
+        "name": "Negative Combo",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Removes one regular hit from ground and air combos.",
+        "prerequisites": "Sora: LV 44 (Dream Sword choice) / LV 73 (Dream Shield choice) / LV 36 (Dream Rod choice); Fenrir.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Negative_Combo"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.berserk-charge",
+      "name": "Berserk Charge",
+      "sourceName": "Berserk Charge",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: LV 65 (Dream Sword choice) / LV 85 (Dream Shield choice) / LV 49 (Dream Rod choice)",
+        "Fatal Crest"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Berserk_Charge"
+      ],
+      "effect": "During MP Charge: Strength +2 and endless regular combos, but no normal finisher.",
+      "entry": {
+        "id": "kh2fm.abilities.berserk-charge",
+        "name": "Berserk Charge",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "During MP Charge: Strength +2 and endless regular combos, but no normal finisher.",
+        "prerequisites": "Sora: LV 65 (Dream Sword choice) / LV 85 (Dream Shield choice) / LV 49 (Dream Rod choice); Fatal Crest.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Berserk_Charge"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.damage-drive",
+      "name": "Damage Drive",
+      "sourceName": "Damage Drive",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Sora: LV 33 (Dream Sword choice) / LV 15 (Dream Shield choice) / LV 23 (Dream Rod choice)"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Damage_Drive"
+      ],
+      "effect": "Incoming damage replenishes Drive in proportion to damage received.",
+      "entry": {
+        "id": "kh2fm.abilities.damage-drive",
+        "name": "Damage Drive",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Incoming damage replenishes Drive in proportion to damage received.",
+        "prerequisites": "Sora: LV 33 (Dream Sword choice) / LV 15 (Dream Shield choice) / LV 23 (Dream Rod choice).",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Damage_Drive"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.drive-boost",
+      "name": "Drive Boost",
+      "sourceName": "Drive Boost",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Sora: LV 25 (Dream Sword choice) / LV 28 (Dream Shield choice) / LV 47 (Dream Rod choice)",
+        "Oblivion"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Drive_Boost"
+      ],
+      "effect": "Increases Drive recovery during MP Charge; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.drive-boost",
+        "name": "Drive Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Increases Drive recovery during MP Charge; copies stack.",
+        "prerequisites": "Sora: LV 25 (Dream Sword choice) / LV 28 (Dream Shield choice) / LV 47 (Dream Rod choice); Oblivion.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Drive_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.form-boost",
+      "name": "Form Boost",
+      "sourceName": "Form Boost",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: Reach Final Form LV4",
+        "Sora: Reach Final Form LV6",
+        "Oathkeeper"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Form_Boost"
+      ],
+      "effect": "Extends Drive Form duration.",
+      "entry": {
+        "id": "kh2fm.abilities.form-boost",
+        "name": "Form Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Extends Drive Form duration.",
+        "prerequisites": "Sora: Reach Final Form LV4; Sora: Reach Final Form LV6; Oathkeeper.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Form_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.summon-boost",
+      "name": "Summon Boost",
+      "sourceName": "Summon Boost",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: Clear the trap at The Cave of Wonders: Stone Guardians"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Summon_Boost_(KHII)"
+      ],
+      "effect": "Extends summon duration.",
+      "entry": {
+        "id": "kh2fm.abilities.summon-boost",
+        "name": "Summon Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Extends summon duration.",
+        "prerequisites": "Sora: Clear the trap at The Cave of Wonders: Stone Guardians.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Summon_Boost_(KHII)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.combination-boost",
+      "name": "Combination Boost",
+      "sourceName": "Combination Boost",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: LV 31 (Dream Sword choice) / LV 39 (Dream Shield choice) / LV 59 (Dream Rod choice)"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Combination_Boost"
+      ],
+      "effect": "Extends the available time for Limits.",
+      "entry": {
+        "id": "kh2fm.abilities.combination-boost",
+        "name": "Combination Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Extends the available time for Limits.",
+        "prerequisites": "Sora: LV 31 (Dream Sword choice) / LV 39 (Dream Shield choice) / LV 59 (Dream Rod choice).",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Combination_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.experience-boost",
+      "name": "Experience Boost",
+      "sourceName": "Experience Boost",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: (LV 9 (Dream Sword choice)/17 (Dream Shield choice)/7 (Dream Rod choice))",
+        "Gull Wing"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Experience_Boost"
+      ],
+      "effect": "At half HP or below, EXP gain increases by 100%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.experience-boost",
+        "name": "Experience Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "At half HP or below, EXP gain increases by 100%; copies stack.",
+        "prerequisites": "Sora: (LV 9 (Dream Sword choice)/17 (Dream Shield choice)/7 (Dream Rod choice)); Gull Wing.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Experience_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.leaf-bracer",
+      "name": "Leaf Bracer",
+      "sourceName": "Leaf Bracer",
+      "family": "support",
+      "ap": "1",
+      "acquisition": [
+        "Sora: LV 20"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Leaf_Bracer"
+      ],
+      "effect": "Enemy attacks cannot interrupt the user's Cure cast.",
+      "entry": {
+        "id": "kh2fm.abilities.leaf-bracer",
+        "name": "Leaf Bracer",
+        "category": "abilities",
+        "summary": "Support ability · AP 1",
+        "instructions": "Enemy attacks cannot interrupt the user's Cure cast.",
+        "prerequisites": "Sora: LV 20.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Leaf_Bracer"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.magic-lock-on",
+      "name": "Magic Lock-On",
+      "sourceName": "Magic Lock-On",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Sora: LV 12"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Magic_Lock-On"
+      ],
+      "effect": "Fire, Blizzard, Thunder and Magnet automatically target enemies.",
+      "entry": {
+        "id": "kh2fm.abilities.magic-lock-on",
+        "name": "Magic Lock-On",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Fire, Blizzard, Thunder and Magnet automatically target enemies.",
+        "prerequisites": "Sora: LV 12.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Magic_Lock-On"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.draw",
+      "name": "Draw",
+      "sourceName": "Draw",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Roxas: Start of the Third Day (Critical Mode only)",
+        "Sora: LV 28 (Dream Sword choice) / LV 47 (Dream Shield choice) / LV 25 (Dream Rod choice)",
+        "Sora: Reach Limit Form LV4",
+        "Limit Form: Default",
+        "Master Form: Default",
+        "Donald Duck: Save the Medallion",
+        "Goofy: Defeat the Grim Reaper on The Black Pearl",
+        "Mulan: Default",
+        "Jack Sparrow: Default (x2)",
+        "Follow the Wind",
+        "Draw Ring"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Draw"
+      ],
+      "effect": "Increases prize-orb collection reach; a second copy extends it further.",
+      "entry": {
+        "id": "kh2fm.abilities.draw",
+        "name": "Draw",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Increases prize-orb collection reach; a second copy extends it further.",
+        "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 28 (Dream Sword choice) / LV 47 (Dream Shield choice) / LV 25 (Dream Rod choice); Sora: Reach Limit Form LV4; Limit Form: Default; Master Form: Default; Donald Duck: Save the Medallion; Goofy: Defeat the Grim Reaper on The Black Pearl; Mulan: Default; Jack Sparrow: Default (x2); Follow the Wind; Draw Ring.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Draw"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.jackpot",
+      "name": "Jackpot",
+      "sourceName": "Jackpot",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: LV 73 (Dream Sword choice) / LV 36 (Dream Shield choice) / LV 44 (Dream Rod choice)",
+        "Donald Duck: Defeat The Experiment",
+        "Goofy: Defeat the Hostile Program",
+        "Aladdin: Default",
+        "Tron: Default",
+        "Wishing Lamp"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Jackpot"
+      ],
+      "effect": "Improves munny, HP-orb and MP-orb drops; active-party copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.jackpot",
+        "name": "Jackpot",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Improves munny, HP-orb and MP-orb drops; active-party copies stack.",
+        "prerequisites": "Sora: LV 73 (Dream Sword choice) / LV 36 (Dream Shield choice) / LV 44 (Dream Rod choice); Donald Duck: Defeat The Experiment; Goofy: Defeat the Hostile Program; Aladdin: Default; Tron: Default; Wishing Lamp.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Jackpot"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.lucky-lucky",
+      "name": "Lucky Lucky",
+      "sourceName": "Lucky Lucky",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Roxas: Start of the Third Day (x2) (Critical Mode only)",
+        "Sora: Reach Limit Form LV6",
+        "Limit Form: Default",
+        "Donald Duck: Defeat the Nobodies at The Old Mansion",
+        "Goofy: Defeat Shenzi, Banzai, and Ed at The King's Den",
+        "Jack Sparrow: Default",
+        "Jack Skellington: Default",
+        "Lucky Ring"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Lucky_Lucky"
+      ],
+      "effect": "Final Mix item-drop multiplier: 1 + 0.5 × equipped copies in the active party. Displayed enemy rates are unmodified base rates.",
+      "entry": {
+        "id": "kh2fm.abilities.lucky-lucky",
+        "name": "Lucky Lucky",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Final Mix item-drop multiplier: 1 + 0.5 × equipped copies in the active party. Displayed enemy rates are unmodified base rates.",
+        "prerequisites": "Roxas: Start of the Third Day (x2) (Critical Mode only); Sora: Reach Limit Form LV6; Limit Form: Default; Donald Duck: Defeat the Nobodies at The Old Mansion; Goofy: Defeat Shenzi, Banzai, and Ed at The King's Den; Jack Sparrow: Default; Jack Skellington: Default; Lucky Ring.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Lucky_Lucky"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.drive-converter",
+      "name": "Drive Converter",
+      "sourceName": "Drive Converter",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: LV 41 (Dream Sword choice) / LV 53 (Dream Shield choice) / LV 99 (Dream Rod choice)",
+        "Sweet Memories"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Drive_Converter"
+      ],
+      "effect": "Converts some munny drops to Drive orbs; additional copies improve the effect.",
+      "entry": {
+        "id": "kh2fm.abilities.drive-converter",
+        "name": "Drive Converter",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Converts some munny drops to Drive orbs; additional copies improve the effect.",
+        "prerequisites": "Sora: LV 41 (Dream Sword choice) / LV 53 (Dream Shield choice) / LV 99 (Dream Rod choice); Sweet Memories.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Drive_Converter"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.fire-boost",
+      "name": "Fire Boost",
+      "sourceName": "Fire Boost",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Sora: LV 23 (Dream Sword choice) / LV 33 (Dream Shield choice) / LV 15 (Dream Rod choice)",
+        "Donald Duck: Defeat Scar",
+        "Mulan: Mulan loses her disguise",
+        "Jack Skellington: Default",
+        "Bond of Flame",
+        "Rising Dragon"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Fire_Boost"
+      ],
+      "effect": "Fire damage +20%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.fire-boost",
+        "name": "Fire Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Fire damage +20%; copies stack.",
+        "prerequisites": "Sora: LV 23 (Dream Sword choice) / LV 33 (Dream Shield choice) / LV 15 (Dream Rod choice); Donald Duck: Defeat Scar; Mulan: Mulan loses her disguise; Jack Skellington: Default; Bond of Flame; Rising Dragon.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Fire_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.blizzard-boost",
+      "name": "Blizzard Boost",
+      "sourceName": "Blizzard Boost",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Sora: LV 39 (Dream Sword choice) / LV 59 (Dream Shield choice) / LV 31 (Dream Rod choice)",
+        "Donald Duck: Defeat Demyx at the Castle Gates",
+        "Jack Skellington: Default",
+        "Mysterious Abyss",
+        "Shaman's Relic"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Blizzard_Boost"
+      ],
+      "effect": "Ice damage +20%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.blizzard-boost",
+        "name": "Blizzard Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Ice damage +20%; copies stack.",
+        "prerequisites": "Sora: LV 39 (Dream Sword choice) / LV 59 (Dream Shield choice) / LV 31 (Dream Rod choice); Donald Duck: Defeat Demyx at the Castle Gates; Jack Skellington: Default; Mysterious Abyss; Shaman's Relic.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Blizzard_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.thunder-boost",
+      "name": "Thunder Boost",
+      "sourceName": "Thunder Boost",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: LV 53 (Dream Sword choice) / LV 99 (Dream Shield choice) / LV 41 (Dream Rod choice)",
+        "Donald Duck: Freeze the computers at the Dataspace",
+        "Jack Skellington: Default",
+        "Tron: Download the Eradicator Program",
+        "Photon Debugger",
+        "Meteor Staff",
+        "Shock Charm+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Thunder_Boost"
+      ],
+      "effect": "Lightning damage +20%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.thunder-boost",
+        "name": "Thunder Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Lightning damage +20%; copies stack.",
+        "prerequisites": "Sora: LV 53 (Dream Sword choice) / LV 99 (Dream Shield choice) / LV 41 (Dream Rod choice); Donald Duck: Freeze the computers at the Dataspace; Jack Skellington: Default; Tron: Download the Eradicator Program; Photon Debugger; Meteor Staff; Shock Charm+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Thunder_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.item-boost",
+      "name": "Item Boost",
+      "sourceName": "Item Boost",
+      "family": "support",
+      "ap": "2",
+      "acquisition": [
+        "Roxas: When fighting Axel in the Mansion: Basement Hall",
+        "Sora: LV 17 (Dream Sword choice) / LV 7 (Dream Shield choice) / LV 9 (Dream Rod choice)",
+        "Goofy: Default",
+        "Mulan: Default",
+        "Beast: Default",
+        "Jack Sparrow: Default",
+        "Aladdin: Default",
+        "Tron: Default",
+        "Riku: Default",
+        "Monochrome",
+        "Nobody Lance",
+        "Save the King"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Item_Boost"
+      ],
+      "effect": "Field healing-item effectiveness +50%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.item-boost",
+        "name": "Item Boost",
+        "category": "abilities",
+        "summary": "Support ability · AP 2",
+        "instructions": "Field healing-item effectiveness +50%; copies stack.",
+        "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 17 (Dream Sword choice) / LV 7 (Dream Shield choice) / LV 9 (Dream Rod choice); Goofy: Default; Mulan: Default; Beast: Default; Jack Sparrow: Default; Aladdin: Default; Tron: Default; Riku: Default; Monochrome; Nobody Lance; Save the King.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Item_Boost"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mp-rage",
+      "name": "MP Rage",
+      "sourceName": "MP Rage",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV4",
+        "Limit Form: Default",
+        "Donald Duck: Defeat Demyx at the Atrium",
+        "Goofy: Defeat Shenzi, Banzai, and Ed at the Elephant Graveyard",
+        "Auron: Default",
+        "Simba: Default",
+        "Hidden Dragon",
+        "Save the Queen+",
+        "Nobody Guard",
+        "Shadow Archive+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/MP_Rage"
+      ],
+      "effect": "Taking damage restores MP in proportion to that damage; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.mp-rage",
+        "name": "MP Rage",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Taking damage restores MP in proportion to that damage; copies stack.",
+        "prerequisites": "Sora: Reach Wisdom Form LV4; Limit Form: Default; Donald Duck: Defeat Demyx at the Atrium; Goofy: Defeat Shenzi, Banzai, and Ed at the Elephant Graveyard; Auron: Default; Simba: Default; Hidden Dragon; Save the Queen+; Nobody Guard; Shadow Archive+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/MP_Rage"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mp-haste",
+      "name": "MP Haste",
+      "sourceName": "MP Haste",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Sora: Reach Wisdom Form LV6",
+        "Limit Form: Default",
+        "Final Form: Default",
+        "Auron: Default",
+        "Aladdin: Default",
+        "Tron: Download the Eradicator Program",
+        "Circle of Life",
+        "Precious Mushroom",
+        "Akashic Record",
+        "Full Bloom+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/MP_Haste"
+      ],
+      "effect": "MP Charge restoration speed +25%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.mp-haste",
+        "name": "MP Haste",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "MP Charge restoration speed +25%; copies stack.",
+        "prerequisites": "Sora: Reach Wisdom Form LV6; Limit Form: Default; Final Form: Default; Auron: Default; Aladdin: Default; Tron: Download the Eradicator Program; Circle of Life; Precious Mushroom; Akashic Record; Full Bloom+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/MP_Haste"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mp-hastera",
+      "name": "MP Hastera",
+      "sourceName": "MP Hastera",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Roxas: Start of the Third Day (Critical Mode only)",
+        "Master Form: Default",
+        "Donald Duck: Defend the Solar Sailer Simulation",
+        "Jack Skellington: Default",
+        "Precious Mushroom+",
+        "Akashic Record+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/MP_Hastera"
+      ],
+      "effect": "MP Charge restoration speed +50%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.mp-hastera",
+        "name": "MP Hastera",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "MP Charge restoration speed +50%; copies stack.",
+        "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Master Form: Default; Donald Duck: Defend the Solar Sailer Simulation; Jack Skellington: Default; Precious Mushroom+; Akashic Record+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/MP_Hastera"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.mp-hastega",
+      "name": "MP Hastega",
+      "sourceName": "MP Hastega",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Wisdom Form: Default",
+        "Riku: Default",
+        "Ultima Weapon",
+        "Premium Mushroom",
+        "Frozen Pride+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/MP_Hastega"
+      ],
+      "effect": "MP Charge restoration speed +75%; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.mp-hastega",
+        "name": "MP Hastega",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "MP Charge restoration speed +75%; copies stack.",
+        "prerequisites": "Wisdom Form: Default; Riku: Default; Ultima Weapon; Premium Mushroom; Frozen Pride+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/MP_Hastega"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.defender",
+      "name": "Defender",
+      "sourceName": "Defender",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Roxas: When fighting Axel in the Mansion: Basement Hall",
+        "Sora: LV 59 (Dream Sword choice) / LV 31 (Dream Shield choice) / LV 39 (Dream Rod choice)",
+        "Goofy: Defeat Beast",
+        "Beast: Default",
+        "Jack Sparrow: Default",
+        "Simba: Default",
+        "Riku: Default",
+        "Shaman's Relic+",
+        "Ogre Shield"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Defender_(ability)"
+      ],
+      "effect": "Defense +3 at critical HP; copies stack.",
+      "entry": {
+        "id": "kh2fm.abilities.defender",
+        "name": "Defender",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "Defense +3 at critical HP; copies stack.",
+        "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 59 (Dream Sword choice) / LV 31 (Dream Shield choice) / LV 39 (Dream Rod choice); Goofy: Defeat Beast; Beast: Default; Jack Sparrow: Default; Simba: Default; Riku: Default; Shaman's Relic+; Ogre Shield.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Defender_(ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.damage-control",
+      "name": "Damage Control",
+      "sourceName": "Damage Control",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Sora: LV 99 (Dream Sword choice) / LV 41 (Dream Shield choice) / LV 53 (Dream Rod choice)",
+        "Goofy: Defeat Zexion's Absent Silhouette",
+        "Kingdom Key",
+        "Centurion+",
+        "Save the King+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Damage_Control"
+      ],
+      "effect": "Incoming damage is halved at critical HP; two copies reduce it further.",
+      "entry": {
+        "id": "kh2fm.abilities.damage-control",
+        "name": "Damage Control",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Incoming damage is halved at critical HP; two copies reduce it further.",
+        "prerequisites": "Sora: LV 99 (Dream Sword choice) / LV 41 (Dream Shield choice) / LV 53 (Dream Rod choice); Goofy: Defeat Zexion's Absent Silhouette; Kingdom Key; Centurion+; Save the King+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Damage_Control"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.protect",
+      "name": "Protect",
+      "sourceName": "Protect",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Majestic Mushroom"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Protect"
+      ],
+      "effect": "Damage received reduced by 10%.",
+      "entry": {
+        "id": "kh2fm.abilities.protect",
+        "name": "Protect",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Damage received reduced by 10%.",
+        "prerequisites": "Majestic Mushroom.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Protect"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.protectra",
+      "name": "Protectra",
+      "sourceName": "Protectra",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Majestic Mushroom+"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Protectra"
+      ],
+      "effect": "Damage received reduced by 20%.",
+      "entry": {
+        "id": "kh2fm.abilities.protectra",
+        "name": "Protectra",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Damage received reduced by 20%.",
+        "prerequisites": "Majestic Mushroom+.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Protectra"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.protectga",
+      "name": "Protectga",
+      "sourceName": "Protectga",
+      "family": "support",
+      "ap": "—",
+      "acquisition": [
+        "Ultimate Mushroom"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Protectga"
+      ],
+      "effect": "Damage received reduced by 40%.",
+      "entry": {
+        "id": "kh2fm.abilities.protectga",
+        "name": "Protectga",
+        "category": "abilities",
+        "summary": "Support ability · AP —",
+        "instructions": "Damage received reduced by 40%.",
+        "prerequisites": "Ultimate Mushroom.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Protectga"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.second-chance",
+      "name": "Second Chance",
+      "sourceName": "Second Chance",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Roxas: When fighting Axel in the Mansion: Basement Hall",
+        "Sora: LV 85 (Dream Sword choice) / LV 49 (Dream Shield choice) / LV 65 (Dream Rod choice)",
+        "Goofy: Clear the explosives from The Interceptor's deck",
+        "Beast: Default",
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Second_Chance"
+      ],
+      "effect": "Survive an otherwise fatal single hit with 1 HP, when starting above 1 HP.",
+      "entry": {
+        "id": "kh2fm.abilities.second-chance",
+        "name": "Second Chance",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Survive an otherwise fatal single hit with 1 HP, when starting above 1 HP.",
+        "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 85 (Dream Sword choice) / LV 49 (Dream Shield choice) / LV 65 (Dream Rod choice); Goofy: Clear the explosives from The Interceptor's deck; Beast: Default; Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Second_Chance"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.once-more",
+      "name": "Once More",
+      "sourceName": "Once More",
+      "family": "support",
+      "ap": "4",
+      "acquisition": [
+        "Roxas: When fighting Axel in the Mansion: Basement Hall",
+        "Sora: LV 47 (Dream Sword choice) / LV 25 (Dream Shield choice) / LV 28 (Dream Rod choice)",
+        "Goofy: Defeat Oogie Boogie",
+        "Auron: Default",
+        "Aladdin: Default",
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Once_More"
+      ],
+      "effect": "Survive an otherwise fatal combo with 1 HP, when starting above 1 HP. During an airborne enemy combo, Aerial Recovery, Retaliating Slash or reverting a Drive Form ends the protection.",
+      "entry": {
+        "id": "kh2fm.abilities.once-more",
+        "name": "Once More",
+        "category": "abilities",
+        "summary": "Support ability · AP 4",
+        "instructions": "Survive an otherwise fatal combo with 1 HP, when starting above 1 HP. During an airborne enemy combo, Aerial Recovery, Retaliating Slash or reverting a Drive Form ends the protection.",
+        "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 47 (Dream Sword choice) / LV 25 (Dream Shield choice) / LV 28 (Dream Rod choice); Goofy: Defeat Oogie Boogie; Auron: Default; Aladdin: Default; Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Once_More"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.no-experience",
+      "name": "No Experience",
+      "sourceName": "No Experience",
+      "family": "support",
+      "ap": "1",
+      "acquisition": [
+        "Antiform: Default",
+        "Roxas: Start of the Third Day (Critical Mode only)",
+        "Winner's Proof"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/No_Experience"
+      ],
+      "effect": "Prevents experience gains.",
+      "entry": {
+        "id": "kh2fm.abilities.no-experience",
+        "name": "No Experience",
+        "category": "abilities",
+        "summary": "Support ability · AP 1",
+        "instructions": "Prevents experience gains.",
+        "prerequisites": "Antiform: Default; Roxas: Start of the Third Day (Critical Mode only); Winner's Proof.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/No_Experience"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-limit-party",
+      "name": "Auto Limit (party)",
+      "sourceName": "Auto Limit",
+      "family": "support",
+      "ap": "1",
+      "acquisition": [
+        "Donald Duck: Free the Cornerstone of Light",
+        "Goofy: Defeat Captain Barbossa",
+        "Mulan: Mulan loses her disguise",
+        "Beast: Default",
+        "Auron: Default",
+        "Jack Sparrow: Default",
+        "Aladdin: Default",
+        "Jack Skellington: Default",
+        "Simba: Default",
+        "Tron: Access the DTD",
+        "Riku: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Limit_(support_ability)"
+      ],
+      "effect": "Offers a Limit reaction prompt when an eligible party Limit is available.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-limit-party",
+        "name": "Auto Limit (party)",
+        "category": "abilities",
+        "summary": "Support ability · AP 1",
+        "instructions": "Offers a Limit reaction prompt when an eligible party Limit is available.",
+        "prerequisites": "Donald Duck: Free the Cornerstone of Light; Goofy: Defeat Captain Barbossa; Mulan: Mulan loses her disguise; Beast: Default; Auron: Default; Jack Sparrow: Default; Aladdin: Default; Jack Skellington: Default; Simba: Default; Tron: Access the DTD; Riku: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Limit_(support_ability)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-change",
+      "name": "Auto Change",
+      "sourceName": "Auto Change",
+      "family": "support",
+      "ap": "5",
+      "acquisition": [
+        "Goofy: Defeat Lock, Shock, and Barrel",
+        "Aladdin:Default",
+        "Tron: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Change"
+      ],
+      "effect": "Automatically substitutes a fallen party member.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-change",
+        "name": "Auto Change",
+        "category": "abilities",
+        "summary": "Support ability · AP 5",
+        "instructions": "Automatically substitutes a fallen party member.",
+        "prerequisites": "Goofy: Defeat Lock, Shock, and Barrel; Aladdin:Default; Tron: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Change"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.hyper-healing",
+      "name": "Hyper Healing",
+      "sourceName": "Hyper Healing",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Donald Duck: Defeat the Prison Keeper",
+        "Goofy: Defeat Pete at The Lock",
+        "Mulan: Clear the trap at the Village Cave",
+        "Beast: Default",
+        "Simba: Default",
+        "Riku: Default",
+        "Save the Queen",
+        "Genji Shield"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Hyper_Healing"
+      ],
+      "effect": "An incapacitated ally returns sooner with more HP.",
+      "entry": {
+        "id": "kh2fm.abilities.hyper-healing",
+        "name": "Hyper Healing",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "An incapacitated ally returns sooner with more HP.",
+        "prerequisites": "Donald Duck: Defeat the Prison Keeper; Goofy: Defeat Pete at The Lock; Mulan: Clear the trap at the Village Cave; Beast: Default; Simba: Default; Riku: Default; Save the Queen; Genji Shield.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Hyper_Healing"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "id": "kh2fm.abilities.auto-healing",
+      "name": "Auto Healing",
+      "sourceName": "Auto Healing",
+      "family": "support",
+      "ap": "3",
+      "acquisition": [
+        "Donald Duck: Defeat Xaldin",
+        "Goofy: Defeat the Heartless at The Cave of Wonders: Treasure Room",
+        "Jack Sparrow: Default",
+        "Jack Skellington: Default",
+        "Simba: Default"
+      ],
+      "sources": [
+        "https://www.khwiki.com/Abilities_(KHII)",
+        "https://www.khwiki.com/Auto_Healing"
+      ],
+      "effect": "An ally recovers HP while waiting outside the active party after Change.",
+      "entry": {
+        "id": "kh2fm.abilities.auto-healing",
+        "name": "Auto Healing",
+        "category": "abilities",
+        "summary": "Support ability · AP 3",
+        "instructions": "An ally recovers HP while waiting outside the active party after Change.",
+        "prerequisites": "Donald Duck: Defeat Xaldin; Goofy: Defeat the Heartless at The Cave of Wonders: Treasure Room; Jack Sparrow: Default; Jack Skellington: Default; Simba: Default.",
+        "sources": [
+          "https://www.khwiki.com/Abilities_(KHII)",
+          "https://www.khwiki.com/Auto_Healing"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.khwiki.com/Abilities_(KHII)",
+      "reviewed": "2026-10-01",
+      "scope": "All 167 rows; Final Mix AP and acquisition selection; Dream choice and Critical footnotes."
+    },
+    {
+      "url": "https://www.khwiki.com/Lucky_Lucky",
+      "reviewed": "2026-10-01",
+      "scope": "Final Mix multiplier and acquisition differences from original KHII."
+    },
+    {
+      "url": "https://www.khwiki.com/Second_Chance",
+      "reviewed": "2026-10-01",
+      "scope": "Survival condition requires more than 1 HP."
+    },
+    {
+      "url": "https://www.khwiki.com/Once_More",
+      "reviewed": "2026-10-01",
+      "scope": "HP prerequisite and cancellation during airborne combos."
+    },
+    {
+      "url": "https://www.khwiki.com/Light_%26_Darkness",
+      "reviewed": "2026-10-01",
+      "scope": "Eligibility-limited Antiform forcing and pre-unlock Final alternative."
+    }
+  ]
+}

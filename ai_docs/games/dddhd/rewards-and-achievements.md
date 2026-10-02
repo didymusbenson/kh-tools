@@ -1,5 +1,7 @@
 # DDD HD: Keyblades, reports, awards and secret unlocks
 
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Research date: 2026-09-18. “Collected everything in this world”, “all acquisition types”, “all in-game awards” and “all platform achievements” are distinct goals with different requirements.
 
 ## Keyblade acquisition catalog
@@ -96,11 +98,11 @@ The [official Steam achievement list](https://steamcommunity.com/stats/2552440/a
 | Recipe Collector | All recipe items |
 | Record Keeper | 100% Combat, Story, Items, Game Records |
 
-The inspected [platform DDD table](https://www.khwiki.com/Trophies#Kingdom_Hearts_Dream_Drop_Distance_HD) has 55 PlayStation rows including its platinum. Steam/Xbox platform IDs, hidden requirements and the exact DDD-only mapping still require a verified manifest; do not synthesize the mapping by title text alone.
+The inspected [platform DDD table](https://www.khwiki.com/Trophies#Kingdom_Hearts_Dream_Drop_Distance_HD) has 55 PlayStation rows including its platinum. The complete 54 DDD Steam name/requirement manifest is now in `platform-facts.json`, reconciled against the separate 15-goal 0.2 set. Native API identifiers and cross-platform keys remain unknown.
 
 The “Treasure Hunter” achievement in the 2.8 Steam list concerns the Dark World (0.2), not DDD's 438 chests. Acquisition progress can help derive platform goals, but cannot equate chest percentage with Record Keeper. A requirement that mentions Story belongs on that achievement's detail page; a complete ordinary narrative/biography walkthrough is not a collectible-compendium release gate.
 
-EXP Zero is mode-dependent. Verify how Ability Ace handles it before showing an impossible Beginner/Standard checklist. Equipment availability, node purchase, maximum useful stacks and currently installed ability state must remain distinct.
+EXP Zero is mode-dependent: Ability Ace requires Proud/Critical, all useful Support/Spirit stacks enabled including EXP Zero, then exiting the menu. Equipment availability, node purchase, maximum useful stacks and currently installed ability state must remain distinct.
 
 ## Secret ending and credits reward
 
@@ -110,9 +112,9 @@ The inspected [Another Guardian of Light unlock criteria](https://www.khwiki.com
 2. “My close friends.”
 3. “To recover something important.”
 
-Beginner/Standard also require collecting the golden credits letters. The credits can be replayed in Theater; the unlocked ending is selected there rather than automatically played. Store this as a secret-reward goal with difficulty predicates and recovery instructions. The article primarily describes the original game; independently confirm the complete HD path before marking it source-validated.
+Beginner/Standard also require collecting the golden credits letters. The credits can be replayed in Theater; the unlocked ending is selected there rather than automatically played. This is now integrated as a secret-reward reference with difficulty predicates and credits recovery instructions. The article primarily describes the original game; independently confirm the complete HD path before marking it source-validated.
 
-The credits' Secret Message is a discrete unlock; avoid converting all glossary or character text into collectible tasks. Critical Mode availability/new-run carryover and the exact secret-ending re-trigger route after correcting a failed condition remain verification tasks.
+The credits' Secret Message is a discrete unlock; avoid converting all glossary or character text into collectible tasks. Clear-data Critical unlock and NG+ carry/reset rules are integrated. Exact HD secret-ending re-trigger after wrong final answers remains unsupported.
 
 ## Cross-module counting and answers
 

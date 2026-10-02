@@ -1,6 +1,8 @@
 # Dream Drop Distance HD research pack
 
-Audited 2026-09-18 for Ars Arcanum's collectible/acquisition compendium. **Planning and source audit are substantially expanded; production data is not complete and the game is not implementation-ready.**
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
+Audited 2026-09-18 for Ars Arcanum's collectible/acquisition compendium. The generated runtime is implemented; remaining documentary gaps are scoped by the current ledger.
 
 The game is **Dream Drop Distance HD**. **HD 2.8 Final Chapter Prologue is its collection**, alongside 0.2 and Back Cover; it is not another standalone game record. Square Enix's [Steam product listing](https://store.steampowered.com/app/2552440/KINGDOM_HEARTS_HD_28_Final_Chapter_Prologue/) explicitly names the three experiences.
 
@@ -8,7 +10,7 @@ The game is **Dream Drop Distance HD**. **HD 2.8 Final Chapter Prologue is its c
 |---|---|
 | [Legacy audit](legacy-audit.md) | All 14 workbook tabs/ranges; 54-breed reconciliation; 243 recipes, 816 unlock rows, 119 command candidates and integrity defects |
 | [Legacy factual candidates](legacy-factual-candidates.json) | User-workbook factual cells with raw aliases/nulls; no copied guide prose; research-only |
-| [Worlds and collectibles](worlds-and-collectibles.md) | Seven-world Sora/Riku census: 225 + 213 = 438; HD chest replacements and explicit location gaps |
+| [Worlds and collectibles](worlds-and-collectibles.md) | Seven-world Sora/Riku census: 225 + 213 = 438; all pickup landmarks and HD reward reconciliation |
 | [Spirits and commands](spirits-and-commands.md) | 22 targeted HD recipe corrections/additions; board gates, rank/material rules, 124-command census and acquisition fixtures |
 | [Portals and challenges](portals-and-challenges.md) | 78 Special / 11 Secret portal census, Secret areas, 14 Dive courses, ten Flick Rush cups, optional rewards |
 | [Rewards and achievements](rewards-and-achievements.md) | 15 Keyblade types, in-game versus platform awards, secret unlocks, report-goal boundary |
@@ -28,10 +30,10 @@ The official [2026 Collection page](https://www.jp.square-enix.com/kingdom/colle
 
 ## Highest-priority remaining work
 
-1. Author and independently verify all 438 HD chest directions/order/access conditions; 387 inspected source rows lack location notes.
-2. Build all 78 Special Portal location/forecast/reward records, built-in Battle/Friendship records and seven bonus-objective types.
-3. Complete HD recipes, all 54 Spirit boards/edges/dispositions, material sources and every command acquisition route; resolve the Aura Lion coordinate conflict.
-4. Verify exact achievement applicability, controller inputs, shop/medal stock, secret unlocks and reward fan-out.
+1. Verify remaining access/returnability conditions and independent HD Reports order; all 438 pickup landmarks are integrated, with two documented source-number conflicts.
+2. Add missing approach landmarks and first/repeat delivery distinctions to the extracted portal census.
+3. Resolve Aura Lion/Jestabocky source defects, the 141 remaining unreported formula odds, three breeds’ unknown base stats and five missing interaction body parts.
+4. Resolve conflicting shop prices, incomplete Steam input bindings, native platform identifiers and remaining secret/counter recovery semantics.
 5. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers on the verified records.
 
 These are data/research/engineering tasks, not requests for new scope decisions. Ordinary character-story manifests and manual gameplay/playthroughs are not release gates. The user plays Steam; validate content from sources and test application behavior, initially on Apple browser/iPhone/iPad, with Android follow-up.

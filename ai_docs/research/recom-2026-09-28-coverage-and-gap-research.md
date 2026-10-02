@@ -1,5 +1,7 @@
 # Re:Chain of Memories coverage and factfinding — 2026-09-28
 
+Historical chronological report. Its earlier missing-field/no-module statements describe their dated snapshots. The current October 1 disposition is [the full Re:CoM ledger](../games/recom/research-resolution-2026-10-01.md), including all resolved fields and exact remaining gaps.
+
 The user identified an undocumented game and requested the depth already established for KH1, KH2 and BBS. This pass supplies a dedicated [specification](../games/kingdom-hearts-re-chain-of-memories.md), [research pack](../games/recom/README.md), [readiness workbook](../readiness/kingdom-hearts-re-chain-of-memories.md), [source manifest](../games/recom/source-manifest.json), and [journal reference workbook](../ui/references/recom/README.md).
 
 ## Benchmark inspected

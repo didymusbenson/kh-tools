@@ -112,6 +112,9 @@ for material in [x for x in e if x['category']=='materials']:
   material['summary']=' · '.join(dict.fromkeys(d['enemy']+': '+d['rate'] for d in material['drops'][:3]))
   material['uncertainty']='Source-derived Nightmare and portal routes; precise encounter rooms, shop stock, finite treasure alternatives and additional sources are not exhaustive.'
 
+from enrich import enrich
+e,recipes=enrich(e,recipes,root)
+
 # Remove null optionals; preserve one stable identity per represented goal.
 e=[{k:v for k,v in x.items() if v is not None} for x in e]
 assert len({x['id'] for x in e})==len(e)

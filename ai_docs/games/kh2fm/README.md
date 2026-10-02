@@ -1,10 +1,10 @@
 # Kingdom Hearts II Final Mix research pack
 
-Research snapshot: **2026-09-18**, updated by the **2026-09-28 audit follow-up**. The generated journal consumes these records; source-backed does not mean independently playtested. Start with the [game specification](../kingdom-hearts-ii-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-ii-final-mix.md).
+Research snapshot: **2026-10-01**, following the complete forty-finding audit review. The generated journal consumes these records; source-backed does not mean independently playtested. Start with the [game specification](../kingdom-hearts-ii-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-ii-final-mix.md).
 
 ## Latest data pass
 
-Read the [2026-09-28 follow-up](data-gap-audit-2026-09-28.md) first, then the [September 27 gap audit](data-gap-audit-2026-09-27.md). It supersedes resolved uncertainty notes in the original candidate tables and documents the live material sources, treasure/puzzle directions, corrected recipes, cup unlocks and Gummi targets.
+Read the [current forty-finding resolution ledger](research-resolution-2026-10-01.md) first. It supersedes the original audit and September candidate warnings. New canonical records cover 131 equipment items, 167 ability definitions, 127 combat-reference groups with 227 encounter contexts, all 54 Moogle goals, 40 maps, 16 recipe-document relationships, 21 Journal Limits, 120 cup rounds, five songs, five Form curves, and 40 main/19 Teeny blueprints. Source URLs and the inspected scope remain attached to the records; the source tables are community evidence, not a retail executable extraction.
 
 ## Findings and inventories
 
@@ -27,7 +27,7 @@ Spoilers are shown directly. There is no Available Now/progress-gate filter; rel
 
 The trailing-space `Accessories ` tab contains 33 candidates; the old empty-tab claim was wrong. Agrabah treasure 24 is Serenity Gem. Twilight Town's Daylight 23 belongs to Sora in the Other Twilight Town. The 16 Roxas prologue chests now have their own checklist scope. Data completion makes the final Proof chest appear; it does not open it. Final Mix's Magnet grant is Luxord, and old Lucky Lucky equipment/Serenity farms are unreliable.
 
-Restored treasure directions still need richer orientation in places. Full staff/shield acquisitions, a visual assembly solution, optional discount implementation and the complete Gummi catalog remain unfinished. These are explicit research tasks, not silent feature deferrals. Only missing production screenshot/map image acquisition is deferred.
+The current ledger identifies four puzzle-landmark precision limits, shop-missability evidence, two Mushroom gates, a cup-cost conflict and missing individual Mushroom attributes. All six assembly grids and the full FM summon curve are now supported. Full staff/shield inventories and blueprint dependency catalogs are now integrated. Optional discount controls remain engineering work; the arithmetic is researched. Only production screenshot/map image acquisition is deferred.
 
 ## Edition evidence
 

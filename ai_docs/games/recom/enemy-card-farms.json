@@ -2,13 +2,13 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
-  "notes": "30 Sora ordinary enemy-card farm candidates. Percentages apply to eligible final-enemy drops, not each slain enemy. World listings are source text, not guaranteed spawn routes; numbered footnotes remain unresolved where present.",
+  "status": "Source-backed implemented journal reference; not independently gameplay-verified",
+  "notes": "Re:CoM infobox farm-rate candidates. Shadow and Soldier appearance footnotes resolved 2026-10-01. Full encounter compositions and reset routes remain separate from world eligibility.",
   "records": [
     {
       "id": "recom-farm-shadow",
       "enemy": "Shadow",
-      "worldsSourceText": "Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica [ 3 ] , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion",
+      "worldsSourceText": "Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica (Bottomless Darkness only), Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion",
       "basePercent": 4.0,
       "boostedPercent": 10.0,
       "boostRooms": [
@@ -17,14 +17,20 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Shadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterExceptions": [
+        {
+          "world": "Atlantica",
+          "condition": "Bottomless Darkness rooms only"
+        }
+      ]
     },
     {
       "id": "recom-farm-soldier",
       "enemy": "Soldier",
-      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town Neverland [ 3 ]",
+      "worldsSourceText": "Traverse Town, Wonderland, Twilight Town; Neverland only when summoned by a Crescendo",
       "basePercent": 3.0,
       "boostedPercent": 7.5,
       "boostRooms": [
@@ -33,9 +39,15 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "encounterExceptions": [
+        {
+          "world": "Neverland",
+          "condition": "Only when summoned by a Crescendo"
+        }
+      ]
     },
     {
       "id": "recom-farm-powerwild",
@@ -49,7 +61,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Powerwild",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -65,7 +77,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bouncywild",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -81,7 +93,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Large_Body",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -97,7 +109,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Fat_Bandit",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -113,7 +125,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Sea_Neon",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -129,7 +141,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bandit",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -145,7 +157,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Pirate",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -161,7 +173,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Red_Nocturne",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -177,7 +189,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Blue_Rhapsody",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -193,7 +205,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Yellow_Opera",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -209,7 +221,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Green_Requiem",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -225,7 +237,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wizard",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -241,7 +253,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Soldier",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -257,7 +269,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Barrel_Spider",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -273,7 +285,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wight_Knight",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -289,7 +301,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Pirate",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -305,7 +317,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Gargoyle",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -321,7 +333,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Search_Ghost",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -337,7 +349,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Aquatank",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -353,7 +365,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Screwdiver",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -369,7 +381,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wyvern",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -385,7 +397,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Defender",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -397,9 +409,16 @@
       "boostedPercent": null,
       "boostRooms": [],
       "specialRoom": "White Room",
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/White_Mushroom",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "successRule": "Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply.",
+      "successSources": [
+        "https://www.khwiki.com/White_Mushroom",
+        "https://www.khwiki.com/Enemy_Card",
+        "https://www.khwiki.com/Warp"
+      ],
+      "successVerification": "Source-backed shared success rules and explicit remake room/rate rows; Warp mechanics explicitly preserve map/enemy-card prizes while excluding EXP. Not a guaranteed card drop."
     },
     {
       "id": "recom-farm-black-fungus",
@@ -409,9 +428,15 @@
       "boostedPercent": null,
       "boostRooms": [],
       "specialRoom": "Black Room",
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Black_Fungus",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "successRule": "Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used.",
+      "successSources": [
+        "https://www.khwiki.com/Black_Fungus",
+        "https://www.khwiki.com/Enemy_Card"
+      ],
+      "successVerification": "Source-backed CoM/Re:CoM shared rules, explicit remake room/rate rows; Warp route corroborated by HD guide indexed passage. Not a guaranteed card drop."
     },
     {
       "id": "recom-farm-creeper-plant",
@@ -425,7 +450,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Creeper_Plant",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -441,7 +466,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Tornado_Step",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -457,7 +482,7 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Crescendo",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     },
@@ -473,9 +498,10 @@
         "Looming Darkness"
       ],
       "specialRoom": null,
-      "selectionRule": "Target must be final enemy defeated; mushroom-specific success details still need independent audit.",
+      "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Neoshadow",
       "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
     }
-  ]
+  ],
+  "followUpDate": "2026-10-01"
 }

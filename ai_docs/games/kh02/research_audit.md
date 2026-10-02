@@ -1,94 +1,96 @@
 # Kingdom Hearts 0.2 research audit
 
+**Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.
+
 Audit date: 2026-10-01. Repository baseline: `f933ab1`; audit branch: `research/audit-2026-10-01`. Scope is the separate Aqua-only **0.2 Birth by Sleep — A fragmentary passage** game, with the modern Steam version as baseline. It is not BBS's Secret Episode; 2.8 is collection metadata. This audit uses existing checked-in evidence only and conducts no new external answer research.
 
-## Method, coverage and counts
+## Historical baseline method, coverage and counts
 
 Read the entire dedicated game pack, standalone specification, readiness, rollout, generator, generated TypeScript catalog and guide/config; inspected shared schema, source/Drive and parallel-research records, related BBS-family boundaries, shared rollout and applicable tests. Searched tracked Markdown/JSON/TypeScript/Python/CSV for game names and uncertainty terms, and then checked surrounding data shapes, omission of fields/citations, inventory joins and later implementation evidence. No independent tracked 0.2 JSON/CSV factual dataset exists; the canonical inputs are the three researched Markdown inventories. No external sources were retrieved, no game was played and no functional tests were executed in this audit.
 
-The current catalog contains **175 entries**: **55 physical finds** (41 treasures = 29 ordinary + 12 Zodiac, 7 gems, 3 flowers, 4 memories), **51 objectives**, **51 wardrobe rewards**, **15 achievements** and **3 reference records**. Zodiac is an alias facet of 12 existing chest records; objective 42 also aliases the challenge view. World physical totals are 11/21/16/7. There is no missing-count basis for inventing additional collectibles. Contents, exact directions, conditions and retention must be assessed separately.
+The baseline catalog contains **175 entries**: **55 physical finds** (41 treasures = 29 ordinary + 12 Zodiac, 7 gems, 3 flowers, 4 memories), **51 objectives**, **51 wardrobe rewards**, **15 achievements** and **3 reference records**. Zodiac is an alias facet of 12 existing chest records; objective 42 also aliases the challenge view. World physical totals are 11/21/16/7. There is no missing-count basis for inventing additional collectibles. Contents, exact directions, conditions and retention must be assessed separately.
 
 **18 deduplicated findings:** 16 open factual/research questions (KH02-001–016), 1 provenance/integration finding (KH02-017), and 1 researched-but-unintegrated context finding (KH02-018). These supersede a simplistic reading that all historical KH02-R01–R13 remain equally unresolved. The closed-reflection answer and canonical name/reward aliases have corroborated working resolutions; they appear in the historical ledger, not as new unresolved questions. A sourced fact's lack of in-game testing is not itself a data defect.
 
-## Findings
+## Historical baseline findings
 
-### KH02-001 — Master of Lightning: 30 or 50 final blows
+### Baseline KH02-001 — Master of Lightning: 30 or 50 final blows
 
 **Open, disputed; old KH02-R01.** What is the actual Steam/localized objective 13 kill threshold? KHWiki/GameSkinny say 30; PSU/Guiding Key say 50. Affects `kh02:objective:13` and `kh02:wardrobe:mystic-pauldron`, especially `summary`, `instructions`, `uncertainty`. “30 or 50; unresolved” (`ai_docs/games/kh02/objectives-and-wardrobe.md:23`, `:89`); `ai_docs/games/kh02/sources-and-gaps.md:65`; generator `src/games/kh02/generate.py:63`, `:69`. The runtime correctly retains both numbers and does not certify one. Lead: current-version objective text/counter documentation, preserving version/locale differences if established. Exact runtime occurrences are enumerated in Appendix A.
 
-### KH02-002 — Ice Breaker simultaneity
+### Baseline KH02-002 — Ice Breaker simultaneity
 
 **Open, disputed; old KH02-R02.** Must all five frozen enemies shatter at once, or are cumulative five freezes/five shatters sufficient? Affects `kh02:objective:15`, `kh02:wardrobe:grace-purple`. “simultaneous rule needs validation” (`ai_docs/games/kh02/objectives-and-wardrobe.md:25`, `:90`); `ai_docs/games/kh02/sources-and-gaps.md:66`; `src/games/kh02/generate.py:63`, `:69`. Grouping is a strategy, not proof of the predicate. Lead: objective/counter documentary evidence or a sufficiently explicit independent mechanics source.
 
-### KH02-003 — Frozen Rail Ride and Dark Explorer completion conditions
+### Baseline KH02-003 — Frozen Rail Ride and Dark Explorer completion conditions
 
 **Open; old KH02-R06.** What reproducible route/condition completes objective 14 and the movement achievement, and do either have a documented hidden distance? Affects `kh02:objective:14`, `kh02:wardrobe:flawless-arm-guards`, `kh02:achievement:dark-explorer`. “numeric distance unverified” (`ai_docs/games/kh02/objectives-and-wardrobe.md:24`, `:94`); `ai_docs/games/kh02/replay-challenges-achievements.md:71`; `ai_docs/games/kh02/sources-and-gaps.md:70`; runtime construction `src/games/kh02/generate.py:63`, `:69`, `:73`. A verified reproducible route can close the useful guidance gap without reverse-engineering an exact number. Do not invent one.
 
-### KH02-004 — Pillar-labyrinth Potion/Hi-Potion crosswalk
+### Baseline KH02-004 — Pillar-labyrinth Potion/Hi-Potion crosswalk
 
 **Open; part of old KH02-R07.** Which of two known inversion routes contains Potion versus Hi-Potion? Affects `kh02:ww-pillar-potion` and `kh02:ww-pillar-hi-potion`, `reward`/`summary`/`instructions` and durable location identity. Both routes are documented: beside first struck pillar after inversion, and near exit after second inversion. “does not resolve which inversion holds which” (`ai_docs/games/kh02/collectibles.md:36–37`, `:59`, `:123`); `ai_docs/games/kh02/sources-and-gaps.md:71`; `src/games/kh02/generate.py:19`. Existing IDs have already entered runtime despite the planning warning against freezing them; a future correction needs migration-safe identity handling. Lead: PSU route guide joined to KHWiki item table, independently corroborated per physical chest.
 
-### KH02-005 — Remaining ordinary-chest route/content precision
+### Baseline KH02-005 — Remaining ordinary-chest route/content precision
 
 **Open; rest of old KH02-R07 and unnumbered route queue.** What exact starting save point/landmark, movement requirement and item-to-route mapping applies to unresolved ordinary chests? Explicit cases are `kh02:ct-lower-ether` (lower crystal route-to-content), `kh02:ft-start-ledge-potion` (which save point), and an unspecified subset of the ten Forest chests whose guide order was not joined to contents. Because the research never identifies that subset, all ten Forest rows must remain in the review set; that does not prove all ten directions are wrong. IDs: `ft-map`, `ft-start-ledge-potion`, `ft-north-potion`, `ft-ring-potion`, `ft-gap-hi-potion`, `ft-left-hi-potion`, `ft-spiral-mega-potion`, `ft-ring-mega-potion`, `ft-save-ether`, `ft-steps-ether`, all prefixed `kh02:`.
 
 Evidence: “Exact route-to-content cross-check pending” (`ai_docs/games/kh02/collectibles.md:34`), “Exact save-point label needs validation” (`:44`), Forest join warning (`:59`), general precision/access queue (`:123`); `ai_docs/games/kh02/sources-and-gaps.md:47`, `:71`; `src/games/kh02/generate.py:18–20`. The generator flags only literal “pending” or “validation” rows, so it does not carry the broader Forest warning to every potentially affected runtime row. Lead: C/L/F/D/W sources defined at `ai_docs/games/kh02/collectibles.md:25`, paired to physical landmarks, not ordinal row positions. Appendix A enumerates all 29 ordinary rows and the remaining physical guidance coverage.
 
-### KH02-006 — Pisces staircase approach
+### Baseline KH02-006 — Pisces staircase approach
 
 **Open, disputed; old KH02-R08.** Is Pisces behind Aqua at initial staircase arrival or at the end, and under which staircase state? Affects `kh02:ww-pisces`, `summary`/`uncertainty`. “KHWiki says the end … PSU specifies behind the initial arrival” (`ai_docs/games/kh02/collectibles.md:75`, `:80`); `ai_docs/games/kh02/sources-and-gaps.md:72`; `src/games/kh02/generate.py:23`. Runtime preserves the conflict; the existing initial-arrival instruction is a working lead. Resolve by documentary route/state evidence; the older “visually checked” wording is not a mandate for the user to play the game.
 
-### KH02-007 — Flower color-to-route mapping and subarea precision
+### Baseline KH02-007 — Flower color-to-route mapping and subarea precision
 
 **Open; part of old KH02-R09.** Which route corresponds to green/blue/red, especially the two Rocky Path flowers? Affects `kh02:ft-flower-01`, `kh02:ft-flower-02`, `kh02:ft-flower-03`, names/labels and area/route fields. “assigning the latter two colors … remains unverified” (`ai_docs/games/kh02/collectibles.md:100`, routes `:104–108`); `ai_docs/games/kh02/sources-and-gaps.md:53`, `:73`; `src/games/kh02/generate.py:27`. Runtime intentionally avoids all color assignments. Save-point returnability is explicitly sourced, so do not recategorize it as unknown merely because color is unknown. Lead: GameSkinny flower guide plus exact color/route evidence.
 
-### KH02-008 — Castle Town memory building
+### Baseline KH02-008 — Castle Town memory building
 
 **Open; part of old KH02-R09.** Which rooftop/awning/building around the plaza contains the blue slipper, and how is it reached? Affects `kh02:ct-memory`, objective 38/Pulse Blades as linked goals. “Exact building needs validation” (`ai_docs/games/kh02/collectibles.md:116`); `ai_docs/games/kh02/sources-and-gaps.md:73`; `src/games/kh02/generate.py:30`. Lead: PSU memories and Guiding Key location supplement, with an exact landmark crosswalk. The post-clear prerequisite is already supported.
 
-### KH02-009 — Forest memory object label
+### Baseline KH02-009 — Forest memory object label
 
 **Open, disputed label; part of old KH02-R09.** Is the orange memory's correct visual/localized label spinning wheel or sewing machine? Affects `kh02:ft-memory.name`/`summary`/`uncertainty`, objective 45/Pulse Antennae lookup. Location beneath the optional third Rocky Path Darkside is documented; label uncertainty does not make the whole route absent. `ai_docs/games/kh02/collectibles.md:118`; `ai_docs/games/kh02/sources-and-gaps.md:73`; `src/games/kh02/generate.py:31`. Lead: corroborating image/object identity or localized game/reference wording.
 
-### KH02-010 — Per-asset cleared-save recovery and NG+ retention
+### Baseline KH02-010 — Per-asset cleared-save recovery and NG+ retention
 
 **Open; old KH02-R10 plus replay table.** Can the mines be re-entered, are partial gem pickups retained, and what ordinary-chest/memory/flower/counter state resets or carries through clear-data continuation and seeded NG+? What precisely carries for objective completion, wardrobe and level, including NG+ starting level? Zodiac retention/open-chest behavior is explicitly sourced and is not an open subquestion. Flower save-point return is sourced; its NG+ state is not exhaustively specified.
 
 Affected IDs: all 29 ordinary chests, seven `kh02:ww-gem-01` through `-07`, three flower records, four memories, all objective/wardrobe state and `kh02:reference:replay`; Appendix A enumerates every identity. Evidence: `ai_docs/games/kh02/collectibles.md:96`, `:108`, `:123`; `ai_docs/games/kh02/replay-challenges-achievements.md:12–16`, `:19–21`; `ai_docs/games/kh02/sources-and-gaps.md:74`; `src/games/kh02/generate.py:25`, `:75`; `src/games/kh02.ts:21–22`. The inaccessible TrueAchievements snippet cannot prove permanent missability. Lead: cleared-save travel and seeded NG+ documentary evidence, one asset/state type at a time. Manual app checks do not read game-save state.
 
-### KH02-011 — Counter retroactivity, encounter replay and exact combat predicates
+### Baseline KH02-011 — Counter retroactivity, encounter replay and exact combat predicates
 
 **Open, partly researched; old KH02-R11.** Do pre-unlock events count, what resets a streak/counter, and which story encounter or replay satisfies each objective? Prior research singles out objectives **18, 26, 31, 36, 41, 47, 50** and late unlocks; objective **46** rail revisiting is separately sourced. Keep the known distinctions: #18 six consecutive Excellent prompts spanning attacks with 28 locks; #36 Castle Town Spellweaver final blow; #41 third story Phantom, not Zodiac; #47 orb-supporting story Darkside; #50 Wayfinder active at victory, not an invented Finish requirement. The remaining question is independent exact-predicate/replay/retroactivity confirmation, particularly #26's three combat rooms and #31's “during Phantom Aqua” versus final-blow scope, not wholesale absence of guidance.
 
 Evidence: `ai_docs/games/kh02/sources-and-gaps.md:75`; `ai_docs/games/kh02/objectives-and-wardrobe.md:28`, `:36`, `:41`, `:46`, `:51`, `:56–60`, `:78–83`; `ai_docs/games/kh02/replay-challenges-achievements.md:12`, `:16`, `:19`; `src/games/kh02/generate.py:40`, `:48–54`, `:62`. Affected objective IDs and their wardrobe rewards are fully listed in Appendix A. Lead: C01/C05/C09/C10 and edition-specific encounter/replay evidence. Do not reclassify the researched #51 Critical requirement as uncertain.
 
-### KH02-012 — Treasure Hunter exact chest trigger
+### Baseline KH02-012 — Treasure Hunter exact chest trigger
 
 **Open.** Does Steam Treasure Hunter require exactly the 41 researched chests, including Zodiac and Main Road, and how is completion evaluated across continued/NG+ saves? Affects `kh02:achievement:treasure-hunter.instructions` and shared chest predicates. “verify its exact runtime trigger” (`ai_docs/games/kh02/replay-challenges-achievements.md:69`; `src/games/kh02/generate.py:73`). The 41-record app census is established independently from that trigger. The four chest objective counts 9/13/12/6 exclude Main Road from Castle Town's nine; those already reconcile to 41 including Main Road (`ai_docs/games/kh02/collectibles.md:17`). Lead: official requirement plus explicit trigger/carry evidence.
 
-### KH02-013 — A Magical Finale exact command set and accumulation
+### Baseline KH02-013 — A Magical Finale exact command set and accumulation
 
 **Open.** Which magic Situation Commands are required, what unlocks each, and do executions accumulate across reloads/runs? Affects `kh02:achievement:a-magical-finale.instructions` and combat reference. “Research the exact magic Situation Command set and acquisition triggers” (`ai_docs/games/kh02/replay-challenges-achievements.md:71`; `src/games/kh02/generate.py:73`). The runtime repeats that the set/cross-run rules are not normalized; no complete member list exists in checked-in research. Lead: Situation Command/magic mechanics and achievement-specific evidence. This is distinct from Dark Explorer's unknown distance and Undefeated's run condition.
 
-### KH02-014 — Combat-tool acquisition timing and difficulty reference
+### Baseline KH02-014 — Combat-tool acquisition timing and difficulty reference
 
 **Open; old KH02-R13.** What exact 0.2-specific restoration/acquisition timing, command/movement controls and version-aware mechanics are needed for magic, Doubleflight/Air Slide, Prism Rain, Spellweaver and Wayfinder? A single `kh02:reference:combat` paragraph plus objective availability phrases is not a complete searchable mechanics pack. `ai_docs/games/kh02/sources-and-gaps.md:77`; `ai_docs/readiness/kingdom-hearts-02.md:33`; `ai_docs/games/kingdom-hearts-02.md:20`; `src/games/kh02/generate.py:77`. Difficulty multipliers/survival exceptions are already documented (`ai_docs/games/kh02/replay-challenges-achievements.md:41`), so do not say they are unresearched; current-version applicability and complete mechanics/strategy fixtures remain to be reconciled. Lead: C06/C08/C09/C10 and exact acquisition/controls sources. No BBS melding or KH3 Critical mechanics should be imported.
 
-### KH02-015 — Enhanced Phantom strategy and numeric stats
+### Baseline KH02-015 — Enhanced Phantom strategy and numeric stats
 
 **Open, source limitation.** Which numeric stats and difficulty-specific strategy facts can be supported beyond the incomplete gameplay page? Affects `kh02:objective:42` / challenge view and `kh02:wardrobe:tiara`, prospective boss-reference fields. “stats/strategy sections … needing improvement” (`ai_docs/games/kh02/replay-challenges-achievements.md:37`; `ai_docs/games/kh02/sources-and-gaps.md:39`). Five-round roster, Zodiac unlock, reset-on-exit and red-aura evasion are already documented/integrated (`src/games/kh02/generate.py:50`). There is no justified new no-damage requirement for the challenge. Lead: independent reliable boss/difficulty reference; certify only fields supported by evidence, not the page wholesale.
 
-### KH02-016 — Platform mappings, identifiers and edition-specific behavior
+### Baseline KH02-016 — Platform mappings, identifiers and edition-specific behavior
 
 **Open, scoped.** What are the native Steam/PSN/Xbox IDs and applicable tiers, Epic achievement availability, other-platform equivalents, and version-specific save/content differences? All 15 Steam names/visible conditions have primary support; five hidden story descriptions have secondary corroboration and are not wholly absent. Xbox scores are leads summing to 1,000, not API verification. `ai_docs/games/kh02/replay-challenges-achievements.md:47`, `:67`; `ai_docs/games/kh02/sources-and-gaps.md:25`, `:41`, `:76`; `ai_docs/games/kingdom-hearts-02.md:53–59`. All 15 `achievements` records lack native IDs because no IDs are invented (`src/games/kh02/generate.py:72`). Future 2026-10-08 versions are follow-up only. Official Japanese/international save incompatibility and collection composition are already sourced; do not confuse unknown parity with an assertion that current Steam facts are wrong.
 
-### KH02-017 — Per-record source/caveat propagation omissions
+### Baseline KH02-017 — Per-record source/caveat propagation omissions
 
 **Provenance and integration.** Which runtime facts lost the citations or qualifications that support them? Ordinary chest generation ignores the table's Evidence column and assigns KHWiki alone (`src/games/kh02/generate.py:18`), dropping Guiding Key/PSU route citations from 19 multi-source rows. All 12 Zodiac rows omit the PSU supplement (`:22`). Objectives use only Wardrobe + general PSU (`:58`), omitting targeted Shotlock/summit/mirror/boss sources and the conflicting GameSkinny/Guiding Key sides; wardrobe generation carries only Wardrobe (`:67`). `kh02:objective:42` thus contains five-round strategy without its specific five-round source URL. The general Forest crosswalk warning is omitted except where the literal row text contains “pending” or “validation” (`:20`). Four memories lack explicit `area` even where subarea is known (`:29`).
 
 Canonical provenance is in `ai_docs/games/kh02/collectibles.md:25`, `:63`, `:84`, `:100`, `:112`; `ai_docs/games/kh02/objectives-and-wardrobe.md:7`, `:78–83`, `:89–93`; `ai_docs/games/kh02/sources-and-gaps.md:35–57`. `src/games/types.ts:1–20` has no per-fact edition/confidence field. This is not a request to rediscover already researched routes, nor evidence that every field is false. Appendix A lists every runtime record; Appendix B identifies exact multi-source input rows and caveat occurrences.
 
-### KH02-018 — Researched context and aliases not fully represented
+### Baseline KH02-018 — Researched context and aliases not fully represented
 
 **Researched but unintegrated.** The complete difficulty comparison (`ai_docs/games/kh02/replay-challenges-achievements.md:41`) is absent from the three reference records. Canonical “Defeat the Darksides” is present for objective 32 but the known “Defeat the Darkness” search alias is not stored; the schema has no aliases. Objective 08 contains Divine Back as an alias in prose, but the Astral Ornament wardrobe record itself omits it (`src/games/kh02/generate.py:64`, `:67`). Detailed encounter restrictions are attached to objective entries, while corresponding wardrobe entries repeat only short conditions and lack those replay qualifications (`:62`, `:67–69`). Evidence already exists; integrate context/linkage rather than promoting these as wholly unresearched game facts. Exact alias resolution history follows below.
 
@@ -113,7 +115,7 @@ Canonical provenance is in `ai_docs/games/kh02/collectibles.md:25`, `:63`, `:84`
 - **N03 — Only production screenshots/maps are deferred:** image absence is not a location fact and does not defer text guidance (`ai_docs/games/kh02/collectibles.md:123`). Earlier Apple/iPad wording is superseded by desktop Chrome/iPhone 17 in `ai_docs/testing-and-content-validation.md:13`; existing phone emulation is not real-hardware evidence (`ai_docs/implementation/multi-game-rollout.md:39`).
 - **N04 — Exclusions:** no invented synthesis/BBS Command Deck, no BBS Secret Episode record reuse, no ordinary story/biography completion gate, no invented all-objectives secret-ending reward (`ai_docs/games/kh02/replay-challenges-achievements.md:71`; standalone spec `:65`). Lack of evidence for such a reward is a scope boundary, not an open promise to add one. Future-version parity and IDs are follow-up, not baseline Steam gates.
 
-## Appendix A — Complete runtime identity and field ledger
+## Historical baseline appendix A — Complete runtime identity and field ledger
 
 `src/games/kh02/catalog.ts` is generated from `collectibles.md`, `objectives-and-wardrobe.md`, `replay-challenges-achievements.md` by `generate.py`. Generated copies are not independent sources. Every record is enumerated here, including those without explicit uncertainty, so a category-wide replay/provenance gap cannot hide behind sparse `uncertainty` fields. The ID line anchors the object; listed field lines locate caveat-bearing text. Compiled bundles and assets are excluded because they add no independent facts. No relevant game CSV/independent JSON was found.
 
@@ -293,7 +295,7 @@ Canonical provenance is in `ai_docs/games/kh02/collectibles.md:25`, `:63`, `:84`
 - `kh02:reference:wardrobe` — `src/games/kh02/catalog.ts:2666`; reference; no explicit caveat field.
 - `kh02:reference:combat` — `src/games/kh02/catalog.ts:2679`; reference; no explicit caveat field.
 
-## Appendix B — Canonical multi-source chest rows
+## Historical baseline appendix B — Canonical multi-source chest rows
 
 These rows have multiple evidence codes, but generation retains only the KHWiki URL. Codes and their source URLs are defined at `ai_docs/games/kh02/collectibles.md:25`. This is a citation propagation issue, not proof the route is wrong.
 
@@ -317,7 +319,7 @@ These rows have multiple evidence codes, but generation retains only the KHWiki 
 - `kh02:dd-low-mega-ether` — `ai_docs/games/kh02/collectibles.md:55`; evidence `C, D`.
 - `kh02:dd-end-elixir` — `ai_docs/games/kh02/collectibles.md:57`; evidence `C, D`.
 
-## Appendix C — All canonical prose caveat occurrences
+## Historical baseline appendix C — All canonical prose caveat occurrences
 
 This location ledger preserves repeated historical, resolved, provenance and nonfactual wording as well as open questions. It is an occurrence index, not a claim that every matching sentence is still an unresolved game fact. Interpret each using the findings and ledgers above. Exact paths/line numbers refer to the audited baseline content.
 

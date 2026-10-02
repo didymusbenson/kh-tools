@@ -3821,6 +3821,11 @@
         "label": "Final Mix optional-boss availability",
         "url": "https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — first End of the World cutscene trigger",
+        "url": "https://www.khguides.com/kh/combat/bosses/unknown/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -3831,13 +3836,14 @@
     "prerequisites": "Reach Final Rest in End of the World, then return to Hollow Bastion Castle Chapel and inspect the portal to the former Dragon Maleficent arena.",
     "reward": "EXP Necklace; Ansem’s Report 13",
     "facts": {
-      "optional": "yes"
+      "optional": "yes",
+      "Earlier access lead": "KHGuides: enter End of the World and watch its first cutscene, then return to Castle Chapel; not reconciled with competing earliest-trigger sources."
     },
     "aliases": [
       "Mysterious Man",
       "Xemnas"
     ],
-    "uncertainty": "The listed route guarantees access. Sources disagree on the earliest portal-spawn flag: a Steam-era checklist places it after sealing Hollow Bastion, while KHWiki Final Mix changes specifies reaching Final Rest. Earlier availability has not been confirmed."
+    "uncertainty": "Earliest trigger remains disputed: KHGuides specifies the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki FM changes says Final Rest. The Final Rest route is sufficient; it does not prove that an earlier visit is impossible."
   },
   {
     "id": "kh1fm-gummi-traverse-town-gummi-mission-1",
@@ -5179,7 +5185,7 @@
     "category": "gummi",
     "name": "Cindy Blueprint",
     "summary": "Blueprint dropped by Cindy enemy ships.",
-    "instructions": "Look for Cindy ships on these sourced routes: Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle; Neverland - Hollow Bastion; Hollow Bastion - End of the World. Destroy Cindy ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Cindy enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Olympus Coliseum ↔ Deep Jungle (x41); Wonderland ↔ Deep Jungle (x32); Hollow Bastion ↔ End of the World (x28); 🟣 Purple Warp Path (x30). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5197,6 +5203,11 @@
         "label": "KHWiki — Cindy",
         "url": "https://www.khwiki.com/Cindy",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5208,7 +5219,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Cindy",
-      "routes": "Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle; Neverland - Hollow Bastion; Hollow Bastion - End of the World"
+      "routes": "Olympus Coliseum ↔ Deep Jungle (x41); Wonderland ↔ Deep Jungle (x32); Hollow Bastion ↔ End of the World (x28); 🟣 Purple Warp Path (x30)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Olympus Coliseum ↔ Deep Jungle (x41); Wonderland ↔ Deep Jungle (x32); Hollow Bastion ↔ End of the World (x28); 🟣 Purple Warp Path (x30)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5217,7 +5231,7 @@
     "category": "gummi",
     "name": "Shiva Blueprint",
     "summary": "Blueprint dropped by Shiva enemy ships.",
-    "instructions": "Look for Shiva ships on these sourced routes: Neverland - Hollow Bastion. Destroy Shiva ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Shiva enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Olympus Coliseum (x22); Olympus Coliseum ↔ Deep Jungle (x46); Neverland ↔ Hollow Bastion (x40); Hollow Bastion ↔ End of the World (x9). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5235,6 +5249,11 @@
         "label": "KHWiki — Shiva (Gummi Ship)",
         "url": "https://www.khwiki.com/Shiva_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5246,7 +5265,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Shiva",
-      "routes": "Neverland - Hollow Bastion"
+      "routes": "Traverse Town ↔ Olympus Coliseum (x22); Olympus Coliseum ↔ Deep Jungle (x46); Neverland ↔ Hollow Bastion (x40); Hollow Bastion ↔ End of the World (x9)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Olympus Coliseum (x22); Olympus Coliseum ↔ Deep Jungle (x46); Neverland ↔ Hollow Bastion (x40); Hollow Bastion ↔ End of the World (x9)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5255,7 +5277,7 @@
     "category": "gummi",
     "name": "Lamia Blueprint",
     "summary": "Blueprint dropped by Lamia enemy ships.",
-    "instructions": "Look for Lamia ships on these sourced routes: Agrabah - Atlantica; Neverland - Hollow Bastion. Destroy Lamia ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Lamia enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Atlantica (x10); Atlantica ↔ Neverland (x38); Neverland ↔ Hollow Bastion (x16); Hollow Bastion ↔ End of the World (x8). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5273,6 +5295,11 @@
         "label": "KHWiki — Lamia",
         "url": "https://www.khwiki.com/Lamia",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5284,7 +5311,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Lamia",
-      "routes": "Agrabah - Atlantica; Neverland - Hollow Bastion"
+      "routes": "Agrabah ↔ Atlantica (x10); Atlantica ↔ Neverland (x38); Neverland ↔ Hollow Bastion (x16); Hollow Bastion ↔ End of the World (x8)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Atlantica (x10); Atlantica ↔ Neverland (x38); Neverland ↔ Hollow Bastion (x16); Hollow Bastion ↔ End of the World (x8)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5293,7 +5323,7 @@
     "category": "gummi",
     "name": "Sandy Blueprint",
     "summary": "Blueprint dropped by Sandy enemy ships.",
-    "instructions": "Look for Sandy ships on these sourced routes: Agrabah - Halloween Town; Halloween Town - Atlantica; Halloween Town - Neverland. Destroy Sandy ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Sandy enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Halloween Town (x28); Halloween Town ↔ Neverland (x13). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5311,6 +5341,11 @@
         "label": "KHWiki — Sandy",
         "url": "https://www.khwiki.com/Sandy",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5322,7 +5357,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Sandy",
-      "routes": "Agrabah - Halloween Town; Halloween Town - Atlantica; Halloween Town - Neverland"
+      "routes": "Agrabah ↔ Halloween Town (x28); Halloween Town ↔ Neverland (x13)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Halloween Town (x28); Halloween Town ↔ Neverland (x13)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5331,7 +5369,7 @@
     "category": "gummi",
     "name": "Sylph Blueprint",
     "summary": "Blueprint dropped by Sylph enemy ships.",
-    "instructions": "Look for Sylph ships on these sourced routes: Traverse Town - Wonderland; Hollow Bastion - End of the World. Destroy Sylph ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Sylph enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Wonderland (x45); Wonderland ↔ Deep Jungle (x25); Agrabah ↔ Atlantica (x3); Agrabah ↔ Halloween Town (x10). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5349,6 +5387,11 @@
         "label": "KHWiki — Sylph",
         "url": "https://www.khwiki.com/Sylph",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5360,7 +5403,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Sylph",
-      "routes": "Traverse Town - Wonderland; Hollow Bastion - End of the World"
+      "routes": "Traverse Town ↔ Wonderland (x45); Wonderland ↔ Deep Jungle (x25); Agrabah ↔ Atlantica (x3); Agrabah ↔ Halloween Town (x10)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Wonderland (x45); Wonderland ↔ Deep Jungle (x25); Agrabah ↔ Atlantica (x3); Agrabah ↔ Halloween Town (x10)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5369,7 +5415,7 @@
     "category": "gummi",
     "name": "Carbuncle Blueprint",
     "summary": "Blueprint dropped by Carbuncle enemy ships.",
-    "instructions": "Look for Carbuncle ships on these sourced routes: Agrabah - Atlantica. Destroy Carbuncle ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Carbuncle enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Halloween Town (x40); Agrabah ↔ Atlantica (x54). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5387,6 +5433,11 @@
         "label": "KHWiki — Carbuncle",
         "url": "https://www.khwiki.com/Carbuncle",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5398,7 +5449,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Carbuncle",
-      "routes": "Agrabah - Atlantica"
+      "routes": "Agrabah ↔ Halloween Town (x40); Agrabah ↔ Atlantica (x54)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Halloween Town (x40); Agrabah ↔ Atlantica (x54)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5407,7 +5461,7 @@
     "category": "gummi",
     "name": "Mindy Blueprint",
     "summary": "Blueprint dropped by Mindy enemy ships.",
-    "instructions": "Look for Mindy ships on these sourced routes: Atlantica - Neverland. Destroy Mindy ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Mindy enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Atlantica (x26) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x24) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x33) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x35) [after first Hollow Bastion story episode]. Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5425,6 +5479,11 @@
         "label": "KHWiki — Mindy",
         "url": "https://www.khwiki.com/Mindy",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5436,7 +5495,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Mindy",
-      "routes": "Atlantica - Neverland"
+      "routes": "Agrabah ↔ Atlantica (x26) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x24) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x33) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x35) [after first Hollow Bastion story episode]",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Atlantica (x26) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x24) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x33) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x35) [after first Hollow Bastion story episode]",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5445,7 +5507,7 @@
     "category": "gummi",
     "name": "Goblin Blueprint",
     "summary": "Blueprint dropped by Goblin enemy ships.",
-    "instructions": "Look for Goblin ships on these sourced routes: Traverse Town - Wonderland; Traverse Town - Olympus Coliseum; Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle. Destroy Goblin ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Goblin enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Wonderland (x34) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x24) [after first Hollow Bastion story episode]; Wonderland ↔ Deep Jungle (x24) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x58) [after first Hollow Bastion story episode]. Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5463,6 +5525,11 @@
         "label": "KHWiki — Goblin",
         "url": "https://www.khwiki.com/Goblin",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5474,7 +5541,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Goblin",
-      "routes": "Traverse Town - Wonderland; Traverse Town - Olympus Coliseum; Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle"
+      "routes": "Traverse Town ↔ Wonderland (x34) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x24) [after first Hollow Bastion story episode]; Wonderland ↔ Deep Jungle (x24) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x58) [after first Hollow Bastion story episode]",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Wonderland (x34) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x24) [after first Hollow Bastion story episode]; Wonderland ↔ Deep Jungle (x24) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x58) [after first Hollow Bastion story episode]",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5483,7 +5553,7 @@
     "category": "gummi",
     "name": "Bomb Blueprint",
     "summary": "Blueprint dropped by Bomb enemy ships.",
-    "instructions": "Look for Bomb ships on these sourced routes: Halloween Town - Neverland; Atlantica - Neverland; Warp (Traverse Town - Agrabah). Destroy Bomb ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Bomb enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Halloween Town (x114); Halloween Town ↔ Neverland (x171). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5501,6 +5571,11 @@
         "label": "KHWiki — Bomb",
         "url": "https://www.khwiki.com/Bomb",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5512,7 +5587,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Bomb",
-      "routes": "Halloween Town - Neverland; Atlantica - Neverland; Warp (Traverse Town - Agrabah)"
+      "routes": "Agrabah ↔ Halloween Town (x114); Halloween Town ↔ Neverland (x171)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Halloween Town (x114); Halloween Town ↔ Neverland (x171)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5521,7 +5599,7 @@
     "category": "gummi",
     "name": "Remora Blueprint",
     "summary": "Blueprint dropped by Remora enemy ships.",
-    "instructions": "Look for Remora ships on these sourced routes: Warp (Olympus Coliseum - Agrabah). Destroy Remora ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Remora enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; 🟠 Orange Warp Path (x67). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5539,6 +5617,11 @@
         "label": "KHWiki — Remora",
         "url": "https://www.khwiki.com/Remora",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5550,7 +5633,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Remora",
-      "routes": "Warp (Olympus Coliseum - Agrabah)"
+      "routes": "🟠 Orange Warp Path (x67)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "🟠 Orange Warp Path (x67)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5559,7 +5645,7 @@
     "category": "gummi",
     "name": "Ahriman Blueprint",
     "summary": "Blueprint dropped by Ahriman enemy ships.",
-    "instructions": "Look for Ahriman ships on these sourced routes: Traverse Town - Wonderland; Traverse Town - Olympus Coliseum. Destroy Ahriman ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Ahriman enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Wonderland (x38); Traverse Town ↔ Olympus Coliseum (x76); 🟣 Purple Warp Path (x12). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5577,6 +5663,11 @@
         "label": "KHWiki — Ahriman",
         "url": "https://www.khwiki.com/Ahriman",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5588,7 +5679,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Ahriman",
-      "routes": "Traverse Town - Wonderland; Traverse Town - Olympus Coliseum"
+      "routes": "Traverse Town ↔ Wonderland (x38); Traverse Town ↔ Olympus Coliseum (x76); 🟣 Purple Warp Path (x12)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Wonderland (x38); Traverse Town ↔ Olympus Coliseum (x76); 🟣 Purple Warp Path (x12)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5597,7 +5691,7 @@
     "category": "gummi",
     "name": "Imp Blueprint",
     "summary": "Blueprint dropped by Imp enemy ships.",
-    "instructions": "Look for Imp ships on these sourced routes: Warp (Olympus Coliseum - Agrabah). Destroy Imp ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Imp enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; 🟠 Orange Warp Path (x38). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5615,6 +5709,11 @@
         "label": "KHWiki — Imp",
         "url": "https://www.khwiki.com/Imp",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5626,7 +5725,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Imp",
-      "routes": "Warp (Olympus Coliseum - Agrabah)"
+      "routes": "🟠 Orange Warp Path (x38)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "🟠 Orange Warp Path (x38)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5635,7 +5737,7 @@
     "category": "gummi",
     "name": "Siren Blueprint",
     "summary": "Blueprint dropped by Siren enemy ships.",
-    "instructions": "Look for Siren ships on these sourced routes: Warp (Traverse Town - Hollow Bastion). Destroy Siren ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Siren enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; 🟠 Orange Warp Path (x76). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5653,6 +5755,11 @@
         "label": "KHWiki — Siren",
         "url": "https://www.khwiki.com/Siren",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5664,7 +5771,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Siren",
-      "routes": "Warp (Traverse Town - Hollow Bastion)"
+      "routes": "🟠 Orange Warp Path (x76)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "🟠 Orange Warp Path (x76)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5673,7 +5783,7 @@
     "category": "gummi",
     "name": "Stingray Blueprint",
     "summary": "Blueprint dropped by Stingray enemy ships.",
-    "instructions": "Look for Stingray ships on these sourced routes: Halloween Town - Neverland; Atlantica - Neverland; Neverland - Hollow Bastion; Hollow Bastion - End of the World; Warp (Traverse Town - Agrabah). Destroy Stingray ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Stingray enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Atlantica ↔ Neverland (x88); Neverland ↔ Hollow Bastion (x72); Hollow Bastion ↔ End of the World (x84); 🔵 Blue Warp Path (x18). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5691,6 +5801,11 @@
         "label": "KHWiki — Stingray (Gummi Ship)",
         "url": "https://www.khwiki.com/Stingray_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5702,7 +5817,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Stingray",
-      "routes": "Halloween Town - Neverland; Atlantica - Neverland; Neverland - Hollow Bastion; Hollow Bastion - End of the World; Warp (Traverse Town - Agrabah)"
+      "routes": "Atlantica ↔ Neverland (x88); Neverland ↔ Hollow Bastion (x72); Hollow Bastion ↔ End of the World (x84); 🔵 Blue Warp Path (x18)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Atlantica ↔ Neverland (x88); Neverland ↔ Hollow Bastion (x72); Hollow Bastion ↔ End of the World (x84); 🔵 Blue Warp Path (x18)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5711,7 +5829,7 @@
     "category": "gummi",
     "name": "Catoblepas Blueprint",
     "summary": "Blueprint dropped by Catoblepas enemy ships.",
-    "instructions": "Look for Catoblepas ships on these sourced routes: Halloween Town - Neverland; Atlantica - Neverland. Destroy Catoblepas ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Catoblepas enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Halloween Town ↔ Neverland (x15); Atlantica ↔ Neverland (x15). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5729,6 +5847,11 @@
         "label": "KHWiki — Catoblepas",
         "url": "https://www.khwiki.com/Catoblepas",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5740,7 +5863,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Catoblepas",
-      "routes": "Halloween Town - Neverland; Atlantica - Neverland"
+      "routes": "Halloween Town ↔ Neverland (x15); Atlantica ↔ Neverland (x15)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Halloween Town ↔ Neverland (x15); Atlantica ↔ Neverland (x15)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5749,7 +5875,7 @@
     "category": "gummi",
     "name": "Adamant Blueprint",
     "summary": "Blueprint dropped by Adamant enemy ships.",
-    "instructions": "Look for Adamant ships on these sourced routes: Neverland - Hollow Bastion. Destroy Adamant ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Adamant enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Halloween Town (x24); Agrabah ↔ Atlantica (x1); Neverland ↔ Hollow Bastion (x10). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5767,6 +5893,11 @@
         "label": "KHWiki — Adamant (Gummi Ship)",
         "url": "https://www.khwiki.com/Adamant_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5778,7 +5909,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Adamant",
-      "routes": "Neverland - Hollow Bastion"
+      "routes": "Agrabah ↔ Halloween Town (x24); Agrabah ↔ Atlantica (x1); Neverland ↔ Hollow Bastion (x10)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Halloween Town (x24); Agrabah ↔ Atlantica (x1); Neverland ↔ Hollow Bastion (x10)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5787,7 +5921,7 @@
     "category": "gummi",
     "name": "Serpent Blueprint",
     "summary": "Blueprint dropped by Serpent enemy ships.",
-    "instructions": "Look for Serpent ships on these sourced routes: Neverland - Hollow Bastion. Destroy Serpent ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Serpent enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Neverland ↔ Hollow Bastion (x6). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5805,6 +5939,11 @@
         "label": "KHWiki — Serpent",
         "url": "https://www.khwiki.com/Serpent",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5816,7 +5955,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Serpent",
-      "routes": "Neverland - Hollow Bastion"
+      "routes": "Neverland ↔ Hollow Bastion (x6)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Neverland ↔ Hollow Bastion (x6)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5825,7 +5967,7 @@
     "category": "gummi",
     "name": "Ifrit Blueprint",
     "summary": "Blueprint dropped by Ifrit enemy ships.",
-    "instructions": "Look for Ifrit ships on these sourced routes: Warp (Traverse Town - Hollow Bastion). Destroy Ifrit ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Ifrit enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; 🟣 Purple Warp Path (x47). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5843,6 +5985,11 @@
         "label": "KHWiki — Ifrit (Gummi Ship)",
         "url": "https://www.khwiki.com/Ifrit_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5854,7 +6001,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Ifrit",
-      "routes": "Warp (Traverse Town - Hollow Bastion)"
+      "routes": "🟣 Purple Warp Path (x47)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "🟣 Purple Warp Path (x47)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5863,7 +6013,7 @@
     "category": "gummi",
     "name": "Odin Blueprint",
     "summary": "Blueprint dropped by Odin enemy ships.",
-    "instructions": "Look for Odin ships on these sourced routes: Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle. Destroy Odin ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Odin enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Wonderland ↔ Deep Jungle (x3) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x2) [after first Hollow Bastion story episode]; 🟣 Purple Warp Path (x3). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5881,6 +6031,11 @@
         "label": "KHWiki — Odin (Gummi Ship)",
         "url": "https://www.khwiki.com/Odin_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5892,7 +6047,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Odin",
-      "routes": "Wonderland - Deep Jungle; Olympus Coliseum - Deep Jungle"
+      "routes": "Wonderland ↔ Deep Jungle (x3) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x2) [after first Hollow Bastion story episode]; 🟣 Purple Warp Path (x3)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Wonderland ↔ Deep Jungle (x3) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x2) [after first Hollow Bastion story episode]; 🟣 Purple Warp Path (x3)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5901,7 +6059,7 @@
     "category": "gummi",
     "name": "Atomos Blueprint",
     "summary": "Blueprint dropped by Atomos enemy ships.",
-    "instructions": "Look for Atomos ships on these sourced routes: Traverse Town - Wonderland. Destroy Atomos ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Atomos enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Wonderland (x12) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x1); Halloween Town ↔ Neverland (x2). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5919,6 +6077,11 @@
         "label": "KHWiki — Atomos",
         "url": "https://www.khwiki.com/Atomos",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5930,7 +6093,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Atomos",
-      "routes": "Traverse Town - Wonderland"
+      "routes": "Traverse Town ↔ Wonderland (x12) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x1); Halloween Town ↔ Neverland (x2)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Wonderland (x12) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x1); Halloween Town ↔ Neverland (x2)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5939,7 +6105,7 @@
     "category": "gummi",
     "name": "Golem Blueprint",
     "summary": "Blueprint dropped by Golem enemy ships.",
-    "instructions": "Look for Golem ships on these sourced routes: Wonderland - Deep Jungle. Destroy Golem ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Golem enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Wonderland ↔ Deep Jungle (x8) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x3); Halloween Town ↔ Neverland (x1). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5957,6 +6123,11 @@
         "label": "KHWiki — Golem",
         "url": "https://www.khwiki.com/Golem",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -5968,7 +6139,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Golem",
-      "routes": "Wonderland - Deep Jungle"
+      "routes": "Wonderland ↔ Deep Jungle (x8) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x3); Halloween Town ↔ Neverland (x1)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Wonderland ↔ Deep Jungle (x8) [after first Hollow Bastion story episode]; Agrabah ↔ Halloween Town (x3); Halloween Town ↔ Neverland (x1)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -5977,7 +6151,7 @@
     "category": "gummi",
     "name": "Diablos Blueprint",
     "summary": "Blueprint dropped by Diablos enemy ships.",
-    "instructions": "Look for Diablos ships on these sourced routes: Agrabah - Atlantica. Destroy Diablos ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Diablos enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Atlantica (x5) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x14) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x8) [after first Hollow Bastion story episode]. Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -5995,6 +6169,11 @@
         "label": "KHWiki — Diablos",
         "url": "https://www.khwiki.com/Diablos",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6006,7 +6185,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Diablos",
-      "routes": "Agrabah - Atlantica"
+      "routes": "Agrabah ↔ Atlantica (x5) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x14) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x8) [after first Hollow Bastion story episode]",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Atlantica (x5) [after first Hollow Bastion story episode]; Atlantica ↔ Neverland (x14) [after first Hollow Bastion story episode]; Halloween Town ↔ Neverland (x8) [after first Hollow Bastion story episode]",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6015,7 +6197,7 @@
     "category": "gummi",
     "name": "Deathguise Blueprint",
     "summary": "Blueprint dropped by Deathguise enemy ships.",
-    "instructions": "Look for Deathguise ships on these sourced routes: Neverland - Hollow Bastion; Hollow Bastion - End of the World; Warp (Traverse Town - Agrabah). Destroy Deathguise ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Deathguise enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Atlantica (x52); Atlantica ↔ Neverland (x14); Neverland ↔ Hollow Bastion (x25); Hollow Bastion ↔ End of the World (x6); 🔵 Blue Warp Path (x4). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6033,6 +6215,11 @@
         "label": "KHWiki — Deathguise",
         "url": "https://www.khwiki.com/Deathguise",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6044,7 +6231,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Deathguise",
-      "routes": "Neverland - Hollow Bastion; Hollow Bastion - End of the World; Warp (Traverse Town - Agrabah)"
+      "routes": "Agrabah ↔ Atlantica (x52); Atlantica ↔ Neverland (x14); Neverland ↔ Hollow Bastion (x25); Hollow Bastion ↔ End of the World (x6); 🔵 Blue Warp Path (x4)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Atlantica (x52); Atlantica ↔ Neverland (x14); Neverland ↔ Hollow Bastion (x25); Hollow Bastion ↔ End of the World (x6); 🔵 Blue Warp Path (x4)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6053,7 +6243,7 @@
     "category": "gummi",
     "name": "Typhoon Blueprint",
     "summary": "Blueprint dropped by Typhoon enemy ships.",
-    "instructions": "Look for Typhoon ships on these sourced routes: Agrabah - Halloween Town. Destroy Typhoon ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Typhoon enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Agrabah ↔ Halloween Town (x4). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6071,6 +6261,11 @@
         "label": "KHWiki — Typhoon",
         "url": "https://www.khwiki.com/Typhoon",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6082,7 +6277,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Typhoon",
-      "routes": "Agrabah - Halloween Town"
+      "routes": "Agrabah ↔ Halloween Town (x4)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Agrabah ↔ Halloween Town (x4)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6091,7 +6289,7 @@
     "category": "gummi",
     "name": "Alexander Blueprint",
     "summary": "Blueprint dropped by Alexander enemy ships.",
-    "instructions": "Look for Alexander ships on these sourced routes: Traverse Town - Wonderland; Traverse Town - Olympus Coliseum. Destroy Alexander ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Alexander enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Wonderland (x5) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x4) [after first Hollow Bastion story episode]; Hollow Bastion ↔ End of the World (x3). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6109,6 +6307,11 @@
         "label": "KHWiki — Alexander",
         "url": "https://www.khwiki.com/Alexander",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6120,7 +6323,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Alexander",
-      "routes": "Traverse Town - Wonderland; Traverse Town - Olympus Coliseum"
+      "routes": "Traverse Town ↔ Wonderland (x5) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x4) [after first Hollow Bastion story episode]; Hollow Bastion ↔ End of the World (x3)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Wonderland (x5) [after first Hollow Bastion story episode]; Traverse Town ↔ Olympus Coliseum (x4) [after first Hollow Bastion story episode]; Hollow Bastion ↔ End of the World (x3)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6129,7 +6335,7 @@
     "category": "gummi",
     "name": "Leviathan Blueprint",
     "summary": "Blueprint dropped by Leviathan enemy ships.",
-    "instructions": "Look for Leviathan ships on these sourced routes: Warp (Traverse Town - Agrabah). Destroy Leviathan ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Leviathan enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Neverland ↔ Hollow Bastion (x3); 🔵 Blue Warp Path (x3). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6147,6 +6353,11 @@
         "label": "KHWiki — Leviathan (Gummi Ship)",
         "url": "https://www.khwiki.com/Leviathan_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6158,7 +6369,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Leviathan",
-      "routes": "Warp (Traverse Town - Agrabah)"
+      "routes": "Neverland ↔ Hollow Bastion (x3); 🔵 Blue Warp Path (x3)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Neverland ↔ Hollow Bastion (x3); 🔵 Blue Warp Path (x3)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6167,7 +6381,7 @@
     "category": "gummi",
     "name": "Ramuh Blueprint",
     "summary": "Blueprint dropped by Ramuh enemy ships.",
-    "instructions": "Look for Ramuh ships on these sourced routes: Traverse Town - Olympus Coliseum; Olympus Coliseum - Deep Jungle. Destroy Ramuh ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Ramuh enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Traverse Town ↔ Olympus Coliseum (x8) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x6) [after first Hollow Bastion story episode]. Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6185,6 +6399,11 @@
         "label": "KHWiki — Ramuh (Gummi Ship)",
         "url": "https://www.khwiki.com/Ramuh_(Gummi_Ship)",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6196,7 +6415,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Ramuh",
-      "routes": "Traverse Town - Olympus Coliseum; Olympus Coliseum - Deep Jungle"
+      "routes": "Traverse Town ↔ Olympus Coliseum (x8) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x6) [after first Hollow Bastion story episode]",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Traverse Town ↔ Olympus Coliseum (x8) [after first Hollow Bastion story episode]; Olympus Coliseum ↔ Deep Jungle (x6) [after first Hollow Bastion story episode]",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6205,7 +6427,7 @@
     "category": "gummi",
     "name": "Omega Blueprint",
     "summary": "Blueprint dropped by Omega enemy ships.",
-    "instructions": "Look for Omega ships on these sourced routes: Hollow Bastion - End of the World. Destroy Omega ships on normal Gummi flights and collect the blueprint drop. Repeat flights if it has not dropped, then confirm ownership in the blueprint list.",
+    "instructions": "Defeat Omega enemy ships and collect their blueprint spoils. Each ship has a 10% blueprint-drop chance. These routes work in either direction; Hollow Bastion ↔ End of the World (x50). Counts describe the source route inventory, not guaranteed drops. Use the marked story gate before attempting a restricted route.",
     "tags": [
       "gummi",
       "blueprint",
@@ -6223,6 +6445,11 @@
         "label": "KHWiki — Omega",
         "url": "https://www.khwiki.com/Omega",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — blueprint probability and route/phase table",
+        "url": "https://www.khguides.com/kh/collectibles/gummis/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6234,7 +6461,10 @@
       "subtype": "blueprint",
       "acquisitionType": "enemy drop",
       "enemyShip": "Omega",
-      "routes": "Hollow Bastion - End of the World"
+      "routes": "Hollow Bastion ↔ End of the World (x50)",
+      "blueprintDropProbability": 0.1,
+      "routesWithPhaseAndCounts": "Hollow Bastion ↔ End of the World (x50)",
+      "routeCountScope": "KHGuides table counts; route direction is bidirectional (↔). Bracketed routes require the first Hollow Bastion episode cleared."
     }
   },
   {
@@ -6626,7 +6856,7 @@
     "category": "guide",
     "name": "Gummi — no-damage builds",
     "summary": "Reduce the exposed silhouette and preserve maneuverability.",
-    "instructions": "Use the editor to keep blocks compact or away from the central firing lane, with a clear view of incoming shots. Add a shield only when the mission permits it. For Traverse Town 3 and Hollow Bastion 3, remove both Shield-G types. A build is not a substitute for steering; practice the route before combining its other restrictions.",
+    "instructions": "Traverse Town 3: equip Cure-G, Fire-G and Transform-G, optionally Aero-G (square) for steering. Save two compatible transform blueprints; omit weapons and both Shield-G types to preserve the zero-score condition. Brake and transform to pass obstacles, choose the upper Warp Hole and its left exit for Traverse Town, and avoid the late Goblins. Hollow Bastion 3: use a cockpit, Fire-G, Haste2-G, 6 Thunder-G, 2 Thundara-G and 2 Ultima-G with COM.LV3; do not equip Shield-G or Shield2-G. Spread guns across the forward face. Boost immediately, brake while charge refills, clear obstacles before boosting again, and favor the left half near the rear-attacking Deathguise. Esuna-G reveals hidden obstacles; add it when stock and other limits permit. The no-damage condition still requires avoiding every hit.",
     "tags": [
       "guide",
       "gummi",
@@ -6671,11 +6901,19 @@
         "label": "KHWiki — Gummi Missions",
         "url": "https://www.khwiki.com/Gummi_Missions",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — full mission strategies",
+        "url": "https://www.khguides.com/kh/side-quests/gummi-missions/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
-    "collectible": false
+    "collectible": false,
+    "facts": {
+      "Build provenance": "KHGuides mission strategies; inventories and practical placement directions, no tested voxel export."
+    }
   },
   {
     "id": "kh1fm-guide-gummi-small-build-missions",
@@ -6683,7 +6921,7 @@
     "category": "guide",
     "name": "Gummi — small-build missions",
     "summary": "Count every installed block before launch.",
-    "instructions": "For End of the World 1, use a cockpit and engine only, then steer through the route without braking or taking damage. For the five-block score mission, budget the remaining slots for weapons that you own. For Neverland 3, stay at ten blocks or fewer and prioritize obstacle coverage. These are starting layouts; adjust placement to your handling and stock.",
+    "instructions": "End of the World 1: Cure-G cockpit + Fire-G engine (2 installed blocks); no Brake use, dodge without damage. End of the World 2: Cure-G + Fire-G + 2 Ultima-G + Osmose-G (5 blocks); install COM.LV3 in the editor, brake for targets and collect power. Neverland 3: Life-G + Fire-G + 4 Thunder-G + 2 Thundara-G + 2 Ultima-G (10 blocks), COM.LV3; spread cannons across the front and mount lasers with a clear forward view. Depart Olympus Coliseum, take the purple Warp Hole and its right exit to Neverland. Brake to fire at orange hard obstacles and small asteroids; the large star-shaped blocks refill power. Editor tools do not count as installed blocks. These source-backed inventories and placement principles are not saved voxel blueprints.",
     "tags": [
       "guide",
       "gummi",
@@ -6728,11 +6966,19 @@
         "label": "KHWiki — Gummi Missions",
         "url": "https://www.khwiki.com/Gummi_Missions",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — full mission strategies",
+        "url": "https://www.khguides.com/kh/side-quests/gummi-missions/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
-    "collectible": false
+    "collectible": false,
+    "facts": {
+      "Build provenance": "KHGuides mission strategies; inventories and practical placement directions, no tested voxel export."
+    }
   },
   {
     "id": "kh1fm-guide-gummi-collection-missions",
@@ -6740,7 +6986,7 @@
     "category": "guide",
     "name": "Gummi — collection missions",
     "summary": "Collecting drops is a flight objective.",
-    "instructions": "Use a controllable ship and broad weapon coverage to create drops, then steer through them. Collection parts can help only when allowed: Agrabah 3 prohibits Drain-G and Osmose-G. Avoid a large silhouette for no-damage objectives; Neverland 2 separately requires at least 100 installed blocks.",
+    "instructions": "Agrabah 3 permits neither Drain-G nor Osmose-G. Use a cockpit and engine with 4 Thunder-G, 2 Ultima-G and 8 Dispel-G pyramids distributed at the corners of a broad frame; install COM.LV3 for the weapon count. Depart Traverse Town, take the blue Warp Hole and its right exit for Agrabah. Brake near clustered ships and steer through their drops. Neverland 2 has the opposite size rule: at least 100 installed blocks; start with a cockpit/engine and weapons and fill the remaining count with armor, checking the editor total before launch. Tool upgrades are not installed blocks. A broad collection ship is a mission-specific choice, not a no-damage guarantee.",
     "tags": [
       "guide",
       "gummi",
@@ -6785,11 +7031,19 @@
         "label": "KHWiki — Gummi Missions",
         "url": "https://www.khwiki.com/Gummi_Missions",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — full mission strategies",
+        "url": "https://www.khguides.com/kh/side-quests/gummi-missions/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
-    "collectible": false
+    "collectible": false,
+    "facts": {
+      "Build provenance": "KHGuides mission strategies; inventories and practical placement directions, no tested voxel export."
+    }
   },
   {
     "id": "kh1fm-guide-gummi-weapon-restricted-missions",
@@ -6797,7 +7051,7 @@
     "category": "guide",
     "name": "Gummi — weapon-restricted missions",
     "summary": "The named weapon type is the only permitted weapon.",
-    "instructions": "Inspect every weapon in the editor and remove other types. Multiple copies of the permitted type can improve coverage if your stock allows. Keep non-weapon blocks within the mission’s other constraints. Review the departure world as carefully as the weapon rule.",
+    "instructions": "Olympus Coliseum 2: two Thundara-G, with one rotated 90 degrees to cover four axes; depart Deep Jungle for Olympus. Deep Jungle 3: four Thundaga-G spread across the front; depart Wonderland for Deep Jungle. Agrabah 2: four Comet-G with Esuna-G and Osmose-G, plus cockpit/engine and COM.LV3; leave Wonderland through the blue Warp Hole and right exit. Halloween Town 3: three Meteor-G plus Esuna-G/Osmose-G and cockpit/engine; depart Neverland and line up laser shots. Neverland 1: four Thunder-G spread across the front; depart Atlantica. Hollow Bastion 1: two Ultima-G plus Esuna-G/Osmose-G and cockpit/engine; depart Neverland, conserve power early and refill from blue asteroids. In each case remove all other weapon types, use Brake to keep targets in range, and verify the exact mission objective before launching.",
     "tags": [
       "guide",
       "gummi",
@@ -6842,11 +7096,19 @@
         "label": "KHWiki — Gummi Missions",
         "url": "https://www.khwiki.com/Gummi_Missions",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — full mission strategies",
+        "url": "https://www.khguides.com/kh/side-quests/gummi-missions/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
-    "collectible": false
+    "collectible": false,
+    "facts": {
+      "Build provenance": "KHGuides mission strategies; inventories and practical placement directions, no tested voxel export."
+    }
   },
   {
     "id": "kh1fm-minigame-phil-s-training-first-test",
@@ -6922,7 +7184,7 @@
     "category": "minigame",
     "name": "Jungle Slider — Green Serpent",
     "summary": "Collect all 10 fruit on this course.",
-    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Green Serpent without missing any. On your next run, take the left exit to continue to the next course.",
+    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Green Serpent without missing any. On your next run, take the left exit to continue to the next course. Keep left for the first three fruit, move right after the bend for the next three, then center for the next three. The final fruit is near the center after the third branch. Hold the stick backward to slow down for corrections. If you miss fruit, pause and choose Restart before leaving the course.",
     "tags": [
       "minigame",
       "jungle-slider",
@@ -6936,6 +7198,11 @@
         "label": "KHWiki — Jungle Slider",
         "url": "https://www.khwiki.com/Jungle_Slider",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6949,7 +7216,8 @@
       "subtype": "minigame-clear",
       "course": 1,
       "fruit": 10,
-      "nextExit": "left"
+      "nextExit": "left",
+      "Fruit line": "Keep left for the first three fruit, move right after the bend for the next three, then center for the next three. The final fruit is near the center after the third branch."
     }
   },
   {
@@ -6958,7 +7226,7 @@
     "category": "minigame",
     "name": "Jungle Slider — Splash Tunnel",
     "summary": "Collect all 10 fruit on this course.",
-    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Splash Tunnel without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the left exit to continue to the next course.",
+    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Splash Tunnel without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the left exit to continue to the next course. Stay centered until the wide cave; take the fruit on the right, remain right for the next group, quickly move left, then quickly right for the final group. Hold the stick backward to slow down for corrections. If you miss fruit, pause and choose Restart before leaving the course.",
     "tags": [
       "minigame",
       "jungle-slider",
@@ -6972,6 +7240,11 @@
         "label": "KHWiki — Jungle Slider",
         "url": "https://www.khwiki.com/Jungle_Slider",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -6985,7 +7258,8 @@
       "subtype": "minigame-clear",
       "course": 2,
       "fruit": 10,
-      "nextExit": "left"
+      "nextExit": "left",
+      "Fruit line": "Stay centered until the wide cave; take the fruit on the right, remain right for the next group, quickly move left, then quickly right for the final group."
     }
   },
   {
@@ -6994,7 +7268,7 @@
     "category": "minigame",
     "name": "Jungle Slider — Jade Spiral",
     "summary": "Collect all 10 fruit on this course.",
-    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Jade Spiral without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the right exit to continue to the next course.",
+    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Jade Spiral without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the right exit to continue to the next course. Follow the fruit groups in this order: center, left, center, center. Hold the stick backward to slow down for corrections. If you miss fruit, pause and choose Restart before leaving the course.",
     "tags": [
       "minigame",
       "jungle-slider",
@@ -7008,6 +7282,11 @@
         "label": "KHWiki — Jungle Slider",
         "url": "https://www.khwiki.com/Jungle_Slider",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7021,7 +7300,8 @@
       "subtype": "minigame-clear",
       "course": 3,
       "fruit": 10,
-      "nextExit": "right"
+      "nextExit": "right",
+      "Fruit line": "Follow the fruit groups in this order: center, left, center, center."
     }
   },
   {
@@ -7030,7 +7310,7 @@
     "category": "minigame",
     "name": "Jungle Slider — Panic Fall",
     "summary": "Collect all 10 fruit on this course.",
-    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Panic Fall without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the left exit to continue to the next course.",
+    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Panic Fall without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. On your next run, take the left exit to continue to the next course. Follow the fruit groups center, right, then center. Hold the stick backward to slow down for corrections. If you miss fruit, pause and choose Restart before leaving the course.",
     "tags": [
       "minigame",
       "jungle-slider",
@@ -7044,6 +7324,11 @@
         "label": "KHWiki — Jungle Slider",
         "url": "https://www.khwiki.com/Jungle_Slider",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7057,7 +7342,8 @@
       "subtype": "minigame-clear",
       "course": 4,
       "fruit": 10,
-      "nextExit": "left"
+      "nextExit": "left",
+      "Fruit line": "Follow the fruit groups center, right, then center."
     }
   },
   {
@@ -7066,7 +7352,7 @@
     "category": "minigame",
     "name": "Jungle Slider — Shadow Cavern",
     "summary": "Collect all 10 fruit on this course.",
-    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Shadow Cavern without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. This is the fifth and final fruit course.",
+    "instructions": "Enter the hollow trunk in Tunnel after sealing Deep Jungle. Collect all ten fruit in Shadow Cavern without missing any. The previous course’s fruit challenge must already be cleared; the newly opened branch becomes usable on a later attempt. This is the fifth and final fruit course. Keep centered for every fruit in this final course. Hold the stick backward to slow down for corrections. If you miss fruit, pause and choose Restart before leaving the course.",
     "tags": [
       "minigame",
       "jungle-slider",
@@ -7080,6 +7366,11 @@
         "label": "KHWiki — Jungle Slider",
         "url": "https://www.khwiki.com/Jungle_Slider",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "url": "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/faqs/77742/traverse-town-2",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7093,7 +7384,8 @@
       "subtype": "minigame-clear",
       "course": 5,
       "fruit": 10,
-      "nextExit": "finish"
+      "nextExit": "finish",
+      "Fruit line": "Keep centered for every fruit in this final course."
     }
   },
   {
@@ -7102,7 +7394,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Jump Course",
     "summary": "Complete the Jump Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. The introductory course uses ordinary vines. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -7115,6 +7407,11 @@
         "label": "KHWiki — Vine Swinging",
         "url": "https://www.khwiki.com/Vine_Swinging",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://www.khwiki.com/Vine_Jump",
+        "url": "https://www.khwiki.com/Vine_Jump",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7126,9 +7423,11 @@
     "facts": {
       "subtype": "minigame-clear",
       "course": "Jump",
-      "recordType": "lowest time"
+      "recordType": "lowest time",
+      "Course hazard": "The introductory course uses ordinary vines."
     },
-    "order": 0
+    "order": 0,
+    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
   },
   {
     "id": "kh1fm-minigame-vine-swinging-trap-course",
@@ -7136,7 +7435,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Trap Course",
     "summary": "Complete the Trap Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This course introduces snakes among the vines; leave a snake within about two seconds after DANGER appears. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -7149,6 +7448,11 @@
         "label": "KHWiki — Vine Swinging",
         "url": "https://www.khwiki.com/Vine_Swinging",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://www.khwiki.com/Vine_Jump",
+        "url": "https://www.khwiki.com/Vine_Jump",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7160,9 +7464,11 @@
     "facts": {
       "subtype": "minigame-clear",
       "course": "Trap",
-      "recordType": "lowest time"
+      "recordType": "lowest time",
+      "Course hazard": "This course introduces snakes among the vines; leave a snake within about two seconds after DANGER appears."
     },
-    "order": 1
+    "order": 1,
+    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
   },
   {
     "id": "kh1fm-minigame-vine-swinging-acrobat-course",
@@ -7170,7 +7476,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Acrobat Course",
     "summary": "Complete the Acrobat Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This course mixes vines and snakes in a harder layout. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -7183,6 +7489,11 @@
         "label": "KHWiki — Vine Swinging",
         "url": "https://www.khwiki.com/Vine_Swinging",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://www.khwiki.com/Vine_Jump",
+        "url": "https://www.khwiki.com/Vine_Jump",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7194,9 +7505,11 @@
     "facts": {
       "subtype": "minigame-clear",
       "course": "Acrobat",
-      "recordType": "lowest time"
+      "recordType": "lowest time",
+      "Course hazard": "This course mixes vines and snakes in a harder layout."
     },
-    "order": 2
+    "order": 2,
+    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
   },
   {
     "id": "kh1fm-minigame-vine-swinging-expert-course",
@@ -7204,7 +7517,7 @@
     "category": "minigame",
     "name": "Vine Swinging — Expert Course",
     "summary": "Complete the Expert Course and record a best time.",
-    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit.",
+    "instructions": "From Hippos’ Lagoon, climb the vine nearest the Camp exit. Examine the yellow flower beside the Vines save point and select this course. Move from vine to vine to the finish; jump off a snake promptly when Danger appears. Glide or Superglide can shorten the route on a later visit. This is the hardest layout, with many snake hazards. Returning with Glide/Superglide allows bypassing the vine chain toward the finish platform.",
     "tags": [
       "minigame",
       "vine-swinging",
@@ -7217,6 +7530,11 @@
         "label": "KHWiki — Vine Swinging",
         "url": "https://www.khwiki.com/Vine_Swinging",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://www.khwiki.com/Vine_Jump",
+        "url": "https://www.khwiki.com/Vine_Jump",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7228,9 +7546,11 @@
     "facts": {
       "subtype": "minigame-clear",
       "course": "Expert",
-      "recordType": "lowest time"
+      "recordType": "lowest time",
+      "Course hazard": "This is the hardest layout, with many snake hazards."
     },
-    "order": 3
+    "order": 3,
+    "uncertainty": "The cited sources establish the course and hazards but do not provide a checked vine-by-vine sequence for this layout."
   },
   {
     "id": "kh1fm-minigame-pooh-s-hunny-hunt-episode-clear",
@@ -7457,6 +7777,11 @@
         "label": "KHWiki — Pooh%27s Swing",
         "url": "https://www.khwiki.com/Pooh%27s_Swing",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam guide — 40 yards wording",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3267604660",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7471,7 +7796,7 @@
       "target": "40 distance units",
       "recordGame": "Pooh’s Swing"
     },
-    "uncertainty": "Sources label the distance unit differently (yards versus meters); use a displayed score of at least 40."
+    "uncertainty": "Steam guide prose and KHGuides use yards; other references use meters. A Steam-localized result-screen capture or string table was not available to identify the exact display unit. A displayed score of at least 40 is the supported target."
   },
   {
     "id": "kh1fm-minigame-tigger-s-giant-pot-episode-clear",
@@ -7709,7 +8034,7 @@
     "category": "guide",
     "name": "Secret ending — Another side, Another story",
     "summary": "Unlock the original secret movie under Final Mix rules.",
-    "instructions": "Finish the game after meeting the condition for your difficulty: Standard (Final Mix) requires all Keyholes sealed and all 99 puppies rescued; Proud requires finishing the game. Beginner cannot unlock this movie. If Deep Dive requirements are satisfied, that movie replaces the shorter one.",
+    "instructions": "Finish the game after meeting the condition for your difficulty: Standard (Final Mix) requires all Keyholes sealed and all 99 puppies rescued; Proud requires finishing the game. Beginner cannot unlock this movie. If Deep Dive requirements are satisfied, that movie replaces the shorter one. Steam includes a separate KH1 Theater Mode available from the collection menu without progressing a KH1 save, according to release-day Steam reports. Watching there does not satisfy the save's ending conditions above. Those reports cover the general theater collection but do not separately enumerate availability of each secret movie.",
     "tags": [
       "guide",
       "secret-ending",
@@ -7721,6 +8046,11 @@
         "label": "KHWiki — Another side, Another story...",
         "url": "https://www.khwiki.com/Another_side,_Another_story...",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam — KH1 Theater available on a fresh game",
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229748853049069/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7730,7 +8060,8 @@
       "subtype": "secret-ending",
       "beginner": "Unavailable",
       "standard": "All Keyholes; 99 puppies",
-      "proud": "Complete the game"
+      "proud": "Complete the game",
+      "Theater availability": "Separate collection-menu mode; general cutscenes available independently of save progression (Steam reports)."
     }
   },
   {
@@ -7739,7 +8070,7 @@
     "category": "guide",
     "name": "Secret ending — Deep Dive",
     "summary": "Unlock the extended Final Mix secret movie.",
-    "instructions": "On Standard (Final Mix), complete Jiminy’s Journal before finishing the game. On Proud, seal every Keyhole and clear the Hades Cup before finishing. Beginner cannot unlock this movie. Deep Dive replaces the shorter secret movie when its conditions are met.",
+    "instructions": "On Standard (Final Mix), complete Jiminy’s Journal before finishing the game. On Proud, seal every Keyhole and clear the Hades Cup before finishing. Beginner cannot unlock this movie. Deep Dive replaces the shorter secret movie when its conditions are met. Steam includes a separate KH1 Theater Mode available from the collection menu without progressing a KH1 save, according to release-day Steam reports. Watching there does not satisfy the save's ending conditions above. Those reports cover the general theater collection but do not separately enumerate availability of each secret movie.",
     "tags": [
       "guide",
       "secret-ending",
@@ -7753,6 +8084,11 @@
         "label": "KHWiki — Another side, Another story...",
         "url": "https://www.khwiki.com/Another_side,_Another_story...",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam — KH1 Theater available on a fresh game",
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229748853049069/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7762,7 +8098,8 @@
       "subtype": "secret-ending",
       "beginner": "Unavailable",
       "standard": "Complete Jiminy’s Journal",
-      "proud": "All Keyholes; Hades Cup"
+      "proud": "All Keyholes; Hades Cup",
+      "Theater availability": "Separate collection-menu mode; general cutscenes available independently of save progression (Steam reports)."
     }
   },
   {
@@ -7797,7 +8134,7 @@
     "category": "guide",
     "name": "Restricted run planning",
     "summary": "Plan the three conditions separately, with a Beginner run as the straightforward combined route.",
-    "instructions": "For a combined run, choose Beginner and leave every party member’s weapon and accessories as received, including Sora, Donald and Goofy. Keep Beginner’s pre-equipped accessories in place. Abilities, magic, recovery-item slots and permanent stat-boost items remain usable; improve those instead of replacing equipment. Story-driven weapon changes occur automatically, so continue the story without making manual swaps to compensate. Save regularly in separate slots. For Undefeated, if defeated, return to the title screen and load a clean save instead of selecting Continue. For Speedster, defeat World of Chaos before the in-game timer reaches 15 hours. Plan the route in advance, skip optional cleanup and leave ample time for the final sequence. Let the credits finish and reach the results screen: Steam players report Unchanging Armor and Undefeated unlocking there, while Speedster unlocks at the boss defeat. Check the Steam award before reusing the run save for unrestricted play.",
+    "instructions": "For a combined run, choose Beginner and leave every party member’s weapon and accessories as received, including Sora, Donald and Goofy. Keep Beginner’s pre-equipped accessories in place. Abilities, magic, recovery-item slots and permanent stat-boost items remain usable; improve those instead of replacing equipment. Story-driven weapon changes occur automatically, so continue the story without making manual swaps to compensate. Save regularly in separate slots. For Undefeated, if defeated, return to the title screen and load a clean save instead of selecting Continue. For Speedster, defeat World of Chaos before the in-game timer reaches 15 hours. Plan the route in advance, skip optional cleanup and leave ample time for the final sequence. Let the credits finish and reach the results screen: Steam players report Unchanging Armor and Undefeated unlocking there, while Speedster unlocks at the boss defeat. Check the Steam award before reusing the run save for unrestricted play. Steam players report that pause-menu time and cutscenes count toward Speedster; save and exit when taking a break. Community reports also describe earning Speedster when the displayed timer rolls over at 100 hours and the final boss is defeated before it displays 15 hours again. This is an alternative reported behavior, not required for the ordinary under-15-hour route. A Steam achievement-save guide confirms that loading an eligible pre-final-boss save and then clearing the final sequence can award all three goals.",
     "tags": [
       "guide",
       "restricted-run",
@@ -7835,7 +8172,7 @@
       {
         "label": "Steam discussion — reload instead of Continue",
         "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229748853985180/",
-        "checkedAt": "2026-09-18"
+        "checkedAt": "2026-10-01"
       },
       {
         "label": "Steam discussion — award timing after credits",
@@ -7846,19 +8183,31 @@
         "label": "KHWiki — Hollow Bastion story equipment",
         "url": "https://www.khwiki.com/Game:Hollow_Bastion",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam — pause-menu and cutscene timer",
+        "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229920744115123/",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "Steam — eligible pre-final-boss saves and award timing",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3268360287",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
     "collectible": false,
-    "uncertainty": "Equipment, item and reload guidance is backed by Steam player reports rather than an audited save-flag specification. Exact scripted-swap flags, guest-party edge cases, pause/menu timer behavior, timer rollover and award behavior after restoring an older save remain untested; the route does not rely on those exceptions.",
+    "uncertainty": "The remaining evidence gap is exact scripted-swap and guest-equipment flag logic, a menu-by-menu timer specification, and Steam current-build persistence when replacing save/system files. Pause/cutscene counting, 100-hour rollover and awards from eligible pre-final-boss saves have community evidence; no clean-save memory offsets or formal flag specification were established.",
     "facts": {
       "speedsterLimitHours": 15,
       "recommendedDifficulty": "Beginner",
       "equipmentPlan": "No manual weapon/accessory changes for any party member",
       "allowedDevelopment": "Abilities, magic, recovery items, stat-boost items",
       "defeatPlan": "Return to title and reload a clean save; do not select Continue",
-      "awardCheck": "Wait for post-credits results and check Steam"
+      "awardCheck": "Wait for post-credits results and check Steam",
+      "pauseAndCutscenes": "Count toward the timer (Steam community report).",
+      "timerRollover": "100-hour display rollover reported by Steam players; current-build flag logic not audited."
     }
   },
   {
@@ -7884,6 +8233,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7893,8 +8252,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Finish the game on Proud."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Finish the game on Proud.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -7921,6 +8281,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7930,8 +8300,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Complete the game on Standard (Final Mix) or Proud."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Complete the game on Standard (Final Mix) or Proud.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -7957,6 +8328,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -7966,9 +8347,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the game on Beginner, Standard (Final Mix) or Proud.",
-      "steamDescription": "Clear game on Final Mix: Beginner or a higher difficulty level."
+      "steamDescription": "Clear game on Final Mix: Beginner or a higher difficulty level.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8026,6 +8408,16 @@
         "label": "KHWiki — Hollow Bastion story equipment",
         "url": "https://www.khwiki.com/Game:Hollow_Bastion",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8035,9 +8427,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Clear the game without changing equipment.",
-      "steamDescription": "Clear the game without changing equipment."
+      "steamDescription": "Clear the game without changing equipment.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "missability": "Run-wide restriction; plan before starting."
   },
@@ -8096,6 +8489,16 @@
         "label": "KHWiki — Hollow Bastion story equipment",
         "url": "https://www.khwiki.com/Game:Hollow_Bastion",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8105,8 +8508,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear the game without using a continue."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear the game without using a continue.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "missability": "Run-wide restriction; plan before starting.",
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
@@ -8166,6 +8570,16 @@
         "label": "KHWiki — Hollow Bastion story equipment",
         "url": "https://www.khwiki.com/Game:Hollow_Bastion",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8175,8 +8589,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat the World of Chaos in the End of the World within 15 hours."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat the World of Chaos in the End of the World within 15 hours.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "missability": "Run-wide restriction; plan before starting."
   },
@@ -8205,6 +8620,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8214,8 +8639,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat the Mysterious Man in Hollow Bastion."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat the Mysterious Man in Hollow Bastion.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8243,6 +8669,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8252,8 +8688,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat the Phantom at the Clock Tower."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat the Phantom at the Clock Tower.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8281,6 +8718,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8290,8 +8737,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat Kurt Zisa in Agrabah."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat Kurt Zisa in Agrabah.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8319,6 +8767,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8328,8 +8786,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear the Phil Cup."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear the Phil Cup.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8358,6 +8817,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8367,8 +8836,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear the Pegasus Cup."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear the Pegasus Cup.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8397,6 +8867,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8406,8 +8886,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear the Hercules Cup."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear the Hercules Cup.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8436,6 +8917,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8445,8 +8936,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear the Hades Cup."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear the Hades Cup.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8475,6 +8967,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8484,8 +8986,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat the Ice Titan in the Gold Match at Olympus Coliseum."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat the Ice Titan in the Gold Match at Olympus Coliseum.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8513,6 +9016,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8522,8 +9035,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat Sephiroth in the Platinum Match at Olympus Coliseum."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat Sephiroth in the Platinum Match at Olympus Coliseum.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8555,6 +9069,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8564,8 +9088,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Complete any solo challenge."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Complete any solo challenge.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8596,6 +9121,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8605,8 +9140,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Complete any time trial challenge."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Complete any time trial challenge.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8632,6 +9168,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8641,8 +9187,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Reach level 100 with Sora."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Reach level 100 with Sora.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8669,6 +9216,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8678,8 +9235,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Open 100 treasure chests."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Open 100 treasure chests.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -8706,6 +9264,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8715,8 +9283,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Hold over 10 thousand munny."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Hold over 10 thousand munny.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8742,6 +9311,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8751,8 +9330,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Defeat over 2,000 Heartless."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Defeat over 2,000 Heartless.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8778,6 +9358,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8787,9 +9377,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Traverse Town.",
-      "steamDescription": "Seal the keyhole in Traverse Town."
+      "steamDescription": "Seal the keyhole in Traverse Town.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8815,6 +9406,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8824,9 +9425,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Wonderland.",
-      "steamDescription": "Seal the keyhole in Wonderland."
+      "steamDescription": "Seal the keyhole in Wonderland.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8852,6 +9454,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8861,9 +9473,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Olympus Coliseum.",
-      "steamDescription": "Seal the keyhole in Olympus Coliseum."
+      "steamDescription": "Seal the keyhole in Olympus Coliseum.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8889,6 +9502,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8898,9 +9521,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Deep Jungle.",
-      "steamDescription": "Seal the keyhole in Deep Jungle."
+      "steamDescription": "Seal the keyhole in Deep Jungle.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8926,6 +9550,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8935,9 +9569,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Agrabah.",
-      "steamDescription": "Seal the keyhole in Agrabah."
+      "steamDescription": "Seal the keyhole in Agrabah.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -8963,6 +9598,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -8972,9 +9617,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Escape from Monstro.",
-      "steamDescription": "Escape from Monstro."
+      "steamDescription": "Escape from Monstro.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9000,6 +9646,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9009,9 +9665,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Atlantica.",
-      "steamDescription": "Seal the keyhole in Atlantica."
+      "steamDescription": "Seal the keyhole in Atlantica.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9037,6 +9694,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9046,9 +9713,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Halloween Town.",
-      "steamDescription": "Seal the keyhole in Halloween Town."
+      "steamDescription": "Seal the keyhole in Halloween Town.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9074,6 +9742,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9083,9 +9761,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in Never Land.",
-      "steamDescription": "Seal the keyhole in Never Land."
+      "steamDescription": "Seal the keyhole in Never Land.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9111,6 +9790,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9120,8 +9809,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Seal the Keyhole in Hollow Bastion."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Seal the Keyhole in Hollow Bastion.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9147,6 +9837,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9156,9 +9856,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Seal the Keyhole in the 100 Acre Wood.",
-      "steamDescription": "Seal the keyhole in 100 Acre Wood."
+      "steamDescription": "Seal the keyhole in 100 Acre Wood.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9184,6 +9885,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9193,9 +9904,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the collection of Jiminy's Journal entries.",
-      "steamDescription": "Collect all Jiminy's Journal entries."
+      "steamDescription": "Collect all Jiminy's Journal entries.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9221,6 +9933,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9230,9 +9952,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the collection of Story entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Story entries in Jiminy's Journal."
+      "steamDescription": "Collect all Story entries in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9258,6 +9981,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9267,8 +10000,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Complete the collection of Ansem Reports in Jiminy's Journal."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Complete the collection of Ansem Reports in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9295,6 +10029,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9304,8 +10048,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Complete the collection of Character entries in Jiminy's Journal."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Complete the collection of Character entries in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9332,6 +10077,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9341,9 +10096,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the collection of 101 Dalmatian entries in Jiminy's Journal.",
-      "steamDescription": "Collect all 101 Dalmatian entries in Jiminy's Journal."
+      "steamDescription": "Collect all 101 Dalmatian entries in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9369,6 +10125,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9378,9 +10144,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the collection of Trinity List entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Trinity List entries in Jiminy's Journal."
+      "steamDescription": "Collect all Trinity List entries in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9389,7 +10156,7 @@
     "category": "achievement",
     "name": "Mini-game Maniac",
     "summary": "Complete the collection of Mini-game entries in Jiminy's Journal.",
-    "instructions": "Register the Journal minigames, including Phil’s barrel records, Vine Swinging, Jungle Slider and the five Hundred Acre Wood activities. Check the in-game Journal for the remaining blank records.",
+    "instructions": "For Mini-game Maniac, start Jungle Slider, Vine Jump, the five Hundred Acre Wood games (Hunny Hunt, Block Tigger, Pooh's Swing, Tigger's Giant Pot and Muddy Path), and the time trials for Phil, Pegasus, Hercules and Hades Cups. Unlock a cup time trial by clearing that cup with the party and then solo. The Journal's Olympus section stores those four cup timers; Phil's two introductory barrel tests and the Destiny Islands race are separate activities. The Journal completion mark requires starting the listed games, not beating Cheer targets or posting every best time.",
     "tags": [
       "achievement",
       "steam",
@@ -9428,6 +10195,21 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "KHGuides — complete Journal Mini Games list",
+        "url": "https://www.khguides.com/kh/inventory/journal/",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9437,9 +10219,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Complete the collection of Mini-game entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Mini-game entries in Jiminy's Journal."
+      "steamDescription": "Collect all Mini-game entries in Jiminy's Journal.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9465,6 +10248,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9474,9 +10267,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Synthesize all items.",
-      "steamDescription": "Synthesize all items."
+      "steamDescription": "Synthesize all items.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9502,6 +10296,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9511,9 +10315,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Synthesize an item for the first time.",
-      "steamDescription": "Synthesize an item for the first time."
+      "steamDescription": "Synthesize an item for the first time.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9539,6 +10344,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9548,9 +10363,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Synthesize 3 types of items.",
-      "steamDescription": "Synthesize 3 types of items."
+      "steamDescription": "Synthesize 3 types of items.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9576,6 +10392,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9585,9 +10411,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Synthesize 15 types of items.",
-      "steamDescription": "Synthesize 15 types of items."
+      "steamDescription": "Synthesize 15 types of items.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9613,6 +10440,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9622,9 +10459,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Synthesize 30 types of items.",
-      "steamDescription": "Synthesize 30 types of items."
+      "steamDescription": "Synthesize 30 types of items.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9699,6 +10537,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9708,8 +10556,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Own at least 30 Gummi blueprints."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Own at least 30 Gummi blueprints.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9736,6 +10585,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9745,8 +10604,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Shoot down over 2,500 enemies with your gummi ship"
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Shoot down over 2,500 enemies with your gummi ship",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9772,6 +10632,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9781,9 +10651,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Modify a gummi ship and update the data.",
-      "steamDescription": "Modify a gummi ship and update the data."
+      "steamDescription": "Modify a gummi ship and update the data.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9809,6 +10680,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9818,8 +10699,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear all gummi ship routes."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear all gummi ship routes.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9857,6 +10739,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9866,9 +10758,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Clear gummi ship mission 1.",
-      "steamDescription": "Clear gummi ship mission 1."
+      "steamDescription": "Clear gummi ship mission 1.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -9905,6 +10798,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9914,8 +10817,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear gummi ship mission 2."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear gummi ship mission 2.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9953,6 +10857,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9962,8 +10876,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Clear gummi ship mission 3."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Clear gummi ship mission 3.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     },
     "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
   },
@@ -9990,6 +10905,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -9999,8 +10924,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
-      "requirement": "Obtain the Oathkeeper Keyblade."
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "requirement": "Obtain the Oathkeeper Keyblade.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -10026,6 +10952,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -10035,9 +10971,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Obtain all Keyblades.",
-      "steamDescription": "Obtain all Keyblades."
+      "steamDescription": "Obtain all Keyblades.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -10063,6 +11000,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -10072,9 +11019,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Obtain all staves.",
-      "steamDescription": "Obtain all staves."
+      "steamDescription": "Obtain all staves.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -10100,6 +11048,16 @@
         "label": "KHWiki — Trophies",
         "url": "https://www.khwiki.com/Trophies",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "Steam API — actual achievement key inventory",
+        "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430&format=json",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamAchievementViewer — game grouping, not name mapping",
+        "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -10109,9 +11067,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Not exposed by the public achievement list",
+      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
       "requirement": "Obtain all shields.",
-      "steamDescription": "Obtain all shields."
+      "steamDescription": "Obtain all shields.",
+      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
     }
   },
   {
@@ -10600,7 +11559,7 @@
     "world": "Olympus Coliseum",
     "area": "Coliseum",
     "summary": "Efficient routes for the 20-barrel and 25-barrel tests; keep repeat practice separate from the first-clear reward.",
-    "instructions": "Easy: hit the middle of the first three barrels, a bottom barrel in the four-barrel stack, the bottom center of the six-barrel stack, then a bottom barrel in the next four. Lift and throw one of the last barrels into another. Advanced: clear the four to your left; turn and knock the single barrel toward the two-barrel stack. Throw a survivor toward the raised row of three, then clear that row. On the next level, knock the single toward the four-barrel group and clear the leftovers, then the six-barrel group. Throw the highest loose barrel at the isolated barrel on the elevated platform. Finish the remaining pair at the back with a throw. For practice, improve your own finish time while using the same 30-second and 60-second limits. Thunder is the reward for passing the initial pair of tests.",
+    "instructions": "Easy: hit the middle of the first three barrels, a bottom barrel in the four-barrel stack, the bottom center of the six-barrel stack, then a bottom barrel in the next four. Lift and throw one of the last barrels into another. Advanced: clear the four to your left; turn and knock the single barrel toward the two-barrel stack. Throw a survivor toward the raised row of three, then clear that row. On the next level, knock the single toward the four-barrel group and clear the leftovers, then the six-barrel group. Throw the highest loose barrel at the isolated barrel on the elevated platform. Finish the remaining pair at the back with a throw. For practice, improve your own finish time while using the same 30-second and 60-second limits. Thunder is the reward for passing the initial pair of tests. The Journal Mini Games section lists the four cup time trials under Olympus Coliseum, rather than these introductory barrel tests. The tests unlock story progression; a separate persistent replay-time/reward mechanism is not established.",
     "tags": [
       "guide",
       "minigame",
@@ -10622,6 +11581,11 @@
         "label": "Steam guide — barrel training routes",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3277287477",
         "checkedAt": "2026-09-18"
+      },
+      {
+        "label": "https://www.khguides.com/kh/inventory/journal/",
+        "url": "https://www.khguides.com/kh/inventory/journal/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",

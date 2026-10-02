@@ -1,5 +1,9 @@
 # Optional challenges, episodes and achievements
 
+Current follow-up (2026-10-01): all 60 album placement landmarks, all 374 main chest source-route/landmark joins, five-song FM complete rank/prize tables, nine mission rank tables with character tactics, and Fruitball/racing reward guides are integrated through `research-enrichment.json`. Aqua’s Tower chest4 is corrected to Mega Magic Recipe. Full earliest-access/Reports-order certification remains separate; older missing-placement/table statements below are historical. See the current per-ID resolution ledger.
+
+October 1 integration: all 29 Arena level predicates and six ticket records are structured; six battle entry rules are explicit, while Combined Threat/A Time to Chill source conflicts remain. Ringer Ticket is 250 medals. Known character HP/Sky Climber bonuses, Mini, Freeze Raid and story Fruitball distinctions are integrated. Forty-five Steam goals, 15 styles, 13 persistent D-Links and six boss-reference families are indexed. Exact mission boundaries, complete board panels and save aggregation remain partial in [the live ledger](research-dispositions-2026-10-01.json).
+
 ## Modern Mirage Arena
 
 HD Arena play is solo; PSP multiplayer/ranking mechanics must not leak into the baseline. Modern matches use bonus challenges. Source: [Arena Mode](https://www.khwiki.com/Arena_Mode).
@@ -45,23 +49,39 @@ Each becomes available after its world episode. Track one mission result per cha
 | Olympus Coliseum / Jellyshade | Town Near Thebes, all | 300 within 0:30 | Stopga |
 | Keyblade Graveyard / Floating Flora | Seat of War, all | ≥350 in 1:30 | Illusion-F |
 
+Published complete rank bands (time bands retain the source display notation):
+
+| Target | One star | Two stars | Three stars |
+|---|---|---|---|
+| Flame Box | 0-14 | 15-29 | 30+ |
+| Lone Runner | 0-14 | 15-29 | 30+ |
+| Vitality Vial | 0:00:00 - 0:59:59 | 1:00:00 - 1:59:59 | 2:00:00+ |
+| Belly Balloon | 2:00:00+ | 1:00:00 - 1:59:59 | 0:00:00 - 0:59:59 |
+| Ringer | 0-19 | 20-39 | 40+ |
+| Gluttonous Goo | 0-50 orbs | 51-89 orbs | 90-100 orbs |
+| Element Cluster | 0-39 | 40-69 | 70+ |
+| Jellyshade | 1:00:00+ | 00:30:01 - 00:59:59 | 00:00:01 - 00:30:00 |
+| Floating Flora | 0-200 | 201-349 | 350+ |
+
+All 27 character-specific tactics are in the canonical enrichment. Vitality Vial, Ringer, Gluttonous Goo, Element Cluster and Floating Flora retain inclusive-table versus strict-prose equality conflicts; strategies and lower-rank extraction are complete.
+
 ## Minigames and reward routes
 
-[Rumble Racing](https://www.khwiki.com/Rumble_Racing): four courses. Arena five-lap thresholds are Country Chase 2:30, Disney Drive 5:00, Grand Spree 5:00 and Castle Circuit 5:30. Winning a race, a top-three reward and meeting an Arena time are distinct predicates. Grand Spree needs top-three finishes in Country Chase and Disney Drive; Castle Circuit needs first place in Grand Spree. Victory Line is Castle Circuit first place.
+[Rumble Racing](https://www.khwiki.com/Rumble_Racing): four courses. Arena five-lap thresholds are Country Chase 2:30, Disney Drive 5:00, Grand Spree 5:00 and Castle Circuit 5:30. Winning a race, a top-three reward and meeting an Arena time are distinct predicates. Grand Spree needs top-three finishes in Country Chase and Disney Drive; Castle Circuit needs first place in Grand Spree. Victory Line is Castle Circuit first place. Country Chase/Disney Drive/Grand Spree top-three first rewards are Hi-Potion/Fire Dash/Aerora; repeated qualifying finishes award Hi-Potion. All four course guides and reward predicates are integrated.
 
-[Ice Cream Beat](https://www.khwiki.com/Ice_Cream_Beat): each song's Beginner “Cool” unlocks Master; Hand in Hand needs “Cool” on the other four Master songs. Rating uses the score column, not the height-added total. Final Mix Master Fantastic thresholds/rewards:
+[Ice Cream Beat](https://www.khwiki.com/Ice_Cream_Beat): each song's Beginner “Cool” unlocks Master; Hand in Hand needs “Cool” on the other four Master songs. Rating uses the score column, not the height-added total. Full Final Mix rank thresholds and prizes:
 
-| Song | Threshold | First reward |
-|---|---:|---|
-| It's a Small World | 2,488 | Elixir |
-| Blast Away! -Gummi Ship II- | 3,270 | Blizzara |
-| Dessert Paradise | 2,500 | Frozen Fortune |
-| Destiny Islands | 2,958 | Chaos Crystal |
-| Hand in Hand | 3,260 | Blizzaga |
+| Song | Beginner Good/Cool/Fantastic | Master Good/Cool/Fantastic | First Master Fantastic | Repeat Master Fantastic |
+|---|---|---|---|---|
+| It’s a Small World | 761 / 1015 / 1268 | 1493 / 1991 / 2488 | Elixir | Ether |
+| Blast Away! -Gummi Ship II- | 660 / 880 / 1100 | 1962 / 2616 / 3270 | Blizzara | Ether |
+| Dessert Paradise | 819 / 1092 / 1364 | 1430 / 1906 / 2500 | Frozen Fortune | Hi-Potion |
+| Destiny Islands | 1272 / 1696 / 2120 | 1775 / 2367 / 2958 | Chaos Crystal | Hi-Potion |
+| Hand in Hand | 687 / 916 / 1144 | 1907 / 2543 / 3260 | Blizzaga | Mega-Potion |
 
-Hand in Hand Beginner Fantastic (1,144) grants Freeze Raid. Keep repeated-play prizes separate from first rewards.
+Hand in Hand Beginner Fantastic (1,144) grants Freeze Raid. The four other Beginner rows list no first-time prize. These are the International/Final Mix rules, not original Japanese Special mode.
 
-[Fruitball](https://www.khwiki.com/Fruitball): repeatable opponents are Bruisers, Chip & Dale and Pete (Captain Dark for Terra; Captain Justice for Ventus/Aqua). Aqua's story Shoegazers match is separate. First Chip & Dale victory grants Magnera; Pete grants Chaos Snake. Capture all three repeatable results per character.
+[Fruitball](https://www.khwiki.com/Fruitball): repeatable opponents are Bruisers, Chip & Dale and Pete (Captain Dark for Terra; Captain Justice for Ventus/Aqua). Aqua's story Shoegazers match is separate. First Chip & Dale victory grants Magnera; Pete grants Chaos Snake. Repeat wins award Balloon Letter; Bruisers and the Aqua-only story Shoegazers also award Balloon Letter. All three repeatable results remain separate per character. The runtime includes fruit mechanics and opponent tactics.
 
 [Command Board](https://www.khwiki.com/Command_Board): seven boards are Keyblade, Royal, Spaceship, Toon, Skull, Hunny Pot and Secret. Hunny Pot comes from Merlin's book; Secret requires a win on each other board. Menu and Arena sessions must be distinguished: acquisition panels and opponent-command purchases are not equivalent across modes. Bonus Shotlocks may be replaced while currently owned. Pete's special panel event unlocks his D-Link. Full per-board panel inventories and mode exceptions remain open.
 

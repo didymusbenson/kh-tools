@@ -1,5 +1,15 @@
 # KH3 numbered collectible inventory — research ledger
 
+## Current status — 2026-10-01
+
+The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1900 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
+
+The full KH3-001 route pass reviewed all 335 numbered base records against complete guides. Every record now has pickup directions and linked guide evidence; 64 blank and four reward-only records were filled. [The per-record route ledger](route-enrichment.json) retains the exact earliest-access residuals and Arendelle chest 24 revisit disagreement. Base collectibles remain recoverable after the story; this does not imply first-visit availability.
+
+Accepted product contracts below remain in force. Historical unresolved language is evidence history, not an additional active backlog.
+
+## Historical research — 2026-09-18
+
 Research date: 2026-09-18. [Research index](README.md). This is a complete **candidate identity/contents/area inventory** from inspected community tables, not a completed text-route guide or an in-game verification claim. Numbering follows the cited tables and must be reconciled against the modern Gummiphone before production through content validation; no user gameplay test is required. Empty location-detail fields must remain explicitly incomplete.
 
 All base records belong to Sora’s selected save. Re Mind records use a separate episode scope. World pages, compact marks, expanded detail rows, item indexes and Data Jiminy must point to one stable record and one saved state. A chest containing a Classic Kingdom game is one chest event, with a link to the game acquisition; it is not a second chest.

@@ -1,0 +1,238 @@
+[
+  {
+    "url": "https://www.khwiki.com/Air_Slide",
+    "inspected": "2026-10-01",
+    "sha256": "42935799fb633b6589f594a3f6d513cba79d0b2452c6617f68a5d060a893fd48",
+    "bytes": 7796,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blizzard",
+    "inspected": "2026-10-01",
+    "sha256": "020d42ce0a46003ac41a4730f21bfce33a2bf2623d87f470aca530001c3d5dcc",
+    "bytes": 26988,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Difficulty_Level",
+    "inspected": "2026-10-01",
+    "sha256": "24106448282a535e439a9445e2ad9b988c98c0fafaa64b3f8d4fb387a87196f4",
+    "bytes": 23984,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Doubleflight",
+    "inspected": "2026-10-01",
+    "sha256": "8cdb16b499c46a11640004e2d04c8f4302a7a89c3b1839e8a3b0c56b008c4748",
+    "bytes": 2979,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fire",
+    "inspected": "2026-10-01",
+    "sha256": "a9d0648843b87f30ee7174ede977bc06ec8c0b18efbe761c3902da9232689d2e",
+    "bytes": 27170,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game_Clear_Data",
+    "inspected": "2026-10-01",
+    "sha256": "99e10a9233c6806bd8b5f8fdf8f414052106e3a3f2595739a193901577d47805",
+    "bytes": 9177,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Phantom_Aqua",
+    "inspected": "2026-10-01",
+    "sha256": "61428fe75a2d4d1cb1194e04db619965d39d278c01020f48bd40aaea1e88ea5f",
+    "bytes": 9523,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Realm_of_Darkness",
+    "inspected": "2026-10-01",
+    "sha256": "0bea7c5bcf19591b262d9d9c96631ab35e84daeb0ed33658d4d6a61179e7d692",
+    "bytes": 7256,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Prism_Rain",
+    "inspected": "2026-10-01",
+    "sha256": "03787ed03d7d88d964e2a01ef3d7a301ee78cf2c5a2bb4de9881a42a00463711",
+    "bytes": 3389,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Spellweaver",
+    "inspected": "2026-10-01",
+    "sha256": "dd0e46185963b746d4b9d8a98b4fdd7ce860bf6ed3de4369292436fee26eed0a",
+    "bytes": 6725,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thunder",
+    "inspected": "2026-10-01",
+    "sha256": "2f31371ddfa63ff98dc67e3cc0e0ee475b202905c29e4416cdde9474dd064ed1",
+    "bytes": 27193,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Trophies",
+    "inspected": "2026-10-01",
+    "sha256": "b403a6c81d4758ca7392f74b609dbfa517f2b7e32b195150ee95df53b44111f6",
+    "bytes": 129522,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wardrobe_(KH0.2)",
+    "inspected": "2026-10-01",
+    "sha256": "d3ff8419df90ec78bb33bbc31a321f5429d04c6f022cea2de142cfae3cfaa9c2",
+    "bytes": 25175,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wayfinder_(ability)",
+    "inspected": "2026-10-01",
+    "sha256": "eba48a88a52ad0fa51b3a7c25c9daab4ea66faca96ff03e7bdcab29470421cb2",
+    "bytes": 4017,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zodiac_symbols",
+    "inspected": "2026-10-01",
+    "sha256": "b8cfa924e0898751656f3e3b11f85e400af77ea73524aaa45596dc9bcb7247d0",
+    "bytes": 3108,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://guiding-key.tumblr.com/kh0.2-locations",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.playstationtrophies.org/forum/topic/283141-kingdom-hearts-02-birth-by-sleep-treasure-hunter-trophy-walkthrough/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.playstationtrophies.org/forum/topic/283492-kingdom-hearts-02-birth-by-sleep-a-fragmentary-passage-trophy-guide-amp-roadmap/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-43-quest-for-the-zodiac/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.truetrophies.com/t159961/treasure-hunter-trophy",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.khwiki.com/Leaf_Bracer",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "afaa8f56e7f31e77b7db79c08778e3ce9d40fec5e89a70214ae82af044b05287",
+    "bytes": 5011
+  },
+  {
+    "url": "https://www.khwiki.com/Second_Chance",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "08f2ae545f4de1d077e78acb26407580fe0081ed22c603bc18e38cb0fa3afd74",
+    "bytes": 9008
+  },
+  {
+    "url": "https://www.khwiki.com/Cure",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "f0f3971cb90e171d6810bee556ec44832cf355038bda04eee213e97a218979e6",
+    "bytes": 28946
+  },
+  {
+    "url": "https://www.khwiki.com/Aerial_Recovery",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "ee0c9828e40c14473bafcf5daf4f6d5ff2de23e6a8799c44c2f5f74af3ee69b9",
+    "bytes": 6056
+  },
+  {
+    "url": "https://www.khwiki.com/Counter_Blast",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "74f7c9bcafbf4a8413eb63b1580bcdba0fb3b4ca1bf4fce0866ed50d691322eb",
+    "bytes": 3469
+  },
+  {
+    "url": "https://www.khwiki.com/Barrier",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "b4359891c07771fb1b9dda11419386950cb596529e08ce0b4f1a2ea3f6536206",
+    "bytes": 4375
+  },
+  {
+    "url": "https://www.khwiki.com/Cartwheel",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "f4d69d391eda1abfa3cb6149bf4db19d50c5ef7338691706401180caea5946b3",
+    "bytes": 2178
+  },
+  {
+    "url": "https://www.khwiki.com/Withstand_Combo",
+    "inspected": "2026-10-01",
+    "method": "complete game-specific source section inspection",
+    "sha256": "48f1c61a6ff963a63f9234faf1f74783fd13facfd9b7cee2e9814133a38de51e",
+    "bytes": 4650
+  }
+]

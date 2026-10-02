@@ -1,0 +1,264 @@
+{
+  "game": "kh3",
+  "edition": "Kingdom Hearts III + Re Mind; Steam baseline",
+  "checkedAt": "2026-10-01",
+  "status": "All 13 source-listed special weapons; source-backed, no game execution",
+  "scope": "Special Weapon mechanic/acquisition reference; not physical block inventory and not additional collectible checks. Only one can be equipped at a time.",
+  "auditFinding": "KH3-027",
+  "sources": [
+    "https://www.khwiki.com/Special_Weapon",
+    "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship"
+  ],
+  "independentCrossCheck": "GameFAQs Gummi Ship section 8 agrees on 11 battle-rank unlocks and recharge times; shop table has Trinity Fire at 1000/Tier 1 and Decoy Duckies at 1000/Tier 3. Wiki supplies the explicit story gate and finer damage/effect parameters.",
+  "records": [
+    {
+      "id": "kh3.gummi-special-weapons.repair-kit",
+      "name": "Repair Kit",
+      "rechargeSeconds": 36,
+      "damage": null,
+      "attributes": [],
+      "effect": "Restores half of the ship’s maximum HP.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Dreadshark",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.force-field",
+      "name": "Force Field",
+      "rechargeSeconds": 24,
+      "damage": null,
+      "attributes": [],
+      "effect": "Negates enemy damage for 4 seconds.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Scarlet Shark",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.heavy-rocket",
+      "name": "Heavy Rocket",
+      "rechargeSeconds": 90,
+      "damage": {
+        "hit": 3000
+      },
+      "attributes": [
+        "special",
+        "strike"
+      ],
+      "effect": "Launches a homing rocket; its blast can hit nearby enemies.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Omega Machina",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.twin-shot",
+      "name": "Twin Shot",
+      "rechargeSeconds": 24,
+      "damage": {
+        "hit": 36
+      },
+      "attributes": [
+        "special",
+        "shot"
+      ],
+      "effect": "Adds forward-firing pods for 8 seconds, firing 12 shots per second.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Astrowarrior",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.firestorm",
+      "name": "Firestorm",
+      "rechargeSeconds": 24,
+      "damage": {
+        "hit": 45
+      },
+      "attributes": [
+        "special",
+        "shot"
+      ],
+      "effect": "Fires 15 volleys of four homing shots.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Colossus Pyramid",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.laser-squall",
+      "name": "Laser Squall",
+      "rechargeSeconds": 18,
+      "damage": {
+        "hit": 100
+      },
+      "attributes": [
+        "special",
+        "laser"
+      ],
+      "effect": "Strikes locked-on enemies with lasers.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Space Worms",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": "Space Worm is singular in this source table; canonical battle name is Clash with the Space Worms."
+    },
+    {
+      "id": "kh3.gummi-special-weapons.sunlight-laser",
+      "name": "Sunlight Laser",
+      "rechargeSeconds": 90,
+      "damage": {
+        "perInterval": 180,
+        "intervalSeconds": 0.15
+      },
+      "attributes": [
+        "special",
+        "laser"
+      ],
+      "effect": "Projects a ring of lasers for 3 seconds.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Comet Crawlers",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.barrier",
+      "name": "Barrier",
+      "rechargeSeconds": 36,
+      "damage": null,
+      "attributes": [],
+      "effect": "Blocks shots and mines for 10 seconds; lasers and contact still penetrate.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Flower Guardian",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.tracking-laser",
+      "name": "Tracking Laser",
+      "rechargeSeconds": 36,
+      "damage": {
+        "hit": 650
+      },
+      "attributes": [
+        "special",
+        "laser"
+      ],
+      "effect": "The laser keeps tracking after a hit and disappears when no enemies remain.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Schwarzgeist",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.electro-shot",
+      "name": "Electro Shot",
+      "rechargeSeconds": 30,
+      "damage": {
+        "perInterval": 60,
+        "intervalSeconds": 0.05
+      },
+      "attributes": [
+        "special",
+        "laser"
+      ],
+      "effect": "Fires three piercing beams lasting 0.7 seconds each.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Supreme Warrior",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.knights-arms",
+      "name": "Knight's Arms",
+      "rechargeSeconds": 30,
+      "damage": {
+        "shockwave": 2000,
+        "contact": 360
+      },
+      "attributes": [
+        "special",
+        "strike"
+      ],
+      "effect": "For 30 seconds, halves incoming damage and adds a spear; boosting emits its shockwave.",
+      "acquisition": {
+        "kind": "battle-rank",
+        "battle": "Clash with the Glacial Fortress",
+        "minimumRank": "B"
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.trinity-fire",
+      "name": "Trinity Fire",
+      "rechargeSeconds": 24,
+      "damage": {
+        "hit": 100,
+        "explosion": 200
+      },
+      "attributes": [
+        "special",
+        "shot"
+      ],
+      "effect": "Fires three pairs of fireworks with blasts that can hit nearby enemies.",
+      "acquisition": {
+        "kind": "gummi-shop",
+        "priceMunny": 1000,
+        "unlock": "Available from the start."
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    },
+    {
+      "id": "kh3.gummi-special-weapons.decoy-duckies",
+      "name": "Decoy Duckies",
+      "rechargeSeconds": 36,
+      "damage": {
+        "hit": 700
+      },
+      "attributes": [
+        "special",
+        "strike"
+      ],
+      "effect": "Three orbiting ducks intercept attacks, then strike the nearest enemy and disappear.",
+      "acquisition": {
+        "kind": "gummi-shop",
+        "priceMunny": 1000,
+        "unlock": "Clear both Monstropolis and Arendelle."
+      },
+      "source": "https://www.khwiki.com/Special_Weapon",
+      "sourceNotes": null
+    }
+  ]
+}

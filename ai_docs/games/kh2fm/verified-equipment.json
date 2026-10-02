@@ -1,0 +1,5249 @@
+{
+  "reviewed": "2026-10-01",
+  "edition": "Kingdom Hearts II Final Mix",
+  "records": [
+    {
+      "name": "Elven Bandanna",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Elven_Bandanna",
+      "facts": {
+        "def": "+1",
+        "buy": "100",
+        "sell": "50",
+        "get": "Biggs's Armor Shop; chest at the Mansion: Dining Room (Roxas)."
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "100",
+        "sell": "50",
+        "get": "[[Biggs's Armor Shop]]; chest at the [[Mansion: Dining Room]] (Roxas)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Elven_Bandanna"
+      ],
+      "id": "kh2fm.equipment.elven-bandanna",
+      "displayStats": "Defense +1",
+      "entry": {
+        "id": "kh2fm.equipment.elven-bandanna",
+        "name": "Elven Bandanna",
+        "category": "equipment",
+        "summary": "Armor · Defense +1",
+        "instructions": "Biggs's Armor Shop; chest at the Mansion: Dining Room (Roxas). Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Elven_Bandanna",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Divine Bandanna",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Divine_Bandanna",
+      "facts": {
+        "def": "+2",
+        "buy": "200",
+        "sell": "100",
+        "get": "Mogjiro's Moogle Shop; Mojito's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "200",
+        "sell": "100",
+        "get": "[[Mogjiro's Moogle Shop]]; [[Mojito's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Divine_Bandanna"
+      ],
+      "id": "kh2fm.equipment.divine-bandanna",
+      "displayStats": "Defense +2",
+      "entry": {
+        "id": "kh2fm.equipment.divine-bandanna",
+        "name": "Divine Bandanna",
+        "category": "equipment",
+        "summary": "Armor · Defense +2",
+        "instructions": "Mogjiro's Moogle Shop; Mojito's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mogjiro — Disney Castle; Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Divine_Bandanna",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Protect Belt",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Protect_Belt",
+      "facts": {
+        "def": "+3",
+        "sell": "10",
+        "get": "Win the Pain and Panic Cup (Final Mix)."
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "get": "Complete the [[Cerberus Cup]]<ref>\"Complete the [[Titan Cup]]\" in the original Japanese version.</ref>{{KHII}}<br>Complete the [[Pain & Panic Cup]]{{FMII}}"
+      },
+      "sources": [
+        "https://www.khwiki.com/Protect_Belt"
+      ],
+      "id": "kh2fm.equipment.protect-belt",
+      "displayStats": "Defense +3",
+      "entry": {
+        "id": "kh2fm.equipment.protect-belt",
+        "name": "Protect Belt",
+        "category": "equipment",
+        "summary": "Armor · Defense +3",
+        "instructions": "Win the Pain and Panic Cup (Final Mix). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Protect_Belt"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Gaia Belt",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Gaia_Belt",
+      "facts": {
+        "def": "+3",
+        "thun": "+20%",
+        "dark": "+20%",
+        "sell": "10",
+        "get": "Chest at the I/O Tower: Communications Room."
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "thun": "+20%",
+        "dark": "+20%",
+        "get": "Chest at the [[Space Paranoids#I/O Tower: Communications Room|I/O Tower: Communications Room]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Gaia_Belt"
+      ],
+      "id": "kh2fm.equipment.gaia-belt",
+      "displayStats": "Defense +3; Thunder resistance +20%; Dark resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.gaia-belt",
+        "name": "Gaia Belt",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Thunder resistance +20%; Dark resistance +20%",
+        "instructions": "Chest at the I/O Tower: Communications Room. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Gaia_Belt"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Power Band",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Power_Band",
+      "facts": {
+        "def": "+4",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+4",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Power_Band"
+      ],
+      "id": "kh2fm.equipment.power-band",
+      "displayStats": "Defense +4",
+      "entry": {
+        "id": "kh2fm.equipment.power-band",
+        "name": "Power Band",
+        "category": "equipment",
+        "summary": "Armor · Defense +4",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Power_Band"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Buster Band",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Buster_Band",
+      "facts": {
+        "def": "+5",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+5",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Buster_Band"
+      ],
+      "id": "kh2fm.equipment.buster-band",
+      "displayStats": "Defense +5",
+      "entry": {
+        "id": "kh2fm.equipment.buster-band",
+        "name": "Buster Band",
+        "category": "equipment",
+        "summary": "Armor · Defense +5",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Buster_Band"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Cosmic Belt",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Cosmic_Belt",
+      "facts": {
+        "def": "+6",
+        "get": "Chest at the Twilight's View."
+      },
+      "sourceFields": {
+        "def": "+6",
+        "get": "Chest at the [[Twilight's View]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Belt"
+      ],
+      "id": "kh2fm.equipment.cosmic-belt",
+      "displayStats": "Defense +6",
+      "entry": {
+        "id": "kh2fm.equipment.cosmic-belt",
+        "name": "Cosmic Belt",
+        "category": "equipment",
+        "summary": "Armor · Defense +6",
+        "instructions": "Chest at the Twilight's View.",
+        "sources": [
+          "https://www.khwiki.com/Cosmic_Belt"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Fire Bangle",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Fire_Bangle",
+      "facts": {
+        "def": "+1",
+        "fire": "+20%",
+        "buy": "150",
+        "sell": "75",
+        "get": "Kupo's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "150",
+        "sell": "75",
+        "fire": "+20%",
+        "get": "[[Kupo's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Fire_Bangle"
+      ],
+      "id": "kh2fm.equipment.fire-bangle",
+      "displayStats": "Defense +1; Fire resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.fire-bangle",
+        "name": "Fire Bangle",
+        "category": "equipment",
+        "summary": "Armor · Defense +1; Fire resistance +20%",
+        "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Fire_Bangle",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Fira Bangle",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Fira_Bangle",
+      "facts": {
+        "def": "+2",
+        "fire": "+20%",
+        "buy": "300",
+        "sell": "150",
+        "get": "Mojito's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "300",
+        "sell": "150",
+        "fire": "+20%",
+        "get": "[[Mojito's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Fira_Bangle"
+      ],
+      "id": "kh2fm.equipment.fira-bangle",
+      "displayStats": "Defense +2; Fire resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.fira-bangle",
+        "name": "Fira Bangle",
+        "category": "equipment",
+        "summary": "Armor · Defense +2; Fire resistance +20%",
+        "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Fira_Bangle",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Firaga Bangle",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Firaga_Bangle",
+      "facts": {
+        "def": "+3",
+        "fire": "+20%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "fire": "+20%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Firaga_Bangle"
+      ],
+      "id": "kh2fm.equipment.firaga-bangle",
+      "displayStats": "Defense +3; Fire resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.firaga-bangle",
+        "name": "Firaga Bangle",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Fire resistance +20%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Firaga_Bangle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Firagun Bangle",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Firagun_Bangle",
+      "facts": {
+        "def": "+3",
+        "fire": "+25%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "fire": "+25%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Firagun_Bangle"
+      ],
+      "id": "kh2fm.equipment.firagun-bangle",
+      "displayStats": "Defense +3; Fire resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.firagun-bangle",
+        "name": "Firagun Bangle",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Fire resistance +25%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Firagun_Bangle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Blizzard Armlet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Blizzard_Armlet",
+      "facts": {
+        "def": "+1",
+        "bliz": "+20%",
+        "buy": "150",
+        "sell": "75",
+        "get": "Kupo's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "150",
+        "sell": "75",
+        "bliz": "+20%",
+        "get": "[[Kupo's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Blizzard_Armlet"
+      ],
+      "id": "kh2fm.equipment.blizzard-armlet",
+      "displayStats": "Defense +1; Blizzard resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.blizzard-armlet",
+        "name": "Blizzard Armlet",
+        "category": "equipment",
+        "summary": "Armor · Defense +1; Blizzard resistance +20%",
+        "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Blizzard_Armlet",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Blizzara Armlet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Blizzara_Armlet",
+      "facts": {
+        "def": "+2",
+        "bliz": "+20%",
+        "buy": "300",
+        "sell": "150",
+        "get": "Mojito's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "300",
+        "sell": "150",
+        "bliz": "+20%",
+        "get": "[[Mojito's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Blizzara_Armlet"
+      ],
+      "id": "kh2fm.equipment.blizzara-armlet",
+      "displayStats": "Defense +2; Blizzard resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.blizzara-armlet",
+        "name": "Blizzara Armlet",
+        "category": "equipment",
+        "summary": "Armor · Defense +2; Blizzard resistance +20%",
+        "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Blizzara_Armlet",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Blizzaga Armlet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Blizzaga_Armlet",
+      "facts": {
+        "def": "+3",
+        "bliz": "+20%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "bliz": "+20%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Blizzaga_Armlet"
+      ],
+      "id": "kh2fm.equipment.blizzaga-armlet",
+      "displayStats": "Defense +3; Blizzard resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.blizzaga-armlet",
+        "name": "Blizzaga Armlet",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Blizzard resistance +20%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Blizzaga_Armlet"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Blizzagun Armlet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Blizzagun_Armlet",
+      "facts": {
+        "def": "+3",
+        "bliz": "+25%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "bliz": "+25%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Blizzagun_Armlet"
+      ],
+      "id": "kh2fm.equipment.blizzagun-armlet",
+      "displayStats": "Defense +3; Blizzard resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.blizzagun-armlet",
+        "name": "Blizzagun Armlet",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Blizzard resistance +25%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Blizzagun_Armlet"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Thunder Trinket",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Thunder_Trinket",
+      "facts": {
+        "def": "+1",
+        "thun": "+20%",
+        "buy": "150",
+        "sell": "75",
+        "get": "Kupo's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "150",
+        "sell": "75",
+        "thun": "+20%",
+        "get": "[[Kupo's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Thunder_Trinket"
+      ],
+      "id": "kh2fm.equipment.thunder-trinket",
+      "displayStats": "Defense +1; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.thunder-trinket",
+        "name": "Thunder Trinket",
+        "category": "equipment",
+        "summary": "Armor · Defense +1; Thunder resistance +20%",
+        "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Thunder_Trinket",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Thundara Trinket",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Thundara_Trinket",
+      "facts": {
+        "def": "+2",
+        "thun": "+20%",
+        "buy": "300",
+        "sell": "150",
+        "get": "Mojito's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "300",
+        "sell": "150",
+        "thun": "+20%",
+        "get": "[[Mojito's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Thundara_Trinket"
+      ],
+      "id": "kh2fm.equipment.thundara-trinket",
+      "displayStats": "Defense +2; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.thundara-trinket",
+        "name": "Thundara Trinket",
+        "category": "equipment",
+        "summary": "Armor · Defense +2; Thunder resistance +20%",
+        "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Thundara_Trinket",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Thundaga Trinket",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Thundaga_Trinket",
+      "facts": {
+        "def": "+3",
+        "thun": "+20%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "thun": "+20%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Thundaga_Trinket"
+      ],
+      "id": "kh2fm.equipment.thundaga-trinket",
+      "displayStats": "Defense +3; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.thundaga-trinket",
+        "name": "Thundaga Trinket",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Thunder resistance +20%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Thundaga_Trinket"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Thundagun Trinket",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Thundagun_Trinket",
+      "facts": {
+        "def": "+3",
+        "thun": "+25%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "thun": "+25%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Thundagun_Trinket"
+      ],
+      "id": "kh2fm.equipment.thundagun-trinket",
+      "displayStats": "Defense +3; Thunder resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.thundagun-trinket",
+        "name": "Thundagun Trinket",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Thunder resistance +25%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Thundagun_Trinket"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shock Charm",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Shock_Charm",
+      "facts": {
+        "def": "+3",
+        "thun": "+40%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "thun": "+40%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Shock_Charm"
+      ],
+      "id": "kh2fm.equipment.shock-charm",
+      "displayStats": "Defense +3; Thunder resistance +40%",
+      "entry": {
+        "id": "kh2fm.equipment.shock-charm",
+        "name": "Shock Charm",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Thunder resistance +40%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shock_Charm"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shock Charm+",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Shock_Charm%2B",
+      "facts": {
+        "def": "+3",
+        "thun": "+40%",
+        "ability": "Thunder Boost",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "ability": "[[Thunder Boost]]",
+        "sell": "10",
+        "thun": "+40%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Shock_Charm%2B"
+      ],
+      "id": "kh2fm.equipment.shock-charm-plus",
+      "displayStats": "Defense +3; Thunder resistance +40%; Ability Thunder Boost",
+      "entry": {
+        "id": "kh2fm.equipment.shock-charm-plus",
+        "name": "Shock Charm+",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Thunder resistance +40%; Ability Thunder Boost",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shock_Charm%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shadow Anklet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Shadow_Anklet",
+      "facts": {
+        "def": "+1",
+        "dark": "+20%",
+        "buy": "150",
+        "get": "Biggs's Armor Shop"
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "150",
+        "dark": "+20%",
+        "get": "[[Biggs's Armor Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Shadow_Anklet"
+      ],
+      "id": "kh2fm.equipment.shadow-anklet",
+      "displayStats": "Defense +1; Dark resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.shadow-anklet",
+        "name": "Shadow Anklet",
+        "category": "equipment",
+        "summary": "Armor · Defense +1; Dark resistance +20%",
+        "instructions": "Biggs's Armor Shop. Buy price: 150 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Shadow_Anklet",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Dark Anklet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Dark_Anklet",
+      "facts": {
+        "def": "+2",
+        "dark": "+20%",
+        "buy": "300",
+        "sell": "150",
+        "get": "Mogjiro's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "300",
+        "sell": "150",
+        "dark": "+20%",
+        "get": "[[Mogjiro's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Dark_Anklet"
+      ],
+      "id": "kh2fm.equipment.dark-anklet",
+      "displayStats": "Defense +2; Dark resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.dark-anklet",
+        "name": "Dark Anklet",
+        "category": "equipment",
+        "summary": "Armor · Defense +2; Dark resistance +20%",
+        "instructions": "Mogjiro's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mogjiro — Disney Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there. Visit Mogjiro before the Badlands portal opens to retain access to his stock.",
+        "sources": [
+          "https://www.khwiki.com/Dark_Anklet",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false,
+        "uncertainty": "The shop guide says Dark Anklet becomes unavailable if Mogjiro was never visited before the portal opens; the general armor overview calls Champion Belt the only missable armor. These source statements have not been independently reconciled."
+      }
+    },
+    {
+      "name": "Midnight Anklet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Midnight_Anklet",
+      "facts": {
+        "def": "+3",
+        "dark": "+20%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "dark": "+20%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Midnight_Anklet"
+      ],
+      "id": "kh2fm.equipment.midnight-anklet",
+      "displayStats": "Defense +3; Dark resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.midnight-anklet",
+        "name": "Midnight Anklet",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Dark resistance +20%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Midnight_Anklet"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Chaos Anklet",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Chaos_Anklet",
+      "facts": {
+        "def": "+3",
+        "dark": "+25%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "dark": "+25%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Chaos_Anklet"
+      ],
+      "id": "kh2fm.equipment.chaos-anklet",
+      "displayStats": "Defense +3; Dark resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.chaos-anklet",
+        "name": "Chaos Anklet",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Dark resistance +25%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Chaos_Anklet"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Champion Belt",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Champion_Belt",
+      "facts": {
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "get": "Defeat Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Medal on the same save."
+      },
+      "sourceFields": {
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "get": "Defeat [[Setzer]] in the [[Struggle]] tournament (Roxas)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Champion_Belt"
+      ],
+      "id": "kh2fm.equipment.champion-belt",
+      "displayStats": "Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.champion-belt",
+        "name": "Champion Belt",
+        "category": "equipment",
+        "summary": "Armor · Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+        "instructions": "Defeat Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Medal on the same save.",
+        "sources": [
+          "https://www.khwiki.com/Champion_Belt"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Abas Chain",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Abas_Chain",
+      "facts": {
+        "def": "+1",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "buy": "250",
+        "sell": "125",
+        "get": "Kupo's Moogle Shop"
+      },
+      "sourceFields": {
+        "def": "+1",
+        "buy": "250",
+        "sell": "125",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "get": "[[Kupo's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Abas_Chain"
+      ],
+      "id": "kh2fm.equipment.abas-chain",
+      "displayStats": "Defense +1; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.abas-chain",
+        "name": "Abas Chain",
+        "category": "equipment",
+        "summary": "Armor · Defense +1; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+        "instructions": "Kupo's Moogle Shop. Buy price: 250 munny. Sale price: 125 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Abas_Chain",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Aegis Chain",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Aegis_Chain",
+      "facts": {
+        "def": "+2",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "buy": "500",
+        "sell": "250",
+        "get": "Mojito's and Artemicion's Moogle Shops"
+      },
+      "sourceFields": {
+        "def": "+2",
+        "buy": "500",
+        "sell": "250",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "get": "[[Mojito's Moogle Shop|Mojito's]] and [[Artemicion's Moogle Shop]]s"
+      },
+      "sources": [
+        "https://www.khwiki.com/Aegis_Chain"
+      ],
+      "id": "kh2fm.equipment.aegis-chain",
+      "displayStats": "Defense +2; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.aegis-chain",
+        "name": "Aegis Chain",
+        "category": "equipment",
+        "summary": "Armor · Defense +2; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+        "instructions": "Mojito's and Artemicion's Moogle Shops. Buy price: 500 munny. Sale price: 250 munny. Shop worlds: Mojito — Agrabah; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Aegis_Chain",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Acrisius",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Acrisius",
+      "facts": {
+        "def": "+3",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Acrisius"
+      ],
+      "id": "kh2fm.equipment.acrisius",
+      "displayStats": "Defense +3; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+      "entry": {
+        "id": "kh2fm.equipment.acrisius",
+        "name": "Acrisius",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Acrisius"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Acrisius+",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Acrisius%2B",
+      "facts": {
+        "def": "+3",
+        "fire": "+25%",
+        "bliz": "+25%",
+        "thun": "+25%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+3",
+        "sell": "10",
+        "fire": "+25%",
+        "bliz": "+25%",
+        "thun": "+25%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Acrisius%2B"
+      ],
+      "id": "kh2fm.equipment.acrisius-plus",
+      "displayStats": "Defense +3; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.acrisius-plus",
+        "name": "Acrisius+",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Acrisius%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Cosmic Chain",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Cosmic_Chain",
+      "facts": {
+        "def": "+3",
+        "fire": "+30%",
+        "bliz": "+30%",
+        "thun": "+30%",
+        "get": "Chest at the Heartless Manufactory."
+      },
+      "sourceFields": {
+        "def": "+3",
+        "fire": "+30%",
+        "bliz": "+30%",
+        "thun": "+30%",
+        "get": "Chest at the [[Heartless Manufactory]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Chain"
+      ],
+      "id": "kh2fm.equipment.cosmic-chain",
+      "displayStats": "Defense +3; Fire resistance +30%; Blizzard resistance +30%; Thunder resistance +30%",
+      "entry": {
+        "id": "kh2fm.equipment.cosmic-chain",
+        "name": "Cosmic Chain",
+        "category": "equipment",
+        "summary": "Armor · Defense +3; Fire resistance +30%; Blizzard resistance +30%; Thunder resistance +30%",
+        "instructions": "Chest at the Heartless Manufactory.",
+        "sources": [
+          "https://www.khwiki.com/Cosmic_Chain"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Petite Ribbon",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Petite_Ribbon",
+      "facts": {
+        "def": "+4",
+        "fire": "+10%",
+        "bliz": "+10%",
+        "thun": "+10%",
+        "dark": "+10%",
+        "phys": "+10%",
+        "none": "+10%",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "def": "+4",
+        "sell": "10",
+        "fire": "+10%",
+        "bliz": "+10%",
+        "thun": "+10%",
+        "dark": "+10%",
+        "phys": "+10%",
+        "none": "+10%",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Petite_Ribbon"
+      ],
+      "id": "kh2fm.equipment.petite-ribbon",
+      "displayStats": "Defense +4; Fire resistance +10%; Blizzard resistance +10%; Thunder resistance +10%; Dark resistance +10%; Physical resistance +10%; Non-elemental resistance +10%",
+      "entry": {
+        "id": "kh2fm.equipment.petite-ribbon",
+        "name": "Petite Ribbon",
+        "category": "equipment",
+        "summary": "Armor · Defense +4; Fire resistance +10%; Blizzard resistance +10%; Thunder resistance +10%; Dark resistance +10%; Physical resistance +10%; Non-elemental resistance +10%",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Petite_Ribbon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Ribbon",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Ribbon",
+      "facts": {
+        "def": "+4",
+        "fire": "+15%",
+        "bliz": "+15%",
+        "thun": "+15%",
+        "dark": "+15%",
+        "phys": "+15%",
+        "none": "+15%",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "def": "+4",
+        "sell": "10",
+        "fire": "+20%",
+        "bliz": "+20%",
+        "thun": "+20%",
+        "dark": "+20%",
+        "phys": "+20%",
+        "none": "+20%",
+        "FMfire": "+15%",
+        "FMbliz": "+15%",
+        "FMthun": "+15%",
+        "FMdark": "+15%",
+        "FMphys": "+15%",
+        "FMnone": "+15%",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Ribbon"
+      ],
+      "id": "kh2fm.equipment.ribbon",
+      "displayStats": "Defense +4; Fire resistance +15%; Blizzard resistance +15%; Thunder resistance +15%; Dark resistance +15%; Physical resistance +15%; Non-elemental resistance +15%",
+      "entry": {
+        "id": "kh2fm.equipment.ribbon",
+        "name": "Ribbon",
+        "category": "equipment",
+        "summary": "Armor · Defense +4; Fire resistance +15%; Blizzard resistance +15%; Thunder resistance +15%; Dark resistance +15%; Physical resistance +15%; Non-elemental resistance +15%",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Ribbon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Grand Ribbon",
+      "kind": "armor",
+      "url": "https://www.khwiki.com/Grand_Ribbon",
+      "facts": {
+        "def": "+4",
+        "fire": "+25%",
+        "bliz": "+25%",
+        "thun": "+25%",
+        "dark": "+25%",
+        "phys": "+25%",
+        "none": "+25%",
+        "sell": "10",
+        "get": "Complete the \"Sunset\" Puzzle."
+      },
+      "sourceFields": {
+        "def": "+4",
+        "sell": "10",
+        "fire": "+25%",
+        "bliz": "+25%",
+        "thun": "+25%",
+        "dark": "+25%",
+        "phys": "+25%",
+        "none": "+25%",
+        "get": "Complete the \"Sunset\" [[Puzzle]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Grand_Ribbon"
+      ],
+      "id": "kh2fm.equipment.grand-ribbon",
+      "displayStats": "Defense +4; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%; Dark resistance +25%; Physical resistance +25%; Non-elemental resistance +25%",
+      "entry": {
+        "id": "kh2fm.equipment.grand-ribbon",
+        "name": "Grand Ribbon",
+        "category": "equipment",
+        "summary": "Armor · Defense +4; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%; Dark resistance +25%; Physical resistance +25%; Non-elemental resistance +25%",
+        "instructions": "Complete the \"Sunset\" Puzzle. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Grand_Ribbon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Ability Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Ability_Ring",
+      "facts": {
+        "AP": "+1",
+        "buy": "80",
+        "sell": "40",
+        "get": "Jessie's Accessory Shop; chest at the Sunset Terrace (Roxas)."
+      },
+      "sourceFields": {
+        "buy": "80",
+        "sell": "40",
+        "AP": "+1",
+        "get": "[[Jessie's Accessory Shop]]; chest at the [[Sunset Terrace]] (Roxas)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Ability_Ring"
+      ],
+      "id": "kh2fm.equipment.ability-ring",
+      "displayStats": "AP +1",
+      "entry": {
+        "id": "kh2fm.equipment.ability-ring",
+        "name": "Ability Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +1",
+        "instructions": "Jessie's Accessory Shop; chest at the Sunset Terrace (Roxas). Buy price: 80 munny. Sale price: 40 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Ability_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Engineer's Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Engineer%27s_Ring",
+      "facts": {
+        "AP": "+2",
+        "buy": "160",
+        "sell": "80",
+        "get": "Gumo's and Mogtaro's Moogle Shops"
+      },
+      "sourceFields": {
+        "buy": "160",
+        "sell": "80",
+        "AP": "+2",
+        "get": "[[Gumo's Moogle Shop|Gumo's]] and [[Mogtaro's Moogle Shop]]s"
+      },
+      "sources": [
+        "https://www.khwiki.com/Engineer%27s_Ring"
+      ],
+      "id": "kh2fm.equipment.engineer-s-ring",
+      "displayStats": "AP +2",
+      "entry": {
+        "id": "kh2fm.equipment.engineer-s-ring",
+        "name": "Engineer's Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +2",
+        "instructions": "Gumo's and Mogtaro's Moogle Shops. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Mogtaro — Timeless River; Gumo — Halloween Town. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Engineer%27s_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Technician's Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Technician%27s_Ring",
+      "facts": {
+        "AP": "+3",
+        "buy": "240",
+        "sell": "120",
+        "get": "Gumo's Moogle Shop"
+      },
+      "sourceFields": {
+        "buy": "240",
+        "sell": "120",
+        "AP": "+3",
+        "get": "[[Gumo's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Technician%27s_Ring"
+      ],
+      "id": "kh2fm.equipment.technician-s-ring",
+      "displayStats": "AP +3",
+      "entry": {
+        "id": "kh2fm.equipment.technician-s-ring",
+        "name": "Technician's Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +3",
+        "instructions": "Gumo's Moogle Shop. Buy price: 240 munny. Sale price: 120 munny. Shop worlds: Gumo — Halloween Town. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Technician%27s_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Skill Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Skill_Ring",
+      "facts": {
+        "AP": "+4",
+        "sell": "10",
+        "get": "Chest at the Palace Walls."
+      },
+      "sourceFields": {
+        "sell": "10",
+        "AP": "+4",
+        "get": "Chest at the [[Palace Walls]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Skill_Ring"
+      ],
+      "id": "kh2fm.equipment.skill-ring",
+      "displayStats": "AP +4",
+      "entry": {
+        "id": "kh2fm.equipment.skill-ring",
+        "name": "Skill Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +4",
+        "instructions": "Chest at the Palace Walls. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Skill_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Skillful Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Skillful_Ring",
+      "facts": {
+        "AP": "+5",
+        "sell": "10",
+        "get": "Win the Titan Cup."
+      },
+      "sourceFields": {
+        "sell": "10",
+        "AP": "+5",
+        "get": "Complete the [[Titan Cup]]<ref>\"Complete the [[Cerberus Cup]]\" in the original Japanese version.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Skillful_Ring"
+      ],
+      "id": "kh2fm.equipment.skillful-ring",
+      "displayStats": "AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.skillful-ring",
+        "name": "Skillful Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +5",
+        "instructions": "Win the Titan Cup. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Skillful_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Expert's Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Expert%27s_Ring",
+      "facts": {
+        "AP": "+6",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "sell": "10",
+        "AP": "+6",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Expert%27s_Ring"
+      ],
+      "id": "kh2fm.equipment.expert-s-ring",
+      "displayStats": "AP +6",
+      "entry": {
+        "id": "kh2fm.equipment.expert-s-ring",
+        "name": "Expert's Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +6",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Expert%27s_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Master's Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Master%27s_Ring",
+      "facts": {
+        "AP": "+7",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "sell": "10",
+        "AP": "+7",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Master%27s_Ring"
+      ],
+      "id": "kh2fm.equipment.master-s-ring",
+      "displayStats": "AP +7",
+      "entry": {
+        "id": "kh2fm.equipment.master-s-ring",
+        "name": "Master's Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +7",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Master%27s_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Cosmic Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Cosmic_Ring",
+      "facts": {
+        "AP": "+8",
+        "get": "Chest at the Starry Hill."
+      },
+      "sourceFields": {
+        "AP": "+8",
+        "get": "Chest at the [[Starry Hill]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Ring"
+      ],
+      "id": "kh2fm.equipment.cosmic-ring",
+      "displayStats": "AP +8",
+      "entry": {
+        "id": "kh2fm.equipment.cosmic-ring",
+        "name": "Cosmic Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +8",
+        "instructions": "Chest at the Starry Hill.",
+        "sources": [
+          "https://www.khwiki.com/Cosmic_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Executive's Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Executive%27s_Ring",
+      "facts": {
+        "AP": "+30",
+        "sell": "10",
+        "get": "Complete the \"Daylight\" Puzzle."
+      },
+      "sourceFields": {
+        "sell": "10",
+        "AP": "+30",
+        "get": "Complete the \"Daylight\" [[Puzzle]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Executive%27s_Ring"
+      ],
+      "id": "kh2fm.equipment.executive-s-ring",
+      "displayStats": "AP +30",
+      "entry": {
+        "id": "kh2fm.equipment.executive-s-ring",
+        "name": "Executive's Ring",
+        "category": "equipment",
+        "summary": "Accessory · AP +30",
+        "instructions": "Complete the \"Daylight\" Puzzle. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Executive%27s_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Sardonyx Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Sardonyx_Ring",
+      "facts": {
+        "str": "+1",
+        "AP": "+1",
+        "buy": "160",
+        "sell": "80",
+        "get": "Monty's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "buy": "160",
+        "sell": "80",
+        "AP": "+1",
+        "get": "[[Monty's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Sardonyx_Ring"
+      ],
+      "id": "kh2fm.equipment.sardonyx-ring",
+      "displayStats": "Strength +1; AP +1",
+      "entry": {
+        "id": "kh2fm.equipment.sardonyx-ring",
+        "name": "Sardonyx Ring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; AP +1",
+        "instructions": "Monty's Moogle Shop. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Monty — Beast’s Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Sardonyx_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Tourmaline Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Tourmaline_Ring",
+      "facts": {
+        "str": "+1",
+        "AP": "+2",
+        "buy": "320",
+        "sell": "160",
+        "get": "Mogtaro's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "buy": "320",
+        "sell": "160",
+        "AP": "+2",
+        "get": "[[Mogtaro's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Tourmaline_Ring"
+      ],
+      "id": "kh2fm.equipment.tourmaline-ring",
+      "displayStats": "Strength +1; AP +2",
+      "entry": {
+        "id": "kh2fm.equipment.tourmaline-ring",
+        "name": "Tourmaline Ring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; AP +2",
+        "instructions": "Mogtaro's Moogle Shop. Buy price: 320 munny. Sale price: 160 munny. Shop worlds: Mogtaro — Timeless River. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Tourmaline_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Aquamarine Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Aquamarine_Ring",
+      "facts": {
+        "str": "+1",
+        "AP": "+3",
+        "buy": "480",
+        "sell": "240",
+        "get": "Gumo's and Artemicion's Moogle Shops"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "buy": "480",
+        "sell": "240",
+        "AP": "+3",
+        "get": "[[Gumo's Moogle Shop|Gumo's]] and [[Artemicion's Moogle Shop]]s"
+      },
+      "sources": [
+        "https://www.khwiki.com/Aquamarine_Ring"
+      ],
+      "id": "kh2fm.equipment.aquamarine-ring",
+      "displayStats": "Strength +1; AP +3",
+      "entry": {
+        "id": "kh2fm.equipment.aquamarine-ring",
+        "name": "Aquamarine Ring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; AP +3",
+        "instructions": "Gumo's and Artemicion's Moogle Shops. Buy price: 480 munny. Sale price: 240 munny. Shop worlds: Gumo — Halloween Town; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Aquamarine_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Garnet Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Garnet_Ring",
+      "facts": {
+        "str": "+1",
+        "AP": "+4",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "sell": "10",
+        "AP": "+4",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Garnet_Ring"
+      ],
+      "id": "kh2fm.equipment.garnet-ring",
+      "displayStats": "Strength +1; AP +4",
+      "entry": {
+        "id": "kh2fm.equipment.garnet-ring",
+        "name": "Garnet Ring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; AP +4",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Garnet_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Diamond Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Diamond_Ring",
+      "facts": {
+        "str": "+1",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Diamond_Ring"
+      ],
+      "id": "kh2fm.equipment.diamond-ring",
+      "displayStats": "Strength +1; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.diamond-ring",
+        "name": "Diamond Ring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; AP +5",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Diamond_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Silver Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Silver_Ring",
+      "facts": {
+        "mag": "+1",
+        "AP": "+1",
+        "buy": "160",
+        "sell": "80",
+        "get": "Monty's Moogle Shop"
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "buy": "160",
+        "sell": "80",
+        "AP": "+1",
+        "get": "[[Monty's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Silver_Ring"
+      ],
+      "id": "kh2fm.equipment.silver-ring",
+      "displayStats": "Magic +1; AP +1",
+      "entry": {
+        "id": "kh2fm.equipment.silver-ring",
+        "name": "Silver Ring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +1; AP +1",
+        "instructions": "Monty's Moogle Shop. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Monty — Beast’s Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Silver_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Gold Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Gold_Ring",
+      "facts": {
+        "mag": "+1",
+        "AP": "+2",
+        "buy": "320",
+        "sell": "160",
+        "get": "Mogtaro's Moogle Shop"
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "buy": "320",
+        "sell": "160",
+        "AP": "+2",
+        "get": "[[Mogtaro's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Gold_Ring"
+      ],
+      "id": "kh2fm.equipment.gold-ring",
+      "displayStats": "Magic +1; AP +2",
+      "entry": {
+        "id": "kh2fm.equipment.gold-ring",
+        "name": "Gold Ring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +1; AP +2",
+        "instructions": "Mogtaro's Moogle Shop. Buy price: 320 munny. Sale price: 160 munny. Shop worlds: Mogtaro — Timeless River. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Gold_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Platinum Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Platinum_Ring",
+      "facts": {
+        "mag": "+1",
+        "AP": "+3",
+        "buy": "480",
+        "sell": "240",
+        "get": "Gumo's and Artemicion's Moogle Shops"
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "buy": "480",
+        "sell": "240",
+        "AP": "+3",
+        "get": "[[Gumo's Moogle Shop|Gumo's]] and [[Artemicion's Moogle Shop]]s"
+      },
+      "sources": [
+        "https://www.khwiki.com/Platinum_Ring"
+      ],
+      "id": "kh2fm.equipment.platinum-ring",
+      "displayStats": "Magic +1; AP +3",
+      "entry": {
+        "id": "kh2fm.equipment.platinum-ring",
+        "name": "Platinum Ring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +1; AP +3",
+        "instructions": "Gumo's and Artemicion's Moogle Shops. Buy price: 480 munny. Sale price: 240 munny. Shop worlds: Gumo — Halloween Town; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Platinum_Ring",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Mythril Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Mythril_Ring",
+      "facts": {
+        "mag": "+1",
+        "AP": "+4",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "sell": "10",
+        "AP": "+4",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Mythril_Ring"
+      ],
+      "id": "kh2fm.equipment.mythril-ring",
+      "displayStats": "Magic +1; AP +4",
+      "entry": {
+        "id": "kh2fm.equipment.mythril-ring",
+        "name": "Mythril Ring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +1; AP +4",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Mythril_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Orichalcum Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Orichalcum_Ring",
+      "facts": {
+        "mag": "+1",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Orichalcum_Ring"
+      ],
+      "id": "kh2fm.equipment.orichalcum-ring",
+      "displayStats": "Magic +1; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.orichalcum-ring",
+        "name": "Orichalcum Ring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +1; AP +5",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Orichalcum_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Soldier Earring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Soldier_Earring",
+      "facts": {
+        "str": "+2",
+        "AP": "+4",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "sell": "10",
+        "AP": "+4",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Soldier_Earring"
+      ],
+      "id": "kh2fm.equipment.soldier-earring",
+      "displayStats": "Strength +2; AP +4",
+      "entry": {
+        "id": "kh2fm.equipment.soldier-earring",
+        "name": "Soldier Earring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +2; AP +4",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Soldier_Earring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Fencer Earring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Fencer_Earring",
+      "facts": {
+        "str": "+2",
+        "mag": "+1",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+1",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Fencer_Earring"
+      ],
+      "id": "kh2fm.equipment.fencer-earring",
+      "displayStats": "Strength +2; Magic +1; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.fencer-earring",
+        "name": "Fencer Earring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +2; Magic +1; AP +5",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Fencer_Earring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Mage Earring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Mage_Earring",
+      "facts": {
+        "mag": "+2",
+        "AP": "+4",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "mag": "+2",
+        "sell": "10",
+        "AP": "+4",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Mage_Earring"
+      ],
+      "id": "kh2fm.equipment.mage-earring",
+      "displayStats": "Magic +2; AP +4",
+      "entry": {
+        "id": "kh2fm.equipment.mage-earring",
+        "name": "Mage Earring",
+        "category": "equipment",
+        "summary": "Accessory · Magic +2; AP +4",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Mage_Earring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Slayer Earring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Slayer_Earring",
+      "facts": {
+        "str": "+1",
+        "mag": "+2",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+1",
+        "mag": "+2",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Slayer_Earring"
+      ],
+      "id": "kh2fm.equipment.slayer-earring",
+      "displayStats": "Strength +1; Magic +2; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.slayer-earring",
+        "name": "Slayer Earring",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1; Magic +2; AP +5",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Slayer_Earring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Medal",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Medal_(accessory)",
+      "facts": {
+        "str": "+1",
+        "get": "Lose to Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Champion Belt on the same save."
+      },
+      "sourceFields": {
+        "str": "+1",
+        "get": "Lose to [[Setzer]] in the [[Struggle]] tournament (Roxas)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Medal_(accessory)"
+      ],
+      "id": "kh2fm.equipment.medal",
+      "displayStats": "Strength +1",
+      "entry": {
+        "id": "kh2fm.equipment.medal",
+        "name": "Medal",
+        "category": "equipment",
+        "summary": "Accessory · Strength +1",
+        "instructions": "Lose to Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Champion Belt on the same save.",
+        "sources": [
+          "https://www.khwiki.com/Medal_(accessory)"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Moon Amulet",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Moon_Amulet",
+      "facts": {
+        "str": "+2",
+        "mag": "+2",
+        "AP": "+3",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+2",
+        "sell": "10",
+        "AP": "+3",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Moon_Amulet"
+      ],
+      "id": "kh2fm.equipment.moon-amulet",
+      "displayStats": "Strength +2; Magic +2; AP +3",
+      "entry": {
+        "id": "kh2fm.equipment.moon-amulet",
+        "name": "Moon Amulet",
+        "category": "equipment",
+        "summary": "Accessory · Strength +2; Magic +2; AP +3",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Moon_Amulet"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Star Charm",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Star_Charm",
+      "facts": {
+        "str": "+2",
+        "mag": "+2",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+2",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Star_Charm"
+      ],
+      "id": "kh2fm.equipment.star-charm",
+      "displayStats": "Strength +2; Magic +2; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.star-charm",
+        "name": "Star Charm",
+        "category": "equipment",
+        "summary": "Accessory · Strength +2; Magic +2; AP +5",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Star_Charm"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Cosmic Arts",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Cosmic_Arts",
+      "facts": {
+        "str": "+2",
+        "mag": "+2",
+        "AP": "+7",
+        "get": "Chest at the Central Computer Mesa."
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+2",
+        "AP": "+7",
+        "get": "Chest at the [[Central Computer Mesa]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Cosmic_Arts"
+      ],
+      "id": "kh2fm.equipment.cosmic-arts",
+      "displayStats": "Strength +2; Magic +2; AP +7",
+      "entry": {
+        "id": "kh2fm.equipment.cosmic-arts",
+        "name": "Cosmic Arts",
+        "category": "equipment",
+        "summary": "Accessory · Strength +2; Magic +2; AP +7",
+        "instructions": "Chest at the Central Computer Mesa.",
+        "sources": [
+          "https://www.khwiki.com/Cosmic_Arts"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shadow Archive",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Shadow_Archive",
+      "facts": {
+        "mag": "+3",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "mag": "+3",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Shadow_Archive"
+      ],
+      "id": "kh2fm.equipment.shadow-archive",
+      "displayStats": "Magic +3; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.shadow-archive",
+        "name": "Shadow Archive",
+        "category": "equipment",
+        "summary": "Accessory · Magic +3; AP +5",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shadow_Archive"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shadow Archive+",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Shadow_Archive%2B",
+      "facts": {
+        "mag": "+3",
+        "AP": "+5",
+        "ability": "MP Rage",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "mag": "+3",
+        "sell": "10",
+        "AP": "+5",
+        "ability": "[[MP Rage]]",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Shadow_Archive%2B"
+      ],
+      "id": "kh2fm.equipment.shadow-archive-plus",
+      "displayStats": "Magic +3; AP +5; Ability MP Rage",
+      "entry": {
+        "id": "kh2fm.equipment.shadow-archive-plus",
+        "name": "Shadow Archive+",
+        "category": "equipment",
+        "summary": "Accessory · Magic +3; AP +5; Ability MP Rage",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shadow_Archive%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Full Bloom",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Full_Bloom",
+      "facts": {
+        "str": "+3",
+        "AP": "+5",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "sell": "10",
+        "AP": "+5",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Full_Bloom"
+      ],
+      "id": "kh2fm.equipment.full-bloom",
+      "displayStats": "Strength +3; AP +5",
+      "entry": {
+        "id": "kh2fm.equipment.full-bloom",
+        "name": "Full Bloom",
+        "category": "equipment",
+        "summary": "Accessory · Strength +3; AP +5",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Full_Bloom"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Full Bloom+",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Full_Bloom%2B",
+      "facts": {
+        "str": "+3",
+        "AP": "+5",
+        "ability": "MP Haste",
+        "sell": "10",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "sell": "10",
+        "AP": "+5",
+        "ability": "[[MP Haste]]",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Full_Bloom%2B"
+      ],
+      "id": "kh2fm.equipment.full-bloom-plus",
+      "displayStats": "Strength +3; AP +5; Ability MP Haste",
+      "entry": {
+        "id": "kh2fm.equipment.full-bloom-plus",
+        "name": "Full Bloom+",
+        "category": "equipment",
+        "summary": "Accessory · Strength +3; AP +5; Ability MP Haste",
+        "instructions": "Item Synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Full_Bloom%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Draw Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Draw_Ring",
+      "facts": {
+        "ability": "Draw",
+        "sell": "—",
+        "get": "Item synthesis (Final Mix)."
+      },
+      "sourceFields": {
+        "sell": "—",
+        "ability": "[[Draw]]",
+        "get": "Chest at [[Rabbit's House]]{{KHII}}<br>Item Synthesis{{FMII}}"
+      },
+      "sources": [
+        "https://www.khwiki.com/Draw_Ring"
+      ],
+      "id": "kh2fm.equipment.draw-ring",
+      "displayStats": "Ability Draw",
+      "entry": {
+        "id": "kh2fm.equipment.draw-ring",
+        "name": "Draw Ring",
+        "category": "equipment",
+        "summary": "Accessory · Ability Draw",
+        "instructions": "Item synthesis (Final Mix).",
+        "sources": [
+          "https://www.khwiki.com/Draw_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Lucky Ring",
+      "kind": "accessory",
+      "url": "https://www.khwiki.com/Lucky_Ring",
+      "facts": {
+        "ability": "Lucky Lucky",
+        "sell": "—",
+        "get": "Item synthesis (Final Mix)."
+      },
+      "sourceFields": {
+        "sell": "—",
+        "ability": "[[Lucky Lucky]]",
+        "get": "Complete the [[Pain and Panic Cup]];{{KHII}} Item Synthesis{{FMII}}"
+      },
+      "sources": [
+        "https://www.khwiki.com/Lucky_Ring"
+      ],
+      "id": "kh2fm.equipment.lucky-ring",
+      "displayStats": "Ability Lucky Lucky",
+      "entry": {
+        "id": "kh2fm.equipment.lucky-ring",
+        "name": "Lucky Ring",
+        "category": "equipment",
+        "summary": "Accessory · Ability Lucky Lucky",
+        "instructions": "Item synthesis (Final Mix).",
+        "sources": [
+          "https://www.khwiki.com/Lucky_Ring"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Kingdom Key",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Kingdom_Key",
+      "facts": {
+        "str": "+3",
+        "mag": "+1",
+        "length": "100",
+        "ability": "Damage Control",
+        "get": "Fight the \"Mysterious Enemy\" at The Old Mansion."
+      },
+      "sourceFields": {
+        "FMdesc": "A keychain attached to the Keyblade. Halves damage taken in critical situations.",
+        "str": "+3",
+        "mag": "+1",
+        "length": "100",
+        "ability": "{{c|Defender|ability}}",
+        "FMability": "[[Damage Control]]",
+        "get": "Fight the \"[[Dusk|Mysterious Enemy]]\" at [[The Old Mansion]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Kingdom_Key"
+      ],
+      "id": "kh2fm.keyblades.kingdom-key",
+      "displayStats": "Strength +3; Magic +1; Ability Damage Control",
+      "patch": {
+        "summary": "Strength +3; Magic +1; Ability Damage Control.",
+        "appendInstructions": "Equipment: Fight the \"Mysterious Enemy\" at The Old Mansion.",
+        "appendSources": [
+          "https://www.khwiki.com/Kingdom_Key"
+        ]
+      }
+    },
+    {
+      "name": "Oathkeeper",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Oathkeeper",
+      "facts": {
+        "str": "+3",
+        "mag": "+3",
+        "length": "98",
+        "ability": "Form Boost",
+        "get": "Unlock the Gate in Twilight Town."
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+3",
+        "length": "98",
+        "ability": "[[Form Boost]]",
+        "get": "Unlock the Gate in [[Twilight Town]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Oathkeeper"
+      ],
+      "id": "kh2fm.keyblades.oathkeeper",
+      "displayStats": "Strength +3; Magic +3; Ability Form Boost",
+      "patch": {
+        "summary": "Strength +3; Magic +3; Ability Form Boost.",
+        "appendInstructions": "Equipment: Unlock the Gate in Twilight Town.",
+        "appendSources": [
+          "https://www.khwiki.com/Oathkeeper"
+        ]
+      }
+    },
+    {
+      "name": "Oblivion",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Oblivion",
+      "facts": {
+        "str": "+6",
+        "mag": "+2",
+        "length": "122",
+        "ability": "Drive Boost",
+        "get": "Reunite with Riku in The World That Never Was."
+      },
+      "sourceFields": {
+        "str": "+6",
+        "mag": "+2",
+        "length": "122",
+        "ability": "[[Drive Boost]]",
+        "get": "Reunite with Riku in [[The World That Never Was]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Oblivion"
+      ],
+      "id": "kh2fm.keyblades.oblivion",
+      "displayStats": "Strength +6; Magic +2; Ability Drive Boost",
+      "patch": {
+        "summary": "Strength +6; Magic +2; Ability Drive Boost.",
+        "appendInstructions": "Equipment: Reunite with Riku in The World That Never Was.",
+        "appendSources": [
+          "https://www.khwiki.com/Oblivion"
+        ]
+      }
+    },
+    {
+      "name": "Star Seeker",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Star_Seeker",
+      "facts": {
+        "str": "+3",
+        "mag": "+1",
+        "length": "128",
+        "ability": "Air Combo Plus",
+        "get": "Speak to Flora, Fauna, and Merryweather in Mysterious Tower."
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+1",
+        "length": "128",
+        "ability": "[[Air Combo Plus]]",
+        "get": "Speak to Flora, Fauna, and Merryweather in [[Mysterious Tower]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Star_Seeker"
+      ],
+      "id": "kh2fm.keyblades.star-seeker",
+      "displayStats": "Strength +3; Magic +1; Ability Air Combo Plus",
+      "patch": {
+        "summary": "Strength +3; Magic +1; Ability Air Combo Plus.",
+        "appendInstructions": "Equipment: Speak to Flora, Fauna, and Merryweather in Mysterious Tower.",
+        "appendSources": [
+          "https://www.khwiki.com/Star_Seeker"
+        ]
+      }
+    },
+    {
+      "name": "Hidden Dragon",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Hidden_Dragon",
+      "facts": {
+        "str": "+2",
+        "mag": "+2",
+        "length": "104",
+        "ability": "MP Rage",
+        "get": "Defeat Shan-Yu in The Land of Dragons."
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+2",
+        "ability": "[[MP Rage]]",
+        "length": "104",
+        "get": "Defeat [[Shan-Yu]] in [[The Land of Dragons]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Hidden_Dragon"
+      ],
+      "id": "kh2fm.keyblades.hidden-dragon",
+      "displayStats": "Strength +2; Magic +2; Ability MP Rage",
+      "patch": {
+        "summary": "Strength +2; Magic +2; Ability MP Rage.",
+        "appendInstructions": "Equipment: Defeat Shan-Yu in The Land of Dragons.",
+        "appendSources": [
+          "https://www.khwiki.com/Hidden_Dragon"
+        ]
+      }
+    },
+    {
+      "name": "Hero's Crest",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Hero%27s_Crest",
+      "facts": {
+        "str": "+4",
+        "length": "124",
+        "ability": "Air Combo Boost",
+        "get": "Defeat the Hydra at Olympus Coliseum."
+      },
+      "sourceFields": {
+        "str": "+4",
+        "length": "124",
+        "ability": "[[Air Combo Boost]]",
+        "get": "Defeat the [[Hydra]] at [[Olympus Coliseum]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Hero%27s_Crest"
+      ],
+      "id": "kh2fm.keyblades.hero-s-crest",
+      "displayStats": "Strength +4; Ability Air Combo Boost",
+      "patch": {
+        "summary": "Strength +4; Ability Air Combo Boost.",
+        "appendInstructions": "Equipment: Defeat the Hydra at Olympus Coliseum.",
+        "appendSources": [
+          "https://www.khwiki.com/Hero%27s_Crest"
+        ]
+      }
+    },
+    {
+      "name": "Monochrome",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Monochrome",
+      "facts": {
+        "str": "+3",
+        "mag": "+2",
+        "length": "102",
+        "ability": "Item Boost",
+        "get": "Complete Timeless River."
+      },
+      "sourceFields": {
+        "FMdesc": "Increases the effect of restoration items used on the field by 50%.",
+        "str": "+3",
+        "mag": "+2",
+        "length": "102",
+        "ability": "[[Item Boost]]",
+        "get": "Complete [[Timeless River]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Monochrome"
+      ],
+      "id": "kh2fm.keyblades.monochrome",
+      "displayStats": "Strength +3; Magic +2; Ability Item Boost",
+      "patch": {
+        "summary": "Strength +3; Magic +2; Ability Item Boost.",
+        "appendInstructions": "Equipment: Complete Timeless River.",
+        "appendSources": [
+          "https://www.khwiki.com/Monochrome"
+        ]
+      }
+    },
+    {
+      "name": "Follow the Wind",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Follow_the_Wind",
+      "facts": {
+        "str": "+3",
+        "mag": "+1",
+        "length": "130",
+        "ability": "Draw",
+        "get": "Defeat Captain Barbossa in Port Royal."
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+1",
+        "length": "130",
+        "ability": "[[Draw]]",
+        "get": "Defeat [[Captain Barbossa]] in [[Port Royal]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Follow_the_Wind"
+      ],
+      "id": "kh2fm.keyblades.follow-the-wind",
+      "displayStats": "Strength +3; Magic +1; Ability Draw",
+      "patch": {
+        "summary": "Strength +3; Magic +1; Ability Draw.",
+        "appendInstructions": "Equipment: Defeat Captain Barbossa in Port Royal.",
+        "appendSources": [
+          "https://www.khwiki.com/Follow_the_Wind"
+        ]
+      }
+    },
+    {
+      "name": "Circle of Life",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Circle_of_Life",
+      "facts": {
+        "str": "+4",
+        "mag": "+1",
+        "length": "114",
+        "ability": "MP Haste",
+        "get": "Talk to Simba in the Oasis of Pride Lands."
+      },
+      "sourceFields": {
+        "FMdesc": "Has great strength, increasing MP restoration speed by 25% after MP is consumed.",
+        "str": "+4",
+        "mag": "+1",
+        "length": "114",
+        "ability": "[[MP Haste]]",
+        "get": "Talk to Simba in the Oasis of [[Pride Lands]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Circle_of_Life"
+      ],
+      "id": "kh2fm.keyblades.circle-of-life",
+      "displayStats": "Strength +4; Magic +1; Ability MP Haste",
+      "patch": {
+        "summary": "Strength +4; Magic +1; Ability MP Haste.",
+        "appendInstructions": "Equipment: Talk to Simba in the Oasis of Pride Lands.",
+        "appendSources": [
+          "https://www.khwiki.com/Circle_of_Life"
+        ]
+      }
+    },
+    {
+      "name": "Photon Debugger",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Photon_Debugger",
+      "facts": {
+        "str": "+3",
+        "mag": "+2",
+        "length": "104",
+        "ability": "Thunder Boost",
+        "get": "Defeat the Hostile Program."
+      },
+      "sourceFields": {
+        "FMdesc": "Increases damage done with thunder-based attacks by 20%.",
+        "str": "+3",
+        "mag": "+2",
+        "length": "104",
+        "ability": "[[Thunder Boost]]",
+        "get": "Defeat the [[Hostile Program]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Photon_Debugger"
+      ],
+      "id": "kh2fm.keyblades.photon-debugger",
+      "displayStats": "Strength +3; Magic +2; Ability Thunder Boost",
+      "patch": {
+        "summary": "Strength +3; Magic +2; Ability Thunder Boost.",
+        "appendInstructions": "Equipment: Defeat the Hostile Program.",
+        "appendSources": [
+          "https://www.khwiki.com/Photon_Debugger"
+        ]
+      }
+    },
+    {
+      "name": "Gull Wing",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Gull_Wing",
+      "facts": {
+        "str": "+2",
+        "mag": "+3",
+        "length": "112",
+        "ability": "Experience Boost",
+        "get": "Speak with the Gullwings after the Battle of the 1000 Heartless."
+      },
+      "sourceFields": {
+        "FMdesc": "Increases the amount of experience gained by 100% when defeating an enemy at a critical moment.",
+        "str": "+3",
+        "FMstr": "+2",
+        "FMmag": "+3",
+        "length": "112",
+        "ability": "[[Experience Boost]]",
+        "get": "Speak with the [[Gullwings]] after the [[Battle of the 1000 Heartless]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Gull_Wing"
+      ],
+      "id": "kh2fm.keyblades.gull-wing",
+      "displayStats": "Strength +2; Magic +3; Ability Experience Boost",
+      "patch": {
+        "summary": "Strength +2; Magic +3; Ability Experience Boost.",
+        "appendInstructions": "Equipment: Speak with the Gullwings after the Battle of the 1000 Heartless.",
+        "appendSources": [
+          "https://www.khwiki.com/Gull_Wing"
+        ]
+      }
+    },
+    {
+      "name": "Rumbling Rose",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Rumbling_Rose",
+      "facts": {
+        "str": "+5",
+        "length": "100",
+        "ability": "Finishing Plus",
+        "get": "Reunite with Beast."
+      },
+      "sourceFields": {
+        "str": "+5",
+        "length": "100",
+        "ability": "[[Finishing Plus]]",
+        "get": "Reunite with [[Beast]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Rumbling_Rose"
+      ],
+      "id": "kh2fm.keyblades.rumbling-rose",
+      "displayStats": "Strength +5; Ability Finishing Plus",
+      "patch": {
+        "summary": "Strength +5; Ability Finishing Plus.",
+        "appendInstructions": "Equipment: Reunite with Beast.",
+        "appendSources": [
+          "https://www.khwiki.com/Rumbling_Rose"
+        ]
+      }
+    },
+    {
+      "name": "Guardian Soul",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Guardian_Soul",
+      "facts": {
+        "str": "+5",
+        "mag": "+1",
+        "length": "156",
+        "ability": "Reaction Boost",
+        "get": "Defeat Hades."
+      },
+      "sourceFields": {
+        "FMdesc": "Has great strength, increasing the amount of damage dealt from Reaction Commands by 50%.",
+        "str": "+5",
+        "mag": "+1",
+        "length": "156",
+        "ability": "[[Reaction Boost]]",
+        "get": "Defeat [[Hades]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Guardian_Soul"
+      ],
+      "id": "kh2fm.keyblades.guardian-soul",
+      "displayStats": "Strength +5; Magic +1; Ability Reaction Boost",
+      "patch": {
+        "summary": "Strength +5; Magic +1; Ability Reaction Boost.",
+        "appendInstructions": "Equipment: Defeat Hades.",
+        "appendSources": [
+          "https://www.khwiki.com/Guardian_Soul"
+        ]
+      }
+    },
+    {
+      "name": "Wishing Lamp",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Wishing_Lamp",
+      "facts": {
+        "str": "+4",
+        "mag": "+3",
+        "length": "116",
+        "ability": "Jackpot",
+        "get": "Defeat Jafar."
+      },
+      "sourceFields": {
+        "str": "+4",
+        "mag": "+3",
+        "length": "116",
+        "ability": "[[Jackpot]]",
+        "get": "Defeat [[Jafar]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Wishing_Lamp"
+      ],
+      "id": "kh2fm.keyblades.wishing-lamp",
+      "displayStats": "Strength +4; Magic +3; Ability Jackpot",
+      "patch": {
+        "summary": "Strength +4; Magic +3; Ability Jackpot.",
+        "appendInstructions": "Equipment: Defeat Jafar.",
+        "appendSources": [
+          "https://www.khwiki.com/Wishing_Lamp"
+        ]
+      }
+    },
+    {
+      "name": "Decisive Pumpkin",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Decisive_Pumpkin",
+      "facts": {
+        "str": "+6",
+        "mag": "+1",
+        "length": "126",
+        "ability": "Combo Boost",
+        "get": "Defeat The Experiment."
+      },
+      "sourceFields": {
+        "str": "+6",
+        "mag": "+1",
+        "length": "126",
+        "ability": "[[Combo Boost]]",
+        "get": "Defeat [[The Experiment]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Decisive_Pumpkin"
+      ],
+      "id": "kh2fm.keyblades.decisive-pumpkin",
+      "displayStats": "Strength +6; Magic +1; Ability Combo Boost",
+      "patch": {
+        "summary": "Strength +6; Magic +1; Ability Combo Boost.",
+        "appendInstructions": "Equipment: Defeat The Experiment.",
+        "appendSources": [
+          "https://www.khwiki.com/Decisive_Pumpkin"
+        ]
+      }
+    },
+    {
+      "name": "Sweet Memories",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Sweet_Memories",
+      "facts": {
+        "mag": "+4",
+        "length": "102",
+        "ability": "Drive Converter",
+        "get": "Complete The Expotition."
+      },
+      "sourceFields": {
+        "FMdesc": "Although it does not enhance attack strength, it increases the drop rate of drive orbs in place of munny.",
+        "FMmag": "+4",
+        "length": "102",
+        "ability": "[[Lucky Lucky]]",
+        "FMability": "[[Drive Converter]]",
+        "get": "Complete [[The Expotition]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Sweet_Memories"
+      ],
+      "id": "kh2fm.keyblades.sweet-memories",
+      "displayStats": "Magic +4; Ability Drive Converter",
+      "patch": {
+        "summary": "Magic +4; Ability Drive Converter.",
+        "appendInstructions": "Equipment: Complete The Expotition.",
+        "appendSources": [
+          "https://www.khwiki.com/Sweet_Memories"
+        ]
+      }
+    },
+    {
+      "name": "Mysterious Abyss",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Mysterious_Abyss",
+      "facts": {
+        "str": "+3",
+        "mag": "+3",
+        "length": "98",
+        "ability": "Blizzard Boost",
+        "get": "Complete Ursula's Revenge."
+      },
+      "sourceFields": {
+        "FMdesc": "Enhances magic to increase damage dealt with blizzard-based attacks by 20%.",
+        "str": "+3",
+        "mag": "+3",
+        "length": "98",
+        "ability": "[[Blizzard Boost]]",
+        "get": "Complete [[Ursula's Revenge]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Mysterious_Abyss"
+      ],
+      "id": "kh2fm.keyblades.mysterious-abyss",
+      "displayStats": "Strength +3; Magic +3; Ability Blizzard Boost",
+      "patch": {
+        "summary": "Strength +3; Magic +3; Ability Blizzard Boost.",
+        "appendInstructions": "Equipment: Complete Ursula's Revenge.",
+        "appendSources": [
+          "https://www.khwiki.com/Mysterious_Abyss"
+        ]
+      }
+    },
+    {
+      "name": "Sleeping Lion",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Sleeping_Lion",
+      "facts": {
+        "str": "+5",
+        "mag": "+3",
+        "length": "152",
+        "ability": "Combo Plus",
+        "get": "Talk to Leon before the second visit to Space Paranoids."
+      },
+      "sourceFields": {
+        "str": "+5",
+        "mag": "+3",
+        "length": "152",
+        "ability": "[[Combo Plus]]",
+        "get": "Talk to [[Leon]] before the second visit to [[Space Paranoids]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Sleeping_Lion"
+      ],
+      "id": "kh2fm.keyblades.sleeping-lion",
+      "displayStats": "Strength +5; Magic +3; Ability Combo Plus",
+      "patch": {
+        "summary": "Strength +5; Magic +3; Ability Combo Plus.",
+        "appendInstructions": "Equipment: Talk to Leon before the second visit to Space Paranoids.",
+        "appendSources": [
+          "https://www.khwiki.com/Sleeping_Lion"
+        ]
+      }
+    },
+    {
+      "name": "Bond of Flame",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Bond_of_Flame",
+      "facts": {
+        "str": "+4",
+        "mag": "+4",
+        "length": "114",
+        "ability": "Fire Boost",
+        "get": "Defeat the Nobodies in Betwixt and Between."
+      },
+      "sourceFields": {
+        "FMdesc": "Enhances magic to increase damage dealt with fire-based attacks by 20%.",
+        "str": "+4",
+        "mag": "+4",
+        "length": "114",
+        "ability": "[[Fire Boost]]",
+        "get": "Defeat the Nobodies in [[Betwixt and Between]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Bond_of_Flame"
+      ],
+      "id": "kh2fm.keyblades.bond-of-flame",
+      "displayStats": "Strength +4; Magic +4; Ability Fire Boost",
+      "patch": {
+        "summary": "Strength +4; Magic +4; Ability Fire Boost.",
+        "appendInstructions": "Equipment: Defeat the Nobodies in Betwixt and Between.",
+        "appendSources": [
+          "https://www.khwiki.com/Bond_of_Flame"
+        ]
+      }
+    },
+    {
+      "name": "Two Become One",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Two_Become_One",
+      "facts": {
+        "str": "+5",
+        "mag": "+4",
+        "length": "112",
+        "ability": "Light & Darkness",
+        "get": "Defeat Roxas."
+      },
+      "sourceFields": {
+        "str": "+5",
+        "mag": "+4",
+        "length": "112",
+        "ability": "[[Light & Darkness]]",
+        "get": "Defeat [[Roxas]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Two_Become_One"
+      ],
+      "id": "kh2fm.keyblades.two-become-one",
+      "displayStats": "Strength +5; Magic +4; Ability Light & Darkness",
+      "patch": {
+        "summary": "Strength +5; Magic +4; Ability Light & Darkness.",
+        "appendInstructions": "Equipment: Defeat Roxas.",
+        "appendSources": [
+          "https://www.khwiki.com/Two_Become_One"
+        ]
+      }
+    },
+    {
+      "name": "Fatal Crest",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Fatal_Crest",
+      "facts": {
+        "str": "+3",
+        "mag": "+5",
+        "length": "148",
+        "ability": "Berserk Charge",
+        "get": "Complete the Goddess of Fate Cup."
+      },
+      "sourceFields": {
+        "FMdesc": "Increases strength by 2 during MP Charge and enables combos to continue endlessly. The combo finishing move becomes unavailable.",
+        "str": "+3",
+        "mag": "+5",
+        "length": "148",
+        "ability": "[[Berserk Charge]]",
+        "get": "Complete the [[Goddess of Fate Cup]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Fatal_Crest"
+      ],
+      "id": "kh2fm.keyblades.fatal-crest",
+      "displayStats": "Strength +3; Magic +5; Ability Berserk Charge",
+      "patch": {
+        "summary": "Strength +3; Magic +5; Ability Berserk Charge.",
+        "appendInstructions": "Equipment: Complete the Goddess of Fate Cup.",
+        "appendSources": [
+          "https://www.khwiki.com/Fatal_Crest"
+        ]
+      }
+    },
+    {
+      "name": "Fenrir",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Fenrir",
+      "facts": {
+        "str": "+7",
+        "mag": "+1",
+        "length": "168",
+        "ability": "Negative Combo",
+        "get": "Speak with Cloud after defeating Sephiroth."
+      },
+      "sourceFields": {
+        "str": "+7",
+        "mag": "+1",
+        "length": "168",
+        "ability": "[[Negative Combo]]",
+        "get": "Speak with [[Cloud]] after defeating [[Sephiroth]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Fenrir"
+      ],
+      "id": "kh2fm.keyblades.fenrir",
+      "displayStats": "Strength +7; Magic +1; Ability Negative Combo",
+      "patch": {
+        "summary": "Strength +7; Magic +1; Ability Negative Combo.",
+        "appendInstructions": "Equipment: Speak with Cloud after defeating Sephiroth.",
+        "appendSources": [
+          "https://www.khwiki.com/Fenrir"
+        ]
+      }
+    },
+    {
+      "name": "Ultima Weapon",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "facts": {
+        "str": "+6",
+        "mag": "+4",
+        "length": "166",
+        "ability": "MP Hastega",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "FMdesc": "The Keyblade above all others. Increases MP restoration rate by 75% once all MP has been consumed.",
+        "str": "+6",
+        "mag": "+4",
+        "length": "166",
+        "ability": "[[MP Hastega]]",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Ultima_Weapon"
+      ],
+      "id": "kh2fm.keyblades.ultima-weapon",
+      "displayStats": "Strength +6; Magic +4; Ability MP Hastega",
+      "patch": {
+        "summary": "Strength +6; Magic +4; Ability MP Hastega.",
+        "appendInstructions": "Equipment: Item synthesis.",
+        "appendSources": [
+          "https://www.khwiki.com/Ultima_Weapon"
+        ]
+      }
+    },
+    {
+      "name": "Winner's Proof",
+      "kind": "keyblade",
+      "url": "https://www.khwiki.com/Winner%27s_Proof",
+      "facts": {
+        "str": "+5",
+        "mag": "+7",
+        "length": "166",
+        "ability": "No Experience",
+        "get": "Satisfy Mushroom XIII: No. 13."
+      },
+      "sourceFields": {
+        "str": "+5",
+        "mag": "+7",
+        "length": "166",
+        "ability": "[[No Experience]]",
+        "get": "Satisfy [[Mushroom XIII: No. 13]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Winner%27s_Proof"
+      ],
+      "id": "kh2fm.keyblades.winner-s-proof",
+      "displayStats": "Strength +5; Magic +7; Ability No Experience",
+      "patch": {
+        "summary": "Strength +5; Magic +7; Ability No Experience.",
+        "appendInstructions": "Equipment: Satisfy Mushroom XIII: No. 13.",
+        "appendSources": [
+          "https://www.khwiki.com/Winner%27s_Proof"
+        ]
+      }
+    },
+    {
+      "name": "Mage's Staff",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Mage%27s_Staff",
+      "facts": {
+        "str": "+1",
+        "mag": "+1",
+        "get": "Donald's default weapon."
+      },
+      "sourceFields": {
+        "str": "+1",
+        "mag": "+1",
+        "get": "Donald's default weapon."
+      },
+      "sources": [
+        "https://www.khwiki.com/Mage%27s_Staff"
+      ],
+      "id": "kh2fm.equipment.mage-s-staff",
+      "displayStats": "Strength +1; Magic +1",
+      "entry": {
+        "id": "kh2fm.equipment.mage-s-staff",
+        "name": "Mage's Staff",
+        "category": "equipment",
+        "summary": "Staff · Strength +1; Magic +1",
+        "instructions": "Donald's default weapon.",
+        "sources": [
+          "https://www.khwiki.com/Mage%27s_Staff"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Hammer Staff",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Hammer_Staff",
+      "facts": {
+        "str": "+2",
+        "mag": "+1",
+        "buy": "100",
+        "sell": "50",
+        "get": "Wallace's Weapon Shop"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+1",
+        "buy": "100",
+        "sell": "50",
+        "get": "[[Wallace's Weapon Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Hammer_Staff"
+      ],
+      "id": "kh2fm.equipment.hammer-staff",
+      "displayStats": "Strength +2; Magic +1",
+      "entry": {
+        "id": "kh2fm.equipment.hammer-staff",
+        "name": "Hammer Staff",
+        "category": "equipment",
+        "summary": "Staff · Strength +2; Magic +1",
+        "instructions": "Wallace's Weapon Shop. Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Hammer_Staff",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Victory Bell",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Victory_Bell",
+      "facts": {
+        "str": "+3",
+        "mag": "+2",
+        "buy": "400",
+        "sell": "200",
+        "get": "Morlock's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+2",
+        "buy": "400",
+        "sell": "200",
+        "get": "[[Morlock's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Victory_Bell"
+      ],
+      "id": "kh2fm.equipment.victory-bell",
+      "displayStats": "Strength +3; Magic +2",
+      "entry": {
+        "id": "kh2fm.equipment.victory-bell",
+        "name": "Victory Bell",
+        "category": "equipment",
+        "summary": "Staff · Strength +3; Magic +2",
+        "instructions": "Morlock's Moogle Shop. Buy price: 400 munny. Sale price: 200 munny. Shop worlds: Morlock — Port Royal. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Victory_Bell",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Comet Staff",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Comet_Staff",
+      "facts": {
+        "str": "+2",
+        "mag": "+2",
+        "buy": "200",
+        "sell": "100",
+        "get": "Mosh's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+2",
+        "buy": "200",
+        "sell": "100",
+        "get": "[[Mosh's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Comet_Staff"
+      ],
+      "id": "kh2fm.equipment.comet-staff",
+      "displayStats": "Strength +2; Magic +2",
+      "entry": {
+        "id": "kh2fm.equipment.comet-staff",
+        "name": "Comet Staff",
+        "category": "equipment",
+        "summary": "Staff · Strength +2; Magic +2",
+        "instructions": "Mosh's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mosh — Olympus Coliseum. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Comet_Staff",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Lord's Broom",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Lord%27s_Broom",
+      "facts": {
+        "str": "+3",
+        "mag": "+3",
+        "buy": "600",
+        "sell": "300",
+        "get": "Kumop's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+3",
+        "buy": "600",
+        "sell": "300",
+        "get": "[[Kumop's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Lord%27s_Broom"
+      ],
+      "id": "kh2fm.equipment.lord-s-broom",
+      "displayStats": "Strength +3; Magic +3",
+      "entry": {
+        "id": "kh2fm.equipment.lord-s-broom",
+        "name": "Lord's Broom",
+        "category": "equipment",
+        "summary": "Staff · Strength +3; Magic +3",
+        "instructions": "Kumop's Moogle Shop. Buy price: 600 munny. Sale price: 300 munny. Shop worlds: Kumop — Pride Lands. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Lord%27s_Broom",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Wisdom Wand",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Wisdom_Wand",
+      "facts": {
+        "str": "+4",
+        "mag": "+5",
+        "buy": "2000",
+        "sell": "1000",
+        "get": "Stiltzkin's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+4",
+        "mag": "+5",
+        "buy": "2000",
+        "sell": "1000",
+        "get": "[[Stiltzkin's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Wisdom_Wand"
+      ],
+      "id": "kh2fm.equipment.wisdom-wand",
+      "displayStats": "Strength +4; Magic +5",
+      "entry": {
+        "id": "kh2fm.equipment.wisdom-wand",
+        "name": "Wisdom Wand",
+        "category": "equipment",
+        "summary": "Staff · Strength +4; Magic +5",
+        "instructions": "Stiltzkin's Moogle Shop. Buy price: 2000 munny. Sale price: 1000 munny. Shop worlds: Stiltzkin — The World That Never Was. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Wisdom_Wand",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Meteor Staff",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Meteor_Staff",
+      "facts": {
+        "str": "+4",
+        "mag": "+3",
+        "ability": "Thunder Boost",
+        "get": "Chest at the Ship Graveyard: Seadrift Keep."
+      },
+      "sourceFields": {
+        "FMdesc": "A staff of great strength that increases magic. Increases damage done with thunder-based attacks by 20%.",
+        "str": "+4",
+        "mag": "+3",
+        "ability": "[[Lucky Lucky]]",
+        "FMability": "[[Thunder Boost]]",
+        "get": "Chest at the [[Ship Graveyard: Seadrift Keep]]."
+      },
+      "sources": [
+        "https://www.khwiki.com/Meteor_Staff"
+      ],
+      "id": "kh2fm.equipment.meteor-staff",
+      "displayStats": "Strength +4; Magic +3; Ability Thunder Boost",
+      "entry": {
+        "id": "kh2fm.equipment.meteor-staff",
+        "name": "Meteor Staff",
+        "category": "equipment",
+        "summary": "Staff · Strength +4; Magic +3; Ability Thunder Boost",
+        "instructions": "Chest at the Ship Graveyard: Seadrift Keep.",
+        "sources": [
+          "https://www.khwiki.com/Meteor_Staff"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Rising Dragon",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Rising_Dragon",
+      "facts": {
+        "str": "+4",
+        "mag": "+4",
+        "ability": "Fire Boost",
+        "get": "Win the Cerberus Cup."
+      },
+      "sourceFields": {
+        "FMdesc": "A staff with great strength and magic. Increases damage done with fire-based attacks by 20%.",
+        "str": "+4",
+        "mag": "+4",
+        "ability": "[[Item Boost]]",
+        "FMability": "[[Fire Boost]]",
+        "get": "Complete the [[Cerberus Cup]]<ref>\"Complete the [[Titan Cup]]\" in the original Japanese version.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Rising_Dragon"
+      ],
+      "id": "kh2fm.equipment.rising-dragon",
+      "displayStats": "Strength +4; Magic +4; Ability Fire Boost",
+      "entry": {
+        "id": "kh2fm.equipment.rising-dragon",
+        "name": "Rising Dragon",
+        "category": "equipment",
+        "summary": "Staff · Strength +4; Magic +4; Ability Fire Boost",
+        "instructions": "Win the Cerberus Cup.",
+        "sources": [
+          "https://www.khwiki.com/Rising_Dragon"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shaman's Relic",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Shaman%27s_Relic",
+      "facts": {
+        "str": "+4",
+        "mag": "+5",
+        "ability": "Blizzard Boost",
+        "sell": "10",
+        "get": "Dropped by Shaman (1%)."
+      },
+      "sourceFields": {
+        "FMdesc": "A staff with great magic and strength.<br>Increases damage done with ice-based attacks by 20%.",
+        "str": "+4",
+        "mag": "+5",
+        "ability": "[[MP Rage]]",
+        "FMability": "[[Blizzard Boost]]",
+        "sell": "10",
+        "get": "Dropped by [[Shaman]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Shaman%27s_Relic"
+      ],
+      "id": "kh2fm.equipment.shaman-s-relic",
+      "displayStats": "Strength +4; Magic +5; Ability Blizzard Boost",
+      "entry": {
+        "id": "kh2fm.equipment.shaman-s-relic",
+        "name": "Shaman's Relic",
+        "category": "equipment",
+        "summary": "Staff · Strength +4; Magic +5; Ability Blizzard Boost",
+        "instructions": "Dropped by Shaman (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shaman%27s_Relic"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Shaman's Relic+",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Shaman%27s_Relic%2B",
+      "facts": {
+        "str": "+4",
+        "mag": "+5",
+        "ability": "Defender",
+        "sell": "10",
+        "get": "Dropped by Necromancer (1%)."
+      },
+      "sourceFields": {
+        "str": "+4",
+        "mag": "+5",
+        "ability": "{{c|Defender|ability}}",
+        "sell": "10",
+        "get": "Dropped by [[Necromancer]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Shaman%27s_Relic%2B"
+      ],
+      "id": "kh2fm.equipment.shaman-s-relic-plus",
+      "displayStats": "Strength +4; Magic +5; Ability Defender",
+      "entry": {
+        "id": "kh2fm.equipment.shaman-s-relic-plus",
+        "name": "Shaman's Relic+",
+        "category": "equipment",
+        "summary": "Staff · Strength +4; Magic +5; Ability Defender",
+        "instructions": "Dropped by Necromancer (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Shaman%27s_Relic%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Nobody Lance",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Nobody_Lance",
+      "facts": {
+        "str": "+5",
+        "mag": "+5",
+        "ability": "Item Boost",
+        "sell": "10",
+        "get": "Dropped by Dragoon (1%)."
+      },
+      "sourceFields": {
+        "FMdesc": "A lance with great strength and magic.<br>Increases the effect of restoration items used on the field by 50%.",
+        "str": "+5",
+        "mag": "+5",
+        "ability": "{{c|Defender|ability}}",
+        "FMability": "[[Item Boost]]",
+        "sell": "10",
+        "get": "Dropped by [[Dragoon]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Nobody_Lance"
+      ],
+      "id": "kh2fm.equipment.nobody-lance",
+      "displayStats": "Strength +5; Magic +5; Ability Item Boost",
+      "entry": {
+        "id": "kh2fm.equipment.nobody-lance",
+        "name": "Nobody Lance",
+        "category": "equipment",
+        "summary": "Staff · Strength +5; Magic +5; Ability Item Boost",
+        "instructions": "Dropped by Dragoon (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Nobody_Lance"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Centurion",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Centurion",
+      "facts": {
+        "str": "+13",
+        "mag": "+3",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+13",
+        "mag": "+3",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Centurion"
+      ],
+      "id": "kh2fm.equipment.centurion",
+      "displayStats": "Strength +13; Magic +3",
+      "entry": {
+        "id": "kh2fm.equipment.centurion",
+        "name": "Centurion",
+        "category": "equipment",
+        "summary": "Staff · Strength +13; Magic +3",
+        "instructions": "Item Synthesis.",
+        "sources": [
+          "https://www.khwiki.com/Centurion"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Centurion+",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Centurion%2B",
+      "facts": {
+        "str": "+13",
+        "mag": "+3",
+        "ability": "Damage Control",
+        "get": "Item Synthesis"
+      },
+      "sourceFields": {
+        "str": "+13",
+        "mag": "+3",
+        "ability": "[[Damage Control]]",
+        "get": "Item Synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Centurion%2B"
+      ],
+      "id": "kh2fm.equipment.centurion-plus",
+      "displayStats": "Strength +13; Magic +3; Ability Damage Control",
+      "entry": {
+        "id": "kh2fm.equipment.centurion-plus",
+        "name": "Centurion+",
+        "category": "equipment",
+        "summary": "Staff · Strength +13; Magic +3; Ability Damage Control",
+        "instructions": "Item Synthesis.",
+        "sources": [
+          "https://www.khwiki.com/Centurion%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Save the Queen",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Save_the_Queen",
+      "facts": {
+        "str": "+5",
+        "mag": "+6",
+        "ability": "Hyper Healing",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+5",
+        "mag": "+6",
+        "ability": "[[Hyper Healing]]",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Save_the_Queen"
+      ],
+      "id": "kh2fm.equipment.save-the-queen",
+      "displayStats": "Strength +5; Magic +6; Ability Hyper Healing",
+      "entry": {
+        "id": "kh2fm.equipment.save-the-queen",
+        "name": "Save the Queen",
+        "category": "equipment",
+        "summary": "Staff · Strength +5; Magic +6; Ability Hyper Healing",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Save_the_Queen"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Save the Queen+",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Save_the_Queen%2B",
+      "facts": {
+        "str": "+5",
+        "mag": "+6",
+        "ability": "MP Rage",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "FMdesc": "A staff with colossal magic and strength. Restores MP relative to the amount of damage taken.",
+        "str": "+5",
+        "mag": "+6",
+        "ability": "[[MP Hastega]]",
+        "FMability": "[[MP Rage]]",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Save_the_Queen%2B"
+      ],
+      "id": "kh2fm.equipment.save-the-queen-plus",
+      "displayStats": "Strength +5; Magic +6; Ability MP Rage",
+      "entry": {
+        "id": "kh2fm.equipment.save-the-queen-plus",
+        "name": "Save the Queen+",
+        "category": "equipment",
+        "summary": "Staff · Strength +5; Magic +6; Ability MP Rage",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Save_the_Queen%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Plain Mushroom",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Plain_Mushroom",
+      "facts": {
+        "mag": "+1",
+        "sell": "10",
+        "get": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: E: 55%; D: 65%."
+      },
+      "sourceFields": {
+        "mag": "+1",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 1]], [[No. 3]], [[No. 5]], [[No. 7]], [[No. 9]], and [[No. 11]] (55%/65%).<ref name=\"Pleasure\">The Mushroom XIII No. 1, No. 3, No. 5, No. 7, No. 9, and No. 11 drop a Plain Mushroom 55% of the time if they are satisfied at rank E, and 65% of the time if they are satisfied at rank D.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Plain_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.plain-mushroom",
+      "displayStats": "Magic +1",
+      "entry": {
+        "id": "kh2fm.equipment.plain-mushroom",
+        "name": "Plain Mushroom",
+        "category": "equipment",
+        "summary": "Staff · Magic +1",
+        "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: E: 55%; D: 65%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Plain_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Plain Mushroom+",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Plain_Mushroom%2B",
+      "facts": {
+        "mag": "+3",
+        "sell": "10",
+        "get": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: D: 35%; C: 75%."
+      },
+      "sourceFields": {
+        "mag": "+3",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 1]], [[No. 3]], [[No. 5]], [[No. 7]], [[No. 9]], and [[No. 11]] (35%/75%).<ref name=\"Pleasure+\">The Mushroom XIII No. 1, No. 3, No. 5, No. 7, No. 9, and No. 11 drop a Plain Mushroom+ 35% of the time if they are satisfied at rank D, and 75% of the time if they are satisfied at rank C.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Plain_Mushroom%2B",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.plain-mushroom-plus",
+      "displayStats": "Magic +3",
+      "entry": {
+        "id": "kh2fm.equipment.plain-mushroom-plus",
+        "name": "Plain Mushroom+",
+        "category": "equipment",
+        "summary": "Staff · Magic +3",
+        "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: D: 35%; C: 75%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Plain_Mushroom%2B",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Precious Mushroom",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Precious_Mushroom",
+      "facts": {
+        "str": "+1",
+        "mag": "+5",
+        "ability": "MP Haste",
+        "sell": "10",
+        "get": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: C: 25%; B: 85%."
+      },
+      "sourceFields": {
+        "str": "+1",
+        "mag": "+5",
+        "ability": "[[MP Haste]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 1]], [[No. 3]], [[No. 5]], [[No. 7]], [[No. 9]], and [[No. 11]] (25%/85%).<ref name=\"Precious\">The Mushroom XIII No. 1, No. 3, No. 5, No. 7, No. 9, and No. 11 drop a Precious Mushroom 25% of the time if they are satisfied at rank C, and 85% of the time if they are satisfied at rank B.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Precious_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.precious-mushroom",
+      "displayStats": "Strength +1; Magic +5; Ability MP Haste",
+      "entry": {
+        "id": "kh2fm.equipment.precious-mushroom",
+        "name": "Precious Mushroom",
+        "category": "equipment",
+        "summary": "Staff · Strength +1; Magic +5; Ability MP Haste",
+        "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: C: 25%; B: 85%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Precious_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Precious Mushroom+",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Precious_Mushroom%2B",
+      "facts": {
+        "str": "+2",
+        "mag": "+7",
+        "ability": "MP Hastera",
+        "sell": "10",
+        "get": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: B: 15%; A: 90%."
+      },
+      "sourceFields": {
+        "str": "+2",
+        "mag": "+7",
+        "ability": "[[MP Hastera]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 1]], [[No. 3]], [[No. 5]], [[No. 7]], [[No. 9]], and [[No. 11]] (15%/90%).<ref name=\"Precious+\">The Mushroom XIII No. 1, No. 3, No. 5, No. 7, No. 9, and No. 11 drop a Precious Mushroom+ 15% of the time if they are satisfied at rank B, and 90% of the time if they are satisfied at rank A.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Precious_Mushroom%2B",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.precious-mushroom-plus",
+      "displayStats": "Strength +2; Magic +7; Ability MP Hastera",
+      "entry": {
+        "id": "kh2fm.equipment.precious-mushroom-plus",
+        "name": "Precious Mushroom+",
+        "category": "equipment",
+        "summary": "Staff · Strength +2; Magic +7; Ability MP Hastera",
+        "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: B: 15%; A: 90%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Precious_Mushroom%2B",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Premium Mushroom",
+      "kind": "staff",
+      "url": "https://www.khwiki.com/Premium_Mushroom",
+      "facts": {
+        "str": "+3",
+        "mag": "+9",
+        "ability": "MP Hastega",
+        "sell": "10",
+        "get": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: A: 10%; S: 100%."
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+9",
+        "ability": "[[MP Hastega]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 1]], [[No. 3]], [[No. 5]], [[No. 7]], [[No. 9]], and [[No. 11]] (10%/100%).<ref name=\"Limited\">The Mushroom XIII No. 1, No. 3, No. 5, No. 7, No. 9, and No. 11 drop a Premium Mushroom 10% of the time if they are satisfied at rank A, and 100% of the time if they are satisfied at rank S.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Premium_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.premium-mushroom",
+      "displayStats": "Strength +3; Magic +9; Ability MP Hastega",
+      "entry": {
+        "id": "kh2fm.equipment.premium-mushroom",
+        "name": "Premium Mushroom",
+        "category": "equipment",
+        "summary": "Staff · Strength +3; Magic +9; Ability MP Hastega",
+        "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: A: 10%; S: 100%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Premium_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Knight's Shield",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Knight%27s_Shield",
+      "facts": {
+        "str": "+1",
+        "get": "Goofy's default weapon."
+      },
+      "sourceFields": {
+        "str": "+1",
+        "get": "Goofy's default weapon."
+      },
+      "sources": [
+        "https://www.khwiki.com/Knight%27s_Shield"
+      ],
+      "id": "kh2fm.equipment.knight-s-shield",
+      "displayStats": "Strength +1",
+      "entry": {
+        "id": "kh2fm.equipment.knight-s-shield",
+        "name": "Knight's Shield",
+        "category": "equipment",
+        "summary": "Shield · Strength +1",
+        "instructions": "Goofy's default weapon.",
+        "sources": [
+          "https://www.khwiki.com/Knight%27s_Shield"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Adamant Shield",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Adamant_Shield_(KHII)",
+      "facts": {
+        "str": "+2",
+        "buy": "100",
+        "sell": "50",
+        "get": "Wallace's Weapon Shop"
+      },
+      "sourceFields": {
+        "str": "+2",
+        "buy": "100",
+        "sell": "50",
+        "get": "[[Wallace's Weapon Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Adamant_Shield_(KHII)"
+      ],
+      "id": "kh2fm.equipment.adamant-shield",
+      "displayStats": "Strength +2",
+      "entry": {
+        "id": "kh2fm.equipment.adamant-shield",
+        "name": "Adamant Shield",
+        "category": "equipment",
+        "summary": "Shield · Strength +2",
+        "instructions": "Wallace's Weapon Shop. Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Adamant_Shield_(KHII)",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Chain Gear",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Chain_Gear",
+      "facts": {
+        "str": "+3",
+        "mag": "+0",
+        "buy": "400",
+        "sell": "200",
+        "get": "Morlock's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+0",
+        "buy": "400",
+        "sell": "200",
+        "get": "[[Morlock's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Chain_Gear"
+      ],
+      "id": "kh2fm.equipment.chain-gear",
+      "displayStats": "Strength +3; Magic +0",
+      "entry": {
+        "id": "kh2fm.equipment.chain-gear",
+        "name": "Chain Gear",
+        "category": "equipment",
+        "summary": "Shield · Strength +3; Magic +0",
+        "instructions": "Morlock's Moogle Shop. Buy price: 400 munny. Sale price: 200 munny. Shop worlds: Morlock — Port Royal. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Chain_Gear",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Falling Star",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Falling_Star",
+      "facts": {
+        "str": "+3",
+        "mag": "+0",
+        "buy": "200",
+        "sell": "100",
+        "get": "Mosh's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+3",
+        "mag": "+0",
+        "buy": "200",
+        "sell": "100",
+        "get": "[[Mosh's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Falling_Star"
+      ],
+      "id": "kh2fm.equipment.falling-star",
+      "displayStats": "Strength +3; Magic +0",
+      "entry": {
+        "id": "kh2fm.equipment.falling-star",
+        "name": "Falling Star",
+        "category": "equipment",
+        "summary": "Shield · Strength +3; Magic +0",
+        "instructions": "Mosh's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mosh — Olympus Coliseum. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Falling_Star",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Dreamcloud",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Dreamcloud",
+      "facts": {
+        "str": "+4",
+        "buy": "600",
+        "sell": "300",
+        "get": "Kumop's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+4",
+        "buy": "600",
+        "sell": "300",
+        "get": "[[Kumop's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Dreamcloud"
+      ],
+      "id": "kh2fm.equipment.dreamcloud",
+      "displayStats": "Strength +4",
+      "entry": {
+        "id": "kh2fm.equipment.dreamcloud",
+        "name": "Dreamcloud",
+        "category": "equipment",
+        "summary": "Shield · Strength +4",
+        "instructions": "Kumop's Moogle Shop. Buy price: 600 munny. Sale price: 300 munny. Shop worlds: Kumop — Pride Lands. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Dreamcloud",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Knight Defender",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Knight_Defender",
+      "facts": {
+        "str": "+7",
+        "mag": "+0",
+        "buy": "2000",
+        "sell": "1000",
+        "get": "Stiltzkin's Moogle Shop"
+      },
+      "sourceFields": {
+        "str": "+7",
+        "mag": "+0",
+        "buy": "2000",
+        "sell": "1000",
+        "get": "[[Stiltzkin's Moogle Shop]]"
+      },
+      "sources": [
+        "https://www.khwiki.com/Knight_Defender"
+      ],
+      "id": "kh2fm.equipment.knight-defender",
+      "displayStats": "Strength +7; Magic +0",
+      "entry": {
+        "id": "kh2fm.equipment.knight-defender",
+        "name": "Knight Defender",
+        "category": "equipment",
+        "summary": "Shield · Strength +7; Magic +0",
+        "instructions": "Stiltzkin's Moogle Shop. Buy price: 2000 munny. Sale price: 1000 munny. Shop worlds: Stiltzkin — The World That Never Was. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+        "sources": [
+          "https://www.khwiki.com/Knight_Defender",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Moogle"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Ogre Shield",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Ogre_Shield",
+      "facts": {
+        "str": "+5",
+        "ability": "Defender",
+        "get": "Chest at the Throne Room."
+      },
+      "sourceFields": {
+        "FMdesc": "A shield with great strength that also blocks various attacks. Increases defense by 3 in critical situations.",
+        "str": "+5",
+        "ability": "{{c|Defender|ability}}",
+        "get": "Chest at the {{c|Throne Room|ld}}."
+      },
+      "sources": [
+        "https://www.khwiki.com/Ogre_Shield"
+      ],
+      "id": "kh2fm.equipment.ogre-shield",
+      "displayStats": "Strength +5; Ability Defender",
+      "entry": {
+        "id": "kh2fm.equipment.ogre-shield",
+        "name": "Ogre Shield",
+        "category": "equipment",
+        "summary": "Shield · Strength +5; Ability Defender",
+        "instructions": "Chest at the Throne Room.",
+        "sources": [
+          "https://www.khwiki.com/Ogre_Shield"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Genji Shield",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Genji_Shield",
+      "facts": {
+        "str": "+6",
+        "ability": "Hyper Healing",
+        "get": "Win the Titan Cup."
+      },
+      "sourceFields": {
+        "FMdesc": "A shield with great strength and defense. Quickly revives wielder when fallen, and restores much of their HP.",
+        "str": "+6",
+        "ability": "[[Lucky Lucky]]",
+        "FMability": "[[Hyper Healing]]",
+        "get": "Complete the [[Titan Cup]]<ref>\"Complete the [[Cerberus Cup]]\" in the original Japanese version.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Genji_Shield"
+      ],
+      "id": "kh2fm.equipment.genji-shield",
+      "displayStats": "Strength +6; Ability Hyper Healing",
+      "entry": {
+        "id": "kh2fm.equipment.genji-shield",
+        "name": "Genji Shield",
+        "category": "equipment",
+        "summary": "Shield · Strength +6; Ability Hyper Healing",
+        "instructions": "Win the Titan Cup.",
+        "sources": [
+          "https://www.khwiki.com/Genji_Shield"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Akashic Record",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Akashic_Record",
+      "facts": {
+        "str": "+7",
+        "ability": "MP Haste",
+        "sell": "10",
+        "get": "Dropped by Bookmaster (1%)."
+      },
+      "sourceFields": {
+        "FMdesc": "A shield with great strength. Increases MP restoration speed by 25% when all MP is consumed.",
+        "str": "+7",
+        "ability": "[[MP Haste]]",
+        "sell": "10",
+        "get": "Dropped by [[Bookmaster]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Akashic_Record"
+      ],
+      "id": "kh2fm.equipment.akashic-record",
+      "displayStats": "Strength +7; Ability MP Haste",
+      "entry": {
+        "id": "kh2fm.equipment.akashic-record",
+        "name": "Akashic Record",
+        "category": "equipment",
+        "summary": "Shield · Strength +7; Ability MP Haste",
+        "instructions": "Dropped by Bookmaster (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Akashic_Record"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Akashic Record+",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Akashic_Record%2B",
+      "facts": {
+        "str": "+7",
+        "ability": "MP Hastera",
+        "sell": "10",
+        "get": "Dropped by Runemaster (1%)."
+      },
+      "sourceFields": {
+        "str": "+7",
+        "ability": "[[MP Hastera]]",
+        "sell": "10",
+        "get": "Dropped by [[Runemaster]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Akashic_Record%2B"
+      ],
+      "id": "kh2fm.equipment.akashic-record-plus",
+      "displayStats": "Strength +7; Ability MP Hastera",
+      "entry": {
+        "id": "kh2fm.equipment.akashic-record-plus",
+        "name": "Akashic Record+",
+        "category": "equipment",
+        "summary": "Shield · Strength +7; Ability MP Hastera",
+        "instructions": "Dropped by Runemaster (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Akashic_Record%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Nobody Guard",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Nobody_Guard",
+      "facts": {
+        "str": "+8",
+        "ability": "MP Rage",
+        "sell": "10",
+        "get": "Dropped by Gambler (1%)."
+      },
+      "sourceFields": {
+        "FMdesc": "A shield with great strength. Restores MP relative to the amount of damage taken.",
+        "str": "+8",
+        "ability": "[[Hyper Healing]]",
+        "FMability": "[[MP Rage]]",
+        "sell": "10",
+        "get": "Dropped by [[Gambler]] (1%)."
+      },
+      "sources": [
+        "https://www.khwiki.com/Nobody_Guard"
+      ],
+      "id": "kh2fm.equipment.nobody-guard",
+      "displayStats": "Strength +8; Ability MP Rage",
+      "entry": {
+        "id": "kh2fm.equipment.nobody-guard",
+        "name": "Nobody Guard",
+        "category": "equipment",
+        "summary": "Shield · Strength +8; Ability MP Rage",
+        "instructions": "Dropped by Gambler (1%). Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Nobody_Guard"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Frozen Pride",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Frozen_Pride",
+      "facts": {
+        "str": "+5",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+5",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Frozen_Pride"
+      ],
+      "id": "kh2fm.equipment.frozen-pride",
+      "displayStats": "Strength +5",
+      "entry": {
+        "id": "kh2fm.equipment.frozen-pride",
+        "name": "Frozen Pride",
+        "category": "equipment",
+        "summary": "Shield · Strength +5",
+        "instructions": "Item synthesis.",
+        "sources": [
+          "https://www.khwiki.com/Frozen_Pride"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Frozen Pride+",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Frozen_Pride%2B",
+      "facts": {
+        "str": "+5",
+        "ability": "MP Hastega",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "str": "+5",
+        "ability": "[[MP Hastega]]",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Frozen_Pride%2B"
+      ],
+      "id": "kh2fm.equipment.frozen-pride-plus",
+      "displayStats": "Strength +5; Ability MP Hastega",
+      "entry": {
+        "id": "kh2fm.equipment.frozen-pride-plus",
+        "name": "Frozen Pride+",
+        "category": "equipment",
+        "summary": "Shield · Strength +5; Ability MP Hastega",
+        "instructions": "Item synthesis.",
+        "sources": [
+          "https://www.khwiki.com/Frozen_Pride%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Save the King",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Save_the_King",
+      "facts": {
+        "str": "+9",
+        "ability": "Item Boost",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "FMdesc": "A powerful shield with great strength and defense. Increases the effect of restoration items used on the field by 50%.",
+        "str": "+9",
+        "ability": "[[Item Boost]]",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Save_the_King"
+      ],
+      "id": "kh2fm.equipment.save-the-king",
+      "displayStats": "Strength +9; Ability Item Boost",
+      "entry": {
+        "id": "kh2fm.equipment.save-the-king",
+        "name": "Save the King",
+        "category": "equipment",
+        "summary": "Shield · Strength +9; Ability Item Boost",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Save_the_King"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Save the King+",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Save_the_King%2B",
+      "facts": {
+        "str": "+9",
+        "ability": "Damage Control",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sourceFields": {
+        "FMdesc": "A powerful shield with great strength and defense. Halves damage taken in critical situations.",
+        "str": "+9",
+        "ability": "[[MP Rage]]",
+        "FMability": "[[Damage Control]]",
+        "sell": "10",
+        "get": "Item synthesis"
+      },
+      "sources": [
+        "https://www.khwiki.com/Save_the_King%2B"
+      ],
+      "id": "kh2fm.equipment.save-the-king-plus",
+      "displayStats": "Strength +9; Ability Damage Control",
+      "entry": {
+        "id": "kh2fm.equipment.save-the-king-plus",
+        "name": "Save the King+",
+        "category": "equipment",
+        "summary": "Shield · Strength +9; Ability Damage Control",
+        "instructions": "Item synthesis. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Save_the_King%2B"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Joyous Mushroom",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Joyous_Mushroom",
+      "facts": {
+        "str": "+1",
+        "sell": "10",
+        "get": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: E: 55%; D: 65%."
+      },
+      "sourceFields": {
+        "str": "+1",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 2]], [[No. 4]], [[No. 6]], [[No. 8]], [[No. 10]], and [[No. 12]] (55%/65%).<ref name=\"Happy\">The Mushroom XIII No. 2, No. 4, No. 6, No. 8, No. 10, and No. 12 drop a Joyous Mushroom 55% of the time if they are satisfied at rank E, and 65% of the time if they are satisfied at rank D.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Joyous_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.joyous-mushroom",
+      "displayStats": "Strength +1",
+      "entry": {
+        "id": "kh2fm.equipment.joyous-mushroom",
+        "name": "Joyous Mushroom",
+        "category": "equipment",
+        "summary": "Shield · Strength +1",
+        "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: E: 55%; D: 65%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Joyous_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Joyous Mushroom+",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Joyous_Mushroom%2B",
+      "facts": {
+        "str": "+3",
+        "sell": "10",
+        "get": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: D: 35%; C: 75%."
+      },
+      "sourceFields": {
+        "str": "+3",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 2]], [[No. 4]], [[No. 6]], [[No. 8]], [[No. 10]], and [[No. 12]] (35%/75%).<ref name=\"Happy+\">The Mushroom XIII No. 2, No. 4, No. 6, No. 8, No. 10, and No. 12 drop a Joyous Mushroom+ 35% of the time if they are satisfied at rank D, and 75% of the time if they are satisfied at rank C.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Joyous_Mushroom%2B",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.joyous-mushroom-plus",
+      "displayStats": "Strength +3",
+      "entry": {
+        "id": "kh2fm.equipment.joyous-mushroom-plus",
+        "name": "Joyous Mushroom+",
+        "category": "equipment",
+        "summary": "Shield · Strength +3",
+        "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: D: 35%; C: 75%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Joyous_Mushroom%2B",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Majestic Mushroom",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Majestic_Mushroom",
+      "facts": {
+        "str": "+5",
+        "ability": "Protect",
+        "sell": "10",
+        "get": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: C: 25%; B: 85%."
+      },
+      "sourceFields": {
+        "str": "+5",
+        "ability": "[[Protect]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 2]], [[No. 4]], [[No. 6]], [[No. 8]], [[No. 10]], and [[No. 12]] (25%/85%).<ref name=\"Palatial\">The Mushroom XIII No. 2, No. 4, No. 6, No. 8, No. 10, and No. 12 drop a Majestic Mushroom 25% of the time if they are satisfied at rank C, and 85% of the time if they are satisfied at rank B.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Majestic_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.majestic-mushroom",
+      "displayStats": "Strength +5; Ability Protect",
+      "entry": {
+        "id": "kh2fm.equipment.majestic-mushroom",
+        "name": "Majestic Mushroom",
+        "category": "equipment",
+        "summary": "Shield · Strength +5; Ability Protect",
+        "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: C: 25%; B: 85%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Majestic_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Majestic Mushroom+",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Majestic_Mushroom%2B",
+      "facts": {
+        "str": "+7",
+        "ability": "Protectra",
+        "sell": "10",
+        "get": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: B: 15%; A: 90%. Number IV also awards this shield at B rank (15%); it has no A/S rank."
+      },
+      "sourceFields": {
+        "str": "+7",
+        "ability": "[[Protectra]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 2]], [[No. 6]], [[No. 8]], [[No. 10]], and [[No. 12]] (15%/90%).<ref name=\"Palatial+\">The Mushroom XIII No. 2, No. 6, No. 8, No. 10, and No. 12 drop a Majestic Mushroom+ 15% of the time if they are satisfied at rank B, and 90% of the time if they are satisfied at rank A.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Majestic_Mushroom%2B",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.majestic-mushroom-plus",
+      "displayStats": "Strength +7; Ability Protectra",
+      "entry": {
+        "id": "kh2fm.equipment.majestic-mushroom-plus",
+        "name": "Majestic Mushroom+",
+        "category": "equipment",
+        "summary": "Shield · Strength +7; Ability Protectra",
+        "instructions": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: B: 15%; A: 90%. Number IV also awards this shield at B rank (15%); it has no A/S rank. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Majestic_Mushroom%2B",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    },
+    {
+      "name": "Ultimate Mushroom",
+      "kind": "shield",
+      "url": "https://www.khwiki.com/Ultimate_Mushroom",
+      "facts": {
+        "str": "+9",
+        "ability": "Protectga",
+        "sell": "10",
+        "get": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: A: 10%; S: 100%."
+      },
+      "sourceFields": {
+        "str": "+9",
+        "ability": "[[Protectga]]",
+        "sell": "10",
+        "get": "Dropped by [[Mushroom XIII]] [[No. 2]], [[No. 6]], [[No. 8]], [[No. 10]], and [[No. 12]] (10%/100%).<ref name=\"Limited\">The Mushroom XIII No. 2, No. 6, No. 8, No. 10, and No. 12 drop a Ultimate Mushroom 10% of the time if they are satisfied at rank A, and 100% of the time if they are satisfied at rank S.</ref>"
+      },
+      "sources": [
+        "https://www.khwiki.com/Ultimate_Mushroom",
+        "https://www.khwiki.com/Mushroom_XIII"
+      ],
+      "id": "kh2fm.equipment.ultimate-mushroom",
+      "displayStats": "Strength +9; Ability Protectga",
+      "entry": {
+        "id": "kh2fm.equipment.ultimate-mushroom",
+        "name": "Ultimate Mushroom",
+        "category": "equipment",
+        "summary": "Shield · Strength +9; Ability Protectga",
+        "instructions": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: A: 10%; S: 100%. Sale price: 10 munny.",
+        "sources": [
+          "https://www.khwiki.com/Ultimate_Mushroom",
+          "https://www.khwiki.com/Mushroom_XIII"
+        ],
+        "collectible": false,
+        "checkable": false
+      }
+    }
+  ],
+  "missing": [],
+  "notes": [
+    "Complete persistent KH2 Final Mix equipment roster: 24 Keyblades, 20 staves, 20 shields, 34 armor and 33 accessories. Temporary tutorial/Limit weapons and fixed guest-party weapons are excluded from the ownable equipment roster.",
+    "Final Mix fields override original-release fields; original Japanese cup reward variants are excluded from Final Mix acquisition text.",
+    "Stats list the item bonuses/resistances published by the source. Unlisted stat bonuses do not claim an additional benefit. Length is retained as a raw source value but is not displayed as a real-world unit.",
+    "Mushroom weapon probabilities are distinct from material rank cutoffs and Jiminy Journal targets. Number IV has no A/S rank; its B rank can award Majestic Mushroom+ at 15%.",
+    "Equipment reference entries are read-only so mutually exclusive Roxas rewards do not create an impossible completion goal. Existing Keyblade ownership IDs are preserved by the consumer.",
+    "Shop price and vendor fields are sourced here; exact phase-dependent shop availability and repeatable acquisition qualification require the separately documented shop evidence.",
+    "Shop inventory unlocks by visiting vendors, not a generic numbered KH2 Shop Level. The Dark Anklet source disagreement is retained on its row. Original positive-price acquisition fields are preserved alongside appended vendor-world/stock-copy guidance."
+  ],
+  "inspections": [
+    {
+      "url": "https://www.khwiki.com/Elven_Bandanna",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Divine_Bandanna",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Protect_Belt",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Gaia_Belt",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Power_Band",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Buster_Band",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Belt",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Fire_Bangle",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Fira_Bangle",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Firaga_Bangle",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Firagun_Bangle",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzard_Armlet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzara_Armlet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzaga_Armlet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzagun_Armlet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Thunder_Trinket",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundara_Trinket",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundaga_Trinket",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundagun_Trinket",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shock_Charm",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shock_Charm%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shadow_Anklet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Dark_Anklet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Midnight_Anklet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Chaos_Anklet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Champion_Belt",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Abas_Chain",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Aegis_Chain",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Acrisius",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Acrisius%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Chain",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Petite_Ribbon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Ribbon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Grand_Ribbon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Ability_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Engineer%27s_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Technician%27s_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Skill_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Skillful_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Expert%27s_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Master%27s_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Executive%27s_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Sardonyx_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Tourmaline_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Aquamarine_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Garnet_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Diamond_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Silver_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Gold_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Platinum_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Orichalcum_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Soldier_Earring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Fencer_Earring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Mage_Earring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Slayer_Earring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Medal_(accessory)",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Moon_Amulet",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Star_Charm",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Arts",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shadow_Archive",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shadow_Archive%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Full_Bloom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Full_Bloom%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Draw_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucky_Ring",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Key",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Oathkeeper",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Oblivion",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Star_Seeker",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Hidden_Dragon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Hero%27s_Crest",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Monochrome",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Follow_the_Wind",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Circle_of_Life",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Photon_Debugger",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Gull_Wing",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Rumbling_Rose",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Guardian_Soul",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Wishing_Lamp",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Decisive_Pumpkin",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Sweet_Memories",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Mysterious_Abyss",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Sleeping_Lion",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Bond_of_Flame",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Two_Become_One",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Fatal_Crest",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Fenrir",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Winner%27s_Proof",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Mage%27s_Staff",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Hammer_Staff",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Victory_Bell",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Comet_Staff",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Lord%27s_Broom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Wisdom_Wand",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Meteor_Staff",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Rising_Dragon",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shaman%27s_Relic",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Shaman%27s_Relic%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Nobody_Lance",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Centurion",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Centurion%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_Queen",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_Queen%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Plain_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Plain_Mushroom%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Precious_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Precious_Mushroom%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Premium_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Knight%27s_Shield",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Adamant_Shield_(KHII)",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Chain_Gear",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Falling_Star",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Dreamcloud",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Knight_Defender",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Ogre_Shield",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Genji_Shield",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Akashic_Record",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Akashic_Record%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Nobody_Guard",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Frozen_Pride",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Frozen_Pride%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_King",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_King%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Joyous_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Joyous_Mushroom%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Majestic_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Majestic_Mushroom%2B",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Ultimate_Mushroom",
+      "scope": "KHII/Final Mix equipment infobox, original/FM overrides, stats, ability, price and acquisition",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Moogle_Shop",
+      "scope": "KHII vendor-visit stock copying and explicit Mogjiro/Badlands warning; conflicting general Armor claim retained",
+      "reviewed": "2026-10-01"
+    },
+    {
+      "url": "https://www.khwiki.com/Moogle",
+      "scope": "KHII named vendor to world mapping",
+      "reviewed": "2026-10-01"
+    }
+  ]
+}

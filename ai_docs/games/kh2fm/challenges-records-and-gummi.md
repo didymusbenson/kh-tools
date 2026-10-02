@@ -1,6 +1,6 @@
 # KH2FM challenges, records, Gummi and achievements
 
-Research snapshot: 2026-09-18; cup and Gummi audit updated 2026-09-27. These remain MVP modules with their own declared goals. They do not inflate World collectibles percentages. Show spoilers directly; no warning/reveal flow. A fight or activity matters here because it grants something or has a separately selected challenge/record goal, not because every story event needs a checklist.
+Research snapshot: 2026-10-01; current dispositions are in [the resolution ledger](research-resolution-2026-10-01.md). These remain MVP modules with their own declared goals. They do not inflate World collectibles percentages. Show spoilers directly; no warning/reveal flow. A fight or activity matters here because it grants something or has a separately selected challenge/record goal, not because every story event needs a checklist.
 
 ## Mushroom XIII
 
@@ -24,7 +24,7 @@ The legacy `Mushroom XIII` tab is empty, but the Missions and Minigames tab cont
 
 Community corroboration: [Mushroom XIII](https://www.khwiki.com/Mushroom_XIII). No.1 appears after Xemnas; No.2 after the Experiment; No.3 after Xaldin. No.13 is available after Xemnas and the twelve successful challenges; use Look Up, then Ready, Go! to receive Winner's Proof and Proof of Peace. It is a reward event, not a thirteenth time/score trial. Nos.1–12 remain repeatable.
 
-The source itself flags prize/rank details for cleanup. Preserve personal best, target met, reward claimed, and desired farm rank separately. Full numeric A/B prize tables, every appearance condition and controller-neutral strategy directions remain unverified. Tranquility and Mushroom weapon acquisition must link rank-reward records; one Journal target cannot stand in for every drop tier.
+The source itself flags prize/rank details for cleanup. Preserve personal best, target met, reward claimed, and desired farm rank separately. All twelve numeric rank/reward tables and controller-neutral strategies are integrated. Earliest appearance predicates remain bounded for VII and XII; the current ledger records inspected sources and rejects the blanket “all worlds complete” claim contradicted by IV after Shan-Yu. Tranquility and Mushroom weapon acquisition must link rank-reward records; one Journal target cannot stand in for every drop tier.
 
 ## Absent Silhouettes
 
@@ -50,7 +50,7 @@ All thirteen Data fights are in Garden of Assemblage. Defeating the original mem
 | Magic Boost | Axel, Roxas |
 | AP Boost | Demyx, Luxord |
 
-Sephiroth is fought at Dark Depths; Fenrir requires the post-fight Cloud follow-up rather than merely setting Sephiroth defeated. Lingering Will is reached via Disney Castle's Hall of the Cornerstone portal and supplies Proof of Connection and Manifest Illusion. Complete every world’s story, including Atlantica and 100 Acre Wood, then defeat the final boss and save the cleared game to open the portal. The first Lingering Will victory grants the proof and stat rewards; subsequent victories grant Manifest Illusion. See [battle rewards](https://www.khwiki.com/Game:Lingering_Will) and the [HD achievement guide](https://www.trueachievements.com/a293114/lingering-will-achievement). Full combat walkthroughs remain outside this acquisition-data pass. [Fenrir](https://www.khwiki.com/Fenrir), [Proof](https://www.khwiki.com/Proof), [Illusion](https://www.khwiki.com/Illusion).
+Sephiroth is fought at Dark Depths; Fenrir requires the post-fight Cloud follow-up rather than merely setting Sephiroth defeated. Lingering Will is reached via Disney Castle's Hall of the Cornerstone portal and supplies Proof of Connection and Manifest Illusion. Complete every world’s story, including Atlantica and 100 Acre Wood, then defeat the final boss and save the cleared game to open the portal. The first Lingering Will victory grants the proof and stat rewards; subsequent victories grant Manifest Illusion. See [battle rewards](https://www.khwiki.com/Game:Lingering_Will) and the [HD achievement guide](https://www.trueachievements.com/a293114/lingering-will-achievement). The current records include practical tactics for all five Silhouettes, thirteen Data fights, Sephiroth and Lingering Will, plus a working Cavern route. A complete combat walkthrough for every move is not claimed. [Fenrir](https://www.khwiki.com/Fenrir), [Proof](https://www.khwiki.com/Proof), [Illusion](https://www.khwiki.com/Illusion).
 
 The three proofs are Peace, Nonexistence and Connection. Count each acquisition once. The cosmetic crown and linked equipment/encounter goals must not create extra collectible units for the same receipt.
 
@@ -71,11 +71,11 @@ Use separate clear, high-score and reward states. Regular cups are entered throu
 
 The Final Mix [Paradox Cup guide](https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups) names the required forms explicitly: Cerberus uses Valor/Wisdom/Master; Hades adds Final. Limit Form is not included in these level checks. The [Olympus Coliseum world article](https://www.khwiki.com/Olympus_Coliseum) ties Titan to completing the second episode, resolving the old vague progress note.
 
-Cup rule effects matter to acquisition guidance: Pain/Panic disables Drive and changes Limit cost; Cerberus is solo with special Drive behavior; Titan permits solo summons; Hades changes rules by ten-round block. Full round rosters and tactic coverage are still incomplete.
+Cup rule effects matter to acquisition guidance: Pain/Panic disables Drive and changes Limit cost; Cerberus is solo with special Drive behavior; Titan permits solo summons; Hades changes rules by ten-round block. All eight cup tables (120 rounds) and rule-based tactics are integrated. Pain/Panic’s exact reduced MP cost remains a source conflict (25 MP versus half cost); the live guidance states the supported qualitative reduction.
 
 ## Non-cup records recovered from the legacy workbook
 
-This is a factual target transcription, not a declaration of modern platform verification. Negative/upper-bound targets need correct comparisons: Junk Sweep's “less than 6” means ≤5, not ≤6. Scores, margins, hit counts and times are distinct units.
+These 23 targets now have modern guide corroboration, with NPC/room and practical instructions in the canonical expansion. Negative/upper-bound targets need correct comparisons: Junk Sweep's “less than 6” means ≤5, not ≤6. Scores, margins, hit counts and times are distinct units.
 
 | World / record | Target |
 |---|---|
@@ -92,7 +92,7 @@ This is a factual target transcription, not a declaration of modern platform ver
 | Radiant Garden / SB Freestyle | ≥200 |
 | Olympus / Phil's Training, Maniac | ≥1,000 |
 | Agrabah / Magic Carpet | ≥65 |
-| Agrabah / SB Sand Glider | ≥10 |
+| Agrabah / SB Sand Slider | ≥10 |
 | 100 Acre Wood / A Blustery Rescue | ≥18,000 |
 | 100 Acre Wood / Hunny Slider | ≥8,000 |
 | 100 Acre Wood / Balloon Bounce | ≥2,000 |
@@ -103,13 +103,13 @@ This is a factual target transcription, not a declaration of modern platform ver
 | Port Royal / SB Time Attack | ≤40 seconds |
 | Space Paranoids / Light Cycle | ≥30 |
 
-The workbook also lists repeat performances of the five Atlantica songs. Keep those as separately named records if tracking them; do not convert every plot song unlock into world percentage work. Song rewards needed for Blizzard, Mysterious Abyss and Orichalcum+ remain explicit acquisition instructions.
+All five Atlantica repeat performances now have named records, unlocks, controls, conditions and rewards. The Chasm of Challenges repeat-clear record is also present. Together these give 29 minigame records; they do not add plot-song unlocks to world percentages.
 
 ## Gummi missions and blueprints
 
 Nine routes: Asteroid Sweep, Stardust Sweep, Phantom Storm, Splash Island, Floating Island, Ancient Highway, Broken Highway, Sunlight Storm, Assault of the Dreadnought. Each has three normal missions and three Final Mix EX S variants: **27 + 27 = 54 route/mission/mode records**, independently computed. Mission 1 scores medals, 2 enemy kills, 3 points. Clear 1 and 2 to unlock 3; S rank unlocks that mission's EX S option. [Gummi Missions](https://www.khwiki.com/Gummi_Missions).
 
-Track route unlock, mission mode, best rank/score, EX build constraint, rank rewards, treasure rewards, and blueprint acquisition separately. The checked-in [mission data](verified-gummi-missions.json) now records all 27 normal S-rank targets, all 27 EX targets and ship constraints, and both sets of S-rank rewards. Mission 3 uses the higher Final Mix scores, not original KHII scores. Lower-rank reward tables, enemy treasure manifests and the full sample/Teeny blueprint dependency catalog remain separate coverage work.
+Track route unlock, mission mode, best rank/score, EX build constraint, rank rewards, treasure rewards, and blueprint acquisition separately. The checked-in [mission data](verified-gummi-missions.json) now records all 27 normal S-rank targets, all 27 EX targets and ship constraints, and both sets of S-rank rewards. Mission 3 uses the higher Final Mix scores, not original KHII scores. `verified-gummi-details.json` now supplies every normal rank ladder and mission treasure table, all 28 sample block lists, twelve special models and nineteen Teeny dependencies. The alleged exact Material/G shape/color prerequisite was false: all shape variants share inventory stock. Collecting all forty main blueprints also unlocks their nineteen Teeny children. The guide supplies that complete acquisition route without inventing a numerical Steam denominator.
 
 The inspected [Blueprint](https://www.khwiki.com/Blueprint) tables contain **28 sample and 12 special main-ship models**; Teeny Ships are linked children, not included in that forty-model main-ship count. Samples unlock from required block ownership. Special sources:
 
@@ -132,6 +132,6 @@ The inspected [Blueprint](https://www.khwiki.com/Blueprint) tables contain **28 
 
 Steam is the user's platform. The official [Steam store](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_15_25_ReMIX/) identifies KHII Final Mix inside HD 1.5+2.5 and advertises 197 achievements for the **whole collection**. That is not the KHII count. The [official achievement page](https://steamcommunity.com/stats/2552430/achievements) was inspected; many hidden requirements are blank without an unlocked profile, so it cannot certify every KHII condition from this read.
 
-The legacy `achievements` range contains 51 trophy-name/description candidates, including a PlayStation platinum. Preserve the useful requirements, but do not import the platinum into Steam or claim platform parity. Separate categories include level/difficulty clears, rescues, optional fights, form/summon development, equipment acquisition, Journal goals and Gummi ranks/blueprints. A KHII/platform-ID mapping, hidden-description corroboration, and modern trophy differences remain required research.
+The historical legacy `achievements` range contains 51 trophy-name/description candidates, including a PlayStation platinum. Preserve the useful requirements, but do not import the platinum into Steam or claim platform parity. Separate categories include level/difficulty clears, rescues, optional fights, form/summon development, equipment acquisition, Journal goals and Gummi ranks/blueprints. All fifty KHII Steam names and conditions are now normalized in `verified-steam-achievements.json`, without the PlayStation platinum. Internal platform API-key mapping is not required to explain a goal, and future platform parity is not inferred.
 
 Official Journal-completion requirements on an achievement remain accurate as achievement text. World collectibles 100% does not prove that trophy, and no full Chronicles/biography trigger manifest is introduced as a release blocker. The app should provide the linked acquisition/record requirements and be clear about which goal set is being measured.

@@ -1,5 +1,7 @@
 # BBS Final Mix guide rollout — September 20, 2026
 
+October 1 status: this document preserves the dated research/rollout snapshot. Current implemented counts and per-finding gates are in [the resolution log](../games/bbsfm/research-resolution-2026-10-01.md) and [complete ledger](../games/bbsfm/research-dispositions-2026-10-01.json). The active catalog is 187 persistent HD commands; all 38 audit IDs have a disposition. Secret Gem and Ringer Ticket conflicts are resolved, all 42 flavor routes are normalized, and Data Jiminy stays empty. Historical missing-catalog/no-implementation statements below are superseded, not outstanding work.
+
 **October 1 supersession:** both historical meld quarantines below are corrected and integrated (468 melds + 24 ice cream recipes); the BBS command name and conditional Spiderchest Fleeting drop are corrected too. Only minimum Ignite level remains disputed within those recipe findings. See [current resolution evidence](../games/bbsfm/research-resolution-2026-10-01.md). Counts and non-integration statements below describe the earlier pass.
 
 ## Research and decisions

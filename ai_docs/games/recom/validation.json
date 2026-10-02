@@ -58,5 +58,43 @@
     "browserTests": 24,
     "audit": "data-gap-audit-2026-09-28.md",
     "existingEntryIdsPreserved": true
+  },
+  "auditFollowupValidation": {
+    "date": "2026-10-01",
+    "result": "pass",
+    "runtimeEntries": 431,
+    "campaignCardCounts": {
+      "sora": 152,
+      "riku": 59
+    },
+    "existingEntryIdsPreservedAgainst": "b839005",
+    "targetedCommand": "npx vitest run tests/recom.test.ts",
+    "targetedTestsPassed": 17,
+    "generator": "node tools/content/build-recom.mjs: pass",
+    "diffWhitespace": "git diff --check: pass",
+    "currentLocalMarkdownTargetsChecked": 91,
+    "catalogChecks": {
+      "progressionRows": 99,
+      "combatRecords": 59,
+      "combatFloorRows": 379,
+      "explicitDuelTimers": 43,
+      "bossEncounterDeckTables": 24,
+      "bossDeckCardFamilyRows": 111,
+      "sleightEffects": 98,
+      "structuredStockRecipes": 92,
+      "duelActivations": 6,
+      "basicCardEffects": 29,
+      "basicUseDetails": 22,
+      "itemReloadMatrices": 7,
+      "minigameRoutes": 6,
+      "friendAvailabilityRows": 8,
+      "retainedRikuBossCards": 12
+    },
+    "notPerformed": [
+      "Native game execution or achievement trigger certification",
+      "Whole-application build/test/browser suite; shared integration owns these checks",
+      "New native UI captures or production asset licensing",
+      "Data Jiminy memories/integration"
+    ]
   }
 }

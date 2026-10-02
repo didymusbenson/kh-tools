@@ -1,5 +1,7 @@
 # KH1FM collectibles and progression research
 
+**Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+
 Researched 2026-09-18 for modern Final Mix. Linked facts are research evidence, not a claim of hands-on validation. This supplements the [game spec](../kingdom-hearts-final-mix.md) and [readiness assessment](../../readiness/kingdom-hearts-final-mix.md).
 
 ## Completion is several distinct goals
@@ -169,3 +171,7 @@ Deep Dive replaces the shorter ending when qualified. Collection theater access 
 ## Remaining record work
 
 Research now establishes these systems and their key counts/rules. Still required: enumerate and reconcile every puppy group, mark, Report acquisition, collectible access dependency and level row; add exact room routes; check actual modern game behavior. See the [world and coverage audit](world-and-coverage-audit.md). No category may show “complete” merely because its overview exists.
+
+## Current route and theater additions
+
+The two unopened Halloween Town cage chests now have their post-destruction location: enter Manor Ruins from Bridge and descend into the central hole. Mini-game Maniac has a self-contained seven-base-game plus four-cup-timer registration list. Both secret-ending runtime guides distinguish collection-menu Theater access from save unlocks; fresh-profile availability of each individual secret movie remains KH1-016. All five Slider fruit lines are supplied; exact four-course Vine sequences remain KH1-014.

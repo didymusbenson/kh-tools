@@ -154,7 +154,7 @@
       "name": "High Jumper",
       "campaignScope": "sora",
       "category": "minigame",
-      "requirement": "Tigger’s Jump-a-Thon: score >= 120.",
+      "requirement": "Tigger\u2019s Jump-a-Thon: score >= 120.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
@@ -362,7 +362,7 @@
       "name": "Record Keeper Sora",
       "campaignScope": "sora",
       "category": "journal",
-      "requirement": "Complete Jiminy’s Journal.",
+      "requirement": "Complete Jiminy\u2019s Journal.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
@@ -378,7 +378,7 @@
       "name": "Card Master Sora",
       "campaignScope": "sora",
       "category": "collection",
-      "requirement": "Complete the required Card Collection in Jiminy’s Journal.",
+      "requirement": "Complete the required Card Collection in Jiminy\u2019s Journal.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
@@ -458,7 +458,7 @@
       "name": "Card Master Riku",
       "campaignScope": "riku",
       "category": "collection",
-      "requirement": "Complete D-Report’s Card Collection.",
+      "requirement": "Complete D-Report\u2019s Card Collection.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": true,
@@ -570,7 +570,7 @@
       "name": "Level Master Sora",
       "campaignScope": "sora",
       "category": "level",
-      "requirement": "Reach Sora’s maximum level.",
+      "requirement": "Reach Sora\u2019s maximum level.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
@@ -586,7 +586,7 @@
       "name": "Level Master Riku",
       "campaignScope": "riku",
       "category": "level",
-      "requirement": "Reach Riku’s maximum level.",
+      "requirement": "Reach Riku\u2019s maximum level.",
       "steamApiName": null,
       "primaryNameConfirmed": true,
       "primaryDescriptionVisible": false,
@@ -759,5 +759,32 @@
       ],
       "verification": "Steam display name confirmed; per-game partition and hidden descriptions checked against Exophase; API IDs and runtime predicates not audited"
     }
-  ]
+  ],
+  "followUpEvidence": {
+    "date": "2026-10-01",
+    "apiNamespace": {
+      "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430",
+      "observedCount": 197,
+      "identifierRange": [
+        "ACH_001",
+        "ACH_197"
+      ],
+      "displayNameMapping": null,
+      "scope": "Compilation namespace only; percentages cannot certify a mapping to the 47 local goals.",
+      "schemaAttempt": "GetSchemaForGame returned HTTP 400 without a key; public Steam HTML contains no per-goal API names."
+    },
+    "noEscapeReport": {
+      "url": "https://steamcommunity.com/app/2552430/discussions/0/4347743744911045217/",
+      "finding": "Firsthand discussion reports No Escape on Riku and recovery by loading a save from before an escape.",
+      "limit": "Not exact trigger code or proof of all forced-escape/save-scope cases."
+    },
+    "reportStamps": {
+      "sources": [
+        "https://www.khwiki.com/Jiminy%27s_Journal",
+        "https://www.khwiki.com/D-Report"
+      ],
+      "finding": "References describe Mickey stamps for completed sections/subsections; story entries update through progression.",
+      "limit": "Full character-registration conditions, rank thresholds, ordering and percentage formula remain unproved."
+    }
+  }
 }

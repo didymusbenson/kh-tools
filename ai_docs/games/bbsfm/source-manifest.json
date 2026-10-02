@@ -1112,5 +1112,1741 @@
       "url": "https://www.khwiki.com/Archraven",
       "inspection": "Shimmering first rate band Shop 1–4."
     }
-  ]
+  ],
+  "resolution_2026_10_01": {
+    "reviewed": "2026-10-01",
+    "edition": "Steam HD Final Mix",
+    "method": "Live community-source inspection plus canonical/runtime integration; no direct game build or playthrough certification.",
+    "ledger": "research-dispositions-2026-10-01.json",
+    "command_pages": [
+      {
+        "name": "Quick Blitz",
+        "url": "https://www.khwiki.com/Quick_Blitz",
+        "acquisition_rows": 10,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Blitz",
+        "url": "https://www.khwiki.com/Blitz",
+        "acquisition_rows": 9,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Meteor Crash",
+        "url": "https://www.khwiki.com/Meteor_Crash",
+        "acquisition_rows": 2,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Magic Hour",
+        "url": "https://www.khwiki.com/Magic_Hour",
+        "acquisition_rows": 0,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sliding Dash",
+        "url": "https://www.khwiki.com/Sliding_Dash",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Fire Dash",
+        "url": "https://www.khwiki.com/Fire_Dash",
+        "acquisition_rows": 11,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Dark Haze",
+        "url": "https://www.khwiki.com/Dark_Haze",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sonic Blade",
+        "url": "https://www.khwiki.com/Sonic_Blade",
+        "acquisition_rows": 7,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Chaos Blade",
+        "url": "https://www.khwiki.com/Chaos_Blade",
+        "acquisition_rows": 2,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Zantetsuken",
+        "url": "https://www.khwiki.com/Zantetsuken",
+        "acquisition_rows": 2,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Strike Raid",
+        "url": "https://www.khwiki.com/Strike_Raid",
+        "acquisition_rows": 7,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Freeze Raid",
+        "url": "https://www.khwiki.com/Freeze_Raid",
+        "acquisition_rows": 5,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Treasure Raid",
+        "url": "https://www.khwiki.com/Treasure_Raid",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Spark Raid",
+        "url": "https://www.khwiki.com/Spark_Raid",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Wind Raid",
+        "url": "https://www.khwiki.com/Wind_Raid",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fire Surge",
+        "url": "https://www.khwiki.com/Fire_Surge",
+        "acquisition_rows": 7,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Barrier Surge",
+        "url": "https://www.khwiki.com/Barrier_Surge",
+        "acquisition_rows": 4,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Thunder Surge",
+        "url": "https://www.khwiki.com/Thunder_Surge",
+        "acquisition_rows": 4,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Aerial Slam",
+        "url": "https://www.khwiki.com/Aerial_Slam",
+        "acquisition_rows": 10,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ars Solum",
+        "url": "https://www.khwiki.com/Ars_Solum",
+        "acquisition_rows": 2,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ars Arcanum",
+        "url": "https://www.khwiki.com/Ars_Arcanum",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Time Splicer",
+        "url": "https://www.khwiki.com/Time_Splicer",
+        "acquisition_rows": 2,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Poison Edge",
+        "url": "https://www.khwiki.com/Poison_Edge",
+        "acquisition_rows": 8,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Wishing Edge",
+        "url": "https://www.khwiki.com/Wishing_Edge",
+        "acquisition_rows": 4,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Blizzard Edge",
+        "url": "https://www.khwiki.com/Blizzard_Edge",
+        "acquisition_rows": 4,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Stun Edge",
+        "url": "https://www.khwiki.com/Stun_Edge",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Slot Edge",
+        "url": "https://www.khwiki.com/Slot_Edge",
+        "acquisition_rows": 6,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fire Strike",
+        "url": "https://www.khwiki.com/Fire_Strike",
+        "acquisition_rows": 8,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Confusion Strike",
+        "url": "https://www.khwiki.com/Confusion_Strike",
+        "acquisition_rows": 8,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Binding Strike",
+        "url": "https://www.khwiki.com/Binding_Strike",
+        "acquisition_rows": 11,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Tornado Strike",
+        "url": "https://www.khwiki.com/Tornado_Strike",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Brutal Blast",
+        "url": "https://www.khwiki.com/Brutal_Blast",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Magnet Spiral",
+        "url": "https://www.khwiki.com/Magnet_Spiral",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 1
+      },
+      {
+        "name": "Salvation",
+        "url": "https://www.khwiki.com/Salvation",
+        "acquisition_rows": 3,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Windcutter",
+        "url": "https://www.khwiki.com/Windcutter",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Limit Storm",
+        "url": "https://www.khwiki.com/Limit_Storm",
+        "acquisition_rows": 6,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Collision Magnet",
+        "url": "https://www.khwiki.com/Collision_Magnet",
+        "acquisition_rows": 7,
+        "cp_steps": 0,
+        "drop_rows": 1
+      },
+      {
+        "name": "Geo Impact",
+        "url": "https://www.khwiki.com/Geo_Impact",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sacrifice",
+        "url": "https://www.khwiki.com/Sacrifice",
+        "acquisition_rows": 4,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Break Time",
+        "url": "https://www.khwiki.com/Break_Time",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fire",
+        "url": "https://www.khwiki.com/Fire",
+        "acquisition_rows": 6,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Fira",
+        "url": "https://www.khwiki.com/Fira",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Firaga",
+        "url": "https://www.khwiki.com/Firaga",
+        "acquisition_rows": 7,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Dark Firaga",
+        "url": "https://www.khwiki.com/Dark_Firaga",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fission Firaga",
+        "url": "https://www.khwiki.com/Fission_Firaga",
+        "acquisition_rows": 6,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Triple Firaga",
+        "url": "https://www.khwiki.com/Triple_Firaga",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Crawling Fire",
+        "url": "https://www.khwiki.com/Crawling_Fire",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Blizzard",
+        "url": "https://www.khwiki.com/Blizzard",
+        "acquisition_rows": 8,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Blizzara",
+        "url": "https://www.khwiki.com/Blizzara",
+        "acquisition_rows": 5,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Blizzaga",
+        "url": "https://www.khwiki.com/Blizzaga",
+        "acquisition_rows": 3,
+        "cp_steps": 0,
+        "drop_rows": 1
+      },
+      {
+        "name": "Triple Blizzaga",
+        "url": "https://www.khwiki.com/Triple_Blizzaga",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Thunder",
+        "url": "https://www.khwiki.com/Thunder",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Thundara",
+        "url": "https://www.khwiki.com/Thundara",
+        "acquisition_rows": 13,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Thundaga",
+        "url": "https://www.khwiki.com/Thundaga",
+        "acquisition_rows": 7,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Thundaga Shot",
+        "url": "https://www.khwiki.com/Thundaga_Shot",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Cure",
+        "url": "https://www.khwiki.com/Cure",
+        "acquisition_rows": 11,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Cura",
+        "url": "https://www.khwiki.com/Cura",
+        "acquisition_rows": 5,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Curaga",
+        "url": "https://www.khwiki.com/Curaga",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Esuna",
+        "url": "https://www.khwiki.com/Esuna",
+        "acquisition_rows": 2,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Mine Shield",
+        "url": "https://www.khwiki.com/Mine_Shield",
+        "acquisition_rows": 5,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Mine Square",
+        "url": "https://www.khwiki.com/Mine_Square",
+        "acquisition_rows": 8,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Seeker Mine",
+        "url": "https://www.khwiki.com/Seeker_Mine",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Zero Gravity",
+        "url": "https://www.khwiki.com/Zero_Gravity",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Zero Gravira",
+        "url": "https://www.khwiki.com/Zero_Gravira",
+        "acquisition_rows": 13,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Zero Graviga",
+        "url": "https://www.khwiki.com/Zero_Graviga",
+        "acquisition_rows": 9,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Magnet",
+        "url": "https://www.khwiki.com/Magnet",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Magnera",
+        "url": "https://www.khwiki.com/Magnera",
+        "acquisition_rows": 5,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Magnega",
+        "url": "https://www.khwiki.com/Magnega",
+        "acquisition_rows": 5,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Munny Magnet",
+        "url": "https://www.khwiki.com/Munny_Magnet",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Energy Magnet",
+        "url": "https://www.khwiki.com/Energy_Magnet",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "D-Link Magnet",
+        "url": "https://www.khwiki.com/D-Link_Magnet",
+        "acquisition_rows": 0,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Aero",
+        "url": "https://www.khwiki.com/Aero",
+        "acquisition_rows": 8,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Aerora",
+        "url": "https://www.khwiki.com/Aerora",
+        "acquisition_rows": 10,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Aeroga",
+        "url": "https://www.khwiki.com/Aeroga",
+        "acquisition_rows": 4,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Warp",
+        "url": "https://www.khwiki.com/Warp",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Faith",
+        "url": "https://www.khwiki.com/Faith",
+        "acquisition_rows": 0,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Deep Freeze",
+        "url": "https://www.khwiki.com/Deep_Freeze_(ability)",
+        "acquisition_rows": 6,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Glacier",
+        "url": "https://www.khwiki.com/Glacier_(ability)",
+        "acquisition_rows": 2,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ice Barrage",
+        "url": "https://www.khwiki.com/Ice_Barrage",
+        "acquisition_rows": 2,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Firaga Burst",
+        "url": "https://www.khwiki.com/Firaga_Burst",
+        "acquisition_rows": 3,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Raging Storm",
+        "url": "https://www.khwiki.com/Raging_Storm",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Mega Flare",
+        "url": "https://www.khwiki.com/Mega_Flare",
+        "acquisition_rows": 0,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Quake",
+        "url": "https://www.khwiki.com/Quake",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Meteor",
+        "url": "https://www.khwiki.com/Meteor",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Tornado",
+        "url": "https://www.khwiki.com/Tornado",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Transcendence",
+        "url": "https://www.khwiki.com/Transcendence",
+        "acquisition_rows": 2,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Mini",
+        "url": "https://www.khwiki.com/Mini",
+        "acquisition_rows": 6,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Blackout",
+        "url": "https://www.khwiki.com/Blackout",
+        "acquisition_rows": 9,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Ignite",
+        "url": "https://www.khwiki.com/Ignite",
+        "acquisition_rows": 6,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Confuse",
+        "url": "https://www.khwiki.com/Confuse",
+        "acquisition_rows": 5,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Bind",
+        "url": "https://www.khwiki.com/Bind",
+        "acquisition_rows": 11,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Poison",
+        "url": "https://www.khwiki.com/Poison",
+        "acquisition_rows": 6,
+        "cp_steps": 4,
+        "drop_rows": 1
+      },
+      {
+        "name": "Slow",
+        "url": "https://www.khwiki.com/Slow",
+        "acquisition_rows": 10,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Stop",
+        "url": "https://www.khwiki.com/Stop",
+        "acquisition_rows": 5,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Stopra",
+        "url": "https://www.khwiki.com/Stopra",
+        "acquisition_rows": 6,
+        "cp_steps": 3,
+        "drop_rows": 1
+      },
+      {
+        "name": "Stopga",
+        "url": "https://www.khwiki.com/Stopga",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sleep",
+        "url": "https://www.khwiki.com/Sleep",
+        "acquisition_rows": 7,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Potion",
+        "url": "https://www.khwiki.com/Potion",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Hi-Potion",
+        "url": "https://www.khwiki.com/Hi-Potion",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Mega-Potion",
+        "url": "https://www.khwiki.com/Mega-Potion",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ether",
+        "url": "https://www.khwiki.com/Ether",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Mega-Ether",
+        "url": "https://www.khwiki.com/Mega-Ether",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Panacea",
+        "url": "https://www.khwiki.com/Panacea",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Elixir",
+        "url": "https://www.khwiki.com/Elixir",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Megalixir",
+        "url": "https://www.khwiki.com/Megalixir",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Balloon Letter",
+        "url": "https://www.khwiki.com/Balloon_Letter",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Vanilla Glitz",
+        "url": "https://www.khwiki.com/Vanilla_Glitz",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Honeybunny",
+        "url": "https://www.khwiki.com/Honeybunny",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fabracadabra",
+        "url": "https://www.khwiki.com/Fabracadabra",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Bueno Volcano",
+        "url": "https://www.khwiki.com/Bueno_Volcano",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Snow Bear",
+        "url": "https://www.khwiki.com/Snow_Bear",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Spark Lemon",
+        "url": "https://www.khwiki.com/Spark_Lemon",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Royalberry",
+        "url": "https://www.khwiki.com/Royalberry",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Rockin' Crunch",
+        "url": "https://www.khwiki.com/Rockin%27_Crunch",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Big Bad Pete",
+        "url": "https://www.khwiki.com/Big_Bad_Pete",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Goofy Parfait",
+        "url": "https://www.khwiki.com/Goofy_Parfait",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sugary Skies",
+        "url": "https://www.khwiki.com/Sugary_Skies",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Double Crunch",
+        "url": "https://www.khwiki.com/Double_Crunch",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Donald Fizz",
+        "url": "https://www.khwiki.com/Donald_Fizz",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Daisy Sorbet",
+        "url": "https://www.khwiki.com/Daisy_Sorbet",
+        "acquisition_rows": 0,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Group Cure",
+        "url": "https://www.khwiki.com/Group_Cure",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Group Cura",
+        "url": "https://www.khwiki.com/Group_Cura",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Group Curaga",
+        "url": "https://www.khwiki.com/Group_Curaga",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Confetti",
+        "url": "https://www.khwiki.com/Confetti",
+        "acquisition_rows": 2,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fireworks",
+        "url": "https://www.khwiki.com/Fireworks",
+        "acquisition_rows": 4,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Victory Pose",
+        "url": "https://www.khwiki.com/Victory_Pose",
+        "acquisition_rows": 1,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Vanish",
+        "url": "https://www.khwiki.com/Vanish",
+        "acquisition_rows": 1,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Trinity Limit",
+        "url": "https://www.khwiki.com/Trinity_Limit",
+        "acquisition_rows": 2,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Unison Rush",
+        "url": "https://www.khwiki.com/Unison_Rush",
+        "acquisition_rows": 1,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Voltage Stack",
+        "url": "https://www.khwiki.com/Voltage_Stack",
+        "acquisition_rows": 2,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Illusion-F",
+        "url": "https://www.khwiki.com/Illusion-F",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Illusion-B",
+        "url": "https://www.khwiki.com/Illusion-B",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Illusion-R",
+        "url": "https://www.khwiki.com/Illusion-R",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Illusion-L",
+        "url": "https://www.khwiki.com/Illusion-L",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Illusion-V",
+        "url": "https://www.khwiki.com/Illusion-V",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Jump",
+        "url": "https://www.khwiki.com/Jump",
+        "acquisition_rows": 0,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "High Jump",
+        "url": "https://www.khwiki.com/High_Jump",
+        "acquisition_rows": 6,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Dodge Roll",
+        "url": "https://www.khwiki.com/Dodge_Roll",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Thunder Roll",
+        "url": "https://www.khwiki.com/Thunder_Roll",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Cartwheel",
+        "url": "https://www.khwiki.com/Cartwheel",
+        "acquisition_rows": 0,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Firewheel",
+        "url": "https://www.khwiki.com/Firewheel",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Air Slide",
+        "url": "https://www.khwiki.com/Air_Slide",
+        "acquisition_rows": 4,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ice Slide",
+        "url": "https://www.khwiki.com/Ice_Slide",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sonic Impact",
+        "url": "https://www.khwiki.com/Sonic_Impact",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Slide",
+        "url": "https://www.khwiki.com/Slide",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Reversal",
+        "url": "https://www.khwiki.com/Reversal",
+        "acquisition_rows": 2,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Glide",
+        "url": "https://www.khwiki.com/Glide",
+        "acquisition_rows": 2,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Superglide",
+        "url": "https://www.khwiki.com/Superglide",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Fire Glide",
+        "url": "https://www.khwiki.com/Fire_Glide",
+        "acquisition_rows": 0,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Homing Slide",
+        "url": "https://www.khwiki.com/Homing_Slide",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Teleport",
+        "url": "https://www.khwiki.com/Teleport",
+        "acquisition_rows": 1,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Doubleflight",
+        "url": "https://www.khwiki.com/Doubleflight",
+        "acquisition_rows": 1,
+        "cp_steps": 1,
+        "drop_rows": 0
+      },
+      {
+        "name": "Block",
+        "url": "https://www.khwiki.com/Block",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Renewal Block",
+        "url": "https://www.khwiki.com/Renewal_Block",
+        "acquisition_rows": 0,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Focus Block",
+        "url": "https://www.khwiki.com/Focus_Block",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Stun Block",
+        "url": "https://www.khwiki.com/Stun_Block",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Poison Block",
+        "url": "https://www.khwiki.com/Poison_Block_(KHBBS)",
+        "acquisition_rows": 0,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Barrier",
+        "url": "https://www.khwiki.com/Barrier",
+        "acquisition_rows": 3,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Renewal Barrier",
+        "url": "https://www.khwiki.com/Renewal_Barrier",
+        "acquisition_rows": 0,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Focus Barrier",
+        "url": "https://www.khwiki.com/Focus_Barrier",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Confuse Barrier",
+        "url": "https://www.khwiki.com/Confuse_Barrier",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Stop Barrier",
+        "url": "https://www.khwiki.com/Stop_Barrier",
+        "acquisition_rows": 2,
+        "cp_steps": 3,
+        "drop_rows": 0
+      },
+      {
+        "name": "Counter Hammer",
+        "url": "https://www.khwiki.com/Counter_Hammer",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Payback Fang",
+        "url": "https://www.khwiki.com/Payback_Fang",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Counter Rush",
+        "url": "https://www.khwiki.com/Counter_Rush",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Reversal Slash",
+        "url": "https://www.khwiki.com/Reversal_Slash",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Payback Raid",
+        "url": "https://www.khwiki.com/Payback_Raid",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Counter Blast",
+        "url": "https://www.khwiki.com/Counter_Blast",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Payback Surge",
+        "url": "https://www.khwiki.com/Payback_Surge",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Aerial Recovery",
+        "url": "https://www.khwiki.com/Aerial_Recovery",
+        "acquisition_rows": 1,
+        "cp_steps": 0,
+        "drop_rows": 0
+      },
+      {
+        "name": "Meteor Shower",
+        "url": "https://www.khwiki.com/Meteor_Shower",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Flame Salvo",
+        "url": "https://www.khwiki.com/Flame_Salvo",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Chaos Snake",
+        "url": "https://www.khwiki.com/Chaos_Snake",
+        "acquisition_rows": 1,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Dark Volley",
+        "url": "https://www.khwiki.com/Dark_Volley",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Bubble Blaster",
+        "url": "https://www.khwiki.com/Bubble_Blaster",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ragnarok",
+        "url": "https://www.khwiki.com/Ragnarok",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Thunderstorm",
+        "url": "https://www.khwiki.com/Thunderstorm",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Bio Barrage",
+        "url": "https://www.khwiki.com/Bio_Barrage",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Pulse Bomb",
+        "url": "https://www.khwiki.com/Pulse_Bomb",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Prism Rain",
+        "url": "https://www.khwiki.com/Prism_Rain",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Photon Charge",
+        "url": "https://www.khwiki.com/Photon_Charge",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Absolute Zero",
+        "url": "https://www.khwiki.com/Absolute_Zero_(ability)",
+        "acquisition_rows": 2,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Lightning Ray",
+        "url": "https://www.khwiki.com/Lightning_Ray",
+        "acquisition_rows": 3,
+        "cp_steps": 4,
+        "drop_rows": 0
+      },
+      {
+        "name": "Sonic Shadow",
+        "url": "https://www.khwiki.com/Sonic_Shadow",
+        "acquisition_rows": 1,
+        "cp_steps": 5,
+        "drop_rows": 0
+      },
+      {
+        "name": "Ultima Cannon",
+        "url": "https://www.khwiki.com/Ultima_Cannon",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Multivortex",
+        "url": "https://www.khwiki.com/Multivortex",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      },
+      {
+        "name": "Lightbloom",
+        "url": "https://www.khwiki.com/Lightbloom",
+        "acquisition_rows": 1,
+        "cp_steps": 6,
+        "drop_rows": 0
+      }
+    ],
+    "finding_sources": [
+      {
+        "finding": "BBS-001",
+        "urls": [
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://khrealm.com/kh-bbs-stickers-guide",
+          "https://www.khwiki.com/Sticker_Album",
+          "https://www.khwiki.com/Game:Realm_of_Darkness",
+          "https://khrealm.com/kh-bbs-walkthrough",
+          "https://www.destinyislands.com/walkthroughs/bbs-fm/terra/mysterious-tower/",
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/mysterious-tower",
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/ventus-story/never-land",
+          "https://www.khwiki.com/Megalixir",
+          "https://www.khwiki.com/Recipe",
+          "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html"
+        ],
+        "boundary": "Some source rows still give only an area or relative landmark, not a full save-point approach. Exact earliest movement/access remains BBS-003; official ordering is BBS-002. The eight Secret Episode source rows repeat room names only, and the tutorial has no added route. Guiding-key is fully accessible through web retrieval despite direct HTTP 403; no access blocker is claimed."
+      },
+      {
+        "finding": "BBS-002",
+        "urls": [
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://khrealm.com/kh-bbs-stickers-guide",
+          "https://www.khwiki.com/Sticker_Album",
+          "https://www.khwiki.com/Game:Realm_of_Darkness",
+          "https://gamefaqs.gamespot.com/psp/943347-kingdom-hearts-birth-by-sleep/faqs/74825/v-treasures"
+        ],
+        "boundary": "World/album inventories and GameFAQs Reports lists do not establish an independently reconciled HD Reports sequence for all 374 main chests. Source numbering remains source order, not certified UI numbering."
+      },
+      {
+        "finding": "BBS-003",
+        "urls": [
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://khrealm.com/kh-bbs-stickers-guide",
+          "https://www.khwiki.com/Sticker_Album",
+          "https://www.khwiki.com/Game:Realm_of_Darkness",
+          "https://www.khwiki.com/Game:Land_of_Departure",
+          "https://www.khwiki.com/Game:Young_Xehanort",
+          "https://kingdomhearts.fandom.com/wiki/Land_of_Departure",
+          "https://www.playstationtrophies.org/forum/topic/237564-reports-completion/"
+        ],
+        "boundary": "KHWiki calls High Jump required for Ventus Cottage Clearing and Mousehole stickers, while KHRealm describes stump/swing and falling-Sliding-Dash alternatives. Minimum levels are unresolved. Land of Departure sources conflict over late access: Fandom says inaccessible after story; FM trophy forum search reports post-Eraqus access but full page errors; Unknown page qualifies accessible save files. No permanent-missable claim is made."
+      },
+      {
+        "finding": "BBS-004",
+        "urls": [
+          "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/テラ",
+          "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/ヴェントゥス",
+          "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/アクア",
+          "https://guiding-key.tumblr.com/khbbs-locations",
+          "https://khrealm.com/kh-bbs-stickers-guide",
+          "https://kouryakutsushin.com/khbbs/album-terra.htm",
+          "https://kouryakutsushin.com/khbbs/album-ventus.htm",
+          "https://kouryakutsushin.com/khbbs/album-aqua.htm",
+          "https://khrealm.com/images/content/bbs/terra_stickers.jpg",
+          "https://khrealm.com/images/content/bbs/ventus_stickers.jpg",
+          "https://khrealm.com/images/content/bbs/aqua_stickers.jpg"
+        ],
+        "boundary": "No missing per-sticker placement text. Pixel-perfect hitboxes are not required to follow the illustrated landmarks; use seven-point feedback and avoid overlapping stickers."
+      },
+      {
+        "finding": "BBS-005",
+        "urls": [
+          "https://www.khwiki.com/Game:Realm_of_Darkness",
+          "https://www.khwiki.com/Secret_Gem",
+          "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode",
+          "https://khrealm.com/kh-bbs-walkthrough",
+          "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/83"
+        ],
+        "boundary": ""
+      },
+      {
+        "finding": "BBS-006",
+        "urls": [
+          "https://www.khwiki.com/Mine_Square",
+          "https://guiding-key.tumblr.com/khbbs-abilities",
+          "https://www.destinyislands.com/bbs-fm/melding/magic-commands/"
+        ],
+        "boundary": "Exact minimum Ignite level remains 3 in KHWiki versus 1 in guiding-key; Destiny Islands omits levels. This is not a whole-pair quarantine."
+      },
+      {
+        "finding": "BBS-007",
+        "urls": [
+          "https://www.khwiki.com/Magnet_Spiral",
+          "https://www.destinyislands.com/bbs-fm/melding/attack-commands/"
+        ],
+        "boundary": ""
+      },
+      {
+        "finding": "BBS-008",
+        "urls": [
+          "https://www.khwiki.com/Confusion_Strike",
+          "https://www.destinyislands.com/bbs-fm/melding/attack-commands/"
+        ],
+        "boundary": ""
+      },
+      {
+        "finding": "BBS-009",
+        "urls": [
+          "https://www.khwiki.com/Deck_Command_(KHBBS)",
+          "https://www.khwiki.com/Shotlock",
+          "https://www.khwiki.com/Kingdom_Hearts_HD_2.5_ReMIX"
+        ],
+        "boundary": "Acquisition and mastery completeness are separately tracked as BBS-010/012."
+      },
+      {
+        "finding": "BBS-010",
+        "urls": [
+          "https://www.khwiki.com/Deck_Command_(KHBBS)",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.khwiki.com/Command_Board",
+          "https://www.khwiki.com/Focus_Block",
+          "https://www.khwiki.com/Focus_Barrier",
+          "https://www.khwiki.com/Renewal_Block",
+          "https://www.khwiki.com/Renewal_Barrier",
+          "https://www.khwiki.com/Zantetsuken"
+        ],
+        "boundary": "Not every command page has a BBS acquisition list. The 108 legacy shop rows are not yet a complete normalized character-specific AND/OR gate table; purchased/previously-obtained and board mode conditions must remain separate. Per-command source URLs are in command-catalog.json."
+      },
+      {
+        "finding": "BBS-011",
+        "urls": [
+          "https://www.khwiki.com/Mine_Square",
+          "https://www.khwiki.com/Buckle_Bruiser",
+          "https://www.khwiki.com/Quick_Blitz",
+          "https://www.khwiki.com/Sonic_Blaster",
+          "https://www.destinyislands.com/bbs-fm/bestiary/enemies/"
+        ],
+        "boundary": "Individual command and enemy tables provide world drop rates but not a complete character/room/reset inventory. No-drop text means no recorded route, not evidence that a command cannot drop."
+      },
+      {
+        "finding": "BBS-012",
+        "urls": [
+          "https://www.khwiki.com/Deck_Command_(KHBBS)",
+          "https://www.khwiki.com/Collision_Magnet",
+          "https://www.khwiki.com/Blizzaga",
+          "https://www.khwiki.com/Homing_Slide",
+          "https://www.khwiki.com/High_Jump",
+          "https://www.khwiki.com/Barrier",
+          "https://www.khwiki.com/Illusion-L"
+        ],
+        "boundary": "Roster versus individual page conflicts: Collision Magnet 4 vs 5, Blizzaga 3 vs 4, Homing Slide 4 vs 1. Five Illusions, High Jump and Barrier lack complete parsed curves. Item/max-level-one rows are not missing curves. CP source fields remain distinguishable from acquisition."
+      },
+      {
+        "finding": "BBS-013",
+        "urls": [
+          "https://www.khwiki.com/Chaos",
+          "https://www.khwiki.com/Secret_Gem",
+          "https://www.khwiki.com/Command_Meld",
+          "https://www.destinyislands.com/bbs-fm/items/",
+          "https://gamefaqs.gamespot.com/boards/943347-kingdom-hearts-birth-by-sleep/62045599"
+        ],
+        "boundary": "Chaos, Secret Gem and Command Meld pages and independent item guide state random ability without exhaustive pool weights or conditional distribution. No uniform distribution is inferred from that word."
+      },
+      {
+        "finding": "BBS-014",
+        "urls": [
+          "https://www.khwiki.com/Abilities_(KHBBS)",
+          "https://www.khwiki.com/Scan",
+          "https://www.khwiki.com/Zero_EXP"
+        ],
+        "boundary": ""
+      },
+      {
+        "finding": "BBS-015",
+        "urls": [
+          "https://www.khwiki.com/Archraven",
+          "https://www.khwiki.com/Spiderchest",
+          "https://www.khwiki.com/Sonic_Blaster",
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://www.destinyislands.com/bbs-fm/bestiary/enemies/"
+        ],
+        "boundary": "Complete enemy-room-character/reset coverage remains absent. Destiny Islands bestiary supplies nested item percentages (must multiply by enemy drop probability) and Shop Level bands, but not full character-specific room routes; existing crystal sources cover 12 relationships, not all farms. No fastest-farm certification is claimed."
+      },
+      {
+        "finding": "BBS-016",
+        "urls": [
+          "https://www.khwiki.com/Lucky_Strike",
+          "https://www.khwiki.com/Abilities_(KHBBS)"
+        ],
+        "boundary": "KHWiki explicitly requests BBS mechanics cleanup, and no independent edition-specific probability derivation was found. Formula is labeled community-sourced; it cannot certify comparative fastest routes or guaranteed drops."
+      },
+      {
+        "finding": "BBS-017",
+        "urls": [
+          "https://www.khwiki.com/Spiderchest"
+        ],
+        "boundary": "Accessible farm routes belong to BBS-015."
+      },
+      {
+        "finding": "BBS-018",
+        "urls": [
+          "https://www.khwiki.com/Weapons_(KHBBS)",
+          "https://www.khwiki.com/Royal_Radiance",
+          "https://www.destinyislands.com/bbs-fm/weapons/"
+        ],
+        "boundary": "Independent Destiny Islands weapons table lacks FM additions and disagrees on Sweetstack strength (7 vs modern 8) and Pixie Petal critical multiplier (1.35 vs 1.5). KHWiki reach sometimes says Long rather than a number. Complete independently verified modern stats remain open."
+      },
+      {
+        "finding": "BBS-019",
+        "urls": [
+          "https://www.khwiki.com/Ice_cream",
+          "https://www.khwiki.com/Sweetstack",
+          "https://khrealm.com/kh-bbs-ice-cream-guide",
+          "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html"
+        ],
+        "boundary": "Making unlocks later purchase, and story-awarded ice creams exist; whether every alternative satisfies each modern obtain/make/achievement predicate is not established by the sources. Recipe arithmetic is validated separately from complete independent numeric certification."
+      },
+      {
+        "finding": "BBS-020",
+        "urls": [
+          "https://www.khwiki.com/Prize_Pod",
+          "https://www.khwiki.com/Flavors",
+          "https://www.khwiki.com/Ice_cream"
+        ],
+        "boundary": "Risky Riches conflicting pod headcounts were deliberately omitted; ingredient-per-hit routing does not require that count."
+      },
+      {
+        "finding": "BBS-021",
+        "urls": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://www.khwiki.com/Arena_Mode",
+          "https://www.khwiki.com/Battle_Ticket",
+          "https://www.khwiki.com/A_Time_to_Chill",
+          "https://www.destinyislands.com/bbs-fm/mirage-arena/"
+        ],
+        "boundary": "Combined Threat aggregate story/clear-file conditions conflict with HD guide Arena 7; A Time to Chill aggregate story conditions conflict with individual Arena 13. Exact cross-file and ticket AND/OR logic remains unresolved for those battles."
+      },
+      {
+        "finding": "BBS-022",
+        "urls": [
+          "https://www.khwiki.com/A_Time_to_Chill",
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://www.khwiki.com/Game:Monstro"
+        ],
+        "boundary": "A Time to Chill HP reward is +5 on individual page versus +10 on world Bonus Levels table; retained explicit conflict rather than selecting one. Arena 13 access contradiction is BBS-021."
+      },
+      {
+        "finding": "BBS-023",
+        "urls": [
+          "https://www.khwiki.com/Battle_Ticket",
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://www.khwiki.com/Moogle_Shop",
+          "https://www.destinyislands.com/bbs-fm/items/"
+        ],
+        "boundary": "The older Moogle page 205 value is superseded by Battle Ticket and Arena/item tables."
+      },
+      {
+        "finding": "BBS-024",
+        "urls": [
+          "https://www.khwiki.com/Game:Mirage_Arena",
+          "https://www.khwiki.com/Arena_Mode"
+        ],
+        "boundary": ""
+      },
+      {
+        "finding": "BBS-025",
+        "urls": [
+          "https://www.khwiki.com/Unversed_Mission",
+          "https://www.khwiki.com/Ringer",
+          "https://www.khwiki.com/Gluttonous_Goo"
+        ],
+        "boundary": "Five source sections have inclusive tables versus strict prose: Vitality Vial 2:00, Ringer40, Gluttonous Goo90, Element Cluster70 and Floating Flora350. No decisive exact-boundary evidence was found; aim beyond those thresholds. Rank/strategy extraction itself is complete."
+      },
+      {
+        "finding": "BBS-026",
+        "urls": [
+          "https://www.khwiki.com/Ice_Cream_Beat",
+          "https://www.khwiki.com/Fruitball",
+          "https://www.khwiki.com/Rumble_Racing",
+          "https://www.khwiki.com/Freeze_Raid"
+        ],
+        "boundary": "None for the stated score/reward/strategy catalog. Command Board panel inventory is separately BBS-027; no best-time guarantee is claimed."
+      },
+      {
+        "finding": "BBS-027",
+        "urls": [
+          "https://www.khwiki.com/Command_Board",
+          "https://www.khwiki.com/Focus_Block",
+          "https://www.khwiki.com/Focus_Barrier",
+          "https://www.khwiki.com/Meteor_Shower"
+        ],
+        "boundary": "Command Board table says most bonus panels are absent in Arena, not all; complete seven-board per-panel/mode inventories are not fully normalized. A current-copy prerequisite must not be replaced with ever-obtained semantics."
+      },
+      {
+        "finding": "BBS-028",
+        "urls": [
+          "https://www.khwiki.com/Finish_command_(KHBBS)",
+          "https://www.destinyislands.com/bbs-fm/finish-commands/",
+          "https://www.reddit.com/r/KingdomHearts/comments/154ixos/"
+        ],
+        "boundary": "KHWiki Finish Commands, Destiny Islands finish guide and community discussion explain eligible parent progression but do not establish whether switching away resets counters or merely pauses them. No reset rule is invented."
+      },
+      {
+        "finding": "BBS-029",
+        "urls": [
+          "https://www.khwiki.com/Command_Style",
+          "https://www.khwiki.com/Dimension_Link",
+          "https://www.khwiki.com/Shotlock"
+        ],
+        "boundary": "Temporary D-Link decks and finisher actions, exact emblem-drop probabilities and full usage mechanics remain incomplete. Vanitas temporary and removed wireless links are explicitly outside persistent acquisition."
+      },
+      {
+        "finding": "BBS-030",
+        "urls": [
+          "https://www.khwiki.com/Vanitas_Remnant",
+          "https://www.khwiki.com/Game:Young_Xehanort",
+          "https://www.khwiki.com/Armor_of_Eraqus",
+          "https://www.khwiki.com/No_Heart",
+          "https://www.khwiki.com/Game:Monstro",
+          "https://www.khwiki.com/Dark_Hide"
+        ],
+        "boundary": "Full attack/stat tables remain incomplete in sources: Unknown page explicitly requests BBS attack-name/stat cleanup and has unknown damage/block fields; some boss pages mix PSP/HD behavior. Brief encounter notes do not close full per-character strategy/recovery coverage."
+      },
+      {
+        "finding": "BBS-031",
+        "urls": [
+          "https://www.khwiki.com/Final_Episode",
+          "https://www.khwiki.com/A_Fragmentary_Passage",
+          "https://www.khwiki.com/Blank_Points",
+          "https://steamcommunity.com/app/2552430/discussions/0/7073555028226446724/"
+        ],
+        "boundary": "KHWiki unlock pages and mixed-difficulty Steam/community reports do not agree on exact save aggregation/re-save algorithm across builds. No deletion/replay workaround is recommended as verified behavior."
+      },
+      {
+        "finding": "BBS-032",
+        "urls": [
+          "https://steamcommunity.com/sharedfiles/filedetails?id=3269543411",
+          "https://www.truesteamachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/achievements"
+        ],
+        "boundary": "Exact Steam API IDs, hidden flag metadata, mixed-save aggregation and current-build Collector glitch behavior are not independently certified. PS3-era workaround reports do not establish a Steam bug."
+      },
+      {
+        "finding": "BBS-033",
+        "urls": [
+          "source-manifest.json",
+          "command-catalog.json",
+          "research-enrichment.json",
+          "command-families.json"
+        ],
+        "boundary": "Community inspection is not direct gameplay/build verification. No exact Steam executable version or primary mechanics dump was available; original workbook reads remain historical, not newly fetched."
+      },
+      {
+        "finding": "BBS-034",
+        "urls": [
+          "source-manifest.json",
+          "../../sources/khtables-drive-audit.md",
+          "../../../bbsmelding/seed_objects.js"
+        ],
+        "boundary": "The remembered functional workbook/application is not present in inspected repository artifacts. The recovered reference establishes data lineage but cannot reconstruct absent historical behavior."
+      },
+      {
+        "finding": "BBS-035",
+        "urls": [
+          "../../implementation/bbsfm-review-checklist.md",
+          "../../readiness/birth-by-sleep-final-mix.md",
+          "../../../tests/bbs-model.test.ts"
+        ],
+        "boundary": "Atomic consume/undo, full mobile/offline acceptance and other engineering gates remain separately tracked. Data Jiminy intentionally stays empty under current task authorization."
+      },
+      {
+        "finding": "BBS-036",
+        "urls": [
+          "../../ui/references/bbsfm/README.md",
+          "../../implementation/bbsfm-3d-prototype.md"
+        ],
+        "boundary": "Production art, native pose/animation/weapon integration and physical-device fidelity remain visual/engineering acceptance, not unknown game mechanics."
+      },
+      {
+        "finding": "BBS-037",
+        "urls": [
+          "README.md",
+          "command-catalog.json",
+          "research_audit.md"
+        ],
+        "boundary": "PSP multiplayer/transfer, KH0.2, mandatory Character Files and tutorial Reports counting remain out of scope. Source-null semantics are preserved."
+      },
+      {
+        "finding": "BBS-038",
+        "urls": [
+          "melding-reference.json",
+          "https://www.khwiki.com/Command_Meld"
+        ],
+        "boundary": "Ability-identity probabilities remain BBS-013."
+      }
+    ],
+    "peer_followup": {
+      "date": "2026-10-01",
+      "summary": "374 main chest route/landmark rows;60 album placements;full5-song FM ranks/prizes;9mission rank tables/27strategies;Fruitball/racing rewards and guides",
+      "sources": [
+        "https://guiding-key.tumblr.com/khbbs-locations",
+        "https://khrealm.com/images/content/bbs/aqua_stickers.jpg",
+        "https://khrealm.com/images/content/bbs/terra_stickers.jpg",
+        "https://khrealm.com/images/content/bbs/ventus_stickers.jpg",
+        "https://khrealm.com/kh-bbs-stickers-guide",
+        "https://khrealm.com/kh-bbs-walkthrough",
+        "https://kouryakutsushin.com/khbbs/album-aqua.htm",
+        "https://kouryakutsushin.com/khbbs/album-terra.htm",
+        "https://kouryakutsushin.com/khbbs/album-ventus.htm",
+        "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/アクア",
+        "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/テラ",
+        "https://wikiwiki.jp/kh_bbsfm/ステッカーアルバム/ヴェントゥス",
+        "https://www.destinyislands.com/walkthroughs/bbs-fm/terra/mysterious-tower/",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/mysterious-tower",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/ventus-story/never-land",
+        "https://www.khwiki.com/Freeze_Raid",
+        "https://www.khwiki.com/Fruitball",
+        "https://www.khwiki.com/Game:Realm_of_Darkness",
+        "https://www.khwiki.com/Gluttonous_Goo",
+        "https://www.khwiki.com/Ice_Cream_Beat",
+        "https://www.khwiki.com/Megalixir",
+        "https://www.khwiki.com/Recipe",
+        "https://www.khwiki.com/Ringer",
+        "https://www.khwiki.com/Rumble_Racing",
+        "https://www.khwiki.com/Sticker_Album",
+        "https://www.khwiki.com/Unversed_Mission",
+        "https://www.neoseeker.com/kingdom-hearts-birth-by-sleep/faqs/209469-kingdom-hearts-bbs.html"
+      ]
+    }
+  }
 }

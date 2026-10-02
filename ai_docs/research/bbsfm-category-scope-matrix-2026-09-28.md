@@ -1,5 +1,7 @@
 # BBS Final Mix: shared reference versus character progress
 
+October 1 status: this document preserves the dated research/rollout snapshot. Current implemented counts and per-finding gates are in [the resolution log](../games/bbsfm/research-resolution-2026-10-01.md) and [complete ledger](../games/bbsfm/research-dispositions-2026-10-01.json). The active catalog is 187 persistent HD commands; all 38 audit IDs have a disposition. Secret Gem and Ringer Ticket conflicts are resolved, all 42 flavor routes are normalized, and Data Jiminy stays empty. Historical missing-catalog/no-implementation statements below are superseded, not outstanding work.
+
 Researched 2026-09-28 for the user's category/navigation decision. Baseline: modern HD Final Mix, initially Steam. This is a source-backed scope recommendation, not implemented navigation or a complete enemy/encounter transcription. Community sources are identified as such; no gameplay certification is claimed.
 
 ## Main finding

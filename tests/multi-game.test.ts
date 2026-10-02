@@ -21,6 +21,11 @@ describe("multi-game catalogs and progress", () => {
       expect(guide.entries.length).toBeGreaterThan(100);
       const ids = new Set(guide.entries.map((e) => e.id));
       expect(ids.size).toBe(guide.entries.length);
+      // JSON casts do not validate the text fields used by detail rendering.
+      for (const entry of guide.entries)
+        for (const field of ['name', 'summary', 'instructions', 'prerequisites', 'reward', 'missability', 'uncertainty', 'world', 'area', 'character'] as const)
+          if (entry[field] !== undefined)
+            expect(typeof entry[field], `${entry.id}.${field}`).toBe('string');
       const recipeIds = new Set((guide.recipes || []).map((r) => r.id));
       expect(recipeIds.size).toBe(guide.recipes?.length || 0);
       for (const r of guide.recipes || [])

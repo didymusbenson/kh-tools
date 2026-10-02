@@ -1,6 +1,6 @@
 # Re:Chain of Memories readiness
 
-Snapshot: **2026-09-28**. Status: **HD journal revised locally; complete campaign card rosters, numeric CP, acquisition pools and event-door data; remaining evidence limits are listed in the current audit.** [Specification](../games/kingdom-hearts-re-chain-of-memories.md) · [Research pack](../games/recom/README.md).
+Snapshot: **2026-10-01**. Status: **HD journal revised locally; complete campaign card rosters, numeric CP, acquisition pools and event-door data; remaining evidence limits are listed in the current audit.** [Specification](../games/kingdom-hearts-re-chain-of-memories.md) · [Research pack](../games/recom/README.md).
 
 ## Inherited decisions and current working baseline
 
@@ -15,7 +15,21 @@ Snapshot: **2026-09-28**. Status: **HD journal revised locally; complete campaig
 
 HD scope is the application of the existing modern-release policy, not a newly solicited user decision. No product clarification blocks further factfinding.
 
-Current closure: [data audit](../games/recom/data-gap-audit-2026-09-28.md). It supersedes the initial content-readiness rows below for card membership, CP, map rates, door costs, Bounty order and pack prices. Attack/assorted pack probabilities and Riku corridor/boss substitutions remain research work.
+Current disposition: [all 32 findings](../games/recom/research-resolution-2026-10-01.md): 14 closed, 12 partial, three open after investigation, three non-factual limitations. Every remaining question has consulted sources and a precise failed/insufficient-evidence outcome. The historical rows below are preserved rather than used as current readiness claims.
+
+## October 1 content readiness
+
+| Domain | Current supported scope | Exact residual group |
+|---|---|---|
+| Card economy / rooms | 152/59 rosters, 440 CP cells, 37 Premium costs, 25 floor doors, 17 Bounty priorities, 16 packs | Full probability distributions; clear-save/fallback semantics (001,009) |
+| Farms | All 30 rate/world records, both footnotes, both mushroom rules | Full spawn/reset routes and independent 30-row rate evidence (003,005) |
+| Sleights | All 98 effects, 92 stock recipes, six duel activations and all Riku form rules | Native order/Steam denominator and recipe precedence (006,007) |
+| Progression / combat | All 99 levels/caps/deferred choices; 59 combat records/379 floor rows/43 timers/24 boss deck tables | Complete encounter decks/tactics/frames and quarantined source ambiguities (014) |
+| Riku | 12 world presets and all 12 retained boss-card conditions | Corridor/boss overrides (002) |
+| Basic cards / friends | All 29 effects, seven reload matrices, all eight friend windows | Bambi/Dumbo/Goofy exact durations (017) |
+| Minigames | Six canonical start/objective routes and first/second rewards | Third-and-later replay rewards (015) |
+| Steam / Report / Days | All 47 public goal definitions; namespace observed; actionable Days route; general stamps | Exact API mappings, runtime predicates, full registration/rank formulas, minimum Days/save behavior (008,010–012) |
+| Provenance | All 51 missing URLs have new outcomes; 269 direct retrieval attempts plus web inspections | Historical September 28 inspection metadata cannot be reconstructed (020) |
 
 ## Initial content readiness (historical)
 
@@ -49,9 +63,9 @@ Counts above are measured research records, not declared game-completion denomin
 | COM-E02 | Do not double-count chest/output; repeat room creation preserves historical claims | Independent finite reward claims implemented; repeat room creation is not modeled |
 | COM-E03 | Fixed denominators under Remaining/search; partial catalogs never claim full 100% | Implemented; fixed 152/59 campaign totals with independent reward checks |
 | COM-E04 | Optional copy inventory respects type/value/Premium; historical checks do not create/deduct stock | Not implemented; discovery checks only |
-| COM-E05 | Recipe alternatives/order, two-card sleights, sums and same/different constraints | Sourced references implemented; recipe normalization remains |
+| COM-E05 | Recipe alternatives/order, two-card sleights, sums and same/different constraints | All 92 stock recipes and six duel activations normalized; third-card/overlap precedence remains |
 | COM-E06 | CP conflicts fail closed for calculations; unknown cost never equals zero | 44 ten-value CP tables and seven reconciled enemy costs; no calculator implemented |
-| COM-E07 | Riku preset + retained boss cards; no Sora-only card/editor/shop leakage | Twelve preset references and campaign boundaries implemented; retained boss-card completeness remains |
+| COM-E07 | Riku preset + retained boss cards; no Sora-only card/editor/shop leakage | Twelve presets, all 12 retained boss acquisitions and campaign boundaries implemented; corridor overrides remain |
 | COM-E08 | All scoped answers/directions usable offline; Data Jiminy retains sources and uncertainty | Catalogue/notes tested offline; CoM-specific Data Jiminy not implemented |
 | COM-E09 | Native journal evidence, mobile navigation, accessibility and Apple acceptance | HD-inspired UI and desktop/phone browser checks complete; exact assets and physical Apple-device acceptance remain |
 | COM-E10 | Backup/import, offline relaunch, campaign isolation and migration tests | Backup/import/recovery and game/campaign isolation tested; offline relaunch passes; no CoM schema migration introduced |
@@ -77,3 +91,5 @@ The user subsequently authorized implementation. See the [working implementation
 - 2026-09-28: User explicitly requested HD 1.5 ReMIX interface research, excluding original PS2/GBA imagery. Captured both report identities and native card/record/system screens; wrote a sourced reference workbook and proposed responsive design brief. No app implementation or mockup acceptance is claimed.
 
 - 2026-09-28: Implemented the HD journal and requested home placement. Added 403 sourced runtime entries, separate campaign reports, saved discovery/score records and offline coverage. Ten desktop/phone browser tests and the 105-test unit suite pass. Native artwork, full card coverage and the remaining research gates are still open.
+
+- 2026-10-01: Reassessed all 32 audit findings, integrated all basic/sleight effects, structured recipes, progression, combat/form tables, minigame routes and complete friend/mushroom conditions; reconciled fresh access for all 51 old manifest omissions without rewriting historical evidence. Fixed null Riku 100 Acre Wood filtering. Jiminy memories remain empty. Targeted validation is recorded in the per-game resolution ledger.

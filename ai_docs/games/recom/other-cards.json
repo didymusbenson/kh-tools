@@ -70,7 +70,10 @@
         "Brown": 7.0,
         "Black": 5.0,
         "Mog": 2.0
-      }
+      },
+      "effect": "Launches a fire projectile. Two Fire cards cast Fira; three cast Firaga.",
+      "useParameters": "Power: 5\u00d7; fire element.",
+      "effectSource": "https://www.khwiki.com/Fire"
     },
     {
       "id": "recom-card-magic-blizzard",
@@ -137,7 +140,10 @@
         "Brown": 7.0,
         "Black": 5.0,
         "Mog": 2.0
-      }
+      },
+      "effect": "Deals ice damage. Two Blizzard cards cast Blizzara; three cast Blizzaga.",
+      "useParameters": "Power: 4\u00d7; ice element.",
+      "effectSource": "https://www.khwiki.com/Blizzard"
     },
     {
       "id": "recom-card-magic-thunder",
@@ -204,7 +210,10 @@
         "Brown": 7.0,
         "Black": 5.0,
         "Mog": 2.0
-      }
+      },
+      "effect": "Deals lightning damage. Two Thunder cards cast Thundara; three cast Thundaga.",
+      "useParameters": "Power: 3.5\u00d7; lightning element.",
+      "effectSource": "https://www.khwiki.com/Thunder"
     },
     {
       "id": "recom-card-magic-cure",
@@ -271,7 +280,10 @@
         "Brown": 10.0,
         "Black": 6.0,
         "Mog": 0
-      }
+      },
+      "effect": "Restores HP. Two Cure cards cast Cura; three cast Curaga.",
+      "useParameters": "Restores 50 HP before modifiers.",
+      "effectSource": "https://www.khwiki.com/Cure"
     },
     {
       "id": "recom-card-magic-gravity",
@@ -338,7 +350,10 @@
         "Brown": 6.0,
         "Black": 10.0,
         "Mog": 10.0
-      }
+      },
+      "effect": "Deals damage proportional to remaining enemy HP. Two cards cast Gravira; three cast Graviga.",
+      "useParameters": "Base damage: 20% of current target HP, subject to resistance.",
+      "effectSource": "https://www.khwiki.com/Gravity"
     },
     {
       "id": "recom-card-magic-stop",
@@ -405,7 +420,10 @@
         "Brown": 6.0,
         "Black": 10.0,
         "Mog": 10.0
-      }
+      },
+      "effect": "Temporarily stops enemies. Two cards cast Stopra; three cast Stopga.",
+      "useParameters": "Base duration: 3 seconds on susceptible enemies.",
+      "effectSource": "https://www.khwiki.com/Stop"
     },
     {
       "id": "recom-card-magic-aero",
@@ -472,7 +490,10 @@
         "Brown": 6.0,
         "Black": 10.0,
         "Mog": 10.0
-      }
+      },
+      "effect": "Damages and blows away nearby enemies. Two cards cast Aerora; three cast Aeroga.",
+      "useParameters": "Power: 3\u00d7; neutral element.",
+      "effectSource": "https://www.khwiki.com/Aero"
     },
     {
       "id": "recom-card-summon-simba",
@@ -500,7 +521,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Simba"
+        "https://www.khwiki.com/Simba",
+        "https://www.khwiki.com/Proud_Roar"
       ],
       "randomSources": {
         "Field drop": {
@@ -539,7 +561,10 @@
         "Brown": 15.0,
         "Black": 3.0,
         "Mog": 0
-      }
+      },
+      "effect": "Roars at enemies ahead. Stacking adds stun.",
+      "useParameters": "Power: 3\u00d7; neutral element.",
+      "effectSource": "https://www.khwiki.com/Proud_Roar"
     },
     {
       "id": "recom-card-summon-genie",
@@ -567,7 +592,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Genie"
+        "https://www.khwiki.com/Genie",
+        "https://www.khwiki.com/Showtime"
       ],
       "randomSources": {
         "Field drop": {
@@ -606,7 +632,10 @@
         "Brown": 15.0,
         "Black": 3.0,
         "Mog": 0
-      }
+      },
+      "effect": "Casts Thundara, Gravira or Stopra. Stacking increases spell count.",
+      "useParameters": "One random spell: Thundara power 6\u00d7, Gravira 40% current HP, or Stopra 8 seconds; target resistance applies.",
+      "effectSource": "https://www.khwiki.com/Showtime"
     },
     {
       "id": "recom-card-summon-bambi",
@@ -634,7 +663,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Bambi"
+        "https://www.khwiki.com/Bambi",
+        "https://www.khwiki.com/Paradise"
       ],
       "randomSources": {
         "Field drop": {
@@ -673,7 +703,11 @@
         "Brown": 0,
         "Black": 10.0,
         "Mog": 16.0
-      }
+      },
+      "effect": "Drops healing orbs while running. Stacking improves healing.",
+      "useParameters": "Drops small HP orbs; contact power 0.1\u00d7 per hit.",
+      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
+      "effectSource": "https://www.khwiki.com/Paradise"
     },
     {
       "id": "recom-card-summon-dumbo",
@@ -701,7 +735,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Dumbo"
+        "https://www.khwiki.com/Dumbo",
+        "https://www.khwiki.com/Splash"
       ],
       "randomSources": {
         "Field drop": {
@@ -740,7 +775,11 @@
         "Brown": 15.0,
         "Black": 3.0,
         "Mog": 0
-      }
+      },
+      "effect": "Sprays an ice-element stream. Stacking extends its duration.",
+      "useParameters": "Ice damage, power 1.5\u00d7 per hit; aim the stream with movement input.",
+      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
+      "effectSource": "https://www.khwiki.com/Splash"
     },
     {
       "id": "recom-card-summon-tinker-bell",
@@ -768,7 +807,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Tinker_Bell"
+        "https://www.khwiki.com/Tinker_Bell",
+        "https://www.khwiki.com/Twinkle"
       ],
       "randomSources": {
         "Field drop": {
@@ -807,7 +847,10 @@
         "Brown": 0,
         "Black": 10.0,
         "Mog": 16.0
-      }
+      },
+      "effect": "Heals repeatedly for a limited time. Stacking improves healing.",
+      "useParameters": "Lasts 3 seconds; base healing 7% max HP plus 0.5% per repeated reaction input.",
+      "effectSource": "https://www.khwiki.com/Twinkle"
     },
     {
       "id": "recom-card-summon-mushu",
@@ -835,7 +878,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Mushu"
+        "https://www.khwiki.com/Mushu",
+        "https://www.khwiki.com/Flare_Breath"
       ],
       "randomSources": {
         "Field drop": {
@@ -874,7 +918,10 @@
         "Brown": 0,
         "Black": 10.0,
         "Mog": 16.0
-      }
+      },
+      "effect": "Breathes fire. Stacking extends its duration.",
+      "useParameters": "Aim manually while stationary; power 1\u00d7 per fireball. Ends at 11 seconds or 10 shots.",
+      "effectSource": "https://www.khwiki.com/Flare_Breath"
     },
     {
       "id": "recom-card-summon-cloud",
@@ -902,7 +949,8 @@
         "https://www.khwiki.com/Summon_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Cloud"
+        "https://www.khwiki.com/Cloud",
+        "https://www.khwiki.com/Cross-slash"
       ],
       "randomSources": {
         "Field drop": {
@@ -941,7 +989,10 @@
         "Brown": 6.0,
         "Black": 10.0,
         "Mog": 16.0
-      }
+      },
+      "effect": "Makes two sword strikes. Two cards use Cross-slash; three use Omnislash.",
+      "useParameters": "Two sword attacks; stock two for Cross-slash or three for Omnislash.",
+      "effectSource": "https://www.khwiki.com/Cross-slash"
     },
     {
       "id": "recom-card-item-potion",
@@ -1007,6 +1058,13 @@
         "Brown": 30.0,
         "Black": 10.0,
         "Mog": 0
+      },
+      "effect": "Instantly reloads reloadable attack cards; spent attack cards stay unavailable.",
+      "reloadBehavior": {
+        "scope": "attack",
+        "restoresUnreloadable": false,
+        "resetsReloadCounter": false,
+        "itemReloadable": false
       }
     },
     {
@@ -1073,6 +1131,13 @@
         "Brown": 20.0,
         "Black": 25.0,
         "Mog": 20.0
+      },
+      "effect": "Instantly restores attack cards, including normally unreloadable attack cards.",
+      "reloadBehavior": {
+        "scope": "attack",
+        "restoresUnreloadable": true,
+        "resetsReloadCounter": false,
+        "itemReloadable": false
       }
     },
     {
@@ -1139,6 +1204,13 @@
         "Brown": 0,
         "Black": 15.0,
         "Mog": 25.0
+      },
+      "effect": "Restores all attack cards, including normally unreloadable cards, and resets the reload counter.",
+      "reloadBehavior": {
+        "scope": "attack",
+        "restoresUnreloadable": true,
+        "resetsReloadCounter": true,
+        "itemReloadable": false
       }
     },
     {
@@ -1205,6 +1277,13 @@
         "Brown": 30.0,
         "Black": 10.0,
         "Mog": 0
+      },
+      "effect": "Instantly reloads reloadable magic and summon cards; spent cards stay unavailable.",
+      "reloadBehavior": {
+        "scope": "magic-and-summon",
+        "restoresUnreloadable": false,
+        "resetsReloadCounter": false,
+        "itemReloadable": false
       }
     },
     {
@@ -1271,6 +1350,13 @@
         "Brown": 20.0,
         "Black": 25.0,
         "Mog": 25.0
+      },
+      "effect": "Restores magic and summon cards, including normally unreloadable cards, and resets the reload counter.",
+      "reloadBehavior": {
+        "scope": "magic-and-summon",
+        "restoresUnreloadable": true,
+        "resetsReloadCounter": true,
+        "itemReloadable": false
       }
     },
     {
@@ -1337,6 +1423,13 @@
         "Brown": 0,
         "Black": 15.0,
         "Mog": 20.0
+      },
+      "effect": "Restores attack, magic and summon cards, including normally unreloadable cards.",
+      "reloadBehavior": {
+        "scope": "attack-magic-and-summon",
+        "restoresUnreloadable": true,
+        "resetsReloadCounter": false,
+        "itemReloadable": false
       }
     },
     {
@@ -1403,6 +1496,13 @@
         "Brown": 0,
         "Black": 0,
         "Mog": 10.0
+      },
+      "effect": "Restores attack, magic and summon cards, including normally unreloadable cards, and resets the reload counter.",
+      "reloadBehavior": {
+        "scope": "attack-magic-and-summon",
+        "restoresUnreloadable": true,
+        "resetsReloadCounter": true,
+        "itemReloadable": false
       }
     },
     {
@@ -1410,20 +1510,37 @@
       "name": "Donald Duck",
       "family": "friend",
       "campaign": "sora",
-      "acquisition": "Sora campaign; availability follows party presence.",
+      "acquisition": "Battle pickup from the start; temporarily absent after the 11F Exit Hall Riku Replica battle until the 12F Exit Hall Larxene battle.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Casts two random Fire, Blizzard, Thunder or Cure spells.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Two random spells; spell choice does not avoid enemy elemental resistance.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Magic_Lv2"
+      ],
+      "effectSource": "https://www.khwiki.com/Magic_Lv2"
     },
     {
       "id": "recom-card-friend-goofy",
       "name": "Goofy",
       "family": "friend",
       "campaign": "sora",
-      "acquisition": "Sora campaign; availability follows party presence.",
+      "acquisition": "Battle pickup from the start; temporarily absent after the 11F Exit Hall Riku Replica battle until the 12F Exit Hall Larxene battle.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Spins around Sora, striking with his shield.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Neutral damage, power 1.5\u00d7 per hit.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Goofy_Tornado"
+      ],
+      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado"
     },
     {
       "id": "recom-card-friend-aladdin",
@@ -1433,7 +1550,15 @@
       "acquisition": "Agrabah entry.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Slashes while running; hits release Moogle Points.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Lasts 3 seconds; power 2\u00d7 per hit; each hit produces three small Moogle Point orbs.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Sandstorm"
+      ],
+      "effectSource": "https://www.khwiki.com/Sandstorm"
     },
     {
       "id": "recom-card-friend-jack",
@@ -1443,7 +1568,15 @@
       "acquisition": "Halloween Town entry.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Casts Fire, Blizzard, Thunder or Gravity.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "One spell: Fire power 6\u00d7, Blizzard 5\u00d7, Thunder 4\u00d7, or Gravity 10% remaining HP.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Surprise!_Lv2"
+      ],
+      "effectSource": "https://www.khwiki.com/Surprise!_Lv2"
     },
     {
       "id": "recom-card-friend-ariel",
@@ -1453,17 +1586,33 @@
       "acquisition": "Atlantica: Room of Guidance.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Spins across the battlefield, hitting enemies.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Two hits: power 4.5\u00d7 then 5\u00d7. Follow the reaction prompt; a wrong input ends the attack.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Spiral_Wave"
+      ],
+      "effectSource": "https://www.khwiki.com/Spiral_Wave"
     },
     {
       "id": "recom-card-friend-peter-pan",
       "name": "Peter Pan",
       "family": "friend",
       "campaign": "sora",
-      "acquisition": "Neverland: Room of Beginnings; absent during his temporary story departure.",
+      "acquisition": "Neverland battle pickup after entering Room of Beginnings; absent from entry into Room of Guidance until entry into Room of Truth.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Dagger attacks; repeated reaction-button presses accelerate attacks and release Moogle Points.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Lasts 7 seconds; neutral power 2\u00d7 per hit.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Hummingbird"
+      ],
+      "effectSource": "https://www.khwiki.com/Hummingbird"
     },
     {
       "id": "recom-card-friend-beast",
@@ -1473,17 +1622,40 @@
       "acquisition": "Hollow Bastion: Room of Guidance.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Knocks enemies toward Sora for return hits.",
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "Three hits: power 3\u00d7, 1\u00d7, 5\u00d7; use the reaction prompt for Sora\u2019s return hit.",
+      "sources": [
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Furious_Volley"
+      ],
+      "effectSource": "https://www.khwiki.com/Furious_Volley"
     },
     {
       "id": "recom-card-friend-pluto",
       "name": "Pluto",
       "family": "friend",
       "campaign": "sora",
-      "acquisition": "After Traverse Town Room of Beginnings; conditional battle appearance, not a permanent deck item.",
+      "acquisition": "After entering Traverse Town\u2019s Room of Beginnings, Pluto can replace a friend-card spawn with 20% probability when Sora has at most 2 cards left and at most 9 reloadable cards.",
       "permanentDeckInventory": false,
       "source": "https://www.khwiki.com/Friend_Card",
-      "verification": "source-inspected candidate"
+      "verification": "source-inspected candidate",
+      "effect": "Digs up cards and prize orbs.",
+      "appearanceCondition": {
+        "cardsLeftAtMost": 2,
+        "reloadableCardsAtMost": 9,
+        "replacementPercent": 20,
+        "unlockedBy": "Enter Traverse Town Room of Beginnings"
+      },
+      "sources": [
+        "https://www.khwiki.com/Game:Traverse_Town",
+        "https://www.khwiki.com/Friend_Card",
+        "https://www.khwiki.com/Lucky_Bounty"
+      ],
+      "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
+      "useParameters": "May recover up to 3 spent cards, or 3 large HP and Moogle Point orbs each. A bone scatters about 10% of held Moogle Points; nothing is another outcome.",
+      "effectSource": "https://www.khwiki.com/Lucky_Bounty"
     },
     {
       "id": "recom-card-special-gold-card",
@@ -1535,5 +1707,6 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3275455575"
       ]
     }
-  ]
+  ],
+  "followUpDate": "2026-10-01"
 }

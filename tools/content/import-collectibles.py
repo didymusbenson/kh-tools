@@ -310,8 +310,10 @@ for n,d in {
 }.items():refine('Hollow Bastion',n,d,'walkthrough/hollow-bastion')
 refine('Halloween Town',4,'Glide from Lab Entryway’s ledge to the opposite platforms. The giant pumpkin-mouth room to the right of the Power Up platform contains two chests: Elixir and puppies 70–72.','walkthrough/pre-hollow-bastion',prerequisites='Glide; use High Jump if needed.')
 refine('Halloween Town',2,'Jump and glide from Lab Entryway’s ledge to the opposite platforms, then jump into the pumpkin opening for Power Up.','walkthrough/pre-hollow-bastion')
-refine('Halloween Town',15,'Strike the Evil Playroom lever, leave and go to the bridge’s end. Drop onto the lowered cage and open Orichalcum. After the manor falls, the unopened chest moves to the ruins.','walkthrough/halloween-town')
-refine('Halloween Town',16,'Above the manor’s Fire-powered lift, climb to the broken tower. Jump left onto the jagged wall’s roof, then onto the cage for Mega-Ether. After destruction, check the ruins instead.','walkthrough/halloween-town')
+refine('Halloween Town',15,'Strike the Evil Playroom lever, leave and go to the bridge’s end. Drop onto the lowered cage and open Orichalcum. After the manor falls, enter Manor Ruins from the Bridge and descend into the hole in the center; the unopened Orichalcum and Mega-Ether chests are together there.','walkthrough/halloween-town')
+refine('Halloween Town',16,'Above the manor’s Fire-powered lift, climb to the broken tower. Jump left onto the jagged wall’s roof, then onto the cage for Mega-Ether. After destruction, enter Manor Ruins from the Bridge and descend into the hole in the center; the unopened Mega-Ether and Orichalcum chests are together there.','walkthrough/halloween-town')
+for n in (15,16):
+ BY_SOURCE[f'Halloween Town/Treasures/{n}']['sources'].append(link('KHGuides: both relocated cage chests in central Manor Ruins hole','https://www.khguides.com/kh/collectibles/treasures/'))
 refine('100 Acre Wood',9,'At the Bouncing Spot seesaw, choose Roo to launch Sora onto the high branch. Collect its Rare Nut and bring it to Owl before returning for the next nut.','side-quests/hundred-acre-wood')
 refine('100 Acre Wood',10,'After returning the first Roo-branch nut to Owl, use Roo at the seesaw again. A second nut appears on the same branch; collect it and return it to Owl.','side-quests/hundred-acre-wood')
 refine('100 Acre Wood',11,'Choose Tigger at the seesaw. From the landing branch jump into the other tree and look down for this Rare Nut. Carry only one nut; return it to Owl.','side-quests/hundred-acre-wood')
@@ -372,6 +374,8 @@ e['prerequisites']='Reach Final Rest in End of the World, then return to Hollow 
 e['instructions']='After reaching Final Rest, return to Hollow Bastion’s Castle Chapel, examine the dark portal and defeat Unknown (Xemnas). The encounter awards Ansem’s Report 13 and EXP Necklace.'
 e['uncertainty']='Sources disagree about the earliest portal appearance. Reaching Final Rest is the conservative source-backed access point used here; this is not a claim that an earlier visit cannot work.'
 e['facts']['earliestUnlockStatus']='Unresolved; practical late-game route is source-backed.'
+e['uncertainty']='Earliest portal trigger remains disputed: KHGuides says the first End of the World cutscene, a Steam checklist says sealing Hollow Bastion, and KHWiki says Final Rest. Final Rest is the sufficient route used here.'
+e['sources'].append(link('KHGuides: first End of the World cutscene lead','https://www.khguides.com/kh/combat/bosses/unknown/'))
 e['sources'].append(link('KHWiki: Final Mix changes — Unknown access','https://www.khwiki.com/Kingdom_Hearts_Final_Mix#Battle'))
 
 # Every row links back to its world route; canonical related checks resolve locally.

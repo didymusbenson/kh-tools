@@ -1,0 +1,1546 @@
+{
+  "checkedAt": "2026-10-01",
+  "scope": "Direct-fetch research log; separate per-ID ledger includes independently consulted web-search and guide URLs. A successful fetch is access evidence, not blanket factual validation. Cached means retrieved earlier in this same audit. Wrong guessed titles and punctuation 404s were retried with corrected titles; they are not global source blockers.",
+  "sources": [
+    {
+      "url": "https://www.khwiki.com/Synthesis",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Photo_Missions",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Premium_Menu",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gummi_Missions",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucky_Emblem",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Le_Grand_Bistrot",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cuisine",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ingredients",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Forest_Clasp",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Frozen_Slider",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Flantastic_Seven",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Classic_Kingdom",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Battlegate",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Starlight_Way",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Misty_Stream",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Eclipse",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Schwarzgeist",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Omega_Machina",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Hearts_III_Re_Mind",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Real_Organization_XIII's_Recreated_Data",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Hearts_III",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Proof",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Prize_Postcard",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucky_Strike",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_Keyblades",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_shields",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_staves",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_armor",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_accessories",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game_Records",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gummiphone",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Festival_Dance",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Flash_Tracer",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Verum_Rex:_Beat_of_Lead",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Olympus",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Twilight_Town",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Toy_Box",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Kingdom_of_Corona",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Monstropolis",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Arendelle",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:The_Caribbean",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:San_Fransokyo",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:100_Acre_Wood",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Keyblade_Graveyard",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:The_Final_World",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Scala_ad_Caelum",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Wellspring",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucid",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Pulsing",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Orichalcum",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Damascus",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Adamantite",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fluorite",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Electrum",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blazing",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Frost",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lightning",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Soothing",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Writhing",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Betwixt",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Twilight",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Sinister",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hungry",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Illusory",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Evanescent",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Key",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hero's_Origin",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Shooting_Star",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Favorite_Deputy",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ever_After",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Happy_Gear",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Crystal_Snow",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Wheel_of_Fate",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Nano_Gear",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hunny_Spout",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Starlight",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Grand_Chef",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Classic_Tone",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Oathkeeper",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Oblivion",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Dead_of_Night",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Midnight_Blue",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Phantom_Green",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Dawn_Till_Dusk",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Elemental_Encoder",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Advent_Red",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Data_Greeting",
+      "result": 200,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Slideshow",
+      "result": 404,
+      "batch": "fetch-results.json"
+    },
+    {
+      "url": "https://www.khwiki.com/AP_Boost",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Abas_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ability_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ability_Ring%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ability_Ring+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Acrisis+",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Acrisius",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Acrisius%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aegis_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aegis_Shield",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aegis_Shield+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aero_Armlet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aero_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Aqua_Chaplet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Astrolabe",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Astrolabe+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blazing_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzaga_Choker",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzara_Choker",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzard_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzard_Choker",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzard_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Blizzaza_Choker",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Breakthrough",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Bronze_Amulet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Bronze_Necklace",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Buster_Band",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Buster_Band%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Buster_Band+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Buster_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Celestriad",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Chaos_Anklet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Clockwork_Shield",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Clockwork_Shield+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Arts",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Belt%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cosmic_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Crystal_Regalia",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Crystal_Regalia%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Dark_Anklet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Dark_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Defense_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Defense_Boost",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Divine_Bandanna",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Draw_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Elixir",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Elven_Bandanna",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ether",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Expert%27s_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fencer%27s_Earring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fencer’s_Earring",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fira_Bangle",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Firaga_Bangle",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Firaza_Bangle",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fire_Bangle",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fire_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fire_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Firefighter_Rosette",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Flanniversary_Badge",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Force_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Forest_Clasp",
+      "result": "cached",
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Frost_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gold_Amulet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gourmand%27s_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Guardian%27s_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gummi_Abilities",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Gummi_Ship",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Heartless_Maul",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Heartless_Maul+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hero%27s_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hero%27s_Glove",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hi-Ether",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Hi-Refocuser",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Insulator_Rosette",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Junior_Medal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Kingdom_Hearts_III_Re_Mind",
+      "result": "cached",
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Knight's_Shield",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Laughter_Pin",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Leviathan",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lightning_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/List_of_Keyblades_(KHIII)",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucid_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lucky_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Lumpy's_Fruit_Parade",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mage%27s_Earring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mage's_Staff",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mage’s_Earring",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Magic_Boost",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Magic_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Magic_Weight",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mask_Rosette",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Master%27s_Necklace",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Master%27s_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Master_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Master_Medal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mega-Ether",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mega-Potion",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Megalixir",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey_Clasp",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Midnight_Anklet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Moon_Amulet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril_Gem",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril_Shard",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mythril_Stone",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Nobody_Guard",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Nobody_Guard+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Orichalcum_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Petite_Ribbon",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Phantom_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Pooh's_Hunny_Harvest",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Power_Band",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Power_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Power_Weight",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Pulsing_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Refocuser",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ribbon",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Royal_Ribbon",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Rune_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_King",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_King+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_Queen",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Save_the_Queen+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Shadow_Anklet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Shield_Belt",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Silver_Amulet",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Silver_Necklace",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Skill_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Skill_Ring%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Skill_Ring+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Slayer%27s_Earring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Slayer’s_Earring",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Snowman_Rosette",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Soldier%27s_Earring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Soldier’s_Earring",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Soothing_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Sorcerer%27s_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Sorcerer’s_Ring",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Special_Weapon",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Star_Charm",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Star_Medal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Storm_Fan",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Strength_Boost",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Technician%27s_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Technician%27s_Ring%2B",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Technician’s_Ring+",
+      "result": 404,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundaga_Trinket",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundara_Trinket",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thundaza_Trinket",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thunder_Chain",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thunder_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Thunder_Trinket",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Tigger's_Vegetable_Spree",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "result": "cached",
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Umbrella_Rosette",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Valor_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Warhammer",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Warhammer+",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Water_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Weapons_(KHIII)",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Wind_Fan",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Wisdom_Ring",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Writhing_Crystal",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Yin-Yang_Cufflink",
+      "result": 200,
+      "batch": "equipment-fetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Ansem",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Xemnas",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Xigbar",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Luxord",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Larxene",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Marluxia",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Saïx",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Terra-Xehanort",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Dark_Riku",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Vanitas",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Young_Xehanort",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Xion",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Master_Xehanort",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Yozora",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game:Dark_Inferno",
+      "result": 404,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Leviathan_(ship)",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Ghost_Ship",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Treasure_Ship",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Normal_Ship",
+      "result": 404,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Game_Clear_Data",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Collector’s_Goals",
+      "result": 404,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Giantland",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey,_the_Mail_Pilot",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Musical_Farmer",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Building_a_Building",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Mad_Doctor",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey_Cuts_Up",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Taxi_Troubles",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Barnyard_Battle",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Wayward_Canary",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Camping_Out",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Karnival_Kid",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/How_to_Play_Golf",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey%27s_Circus",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Barnyard_Sports",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/The_Klondike_Kid",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey%27s_Kitten_Catch",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Fishin%27_Frenzy",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Beach_Party",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey%27s_Prison_Escape",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Cast_Out_to_Sea",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/How_to_Play_Baseball",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey%27s_Mechanical_Man",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.khwiki.com/Mickey_Steps_Out",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.gamesradar.com/kingdom-hearts-3-constellations-guide/",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.neoseeker.com/kingdom-hearts-iii/gummiship/Gummi_Missions",
+      "result": 403,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3274428775",
+      "result": 200,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/26",
+      "result": 403,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+      "result": 403,
+      "batch": "finalfetch.json"
+    },
+    {
+      "url": "https://support.jp.square-enix.com/news.php?drt=1781017200&id=19066&la=0&n=2&tag=ab4073e28135a1345b861beefd8b6a2c459e1ed4",
+      "result": 200,
+      "batch": "finalfetch.json"
+    }
+  ],
+  "supplementalInspection": {
+    "date": "2026-10-01",
+    "records": "peer-enrichment.json",
+    "specialWeapons": "special-weapon-enrichment.json",
+    "routeReview": "route-enrichment.json",
+    "scope": "The sources array preserves the original 306 direct-fetch outcomes. Complete 335-location guide review and peer text/image inspections are documented separately; direct 403 outcomes are not overwritten by later indexed retrieval.",
+    "imagesRetrievedAndVisuallyInspected": 90,
+    "wrongZoneImagesRejected": 1,
+    "notes": "All 90 Game8 screenshots fetched HTTP 200 and individually inspected in nine five-pair contact sheets. Retain image URLs as evidence, not as substitutes for written locations. Rotated map views have no reliable numeric world coordinates. Starlight/Misty direction words preserve the cited guide map orientation. Greek δ/ε/ζ correspond to the Japanese guide IV/V/VI sphere sequence; α/γ correspond to 1/3. All 40 GameFAQs close-up image links and 3 overview images failed web retrieval; Game8 provided a distinct accessible source. Direct GameFAQs image 202 also 403. Indexed TA retrieval returned full relevant Eclipse route paragraphs after direct/full-page open failed; STR-13 glyph was unusable."
+  }
+}

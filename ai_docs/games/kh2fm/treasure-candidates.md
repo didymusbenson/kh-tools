@@ -1,5 +1,7 @@
 # KH2FM numbered treasure research index
 
+> Historical September candidate inventory. The [October resolution ledger](research-resolution-2026-10-01.md) and canonical `verified-*.json`/`treasure-locations.json` supersede its old unverified/route-QA warnings. Original row provenance is preserved below.
+
 Research snapshot: 2026-09-18. This is a content candidate index, not production data or a playtested guide. All 301 workbook rows were extracted. World counts and item/area columns were compared against community world tables; prose directions remain unapproved. IDs below are proposed stable IDs, not official game identifiers. Preserve IDs through later corrections. The # column preserves the source Journal ordering; direct modern in-game order verification remains open.
 
 [World/counting rules](world-collectibles.md) · [Source coverage](sources-and-legacy-audit.md). `Sheet row` refers to the Treasures tab of [Kh2FM tables](https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit#gid=0). The old directions are recoverable there; do not publish them wholesale.

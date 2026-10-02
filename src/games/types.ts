@@ -24,6 +24,7 @@ export interface CollectionRecipe {
   group?: string;
   character?: string;
   instructions?: string;
+  sources?: string[];
   ingredients: { id: string; quantity: number }[];
 }
 export interface GameGuide {

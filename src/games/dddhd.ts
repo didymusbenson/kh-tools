@@ -9,6 +9,10 @@ const guide: GameGuide = {
   craftingLabel: 'Spirit Creation',
   categories: [
     { id: 'treasures', label: 'Treasures', icon: 'chest' },
+    { id: 'recipe-items', label: 'Spirit Recipes', icon: 'scroll' },
+    { id: 'links', label: 'Links', icon: 'spark' },
+    { id: 'training', label: 'Training & Treats', icon: 'paw' },
+    { id: 'reference', label: 'Mechanics', icon: 'scroll' },
     { id: 'spirits', label: 'Spirits', icon: 'paw' },
     { id: 'commands', label: 'Commands', icon: 'wand' },
     { id: 'abilities', label: 'Abilities', icon: 'spark' },
@@ -30,6 +34,6 @@ const guide: GameGuide = {
   ],
   entries: content.entries,
   recipes: content.recipes,
-  coverage: '438 chest records; many have area-only directions. 54 Spirit breeds, 124 commands, 43 abilities, 37 Dream Pieces, 78 Special and 11 Secret Portals. 263 creation formulas cover all 54 breeds, with source probabilities and alternate outcomes preserved. All 37 materials have farming sources. Full board paths, precise chest/enemy approach routes and platform achievements remain incomplete; details identify gaps.',
+  coverage: '438 chests with pickup landmarks and 51 additional source notes; 54 Spirit boards and recipe items; 124 commands, 43 abilities and Links; 346 portal identities; 54 Steam achievements. Chest access/returnability limits, portal approaches and remaining conflicting source fields are identified in each record.',
 };
 export default guide;

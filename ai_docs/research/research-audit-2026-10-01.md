@@ -32,13 +32,11 @@ Historical limitations were checked against later work. For example, the later R
 
 The initial audit did not rewrite guide facts. Follow-up corrections are now tracked in [the resolution pass](research-resolution-2026-10-01.md) and each per-game audit. Copperminds remain empty.
 
-## Current closure ledger — October 1
+## Current disposition — complete seven-game follow-through
 
-- **BBS:** BBS-007/008/017 closed; BBS-006 narrowed to the exact minimum Ignite level. The Archraven Shop 1–4 transcription is also fixed within the still-open BBS-015 route/coverage finding. Nine character-scoped meld groups restored. [Evidence and integration](../games/bbsfm/research-resolution-2026-10-01.md).
-- **Re:CoM:** COM-018 closed as a false gap after checking edition differences; COM-019 integrated for all 13 Riku sleights. COM-032 partially corrected; remaining mushroom/encounter questions stay open. [Evidence and integration](../games/recom/research-resolution-2026-10-01.md).
-- **Other five games:** no findings changed in this pass.
+All **208 issue families** have been revisited. The [current resolution log](research-resolution-2026-10-01.md) lists all seven game ledgers, integrated catalogs, exact residual questions and actual validation results. It supersedes the initial two-game checkpoint: no game remains unchanged merely because it was outside an arbitrary first subset.
 
-The baseline counts above are preserved for audit history; use dated per-finding statuses and this ledger for the current backlog.
+Current classifications are 95 closed (including historical closures), 83 partial, sixteen unresolved/conflicted and fourteen non-factual limitations. These are family statuses, not counts of incorrect facts. Every per-game `research_audit.md` now identifies its current ledger before the preserved historical appendices.
 
 ## Concurrent work and reference stability
 

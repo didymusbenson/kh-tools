@@ -1,5 +1,7 @@
 # 0.2 replay, optional challenges and platform achievements
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Research date: 2026-09-18. This is a separate goals track. None of these encounter results, levels or story milestones contributes to area collection percentages.
 
 ## Availability and replay
@@ -10,9 +12,9 @@ A first clear unlocks Critical and the late objective set. Objectives 36–50 be
 |---|---|---|---|
 | Zodiac relics | Twelve become available | Acquired relics remain acquired; their chests remain open | Explicit KHWiki rule |
 | Late objectives | Area-revisit unlocks | Available at start, with local encounter access still required | Source table; research retroactive counters |
-| Wardrobe / completed objectives | Continue collecting | Carry completion data into selected new run | Community guide; corroborate each state type |
+| Wardrobe / completed objectives | Continue collecting | Carry completion data into selected new run | Completed objectives, items, wardrobe/colors explicitly listed by Game Clear Data |
 | Aqua level | Continue leveling current save | Levels do not carry | PSU reports reset; exact NG+ start-level handling needs corroboration |
-| Ordinary chests, gems, memories | Do not assume every mirror/path reopens | Reset/carry behavior not exhaustively verified | Explicit engineering/research gap |
+| Ordinary chests, gems, memories | Mines re-entry documented for post-clear Leo/Libra | Reset/carry behavior not exhaustively verified | Explicit engineering/research gap |
 | Story boss conditions | Cleared encounter may be unavailable | Fresh story encounters permit another attempt | Do not claim the Zodiac versions substitute |
 | Platform achievements | Platform account state | Separate from local save state | Store external completion separately |
 
@@ -68,7 +70,7 @@ The Xbox leads sum to 1,000. This is a consistency check, not platform API verif
 
 Treasure Hunter should use the 41-chest set including post-clear Zodiac chests and the Main Road chest; verify its exact runtime trigger. Ambitious uses 51 objectives, not all 15 platform goals. Shotlock Star requires one Excellent, while #18 needs six consecutive Excellents. Fashionista does not require Spellweaver, while #21 does. Ice Queen needs five finishers; #20 needs one. These must be separate predicates even when they share evidence.
 
-Do not invent a numeric distance for Dark Explorer, a hidden threshold for #14, or cross-save accumulation rules. Research the exact magic Situation Command set and acquisition triggers before treating A Magical Finale as a fully specified predicate. Do not infer a secret-ending reward from 51/51; no inspected source establishes one.
+Do not invent a numeric distance for Dark Explorer, a hidden threshold for #14, or cross-save accumulation rules. A Magical Finale uses Firaja, Blizzaja and Thundaja; the courtyard gear restores them. Partial-set cross-run accumulation remains undocumented. Do not infer a secret-ending reward from 51/51; no inspected source establishes one.
 
 ## Data Jiminy grounded evaluation cases
 
@@ -83,8 +85,12 @@ Do not invent a numeric distance for Dark Explorer, a hidden threshold for #14, 
 | Which Phantom Aqua must take no damage? | Third story fight for #41, not the Zodiac finale. |
 | How many lightning kills? | Explicitly surface the 30/50 conflict; do not fabricate certainty. |
 | Which mirror chest is real? | Closed reflection; acknowledge conflicting older guide wording. |
-| Can I return for missed gems? | State recovery rule is not verified; do not promise it. |
+| Can I return for missed gems? | Mines can be re-entered for post-clear Zodiac routes; partial gem/reset rules remain unknown. |
 | I finished the story, why isn't the world 100%? | Story flags do not affect collectible percentage; list missing collectible records. |
 | Is 2.8 another checklist? | Collection membership only; 0.2 and DDD retain separate progress. |
 
 Each answer must retrieve the relevant versioned fact, location ID, source and caveat from the bundled 0.2 Coppermind. No network dependency may be introduced into the PWA/SLM MVP.
+
+## Defensive defaults reconciled on 2026-10-01
+
+Barrier, Counter Blast, Cartwheel and aerial recovery are innate. Curaga consumes all remaining MP and gives casting invulnerability except on Critical. Single-hit survival normally leaves 1 HP, but can fail on Critical when Aqua is already at critical HP; combo survival remains innate. These 0.2 statements come from the respective KHWiki game sections and are integrated in `mechanics-facts.json`. They are not BBS melding recipes or KH3 equipment abilities.

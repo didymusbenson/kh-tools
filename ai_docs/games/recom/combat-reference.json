@@ -1,0 +1,6645 @@
+{
+  "game": "recom",
+  "edition": "HD 1.5 + 2.5 ReMIX; remake stat tables",
+  "researchDate": "2026-10-01",
+  "status": "source-backed numeric combat reference; full encounter tactics/frame timings remain incomplete",
+  "notes": "Black-on-black inactive floor labels are normalized to null; colored floor labels identify campaign applicability. These are source scaling rows, not exhaustive room encounter compositions. Unknown source parameters remain null or ?. Source phase paths distinguish boss bodies, limbs and forms. Null duel means no explicit applicable duel row, not a zero-second duel. Status symbols: O/\u25ef effective, \u25b3 partial, X ineffective. Boss phases with nonstandard tables are listed in extractionRemainders rather than guessed.",
+  "records": [
+    {
+      "id": "recom-combat-shadow",
+      "name": "Shadow",
+      "sourcePhasePath": [
+        "Shadow"
+      ],
+      "source": "https://www.khwiki.com/Shadow",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": "B12F",
+          "hp": 33,
+          "beginnerHp": 25,
+          "ap": 3,
+          "exp": 3
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 36,
+          "beginnerHp": 27,
+          "ap": 3,
+          "exp": 7
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 39,
+          "beginnerHp": 29,
+          "ap": 4,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 42,
+          "beginnerHp": 32,
+          "ap": 5,
+          "exp": 16
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 45,
+          "beginnerHp": 34,
+          "ap": 5,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 49,
+          "beginnerHp": 37,
+          "ap": 6,
+          "exp": 25
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 52,
+          "beginnerHp": 39,
+          "ap": 7,
+          "exp": 30
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 8,
+          "exp": 32
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 58,
+          "beginnerHp": 44,
+          "ap": 9,
+          "exp": 36
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 62,
+          "beginnerHp": 47,
+          "ap": 10,
+          "exp": 41
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": "B2F",
+          "hp": 98,
+          "beginnerHp": 74,
+          "ap": 9,
+          "exp": 75
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": "B1F",
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 10,
+          "exp": 80
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 11,
+          "exp": 91
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-soldier",
+      "name": "Soldier",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Soldier",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 4,
+          "exp": 5
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 60,
+          "beginnerHp": 45,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 66,
+          "beginnerHp": 50,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 72,
+          "beginnerHp": 54,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 78,
+          "beginnerHp": 59,
+          "ap": 8,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 84,
+          "beginnerHp": 63,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 90,
+          "beginnerHp": 68,
+          "ap": 11,
+          "exp": 50
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 96,
+          "beginnerHp": 72,
+          "ap": 12,
+          "exp": 55
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 102,
+          "beginnerHp": 77,
+          "ap": 13,
+          "exp": 65
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 108,
+          "beginnerHp": 81,
+          "ap": 14,
+          "exp": 74
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": "B2F",
+          "hp": 174,
+          "beginnerHp": 131,
+          "ap": 13,
+          "exp": 130
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-powerwild",
+      "name": "Powerwild",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Powerwild",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 64,
+          "beginnerHp": 48,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 71,
+          "beginnerHp": 53,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 78,
+          "beginnerHp": 59,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 8,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 92,
+          "beginnerHp": 69,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 11,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 106,
+          "beginnerHp": 80,
+          "ap": 12,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 113,
+          "beginnerHp": 85,
+          "ap": 13,
+          "exp": 65
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-bouncywild",
+      "name": "Bouncywild",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Bouncywild",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 45,
+          "beginnerHp": 34,
+          "ap": 6,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 50,
+          "beginnerHp": 38,
+          "ap": 8,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 9,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 60,
+          "beginnerHp": 45,
+          "ap": 11,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 65,
+          "beginnerHp": 49,
+          "ap": 12,
+          "exp": 41
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 70,
+          "beginnerHp": 53,
+          "ap": 14,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 75,
+          "beginnerHp": 56,
+          "ap": 16,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 80,
+          "beginnerHp": 60,
+          "ap": 17,
+          "exp": 65
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-large-body",
+      "name": "Large Body",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Large_Body",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 80,
+          "beginnerHp": 60,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 90,
+          "beginnerHp": 68,
+          "ap": 9,
+          "exp": 40
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 10,
+          "exp": 50
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 110,
+          "beginnerHp": 83,
+          "ap": 12,
+          "exp": 70
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 120,
+          "beginnerHp": 90,
+          "ap": 13,
+          "exp": 80
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 130,
+          "beginnerHp": 98,
+          "ap": 15,
+          "exp": 100
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 140,
+          "beginnerHp": 105,
+          "ap": 17,
+          "exp": 100
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 150,
+          "beginnerHp": 113,
+          "ap": 18,
+          "exp": 130
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "\u25b3",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-fat-bandit",
+      "name": "Fat Bandit",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Fat_Bandit",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 106,
+          "beginnerHp": 80,
+          "ap": 7,
+          "exp": 40
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 118,
+          "beginnerHp": 89,
+          "ap": 9,
+          "exp": 50
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 130,
+          "beginnerHp": 98,
+          "ap": 11,
+          "exp": 70
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 141,
+          "beginnerHp": 106,
+          "ap": 13,
+          "exp": 80
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 153,
+          "beginnerHp": 115,
+          "ap": 15,
+          "exp": 85
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "\u25b3",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-sea-neon",
+      "name": "Sea Neon",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Sea_Neon",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 64,
+          "beginnerHp": 48,
+          "ap": 12,
+          "exp": 32
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 69,
+          "beginnerHp": 52,
+          "ap": 14,
+          "exp": 40
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 74,
+          "beginnerHp": 56,
+          "ap": 16,
+          "exp": 45
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 79,
+          "beginnerHp": 59,
+          "ap": 17,
+          "exp": 50
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 83,
+          "beginnerHp": 62,
+          "ap": 19,
+          "exp": 50
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "Stun",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-bandit",
+      "name": "Bandit",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Bandit",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 69,
+          "beginnerHp": 52,
+          "ap": 8,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 77,
+          "beginnerHp": 58,
+          "ap": 10,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 84,
+          "beginnerHp": 63,
+          "ap": 12,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 92,
+          "beginnerHp": 69,
+          "ap": 14,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 16,
+          "exp": 41
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-pirate",
+      "name": "Pirate",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Pirate",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 66,
+          "beginnerHp": 50,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 8,
+          "exp": 32
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 80,
+          "beginnerHp": 60,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 87,
+          "beginnerHp": 65,
+          "ap": 11,
+          "exp": 50
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 101,
+          "beginnerHp": 76,
+          "ap": 14,
+          "exp": 80
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 108,
+          "beginnerHp": 81,
+          "ap": 16,
+          "exp": 91
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 117,
+          "beginnerHp": 88,
+          "ap": 17,
+          "exp": 100
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 126,
+          "beginnerHp": 95,
+          "ap": 19,
+          "exp": 100
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-red-nocturne",
+      "name": "Red Nocturne",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Red_Nocturne",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 30,
+          "beginnerHp": 23,
+          "ap": 3,
+          "exp": 3
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 33,
+          "beginnerHp": 25,
+          "ap": 4,
+          "exp": 8
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 36,
+          "beginnerHp": 27,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 40,
+          "beginnerHp": 30,
+          "ap": 6,
+          "exp": 17
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 43,
+          "beginnerHp": 32,
+          "ap": 7,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 47,
+          "beginnerHp": 35,
+          "ap": 8,
+          "exp": 26
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 50,
+          "beginnerHp": 38,
+          "ap": 10,
+          "exp": 30
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 53,
+          "beginnerHp": 40,
+          "ap": 11,
+          "exp": 35
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 57,
+          "beginnerHp": 43,
+          "ap": 12,
+          "exp": 36
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 13,
+          "exp": 80
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 14,
+          "exp": 91
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Absorb",
+        "Ice": "Stun",
+        "Lightning": "x0.5",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-blue-rhapsody",
+      "name": "Blue Rhapsody",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Blue_Rhapsody",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 30,
+          "beginnerHp": 23,
+          "ap": 3,
+          "exp": 3
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 33,
+          "beginnerHp": 25,
+          "ap": 4,
+          "exp": 7
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 36,
+          "beginnerHp": 27,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 40,
+          "beginnerHp": 30,
+          "ap": 6,
+          "exp": 16
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 43,
+          "beginnerHp": 32,
+          "ap": 7,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 47,
+          "beginnerHp": 35,
+          "ap": 8,
+          "exp": 25
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 50,
+          "beginnerHp": 38,
+          "ap": 10,
+          "exp": 30
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 53,
+          "beginnerHp": 40,
+          "ap": 11,
+          "exp": 32
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 57,
+          "beginnerHp": 43,
+          "ap": 12,
+          "exp": 36
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 13,
+          "exp": 80
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 14,
+          "exp": 91
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Stun",
+        "Ice": "Absorb",
+        "Lightning": "x0.5",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-yellow-opera",
+      "name": "Yellow Opera",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Yellow_Opera",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 33,
+          "beginnerHp": 25,
+          "ap": 5,
+          "exp": 7
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 36,
+          "beginnerHp": 27,
+          "ap": 6,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 40,
+          "beginnerHp": 30,
+          "ap": 7,
+          "exp": 16
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 43,
+          "beginnerHp": 32,
+          "ap": 8,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 47,
+          "beginnerHp": 35,
+          "ap": 9,
+          "exp": 25
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": null,
+          "beginnerHp": null,
+          "ap": null,
+          "exp": null
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": null,
+          "beginnerHp": null,
+          "ap": null,
+          "exp": null
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": null,
+          "beginnerHp": null,
+          "ap": null,
+          "exp": null
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": null,
+          "beginnerHp": null,
+          "ap": null,
+          "exp": null
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 13,
+          "exp": 80
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 14,
+          "exp": 91
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-green-requiem",
+      "name": "Green Requiem",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Green_Requiem",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 38,
+          "beginnerHp": 29,
+          "ap": 2,
+          "exp": 7
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 41,
+          "beginnerHp": 31,
+          "ap": 3,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 45,
+          "beginnerHp": 34,
+          "ap": 4,
+          "exp": 16
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 48,
+          "beginnerHp": 36,
+          "ap": 5,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 52,
+          "beginnerHp": 39,
+          "ap": 5,
+          "exp": 25
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 9,
+          "exp": 80
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 118,
+          "beginnerHp": 89,
+          "ap": 10,
+          "exp": 91
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Absorb",
+        "Ice": "Absorb",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-wizard",
+      "name": "Wizard",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Wizard",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 43,
+          "beginnerHp": 32,
+          "ap": 3,
+          "exp": 10
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 69,
+          "beginnerHp": 52,
+          "ap": 10,
+          "exp": 100
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 74,
+          "beginnerHp": 56,
+          "ap": 11,
+          "exp": 100
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 79,
+          "beginnerHp": 59,
+          "ap": 12,
+          "exp": 130
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 83,
+          "beginnerHp": 62,
+          "ap": 13,
+          "exp": 130
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 149,
+          "beginnerHp": 112,
+          "ap": 13,
+          "exp": 169
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 159,
+          "beginnerHp": 119,
+          "ap": 14,
+          "exp": 189
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Absorb",
+        "Ice": "Absorb",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-air-soldier",
+      "name": "Air Soldier",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Air_Soldier",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 81,
+          "beginnerHp": 61,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 89,
+          "beginnerHp": 67,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 97,
+          "beginnerHp": 73,
+          "ap": 8,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": "B2F",
+          "hp": 195,
+          "beginnerHp": 146,
+          "ap": 13,
+          "exp": 130
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-barrel-spider",
+      "name": "Barrel Spider",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Barrel_Spider",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 68,
+          "beginnerHp": 51,
+          "ap": 6,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 74,
+          "beginnerHp": 56,
+          "ap": 8,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 80,
+          "beginnerHp": 60,
+          "ap": 10,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 86,
+          "beginnerHp": 65,
+          "ap": 12,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 92,
+          "beginnerHp": 69,
+          "ap": 14,
+          "exp": 41
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 98,
+          "beginnerHp": 74,
+          "ap": 16,
+          "exp": 50
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 18,
+          "exp": 50
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 109,
+          "beginnerHp": 82,
+          "ap": 20,
+          "exp": 65
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 115,
+          "beginnerHp": 86,
+          "ap": 22,
+          "exp": 71
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": "B2F",
+          "hp": 182,
+          "beginnerHp": 137,
+          "ap": 19,
+          "exp": 130
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 194,
+          "beginnerHp": 146,
+          "ap": 21,
+          "exp": 130
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-wight-knight",
+      "name": "Wight Knight",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Wight_Knight",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 70,
+          "beginnerHp": 53,
+          "ap": 6,
+          "exp": 32
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 77,
+          "beginnerHp": 58,
+          "ap": 8,
+          "exp": 41
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 84,
+          "beginnerHp": 63,
+          "ap": 9,
+          "exp": 50
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 90,
+          "beginnerHp": 68,
+          "ap": 11,
+          "exp": 66
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 96,
+          "beginnerHp": 72,
+          "ap": 12,
+          "exp": 80
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 100,
+          "beginnerHp": 75,
+          "ap": 14,
+          "exp": 91
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 109,
+          "beginnerHp": 82,
+          "ap": 16,
+          "exp": 100
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 115,
+          "beginnerHp": 86,
+          "ap": 17,
+          "exp": 100
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-air-pirate",
+      "name": "Air Pirate",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Air_Pirate",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 61,
+          "beginnerHp": 46,
+          "ap": 8,
+          "exp": 32
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 67,
+          "beginnerHp": 50,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 11,
+          "exp": 50
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 14,
+          "exp": 80
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 91,
+          "beginnerHp": 68,
+          "ap": 16,
+          "exp": 91
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 96,
+          "beginnerHp": 72,
+          "ap": 17,
+          "exp": 100
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 102,
+          "beginnerHp": 77,
+          "ap": 19,
+          "exp": 100
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-gargoyle",
+      "name": "Gargoyle",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Gargoyle",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 75,
+          "beginnerHp": 56,
+          "ap": 6,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 83,
+          "beginnerHp": 62,
+          "ap": 8,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 91,
+          "beginnerHp": 68,
+          "ap": 9,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 11,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 107,
+          "beginnerHp": 80,
+          "ap": 12,
+          "exp": 41
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 114,
+          "beginnerHp": 86,
+          "ap": 14,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 122,
+          "beginnerHp": 92,
+          "ap": 16,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 130,
+          "beginnerHp": 98,
+          "ap": 17,
+          "exp": 65
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-search-ghost",
+      "name": "Search Ghost",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Search_Ghost",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 61,
+          "beginnerHp": 46,
+          "ap": 6,
+          "exp": 20
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 67,
+          "beginnerHp": 50,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 8,
+          "exp": 35
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 79,
+          "beginnerHp": 59,
+          "ap": 9,
+          "exp": 41
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 11,
+          "exp": 50
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 91,
+          "beginnerHp": 68,
+          "ap": 12,
+          "exp": 50
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 96,
+          "beginnerHp": 72,
+          "ap": 13,
+          "exp": 65
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 102,
+          "beginnerHp": 77,
+          "ap": 14,
+          "exp": 71
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-aquatank",
+      "name": "Aquatank",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Aquatank",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 153,
+          "beginnerHp": 115,
+          "ap": 15,
+          "exp": 80
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 166,
+          "beginnerHp": 125,
+          "ap": 17,
+          "exp": 100
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 178,
+          "beginnerHp": 134,
+          "ap": 19,
+          "exp": 110
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 191,
+          "beginnerHp": 143,
+          "ap": 21,
+          "exp": 130
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 204,
+          "beginnerHp": 153,
+          "ap": 23,
+          "exp": 140
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-screwdiver",
+      "name": "Screwdiver",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Screwdiver",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 97,
+          "beginnerHp": 73,
+          "ap": 15,
+          "exp": 66
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 17,
+          "exp": 80
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 121,
+          "beginnerHp": 91,
+          "ap": 19,
+          "exp": 91
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 120,
+          "beginnerHp": 90,
+          "ap": 21,
+          "exp": 100
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 128,
+          "beginnerHp": 96,
+          "ap": 23,
+          "exp": 100
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "O",
+        "Percentage": "O",
+        "Stop": "O",
+        "Warp": "O",
+        "Bind": "O",
+        "Confuse": "O",
+        "Terror": "O",
+        "Magnet": "O",
+        "Freeze": "O"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-wyvern",
+      "name": "Wyvern",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Wyvern",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 64,
+          "beginnerHp": 48,
+          "ap": 5,
+          "exp": 10
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 95,
+          "beginnerHp": 71,
+          "ap": 13,
+          "exp": 100
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 101,
+          "beginnerHp": 76,
+          "ap": 15,
+          "exp": 110
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 108,
+          "beginnerHp": 81,
+          "ap": 16,
+          "exp": 130
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 115,
+          "beginnerHp": 86,
+          "ap": 18,
+          "exp": 140
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 206,
+          "beginnerHp": 155,
+          "ap": 18,
+          "exp": 170
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 221,
+          "beginnerHp": 166,
+          "ap": 19,
+          "exp": 190
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-defender",
+      "name": "Defender",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Defender",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 75,
+          "beginnerHp": 56,
+          "ap": 5,
+          "exp": 12
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 117,
+          "beginnerHp": 88,
+          "ap": 13,
+          "exp": 130
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 136,
+          "beginnerHp": 102,
+          "ap": 15,
+          "exp": 130
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 147,
+          "beginnerHp": 110,
+          "ap": 16,
+          "exp": 150
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 149,
+          "beginnerHp": 112,
+          "ap": 18,
+          "exp": 180
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 272,
+          "beginnerHp": 204,
+          "ap": 18,
+          "exp": 219
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 290,
+          "beginnerHp": 218,
+          "ap": 19,
+          "exp": 203
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "X",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-white-mushroom",
+      "name": "White Mushroom",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/White_Mushroom",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 33,
+          "beginnerHp": 25,
+          "ap": 0,
+          "exp": 3
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 36,
+          "beginnerHp": 27,
+          "ap": 0,
+          "exp": 7
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 40,
+          "beginnerHp": 30,
+          "ap": 0,
+          "exp": 12
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 43,
+          "beginnerHp": 32,
+          "ap": 0,
+          "exp": 17
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 46,
+          "beginnerHp": 35,
+          "ap": 0,
+          "exp": 21
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 50,
+          "beginnerHp": 38,
+          "ap": 0,
+          "exp": 26
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 53,
+          "beginnerHp": 40,
+          "ap": 0,
+          "exp": 30
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 56,
+          "beginnerHp": 42,
+          "ap": 0,
+          "exp": 35
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 59,
+          "beginnerHp": 44,
+          "ap": 0,
+          "exp": 39
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 63,
+          "beginnerHp": 47,
+          "ap": 0,
+          "exp": 44
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": null,
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 0,
+          "exp": 78
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 106,
+          "beginnerHp": 80,
+          "ap": 0,
+          "exp": 86
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 112,
+          "beginnerHp": 84,
+          "ap": 0,
+          "exp": 93
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0",
+        "Ice": "x0",
+        "Lightning": "x0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-black-fungus",
+      "name": "Black Fungus",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Black_Fungus",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": "B12F",
+          "hp": 64,
+          "beginnerHp": 48,
+          "ap": 6,
+          "exp": 1
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 71,
+          "beginnerHp": 53,
+          "ap": 7,
+          "exp": 2
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 78,
+          "beginnerHp": 59,
+          "ap": 9,
+          "exp": 3
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 11,
+          "exp": 5
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 93,
+          "beginnerHp": 70,
+          "ap": 13,
+          "exp": 7
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 100,
+          "beginnerHp": 75,
+          "ap": 15,
+          "exp": 7
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 108,
+          "beginnerHp": 81,
+          "ap": 17,
+          "exp": 10
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 115,
+          "beginnerHp": 86,
+          "ap": 19,
+          "exp": 11
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 121,
+          "beginnerHp": 91,
+          "ap": 21,
+          "exp": 12
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 130,
+          "beginnerHp": 98,
+          "ap": 23,
+          "exp": 12
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": "B2F",
+          "hp": 210,
+          "beginnerHp": 158,
+          "ap": 20,
+          "exp": 25
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": "B1F",
+          "hp": 225,
+          "beginnerHp": 169,
+          "ap": 22,
+          "exp": 25
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 240,
+          "beginnerHp": 180,
+          "ap": 23,
+          "exp": 31
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-creeper-plant",
+      "name": "Creeper Plant",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Creeper_Plant",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 5,
+          "exp": 20
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 61,
+          "beginnerHp": 46,
+          "ap": 6,
+          "exp": 32
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 67,
+          "beginnerHp": 50,
+          "ap": 7,
+          "exp": 41
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 8,
+          "exp": 50
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 79,
+          "beginnerHp": 59,
+          "ap": 9,
+          "exp": 66
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 11,
+          "exp": 80
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 91,
+          "beginnerHp": 68,
+          "ap": 12,
+          "exp": 91
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 96,
+          "beginnerHp": 72,
+          "ap": 13,
+          "exp": 100
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B3F",
+          "hp": 102,
+          "beginnerHp": 77,
+          "ap": 14,
+          "exp": 100
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 181,
+          "beginnerHp": 136,
+          "ap": 14,
+          "exp": 119
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "X",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-tornado-step",
+      "name": "Tornado Step",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Tornado_Step",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 60,
+          "beginnerHp": 45,
+          "ap": 4,
+          "exp": 7
+        },
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 66,
+          "beginnerHp": 50,
+          "ap": 5,
+          "exp": 20
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 73,
+          "beginnerHp": 55,
+          "ap": 6,
+          "exp": 32
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 80,
+          "beginnerHp": 60,
+          "ap": 7,
+          "exp": 41
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 87,
+          "beginnerHp": 65,
+          "ap": 8,
+          "exp": 50
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 94,
+          "beginnerHp": 71,
+          "ap": 9,
+          "exp": 66
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 101,
+          "beginnerHp": 76,
+          "ap": 11,
+          "exp": 80
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 107,
+          "beginnerHp": 80,
+          "ap": 12,
+          "exp": 91
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 114,
+          "beginnerHp": 86,
+          "ap": 13,
+          "exp": 100
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 121,
+          "beginnerHp": 91,
+          "ap": 14,
+          "exp": 100
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 213,
+          "beginnerHp": 160,
+          "ap": 15,
+          "exp": 219
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-crescendo",
+      "name": "Crescendo",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Crescendo",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": "B11F",
+          "hp": 56,
+          "beginnerHp": 42,
+          "ap": 5,
+          "exp": 20
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": "B10F",
+          "hp": 63,
+          "beginnerHp": 47,
+          "ap": 6,
+          "exp": 32
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": "B9F",
+          "hp": 70,
+          "beginnerHp": 53,
+          "ap": 7,
+          "exp": 41
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": "B8F",
+          "hp": 77,
+          "beginnerHp": 58,
+          "ap": 8,
+          "exp": 50
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 84,
+          "beginnerHp": 63,
+          "ap": 9,
+          "exp": 66
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 91,
+          "beginnerHp": 68,
+          "ap": 11,
+          "exp": 80
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 97,
+          "beginnerHp": 73,
+          "ap": 12,
+          "exp": 91
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 104,
+          "beginnerHp": 78,
+          "ap": 13,
+          "exp": 100
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 111,
+          "beginnerHp": 83,
+          "ap": 14,
+          "exp": 100
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 203,
+          "beginnerHp": 152,
+          "ap": 14,
+          "exp": 119
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 3,
+        "seconds": 4.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-neoshadow",
+      "name": "Neoshadow",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Neoshadow",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 221,
+          "beginnerHp": 166,
+          "ap": 14,
+          "exp": 169
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 235,
+          "beginnerHp": 176,
+          "ap": 15,
+          "exp": 189
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-ansem-seeker-of-darkness",
+      "name": "Ansem, Seeker of Darkness",
+      "sourcePhasePath": [
+        "Ansem"
+      ],
+      "source": "https://www.khwiki.com/Game:Ansem,_Seeker_of_Darkness",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B1F",
+          "hp": 1780,
+          "beginnerHp": 1335,
+          "ap": 30,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-axel",
+      "name": "Axel",
+      "sourcePhasePath": [
+        "Axel"
+      ],
+      "source": "https://www.khwiki.com/Game:Axel",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 420,
+          "beginnerHp": 315,
+          "ap": 5,
+          "exp": 75
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 1460,
+          "beginnerHp": 1095,
+          "ap": 19,
+          "exp": 6225
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Absorb",
+        "Ice": "x1.0",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25ef"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-captain-hook",
+      "name": "Captain Hook",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Captain_Hook",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 509,
+          "beginnerHp": 382,
+          "ap": 5,
+          "exp": 232
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 568,
+          "beginnerHp": 426,
+          "ap": 6,
+          "exp": 392
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 617,
+          "beginnerHp": 463,
+          "ap": 7,
+          "exp": 551
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 697,
+          "beginnerHp": 523,
+          "ap": 8,
+          "exp": 611
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 744,
+          "beginnerHp": 558,
+          "ap": 13,
+          "exp": 1630
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 809,
+          "beginnerHp": 607,
+          "ap": 14,
+          "exp": 1789
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 874,
+          "beginnerHp": 656,
+          "ap": 15,
+          "exp": 1849
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 939,
+          "beginnerHp": 704,
+          "ap": 16,
+          "exp": 2008
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x0.5",
+        "Lightning": "x0",
+        "Neutral": "x0.5",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-cloud",
+      "name": "Cloud",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Cloud",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 364,
+          "beginnerHp": 273,
+          "ap": 5,
+          "exp": 192
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 416,
+          "beginnerHp": 312,
+          "ap": 6,
+          "exp": 208
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 468,
+          "beginnerHp": 351,
+          "ap": 8,
+          "exp": 223
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 520,
+          "beginnerHp": 390,
+          "ap": 10,
+          "exp": 339
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 572,
+          "beginnerHp": 429,
+          "ap": 11,
+          "exp": 354
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25b3"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-hades",
+      "name": "Hades",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Hades",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 490,
+          "beginnerHp": 368,
+          "ap": 7,
+          "exp": 132
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 560,
+          "beginnerHp": 420,
+          "ap": 9,
+          "exp": 272
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 630,
+          "beginnerHp": 473,
+          "ap": 11,
+          "exp": 311
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 700,
+          "beginnerHp": 525,
+          "ap": 13,
+          "exp": 351
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 890,
+          "beginnerHp": 668,
+          "ap": 17,
+          "exp": 530
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 940,
+          "beginnerHp": 705,
+          "ap": 18,
+          "exp": 569
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 990,
+          "beginnerHp": 743,
+          "ap": 20,
+          "exp": 609
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Absorb",
+        "Ice": "x1.0",
+        "Lightning": "x0",
+        "Neutral": "x0.5",
+        "Stun": "\u25b3 [ 3 ]",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef [ 3 ]",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3 [ 3 ]",
+        "Freeze": "\u25ef [ 3 ]"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-larxene",
+      "name": "Larxene",
+      "sourcePhasePath": [
+        "Larxene"
+      ],
+      "source": "https://www.khwiki.com/Game:Larxene",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 920,
+          "beginnerHp": 690,
+          "ap": 6,
+          "exp": 1925
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 1570,
+          "beginnerHp": 1178,
+          "ap": 15,
+          "exp": 5963
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "Absorb",
+        "Neutral": "x1.0",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25b3"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-lexaeus",
+      "name": "Lexaeus",
+      "sourcePhasePath": [
+        "Lexaeus"
+      ],
+      "source": "https://www.khwiki.com/Game:Lexaeus",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 1860,
+          "beginnerHp": 1395,
+          "ap": 18,
+          "exp": 6117
+        }
+      ],
+      "resistances": {
+        "Physical": "x0.5",
+        "Fire": "x0.5",
+        "Ice": "x0",
+        "Lightning": "x0.5",
+        "Neutral": "x1.0",
+        "Stun": "\u25b3 [ 2 ]",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-1",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Marluxia"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 1740,
+          "beginnerHp": 1305,
+          "ap": 25,
+          "exp": 12931
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "x0.5",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x1.0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0.33",
+        "Freeze": "x0.5"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-2",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Second Form",
+        "Marluxia"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 1440,
+          "beginnerHp": 1080,
+          "ap": 28,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "x0",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0",
+        "Freeze": "x0"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-3",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Second Form",
+        "Scythe"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 320,
+          "beginnerHp": 240,
+          "ap": 28,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "x0",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0",
+        "Freeze": "x0"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-4",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Second Form",
+        "Bit"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 28,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "x0",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0",
+        "Freeze": "x0"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-5",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Third Form",
+        "Marluxia"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 1937,
+          "beginnerHp": 1453,
+          "ap": 29,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "x0",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0",
+        "Freeze": "x0"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-marluxia-6",
+      "name": "Marluxia",
+      "sourcePhasePath": [
+        "Marluxia",
+        "Third Form",
+        "Bit"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": null,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "?",
+        "Fire": "?",
+        "Ice": "?",
+        "Lightning": "?",
+        "Neutral": "?",
+        "Stun": "x0",
+        "Percentage": "x0",
+        "Stop": "x0",
+        "Warp": "x0",
+        "Bind": "x0",
+        "Confuse": "x0",
+        "Terror": "x0",
+        "Magnet": "x0",
+        "Freeze": "x0"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-oogie-boogie",
+      "name": "Oogie Boogie",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Oogie_Boogie",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 548,
+          "beginnerHp": 411,
+          "ap": 7,
+          "exp": 132
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 597,
+          "beginnerHp": 448,
+          "ap": 9,
+          "exp": 272
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 646,
+          "beginnerHp": 485,
+          "ap": 11,
+          "exp": 311
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 695,
+          "beginnerHp": 521,
+          "ap": 13,
+          "exp": 351
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 744,
+          "beginnerHp": 558,
+          "ap": 15,
+          "exp": 490
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 744,
+          "beginnerHp": 558,
+          "ap": 18,
+          "exp": 490
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 792,
+          "beginnerHp": 594,
+          "ap": 20,
+          "exp": 530
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 841,
+          "beginnerHp": 631,
+          "ap": 22,
+          "exp": 569
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 890,
+          "beginnerHp": 668,
+          "ap": 24,
+          "exp": 609
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-riku-replica",
+      "name": "Riku Replica",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 1200,
+          "beginnerHp": 900,
+          "ap": 8,
+          "exp": 1675
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 1250,
+          "beginnerHp": 938,
+          "ap": 8,
+          "exp": 2175
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 1250,
+          "beginnerHp": 938,
+          "ap": 8,
+          "exp": 3025
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": null,
+          "hp": 1350,
+          "beginnerHp": 1013,
+          "ap": 10,
+          "exp": 5700
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B2F",
+          "hp": 1350,
+          "beginnerHp": 1013,
+          "ap": 10,
+          "exp": 5900
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 1600,
+          "beginnerHp": 1200,
+          "ap": 13,
+          "exp": 6225
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x1.0",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25b3"
+      },
+      "duel": null,
+      "duelAlternatives": [
+        {
+          "cards": 5,
+          "seconds": 6.0
+        },
+        {
+          "cards": 7,
+          "seconds": 8.0
+        }
+      ]
+    },
+    {
+      "id": "recom-combat-ursula-1",
+      "name": "Ursula",
+      "sourcePhasePath": [
+        "Giant Ursula",
+        "Ursula"
+      ],
+      "source": "https://www.khwiki.com/Game:Ursula",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 580,
+          "beginnerHp": 435,
+          "ap": 16,
+          "exp": 1470
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 555,
+          "beginnerHp": 416,
+          "ap": 17,
+          "exp": 1630
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 620,
+          "beginnerHp": 465,
+          "ap": 17,
+          "exp": 1630
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 594,
+          "beginnerHp": 446,
+          "ap": 19,
+          "exp": 1789
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": null,
+          "hp": 660,
+          "beginnerHp": 495,
+          "ap": 19,
+          "exp": 1789,
+          "sourceFloorConflict": "Source displays B11F, outside Riku Atlantica B7F\u2013B4F; unresolved source-label error."
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 633,
+          "beginnerHp": 475,
+          "ap": 21,
+          "exp": 1849
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 700,
+          "beginnerHp": 525,
+          "ap": 21,
+          "exp": 1849
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 681,
+          "beginnerHp": 511,
+          "ap": 23,
+          "exp": 2008
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-ursula-2",
+      "name": "Ursula",
+      "sourcePhasePath": [
+        "Giant Ursula",
+        "Tentacle"
+      ],
+      "source": "https://www.khwiki.com/Game:Ursula",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 83,
+          "beginnerHp": 62,
+          "ap": 16,
+          "exp": 0
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 46,
+          "beginnerHp": 35,
+          "ap": 18,
+          "exp": 0
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 86,
+          "beginnerHp": 65,
+          "ap": 18,
+          "exp": 0
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 49,
+          "beginnerHp": 37,
+          "ap": 20,
+          "exp": 0
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": null,
+          "hp": 89,
+          "beginnerHp": 67,
+          "ap": 20,
+          "exp": 0,
+          "sourceFloorConflict": "Source displays B11F, outside Riku Atlantica B7F\u2013B4F; unresolved source-label error."
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 52,
+          "beginnerHp": 39,
+          "ap": 22,
+          "exp": 0
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 92,
+          "beginnerHp": 69,
+          "ap": 22,
+          "exp": 0
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 55,
+          "beginnerHp": 41,
+          "ap": 24,
+          "exp": 0
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-vexen",
+      "name": "Vexen",
+      "sourcePhasePath": [
+        "Vexen"
+      ],
+      "source": "https://www.khwiki.com/Game:Vexen",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 1090,
+          "beginnerHp": 818,
+          "ap": 6,
+          "exp": 575
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 1250,
+          "beginnerHp": 938,
+          "ap": 17,
+          "exp": 3525
+        },
+        {
+          "soraFloor": "11F",
+          "rikuFloor": null,
+          "hp": 1460,
+          "beginnerHp": 1095,
+          "ap": 18,
+          "exp": 5700
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "Absorb",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "\u25b3",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-zexion-1",
+      "name": "Zexion",
+      "sourcePhasePath": [
+        "Zexion",
+        "Zexion"
+      ],
+      "source": "https://www.khwiki.com/Game:Zexion",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B3F",
+          "hp": 1120,
+          "beginnerHp": 840,
+          "ap": 12,
+          "exp": 6280
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-zexion-2",
+      "name": "Zexion",
+      "sourcePhasePath": [
+        "Zexion",
+        "Book"
+      ],
+      "source": "https://www.khwiki.com/Game:Zexion",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B3F",
+          "hp": 40,
+          "beginnerHp": 30,
+          "ap": 0,
+          "exp": 80
+        }
+      ],
+      "resistances": {
+        "Physical": "x0.5",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "\u25ef",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "\u25b3",
+        "Freeze": "\u25ef"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-darkside",
+      "name": "Darkside",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Darkside",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B3F",
+          "hp": 950,
+          "beginnerHp": 713,
+          "ap": 28,
+          "exp": 2827
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": null,
+          "hp": 640,
+          "beginnerHp": 480,
+          "ap": 28,
+          "exp": 3200
+        }
+      ],
+      "resistances": {
+        "Physical": "1.0",
+        "Fire": "0.5",
+        "Ice": "0.5",
+        "Lightning": "0.5",
+        "Neutral": "0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 7,
+        "seconds": 8.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-guard-armor",
+      "name": "Guard Armor",
+      "sourcePhasePath": [
+        "Guard Armor"
+      ],
+      "source": "https://www.khwiki.com/Guard_Armor",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "1F",
+          "rikuFloor": null,
+          "hp": 160,
+          "beginnerHp": 120,
+          "ap": 10,
+          "exp": 48
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 329,
+          "beginnerHp": 247,
+          "ap": 13,
+          "exp": 192
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 349,
+          "beginnerHp": 262,
+          "ap": 15,
+          "exp": 164
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 368,
+          "beginnerHp": 276,
+          "ap": 17,
+          "exp": 236
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 388,
+          "beginnerHp": 291,
+          "ap": 19,
+          "exp": 208
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-parasite-cage",
+      "name": "Parasite Cage",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Parasite_Cage",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 583,
+          "beginnerHp": 437,
+          "ap": 6,
+          "exp": 132
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 713,
+          "beginnerHp": 535,
+          "ap": 8,
+          "exp": 132
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 653,
+          "beginnerHp": 490,
+          "ap": 8,
+          "exp": 272
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 782,
+          "beginnerHp": 587,
+          "ap": 10,
+          "exp": 272
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 723,
+          "beginnerHp": 542,
+          "ap": 10,
+          "exp": 311
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 851,
+          "beginnerHp": 638,
+          "ap": 11,
+          "exp": 311
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 793,
+          "beginnerHp": 595,
+          "ap": 12,
+          "exp": 351
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 924,
+          "beginnerHp": 693,
+          "ap": 13,
+          "exp": 351
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 863,
+          "beginnerHp": 647,
+          "ap": 14,
+          "exp": 490
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-trickmaster",
+      "name": "Trickmaster",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Trickmaster",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 578,
+          "beginnerHp": 434,
+          "ap": 8,
+          "exp": 132
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 667,
+          "beginnerHp": 500,
+          "ap": 11,
+          "exp": 272
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 746,
+          "beginnerHp": 560,
+          "ap": 14,
+          "exp": 311
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 795,
+          "beginnerHp": 596,
+          "ap": 16,
+          "exp": 351
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": "B7F",
+          "hp": 844,
+          "beginnerHp": 633,
+          "ap": 18,
+          "exp": 490
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B6F",
+          "hp": 922,
+          "beginnerHp": 692,
+          "ap": 21,
+          "exp": 530
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B5F",
+          "hp": 996,
+          "beginnerHp": 747,
+          "ap": 23,
+          "exp": 569
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B4F",
+          "hp": 1070,
+          "beginnerHp": 803,
+          "ap": 25,
+          "exp": 609
+        }
+      ],
+      "resistances": {
+        "Physical": "1.0",
+        "Fire": "0.5",
+        "Ice": "0.5",
+        "Lightning": "0.5",
+        "Neutral": "0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-jafar-genie",
+      "name": "Jafar-Genie",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Jafar_(Genie)",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 480,
+          "beginnerHp": 360,
+          "ap": 13,
+          "exp": 132
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 560,
+          "beginnerHp": 420,
+          "ap": 13,
+          "exp": 132
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 550,
+          "beginnerHp": 413,
+          "ap": 15,
+          "exp": 272
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 609,
+          "beginnerHp": 457,
+          "ap": 15,
+          "exp": 272
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 620,
+          "beginnerHp": 465,
+          "ap": 17,
+          "exp": 311
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 658,
+          "beginnerHp": 494,
+          "ap": 17,
+          "exp": 311
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 690,
+          "beginnerHp": 518,
+          "ap": 19,
+          "exp": 351
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 707,
+          "beginnerHp": 530,
+          "ap": 19,
+          "exp": 351
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 760,
+          "beginnerHp": 570,
+          "ap": 21,
+          "exp": 490
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-dragon-maleficent",
+      "name": "Dragon Maleficent",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Game:Maleficent_(Dragon)",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 600,
+          "beginnerHp": 450,
+          "ap": 8,
+          "exp": 173
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": null,
+          "hp": 1041,
+          "beginnerHp": 781,
+          "ap": 18,
+          "exp": 1630
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": null,
+          "hp": 1090,
+          "beginnerHp": 818,
+          "ap": 20,
+          "exp": 1789
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": null,
+          "hp": 1148,
+          "beginnerHp": 861,
+          "ap": 22,
+          "exp": 1849
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": null,
+          "hp": 1207,
+          "beginnerHp": 905,
+          "ap": 24,
+          "exp": 2008
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x0.5",
+        "Ice": "x0.5",
+        "Lightning": "x0.5",
+        "Neutral": "x0.5",
+        "Stun": "X",
+        "Percentage": "X",
+        "Stop": "X",
+        "Warp": "X",
+        "Bind": "X",
+        "Confuse": "X",
+        "Terror": "X",
+        "Magnet": "X",
+        "Freeze": "X"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-card-soldier-1",
+      "name": "Card Soldier",
+      "sourcePhasePath": [
+        "Playing Cards",
+        "Card of Hearts"
+      ],
+      "source": "https://www.khwiki.com/Game:Playing_Card",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 5,
+          "exp": 20
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 115,
+          "beginnerHp": 86,
+          "ap": 7,
+          "exp": 25
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 125,
+          "beginnerHp": 94,
+          "ap": 8,
+          "exp": 38
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 135,
+          "beginnerHp": 101,
+          "ap": 9,
+          "exp": 48
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 145,
+          "beginnerHp": 109,
+          "ap": 10,
+          "exp": 55
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Stun",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-card-soldier-2",
+      "name": "Card Soldier",
+      "sourcePhasePath": [
+        "Playing Cards",
+        "Card of Spades"
+      ],
+      "source": "https://www.khwiki.com/Game:Playing_Card",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": "2F",
+          "rikuFloor": null,
+          "hp": 79,
+          "beginnerHp": 59,
+          "ap": 5,
+          "exp": 18
+        },
+        {
+          "soraFloor": "3F",
+          "rikuFloor": null,
+          "hp": 93,
+          "beginnerHp": 70,
+          "ap": 6,
+          "exp": 22
+        },
+        {
+          "soraFloor": "4F",
+          "rikuFloor": null,
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 7,
+          "exp": 30
+        },
+        {
+          "soraFloor": "5F",
+          "rikuFloor": null,
+          "hp": 116,
+          "beginnerHp": 87,
+          "ap": 8,
+          "exp": 40
+        },
+        {
+          "soraFloor": "6F",
+          "rikuFloor": null,
+          "hp": 125,
+          "beginnerHp": 94,
+          "ap": 9,
+          "exp": 46
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "Stun",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": null,
+      "duelAlternatives": []
+    },
+    {
+      "id": "recom-combat-darkball",
+      "name": "Darkball",
+      "sourcePhasePath": [],
+      "source": "https://www.khwiki.com/Darkball",
+      "sourceEditionTab": "KHRECOM",
+      "floorStats": [
+        {
+          "soraFloor": null,
+          "rikuFloor": "B12F",
+          "hp": 62,
+          "beginnerHp": 47,
+          "ap": 4,
+          "exp": 10
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B11F",
+          "hp": 68,
+          "beginnerHp": 51,
+          "ap": 5,
+          "exp": 25
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B10F",
+          "hp": 75,
+          "beginnerHp": 56,
+          "ap": 6,
+          "exp": 40
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B9F",
+          "hp": 78,
+          "beginnerHp": 59,
+          "ap": 7,
+          "exp": 50
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B8F",
+          "hp": 85,
+          "beginnerHp": 64,
+          "ap": 8,
+          "exp": 70
+        },
+        {
+          "soraFloor": null,
+          "rikuFloor": "B7F",
+          "hp": 92,
+          "beginnerHp": 69,
+          "ap": 9,
+          "exp": 80
+        },
+        {
+          "soraFloor": "7F",
+          "rikuFloor": "B6F",
+          "hp": 99,
+          "beginnerHp": 74,
+          "ap": 11,
+          "exp": 100
+        },
+        {
+          "soraFloor": "8F",
+          "rikuFloor": "B5F",
+          "hp": 105,
+          "beginnerHp": 79,
+          "ap": 12,
+          "exp": 100
+        },
+        {
+          "soraFloor": "9F",
+          "rikuFloor": "B4F",
+          "hp": 112,
+          "beginnerHp": 84,
+          "ap": 13,
+          "exp": 130
+        },
+        {
+          "soraFloor": "10F",
+          "rikuFloor": "B3F",
+          "hp": 119,
+          "beginnerHp": 89,
+          "ap": 14,
+          "exp": 130
+        },
+        {
+          "soraFloor": "12F",
+          "rikuFloor": "B1F",
+          "hp": 211,
+          "beginnerHp": 158,
+          "ap": 14,
+          "exp": 169
+        },
+        {
+          "soraFloor": "13F",
+          "rikuFloor": null,
+          "hp": 225,
+          "beginnerHp": 169,
+          "ap": 15,
+          "exp": 189
+        }
+      ],
+      "resistances": {
+        "Physical": "x1.0",
+        "Fire": "x1.0",
+        "Ice": "x1.0",
+        "Lightning": "x1.0",
+        "Neutral": "x1.0",
+        "Stun": "\u25ef",
+        "Percentage": "\u25ef",
+        "Stop": "\u25ef",
+        "Warp": "\u25ef",
+        "Bind": "\u25ef",
+        "Confuse": "\u25ef",
+        "Terror": "\u25ef",
+        "Magnet": "\u25ef",
+        "Freeze": "\u25ef"
+      },
+      "duel": {
+        "cards": 5,
+        "seconds": 6.0
+      },
+      "duelAlternatives": []
+    }
+  ],
+  "extractionRemainders": [],
+  "bossDecks": [
+    {
+      "id": "recom-boss-deck-1",
+      "enemy": "Ansem, Seeker of Darkness",
+      "encounterPath": [],
+      "source": "https://www.khwiki.com/Game:Ansem,_Seeker_of_Darkness",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Ansem, Seeker of Darkness",
+          "copiesByValue": {
+            "0": 8,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 4,
+            "7": 6,
+            "8": 8,
+            "9": 10
+          },
+          "total": 39
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Ansem, Seeker of Darkness",
+          "copiesByValue": {
+            "0": 5,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 4,
+            "7": 6,
+            "8": 8,
+            "9": 10
+          },
+          "total": 36
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 2
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Ansem",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-2",
+      "enemy": "Axel",
+      "encounterPath": [
+        "First battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Axel",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Axel",
+          "copiesByValue": {
+            "0": 1,
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 7
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Axel",
+          "copiesByValue": {
+            "0": 0,
+            "1": 2,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 2,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 7
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-3",
+      "enemy": "Axel",
+      "encounterPath": [
+        "Second battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Axel",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Axel",
+          "copiesByValue": {
+            "0": 5,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 3,
+            "5": 0,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 6
+          },
+          "total": 26
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Axel",
+          "copiesByValue": {
+            "0": 5,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 3,
+            "5": 0,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 6
+          },
+          "total": 26
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 1
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Red Nocturne",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Axel",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-4",
+      "enemy": "Captain Hook",
+      "encounterPath": [],
+      "source": "https://www.khwiki.com/Game:Captain_Hook",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Captain Hook",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Captain Hook",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 11
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Captain Hook",
+          "copiesByValue": {
+            "0": 2,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1,
+            "8": 2,
+            "9": 1
+          },
+          "total": 6
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Captain Hook",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 11
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Captain Hook",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Sea Neon",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card C",
+          "identity": "Pirate",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-5",
+      "enemy": "Cloud",
+      "encounterPath": [],
+      "source": "https://www.khwiki.com/Game:Cloud",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Cloud",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 0
+          },
+          "total": 14
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Cloud",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 0
+          },
+          "total": 14
+        },
+        {
+          "cardClass": "Hi-Potion",
+          "illustratedIdentity": "Hi-Potion",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1,
+            "8": 0,
+            "9": 0
+          },
+          "total": 1
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-6",
+      "enemy": "Hades",
+      "encounterPath": [
+        "Sora"
+      ],
+      "source": "https://www.khwiki.com/Game:Hades",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Hades",
+          "copiesByValue": {
+            "0": 1,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 1,
+            "9": 0
+          },
+          "total": 18
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Hades",
+          "copiesByValue": {
+            "0": 0,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 1,
+            "9": 0
+          },
+          "total": 17
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Hades",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Red Nocturne",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-7",
+      "enemy": "Hades",
+      "encounterPath": [
+        "Riku"
+      ],
+      "source": "https://www.khwiki.com/Game:Hades",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Hades",
+          "copiesByValue": {
+            "0": 2,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Hades",
+          "copiesByValue": {
+            "0": 2,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Hades",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Red Nocturne",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-8",
+      "enemy": "Larxene",
+      "encounterPath": [
+        "First battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Larxene",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Yellow Opera",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-9",
+      "enemy": "Larxene",
+      "encounterPath": [
+        "Second battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Larxene",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 3,
+            "9": 3
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 3,
+            "9": 3
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Larxene",
+          "copiesByValue": {
+            "0": 3,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 3,
+            "9": 3
+          },
+          "total": 19
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Yellow Opera",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Larxene",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-10",
+      "enemy": "Lexaeus",
+      "encounterPath": [],
+      "source": "https://www.khwiki.com/Game:Lexaeus",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Lexaeus",
+          "copiesByValue": {
+            "0": 6,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 7,
+            "9": 8
+          },
+          "total": 32
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Lexaeus",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 3,
+            "7": 4,
+            "8": 7,
+            "9": 8
+          },
+          "total": 31
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Lexaeus",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 14
+          },
+          "total": 14
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Lexaeus",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-11",
+      "enemy": "Marluxia",
+      "encounterPath": [
+        "Marluxia (First Form)"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Marluxia",
+          "copiesByValue": {
+            "0": 4,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 4,
+            "8": 6,
+            "9": 4
+          },
+          "total": 23
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Marluxia",
+          "copiesByValue": {
+            "0": 4,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "7": 5,
+            "8": 3,
+            "9": 6
+          },
+          "total": 23
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Marluxia",
+          "copiesByValue": {
+            "0": 3,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 3,
+            "7": 4,
+            "8": 5,
+            "9": 6
+          },
+          "total": 24
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 2
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Marluxia",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-12",
+      "enemy": "Marluxia",
+      "encounterPath": [
+        "Marluxia (Second Form)"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Marluxia (Second Form)",
+          "copiesByValue": null,
+          "total": null,
+          "sourceValueSpecification": "0-9"
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-13",
+      "enemy": "Marluxia",
+      "encounterPath": [
+        "Marluxia (Third Form)"
+      ],
+      "source": "https://www.khwiki.com/Game:Marluxia",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Marluxia (Third Form)",
+          "copiesByValue": null,
+          "total": null,
+          "sourceValueSpecification": "1-9"
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-14",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Sora",
+        "First battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 0,
+            "9": 1
+          },
+          "total": 13
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 0,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 0,
+            "9": 1
+          },
+          "total": 13
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 0,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 3,
+            "6": 1,
+            "7": 0,
+            "8": 2,
+            "9": 0
+          },
+          "total": 9
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-15",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Sora",
+        "Second battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 15
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 15
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 2,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0,
+            "8": 2,
+            "9": 0
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-16",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Sora",
+        "Third battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 3,
+            "5": 3,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 2
+          },
+          "total": 18
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 3,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 3,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 2
+          },
+          "total": 11
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 0,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 3,
+            "5": 3,
+            "6": 0,
+            "7": 0,
+            "8": 2,
+            "9": 0
+          },
+          "total": 10
+        },
+        {
+          "cardClass": "Attack Card D",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 2,
+            "5": 3,
+            "6": 2,
+            "7": 2,
+            "8": 1,
+            "9": 2
+          },
+          "total": 18
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 4
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-17",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Sora",
+        "Fourth battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 3,
+            "9": 4
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 3,
+            "9": 4
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 0,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 0
+          },
+          "total": 11
+        },
+        {
+          "cardClass": "Attack Card D",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 1,
+            "7": 2,
+            "8": 2,
+            "9": 1
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 1
+          },
+          "total": 5
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Riku Replica",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-18",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Riku",
+        "First battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 14
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 14
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 2,
+            "1": 2,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 3,
+            "6": 0,
+            "7": 0,
+            "8": 2,
+            "9": 0
+          },
+          "total": 12
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-19",
+      "enemy": "Riku Replica",
+      "encounterPath": [
+        "Riku",
+        "Second battle"
+      ],
+      "source": "https://www.khwiki.com/Game:Riku_Replica",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card A",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 3,
+            "9": 4
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Attack Card B",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 3,
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 3,
+            "9": 4
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Attack Card C",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 0,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 1,
+            "8": 1,
+            "9": 0
+          },
+          "total": 11
+        },
+        {
+          "cardClass": "Attack Card D",
+          "illustratedIdentity": "Riku Replica",
+          "copiesByValue": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 1,
+            "7": 2,
+            "8": 2,
+            "9": 1
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 2,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 1
+          },
+          "total": 5
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Shadow",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Riku Replica",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-20",
+      "enemy": "Vexen",
+      "encounterPath": [
+        "Sora (First battle)"
+      ],
+      "source": "https://www.khwiki.com/Game:Vexen",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 3,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 2,
+            "8": 3,
+            "9": 4
+          },
+          "total": 17
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 4,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 2,
+            "8": 4,
+            "9": 4
+          },
+          "total": 18
+        },
+        {
+          "cardClass": "Mega-Ether",
+          "illustratedIdentity": "Mega-Ether",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 4
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 1,
+            "9": 1
+          },
+          "total": 4
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Blue Rhapsody",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-21",
+      "enemy": "Vexen",
+      "encounterPath": [
+        "Sora (Second battle)"
+      ],
+      "source": "https://www.khwiki.com/Game:Vexen",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 4,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 2,
+            "8": 4,
+            "9": 5
+          },
+          "total": 20
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 4,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 2,
+            "7": 4,
+            "8": 4,
+            "9": 5
+          },
+          "total": 23
+        },
+        {
+          "cardClass": "Mega-Ether",
+          "illustratedIdentity": "Mega-Ether",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 5
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 0,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "total": 6
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Blue Rhapsody",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Vexen",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card C",
+          "identity": "Air Pirate",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-22",
+      "enemy": "Vexen",
+      "encounterPath": [
+        "Riku"
+      ],
+      "source": "https://www.khwiki.com/Game:Vexen",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Attack Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 2,
+            "1": 3,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1,
+            "8": 5,
+            "9": 1
+          },
+          "total": 13
+        },
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Vexen",
+          "copiesByValue": {
+            "0": 2,
+            "1": 3,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1,
+            "8": 5,
+            "9": 1
+          },
+          "total": 13
+        },
+        {
+          "cardClass": "Mega-Ether",
+          "illustratedIdentity": "Mega-Ether",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 1,
+            "9": 1
+          },
+          "total": 4
+        },
+        {
+          "cardClass": "Enemy Card A",
+          "identity": "Blue Rhapsody",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card B",
+          "identity": "Vexen",
+          "copiesByValue": null,
+          "total": null
+        },
+        {
+          "cardClass": "Enemy Card C",
+          "identity": "Air Pirate",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-23",
+      "enemy": "Zexion",
+      "encounterPath": [
+        "Magic-card phase"
+      ],
+      "source": "https://www.khwiki.com/Game:Zexion",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Magic Card",
+          "illustratedIdentity": "Zexion",
+          "copiesByValue": {
+            "0": 5,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 4,
+            "7": 5,
+            "8": 6,
+            "9": 7
+          },
+          "total": 33
+        },
+        {
+          "cardClass": "Elixir",
+          "illustratedIdentity": "Elixir",
+          "copiesByValue": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 1,
+            "8": 1,
+            "9": 0
+          },
+          "total": 2
+        },
+        {
+          "cardClass": "Enemy Card",
+          "identity": "Zexion",
+          "copiesByValue": null,
+          "total": null
+        }
+      ],
+      "orderedDeck": false
+    },
+    {
+      "id": "recom-boss-deck-24",
+      "enemy": "Zexion",
+      "encounterPath": [
+        "Stolen Soul Eater phase"
+      ],
+      "source": "https://www.khwiki.com/Game:Zexion",
+      "sourceEditionSection": "Kingdom Hearts Re:Chain of Memories",
+      "cards": [
+        {
+          "cardClass": "Soul Eater",
+          "illustratedIdentity": "Zexion",
+          "copiesByValue": {
+            "0": 2,
+            "1": 2,
+            "2": 1,
+            "3": 5,
+            "4": 4,
+            "5": 2,
+            "6": 5,
+            "7": 0,
+            "8": 2,
+            "9": 0
+          },
+          "total": 23
+        }
+      ],
+      "orderedDeck": false
+    }
+  ],
+  "bossDeckScope": "All value-count deck tables found under explicit Re:Chain of Memories strategy sections in the inspected enemy/boss source catalog. These tables give card multiplicities, not ordered runtime decks. Encounter labels are retained verbatim; no extra phase/floor mapping inferred."
+}

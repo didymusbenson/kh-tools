@@ -23,7 +23,7 @@ Metadata identified 14 tabs. Header sentinels read rows 1–6 across the availab
 | spirit recipe | 233415641 | A1:I1000, 200-row chunks | 243 | IDs 1–243, 51 named Spirits |
 | EXTRA | 90111135 | A1:J100 | 5 nonempty rows | Guide URL and formula labels, no usable formula calculation |
 
-The repository's `games/ddd.html` was inspected: it is a menu placeholder without DDD data. The existing spec/readiness and `ai_docs/sources/khtables-drive-audit.md` were read before research. No AGENTS.md was found in the inspected recursive repository tree. There are no DDD chest or portal datasets in that tree.
+Historical September18 repository snapshot: `games/ddd.html` was inspected: it is a menu placeholder without DDD data. The existing spec/readiness and `ai_docs/sources/khtables-drive-audit.md` were read before research. No AGENTS.md was found in the inspected recursive repository tree. There were no DDD chest or portal datasets in that historical tree. Current canonical factual snapshots supersede this absence; legacy raw candidates remain immutable source history.
 
 [legacy-factual-candidates.json](legacy-factual-candidates.json) preserves the keyed factual cells for review, including raw spellings and nulls. Guide prose and broken controls are excluded. Do not import this file directly as production data.
 

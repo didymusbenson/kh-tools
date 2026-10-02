@@ -1,0 +1,321 @@
+{
+  "reviewed": "2026-10-01",
+  "styles": [
+    {
+      "name": "Critical Impact",
+      "level": "LV 1",
+      "triggers": "Attack commands",
+      "acquisition": "Terra: Defeat the Orbs of Light",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Fever Pitch",
+      "level": "LV 1",
+      "triggers": "Attack commands",
+      "acquisition": "Ventus: Defeat the Orbs of Light",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Spellweaver",
+      "level": "LV 1",
+      "triggers": "Magic commands",
+      "acquisition": "Aqua: Defeat the Orbs of Light",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Firestorm",
+      "level": "LV 1",
+      "triggers": "Fire commands",
+      "acquisition": "Terra: Defeat the Spirit of the Magic Mirror Ventus: Defeat the Mad Treant Aqua: Defeat Dragon Maleficent",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Diamond Dust",
+      "level": "LV 1",
+      "triggers": "Blizzard commands",
+      "acquisition": "Terra: Defeat the Wheel Master Ventus: Defeat Lucifer Aqua: Defeat the Ice Colossus and Hades",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Thunderbolt",
+      "level": "LV 1",
+      "triggers": "Thunder commands",
+      "acquisition": "Terra: Defeat Experiment 221 Ventus: Defeat Maleficent Aqua: Escort Jaq",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Bladecharge",
+      "level": "LV 2",
+      "triggers": "Fire commands Blizzard commands Strike commands",
+      "acquisition": "Terra: Defeat Peter Pan Aqua: Defeat the Trinity Armor",
+      "characters": [
+        "Terra",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Rockbreaker",
+      "level": "LV 2",
+      "triggers": "Jumping commands Edge commands Mine commands Brutal Blast Geo Impact Quake Meteor",
+      "acquisition": "Terra: Defeat the Trinity Armor",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Cyclone",
+      "level": "LV 2",
+      "triggers": "Raid commands Strike commands Aero commands Tornado",
+      "acquisition": "Ventus: Defeat the Trinity Armor",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Sky Climber",
+      "level": "LV 2",
+      "triggers": "Jumping commands Lunge commands Zero Gravity commands Aero commands Status commands",
+      "acquisition": "Ventus: Complete Sinister Sentinel Aqua: Complete Combined Threat",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Ghost Drive",
+      "level": "LV 2",
+      "triggers": "Reprisal commands Thunder commands Combo commands Magnet commands",
+      "acquisition": "Aqua: Defeat Vanitas in Never Land",
+      "characters": [
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Rhythm Mixer",
+      "level": "LV 2",
+      "triggers": "Thunder commands Mine commands Strike commands",
+      "acquisition": "Terra: Earn 140 points in the Sticker Album  Ventus: Earn 140 points in the Sticker Album  Aqua: Earn 140 points in the Sticker Album ",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Dark Impulse",
+      "level": "LV 2",
+      "triggers": "Dark commands Zero Gravity commands Magnet commands Status commands Zantetsuken Ars Solum Limit Storm Sacrifice Warp",
+      "acquisition": "Terra: Visit the Badlands for the second time",
+      "characters": [
+        "Terra"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Wingblade",
+      "level": "LV 2",
+      "triggers": "Reprisal commands Combo commands Edge commands Magnet commands Salvation Faith Transcendence",
+      "acquisition": "Ventus: Defeat the Metamorphosis in the Lanes Between",
+      "characters": [
+        "Ventus"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    },
+    {
+      "name": "Frozen Fortune",
+      "level": "Special",
+      "triggers": "Ice Cream (20% chance)",
+      "acquisition": "Terra: Earn a Fantastic score on Master Mode for Dessert Paradise Ventus: Earn a Fantastic score on Master Mode for Dessert Paradise Aqua: Earn a Fantastic score on Master Mode for Dessert Paradise",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "source": "https://www.khwiki.com/Command_Style"
+    }
+  ],
+  "dlinks": [
+    {
+      "name": "Terra",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Overdrive",
+      "second_emblem": "Auto-Block",
+      "acquisition": "Clear the Land of Departure",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Ventus",
+      "characters": [
+        "Terra",
+        "Aqua"
+      ],
+      "first_emblem": "Haste",
+      "second_emblem": "Auto-Counter",
+      "acquisition": "Clear the Land of Departure",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Aqua",
+      "characters": [
+        "Terra",
+        "Ventus"
+      ],
+      "first_emblem": "Magic Deflector",
+      "second_emblem": "Auto-Life",
+      "acquisition": "Clear the Land of Departure",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Mickey Mouse",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Auto-Teleport",
+      "second_emblem": "Double EXP",
+      "acquisition": "V: Defeat Vanitas at the Badlands A: Defeat the Unversed at the Front Doors",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Donald Duck",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Magic Boost",
+      "second_emblem": "Shell",
+      "acquisition": "Clear the Mysterious Tower",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Goofy",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Protect",
+      "second_emblem": "Stun Boost",
+      "acquisition": "Clear the Mysterious Tower",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Snow White",
+      "characters": [
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Gauge Boost",
+      "second_emblem": "Quickload",
+      "acquisition": "Clear Dwarf Woodlands",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Cinderella",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Auto-Remedy",
+      "second_emblem": "Regen",
+      "acquisition": "Clear Castle of Dreams",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Maleficent",
+      "characters": [
+        "Terra"
+      ],
+      "first_emblem": "Focus Saver",
+      "second_emblem": "Drain",
+      "acquisition": "Reach Aurora's Chamber",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Zack",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Berserk",
+      "second_emblem": "Attack Deflector",
+      "acquisition": "Clear Olympus Coliseum",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Stitch",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Attack Boost",
+      "second_emblem": "Double CP",
+      "acquisition": "Clear Deep Space",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Peter Pan",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Float",
+      "second_emblem": "Double Strike",
+      "acquisition": "Clear Never Land",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    },
+    {
+      "name": "Pete",
+      "characters": [
+        "Terra",
+        "Ventus",
+        "Aqua"
+      ],
+      "first_emblem": "Munny Plus",
+      "second_emblem": "Steal",
+      "acquisition": "Finish a Command Board game from the menu in which either the \"Captain Justice\" or \"Captain Dark\" special events are activated ",
+      "source": "https://www.khwiki.com/Dimension_Link"
+    }
+  ],
+  "dlink_progression": "Defeat enemies while linked and collect that link’s emblem. The first and second emblems raise the link to levels 1 and 2, expanding its deck and granting the listed abilities; level 2 also unlocks an enhanced finisher. Later emblems refill the gauge. Per-link drop percentages and every temporary deck/finisher are not yet indexed.",
+  "exclusions": [
+    "PSP wireless custom D-Links",
+    "Vanitas: temporary final battle D-Link, not ordinary persistent acquisition"
+  ]
+}

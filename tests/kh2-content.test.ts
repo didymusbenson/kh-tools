@@ -117,8 +117,56 @@ describe('KH2 Final Mix source corrections', () => {
   });
 
   it('gives the Spooky Cave branches the correct chest numbers', () => {
-    expect(entry('treasure.100-acre-wood.14').instructions).toContain('right branch');
-    expect(entry('treasure.100-acre-wood.15').instructions).toContain('left branch');
-    expect(entry('treasure.twilight-town.19').instructions).toContain('Enter from outside');
+    expect(entry('treasure.100-acre-wood.14').instructions).toMatch(/right branch|branch to the right/);
+    expect(entry('treasure.100-acre-wood.15').instructions).toMatch(/left branch|branch to the left/);
+    expect(entry('treasure.twilight-town.19').instructions).toMatch(/Enter from outside|outside door/);
+    expect(entry('treasure.disney-castle.07').reward).toBe('Mythril Shard');
   });
+
+  it('normalizes acquisition indexes without duplicating chest rewards', () => {
+    const indexed = (category: string) => kh2.entries.filter(e => e.category === category || e.categories?.includes(category));
+    expect(indexed('maps')).toHaveLength(40);
+    expect(indexed('recipe-documents')).toHaveLength(16);
+    expect(indexed('proofs')).toHaveLength(3);
+    expect(kh2.entries.filter(e => e.category === 'limits')).toHaveLength(21);
+    expect(kh2.entries.filter(e => e.category === 'moogle')).toHaveLength(55);
+    expect(kh2.recipes!.every(r => r.sources?.length)).toBe(true);
+    expect(entry('materials.orichalcum-plus').instructions).toContain('include Orichalcum+ itself');
+  });
+
+  it('includes Final Mix equipment and character-specific ability definitions', () => {
+    expect(kh2.entries.filter(e => e.category === 'equipment')).toHaveLength(107);
+    expect(kh2.entries.filter(e => e.category === 'keyblades')).toHaveLength(24);
+    expect(kh2.entries.filter(e => e.category === 'abilities')).toHaveLength(167);
+    expect(entry('equipment.plain-mushroom-plus').sources?.length).toBeGreaterThan(0);
+    expect(entry('equipment.medal').checkable).toBe(false);
+    expect(entry('equipment.champion-belt').checkable).toBe(false);
+    expect(entry('forms.final-form').instructions).toContain('3%, 9%, 27%, then 75%');
+  });
+
+  it('supplies all main and Teeny blueprint dependencies and enemy treasures', () => {
+    const gummi = kh2.entries.filter(e => e.category === 'gummi');
+    expect(gummi.filter(e => e.name.endsWith('sample blueprint'))).toHaveLength(28);
+    expect(gummi.filter(e => e.name.endsWith('Teeny blueprint'))).toHaveLength(19);
+    expect(entry('gummi.asteroid-sweep-mission-2-normal').instructions).toContain('Spider');
+    expect(entry('gummi.assault-of-the-dreadnought-mission-3-normal').instructions).toContain('Hunter-X');
+    expect(entry('gummi.highwind-lv-1-sample-blueprint').instructions).toContain('31 Material/G');
+  });
+
+  it('preserves edition and encounter-specific combat attributes', () => {
+    expect(kh2.entries.filter(e => e.category === 'bestiary')).toHaveLength(127);
+    const knocker = entry('bestiary.aerial-knocker');
+    expect(knocker.instructions).toContain('HP: 61; Strength: 26; Defense: 14; EXP: 87');
+    expect(knocker.instructions).toContain('Cerberus Cup');
+    expect(knocker.instructions).toContain('HP: 67; Strength: 29; Defense: 16');
+    expect(entry('bestiary.sa-x').instructions).toContain('Data Rematch');
+    expect(entry('bestiary.sa-x').instructions).toContain('Neutral: ×1.0');
+    expect(entry('bestiary.bulky-vendor').instructions).toContain('EXP: 1700');
+    expect(entry('bestiary.undead-pirate').instructions).toContain('Fire: ×2.5');
+    expect(entry('bestiary.hostile-program').instructions).toContain('HP: 960');
+    expect(entry('bestiary.hostile-program').instructions).not.toContain('HP: 640');
+    expect(entry('achievements.nobody-know-it-all').instructions).toContain('Twilight Thorn');
+    expect(entry('achievements.heartless-highbrow').instructions).toContain('Mushroom XIII · 13');
+  });
+
 });

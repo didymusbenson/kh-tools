@@ -18,7 +18,7 @@ const guide: GameGuide = {
   ],
   worlds: [
     {name:'Castle Town',summary:'The area’s eleven physical finds include the Main Road approach chest. Objective 37 counts nine town chests, excluding Main Road. Four Zodiac chests and the blue-slipper memory appear after a first clear. Restore the five gears to reach the summit platforms.'},
-    {name:'The World Within',summary:'Thirteen chests, seven mine gems and one memory. The thirteen chests include five post-clear Zodiac relics. Finish the seven-gem search before leaving the mines because re-entry is not verified. All twelve Zodiac relics open the central challenge mirror.'},
+    {name:'The World Within',summary:'Thirteen chests, seven mine gems and one memory. The thirteen chests include five post-clear Zodiac relics. Post-clear Zodiac routes re-enter the mines; partial gem retention remains undocumented. All twelve Zodiac relics open the central challenge mirror.'},
     {name:'Forest of Thorns',summary:'Twelve chests, three flowers and one memory. Preserve the Uncertain Path and Rocky Path landmarks when following routes. Firaga burns red ivy. Flowers can be revisited through save-point travel; story boss conditions may need a new run.'},
     {name:'Depths of Darkness',summary:'Six chests and one memory. The Demon Tower objective requires Wayfinder active at victory; Castle Town’s different Demon Tower objective needs a Spellweaver Finish final blow.'},
     {name:'Homecoming',summary:'Objective 51 targets the final Demon Tide on Critical. No physical collectible records are assigned to this finale. Clearing on Proud can satisfy the difficulty achievement, but not Critical Conquest.'},

@@ -1,890 +1,1453 @@
 {
-  "verifiedOn": "2026-09-27",
+  "verifiedOn": "2026-10-01",
   "edition": "Kingdom Hearts II Final Mix",
   "attribution": "Location notes adapted from Kingdom Hearts Wiki contributors, Puzzle (retrieved 2026-09-27); modifications clarify routes and fill missing landmarks using cited sources.",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "entries": {
     "kh2fm.puzzle.awakening.01": {
-      "instructions": "Above the bed.",
+      "instructions": "Merlin's House — Jump from Merlin’s bed toward the crown above it.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.02": {
-      "instructions": "On a ledge near a shophouse. Accessible from the entrance of the world.",
+      "instructions": "Marketplace — Jump onto Wedge’s Armor Shop roof near the world arrival point.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.03": {
-      "instructions": "On a wall section near the Bailey.",
+      "instructions": "Borough — Climb the wall framing the stairs near the Bailey exit.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.04": {
-      "instructions": "Top left, back. Accessible by climbing a big pile of furniture.",
+      "instructions": "Undercroft — Climb the large furniture pile to the raised crown beside the guarded doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.05": {
-      "instructions": "Acquired after Sora obtains his new clothes from the Fairies. Piece #5 is a mandatory puzzle piece: a cutscene will be played upon leaving the room.",
+      "instructions": "Tower: Wardrobe — Acquired after Sora obtains his new clothes from the Fairies. Piece #5 is a mandatory puzzle piece: a cutscene will be played upon leaving the room.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.06": {
-      "instructions": "Look beside the broken furniture against the west wall.",
+      "instructions": "Beast's Room — Look beside the broken furniture against the west wall.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
-      ]
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.07": {
-      "instructions": "At highest point.",
+      "instructions": "Underground Passage — Climb onto the highest central platform, then jump toward the crown above the stairs.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.08": {
-      "instructions": "Accessible by riding the air currents and jumping.",
+      "instructions": "Ridge — At the northeast side, use Ride the Wind and Soar at the small cyclones to reach the airborne crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.09": {
-      "instructions": "From the entrance, go straight and turn right.",
+      "instructions": "Underground Passage — From the Undercroft entrance, follow the passage and turn right toward the low crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.10": {
-      "instructions": "Atop a small pile of furniture.",
+      "instructions": "Undercroft — Atop a small pile of furniture.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.11": {
-      "instructions": "Hidden behind a pile of fireworks.",
+      "instructions": "Ridge — Check the explosives near the Village exit; break the stack hiding the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.awakening.12": {
-      "instructions": "On a haystack behind a house.",
+      "instructions": "Village — Check the haystack behind the house in the southeast corner.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.01": {
-      "instructions": "Above the trumpet player bonsai cutting.",
+      "instructions": "Courtyard — Jump onto the trumpet-playing pig topiary and collect the crown above its hat.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.02": {
-      "instructions": "On top of the entrance.",
+      "instructions": "Courtyard — Climb the hedge steps on the north side of the central castle topiary; jump toward its front crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.03": {
-      "instructions": "Jump toward the crown above the eastern ramp.",
+      "instructions": "Cave of the Dead: Entrance — Jump toward the crown above the eastern ramp.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
-      ]
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.04": {
-      "instructions": "At the entrance.",
+      "instructions": "Underworld Caverns: Atrium — Check beneath the ramp in the northeast corner near the entrance.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.05": {
-      "instructions": "Found in the cave behind the crates of gunpowder.",
+      "instructions": "Isla de Muerta: Powder Store — Found in the cave behind the crates of gunpowder.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.06": {
-      "instructions": "On top of Mog's Moogle Shop. Accessible by High Jump LV2. Alternatively, LV1 High Jump and Reflect can be used.",
+      "instructions": "Marketplace — On top of Mog's Moogle Shop. Accessible by High Jump LV2. Alternatively, LV1 High Jump and Reflect can be used.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.07": {
-      "instructions": "At the opposite end of the Rampart from the save point.",
+      "instructions": "Rampart — Check the northeast corner, at the opposite end from the save point.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.08": {
-      "instructions": "Left end.",
+      "instructions": "Waterway — Go to the northeast end of the Waterway and use a normal jump to reach the low crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.09": {
-      "instructions": "Jump from the north ledge toward the crown over the mist.",
+      "instructions": "Underworld Caverns: Entrance — Jump from the north ledge toward the crown over the mist.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
-      ]
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.10": {
-      "instructions": "Near the pole on the left side of the pedestal near Shang's tent.",
+      "instructions": "Encampment — Use the watchtower near Shang’s tent to jump toward the crown beside the pole.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.11": {
-      "instructions": "On a low rooftop. Reach it with High Jump.",
+      "instructions": "Village — Jump from the snow-covered cart to the nearby low roof; High Jump provides another approach.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.heart.12": {
-      "instructions": "By the staircase.",
+      "instructions": "West Wing — Jump from the staircase or upper floor toward the crown over the southern railing.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.01": {
-      "instructions": "Under the ledge to the left of the save point.",
+      "instructions": "Undersea Courtyard — Check beneath the rock ledge on the east side, near the save point.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.02": {
-      "instructions": "Behind the Christmas Town tree.",
+      "instructions": "Hinterlands — Behind the Christmas Town tree.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.03": {
-      "instructions": "Above the archway. Route: use LV3 High Jump or Aerial Dodge.",
+      "instructions": "Gummi Hangar — Above the archway. Route: use LV3 High Jump or Aerial Dodge.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.04": {
-      "instructions": "Hidden behind one of the crates of gunpowder.",
+      "instructions": "Isla de Muerta: Powder Store — Hidden behind one of the crates of gunpowder.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.05": {
-      "instructions": "Above a stand near the entrance to the Palace Gates.",
+      "instructions": "Agrabah — Climb the market stall beside the northern exit toward the Palace Gates.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.06": {
-      "instructions": "By the exit towards the Atrium. Instead of going straight in, stray off a little to the right.",
+      "instructions": "Underworld Caverns: The Lost Road — Follow the southern corridor toward the Atrium; check southwest of that doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.07": {
-      "instructions": "On the stairs to the Restoration Site.",
+      "instructions": "Bailey — Follow the southwest stairs toward the Restoration Site and jump at the middle landing.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.08": {
-      "instructions": "Stand on the metal grate to be hit by a jet of green water. This will propel Sora high enough to get the puzzle piece.",
+      "instructions": "Halloween Town Square — Stand on the metal grate to be hit by a jet of green water. This will propel Sora high enough to get the puzzle piece.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.09": {
-      "instructions": "Above the tree upon entering. Route: use LV2 High Jump.",
+      "instructions": "Pier — From the Pier, look above the west-side tree and use High Jump LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.10": {
-      "instructions": "At the back of the lock.",
+      "instructions": "Underworld Caverns: The Lock — Jump toward the crown at the southern back edge of the chamber.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.11": {
-      "instructions": "Near the first set of exploding crates of gunpowder upon entry.",
+      "instructions": "Town — Check the west-side building frontage near the first stack of explosive crates.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.duality.12": {
-      "instructions": "Near the trombone player bonsai cutting is a tall hedge. Jump from the top of the hedge to get puzzle piece.",
+      "instructions": "Courtyard — Climb the hedge near the trombone-playing dog, then jump toward the northwest crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.01": {
-      "instructions": "To the right of the doors to the station in the northeast corner.",
+      "instructions": "Station Plaza — To the right of the doors to the station in the northeast corner.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.02": {
-      "instructions": "On top of the dresser.",
+      "instructions": "Santa's House — Climb Santa’s dresser in the southeast corner.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.03": {
-      "instructions": "Behind a stall near exit to the Bazaar. Destroy the stand.",
+      "instructions": "Agrabah — Destroy the stall beside Agrabah’s southernmost Bazaar passage with Fire or a combo finisher.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.04": {
-      "instructions": "Above the Corridors doorway. Jump with High Jump LV2 and Aerial Dodge LV1 to reach it.",
+      "instructions": "Postern — Above the Corridors doorway. Jump with High Jump LV2 and Aerial Dodge LV1 to reach it.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.05": {
-      "instructions": "On top of the northernmost building's rooftop.",
+      "instructions": "Tram Common — Climb the northernmost rooftop.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.06": {
-      "instructions": "On the pier next to the river.",
+      "instructions": "Pier — Check beside the waterway sign and pier in the southeast corner.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.07": {
-      "instructions": "Above exploding gunpowder crates. Route: use LV2 High Jump.",
+      "instructions": "Town — Above exploding gunpowder crates. Route: use LV2 High Jump.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.08": {
-      "instructions": "Above the large boulder near the entrance. Jump from the rock using High Jump LV2 and Aerial Dodge LV1.",
+      "instructions": "Mountain Trail — Above the large boulder near the entrance. Jump from the rock using High Jump LV2 and Aerial Dodge LV1.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.09": {
-      "instructions": "Go through the middle entrance to the Bazaar and there will be a stand with a puzzle piece behind it. Destroy the stand to get it.",
+      "instructions": "Bazaar — Enter Bazaar through the middle Agrabah passage and destroy the stall on the upper level beside that entrance.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.10": {
-      "instructions": "Inside the first chamber and on top of a lone pillar.",
+      "instructions": "Cave of Wonders: Valley of Stone — In the first chamber, jump toward the lone pillar near the southwest blue platform.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.11": {
-      "instructions": "Jump above the bubbling brazier behind the throne on its northwest side.",
+      "instructions": "Triton's Throne — Jump above the bubbling brazier behind the throne on its northwest side.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
-      ]
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.frontier.12": {
-      "instructions": "Jump above the bubbling brazier behind the throne on its northeast side.",
+      "instructions": "Triton's Throne — Jump above the bubbling brazier behind the throne on its northeast side.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
-      ]
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.01": {
-      "instructions": "First puzzle piece on trail.",
+      "instructions": "Wastelands — Enter the trail from Wildebeest Valley and collect the first crown along the winding cliff path.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.02": {
-      "instructions": "Left from the entrance behind a rock column.",
+      "instructions": "Wildebeest Valley — From the Savannah entrance, check behind the rock column to the left.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.03": {
-      "instructions": "Second puzzle piece on trail.",
+      "instructions": "Wastelands — Continue along the trail toward Jungle and collect its second crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.04": {
-      "instructions": "Dash off of the waterfall basin and then jump to get piece.",
+      "instructions": "Oasis — Dash off of the waterfall basin and then jump to get piece.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.05": {
-      "instructions": "On the steps going down and around the central area.",
+      "instructions": "Postern — Check above the ramp winding down from the Postern toward the Corridors.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.06": {
-      "instructions": "Hidden behind a pile of treasure to the left of the entrance.",
+      "instructions": "Cave of Wonders: Treasure Room — From the entrance, look behind the treasure heap on the left/southwest side.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.07": {
-      "instructions": "Above Pooh's house. Route: use LV2 High Jump.",
+      "instructions": "Pooh Bear's House — Above Pooh's house. Route: use LV2 High Jump.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.08": {
-      "instructions": "Above the awning above the Moogle Shop. Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "instructions": "Village — Climb the building beside the restored Moogle shop, then use High Jump LV2 and Aerial Dodge LV2 toward the awning.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.09": {
-      "instructions": "Left side of the room. Route: use LV2 High Jump and Aerial Dodge.",
+      "instructions": "Throne Room — Jump from the west staircase toward the crown beside the pillar using High Jump LV2 and Aerial Dodge.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.10": {
-      "instructions": "In midair while falling down to the next level.",
+      "instructions": "Cave of Wonders: Chasm of Challenges — Redo the challenge from its top. On the fourth combat platform, jump to the crown above it (Agrabah Journal piece 11).",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Position matched through Agrabah Journal number to Thundaka and TrueAchievements; conflicting Wizard/KHGuides platform assignments rejected."
     },
     "kh2fm.puzzle.daylight.11": {
-      "instructions": "In midair while falling down to the next level.",
+      "instructions": "Cave of Wonders: Chasm of Challenges — Redo the challenge from its top. On the second combat platform, jump to the crown above it (Agrabah Journal piece 10).",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Position matched through Agrabah Journal number to Thundaka and TrueAchievements; conflicting Wizard/KHGuides platform assignments rejected."
     },
     "kh2fm.puzzle.daylight.12": {
-      "instructions": "Behind the Halloween Town tree.",
+      "instructions": "Yuletide Hill — Behind the Halloween Town tree.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.13": {
-      "instructions": "On top of cardboard boxes.",
+      "instructions": "Kanga's House — Climb the cardboard boxes outside Kanga’s house.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.14": {
-      "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "instructions": "Starry Hill — Northeast side behind Starry Hill: jump from the hill using High Jump LV2 and Aerial Dodge LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.15": {
-      "instructions": "Right side of the room. Route: use LV3 Glide.",
+      "instructions": "Throne Room — Jump and Glide LV3 toward the airborne crown beside the eastern pillar.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.16": {
-      "instructions": "Route: use LV2 High Jump, Aerial Dodge and attack.",
+      "instructions": "Colonnade — Above the Courtyard doorway; use High Jump LV2, Aerial Dodge LV2 and an aerial attack.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.17": {
-      "instructions": "Route: use LV3 Glide. Alternatively, LV3 High Jump, LV3 Aerial Dodge, and LV1 Glide can be used after jumping from the highest point.",
+      "instructions": "Naught's Skyway — Climb to the far end of Naught’s Skyway, then Glide LV3 back toward the crown above the lower doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.18": {
-      "instructions": "Jump off the small rock.",
+      "instructions": "The King's Den — Jump from the small rock at the back of the den toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.19": {
-      "instructions": "In the cabbage patch.",
+      "instructions": "Rabbit's House — In the cabbage patch.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.20": {
-      "instructions": "Across from first treasure chest.",
+      "instructions": "Spooky Cave — From the cave entrance, look opposite the first treasure chest and jump toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.21": {
-      "instructions": "On the counter top.",
+      "instructions": "Santa's House — On the counter top.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.22": {
-      "instructions": "Route: use LV2 Glide.",
+      "instructions": "Mansion: Foyer — Above the foyer entrance; jump from the upper floor and Glide LV2 toward the doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.23": {
-      "instructions": "After traveling to the Other Twilight Town.",
+      "instructions": "Mansion: Computer Room — Use the mansion computer to enter the other Twilight Town, then collect the low crown in its Computer Room.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.24": {
-      "instructions": "Collect the crown on the floor in the middle of the chamber.",
+      "instructions": "Heartless Manufactory — Collect the crown on the floor in the middle of the chamber.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.25": {
-      "instructions": "Use skateboard or Glide to reach it.",
+      "instructions": "Cave of the Dead: Passage — At the middle of the sloping Passage, use the skateboard jump or Glide from the higher path toward the airborne crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.26": {
-      "instructions": "On a tree stump.",
+      "instructions": "Piglet's House — Jump onto the tree stump outside Piglet’s house.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.27": {
-      "instructions": "Ride the tram to reach it on the Synthesis shop roof.",
+      "instructions": "Tram Common — Ride the tram to reach it on the Synthesis shop roof.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Working tram-to-roof route retained from KHWiki/StrategyWiki/Wizard. Thundaka calls the landmark a central pillar; exact landmark identity remains a source disagreement.",
+      "uncertainty": "Guides disagree on whether this tram-accessed landmark is the Synthesis shop roof or the central pillar."
     },
     "kh2fm.puzzle.daylight.28": {
-      "instructions": "Route: use LV2 Glide and LV2 Aerial Dodge.",
+      "instructions": "Market Street — In Station Heights, look high above the exit to Tram Common. Return with Glide level 3 to reach the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.29": {
-      "instructions": "Behind tiger head.",
+      "instructions": "Cave of Wonders: Entrance — Walk around behind the tiger-head entrance to find the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.30": {
-      "instructions": "Dash off of the big ledge in the middle.",
+      "instructions": "Elephant Graveyard — After learning Dash, run off the long central ledge and jump toward the airborne crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.31": {
-      "instructions": "Return with Sora and collect the crown in front of his pod.",
+      "instructions": "Mansion: Pod Room — Return with Sora and collect the crown in front of his pod.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.32": {
-      "instructions": "Enter from outside; collect the crown on the floor to your right.",
+      "instructions": "Mansion: Foyer — Enter from outside; collect the crown on the floor to your right.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.33": {
-      "instructions": "In the wreckage that has a hole through it.",
+      "instructions": "Ship Graveyard: Jetsam Keep — Look through the hole in the wreckage beside the ledge.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.34": {
-      "instructions": "Route: use Aerial Dodge to get piece hidden behind the pillar.",
+      "instructions": "Underworld Caverns: Entrance — Look behind the pillar across the Entrance cavern; jump with Aerial Dodge toward the hidden crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.35": {
-      "instructions": "Underneath the second arch.",
+      "instructions": "Sandswept Ruins — Follow the stone path from the tower and fly beneath its second arch.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.36": {
-      "instructions": "Collect the crown at floor level inside the captain’s cabin.",
+      "instructions": "Black Pearl: Captain's Stateroom — Jump toward the crown over the round table in the center of the captain’s cabin.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.37": {
-      "instructions": "Fall on it to get it.",
+      "instructions": "Cave of Wonders: Chasm of Challenges — On the fourth combat platform, stand near the center as it disappears and steer through the crown while falling to the final floor (Agrabah Journal piece 9). If missed, use the bottom warp pad to retry.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+        "https://www.khwiki.com/Game:Agrabah"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Position matched through Agrabah Journal number to Thundaka and TrueAchievements; conflicting Wizard/KHGuides platform assignments rejected."
     },
     "kh2fm.puzzle.daylight.38": {
-      "instructions": "On the top ledge in area with the computer.",
+      "instructions": "Canyon — At the Canyon’s north energy-core opening, climb onto the high ledge and jump toward the crown just beyond it.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.39": {
-      "instructions": "Route: use LV2 Aerial Dodge to reach it.",
+      "instructions": "Black Pearl — High above the Black Pearl’s mast; use High Jump LV2 and Aerial Dodge LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.40": {
-      "instructions": "Route: use LV2 High Jump and Aerial Dodge. On the second column.",
+      "instructions": "Underworld Caverns: The Lost Road — Use High Jump LV2 and Aerial Dodge to reach the crown above the second column on the Lost Road route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.41": {
-      "instructions": "On broken bridge to the tower.",
+      "instructions": "Sandswept Ruins — Fly to the broken bridge at the foot of the tower.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.42": {
-      "instructions": "In the small alcove.",
+      "instructions": "Elephant Graveyard — Check the small alcove south of the elephant skull.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.43": {
-      "instructions": "In front of the statue's face. Route: use LV2 High Jump and Aerial Dodge.",
+      "instructions": "West Hall — From the West Hall stairs, use High Jump LV2 and Aerial Dodge toward the tall statue’s face.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.44": {
-      "instructions": "Above entrance.",
+      "instructions": "Shipping and Receiving — Jump above the doorway used to enter Shipping and Receiving.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.45": {
-      "instructions": "On the stern.",
+      "instructions": "Black Pearl — Jump above the crate near the ship’s wheel at the stern.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.46": {
-      "instructions": "On the first column. Route: use LV2 High Jump and Aerial Dodge.",
+      "instructions": "Underworld Caverns: The Lost Road — Use High Jump LV2 and Aerial Dodge to reach the crown above the first column on the Lost Road route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.47": {
-      "instructions": "Jump off the ledge.",
+      "instructions": "Jungle — Use Dash and jump from the highest jungle ledge toward the crown over the central path.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.48": {
-      "instructions": "Under the tree near the entrance to the Wastelands.",
+      "instructions": "Wildebeest Valley — Check below the lone tree on the south side near the Wastelands exit.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.01": {
-      "instructions": "In the area with yellow colored orbs. Route: use LV3 Aerial Dodge.",
+      "instructions": "Cavern of Remembrance: Mineshaft — Enter the middle Mineshaft from the upper Mining Area, beside the Power Boost chest and yellow orb. Cross the pipes with Quick Run, then use Aerial Dodge LV3 while falling toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.02": {
-      "instructions": "Jump off the top of the hill.",
+      "instructions": "Sunset Hill — Jump off the top of the hill.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.03": {
-      "instructions": "Collect the crown at floor level.",
+      "instructions": "Solar Sailer — Collect the crown at floor level.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.04": {
-      "instructions": "Atop the building across from Merlin's House. Route: use LV3 High Jump. Alternatively, LV1 High Jump, Wisdom Form, and Reflect can be used.",
+      "instructions": "Borough — From the wall above the Borough stairs, use High Jump LV3 toward the building opposite Merlin’s House.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.05": {
-      "instructions": "Collect the crown at floor level inside the wreck’s hold.",
+      "instructions": "Ship Graveyard: Interceptor's Hold — Collect the crown at floor level inside the wreck’s hold.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.06": {
-      "instructions": "On a ledge under the door to the Mineshaft. Route: use Aerial Dodge.",
+      "instructions": "Cave of Remembrance: Depths — Climb the central Depths ramp and jump/Glide toward the recess below the white Mineshaft doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.07": {
-      "instructions": "On top of lone building near the track.",
+      "instructions": "Sunset Terrace — Ride the tram and jump onto the lone rooftop beside the tracks.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.08": {
-      "instructions": "At the top waterfall. Route: use LV2 High Jump and LV2 Aerial Dodge.",
+      "instructions": "Sunset Terrace — At the western waterfall/mirror, stand on the guardrail and use High Jump LV2 plus Aerial Dodge LV2 toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.09": {
-      "instructions": "On the column in the middle of the room. Route: use High Jump.",
+      "instructions": "Cavern of Remembrance: Depths — Climb onto the central column and jump toward the crown above it.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.10": {
-      "instructions": "Atop column. Route: use Glide and LV2 Aerial Dodge.",
+      "instructions": "The Old Mansion — Jump from a courtyard pillar and use Aerial Dodge LV2 and Glide toward the crown over the other pillar.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.11": {
-      "instructions": "Above the entrance. Route: use LV3 Glide.",
+      "instructions": "Ruin and Creation's Passage — Climb the ramps above the entry platform, then Glide LV3 back toward the crown above the lowest doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.12": {
-      "instructions": "Route: use LV3 Aerial Dodge. Alternatively, LV2 Aerial Dodge and Reflect can be used.",
+      "instructions": "Bailey — Enter the destroyed Bailey from the Borough’s upper ledge; jump, Aerial Dodge LV3 and Glide toward the crown above the Castle Gate exit.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.13": {
-      "instructions": "On bench next to the mini clock tower.",
+      "instructions": "Sunset Hill — On bench next to the mini clock tower.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.14": {
-      "instructions": "On the top of the middle mining drill near an air vent.",
+      "instructions": "Cavern of Remembrance: Mining Area — After activating the three valves, ride the wind above the entrance and reach the middle drill beside the cyclone generator.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.15": {
-      "instructions": "Route: use High Jump. Jump off of the staircase leading up to the tower.",
+      "instructions": "The Tower — Jump from the staircase leading into the tower toward the crown beside the tower wall; use High Jump.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.16": {
-      "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge to jump on to platform. Then use the air vent to reach a higher moving platform.",
+      "instructions": "Cavern of Remembrance: Mining Area — After activating the three valves, use the air vent to reach the tall moving piston. Ride it to the top and jump with High Jump LV2 and Aerial Dodge LV2 toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.17": {
-      "instructions": "Above the second to last platform. Route: use Glide.",
+      "instructions": "Ruin and Creation's Passage — Climb to the final platform, then Glide back toward the crown above the second-highest platform.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.18": {
-      "instructions": "Under the first arch.",
+      "instructions": "Sandswept Ruins — Follow the ground-level stone path from the tower and fly beneath its first arch.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.19": {
-      "instructions": "Under the ledge with the treasure chest containing the Map. Route: use Glide or LV3 Aerial Dodge.",
+      "instructions": "Cavern of Remembrance: Mining Area — Reach the upper ledge containing the map chest, drop off its edge and Aerial Dodge into the nook beneath it; Glide is another approach.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.20": {
-      "instructions": "Route: use LV2 Glide. Alternatively, LV3 High Jump and LV3 Aerial Dodge can be used.",
+      "instructions": "Twilight's View — Glide LV2 from the stair top toward the Crooked Ascension doorway.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.21": {
-      "instructions": "Route: use LV2 Glide.",
+      "instructions": "Curly Hill — Glide LV2 from Curly Hill’s summit into the southwest corner.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.22": {
-      "instructions": "Check the desk at the back of the wardrobe room.",
+      "instructions": "Tower: Wardrobe — Check the desk at the back of the wardrobe room.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.23": {
-      "instructions": "Atop the pile of gold to the right of the entrance. Route: use LV3 High Jump.",
+      "instructions": "Cave of Wonders: Treasure Room — From the Treasure Room entrance, climb the gold heap on the right and use High Jump LV3.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.24": {
-      "instructions": "Collect the crown above the table.",
+      "instructions": "Mansion: White Room — Collect the crown above the table.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.25": {
-      "instructions": "Route: use LV2 Aerial Dodge or skateboard.",
+      "instructions": "Christmas Town: Shipping and Receiving — Raised platform left of the conveyor belts; use Aerial Dodge LV2 or the skateboard.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.26": {
-      "instructions": "Check the floor near the northern exit.",
+      "instructions": "Crooked Ascension — Check the floor near the northern exit.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.27": {
-      "instructions": "On the top of the highest mining drill.",
+      "instructions": "Cavern of Remembrance: Mining Area — Follow the upper route past the horizontal pistons to the highest drill near the exit; jump onto it for the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.28": {
-      "instructions": "Cross to the far end of the bridge. It becomes accessible during the Xaldin fight.",
+      "instructions": "Bridge — Cross to the far end of the bridge. It becomes accessible during the Xaldin fight.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.29": {
-      "instructions": "Jump off the side of Pride Rock.",
+      "instructions": "Pride Rock — Climb Pride Rock and jump over its west side toward the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.30": {
-      "instructions": "In the area with blue orbs. Route: use LV1 Quick Run and LV2 Aerial Dodge.",
+      "instructions": "Cavern of Remembrance: Mineshaft — Enter the lower Mineshaft from the Depths. Cross the blue-orb pipe section with Quick Run and Aerial Dodge toward the crown beyond the barrier.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.31": {
-      "instructions": "By the waterfall.",
+      "instructions": "Tunnelway — Follow the Tunnelway to the northwest waterfall.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.32": {
-      "instructions": "In the area with white orbs. Route: use LV3 Glide.",
+      "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.33": {
-      "instructions": "Attack anchor to get behind it.",
+      "instructions": "Ship Graveyard: Jetsam Keep — Attack anchor to get behind it.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.34": {
-      "instructions": "Collect the crown at floor level.",
+      "instructions": "Proof of Existence — Go to the upper end near the next doorway and collect the low crown.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.35": {
-      "instructions": "Collect the crown at floor level.",
+      "instructions": "Memory's Skyscraper — Collect the low crown in front of the skyscraper.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.36": {
-      "instructions": "In the area with white orbs. Route: use LV3 Glide.",
+      "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.37": {
-      "instructions": "Route: use Glide and Aerial Dodge.",
-      "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
-    },
-    "kh2fm.puzzle.sunset.38": {
-      "instructions": "Drop from the southwest ledge toward the crown.",
+      "instructions": "Entrance Hall — High over the hall’s west side; use High Jump LV3 and Glide LV3.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
-      ]
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
+    },
+    "kh2fm.puzzle.sunset.38": {
+      "instructions": "Underground Concourse — Drop from the southwest ledge toward the crown.",
+      "sources": [
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.39": {
-      "instructions": "In the broken crow's nest.",
+      "instructions": "Ship Graveyard: Seadrift Row — In the broken crow's nest.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.40": {
-      "instructions": "First piece in the area with white orbs. Route: use LV3 Glide.",
+      "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.41": {
-      "instructions": "Route: use LV2 High Jump. Jump off one of the booths.",
+      "instructions": "Bazaar — Jump from a nearby market booth toward the crown above the Bazaar’s south exit with High Jump LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.42": {
-      "instructions": "Route: use LV3 Aerial Dodge and LV2 Glide.",
+      "instructions": "Harbor — Harbor’s eastern recess; use Aerial Dodge LV3 and Glide LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.43": {
-      "instructions": "Route: use LV2 Glide.",
+      "instructions": "Encampment — Northwest corner above the Encampment; use Glide LV2.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.44": {
-      "instructions": "Cross the canyon toward the suspended crown using Glide LV2.",
+      "instructions": "Canyon — From the Canyon’s high northern ledge, Glide LV2 across toward the crown above the southern Pit Cell/energy-core opening.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.45": {
-      "instructions": "Above the pit area.",
+      "instructions": "Underground Concourse — Drop from the northeast ledge toward the crown over the pit.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.46": {
-      "instructions": "On the other side of entrance.",
+      "instructions": "Central Core — Cross the former MCP arena to the north end and collect the crown.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.47": {
-      "instructions": "Route: use LV2 High Jump. Alternatively, LV1 High Jump and Reflect can be used.",
+      "instructions": "Corridors — Follow the west passage to the stairs and jump toward the airborne crown with High Jump; the skateboard jump is another supported route.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.sunset.48": {
-      "instructions": "Behind the closed door that leads to the Heartless Manufactory.",
+      "instructions": "Ansem's Study — Behind the closed door that leads to the Heartless Manufactory.",
       "sources": [
-        "https://www.khwiki.com/Puzzle"
-      ]
+        "https://www.khwiki.com/Puzzle",
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      ],
+      "reviewedOn": "2026-10-01",
+      "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     }
+  },
+  "routeAudit": {
+    "reviewedOn": "2026-10-01",
+    "reviewedEntries": 144,
+    "method": "All existing rows compared with the complete Wizard table; sparse/contradictory cases cross-checked against numbered KHWiki world tables, KHGuides, Thundaka, TrueAchievements and GamerGuides. Every entry now includes the area and a working landmark/approach. Growth levels are route choices, not minimum claims.",
+    "workingRouteCount": 144,
+    "individualLandmarkResidualIds": [
+      "kh2fm.puzzle.daylight.27",
+      "kh2fm.puzzle.sunset.32",
+      "kh2fm.puzzle.sunset.36",
+      "kh2fm.puzzle.sunset.40"
+    ],
+    "qualifications": [
+      "Daylight 27: synthesis-shop roof versus central-pillar landmark remains inconsistent; both descriptions use the tram.",
+      "Sunset 32/36/40: shared three-crown Glide route is verified, but individual pipe-to-piece order is not.",
+      "Thundaka v1.10 requires Final Form MAX for the three Glide crowns; modern TrueAchievements explicitly supports base Glide LV3, consistent with KHWiki and Wizard. No universal-minimum claim is made.",
+      "Daylight 28 retains Station Heights; Wizard incorrectly labels a Tram Common pillar.",
+      "Daylight 10/11/37 platform assignments resolved using the numbered world Journal crosswalk."
+    ]
   }
 }

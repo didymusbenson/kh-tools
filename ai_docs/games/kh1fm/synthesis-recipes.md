@@ -1,6 +1,8 @@
 # KH1FM synthesis recipe reference
 
-Research date: 2026-09-18. Scope: modern Final Mix. These 33 recipes were transcribed from the linked individual item pages, selecting KH1FM ingredients. They are planning data, awaiting reconciliation with the legacy workbook, corroborating modern-edition sources and calculation fixtures. No original KH recipes are supported.
+**Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+
+Research date: 2026-09-18. Scope: modern Final Mix. These 33 recipes were transcribed from the linked individual item pages, selecting KH1FM ingredients. They are normalized canonical data with source reconciliation and recipe validation; the legacy row crosswalk preserves superseded values. Energy Bangle uses two Spirit Shards, not a provisional quantity. No original KH recipes are supported.
 
 ## Unlocks and completion semantics
 

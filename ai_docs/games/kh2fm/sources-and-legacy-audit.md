@@ -1,6 +1,24 @@
 # KH2FM inspected-source manifest and legacy audit
 
-Snapshot: 2026-09-18. This records what was actually fetched and examined. Public sources are community/secondary unless explicitly marked official. No in-game verification, licensed screenshot collection, or application implementation was performed.
+Current supplement: **2026-10-01**. Public game-mechanics sources are community/secondary unless explicitly marked official. No retail executable was run. The original September 18 read log below is historical, not the current coverage inventory.
+
+## October source inspection and canonical records
+
+- `verified-audit-expansion.json`: per-record URLs, inspection manifest, all 54 collector goals, 60 ranks, 40 maps, 16 recipe-document relations, 21 Limits, 120 cup rounds, five Form curves, practical challenge/record actions, summon evidence alternatives, and all thirty recipe comparisons. The recipe inputs are pinned to KH2Randomizer commit `ac28071c1e7eff7393df54c91196fe4f43c727e9`; they are source-derived inputs, not a newly extracted retail table.
+- `verified-equipment.json`: 131 item records (24/20/20/34/33) extracted from edition-scoped tables and individual item references. Vendor-world and shop-stock-copy rules were read in Moogle/Moogle Shop; Dark Anklet’s conflicting missability statements remain recorded.
+- `verified-abilities.json`: 167 action/Growth/support definitions, with FM overrides, AP and Dream/Critical/Form/equipment scope. Effects are paraphrased; individual Lucky Lucky, Second Chance, Once More and Light & Darkness evidence informs the relevant explanations.
+- `verified-enemies.json`: 129 individual/group pages inspected, two navigation groups excluded; 127 combat groups and 227 encounter contexts (213 explicit FM, fourteen shared KHII tables with no separate FM alternative). Individual Journal membership gives 82 Heartless and eleven Nobodies; website category counts are not used as that denominator. Missing individual Mushroom attributes are not synthesized from blank cells.
+- `verified-gummi-details.json`: nine route pages and blueprint/ship tables for all 27 normal rank ladders, treasure lists, forty main ships and nineteen Teeny dependencies. Material/G variants share one inventory stock, so shape/color is not an extra missing prerequisite.
+- `treasure-locations.json` and `verified-puzzle-locations.json`: record-level route sources and revised landmark instructions. Refer to KH2-002/003 for the systematic review and precise residuals.
+- Optional battle tactics were read from the KHII/Final Mix sections of eighteen individual `Game:` battle pages. Later-game strategy sections were excluded. This is practical acquisition guidance, not every attack statistic.
+- Summon use was checked against the Final Mix-specific [AppMedia guide](https://appmedia.jp/kh2fm/75145473), which explicitly allows unconscious party members. The final full curve uses the explicitly FM OpenKH fixture (pinned binary/parser and hash in the expansion); caps are corroborated by PC ReFined code. Original-release tables remain supplementary. Six puzzle grids and rotation rules were visually inspected from public gameplay images in `verified-assembly.json`.
+- Square Enix’s [collection page](https://www.jp.square-enix.com/kingdom/collection/) was reopened October 1. October 8 editions are announced, not released or proven equivalent.
+
+The [forty-finding ledger](research-resolution-2026-10-01.md) records current dispositions. Multiple pages from one wiki are not independent corroboration.
+
+## Historical September 18 inspection log
+
+The following accurately preserves the original inspection scope. Its empty-table, unextracted-field and branch observations do not override the October canonical records.
 
 ## Repository
 

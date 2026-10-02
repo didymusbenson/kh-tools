@@ -15,7 +15,7 @@
       "verification": "source-inspected candidate",
       "cp": 25,
       "effect": "Card values rise by 1.",
-      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica , Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica (Bottomless Darkness only), Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion."
     },
     {
       "id": "recom-sora-enemy-soldier",
@@ -38,7 +38,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
       "effect": "Normal combos gain one additional hit.",
-      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Twilight Town Neverland."
+      "acquisition": "Target must be final enemy defeated. Worlds: Traverse Town, Wonderland, Twilight Town; Neverland only when summoned by a Crescendo."
     },
     {
       "id": "recom-sora-enemy-powerwild",
@@ -60,7 +60,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913"
       ],
-      "effect": "Values 1–9 reverse (1 ↔ 9, 2 ↔ 8); zero stays zero.",
+      "effect": "Values 1\u20139 reverse (1 \u2194 9, 2 \u2194 8); zero stays zero.",
       "acquisition": "Target must be final enemy defeated. Worlds: Olympus Coliseum."
     },
     {
@@ -347,7 +347,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Using a friend card restores HP.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (White Room only)."
+      "acquisition": "Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply."
     },
     {
       "id": "recom-sora-enemy-black-fungus",
@@ -359,7 +359,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Activates a randomly chosen enemy-card effect.",
-      "acquisition": "Target must be final enemy defeated; mushroom-specific success details still need independent audit. Worlds: Traverse Town, Wonderland, Olympus Coliseum, Agrabah, Monstro, Halloween Town, Atlantica, Neverland, Hollow Bastion, Twilight Town, Destiny Islands, Castle Oblivion (Black Room only)."
+      "acquisition": "Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used."
     },
     {
       "id": "recom-sora-enemy-creeper-plant",
@@ -452,7 +452,7 @@
       "verification": "source-inspected candidate",
       "cp": 30,
       "effect": "Extends attack-card reach.",
-      "acquisition": "Defeat Guard Armor at Traverse Town · Room of Truth."
+      "acquisition": "Defeat Guard Armor at Traverse Town \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-hades",
@@ -464,7 +464,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Boosts attack power at critical HP. Resists fire; ice can stun you.",
-      "acquisition": "Defeat Hades at Olympus Coliseum · Room of Truth."
+      "acquisition": "Defeat Hades at Olympus Coliseum \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-trickmaster",
@@ -476,7 +476,7 @@
       "verification": "source-inspected candidate",
       "cp": 25,
       "effect": "An enemy card loses value when it breaks yours.",
-      "acquisition": "Defeat Trickmaster at Wonderland · Room of Truth."
+      "acquisition": "Defeat Trickmaster at Wonderland \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-jafar-genie",
@@ -488,7 +488,7 @@
       "verification": "source-inspected candidate",
       "cp": 65,
       "effect": "Protects attack cards against breaks.",
-      "acquisition": "Defeat Jafar-Genie at Agrabah · Room of Truth."
+      "acquisition": "Defeat Jafar-Genie at Agrabah \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-ursula",
@@ -500,7 +500,7 @@
       "verification": "source-inspected candidate",
       "cp": 50,
       "effect": "Halves incoming magic damage.",
-      "acquisition": "Defeat Ursula at Atlantica · Room of Truth."
+      "acquisition": "Defeat Ursula at Atlantica \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-oogie-boogie",
@@ -512,7 +512,7 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "Restores HP gradually, faster at low HP.",
-      "acquisition": "Defeat Oogie Boogie at Halloween Town · Room of Truth."
+      "acquisition": "Defeat Oogie Boogie at Halloween Town \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-parasite-cage",
@@ -523,8 +523,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 60,
-      "effect": "Cancels the opponent’s active enemy card.",
-      "acquisition": "Defeat Parasite Cage at Monstro · Room of Guidance."
+      "effect": "Cancels the opponent\u2019s active enemy card.",
+      "acquisition": "Defeat Parasite Cage at Monstro \u00b7 Room of Guidance."
     },
     {
       "id": "recom-sora-enemy-hook",
@@ -536,7 +536,7 @@
       "verification": "source-inspected candidate",
       "cp": 35,
       "effect": "Survive a lethal hit with 1 HP if you had at least 2. Resists lightning; fire can stun you.",
-      "acquisition": "Defeat Hook at Neverland · Room of Truth."
+      "acquisition": "Defeat Hook at Neverland \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-dragon-maleficent",
@@ -548,7 +548,7 @@
       "verification": "source-inspected candidate",
       "cp": 70,
       "effect": "Boosts attacks at the cost of slower reloads.",
-      "acquisition": "Defeat Dragon Maleficent at Hollow Bastion · Room of Truth."
+      "acquisition": "Defeat Dragon Maleficent at Hollow Bastion \u00b7 Room of Truth."
     },
     {
       "id": "recom-sora-enemy-darkside",
@@ -559,8 +559,8 @@
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
       "cp": 99,
-      "effect": "Copies the opponent’s active enemy-card effect.",
-      "acquisition": "Defeat Darkside at Destiny Islands · Room of Guidance."
+      "effect": "Copies the opponent\u2019s active enemy-card effect.",
+      "acquisition": "Defeat Darkside at Destiny Islands \u00b7 Room of Guidance."
     },
     {
       "id": "recom-sora-enemy-riku-replica",
@@ -584,7 +584,7 @@
       "verification": "source-inspected candidate",
       "cp": 55,
       "effect": "Attack animations become faster.",
-      "acquisition": "Defeat Card Soldier at Wonderland · Room of Beginnings."
+      "acquisition": "Defeat Card Soldier at Wonderland \u00b7 Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-ansem",
@@ -596,9 +596,9 @@
       "verification": "source-inspected candidate",
       "cp": 40,
       "effect": "In Re:CoM, grants resistance to fire, ice and lightning only.",
-      "acquisition": "Twilight Town · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora.",
+      "acquisition": "Twilight Town \u00b7 Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia\u2019s first form as Sora.",
       "supportingSource": "https://www.khwiki.com/Sleightblind",
-      "editionNote": "Stocked-card concealment is the original CoM Link Mode effect, not an omitted player benefit in Re:CoM. Enemy Ansem’s own use is a separate mechanic.",
+      "editionNote": "Stocked-card concealment is the original CoM Link Mode effect, not an omitted player benefit in Re:CoM. Enemy Ansem\u2019s own use is a separate mechanic.",
       "effectReviewed": "2026-10-01"
     },
     {
@@ -611,7 +611,7 @@
       "verification": "source-inspected candidate",
       "cp": 65,
       "effect": "Blocks follow-up hits in a chain after the second hit. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Wonderland · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Wonderland \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-xigbar",
@@ -623,7 +623,7 @@
       "verification": "source-inspected candidate",
       "cp": 80,
       "effect": "Boosts projectile attacks, including Fire and Strike Raid. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Hollow Bastion · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Hollow Bastion \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-xaldin",
@@ -635,7 +635,7 @@
       "verification": "source-inspected candidate",
       "cp": 65,
       "effect": "Surrounds you with damaging Aero. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Monstro · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Monstro \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-vexen",
@@ -647,7 +647,7 @@
       "verification": "source-inspected candidate",
       "cp": 60,
       "effect": "Revives you once with a little HP. Immune to ice; fire can stun you.",
-      "acquisition": "Defeat Vexen at Twilight Town · Room of Beginnings."
+      "acquisition": "Defeat Vexen at Twilight Town \u00b7 Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-lexaeus",
@@ -659,7 +659,7 @@
       "verification": "source-inspected candidate",
       "cp": 99,
       "effect": "Combo finishers may instantly defeat enemies. Immune to ice; resists physical damage; vulnerable to special attacks.",
-      "acquisition": "Castle Oblivion · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
+      "acquisition": "Castle Oblivion \u00b7 Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia\u2019s first form as Sora."
     },
     {
       "id": "recom-sora-enemy-zexion",
@@ -671,11 +671,11 @@
       "verification": "source-inspected candidate",
       "cp": 65,
       "effect": "Attacks may confuse enemies. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Destiny Islands · Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia’s first form as Sora."
+      "acquisition": "Destiny Islands \u00b7 Bounty chest, after clearing Reverse/Rebirth and defeating Marluxia\u2019s first form as Sora."
     },
     {
       "id": "recom-sora-enemy-saix",
-      "name": "Saïx",
+      "name": "Sa\u00efx",
       "campaign": "sora",
       "ability": "Combo Boost",
       "duration": "20 attacks",
@@ -683,7 +683,7 @@
       "verification": "source-inspected candidate",
       "cp": 80,
       "effect": "Successive attack-card hits become stronger until a card break. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Traverse Town · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Traverse Town \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-axel",
@@ -695,7 +695,7 @@
       "verification": "source-inspected candidate",
       "cp": 75,
       "effect": "Allows card use while staggering. Immune to fire; ice can stun you.",
-      "acquisition": "Defeat Axel at Castle Oblivion · Room of Beginnings."
+      "acquisition": "Defeat Axel at Castle Oblivion \u00b7 Room of Beginnings."
     },
     {
       "id": "recom-sora-enemy-demyx",
@@ -707,7 +707,7 @@
       "verification": "source-inspected candidate",
       "cp": 80,
       "effect": "Boosts ice attacks, including Aqua Splash. In HD: immune to ice; resists lightning and special attacks.",
-      "acquisition": "Atlantica · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Atlantica \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-luxord",
@@ -719,7 +719,7 @@
       "verification": "source-inspected candidate",
       "cp": 99,
       "effect": "Breaks opposing cards regardless of value. Resists fire, ice, lightning and special attacks.",
-      "acquisition": "Agrabah · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Agrabah \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-sora-enemy-marluxia",
@@ -731,7 +731,7 @@
       "verification": "source-inspected candidate",
       "cp": 99,
       "effect": "Repeats stocked attacks and sleights. Resists fire, ice, lightning and special attacks; vulnerable to physical damage.",
-      "acquisition": "Defeat Marluxia at Castle Oblivion · first Marluxia battle."
+      "acquisition": "Defeat Marluxia at Castle Oblivion \u00b7 first Marluxia battle."
     },
     {
       "id": "recom-sora-enemy-larxene",
@@ -755,7 +755,7 @@
       "verification": "source-inspected candidate",
       "cp": 99,
       "effect": "Attack cards deal double damage.",
-      "acquisition": "Twilight Town · Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
+      "acquisition": "Twilight Town \u00b7 Room of Rewards, Days bonus chest. Complete the Days movie and its journal entries first."
     },
     {
       "id": "recom-riku-enemy-shadow",
@@ -791,7 +791,7 @@
       "verification": "source-inspected candidate",
       "acquisition": "Included automatically in the Olympus Coliseum world deck. Riku does not farm enemy-card drops.",
       "scope": "world-deck",
-      "effect": "Values 1–9 reverse (1 ↔ 9, 2 ↔ 8); zero stays zero."
+      "effect": "Values 1\u20139 reverse (1 \u2194 9, 2 \u2194 8); zero stays zero."
     },
     {
       "id": "recom-riku-enemy-fat-bandit",
@@ -885,7 +885,7 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Guard Armor. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Guard Armor. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Extends attack-card reach."
     },
@@ -897,9 +897,9 @@
       "duration": "1 use",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Parasite Cage. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Parasite Cage. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
-      "effect": "Cancels the opponent’s active enemy card."
+      "effect": "Cancels the opponent\u2019s active enemy card."
     },
     {
       "id": "recom-riku-enemy-trickmaster",
@@ -909,7 +909,7 @@
       "duration": "10 card breaks taken",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Trickmaster. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Trickmaster. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "An enemy card loses value when it breaks yours."
     },
@@ -921,9 +921,9 @@
       "duration": "1 use",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Darkside. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Darkside. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
-      "effect": "Copies the opponent’s active enemy-card effect."
+      "effect": "Copies the opponent\u2019s active enemy-card effect."
     },
     {
       "id": "recom-riku-enemy-hades",
@@ -933,7 +933,7 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Hades. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Hades. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Boosts attack power at critical HP. Resists fire; ice can stun you."
     },
@@ -945,7 +945,7 @@
       "duration": "20 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Jafar. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Jafar. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Protects attack cards against breaks."
     },
@@ -957,7 +957,7 @@
       "duration": "10 uses",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Oogie Boogie. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Oogie Boogie. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Restores HP gradually, faster at low HP."
     },
@@ -969,7 +969,7 @@
       "duration": "5 hits taken",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Ursula. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Ursula. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Halves incoming magic damage."
     },
@@ -981,7 +981,7 @@
       "duration": "3 uses.",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Captain Hook. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Captain Hook. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Survive a lethal hit with 1 HP if you had at least 2. Resists lightning; fire can stun you."
     },
@@ -993,7 +993,7 @@
       "duration": "30 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Dragon Maleficent. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Dragon Maleficent. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Boosts attacks at the cost of slower reloads."
     },
@@ -1005,7 +1005,7 @@
       "duration": "50 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Lexaeus. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Lexaeus. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Combo finishers may instantly defeat enemies. Immune to ice; resists physical damage; vulnerable to special attacks."
     },
@@ -1017,9 +1017,10 @@
       "duration": "50 attacks",
       "source": "https://www.khwiki.com/Enemy_Card",
       "verification": "source-inspected candidate",
-      "acquisition": "Defeat Zexion. Boss cards stay with Riku after the battle; world enemy cards belong to that world’s preset.",
+      "acquisition": "Defeat Zexion. Boss cards stay with Riku after the battle; world enemy cards belong to that world\u2019s preset.",
       "scope": "retained-boss-card",
       "effect": "Attacks may confuse enemies. Resists fire, ice, lightning and special attacks."
     }
-  ]
+  ],
+  "followUpDate": "2026-10-01"
 }

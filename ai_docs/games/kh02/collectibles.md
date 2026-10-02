@@ -1,5 +1,7 @@
 # 0.2 collectible location inventory
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+
 Research date: 2026-09-18. **55 candidate physical acquisition records:** 41 chests (29 ordinary + 12 Zodiac), seven mine gems, three flowers, four Lingering Memories. Counts are reconciled from the inventories below; these are researched records, not play-tested locations.
 
 All records are Aqua-only. Chest action is **open**; every physical record contributes one collection unit. Ordinary chests are available on the first playthrough; Zodiac chests and memories require clear data. Difficulty does not change this candidate inventory. Availability and replay evidence must accompany the row; absence of a known restriction is not proof of returnability.
@@ -22,7 +24,7 @@ Wardrobe, objectives and achievements have their own tracks. An objective satisf
 
 ## Ordinary chests: 29 records
 
-Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-). Route supplements: **L** = [Guiding Key locations](https://guiding-key.tumblr.com/kh0.2-locations), **W** = [PSU World Within](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/), **F** = [PSU Forest](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/), **D** = [PSU Depths](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/). All are community/secondary evidence.
+Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-). Route supplements: **L** = [Guiding Key locations](https://guiding-key.tumblr.com/kh0.2-locations), **W** = [PSU World Within](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/), **F** = [PSU Forest](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/), **D** = [PSU Depths](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/). **S** = [Steam PC collection-order guide (2024)](https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993). All are community/secondary evidence.
 
 | ID | Area / local route | Contents | Location / acquisition detail | Evidence |
 |---|---|---|---|---|
@@ -31,23 +33,23 @@ Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www
 | ct-alley-potion | Castle Town | Potion | Alley west of the central fountain. | C |
 | ct-rooftop-potion | Castle Town | Potion | Northern rooftop; follow the elevated building route. | C |
 | ct-house-ether | Castle Town | Ether | Behind a house northeast of the fountain. | C |
-| ct-lower-ether | Castle Town | Ether | Lower district reached from the descending crystal route. Exact route-to-content cross-check pending. | C, L |
+| ct-lower-ether | Castle Town lower passage | Ether | Descend into the underground passage; open the chest beside the northern lamppost. | C, L, S |
 | ww-map | World Within hub | The World Within Area Map | Entrance side, immediately near the arrival point. | C, W |
-| ww-pillar-potion | Mirror-floor / pillar labyrinth | Potion | One of two gravity-route chests; see paired-route note below. | C, W |
-| ww-pillar-hi-potion | Mirror-floor / pillar labyrinth | Hi-Potion | Other gravity-route chest; see paired-route note below. | C, W |
+| ww-pillar-potion | Mirror-floor / pillar labyrinth | Potion | Invert the first pillar room, then check the right side of the first breakable pillar. | C, W, S |
+| ww-pillar-hi-potion | Mirror-floor / pillar labyrinth | Hi-Potion | During the second inverted section, open the chest beside the exit mirror. | C, W, S |
 | ww-stairs-hi-potion | Northern / endless-staircase mirror | Hi-Potion | Complete staircase repetitions; chest by the final stair-room landing. | C, W |
 | ww-mines-hi-potion | Western / mines mirror | Hi-Potion | At the mine exit mirror. | C, W |
 | ww-hub-mega-potion | World Within hub | Mega-Potion | Above the central circular wall/arch; climb from surrounding raised structures. | C, L |
 | ww-mirror-mega-ether | Eastern chest-room mirror | Mega-Ether | Northwest chest. Inspect the mirror outside: pick the chest whose reflection is closed. | C, W |
 | ww-mines-megalixir | Western / mines mirror | Megalixir | Small isolated round platform near the mine exit; rotate the final ramp toward it. | C, W |
-| ft-map | Uncertain Path | Forest of Thorns Area Map | At the first save-point approach. | C, F |
-| ft-start-ledge-potion | Forest of Thorns | Potion | Raised ledge beyond a save point, sealed by red ivy; burn ivy with Firaga. Exact save-point label needs validation. | C |
+| ft-map | Uncertain Path | Forest of Thorns Area Map | From the Uncertain Path save point, clear the ivy on the entrance route. | C, F, S |
+| ft-start-ledge-potion | Rocky Path | Potion | Between the first and second Darksides, take the rising left branch; Doubleflight to the eastern red-ivy ledge and clear it with Firaga. | C, S |
 | ft-north-potion | Forest of Thorns | Potion | Northern alcove off the broad combat area. | C |
-| ft-ring-potion | Rocky Path circular section | Potion | Inside the ring route, behind red ivy; use Firaga. | C, L |
-| ft-gap-hi-potion | Rocky Path | Hi-Potion | High ledge across the large gap on the right of the broad area; Doubleflight/Air Slide route. | C, F |
-| ft-left-hi-potion | Rocky Path | Hi-Potion | Open side area left of the broad area. | C |
-| ft-spiral-mega-potion | Uncertain Path spiral tree | Mega-Potion | Ride the optional spiral ivy, then jump to the high adjacent platform. | C, F |
-| ft-ring-mega-potion | Rocky Path | Mega-Potion | Open space beyond the circular section. | C |
+| ft-ring-potion | Rocky Path circular section | Potion | In the southern recess of the ring-shaped thicket, behind red ivy. | C, L, S |
+| ft-gap-hi-potion | Rocky Path | Hi-Potion | After the second Darkside, climb to the raised main path, jump onto the low tan wall on the right, then cross east to the isolated Fluttering platform. | C, F, S |
+| ft-left-hi-potion | Rocky Path | Hi-Potion | Drop left from the raised main path to the optional third Darkside; check behind it. | C, S |
+| ft-spiral-mega-potion | Uncertain Path spiral tree | Mega-Potion | Ride the optional vertical ivy rail; jump onto the high platform on the left. | C, F, S |
+| ft-ring-mega-potion | Rocky Path | Mega-Potion | Beyond the ring-shaped thicket, turn right at the raised Terra/Ventus sighting; clear red ivy and enemies to the eastern end. | C, S |
 | ft-save-ether | Rocky Path save point | Ether | After the long rail section, burn red ivy near the save point. | C, F |
 | ft-steps-ether | Rocky Path stone steps | Ether | Across from the stone stairs, behind red ivy. | C |
 | dd-map | Depths entrance | Depths of Darkness Area Map | First leftward bend after the save point. | C, D |
@@ -56,7 +58,7 @@ Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www
 | dd-before-arena-mega-ether | Depths main route | Mega-Ether | Before the second open combat area. | C |
 | dd-end-elixir | Depths final sandy area | Elixir | Northern island/left wall by the crystals at the sandy end. | C, D |
 
-**Paired-route gap:** PSU locates the two pillar-labyrinth chests beside the first struck pillar after inversion and near the exit after the second inversion. KHWiki names their contents Potion and Hi-Potion but does not resolve which inversion holds which. Both physical routes are known; that contents crosswalk must be verified before freezing production IDs. Similarly, several Forest directions need a landmark-to-item crosswalk rather than silently equating guide route numbering with KHWiki row order.
+**Route reconciliation (2026-10-01):** the Steam guide explicitly pairs the first inverted pillar chest with Potion and the second/exit inverted chest with Hi-Potion; the existing IDs are preserved. All ten Forest rows were compared. Seven have usable joins above. Three remain disputed: `ft-save-ether` is Ether in KHWiki but Mega-Ether in the Steam guide at the same Rocky Path save-point ivy; `ft-north-potion` cannot be uniquely joined to the guide's additional northwest-thicket Hi-Potion; `ft-steps-ether` cannot be securely joined to its second-Darkside elevated Ether. Those three retain source contents and an explicit runtime crosswalk caveat. The guide is evidence for specific aligned routes, not blanket certification of its other items.
 
 ## Zodiac chests: 12 records
 
@@ -77,7 +79,7 @@ All require first clear or a New Game Plus seeded from clear data. A previously 
 | ft-scorpio | Scorpio | Uncertain Path | After the spiral-tree section, take the first fork's left dead end. |
 | dd-capricorn | Capricorn | Depths sandy end | Climb the right/eastern pillar as the sandy stretch begins. |
 
-All twelve satisfy objective 43 and enable the Zodiac Mirror. The mirror and its five-round challenge are not a thirteenth Zodiac collectible. Pisces has a wording discrepancy: KHWiki says the end of the stairs; PSU specifies behind the initial arrival. Keep this route flagged until visually checked; do not duplicate the chest.
+All twelve satisfy objective 43 and enable the Zodiac Mirror. The mirror and its five-round challenge are not a thirteenth Zodiac collectible. Pisces: PSU and the 2024 Steam guide independently specify turning around immediately upon entering the initial staircase. KHWiki’s generic “end of stairs” wording is superseded for the approach; retain the same chest ID.
 
 ## Seven mine gems
 
@@ -93,17 +95,17 @@ Objective 29; reward Marie. Prefix IDs `ww-gem-01` through `ww-gem-07`; numbers 
 | 06 | Same arena, right-hand rock beside a pillar. |
 | 07 | At the final rotating ramp, locate the suspended gem in the reflection; stop the ramp through its position and walk up to collect it. |
 
-A TrueAchievements search excerpt calls this objective missable; the full guide was inaccessible. Therefore **do not promise post-clear recovery**. Validate mine re-entry, partial gem retention and NG+ reset rules. Useful default guidance: collect all seven before exiting the mines and retain a save from before the mirror sequence. This is a documented uncertainty, not a confirmed irreversible missability claim.
+The Steam post-clear Leo/Libra routes establish mine re-entry. Partial gem retention and NG+ reset are still undocumented; the older inaccessible TrueAchievements missability excerpt does not establish irreversible loss. Useful default guidance: collect all seven before exiting the mines and retain a save from before the mirror sequence. This is a documented uncertainty, not a confirmed irreversible missability claim.
 
 ## Three flowers
 
-Objective 34; reward Minnie Ears (Blue Bow). Use `ft-flower-01`–`03` as editorial IDs until exact color-to-route mapping is checked. Flower 01 belongs to Uncertain Path; 02/03 to Rocky Path. The set contains green, blue and red; assigning the latter two colors to these route IDs remains unverified. [GameSkinny flower directions and returnability](https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/).
+Objective 34; reward Minnie Ears (Blue Bow). Use `ft-flower-01`–`03` as stable editorial IDs. The Steam guide explicitly maps them to green, blue and red respectively; Flower 01 belongs to Uncertain Path and 02/03 to Rocky Path. [GameSkinny flower directions and returnability](https://www.gameskinny.com/tips/kingdom-hearts-28-guide-how-to-find-the-3-flowers-for-objective-34/).
 
-| ID suffix | Text route |
-|---|---|
-| 01 | Beyond the first optional spiral log, burn the red ivy. At the fork continue straight into the chest/Heartless clearing; search its left edge. |
-| 02 | Past the second save point and second Darkside: beside stone stairs on the right, take the dead end left of the Darkside. |
-| 03 | Just before the Darkside gauntlet, turn back and choose the left branch; remove ivy to reach the flower on the right. |
+| ID suffix | Text route | Color |
+|---|---|---|
+| 01 | Beyond the first optional spiral log, burn the red ivy. At the fork continue straight into the chest/Heartless clearing; search its left edge. | Green |
+| 02 | Past the second save point and second Darkside: beside stone stairs on the right, take the dead end left of the Darkside. | Blue |
+| 03 | Just before the Darkside gauntlet, turn back and choose the left branch; remove ivy to reach the flower on the right. | Red |
 
 The flower guide explicitly supports returning through save-point teleportation after continuing to another area. Use Firaga for red ivy. Reconcile these prose routes with reliable documentary evidence; no manual gameplay session is required for app acceptance.
 
@@ -113,11 +115,11 @@ One per major area, despite the plural objective names. These are physical finds
 
 | ID | Objective | Object | Location |
 |---|---:|---|---|
-| ct-memory | 38 | Blue slipper | Rooftop/awning around the central plaza. Exact building needs validation. |
+| ct-memory | 38 | Blue slipper | Roof of the northernmost western house by the plaza; use the elevated building route and Air Slide onto the roof. |
 | ww-memory | 40 | Red apple | Tall pillar in the main hub; climb via the right-side buildings and central arch. |
-| ft-memory | 45 | Orange spinning-wheel symbol | Ground beneath the optional third Darkside in Rocky Path. One source calls this a sewing machine; retain a visual-label check. |
+| ft-memory | 45 | Orange spinning-wheel symbol | Ground beneath the optional third Darkside in Rocky Path. Sleeping Beauty spindle/spinning-wheel symbol; “sewing machine” is an older guide’s imprecise label. |
 | dd-memory | 49 | Purple heart symbol | Entrance-side lower cavern: from the Mega-Ether chest, turn back toward the climb out and inspect the ledge wall. |
 
 ## Remaining release checks
 
-Reconcile the paired chest routes and Forest item crosswalk before freezing per-location IDs. Add precise starting save point, directional landmarks, required movement abilities, and evidence per row. Validate clear-data/NG+ recovery for ordinary chests, gems and memories. Complete text is MVP; only production screenshot/map image acquisition is deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.
+Pillar pairing, Pisces, flower colors and both memory labels/routes are resolved with existing IDs preserved. Resolve the three explicitly named Forest crosswalks above. Add precise starting save point, directional landmarks, required movement abilities, and evidence per row. Validate clear-data/NG+ recovery for ordinary chests, gems and memories. Complete text is MVP; only production screenshot/map image acquisition is deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.

@@ -1,5 +1,9 @@
 # Birth by Sleep Final Mix research pack
 
+Current follow-up (2026-10-01): all 60 album placement landmarks, all 374 main chest source-route/landmark joins, five-song FM complete rank/prize tables, nine mission rank tables with character tactics, and Fruitball/racing reward guides are integrated through `research-enrichment.json`. Aqua’s Tower chest4 is corrected to Mega Magic Recipe. Full earliest-access/Reports-order certification remains separate; older missing-placement/table statements below are historical. See the current per-ID resolution ledger.
+
+Current canonical additions: [187-command catalog](command-catalog.json), [styles and D-Links](command-families.json), [pickup/placement, Arena, flavor, ability, equipment and encounter enrichment](research-enrichment.json), and [all 38 researched dispositions](research-dispositions-2026-10-01.json). Both generators consume this data. Twelve findings are closed; partial scopes and specific unresolved evidence are retained rather than certifying example catalogs.
+
 Initial audit: 2026-09-18; [latest resolutions](research-resolution-2026-10-01.md): 2026-10-01. This pack feeds the implemented guide; it is not a complete certified compendium. The modern HD Final Mix rules are the baseline. [Specification](../birth-by-sleep-final-mix.md) · [Readiness](../../readiness/birth-by-sleep-final-mix.md) · [Separate 0.2 specification](../kingdom-hearts-02.md).
 
 | File | Concrete coverage |
@@ -15,6 +19,6 @@ Initial audit: 2026-09-18; [latest resolutions](research-resolution-2026-10-01.m
 | [Challenges and unlocks](challenges-and-unlocks.md) | Arena, Unversed Missions, minigames, finish-tree requirements, episodes and separate achievements |
 | [Source manifest](source-manifest.json) | Exact Drive ranges, reused artifact identity, repository reads, inspected community pages and primary release/achievement evidence |
 
-Important: the CSV is an inventory/area scaffold. It does not yet contain complete precise directions, access timing, returnability, official Reports-order verification or sticker placement coordinates. Those are MVP data requirements, not deferred features. Numerical source positions are retained as evidence, not certified official in-game numbering. No production screenshot assets were acquired.
+The CSV supplies stable inventory identities; `research-enrichment.json` supplies all 374 main chest approach/landmark joins and all 60 album placement regions. Complete save-point paths, minimum movement levels, earliest access and independently certified Reports ordering remain open. Placement landmarks use seven-point feedback; pixel coordinates are not a missing acquisition requirement. Numerical source positions are retained as evidence, not certified official in-game numbering. No production screenshot assets were acquired.
 
 World collection percentages count collectible records only. Commands, equipment, optional challenges and achievements retain separate goals. Narrative Reports pages are context; explicit platform Report-completion achievements retain their own broader requirements.

@@ -44,3 +44,8 @@ export function calculateMeld(character:string,first:string,firstLevel:number,se
   return matched.map(group=>({group,outcomes:effectiveOutcomes(group,obtained)}));
 }
 export function checkableEntries(entries:CollectionEntry[]){return entries.filter(e=>e.checkable!==false&&e.category!=='materials');}
+
+export function noCrystalAbilityChance(firstLevel:number,secondLevel:number){
+ if (![firstLevel,secondLevel].every(level=>Number.isInteger(level)&&level>=1&&level<=6)) return undefined;
+ return bbsData.noCrystalChance[Math.max(0,Math.min(4,firstLevel+secondLevel-4))].chance_percent;
+}

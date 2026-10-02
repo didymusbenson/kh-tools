@@ -1,5 +1,13 @@
 # KH3 / Re Mind rollout — 2026-09-20
 
+## Current research and implementation status — 2026-10-01
+
+KHIII/Re Mind canonical content now has **1900 entries + 286 recipe actions**. The [current per-ID ledger](../games/kh3/audit-resolution-2026-10-01.md) records **15 partial, 17 resolved, 3 conflicted**, with exact consulted sources and remaining evidence boundaries. Full 88-recipe synthesis, all applicable blade ladders, 20 photo routes, 10 Slider prizes, 81 adversaries/54 records and 14 DLC strategies are integrated. Gummi has all 46 mission predicates and expanded catalogs, but full physical fragment/sphere routes remain incomplete. This is not a claim that every acquisition route or platform predicate is ready.
+
+The earlier coverage/readiness and occurrence statements below are historical snapshots; current ledger dispositions override them. Product requirements and acceptance contracts remain binding. Jiminy remains empty. Shared runtime/UI validation is handled separately from factual resolution.
+
+## Historical baseline and enduring requirements
+
 ## Research and plan
 
 Read the complete `ai_docs/games/kh3` research set and readiness assessment, then applied the refinement playbook. The existing research supplies numbered collectible identities but explicitly does not establish complete precise routes. Do not promote those identities to fully verified route guidance.

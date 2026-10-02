@@ -25,7 +25,7 @@ const guideChapters = [
   ['treasures','Treasures & Postcards','Find chests, rewards and Traverse Town postcards.'],
   ['torn-pages','Torn Pages','Find the missing pages of the book.'],
   ['magic-upgrades','Magic','Find every spell upgrade.'],
-  ['equipment','Equipment & Abilities','Weapons, accessories, abilities and summons.'],
+  ['equipment','Equipment, Items & Abilities','Weapons, accessories, consumables, rare items, abilities and summons.'],
   ['challenges','Challenges & Gummi','Coliseum cups, optional bosses and Gummi missions.'],
   ['achievements','Steam Achievements','Keep track of your completion goals.'],
   ['reference','All Reference Entries','Browse the complete reference collection.'],
@@ -68,7 +68,7 @@ export function Kh1Journal({data, route: requestedRoute, player, renderTool, upd
     ? !!query.trim()&&[e.name,e.world,e.area,e.summary,e.instructions,...(e.aliases||[])].join(' ').toLowerCase().includes(query.trim().toLowerCase())
     : section==='worlds'?e.world===world
     : section==='minigames'?e.category==='minigame'
-    : section==='equipment'?['weapon','accessory','ability','summon'].includes(e.category)
+    : section==='equipment'?['weapon','accessory','item','ability','summon'].includes(e.category)
     : categories?categories.includes(e.category):section==='reference');
   const sectionWorlds=[...new Set(entries.filter(e=>e.world).map(e=>e.world!))];
   if(world&&section!=='worlds')entries=entries.filter(e=>e.world===world);

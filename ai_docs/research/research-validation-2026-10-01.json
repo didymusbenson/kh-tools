@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-01",
+  "baseline": "b839005",
+  "scope": "Generated/canonical runtime identities and ingredient relations; source accuracy is documented separately.",
+  "games": {
+    "kh1fm": {
+      "path": "public/data/kh1fm.json",
+      "sha256": "ac51c2a09f52ea7852575c5c400e1e30f6a9dcdbcf043c27cfbf9a6b9aa545fe",
+      "entries": 1259,
+      "recipes": 33,
+      "retainedBaselineIds": 1149,
+      "addedUniqueIds": 110,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "recom": {
+      "path": "src/games/recom/ui-data.json",
+      "sha256": "b08d3349a92ef59df8f100d4a12fd9877dac5f014336b94f7cd17603cbbcfbd7",
+      "entries": 431,
+      "recipes": 0,
+      "retainedBaselineIds": 431,
+      "addedUniqueIds": 0,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "kh2fm": {
+      "path": "src/games/kh2fm/catalog.ts",
+      "sha256": "7264b8b97212889e2c355f37e414e9312de53e7723f92fcfbb26e8103952a4dc",
+      "entries": 1315,
+      "recipes": 59,
+      "retainedBaselineIds": 893,
+      "addedUniqueIds": 481,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "bbsfm": {
+      "path": "src/games/bbsfm/content.json",
+      "sha256": "54842465cbf4c18a4d37057df972afdb9762b3b01e35e278d2477a9cdf5d0593",
+      "entries": 1653,
+      "recipes": 492,
+      "retainedBaselineIds": 1860,
+      "addedUniqueIds": 285,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "dddhd": {
+      "path": "src/games/dddhd/content.json",
+      "sha256": "fb7e558a4ef1df13c6382826b75e056917300389c6f2d71ef51ab55be361edff",
+      "entries": 1283,
+      "recipes": 263,
+      "retainedBaselineIds": 1123,
+      "addedUniqueIds": 423,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "kh02": {
+      "path": "src/games/kh02/catalog.ts",
+      "sha256": "ffcb7fa7d8f4a55ac262c3f17a287e7b5de46a25c1063abb2b3bb7985491bf12",
+      "entries": 177,
+      "recipes": 0,
+      "retainedBaselineIds": 175,
+      "addedUniqueIds": 2,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    },
+    "kh3": {
+      "path": "src/games/kh3/content.json",
+      "sha256": "44769f18089d5a33f46dad6d4a6a7c68313a5b00f040a4813cbb0a70e8ed18b9",
+      "entries": 1900,
+      "recipes": 286,
+      "retainedBaselineIds": 656,
+      "addedUniqueIds": 1530,
+      "removedIds": [],
+      "duplicateEntryOrRecipeIds": [],
+      "brokenIngredientLinks": [],
+      "newEntriesMissingSources": [],
+      "brokenRecipeEntryLinks": []
+    }
+  },
+  "auditCoverage": {
+    "findingFamilies": 208,
+    "closedIncludingHistorical": 95,
+    "partial": 83,
+    "unresolvedOrConflicted": 16,
+    "otherLimitations": 14,
+    "everyExpectedFindingIdPresentExactlyOnce": true
+  },
+  "sourceDateReview": {
+    "game": "kh1fm",
+    "newSourceAssociationsDatedOctober1": 404,
+    "unchangedHistoricalSeptember18SourceObjects": 1277,
+    "incorrectOrMissingDates": 0
+  },
+  "knowledgePack": {
+    "game": "kh1fm",
+    "revision": "2026-10-01-flush",
+    "state": "empty",
+    "thoughtCount": 0,
+    "contentHash": "14baf46a6cf7e0763720f03f9741a8326f044ef568183826dcb5c6d9c94f406a"
+  },
+  "unitTests": {
+    "command": "npm test",
+    "filesPassed": 14,
+    "testsPassed": 133
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed",
+    "includes": [
+      "content validation",
+      "empty Coppermind pack validation",
+      "TypeScript",
+      "Vite production",
+      "PWA generation"
+    ],
+    "advisory": "Vite reports chunks over500kB; game catalogs are independently loaded chunks."
+  },
+  "browserTests": {
+    "result": "passed",
+    "distinctDesktopAndMobileChromiumScenarios": 26,
+    "coreScenarios": 22,
+    "finalExpandedCatalogScenarios": 8,
+    "overlappingScenarios": 4,
+    "scope": "All seven games; saved state, offline reload, source-backed reference access, map aliases, Gummi fragments, calculator and paged notes. Mobile viewport emulation, not physical iOS/WebKit certification."
+  },
+  "formatAndReferences": {
+    "gitDiffCheck": "passed",
+    "changedJsonFilesParsed": 59,
+    "currentDocumentationBrokenLocalLinks": 0
+  }
+}

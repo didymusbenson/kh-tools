@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 rollout — September 20, 2026
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
+
 ## Research and plan
 
 Read the refinement playbook, dedicated 0.2 specification/readiness and all four research inventories. Preserve Aqua-only scope separately from BBS; HD 2.8 remains collection metadata. Use category destinations, compact single-column expandable rows, independent completion controls, world filters, persistent progress and backups from the shared guide shell. No synthesis, material stock or invented melding; no Data Jiminy work.
@@ -18,10 +20,10 @@ Read the refinement playbook, dedicated 0.2 specification/readiness and all four
 
 ## Preserved caveats and behavior
 
-Objective13 retains the 30/50 Lightning kill conflict. Objective15 retains the simultaneous-shatter question; no hidden numeric rail or travel threshold is invented. World Within's paired Potion/Hi-Potion routes expose the unresolved contents crosswalk. Pisces exposes its staircase-state disagreement. Flower colors, the Castle Town memory building and Forest memory label are not falsely certified. Gem recovery and ordinary collectible carry behavior remain uncertain.
+Objective13 retains the 30/50 Lightning kill conflict. The October1 pass resolves Objective15 simultaneity, pillar pairing, Pisces, flower colors, Castle Town memory building and Forest spindle label. Three Forest crosswalks and Objective13/50 source disagreements remain. Gem recovery and ordinary collectible carry behavior remain uncertain.
 
 The app's manual completion flags do not implement objective numeric counters, automatic game-state inference, equipped wardrobe, difficulty/run lineage or NG+ migration. These richer state features are remaining scope, documented here rather than represented by fabricated behavior. Zodiac retention is explained as a game rule; checking a guide record does not change the save file. Achievements retain independent flags and no native platform API IDs are invented.
 
 ## Verification
 
-Generation asserts all inventories, unique IDs, exactly55 physical units and world totals11/21/16/7. `git diff --check` passes. Full TypeScript checking currently reports only the unrelated missing `./kh3` module in the root-owned registry, with no 0.2 errors. Parent integration owns shared-shell desktop/phone and persistence validation. No in-game/playthrough verification is claimed.
+Generation asserts all inventories, unique IDs, exactly55 physical units and world totals11/21/16/7. `git diff --check` passes. Historical rollout TypeScript checking reported only the unrelated missing `./kh3` module in the root-owned registry, with no 0.2 errors. Parent integration owns shared-shell desktop/phone and persistence validation. No in-game/playthrough verification is claimed.

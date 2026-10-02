@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 readiness
 
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
+
 Status: **Missing/partial — substantive research complete for a candidate baseline; not ready to ship.** Audit date: 2026-09-18.
 
 Specification: [Kingdom Hearts 0.2](../games/kingdom-hearts-02.md) · [Research pack](../games/kh02/README.md). Apply the [shared readiness method and edition policy](./README.md) and [collectible compendium/linked views contract](../content/collectible-compendium-and-linked-views.md). All specified content and features remain MVP.
@@ -17,20 +19,20 @@ Specification: [Kingdom Hearts 0.2](../games/kingdom-hearts-02.md) · [Research 
 
 ## Evidence and actual coverage
 
-The supplied KHTABLES inventory has no 0.2 source; the full repo tree and existing BBS placeholder contain no 0.2 data/implementation. The parallel BBS researcher read the actual BBS workbook ranges and confirmed they contain BBS recipes/crystals/commands, not 0.2. This absence is bounded to inspected sources, not all private files. See the [coverage manifest](../games/kh02/sources-and-gaps.md) for exact ranges, blobs and delegation attribution.
+Historical September18 source inventory had no 0.2 dataset. The current canonical Markdown/JSON inputs generate177 runtime entries. The parallel BBS researcher read the actual BBS workbook ranges and confirmed they contain BBS recipes/crystals/commands, not 0.2. This absence is bounded to inspected sources, not all private files. See the [coverage manifest](../games/kh02/sources-and-gaps.md) for exact ranges, blobs and delegation attribution.
 
 | Category | Candidate expected / documented | Status and next evidence |
 |---|---|---|
 | Ordinary chests | 29 / 29 | Missing/partial: full inventory, several contents-to-route joins unresolved |
-| Zodiac chests | 12 / 12 | Missing/partial: full relic inventory, clear/NG+ rule; Pisces approach wording unresolved |
+| Zodiac chests | 12 / 12 | Missing/partial: full relic inventory, clear/NG+ rule; Pisces initial-entry approach resolved |
 | Gems | 7 / 7 | Missing/partial: all text routes; recovery/retention not verified |
-| Flowers | 3 / 3 | Missing/partial: all text routes; color and exact subarea cross-check needed |
-| Lingering Memories | 4 / 4 | Missing/partial: one per area; precise town building and Forest object label need validation |
+| Flowers | 3 / 3 | Missing/partial: all text routes; Green/Blue/Red and subareas integrated |
+| Lingering Memories | 4 / 4 | Missing/partial: one per area; town building and Forest spindle label resolved |
 | Objectives | 51 / 51 | Missing/partial: every objective/unlock/reward, with threshold/predicate discrepancies |
 | Earned wardrobe | 51 / 51 | Missing/partial: 12 Head + 9 Arms + 9 Back + 21 Pattern; localized alias and runtime unlock joins need validation |
 | Zodiac Mirror | 5 rounds / 5 | Missing/partial: encounter roster and unlock route; strategy/build checks remain |
 | Platform goals | 15 / 15 | Missing/partial: Steam names/visible text primary; hidden text/scores community, other platform IDs/tiers absent |
-| Combat/mechanics references | No certified exhaustive denominator | Missing/partial: required mechanics identified, exact acquisition timing/strategy fixtures incomplete |
+| Combat/mechanics references | No certified exhaustive denominator | Missing/partial: required mechanics identified, gear timing, defensive defaults, Critical survival/healing exceptions and Steam Finish behavior integrated; numeric boss stats remain incomplete |
 
 The physical collectible baseline is **55**, with area grouping **11/21/16/7**. It is an explicit app metric, not official Journal 100%. Chest objectives use **9/13/12/6**, with the Main Road chest separate; total chests **41**. Numbers reconcile arithmetically but do not prove in-game validation. UI must not present an uncertain inventory as certified complete.
 
@@ -48,15 +50,15 @@ The physical collectible baseline is **55**, with area grouping **11/21/16/7**. 
 | Mobile UI/accessibility | Missing/partial | Linked-view behavior specified; 0.2 visual inspiration pending, no implemented/audited UI. |
 | App acceptance and content checks | Not audited | No app walkthrough/test run performed; require functional tests and documentary route/condition reconciliation, without a mandatory game playthrough. |
 
-**Ready to start implementation:** schema/UI scaffolding and research reconciliation can proceed using these contracts. Ambiguous IDs/conditions cannot be silently frozen as verified content. **Ready to ship:** no; documentary content gaps, production content integration and offline/SLM/UI acceptance remain.
+**Implementation exists:** current generated catalog and guide integration are in place. Ambiguous IDs/conditions cannot be silently frozen as verified content. **Ready to ship:** no; documentary content gaps and root-owned functional acceptance remain. Data Jiminy stays empty in this task.
 
 ## Research and engineering queue
 
-- [ ] Resolve source disputes: objective 13 30/50 lightning kills, objective 15 simultaneity, mirror reflection correction, localized aliases and exact boss predicates.
-- [ ] Validate World Within paired chest contents, Forest contents/landmarks, Pisces staircase state, memory positions and flower colors.
+- [ ] Resolve source disputes: objective13 30/50 lightning kills and exact31/50 replay/boss predicates. Ice Breaker, mirror reflection and aliases are resolved.
+- [ ] Resolve the three named Forest content crosswalks. Pillar pairing, Pisces, memory positions and flower colors are resolved.
 - [ ] Verify cleared-save travel, gem recovery, counter retroactivity and per-record NG+ carry/reset; preserve distinct run and permanent ownership state.
 - [ ] Complete 0.2 combat/acquisition references and platform mappings; verify announced native editions only after availability.
-- [ ] Convert researched definitions into validated structured content with provenance, IDs, aliases, area order and explicit unknowns.
+- [x] Generate researched definitions with provenance, stable IDs, aliases, area order and explicit unknowns.
 - [ ] Implement synchronized compact/detail/search/Data Jiminy state, offline persistence, import/export, undo, rollback/retry and safe migrations.
 - [ ] Build/evaluate the bundled Coppermind and local SLM answers; source disagreements must produce qualified answers.
 - [ ] Verify mobile accessibility and text navigation without images, then add available media without changing identities.

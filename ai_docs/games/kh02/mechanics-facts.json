@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kh02:reference:replay",
+    "name": "Replay and New Game Plus",
+    "summary": "First clear opens Critical, objectives 36–51, Zodiac relics and memories.",
+    "instructions": "Completed objectives, items, wardrobe and custom colors carry into a seeded NG+. Aqua’s level resets. Previously acquired Zodiac relics stay acquired and their chests stay open. Mine re-entry is supported by post-clear Leo/Libra routes. The consulted sources do not fully specify ordinary-chest flags, partial gems/memories or partial combat-counter retention. Preserve a clear-data lineage; complete live story conditions again in NG+ when necessary.",
+    "sources": [
+      "https://www.khwiki.com/Game_Clear_Data",
+      "https://www.khwiki.com/Zodiac_symbols",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+    ]
+  },
+  {
+    "id": "kh02:reference:combat",
+    "name": "Combat tools",
+    "summary": "Castle Town gears restore magic, movement, Shotlock and Style Change.",
+    "instructions": "First gear restores Firaga, Blizzaga and Thundaga. Rooftop gear restores Doubleflight: press Jump again in the air. Between-buildings gear restores Air Slide: dodge with a direction while airborne. Floating-path gear restores Prism Rain; charge 28 locks for three bonus rating prompts. Courtyard gear restores Spellweaver and the Firaja/Blizzaja/Thundaja Situation Commands. Physical attacks build Spellweaver. In Steam/PC its Finish is immediately available; PS4 requires another gauge fill. Mickey enables Wayfinder in the Depths; Wayfinder and Spellweaver cancel one another. Use the controls shown by your configured input scheme. Aqua starts with Barrier and Counter Blast: guard while stationary or walking, on the ground or in the air, then press Attack after a successful block to counter. Cartwheel is her default ground dodge. Aerial Recovery is also default: press Jump after being launched to right her in the air. Curaga is her default healing spell and consumes all remaining MP. Single fatal hits normally leave Aqua at 1 HP; on Critical this safeguard fails when she is already at critical HP. Fatal combo survival is innate. Curaga grants default casting invulnerability except on Critical. These are innate 0.2 behaviors, not BBS commands to meld or purchase.",
+    "sources": [
+      "https://www.khwiki.com/Doubleflight",
+      "https://www.khwiki.com/Air_Slide",
+      "https://www.khwiki.com/Prism_Rain",
+      "https://www.khwiki.com/Spellweaver",
+      "https://www.khwiki.com/Wayfinder_(ability)",
+      "https://www.khwiki.com/Fire",
+      "https://www.khwiki.com/Blizzard",
+      "https://www.khwiki.com/Thunder",
+      "https://www.khwiki.com/Barrier",
+      "https://www.khwiki.com/Counter_Blast",
+      "https://www.khwiki.com/Cartwheel",
+      "https://www.khwiki.com/Aerial_Recovery",
+      "https://www.khwiki.com/Cure",
+      "https://www.khwiki.com/Second_Chance",
+      "https://www.khwiki.com/Leaf_Bracer",
+      "https://www.khwiki.com/Withstand_Combo"
+    ]
+  },
+  {
+    "id": "kh02:reference:difficulty",
+    "name": "Difficulty and encounter planning",
+    "summary": "Objective 51 requires Critical; the platform difficulty goal also accepts Proud.",
+    "instructions": "Relative to Standard, Beginner deals 1.5× damage and takes 0.5×; Proud deals 0.5× with normal incoming damage. Critical deals 1.5×, takes 2× and halves HP/MP. Critical removes restorative prize drops and Curaga casting invulnerability. Single-hit survival can fail when Aqua is already at critical HP; combo survival remains innate. Difficulty changes strategy, never the 55 physical-find denominator. Complete earned wardrobe goals on a preferred difficulty, then carry them into a Critical run for objective 51.",
+    "sources": [
+      "https://www.khwiki.com/Difficulty_Level",
+      "https://www.khwiki.com/Game_Clear_Data",
+      "https://www.khwiki.com/Second_Chance",
+      "https://www.khwiki.com/Leaf_Bracer",
+      "https://www.khwiki.com/Withstand_Combo"
+    ]
+  },
+  {
+    "id": "kh02:reference:enhanced-phantom",
+    "name": "Enhanced Phantom Aqua strategy",
+    "summary": "Zodiac Mirror round five; separate from the third story fight.",
+    "instructions": "Block ordinary attack strings, then punish the opening. Dodge red-aura rushes. During the clone sequence, block the strike and jump toward the real attacker when an opening appears; Thunder can interrupt the icicle follow-up. Leaving the mirror resets its five rounds. Source boss tables remain incomplete; no exact HP, defense or difficulty-scaled damage numbers are certified.",
+    "sources": [
+      "https://www.khwiki.com/Game:Phantom_Aqua",
+      "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+      "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-42-in-the-mirror/"
+    ]
+  }
+]

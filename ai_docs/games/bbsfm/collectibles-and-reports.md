@@ -1,5 +1,7 @@
 # Collectibles, Reports and counting
 
+Current follow-up (2026-10-01): all 60 album placement landmarks, all 374 main chest source-route/landmark joins, five-song FM complete rank/prize tables, nine mission rank tables with character tactics, and Fruitball/racing reward guides are integrated through `research-enrichment.json`. Aqua’s Tower chest4 is corrected to Mega Magic Recipe. Full earliest-access/Reports-order certification remains separate; older missing-placement/table statements below are historical. See the current per-ID resolution ledger.
+
 ## Measured chest inventory
 
 These are counts of numbered rows in the inspected community world tables, restricted to the Terra/Ventus/Aqua tabs. They are source-extraction totals; independent Reports reconciliation remains open.
@@ -39,7 +41,7 @@ The [Sticker Album](https://www.khwiki.com/Sticker_Album) gives **20 pickups per
 | 110 | Sonic Blade | Salvation | Deep Freeze |
 | 140 | Rhythm Mixer | Rhythm Mixer | Rhythm Mixer |
 
-Do not import the original game's 20/40/60/80/100 thresholds. Optimal sticker regions still need text placement guidance.
+Do not import the original game's 20/40/60/80/100 thresholds. All 60 pickup notes and 60 individual placement regions are now in `research-enrichment.json` and rendered in the guide. The 28 blank text-table cells were filled by visually inspecting KHRealm’s three completed album images. Each placement uses illustrated landmarks plus seven-point feedback; pickup completion remains independent.
 
 ## Report acquisitions
 
@@ -66,9 +68,11 @@ Thirteen acquisitions comprise the Letter plus Reports I–XII. Source: [Xehanor
 | Record | Concrete direction / prerequisite | Source and status |
 |---|---|---|
 | Terra, Dwarf Woodlands, Fission Firaga chest #9 | From the Courtyard arch, jump outward, Air Slide, then attack in midair to extend reach. | [World table](https://www.khwiki.com/Game:Dwarf_Woodlands); community lead |
-| Ventus, Dwarf Woodlands, Soothing Crystal chest #4 | Revisit Flower Glade after the Mad Treant encounter. | [World table](https://www.khwiki.com/Game:Dwarf_Woodlands); timing evidenced, precise spot pending |
+| Ventus, Dwarf Woodlands, Soothing Crystal chest #4 | Revisit Flower Glade after the Mad Treant encounter. | [World table](https://www.khwiki.com/Game:Dwarf_Woodlands); timing evidenced; approach is across the Flower Glade from the Deep Woods exit |
 | Ventus, Dwarf Woodlands, Balloon Sticker | Mine Entrance, beside the stairs. | [Album](https://www.khwiki.com/Sticker_Album); missing from the world-page sticker table |
 | Aqua, Deep Space, Dale Sticker | Southernmost cell on the eastern side of Turo Prison Block; High Jump and Air Slide are the listed access tools. | [Album](https://www.khwiki.com/Sticker_Album); validate minimum levels |
-| Aqua, Secret Episode, Secret Gem #5 | **Conflict:** world table says Lower Zone; the material page says Upper Zone. | [World](https://www.khwiki.com/Game:Realm_of_Darkness), [material](https://www.khwiki.com/Secret_Gem); unresolved |
+| Aqua, Secret Episode, Secret Gem #5 | Lower Zone: climb the raised pillars before entering Upper Zone. | [HD walkthrough](https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/birth-by-sleep-final-mix/aquas-story/secret-episode) corroborates the world table; isolated material-page Upper Zone label superseded. |
 
-Remaining work: authored directions for every row; earliest collectible access and save/episode returnability; repeated chest disambiguation; minimum movement levels and alternatives; all optimal sticker placements; official Reports ordering and independent chest totals. Counts and source URLs alone do not satisfy those gates.
+October 1: Terra’s Flying Balloon Sticker in Passage belongs to Castle of Dreams; its historical ID is retained for save compatibility. The generator now counts all eight Secret chests, for 442 total world collectibles.
+
+Remaining work: complete save-point paths where the source gives only relative landmarks; earliest collectible access and save/episode returnability; independent repeated-chest/Reports-order reconciliation; minimum movement levels and alternatives. All 374 main source rows and 60 album placement landmarks are integrated. Counts and source URLs alone do not satisfy those gates.

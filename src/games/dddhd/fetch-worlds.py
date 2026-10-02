@@ -1,42 +1,28 @@
-"""Refresh factual chest/portal inventory; no source guide prose is retained."""
-import concurrent.futures,urllib.request,urllib.parse,re,json,pathlib
+"""Refresh every HD treasure and built-in portal configuration; retain source note/access facts."""
+import concurrent.futures,re,json,pathlib,importlib.util
+folder=pathlib.Path(__file__).parent
+spec=importlib.util.spec_from_file_location('source_utils',folder/'source-utils.py');u=importlib.util.module_from_spec(spec);spec.loader.exec_module(u)
 worlds=['Traverse Town','La Cité des Cloches','The Grid',"Prankster's Paradise",'Country of the Musketeers','Symphony of Sorcery','The World That Never Was']
-def clean(s):
- parts=re.split(r'<br\s*/?>',s)
- if any('{{KHDDDHD}}' in x for x in parts):s='; '.join(x for x in parts if '{{KH3D}}' not in x)
- s=re.sub(r'\[\[File:[^\]]+\]\]','',s)
- s=re.sub(r'<ref.*?</ref>','',s,flags=re.S)
- s=re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]',r'\2',s)
- s=re.sub(r'\[\[([^\]]+)\]\]',r'\1',s)
- s=re.sub(r'{{c\|([^|]+)\|[^}]+}}',r'\1',s)
- s=re.sub(r'{{[^}]+}}','',s)
- s=re.sub(r'<[^>]+>','; ',s)
- return re.sub(r'\s+',' ',s).strip()
 def fetch(w):
- url='https://www.khwiki.com/'+urllib.parse.quote('Game:'+w.replace(' ','_'),safe=':')
- raw=urllib.request.urlopen(url+'?action=raw').read().decode()
+ url=u.source('Game:'+w); raw=u.fetch('Game:'+w)
  raw=raw[raw.index("==''Kingdom Hearts 3D: Dream Drop Distance''=="):]
- ch=raw.split('===Treasures===')[1].split('\n===')[0]
- char='';treasures=[]
+ ch=raw.split('===Treasures===')[1].split('\n===')[0];char='';treasures=[]
  for line in ch.splitlines():
   if '{{tab|Sora}}' in line:char='Sora'
   if '{{tab|Riku}}' in line:char='Riku'
-  m=re.match(r'\|(\d+)\|\|(.*?)\|\|(.*?)\|\|',line)
-  if m:treasures.append({'world':w,'character':char,'number':int(m[1]),'item':clean(m[2]),'area':clean(m[3]),'source':url})
+  m=re.match(r'\|(\d+)\|\|(.*?)\|\|(.*?)\|\|(.*)',line)
+  if m:treasures.append({'world':w,'character':char,'number':int(m[1]),'item':u.hd(m[2]),'itemKind':(re.search(r'Icon (.*?) KH3D',m[2])[1] if re.search(r'Icon (.*?) KH3D',m[2]) else None),'area':u.clean(m[3]),'note':u.hd(m[4]),'source':url})
  portals=[]
- if '{{InfoPortal' in raw:
-  sec=raw.split('{{InfoPortal')[1].split('\n}}')[0]
-  # Only parameter delimiters (not inner templates) start with recognized letter keys.
-  params=dict(re.findall(r'\|([SR][A-Za-z]+\d+[a-z]?)=(.*?)(?=\|[SR][A-Za-z]+\d+[a-z]?=|\n|$)',sec))
-  for k,v in params.items():
-   m=re.fullmatch(r'([SR])type(\d+)([a-z])',k)
-   if not m or v!='Special':continue
-   c,n,letter=m.groups();suffix=n+letter
-   portals.append({'world':w,'character':'Sora' if c=='S' else 'Riku','number':int(n),'area':clean(params.get(c+'loc'+suffix,'')),'reward':clean(params.get(c+'rew'+suffix,'')),'forecast':clean(params.get(c+'fc'+n,'')),'nightmare':clean(params.get(c+'rare'+n,'')),'source':url})
- return {'treasures':treasures,'portals':portals}
+ sec=u.template(raw,'InfoPortal')
+ params=dict(re.findall(r'\|([SR][A-Za-z]*\d+[a-z]?)=(.*?)(?=\|[SR][A-Za-z]*\d+[a-z]?=|\n|$)',sec))
+ for k,v in params.items():
+  m=re.fullmatch(r'([SR])type(\d+)([a-z])',k)
+  if not m:continue
+  c,n,letter=m.groups();suffix=n+letter
+  portals.append({'world':w,'character':'Sora' if c=='S' else 'Riku','type':v,'number':int(n),'sourceNumber':params[c+'no'+suffix],'area':u.clean(params.get(c+'loc'+suffix,'')),'reward':u.hd(params.get(c+'rew'+suffix,'')),'forecast':u.clean(params.get(c+'fc'+n,'')),'nightmare':u.clean(params.get(c+'rare'+n,'')),'objective':u.hd(params.get(c+'obj'+suffix,'')),'objectiveReward':u.hd(params.get(c+'objrew'+suffix,'')),'dropPoints':int(params[c+'dp'+suffix]) if c+'dp'+suffix in params else None,'rank':int(params[c+'rank'+suffix]),'unlock':u.clean(params.get(c+n,'Default')),'source':url})
+ return {'treasures':treasures,'portals':[p for p in portals if p['type']=='Special'],'builtInPortalConfigurations':[p for p in portals if p['type']!='Special']}
 results=list(concurrent.futures.ThreadPoolExecutor(max_workers=4).map(fetch,worlds))
-out={k:[x for r in results for x in r[k]] for k in ['treasures','portals']}
-assert len(out['treasures'])==438,len(out['treasures'])
-assert len(out['portals'])==78,len(out['portals'])
-pathlib.Path(__file__).with_name('world-facts.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
-print({k:len(v) for k,v in out.items()})
+out={k:[x for r in results for x in r[k]] for k in ['treasures','portals','builtInPortalConfigurations']}
+assert len(out['treasures'])==438 and len(out['portals'])==78
+folder.joinpath('world-facts.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
+print({k:len(v) for k,v in out.items()},'notes',sum(bool(x['note']) for x in out['treasures']))

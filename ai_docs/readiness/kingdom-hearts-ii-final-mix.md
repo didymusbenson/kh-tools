@@ -1,12 +1,10 @@
 # Kingdom Hearts II Final Mix readiness
 
-Status: **Implemented journal; records enriched by the September 27–28 data audits. Full catalog scope remains incomplete.**
+Status: **Implemented journal; October 1 complete audit review integrated. Exact residual evidence limits remain.**
 
-The [September 28 follow-up](../games/kh2fm/data-gap-audit-2026-09-28.md) resolves Moon/Star, corrects raw Petite Ribbon and collector quantities, adds all 50 KH2 Steam goals, 16 Roxas chests and twelve Mushroom rank tables. Optional discount controls, remaining chest route review and larger equipment/ability/Gummi expansions remain open.
+The [forty-finding resolution ledger](../games/kh2fm/research-resolution-2026-10-01.md) is the current research queue. Original findings and row-level occurrences remain in the historical [audit appendix](../games/kh2fm/research_audit.md); old September warnings are not active blockers after their documented resolution. All specified modules remain MVP.
 
-The [2026-09-27 audit](../games/kh2fm/data-gap-audit-2026-09-27.md) supersedes the resolved gaps in this original September 18 baseline: R01 Shock Charm is corroborated; R02 Mythril modifier and Manifest rank resolved (Moon/Star resolved September 28); R04 routes supplied without asserting minimum abilities; R05 cup gates resolved. R06 now has all 301 treasure and 144 puzzle directions, with brief legacy chest locators explicitly distinguished from newly reviewed routes. R08 has numbered assembly instructions. R09 has full material-source guidance and representative farm rooms. R12 has all 54 S-rank targets, EX constraints and rewards. The historical tables below remain a record of the starting evidence; use the linked audit for current unresolved work.
-
-Specification: [KHII Final Mix](../games/kingdom-hearts-ii-final-mix.md). Evidence: [research pack](../games/kh2fm/README.md), [inspected-source manifest](../games/kh2fm/sources-and-legacy-audit.md). All specified modules remain MVP. The accepted [collectible contract](../content/collectible-compendium-and-linked-views.md), [synthesis/inventory contract](../content/synthesis-and-inventory.md) and [testing/content validation](../testing-and-content-validation.md) govern acceptance.
+Specification: [KHII Final Mix](../games/kingdom-hearts-ii-final-mix.md). Canonical evidence: [research pack](../games/kh2fm/README.md) and [inspection manifest](../games/kh2fm/sources-and-legacy-audit.md). Research is community-source evidence, not a retail executable verification. App acceptance and factual evidence are tracked separately.
 
 ## Accepted decisions and answer log
 
@@ -23,52 +21,24 @@ Specification: [KHII Final Mix](../games/kingdom-hearts-ii-final-mix.md). Eviden
 
 No additional user decision blocks this research. Facts below are research/engineering work, not questions the user must answer.
 
-## Category evidence and remaining work
+## Current coverage and remaining work
 
-| Category | Starting evidence | What this pass adds | Current status / remaining work |
-|---|---|---|---|
-| Legacy coverage | Prior audit sampled tables; readiness was a stub | All 20 tabs read over bounded content ranges; all six SQL documents fetched/scanned; branch tree/code inspected | Audited. Accessories trailing-space recovery proves 33 rows, not empty. Five tabs truly empty. |
-| Sora treasures | 301 legacy records, with 24 missing Cavern locators | All 301 indexed; per-world counts/content compared; Agrabah #24 and canonical names corrected | Complete candidate index; precise directions/revisit rules need source verification and original writing. Numbering needs modern reference confirmation. |
-| Prologue | Absent from main treasure sheet | 16 unnumbered Roxas chest leads found in separate community table | Missing detailed record extraction/locators; character/time scope required. Must not block Sora's 39-entry Twilight Town list. |
-| Puzzle pieces | 144 rows; blank per-world number column | All pieces indexed; six set counts reconcile; Daylight #23 character scope corrected | Candidate coverage complete; movement alternatives/conflicts and exact directions partial. |
-| Puzzle assembly | Reward/set SQL only | 12/12/12/12/48/48 rewards; collected vs assembled vs claimed states | Missing precise grid/orientation solutions and accessible assembly guide. |
-| Reports/pages/charms/maps | Scattered chest/magic records | 13 Final Mix report grants, 5 page links, 4 charm sources, 16 recipe-document set | Direct reward/map inventory, area IDs and aggregate deduplication remain incomplete. |
-| Materials/farms | 60 material candidates, old rates and world-only enemy joins | 60-type taxonomy; nine family drop tables; seven Orichalcum+ sources; FM Serenity/Lucky Lucky corrections | Exact enemy areas/spawns, all Bright/Dark sources, collector thresholds/rank conflict remain partial. |
-| Synthesis recipes | 25 complete base rows plus placeholders and obsolete totals | 30 item-specific base recipes, 29 upgrade candidates = 59 outputs; ingredients/unlocks/modifiers/EXP | Community catalog, not certified menu completion. Shock Charm, ranks and modifier/rounding interactions unresolved. |
-| Equipment | 24 Keyblades; 12 staves; 12 shields; 34 armor; 33 accessories | Full legacy-name indexes, 24 sourced Keyblade acquisitions, FM ability corrections | Staff/shield FM additions absent from legacy; complete current acquisitions/stats and missability remain partial. |
-| Forms/abilities/magic | Abilities empty; 18 hard-coded magic tiers | Five form EXP/Growth mappings; ability-table scope; eighteen element-grant sources; Luxord correction | Full ability/AP/level-choice/party matrix and summon level thresholds unnormalized. |
-| Mushroom XIII | Empty tab; leads inside Missions sheet | All 13 locations/targets; distinction between appeasement, rank and rewards | Detailed appearance conditions, numeric farming tiers and strategies still incomplete. |
-| Silhouettes/Data/proofs | Empty silhouette tab; SQL material leads | Five portal/recipe sources; thirteen Data reward mapping; Proof chest trigger/dedup rules | Complete encounter guidance and exact Lingering Will unlock evidence still partial. |
-| Cups/records | Empty cup tab; Missions sheet | Eight score targets, unlock/reward corrections, 23 other record targets | Titan unlock predicate and Limit Form inclusion in Paradox gates conflict/uncertain; round/strategy detail partial. |
-| Gummi | Achievement references only | Nine routes × 3 × 2 modes = 54 records; 28 sample + 12 special main models; 12 special sources | Full score/rank/EX conditions, treasures, sample blocks and Teeny Ship dependencies missing. |
-| Achievements | 51 platform-mixed trophy candidates | Official Steam product/197 collection total distinguished from KH2; hidden-description limitations recorded | Steam-specific IDs/requirements and other modern-platform differences not fully reconciled. |
-| Modern release evidence | Generic modern baseline | Steam official release/inclusion; announced 2026-10-08 native editions distinguished | No executable build verified; preserve platform/evidence status rather than claiming parity. |
+| Area | Integrated evidence | Exact residual / boundary |
+|---|---|---|
+| Collectibles | 301 Sora treasures, 144 puzzle pieces, sixteen prologue chests, forty maps, sixteen document relations, thirteen reports and eighteen magic grants | All 301 treasure routes, six assembly grids and 31 reward areas integrated; four precise puzzle-landmark residuals remain in KH2-003 |
+| Synthesis | Sixty materials/ranks, 54 collection goals, thirty base/59 outputs, Moogle thresholds, Bright and discount rules | Optional discount controls are engineering only (KH2-022); base-cost planner remains explicit |
+| Equipment/abilities | 131 equipment identities and 167 scoped AP/effect/acquisition definitions | Dark Anklet missability conflict and incomplete stage-level shop conditions (KH2-006) |
+| Forms/summons | Five FM Form curves, Final/Anti activation rules, four charms and supported summon behavior | Full FM thresholds and charm caps integrated (KH2-009 closed) |
+| Challenges/records | Twelve Mushroom strategies/rank tables; twenty optional boss records; eight cups/120 rounds; 29 minigames; 21 Limits; Mickey rescue guidance | Earliest Mushroom VII/XII gates (KH2-013); exact Pain/Panic MP reduction conflict (KH2-015) |
+| Gummi | 54 mission-mode goals, 27 normal rank/treasure tables, forty main and nineteen Teeny dependencies | Shared Material/G inventory and all automatic Teeny dependencies supplied; no invented Steam denominator (KH2-018 closed) |
+| Bestiary | 127  source groups / 227 edition-scoped contexts; individual-source Journal rosters of 82 Heartless and eleven Nobodies | Blank individual Mushroom numeric attributes remain unknown (KH2-019) |
+| Platforms/provenance | Fifty Steam goals, explicit legacy-source limits and future-release distinction | No claim of October 8 edition parity, retail verification or recovered historical source metadata |
 
-Counts above overlap by acquisition and are not a sum for overall completion. The 301/144 tables support category denominators, not an already-certified complete world acquisition set.
-
-## Source conflicts requiring resolution
-
-- **KH2-R01 / Shock Charm:** item page vs Recipe/Tranquility summaries disagree on Tranquility Gem/Stone quantities; legacy also reverses Remembrance quantities. Preserve alternatives, resolve through an independent reliable modern reference before totals.
-- **KH2-R02 / rank/modifiers:** Moon Amulet rank A vs S; Mythril Gem's rank/modifier pairing; Manifest Illusion A vs S. Rank influences discounts/collector goals, so these are numerical blockers.
-- **KH2-R03 / recipe arithmetic:** establish exact Energy + Moogle stacking, rounding per craft and Ultima special treatment; confirm first-creation requirements, modifier quantities and all alternative methods. Do not certify legacy aggregate material totals.
-- **KH2-R04 / movement:** Daylight 14 requirements differ; other routes have alternatives. Distinguish standard Growth level, Form level and convenient versus necessary prerequisites.
-- **KH2-R05 / cup unlocks:** resolve exact Titan world prerequisite set and whether Final Mix Limit Form participates in Cerberus/Hades Paradox checks.
-
-Known corrected errors: Agrabah #24 Serenity Gem; Sora's Daylight #23; Final Mix Ultima Serenity Crystals and Petite Ribbon quantity; Luxord Magnet grant; original Lucky Lucky weapon abilities and Nobody Serenity farms. Full facts and citations live in the research companions.
-
-## Research queue
-
-1. **KH2-R06 — Directions:** Write exact approach/landmark/action/revisit text for all treasure/puzzle records; start with the 24 Cavern rows having no legacy directions. Verify using reliable source evidence; do not ask the user to complete a gameplay run.
-2. **KH2-R07 — Completion sets:** Extract Roxas records, direct maps/reports/recipe rewards, reward-linked acquisition identities, and per-world denominators. Preserve real numbering; clearly label app indexes.
-3. **KH2-R08 — Assembly:** Record six puzzle dimensions, placements and rotation solutions as accessible text/data.
-4. **KH2-R09 — Synthesis/source graph:** Resolve R01–R03, complete collector list and farm areas, reconcile all output/menu counts and calculation scenarios. Add owned/required fixtures with and without optional inventory.
-5. **KH2-R10 — Remaining catalogs:** Complete modern staff/shield/armor/accessory acquisition/stats, ability/party/level matrix and summon progression. Audit one-time prologue rewards without introducing a story checklist.
-6. **KH2-R11 — Challenges:** Complete mushroom rank rewards, encounter access/guidance and cup/record exact conditions.
-7. **KH2-R12 — Gummi/platform:** Normalize all 54 mode records, reward/blueprint/block relations, Steam IDs and genuine platform differences.
+The resolution ledger controls the current status of all forty IDs. These counts overlap by acquisition; they are not a global percentage denominator. Engineering UI/device acceptance is separate from the evidence queue.
 
 ## Engineering acceptance fixtures
 
-These are required tests when implementation exists; this research task did not run them. Follow [shared validation](../testing-and-content-validation.md).
+These are required engineering scenarios; completion of the research ledger alone does not prove all are tested. The shared resolution log records the actual commands and results from this pass. Follow [shared validation](../testing-and-content-validation.md).
 
 | ID | Test | Expected result |
 |---|---|---|
@@ -87,9 +57,9 @@ These are required tests when implementation exists; this research task did not 
 | KH2-E13 | Simulate storage failure and conflicting open views | Consistent rollback/retry state and accessible error handling |
 | KH2-E14 | Inspect spoilers and prerequisite presentation | All content visible; no reveal prompts, Available Now or saved plot-gate filter |
 
-## Data Jiminy evidence/evaluation set
+## Data Jiminy evidence/evaluation set (memories currently empty)
 
-The per-game Coppermind must ground these answers in acquisition IDs/source rows and retain current saved state:
+Future rebuilt per-game Copperminds must ground these answers in acquisition IDs/source rows and retain current saved state:
 
 - Where is Twilight Town Daylight 23, and is it Roxas-only? Correct Sora/Other Twilight Town scope.
 - I defeated all Data members; why is treasure 46 missing? Explain chest appearance versus opening.

@@ -1,5 +1,7 @@
 # KH2FM puzzle-piece research index
 
+> Historical September candidate inventory. The [October resolution ledger](research-resolution-2026-10-01.md) and canonical `verified-*.json`/`treasure-locations.json` supersede its old unverified/route-QA warnings. Original row provenance is preserved below.
+
 All 144 legacy rows are represented once: Awakening, Heart, Duality and Frontier each have 12; Daylight and Sunset each have 48. No duplicate `(puzzle, piece)` keys were found. These are proposed stable IDs. Numbers identify positions in a puzzle, not an invented per-world Journal number. The legacy world-number column is blank.
 
 [Kh2FM tables, Puzzle Pieces](https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit#gid=723125155) supplies the row/area/movement candidates below. [World research](world-collectibles.md) records corrections, assembly state and route limits. A movement requirement below is a legacy route, not proof of a universal minimum; alternatives can exist. No source locator prose is approved for production by this index.

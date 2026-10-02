@@ -1,0 +1,2157 @@
+[
+  {
+    "url": "https://www.khwiki.com/Abilities_(KH3D)",
+    "inspected": "2026-10-01",
+    "sha256": "268305e43e5ec9b52b2a94f7a32f5822e1d4a62b8a662a33a574e5a60b0e5033",
+    "bytes": 16985,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Aerial_Recovery",
+    "inspected": "2026-10-01",
+    "sha256": "ee0c9828e40c14473bafcf5daf4f6d5ff2de23e6a8799c44c2f5f74af3ee69b9",
+    "bytes": 6056,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Aerial_Slam",
+    "inspected": "2026-10-01",
+    "sha256": "d7ff4eda9c06477283043edf9b99a36aeb2cdee5a6a465810881f8e4c371c1a5",
+    "bytes": 6447,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Air_Slide",
+    "inspected": "2026-10-01",
+    "sha256": "42935799fb633b6589f594a3f6d513cba79d0b2452c6617f68a5d060a893fd48",
+    "bytes": 7796,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/All_for_One",
+    "inspected": "2026-10-01",
+    "sha256": "5f96948bc0f5bf6409ed5e6e0cc72a366b41d5cc250cc9ef0ca919250c3ddf5f",
+    "bytes": 1345,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Another_Guardian_of_Light",
+    "inspected": "2026-10-01",
+    "sha256": "bc0052afaa89da6501891a14309d2e59a7cf2f94847ea2d7f6d1b7015456fa13",
+    "bytes": 4127,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ars_Arcanum",
+    "inspected": "2026-10-01",
+    "sha256": "5bce510e01137571d0d8b7a33e6940034f2245603db426f054697dd7ac8dc5a8",
+    "bytes": 18211,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Aura_Lion",
+    "inspected": "2026-10-01",
+    "sha256": "75428d57d1c6a4a3160f24ded2dd2f2930ad6497f59a51d02d4b521e7b07f3e5",
+    "bytes": 13587,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Aura_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "19991089216d4f7260483351ab3f6dc59f567de2efaf94cc7c845ba958170ac4",
+    "bytes": 1341,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Balloonga",
+    "inspected": "2026-10-01",
+    "sha256": "7c070a83e2526a14656d57ff0da983443fab8d18e108aea95f6d4db1842c91f0",
+    "bytes": 31,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Balloonra",
+    "inspected": "2026-10-01",
+    "sha256": "7c070a83e2526a14656d57ff0da983443fab8d18e108aea95f6d4db1842c91f0",
+    "bytes": 31,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Beatalike",
+    "inspected": "2026-10-01",
+    "sha256": "05bfca87426b45d8e97c9ed5c0cd9861100c09e07161979d9eea335f70a88e1c",
+    "bytes": 7985,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Beginner%27s_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "0f9e08614e8c6e89a71b07214bc89ee98183f949886a16279723077c8204f67b",
+    "bytes": 1552,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Belly_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "8dcf9085279140845a748d037c58d092f9ff27ac254ea26f8cdc6105be52df58",
+    "bytes": 989,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Berserker_Bronco",
+    "inspected": "2026-10-01",
+    "sha256": "0558787bf133d1fc0603fffa7aeb625a3b5299f4ff820939763192b9aa095a27",
+    "bytes": 1065,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Bind",
+    "inspected": "2026-10-01",
+    "sha256": "9712f888b336938ce73fb9970670047755abe87f3f3171cd960a6904d3696717",
+    "bytes": 4136,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blackout",
+    "inspected": "2026-10-01",
+    "sha256": "45cb9c275f50865ed7ae5707b8ebb65a9bd5a39e31552782567e324902e4ef6e",
+    "bytes": 3719,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Bladecharge",
+    "inspected": "2026-10-01",
+    "sha256": "ec071aaafcbaabdd9caa06a45e5adb0b97cb42946d044334025167a788fd012d",
+    "bytes": 3638,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blitz",
+    "inspected": "2026-10-01",
+    "sha256": "e3177c66d9c7aae188c08f7eaf3236b861a626196b6a6fe9401792710e24d353",
+    "bytes": 10196,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blizzaga",
+    "inspected": "2026-10-01",
+    "sha256": "b86d06c394535702ad21605cd36260231032cf57a9ba3847ea9ec3fefa6dd419",
+    "bytes": 22,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blizzara",
+    "inspected": "2026-10-01",
+    "sha256": "b86d06c394535702ad21605cd36260231032cf57a9ba3847ea9ec3fefa6dd419",
+    "bytes": 22,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blizzard_Edge",
+    "inspected": "2026-10-01",
+    "sha256": "2fd73551ec4c716541f548ea2540b43a42cb8f84b03ffe0bc70de0728d3224de",
+    "bytes": 5352,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blizzard",
+    "inspected": "2026-10-01",
+    "sha256": "020d42ce0a46003ac41a4730f21bfce33a2bf2623d87f470aca530001c3d5dcc",
+    "bytes": 26988,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Block",
+    "inspected": "2026-10-01",
+    "sha256": "0e5626ea513e18c1f4ed4330e8adabf0340d2ff8ac8760f60c68e560865da148",
+    "bytes": 11472,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Blow-off",
+    "inspected": "2026-10-01",
+    "sha256": "348c35f411da629177de2bdfd7ff53bebc815ff18afae042db7f2bde2c0a403b",
+    "bytes": 1150,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Break_Time",
+    "inspected": "2026-10-01",
+    "sha256": "f6c89cb42cdbcfbf7a747434f4dba81b2b13100b288ca573a51ed8b2f09a1e1e",
+    "bytes": 3879,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Brilliant",
+    "inspected": "2026-10-01",
+    "sha256": "32ccdcd30b4c799daca296e18849220934cf47c0e18ab3585b527c5d360ed420",
+    "bytes": 3165,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Bubble_Blaster",
+    "inspected": "2026-10-01",
+    "sha256": "8c122a3d652532ef99568adf763b7fe3fc7609368fb05eb932ab1a5a5d514867",
+    "bytes": 2307,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Bubble_Burst",
+    "inspected": "2026-10-01",
+    "sha256": "1c74af7503e03e6e5c22708818f878e84f65a712da45059bf3e7ef540baa808e",
+    "bytes": 1913,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Buzz_Saw",
+    "inspected": "2026-10-01",
+    "sha256": "952993a3219feaa6dde2c2108172d4de053ea7310be42d1203659efc707a6312",
+    "bytes": 1683,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Catanuki",
+    "inspected": "2026-10-01",
+    "sha256": "a6dd9dadccf3114343ae9343472546b33e0604182c86d85333e98e95342d1085",
+    "bytes": 8731,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Cera_Terror",
+    "inspected": "2026-10-01",
+    "sha256": "25a92220e89f66ec3229315e59a8503b0ca4971a860e19ffbca62a6ab34869f9",
+    "bytes": 12100,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Chaos_Snake",
+    "inspected": "2026-10-01",
+    "sha256": "1ebd6491e2a12c35eede12e5b10fdbad4b9126539e24e2860cb270eff4ddb24c",
+    "bytes": 2820,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Charming",
+    "inspected": "2026-10-01",
+    "sha256": "7a3908578e840d140c74f18fccd95f071154fb1f1637a233c4f70516ec926d4d",
+    "bytes": 3011,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Chef_Kyroo",
+    "inspected": "2026-10-01",
+    "sha256": "eb4e7417f0f05fbf38c7a78e59e9541268b519c1607b8f14c0480d603dece9b1",
+    "bytes": 13787,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Circle_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "b8937d8f51f075da1f011698e2e60869b0ba694d3737905894a59c9716cf7db8",
+    "bytes": 2268,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Code_Break",
+    "inspected": "2026-10-01",
+    "sha256": "affda238fd0afb0d531b674dc7bb44bd590d1dc7aeef8c68c65d3766505a1680",
+    "bytes": 5800,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Collision_Magnet",
+    "inspected": "2026-10-01",
+    "sha256": "432ae993bfa7cf477a6447a886e2f8f95af1e41d39c53d02eabad050563518c6",
+    "bytes": 4516,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Comet",
+    "inspected": "2026-10-01",
+    "sha256": "c8ffdb0367ec0ccab93c1f2f5fe63b0c516aed5b30c22e95b2eb94969b2d086b",
+    "bytes": 1182,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Confuse",
+    "inspected": "2026-10-01",
+    "sha256": "9c04ff4e3f69767f9aff3aba0988b6d6cae06459b47e5134d58a5b7aa2bc5d3a",
+    "bytes": 5376,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Confusing_Strike",
+    "inspected": "2026-10-01",
+    "sha256": "4b2b0b2188d7d6aa6e9f274c3be4fe175306ce0eaa2c5f26f518d32c04da004a",
+    "bytes": 4779,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Counter_Aura",
+    "inspected": "2026-10-01",
+    "sha256": "22bd0fa69f17261ed69831d3a394738646cd7e53bf9e4b78639a73356d738ade",
+    "bytes": 1714,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Counter_Rush",
+    "inspected": "2026-10-01",
+    "sha256": "f1e0efa716f04f980080b30435f50161ba202435421b7e42307f8666ebdf5de6",
+    "bytes": 2798,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Counterpoint",
+    "inspected": "2026-10-01",
+    "sha256": "dc12a056783238ace8e46dd8d2db84e3618e9ff1fcdd664a56914722e4170488",
+    "bytes": 5649,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Cura",
+    "inspected": "2026-10-01",
+    "sha256": "4360aba5ae67624b2ff8dc20358be0dd1cfac09321bf3a0455206bfbd37d867f",
+    "bytes": 18,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Curaga",
+    "inspected": "2026-10-01",
+    "sha256": "4360aba5ae67624b2ff8dc20358be0dd1cfac09321bf3a0455206bfbd37d867f",
+    "bytes": 18,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Cure_Sun",
+    "inspected": "2026-10-01",
+    "sha256": "37e6eed91f9ab87fa821c68db4d0290c6636456a6a6b5afec0e8478a0a9190d5",
+    "bytes": 1098,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Cure",
+    "inspected": "2026-10-01",
+    "sha256": "f0f3971cb90e171d6810bee556ec44832cf355038bda04eee213e97a218979e6",
+    "bytes": 28946,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Cyber_Yog",
+    "inspected": "2026-10-01",
+    "sha256": "c45a5d6d904dc9d355834db2cb6d9593fad99dfce620bd282acb658de34112e7",
+    "bytes": 10776,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Aura",
+    "inspected": "2026-10-01",
+    "sha256": "1114e4ee76e0faf4e2b76dc7635455872ad1af46b2c1c94abefd62259271064d",
+    "bytes": 9948,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Barrier",
+    "inspected": "2026-10-01",
+    "sha256": "ab786e0c8b19b0e5d5938dc33427f2fc6377e58e6c1fd741364d8e216388d694",
+    "bytes": 1603,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Break",
+    "inspected": "2026-10-01",
+    "sha256": "81ebfbedf85ee252248339cb1c973401606337412f52051cf405621decd88a8f",
+    "bytes": 6063,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Firaga",
+    "inspected": "2026-10-01",
+    "sha256": "be636fed0a7e1afeb29523f93dabe12418e4c4d0aa821f52bcb56ae7b7906b7f",
+    "bytes": 12815,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Roll",
+    "inspected": "2026-10-01",
+    "sha256": "6f01f97b943bdcb77f9767195d90d7ec9fe1ce2a8eefe7d31f7a3e6fd6d6e47f",
+    "bytes": 1423,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dark_Splicer",
+    "inspected": "2026-10-01",
+    "sha256": "e1c56e186b390a5901686c1d5a35e3ba32562237efd4e64db182a79f410a398c",
+    "bytes": 3129,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Darkest_Fears",
+    "inspected": "2026-10-01",
+    "sha256": "210e7b8f8c51383ffa80cb53e27946137c4992ba80370333259f3ae2dad17e44",
+    "bytes": 1591,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Deck_Command_(KH3D)",
+    "inspected": "2026-10-01",
+    "sha256": "026fe84408d321cb667f45643067ced921f61aba43df779d8e260fba5c0b8c1c",
+    "bytes": 27307,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Decussation",
+    "inspected": "2026-10-01",
+    "sha256": "38a9d672166196a5d142df3d030815ad5d5d3f3b8c3671658bc9913096a8315a",
+    "bytes": 2027,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Digital_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "0e7f3f2a6c6d718a2e94c7438f28c4a8f5b7c30c228ea1e8917c6c8dbc74474f",
+    "bytes": 852,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dive_Mode",
+    "inspected": "2026-10-01",
+    "sha256": "7028d1967240d5f81debb4fabd2501bde3d4faaf0ce510e56f5e33947c3ffdcb",
+    "bytes": 5549,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Divewing",
+    "inspected": "2026-10-01",
+    "sha256": "de183c9d52f7f1b194ac04fcd6c1e37d921be3067589e39b672f5d489af26daf",
+    "bytes": 1086,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dodge_Roll",
+    "inspected": "2026-10-01",
+    "sha256": "4b633309a41d42119217b8d484d36dca770551f19dbfa27b6b17f67bca97ab78",
+    "bytes": 9551,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Double_Impact",
+    "inspected": "2026-10-01",
+    "sha256": "d65e61074bda5022aefc279eb62061571accf899603740527f86a64b3afa8317",
+    "bytes": 1055,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Doubleflight",
+    "inspected": "2026-10-01",
+    "sha256": "8cdb16b499c46a11640004e2d04c8f4302a7a89c3b1839e8a3b0c56b008c4748",
+    "bytes": 2979,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drain_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "4ce98e33f360a6295fa8a657c2742db9a74a7172419b270e87333ad77ba96270",
+    "bytes": 1629,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drak_Quack",
+    "inspected": "2026-10-01",
+    "sha256": "448e97aa0fefc40ea0999310a9d4c793415c8ec9c1eea010fe4a922ba7ebae42",
+    "bytes": 12875,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dream_Candy",
+    "inspected": "2026-10-01",
+    "sha256": "b85fc343cab5d8f350408cd655f5021f09b119f85e2e9b4b0da0e9dd7f698fdb",
+    "bytes": 1349,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dreamline",
+    "inspected": "2026-10-01",
+    "sha256": "c80f47390e72b9e38deeef217e02b8d62075ddd79f04ae1cbcd396c008781bc0",
+    "bytes": 1157,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drill_Sye",
+    "inspected": "2026-10-01",
+    "sha256": "62f5d97bff9c61ceea26ea420d6c3fdbdd6e4df06c546854b705a993bcdd6d2b",
+    "bytes": 9771,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drop_System",
+    "inspected": "2026-10-01",
+    "sha256": "68787725a8f60fd0e94fd89ba85c90ddc270d001331ced9d64b9cc250c490862",
+    "bytes": 17735,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drop-Me-Never",
+    "inspected": "2026-10-01",
+    "sha256": "182a7a99e0b8f896dfa169fdc97e8bdffb203ba693191775427bb45f8f89c18e",
+    "bytes": 1367,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Drop-Me-Not",
+    "inspected": "2026-10-01",
+    "sha256": "b3f876d9381037a26f325673e43ab227fd929765350753f7cbc1342c93df6894",
+    "bytes": 2639,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dual_Disc",
+    "inspected": "2026-10-01",
+    "sha256": "c8592df68182a7855d9126ab4afa4ed9ae1b5ff0fa856a31ab8c85d18b321878",
+    "bytes": 1103,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ducky_Goose",
+    "inspected": "2026-10-01",
+    "sha256": "8a46aca06786de90e7a6d457d8f557e66d5be405ba6e8c51b3a59d711b029cf1",
+    "bytes": 12442,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Dulcet",
+    "inspected": "2026-10-01",
+    "sha256": "b2d3d1696dfa55cf9eabca628314c5977eae0f6e3e5a55c70ee07f64fc38e60b",
+    "bytes": 8244,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Eaglider",
+    "inspected": "2026-10-01",
+    "sha256": "09faa4a16380d8f793a53583543cc333ba65e9572a2f16a0fb3a9880be8f38df",
+    "bytes": 8775,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Electricorn",
+    "inspected": "2026-10-01",
+    "sha256": "6615e7ee2f585f227dc2e03231649ff810e76dfecfa7367cd9c415bc5898dddc",
+    "bytes": 11381,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Elixir",
+    "inspected": "2026-10-01",
+    "sha256": "2c8dd383d7db8982ec96dd83680b72f7ab141d29c9069bef0bca2bd9cc3a2375",
+    "bytes": 11215,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/End_of_Pain",
+    "inspected": "2026-10-01",
+    "sha256": "cfb76f1d33211055274eff385a57c9409f26a32dcaa8f479d950d7f175358b38",
+    "bytes": 1397,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Epic",
+    "inspected": "2026-10-01",
+    "sha256": "eea8df762e4f33f75025c69bd07a4b31243ebd46e39e62382b52c0434479b0d0",
+    "bytes": 2753,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Equestrian_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "e3a4b42e0332bd6c810d36aa8e14dd9bdd7f22ba74b9fa1b183999e8ebf3b4a8",
+    "bytes": 2483,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Escarglow",
+    "inspected": "2026-10-01",
+    "sha256": "f1b5966f40a4d3e9350e6fd8d6d08f396a2f8d4aa39d636e5a8e30a73dcb535f",
+    "bytes": 9210,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Esuna",
+    "inspected": "2026-10-01",
+    "sha256": "4d19c0823d8a5c7ec0a7b984cef9d39c5ee787d4736acfd2a6532979bc359a71",
+    "bytes": 5482,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Faith",
+    "inspected": "2026-10-01",
+    "sha256": "df991564817d3b36e8cebac110f36bbce24acc64af28bd1c354dc4d06968e403",
+    "bytes": 10427,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Faithline",
+    "inspected": "2026-10-01",
+    "sha256": "82d3e54cd3a64410cee1f7c23c9d66ed0e69fa1b3310a218bcdab8056b2ca226",
+    "bytes": 1698,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ferris_Gear",
+    "inspected": "2026-10-01",
+    "sha256": "c62cfe7c138f60919729fa9ea24ad86a54fcd9a5fc60ce2a9383200139a31416",
+    "bytes": 1250,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fin_Fatale",
+    "inspected": "2026-10-01",
+    "sha256": "e1c7290c1d59cff30a2fa4db512b5bf1a254ce8a94c6cf7cd5c2c516ec4d2f2d",
+    "bytes": 10022,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Final_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "48c3d8a0737800a42e752c08a60881e6ebb6d47a61de2f904bad3414eff728ee",
+    "bytes": 1419,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fira",
+    "inspected": "2026-10-01",
+    "sha256": "b6fc017118692392bd16dbc5f780c176d11f3c52960b6ff5a5edc1a4cc093589",
+    "bytes": 18,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Firaga_Burst",
+    "inspected": "2026-10-01",
+    "sha256": "5120ab7af6461447f297e8281e30ee0c57b751d415a92ced2a4f6315a7158988",
+    "bytes": 5096,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Firaga",
+    "inspected": "2026-10-01",
+    "sha256": "b6fc017118692392bd16dbc5f780c176d11f3c52960b6ff5a5edc1a4cc093589",
+    "bytes": 18,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fire_Blaster",
+    "inspected": "2026-10-01",
+    "sha256": "488405bfc59101073459fca41985ad1d08e0e81e78d47c5bedf3aa93435e38e7",
+    "bytes": 1310,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fire_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "6c40f9b7a899f0f0979e3c023001bc386629a3666dba2dfd9bed2444868aa18a",
+    "bytes": 5484,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fire_Windmill",
+    "inspected": "2026-10-01",
+    "sha256": "5b1c5e49589cebef1ca17367433975121a06861a7680baeee752df0fa315d1c8",
+    "bytes": 1499,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fire",
+    "inspected": "2026-10-01",
+    "sha256": "a9d0648843b87f30ee7174ede977bc06ec8c0b18efbe761c3902da9232689d2e",
+    "bytes": 27170,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fishbon%C3%A9",
+    "inspected": "2026-10-01",
+    "sha256": "4980896514006ec46f4ad01f2b28220a317be12dd3e5a858c9e00ee212c4fa0b",
+    "bytes": 9156,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Flame_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "134bb85bf5a73a289a0e1a1e0d243699a7ad1cf21107c3885263722c748e547c",
+    "bytes": 1305,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Flame_Thrower",
+    "inspected": "2026-10-01",
+    "sha256": "6f7f07e6a2aa02b3eac56e481da003c25f75acd75f345df948094c37384bf50b",
+    "bytes": 1280,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fleeting",
+    "inspected": "2026-10-01",
+    "sha256": "d3855ad45d70233b5e1e58003c5c247ead737aef33ad2f63339181ee1df9208e",
+    "bytes": 2356,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Flick_Rush",
+    "inspected": "2026-10-01",
+    "sha256": "790f85e6301358695bc6c30db11d115ebe45e00e49311f2ee1110c3ceb632c88",
+    "bytes": 20534,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Flowbermeow",
+    "inspected": "2026-10-01",
+    "sha256": "822ccc10118021028630df928399f9c5fababf0b9c5a4458e6ca8c197aa10e02",
+    "bytes": 9965,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Fly-By_Knight",
+    "inspected": "2026-10-01",
+    "sha256": "ea07e65a27f65f374b34d9cf08df5fcc94320716a7af708e3c50304c619ba5ea",
+    "bytes": 3508,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Frootz_Cat",
+    "inspected": "2026-10-01",
+    "sha256": "08d73cfc10d46a65c28c4897533f38c54c8687a65c2ab8cd0f7ebbd40946b1d6",
+    "bytes": 7385,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game_Clear_Data",
+    "inspected": "2026-10-01",
+    "sha256": "99e10a9233c6806bd8b5f8fdf8f414052106e3a3f2595739a193901577d47805",
+    "bytes": 9177,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Country_of_the_Musketeers",
+    "inspected": "2026-10-01",
+    "sha256": "9ebde1f471a01b7e38ed2b2df781ad262f819a388555d69f9cb0d73daa5285f6",
+    "bytes": 21897,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:La_Cit%C3%A9_des_Cloches",
+    "inspected": "2026-10-01",
+    "sha256": "11eac498d293978e4dc33ce44b182d1aa0a711f093b3314d2037843fdf2e52f8",
+    "bytes": 23515,
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "chestRouteInspection": "full web retrieval and current canonical extraction; Chest35 Block-it Chocolate2→Drop-Me-Not; chest36 Drop-Me-Not→Catanuki Recipe."
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Prankster%27s_Paradise",
+    "inspected": "2026-10-01",
+    "sha256": "8b60196f838e1126de1d8999516067160da7a2d3075c375c1aafca4f3da1850c",
+    "bytes": 21619,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Symphony_of_Sorcery",
+    "inspected": "2026-10-01",
+    "sha256": "83f560dce6e2e739bea6e2321d86b71d3c65baec6d9fff469c15a67caa0db124",
+    "bytes": 17959,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:The_Grid",
+    "inspected": "2026-10-01",
+    "sha256": "8b48cd4c0f81703361f4ba5976e76d66d826d0179b4ef960c5b66d718c167c05",
+    "bytes": 23064,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Game:The_World_That_Never_Was",
+    "inspected": "2026-10-01",
+    "sha256": "98fb8b70a91e795392ab3b06b839b1c208603a3f82f1bc59c96dd9793e8bcc21",
+    "bytes": 18682,
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "chestRouteInspection": "full web retrieval and current canonical extraction; Current Curaga2/Doubleflight3 identities; preserved saved IDs despite location-guide ordering."
+  },
+  {
+    "url": "https://www.khwiki.com/Game:Traverse_Town",
+    "inspected": "2026-10-01",
+    "sha256": "0ad75b6a1d8f3d4def5bfe1fb81a2ee48820c81023d2f3172d3f5447391e66aa",
+    "bytes": 82979,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ghost_Drive",
+    "inspected": "2026-10-01",
+    "sha256": "602200f85c13afa2e3cde25d955eeab1da94ef559e9c80e26a00c41405ffd865",
+    "bytes": 4124,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ghostabocky",
+    "inspected": "2026-10-01",
+    "sha256": "fa53c3a3747f40a217be1cdba9d7aec6b8acb93998ec90f508833e498171daa2",
+    "bytes": 11763,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Glide",
+    "inspected": "2026-10-01",
+    "sha256": "b0e1f4ad23dd47a2eb2df353ea2fb20357752afd87cfec951aef32640a3b872f",
+    "bytes": 7760,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Gravity_Strike",
+    "inspected": "2026-10-01",
+    "sha256": "cadbf9f764603ded226ce27a7f9059cbe455594b79a2c31de58e09e50d862d40",
+    "bytes": 1539,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Grim",
+    "inspected": "2026-10-01",
+    "sha256": "ee7d769dafef1e59102abfb3a1b8d7d4690962ca1caf03d8309922d6ec9c6edd",
+    "bytes": 6895,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Guardian_Bell",
+    "inspected": "2026-10-01",
+    "sha256": "37b7fa0b8b6c2677bd5f10f2d2e20defcfd8737a68ede7a729fe7bef6df63c5b",
+    "bytes": 1170,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Halbird",
+    "inspected": "2026-10-01",
+    "sha256": "5e345f77e93111e01275ce8e6e22bc6ebc8bebd2c488acaf0dcf91307f4679e6",
+    "bytes": 10049,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Hammer_Throw",
+    "inspected": "2026-10-01",
+    "sha256": "497e4d06b1c0643ced6896abb1605b9104a87bfa7322a3b3530816e930d29b5c",
+    "bytes": 889,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Hebby_Repp",
+    "inspected": "2026-10-01",
+    "sha256": "4e39befc3bdb34e2641e686bbc3005f23d594b7f6faa5ac36a88052e906874d6",
+    "bytes": 8963,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Hi-Potion",
+    "inspected": "2026-10-01",
+    "sha256": "e017dc2ee0dc9ebac940296b0a6b9f4536db2b852de4e148e9d37cb96e79c546",
+    "bytes": 16608,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/High_Jump",
+    "inspected": "2026-10-01",
+    "sha256": "a61adb0c566adb1cd964b11a2117ba7763c7c7a579fd451399df8674163def64",
+    "bytes": 5705,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Horror_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "b751529a9d394dc7a9251b83b73bd823f56417d22c5909c4e6a1cf3e3d3050be",
+    "bytes": 683,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ice_Barrage",
+    "inspected": "2026-10-01",
+    "sha256": "0b3fe0c0490e223eb545429aa86d84cabf3fda9abcd2ff1924699dbdc0976862",
+    "bytes": 2988,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ice_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "39b735cdbd28a8488429f233bf592c4fde3e368f028fe4150a1155f9ce891826",
+    "bytes": 1238,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Icebreaker",
+    "inspected": "2026-10-01",
+    "sha256": "82bba93c10d781e3492c69b0e517dd8f00474dcd4b9b5a1c2ecab33a5fe76baf",
+    "bytes": 1755,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Iceguin_Ace",
+    "inspected": "2026-10-01",
+    "sha256": "dbd5ce15240da925889c810a33bd658b6a99f0fd7a098840ba83cb13dd57c679",
+    "bytes": 11321,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Icicle_Splitter",
+    "inspected": "2026-10-01",
+    "sha256": "758eb9429bdbfc498d62d5a60d00a8212e02dee870153e76e57c83d9b59be2cf",
+    "bytes": 26,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Intrepid",
+    "inspected": "2026-10-01",
+    "sha256": "de7861eb9777a280d3e9e38e344ee1a0d24fb4b35622173232407a5867a422cc",
+    "bytes": 8479,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Jestabocky",
+    "inspected": "2026-10-01",
+    "sha256": "09368715faac27d0d6b7c2976467ec23991cf10982ce63e9bc10f653c5305331",
+    "bytes": 12076,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Juggle_Pup",
+    "inspected": "2026-10-01",
+    "sha256": "335064503c070f8fc5709641ab9d342b854bc0d93fa4088d9f13ab33115a8cd3",
+    "bytes": 14060,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Julius",
+    "inspected": "2026-10-01",
+    "sha256": "ff167c15841fb66cd868425b425cec79de4c7cb1af06b359022454e8966952ba",
+    "bytes": 20095,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Jump",
+    "inspected": "2026-10-01",
+    "sha256": "ca9c613f9ad3d713a4748a8bdcf57b7515d153fe05c345f5cc622c539f2c4c7b",
+    "bytes": 3483,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/KO_Kabuto",
+    "inspected": "2026-10-01",
+    "sha256": "f31c6a6816354de63bbf4ac85b674a90d6932d660c16c708be30e5c72ee3ac7b",
+    "bytes": 10241,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Kab_Kannon",
+    "inspected": "2026-10-01",
+    "sha256": "17dc7c415809fc383ad7d0878f0fcdf72a7395fb234274269eed43c73b2d9e1d",
+    "bytes": 9580,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Keeba_Tiger",
+    "inspected": "2026-10-01",
+    "sha256": "cf98a12a26a7e2b0da7f639463b13c728fec23970e3d5d53076c73bf84f132ac",
+    "bytes": 12565,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Kick_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "070b8b8f8fbb0a758b63e7f45e1534b6b49774893df8b9dacf41576702d0273f",
+    "bytes": 1037,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Kingdom_Hearts_Dream_Drop_Distance_HD",
+    "inspected": "2026-10-01",
+    "sha256": "4993c0b623062f4dd1a5cc6d92e5a935ebb34e0a7521c582016d23a7165fb0ba",
+    "bytes": 11698,
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "chestRouteInspection": "full web retrieval; Edition-change context; all14 Goggles replacements checked against specific current world rows."
+  },
+  {
+    "url": "https://www.khwiki.com/Kingdom_Key",
+    "inspected": "2026-10-01",
+    "sha256": "a8a586151d9513942fe5700cecbf83f61d8af776ec24d3a6a350d020d2b7eb49",
+    "bytes": 24497,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Knockout_Punch",
+    "inspected": "2026-10-01",
+    "sha256": "768b78f86b89f20cea921793fce6e0f9ce730cfa3e7966e4e875ccddc8ab1385",
+    "bytes": 1618,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Komory_Bat",
+    "inspected": "2026-10-01",
+    "sha256": "8eb3b68654211221dc063806cb5ba669e05c301c906ddc4535105a1a5a938664",
+    "bytes": 12217,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Kooma_Panda",
+    "inspected": "2026-10-01",
+    "sha256": "0ca7b9b69124eb03366ce92bca1654d48295ecfa87d47260798f5f1de112367c",
+    "bytes": 14327,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Limit_Storm",
+    "inspected": "2026-10-01",
+    "sha256": "d9d0d6b817078319c5ec9ff76eee36b38ccfc0dcb81b2d5098343d10df82cd0d",
+    "bytes": 3706,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Link_Block",
+    "inspected": "2026-10-01",
+    "sha256": "78c99754be3ee57f3260786211fb1bb5e51735ff49dfadf0ec8ba0c91c9cf043",
+    "bytes": 1328,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Link_System",
+    "inspected": "2026-10-01",
+    "sha256": "c6747e945efabe27baa7fc956b24215789818628fcfded20c036982847169163",
+    "bytes": 15483,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Lofty",
+    "inspected": "2026-10-01",
+    "sha256": "b80c27252ac253b8210ed6c850d94da9ab84f3f49f4007a60088837ad2c4b723",
+    "bytes": 8983,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Lord_Kyroo",
+    "inspected": "2026-10-01",
+    "sha256": "21608bdf90d7c176ed51d8f7ce2aa40da6673111131d9da0fc82e613a0382500",
+    "bytes": 17813,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Lucky_Dice",
+    "inspected": "2026-10-01",
+    "sha256": "0bebe818ae6f60a2d0da147a05e89e65dba0bbe21dd02ce14fafd805d00c93e5",
+    "bytes": 2617,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Magnet_Spiral",
+    "inspected": "2026-10-01",
+    "sha256": "3f958a9c75cfb1cb26e2d09b4ac8678ada1dc815a2d10762e1e07063642d5c73",
+    "bytes": 3941,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Majik_Lapin",
+    "inspected": "2026-10-01",
+    "sha256": "0b77f25430c0b50597fb4a6be47c89a43db226759005dc9e276eb0938745bb95",
+    "bytes": 13241,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Malleable",
+    "inspected": "2026-10-01",
+    "sha256": "5abfaa7c6172134198e9cc8f8787f1076fd52466d9c4246a6ad83c844aff4c67",
+    "bytes": 2962,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Me_Me_Bunny",
+    "inspected": "2026-10-01",
+    "sha256": "70f9e592a5f9ce6068f2dd7e7908e38eb4501abccec5ec9a5b352ea0f544bb17",
+    "bytes": 9454,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Mega_Flare",
+    "inspected": "2026-10-01",
+    "sha256": "93ef00c4e4364c675f5f8d50c4be213c8b396e59b683d0f2a1200134a3bf7d68",
+    "bytes": 6223,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Mega-Potion",
+    "inspected": "2026-10-01",
+    "sha256": "f144b432747c257db5f6d20150743f926b062bdee3c55458ff8d2d8be291c8ab",
+    "bytes": 11088,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Megalixir",
+    "inspected": "2026-10-01",
+    "sha256": "c003c70f04bc726ce0e55942340681b55458b3a2eb4d701f0b43cfd9982255f9",
+    "bytes": 8376,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Melody_Catcher",
+    "inspected": "2026-10-01",
+    "sha256": "59c46fed9393e7e1f04472cc36c607f0df86834fa8dfb615350b08eb20e3bc53",
+    "bytes": 1859,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Meow_Wounce",
+    "inspected": "2026-10-01",
+    "sha256": "b4151844300bb6df90779a3c81a17da873d61cc23654fb1a439899ca8979d92c",
+    "bytes": 1602,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Meow_Wow",
+    "inspected": "2026-10-01",
+    "sha256": "50da1e1c0325fc01fd52b54c153429f5e2e6cc8b079649bd736b3d02f4788b86",
+    "bytes": 13905,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Meowjesty",
+    "inspected": "2026-10-01",
+    "sha256": "df1b99687ba7a94d67b98a46634571e47e502875d7b8e8bf45682a6f6bf7f6a7",
+    "bytes": 7675,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Meteor_Crash",
+    "inspected": "2026-10-01",
+    "sha256": "fe44eeb3e4527da1e3f4178e084ac6d10eaff5f6e7b975fb782ff0a15611b60f",
+    "bytes": 3208,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Meteor",
+    "inspected": "2026-10-01",
+    "sha256": "e852f94f4fd97c74d4f6ef9a517edacf48f801a452f70833149f7ff6310a4476",
+    "bytes": 3968,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Mini",
+    "inspected": "2026-10-01",
+    "sha256": "55f173d843bab5dbb4715887bd72472ac8226819c995c4fcd6075382cc1158f8",
+    "bytes": 3611,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Mirage_Split",
+    "inspected": "2026-10-01",
+    "sha256": "95873154417de0ff0a6fdb6c677aedcc84569cdd1c3294e2696571bcf4f103ab",
+    "bytes": 74,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Moogle_Shop",
+    "inspected": "2026-10-01",
+    "sha256": "0caab11c64ca12035baada8020c464872af318b0e3cc45debd5612462c5b9a1b",
+    "bytes": 195201,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Necho_Cat",
+    "inspected": "2026-10-01",
+    "sha256": "03bbf19f8f5043182206d046b93516572a78e8d338dced33fb17631af5617202",
+    "bytes": 10943,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Nightmare_Clash",
+    "inspected": "2026-10-01",
+    "sha256": "6d388d39e6d664682ffd81dc390ff088d56becb644dc3dfb0245227aa55e042b",
+    "bytes": 2875,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Noble",
+    "inspected": "2026-10-01",
+    "sha256": "943dfa6b0668c485a80caabe9b55b7e78843feb274b5412eebb2a212091a5a2c",
+    "bytes": 8638,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Panacea",
+    "inspected": "2026-10-01",
+    "sha256": "c3443c0ee323d26f4c8731647f4f02acc9afe0f0f55ed61f66e7133922caab25",
+    "bytes": 6008,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Paw_Groove",
+    "inspected": "2026-10-01",
+    "sha256": "3770387f7bced4d91ca2acc6cc105449b1f9396dd98723bc55dd2cd3c622ed6b",
+    "bytes": 1802,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Payback_Blast",
+    "inspected": "2026-10-01",
+    "sha256": "905887bb34a2eb29253671e643a3ee6061b679f4ca9c81b60e0bb64bbd79e039",
+    "bytes": 1613,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Payback_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "28bd863fb39ebe5927859972a4f98ede1b40722de4362b54bb7744a2a6e2f390",
+    "bytes": 3767,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Peepsta_Hoo",
+    "inspected": "2026-10-01",
+    "sha256": "9375fe323ef05d8cdd078b08b76c28f1d5c9fb6b49f1a29511f26fd8f229cee6",
+    "bytes": 12432,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Pegaslick",
+    "inspected": "2026-10-01",
+    "sha256": "cb2ca3b96af63ffc51fb0f18e6fb0a9e9339d3331f13602850ffcb131ff1e18b",
+    "bytes": 11691,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Poison_Dash",
+    "inspected": "2026-10-01",
+    "sha256": "a07d3a2947edd0dffa97c61b7449866df234ac73990e850460035086bdd14ea5",
+    "bytes": 1317,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Poison_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "bfdf1fbbdbf81403e9c0e9ac38eb452e6f4c211c1111a9b6ae6cb848287b669a",
+    "bytes": 1633,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Poison_Rain",
+    "inspected": "2026-10-01",
+    "sha256": "506523a2d987467d21f643e2e36fc67759d7fbb399724fdacab026ca7c73d380",
+    "bytes": 1193,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Poison",
+    "inspected": "2026-10-01",
+    "sha256": "3d22da93d86754d99761dd1b5e296efabe24d262f89751ed4f897df96bd49465",
+    "bytes": 7837,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Pole_Spin",
+    "inspected": "2026-10-01",
+    "sha256": "9f4673f9cb71a20b983ba1af6dc97b42e30055c50e7bc084a7d35080ce55978f",
+    "bytes": 1891,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Pole_Swing",
+    "inspected": "2026-10-01",
+    "sha256": "f7ec6e62b48db6cf89be948b53863abe8d57917feff0a3f7807ba2e3dfc73a4c",
+    "bytes": 1738,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Portal",
+    "inspected": "2026-10-01",
+    "sha256": "b363ba3040652b531f3848761847cc5f8174e1040c6ffda899e8eacda550c8c5",
+    "bytes": 6765,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Potion",
+    "inspected": "2026-10-01",
+    "sha256": "d7259110acc8a2fca89546af149622a8b3cee78e3d3f29a624ca6a7a44022d36",
+    "bytes": 18612,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Pricklemane",
+    "inspected": "2026-10-01",
+    "sha256": "af55b94ca6d035737e43a94f211fccb874a0a416a27ad0d1fbd042510113a725",
+    "bytes": 9272,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Prickly",
+    "inspected": "2026-10-01",
+    "sha256": "2011fbde56351a6c135d17bb7174a14c735569e5aebdd8b56a939cc5541bddc2",
+    "bytes": 2668,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Prism_Light",
+    "inspected": "2026-10-01",
+    "sha256": "a1f737fb3356a7e9fc32439283bec9d93e53728a88886e57d3cddd690197edf6",
+    "bytes": 1204,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Prism_Windmill",
+    "inspected": "2026-10-01",
+    "sha256": "f4b57f90828db13ead0eb564db29f7ce254f6da768890d6923180480e8bed657",
+    "bytes": 1485,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Quick_Blitz",
+    "inspected": "2026-10-01",
+    "sha256": "56ac87a758bf87a1710ff0553ed3efa8885277c6f97e02dce74a6898d6aacb05",
+    "bytes": 5215,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/R_%26_R_Seal",
+    "inspected": "2026-10-01",
+    "sha256": "d44392975389cb72b2cfe88da0fd2c5b962edc6e897d06313afc5f9cbe385287",
+    "bytes": 11164,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ragnarok",
+    "inspected": "2026-10-01",
+    "sha256": "ba9cced0d0f56af80595099e4517ae9da2df8e98ab3605a98110692691539b8c",
+    "bytes": 13762,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Rail_Slide",
+    "inspected": "2026-10-01",
+    "sha256": "ce3f1b18842856c2fe3fb1d79febcf42859774420493d78a14462824f7407ac7",
+    "bytes": 1361,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Rainbow_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "6dd1749d160a1633f055316acca93063b1d885e61b729c5fff12274751c5e3fe",
+    "bytes": 1442,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Rampant",
+    "inspected": "2026-10-01",
+    "sha256": "b30520fc85a8f4841727ee1f5efdf270a5cc2c25cd4e68f07bb8662070d6f680",
+    "bytes": 8354,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Rapid_Descent",
+    "inspected": "2026-10-01",
+    "sha256": "3d44a9574e81c7bdab4b2bf3e48a9decc9b15114e52f83773213231c9c22c1e7",
+    "bytes": 1315,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Reality_Shift",
+    "inspected": "2026-10-01",
+    "sha256": "467abde812c8e5879208a5e0e58ee33db82e236d59e9effa68faa6a0ae729d74",
+    "bytes": 12134,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Recipe",
+    "inspected": "2026-10-01",
+    "sha256": "7edaf612c637343d6c681c9a02ba79e60de46581e1a8e22f02aa2e31a410a5ac",
+    "bytes": 36678,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Rising_Wing",
+    "inspected": "2026-10-01",
+    "sha256": "3af872e68f9a712b07d064ef989d4a869edebdf5979884f6a9fabe2714890d64",
+    "bytes": 2039,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Roll_Call",
+    "inspected": "2026-10-01",
+    "sha256": "0bf4c80b4fcc99ef48ad86de1096b6fbd1a1e9f15d457d47855eec8e36b905e0",
+    "bytes": 1128,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ryu_Dragon",
+    "inspected": "2026-10-01",
+    "sha256": "4f7ffe030e61e5e04cb0901aac5cdf215fb66ff37463650c2263c53ac2f25e68",
+    "bytes": 11655,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sacrifice",
+    "inspected": "2026-10-01",
+    "sha256": "110872e378a80e5f9ea3c119d4709974b9230e9022f217a8fab678662222e816",
+    "bytes": 3320,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Salvation",
+    "inspected": "2026-10-01",
+    "sha256": "348bee35c60c0782a574b5400199457af72bc4c05c8c331062aea72f14d8e0c9",
+    "bytes": 3004,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Savage",
+    "inspected": "2026-10-01",
+    "sha256": "a78d62abf72a69f81e13ee35a4c4c01223dd18e21b036886d6a0e09aa9862a60",
+    "bytes": 2541,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Secret_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "4230b7ff34d94a043233d5d3191da120d9192ca5fef2a73e3c5602a8ee1a92fa",
+    "bytes": 1511,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Shadow_Slide",
+    "inspected": "2026-10-01",
+    "sha256": "3d4470b92eae666e623d2a5f1a13807826fe4cb552e4c1332da1649b35041319",
+    "bytes": 1106,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Shadow_Strike",
+    "inspected": "2026-10-01",
+    "sha256": "8f37c112d118e717779cdf9c92a2e222299c430817db46e028dbe319147fb882",
+    "bytes": 1829,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Shadowbreaker",
+    "inspected": "2026-10-01",
+    "sha256": "de1cef50f200041fb3501f07c09390df85f22cfa60e15d3a4cc808e9c5fa2062",
+    "bytes": 2145,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Shining_Hammer",
+    "inspected": "2026-10-01",
+    "sha256": "992d1ef779d4cbc51bc51f6ff74d919bf0ef98e3ce2bf6ee6f30db8ad033939d",
+    "bytes": 1768,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Shock_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "eedcb50c4fbda09ec6e215702a7dd2b9cef2693f6fd66276ad488b00c5f66a61",
+    "bytes": 930,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sir_Kyroo",
+    "inspected": "2026-10-01",
+    "sha256": "b580212a6182e80276cd2a404e6635ff22f583cff282697d12321cbe55e97f7b",
+    "bytes": 11322,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Skelterwild",
+    "inspected": "2026-10-01",
+    "sha256": "e147ba212aa2d00a3da0742f9bd4b4c3929083e44112a539e78e3d237b1e15ec",
+    "bytes": 13216,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Skull_Noise",
+    "inspected": "2026-10-01",
+    "sha256": "5f7a88a68372b5a0a1d7ce6d29547a8bb867b3eb4fe229a98be24fe005c79f35",
+    "bytes": 1418,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sleep",
+    "inspected": "2026-10-01",
+    "sha256": "f520f0f94214b3447e3436212d3ae7bbd872685c1a25b6b48dea190ec50af749",
+    "bytes": 10266,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sleepga",
+    "inspected": "2026-10-01",
+    "sha256": "928d27b7ffc54c0976034668b688acac68b2931aaf687adcd45d6402537fc06e",
+    "bytes": 19,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sleepra",
+    "inspected": "2026-10-01",
+    "sha256": "928d27b7ffc54c0976034668b688acac68b2931aaf687adcd45d6402537fc06e",
+    "bytes": 19,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Slide_Roll",
+    "inspected": "2026-10-01",
+    "sha256": "59ecc2fca9e329562724e082bc7806af50a6162b0076a5a383265a4bc9e85de8",
+    "bytes": 1392,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sliding_Block",
+    "inspected": "2026-10-01",
+    "sha256": "f1d08013ca9e5d135473a2da6c61feb3fd8f7cbbefe12419ed5f1f94387a11a1",
+    "bytes": 1744,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sliding_Crescent",
+    "inspected": "2026-10-01",
+    "sha256": "18ef30a610017358559fe6806aa3c7c6bcbee1b500bd20c9130012b5cea00c4f",
+    "bytes": 1455,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sliding_Dash",
+    "inspected": "2026-10-01",
+    "sha256": "92f2dd354b8ceac49aa9f2abde39cf92268d4088045c190bf6386852587fc163",
+    "bytes": 11125,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sliding_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "8e455d5fe79c2927773cdbb1a2c5c0d2324a84e2bd8be0af74c992cad53b281e",
+    "bytes": 914,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sliding_Sidewinder",
+    "inspected": "2026-10-01",
+    "sha256": "43048d3b889973aceabc1f24f32f0991a4d43d43a94f59f4475d407ed432c933",
+    "bytes": 1582,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Slingshot",
+    "inspected": "2026-10-01",
+    "sha256": "ca63a700448ecedd09ce7cbce7d90f54b3834462630956fcfaa05a2400c06218",
+    "bytes": 1329,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Slot_Edge",
+    "inspected": "2026-10-01",
+    "sha256": "11d13ad6f90335ff697b5e5035160d84a14dc9effcccac377f0c6f9c3805ca12",
+    "bytes": 4878,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Slow",
+    "inspected": "2026-10-01",
+    "sha256": "60838472eaf7027aee0dd044544df9c2c90ed9b4d641a9098e184c002eb0ac0d",
+    "bytes": 5726,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sonic_Blade",
+    "inspected": "2026-10-01",
+    "sha256": "f279a094bdb4716f028b3b69b80626829d872041237821892eef8d4846d48655",
+    "bytes": 15776,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sonic_Impact",
+    "inspected": "2026-10-01",
+    "sha256": "7bd0df7c695cce4147a12cbf5e44c8b78a457b0437b48325ec55c195be8bb9be",
+    "bytes": 2660,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Spark_Dive",
+    "inspected": "2026-10-01",
+    "sha256": "0ffbfad0ac194fd3d09041a32b07606a73691f962451e52d52001d80bb2111c8",
+    "bytes": 3037,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Spark_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "46008e9cda2e2d6a53097d42846f5dc7c2d97b3f5d31eaabc39184dc34a7e704",
+    "bytes": 4354,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Spark",
+    "inspected": "2026-10-01",
+    "sha256": "754bc91c5b63768b71fd0f1977efcddf99ab115994985c164202b8e5a8b0f80c",
+    "bytes": 4487,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sparkga",
+    "inspected": "2026-10-01",
+    "sha256": "88b54bd84b71ade8fe8d24010b1a012d3f03b19e71c662c84b3b155c968a5492",
+    "bytes": 19,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sparkra",
+    "inspected": "2026-10-01",
+    "sha256": "88b54bd84b71ade8fe8d24010b1a012d3f03b19e71c662c84b3b155c968a5492",
+    "bytes": 19,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Speed_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "950521f9e3096d1b15ff72bdcbea368deba7c648bcf8a049a3787ff44912b25a",
+    "bytes": 767,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Spirit",
+    "inspected": "2026-10-01",
+    "sha256": "03e8ec21faf1df98c4a46c8bfd8eb142167be37158830c8802bc092aba3f889c",
+    "bytes": 32289,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Staggerceps",
+    "inspected": "2026-10-01",
+    "sha256": "74bb6922528785b14131191269670bfd412bb671364a69e8dd7fe4060b39fd15",
+    "bytes": 9999,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Steep_Climb",
+    "inspected": "2026-10-01",
+    "sha256": "85ac624c1d4a73d367ee85bd4361a6bcbb33c64ff33f1d26abee01c493ce9a15",
+    "bytes": 1346,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Stop",
+    "inspected": "2026-10-01",
+    "sha256": "08e4b102fa242127cd4b469e9b83284e10230fc05490a1edbab7960282098fc9",
+    "bytes": 12581,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Strike_Raid",
+    "inspected": "2026-10-01",
+    "sha256": "bf8c62d534a767b70045aa4d1e63bc155ea6267e7e5dc0345951048ab54ec55f",
+    "bytes": 15320,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sudo_Neku",
+    "inspected": "2026-10-01",
+    "sha256": "7c694617eebb187988a1af2f47da7b12aa1bafd9a069955bb121ef23e106d7b2",
+    "bytes": 7293,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Superglide",
+    "inspected": "2026-10-01",
+    "sha256": "70b500513f2fc201869620a5d1b148a4377ceb23923fe7639b90ff35c777f897",
+    "bytes": 2734,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Sweet_Dreams",
+    "inspected": "2026-10-01",
+    "sha256": "2852dfcdf75b9c1ecf08df7855e237c0a3e7c2d49014ed190c2ec6bcc2cc1d01",
+    "bytes": 1318,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Swing_Fling",
+    "inspected": "2026-10-01",
+    "sha256": "22c6083769a5b6f0e4038231afd303887dbbe006958fb76ada707c37b7565e51",
+    "bytes": 1441,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tail_Groove",
+    "inspected": "2026-10-01",
+    "sha256": "e521a925327e453a8c432501c02cf9aad72593b189ff068494182088bfea1dde",
+    "bytes": 1821,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tama_Sheep",
+    "inspected": "2026-10-01",
+    "sha256": "87e3090a456f62adcbb5baccee42f12d6b0a1e65d40086b3c055eb33a96c21bc",
+    "bytes": 11089,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Target_Shot",
+    "inspected": "2026-10-01",
+    "sha256": "bb6cff5bf48a6cbf4dee8dc7b9d3c2e1431a07ffaa1d26baebd7a3d653681c58",
+    "bytes": 1475,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tatsu_Blaze",
+    "inspected": "2026-10-01",
+    "sha256": "7b2529b9447a27e01c7c537144f6783d9b8eb2b193c926500106c4bb8c4062a0",
+    "bytes": 9214,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tatsu_Steed",
+    "inspected": "2026-10-01",
+    "sha256": "a3e4a013b940a0aab7860457755827964e82237aecf767831889b64848e0d93a",
+    "bytes": 8865,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Template:AbilityLink",
+    "inspected": "2026-10-01",
+    "sha256": "829efda60e119fc7a5589aeb8dc8ff96491d221e8d73a8a84d118de17be64254",
+    "bytes": 51864,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Template:SynthKH3D",
+    "inspected": "2026-10-01",
+    "sha256": "23ca6e31d6cf970d4afc9b012c6f32b2e7e7e7cf1c9c6e7961b568301bb8b80d",
+    "bytes": 6886,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thundaga",
+    "inspected": "2026-10-01",
+    "sha256": "f31f7b2a3dfe022630bcb1090a438408fe1e83a0af7039fa061408ebf314820d",
+    "bytes": 21,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thundara",
+    "inspected": "2026-10-01",
+    "sha256": "f31f7b2a3dfe022630bcb1090a438408fe1e83a0af7039fa061408ebf314820d",
+    "bytes": 21,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thunder_Dash",
+    "inspected": "2026-10-01",
+    "sha256": "36b6b2cce20ab17d4561e96187f3540f86ab3877af5698adb23f8c3ec6604100",
+    "bytes": 1495,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thunder",
+    "inspected": "2026-10-01",
+    "sha256": "2f31371ddfa63ff98dc67e3cc0e0ee475b202905c29e4416cdde9474dd064ed1",
+    "bytes": 27193,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thunderaffe",
+    "inspected": "2026-10-01",
+    "sha256": "7e20e70bfb94ff12edd7f1b762384665642640fb38b679a04474067e7559a7ae",
+    "bytes": 12185,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Thunderstorm",
+    "inspected": "2026-10-01",
+    "sha256": "34e08cb3a99364def29db29565192f0cc4f35a136138bed378f73156c7fa7e32",
+    "bytes": 3735,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Time_Bomb",
+    "inspected": "2026-10-01",
+    "sha256": "f45f0ac379d4f3e9f9dcc0c1c615f820c768a260cda50a38dabd06dcaedd7d56",
+    "bytes": 1903,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Timestorm",
+    "inspected": "2026-10-01",
+    "sha256": "29b5d633c3e7f73cd5c0568d5c24fe9c491c6b95e8a892d2511a64b1e83c31ca",
+    "bytes": 1490,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tin_Pin_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "52cddc069422678680168a350dba5223e6b6e2e728757215f9b1b2119ca9ef7f",
+    "bytes": 1580,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tornado_Strike",
+    "inspected": "2026-10-01",
+    "sha256": "8cbedcca7fd91333fb8d5b039a1be34c2c75a55587ff9e4362ed087c84a0eb75",
+    "bytes": 2728,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tornado",
+    "inspected": "2026-10-01",
+    "sha256": "86458df546355ce6e78bdf5456acef930c6b91b1d239045f3b7453828156cd32",
+    "bytes": 6288,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Toximander",
+    "inspected": "2026-10-01",
+    "sha256": "ab2628d0f0e28783e8780d8952e0bc636d4be14cd30f0dda8f526f209fdf3ffc",
+    "bytes": 10400,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Training_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "eed0a85692c94aaa9e75039817ade73bca68d0e4a00f39449ec0622d6d468b54",
+    "bytes": 1561,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Training_Toy",
+    "inspected": "2026-10-01",
+    "sha256": "54b4d8140af427e3dae2808fd4b8899a074cf892634fbc0be69a9266ff9fbd44",
+    "bytes": 20759,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Trap_Shot",
+    "inspected": "2026-10-01",
+    "sha256": "46e11bd532fd464492dc67c3dbc1f5749f4169ef3f00dc28e1eb3c315e69b62e",
+    "bytes": 1236,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Trinity_Limit",
+    "inspected": "2026-10-01",
+    "sha256": "efbcda70ee029d2b7bc9bdf4235cac735b82cfb45f5ed61273c70fad8064f942",
+    "bytes": 9555,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Triple_Plasma",
+    "inspected": "2026-10-01",
+    "sha256": "9280c972631b60d3cb1256a3b60bf6893f672eb5224aa8bb37f8c3ef15f1e08b",
+    "bytes": 1793,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Trophies",
+    "inspected": "2026-10-01",
+    "sha256": "b403a6c81d4758ca7392f74b609dbfa517f2b7e32b195150ee95df53b44111f6",
+    "bytes": 129522,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Troubling",
+    "inspected": "2026-10-01",
+    "sha256": "60af68b612f815980c22da1bbee57dc059d890eb7e19a3b8e1b50f87bd473cf8",
+    "bytes": 7331,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tubguin_Ace",
+    "inspected": "2026-10-01",
+    "sha256": "e5c593748c5f5b2b45d3971f74bc46eec2e5af76a24a38f8908cfdf3cabb6dbe",
+    "bytes": 8188,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Tyranto_Rex",
+    "inspected": "2026-10-01",
+    "sha256": "9055de5ac446513434487df7cbd53dee2a901256c5af3914c0d34ec314147add",
+    "bytes": 11798,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ultima_Weapon",
+    "inspected": "2026-10-01",
+    "sha256": "1d889d7f433e98d93e853cdce6122238a0706628b82154980daddba06cbc9926",
+    "bytes": 13827,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Unbound",
+    "inspected": "2026-10-01",
+    "sha256": "a088c25260a8d1cc79c48b60d61716eb52f36de0f30c9c6339491683f67666ae",
+    "bytes": 1818,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Unison_Rush",
+    "inspected": "2026-10-01",
+    "sha256": "1582f3c455d56ce593145d43dbf7d73bca82c48572f9c59e321684570d1b843b",
+    "bytes": 2367,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Unwind",
+    "inspected": "2026-10-01",
+    "sha256": "1edeef3afe25e467d8e0267b64e1f06b23292110f412325fa4354f805cf49693",
+    "bytes": 913,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Ursa_Circus",
+    "inspected": "2026-10-01",
+    "sha256": "a99ec7053f008e1af654844d9a1e719186e824f508fca4d05b898dbf10c13bd7",
+    "bytes": 7120,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Vacuum_Ghost",
+    "inspected": "2026-10-01",
+    "sha256": "6d72152d98f0a2bfbe6da61b8d6e94659007f647df5676fa32d30657f946d310",
+    "bytes": 1312,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Vanish",
+    "inspected": "2026-10-01",
+    "sha256": "654b143ae6188a9ebb4f346ce72d56baa6139d7d2de93084bed0b8d19fad303e",
+    "bytes": 2841,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Vibrant",
+    "inspected": "2026-10-01",
+    "sha256": "92eab5933201d04a0f7ffc34543b0aed4b3c70185b88ef69b442ab29512a5504",
+    "bytes": 7559,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wake-up_Block",
+    "inspected": "2026-10-01",
+    "sha256": "722a84fd8546ebd6d7469f030c6bfc2f2d8fae0896df20436f98ccd1515d93e1",
+    "bytes": 1164,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Water_Blaster",
+    "inspected": "2026-10-01",
+    "sha256": "0c10edf75f053f2955d4e934bf67e377645f7c5dc262370326db07cd7dd86e46",
+    "bytes": 1042,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wavesurfer",
+    "inspected": "2026-10-01",
+    "sha256": "7bdf90be444c56ad5c7c4ec615b43620008c50d9c16cb1d4ee6eaa31e44fbf94",
+    "bytes": 1314,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Way_to_the_Dawn",
+    "inspected": "2026-10-01",
+    "sha256": "2b049ac592e9bb7c8e348effa32031f79ac1d001ab5bcb280732834d9db34613",
+    "bytes": 8821,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wheeflower",
+    "inspected": "2026-10-01",
+    "sha256": "da57ca0065c0221df78950ec1a0963ad6749466766479e178de23644f5aeb141",
+    "bytes": 10919,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wheel_Rush",
+    "inspected": "2026-10-01",
+    "sha256": "bff08771baa7a53c30cefec5beb39d6639051d0519516b3f743bf8049435b95e",
+    "bytes": 867,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Whirling_Bronco",
+    "inspected": "2026-10-01",
+    "sha256": "729c107290e51b8ea98e353b8ca80b382cfa0c297b768303803e99bc79b1dc70",
+    "bytes": 1767,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Whomperstomp",
+    "inspected": "2026-10-01",
+    "sha256": "a8b422165b02a3c9ac980c552375c2562567404053051fc2398a55c9f452bc8e",
+    "bytes": 1744,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wild",
+    "inspected": "2026-10-01",
+    "sha256": "0749057136a75d504ca8657012c4a9df9874d32026eacbea1915ab29c313b071",
+    "bytes": 2787,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Woeflower",
+    "inspected": "2026-10-01",
+    "sha256": "4970e2320c3ec039f5b2853852a889089f44ecff559ccde787991a10fb95b073",
+    "bytes": 10421,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wonder_Comic",
+    "inspected": "2026-10-01",
+    "sha256": "116c832dfe4fc2e80abe6f985af5e36381f0340e6e0ab8d82cf7f8c08132ac22",
+    "bytes": 2786,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Wondrous",
+    "inspected": "2026-10-01",
+    "sha256": "55e37096dfbcdb88fc6c9f389c937621754ccc11088bfff40ea8788f18469379",
+    "bytes": 7014,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Yoggy_Ram",
+    "inspected": "2026-10-01",
+    "sha256": "c9b918b65b22bc573a610a90e009ba502bee2ea819557be08085cb962534a4a8",
+    "bytes": 12226,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Yummy_Cup",
+    "inspected": "2026-10-01",
+    "sha256": "e0982365d51eb3261f2e135a7aa6d0680959dc8e4f2a7845539fecca07bdd013",
+    "bytes": 1239,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zantetsuken",
+    "inspected": "2026-10-01",
+    "sha256": "3076c88d779046f0e3b55bf4455e78f4ddc901322166f1869bcb46512bd0f260",
+    "bytes": 11379,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zero_Graviga",
+    "inspected": "2026-10-01",
+    "sha256": "5f628da02d6c6cff1b9239956a8f7db3cbe887e3168dc3aba16fadcf0db9b7a5",
+    "bytes": 26,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zero_Gravira",
+    "inspected": "2026-10-01",
+    "sha256": "5f628da02d6c6cff1b9239956a8f7db3cbe887e3168dc3aba16fadcf0db9b7a5",
+    "bytes": 26,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zero_Gravity",
+    "inspected": "2026-10-01",
+    "sha256": "3aaa04597046d963af521cea5a50a1a59298d315d3bd9c26c9b4d5e60e8e7a85",
+    "bytes": 15656,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zero_Graviza",
+    "inspected": "2026-10-01",
+    "sha256": "2ff139ef27694d7adfa2502954a1ebd58e56107888000d78859754ece3716d22",
+    "bytes": 27,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://www.khwiki.com/Zolephant",
+    "inspected": "2026-10-01",
+    "sha256": "671f3f179b4b57dd08924103a112b6d817756005797698c952efa6643fcfd777",
+    "bytes": 12417,
+    "method": "complete raw factual article/template inspection; shared pages use named game section"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/trophy-conditions-and-tips/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.khwiki.com/Balloon_%28ability%29",
+    "inspected": "2026-10-01",
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "sha256": "5b37476bfdb56570f183d01dee2f2e02789a3f50a859681aa11de1a02c7c869c",
+    "bytes": 5827
+  },
+  {
+    "url": "https://www.khwiki.com/Deep_Freeze_%28ability%29",
+    "inspected": "2026-10-01",
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "sha256": "9204fdd94915f18740899ba31d56c0eb97a274e78f8c2ebc03b9cdebb97ccad6",
+    "bytes": 5489
+  },
+  {
+    "url": "https://www.khwiki.com/File:Ability_Link_(Base).svg",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.khwiki.com/Nightmare%27s_End_and_Mirage_Split",
+    "inspected": "2026-10-01",
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "sha256": "52f9fbe42a7cabf4d95007a992c44d14afdf72ad82232a81cc670d84c593b479",
+    "bytes": 2639
+  },
+  {
+    "url": "https://www.khwiki.com/Ocean%27s_Rage",
+    "inspected": "2026-10-01",
+    "method": "complete raw factual article/template inspection; shared pages use named game section",
+    "sha256": "cb35c63dd74ed845becaee855916a3ea0ccd78339c365b40cdc189ce684249ad",
+    "bytes": 1102
+  },
+  {
+    "url": "https://www.khwiki.com/Talk:Recipe",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.playstationtrophies.org/forum/topic/283487-keyblade-conqueror-trophy/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.playstationtrophies.org/forum/topic/283696-kingdom-hearts-dream-drop-distance-hd-~-trophy-guide-amp-roadmap/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/",
+    "inspected": "2026-10-01",
+    "method": "web or guide inspection; access/edition limits documented per finding"
+  },
+  {
+    "url": "https://www.kh13.com/forums/topic/40565-treasure-list/",
+    "inspected": "2026-10-01",
+    "method": "full direct HTML and web retrieval; Factual chest map coordinates, landmarks and described access actions; prose rewritten.",
+    "sha256": "f4e6741f144eff2ca59a5522176684db03d6e40e72071be30e65e9c38ae96dba"
+  },
+  {
+    "url": "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64798",
+    "inspected": "2026-10-01",
+    "method": "direct HTTP 403; web open restricted; search-indexed excerpts retrieved; Introduces all438 and map-coordinate convention; overlapping indexed rows match KH13. Treated as shared lineage, not independent corroboration."
+  },
+  {
+    "url": "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+    "inspected": "2026-10-01",
+    "method": "full web retrieval; Independent item-specific confirmation of Curaga/Doubleflight routes for the two source-order discrepancies."
+  },
+  {
+    "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/7",
+    "inspected": "2026-10-01",
+    "method": "full web retrieval HTTP403; search-indexed excerpt available; Indexed excerpt corroborates Catanuki as Treasure36 only; no uninspected full route claim."
+  }
+]

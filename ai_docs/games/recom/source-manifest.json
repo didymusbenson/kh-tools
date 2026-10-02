@@ -2,7 +2,7 @@
   "game": "recom",
   "researchDate": "2026-09-28",
   "baseline": "English modern Re:CoM HD; Steam context; no game build run",
-  "scope": "Research documentation and candidate data only",
+  "scope": "Canonical research provenance for the implemented HD journal; historical snapshots and October 1 follow-up separated.",
   "snapshotNote": "Hashes identify the inspected temporary HTML/text representations, not game files. Raw external pages and media are not distributed with this pack. No archived-URL permanence is claimed.",
   "localEvidence": [
     "ai_docs/games/kh1fm/README.md",
@@ -843,6 +843,3925 @@
       "url": "https://www.khwiki.com/Enemy_Card",
       "inspection": "Ansem player table explicitly distinguishes CoM concealment from Re:CoM elemental resistance.",
       "evidenceStatus": "community reference checked for named Re:CoM mechanics; no game build run"
+    },
+    {
+      "id": "recom-oct1-7fc216a9b0a08c48",
+      "url": "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "4f666803994ecb446c381ea7fa9473ca20f1fcf5dfe8d56e912dae5466f73448",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-442ffea4d0a672ed",
+      "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/69856569?page=1",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-40b769850cfb522b",
+      "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-3f5bf06b9e04cca8",
+      "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f47b4cd983390682",
+      "url": "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-bc3472edf4bc98e5",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3275455575",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5e9fea008799cb915dd75dfeac45062593d68c2390337b09acb28068fa6e9340",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-90ce8ac709e6242d",
+      "url": "https://steamcommunity.com/stats/2552430/achievements/",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8857cf15798b8c86893583014c31fcc840e6ac1c113a6025db8f2411a0472ced",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-balloon-glider",
+        "minigames:recom-sora-minigame-bumble-rumble",
+        "minigames:recom-sora-minigame-monstro-belly-brawl",
+        "minigames:recom-sora-minigame-tiggers-jump-a-thon",
+        "minigames:recom-sora-minigame-veggie-panic",
+        "minigames:recom-sora-minigame-whirlwind-plunge"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d8cf3f99b43ae6d2",
+      "url": "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-cbd7140b867819ee",
+      "url": "https://www.khwiki.com/Aero",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3c518354c9ece12e87e7a745065b9a9865af3b92877b91f5249c7114d9641a47",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-aero"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-caa4f9a2e194bf1c",
+      "url": "https://www.khwiki.com/Air_Pirate",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "00f994c1241072fd186be874fe2eb804eed0fa8f84545a34fab55daf9c0c40c4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-air-pirate",
+        "enemy-card-farms:recom-farm-air-pirate"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-82a5b6dbb3276fdb",
+      "url": "https://www.khwiki.com/Air_Soldier",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9aaed634f8ee1a5880aee2b7ca08019993720c74996ff7afb6242992d3f9509f",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-air-soldier",
+        "enemy-card-farms:recom-farm-air-soldier"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-c873c668a538eaa2",
+      "url": "https://www.khwiki.com/Aquatank",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "45a37538319216dc5758071f94c69b020c95b35afd56a0212952e0150c80de78",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-aquatank",
+        "enemy-card-farms:recom-farm-aquatank"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f1afabf5bf755f9d",
+      "url": "https://www.khwiki.com/Attack_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2b8f4cfaece635f9baff1dc45899ea407f239aff69b00ece5fcae89ffb290705",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-2ef1c43d1ffea393",
+      "url": "https://www.khwiki.com/Balloon_Glider",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2db6a0249b123e9dc32edd7b79d84c81332cf6b0a2372c74ebf4db89da8ed491",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-balloon-glider"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b58d61085ef04552",
+      "url": "https://www.khwiki.com/Bambi",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d77784654f6056132ee7d6641be22028af5d51d0da10cd3720fcc3701ca9da78",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-bc3c321540212ea6",
+      "url": "https://www.khwiki.com/Bandit",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e13ffda3f35ee9c362383b652170ee741d2954f87d1b5bc7c4d95d47ed821138",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-bandit",
+        "enemy-card-farms:recom-farm-bandit"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d7d1f258d46bc582",
+      "url": "https://www.khwiki.com/Barrel_Spider",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2700a45ab7b3d08c72c55f7cddd96f6ee49e047b917b9e54ecdbbedee8c6cb7c",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-barrel-spider",
+        "enemy-card-farms:recom-farm-barrel-spider"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-875621b24a57d72b",
+      "url": "https://www.khwiki.com/Black_Fungus",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3cebbd49bcdf5f60b91a21c23a4c83ec5f9441af671880d8ffe2ade892501a8e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-black-fungus",
+        "enemy-card-farms:recom-farm-black-fungus",
+        "enemy-card-farms:mushroom success and eligible card-drop rules"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-23601679b7028eff",
+      "url": "https://www.khwiki.com/Blizzard",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d0fba068659a93afddde4bcbc06a4efda24b4c4c38a0dae3f46a81911244a81e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-blizzard"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e679bdd3e1d5ed68",
+      "url": "https://www.khwiki.com/Blue_Rhapsody",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "74d1840dd1255dd1f47136f891fc8f99badb2090d8e7131999345a3b0ed17fb1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-blue-rhapsody",
+        "enemy-card-farms:recom-farm-blue-rhapsody"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1099a5e3a6604630",
+      "url": "https://www.khwiki.com/Bond_of_Flame",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "30fccb55c9c977f1a281975044f28e07ce3112147a0902a70593437058dbd6e6",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-9e5127a05bdda07e",
+      "url": "https://www.khwiki.com/Bouncywild",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9165ec19af153d45bd624b7cb4456555a2cf9317e2ac88c113bc83b91d7ceb9f",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-bouncywild",
+        "enemy-card-farms:recom-farm-bouncywild"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-11116403b0bd9d8d",
+      "url": "https://www.khwiki.com/Bumble-Rumble",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "fdee27721977a5a112e9c48516aed76055d0f8ee6e4d2ce916f5982833bf0045",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-bumble-rumble"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3631d892860d7983",
+      "url": "https://www.khwiki.com/Cloud",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f898244176edf6fd1dad5be556c30e25f887766ea99d66fcf31a84d5bac78232",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-5e78cfc60c55fcaa",
+      "url": "https://www.khwiki.com/Crabclaw",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8bc591211eb6e565351b0bef281d0450a1f2ba90c7b7f5b2fbee8f1e5a35c26e",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-7b0f8f094cf292a2",
+      "url": "https://www.khwiki.com/Creeper_Plant",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "19059d8ae0a306289d71bbe0f2d07d0dc17dc61c5135222436f92630bfc3edb7",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-creeper-plant",
+        "enemy-card-farms:recom-farm-creeper-plant"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e22340a7f5360345",
+      "url": "https://www.khwiki.com/Crescendo",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8364714bb1b0b2a267db2ef75a27784ce4a9531868f71f94727adeb83336b576",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-crescendo",
+        "enemy-card-farms:recom-farm-crescendo"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-79534a6cb8fce8cb",
+      "url": "https://www.khwiki.com/Cure",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3fe146d5a0b52f179e5481b57558beea507d8a5d3ce63650517afe5aa31383c4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-cure"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f5fcb047ae079a28",
+      "url": "https://www.khwiki.com/D-Report",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5112e1714affb69827bb69d70acb2e445f79b6eeb781676681155aa6a16c1858",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-ceb80cc8b5993b5c",
+      "url": "https://www.khwiki.com/Defender",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ae0cab1caf0dedd72bd25f5d3d9ee8ce60f3fecd67730e082b090e8a8ed320b0",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-defender",
+        "enemy-card-farms:recom-farm-defender"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-288b625aa6570281",
+      "url": "https://www.khwiki.com/Diamond_Dust",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c3e1649bce471db1efb7d3624c28a45f207258d4789c108268c6392f6ab64ae9",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-bd2b51d35a55b0eb",
+      "url": "https://www.khwiki.com/Divine_Rose",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c0931ca1cbaad2d58b4d350f1bc8b116c6c2241ce0b471c90915109597dee791",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-c3849edc99f431f4",
+      "url": "https://www.khwiki.com/Dumbo",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "16197ca3129542a4295672d869d01745262006d6c98945317a25362239b686b3",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f84f57f80142b77d",
+      "url": "https://www.khwiki.com/Elixir",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e6c8313469c7a4e6070fc55be4909f9bc2fa6c0d266dff41ca05a14a7f479688",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-7df78acb19423db6",
+      "url": "https://www.khwiki.com/Enemy_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1a5f6f4497b2b5003b4ba489357eb984ff19deeac1a45552d6f1acad0f95b73d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "enemy-card-farms:mushroom success and eligible card-drop rules"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e77e030056c6bd51",
+      "url": "https://www.khwiki.com/Ether",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ffe4568af14b9f2b76ca6c1c63f4f63e9478dfdb43fdf5a127c72927e5474b84",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-615f4e4a8335cf47",
+      "url": "https://www.khwiki.com/Fairy_Harp",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e64e36cd481b764142db098760ab09332971d146916367475d44bd235901ff06",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-a793b5b3ad24c776",
+      "url": "https://www.khwiki.com/Fat_Bandit",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0a9c6f5c236d4591ebccf39f567038aeb1b5c7232b5e8c57ff2bfe79f98959ee",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-fat-bandit",
+        "enemy-card-farms:recom-farm-fat-bandit"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-47eb9fcd329629f3",
+      "url": "https://www.khwiki.com/Fire",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "15fcd89c9bfa41728008d9e4d3502afc8356ff580d8437e5fe5d4a7cb6e1ff91",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-fire"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f8515825db344718",
+      "url": "https://www.khwiki.com/Friend_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1d143f828b73e10b7c8f10432602efe8bfdee63288937950d4f17a009648c243",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:all eight friend availability rows and Pluto footnote"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a152862c338913df",
+      "url": "https://www.khwiki.com/Game:Agrabah",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c848d9697e3b3adc8795b47efc6f457516276bba871a0d6d6726a8238a912b16",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-0b96f9978df6fc7f",
+      "url": "https://www.khwiki.com/Game:Ansem,_Seeker_of_Darkness",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3cbfb7643e78752c56d911228a5ee6d8e758199a5834ad844dfbc8e6057dbce6",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-ansem-seeker-of-darkness",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e166c4e719abd8af",
+      "url": "https://www.khwiki.com/Game:Atlantica",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "00356b7f16d6902b3c647675bb4759915e1fefed3685ba900b40ca09247d84bf",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-ac00a30d35ed2cc1",
+      "url": "https://www.khwiki.com/Game:Axel",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "def809e3edfac42ee8713ddc5fe58640a803f7793ca7007b1efd2903cc83218d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-axel",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-97c83f4400c10a64",
+      "url": "https://www.khwiki.com/Game:Captain_Hook",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "da90b7d10a7aa8ad1f779405b6b4cfbc2dfc89d609364c228a4faf0b7d72fb23",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-captain-hook",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-768b8b1f2a1ceb6c",
+      "url": "https://www.khwiki.com/Game:Castle_Oblivion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bd38b8a4d5684e0c34e4f566e52be0c514452412b0f21932f8c490bfab571ee1",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-3c35e034bbcf89aa",
+      "url": "https://www.khwiki.com/Game:Cloud",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "59c286ef69cc698e0977130fb1dffecf3808847363a5d61b615eb78106e9276b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-cloud",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-6ea3d3724b0d9d7e",
+      "url": "https://www.khwiki.com/Game:Darkside",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-fc763e78b317918e",
+      "url": "https://www.khwiki.com/Game:Destiny_Islands",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5761254f26c3378b154660adb4f04a932f4901d705100ae168fe4eb67c9abfbe",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-acf3441cf7c4f17a",
+      "url": "https://www.khwiki.com/Game:Guard_Armor",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-dd946cba5e8edfce",
+      "url": "https://www.khwiki.com/Game:Hades",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "805687d098f67adfba7258b955f03784192d53c19c5fc0d50e7ceda2546dd0ed",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-hades",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2ba877b0718e6ff9",
+      "url": "https://www.khwiki.com/Game:Halloween_Town",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "464e193b59f9acd7fd6a812a454459ae97196a8fac13b21f47550b789ca08080",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-ec22fd7f463dfdd8",
+      "url": "https://www.khwiki.com/Game:Hollow_Bastion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a3cbff33a2cd6693e2152c7cb680082e8d2f9e637e97342f4cc1ff46d3a7b6c0",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-fd33528aa521db28",
+      "url": "https://www.khwiki.com/Game:Jafar",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6a5130fe889da625982a852684e07a4592cafe1f129c1b557e66f87330ed18df",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-deff6fcfabab31b0",
+      "url": "https://www.khwiki.com/Game:Larxene",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c4825076db3057d874d821c816b81c6c5cb6f580293e8ea40b787cf866ebdc9a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-larxene",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-69c83313d94e6086",
+      "url": "https://www.khwiki.com/Game:Lexaeus",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d2f7c8a10d08d3d4cc53a1d89cd5bd53ce5f8de8d34a0f4dfaef9d8ee043d0db",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-lexaeus",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8ba02fb14732bb7d",
+      "url": "https://www.khwiki.com/Game:Maleficent",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "440fd02b3ee78702af9d495e0d6cbe8773d2e58298896197b27428cfb88ed7af",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-a14da3ccc6f86067",
+      "url": "https://www.khwiki.com/Game:Marluxia",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1dd15a925a689bc8ac8cb098ad8309296ae0f49abab2e7b4f2b3f0b24c2f934f",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-marluxia-1",
+        "combat-reference:recom-combat-marluxia-2",
+        "combat-reference:recom-combat-marluxia-3",
+        "combat-reference:recom-combat-marluxia-4",
+        "combat-reference:recom-combat-marluxia-5",
+        "combat-reference:recom-combat-marluxia-6",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-989e3cb784a11f01",
+      "url": "https://www.khwiki.com/Game:Monstro",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "88fc6aaf3203fda3dfe27b29ad54d3a7840bd1a72f4c0f48053d718399083e24",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-monstro-belly-brawl"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-139296200f989e50",
+      "url": "https://www.khwiki.com/Game:Neverland",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5a334189c0f91c838c2cb7956f9ba0d7cb124fd3889a71b4548579d455c52cba",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-cb9fed5315ee0547",
+      "url": "https://www.khwiki.com/Game:Olympus_Coliseum",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d47312fd497124e875b2601f210357693b949202164426c4e87758fd4999e03c",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-635d85c7ec8135a9",
+      "url": "https://www.khwiki.com/Game:Oogie_Boogie",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0ff9c32797c10cafe03c92662ec8c95d217d15371d371c625b3b205d2ba8dd6e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-oogie-boogie"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-0ee0d142189d3166",
+      "url": "https://www.khwiki.com/Game:Parasite_Cage",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-e6675b0cd1a238ca",
+      "url": "https://www.khwiki.com/Game:Riku_Replica",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8301f62181b9fea7bcd72b597513723ff6db5aad42257ccbe7ae48a0b39e4ac5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-riku-replica",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-53c905851b3a5e7b",
+      "url": "https://www.khwiki.com/Game:Traverse_Town",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "49c3121e466bca84c1c15b964938e7f4e987e524a83b068ecab7ec30106e450d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:all eight friend availability rows and Pluto footnote"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3876af969f872e8e",
+      "url": "https://www.khwiki.com/Game:Trickmaster",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-afc9468996b972ed",
+      "url": "https://www.khwiki.com/Game:Twilight_Town",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d84320638ef772f5cc27a0fb7baa6665393e55c8f4b7330a283910f6deb46f7e",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-64008d07c30ee14b",
+      "url": "https://www.khwiki.com/Game:Ursula",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3232081720ad76014ead1fc540f4a137611709ebcc05acd80466c2f0917702fe",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-ursula-1",
+        "combat-reference:recom-combat-ursula-2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a1cde4c53fa805b2",
+      "url": "https://www.khwiki.com/Game:Vexen",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "eb7a2575996a660f9b46e07c8d3b28b74d1c781f25bacb0f6841543ed7fe30af",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-vexen",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b87090dd29c95f6d",
+      "url": "https://www.khwiki.com/Game:Wonderland",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "291a2b5466ee8fabc80a63cf9d8eeaf684752ab0a1d921f42f164c92c5cb51cc",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-a2de05190f6518ec",
+      "url": "https://www.khwiki.com/Game:Zexion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "47c25e29f596dec2c4f2f11330930eaef72446272f1689adaabbd2960b4248ed",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-zexion-1",
+        "combat-reference:recom-combat-zexion-2",
+        "combat-reference:all explicit Re:Chain of Memories boss deck multiplicity tables, preserving encounter phase labels; not ordered decks"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-48dff68e7e918e9e",
+      "url": "https://www.khwiki.com/Game_Clear_Data",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0df7bfda1e4e64a81aeca8ed390d8665062c9c7dc388758a063d6a8c697d24a2",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-7e71a4a416ee816e",
+      "url": "https://www.khwiki.com/Gargoyle",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "af1b57603987539bb3032ad783b55ba8efdeec63b93274359e83714efb0502f2",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-gargoyle",
+        "enemy-card-farms:recom-farm-gargoyle"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-62dcc691b0caaa29",
+      "url": "https://www.khwiki.com/Genie",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "cc386d25d3c1bd3de063cdf44d23da9c1919b24c9c3868305bb9e0c2b71b939c",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-8da9abef698a026e",
+      "url": "https://www.khwiki.com/Gimmick_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a80d18e6a2b48e5e7f9efd6a4359c579902557541579af3d2e7ff61c7a442635",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f198d5f51dd6454f",
+      "url": "https://www.khwiki.com/Gravity",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "514b771e204ac72178c4d6b202e05d5b0389db8200dd1433c8c2005c6a0fc0a4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-gravity"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-c6054f967b12005c",
+      "url": "https://www.khwiki.com/Green_Requiem",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "92fc1d28f25f384614f14ff010a871afb0893c7859acaf642e89b3d8eac3869a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-green-requiem",
+        "enemy-card-farms:recom-farm-green-requiem"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-76c6477bf1be9f1a",
+      "url": "https://www.khwiki.com/Hi-Potion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ad28d2a2ea36f9bdabb081df36b6e4d599c8a9b4fa0166d66d8acd2cb697cdea",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-115a18c41616f390",
+      "url": "https://www.khwiki.com/Holy_Burst",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ed9efe9052bcc1d1ac85dc6af1d18d6bbb2a915529277ff42da77f980a401aaa",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-holy-burst"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-de40928cd2c5cbd5",
+      "url": "https://www.khwiki.com/Item_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3bd587bb0e07cdfc7a9282d4d15abcfe64b41d9aff835e21469d4fba38af3bf2",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-item-elixir",
+        "other-cards:recom-card-item-ether",
+        "other-cards:recom-card-item-hi-potion",
+        "other-cards:recom-card-item-mega-ether",
+        "other-cards:recom-card-item-mega-potion",
+        "other-cards:recom-card-item-megalixir",
+        "other-cards:recom-card-item-potion"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e075936edf86613b",
+      "url": "https://www.khwiki.com/Jiminy%27s_Journal",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8ae957e138bae6a975b9c56c2832a7b38ee23841608e52bb3032a948b2fd8ef6",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-8b7b6a2c0fed11a5",
+      "url": "https://www.khwiki.com/Kingdom_Key",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9a47039f337d4d9f4517baf1f4cddcb075c561aa947438e2075d7ddaf06930a7",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-8f6c16b5c280cd57",
+      "url": "https://www.khwiki.com/Lady_Luck",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7b41f16e3a29d37dac0fbcc84952ed3b9bce2f408ce8e86b6a6d6e39d49d8186",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-bc4a83476fbba9b4",
+      "url": "https://www.khwiki.com/Large_Body",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a092b2b89c21ce0751e31dc5eaeba08e969d84cc21ab7a1953f5b1f202c735dc",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-large-body",
+        "enemy-card-farms:recom-farm-large-body"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-83dcb21adaf4d189",
+      "url": "https://www.khwiki.com/Level",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "05a8094eb522144028267218e80b5656fefb6405710ff8d4b5342d0d40eaa06e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "progression:stat caps, level 1\u201399 EXP and deferred choices"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a05fc075671b8a6f",
+      "url": "https://www.khwiki.com/Lionheart",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c62a663dea78acb798c0552ec4180de3fddd20e5a3b6021e20b73da5548e866d",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-5934183285d3686d",
+      "url": "https://www.khwiki.com/Magic_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "615f45fa04046e0f0f31a3ed658b4136f1d790870aef7cb68ca8b3803f95956d",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-84a51e6cfc313d3d",
+      "url": "https://www.khwiki.com/Map_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "91681a855dd19a36be3d70164a8843f819b566857702fe00276c0819e99fd8d9",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-d98991c1eee79d5b",
+      "url": "https://www.khwiki.com/Maverick_Flare",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "fd6961370e8a636a66ce797ee5af0244f612c10584004c6a0b2bce8431c221f7",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-c336461f64f51806",
+      "url": "https://www.khwiki.com/Mega-Ether",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9bb89bec783e419eeebe6a290f5b05d721ec5b5bb66f0601e5c76c5e99385803",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-682a8c3a9c28f1f2",
+      "url": "https://www.khwiki.com/Mega-Potion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a1c009dcddf08e36f0473f05a461ec7dbc05ada2e4e5b3984ffa28aaaf6512a2",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-da9e1328a0b14d3a",
+      "url": "https://www.khwiki.com/Megalixir",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "94629ba99e206b5a0f70aaf28da88b4692190244f8a23cf01478ee4b58a3637b",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-672f1a09774c2c5c",
+      "url": "https://www.khwiki.com/Metal_Chocobo",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9636040af901832698caff709a3e19d3706da25772b2196cfb216ccd77ffbb1f",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-3b5cfb2f27346a8f",
+      "url": "https://www.khwiki.com/Midnight_Roar",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f341f07544acd6154aed950740a459e6c2bf5ba4ca53947a22e0dae13fedf22d",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-26dc5037e142e3f8",
+      "url": "https://www.khwiki.com/Monstro%27s_Belly_Brawl",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3e6c9f88c4f35add0fda1a0eda64e7693bf2e7de09a78132bd6930a564b5a483",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-monstro-belly-brawl"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-ac6e6afcd4d345ac",
+      "url": "https://www.khwiki.com/Moogle_Shop",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "b09fb406fa9d5874a29f889a0bf788f9bf0eee020bc9865ef2d184590217bcd8",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-9ca9a4772dd77d01",
+      "url": "https://www.khwiki.com/Mushu",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "320f700c0d1ce4be27c4cb5811cc1c6ceb2096310bc8088c1df72e5c03da8c8d",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f110ef2c9fc124fe",
+      "url": "https://www.khwiki.com/Neoshadow",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "660e13fd18052426ce9139c4c2b516143176a96b63ef90715c5b1bc0b44ac21c",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-neoshadow",
+        "enemy-card-farms:recom-farm-neoshadow"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-5658935190cc96ee",
+      "url": "https://www.khwiki.com/Oathkeeper",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "232b11b0e12fe01141a3826c30c22c08765ec1b97aefb93acb97893d92f03c65",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-5efb037aa81bf18e",
+      "url": "https://www.khwiki.com/Oblivion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "024615551b361d0a5d9d75908e84d102829648289fab3cb67efe4dc2ad50753c",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-ff68f1fb2a7ebdb9",
+      "url": "https://www.khwiki.com/Olympia",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3c56ae80543319b5015d8b1dad6f544163f0172af9c1deb4ab26b61c25ef71b8",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-ba8a08bc7d7a3eaa",
+      "url": "https://www.khwiki.com/One-Winged_Angel",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bd7caab972533aa4c3ffafc1c6020e0e8299cab519fe993d78e292bcc4c56424",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-bfa5c0971f2b175b",
+      "url": "https://www.khwiki.com/Pirate",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6defb61130d7f62ec00c65b635353c9a3e7dfabf8732392319de68c659149272",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-pirate",
+        "enemy-card-farms:recom-farm-pirate"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b3715c540a7a5fde",
+      "url": "https://www.khwiki.com/Potion",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7dd550b4af6dbd99d82ed7bab0f6e5fa2e075ef9d07144c567946f4d693d02ff",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-5f7c34956faaac57",
+      "url": "https://www.khwiki.com/Powerwild",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "edf73a55afb85e6748743d1ac96aaf823b85eec18a9af40beea30be87714099d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-powerwild",
+        "enemy-card-farms:recom-farm-powerwild"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-846a430823569392",
+      "url": "https://www.khwiki.com/Pumpkinhead",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8ad698633b00724ef12feb9b3c933fb873aff5c338b11f9e0cc9cbeb4e835614",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-c08f249cb1bb004c",
+      "url": "https://www.khwiki.com/Red_Nocturne",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "159a8dac1924cc2353a3e41e985cb74d56877844016897d5a83e8ba64a62bbd5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-red-nocturne",
+        "enemy-card-farms:recom-farm-red-nocturne"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-06adebd0d73d0910",
+      "url": "https://www.khwiki.com/Screwdiver",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f35db73951508713ff695d918885a80a9fe7e68637774c2a187250bf0bd767dc",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-screwdiver",
+        "enemy-card-farms:recom-farm-screwdiver"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1167c24c1e378df5",
+      "url": "https://www.khwiki.com/Sea_Neon",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "22ebf86a2bf95ced2cdeaa428739da312bfe75d58782b7e4480c4b6031d6d67d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-sea-neon",
+        "enemy-card-farms:recom-farm-sea-neon"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2b0fef53855827d6",
+      "url": "https://www.khwiki.com/Search_Ghost",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bcb72578d179ac3f274526da6eca2a0c4123a7f705159bb28a51a371e422df3a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-search-ghost",
+        "enemy-card-farms:recom-farm-search-ghost"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e9bce69f1bc619d9",
+      "url": "https://www.khwiki.com/Shadow",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "74e83d0548ffddf250a4c12c32fe0052a3c4668a0cde1cdfe0c3e400fccfb24f",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-shadow",
+        "enemy-card-farms:recom-farm-shadow"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8db33eec211a9b36",
+      "url": "https://www.khwiki.com/Simba",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "250d78bda0dbb2f26cf86562f2f031b8c5c24fc6b79b474d49307ce49e932508",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-d5e2f0d399b012e7",
+      "url": "https://www.khwiki.com/Sleight",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "fbe05dcf4dabbd3457ef7dc2ba96bd6da88f83e99f4ca629167424d26720708e",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f5402cd10556a637",
+      "url": "https://www.khwiki.com/Sleightblind",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "201b04d425bb1f77b46b11ea5096f971be279152baf3d434ccce952253be8905",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-57fb59979a801e3e",
+      "url": "https://www.khwiki.com/Soldier",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "9fb9d6ca6a0fa0e57c6c6bbca25b9b902aea26cab3a15d3e37908996d697db66",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-soldier",
+        "enemy-card-farms:recom-farm-soldier"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2e7b8ed86320fc38",
+      "url": "https://www.khwiki.com/Special_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a8ce7e8df6e223d62fce0abcb3dfde8ce2ecd0cd3b302cc2b19ad0bf6b0988c1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-special-gold-card",
+        "other-cards:recom-card-special-platinum-card"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-def6a53cdc3df15b",
+      "url": "https://www.khwiki.com/Spellbinder",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "66225141b16196f63c7bbbb656bb468911c4f07bf4c24c47915dd0b98df3f997",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-2f6fa9bcfbfba8ca",
+      "url": "https://www.khwiki.com/Star_Seeker",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a0dcb9c68ad6502cb09faf6006b87de37a39fbe2ae574a308bd34f7784646528",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f126b0a11493c2d3",
+      "url": "https://www.khwiki.com/Stats",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bb962ab46d0e8a215f56d5f822c292c4f70544e7c99091f38925a44414b76cec",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "progression:stat caps, level 1\u201399 EXP and deferred choices"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-5472a37c9e1c1d35",
+      "url": "https://www.khwiki.com/Stop",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "107e25b03cc3797452f42a7e165834338fa19380371915d23e1f0def45346dc4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-stop"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-29191a4e80518b0b",
+      "url": "https://www.khwiki.com/Summon_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3d182b5d248e35ee2928b64467f2be53fcba4026e13eed0b08f1b72b2de3b22f",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-85bdf0c5b1c37d3c",
+      "url": "https://www.khwiki.com/Three_Wishes",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bb18d4c793b542f09afda220373e76c0fc1e5ed7873d8438167d643cd084abb8",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-9dabf3d8eae06e36",
+      "url": "https://www.khwiki.com/Thunder",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c946774837ae28001120c4b2c67fa9cbf9b5c56539fa8737f6f8faf4030244f6",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-magic-thunder"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1994bc809e14c5a4",
+      "url": "https://www.khwiki.com/Tigger%27s_Jump-a-Thon",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3d7893165b7ea4242b3ffcc85b2f721c4376b6b75eda4fc80d38b460a2fb3421",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-tiggers-jump-a-thon"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b8c3d8cb76349aaf",
+      "url": "https://www.khwiki.com/Tinker_Bell",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c12103108eb8c9c433c556b1a792bd6eb1dbd0bfbf190f481fe29d16f83a295c",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-cf878c4514304bfe",
+      "url": "https://www.khwiki.com/Tornado_Step",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "4da0cbce550fa39a1b75a2567d4691e4624c5b159608a0b84bc6bc7c82e14bed",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-tornado-step",
+        "enemy-card-farms:recom-farm-tornado-step"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1224081fc7da61b7",
+      "url": "https://www.khwiki.com/Total_Eclipse",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "901b44ad6c0ad94d82ba2186f504db07ba7d9abe18e210efd2e250e158e8d95c",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-1538a6e5a90add75",
+      "url": "https://www.khwiki.com/Two_Become_One",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6ebb9d41967933bc89cf946cda6de59ba83d220fdc8690724fffe7107355cef3",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-a188733c5931ed4a",
+      "url": "https://www.khwiki.com/Ultima_Weapon",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e99db956520cbc8d35a2323bcbb63f60250b398381fb224c383f96b9063074de",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-b2daba063ee87719",
+      "url": "https://www.khwiki.com/Veggie_Panic",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "cbe202ca19e079f5812fd9bb6307ab53a833baee215d3522d3c4c118562b7ca9",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-veggie-panic"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d0bdd9f38e277803",
+      "url": "https://www.khwiki.com/Whirlwind_Plunge",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7adfe833713e6beef1bdc83090266ad0d959e459964667ec5537dea08f2011a3",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "minigames:recom-sora-minigame-whirlwind-plunge"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b5eb0a3555f11be4",
+      "url": "https://www.khwiki.com/White_Mushroom",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "159e9c61a572e0668392710561a81e2fd66eb045867fa87c925e29d5b6bb86a3",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-white-mushroom",
+        "enemy-card-farms:recom-farm-white-mushroom",
+        "enemy-card-farms:mushroom success and eligible card-drop rules"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8901e2acebb23e81",
+      "url": "https://www.khwiki.com/Wight_Knight",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "54a45ed3c4c9604df3f955c63c5683b662f388f4571f75da7549a22bef6f6ddf",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-wight-knight",
+        "enemy-card-farms:recom-farm-wight-knight"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-632f43420a5cf77a",
+      "url": "https://www.khwiki.com/Wishing_Star",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5f76935cdef94a34063b381fb533b72556bafa74f9c6804ffa9b1eecbd75b808",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-114429cb556d48bb",
+      "url": "https://www.khwiki.com/Wizard",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a0f49971209a0cabe7b83fa29cbe026c27e03e6d25e762855fd234f4a4d13bda",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-wizard",
+        "enemy-card-farms:recom-farm-wizard"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-28cb966ea792b24f",
+      "url": "https://www.khwiki.com/World_Cards",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c1e483219889d6250e7e099a5770aeae08b17e1de7d69bb1f9f2dd09236de9f5",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-24c783b63506b1ce",
+      "url": "https://www.khwiki.com/Wyvern",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0816d96078bef41f90469f9bad83508a8440299bf07ecc83208d0a2cb818db8b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-wyvern",
+        "enemy-card-farms:recom-farm-wyvern"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-353cdcdb7083797b",
+      "url": "https://www.khwiki.com/Yellow_Opera",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "15b56a4f2fc52cce85bb0c2658e8a6d391e39e580837b85be328b664b39e30d7",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-yellow-opera",
+        "enemy-card-farms:recom-farm-yellow-opera"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a1dc1cd1a614aa29",
+      "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 403: Forbidden",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-95ab6bde94112b9d",
+      "url": "https://www.khwiki.com/Darkside",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "eb36dbb328eaa15c9254afe8151d5387842489d3f116625fbf157135b73b377e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-darkside"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2aa35811514fbe62",
+      "url": "https://www.khwiki.com/Guard_Armor",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5588ed4ccf8988de56a328caa6f373048df6558f934dc23afce47292f8f7964c",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-guard-armor"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a05b7e3ec9fe1c68",
+      "url": "https://www.khwiki.com/Parasite_Cage",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "be2173638cc3d50c3ed13b40e552a3aeccc542e5e379353e37b3c0e3f695ee5c",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-parasite-cage"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-6203c3ef1b403543",
+      "url": "https://www.khwiki.com/Trickmaster",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7c26331e039e6e61e01bebfef2bc4967440d85b417f48767d112b3a6c609616a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-trickmaster"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-45a1216e121e508d",
+      "url": "https://www.khwiki.com/Game:Genie_Jafar",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-f43c6add611c0b6a",
+      "url": "https://www.khwiki.com/Game:Dragon_Maleficent",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-adfddf28cdf1b93e",
+      "url": "https://www.khwiki.com/Card_Soldier",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "c7cd5306560814f525f5578ab62e04514697c961eded4ca63ed4b93fcfef6244",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-08a33bfe9f6487ed",
+      "url": "https://www.destinyislands.com/re-com/sleights/sora/",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 406: Not Acceptable",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-c35562c709022871",
+      "url": "https://www.destinyislands.com/re-com/sleights/riku/",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 406: Not Acceptable",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-c0859f6f1cb915ec",
+      "url": "https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=2552430",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "18ed3abf995fa7b5f22f6d6eb03abbf8680f38a77a46ef2a94f3fe1b577a475f",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-4686e8a5a8d65ded",
+      "url": "https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?appid=2552430",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 400: Bad Request",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-aeae0c23b62cd2ec",
+      "url": "https://www.khwiki.com/Jafar_(Genie)",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5eedf79cace1bce68b88789f0dcafce7e983f4a90f6b901fd9230397b52670b6",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-jafar-genie"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a76c0890ee449451",
+      "url": "https://www.khwiki.com/Game:Maleficent_(Dragon)",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "46a7680f8736dc9a26367f3a21757675976a3c35b0c8952be8be35d4cba3fc45",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-dragon-maleficent"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-c01ef126e5586508",
+      "url": "https://www.khwiki.com/Darkball",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "43292d36277f0f323e296d9faee67c56973f4c5ae636a840fd93c182503230d4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-darkball"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-eccfa74671f18f0f",
+      "url": "https://www.khwiki.com/Game:Playing_Card",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ece19672a44187c098eb033e88d4cfca4f47942882dd28bc974912b4c079d73b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "combat-reference:recom-combat-card-soldier-1",
+        "combat-reference:recom-combat-card-soldier-2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-38e8150938373d03",
+      "url": "https://www.khwiki.com/Sliding_Dash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1d24960fb4e91bc7fcd3c7293ff5ae9206a76901973a6e6d4ee27462ed46b0b3",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-sliding-dash"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2eaf2abbbd796bae",
+      "url": "https://www.khwiki.com/Stun_Impact",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7d37aae4c0906e5b5afb93498a2dd088ae44f455cbe7b3f66cdfb5afa55454ab",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-stun-impact"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1cba3709280a3d31",
+      "url": "https://www.khwiki.com/Strike_Raid",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8dd4a465dadf68b8c1dfd06954761695ea88a7fd53a4fce0ed1b8dfeaa27e101",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-strike-raid"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e3812c8635454827",
+      "url": "https://www.khwiki.com/Blitz",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ab00ffc83e0a3c31602e909bd176cf5724b6df5527e030a77eec81d8d710468d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-blitz"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-41795932e20eef46",
+      "url": "https://www.khwiki.com/Zantetsuken",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8269d63a5b330e0e15a0968e44e4bc036e758b3e1486414cfc0ba17d2ee61e78",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-zantetsuken"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2616b2abbafa25e4",
+      "url": "https://www.khwiki.com/Sonic_Blade",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2eb4b584e2b60e809709e6d01540b3c9b4e925b24a7293f1320d9cbef380526d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-sonic-blade"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-387658e95ecd564b",
+      "url": "https://www.khwiki.com/Ars_Arcanum",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "86f67d107c5cf8a669335baf7b0b53c008ca7ae2e31c9814d81dc46066f90dd0",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-ars-arcanum"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f68617397a769779",
+      "url": "https://www.khwiki.com/Ragnarok",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "46ce0c83bb0d205bdd7ed9ca88cbf2cacb31ad46340414c3f9166b061e3911d5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-ragnarok"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-6d944e0f97140871",
+      "url": "https://www.khwiki.com/Trinity_Limit",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "104fd1c1d5e1fa60aa6ec3ee0340169f321e12e22026d1d25b961bbbfa0e2011",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-trinity-limit"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-4c728413f15ff9da",
+      "url": "https://www.khwiki.com/Fira",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ea164ca39a49872f110761c9bb9282db5c1be5ba2a92bc3042e2568fcab549fe",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-fira"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-ac111e054b54f6aa",
+      "url": "https://www.khwiki.com/Firaga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "fff9c3c1f8d1506d6cedecd5d5a9a06eb91e62fe9dc8134ddb5171d2a65a2a70",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-firaga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-0b8a6757a76de1ac",
+      "url": "https://www.khwiki.com/Blizzara",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a82635158eda812fa76af031ea81d03340f0817fc9727905c703655a3c058775",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-blizzara"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3aa5dee55ac02f95",
+      "url": "https://www.khwiki.com/Blizzaga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "de3f72327b3a999b0c9f6b3fd53c15d726892c38bfa58278cfb1932bb5d41d78",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-blizzaga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8b5107279c6caacb",
+      "url": "https://www.khwiki.com/Thundara",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "cf146774077a713e52fe435a6050adc829a24b89dd6e715e92053994a092f9aa",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-thundara"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1361aa99f5ac0163",
+      "url": "https://www.khwiki.com/Thundaga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "926f4c69c5bcf8e77287999918f7523eb5829e88a75e2734f6707b707518a1dc",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-thundaga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-65af32a8fb8aadb5",
+      "url": "https://www.khwiki.com/Cura",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "18bfe58760744c2b5cbed72863b0c29b3603d687694c924a36354e17c65c4390",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-cura"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-35dcce6d261ee29e",
+      "url": "https://www.khwiki.com/Curaga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "32c82a6adbf3ccde9e6a3b81b838ed12392a64deee971a860796949f5e5d5286",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-curaga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7968cadebb7c55b7",
+      "url": "https://www.khwiki.com/Gravira",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6e1956459822197f1797df06920053f02c01d97a9b1e4916f071084185a1ccad",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-gravira"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2bf0aca70475fc5a",
+      "url": "https://www.khwiki.com/Graviga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e3722eabe1d068d8f509eeb5bfe98602de547d902dce0cdb3885bda8462fd323",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-graviga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e41c98c8f501f3e4",
+      "url": "https://www.khwiki.com/Stopra",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "93838ed1010d7647b944b00d9969921983afebfd2096fa37d6501cff64278b29",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-stopra"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-1fdacdf712e39667",
+      "url": "https://www.khwiki.com/Stopga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1f72ecf6da5d75eeac5d9b51d7dce85a415d00f8acfcf1ab74f1dd1864922f80",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-stopga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-79556d88c1d494df",
+      "url": "https://www.khwiki.com/Aerora",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "96a61f642dbbe0456847b00218e15847806172dd27157ee7a376451c06f0e3ba",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-aerora"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-41c1d2b2ca5a2075",
+      "url": "https://www.khwiki.com/Aeroga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6da725a0ba74e99918ac36330f057de9e700a5630f2a2c027d0dc437ccafef50",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-aeroga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-74ef62d09cd45979",
+      "url": "https://www.khwiki.com/Warpinator",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "99086f41da155c7da78556ba69171fdb392f5bee20577a4d2bcc506fc2462510",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-warpinator"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-72db5c40d3c61a7b",
+      "url": "https://www.khwiki.com/Warp",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3545b1352bda42e85648c3820c66e90320a1c4d5814f70e451aaa2f38e78b90a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-warp",
+        "enemy-card-farms:mushroom success and eligible card-drop rules"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-bde81c310049a832",
+      "url": "https://www.khwiki.com/Blizzard_Raid",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "53bdb7dc76a95d9abcbbb2dd5d3022da77e92e2c11328dd6b2afcc4601306fbe",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-blizzard-raid"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a7e7e0dd1c68f895",
+      "url": "https://www.khwiki.com/Synchro",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6bd4a433fa0ce0e38cf2b816cf09a18db3731faa5acfa439ad09069219235464",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-synchro"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7005773702870cbe",
+      "url": "https://www.khwiki.com/Fire_Raid",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "afbe6e95da8d9ba58b8c43b93c5f2a8dc66a35069e1ea67a9c9f6c31d4c45504",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-fire-raid"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-58aa67dd2e18c03c",
+      "url": "https://www.khwiki.com/Aqua_Splash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "82ac09fdb55b5a93803cb87fe045aee93accb286b089c06c7c251d798744dc65",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-aqua-splash"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3b789b87b432cfc4",
+      "url": "https://www.khwiki.com/Terror",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2a072c16bb2be69a97ae79b33bdca04b183d624d8245bae2551ce963a2668dd8",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-terror"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7a393939ac20ff53",
+      "url": "https://www.khwiki.com/Gifted_Miracle",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2cc51e90f46f8908e36361d594e7ee2709dde674c38f9a51641f243be55f35b5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-gifted-miracle"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-9010ed890dab48bd",
+      "url": "https://www.khwiki.com/Bind",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f600495fde3f118c781358e7d34d576119ec8d77d850938fec020731800ef910",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-bind"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-57944cf5ad2bc9f7",
+      "url": "https://www.khwiki.com/Shock_Impact",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a23e2d986877a04605619c3c74fc3fde146ded53bec469dee1c716ab756f341b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-shock-impact"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-17dada9c2910084e",
+      "url": "https://www.khwiki.com/Homing_Blizzara",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "4a7fb207bfed723f0f106a8dbd5a2d6714a0e96c59bfdddab3844086bf1750d3",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-homing-blizzara"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-651fcaa8159c53f5",
+      "url": "https://www.khwiki.com/Quake",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5ab7ff981ad1d5491fd6e6fb0f91a7401433868d60b372cd06325a20e74e99e1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-quake"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-69408fa83839394d",
+      "url": "https://www.khwiki.com/Teleport",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8ea1696d07067cf43c9a20bf304a0890553e936a4b391abe6cb0c4865c42d2ac",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-teleport"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-baa68ece14e809d3",
+      "url": "https://www.khwiki.com/Thunder_Raid",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3bb8a54bcdb48d502b2f0cae161224e669452b860a1d86196c91563b06c59138",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-thunder-raid"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-92c358cc04ee186e",
+      "url": "https://www.khwiki.com/Confuse",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f2205a7ff2aa82b14b827f0efb7bfd94fd5203cb2ed176cf05abeed9038b612d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-confuse"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a8f3606132b093bb",
+      "url": "https://www.khwiki.com/Firaga_Burst",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "b570586ed3f42780c1d1ee88cd60207d8686e6786f945776e5706ac6eb639ec4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-firaga-burst"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2bf04cd3a79668d7",
+      "url": "https://www.khwiki.com/Reflect_Raid",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "29366241dac54a210a7a2baf55565797da8c33437b43398b4790fcec34335789",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-reflect-raid"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f2e4c2698a4685e4",
+      "url": "https://www.khwiki.com/Magnet_Spiral",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "42a0a224d9209ad3fb9696d6dea4982b5ab539a2b7bfc748607f0707bde279db",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-magnet-spiral"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-9c50c128a3bad5e1",
+      "url": "https://www.khwiki.com/Lethal_Frame",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8b6f378885cb091edba0e99a8aae0827cbdaed3fdeac1c4e9dba7198f2915571",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-lethal-frame"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7c71246584f21ae9",
+      "url": "https://www.khwiki.com/Tornado",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8eae09e27d79c305e326f69ded762d61582eb81f75c56694a2a1b93d77f912e0",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-tornado"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-34ff3b4b2b39da21",
+      "url": "https://www.khwiki.com/Freeze",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "b5d10e08752c77cf3ad2b09c70dd8057cf73032432be898cc169dcc08d75b139",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-48f775f9d2f6cfbd",
+      "url": "https://www.khwiki.com/Judgment",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d7ad2275a218be83afd6b3e54faed1d263c8da50e953d4df944a2424fc8b5154",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-75e5975d6b21ea1f",
+      "url": "https://www.khwiki.com/Holy",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "666d6241813530a208e0018cf13e35c4acdf789bc2b7ebd146dfe54048a77e79",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-holy"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-dddac99e55406fdf",
+      "url": "https://www.khwiki.com/Raging_Storm",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3c9e05fde2cb0f8475a924c458466512ab5d5ff6a6591f8c4ed75b2681f48f24",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-raging-storm"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-666094c4c3547317",
+      "url": "https://www.khwiki.com/Mega_Flare",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "64e1c40de13a5f61551bdd987cba4ae2a8ea464d302060327475d9096e6729cb",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-mega-flare"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-940952b77cfefa0a",
+      "url": "https://www.khwiki.com/Proud_Roar_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7fab65aed9c17b652940ef3e2480902b9282b2cbe8e5468a5b381b3a3fbfde98",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-proud-roar-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-558f82fc62d765ff",
+      "url": "https://www.khwiki.com/Proud_Roar_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6ae82ef0a3c4523b1cd8c98a1313d1351583d196c2a4941a11dcaabdd286dcb5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-proud-roar-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-53b4f63f2c9114b1",
+      "url": "https://www.khwiki.com/Showtime_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "5788870ad555c25760e8fe3de7e0ddf5da54bcdbd3df2c12e1620762ffa62b5b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-showtime-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-2c70a61c4668797d",
+      "url": "https://www.khwiki.com/Showtime_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d7ccea623b9f3502f779ae60ae5a53187188adbdcfba3d8fc27ebe78c8d9d37b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-showtime-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-9b5ea8fcb7e6dec2",
+      "url": "https://www.khwiki.com/Cross-slash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "7ecd1e6061ac74d310b377e4eb68156de80dbcd01f0e1bb9609f326417572be2",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-cloud",
+        "sleights:recom-sleight-sora-cross-slash"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3c4fd944490b415c",
+      "url": "https://www.khwiki.com/Cross-slash%2B",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "be05adcf005477ab9ba47352490d1ea98c00427c9d3433626bef0c3bce7e045f",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-cross-slash-plus"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a61704f5e158e28f",
+      "url": "https://www.khwiki.com/Omnislash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d6f27e13624679023941ec6c17a98fa2b615b75f1e006993f432fe297d0fd274",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-omnislash"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e4083fc3467249a8",
+      "url": "https://www.khwiki.com/Splash_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0a708e619b8102ae398f0fd32acfe50bdfbb84bb6d60909d7f37bda3619d1116",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-splash-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d97fe19cc7507bd5",
+      "url": "https://www.khwiki.com/Splash_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f29a6d7bdebba4195c9dc9a755abe28bc5e2ed7a1213406fd0fd3dd56ed1fb57",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-splash-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d69f61953d24e6e7",
+      "url": "https://www.khwiki.com/Twinkle_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1924ad99b4c1d246494219d5813deea09036cdd903078481b8af7ed8f25efad9",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-twinkle-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3b7fca161fa859c9",
+      "url": "https://www.khwiki.com/Twinkle_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "248fe3fbc833031944f25ab91937e4a37c0251d3e4ab53d788965fbb7b9baeae",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-twinkle-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-01880d149637eefc",
+      "url": "https://www.khwiki.com/Paradise_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3f18cfdba75e1a8c01e6e03c12a709d02c28582b1614329fed6b0b0aad5ddc69",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-paradise-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-edc06c93c4414eb5",
+      "url": "https://www.khwiki.com/Paradise_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "39f27209eda6ed97eec7f7b3f3513e97c5c7204d7ebd1db9daafc891bc3b923e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-paradise-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-23c4b06869f3f564",
+      "url": "https://www.khwiki.com/Idyll_Romp",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "690a555229a5af5d9543bd4f20e0a5de57f8b908a85b5765c60de12fa71009e1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-idyll-romp"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-fa4ff75755dbf03d",
+      "url": "https://www.khwiki.com/Flare_Breath_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e0fdb92285cc8fe4dfa18225292ba58f924af994b47f8336326e0dd0fd862c0e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-flare-breath-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b8280f5bc3758df2",
+      "url": "https://www.khwiki.com/Flare_Breath_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ac3f7f6355e1565eae24d7e9c73c723f9c114dc2959dc0034380f386969ff8c1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-flare-breath-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-80ac2fba61374094",
+      "url": "https://www.khwiki.com/Magic_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a0973bc0d72f94aebfe53737b0bdbf6416a852d9577d421d66ccbe10e2b51735",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-donald-duck",
+        "sleights:recom-sleight-sora-magic-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-21e946c7ccf5c9f4",
+      "url": "https://www.khwiki.com/Magic_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "385fbae8d19e91b91762964519cbd2c218425373392a82376c4b530fb85bc50b",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-magic-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-40c63b3a85aa183d",
+      "url": "https://www.khwiki.com/Stardust_Blitz",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e2c64bb92d8f36f565ef25c3e3df00dc92534debbb7244dc246186255349dacd",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-stardust-blitz"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-d7c9165443fad351",
+      "url": "https://www.khwiki.com/Goofy_Tornado_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "40921db004541633d25a1ae03e08865f4162ec184dcc6a0d1e55a276ff6e070d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-goofy-tornado-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-ebdb69c7a73527ab",
+      "url": "https://www.khwiki.com/Goofy_Tornado_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e0e9ec393cad7b4e4b677a898e8b0934fedfc290a67463c17179cfe820db5f70",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-goofy-tornado-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7ec6663a8019d640",
+      "url": "https://www.khwiki.com/Goofy_Smash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "88bfa3c4d9438bb01abd5491638e198605ada0950f55117962677c4c1b420ba1",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-goofy-smash"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b375972097f417d5",
+      "url": "https://www.khwiki.com/Wild_Crush",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "cacda9d465fa767f6d69afe801a023e17342ddba2d1b522f0394f7be2b7ec345",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-wild-crush"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-15f01b3531814a0d",
+      "url": "https://www.khwiki.com/Lucky_Bounty_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2de235e19b8e90dd8497358c09a701c028421f0963dd70653fca3b7688ac3730",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-lucky-bounty-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-4089f6d42af880a4",
+      "url": "https://www.khwiki.com/Lucky_Bounty_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "140c045c4f66c2c2e124bdd6df953c631b07edc0d03ba0586474c258670ad856",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-lucky-bounty-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-5ddaeba57b317855",
+      "url": "https://www.khwiki.com/Sandstorm_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8d180a597a3f96c7ceac24a3d7cd9d67411289badf4ae16be99e5b233e8a0cae",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-sandstorm-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-ea5f93ef4c82d080",
+      "url": "https://www.khwiki.com/Sandstorm_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3dad51010b5e6557d0fa1b7b07228677a6f0474859c9c9cba595ca5836ab2a77",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-sandstorm-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-70e8a4357861aa3d",
+      "url": "https://www.khwiki.com/Surprise!_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8410348a225187a7eb4964064bc1c2c643ec3ca5b38e8396cfc2134155e105bc",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-jack",
+        "sleights:recom-sleight-sora-surprise-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a9bab6bc8ce1d703",
+      "url": "https://www.khwiki.com/Surprise!_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "b8a094fff56034efe14aafb448344de61857be7ff898748a582e66ce13425271",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-surprise-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-9466bc3fbf4d6d66",
+      "url": "https://www.khwiki.com/Spiral_Wave_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "6dc393344ba62654a89cc7194e629d67c6f999861491d5a3afc55a6155d12ad4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-spiral-wave-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f7a02714af06f17e",
+      "url": "https://www.khwiki.com/Spiral_Wave_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e171b2db2f100d0b96b23265b70d745b350515d36e8b555d862687f7312a0f06",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-spiral-wave-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-6b967e8bdcba97d7",
+      "url": "https://www.khwiki.com/Hummingbird_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e664f2676fb835d37bc57c15b4e3e08f9fffe57c7ed33836460329c78e257c91",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-hummingbird-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-0ea3398ff3043b4f",
+      "url": "https://www.khwiki.com/Hummingbird_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ff3c23259ef41018ea2013f1dd832160deb993955f0a75f046ea75e9c553cafe",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-hummingbird-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-489df269b60d2b3c",
+      "url": "https://www.khwiki.com/Furious_Volley_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8dcd958f8ddcf2fb511f878a261531573e69499b1fa0d58405b7cce980babdb7",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-furious-volley-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-53c7ebe4e2021f2d",
+      "url": "https://www.khwiki.com/Furious_Volley_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3154cea81c8148c67feb0fad665f4893462967dff8e4989429d7b7ad17edde79",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-furious-volley-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-fe61ac6bec6284fe",
+      "url": "https://www.khwiki.com/Honey_Storm",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "30d982d14b31b2f42e88080bddcfedd1294b53399d814fc265283ca0925d3265",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-honey-storm"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-efdd2d60992003d0",
+      "url": "https://www.khwiki.com/Honey_Pot",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "609669db4f82508a57485dfe9aff9104ab3c5663f0bb90f55af507984d401b16",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-honey-pot"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-c28fa58fef3890eb",
+      "url": "https://www.khwiki.com/Dark_Break",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "08677a322f6c91d812a72970ad4ff9619a9f894aec3f7228c8067aabfbad5933",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-break"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-09bc0f2b1edd1e49",
+      "url": "https://www.khwiki.com/Dark_Firaga",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "2159c7bd5f072111c89473c3af915410bfa2e29bfe9fa21707651bd3c1add39d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-firaga"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-06d6a4bff632c7e8",
+      "url": "https://www.khwiki.com/Dark_Aura",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "76366e2352b6a5def767d11ad745670cd097751743e5a2baa61d0cca6dedb557",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-aura"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-29629cf024ac827e",
+      "url": "https://www.khwiki.com/MM_Miracle_Lv2",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "214b201a4d114c94963f2423448c3168c7ce663775fabdff1d8b4ca2984d1153",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-mm-miracle-lv2"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-aa6f3fc638fcaa9f",
+      "url": "https://www.khwiki.com/MM_Miracle_Lv3",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3c1d711d4dc741fd86493fe24586e1577b3e5ac71c8ea47abc928a21a64ea3ab",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-mm-miracle-lv3"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-72bcad0cf6bcab0d",
+      "url": "https://www.khwiki.com/Inverse_Burst",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "230ad173970588c26a43cc55bc594b872e661a2e4626555f6b11a40266cc1eba",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-inverse-burst"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8c8379e032eb83ee",
+      "url": "https://www.khwiki.com/Impulse",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "d2e29c1dea87b5bbdc96b08fe710c58824e29231c1c478de47b1b055115e5ba6",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-impulse"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-f7701bef350e8516",
+      "url": "https://www.khwiki.com/Dark_Impulse",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0e386f6e148200b50f9375d63f5959e5d50b663f937bee6ad323dd57106715c0",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-b8743622f89f7447",
+      "url": "https://www.khwiki.com/Maelstrom",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "90e66c3779c8bed54114043ac5bf4631de63fcc51da91a1ca751e751f792c4a7",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-maelstrom"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-062f09ce07ba0533",
+      "url": "https://www.khwiki.com/Dark_Maelstrom",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "3d6ae49e78a892d57a7109408ebf26729e03c7e3847609baf87746cac8d0b489",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-maelstrom"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-057a922e7143f3aa",
+      "url": "https://www.khwiki.com/Barrage",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "682fef91191a6238a2d4e55cb4844252e21654e27dd21e8ec64ca11eb84e4fa5",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-barrage"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-6f2699ca06e89414",
+      "url": "https://www.khwiki.com/Dark_Barrage",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bce0ba40f45a28f08bd62fb4635f536be925c9e2121f0f7d120f87dccbb607ac",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-barrage"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-0135386de65cb128",
+      "url": "https://www.khwiki.com/Proud_Roar",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "f1bc2fbabae61b50ce497eaa2bb84d7a3f88a14c22400db6672e0744f8a93123",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-simba"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-ada883051f80e1b1",
+      "url": "https://www.khwiki.com/Showtime",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "e838c79407ec4f8a54c62dc09e40f17336eedfa3987e9721ac7f8c4cde1fdf36",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-genie"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-482f8ffc6b64af3f",
+      "url": "https://www.khwiki.com/Paradise",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "144645b01ef9f5da70593b0067885fde9b49f5a0272490d206f71735b05ced9e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-bambi"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-08e8f66e50cef4ad",
+      "url": "https://www.khwiki.com/Splash",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "23dc3f3159d37a339f32cc5ec7cf8d7e406531be1b40d77ea534acbc3f0d060d",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-dumbo"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-563a02cf80c91739",
+      "url": "https://www.khwiki.com/Twinkle",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "22d7882fc004121284f90e750958e603958fe1fb6002fc185568b01de395a3ad",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-tinker-bell"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e243f7e41fd45522",
+      "url": "https://www.khwiki.com/Flare_Breath",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "bc63906f9f34d503d9e1c943445af08425db4b94a683437cf2c198b51cf16cda",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-summon-mushu"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-0b4efa6a49d94bfa",
+      "url": "https://www.khwiki.com/Magic_(Donald)",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 404: Not Found",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-58bc711d9e1a2b6a",
+      "url": "https://www.khwiki.com/Goofy_Tornado",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "30116a169599abdaa8fe113ae0089b7da6dc4deb12d5abd815e877016a73b3fb",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-goofy"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-a30bae7cb6bd2ee1",
+      "url": "https://www.khwiki.com/Sandstorm",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "1fb3df0e673e9061e5bcfc814196bf12f18acfd964eeaad0d94e6fb3fa9c6c51",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-aladdin"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-4577d707287b59a5",
+      "url": "https://www.khwiki.com/Surprise!",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8183f21eac56c6e1e5e1e4b3b30a05fc740c846198b9ed6970d2dd01cd6a8ddd",
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-cb7d4117c86603b3",
+      "url": "https://www.khwiki.com/Spiral_Wave",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "ac15ee4fbb59520cdc67be507ae5ebc4f127878bec3e68865d8e56c6a7ac518a",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-ariel"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-dece470c8dc891ab",
+      "url": "https://www.khwiki.com/Hummingbird",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "cb52eec7704f1870b402293b207f4373782e20dbef9fe49674cd55f2074f85f7",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-peter-pan"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-7a9df3efc3739c9c",
+      "url": "https://www.khwiki.com/Furious_Volley",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "be8bfc6c599ab313868a937723ce695593c7b76fb92fb16d4a52c754a4c62c42",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-beast"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-3895d8db66fc51ed",
+      "url": "https://www.khwiki.com/Lucky_Bounty",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "a81ed48a8ce3f20c69771c7cbdb963e090fb1a58a589c7153d41756629e0a8e4",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "other-cards:recom-card-friend-pluto"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-b279a9d8cd2a4f1e",
+      "url": "https://www.khwiki.com/Freeze_(ability)",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "8846f742a5f9d453cde703d836132c5e8426093fa82dfb525e38da0dc6dc6856",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-freeze"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-dd59128a0f37d0d2",
+      "url": "https://www.khwiki.com/Judgment_(ability)",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "0edf892e68a756d07009cfd328114006378befc234ef7420ecbc664cb34c44e9",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-sora-judgment"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-e44bafa852179882",
+      "url": "https://www.khwiki.com/Dark_Impulse_(KHRECOM)",
+      "accessed": "2026-10-01",
+      "access": "retrieved",
+      "snapshotSha256": "27b54431eb62069c91102112291ca372a78c588ae5caba2148dfb1a66463b98e",
+      "inspection": "Edition-selected mechanics/tables inspected for the listed extraction scope.",
+      "extractionScope": [
+        "sleights:recom-sleight-riku-dark-impulse"
+      ],
+      "evidenceStatus": "source-backed, not gameplay tested or independent corroboration"
+    },
+    {
+      "id": "recom-oct1-8d5a1de72f8f93f0",
+      "url": "https://kingdomhearts.fandom.com/wiki/Moogle_Shop",
+      "accessed": "2026-10-01",
+      "access": "HTTP Error 402: Payment Required",
+      "snapshotSha256": null,
+      "inspection": "Fresh access/provenance reconciliation or research lead; retrieval alone does not revalidate all older record claims.",
+      "extractionScope": [],
+      "evidenceStatus": "access result only; no additional fact certification"
+    },
+    {
+      "id": "recom-oct1-web-1",
+      "url": "https://www.destinyislands.com/walkthroughs/re-com/riku/",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "Riku walkthrough: incompatible Ansem reward and all-13F clear-Bounty claims; rejected as complete HD override/clear-state evidence.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-2",
+      "url": "https://gamergirlguides.com/2023/10/khcom-enemycards",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "Last-enemy rule, 2\u20134% generic rates and 2.5 multiplier corroborated; no independent 30-row rates, mixed legacy bonus gates.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-3",
+      "url": "https://steamcommunity.com/app/2552430/discussions/0/4347743744911045217/",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "Firsthand No Escape on Riku; another commenter advises loading a pre-escape save. Not full trigger-code evidence.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-4",
+      "url": "https://steamdb.info/app/2552430/stats/",
+      "accessed": "2026-10-01",
+      "access": "web-readable-shell",
+      "snapshotSha256": null,
+      "inspection": "Achievement loading shell; no native-to-display mapping retrieved.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-5",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3268206940",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "Movie plus all diaries/secret diaries/characters unlock route; minimum skip/restart/transfer predicate not isolated.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-6",
+      "url": "https://www.khwiki.com/Battle_Card",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "Reload and stocking rules; no complete matching-precedence algorithm.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-7",
+      "url": "https://www.khwiki.com/Riku",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "World-fixed deck and Dark Mode context; no full ordered corridor override catalog.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-8",
+      "url": "https://www.khwiki.com/Game:100_Acre_Wood",
+      "accessed": "2026-10-01",
+      "access": "web-readable",
+      "snapshotSha256": null,
+      "inspection": "All five first/second minigame rewards, Spellbinder location and initial minigame areas.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-9",
+      "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories/walkthrough/2",
+      "accessed": "2026-10-01",
+      "access": "access-error-402",
+      "snapshotSha256": null,
+      "inspection": "Attempted modern general walkthrough; no full page retrieved this follow-up.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-10",
+      "url": "https://www.truetrophies.com/game/KINGDOM-HEARTS-ReChain-of-Memories-PS3/walkthrough/5",
+      "accessed": "2026-10-01",
+      "access": "access-error",
+      "snapshotSha256": null,
+      "inspection": "Attempted legacy Journal walkthrough; no full page retrieved this follow-up.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-web-11",
+      "url": "https://www.playstationtrophies.org/game/kingdom-hearts-re-chain-of-memories-ps4/trophy/170888-sleight-master.html",
+      "accessed": "2026-10-01",
+      "access": "access-error-403",
+      "snapshotSha256": null,
+      "inspection": "Attempted modern Sleight Master guide; no complete membership/order evidence retrieved.",
+      "evidenceStatus": "Scope-limited public-web inspection; no game execution; no local snapshot hash claimed."
+    },
+    {
+      "id": "recom-oct1-faq55459-web-recovery",
+      "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+      "accessed": "2026-10-01",
+      "access": "web-readable via successful peer retrieval reference; direct URL open remains restricted and direct HTTP returned 403",
+      "snapshotSha256": null,
+      "inspection": "2009 PS2 card guide: Moogle/Premium rooms only generic, no full HD pack probabilities; Bambi/Dumbo descriptions qualitative without seconds; Warpinator suggestion for mushrooms. Does not resolve exact HD save predicates or missing timing/catalog questions. Existing CP source retained.",
+      "evidenceStatus": "Source text inspected in web tool; edition-limited community evidence, no game execution."
     }
-  ]
+  ],
+  "historicalBacklogReconciliation": {
+    "baseline": "f933ab1",
+    "count": 51,
+    "meaning": "All 51 older missing URL records have a dated fresh access attempt. Earlier inspection dates/sections/hashes cannot be reconstructed from a new fetch; old provenance claims remain unverified. Successful access alone is not fact revalidation.",
+    "records": [
+      {
+        "url": "https://cyndrqwillgamingblog.blogspot.com/2017/03/kingdom-hearts-rechain-of-memories_23.html",
+        "historicalReferringRecords": [
+          "recom-steam-moogle-mogul"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "4f666803994ecb446c381ea7fa9473ca20f1fcf5dfe8d56e912dae5466f73448",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/boards/684080-kingdom-hearts-hd-15-remix/69856569?page=1",
+        "historicalReferringRecords": [
+          "recom-card-special-gold-card",
+          "recom-card-special-platinum-card"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "HTTP Error 403: Forbidden",
+        "followUpSnapshotSha256": null,
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
+        "historicalReferringRecords": [
+          "Soldier",
+          "Powerwild",
+          "Wyvern",
+          "Defender",
+          "Tornado Step",
+          "Crescendo",
+          "Neoshadow",
+          "recom-card-magic-fire",
+          "recom-card-magic-blizzard",
+          "recom-card-magic-thunder",
+          "recom-card-magic-cure",
+          "recom-card-magic-gravity",
+          "recom-card-magic-stop",
+          "recom-card-magic-aero",
+          "recom-card-summon-simba",
+          "recom-card-summon-genie",
+          "recom-card-summon-bambi",
+          "recom-card-summon-dumbo",
+          "recom-card-summon-tinker-bell",
+          "recom-card-summon-mushu",
+          "recom-card-summon-cloud",
+          "recom-card-item-potion",
+          "recom-card-item-hi-potion",
+          "recom-card-item-mega-potion",
+          "recom-card-item-ether",
+          "recom-card-item-mega-ether",
+          "recom-card-item-elixir",
+          "recom-card-item-megalixir",
+          "recom-sora-enemy-soldier",
+          "recom-sora-enemy-powerwild",
+          "recom-sora-enemy-wyvern",
+          "recom-sora-enemy-defender",
+          "recom-sora-enemy-tornado-step",
+          "recom-sora-enemy-crescendo",
+          "recom-sora-enemy-neoshadow",
+          "recom-card-attack-kingdom-key",
+          "recom-card-attack-three-wishes",
+          "recom-card-attack-crabclaw",
+          "recom-card-attack-pumpkinhead",
+          "recom-card-attack-fairy-harp",
+          "recom-card-attack-wishing-star",
+          "recom-card-attack-spellbinder",
+          "recom-card-attack-metal-chocobo",
+          "recom-card-attack-olympia",
+          "recom-card-attack-lionheart",
+          "recom-card-attack-lady-luck",
+          "recom-card-attack-divine-rose",
+          "recom-card-attack-oathkeeper",
+          "recom-card-attack-oblivion",
+          "recom-card-attack-ultima-weapon",
+          "recom-card-attack-diamond-dust",
+          "recom-card-attack-one-winged-angel",
+          "recom-card-attack-star-seeker",
+          "recom-card-attack-bond-of-flame",
+          "recom-card-attack-total-eclipse",
+          "recom-card-attack-midnight-roar",
+          "recom-card-attack-maverick-flare",
+          "recom-card-attack-two-become-one"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "HTTP Error 403: Forbidden",
+        "followUpSnapshotSha256": null,
+        "historicalInspectionReconstructed": false,
+        "alternateAccess": "Web-readable October 1 via successful indexed retrieval; direct 403 remains the direct-access result."
+      },
+      {
+        "url": "https://primagames.com/eguides/kingdom-hearts-hd-15-remix-eguide/rcom-essentials/how-to-play/moogle-shops",
+        "historicalReferringRecords": [
+          "recom-shop-grass-attack",
+          "recom-shop-grass-magic",
+          "recom-shop-grass-item",
+          "recom-shop-grass-assorted",
+          "recom-shop-brown-attack",
+          "recom-shop-brown-magic",
+          "recom-shop-brown-item",
+          "recom-shop-brown-assorted",
+          "recom-shop-black-attack",
+          "recom-shop-black-magic",
+          "recom-shop-black-item",
+          "recom-shop-black-assorted",
+          "recom-shop-mog-attack",
+          "recom-shop-mog-magic",
+          "recom-shop-mog-item",
+          "recom-shop-mog-assorted"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "HTTP Error 403: Forbidden",
+        "followUpSnapshotSha256": null,
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3275455575",
+        "historicalReferringRecords": [
+          "recom-card-special-gold-card",
+          "recom-card-special-platinum-card"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "5e9fea008799cb915dd75dfeac45062593d68c2390337b09acb28068fa6e9340",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Aero",
+        "historicalReferringRecords": [
+          "recom-card-magic-aero",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "3c518354c9ece12e87e7a745065b9a9865af3b92877b91f5249c7114d9641a47",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Bambi",
+        "historicalReferringRecords": [
+          "recom-card-summon-bambi",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "d77784654f6056132ee7d6641be22028af5d51d0da10cd3720fcc3701ca9da78",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Blizzard",
+        "historicalReferringRecords": [
+          "recom-card-magic-blizzard",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "d0fba068659a93afddde4bcbc06a4efda24b4c4c38a0dae3f46a81911244a81e",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Bond_of_Flame",
+        "historicalReferringRecords": [
+          "recom-card-attack-bond-of-flame"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "30fccb55c9c977f1a281975044f28e07ce3112147a0902a70593437058dbd6e6",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Cloud",
+        "historicalReferringRecords": [
+          "recom-card-summon-cloud",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "f898244176edf6fd1dad5be556c30e25f887766ea99d66fcf31a84d5bac78232",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Crabclaw",
+        "historicalReferringRecords": [
+          "recom-card-attack-crabclaw"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "8bc591211eb6e565351b0bef281d0450a1f2ba90c7b7f5b2fbee8f1e5a35c26e",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Cure",
+        "historicalReferringRecords": [
+          "recom-card-magic-cure",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "3fe146d5a0b52f179e5481b57558beea507d8a5d3ce63650517afe5aa31383c4",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Diamond_Dust",
+        "historicalReferringRecords": [
+          "recom-card-attack-diamond-dust"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "c3e1649bce471db1efb7d3624c28a45f207258d4789c108268c6392f6ab64ae9",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Divine_Rose",
+        "historicalReferringRecords": [
+          "recom-card-attack-divine-rose"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "c0931ca1cbaad2d58b4d350f1bc8b116c6c2241ce0b471c90915109597dee791",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Dumbo",
+        "historicalReferringRecords": [
+          "recom-card-summon-dumbo",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "16197ca3129542a4295672d869d01745262006d6c98945317a25362239b686b3",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Elixir",
+        "historicalReferringRecords": [
+          "recom-card-item-elixir",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "e6c8313469c7a4e6070fc55be4909f9bc2fa6c0d266dff41ca05a14a7f479688",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Ether",
+        "historicalReferringRecords": [
+          "recom-card-item-ether",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "ffe4568af14b9f2b76ca6c1c63f4f63e9478dfdb43fdf5a127c72927e5474b84",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Fairy_Harp",
+        "historicalReferringRecords": [
+          "recom-card-attack-fairy-harp"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "e64e36cd481b764142db098760ab09332971d146916367475d44bd235901ff06",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Fire",
+        "historicalReferringRecords": [
+          "recom-card-magic-fire",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "15fcd89c9bfa41728008d9e4d3502afc8356ff580d8437e5fe5d4a7cb6e1ff91",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Genie",
+        "historicalReferringRecords": [
+          "recom-card-summon-genie",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "cc386d25d3c1bd3de063cdf44d23da9c1919b24c9c3868305bb9e0c2b71b939c",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Gimmick_Card",
+        "historicalReferringRecords": [
+          "recom-sora-card-gimmick-card",
+          "recom-riku-card-gimmick-card"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "a80d18e6a2b48e5e7f9efd6a4359c579902557541579af3d2e7ff61c7a442635",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Gravity",
+        "historicalReferringRecords": [
+          "recom-card-magic-gravity",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "514b771e204ac72178c4d6b202e05d5b0389db8200dd1433c8c2005c6a0fc0a4",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Hi-Potion",
+        "historicalReferringRecords": [
+          "recom-card-item-hi-potion",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "ad28d2a2ea36f9bdabb081df36b6e4d599c8a9b4fa0166d66d8acd2cb697cdea",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Kingdom_Key",
+        "historicalReferringRecords": [
+          "recom-card-attack-kingdom-key"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "9a47039f337d4d9f4517baf1f4cddcb075c561aa947438e2075d7ddaf06930a7",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Lady_Luck",
+        "historicalReferringRecords": [
+          "recom-card-attack-lady-luck"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "7b41f16e3a29d37dac0fbcc84952ed3b9bce2f408ce8e86b6a6d6e39d49d8186",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Lionheart",
+        "historicalReferringRecords": [
+          "recom-card-attack-lionheart"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "c62a663dea78acb798c0552ec4180de3fddd20e5a3b6021e20b73da5548e866d",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Maverick_Flare",
+        "historicalReferringRecords": [
+          "recom-card-attack-maverick-flare"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "fd6961370e8a636a66ce797ee5af0244f612c10584004c6a0b2bce8431c221f7",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Mega-Ether",
+        "historicalReferringRecords": [
+          "recom-card-item-mega-ether",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "9bb89bec783e419eeebe6a290f5b05d721ec5b5bb66f0601e5c76c5e99385803",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Mega-Potion",
+        "historicalReferringRecords": [
+          "recom-card-item-mega-potion",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "a1c009dcddf08e36f0473f05a461ec7dbc05ada2e4e5b3984ffa28aaaf6512a2",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Megalixir",
+        "historicalReferringRecords": [
+          "recom-card-item-megalixir",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "94629ba99e206b5a0f70aaf28da88b4692190244f8a23cf01478ee4b58a3637b",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Metal_Chocobo",
+        "historicalReferringRecords": [
+          "recom-card-attack-metal-chocobo"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "9636040af901832698caff709a3e19d3706da25772b2196cfb216ccd77ffbb1f",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Midnight_Roar",
+        "historicalReferringRecords": [
+          "recom-card-attack-midnight-roar"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "f341f07544acd6154aed950740a459e6c2bf5ba4ca53947a22e0dae13fedf22d",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Mushu",
+        "historicalReferringRecords": [
+          "recom-card-summon-mushu",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "320f700c0d1ce4be27c4cb5811cc1c6ceb2096310bc8088c1df72e5c03da8c8d",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Oathkeeper",
+        "historicalReferringRecords": [
+          "recom-card-attack-oathkeeper"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "232b11b0e12fe01141a3826c30c22c08765ec1b97aefb93acb97893d92f03c65",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Oblivion",
+        "historicalReferringRecords": [
+          "recom-card-attack-oblivion"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "024615551b361d0a5d9d75908e84d102829648289fab3cb67efe4dc2ad50753c",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Olympia",
+        "historicalReferringRecords": [
+          "recom-card-attack-olympia"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "3c56ae80543319b5015d8b1dad6f544163f0172af9c1deb4ab26b61c25ef71b8",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/One-Winged_Angel",
+        "historicalReferringRecords": [
+          "recom-card-attack-one-winged-angel"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "bd7caab972533aa4c3ffafc1c6020e0e8299cab519fe993d78e292bcc4c56424",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Potion",
+        "historicalReferringRecords": [
+          "recom-card-item-potion",
+          "recom-shop-grass-item",
+          "recom-shop-brown-item",
+          "recom-shop-black-item",
+          "recom-shop-mog-item"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "7dd550b4af6dbd99d82ed7bab0f6e5fa2e075ef9d07144c567946f4d693d02ff",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Pumpkinhead",
+        "historicalReferringRecords": [
+          "recom-card-attack-pumpkinhead"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "8ad698633b00724ef12feb9b3c933fb873aff5c338b11f9e0cc9cbeb4e835614",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Simba",
+        "historicalReferringRecords": [
+          "recom-card-summon-simba",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "250d78bda0dbb2f26cf86562f2f031b8c5c24fc6b79b474d49307ce49e932508",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Spellbinder",
+        "historicalReferringRecords": [
+          "recom-card-attack-spellbinder"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "66225141b16196f63c7bbbb656bb468911c4f07bf4c24c47915dd0b98df3f997",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Star_Seeker",
+        "historicalReferringRecords": [
+          "recom-card-attack-star-seeker"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "a0dcb9c68ad6502cb09faf6006b87de37a39fbe2ae574a308bd34f7784646528",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Stop",
+        "historicalReferringRecords": [
+          "recom-card-magic-stop",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "107e25b03cc3797452f42a7e165834338fa19380371915d23e1f0def45346dc4",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Three_Wishes",
+        "historicalReferringRecords": [
+          "recom-card-attack-three-wishes"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "bb18d4c793b542f09afda220373e76c0fc1e5ed7873d8438167d643cd084abb8",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Thunder",
+        "historicalReferringRecords": [
+          "recom-card-magic-thunder",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "c946774837ae28001120c4b2c67fa9cbf9b5c56539fa8737f6f8faf4030244f6",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Tinker_Bell",
+        "historicalReferringRecords": [
+          "recom-card-summon-tinker-bell",
+          "recom-shop-grass-magic",
+          "recom-shop-brown-magic",
+          "recom-shop-black-magic",
+          "recom-shop-mog-magic"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "c12103108eb8c9c433c556b1a792bd6eb1dbd0bfbf190f481fe29d16f83a295c",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Total_Eclipse",
+        "historicalReferringRecords": [
+          "recom-card-attack-total-eclipse"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "901b44ad6c0ad94d82ba2186f504db07ba7d9abe18e210efd2e250e158e8d95c",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Two_Become_One",
+        "historicalReferringRecords": [
+          "recom-card-attack-two-become-one"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "6ebb9d41967933bc89cf946cda6de59ba83d220fdc8690724fffe7107355cef3",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Ultima_Weapon",
+        "historicalReferringRecords": [
+          "recom-card-attack-ultima-weapon"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "e99db956520cbc8d35a2323bcbb63f60250b398381fb224c383f96b9063074de",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.khwiki.com/Wishing_Star",
+        "historicalReferringRecords": [
+          "recom-card-attack-wishing-star"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "retrieved",
+        "followUpSnapshotSha256": "5f76935cdef94a34063b381fb533b72556bafa74f9c6804ffa9b1eecbd75b808",
+        "historicalInspectionReconstructed": false
+      },
+      {
+        "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/23",
+        "historicalReferringRecords": [
+          "recom-steam-battle-card-collector"
+        ],
+        "followUpDate": "2026-10-01",
+        "currentAccess": "HTTP Error 403: Forbidden",
+        "followUpSnapshotSha256": null,
+        "historicalInspectionReconstructed": false
+      }
+    ]
+  },
+  "followUpSummary": {
+    "date": "2026-10-01",
+    "uniqueFreshUrls": 269,
+    "retrieved": 252,
+    "failed": 17,
+    "backlogRetrieved": 47,
+    "backlogFailed": 4,
+    "countScope": "269 distinct direct HTML/API retrieval attempts (252 successes, 17 failures); additional web-readable/indexed inspections are listed separately and are not included in that subtotal.",
+    "allLoggedUniqueUrls": 281,
+    "backlogRecoveredViaWeb": 1
+  }
 }

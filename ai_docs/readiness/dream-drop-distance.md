@@ -1,5 +1,7 @@
 # Dream Drop Distance HD readiness
 
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).
+
 Audit date: 2026-09-18. **Research expanded; not implementation-ready.** The source workbook, repository placeholder and substantive public source sections were inspected. This is not a stub and is not a claim that complete production inventories now exist.
 
 [Specification](../games/dream-drop-distance.md) · [Research pack](../games/dddhd/README.md) · [Inspected sources](../games/dddhd/sources.md)
@@ -20,30 +22,21 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 
 ## Category readiness
 
-| Category | Existing evidence | Research added | Status / concrete gap |
-|---|---|---|---|
-| Edition/platform | Spec had uncertain 3DS provenance | HD mechanics, primary Steam composition, future-port boundary | Partial: exact platform controls/achievement mapping still needed |
-| World chests | No operational DDD data | Seven-world Sora/Riku census: 225 + 213 = 438; source numbers; HD replacements/access examples | **Blocked data**: 387 source rows have no precise notes; author/verify all directions and order |
-| Spirit roster | 52 master names | 54-name reconciled target; missing Sudo Neku/R & R Seal, aliases | Partial: independent complete HD breed/variant census and fields |
-| Creation formulas | 243 candidates for 51 breeds | 22 new/corrected HD formulas for six breeds; Sudo Neku route | **Blocked data**: validate all formulas, outcomes, probabilities, rank rules and recipe-item acquisition |
-| Dream Pieces | 37 names, blank totals | Material grade groups; Brilliant/Savage farming and forecast examples | **Blocked data**: complete HD source/rate/enemy/world table |
-| Ability Links | 816 flat reward rows, exactly 16 per 51 breeds | Red-secret transformations, gate examples, three missing HD boards identified | **Blocked data**: full 54 graphs/coordinates/edges/dispositions; Aura Lion coordinate conflict |
-| Passive abilities | 43 candidates/stacks | Permanent versus provider-equipped distinction; defaults/mode exceptions | Partial: all providers, HD stack behavior and achievement eligibility |
-| Commands | 119 candidates | 124-source census; five missing Defense commands, ten mislabeled Reprisals, multi-route examples | **Blocked data**: every acquisition route, reload/uses/slots and character rules |
-| Links | 27 single/7 dual attacks, 5 single/3 dual styles; 30/15 pair rules | Gauge/character separation and wildcard priority planning | **Blocked data**: master attribute/style fields blank; complete HD breed mapping/controls |
-| Portals | None | 78 Specials, 11 Secrets; Secret areas and reward/counter separation | **Blocked data**: 78 Special location/rotation/enemy/reward rows, Battle/Friendship inventory, seven bonus-objective types |
-| Keyblades | None | 15 types, 13 eligible per character; award sources and stats | Partial: exact reward delivery/platform applicability |
-| Dives/Flick Rush | None | 14 ordinary courses with A-rank thresholds; ten cups/27 rounds/access; Sweet Dreams reward | Partial: HD shared first-award behavior, complete lineups/ranks/prizes/shop stock |
-| Minigames/optional bosses | None | HD toy changes, score thresholds, Julius/Lord Kyroo reward rules | Partial: controller inputs, toy acquisition and original detailed guidance |
-| Secret/report goals | Broad unscoped intention | Secret ending criteria and discrete unlock boundaries | Partial: reliable HD trigger/recovery evidence; full ordinary narrative manifest unnecessary |
-| In-game/platform awards | Unscoped intention | 18 HD in-game awards separated from selected official platform requirements; 69 Steam total includes 0.2 | Partial: platform IDs, hidden/mode-specific requirements and exact DDD partition |
-| Offline progress/inventory | Spec only | Record/event/instance scopes, synchronization/counting fixtures | Engineering not implemented/tested |
-| Data Jiminy | Shared MVP requirement | Grounded answer/evaluation fixtures below | Pack/evaluations not built |
-| UI/media/accessibility | Unconfirmed DDD theme | Shared checklist contract, accepted Apple-first test target | DDD inspiration still open; no UI implemented |
+| Category | Current integrated evidence | Exact remaining data boundary |
+|---|---|---|
+| Chests |438 pickup landmarks,51 restored source notes;16 HD replacements reconciled|Two source-number conflicts; comprehensive earliest access/movement minima/returnability remain unestablished|
+| Spirits/boards |54 breeds,1,144 nodes, dispositions, form fields|Aura C7/D7; Jestabocky missing A3 crossing;15 unknown base stats;5 missing body parts|
+| Creation |263 formulas,37 shared events,54 marked100% combinations,105 donation rows|141 unreported probabilities; malformed initial-level table; Risky Winds odds wording|
+| Materials/shops |37 materials,54 recipe-item goals,176 shop rows,17 family pages|Ordinary room routes, expiration quantities and shop price conflicts|
+| Commands/abilities/Links |124 commands,43 ability stacks/providers,43 Link entries|Strike Raid 22/24-second source conflict and complete Steam input mapping|
+| Portals/Dives/Flick |346 source-number portal identities,14 Dives,27 cup lineups|Portal approaches/first-repeat semantics; missing medal/rank cells|
+| Weapons/awards |15 stat rows,18 in-game awards,54 Steam goals|Selected internal counters, Sweet Dreams delivery, native platform IDs|
+| Runtime |Generated guide and category integration present|Shared root integration owns functional acceptance|
+| Data Jiminy |No content added|Remains empty by task instruction|
 
 ## Proven source defects
 
-See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classified as commands, and transformed board rewards lose their gates. These are content-validation tasks, not user preference questions.
+See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classified as commands, and transformed board rewards lose their gates. These describe historical workbook defects. Current source boards correct classification/gates and command uses; only the exact residuals in the current ledger remain active.
 
 [World source coverage](../games/dddhd/worlds-and-collectibles.md) explicitly distinguishes an area label from complete text directions. [Source manifest](../games/dddhd/sources.md) records restricted/redirected leads without claiming they were read. No production media or gameplay evidence was obtained.
 
@@ -72,12 +65,12 @@ No permission is required to continue research, source reconciliation or reversi
 9. Data Jiminy answers cite bundled record/source IDs, explain unknown directions/probabilities, and use shared persisted progress. Test unsupported-route refusal and conflicting-source answers.
 10. Test Apple browser/iPhone/iPad touch/keyboard access, compact detail interaction, reduced motion, local offline answers, backup/migration and missing-image states; Android follows.
 
-## Next authorized work
+## Remaining work after this pass
 
-- Complete source-backed collectible directions and exact acquisition inventories before production import.
-- Complete formula/board/material/portal datasets and resolve recorded conflicts.
-- Build scoped source/edition records and DDD Data Jiminy retrieval fixtures.
-- Implement and test shared application contracts when implementation is authorized; this research pass makes no app changes.
+- Resolve the exact source defects and missing factual statements listed under all 25 current dispositions.
+- Expand chest walking routes/access verification and complete portal approaches and room-level enemy routes without changing stable IDs.
+- Root integration owns application builds/tests and shared contracts.
+- Data Jiminy remains empty by the current task instruction.
 
 ## Answer log
 

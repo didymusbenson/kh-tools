@@ -1,0 +1,1738 @@
+{
+  "game": "kh3",
+  "checkedAt": "2026-10-01",
+  "edition": "KHIII + Re Mind, English IDs with explicitly identified Japanese screenshot aliases",
+  "fragmentMetrics": {
+    "catalogue": 45,
+    "imagePairsRetrieved": 45,
+    "imagesVisuallyReviewed": 90,
+    "wrongZoneImagesRejected": 1,
+    "textApproaches": 44,
+    "landmarkOnlyResiduals": [
+      "STR-13"
+    ]
+  },
+  "fragmentMethod": "All 90 Game8 screenshots fetched HTTP 200 and individually inspected in nine five-pair contact sheets. Retain image URLs as evidence, not as substitutes for written locations. Rotated map views have no reliable numeric world coordinates. Starlight/Misty direction words preserve the cited guide map orientation. Greek δ/ε/ζ correspond to the Japanese guide IV/V/VI sphere sequence; α/γ correspond to 1/3. All 40 GameFAQs close-up image links and 3 overview images failed web retrieval; Game8 provided a distinct accessible source. Direct GameFAQs image 202 also 403. Indexed TA retrieval returned full relevant Eclipse route paragraphs after direct/full-page open failed; STR-13 glyph was unusable.",
+  "fragments": [
+    {
+      "id": "kh3.gummi-fragments.vga-01",
+      "fragment": "VGA-01",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Between Twilight Town and sphere α: search above the rocky cluster.",
+      "visualLandmark": "Crystal stands inside a narrow gray-rock cleft.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653501/d69948cd4d084a9399e81b13f4707bad.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653523/038078af8a6df31076c26881397b9851.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-202.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-02",
+      "fragment": "VGA-02",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From SLW-02, enter the lava cave; take its dead-end side branch.",
+      "visualLandmark": "Crystal sits on a cave ledge beside small purple mineral clusters.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653494/1683e9849b608a244f7f12b08f2c2f8d.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653508/5ee5503cde584943f8478548e003c657.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-203.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-03",
+      "fragment": "VGA-03",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Above the giant asteroid near sphere γ.",
+      "visualLandmark": "Crystal is on a high gray shelf beside tall purple crystals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653495/054999d1c41f5a177d3734440965dcbc.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653524/ea60b0c278373209e8981450b82e0b37.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-204.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-04",
+      "fragment": "VGA-04",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From Olympus toward SLW-01, search the lower rock shelf outside the tunnel.",
+      "visualLandmark": "Crystal floats below hanging rock spires, above a ledge.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653496/b229dbbe4156fc9e9100f1a8967c01cd.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653511/7c311c9ee58934d8d1d73c29f9a73bd7.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-205.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-05",
+      "fragment": "VGA-05",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Beside SLW-01, among floating rocks.",
+      "visualLandmark": "Crystal floats in a gap between blue-veined asteroids.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653535/5aa28ceedab7267cb16e39dc27722786.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653530/70c83b4b7e9a5615a9b2429b72f8ea39.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-206.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-06",
+      "fragment": "VGA-06",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From Olympus, follow the forward speed tunnel to its exit.",
+      "visualLandmark": "Crystal is on a broad ledge against a gray cliff.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653502/7bc6cb05be33ad9d6d5474b390334e3b.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653528/f4e5a4dff2df8eff6452e62522e9cb55.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-207.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-07",
+      "fragment": "VGA-07",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From Corona, follow the right-hand tunnel exterior toward tangled roots.",
+      "visualLandmark": "Crystal sits in a root-framed opening with green minerals below.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653492/1e7404c9368ea3804ae80cadd3736045.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653505/1270cc9de381230a78b4fa2bbc1639f1.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-208.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-08",
+      "fragment": "VGA-08",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Ascend from SLW-03 toward Twilight Town; inspect the rock tops.",
+      "visualLandmark": "Crystal stands on a rocky summit amid green mineral clusters.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653516/67e32622c84f34aefe622e04b80246b1.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653514/427e5e12586b19b361da2f2ed5a183f4.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-209.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-09",
+      "fragment": "VGA-09",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Between SLW-01 and Corona: atop the rooted rock.",
+      "visualLandmark": "Crystal stands beside thick tree roots and green minerals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653520/58f9d1b71b7f3765b739b9fe3559e4bb.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653503/a966dafc676901e6830d0e9f4d617b94.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-210.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-10",
+      "fragment": "VGA-10",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Above SLW-03, near Flower Guardian: look beside a tree.",
+      "visualLandmark": "Crystal is beside a tall tree trunk on a small rock shelf.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653522/1c6a98dd644d75cb6bb7e00f4e4badbd.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653519/4b4c1a4c33a4799f796ba7166263759d.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-211.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-11",
+      "fragment": "VGA-11",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Near SLW-03, above the rock platform.",
+      "visualLandmark": "Crystal stands on a gray platform in a field of pointed rock spires.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653521/03f221a85768de6990d2fbe835822eff.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653497/247ff916504f5bd64f4b4142a294f6e1.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-212.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-12",
+      "fragment": "VGA-12",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From SLW-02 toward the combat marker: atop the rocks.",
+      "visualLandmark": "Crystal sits on a stepped rock shelf beside purple minerals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653532/7c0840e17b0d08327f46daf18f38269b.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653506/0ec73cec0b5e18134cf3bd305bf95893.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-213.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-13",
+      "fragment": "VGA-13",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "From Twilight Town toward Toy Box, pass two tunnels; look below-left.",
+      "visualLandmark": "Crystal rests on a shelf against a gray cliff with purple minerals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653526/946bdf9030949e0f647a5efa09173994.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653504/5bd3d95f07576420c995640d53b43607.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-214.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-14",
+      "fragment": "VGA-14",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Right of Toy Box, atop rocks near Comet Crawlers.",
+      "visualLandmark": "Crystal stands on a rounded gray shelf beside purple minerals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653518/601101daff5dfe4571e565f6de13b1a0.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653515/14b29b9ae90dc5fff687c3745da7846c.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-215.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.vga-15",
+      "fragment": "VGA-15",
+      "zone": "Starlight Way",
+      "blueprint": "Vega",
+      "route": "Between SLW-02 and the Comet Crawlers storm, atop rocks.",
+      "visualLandmark": "Crystal is on an open gray platform with blue minerals and orange pickups.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece1.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653534/7938afaacf05cfb1adb8f8878d335a63.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653517/b0a2d7a2fc1cb820e51e2f6b7986da6c.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-216.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-01",
+      "fragment": "SRS-01",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Near the Monstropolis combat marker.",
+      "visualLandmark": "Crystal floats between tall blue ice faces.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653655/67fc5b62f25fca0988fa90c9823afe8c.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653629/ab74305d8113ee0659940229f88ba88f.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-169.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-01",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-02",
+      "fragment": "SRS-02",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Left of MST-01, amid rocks and lava jets.",
+      "visualLandmark": "Crystal is directly above a lava basin surrounded by lava fountains.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653641/606e4a561aa45aa473d314000d7419d9.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653635/30524d500d9dfb3412b6d6205745f846.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-170.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-02",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-03",
+      "fragment": "SRS-03",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Upper-left of MST-01, among rocks.",
+      "visualLandmark": "Crystal floats in a dense blue-veined asteroid cluster.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653646/2f711a5a208a05471fe263a95ecbd026.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653627/5bc7a116f040e12505055cc0074485e4.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-171.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-03",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-04",
+      "fragment": "SRS-04",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Upper-right of MST-03.",
+      "visualLandmark": "Crystal is above a snow-covered rounded rock amid asteroids.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653654/c80335289a3524f0a834109579bc7ebb.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653619/7faf91e5d89e5bbbc03a958eb4ecbc57.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-172.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-04",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-05",
+      "fragment": "SRS-05",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Above sphere δ, between ice pillars.",
+      "visualLandmark": "Crystal is inside a snowy opening with vertical ice pillars.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653650/d6de5cf48dbfb6c13405286f4cdf82cd.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653645/7fb837d6526a1f004c446ea2636093e9.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-173.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-05",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-06",
+      "fragment": "SRS-06",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Right of sphere δ, within ice pillars.",
+      "visualLandmark": "Crystal floats between narrow ice pillars.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653624/0fdd8947b9d54c8b7cad8e23512bb358.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653634/e0e2f3c216ca83a2c20d22db4634a5ba.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-174.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-06",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-07",
+      "fragment": "SRS-07",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Between MST-02 and sphere ε, among traps.",
+      "visualLandmark": "Crystal is among black spiked mines beside ice cliffs.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653642/85c1cea03fb28db63018bc02438573c4.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653615/67791e72f60338200d58553e825c5a8a.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-175.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-07",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-08",
+      "fragment": "SRS-08",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below-left of MST-02 toward San Fransokyo, inside wreckage.",
+      "visualLandmark": "Crystal floats inside a shattered metal hull with turrets.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653633/c356041546b2244b4e1b1f0b76478bcc.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653652/9783c12de4c7dd168f7e6b070cab9561.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-176.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-08",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-09",
+      "fragment": "SRS-09",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Upper-left of sphere ζ.",
+      "visualLandmark": "Crystal is beside an icy wall with coral visible farther away.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653620/341fd8bba6a9b5473e56e5547d26cf17.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653638/88ca4fd8b8b8b51844d8b714f1276fba.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-177.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-09",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-10",
+      "fragment": "SRS-10",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below-right of MST-02 toward sphere ζ.",
+      "visualLandmark": "Crystal floats amid blue-veined rocks beside a tall rock column.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653648/3061f1462921653edbdc6f0068ea73d0.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653621/a3fed7d659f884a0007cebf564afde08.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-178.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-10",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-11",
+      "fragment": "SRS-11",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below-left of MST-03, enclosed by rocks.",
+      "visualLandmark": "Crystal floats beside a mossy rock face in a narrow opening.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653617/a196357ef063748985f28cdde31f5929.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653622/11263755e7e97dbc9ae9f461ed521b60.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-179.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-11",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-12",
+      "fragment": "SRS-12",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below-right of MST-03, behind a rock visible from the waypoint.",
+      "visualLandmark": "Crystal is next to a large rock, with a green current beyond.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653623/89851e567b407659f3b4170fd2b4259f.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653631/ce4653914420735ea49dcb68e0b34daf.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-180.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-12",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-13",
+      "fragment": "SRS-13",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below MST-03.",
+      "visualLandmark": "Crystal floats within a blue-veined asteroid field near a green light.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653632/42750bd3a1954303add85c2845aa95cb.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653640/01021420d99fa12914581d01f4b11b46.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-181.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-13",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-14",
+      "fragment": "SRS-14",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Left of MST-03, beside coral.",
+      "visualLandmark": "Crystal is under a rock overhang beside pink coral and blue minerals.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653653/796c2857a6364ad0b9f2d7200db00266.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653630/6d7bc08fc850fb58c3714585a858adac.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-182.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-14",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.srs-15",
+      "fragment": "SRS-15",
+      "zone": "Misty Stream",
+      "blueprint": "Sirius",
+      "route": "Below-right of MST-03, upper-right of The Caribbean.",
+      "visualLandmark": "Crystal floats in a dark narrow gap between rock walls.",
+      "routeBasis": "translated guide text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://blog.rebosoku.com/archives/kh3gummi_piece2.html"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653613/de616f1d1f9b957d19406d7e4c6bc534.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653651/c7bdabc4f9925e94e97536bc4560d68c.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-183.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot.",
+      "sourceAlias": "SXT-15",
+      "mappingNote": "Japanese guides use SXT/Sextans; English GameFAQs lists SRS/Sirius in the same numbered 15-fragment Misty Stream set. This is a source-order correspondence, not an English Steam screenshot capture."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-01",
+      "fragment": "STR-01",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-01: about 50 meters forward/right, behind square debris.",
+      "visualLandmark": "Crystal is tucked beside a large black block with cyan trim.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653354/9b17db2809e425ca334383cd033aac37.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653324/c27b586abb5d47c82c942b694d040968.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://www.youtube.com/embed/I8iZF-X8_jM",
+        "webResult": "online fetch throttled; video not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-02",
+      "fragment": "STR-02",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-01: red tunnel; ascend the vertical chamber.",
+      "visualLandmark": "Crystal is high in a metal chamber with blue strip lighting.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653358/1f48df12f09cbe77c8c60408ff11f4d1.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653335/a274b2fff989f6a4597788553d328093.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://www.youtube.com/embed/I8iZF-X8_jM",
+        "webResult": "online fetch throttled; video not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-03",
+      "fragment": "STR-03",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-01: red tunnel; above the red exit, beside the speed tunnel.",
+      "visualLandmark": "Crystal is in a narrow metal shaft beside cyan-lit wall panels.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653356/ead1bf866fd2cb562ece5afc04c9af5d.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653334/2afb9e25eefa9de6a0095934761a3cfc.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://www.youtube.com/embed/I8iZF-X8_jM",
+        "webResult": "online fetch throttled; video not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-04",
+      "fragment": "STR-04",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-01: green tunnel; ascend the vertical chamber.",
+      "visualLandmark": "Crystal is in a tall metal chamber with circular ceiling details.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653365/78d9580ac12494adcbee67007ab02a8f.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653629/ab74305d8113ee0659940229f88ba88f.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Wrong zone: image shows Misty Stream, not The Eclipse; excluded from location evidence."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://www.youtube.com/embed/I8iZF-X8_jM",
+        "webResult": "online fetch throttled; video not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot. Game8 overview is an erroneous Misty Stream image; route instead follows the English indexed green-tunnel description and Eclipse close-up."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-05",
+      "fragment": "STR-05",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Airlock: right-hand chamber; descend to its opening.",
+      "visualLandmark": "Crystal floats inside a narrow blue-lit square shaft.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653337/318260602bbb4dffe66499ea7efcf029.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653359/debc06e49ce2ae2260240721c1743080.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://www.youtube.com/embed/I8iZF-X8_jM",
+        "webResult": "online fetch throttled; video not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-06",
+      "fragment": "STR-06",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Keyblade Graveyard: left past Speed Skirmish 11, downward tunnel; above sphere θ.",
+      "visualLandmark": "Crystal is beneath the station hull near a red circular fixture.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653332/24e0b6611538f86f9015a9d99e7518cf.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653329/294b30f9d26cbf941c98030caa3b3bd7.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-283.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-07",
+      "fragment": "STR-07",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Keyblade Graveyard: face the left speed tunnel, then dive beneath the station.",
+      "visualLandmark": "Crystal stands on a brown rock shelf with gold minerals.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653355/f19c53ea31131dcd1d65b96c55cf9acb.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653349/3248fc8f871f4823fccbbb951d61b25b.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-284.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-08",
+      "fragment": "STR-08",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-03: above/right.",
+      "visualLandmark": "Crystal floats immediately beneath a dark station overhang.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653347/864ac69406d840b5a600d98026d7f202.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653333/dd6695accdc752170a8c07c1ec5b26bc.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-285.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-09",
+      "fragment": "STR-09",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-03: behind you, above a rock.",
+      "visualLandmark": "Crystal stands on a brown ledge among tall rocks and gold minerals.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653345/7523c444ca2777544aec3c1ffae8c2e7.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653357/48d726a501ce8b1d356c875a3a238651.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-286.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-10",
+      "fragment": "STR-10",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Keyblade Graveyard: left to Speed Skirmish 11; turn back and fly straight.",
+      "visualLandmark": "Crystal floats beneath a pointed rock between orange pickup clusters.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653328/13e53805e97356fe0a105f5729ec3ddc.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653350/dfa54a5c71837eb24bf9db5c33299c20.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-287.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-11",
+      "fragment": "STR-11",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Keyblade Graveyard: 45 degrees right, atop the largest rock.",
+      "visualLandmark": "Crystal stands on broken brown rock beside gold minerals.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653351/883fb79577bb3117600890f25c300d75.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653336/e423cf3e6becc350089d00a7c7161283.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-288.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-12",
+      "fragment": "STR-12",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-02: 90 degrees left, dive to the yellow-crystal rock.",
+      "visualLandmark": "Crystal is on a rock beside red-lit wall panels and gold minerals.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653360/7fb39b0929c9a8d593bfd56a7abde49c.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653341/739bed7d295250570ac599ffc0a77b5b.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-289.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-13",
+      "fragment": "STR-13",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "On an exterior station platform beside cylindrical machinery; a blue speed-tunnel entrance is visible beyond it.",
+      "visualLandmark": "Crystal floats above a flat station platform, with a blue tunnel beyond.",
+      "routeBasis": "inspected screenshot only",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653330/1170aa2b752eef7dd62ef84c7a93ad9a.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653362/d82cd3215444e1a598e614566ef29864.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-290.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "Exact embarkation-to-platform approach remains incomplete: indexed TA sphere glyph is corrupted (╖), so no Greek symbol was guessed; screenshot establishes only the exterior platform landmark."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-14",
+      "fragment": "STR-14",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From Keyblade Graveyard: atop the station.",
+      "visualLandmark": "Crystal stands over a curved station roof beside a cylindrical fixture.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653327/f60ec25e0bd3ce79708e0c7aac5e972f.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653338/e819e28155a5af2ec6e1e0724ec5f5c9.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-291.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    },
+    {
+      "id": "kh3.gummi-fragments.str-15",
+      "fragment": "STR-15",
+      "zone": "The Eclipse",
+      "blueprint": "Shooting Star",
+      "route": "From ECL-02: down/left.",
+      "visualLandmark": "Crystal floats above a rectangular platform on the station exterior.",
+      "routeBasis": "indexed English route text plus inspected screenshots",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship",
+        "https://game8.jp/kh3/255829",
+        "https://www.trueachievements.com/game/Kingdom-Hearts-3/walkthrough/21"
+      ],
+      "sourceImages": [
+        {
+          "url": "https://img.game8.jp/2653361/88605ee361d2e78d0b7b900d975a3e72.jpeg/show",
+          "kind": "near",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; close-up landmark retained."
+        },
+        {
+          "url": "https://img.game8.jp/2653325/5ebebd480751fb5895c763c34cb486e7.jpeg/show",
+          "kind": "map",
+          "httpStatus": 200,
+          "visuallyReviewed": true,
+          "finding": "Inspected; rotated overview is qualitative, not world coordinates."
+        }
+      ],
+      "earlierSourceAccess": {
+        "url": "https://gamefaqs.gamespot.com/a/faqs/12/76812-292.jpg",
+        "webResult": "failed to fetch restricted URL; image not reviewed"
+      },
+      "remainingBoundary": "No numerical world coordinates or measured flight distance inferred from the rotated screenshot."
+    }
+  ],
+  "premiumMerits": [
+    {
+      "id": "kh3.premium-merits.aerial-challenge",
+      "unlock": "Available initially.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.rage-form-challenge",
+      "unlock": "During Olympus.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.link-challenge",
+      "unlock": "Complete Olympus.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.icebreaker-challenge",
+      "unlock": "Obtain Blizzard in Twilight Town.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.gigas-challenge",
+      "unlock": "During Toy Box.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.sky-walk-challenge",
+      "unlock": "Complete Kingdom of Corona.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.schwarzgeist-challenge",
+      "unlock": "Complete Kingdom of Corona.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.bowling-challenge",
+      "unlock": "During Monstropolis.",
+      "codeRequirement": "EZ Premium Menu must be unlocked; an active EZ code is not required.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    },
+    {
+      "id": "kh3.premium-merits.survival-challenge",
+      "unlock": "Clear the main game.",
+      "codeRequirement": "EZ Premium Menu must be unlocked. Turn on Survival and leave every other EZ battle code off.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/premium-menus",
+        "https://www.khwiki.com/Premium_Menu"
+      ]
+    }
+  ],
+  "buildReferences": [
+    {
+      "id": "kh3.gummi-reference.gummi-build-budgeting",
+      "appendInstructions": "At Gummi level 99, the base custom-ship cost limit is 1,000. This endpoint does not establish the cost or AP limit at every intervening level.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/ship-building-tips"
+      ]
+    },
+    {
+      "id": "kh3.gummi-reference.teeny-ship-sharing",
+      "name": "Teeny ship block sharing",
+      "summary": "A block can be reused across the main ship and a Teeny design.",
+      "instructions": "The cited KHIII building guide reports that owning one block permits it in the main ship and in a Teeny design used twice, for three equipped instances. Fit Teeny ships for supplementary firepower; this is source-reported behavior, not a newly executed Steam test.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/77432/teeny-ships"
+      ]
+    }
+  ],
+  "schwarzgeistReplay": {
+    "id": "kh3.gummi.schwarzgeist",
+    "appendInstructions": "A-rank replay option, after an initial Schwarzgeist victory: equip the rewarded Golden Highwind, Golden Falcon and Golden Invincible Teeny ships, and Repair Kit. Community players report success by destroying the missile pods, then repeatedly destroying regenerating shields while avoiding the main body; finish once the score reaches 1,000,000. Keep moving/rolling through attacks and heal with Repair Kit. This is a reported replay strategy, not a claim of an optimal or universally guaranteed loadout. Golden Highwind requires the prior clear, so use the starter guidance for the first victory.",
+    "sources": [
+      "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77443018",
+      "https://gamefaqs.gamespot.com/boards/718920-kingdom-hearts-iii/77500087",
+      "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/gummi-ship"
+    ]
+  },
+  "remainingReviewFindings": {
+    "cuisine": "No concrete additional omission established:56 normal/+ stat variants,28 recipes,five courses,six cumulative full-course pools and20/23/26/29/32/35-minute durations are present. Four cooking methods remain correct.",
+    "codeEligibility": "Modern Steam per-achievement EZ-code eligibility and persistence still conflict across consulted community reports; no unsupported matrix added.",
+    "gummiBudget": "Level99 endpoint integrated; full level-by-level cost/AP curve remains absent from the consulted sources.",
+    "fragmentApproach": "STR-13 exact embarkation route remains unresolved; no fabricated repair of a corrupted sphere glyph. Complete sphere flight approaches remain outside this fragment supplement."
+  }
+}

@@ -1,32 +1,57 @@
 # Research gap resolution — October 1, 2026
 
-First correction batch following the [seven-game audit](research-audit-2026-10-01.md). Work starts with source-backed answers omitted from the app and audit claims that fail an edition check. The five other games' findings are unchanged in this pass.
+This follows through on **all 208 issue families across all seven games** in the [original audit](research-audit-2026-10-01.md). It supersedes the earlier two-game correction summary. Every finding has a current disposition, researched corrections or an exact remaining evidence boundary. The original audit appendices remain explicitly historical at `f933ab1`.
 
-| Game | Closed findings | Narrowed findings | Evidence log |
-|---|---|---|---|
-| BBS Final Mix | BBS-007, BBS-008, BBS-017 | BBS-006: minimum Ignite level only; BBS-015: Archraven band corrected, full routes still open | [BBS resolutions](../games/bbsfm/research-resolution-2026-10-01.md) |
-| Re:CoM HD | COM-018: false gap; COM-019: integrated | COM-032: ordinary-enemy mushroom boilerplate and stale door warning removed; real mushroom/encounter questions remain | [Re:CoM resolutions](../games/recom/research-resolution-2026-10-01.md) |
+This is a complete review of the audited backlog, **not a claim that every game fact is now resolved**. The current register contains 95 closed families (including preserved historical closures), 83 partially resolved families, 16 unresolved/conflicted families, and 14 provenance, engineering or excluded-scope families. Counts classify issue families, not individual facts or source accuracy. The per-game ledgers control the exact meaning of each status.
 
-Five issue families closed; three other families narrowed. These are not counts of individual factual corrections or a claim that either game is fully verified.
+| Game | Closed | Partial | Unresolved / conflicted | Other limitations | Current evidence and dispositions |
+|---|---:|---:|---:|---:|---|
+| KH1 Final Mix | 8 | 8 | 4 | 0 | [20-finding ledger](../games/kh1fm/research-resolution-2026-10-01.md) |
+| Re:CoM HD | 14 | 12 | 3 | 3 | [32-finding ledger](../games/recom/research-resolution-2026-10-01.md) |
+| KH2 Final Mix | 29 | 5 | 0 | 6 | [40-finding ledger](../games/kh2fm/research-resolution-2026-10-01.md) |
+| BBS Final Mix | 12 | 17 | 4 | 5 | [38-finding ledger](../games/bbsfm/research-resolution-2026-10-01.md) |
+| DDD HD | 5 | 19 | 1 | 0 | [25-finding ledger](../games/dddhd/audit-dispositions.md) |
+| KH0.2 | 10 | 7 | 1 | 0 | [18-finding ledger](../games/kh02/audit-dispositions.md) |
+| KH3 / Re Mind | 17 | 15 | 3 | 0 | [35-finding ledger](../games/kh3/audit-resolution-2026-10-01.md) |
+| **Total** | **95** | **83** | **16** | **14** | **208 families accounted for** |
 
-## Delivered behavior
+## Integrated results
 
-- BBS restores nine character-scoped meld groups, including the correct 80% Collision Magnet / 20% Magnet Spiral alternatives. The two generators agree on all 468 groups and retain crystal mappings and character-specific outcomes.
-- Confusion Strike is named consistently in BBS canonical and generated data. Original altered source values remain in correction provenance.
-- Conditional Spiderchest Fleeting and corrected Archraven Shimmering drops reach the relevant references without claiming an unresearched farming route.
-- Re:CoM's 13 Riku sleights expose mode requirements; six duel entries include initiation requirements. Ansem's resistance-only player effect is explicitly identified as the correct Re:CoM behavior.
-- Per-game audits, research guides, manifests, specifications/readiness and the active review checklist now reflect the closures. Historical appendix locations and dated reports retain their baseline with explicit supersession notices.
+- **KH1:** Gummi block/editor/blueprint acquisition expansion, Bambi and mushroom farming mechanics, item/ability details, minigame registration and remaining farming routes. The 824-row legacy numeric crosswalk and Steam API-key provenance are explicit, without claiming a prose-equivalence comparison or inventing identifier joins. All 1,259 entry IDs and 33 recipes are generated from maintained inputs.
+- **Re:CoM:** all 98 sleight effects, 92 structured stock recipes, six duel activations, 99 progression levels, 59 combat records with 379 floor rows, 43 explicit timers and 24 boss deck tables. All eight friend windows, basic card/reload effects, minigame routes, mushroom predicates and farm footnotes now reach the app. The 152 Sora/59 Riku card denominators remain unchanged.
+- **KH2:** all 301 treasure routes and 144 puzzle rows reviewed; 31 reward-event areas and six assembly grids verified. Added full equipment/ability/combat catalogs, maps, recipe-document links, Limits, collector goals, cup rounds, songs, Gummi dependencies and FM Form/summon progression. All 59 recipe outputs retain provenance. Four puzzle-location precision limits remain explicitly named.
+- **BBS:** all 374 main chest approaches, 60 sticker pickup/placement instructions, 42 ingredient routes, 187 command identities, 154 acquisition lists, 151 CP curves and 38 command-drop records. All ability effects, Arena predicates, tickets, styles, D-Links, minigame rank/reward tables and character strategies are integrated. Aqua’s Mega Magic Recipe identity is corrected without resetting its saved ID.
+- **DDD:** all 438 chest directions with explicit HD substitutions and numbering conflicts; all 54 boards/1,144 nodes; 124 command definitions with 78 known reloads and one exact source contradiction; recipe ownership, material/portal/shop relations, 43 Links, 27 Flick lineups and 54 Steam goals. Parser omissions are corrected rather than labeled missing research.
+- **KH0.2:** corrected pillar items, flower colors, Pisces/memory routes, objective actions and Steam Spellweaver behavior. Default defense/healing mechanics and Critical exceptions are now sourced; physical collectible IDs and the 55-find denominator are retained.
+- **KH3:** full available synthesis, equipment/forge, material, cuisine, adversary/record and Gummi catalogs; ten Slider prizes, Re Mind routes, optional/DLC guidance and Premium predicates. Peer review additionally covers all 335 base chest/emblem routes, 13 special weapons, merit unlocks and 45 physical Gummi fragments; their per-record evidence distinguishes text, visually reviewed images and genuine residuals.
 
-## Validation
+## Review and documentation rules applied
 
-- `npm test`: **115 tests passed across 13 files**, including source-specific regression cases for restored melds, ability mappings, level filtering, command joins, conditional drops, Riku form pairs and the Ansem edition distinction.
-- `npm run build`: passed TypeScript, content validation and production/PWA generation. Only the existing bundle-size advisory remains.
-- Coppermind validation confirms the current knowledge revision remains **empty, zero thoughts**.
-- Identity comparison against the previous commit: all 1,368 BBS entry IDs and all 483 existing recipe IDs retained; nine recipe IDs added. All 431 Re:CoM entry IDs and their order retained.
-- BBS and Re:CoM generation reproduced identical output on a repeat run; `git diff --check` passed.
+Canonical authoring inputs, generators where present, generated runtime data and active specifications/readiness were updated together. Sources remain attached to records and in the research files. In-app citation blocks were not restored; the home attribution-modal requirements remain a separate document.
 
-## Next research targets
+Cross-review specifically challenged accessible-but-unextracted claims. It recovered DDD command timings, full DDD/KH2/KH3 location guides, BBS album placements and minigame tables, Re:CoM boss decks, KH2 summon/assembly evidence and KH3 special-weapon/merit/fragment details. Source access failures are recorded by method; a successful later web/image read does not rewrite an earlier direct-fetch failure.
 
-The remaining minimum Ignite level conflict needs direct evidence distinguishing Lv1 from Lv3, not another copy of the aggregate table. Re:CoM's two mushroom success predicates and Shadow/Soldier encounter exceptions are useful next targets: they determine which documented card farms actually work. COM-020's September 28 provenance backlog remains open; this pass's new inspection records do not retroactively certify it.
+False gaps are closed as such: Re:CoM Ansem’s player effect is edition-correct; KH2 Material/G shape variants share inventory. Community mirrors and multiple pages on one wiki are not treated as independent corroboration. Pinned modding/test fixtures are labeled source-derived evidence, not fresh retail extractions. No user playthrough is required.
 
-Future closures should follow the same sequence: inspect edition-specific evidence, preserve source/provenance, update canonical authoring inputs and generated guidance, replace the active gap statement with the precise residual question or dated closure, and verify the affected behavior. Test success alone does not certify a game fact.
+Remaining facts have specific questions and consulted sources: examples include BBS Ignite minimum and command mastery conflicts, Aura Lion/Jestabocky board inconsistencies, Strike Raid’s 22-versus-24-second reload, KH0.2 Lightning/objective-50 predicates, KH3 Forest Clasp/Flan/PRO-rank conflicts, and exact Steam/save-state behavior absent from public evidence. Unknown values are not inferred from empty cells or assumed equal across editions. Large findings can remain partial after substantial extraction when one named subfield is still unresolved.
+
+## Integration validation
+
+Machine-readable record: [research-validation-2026-10-01.json](research-validation-2026-10-01.json).
+
+- `npm test`: **133 tests passed in 14 files** after the final catalog merge.
+- `npm run build`: **passed** canonical content validation, empty-Coppermind validation, TypeScript and production/PWA generation. The existing large-chunk advisory remains; no build error is suppressed.
+- Browser validation: **26 distinct desktop/mobile Chromium scenarios passed** across two focused runs, including eight final expanded-catalog checks. Covered all seven games, saved checks/reload, offline reopening, linked KH2 map/treasure state, read-only equipment/abilities/special weapons, KH1 item access, KH3 fragments, BBS calculator/character state and long Re:CoM notes. This is viewport/browser coverage, not a physical iOS/WebKit certification.
+- Compared every entry and recipe ID against `b839005`: **zero removed IDs, zero duplicate IDs within either namespace, zero broken ingredient references, and zero entries without source arrays**. KH1 intentionally shares each recipe’s acquisition ID between its recipe and entry representations.
+- Final catalogs: KH1 **1,259 entries / 33 recipes**; Re:CoM **431 / 0**; KH2 **1,315 / 59**; BBS **1,653 / 492**; DDD **1,283 / 263**; KH0.2 **177 / 0**; KH3 **1,900 / 286**. These are runtime record counts, including references and overlapping acquisition views, not collectible denominators.
+- All **208 distinct audit IDs** occur exactly once in their current per-game disposition register, with no missing or duplicate finding ID.
+- KH1 source-date audit: **404 new entry/source associations** are dated October 1; **1,277 unchanged September 18 source objects** match the prior checkpoint. Historical dates were preserved rather than retroactively rewritten.
+- Per-game generators and targeted data validators passed; BBS, DDD, KH0.2 and Re:CoM regeneration checks were deterministic. `git diff --check` passed.
+
+The initial production check caught authoring-only route-review metadata leaking into KH2’s typed runtime. The generator now projects the supported gameplay/provenance fields while retaining full inspection metadata in canonical research. The four actual puzzle-location caveats reach the player-facing records.
+
+Data Jiminy stays **flushed, zero thoughts**. Its empty KH1 pack was refreshed to match the corrected content hash; neither the database nor browser pack was reseeded. Canonical guide changes do not restore inaccurate memories.
+
+## Historical first correction checkpoint
+
+Commit `b839005` previously restored nine BBS melding groups and corrected names/chances, resolved the Re:CoM Ansem false gap, and integrated Riku sleight requirements. At that checkpoint, 115 tests and the production build passed. Those corrections are preserved. Its statement that the other five games were unchanged no longer describes the repository.

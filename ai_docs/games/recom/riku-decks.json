@@ -2,7 +2,7 @@
   "game": "recom",
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
-  "status": "source-backed candidates; not gameplay-verified or production data",
+  "status": "Source-backed implemented journal reference; not independently gameplay-verified",
   "notes": "12 Re:CoM world preset deck candidates. Includes source-listed non-attack cards. Counts refer to preset rows, not every card available in a battle. GBA tab expressly excluded.",
   "records": [
     {
@@ -1037,5 +1037,81 @@
       "verification": "KHRECOM tab only; deck sequence extracted from alternating image/value rows; retained boss cards are additional",
       "scopeNote": "World preset; boss cards retained from previous worlds are not included in this preset. Castle corridor applicability needs separate verification."
     }
-  ]
+  ],
+  "retainedBossCards": [
+    {
+      "cardId": "recom-riku-enemy-guard-armor",
+      "name": "Guard Armor",
+      "condition": "Defeat Guard Armor.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-parasite-cage",
+      "name": "Parasite Cage",
+      "condition": "Defeat Parasite Cage.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-trickmaster",
+      "name": "Trickmaster",
+      "condition": "Defeat Trickmaster.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-darkside",
+      "name": "Darkside",
+      "condition": "Defeat Darkside.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-hades",
+      "name": "Hades",
+      "condition": "Defeat Hades.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-jafar-genie",
+      "name": "Jafar-Genie",
+      "condition": "Defeat Jafar.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-oogie-boogie",
+      "name": "Oogie Boogie",
+      "condition": "Defeat Oogie Boogie.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-ursula",
+      "name": "Ursula",
+      "condition": "Defeat Ursula.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-hook",
+      "name": "Hook",
+      "condition": "Defeat Captain Hook.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-dragon-maleficent",
+      "name": "Dragon Maleficent",
+      "condition": "Defeat Dragon Maleficent.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-lexaeus",
+      "name": "Lexaeus",
+      "condition": "Defeat Lexaeus.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    },
+    {
+      "cardId": "recom-riku-enemy-zexion",
+      "name": "Zexion",
+      "condition": "Defeat Zexion.",
+      "source": "https://www.khwiki.com/Enemy_Card"
+    }
+  ],
+  "retentionRule": "Union the earned retainedBossCards with the current world base deck; world enemy cards are not retained. This does not certify corridor/boss override contents or their order.",
+  "followUpDate": "2026-10-01"
 }

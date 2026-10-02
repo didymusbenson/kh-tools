@@ -1,6 +1,8 @@
 # KH1FM world inventory and research coverage
 
-Research date: 2026-09-18. This is the remaining-work ledger for the sourced planning pass. It distinguishes a researched game rule, a transcribed planning table, a normalized app dataset and an in-game-verified record. These are different milestones.
+**Current status — 2026-10-01:** [All 20 audit dispositions and live-source evidence](research-resolution-2026-10-01.md). Canonical content now has 1,259 entries, 33 recipes and 26 coverage groups. Earlier planning requirements below do not imply their normalized catalogs are still absent.
+
+Initial planning date: 2026-09-18; reconciled 2026-10-01. The current research ledger is research-resolution-2026-10-01.md. It distinguishes a researched game rule, a transcribed planning table, a normalized app dataset and an in-game-verified record. These are different milestones.
 
 ## Release baseline
 
@@ -10,7 +12,7 @@ The content is Final Mix; original KH and PS2-era compatibility remain out of sc
 
 ## World source atlas
 
-These pages were inspected for treasure, reward, prerequisite and revisit coverage. They are the inventory sources for the next extraction pass, not a statement that all their rows have already been ingested. Each area's final guide needs exact directions and dependency IDs beyond the source table's room label.
+These pages were inspected for treasure, reward, prerequisite and revisit coverage. Their 535 source rows now have recorded canonical/rejected dispositions in the collectible source ledger. Each area's final guide needs exact directions and dependency IDs beyond the source table's room label.
 
 | World / inspected source | Required inventory and notable rules |
 |---|---|
@@ -39,54 +41,35 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 
 “Missable” must be a record-level fact. A missable chest containing a replaceable consumable differs from a permanently lost unique item, a temporary quest item, a restricted-run achievement, or a temporarily inaccessible room. Do not claim that Final Mix has no missables simply because the red Trinity was fixed.
 
-## Coverage against readiness IDs
+## Current coverage against prior planning IDs
 
-| ID | What this pass supplies | Remaining work before content is complete |
-|---|---|---|
-| D01 | World atlas; key ability/color unlocks; important phase changes | Collectible-relevant area links, earliest-access flags and text routes; no full story-route graph |
-| D02 | Inspected per-world treasure/reward sources; specific missability examples | Extract every FM container/reward; deduplicate interactions; reconcile per-area totals |
-| D03 | 33-group/99-puppy denominator, milestone rewards and relocated-group corrections | Import/check every group and exact route against legacy data |
-| D04 | 46-mark denominator, color counts/unlocks, party condition and missability correction | Import all locations/rewards; reconcile story marks and chest relations |
-| D05 | All ten acquisition slots and ten mailing rewards | Expand Gizmo route into exact steps; verify acquisition/mailing state transitions |
-| D06 | Five page sources, episode rewards, Cheer thresholds, Rare Nut rewards | Exact activity tutorials, nut/treasure routes and all record-entry conditions |
-| D07 | Journal section context and all 13 Report acquisitions | Normalize Report acquisition/reward dependencies; exhaustive narrative/biography update manifests are not required |
-| D08 | All 33 recipe ingredient rows; six unlock sets; recalculated direct material totals | Resolve C01 below, reconcile workbook and edition-correct evidence, normalize and validate fixtures |
-| D09 | Ordinary base sources, ten special-material encounters, reset/modifier rules and mushroom rewards | Every source alternative, spawn room, phase, conditional roll and farming route |
-| D10 | 18 Keyblades, 15 staves, 15 shields with acquisition paths; shop prices/stages | Complete accessory/item catalog and all stats/effects; achievement membership |
-| D11 | Movement unlocks and FM level landmarks; separate choice/EXP variables | Full level/stat/EXP matrix; resolve duplicate legacy level-15 row |
-| D12 | 21 magic acquisitions and six summon acquisition paths | Normalize dependencies; test alternate acquisition orders |
-| D13 | Four cups, solo/time variants, unlocks and FM rewards; linked seed tables | Transcribe all rounds and intermediate rewards; confirm checkpoints |
-| D14 | Five endgame encounter summaries with rewards/mechanics | Exact Unknown earliest unlock; complete strategy validation and other encounter records |
-| D15 | Jungle Slider/Vines/training/Pooh/clock/mushroom coverage | Full minigame entry manifest, exact tutorials and contextual world interactions |
-| D16 | All 30 mission objectives; complete 48-blueprint roster by source class | Mission 1/2 reward rows, route-specific enemy drops, all parts, working build guides |
-| D17 | Modern stacking, restricted-run conditions, threshold-vs-full-collection distinctions | Exact platform ID lists and requirement predicates; tricky run behavior |
-| D18 | Standard/Proud/Beginner secret-ending conditions | Reconcile goal predicates with modern-release evidence and validate structured rules; distinguish theater availability |
-| D19 | Separate goal sets, event/group counting rules and recipe dependencies | Implement membership records, cross-links and acceptance fixtures |
+| Prior IDs | Current disposition |
+|---|---|
+| D01–D07 | 471 collection/reference-route entries; 306 finite treasure/reward records, 33 puppy groups, 46 marks, 10 postcards, five pages and 13 Reports. All 535 original world-source rows have dispositions. Remaining Unknown earliest access is KH1-002; Phil/Vine details are KH1-005/014. |
+| D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense remains KH1-001; Bambi's exhaustive exclusions remain KH1-010. |
+| D11–D12 | 99 Sora level rows and full EXP curves, 21 magic acquisition events, six summons. Mixed opening answers remain KH1-015; missing level-matrix warning is obsolete. |
+| D13–D16 | 96 cup records, five endgame bosses plus early sparring, 22 activity/record checks, 30 Gummi missions, 48 blueprints, 80 Gummi parts and seven tools. Concrete four-family build guidance supplied. Exact Vine sequences and Phil replay semantics remain scoped residuals. |
+| D17–D18 | All 55 KH1 Steam goals; manual tracking. Actual API key group found but display-name mapping remains KH1-019. Restricted-run flag details and individual secret-movie Theater availability remain KH1-003/016. |
+| D19 | Shared acquisition IDs and goal/planner links already implemented; broader integration acceptance belongs to root's engineering checks, not an invented missing game fact. |
 
-## Facts still requiring targeted resolution
+## Earlier caveats reconciled
 
-These remain research/validation tasks for the agent, not questions asking the user to remember game facts.
-
-| ID | Specific issue | Evidence / resolution needed |
-|---|---|---|
-| KH1-C01 | Energy Bangle Spirit Shard quantity conflicts across two source pages | Dedicated [recipe](https://www.khwiki.com/Energy_Bangle) says 2; [material summary](https://www.khwiki.com/Spirit_Shard) says 1. Current planning calculation uses 2 provisionally; resolve using reliable modern-recipe evidence; no required user gameplay check. |
-| KH1-C02 | Earliest Unknown portal appearance | [Battle source](https://www.khwiki.com/Game:Xemnas) establishes mechanics/rewards; exact story flag still needs reliable evidence. |
-| KH1-C03 | Restricted-run edge cases | [Achievement descriptions](https://steamcommunity.com/stats/2552430/achievements/) do not establish party-equipment scope, scripted exceptions, reload handling or pause/timer semantics. Validate before prescribing a route. |
-| KH1-C04 | Retired scope assumption: exhaustive narrative Journal entry/update manifest | User clarification 2026-09-18 removes this as a compendium release blocker. Retain [Journal context](https://www.khwiki.com/Jiminy%27s_Journal) where a real trophy/unlock needs it; do not include story or biography flags in world collectible progress. |
-| KH1-C05 | Wonderland Gummi mission 2 wording | [Mission source](https://www.khwiki.com/Gummi_Missions) uses ambiguous wording for Haste blocks; verify whether the in-game requirement is activation count before implementing its predicate. |
+| Prior ID | Current result |
+|---|---|
+| KH1-C01 | Resolved: Energy Bangle uses two Spirit Shards; direct total 13. |
+| KH1-C02 | KH1-002: exact earliest Unknown flag remains contradictory; safe Final Rest route supplied. |
+| KH1-C03 | KH1-003: pause/cutscene counting, rollover report and eligible-save awards added; exact flag/menu/system details remain. |
+| KH1-C04 | Retired scope: exhaustive narrative Journal/biography updates are not required. |
+| KH1-C05 | Resolved: Wonderland mission 2 requires at least five Accelerate uses and no damage. |
 
 ## Counts and provenance discipline
 
-Transcribed here: 33 recipes, 10 postcard acquisition slots, 13 Report numbers, 21 magic acquisition events, 6 summons, 30 Gummi objectives, 48 blueprint names and 48 obtainable party weapons. Expected source counts additionally include 33 puppy groups, 46 Trinities and 5 Torn Pages. A grouped table row may represent more than one record; expand it explicitly during import.
-
-No app database was populated by this pass. Full treasure, accessory, acquisition-relevant enemy/stat and level-row totals remain **unmeasured**, not zero. Narrative Journal entry/update totals are outside the current compendium inventory requirement. No row has been hands-on verified by this research pass. Counts above describe planning coverage and source inventories only.
-
-Most game-mechanic evidence here is from KHWiki, a community reference; its version annotations and occasional inconsistencies need review. Steam provides primary evidence for the modern package and public achievement wording. Store `source_url`, `checked_at`, `ruleset`, `evidence_kind`, `verification_status` and any unresolved conflict with each imported record. Retain original concise instructions rather than copying source guide prose.
+Current production count is **1,259 entries**, **33 recipes**, **26 coverage groups**. All twelve blank enemy facts are resolved. New catalog completeness is roster completeness, not a claim to every redundant acquisition alternative. The 824-row [legacy crosswalk](legacy-value-crosswalk.json) distinguishes numeric equality, differences, replacement contexts and prose not semantically equated. All records remain source-backed or explicitly unresolved; no user gameplay verification gate is imposed. Precise Steam binary-build provenance remains KH1-020 because no installed binary was inspected. Use the [current resolution ledger](research-resolution-2026-10-01.md) for all active questions.
 
 ## Offline and Data Jiminy implications
 
 Package the actual verified records and authored directions with the game content. Citation links are provenance users can open when online; they must not be the only place an answer exists. Data Jiminy must return a known record's location/prerequisites or a clear unknown status. It must not turn a research lead, ambiguous source or unresolved field into a confident answer. App code performs recipe and completion calculations.
 
-All active remaining rows above are MVP work; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
+Only the precise current residuals in the resolution ledger remain research work; KH1-C04 is explicitly retired rather than deferred. Follow the [shared compendium contract](../../content/collectible-compendium-and-linked-views.md): compact world lists and detailed locations share saved IDs, percentages count collectibles, and narrative context is included only where it helps acquisition or a separately named goal. Screenshots remain optional media fields and test fixtures until real assets are supplied; no missing text route can be deferred because a screenshot might eventually explain it.
 
 The [shared validation policy](../../testing-and-content-validation.md) supersedes any older mandatory in-game/manual-save verification wording. Source conflicts remain content accuracy work. Initial functional acceptance includes first-class optional synthesis inventory, correct x/y and planner totals, no spoiler UI, and no Available Now tracker.

@@ -1,5 +1,7 @@
 # KH2FM equipment acquisition candidates
 
+> Historical September candidate inventory. The [October resolution ledger](research-resolution-2026-10-01.md) and canonical `verified-*.json`/`treasure-locations.json` supersede its old unverified/route-QA warnings. Original row provenance is preserved below.
+
 This preserves usable inventory leads from the legacy workbook without treating edition-mixed descriptions or stats as certified. [Corrections and modern scope](materials-and-equipment.md) must be applied before implementation. Acquisition descriptions below are intentionally reduced to source references: the primary task is to recover the existing candidate set, then verify precise modern acquisition rules.
 
 ## Keyblades — 24 candidate names

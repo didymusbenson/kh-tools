@@ -1,5 +1,13 @@
 # KH3 cuisine, minigames and records
 
+## Current status — 2026-10-01
+
+The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1900 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.
+
+Accepted product contracts below remain in force. Historical unresolved language is evidence history, not an additional active backlog.
+
+## Historical research — 2026-09-18
+
 Research date: 2026-09-18. [Index](README.md). Acquisition, cooking success, record rank and achievement progress are separate states.
 
 ## Cuisine counting

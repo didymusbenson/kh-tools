@@ -11,9 +11,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "character": "Sora",
     "order": 1,
-    "instructions": "Lower left corner of the yard.",
+    "instructions": "The Old Mansion — Search the southwest courtyard corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -26,9 +27,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 2,
-    "instructions": "Top right corner of the yard.",
+    "instructions": "The Old Mansion — Search the northeast courtyard corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -41,9 +43,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "character": "Sora",
     "order": 3,
-    "instructions": "In the lower part of the forest.",
+    "instructions": "The Woods — Follow the woodland boundary to its southwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -56,9 +59,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 4,
-    "instructions": "In the upper part of the forest towards the left.",
+    "instructions": "The Woods — Check between the trees at the northwest boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -71,9 +75,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 5,
-    "instructions": "In the upper part of the forest towards the right.",
+    "instructions": "The Woods — Check the tree base at the northeast boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -86,9 +91,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 6,
-    "instructions": "Go through the arch on the way to the Sandlot and find this chest in front of the green-roofed building.",
+    "instructions": "Tram Common — Across from the Sandlot ramp, descend into the low corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -101,9 +107,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 7,
-    "instructions": "Get on top of that green-roofed building and hop on over to the blue ones. The bigger blue has this chest.",
+    "instructions": "Tram Common — Climb the electrical box and green roofs to reach the blue roof against the east wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -116,9 +123,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Tent",
     "character": "Sora",
     "order": 8,
-    "instructions": "Near green roof at the bottom of stairs.",
+    "instructions": "Tram Common — Check the raised ledge beside the short green-roofed building.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -131,9 +139,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "Across one of the bridges on a building.",
+    "instructions": "Tram Common — Cross the northern walkway's bridge to the northwest platform.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -146,9 +155,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "character": "Sora",
     "order": 10,
-    "instructions": "Behind the Accessory Shop.",
+    "instructions": "Tram Common — Go behind the synthesis shop to the southwest corner, beside Underground Concourse entrance 4.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -161,9 +171,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 11,
-    "instructions": "Find the small bridge between two buildings and climb up to the rooftop.",
+    "instructions": "Tram Common — Use the small arch linking the central buildings to reach the rooftop chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -176,9 +187,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "character": "Sora",
     "order": 12,
-    "instructions": "In front of the building near the hole in the wall leading to The Woods.",
+    "instructions": "Tram Common — Follow the curved southeast wall near the Woods exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -191,10 +203,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Tent",
     "character": "Sora",
     "order": 13,
-    "instructions": "West station wall, between the tracks.",
+    "instructions": "Central Station — Check the west wall between tracks 0 and 1.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -207,10 +220,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 14,
-    "instructions": "Southwest station corner.",
+    "instructions": "Central Station — Check the southwest corner beside the track 0 tunnel.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -223,10 +237,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 15,
-    "instructions": "Northeast station corner.",
+    "instructions": "Central Station — Check the northeast corner to the right of the track 0 tunnel.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -239,9 +254,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Potion",
     "character": "Sora",
     "order": 16,
-    "instructions": "Bushes to the right.",
+    "instructions": "The Tower — Check the hedge southeast of the tower stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -254,9 +270,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 17,
-    "instructions": "Bushes to the left.",
+    "instructions": "The Tower — Check the hedge immediately west of the tower stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -269,9 +286,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 18,
-    "instructions": "Bushes to the left.",
+    "instructions": "The Tower — Follow the hedge to the northwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -284,10 +302,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 19,
-    "instructions": "Enter from outside the Tower; follow the right wall.",
+    "instructions": "The Tower: Entryway — Look left of the outside door, against the wall.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -300,10 +319,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 20,
-    "instructions": "Beneath the Entryway staircase.",
+    "instructions": "The Tower: Entryway — Search underneath the spiral stairs.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -316,9 +336,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Tower Map",
     "character": "Sora",
     "order": 21,
-    "instructions": "Near the green door.",
+    "instructions": "The Tower: Sorcerer's Loft — Look between the chalkboard and the three pots.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -331,10 +355,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 22,
-    "instructions": "South end of the Wardrobe, beside the door.",
+    "instructions": "The Tower: Sorcerer's Wardrobe — Look left of the door back to the Sorcerer's Loft.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -347,9 +372,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 23,
-    "instructions": "Down a corridor and down stairs.",
+    "instructions": "Underground Concourse — From the Underground Concourse's south end, climb the west stairs to the raised corridor.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -362,9 +390,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 24,
-    "instructions": "Through the doorway and drop down to the left.",
+    "instructions": "Underground Concourse — Search the chamber at the south end of the concourse.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -377,9 +408,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 25,
-    "instructions": "Down the ramp and to the right.",
+    "instructions": "Underground Concourse — From Central Station entrance 5, descend to the central west chamber and check its corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -392,9 +426,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 26,
-    "instructions": "Around a corner top of stairs in the corner to the right.",
+    "instructions": "Underground Concourse — Follow the signs toward entrance 4; check the corner at the top of its stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -407,9 +444,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 27,
-    "instructions": "In the beginning to the right.",
+    "instructions": "Tunnelway — Search the northwest end of the tunnel, near the waterfall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -422,9 +462,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 28,
-    "instructions": "Down the corridor around a corner to the left.",
+    "instructions": "Tunnelway — Follow the tunnel toward Sunset Terrace; check the southeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -437,9 +480,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum+",
     "character": "Sora",
     "order": 29,
-    "instructions": "Jump onto the train and find this on a nearby roof.",
+    "instructions": "Sunset Terrace — Jump onto the tram and ride it beside the eastern building; jump onto that roof.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -452,9 +498,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 30,
-    "instructions": "All the way down the left end of the tracks and to the right.",
+    "instructions": "Sunset Terrace — Go to the west end of the tracks by the waterfall and look back toward the tram.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -467,9 +516,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 31,
-    "instructions": "Halfway down the tracks between two buildings.",
+    "instructions": "Sunset Terrace — Check at ground level beside the building with chest 29, east of the tracks.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -482,9 +534,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 32,
-    "instructions": "Down an alley to the right of the tracks.",
+    "instructions": "Sunset Terrace — Follow the northern alley to its end.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -497,9 +552,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 33,
-    "instructions": "In front of glass doors to the left.",
+    "instructions": "Mansion Foyer — Check the window between the two staircases, facing the garden.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -512,9 +570,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 34,
-    "instructions": "Up the staircase to the right.",
+    "instructions": "Mansion Foyer — Climb the right-hand staircase and check the first landing.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -527,9 +588,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Crystal",
     "character": "Sora",
     "order": 35,
-    "instructions": "Up the staircase on a balcony.",
+    "instructions": "Mansion Foyer — Follow the upper walkway along the northern wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -542,9 +606,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 36,
-    "instructions": "Opposite side of room near a shelf.",
+    "instructions": "Mansion: Dining Room — Check the far side of the dining room near the shelving.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -557,9 +624,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 37,
-    "instructions": "In the corner to the right.",
+    "instructions": "Mansion: Dining Room — Check the dining room's right-hand corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -572,9 +642,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 38,
-    "instructions": "In the corner to the left near stairs.",
+    "instructions": "Mansion: Library — Check the corner beside the library staircase.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
     ]
   },
   {
@@ -587,9 +660,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Ultimate Recipe",
     "character": "Sora",
     "order": 39,
-    "instructions": "Straight and to the left.",
+    "instructions": "Mansion: Basement Corridor — Follow the basement corridor and check the chest just before the next room.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/twilight-town-iii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/47",
+      "https://www.vizzed.com/boards/thread.php?id=87704"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -602,9 +681,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Drive Recovery",
     "character": "Sora",
     "order": 1,
-    "instructions": "To the left towards the Bailey.",
+    "instructions": "Borough — Follow the west walkway between the crane and the Bailey exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -617,9 +697,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 2,
-    "instructions": "Behind the large machine at the top of the stairs.",
+    "instructions": "Borough — Climb to the southwest platform beside the crane.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -632,9 +713,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 3,
-    "instructions": "To the right of Merlin’s House door.",
+    "instructions": "Borough — Look to the right of Merlin's front door.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -647,9 +729,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 4,
-    "instructions": "To the right of the Bailey doorway.",
+    "instructions": "Borough — Check the northwest ledge just outside the Bailey passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -662,9 +745,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Shard",
     "character": "Sora",
     "order": 5,
-    "instructions": "At the bottom of the stairs near Merlin’s House.",
+    "instructions": "Borough — Descend the stairs away from Merlin's House to the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -677,9 +761,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Castle Perimeter Map",
     "character": "Sora",
     "order": 6,
-    "instructions": "Over the railing and to the left.",
+    "instructions": "Postern — Across from the save point, climb onto the southern ledge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -692,9 +780,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 7,
-    "instructions": "On a pipe near the stairs leading to the Restoration Site.",
+    "instructions": "Postern — Climb the inner-wall pipe opposite the Restoration Site passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -707,9 +796,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 8,
-    "instructions": "Bottom of the winding ramp to the left.",
+    "instructions": "Postern — Follow the winding ramp down toward the Corridors; check its sheltered southern corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -722,9 +812,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 9,
-    "instructions": "Near pile of debris.",
+    "instructions": "Corridors — Follow the eastern corridor to the rubble-blocked passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -737,9 +828,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 10,
-    "instructions": "Near pipe.",
+    "instructions": "Corridors — In the central southern corridor, look beside the large upright pipe.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -752,9 +844,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Crystal",
     "character": "Sora",
     "order": 11,
-    "instructions": "In a corner near the fork in the road.",
+    "instructions": "Corridors — Check the northeast corner opposite the Postern passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -767,9 +860,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 12,
-    "instructions": "At the end of the right fork in a corner.",
+    "instructions": "Corridors — Follow the western corridor to its corner opposite the rubble-filled passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -782,9 +876,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Skill Recipe",
     "character": "Sora",
     "order": 13,
-    "instructions": "Near Leon (after first visit to Space Paranoids).",
+    "instructions": "Ansem's Study — Look along the south wall beside the long bookcase.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -797,9 +895,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Ukulele Charm",
     "character": "Sora",
     "order": 14,
-    "instructions": "Back to Secret Passage in the corner.",
+    "instructions": "Ansem's Study — After the first Space Paranoids visit, check the corner of the passage linking the study and computer room.\n\nSummoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://www.khwiki.com/Summon",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+      "https://appmedia.jp/kh2fm/75145473",
+      "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+      "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
     ],
     "categories": [
       "summons"
@@ -815,9 +920,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Moon Recipe",
     "character": "Sora",
     "order": 15,
-    "instructions": "Up on a ledge to the left.",
+    "instructions": "Restoration Site — After the 1,000-Heartless sequence, take the newly opened side path and check the ledge beside the cliff wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -830,9 +941,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 16,
-    "instructions": "Near a pipe on the right.",
+    "instructions": "Restoration Site — After the 1,000-Heartless sequence, follow the newly opened side path to the pipe near chest 15.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ]
   },
   {
@@ -845,9 +959,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Torn Pages",
     "character": "Sora",
     "order": 17,
-    "instructions": "To the left.",
+    "instructions": "Crystal Fissure — Open the large chest on the left, separate from the map-and-material chest cluster.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
     "categories": [
       "pages"
@@ -863,9 +980,15 @@ export const entries: CollectionEntry[] = [
     "reward": "The Great Maw Map",
     "character": "Sora",
     "order": 18,
-    "instructions": "To the right.",
+    "instructions": "Crystal Fissure — Open the large chest between the two small chests in the right-hand cluster.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -878,9 +1001,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Energy Crystal",
     "character": "Sora",
     "order": 19,
-    "instructions": "To the right.",
+    "instructions": "Crystal Fissure — In the right-hand cluster, open the small chest to the right of the Great Maw Map chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ]
   },
   {
@@ -893,9 +1019,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 20,
-    "instructions": "To the right.",
+    "instructions": "Crystal Fissure — In the right-hand cluster, open the small chest to the left of the Great Maw Map chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ]
   },
   {
@@ -908,10 +1037,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Gull Wing",
     "character": "Sora",
     "order": 21,
-    "instructions": "After the 1,000 Heartless battle, speak to Yuna at the Postern, then open the chest she leaves.",
+    "instructions": "Postern — After the 1,000-Heartless battle, speak to Yuna and open the chest she creates.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ]
   },
   {
@@ -924,10 +1055,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Cosmic Chain",
     "character": "Sora",
     "order": 22,
-    "instructions": "During the second Space Paranoids episode, take the passage from Ansem’s Study to the Manufactory and open the visible chest.",
+    "instructions": "Heartless Manufactory — During the second Space Paranoids episode, follow Ansem's Study's passage into the manufactory and open its visible chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/hollow-bastion-iii",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ]
   },
   {
@@ -940,9 +1074,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 23,
-    "instructions": "Ledge just above the entrance.",
+    "instructions": "Cavern of Remembrance: Depths — Enter from the Postern hole and jump to the ledge immediately above the entrance.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -955,9 +1091,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Crystal",
     "character": "Sora",
     "order": 24,
-    "instructions": "On the cavern floor.",
+    "instructions": "Cavern of Remembrance: Depths — After the first Depths scene, drop to the floor and turn left toward the chest.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -970,9 +1108,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Crystal",
     "character": "Sora",
     "order": 25,
-    "instructions": "Opposite end of the cavern floor.",
+    "instructions": "Cavern of Remembrance: Depths — Continue across the Depths floor and check the wall to your right.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -985,9 +1125,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Manifest Illusion",
     "character": "Sora",
     "order": 26,
-    "instructions": "Upper ledge reached by climbing back from the exit.",
+    "instructions": "Cavern of Remembrance: Depths — From the white Mineshaft doorway, climb back onto the upper ledges.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1000,9 +1142,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 27,
-    "instructions": "Glide to the opposite upper ledge.",
+    "instructions": "Cavern of Remembrance: Depths — From the upper Depths ledges, Glide across to the distant ledge.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1015,9 +1159,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Remembrance Gem",
     "character": "Sora",
     "order": 28,
-    "instructions": "Upper alcove accessed from the Mineshaft.",
+    "instructions": "Cavern of Remembrance: Depths — Cross the first Mineshaft's Quick Run pipes, then take its alternate exit back into the Depths. Open the shortcut pillar and check this upper alcove.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1030,9 +1176,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 29,
-    "instructions": "Center of the room, below the upper platforms.",
+    "instructions": "Cavern of Remembrance: Mining Area — After activating the valves, check the middle-level platform behind a yellow support pillar, below the AP Boost platform.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1045,9 +1193,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 30,
-    "instructions": "Platform reached from the tall rising pillar.",
+    "instructions": "Cavern of Remembrance: Mining Area — Activate the valves, return through the upper Mining Area door, and ride the wind to the tall rising pillar. Ride it up and jump to the ledge across the gap.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1060,9 +1210,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Crystal",
     "character": "Sora",
     "order": 31,
-    "instructions": "Upper platform opposite the exit door.",
+    "instructions": "Cavern of Remembrance: Mining Area — On the upper route, near the next white Mineshaft door, check the small platform against the wall opposite the exit.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1075,9 +1227,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Manifest Illusion",
     "character": "Sora",
     "order": 32,
-    "instructions": "Corner platform beside the map chest.",
+    "instructions": "Cavern of Remembrance: Mining Area — Glide to the upper corner platform with the map chest; open the smaller chest beside it.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1090,9 +1244,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 33,
-    "instructions": "Left of the lower entrance; beside the valves.",
+    "instructions": "Cavern of Remembrance: Mining Area — Enter the Mining Area through the lower route from the Depths and check left of the three valves.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1105,9 +1261,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Remembrance Map",
     "character": "Sora",
     "order": 34,
-    "instructions": "Corner platform on the upper level.",
+    "instructions": "Cavern of Remembrance: Mining Area — Glide from the upper Mining Area route to the corner platform; open the large map chest beside chest 32.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1120,9 +1281,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Crystal",
     "character": "Sora",
     "order": 35,
-    "instructions": "Corner of the large conveyor belt.",
+    "instructions": "Cavern of Remembrance: Engine Chamber — Cross the first conveyor section, climb the block platforms and check the corner of the large conveyor.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1135,9 +1298,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Remembrance Crystal",
     "character": "Sora",
     "order": 36,
-    "instructions": "Above the far end of the conveyor.",
+    "instructions": "Cavern of Remembrance: Engine Chamber — Follow the conveyor route to its far end; jump onto the wire-frame platform while avoiding the steam.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1150,9 +1315,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 37,
-    "instructions": "Glide past the exit doorway.",
+    "instructions": "Cavern of Remembrance: Engine Chamber — At the white exit door, turn back and Glide to the platform across the gap.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1165,9 +1332,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Manifest Illusion",
     "character": "Sora",
     "order": 38,
-    "instructions": "Small platform left of chest 37.",
+    "instructions": "Cavern of Remembrance: Engine Chamber — From chest 37's platform, turn back toward the exit and look left between the pipes; Glide to the smaller platform.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1180,9 +1349,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 39,
-    "instructions": "Walk around the first Mineshaft section.",
+    "instructions": "Cavern of Remembrance: Mineshaft — On first entering the Mineshaft from the Depths, walk around the starting section before crossing the Quick Run pipes.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1195,9 +1366,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 40,
-    "instructions": "Far end of the final Glide passage.",
+    "instructions": "Cavern of Remembrance: Mineshaft — From the Engine Chamber entrance, Glide through the final Mineshaft pipes to the landing before Transport to Remembrance.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1210,9 +1383,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Depths of Remembrance Map",
     "character": "Sora",
     "order": 41,
-    "instructions": "First Mineshaft entry, near the Depths doorway.",
+    "instructions": "Cavern of Remembrance: Mineshaft — On first entering the Mineshaft from the Depths, check beside the doorway before crossing the pipes.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1225,9 +1403,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Boost",
     "character": "Sora",
     "order": 42,
-    "instructions": "Second Mineshaft section, before the Aerial Dodge pipes.",
+    "instructions": "Cavern of Remembrance: Mineshaft — After leaving the upper Mining Area, open the chest before the Mineshaft's Aerial Dodge pipe section.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1240,9 +1420,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Magic Boost",
     "character": "Sora",
     "order": 43,
-    "instructions": "Final Mineshaft section, by the Engine Chamber doorway.",
+    "instructions": "Cavern of Remembrance: Mineshaft — After leaving the Engine Chamber, open the chest beside the doorway and white Drive orb.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1255,9 +1437,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Garden of Assemblage Map",
     "character": "Sora",
     "order": 44,
-    "instructions": "Beside the computer terminal.",
+    "instructions": "Cavern of Remembrance: Garden of Assemblage — After clearing Transport to Remembrance, check the map chest left of the central terminal.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1270,9 +1457,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Lost Illusion",
     "character": "Sora",
     "order": 45,
-    "instructions": "Beside the computer terminal.",
+    "instructions": "Cavern of Remembrance: Garden of Assemblage — After clearing Transport to Remembrance, check the chest right of the central terminal.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1287,9 +1476,14 @@ export const entries: CollectionEntry[] = [
     "order": 46,
     "instructions": "Return to the Garden of Assemblage and open the chest that appears. Winning the battles does not automatically collect this proof.",
     "sources": [
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ],
-    "prerequisites": "Defeat all thirteen Organization XIII Replica Data battles."
+    "prerequisites": "Defeat all thirteen Organization XIII Replica Data battles.",
+    "categories": [
+      "proofs"
+    ]
   },
   {
     "id": "kh2fm.treasure.beast-s-castle.01",
@@ -1301,9 +1495,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 1,
-    "instructions": "Exit castle’s front door far right of the courtyard.",
+    "instructions": "Courtyard — Exit through the castle's front door and follow the courtyard wall to the far-right corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
     ]
   },
   {
@@ -1316,9 +1512,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 2,
-    "instructions": "To the left.",
+    "instructions": "Courtyard — Exit through the castle's front door and check the left-hand corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
     ]
   },
   {
@@ -1331,9 +1529,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 3,
-    "instructions": "Left of the door.",
+    "instructions": "Courtyard — Cross from the castle's front door to the opposite gate leading to the Bridge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/beasts-castle"
     ]
   },
   {
@@ -1346,9 +1546,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Castle Map",
     "character": "Sora",
     "order": 4,
-    "instructions": "Big treasure chest in the corner.",
+    "instructions": "Belle's Room — Open the large chest between the bed and window in the southwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1361,9 +1565,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Mega Recipe",
     "character": "Sora",
     "order": 5,
-    "instructions": "Small chest in other corner.",
+    "instructions": "Belle's Room — Look in the southeast corner beside the vanity.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -1376,9 +1584,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Near the stairs.",
+    "instructions": "East Wing — Check the southwest corner opposite the Entrance Hall passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1391,9 +1600,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Tent",
     "character": "Sora",
     "order": 7,
-    "instructions": "In the center of the hallway near a window.",
+    "instructions": "East Wing — Check the south wall midway between Belle's door and the Entrance Hall passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1406,7 +1616,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 8,
-    "instructions": "Between the suits of armor against the north wall.",
+    "instructions": "West Hall — Check between the suits of armor on the north wall.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1422,7 +1632,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "Between the suits of armor against the south wall.",
+    "instructions": "West Hall — Check between the suits of armor on the south wall.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1438,9 +1648,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Shard",
     "character": "Sora",
     "order": 10,
-    "instructions": "To the right of the staircase base.",
+    "instructions": "West Hall — Search the alcove south of the stairs to the West Wing.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1453,9 +1664,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 11,
-    "instructions": "To the left of the staircase base.",
+    "instructions": "West Hall — Search the alcove north of the stairs to the West Wing.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1468,9 +1680,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 12,
-    "instructions": "To the right of the Secret Passage entrance.",
+    "instructions": "West Hall — After opening the Secret Passage, check the west wall between its exit and the West Wing passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1483,9 +1696,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Bright Stone",
     "character": "Sora",
     "order": 13,
-    "instructions": "In front of the stairs to the left.",
+    "instructions": "West Hall — Look against the northeast wall opposite the Undercroft entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1498,10 +1712,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Basement Map",
     "character": "Sora",
     "order": 14,
-    "instructions": "Northeast corner, beside the Undercroft door.",
+    "instructions": "Dungeon — Open the large chest in the northeast corner beside the Undercroft door.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1514,7 +1731,7 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 15,
-    "instructions": "East wall, between the chair and hay.",
+    "instructions": "Dungeon — Check the east wall between the chair and hay pile.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1530,10 +1747,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 16,
-    "instructions": "Behind the opened secret door; climb the eastern stairs.",
+    "instructions": "Secret Passage — Climb onto the highest central platform; check its southwest corner.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1546,10 +1764,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 17,
-    "instructions": "Behind the opened secret door; climb the eastern stairs.",
+    "instructions": "Secret Passage — Climb onto the highest central platform; check its southeast corner.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1562,10 +1781,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Lucid Shard",
     "character": "Sora",
     "order": 18,
-    "instructions": "Through the secret door, south side before the stairs.",
+    "instructions": "Secret Passage — Take the western passage toward the West Hall and search before the stairs.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1578,9 +1798,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 19,
-    "instructions": "Up the right stairs.",
+    "instructions": "West Wing — Climb to the second level and check the southeast wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1593,7 +1814,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Tent",
     "character": "Sora",
     "order": 20,
-    "instructions": "Southwest wall, opposite the West Hall passage.",
+    "instructions": "West Wing — Check the southwest wall opposite the West Hall passage.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1609,9 +1830,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Blazing Shard",
     "character": "Sora",
     "order": 21,
-    "instructions": "Near the window.",
+    "instructions": "Beast's Room — Look behind the rose in the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -1624,10 +1846,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Boost",
     "character": "Sora",
     "order": 1,
-    "instructions": "On the east path toward the Underworld Caverns.",
+    "instructions": "Underworld Entrance — After Phil's training removes the flames, follow the east path toward the Underworld Caverns and open the large chest by the wall.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://www.khguides.com/kh2/collectibles/treasures/"
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1640,9 +1863,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 2,
-    "instructions": "On the left path of the fork.",
+    "instructions": "Cave of the Dead: Passage — At the fork, climb onto the ledge at the beginning of the eastern path.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1655,9 +1880,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 3,
-    "instructions": "Near the door for Inner Chamber.",
+    "instructions": "Cave of the Dead: Passage — Check the southern end opposite the Inner Chamber doorway.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1670,9 +1897,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 4,
-    "instructions": "On the left path of the fork.",
+    "instructions": "Cave of the Dead: Passage — Follow the eastern path halfway down; search its outside wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1685,9 +1914,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 5,
-    "instructions": "On the left path of the fork.",
+    "instructions": "Cave of the Dead: Passage — Check the outside wall on the step near the eastern path's southern end.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1700,9 +1931,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 6,
-    "instructions": "On the right path of the fork.",
+    "instructions": "Cave of the Dead: Passage — Follow the western path halfway down; search its inside wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1715,9 +1948,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Underworld Map",
     "character": "Sora",
     "order": 7,
-    "instructions": "Near the save point.",
+    "instructions": "Cave of the Dead: Inner Chamber — Look by the west support pillar near the save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1730,9 +1968,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 8,
-    "instructions": "Near the Passage doorway.",
+    "instructions": "Cave of the Dead: Inner Chamber — Search the northern alcove beside the Passage exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1745,9 +1985,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Lucid Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "Up the stairs.",
+    "instructions": "Underworld Cavern: Entrance. on the left — Enter The Lost Road and take its passage back to the Entrance's upper southeast ledge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1760,9 +2002,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 10,
-    "instructions": "On the left up the stairs.",
+    "instructions": "Underworld Cavern: Entrance — Enter The Lost Road and take its passage back to the Entrance's upper southeast ledge; check beside chest 9.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1775,9 +2019,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 11,
-    "instructions": "Drop down onto a ledge.",
+    "instructions": "Underworld Cavern: Entrance — Climb the northwest ledge just south of the Underworld Entrance passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1790,9 +2036,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Bright Shard",
     "character": "Sora",
     "order": 12,
-    "instructions": "Left path.",
+    "instructions": "Underworld Cavern: The Lost Road — Follow the north wall west of the passage to the Entrance's upper level.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1805,10 +2053,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 13,
-    "instructions": "Southwest wall, opposite the Caverns Entrance passage.",
+    "instructions": "Underworld Cavern: The Lost Road — Check the southwest wall opposite the Entrance passage.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://www.khguides.com/kh2/collectibles/treasures/"
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1821,9 +2070,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 14,
-    "instructions": "Towards Atrium right path.",
+    "instructions": "Underworld Cavern: The Lost Road — Check the southeast wall below the Atrium passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1836,10 +2087,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 15,
-    "instructions": "North wall, east of the upper Entrance passage.",
+    "instructions": "Underworld Cavern: The Lost Road — Follow the north wall east of the passage to the Entrance's upper level.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://www.khguides.com/kh2/collectibles/treasures/"
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1852,9 +2104,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Lucid Stone",
     "character": "Sora",
     "order": 16,
-    "instructions": "On the right.",
+    "instructions": "Underworld Cavern: Atrium — Check the southwest corner at ground level, opposite the ramp.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1867,9 +2121,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 17,
-    "instructions": "Next to the stairs on a ledge.",
+    "instructions": "Underworld Cavern: Atrium — Climb to the southwest platform directly above chest 16.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1882,9 +2138,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Caverns Map",
     "character": "Sora",
     "order": 18,
-    "instructions": "To the right.",
+    "instructions": "The Lock — Search along the west outside wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -1897,9 +2158,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 19,
-    "instructions": "To the right.",
+    "instructions": "The Lock — Check the northwest wall near the Atrium exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1912,9 +2175,11 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 20,
-    "instructions": "To the left.",
+    "instructions": "The Lock — Search along the east outside wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -1927,7 +2192,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Shard",
     "character": "Sora",
     "order": 1,
-    "instructions": "Upper platform overlooking the Palace passage.",
+    "instructions": "Agrabah — Climb to the upper buildings near the Palace passage and search the outer walkway.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1943,7 +2208,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 2,
-    "instructions": "Upper level along the western boundary.",
+    "instructions": "Agrabah — Check the west-facing side of the upper building walkway.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1959,7 +2224,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 3,
-    "instructions": "Southeast platform by the lower Bazaar passage.",
+    "instructions": "Agrabah — Climb onto the southeast platform near the lower Bazaar passage.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1975,7 +2240,7 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 4,
-    "instructions": "Recessed southwest alcove.",
+    "instructions": "Agrabah — Drop into the alcove at the southwest boundary.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -1991,7 +2256,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 5,
-    "instructions": "Small upper-level corner on the west side.",
+    "instructions": "Agrabah — Search the small corner on the west side of the upper walkway.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -2007,7 +2272,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Southeast upper level by the upper Bazaar passage.",
+    "instructions": "Agrabah — Check the upper southeast wall near the upper Bazaar passage.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -2023,7 +2288,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Shard",
     "character": "Sora",
     "order": 7,
-    "instructions": "Raised platform in the northwest corner.",
+    "instructions": "Agrabah — Climb onto the northwest corner platform.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -2039,9 +2304,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 8,
-    "instructions": "On top of stairs.",
+    "instructions": "Bazaar — Climb onto the northeast platform.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2054,9 +2320,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "Bottom of the staircase.",
+    "instructions": "Bazaar — Search among the central stalls beside the stairs heading north.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2069,9 +2336,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 10,
-    "instructions": "Among booths.",
+    "instructions": "Bazaar — Check the southwest corner beside the Palace Walls passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2084,9 +2352,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 11,
-    "instructions": "Among booths.",
+    "instructions": "Bazaar — At ground level, search the market stall near the south-center of the bazaar.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2099,9 +2368,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 12,
-    "instructions": "Among booths.",
+    "instructions": "Bazaar — At ground level, follow the outer wall to the southeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2114,9 +2384,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Skill Ring",
     "character": "Sora",
     "order": 13,
-    "instructions": "Near the desert path.",
+    "instructions": "Palace Walls — Check the south edge near the Cave of Wonders passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2129,9 +2400,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 14,
-    "instructions": "On a block.",
+    "instructions": "Palace Walls — Climb the canvas-covered box in the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2144,9 +2416,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Stone",
     "character": "Sora",
     "order": 15,
-    "instructions": "Behind the actual Cave of Wonders entrance.",
+    "instructions": "Cave of Wonders: Entrance — Check the southeast boundary behind the cave entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2159,9 +2432,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 16,
-    "instructions": "To the right.",
+    "instructions": "Cave of Wonders: Entrance — Check the southwest boundary behind the cave entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2174,9 +2448,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 17,
-    "instructions": "Right side on a platform.",
+    "instructions": "Cave of Wonders: Valley of Stone — Climb onto the purple platform along the north boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2189,9 +2464,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 18,
-    "instructions": "Left side on a platform.",
+    "instructions": "Cave of Wonders: Valley of Stone — Climb onto the blue platform along the south boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2204,9 +2480,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 19,
-    "instructions": "Left side on a platform.",
+    "instructions": "Cave of Wonders: Valley of Stone — Check the purple platform along the south boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2219,9 +2496,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 20,
-    "instructions": "Right side on a platform.",
+    "instructions": "Cave of Wonders: Valley of Stone — Check the low purple platform near the center of the east side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2234,9 +2512,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Cave of Wonders Map",
     "character": "Sora",
     "order": 21,
-    "instructions": "Near the transporter.",
+    "instructions": "Cave of Wonders: Chasm of Challenges — At the bottom of the challenge, open the large chest northwest of the Treasure Room entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -2249,9 +2531,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 22,
-    "instructions": "Near the save point.",
+    "instructions": "Cave of Wonders: Chasm of Challenges — At the bottom of the challenge, check the northeast corner by the Treasure Room entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2264,9 +2547,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 23,
-    "instructions": "Left side near wall.",
+    "instructions": "Cave of Wonders: Treasure Room — Climb onto the outer ledge in the northwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2279,9 +2563,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 24,
-    "instructions": "Near gold piles.",
+    "instructions": "Cave of Wonders: Treasure Room — Climb onto the outer ledge in the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2294,9 +2579,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Torn Pages",
     "character": "Sora",
     "order": 25,
-    "instructions": "Near the stairs.",
+    "instructions": "Ruined Chamber — After the timed switches open the chamber, open the left large chest near the stairs.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/agrabah-ii"
     ],
     "categories": [
       "pages"
@@ -2312,9 +2599,14 @@ export const entries: CollectionEntry[] = [
     "reward": "Ruins Map",
     "character": "Sora",
     "order": 26,
-    "instructions": "Near save point.",
+    "instructions": "Ruined Chamber — After the timed switches open the chamber, open the right large chest near the save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/agrabah-ii"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -2327,9 +2619,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Shard",
     "character": "Sora",
     "order": 1,
-    "instructions": "To the right of large rock.",
+    "instructions": "Bamboo Grove — Check the south boundary on the right of the large rock.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2342,9 +2635,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 2,
-    "instructions": "To the left.",
+    "instructions": "Bamboo Grove — Check the north boundary by the smaller rock and save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2357,9 +2651,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 3,
-    "instructions": "To the left.",
+    "instructions": "Bamboo Grove — Go to the northeast opening in the bamboo overlooking the village.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2372,9 +2667,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 4,
-    "instructions": "Near rocks across from stream.",
+    "instructions": "Checkpoint — Check the northeast meeting point of the mountain and fence.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2387,9 +2683,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 5,
-    "instructions": "Near wagon.",
+    "instructions": "Checkpoint — Search behind the explosives cart on the east boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2402,9 +2699,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Lightning Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Edge of the cliff.",
+    "instructions": "Mountain Trail — Check the southwest cliff edge overlooking the countryside.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2417,9 +2715,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Recovery Recipe",
     "character": "Sora",
     "order": 7,
-    "instructions": "Uppermost platform.",
+    "instructions": "Mountain Trail — Climb the northern ledge; search its northwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -2432,9 +2734,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Ether",
     "character": "Sora",
     "order": 8,
-    "instructions": "Uppermost platform.",
+    "instructions": "Mountain Trail — Climb the northern ledge; look across from chest 7.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2447,9 +2750,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "On a ledge near the path leading to the Village.",
+    "instructions": "Mountain Trail — Check the curved central ledge's outer edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2462,9 +2766,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 10,
-    "instructions": "Behind the small wagon.",
+    "instructions": "Village Cave — Follow the cave wall to the left of the explosives cart.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2477,9 +2782,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Shard",
     "character": "Sora",
     "order": 11,
-    "instructions": "In plain sight.",
+    "instructions": "Village Cave — Check the cave wall opposite the village entrance.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2492,9 +2798,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Shard",
     "character": "Sora",
     "order": 12,
-    "instructions": "Edge of cliff.",
+    "instructions": "Ridge — Follow the southeast cliff edge overlooking the city.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2507,9 +2814,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 13,
-    "instructions": "Near the rockets and wagon.",
+    "instructions": "Ridge — Check the northeast boundary among the explosives carts and rockets.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2522,9 +2830,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Torn Pages",
     "character": "Sora",
     "order": 14,
-    "instructions": "On ledge behind throne.",
+    "instructions": "Throne Room — Face the Emperor; open the large chest on the right side of his throne.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ],
     "categories": [
       "pages"
@@ -2540,9 +2851,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Palace Map",
     "character": "Sora",
     "order": 15,
-    "instructions": "On ledge behind throne.",
+    "instructions": "Throne Room — Face the Emperor; open the large chest on the left side of his throne.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -2555,9 +2872,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 16,
-    "instructions": "On the side of staircases on the left.",
+    "instructions": "Throne Room — Descend the eastern stairs toward the closed side door, then look behind the stairs to the north.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ]
   },
   {
@@ -2570,9 +2890,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Queen Recipe",
     "character": "Sora",
     "order": 17,
-    "instructions": "Down stairs to the right.",
+    "instructions": "Throne Room — Descend the eastern stairs and check in front of the closed side door.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -2585,9 +2911,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 18,
-    "instructions": "On the side of staircases on the right.",
+    "instructions": "Throne Room — Descend the western stairs; check behind the stairs, matching chest 16 on the opposite side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ]
   },
   {
@@ -2600,9 +2929,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Ogre Shield",
     "character": "Sora",
     "order": 19,
-    "instructions": "Down stairs to the right.",
+    "instructions": "Throne Room — Descend the western stairs and check in front of the closed side door.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ]
   },
   {
@@ -2615,9 +2947,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 20,
-    "instructions": "On ledge behind throne.",
+    "instructions": "Throne Room — Walk onto the ledge behind the Emperor's throne; open the small Mythril Crystal chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ]
   },
   {
@@ -2630,9 +2965,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 21,
-    "instructions": "On ledge behind throne.",
+    "instructions": "Throne Room — Walk onto the ledge behind the Emperor's throne; open the small Orichalcum chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/49",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/land-of-dragons-ii"
     ]
   },
   {
@@ -2645,10 +2983,16 @@ export const entries: CollectionEntry[] = [
     "reward": "100 Acre Wood Map",
     "character": "Sora",
     "order": 1,
-    "instructions": "Outside Pooh’s house, open the large chest on the far side.",
+    "instructions": "Pooh Bear's House — Outside Pooh's house, follow the path to its end and open the large map chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -2661,10 +3005,13 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 2,
-    "instructions": "Outside Pooh’s house, check beside the large map chest.",
+    "instructions": "Pooh Bear's House — Outside Pooh's house, check the small chest beside the map chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2677,10 +3024,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 3,
-    "instructions": "Outside Pooh’s house, check the small chest behind the house.",
+    "instructions": "Pooh Bear's House — Walk behind Pooh's house and open the other small chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235"
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/42235",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2693,9 +3043,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Defense Boost",
     "character": "Sora",
     "order": 4,
-    "instructions": "On a tree stump.",
+    "instructions": "Piglet's House — Check the tree stump to the right of Piglet's house.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2708,9 +3061,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 5,
-    "instructions": "On left side of house.",
+    "instructions": "Piglet's House — Check the tree on the left of Piglet's house.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2723,9 +3079,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 6,
-    "instructions": "In front of tree stump.",
+    "instructions": "Piglet's House — Check the stump beside the left-hand tree near chest 5.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2738,9 +3097,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Draw Ring",
     "character": "Sora",
     "order": 7,
-    "instructions": "Behind clothesline.",
+    "instructions": "Rabbit's House — Walk behind Rabbit's clothesline.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2753,9 +3115,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 8,
-    "instructions": "Near fence.",
+    "instructions": "Rabbit's House — Follow the fence outside Rabbit's house.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2768,9 +3133,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 9,
-    "instructions": "In pumpkin patch.",
+    "instructions": "Rabbit's House — Search Rabbit's pumpkin patch.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2783,9 +3151,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Magic Boost",
     "character": "Sora",
     "order": 10,
-    "instructions": "Left side of house.",
+    "instructions": "Kanga's House — Check the left side of Kanga's house.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2798,9 +3169,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 11,
-    "instructions": "Near edge of fence.",
+    "instructions": "Kanga's House — Check the fence on the right side of Kanga's house.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2813,9 +3187,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 12,
-    "instructions": "Right side of house.",
+    "instructions": "Kanga's House — Check the right side of Kanga's house near chest 11.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2828,9 +3205,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 13,
-    "instructions": "On left across the ice.",
+    "instructions": "The Spookey Cave — From the cave entrance, cross the first ice patch and check the left side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2843,10 +3223,13 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 14,
-    "instructions": "From the main crystal chamber, take the first right branch.",
+    "instructions": "The Spookey Cave — Reach the main crystal chamber; take the first branch to the right.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2859,10 +3242,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 15,
-    "instructions": "From the main crystal chamber, take the first left branch.",
+    "instructions": "The Spookey Cave — Reach the main crystal chamber; take the first branch to the left for the Orichalcum chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2875,9 +3261,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Guard Recipe",
     "character": "Sora",
     "order": 16,
-    "instructions": "Crystal room third opening from the right.",
+    "instructions": "The Spookey Cave — In the main crystal chamber, take the third opening from the right; open the recipe chest in that alcove.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -2890,9 +3282,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 17,
-    "instructions": "Crystal room third opening from the right.",
+    "instructions": "The Spookey Cave — In the main crystal chamber, take the third opening from the right; open the Mythril Crystal chest beside chest 16.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2905,9 +3300,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 18,
-    "instructions": "Crystal room second path from the right.",
+    "instructions": "The Spookey Cave — Take the main chamber's second path from the right and check the last ice patch before Pooh.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2920,9 +3318,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Cosmic Ring",
     "character": "Sora",
     "order": 19,
-    "instructions": "Near bushes on the left.",
+    "instructions": "Starry Hill — Search the bushes on the left side of Starry Hill.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
     ]
   },
   {
@@ -2935,9 +3336,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Style Recipe",
     "character": "Sora",
     "order": 20,
-    "instructions": "Near bushes upper right.",
+    "instructions": "Starry Hill — Go around behind Starry Hill and search the bushes on the upper-right side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/100-acre-wood",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/51",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -2950,9 +3357,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Savannah Map",
     "character": "Sora",
     "order": 1,
-    "instructions": "To the right.",
+    "instructions": "Gorge — Search the southeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -2965,9 +3376,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Gem",
     "character": "Sora",
     "order": 2,
-    "instructions": "To the right.",
+    "instructions": "Gorge — Search the east wall just left of the map chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2980,9 +3392,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 3,
-    "instructions": "To the left.",
+    "instructions": "Gorge — Look against the north wall opposite the save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -2995,9 +3408,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Gem",
     "character": "Sora",
     "order": 4,
-    "instructions": "On left near wall.",
+    "instructions": "Elephant Graveyard — Follow the outer north boundary toward the end of the western path.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3010,9 +3424,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 5,
-    "instructions": "On a ledge to the right.",
+    "instructions": "Elephant Graveyard — Search the inner path south of the large elephant skull.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3025,9 +3440,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Bright Stone",
     "character": "Sora",
     "order": 6,
-    "instructions": "Near exit of area.",
+    "instructions": "Elephant Graveyard — Check the northeast corner at the Savannah exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3040,9 +3456,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 7,
-    "instructions": "Behind you to the left.",
+    "instructions": "Elephant Graveyard — Follow the southernmost outside wall to its middle.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3055,9 +3472,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 8,
-    "instructions": "Jump off ledge to the right.",
+    "instructions": "Elephant Graveyard — Look between the rib bones along the inner eastern path.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3070,9 +3488,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Pride Rock Map",
     "character": "Sora",
     "order": 9,
-    "instructions": "Edge of the ledge in front of Pride Rock.",
+    "instructions": "Pride Rock — Open the large chest on the west cliff edge in front of Pride Rock.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3085,9 +3507,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 10,
-    "instructions": "Under Pride Rock.",
+    "instructions": "Pride Rock — Search beneath Pride Rock along the eastern boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3100,9 +3523,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Crystal",
     "character": "Sora",
     "order": 11,
-    "instructions": "Near a wall in the distance.",
+    "instructions": "Pride Rock — Follow the outside wall to the northwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3115,9 +3539,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Energy Stone",
     "character": "Sora",
     "order": 12,
-    "instructions": "Between two rocks.",
+    "instructions": "Wildebeest Valley — Look in front of the large central rock formation.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3130,9 +3555,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 13,
-    "instructions": "In front of a rock.",
+    "instructions": "Wildebeest Valley — Search behind the central rock formation.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3145,9 +3571,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 14,
-    "instructions": "Behind rocks to the left.",
+    "instructions": "Wildebeest Valley — Follow the west boundary opposite the Wastelands exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3160,9 +3587,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 15,
-    "instructions": "Behind rocks.",
+    "instructions": "Wildebeest Valley — Check the southwest corner among the upright rock formations.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3175,9 +3603,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Lucid Gem",
     "character": "Sora",
     "order": 16,
-    "instructions": "Near the tree.",
+    "instructions": "Wildebeest Valley — Check the far southeast corner near the Wastelands exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3190,10 +3619,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 17,
-    "instructions": "Follow the Wastelands from the Savannah; left after the third bend.",
+    "instructions": "Wastelands — Follow the outer edge of the central bend overlooking the canyon.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3206,10 +3636,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 18,
-    "instructions": "Continue past chest 17; right after the next bend.",
+    "instructions": "Wastelands — Search by the tall rock face in the central S-bend.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3222,10 +3653,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 19,
-    "instructions": "Left wall near the Jungle exit.",
+    "instructions": "Wastelands — Check the east boundary near the Jungle exit.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3238,9 +3670,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 20,
-    "instructions": "Near the ant hills.",
+    "instructions": "Jungle — Climb onto the western ledge near the ant mounds.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3253,9 +3686,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 21,
-    "instructions": "Past the ant hills near a tree.",
+    "instructions": "Jungle — Search the southeast outside boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3268,7 +3702,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Crystal",
     "character": "Sora",
     "order": 22,
-    "instructions": "Below the raised ledge opposite the Wastelands passage.",
+    "instructions": "Jungle — Look below the ledge directly opposite the Wastelands passage.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -3284,9 +3718,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Oasis Map",
     "character": "Sora",
     "order": 23,
-    "instructions": "Edge of the cliff to the right.",
+    "instructions": "Oasis — Check the southwest cliff edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3299,9 +3737,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Torn Pages",
     "character": "Sora",
     "order": 24,
-    "instructions": "Near a tree.",
+    "instructions": "Oasis — Look at the foot of the lone tree on the far east side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ],
     "categories": [
       "pages"
@@ -3317,9 +3756,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 25,
-    "instructions": "On the side of the waterfall.",
+    "instructions": "Oasis — Climb to the highest waterfall pool in the northeast and check its edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3332,9 +3772,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 1,
-    "instructions": "On a ledge near the French Horn shrub player.",
+    "instructions": "Courtyard — Climb the eastern hedge just south of the tuba-playing pig.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3347,9 +3788,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Star Recipe",
     "character": "Sora",
     "order": 2,
-    "instructions": "Highest rampart of Castle shrub.",
+    "instructions": "Courtyard — Climb the north-side hedge steps onto the central castle topiary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -3362,9 +3807,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 3,
-    "instructions": "In a corner near the Cymbals shrub player.",
+    "instructions": "Courtyard — Climb the hedge in the southwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3377,9 +3823,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 4,
-    "instructions": "Ledge near the Trumpet shrub player.",
+    "instructions": "Courtyard — Check the eastern hedge behind the trumpet-playing pig.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3392,9 +3839,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Blazing Stone",
     "character": "Sora",
     "order": 5,
-    "instructions": "Ledge near Flute shrub player.",
+    "instructions": "Courtyard — Climb the hedge behind the flute-playing cow.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3407,9 +3855,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Blazing Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Right side of Castle shrub.",
+    "instructions": "Courtyard — Search at ground level on the west side of the central castle topiary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3422,9 +3871,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 7,
-    "instructions": "Ledge near Trombone shrub player.",
+    "instructions": "Courtyard — Climb the short hedge behind the trombone-playing dog.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://www.khwiki.com/Game:Disney_Castle",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/disney-castle",
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/List/location/disneycastle.py"
     ]
   },
   {
@@ -3437,9 +3890,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Torn Pages",
     "character": "Sora",
     "order": 8,
-    "instructions": "In plain sight on the right.",
+    "instructions": "Library — Open the large chest in the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ],
     "categories": [
       "pages"
@@ -3455,9 +3909,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Cornerstone Hill Map",
     "character": "Sora",
     "order": 1,
-    "instructions": "Big ledge near the door.",
+    "instructions": "Cornerstone Hill — Climb onto the southwest ledge and check its back edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3470,9 +3928,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Shard",
     "character": "Sora",
     "order": 2,
-    "instructions": "Big ledge near the Wharf path.",
+    "instructions": "Cornerstone Hill — Check the fence at ground level in the northwest corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3485,9 +3944,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 3,
-    "instructions": "Under a tree to the left.",
+    "instructions": "Pier — Follow the fence to the northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3500,9 +3960,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Hi-Potion",
     "character": "Sora",
     "order": 4,
-    "instructions": "Under a tree to the right.",
+    "instructions": "Pier — Look underneath the tree on the west side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3515,9 +3976,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 5,
-    "instructions": "Near a wall to the left.",
+    "instructions": "Waterway — Check the inland wall near the Wharf exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3530,9 +3992,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 6,
-    "instructions": "End of the left path.",
+    "instructions": "Waterway — Follow the area to its far northeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3545,9 +4008,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Stone",
     "character": "Sora",
     "order": 7,
-    "instructions": "Right path near the windmill.",
+    "instructions": "Waterway — Look in front of the southwest windmill near the Pier exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3560,9 +4024,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 1,
-    "instructions": "On the right near the cross tombstone.",
+    "instructions": "Graveyard — Check the east boundary opposite the Curly Hill path.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3575,9 +4040,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 2,
-    "instructions": "To the left near the chained gate.",
+    "instructions": "Graveyard — Look beside the west gate toward Curly Hill.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3590,9 +4056,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Halloween Town Map",
     "character": "Sora",
     "order": 3,
-    "instructions": "To the left of the big book.",
+    "instructions": "Dr. Finkelstein's Lab — Look beside the doctor's large book against the wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3605,9 +4075,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 4,
-    "instructions": "To the right of the opening and closing gate.",
+    "instructions": "Town Square — Search the northeast wall to the right of Jack's gate.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3620,9 +4091,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Energy Shard",
     "character": "Sora",
     "order": 5,
-    "instructions": "Near the guillotine.",
+    "instructions": "Town Square — Check the foot of the guillotine on the west side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3635,9 +4107,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Lightning Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Upper left area.",
+    "instructions": "Hinterlands — Search the north boundary near the Graveyard passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3650,9 +4123,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 7,
-    "instructions": "On the left side.",
+    "instructions": "Hinterlands — Search the midpoint of the west boundary.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3665,9 +4139,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 8,
-    "instructions": "Right side behind a tree.",
+    "instructions": "Hinterlands — Look behind the tree in the southeast corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3680,9 +4155,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mega-Potion",
     "character": "Sora",
     "order": 9,
-    "instructions": "Near the house on the right of Santa’s house.",
+    "instructions": "Candy Cane Lane — Climb onto the west ledge opposite the carousel.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3695,9 +4171,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 10,
-    "instructions": "Near the house to the right of the Yuletide Hill path.",
+    "instructions": "Candy Cane Lane — Climb onto the northeast ledge near the Yuletide Hill passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3710,9 +4187,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Lightning Stone",
     "character": "Sora",
     "order": 11,
-    "instructions": "To the right of the gates.",
+    "instructions": "Candy Cane Lane — Check the southeast wall beside the Christmas Tree Plaza passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3725,9 +4203,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 12,
-    "instructions": "To the right of Santa’s house doors.",
+    "instructions": "Candy Cane Lane — Look outside Santa's front door on its west side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3740,9 +4219,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Christmas Town Map",
     "character": "Sora",
     "order": 13,
-    "instructions": "On the counter.",
+    "instructions": "Santa's House — Look against the west wall beneath the round window.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3755,9 +4238,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 14,
-    "instructions": "Next to the counter near the save point.",
+    "instructions": "Santa's House — Look beside the furniture along the north wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3770,9 +4254,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Naval Map",
     "character": "Sora",
     "order": 1,
-    "instructions": "In plain sight in the corner.",
+    "instructions": "Rampart — Check the northwest corner by the save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -3785,9 +4273,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 2,
-    "instructions": "Around the second corner on the right.",
+    "instructions": "Rampart — Follow the east inside wall near the Town passage.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3800,9 +4289,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Shard",
     "character": "Sora",
     "order": 3,
-    "instructions": "Around the corner on the right.",
+    "instructions": "Rampart — Look between the cannon and bell tower on the northeast sea wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3815,9 +4305,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Stone",
     "character": "Sora",
     "order": 4,
-    "instructions": "Destroy boxes, go down an alley into the opening and in the corner to the right.",
+    "instructions": "Town — Follow the northeast alley to its dead end.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3830,9 +4321,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 5,
-    "instructions": "Towards the Rampart area destroy boxes on the right and go through that hole in the alley.",
+    "instructions": "Town — Break the boxes blocking the alcove near the town center.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3845,9 +4337,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 6,
-    "instructions": "Building near Rampart entry to the left.",
+    "instructions": "Town — Check the east alley by the stairs toward the Rampart.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3860,9 +4353,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 7,
-    "instructions": "Next to #4 destroy boxes go down an alley into the opening.",
+    "instructions": "Town — Break the boxes blocking the northeast archway.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3875,9 +4369,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Bright Shard",
     "character": "Sora",
     "order": 8,
-    "instructions": "To the left on the edge of the ledge.",
+    "instructions": "Isle de Muerta: Cave Mouth — Follow the west wall halfway between the two exits.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3890,9 +4385,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 9,
-    "instructions": "To the left farther along the edge.",
+    "instructions": "Isle de Muerta: Cave Mouth — Continue along the west wall toward the north end.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3905,9 +4401,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 10,
-    "instructions": "Inside the gap of the cave near the path leading to Moonlight Nook.",
+    "instructions": "Isle de Muerta: Powder Store — From Moonlight Nook, clear the powder crates in the first eastern alcove.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3920,9 +4417,10 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 11,
-    "instructions": "Behind the boxes to the left where a pirate explodes from.",
+    "instructions": "Isle de Muerta: Powder Store — From Cave Mouth, clear the powder crates in the first western alcove.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3935,9 +4433,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Shard",
     "character": "Sora",
     "order": 12,
-    "instructions": "To the right.",
+    "instructions": "Isle de Muerta: Moonlight Nook — Search the southeast corner near the Powder Store exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -3950,9 +4449,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 13,
-    "instructions": "To the right.",
+    "instructions": "Isle de Muerta: Moonlight Nook — Search the northeast wall near the Treasure Heap exit.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
     ]
   },
   {
@@ -3965,9 +4466,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Stone",
     "character": "Sora",
     "order": 14,
-    "instructions": "Near the stairs.",
+    "instructions": "Isle de Muerta: Moonlight Nook — Search the middle of the west wall.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/",
+      "https://www.playstationtrophies.org/forum/topic/263463-kingdom-hearts-ii-final-mix-hd-jiminys-journal-completion-guide/"
     ]
   },
   {
@@ -3980,9 +4483,18 @@ export const entries: CollectionEntry[] = [
     "reward": "Feather Charm",
     "character": "Sora",
     "order": 15,
-    "instructions": "Near the save point.",
+    "instructions": "Ship Graveyard: The Interceptor's Hold — After the first Grim Reaper fight, open the large chest by the save point inside the wreck.\n\nSummoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii",
+      "https://www.khwiki.com/Summon",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+      "https://appmedia.jp/kh2fm/75145473",
+      "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+      "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
     ],
     "categories": [
       "summons"
@@ -3998,10 +4510,13 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 16,
-    "instructions": "Descend the eastern ramp; beneath the Black Pearl access path.",
+    "instructions": "Ship Graveyard: Seadrift Keep — Descend the eastern ramp below the Black Pearl landing; check under the ship beside the stone steps.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
     ]
   },
   {
@@ -4014,10 +4529,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 17,
-    "instructions": "Northwest path, at the wall corner.",
+    "instructions": "Ship Graveyard: Seadrift Keep — Follow the upper northern path to the northwest wall corner.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
     ]
   },
   {
@@ -4030,10 +4548,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Meteor Staff",
     "character": "Sora",
     "order": 18,
-    "instructions": "Northeast of the Black Pearl landing.",
+    "instructions": "Ship Graveyard: Seadrift Keep — Check the upper shipwreck level beside the anchor near the Black Pearl landing.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
-      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381"
+      "https://gamefaqs.gamespot.com/ps2/915410-kingdom-hearts-ii/faqs/42381",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
     ]
   },
   {
@@ -4046,9 +4567,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Serenity Gem",
     "character": "Sora",
     "order": 19,
-    "instructions": "To the right before the bridge.",
+    "instructions": "Ship Graveyard: Seadrift Row — Enter from the Interceptor's Hold and check on the right before crossing the bridge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
     ]
   },
   {
@@ -4061,9 +4585,15 @@ export const entries: CollectionEntry[] = [
     "reward": "King Recipe",
     "character": "Sora",
     "order": 20,
-    "instructions": "Across the bridge to the right.",
+    "instructions": "Ship Graveyard: Seadrift Row — Cross the bridge from the Interceptor's Hold side and check on the right.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -4076,9 +4606,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 21,
-    "instructions": "Across the bridge and further down on the left.",
+    "instructions": "Ship Graveyard: Seadrift Row — Cross the bridge from the Interceptor's Hold side; continue farther along and check on the left.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/56",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/port-royal-ii"
     ]
   },
   {
@@ -4091,10 +4624,13 @@ export const entries: CollectionEntry[] = [
     "reward": "Pit Cell Area Map",
     "character": "Sora",
     "order": 1,
-    "instructions": "Northwest corner of the corridor to the transporter.",
+    "instructions": "Pit Cell — After opening the cell, check the northwest corner of the passage to the transporter.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -4107,7 +4643,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 2,
-    "instructions": "North wall, beside the map chest.",
+    "instructions": "Pit Cell — In the transporter passage, check the north wall just right of the map chest.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -4123,9 +4659,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark Crystal",
     "character": "Sora",
     "order": 3,
-    "instructions": "Up the ramp ahead.",
+    "instructions": "Canyon — Follow the northeast path toward Dataspace; the chest is beside the edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -4138,9 +4675,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 4,
-    "instructions": "Up the ramp on the right.",
+    "instructions": "Canyon — Follow the outer ramps to the southeast landing.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -4153,9 +4691,10 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 5,
-    "instructions": "Over the walkway and to the left.",
+    "instructions": "Canyon — Check the corner by the energy core's north opening and the Hallway transporter.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://www.khguides.com/kh2/collectibles/treasures/"
     ]
   },
   {
@@ -4168,7 +4707,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Frost Crystal",
     "character": "Sora",
     "order": 6,
-    "instructions": "Left of the south energy-core opening.",
+    "instructions": "Canyon — From the Pit Cell transporter, check the left side of the energy core's south opening.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -4184,7 +4723,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Power Crystal",
     "character": "Sora",
     "order": 7,
-    "instructions": "North wall beside the windows.",
+    "instructions": "I/O Tower Hallway — Follow the north wall to the pair of windows beside chest 8.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -4200,7 +4739,7 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 8,
-    "instructions": "West corner, near the Simulation Hangar entrance.",
+    "instructions": "I/O Tower Hallway — Check the far-west windows near the Simulation Hangar door.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -4216,10 +4755,13 @@ export const entries: CollectionEntry[] = [
     "reward": "I/O Tower Map",
     "character": "Sora",
     "order": 9,
-    "instructions": "Southeast outer edge of the room.",
+    "instructions": "I/O Tower Communications Room — Circle to the southeast edge of the room.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -4232,7 +4774,7 @@ export const entries: CollectionEntry[] = [
     "reward": "Gaia Belt",
     "character": "Sora",
     "order": 10,
-    "instructions": "Northeast outer edge of the room.",
+    "instructions": "I/O Tower Communications Room — Circle to the northeast edge of the room.",
     "sources": [
       "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
       "https://www.khguides.com/kh2/collectibles/treasures/"
@@ -4248,9 +4790,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 11,
-    "instructions": "After using the Solar Sailor on the left.",
+    "instructions": "Central Computer Mesa — After arriving on the Solar Sailer, check the pair of small chests on the left; open the right-hand one.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
     ]
   },
   {
@@ -4263,9 +4808,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum+",
     "character": "Sora",
     "order": 12,
-    "instructions": "After using the Solar Sailor on the right.",
+    "instructions": "Central Computer Mesa — After arriving on the Solar Sailer, open the leftmost small chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
     ]
   },
   {
@@ -4278,9 +4826,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Cosmic Arts",
     "character": "Sora",
     "order": 13,
-    "instructions": "After using the Solar Sailor on the left.",
+    "instructions": "Central Computer Mesa — Opposite the two small chests, open the left large chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
     ]
   },
   {
@@ -4293,9 +4844,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Central Computer Core Map",
     "character": "Sora",
     "order": 14,
-    "instructions": "After using the Solar Sailor on the right.",
+    "instructions": "Central Computer Mesa — Opposite the two small chests, open the right large chest.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/space-paranoids-ii",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/60"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -4308,9 +4865,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 1,
-    "instructions": "Around the building in the corner to the left.",
+    "instructions": "Fragment Crossing — From the Alley to Between, follow the path to the second open section and check its left corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4323,9 +4883,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 2,
-    "instructions": "Around the building in the corner further left.",
+    "instructions": "Fragment Crossing — In the second open section from the Alley to Between, check the next corner beyond chest 1.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4338,9 +4901,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 3,
-    "instructions": "In the area with purple ground in the corner near pipes.",
+    "instructions": "Fragment Crossing — In the same section, enter the northern fenced area and check its right corner.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4353,9 +4919,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 4,
-    "instructions": "Platform to the left.",
+    "instructions": "Fragment Crossing — In the same section, check the northern fenced area on the left as you enter.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4368,9 +4937,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 5,
-    "instructions": "To the left of the skyscraper.",
+    "instructions": "Memory's Skyscraper — Check the left side of the skyscraper.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4383,9 +4955,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 6,
-    "instructions": "To the right of the skyscraper near the crashed semi.",
+    "instructions": "Memory's Skyscraper — Check the right side of the skyscraper beside the crashed truck.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4398,9 +4973,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 7,
-    "instructions": "To the left of the skyscraper.",
+    "instructions": "Memory's Skyscraper — Continue along the left side of the skyscraper beyond chest 5.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4413,9 +4991,15 @@ export const entries: CollectionEntry[] = [
     "reward": "Dark City Map",
     "character": "Sora",
     "order": 8,
-    "instructions": "In plain sight near Moogle.",
+    "instructions": "The Brink of Despair — Open the large chest near the Moogle shop and save point.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
+    ],
+    "categories": [
+      "maps"
     ]
   },
   {
@@ -4428,9 +5012,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum+",
     "character": "Sora",
     "order": 9,
-    "instructions": "Edge of the cliff leading to area’s exit.",
+    "instructions": "The Brink of Despair — Walk behind the left-hand building and check the cliff edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4443,9 +5030,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 10,
-    "instructions": "To the left of the Crooked Ascension doorway.",
+    "instructions": "Nothing's Cell — Climb to the Crooked Ascension doorway and look on its left.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4458,9 +5048,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 11,
-    "instructions": "Go up first ramp to the left on the platform.",
+    "instructions": "Nothing's Cell — Follow the first ramp upward and check beside the path before continuing to the elevator.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4473,9 +5066,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Cosmic Belt",
     "character": "Sora",
     "order": 12,
-    "instructions": "On top of the staircase.",
+    "instructions": "Twilight's View — Climb the stairs and open the large chest near the upper end.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4488,9 +5084,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Gem",
     "character": "Sora",
     "order": 13,
-    "instructions": "Near the railing to the left.",
+    "instructions": "Naught's Skyway — From the Hall of Empty Melodies, follow the first stretch of skyway and check the left edge.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4503,9 +5102,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 14,
-    "instructions": "Up two ramps on the ledge to the left.",
+    "instructions": "Naught's Skyway — Climb the next series of ramps and check the tall platform between them.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4518,9 +5120,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 15,
-    "instructions": "Up the third ramp to the left.",
+    "instructions": "Naught's Skyway — Climb the third ramp and check the platform opposite chest 14.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4533,9 +5138,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Stone",
     "character": "Sora",
     "order": 16,
-    "instructions": "On first platform.",
+    "instructions": "Ruin and Creation's Passage — From Naught's Approach, check the first platform on the upward route.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4548,9 +5156,12 @@ export const entries: CollectionEntry[] = [
     "reward": "AP Boost",
     "character": "Sora",
     "order": 17,
-    "instructions": "On second platform.",
+    "instructions": "Ruin and Creation's Passage — Continue upward to the second platform.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4563,9 +5174,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Mythril Crystal",
     "character": "Sora",
     "order": 18,
-    "instructions": "On third platform.",
+    "instructions": "Ruin and Creation's Passage — Continue upward to the third platform.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4578,9 +5192,12 @@ export const entries: CollectionEntry[] = [
     "reward": "Orichalcum",
     "character": "Sora",
     "order": 19,
-    "instructions": "On final platform to the left.",
+    "instructions": "Ruin and Creation's Passage — At the fourth and final platform, check its left side.",
     "sources": [
-      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit"
+      "https://docs.google.com/spreadsheets/d/1-HNv1dK8_lQ7ibC1q4jwWOdiKXNCYbLh2SBrI0K4ZGo/edit",
+      "https://kingdomhearts.fandom.com/wiki/Kingdom_Hearts_II_item_locations",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/world-that-never-was",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ]
   },
   {
@@ -4593,9 +5210,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above Pooh's house. Route: use LV2 High Jump."
+    "instructions": "Pooh Bear's House — Above Pooh's house. Route: use LV2 High Jump."
   },
   {
     "id": "kh2fm.puzzle.daylight.13",
@@ -4607,9 +5225,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 13,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On top of cardboard boxes."
+    "instructions": "Kanga's House — Climb the cardboard boxes outside Kanga’s house."
   },
   {
     "id": "kh2fm.puzzle.daylight.14",
@@ -4621,9 +5241,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 14,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge."
+    "instructions": "Starry Hill — Northeast side behind Starry Hill: jump from the hill using High Jump LV2 and Aerial Dodge LV2."
   },
   {
     "id": "kh2fm.puzzle.daylight.19",
@@ -4635,9 +5256,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 19,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "In the cabbage patch."
+    "instructions": "Rabbit's House — In the cabbage patch."
   },
   {
     "id": "kh2fm.puzzle.daylight.20",
@@ -4649,9 +5271,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 20,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Across from first treasure chest."
+    "instructions": "Spooky Cave — From the cave entrance, look opposite the first treasure chest and jump toward the crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.26",
@@ -4663,9 +5287,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 26,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On a tree stump."
+    "instructions": "Piglet's House — Jump onto the tree stump outside Piglet’s house."
   },
   {
     "id": "kh2fm.puzzle.daylight.06",
@@ -4677,9 +5303,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Hidden behind a pile of treasure to the left of the entrance."
+    "instructions": "Cave of Wonders: Treasure Room — From the entrance, look behind the treasure heap on the left/southwest side."
   },
   {
     "id": "kh2fm.puzzle.daylight.10",
@@ -4691,9 +5319,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+      "https://www.khwiki.com/Game:Agrabah"
     ],
-    "instructions": "In midair while falling down to the next level."
+    "instructions": "Cave of Wonders: Chasm of Challenges — Redo the challenge from its top. On the fourth combat platform, jump to the crown above it (Agrabah Journal piece 11)."
   },
   {
     "id": "kh2fm.puzzle.daylight.11",
@@ -4705,9 +5336,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+      "https://www.khwiki.com/Game:Agrabah"
     ],
-    "instructions": "In midair while falling down to the next level."
+    "instructions": "Cave of Wonders: Chasm of Challenges — Redo the challenge from its top. On the second combat platform, jump to the crown above it (Agrabah Journal piece 10)."
   },
   {
     "id": "kh2fm.puzzle.daylight.29",
@@ -4719,9 +5353,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 29,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Behind tiger head."
+    "instructions": "Cave of Wonders: Entrance — Walk around behind the tiger-head entrance to find the crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.35",
@@ -4733,9 +5369,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 35,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Underneath the second arch."
+    "instructions": "Sandswept Ruins — Follow the stone path from the tower and fly beneath its second arch."
   },
   {
     "id": "kh2fm.puzzle.daylight.37",
@@ -4747,9 +5385,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 37,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/57",
+      "https://www.khwiki.com/Game:Agrabah"
     ],
-    "instructions": "Fall on it to get it."
+    "instructions": "Cave of Wonders: Chasm of Challenges — On the fourth combat platform, stand near the center as it disappears and steer through the crown while falling to the final floor (Agrabah Journal piece 9). If missed, use the bottom warp pad to retry."
   },
   {
     "id": "kh2fm.puzzle.daylight.41",
@@ -4761,9 +5402,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 41,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On broken bridge to the tower."
+    "instructions": "Sandswept Ruins — Fly to the broken bridge at the foot of the tower."
   },
   {
     "id": "kh2fm.puzzle.duality.05",
@@ -4775,9 +5418,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above a stand near the entrance to the Palace Gates."
+    "instructions": "Agrabah — Climb the market stall beside the northern exit toward the Palace Gates."
   },
   {
     "id": "kh2fm.puzzle.frontier.03",
@@ -4789,9 +5434,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 3,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Behind a stall near exit to the Bazaar. Destroy the stand."
+    "instructions": "Agrabah — Destroy the stall beside Agrabah’s southernmost Bazaar passage with Fire or a combo finisher."
   },
   {
     "id": "kh2fm.puzzle.frontier.09",
@@ -4803,9 +5451,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Go through the middle entrance to the Bazaar and there will be a stand with a puzzle piece behind it. Destroy the stand to get it."
+    "instructions": "Bazaar — Enter Bazaar through the middle Agrabah passage and destroy the stall on the upper level beside that entrance."
   },
   {
     "id": "kh2fm.puzzle.frontier.10",
@@ -4817,9 +5468,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Inside the first chamber and on top of a lone pillar."
+    "instructions": "Cave of Wonders: Valley of Stone — In the first chamber, jump toward the lone pillar near the southwest blue platform."
   },
   {
     "id": "kh2fm.puzzle.sunset.18",
@@ -4831,9 +5485,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 18,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Under the first arch."
+    "instructions": "Sandswept Ruins — Follow the ground-level stone path from the tower and fly beneath its first arch."
   },
   {
     "id": "kh2fm.puzzle.sunset.23",
@@ -4845,9 +5501,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 23,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Atop the pile of gold to the right of the entrance. Route: use LV3 High Jump."
+    "instructions": "Cave of Wonders: Treasure Room — From the Treasure Room entrance, climb the gold heap on the right and use High Jump LV3."
   },
   {
     "id": "kh2fm.puzzle.sunset.41",
@@ -4859,9 +5517,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 41,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Route: use LV2 High Jump. Jump off one of the booths."
+    "instructions": "Bazaar — Jump from a nearby market booth toward the crown above the Bazaar’s south exit with High Jump LV2."
   },
   {
     "id": "kh2fm.puzzle.duality.01",
@@ -4873,9 +5533,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Under the ledge to the left of the save point."
+    "instructions": "Undersea Courtyard — Check beneath the rock ledge on the east side, near the save point."
   },
   {
     "id": "kh2fm.puzzle.frontier.11",
@@ -4888,9 +5550,10 @@ export const entries: CollectionEntry[] = [
     "order": 11,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Jump above the bubbling brazier behind the throne on its northwest side."
+    "instructions": "Triton's Throne — Jump above the bubbling brazier behind the throne on its northwest side."
   },
   {
     "id": "kh2fm.puzzle.frontier.12",
@@ -4903,9 +5566,10 @@ export const entries: CollectionEntry[] = [
     "order": 12,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Jump above the bubbling brazier behind the throne on its northeast side."
+    "instructions": "Triton's Throne — Jump above the bubbling brazier behind the throne on its northeast side."
   },
   {
     "id": "kh2fm.puzzle.awakening.04",
@@ -4917,9 +5581,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Top left, back. Accessible by climbing a big pile of furniture."
+    "instructions": "Undercroft — Climb the large furniture pile to the raised crown beside the guarded doorway."
   },
   {
     "id": "kh2fm.puzzle.awakening.06",
@@ -4932,9 +5598,10 @@ export const entries: CollectionEntry[] = [
     "order": 6,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Look beside the broken furniture against the west wall."
+    "instructions": "Beast's Room — Look beside the broken furniture against the west wall."
   },
   {
     "id": "kh2fm.puzzle.awakening.07",
@@ -4946,9 +5613,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "At highest point."
+    "instructions": "Underground Passage — Climb onto the highest central platform, then jump toward the crown above the stairs."
   },
   {
     "id": "kh2fm.puzzle.awakening.09",
@@ -4960,9 +5629,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "From the entrance, go straight and turn right."
+    "instructions": "Underground Passage — From the Undercroft entrance, follow the passage and turn right toward the low crown."
   },
   {
     "id": "kh2fm.puzzle.awakening.10",
@@ -4974,9 +5645,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Atop a small pile of furniture."
+    "instructions": "Undercroft — Atop a small pile of furniture."
   },
   {
     "id": "kh2fm.puzzle.daylight.43",
@@ -4988,9 +5660,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 43,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "In front of the statue's face. Route: use LV2 High Jump and Aerial Dodge."
+    "instructions": "West Hall — From the West Hall stairs, use High Jump LV2 and Aerial Dodge toward the tall statue’s face."
   },
   {
     "id": "kh2fm.puzzle.heart.12",
@@ -5002,9 +5676,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "By the staircase."
+    "instructions": "West Wing — Jump from the staircase or upper floor toward the crown over the southern railing."
   },
   {
     "id": "kh2fm.puzzle.sunset.28",
@@ -5019,7 +5695,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Cross to the far end of the bridge. It becomes accessible during the Xaldin fight."
+    "instructions": "Bridge — Cross to the far end of the bridge. It becomes accessible during the Xaldin fight."
   },
   {
     "id": "kh2fm.puzzle.sunset.37",
@@ -5031,9 +5707,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 37,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use Glide and Aerial Dodge."
+    "instructions": "Entrance Hall — High over the hall’s west side; use High Jump LV3 and Glide LV3."
   },
   {
     "id": "kh2fm.puzzle.daylight.16",
@@ -5045,9 +5722,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 16,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 High Jump, Aerial Dodge and attack."
+    "instructions": "Colonnade — Above the Courtyard doorway; use High Jump LV2, Aerial Dodge LV2 and an aerial attack."
   },
   {
     "id": "kh2fm.puzzle.duality.03",
@@ -5059,9 +5737,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 3,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above the archway. Route: use LV3 High Jump or Aerial Dodge."
+    "instructions": "Gummi Hangar — Above the archway. Route: use LV3 High Jump or Aerial Dodge."
   },
   {
     "id": "kh2fm.puzzle.duality.12",
@@ -5073,9 +5752,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Near the trombone player bonsai cutting is a tall hedge. Jump from the top of the hedge to get puzzle piece."
+    "instructions": "Courtyard — Climb the hedge near the trombone-playing dog, then jump toward the northwest crown."
   },
   {
     "id": "kh2fm.puzzle.heart.01",
@@ -5087,9 +5768,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above the trumpet player bonsai cutting."
+    "instructions": "Courtyard — Jump onto the trumpet-playing pig topiary and collect the crown above its hat."
   },
   {
     "id": "kh2fm.puzzle.heart.02",
@@ -5101,9 +5784,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On top of the entrance."
+    "instructions": "Courtyard — Climb the hedge steps on the north side of the central castle topiary; jump toward its front crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.12",
@@ -5115,9 +5800,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Behind the Halloween Town tree."
+    "instructions": "Yuletide Hill — Behind the Halloween Town tree."
   },
   {
     "id": "kh2fm.puzzle.daylight.21",
@@ -5129,9 +5815,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 21,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On the counter top."
+    "instructions": "Santa's House — On the counter top."
   },
   {
     "id": "kh2fm.puzzle.daylight.44",
@@ -5143,9 +5830,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 44,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Above entrance."
+    "instructions": "Shipping and Receiving — Jump above the doorway used to enter Shipping and Receiving."
   },
   {
     "id": "kh2fm.puzzle.duality.02",
@@ -5157,9 +5846,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Behind the Christmas Town tree."
+    "instructions": "Hinterlands — Behind the Christmas Town tree."
   },
   {
     "id": "kh2fm.puzzle.duality.08",
@@ -5171,9 +5861,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Stand on the metal grate to be hit by a jet of green water. This will propel Sora high enough to get the puzzle piece."
+    "instructions": "Halloween Town Square — Stand on the metal grate to be hit by a jet of green water. This will propel Sora high enough to get the puzzle piece."
   },
   {
     "id": "kh2fm.puzzle.frontier.02",
@@ -5185,9 +5876,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "On top of the dresser."
+    "instructions": "Santa's House — Climb Santa’s dresser in the southeast corner."
   },
   {
     "id": "kh2fm.puzzle.sunset.21",
@@ -5199,9 +5893,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 21,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Glide."
+    "instructions": "Curly Hill — Glide LV2 from Curly Hill’s summit into the southwest corner."
   },
   {
     "id": "kh2fm.puzzle.sunset.25",
@@ -5213,9 +5908,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 25,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Aerial Dodge or skateboard."
+    "instructions": "Christmas Town: Shipping and Receiving — Raised platform left of the conveyor belts; use Aerial Dodge LV2 or the skateboard."
   },
   {
     "id": "kh2fm.puzzle.awakening.01",
@@ -5227,9 +5923,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Above the bed."
+    "instructions": "Merlin's House — Jump from Merlin’s bed toward the crown above it."
   },
   {
     "id": "kh2fm.puzzle.awakening.02",
@@ -5241,9 +5939,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On a ledge near a shophouse. Accessible from the entrance of the world."
+    "instructions": "Marketplace — Jump onto Wedge’s Armor Shop roof near the world arrival point."
   },
   {
     "id": "kh2fm.puzzle.awakening.03",
@@ -5255,9 +5955,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 3,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On a wall section near the Bailey."
+    "instructions": "Borough — Climb the wall framing the stairs near the Bailey exit."
   },
   {
     "id": "kh2fm.puzzle.daylight.05",
@@ -5269,9 +5971,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On the steps going down and around the central area."
+    "instructions": "Postern — Check above the ramp winding down from the Postern toward the Corridors."
   },
   {
     "id": "kh2fm.puzzle.daylight.24",
@@ -5286,7 +5990,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Collect the crown on the floor in the middle of the chamber."
+    "instructions": "Heartless Manufactory — Collect the crown on the floor in the middle of the chamber."
   },
   {
     "id": "kh2fm.puzzle.duality.07",
@@ -5298,9 +6002,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On the stairs to the Restoration Site."
+    "instructions": "Bailey — Follow the southwest stairs toward the Restoration Site and jump at the middle landing."
   },
   {
     "id": "kh2fm.puzzle.frontier.04",
@@ -5312,9 +6018,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above the Corridors doorway. Jump with High Jump LV2 and Aerial Dodge LV1 to reach it."
+    "instructions": "Postern — Above the Corridors doorway. Jump with High Jump LV2 and Aerial Dodge LV1 to reach it."
   },
   {
     "id": "kh2fm.puzzle.heart.06",
@@ -5326,9 +6033,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On top of Mog's Moogle Shop. Accessible by High Jump LV2. Alternatively, LV1 High Jump and Reflect can be used."
+    "instructions": "Marketplace — On top of Mog's Moogle Shop. Accessible by High Jump LV2. Alternatively, LV1 High Jump and Reflect can be used."
   },
   {
     "id": "kh2fm.puzzle.sunset.01",
@@ -5340,9 +6048,13 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/cavern-of-remembrance"
     ],
-    "instructions": "In the area with yellow colored orbs. Route: use LV3 Aerial Dodge."
+    "instructions": "Cavern of Remembrance: Mineshaft — Enter the middle Mineshaft from the upper Mining Area, beside the Power Boost chest and yellow orb. Cross the pipes with Quick Run, then use Aerial Dodge LV3 while falling toward the crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.04",
@@ -5354,9 +6066,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Atop the building across from Merlin's House. Route: use LV3 High Jump. Alternatively, LV1 High Jump, Wisdom Form, and Reflect can be used."
+    "instructions": "Borough — From the wall above the Borough stairs, use High Jump LV3 toward the building opposite Merlin’s House."
   },
   {
     "id": "kh2fm.puzzle.sunset.06",
@@ -5368,9 +6082,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "On a ledge under the door to the Mineshaft. Route: use Aerial Dodge."
+    "instructions": "Cave of Remembrance: Depths — Climb the central Depths ramp and jump/Glide toward the recess below the white Mineshaft doorway."
   },
   {
     "id": "kh2fm.puzzle.sunset.09",
@@ -5382,9 +6099,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "On the column in the middle of the room. Route: use High Jump."
+    "instructions": "Cavern of Remembrance: Depths — Climb onto the central column and jump toward the crown above it."
   },
   {
     "id": "kh2fm.puzzle.sunset.12",
@@ -5396,9 +6116,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "Route: use LV3 Aerial Dodge. Alternatively, LV2 Aerial Dodge and Reflect can be used."
+    "instructions": "Bailey — Enter the destroyed Bailey from the Borough’s upper ledge; jump, Aerial Dodge LV3 and Glide toward the crown above the Castle Gate exit."
   },
   {
     "id": "kh2fm.puzzle.sunset.14",
@@ -5410,9 +6133,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 14,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "On the top of the middle mining drill near an air vent."
+    "instructions": "Cavern of Remembrance: Mining Area — After activating the three valves, ride the wind above the entrance and reach the middle drill beside the cyclone generator."
   },
   {
     "id": "kh2fm.puzzle.sunset.16",
@@ -5424,9 +6150,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 16,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "Route: use LV2 High Jump and LV2 Aerial Dodge to jump on to platform. Then use the air vent to reach a higher moving platform."
+    "instructions": "Cavern of Remembrance: Mining Area — After activating the three valves, use the air vent to reach the tall moving piston. Ride it to the top and jump with High Jump LV2 and Aerial Dodge LV2 toward the crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.19",
@@ -5438,9 +6167,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 19,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "Under the ledge with the treasure chest containing the Map. Route: use Glide or LV3 Aerial Dodge."
+    "instructions": "Cavern of Remembrance: Mining Area — Reach the upper ledge containing the map chest, drop off its edge and Aerial Dodge into the nook beneath it; Glide is another approach."
   },
   {
     "id": "kh2fm.puzzle.sunset.27",
@@ -5452,9 +6184,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 27,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "On the top of the highest mining drill."
+    "instructions": "Cavern of Remembrance: Mining Area — Follow the upper route past the horizontal pistons to the highest drill near the exit; jump onto it for the crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.30",
@@ -5466,9 +6201,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 30,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "In the area with blue orbs. Route: use LV1 Quick Run and LV2 Aerial Dodge."
+    "instructions": "Cavern of Remembrance: Mineshaft — Enter the lower Mineshaft from the Depths. Cross the blue-orb pipe section with Quick Run and Aerial Dodge toward the crown beyond the barrier."
   },
   {
     "id": "kh2fm.puzzle.sunset.32",
@@ -5480,9 +6218,13 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 32,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "In the area with white orbs. Route: use LV3 Glide."
+    "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
+    "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
   },
   {
     "id": "kh2fm.puzzle.sunset.36",
@@ -5494,9 +6236,13 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 36,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "In the area with white orbs. Route: use LV3 Glide."
+    "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
+    "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
   },
   {
     "id": "kh2fm.puzzle.sunset.40",
@@ -5508,9 +6254,13 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 40,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "First piece in the area with white orbs. Route: use LV3 Glide."
+    "instructions": "Cavern of Remembrance: Mineshaft — Enter the upper Mineshaft from the Engine Chamber beside the Magic Boost chest and white orb. Jump once and Glide LV3 through the pipes to the far landing, collecting the three suspended crowns along this route.",
+    "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
   },
   {
     "id": "kh2fm.puzzle.sunset.47",
@@ -5522,9 +6272,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 47,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
     ],
-    "instructions": "Route: use LV2 High Jump. Alternatively, LV1 High Jump and Reflect can be used."
+    "instructions": "Corridors — Follow the west passage to the stairs and jump toward the airborne crown with High Jump; the skateboard jump is another supported route."
   },
   {
     "id": "kh2fm.puzzle.sunset.48",
@@ -5536,9 +6289,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 48,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Behind the closed door that leads to the Heartless Manufactory."
+    "instructions": "Ansem's Study — Behind the closed door that leads to the Heartless Manufactory."
   },
   {
     "id": "kh2fm.puzzle.daylight.25",
@@ -5550,9 +6304,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 25,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Use skateboard or Glide to reach it."
+    "instructions": "Cave of the Dead: Passage — At the middle of the sloping Passage, use the skateboard jump or Glide from the higher path toward the airborne crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.34",
@@ -5564,9 +6320,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 34,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Route: use Aerial Dodge to get piece hidden behind the pillar."
+    "instructions": "Underworld Caverns: Entrance — Look behind the pillar across the Entrance cavern; jump with Aerial Dodge toward the hidden crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.40",
@@ -5578,9 +6336,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 40,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Route: use LV2 High Jump and Aerial Dodge. On the second column."
+    "instructions": "Underworld Caverns: The Lost Road — Use High Jump LV2 and Aerial Dodge to reach the crown above the second column on the Lost Road route."
   },
   {
     "id": "kh2fm.puzzle.daylight.46",
@@ -5592,9 +6352,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 46,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On the first column. Route: use LV2 High Jump and Aerial Dodge."
+    "instructions": "Underworld Caverns: The Lost Road — Use High Jump LV2 and Aerial Dodge to reach the crown above the first column on the Lost Road route."
   },
   {
     "id": "kh2fm.puzzle.duality.06",
@@ -5606,9 +6368,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "By the exit towards the Atrium. Instead of going straight in, stray off a little to the right."
+    "instructions": "Underworld Caverns: The Lost Road — Follow the southern corridor toward the Atrium; check southwest of that doorway."
   },
   {
     "id": "kh2fm.puzzle.duality.10",
@@ -5620,9 +6384,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "At the back of the lock."
+    "instructions": "Underworld Caverns: The Lock — Jump toward the crown at the southern back edge of the chamber."
   },
   {
     "id": "kh2fm.puzzle.heart.03",
@@ -5635,9 +6401,10 @@ export const entries: CollectionEntry[] = [
     "order": 3,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Jump toward the crown above the eastern ramp."
+    "instructions": "Cave of the Dead: Entrance — Jump toward the crown above the eastern ramp."
   },
   {
     "id": "kh2fm.puzzle.heart.04",
@@ -5649,9 +6416,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "At the entrance."
+    "instructions": "Underworld Caverns: Atrium — Check beneath the ramp in the northeast corner near the entrance."
   },
   {
     "id": "kh2fm.puzzle.heart.09",
@@ -5664,9 +6433,10 @@ export const entries: CollectionEntry[] = [
     "order": 9,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Jump from the north ledge toward the crown over the mist."
+    "instructions": "Underworld Caverns: Entrance — Jump from the north ledge toward the crown over the mist."
   },
   {
     "id": "kh2fm.puzzle.daylight.33",
@@ -5678,9 +6448,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 33,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "In the wreckage that has a hole through it."
+    "instructions": "Ship Graveyard: Jetsam Keep — Look through the hole in the wreckage beside the ledge."
   },
   {
     "id": "kh2fm.puzzle.daylight.36",
@@ -5693,9 +6465,10 @@ export const entries: CollectionEntry[] = [
     "order": 36,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Collect the crown at floor level inside the captain’s cabin."
+    "instructions": "Black Pearl: Captain's Stateroom — Jump toward the crown over the round table in the center of the captain’s cabin."
   },
   {
     "id": "kh2fm.puzzle.daylight.39",
@@ -5707,9 +6480,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 39,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Aerial Dodge to reach it."
+    "instructions": "Black Pearl — High above the Black Pearl’s mast; use High Jump LV2 and Aerial Dodge LV2."
   },
   {
     "id": "kh2fm.puzzle.daylight.45",
@@ -5721,9 +6495,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 45,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On the stern."
+    "instructions": "Black Pearl — Jump above the crate near the ship’s wheel at the stern."
   },
   {
     "id": "kh2fm.puzzle.duality.04",
@@ -5735,9 +6511,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Hidden behind one of the crates of gunpowder."
+    "instructions": "Isla de Muerta: Powder Store — Hidden behind one of the crates of gunpowder."
   },
   {
     "id": "kh2fm.puzzle.duality.11",
@@ -5749,9 +6526,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Near the first set of exploding crates of gunpowder upon entry."
+    "instructions": "Town — Check the west-side building frontage near the first stack of explosive crates."
   },
   {
     "id": "kh2fm.puzzle.frontier.07",
@@ -5763,9 +6542,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above exploding gunpowder crates. Route: use LV2 High Jump."
+    "instructions": "Town — Above exploding gunpowder crates. Route: use LV2 High Jump."
   },
   {
     "id": "kh2fm.puzzle.heart.05",
@@ -5777,9 +6557,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Found in the cave behind the crates of gunpowder."
+    "instructions": "Isla de Muerta: Powder Store — Found in the cave behind the crates of gunpowder."
   },
   {
     "id": "kh2fm.puzzle.heart.07",
@@ -5791,9 +6572,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "At the opposite end of the Rampart from the save point."
+    "instructions": "Rampart — Check the northeast corner, at the opposite end from the save point."
   },
   {
     "id": "kh2fm.puzzle.sunset.05",
@@ -5808,7 +6591,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Collect the crown at floor level inside the wreck’s hold."
+    "instructions": "Ship Graveyard: Interceptor's Hold — Collect the crown at floor level inside the wreck’s hold."
   },
   {
     "id": "kh2fm.puzzle.sunset.33",
@@ -5820,9 +6603,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 33,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Attack anchor to get behind it."
+    "instructions": "Ship Graveyard: Jetsam Keep — Attack anchor to get behind it."
   },
   {
     "id": "kh2fm.puzzle.sunset.39",
@@ -5834,9 +6618,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 39,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "In the broken crow's nest."
+    "instructions": "Ship Graveyard: Seadrift Row — In the broken crow's nest."
   },
   {
     "id": "kh2fm.puzzle.sunset.42",
@@ -5848,9 +6633,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 42,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV3 Aerial Dodge and LV2 Glide."
+    "instructions": "Harbor — Harbor’s eastern recess; use Aerial Dodge LV3 and Glide LV2."
   },
   {
     "id": "kh2fm.puzzle.daylight.01",
@@ -5862,9 +6648,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "First puzzle piece on trail."
+    "instructions": "Wastelands — Enter the trail from Wildebeest Valley and collect the first crown along the winding cliff path."
   },
   {
     "id": "kh2fm.puzzle.daylight.02",
@@ -5876,9 +6664,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Left from the entrance behind a rock column."
+    "instructions": "Wildebeest Valley — From the Savannah entrance, check behind the rock column to the left."
   },
   {
     "id": "kh2fm.puzzle.daylight.03",
@@ -5890,9 +6680,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 3,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Second puzzle piece on trail."
+    "instructions": "Wastelands — Continue along the trail toward Jungle and collect its second crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.04",
@@ -5904,9 +6696,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 4,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Dash off of the waterfall basin and then jump to get piece."
+    "instructions": "Oasis — Dash off of the waterfall basin and then jump to get piece."
   },
   {
     "id": "kh2fm.puzzle.daylight.18",
@@ -5918,9 +6711,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 18,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Jump off the small rock."
+    "instructions": "The King's Den — Jump from the small rock at the back of the den toward the crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.30",
@@ -5932,9 +6727,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 30,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Dash off of the big ledge in the middle."
+    "instructions": "Elephant Graveyard — After learning Dash, run off the long central ledge and jump toward the airborne crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.42",
@@ -5946,9 +6743,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 42,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "In the small alcove."
+    "instructions": "Elephant Graveyard — Check the small alcove south of the elephant skull."
   },
   {
     "id": "kh2fm.puzzle.daylight.47",
@@ -5960,9 +6759,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 47,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Jump off the ledge."
+    "instructions": "Jungle — Use Dash and jump from the highest jungle ledge toward the crown over the central path."
   },
   {
     "id": "kh2fm.puzzle.daylight.48",
@@ -5974,9 +6775,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 48,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Under the tree near the entrance to the Wastelands."
+    "instructions": "Wildebeest Valley — Check below the lone tree on the south side near the Wastelands exit."
   },
   {
     "id": "kh2fm.puzzle.sunset.29",
@@ -5988,9 +6791,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 29,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Jump off the side of Pride Rock."
+    "instructions": "Pride Rock — Climb Pride Rock and jump over its west side toward the crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.38",
@@ -6002,9 +6807,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 38,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On the top ledge in area with the computer."
+    "instructions": "Canyon — At the Canyon’s north energy-core opening, climb onto the high ledge and jump toward the crown just beyond it."
   },
   {
     "id": "kh2fm.puzzle.sunset.03",
@@ -6019,7 +6826,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Collect the crown at floor level."
+    "instructions": "Solar Sailer — Collect the crown at floor level."
   },
   {
     "id": "kh2fm.puzzle.sunset.44",
@@ -6031,9 +6838,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 44,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Cross the canyon toward the suspended crown using Glide LV2."
+    "instructions": "Canyon — From the Canyon’s high northern ledge, Glide LV2 across toward the crown above the southern Pit Cell/energy-core opening."
   },
   {
     "id": "kh2fm.puzzle.sunset.46",
@@ -6045,9 +6854,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 46,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "On the other side of entrance."
+    "instructions": "Central Core — Cross the former MCP arena to the north end and collect the crown."
   },
   {
     "id": "kh2fm.puzzle.awakening.08",
@@ -6059,9 +6870,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Accessible by riding the air currents and jumping."
+    "instructions": "Ridge — At the northeast side, use Ride the Wind and Soar at the small cyclones to reach the airborne crown."
   },
   {
     "id": "kh2fm.puzzle.awakening.11",
@@ -6073,9 +6886,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Hidden behind a pile of fireworks."
+    "instructions": "Ridge — Check the explosives near the Village exit; break the stack hiding the crown."
   },
   {
     "id": "kh2fm.puzzle.awakening.12",
@@ -6087,9 +6902,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 12,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "On a haystack behind a house."
+    "instructions": "Village — Check the haystack behind the house in the southeast corner."
   },
   {
     "id": "kh2fm.puzzle.daylight.08",
@@ -6101,9 +6918,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Above the awning above the Moogle Shop. Route: use LV2 High Jump and LV2 Aerial Dodge."
+    "instructions": "Village — Climb the building beside the restored Moogle shop, then use High Jump LV2 and Aerial Dodge LV2 toward the awning."
   },
   {
     "id": "kh2fm.puzzle.daylight.09",
@@ -6115,9 +6934,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Left side of the room. Route: use LV2 High Jump and Aerial Dodge."
+    "instructions": "Throne Room — Jump from the west staircase toward the crown beside the pillar using High Jump LV2 and Aerial Dodge."
   },
   {
     "id": "kh2fm.puzzle.daylight.15",
@@ -6129,9 +6950,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 15,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "Right side of the room. Route: use LV3 Glide."
+    "instructions": "Throne Room — Jump and Glide LV3 toward the airborne crown beside the eastern pillar."
   },
   {
     "id": "kh2fm.puzzle.frontier.08",
@@ -6143,9 +6966,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above the large boulder near the entrance. Jump from the rock using High Jump LV2 and Aerial Dodge LV1."
+    "instructions": "Mountain Trail — Above the large boulder near the entrance. Jump from the rock using High Jump LV2 and Aerial Dodge LV1."
   },
   {
     "id": "kh2fm.puzzle.heart.10",
@@ -6157,9 +6981,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Near the pole on the left side of the pedestal near Shang's tent."
+    "instructions": "Encampment — Use the watchtower near Shang’s tent to jump toward the crown beside the pole."
   },
   {
     "id": "kh2fm.puzzle.heart.11",
@@ -6171,9 +6997,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On a low rooftop. Reach it with High Jump."
+    "instructions": "Village — Jump from the snow-covered cart to the nearby low roof; High Jump provides another approach."
   },
   {
     "id": "kh2fm.puzzle.sunset.43",
@@ -6185,9 +7013,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 43,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Glide."
+    "instructions": "Encampment — Northwest corner above the Encampment; use Glide LV2."
   },
   {
     "id": "kh2fm.puzzle.daylight.17",
@@ -6199,9 +7028,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 17,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ],
-    "instructions": "Route: use LV3 Glide. Alternatively, LV3 High Jump, LV3 Aerial Dodge, and LV1 Glide can be used after jumping from the highest point."
+    "instructions": "Naught's Skyway — Climb to the far end of Naught’s Skyway, then Glide LV3 back toward the crown above the lower doorway."
   },
   {
     "id": "kh2fm.puzzle.sunset.11",
@@ -6213,9 +7045,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 11,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ],
-    "instructions": "Above the entrance. Route: use LV3 Glide."
+    "instructions": "Ruin and Creation's Passage — Climb the ramps above the entry platform, then Glide LV3 back toward the crown above the lowest doorway."
   },
   {
     "id": "kh2fm.puzzle.sunset.17",
@@ -6227,9 +7062,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 17,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61"
     ],
-    "instructions": "Above the second to last platform. Route: use Glide."
+    "instructions": "Ruin and Creation's Passage — Climb to the final platform, then Glide back toward the crown above the second-highest platform."
   },
   {
     "id": "kh2fm.puzzle.sunset.20",
@@ -6241,9 +7079,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 20,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Glide. Alternatively, LV3 High Jump and LV3 Aerial Dodge can be used."
+    "instructions": "Twilight's View — Glide LV2 from the stair top toward the Crooked Ascension doorway."
   },
   {
     "id": "kh2fm.puzzle.sunset.26",
@@ -6258,7 +7097,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Check the floor near the northern exit."
+    "instructions": "Crooked Ascension — Check the floor near the northern exit."
   },
   {
     "id": "kh2fm.puzzle.sunset.34",
@@ -6271,9 +7110,10 @@ export const entries: CollectionEntry[] = [
     "order": 34,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Collect the crown at floor level."
+    "instructions": "Proof of Existence — Go to the upper end near the next doorway and collect the low crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.35",
@@ -6286,9 +7126,10 @@ export const entries: CollectionEntry[] = [
     "order": 35,
     "sources": [
       "https://www.khwiki.com/Puzzle",
-      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Collect the crown at floor level."
+    "instructions": "Memory's Skyscraper — Collect the low crown in front of the skyscraper."
   },
   {
     "id": "kh2fm.puzzle.duality.09",
@@ -6300,9 +7141,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 9,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Above the tree upon entering. Route: use LV2 High Jump."
+    "instructions": "Pier — From the Pier, look above the west-side tree and use High Jump LV2."
   },
   {
     "id": "kh2fm.puzzle.frontier.06",
@@ -6314,9 +7157,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 6,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "On the pier next to the river."
+    "instructions": "Pier — Check beside the waterway sign and pier in the southeast corner."
   },
   {
     "id": "kh2fm.puzzle.heart.08",
@@ -6328,9 +7174,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Left end."
+    "instructions": "Waterway — Go to the northeast end of the Waterway and use a normal jump to reach the low crown."
   },
   {
     "id": "kh2fm.puzzle.awakening.05",
@@ -6342,9 +7190,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Acquired after Sora obtains his new clothes from the Fairies. Piece #5 is a mandatory puzzle piece: a cutscene will be played upon leaving the room."
+    "instructions": "Tower: Wardrobe — Acquired after Sora obtains his new clothes from the Fairies. Piece #5 is a mandatory puzzle piece: a cutscene will be played upon leaving the room."
   },
   {
     "id": "kh2fm.puzzle.daylight.22",
@@ -6356,9 +7205,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 22,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Route: use LV2 Glide."
+    "instructions": "Mansion: Foyer — Above the foyer entrance; jump from the upper floor and Glide LV2 toward the doorway."
   },
   {
     "id": "kh2fm.puzzle.daylight.27",
@@ -6370,9 +7220,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 27,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Ride the tram to reach it on the Synthesis shop roof."
+    "instructions": "Tram Common — Ride the tram to reach it on the Synthesis shop roof.",
+    "uncertainty": "Guides disagree on whether this tram-accessed landmark is the Synthesis shop roof or the central pillar."
   },
   {
     "id": "kh2fm.puzzle.daylight.28",
@@ -6384,9 +7236,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 28,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Route: use LV2 Glide and LV2 Aerial Dodge."
+    "instructions": "Market Street — In Station Heights, look high above the exit to Tram Common. Return with Glide level 3 to reach the crown."
   },
   {
     "id": "kh2fm.puzzle.daylight.31",
@@ -6401,7 +7254,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Return with Sora and collect the crown in front of his pod."
+    "instructions": "Mansion: Pod Room — Return with Sora and collect the crown in front of his pod."
   },
   {
     "id": "kh2fm.puzzle.daylight.32",
@@ -6416,7 +7269,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Enter from outside; collect the crown on the floor to your right."
+    "instructions": "Mansion: Foyer — Enter from outside; collect the crown on the floor to your right."
   },
   {
     "id": "kh2fm.puzzle.frontier.01",
@@ -6428,9 +7281,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 1,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "To the right of the doors to the station in the northeast corner."
+    "instructions": "Station Plaza — To the right of the doors to the station in the northeast corner."
   },
   {
     "id": "kh2fm.puzzle.frontier.05",
@@ -6442,9 +7296,12 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 5,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "On top of the northernmost building's rooftop."
+    "instructions": "Tram Common — Climb the northernmost rooftop."
   },
   {
     "id": "kh2fm.puzzle.sunset.02",
@@ -6456,9 +7313,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 2,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Jump off the top of the hill."
+    "instructions": "Sunset Hill — Jump off the top of the hill."
   },
   {
     "id": "kh2fm.puzzle.sunset.07",
@@ -6470,9 +7328,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 7,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "On top of lone building near the track."
+    "instructions": "Sunset Terrace — Ride the tram and jump onto the lone rooftop beside the tracks."
   },
   {
     "id": "kh2fm.puzzle.sunset.08",
@@ -6484,9 +7344,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 8,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "At the top waterfall. Route: use LV2 High Jump and LV2 Aerial Dodge."
+    "instructions": "Sunset Terrace — At the western waterfall/mirror, stand on the guardrail and use High Jump LV2 plus Aerial Dodge LV2 toward the crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.10",
@@ -6498,9 +7360,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 10,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Atop column. Route: use Glide and LV2 Aerial Dodge."
+    "instructions": "The Old Mansion — Jump from a courtyard pillar and use Aerial Dodge LV2 and Glide toward the crown over the other pillar."
   },
   {
     "id": "kh2fm.puzzle.sunset.13",
@@ -6512,9 +7376,10 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 13,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "On bench next to the mini clock tower."
+    "instructions": "Sunset Hill — On bench next to the mini clock tower."
   },
   {
     "id": "kh2fm.puzzle.sunset.15",
@@ -6526,9 +7391,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 15,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Route: use High Jump. Jump off of the staircase leading up to the tower."
+    "instructions": "The Tower — Jump from the staircase leading into the tower toward the crown beside the tower wall; use High Jump."
   },
   {
     "id": "kh2fm.puzzle.sunset.22",
@@ -6543,7 +7410,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Check the desk at the back of the wardrobe room."
+    "instructions": "Tower: Wardrobe — Check the desk at the back of the wardrobe room."
   },
   {
     "id": "kh2fm.puzzle.sunset.24",
@@ -6558,7 +7425,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Collect the crown above the table."
+    "instructions": "Mansion: White Room — Collect the crown above the table."
   },
   {
     "id": "kh2fm.puzzle.sunset.31",
@@ -6570,9 +7437,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 31,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "By the waterfall."
+    "instructions": "Tunnelway — Follow the Tunnelway to the northwest waterfall."
   },
   {
     "id": "kh2fm.puzzle.sunset.38",
@@ -6587,7 +7456,7 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Puzzle",
       "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
     ],
-    "instructions": "Drop from the southwest ledge toward the crown."
+    "instructions": "Underground Concourse — Drop from the southwest ledge toward the crown."
   },
   {
     "id": "kh2fm.puzzle.sunset.45",
@@ -6599,9 +7468,11 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 45,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt"
     ],
-    "instructions": "Above the pit area."
+    "instructions": "Underground Concourse — Drop from the northeast ledge toward the crown over the pit."
   },
   {
     "id": "kh2fm.puzzle.daylight.23",
@@ -6613,16 +7484,18 @@ export const entries: CollectionEntry[] = [
     "character": "Sora",
     "order": 23,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+      "https://www.khguides.com/kh2/collectibles/puzzle-pieces/"
     ],
-    "instructions": "After traveling to the Other Twilight Town."
+    "instructions": "Mansion: Computer Room — Use the mansion computer to enter the other Twilight Town, then collect the low crown in its Computer Room."
   },
   {
     "id": "kh2fm.materials.blazing-shard",
     "category": "materials",
     "name": "Blazing Shard",
     "summary": "Hammer Frame 10%; Minute Bomb 6%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Hammer Frame",
@@ -6641,7 +7514,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Blazing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Hammer_Frame",
-      "https://www.khwiki.com/Minute_Bomb"
+      "https://www.khwiki.com/Minute_Bomb",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6649,7 +7523,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Blazing Stone",
     "summary": "Cannon Gun 6%; Tornado Step 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Cannon Gun",
@@ -6668,7 +7542,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Blazing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Cannon_Gun",
-      "https://www.khwiki.com/Tornado_Step"
+      "https://www.khwiki.com/Tornado_Step",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6676,7 +7551,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Blazing Gem",
     "summary": "Fat Bandit 12%; Fiery Globe 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Fat Bandit",
@@ -6695,7 +7570,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Blazing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Fat_Bandit",
-      "https://www.khwiki.com/Fiery_Globe"
+      "https://www.khwiki.com/Fiery_Globe",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6703,7 +7579,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Blazing Crystal",
     "summary": "Crescendo 6%; Crimson Jazz 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Crescendo",
@@ -6722,7 +7598,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Blazing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Crescendo",
-      "https://www.khwiki.com/Crimson_Jazz"
+      "https://www.khwiki.com/Crimson_Jazz",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6730,7 +7607,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Frost Shard",
     "summary": "Hook Bat 6%; Lance Soldier 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Hook Bat",
@@ -6749,7 +7626,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Frost",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Hook_Bat",
-      "https://www.khwiki.com/Lance_Soldier"
+      "https://www.khwiki.com/Lance_Soldier",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6757,7 +7635,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Frost Stone",
     "summary": "Aeroplane 8%; Hot Rod 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Aeroplane",
@@ -6776,7 +7654,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Frost",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Aeroplane",
-      "https://www.khwiki.com/Hot_Rod"
+      "https://www.khwiki.com/Hot_Rod",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6784,7 +7663,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Frost Gem",
     "summary": "Fortuneteller 10%; Icy Cube 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Fortuneteller",
@@ -6803,7 +7682,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Frost",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Fortuneteller",
-      "https://www.khwiki.com/Icy_Cube"
+      "https://www.khwiki.com/Icy_Cube",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6811,7 +7691,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Frost Crystal",
     "summary": "Living Bone 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Living Bone",
@@ -6824,7 +7704,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Frost",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Living_Bone"
+      "https://www.khwiki.com/Living_Bone",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6832,7 +7713,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lightning Shard",
     "summary": "Bolt Tower 10%; Rapid Thruster 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Bolt Tower",
@@ -6851,7 +7732,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lightning",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Bolt_Tower",
-      "https://www.khwiki.com/Rapid_Thruster"
+      "https://www.khwiki.com/Rapid_Thruster",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6859,7 +7741,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lightning Stone",
     "summary": "Driller Mole 6%; Emerald Blues 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Driller Mole",
@@ -6878,7 +7760,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lightning",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Driller_Mole",
-      "https://www.khwiki.com/Emerald_Blues"
+      "https://www.khwiki.com/Emerald_Blues",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6886,7 +7769,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lightning Gem",
     "summary": "Armored Knight 4%; Surveillance Robot 6%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Armored Knight",
@@ -6905,7 +7788,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lightning",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Armored_Knight",
-      "https://www.khwiki.com/Surveillance_Robot"
+      "https://www.khwiki.com/Surveillance_Robot",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6913,7 +7797,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lightning Crystal",
     "summary": "Devastator 12%; Strafer 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Devastator",
@@ -6932,7 +7816,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lightning",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Devastator",
-      "https://www.khwiki.com/Strafer"
+      "https://www.khwiki.com/Strafer",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6940,7 +7825,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lucid Shard",
     "summary": "Rabid Dog 6%; Trick Ghost 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Rabid Dog",
@@ -6959,7 +7844,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lucid",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Rabid_Dog",
-      "https://www.khwiki.com/Trick_Ghost_(KHII)"
+      "https://www.khwiki.com/Trick_Ghost_(KHII)",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -6967,7 +7853,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lucid Stone",
     "summary": "Graveyard 12%; Toy Soldier 12%; Wight Knight 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Graveyard",
@@ -6992,7 +7878,8 @@ export const entries: CollectionEntry[] = [
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Graveyard",
       "https://www.khwiki.com/Toy_Soldier",
-      "https://www.khwiki.com/Wight_Knight"
+      "https://www.khwiki.com/Wight_Knight",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7000,7 +7887,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lucid Gem",
     "summary": "Bookmaster 10%; Magnum Loader 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Bookmaster",
@@ -7019,7 +7906,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lucid",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Bookmaster",
-      "https://www.khwiki.com/Magnum_Loader"
+      "https://www.khwiki.com/Magnum_Loader",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7027,7 +7915,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lucid Crystal",
     "summary": "Neoshadow 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Neoshadow",
@@ -7040,7 +7928,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Lucid",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Neoshadow"
+      "https://www.khwiki.com/Neoshadow",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7048,7 +7937,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Power Shard",
     "summary": "Creeper Plant 8%; Large Body 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Creeper Plant",
@@ -7067,7 +7956,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Pulsing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Creeper_Plant",
-      "https://www.khwiki.com/Large_Body"
+      "https://www.khwiki.com/Large_Body",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7075,7 +7965,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Power Stone",
     "summary": "Luna Bandit 8%; Silver Rock 6%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Luna Bandit",
@@ -7094,7 +7984,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Pulsing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Luna_Bandit",
-      "https://www.khwiki.com/Silver_Rock"
+      "https://www.khwiki.com/Silver_Rock",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7102,7 +7993,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Power Gem",
     "summary": "Aerial Knocker 8%; Shaman 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Aerial Knocker",
@@ -7121,7 +8012,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Pulsing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Aerial_Knocker",
-      "https://www.khwiki.com/Shaman"
+      "https://www.khwiki.com/Shaman",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7129,7 +8021,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Power Crystal",
     "summary": "Morning Star 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Morning Star",
@@ -7142,7 +8034,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Pulsing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Morning_Star"
+      "https://www.khwiki.com/Morning_Star",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7150,7 +8043,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dark Shard",
     "summary": "Shadow 4%; Soldier 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Shadow",
@@ -7169,7 +8062,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Writhing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Shadow",
-      "https://www.khwiki.com/Soldier"
+      "https://www.khwiki.com/Soldier",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7177,7 +8071,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dark Stone",
     "summary": "Assault Rider 12%; Nightwalker 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Assault Rider",
@@ -7196,7 +8090,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Writhing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Assault_Rider",
-      "https://www.khwiki.com/Nightwalker"
+      "https://www.khwiki.com/Nightwalker",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7204,7 +8099,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dark Gem",
     "summary": "Gargoyle Knight 10%; Gargoyle Warrior 10%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Gargoyle Knight",
@@ -7223,7 +8118,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Writhing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Gargoyle_Knight",
-      "https://www.khwiki.com/Gargoyle_Warrior"
+      "https://www.khwiki.com/Gargoyle_Warrior",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7231,7 +8127,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dark Crystal",
     "summary": "Air Pirate 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Air Pirate",
@@ -7244,7 +8140,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Writhing",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Air_Pirate"
+      "https://www.khwiki.com/Air_Pirate",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7252,7 +8149,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dense Shard",
     "summary": "Creeper 8%; Dragoon 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Creeper",
@@ -7271,7 +8168,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Betwixt",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Creeper",
-      "https://www.khwiki.com/Dragoon"
+      "https://www.khwiki.com/Dragoon",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7279,7 +8177,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dense Stone",
     "summary": "Sniper 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Sniper",
@@ -7292,7 +8190,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Betwixt",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Sniper"
+      "https://www.khwiki.com/Sniper",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7300,7 +8199,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dense Gem",
     "summary": "Samurai 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Samurai",
@@ -7313,7 +8212,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Betwixt",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Samurai"
+      "https://www.khwiki.com/Samurai",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7321,7 +8221,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Dense Crystal",
     "summary": "Berserker 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Berserker",
@@ -7334,7 +8234,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Betwixt",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Berserker"
+      "https://www.khwiki.com/Berserker",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7342,7 +8243,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Twilight Shard",
     "summary": "Dusk 10%; Gambler 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 30 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Dusk",
@@ -7361,7 +8262,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Twilight",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Dusk",
-      "https://www.khwiki.com/Gambler"
+      "https://www.khwiki.com/Gambler",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7369,7 +8271,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Twilight Stone",
     "summary": "Dancer 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 25 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Dancer",
@@ -7382,7 +8284,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Twilight",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Dancer"
+      "https://www.khwiki.com/Dancer",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7390,7 +8293,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Twilight Gem",
     "summary": "Assassin 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Depositing 20 of this material unlocks unlimited purchases at the Moogle shop.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Assassin",
@@ -7403,7 +8306,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Twilight",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Assassin"
+      "https://www.khwiki.com/Assassin",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7411,7 +8315,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Twilight Crystal",
     "summary": "Sorcerer 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Sorcerer",
@@ -7424,7 +8328,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Twilight",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Sorcerer"
+      "https://www.khwiki.com/Sorcerer",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7432,7 +8337,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Bright Shard",
     "summary": "Creeper Plant 4%; Hook Bat 3%; Minute Bomb 3%; Rabid Dog 3%; Soldier 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nOptional synthesis modifier: add one Bright Shard to a rank C recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: C.",
     "drops": [
       {
         "enemy": "Creeper Plant",
@@ -7469,7 +8374,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Hook_Bat",
       "https://www.khwiki.com/Minute_Bomb",
       "https://www.khwiki.com/Rabid_Dog",
-      "https://www.khwiki.com/Soldier"
+      "https://www.khwiki.com/Soldier",
+      "https://www.khwiki.com/Synthesis"
     ]
   },
   {
@@ -7477,7 +8383,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Bright Stone",
     "summary": "Aeroplane 4%; Cannon Gun 3%; Driller Mole 3%; Luna Bandit 4%; Silver Rock 3%; Tornado Step 4%; Wight Knight 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nOptional synthesis modifier: add one Bright Stone to a rank B recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: B.",
     "drops": [
       {
         "enemy": "Aeroplane",
@@ -7526,7 +8432,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Luna_Bandit",
       "https://www.khwiki.com/Silver_Rock",
       "https://www.khwiki.com/Tornado_Step",
-      "https://www.khwiki.com/Wight_Knight"
+      "https://www.khwiki.com/Wight_Knight",
+      "https://www.khwiki.com/Synthesis"
     ]
   },
   {
@@ -7534,7 +8441,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Bright Gem",
     "summary": "Aerial Knocker 4%; Magnum Loader 4%; Surveillance Robot 3%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nOptional synthesis modifier: add one Bright Gem to a rank A recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: A.",
     "drops": [
       {
         "enemy": "Aerial Knocker",
@@ -7559,7 +8466,8 @@ export const entries: CollectionEntry[] = [
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Aerial_Knocker",
       "https://www.khwiki.com/Magnum_Loader",
-      "https://www.khwiki.com/Surveillance_Robot"
+      "https://www.khwiki.com/Surveillance_Robot",
+      "https://www.khwiki.com/Synthesis"
     ]
   },
   {
@@ -7567,7 +8475,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Bright Crystal",
     "summary": "Air Pirate 4%; Crescendo 3%; Neoshadow 4%; Strafer 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nOptional synthesis modifier: add one Bright Crystal to a rank S recipe to double its Moogle EXP. Requires Moogle level 2; combining two modifier types requires level 4. Material collection rank: S.",
     "drops": [
       {
         "enemy": "Air Pirate",
@@ -7598,7 +8506,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Air_Pirate",
       "https://www.khwiki.com/Crescendo",
       "https://www.khwiki.com/Neoshadow",
-      "https://www.khwiki.com/Strafer"
+      "https://www.khwiki.com/Strafer",
+      "https://www.khwiki.com/Synthesis"
     ]
   },
   {
@@ -7606,7 +8515,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Energy Shard",
     "summary": "Bolt Tower 4%; Gargoyle Knight 4%; Gargoyle Warrior 4%; Nightwalker 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Bolt Tower",
@@ -7637,7 +8546,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Bolt_Tower",
       "https://www.khwiki.com/Gargoyle_Knight",
       "https://www.khwiki.com/Gargoyle_Warrior",
-      "https://www.khwiki.com/Nightwalker"
+      "https://www.khwiki.com/Nightwalker",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7645,7 +8555,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Energy Stone",
     "summary": "Hammer Frame 4%; Lance Soldier 4%; Trick Ghost 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Hammer Frame",
@@ -7670,7 +8580,8 @@ export const entries: CollectionEntry[] = [
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Hammer_Frame",
       "https://www.khwiki.com/Lance_Soldier",
-      "https://www.khwiki.com/Trick_Ghost_(KHII)"
+      "https://www.khwiki.com/Trick_Ghost_(KHII)",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7678,7 +8589,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Energy Gem",
     "summary": "Emerald Blues 4%; Fortuneteller 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Emerald Blues",
@@ -7697,7 +8608,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Wellspring",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Emerald_Blues",
-      "https://www.khwiki.com/Fortuneteller"
+      "https://www.khwiki.com/Fortuneteller",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7705,7 +8617,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Energy Crystal",
     "summary": "Bookmaster 4%; Shaman 4%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Bookmaster",
@@ -7724,7 +8636,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Wellspring",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Bookmaster",
-      "https://www.khwiki.com/Shaman"
+      "https://www.khwiki.com/Shaman",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7732,7 +8645,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Serenity Shard",
     "summary": "Assault Rider 4%; Fat Bandit 4%; Graveyard 4%; Hot Rod 4%; Large Body 4%; Toy Soldier 4%; Beffudler 3%; Camo Cannon 3%; Iron Hammer 4%; Bulky Vendor Conditional.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.\n\nMaterial collection rank: C. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
     "drops": [
       {
         "enemy": "Assault Rider",
@@ -7800,7 +8713,9 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Beffudler",
       "https://www.khwiki.com/Camo_Cannon",
       "https://www.khwiki.com/Iron_Hammer",
-      "https://www.khwiki.com/Bulky_Vendor"
+      "https://www.khwiki.com/Bulky_Vendor",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
     ]
   },
   {
@@ -7808,7 +8723,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Serenity Stone",
     "summary": "Crimson Jazz 4%; Devastator 4%; Living Bone 4%; Morning Star 4%; Aerial Champ 4%; Aerial Viking 4%; Lance Warrior 4%; Magic Phantom 4%; Necromancer 4%; Bulky Vendor Conditional.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.\n\nMaterial collection rank: B. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
     "drops": [
       {
         "enemy": "Crimson Jazz",
@@ -7876,7 +8791,9 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Lance_Warrior",
       "https://www.khwiki.com/Magic_Phantom",
       "https://www.khwiki.com/Necromancer",
-      "https://www.khwiki.com/Bulky_Vendor"
+      "https://www.khwiki.com/Bulky_Vendor",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
     ]
   },
   {
@@ -7884,7 +8801,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Serenity Gem",
     "summary": "Mad Ride 4%; Reckless 4%; Runemaster 4%; Spring Metal 4%; Bulky Vendor Conditional.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix.\n\nMaterial collection rank: A. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
     "drops": [
       {
         "enemy": "Mad Ride",
@@ -7922,7 +8839,9 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Reckless",
       "https://www.khwiki.com/Runemaster",
       "https://www.khwiki.com/Spring_Metal",
-      "https://www.khwiki.com/Bulky_Vendor"
+      "https://www.khwiki.com/Bulky_Vendor",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
     ]
   },
   {
@@ -7930,7 +8849,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Remembrance Shard",
     "summary": "Beffudler 6%; Iron Hammer 10%; Camo Cannon 6%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Beffudler",
@@ -7955,7 +8874,8 @@ export const entries: CollectionEntry[] = [
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Beffudler",
       "https://www.khwiki.com/Iron_Hammer",
-      "https://www.khwiki.com/Camo_Cannon"
+      "https://www.khwiki.com/Camo_Cannon",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -7963,7 +8883,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Remembrance Stone",
     "summary": "Aerial Viking 6%; Magic Phantom 10%; Lance Warrior 10%; Necromancer 10%; Aerial Champ 8%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Aerial Viking",
@@ -8000,7 +8920,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Magic_Phantom",
       "https://www.khwiki.com/Lance_Warrior",
       "https://www.khwiki.com/Necromancer",
-      "https://www.khwiki.com/Aerial_Champ"
+      "https://www.khwiki.com/Aerial_Champ",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8008,7 +8929,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Remembrance Gem",
     "summary": "Spring Metal 10%; Runemaster 10%; Mad Ride 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Spring Metal",
@@ -8033,7 +8954,8 @@ export const entries: CollectionEntry[] = [
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
       "https://www.khwiki.com/Spring_Metal",
       "https://www.khwiki.com/Runemaster",
-      "https://www.khwiki.com/Mad_Ride"
+      "https://www.khwiki.com/Mad_Ride",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8041,7 +8963,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Remembrance Crystal",
     "summary": "Reckless 12%.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Reckless",
@@ -8054,7 +8976,8 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Remembrance",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Reckless"
+      "https://www.khwiki.com/Reckless",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8062,7 +8985,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Serenity Crystal",
     "summary": "Bulky Vendor Conditional.",
-    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix. Also synthesized through Free Development at Moogle level 8: 1 Tranquility Crystal, 1 Remembrance Crystal and 9 Bright Crystals before discounts.",
+    "instructions": "Base drop chances before Lucky Lucky bonuses. Locations describe repeatable post-game encounters; story battles and Coliseum rounds are not farming routes. Bulky Vendor appears after the rare-Heartless message: interact with or break scenery to reveal it, then use the appropriate reaction command before it disappears. Original KHII Nobody Serenity drops do not apply in Final Mix. Also synthesized through Free Development at Moogle level 8: 1 Tranquility Crystal, 1 Remembrance Crystal and 9 Bright Crystals before discounts.\n\nMaterial collection rank: S. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
     "drops": [
       {
         "enemy": "Bulky Vendor",
@@ -8076,7 +8999,9 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Serenity",
       "https://docs.google.com/spreadsheets/d/10FIa9A_SwhF_i4eFv8hzKAHSHb5Et36SAQPOsx5_spg/edit#gid=0",
-      "https://www.khwiki.com/Bulky_Vendor"
+      "https://www.khwiki.com/Bulky_Vendor",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
     ]
   },
   {
@@ -8084,11 +9009,12 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Mythril Shard",
     "summary": "Treasure chests and synthesis.",
-    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Shard recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.",
+    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Shard recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.\n\nMaterial collection rank: C.",
     "collectible": false,
     "checkable": false,
     "sources": [
-      "https://www.khwiki.com/Mythril"
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8096,11 +9022,12 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Mythril Stone",
     "summary": "Treasure chests and synthesis.",
-    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Stone recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.",
+    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Stone recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.\n\nMaterial collection rank: B.",
     "collectible": false,
     "checkable": false,
     "sources": [
-      "https://www.khwiki.com/Mythril"
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8108,11 +9035,12 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Mythril Gem",
     "summary": "Treasure chests and synthesis.",
-    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Gem recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.",
+    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Gem recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.\n\nMaterial collection rank: A.",
     "collectible": false,
     "checkable": false,
     "sources": [
-      "https://www.khwiki.com/Mythril"
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8120,11 +9048,12 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Mythril Crystal",
     "summary": "Treasure chests and synthesis.",
-    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Crystal recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.",
+    "instructions": "Treasure supplies are finite. For repeatable production, use the Mythril Crystal recipe in the Workshop; Stone and Crystal are the Serenity upgrades of Shard and Gem respectively.\n\nMaterial collection rank: S.",
     "collectible": false,
     "checkable": false,
     "sources": [
-      "https://www.khwiki.com/Mythril"
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8132,7 +9061,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Tranquility Shard",
     "summary": "Mushroom XIII challenge rewards.",
-    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks E through S give one Shard. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.",
+    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks E through S give one Shard. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.\n\nMaterial collection rank: C.",
     "drops": [
       {
         "enemy": "Mushroom V",
@@ -8145,7 +9074,8 @@ export const entries: CollectionEntry[] = [
     "checkable": false,
     "sources": [
       "https://www.khwiki.com/Tranquility",
-      "https://www.khwiki.com/Mushroom_XIII#No._5"
+      "https://www.khwiki.com/Mushroom_XIII#No._5",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8153,7 +9083,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Tranquility Stone",
     "summary": "Mushroom XIII challenge rewards.",
-    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks D through S give one Stone. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.",
+    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks D through S give one Stone. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.\n\nMaterial collection rank: B.",
     "drops": [
       {
         "enemy": "Mushroom V",
@@ -8166,7 +9096,8 @@ export const entries: CollectionEntry[] = [
     "checkable": false,
     "sources": [
       "https://www.khwiki.com/Tranquility",
-      "https://www.khwiki.com/Mushroom_XIII#No._5"
+      "https://www.khwiki.com/Mushroom_XIII#No._5",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8174,7 +9105,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Tranquility Gem",
     "summary": "Mushroom XIII challenge rewards.",
-    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks C through S give one Gem. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.",
+    "instructions": "Repeat Mushrooms I–XII for material rewards. Ranks C through S give one Gem. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.\n\nMaterial collection rank: A.",
     "drops": [
       {
         "enemy": "Mushroom V",
@@ -8187,7 +9118,8 @@ export const entries: CollectionEntry[] = [
     "checkable": false,
     "sources": [
       "https://www.khwiki.com/Tranquility",
-      "https://www.khwiki.com/Mushroom_XIII#No._5"
+      "https://www.khwiki.com/Mushroom_XIII#No._5",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8195,7 +9127,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Tranquility Crystal",
     "summary": "Mushroom XIII challenge rewards.",
-    "instructions": "Repeat Mushrooms I–XII for material rewards. B rank gives one Crystal; A or S gives two. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.",
+    "instructions": "Repeat Mushrooms I–XII for material rewards. B rank gives one Crystal; A or S gives two. These ranks are separate from the Journal appeasement target. Mushroom V in Agrabah’s Treasure Room is a repeatable timed-damage challenge: defeat it within 3 seconds for S rank and two Crystals plus one Gem, Stone and Shard. The Journal target is 10 seconds.\n\nMaterial collection rank: S.",
     "drops": [
       {
         "enemy": "Mushroom V",
@@ -8208,7 +9140,8 @@ export const entries: CollectionEntry[] = [
     "checkable": false,
     "sources": [
       "https://www.khwiki.com/Tranquility",
-      "https://www.khwiki.com/Mushroom_XIII#No._5"
+      "https://www.khwiki.com/Mushroom_XIII#No._5",
+      "https://www.khwiki.com/Synthesis_material"
     ]
   },
   {
@@ -8216,7 +9149,7 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Orichalcum",
     "summary": "Bulky Vendor reaction rewards; finite chests and collector rewards.",
-    "instructions": "React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 55 material types and 1,000 materials deposited. The 45-type reward in Final Mix is AP Boost.",
+    "instructions": "React with Capsule Prize at 75–100% HP (8% Orichalcum), Rare Capsule at 50–74% (10%), Limited Capsule at 25–49% (12%) or Prime Capsule at 1–24% (16%). Reveal the Vendor by interacting with scenery after the rare-Heartless message. Stay grounded to react before it vanishes. The matching Serenity material is guaranteed; Orichalcum is a separate chance. Collector rewards also grant Orichalcum for 55 material types and 1,000 materials deposited. The 45-type reward in Final Mix is AP Boost.\n\nMaterial collection rank: A. Reveal locations: Checkpoint — break the explosive cart; The West Hall — break the armor stands; Cave of the Dead: Entrance — break the lamps; Bazaar — break the stalls; Candy Cane Lane — interact with the carousel. A Steam guide reports refreshing the encounters by traveling Bamboo Grove → Checkpoint → Encampment → Checkpoint → Encampment, then visiting the other worlds. If a room has no Vendor, continue the route rather than treating a scenery interaction as a guaranteed spawn.",
     "drops": [
       {
         "enemy": "Bulky Vendor",
@@ -8231,7 +9164,9 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Bulky_Vendor",
       "https://www.khwiki.com/Orichalcum",
       "https://www.khwiki.com/Moogle_Shop",
-      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143"
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3267058896"
     ]
   },
   {
@@ -8239,11 +9174,14 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Orichalcum+",
     "summary": "Seven finite acquisitions.",
-    "instructions": "Chests: Twilight Town Sunset Terrace; Space Paranoids Central Computer Mesa; The World That Never Was Brink of Despair. Rewards: finish 100 Acre Wood; finish A New Day is Dawning; win Goddess of Fate Cup; deposit all 60 material types and claim the Moogle collection reward. These cannot be farmed repeatedly.",
+    "instructions": "Seven finite acquisitions. Chests: Sunset Terrace; Central Computer Mesa; Brink of Despair. Rewards: finish 100 Acre Wood; finish A New Day is Dawning; win Goddess of Fate Cup; deposit all 60 material types at a Moogle. The 60 include Orichalcum+ itself: deposit one from another source first, so the collector reward is not your first Orichalcum+. After receiving the reward, leave and re-enter synthesis to deposit it. No repeatable farm.",
     "checkable": false,
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Orichalcum"
+      "https://www.khwiki.com/Orichalcum",
+      "https://www.khwiki.com/Synthesis_material",
+      "https://www.playstationtrophies.org/forum/topic/239345-kingdom-hearts-ii-final-mix-~-material-list-guide/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3287632071"
     ],
     "drops": [
       {
@@ -8258,11 +9196,12 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Lost Illusion",
     "summary": "Absent Silhouettes and corresponding Replica Data rewards.",
-    "instructions": "Each Absent Silhouette awards one on its first defeat. A Garden of Assemblage chest and the Moogle reward for all S-rank materials are additional finite sources. For repeatable rewards, defeat Replica Data Vexen, Lexaeus, Zexion, Marluxia or Larxene in the Garden of Assemblage.",
+    "instructions": "Each Absent Silhouette awards one on its first defeat. A Garden of Assemblage chest and the Moogle reward for all S-rank materials are additional finite sources. For repeatable rewards, defeat Replica Data Vexen, Lexaeus, Zexion, Marluxia or Larxene in the Garden of Assemblage.\n\nMaterial collection rank: S.",
     "checkable": false,
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Illusion"
+      "https://www.khwiki.com/Illusion",
+      "https://www.khwiki.com/Synthesis_material"
     ],
     "drops": [
       {
@@ -8277,13 +9216,14 @@ export const entries: CollectionEntry[] = [
     "category": "materials",
     "name": "Manifest Illusion",
     "summary": "Lingering Will rematches and synthesis; finite chests and rewards.",
-    "instructions": "Defeat Lingering Will again after the first victory for repeatable Manifest Illusion rewards. Enter through the portal in Disney Castle’s Hall of the Cornerstone after completing every world’s story, including Atlantica and 100 Acre Wood, then defeating the final boss and saving the cleared game. Also obtained from Cavern of Remembrance chests, completing Frontier, and the Moogle collection reward for all A-rank materials. Synthesize it by adding a Serenity Gem to the Serenity Crystal recipe.",
+    "instructions": "Defeat Lingering Will again after the first victory for repeatable Manifest Illusion rewards. Enter through the portal in Disney Castle’s Hall of the Cornerstone after completing every world’s story, including Atlantica and 100 Acre Wood, then defeating the final boss and saving the cleared game. Also obtained from Cavern of Remembrance chests, completing Frontier, and the Moogle collection reward for all A-rank materials. Synthesize it by adding a Serenity Gem to the Serenity Crystal recipe.\n\nMaterial collection rank: A.",
     "checkable": false,
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Illusion",
       "https://www.khwiki.com/Game:Lingering_Will",
-      "https://www.trueachievements.com/a293114/lingering-will-achievement"
+      "https://www.trueachievements.com/a293114/lingering-will-achievement",
+      "https://www.khwiki.com/Synthesis_material"
     ],
     "drops": [
       {
@@ -8297,248 +9237,273 @@ export const entries: CollectionEntry[] = [
     "id": "kh2fm.keyblades.kingdom-key",
     "category": "keyblades",
     "name": "Kingdom Key",
-    "summary": "Starting weapon.",
+    "summary": "Strength +3; Magic +1; Ability Damage Control.",
     "world": "Twilight Town",
     "sources": [
       "https://www.khwiki.com/Kingdom_Key"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Fight the \"Mysterious Enemy\" at The Old Mansion."
   },
   {
     "id": "kh2fm.keyblades.star-seeker",
     "category": "keyblades",
     "name": "Star Seeker",
-    "summary": "New clothes from the fairies.",
+    "summary": "Strength +3; Magic +1; Ability Air Combo Plus.",
     "world": "Twilight Town",
     "sources": [
       "https://www.khwiki.com/Star_Seeker"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Speak to Flora, Fauna, and Merryweather in Mysterious Tower."
   },
   {
     "id": "kh2fm.keyblades.hidden-dragon",
     "category": "keyblades",
     "name": "Hidden Dragon",
-    "summary": "Shan-Yu.",
+    "summary": "Strength +2; Magic +2; Ability MP Rage.",
     "world": "The Land of Dragons",
     "sources": [
       "https://www.khwiki.com/Hidden_Dragon"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat Shan-Yu in The Land of Dragons."
   },
   {
     "id": "kh2fm.keyblades.hero-s-crest",
     "category": "keyblades",
     "name": "Hero's Crest",
-    "summary": "Hydra.",
+    "summary": "Strength +4; Ability Air Combo Boost.",
     "world": "Olympus Coliseum",
     "sources": [
       "https://www.khwiki.com/Hero%27s_Crest"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat the Hydra at Olympus Coliseum."
   },
   {
     "id": "kh2fm.keyblades.monochrome",
     "category": "keyblades",
     "name": "Monochrome",
-    "summary": "Finish Timeless River.",
+    "summary": "Strength +3; Magic +2; Ability Item Boost.",
     "world": "Timeless River",
     "sources": [
       "https://www.khwiki.com/Monochrome"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Complete Timeless River."
   },
   {
     "id": "kh2fm.keyblades.follow-the-wind",
     "category": "keyblades",
     "name": "Follow the Wind",
-    "summary": "Barbossa.",
+    "summary": "Strength +3; Magic +1; Ability Draw.",
     "world": "Port Royal",
     "sources": [
       "https://www.khwiki.com/Follow_the_Wind"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat Captain Barbossa in Port Royal."
   },
   {
     "id": "kh2fm.keyblades.circle-of-life",
     "category": "keyblades",
     "name": "Circle of Life",
-    "summary": "Speak to Simba at Oasis.",
+    "summary": "Strength +4; Magic +1; Ability MP Haste.",
     "world": "Pride Lands",
     "sources": [
       "https://www.khwiki.com/Circle_of_Life"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Talk to Simba in the Oasis of Pride Lands."
   },
   {
     "id": "kh2fm.keyblades.oathkeeper",
     "category": "keyblades",
     "name": "Oathkeeper",
-    "summary": "Twilight Town's second-visit gate.",
+    "summary": "Strength +3; Magic +3; Ability Form Boost.",
     "world": "Twilight Town",
     "sources": [
       "https://www.khwiki.com/Oathkeeper"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Unlock the Gate in Twilight Town."
   },
   {
     "id": "kh2fm.keyblades.photon-debugger",
     "category": "keyblades",
     "name": "Photon Debugger",
-    "summary": "Hostile Program.",
+    "summary": "Strength +3; Magic +2; Ability Thunder Boost.",
     "world": "Space Paranoids",
     "sources": [
       "https://www.khwiki.com/Photon_Debugger"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat the Hostile Program."
   },
   {
     "id": "kh2fm.keyblades.rumbling-rose",
     "category": "keyblades",
     "name": "Rumbling Rose",
-    "summary": "Reunite with Beast.",
+    "summary": "Strength +5; Ability Finishing Plus.",
     "world": "Beast's Castle",
     "sources": [
       "https://www.khwiki.com/Rumbling_Rose"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Reunite with Beast."
   },
   {
     "id": "kh2fm.keyblades.guardian-soul",
     "category": "keyblades",
     "name": "Guardian Soul",
-    "summary": "Hades.",
+    "summary": "Strength +5; Magic +1; Ability Reaction Boost.",
     "world": "Olympus Coliseum",
     "sources": [
       "https://www.khwiki.com/Guardian_Soul"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat Hades."
   },
   {
     "id": "kh2fm.keyblades.wishing-lamp",
     "category": "keyblades",
     "name": "Wishing Lamp",
-    "summary": "Jafar.",
+    "summary": "Strength +4; Magic +3; Ability Jackpot.",
     "world": "Agrabah",
     "sources": [
       "https://www.khwiki.com/Wishing_Lamp"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat Jafar."
   },
   {
     "id": "kh2fm.keyblades.decisive-pumpkin",
     "category": "keyblades",
     "name": "Decisive Pumpkin",
-    "summary": "The Experiment.",
+    "summary": "Strength +6; Magic +1; Ability Combo Boost.",
     "world": "Halloween Town",
     "sources": [
       "https://www.khwiki.com/Decisive_Pumpkin"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat The Experiment."
   },
   {
     "id": "kh2fm.keyblades.sleeping-lion",
     "category": "keyblades",
     "name": "Sleeping Lion",
-    "summary": "Leon before second Space Paranoids visit.",
+    "summary": "Strength +5; Magic +3; Ability Combo Plus.",
     "world": "Radiant Garden",
     "sources": [
       "https://www.khwiki.com/Sleeping_Lion"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Talk to Leon before the second visit to Space Paranoids."
   },
   {
     "id": "kh2fm.keyblades.gull-wing",
     "category": "keyblades",
     "name": "Gull Wing",
-    "summary": "Gullwings after the 1,000 Heartless battle.",
+    "summary": "Strength +2; Magic +3; Ability Experience Boost.",
     "world": "Radiant Garden",
     "sources": [
       "https://www.khwiki.com/Gull_Wing"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Speak with the Gullwings after the Battle of the 1000 Heartless."
   },
   {
     "id": "kh2fm.keyblades.mysterious-abyss",
     "category": "keyblades",
     "name": "Mysterious Abyss",
-    "summary": "Ursula's Revenge.",
+    "summary": "Strength +3; Magic +3; Ability Blizzard Boost.",
     "world": "Atlantica",
     "sources": [
       "https://www.khwiki.com/Mysterious_Abyss"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Complete Ursula's Revenge."
   },
   {
     "id": "kh2fm.keyblades.sweet-memories",
     "category": "keyblades",
     "name": "Sweet Memories",
-    "summary": "The Expotition.",
+    "summary": "Magic +4; Ability Drive Converter.",
     "world": "100 Acre Wood",
     "sources": [
       "https://www.khwiki.com/Sweet_Memories"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Complete The Expotition."
   },
   {
     "id": "kh2fm.keyblades.bond-of-flame",
     "category": "keyblades",
     "name": "Bond of Flame",
-    "summary": "Nobodies in Betwixt and Between.",
+    "summary": "Strength +4; Magic +4; Ability Fire Boost.",
     "world": "Twilight Town",
     "sources": [
       "https://www.khwiki.com/Bond_of_Flame"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Defeat the Nobodies in Betwixt and Between."
   },
   {
     "id": "kh2fm.keyblades.two-become-one",
     "category": "keyblades",
     "name": "Two Become One",
-    "summary": "Roxas.",
+    "summary": "Strength +5; Magic +4; Ability Light & Darkness.",
     "world": "The World That Never Was",
     "sources": [
-      "https://www.khwiki.com/Two_Become_One"
-    ]
+      "https://www.khwiki.com/Two_Become_One",
+      "https://www.khwiki.com/Light_%26_Darkness"
+    ],
+    "instructions": "\n\nEquipment: Defeat Roxas.\n\nLight & Darkness forces eligible in-battle Drive attempts toward Antiform, helping unlock Final Form after Roxas when at least five Drive bars are filled. After Final is unlocked it forces Antiform unless Final itself is selected. It does not override missing/unconscious party members or out-of-combat restrictions."
   },
   {
     "id": "kh2fm.keyblades.oblivion",
     "category": "keyblades",
     "name": "Oblivion",
-    "summary": "Reunion with Riku.",
+    "summary": "Strength +6; Magic +2; Ability Drive Boost.",
     "world": "The World That Never Was",
     "sources": [
       "https://www.khwiki.com/Oblivion"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Reunite with Riku in The World That Never Was."
   },
   {
     "id": "kh2fm.keyblades.fatal-crest",
     "category": "keyblades",
     "name": "Fatal Crest",
-    "summary": "Goddess of Fate Cup.",
+    "summary": "Strength +3; Magic +5; Ability Berserk Charge.",
     "world": "Olympus Coliseum",
     "sources": [
       "https://www.khwiki.com/Fatal_Crest"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Complete the Goddess of Fate Cup."
   },
   {
     "id": "kh2fm.keyblades.fenrir",
     "category": "keyblades",
     "name": "Fenrir",
-    "summary": "Sephiroth, then Cloud's follow-up.",
+    "summary": "Strength +7; Magic +1; Ability Negative Combo.",
     "world": "Radiant Garden",
     "sources": [
       "https://www.khwiki.com/Fenrir"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Speak with Cloud after defeating Sephiroth."
   },
   {
     "id": "kh2fm.keyblades.winner-s-proof",
     "category": "keyblades",
     "name": "Winner's Proof",
-    "summary": "Mushroom XIII's final reward.",
+    "summary": "Strength +5; Magic +7; Ability No Experience.",
     "world": "Radiant Garden",
     "sources": [
       "https://www.khwiki.com/Winner%27s_Proof"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Satisfy Mushroom XIII: No. 13."
   },
   {
     "id": "kh2fm.keyblades.ultima-weapon",
     "category": "keyblades",
     "name": "Ultima Weapon",
-    "summary": "Synthesis; Ultimate Recipe.",
+    "summary": "Strength +6; Magic +4; Ability MP Hastega.",
     "world": "Synthesis",
     "sources": [
       "https://www.khwiki.com/Ultima_Weapon"
-    ]
+    ],
+    "instructions": "\n\nEquipment: Item synthesis."
   },
   {
     "id": "kh2fm.forms.valor-form",
     "category": "forms",
     "name": "Valor Form",
     "summary": "New clothes.",
-    "instructions": "Form EXP: Successful strikes, not kills. Growth: High Jump. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.",
+    "instructions": "Form EXP: Successful strikes, not kills. Growth: High Jump. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.\n\nFinal Mix cumulative EXP for levels 1–7: 0, 80, 240, 520, 968, 1528, 2200. The Form level cap is 3/4/5/6/7 with 1/2/3/4/5 Forms obtained. Unlock Final Form to reach level 7.",
     "sources": [
       "https://www.khwiki.com/Valor_Form"
     ],
@@ -8549,7 +9514,7 @@ export const entries: CollectionEntry[] = [
     "category": "forms",
     "name": "Wisdom Form",
     "summary": "Timeless River clear.",
-    "instructions": "Form EXP: Heartless defeats. Growth: Quick Run. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.",
+    "instructions": "Form EXP: Heartless defeats. Growth: Quick Run. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.\n\nFinal Mix cumulative EXP for levels 1–7: 0, 12, 36, 84, 160, 293, 450. The Form level cap is 3/4/5/6/7 with 1/2/3/4/5 Forms obtained. Unlock Final Form to reach level 7.",
     "sources": [
       "https://www.khwiki.com/Wisdom_Form"
     ],
@@ -8560,7 +9525,7 @@ export const entries: CollectionEntry[] = [
     "category": "forms",
     "name": "Limit Form",
     "summary": "Second Twilight Town visit.",
-    "instructions": "Form EXP: Limit finish command uses, even a miss. Growth: Dodge Roll. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.",
+    "instructions": "Form EXP: Limit finish command uses, even a miss. Growth: Dodge Roll. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.\n\nFinal Mix cumulative EXP for levels 1–7: 0, 3, 9, 21, 40, 63, 90. The Form level cap is 3/4/5/6/7 with 1/2/3/4/5 Forms obtained. Unlock Final Form to reach level 7.",
     "sources": [
       "https://www.khwiki.com/Limit_Form"
     ],
@@ -8571,7 +9536,7 @@ export const entries: CollectionEntry[] = [
     "category": "forms",
     "name": "Master Form",
     "summary": "Mickey reunion in Hollow Bastion.",
-    "instructions": "Form EXP: Small Drive orb 1; large 3. Growth: Aerial Dodge. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.",
+    "instructions": "Form EXP: Small Drive orb 1; large 3. Growth: Aerial Dodge. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.\n\nFinal Mix cumulative EXP for levels 1–7: 0, 40, 120, 260, 484, 932, 1600. The Form level cap is 3/4/5/6/7 with 1/2/3/4/5 Forms obtained. Unlock Final Form to reach level 7.",
     "sources": [
       "https://www.khwiki.com/Master_Form"
     ],
@@ -8582,11 +9547,13 @@ export const entries: CollectionEntry[] = [
     "category": "forms",
     "name": "Final Form",
     "summary": "After Roxas; first random activation unlocks menu use.",
-    "instructions": "Form EXP: Nobody defeats. Growth: Glide. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.",
+    "instructions": "Form EXP: Nobody defeats. Growth: Glide. Standard Sora learns Growth levels 1/2/3 at form levels 3/5/7. MAX Growth belongs to the form itself.\n\nBefore the first unlock, an Antiform-trigger attempt can become Final Form: Final Mix chances are 3%, 9%, 27%, then 75% on subsequent attempts. Equip Two Become One to force eligible Antiform attempts in battle. After the first Final activation it becomes a menu choice.\n\nFinal Mix cumulative EXP for levels 1–7: 0, 12, 36, 84, 160, 293, 450. The Form level cap is 3/4/5/6/7 with 1/2/3/4/5 Forms obtained. Unlock Final Form to reach level 7.",
     "sources": [
-      "https://www.khwiki.com/Final_Form"
+      "https://www.khwiki.com/Final_Form",
+      "https://www.khwiki.com/Light_%26_Darkness"
     ],
-    "collectible": false
+    "collectible": false,
+    "prerequisites": "Defeat Roxas; have at least five Drive bars and both eligible party members available."
   },
   {
     "id": "kh2fm.magic.fire-hollow-bastion-gate-defense",
@@ -8596,9 +9563,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Fire element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Fire"
+      "https://www.khwiki.com/Fire",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "Bailey"
   },
   {
     "id": "kh2fm.magic.fire-scar",
@@ -8608,9 +9577,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Fire element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Fire"
+      "https://www.khwiki.com/Fire",
+      "https://www.khwiki.com/Game:Pride_Lands"
     ],
-    "world": "Pride Lands"
+    "world": "Pride Lands",
+    "area": "Peak"
   },
   {
     "id": "kh2fm.magic.fire-genie-jafar",
@@ -8620,9 +9591,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Fire element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Fire"
+      "https://www.khwiki.com/Fire",
+      "https://www.khwiki.com/Game:Agrabah"
     ],
-    "world": "Agrabah"
+    "world": "Agrabah",
+    "area": "The Palace"
   },
   {
     "id": "kh2fm.magic.blizzard-merlin-meeting",
@@ -8632,9 +9605,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Blizzard element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Blizzard"
+      "https://www.khwiki.com/Blizzard",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "Merlin's House"
   },
   {
     "id": "kh2fm.magic.blizzard-hollow-bastion-demyx",
@@ -8644,9 +9619,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Blizzard element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Blizzard"
+      "https://www.khwiki.com/Blizzard",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "Castle Gate"
   },
   {
     "id": "kh2fm.magic.blizzard-atlantica-completion",
@@ -8656,9 +9633,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Blizzard element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Blizzard"
+      "https://www.khwiki.com/Blizzard",
+      "https://www.khwiki.com/Game:Atlantica"
     ],
-    "world": "Atlantica"
+    "world": "Atlantica",
+    "area": "Undersea Courtyard"
   },
   {
     "id": "kh2fm.magic.thunder-hydra",
@@ -8668,9 +9647,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Thunder element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Thunder"
+      "https://www.khwiki.com/Thunder",
+      "https://www.khwiki.com/Game:Olympus_Coliseum"
     ],
-    "world": "Olympus Coliseum"
+    "world": "Olympus Coliseum",
+    "area": "The Coliseum"
   },
   {
     "id": "kh2fm.magic.thunder-storm-rider",
@@ -8680,9 +9661,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Thunder element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Thunder"
+      "https://www.khwiki.com/Thunder",
+      "https://www.khwiki.com/Game:The_Land_of_Dragons"
     ],
-    "world": "The Land of Dragons"
+    "world": "The Land of Dragons",
+    "area": "Imperial Square"
   },
   {
     "id": "kh2fm.magic.thunder-groundshaker",
@@ -8692,9 +9675,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Thunder element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Thunder"
+      "https://www.khwiki.com/Thunder",
+      "https://www.khwiki.com/Game:Pride_Lands"
     ],
-    "world": "Pride Lands"
+    "world": "Pride Lands",
+    "area": "The Savannah"
   },
   {
     "id": "kh2fm.magic.cure-beast-s-castle-completion",
@@ -8704,9 +9689,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Cure element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Cure"
+      "https://www.khwiki.com/Cure",
+      "https://www.khwiki.com/Game:Beast%27s_Castle"
     ],
-    "world": "Beast's Castle"
+    "world": "Beast's Castle",
+    "area": "Ballroom"
   },
   {
     "id": "kh2fm.magic.cure-goofy-reunion",
@@ -8716,9 +9703,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Cure element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Cure"
+      "https://www.khwiki.com/Cure",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "Crystal Fissure"
   },
   {
     "id": "kh2fm.magic.cure-100-acre-wood-completion",
@@ -8728,9 +9717,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Cure element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Cure"
+      "https://www.khwiki.com/Cure",
+      "https://www.khwiki.com/Game:100_Acre_Wood"
     ],
-    "world": "100 Acre Wood"
+    "world": "100 Acre Wood",
+    "area": "Starry Hill"
   },
   {
     "id": "kh2fm.magic.magnet-oogie-boogie",
@@ -8740,9 +9731,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Magnet element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Magnet"
+      "https://www.khwiki.com/Magnet",
+      "https://www.khwiki.com/Game:Halloween_Town"
     ],
-    "world": "Halloween Town"
+    "world": "Halloween Town",
+    "area": "Toy Factory: Shipping & Receiving"
   },
   {
     "id": "kh2fm.magic.magnet-grim-reaper",
@@ -8752,9 +9745,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Magnet element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Magnet"
+      "https://www.khwiki.com/Magnet",
+      "https://www.khwiki.com/Game:Port_Royal"
     ],
-    "world": "Port Royal"
+    "world": "Port Royal",
+    "area": "Harbor"
   },
   {
     "id": "kh2fm.magic.magnet-luxord-in-final-mix",
@@ -8764,9 +9759,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Magnet element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Magnet"
+      "https://www.khwiki.com/Magnet",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Havoc's Divide"
   },
   {
     "id": "kh2fm.magic.reflect-timeless-river-pete",
@@ -8776,9 +9773,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Reflect element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Reflect"
+      "https://www.khwiki.com/Reflect",
+      "https://www.khwiki.com/Game:Timeless_River"
     ],
-    "world": "Timeless River"
+    "world": "Timeless River",
+    "area": "Wharf"
   },
   {
     "id": "kh2fm.magic.reflect-xaldin",
@@ -8788,9 +9787,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Reflect element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Reflect"
+      "https://www.khwiki.com/Reflect",
+      "https://www.khwiki.com/Game:Beast%27s_Castle"
     ],
-    "world": "Beast's Castle"
+    "world": "Beast's Castle",
+    "area": "Bridge"
   },
   {
     "id": "kh2fm.magic.reflect-mcp",
@@ -8800,9 +9801,11 @@ export const entries: CollectionEntry[] = [
     "reward": "Reflect element upgrade",
     "instructions": "Each grant advances this element by one tier. The named spell tier depends on other grants already received.",
     "sources": [
-      "https://www.khwiki.com/Reflect"
+      "https://www.khwiki.com/Reflect",
+      "https://www.khwiki.com/Game:Space_Paranoids"
     ],
-    "world": "Space Paranoids"
+    "world": "Space Paranoids",
+    "area": "Central Computer Core"
   },
   {
     "id": "kh2fm.assembly.awakening-assembly",
@@ -8810,10 +9813,12 @@ export const entries: CollectionEntry[] = [
     "name": "Awakening assembly",
     "summary": "Arrange all 12 pieces in the Journal.",
     "reward": "AP Boost",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Awakening. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Awakening in the Puzzles section of Jiminy’s Journal. The board has 3 columns and 4 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move tiles into place; this puzzle does not require rotation. Reference: Sora stands upright in the center; Donald and Goofy portraits sit at the upper left and upper right, with Kairi and Riku at the lower left and lower right. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=BGZbqQS6fGk",
+      "https://img.youtube.com/vi/BGZbqQS6fGk/maxresdefault.jpg"
     ]
   },
   {
@@ -8822,10 +9827,12 @@ export const entries: CollectionEntry[] = [
     "name": "Heart assembly",
     "summary": "Arrange all 12 pieces in the Journal.",
     "reward": "Serenity Crystal",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Heart. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Heart in the Puzzles section of Jiminy’s Journal. The board has 3 columns and 4 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move and rotate tiles until their artwork is upright. Reference: Mickey is at the top, Roxas and Goofy below him, and Kairi and Sora fill the lower half; the silver heart ends in a downward point. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=7GrfPTW-EnE",
+      "https://img.youtube.com/vi/7GrfPTW-EnE/maxresdefault.jpg"
     ]
   },
   {
@@ -8834,10 +9841,15 @@ export const entries: CollectionEntry[] = [
     "name": "Duality assembly",
     "summary": "Arrange all 12 pieces in the Journal.",
     "reward": "Rare Document",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Duality. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Duality in the Puzzles section of Jiminy’s Journal. The board has 3 columns and 4 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move and rotate tiles until their artwork is upright. Reference: Kairi and Naminé stand inside the yellow heart at the top; Roxas faces forward at the bottom with his arms spread. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=HGuGi1t9IV0",
+      "https://img.youtube.com/vi/HGuGi1t9IV0/maxresdefault.jpg"
+    ],
+    "categories": [
+      "recipe-documents"
     ]
   },
   {
@@ -8846,10 +9858,12 @@ export const entries: CollectionEntry[] = [
     "name": "Frontier assembly",
     "summary": "Arrange all 12 pieces in the Journal.",
     "reward": "Manifest Illusion",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Frontier. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Frontier in the Puzzles section of Jiminy’s Journal. The board has 3 columns and 4 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move and rotate tiles until their artwork is upright. Reference: The castle fills the upper background. Sora and Roxas stand behind Mickey, Kairi, Donald and Goofy; Kairi sits on the blue ledge with her feet near the bottom. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=sf-ekb7pnN8",
+      "https://img.youtube.com/vi/sf-ekb7pnN8/maxresdefault.jpg"
     ]
   },
   {
@@ -8858,10 +9872,12 @@ export const entries: CollectionEntry[] = [
     "name": "Daylight assembly",
     "summary": "Arrange all 48 pieces in the Journal.",
     "reward": "Executive's Ring",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Daylight. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Daylight in the Puzzles section of Jiminy’s Journal. The board has 6 columns and 8 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move tiles into place; this puzzle does not require rotation. Reference: Sora and Riku occupy the upper left, Mickey the center, and the dark castle the upper right. Marluxia, Larxene, Zexion and Vexen line the bottom. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=WodbWF4uv20",
+      "https://img.youtube.com/vi/WodbWF4uv20/maxresdefault.jpg"
     ]
   },
   {
@@ -8870,10 +9886,12 @@ export const entries: CollectionEntry[] = [
     "name": "Sunset assembly",
     "summary": "Arrange all 48 pieces in the Journal.",
     "reward": "Grand Ribbon",
-    "instructions": "Open the Puzzles section of Jiminy’s Journal and select Sunset. The piece numbers in this guide follow the completed picture from left to right, row by row: put Piece 1 in the top-left slot, then continue across and down in number order. Match each tile’s picture to its neighbors and rotate it until the artwork is upright. Collecting the pieces alone does not claim the assembly reward.",
+    "instructions": "Open Sunset in the Puzzles section of Jiminy’s Journal. The board has 6 columns and 8 rows. This guide numbers the solved picture left to right, row by row, starting with Piece 1 at the top left. Move and rotate tiles until their artwork is upright. Reference: The sunset town and lamps sit at the upper left; Roxas and Sora occupy the upper center and right. Xigbar, Luxord and Saïx line the bottom, with Xemnas at the lower right. Assemble the full picture to claim the reward; collecting its pieces alone does not claim it.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Puzzle"
+      "https://www.khwiki.com/Puzzle",
+      "https://www.youtube.com/watch?v=gpqZ1Z0Xnn8",
+      "https://img.youtube.com/vi/gpqZ1Z0Xnn8/hq1.jpg"
     ]
   },
   {
@@ -8882,9 +9900,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 1",
     "summary": "Finish the 1,000 Heartless battle.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "The Dark Depths"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-2",
@@ -8892,9 +9912,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 2",
     "summary": "Station Plaza encounter with Mickey.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Twilight_Town"
     ],
-    "world": "Twilight Town"
+    "world": "Twilight Town",
+    "area": "Station Plaza"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-3",
@@ -8902,9 +9924,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 3",
     "summary": "Defeat Xigbar.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Hall of Empty Melodies"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-4",
@@ -8912,9 +9936,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 4",
     "summary": "Defeat Xaldin.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Beast%27s_Castle"
     ],
-    "world": "Beast's Castle"
+    "world": "Beast's Castle",
+    "area": "Bridge"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-5",
@@ -8922,9 +9948,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 5",
     "summary": "First Demyx battle, Olympus.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Olympus_Coliseum"
     ],
-    "world": "Olympus Coliseum"
+    "world": "Olympus Coliseum",
+    "area": "Underworld Caverns: Atrium"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-6",
@@ -8932,9 +9960,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 6",
     "summary": "Second Grim Reaper battle.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Port_Royal"
     ],
-    "world": "Port Royal"
+    "world": "Port Royal",
+    "area": "Harbor"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-7",
@@ -8942,9 +9972,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 7",
     "summary": "Defend Hollow Bastion's gate with Leon.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Radiant_Garden"
     ],
-    "world": "Radiant Garden"
+    "world": "Radiant Garden",
+    "area": "Bailey"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-8",
@@ -8952,9 +9984,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 8",
     "summary": "Defeat Roxas.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Havoc's Divide"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-9",
@@ -8962,9 +9996,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 9",
     "summary": "Defeat Luxord.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Addled Impasse"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-10",
@@ -8972,9 +10008,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 10",
     "summary": "Reach the Other Twilight Town.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:Twilight_Town"
     ],
-    "world": "Twilight Town"
+    "world": "Twilight Town",
+    "area": "Mansion: Computer Room"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-11",
@@ -8982,9 +10020,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 11",
     "summary": "Riku regains his usual appearance.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Naught's Approach"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-12",
@@ -8992,9 +10032,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 12",
     "summary": "Defeat Saïx.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "Memory's Skyscraper"
   },
   {
     "id": "kh2fm.reports.secret-ansem-report-13",
@@ -9002,9 +10044,11 @@ export const entries: CollectionEntry[] = [
     "name": "Secret Ansem Report 13",
     "summary": "First Xemnas battle.",
     "sources": [
-      "https://www.khwiki.com/Ansem%27s_Reports"
+      "https://www.khwiki.com/Ansem%27s_Reports",
+      "https://www.khwiki.com/Game:The_World_That_Never_Was"
     ],
-    "world": "The World That Never Was"
+    "world": "The World That Never Was",
+    "area": "The Altar of Naught"
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-1",
@@ -9014,11 +10058,12 @@ export const entries: CollectionEntry[] = [
     "world": "The World That Never Was",
     "area": "Memory's Skyscraper",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 90–98; B: 70–89; C: 60–69; D: 50–59; E: 40–49.\n\nWeapon ranks (hits): S: 99; A: 94–98; B: 80–93; C: 65–79; D: 55–64; E: 45–54.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 90–98; B: 70–89; C: 60–69; D: 50–59; E: 40–49.\n\nWeapon ranks (hits): S: 99; A: 94–98; B: 80–93; C: 65–79; D: 55–64; E: 45–54.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nUse Reversal until the mushroom turns away, then strike its back.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Defeat Xemnas and load the clear save."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-2",
@@ -9028,11 +10073,12 @@ export const entries: CollectionEntry[] = [
     "world": "Halloween Town",
     "area": "Christmas Tree Plaza",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (points): S: 99; A: 95–98; B: 80–94; C: 70–79; D: 65–69; E: 60–64.\n\nWeapon ranks (points): S: 99; A: 97–98; B: 87–96; C: 75–86; D: 67–74; E: 62–66.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (points): S: 99; A: 95–98; B: 80–94; C: 70–79; D: 65–69; E: 60–64.\n\nWeapon ranks (points): S: 99; A: 97–98; B: 87–96; C: 75–86; D: 67–74; E: 62–66.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nFace incoming shots and use Guard or Reflect; Final Form’s floating Keyblades can deflect attacks.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Defeat the Experiment."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-3",
@@ -9042,11 +10088,12 @@ export const entries: CollectionEntry[] = [
     "world": "Beast's Castle",
     "area": "Bridge",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (prizes): S: 500; A: 490–499; B: 450–489; C: 400–449; D: 350–399; E: 250–349.\n\nWeapon ranks (prizes): S: 500; A: 495–499; B: 470–494; C: 425–469; D: 375–424; E: 300–374.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (prizes): S: 500; A: 490–499; B: 450–489; C: 400–449; D: 350–399; E: 250–349.\n\nWeapon ranks (prizes): S: 500; A: 495–499; B: 470–494; C: 425–469; D: 375–424; E: 300–374.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nStack Draw and follow with Quick Run or Glide; collect prizes before they disappear.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Defeat Xaldin."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-4",
@@ -9056,11 +10103,12 @@ export const entries: CollectionEntry[] = [
     "world": "The Land of Dragons",
     "area": "Palace Gate",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. Mushroom IV has no A or S reward rank.\n\nMaterial ranks (clones): B: 85+; C: 70–84; D: 60–69; E: 50–59.\n\nWeapon ranks (clones): B: 85+; C: 75–84; D: 65–74; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%).",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. Mushroom IV has no A or S reward rank.\n\nMaterial ranks (clones): B: 85+; C: 70–84; D: 60–69; E: 50–59.\n\nWeapon ranks (clones): B: 85+; C: 75–84; D: 65–74; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%).\n\nCircle the square in Wisdom Form while firing; maintain distance from the clones.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Defeat Shan-Yu."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-5",
@@ -9070,11 +10118,13 @@ export const entries: CollectionEntry[] = [
     "world": "Agrabah",
     "area": "Cave of Wonders: Treasure Room",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–60.00; E: 60.01–100.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–45.00; E: 45.01–80.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–60.00; E: 60.01–100.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–45.00; E: 45.01–80.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nUse Limit Form’s Zantetsuken finishers or Final Form Firaga to overcome its regeneration.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+    ],
+    "prerequisites": "Return outside an active story episode in this world."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-6",
@@ -9084,11 +10134,13 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "area": "Underworld Caverns: Atrium",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 31.00 or less; A: 31.01–40.00; B: 40.01–45.00; C: 45.01–65.00; D: 65.01–80.00; E: 80.01–90.00.\n\nWeapon ranks (seconds): S: 31.00 or less; A: 31.01–35.00; B: 35.01–42.00; C: 42.01–55.00; D: 55.01–72.00; E: 72.01–85.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 31.00 or less; A: 31.01–40.00; B: 40.01–45.00; C: 45.01–65.00; D: 65.01–80.00; E: 80.01–90.00.\n\nWeapon ranks (seconds): S: 31.00 or less; A: 31.01–35.00; B: 35.01–42.00; C: 42.01–55.00; D: 55.01–72.00; E: 72.01–85.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nUse Final Form magic: Fire for clusters, Blizzard for rows and Thunder for vertical groups.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+    ],
+    "prerequisites": "Return outside an active story episode in this world."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-7",
@@ -9098,7 +10150,7 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "Tunnelway",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–40.00; E: 40.01–60.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–35.00; E: 35.01–50.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 3.00 or less; A: 3.01–5.00; B: 5.01–10.00; C: 10.01–30.00; D: 30.01–40.00; E: 40.01–60.00.\n\nWeapon ranks (seconds): S: 3.00 or less; A: 3.01–4.00; B: 4.01–7.00; C: 7.01–20.00; D: 20.01–35.00; E: 35.01–50.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nKeep away from contact; Reflect or long-range magic avoids its knockback.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
@@ -9112,11 +10164,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "The Tower",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 85–94; C: 60–84; D: 55–59; E: 50–54.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 90–96; C: 72–89; D: 57–71; E: 52–56.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 85–94; C: 60–84; D: 55–59; E: 50–54.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 90–96; C: 72–89; D: 57–71; E: 52–56.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nUse Berserk Charge and Horizontal Slash to keep it airborne; remove MP Haste and empty MP first.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://strategywiki.org/wiki/Kingdom_Hearts_II/Mushroom_XIII"
+    ],
+    "prerequisites": "Return after Twilight Town’s third visit; take the train from Central Station to The Tower."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-9",
@@ -9126,11 +10180,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Castle Gate",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 75–94; C: 70–74; D: 60–69; E: 50–59.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 85–96; C: 72–84; D: 65–71; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (hits): S: 99; A: 95–98; B: 75–94; C: 70–74; D: 60–69; E: 50–59.\n\nWeapon ranks (hits): S: 99; A: 97–98; B: 85–96; C: 72–84; D: 65–71; E: 55–64.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nKeep the target spinning with Berserk Charge and Horizontal Slash; remove MP Haste before starting.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Defeat Demyx in Hollow Bastion."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-10",
@@ -9140,11 +10195,12 @@ export const entries: CollectionEntry[] = [
     "world": "Port Royal",
     "area": "Isla de Muerta: Moonlight Nook",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 36.00 or less; A: 36.01–39.00; B: 39.01–55.00; C: 55.01–80.00; D: 80.01–100.00; E: 100.01–120.00.\n\nWeapon ranks (seconds): S: 36.00 or less; A: 36.01–37.00; B: 37.01–47.00; C: 47.01–67.00; D: 67.01–90.00; E: 90.01–110.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 36.00 or less; A: 36.01–39.00; B: 39.01–55.00; C: 55.01–80.00; D: 80.01–100.00; E: 100.01–120.00.\n\nWeapon ranks (seconds): S: 36.00 or less; A: 36.01–37.00; B: 37.01–47.00; C: 47.01–67.00; D: 67.01–90.00; E: 90.01–110.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nKeep all five mushrooms on screen, follow the original during the shuffle, then attack only that target.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+    ],
+    "prerequisites": "Reach the second Port Royal visit."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-11",
@@ -9154,11 +10210,13 @@ export const entries: CollectionEntry[] = [
     "world": "Timeless River",
     "area": "Waterway",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 15.00 or less; A: 15.01–17.00; B: 17.01–19.00; C: 19.01–22.00; D: 22.01–25.00; E: 25.01–30.00.\n\nWeapon ranks (seconds): S: 15.00 or less; A: 15.01–16.00; B: 16.01–18.00; C: 18.01–20.00; D: 20.01–23.00; E: 23.01–27.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (seconds): S: 15.00 or less; A: 15.01–17.00; B: 17.01–19.00; C: 19.01–22.00; D: 22.01–25.00; E: 25.01–30.00.\n\nWeapon ranks (seconds): S: 15.00 or less; A: 15.01–16.00; B: 16.01–18.00; C: 18.01–20.00; D: 20.01–23.00; E: 23.01–27.00.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Plain Mushroom. D gives Plain Mushroom (65%) or Plain Mushroom+ (35%). C gives Plain Mushroom+ (75%) or Precious Mushroom (25%). B gives Precious Mushroom (85%) or Precious Mushroom+ (15%). A gives Precious Mushroom+ (90%) or Premium Mushroom (10%). S guarantees Premium Mushroom.\n\nWisdom Form finishers deliver rapid hits; use Negative Combo and Finishing Plus.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
-      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
-    ]
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii",
+      "https://www.khwiki.com/Forum:Notes_53_(KHII,_mechanics_%2B_backups_from_Pastebin)_-_Ultima_Spark"
+    ],
+    "prerequisites": "Return to the Waterway outside an active Timeless River story episode."
   },
   {
     "id": "kh2fm.mushrooms.mushroom-xiii-12",
@@ -9168,7 +10226,7 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "area": "The Old Mansion",
     "collectible": false,
-    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (clones): S: 50; A: 44–49; B: 40–43; C: 30–39; D: 25–29; E: 20–24.\n\nWeapon ranks (clones): S: 50; A: 47–49; B: 42–46; C: 35–41; D: 27–34; E: 22–26.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.",
+    "instructions": "The checklist tracks the Journal target above. Material and weapon prizes use separate score bands. \n\nMaterial ranks (clones): S: 50; A: 44–49; B: 40–43; C: 30–39; D: 25–29; E: 20–24.\n\nWeapon ranks (clones): S: 50; A: 47–49; B: 42–46; C: 35–41; D: 27–34; E: 22–26.\n\nMaterial prizes: E gives one Tranquility Shard; D adds one Stone; C adds one Gem; B adds one Crystal; A and S give two Crystals instead. Higher ranks retain the lower materials.\n\nWeapon prizes: E has a 55% chance of Joyous Mushroom. D gives Joyous Mushroom (65%) or Joyous Mushroom+ (35%). C gives Joyous Mushroom+ (75%) or Majestic Mushroom (25%). B gives Majestic Mushroom (85%) or Majestic Mushroom+ (15%). A gives Majestic Mushroom+ (90%) or Ultimate Mushroom (10%). S guarantees Ultimate Mushroom.\n\nUse Wisdom Form shots and turn the camera between clones, including those above the pillars.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/the-mushroom-xiii"
@@ -9185,6 +10243,9 @@ export const entries: CollectionEntry[] = [
     "instructions": "After Xemnas and appeasing Mushrooms 1–12, use Look Up, then Ready, Go! to receive Winner’s Proof and Proof of Peace.",
     "sources": [
       "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "categories": [
+      "proofs"
     ]
   },
   {
@@ -9195,8 +10256,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Book of Shadows; Lost Illusion",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Absent_Silhouette"
-    ]
+      "https://www.khwiki.com/Absent_Silhouette",
+      "https://www.khwiki.com/Game:Zexion"
+    ],
+    "categories": [
+      "recipe-documents"
+    ],
+    "instructions": "Examine the portal to challenge Zexion. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+    "world": "Olympus Coliseum",
+    "area": "Cave of the Dead: Inner Chamber",
+    "prerequisites": "Reach The Lock."
   },
   {
     "id": "kh2fm.challenges.absent-silhouette-larxene",
@@ -9206,8 +10275,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Cloaked Thunder; Lost Illusion",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Absent_Silhouette"
-    ]
+      "https://www.khwiki.com/Absent_Silhouette",
+      "https://www.khwiki.com/Game:Larxene"
+    ],
+    "categories": [
+      "recipe-documents"
+    ],
+    "instructions": "Examine the portal to challenge Larxene. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+    "world": "Port Royal",
+    "area": "Isla de Muerta: Rock Face",
+    "prerequisites": "Finish the Interceptor gunpowder sequence."
   },
   {
     "id": "kh2fm.challenges.absent-silhouette-lexaeus",
@@ -9217,8 +10294,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Strength Beyond Strength; Lost Illusion",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Absent_Silhouette"
-    ]
+      "https://www.khwiki.com/Absent_Silhouette",
+      "https://www.khwiki.com/Game:Lexaeus"
+    ],
+    "categories": [
+      "recipe-documents"
+    ],
+    "instructions": "Examine the portal to challenge Lexaeus. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+    "world": "Twilight Town",
+    "area": "Sandlot",
+    "prerequisites": "Defeat the second-visit Nobodies. During the next Twilight Town visit the portal returns only after clearing that visit."
   },
   {
     "id": "kh2fm.challenges.absent-silhouette-vexen",
@@ -9228,8 +10313,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Road to Discovery; Lost Illusion",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Absent_Silhouette"
-    ]
+      "https://www.khwiki.com/Absent_Silhouette",
+      "https://www.khwiki.com/Game:Vexen"
+    ],
+    "categories": [
+      "recipe-documents"
+    ],
+    "instructions": "Examine the portal to challenge Vexen. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+    "world": "Agrabah",
+    "area": "The Peddler’s Shop",
+    "prerequisites": "Reach the remodeled shop on the second visit."
   },
   {
     "id": "kh2fm.challenges.absent-silhouette-marluxia",
@@ -9239,8 +10332,16 @@ export const entries: CollectionEntry[] = [
     "reward": "Eternal Blossom; Lost Illusion",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Absent_Silhouette"
-    ]
+      "https://www.khwiki.com/Absent_Silhouette",
+      "https://www.khwiki.com/Game:Marluxia"
+    ],
+    "categories": [
+      "recipe-documents"
+    ],
+    "instructions": "Examine the portal to challenge Marluxia. The first victory awards the recipe and Lost Illusion. For repeatable Lost Illusion, use this member’s Replica Data rematch.",
+    "world": "Beast's Castle",
+    "area": "The Beast’s Room",
+    "prerequisites": "Reach the expulsion scene on the second visit."
   },
   {
     "id": "kh2fm.challenges.replica-data-vexen",
@@ -9250,11 +10351,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Lost Illusion",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Vexen’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Break the shield before attacking Vexen. Keep moving out of the tracking data circle so Anti-Sora does not grow stronger; eliminate the clone if it interrupts your attacks. Use Fire against Vexen after his shield breaks, and save MP for defense during his ice attacks. His rematch shield requires physical or neutral damage. Apply the shield/data-circle strategy above, and keep your distance when the screen darkens for Icy Ensemble. A long Donald Limit can protect you through the ice sequence; his shield cannot be broken during that attack.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Vexen"
     ]
   },
   {
@@ -9265,11 +10367,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Lost Illusion",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Lexaeus’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Guard or Reflect the low weapon sweep, then use Mega Impact to stun Lexaeus and create a damage opening. Watch the delayed third ground slam. When he charges from outside the arena, block the charge and use Reflect or stay airborne to avoid the erupting rocks. He begins with more power and HP than the Silhouette. Continue blocking the sweep for Mega Impact and attack during the resulting stun. After Earthen Fury, take safe openings promptly because prolonged combat lets his power rise further.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Lexaeus"
     ]
   },
   {
@@ -9280,11 +10383,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Lost Illusion",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Zexion’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Free a captured ally by breaking their book. Inside the book world, identify and damage Zexion’s real book, then use Dispel to escape. When the colored circles shuffle, enter the blue circle before the meteor attack; a long party Limit can protect the group if positioning fails. The book/Dispel and blue-circle mechanics still apply, with more HP and altered attack ordering. Keep recovery available and use the safe opening after leaving the book world to attack.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Zexion"
     ]
   },
   {
@@ -9295,11 +10399,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Lost Illusion",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Marluxia’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: The death counter starts at Sora’s level and scythe hits reduce it independently of HP. Block his combo and punish the recovery. After blocking Tornado Slash, use Restore Count near the scythe to recover counter points, or Aerial Strike near Marluxia for damage. Keep clear of the dark floor pools. In the rematch, Restore Count returns progressively fewer points: 13, 7, 3, 2, then 1. Defend the death counter instead of depending on repeated restoration. Avoid the flower detonation and floor pools at the opening; attack after a guarded scythe sequence.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Marluxia"
     ]
   },
   {
@@ -9310,11 +10415,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Lost Illusion",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Larxene’s Absent Silhouette. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Avoid Thunder because Larxene absorbs it. Guard or Reflect the rushing copies; a finisher can open Merge to remove a clone and stun her. Her clones share HP, so attacks that hit several copies can deal extra damage. Use lightning-resistant armor and preserve healing for her late lightning barrage. Use the same defense, clone and Merge approach as the Silhouette, with extra HP and different attack ordering. Reflect and wide attacks can punish overlapping copies; keep enough resources to survive the late lightning sequence.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Larxene"
     ]
   },
   {
@@ -9325,11 +10431,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Power Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Xemnas for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: This rematch has two consecutive phases; losing the second restarts the first. In the solo phase, guard or Reflect the blade combo and punish its recovery; Facedown’s Finish leaves him at 1 HP, and Thunder cannot finish him. With Riku, follow Reversal prompts; when controlling Riku, use Dark Aura to hold back the clone while approaching Sora for the rescue command. During the final laser sequence, repeatedly use both displayed defend actions, then land a finisher or Limit.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Xemnas"
     ]
   },
   {
@@ -9340,11 +10447,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Defense Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Xigbar for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Data Xigbar no longer pauses to reload. Deflect his shots with Guard or Reflect to create an opening for an aerial combo. Use Warp Snipe when its prompt appears, but defend early against his much faster charged blue shot. Keep moving during the small-platform barrage; avoid relying on repeated Reflect for the entire sequence.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Xigbar"
     ]
   },
   {
@@ -9355,11 +10463,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Defense Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Xaldin for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Use Learn after defending his spear attacks, then Jump to break through Protective Wind and begin an aerial combo. Ordinary attacks against that wind deal almost no damage. Stay mobile during his leaps and use Reflect against the final landing or wind blast. This rematch provides neither Beast nor Mickey assistance.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Xaldin"
     ]
   },
   {
@@ -9370,11 +10479,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Defense Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Saïx for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Interrupt his opening charge with a finisher if possible. During Berserk, prioritize avoiding his wide attacks and quickly collect a dropped claymore. Complete Berserk → Eclipse → Magna Storm to empty his Berserk gauge, then guard his normal attacks and punish openings. Dropped weapons disappear faster than in the story battle.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Sa%C3%AFx"
     ]
   },
   {
@@ -9385,11 +10495,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Magic Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Axel for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: The burning floor drains HP and prevents the finishing blow. Drive him out of the ring, then follow Burst Frontier → Overtaker → Clear Light to extinguish it. Blizzard and Reflect provide useful damage; Limit Form can restore health while you prepare another safe opening.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Axel"
     ]
   },
   {
@@ -9400,11 +10511,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "Magic Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Roxas for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Guard his opening sweep and the final dash of his combo to create a punish window. Select The End during the duel to steal his Keyblades, then use the brief advantage without extending combos carelessly: he retaliates sooner than in the story fight. Glide around the faster light projectiles and keep a recovery option ready.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Roxas"
     ]
   },
   {
@@ -9415,11 +10527,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "AP Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Demyx for the final time in the story. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Keep MP-restoring items ready for both sets of timed water clones. Wisdom Form Firaga quickly clears groups; Blizzaga or finishers can turn clones into notes for Wild Dance. The final clone round requires 99 defeats within 30 seconds. Disable Auto-Limit if it interferes with Wild Dance, then punish Demyx between his water attacks.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Demyx"
     ]
   },
   {
@@ -9430,11 +10543,12 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "area": "Garden of Assemblage",
     "reward": "AP Boost",
-    "prerequisites": "Defeat the original member or Absent Silhouette. A game clear is required for the full set.",
-    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.",
+    "prerequisites": "Defeat Luxord for the final time in the story. Defeat the final boss and load the clear save; The World That Never Was Data fights are unavailable before a game clear. Reach the Garden of Assemblage through the Cavern of Remembrance.",
+    "instructions": "Repeatable reward. After clearing all thirteen, separately open the Proof of Nonexistence chest.\n\n\n\nBattle approach: Watch the command menu and win the circle-symbol games to transfer time from Luxord to Sora. Track his face card while it shuffles and avoid bomb cards. Winning the final four-circle game is necessary in the rematch; finish with a combo finisher or magic once his remaining time is nearly gone.",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Organization_XIII_Replica_Data"
+      "https://www.khwiki.com/Organization_XIII_Replica_Data",
+      "https://www.khwiki.com/Game:Luxord"
     ]
   },
   {
@@ -9445,7 +10559,7 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Clear Disney Castle",
     "reward": "Protect Belt + Serenity Stone",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Pain_and_Panic_Cup",
@@ -9461,7 +10575,7 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "First Agrabah, Halloween Town and Pride Lands clears",
     "reward": "Rising Dragon + Serenity Crystal in Final Mix",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nTimed solo cup: Forms work without allies and Drive refills faster. Use Forms to clear waves quickly; extra time is awarded after rounds.\n\nRounds: 1: Air Pirate x 2; Trick Ghost x 2; 2: Driller Mole x 3; Hammer Frame x 3; 3: Tornado Step x 3; Wight Knight x 3; 4: Silver Rock x 4; Living Bone x 1; 5: Icy Cube x 5; Shaman x 1; Fiery Globe x 5; 6: Fortuneteller x 2; Aerial Knocker x 2; 7: Cannon Gun x 3 Toy Soldier x 1; 8: Luna Bandit x 5; 9: Emerald Blues x 4; Fat Bandit x 1; 10: Cerberus.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Cerberus_Cup",
@@ -9477,7 +10591,7 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Complete the second Olympus Coliseum episode",
     "reward": "Genji Shield + Skillful Ring",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nSolo summons are allowed. Preserve the shared 500 Key Points: damage depletes this nonrefillable allowance. Stitch’s Ohana! Ukulele and Peter Pan’s Journey’s End can generate score before enemies are defeated.\n\nRounds: 1: Magnum Loader x 2; Dusk x 3; 2: Morning Star x 1; Assassin x 4; 3: Strafer x 4; Berserker x 2; 4: Sniper x 2; Trick Ghost x 3; 5: Dancer x 3; Neoshadow x 3; 6: Air Pirate x 2; Dragoon x 2; Bookmaster x 1; 7: Samurai x 2; Crimson Jazz x 2; 8: Minute Bomb x 3; Sniper x 2; Assassin x 2; 9: Devastator x 1; Dancer x 2; Berserker x 2; 10: Hercules.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Titan_Cup",
@@ -9493,7 +10607,7 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "First three cups + first Xemnas fight",
     "reward": "Fatal Crest + Orichalcum+",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nRounds: 1: Morning Star x 5; Emerald Blues x 2 Sniper x 2; 2: Hammer Frame x 3; Living Bone x 1; 3: Creeper Plant x 3; Toy Soldier x 1; 4: Nightwalker x 2; Crimson Jazz x 2; 5: Shaman x 4; Assassin x 2; Devastator x 3; 6: Fat Bandit x 1; Large Body x 1; 7: Lance Soldier x 2 Assault Rider x 2; 8: Rapid Thruster x ?; 9: Bolt Tower x 2; Hot Rod x 2; 10: HadesHammer Frame x ?.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Goddess_of_Fate_Cup",
@@ -9509,11 +10623,12 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Goddess of Fate clear",
     "reward": "Challenge/record",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nDrive use is disabled and party Limits cost less MP. Use repeated party Limits for safety; Magnet and Thunder on round 9’s Rapid Thrusters can raise the score.\n\nRounds: 1: Shadow x 5; Hook Bat x 5; 2: Large Body x 1; Minute Bomb x 6; 3: Soldier x 2; Rabid Dog x 5; 4: Shadow x 4; Hot Rod x 2; 5: Hook Bat x 4; Rapid Thruster x 5; Bolt Tower x 2; 6: Minute Bomb x 5; Gargoyle Knight x 3; Lance Soldier x 4; 7: Soldier x 2; Rabid Dog x 1; Aeroplane x 6; Assault Rider x 2; 8: Rapid Thruster x 128; 9: Creeper Plant x 4; Gargoyle Warrior x 2; 10: LeonYuffie.",
     "collectible": false,
     "sources": [
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups",
-      "https://www.khwiki.com/Olympus_Coliseum"
+      "https://www.khwiki.com/Olympus_Coliseum",
+      "https://www.khwiki.com/Pain_and_Panic_Cup"
     ]
   },
   {
@@ -9524,11 +10639,12 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Pain and Panic Paradox unlocked; Valor, Wisdom and Master Forms at level 5",
     "reward": "Challenge/record",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nTimed solo cup: Forms work without allies and Drive refills faster. Use Forms to clear waves quickly; extra time is awarded after rounds.\n\nRounds: 1: Air Pirate x 2; Trick Ghost x 2; 2: Driller Mole x 3; Hammer Frame x 3; 3: Tornado Step x 3; Wight Knight x 3; 4: Silver Rock x 4; Living Bone x 1; 5: Icy Cube x 5; Shaman x 1; Fiery Globe x 5; 6: Fortuneteller x 2; Aerial Knocker x 2; 7: Cannon Gun x 3 Toy Soldier x 1; 8: Luna Bandit x 5; 9: Emerald Blues x 4; Fat Bandit x 1; 10: Cerberus.",
     "collectible": false,
     "sources": [
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups",
-      "https://www.khwiki.com/Olympus_Coliseum"
+      "https://www.khwiki.com/Olympus_Coliseum",
+      "https://www.khwiki.com/Cerberus_Cup"
     ]
   },
   {
@@ -9539,11 +10655,12 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Cerberus Paradox unlocked; summon level 5",
     "reward": "Challenge/record",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nSolo summons are allowed. Preserve the shared 500 Key Points: damage depletes this nonrefillable allowance. Stitch’s Ohana! Ukulele and Peter Pan’s Journey’s End can generate score before enemies are defeated.\n\nRounds: 1: Magnum Loader x 2; Dusk x 3; 2: Morning Star x 1; Assassin x 4; 3: Strafer x 4; Berserker x 2; 4: Sniper x 2; Trick Ghost x 3; 5: Dancer x 3; Neoshadow x 3; 6: Air Pirate x 2; Dragoon x 2; Bookmaster x 1; 7: Samurai x 2; Crimson Jazz x 2; 8: Minute Bomb x 3; Sniper x 2; Assassin x 2; 9: Devastator x 1; Dancer x 2; Berserker x 2; 10: Hercules.",
     "collectible": false,
     "sources": [
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/olympus-coliseum/paradox-cups",
-      "https://www.khwiki.com/Olympus_Coliseum"
+      "https://www.khwiki.com/Olympus_Coliseum",
+      "https://www.khwiki.com/Titan_Cup"
     ]
   },
   {
@@ -9554,7 +10671,7 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "prerequisites": "Valor, Wisdom, Master and Final Forms and Summons at level 7; complete the second Space Paranoids episode",
     "reward": "Hades Cup Trophy",
-    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.",
+    "instructions": "Regular cups: Pain and Panic. Paradox cups: Hades. Check this record when the listed score target is met.\n\nRules by round block: 1–10 unrestricted; 11–20 solo Summons with 500 damage points; 21–30 party and cheaper Limits with Drive locked; 31–40 solo Forms with fast Drive recharge and a ten-minute timer; 41–50 solo with no Summons and only Limit Form available in Final Mix. Hercules joins in round 50. Gain score with summon Limits in early blocks; round 47 is the last scoring opportunity.\n\nRounds: 1: Shadow x 3; Soldier x 3; 2: Driller Mole x 4; Hook Bats x 2; 3: Rapid Thruster x 3; Surveillance Robot x 2; 4: Rabid Dogs x 5; Creeper Plant x 2; 5: Volcanic LordSoldier x 2; 6: Cannon Gun x 3; Silver Rock x 2; 7: Icy Cubes x 3; Shadow x 4 Minute Bombs x ?; 8: Soldier x ?Silver Rock x ?Armored Knights x 4; Large Body x 1; 9: Creepers x 4; Samurai x 1; 10: Yuffie Tifa; 11: Rapid Thruster x 5; Aeroplane x 3; 12: Minute Bomb x 4; Magnum Loader x 1; Air Pirate x 2; 13: Luna Bandit x 3; Driller Mole x 2; 14: Lance Soldier x 2; Armored Knights x 2; Tornado Step x 2; 15: Blizzard Lord; 16: Soldier x 4; Wight Knight x 2; 17: Strafer x 4 Neoshadow x 4; Aerial Knocker x 4; 18: Luna Bandit x 2; Air Pirate x 2; Creeper Plant x 3; Wight Knight x 3; 19: Dusk x 2; Assassin x 2; Dragoon x 1; 20: Pete; 21: Gargoyle Knight x 3; Armored Knight x 3; 22: Fortuneteller x 2; Aeroplane x 1; Trick Ghost x 2; 23: Soldier x 2; Creeper Plant x 2; Shaman x 2; 24: Bulky Vendor x 3; 25: CloudTifa; 26: Bolt Tower x 2; Hammer Frame x 2; Neoshadow x 1; 27: Gargoyle Warrior x 2 Rabid Dog x 4; Nightwalker x 4; 28: Bookmaster x 2; Emerald Blues x 4; Shaman x 4; Silver Rock x 3; 29: Sniper x 2; Gambler x 2; 30: Hades; 31: Samurai x 2; Berserker x 1; Creeper x 2; 32: Dancer x 3; Water Clone x 3; 33: Samurai x 4; 34: Sorcerer x 2; 35: Rapid Thruster x ?; 36: Berserker x 3; 37: Sniper x 2; Assassin x 3; Dragoon x 4; 38: Dusk x 6; Samurai x 3; Dancer x 3; Gambler x 4; Sorcerer x 1; 39: Dragoon x 4; 40: Leon Cloud; 41: Toy Soldier x 2; Graveyard x 2; 42: Living Bone x 2; Fortuneteller x 1; 43: Morning Star x 2; Large Body x 2; 44: Living Bone x 3; 45: Armored Knight x ?Surveillance Robot x ?; 46: Hot Rod x 2; Devastator x 1; 47: Bulky Vendor x 1; Lance Soldier x 2; Living Bone x 1; Emerald Blues x 2; Assault Rider x 2; Morning Star x 3; Crescendo x 5; 48: Cerberus; 49: LeonCloudYuffieTifa; 50: Hades.",
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Hades_Paradox_Cup",
@@ -9570,8 +10687,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Mail_Delivery",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Deliver to all five recipients; use Grind to reach the elevated dove without backtracking.",
+    "area": "Market Street: Station Heights"
   },
   {
     "id": "kh2fm.minigames.cargo-climb",
@@ -9581,8 +10703,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Cargo_Climb",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Attack the cart from behind, keeping it centered uphill. Follow its launch with an aerial finisher; Negative Combo reduces the setup hits.",
+    "area": "Market Street: Station Heights"
   },
   {
     "id": "kh2fm.minigames.grandstander",
@@ -9592,8 +10719,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Grandstander",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Keep the ball airborne. Berserk Charge during MP recharge suppresses finishers and permits a long string of hits.",
+    "area": "Market Street: Station Heights"
   },
   {
     "id": "kh2fm.minigames.poster-duty",
@@ -9603,8 +10735,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Poster_Duty",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Plan a loop through clustered poster sites. Use High Jump, Aerial Dodge and Glide between clusters; posting refreshes the aerial-dodge opportunity.",
+    "area": "Market Street: Tram Common"
   },
   {
     "id": "kh2fm.minigames.bumble-buster",
@@ -9614,8 +10751,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Bumble_Buster",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Gather the swarms with Magnet, then use Fire or Thunder to clear them together.",
+    "area": "Market Street: Tram Common"
   },
   {
     "id": "kh2fm.minigames.junk-sweep",
@@ -9625,8 +10767,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Junk_Sweep",
+      "https://www.khwiki.com/Prop"
+    ],
+    "instructions": "\n\nStart at this area’s Help Wanted board. Start from the help-wanted board. Line up debris so one pile hits others; use Negative Combo and remove Combo Plus to reach finishers immediately. The target counts swings, not elapsed time.",
+    "area": "Market Street: Tram Common"
   },
   {
     "id": "kh2fm.minigames.hayner-struggle",
@@ -9636,8 +10783,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Struggle",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+    ],
+    "instructions": "\n\nUse the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs.",
+    "area": "Sandlot",
+    "prerequisites": "Return for Sora’s late Twilight Town visit."
   },
   {
     "id": "kh2fm.minigames.setzer-struggle",
@@ -9647,8 +10799,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Struggle",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+    ],
+    "instructions": "\n\nUse the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs.",
+    "area": "Sandlot",
+    "prerequisites": "Win ten matches against Hayner as Sora."
   },
   {
     "id": "kh2fm.minigames.seifer-struggle",
@@ -9658,8 +10815,13 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Struggle",
+      "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/62"
+    ],
+    "instructions": "\n\nUse the Struggle organizer to select the opponent. Knock out the opponent’s orbs, then collect them while the opponent is stunned. Draw helps collect scattered orbs; Trinity Limit rapidly stuns the opponent. Hayner’s target is a winning margin of 100; Setzer’s is a final score of 150; Seifer’s is all 200 orbs.",
+    "area": "Sandlot",
+    "prerequisites": "Win ten matches against Setzer as Sora."
   },
   {
     "id": "kh2fm.minigames.sb-street-rave",
@@ -9669,8 +10831,11 @@ export const entries: CollectionEntry[] = [
     "world": "Twilight Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Skateboard"
+    ],
+    "instructions": "\n\nTalk to the girl beside Wantz’s Item Shop. Score across five jumps; no timer.",
+    "area": "Market Street: Station Heights"
   },
   {
     "id": "kh2fm.minigames.sb-freestyle",
@@ -9680,8 +10845,11 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Skateboard"
+    ],
+    "instructions": "\n\nTalk to Scrooge McDuck. Reach 200 in one continuous trick sequence; touching ground or a wall resets the score.",
+    "area": "Marketplace"
   },
   {
     "id": "kh2fm.minigames.phil-s-training-maniac",
@@ -9691,8 +10859,12 @@ export const entries: CollectionEntry[] = [
     "world": "Olympus Coliseum",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Phil%27s_Training"
+    ],
+    "instructions": "\n\nTalk to Phil and select Maniac. Break the pots and collect the released points; the Journal requires 1,000 points.",
+    "area": "Coliseum"
   },
   {
     "id": "kh2fm.minigames.magic-carpet",
@@ -9702,19 +10874,26 @@ export const entries: CollectionEntry[] = [
     "world": "Agrabah",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Magic_Carpet"
+    ],
+    "instructions": "\n\nAfter Agrabah’s second visit, activate the switch. Use finishers against large enemies and knock airborne enemies into Fat Bandits for additional defeats.",
+    "area": "Ruined Chamber"
   },
   {
     "id": "kh2fm.minigames.sb-sand-glider",
     "category": "minigames",
-    "name": "SB Sand Glider",
+    "name": "SB Sand Slider",
     "summary": "Target: ≥10.",
     "world": "Agrabah",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Skateboard"
+    ],
+    "instructions": "\n\nTalk to the Peddler. Collect at least ten crystals within 30 seconds.",
+    "area": "The Peddler’s Shop"
   },
   {
     "id": "kh2fm.minigames.a-blustery-rescue",
@@ -9724,8 +10903,12 @@ export const entries: CollectionEntry[] = [
     "world": "100 Acre Wood",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/A_Blustery_Rescue"
+    ],
+    "instructions": "\n\nAfter the first Torn Page, replay by talking to Piglet. Break pots and logs, use whirlwinds when many objects are visible, and reclaim Pooh immediately if hit.",
+    "area": "Piglet's House"
   },
   {
     "id": "kh2fm.minigames.hunny-slider",
@@ -9735,8 +10918,12 @@ export const entries: CollectionEntry[] = [
     "world": "100 Acre Wood",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Hunny_Slider"
+    ],
+    "instructions": "\n\nAfter the second Torn Page, talk to Rabbit. Follow the hunny trails, use Gopher as protection, and recover Pooh immediately after a collision.",
+    "area": "Rabbit's House"
   },
   {
     "id": "kh2fm.minigames.balloon-bounce",
@@ -9746,8 +10933,12 @@ export const entries: CollectionEntry[] = [
     "world": "100 Acre Wood",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Balloon_Bounce"
+    ],
+    "instructions": "\n\nAlternate short bounces along a row with a timed high bounce to reach the next row. Reach the highest balloons for the large score bonus.",
+    "area": "Kanga's House"
   },
   {
     "id": "kh2fm.minigames.the-expotition",
@@ -9757,8 +10948,12 @@ export const entries: CollectionEntry[] = [
     "world": "100 Acre Wood",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/The_Expotition"
+    ],
+    "instructions": "\n\nTalk to Kanga. Keep the group close, calm frightened friends, avoid shining ice, and clear bees with Thunder or Magnet. Final Mix allows five minutes to finish, but the Journal target remains 90 seconds.",
+    "area": "The Spooky Cave"
   },
   {
     "id": "kh2fm.minigames.the-hunny-pot",
@@ -9768,8 +10963,12 @@ export const entries: CollectionEntry[] = [
     "world": "100 Acre Wood",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/The_Hunny_Pot"
+    ],
+    "instructions": "\n\nTalk to Pooh. Trigger Swing near full power, then Release toward open ground. In Final Mix Release becomes available after one and a half rotations; the filling gauge resets immediately at maximum.",
+    "area": "Starry Hill"
   },
   {
     "id": "kh2fm.minigames.gift-wrapping",
@@ -9779,8 +10978,12 @@ export const entries: CollectionEntry[] = [
     "world": "Halloween Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Gift_Wrapping"
+    ],
+    "instructions": "\n\nTalk to the elf after the story activity. Fill large boxes quickly, reload the 30-toy magazine, and stun Lock, Shock and Barrel before they knock boxes away.",
+    "area": "Santa's House: Wrapping Room"
   },
   {
     "id": "kh2fm.minigames.sb-workshop-rave",
@@ -9790,8 +10993,11 @@ export const entries: CollectionEntry[] = [
     "world": "Halloween Town",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Skateboard"
+    ],
+    "instructions": "\n\nTalk to Lock. Score at least 1,000 within 30 seconds in one attempt.",
+    "area": "Yuletide Hill"
   },
   {
     "id": "kh2fm.minigames.sb-time-attack",
@@ -9801,8 +11007,11 @@ export const entries: CollectionEntry[] = [
     "world": "Port Royal",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://www.khwiki.com/Skateboard"
+    ],
+    "instructions": "\n\nTalk to Will Turner. Collect all 23 crystals within 40 seconds.",
+    "area": "Rampart"
   },
   {
     "id": "kh2fm.minigames.light-cycle",
@@ -9812,8 +11021,12 @@ export const entries: CollectionEntry[] = [
     "world": "Space Paranoids",
     "collectible": false,
     "sources": [
-      "https://www.khwiki.com/Minigames"
-    ]
+      "https://www.khwiki.com/Mini-games",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108",
+      "https://www.khwiki.com/Light_Cycle"
+    ],
+    "instructions": "\n\nReplay through the computer terminal after the story course. Use the attack that counters each enemy action, and watch the directional turn prompts.",
+    "area": "Game Grid"
   },
   {
     "id": "kh2fm.gummi.highwind-blueprint",
@@ -9823,7 +11036,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Asteroid Sweep LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.pupu-blueprint",
@@ -9833,7 +11047,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Stardust Sweep LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.tonberry-blueprint",
@@ -9843,7 +11058,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Phantom Storm LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.moogle-blueprint",
@@ -9853,7 +11069,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Splash Island LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.mandragora-blueprint",
@@ -9863,7 +11080,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Floating Island LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.chocobo-blueprint",
@@ -9873,7 +11091,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Ancient Highway LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.cactuar-blueprint",
@@ -9883,7 +11102,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Broken Highway LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.cait-sith-blueprint",
@@ -9893,7 +11113,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Sunlight Storm LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.fenrir-blueprint",
@@ -9903,7 +11124,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Assault of the Dreadnought LV2 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.mushroom-blueprint",
@@ -9913,7 +11135,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Assault of the Dreadnought LV1 rank S. Teeny blueprints unlocked together: none."
   },
   {
     "id": "kh2fm.gummi.kingdom-blueprint",
@@ -9923,7 +11146,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Defeat the Spider (G) on the front screen in Asteroid Sweep Mission 2. Teeny blueprints unlocked together: Kingdom."
   },
   {
     "id": "kh2fm.gummi.secret-blueprint",
@@ -9933,7 +11157,8 @@ export const entries: CollectionEntry[] = [
     "collectible": false,
     "sources": [
       "https://www.khwiki.com/Blueprint"
-    ]
+    ],
+    "instructions": "Special blueprint. Acquisition: Defeat Hunter-X on the front screen in Assault of the Dreadnought Mission 3. Teeny blueprints unlocked together: Secret."
   },
   {
     "id": "kh2fm.gummi.asteroid-sweep-mission-1-normal",
@@ -9942,7 +11167,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Asteroid Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Patterned Skins A; A: 26 → Neon Orb/G; B: 22 → Mini-Propeller/G; C: 18 → Fira/G; D: 14 → Thundara/G; E: 10 → Laser Upgrade.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Gravity/G; Ring Tank (R) — Left — Thunder/G; Knight Head (R) — Back — Fire/G; Knight Head (R) — Front — Blizzard/G; Knight Head (R) — Front — Material/G x10; Knight Head (G) — Front — Neon Bar/G; U.F.O. (R) — Front — Square Light/G; U.F.O. (R) — Front — Flat Helm/G; Knight Head (G) — Front — Typhoon/G.",
     "reward": "Patterned Skins A",
     "collectible": false,
     "sources": [
@@ -9970,7 +11195,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 500 enemy defeats.",
     "area": "Asteroid Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 500 → Highwind α; A: 440 → Propeller/G; B: 380 → Large Shield/G; C: 320 → Fira/G; D: 260 → Saw/G; E: 200 → Gravira/G.\n\nEnemy treasures (enemy — screen — reward): Knight Head (R) — Back — Fire/G; U.F.O. (G) — Back — Tempest/G; Ring Tank (G) — Right — Tempest/G; U.F.O. (R) — Front — Blizzard/G; Spider (R) — Front — Propeller/G; Knight Head (R) — Back — Fire/G; Mega Tank (R) — Front — Blizzard/G; Spider (G) — Front — Kingdom; Knight Head (G) — Front — Vernier/G; Bomb Bell (G) — Front — Storm/G; Knight Head (R) — Front — Vernier/G.",
     "reward": "Highwind α",
     "collectible": false,
     "sources": [
@@ -9998,7 +11223,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 2,900,000 points.",
     "area": "Asteroid Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 2900000 → Flat Helm/G; A: 900000 → Hurricane/G; B: 800000 → Thruster/G; C: 700000 → Radar/G; D: 600000 → Gungnir/G; E: 500000 → Masamune/G.\n\nEnemy treasures (enemy — screen — reward): U.F.O. (G) — Back — Neon Bar/G; Ring Tank (G) — Right — Wheel/G; U.F.O. (R) — Front — Thunder/G; Ring Tank (R) — Left — Blizzard/G; Bomb Bell (R) — Front — Gravity/G; Spider (R) — Front — Slash Haste; Knight Head (R) — Back — Vernier/G; Knight Head (R) — Right — Tempest/G; Knight Head (R) — Left — Fire/G; Knight Head (R) — Back — Typhoon/G; Knight Head (R) — Back — Vernier/G; Knight Head (R) — Front — Sonic Turbo/G; Spider (G) — Front — Slash Precharge; Knight Head (R) — Front — Tempest/G; Knight Head (R) — Front — Fire/G; Bomb Bell (G) — Front — Typhoon/G.",
     "reward": "Flat Helm/G",
     "collectible": false,
     "sources": [
@@ -10026,7 +11251,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Stardust Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Patterned Skins B; A: 26 → Rotor/G; B: 22 → Shield/G; C: 18 → Solid Helm/G; D: 14 → Blizzara/G; E: 10 → Cannon Upgrade.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Heal Upgrade; Gatling Ship (R) — Front — Blizzard/G; Hex Ring (R) — Back — Fire/G; Cyclops (R) — Left — Fire/G; Gatling Ship (R) — Right — Bubble Helm/G; Gatling Ship (R) — Right — Fire/G; Hunter — Back — Material/G x10; Knight Head (R) — Back — Vernier/G; Cyclops (R) — Left — Thunder/G; Cyclops (R) — Front — Blizzard/G; Knight Head (R) — Back — Vernier/G; Spider — Front — Thunder/G; Knight Head (R) — Front — Blizzard/G; Knight Head (G) — Front — Typhoon/G; Bomb Bell (G) — Front — Neon Orb/G.",
     "reward": "Patterned Skins B",
     "collectible": false,
     "sources": [
@@ -10054,7 +11279,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 500 enemy defeats.",
     "area": "Stardust Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 500 → PuPu; A: 440 → Thruster/G; B: 380 → Parabola/G; C: 320 → Blizzara/G; D: 260 → Radar/G; E: 200 → Orichalcum/G.\n\nEnemy treasures (enemy — screen — reward): Spider — Back — Heal Upgrade; Knight Head (G) — Back — Storm/G; Bomb Bell (R) — Front — Gravity/G; Gatling Ship (R) — Front — Tempest/G; Knight Head (R) — Front — Vernier/G; Knight Head (R) — Front — Fire/G; Hunter — Front — Thunder/G; Cyclops (G) — Front — Screw Propeller/G; Knight Head (R) — Front — Vernier/G; Gatling Ship (R) — Front — Slash Precharge; Spider — Front — Fire/G; Gatling Ship (R) — Front — Slash Haste; Spider — Front — Blizzard/G; Gatling Ship (R) — Front — Tempest/G.",
     "reward": "PuPu",
     "collectible": false,
     "sources": [
@@ -10082,7 +11307,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 3,100,000 points.",
     "area": "Stardust Sweep",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 3100000 → Bubble Helm/G; A: 900000 → Sonic Turbo/G; B: 800000 → Booster/G; C: 700000 → Drill/G; D: 600000 → Antenna/G; E: 500000 → Comet/G.\n\nEnemy treasures (enemy — screen — reward): Spider — Back — Booster/G; Knight Head (G) — Back — Neon Bar/G; Gatling Ship (R) — Front — Fire/G; Cyclops (R) — Left — Cyclone/G; Cyclops (R) — Front — Thruster/G; Cyclops (R) — Back — Cyclone/G; Cyclops (R) — Back — Thruster/G; Cyclops (G) — Back — Drill/G; Knight Head (R) — Left — Large Rotor/G; Gatling Ship (R) — Right — Fire/G; Hunter — Front — Parabola/G; Knight Head (R) — Back — Tempest/G; Cyclops (G) — Front — Rotor/G; Gatling Ship (R) — Front — Fire/G; Spider — Back — Blizzard/G; Knight Head (G) — Back — Round Light/G; Knight Head (R) — Back — Tempest/G; Bomb Bell (G) — Back — Neon Orb/G; Spider — Front — Gravity/G; Spider — Front — Mini-Propeller/G.",
     "reward": "Bubble Helm/G",
     "collectible": false,
     "sources": [
@@ -10110,7 +11335,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Phantom Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Realistic Skins; A: 26 → Hurricane/G; B: 22 → Flat Helm/G; C: 18 → Cannon Upgrade; D: 14 → Gravira/G; E: 10 → Auto-Life.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Teeny System; Knight Head (R) — Front — Square Light/G; Grappler (R) — Front — Material/G x10; Knight Head (R) — Front — Blizzara/G; Grappler (R) — Front — Fira/G; Knight Head (R) — Front — Thruster/G; Knight Head (R) — Front — Square Light/G; Grappler (G) — Front — Neon Bar/G; Skull — Front — Gravity/G.",
     "reward": "Realistic Skins",
     "collectible": false,
     "sources": [
@@ -10138,7 +11363,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 500 enemy defeats.",
     "area": "Phantom Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 500 → Tonberry; A: 440 → Storm/G; B: 380 → Sonic Turbo/G; C: 320 → Radar/G; D: 260 → Gungnir/G; E: 200 → Thundara/G.\n\nEnemy treasures (enemy — screen — reward): Grappler (R) — Back — Gravity/G; Gatling Ship (R) — Back — Fira/G; Grappler (R) — Back — Screw Propeller/G; Spiked Roller (G) — Back — Cyclone/G; Gatling Ship (G) — Front — Neon Bar/G; Grappler (G) — Front — Neon Orb/G; Grappler (R) — Front — Gravity/G; Driller (R) — Front — Meteor/G; Driller (R) — Front — Drill/G; Spiked Roller (R) — Front — Thruster/G; Skull — Front — Booster/G.",
     "reward": "Tonberry",
     "collectible": false,
     "sources": [
@@ -10166,7 +11391,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 3,100,000 points.",
     "area": "Phantom Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 3100000 → Drill/G; A: 900000 → Storm/G; B: 800000 → Large Rotor/G; C: 700000 → Bridge/G; D: 600000 → Blizzara/G; E: 500000 → Thundaga/G.\n\nEnemy treasures (enemy — screen — reward): Grappler (R) — Back — Thruster/G; Gatling Ship (R) — Back — Fira/G; Grappler (R) — Back — Thruster/G; Spiked Roller (G) — Back — Neon Bar/G; Skull — Front — Antenna/G; Gatling Ship (R) — Left — Fira/G; Gatling Ship (G) — Right — Vortex/G; Knight Head (R) — Back — Storm/G; Knight Head (R) — Back — Storm/G; Gatling Ship (G) — Back — Vortex/G; Grappler (R) — Back — Thruster/G; Grappler (G) — Back — Neon Orb/G; Knight Head (R) — Right — Blizzara/G; Spiked Roller (R) — Back — Comet/G.",
     "reward": "Drill/G",
     "collectible": false,
     "sources": [
@@ -10194,7 +11419,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Splash Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Decal Skins; A: 26 → Neon Bar/G; B: 22 → Screw Propeller/G; C: 18 → Bridge/G; D: 14 → AP Limit Upgrade; E: 10 → Heal Upgrade.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Auto-Counter; U.F.O. (R) — Front — Formation Change; Bomber (R) — Right — Fira/G; Bomber (R) — Front — Sphere Helm/G; Bomber (G) — Front — Screw Propeller/G; U.F.O. (R) — Front — Thundara/G; Shield (R) — Left — Material/G x10; Bomber (R) — Front — Booster/G.",
     "reward": "Decal Skins",
     "collectible": false,
     "sources": [
@@ -10222,7 +11447,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 350 enemy defeats.",
     "area": "Splash Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 350 → Moogle; A: 300 → Storm/G; B: 250 → Round Light/G; C: 200 → Antenna/G; D: 150 → Laser Upgrade; E: 100 → Thundaga/G.\n\nEnemy treasures (enemy — screen — reward): Gatling Ship (R) — Left — Screw Propeller/G; Gatling Ship (G) — Front — Neon Orb/G; Bomber (R) — Right — Fira/G; Knight Head (R) — Front — Comet/G; Knight Head (R) — Front — Screw Propeller/G; Shield (R) — Back — Orichalcum/G; Shield (G) — Front — Large Rotor/G.",
     "reward": "Moogle",
     "collectible": false,
     "sources": [
@@ -10250,7 +11475,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 1,700,000 points.",
     "area": "Splash Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 1700000 → Solid Helm/G; A: 900000 → Storm/G; B: 800000 → Screw Propeller/G; C: 700000 → Firaga/G; D: 600000 → Blizzaga/G; E: 500000 → Meteor/G.\n\nEnemy treasures (enemy — screen — reward): U.F.O. (R) — Front — Rotor/G; Gatling Ship (R) — Left — Fira/G; Gatling Ship (R) — Front — Comet/G; Bomber (G) — Front — Neon Bar/G; Bomber (R) — Back — Storm/G; Bomber (R) — Front — Firaga/G; Bomber (G) — Front — Vortex/G; Knight Head (R) — Front — Square Light/G; Knight Head (R) — Front — Screw Propeller/G; Shield (R) — Front — Flat Helm/G; U.F.O. (R) — Front — Propeller/G; Shield (G) — Back — Vortex/G; Shield (R) — Front — Large Rotor/G; Bomber (R) — Front — Thruster/G.",
     "reward": "Solid Helm/G",
     "collectible": false,
     "sources": [
@@ -10278,7 +11503,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Floating Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Variety Skins A; A: 26 → Propeller/G; B: 22 → Shell/G; C: 18 → Sphere Helm/G; D: 14 → Orichalcum/G; E: 10 → Active Formation.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Cost Limit Upgrade; Knight Head (R) — Front — Material/G x10; Crawler — Front — Mini-Propeller/G; Mega Tank (R) — Front — Fire/G; Crawler — Front — Propeller/G; Crawler — Right — Mini-Propeller/G; Crawler — Front — Propeller/G; Crawler — Front — Mini-Propeller/G; Knight Head (R) — Front — Booster/G; Bomber (R) — Back — Blizzard/G; Bomber (G) — Back — Storm/G; Crawler — Front — Mini-Propeller/G; Tank (R) — Front — Thunder/G; Bomber (R) — Front — Solid Helm/G; Crawler — Front — Propeller/G; Phoenix (R) — Back — Gravity/G; Phoenix (G) — Back — Drill/G.",
     "reward": "Variety Skins A",
     "collectible": false,
     "sources": [
@@ -10306,7 +11531,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 300 enemy defeats.",
     "area": "Floating Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 300 → Mandragora; A: 260 → Large Rotor/G; B: 220 → Cost Converter; C: 180 → Excalibur/G; D: 140 → Firaga/G; E: 100 → Graviga/G.\n\nEnemy treasures (enemy — screen — reward): Driller (R) — Back — Masamune/G; Crawler — Left — Neon Orb/G; Bomber (R) — Front — Auto-Regen; Crawler — Back — Neon Bar/G; Phoenix (R) — Back — Fira/G; Bomber (R) — Back — Rotor/G; Phoenix (R) — Back — Fira/G; Crawler — Front — Neon Bar/G; Crawler — Front — Neon Orb/G; Crawler — Front — Neon Bar/G; Phoenix (G) — Front — Propeller/G; Phoenix (R) — Front — Mini-Propeller/G; Crawler — Left — Neon Orb/G; Driller (R) — Front — Gungnir/G; Crawler — Right — Neon Bar/G; Tank (G) — Right — Bridge/G.",
     "reward": "Mandragora",
     "collectible": false,
     "sources": [
@@ -10334,7 +11559,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 1,900,000 points.",
     "area": "Floating Island",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 1900000 → Sphere Helm/G; A: 900000 → Square Light/G; B: 800000 → Mini-Propeller/G; C: 700000 → Saw/G; D: 600000 → Firaga/G; E: 500000 → Ultima/G.\n\nEnemy treasures (enemy — screen — reward): Driller (R) — Back — Masamune/G; Knight Head (R) — Front — Fira/G; Crawler — Front — Mini-Propeller/G; Bomber (R) — Front — Screw Propeller/G; Crawler — Front — Large Rotor/G; Phoenix (R) — Back — Comet/G; Bomber (R) — Back — Round Light/G; Phoenix (R) — Back — Saw/G; Crawler — Right — Rotor/G; Crawler — Left — Mini-Propeller/G; Crawler — Right — Propeller/G; Knight Head (R) — Front — Blizzara/G; Phoenix (G) — Front — Angel/G; Bomber (R) — Back — Bubble Helm/G; Bomber (G) — Back — Neon Orb/G; Phoenix (R) — Front — Comet/G; Crawler — Front — Screw Propeller/G; Crawler — Front — Propeller/G; Phoenix (G) — Back — Angel/G.",
     "reward": "Sphere Helm/G",
     "collectible": false,
     "sources": [
@@ -10362,7 +11587,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Ancient Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Variety Skins B; A: 26 → Cyclone/G; B: 22 → Wheel/G; C: 18 → Slash Upgrade; D: 14 → Firaga/G; E: 10 → Auto-Regen.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Comet/G; Phoenix (R) — Front — Blizzara/G; Reaper's Wheel — Back — Wheel/G; Speeder (G) — Front — Sonic Turbo/G; Speeder (R) — Front — Cannon Upgrade; Phoenix (R) — Front — Material/G x10; Hunter — Left — Sonic Turbo/G; Phoenix (G) — Front — Neon Orb/G.",
     "reward": "Variety Skins B",
     "collectible": false,
     "sources": [
@@ -10390,7 +11615,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 350 enemy defeats.",
     "area": "Ancient Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 350 → Chocobo; A: 300 → Angel/G; B: 250 → Shell/G; C: 200 → AP Limit Upgrade; D: 150 → Fira/G; E: 100 → Ultima/G.\n\nEnemy treasures (enemy — screen — reward): Speeder (R) — Front — Hurricane/G; Speeder (G) — Front — Angel/G; Phoenix (R) — Left — Sonic Turbo/G; Phoenix (G) — Left — Angel/G; Reaper's Wheel — Back — Sonic Turbo/G; Hex Ring (G) — Back — Typhoon/G; Phoenix (R) — Front — Hurricane/G; Phoenix (G) — Front — Typhoon/G; Hunter — Front — Antenna/G; Knight Head (G) — Front — Wheel/G.",
     "reward": "Chocobo",
     "collectible": false,
     "sources": [
@@ -10418,7 +11643,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 1,900,000 points.",
     "area": "Ancient Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 1900000 → Saw/G; A: 900000 → Neon Orb/G; B: 800000 → Wheel/G; C: 700000 → Sphere Helm/G; D: 600000 → Gravira/G; E: 500000 → Infinity/G.\n\nEnemy treasures (enemy — screen — reward): Reaper's Wheel — Back — Wheel/G; Speeder (R) — Front — Cyclone/G; Speeder (G) — Front — Darkness/G; Phoenix (R) — Left — Blizzara/G; Speeder (G) — Left — Darkness/G; Phoenix (G) — Left — Rotor/G; Reaper's Wheel — Back — Wheel/G; Speeder (R) — Front — Cyclone/G; Hex Ring (R) — Back — Firaga/G; Hex Ring (G) — Front — Neon Orb/G; Hunter — Left — Slash Upgrade; Knight Head (R) — Front — Draw; Phoenix (G) — Left — Saw/G.",
     "reward": "Saw/G",
     "collectible": false,
     "sources": [
@@ -10446,7 +11671,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Broken Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Neon Skins A; A: 26 → Typhoon/G; B: 22 → Booster/G; C: 18 → Large Shield/G; D: 14 → Blizzaga/G; E: 10 → Medal Converter.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Teeny Limit Upgrade; Knight Head (G) — Front — Rotor/G; Reaper's Wheel — Front — Wheel/G; Speeder (R) — Front — Hurricane/G; Shield (R) — Right — Shield/G; Gatling Ship (R) — Right — Laser Upgrade; Speeder (R) — Back — Material/G x10; Gatling Ship (R) — Left — Fira/G; Gatling Ship (R) — Front — Gravira/G; Speeder (R) — Left — Radar/G; Reaper's Wheel — Back — Wheel/G; Knight Head (R) — Back — Blizzara/G; Gatling Ship (R) — Back — Hurricane/G; Speeder (G) — Back — Cyclone/G.",
     "reward": "Neon Skins A",
     "collectible": false,
     "sources": [
@@ -10474,7 +11699,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 350 enemy defeats.",
     "area": "Broken Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 350 → Cactuar; A: 300 → Darkness/G; B: 250 → Wheel/G; C: 200 → Big Bridge/G; D: 150 → Blizzara/G; E: 100 → Masamune/G.\n\nEnemy treasures (enemy — screen — reward): Reaper's Wheel — Back — Saw/G; Speeder (R) — Back — Thruster/G; Knight Head (R) — Right — Vernier/G; Knight Head (R) — Right — Screw Propeller/G; Reaper's Wheel — Back — Booster/G; Knight Head (R) — Back — Firaga/G; Knight Head (R) — Front — Blizzaga/G; Knight Head (R) — Front — Thruster/G; Shield (R) — Back — Round Light/G; Gatling Ship (G) — Back — Darkness/G; Speeder (R) — Left — Thruster/G; Speeder (G) — Left — Vernier/G; Reaper's Wheel — Back — Screw Propeller/G; Knight Head (G) — Back — Darkness/G; Reaper's Wheel — Back — Sonic Turbo/G; Knight Head (R) — Back — Firaga/G.",
     "reward": "Cactuar",
     "collectible": false,
     "sources": [
@@ -10502,7 +11727,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 2,100,000 points.",
     "area": "Broken Highway",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 2100000 → Gungnir/G; A: 900000 → Neon Bar/G; B: 800000 → Wheel/G; C: 700000 → Solid Helm/G; D: 600000 → Thundara/G; E: 500000 → Excalibur/G.\n\nEnemy treasures (enemy — screen — reward): Speeder (R) — Back — Vortex/G; Knight Head (G) — Back — Neon Bar/G; Knight Head (R) — Right — Fira/G; Knight Head (R) — Right — Typhoon/G; Reaper's Wheel — Back — Saw/G; Speeder (R) — Back — Vortex/G; Gatling Ship (R) — Back — Gravira/G; Shield (R) — Front — Typhoon/G; Gatling Ship (G) — Back — Wheel/G; Gatling Ship (R) — Front — Firaga/G; Reaper's Wheel — Back — Saw/G; Gatling Ship (R) — Back — Blizzaga/G; Speeder (G) — Back — Square Light/G; Knight Head (R) — Back — Hurricane/G; Knight Head (R) — Back — Hurricane/G; Knight Head (G) — Back — Neon Orb/G; Knight Head (R) — Back — Fira/G.",
     "reward": "Gungnir/G",
     "collectible": false,
     "sources": [
@@ -10530,7 +11755,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Sunlight Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Neon Skins B; A: 26 → Sonic Turbo/G; B: 22 → Large Shell/G; C: 18 → Thundaga/G; D: 14 → AP Limit Upgrade; E: 10 → Draw.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Ultima/G; Mystic Flyer (R) — Front — Comet/G; Knight Head (R) — Right — Firaga/G; Spiked Roller (R) — Back — Round Light/G; Spider — Front — Material/G x10; Mystic Flyer (R) — Front — Round Light/G; Mystic Flyer (G) — Front — Darkness/G; Spiked Roller (R) — Front — Blizzara/G; Grappler (R) — Front — Neon Bar/G; Grappler (R) — Front — Gravira/G; Mystic Flyer (R) — Front — Blizzaga/G; Mystic Flyer (R) — Front — Comet/G; Spiked Roller (G) — Front — Darkness/G; Hunter — Front — Saw/G; Driller (R) — Front — Drill/G.",
     "reward": "Neon Skins B",
     "collectible": false,
     "sources": [
@@ -10558,7 +11783,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 600 enemy defeats.",
     "area": "Sunlight Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 600 → Cait Sith; A: 500 → Neon Orb/G; B: 400 → Drill/G; C: 300 → Parabola/G; D: 200 → Slash Upgrade; E: 100 → Infinity/G.\n\nEnemy treasures (enemy — screen — reward): Spider — Left — Round Light/G; Spiked Roller (R) — Left — Meteor/G; Grappler (R) — Left — Square Light/G; Mystic Flyer (R) — Left — Vortex/G; Knight Head (G) — Left — Mini-Propeller/G; Driller (G) — Front — Parabola/G; Mystic Flyer (R) — Front — Wheel/G; Spider (R) — Left — Firaga/G; Grappler (G) — Left — Neon Orb/G; Mystic Flyer (R) — Back — Wheel/G; Mystic Flyer (G) — Back — Neon Bar/G; Mystic Flyer (R) — Back — Vortex/G; Spiked Roller (R) — Back — Comet/G; Spider (R) — Front — Firaga/G; Spider (R) — Front — Blizzaga/G; Hunter — Back — Gungnir/G; Knight Head (G) — Front — Propeller/G.",
     "reward": "Cait Sith",
     "collectible": false,
     "sources": [
@@ -10586,7 +11811,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 3,600,000 points.",
     "area": "Sunlight Storm",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 3600000 → Bridge/G; A: 900000 → Cyclone/G; B: 800000 → Typhoon/G; C: 700000 → Orichalcum/G; D: 600000 → Comet/G; E: 500000 → Graviga/G.\n\nEnemy treasures (enemy — screen — reward): Mystic Flyer (R) — Front — Comet/G; Hunter — Back — Fira/G; Spiked Roller (R) — Left — Thruster/G; Spiked Roller (R) — Back — Rotor/G; Spider — Front — Large Rotor/G; Mystic Flyer (R) — Front — Comet/G; Grappler (R) — Left — Drill/G; Mystic Flyer (R) — Back — Excalibur/G; Mystic Flyer (G) — Back — Neon Orb/G; Mystic Flyer (R) — Back — Meteor/G; Spiked Roller (R) — Back — Blizzara/G; Hunter — Back — Booster/G; Spiked Roller (G) — Back — Neon Bar/G; Spider — Front — Propeller/G; Hunter — Front — Firaga/G; Driller (R) — Front — Gungnir/G.",
     "reward": "Bridge/G",
     "collectible": false,
     "sources": [
@@ -10614,7 +11839,7 @@ export const entries: CollectionEntry[] = [
     "summary": "Reach medal level 30.",
     "area": "Assault of the Dreadnought",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 1 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 30 → Mushroom; A: 26 → Vortex/G; B: 22 → Big Bridge/G; C: 18 → Excalibur/G; D: 14 → Meteor/G; E: 10 → Cost Converter.\n\nEnemy treasures (enemy — screen — reward): N/A — N/A — Cost Limit Upgrade; Cruiser — Front — Firaga/G; Cruiser — Front — Big Bridge/G; Speeder (R) — Front — Graviga/G; Speeder (R) — Front — Meteor/G; Cruiser — Front — Angel/G; Cruiser — Front — Large Rotor/G; Cruiser — Front — Firaga/G; Phoenix (G) — Front — Angel/G; Speeder (R) — Front — Blizzaga/G; Core — Front — Material/G x20.",
     "reward": "Mushroom",
     "collectible": false,
     "sources": [
@@ -10642,7 +11867,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 650 enemy defeats.",
     "area": "Assault of the Dreadnought",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 2 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 650 → Fenrir; A: 560 → Square Light/G; B: 470 → Vortex/G; C: 380 → Large Shell/G; D: 290 → Auto-Regen; E: 200 → Drain/G.\n\nEnemy treasures (enemy — screen — reward): Cruiser — Front — Booster/G; Mystic Flyer (G) — Front — Neon Orb/G; Phoenix (R) — Left — Firaga/G; Spider — Front — Blizzaga/G; Spider — Front — Infinity/G; Core — Right — Neon Bar/G; Spider — Left — Slash Haste; Spider — Left — Slash Precharge.",
     "reward": "Fenrir",
     "collectible": false,
     "sources": [
@@ -10670,7 +11895,7 @@ export const entries: CollectionEntry[] = [
     "summary": "S rank: 7,000,000 points.",
     "area": "Assault of the Dreadnought",
     "prerequisites": "Complete the route to open missions 1 and 2; clear both to open mission 3.",
-    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.",
+    "instructions": "Use Mission 3 from the Gummi route menu. Check this record when you earn S rank. Targets are for Final Mix.\n\nNormal ranks: S: 7000000 → Big Bridge/G; A: 900000 → Darkness/G; B: 800000 → Angel/G; C: 700000 → Meteor/G; D: 600000 → Graviga/G; E: 500000 → Firaga/G.\n\nEnemy treasures (enemy — screen — reward): Cruiser — Front — Drill/G; Cruiser — Front — Hurricane/G; Cruiser — Front — Booster/G; Mystic Flyer (G) — Front — Round Light/G; Cruiser — Front — Hurricane/G; Spider — Back — Infinity/G; Spider — Back — Comet/G; Core — Right — Medal Converter; Spider — Left — Sonic Turbo/G; Hunter-X — Front — Secret.",
     "reward": "Big Bridge/G",
     "collectible": false,
     "sources": [
@@ -10699,8 +11924,16 @@ export const entries: CollectionEntry[] = [
     "world": "Radiant Garden",
     "reward": "Chicken Little summon",
     "sources": [
-      "https://www.khwiki.com/Summon_Charms"
-    ]
+      "https://www.khwiki.com/Summon_Charms",
+      "https://www.khwiki.com/Summon",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+      "https://appmedia.jp/kh2fm/75145473",
+      "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+      "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+    ],
+    "instructions": "\n\nSummoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+    "area": "Merlin's House"
   },
   {
     "id": "kh2fm.summons.lamp-charm",
@@ -10710,8 +11943,16 @@ export const entries: CollectionEntry[] = [
     "world": "Agrabah",
     "reward": "Genie summon",
     "sources": [
-      "https://www.khwiki.com/Summon_Charms"
-    ]
+      "https://www.khwiki.com/Summon_Charms",
+      "https://www.khwiki.com/Summon",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3268532837",
+      "https://appmedia.jp/kh2fm/75145473",
+      "https://github.com/OpenKH/OpenKh/blob/868dfabe8e05ee18e306972be48ba7b75d8dd99d/OpenKh.Tests/kh2/res/fmlv_fm.bin",
+      "https://github.com/OpenKH/OpenKh/blob/7ad155877297cca2a1e16f000a249729b6eab534/OpenKh.Kh2/Battle/Fmlv.cs",
+      "https://github.com/KH-ReFined/KH-ReFined/commit/917715ec80c98c357601e0fd73e5b3e532c36921"
+    ],
+    "instructions": "\n\nSummoning requires three Drive bars and two party members present; knocked-out allies still qualify, except cups that explicitly allow solo summons. All summons share one level: gain 1 EXP whenever the Summon Gauge drops by a whole bar. The level cap is 3, 4, 5, or 7 with one, two, three, or four charms owned. Cumulative EXP for levels 1–7: 0, 6, 22, 47, 89, 152, 250. Attack just after a bar drops to refill it, then earn another EXP when it drops again.",
+    "area": "The Palace"
   },
   {
     "id": "kh2fm.bestiary.aerial-champ",
@@ -10719,7 +11960,7 @@ export const entries: CollectionEntry[] = [
     "name": "Aerial Champ",
     "summary": "Serenity Stone 4%; Remembrance Stone 8%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAerial Champ — Location: Radiant Garden; Cavern of Remembrance; HP: 109; Strength: 50; Defense: 29; EXP: 400 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (5) ×2; Remembrance Stone (8%), Serenity Stone (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10744,7 +11985,7 @@ export const entries: CollectionEntry[] = [
     "name": "Aerial Knocker",
     "summary": "Power Gem 8%; Bright Gem 4%.",
     "area": "Pride Lands · Jungle",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAerial Knocker — Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 61; Strength: 26; Defense: 14; EXP: 87 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 86; Strength: 39; Defense: 22; EXP: 248 | Location: Pride Lands; Episode 2; HP: 89; Strength: 40; Defense: 23; EXP: 278 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Power Gem (8%), Bright Gem (4%) | World(s): Pride Lands\n\nColiseum — Cerberus Cup / • Match 6: 2 Aerial Knocker | HP: 67; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 6: 2 Aerial Knocker | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 17: 4 Aerial Knocker | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10763,7 +12004,7 @@ export const entries: CollectionEntry[] = [
     "name": "Aerial Viking",
     "summary": "Serenity Stone 4%; Remembrance Stone 6%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAerial Viking — Location: Radiant Garden; Cavern of Remembrance; HP: 109; Strength: 50; Defense: 29; EXP: 400 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (5) ×2; Remembrance Stone (6%), Serenity Stone (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10788,7 +12029,7 @@ export const entries: CollectionEntry[] = [
     "name": "Aeroplane",
     "summary": "Frost Stone 8%; Bright Stone 4%.",
     "area": "Timeless River · Pier; Timeless River · Lilliput; Timeless River · Scene of the Fire",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAeroplane — Location: Timeless River; Episode 1; HP: 49; Strength: 20; Defense: 11; EXP: 45 | Location: Timeless River; Post-1000 Heartless; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, Munny (5) ×2; Frost Stone (8%), Bright Stone (4%) | World(s): Timeless River\n\nColiseum — Pain and Panic Cup / • Match 7: 6 Aeroplane | HP: 59; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 7: 6 Aeroplane | HP: 117; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 11: 3 Aeroplane ; • Match 22: 1 Aeroplane | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10811,7 +12052,7 @@ export const entries: CollectionEntry[] = [
     "name": "Air Pirate",
     "summary": "Dark Crystal 8%; Bright Crystal 4%.",
     "area": "The Land of Dragons · Encampment; The Land of Dragons · Checkpoint; The Land of Dragons · Village Cave",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAir Pirate — Location: Port Royal; Episode 1; HP: 51; Strength: 21; Defense: 11; EXP: 50 | Location: The Land of Dragons; Episode 2; HP: 76; Strength: 34; Defense: 19; EXP: 170 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Dark Crystal (8%), Bright Crystal (4%) | World(s): Port Royal, The Land of Dragons\n\nColiseum — Cerberus Cup / • Match 1: 2 Air Pirate | HP: 67; Strength: 29; Defense: 16 | Titan Cup / • Match 6: 2 Air Pirate | HP: 92; Strength: 42; Defense: 24 | Cerberus Paradox Cup / • Match 1: 2 Air Pirate | HP: 133; Strength: 62; Defense: 36 | Titan Paradox Cup / • Match 6: 2 Air Pirate | HP: 150; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 12: 2 Air Pirate ; • Match 18: 2 Air Pirate | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10830,7 +12071,7 @@ export const entries: CollectionEntry[] = [
     "name": "Armored Knight",
     "summary": "Lightning Gem 4%.",
     "area": "Radiant Garden · Bailey; Radiant Garden · Ravine Trail; Radiant Garden · Restoration Site",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nArmored Knight — Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 32; Strength: 27; Defense: 15; EXP: 16 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 34; Strength: 29; Defense: 16; EXP: 18 | Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 37; Strength: 32; Defense: 18; EXP: 24 | Location: Radiant Garden; Episode 3; HP: 46; Strength: 42; Defense: 24; EXP: 47 | Location: Beast's Castle; Episode 2; HP: 39; Strength: 34; Defense: 19; EXP: 28 | Location: Port Royal; Episode 2; HP: 40; Strength: 35; Defense: 20; EXP: 30 | Location: Halloween Town; Episode 2; HP: 43; Strength: 39; Defense: 22; EXP: 38 | Location: Pride Lands; Episode 2; HP: 45; Strength: 40; Defense: 23; EXP: 42 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×1; Lightning Gem (4%) | World(s): Radiant Garden, Beast's Castle, Port Royal, Halloween Town, Pride Lands\n\nColiseum — Hades Paradox Cup / • Match 8: 5 Armored Knight ; • Match 14: 2 Armored Knight ; • Match 21: 4 Armored Knight ; • Match 45: Infinite Armored Knight | HP: 91; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10846,7 +12087,7 @@ export const entries: CollectionEntry[] = [
     "name": "Assassin",
     "summary": "Twilight Gem 12%.",
     "area": "Radiant Garden · Transport to Remembrance; The World That Never Was · Hall of Empty Melodies (upper floor); The World That Never Was · Ruin and Creation's Passage",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAssassin — Location: Twilight Town; Roxas Day 6; HP: 37; Strength: 7; Defense: 3; EXP: 12 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Twilight Gem (12%); ; Roxas Day 6; HP prize (5) ×2, Munny (5) ×2; Hi-Potion (5%) | World(s): Twilight Town, The World That Never Was, Radiant Garden\n\nColiseum — Titan Cup / • Match 2: 4 Assassin ; • Match 8: 2 Assassin | HP: 148; Strength: 42; Defense: 24 | Goddess of Fate Cup / • Match 5: 2 Assassin | HP: 175; Strength: 50; Defense: 29 | Titan Paradox Cup / • Match 2: 4 Assassin ; • Match 8: 2 Assassin | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 19: 2 Assassin ; • Match 37: 3 Assassin | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10861,7 +12102,7 @@ export const entries: CollectionEntry[] = [
     "name": "Assault Rider",
     "summary": "Dark Stone 12%; Serenity Shard 4%.",
     "area": "The Land of Dragons · Antechamber; The Land of Dragons · Mountain Trail; The Land of Dragons · Village Cave",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAssault Rider — Location: The Land of Dragons; Episode 1; HP: 85; Strength: 12; Defense: 6; EXP: 32 | Location: The Land of Dragons; Episode 2; HP: 190; Strength: 34; Defense: 19; EXP: 340 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×2, Drive prize (3%) ×2; Dark Stone (12%), Hi-Potion (10%), Serenity Shard (4%) | World(s): The Land of Dragons\n\nColiseum — Pain and Panic Cup / • Match 7: 2 Assault Rider | HP: 148; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 7: 2 Assault Rider | HP: 273; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 7: 2 Assault Rider | HP: 293; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 47: 2 Assault Rider | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10887,7 +12128,7 @@ export const entries: CollectionEntry[] = [
     "name": "Beffudler",
     "summary": "Serenity Shard 3%; Remembrance Shard 6%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBeffudler — Location: Radiant Garden; Cavern of Remembrance; HP: 54; Strength: 34; Defense: 19; EXP: 85 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (1) ×2; Remembrance Shard (6%), Serenity Shard (3%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10912,7 +12153,7 @@ export const entries: CollectionEntry[] = [
     "name": "Berserker",
     "summary": "Dense Crystal 12%.",
     "area": "Twilight Town · Wayward Stairs: Orange; Radiant Garden · Transport to Remembrance; The World That Never Was · Naught's Skyway",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBerserker — Location: Twilight Town; Episode 1; HP: 160; Strength: 27; Defense: 15; EXP: 204 | Location: Twilight Town; Episode 2; HP: 238; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 250; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 355; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Dense Crystal (12%) | World(s): Twilight Town, The World That Never Was, Radiant Garden\n\nColiseum — Titan Cup / • Match 3: 2 Berserker ; • Match 9: 2 Berserker | HP: 230; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 3: 2 Berserker ; • Match 9: 2 Berserker | HP: 375; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 31: 1 Berserker ; • Match 36: 3 Berserker | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10927,7 +12168,7 @@ export const entries: CollectionEntry[] = [
     "name": "Bolt Tower",
     "summary": "Lightning Shard 10%; Energy Shard 4%.",
     "area": "The Land of Dragons · Imperial Square; Pride Lands · The Savannah",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBolt Tower — Location: The Land of Dragons; Episode 1; HP: 34; Strength: 12; Defense: 6; EXP: 24 | Location: The Land of Dragons; Episode 2; HP: 76; Strength: 34; Defense: 19; EXP: 255 | Location: Disney Castle; Episode 1; HP: 48; Strength: 19; Defense: 10; EXP: 62 | Location: Pride Lands; Episode 2; HP: 89; Strength: 40; Defense: 23; EXP: 417 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2, Drive prize (1%) ×4; Lightning Shard (10%), Energy Shard (4%) | World(s): The Land of Dragons, Disney Castle, Pride Lands\n\nColiseum — Pain and Panic Cup / • Match 5: 2 Bolt Tower | HP: 59; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 9: 2 Bolt Tower | HP: 109; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 5: 2 Bolt Tower | HP: 117; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 26: 2 Bolt Tower | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10947,7 +12188,7 @@ export const entries: CollectionEntry[] = [
     "name": "Bookmaster",
     "summary": "Lucid Gem 10%; Energy Crystal 4%.",
     "area": "Radiant Garden · Borough; Space Paranoids · I/O Tower: Hallway",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBookmaster — Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 64; Strength: 27; Defense: 15; EXP: 153 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 67; Strength: 29; Defense: 16; EXP: 179 | Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 74; Strength: 32; Defense: 18; EXP: 239 | Location: Radiant Garden; Episode 3; HP: 92; Strength: 42; Defense: 24; EXP: 465 | Location: Space Paranoids; Episode 2; HP: 92; Strength: 42; Defense: 24; EXP: 465 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Lucid Gem (10%), Energy Crystal (4%), Akashic Record (1%) | World(s): Radiant Garden, Space Paranoids\n\nColiseum — Titan Cup / • Match 6: 1 Bookmaster | HP: 92; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 6: 1 Bookmaster | HP: 150; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 28: 2 Bookmaster | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10965,7 +12206,7 @@ export const entries: CollectionEntry[] = [
     "name": "Camo Cannon",
     "summary": "Serenity Shard 3%; Remembrance Shard 6%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCamo Cannon — Location: Radiant Garden; Cavern of Remembrance; HP: 38; Strength: 34; Defense: 19; EXP: 85 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (1) ×2; Remembrance Shard (6%), Serenity Shard (3%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -10990,7 +12231,7 @@ export const entries: CollectionEntry[] = [
     "name": "Cannon Gun",
     "summary": "Blazing Stone 6%; Bright Stone 3%.",
     "area": "The Land of Dragons · Summit; Space Paranoids · Canyon; Space Paranoids · Simulation Hangar",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCannon Gun — Location: Port Royal; Episode 1; HP: 36; Strength: 21; Defense: 11; EXP: 25 | Location: Space Paranoids; Episode 2; HP: 65; Strength: 42; Defense: 24; EXP: 155 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×1, Munny (1) ×2; Blazing Stone (6%), Bright Stone (3%) | World(s): Port Royal, Space Paranoids\n\nColiseum — Cerberus Cup / • Match 7: 3 Cannon Gun | HP: 47; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 7: 3 Cannon Gun | HP: 94; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 6: 3 Cannon Gun | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11012,7 +12253,7 @@ export const entries: CollectionEntry[] = [
     "name": "Creeper",
     "summary": "Dense Shard 8%.",
     "area": "Radiant Garden · Transport to Remembrance; The World That Never Was · Nothing's Call; The World That Never Was · Hall of Empty Melodies (lower floor)",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCreeper — Location: Twilight Town; Roxas Days 1–3; HP: 20; Strength: 5; Defense: 2; EXP: 4 | Location: Twilight Town; Roxas Day 6; HP: 23; Strength: 7; Defense: 3; EXP: 6 | Location: Twilight Town; Episode 0 (pre-Mysterious Tower); HP: 28; Strength: 9; Defense: 4; EXP: 9 | Location: Twilight Town; Episode 2; HP: 95; Strength: 43; Defense: 25; EXP: 344 | Location: Radiant Garden; Episode 1; HP: 31; Strength: 11; Defense: 5; EXP: 12 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 67; Strength: 29; Defense: 16; EXP: 119 | Location: Radiant Garden; Cavern of Remembrance; HP: 142; Strength: 67; Defense: 39; EXP: 400 | Location: The World That Never Was; HP: 100; Strength: 45; Defense: 26; EXP: 400 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, Dense Shard (8%); ; Roxas Day 6; HP prize (5) ×3 | World(s): Twilight Town, Radiant Garden, The World That Never Was\n\nColiseum — Hades Paradox Cup / • Match 9: 4 Creeper ; • Match 31: 2 Creeper | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11028,7 +12269,7 @@ export const entries: CollectionEntry[] = [
     "name": "Creeper Plant",
     "summary": "Power Shard 8%; Bright Shard 4%.",
     "area": "Halloween Town · Hinterlands",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCreeper Plant — Location: Olympus Coliseum; Episode 1; HP: 44; Strength: 17; Defense: 9; EXP: 33 | Location: Halloween Town; Episode 2; HP: 86; Strength: 39; Defense: 22; EXP: 248 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, Munny (5) ×2; Power Shard (8%), Bright Shard (4%); ; If Root Ravager or Magnet-line magic is used; HP prize (1) ×10 | World(s): Olympus Coliseum, Halloween Town\n\nColiseum — Pain and Panic Cup / • Match 9: 4 Creeper Plant | HP: 59; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 3: 3 Creeper Plant | HP: 109; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 9: 4 Creeper Plant | HP: 117; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 4: 2 Creeper Plant ; • Match 18: 3 Creeper Plant ; • Match 23: 2 Creeper Plant | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11049,7 +12290,7 @@ export const entries: CollectionEntry[] = [
     "name": "Crescendo",
     "summary": "Blazing Crystal 6%; Bright Crystal 3%.",
     "area": "Olympus Coliseum · Underworld Caverns: The Lost Road; Olympus Coliseum · Cave of the Dead: Passage",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLoudmouth — Location: Olympus Coliseum; Episode 2; HP: 58; Strength: 37; Defense: 21; EXP: 110 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×1, Munny (1) ×2; Blazing Crystal (6%), Bright Crystal (3%); ; If Heal Stomp is used; HP prize (5) ×5 | World(s): Olympus Coliseum\n\nColiseum — Hades Paradox Cup / • Match 47: 5 Loudmouth | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11060,7 +12301,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Bright",
       "https://www.khwiki.com/Air_Pirate",
       "https://www.khwiki.com/Neoshadow",
-      "https://www.khwiki.com/Strafer"
+      "https://www.khwiki.com/Strafer",
+      "https://www.khwiki.com/Loudmouth"
     ]
   },
   {
@@ -11069,7 +12311,7 @@ export const entries: CollectionEntry[] = [
     "name": "Crimson Jazz",
     "summary": "Blazing Crystal 12%; Serenity Stone 4%.",
     "area": "Radiant Garden · Bailey; Radiant Garden · Corridors; Beast's Castle · Entrance Hall",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCrimson Jazz — Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 108; Strength: 29; Defense: 16; EXP: 238 | Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 119; Strength: 32; Defense: 18; EXP: 318 | Location: Radiant Garden; Episode 3; HP: 148; Strength: 42; Defense: 24; EXP: 620 | Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 364 | Location: Olympus Coliseum; Episode 2; HP: 132; Strength: 37; Defense: 21; EXP: 440 | Location: Agrabah; Episode 2; HP: 135; Strength: 37; Defense: 21; EXP: 468 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Blazing Crystal (12%), Mega-Ether (5%), Serenity Stone (4%) | World(s): Radiant Garden, Beast's Castle, Olympus Coliseum, Agrabah\n\nColiseum — Titan Cup / • Match 7: 2 Crimson Jazz | HP: 148; Strength: 42; Defense: 24 | Goddess of Fate Cup / • Match 4: 2 Crimson Jazz | HP: 175; Strength: 50; Defense: 29 | Titan Paradox Cup / • Match 7: 2 Crimson Jazz | HP: 240; Strength: 70; Defense: 41 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11095,7 +12337,7 @@ export const entries: CollectionEntry[] = [
     "name": "Dancer",
     "summary": "Twilight Stone 12%.",
     "area": "Twilight Town · Mansion: Basement Corridor; Twilight Town · Tower: Wayward Stairs (green); Radiant Garden · Transport to Remembrance",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDancer — Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 108; Strength: 29; Defense: 16; EXP: 238 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Twilight Stone (12%) | World(s): Radiant Garden, Twilight Town, The World That Never Was\n\nColiseum — Titan Cup / • Match 5: 3 Dancer ; • Match 9: 2 Dancer | HP: 148; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 5: 3 Dancer ; • Match 9: 2 Dancer | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 32: 3 Dancer ; • Match 38: 4 Dancer | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11110,7 +12352,7 @@ export const entries: CollectionEntry[] = [
     "name": "Devastator",
     "summary": "Lightning Crystal 12%; Serenity Stone 4%.",
     "area": "Space Paranoids · Canyon; Space Paranoids · Dataspace; Space Paranoids · I/O Tower: Hallway",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDevastator — Location: Space Paranoids; Episode 1; HP: 160; Strength: 27; Defense: 15; EXP: 255 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 185; Strength: 32; Defense: 18; EXP: 398 | Location: Space Paranoids; Episode 2; HP: 230; Strength: 42; Defense: 24; EXP: 775 | Location: Radiant Garden; Episode 3; HP: 230; Strength: 42; Defense: 24; EXP: 775 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Lightning Crystal (12%), Elixir (5%), Serenity Stone (4%) | World(s): Space Paranoids, Radiant Garden\n\nColiseum — Titan Cup / • Match 9: 1 Devastator | HP: 230; Strength: 42; Defense: 24 | Goddess of Fate Cup / • Match 5: 3 Devastator | HP: 273; Strength: 50; Defense: 29 | Titan Paradox Cup / • Match 9: 1 Devastator | HP: 375; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 46: 1 Devastator | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11136,7 +12378,7 @@ export const entries: CollectionEntry[] = [
     "name": "Dragoon",
     "summary": "Dense Shard 12%.",
     "area": "Twilight Town · Mansion: Library; Twilight Town · Tower: Star Chamber; Radiant Garden · Transport to Remembrance",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDragoon — Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 364 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Dense Shard (12%), Nobody Lance (1%) | World(s): Beast's Castle, Twilight Town, The World That Never Was, Radiant Garden\n\nColiseum — Titan Cup / • Match 6: 2 Dragoon | HP: 148; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 6: 2 Dragoon | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 19: 1 Dragoon ; • Match 37: 4 Dragoon ; • Match 39: 4 Dragoon | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11152,7 +12394,7 @@ export const entries: CollectionEntry[] = [
     "name": "Driller Mole",
     "summary": "Lightning Stone 6%; Bright Stone 3%.",
     "area": "Olympus Coliseum · Underworld Caverns: Entrance; Olympus Coliseum · Cave of the Dead: Entrance; Olympus Coliseum · Valley of the Dead",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDriller Mole — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 40; Strength: 24; Defense: 13; EXP: 37 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 58; Strength: 37; Defense: 21; EXP: 110 | Location: Olympus Coliseum; Episode 2; HP: 58; Strength: 37; Defense: 21; EXP: 110 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×1, Munny (1) ×2; Lightning Stone (6%), Bright Stone (3%) | World(s): Halloween Town, Olympus Coliseum\n\nColiseum — Cerberus Cup / • Match 2: 3 Driller Mole | HP: 47; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 2: 3 Driller Mole | HP: 94; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 2: 4 Driller Mole ; • Match 13: 2 Driller Mole | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11175,7 +12417,7 @@ export const entries: CollectionEntry[] = [
     "name": "Dusk",
     "summary": "Twilight Shard 10%.",
     "area": "Twilight Town · Mansion: Foyer; Twilight Town · Mansion: Library; Twilight Town · Mansion: Basement Corridor",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDusk — Location: Twilight Town; Roxas Days 1–3; HP: 32; Strength: 5; Defense: 2; EXP: 6 | Location: Twilight Town; Roxas Day 4; HP: 34; Strength: 6; Defense: 2; EXP: 8 | Location: Twilight Town; Roxas Day 6; HP: 37; Strength: 7; Defense: 3; EXP: 9 | Location: Twilight Town; Episode 0 (pre-Mysterious Tower); HP: 45; Strength: 9; Defense: 4; EXP: 14 | Location: Twilight Town; Episode 1; HP: 103; Strength: 27; Defense: 15; EXP: 153 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 516 | Location: Radiant Garden; Episode 1; HP: 50; Strength: 11; Defense: 5; EXP: 18 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 108; Strength: 29; Defense: 16; EXP: 179 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 600 | Location: The Land of Dragons; Episode 2; HP: 108; Strength: 29; Defense: 16; EXP: 179 | Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 273 | Location: Olympus Coliseum; Episode 2; HP: 132; Strength: 37; Defense: 21; EXP: 330 | Location: Port Royal; Episode 2; HP: 127; Strength: 35; Defense: 20; EXP: 291 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 600 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×4, Twilight Shard (10%); ; Roxas Day 1; HP prize (5) ×5, Munny (10) ×15; ; Roxas Days 2–6; HP prize (1) ×4, Munny (5) ×1, Potion (10%)[1] | World(s): Twilight Town, Radiant Garden, The Land of Dragons, Beast's Castle, Olympus Coliseum, Port Royal, The World That Never Was Notes: ^ a b Only after reaching the Station of Serenity\n\nColiseum — Titan Cup / • Match 1: 3 Dusk | HP: 148; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 1: 3 Dusk | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 19: 2 Dusk ; • Match 38: 6 Dusk | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11191,7 +12433,7 @@ export const entries: CollectionEntry[] = [
     "name": "Emerald Blues",
     "summary": "Lightning Stone 10%; Energy Gem 4%.",
     "area": "The Land of Dragons · Encampment; The Land of Dragons · Mountain Trail; The Land of Dragons · Village Cave",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nEmerald Blues — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 57; Strength: 24; Defense: 13; EXP: 110 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 82; Strength: 37; Defense: 21; EXP: 330 | Location: Space Paranoids; Episode 1; HP: 64; Strength: 27; Defense: 15; EXP: 153 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 74; Strength: 32; Defense: 18; EXP: 239 | Location: The Land of Dragons; Episode 2; HP: 76; Strength: 34; Defense: 19; EXP: 255 | Location: Agrabah; Episode 2; HP: 84; Strength: 37; Defense: 21; EXP: 351 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Lightning Stone (10%), Energy Gem (4%) | World(s): Halloween Town, Space Paranoids, The Land of Dragons, Agrabah\n\nColiseum — Cerberus Cup / • Match 9: 4 Emerald Blues | HP: 67; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 1: 2 Emerald Blues | HP: 109; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 9: 4 Emerald Blues | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 28: 4 Emerald Blues ; • Match 47: 2 Emerald Blues | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11209,7 +12451,7 @@ export const entries: CollectionEntry[] = [
     "name": "Fat Bandit",
     "summary": "Blazing Gem 12%; Serenity Shard 4%.",
     "area": "Agrabah · Agrabah; Agrabah · Bazaar",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nFat Bandit — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 135; Strength: 22; Defense: 12; EXP: 122 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 203; Strength: 36; Defense: 20; EXP: 414 | Location: Agrabah; Episode 2; HP: 210; Strength: 37; Defense: 21; EXP: 468 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Blazing Gem (12%), Ether (10%), Serenity Shard (4%) | World(s): Agrabah\n\nColiseum — Cerberus Cup / • Match 9: 1 Fat Bandit | HP: 168; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 6: 1 Fat Bandit | HP: 273; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 9: 1 Fat Bandit | HP: 333; Strength: 62; Defense: 36 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11235,7 +12477,7 @@ export const entries: CollectionEntry[] = [
     "name": "Fiery Globe",
     "summary": "Blazing Gem 4%.",
     "area": "Agrabah · Agrabah",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nFiery Globe — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 27; Strength: 22; Defense: 12; EXP: 10 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 41; Strength: 36; Defense: 20; EXP: 32 | Location: Agrabah; Episode 2; HP: 42; Strength: 37; Defense: 21; EXP: 36 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: HP prize (1) ×1, Munny (1) ×1; Blazing Gem (4%) | World(s): Agrabah\n\nColiseum — Cerberus Cup / • Match 5: 5 Fiery Globe | HP: 34; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 5: 5 Fiery Globe | HP: 67; Strength: 62; Defense: 36 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11251,7 +12493,7 @@ export const entries: CollectionEntry[] = [
     "name": "Fortuneteller",
     "summary": "Frost Gem 10%; Energy Gem 4%.",
     "area": "Agrabah · Cave of Wonders: Valley of Stone",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nFortuneteller — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 54; Strength: 22; Defense: 12; EXP: 92 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 81; Strength: 36; Defense: 20; EXP: 311 | Location: Agrabah; Episode 2; HP: 84; Strength: 37; Defense: 21; EXP: 351 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Frost Gem (10%), Energy Gem (4%) | World(s): Agrabah\n\nColiseum — Cerberus Cup / • Match 6: 2 Fortuneteller | HP: 67; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 6: 2 Fortuneteller | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 22: 2 Fortuneteller ; • Match 42: 2 Fortuneteller | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11269,7 +12511,7 @@ export const entries: CollectionEntry[] = [
     "name": "Gambler",
     "summary": "Twilight Shard 12%.",
     "area": "Twilight Town · Mansion: Foyer; Twilight Town · Mansion: Dining Room; Twilight Town · Tower: Moon Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGambler — Location: Port Royal; Episode 2; HP: 127; Strength: 35; Defense: 20; EXP: 388 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Twilight Shard (12%), Nobody Guard (1%); ; If a card or dice game is won; Munny (10) ×10; Twilight Shard (12%), Nobody Guard (3%) | World(s): Port Royal, Twilight Town, The World That Never Was, Radiant Garden\n\nColiseum — Hades Paradox Cup / • Match 29: 2 Gambler ; • Match 38: 4 Gambler | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11285,7 +12527,7 @@ export const entries: CollectionEntry[] = [
     "name": "Gargoyle Knight",
     "summary": "Dark Gem 10%; Energy Shard 4%.",
     "area": "Beast's Castle · Courtyard; Beast's Castle · The East Wing; Beast's Castle · Undercroft",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGargoyle Knight — Location: Beast's Castle; Episode 1; HP: 63; Strength: 15; Defense: 8; EXP: 35 | Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 273 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Dark Gem (10%), Energy Shard (4%) | World(s): Beast's Castle\n\nColiseum — Pain and Panic Cup / • Match 9: 2 Gargoyle Knight | HP: 95; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 9: 2 Gargoyle Knight | HP: 188; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 21: 3 Gargoyle Knight | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11304,7 +12546,7 @@ export const entries: CollectionEntry[] = [
     "name": "Gargoyle Warrior",
     "summary": "Dark Gem 10%; Energy Shard 4%.",
     "area": "Beast's Castle · Entrance Hall; Beast's Castle · Courtyard; Beast's Castle · The East Wing",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGargoyle Warrior — Location: Beast's Castle; Episode 1; HP: 63; Strength: 15; Defense: 8; EXP: 35 | Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 273 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Dark Gem (10%), Energy Shard (4%) | World(s): Beast's Castle\n\nColiseum — Pain and Panic Cup / • Match 3: 2 Gargoyle Warrior | HP: 95; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 6: 3 Gargoyle Warrior | HP: 188; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 27: 2 Gargoyle Warrior | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11323,7 +12565,7 @@ export const entries: CollectionEntry[] = [
     "name": "Graveyard",
     "summary": "Lucid Stone 12%; Serenity Shard 4%.",
     "area": "Halloween Town · Halloween Town Square; Halloween Town · Graveyard; Halloween Town · Curly Hill",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGraveyard — Location: Halloween Town; Episode 2; HP: 215; Strength: 39; Defense: 22; EXP: 496 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Lucid Stone (12%), Ether (10%), Serenity Shard (4%) | World(s): Halloween Town\n\nColiseum — Hades Paradox Cup / • Match 41: 2 Graveyard | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11349,7 +12591,7 @@ export const entries: CollectionEntry[] = [
     "name": "Hammer Frame",
     "summary": "Blazing Shard 10%; Energy Stone 4%.",
     "area": "Beast's Castle · Entrance Hall; Beast's Castle · Secret Passage; Beast's Castle · The West Wing",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHammer Frame — Location: Timeless River; Episode 1; HP: 79; Strength: 20; Defense: 11; EXP: 68 | Location: Port Royal; Episode 1; HP: 82; Strength: 21; Defense: 11; EXP: 75 | Location: Beast's Castle; Episode 2; HP: 124; Strength: 34; Defense: 19; EXP: 273 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Drive prize (1%) ×4, Munny (10) ×2; Blazing Shard (10%), Energy Stone (4%) | World(s): Timeless River, Port Royal, Beast's Castle\n\nColiseum — Cerberus Cup / • Match 2: 3 Hammer Frame | HP: 108; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 2: 3 Hammer Frame ; • Match 10: 8 Hammer Frame | HP: 175; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 2: 3 Hammer Frame | HP: 213; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 26: 2 Hammer Frame | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11368,7 +12610,7 @@ export const entries: CollectionEntry[] = [
     "name": "Hook Bat",
     "summary": "Frost Shard 6%; Bright Shard 3%.",
     "area": "The Land of Dragons · Village Cave",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHook Bat — Location: Beast's Castle; Episode 1; HP: 28; Strength: 15; Defense: 8; EXP: 12 | Location: Olympus Coliseum; Episode 1; HP: 31; Strength: 17; Defense: 9; EXP: 17 | Location: The Land of Dragons; Episode 2; HP: 54; Strength: 34; Defense: 19; EXP: 85 | Location: Agrabah; Episode 2; HP: 59; Strength: 37; Defense: 21; EXP: 117 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×1, Munny (1) ×2; Frost Shard (6%), Bright Shard (3%) | World(s): Beast's Castle, Olympus Coliseum, The Land of Dragons, Agrabah\n\nColiseum — Pain and Panic Cup / • Match 1: 5 Hook Bat ; • Match 5: 4 Hook Bat | HP: 42; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 1: 5 Hook Bat ; • Match 5: 4 Hook Bat | HP: 82; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 2: 2 Hook Bat | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11389,7 +12631,7 @@ export const entries: CollectionEntry[] = [
     "name": "Hot Rod",
     "summary": "Frost Stone 12%; Serenity Shard 4%.",
     "area": "Timeless River · Wharf; Timeless River · Building Site; Timeless River · Lilliput",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHot Rod — Location: Timeless River; Episode 1; HP: 123; Strength: 20; Defense: 11; EXP: 90 | Location: Timeless River; Post-1000 Heartless; HP: 185; Strength: 32; Defense: 18; EXP: 318 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×2, Drive prize (3%) ×2; Frost Stone (12%), Hi-Potion (10%), Serenity Shard (4%) | World(s): Timeless River\n\nColiseum — Pain and Panic Cup / • Match 4: 2 Hot Rod | HP: 148; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 9: 2 Hot Rod | HP: 273; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 4: 2 Hot Rod | HP: 293; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 46: 2 Hot Rod | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11415,7 +12657,7 @@ export const entries: CollectionEntry[] = [
     "name": "Icy Cube",
     "summary": "Frost Gem 4%.",
     "area": "Agrabah · Cave of Wonders: Entrance",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nIcy Cube — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 27; Strength: 22; Defense: 12; EXP: 10 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 41; Strength: 36; Defense: 20; EXP: 32 | Location: Agrabah; Episode 2; HP: 42; Strength: 37; Defense: 21; EXP: 36 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: MP prize (1) ×1, Munny (1) ×1; Frost Gem (4%) | World(s): Agrabah\n\nColiseum — Cerberus Cup / • Match 5: 5 Icy Cube | HP: 34; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 5: 5 Icy Cube | HP: 67; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 7: 3 Icy Cube | HP: 91; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11431,7 +12673,7 @@ export const entries: CollectionEntry[] = [
     "name": "Iron Hammer",
     "summary": "Serenity Shard 4%; Remembrance Shard 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nIron Hammer — Location: Radiant Garden; Cavern of Remembrance; HP: 122; Strength: 34; Defense: 19; EXP: 255 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Shard (10%), Serenity Shard (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11456,7 +12698,7 @@ export const entries: CollectionEntry[] = [
     "name": "Lance Soldier",
     "summary": "Frost Shard 10%; Energy Stone 4%.",
     "area": "Port Royal · Town; Port Royal · Isla de Muerta: Cave Mouth; Port Royal · Ship Graveyard: Seadrift Row",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLance Soldier — Location: Beast's Castle; Episode 1; HP: 63; Strength: 15; Defense: 8; EXP: 35 | Location: Olympus Coliseum; Episode 1; HP: 71; Strength: 17; Defense: 9; EXP: 50 | Location: Port Royal; Episode 2; HP: 127; Strength: 35; Defense: 20; EXP: 291 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Drive prize (3%) ×4, Munny (10) ×2, Frost Shard (10%), Energy Stone (4%); ; If struck while using Reckless Lance; MP prize (1) ×1; ; If Lance Tug is used; Drive prize (1%) ×10 | World(s): Beast's Castle, Olympus Coliseum, Port Royal\n\nColiseum — Pain and Panic Cup / • Match 6: 4 Lance Soldier | HP: 95; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 7: 2 Lance Soldier | HP: 175; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 6: 4 Lance Soldier | HP: 188; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 14: 2 Lance Soldier ; • Match 47: 2 Lance Soldier | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11475,7 +12717,7 @@ export const entries: CollectionEntry[] = [
     "name": "Lance Warrior",
     "summary": "Serenity Stone 4%; Remembrance Stone 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLance Warrior — Location: Radiant Garden; Cavern of Remembrance; HP: 175; Strength: 50; Defense: 29; EXP: 600 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Stone (10%), Serenity Stone (4%); ; If struck while using Reckless Lance; MP prize (1) ×1 | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11500,7 +12742,7 @@ export const entries: CollectionEntry[] = [
     "name": "Large Body",
     "summary": "Power Shard 12%; Serenity Shard 4%.",
     "area": "Beast's Castle · Ballroom; Beast's Castle · Secret Passage; Timeless River · Building Site",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLarge Body — Location: Beast's Castle; Episode 1; HP: 98; Strength: 15; Defense: 8; EXP: 46 | Location: Beast's Castle; Episode 2; HP: 193; Strength: 34; Defense: 19; EXP: 364 | Location: Olympus Coliseum; Episode 1; HP: 110; Strength: 17; Defense: 9; EXP: 66 | Location: Timeless River; Post-1000 Heartless; HP: 185; Strength: 32; Defense: 18; EXP: 318 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×2, Drive prize (3%) ×2; Power Shard (12%), Hi-Potion (10%), Serenity Shard (4%) | World(s): Beast's Castle, Olympus Coliseum, Timeless River\n\nColiseum — Pain and Panic Cup / • Match 2: 1 Large Body | HP: 148; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 6: 1 Large Body | HP: 273; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 2: 1 Large Body | HP: 293; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 8: 1 Large Body ; • Match 43: 2 Large Body | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11526,7 +12768,7 @@ export const entries: CollectionEntry[] = [
     "name": "Living Bone",
     "summary": "Frost Crystal 12%; Serenity Stone 4%.",
     "area": "Pride Lands · Elephant Graveyard; Pride Lands · The Savannah; Pride Lands · Wastelands",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLiving Bone — Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 153; Strength: 26; Defense: 14; EXP: 174 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 215; Strength: 39; Defense: 22; EXP: 496 | Location: Pride Lands; Episode 2; HP: 223; Strength: 40; Defense: 23; EXP: 556 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Frost Crystal (12%), Elixir (5%), Serenity Stone (4%) | World(s): Pride Lands\n\nColiseum — Cerberus Cup / • Match 4: 1 Living Bone | HP: 168; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 2: 1 Living Bone | HP: 273; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 4: 1 Living Bone | HP: 333; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 42: 1 Living Bone ; • Match 44: 3 Living Bone ; • Match 47: 1 Living Bone | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11551,7 +12793,7 @@ export const entries: CollectionEntry[] = [
     "name": "Luna Bandit",
     "summary": "Power Stone 8%; Bright Stone 4%.",
     "area": "Agrabah · Bazaar",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLuna Bandit — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 54; Strength: 22; Defense: 12; EXP: 61 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 81; Strength: 36; Defense: 20; EXP: 207 | Location: Agrabah; Episode 2; HP: 84; Strength: 37; Defense: 21; EXP: 234 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Power Stone (8%), Bright Stone (4%) | World(s): Agrabah\n\nColiseum — Cerberus Cup / • Match 8: 5 Luna Bandit | HP: 67; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 8: 5 Luna Bandit | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 13: 3 Luna Bandit ; • Match 18: 2 Luna Bandit | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11573,7 +12815,7 @@ export const entries: CollectionEntry[] = [
     "name": "Mad Ride",
     "summary": "Serenity Gem 4%; Remembrance Gem 12%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMad Ride — Location: Radiant Garden; Cavern of Remembrance; HP: 190; Strength: 34; Defense: 19; EXP: 340 | Physical: ×1.0; Fire: ×0; Blizzard: ×2.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Drive prize (3%) ×2; Remembrance Gem (12%), Serenity Gem (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11593,7 +12835,7 @@ export const entries: CollectionEntry[] = [
     "name": "Magic Phantom",
     "summary": "Serenity Stone 4%; Remembrance Stone 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMagic Phantom — Location: Radiant Garden; Cavern of Remembrance; HP: 122; Strength: 34; Defense: 19; EXP: 255 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Stone (10%), Serenity Stone (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11618,7 +12860,7 @@ export const entries: CollectionEntry[] = [
     "name": "Magnum Loader",
     "summary": "Lucid Gem 8%; Bright Gem 4%.",
     "area": "Space Paranoids · Dataspace",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMagnum Loader — Location: Space Paranoids; Episode 1; HP: 64; Strength: 27; Defense: 15; EXP: 102 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Location: Space Paranoids; Episode 2; HP: 92; Strength: 42; Defense: 24; EXP: 310 | Location: Radiant Garden; Episode 3; HP: 92; Strength: 42; Defense: 24; EXP: 310 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Lucid Gem (8%), Bright Gem (4%) | World(s): Space Paranoids, Radiant Garden\n\nColiseum — Titan Cup / • Match 1: 2 Magnum Loader | HP: 92; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 1: 2 Magnum Loader | HP: 150; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 12: 1 Magnum Loader | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11637,7 +12879,7 @@ export const entries: CollectionEntry[] = [
     "name": "Minute Bomb",
     "summary": "Blazing Shard 6%; Bright Shard 3%.",
     "area": "Olympus Coliseum · Underworld Caverns: Entrance; Olympus Coliseum · Valley of the Dead",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMinute Bomb — Location: Disney Castle; Episode 1; HP: 34; Strength: 19; Defense: 10; EXP: 21 | Location: Timeless River; Episode 1; HP: 35; Strength: 20; Defense: 11; EXP: 23 | Location: Olympus Coliseum; Episode 2; HP: 58; Strength: 37; Defense: 21; EXP: 110 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×1, Munny (1) ×2; Blazing Shard (6%), Bright Shard (3%) | World(s): Disney Castle, Timeless River, Olympus Coliseum\n\nColiseum — Pain and Panic Cup / • Match 2: 6 Minute Bomb ; • Match 6: 5 Minute Bomb | HP: 42; Strength: 25; Defense: 14 | Titan Cup / • Match 8: 3 Minute Bomb | HP: 65; Strength: 42; Defense: 24 | Pain and Panic Paradox Cup / • Match 2: 6 Minute Bomb ; • Match 6: 5 Minute Bomb | HP: 82; Strength: 54; Defense: 31 | Titan Paradox Cup / • Match 8: 3 Minute Bomb | HP: 105; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 7: 8 Minute Bomb ; • Match 12: 4 Minute Bomb | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11658,7 +12900,7 @@ export const entries: CollectionEntry[] = [
     "name": "Morning Star",
     "summary": "Power Crystal 12%; Serenity Stone 4%.",
     "area": "Radiant Garden · Borough; Radiant Garden · Ravine Trail; Radiant Garden · Restoration Site",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMorning Star — Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 160; Strength: 27; Defense: 15; EXP: 204 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 168; Strength: 29; Defense: 16; EXP: 238 | Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 185; Strength: 32; Defense: 18; EXP: 318 | Location: Radiant Garden; Episode 3; HP: 230; Strength: 42; Defense: 24; EXP: 620 | Location: Beast's Castle; Episode 2; HP: 193; Strength: 34; Defense: 19; EXP: 364 | Location: Olympus Coliseum; Episode 2; HP: 205; Strength: 37; Defense: 21; EXP: 440 | Location: Port Royal; Episode 2; HP: 198; Strength: 35; Defense: 20; EXP: 388 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×2, Drive prize (3%) ×2; Power Crystal (12%), Mega-Potion (5%), Serenity Stone (4%) | World(s): Radiant Garden, Beast's Castle, Olympus Coliseum, Port Royal\n\nColiseum — Titan Cup / • Match 2: 1 Morning Star | HP: 230; Strength: 42; Defense: 24 | Goddess of Fate Cup / • Match 1: 5 Morning Star | HP: 273; Strength: 50; Defense: 29 | Titan Paradox Cup / • Match 2: 1 Morning Star | HP: 375; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 43: 2 Morning Star ; • Match 47: 3 Morning Star | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11683,7 +12925,7 @@ export const entries: CollectionEntry[] = [
     "name": "Necromancer",
     "summary": "Serenity Stone 4%; Remembrance Stone 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Depths",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nNecromancer — Location: Radiant Garden; Cavern of Remembrance; HP: 76; Strength: 34; Defense: 19; EXP: 255 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Stone (10%), Serenity Stone (4%), Shaman's Relic+ (1%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11708,7 +12950,7 @@ export const entries: CollectionEntry[] = [
     "name": "Neoshadow",
     "summary": "Lucid Crystal 8%; Bright Crystal 4%.",
     "area": "Radiant Garden · Borough; Radiant Garden · Bailey; Radiant Garden · Corridors",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nNeoshadow — Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Location: Radiant Garden; Episode 3; HP: 92; Strength: 42; Defense: 24; EXP: 310 | Location: The Land of Dragons; Episode 2; HP: 76; Strength: 34; Defense: 19; EXP: 170 | Location: Beast's Castle; Episode 2; HP: 77; Strength: 34; Defense: 19; EXP: 182 | Location: Olympus Coliseum; Episode 2; HP: 82; Strength: 37; Defense: 21; EXP: 220 | Location: Port Royal; Episode 2; HP: 79; Strength: 35; Defense: 20; EXP: 194 | Location: Agrabah; Episode 2; HP: 84; Strength: 37; Defense: 21; EXP: 234 | Location: Halloween Town; Episode 2; HP: 86; Strength: 39; Defense: 22; EXP: 248 | Location: Pride Lands; Episode 2; HP: 89; Strength: 40; Defense: 23; EXP: 278 | Location: The World That Never Was; HP: 100; Strength: 45; Defense: 26; EXP: 400 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, Munny (5) ×2; Lucid Crystal (8%), Bright Crystal (4%) | World(s): Radiant Garden, The Land of Dragons, Beast's Castle, Olympus Coliseum, Port Royal, Agrabah, Halloween Town, Pride Lands, The World That Never Was\n\nColiseum — Titan Cup / • Match 5: 3 Neoshadow | HP: 92; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 5: 3 Neoshadow | HP: 150; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 17: 4 Neoshadow ; • Match 26: 1 Neoshadow | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11727,7 +12969,7 @@ export const entries: CollectionEntry[] = [
     "name": "Nightwalker",
     "summary": "Dark Stone 10%; Energy Shard 4%.",
     "area": "The Land of Dragons · Imperial Square; The Land of Dragons · Mountain Trail; The Land of Dragons · Ridge",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nNightwalker — Location: The Land of Dragons; Episode 1; HP: 34; Strength: 12; Defense: 6; EXP: 24 | Location: The Land of Dragons; Episode 2; HP: 76; Strength: 34; Defense: 19; EXP: 255 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2, Drive prize (1%) ×4; Dark Stone (10%), Energy Shard (4%) | World(s): The Land of Dragons\n\nColiseum — Goddess of Fate Cup / • Match 4: 2 Nightwalker | HP: 109; Strength: 50; Defense: 29 | Hades Paradox Cup / • Match 27: 4 Nightwalker | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11747,7 +12989,7 @@ export const entries: CollectionEntry[] = [
     "name": "Rabid Dog",
     "summary": "Lucid Shard 6%; Bright Shard 3%.",
     "area": "Port Royal · Harbor; Port Royal · The Black Pearl; Port Royal · Ship Graveyard: Seadrift Keep",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBad Dog — Location: Olympus Coliseum; Episode 1; HP: 31; Strength: 17; Defense: 9; EXP: 17 | Location: Port Royal; Episode 2; HP: 56; Strength: 35; Defense: 20; EXP: 97 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (5) ×1, Munny (1) ×2; Lucid Shard (6%), Bright Shard (3%) | World(s): Olympus Coliseum, Port Royal\n\nColiseum — Pain and Panic Cup / • Match 3: 5 Bad Dog ; • Match 7: 1 Bad Dog | HP: 42; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 3: 5 Bad Dog ; • Match 7: 1 Bad Dog | HP: 82; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 4: 5 Bad Dog ; • Match 27: 4 Bad Dog | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11759,7 +13001,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Creeper_Plant",
       "https://www.khwiki.com/Hook_Bat",
       "https://www.khwiki.com/Minute_Bomb",
-      "https://www.khwiki.com/Soldier"
+      "https://www.khwiki.com/Soldier",
+      "https://www.khwiki.com/Bad_Dog"
     ]
   },
   {
@@ -11768,7 +13011,7 @@ export const entries: CollectionEntry[] = [
     "name": "Rapid Thruster",
     "summary": "Lightning Shard 4%.",
     "area": "The Land of Dragons · Checkpoint; The Land of Dragons · Village Cave; The Land of Dragons · Ridge",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nRapid Thruster — Location: The Land of Dragons; Episode 1; HP: 17; Strength: 12; Defense: 6; EXP: 3 | Location: The Land of Dragons; Episode 2; HP: 38; Strength: 34; Defense: 19; EXP: 26 | Location: Timeless River; Episode 1; HP: 25; Strength: 20; Defense: 11; EXP: 7 | Location: Port Royal; Episode 2; HP: 40; Strength: 35; Defense: 20; EXP: 30 | Location: Agrabah; Episode 2; HP: 42; Strength: 37; Defense: 21; EXP: 36 | Location: Pride Lands; Episode 2; HP: 45; Strength: 40; Defense: 23; EXP: 42 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×1; Lightning Shard (4%) | World(s): The Land of Dragons, Timeless River, Port Royal, Agrabah, Pride Lands\n\nColiseum — Pain and Panic Cup / • Match 5: 5 Rapid Thruster ; • Match 8: 128 Rapid Thruster | HP: 30; Strength: 25; Defense: 14 | Goddess of Fate Cup / • Match 8: Infinite Rapid Thruster | HP: 55; Strength: 50; Defense: 29 | Pain and Panic Paradox Cup / • Match 5: 5 Rapid Thruster ; • Match 8: 128 Rapid Thruster | HP: 59; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 3: 4 Rapid Thruster ; • Match 11: 5 Rapid Thruster ; • Match 35: 177 Rapid Thruster | HP: 91; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11784,7 +13027,7 @@ export const entries: CollectionEntry[] = [
     "name": "Reckless",
     "summary": "Serenity Gem 4%; Remembrance Crystal 12%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nReckless — Location: Radiant Garden; Cavern of Remembrance; HP: 273; Strength: 50; Defense: 29; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Drive prize (3%) ×2; Remembrance Crystal (12%), Serenity Gem (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11804,7 +13047,7 @@ export const entries: CollectionEntry[] = [
     "name": "Runemaster",
     "summary": "Serenity Gem 4%; Remembrance Gem 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nRunemaster — Location: Radiant Garden; Cavern of Remembrance; HP: 109; Strength: 50; Defense: 29; EXP: 600 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Gem (10%), Serenity Gem (4%), Akashic Record+ (1%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11824,7 +13067,7 @@ export const entries: CollectionEntry[] = [
     "name": "Samurai",
     "summary": "Dense Gem 12%.",
     "area": "Twilight Town · Mansion: Basement Hall; Twilight Town · Tower: Wayward Stairs (blue); Radiant Garden · Transport to Remembrance",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSamurai — Location: Radiant Garden; Episode 1; HP: 50; Strength: 11; Defense: 5; EXP: 24 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Location: The Land of Dragons; Episode 2 (Pre-Xigbar reveal); HP: 122; Strength: 34; Defense: 19; EXP: 340 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Dense Gem (12%) | World(s): Radiant Garden, The Land of Dragons, Twilight Town, The World That Never Was\n\nColiseum — Titan Cup / • Match 7: 2 Samurai | HP: 148; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 7: 2 Samurai | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 9: 1 Samurai ; • Match 31: 2 Samurai ; • Match 33: 4 Samurai ; • Match 38: 4 Samurai | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11839,7 +13082,7 @@ export const entries: CollectionEntry[] = [
     "name": "Shadow",
     "summary": "Dark Shard 4%.",
     "area": "Timeless River · Wharf; Timeless River · Pier; Timeless River · Mickey's House",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShadow — Location: Twilight Town; Episode 0 (Mysterious Tower); HP: 15; Strength: 10; Defense: 5; EXP: 2 | Location: Radiant Garden; Episode 1; HP: 16; Strength: 11; Defense: 5; EXP: 2 | Location: Radiant Garden; Post-episode 1, pre-episode 2; HP: 22; Strength: 17; Defense: 9; EXP: 5 | Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 32; Strength: 27; Defense: 15; EXP: 16 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 34; Strength: 29; Defense: 16; EXP: 18 | Location: The Land of Dragons; Episode 1; HP: 17; Strength: 12; Defense: 6; EXP: 3 | Location: Beast's Castle; Episode 1; HP: 20; Strength: 15; Defense: 8; EXP: 4 | Location: Olympus Coliseum; Episode 1; HP: 22; Strength: 17; Defense: 9; EXP: 5 | Location: Disney Castle; Episode 1; HP: 24; Strength: 19; Defense: 10; EXP: 7 | Location: Timeless River; Episode 1; HP: 25; Strength: 20; Defense: 11; EXP: 7 | Location: Timeless River; Post-1000 Heartless; HP: 37; Strength: 32; Defense: 18; EXP: 24 | Location: Port Royal; Episode 1; HP: 26; Strength: 21; Defense: 11; EXP: 8 | Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 27; Strength: 22; Defense: 12; EXP: 10 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 41; Strength: 36; Defense: 20; EXP: 32 | Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 29; Strength: 24; Defense: 13; EXP: 11 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 41; Strength: 37; Defense: 21; EXP: 33 | Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 31; Strength: 26; Defense: 14; EXP: 14 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 43; Strength: 39; Defense: 22; EXP: 38 | Location: Space Paranoids; Episode 1; HP: 32; Strength: 27; Defense: 15; EXP: 16 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 37; Strength: 32; Defense: 18; EXP: 24 | Location: The World That Never Was; HP: 50; Strength: 45; Defense: 26; EXP: 60 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×1, Munny (1) ×1; Dark Shard (4%) | World(s): Twilight Town, Radiant Garden, The Land of Dragons, Beast's Castle, Olympus Coliseum, Disney Castle, Timeless River, Port Royal, Agrabah, Halloween Town, Pride Lands, Space Paranoids, The World That Never Was\n\nShadow / Coliseum — Pain and Panic Cup / • Match 1: 5 Shadow ; • Match 4: 4 Shadow | HP: 30; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 1: 5 Shadow ; • Match 4: 4 Shadow | HP: 59; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 1: 3 Shadow ; • Match 7: 4 Shadow | HP: 91; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11855,7 +13098,7 @@ export const entries: CollectionEntry[] = [
     "name": "Shaman",
     "summary": "Power Gem 10%; Energy Crystal 4%.",
     "area": "Pride Lands · Elephant Graveyard; Pride Lands · The Savannah; Pride Lands · Wildebeest Valley",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShaman — Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 61; Strength: 26; Defense: 14; EXP: 131 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 86; Strength: 39; Defense: 22; EXP: 372 | Location: Pride Lands; Episode 2; HP: 89; Strength: 40; Defense: 23; EXP: 417 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Munny (1) ×4, Munny (10) ×2; Power Gem (10%), Energy Crystal (4%), Shaman's Relic (1%) | World(s): Pride Lands\n\nColiseum — Cerberus Cup / • Match 5: 1 Shaman | HP: 67; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 5: 4 Shaman | HP: 109; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 5: 1 Shaman | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 23: 2 Shaman ; • Match 28: 4 Shaman | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11873,7 +13116,7 @@ export const entries: CollectionEntry[] = [
     "name": "Silver Rock",
     "summary": "Power Stone 6%; Bright Stone 3%.",
     "area": "Agrabah · Bazaar; Agrabah · Cave of Wonders: Valley of Stone",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSilver Rock — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 27; Strength: 22; Defense: 12; EXP: 31 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 41; Strength: 36; Defense: 20; EXP: 104 | Location: Agrabah; Episode 2; HP: 42; Strength: 37; Defense: 21; EXP: 117 | Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 31; Strength: 26; Defense: 14; EXP: 44 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 43; Strength: 39; Defense: 22; EXP: 124 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 | Rewards: MP prize (3) ×1, Munny (1) ×2; Power Stone (6%), Bright Stone (3%) | World(s): Agrabah, Pride Lands\n\nColiseum — Cerberus Cup / • Match 4: 4 Silver Rock | HP: 34; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 4: 4 Silver Rock | HP: 67; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 6: 3 Silver Rock ; • Match 8: 2 Silver Rock ; • Match 28: 4 Silver Rock | HP: 91; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11895,7 +13138,7 @@ export const entries: CollectionEntry[] = [
     "name": "Sniper",
     "summary": "Dense Stone 12%.",
     "area": "Radiant Garden · Transport to Remembrance; The Land of Dragons · Summit; The World That Never Was · Fragment Crossing",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSniper — Location: The Land of Dragons; Episode 2 (Post-Xigbar reveal); HP: 122; Strength: 34; Defense: 19; EXP: 340 | Location: Twilight Town; Episode 2; HP: 152; Strength: 43; Defense: 25; EXP: 688 | Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Dense Stone (12%) | World(s): The Land of Dragons, Twilight Town, The World That Never Was, Radiant Garden\n\nColiseum — Titan Cup / • Match 4: 2 Sniper ; • Match 8: 2 Sniper | HP: 148; Strength: 42; Defense: 24 | Goddess of Fate Cup / • Match 1: 2 Sniper | HP: 175; Strength: 50; Defense: 29 | Titan Paradox Cup / • Match 4: 2 Sniper ; • Match 8: 2 Sniper | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 29: 2 Sniper ; • Match 37: 2 Sniper | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11910,7 +13153,7 @@ export const entries: CollectionEntry[] = [
     "name": "Soldier",
     "summary": "Dark Shard 8%; Bright Shard 4%.",
     "area": "Timeless River · Lilliput; Timeless River · Mickey's House",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSoldier — Location: Twilight Town; Episode 0 (Mysterious Tower); HP: 29; Strength: 10; Defense: 5; EXP: 10 | Location: Radiant Garden; Episode 1; HP: 31; Strength: 11; Defense: 5; EXP: 12 | Location: Radiant Garden; Post-episode 1, pre-episode 2; HP: 43; Strength: 17; Defense: 9; EXP: 29 | Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 64; Strength: 27; Defense: 15; EXP: 102 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 67; Strength: 29; Defense: 16; EXP: 119 | Location: The Land of Dragons; Episode 1; HP: 34; Strength: 12; Defense: 6; EXP: 16 | Location: Beast's Castle; Episode 1; HP: 39; Strength: 15; Defense: 8; EXP: 23 | Location: Olympus Coliseum; Episode 1; HP: 44; Strength: 17; Defense: 9; EXP: 33 | Location: Disney Castle; Episode 1; HP: 48; Strength: 19; Defense: 10; EXP: 41 | Location: Timeless River; Post-1000 Heartless; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Location: Port Royal; Episode 1; HP: 51; Strength: 21; Defense: 11; EXP: 50 | Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 54; Strength: 22; Defense: 12; EXP: 61 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 81; Strength: 36; Defense: 20; EXP: 207 | Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 57; Strength: 24; Defense: 13; EXP: 73 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 82; Strength: 37; Defense: 21; EXP: 220 | Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 61; Strength: 26; Defense: 14; EXP: 87 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 86; Strength: 39; Defense: 22; EXP: 248 | Location: Space Paranoids; Episode 1; HP: 64; Strength: 27; Defense: 15; EXP: 102 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Dark Shard (8%), Bright Shard (4%) | World(s): Twilight Town, Radiant Garden, The Land of Dragons, Beast's Castle, Olympus Coliseum, Disney Castle, Timeless River, Port Royal, Agrabah, Halloween Town, Pride Lands, Space Paranoids\n\nColiseum — Pain and Panic Cup / • Match 3: 2 Soldier ; • Match 7: 2 Soldier | HP: 59; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 3: 2 Soldier ; • Match 7: 2 Soldier | HP: 117; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 1: 3 Soldier ; • Match 5: 2 Soldier ; • Match 8: 3 Soldier ; • Match 16: 4 Soldier ; • Match 23: 2 Soldier | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11931,7 +13174,7 @@ export const entries: CollectionEntry[] = [
     "name": "Sorcerer",
     "summary": "Twilight Crystal 12%.",
     "area": "Radiant Garden · Transport to Remembrance; The World That Never Was · Naught's Approach",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSorcerer — Location: The World That Never Was; HP: 160; Strength: 45; Defense: 26; EXP: 800 | Location: Radiant Garden; Cavern of Remembrance; HP: 228; Strength: 67; Defense: 39; EXP: 800 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, MP prize (3) ×2; Twilight Crystal (12%) | World(s): The World That Never Was, Radiant Garden\n\nColiseum — Hades Paradox Cup / • Match 34: 2 Sorcerer ; • Match 38: 1 Sorcerer | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11946,7 +13189,7 @@ export const entries: CollectionEntry[] = [
     "name": "Spring Metal",
     "summary": "Serenity Gem 4%; Remembrance Gem 10%.",
     "area": "Radiant Garden · Cavern of Remembrance: Engine Chamber",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSpring Metal — Location: Radiant Garden; Cavern of Remembrance; HP: 109; Strength: 50; Defense: 29; EXP: 600 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Munny (10) ×2; Remembrance Gem (10%), Serenity Gem (4%) | World(s): Radiant Garden",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11966,7 +13209,7 @@ export const entries: CollectionEntry[] = [
     "name": "Strafer",
     "summary": "Lightning Crystal 8%; Bright Crystal 4%.",
     "area": "Space Paranoids · Canyon; Space Paranoids · Solar Sailer Simulation",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nStrafer — Location: Space Paranoids; Episode 1; HP: 64; Strength: 27; Defense: 15; EXP: 102 | Location: Space Paranoids; Post-episode 1, pre-episode 2; HP: 74; Strength: 32; Defense: 18; EXP: 159 | Location: Space Paranoids; Episode 2; HP: 92; Strength: 42; Defense: 24; EXP: 310 | Location: Radiant Garden; Episode 3; HP: 92; Strength: 42; Defense: 24; EXP: 310 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×2, Munny (5) ×2; Lightning Crystal (8%), Bright Crystal (4%) | World(s): Space Paranoids, Radiant Garden\n\nColiseum — Titan Cup / • Match 3: 4 Strafer | HP: 92; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 3: 4 Strafer | HP: 150; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 17: 4 Strafer | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11986,7 +13229,7 @@ export const entries: CollectionEntry[] = [
     "name": "Surveillance Robot",
     "summary": "Lightning Gem 6%; Bright Gem 3%.",
     "area": "Radiant Garden · Restoration Site; Port Royal · Harbor; Port Royal · Town",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nWatcher — Location: Radiant Garden; Episode 2 (pre-Space Paranoids); HP: 45; Strength: 27; Defense: 15; EXP: 51 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 47; Strength: 29; Defense: 16; EXP: 60 | Location: Radiant Garden; Post-episode 2, pre-episode 3; HP: 52; Strength: 32; Defense: 18; EXP: 80 | Location: Radiant Garden; Episode 3; HP: 65; Strength: 42; Defense: 24; EXP: 155 | Location: Port Royal; Episode 2; HP: 56; Strength: 35; Defense: 20; EXP: 97 | Location: Space Paranoids; Episode 2; HP: 65; Strength: 42; Defense: 24; EXP: 155 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×1; Lightning Gem (6%), Bright Gem (3%) | World(s): Radiant Garden, Port Royal, Space Paranoids\n\nColiseum — Hades Paradox Cup / • Match 3: 2 Watcher ; • Match 45: Infinite Watcher | HP: 127; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -11996,7 +13239,8 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Surveillance_Robot",
       "https://www.khwiki.com/Bright",
       "https://www.khwiki.com/Aerial_Knocker",
-      "https://www.khwiki.com/Magnum_Loader"
+      "https://www.khwiki.com/Magnum_Loader",
+      "https://www.khwiki.com/Watcher"
     ]
   },
   {
@@ -12005,7 +13249,7 @@ export const entries: CollectionEntry[] = [
     "name": "Tornado Step",
     "summary": "Blazing Stone 8%; Bright Stone 4%.",
     "area": "Olympus Coliseum · Underworld Caverns: The Lost Road; Olympus Coliseum · Cave of the Dead: Passage",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nTornado Step — Location: Port Royal; Episode 1; HP: 51; Strength: 21; Defense: 11; EXP: 50 | Location: Olympus Coliseum; Episode 2; HP: 82; Strength: 37; Defense: 21; EXP: 220 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Blazing Stone (8%), Bright Stone (4%) | World(s): Port Royal, Olympus Coliseum\n\nColiseum — Cerberus Cup / • Match 3: 3 Tornado Step | HP: 67; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 3: 3 Tornado Step | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 14: 2 Tornado Step | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -12027,7 +13271,7 @@ export const entries: CollectionEntry[] = [
     "name": "Toy Soldier",
     "summary": "Lucid Stone 12%; Serenity Shard 4%.",
     "area": "Halloween Town · Candy Cane Lane",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nToy Soldier — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 143; Strength: 24; Defense: 13; EXP: 146 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 205; Strength: 37; Defense: 21; EXP: 440 | Location: Halloween Town; Episode 2; HP: 215; Strength: 39; Defense: 22; EXP: 496 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×2, Drive prize (3%) ×2; Lucid Stone (12%), Ether (10%), Serenity Shard (4%) | World(s): Halloween Town\n\nColiseum — Cerberus Cup / • Match 7: 1 Toy Soldier | HP: 168; Strength: 29; Defense: 16 | Goddess of Fate Cup / • Match 3: 1 Toy Soldier | HP: 273; Strength: 50; Defense: 29 | Cerberus Paradox Cup / • Match 7: 1 Toy Soldier | HP: 333; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 41: 2 Toy Soldier | HP: 453; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -12053,7 +13297,7 @@ export const entries: CollectionEntry[] = [
     "name": "Trick Ghost",
     "summary": "Lucid Shard 10%; Energy Stone 4%.",
     "area": "Halloween Town · Curly Hill; Halloween Town · Hinterlands; Halloween Town · Candy Cane Lane",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nTrick Ghost (KHII) — Location: Olympus Coliseum; Episode 1; HP: 71; Strength: 17; Defense: 9; EXP: 50 | Location: Halloween Town; Episode 2; HP: 138; Strength: 39; Defense: 22; EXP: 372 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Munny (10) ×2, Drive prize (1%) ×4; Lucid Shard (10%), Energy Stone (4%) | World(s): Olympus Coliseum, Halloween Town\n\nColiseum — Cerberus Cup / • Match 1: 2 Trick Ghost | HP: 108; Strength: 29; Defense: 16 | Titan Cup / • Match 4: 3 Trick Ghost | HP: 148; Strength: 42; Defense: 24 | Cerberus Paradox Cup / • Match 1: 2 Trick Ghost | HP: 213; Strength: 62; Defense: 36 | Titan Paradox Cup / • Match 4: 3 Trick Ghost | HP: 240; Strength: 70; Defense: 41 | Hades Paradox Cup / • Match 22: 2 Trick Ghost | HP: 290; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -12072,7 +13316,7 @@ export const entries: CollectionEntry[] = [
     "name": "Wight Knight",
     "summary": "Lucid Stone 8%; Bright Stone 4%.",
     "area": "Halloween Town · Halloween Town Square; Halloween Town · Graveyard",
-    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. This bestiary indexes synthesis sources.",
+    "instructions": "Farm these rooms after completing the story. Room encounters can alternate; leave and re-enter to find the listed enemy. Rates are base material-drop chances before Lucky Lucky. These material-source relations remain attached to the combat reference.\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nWight Knight — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 57; Strength: 24; Defense: 13; EXP: 73 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 82; Strength: 37; Defense: 21; EXP: 220 | Location: Halloween Town; Episode 2; HP: 86; Strength: 39; Defense: 22; EXP: 248 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: HP prize (1) ×2, Munny (5) ×2; Lucid Stone (8%), Bright Stone (4%) | World(s): Halloween Town\n\nColiseum — Cerberus Cup / • Match 3: 3 Wight Knight | HP: 67; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 3: Wight Knight | HP: 133; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 16: 2 Wight Knight ; • Match 18: 3 Wight Knight | HP: 181; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0",
     "checkable": false,
     "collectible": false,
     "sources": [
@@ -12303,8 +13547,14 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Journal",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_enemies",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_enemies",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_bosses",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_bosses"
+    ],
+    "instructions": "\n\nJournal roster: Assassin, Berserker, Creeper, Dancer, Dragoon, Dusk, Gambler, Samurai, Sniper, Sorcerer, Twilight Thorn."
   },
   {
     "id": "kh2fm.achievements.navigator",
@@ -12315,8 +13565,10 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Map"
+    ],
+    "instructions": "Complete the 40-entry Maps checklist: 37 original map awards plus three Cavern of Remembrance maps added in Final Mix. Chest aliases retain the original treasure check; direct awards have their own map records."
   },
   {
     "id": "kh2fm.achievements.puzzler",
@@ -12496,8 +13748,14 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Journal",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_enemies",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_enemies",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_bosses",
+      "https://www.khwiki.com/Category:Kingdom_Hearts_II_Final_Mix_bosses"
+    ],
+    "instructions": "\n\nJournal roster: Aerial Knocker, Aeroplane, Air Pirate, Armored Knight, Assault Rider, Rabid Dog, Bolt Tower, Bookmaster, Bulky Vendor, Cannon Gun, Creeper Plant, Crimson Jazz, Devastator, Driller Mole, Emerald Blues, Fat Bandit, Fiery Globe, Fortuneteller, Gargoyle Knight, Gargoyle Warrior, Graveyard, Hammer Frame, Hook Bat, Hot Rod, Icy Cube, Lance Soldier, Large Body, Living Bone, Crescendo, Luna Bandit, Magnum Loader, Minute Bomb, Morning Star, Neoshadow, Nightwalker, Possessor, Thresholder, Rapid Thruster, Shadow, Shaman, Silver Rock, Soldier, Strafer, Tornado Step, Toy Soldier, Trick Ghost, Surveillance Robot, Wight Knight, Aerial Champ, Aerial Viking, Beffudler, Camo Cannon, Iron Hammer, Lance Warrior, Mad Ride, Magic Phantom, Necromancer, Reckless, Runemaster, Spring Metal, Blizzard Lord, Volcanic Lord, Grim Reaper, Groundshaker, Illuminator, Mushroom XIII · 1, Mushroom XIII · 2, Mushroom XIII · 3, Mushroom XIII · 4, Mushroom XIII · 5, Mushroom XIII · 6, Mushroom XIII · 7, Mushroom XIII · 8, Mushroom XIII · 9, Mushroom XIII · 10, Mushroom XIII · 11, Mushroom XIII · 12, Mushroom XIII · 13, Prison Keeper, Shadow Stalker, Dark Thorn, Storm Rider."
   },
   {
     "id": "kh2fm.achievements.treasure-hunter",
@@ -12545,8 +13803,10 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Limit"
+    ],
+    "instructions": "Record all 21 entries in the Journal Limits checklist: 14 party Limits and 7 Summon Limits. Use every Genie form. Limit Form attacks do not count."
   },
   {
     "id": "kh2fm.achievements.craftsman",
@@ -12558,9 +13818,10 @@ export const entries: CollectionEntry[] = [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
-      "https://www.youtube.com/watch?v=30GuarhSuoA&t=1515s"
+      "https://www.youtube.com/watch?v=30GuarhSuoA&t=1515s",
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin"
     ],
-    "instructions": "Reach Moogle level 9, collect all 60 material types, complete every collection list, and synthesize all 59 outputs."
+    "instructions": "Complete all 54 Moogle Collection List goals, including each material family, all four ranks, all 60 types, total-deposit goals, and the 24 purchase unlocks. Visit synthesis to deposit and claim rewards; spending stock does not undo deposited totals."
   },
   {
     "id": "kh2fm.achievements.seeker",
@@ -12643,8 +13904,10 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Mickey_Mouse"
+    ],
+    "instructions": "Lose a qualifying story boss fight and choose “I won’t give up!”: Shan-Yu; Thresholder/Possessor; Shadow Stalker/Dark Thorn; Cerberus; Hydra; Blizzard Lord/Volcanic Lord; Storm Rider; Xaldin; first Grim Reaper; first Armored Xemnas. Rescue chances by prior rescue count are 100%, 80%, 64%, then 50%. With Mickey, fill the Drive Gauge using D-Charge and use Healing Light to revive Sora. Mickey cannot deliver the finishing blow."
   },
   {
     "id": "kh2fm.achievements.lingering-will",
@@ -12691,8 +13954,11 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://steamcommunity.com/stats/2552430/achievements/",
       "https://www.exophase.com/game/kingdom-hearts-hd-1-5-2-5-remix-steam/achievements/",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411"
-    ]
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3269543411",
+      "https://www.khwiki.com/Antiform",
+      "https://www.khwiki.com/Light_%26_Darkness"
+    ],
+    "instructions": "Enter Antiform thirteen times. Before multipliers its chance is 0% at 0–4 Anti Points, 10% at 5–9, and 25% at 10+. Valor/Wisdom/Limit/Master add 1 point; Final subtracts 10; Antiform subtracts 4; obtaining a Form resets the counter. Two Become One forces eligible Antiform attempts in battle after Final is unlocked. Both allies must be available; Final Form selection never becomes Antiform."
   },
   {
     "category": "prologue",
@@ -12997,6 +14263,6260 @@ export const entries: CollectionEntry[] = [
       "https://www.khwiki.com/Game:Twilight_Town",
       "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/walkthrough/prologue"
     ]
+  },
+  {
+    "id": "kh2fm.maps.twilight-town-map",
+    "category": "maps",
+    "name": "Twilight Town Map",
+    "summary": "Obtained from Hayner in the Back Alley during Roxas's 2nd day.",
+    "collectible": false,
+    "world": "Twilight Town",
+    "instructions": "Automatic prologue story award; retained for the map completion checklist.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ],
+    "character": "Roxas"
+  },
+  {
+    "id": "kh2fm.maps.mansion-map",
+    "category": "maps",
+    "name": "Mansion Map",
+    "summary": "Obtained from Naminé in Mansion: The White Room during Roxas's 6th day.",
+    "collectible": false,
+    "world": "Twilight Town",
+    "instructions": "Automatic prologue story award; retained for the map completion checklist.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ],
+    "character": "Roxas"
+  },
+  {
+    "id": "kh2fm.maps.marketplace-map",
+    "category": "maps",
+    "name": "Marketplace Map",
+    "summary": "Obtained from Yuffie at the Borough.",
+    "collectible": false,
+    "world": "Radiant Garden",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.encampment-area-map",
+    "category": "maps",
+    "name": "Encampment Area Map",
+    "summary": "Obtained from Li-Shang at the Encampment.",
+    "collectible": false,
+    "world": "The Land of Dragons",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.village-area-map",
+    "category": "maps",
+    "name": "Village Area Map",
+    "summary": "Obtained from Mushu at the Village.",
+    "collectible": false,
+    "world": "The Land of Dragons",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.castle-walls-map",
+    "category": "maps",
+    "name": "Castle Walls Map",
+    "summary": "Obtained from Beast in The Beast's Room during the 2nd visit.",
+    "collectible": false,
+    "world": "Beast's Castle",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.coliseum-map",
+    "category": "maps",
+    "name": "Coliseum Map",
+    "summary": "Obtained from Hercules at the Coliseum Foyer.",
+    "collectible": false,
+    "world": "Olympus Coliseum",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.disney-castle-map",
+    "category": "maps",
+    "name": "Disney Castle Map",
+    "summary": "Obtained from Queen Minnie at the Library.",
+    "collectible": false,
+    "world": "Disney Castle",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.window-of-time-map",
+    "category": "maps",
+    "name": "Window of Time Map",
+    "summary": "Obtained from Pete at Cornerstone Hill.",
+    "collectible": false,
+    "world": "Timeless River",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.isla-de-muerta-map",
+    "category": "maps",
+    "name": "Isla de Muerta Map",
+    "summary": "Obtain after fighting the Undead Pirates at Isla de Muerta: Rock Face.",
+    "collectible": false,
+    "world": "Port Royal",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.ship-graveyard-map",
+    "category": "maps",
+    "name": "Ship Graveyard Map",
+    "summary": "Obtained after defeating the Gambler and obtaining the Cursed Medallion at Ship Graveyard: Seadrift Keep.",
+    "collectible": false,
+    "world": "Port Royal",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.agrabah-map",
+    "category": "maps",
+    "name": "Agrabah Map",
+    "summary": "Obtained from Iago at The Peddler's Shop.",
+    "collectible": false,
+    "world": "Agrabah",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.spooky-cave-map",
+    "category": "maps",
+    "name": "Spooky Cave Map",
+    "summary": "Obtained after completing The Expotition.",
+    "collectible": false,
+    "world": "100 Acre Wood",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.maps.undersea-kingdom-map",
+    "category": "maps",
+    "name": "Undersea Kingdom Map",
+    "summary": "Clear Sebastian’s introductory timing tutorial in the Undersea Courtyard.",
+    "collectible": false,
+    "world": "Atlantica",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map",
+      "https://www.khguides.com/kh2/atlantica/"
+    ],
+    "area": "Undersea Courtyard"
+  },
+  {
+    "id": "kh2fm.maps.castle-that-never-was-map",
+    "category": "maps",
+    "name": "Castle That Never Was Map",
+    "summary": "Obtain after talking with Kairi.",
+    "collectible": false,
+    "world": "The World That Never Was",
+    "instructions": "This direct map award is separate from numbered Sora treasure chests.",
+    "sources": [
+      "https://www.khwiki.com/Map"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.comet",
+    "category": "limits",
+    "name": "Comet",
+    "summary": "Journal Limit · Donald.",
+    "collectible": false,
+    "character": "Donald",
+    "prerequisites": "Free the Cornerstone of Light. Equip Fantasia (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Comet → Comet Rain. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.duck-flare",
+    "category": "limits",
+    "name": "Duck Flare",
+    "summary": "Journal Limit · Donald.",
+    "collectible": false,
+    "character": "Donald",
+    "prerequisites": "Defeat the Grim Reaper at the Harbor on the second Port Royal visit. Equip Flare Force (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Duck Flare → Rocket Flare → Megaduck Flare. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.whirli-goof",
+    "category": "limits",
+    "name": "Whirli-Goof",
+    "summary": "Journal Limit · Goofy.",
+    "collectible": false,
+    "character": "Goofy",
+    "prerequisites": "Defeat Storm Rider. Equip Tornado Fusion (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Whirli-Goof → Whirli-Goofra → Whirli-Goofga. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.knocksmash",
+    "category": "limits",
+    "name": "Knocksmash",
+    "summary": "Journal Limit · Goofy.",
+    "collectible": false,
+    "character": "Goofy",
+    "prerequisites": "Defeat Barbossa. Equip Teamwork (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Knocksmash → Duo Raid → Cosmo Boost. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.twin-howl",
+    "category": "limits",
+    "name": "Twin Howl",
+    "summary": "Journal Limit · Beast.",
+    "collectible": false,
+    "character": "Beast",
+    "prerequisites": "Beast joins the party. Equip Howling Moon (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Twin Howl → Stalwart Fang / Outcry → Last Howl. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.bushido",
+    "category": "limits",
+    "name": "Bushido",
+    "summary": "Journal Limit · Auron.",
+    "collectible": false,
+    "character": "Auron",
+    "prerequisites": "Auron joins the party. Equip Overdrive (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Bushido → Shooting Star / Banishing Blade → Spiral. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.red-rocket",
+    "category": "limits",
+    "name": "Red Rocket",
+    "summary": "Journal Limit · Mulan.",
+    "collectible": false,
+    "character": "Mulan",
+    "prerequisites": "Mulan reveals her identity. Equip Dragonblaze (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Red Rocket → Heat Lance / Flametongue → Red Meteor. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.speedster",
+    "category": "limits",
+    "name": "Speedster",
+    "summary": "Journal Limit · Aladdin.",
+    "collectible": false,
+    "character": "Aladdin",
+    "prerequisites": "Aladdin joins the party. Equip Trick Fantasy (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Speedster → Quickplay → Trickster. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.dance-call",
+    "category": "limits",
+    "name": "Dance Call",
+    "summary": "Journal Limit · Jack Skellington.",
+    "collectible": false,
+    "character": "Jack Skellington",
+    "prerequisites": "Jack joins the party. Equip Applause, Applause (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Dance Call → Downbeat / Synchronization → Finale. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.bluff",
+    "category": "limits",
+    "name": "Bluff",
+    "summary": "Journal Limit · Jack Sparrow.",
+    "collectible": false,
+    "character": "Jack Sparrow",
+    "prerequisites": "Jack joins the party. Equip Treasure Isle (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Bluff → Jackknife / Slasher → Final Trap. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.wildcat",
+    "category": "limits",
+    "name": "Wildcat",
+    "summary": "Journal Limit · Simba.",
+    "collectible": false,
+    "character": "Simba",
+    "prerequisites": "Simba joins the party. Equip King’s Pride (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Wildcat → High Fang / X-Claw → Proud Roar. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.setup",
+    "category": "limits",
+    "name": "Setup",
+    "summary": "Journal Limit · Tron.",
+    "collectible": false,
+    "character": "Tron",
+    "prerequisites": "Access the DTD. Equip Complete Compilement (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Setup → Cluster Code / Burst Pulse → Reprogram. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.session",
+    "category": "limits",
+    "name": "Session",
+    "summary": "Journal Limit · Riku.",
+    "collectible": false,
+    "character": "Riku",
+    "prerequisites": "Riku joins the party. Equip Eternal Session (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Session → Dark Cannon / Last Saber → Master Hearts / XIII Blades → All’s End. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.trinity",
+    "category": "limits",
+    "name": "Trinity",
+    "summary": "Journal Limit · Sora.",
+    "collectible": false,
+    "character": "Sora",
+    "prerequisites": "Defeat Pete at The Lock. Equip Trinity Limit (3 AP).",
+    "instructions": "Use the Limit command with the required party member active and Sora outside Drive Forms. Finish the command sequence to register the entry: Trinity → Break / Ultima / Major Drive → Begin Combo. Party Limits consume Sora’s remaining MP; Trinity uses Donald and Goofy for its full sequence.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.never-land",
+    "category": "limits",
+    "name": "Never Land",
+    "summary": "Journal Summon Limit · Peter Pan.",
+    "collectible": false,
+    "character": "Peter Pan",
+    "prerequisites": "Feather Charm.",
+    "instructions": "Summon Peter Pan, then use this Limit and complete its sequence: Tiny Fairy / The Flying Boy → Journey’s End. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.fps-mode",
+    "category": "limits",
+    "name": "FPS Mode",
+    "summary": "Journal Summon Limit · Chicken Little.",
+    "collectible": false,
+    "character": "Chicken Little",
+    "prerequisites": "Baseball Charm.",
+    "instructions": "Summon Chicken Little, then use this Limit and complete its sequence: Balls / Firecrackers. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.ohana",
+    "category": "limits",
+    "name": "Ohana!",
+    "summary": "Journal Summon Limit · Stitch.",
+    "collectible": false,
+    "character": "Stitch",
+    "prerequisites": "Ukulele Charm.",
+    "instructions": "Summon Stitch, then use this Limit and complete its sequence: Shoot / Ukulele → Blast. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.sonic-rave",
+    "category": "limits",
+    "name": "Sonic Rave",
+    "summary": "Journal Summon Limit · Genie.",
+    "collectible": false,
+    "character": "Genie",
+    "prerequisites": "Lamp Charm and Valor Form.",
+    "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Sonic → Rave. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.strike-raid",
+    "category": "limits",
+    "name": "Strike Raid",
+    "summary": "Journal Summon Limit · Genie.",
+    "collectible": false,
+    "character": "Genie",
+    "prerequisites": "Lamp Charm and Wisdom Form.",
+    "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Strike → Judgement. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.final-arcana",
+    "category": "limits",
+    "name": "Final Arcana",
+    "summary": "Journal Summon Limit · Genie.",
+    "collectible": false,
+    "character": "Genie",
+    "prerequisites": "Lamp Charm and Master Form.",
+    "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Arcana → Bash. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.limits.infinity",
+    "category": "limits",
+    "name": "Infinity",
+    "summary": "Journal Summon Limit · Genie.",
+    "collectible": false,
+    "character": "Genie",
+    "prerequisites": "Lamp Charm and Final Form.",
+    "instructions": "Summon Genie and select the matching Genie form, then use this Limit and complete its sequence: Infinity → Impact. It spends Summon Gauge instead of MP. The four Limit Form attacks are not Journal Limit entries.",
+    "sources": [
+      "https://www.khwiki.com/Limit"
+    ]
+  },
+  {
+    "id": "kh2fm.challenges.sephiroth",
+    "category": "challenges",
+    "name": "Sephiroth",
+    "summary": "Optional battle; Fenrir requires a separate follow-up.",
+    "collectible": false,
+    "world": "Radiant Garden",
+    "area": "Dark Depths",
+    "prerequisites": "Complete the Battle of the 1000 Heartless.",
+    "reward": "Drive Gauge +1; Cloud follow-up unlocks Fenrir",
+    "instructions": "Defeat Sephiroth, talk to Cloud at the Marketplace, then return to Dark Depths and talk to Sephiroth. After the scene Tifa gives Fenrir. Use the Block reaction command for the opening attack and interrupt Heartless Angel before it completes.",
+    "sources": [
+      "https://www.khwiki.com/Fenrir",
+      "https://www.khwiki.com/Game:Sephiroth"
+    ]
+  },
+  {
+    "id": "kh2fm.challenges.lingering-will",
+    "category": "challenges",
+    "name": "Lingering Will",
+    "summary": "Optional battle; first victory and rematches have different rewards.",
+    "collectible": false,
+    "world": "Disney Castle",
+    "area": "Hall of the Cornerstone",
+    "prerequisites": "Complete every world’s story, including Atlantica and 100 Acre Wood, defeat the final boss and load the clear save.",
+    "reward": "First victory: Proof of Connection and stat rewards. Rematches: Manifest Illusion.",
+    "instructions": "Examine the portal to the Badlands. Claim Proof of Connection on the first victory; revisit the portal for repeatable Manifest Illusion. Keep the Proof of Peace and Proof of Nonexistence receipts separate for the crown.",
+    "categories": [
+      "proofs"
+    ],
+    "sources": [
+      "https://www.khwiki.com/Game:Lingering_Will",
+      "https://www.trueachievements.com/a293114/lingering-will-achievement"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-1-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 1 different material types",
+    "summary": "Reward: Elixir.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-5-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 5 different material types",
+    "summary": "Reward: Free Development set 1.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-10-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 10 different material types",
+    "summary": "Reward: AP Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-15-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 15 different material types",
+    "summary": "Reward: Megalixir.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 20 different material types",
+    "summary": "Reward: Free Development set 2.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 25 different material types",
+    "summary": "Reward: AP Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 30 different material types",
+    "summary": "Reward: Defense Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-35-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 35 different material types",
+    "summary": "Reward: AP Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-40-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 40 different material types",
+    "summary": "Reward: Power Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-45-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 45 different material types",
+    "summary": "Reward: AP Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-50-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 50 different material types",
+    "summary": "Reward: Magic Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-55-different-material-types",
+    "category": "moogle",
+    "name": "Deposit 55 different material types",
+    "summary": "Reward: Orichalcum.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-60-material-types",
+    "category": "moogle",
+    "name": "Deposit all 60 material types",
+    "summary": "Reward: Orichalcum+.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock. Deposit an Orichalcum+ from one of the other six sources before completing this goal.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-50-materials-in-total",
+    "category": "moogle",
+    "name": "Deposit 50 materials in total",
+    "summary": "Reward: Serenity Shard.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-100-materials-in-total",
+    "category": "moogle",
+    "name": "Deposit 100 materials in total",
+    "summary": "Reward: Serenity Stone.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-250-materials-in-total",
+    "category": "moogle",
+    "name": "Deposit 250 materials in total",
+    "summary": "Reward: Serenity Gem.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-500-materials-in-total",
+    "category": "moogle",
+    "name": "Deposit 500 materials in total",
+    "summary": "Reward: Serenity Crystal.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-1000-materials-in-total",
+    "category": "moogle",
+    "name": "Deposit 1000 materials in total",
+    "summary": "Reward: Orichalcum.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-dense-materials",
+    "category": "moogle",
+    "name": "Deposit all four Dense materials",
+    "summary": "Reward: Serenity Gem.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-twilight-materials",
+    "category": "moogle",
+    "name": "Deposit all four Twilight materials",
+    "summary": "Reward: Serenity Crystal.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-mythril-materials",
+    "category": "moogle",
+    "name": "Deposit all four Mythril materials",
+    "summary": "Reward: AP Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-remembrance-materials",
+    "category": "moogle",
+    "name": "Deposit all four Remembrance materials",
+    "summary": "Reward: Serenity Crystal.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-tranquility-materials",
+    "category": "moogle",
+    "name": "Deposit all four Tranquility materials",
+    "summary": "Reward: Serenity Crystal.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-bright-materials",
+    "category": "moogle",
+    "name": "Deposit all four Bright materials",
+    "summary": "Reward: Defense Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-energy-materials",
+    "category": "moogle",
+    "name": "Deposit all four Energy materials",
+    "summary": "Reward: Power Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-four-serenity-materials",
+    "category": "moogle",
+    "name": "Deposit all four Serenity materials",
+    "summary": "Reward: Magic Boost.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-14-rank-c-materials",
+    "category": "moogle",
+    "name": "Deposit all 14 rank C materials",
+    "summary": "Reward: Serenity Shard.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-14-rank-b-materials",
+    "category": "moogle",
+    "name": "Deposit all 14 rank B materials",
+    "summary": "Reward: Serenity Stone.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-16-rank-a-materials",
+    "category": "moogle",
+    "name": "Deposit all 16 rank A materials",
+    "summary": "Reward: Manifest Illusion.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-all-16-rank-s-materials",
+    "category": "moogle",
+    "name": "Deposit all 16 rank S materials",
+    "summary": "Reward: Lost Illusion.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-blazing-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Blazing Shards",
+    "summary": "Reward: Unlimited Blazing Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-blazing-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Blazing Stones",
+    "summary": "Reward: Unlimited Blazing Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-blazing-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Blazing Gems",
+    "summary": "Reward: Unlimited Blazing Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-frost-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Frost Shards",
+    "summary": "Reward: Unlimited Frost Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-frost-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Frost Stones",
+    "summary": "Reward: Unlimited Frost Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-frost-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Frost Gems",
+    "summary": "Reward: Unlimited Frost Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-lightning-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Lightning Shards",
+    "summary": "Reward: Unlimited Lightning Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-lightning-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Lightning Stones",
+    "summary": "Reward: Unlimited Lightning Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-lightning-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Lightning Gems",
+    "summary": "Reward: Unlimited Lightning Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-lucid-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Lucid Shards",
+    "summary": "Reward: Unlimited Lucid Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-lucid-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Lucid Stones",
+    "summary": "Reward: Unlimited Lucid Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-lucid-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Lucid Gems",
+    "summary": "Reward: Unlimited Lucid Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-power-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Power Shards",
+    "summary": "Reward: Unlimited Power Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-power-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Power Stones",
+    "summary": "Reward: Unlimited Power Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-power-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Power Gems",
+    "summary": "Reward: Unlimited Power Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-dark-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Dark Shards",
+    "summary": "Reward: Unlimited Dark Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-dark-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Dark Stones",
+    "summary": "Reward: Unlimited Dark Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-dark-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Dark Gems",
+    "summary": "Reward: Unlimited Dark Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-dense-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Dense Shards",
+    "summary": "Reward: Unlimited Dense Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-dense-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Dense Stones",
+    "summary": "Reward: Unlimited Dense Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-dense-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Dense Gems",
+    "summary": "Reward: Unlimited Dense Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-30-twilight-shards",
+    "category": "moogle",
+    "name": "Deposit 30 Twilight Shards",
+    "summary": "Reward: Unlimited Twilight Shard purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-25-twilight-stones",
+    "category": "moogle",
+    "name": "Deposit 25 Twilight Stones",
+    "summary": "Reward: Unlimited Twilight Stone purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.deposit-20-twilight-gems",
+    "category": "moogle",
+    "name": "Deposit 20 Twilight Gems",
+    "summary": "Reward: Unlimited Twilight Gem purchases.",
+    "collectible": false,
+    "instructions": "Open any Moogle synthesis menu to deposit materials and receive this collection-list reward. Deposited lifetime totals remain separate from current stock.",
+    "sources": [
+      "https://github.com/tommadness/KH2Randomizer/blob/ac28071c1e7eff7393df54c91196fe4f43c727e9/static/synthesis_reqs.bin",
+      "https://www.khwiki.com/Collector%27s_Goals"
+    ]
+  },
+  {
+    "id": "kh2fm.moogle.moogle-levels",
+    "category": "moogle",
+    "name": "Moogle levels",
+    "summary": "Cumulative EXP thresholds for levels 1–9: 0, 40, 100, 180, 280, 480, 830, 1,330, 1,980.",
+    "collectible": false,
+    "checkable": false,
+    "instructions": "Level 2 enables Bright/Energy; level 3 enables Serenity upgrades in Creations; level 4 allows two modifier types. Cost reductions: C at level 5, B at 6, A at 7, S at 9. Level 8 unlocks advanced Free Development. Bright uses one matching-rank material and doubles recipe EXP.",
+    "sources": [
+      "https://www.khwiki.com/Synthesis",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/item-synthesis"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.swim-this-way",
+    "category": "minigames",
+    "name": "Swim This Way",
+    "summary": "Journal goal: perform this song again after the first clear.",
+    "collectible": false,
+    "world": "Atlantica",
+    "area": "Undersea Courtyard",
+    "prerequisites": "Clear Sebastian’s introductory tutorial.",
+    "reward": "First clear: None.",
+    "instructions": "Talk to Sebastian. Clear objective: Finish with at least one note. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+    "sources": [
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+      "https://www.khwiki.com/A_New_Day_is_Dawning",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.part-of-your-world",
+    "category": "minigames",
+    "name": "Part of Your World",
+    "summary": "Journal goal: perform this song again after the first clear.",
+    "collectible": false,
+    "world": "Atlantica",
+    "area": "Undersea Courtyard",
+    "prerequisites": "Clear Swim This Way and obtain Magnet.",
+    "reward": "First clear: None.",
+    "instructions": "Talk to Flounder to move the statue. Clear objective: Get five consecutive Excellent ratings. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+    "sources": [
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+      "https://www.khwiki.com/A_New_Day_is_Dawning",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.under-the-sea",
+    "category": "minigames",
+    "name": "Under the Sea",
+    "summary": "Journal goal: perform this song again after the first clear.",
+    "collectible": false,
+    "world": "Atlantica",
+    "area": "Undersea Courtyard",
+    "prerequisites": "Clear Part of Your World and raise maximum Drive Gauge to five.",
+    "reward": "First clear: None.",
+    "instructions": "Talk to Sebastian; respond to Ariel prompts and ignore Sebastian prompts. Clear objective: Finish with Ariel’s gauge in the top section. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+    "sources": [
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+      "https://www.khwiki.com/A_New_Day_is_Dawning",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.ursula-s-revenge",
+    "category": "minigames",
+    "name": "Ursula’s Revenge",
+    "summary": "Journal goal: perform this song again after the first clear.",
+    "collectible": false,
+    "world": "Atlantica",
+    "area": "Undersea Courtyard",
+    "prerequisites": "Clear Under the Sea and obtain Magnera.",
+    "reward": "First clear: Mysterious Abyss.",
+    "instructions": "Talk to Ariel, then Sebastian; follow timed and rapid-input prompts. Clear objective: Defeat Ursula before the song ends. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+    "sources": [
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+      "https://www.khwiki.com/A_New_Day_is_Dawning",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.a-new-day-is-dawning",
+    "category": "minigames",
+    "name": "A New Day is Dawning",
+    "summary": "Journal goal: perform this song again after the first clear.",
+    "collectible": false,
+    "world": "Atlantica",
+    "area": "Undersea Courtyard",
+    "prerequisites": "Clear Ursula’s Revenge and obtain Thundaga.",
+    "reward": "First clear: Blizzard element upgrade and Orichalcum+.",
+    "instructions": "Talk to Sebastian; this combines the earlier prompt types. Clear objective: Score at least 30,000. Replay it for the Journal mission; rewards are awarded only on the first clear.",
+    "sources": [
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/side-quests/atlantica/",
+      "https://www.khwiki.com/A_New_Day_is_Dawning",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3294034108"
+    ]
+  },
+  {
+    "id": "kh2fm.minigames.chasm-of-challenges",
+    "category": "minigames",
+    "name": "Chasm of Challenges",
+    "world": "Agrabah",
+    "area": "The Cave of Wonders: Chasm of Challenges",
+    "summary": "Replay and clear the challenge.",
+    "instructions": "Revisit the challenge after opening the Treasure Room during the first visit. Defeat the enemies on all five descending floors within two minutes. The Journal asks for a repeat clear, not a separate high score.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Chasm_of_Challenges"
+    ]
+  },
+  {
+    "id": "kh2fm.challenges.cavern-of-remembrance",
+    "category": "challenges",
+    "name": "Cavern of Remembrance traversal",
+    "world": "Radiant Garden",
+    "area": "Postern → Garden of Assemblage",
+    "summary": "Reach the Replica Data hub and its treasure chests.",
+    "instructions": "Enter the hole in the Postern after the 1,000-Heartless sequence. Bring level-3 High Jump, Quick Run, Aerial Dodge and Glide as a sufficient traversal loadout. Climb the Depths; cross the first Mineshaft gap with Quick Run. In the Mining Area activate the engines at the bottom, then use the moving machinery to climb. Aerial Dodge through the next Mineshaft pipes, cross the Engine Chamber conveyors, then Glide through the final pipe corridor. Clear all three Nobody wave encounters in Transport to Remembrance to reach the Garden of Assemblage.",
+    "collectible": false,
+    "checkable": false,
+    "sources": [
+      "https://www.khwiki.com/Cavern_of_Remembrance",
+      "https://www.gamerguides.com/kingdom-hearts-hd-25-remix/guide/kingdom-hearts-ii-final-mix/post-game/cavern-of-remembrance"
+    ]
+  },
+  {
+    "id": "kh2fm.abilities.guard",
+    "name": "Guard",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Parry incoming attacks with the guard action.",
+    "prerequisites": "Roxas: Defeat the Twilight Thorn; Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Guard"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.upper-slash",
+    "name": "Upper Slash",
+    "category": "abilities",
+    "summary": "Action ability · AP 4",
+    "instructions": "Combo action that launches the target upward.",
+    "prerequisites": "Sora: Defeat the Possessor and Thresholder.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Upper_Slash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.horizontal-slash",
+    "name": "Horizontal Slash",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Wide sideways slash during an aerial combo.",
+    "prerequisites": "Sora: Defeat the Grim Reaper on The Black Pearl.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Horizontal_Slash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.finishing-leap",
+    "name": "Finishing Leap",
+    "category": "abilities",
+    "summary": "Action ability · AP 5",
+    "instructions": "Guard-piercing finisher activated at a combo's end.",
+    "prerequisites": "Sora: Defeat the Blizzard Lord and Volcanic Lord.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Finishing_Leap"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.retaliating-slash",
+    "name": "Retaliating Slash",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Recover from knockback with a counterattack.",
+    "prerequisites": "Sora: Defeat the Dark Thorn; Valor Form: Default; Wisdom Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Retaliating_Slash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.slapshot",
+    "name": "Slapshot",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Fast close-range strike that avoids recoil.",
+    "prerequisites": "Sora: Defeat the Nobodies at the Betwixt and Between; Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Slapshot"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dodge-slash",
+    "name": "Dodge Slash",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Attack several enemies around the user.",
+    "prerequisites": "Sora: Free the Cornerstone of Light.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dodge_Slash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.flash-step",
+    "name": "Flash Step",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Advance while guarding, then pierce the target's guard.",
+    "prerequisites": "Sora: Defeat the Prison Keeper.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Flash_Step"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.slide-dash",
+    "name": "Slide Dash",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Dash into an attack against a distant enemy.",
+    "prerequisites": "Sora: Clear the trap at the Village Cave; Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Slide_Dash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.vicinity-break",
+    "name": "Vicinity Break",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Area attack for use when surrounded.",
+    "prerequisites": "Sora: Defeat the Hostile Program.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Vicinity_Break"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.guard-break",
+    "name": "Guard Break",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Combo finisher that penetrates guard.",
+    "prerequisites": "Sora: Complete the Battle of the 1000 Heartless.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Guard_Break"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.explosion",
+    "name": "Explosion",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Magic-dependent finisher that knocks down nearby enemies.",
+    "prerequisites": "Sora: Defend the Solar Sailer Simulation.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Explosion_(ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-sweep",
+    "name": "Aerial Sweep",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Jumping strike against an airborne target.",
+    "prerequisites": "Sora: Defeat Shan-Yu; Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Sweep"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-dive",
+    "name": "Aerial Dive",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Close the distance to an airborne enemy with an attack.",
+    "prerequisites": "Sora: Clear \"Maniac\" Phil's Training.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Dive"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-spiral",
+    "name": "Aerial Spiral",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Spinning aerial approach attack.",
+    "prerequisites": "Sora: Save the Medallion.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Spiral"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-finish",
+    "name": "Aerial Finish",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Air-combo finisher focused on one enemy.",
+    "prerequisites": "Sora: Defeat Captain Barbossa.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Finish"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.magnet-burst",
+    "name": "Magnet Burst",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Pull enemies together for a magic-dependent finisher.",
+    "prerequisites": "Sora: Defeat Hades.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Magnet_Burst"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.counterguard",
+    "name": "Counterguard",
+    "category": "abilities",
+    "summary": "Action ability · AP 4",
+    "instructions": "Use Attack during a guard to retaliate against nearby enemies.",
+    "prerequisites": "Sora: Defeat Cerberus.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Counterguard"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-valor",
+    "name": "Auto Valor",
+    "category": "abilities",
+    "summary": "Action ability · AP 1",
+    "instructions": "Offers Valor Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Sora: Reach Valor Form LV2.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Valor"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-wisdom",
+    "name": "Auto Wisdom",
+    "category": "abilities",
+    "summary": "Action ability · AP 1",
+    "instructions": "Offers Wisdom Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Sora: Reach Wisdom Form LV2.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Wisdom"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-limit",
+    "name": "Auto Limit",
+    "category": "abilities",
+    "summary": "Action ability · AP 1",
+    "instructions": "Offers Limit Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Sora: Reach Limit Form LV2.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Limit_(action_ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-master",
+    "name": "Auto Master",
+    "category": "abilities",
+    "summary": "Action ability · AP 1",
+    "instructions": "Offers Master Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Sora: Reach Master Form LV2.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Master"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-final",
+    "name": "Auto Final",
+    "category": "abilities",
+    "summary": "Action ability · AP 1",
+    "instructions": "Offers Final Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Sora: Reach Final Form LV2.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Final"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-summon",
+    "name": "Auto Summon",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Offers a Summon reaction prompt when an ally falls, if summoning is available.",
+    "prerequisites": "Sora: Escort Queen Minnie to the throne.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Summon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.trinity-limit",
+    "name": "Trinity Limit",
+    "category": "abilities",
+    "summary": "Action ability · AP 5",
+    "instructions": "Team Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Sora: Defeat Pete at The Lock.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Trinity_Limit"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.brave-shot",
+    "name": "Brave Shot",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Single-target finisher that knocks the enemy down.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Brave_Shot"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.brave-beat",
+    "name": "Brave Beat",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Finishing sequence that hits multiple enemies.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Brave_Beat"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.sonic-strike",
+    "name": "Sonic Strike",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Piercing finisher against one enemy.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Sonic_Strike"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.sonic-end",
+    "name": "Sonic End",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Rapid airborne finisher against several enemies.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Sonic_End"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.over-the-horizon",
+    "name": "Over the Horizon",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Action-button leap into an attack.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Over_the_Horizon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.omega-finale",
+    "name": "Omega Finale",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Use the action button to perform a finisher before the combo ends.",
+    "prerequisites": "Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Omega_Finale"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.wisdom-shot",
+    "name": "Wisdom Shot",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Replaces the Attack command with ranged Shoot.",
+    "prerequisites": "Wisdom Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Wisdom_Shot"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mobile-action",
+    "name": "Mobile Action",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Permits actions while moving.",
+    "prerequisites": "Wisdom Form: Default; Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Mobile_Action"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.magic-haste",
+    "name": "Magic Haste",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Faster spell casting and magic-combo execution.",
+    "prerequisites": "Wisdom Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Magic_Haste"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.magic-spice",
+    "name": "Magic Spice",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Boosts magic-combo finishers.",
+    "prerequisites": "Wisdom Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Magic_Spice"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.sonic-rave",
+    "name": "Sonic Rave",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Rush past the target; timed reaction inputs extend the Limit. Costs 60 MP.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Sonic_Rave"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.last-arcanum",
+    "name": "Last Arcanum",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Multi-hit Limit extended with reaction inputs. Costs 75 MP.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Last_Arcanum"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.strike-raid",
+    "name": "Strike Raid",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Throw the Keyblade; reaction inputs extend the Limit. Costs 65 MP.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Strike_Raid"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.infinity",
+    "name": "Infinity",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Use the Limit reaction after an aerial combo. Costs 80 MP.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Infinity_(Limit)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.zantetsuken",
+    "name": "Zantetsuken",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Single-target finisher capable of killing weak enemies immediately.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Zantetsuken"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.ripple-drive",
+    "name": "Ripple Drive",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Magic-dependent area finisher for surrounding enemies.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Ripple_Drive"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.hurricane-period",
+    "name": "Hurricane Period",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Aerial barrage finisher.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Hurricane_Period"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.zantetsu-counter",
+    "name": "Zantetsu Counter",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Choose Attack during guard to counter with Zantetsuken.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Zantetsu_Counter"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.reflect-combo",
+    "name": "Reflect Combo",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Permits guarding in the middle of a combo.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Reflect_Combo"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.master-strike",
+    "name": "Master Strike",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Repeated finishing attacks focused on one enemy.",
+    "prerequisites": "Master Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Master_Strike"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.disaster",
+    "name": "Disaster",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Pulls multiple enemies into repeated finishing hits.",
+    "prerequisites": "Master Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Disaster"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.master-magic",
+    "name": "Master Magic",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Improves magic attacks.",
+    "prerequisites": "Master Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Master_Magic"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.final-arcana",
+    "name": "Final Arcana",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Single-target Keyblade finishing sequence.",
+    "prerequisites": "Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Final_Arcana"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.final-strike",
+    "name": "Final Strike",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Spinning airborne finisher against one target.",
+    "prerequisites": "Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Final_Strike"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.final-arts",
+    "name": "Final Arts",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Finisher that attacks several targets.",
+    "prerequisites": "Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Final_Arts"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-assault",
+    "name": "Auto Assault",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Offers Assault Form as a reaction prompt at critical HP, when that Form is available.",
+    "prerequisites": "Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Assault"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.crime-punishment",
+    "name": "Crime & Punishment",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Dual-Keyblade spell attacks.",
+    "prerequisites": "Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Crime_%26_Punishment_(ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.combo-upper",
+    "name": "Combo Upper",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Combo action that launches an enemy.",
+    "prerequisites": "Lion Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Combo_Upper"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-impulse",
+    "name": "Aerial Impulse",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Air-combo tackle.",
+    "prerequisites": "Lion Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Impulse"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.finishing-blast",
+    "name": "Finishing Blast",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Area attack at the end of a combo.",
+    "prerequisites": "Lion Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Finishing_Blast"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.retaliating-smash",
+    "name": "Retaliating Smash",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Recover from knockback with an attack.",
+    "prerequisites": "Lion Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Retaliating_Smash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.running-tackle",
+    "name": "Running Tackle",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Attack while dashing to tackle one enemy.",
+    "prerequisites": "Lion Form: Restore Simba's confidence..",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Running_Tackle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dash",
+    "name": "Dash",
+    "category": "abilities",
+    "summary": "Action ability · AP —",
+    "instructions": "Hold the dash action for rapid movement.",
+    "prerequisites": "Lion Form: Reach Wildebeest Valley.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dash_(ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.donald-fire",
+    "name": "Donald Fire",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Nearby fire attack. Costs 10 MP.",
+    "prerequisites": "Donald Duck: Defeat the Possessor and Thresholder.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Donald_Fire"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.donald-blizzard",
+    "name": "Donald Blizzard",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Ice projectiles against an enemy. Costs 10 MP.",
+    "prerequisites": "Donald Duck: Clear the trap at The Cave of Wonders: Stone Guardians.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Donald_Blizzard"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.donald-thunder",
+    "name": "Donald Thunder",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Lightning attack against the target. Costs 10 MP.",
+    "prerequisites": "Donald Duck: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Donald_Thunder"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.donald-cure",
+    "name": "Donald Cure",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Heal an ally; consumes Donald's remaining MP.",
+    "prerequisites": "Donald Duck: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Donald_Cure"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.fantasia",
+    "name": "Fantasia",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Donald's Comet team Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Donald Duck: Free the Cornerstone of Light.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Fantasia"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.flare-force",
+    "name": "Flare Force",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Donald's Duck Flare team Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Donald Duck: Defeat the Grim Reaper at the Harbor.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Flare_Force"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.goofy-tornado",
+    "name": "Goofy Tornado",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Vortex that pulls enemies inward and hits them. Costs 10 MP.",
+    "prerequisites": "Goofy: Defeat Pete at the Wharf.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Goofy_Tornado"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.goofy-bash",
+    "name": "Goofy Bash",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Ranged shield throw. Costs 10 MP.",
+    "prerequisites": "Goofy: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Goofy_Bash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.goofy-turbo",
+    "name": "Goofy Turbo",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Charge through enemies and knock them toward Sora. Costs 10 MP.",
+    "prerequisites": "Goofy: Defeat Shan-Yu.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Goofy_Turbo"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.tornado-fusion",
+    "name": "Tornado Fusion",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Goofy's Whirli-Goof team Limit.",
+    "prerequisites": "Goofy: Defeat the Storm Rider.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Tornado_Fusion"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.teamwork",
+    "name": "Teamwork",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Goofy Knocksmash Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Goofy: Defeat Captain Barbossa.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Teamwork"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mushu-fire",
+    "name": "Mushu Fire",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Mushu breathes fire at nearby enemies. Costs 10 MP.",
+    "prerequisites": "Mulan: Mulan loses her disguise.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Mushu_Fire"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.flametongue",
+    "name": "Flametongue",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Flaming airborne rush attack. Costs 10 MP.",
+    "prerequisites": "Mulan: Mulan loses her disguise.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Flametongue"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dragonblaze",
+    "name": "Dragonblaze",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Mulan Red Rocket Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Mulan: Mulan loses her disguise.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dragonblaze"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.furious-shout",
+    "name": "Furious Shout",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Roar that knocks down nearby foes. Costs 10 MP.",
+    "prerequisites": "Beast: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Furious_Shout"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.ferocious-rush",
+    "name": "Ferocious Rush",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Sequence of charging tackles. Costs 10 MP.",
+    "prerequisites": "Beast: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Ferocious_Rush"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.howling-moon",
+    "name": "Howling Moon",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Beast Twin Howl Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Beast: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Howling_Moon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.divider",
+    "name": "Divider",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Leaping attack against nearby enemies. Costs 10 MP.",
+    "prerequisites": "Auron: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Divider"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.healing-water",
+    "name": "Healing Water",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Party healing. Costs 99 MP.",
+    "prerequisites": "Auron: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Healing_Water"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.overdrive",
+    "name": "Overdrive",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Auron Bushido Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Auron: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Overdrive_(Limit)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.no-mercy",
+    "name": "No Mercy",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Attack command. Costs 10 MP.",
+    "prerequisites": "Jack Sparrow: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/No_Mercy"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.rain-storm",
+    "name": "Rain Storm",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Repeated thrown-weapon attacks. Costs 10 MP.",
+    "prerequisites": "Jack Sparrow: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Rain_Storm"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.bone-smash",
+    "name": "Bone Smash",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Repeated bomb throws. Costs 10 MP.",
+    "prerequisites": "Jack Sparrow: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Bone_Smash"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.treasure-isle",
+    "name": "Treasure Isle",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Jack Sparrow Bluff Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Jack Sparrow: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Treasure_Isle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.slash-frenzy",
+    "name": "Slash Frenzy",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Rapid attacks that interrupt the target. Costs 10 MP.",
+    "prerequisites": "Aladdin: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Slash_Frenzy"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.quickplay",
+    "name": "Quickplay",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Leap onto a target to obtain prize orbs.",
+    "prerequisites": "Aladdin: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Quickplay"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.trick-fantasy",
+    "name": "Trick Fantasy",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Aladdin Speedster Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Aladdin: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Trick_Fantasy"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.blazing-fury",
+    "name": "Blazing Fury",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Flaming pursuit attack. Costs 10 MP.",
+    "prerequisites": "Jack Skellington: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Blazing_Fury"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.icy-terror",
+    "name": "Icy Terror",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Ice crystals attack the target. Costs 10 MP.",
+    "prerequisites": "Jack Skellington: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Icy_Terror"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.bolts-of-sorrow",
+    "name": "Bolts of Sorrow",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Lightning strikes the target. Costs 10 MP.",
+    "prerequisites": "Jack Skellington: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Bolts_of_Sorrow"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.applause-applause",
+    "name": "Applause, Applause",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Jack Skellington Dance Call Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Jack Skellington: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Applause,_Applause"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.fierce-claw",
+    "name": "Fierce Claw",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Repeated claw attacks. Costs 10 MP.",
+    "prerequisites": "Simba: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Fierce_Claw"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.groundshaker",
+    "name": "Groundshaker",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Roar that attacks enemies around the user. Costs 10 MP.",
+    "prerequisites": "Simba: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Groundshaker_(ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.healing-herb",
+    "name": "Healing Herb",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Party healing. Costs 99 MP.",
+    "prerequisites": "Simba: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Healing_Herb"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.king-s-pride",
+    "name": "King's Pride",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Simba Wildcat Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Simba: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/King%27s_Pride"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.scouting-disk",
+    "name": "Scouting Disk",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Homing disk attack. Costs 10 MP.",
+    "prerequisites": "Tron: Access the DTD.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Scouting_Disk"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.pulsing-thunder",
+    "name": "Pulsing Thunder",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Electric attack around the user. Costs 10 MP.",
+    "prerequisites": "Tron: Access the DTD.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Pulsing_Thunder"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.complete-compilement",
+    "name": "Complete Compilement",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Tron Setup Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Tron: Access the DTD.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Complete_Compilement"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dark-aura",
+    "name": "Dark Aura",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Dark magic that interrupts enemies near the end of Sora's combo. Costs 10 MP.",
+    "prerequisites": "Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dark_Aura"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dark-shield",
+    "name": "Dark Shield",
+    "category": "abilities",
+    "summary": "Action ability · AP 2",
+    "instructions": "Summon a defensive dark barrier. Costs 10 MP.",
+    "prerequisites": "Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dark_Shield"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.cure-potion",
+    "name": "Cure Potion",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Party healing. Costs 99 MP.",
+    "prerequisites": "Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Cure_Potion"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.eternal-session",
+    "name": "Eternal Session",
+    "category": "abilities",
+    "summary": "Action ability · AP 3",
+    "instructions": "Sora/Riku Session Limit; consumes Sora's remaining MP.",
+    "prerequisites": "Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Eternal_Session"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.high-jump-lv1",
+    "name": "High Jump LV1",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Higher jump; holding Jump increases height.",
+    "prerequisites": "Sora: Reach Valor Form LV3; Valor Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/High_Jump_LV1"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.high-jump-lv2",
+    "name": "High Jump LV2",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Higher jump; holding Jump increases height.",
+    "prerequisites": "Sora: Reach Valor Form LV5; Valor Form: Reach Valor Form LV3.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/High_Jump_LV2"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.high-jump-lv3",
+    "name": "High Jump LV3",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Higher jump; holding Jump increases height.",
+    "prerequisites": "Sora: Reach Valor Form LV7; Valor Form: Reach Valor Form LV5.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/High_Jump_LV3"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.high-jump-max",
+    "name": "High Jump MAX",
+    "category": "abilities",
+    "summary": "Growth ability · AP —",
+    "instructions": "Higher jump; holding Jump increases height.",
+    "prerequisites": "Valor Form: Reach Valor Form LV7.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/High_Jump_MAX"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.quick-run-lv1",
+    "name": "Quick Run LV1",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Hold the movement action while directing the stick to travel farther.",
+    "prerequisites": "Sora: Reach Wisdom Form LV3; Wisdom Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Quick_Run_LV1"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.quick-run-lv2",
+    "name": "Quick Run LV2",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Hold the movement action while directing the stick to travel farther.",
+    "prerequisites": "Sora: Reach Wisdom Form LV5; Wisdom Form: Reach Wisdom Form LV3.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Quick_Run_LV2"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.quick-run-lv3",
+    "name": "Quick Run LV3",
+    "category": "abilities",
+    "summary": "Growth ability · AP 2",
+    "instructions": "Hold the movement action while directing the stick to travel farther.",
+    "prerequisites": "Sora: Reach Wisdom Form LV7; Wisdom Form: Reach Wisdom Form LV5.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Quick_Run_LV3"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.quick-run-max",
+    "name": "Quick Run MAX",
+    "category": "abilities",
+    "summary": "Growth ability · AP —",
+    "instructions": "Hold the movement action while directing the stick to travel farther.",
+    "prerequisites": "Wisdom Form: Reach Wisdom Form LV7.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Quick_Run_MAX"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dodge-roll-lv1",
+    "name": "Dodge Roll LV1",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Directional evasive roll; higher levels improve it.",
+    "prerequisites": "Sora: Reach Limit Form LV3; Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dodge_Roll_LV1"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dodge-roll-lv2",
+    "name": "Dodge Roll LV2",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Directional evasive roll; higher levels improve it.",
+    "prerequisites": "Sora: Reach Limit Form LV5; Limit Form: Reach Limit Form LV3.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dodge_Roll_LV2"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dodge-roll-lv3",
+    "name": "Dodge Roll LV3",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Directional evasive roll; higher levels improve it.",
+    "prerequisites": "Sora: Reach Limit Form LV7; Limit Form: Reach Limit Form LV5.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dodge_Roll_LV3"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.dodge-roll-max",
+    "name": "Dodge Roll MAX",
+    "category": "abilities",
+    "summary": "Growth ability · AP —",
+    "instructions": "Directional evasive roll; higher levels improve it.",
+    "prerequisites": "Limit Form: Reach Limit Form LV7.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Dodge_Roll_MAX"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-dodge-lv1",
+    "name": "Aerial Dodge LV1",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Second midair jump that also evades attacks.",
+    "prerequisites": "Sora: Reach Master Form LV3; Master Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Dodge_LV1"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-dodge-lv2",
+    "name": "Aerial Dodge LV2",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Second midair jump that also evades attacks.",
+    "prerequisites": "Sora: Reach Master Form LV5; Master Form: Reach Master Form LV3.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Dodge_LV2"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-dodge-lv3",
+    "name": "Aerial Dodge LV3",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Second midair jump that also evades attacks.",
+    "prerequisites": "Sora: Reach Master Form LV7; Master Form: Reach Master Form LV5.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Dodge_LV3"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-dodge-max",
+    "name": "Aerial Dodge MAX",
+    "category": "abilities",
+    "summary": "Growth ability · AP —",
+    "instructions": "Second midair jump that also evades attacks.",
+    "prerequisites": "Master Form: Reach Master Form LV7.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Dodge_MAX"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.glide-lv1",
+    "name": "Glide LV1",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Hold the glide action in midair; higher levels increase speed.",
+    "prerequisites": "Sora: Reach Final Form LV3; Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Glide_LV1"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.glide-lv2",
+    "name": "Glide LV2",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Hold the glide action in midair; higher levels increase speed.",
+    "prerequisites": "Sora: Reach Final Form LV5; Final Form: Reach Final Form LV3.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Glide_LV2"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.glide-lv3",
+    "name": "Glide LV3",
+    "category": "abilities",
+    "summary": "Growth ability · AP 3",
+    "instructions": "Hold the glide action in midair; higher levels increase speed.",
+    "prerequisites": "Sora: Reach Final Form LV7; Final Form: Reach Final Form LV5.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Glide_LV3"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.glide-max",
+    "name": "Glide MAX",
+    "category": "abilities",
+    "summary": "Growth ability · AP —",
+    "instructions": "Hold the glide action in midair; higher levels increase speed.",
+    "prerequisites": "Final Form: Reach Final Form LV7.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Glide_MAX"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.synch-blade",
+    "name": "Synch Blade",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Dual wield; both equipped Keyblade abilities apply.",
+    "prerequisites": "Valor Form: Default; Master Form: Default; Final Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Synch_Blade"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.hp-gain",
+    "name": "HP Gain",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Successful Limit Command hits heal Sora.",
+    "prerequisites": "Limit Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/HP_Gain"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.endless-magic",
+    "name": "Endless Magic",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Removes the usual end to a magic combo.",
+    "prerequisites": "Master Form: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Endless_Magic"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.light-darkness",
+    "name": "Light & Darkness",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Forces Antiform when its battle and party conditions allow it. Before Final Form is unlocked, that attempt can instead unlock Final Form. Selecting Final Form itself cannot trigger Antiform.",
+    "prerequisites": "Two Become One.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Light_%26_Darkness"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.scan",
+    "name": "Scan",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Displays the target's HP gauge.",
+    "prerequisites": "Roxas: Defeat Axel in the Sandlot; King Mickey: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Scan"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.aerial-recovery",
+    "name": "Aerial Recovery",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Use the recovery action after being knocked into the air.",
+    "prerequisites": "Roxas: Defeat the Dusks at the Station of Serenity.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Aerial_Recovery"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.combo-master",
+    "name": "Combo Master",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Continue a combo even when an attack misses.",
+    "prerequisites": "Sora: Defeat Roxas.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Combo_Master"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.combo-plus",
+    "name": "Combo Plus",
+    "category": "abilities",
+    "summary": "Support ability · AP 1",
+    "instructions": "Adds one ground-combo hit per equipped copy.",
+    "prerequisites": "Sora: Reach Valor Form LV4; Sora: Reach Valor Form LV6; Valor Form: Default; Lion Form: Default (x2); Sleeping Lion.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Combo_Plus"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.air-combo-plus",
+    "name": "Air Combo Plus",
+    "category": "abilities",
+    "summary": "Support ability · AP 1",
+    "instructions": "Adds one aerial-combo hit per equipped copy.",
+    "prerequisites": "Sora: Reach Master Form LV4; Sora: Reach Master Form LV6; Valor Form: Default; Master Form: Default (x2); Lion Form: Default (x2); King Mickey: Default; Star Seeker.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Air_Combo_Plus"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.combo-boost",
+    "name": "Combo Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Ground-finisher damage increases with preceding combo hits.",
+    "prerequisites": "Sora: LV 7 (Dream Sword choice) / LV 9 (Dream Shield choice) / LV 17 (Dream Rod choice); Decisive Pumpkin.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Combo_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.air-combo-boost",
+    "name": "Air Combo Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Air-finisher damage increases with preceding combo hits.",
+    "prerequisites": "Sora: LV 36 (Dream Sword choice) / LV 44 (Dream Shield choice) / LV 73 (Dream Rod choice); Hero's Crest.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Air_Combo_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.reaction-boost",
+    "name": "Reaction Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Reaction Command damage increases by 50%; multiple copies improve the effect.",
+    "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 15 (Dream Sword choice) / LV 23 (Dream Shield choice) / LV 33 (Dream Rod choice); Guardian Soul.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Reaction_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.finishing-plus",
+    "name": "Finishing Plus",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Adds another finisher to the combo sequence.",
+    "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 49 (Dream Sword choice) / LV 65 (Dream Shield choice) / LV 85 (Dream Rod choice); Rumbling Rose.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Finishing_Plus"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.negative-combo",
+    "name": "Negative Combo",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Removes one regular hit from ground and air combos.",
+    "prerequisites": "Sora: LV 44 (Dream Sword choice) / LV 73 (Dream Shield choice) / LV 36 (Dream Rod choice); Fenrir.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Negative_Combo"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.berserk-charge",
+    "name": "Berserk Charge",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "During MP Charge: Strength +2 and endless regular combos, but no normal finisher.",
+    "prerequisites": "Sora: LV 65 (Dream Sword choice) / LV 85 (Dream Shield choice) / LV 49 (Dream Rod choice); Fatal Crest.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Berserk_Charge"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.damage-drive",
+    "name": "Damage Drive",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Incoming damage replenishes Drive in proportion to damage received.",
+    "prerequisites": "Sora: LV 33 (Dream Sword choice) / LV 15 (Dream Shield choice) / LV 23 (Dream Rod choice).",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Damage_Drive"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.drive-boost",
+    "name": "Drive Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Increases Drive recovery during MP Charge; copies stack.",
+    "prerequisites": "Sora: LV 25 (Dream Sword choice) / LV 28 (Dream Shield choice) / LV 47 (Dream Rod choice); Oblivion.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Drive_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.form-boost",
+    "name": "Form Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Extends Drive Form duration.",
+    "prerequisites": "Sora: Reach Final Form LV4; Sora: Reach Final Form LV6; Oathkeeper.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Form_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.summon-boost",
+    "name": "Summon Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Extends summon duration.",
+    "prerequisites": "Sora: Clear the trap at The Cave of Wonders: Stone Guardians.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Summon_Boost_(KHII)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.combination-boost",
+    "name": "Combination Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Extends the available time for Limits.",
+    "prerequisites": "Sora: LV 31 (Dream Sword choice) / LV 39 (Dream Shield choice) / LV 59 (Dream Rod choice).",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Combination_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.experience-boost",
+    "name": "Experience Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "At half HP or below, EXP gain increases by 100%; copies stack.",
+    "prerequisites": "Sora: (LV 9 (Dream Sword choice)/17 (Dream Shield choice)/7 (Dream Rod choice)); Gull Wing.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Experience_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.leaf-bracer",
+    "name": "Leaf Bracer",
+    "category": "abilities",
+    "summary": "Support ability · AP 1",
+    "instructions": "Enemy attacks cannot interrupt the user's Cure cast.",
+    "prerequisites": "Sora: LV 20.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Leaf_Bracer"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.magic-lock-on",
+    "name": "Magic Lock-On",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Fire, Blizzard, Thunder and Magnet automatically target enemies.",
+    "prerequisites": "Sora: LV 12.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Magic_Lock-On"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.draw",
+    "name": "Draw",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Increases prize-orb collection reach; a second copy extends it further.",
+    "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Sora: LV 28 (Dream Sword choice) / LV 47 (Dream Shield choice) / LV 25 (Dream Rod choice); Sora: Reach Limit Form LV4; Limit Form: Default; Master Form: Default; Donald Duck: Save the Medallion; Goofy: Defeat the Grim Reaper on The Black Pearl; Mulan: Default; Jack Sparrow: Default (x2); Follow the Wind; Draw Ring.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Draw"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.jackpot",
+    "name": "Jackpot",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Improves munny, HP-orb and MP-orb drops; active-party copies stack.",
+    "prerequisites": "Sora: LV 73 (Dream Sword choice) / LV 36 (Dream Shield choice) / LV 44 (Dream Rod choice); Donald Duck: Defeat The Experiment; Goofy: Defeat the Hostile Program; Aladdin: Default; Tron: Default; Wishing Lamp.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Jackpot"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.lucky-lucky",
+    "name": "Lucky Lucky",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Final Mix item-drop multiplier: 1 + 0.5 × equipped copies in the active party. Displayed enemy rates are unmodified base rates.",
+    "prerequisites": "Roxas: Start of the Third Day (x2) (Critical Mode only); Sora: Reach Limit Form LV6; Limit Form: Default; Donald Duck: Defeat the Nobodies at The Old Mansion; Goofy: Defeat Shenzi, Banzai, and Ed at The King's Den; Jack Sparrow: Default; Jack Skellington: Default; Lucky Ring.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Lucky_Lucky"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.drive-converter",
+    "name": "Drive Converter",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Converts some munny drops to Drive orbs; additional copies improve the effect.",
+    "prerequisites": "Sora: LV 41 (Dream Sword choice) / LV 53 (Dream Shield choice) / LV 99 (Dream Rod choice); Sweet Memories.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Drive_Converter"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.fire-boost",
+    "name": "Fire Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Fire damage +20%; copies stack.",
+    "prerequisites": "Sora: LV 23 (Dream Sword choice) / LV 33 (Dream Shield choice) / LV 15 (Dream Rod choice); Donald Duck: Defeat Scar; Mulan: Mulan loses her disguise; Jack Skellington: Default; Bond of Flame; Rising Dragon.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Fire_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.blizzard-boost",
+    "name": "Blizzard Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Ice damage +20%; copies stack.",
+    "prerequisites": "Sora: LV 39 (Dream Sword choice) / LV 59 (Dream Shield choice) / LV 31 (Dream Rod choice); Donald Duck: Defeat Demyx at the Castle Gates; Jack Skellington: Default; Mysterious Abyss; Shaman's Relic.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Blizzard_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.thunder-boost",
+    "name": "Thunder Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Lightning damage +20%; copies stack.",
+    "prerequisites": "Sora: LV 53 (Dream Sword choice) / LV 99 (Dream Shield choice) / LV 41 (Dream Rod choice); Donald Duck: Freeze the computers at the Dataspace; Jack Skellington: Default; Tron: Download the Eradicator Program; Photon Debugger; Meteor Staff; Shock Charm+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Thunder_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.item-boost",
+    "name": "Item Boost",
+    "category": "abilities",
+    "summary": "Support ability · AP 2",
+    "instructions": "Field healing-item effectiveness +50%; copies stack.",
+    "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 17 (Dream Sword choice) / LV 7 (Dream Shield choice) / LV 9 (Dream Rod choice); Goofy: Default; Mulan: Default; Beast: Default; Jack Sparrow: Default; Aladdin: Default; Tron: Default; Riku: Default; Monochrome; Nobody Lance; Save the King.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Item_Boost"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mp-rage",
+    "name": "MP Rage",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Taking damage restores MP in proportion to that damage; copies stack.",
+    "prerequisites": "Sora: Reach Wisdom Form LV4; Limit Form: Default; Donald Duck: Defeat Demyx at the Atrium; Goofy: Defeat Shenzi, Banzai, and Ed at the Elephant Graveyard; Auron: Default; Simba: Default; Hidden Dragon; Save the Queen+; Nobody Guard; Shadow Archive+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/MP_Rage"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mp-haste",
+    "name": "MP Haste",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "MP Charge restoration speed +25%; copies stack.",
+    "prerequisites": "Sora: Reach Wisdom Form LV6; Limit Form: Default; Final Form: Default; Auron: Default; Aladdin: Default; Tron: Download the Eradicator Program; Circle of Life; Precious Mushroom; Akashic Record; Full Bloom+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/MP_Haste"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mp-hastera",
+    "name": "MP Hastera",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "MP Charge restoration speed +50%; copies stack.",
+    "prerequisites": "Roxas: Start of the Third Day (Critical Mode only); Master Form: Default; Donald Duck: Defend the Solar Sailer Simulation; Jack Skellington: Default; Precious Mushroom+; Akashic Record+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/MP_Hastera"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.mp-hastega",
+    "name": "MP Hastega",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "MP Charge restoration speed +75%; copies stack.",
+    "prerequisites": "Wisdom Form: Default; Riku: Default; Ultima Weapon; Premium Mushroom; Frozen Pride+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/MP_Hastega"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.defender",
+    "name": "Defender",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "Defense +3 at critical HP; copies stack.",
+    "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 59 (Dream Sword choice) / LV 31 (Dream Shield choice) / LV 39 (Dream Rod choice); Goofy: Defeat Beast; Beast: Default; Jack Sparrow: Default; Simba: Default; Riku: Default; Shaman's Relic+; Ogre Shield.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Defender_(ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.damage-control",
+    "name": "Damage Control",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Incoming damage is halved at critical HP; two copies reduce it further.",
+    "prerequisites": "Sora: LV 99 (Dream Sword choice) / LV 41 (Dream Shield choice) / LV 53 (Dream Rod choice); Goofy: Defeat Zexion's Absent Silhouette; Kingdom Key; Centurion+; Save the King+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Damage_Control"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.protect",
+    "name": "Protect",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Damage received reduced by 10%.",
+    "prerequisites": "Majestic Mushroom.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Protect"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.protectra",
+    "name": "Protectra",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Damage received reduced by 20%.",
+    "prerequisites": "Majestic Mushroom+.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Protectra"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.protectga",
+    "name": "Protectga",
+    "category": "abilities",
+    "summary": "Support ability · AP —",
+    "instructions": "Damage received reduced by 40%.",
+    "prerequisites": "Ultimate Mushroom.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Protectga"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.second-chance",
+    "name": "Second Chance",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Survive an otherwise fatal single hit with 1 HP, when starting above 1 HP.",
+    "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 85 (Dream Sword choice) / LV 49 (Dream Shield choice) / LV 65 (Dream Rod choice); Goofy: Clear the explosives from The Interceptor's deck; Beast: Default; Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Second_Chance"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.once-more",
+    "name": "Once More",
+    "category": "abilities",
+    "summary": "Support ability · AP 4",
+    "instructions": "Survive an otherwise fatal combo with 1 HP, when starting above 1 HP. During an airborne enemy combo, Aerial Recovery, Retaliating Slash or reverting a Drive Form ends the protection.",
+    "prerequisites": "Roxas: When fighting Axel in the Mansion: Basement Hall; Sora: LV 47 (Dream Sword choice) / LV 25 (Dream Shield choice) / LV 28 (Dream Rod choice); Goofy: Defeat Oogie Boogie; Auron: Default; Aladdin: Default; Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Once_More"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.no-experience",
+    "name": "No Experience",
+    "category": "abilities",
+    "summary": "Support ability · AP 1",
+    "instructions": "Prevents experience gains.",
+    "prerequisites": "Antiform: Default; Roxas: Start of the Third Day (Critical Mode only); Winner's Proof.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/No_Experience"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-limit-party",
+    "name": "Auto Limit (party)",
+    "category": "abilities",
+    "summary": "Support ability · AP 1",
+    "instructions": "Offers a Limit reaction prompt when an eligible party Limit is available.",
+    "prerequisites": "Donald Duck: Free the Cornerstone of Light; Goofy: Defeat Captain Barbossa; Mulan: Mulan loses her disguise; Beast: Default; Auron: Default; Jack Sparrow: Default; Aladdin: Default; Jack Skellington: Default; Simba: Default; Tron: Access the DTD; Riku: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Limit_(support_ability)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-change",
+    "name": "Auto Change",
+    "category": "abilities",
+    "summary": "Support ability · AP 5",
+    "instructions": "Automatically substitutes a fallen party member.",
+    "prerequisites": "Goofy: Defeat Lock, Shock, and Barrel; Aladdin:Default; Tron: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Change"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.hyper-healing",
+    "name": "Hyper Healing",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "An incapacitated ally returns sooner with more HP.",
+    "prerequisites": "Donald Duck: Defeat the Prison Keeper; Goofy: Defeat Pete at The Lock; Mulan: Clear the trap at the Village Cave; Beast: Default; Simba: Default; Riku: Default; Save the Queen; Genji Shield.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Hyper_Healing"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.abilities.auto-healing",
+    "name": "Auto Healing",
+    "category": "abilities",
+    "summary": "Support ability · AP 3",
+    "instructions": "An ally recovers HP while waiting outside the active party after Change.",
+    "prerequisites": "Donald Duck: Defeat Xaldin; Goofy: Defeat the Heartless at The Cave of Wonders: Treasure Room; Jack Sparrow: Default; Jack Skellington: Default; Simba: Default.",
+    "sources": [
+      "https://www.khwiki.com/Abilities_(KHII)",
+      "https://www.khwiki.com/Auto_Healing"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.elven-bandanna",
+    "name": "Elven Bandanna",
+    "category": "equipment",
+    "summary": "Armor · Defense +1",
+    "instructions": "Biggs's Armor Shop; chest at the Mansion: Dining Room (Roxas). Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Elven_Bandanna",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.divine-bandanna",
+    "name": "Divine Bandanna",
+    "category": "equipment",
+    "summary": "Armor · Defense +2",
+    "instructions": "Mogjiro's Moogle Shop; Mojito's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mogjiro — Disney Castle; Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Divine_Bandanna",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.protect-belt",
+    "name": "Protect Belt",
+    "category": "equipment",
+    "summary": "Armor · Defense +3",
+    "instructions": "Win the Pain and Panic Cup (Final Mix). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Protect_Belt"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.gaia-belt",
+    "name": "Gaia Belt",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Thunder resistance +20%; Dark resistance +20%",
+    "instructions": "Chest at the I/O Tower: Communications Room. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Gaia_Belt"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.power-band",
+    "name": "Power Band",
+    "category": "equipment",
+    "summary": "Armor · Defense +4",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Power_Band"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.buster-band",
+    "name": "Buster Band",
+    "category": "equipment",
+    "summary": "Armor · Defense +5",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Buster_Band"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.cosmic-belt",
+    "name": "Cosmic Belt",
+    "category": "equipment",
+    "summary": "Armor · Defense +6",
+    "instructions": "Chest at the Twilight's View.",
+    "sources": [
+      "https://www.khwiki.com/Cosmic_Belt"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.fire-bangle",
+    "name": "Fire Bangle",
+    "category": "equipment",
+    "summary": "Armor · Defense +1; Fire resistance +20%",
+    "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Fire_Bangle",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.fira-bangle",
+    "name": "Fira Bangle",
+    "category": "equipment",
+    "summary": "Armor · Defense +2; Fire resistance +20%",
+    "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Fira_Bangle",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.firaga-bangle",
+    "name": "Firaga Bangle",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Fire resistance +20%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Firaga_Bangle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.firagun-bangle",
+    "name": "Firagun Bangle",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Fire resistance +25%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Firagun_Bangle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.blizzard-armlet",
+    "name": "Blizzard Armlet",
+    "category": "equipment",
+    "summary": "Armor · Defense +1; Blizzard resistance +20%",
+    "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Blizzard_Armlet",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.blizzara-armlet",
+    "name": "Blizzara Armlet",
+    "category": "equipment",
+    "summary": "Armor · Defense +2; Blizzard resistance +20%",
+    "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Blizzara_Armlet",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.blizzaga-armlet",
+    "name": "Blizzaga Armlet",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Blizzard resistance +20%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Blizzaga_Armlet"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.blizzagun-armlet",
+    "name": "Blizzagun Armlet",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Blizzard resistance +25%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Blizzagun_Armlet"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.thunder-trinket",
+    "name": "Thunder Trinket",
+    "category": "equipment",
+    "summary": "Armor · Defense +1; Thunder resistance +20%",
+    "instructions": "Kupo's Moogle Shop. Buy price: 150 munny. Sale price: 75 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Thunder_Trinket",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.thundara-trinket",
+    "name": "Thundara Trinket",
+    "category": "equipment",
+    "summary": "Armor · Defense +2; Thunder resistance +20%",
+    "instructions": "Mojito's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mojito — Agrabah. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Thundara_Trinket",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.thundaga-trinket",
+    "name": "Thundaga Trinket",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Thunder resistance +20%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Thundaga_Trinket"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.thundagun-trinket",
+    "name": "Thundagun Trinket",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Thunder resistance +25%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Thundagun_Trinket"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shock-charm",
+    "name": "Shock Charm",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Thunder resistance +40%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shock_Charm"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shock-charm-plus",
+    "name": "Shock Charm+",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Thunder resistance +40%; Ability Thunder Boost",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shock_Charm%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shadow-anklet",
+    "name": "Shadow Anklet",
+    "category": "equipment",
+    "summary": "Armor · Defense +1; Dark resistance +20%",
+    "instructions": "Biggs's Armor Shop. Buy price: 150 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Shadow_Anklet",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.dark-anklet",
+    "name": "Dark Anklet",
+    "category": "equipment",
+    "summary": "Armor · Defense +2; Dark resistance +20%",
+    "instructions": "Mogjiro's Moogle Shop. Buy price: 300 munny. Sale price: 150 munny. Shop worlds: Mogjiro — Disney Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there. Visit Mogjiro before the Badlands portal opens to retain access to his stock.",
+    "sources": [
+      "https://www.khwiki.com/Dark_Anklet",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false,
+    "uncertainty": "The shop guide says Dark Anklet becomes unavailable if Mogjiro was never visited before the portal opens; the general armor overview calls Champion Belt the only missable armor. These source statements have not been independently reconciled."
+  },
+  {
+    "id": "kh2fm.equipment.midnight-anklet",
+    "name": "Midnight Anklet",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Dark resistance +20%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Midnight_Anklet"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.chaos-anklet",
+    "name": "Chaos Anklet",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Dark resistance +25%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Chaos_Anklet"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.champion-belt",
+    "name": "Champion Belt",
+    "category": "equipment",
+    "summary": "Armor · Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+    "instructions": "Defeat Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Medal on the same save.",
+    "sources": [
+      "https://www.khwiki.com/Champion_Belt"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.abas-chain",
+    "name": "Abas Chain",
+    "category": "equipment",
+    "summary": "Armor · Defense +1; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+    "instructions": "Kupo's Moogle Shop. Buy price: 250 munny. Sale price: 125 munny. Shop worlds: Kupo — The Land of Dragons. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Abas_Chain",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.aegis-chain",
+    "name": "Aegis Chain",
+    "category": "equipment",
+    "summary": "Armor · Defense +2; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+    "instructions": "Mojito's and Artemicion's Moogle Shops. Buy price: 500 munny. Sale price: 250 munny. Shop worlds: Mojito — Agrabah; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Aegis_Chain",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.acrisius",
+    "name": "Acrisius",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Fire resistance +20%; Blizzard resistance +20%; Thunder resistance +20%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Acrisius"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.acrisius-plus",
+    "name": "Acrisius+",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Acrisius%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.cosmic-chain",
+    "name": "Cosmic Chain",
+    "category": "equipment",
+    "summary": "Armor · Defense +3; Fire resistance +30%; Blizzard resistance +30%; Thunder resistance +30%",
+    "instructions": "Chest at the Heartless Manufactory.",
+    "sources": [
+      "https://www.khwiki.com/Cosmic_Chain"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.petite-ribbon",
+    "name": "Petite Ribbon",
+    "category": "equipment",
+    "summary": "Armor · Defense +4; Fire resistance +10%; Blizzard resistance +10%; Thunder resistance +10%; Dark resistance +10%; Physical resistance +10%; Non-elemental resistance +10%",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Petite_Ribbon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.ribbon",
+    "name": "Ribbon",
+    "category": "equipment",
+    "summary": "Armor · Defense +4; Fire resistance +15%; Blizzard resistance +15%; Thunder resistance +15%; Dark resistance +15%; Physical resistance +15%; Non-elemental resistance +15%",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Ribbon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.grand-ribbon",
+    "name": "Grand Ribbon",
+    "category": "equipment",
+    "summary": "Armor · Defense +4; Fire resistance +25%; Blizzard resistance +25%; Thunder resistance +25%; Dark resistance +25%; Physical resistance +25%; Non-elemental resistance +25%",
+    "instructions": "Complete the \"Sunset\" Puzzle. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Grand_Ribbon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.ability-ring",
+    "name": "Ability Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +1",
+    "instructions": "Jessie's Accessory Shop; chest at the Sunset Terrace (Roxas). Buy price: 80 munny. Sale price: 40 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Ability_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.engineer-s-ring",
+    "name": "Engineer's Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +2",
+    "instructions": "Gumo's and Mogtaro's Moogle Shops. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Mogtaro — Timeless River; Gumo — Halloween Town. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Engineer%27s_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.technician-s-ring",
+    "name": "Technician's Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +3",
+    "instructions": "Gumo's Moogle Shop. Buy price: 240 munny. Sale price: 120 munny. Shop worlds: Gumo — Halloween Town. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Technician%27s_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.skill-ring",
+    "name": "Skill Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +4",
+    "instructions": "Chest at the Palace Walls. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Skill_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.skillful-ring",
+    "name": "Skillful Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +5",
+    "instructions": "Win the Titan Cup. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Skillful_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.expert-s-ring",
+    "name": "Expert's Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +6",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Expert%27s_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.master-s-ring",
+    "name": "Master's Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +7",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Master%27s_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.cosmic-ring",
+    "name": "Cosmic Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +8",
+    "instructions": "Chest at the Starry Hill.",
+    "sources": [
+      "https://www.khwiki.com/Cosmic_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.executive-s-ring",
+    "name": "Executive's Ring",
+    "category": "equipment",
+    "summary": "Accessory · AP +30",
+    "instructions": "Complete the \"Daylight\" Puzzle. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Executive%27s_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.sardonyx-ring",
+    "name": "Sardonyx Ring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; AP +1",
+    "instructions": "Monty's Moogle Shop. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Monty — Beast’s Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Sardonyx_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.tourmaline-ring",
+    "name": "Tourmaline Ring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; AP +2",
+    "instructions": "Mogtaro's Moogle Shop. Buy price: 320 munny. Sale price: 160 munny. Shop worlds: Mogtaro — Timeless River. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Tourmaline_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.aquamarine-ring",
+    "name": "Aquamarine Ring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; AP +3",
+    "instructions": "Gumo's and Artemicion's Moogle Shops. Buy price: 480 munny. Sale price: 240 munny. Shop worlds: Gumo — Halloween Town; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Aquamarine_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.garnet-ring",
+    "name": "Garnet Ring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; AP +4",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Garnet_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.diamond-ring",
+    "name": "Diamond Ring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; AP +5",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Diamond_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.silver-ring",
+    "name": "Silver Ring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +1; AP +1",
+    "instructions": "Monty's Moogle Shop. Buy price: 160 munny. Sale price: 80 munny. Shop worlds: Monty — Beast’s Castle. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Silver_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.gold-ring",
+    "name": "Gold Ring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +1; AP +2",
+    "instructions": "Mogtaro's Moogle Shop. Buy price: 320 munny. Sale price: 160 munny. Shop worlds: Mogtaro — Timeless River. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Gold_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.platinum-ring",
+    "name": "Platinum Ring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +1; AP +3",
+    "instructions": "Gumo's and Artemicion's Moogle Shops. Buy price: 480 munny. Sale price: 240 munny. Shop worlds: Gumo — Halloween Town; Artemicion — Space Paranoids. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Platinum_Ring",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.mythril-ring",
+    "name": "Mythril Ring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +1; AP +4",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Mythril_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.orichalcum-ring",
+    "name": "Orichalcum Ring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +1; AP +5",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Orichalcum_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.soldier-earring",
+    "name": "Soldier Earring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +2; AP +4",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Soldier_Earring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.fencer-earring",
+    "name": "Fencer Earring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +2; Magic +1; AP +5",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Fencer_Earring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.mage-earring",
+    "name": "Mage Earring",
+    "category": "equipment",
+    "summary": "Accessory · Magic +2; AP +4",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Mage_Earring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.slayer-earring",
+    "name": "Slayer Earring",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1; Magic +2; AP +5",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Slayer_Earring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.medal",
+    "name": "Medal",
+    "category": "equipment",
+    "summary": "Accessory · Strength +1",
+    "instructions": "Lose to Setzer in the Roxas prologue Struggle tournament. This reward is mutually exclusive with Champion Belt on the same save.",
+    "sources": [
+      "https://www.khwiki.com/Medal_(accessory)"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.moon-amulet",
+    "name": "Moon Amulet",
+    "category": "equipment",
+    "summary": "Accessory · Strength +2; Magic +2; AP +3",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Moon_Amulet"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.star-charm",
+    "name": "Star Charm",
+    "category": "equipment",
+    "summary": "Accessory · Strength +2; Magic +2; AP +5",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Star_Charm"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.cosmic-arts",
+    "name": "Cosmic Arts",
+    "category": "equipment",
+    "summary": "Accessory · Strength +2; Magic +2; AP +7",
+    "instructions": "Chest at the Central Computer Mesa.",
+    "sources": [
+      "https://www.khwiki.com/Cosmic_Arts"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shadow-archive",
+    "name": "Shadow Archive",
+    "category": "equipment",
+    "summary": "Accessory · Magic +3; AP +5",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shadow_Archive"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shadow-archive-plus",
+    "name": "Shadow Archive+",
+    "category": "equipment",
+    "summary": "Accessory · Magic +3; AP +5; Ability MP Rage",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shadow_Archive%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.full-bloom",
+    "name": "Full Bloom",
+    "category": "equipment",
+    "summary": "Accessory · Strength +3; AP +5",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Full_Bloom"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.full-bloom-plus",
+    "name": "Full Bloom+",
+    "category": "equipment",
+    "summary": "Accessory · Strength +3; AP +5; Ability MP Haste",
+    "instructions": "Item Synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Full_Bloom%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.draw-ring",
+    "name": "Draw Ring",
+    "category": "equipment",
+    "summary": "Accessory · Ability Draw",
+    "instructions": "Item synthesis (Final Mix).",
+    "sources": [
+      "https://www.khwiki.com/Draw_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.lucky-ring",
+    "name": "Lucky Ring",
+    "category": "equipment",
+    "summary": "Accessory · Ability Lucky Lucky",
+    "instructions": "Item synthesis (Final Mix).",
+    "sources": [
+      "https://www.khwiki.com/Lucky_Ring"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.mage-s-staff",
+    "name": "Mage's Staff",
+    "category": "equipment",
+    "summary": "Staff · Strength +1; Magic +1",
+    "instructions": "Donald's default weapon.",
+    "sources": [
+      "https://www.khwiki.com/Mage%27s_Staff"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.hammer-staff",
+    "name": "Hammer Staff",
+    "category": "equipment",
+    "summary": "Staff · Strength +2; Magic +1",
+    "instructions": "Wallace's Weapon Shop. Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Hammer_Staff",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.victory-bell",
+    "name": "Victory Bell",
+    "category": "equipment",
+    "summary": "Staff · Strength +3; Magic +2",
+    "instructions": "Morlock's Moogle Shop. Buy price: 400 munny. Sale price: 200 munny. Shop worlds: Morlock — Port Royal. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Victory_Bell",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.comet-staff",
+    "name": "Comet Staff",
+    "category": "equipment",
+    "summary": "Staff · Strength +2; Magic +2",
+    "instructions": "Mosh's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mosh — Olympus Coliseum. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Comet_Staff",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.lord-s-broom",
+    "name": "Lord's Broom",
+    "category": "equipment",
+    "summary": "Staff · Strength +3; Magic +3",
+    "instructions": "Kumop's Moogle Shop. Buy price: 600 munny. Sale price: 300 munny. Shop worlds: Kumop — Pride Lands. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Lord%27s_Broom",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.wisdom-wand",
+    "name": "Wisdom Wand",
+    "category": "equipment",
+    "summary": "Staff · Strength +4; Magic +5",
+    "instructions": "Stiltzkin's Moogle Shop. Buy price: 2000 munny. Sale price: 1000 munny. Shop worlds: Stiltzkin — The World That Never Was. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Wisdom_Wand",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.meteor-staff",
+    "name": "Meteor Staff",
+    "category": "equipment",
+    "summary": "Staff · Strength +4; Magic +3; Ability Thunder Boost",
+    "instructions": "Chest at the Ship Graveyard: Seadrift Keep.",
+    "sources": [
+      "https://www.khwiki.com/Meteor_Staff"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.rising-dragon",
+    "name": "Rising Dragon",
+    "category": "equipment",
+    "summary": "Staff · Strength +4; Magic +4; Ability Fire Boost",
+    "instructions": "Win the Cerberus Cup.",
+    "sources": [
+      "https://www.khwiki.com/Rising_Dragon"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shaman-s-relic",
+    "name": "Shaman's Relic",
+    "category": "equipment",
+    "summary": "Staff · Strength +4; Magic +5; Ability Blizzard Boost",
+    "instructions": "Dropped by Shaman (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shaman%27s_Relic"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.shaman-s-relic-plus",
+    "name": "Shaman's Relic+",
+    "category": "equipment",
+    "summary": "Staff · Strength +4; Magic +5; Ability Defender",
+    "instructions": "Dropped by Necromancer (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Shaman%27s_Relic%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.nobody-lance",
+    "name": "Nobody Lance",
+    "category": "equipment",
+    "summary": "Staff · Strength +5; Magic +5; Ability Item Boost",
+    "instructions": "Dropped by Dragoon (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Nobody_Lance"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.centurion",
+    "name": "Centurion",
+    "category": "equipment",
+    "summary": "Staff · Strength +13; Magic +3",
+    "instructions": "Item Synthesis.",
+    "sources": [
+      "https://www.khwiki.com/Centurion"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.centurion-plus",
+    "name": "Centurion+",
+    "category": "equipment",
+    "summary": "Staff · Strength +13; Magic +3; Ability Damage Control",
+    "instructions": "Item Synthesis.",
+    "sources": [
+      "https://www.khwiki.com/Centurion%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.save-the-queen",
+    "name": "Save the Queen",
+    "category": "equipment",
+    "summary": "Staff · Strength +5; Magic +6; Ability Hyper Healing",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_Queen"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.save-the-queen-plus",
+    "name": "Save the Queen+",
+    "category": "equipment",
+    "summary": "Staff · Strength +5; Magic +6; Ability MP Rage",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_Queen%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.plain-mushroom",
+    "name": "Plain Mushroom",
+    "category": "equipment",
+    "summary": "Staff · Magic +1",
+    "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: E: 55%; D: 65%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Plain_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.plain-mushroom-plus",
+    "name": "Plain Mushroom+",
+    "category": "equipment",
+    "summary": "Staff · Magic +3",
+    "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: D: 35%; C: 75%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Plain_Mushroom%2B",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.precious-mushroom",
+    "name": "Precious Mushroom",
+    "category": "equipment",
+    "summary": "Staff · Strength +1; Magic +5; Ability MP Haste",
+    "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: C: 25%; B: 85%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Precious_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.precious-mushroom-plus",
+    "name": "Precious Mushroom+",
+    "category": "equipment",
+    "summary": "Staff · Strength +2; Magic +7; Ability MP Hastera",
+    "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: B: 15%; A: 90%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Precious_Mushroom%2B",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.premium-mushroom",
+    "name": "Premium Mushroom",
+    "category": "equipment",
+    "summary": "Staff · Strength +3; Magic +9; Ability MP Hastega",
+    "instructions": "Mushroom XIII numbers I, III, V, VII, IX and XI. Weapon reward ranks and chances: A: 10%; S: 100%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Premium_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.knight-s-shield",
+    "name": "Knight's Shield",
+    "category": "equipment",
+    "summary": "Shield · Strength +1",
+    "instructions": "Goofy's default weapon.",
+    "sources": [
+      "https://www.khwiki.com/Knight%27s_Shield"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.adamant-shield",
+    "name": "Adamant Shield",
+    "category": "equipment",
+    "summary": "Shield · Strength +2",
+    "instructions": "Wallace's Weapon Shop. Buy price: 100 munny. Sale price: 50 munny. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Adamant_Shield_(KHII)",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.chain-gear",
+    "name": "Chain Gear",
+    "category": "equipment",
+    "summary": "Shield · Strength +3; Magic +0",
+    "instructions": "Morlock's Moogle Shop. Buy price: 400 munny. Sale price: 200 munny. Shop worlds: Morlock — Port Royal. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Chain_Gear",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.falling-star",
+    "name": "Falling Star",
+    "category": "equipment",
+    "summary": "Shield · Strength +3; Magic +0",
+    "instructions": "Mosh's Moogle Shop. Buy price: 200 munny. Sale price: 100 munny. Shop worlds: Mosh — Olympus Coliseum. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Falling_Star",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.dreamcloud",
+    "name": "Dreamcloud",
+    "category": "equipment",
+    "summary": "Shield · Strength +4",
+    "instructions": "Kumop's Moogle Shop. Buy price: 600 munny. Sale price: 300 munny. Shop worlds: Kumop — Pride Lands. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Dreamcloud",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.knight-defender",
+    "name": "Knight Defender",
+    "category": "equipment",
+    "summary": "Shield · Strength +7; Magic +0",
+    "instructions": "Stiltzkin's Moogle Shop. Buy price: 2000 munny. Sale price: 1000 munny. Shop worlds: Stiltzkin — The World That Never Was. Visiting a world’s shop adds its unique stock to the equipment shops in Radiant Garden and Twilight Town; later purchases can be made there.",
+    "sources": [
+      "https://www.khwiki.com/Knight_Defender",
+      "https://www.khwiki.com/Moogle_Shop",
+      "https://www.khwiki.com/Moogle"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.ogre-shield",
+    "name": "Ogre Shield",
+    "category": "equipment",
+    "summary": "Shield · Strength +5; Ability Defender",
+    "instructions": "Chest at the Throne Room.",
+    "sources": [
+      "https://www.khwiki.com/Ogre_Shield"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.genji-shield",
+    "name": "Genji Shield",
+    "category": "equipment",
+    "summary": "Shield · Strength +6; Ability Hyper Healing",
+    "instructions": "Win the Titan Cup.",
+    "sources": [
+      "https://www.khwiki.com/Genji_Shield"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.akashic-record",
+    "name": "Akashic Record",
+    "category": "equipment",
+    "summary": "Shield · Strength +7; Ability MP Haste",
+    "instructions": "Dropped by Bookmaster (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Akashic_Record"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.akashic-record-plus",
+    "name": "Akashic Record+",
+    "category": "equipment",
+    "summary": "Shield · Strength +7; Ability MP Hastera",
+    "instructions": "Dropped by Runemaster (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Akashic_Record%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.nobody-guard",
+    "name": "Nobody Guard",
+    "category": "equipment",
+    "summary": "Shield · Strength +8; Ability MP Rage",
+    "instructions": "Dropped by Gambler (1%). Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Nobody_Guard"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.frozen-pride",
+    "name": "Frozen Pride",
+    "category": "equipment",
+    "summary": "Shield · Strength +5",
+    "instructions": "Item synthesis.",
+    "sources": [
+      "https://www.khwiki.com/Frozen_Pride"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.frozen-pride-plus",
+    "name": "Frozen Pride+",
+    "category": "equipment",
+    "summary": "Shield · Strength +5; Ability MP Hastega",
+    "instructions": "Item synthesis.",
+    "sources": [
+      "https://www.khwiki.com/Frozen_Pride%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.save-the-king",
+    "name": "Save the King",
+    "category": "equipment",
+    "summary": "Shield · Strength +9; Ability Item Boost",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_King"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.save-the-king-plus",
+    "name": "Save the King+",
+    "category": "equipment",
+    "summary": "Shield · Strength +9; Ability Damage Control",
+    "instructions": "Item synthesis. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_King%2B"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.joyous-mushroom",
+    "name": "Joyous Mushroom",
+    "category": "equipment",
+    "summary": "Shield · Strength +1",
+    "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: E: 55%; D: 65%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Joyous_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.joyous-mushroom-plus",
+    "name": "Joyous Mushroom+",
+    "category": "equipment",
+    "summary": "Shield · Strength +3",
+    "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: D: 35%; C: 75%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Joyous_Mushroom%2B",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.majestic-mushroom",
+    "name": "Majestic Mushroom",
+    "category": "equipment",
+    "summary": "Shield · Strength +5; Ability Protect",
+    "instructions": "Mushroom XIII numbers II, IV, VI, VIII, X and XII. Weapon reward ranks and chances: C: 25%; B: 85%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Majestic_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.majestic-mushroom-plus",
+    "name": "Majestic Mushroom+",
+    "category": "equipment",
+    "summary": "Shield · Strength +7; Ability Protectra",
+    "instructions": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: B: 15%; A: 90%. Number IV also awards this shield at B rank (15%); it has no A/S rank. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Majestic_Mushroom%2B",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.equipment.ultimate-mushroom",
+    "name": "Ultimate Mushroom",
+    "category": "equipment",
+    "summary": "Shield · Strength +9; Ability Protectga",
+    "instructions": "Mushroom XIII numbers II, VI, VIII, X and XII. Weapon reward ranks and chances: A: 10%; S: 100%. Sale price: 10 munny.",
+    "sources": [
+      "https://www.khwiki.com/Ultimate_Mushroom",
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "collectible": false,
+    "checkable": false
+  },
+  {
+    "id": "kh2fm.gummi.highwind-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind sample blueprint",
+    "summary": "Default.",
+    "instructions": "Required block totals: 39 Material/G, 1 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-1-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 1 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Asteroid Sweep or later).",
+    "instructions": "Required block totals: 31 Material/G, 1 Blizzard/G, 1 Gravity/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._1",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-1-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 1 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Asteroid Sweep or later).",
+    "instructions": "Required block totals: 31 Material/G, 1 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G, 1 Square Light/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._1",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-1-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 1 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Asteroid Sweep or later).",
+    "instructions": "Required block totals: 39 Material/G, 1 Fire/G, 2 Blizzard/G, 1 Gravity/G, 1 Thunder/G, 2 Vernier/G, 1 Flat Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._1",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-2-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 2 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Stardust Sweep or later).",
+    "instructions": "Required block totals: 44 Material/G, 1 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._2",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-2-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 2 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Stardust Sweep or later).",
+    "instructions": "Required block totals: 38 Material/G, 3 Fire/G, 1 Blizzard/G, 1 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._2",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-2-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 2 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Stardust Sweep or later).",
+    "instructions": "Required block totals: 48 Material/G, 4 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Flat Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: none.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._2",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-3-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 3 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Phantom Storm or later).",
+    "instructions": "Required block totals: 49 Material/G, 1 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Hawkeye 1, Hawkeye 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._3",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-3-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 3 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Phantom Storm or later).",
+    "instructions": "Required block totals: 44 Material/G, 1 Fire/G, 1 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Flat Helm/G, 2 Square Light/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Edincoat 1, Edincoat 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._3",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-3-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 3 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Phantom Storm or later).",
+    "instructions": "Required block totals: 52 Material/G, 1 Fira/G, 1 Blizzara/G, 2 Thunder/G, 2 Vernier/G, 1 Flat Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Main Gauche 1, Main Gauche 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._3",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-4-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 4 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Splash Island or later).",
+    "instructions": "Required block totals: 52 Material/G, 1 Blizzard/G, 1 Gravity/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Hawkeye 1, Hawkeye 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._4",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-4-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 4 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Splash Island or later).",
+    "instructions": "Required block totals: 60 Material/G, 1 Fire/G, 1 Blizzard/G, 1 Thunder/G, 1 Booster/G, 1 Sphere Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Edincoat 1, Edincoat 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._4",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-4-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 4 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Splash Island or later).",
+    "instructions": "Required block totals: 47 Material/G, 1 Fire/G, 1 Fira/G, 1 Blizzara/G, 1 Thundara/G, 2 Vernier/G, 1 Flat Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Main Gauche 1, Main Gauche 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._4",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-5-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 5 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Floating Island or later).",
+    "instructions": "Required block totals: 72 Material/G, 1 Fire/G, 1 Blizzard/G, 1 Gravity/G, 2 Thunder/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Hawkeye 1, Hawkeye 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._5",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-5-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 5 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Floating Island or later).",
+    "instructions": "Required block totals: 81 Material/G, 2 Fire/G, 1 Blizzard/G, 1 Thunder/G, 2 Vernier/G, 1 Booster/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Edincoat 1, Edincoat 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._5",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-5-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 5 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Floating Island or later).",
+    "instructions": "Required block totals: 68 Material/G, 4 Fire/G, 2 Blizzard/G, 2 Thunder/G, 2 Vernier/G, 1 Solid Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Main Gauche 1, Main Gauche 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._5",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-6-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 6 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Ancient Highway or later).",
+    "instructions": "Required block totals: 112 Material/G, 1 Fire/G, 1 Blizzard/G, 1 Comet/G, 2 Thunder/G, 4 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Hawkeye 1, Hawkeye 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._6",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-6-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 6 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Ancient Highway or later).",
+    "instructions": "Required block totals: 80 Material/G, 2 Fire/G, 1 Blizzara/G, 1 Comet/G, 1 Thunder/G, 1 Booster/G, 1 Sphere Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Edincoat 1, Edincoat 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._6",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-6-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 6 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Ancient Highway or later).",
+    "instructions": "Required block totals: 108 Material/G, 2 Fire/G, 1 Blizzara/G, 1 Comet/G, 2 Thunder/G, 2 Vernier/G, 1 Solid Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Main Gauche 1, Main Gauche 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._6",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-7-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 7 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Broken Highway or later).",
+    "instructions": "Required block totals: 82 Material/G, 1 Fire/G, 1 Blizzard/G, 3 Thunder/G, 4 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Wingedge 1, Wingedge 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._7",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-7-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 7 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Broken Highway or later).",
+    "instructions": "Required block totals: 113 Material/G, 1 Fira/G, 1 Blizzara/G, 1 Thunder/G, 1 Booster/G, 1 Bubble Helm/G, 1 Shield/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Mystile 1, Mystile 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._7",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-7-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 7 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Broken Highway or later).",
+    "instructions": "Required block totals: 77 Material/G, 1 Fira/G, 1 Blizzard/G, 1 Gravira/G, 2 Thunder/G, 2 Vernier/G, 1 Solid Helm/G, 1 Radar/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Organics 1, Organics 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._7",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-lv-8-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Lv. 8 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Sunlight Storm or later).",
+    "instructions": "Required block totals: 122 Material/G, 1 Fire/G, 1 Blizzard/G, 1 Comet/G, 1 Ultima/G, 2 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Hawkeye 1, Hawkeye 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Lv._8",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-lv-8-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Lv. 8 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Sunlight Storm or later).",
+    "instructions": "Required block totals: 50 Material/G, 1 Firaga/G, 1 Blizzaga/G, 1 Thunder/G, 1 Booster/G, 1 Sphere Helm/G, 2 Round Light/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Edincoat 1, Edincoat 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Lv._8",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-lv-8-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Lv. 8 sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Sunlight Storm or later).",
+    "instructions": "Required block totals: 28 Material/G, 1 Firaga/G, 1 Blizzaga/G, 1 Ultima/G, 2 Vernier/G, 1 Solid Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Main Gauche 1, Main Gauche 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Lv._8",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.highwind-peak-sample-blueprint",
+    "category": "gummi",
+    "name": "Highwind Peak sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later).",
+    "instructions": "Required block totals: 138 Material/G, 1 Fire/G, 1 Blizzard/G, 1 Comet/G, 3 Thunder/G, 4 Vernier/G, 1 Bubble Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Valkyrie 1, Valkyrie 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Highwind_Peak",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.invincible-peak-sample-blueprint",
+    "category": "gummi",
+    "name": "Invincible Peak sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later).",
+    "instructions": "Required block totals: 169 Material/G, 1 Fire/G, 1 Fira/G, 1 Blizzara/G, 1 Meteor/G, 1 Booster/G, 1 Bubble Helm/G, 1 Shield/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Ziedrich.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Invincible_Peak",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.falcon-peak-sample-blueprint",
+    "category": "gummi",
+    "name": "Falcon Peak sample blueprint",
+    "summary": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later).",
+    "instructions": "Required block totals: 126 Material/G, 1 Blizzaga/G, 1 Graviga/G, 1 Meteor/G, 1 Thunder/G, 2 Vernier/G, 1 Solid Helm/G. Material/G shapes share one inventory stock; the listed quantity is the ownership requirement. Teeny blueprints unlocked with this main blueprint: Durandal 1, Durandal 2.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Falcon_Peak",
+      "https://www.khwiki.com/Blueprint",
+      "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.durandal-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Durandal 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Peak.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.durandal-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Durandal 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Peak.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.edincoat-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Edincoat 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Invincible Lv. 3, Invincible Lv. 4, Invincible Lv. 5, Invincible Lv. 6, Invincible Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.edincoat-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Edincoat 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Invincible Lv. 3, Invincible Lv. 4, Invincible Lv. 5, Invincible Lv. 6, Invincible Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.hawkeye-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Hawkeye 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Lv. 3, Highwind Lv. 4, Highwind Lv. 5, Highwind Lv. 6, Highwind Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.hawkeye-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Hawkeye 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Lv. 3, Highwind Lv. 4, Highwind Lv. 5, Highwind Lv. 6, Highwind Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.kingdom-teeny-blueprint",
+    "category": "gummi",
+    "name": "Kingdom Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Kingdom.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.main-gauche-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Main Gauche 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Lv. 3, Falcon Lv. 4, Falcon Lv. 5, Falcon Lv. 6, Falcon Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.main-gauche-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Main Gauche 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Lv. 3, Falcon Lv. 4, Falcon Lv. 5, Falcon Lv. 6, Falcon Lv. 8.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.mystile-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Mystile 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Invincible Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.mystile-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Mystile 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Invincible Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.organics-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Organics 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.organics-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Organics 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Falcon Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.secret-teeny-blueprint",
+    "category": "gummi",
+    "name": "Secret Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Secret.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.valkyrie-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Valkyrie 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Peak.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.valkyrie-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Valkyrie 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Peak.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.wingedge-1-teeny-blueprint",
+    "category": "gummi",
+    "name": "Wingedge 1 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.wingedge-2-teeny-blueprint",
+    "category": "gummi",
+    "name": "Wingedge 2 Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Highwind Lv. 7.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.gummi.ziedrich-teeny-blueprint",
+    "category": "gummi",
+    "name": "Ziedrich Teeny blueprint",
+    "summary": "Unlock with an associated main-ship blueprint.",
+    "instructions": "Associated main blueprints: Invincible Peak.",
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blueprint"
+    ]
+  },
+  {
+    "id": "kh2fm.bestiary.bomb-bell",
+    "category": "bestiary",
+    "name": "Bomb Bell",
+    "summary": "Combat reference · Gummi Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Bomb_Bell"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBomb Bell B — Location: The World That Never Was; HP: 50; Strength: ; Defense: ; EXP: 60 | Physical: ; Fire: -; Blizzard: - | Thunder: -; Dark: -; Neutral:  | World(s): The World That Never Was"
+  },
+  {
+    "id": "kh2fm.bestiary.bulky-vendor",
+    "category": "bestiary",
+    "name": "Bulky Vendor",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Bulky_Vendor"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBulky Vendor — Location: The Land of Dragons; Episode 2; HP: 760; Strength: 34; Defense: 19; EXP: 1700 | Location: Beast's Castle; Episode 2; HP: 770; Strength: 34; Defense: 19; EXP: 1820 | Location: Olympus Coliseum; Episode 2; HP: 820; Strength: 37; Defense: 21; EXP: 2200 | Location: Agrabah; Episode 2; HP: 840; Strength: 37; Defense: 21; EXP: 2340 | Location: Halloween Town; Episode 2; HP: 860; Strength: 39; Defense: 22; EXP: 2480 | Physical: —; Fire: —; Blizzard: — | Thunder: —; Dark: —; Neutral: — | Rewards: Capsule Prize (100-75% HP); HP prize (1) ×3, HP prize (5) ×1; Serenity Shard (100%), Orichalcum (8%); ; Rare Capsule (74-50% HP); HP prize (1) ×3, HP prize (5) ×1, MP prize (1) ×3, MP prize (3) ×1; Serenity Stone (100%), Orichalcum (10%); ; Limited Capsule (49-25% HP); HP prize (1) ×3, HP prize (5) ×1, MP prize (1) ×3, MP prize (3) ×1, Drive prize (1%) ×3, Drive prize (3%) ×1; Serenity Gem (100%), Orichalcum (12%); ; Prime Capsule (24-1% HP); HP prize (1) ×6, HP prize (5) ×2, MP prize (1) ×6, MP prize (3) ×2, Drive prize (1%) ×6, Drive prize (3%) ×2, Munny (1) ×6, Munny (5) ×4, Munny (10) ×2; Serenity Crystal (100%), Orichalcum (16%) | World(s): The Land of Dragons, Beast's Castle, Olympus Coliseum, Agrabah, Halloween Town\n\nColiseum — Hades Paradox Cup / • Match 24: 3 Bulky Vendor ; • Match 47: 1 Bulky Vendor | HP: 1810; Strength: 86; Defense: 51 | Physical: —; Fire: —; Blizzard: — | Thunder: —; Dark: —; Neutral: —"
+  },
+  {
+    "id": "kh2fm.bestiary.honey-bee",
+    "category": "bestiary",
+    "name": "Honey Bee",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Honey_Bee"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHoney Bee — Location: Twilight Town; Roxas Day 2; HP: 7; Strength: 5; Defense: 2; EXP: 0 | Location: Twilight Town; Roxas Days 4-5; HP: 8; Strength: 6; Defense: 2; EXP: 0 | Location: Twilight Town; Episode 1; HP: 23; Strength: 27; Defense: 15; EXP: 0 | Location: Twilight Town; Episode 2; HP: 34; Strength: 43; Defense: 25; EXP: 0 | Location: 100 Acre Wood; HP: 7; Strength: 5; Defense: 2; EXP: 0 | Physical: x1.0; Fire: x1.0; Blizzard: x1.0 | Thunder: x1.0; Dark: x1.0; Neutral: x1.0 | Rewards: Munny (small) x2[1] | World(s): Twilight Town, 100 Acre Wood Notes: ^ Bees only drop munny when defeated outside the mini-game."
+  },
+  {
+    "id": "kh2fm.bestiary.possessor",
+    "category": "bestiary",
+    "name": "Possessor",
+    "summary": "Combat reference · Pureblood Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Possessor"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nPossessor — Location: Beast's Castle; Episode 1; HP: 98; Strength: 15; Defense: 8; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Upper Slash; Donald: Donald Fire; Goofy: Max HP +4; ; When it hides in the door; Drive prize (1%) ×10, Drive prize (3%) ×5 | World(s): Beast's Castle\n\nThresholder — Location: Beast's Castle; Episode 1; HP: 137; Strength: 15; Defense: 8; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: When it stops moving; HP prize (1) ×10, HP prize (5) ×5 | World(s): Beast's Castle"
+  },
+  {
+    "id": "kh2fm.bestiary.speeder",
+    "category": "bestiary",
+    "name": "Speeder",
+    "summary": "Combat reference · Gummi Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Speeder"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSpeeder B — Location: The World That Never Was; HP: 100; Strength: ; Defense: ; EXP: 80 | Physical: ; Fire: -; Blizzard: - | Thunder: -; Dark: -; Neutral:  | World(s): The World That Never Was"
+  },
+  {
+    "id": "kh2fm.bestiary.spiked-roller",
+    "category": "bestiary",
+    "name": "Spiked Roller",
+    "summary": "Combat reference · Gummi Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Spiked_Roller"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSpiked Roller B — Location: The World That Never Was; HP: 100; Strength: ; Defense: ; EXP: 80 | Physical: ; Fire: -; Blizzard: - | Thunder: -; Dark: -; Neutral:  | World(s): The World That Never Was"
+  },
+  {
+    "id": "kh2fm.bestiary.undead-pirate",
+    "category": "bestiary",
+    "name": "Undead Pirate",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Undead_Pirate"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nUndead Pirate A — Location: Port Royal; Episode 1; HP: 128; Strength: 21; Defense: 11; EXP: 100 | Location: Port Royal; Episode 2; HP: 198; Strength: 35; Defense: 20; EXP: 388 | Physical: ×1.0; Fire: ×2.5; Blizzard: ×2.5 | Thunder: ×2.5; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×4, Munny (10) ×2; Potion (10%) | World(s): Port Royal\n\nUndead Pirate B — Location: Port Royal; Episode 1; HP: 128; Strength: 21; Defense: 11; EXP: 100 | Location: Port Royal; Episode 2; HP: 198; Strength: 35; Defense: 20; EXP: 388 | Physical: ×1.0; Fire: ×2.5; Blizzard: ×2.5 | Thunder: ×2.5; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×4, Munny (10) ×2; Ether (10%) | World(s): Port Royal\n\nUndead Pirate C — Location: Port Royal; Episode 1; HP: 82; Strength: 21; Defense: 11; EXP: 100 | Location: Port Royal; Episode 2; HP: 127; Strength: 35; Defense: 20; EXP: 388 | Physical: ×1.0; Fire: ×2.5; Blizzard: ×2.5 | Thunder: ×2.5; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (3) ×4, Munny (10) ×2; Hi-Potion (5%) | World(s): Port Royal"
+  },
+  {
+    "id": "kh2fm.bestiary.xemnas",
+    "category": "bestiary",
+    "name": "Xemnas",
+    "summary": "Combat reference · Organization XIII, Construct, Gummi Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Xemnas"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nXemnas — Location: The World That Never Was; HP: 1500; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: First Battle; Sora: Max HP +5, Max MP +10; Secret Ansem Report 13; ; Final Form; Sora: Drive gauge +1; Riku: Max HP +25 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 1st Fight / Components / Cylinder — Location: The World That Never Was; HP: 16; Strength: 45; Defense: 26; EXP: 0 | Physical: —; Fire: —; Blizzard: — | Thunder: —; Dark: —; Neutral: — | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 1st Fight / Components / Bomb Bell B — Location: The World That Never Was; HP: 50; Strength: 45; Defense: 26; EXP: 60 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 1st Fight / Components / Energy Core — Location: The World That Never Was; HP: 1000; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×0.5 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 1st Fight / Components / Armor — Location: The World That Never Was; HP: 1000; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 2nd Fight — Location: The World That Never Was; First part; HP: 600; Strength: 45; Defense: 26; EXP: 0 | Location: The World That Never Was; Second and third parts; HP: 1200; Strength: 45; Defense: 26; EXP: 0 | Location: The World That Never Was; Fourth and fifth parts; HP: 1000; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 2nd Fight / Wingmen / Bomb Bell B — Location: The World That Never Was; HP: 50; Strength: 45; Defense: 26; EXP: 60 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 2nd Fight / Wingmen / Speeder B — Location: The World That Never Was; HP: 50; Strength: 45; Defense: 26; EXP: 60 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 2nd Fight / Wingmen / Spiked Roller B — Location: The World That Never Was; HP: 50; Strength: 45; Defense: 26; EXP: 60 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nXemnas (Dragon Form) / 3rd Fight / Armored Controller — Location: The World That Never Was; HP: 1000; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The World That Never Was\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 | Rewards: Power Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.axel",
+    "category": "bestiary",
+    "name": "Axel",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Axel"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAxel — Location: Twilight Town; Roxas Day 4; HP: 105; Strength: 6; Defense: 2; EXP: 0 | Location: Twilight Town; Roxas Day 6; HP: 345; Strength: 7; Defense: 3; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: First; Roxas: Scan; ; Second; Roxas: Max HP +5 | World(s): Twilight Town\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Magic Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.beast",
+    "category": "bestiary",
+    "name": "Beast",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Beast"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBeast — Location: Beast's Castle; Episode 1; HP: 156; Strength: 15; Defense: 8; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Sora: Armor slot; Donald: Max HP +3; Goofy: Defender | World(s): Beast's Castle"
+  },
+  {
+    "id": "kh2fm.bestiary.blizzard-lord-and-volcanic-lord",
+    "category": "bestiary",
+    "name": "Blizzard Lord and Volcanic Lord",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Blizzard_Lord_and_Volcanic_Lord"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nBlizzard Lord — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 432; Strength: 22; Defense: 12; EXP: 0 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 648; Strength: 36; Defense: 20; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Finishing Leap, Lamp Charm; Donald: Max HP +4; Goofy: Armor slot; Aladdin: Max HP +15 | World(s): Agrabah\n\nBlizzard Lord / Coliseum — Hades Paradox Cup / • Match 15: Blizzard Lord | HP: 2172; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0\n\nVolcanic Lord — Location: Agrabah; Episode 1 (pre-1000 Heartless); HP: 432; Strength: 22; Defense: 12; EXP: 0 | Location: Agrabah; Episode 1 (post-1000 Heartless); HP: 648; Strength: 36; Defense: 20; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Finishing Leap, Lamp Charm; Donald: Max HP +4; Goofy: Armor slot; Aladdin: Max HP +15 | World(s): Agrabah\n\nVolcanic Lord / Coliseum — Hades Paradox Cup / • Match 5: Volcanic Lord | HP: 2172; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.cerberus",
+    "category": "bestiary",
+    "name": "Cerberus",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Cerberus"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nCerberus — Location: Olympus Coliseum; Episode 1; HP: 440; Strength: 17; Defense: 9; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Counterguard; Auron: Max HP +40; ; If Dog Paddle is used; MP prize (1) ×10, MP prize (3) ×5 | World(s): Olympus Coliseum\n\nColiseum — Cerberus Cup / • Match 10: Cerberus | HP: 960; Strength: 29; Defense: 16 | Cerberus Paradox Cup / • Match 10: Cerberus | HP: 1995; Strength: 62; Defense: 36 | Hades Paradox Cup / • Match 10: Cerberus | HP: 2715; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.cloud",
+    "category": "bestiary",
+    "name": "Cloud",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Cloud"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nColiseum — Hades Paradox Cup / • Match 25: Cloud ; • Match 40: Cloud ; • Match 49: Cloud | HP: 1448[5]/724[6]; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 Notes: ^ Match 49; ^ Matches 25 and 40"
+  },
+  {
+    "id": "kh2fm.bestiary.demyx",
+    "category": "bestiary",
+    "name": "Demyx",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Demyx"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nDemyx — Location: Olympus Coliseum; Episode 1; HP: —; Strength: 17; Defense: 9; EXP: 0 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 1005; Strength: 29; Defense: 16; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: First; Sora: Max HP +5; Donald: MP Rage; Goofy: Max HP +4; Olympus Stone, Secret Ansem Report 5; ; Second; Sora: Armor slot, Blizzard element; Donald: Blizzard Boost; Goofy: Max HP +4 | World(s): Olympus Coliseum, Radiant Garden\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 2715; Strength: 86; Defense: 51; EXP: 0 | Physical: ×0.5; Fire: ×1.5; Blizzard: ×0 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×0.5 | Rewards: AP Boost | World(s): Radiant Garden\n\nWater Form — Location: Olympus Coliseum; Episode 1; HP: 3; Strength: 17; Defense: 9; EXP: 0 | Location: Radiant Garden; Episode 2 (post-Space Paranoids); HP: 5; Strength: 29; Defense: 16; EXP: 0 | Location: The World That Never Was; Final battle sequence; HP: 6; Strength: 45; Defense: 26; EXP: 0 | Location: Radiant Garden; Cavern of Remembrance; HP: —; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×1 | World(s): Olympus Coliseum, Radiant Garden, The World That Never Was\n\nWater Form / Coliseum — Hades Paradox Cup / • Match 32: 4 Water Form | HP: 11; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.the-experiment",
+    "category": "bestiary",
+    "name": "The Experiment",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/The_Experiment"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nThe Experiment — Location: Halloween Town; Episode 2; HP: 1290; Strength: 39; Defense: 22; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Decisive Pumpkin; Donald: Jackpot; Goofy: Max HP +5; Jack Skellington: Max HP +10 | World(s): Halloween Town"
+  },
+  {
+    "id": "kh2fm.bestiary.fake-vivi",
+    "category": "bestiary",
+    "name": "Fake Vivi",
+    "summary": "Combat reference · Low-ranking Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Fake_Vivi"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nFake Vivi — Location: Twilight Town; Roxas Day 4 (Struggle); HP: 105; Strength: 6; Defense: 2; EXP: 0 | Location: Twilight Town; Roxas Day 5; HP: 1; Strength: 6; Defense: 2; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.grim-reaper",
+    "category": "bestiary",
+    "name": "Grim Reaper",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Grim_Reaper"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGrim Reaper — Location: Port Royal; Episode 2; HP: 790; Strength: 35; Defense: 20; EXP: 0 | Physical: ×1.0; Fire: ×0.75; Blizzard: ×0.75 | Thunder: ×0.75; Dark: ×0.75; Neutral: ×1.0 | Rewards: First; Sora: Horizontal Slash; Donald: Max HP +4; Goofy: Draw; Jack Sparrow: Max HP +10; ; Second; Sora: Magnet element; Donald: Flare Force; Goofy: Max HP +5; Jack Sparrow: Max HP +15; Secret Ansem Report 6; ; If hit by a Physical, Neutral or Dark-type attack while in cursed mode; MP prize (3) ×5 | World(s): Port Royal"
+  },
+  {
+    "id": "kh2fm.bestiary.groundshaker",
+    "category": "bestiary",
+    "name": "Groundshaker",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Groundshaker"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nGroundshaker — Location: Pride Lands; Episode 2; HP: 1424; Strength: 40; Defense: 23; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Thunder element; Simba: Max HP +5 | World(s): Pride Lands"
+  },
+  {
+    "id": "kh2fm.bestiary.hades",
+    "category": "bestiary",
+    "name": "Hades",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Hades"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHades — Location: Olympus Coliseum; Episode 1; HP: 660; Strength: 17; Defense: 9; EXP: 0 | Location: Olympus Coliseum; Episode 2; HP: 1230; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Episode 2; Sora: Max HP +5, Magnet Burst, Guardian Soul; Donald: Accessory slot; Goofy: Max HP +5; Auron: Max HP +15 | World(s): Olympus Coliseum\n\nColiseum — Goddess of Fate Cup / • Match 10: Hades | HP: 1575; Strength: 50; Defense: 29 | Hades Paradox Cup / • Match 30: Hades ; • Match 50: Hades | HP: 2715; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.hayner",
+    "category": "bestiary",
+    "name": "Hayner",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Hayner"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHayner — Location: Twilight Town; Roxas Day 4 (Struggle); HP: 210; Strength: 6; Defense: 2; EXP: 0 | Location: Twilight Town; Episode 1 (Struggle); HP: 640; Strength: 27; Defense: 15; EXP: 0 | Location: Twilight Town; Episode 2 (Struggle); HP: 950; Strength: 43; Defense: 25; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.hector-barbossa",
+    "category": "bestiary",
+    "name": "Hector Barbossa",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Hector_Barbossa"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHector Barbossa — Location: Port Royal; Episode 1; HP: 612; Strength: 21; Defense: 11; EXP: 0 | Physical: ×1.0; Fire: ×0.75; Blizzard: ×0.75 | Thunder: ×0.75; Dark: ×0.75; Neutral: ×1.0 | Rewards: Sora: Drive gauge +1, Aerial Finish, Follow the Wind; Goofy: Max HP +5, Teamwork, Auto Limit; Jack Sparrow: Max HP +15 | World(s): Port Royal"
+  },
+  {
+    "id": "kh2fm.bestiary.hercules",
+    "category": "bestiary",
+    "name": "Hercules",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Hercules"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nColiseum — Titan Cup / • Match 10: Hercules | HP: 1290; Strength: 42; Defense: 24 | Titan Paradox Cup / • Match 10: Hercules | HP: 2250; Strength: 70; Defense: 41 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.hostile-program",
+    "category": "bestiary",
+    "name": "Hostile Program",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Hostile_Program"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHostile Program — Location: Space Paranoids; Episode 1; HP: 960; Strength: 27; Defense: 15; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Drive gauge +1, Vicinity Break; Donald: Max HP +4; Goofy: Jackpot; Tron: Max HP +15 | World(s): Space Paranoids"
+  },
+  {
+    "id": "kh2fm.bestiary.hydra",
+    "category": "bestiary",
+    "name": "Hydra",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Hydra"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nHydra — Location: Olympus Coliseum; Episode 1; HP: 462[1]; Strength: 17; Defense: 9; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Thunder element, Hero's Crest; Donald: Armor slot; Goofy: Max HP +5; ; When a head is defeated with Vanquish; HP prize (5) ×5, Drive prize (3%) ×5; ; When an urn flung by Phil One-Two is broken; HP prize (5) ×3 | World(s): Olympus Coliseum Notes: ^ Individual heads have 71 HP each."
+  },
+  {
+    "id": "kh2fm.bestiary.illuminator",
+    "category": "bestiary",
+    "name": "Illuminator",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Illuminator"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nIlluminator — Location: Port Royal; Episode 1; HP: 26; Strength: 21; Defense: 11; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Drive prize (1%) ×10 | World(s): Port Royal"
+  },
+  {
+    "id": "kh2fm.bestiary.jafar-s-shadow",
+    "category": "bestiary",
+    "name": "Jafar's Shadow",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Jafar"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nJafar's Shadow — Location: Agrabah; Episode 2; HP: —; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): Agrabah"
+  },
+  {
+    "id": "kh2fm.bestiary.jafar-genie",
+    "category": "bestiary",
+    "name": "Jafar (Genie)",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Jafar_(Genie)"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nJafar (Genie) — Location: Agrabah; Episode 2; HP: 840[1]; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Fire element, Wishing Lamp | World(s): Agrabah Notes: ^ Abdomen has 93 HP; aura has 51 HP."
+  },
+  {
+    "id": "kh2fm.bestiary.lock-shock-and-barrel",
+    "category": "bestiary",
+    "name": "Lock, Shock, and Barrel",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Lock,_Shock,_and_Barrel"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLock — Location: Halloween Town; Episode 2; HP: 172; Strength: 39; Defense: 22; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Item slot; Donald: Max HP +4; Goofy: Auto Change; Jack Skellington: Max HP +5; ; When stunned; Drive prize (1%) ×10 | World(s): Halloween Town\n\nShock — Location: Halloween Town; Episode 2; HP: 172; Strength: 39; Defense: 22; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Item slot; Donald: Max HP +4; Goofy: Auto Change; Jack Skellington: Max HP +5; ; When stunned; MP prize (1) ×10 | World(s): Halloween Town\n\nBarrel — Location: Halloween Town; Episode 2; HP: 172; Strength: 39; Defense: 22; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Item slot; Donald: Max HP +4; Goofy: Auto Change; Jack Skellington: Max HP +5; ; When stunned; HP prize (1) ×10 | World(s): Halloween Town"
+  },
+  {
+    "id": "kh2fm.bestiary.luxord",
+    "category": "bestiary",
+    "name": "Luxord",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Luxord"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLuxord — Location: The World That Never Was; HP: 1500[6]; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Magnet element; Secret Ansem Report 9; ; If Sora wins a \"Find the ◯\" game; HP prize (1) ×5, HP prize (5) ×20; ; If a card is reduced to 0 HP; MP prize (1) ×4, MP prize (3) ×2 | World(s): The World That Never Was Notes: ^ Appears as a Time Gauge for Luxord. Individual cards have 50 HP.\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 2715[7]; Strength: 86; Defense: 51; EXP: 0 | Physical: ×0.3; Fire: ×0.15; Blizzard: ×0.15 | Thunder: ×0.15; Dark: ×0.15; Neutral: ×0.3 | Rewards: AP Boost; ; If Sora wins a \"Find the ◯\" game; HP prize (1) ×5, HP prize (5) ×20; ; If a card is reduced to 0 HP; HP prize (1) ×4, HP prize (3) ×2 | World(s): Radiant Garden Notes: ^ Appears as a Time Gauge for Luxord. Individual cards have 91 HP."
+  },
+  {
+    "id": "kh2fm.bestiary.master-control-program",
+    "category": "bestiary",
+    "name": "Master Control Program",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Master_Control_Program"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMaster Control Program — Location: Space Paranoids; Episode 2; HP: 920[1]; Strength: 42; Defense: 24; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Reflect element; Donald: Max HP +4; Goofy: Accessory slot; Tron: Max HP +5 | World(s): Space Paranoids Notes: ^ Its shields have 148 HP each."
+  },
+  {
+    "id": "kh2fm.bestiary.mushroom-xiii",
+    "category": "bestiary",
+    "name": "Mushroom XIII",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Mushroom_XIII"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nMushroom XIII — Physical: x0.5[1]; Fire: x0.5; Blizzard: x0.5 | Thunder: x0.5; Dark: x0.5; Neutral: x0.5[2] | Rewards: See Prizes | World(s): Various (See below) Notes: ^ Weapon vulnerability is x1.0 for No. 5, 7, and 10.; ^ Other vulnerability is x1.0 for No. 5, 7, and 10.\n\nIndividual challenge goals, material/weapon prizes and tactics are in Mushroom XIII. The inspected combat table supplies shared resistance factors but no individual HP/STR/DEF/EXP values."
+  },
+  {
+    "id": "kh2fm.bestiary.oogie-boogie",
+    "category": "bestiary",
+    "name": "Oogie Boogie",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Oogie_Boogie"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nOogie Boogie — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 371; Strength: 24; Defense: 13; EXP: 0 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 533; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0.25; Dark: ×0.25; Neutral: ×0.25 | Rewards: Sora: Item slot, Magnet element; Donald: Max HP +4; Goofy: Once More; Jack Skellington: Max HP +15 | World(s): Halloween Town"
+  },
+  {
+    "id": "kh2fm.bestiary.pete",
+    "category": "bestiary",
+    "name": "Pete",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Pete"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nPete — Location: Olympus Coliseum; Episode 1; HP: 264; Strength: 17; Defense: 9; EXP: 0 | Location: Timeless River; Episode 1; HP: 123[1]; Strength: 20; Defense: 11; EXP: 0 | Location: Timeless River; Episode 1; HP: 784; Strength: 20; Defense: 11; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Olympus Coliseum; Sora: Trinity Limit; Donald: Max HP +3; Goofy: Hyper Healing; ; Timeless River (first); Sora: Dodge Slash; Donald: Fantasia, Auto Limit; Goofy: Max HP +4; ; Timeless River (second); Sora: Max HP +5, Reflect element, Monochrome, Wisdom Form; Donald: Max HP +3; Goofy: Goofy Tornado | World(s): Olympus Coliseum, Timeless River Notes: ^ The Cornerstone cage has 343 HP.\n\nPete / Coliseum — Hades Paradox Cup / • Match 20: Pete | HP: 2896; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0\n\nPete? — Location: Timeless River; Episode 1; HP: 123; Strength: 20; Defense: 11; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): Timeless River"
+  },
+  {
+    "id": "kh2fm.bestiary.prison-keeper",
+    "category": "bestiary",
+    "name": "Prison Keeper",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Prison_Keeper"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nPrison Keeper — Location: Halloween Town; Episode 1 (pre-1000 Heartless); HP: 1140; Strength: 24; Defense: 13; EXP: 0 | Location: Halloween Town; Episode 1 (post-1000 Heartless); HP: 1640; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Flash Step; Donald: Hyper Healing; Goofy: Max HP +5; Jack Skellington: Max HP +15 | World(s): Halloween Town"
+  },
+  {
+    "id": "kh2fm.bestiary.riku",
+    "category": "bestiary",
+    "name": "Riku",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Riku"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nRiku — Location: The Land of Dragons; Episode 2; HP: 760; Strength: 34; Defense: 19; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | World(s): The Land of Dragons"
+  },
+  {
+    "id": "kh2fm.bestiary.sa-x",
+    "category": "bestiary",
+    "name": "Saïx",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Sa%C3%AFx"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSaïx — Location: The World That Never Was; HP: 1500; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5; Donald: Max HP +3; Goofy: Item slot; Secret Ansem Report 12 | World(s): The World That Never Was\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Defense Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.sark",
+    "category": "bestiary",
+    "name": "Sark",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Sark"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSark — Location: Space Paranoids; Episode 2 (normal); HP: 460; Strength: 42; Defense: 24; EXP: 0 | Location: Space Paranoids; Episode 2 (giant); HP: 248[1]; Strength: 42; Defense: 24; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | World(s): Space Paranoids Notes: ^ His feet have 46 HP."
+  },
+  {
+    "id": "kh2fm.bestiary.scar",
+    "category": "bestiary",
+    "name": "Scar",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Scar"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nScar — Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 915; Strength: 26; Defense: 14; EXP: 0 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 1290; Strength: 39; Defense: 22; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max MP +10, Fire element; Donald: Fire Boost; Goofy: Max HP +5; Simba: Max HP +30 | World(s): Pride Lands"
+  },
+  {
+    "id": "kh2fm.bestiary.seifer",
+    "category": "bestiary",
+    "name": "Seifer",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Seifer"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSeifer — Location: Twilight Town; Roxas Days 1–3; HP: 100; Strength: 5; Defense: 2; EXP: 10 | Location: Twilight Town; Roxas Days 4–5; HP: 105; Strength: 6; Defense: 2; EXP: 13 | Location: Twilight Town; Episode 1 (Struggle); HP: 192; Strength: 27; Defense: 15; EXP: 0 | Location: Twilight Town; Episode 2 (Struggle); HP: 285; Strength: 43; Defense: 25; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.sephiroth",
+    "category": "bestiary",
+    "name": "Sephiroth",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Sephiroth"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSephiroth — Location: Radiant Garden; HP: 3000; Strength: 70; Defense: 41; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | Rewards: Sora: Drive gauge +1 | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.setzer",
+    "category": "bestiary",
+    "name": "Setzer",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Setzer"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nSetzer — Location: Twilight Town; Roxas Day 4 (Struggle); HP: 105; Strength: 6; Defense: 2; EXP: 0 | Location: Twilight Town; Episode 1 (Struggle); HP: 320; Strength: 27; Defense: 15; EXP: 0 | Location: Twilight Town; Episode 2 (Struggle); HP: 475; Strength: 43; Defense: 25; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Roxas Day 4; Champion Belt (win), Medal (lose) | World(s): Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.shadow-roxas",
+    "category": "bestiary",
+    "name": "Shadow Roxas",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Shadow_Roxas"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShadow Roxas — Location: The Other Twilight Town; Roxas Day 5; HP: 105; Strength: 6; Defense: 2; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | World(s): The Other Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.shadow-stalker-and-dark-thorn",
+    "category": "bestiary",
+    "name": "Shadow Stalker and Dark Thorn",
+    "summary": "Combat reference · Pureblood Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Shadow_Stalker_and_Dark_Thorn"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShadow Stalker — Location: Beast's Castle; Episode 1; HP: 176[1]; Strength: 15; Defense: 8; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: When a chandelier or pillar is reduced to 0 HP; MP prize (1) ×10, MP prize (3) ×5; ; When Release is used; Drive prize (1%) ×10, Drive prize (3%) ×5 | World(s): Beast's Castle Notes: ^ While possessing the chandelier, Dark Stalker has only 59 HP, and while possessing the pillar, it has only 39 HP.\n\nDark Thorn — Location: Beast's Castle; Episode 1; HP: 390; Strength: 15; Defense: 8; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Retaliating Slash; Donald: Max HP +4; Goofy: Item slot; Beast: HP +35 | World(s): Beast's Castle"
+  },
+  {
+    "id": "kh2fm.bestiary.shan-yu",
+    "category": "bestiary",
+    "name": "Shan-Yu",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Shan-Yu"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShan-Yu — Location: The Land of Dragons; Episode 1; HP: 442; Strength: 12; Defense: 6; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: HP +5, Aerial Sweep, Hidden Dragon; Goofy: Goofy Turbo; Mulan: HP +20 | World(s): The Land of Dragons\n\nHayabusa — Location: The Land of Dragons; Episode 1; HP: 102; Strength: 12; Defense: 6; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | World(s): The Land of Dragons"
+  },
+  {
+    "id": "kh2fm.bestiary.shenzi-banzai-and-ed",
+    "category": "bestiary",
+    "name": "Shenzi, Banzai, and Ed",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Shenzi,_Banzai,_and_Ed"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nShenzi, Banzai, and Ed — Location: Pride Lands; Episode 1 (pre-1000 Heartless); HP: 305; Strength: 26; Defense: 14; EXP: 0 | Location: Pride Lands; Episode 1 (post-1000 Heartless); HP: 430; Strength: 39; Defense: 22; EXP: 0 | Location: Pride Lands; Episode 2; HP: 445; Strength: 40; Defense: 23; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Episode 1; Sora: Max HP +5; Donald: Max HP +4; Goofy: Lucky Lucky; ; Episode 2; Sora: Accessory slot; Donald: Max HP +4; Goofy: MP Rage; Simba: Max HP +5 | World(s): Pride Lands"
+  },
+  {
+    "id": "kh2fm.bestiary.squall-leonhart",
+    "category": "bestiary",
+    "name": "Squall Leonhart",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Squall_Leonhart"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nColiseum — Pain and Panic Cup / • Match 10: Leon | HP: 413; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 10: Leon | HP: 819; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 40: Leon ; • Match 49: Leon | HP: 1267[5]/649[6]; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0; Blizzard: ×1.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 Notes: ^ Match 49; ^ Match 40"
+  },
+  {
+    "id": "kh2fm.bestiary.storm-rider",
+    "category": "bestiary",
+    "name": "Storm Rider",
+    "summary": "Combat reference · Emblem Heartless.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Storm_Rider"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nStorm Rider — Location: The Land of Dragons; Episode 2; HP: 1216; Strength: 34; Defense: 19; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora:Thunder element; Donald: Max HP +4; Goofy: Tornado Fusion; Mulan: Max HP +25 | World(s): The Land of Dragons"
+  },
+  {
+    "id": "kh2fm.bestiary.the-ghost-of-scar",
+    "category": "bestiary",
+    "name": "The Ghost of Scar",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/The_Ghost_of_Scar"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nThe Ghost of Scar — Location: Pride Lands; Episode 2; HP: 1; Strength: 40; Defense: 23; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: MP prize (1) ×5 | World(s): Pride Lands"
+  },
+  {
+    "id": "kh2fm.bestiary.tifa",
+    "category": "bestiary",
+    "name": "Tifa",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Tifa"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nColiseum — Hades Paradox Cup / • Match 10: Tifa ; • Match 25: Tifa ; • Match 49: Tifa | HP: 1086[1]/543[2]; Strength: 86; Defense: 51 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.5 Notes: ^ Matches 10 and 25; ^ Match 49"
+  },
+  {
+    "id": "kh2fm.bestiary.twilight-thorn",
+    "category": "bestiary",
+    "name": "Twilight Thorn",
+    "summary": "Combat reference · Low-ranking Nobody.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Twilight_Thorn"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nTwilight Thorn — Location: Twilight Town; Roxas Day 3; HP: 300; Strength: 5; Defense: 2; EXP: 0 | Physical: ×1.0; Fire: ×1.0; Blizzard: ×1.0 | Thunder: ×1.0; Dark: ×1.0; Neutral: ×1.0 | Rewards: Roxas: Max HP +5, Guard | World(s): Twilight Town"
+  },
+  {
+    "id": "kh2fm.bestiary.xaldin",
+    "category": "bestiary",
+    "name": "Xaldin",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Xaldin"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nXaldin — Location: Beast's Castle; HP: 1155; Strength: 34; Defense: 19; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max HP +5, Reflect element; Donald: Auto Healing; Goofy: Max HP +4; Beast: Max HP +25; Secret Ansem Report 4 | World(s): Beast's Castle\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Defense Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.xigbar",
+    "category": "bestiary",
+    "name": "Xigbar",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Xigbar"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nXigbar — Location: The World That Never Was; HP: 1300; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0.25; Dark: ×0.25; Neutral: ×0.25 | Rewards: Sora: Max MP +10; Donald: Item slot; Goofy: Max HP +4; Secret Ansem Report 3 | World(s): The World That Never Was\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 2896; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0.25; Dark: ×0.25; Neutral: ×0.25 | Rewards: Defense Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.yuffie",
+    "category": "bestiary",
+    "name": "Yuffie",
+    "summary": "Combat reference.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Yuffie"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nColiseum — Pain and Panic Cup / • Match 10: Yuffie | HP: 255; Strength: 25; Defense: 14 | Pain and Panic Paradox Cup / • Match 10: Yuffie | HP: 585; Strength: 54; Defense: 31 | Hades Paradox Cup / • Match 10: Yuffie ; • Match 49: Yuffie | HP: 905/453; Strength: 86; Defense: 51 | Physical: ×1.5; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0"
+  },
+  {
+    "id": "kh2fm.bestiary.larxene",
+    "category": "bestiary",
+    "name": "Larxene",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Larxene"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAbsent Silhouette — Location: Port Royal; HP: 1065; Strength: 31; Defense: 17; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Max MP +10; Donald: Item slot; Goofy: Max HP +4; Cloaked Thunder, Lost Illusion (100%) | World(s): Port Royal\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 2715; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0; Dark: ×0.5; Neutral: ×1.0 | Rewards: Lost Illusion (100%) | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.lexaeus",
+    "category": "bestiary",
+    "name": "Lexaeus",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Lexaeus"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAbsent Silhouette — Location: Twilight Town; HP: 1578; Strength: 37; Defense: 21; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Accessory slot; Donald: Max HP +3; Goofy: Item slot; Strength Beyond Strength, Lost Illusion (100%) | World(s): Twilight Town\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Lost Illusion (100%) | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.lingering-will",
+    "category": "bestiary",
+    "name": "Lingering Will",
+    "summary": "Combat reference · Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Lingering_Will"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nLingering Will — Location: Keyblade Graveyard; HP: 3400[1]; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: First; Sora: Drive gauge +1; Donald: Max HP +3; Goofy: Max HP +4; ; Second and after; Manifest Illusion (100%); ; If a blue seal core is…; …damaged: HP prize (1) ×1; …destroyed: HP prize (5) ×10; ; If an orange seal core is…; …damaged: MP prize (1) ×2; …destroyed: MP prize (3) ×10 | World(s): Keyblade Graveyard Notes: ^ The seal cores have 91 HP each."
+  },
+  {
+    "id": "kh2fm.bestiary.marluxia",
+    "category": "bestiary",
+    "name": "Marluxia",
+    "summary": "Combat reference · Organization XIII, Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Marluxia"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAbsent Silhouette — Location: Beast's Castle; HP: 2817; Strength: 70; Defense: 41; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Drive gauge +1; Donald: Max HP +3; Goofy: Max HP +4; Eternal Blossom, Lost Illusion (100%) | World(s): Beast's Castle\n\nData Rematch / Marluxia — Location: Radiant Garden; Garden of Assemblage; HP: 3400; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Lost Illusion (100%) | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.roxas",
+    "category": "bestiary",
+    "name": "Roxas",
+    "summary": "Combat reference · Organization XIII.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Roxas"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nRoxas — Location: The World That Never Was; HP: 1300; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0.25; Dark: ×0.25; Neutral: ×0.25 | Rewards: Sora: Max HP +5, Combo Master, Two Become One; Secret Ansem Report 8 | World(s): The World That Never Was\n\nData Rematch — Location: Radiant Garden; Garden of Assemblage; HP: 3168; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.25; Blizzard: ×0.25 | Thunder: ×0.25; Dark: ×0.25; Neutral: ×0.25 | Rewards: Magic Boost | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.vexen",
+    "category": "bestiary",
+    "name": "Vexen",
+    "summary": "Combat reference · Organization XIII, Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Vexen"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAbsent Silhouette / Vexen — Location: Agrabah; HP: 1500; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×0.25 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Sora: Armor slot; Donald: Max HP +3; Goofy: Max HP +4; Road to Discovery, Lost Illusion (100%) | World(s): Agrabah\n\nAbsent Silhouette / Shield — Location: Agrabah; HP: 100; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | World(s): Agrabah\n\nAbsent Silhouette / Clone Sora — Location: Agrabah; HP: LV1: 100; LV2: 160; LV3: 250; LV4: 350; LV5: 450; Strength: 45; Defense: 26; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×1.5 | Thunder: ×1.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: MP prize (3) ×4 | World(s): Agrabah\n\nData Rematch / Vexen — Location: Radiant Garden; Garden of Assemblage; HP: 2715; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×0.25 | Thunder: ×0.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: Lost Illusion (100%) | World(s): Radiant Garden\n\nData Rematch / Shield — Location: Radiant Garden; Garden of Assemblage; HP: 181; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0; Blizzard: ×0 | Thunder: ×0; Dark: ×0; Neutral: ×1.0 | World(s): Radiant Garden\n\nData Rematch / Clone Sora — Location: Radiant Garden; Garden of Assemblage; HP: LV1: 181; LV2: 290; LV3: 453; LV4: 634; LV5: 815; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×1.5 | Thunder: ×1.5; Dark: ×0.5; Neutral: ×1.0 | Rewards: MP prize (3) ×4 | World(s): Radiant Garden"
+  },
+  {
+    "id": "kh2fm.bestiary.zexion",
+    "category": "bestiary",
+    "name": "Zexion",
+    "summary": "Combat reference · Organization XIII, Construct.",
+    "checkable": false,
+    "collectible": false,
+    "sources": [
+      "https://www.khwiki.com/Game:Zexion"
+    ],
+    "instructions": "\n\nCombat data by encounter (HP, STR, DEF and EXP are source attributes; damage multipliers describe incoming damage):\nAbsent Silhouette / Zexion — Location: Olympus Coliseum; HP: 708; Strength: 25; Defense: 14; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0; Neutral: ×0.5 | Rewards: Sora: Item slot; Donald: Max HP +3; Goofy: Damage Control; Book of Shadows, Lost Illusion (100%) | World(s): Olympus Coliseum\n\nAbsent Silhouette / Book — Location: Olympus Coliseum; HP: 59; Strength: 25; Defense: 14; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0; Neutral: ×0.5 | Rewards: When any of the following Lexicon commands are selected; Heal, Herb, Mend, Soothe: HP prize (5) ×5; Spirit: MP prize (3) ×5; Stamina: Drive prize (3%) ×5; Riches, Wealth: Munny (10) ×3; Lucky, Treasure: HP prize (5) ×5, Drive prize (3%) ×5; Bounty, Jackpot: MP prize (3) ×5, Munny (10) ×3; Bonus: HP prize (5) ×5, MP prize (3) ×5, Drive prize (3%) ×5 | World(s): Olympus Coliseum\n\nData Rematch / Zexion — Location: Radiant Garden; Garden of Assemblage; HP: 2172; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×0.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0; Neutral: ×0.5 | Rewards: Lost Illusion (100%) | World(s): Radiant Garden\n\nData Rematch / Book — Location: Radiant Garden; Garden of Assemblage; HP: 181; Strength: 86; Defense: 51; EXP: 0 | Physical: ×1.0; Fire: ×1.5; Blizzard: ×0.5 | Thunder: ×0.5; Dark: ×0; Neutral: ×0.5 | Rewards: When any of the following Lexicon commands are selected; Heal, Herb, Mend, Soothe: HP prize (5) ×5; Spirit: MP prize (3) ×5; Stamina: Drive prize (3%) ×5; Riches, Wealth: Munny (10) ×3; Lucky, Treasure: HP prize (5) ×5, Drive prize (3%) ×5; Bounty, Jackpot: MP prize (3) ×5, Munny (10) ×3; Bonus: HP prize (5) ×5, MP prize (3) ×5, Drive prize (3%) ×5 | World(s): Radiant Garden"
   }
 ];
 export const recipes: CollectionRecipe[] = [
@@ -13022,7 +20542,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Recovery Recipe. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Recovery Recipe. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Drive_Recovery",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.high-drive-recovery",
@@ -13050,7 +20574,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Recovery Recipe. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Recovery Recipe. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Drive_Recovery",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.elixir",
@@ -13070,7 +20598,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Star Recipe. Base rank / EXP: A / 15. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Star Recipe. Base rank / EXP: A / 15. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Elixir",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.megalixir",
@@ -13094,7 +20626,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Star Recipe. Base rank / EXP: A / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Star Recipe. Base rank / EXP: A / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Elixir",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mega-potion",
@@ -13118,7 +20654,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Mega Recipe. Base rank / EXP: B / 12. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Mega Recipe. Base rank / EXP: B / 12. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Mega-Potion",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mega-ether",
@@ -13146,7 +20686,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Mega Recipe. Base rank / EXP: B / 12. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Mega Recipe. Base rank / EXP: B / 12. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Mega-Potion",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.ap-boost",
@@ -13170,7 +20714,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Skill Recipe. Base rank / EXP: S / 49. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Skill Recipe. Base rank / EXP: S / 49. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/AP_Boost",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.magic-boost",
@@ -13198,7 +20746,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Skill Recipe. Base rank / EXP: S / 49. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Skill Recipe. Base rank / EXP: S / 49. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/AP_Boost",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.defense-boost",
@@ -13222,7 +20774,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Guard Recipe. Base rank / EXP: S / 50. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Guard Recipe. Base rank / EXP: S / 50. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Defense_Boost",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.power-boost",
@@ -13250,7 +20806,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Guard Recipe. Base rank / EXP: S / 50. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Guard Recipe. Base rank / EXP: S / 50. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Defense_Boost",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.moon-amulet",
@@ -13274,7 +20834,12 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143",
+      "https://quest.guide/kingdom-hearts-2/items/40",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.star-charm",
@@ -13302,7 +20867,12 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Moon Recipe. Base rank / EXP: A / 22. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://gamefaqs.gamespot.com/ps2/935702-kingdom-hearts-ii-final-mix-plus/faqs/48143",
+      "https://quest.guide/kingdom-hearts-2/items/40",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.petite-ribbon",
@@ -13326,7 +20896,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Style Recipe. Base rank / EXP: A / 24. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Style Recipe. Base rank / EXP: A / 24. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://30somethinggaming.com/synthesis-guide-kingdom-hearts-2-final-mix/",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.ribbon",
@@ -13354,7 +20928,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Style Recipe. Base rank / EXP: A / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Style Recipe. Base rank / EXP: A / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://30somethinggaming.com/synthesis-guide-kingdom-hearts-2-final-mix/",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.save-the-queen",
@@ -13382,7 +20960,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 9
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Queen Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Queen Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_Queen",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.save-the-queen-plus",
@@ -13414,7 +20996,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Queen Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Queen Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_Queen",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.centurion",
@@ -13442,7 +21028,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 7
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Strength Beyond Strength. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Strength Beyond Strength. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Centurion",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.centurion-plus",
@@ -13474,7 +21064,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Strength Beyond Strength. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Strength Beyond Strength. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Centurion",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.frozen-pride",
@@ -13502,7 +21096,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 7
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Road to Discovery. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Road to Discovery. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Frozen_Pride",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.frozen-pride-plus",
@@ -13534,7 +21132,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Road to Discovery. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Road to Discovery. Base rank / EXP: S / 51. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Frozen_Pride",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.save-the-king",
@@ -13562,7 +21164,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 9
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) King Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) King Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_King",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.save-the-king-plus",
@@ -13594,7 +21200,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) King Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) King Recipe. Base rank / EXP: S / 78. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Save_the_King",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.ultima-weapon",
@@ -13630,7 +21240,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Ultimate Recipe; Moogle level 2 or higher. Includes the mandatory Energy Crystal: displayed raw 13 Orichalcum+ becomes 7, and all other base ingredients are halved, rounding each up. Only seven Orichalcum+ acquisitions exist. No additional Moogle discount assumed."
+    "instructions": "Ultimate Recipe; Moogle level 2 or higher. Includes the mandatory Energy Crystal: displayed raw 13 Orichalcum+ becomes 7, and all other base ingredients are halved, rounding each up. Only seven Orichalcum+ acquisitions exist. No additional Moogle discount assumed.",
+    "sources": [
+      "https://www.khwiki.com/Ultima_Weapon",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.firaga-bangle",
@@ -13650,7 +21264,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Firagun_Bangle",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.firagun-bangle",
@@ -13674,7 +21292,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Firagun_Bangle",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.blizzaga-armlet",
@@ -13694,7 +21316,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain five types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain five types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Blizzaga_Armlet",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.blizzagun-armlet",
@@ -13718,7 +21344,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain five types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain five types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Blizzaga_Armlet",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.thundaga-trinket",
@@ -13738,7 +21368,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Thundaga_Trinket",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.thundagun-trinket",
@@ -13762,7 +21396,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Thundaga_Trinket",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.shock-charm",
@@ -13790,7 +21428,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Cloaked Thunder. Base rank / EXP: S / 31. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Cloaked Thunder. Base rank / EXP: S / 31. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Shock_Charm",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.shock-charm-plus",
@@ -13822,7 +21464,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Cloaked Thunder. Base rank / EXP: S / 31. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Cloaked Thunder. Base rank / EXP: S / 31. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Shock_Charm",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.full-bloom",
@@ -13846,7 +21492,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Eternal Blossom. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Eternal Blossom. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Full_Bloom",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.full-bloom-plus",
@@ -13874,7 +21524,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Eternal Blossom. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Eternal Blossom. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Full_Bloom",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.shadow-archive",
@@ -13898,7 +21552,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Book of Shadows. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Book of Shadows. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Shadow_Archive",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.shadow-archive-plus",
@@ -13926,7 +21584,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Book of Shadows. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Book of Shadows. Base rank / EXP: S / 26. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Shadow_Archive",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.garnet-ring",
@@ -13950,7 +21612,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Garnet_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.diamond-ring",
@@ -13978,7 +21644,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 16. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Garnet_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mythril-ring",
@@ -14002,7 +21672,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 17. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 17. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Mythril_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.orichalcum-ring",
@@ -14030,7 +21704,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 17. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 17. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Mythril_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.midnight-anklet",
@@ -14050,7 +21728,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Midnight_Anklet",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.chaos-anklet",
@@ -14074,7 +21756,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 5 types of materials. Base rank / EXP: C / 15. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Midnight_Anklet",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.acrisius",
@@ -14098,7 +21784,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Acrisius",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.acrisius-plus",
@@ -14126,7 +21816,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Acrisius",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.power-band",
@@ -14150,7 +21844,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Power_Band",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.buster-band",
@@ -14178,7 +21876,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Power_Band",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.soldier-earring",
@@ -14202,7 +21904,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Soldier_Earring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.fencer-earring",
@@ -14230,7 +21936,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Soldier_Earring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mage-earring",
@@ -14254,7 +21964,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Mage_Earring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.slayer-earring",
@@ -14282,7 +21996,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: B / 24. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Mage_Earring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.expert-s-ring",
@@ -14310,7 +22028,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: A / 29. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: A / 29. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Expert%27s_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.master-s-ring",
@@ -14342,7 +22064,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: A / 29. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Obtain 20 types of materials. Base rank / EXP: A / 29. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Expert%27s_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.draw-ring",
@@ -14370,7 +22096,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 9
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Rare Document. Base rank / EXP: S / 55. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Rare Document. Base rank / EXP: S / 55. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Draw_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.lucky-ring",
@@ -14402,7 +22132,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Rare Document. Base rank / EXP: S / 55. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Rare Document. Base rank / EXP: S / 55. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Crystal. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Draw_Ring",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mythril-shard",
@@ -14426,7 +22160,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Obtain 20 different synthesis materials.. Base rank / EXP: C / 18. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Amateur Moogle (LV1) Obtain 20 different synthesis materials.. Base rank / EXP: C / 18. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mythril-stone",
@@ -14454,7 +22192,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Amateur Moogle (LV1) Obtain 20 different synthesis materials.. Base rank / EXP: C / 18. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Amateur Moogle (LV1) Obtain 20 different synthesis materials.. Base rank / EXP: C / 18. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Shard. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mythril-gem",
@@ -14478,7 +22220,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 3
       }
     ],
-    "instructions": "Unlock: Superior Moogle (LV8). Base rank / EXP: B / 34. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Superior Moogle (LV8). Base rank / EXP: B / 34. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.mythril-crystal",
@@ -14506,7 +22252,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Superior Moogle (LV8). Base rank / EXP: B / 34. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Superior Moogle (LV8). Base rank / EXP: B / 34. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Stone. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Mythril",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.serenity-crystal",
@@ -14526,7 +22276,11 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 9
       }
     ],
-    "instructions": "Unlock: Superior Moogle (LV8) Free Development. Base rank / EXP: A / 55. Quantities are before optional Energy and Moogle discounts."
+    "instructions": "Unlock: Superior Moogle (LV8) Free Development. Base rank / EXP: A / 55. Quantities are before optional Energy and Moogle discounts.",
+    "sources": [
+      "https://www.khwiki.com/Serenity",
+      "https://www.khwiki.com/Synthesis"
+    ]
   },
   {
     "id": "kh2fm.recipe.manifest-illusion",
@@ -14550,6 +22304,10 @@ export const recipes: CollectionRecipe[] = [
         "quantity": 1
       }
     ],
-    "instructions": "Unlock: Superior Moogle (LV8) Free Development. Base rank / EXP: A / 55. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output."
+    "instructions": "Unlock: Superior Moogle (LV8) Free Development. Base rank / EXP: A / 55. Quantities are before optional Energy and Moogle discounts. Uses the base recipe ingredients again, plus Serenity Gem. At Moogle level 3 or higher, first synthesize the base item, then select it in Creations and add Serenity to make the upgraded output.",
+    "sources": [
+      "https://www.khwiki.com/Serenity",
+      "https://www.khwiki.com/Synthesis"
+    ]
   }
 ];

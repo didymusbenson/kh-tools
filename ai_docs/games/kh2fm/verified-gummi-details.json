@@ -1,0 +1,4422 @@
+{
+  "verifiedOn": "2026-10-01",
+  "edition": "Kingdom Hearts II Final Mix",
+  "routes": {
+    "Asteroid Sweep": {
+      "source": "https://www.khwiki.com/Asteroid_Sweep",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Patterned Skins A"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Fira/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Thundara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Laser Upgrade"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Ring Tank (R)",
+              "screen": "Left",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Flat Helm/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Typhoon/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "500",
+              "reward": "Highwind α"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "440",
+              "reward": "Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "380",
+              "reward": "Large Shield/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "320",
+              "reward": "Fira/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "260",
+              "reward": "Saw/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "200",
+              "reward": "Gravira/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "500",
+              "reward": "Shuriken/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "U.F.O. (G)",
+              "screen": "Back",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Ring Tank (G)",
+              "screen": "Right",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Spider (R)",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Mega Tank (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Spider (G)",
+              "screen": "Front",
+              "reward": "Kingdom"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Bomb Bell (G)",
+              "screen": "Front",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Vernier/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "2900000",
+              "reward": "Flat Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Hurricane/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Thruster/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Radar/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Gungnir/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Masamune/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "2900000",
+              "reward": "Figure/G Set"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "U.F.O. (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Ring Tank (G)",
+              "screen": "Right",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Ring Tank (R)",
+              "screen": "Left",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Bomb Bell (R)",
+              "screen": "Front",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Spider (R)",
+              "screen": "Front",
+              "reward": "Slash Haste"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Left",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Spider (G)",
+              "screen": "Front",
+              "reward": "Slash Precharge"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Bomb Bell (G)",
+              "screen": "Front",
+              "reward": "Typhoon/G"
+            }
+          ]
+        }
+      }
+    },
+    "Stardust Sweep": {
+      "source": "https://www.khwiki.com/Stardust_Sweep",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Patterned Skins B"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Rotor/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Shield/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Solid Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Blizzara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Cannon Upgrade"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Flag/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Heal Upgrade"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Hex Ring (R)",
+              "screen": "Back",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Left",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Right",
+              "reward": "Bubble Helm/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Right",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Back",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Left",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Bomb Bell (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "500",
+              "reward": "PuPu"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "440",
+              "reward": "Thruster/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "380",
+              "reward": "Parabola/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "320",
+              "reward": "Blizzara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "260",
+              "reward": "Radar/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "200",
+              "reward": "Orichalcum/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "500",
+              "reward": "Boomerang/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Spider",
+              "screen": "Back",
+              "reward": "Heal Upgrade"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Bomb Bell (R)",
+              "screen": "Front",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Front",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Cyclops (G)",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Slash Precharge"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Slash Haste"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Tempest/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "3100000",
+              "reward": "Bubble Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Booster/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Drill/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Antenna/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Comet/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "3100000",
+              "reward": "Strike/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Spider",
+              "screen": "Back",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Left",
+              "reward": "Cyclone/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Front",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Back",
+              "reward": "Cyclone/G"
+            },
+            {
+              "enemy": "Cyclops (R)",
+              "screen": "Back",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Cyclops (G)",
+              "screen": "Back",
+              "reward": "Drill/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Left",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Right",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Front",
+              "reward": "Parabola/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Cyclops (G)",
+              "screen": "Front",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Back",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Tempest/G"
+            },
+            {
+              "enemy": "Bomb Bell (G)",
+              "screen": "Back",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            }
+          ]
+        }
+      }
+    },
+    "Phantom Storm": {
+      "source": "https://www.khwiki.com/Phantom_Storm",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Realistic Skins"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Hurricane/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Flat Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Cannon Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Gravira/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Auto-Life"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Mast/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Teeny System"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Front",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Front",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "Grappler (G)",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Skull",
+              "screen": "Front",
+              "reward": "Gravity/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "500",
+              "reward": "Tonberry"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "440",
+              "reward": "Storm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "380",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "320",
+              "reward": "Radar/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "260",
+              "reward": "Gungnir/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "200",
+              "reward": "Thundara/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "500",
+              "reward": "Strike/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Back",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Back",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Back",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Spiked Roller (G)",
+              "screen": "Back",
+              "reward": "Cyclone/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Grappler (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Front",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Driller (R)",
+              "screen": "Front",
+              "reward": "Meteor/G"
+            },
+            {
+              "enemy": "Driller (R)",
+              "screen": "Front",
+              "reward": "Drill/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Front",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Skull",
+              "screen": "Front",
+              "reward": "Booster/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "3100000",
+              "reward": "Drill/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Storm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Blizzara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Thundaga/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "3100000",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Back",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Back",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Back",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Spiked Roller (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Skull",
+              "screen": "Front",
+              "reward": "Antenna/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Left",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Right",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Back",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Back",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Grappler (G)",
+              "screen": "Back",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Back",
+              "reward": "Comet/G"
+            }
+          ]
+        }
+      }
+    },
+    "Splash Island": {
+      "source": "https://www.khwiki.com/Splash_Island",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Decal Skins"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "AP Limit Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Heal Upgrade"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Flag/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Auto-Counter"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Formation Change"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Right",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Sphere Helm/G"
+            },
+            {
+              "enemy": "Bomber (G)",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Thundara/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Left",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Booster/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "350",
+              "reward": "Moogle"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "300",
+              "reward": "Storm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "250",
+              "reward": "Round Light/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "200",
+              "reward": "Antenna/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "150",
+              "reward": "Laser Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "100",
+              "reward": "Thundaga/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "350",
+              "reward": "Boomerang/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Left",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Right",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Back",
+              "reward": "Orichalcum/G"
+            },
+            {
+              "enemy": "Shield (G)",
+              "screen": "Front",
+              "reward": "Large Rotor/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "1700000",
+              "reward": "Solid Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Storm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Firaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Meteor/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "1700000",
+              "reward": "Mast/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Left",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Bomber (G)",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Back",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Bomber (G)",
+              "screen": "Front",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Front",
+              "reward": "Flat Helm/G"
+            },
+            {
+              "enemy": "U.F.O. (R)",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Shield (G)",
+              "screen": "Back",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Front",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Thruster/G"
+            }
+          ]
+        }
+      }
+    },
+    "Floating Island": {
+      "source": "https://www.khwiki.com/Floating_Island",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Variety Skins A"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Shell/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Sphere Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Orichalcum/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Active Formation"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Moon Ring/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Cost Limit Upgrade"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Mega Tank (R)",
+              "screen": "Front",
+              "reward": "Fire/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Right",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Back",
+              "reward": "Blizzard/G"
+            },
+            {
+              "enemy": "Bomber (G)",
+              "screen": "Back",
+              "reward": "Storm/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Tank (R)",
+              "screen": "Front",
+              "reward": "Thunder/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Solid Helm/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Back",
+              "reward": "Gravity/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Back",
+              "reward": "Drill/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "300",
+              "reward": "Mandragora"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "260",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "220",
+              "reward": "Cost Converter"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "180",
+              "reward": "Excalibur/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "140",
+              "reward": "Firaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "100",
+              "reward": "Graviga/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "300",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Driller (R)",
+              "screen": "Back",
+              "reward": "Masamune/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Left",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Auto-Regen"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Back",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Back",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Back",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Left",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Driller (R)",
+              "screen": "Front",
+              "reward": "Gungnir/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Right",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Tank (G)",
+              "screen": "Right",
+              "reward": "Bridge/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "1900000",
+              "reward": "Sphere Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Square Light/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Saw/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Firaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Ultima/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "1900000",
+              "reward": "Figure/G Set"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Driller (R)",
+              "screen": "Back",
+              "reward": "Masamune/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Back",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Back",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Back",
+              "reward": "Saw/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Right",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Left",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Right",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Front",
+              "reward": "Angel/G"
+            },
+            {
+              "enemy": "Bomber (R)",
+              "screen": "Back",
+              "reward": "Bubble Helm/G"
+            },
+            {
+              "enemy": "Bomber (G)",
+              "screen": "Back",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Crawler",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Back",
+              "reward": "Angel/G"
+            }
+          ]
+        }
+      }
+    },
+    "Ancient Highway": {
+      "source": "https://www.khwiki.com/Ancient_Highway",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Variety Skins B"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Cyclone/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Wheel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Slash Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Firaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Auto-Regen"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Figure/G Set"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Front",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Front",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Cannon Upgrade"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Front",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Left",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "350",
+              "reward": "Chocobo"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "300",
+              "reward": "Angel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "250",
+              "reward": "Shell/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "200",
+              "reward": "AP Limit Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "150",
+              "reward": "Fira/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "100",
+              "reward": "Ultima/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "350",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Front",
+              "reward": "Angel/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Left",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Left",
+              "reward": "Angel/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Hex Ring (G)",
+              "screen": "Back",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Front",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Front",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Front",
+              "reward": "Antenna/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Wheel/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "1900000",
+              "reward": "Saw/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Wheel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Sphere Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Gravira/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Infinity/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "1900000",
+              "reward": "Boomerang/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Cyclone/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Front",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Left",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Left",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Left",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Cyclone/G"
+            },
+            {
+              "enemy": "Hex Ring (R)",
+              "screen": "Back",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Hex Ring (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Left",
+              "reward": "Slash Upgrade"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Draw"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Left",
+              "reward": "Saw/G"
+            }
+          ]
+        }
+      }
+    },
+    "Broken Highway": {
+      "source": "https://www.khwiki.com/Broken_Highway",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Neon Skins A"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Typhoon/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Booster/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Large Shield/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Medal Converter"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Teeny Limit Upgrade"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Front",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Right",
+              "reward": "Shield/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Right",
+              "reward": "Laser Upgrade"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Back",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Left",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Gravira/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Left",
+              "reward": "Radar/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Back",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Back",
+              "reward": "Cyclone/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "350",
+              "reward": "Cactuar"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "300",
+              "reward": "Darkness/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "250",
+              "reward": "Wheel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "200",
+              "reward": "Big Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "150",
+              "reward": "Blizzara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "100",
+              "reward": "Masamune/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "350",
+              "reward": "Figure/G Set"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Saw/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Back",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Front",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Back",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Back",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Left",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Left",
+              "reward": "Vernier/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Screw Propeller/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Firaga/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "2100000",
+              "reward": "Gungnir/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Wheel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Solid Helm/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Thundara/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Excalibur/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "2100000",
+              "reward": "Strike/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Back",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Saw/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Back",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Back",
+              "reward": "Gravira/G"
+            },
+            {
+              "enemy": "Shield (R)",
+              "screen": "Front",
+              "reward": "Typhoon/G"
+            },
+            {
+              "enemy": "Gatling Ship (G)",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Reaper's Wheel",
+              "screen": "Back",
+              "reward": "Saw/G"
+            },
+            {
+              "enemy": "Gatling Ship (R)",
+              "screen": "Back",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Speeder (G)",
+              "screen": "Back",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Back",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Back",
+              "reward": "Fira/G"
+            }
+          ]
+        }
+      }
+    },
+    "Sunlight Storm": {
+      "source": "https://www.khwiki.com/Sunlight_Storm",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Neon Skins B"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Large Shell/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Thundaga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "AP Limit Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Draw"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Figure/G Set"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Ultima/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Knight Head (R)",
+              "screen": "Right",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Back",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Material/G x10"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Mystic Flyer (G)",
+              "screen": "Front",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Front",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Front",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Front",
+              "reward": "Gravira/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Spiked Roller (G)",
+              "screen": "Front",
+              "reward": "Darkness/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Front",
+              "reward": "Saw/G"
+            },
+            {
+              "enemy": "Driller (R)",
+              "screen": "Front",
+              "reward": "Drill/G"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "600",
+              "reward": "Cait Sith"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "500",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "400",
+              "reward": "Drill/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "300",
+              "reward": "Parabola/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "200",
+              "reward": "Slash Upgrade"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "100",
+              "reward": "Infinity/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "600",
+              "reward": "Shuriken/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Spider",
+              "screen": "Left",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Left",
+              "reward": "Meteor/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Left",
+              "reward": "Square Light/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Left",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Left",
+              "reward": "Mini-Propeller/G"
+            },
+            {
+              "enemy": "Driller (G)",
+              "screen": "Front",
+              "reward": "Parabola/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Spider (R)",
+              "screen": "Left",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Grappler (G)",
+              "screen": "Left",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Back",
+              "reward": "Wheel/G"
+            },
+            {
+              "enemy": "Mystic Flyer (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Back",
+              "reward": "Vortex/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Back",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Spider (R)",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Spider (R)",
+              "screen": "Front",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Back",
+              "reward": "Gungnir/G"
+            },
+            {
+              "enemy": "Knight Head (G)",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "3600000",
+              "reward": "Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Cyclone/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Typhoon/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Orichalcum/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Comet/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Graviga/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "3600000",
+              "reward": "Strike/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Back",
+              "reward": "Fira/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Left",
+              "reward": "Thruster/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Back",
+              "reward": "Rotor/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Front",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Grappler (R)",
+              "screen": "Left",
+              "reward": "Drill/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Back",
+              "reward": "Excalibur/G"
+            },
+            {
+              "enemy": "Mystic Flyer (G)",
+              "screen": "Back",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Mystic Flyer (R)",
+              "screen": "Back",
+              "reward": "Meteor/G"
+            },
+            {
+              "enemy": "Spiked Roller (R)",
+              "screen": "Back",
+              "reward": "Blizzara/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Back",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Spiked Roller (G)",
+              "screen": "Back",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Propeller/G"
+            },
+            {
+              "enemy": "Hunter",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Driller (R)",
+              "screen": "Front",
+              "reward": "Gungnir/G"
+            }
+          ]
+        }
+      }
+    },
+    "Assault of the Dreadnought": {
+      "source": "https://www.khwiki.com/Assault_of_the_Dreadnought",
+      "missions": {
+        "1": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "30",
+              "reward": "Mushroom"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "26",
+              "reward": "Vortex/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "22",
+              "reward": "Big Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "18",
+              "reward": "Excalibur/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "14",
+              "reward": "Meteor/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "10",
+              "reward": "Cost Converter"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "30",
+              "reward": "Shuriken/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "N/A",
+              "screen": "N/A",
+              "reward": "Cost Limit Upgrade"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Big Bridge/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Graviga/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Meteor/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Angel/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Large Rotor/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Phoenix (G)",
+              "screen": "Front",
+              "reward": "Angel/G"
+            },
+            {
+              "enemy": "Speeder (R)",
+              "screen": "Front",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Core",
+              "screen": "Front",
+              "reward": "Material/G x20"
+            }
+          ]
+        },
+        "2": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "650",
+              "reward": "Fenrir"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "560",
+              "reward": "Square Light/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "470",
+              "reward": "Vortex/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "380",
+              "reward": "Large Shell/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "290",
+              "reward": "Auto-Regen"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "200",
+              "reward": "Drain/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "650",
+              "reward": "Caterpillar/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Mystic Flyer (G)",
+              "screen": "Front",
+              "reward": "Neon Orb/G"
+            },
+            {
+              "enemy": "Phoenix (R)",
+              "screen": "Left",
+              "reward": "Firaga/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Blizzaga/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Front",
+              "reward": "Infinity/G"
+            },
+            {
+              "enemy": "Core",
+              "screen": "Right",
+              "reward": "Neon Bar/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Left",
+              "reward": "Slash Haste"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Left",
+              "reward": "Slash Precharge"
+            }
+          ]
+        },
+        "3": {
+          "ranks": [
+            {
+              "mode": "Normal",
+              "rank": "S",
+              "target": "7000000",
+              "reward": "Big Bridge/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "A",
+              "target": "900000",
+              "reward": "Darkness/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "B",
+              "target": "800000",
+              "reward": "Angel/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "C",
+              "target": "700000",
+              "reward": "Meteor/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "D",
+              "target": "600000",
+              "reward": "Graviga/G"
+            },
+            {
+              "mode": "Normal",
+              "rank": "E",
+              "target": "500000",
+              "reward": "Firaga/G"
+            },
+            {
+              "mode": "EX",
+              "rank": "S",
+              "target": "7000000",
+              "reward": "Bomb/G"
+            }
+          ],
+          "treasures": [
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Drill/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Booster/G"
+            },
+            {
+              "enemy": "Mystic Flyer (G)",
+              "screen": "Front",
+              "reward": "Round Light/G"
+            },
+            {
+              "enemy": "Cruiser",
+              "screen": "Front",
+              "reward": "Hurricane/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Back",
+              "reward": "Infinity/G"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Back",
+              "reward": "Comet/G"
+            },
+            {
+              "enemy": "Core",
+              "screen": "Right",
+              "reward": "Medal Converter"
+            },
+            {
+              "enemy": "Spider",
+              "screen": "Left",
+              "reward": "Sonic Turbo/G"
+            },
+            {
+              "enemy": "Hunter-X",
+              "screen": "Front",
+              "reward": "Secret"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "blueprints": [
+    {
+      "name": "Highwind",
+      "type": "Sample",
+      "acquisition": "Default",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Highwind",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 39
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 1",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Asteroid Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Highwind_Lv._1",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 31
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Gravity/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 1",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Asteroid Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Invincible_Lv._1",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 31
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Square Light/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 1",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Asteroid Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Falcon_Lv._1",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 39
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 2
+        },
+        {
+          "name": "Gravity/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Flat Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 2",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Stardust Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Highwind_Lv._2",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 44
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 2",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Stardust Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Invincible_Lv._2",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 38
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 3
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 2",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Stardust Sweep or later)",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Falcon_Lv._2",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 48
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 4
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Flat Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 3",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Phantom Storm or later)",
+      "teenyShips": [
+        "Hawkeye 1",
+        "Hawkeye 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._3",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 49
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 3",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Phantom Storm or later)",
+      "teenyShips": [
+        "Edincoat 1",
+        "Edincoat 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._3",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 44
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Flat Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Square Light/G",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 3",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Phantom Storm or later)",
+      "teenyShips": [
+        "Main Gauche 1",
+        "Main Gauche 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._3",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 52
+        },
+        {
+          "name": "Fira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Flat Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 4",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Splash Island or later)",
+      "teenyShips": [
+        "Hawkeye 1",
+        "Hawkeye 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._4",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 52
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Gravity/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 4",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Splash Island or later)",
+      "teenyShips": [
+        "Edincoat 1",
+        "Edincoat 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._4",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 60
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Sphere Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 4",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Splash Island or later)",
+      "teenyShips": [
+        "Main Gauche 1",
+        "Main Gauche 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._4",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 47
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Fira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thundara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Flat Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 5",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Floating Island or later)",
+      "teenyShips": [
+        "Hawkeye 1",
+        "Hawkeye 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._5",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 72
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Gravity/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 5",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Floating Island or later)",
+      "teenyShips": [
+        "Edincoat 1",
+        "Edincoat 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._5",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 81
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 2
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 5",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Floating Island or later)",
+      "teenyShips": [
+        "Main Gauche 1",
+        "Main Gauche 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._5",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 68
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 4
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 2
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Solid Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 6",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Ancient Highway or later)",
+      "teenyShips": [
+        "Hawkeye 1",
+        "Hawkeye 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._6",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 112
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Comet/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 4
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 6",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Ancient Highway or later)",
+      "teenyShips": [
+        "Edincoat 1",
+        "Edincoat 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._6",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 80
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 2
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Comet/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Sphere Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 6",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Ancient Highway or later)",
+      "teenyShips": [
+        "Main Gauche 1",
+        "Main Gauche 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._6",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 108
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 2
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Comet/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Solid Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 7",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Broken Highway or later)",
+      "teenyShips": [
+        "Wingedge 1",
+        "Wingedge 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._7",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 82
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 3
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 4
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 7",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Broken Highway or later)",
+      "teenyShips": [
+        "Mystile 1",
+        "Mystile 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._7",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 113
+        },
+        {
+          "name": "Fira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Shield/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 7",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Broken Highway or later)",
+      "teenyShips": [
+        "Organics 1",
+        "Organics 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._7",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 77
+        },
+        {
+          "name": "Fira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Gravira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 2
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Solid Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Radar/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Lv. 8",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Sunlight Storm or later)",
+      "teenyShips": [
+        "Hawkeye 1",
+        "Hawkeye 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Lv._8",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 122
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Comet/G",
+          "quantity": 1
+        },
+        {
+          "name": "Ultima/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Lv. 8",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Sunlight Storm or later)",
+      "teenyShips": [
+        "Edincoat 1",
+        "Edincoat 2"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Lv._8",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 50
+        },
+        {
+          "name": "Firaga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzaga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Sphere Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Round Light/G",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "Falcon Lv. 8",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Sunlight Storm or later)",
+      "teenyShips": [
+        "Main Gauche 1",
+        "Main Gauche 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Lv._8",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 28
+        },
+        {
+          "name": "Firaga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzaga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Ultima/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Solid Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Highwind Peak",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later)",
+      "teenyShips": [
+        "Valkyrie 1",
+        "Valkyrie 2"
+      ],
+      "source": "https://www.khwiki.com/Highwind_Peak",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 138
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzard/G",
+          "quantity": 1
+        },
+        {
+          "name": "Comet/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 3
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 4
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Invincible Peak",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later)",
+      "teenyShips": [
+        "Ziedrich"
+      ],
+      "source": "https://www.khwiki.com/Invincible_Peak",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 169
+        },
+        {
+          "name": "Fire/G",
+          "quantity": 1
+        },
+        {
+          "name": "Fira/G",
+          "quantity": 1
+        },
+        {
+          "name": "Blizzara/G",
+          "quantity": 1
+        },
+        {
+          "name": "Meteor/G",
+          "quantity": 1
+        },
+        {
+          "name": "Booster/G",
+          "quantity": 1
+        },
+        {
+          "name": "Bubble Helm/G",
+          "quantity": 1
+        },
+        {
+          "name": "Shield/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Falcon Peak",
+      "type": "Sample",
+      "acquisition": "Collect the required Gummi Blocks; (Assault of the Dreadnought or later)",
+      "teenyShips": [
+        "Durandal 1",
+        "Durandal 2"
+      ],
+      "source": "https://www.khwiki.com/Falcon_Peak",
+      "requiredBlocks": [
+        {
+          "name": "Material/G",
+          "quantity": 126
+        },
+        {
+          "name": "Blizzaga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Graviga/G",
+          "quantity": 1
+        },
+        {
+          "name": "Meteor/G",
+          "quantity": 1
+        },
+        {
+          "name": "Thunder/G",
+          "quantity": 1
+        },
+        {
+          "name": "Vernier/G",
+          "quantity": 2
+        },
+        {
+          "name": "Solid Helm/G",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Secret",
+      "type": "Special",
+      "acquisition": "Defeat Hunter-X on the front screen in Assault of the Dreadnought Mission 3",
+      "teenyShips": [
+        "Secret"
+      ],
+      "source": "https://www.khwiki.com/Secret"
+    },
+    {
+      "name": "Kingdom",
+      "type": "Special",
+      "acquisition": "Defeat the Spider (G) on the front screen in Asteroid Sweep Mission 2",
+      "teenyShips": [
+        "Kingdom"
+      ],
+      "source": "https://www.khwiki.com/Kingdom"
+    },
+    {
+      "name": "Fenrir",
+      "type": "Special",
+      "acquisition": "Assault of the Dreadnought LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Fenrir_(Gummi_Ship)"
+    },
+    {
+      "name": "Cait Sith",
+      "type": "Special",
+      "acquisition": "Sunlight Storm LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Cait_Sith"
+    },
+    {
+      "name": "Cactuar",
+      "type": "Special",
+      "acquisition": "Broken Highway LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Cactuar"
+    },
+    {
+      "name": "Chocobo",
+      "type": "Special",
+      "acquisition": "Ancient Highway LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Chocobo"
+    },
+    {
+      "name": "Mandragora",
+      "type": "Special",
+      "acquisition": "Floating Island LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Mandragora"
+    },
+    {
+      "name": "Moogle",
+      "type": "Special",
+      "acquisition": "Splash Island LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Moogle_(Gummi_Ship)"
+    },
+    {
+      "name": "Tonberry",
+      "type": "Special",
+      "acquisition": "Phantom Storm LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Tonberry"
+    },
+    {
+      "name": "PuPu",
+      "type": "Special",
+      "acquisition": "Stardust Sweep LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/PuPu"
+    },
+    {
+      "name": "Highwind α",
+      "type": "Special",
+      "acquisition": "Asteroid Sweep LV2 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Highwind_%CE%B1"
+    },
+    {
+      "name": "Mushroom",
+      "type": "Special",
+      "acquisition": "Assault of the Dreadnought LV1 rank S",
+      "teenyShips": [],
+      "source": "https://www.khwiki.com/Mushroom_(Gummi_Ship)"
+    }
+  ],
+  "teenyShips": [
+    {
+      "name": "Durandal 1",
+      "parents": [
+        "Falcon Peak"
+      ]
+    },
+    {
+      "name": "Durandal 2",
+      "parents": [
+        "Falcon Peak"
+      ]
+    },
+    {
+      "name": "Edincoat 1",
+      "parents": [
+        "Invincible Lv. 3",
+        "Invincible Lv. 4",
+        "Invincible Lv. 5",
+        "Invincible Lv. 6",
+        "Invincible Lv. 8"
+      ]
+    },
+    {
+      "name": "Edincoat 2",
+      "parents": [
+        "Invincible Lv. 3",
+        "Invincible Lv. 4",
+        "Invincible Lv. 5",
+        "Invincible Lv. 6",
+        "Invincible Lv. 8"
+      ]
+    },
+    {
+      "name": "Hawkeye 1",
+      "parents": [
+        "Highwind Lv. 3",
+        "Highwind Lv. 4",
+        "Highwind Lv. 5",
+        "Highwind Lv. 6",
+        "Highwind Lv. 8"
+      ]
+    },
+    {
+      "name": "Hawkeye 2",
+      "parents": [
+        "Highwind Lv. 3",
+        "Highwind Lv. 4",
+        "Highwind Lv. 5",
+        "Highwind Lv. 6",
+        "Highwind Lv. 8"
+      ]
+    },
+    {
+      "name": "Kingdom",
+      "parents": [
+        "Kingdom"
+      ]
+    },
+    {
+      "name": "Main Gauche 1",
+      "parents": [
+        "Falcon Lv. 3",
+        "Falcon Lv. 4",
+        "Falcon Lv. 5",
+        "Falcon Lv. 6",
+        "Falcon Lv. 8"
+      ]
+    },
+    {
+      "name": "Main Gauche 2",
+      "parents": [
+        "Falcon Lv. 3",
+        "Falcon Lv. 4",
+        "Falcon Lv. 5",
+        "Falcon Lv. 6",
+        "Falcon Lv. 8"
+      ]
+    },
+    {
+      "name": "Mystile 1",
+      "parents": [
+        "Invincible Lv. 7"
+      ]
+    },
+    {
+      "name": "Mystile 2",
+      "parents": [
+        "Invincible Lv. 7"
+      ]
+    },
+    {
+      "name": "Organics 1",
+      "parents": [
+        "Falcon Lv. 7"
+      ]
+    },
+    {
+      "name": "Organics 2",
+      "parents": [
+        "Falcon Lv. 7"
+      ]
+    },
+    {
+      "name": "Secret",
+      "parents": [
+        "Secret"
+      ]
+    },
+    {
+      "name": "Valkyrie 1",
+      "parents": [
+        "Highwind Peak"
+      ]
+    },
+    {
+      "name": "Valkyrie 2",
+      "parents": [
+        "Highwind Peak"
+      ]
+    },
+    {
+      "name": "Wingedge 1",
+      "parents": [
+        "Highwind Lv. 7"
+      ]
+    },
+    {
+      "name": "Wingedge 2",
+      "parents": [
+        "Highwind Lv. 7"
+      ]
+    },
+    {
+      "name": "Ziedrich",
+      "parents": [
+        "Invincible Peak"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.khwiki.com/Blueprint",
+    "https://www.khwiki.com/Gummi_Ship",
+    "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+  ],
+  "scope": "All 27 normal missions: lower-rank thresholds and enemy treasure relations; 28 sample and 12 special main blueprints with full required-block totals; 19 named Teeny blueprints with their automatic parent unlocks.",
+  "materialStockRule": {
+    "description": "Every Material/G shape draws from one shared inventory stock. The listed Material/G quantity is the ownership requirement; no separate stock of each shape is needed.",
+    "initial": 100,
+    "maximum": 200,
+    "source": "https://www.khwiki.com/Gummi_Blocks_(KHII)"
+  }
+}
