@@ -55,7 +55,7 @@ The [Flick Rush source](https://www.khwiki.com/Flick_Rush) locates the tournamen
 | Yummy | 3 | Complete second Traverse Town visit |
 | Final | 4 | Clear Musketeers and Symphony |
 | Horror | 1 | Rush LV13 |
-| Secret | 5 | Win all other cups; Rush LV15 |
+| Secret | 5 | Win other cups; main table says Rush LV15, [individual cup page](https://www.khwiki.com/Secret_Cup) says LV17; minimum remains disputed |
 
 Store static cup access prerequisites, per-match outcome/rank, cup prize, Rush level and medals as separate facts. Do not add Available Now filters or track story/access gates. Medal Shop purchasing consumes currency; lifetime medal achievement totals and current wallet are different counters. All27 opponent lineups, available medal cells and176 shop rows are extracted. Blank per-round medal cells and missing complete rank/prize rules remain explicit. [Sweet Dreams](https://www.khwiki.com/Sweet_Dreams) is awarded for Secret Cup match 5 (“Orion”), so attach that reward to the match event.
 
@@ -74,3 +74,6 @@ Balloon, Water Barrel, Candy Goggles, Light Cycle, Reality Shifts, training/affi
 
 Training toys, food and recipes require acquisition entries as well as minigame explanations. The product must answer both “where do I obtain this toy?” and “which score unlocks this award?” Complete toy/shop acquisition and controller-specific input records remain outstanding.
 
+
+
+2026-10-02: Published match-time/HP/attack/block scoring, S/A/B/C thresholds, all cup-prize rank-point thresholds and 19 Rush LV milestones are fully transcribed in `continuation-facts.json` and shown on cup/achievement entries. These are source-labelled mechanics references, not a Steam measurement. Speed Cup has no assigned time group in the source; spendable Medal payouts are a separate missing matrix. See [follow-up evidence](gap-evidence-2026-10-02.json).

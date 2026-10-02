@@ -13,5 +13,394 @@
       ],
       "basis": "The DDD infobox itself says buy=100, bargain=80, shop=1; complete Moogle and independent GamerGuides shop tables agree. The same article prose says 400/320. Adopt mutually corroborated structured values; preserve the conflicting raw extraction. PS4 GameFAQs answer465557 indexed excerpt independently describes80instead100; full page access was blocked. No Steam measurement claimed."
     }
-  ]
+  ],
+  "gapFollowup": {
+    "date": "2026-10-02",
+    "sweetDreams": {
+      "instructions": "Sweet Dreams is delivered to the character who clears the Secret Cup. For the other copy, switch characters and replay the Secret Cup; verify ownership separately for Sora and Riku. Star ranks are a separate Flick Rush completion goal, not an additional Keyblade requirement.",
+      "uncertainty": "HD player documentation supports character-specific delivery. Exact minimum replay scope and Steam event retrigger details are not independently verified.",
+      "sources": [
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+        "https://www.khwiki.com/Sweet_Dreams",
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/74405?page=1"
+      ]
+    },
+    "reportedInteraction": {
+      "breed": "Tubguin Ace",
+      "from": "Hot Springs",
+      "to": "Whirlpool",
+      "action": "rub",
+      "bodyPart": "face",
+      "source": "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+      "quality": "Indexed first-hand PS4 HD player report; full forum retrieval restricted; not independently Steam-verified."
+    },
+    "cupAccessCorrections": [
+      {
+        "name": "Secret Cup",
+        "previous": "Win all other cups; Rush LV15",
+        "replacement": "Win the other cups; published unlock thresholds disagree between Rush LV 15 and LV 17.",
+        "sources": [
+          "https://www.khwiki.com/Secret_Cup",
+          "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+          "https://www.khwiki.com/Flick_Rush"
+        ],
+        "basis": "Flick Rush main table says all other cups plus LV15; individual Secret Cup page says rank17; HD retrospective reports access at17 but does not prove the minimum. Preserve the conflict instead of silently certifying either threshold."
+      }
+    ],
+    "flickRushScoring": {
+      "source": "https://www.khwiki.com/Flick_Rush",
+      "editionBoundary": "Published mechanics reference; HD equivalence of exact scoring thresholds is not independently verified. Cup prize points are not spendable Medals.",
+      "timeGroups": [
+        {
+          "cups": [
+            "Training Cup",
+            "Beginner's Cup",
+            "Rainbow Cup",
+            "Digital Cup"
+          ],
+          "maximumSecondsByPoints": [
+            [
+              10,
+              119
+            ],
+            [
+              9,
+              142
+            ],
+            [
+              8,
+              164
+            ],
+            [
+              7,
+              187
+            ],
+            [
+              6,
+              209
+            ],
+            [
+              5,
+              232
+            ],
+            [
+              4,
+              254
+            ],
+            [
+              3,
+              277
+            ],
+            [
+              2,
+              299
+            ]
+          ],
+          "onePointFromSeconds": 300
+        },
+        {
+          "cups": [
+            "Tin Pin Cup",
+            "Yummy Cup"
+          ],
+          "maximumSecondsByPoints": [
+            [
+              10,
+              149
+            ],
+            [
+              9,
+              172
+            ],
+            [
+              8,
+              194
+            ],
+            [
+              7,
+              217
+            ],
+            [
+              6,
+              239
+            ],
+            [
+              5,
+              262
+            ],
+            [
+              4,
+              284
+            ],
+            [
+              3,
+              307
+            ],
+            [
+              2,
+              329
+            ]
+          ],
+          "onePointFromSeconds": 330
+        },
+        {
+          "cups": [
+            "Final Cup",
+            "Horror Cup"
+          ],
+          "maximumSecondsByPoints": [
+            [
+              10,
+              179
+            ],
+            [
+              9,
+              202
+            ],
+            [
+              8,
+              224
+            ],
+            [
+              7,
+              247
+            ],
+            [
+              6,
+              269
+            ],
+            [
+              5,
+              292
+            ],
+            [
+              4,
+              314
+            ],
+            [
+              3,
+              337
+            ],
+            [
+              2,
+              359
+            ]
+          ],
+          "onePointFromSeconds": 360
+        },
+        {
+          "cups": [
+            "Secret Cup"
+          ],
+          "maximumSecondsByPoints": [
+            [
+              10,
+              239
+            ],
+            [
+              9,
+              262
+            ],
+            [
+              8,
+              284
+            ],
+            [
+              7,
+              307
+            ],
+            [
+              6,
+              329
+            ],
+            [
+              5,
+              352
+            ],
+            [
+              4,
+              374
+            ],
+            [
+              3,
+              397
+            ],
+            [
+              2,
+              419
+            ]
+          ],
+          "onePointFromSeconds": 420
+        }
+      ],
+      "unassignedTimeGroups": [
+        "Speed Cup"
+      ],
+      "defeatTimePoints": 0,
+      "remainingHpMinimumPercentByPoints": [
+        [
+          12,
+          70
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          10,
+          50
+        ],
+        [
+          9,
+          45
+        ],
+        [
+          8,
+          39
+        ],
+        [
+          7,
+          34
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          5,
+          23
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "successfulAttackMinimumPercentByPoints": [
+        [
+          12,
+          90
+        ],
+        [
+          11,
+          87
+        ],
+        [
+          10,
+          83
+        ],
+        [
+          9,
+          80
+        ],
+        [
+          8,
+          76
+        ],
+        [
+          7,
+          72
+        ],
+        [
+          6,
+          69
+        ],
+        [
+          5,
+          65
+        ],
+        [
+          4,
+          61
+        ],
+        [
+          3,
+          58
+        ],
+        [
+          2,
+          54
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "successfulBlocks": "min(successful blocks, 5)",
+      "rankMinimumPoints": {
+        "S": 30,
+        "A": 23,
+        "B": 16,
+        "C": 0
+      },
+      "cupPrizePointsByRank": {
+        "S": 4,
+        "A": 3,
+        "B": 2,
+        "C": 1
+      },
+      "cupPrizeThresholdsByRounds": {
+        "1": {
+          "bronze": 2,
+          "silver": 3,
+          "gold": 4
+        },
+        "2": {
+          "bronze": 3,
+          "silver": 6,
+          "gold": 8
+        },
+        "3": {
+          "bronze": 4,
+          "silver": 8,
+          "gold": 12
+        },
+        "4": {
+          "bronze": 6,
+          "silver": 11,
+          "gold": 16
+        },
+        "5": {
+          "bronze": 7,
+          "silver": 14,
+          "gold": 20
+        }
+      },
+      "rushLevelStartsAt": 1,
+      "rushLevelMilestones": {
+        "firstCupWin": "Each of the ten cups, once",
+        "lifetimeMedals": [
+          300,
+          700,
+          3000,
+          5000
+        ],
+        "silverOrGoldPrizes": [
+          5,
+          10
+        ],
+        "goldPrizes": [
+          3,
+          5,
+          10
+        ]
+      },
+      "spendableMedalPayoutMatrix": null
+    }
+  }
 }

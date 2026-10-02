@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "edition": "Steam HD",
   "findings": [
     {
       "id": "DDD-001",
       "status": "partial",
-      "integrated": "All 438 pickup landmarks integrated from the complete KH13 location table, reconciled by HD item/area identity; all 51 KHWiki notes and existing longer approaches retained. Directions also reach command, material, recipe-item and training-item acquisition references. Map compass convention and available access actions are explicit.",
+      "integrated": "All 438 pickup landmarks integrated from the complete KH13 location table, reconciled by HD item/area identity; all 51 KHWiki notes and existing longer approaches retained. Directions also reach command, material, recipe-item and training-item acquisition references. Map compass convention and available access actions are explicit. 11 Grid chest access actions integrated; 438 IDs preserved.",
       "remaining": "The 438-row location guide supplies pickup landmarks, not exhaustive entrance-to-chest walking routes, earliest story access, minimum movement abilities or returnability. Its residualCoverage lists 437 IDs without an explicit earliest-access statement (Cell Tornado Strike has one); existing KHWiki access notes remain separately retained. Full KH13 and GamerGuides were consulted. GameFAQs 64798 direct access returned HTTP403/web restriction; indexed excerpts share KH13 lineage and are not independent verification. The known Curaga/Doubleflight numbering conflicts are now resolved with independent HD evidence; see DDD-002.",
       "consultedSources": [
         "https://www.khwiki.com/Game:Country_of_the_Musketeers",
@@ -22,13 +22,27 @@
         "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
         "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/7",
         "https://www.khwiki.com/Kingdom_Hearts_Dream_Drop_Distance_HD",
-        "https://tamaki-game.com/kh3d-riku-world"
+        "https://tamaki-game.com/kh3d-riku-world",
+        "https://tamaki-game.com/kh3d-sora-grid",
+        "https://tamaki-game.com/kh3d-riku-grid",
+        "https://github.com/LuxMake/Archipelago-KHDDD/blob/859db185a6729c77eb8f92ec3a95eed2a3cb215c/worlds/khddd/Rules.py"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "The independent PS4 HD Japanese map guide corroborates the two final-world chest numbers and pickup areas. All438 prior routes remain; no exhaustive earliest-access/minimum-movement/returnability matrix was supplied.437 IDs still lack an explicit earliest-access statement in the route enrichment.",
         "inspection": "Tamaki full page and annotated HD map inspected; source says its numbers follow Reports left-to-right.",
         "followup": "An edition-labelled complete HD access/returnability guide or pinned map-event data; no user playthrough requested."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "11 Grid chest access actions integrated; 438 IDs preserved.",
+        "inspection": "Full Sora and Riku HD Japanese pages; textual actions matched to current Reports numbers and item identities. Images not inspected this pass. AP Rules.py also inspected: randomized world unlock items are unsuitable vanilla story gates.",
+        "remainingEvidence": "Complete per-chest earliest event, minimum movement and returnability matrix; the 437-ID earliest-access residual is not reduced merely by new route actions.",
+        "sources": [
+          "https://tamaki-game.com/kh3d-sora-grid",
+          "https://tamaki-game.com/kh3d-riku-grid",
+          "https://github.com/LuxMake/Archipelago-KHDDD/blob/859db185a6729c77eb8f92ec3a95eed2a3cb215c/worlds/khddd/Rules.py"
+        ]
       }
     },
     {
@@ -123,13 +137,25 @@
         "https://www.khwiki.com/File:Ability_Link_(Base).svg",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
         "https://wikiwiki.jp/kh_3d/ドリームイーター/オバケピエロ",
-        "https://github.com/OpenKH/OpenKh/blob/5d549839210932d85dec8c39f5d6ad2a3b78aad3/docs/ddd/file/lboard.md"
+        "https://github.com/OpenKH/OpenKh/blob/5d549839210932d85dec8c39f5d6ad2a3b78aad3/docs/ddd/file/lboard.md",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Corrected the diagnosis: Jestabocky A-3 Magic Boost exists. B-3 points Left to it, but A-3 lacks the reciprocal Right direction. No node or edge was invented. Aura Lion remains separately blocked.",
         "inspection": "Japanese3DS Jestabocky table draws the horizontal connection, but its level checkpoints also differ from current wiki. OpenKH documents a format, not a species-labelled HD binary.",
         "followup": "A provenance-labelled HD Jestabocky board image or lboard.bin resolving this connection and checkpoint edition."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Jestabocky reciprocal connection remains uncertified.",
+        "inspection": "Fresh Xbox HD Spirit walkthrough indexed excerpt gives LP total and contents but its board image could not be retrieved (web 402; direct HTTP403). Pinned current OpenKH lboard schema inspected; its node size/offset description and unidentified examples are insufficient species evidence.",
+        "remainingEvidence": "Unmodified HD Jestabocky board screenshot or identified board bytes proving A-3/B-3 edge and checkpoint edition.",
+        "sources": [
+          "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
+        ]
       }
     },
     {
@@ -142,19 +168,31 @@
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
         "https://www.playstationtrophies.org/forum/topic/283696-kingdom-hearts-dream-drop-distance-hd-~-trophy-guide-amp-roadmap/",
         "https://wikiwiki.jp/kh_3d/ドリームイーター/オーラライオン",
-        "https://github.com/OpenKH/OpenKh/blob/5d549839210932d85dec8c39f5d6ad2a3b78aad3/docs/ddd/file/lboard.md"
+        "https://github.com/OpenKH/OpenKh/blob/5d549839210932d85dec8c39f5d6ad2a3b78aad3/docs/ddd/file/lboard.md",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Aura Lion C-7 red secret250LP versus transformation-footnote D-7 remains unresolved for HD.3DS Japanese table corroborates C-7 and D-7level30 but cannot certify unchanged HD coordinates.",
         "inspection": "Japanese3DS table fully inspected. OpenKH pinned lboard schema has connections/cost fields and unknowns; example bytes lack species/edition identity. No inference from an isolated250 cost.",
         "followup": "Species-labelled HD lboard.bin or HD board image with coordinates; no guessed edge/cost."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Aura Lion C-7/D-7 red-secret ambiguity remains blocked.",
+        "inspection": "Same HD walkthrough indexed Aura Lion contents/LP total, inaccessible image. Pinned lboard file documents generic secret bytes but no Aura-labelled complete board; cost250 alone cannot identify the row.",
+        "remainingEvidence": "Species-labelled HD red-secret node and transformation target, including coordinates and LV30 path.",
+        "sources": [
+          "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/lboard.md"
+        ]
       }
     },
     {
       "id": "DDD-005",
       "status": "partial",
-      "integrated": "All 54 four-disposition tables, base stats and normal/rare form flags extracted; nine Spirit-only breeds explicitly distinguished from absent enemy data.",
+      "integrated": "All 54 four-disposition tables, base stats and normal/rare form flags extracted; nine Spirit-only breeds explicitly distinguished from absent enemy data. Added one explicitly PS4-player-reported Tubguin interaction; all 15 unknown numeric fields and five unverified body cells remain explicit.",
       "remaining": "15 base-stat fields are ??? across Beatalike, Catanuki and Tubguin Ace. Five body-part instructions are blank: Beatalike two, Tubguin Ace two, Woeflower one. Individual pages retain these blanks; the 3DS FAQ cannot fill new HD breeds.",
       "consultedSources": [
         "https://www.khwiki.com/Aura_Lion",
@@ -215,13 +253,27 @@
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
         "https://www.kh13.com/forums/topic/104220-guide-new-dream-eaters-in-kingdom-hearts-dream-drop-distance-hd/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3267226259",
-        "https://youtube.com/shorts/waGtdlT57UI"
+        "https://youtube.com/shorts/waGtdlT57UI",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+        "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Items/Spirits.lua",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/btlparam.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No numeric/body-part additions:15 unknown base-stat fields across Beatalike,Catanuki,Tubguin Ace; five missing body-part instructions remain.",
         "inspection": "KH13 HD breed guide indexed recipes/unlocks only. Steam stats guide full page contains a video link, not a complete HD Spirit base/training table. Video was not frame-inspected.",
         "followup": "HD Spirit parameter table with documented field semantics; body-interaction evidence for those five cells."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Added one explicitly PS4-player-reported Tubguin interaction; all 15 unknown numeric fields and five unverified body cells remain explicit.",
+        "inspection": "Indexed first-hand HD testing thread says Hot Springs rub face -> Whirlpool; full forum restricted. Pinned Steam AP Spirits.lua fully inspected: physical stats for Catanuki/Beatalike/Tubguin are explicitly copied from Flowbermeow/Zolephant/Iceguin. Pinned btlparam documents percent fields but provides no HD rows.",
+        "remainingEvidence": "Vanilla species parameter rows with base-stat conversion semantics; independent HD corroboration for the five missing interaction cells.",
+        "sources": [
+          "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74929561",
+          "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Items/Spirits.lua",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/btlparam.md"
+        ]
       }
     },
     {
@@ -286,13 +338,25 @@
         "https://www.khwiki.com/Zolephant",
         "https://www.khwiki.com/Spirit",
         "https://www.khwiki.com/Template:SynthKH3D",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/spirit-synthesis-data"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/spirit-synthesis-data",
+        "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "All141 unmarked formula odds remain unknown. Full synthesis guide supplies ingredients; an omitted percentage is not an explicit100% rule. Existing54 recipe-item100% rules remain.",
         "inspection": "Independent GamerGuides synthesis data inspected; no blanket default or complete probability column found.",
         "followup": "Explicit HD probability/outcome table or code/data explaining unmarked recipes."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "141 omitted probabilities remain unknown; no automatic100% assumption.",
+        "inspection": "Official Square Enix HD New Features page inspected: all Spirits synthesizable, not per-formula odds. OpenKH DDD tree and itemdata schema inspected: item enable flags are not creation probability data.",
+        "remainingEvidence": "HD recipe outcome probability table or identified vanilla synthesis routine for unmarked combinations.",
+        "sources": [
+          "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md"
+        ]
       }
     },
     {
@@ -304,13 +368,24 @@
         "https://www.khwiki.com/Spirit",
         "https://www.khwiki.com/Drop_System",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64749",
-        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/63989167"
+        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/63989167",
+        "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Retain malformed initial-level table and uncertain HD Risky Winds odds.2012 discussions explicitly describe percentage-point shifts, e.g.40to90, but do not establish the HD rule. No optimality claim or calculator change.",
         "inspection": "Original3DS GameFAQs discussion indexed excerpts; full direct page unavailable. Same author/era is not independent HD replication.",
         "followup": "A corrected initial-level table and HD-specific weather transition formula; distinguish initial level from bonus-level formula already integrated."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Initial-level malformed cells and Risky Winds transformation remain unverified.",
+        "inspection": "Live Spirit initial-level table still has average20 ->27 and range30–01. Fresh query found 2017 topic74907320 on the 3DS board; indexed percentage statement is not edition-labelled HD replication.",
+        "remainingEvidence": "Correct table for malformed level cells and a vanilla HD weather odds rule, including50% boundary and recipe-item behavior.",
+        "sources": [
+          "https://www.khwiki.com/Spirit",
+          "https://gamefaqs.gamespot.com/boards/997779-kingdom-hearts-3d-dream-drop-distance/74907320"
+        ]
       }
     },
     {
@@ -420,13 +495,25 @@
         "https://www.khwiki.com/Zolephant",
         "https://www.khwiki.com/Drop_System",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3267226259",
-        "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64741"
+        "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64741",
+        "https://openkh.dev/ddd/file/dropprm.html",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74939821"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No new guaranteed farming loop, vendor quantity/expiration rule or portal first/repeat reward guarantee is asserted. Existing material events remain.",
         "inspection": "Steam stats guide is a video pointer; OpenKH tree offers drop-format leads without an inspected HD enemy/drop dataset.3DS portal FAQ cannot certify HD reward state.",
         "followup": "Edition-labelled dropprm data plus enemy/world mapping and first/repeat portal reward logic; https://openkh.dev/ddd/file/dropprm.html is a lead, not inspected evidence."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "No guaranteed new material loop or expiration yield asserted.",
+        "inspection": "OpenKH dropprm fully inspected: seven prize structures, two Dream Piece slots, percent byte; lacks entity records/world mapping. New HD farming thread74939821 indexed expiration family list and save-area discussion, without certified yield quantities.",
+        "remainingEvidence": "Edition-labelled drop records plus room mapping, vendor stock limits and exact expiration/repeat reward quantities.",
+        "sources": [
+          "https://openkh.dev/ddd/file/dropprm.html",
+          "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/74939821"
+        ]
       }
     },
     {
@@ -623,13 +710,29 @@
         "https://www.khwiki.com/Wheel_Rush",
         "https://www.khwiki.com/Sliding_Dive",
         "https://www.khwiki.com/Shock_Dive",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/shop-documentation"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/shop-documentation",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/techprm.md",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md",
+        "https://www.reddit.com/r/KingdomHearts/comments/1fhs14e/all_commands_links_in_ddd/",
+        "https://docs.google.com/spreadsheets/d/1PYjCdblr2vUda8eQayPE73ZmRmY4BzP448__Fvq2AjM/edit?usp=sharing"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Quick Blitz acquisition price corrected; Strike Raid remains the sole Attack/Magic reload without a certified value. Preserve22and24seconds candidates;78 known reloads unchanged.",
         "inspection": "Rechecked raw Strike Raid article conflict and searched independent Japanese/HD command sources; no independent exact reload recovered.",
         "followup": "An HD command parameter definition or edition-labelled timing table; do not select22from infobox merely because it is structured."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Strike Raid remains22/24 seconds, not certified.",
+        "inspection": "Inspected pinned OpenKH techprm and itemdata: hit-power/element and item-enable structures, no reload field. Fresh PS4 completionist spreadsheet linked by its author now returns410 Gone.",
+        "remainingEvidence": "Unmodified HD command cooldown definition or independent exact timing accounting for haste.",
+        "sources": [
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/techprm.md",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/file/itemdata.md",
+          "https://www.reddit.com/r/KingdomHearts/comments/1fhs14e/all_commands_links_in_ddd/",
+          "https://docs.google.com/spreadsheets/d/1PYjCdblr2vUda8eQayPE73ZmRmY4BzP448__Fvq2AjM/edit?usp=sharing"
+        ]
       }
     },
     {
@@ -747,13 +850,24 @@
         "https://www.khwiki.com/Ghost_Drive",
         "https://www.khwiki.com/Nightmare_Clash",
         "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
-        "https://www.khwiki.com/Commands"
+        "https://www.khwiki.com/Commands",
+        "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No universal Steam keyboard/controller Link control mapping added. Action names remain usable.",
         "inspection": "PCGamingWiki collection listing was indexed but full page403; settings screenshot availability is not inspected DDD Link binding evidence. KHWiki Commands is an HD controller reference, not a Steam keyboard map.",
         "followup": "Published Steam default binding/configuration reference separated from remappable bindings and PS4 controls."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Action names retained; no guessed Steam keyboard/controller mapping.",
+        "inspection": "Fresh PCGamingWiki indexed input section confirms per-game bindings and QWERTY/AZERTY/QWERTZ, but direct page inaccessible and no binding screenshot inspected. Xbox HD walkthrough gives Xbox icons, not Steam defaults.",
+        "remainingEvidence": "Steam default binding/config reference for each Link action and gauge duration, separated from remapping.",
+        "sources": [
+          "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
+          "https://www.trueachievements.com/game/kingdom-hearts-hd-28-final-chapter-prologue/walkthrough/16"
+        ]
       }
     },
     {
@@ -772,13 +886,23 @@
         "https://www.khwiki.com/Portal",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64741",
-        "https://www.kh13.com/forums/topic/38678-link-portals-faq-complete-guide-location-spoilers/"
+        "https://www.kh13.com/forums/topic/38678-link-portals-faq-complete-guide-location-spoilers/",
+        "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No invented landmark routes for all346 portal identities. Existing Special/Built-in/Secret census and known areas remain.",
         "inspection": "GameFAQs64741/KH13 portal FAQ indexed content describes3DS portals and shares author lineage; it is not an independent complete HD route atlas.",
         "followup": "HD portal landmark/activation-state atlas matched to existing identities."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "No new HD portal landmark routes certified.",
+        "inspection": "Full Japanese Kyokugen portal table inspected. It explicitly calls itself under investigation, lists area-level locations, and still awards Treasure Goggles: 3DS evidence, not an HD complete atlas.",
+        "remainingEvidence": "HD landmark/activation-state atlas keyed to the existing346 identities.",
+        "sources": [
+          "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html"
+        ]
       }
     },
     {
@@ -797,13 +921,25 @@
         "https://www.khwiki.com/Portal",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://gamefaqs.gamespot.com/3ds/997779-kingdom-hearts-3d-dream-drop-distance/faqs/64741",
-        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6",
+        "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html",
+        "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/DDDAPConnector.lua"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Do not infer first-clear/repeat/bonus reward counters or close ranking semantics from a3DS list.",
         "inspection": "Same3DS portal FAQ inspected by index; no HD save-state award transition source recovered.",
         "followup": "Pinned HD portal reward/counter logic with separate first,repeat and bonus cases."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "First-clear/repeat/bonus transitions remain separate unknowns.",
+        "inspection": "Kyokugen explicitly distinguishes sample random items from fixed marked ones, but not complete HD first/repeat logic. Steam AP connector inspected: setSecretPortals writes availability after world completion and therefore cannot prove vanilla postgame availability or counters.",
+        "remainingEvidence": "Vanilla HD award transition data with first, repeat, bonus success and failure cases.",
+        "sources": [
+          "https://kyokugen.info/kingdom-hearts3d/kh3d_special.html",
+          "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/DDDAPConnector.lua"
+        ]
       }
     },
     {
@@ -820,8 +956,8 @@
     {
       "id": "DDD-017",
       "status": "partial",
-      "integrated": "All ten cups/27 match lineups and available medal cells extracted, complete Medal stock joined; evolved-card and reserve-reload tactics added.",
-      "remaining": "Some cup source medal fields are blank and per-rank medal tables are not complete. Flick Rush mechanics page retains 3DS input terminology rather than complete Steam bindings; these blanks remain explicit.",
+      "integrated": "All ten cups/27 match lineups and available medal cells extracted, complete Medal stock joined; evolved-card and reserve-reload tactics added. Exposed previously silent Secret Cup minimum-unlock conflict (LV15+other cups versusLV17); payout matrix still incomplete. Transcribed the complete published match-score tables, rank thresholds, cup-prize points and 19 Rush LV milestones into canonical inputs and runtime. Speed Cup time group remains explicitly absent; spendable Medal payout matrix remains unknown. Exposed Secret Cup LV15+other-cups versusLV17 source conflict.",
+      "remaining": "Unmodified HD scoring equivalence, missing Speed Cup time group, exact minimum Secret Cup unlock and per-cup/per-rank spendable Medal payouts; all obtainable published score/prize tables are now transcribed.",
       "consultedSources": [
         "https://www.khwiki.com/Flick_Rush",
         "https://www.khwiki.com/Moogle_Shop",
@@ -835,13 +971,27 @@
         "https://www.khwiki.com/Final_Cup",
         "https://www.khwiki.com/Horror_Cup",
         "https://www.khwiki.com/Secret_Cup",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/flick-rush-cups-and-tournaments"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/flick-rush-cups-and-tournaments",
+        "https://www.khwiki.com/Talk:Flick_Rush",
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No per-cup/per-rank medal payout table added. Existing27 matches and cup unlock facts remain.",
         "inspection": "Full GamerGuides Flick Rush guide says medal award is displayed on results and uses3DS stylus controls; it does not provide the required payout matrix.",
         "followup": "HD payout data or documentary result table separating cup/rank/bonus rewards."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Transcribed the complete published match-score tables, rank thresholds, cup-prize points and 19 Rush LV milestones into canonical inputs and runtime. Speed Cup time group remains explicitly absent; spendable Medal payout matrix remains unknown. Exposed Secret Cup LV15+other-cups versusLV17 source conflict.",
+        "inspection": "Full Flick Rush results table and Talk page inspected: cup-prize rank points are not spendable Medal payouts. Individual Secret Cup page says17; main table says15 plus all other cups; HD retrospective reports17 without proving minimum.",
+        "remainingEvidence": "Unmodified HD scoring equivalence, missing Speed Cup time group, exact minimum Secret Cup unlock and per-cup/per-rank spendable Medal payouts; all obtainable published score/prize tables are now transcribed.",
+        "sources": [
+          "https://www.khwiki.com/Flick_Rush",
+          "https://www.khwiki.com/Talk:Flick_Rush",
+          "https://www.khwiki.com/Secret_Cup",
+          "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/"
+        ]
       }
     },
     {
@@ -862,13 +1012,26 @@
         "https://www.khwiki.com/Nightmare%27s_End_and_Mirage_Split",
         "https://www.khwiki.com/Mirage_Split",
         "https://www.khwiki.com/Dreamline",
-        "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue"
+        "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Training descriptions retain their documented actions; Steam bindings and exact scoring/size parameters remain unverified.",
         "inspection": "PCGamingWiki indexed controller/keyboard support is collection-level; full page403 and no training input/score table inspected.",
         "followup": "DDD Steam training configuration/scoring source; remapping must not be overwritten by fixed PS4 button labels."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "No universal Steam toy bindings or breed-optimal route invented.",
+        "inspection": "PC input section indexed; full page inaccessible. Fresh HD retrospective confirms PS4 touch controls for Balloon, not Steam mouse/controller mapping. Spirit save schema inspected: petting value and affinity storage do not specify toy scoring/size effects.",
+        "remainingEvidence": "Steam training input/scoring and size parameter semantics; breed-specific efficient training evidence.",
+        "sources": [
+          "https://www.pcgamingwiki.com/wiki/Kingdom_Hearts_HD_2.8_Final_Chapter_Prologue",
+          "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md"
+        ]
       }
     },
     {
@@ -880,20 +1043,30 @@
         "https://www.khwiki.com/Lord_Kyroo",
         "https://www.khwiki.com/Julius",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
-        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6",
+        "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Locations/LocationHandler.lua"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Lord Kyroo HP persistence across encounters is distinct from persistence across save/reload. No additional save guarantee added.",
         "inspection": "Pinned KingdomSaveEditor DDD model inspection did not identify a documented Lord Kyroo HP field or load/reset transition.",
         "followup": "HD save schema/event code identifying boss HP persistence and reset conditions."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Lord Kyroo save/reload HP persistence remains unknown.",
+        "inspection": "Fresh Steam AP LocationHandler.lua fully inspected: encounter events forcibly retrigger for solo seeds; completion flags are read, no documented vanilla HP save field or reset transition.",
+        "remainingEvidence": "Vanilla HD saved boss-HP field plus load/exit transition, not mod-maintained encounter flags.",
+        "sources": [
+          "https://github.com/LuxMake/KHDDD-AP/blob/aae4da6f2658154866f9e88dde14506c9a576de8/io_packages/KHDDD/Locations/LocationHandler.lua"
+        ]
       }
     },
     {
       "id": "DDD-020",
       "status": "partial",
-      "integrated": "All 15 Keyblade source pages read; 13 eligible types per character preserved. Per-character Dive/portal/Julius conditions and all stat rows integrated.",
-      "remaining": "Sweet Dreams shared Flick Rush reward delivery has indexed HD forum corroboration, but full forum request returns 403 and 3DS forum accounts conflict; ownership is not automatically copied to both characters.",
+      "integrated": "All 15 Keyblade source pages read; 13 eligible types per character preserved. Per-character Dive/portal/Julius conditions and all stat rows integrated. HD character-specific Sweet Dreams delivery now has independent full-page corroboration; practical replay route integrated.",
+      "remaining": "Exact minimum replay scope (final round versus whole cup) and Steam retrigger behavior for already-completed cups. No automatic second-character ownership. Shared checklist type IDs remain unchanged.",
       "consultedSources": [
         "https://www.khwiki.com/Kingdom_Key",
         "https://www.khwiki.com/Way_to_the_Dawn",
@@ -911,13 +1084,24 @@
         "https://www.khwiki.com/Unbound",
         "https://www.khwiki.com/Ultima_Weapon",
         "https://www.playstationtrophies.org/forum/topic/283487-keyblade-conqueror-trophy/",
-        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/74405?page=1"
+        "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/74405?page=1",
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Sweet Dreams ownership/delivery ambiguity remains; do not mark every cup completion as immediate Keyblade receipt.",
         "inspection": "HD Akiiseru FAQ indexed excerpt reports character-specific replay of the final round, but also says allS ranks are needed contrary to other sources. Cannot promote its entire rule to Steam.",
         "followup": "Edition-labelled character ownership/delivery event logic, including replay and previously completed cups."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "HD character-specific Sweet Dreams delivery now has independent full-page corroboration; practical replay route integrated.",
+        "inspection": "HD retrospective author distinguishes own HD screenshots from 3DS longplay, describes reward to current character and repeating Secret Cup for the other. Sweet Dreams article confirms Orion match5. Do not import retrospective speculation about programming cause.",
+        "remainingEvidence": "Exact minimum replay scope (final round versus whole cup) and Steam retrigger behavior for already-completed cups. No automatic second-character ownership. Shared checklist type IDs remain unchanged.",
+        "sources": [
+          "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+          "https://www.khwiki.com/Sweet_Dreams"
+        ]
       }
     },
     {
@@ -930,31 +1114,55 @@
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://www.playstationtrophies.org/forum/topic/284269-comprehensive-reports-and-collection-guide/",
         "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/trophy-conditions-and-tips/",
-        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6",
+        "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+        "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "Award aggregation remains scoped: no released-Spirit-instance rule or certified HD Daring Diver aggregation is invented.",
         "inspection": "GamerGuides3DS trophy guide describes Reports course-high-score sum, whereas HD guide wording is cumulative; save-editor model lacks documented award transitions.",
         "followup": "HD award counter definitions, especially course-best versus cumulative Dive scores and retained/released Spirit identity."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "Daring Diver and released-instance aggregation remain partial.",
+        "inspection": "Fresh HD retrospective comment confirms breed-level affinity goal, but not released-instance retention. Pinned OpenKH Spirit save format has instance affinity fields, not award aggregation code. Thundaka HD indexed text sums14 Dives, but does not state repeated-run versus best-score storage.",
+        "remainingEvidence": "Award aggregation code or explicit HD reports demonstration distinguishing course bests/repeats and released Spirit flags.",
+        "sources": [
+          "https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/",
+          "https://github.com/OpenKH/OpenKh/blob/7a3b945c538d32c6a285128c98aefba093f52ceb/docs/ddd/savedata/spirits.md",
+          "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497"
+        ]
       }
     },
     {
       "id": "DDD-022",
       "status": "partial",
       "integrated": "Official Steam 69 partitioned into all 54 DDD goals plus 15 0.2. Exact public DDD names/requirements replace the selected15 subset; Ability Ace mode exception applied. All54 native Steam API key associations are now independently observed and recorded in steam-key-provenance.json and platform-facts.json. Runtime checklist IDs remain unchanged. Other platform native IDs and internal unlock counters remain unverified.",
-      "remaining": "Official platform schemas for PSN/Xbox/Epic and exact hidden counter logic. October8 editions remain future follow-up on October1.",
+      "remaining": "Steam internal unlock/counter semantics. PSN/Xbox/Epic native identifiers are outside this Steam-only closure scope, retained as future portability work.",
       "consultedSources": [
         "https://steamcommunity.com/stats/2552440/achievements/?l=english",
         "https://www.khwiki.com/Trophies",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
-        "https://steamdb.info/app/2552440/stats/"
+        "https://steamdb.info/app/2552440/stats/",
+        "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "All54 native Steam API key associations are now independently observed and recorded in steam-key-provenance.json and platform-facts.json. Runtime checklist IDs remain unchanged. Other platform native IDs and internal unlock counters remain unverified.",
         "inspection": "Individual SteamDB key queries expose preceding requirement/key pairs; following title belongs to next row. Full page itself remains a loading shell. No key inferred from percentages or ordering.",
         "followup": "Official platform schemas for PSN/Xbox/Epic and exact hidden counter logic. October8 editions remain future follow-up on October1."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "All54 observed Steam keys retained; public names/requirements do not certify internal counters.",
+        "inspection": "Official Steam achievements endpoint re-open attempted, inaccessible via web tool this pass. Existing observed mapping retained; no replacement derived from ordering. Official HD feature page distinguishes new in-game trophies from platform schema.",
+        "remainingEvidence": "Steam internal unlock/counter semantics. PSN/Xbox/Epic native identifiers are outside this Steam-only closure scope, retained as future portability work.",
+        "sources": [
+          "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+          "https://www.jp.square-enix.com/kingdom/khhd_fcp/sp/kh3dhd/newfeatures/"
+        ]
       }
     },
     {
@@ -1054,13 +1262,25 @@
         "https://www.khwiki.com/Game_Clear_Data",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://www.kh13.com/forums/topic/40496-how-do-you-rebattle-the-final-bosses/",
-        "https://www.kh13.com/forums/topic/37833-kingdom-hearts-dream-drop-distance-trophy-list-spoilers/?page=3"
+        "https://www.kh13.com/forums/topic/37833-kingdom-hearts-dream-drop-distance-trophy-list-spoilers/?page=3",
+        "https://www.cheatcc.com/articles/kingdom-hearts-hd-2-8-final-chapter-prologue-cheats-codes-cheat-codes-walkthrough-guide-faq-unlockables-for-playstation-4-ps4-ps4/",
+        "https://www.kh13.com/forums/topic/39388-then-end-part-with-riku-spoilers/"
       ],
       "continuation": {
         "date": "2026-10-01",
         "outcome": "No universal wrong-answer secret-ending recovery promise added. Existing documented criteria and replayable letters remain.",
         "inspection": "Old KH13 posts describe rebattling Sora/Riku finales on3DS. Cross-platform GameFAQs answer mirrors are not proof of a newPS5/Switch/Steam test.",
         "followup": "An HD ending trigger/retrigger decision table or pinned event script covering wrong final answers and replay combinations."
+      },
+      "gapFollowup": {
+        "date": "2026-10-02",
+        "result": "No promise that Theater wrong-answer replay always repairs the ending.",
+        "inspection": "Fresh HD Cheat Code Central page indexed lists initial requirements but no wrong-answer retrigger cases; search also found pre-HD KH13 pages whose modern forum category labels misleadingly say HD. Those were rejected as Steam retry evidence.",
+        "remainingEvidence": "HD trigger/retrigger decision table for wrong answers, boss replays, saved clear data and credits letters.",
+        "sources": [
+          "https://www.cheatcc.com/articles/kingdom-hearts-hd-2-8-final-chapter-prologue-cheats-codes-cheat-codes-walkthrough-guide-faq-unlockables-for-playstation-4-ps4-ps4/",
+          "https://www.kh13.com/forums/topic/39388-then-end-part-with-riku-spoilers/"
+        ]
       }
     }
   ]

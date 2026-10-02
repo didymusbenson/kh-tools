@@ -125,3 +125,6 @@ The credits' Secret Message is a discrete unlock; avoid converting all glossary 
 - Board completion for Strongest Link needs all real nodes/doors for one actual Spirit instance; 16 legacy reward rows cannot prove it.
 - Full reports and platform goals may include narrative conditions; those conditions do not redefine the compendium's world collectible denominator.
 
+
+
+2026-10-02: Independent [HD first-hand retrospective](https://marathonrecaps.wordpress.com/2022/05/29/kingdom-hearts-ddd-flick-and-pick/) corroborates Sweet Dreams for the current character and repeating Secret Cup for the other. Runtime now gives that practical route; it does not infer both ownership flags from one clear or claim the minimum replay is only the final round. Exact Steam retrigger cases remain partial.
