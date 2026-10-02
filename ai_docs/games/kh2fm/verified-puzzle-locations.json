@@ -733,14 +733,14 @@
       "routeReview": "Compared with the complete puzzle-location tables; stated movement is a working route, not a claimed universal minimum."
     },
     "kh2fm.puzzle.daylight.27": {
-      "instructions": "Tram Common — Ride the tram to reach it on the Synthesis shop roof.",
+      "instructions": "Tram Common — Reach the circular roof ledge above the Synthesis shop, immediately beside the tall central stone pillar and its colored pipes. Ride the tram and jump across to this ledge; the crown is beside the pillar, not on its high top.",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=64s"
       ],
-      "reviewedOn": "2026-10-01",
-      "routeReview": "Working tram-to-roof route retained from KHWiki/StrategyWiki/Wizard. Thundaka calls the landmark a central pillar; exact landmark identity remains a source disagreement.",
-      "uncertainty": "Guides disagree on whether this tram-accessed landmark is the Synthesis shop roof or the central pillar."
+      "reviewedOn": "2026-10-02",
+      "routeReview": "Actually inspected HD gameplay at 01:04, 01:07 and 01:09: shop frontage, crown beside pillar on circular roof ledge, and Daylight acquisition banner. Roof and central-pillar descriptions refer to the same structure."
     },
     "kh2fm.puzzle.daylight.28": {
       "instructions": "Market Street — In Station Heights, look high above the exit to Tram Common. Return with Glide level 3 to reach the crown.",
@@ -1266,10 +1266,11 @@
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
         "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
       ],
-      "reviewedOn": "2026-10-01",
-      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "reviewedOn": "2026-10-02",
+      "routeReview": "Actually inspected HD footage at 06:28 (author arrow marks already-collected first crown), 06:30 (crown in rectangular pipe opening) and 06:32 (collection on far landing by the Transport doorway). Video groups world pieces22/23 together and does not show board IDs32/36, so individual mapping remains unproved.",
       "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.33": {
@@ -1307,10 +1308,11 @@
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
         "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
       ],
-      "reviewedOn": "2026-10-01",
-      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "reviewedOn": "2026-10-02",
+      "routeReview": "Actually inspected HD footage at 06:28 (author arrow marks already-collected first crown), 06:30 (crown in rectangular pipe opening) and 06:32 (collection on far landing by the Transport doorway). Video groups world pieces22/23 together and does not show board IDs32/36, so individual mapping remains unproved.",
       "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.37": {
@@ -1346,10 +1348,11 @@
         "https://www.khwiki.com/Puzzle",
         "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
         "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48"
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/48",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=381s"
       ],
-      "reviewedOn": "2026-10-01",
-      "routeReview": "Complete three-crown Glide route supported by TrueAchievements and GamerGuides. Sources do not reliably distinguish each pipe segment; no first/second/third order asserted.",
+      "reviewedOn": "2026-10-02",
+      "routeReview": "Actually inspected HD footage at 06:28 (author arrow marks already-collected first crown), 06:30 (crown in rectangular pipe opening) and 06:32 (collection on far landing by the Transport doorway). Video groups world pieces22/23 together and does not show board IDs32/36, so individual mapping remains unproved.",
       "uncertainty": "The complete Glide sweep reaches all three upper crowns; the individual crown-to-pipe assignment is not established."
     },
     "kh2fm.puzzle.sunset.41": {

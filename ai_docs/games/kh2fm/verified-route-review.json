@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-10-01",
+  "reviewedOn": "2026-10-02",
   "edition": "Modern English Kingdom Hearts II Final Mix",
   "scope": {
     "treasures": 301,
@@ -86,6 +86,10 @@
     {
       "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/61",
       "coverage": "Naught’s Skyway and Ruin and Creation’s Passage return-glide launch points."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RtYZ9YOpJEU",
+      "coverage": "Actual paused HD frames01:04/01:07/01:09 reconcile Daylight27 roof/pillar;06:28/06:30/06:32 inspect Mineshaft physical positions without proving individual board-ID binding. See gap-closure-2026-10-02.md."
     }
   ],
   "accessNotes": [
@@ -213,19 +217,6 @@
     }
   ],
   "precisionResiduals": [
-    {
-      "ids": [
-        "kh2fm.puzzle.daylight.27"
-      ],
-      "status": "working-route-supported-landmark-disagreement",
-      "checked": [
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
-        "https://www.supercheats.com/playstation2/walkthroughs/kingdomheartsiifinalmix-walkthrough06.txt",
-        "https://www.khwiki.com/Game:Twilight_Town",
-        "https://strategywiki.org/wiki/Kingdom_Hearts_II/Puzzles"
-      ],
-      "blocker": "Synthesis-shop roof in modern wiki/Wizard/StrategyWiki versus central pillar in Thundaka. Tram approach retained; no direct modern in-game capture inspected to reconcile landmark identity."
-    },
     {
       "ids": [
         "kh2fm.puzzle.sunset.32",
@@ -3473,10 +3464,11 @@
       ]
     },
     "kh2fm.puzzle.daylight.27": {
-      "status": "working-route-supported-with-precision-residual",
+      "status": "working-route-supported",
       "sources": [
         "https://www.khwiki.com/Puzzle",
-        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/"
+        "https://walkthroughwizard.com/all-posts/rpgs/kingdom-hearts-series/kingdom-hearts-2-all-puzzle-piece-locations/",
+        "https://www.youtube.com/watch?v=RtYZ9YOpJEU&t=64s"
       ]
     },
     "kh2fm.puzzle.daylight.28": {
