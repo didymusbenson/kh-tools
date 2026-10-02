@@ -296,14 +296,13 @@ Sources:
 
 ## KH3-015 — partial
 
-Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained.
+Reprocessed 298 world ingredient rows, preserving alternate yields and quantities; 51 ordinary ingredients have object/area sources. Eight reward-only ingredients remain linked to Flan/Hunny minigames; all 59 identities retained. All 59 individual ingredient guides are inspected, with 172 supported landmark route groups in the app.
 
-**Remaining boundary:** All 28 shop rows and 21 detailed harvest approaches across six ingredients are integrated. Other ingredients still have source-object/area coverage rather than exhaustive unique-node routes; timed replenishment, controlled yields and complete node coordinates remain incomplete. Additional illustrated ingredient pages remain feasible research, not inaccessible implementation evidence.
+**Remaining boundary:** All 59 linked individual ingredient pages are now inspected and their described approaches integrated. Remaining limits are exhaustive unique-node coordinates beyond those guides, controlled base yields and spawn probabilities, timed replenishment and exact minigame threshold boundaries. No unexamined page in this 59-page source index is classified as inaccessible.
 
-**2026-10-02 evidence/integration:** Read the six complete illustrated ingredient routes for Parsley, Raspberry, Blackberry, Gooseberry, Miller Mushroom and Portobello. Integrated all 21 described landmark approaches and qualified world exit/re-entry replenishment method. Did not turn observed Gooseberry x4 into a guaranteed base yield because equipped Harvest bonuses are not controlled.
+**2026-10-02 evidence/integration:** Inspected all 59 individual Destiny Islands ingredient pages, recovering Beef, Cloves and Orange after transient HTTP 406 responses. Integrated 172 landmark route groups across all 59 ingredients, including the eight reward-only ingredients and alternate Bistrot/100 Acre Wood sources. Preserved the original 298 source rows and 28 shop tiers; did not infer base yields from Harvest-boosted screenshots or adjudicate Flan score equality from guide wording.
 
-Sources:
-
+**Consulted sources:**
 - https://www.khwiki.com/Ingredients
 - https://www.khwiki.com/Game:Twilight_Town
 - https://www.khwiki.com/Game:The_Caribbean
@@ -318,6 +317,59 @@ Sources:
 - https://www.destinyislands.com/kh3/items/ingredients/gooseberry/
 - https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/
 - https://www.destinyislands.com/kh3/items/ingredients/portobello/
+- https://www.destinyislands.com/kh3/items/ingredients/apple-ingredient/
+- https://www.destinyislands.com/kh3/items/ingredients/apricot/
+- https://www.destinyislands.com/kh3/items/ingredients/banana/
+- https://www.destinyislands.com/kh3/items/ingredients/basil/
+- https://www.destinyislands.com/kh3/items/ingredients/bay-leaf/
+- https://www.destinyislands.com/kh3/items/ingredients/beef/
+- https://www.destinyislands.com/kh3/items/ingredients/black-truffle/
+- https://www.destinyislands.com/kh3/items/ingredients/black-trumpet/
+- https://www.destinyislands.com/kh3/items/ingredients/blood-orange/
+- https://www.destinyislands.com/kh3/items/ingredients/butter/
+- https://www.destinyislands.com/kh3/items/ingredients/carrot/
+- https://www.destinyislands.com/kh3/items/ingredients/caviar/
+- https://www.destinyislands.com/kh3/items/ingredients/celery/
+- https://www.destinyislands.com/kh3/items/ingredients/chanterelle/
+- https://www.destinyislands.com/kh3/items/ingredients/cheese/
+- https://www.destinyislands.com/kh3/items/ingredients/chocolate/
+- https://www.destinyislands.com/kh3/items/ingredients/cloves/
+- https://www.destinyislands.com/kh3/items/ingredients/cod/
+- https://www.destinyislands.com/kh3/items/ingredients/cornichon/
+- https://www.destinyislands.com/kh3/items/ingredients/crab/
+- https://www.destinyislands.com/kh3/items/ingredients/dill/
+- https://www.destinyislands.com/kh3/items/ingredients/eel/
+- https://www.destinyislands.com/kh3/items/ingredients/eggplant/
+- https://www.destinyislands.com/kh3/items/ingredients/filet-mignon/
+- https://www.destinyislands.com/kh3/items/ingredients/garlic/
+- https://www.destinyislands.com/kh3/items/ingredients/grapes/
+- https://www.destinyislands.com/kh3/items/ingredients/honey/
+- https://www.destinyislands.com/kh3/items/ingredients/king-oyster-mushroom/
+- https://www.destinyislands.com/kh3/items/ingredients/lemon/
+- https://www.destinyislands.com/kh3/items/ingredients/lobster/
+- https://www.destinyislands.com/kh3/items/ingredients/melon/
+- https://www.destinyislands.com/kh3/items/ingredients/morel/
+- https://www.destinyislands.com/kh3/items/ingredients/mussel/
+- https://www.destinyislands.com/kh3/items/ingredients/olive-oil/
+- https://www.destinyislands.com/kh3/items/ingredients/onion/
+- https://www.destinyislands.com/kh3/items/ingredients/orange/
+- https://www.destinyislands.com/kh3/items/ingredients/pear/
+- https://www.destinyislands.com/kh3/items/ingredients/porcini/
+- https://www.destinyislands.com/kh3/items/ingredients/pumpkin/
+- https://www.destinyislands.com/kh3/items/ingredients/quail/
+- https://www.destinyislands.com/kh3/items/ingredients/rice/
+- https://www.destinyislands.com/kh3/items/ingredients/rosemary/
+- https://www.destinyislands.com/kh3/items/ingredients/saffron/
+- https://www.destinyislands.com/kh3/items/ingredients/scallops/
+- https://www.destinyislands.com/kh3/items/ingredients/sea-bass/
+- https://www.destinyislands.com/kh3/items/ingredients/sole/
+- https://www.destinyislands.com/kh3/items/ingredients/sour-cherry/
+- https://www.destinyislands.com/kh3/items/ingredients/strawberry/
+- https://www.destinyislands.com/kh3/items/ingredients/thyme/
+- https://www.destinyislands.com/kh3/items/ingredients/tomato/
+- https://www.destinyislands.com/kh3/items/ingredients/veal/
+- https://www.destinyislands.com/kh3/items/ingredients/watermelon/
+- https://www.destinyislands.com/kh3/items/ingredients/zucchini/
 
 ## KH3-016 — resolved
 

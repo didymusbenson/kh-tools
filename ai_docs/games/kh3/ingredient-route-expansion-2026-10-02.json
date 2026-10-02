@@ -2,88 +2,508 @@
   "checkedAt": "2026-10-02",
   "sourceIndex": "https://www.destinyislands.com/kh3/items/ingredients/",
   "records": {
-    "Apple": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/apple-ingredient/",
+    "Veal": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/veal/",
       "routes": [
         {
           "world": "Olympus",
-          "area": "Cliff Ascent / Mountainside",
-          "directions": "From Agora go south through the Ravine; climb the path beside the temple and inspect fruit trees along the mountain path."
+          "area": "Big Olive / Cliff Ascent",
+          "directions": "From Agora’s northeastern stairs turn right, cross the rubble and check the yellow crate among brown crates in the right corner. Also search yellow crates up the Cliff Ascent path."
         },
         {
           "world": "Twilight Town",
           "area": "Tram Common",
-          "directions": "Break fruit baskets by houses and benches; Apple is a possible result."
+          "directions": "Check the lunchbox on a bench in the northeastern theater."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Seaport",
+          "directions": "Go south from Docks and break the yellow crate beside a treasure chest at the lower end of the large pier."
+        }
+      ]
+    },
+    "Beef": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/beef/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Big Olive / Mountainside",
+          "directions": "From Gardens head northwest and check the yellow crate against the left wall before the square. From Summit descend Mountainside and drop right from the large cliff to the crate ledge."
+        },
+        {
+          "world": "Toy Box",
+          "area": "Galaxy Toys",
+          "directions": "Check Rest Area’s couch lunchboxes and the lunchbox beside the counter in Babies & Toddlers: Dolls on 3F."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Lower Level",
+          "directions": "From Basement enter the white door and check the lunchbox on the benches ahead."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Seaport",
+          "directions": "Go south from Docks and check the yellow crate beside the pier entrance."
+        }
+      ]
+    },
+    "Quail": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/quail/",
+      "routes": [
+        {
+          "world": "The Caribbean",
+          "area": "Docks / Settlement",
+          "directions": "Check the yellow crate inside the building by the pier entrance west of Docks, then the crate beside the house right of Settlement’s save point."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "City",
+          "directions": "Check the central bench on South District’s eastern walkway, beneath Central District’s circular-cluster building, and the bench around the northwestern bend from North District’s save point."
+        }
+      ]
+    },
+    "Filet Mignon": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/filet-mignon/",
+      "routes": [
+        {
+          "world": "Twilight Town",
+          "area": "Bistrot",
+          "directions": "Successful cooking can award Filet Mignon as a bonus; it is not guaranteed for each dish."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Laugh Floor",
+          "directions": "From Lobby & Offices go east, then check the lunchbox behind the last left-hand desk at the northern end."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks / Fort",
+          "directions": "At the pier end turn left and go south to the street’s yellow crate. At Fort climb the archway wall behind the save point to the rooftop crate."
+        }
+      ]
+    },
+    "Crab": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/crab/",
+      "routes": [
+        {
+          "world": "The Caribbean",
+          "area": "Huddled Isles / Isla de los Mástiles",
+          "directions": "Examine dormant lobsters in the water behind the Huddled Isles save point and near the ship at Isla de los Mástiles."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isle of Luck / Horseshoe Island / Sandbar Isle",
+          "directions": "Sail to each island and inspect submerged lobster nodes; circle Isle of Luck’s outer rim. Nodes may be absent on a visit."
+        }
+      ]
+    },
+    "Scallop": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/scallops/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Shore / Wharf",
+          "directions": "Cross back over Thoroughfare’s bridge and turn right to shoreline shells; descend to Wharf and inspect bubbles at the lake’s eastern edge."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Huddled Isles / Isla de los Mástiles / Sandbar Isle",
+          "directions": "Check shells in southeastern Huddled waters, western and central Mástiles waters near the ship, and rocks underwater south of Sandbar."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Confinement Isle / Isle of Luck",
+          "directions": "Reach these islands by ship and inspect underwater shell nodes."
+        }
+      ]
+    },
+    "Lobster": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/lobster/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Wharf / Shore",
+          "directions": "Descend left from Thoroughfare to the docks and inspect bubbles in the southern water; cross the bridge back to Shore and check its lake."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Huddled Isles / Isla Verdemontaña / Sandbar Isle",
+          "directions": "Inspect brown lobster nodes in the water behind Huddled’s save point, Verdemontaña’s southeastern and northwestern waters, and southern Sandbar."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Confinement Isle / Ship’s End",
+          "directions": "Reach these islands by ship and inspect underwater lobster nodes."
+        }
+      ]
+    },
+    "Sole": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/sole/",
+      "routes": [
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Check the back-alley lunchbox near the tram’s brick archway and the lunchbox on a bench in the northeastern theater."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Wharf",
+          "directions": "Descend the stairs left of Thoroughfare’s entrance and inspect bubbles between the first and second piers."
+        }
+      ]
+    },
+    "Eel": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/eel/",
+      "routes": [
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Break the lunchbox in the central back alley near the tram tracks."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Tower / Hills / Marsh / Shore",
+          "directions": "Inspect Tower’s stream, the southwestern Hills pond and pond northeast of its save point, the hidden swamp southeast of Marsh, and the Shore lake across the Thoroughfare bridge. Bubble nodes may be absent."
+        }
+      ]
+    },
+    "Sea Bass": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/sea-bass/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Wharf / Shore",
+          "directions": "Descend left from Thoroughfare to Wharf and inspect western bubbles; across the bridge on Shore check the lake’s northwestern edge."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Underwater shoals",
+          "directions": "Swim up to fish schools around islands and examine them for possible Sea Bass."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South District",
+          "directions": "Climb the giant chef statue near the save point and break the lunchbox atop its hat."
+        }
+      ]
+    },
+    "Mussel": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/mussel/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Wharf",
+          "directions": "Descend left from Thoroughfare; inspect bubbles beside the second pier and between the second and third piers near boats."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Accessway",
+          "directions": "Go east through the brick passage and open area, enter the next corridor and climb the stairs to the workbench lunchbox."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Huddled Isles / Sandbar Isle / Isla Verdemontaña",
+          "directions": "Inspect underwater shell clusters behind Huddled’s save point; at Sandbar climb the southern rocks and dive into the circular pond and caves; check Verdemontaña’s surrounding waters."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isle of Luck / Horseshoe Island / Ship’s End",
+          "directions": "Sail to these islands and inspect submerged shell clusters."
+        }
+      ]
+    },
+    "Cod": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/cod/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Turn left from the save point and descend to the docks; inspect bubbles beside the pier and farther north near the western end."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Foothills",
+          "directions": "Head toward Snowfield and break the yellow crate beside the barrels at the Satyr encounter."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Underwater shoals",
+          "directions": "Swim to fish shoals around the islands and examine them for possible Cod."
+        }
+      ]
+    },
+    "Pumpkin": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/pumpkin/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Galaxy Toys",
+          "directions": "Check the couch east of Action Plus’s entrance and the northeastern 3F couch between Game Store and Babies & Toddlers: Dolls."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Check the stalls nearest the save point on both sides of the street."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Check the second cart left of the save point, the crate by a southern house and the small cart farther east on that street."
         },
         {
           "world": "100 Acre Wood",
-          "area": "Lumpy’s Fruit Parade",
-          "directions": "Enter Pooh’s book beside Merlin at the Bistrot, then use the sign behind Rabbit’s house to play for possible Apple rewards."
+          "area": "Tigger’s Vegetable Spree",
+          "directions": "Use Tigger’s sign for possible Pumpkin rewards."
         }
       ]
     },
-    "Apricot": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/apricot/",
+    "Zucchini": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/zucchini/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Check the second stall left of the save point and crates on the left of the larger square ahead."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South / North Districts",
+          "directions": "Check the middle bench and underside of South District’s eastern walkway, the last northwestern North District roof, and the western street below."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Tigger’s Vegetable Spree",
+          "directions": "Use Tigger’s sign for possible Zucchini rewards."
+        }
+      ]
+    },
+    "Onion": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/onion/",
       "routes": [
         {
           "world": "Olympus",
-          "area": "Cliff Ascent / Mountainside",
-          "directions": "Go south from Agora through the Ravine, climb beside the temple and inspect the fruit trees up to Mountainside."
+          "area": "Thebes",
+          "directions": "Break baskets at northeastern Agora’s vendor, eastern Big Olive’s stall, inside the building northeast of Gardens, and below Overlook’s northern wall."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Factory Second Floor",
+          "directions": "From Accessway go west into the Factory and check the lunch table at the southern end."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Check the cart left of the save point, crate below a southern house and cart on the eastern path toward the bridge."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South District",
+          "directions": "Check the vegetable box on a bench beside the second building north of the save point."
+        }
+      ]
+    },
+    "Tomato": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/tomato/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Galaxy Toys",
+          "directions": "Check the couch near Action Plus’s entrance and the lunchbox at 3F’s northeastern corner."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Lower Level",
+          "directions": "From Basement enter the white door and strike the right machine of the southwestern pair."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Check the third stall on the left north of the save point and first right-hand stall in the castle square."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Check the crate beside the shopper south of the save point and the cart on the eastern route toward the bridge."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South / North Districts",
+          "directions": "Check the central bench of the eastern elevated walkway, the alley between western North District buildings, and the northwestern roof."
+        }
+      ]
+    },
+    "Eggplant": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/eggplant/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Inspect the last stall on the left ahead of the save point and the right-hand stall in the open area near the castle."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South / North Districts",
+          "directions": "Check the bench beneath the second southern building, the western roof before Central District, and the northwestern back alley and closed shop."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Tigger’s Vegetable Spree",
+          "directions": "Play using Tigger’s sign near the save point for possible Eggplant rewards."
+        }
+      ]
+    },
+    "Carrot": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/carrot/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "North Mountain",
+          "directions": "From Treescape check yellow crates along the eastern edge, then the southeastern Valley of Ice; also search yellow crates in Snowfield and Foothills."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement / Docks",
+          "directions": "Break the crate beside the woman ahead of the Settlement save point, the cart north beside the house, and the cart at the northern Docks."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Tigger’s Vegetable Spree",
+          "directions": "Use the sign beside Tigger near the save point; Carrots are a possible minigame reward."
+        }
+      ]
+    },
+    "Garlic": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/garlic/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Galaxy Toys",
+          "directions": "Check the Rest Area couch and the counter lunchbox in Babies & Toddlers: Dolls on 3F."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Thoroughfare",
+          "directions": "Check the last left-hand stall north of the save point, then the left-hand stall nearer the castle."
+        },
+        {
+          "world": "San Fransokyo",
+          "area": "South / North Districts",
+          "directions": "Check the western roof before Central District, the box under the eastern elevated walkway, and boxes by the northwestern closed shop and end of its back alley."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Tigger’s Vegetable Spree",
+          "directions": "Use Tigger’s sign near the save point for possible Garlic rewards."
+        }
+      ]
+    },
+    "Celery": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/celery/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Thebes",
+          "directions": "Break vegetable baskets in northeastern Agora, beside the eastern Big Olive vendor, and along the northern wall below the Overlook stairs."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Tank Yard",
+          "directions": "Strike the vending machine east of the save point for a possible Celery result."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks / Settlement",
+          "directions": "Break the vegetable cart at the western pier end; check carts beside houses left of the Settlement save point and at the southern end of town."
+        }
+      ]
+    },
+    "Morel": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/morel/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Gardens",
+          "directions": "Go northwest from the save point and inspect mushrooms just before the slope; the node may be absent."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Hills / Marsh",
+          "directions": "Inspect fallen bark along the western Hills edge and mushrooms northeast of the Marsh save point."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Snowfield",
+          "directions": "Follow the path from the save point and inspect mushrooms under trees on the left at the first opening."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla Verdemontaña",
+          "directions": "Cross the forest southward; check its southern edge and the route from the nearby fork toward the cliff drop."
+        }
+      ]
+    },
+    "Porcini": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/porcini/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Alleyway / Gardens",
+          "directions": "Inspect mushrooms in the alley behind Agora’s serpent fountain and at the southern end of Gardens."
         },
         {
           "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Break fruit baskets beside houses, benches and street corners for possible Apricots."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Docks / Seaport",
-          "directions": "Check fruit crates near the Docks produce stalls, then go south to crates at the far end of the Seaport pier."
-        }
-      ]
-    },
-    "Basil": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/basil/",
-      "routes": [
-        {
-          "world": "Toy Box",
-          "area": "Andy’s House",
-          "directions": "Jump outside from the bedroom; check herbs in the lawn and flowerbeds."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Hills / Wetlands / Shore",
-          "directions": "Check the southwestern Hills; from Wildflower Clearing go west to the northern Wetlands; check bushes before the bridge from Shore to the Kingdom. Herbs may be absent on a visit."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isla de los Mástiles",
-          "directions": "Inspect herbs behind the rock under the palm trees in front of the cave."
-        }
-      ]
-    },
-    "Bay Leaf": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/bay-leaf/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Alleyway",
-          "directions": "From Agora enter the building behind the serpent fountain and inspect herbs along the grassy alley."
-        },
-        {
-          "world": "Toy Box",
-          "area": "Andy’s House",
-          "directions": "Jump from the bedroom window and inspect the lawn and flowerbeds."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Hills / Shore",
-          "directions": "From Marsh go south and check the western Hills route. From Thoroughfare cross back over the bridge, turn toward the beach and check nearby bushes."
+          "area": "Woods",
+          "directions": "Leave Old Mansion’s gates and climb the leaning tree in the central clearing to mushrooms near its top."
         },
         {
           "world": "The Caribbean",
           "area": "Exile Island",
-          "directions": "Use the Leviathan sea chart to reach the western island; inspect the herb beside the central rock."
+          "directions": "Sail to the island and inspect mushrooms under rocks near its southern beach."
+        }
+      ]
+    },
+    "Chanterelle": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/chanterelle/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Alleyway",
+          "directions": "Enter behind Agora’s serpent fountain, cross the grass and turn right; inspect the grassy nook beside the building under construction."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Woods",
+          "directions": "Leave the Old Mansion gates, follow the eastern edge of the clearing to its southeastern mushroom patch."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Hills / Marsh / Shore",
+          "directions": "Check fallen bark at the southern Hills, halfway along the southern Marsh edge, and bushes east of the bridge on Shore. Nodes may be absent."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla de los Mástiles",
+          "directions": "Check mushrooms on rocks beneath the palms outside the eastern cave."
+        }
+      ]
+    },
+    "Portobello": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/portobello/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the northeastern cave and follow Frozen Wall east. Cross the opening using the whirlwinds, or Glide if available, and inspect mushrooms near the snowy bushes on the eastern edge."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Horseshoe Island",
+          "directions": "Sail to Horseshoe Island; inspect beneath the rock bearing a lone palm tree near its northern edge."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Ship’s End",
+          "directions": "Inspect the mushrooms in front of the old shipwreck near the shore."
         }
       ]
     },
@@ -112,6 +532,26 @@
         }
       ]
     },
+    "King Oyster Mushroom": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/king-oyster-mushroom/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Alleyway / Gardens",
+          "directions": "Inspect the grassy alley behind Agora’s serpent fountain and the slope northwest of the Gardens save point."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Marsh",
+          "directions": "Check mushroom patches in the central area and along its northern edge."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla Verdemontaña",
+          "directions": "Check the southeastern edge, then wall-run up the cliff a little west to inspect the ledge mushrooms."
+        }
+      ]
+    },
     "Black Trumpet": {
       "source": "https://www.destinyislands.com/kh3/items/ingredients/black-trumpet/",
       "routes": [
@@ -132,103 +572,388 @@
         }
       ]
     },
-    "Butter": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/butter/",
-      "routes": [
-        {
-          "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Break lunchboxes on benches, street corners and rooftops for possible Butter."
-        },
-        {
-          "world": "Toy Box",
-          "area": "Galaxy Toys",
-          "directions": "From Main Floor 1F step outside the entrance and turn right to the lunchbox on cardboard boxes; also check the couch beside the Rest Area save point."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South / North Districts",
-          "directions": "In South District climb the eastern stairs to the bench overlooking the highway. In North District inspect the lunchbox on a western building’s roof."
-        }
-      ]
-    },
-    "Carrot": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/carrot/",
+    "Miller Mushroom": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/miller-mushroom/",
       "routes": [
         {
           "world": "Arendelle",
-          "area": "North Mountain",
-          "directions": "From Treescape check yellow crates along the eastern edge, then the southeastern Valley of Ice; also search yellow crates in Snowfield and Foothills."
+          "area": "Gorge",
+          "directions": "From Mountain Ridge jump down the southern cliff into the Gorge and inspect the mushrooms under the snowy bushes."
         },
         {
           "world": "The Caribbean",
-          "area": "Settlement / Docks",
-          "directions": "Break the crate beside the woman ahead of the Settlement save point, the cart north beside the house, and the cart at the northern Docks."
+          "area": "Huddled Isles",
+          "directions": "Inspect beneath the tree directly behind the save point."
         },
         {
-          "world": "100 Acre Wood",
-          "area": "Tigger’s Vegetable Spree",
-          "directions": "Use the sign beside Tigger near the save point; Carrots are a possible minigame reward."
+          "world": "The Caribbean",
+          "area": "Forsaken Isle",
+          "directions": "Search the driftwood near the save point."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Sandbar Isle",
+          "directions": "Inspect beneath the solitary tree south of the save point."
         }
       ]
     },
-    "Caviar": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/caviar/",
-      "routes": [
-        {
-          "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Check lunchboxes on the northeastern rooftop, central elevated platform and theater."
-        },
-        {
-          "world": "Toy Box",
-          "area": "Galaxy Toys",
-          "directions": "Check the lunchbox behind the southeastern 1F counters, then ride to 2F and check the eastern display counter."
-        }
-      ]
-    },
-    "Celery": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/celery/",
+    "Cloves": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/cloves/",
       "routes": [
         {
           "world": "Olympus",
           "area": "Thebes",
-          "directions": "Break vegetable baskets in northeastern Agora, beside the eastern Big Olive vendor, and along the northern wall below the Overlook stairs."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Tank Yard",
-          "directions": "Strike the vending machine east of the save point for a possible Celery result."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Docks / Settlement",
-          "directions": "Break the vegetable cart at the western pier end; check carts beside houses left of the Settlement save point and at the southern end of town."
-        }
-      ]
-    },
-    "Chanterelle": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/chanterelle/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Alleyway",
-          "directions": "Enter behind Agora’s serpent fountain, cross the grass and turn right; inspect the grassy nook beside the building under construction."
+          "directions": "Inspect herbs in the alley behind Agora’s serpent fountain, beyond the broken right-hand wall past Big Olive’s rubble, and northwest of Gardens’ save point."
         },
         {
           "world": "Twilight Town",
           "area": "Woods",
-          "directions": "Leave the Old Mansion gates, follow the eastern edge of the clearing to its southeastern mushroom patch."
+          "directions": "Leave Old Mansion’s gates and turn left on entering the clearing to inspect herbs."
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump from the window; inspect herbs beneath the central flowerbed and near the northwestern road."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla Verdemontaña",
+          "directions": "Enter the forest north of the save point and inspect herbs near the rocks."
+        }
+      ]
+    },
+    "Rosemary": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/rosemary/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Gardens",
+          "directions": "Go northwest and inspect herbs left of the slope toward the ruined building."
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Inspect southeastern flowerbeds and herbs along the eastern and western yard edges."
         },
         {
           "world": "Kingdom of Corona",
-          "area": "Hills / Marsh / Shore",
-          "directions": "Check fallen bark at the southern Hills, halfway along the southern Marsh edge, and bushes east of the bridge on Shore. Nodes may be absent."
+          "area": "Hills / Wetlands",
+          "directions": "From Tower’s cave turn left into Hills and check beneath the central tree and the tree northwest. From Campsite go west to the northeastern Wetlands cliff."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla Verdemontaña",
+          "directions": "Cross the forest to the southern side and inspect herbs on a rock."
+        }
+      ]
+    },
+    "Thyme": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/thyme/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Check herbs beneath bushes on the western lawn and at the southwestern yard end."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Hills",
+          "directions": "Check east of the Hills save point; from Marsh go south into Hills and check the beginning of the clearing."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Horseshoe Island / Ship’s End",
+          "directions": "Sail to the islands; inspect southeastern Horseshoe herbs and herbs near the Ship’s End landing area."
+        }
+      ]
+    },
+    "Bay Leaf": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/bay-leaf/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Alleyway",
+          "directions": "From Agora enter the building behind the serpent fountain and inspect herbs along the grassy alley."
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump from the bedroom window and inspect the lawn and flowerbeds."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Hills / Shore",
+          "directions": "From Marsh go south and check the western Hills route. From Thoroughfare cross back over the bridge, turn toward the beach and check nearby bushes."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Exile Island",
+          "directions": "Use the Leviathan sea chart to reach the western island; inspect the herb beside the central rock."
+        }
+      ]
+    },
+    "Basil": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/basil/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump outside from the bedroom; check herbs in the lawn and flowerbeds."
+        },
+        {
+          "world": "Kingdom of Corona",
+          "area": "Hills / Wetlands / Shore",
+          "directions": "Check the southwestern Hills; from Wildflower Clearing go west to the northern Wetlands; check bushes before the bridge from Shore to the Kingdom. Herbs may be absent on a visit."
         },
         {
           "world": "The Caribbean",
           "area": "Isla de los Mástiles",
-          "directions": "Check mushrooms on rocks beneath the palms outside the eastern cave."
+          "directions": "Inspect herbs behind the rock under the palm trees in front of the cave."
+        }
+      ]
+    },
+    "Dill": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/dill/",
+      "routes": [
+        {
+          "world": "Monstropolis",
+          "area": "Lobby & Offices / Lower Level",
+          "directions": "Strike machines outside Laugh Floor; from Basement enter the white door, pass the first machines and check the southwestern pair."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Forsaken Isle / Isla de los Mástiles / Confinement Isle",
+          "directions": "Check herbs behind Forsaken’s save point; climb central Mástiles and go to the southeast end; sail to Confinement and inspect its northeastern shore."
+        }
+      ]
+    },
+    "Parsley": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/parsley/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Agora → Big Olive",
+          "directions": "Take the northeastern stairs, turn right into Big Olive, cross the rubble and inspect the herb patch behind the broken wall on the right."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Old Mansion",
+          "directions": "Inspect the green herbs by the broken column near the Old Mansion save point."
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump from the bedroom window; inspect the southeastern flowerbeds and the herbs beside the northwestern roadside trash bin."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Sandbar Isle",
+          "directions": "From the save point head south and climb the pointed rocks to the cliff above; inspect the herbs between the bushes."
+        }
+      ]
+    },
+    "Saffron": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/saffron/",
+      "routes": [
+        {
+          "world": "Monstropolis",
+          "area": "Laugh Floor / Tank Yard",
+          "directions": "Strike the left vending machine at Laugh Floor’s entrance and the eastern Tank Yard machines."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Sandbar Isle / Isle of Luck",
+          "directions": "Climb Sandbar’s southern rocks and inspect herbs by the cliff drop; sail to Isle of Luck and check a ledge on the small northern rock."
+        }
+      ]
+    },
+    "Apricot": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/apricot/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Cliff Ascent / Mountainside",
+          "directions": "Go south from Agora through the Ravine, climb beside the temple and inspect the fruit trees up to Mountainside."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Break fruit baskets beside houses, benches and street corners for possible Apricots."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks / Seaport",
+          "directions": "Check fruit crates near the Docks produce stalls, then go south to crates at the far end of the Seaport pier."
+        }
+      ]
+    },
+    "Gooseberry": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/gooseberry/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "Treescape",
+          "directions": "Travel north from the save point, through the ravine into the smaller clearing; inspect the bush on the west side."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Snowfield",
+          "directions": "Climb the cliff northeast of the save point and inspect the bush."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks",
+          "directions": "Break the fruit crate immediately left of the save point; Gooseberry is a possible yield."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Seaport",
+          "directions": "From the Docks head south to the end of the large pier and break the fruit crate; Gooseberry is a possible yield."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Go straight ahead from the save point and break the fruit crate near the produce seller; Gooseberry is a possible yield."
+        }
+      ]
+    },
+    "Lemon": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/lemon/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Thebes",
+          "directions": "Check baskets at the northeastern Agora vendor, eastern Big Olive vendor and northern wall below Overlook’s stairs."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Check the bench north of the save point and fruit basket in the northeastern theater."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Laugh Floor / Lower Level",
+          "directions": "Strike the vending machine near Laugh Floor’s entrance; from Basement take the white door and check southwestern Lower Level machines."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks",
+          "directions": "Check the fruit crate near the save point and the crate behind the western house."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Use Lumpy’s sign behind Rabbit’s house for possible Lemon rewards."
+        }
+      ]
+    },
+    "Orange": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/orange/",
+      "routes": [
+        {
+          "world": "Monstropolis",
+          "area": "Lobby & Offices / Lower Level / Tank Yard",
+          "directions": "Strike the left machine before Laugh Floor, the left of the southwestern pair reached through Basement’s white door, and eastern Tank Yard machines."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks",
+          "directions": "Check fruit crates beside the save point, by the produce seller at the pier entrance, and behind the western house."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Enter Pooh’s book at Twilight Town’s Bistrot and play at Lumpy’s sign behind Rabbit’s house for possible Orange rewards."
+        }
+      ]
+    },
+    "Raspberry": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/raspberry/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "Gorge",
+          "directions": "Head north from the save point and wall-run three cliff faces; cross to the ledge under the icicles and inspect its corner bush."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Valley of Ice",
+          "directions": "From the save point go to the southwestern end and inspect the leafy bush."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the cave; follow the path to the eastern opening and inspect the bush just before the drop."
+        }
+      ]
+    },
+    "Pear": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/pear/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Cliff Ascent",
+          "directions": "From Summit return toward Cliff Ascent and check the fruit basket in the torch-lit corner on the right."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Check baskets southwest of the save point, beside a central door and on an eastern bench."
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Lower Level / Tank Yard",
+          "directions": "From Basement enter the right-hand door and strike the right machine of the pair to the left; also check Tank Yard’s eastern machine."
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Settlement",
+          "directions": "Check the fruit crate in front of the produce stall by the house south of the save point."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Play at the sign behind Rabbit’s house for possible Pear rewards."
+        }
+      ]
+    },
+    "Blackberry": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/blackberry/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "Frozen Wall",
+          "directions": "From Mountain Ridge enter the northeastern cave; go west to the second opening, descend along the northern edge and inspect the leafy bush."
+        },
+        {
+          "world": "Arendelle",
+          "area": "Foothills",
+          "directions": "From the Foothills save point return into the area and inspect the leafy bush on the western side."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Play at Lumpy’s sign behind Rabbit’s house for possible Blackberry rewards."
+        }
+      ]
+    },
+    "Apple": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/apple-ingredient/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Cliff Ascent / Mountainside",
+          "directions": "From Agora go south through the Ravine; climb the path beside the temple and inspect fruit trees along the mountain path."
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Tram Common",
+          "directions": "Break fruit baskets by houses and benches; Apple is a possible result."
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Enter Pooh’s book beside Merlin at the Bistrot, then use the sign behind Rabbit’s house to play for possible Apple rewards."
         }
       ]
     },
@@ -267,268 +992,38 @@
         }
       ]
     },
-    "Cod": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/cod/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Turn left from the save point and descend to the docks; inspect bubbles beside the pier and farther north near the western end."
-        },
-        {
-          "world": "Arendelle",
-          "area": "Foothills",
-          "directions": "Head toward Snowfield and break the yellow crate beside the barrels at the Satyr encounter."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Underwater shoals",
-          "directions": "Swim to fish shoals around the islands and examine them for possible Cod."
-        }
-      ]
-    },
-    "Cornichon": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/cornichon/",
+    "Caviar": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/caviar/",
       "routes": [
         {
           "world": "Twilight Town",
           "area": "Tram Common",
-          "directions": "Check the lunchbox on barrels in the northeastern outdoor theater corner."
+          "directions": "Check lunchboxes on the northeastern rooftop, central elevated platform and theater."
         },
         {
           "world": "Toy Box",
           "area": "Galaxy Toys",
-          "directions": "Check the lunchbox on cardboard boxes right outside the main entrance, the Rest Area couch and behind the Action Plus counters."
+          "directions": "Check the lunchbox behind the southeastern 1F counters, then ride to 2F and check the eastern display counter."
         }
       ]
     },
-    "Crab": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/crab/",
-      "routes": [
-        {
-          "world": "The Caribbean",
-          "area": "Huddled Isles / Isla de los Mástiles",
-          "directions": "Examine dormant lobsters in the water behind the Huddled Isles save point and near the ship at Isla de los Mástiles."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isle of Luck / Horseshoe Island / Sandbar Isle",
-          "directions": "Sail to each island and inspect submerged lobster nodes; circle Isle of Luck’s outer rim. Nodes may be absent on a visit."
-        }
-      ]
-    },
-    "Dill": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/dill/",
-      "routes": [
-        {
-          "world": "Monstropolis",
-          "area": "Lobby & Offices / Lower Level",
-          "directions": "Strike machines outside Laugh Floor; from Basement enter the white door, pass the first machines and check the southwestern pair."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Forsaken Isle / Isla de los Mástiles / Confinement Isle",
-          "directions": "Check herbs behind Forsaken’s save point; climb central Mástiles and go to the southeast end; sail to Confinement and inspect its northeastern shore."
-        }
-      ]
-    },
-    "Eel": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/eel/",
+    "Butter": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/butter/",
       "routes": [
         {
           "world": "Twilight Town",
           "area": "Tram Common",
-          "directions": "Break the lunchbox in the central back alley near the tram tracks."
+          "directions": "Break lunchboxes on benches, street corners and rooftops for possible Butter."
         },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Tower / Hills / Marsh / Shore",
-          "directions": "Inspect Tower’s stream, the southwestern Hills pond and pond northeast of its save point, the hidden swamp southeast of Marsh, and the Shore lake across the Thoroughfare bridge. Bubble nodes may be absent."
-        }
-      ]
-    },
-    "Eggplant": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/eggplant/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Inspect the last stall on the left ahead of the save point and the right-hand stall in the open area near the castle."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South / North Districts",
-          "directions": "Check the bench beneath the second southern building, the western roof before Central District, and the northwestern back alley and closed shop."
-        },
-        {
-          "world": "100 Acre Wood",
-          "area": "Tigger’s Vegetable Spree",
-          "directions": "Play using Tigger’s sign near the save point for possible Eggplant rewards."
-        }
-      ]
-    },
-    "Filet Mignon": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/filet-mignon/",
-      "routes": [
-        {
-          "world": "Twilight Town",
-          "area": "Bistrot",
-          "directions": "Successful cooking can award Filet Mignon as a bonus; it is not guaranteed for each dish."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Laugh Floor",
-          "directions": "From Lobby & Offices go east, then check the lunchbox behind the last left-hand desk at the northern end."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Docks / Fort",
-          "directions": "At the pier end turn left and go south to the street’s yellow crate. At Fort climb the archway wall behind the save point to the rooftop crate."
-        }
-      ]
-    },
-    "Garlic": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/garlic/",
-      "routes": [
         {
           "world": "Toy Box",
           "area": "Galaxy Toys",
-          "directions": "Check the Rest Area couch and the counter lunchbox in Babies & Toddlers: Dolls on 3F."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Check the last left-hand stall north of the save point, then the left-hand stall nearer the castle."
+          "directions": "From Main Floor 1F step outside the entrance and turn right to the lunchbox on cardboard boxes; also check the couch beside the Rest Area save point."
         },
         {
           "world": "San Fransokyo",
           "area": "South / North Districts",
-          "directions": "Check the western roof before Central District, the box under the eastern elevated walkway, and boxes by the northwestern closed shop and end of its back alley."
-        },
-        {
-          "world": "100 Acre Wood",
-          "area": "Tigger’s Vegetable Spree",
-          "directions": "Use Tigger’s sign near the save point for possible Garlic rewards."
-        }
-      ]
-    },
-    "King Oyster Mushroom": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/king-oyster-mushroom/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Alleyway / Gardens",
-          "directions": "Inspect the grassy alley behind Agora’s serpent fountain and the slope northwest of the Gardens save point."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Marsh",
-          "directions": "Check mushroom patches in the central area and along its northern edge."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isla Verdemontaña",
-          "directions": "Check the southeastern edge, then wall-run up the cliff a little west to inspect the ledge mushrooms."
-        }
-      ]
-    },
-    "Lemon": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/lemon/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Thebes",
-          "directions": "Check baskets at the northeastern Agora vendor, eastern Big Olive vendor and northern wall below Overlook’s stairs."
-        },
-        {
-          "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Check the bench north of the save point and fruit basket in the northeastern theater."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Laugh Floor / Lower Level",
-          "directions": "Strike the vending machine near Laugh Floor’s entrance; from Basement take the white door and check southwestern Lower Level machines."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Docks",
-          "directions": "Check the fruit crate near the save point and the crate behind the western house."
-        },
-        {
-          "world": "100 Acre Wood",
-          "area": "Lumpy’s Fruit Parade",
-          "directions": "Use Lumpy’s sign behind Rabbit’s house for possible Lemon rewards."
-        }
-      ]
-    },
-    "Lobster": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/lobster/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Wharf / Shore",
-          "directions": "Descend left from Thoroughfare to the docks and inspect bubbles in the southern water; cross the bridge back to Shore and check its lake."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Huddled Isles / Isla Verdemontaña / Sandbar Isle",
-          "directions": "Inspect brown lobster nodes in the water behind Huddled’s save point, Verdemontaña’s southeastern and northwestern waters, and southern Sandbar."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Confinement Isle / Ship’s End",
-          "directions": "Reach these islands by ship and inspect underwater lobster nodes."
-        }
-      ]
-    },
-    "Morel": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/morel/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Gardens",
-          "directions": "Go northwest from the save point and inspect mushrooms just before the slope; the node may be absent."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Hills / Marsh",
-          "directions": "Inspect fallen bark along the western Hills edge and mushrooms northeast of the Marsh save point."
-        },
-        {
-          "world": "Arendelle",
-          "area": "Snowfield",
-          "directions": "Follow the path from the save point and inspect mushrooms under trees on the left at the first opening."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isla Verdemontaña",
-          "directions": "Cross the forest southward; check its southern edge and the route from the nearby fork toward the cliff drop."
-        }
-      ]
-    },
-    "Mussel": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/mussel/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Wharf",
-          "directions": "Descend left from Thoroughfare; inspect bubbles beside the second pier and between the second and third piers near boats."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Accessway",
-          "directions": "Go east through the brick passage and open area, enter the next corridor and climb the stairs to the workbench lunchbox."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Huddled Isles / Sandbar Isle / Isla Verdemontaña",
-          "directions": "Inspect underwater shell clusters behind Huddled’s save point; at Sandbar climb the southern rocks and dive into the circular pond and caves; check Verdemontaña’s surrounding waters."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isle of Luck / Horseshoe Island / Ship’s End",
-          "directions": "Sail to these islands and inspect submerged shell clusters."
+          "directions": "In South District climb the eastern stairs to the bench overlooking the highway. In North District inspect the lunchbox on a western building’s roof."
         }
       ]
     },
@@ -552,118 +1047,18 @@
         }
       ]
     },
-    "Onion": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/onion/",
+    "Cornichon": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/cornichon/",
       "routes": [
-        {
-          "world": "Olympus",
-          "area": "Thebes",
-          "directions": "Break baskets at northeastern Agora’s vendor, eastern Big Olive’s stall, inside the building northeast of Gardens, and below Overlook’s northern wall."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Factory Second Floor",
-          "directions": "From Accessway go west into the Factory and check the lunch table at the southern end."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Settlement",
-          "directions": "Check the cart left of the save point, crate below a southern house and cart on the eastern path toward the bridge."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South District",
-          "directions": "Check the vegetable box on a bench beside the second building north of the save point."
-        }
-      ]
-    },
-    "Pear": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/pear/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Cliff Ascent",
-          "directions": "From Summit return toward Cliff Ascent and check the fruit basket in the torch-lit corner on the right."
-        },
         {
           "world": "Twilight Town",
           "area": "Tram Common",
-          "directions": "Check baskets southwest of the save point, beside a central door and on an eastern bench."
+          "directions": "Check the lunchbox on barrels in the northeastern outdoor theater corner."
         },
-        {
-          "world": "Monstropolis",
-          "area": "Lower Level / Tank Yard",
-          "directions": "From Basement enter the right-hand door and strike the right machine of the pair to the left; also check Tank Yard’s eastern machine."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Settlement",
-          "directions": "Check the fruit crate in front of the produce stall by the house south of the save point."
-        },
-        {
-          "world": "100 Acre Wood",
-          "area": "Lumpy’s Fruit Parade",
-          "directions": "Play at the sign behind Rabbit’s house for possible Pear rewards."
-        }
-      ]
-    },
-    "Porcini": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/porcini/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Alleyway / Gardens",
-          "directions": "Inspect mushrooms in the alley behind Agora’s serpent fountain and at the southern end of Gardens."
-        },
-        {
-          "world": "Twilight Town",
-          "area": "Woods",
-          "directions": "Leave Old Mansion’s gates and climb the leaning tree in the central clearing to mushrooms near its top."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Exile Island",
-          "directions": "Sail to the island and inspect mushrooms under rocks near its southern beach."
-        }
-      ]
-    },
-    "Pumpkin": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/pumpkin/",
-      "routes": [
         {
           "world": "Toy Box",
           "area": "Galaxy Toys",
-          "directions": "Check the couch east of Action Plus’s entrance and the northeastern 3F couch between Game Store and Babies & Toddlers: Dolls."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Check the stalls nearest the save point on both sides of the street."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Settlement",
-          "directions": "Check the second cart left of the save point, the crate by a southern house and the small cart farther east on that street."
-        },
-        {
-          "world": "100 Acre Wood",
-          "area": "Tigger’s Vegetable Spree",
-          "directions": "Use Tigger’s sign for possible Pumpkin rewards."
-        }
-      ]
-    },
-    "Quail": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/quail/",
-      "routes": [
-        {
-          "world": "The Caribbean",
-          "area": "Docks / Settlement",
-          "directions": "Check the yellow crate inside the building by the pier entrance west of Docks, then the crate beside the house right of Settlement’s save point."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "City",
-          "directions": "Check the central bench on South District’s eastern walkway, beneath Central District’s circular-cluster building, and the bench around the northwestern bend from North District’s save point."
+          "directions": "Check the lunchbox on cardboard boxes right outside the main entrance, the Rest Area couch and behind the Action Plus counters."
         }
       ]
     },
@@ -682,190 +1077,93 @@
         }
       ]
     },
-    "Rosemary": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/rosemary/",
+    "Honey": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/honey/",
       "routes": [
-        {
-          "world": "Olympus",
-          "area": "Gardens",
-          "directions": "Go northwest and inspect herbs left of the slope toward the ruined building."
-        },
-        {
-          "world": "Toy Box",
-          "area": "Andy’s House",
-          "directions": "Inspect southeastern flowerbeds and herbs along the eastern and western yard edges."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Hills / Wetlands",
-          "directions": "From Tower’s cave turn left into Hills and check beneath the central tree and the tree northwest. From Campsite go west to the northeastern Wetlands cliff."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Isla Verdemontaña",
-          "directions": "Cross the forest to the southern side and inspect herbs on a rock."
-        }
-      ]
-    },
-    "Saffron": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/saffron/",
-      "routes": [
-        {
-          "world": "Monstropolis",
-          "area": "Laugh Floor / Tank Yard",
-          "directions": "Strike the left vending machine at Laugh Floor’s entrance and the eastern Tank Yard machines."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Sandbar Isle / Isle of Luck",
-          "directions": "Climb Sandbar’s southern rocks and inspect herbs by the cliff drop; sail to Isle of Luck and check a ledge on the small northern rock."
-        }
-      ]
-    },
-    "Scallop": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/scallops/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Shore / Wharf",
-          "directions": "Cross back over Thoroughfare’s bridge and turn right to shoreline shells; descend to Wharf and inspect bubbles at the lake’s eastern edge."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Huddled Isles / Isla de los Mástiles / Sandbar Isle",
-          "directions": "Check shells in southeastern Huddled waters, western and central Mástiles waters near the ship, and rocks underwater south of Sandbar."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Confinement Isle / Isle of Luck",
-          "directions": "Reach these islands by ship and inspect underwater shell nodes."
-        }
-      ]
-    },
-    "Sea Bass": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/sea-bass/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Wharf / Shore",
-          "directions": "Descend left from Thoroughfare to Wharf and inspect western bubbles; across the bridge on Shore check the lake’s northwestern edge."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Underwater shoals",
-          "directions": "Swim up to fish schools around islands and examine them for possible Sea Bass."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South District",
-          "directions": "Climb the giant chef statue near the save point and break the lunchbox atop its hat."
-        }
-      ]
-    },
-    "Sole": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/sole/",
-      "routes": [
-        {
-          "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Check the back-alley lunchbox near the tram’s brick archway and the lunchbox on a bench in the northeastern theater."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Wharf",
-          "directions": "Descend the stairs left of Thoroughfare’s entrance and inspect bubbles between the first and second piers."
-        }
-      ]
-    },
-    "Thyme": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/thyme/",
-      "routes": [
-        {
-          "world": "Toy Box",
-          "area": "Andy’s House",
-          "directions": "Check herbs beneath bushes on the western lawn and at the southwestern yard end."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Hills",
-          "directions": "Check east of the Hills save point; from Marsh go south into Hills and check the beginning of the clearing."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Horseshoe Island / Ship’s End",
-          "directions": "Sail to the islands; inspect southeastern Horseshoe herbs and herbs near the Ship’s End landing area."
-        }
-      ]
-    },
-    "Tomato": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/tomato/",
-      "routes": [
-        {
-          "world": "Toy Box",
-          "area": "Galaxy Toys",
-          "directions": "Check the couch near Action Plus’s entrance and the lunchbox at 3F’s northeastern corner."
-        },
-        {
-          "world": "Monstropolis",
-          "area": "Lower Level",
-          "directions": "From Basement enter the white door and strike the right machine of the southwestern pair."
-        },
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Check the third stall on the left north of the save point and first right-hand stall in the castle square."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Settlement",
-          "directions": "Check the crate beside the shopper south of the save point and the cart on the eastern route toward the bridge."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South / North Districts",
-          "directions": "Check the central bench of the eastern elevated walkway, the alley between western North District buildings, and the northwestern roof."
-        }
-      ]
-    },
-    "Veal": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/veal/",
-      "routes": [
-        {
-          "world": "Olympus",
-          "area": "Big Olive / Cliff Ascent",
-          "directions": "From Agora’s northeastern stairs turn right, cross the rubble and check the yellow crate among brown crates in the right corner. Also search yellow crates up the Cliff Ascent path."
-        },
-        {
-          "world": "Twilight Town",
-          "area": "Tram Common",
-          "directions": "Check the lunchbox on a bench in the northeastern theater."
-        },
-        {
-          "world": "The Caribbean",
-          "area": "Seaport",
-          "directions": "Go south from Docks and break the yellow crate beside a treasure chest at the lower end of the large pier."
-        }
-      ]
-    },
-    "Zucchini": {
-      "source": "https://www.destinyislands.com/kh3/items/ingredients/zucchini/",
-      "routes": [
-        {
-          "world": "Kingdom of Corona",
-          "area": "Thoroughfare",
-          "directions": "Check the second stall left of the save point and crates on the left of the larger square ahead."
-        },
-        {
-          "world": "San Fransokyo",
-          "area": "South / North Districts",
-          "directions": "Check the middle bench and underside of South District’s eastern walkway, the last northwestern North District roof, and the western street below."
-        },
         {
           "world": "100 Acre Wood",
-          "area": "Tigger’s Vegetable Spree",
-          "directions": "Use Tigger’s sign for possible Zucchini rewards."
+          "area": "Pooh’s Hunny Harvest",
+          "directions": "Enter Pooh’s book beside Merlin at Twilight Town’s Bistrot. Use the flower-patch sign beside Gopher to play for Honey rewards."
+        }
+      ]
+    },
+    "Sour Cherry": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/sour-cherry/",
+      "routes": [
+        {
+          "world": "Olympus",
+          "area": "Cherry Flan",
+          "directions": "After Olympus’s story, climb the stairs behind Overlook’s save point and examine the cherries at the top to begin the course."
+        }
+      ]
+    },
+    "Strawberry": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/strawberry/",
+      "routes": [
+        {
+          "world": "Toy Box",
+          "area": "Strawberry Flan",
+          "directions": "After Toy Box’s story, check behind the western couches at the Rest Area save point and examine the strawberry."
+        }
+      ]
+    },
+    "Blood Orange": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/blood-orange/",
+      "routes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Orange Flan",
+          "directions": "From Tower go through the cave behind the save point into Hills; examine the orange on the left to begin the photo challenge."
+        }
+      ]
+    },
+    "Banana": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/banana/",
+      "routes": [
+        {
+          "world": "Monstropolis",
+          "area": "Banana Flan",
+          "directions": "From Basement enter the white door, head west to the door wall and take the leftmost red-lit door. Turn around and go west to the hallway end; examine the banana and play the challenge."
+        }
+      ]
+    },
+    "Grapes": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/grapes/",
+      "routes": [
+        {
+          "world": "Arendelle",
+          "area": "Grape Flan",
+          "directions": "From Mountain Ridge go northwest and drop off the cliff beside the Moogle shop; examine the grapes in the snowfield below."
+        }
+      ]
+    },
+    "Melon": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/melon/",
+      "routes": [
+        {
+          "world": "San Fransokyo",
+          "area": "Honeydew Flan",
+          "directions": "Enter South District at night. Climb the tall building behind the save point, locate the red tower to the north, then reach the rooftop beside that tower and examine the melon."
+        }
+      ]
+    },
+    "Watermelon": {
+      "source": "https://www.destinyislands.com/kh3/items/ingredients/watermelon/",
+      "routes": [
+        {
+          "world": "The Caribbean",
+          "area": "Watermelon Flan",
+          "directions": "After the Caribbean story, enter the courtyard beside Fort’s save point and examine the central watermelon."
         }
       ]
     }
-  }
+  },
+  "allIngredientPagesReviewed": 59,
+  "transientFetchFailuresRecovered": [
+    "beef",
+    "cloves",
+    "orange"
+  ],
+  "reviewNotes": "All 59 linked individual pages were inspected across the two passes. Three HTTP 406 responses succeeded on direct retry. Existing six ingredient routes retained; Blackberry minigame alternative added. Routes paraphrase landmarks; observed yields, Flan threshold comparisons and guide typos are not imported as new facts.",
+  "routeGroupCount": 172
 }

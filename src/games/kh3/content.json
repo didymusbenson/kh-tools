@@ -7467,16 +7467,17 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Toy Box / Rest Area: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Monstropolis / Lower Level: Food box. — possible yield Beef x2, appearance 100%. Moogle Shop: 30 munny. After clearing both Toy Box and Kingdom of Corona.",
+      "instructions": "Toy Box / Rest Area: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Toy Box / Babies & Toddlers: Dolls: In food box. — possible yield Beef x2 / Garlic x2, appearance 100%; Monstropolis / Lower Level: Food box. — possible yield Beef x2, appearance 100%. Moogle Shop: 30 munny. After clearing both Toy Box and Kingdom of Corona. Harvest and alternative-source approaches: Olympus / Big Olive / Mountainside: From Gardens head northwest and check the yellow crate against the left wall before the square. From Summit descend Mountainside and drop right from the large cliff to the crate ledge. Toy Box / Galaxy Toys: Check Rest Area’s couch lunchboxes and the lunchbox beside the counter in Babies & Toddlers: Dolls on 3F. Monstropolis / Lower Level: From Basement enter the white door and check the lunchbox on the benches ahead. The Caribbean / Seaport: Go south from Docks and check the yellow crate beside the pier entrance.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:Toy_Box",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.destinyislands.com/kh3/items/ingredients/beef/"
       ],
-      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
+      "uncertainty": "Landmark routes are guide-supported; random contents, exact base yields and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Toy Box",
@@ -7508,7 +7509,33 @@
         "tier": 4,
         "unlock": "After clearing both Toy Box and Kingdom of Corona.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "harvestRoutes": [
+        {
+          "world": "Olympus",
+          "area": "Big Olive / Mountainside",
+          "directions": "From Gardens head northwest and check the yellow crate against the left wall before the square. From Summit descend Mountainside and drop right from the large cliff to the crate ledge.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/beef/"
+        },
+        {
+          "world": "Toy Box",
+          "area": "Galaxy Toys",
+          "directions": "Check Rest Area’s couch lunchboxes and the lunchbox beside the counter in Babies & Toddlers: Dolls on 3F.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/beef/"
+        },
+        {
+          "world": "Monstropolis",
+          "area": "Lower Level",
+          "directions": "From Basement enter the white door and check the lunchbox on the benches ahead.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/beef/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Seaport",
+          "directions": "Go south from Docks and check the yellow crate beside the pier entrance.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/beef/"
+        }
+      ]
     },
     {
       "id": "kh3.material.quail",
@@ -10019,16 +10046,17 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / The Big Olive: Herb. — possible yield Cloves x2, appearance 50%; Olympus / Alleyway: Herb. — possible yield Cloves x2, appearance 50%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Cloves x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus.",
+      "instructions": "Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / Gardens: Herb. — possible yield Cloves x2, appearance 25%; Olympus / The Big Olive: Herb. — possible yield Cloves x2, appearance 50%; Olympus / Alleyway: Herb. — possible yield Cloves x2, appearance 50%; The Caribbean / Isla Verdemontaña: Herb. — possible yield Cloves x2, appearance 100%. Moogle Shop: 10 munny. After clearing Olympus. Harvest and alternative-source approaches: Olympus / Thebes: Inspect herbs in the alley behind Agora’s serpent fountain, beyond the broken right-hand wall past Big Olive’s rubble, and northwest of Gardens’ save point. Twilight Town / Woods: Leave Old Mansion’s gates and turn left on entering the clearing to inspect herbs. Toy Box / Andy’s House: Jump from the window; inspect herbs beneath the central flowerbed and near the northwestern road. The Caribbean / Isla Verdemontaña: Enter the forest north of the save point and inspect herbs near the rocks.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Olympus",
         "https://www.khwiki.com/Game:The_Caribbean",
         "https://www.khwiki.com/Game:Toy_Box",
         "https://www.khwiki.com/Game:Twilight_Town",
-        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop"
+        "https://gamefaqs.gamespot.com/ps4/718920-kingdom-hearts-iii/faqs/76812/moogle-shop",
+        "https://www.destinyislands.com/kh3/items/ingredients/cloves/"
       ],
-      "uncertainty": "Object/area yields and this shop unlock are sourced; exact individual object coordinates and replenishment timing remain unresolved.",
+      "uncertainty": "Landmark routes are guide-supported; random contents, exact base yields and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Olympus",
@@ -10076,7 +10104,33 @@
         "tier": 2,
         "unlock": "After clearing Olympus.",
         "editionEvidence": "PS4 guide v3.01, 2020-05-30; not a Steam UI capture"
-      }
+      },
+      "harvestRoutes": [
+        {
+          "world": "Olympus",
+          "area": "Thebes",
+          "directions": "Inspect herbs in the alley behind Agora’s serpent fountain, beyond the broken right-hand wall past Big Olive’s rubble, and northwest of Gardens’ save point.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/cloves/"
+        },
+        {
+          "world": "Twilight Town",
+          "area": "Woods",
+          "directions": "Leave Old Mansion’s gates and turn left on entering the clearing to inspect herbs.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/cloves/"
+        },
+        {
+          "world": "Toy Box",
+          "area": "Andy’s House",
+          "directions": "Jump from the window; inspect herbs beneath the central flowerbed and near the northwestern road.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/cloves/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Isla Verdemontaña",
+          "directions": "Enter the forest north of the save point and inspect herbs near the rocks.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/cloves/"
+        }
+      ]
     },
     {
       "id": "kh3.material.rosemary",
@@ -10825,13 +10879,14 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Monstropolis / Lobby & Offices: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Orange x2 / Pear x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Apricot x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x3, appearance 100%.",
+      "instructions": "Monstropolis / Lobby & Offices: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Lower Level: Vending machine. — possible yield Lemon x2 / Orange x2, appearance 100%; Monstropolis / Tank Yard: Vending machine. — possible yield Orange x2 / Pear x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Apricot x2 / Orange x2, appearance 100%; The Caribbean / Docks: In food crate. — possible yield Lemon x2 / Orange x3, appearance 100%. Harvest and alternative-source approaches: Monstropolis / Lobby & Offices / Lower Level / Tank Yard: Strike the left machine before Laugh Floor, the left of the southwestern pair reached through Basement’s white door, and eastern Tank Yard machines. The Caribbean / Docks: Check fruit crates beside the save point, by the produce seller at the pier entrance, and behind the western house. 100 Acre Wood / Lumpy’s Fruit Parade: Enter Pooh’s book at Twilight Town’s Bistrot and play at Lumpy’s sign behind Rabbit’s house for possible Orange rewards.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Monstropolis",
-        "https://www.khwiki.com/Game:The_Caribbean"
+        "https://www.khwiki.com/Game:The_Caribbean",
+        "https://www.destinyislands.com/kh3/items/ingredients/orange/"
       ],
-      "uncertainty": "Source table lists object/area and appearance chance; exact individual object positions, replenishment timing and all shop unlocks remain unresolved.",
+      "uncertainty": "Landmark routes are guide-supported; random contents, exact base yields and timed replenishment remain unverified.",
       "pickupSources": [
         {
           "world": "Monstropolis",
@@ -10880,6 +10935,26 @@
           "object": "In food crate.",
           "quantity": 3,
           "alternativeYields": "Lemon x2 / Orange x3"
+        }
+      ],
+      "harvestRoutes": [
+        {
+          "world": "Monstropolis",
+          "area": "Lobby & Offices / Lower Level / Tank Yard",
+          "directions": "Strike the left machine before Laugh Floor, the left of the southwestern pair reached through Basement’s white door, and eastern Tank Yard machines.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/orange/"
+        },
+        {
+          "world": "The Caribbean",
+          "area": "Docks",
+          "directions": "Check fruit crates beside the save point, by the produce seller at the pier entrance, and behind the western house.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/orange/"
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Enter Pooh’s book at Twilight Town’s Bistrot and play at Lumpy’s sign behind Rabbit’s house for possible Orange rewards.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/orange/"
         }
       ]
     },
@@ -11051,7 +11126,7 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Arendelle / Frozen Wall: Berry tree. (appearance 100%); Arendelle / Foothills: Berry tree. (appearance 100%). Ingredient sources: Frozen Wall , Foothills , Lumpy's Fruit Parade. Harvest approaches: Arendelle / Frozen Wall: From Mountain Ridge enter the northeastern cave; go west to the second opening, descend along the northern edge and inspect the leafy bush. Arendelle / Foothills: From the Foothills save point return into the area and inspect the leafy bush on the western side. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established.",
+      "instructions": "Arendelle / Frozen Wall: Berry tree. (appearance 100%); Arendelle / Foothills: Berry tree. (appearance 100%). Ingredient sources: Frozen Wall , Foothills , Lumpy's Fruit Parade. Harvest approaches: Arendelle / Frozen Wall: From Mountain Ridge enter the northeastern cave; go west to the second opening, descend along the northern edge and inspect the leafy bush. Arendelle / Foothills: From the Foothills save point return into the area and inspect the leafy bush on the western side. The ingredient guide reports leaving the world and landing again to replenish these harvest spots; a timed respawn interval is not established. Alternative reward route: Play at Lumpy’s sign behind Rabbit’s house for possible Blackberry rewards.",
       "sources": [
         "https://www.khwiki.com/Ingredients",
         "https://www.khwiki.com/Game:Arendelle",
@@ -11083,6 +11158,12 @@
           "world": "Arendelle",
           "area": "Foothills",
           "directions": "From the Foothills save point return into the area and inspect the leafy bush on the western side.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/blackberry/"
+        },
+        {
+          "world": "100 Acre Wood",
+          "area": "Lumpy’s Fruit Parade",
+          "directions": "Play at Lumpy’s sign behind Rabbit’s house for possible Blackberry rewards.",
           "source": "https://www.destinyislands.com/kh3/items/ingredients/blackberry/"
         }
       ]
@@ -11835,11 +11916,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Pooh's Hunny Harvest.",
+      "instructions": "Ingredient sources: Pooh's Hunny Harvest. Harvest and alternative-source approaches: 100 Acre Wood / Pooh’s Hunny Harvest: Enter Pooh’s book beside Merlin at Twilight Town’s Bistrot. Use the flower-patch sign beside Gopher to play for Honey rewards.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/honey/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "100 Acre Wood",
+          "area": "Pooh’s Hunny Harvest",
+          "directions": "Enter Pooh’s book beside Merlin at Twilight Town’s Bistrot. Use the flower-patch sign beside Gopher to play for Honey rewards.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/honey/"
+        }
+      ]
     },
     {
       "id": "kh3.material.sour-cherry",
@@ -11850,11 +11940,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Cherry Flan.",
+      "instructions": "Ingredient sources: Cherry Flan. Harvest and alternative-source approaches: Olympus / Cherry Flan: After Olympus’s story, climb the stairs behind Overlook’s save point and examine the cherries at the top to begin the course.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/sour-cherry/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "Olympus",
+          "area": "Cherry Flan",
+          "directions": "After Olympus’s story, climb the stairs behind Overlook’s save point and examine the cherries at the top to begin the course.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/sour-cherry/"
+        }
+      ]
     },
     {
       "id": "kh3.material.strawberry",
@@ -11865,11 +11964,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Strawberry Flan.",
+      "instructions": "Ingredient sources: Strawberry Flan. Harvest and alternative-source approaches: Toy Box / Strawberry Flan: After Toy Box’s story, check behind the western couches at the Rest Area save point and examine the strawberry.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/strawberry/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "Toy Box",
+          "area": "Strawberry Flan",
+          "directions": "After Toy Box’s story, check behind the western couches at the Rest Area save point and examine the strawberry.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/strawberry/"
+        }
+      ]
     },
     {
       "id": "kh3.material.blood-orange",
@@ -11880,11 +11988,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Orange Flan.",
+      "instructions": "Ingredient sources: Orange Flan. Harvest and alternative-source approaches: Kingdom of Corona / Orange Flan: From Tower go through the cave behind the save point into Hills; examine the orange on the left to begin the photo challenge.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/blood-orange/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "Kingdom of Corona",
+          "area": "Orange Flan",
+          "directions": "From Tower go through the cave behind the save point into Hills; examine the orange on the left to begin the photo challenge.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/blood-orange/"
+        }
+      ]
     },
     {
       "id": "kh3.material.banana",
@@ -11895,11 +12012,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Banana Flan.",
+      "instructions": "Ingredient sources: Banana Flan. Harvest and alternative-source approaches: Monstropolis / Banana Flan: From Basement enter the white door, head west to the door wall and take the leftmost red-lit door. Turn around and go west to the hallway end; examine the banana and play the challenge.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/banana/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "Monstropolis",
+          "area": "Banana Flan",
+          "directions": "From Basement enter the white door, head west to the door wall and take the leftmost red-lit door. Turn around and go west to the hallway end; examine the banana and play the challenge.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/banana/"
+        }
+      ]
     },
     {
       "id": "kh3.material.grapes",
@@ -11910,11 +12036,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Grape Flan.",
+      "instructions": "Ingredient sources: Grape Flan. Harvest and alternative-source approaches: Arendelle / Grape Flan: From Mountain Ridge go northwest and drop off the cliff beside the Moogle shop; examine the grapes in the snowfield below.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/grapes/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "Arendelle",
+          "area": "Grape Flan",
+          "directions": "From Mountain Ridge go northwest and drop off the cliff beside the Moogle shop; examine the grapes in the snowfield below.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/grapes/"
+        }
+      ]
     },
     {
       "id": "kh3.material.melon",
@@ -11925,11 +12060,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Honeydew Flan.",
+      "instructions": "Ingredient sources: Honeydew Flan. Harvest and alternative-source approaches: San Fransokyo / Honeydew Flan: Enter South District at night. Climb the tall building behind the save point, locate the red tower to the north, then reach the rooftop beside that tower and examine the melon.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/melon/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "San Fransokyo",
+          "area": "Honeydew Flan",
+          "directions": "Enter South District at night. Climb the tall building behind the save point, locate the red tower to the north, then reach the rooftop beside that tower and examine the melon.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/melon/"
+        }
+      ]
     },
     {
       "id": "kh3.material.watermelon",
@@ -11940,11 +12084,20 @@
       "categories": [
         "ingredients"
       ],
-      "instructions": "Ingredient sources: Watermelon Flan.",
+      "instructions": "Ingredient sources: Watermelon Flan. Harvest and alternative-source approaches: The Caribbean / Watermelon Flan: After the Caribbean story, enter the courtyard beside Fort’s save point and examine the central watermelon.",
       "sources": [
-        "https://www.khwiki.com/Ingredients"
+        "https://www.khwiki.com/Ingredients",
+        "https://www.destinyislands.com/kh3/items/ingredients/watermelon/"
       ],
-      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped."
+      "uncertainty": "Listed source areas; individual pickup positions are not yet mapped.",
+      "harvestRoutes": [
+        {
+          "world": "The Caribbean",
+          "area": "Watermelon Flan",
+          "directions": "After the Caribbean story, enter the courtyard beside Fort’s save point and examine the central watermelon.",
+          "source": "https://www.destinyislands.com/kh3/items/ingredients/watermelon/"
+        }
+      ]
     },
     {
       "id": "kh3.cuisine.mushroom-terrine-excellent",

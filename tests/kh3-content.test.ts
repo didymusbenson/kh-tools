@@ -86,4 +86,18 @@ describe('KHIII expanded acquisition catalog', () => {
     }
   });
 
+  it('gives every ingredient sourced landmark or minigame approaches without changing ingredient IDs', () => {
+    const ingredients = raw.filter(e => e.categories?.includes('ingredients'));
+    expect(ingredients).toHaveLength(59);
+    expect(ingredients.reduce((count, e) => count + e.harvestRoutes.length, 0)).toBe(172);
+    for (const entry of ingredients) for (const route of entry.harvestRoutes) {
+      expect(route.world.length, entry.id).toBeGreaterThan(0);
+      expect(route.directions.length, entry.id).toBeGreaterThan(20);
+      expect(entry.sources, entry.id).toContain(route.source);
+    }
+    expect(ingredients.find(e => e.name === 'Rice')?.instructions).toContain('chef statue');
+    expect(ingredients.find(e => e.name === 'Cheese')?.instructions).toContain('hidden Ground Floor room');
+    expect(ingredients.find(e => e.name === 'Blackberry')?.harvestRoutes.some((r: any) => r.world === '100 Acre Wood')).toBe(true);
+  });
+
 });
