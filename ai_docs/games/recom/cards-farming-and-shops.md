@@ -38,7 +38,7 @@ For ordinary drops, defeat the intended enemy **last**. Teeming Darkness, Almigh
 
 The [30-row farm file](enemy-card-farms.json) selects explicitly Re:CoM enemy infoboxes, retaining base/boosted rates and world lists. Examples:
 
-| Enemy | Candidate base → boosted | Useful world/source |
+| Enemy | Published remake base → boosted | Useful world/source |
 |---|---|---|
 | Shadow | 4% → 10% | [Traverse Town and other worlds](https://www.khwiki.com/Shadow); Atlantica only in Bottomless Darkness |
 | Soldier | 3% → 7.5% | [Traverse Town / Wonderland / Twilight Town](https://www.khwiki.com/Soldier); Neverland summon footnote disputed; use the three listed worlds |
@@ -49,7 +49,7 @@ The [30-row farm file](enemy-card-farms.json) selects explicitly Re:CoM enemy in
 | White Mushroom | 4%; no darkness boost | [White Room](https://www.khwiki.com/White_Mushroom) |
 | Black Fungus | 3%; no darkness boost | [Black Room](https://www.khwiki.com/Black_Fungus) |
 
-These are source-reported rates, not measured Steam probabilities. Shadow’s footnote and both mushroom success rules are resolved; Soldier’s Neverland footnote is disputed. White Mushroom requires three requested Fire/Blizzard/Thunder casts in White Room (Warp also permits card drops); Black Fungus must be defeated in Black Room, waiting out its invulnerability. Finish the intended target last. All 30 targets now have a practical farm and retry/fallback route. Exhaustive formations are optional research; independent rate corroboration remains COM-005. Do not claim a guaranteed number of attempts or add unverified RNG manipulation instructions.
+These are source-reported rates, not measured Steam probabilities. Shadow’s footnote and both mushroom success rules are resolved; Soldier’s Neverland footnote is disputed. White Mushroom requires three requested Fire/Blizzard/Thunder casts in White Room (Warp also permits card drops); Black Fungus must be defeated in Black Room, waiting out its invulnerability. Finish the intended target last. All 30 targets now have a practical farm and retry/fallback route. Exhaustive formations are optional research; the 30 published remake rates and 2.5× multiplier are corroborated by direct Ultimania inspection (COM-005 closed). Do not claim a guaranteed number of attempts or add unverified RNG manipulation instructions.
 
 ## Moogle economy
 
@@ -72,10 +72,14 @@ Room Synthesis is a card-consuming room system, not material crafting. There is 
 
 ## October 1 edition clarification
 
-Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). All 29 basic-card effects and 22 numeric/use-detail notes now reach the journal. The continuation sources Dumbo’s base duration and additional summon output; exact Bambi/Goofy base durations remain open. All copied mushroom TODOs are removed and farm caveats reach runtime (COM-032 closed).
+Ansem’s player card is correctly resistance-only in Re:CoM. Stocked-card concealment belongs to original CoM Link Mode, while enemy Ansem’s own use is separate. The audit’s assumed missing active effect (COM-018) is closed; see [resolution evidence](research-resolution-2026-10-01.md). All 29 basic-card effects and 22 numeric/use-detail notes now reach the journal. Published approximate durations now cover Goofy and the other timed base/tier families; Bambi has a finite action sequence without a published elapsed-second count. All copied mushroom TODOs are removed and farm caveats reach runtime (COM-032 closed).
 
-October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 18 closed, nine partial, two open and three non-factual limitations.
+October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 19 closed, 10 partial, zero open and three non-factual limitations.
 
 October 2 targeted COM-001–003 pass: [research results](research-com-001-003-2026-10-02.md). Shop and Riku player needs are met; remaining internal mechanics are optional research by user scope decision. COM-003 now supplies practical routes and fallbacks for all 30 targets. The Soldier Neverland summon footnote is disputed, not a confirmed farm.
 
 Current COM-001–003 status: [practical coverage and scope closure](farm-coverage-closure-2026-10-02.md). No guaranteed drops or independent Steam gameplay test is claimed.
+
+October 2 primary-reference follow-up: [COM-005–007 evidence and remaining boundaries](research-com-005-007-2026-10-02.md).
+
+A lead found during that pass also supplied [published approximate duration guidance](research-com-017-duration-lead-2026-10-02.md), now integrated. Bambi uses three hops plus a final landing; Mushu tiers increase shot allowance, and Splash Lv3 does not outlast Lv2. COM-017 retains only the documented timing-precision limits.

@@ -864,6 +864,296 @@
       "accessed": "2026-10-02",
       "inspection": "Remake barrel reset restriction and self-destruct prize loss.",
       "evidenceStatus": "Source inspected; no Steam execution"
+    },
+    {
+      "id": "com-source-ultimania-page-268-20261002",
+      "url": "https://www.kh13.com/gallery/image/18497-kh2fm_ultimania_268/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "26fe57fd2f9f85b174c055d0ae4e781f6395d183d79eab01b7606bc4b5a69f26",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-269-20261002",
+      "url": "https://www.kh13.com/gallery/image/18519-kh2fm_ultimania_269/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "e43a9edcf455c57ce56fed0748d8fce18ece14af62f5d5669af918cd5cf0d083",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-367-20261002",
+      "url": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "1d73dde52c562f92c64fedca3c1590ee8a1426c4cb6cb453eb6d6dd61cb4c2fe",
+      "inspection": "Enemy-card baseline percentages, all 30 rows across pp. 367–370.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-368-20261002",
+      "url": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "06b7e6462e027fd2629d70d53944fdb9a35c1c189b2f100e15a03b222562fe20",
+      "inspection": "Enemy-card baseline percentages, all 30 rows across pp. 367–370.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-369-20261002",
+      "url": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "f37885f4f46188c8bdd1f9b2dc756c888dcc5ad2755429fc36fee4417aabedcf",
+      "inspection": "Enemy-card baseline percentages, all 30 rows across pp. 367–370.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-370-20261002",
+      "url": "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "43d34350a65e0b0f03aa4ed94ad21dca2bf671791ea757d2c1004d03e78ef970",
+      "inspection": "Enemy-card baseline percentages, all 30 rows across pp. 367–370.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-372-20261002",
+      "url": "https://www.kh13.com/gallery/image/18570-kh2fm_ultimania_372/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "b96eb5d9baf982fb4e195c047330adad973ece6f31909a1e73c3bc6210bdff82",
+      "inspection": "Room bonus and final-enemy reward selection.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-373-20261002",
+      "url": "https://www.kh13.com/gallery/image/18567-kh2fm_ultimania_373/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "cadd957c50e2627dc2cf49182f44d88615a2e61236740cfcfc024df0f2d30380",
+      "inspection": "Room bonus and final-enemy reward selection.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-380-20261002",
+      "url": "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "e8e64218023422e066a92d1d0d7c985128e4bbe79fe82134851b048220a7d8ad",
+      "inspection": "Room bonus and final-enemy reward selection.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-388-20261002",
+      "url": "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "f9949ed0246696039ffe501a3a77ee7dcb9b97aa97bcf4575729700f49b7a477",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-391-20261002",
+      "url": "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "156f9328af0219ddd9f6dd3179b7b7e0d39764f67680a6e0aa2e355487b01078",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-392-20261002",
+      "url": "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "0101953b985f2144f59b83806e7d6c9c2b63b040f5fbbaf1882d6f768cea2f91",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-393-20261002",
+      "url": "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "cdf26129fe5e5f417b9eca702b22eeefd1d90283c802e72e4c0d32a075bb6794",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-394-20261002",
+      "url": "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "2f31666785748d9c89bf54f41c958d1454f7d7109ca7180ecd3fbf7eca27042c",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-395-20261002",
+      "url": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "639a1c868b7af9f4e3c37829acb6f2755ab5b4f4b5dc1e34a207ef2d4be33a9f",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-396-20261002",
+      "url": "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "f770cd786c58944fbac7d986723e715fa3b70f9e5114fad933c12658f7a8f8cf",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-397-20261002",
+      "url": "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "31eec32300c69b29285a7f1dfa061e9c697fa7d57b9385798a1af7a9c23849bb",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-398-20261002",
+      "url": "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "79817c4e6fa2e9d47c66d255a9d2dae2005a1136e74ac741c7a1cbecc1432911",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-399-20261002",
+      "url": "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "8217b5ae94fb040df21cf9fca27202d683963f91daf06dafd235f1cb55995053",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-400-20261002",
+      "url": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "f491e3e3cf2d70cc9658bad7a79a9881ee73af04bd94b4b5bf56ef0f8a5a3b48",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-401-20261002",
+      "url": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "3ba20675e7f5979757f231db4fdf896d9cd7bff075596dc5a9c1253e329dd7c6",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-402-20261002",
+      "url": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "fce8b761d95d733b65651a7b0b90f962c7c54e2ef9e566a24a3e6305c94a1f44",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-403-20261002",
+      "url": "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "c7e6367159238eb720fb248b6e6aa0227338ac0db0bd6f77d6b7d49ff8cd5c3e",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-404-20261002",
+      "url": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "12ceb1dc7674c430665289f541874671b2586d2faf17cf71353219a8a5556869",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-405-20261002",
+      "url": "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "e578df4d4490cf41840d2ac13ee8f44e062119249ab85fe74c98e1859a262af2",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-406-20261002",
+      "url": "https://www.kh13.com/gallery/image/18609-kh2fm_ultimania_406/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "181e40a4f4ea6b90d3285cc2b1660b6fcd8ef041ddce38fe572542e597c920f5",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-407-20261002",
+      "url": "https://www.kh13.com/gallery/image/18616-kh2fm_ultimania_407/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "e9981be73624c810fd50d8a9c36dde8dc046ea3fc0537577fb2d0c20944be585",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-ultimania-page-408-20261002",
+      "url": "https://www.kh13.com/gallery/image/18628-kh2fm_ultimania_408/",
+      "kind": "primary-published-remake-guide",
+      "accessed": "2026-10-02",
+      "access": "retrieved-image-visually-inspected",
+      "snapshotSha256": "7b5190f7a4632a8b6eb9cec8533a6fe3b19b889b13252aa0abab527934e36db6",
+      "inspection": "Stock mechanics, menu-order statement, or sleight rows; see the per-page evidence mapping in research-com-005-007-evidence.json.",
+      "evidenceStatus": "Japanese original remake publication; not Steam binary/gameplay verification"
+    },
+    {
+      "id": "com-source-xenodusk-sleight-checklist-20261002",
+      "url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vTyOa8FzY1hzZsjv5ECd-TiZlfa37z6JP04iG8IDqvFvTkpfGugnNQxcwzvh6DHyIOJslMQa86PWS9u/pubhtml/sheet?headers=false&gid=1301848277",
+      "kind": "steam-community-completion-checklist",
+      "accessed": "2026-10-02",
+      "access": "retrieved-public-html",
+      "snapshotSha256": "9e10471e74480347418346ba7cbf5a8b057e52f34d2bbf37538f389238cf4efb",
+      "inspection": "83 named Sora rows in identical order; Wild Crash explicitly mapped to Wild Crush. No acquisition text imported; not independent native capture or engine predicate evidence.",
+      "discoveredFrom": "https://steamcommunity.com/sharedfiles/filedetails/?id=3276335381"
     }
   ],
   "leadsNotUsedAsFullEvidence": [
@@ -5327,5 +5617,31 @@
     "additionalInspection": "KHRECOM resistance table: lightning absorbed.",
     "sourceAccessNote": "Direct URL initially failed; cached/indexed guide representation recovered and read.",
     "accessed": "2026-10-02"
+  },
+  "com005007FollowUp20261002": {
+    "report": "research-com-005-007-2026-10-02.md",
+    "evidence": "research-com-005-007-evidence.json",
+    "modInspection": {
+      "url": "https://github.com/gaithern/KH-RECOM-AP-LUA/blob/d5e5c06bb8dd803ee153d2ba47a862fc773c9901/recomAPConnector.lua",
+      "result": "Inspected learned-flag packing/writes and level-up replacements; no stock recipe evaluator found in the connector. No vanilla predicate inferred."
+    },
+    "negativeResults": [
+      "No unmodded completed Steam Sleights-menu capture was inspected. Search hits for pre-Steam exhibitions are not Steam proof.",
+      "Web open of KH13 scan pages failed; public HTML/images were retrieved successfully with curl.",
+      "The retrieved book predates HD/Steam achievements; no internal achievement membership array or modern executable drop table was recovered."
+    ],
+    "counts": "19 closed, 10 partial, zero open, three non-factual limitations. COM-005 closes the primary published-baseline corroboration task; COM-006 becomes partial; COM-007 remains partial."
+  },
+  "com017DurationFollowUp20261002": {
+    "report": "research-com-017-duration-lead-2026-10-02.md",
+    "pages": [
+      395,
+      400,
+      401,
+      402,
+      404
+    ],
+    "precision": "All printed seconds are approximate; no Steam timing test. Bambi provides action counts, not seconds.",
+    "integration": "18 base/tier numeric durations with precision/edition/source; corrected Bambi hops/releases and Mushu/Splash stacking descriptions."
   }
 }

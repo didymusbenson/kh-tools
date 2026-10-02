@@ -2010,7 +2010,8 @@
         "https://www.khwiki.com/Magic_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Stop"
+        "https://www.khwiki.com/Stop",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
       ],
       "family": "magic",
       "instructions": "Wonderland Bounty.",
@@ -2034,7 +2035,7 @@
         },
         {
           "title": "Use details",
-          "text": "Base duration: 3 seconds on susceptible enemies."
+          "text": "Base duration: about 3 seconds on susceptible enemies."
         },
         {
           "title": "Breakable scenery",
@@ -2238,7 +2239,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Bambi",
         "https://www.khwiki.com/Paradise",
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
       ],
       "family": "summon",
       "instructions": "Complete 100 Acre Wood.",
@@ -2262,7 +2264,7 @@
         },
         {
           "title": "Use details",
-          "text": "Drops 12 small HP orbs in four jumps (3 orbs per jump, 3 HP per orb); contact power 0.1× per hit."
+          "text": "Drops 12 small HP orbs: three hops plus a final landing, with 3 orbs at each of the four releases (3 HP per orb); contact power 0.1× per hit."
         },
         {
           "title": "Breakable scenery",
@@ -2296,7 +2298,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Splash",
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
       ],
       "family": "summon",
       "instructions": "Monstro: finish Room of Truth.",
@@ -2316,11 +2319,11 @@
       "notes": [
         {
           "title": "Battle effect",
-          "text": "Sprays an ice-element stream. Stacking extends its duration."
+          "text": "Sprays an ice-element stream. One card lasts about 5 seconds; two or three last about 10 seconds."
         },
         {
           "title": "Use details",
-          "text": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts 5 seconds."
+          "text": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts about 5 seconds."
         },
         {
           "title": "Breakable scenery",
@@ -2353,7 +2356,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Tinker_Bell",
-        "https://www.khwiki.com/Twinkle"
+        "https://www.khwiki.com/Twinkle",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
       ],
       "family": "summon",
       "instructions": "Neverland: finish Room of Truth.",
@@ -2377,7 +2381,7 @@
         },
         {
           "title": "Use details",
-          "text": "Lasts 3 seconds; base healing 7% max HP plus 0.5% per repeated reaction input."
+          "text": "Lasts about 3 seconds; base healing 7% max HP plus 0.5% per repeated reaction input."
         },
         {
           "title": "Breakable scenery",
@@ -2410,7 +2414,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Flare_Breath"
+        "https://www.khwiki.com/Flare_Breath",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
       ],
       "family": "summon",
       "instructions": "Hollow Bastion: base Room of Rewards chest.",
@@ -2430,11 +2435,11 @@
       "notes": [
         {
           "title": "Battle effect",
-          "text": "Breathes fire. Stacking extends its duration."
+          "text": "Breathes fire. Stacking increases the shot allowance: 10, 23 or 35 fireballs, within about 11 seconds."
         },
         {
           "title": "Use details",
-          "text": "Aim manually while stationary; power 1× per fireball. Ends at 11 seconds or 10 shots."
+          "text": "Aim manually while stationary; power 1× per fireball. Ends at about 11 seconds or 10 shots."
         },
         {
           "title": "Breakable scenery",
@@ -2907,7 +2912,8 @@
       "collectible": false,
       "sources": [
         "https://www.khwiki.com/Friend_Card",
-        "https://www.khwiki.com/Goofy_Tornado"
+        "https://www.khwiki.com/Goofy_Tornado",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
       ],
       "family": "friend",
       "instructions": "Battle pickup from the start; temporarily absent after the 11F Exit Hall Riku Replica battle until the 12F Exit Hall Larxene battle.",
@@ -2918,7 +2924,7 @@
         },
         {
           "title": "Use details",
-          "text": "Neutral damage, power 1.5× per hit."
+          "text": "Neutral damage, power 1.5× per hit. Lasts about 3 seconds; stacking two or three Goofy cards gives about 5 or 7 seconds."
         },
         {
           "title": "In battle",
@@ -3023,7 +3029,8 @@
       "collectible": false,
       "sources": [
         "https://www.khwiki.com/Friend_Card",
-        "https://www.khwiki.com/Hummingbird"
+        "https://www.khwiki.com/Hummingbird",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
       ],
       "family": "friend",
       "instructions": "Neverland battle pickup after entering Room of Beginnings; absent from entry into Room of Guidance until entry into Room of Truth.",
@@ -3034,7 +3041,7 @@
         },
         {
           "title": "Use details",
-          "text": "Lasts 7 seconds; neutral power 2× per hit."
+          "text": "Lasts about 7 seconds; neutral power 2× per hit."
         },
         {
           "title": "In battle",
@@ -3176,6 +3183,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Shadow",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3233,7 +3242,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3255,6 +3264,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Crescendo",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3312,7 +3323,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Finding Soldiers",
@@ -3337,6 +3348,8 @@
         "https://www.khwiki.com/Powerwild",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3394,7 +3407,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3413,6 +3426,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Bouncywild",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3470,7 +3485,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3489,6 +3504,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Large_Body",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3546,7 +3563,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3565,6 +3582,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Fat_Bandit",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3622,7 +3641,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3641,6 +3660,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Sea_Neon",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3698,7 +3719,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3717,6 +3738,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Bandit",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3774,7 +3797,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3794,6 +3817,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Pirate",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3850,7 +3875,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3869,6 +3894,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Red_Nocturne",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -3926,7 +3953,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -3946,6 +3973,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Blue_Rhapsody",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4002,7 +4031,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4021,6 +4050,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Yellow_Opera",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4078,7 +4109,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4097,6 +4128,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Green_Requiem",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4154,7 +4187,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4173,6 +4206,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wizard",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4230,7 +4265,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4250,6 +4285,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Air_Soldier",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4306,7 +4343,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4325,6 +4362,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Barrel_Spider",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4382,7 +4421,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Barrel encounters",
@@ -4409,6 +4448,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wight_Knight",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4466,7 +4507,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4486,6 +4527,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Air_Pirate",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4542,7 +4585,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4561,6 +4604,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Gargoyle",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4618,7 +4663,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4638,6 +4683,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Search_Ghost",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4694,7 +4741,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4713,6 +4760,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Aquatank",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4770,7 +4819,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4789,6 +4838,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Screwdiver",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -4846,7 +4897,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4868,6 +4919,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4924,7 +4977,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -4946,6 +4999,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -5002,7 +5057,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -5021,6 +5076,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/White_Mushroom",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
         "https://www.khwiki.com/Warp"
@@ -5075,7 +5132,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Optional RNG route",
@@ -5098,6 +5155,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Black_Fungus",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -5155,7 +5214,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -5174,6 +5233,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Creeper_Plant",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -5231,7 +5292,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -5252,6 +5313,8 @@
         "https://www.khwiki.com/Tornado_Step",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -5309,7 +5372,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Optional RNG route",
@@ -5334,6 +5397,8 @@
         "https://www.khwiki.com/Crescendo",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -5391,7 +5456,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Summoned enemies",
@@ -5417,6 +5482,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -5473,7 +5540,7 @@
         },
         {
           "title": "Rate evidence",
-          "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
+          "text": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable."
         },
         {
           "title": "Active effect",
@@ -6708,6 +6775,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Shadow",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -6753,6 +6822,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Large_Body",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -6798,6 +6869,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Powerwild",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -6843,6 +6916,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Fat_Bandit",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -6889,6 +6964,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Search_Ghost",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6933,6 +7010,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Sea_Neon",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -6978,6 +7057,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wight_Knight",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
@@ -7024,6 +7105,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Pirate",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -7069,6 +7152,8 @@
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Defender",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -9912,6 +9997,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Sliding_Dash",
         "https://www.khwiki.com/Level",
@@ -9930,7 +10017,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -9971,6 +10058,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Stun_Impact",
         "https://www.khwiki.com/Level",
@@ -9989,7 +10078,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10030,6 +10119,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Strike_Raid",
         "https://www.khwiki.com/Level",
@@ -10048,7 +10139,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10088,6 +10179,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Blitz",
         "https://www.khwiki.com/Level",
@@ -10106,7 +10199,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10147,6 +10240,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18565-kh2fm_ultimania_391/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Zantetsuken",
         "https://www.khwiki.com/Level",
@@ -10165,7 +10260,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "one-of",
             "values": [
@@ -10205,6 +10300,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Sonic_Blade",
         "https://www.khwiki.com/Level",
@@ -10223,7 +10320,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10264,6 +10361,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Ars_Arcanum",
         "https://www.khwiki.com/Level",
@@ -10282,7 +10381,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10322,6 +10421,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Ragnarok",
         "https://www.khwiki.com/Level",
@@ -10340,7 +10441,7 @@
               "family": "attack"
             }
           ],
-          "ordered": true,
+          "ordered": false,
           "valueTotal": {
             "comparison": "range",
             "values": [
@@ -10380,6 +10481,9 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Trinity_Limit"
       ],
@@ -10463,6 +10567,10 @@
         {
           "title": "Effect",
           "text": "Damages enemies across the battlefield."
+        },
+        {
+          "title": "Card order",
+          "text": "Use one Attack card, Donald and Goofy. The five orders other than Goofy + Donald + Attack make Trinity Limit; that excluded order makes Wild Crush."
         }
       ],
       "stats": [
@@ -10482,6 +10590,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Fira"
       ],
@@ -10532,6 +10642,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Firaga"
       ],
@@ -10578,6 +10690,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Blizzara"
       ],
@@ -10628,6 +10742,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18599-kh2fm_ultimania_393/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Blizzaga"
       ],
@@ -10674,6 +10790,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Thundara"
       ],
@@ -10724,6 +10842,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Thundaga"
       ],
@@ -10771,6 +10891,8 @@
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Cura"
       ],
@@ -10807,6 +10929,10 @@
         {
           "title": "Using two cards",
           "text": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+        },
+        {
+          "title": "Card order",
+          "text": "To preserve both Cure cards for normal reload, stock a non-Cure card first, then Cure + Cure. A third Cure instead makes Curaga. Cure + Cure + an Item also works; putting a card between the Cures is not established by these examples."
         }
       ],
       "stats": [
@@ -10825,6 +10951,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Curaga"
       ],
@@ -10871,6 +10999,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Gravira"
       ],
@@ -10921,6 +11051,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18600-kh2fm_ultimania_394/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Graviga"
       ],
@@ -10967,6 +11099,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Stopra"
       ],
@@ -10990,7 +11124,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Stops susceptible targets for 5 seconds before modifiers."
+          "text": "Stops susceptible targets for about 5 seconds before modifiers."
         },
         {
           "title": "Stock priority",
@@ -11017,6 +11151,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Stopga"
       ],
@@ -11043,7 +11179,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Stops susceptible targets for 7 seconds before modifiers."
+          "text": "Stops susceptible targets for about 7 seconds before modifiers."
         }
       ],
       "stats": [
@@ -11063,6 +11199,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Aerora"
       ],
@@ -11113,6 +11251,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Aeroga"
       ],
@@ -11158,6 +11298,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Warpinator"
       ],
@@ -11203,6 +11345,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Warp"
       ],
@@ -11248,6 +11392,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Blizzard_Raid"
       ],
@@ -11293,6 +11439,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Synchro"
       ],
@@ -11338,6 +11486,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Fire_Raid"
       ],
@@ -11383,6 +11533,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Aqua_Splash"
       ],
@@ -11428,6 +11580,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Terror"
       ],
@@ -11487,6 +11641,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Gifted_Miracle"
       ],
@@ -11546,6 +11702,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Bind"
       ],
@@ -11591,6 +11749,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18614-kh2fm_ultimania_396/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Shock_Impact"
       ],
@@ -11636,6 +11796,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Homing_Blizzara"
       ],
@@ -11681,6 +11843,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Quake"
       ],
@@ -11726,6 +11890,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Teleport"
       ],
@@ -11785,6 +11951,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Thunder_Raid"
       ],
@@ -11830,6 +11998,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Confuse"
       ],
@@ -11875,6 +12045,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Firaga_Burst"
       ],
@@ -11920,6 +12092,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Reflect_Raid"
       ],
@@ -11965,6 +12139,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18619-kh2fm_ultimania_397/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Magnet_Spiral"
       ],
@@ -12010,6 +12186,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Lethal_Frame",
         "https://www.khwiki.com/Level",
@@ -12061,6 +12239,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Tornado",
         "https://www.khwiki.com/Level",
@@ -12112,6 +12292,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Freeze_(ability)"
       ],
@@ -12157,6 +12339,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Judgment_(ability)"
       ],
@@ -12202,6 +12386,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Holy",
         "https://www.khwiki.com/Level",
@@ -12253,6 +12439,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Raging_Storm"
       ],
@@ -12298,6 +12486,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18633-kh2fm_ultimania_398/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Mega_Flare",
         "https://www.khwiki.com/Level",
@@ -12351,6 +12541,8 @@
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Proud_Roar_Lv2"
       ],
@@ -12405,6 +12597,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Proud_Roar_Lv3"
       ],
@@ -12451,6 +12645,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Showtime_Lv2"
       ],
@@ -12501,6 +12697,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Showtime_Lv3"
       ],
@@ -12547,6 +12745,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18617-kh2fm_ultimania_399/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Cross-slash"
       ],
@@ -12597,6 +12797,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Cross-slash%2B"
       ],
@@ -12642,6 +12844,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Omnislash"
       ],
@@ -12689,6 +12893,8 @@
       "sources": [
         "https://kingdomhearts.fandom.com/wiki/Summon_cards",
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Splash_Lv2"
       ],
@@ -12712,7 +12918,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Dumbo sprays an aimed ice-element stream for 10 seconds."
+          "text": "Dumbo sprays an aimed ice-element stream for about 10 seconds."
         },
         {
           "title": "Stock priority",
@@ -12740,6 +12946,8 @@
       "collectible": false,
       "sources": [
         "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Splash_Lv3"
       ],
@@ -12766,7 +12974,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Dumbo sprays a larger aimed ice-element stream, with power 2× per hit."
+          "text": "Dumbo sprays an aimed ice-element stream for about 10 seconds, flying higher and dealing power 2× per hit. Its range matches Lv2."
         }
       ],
       "stats": [
@@ -12786,6 +12994,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Twinkle_Lv2"
       ],
@@ -12809,7 +13019,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 4 seconds; base heal 13% max HP plus 1% per added input."
+          "text": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts about 4 seconds; base heal 13% max HP plus 1% per added input."
         },
         {
           "title": "Stock priority",
@@ -12836,6 +13046,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Twinkle_Lv3"
       ],
@@ -12862,7 +13074,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts 5 seconds; base heal 22% max HP plus 1.5% per added input."
+          "text": "Tinker Bell restores HP; repeated reaction input increases healing. Lasts about 5 seconds; base heal 22% max HP plus 1.5% per added input."
         }
       ],
       "stats": [
@@ -12882,6 +13094,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Paradise_Lv2"
       ],
@@ -12905,7 +13119,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Bambi drops large healing orbs."
+          "text": "Bambi drops 12 large healing orbs across three hops and a final landing (3 orbs per release)."
         },
         {
           "title": "Stock priority",
@@ -12932,6 +13146,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Paradise_Lv3"
       ],
@@ -12958,7 +13174,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Bambi drops large healing orbs. Also stuns enemies."
+          "text": "Bambi drops 12 large healing orbs across three hops and a final landing (3 orbs per release). Also stuns enemies he tramples."
         }
       ],
       "stats": [
@@ -12977,6 +13193,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Idyll_Romp"
       ],
@@ -13023,6 +13241,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Flare_Breath_Lv2"
       ],
@@ -13046,7 +13266,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 23 fireballs."
+          "text": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at about 11 seconds or 23 fireballs."
         },
         {
           "title": "Stock priority",
@@ -13073,6 +13293,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Flare_Breath_Lv3"
       ],
@@ -13099,7 +13321,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at 11 seconds or 35 fireballs."
+          "text": "Aim and fire Mushu’s fireballs while Sora stays still. Ends at about 11 seconds or 35 fireballs."
         }
       ],
       "stats": [
@@ -13119,6 +13341,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Magic_Lv2"
       ],
@@ -13169,6 +13393,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Magic_Lv3"
       ],
@@ -13216,6 +13442,8 @@
       "sources": [
         "https://gamefaqs.gamespot.com/ps3/684080-kingdom-hearts-hd-15-remix/answers/416665-how-to-activate-sleights-in-re-chain-of-memories",
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Stardust_Blitz"
       ],
@@ -13271,6 +13499,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Goofy_Tornado_Lv2"
       ],
@@ -13294,7 +13524,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Goofy spins around Sora, striking nearby enemies."
+          "text": "Goofy spins around Sora, striking nearby enemies. Lasts about 5 seconds."
         },
         {
           "title": "Stock priority",
@@ -13321,6 +13551,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Goofy_Tornado_Lv3"
       ],
@@ -13347,7 +13579,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Goofy spins around Sora, striking nearby enemies."
+          "text": "Goofy spins around Sora, striking nearby enemies. Lasts about 7 seconds."
         }
       ],
       "stats": [
@@ -13367,6 +13599,9 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Goofy_Smash"
       ],
@@ -13399,6 +13634,10 @@
         {
           "title": "Using two cards",
           "text": "With two cards stocked, press both card-cycling controls together to release them. A Steam keyboard player confirmed Shift + R; use the corresponding controls if you have remapped them."
+        },
+        {
+          "title": "Card order",
+          "text": "Stock Goofy + an Attack card. The remake guide also permits adding another card after that pair to raise the total value."
         }
       ],
       "stats": [
@@ -13417,6 +13656,9 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
+        "https://www.kh13.com/gallery/image/18566-kh2fm_ultimania_392/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Wild_Crush"
       ],
@@ -13444,6 +13686,10 @@
         {
           "title": "Effect",
           "text": "Sora and Donald carry Goofy in a steerable rushing attack."
+        },
+        {
+          "title": "Card order",
+          "text": "Stock Goofy + Donald + an Attack card, in that order. Rearranging these three cards selects Trinity Limit instead, if learned."
         }
       ],
       "stats": [
@@ -13463,6 +13709,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Lucky_Bounty_Lv2"
       ],
@@ -13513,6 +13761,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Lucky_Bounty_Lv3"
       ],
@@ -13559,6 +13809,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Sandstorm_Lv2"
       ],
@@ -13609,6 +13861,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18615-kh2fm_ultimania_403/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Sandstorm_Lv3"
       ],
@@ -13655,6 +13909,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Surprise!_Lv2"
       ],
@@ -13705,6 +13961,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Surprise!_Lv3"
       ],
@@ -13751,6 +14009,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Spiral_Wave_Lv2"
       ],
@@ -13801,6 +14061,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Spiral_Wave_Lv3"
       ],
@@ -13847,6 +14109,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Hummingbird_Lv2"
       ],
@@ -13870,7 +14134,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 9 seconds."
+          "text": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts about 9 seconds."
         },
         {
           "title": "Stock priority",
@@ -13897,6 +14161,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Hummingbird_Lv3"
       ],
@@ -13923,7 +14189,7 @@
       "notes": [
         {
           "title": "Effect",
-          "text": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts 11 seconds."
+          "text": "Peter Pan attacks with his dagger; repeated input adds speed and Moogle Points. Lasts about 11 seconds."
         }
       ],
       "stats": [
@@ -13943,6 +14209,8 @@
       "collectible": false,
       "sources": [
         "https://steamcommunity.com/app/2552430/discussions/0/4631484923305271099/",
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Furious_Volley_Lv2"
       ],
@@ -13993,6 +14261,8 @@
       "checkable": true,
       "collectible": false,
       "sources": [
+        "https://www.kh13.com/gallery/image/18553-kh2fm_ultimania_388/",
+        "https://www.kh13.com/gallery/image/18613-kh2fm_ultimania_405/",
         "https://www.khwiki.com/Sleight",
         "https://www.khwiki.com/Furious_Volley_Lv3"
       ],

@@ -1,0 +1,699 @@
+{
+  "game": "recom",
+  "date": "2026-10-02",
+  "editionBoundary": "Primary book is Japanese PS2 Re:Chain of Memories, not GBA and not a Steam executable. Steam checklist is community guidance, not a native capture.",
+  "publishedFarmRates": [
+    {
+      "enemy": "Shadow",
+      "basePercent": 4,
+      "page": 367
+    },
+    {
+      "enemy": "Soldier",
+      "basePercent": 3,
+      "page": 367
+    },
+    {
+      "enemy": "Powerwild",
+      "basePercent": 2,
+      "page": 367
+    },
+    {
+      "enemy": "Bouncywild",
+      "basePercent": 4,
+      "page": 367
+    },
+    {
+      "enemy": "Large Body",
+      "basePercent": 2,
+      "page": 368
+    },
+    {
+      "enemy": "Fat Bandit",
+      "basePercent": 2,
+      "page": 368
+    },
+    {
+      "enemy": "Sea Neon",
+      "basePercent": 4,
+      "page": 368
+    },
+    {
+      "enemy": "Bandit",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Pirate",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Red Nocturne",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Blue Rhapsody",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Yellow Opera",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Green Requiem",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Wizard",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Air Soldier",
+      "basePercent": 3,
+      "page": 368
+    },
+    {
+      "enemy": "Barrel Spider",
+      "basePercent": 4,
+      "page": 368
+    },
+    {
+      "enemy": "Wight Knight",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Air Pirate",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Gargoyle",
+      "basePercent": 3,
+      "page": 369
+    },
+    {
+      "enemy": "Search Ghost",
+      "basePercent": 2,
+      "page": 369
+    },
+    {
+      "enemy": "Aquatank",
+      "basePercent": 2,
+      "page": 369
+    },
+    {
+      "enemy": "Screwdiver",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Wyvern",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Defender",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "White Mushroom",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Black Fungus",
+      "basePercent": 3,
+      "page": 369
+    },
+    {
+      "enemy": "Creeper Plant",
+      "basePercent": 2,
+      "page": 369
+    },
+    {
+      "enemy": "Tornado Step",
+      "basePercent": 4,
+      "page": 369
+    },
+    {
+      "enemy": "Crescendo",
+      "basePercent": 3,
+      "page": 370
+    },
+    {
+      "enemy": "Neoshadow",
+      "basePercent": 3,
+      "page": 370
+    }
+  ],
+  "ordinarySoraStatusOrder": [
+    {
+      "position": 1,
+      "id": "recom-sleight-sora-sliding-dash",
+      "name": "Sliding Dash",
+      "page": 391
+    },
+    {
+      "position": 2,
+      "id": "recom-sleight-sora-stun-impact",
+      "name": "Stun Impact",
+      "page": 391
+    },
+    {
+      "position": 3,
+      "id": "recom-sleight-sora-strike-raid",
+      "name": "Strike Raid",
+      "page": 391
+    },
+    {
+      "position": 4,
+      "id": "recom-sleight-sora-blitz",
+      "name": "Blitz",
+      "page": 391
+    },
+    {
+      "position": 5,
+      "id": "recom-sleight-sora-zantetsuken",
+      "name": "Zantetsuken",
+      "page": 391
+    },
+    {
+      "position": 6,
+      "id": "recom-sleight-sora-sonic-blade",
+      "name": "Sonic Blade",
+      "page": 392
+    },
+    {
+      "position": 7,
+      "id": "recom-sleight-sora-ars-arcanum",
+      "name": "Ars Arcanum",
+      "page": 392
+    },
+    {
+      "position": 8,
+      "id": "recom-sleight-sora-ragnarok",
+      "name": "Ragnarok",
+      "page": 392
+    },
+    {
+      "position": 9,
+      "id": "recom-sleight-sora-trinity-limit",
+      "name": "Trinity Limit",
+      "page": 392
+    },
+    {
+      "position": 10,
+      "id": "recom-sleight-sora-fira",
+      "name": "Fira",
+      "page": 393
+    },
+    {
+      "position": 11,
+      "id": "recom-sleight-sora-firaga",
+      "name": "Firaga",
+      "page": 393
+    },
+    {
+      "position": 12,
+      "id": "recom-sleight-sora-blizzara",
+      "name": "Blizzara",
+      "page": 393
+    },
+    {
+      "position": 13,
+      "id": "recom-sleight-sora-blizzaga",
+      "name": "Blizzaga",
+      "page": 393
+    },
+    {
+      "position": 14,
+      "id": "recom-sleight-sora-thundara",
+      "name": "Thundara",
+      "page": 394
+    },
+    {
+      "position": 15,
+      "id": "recom-sleight-sora-thundaga",
+      "name": "Thundaga",
+      "page": 394
+    },
+    {
+      "position": 16,
+      "id": "recom-sleight-sora-cura",
+      "name": "Cura",
+      "page": 394
+    },
+    {
+      "position": 17,
+      "id": "recom-sleight-sora-curaga",
+      "name": "Curaga",
+      "page": 394
+    },
+    {
+      "position": 18,
+      "id": "recom-sleight-sora-gravira",
+      "name": "Gravira",
+      "page": 394
+    },
+    {
+      "position": 19,
+      "id": "recom-sleight-sora-graviga",
+      "name": "Graviga",
+      "page": 394
+    },
+    {
+      "position": 20,
+      "id": "recom-sleight-sora-stopra",
+      "name": "Stopra",
+      "page": 395
+    },
+    {
+      "position": 21,
+      "id": "recom-sleight-sora-stopga",
+      "name": "Stopga",
+      "page": 395
+    },
+    {
+      "position": 22,
+      "id": "recom-sleight-sora-aerora",
+      "name": "Aerora",
+      "page": 395
+    },
+    {
+      "position": 23,
+      "id": "recom-sleight-sora-aeroga",
+      "name": "Aeroga",
+      "page": 395
+    },
+    {
+      "position": 24,
+      "id": "recom-sleight-sora-warpinator",
+      "name": "Warpinator",
+      "page": 395
+    },
+    {
+      "position": 25,
+      "id": "recom-sleight-sora-warp",
+      "name": "Warp",
+      "page": 395
+    },
+    {
+      "position": 26,
+      "id": "recom-sleight-sora-blizzard-raid",
+      "name": "Blizzard Raid",
+      "page": 396
+    },
+    {
+      "position": 27,
+      "id": "recom-sleight-sora-synchro",
+      "name": "Synchro",
+      "page": 396
+    },
+    {
+      "position": 28,
+      "id": "recom-sleight-sora-fire-raid",
+      "name": "Fire Raid",
+      "page": 396
+    },
+    {
+      "position": 29,
+      "id": "recom-sleight-sora-aqua-splash",
+      "name": "Aqua Splash",
+      "page": 396
+    },
+    {
+      "position": 30,
+      "id": "recom-sleight-sora-terror",
+      "name": "Terror",
+      "page": 396
+    },
+    {
+      "position": 31,
+      "id": "recom-sleight-sora-gifted-miracle",
+      "name": "Gifted Miracle",
+      "page": 396
+    },
+    {
+      "position": 32,
+      "id": "recom-sleight-sora-bind",
+      "name": "Bind",
+      "page": 396
+    },
+    {
+      "position": 33,
+      "id": "recom-sleight-sora-shock-impact",
+      "name": "Shock Impact",
+      "page": 396
+    },
+    {
+      "position": 34,
+      "id": "recom-sleight-sora-homing-blizzara",
+      "name": "Homing Blizzara",
+      "page": 397
+    },
+    {
+      "position": 35,
+      "id": "recom-sleight-sora-quake",
+      "name": "Quake",
+      "page": 397
+    },
+    {
+      "position": 36,
+      "id": "recom-sleight-sora-teleport",
+      "name": "Teleport",
+      "page": 397
+    },
+    {
+      "position": 37,
+      "id": "recom-sleight-sora-thunder-raid",
+      "name": "Thunder Raid",
+      "page": 397
+    },
+    {
+      "position": 38,
+      "id": "recom-sleight-sora-confuse",
+      "name": "Confuse",
+      "page": 397
+    },
+    {
+      "position": 39,
+      "id": "recom-sleight-sora-firaga-burst",
+      "name": "Firaga Burst",
+      "page": 397
+    },
+    {
+      "position": 40,
+      "id": "recom-sleight-sora-reflect-raid",
+      "name": "Reflect Raid",
+      "page": 397
+    },
+    {
+      "position": 41,
+      "id": "recom-sleight-sora-magnet-spiral",
+      "name": "Magnet Spiral",
+      "page": 397
+    },
+    {
+      "position": 42,
+      "id": "recom-sleight-sora-lethal-frame",
+      "name": "Lethal Frame",
+      "page": 398
+    },
+    {
+      "position": 43,
+      "id": "recom-sleight-sora-tornado",
+      "name": "Tornado",
+      "page": 398
+    },
+    {
+      "position": 44,
+      "id": "recom-sleight-sora-freeze",
+      "name": "Freeze",
+      "page": 398
+    },
+    {
+      "position": 45,
+      "id": "recom-sleight-sora-judgment",
+      "name": "Judgment",
+      "page": 398
+    },
+    {
+      "position": 46,
+      "id": "recom-sleight-sora-holy",
+      "name": "Holy",
+      "page": 398
+    },
+    {
+      "position": 47,
+      "id": "recom-sleight-sora-raging-storm",
+      "name": "Raging Storm",
+      "page": 398
+    },
+    {
+      "position": 48,
+      "id": "recom-sleight-sora-mega-flare",
+      "name": "Mega Flare",
+      "page": 398
+    },
+    {
+      "position": 49,
+      "id": "recom-sleight-sora-proud-roar-lv2",
+      "name": "Proud Roar Lv2",
+      "page": 399
+    },
+    {
+      "position": 50,
+      "id": "recom-sleight-sora-proud-roar-lv3",
+      "name": "Proud Roar Lv3",
+      "page": 399
+    },
+    {
+      "position": 51,
+      "id": "recom-sleight-sora-showtime-lv2",
+      "name": "Showtime Lv2",
+      "page": 399
+    },
+    {
+      "position": 52,
+      "id": "recom-sleight-sora-showtime-lv3",
+      "name": "Showtime Lv3",
+      "page": 399
+    },
+    {
+      "position": 53,
+      "id": "recom-sleight-sora-cross-slash",
+      "name": "Cross-slash",
+      "page": 399
+    },
+    {
+      "position": 54,
+      "id": "recom-sleight-sora-cross-slash-plus",
+      "name": "Cross-slash+",
+      "page": 400
+    },
+    {
+      "position": 55,
+      "id": "recom-sleight-sora-omnislash",
+      "name": "Omnislash",
+      "page": 400
+    },
+    {
+      "position": 56,
+      "id": "recom-sleight-sora-splash-lv2",
+      "name": "Splash Lv2",
+      "page": 400
+    },
+    {
+      "position": 57,
+      "id": "recom-sleight-sora-splash-lv3",
+      "name": "Splash Lv3",
+      "page": 400
+    },
+    {
+      "position": 58,
+      "id": "recom-sleight-sora-twinkle-lv2",
+      "name": "Twinkle Lv2",
+      "page": 400
+    },
+    {
+      "position": 59,
+      "id": "recom-sleight-sora-twinkle-lv3",
+      "name": "Twinkle Lv3",
+      "page": 400
+    },
+    {
+      "position": 60,
+      "id": "recom-sleight-sora-paradise-lv2",
+      "name": "Paradise Lv2",
+      "page": 401
+    },
+    {
+      "position": 61,
+      "id": "recom-sleight-sora-paradise-lv3",
+      "name": "Paradise Lv3",
+      "page": 401
+    },
+    {
+      "position": 62,
+      "id": "recom-sleight-sora-idyll-romp",
+      "name": "Idyll Romp",
+      "page": 401
+    },
+    {
+      "position": 63,
+      "id": "recom-sleight-sora-flare-breath-lv2",
+      "name": "Flare Breath Lv2",
+      "page": 401
+    },
+    {
+      "position": 64,
+      "id": "recom-sleight-sora-flare-breath-lv3",
+      "name": "Flare Breath Lv3",
+      "page": 401
+    },
+    {
+      "position": 65,
+      "id": "recom-sleight-sora-magic-lv2",
+      "name": "Magic Lv2",
+      "page": 402
+    },
+    {
+      "position": 66,
+      "id": "recom-sleight-sora-magic-lv3",
+      "name": "Magic Lv3",
+      "page": 402
+    },
+    {
+      "position": 67,
+      "id": "recom-sleight-sora-stardust-blitz",
+      "name": "Stardust Blitz",
+      "page": 402
+    },
+    {
+      "position": 68,
+      "id": "recom-sleight-sora-goofy-tornado-lv2",
+      "name": "Goofy Tornado Lv2",
+      "page": 402
+    },
+    {
+      "position": 69,
+      "id": "recom-sleight-sora-goofy-tornado-lv3",
+      "name": "Goofy Tornado Lv3",
+      "page": 402
+    },
+    {
+      "position": 70,
+      "id": "recom-sleight-sora-goofy-smash",
+      "name": "Goofy Smash",
+      "page": 403
+    },
+    {
+      "position": 71,
+      "id": "recom-sleight-sora-wild-crush",
+      "name": "Wild Crush",
+      "page": 403
+    },
+    {
+      "position": 72,
+      "id": "recom-sleight-sora-lucky-bounty-lv2",
+      "name": "Lucky Bounty Lv2",
+      "page": 403
+    },
+    {
+      "position": 73,
+      "id": "recom-sleight-sora-lucky-bounty-lv3",
+      "name": "Lucky Bounty Lv3",
+      "page": 403
+    },
+    {
+      "position": 74,
+      "id": "recom-sleight-sora-sandstorm-lv2",
+      "name": "Sandstorm Lv2",
+      "page": 403
+    },
+    {
+      "position": 75,
+      "id": "recom-sleight-sora-sandstorm-lv3",
+      "name": "Sandstorm Lv3",
+      "page": 403
+    },
+    {
+      "position": 76,
+      "id": "recom-sleight-sora-surprise-lv2",
+      "name": "Surprise! Lv2",
+      "page": 404
+    },
+    {
+      "position": 77,
+      "id": "recom-sleight-sora-surprise-lv3",
+      "name": "Surprise! Lv3",
+      "page": 404
+    },
+    {
+      "position": 78,
+      "id": "recom-sleight-sora-spiral-wave-lv2",
+      "name": "Spiral Wave Lv2",
+      "page": 404
+    },
+    {
+      "position": 79,
+      "id": "recom-sleight-sora-spiral-wave-lv3",
+      "name": "Spiral Wave Lv3",
+      "page": 404
+    },
+    {
+      "position": 80,
+      "id": "recom-sleight-sora-hummingbird-lv2",
+      "name": "Hummingbird Lv2",
+      "page": 404
+    },
+    {
+      "position": 81,
+      "id": "recom-sleight-sora-hummingbird-lv3",
+      "name": "Hummingbird Lv3",
+      "page": 404
+    },
+    {
+      "position": 82,
+      "id": "recom-sleight-sora-furious-volley-lv2",
+      "name": "Furious Volley Lv2",
+      "page": 405
+    },
+    {
+      "position": 83,
+      "id": "recom-sleight-sora-furious-volley-lv3",
+      "name": "Furious Volley Lv3",
+      "page": 405
+    }
+  ],
+  "checklistComparison": {
+    "url": "https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vTyOa8FzY1hzZsjv5ECd-TiZlfa37z6JP04iG8IDqvFvTkpfGugnNQxcwzvh6DHyIOJslMQa86PWS9u/pubhtml/sheet?headers=false&gid=1301848277",
+    "rowCount": 83,
+    "orderMatches": true,
+    "explicitNameMapping": {
+      "Wild Crash": "Wild Crush"
+    },
+    "nativeSteamProof": false
+  },
+  "stockExamples": [
+    {
+      "name": "Cura",
+      "guidance": "To preserve both Cure cards for normal reload, stock a non-Cure card first, then Cure + Cure. A third Cure instead makes Curaga. Cure + Cure + an Item also works; putting a card between the Cures is not established by these examples.",
+      "pages": [
+        394
+      ]
+    },
+    {
+      "name": "Goofy Smash",
+      "guidance": "Stock Goofy + an Attack card. The remake guide also permits adding another card after that pair to raise the total value.",
+      "pages": [
+        402,
+        403
+      ]
+    },
+    {
+      "name": "Trinity Limit",
+      "guidance": "Use one Attack card, Donald and Goofy. The five orders other than Goofy + Donald + Attack make Trinity Limit; that excluded order makes Wild Crush.",
+      "pages": [
+        392,
+        403
+      ]
+    },
+    {
+      "name": "Wild Crush",
+      "guidance": "Stock Goofy + Donald + an Attack card, in that order. Rearranging these three cards selects Trinity Limit instead, if learned.",
+      "pages": [
+        392,
+        403
+      ]
+    }
+  ]
+}

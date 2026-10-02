@@ -7,14 +7,14 @@
     "Mixed families get one primary assignment to prevent double counting. Their original disposition and linked factual dependencies remain visible; classification does not close or reopen findings.",
     "Game save/counter behavior and Steam game controls are game research; our app persistence and UI controls are app development.",
     "Evidence limitations and exclusions are not eight new unknown mechanics or eight automatically actionable tasks.",
-    "Evidence counts retain deferred/dropped findings. Of 85 partial/unresolved game families, five KH1 families (003,010,014,018,020) are deferred and KH1-005 is dropped; 79 remain active outside KH1."
+    "Evidence counts retain deferred/dropped findings. Of 81 partial/unresolved game families, five KH1 families (003,010,014,018,020) are deferred and KH1-005 is dropped; 75 remain active outside KH1."
   ],
   "counts": {
     "game-factual-research": {
-      "closed": 96,
-      "unresolved/conflicted": 12,
-      "partial": 73,
-      "other limitation": 8
+      "closed": 100,
+      "partial": 72,
+      "other limitation": 8,
+      "unresolved/conflicted": 9
     },
     "app-development": {
       "closed": 13,
@@ -290,11 +290,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Recovered Prima probability rows conflict with selected remake values; HD attack/assorted identity, value/Premium odds and locked-pool behavior remain unproved. Existing prices, stock and eight magic/item identity pools remain closed.",
+      "currentDisposition": "Pack choice, unlocked identity/value weights, eligible Premium odds and assorted selection are supported. Per user scope decision, exact locked-pool algorithms are optional research, not a journal gap.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, product scope"
     },
     {
       "id": "COM-002",
@@ -302,11 +303,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Partial",
-      "normalizedStatus": "partial",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Twelve world presets and retained boss identities preserved; early Ansem tutorial and Zexion encounter guidance added. Complete ordered corridor/boss substitutions and retained-card exceptions remain unproved.",
+      "currentDisposition": "Twelve presets, corridor applicability, boss retention and Dark Mode inventory guidance meet the player need. Exact scripted inventories and insertion order are optional research per user scope decision.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, product scope"
     },
     {
       "id": "COM-003",
@@ -314,11 +316,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Partial",
-      "normalizedStatus": "partial",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "Both encounter footnotes are resolved and propagated across all 30 farm references. Steam save/reload guidance now reaches all 30 farms, with three detailed optional RNG routes. Full spawn compositions and scripted exceptions remain incomplete.",
+      "currentDisposition": "All 30 Sora targets have a sourced world/room, encounter hint, finish condition, retry path and fallback in runtime. Special rooms, props, later waves and Soldier conflict are handled. Exhaustive spawn tables are optional research.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, practical coverage"
     },
     {
       "id": "COM-004",
@@ -338,11 +341,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "closed",
       "topic": null,
-      "currentDisposition": "All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration.",
+      "currentDisposition": "All 30 base rates match directly inspected Final Mix+ Ultimania pp. 367–370; p. 380 confirms final-target selection and the 2.5× room multiplier. Published-baseline corroboration is complete; no Steam probability measurement or executable extraction is claimed.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Closed, published remake evidence"
     },
     {
       "id": "COM-006",
@@ -350,11 +354,12 @@
       "track": "game-factual-research",
       "classification": "game-facts-and-supporting-evidence",
       "originalStatus": "Open, investigated",
-      "normalizedStatus": "unresolved/conflicted",
+      "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; all 83 ordinary names also match an inspected Steam-aware mod catalog, but native order and vanilla Steam membership/denominator remain unestablished.",
+      "currentDisposition": "All 83 ordinary Sora names and their order match the printed remake Status list and a Steam community checklist. Original remake order is supported; unmodded Steam menu capture, exact achievement predicate and Riku native ordering remain unestablished.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Partial"
     },
     {
       "id": "COM-007",
@@ -364,9 +369,10 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. Three-card-over-two-card priority now reaches all two-card moves. Arbitrary slot/overlap matching remains unknown.",
+      "currentDisposition": "Primary remake guidance supports unordered pure-Attack ingredients, five Trinity Limit orders versus Wild Crush, a spare card before two Cures, and a third card after Goofy + Attack. Existing three-card priority remains; middle-slot insertion and general competing-pair evaluation remain unproved.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
-      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
+      "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md",
+      "currentStatus": "Partial"
     },
     {
       "id": "COM-008",
@@ -484,7 +490,7 @@
       "originalStatus": "Partial",
       "normalizedStatus": "partial",
       "topic": null,
-      "currentDisposition": "Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved.",
+      "currentDisposition": "Published approximate durations recovered for Stop, Splash, Twinkle, Flare Breath, Goofy Tornado and Hummingbird at all tiers. Bambi corrected to three hops plus final landing/four orb releases. Exact timing boundaries and Bambi elapsed seconds remain unstated; no Steam measurement claimed.",
       "classificationReason": "Concerns game/journal truth, content completeness, or the evidence and scope supporting those claims.",
       "ledger": "ai_docs/games/recom/research-resolution-2026-10-01.md"
     },

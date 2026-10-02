@@ -169,12 +169,26 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
   expect(sleights.records.filter(r=>r.recipeAlternatives.length)).toHaveLength(92);
   expect(byName('Zantetsuken').recipeAlternatives[0]).toMatchObject({valueTotal:{comparison:'one-of',values:[0,27]}});
   expect(byName('Sliding Dash').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-same'});
-  expect(byName('Blitz').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-different'});
+  expect(byName('Blitz').recipeAlternatives[0]).toMatchObject({attackIdentityConstraint:'all-different',ordered:false});
   expect(byName('Stardust Blitz').recipeAlternatives[0].slots).toEqual([{card:'Donald Duck'},{card:'Fire'}]);
   expect(byName('Trinity Limit').recipeAlternatives).toHaveLength(5);
+  const wildOrder=[{card:'Goofy'},{card:'Donald Duck'},{family:'attack'}];
+  expect(byName('Wild Crush').recipeAlternatives[0].slots).toEqual(wildOrder);
+  expect(byName('Trinity Limit').recipeAlternatives.map(a=>a.slots)).not.toContainEqual(wildOrder);
+  expect(recomEntries.find(e=>e.name==='Cura')!.notes?.find(n=>n.title==='Card order')?.text).toContain('non-Cure card first');
   expect(recomEntries.find(e=>e.name==='Trinity Limit')!.recipeAlternatives).toEqual(byName('Trinity Limit').recipeAlternatives);
   expect(byName('Impulse')).toMatchObject({activation:{kind:'duel-victory',breakCount:3},recipeAlternatives:[]});
   for(const r of sleights.records){expect(r.effect,r.id).toBeTruthy();if(r.recipeAlternatives.length)expect(r.thirdCardPrecedence).toBeNull();}
+ });
+ it('keeps published duration qualifications and finite summon limits in runtime',()=>{
+  const entry=(name:string)=>recomEntries.find(e=>e.name===name)!;
+  expect(entry('Mushu').notes?.find(n=>n.title==='Battle effect')?.text).toContain('shot allowance');
+  expect(entry('Splash Lv3').notes?.find(n=>n.title==='Effect')?.text).toContain('about 10 seconds');
+  expect(entry('Bambi').notes?.find(n=>n.title==='Use details')?.text).toContain('three hops plus a final landing');
+  expect(otherCards.records.find(r=>r.name==='Bambi')!.orbOutput).toMatchObject({hops:3,releaseEvents:4,orbsPerRelease:3});
+  const timed=[...otherCards.records,...sleights.records].filter(r=>'durationSeconds' in r);
+  expect(timed).toHaveLength(18);
+  for(const r of timed)expect(r).toMatchObject({durationPrecision:'approximate',durationEdition:'Japanese PS2 remake publication; not Steam measured'});
  });
  it('keeps complete progression caps, deferred-choice opportunities and EXP boundaries',()=>{
   expect(progression.records).toHaveLength(99);

@@ -3,7 +3,7 @@
   "edition": "HD 1.5 + 2.5 ReMIX; Steam baseline",
   "researchDate": "2026-09-28",
   "status": "Source-backed implemented journal reference; not independently gameplay-verified",
-  "notes": "All 30 Sora farm targets have a suggested world/room, encounter entry, finish condition, retry path and fallback. These are source-backed routes, not guaranteed drops or a complete spawn database. Independent rate corroboration remains COM-005.",
+  "notes": "All 30 Sora farm targets have a suggested world/room, encounter entry, finish condition, retry path and fallback. These are source-backed routes, not guaranteed drops or a complete spawn database. All 30 rates match the original remake Ultimania tables; Steam probabilities have not been measured or extracted.",
   "records": [
     {
       "id": "recom-farm-shadow",
@@ -19,7 +19,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Shadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterExceptions": [
         {
           "world": "Atlantica",
@@ -44,7 +44,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-soldier",
@@ -60,7 +71,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterExceptions": [
         {
           "world": "Neverland",
@@ -76,7 +87,9 @@
       ],
       "sources": [
         "https://www.khwiki.com/Soldier",
-        "https://www.khwiki.com/Crescendo"
+        "https://www.khwiki.com/Crescendo",
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Traverse Town",
@@ -95,6 +108,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -111,7 +131,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Powerwild",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Olympus Coliseum",
         "room": "Sleeping Darkness",
@@ -130,7 +150,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-bouncywild",
@@ -146,7 +177,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bouncywild",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 367, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Olympus Coliseum",
         "room": "Sleeping Darkness",
@@ -165,7 +196,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "page": 367,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18592-kh2fm_ultimania_367/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-large-body",
@@ -181,7 +223,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Large_Body",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Monstro",
         "room": "Sleeping Darkness",
@@ -200,7 +242,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-fat-bandit",
@@ -216,7 +269,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Fat_Bandit",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Agrabah",
         "room": "Sleeping Darkness",
@@ -235,7 +288,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-sea-neon",
@@ -251,7 +315,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Sea_Neon",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Atlantica",
         "room": "Sleeping Darkness",
@@ -270,7 +334,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-bandit",
@@ -286,7 +361,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Bandit",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Agrabah",
         "room": "Sleeping Darkness",
@@ -305,7 +380,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-pirate",
@@ -321,7 +407,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Neverland",
         "room": "Sleeping Darkness",
@@ -331,7 +417,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Neverland",
@@ -350,6 +438,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -366,7 +461,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Red_Nocturne",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Traverse Town",
         "room": "Sleeping Darkness",
@@ -385,7 +480,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-blue-rhapsody",
@@ -401,7 +507,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Blue_Rhapsody",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Traverse Town",
         "room": "Sleeping Darkness",
@@ -411,7 +517,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Traverse Town",
@@ -430,6 +538,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -446,7 +561,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Yellow_Opera",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Agrabah",
         "room": "Sleeping Darkness",
@@ -465,7 +580,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-green-requiem",
@@ -481,7 +607,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Green_Requiem",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Agrabah",
         "room": "Sleeping Darkness",
@@ -500,7 +626,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wizard",
@@ -516,7 +653,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wizard",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Castle Oblivion",
         "room": "Sleeping Darkness",
@@ -535,7 +672,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-air-soldier",
@@ -551,7 +699,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Soldier",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Monstro",
         "room": "Sleeping Darkness",
@@ -561,7 +709,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Monstro",
@@ -580,6 +730,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -596,7 +753,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Barrel_Spider",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 368, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "rngRoute": {
         "world": "Monstro",
         "room": "Sleeping Darkness",
@@ -630,7 +787,18 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
-      }
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "page": 368,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18541-kh2fm_ultimania_368/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wight-knight",
@@ -646,7 +814,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wight_Knight",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Halloween Town",
         "room": "Sleeping Darkness",
@@ -665,7 +833,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-air-pirate",
@@ -681,7 +860,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Air_Pirate",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Neverland",
         "room": "Sleeping Darkness",
@@ -691,7 +870,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Neverland",
@@ -710,6 +891,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -726,7 +914,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Gargoyle",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Halloween Town",
         "room": "Sleeping Darkness",
@@ -745,7 +933,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-search-ghost",
@@ -761,7 +960,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Search_Ghost",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Monstro",
         "room": "Sleeping Darkness",
@@ -771,7 +970,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Monstro",
@@ -790,6 +991,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -806,7 +1014,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Aquatank",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Atlantica",
         "room": "Sleeping Darkness",
@@ -825,7 +1033,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-screwdiver",
@@ -841,7 +1060,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Screwdiver",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Atlantica",
         "room": "Sleeping Darkness",
@@ -860,7 +1079,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-wyvern",
@@ -876,7 +1106,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Wyvern",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Hollow Bastion",
         "room": "Sleeping Darkness",
@@ -886,7 +1116,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Hollow Bastion",
@@ -905,6 +1137,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -921,7 +1160,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Defender",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Hollow Bastion",
         "room": "Sleeping Darkness",
@@ -931,7 +1170,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Hollow Bastion",
@@ -950,6 +1191,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -962,7 +1210,7 @@
       "specialRoom": "White Room",
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/White_Mushroom",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "successRule": "Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply.",
       "successSources": [
         "https://www.khwiki.com/White_Mushroom",
@@ -999,7 +1247,18 @@
           "https://www.khwiki.com/Warp"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-black-fungus",
@@ -1011,7 +1270,7 @@
       "specialRoom": "Black Room",
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Black_Fungus",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "successRule": "Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used.",
       "successSources": [
         "https://www.khwiki.com/Black_Fungus",
@@ -1036,7 +1295,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-creeper-plant",
@@ -1052,7 +1322,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Creeper_Plant",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "farmRoute": {
         "world": "Wonderland",
         "room": "Sleeping Darkness",
@@ -1071,7 +1341,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 2,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-tornado-step",
@@ -1087,7 +1368,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Tornado_Step",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 369, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "rngRoute": {
         "world": "Hollow Bastion",
         "room": "Strong Initiative",
@@ -1116,7 +1397,18 @@
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
       },
-      "guidance": []
+      "guidance": [],
+      "rateEvidence": {
+        "publishedRemakePercent": 4,
+        "source": "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "page": 369,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
+      },
+      "sources": [
+        "https://www.kh13.com/gallery/image/18554-kh2fm_ultimania_369/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
+      ]
     },
     {
       "id": "recom-farm-crescendo",
@@ -1132,7 +1424,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Crescendo",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "guidance": [
         {
           "title": "Summoned enemies",
@@ -1140,7 +1432,9 @@
         }
       ],
       "sources": [
-        "https://www.khwiki.com/Crescendo"
+        "https://www.khwiki.com/Crescendo",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Destiny Islands",
@@ -1159,6 +1453,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "page": 370,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     },
     {
@@ -1175,7 +1476,7 @@
       "specialRoom": null,
       "selectionRule": "Target must be the final enemy defeated for the battle-end enemy-card roll.",
       "source": "https://www.khwiki.com/Neoshadow",
-      "verification": "Re:CoM-specific infobox; source-inspected, not independent rate validation",
+      "verification": "Published remake rate corroborated against Final Mix+ Ultimania, p. 370, and the edition-selected wiki. Not measured or extracted from a Steam executable.",
       "encounterLead": {
         "world": "Castle Oblivion",
         "room": "Sleeping Darkness",
@@ -1185,7 +1486,9 @@
       },
       "guidance": [],
       "sources": [
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/"
       ],
       "farmRoute": {
         "world": "Castle Oblivion",
@@ -1204,6 +1507,13 @@
           "https://www.khwiki.com/Enemy_Card",
           "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
         ]
+      },
+      "rateEvidence": {
+        "publishedRemakePercent": 3,
+        "source": "https://www.kh13.com/gallery/image/18585-kh2fm_ultimania_370/",
+        "page": 370,
+        "edition": "Japanese PS2 Re:Chain of Memories (2007)",
+        "steamMeasurement": false
       }
     }
   ],
@@ -1226,5 +1536,13 @@
       "Per-recipe Steam determinism"
     ],
     "notClaimed": "No independent game execution or fixed attempt count."
+  },
+  "rateCorroboration": {
+    "date": "2026-10-02",
+    "status": "Published remake baseline corroborated for all 30 rows",
+    "report": "research-com-005-007-2026-10-02.md",
+    "multiplier": 2.5,
+    "multiplierSource": "https://www.kh13.com/gallery/image/18597-kh2fm_ultimania_380/",
+    "independenceBoundary": "Direct inspection of the primary published table, not another wiki copy. The wiki may derive from the same book; this is not independent experimental measurement. The book predates HD/Steam."
   }
 }

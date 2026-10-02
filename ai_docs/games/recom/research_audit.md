@@ -4,13 +4,15 @@ Audit date: **2026-10-01**. Repository baseline: **f933ab1**, branch `research/a
 
 The September 28 closure is authoritative where it supersedes older notes: **431 runtime entries; 152 Sora and 59 Riku card types; 44 ten-value CP matrices / 440 numeric cells; 37 Premium costs; seven resolved enemy CP disputes; 25 event-floor records; 41 finite reward claims**. Recounted from current JSON/runtime data. These domains are not open merely because earlier documents call them partial.
 
+Latest evidence: [COM-005–007 primary-reference pass](research-com-005-007-2026-10-02.md). The current register supersedes earlier dated investigation outcomes below.
+
 ## Method, coverage and counts (original baseline)
 
 Read all 16 research JSON files and eight pre-existing Markdown files in `ai_docs/games/recom/`; the specification, readiness workbook, September 28 research report, every chronological implementation section, UI design/reference workbook and both UI JSON manifests; `tools/content/build-recom.mjs`, `src/games/recom.ts`, generated `src/games/recom/ui-data.json`, `src/journal/RecomJournal.tsx`, its stylesheet, unit/browser tests and relevant shared-document mentions. Parsed every JSON object, compared field coverage and null/empty values, enumerated repeated record-level caveats, traced source-to-runtime transformations, and reconciled old statements with current records. Repository-wide Re:CoM/Chain-of-Memories searches supplied shared cross-references. No external sources were opened or game facts newly certified.
 
 **32 deduplicated findings at baseline:** 18 factual research/extraction gaps (COM-001–018; COM-005 is a narrow corroboration limitation, not a demand for measured gameplay), two integration/provenance gaps (COM-019–020), eight resolved/historical groups (COM-021–028), three non-factual limitation groups (COM-029–031), and one current presentation/caveat-propagation defect (COM-032). Repeated occurrences do not increase this count. Appendices enumerate records and lexical occurrences separately; a record may belong to multiple findings.
 
-**Current status — October 2:** 18 closed (15 supported, one false gap and two product-scope decisions), nine partial, two open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+**Current status — October 2:** 19 closed (16 supported, one false gap and two product-scope decisions), 10 partial, zero open, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
 
 The [practical coverage closure](farm-coverage-closure-2026-10-02.md) supersedes the COM-001–003 partial statuses.
 
@@ -30,9 +32,9 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 | COM-002 | Closed, product scope | Twelve presets, corridor applicability, boss retention and Dark Mode inventory guidance meet the player need. Exact scripted inventories and insertion order are optional research per user scope decision. |
 | COM-003 | Closed, practical coverage | All 30 Sora targets have a sourced world/room, encounter hint, finish condition, retry path and fallback in runtime. Special rooms, props, later waves and Soldier conflict are handled. Exhaustive spawn tables are optional research. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
-| COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
-| COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
-| COM-007 | Partial | All 98 effects/92 stock recipes/six duel activations retained; three HD two-card-plus-Item examples now reach runtime. General overlapping/extra-card precedence remains unknown. |
+| COM-005 | Closed, published remake evidence | All 30 base rates match directly inspected Final Mix+ Ultimania pp. 367–370; p. 380 confirms final-target selection and the 2.5× room multiplier. Published-baseline corroboration is complete; no Steam probability measurement or executable extraction is claimed. |
+| COM-006 | Partial | All 83 ordinary Sora names and their order match the printed remake Status list and a Steam community checklist. Original remake order is supported; unmodded Steam menu capture, exact achievement predicate and Riku native ordering remain unestablished. |
+| COM-007 | Partial | Primary remake guidance supports unordered pure-Attack ingredients, five Trinity Limit orders versus Wild Crush, a spare card before two Cures, and a third card after Goofy + Attack. Existing three-card priority remains; middle-slot insertion and general competing-pair evaluation remain unproved. |
 | COM-008 | Partial | Steam firsthand chapter-skipping and character-file completion observations recorded. Minimum flags, restart and save-transfer semantics remain unknown. |
 | COM-009 | Partial | All 17 named Bounty priorities and clear gates retained. Precise save-loading/system-clear sequence and ineligible/exhausted unique-reward fallback remain unproved. |
 | COM-010 | Closed, supported | All 47 Steam API names explicitly recovered from individual indexed SteamDB requirement/game/key associations and propagated to runtime. No order/percentage inference; trigger implementation remains COM-011. |
@@ -42,7 +44,7 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 | COM-014 | Partial | 59 combat records/379 floor rows/24 boss decks retained; early Ansem tutorial and Zexion tactics integrated. Ordered decks, full encounter/frame coverage and quarantined stat/duel conflicts remain. |
 | COM-015 | Partial | All six start/return routes and initial objectives now have canonical records. Third-and-later replay reward behavior is not specified by consulted sources. |
 | COM-016 | Closed, supported | All eight friend availability entries checked; exact Pluto thresholds/chance and Donald/Goofy/Peter Pan story windows integrated. |
-| COM-017 | Partial | Dumbo base/Splash Lv2 durations, Splash Lv3 power and Bambi orb quantities added. Exact Bambi/Goofy base durations and unlisted higher-tier durations remain unproved. |
+| COM-017 | Partial | Published approximate durations recovered for Stop, Splash, Twinkle, Flare Breath, Goofy Tornado and Hummingbird at all tiers. Bambi corrected to three hops plus final landing/four orb releases. Exact timing boundaries and Bambi elapsed seconds remain unstated; no Steam measurement claimed. |
 | COM-018 | Closed, false gap | Resistance-only Ansem player card is correct for Re:CoM. Concealment is original CoM Link Mode; enemy Ansem's use is separate. |
 | COM-019 | Closed, supported | All 13 Riku unlock/form requirements and six duel initiation requirements reach generated entries. |
 | COM-020 | Partial | All baseline missing URLs retain dated outcomes; additional indexed GameFAQs 56913/modern TrueTrophies text recovered with separate provenance. Original September 28 inspection metadata cannot be reconstructed. |

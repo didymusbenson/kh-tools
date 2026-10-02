@@ -74,11 +74,11 @@ This classification covers **all 208 existing audit families**, including closed
 
 | Primary work | Closed | Partial | Unresolved/conflicted | Other limitations | Total |
 |---|---:|---:|---:|---:|---:|
-| Game factual research and supporting evidence | 96 | 73 | 12 | 8 | 189 |
+| Game factual research and supporting evidence | 100 | 72 | 9 | 8 | 189 |
 | App development, content integration, design and acceptance | 13 | 0 | 0 | 6 | 19 |
-| Total | 109 | 73 | 12 | 14 | 208 |
+| Total | 113 | 72 | 9 | 14 | 208 |
 
-The game side contains **85 partial/unresolved evidence families** (five KH1 families deferred and one dropped, leaving 79 active families outside KH1), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 109 closed count.
+The game side contains **81 partial/unresolved evidence families** (five KH1 families deferred and one dropped, leaving 75 active families outside KH1), plus six evidence/provenance/platform limitations and two excluded-content scope records. The app side contains **six remaining implementation/design/acceptance families** in this register. These are family counts, not estimates of effort or every task in the wider app backlog. The 13 closed app families were previously included in the aggregate 109 closed count.
 
 Mixed families have one primary assignment based on the question being resolved; the original wording and related factual IDs remain in the register. This does not split one family into multiple counted tasks or change any factual disposition. Game save behavior, achievement counters and native Steam controls stay under game research; our app saved state, controls and acceptance stay under app development.
 
@@ -121,3 +121,5 @@ Evidence/provenance/platform records: `BBS-033`, `BBS-034`, `COM-029`, `KH2-036`
 KH1-015 subsequently closed for practical needs by user decision on 2026-10-02: guaranteed matching answer sets plus departure confirmation suffice; mixed-answer edge cases are outside scope. Current totals include this scope closure, not new verification of the mixed-answer table.
 
 KH1-002 is now closed with first-cutscene unlock evidence. Practical integration of 014/018/020 is complete, with residual precision/provenance deferred. [Current KH1 integration](../games/kh1fm/research-integration-2026-10-02.md).
+
+October 2 Re:CoM checkpoint reconciliation: COM-001–003 closure and [COM-005–007 primary evidence](../games/recom/research-com-005-007-2026-10-02.md) are reflected in the classification totals. Original statuses remain historical in the JSON register.

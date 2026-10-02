@@ -381,7 +381,8 @@
         "https://www.khwiki.com/Magic_Card",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://www.khwiki.com/Stop"
+        "https://www.khwiki.com/Stop",
+        "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/"
       ],
       "randomSources": {
         "Field drop": {
@@ -422,8 +423,13 @@
         "Mog": 10.0
       },
       "effect": "Temporarily stops enemies. Two cards cast Stopra; three cast Stopga.",
-      "useParameters": "Base duration: 3 seconds on susceptible enemies.",
-      "effectSource": "https://www.khwiki.com/Stop"
+      "useParameters": "Base duration: about 3 seconds on susceptible enemies.",
+      "effectSource": "https://www.khwiki.com/Stop",
+      "durationSeconds": 3,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18631-kh2fm_ultimania_395/",
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 395; no Steam timing measurement."
     },
     {
       "id": "recom-card-magic-aero",
@@ -665,7 +671,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Bambi",
         "https://www.khwiki.com/Paradise",
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
       ],
       "randomSources": {
         "Field drop": {
@@ -706,15 +713,17 @@
         "Mog": 16.0
       },
       "effect": "Drops healing orbs while running. Stacking improves healing.",
-      "useParameters": "Drops 12 small HP orbs in four jumps (3 orbs per jump, 3 HP per orb); contact power 0.1× per hit.",
-      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
+      "useParameters": "Drops 12 small HP orbs: three hops plus a final landing, with 3 orbs at each of the four releases (3 HP per orb); contact power 0.1× per hit.",
+      "durationEvidence": "Ultimania p. 401 supplies three hops plus final landing, not an elapsed-second count.",
       "effectSource": "https://www.khwiki.com/Paradise",
       "orbOutput": {
-        "jumps": 4,
-        "orbsPerJump": 3,
         "hpPerOrb": 3,
         "source": "https://kingdomhearts.fandom.com/wiki/Summon_cards",
-        "edition": "Re:Chain of Memories remake"
+        "edition": "Re:Chain of Memories remake",
+        "hops": 3,
+        "releaseEvents": 4,
+        "orbsPerRelease": 3,
+        "actionSequenceSource": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
       }
     },
     {
@@ -745,7 +754,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Dumbo",
         "https://www.khwiki.com/Splash",
-        "https://kingdomhearts.fandom.com/wiki/Summon_cards"
+        "https://kingdomhearts.fandom.com/wiki/Summon_cards",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
       ],
       "randomSources": {
         "Field drop": {
@@ -785,11 +795,14 @@
         "Black": 3.0,
         "Mog": 0
       },
-      "effect": "Sprays an ice-element stream. Stacking extends its duration.",
-      "useParameters": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts 5 seconds.",
-      "durationEvidence": "Fandom Summon cards, explicitly remake-selected Dumbo section; indexed full section inspected 2026-10-01. Community reference, not independent Steam execution.",
+      "effect": "Sprays an ice-element stream. One card lasts about 5 seconds; two or three last about 10 seconds.",
+      "useParameters": "Ice damage, power 1.5× per hit; aim the stream with movement input. A single Dumbo lasts about 5 seconds.",
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 400; no Steam timing measurement.",
       "effectSource": "https://www.khwiki.com/Splash",
-      "durationSeconds": 5
+      "durationSeconds": 5,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
     },
     {
       "id": "recom-card-summon-tinker-bell",
@@ -818,7 +831,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Tinker_Bell",
-        "https://www.khwiki.com/Twinkle"
+        "https://www.khwiki.com/Twinkle",
+        "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/"
       ],
       "randomSources": {
         "Field drop": {
@@ -859,8 +873,13 @@
         "Mog": 16.0
       },
       "effect": "Heals repeatedly for a limited time. Stacking improves healing.",
-      "useParameters": "Lasts 3 seconds; base healing 7% max HP plus 0.5% per repeated reaction input.",
-      "effectSource": "https://www.khwiki.com/Twinkle"
+      "useParameters": "Lasts about 3 seconds; base healing 7% max HP plus 0.5% per repeated reaction input.",
+      "effectSource": "https://www.khwiki.com/Twinkle",
+      "durationSeconds": 3,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18624-kh2fm_ultimania_400/",
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 400; no Steam timing measurement."
     },
     {
       "id": "recom-card-summon-mushu",
@@ -889,7 +908,8 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Mushu",
-        "https://www.khwiki.com/Flare_Breath"
+        "https://www.khwiki.com/Flare_Breath",
+        "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/"
       ],
       "randomSources": {
         "Field drop": {
@@ -929,9 +949,14 @@
         "Black": 10.0,
         "Mog": 16.0
       },
-      "effect": "Breathes fire. Stacking extends its duration.",
-      "useParameters": "Aim manually while stationary; power 1× per fireball. Ends at 11 seconds or 10 shots.",
-      "effectSource": "https://www.khwiki.com/Flare_Breath"
+      "effect": "Breathes fire. Stacking increases the shot allowance: 10, 23 or 35 fireballs, within about 11 seconds.",
+      "useParameters": "Aim manually while stationary; power 1× per fireball. Ends at about 11 seconds or 10 shots.",
+      "effectSource": "https://www.khwiki.com/Flare_Breath",
+      "durationSeconds": 11,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18622-kh2fm_ultimania_401/",
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 401; no Steam timing measurement."
     },
     {
       "id": "recom-card-summon-cloud",
@@ -1544,13 +1569,18 @@
       "verification": "source-inspected candidate",
       "effect": "Spins around Sora, striking with his shield.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Neutral damage, power 1.5× per hit.",
+      "useParameters": "Neutral damage, power 1.5× per hit. Lasts about 3 seconds; stacking two or three Goofy cards gives about 5 or 7 seconds.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
-        "https://www.khwiki.com/Goofy_Tornado"
+        "https://www.khwiki.com/Goofy_Tornado",
+        "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
       ],
-      "durationEvidence": "Consulted technique page supplies qualitative duration but no exact Re:CoM seconds.",
-      "effectSource": "https://www.khwiki.com/Goofy_Tornado"
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 402; no Steam timing measurement.",
+      "effectSource": "https://www.khwiki.com/Goofy_Tornado",
+      "durationSeconds": 3,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18621-kh2fm_ultimania_402/"
     },
     {
       "id": "recom-card-friend-aladdin",
@@ -1617,12 +1647,18 @@
       "verification": "source-inspected candidate",
       "effect": "Dagger attacks; repeated reaction-button presses accelerate attacks and release Moogle Points.",
       "appearanceVerification": "All eight friend unlock/world windows checked against Friend Card remake table, 2026-10-01.",
-      "useParameters": "Lasts 7 seconds; neutral power 2× per hit.",
+      "useParameters": "Lasts about 7 seconds; neutral power 2× per hit.",
       "sources": [
         "https://www.khwiki.com/Friend_Card",
-        "https://www.khwiki.com/Hummingbird"
+        "https://www.khwiki.com/Hummingbird",
+        "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/"
       ],
-      "effectSource": "https://www.khwiki.com/Hummingbird"
+      "effectSource": "https://www.khwiki.com/Hummingbird",
+      "durationSeconds": 7,
+      "durationPrecision": "approximate",
+      "durationEdition": "Japanese PS2 remake publication; not Steam measured",
+      "durationSource": "https://www.kh13.com/gallery/image/18602-kh2fm_ultimania_404/",
+      "durationEvidence": "Approximate duration printed in Final Mix+ Ultimania p. 404; no Steam timing measurement."
     },
     {
       "id": "recom-card-friend-beast",
