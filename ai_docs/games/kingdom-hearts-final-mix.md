@@ -147,10 +147,10 @@ The user accepted the mockup direction and requested a workable KH1 journal plan
 - The workbook is old and may mix original KH, Final Mix, and later collection/platform data.
 - Several descriptions appear copied from external guides and require attribution/licensing review.
 - “SYNTH NEEDED” is likely hand-calculated and may drift from recipe data.
-- The experience chart contains a duplicate level-15 row.
-- Exhaustive treasure and acquisition-route coverage is incomplete. Full narrative Journal tracking is outside the accepted compendium scope.
-- The legacy “Figure out tournaments” note is partly resolved by sourced unlock/variant/reward tables; complete seed and intermediate-reward imports still remain.
-- Energy Bangle has conflicting Spirit Shard quantities in public sources; the recipe reference uses 2 provisionally and flags the resulting total for verification.
+- The legacy experience chart contains a duplicate level-15 row; complete sourced current curves and 99 Sora level rows supersede it.
+- All 535 candidate world rows have dispositions, yielding 471 collection records with text routes; the 306 finite treasure/reward roster is reconciled. Exact residual facts are tracked in the [current audit](kh1fm/research_audit.md). Full narrative Journal tracking remains outside the accepted compendium scope.
+- The legacy tournament note is superseded by 96 current cup records, including seeds and variant/intermediate rewards.
+- Energy Bangle is resolved to two Spirit Shards. Three Stars Defense remains disputed independently of its resolved recipe.
 
 ## Release acceptance criteria
 
@@ -160,4 +160,4 @@ This game is not comprehensive until every scoped collection and completion-goal
 
 Fully spoilerful: no warnings, hiding or reveal controls. No Available Now filter or manual story/ability progress-gate tracker. Item directions still state necessary abilities/access conditions such as High Jump.
 
-User game context is Steam. Test app functionality first on Apple browser, iPhone and iPad; Android follows. No user gameplay or playthrough verification gate. Follow [testing and content validation](../testing-and-content-validation.md); source conflicts remain research work.
+User game context is Steam. Initial app acceptance targets are desktop Chrome and iPhone 17; Android follows. No user gameplay or playthrough verification gate. Follow [testing and content validation](../testing-and-content-validation.md); source conflicts remain research work.

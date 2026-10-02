@@ -30888,7 +30888,7 @@
     "category": "guide",
     "name": "Secret ending — Another side, Another story",
     "summary": "Unlock the original secret movie under Final Mix rules.",
-    "instructions": "Finish the game after meeting the condition for your difficulty: Standard (Final Mix) requires all Keyholes sealed and all 99 puppies rescued; Proud requires finishing the game. Beginner cannot unlock this movie. If Deep Dive requirements are satisfied, that movie replaces the shorter one. Steam includes a separate KH1 Theater Mode available from the collection menu without progressing a KH1 save, according to release-day Steam reports. Watching there does not satisfy the save's ending conditions above. Those reports cover the general theater collection but do not separately enumerate availability of each secret movie.",
+    "instructions": "Finish the game after meeting the condition for your difficulty: Standard (Final Mix) requires all Keyholes sealed and all 99 puppies rescued; Proud requires finishing the game. Beginner cannot unlock this movie. If Deep Dive requirements are satisfied, that movie replaces the shorter one. The collection-menu KH1 Theater includes both Another side, Another story and Deep Dive without satisfying those gameplay unlock conditions, including in the PC release. Steam launch reports also establish that the separate Theater is available before progressing a KH1 save. Watching either movie there does not satisfy the save's ending conditions above.",
     "tags": [
       "guide",
       "secret-ending",
@@ -30905,6 +30905,11 @@
         "label": "Steam — KH1 Theater available on a fresh game",
         "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229748853049069/",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "KHWiki — explicit both-secret-movies Theater availability, including PC (revision 921936)",
+        "url": "https://www.khwiki.com/index.php?title=Another_side,_Another_story...&oldid=921936",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -30915,7 +30920,7 @@
       "beginner": "Unavailable",
       "standard": "All Keyholes; 99 puppies",
       "proud": "Complete the game",
-      "Theater availability": "Separate collection-menu mode; general cutscenes available independently of save progression (Steam reports)."
+      "Theater availability": "Both secret movies are available in the separate collection-menu Theater without gameplay unlock conditions (HD collection, including PC)."
     }
   },
   {
@@ -30924,7 +30929,7 @@
     "category": "guide",
     "name": "Secret ending — Deep Dive",
     "summary": "Unlock the extended Final Mix secret movie.",
-    "instructions": "On Standard (Final Mix), complete Jiminy’s Journal before finishing the game. On Proud, seal every Keyhole and clear the Hades Cup before finishing. Beginner cannot unlock this movie. Deep Dive replaces the shorter secret movie when its conditions are met. Steam includes a separate KH1 Theater Mode available from the collection menu without progressing a KH1 save, according to release-day Steam reports. Watching there does not satisfy the save's ending conditions above. Those reports cover the general theater collection but do not separately enumerate availability of each secret movie.",
+    "instructions": "On Standard (Final Mix), complete Jiminy’s Journal before finishing the game. On Proud, seal every Keyhole and clear the Hades Cup before finishing. Beginner cannot unlock this movie. Deep Dive replaces the shorter secret movie when its conditions are met. The collection-menu KH1 Theater includes both Another side, Another story and Deep Dive without satisfying those gameplay unlock conditions, including in the PC release. Steam launch reports also establish that the separate Theater is available before progressing a KH1 save. Watching either movie there does not satisfy the save's ending conditions above.",
     "tags": [
       "guide",
       "secret-ending",
@@ -30943,6 +30948,11 @@
         "label": "Steam — KH1 Theater available on a fresh game",
         "url": "https://steamcommunity.com/app/2552430/discussions/0/6364229748853049069/",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "KHWiki — explicit both-secret-movies Theater availability, including PC (revision 921936)",
+        "url": "https://www.khwiki.com/index.php?title=Another_side,_Another_story...&oldid=921936",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -30953,7 +30963,7 @@
       "beginner": "Unavailable",
       "standard": "Complete Jiminy’s Journal",
       "proud": "All Keyholes; Hades Cup",
-      "Theater availability": "Separate collection-menu mode; general cutscenes available independently of save progression (Steam reports)."
+      "Theater availability": "Both secret movies are available in the separate collection-menu Theater without gameplay unlock conditions (HD collection, including PC)."
     }
   },
   {
@@ -31097,6 +31107,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_001 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31106,11 +31121,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Finish the game on Proud.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_001",
+      "requirement": "Finish the game on Proud."
+    }
   },
   {
     "id": "kh1fm-achievement-final-mix-master",
@@ -31145,6 +31158,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_002 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31154,9 +31172,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Complete the game on Standard (Final Mix) or Proud.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_002",
+      "requirement": "Complete the game on Standard (Final Mix) or Proud."
     }
   },
   {
@@ -31192,6 +31209,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_003 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31201,10 +31223,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_003",
       "requirement": "Complete the game on Beginner, Standard (Final Mix) or Proud.",
-      "steamDescription": "Clear game on Final Mix: Beginner or a higher difficulty level.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Clear game on Final Mix: Beginner or a higher difficulty level."
     }
   },
   {
@@ -31272,6 +31293,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_004 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31281,10 +31307,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_004",
       "requirement": "Clear the game without changing equipment.",
-      "steamDescription": "Clear the game without changing equipment.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Clear the game without changing equipment."
     },
     "missability": "Run-wide restriction; plan before starting."
   },
@@ -31353,6 +31378,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_005 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31362,12 +31392,10 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear the game without using a continue.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_005",
+      "requirement": "Clear the game without using a continue."
     },
-    "missability": "Run-wide restriction; plan before starting.",
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+    "missability": "Run-wide restriction; plan before starting."
   },
   {
     "id": "kh1fm-achievement-speedster",
@@ -31434,6 +31462,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_006 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31443,9 +31476,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat the World of Chaos in the End of the World within 15 hours.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_006",
+      "requirement": "Defeat the World of Chaos in the End of the World within 15 hours."
     },
     "missability": "Run-wide restriction; plan before starting."
   },
@@ -31484,6 +31516,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_007 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31493,9 +31530,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat the Mysterious Man in Hollow Bastion.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_007",
+      "requirement": "Defeat the Mysterious Man in Hollow Bastion."
     }
   },
   {
@@ -31533,6 +31569,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_008 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31542,9 +31583,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat the Phantom at the Clock Tower.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_008",
+      "requirement": "Defeat the Phantom at the Clock Tower."
     }
   },
   {
@@ -31582,6 +31622,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_009 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31591,9 +31636,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat Kurt Zisa in Agrabah.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_009",
+      "requirement": "Defeat Kurt Zisa in Agrabah."
     }
   },
   {
@@ -31631,6 +31675,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_010 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31640,11 +31689,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear the Phil Cup.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_010",
+      "requirement": "Clear the Phil Cup."
+    }
   },
   {
     "id": "kh1fm-achievement-artisan-hero",
@@ -31681,6 +31728,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_011 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31690,11 +31742,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear the Pegasus Cup.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_011",
+      "requirement": "Clear the Pegasus Cup."
+    }
   },
   {
     "id": "kh1fm-achievement-hero-of-the-coliseum",
@@ -31731,6 +31781,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_012 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31740,11 +31795,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear the Hercules Cup.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_012",
+      "requirement": "Clear the Hercules Cup."
+    }
   },
   {
     "id": "kh1fm-achievement-coliseum-champion",
@@ -31781,6 +31834,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_013 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31790,11 +31848,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear the Hades Cup.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_013",
+      "requirement": "Clear the Hades Cup."
+    }
   },
   {
     "id": "kh1fm-achievement-the-frosty-giant",
@@ -31831,6 +31887,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_014 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31840,9 +31901,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat the Ice Titan in the Gold Match at Olympus Coliseum.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_014",
+      "requirement": "Defeat the Ice Titan in the Gold Match at Olympus Coliseum."
     }
   },
   {
@@ -31880,6 +31940,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_015 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31889,11 +31954,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat Sephiroth in the Platinum Match at Olympus Coliseum.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_015",
+      "requirement": "Defeat Sephiroth in the Platinum Match at Olympus Coliseum."
+    }
   },
   {
     "id": "kh1fm-achievement-supreme-soloist",
@@ -31933,6 +31996,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_016 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31942,9 +32010,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Complete any solo challenge.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_016",
+      "requirement": "Complete any solo challenge."
     }
   },
   {
@@ -31985,6 +32052,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_017 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -31994,9 +32066,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Complete any time trial challenge.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_017",
+      "requirement": "Complete any time trial challenge."
     }
   },
   {
@@ -32032,6 +32103,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_018 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32041,11 +32117,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Reach level 100 with Sora.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_018",
+      "requirement": "Reach level 100 with Sora."
+    }
   },
   {
     "id": "kh1fm-achievement-treasure-hunter",
@@ -32080,6 +32154,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_019 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32089,11 +32168,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Open 100 treasure chests.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_019",
+      "requirement": "Open 100 treasure chests."
+    }
   },
   {
     "id": "kh1fm-achievement-from-rags-to-riches",
@@ -32128,6 +32205,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_020 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32137,9 +32219,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Hold over 10 thousand munny.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_020",
+      "requirement": "Hold over 10 thousand munny."
     }
   },
   {
@@ -32175,6 +32256,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_021 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32184,9 +32270,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Defeat over 2,000 Heartless.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_021",
+      "requirement": "Defeat over 2,000 Heartless."
     }
   },
   {
@@ -32222,6 +32307,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_022 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32231,10 +32321,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_022",
       "requirement": "Seal the Keyhole in Traverse Town.",
-      "steamDescription": "Seal the keyhole in Traverse Town.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Traverse Town."
     }
   },
   {
@@ -32270,6 +32359,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_023 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32279,10 +32373,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_023",
       "requirement": "Seal the Keyhole in Wonderland.",
-      "steamDescription": "Seal the keyhole in Wonderland.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Wonderland."
     }
   },
   {
@@ -32318,6 +32411,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_024 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32327,10 +32425,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_024",
       "requirement": "Seal the Keyhole in Olympus Coliseum.",
-      "steamDescription": "Seal the keyhole in Olympus Coliseum.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Olympus Coliseum."
     }
   },
   {
@@ -32366,6 +32463,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_025 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32375,10 +32477,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_025",
       "requirement": "Seal the Keyhole in Deep Jungle.",
-      "steamDescription": "Seal the keyhole in Deep Jungle.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Deep Jungle."
     }
   },
   {
@@ -32414,6 +32515,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_026 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32423,10 +32529,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_026",
       "requirement": "Seal the Keyhole in Agrabah.",
-      "steamDescription": "Seal the keyhole in Agrabah.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Agrabah."
     }
   },
   {
@@ -32462,6 +32567,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_027 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32471,10 +32581,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_027",
       "requirement": "Escape from Monstro.",
-      "steamDescription": "Escape from Monstro.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Escape from Monstro."
     }
   },
   {
@@ -32510,6 +32619,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_028 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32519,10 +32633,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_028",
       "requirement": "Seal the Keyhole in Atlantica.",
-      "steamDescription": "Seal the keyhole in Atlantica.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Atlantica."
     }
   },
   {
@@ -32558,6 +32671,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_029 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32567,10 +32685,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_029",
       "requirement": "Seal the Keyhole in Halloween Town.",
-      "steamDescription": "Seal the keyhole in Halloween Town.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Halloween Town."
     }
   },
   {
@@ -32606,6 +32723,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_030 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32615,10 +32737,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_030",
       "requirement": "Seal the Keyhole in Never Land.",
-      "steamDescription": "Seal the keyhole in Never Land.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in Never Land."
     }
   },
   {
@@ -32654,6 +32775,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_031 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32663,9 +32789,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Seal the Keyhole in Hollow Bastion.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_031",
+      "requirement": "Seal the Keyhole in Hollow Bastion."
     }
   },
   {
@@ -32701,6 +32826,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_032 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32710,10 +32840,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_032",
       "requirement": "Seal the Keyhole in the 100 Acre Wood.",
-      "steamDescription": "Seal the keyhole in 100 Acre Wood.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Seal the keyhole in 100 Acre Wood."
     }
   },
   {
@@ -32749,6 +32878,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_033 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32758,10 +32892,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_033",
       "requirement": "Complete the collection of Jiminy's Journal entries.",
-      "steamDescription": "Collect all Jiminy's Journal entries.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Collect all Jiminy's Journal entries."
     }
   },
   {
@@ -32797,6 +32930,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_034 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32806,10 +32944,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_034",
       "requirement": "Complete the collection of Story entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Story entries in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Collect all Story entries in Jiminy's Journal."
     }
   },
   {
@@ -32845,6 +32982,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_035 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32854,11 +32996,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Complete the collection of Ansem Reports in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_035",
+      "requirement": "Complete the collection of Ansem Reports in Jiminy's Journal."
+    }
   },
   {
     "id": "kh1fm-achievement-professor",
@@ -32893,6 +33033,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_036 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32902,11 +33047,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Complete the collection of Character entries in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_036",
+      "requirement": "Complete the collection of Character entries in Jiminy's Journal."
+    }
   },
   {
     "id": "kh1fm-achievement-top-dog",
@@ -32941,6 +33084,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_037 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32950,10 +33098,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_037",
       "requirement": "Complete the collection of 101 Dalmatian entries in Jiminy's Journal.",
-      "steamDescription": "Collect all 101 Dalmatian entries in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Collect all 101 Dalmatian entries in Jiminy's Journal."
     }
   },
   {
@@ -32989,6 +33136,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_038 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -32998,10 +33150,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_038",
       "requirement": "Complete the collection of Trinity List entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Trinity List entries in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Collect all Trinity List entries in Jiminy's Journal."
     }
   },
   {
@@ -33064,6 +33215,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_039 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33073,10 +33229,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_039",
       "requirement": "Complete the collection of Mini-game entries in Jiminy's Journal.",
-      "steamDescription": "Collect all Mini-game entries in Jiminy's Journal.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Collect all Mini-game entries in Jiminy's Journal."
     }
   },
   {
@@ -33112,6 +33267,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_040 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33121,10 +33281,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_040",
       "requirement": "Synthesize all items.",
-      "steamDescription": "Synthesize all items.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Synthesize all items."
     }
   },
   {
@@ -33160,6 +33319,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_041 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33169,10 +33333,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_041",
       "requirement": "Synthesize an item for the first time.",
-      "steamDescription": "Synthesize an item for the first time.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Synthesize an item for the first time."
     }
   },
   {
@@ -33208,6 +33371,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_042 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33217,10 +33385,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_042",
       "requirement": "Synthesize 3 types of items.",
-      "steamDescription": "Synthesize 3 types of items.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Synthesize 3 types of items."
     }
   },
   {
@@ -33256,6 +33423,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_043 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33265,10 +33437,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_043",
       "requirement": "Synthesize 15 types of items.",
-      "steamDescription": "Synthesize 15 types of items.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Synthesize 15 types of items."
     }
   },
   {
@@ -33304,6 +33475,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_044 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33313,10 +33489,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_044",
       "requirement": "Synthesize 30 types of items.",
-      "steamDescription": "Synthesize 30 types of items.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Synthesize 30 types of items."
     }
   },
   {
@@ -33401,6 +33576,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_045 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33410,11 +33590,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Own at least 30 Gummi blueprints.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_045",
+      "requirement": "Own at least 30 Gummi blueprints."
+    }
   },
   {
     "id": "kh1fm-achievement-flying-ace",
@@ -33449,6 +33627,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_046 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33458,9 +33641,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Shoot down over 2,500 enemies with your gummi ship",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_046",
+      "requirement": "Shoot down over 2,500 enemies with your gummi ship"
     }
   },
   {
@@ -33496,6 +33678,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_047 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33505,10 +33692,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_047",
       "requirement": "Modify a gummi ship and update the data.",
-      "steamDescription": "Modify a gummi ship and update the data.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Modify a gummi ship and update the data."
     }
   },
   {
@@ -33544,6 +33730,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_048 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33553,11 +33744,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear all gummi ship routes.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_048",
+      "requirement": "Clear all gummi ship routes."
+    }
   },
   {
     "id": "kh1fm-achievement-test-pilot",
@@ -33603,6 +33792,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_049 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33612,10 +33806,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_049",
       "requirement": "Clear gummi ship mission 1.",
-      "steamDescription": "Clear gummi ship mission 1.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Clear gummi ship mission 1."
     }
   },
   {
@@ -33662,6 +33855,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_050 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33671,11 +33869,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear gummi ship mission 2.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_050",
+      "requirement": "Clear gummi ship mission 2."
+    }
   },
   {
     "id": "kh1fm-achievement-ace-pilot",
@@ -33721,6 +33917,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_051 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33730,11 +33931,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Clear gummi ship mission 3.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
-    },
-    "uncertainty": "This name is reused by other games in the Steam package. This record is scoped to KH1 Final Mix by its requirement; a Steam API-key mapping is not available from the public page."
+      "platformApiId": "ACH_051",
+      "requirement": "Clear gummi ship mission 3."
+    }
   },
   {
     "id": "kh1fm-achievement-oathkeeper",
@@ -33769,6 +33968,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_052 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33778,9 +33982,8 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
-      "requirement": "Obtain the Oathkeeper Keyblade.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "platformApiId": "ACH_052",
+      "requirement": "Obtain the Oathkeeper Keyblade."
     }
   },
   {
@@ -33816,6 +34019,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_053 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33825,10 +34033,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_053",
       "requirement": "Obtain all Keyblades.",
-      "steamDescription": "Obtain all Keyblades.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Obtain all Keyblades."
     }
   },
   {
@@ -33864,6 +34071,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_054 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33873,10 +34085,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_054",
       "requirement": "Obtain all staves.",
-      "steamDescription": "Obtain all staves.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Obtain all staves."
     }
   },
   {
@@ -33912,6 +34123,11 @@
         "label": "SteamAchievementViewer — game grouping, not name mapping",
         "url": "https://github.com/joamjoamjoam/SteamAchievementViewer",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "SteamDB indexed ACH_055 condition/key row — checked individually",
+        "url": "https://steamdb.info/app/2552430/stats/",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
@@ -33921,10 +34137,9 @@
       "subtype": "steam-achievement",
       "platform": "Steam",
       "steamAppId": 2552430,
-      "platformApiId": "Name-to-ID mapping unresolved; KH1 group is ACH_001–ACH_055.",
+      "platformApiId": "ACH_055",
       "requirement": "Obtain all shields.",
-      "steamDescription": "Obtain all shields.",
-      "Steam ID evidence": "Public global-percentage API exposes real keys; a community grouping identifies KH1 range. Display-name schema mapping is not available in the captured evidence."
+      "steamDescription": "Obtain all shields."
     }
   },
   {
@@ -34413,7 +34628,7 @@
     "world": "Olympus Coliseum",
     "area": "Coliseum",
     "summary": "Efficient routes for the 20-barrel and 25-barrel tests; keep repeat practice separate from the first-clear reward.",
-    "instructions": "Easy: hit the middle of the first three barrels, a bottom barrel in the four-barrel stack, the bottom center of the six-barrel stack, then a bottom barrel in the next four. Lift and throw one of the last barrels into another. Advanced: clear the four to your left; turn and knock the single barrel toward the two-barrel stack. Throw a survivor toward the raised row of three, then clear that row. On the next level, knock the single toward the four-barrel group and clear the leftovers, then the six-barrel group. Throw the highest loose barrel at the isolated barrel on the elevated platform. Finish the remaining pair at the back with a throw. For practice, improve your own finish time while using the same 30-second and 60-second limits. Thunder is the reward for passing the initial pair of tests. The Journal Mini Games section lists the four cup time trials under Olympus Coliseum, rather than these introductory barrel tests. The tests unlock story progression; a separate persistent replay-time/reward mechanism is not established.",
+    "instructions": "Easy: hit the middle of the first three barrels, a bottom barrel in the four-barrel stack, the bottom center of the six-barrel stack, then a bottom barrel in the next four. Lift and throw one of the last barrels into another. Advanced: clear the four to your left; turn and knock the single barrel toward the two-barrel stack. Throw a survivor toward the raised row of three, then clear that row. On the next level, knock the single toward the four-barrel group and clear the leftovers, then the six-barrel group. Throw the highest loose barrel at the isolated barrel on the elevated platform. Finish the remaining pair at the back with a throw. For practice, improve your own finish time while using the same 30-second and 60-second limits. Thunder is the reward for passing the initial pair of tests. The Journal Mini Games section lists the four cup time trials under Olympus Coliseum, rather than these introductory barrel tests. The tests unlock story progression. The HD collection walkthrough explicitly states that repeat training offers no further reward; it can be replayed to improve your time. A separately saved best-time field outside the Journal is not established.",
     "tags": [
       "guide",
       "minigame",
@@ -34440,17 +34655,23 @@
         "label": "https://www.khguides.com/kh/inventory/journal/",
         "url": "https://www.khguides.com/kh/inventory/journal/",
         "checkedAt": "2026-10-01"
+      },
+      {
+        "label": "TrueAchievements — HD collection Olympus route and no further training reward",
+        "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-15-25-ReMIX/walkthrough/8",
+        "checkedAt": "2026-10-01"
       }
     ],
     "verification": "source-backed",
     "checkable": false,
     "collectible": false,
-    "uncertainty": "The reviewed KH1 sources do not document a separate saved replay-record field, replay reward, or higher target beyond the two initial tests. Practice times are personal goals; no KH2 orb-score requirement is imported.",
+    "uncertainty": "Repeat training has no further reward according to the HD collection walkthrough. A separate saved best-time field outside Jiminy’s Journal remains undocumented; do not confuse personal practice times with a confirmed persistent record or import KH2 orb-score requirements.",
     "facts": {
       "easyBarrels": 20,
       "easyTimeLimitSeconds": 30,
       "advancedBarrels": 25,
-      "advancedTimeLimitSeconds": 60
+      "advancedTimeLimitSeconds": 60,
+      "Replay reward": "None after the initial Thunder reward (HD collection walkthrough)."
     }
   }
 ]

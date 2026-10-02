@@ -49,7 +49,7 @@ Dive to the Heart additionally needs starting-choice and EXP-curve instructions.
 | D08–D10 | 33 normalized recipes, 34 materials, 44 acquisition-relevant enemies, 48 weapons, 54 accessories, 23 general items. All eight audit farming routes supplied. Three Stars Defense remains KH1-001; Bambi's exhaustive exclusions remain KH1-010. |
 | D11–D12 | 99 Sora level rows and full EXP curves, 21 magic acquisition events, six summons. Mixed opening answers remain KH1-015; missing level-matrix warning is obsolete. |
 | D13–D16 | 96 cup records, five endgame bosses plus early sparring, 22 activity/record checks, 30 Gummi missions, 48 blueprints, 80 Gummi parts and seven tools. Concrete four-family build guidance supplied. Exact Vine sequences and Phil replay semantics remain scoped residuals. |
-| D17–D18 | All 55 KH1 Steam goals; manual tracking. Actual API key group found but display-name mapping remains KH1-019. Restricted-run flag details and individual secret-movie Theater availability remain KH1-003/016. |
+| D17–D18 | All 55 KH1 Steam goals; manual tracking. All 55 API keys mapped from individually observed condition/key rows (KH1-019 closed). Restricted-run flag details remain KH1-003; both secret movies’ independent PC Theater availability is now source-backed (KH1-016 closed). |
 | D19 | Shared acquisition IDs and goal/planner links already implemented; broader integration acceptance belongs to root's engineering checks, not an invented missing game fact. |
 
 ## Earlier caveats reconciled

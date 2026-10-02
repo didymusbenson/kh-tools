@@ -274,5 +274,11 @@
       "url": "https://steamdb.info/app/2552430/stats/",
       "result": "HTTP 403 on direct request; search rendering supplies metadata and Loading placeholder, not name-to-ID schema"
     }
-  ]
+  ],
+  "continuation": {
+    "mappedCount": 55,
+    "evidenceFile": "steam-key-continuation-evidence.json",
+    "method": "Individually indexed SteamDB condition/key rows; no percentage/order inference",
+    "directSchemaAccess": "Still unavailable; indexed mirror evidence closes the mapping question without claiming direct Valve schema access"
+  }
 }

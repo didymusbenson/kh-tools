@@ -156,7 +156,7 @@ Verified Final Mix landmarks for reconciling the legacy level table:
 | [Leaf Bracer](https://www.khwiki.com/Leaf_Bracer) | 69 | 27 | 39 |
 | [Second Chance](https://www.khwiki.com/Second_Chance) | 48 | 36 | 90 |
 
-The full level/stat/EXP matrix remains an import-and-reconciliation task. Do not repair the duplicate legacy level-15 row by guessing which value to delete.
+The full level/stat/EXP matrix is imported (99 Sora level rows and complete curves); the legacy duplicate level-15 row is superseded by sourced current data. Mixed-answer curve selection remains KH1-015.
 
 ## Secret ending requirements
 
@@ -170,8 +170,8 @@ Deep Dive replaces the shorter ending when qualified. Collection theater access 
 
 ## Remaining record work
 
-Research now establishes these systems and their key counts/rules. Still required: enumerate and reconcile every puppy group, mark, Report acquisition, collectible access dependency and level row; add exact room routes; check actual modern game behavior. See the [world and coverage audit](world-and-coverage-audit.md). No category may show “complete” merely because its overview exists.
+All puppy groups, marks, Report acquisitions and level rows are normalized; see the [world and coverage audit](world-and-coverage-audit.md). Only the precise residuals in the current audit ledger remain research work. Roster coverage is distinct from every optional metric, and no user playthrough is a gate.
 
 ## Current route and theater additions
 
-The two unopened Halloween Town cage chests now have their post-destruction location: enter Manor Ruins from Bridge and descend into the central hole. Mini-game Maniac has a self-contained seven-base-game plus four-cup-timer registration list. Both secret-ending runtime guides distinguish collection-menu Theater access from save unlocks; fresh-profile availability of each individual secret movie remains KH1-016. All five Slider fruit lines are supplied; exact four-course Vine sequences remain KH1-014.
+The two unopened Halloween Town cage chests now have their post-destruction location: enter Manor Ruins from Bridge and descend into the central hole. Mini-game Maniac has a self-contained seven-base-game plus four-cup-timer registration list. Both secret-ending runtime guides distinguish collection-menu Theater access from save unlocks; explicit modern PC documentary evidence now establishes both movies in Theater without gameplay unlock requirements (KH1-016 closed; see the [continuation](research-continuation-2026-10-01.md)). All five Slider fruit lines are supplied; exact four-course Vine sequences remain KH1-014.
