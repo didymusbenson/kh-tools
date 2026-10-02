@@ -1,0 +1,1290 @@
+{
+  "reviewDate": "2026-10-02",
+  "baselineCommit": "e56ccb9abe902ef38076fd2888c9387a520f60a4",
+  "scope": "All remaining partial/unresolved game-research families outside KH1 and Re:Chain of Memories; preserve completed KH1 decisions and concurrent Re:CoM work. Other limitations are accounted for but not silently recast as research tasks.",
+  "decisionRule": "For every family, ask whether the missing detail enables progression, collection or achievement completion. Resolve useful ambiguity; defer optional precision only with concrete sufficient guidance, missing detail, rationale and reopen condition. Evidence status and practical research disposition remain distinct.",
+  "baselineCounts": {
+    "closed": 80,
+    "partial": 56,
+    "other limitation": 11,
+    "unresolved/conflicted": 9
+  },
+  "perGameBaseline": {
+    "kh2fm": {
+      "closed": 31,
+      "partial": 3,
+      "other limitation": 6
+    },
+    "bbsfm": {
+      "partial": 17,
+      "unresolved/conflicted": 4,
+      "closed": 12,
+      "other limitation": 5
+    },
+    "dddhd": {
+      "partial": 17,
+      "closed": 7,
+      "unresolved/conflicted": 1
+    },
+    "kh02": {
+      "unresolved/conflicted": 1,
+      "closed": 11,
+      "partial": 6
+    },
+    "kh3": {
+      "partial": 13,
+      "closed": 19,
+      "unresolved/conflicted": 3
+    }
+  },
+  "records": [
+    {
+      "id": "KH2-001",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-002",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-003",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-004",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-005",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-006",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-007",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-008",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-009",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-010",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-011",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-012",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-013",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-014",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-015",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-016",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-017",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-018",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-019",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-020",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-021",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-022",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-023",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-024",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-025",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-026",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-027",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-028",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-029",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-030",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-031",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-032",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-033",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-034",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-035",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-036",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-037",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-038",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-039",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "KH2-040",
+      "game": "kh2fm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh2fm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-001",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-002",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-003",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-004",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-005",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-006",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-007",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-008",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-009",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-010",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-011",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-012",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-013",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-014",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-015",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-016",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-017",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-018",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-019",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-020",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-021",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-022",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-023",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-024",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-025",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-026",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-027",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-028",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-029",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-030",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-031",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-032",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-033",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-034",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-035",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-036",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-037",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "other limitation",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "BBS-038",
+      "game": "bbsfm",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/bbsfm/research-dispositions-2026-10-01.json"
+    },
+    {
+      "id": "DDD-001",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-002",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-003",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-004",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-005",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-006",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-007",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-008",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-009",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-010",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-011",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-012",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-013",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-014",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-015",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-016",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-017",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-018",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-019",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-020",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-021",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-022",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-023",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-024",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "DDD-025",
+      "game": "dddhd",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/dddhd/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-001",
+      "game": "kh02",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-002",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-003",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-004",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-005",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-006",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-007",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-008",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-009",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-010",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-011",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-012",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-013",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-014",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-015",
+      "game": "kh02",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-016",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-017",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH02-018",
+      "game": "kh02",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh02/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-001",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-002",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-003",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-004",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-005",
+      "game": "kh3",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-006",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-007",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-008",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-009",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-010",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-011",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-012",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-013",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-014",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-015",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-016",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-017",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-018",
+      "game": "kh3",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-019",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-020",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-021",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-022",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-023",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-024",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-025",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-026",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-027",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-028",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-029",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-030",
+      "game": "kh3",
+      "baselineEvidenceStatus": "unresolved/conflicted",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-031",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-032",
+      "game": "kh3",
+      "baselineEvidenceStatus": "partial",
+      "track": "game-factual-research",
+      "decision": "pending-review",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-033",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-034",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "game-factual-research",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    },
+    {
+      "id": "KH3-035",
+      "game": "kh3",
+      "baselineEvidenceStatus": "closed",
+      "track": "app-development",
+      "decision": "preserve-existing-status",
+      "ledger": "ai_docs/games/kh3/audit-dispositions.json"
+    }
+  ]
+}
