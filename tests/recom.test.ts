@@ -12,6 +12,7 @@ import progression from '../ai_docs/games/recom/progression.json';
 import combat from '../ai_docs/games/recom/combat-reference.json';
 import minigames from '../ai_docs/games/recom/minigames.json';
 import rikuDecks from '../ai_docs/games/recom/riku-decks.json';
+import farms from '../ai_docs/games/recom/enemy-card-farms.json';
 
 describe('Re:Chain of Memories data and campaign progress',()=>{
  it('has unique, sourced IDs and excludes original-edition bonus cards',()=>{
@@ -36,6 +37,27 @@ describe('Re:Chain of Memories data and campaign progress',()=>{
    expect(entry.notes?.some(n=>n.title==='Stock priority')??false,recipe.id).toBe(twoCard);
    if(recipe.recipeAlternatives?.length)expect(entry.thirdCardPrecedence,recipe.id).toBeNull();
   }
+ });
+ it('gives every Sora farm an actionable route and keeps special encounters safe',()=>{
+  expect(farms.records).toHaveLength(30);
+  for(const farm of farms.records){
+   const route=farm.farmRoute;
+   expect(farm.worldsSourceText,farm.enemy).toContain(route.world);
+   for(const value of [route.room,route.encounter,route.finish,route.retry,route.fallback])expect(value,farm.enemy).toBeTruthy();
+   expect(route.requiresRngManipulation).toBe(false);
+   const entry=recomEntries.find(e=>e.name===farm.enemy&&e.campaign==='sora')!;
+   expect(entry.notes?.find(n=>n.title==='Suggested farm')?.text).toContain(route.world);
+   expect(entry.notes?.find(n=>n.title==='Alternative farm')?.text).toBe(route.fallback);
+   for(const source of route.sources)expect(entry.sources).toContain(source);
+   expect(route.retry).not.toMatch(/escape/i);
+  }
+  expect(recomEntries.filter(e=>e.notes?.some(n=>n.title==='Suggested farm'))).toHaveLength(30);
+  for(const [enemy,room] of [['White Mushroom','White Room'],['Black Fungus','Black Room']])expect(farms.records.find(r=>r.enemy===enemy)!.farmRoute.room).toBe(room);
+  expect(farms.records.find(r=>r.enemy==='Soldier')!.farmRoute.world).toBe('Traverse Town');
+  expect(farms.records.find(r=>r.enemy==='Barrel Spider')!.farmRoute.retry).toContain('barrels intact');
+  expect(farms.records.find(r=>r.enemy==='Aquatank')!.farmRoute.finish).toContain('Avoid Thunder');
+  // The source does not identify the field species for these positional encounters.
+  for(const name of ['Screwdiver','Aquatank','Wight Knight','Gargoyle'])expect(farms.records.find(r=>r.enemy===name)!.farmRoute.fieldEnemy).toBeNull();
  });
  it('preserves published pack distributions without treating locked pools or items as Premium',()=>{
   for(const p of packs.records){

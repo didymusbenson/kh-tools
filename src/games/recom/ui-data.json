@@ -3176,6 +3176,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Shadow",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3215,8 +3216,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Halloween Town · Sleeping Darkness. Look for the lower left Shadow encounter; check the battle for Shadow. Defeat other species first, then finish with Shadow as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Shadow and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3242,6 +3255,7 @@
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
         "https://www.khwiki.com/Crescendo",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3281,8 +3295,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Traverse Town · Sleeping Darkness. Look for the lower left Soldier encounter; check the battle for Soldier. Defeat other species first, then finish with Soldier as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Soldier and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3311,6 +3337,7 @@
         "https://www.khwiki.com/Powerwild",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3350,8 +3377,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Olympus Coliseum · Sleeping Darkness. Look for the lower right Shadow encounter; check the battle for Powerwild. Defeat other species first, then finish with Powerwild as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Olympus Coliseum; inspect battles for Powerwild and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3374,6 +3413,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Bouncywild",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3413,8 +3453,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Olympus Coliseum · Sleeping Darkness. Look for the lower right Shadow encounter; check the battle for Bouncywild. Defeat other species first, then finish with Bouncywild as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Olympus Coliseum; inspect battles for Bouncywild and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3437,6 +3489,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Large_Body",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3476,8 +3529,20 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Monstro · Sleeping Darkness. Look for the lower left Large Body encounter; check the battle for Large Body. Defeat other species first, then finish with Large Body as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Large Body and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3500,6 +3565,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Fat_Bandit",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3539,8 +3605,20 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Agrabah · Sleeping Darkness. Look for the lower left Fat Bandit encounter; check the battle for Fat Bandit. Defeat other species first, then finish with Fat Bandit as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Fat Bandit and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3563,6 +3641,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Sea_Neon",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3602,8 +3681,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Atlantica · Sleeping Darkness. Look for the lower left Sea Neon encounter; check the battle for Sea Neon. Defeat other species first, then finish with Sea Neon as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Sea Neon and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3626,6 +3717,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Bandit",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3665,8 +3757,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Agrabah · Sleeping Darkness. Look for the lower center Shadow encounter; check the battle for Bandit. Defeat other species first, then finish with Bandit as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Bandit and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3729,16 +3833,24 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Neverland · Sleeping Darkness. Look for the lower right Shadow encounter; check the battle for Pirate. Defeat other species first, then finish with Pirate as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Neverland; inspect battles for Pirate and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Pirate by entering a Shadow encounter in Neverland / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -3757,6 +3869,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Red_Nocturne",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3796,8 +3909,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Traverse Town · Sleeping Darkness. Look for the left Red Nocturne encounter; check the battle for Red Nocturne. Defeat other species first, then finish with Red Nocturne as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Red Nocturne and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3860,16 +3985,24 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Traverse Town · Sleeping Darkness. Look for the lower left Soldier encounter; check the battle for Blue Rhapsody. Defeat other species first, then finish with Blue Rhapsody as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Traverse Town; inspect battles for Blue Rhapsody and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Blue Rhapsody by entering a Soldier encounter in Traverse Town / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -3888,6 +4021,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Yellow_Opera",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3927,8 +4061,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Agrabah · Sleeping Darkness. Look for the Yellow Opera encounter; check the battle for Yellow Opera. Defeat other species first, then finish with Yellow Opera as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Yellow Opera and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -3951,6 +4097,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Green_Requiem",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -3990,8 +4137,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Agrabah · Sleeping Darkness. Look for the lower center Shadow encounter; check the battle for Green Requiem. Defeat other species first, then finish with Green Requiem as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Agrabah; inspect battles for Green Requiem and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4014,6 +4173,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wizard",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4053,8 +4213,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Castle Oblivion · Sleeping Darkness. Look for the upper right Red Nocturne encounter; check the battle for Wizard. Defeat other species first, then finish with Wizard as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Castle Oblivion; inspect battles for Wizard and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4117,16 +4289,24 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Monstro · Sleeping Darkness. Look for the lower left Large Body encounter; check the battle for Air Soldier. Defeat other species first, then finish with Air Soldier as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Air Soldier and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Air Soldier by entering a Large Body encounter in Monstro / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -4145,8 +4325,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Barrel_Spider",
-        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
       "stats": [
@@ -4185,8 +4365,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Monstro · Sleeping Darkness. Break intact barrels to enter a Barrel Spider battle. Leave a Barrel Spider for last, then defeat it before self-destruction. An explosion does not award its card."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save with the barrels intact before trying. After failure, reload that save or synthesize a fresh room; walking out and back does not restore broken barrels. Save after receiving the card."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "Use fresh barrel-bearing rooms in Monstro, Olympus Coliseum or Agrabah. Preserve a save before breaking props; inspect the resulting battle and defeat a Spider last."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4217,6 +4409,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wight_Knight",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4256,8 +4449,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Halloween Town · Sleeping Darkness. Look for the lower left encounter; check the battle for Wight Knight. Defeat other species first, then finish with Wight Knight as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Wight Knight and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4320,16 +4525,24 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Neverland · Sleeping Darkness. Look for the left Darkball encounter; check the battle for Air Pirate. Defeat other species first, then finish with Air Pirate as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Neverland; inspect battles for Air Pirate and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Air Pirate by entering a Darkball encounter in Neverland / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -4348,6 +4561,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Gargoyle",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4387,8 +4601,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Halloween Town · Sleeping Darkness. Look for the lower left encounter; check the battle for Gargoyle. Defeat other species first, then finish with Gargoyle as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Halloween Town; inspect battles for Gargoyle and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4451,16 +4677,24 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Monstro · Sleeping Darkness. Look for the right Shadow encounter; check the battle for Search Ghost. Defeat other species first, then finish with Search Ghost as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Monstro; inspect battles for Search Ghost and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Search Ghost by entering a Shadow encounter in Monstro / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -4479,6 +4713,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Aquatank",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4518,8 +4753,20 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Atlantica · Sleeping Darkness. Look for the lower left encounter; check the battle for Aquatank. Defeat other species first, then finish with Aquatank as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Avoid Thunder: Aquatank absorbs lightning."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Aquatank and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4542,6 +4789,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Screwdiver",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4581,8 +4829,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Atlantica · Sleeping Darkness. Look for the lower left encounter; check the battle for Screwdiver. Defeat other species first, then finish with Screwdiver as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Atlantica; inspect battles for Screwdiver and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4647,16 +4907,24 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Hollow Bastion · Sleeping Darkness. Look for the lower left Shadow encounter; check the battle for Wyvern. Defeat other species first, then finish with Wyvern as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. The reported Shadow encounter can contain Defender or Wyvern; check which appeared before committing to the last kill."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Hollow Bastion; inspect battles for Wyvern and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Wyvern by entering a Shadow encounter in Hollow Bastion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -4717,16 +4985,24 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Hollow Bastion · Sleeping Darkness. Look for the lower left Shadow encounter; check the battle for Defender. Defeat other species first, then finish with Defender as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. The reported Shadow encounter can contain Defender or Wyvern; check which appeared before committing to the last kill."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Hollow Bastion; inspect battles for Defender and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Defender by entering a Shadow encounter in Hollow Bastion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
         },
         {
           "title": "Active effect",
@@ -4745,8 +5021,8 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/White_Mushroom",
-        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
         "https://www.khwiki.com/Warp"
       ],
       "family": "enemy",
@@ -4782,8 +5058,20 @@
           "text": "Physical: x1.0 · Fire: x0 · Ice: x0 · Lightning: x0 · Neutral: x1.0 · Stun: ◯ · Percentage: ◯ · Stop: ◯ · Warp: ◯ · Bind: ◯ · Confuse: ◯ · Terror: ◯ · Magnet: ◯ · Freeze: ◯. O/◯: effective; △: partial; X: ineffective. These describe the enemy, not the player-card effect."
         },
         {
+          "title": "Suggested farm",
+          "text": "Traverse Town · White Room. Enter a White Mushroom encounter in its dedicated room. Create a White Room. Complete three requested Fire, Blizzard or Thunder casts on a mushroom, or use Warp to remove it. Finish the encounter with White Mushroom as the last defeated enemy for its card roll. Darkness-room multipliers do not apply."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "Create another White Room in Traverse Town when encounters run out. Its special-room rule takes priority over Darkness bonuses."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4810,6 +5098,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Black_Fungus",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4849,8 +5138,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Traverse Town · Black Room. Enter a Black Fungus encounter in its dedicated room. Create a Black Room and defeat Black Fungus last. Strike it before entering battle to delay invulnerability; attack when vulnerable. Its card roll replaces the map-card reward. Darkness-room multipliers do not apply; no KH1 combo-finish condition is used."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "Create another Black Room in Traverse Town when encounters run out. Its special-room rule takes priority over Darkness bonuses."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4873,6 +5174,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Creeper_Plant",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -4912,8 +5214,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Wonderland · Sleeping Darkness. Look for the lower center Shadow encounter; check the battle for Creeper Plant. Defeat other species first, then finish with Creeper Plant as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Wonderland; inspect battles for Creeper Plant and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -4938,8 +5252,8 @@
         "https://www.khwiki.com/Tornado_Step",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
-        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/",
-        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607"
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+        "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
       "stats": [
@@ -4978,8 +5292,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Destiny Islands · Sleeping Darkness. Look for the lower center Tornado Step encounter; check the battle for Tornado Step. Defeat other species first, then finish with Tornado Step as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Destiny Islands; inspect battles for Tornado Step and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -5008,6 +5334,7 @@
         "https://www.khwiki.com/Crescendo",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/55459",
         "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -5047,8 +5374,20 @@
           "text": "Break 3 cards in 4 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Destiny Islands · Sleeping Darkness. Look for the lower left Shadow encounter; check the battle for Crescendo. Defeat other species first, then finish with Crescendo as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Remove its summoned enemies before the last Crescendo."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Destiny Islands; inspect battles for Crescendo and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
@@ -5117,20 +5456,24 @@
           "text": "Break 5 cards in 6 seconds after initiating the duel."
         },
         {
+          "title": "Suggested farm",
+          "text": "Castle Oblivion · Sleeping Darkness. Look for the upper right Red Nocturne encounter; check the battle for Neoshadow. Defeat other species first, then finish with Neoshadow as the final enemy. Avoid a mixed-species finishing sleight when its kill order is uncertain. Wait for the later wave to appear before the finishing attack."
+        },
+        {
           "title": "Retrying a farm",
-          "text": "Create a save room next to the farming room and save before the attempt. Defeat the target last. If no card drops, return to the title screen and reload that save before retrying. Save successful drops before continuing. Steam players report this reload loop and successful use of DERIKUF’s RNG routes. Exact room layout, deck and dodge-roll sequence matter for a manipulation; success is not guaranteed on one attempt."
+          "text": "Save next door before the attempt. Save again after receiving the card. If it does not drop, reload that earlier save or continue to another encounter. If reloading repeats the same outcome, change the battle sequence or try a fresh room."
+        },
+        {
+          "title": "Alternative farm",
+          "text": "For ordinary grinding, try Teeming Darkness, Almighty Darkness or Looming Darkness in Castle Oblivion; inspect battles for Neoshadow and defeat it last. Clear a target-free battle and try another; synthesize a fresh room when exhausted."
+        },
+        {
+          "title": "Encounter variation",
+          "text": "Position hints follow the cited route’s room view and may not match every generated layout. When the hint does not match, use the fallback; do not assume the visible field enemy is the target species. Suggested manual-combat route using a published encounter location; battle composition and drops can vary. Exact RNG recipes are optional and separate."
         },
         {
           "title": "Rate evidence",
           "text": "Re:CoM-specific infobox; source-inspected, not independent rate validation"
-        },
-        {
-          "title": "Encounter lead",
-          "text": "The published RNG route finds Neoshadow by entering a Red Nocturne encounter in Castle Oblivion / Sleeping Darkness. Check the battle roster; the field enemy can differ from the card you are farming."
-        },
-        {
-          "title": "Later wave",
-          "text": "The reported route targets Neoshadows in the second wave. Wait for them to appear before using the finishing sleight."
         },
         {
           "title": "Active effect",
@@ -6365,6 +6708,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Shadow",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6409,6 +6753,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Large_Body",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6453,6 +6798,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Powerwild",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6497,6 +6843,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Fat_Bandit",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6586,6 +6933,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Sea_Neon",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",
@@ -6630,6 +6978,7 @@
       "sources": [
         "https://www.khwiki.com/Enemy_Card",
         "https://www.khwiki.com/Wight_Knight",
+        "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
         "https://steamcommunity.com/app/2552430/discussions/0/4515505458306858761/"
       ],
       "family": "enemy",

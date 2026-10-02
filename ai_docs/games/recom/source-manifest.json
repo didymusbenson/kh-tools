@@ -5317,5 +5317,15 @@
       "Gold/Platinum exclusion in Steam discussion 4514381493105894643 is corroborative advice from an author who had not earned Card Master Sora; no exact Steam membership denominator promoted."
     ],
     "counts": "Full-family dispositions unchanged: 15 closed, 11 partial, 3 open, 3 non-factual. These are bounded answers within partial families."
+  },
+  "productScopeFollowUp20261002": {
+    "report": "farm-coverage-closure-2026-10-02.md",
+    "encounterSource": "https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/81607",
+    "inspection": "Complete version 1.02 reread; all 30 target destinations reviewed. Guide and DERIKUF videos share a source lineage. No copied complete RNG recipes or independently verified Steam formations.",
+    "manualRouteSynthesis": "Combine reported encounter destinations with established final-target rule, per-enemy world eligibility, dedicated mushroom rooms and save/room refresh alternatives.",
+    "additionalSource": "https://www.khwiki.com/Aquatank",
+    "additionalInspection": "KHRECOM resistance table: lightning absorbed.",
+    "sourceAccessNote": "Direct URL initially failed; cached/indexed guide representation recovered and read.",
+    "accessed": "2026-10-02"
   }
 }

@@ -15,7 +15,7 @@ Snapshot: **2026-10-01**. Status: **HD journal revised locally; complete campaig
 
 HD scope is the application of the existing modern-release policy, not a newly solicited user decision. No product clarification blocks further factfinding.
 
-Current disposition: [all 32 findings](../games/recom/research-resolution-2026-10-01.md): 15 closed, 12 partial, two open after investigation, three non-factual limitations. Every remaining question has consulted sources and a precise failed/insufficient-evidence outcome. The historical rows below are preserved rather than used as current readiness claims.
+Current disposition: [all 32 findings](../games/recom/research-resolution-2026-10-01.md): 18 closed, nine partial, two open after investigation, three non-factual limitations. Every remaining question has consulted sources and a precise failed/insufficient-evidence outcome. The historical rows below are preserved rather than used as current readiness claims.
 
 ## October 1 content readiness
 
@@ -96,6 +96,8 @@ The user subsequently authorized implementation. See the [working implementation
 
 October 1 continuation: [all residual findings challenged](../games/recom/research-continuation-2026-10-01.md), with complete Steam-key mapping and additional bounded mechanics integrated. No user playthrough required.
 
-October 2 evidence pass: [remaining-gap report](../games/recom/gap-closure-2026-10-02.md). Runtime now includes 30 qualified farming retry references, three optional detailed routes, 13 Days completion checks, two-card stock priority and bounded Riku Report/duel guidance. 431 IDs and collectible denominators are preserved; no additional whole finding is certified closed.
+October 2 evidence pass: [remaining-gap report](../games/recom/gap-closure-2026-10-02.md). Runtime now includes 30 qualified farming retry references, three optional detailed routes, 13 Days completion checks, two-card stock priority and bounded Riku Report/duel guidance. 431 IDs and collectible denominators are preserved; that earlier pass did not close another whole finding; the subsequent product-scope closure is recorded below.
 
-October 2 targeted COM-001–003 pass: [research results](../games/recom/research-com-001-003-2026-10-02.md). Published shop distributions and corridor deck applicability are now integrated; locked-pool algorithms, scripted Riku inventories and exhaustive formations remain partial. The Soldier Neverland summon footnote is disputed, not a confirmed farm.
+October 2 targeted COM-001–003 pass: [research results](../games/recom/research-com-001-003-2026-10-02.md). Shop and Riku player needs are met; remaining internal mechanics are optional research by user scope decision. COM-003 now supplies practical routes and fallbacks for all 30 targets. The Soldier Neverland summon footnote is disputed, not a confirmed farm.
+
+Current COM-001–003 status: [practical coverage and scope closure](../games/recom/farm-coverage-closure-2026-10-02.md). No guaranteed drops or independent Steam gameplay test is claimed.

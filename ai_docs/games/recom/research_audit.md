@@ -10,7 +10,9 @@ Read all 16 research JSON files and eight pre-existing Markdown files in `ai_doc
 
 **32 deduplicated findings at baseline:** 18 factual research/extraction gaps (COM-001–018; COM-005 is a narrow corroboration limitation, not a demand for measured gameplay), two integration/provenance gaps (COM-019–020), eight resolved/historical groups (COM-021–028), three non-factual limitation groups (COM-029–031), and one current presentation/caveat-propagation defect (COM-032). Repeated occurrences do not increase this count. Appendices enumerate records and lexical occurrences separately; a record may belong to multiple findings.
 
-**Current status — October 2:** 15 closed (14 supported, one false gap), 12 partial, two open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+**Current status — October 2:** 18 closed (15 supported, one false gap and two product-scope decisions), nine partial, two open after investigation, three non-factual limitations. Every ID has a current disposition and source-attempt outcome in [the full resolution ledger](research-resolution-2026-10-01.md). Baseline narratives/appendices below describe `f933ab1`, not current missing-field counts.
+
+The [practical coverage closure](farm-coverage-closure-2026-10-02.md) supersedes the COM-001–003 partial statuses.
 
 The [COM-001–003 targeted pass](research-com-001-003-2026-10-02.md) supplies the latest shop, corridor and farm evidence.
 
@@ -24,9 +26,9 @@ Images are inventoried through the 24-capture manifest and existing inspected-sc
 
 | ID | Current disposition | Integrated result or precise residual |
 |---|---|---|
-| COM-001 | Partial | Ultimania-backed attack weights, value odds, eligible Premium frequency and exact assorted category selection integrated with HD replacements. Locked-pool rejection/redistribution/fallback remains unproved; no Steam execution claimed. |
-| COM-002 | Partial | Twelve presets and retained identities preserved; Castle deck corridor applicability and Dark Mode item removal integrated. Exact early Ansem inventory and full ordered retained-card/state exceptions remain unproved. |
-| COM-003 | Partial | Thirty farm references and three detailed RNG routes retained; eight carrier leads and Barrel reset caveat added. Soldier Neverland footnote conflicts with remake summon behavior and is quarantined. Exhaustive formations/scripted exceptions remain incomplete. |
+| COM-001 | Closed, product scope | Pack choice, unlocked identity/value weights, eligible Premium odds and assorted selection are supported. Per user scope decision, exact locked-pool algorithms are optional research, not a journal gap. |
+| COM-002 | Closed, product scope | Twelve presets, corridor applicability, boss retention and Dark Mode inventory guidance meet the player need. Exact scripted inventories and insertion order are optional research per user scope decision. |
+| COM-003 | Closed, practical coverage | All 30 Sora targets have a sourced world/room, encounter hint, finish condition, retry path and fallback in runtime. Special rooms, props, later waves and Soldier conflict are handled. Exhaustive spawn tables are optional research. |
 | COM-004 | Closed, supported | Both mushrooms have edition-selected success/card-drop rules, own-room requirements and no Darkness multiplier. |
 | COM-005 | Open, investigated | All 30 source rates were reread; no independent edition-correct 30-row rate table was obtained. Source values are retained without claiming independent corroboration. |
 | COM-006 | Open, investigated | Existing 83 ordinary Sora + two minigame + 13 Riku extraction remains; independent native ordering and exact Steam Sleight Master membership/denominator are not established. |
