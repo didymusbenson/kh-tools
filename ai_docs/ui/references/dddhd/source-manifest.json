@@ -1,0 +1,74 @@
+{
+  "game": "DDD HD",
+  "source": "Game UI Database; original JPGs supplied by user",
+  "access_note": "Reviewed local user uploads. Capture platform is not independently established.",
+  "usage": "UI design/research references; not production assets.",
+  "images": [
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-21456.jpg",
+      "description": "Reports root: dark ring-bound cover, Sora/Riku artwork and gray section menu.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-21456.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "9b7f384d1d12e472175101776be2c6acbe21e7fb990298d0116d421b65dcbb2f",
+      "bytes": 239591,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-99441.jpg",
+      "description": "Completion Rate: pale paper, magenta category bars and right-aligned totals.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105140-99441.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "22230b3b3622a41ad4ba01ecef3d1b929bf904ab75e920b88e16663c2571b468",
+      "bytes": 261071,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105141-39332.jpg",
+      "description": "Glossary detail: text panel, gray heading strip and vertical scrollbar.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105141-39332.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "94462202792e3db806066db5d9a97f4e354e474aca90af5a398de27f25753f60",
+      "bytes": 266907,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105142-62749.jpg",
+      "description": "Character Files: magenta breadcrumb tabs, ruled rows and glove cursor.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105142-62749.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "651c2c3064b6c530a870a3a54e0bb71cd75032243451b73b1766787b98a82862",
+      "bytes": 229320,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105143-31738.jpg",
+      "description": "Dream Eaters: Nightmares/Spirits tabs, icons, completion percentages and ruled rows.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105143-31738.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "7005a564bed69d13239ede89b9c7aa3f8b1d4cb1b2ca5b96f2efc97f0fc03b7b",
+      "bytes": 276602,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105145-97727.jpg",
+      "description": "Help: separate dark patterned background, cyan/violet navigation and description panel.",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-Dream-Drop-Distance-HD03152021-105145-97727.jpg",
+      "source_url_basis": "User supplied exact URL",
+      "received_date": "2026-10-02",
+      "sha256": "27d95baf752580cecb5aada9fbdee43cf5ef59f9e0a02293cf0d5b81a765813a",
+      "bytes": 324590,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

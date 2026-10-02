@@ -46,7 +46,7 @@ See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions;
 
 | ID | Question / proposed treatment | Impact | Status |
 |---|---|---|---|
-| DDD-UI-01 | Which DDD Reports/menu inspiration should guide the skin? Keep visual choice unconfirmed until user supplies direction. | Appearance only; research continues | Open |
+| DDD-UI-01 | [Six user-supplied Reports/Help screenshots](../ui/references/dddhd/README.md) received October 2, 2026. Responsive composition and custom journal implementation remain outstanding. | Appearance only; research continues | References supplied; implementation pending |
 | DDD-SCOPE-01 | Collectible/acquisition focus with separate crafting/challenges/achievements; narrative gates excluded from world completion | Counting and scope | Accepted in current conversation |
 | DDD-INVENTORY-01 | Optional opt-in inventory with per-ingredient x/y | Crafting interactions | Accepted |
 | DDD-VALIDATION-01 | Source/formula validation and Apple-first app tests; no manual playthrough requirement | Release gates | Accepted |
@@ -78,3 +78,5 @@ No permission is required to continue research, source reconciliation or reversi
 
 2026-09-18: Accepted compendium counting, synchronized marks/details, Steam use, spoilerific presentation, no Available Now tracking, optional inventory, first-class crafting and source/app testing. DDD visual inspiration remains the only specific user-owned question identified here.
 
+
+2026-10-02: User supplied six DDD HD Reports/Help screenshots. The visual-reference question above is updated; this does not certify custom UI implementation or device acceptance.

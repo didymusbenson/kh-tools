@@ -1,5 +1,7 @@
 # KH3 acquisition research
 
+UI references received October 2, 2026: [5 original screenshots and source manifest](../../ui/references/kh3/README.md). Custom journal implementation remains outstanding.
+
 ## Current status — 2026-10-01
 
 The [complete 35-ID disposition ledger](audit-resolution-2026-10-01.md) supersedes the coverage, missing-data and conflict statuses in the dated research below. 1954 canonical entries and 286 recipe actions now exist, including full synthesis, blade forge/property catalogs, photo routes, Game Records, adversaries, Slider routes and expanded Gummi/DLC data. Remaining route completeness, source contradictions and platform evidence boundaries are itemized per ID; no overall completion claim is made. Toy Box emblem 8, four cooking methods, crafted markers and hidden Steam descriptions are resolved. Forest Clasp cutoff, Flan equality and PRO rank B remain conflicted.

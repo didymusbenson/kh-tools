@@ -1,5 +1,7 @@
 # Dream Drop Distance HD research pack
 
+UI references received October 2, 2026: [6 original screenshots and source manifest](../../ui/references/dddhd/README.md). Custom journal implementation remains outstanding.
+
 2026-10-02 follow-up: 11 Grid access actions are integrated, including roof entry, Recognizer passage and isolated Riku landing. Sweet Dreams guidance separates character delivery and provides an HD-documented repeat-cup route, with exact Steam retrigger scope still bounded. Complete published Flick Rush score/rank/prize tables and Rush LV milestones now appear in runtime; Speed Cup time group, spendable Medal yields and Secret Cup minimum unlock remain explicit unknowns/conflicts. Missing base stats were not copied from mods. Current disposition totals remain **7 resolved, 17 partial, 1 blocked**. [Evidence and exact residuals](gap-closure-2026-10-02.md).
 
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md) and [continuation evidence](research-continuation-2026-10-01.md): **7 resolved, 17 partial, 1 blocked**.
@@ -22,7 +24,7 @@ The game is **Dream Drop Distance HD**. **HD 2.8 Final Chapter Prologue is its c
 
 Follow the [shared linked-view contract](../../content/collectible-compendium-and-linked-views.md). Compact checklist marks and expanded location rows are the same stable collectible records and persisted states; world pages, indexes, search and Data Jiminy synchronize both ways. World collection percentages exclude narrative/biography gates. Filters never reduce the denominator.
 
-React offline PWA, local progress/backup/migration, bundled local SLM and per-game Data Jiminy knowledge remain MVP. All specified acquisition planners, commands, challenge modules and achievements remain MVP. Missing production screenshot/map images are the only deferred assets; complete text guidance and media support/testing are not deferred. DDD's visual inspiration is still user-owned and unconfirmed. The app is fully spoilerific: no warnings, hiding or reveal controls. Do not implement Available Now/progress-gate tracking; retain concise text prerequisites.
+React offline PWA, local progress/backup/migration, bundled local SLM and per-game Data Jiminy knowledge remain MVP. All specified acquisition planners, commands, challenge modules and achievements remain MVP. Missing production screenshot/map images are the only deferred assets; complete text guidance and media support/testing are not deferred. DDD's Reports and Help visual references are now supplied in the [UI reference pack](../../ui/references/dddhd/README.md); responsive design and custom journal implementation remain outstanding. The app is fully spoilerific: no warnings, hiding or reveal controls. Do not implement Available Now/progress-gate tracking; retain concise text prerequisites.
 
 ## Edition boundary
 

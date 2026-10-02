@@ -140,7 +140,7 @@ All 54 DDD Steam achievement names are now mapped to independently observed nati
 
 ## Visual direction
 
-DDD visual inspiration remains unconfirmed and user-owned; do not treat the earlier proposed neon palette as accepted. Initial application acceptance targets Apple browser/iPhone/iPad; Android follows. Preserve accessible compact marks/expanded rows, keyboard/touch operation and reduced motion.
+DDD visual references are now supplied: [Reports and Help screenshots](../ui/references/dddhd/README.md). Reports uses magenta tabs and pale ring-bound pages; the separate Help menu uses cyan/violet. The earlier generic neon proposal is not a substitute for these references. Initial application acceptance targets Apple browser/iPhone/iPad; Android follows. Preserve accessible compact marks/expanded rows, keyboard/touch operation and reduced motion.
 
 The app is spoilerific. No spoiler warnings, hidden content or reveal controls. No Available Now/progress-gate tracking or filtering; acquisition/access conditions remain concise text guidance.
 
