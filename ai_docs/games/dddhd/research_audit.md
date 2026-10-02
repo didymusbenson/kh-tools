@@ -1,5 +1,7 @@
 # DDD HD research audit
 
+**Current continuation:** 7 resolved, 17 partial, 1 blocked; see [every residual outcome](research-continuation-2026-10-01.md). The historical findings below are preserved.
+
 **Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.
 
 Audit date: 2026-10-01. Repository baseline: `f933ab1`; audit branch: `research/audit-2026-10-01`. This is an evidence and gap audit of existing tracked files, not new external research. The target is the modern Steam HD edition. Original 3DS data is comparison evidence; the announced 2026-10-08 editions remain future-version follow-up, not the baseline.

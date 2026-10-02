@@ -234,5 +234,19 @@
     "method": "complete game-specific source section inspection",
     "sha256": "48f1c61a6ff963a63f9234faf1f74783fd13facfd9b7cee2e9814133a38de51e",
     "bytes": 4650
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Xeeynamo/KingdomSaveEditor/37a7a9dde19463a0d5f0c9588c634d6129e536f6/KHSave.Lib02/Models/Objective.cs",
+    "inspected": "2026-10-01",
+    "sha256": "a8e4fc3e026cc1358af6fb3f2f658b80db7224817f57b890e905407e88461680",
+    "bytes": 975,
+    "method": "pinned Flags/Progress schema; no unlock or NG+ transition rules"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Xeeynamo/KingdomSaveEditor/37a7a9dde19463a0d5f0c9588c634d6129e536f6/KHSave.Lib02/Models/Slot.cs",
+    "inspected": "2026-10-01",
+    "sha256": "224dad91b0e449d324f32cbc6a3ed2f10d41369bba8c5a91576e7bab0ad0b8fd",
+    "bytes": 2990,
+    "method": "pinned save-slot layout; storage slots not objective census"
   }
 ]

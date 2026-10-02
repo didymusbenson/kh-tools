@@ -349,15 +349,16 @@ export const entries: CollectionEntry[] = [
     "sources": [
       "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
       "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+      "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
     ],
-    "uncertainty": "KHWiki says Ether; the Steam guide says Mega-Ether at the same save-point ivy."
+    "uncertainty": "KHWiki and Destiny Islands say Ether; the Steam guide says Mega-Ether at the same save-point ivy."
   },
   {
     "id": "kh02:ft-steps-ether",
     "category": "treasures",
     "name": "Ether · Rocky Path stone steps",
-    "summary": "Across from the stone stairs, behind red ivy.",
+    "summary": "From the second save point follow the main path to the fork with two staircases. Take the left stairs, burn the red ivy across the gap with Firaga, then jump across to the chest.",
     "character": "Aqua",
     "world": "Forest of Thorns",
     "area": "Rocky Path stone steps",
@@ -365,9 +366,8 @@ export const entries: CollectionEntry[] = [
     "instructions": "Open the chest.",
     "sources": [
       "https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993"
-    ],
-    "uncertainty": "KHWiki stone-step Ether cannot be securely joined to the Steam guide’s elevated second-Darkside Ether."
+      "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/"
+    ]
   },
   {
     "id": "kh02:dd-map",

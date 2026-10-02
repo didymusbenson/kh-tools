@@ -1,0 +1,496 @@
+{
+  "inspected": "2026-10-01",
+  "appId": 2552440,
+  "method": "Individually queried SteamDB indexed key/requirement pairs; full page returned a loading shell. No key inferred from popularity, order or adjacency to the following title. API keys are provenance, not player instructions.",
+  "mapped": 54,
+  "total": 54,
+  "remaining": [],
+  "records": [
+    {
+      "name": "Record Keeper",
+      "steamApiKey": "ACH_16",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_16\"",
+      "retrievalReference": "turn551search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve 100% completion in Combat, Story, Items, and Game Records. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.4%."
+    },
+    {
+      "name": "Star Combatant",
+      "steamApiKey": "ACH_17",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_17\"",
+      "retrievalReference": "turn552search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve 100% completion in Combat. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.6%."
+    },
+    {
+      "name": "Storyteller",
+      "steamApiKey": "ACH_18",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_18\"",
+      "retrievalReference": "turn553search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve 100% completion in Story. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Item Collector",
+      "steamApiKey": "ACH_19",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_19\"",
+      "retrievalReference": "turn556search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve 100% completion in Items. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.5%."
+    },
+    {
+      "name": "Level Masters",
+      "steamApiKey": "ACH_20",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_20\"",
+      "retrievalReference": "turn548search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve a cumulative level of 100. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 8.1%."
+    },
+    {
+      "name": "Droplet Magnet",
+      "steamApiKey": "ACH_21",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_21\"",
+      "retrievalReference": "turn558search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Rack up 300 or more Drop Points in a single turn. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 16.0%."
+    },
+    {
+      "name": "Dream Dropper",
+      "steamApiKey": "ACH_22",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_22\"",
+      "retrievalReference": "turn554search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Drop 100 or more times. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.2%."
+    },
+    {
+      "name": "Deft Diver",
+      "steamApiKey": "ACH_23",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_23\"",
+      "retrievalReference": "turn547search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete a dive without taking damage. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 30.4%."
+    },
+    {
+      "name": "Ace Diver",
+      "steamApiKey": "ACH_24",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_24\" \"A-Rank\"",
+      "retrievalReference": "turn629search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Mark of Mastery. Defeat the phantom Ursula and begin the Mark of Mastery exam. · 57.9%. ACH_29 ; Ace Diver. Perform an A-Rank dive. · 49.7%."
+    },
+    {
+      "name": "Loyal Customer",
+      "steamApiKey": "ACH_25",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_25\"",
+      "retrievalReference": "turn549search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Make a purchase at every Moogle Shop. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.8%."
+    },
+    {
+      "name": "Command Collector",
+      "steamApiKey": "ACH_26",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_26\"",
+      "retrievalReference": "turn555search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Obtain all commands. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.5%."
+    },
+    {
+      "name": "Recipe Collector",
+      "steamApiKey": "ACH_27",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_27\"",
+      "retrievalReference": "turn550search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Obtain all recipes. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.7%."
+    },
+    {
+      "name": "Dream Piece Collector",
+      "steamApiKey": "ACH_28",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_28\"",
+      "retrievalReference": "turn561search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Obtain all Dream Pieces. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 5.0%."
+    },
+    {
+      "name": "Mark of Mastery",
+      "steamApiKey": "ACH_29",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_29\"",
+      "retrievalReference": "turn566search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achievements ; Mark of Mastery. Defeat the phantom Ursula and begin the Mark of Mastery exam. · 57.9%."
+    },
+    {
+      "name": "A Divided World",
+      "steamApiKey": "ACH_30",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_30\"",
+      "retrievalReference": "turn560search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete Traverse Town as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 35.3%."
+    },
+    {
+      "name": "Dark Intervention",
+      "steamApiKey": "ACH_31",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_31\"",
+      "retrievalReference": "turn559search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete La Cité des Cloches as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 29.3%."
+    },
+    {
+      "name": "Memory and Heart",
+      "steamApiKey": "ACH_32",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_32\"",
+      "retrievalReference": "turn572search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete The Grid as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 26.5%."
+    },
+    {
+      "name": "Inhabitants of the Sleeping Worlds",
+      "steamApiKey": "ACH_33",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_33\"",
+      "retrievalReference": "turn562search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete Prankster's Paradise as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 25.6%."
+    },
+    {
+      "name": "Distinct Worlds",
+      "steamApiKey": "ACH_34",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_34\"",
+      "retrievalReference": "turn570search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Revisit and complete Traverse Town as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 24.8%."
+    },
+    {
+      "name": "All for One, and One for All",
+      "steamApiKey": "ACH_35",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_35\"",
+      "retrievalReference": "turn571search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete Country of the Musketeers as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 23.7%."
+    },
+    {
+      "name": "A Sound Idea",
+      "steamApiKey": "ACH_36",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_36\"",
+      "retrievalReference": "turn564search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete Symphony of Sorcery as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 23.1%."
+    },
+    {
+      "name": "The Depths of Darkness",
+      "steamApiKey": "ACH_37",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_37\"",
+      "retrievalReference": "turn565search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete The World That Never Was as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 21.1%."
+    },
+    {
+      "name": "Nostalgic",
+      "steamApiKey": "ACH_38",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_38\"",
+      "retrievalReference": "turn563search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "View all flashbacks. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 23.5%."
+    },
+    {
+      "name": "Flick Rush Fever",
+      "steamApiKey": "ACH_39",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_39\"",
+      "retrievalReference": "turn568search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Achieve a Rush Level of 20. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Medal Master",
+      "steamApiKey": "ACH_40",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_40\"",
+      "retrievalReference": "turn567search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Obtain 3,000 or more medals in Flick Rush. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 5.4%."
+    },
+    {
+      "name": "Lucky Seven",
+      "steamApiKey": "ACH_41",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_41\"",
+      "retrievalReference": "turn569search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Win a Flick Rush duel by lining up three 7s. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 17.6%."
+    },
+    {
+      "name": "Super Cyclist",
+      "steamApiKey": "ACH_42",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_42\"",
+      "retrievalReference": "turn582search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Jun 13, 2024 — Earn a score of 1,000 or higher on the Light Cycle. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 7.5%."
+    },
+    {
+      "name": "Balloon Master",
+      "steamApiKey": "ACH_43",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_43\"",
+      "retrievalReference": "turn573search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Earn a score of 200 or higher in the Balloon mini-game. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 23.1%."
+    },
+    {
+      "name": "Water Barrel Master",
+      "steamApiKey": "ACH_44",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_44\"",
+      "retrievalReference": "turn575search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Earn a score of 400 or higher in the Water Barrel mini-game. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 10.3%."
+    },
+    {
+      "name": "Candy Goggles Master",
+      "steamApiKey": "ACH_45",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_45\" \"800\"",
+      "retrievalReference": "turn631search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Earn a score of 800 or higher in the Candy Goggles mini-game. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 9.4%."
+    },
+    {
+      "name": "Easy as 1-2-3",
+      "steamApiKey": "ACH_46",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_46\" \"Create a party\"",
+      "retrievalReference": "turn633search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Create a party with 3 Spirits. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 36.0%."
+    },
+    {
+      "name": "True Trainer",
+      "steamApiKey": "ACH_47",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_47\"",
+      "retrievalReference": "turn581search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Use every Training Toy. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 16.5%."
+    },
+    {
+      "name": "Happy Campers",
+      "steamApiKey": "ACH_48",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_48\"",
+      "retrievalReference": "turn577search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Create a party with 3 Spirits and make them all very happy. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 17.9%."
+    },
+    {
+      "name": "Kindred Spirits",
+      "steamApiKey": "ACH_49",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_49\" \"Affinity\"",
+      "retrievalReference": "turn634search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Max out a Spirit's Affinity Level. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 6.5%."
+    },
+    {
+      "name": "Golden Egg",
+      "steamApiKey": "ACH_50",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_50\"",
+      "retrievalReference": "turn585search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Breed a ☆ Rank Spirit. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 10.6%."
+    },
+    {
+      "name": "Strongest Link",
+      "steamApiKey": "ACH_51",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_51\"",
+      "retrievalReference": "turn579search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Unlock all nodes on any Spirit's Ability Link board. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 12.8%."
+    },
+    {
+      "name": "Lifesaver",
+      "steamApiKey": "ACH_52",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_52\"",
+      "retrievalReference": "turn580search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Rescue Spirits 3 times in battle. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 15.1%."
+    },
+    {
+      "name": "Ability Ace",
+      "steamApiKey": "ACH_53",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_53\"",
+      "retrievalReference": "turn576search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Max out and install all Support and Spirits abilities. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 3.5%."
+    },
+    {
+      "name": "Bull's-Eye",
+      "steamApiKey": "ACH_54",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_54\"",
+      "retrievalReference": "turn586search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Defeat 5 or more enemies with a single hit in Slingshot. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 11.2%."
+    },
+    {
+      "name": "Sliding By",
+      "steamApiKey": "ACH_55",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_55\"",
+      "retrievalReference": "turn574search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Connect 6 or more points with a single Faithline. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 27.4%."
+    },
+    {
+      "name": "Super Hacker",
+      "steamApiKey": "ACH_56",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_56\"",
+      "retrievalReference": "turn600search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Activate all Code Break commands. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 12.7%."
+    },
+    {
+      "name": "Bubble Burster",
+      "steamApiKey": "ACH_57",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_57\"",
+      "retrievalReference": "turn597search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Jun 13, 2024 — Trap 6 or more enemies in Bubble Burst. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 12.7%."
+    },
+    {
+      "name": "Comic King",
+      "steamApiKey": "ACH_58",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_58\"",
+      "retrievalReference": "turn591search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Activate all of Wonder Comic's effects at least once. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 15.6%."
+    },
+    {
+      "name": "Maestro",
+      "steamApiKey": "ACH_59",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_59\"",
+      "retrievalReference": "turn593search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Defeat 4 or more enemies in one turn of Melody Catcher. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 5.7%."
+    },
+    {
+      "name": "Chain Reaction",
+      "steamApiKey": "ACH_60",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_60\" \"Sever all chains\"",
+      "retrievalReference": "turn637search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Sever all chains with a single slash 3 times in a row using ..."
+    },
+    {
+      "name": "Champions of All Districts",
+      "steamApiKey": "ACH_61",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_61\" \"Traverse Town\"",
+      "retrievalReference": "turn630search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in Traverse Town as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Champions of the Cathedral",
+      "steamApiKey": "ACH_62",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_62\"",
+      "retrievalReference": "turn592search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in La Cité des Cloches as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Champions of the Digital World",
+      "steamApiKey": "ACH_63",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_63\"",
+      "retrievalReference": "turn587search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in The Grid as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Champions of the Endless Ocean",
+      "steamApiKey": "ACH_64",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_64\"",
+      "retrievalReference": "turn594search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in Prankster's Paradise as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Champions of the Opéra House",
+      "steamApiKey": "ACH_65",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_65\" \"Country of the Musketeers\"",
+      "retrievalReference": "turn638search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in Country of the Musketeers as both Sora and Riku. ..."
+    },
+    {
+      "name": "Champions of the Harmonic Score",
+      "steamApiKey": "ACH_66",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_66\"",
+      "retrievalReference": "turn598search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in Symphony of Sorcery as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.1%."
+    },
+    {
+      "name": "Champions of the Dark City",
+      "steamApiKey": "ACH_67",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_67\" \"Complete all Special Portals in The World That Never Was\"",
+      "retrievalReference": "turn652search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Special Portals in The World That Never Was as both ..."
+    },
+    {
+      "name": "Brave Challengers",
+      "steamApiKey": "ACH_68",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_68\"",
+      "retrievalReference": "turn588search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all 7 Link Portal bonus objectives. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 9.5%."
+    },
+    {
+      "name": "Seekers of Secrets",
+      "steamApiKey": "ACH_69",
+      "source": "https://steamdb.info/app/2552440/stats/",
+      "query": "site:steamdb.info/app/2552440/stats/ \"ACH_69\"",
+      "retrievalReference": "turn595search0",
+      "evidence": "Requirement precedes this key in indexed row; following achievement name belongs to next row.",
+      "observedRequirement": "Complete all Secret Portals as both Sora and Riku. KINGDOM HEARTS Dream Drop Distance HD. Uncategorized. 4.3%."
+    }
+  ]
+}

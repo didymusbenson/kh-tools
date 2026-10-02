@@ -2153,5 +2153,26 @@
     "url": "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/7",
     "inspected": "2026-10-01",
     "method": "full web retrieval HTTP403; search-indexed excerpt available; Indexed excerpt corroborates Catanuki as Treasure36 only; no uninspected full route claim."
+  },
+  {
+    "url": "https://tamaki-game.com/kh3d-riku-world",
+    "inspected": "2026-10-01",
+    "sha256": "96ba6b4e66e6a122890f72f91367d4ab05ffde0f1120df0412cee55fbef1ee42",
+    "bytes": 219020,
+    "method": "complete HD Japanese map guide; annotated image inspected"
+  },
+  {
+    "url": "https://tamaki-game.com/wp-content/uploads/2018/08/kh3d_5.jpg",
+    "inspected": "2026-10-01",
+    "sha256": "af2247c1dbf29d2acc2272b63ea5628a4fa2dfec0d9cc9eba2988aad25a448c7",
+    "bytes": 96712,
+    "method": "visual inspection of annotated PS4 HD map"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/OpenKH/OpenKh/5d549839210932d85dec8c39f5d6ad2a3b78aad3/docs/ddd/file/lboard.md",
+    "inspected": "2026-10-01",
+    "sha256": "1f976af79e0a8934f77169a0c86d31e4c82b4a3b4f6107cf86427e93688716b2",
+    "bytes": 4553,
+    "method": "pinned format documentation; no species-labelled game data"
   }
 ]

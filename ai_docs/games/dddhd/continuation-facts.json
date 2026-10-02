@@ -1,0 +1,17 @@
+{
+  "inspected": "2026-10-01",
+  "edition": "HD target; 3DS comparisons explicitly identified",
+  "commandAcquisitionCorrections": [
+    {
+      "name": "Quick Blitz",
+      "sourceAcquisition": "Sora and Riku can purchase Quick Blitz from the Shop for 400 munny, or 320 munny during Bargain Flurry.",
+      "replacement": "Sora and Riku can purchase Quick Blitz from the Moogle Shop for 100 munny, or 80 munny during Bargain Flurry, at Shop LV 1.",
+      "sources": [
+        "https://www.khwiki.com/Quick_Blitz",
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/shop-documentation"
+      ],
+      "basis": "The DDD infobox itself says buy=100, bargain=80, shop=1; complete Moogle and independent GamerGuides shop tables agree. The same article prose says 400/320. Adopt mutually corroborated structured values; preserve the conflicting raw extraction. PS4 GameFAQs answer465557 indexed excerpt independently describes80instead100; full page access was blocked. No Steam measurement claimed."
+    }
+  ]
+}

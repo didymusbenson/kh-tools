@@ -11,8 +11,18 @@
         "https://www.khwiki.com/Wardrobe_(KH0.2)",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
-        "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/"
-      ]
+        "https://www.destinyislands.com/kh-02-bbs/side-quests/objectives/",
+        "https://pgr.hatenablog.com/entry/2017/01/12/082423",
+        "https://gamepedia.jp/archives/3836",
+        "https://psmgp.com/kh02-guide",
+        "https://www.youtube.com/watch?v=RzbFkFwQyAk"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Master of Lightning30/50 remains disputed. Japanese launch guide says30finalblows; other Japanese guides say50electrifications. Those are different predicates as well as numbers. Preserve conflict on objective13andMystic Pauldron.",
+        "inspection": "Steam3355205993full page lacks objective-menu screenshots; its images are chrome/avatars. Japanese guide excerpts indexed. Video candidate timestamp5:26 from metadata only; no frames/build/locale inspected.",
+        "followup": "Edition/build/locale-labelled Steam objective13 menu/counter evidence or threshold/event code. No user playthrough requested."
+      }
     },
     {
       "id": "KH02-002",
@@ -49,14 +59,21 @@
     {
       "id": "KH02-005",
       "status": "partial",
-      "integrated": "All29 ordinary rows reviewed, all ten Forest rows cross-checked; lower Ether and seven Forest joins improved with precise routes.",
-      "remaining": "Three Forest crosswalks remain: ft-save-ether is Ether versus Mega-Ether at same ivy; ft-north-potion cannot join northwest-thicket Hi-Potion; ft-steps-ether cannot securely join elevated second-Darkside Ether. They carry specific runtime caveats, not a generic warning on all ten.",
+      "integrated": "Resolved ft-steps-ether route through independent staircase/gap/ivy landmarks. All29ordinary chests reviewed; eight Forest routes usable, two source joins remain: save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion. Stable IDs and55physical total preserved.",
+      "remaining": "Two Forest conflicts remain: save-point Ether versus Mega-Ether; northern Potion cannot uniquely join northwest-thicket Hi-Potion. The stone-stairs Ether route is resolved independently.",
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.khwiki.com/Game:Realm_of_Darkness",
         "https://guiding-key.tumblr.com/kh0.2-locations",
-        "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/"
-      ]
+        "https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/",
+        "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Resolved ft-steps-ether route through independent staircase/gap/ivy landmarks. All29ordinary chests reviewed; eight Forest routes usable, two source joins remain: save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion. Stable IDs and55physical total preserved.",
+        "inspection": "Full Destiny Islands chest page provides Forest5Ether after second save, left staircase, Firaga acrossgap. Its Forest2Ether also supports KHWiki contents, while Steam saysMega-Ether.",
+        "followup": "An unambiguous edition-labelled chest image/table for the two remaining identities; no forced positional merge."
+      }
     },
     {
       "id": "KH02-006",
@@ -110,8 +127,15 @@
         "https://www.khwiki.com/Zodiac_symbols",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
-        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18"
-      ]
+        "https://www.trueachievements.com/game/KINGDOM-HEARTS-HD-28-Final-Chapter-Prologue/walkthrough/18",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "No partial-gem/memory retention or ordinary-chest NG+ guarantee added. Completed-objective and known Zodiac transfer rules remain.",
+        "inspection": "Pinned KingdomSaveEditor Lib02 contains Objective Flags/Progress and52serialized slots, not NG+ copy/reset code.52storage slots are not52objectives; tracked inventory remains51. Container isPS4-oriented, not automatic Steam proof.",
+        "followup": "NG+ copy/reset code or explicit per-asset retention documentation tied to an edition and save lineage."
+      }
     },
     {
       "id": "KH02-011",
@@ -123,8 +147,16 @@
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
         "https://www.playstationtrophies.org/forum/topic/283492-kingdom-hearts-02-birth-by-sleep-a-fragmentary-passage-trophy-guide-amp-roadmap/",
-        "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness"
-      ]
+        "https://strategywiki.org/wiki/Kingdom_Hearts_HD_II.8_Final_Chapter_Prologue/Depths_of_Darkness",
+        "https://gamefaqs.gamespot.com/boards/181154-kingdom-hearts-hd-28-final-chapter-prologue/75024809",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Objective50active-at-victory gains first-person PS4 corroboration; retain practical guidance and conflict with Finish-only sources. Objective31Zodiac substitute and pre-unlock counters across all seven objectives remain unverified.",
+        "inspection": "GameFAQs75024809 indexed player reports activeWayfinder withoutFinish. This agrees with Steam/PSU but is not a Steam counter trace. Save-editor Flags/Progress describes storage, not unlock predicates.",
+        "followup": "Edition-labelled objective31/50event logic and pre-unlock counter rules; do not infer universal retroactivity."
+      }
     },
     {
       "id": "KH02-012",
@@ -136,8 +168,17 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
         "https://www.truetrophies.com/t159961/treasure-hunter-trophy",
-        "https://www.playstationtrophies.org/forum/topic/283141-kingdom-hearts-02-birth-by-sleep-treasure-hunter-trophy-walkthrough/"
-      ]
+        "https://www.playstationtrophies.org/forum/topic/283141-kingdom-hearts-02-birth-by-sleep-treasure-hunter-trophy-walkthrough/",
+        "https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3311551844"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Treasure Hunter still covers41physical chests; NG+save-lineage trigger remains unknown when Zodiac is retained and ordinary chests reset.",
+        "inspection": "Independent Destiny Islands chest census corroborates physical locations; pinned save model does not define achievement evaluation. Steam checklist3311551844 is an external-sheet link, not counter logic.",
+        "followup": "Achievement evaluation logic showing current-run,retained-lineage or global profile chest flags."
+      }
     },
     {
       "id": "KH02-013",
@@ -149,8 +190,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",
         "https://www.khwiki.com/Fire",
         "https://www.khwiki.com/Blizzard",
-        "https://www.khwiki.com/Thunder"
-      ]
+        "https://www.khwiki.com/Thunder",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Magic Finale remains Firaja,Blizzaja,Thundaja. No cross-save/NG+partial-set accumulation rule inferred.",
+        "inspection": "Lib02 totalMagicFiragaUses-like aggregate counters do not document Magic Situation Command achievement bits or transfer; ordinaryFiraga is notFiraja.",
+        "followup": "Magic Situation Command flag schema and NG+transfer/achievement trigger implementation."
+      }
     },
     {
       "id": "KH02-014",
@@ -185,24 +233,38 @@
       "consultedSources": [
         "https://www.khwiki.com/Game:Phantom_Aqua",
         "https://gamefaqs.gamespot.com/ps4/181154-kingdom-hearts-hd-28-final-chapter-prologue/faqs/77497",
-        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/"
-      ]
+        "https://www.psu.com/news/kingdom-hearts-0-2-objectives-guide-complete-all-challenges/",
+        "https://github.com/Xeeynamo/KingdomSaveEditor/tree/37a7a9dde19463a0d5f0c9588c634d6129e536f6"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "No Phantom Aqua numeric HP/damage/difficulty table added. Qualitative strategy and reset behavior remain.",
+        "inspection": "Game:Phantom Aqua remains an incomplete numeric source. KH3ZodiacAqua mod results are a different game with altered/scaledstats and cannot supply0.2values.",
+        "followup": "0.2enemy parameter table with difficulty multipliers and story-versus-Zodiac phase identity."
+      }
     },
     {
       "id": "KH02-016",
       "status": "partial",
-      "integrated": "All 15 officialSteam subset goals preserved; Proud Player/Critical Competitor names distinguished; Steam versusPS4 Spellweaver behavior corrected.",
-      "remaining": "Public listing lacks native API keys; PSN/Xbox IDs/tiers and Epic availability not certified. October 8 editions are unreleased on October 1, so their build behavior cannot be asserted.",
+      "integrated": "All 15 officialSteam subset goals preserved; Proud Player/Critical Competitor names distinguished; Steam versusPS4 Spellweaver behavior corrected. Recovered14of15native Steam key associations in canonical steam-key-provenance.json. Into the Depths of Darkness remains unmapped:ACH_05snippets show only the following Deft Diver title, not the needed preceding requirement. No guessed assignment.",
+      "remaining": "A direct observed Into the Depths of Darkness requirement→key pair or official Steam schema; other platform exact schemas separately.",
       "consultedSources": [
         "https://steamcommunity.com/stats/2552440/achievements/?l=english",
         "https://www.khwiki.com/Trophies",
-        "https://www.khwiki.com/Spellweaver"
-      ]
+        "https://www.khwiki.com/Spellweaver",
+        "https://steamdb.info/app/2552440/stats/"
+      ],
+      "continuation": {
+        "date": "2026-10-01",
+        "outcome": "Recovered14of15native Steam key associations in canonical steam-key-provenance.json. Into the Depths of Darkness remains unmapped:ACH_05snippets show only the following Deft Diver title, not the needed preceding requirement. No guessed assignment.",
+        "inspection": "Exact-key individual SteamDB indexed queries; all14accepted pairs expose their own preceding requirement. PSN/Xbox/Epicnative IDs and futureOctober8editions remain unverified.",
+        "followup": "A direct observed Into the Depths of Darkness requirement→key pair or official Steam schema; other platform exact schemas separately."
+      }
     },
     {
       "id": "KH02-017",
       "status": "resolved",
-      "integrated": "C/L/W/F/D/S row citations propagate into chest records; gem guides, flowerSteam source and memory routes retained. Per-conflict caveats survive on all three affected Forest rows. Objective sources/instructions/caveats propagate to wardrobe.",
+      "integrated": "C/L/W/F/D/S row citations propagate into chest records; gem guides, flowerSteam source and memory routes retained. Per-conflict caveats survive on the two remaining affected Forest rows. Objective sources/instructions/caveats propagate to wardrobe.",
       "remaining": "No remaining identified generator provenance omission.",
       "consultedSources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993",

@@ -4,7 +4,7 @@
 
 ## Status
 
-Audited planning draft, 2026-09-18. The actual **KH3D DATABASE PROJECT** ranges and public HD references have been inspected. The workbook is a useful mixed-edition prototype, with material omissions and integrity defects. Production content remains incomplete; see the [research pack](dddhd/README.md) and [readiness audit](../readiness/dream-drop-distance.md).
+Updated 2026-10-01. Generated runtime is integrated; the current audit has 7 resolved, 17 partial and 1 blocked finding. The actual **KH3D DATABASE PROJECT** remains a historical mixed-edition prototype; its omissions are distinguished from current integrated data in the [research pack](dddhd/README.md) and [readiness audit](../readiness/dream-drop-distance.md).
 
 ## Product objective
 
@@ -82,6 +82,8 @@ The legacy `BEST BASE` flag is a useful product idea but must be replaced with a
 - recommended use
 - command collection tracking
 
+Quick Blitz acquisition is corrected to 100 munny, or 80 during Bargain Flurry, at Shop LV 1. Its conflicting historical article prose is retained in canonical evidence. Strike Raid still has conflicting 22/24-second reload values; neither is certified.
+
 ### Link systems
 
 - Sora single-Spirit Link Attacks
@@ -108,7 +110,9 @@ The legacy workbook does not cover:
 - trophies/achievements
 - Consequential HD changes versus Nintendo 3DS, including altered formulas/chest contents and removed AR/StreetPass routes
 
-Research now establishes a 438-chest census (Sora 225, Riku 213), 78 Special/11 Secret portals, 14 ordinary Dives, ten Flick Rush cups, and a 15-type Keyblade acquisition catalog. Complete row-level routes/rewards still need source validation. Follow [worlds](dddhd/worlds-and-collectibles.md), [Spirits/commands](dddhd/spirits-and-commands.md), [portals/challenges](dddhd/portals-and-challenges.md), and [rewards/achievements](dddhd/rewards-and-achievements.md).
+Research now supplies all 438 chest pickup landmarks (Sora 225, Riku 213), 346 portal identities including 78 Special / 11 Secret portals, 14 ordinary Dives, ten Flick Rush cups and a 15-type Keyblade acquisition catalog. The known final-world order conflict is resolved: Riku’s Curaga is HD Reports #2 and Doubleflight #3; historical guide numbers and stable IDs are retained. Chest earliest-access, minimum-movement and returnability coverage remains incomplete. Portal approach and first/repeat reward semantics retain specific residuals. Follow [worlds](dddhd/worlds-and-collectibles.md), [Spirits/commands](dddhd/spirits-and-commands.md), [portals/challenges](dddhd/portals-and-challenges.md), and [rewards/achievements](dddhd/rewards-and-achievements.md).
+
+All 54 DDD Steam achievement names are now mapped to independently observed native API keys in [canonical key provenance](dddhd/steam-key-provenance.json). Checklist IDs stay separate and unchanged. Other-platform native IDs and undocumented internal unlock counters remain open. API identifiers and source reconciliation belong in centralized provenance, not player instructions.
 
 ## Data model additions
 
@@ -148,7 +152,7 @@ The app is spoilerific. No spoiler warnings, hidden content or reveal controls. 
 - “Best base” is asserted rather than derived.
 - Command descriptions appear to have lost controller-button glyphs.
 - The workbook mixes HD master names with older recipe/board coverage; Frootz Cat, Kab Kannon and R & R Seal formulas change materially in HD.
-- Aura Lion's public board table/footnote disagree about the red-secret coordinate; preserve this source conflict visibly.
+- Aura Lion's public board table/footnote disagree about the red-secret coordinate; preserve this source conflict visibly. Jestabocky A-3 exists, but its Right connection does not reciprocate B-3’s Left connection; no edge is invented.
 - External text may require attribution or rewriting.
 
 ## Release acceptance criteria

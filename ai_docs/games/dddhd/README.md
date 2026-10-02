@@ -1,6 +1,6 @@
 # Dream Drop Distance HD research pack
 
-2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md) and [continuation evidence](research-continuation-2026-10-01.md): **7 resolved, 17 partial, 1 blocked**.
 
 Audited 2026-09-18 for Ars Arcanum's collectible/acquisition compendium. The generated runtime is implemented; remaining documentary gaps are scoped by the current ledger.
 
@@ -30,10 +30,10 @@ The official [2026 Collection page](https://www.jp.square-enix.com/kingdom/colle
 
 ## Highest-priority remaining work
 
-1. Verify remaining access/returnability conditions and independent HD Reports order; all 438 pickup landmarks are integrated, with two documented source-number conflicts.
+1. Verify remaining access/returnability conditions; all 438 pickup landmarks are integrated and the two known HD Reports-number conflicts are resolved.
 2. Add missing approach landmarks and first/repeat delivery distinctions to the extracted portal census.
 3. Resolve Aura Lion/Jestabocky source defects, the 141 remaining unreported formula odds, three breeds’ unknown base stats and five missing interaction body parts.
-4. Resolve conflicting shop prices, incomplete Steam input bindings, native platform identifiers and remaining secret/counter recovery semantics.
+4. Resolve Strike Raid reload timing, incomplete Steam input bindings, other-platform identifiers and remaining secret/counter recovery semantics. All 54 Steam keys and the Quick Blitz shop price are now documented.
 5. Exercise offline progress synchronization, migrations, backup and grounded Data Jiminy answers on the verified records.
 
 These are data/research/engineering tasks, not requests for new scope decisions. Ordinary character-story manifests and manual gameplay/playthroughs are not release gates. The user plays Steam; validate content from sources and test application behavior, initially on Apple browser/iPhone/iPad, with Android follow-up.

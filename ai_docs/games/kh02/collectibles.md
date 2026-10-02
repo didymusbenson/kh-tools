@@ -24,7 +24,7 @@ Wardrobe, objectives and achievements have their own tracks. An objective satisf
 
 ## Ordinary chests: 29 records
 
-Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-). Route supplements: **L** = [Guiding Key locations](https://guiding-key.tumblr.com/kh0.2-locations), **W** = [PSU World Within](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/), **F** = [PSU Forest](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/), **D** = [PSU Depths](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/). **S** = [Steam PC collection-order guide (2024)](https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993). All are community/secondary evidence.
+Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www.khwiki.com/Game:Realm_of_Darkness#Kingdom_Hearts_0.2_Birth_by_Sleep_-A_fragmentary_passage-). Route supplements: **L** = [Guiding Key locations](https://guiding-key.tumblr.com/kh0.2-locations), **W** = [PSU World Within](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/), **F** = [PSU Forest](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/), **D** = [PSU Depths](https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/). **S** = [Steam PC collection-order guide (2024)](https://steamcommunity.com/sharedfiles/filedetails/?id=3355205993). **I** = [Destiny Islands chest routes](https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/). All are community/secondary evidence.
 
 | ID | Area / local route | Contents | Location / acquisition detail | Evidence |
 |---|---|---|---|---|
@@ -50,15 +50,15 @@ Contents and area inventories: **C** = [KHWiki 0.2 treasure section](https://www
 | ft-left-hi-potion | Rocky Path | Hi-Potion | Drop left from the raised main path to the optional third Darkside; check behind it. | C, S |
 | ft-spiral-mega-potion | Uncertain Path spiral tree | Mega-Potion | Ride the optional vertical ivy rail; jump onto the high platform on the left. | C, F, S |
 | ft-ring-mega-potion | Rocky Path | Mega-Potion | Beyond the ring-shaped thicket, turn right at the raised Terra/Ventus sighting; clear red ivy and enemies to the eastern end. | C, S |
-| ft-save-ether | Rocky Path save point | Ether | After the long rail section, burn red ivy near the save point. | C, F |
-| ft-steps-ether | Rocky Path stone steps | Ether | Across from the stone stairs, behind red ivy. | C |
+| ft-save-ether | Rocky Path save point | Ether | After the long rail section, burn red ivy near the save point. | C, F, I |
+| ft-steps-ether | Rocky Path stone steps | Ether | From the second save point follow the main path to the fork with two staircases. Take the left stairs, burn the red ivy across the gap with Firaga, then jump across to the chest. | C, I |
 | dd-map | Depths entrance | Depths of Darkness Area Map | First leftward bend after the save point. | C, D |
 | dd-wide-hi-potion | Depths main route | Hi-Potion | Wide link path between the two open combat spaces. | C |
 | dd-low-mega-ether | Depths lower cavern | Mega-Ether | Below the entrance-side ridge; drop at the rejoining paths and turn back into the cavern. | C, D |
 | dd-before-arena-mega-ether | Depths main route | Mega-Ether | Before the second open combat area. | C |
 | dd-end-elixir | Depths final sandy area | Elixir | Northern island/left wall by the crystals at the sandy end. | C, D |
 
-**Route reconciliation (2026-10-01):** the Steam guide explicitly pairs the first inverted pillar chest with Potion and the second/exit inverted chest with Hi-Potion; the existing IDs are preserved. All ten Forest rows were compared. Seven have usable joins above. Three remain disputed: `ft-save-ether` is Ether in KHWiki but Mega-Ether in the Steam guide at the same Rocky Path save-point ivy; `ft-north-potion` cannot be uniquely joined to the guide's additional northwest-thicket Hi-Potion; `ft-steps-ether` cannot be securely joined to its second-Darkside elevated Ether. Those three retain source contents and an explicit runtime crosswalk caveat. The guide is evidence for specific aligned routes, not blanket certification of its other items.
+**Route reconciliation (2026-10-01):** the Steam guide explicitly pairs the first inverted pillar chest with Potion and the second/exit inverted chest with Hi-Potion; the existing IDs are preserved. All ten Forest rows were compared. Eight now have usable routes. Destiny Islands Forest chest5 independently identifies the left staircase, gap and red ivy for `ft-steps-ether`; it is no longer dependent on the ambiguous Steam second-Darkside join. Two remain disputed: `ft-save-ether` is Ether in KHWiki and Destiny Islands versus Mega-Ether in the Steam guide at the same save-point ivy; `ft-north-potion` cannot be uniquely joined to the guide’s northwest-thicket Hi-Potion. Those two retain specific runtime caveats. Existing identities and contents remain unchanged.
 
 ## Zodiac chests: 12 records
 
@@ -122,4 +122,4 @@ One per major area, despite the plural objective names. These are physical finds
 
 ## Remaining release checks
 
-Pillar pairing, Pisces, flower colors and both memory labels/routes are resolved with existing IDs preserved. Resolve the three explicitly named Forest crosswalks above. Add precise starting save point, directional landmarks, required movement abilities, and evidence per row. Validate clear-data/NG+ recovery for ordinary chests, gems and memories. Complete text is MVP; only production screenshot/map image acquisition is deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.
+Pillar pairing, Pisces, flower colors and both memory labels/routes are resolved with existing IDs preserved. Resolve the two explicitly named Forest crosswalks above. Add precise starting save point, directional landmarks, required movement abilities, and evidence per row. Validate clear-data/NG+ recovery for ordinary chests, gems and memories. Complete text is MVP; only production screenshot/map image acquisition is deferred. Null media references must not impair navigation, accessible labels, focus order or synchronized toggles.

@@ -1,6 +1,6 @@
 # Kingdom Hearts 0.2 research pack
 
-2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md).
+2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](audit-dispositions.md) and [continuation evidence](research-continuation-2026-10-01.md): **10 resolved, 7 partial, 1 blocked**.
 
 Audit date: 2026-09-18. [Dedicated specification](../kingdom-hearts-02.md) · [Readiness](../../readiness/kingdom-hearts-02.md) · [Shared compendium contract](../../content/collectible-compendium-and-linked-views.md).
 

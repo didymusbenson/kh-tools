@@ -5,6 +5,14 @@ def slug(s):return re.sub('[^a-z0-9]+','-',unicodedata.normalize('NFKD',s).encod
 def enrich(entries,recipes,root):
  folder=root/'src/games/dddhd';facts=json.loads((folder/'catalog-facts.json').read_text());spirits=json.loads((folder/'spirit-facts.json').read_text());worlds=json.loads((folder/'world-facts.json').read_text())
  index={e['id']:e for e in entries};wiki=lambda s:'https://www.khwiki.com/'+s.replace(' ','_')
+ corrections=json.loads((root/'ai_docs/games/dddhd/continuation-facts.json').read_text())['commandAcquisitionCorrections']
+ def command_routes(f):
+  routes=list(f['acquisitions'])
+  for correction in corrections:
+   if correction['name']!=f['name']:continue
+   assert correction['sourceAcquisition'] in routes, 'Re-review changed source before applying acquisition correction'
+   routes[routes.index(correction['sourceAcquisition'])]=correction['replacement']
+  return routes
  def add(cat,name,summary,**kw):
   e={'id':'dddhd:'+cat+':'+slug(name),'category':cat,'name':name,'summary':summary,**kw};entries.append(e);index[e['id']]=e;return e
  def record(cat,name):return index['dddhd:'+cat+':'+slug(name)]
@@ -17,7 +25,7 @@ def enrich(entries,recipes,root):
   e['instructions']='Ability Link nodes: '+'. '.join(bits)+'. Connections: '+', '.join(a+' ↔ '+b for a,b in s['board']['edges'])+'. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route.'
   e['uncertainty']='Source board topology and gates are extracted; disposition-dependent nodes remain conditional.'
   if s['name']=='Aura Lion':e['uncertainty']='Source conflict: the grid/table places Red Secret at C-7 (250 LP) and the level-30 checkpoint at D-7, but the Curaga→Faith footnote names D-7. Do not substitute the level gate for the secret purchase.'
-  if s['board']['unmatchedSourceDirections']:e['uncertainty']+=' The source draws a leftward path from B-3 toward A-3 without a matching node there; that crossing is not confirmed.'
+  if s['board']['unmatchedSourceDirections']:e['uncertainty']+=' The source draws a leftward path from B-3 toward the existing A-3 Magic Boost node, but A-3 lacks the reciprocal Right direction. That connection is not confirmed; no node is missing.'
   stats='; '.join(k+' '+str(v) for k,v in s['baseStats'].items() if v and v!='???')
   if stats:append(e,'Base values: '+stats+'.')
   disp=[]
@@ -45,7 +53,9 @@ def enrich(entries,recipes,root):
   e=record('commands',f['name']);e['character']=f['character'];e['summary']=f['kind']+' command'
   if f.get('slotsOrUses'):e['summary']+=' · '+f['slotsOrUses']+(' uses' if f['kind']=='Item' else ' slots')
   if f.get('element'):e['summary']+=' · '+f['element']
-  routes=f['acquisitions'];append(e,' '.join(routes));sources(e,f['source'])
+  routes=command_routes(f);append(e,' '.join(routes));sources(e,f['source'])
+  for correction in corrections:
+   if correction['name']==f['name']:sources(e,*correction['sources'])
   for mechanic in f['mechanics']:append(e,mechanic+'.')
   if len(f['reloadCandidates'])>1:e['uncertainty']=e.get('uncertainty','')+' Reload source conflict: '+', '.join(str(int(x)) if float(x).is_integer() else str(x) for x in f['reloadCandidates'])+' seconds are reported in the same DDD page; no value is certified.'
  for name in ['Faith','Curaga','Second Chance']:
@@ -69,7 +79,8 @@ def enrich(entries,recipes,root):
   append(e,route['directions']+' Compass directions follow the map, not the camera.');sources(e,*route['sources'])
   if route.get('prerequisites'):e['prerequisites']=(e.get('prerequisites','')+' '+route['prerequisites']).strip()
   e['uncertainty']='Pickup landmark is sourced; earliest access, minimum movement abilities and returnability are not comprehensively established.'
-  if route['sourceNumber']!=route['currentNumber']:e['uncertainty']+=' Location guide labels this pickup #'+str(route['sourceNumber'])+'; the current HD table labels it #'+str(route['currentNumber'])+'. Item and area agree; independent in-game Reports ordering remains unverified.'
+  if route.get('reportsOrderEvidence'):append(e,'HD Reports order: #'+str(route['currentNumber'])+'.')
+  elif route['sourceNumber']!=route['currentNumber']:e['uncertainty']+=' Location guide labels this pickup #'+str(route['sourceNumber'])+'; the current HD table labels it #'+str(route['currentNumber'])+'. Item and area agree; independent in-game Reports ordering remains unverified.'
  # Join complete chest routes to command/material/recipe/toy destinations, with world provenance.
  byreward=collections.defaultdict(list)
  for t in worlds['treasures']:byreward[t['item']].append(t)
@@ -86,7 +97,7 @@ def enrich(entries,recipes,root):
   acquisition_joins(e,e['name'])
   if e['category']=='commands':
    f=next(x for x in facts['commands'] if x['name']==e['name'])
-   for route in f['acquisitions']:
+   for route in command_routes(f):
     match=re.search(r'(?:[Ss]hop|Moogle Shop) for (\d+) munny',route)
     if not match:continue
     bargain=route[match.end():].startswith(' during Bargain Flurry')

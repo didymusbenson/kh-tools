@@ -246,7 +246,7 @@
       "name": "Jestabocky",
       "summary": "Sora Link: Vacuum Ghost · Attribute: Thunder · Riku style: Thunder.",
       "instructions": "Ability Link nodes: A-1: Start. A-2: Balloon (10 LP). A-3: Magic Boost (100 LP). A-4: Spark (50 LP). A-5: Checkpoint (Level 10). A-6: Bind (50 LP). A-7: Checkpoint (Level 15). A-8: Balloonra (150 LP). B-2: Checkpoint (Link x1). B-3: Thunder Screen (20 LP). B-6: Thunder Screen (40 LP) [Becomes available when in Chicken disposition.]. B-7: Magic Haste (50 LP) [Becomes available when in Chicken disposition.]. C-2: Treasure Magnet (50 LP). C-3: Magic Haste (30 LP). C-4: Attack Haste (30 LP). C-5: Magic Boost (200 LP). C-6: Blindness Block (30 LP). D-2: Secret: Green (10 LP). D-5: Thunder Screen (60 LP) [Becomes available when in Flake disposition.]. D-6: Attack Haste (50 LP) [Becomes available when in Flake disposition.]. E-2: Checkpoint (Level 20) [Becomes available after unlocking Secret: Green at D-2.]. F-2: Collision Magnet (150 LP) [Becomes available after unlocking Secret: Green at D-2.]. Connections: A-1 ↔ A-2, A-2 ↔ A-3, A-2 ↔ B-2, A-3 ↔ A-4, A-4 ↔ A-5, A-5 ↔ A-6, A-6 ↔ A-7, A-7 ↔ A-8, B-2 ↔ C-2, B-3 ↔ C-3, B-6 ↔ B-7, B-6 ↔ C-6, C-2 ↔ D-2, C-3 ↔ C-4, C-4 ↔ C-5, C-5 ↔ C-6, C-6 ↔ D-6, D-2 ↔ E-2, D-5 ↔ D-6, E-2 ↔ F-2. Purchase an adjacent accessible node to continue; node conditions apply in addition to the connected route. Base values: hp 37.0; strength 10.0; magic 9.2; defense 6.2; expModifier 0.99. Disposition changes: Picky Eater: rub hat → Flake; poke face and belly or back → Chicken; rub face and belly or back → Gourmand. Flake: poke face and belly → Picky Eater; poke hat or back → Chicken; rub hat or back → Gourmand. Chicken: poke back → Picky Eater; rub back → Flake; rub hat or face and belly → Gourmand. Gourmand: poke face and belly or back → Picky Eater; rub face and belly or back → Flake; poke hat → Chicken.",
-      "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. The source draws a leftward path from B-3 toward A-3 without a matching node there; that crossing is not confirmed.",
+      "uncertainty": "Source board topology and gates are extracted; disposition-dependent nodes remain conditional. The source draws a leftward path from B-3 toward the existing A-3 Magic Boost node, but A-3 lacks the reciprocal Right direction. That connection is not confirmed; no node is missing.",
       "sources": [
         "https://www.khwiki.com/Jestabocky",
         "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit"
@@ -654,13 +654,13 @@
       "name": "Quick Blitz",
       "summary": "Attack command · 1 slots · Physical",
       "character": "Both",
-      "instructions": "Ability Link: No board purchase; use acquisition/default routes below. Sora has Quick Blitz as one of his initial commands. Sora and Riku can purchase Quick Blitz from the Shop for 400 munny, or 320 munny during Bargain Flurry. Reload: 10 seconds. Creation donation bonuses: strength +1. Donating consumes the command. Moogle Shop: 100 munny; Bargain Flurry 80; stock level 1.",
-      "uncertainty": " Source price conflict: individual command page 400 munny; shop table 100 munny. Neither is certified for Steam.",
+      "instructions": "Ability Link: No board purchase; use acquisition/default routes below. Sora has Quick Blitz as one of his initial commands. Sora and Riku can purchase Quick Blitz from the Moogle Shop for 100 munny, or 80 munny during Bargain Flurry, at Shop LV 1. Reload: 10 seconds. Creation donation bonuses: strength +1. Donating consumes the command. Moogle Shop: 100 munny; Bargain Flurry 80; stock level 1.",
       "sources": [
         "https://www.khwiki.com/Deck_Command_(KH3D)",
         "https://docs.google.com/spreadsheets/d/1dmSyrFQ30jOf8PTfwvhhnrLOlsq8vQm-ggfPLEo-Dyw/edit",
         "https://www.khwiki.com/Quick_Blitz",
-        "https://www.khwiki.com/Moogle_Shop"
+        "https://www.khwiki.com/Moogle_Shop",
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/extras/shop-documentation"
       ]
     },
     {
@@ -1595,6 +1595,7 @@
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world",
         "https://www.khwiki.com/Moogle_Shop"
       ]
     },
@@ -2391,7 +2392,8 @@
         "https://www.khwiki.com/Doubleflight",
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world"
       ]
     },
     {
@@ -14672,10 +14674,11 @@
       "sources": [
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world"
       ],
-      "uncertainty": "Pickup landmark is sourced; earliest access, minimum movement abilities and returnability are not comprehensively established. Location guide labels this pickup #3; the current HD table labels it #2. Item and area agree; independent in-game Reports ordering remains unverified.",
-      "instructions": "In Delusive Beginning, open the chest on the north side of the central room at ground level. Compass directions follow the map, not the camera."
+      "uncertainty": "Pickup landmark is sourced; earliest access, minimum movement abilities and returnability are not comprehensively established.",
+      "instructions": "In Delusive Beginning, open the chest on the north side of the central room at ground level. Compass directions follow the map, not the camera. HD Reports order: #2."
     },
     {
       "id": "dddhd:treasure:riku:the-world-that-never-was:003",
@@ -14691,10 +14694,11 @@
       "sources": [
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world"
       ],
-      "uncertainty": "Pickup landmark is sourced; earliest access, minimum movement abilities and returnability are not comprehensively established. Location guide labels this pickup #2; the current HD table labels it #3. Item and area agree; independent in-game Reports ordering remains unverified.",
-      "instructions": "In Delusive Beginning, follow the western route to the orb and use Reality Shift. Drop through the opening it creates into the central column, then open the large chest. Compass directions follow the map, not the camera."
+      "uncertainty": "Pickup landmark is sourced; earliest access, minimum movement abilities and returnability are not comprehensively established.",
+      "instructions": "In Delusive Beginning, follow the western route to the orb and use Reality Shift. Drop through the opening it creates into the central column, then open the large chest. Compass directions follow the map, not the camera. HD Reports order: #3."
     },
     {
       "id": "dddhd:treasure:riku:the-world-that-never-was:004",

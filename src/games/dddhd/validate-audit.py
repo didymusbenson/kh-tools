@@ -26,7 +26,10 @@ for r in routes:
  assert r['directions'] in e['instructions']
  assert set(r['sources'])<=set(e['sources'])
  assert 'source location-note cell is blank' not in e.get('uncertainty','')
- if r['sourceNumber']!=r['currentNumber']:assert 'in-game Reports ordering' in e['uncertainty']
+ if r['sourceNumber']!=r['currentNumber']:
+  assert r['reportsOrderEvidence']['edition']=='PS4 HD Japanese'
+  assert 'HD Reports order: #'+str(r['currentNumber']) in e['instructions']
+  assert 'ordering remains unverified' not in e['uncertainty']
 assert 'west' in idx['dddhd:treasure:riku:the-world-that-never-was:003']['instructions'].lower()
 assert 'Return after completing this world.' in idx['dddhd:treasure:sora:country-of-the-musketeers:032']['prerequisites']
 assert next(r['directions'] for r in routes if r['id']=='dddhd:treasure:riku:the-world-that-never-was:003') in idx['dddhd:commands:doubleflight']['instructions']
@@ -38,7 +41,9 @@ for ident in ['spirits:aura-lion','commands:faith','commands:curaga','abilities:
 assert '[[' not in idx['dddhd:spirits:jestabocky']['uncertainty']
 assert 'Moogle Shop: 80 munny' not in idx['dddhd:commands:balloon']['instructions']
 assert 'Moogle Shop: 80 munny' in idx['dddhd:training:balloon']['instructions']
-assert 'price conflict' in idx['dddhd:commands:quick-blitz']['uncertainty']
+assert 'price conflict' not in idx['dddhd:commands:quick-blitz'].get('uncertainty','')
+assert '100 munny, or 80 munny' in idx['dddhd:commands:quick-blitz']['instructions']
+assert '400 munny' not in idx['dddhd:commands:quick-blitz']['instructions']
 assert 'price conflict' not in idx['dddhd:commands:balloonra'].get('uncertainty','')
 assert all(e['reward']=='Candy Goggles' for e in c['entries'] if e['category']=='dives' and e['world']=='The Grid')
 assert sum(e['category']=='achievements' for e in c['entries'])==54
@@ -62,3 +67,10 @@ assert commands['Strike Raid']['reloadCandidates']==[22.0,24.0]
 assert '22, 24 seconds' in idx['dddhd:commands:strike-raid']['uncertainty']
 assert all(x['slotsOrUses'] for x in f['commands'] if x['kind'] in ['Attack','Magic','Item'])
 print('DDD: complete catalog, source propagation, HD defaults, probability bounds and stable-ID checks passed.')
+
+# Native key mappings are canonical provenance; retain checklist identities.
+keys=json.loads((root/'ai_docs/games/dddhd/steam-key-provenance.json').read_text())
+assert keys['mapped']==54
+assert len({x['steamApiKey'] for x in keys['records']})==keys['mapped']
+assert all(x['source']=='https://steamdb.info/app/2552440/stats/' and x['observedRequirement'] for x in keys['records'])
+assert {x['name'] for x in keys['records']}=={x['name'] for x in c['entries'] if x['category']=='achievements'}

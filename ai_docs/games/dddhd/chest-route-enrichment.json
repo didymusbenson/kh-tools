@@ -6797,10 +6797,17 @@
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world"
       ],
       "identityStatus": "unique-item-area-remap",
-      "identityNote": "Location guide numbers Curaga as 3; current world table numbers it as 2. Joined by unique item and area, not by the disputed number. Independent walkthrough confirms the item-specific route."
+      "identityNote": "Location guide numbers Curaga as 3; current world table numbers it as 2. Joined by unique item and area, not by the disputed number. Independent walkthrough confirms the item-specific route.",
+      "reportsOrderEvidence": {
+        "url": "https://tamaki-game.com/kh3d-riku-world",
+        "image": "https://tamaki-game.com/wp-content/uploads/2018/08/kh3d_5.jpg",
+        "edition": "PS4 HD Japanese",
+        "basis": "Guide explicitly numbers left-to-right Reports list; table pairs2Curaga,3Doubleflight; annotated HD map screenshot visually inspected. Not a direct Reports grid capture."
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-world-that-never-was:003",
@@ -6815,11 +6822,18 @@
       "sources": [
         "https://www.kh13.com/forums/topic/40565-treasure-list/",
         "https://www.khwiki.com/Game:The_World_That_Never_Was",
-        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1"
+        "https://www.gamerguides.com/kingdom-hearts-3d-dream-drop-distance/guide/walkthrough/walkthrough/the-world-that-never-was-part-1",
+        "https://tamaki-game.com/kh3d-riku-world"
       ],
       "identityStatus": "unique-item-area-remap",
       "identityNote": "Location guide numbers Doubleflight as 2; current world table numbers it as 3. Joined by unique item and area, not by the disputed number. Independent walkthrough confirms the item-specific route.",
-      "accessActionPresent": true
+      "accessActionPresent": true,
+      "reportsOrderEvidence": {
+        "url": "https://tamaki-game.com/kh3d-riku-world",
+        "image": "https://tamaki-game.com/wp-content/uploads/2018/08/kh3d_5.jpg",
+        "edition": "PS4 HD Japanese",
+        "basis": "Guide explicitly numbers left-to-right Reports list; table pairs2Curaga,3Doubleflight; annotated HD map screenshot visually inspected. Not a direct Reports grid capture."
+      }
     },
     {
       "id": "dddhd:treasure:riku:the-world-that-never-was:004",
@@ -7223,24 +7237,6 @@
         "https://www.khwiki.com/Game:The_World_That_Never_Was"
       ],
       "identityStatus": "same-item-area-and-source-number"
-    }
-  ],
-  "residuals": [
-    {
-      "id": "dddhd:treasure:riku:the-world-that-never-was:002",
-      "kind": "source-order-disagreement",
-      "resolvedFor": "pickup route and item identity",
-      "remaining": "Independent in-game Reports ordering remains unverified; current saved ID and world-table number preserved.",
-      "sourceNumber": 3,
-      "currentNumber": 2
-    },
-    {
-      "id": "dddhd:treasure:riku:the-world-that-never-was:003",
-      "kind": "source-order-disagreement",
-      "resolvedFor": "pickup route and item identity",
-      "remaining": "Independent in-game Reports ordering remains unverified; current saved ID and world-table number preserved.",
-      "sourceNumber": 2,
-      "currentNumber": 3
     }
   ],
   "residualCoverage": {
@@ -7694,5 +7690,26 @@
         "dddhd:treasure:riku:the-world-that-never-was:003"
       ]
     }
-  }
+  },
+  "resolvedSourceOrderDisagreements": [
+    {
+      "id": "dddhd:treasure:riku:the-world-that-never-was:002",
+      "kind": "source-order-disagreement",
+      "resolvedFor": "Pickup identity, route and known HD Reports-number disagreement",
+      "remaining": "No remaining known conflict for this pair; this does not certify all438 against direct Reports screenshots.",
+      "sourceNumber": 3,
+      "currentNumber": 2,
+      "source": "https://tamaki-game.com/kh3d-riku-world"
+    },
+    {
+      "id": "dddhd:treasure:riku:the-world-that-never-was:003",
+      "kind": "source-order-disagreement",
+      "resolvedFor": "Pickup identity, route and known HD Reports-number disagreement",
+      "remaining": "No remaining known conflict for this pair; this does not certify all438 against direct Reports screenshots.",
+      "sourceNumber": 2,
+      "currentNumber": 3,
+      "source": "https://tamaki-game.com/kh3d-riku-world"
+    }
+  ],
+  "residuals": []
 }

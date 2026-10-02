@@ -18,9 +18,9 @@ def add(id,cat,name,summary,**kw):
 for sec,c in rows('collectibles.md'):
  if sec.startswith('Ordinary chests') and c[0].startswith(('ct-','ww-','ft-','dd-')):
   e=add(c[0],'treasures',c[2]+' · '+c[1],c[3],world=worlds[c[0][:2]],area=c[1],reward=c[2],instructions='Open the chest.',sources=[chestsource])
-  route_sources={'C':chestsource,'L':'https://guiding-key.tumblr.com/kh0.2-locations','W':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/','F':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/','D':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/','S':steam}
+  route_sources={'C':chestsource,'L':'https://guiding-key.tumblr.com/kh0.2-locations','W':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-39-treasure-hunt-in-the-world-within/','F':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-44-treasure-hunt-in-the-forest-of-thorns/','D':'https://www.psu.com/news/kingdom-hearts-0-2-how-to-complete-objective-48-treasure-hunt-in-the-depths-of-darkness/','S':steam,'I':'https://www.destinyislands.com/kh-02-bbs/collectables/treasure-chests/'}
   e['sources']=[route_sources[x.strip()] for x in c[4].split(',')]
-  conflicts={'ft-save-ether':'KHWiki says Ether; the Steam guide says Mega-Ether at the same save-point ivy.','ft-north-potion':'KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion.','ft-steps-ether':'KHWiki stone-step Ether cannot be securely joined to the Steam guide’s elevated second-Darkside Ether.'}
+  conflicts={'ft-save-ether':'KHWiki and Destiny Islands say Ether; the Steam guide says Mega-Ether at the same save-point ivy.','ft-north-potion':'KHWiki Potion cannot be uniquely joined to the Steam guide’s northwest-thicket Hi-Potion.'}
   if c[0] in conflicts:e['uncertainty']=conflicts[c[0]];e['sources'].append(steam)
   if 'pending' in c[3] or 'validation' in c[3]:e['uncertainty']='Contents-to-landmark identification needs further documentary verification.'
  if sec.startswith('Zodiac chests') and c[0].startswith(('ct-','ww-','ft-','dd-')):

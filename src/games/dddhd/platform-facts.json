@@ -6,272 +6,380 @@
     {
       "name": "Mark of Mastery",
       "requirement": "Defeat the phantom Ursula and begin the Mark of Mastery exam.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_29",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Ace Diver",
       "requirement": "Perform an A-Rank dive.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_24",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Easy as 1-2-3",
       "requirement": "Create a party with 3 Spirits.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_46",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "A Divided World",
       "requirement": "Complete Traverse Town as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_30",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Deft Diver",
       "requirement": "Complete a dive without taking damage.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_23",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Dark Intervention",
       "requirement": "Complete La Cité des Cloches as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_31",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Sliding By",
       "requirement": "Connect 6 or more points with a single Faithline.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_55",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Memory and Heart",
       "requirement": "Complete The Grid as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_32",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Inhabitants of the Sleeping Worlds",
       "requirement": "Complete Prankster's Paradise as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_33",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Distinct Worlds",
       "requirement": "Revisit and complete Traverse Town as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_34",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "All for One, and One for All",
       "requirement": "Complete Country of the Musketeers as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_35",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Nostalgic",
       "requirement": "View all flashbacks.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_38",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "A Sound Idea",
       "requirement": "Complete Symphony of Sorcery as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_36",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Balloon Master",
       "requirement": "Earn a score of 200 or higher in the Balloon mini-game.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_43",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "The Depths of Darkness",
       "requirement": "Complete The World That Never Was as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_37",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Happy Campers",
       "requirement": "Create a party with 3 Spirits and make them all very happy.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_48",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Lucky Seven",
       "requirement": "Win a Flick Rush duel by lining up three 7s.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_41",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "True Trainer",
       "requirement": "Use every Training Toy.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_47",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Droplet Magnet",
       "requirement": "Rack up 300 or more Drop Points in a single turn.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_21",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Comic King",
       "requirement": "Activate all of Wonder Comic's effects at least once.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_58",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Lifesaver",
       "requirement": "Rescue Spirits 3 times in battle.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_52",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Strongest Link",
       "requirement": "Unlock all nodes on any Spirit's Ability Link board.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_51",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Super Hacker",
       "requirement": "Activate all Code Break commands.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_56",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Bubble Burster",
       "requirement": "Trap 6 or more enemies in Bubble Burst.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_57",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Chain Reaction",
       "requirement": "Sever all chains with a single slash 3 times in a row using Nightmare's End or Mirage Split.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_60",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Bull's-Eye",
       "requirement": "Defeat 5 or more enemies with a single hit in Slingshot.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_54",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Golden Egg",
       "requirement": "Breed a ★ Rank Spirit.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_50",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Water Barrel Master",
       "requirement": "Earn a score of 400 or higher in the Water Barrel mini-game.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_44",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Candy Goggles Master",
       "requirement": "Earn a score of 800 or higher in the Candy Goggles mini-game.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_45",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Brave Challengers",
       "requirement": "Complete all 7 Link Portal bonus objectives.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_68",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Level Masters",
       "requirement": "Achieve a cumulative level of 100.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_20",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Super Cyclist",
       "requirement": "Earn a score of 1,000 or higher on the Light Cycle.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_42",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Kindred Spirits",
       "requirement": "Max out a Spirit's Affinity Level.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_49",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Maestro",
       "requirement": "Defeat 4 or more enemies in one turn of Melody Catcher.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_59",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Medal Master",
       "requirement": "Obtain 3,000 or more medals in Flick Rush.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_40",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Dream Piece Collector",
       "requirement": "Obtain all Dream Pieces.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_28",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Dream Dropper",
       "requirement": "Drop 100 or more times.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_22",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Dark City",
       "requirement": "Complete all Special Portals in The World That Never Was as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_67",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Seekers of Secrets",
       "requirement": "Complete all Secret Portals as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_69",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of All Districts",
       "requirement": "Complete all Special Portals in Traverse Town as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_61",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Cathedral",
       "requirement": "Complete all Special Portals in La Cité des Cloches as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_62",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Harmonic Score",
       "requirement": "Complete all Special Portals in Symphony of Sorcery as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_66",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Storyteller",
       "requirement": "Achieve 100% completion in Story.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_18",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Flick Rush Fever",
       "requirement": "Achieve a Rush Level of 20.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_39",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Digital World",
       "requirement": "Complete all Special Portals in The Grid as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_63",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Endless Ocean",
       "requirement": "Complete all Special Portals in Prankster's Paradise as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_64",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Champions of the Opéra House",
       "requirement": "Complete all Special Portals in Country of the Musketeers as both Sora and Riku.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_65",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Loyal Customer",
       "requirement": "Make a purchase at every Moogle Shop.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_25",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Recipe Collector",
       "requirement": "Obtain all recipes.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_27",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Star Combatant",
       "requirement": "Achieve 100% completion in Combat.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_17",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Command Collector",
       "requirement": "Obtain all commands.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_26",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Record Keeper",
       "requirement": "Achieve 100% completion in Combat, Story, Items, and Game Records.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_16",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Item Collector",
       "requirement": "Achieve 100% completion in Items.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_19",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     },
     {
       "name": "Ability Ace",
       "requirement": "Max out and install all Support and Spirits abilities.",
-      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english"
+      "source": "https://steamcommunity.com/stats/2552440/achievements/?l=english",
+      "steamApiKey": "ACH_53",
+      "keySource": "https://steamdb.info/app/2552440/stats/"
     }
   ]
 }

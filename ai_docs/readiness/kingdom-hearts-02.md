@@ -2,7 +2,7 @@
 
 2026-10-01 current state: 177 generated entries retain 55 physical finds, 51 objectives, 51 wardrobe rewards and 15 achievements; corrected routes, predicates and Steam mechanics are integrated. Data Jiminy remains empty. See [all current per-ID dispositions](../games/kh02/audit-dispositions.md).
 
-Status: **Missing/partial — substantive research complete for a candidate baseline; not ready to ship.** Audit date: 2026-09-18.
+Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 10 resolved, 7 partial and 1 blocked finding. Shared application acceptance remains root-owned.
 
 Specification: [Kingdom Hearts 0.2](../games/kingdom-hearts-02.md) · [Research pack](../games/kh02/README.md). Apply the [shared readiness method and edition policy](./README.md) and [collectible compendium/linked views contract](../content/collectible-compendium-and-linked-views.md). All specified content and features remain MVP.
 
@@ -19,19 +19,19 @@ Specification: [Kingdom Hearts 0.2](../games/kingdom-hearts-02.md) · [Research 
 
 ## Evidence and actual coverage
 
-Historical September18 source inventory had no 0.2 dataset. The current canonical Markdown/JSON inputs generate177 runtime entries. The parallel BBS researcher read the actual BBS workbook ranges and confirmed they contain BBS recipes/crystals/commands, not 0.2. This absence is bounded to inspected sources, not all private files. See the [coverage manifest](../games/kh02/sources-and-gaps.md) for exact ranges, blobs and delegation attribution.
+The historical September 18 source inventory had no 0.2 dataset. The current canonical Markdown/JSON inputs generate 177 runtime entries. The parallel BBS researcher read the actual BBS workbook ranges and confirmed they contain BBS recipes/crystals/commands, not 0.2. This absence is bounded to inspected sources, not all private files. See the [coverage manifest](../games/kh02/sources-and-gaps.md) for exact ranges, blobs and delegation attribution.
 
 | Category | Candidate expected / documented | Status and next evidence |
 |---|---|---|
-| Ordinary chests | 29 / 29 | Missing/partial: full inventory, several contents-to-route joins unresolved |
+| Ordinary chests | 29 / 29 | Missing/partial: all 29 rows reviewed; staircase Ether route resolved; only save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion joins remain disputed |
 | Zodiac chests | 12 / 12 | Missing/partial: full relic inventory, clear/NG+ rule; Pisces initial-entry approach resolved |
 | Gems | 7 / 7 | Missing/partial: all text routes; recovery/retention not verified |
 | Flowers | 3 / 3 | Missing/partial: all text routes; Green/Blue/Red and subareas integrated |
 | Lingering Memories | 4 / 4 | Missing/partial: one per area; town building and Forest spindle label resolved |
 | Objectives | 51 / 51 | Missing/partial: every objective/unlock/reward, with threshold/predicate discrepancies |
-| Earned wardrobe | 51 / 51 | Missing/partial: 12 Head + 9 Arms + 9 Back + 21 Pattern; localized alias and runtime unlock joins need validation |
+| Earned wardrobe | 51 / 51 | Integrated: 12 Head + 9 Arms + 9 Back + 21 Pattern; aliases and objective-to-reward joins validated; disputed objective predicates remain explicit |
 | Zodiac Mirror | 5 rounds / 5 | Missing/partial: encounter roster and unlock route; strategy/build checks remain |
-| Platform goals | 15 / 15 | Missing/partial: Steam names/visible text primary; hidden text/scores community, other platform IDs/tiers absent |
+| Platform goals | 15 / 15 | Missing/partial: all 15 goals and 14 observed Steam API key mappings; Into the Depths of Darkness key remains unassigned; other-platform native IDs/tiers unverified |
 | Combat/mechanics references | No certified exhaustive denominator | Missing/partial: required mechanics identified, gear timing, defensive defaults, Critical survival/healing exceptions and Steam Finish behavior integrated; numeric boss stats remain incomplete |
 
 The physical collectible baseline is **55**, with area grouping **11/21/16/7**. It is an explicit app metric, not official Journal 100%. Chest objectives use **9/13/12/6**, with the Main Road chest separate; total chests **41**. Numbers reconcile arithmetically but do not prove in-game validation. UI must not present an uncertain inventory as certified complete.
@@ -43,21 +43,21 @@ The physical collectible baseline is **55**, with area grouping **11/21/16/7**. 
 | Modern editions and differences | Missing/partial | Official Steam/Epic/Nintendo listings and 2026 announcement inspected. Native 2026 editions unreleased at audit; validate after shipment. |
 | Inventory/counting contract | Missing/partial | Full candidate collectible/objective/wardrobe sets; exact route identity and replay checks still required. |
 | Legacy extraction | Verified, bounded absence only | Supplied inventory + complete repo tree + delegated BBS workbook ranges contain no 0.2 data. This does not verify new gameplay facts. |
-| Locations/prerequisites/provenance | Missing/partial | Text rows and manifest exist; resolve KH02-R01–R13 before certifying affected records. |
-| Game-specific tools | Missing/partial | Objective/reward join, area filters, replay scopes and challenge predicates specified; no implementation. |
-| Offline progress, backup and updates | Missing/partial | Shared contract mapped to IDs/run state; no 0.2 persistence integration or tests. |
-| Coppermind and Data Jiminy | Missing/partial | Sources and 12 grounded evaluation cases documented; no bundled pack/SLM integration/evaluation run. |
-| Mobile UI/accessibility | Missing/partial | Linked-view behavior specified; 0.2 visual inspiration pending, no implemented/audited UI. |
-| App acceptance and content checks | Not audited | No app walkthrough/test run performed; require functional tests and documentary route/condition reconciliation, without a mandatory game playthrough. |
+| Locations/prerequisites/provenance | Missing/partial | Text rows and manifest are integrated; the current KH02-001–018 disposition ledger supersedes historical KH02-R01–R13. Resolve the two remaining Forest joins and documented replay/predicate gaps. |
+| Game-specific tools | Missing/partial | Generated objective/reward joins and guide integration exist; root-owned application acceptance remains separate. |
+| Offline progress, backup and updates | Missing/partial | Stable IDs and run-state requirements are documented; root owns shared persistence integration and functional test results. |
+| Coppermind and Data Jiminy | Missing/partial | Sources and 12 grounded evaluation cases documented; Data Jiminy remains empty by the current task instruction. |
+| Mobile UI/accessibility | Missing/partial | Guide integration exists; 0.2 visual inspiration is pending and root owns mobile/accessibility acceptance. |
+| App acceptance and content checks | Not audited | Targeted generation, stable-ID/count validators and route/predicate checks pass; root owns combined application acceptance. No mandatory game playthrough. |
 
 **Implementation exists:** current generated catalog and guide integration are in place. Ambiguous IDs/conditions cannot be silently frozen as verified content. **Ready to ship:** no; documentary content gaps and root-owned functional acceptance remain. Data Jiminy stays empty in this task.
 
 ## Research and engineering queue
 
 - [ ] Resolve source disputes: objective13 30/50 lightning kills and exact31/50 replay/boss predicates. Ice Breaker, mirror reflection and aliases are resolved.
-- [ ] Resolve the three named Forest content crosswalks. Pillar pairing, Pisces, memory positions and flower colors are resolved.
+- [ ] Resolve the two remaining Forest content joins: save-point Ether/Mega-Ether and northern Potion/northwest Hi-Potion. The staircase Ether route, pillar pairing, Pisces, memory positions and flower colors are resolved.
 - [ ] Verify cleared-save travel, gem recovery, counter retroactivity and per-record NG+ carry/reset; preserve distinct run and permanent ownership state.
-- [ ] Complete 0.2 combat/acquisition references and platform mappings; verify announced native editions only after availability.
+- [ ] Resolve missing Phantom Aqua numeric stats, the Into the Depths of Darkness Steam key and other-platform native mappings; defensive defaults and 14 Steam key mappings are integrated. Verify announced native editions only after availability.
 - [x] Generate researched definitions with provenance, stable IDs, aliases, area order and explicit unknowns.
 - [ ] Implement synchronized compact/detail/search/Data Jiminy state, offline persistence, import/export, undo, rollback/retry and safe migrations.
 - [ ] Build/evaluate the bundled Coppermind and local SLM answers; source disagreements must produce qualified answers.

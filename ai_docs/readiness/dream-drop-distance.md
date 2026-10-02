@@ -2,7 +2,7 @@
 
 2026-10-01 current state: 1,283 generated entries and 263 formulas; all 54 boards, 124 commands, 43 abilities/Links, 346 portal identities and 54 Steam achievements are represented. Data Jiminy remains empty. See [all current per-ID dispositions](../games/dddhd/audit-dispositions.md).
 
-Audit date: 2026-09-18. **Research expanded; not implementation-ready.** The source workbook, repository placeholder and substantive public source sections were inspected. This is not a stub and is not a claim that complete production inventories now exist.
+Updated 2026-10-01: **Generated runtime integrated; bounded documentary gaps remain.** The current ledger has 7 resolved, 17 partial and 1 blocked finding. Shared application acceptance remains root-owned.
 
 [Specification](../games/dream-drop-distance.md) · [Research pack](../games/dddhd/README.md) · [Inspected sources](../games/dddhd/sources.md)
 
@@ -24,13 +24,13 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 
 | Category | Current integrated evidence | Exact remaining data boundary |
 |---|---|---|
-| Chests |438 pickup landmarks,51 restored source notes;16 HD replacements reconciled|Two source-number conflicts; comprehensive earliest access/movement minima/returnability remain unestablished|
-| Spirits/boards |54 breeds,1,144 nodes, dispositions, form fields|Aura C7/D7; Jestabocky missing A3 crossing;15 unknown base stats;5 missing body parts|
-| Creation |263 formulas,37 shared events,54 marked100% combinations,105 donation rows|141 unreported probabilities; malformed initial-level table; Risky Winds odds wording|
-| Materials/shops |37 materials,54 recipe-item goals,176 shop rows,17 family pages|Ordinary room routes, expiration quantities and shop price conflicts|
-| Commands/abilities/Links |124 commands,43 ability stacks/providers,43 Link entries|Strike Raid 22/24-second source conflict and complete Steam input mapping|
-| Portals/Dives/Flick |346 source-number portal identities,14 Dives,27 cup lineups|Portal approaches/first-repeat semantics; missing medal/rank cells|
-| Weapons/awards |15 stat rows,18 in-game awards,54 Steam goals|Selected internal counters, Sweet Dreams delivery, native platform IDs|
+| Chests | 438 pickup landmarks, 51 restored source notes; 16 HD replacements reconciled; Curaga #2 / Doubleflight #3 corroborated by an independent HD Reports-order guide | Comprehensive earliest access, movement minima and returnability remain unestablished |
+| Spirits/boards | 54 breeds, 1,144 nodes, dispositions and form fields | Aura Lion C-7/D-7 conflict; Jestabocky A-3 exists but lacks the reciprocal Right connection to B-3; 15 unknown base-stat fields and 5 missing body-part instructions |
+| Creation | 263 formulas, 37 shared events, 54 marked 100% combinations, 105 donation rows | 141 unreported probabilities; malformed initial-level table; Risky Winds odds wording |
+| Materials/shops | 37 materials, 54 recipe-item goals, 176 shop rows, 17 family pages; Quick Blitz corrected to 100 munny / 80 during Bargain Flurry at Shop LV 1 | Ordinary room routes and expiration quantities remain incomplete; no known shop-price conflict remains |
+| Commands/abilities/Links | 124 commands, 43 ability stacks/providers, 43 Link entries | Strike Raid 22/24-second source conflict and complete Steam input mapping |
+| Portals/Dives/Flick | 346 source-number portal identities, 14 Dives, 27 cup lineups | Portal approaches/first-repeat semantics; missing medal/rank cells |
+| Weapons/awards | 15 stat rows, 18 in-game awards, 54 Steam goals and 54 observed Steam API key mappings | Selected internal counters, Sweet Dreams delivery and other-platform native IDs remain unverified |
 | Runtime |Generated guide and category integration present|Shared root integration owns functional acceptance|
 | Data Jiminy |No content added|Remains empty by task instruction|
 
@@ -38,7 +38,7 @@ Apply the [shared readiness method](README.md), [linked-view contract](../conten
 
 See [legacy audit](../games/dddhd/legacy-audit.md). The workbook mixes editions; master/recipe/unlock tables do not agree. 175/243 recipe probabilities are blank, BEST BASE is incomplete, item uses are mislabeled slots, Cyber Yog Thunder Screen rows are classified as commands, and transformed board rewards lose their gates. These describe historical workbook defects. Current source boards correct classification/gates and command uses; only the exact residuals in the current ledger remain active.
 
-[World source coverage](../games/dddhd/worlds-and-collectibles.md) explicitly distinguishes an area label from complete text directions. [Source manifest](../games/dddhd/sources.md) records restricted/redirected leads without claiming they were read. No production media or gameplay evidence was obtained.
+[World source coverage](../games/dddhd/worlds-and-collectibles.md) explicitly distinguishes an area label from complete text directions. [Source manifest](../games/dddhd/sources.md) records restricted/redirected leads without claiming they were read. No production media was added and no playtest was performed; the independent HD map screenshot was inspected as documentary evidence.
 
 ## User decision registry
 
@@ -67,7 +67,7 @@ No permission is required to continue research, source reconciliation or reversi
 
 ## Remaining work after this pass
 
-- Resolve the exact source defects and missing factual statements listed under all 25 current dispositions.
+- Resolve the exact source defects and missing factual statements in the 17 partial and 1 blocked finding; preserve the 7 resolved findings and their evidence.
 - Expand chest walking routes/access verification and complete portal approaches and room-level enemy routes without changing stable IDs.
 - Root integration owns application builds/tests and shared contracts.
 - Data Jiminy remains empty by the current task instruction.

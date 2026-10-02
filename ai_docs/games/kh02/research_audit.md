@@ -1,5 +1,7 @@
 # Kingdom Hearts 0.2 research audit
 
+**Current continuation:** 10 resolved, 7 partial, 1 blocked; see [every residual outcome](research-continuation-2026-10-01.md). The historical findings below are preserved.
+
 **Historical baseline at f933ab1.** Findings and occurrence appendices below describe the pre-remediation snapshot, not active statuses. The [2026-10-01 disposition ledger](audit-dispositions.md) and machine-readable `audit-dispositions.json` cover every ID with changes, consulted URLs and exact residual blockers.
 
 Audit date: 2026-10-01. Repository baseline: `f933ab1`; audit branch: `research/audit-2026-10-01`. Scope is the separate Aqua-only **0.2 Birth by Sleep — A fragmentary passage** game, with the modern Steam version as baseline. It is not BBS's Secret Episode; 2.8 is collection metadata. This audit uses existing checked-in evidence only and conducts no new external answer research.
