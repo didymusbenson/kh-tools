@@ -5119,5 +5119,28 @@
         "result": "Qualitative effects only, no Bambi seconds."
       }
     ]
+  },
+  "officialReferenceAssessment20261002": {
+    "accessed": "2026-10-02",
+    "title": "Kingdom Hearts II Final Mix+ Ultimania",
+    "isbn": "9784757520134",
+    "publisher": "Square Enix",
+    "author": "Studio BentStuff",
+    "edition": "Japanese PS2 Re:Chain of Memories, 2007; ebook reproduces original book",
+    "publisherUrl": "https://magazine.jp.square-enix.com/gamebooks/books/10264",
+    "retailerUrl": "https://bookwalker.jp/de4911115e-c049-4f13-b0fd-e127b87aa2d6/",
+    "sampleUrl": "https://viewer-trial.bookwalker.jp/03/21/viewer.html?cid=4911115e-c049-4f13-b0fd-e127b87aa2d6&cty=1",
+    "access": "Publisher and retailer metadata read; selected free sample pages visually inspected in browser. Full book not accessed or purchased.",
+    "relevantPrintedPagesInspected": [
+      285,
+      362,
+      391,
+      422,
+      423
+    ],
+    "assessmentFile": "ai_docs/games/recom/editions-sources-and-conflicts.md",
+    "result": "Official numeric mechanics coverage verified in sample. Strong primary reference candidate for original remake disputes; remaining requested tables need inspection. Does not certify later Steam behavior.",
+    "auditDispositionsChanged": false,
+    "runtimeChanged": false
   }
 }

@@ -68,3 +68,24 @@ All 51 baseline manifest omissions have fresh access attempts (47 direct success
 In a [Steam-specific community thread](https://www.reddit.com/r/KingdomHearts/comments/1dl9sjt/about_unlocking_the_rechain_of_memories_room_of/), the questioner reports that opening the character files completed the unlock, and another participant reports successfully skipping chapters through chapter select. These are firsthand community observations, not a minimal system-save specification. A later reply claims both campaign clears are necessary; this conflicts with the selected HD Days route and is not promoted to a new prerequisite. Restart/transfer semantics remain unknown.
 
 October 2 follow-up: [remaining-gap outcomes](gap-closure-2026-10-02.md) records new Steam farm/Days guidance, bounded stock priority, Riku Report/duel observations and edition-qualified replay evidence. The overall register remains 15 closed, 11 partial, three open and three non-factual limitations.
+
+## October 2: official reference candidate, inspected sample
+
+**Recommended primary reference for original remake mechanics: _Kingdom Hearts II Final Mix+ Ultimania_**, ISBN 9784757520134. Despite the KHII title, it includes a distinct Re:Chain of Memories section. [Square Enix's publisher record](https://magazine.jp.square-enix.com/gamebooks/books/10264) identifies Square Enix supervision/publication, Studio BentStuff authorship, 512 pages and May 2, 2007 publication. It covers the Japanese PS2 release, not the later HD/Steam release.
+
+The [legitimate BOOKWALKER edition](https://bookwalker.jp/de4911115e-c049-4f13-b0fd-e127b87aa2d6/) offers a [free browser sample](https://viewer-trial.bookwalker.jp/03/21/viewer.html?cid=4911115e-c049-4f13-b0fd-e127b87aa2d6&cty=1). The listing explicitly identifies this as a digitization of the 2007 book. No purchase or full-book inspection occurred.
+
+Visually inspected printed pages (sample numbering differs):
+
+| Printed page | Verified coverage |
+|---|---|
+| 362 | Attack-card acquisition, damage multipliers, CP and sale values by number. |
+| 391 | Sora sleight recipes, level-up conditions and damage multipliers. |
+| 422 | Guard Armor stats by Sora/Riku floor, attack details and card-number ranges. |
+| 423 | Guard Armor's Riku duel explicitly specifies **five cards and six seconds**. |
+
+This directly establishes the book's suitability for numeric combat questions in COM-014; the Guard Armor example is evidence of coverage, not a resolution of the still-missing second Replica timer. The remaining boss pages are the next place to inspect for Replica, Ursula, Marluxia's Bit and tutorial Ansem. Card/sleight chapters are promising for COM-001/002/005/006/007/017, but the sample does **not** establish that they contain every missing probability, ordered deck, duration or registration rule. Do not mark those questions resolved from a contents listing.
+
+Use an inspected, applicable official table to settle a disputed original-remake fact; retain the page and edition with the result. Modern Days flags, Steam achievement predicates and save behavior still require modern evidence. No game catalog, runtime value or audit disposition changes in this source-finding pass.
+
+The already-consulted [falconesque GameFAQs guide](https://gamefaqs.gamespot.com/ps2/954016-kingdom-hearts-rechain-of-memories/faqs/56913) remains a useful free English companion. Its original-game evidence is North American PS2; finding it again is not new independent corroboration or proof of a Steam-only condition.
