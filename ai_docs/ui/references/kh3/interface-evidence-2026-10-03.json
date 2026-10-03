@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-03",
+  "game": "Kingdom Hearts III",
+  "gameplay_edition": "Steam / Re Mind",
+  "research_scope": "interface requirements only",
+  "baseline_commit": "619adc7fa36646db5a1a10d880c645ed2bcaca52",
+  "capture_platform_note": "Do not infer Steam capture parity from a game title or controller glyph.",
+  "stills": [
+    {
+      "id": "U01",
+      "kind": "user_supplied_still",
+      "file": "Kingdom-Hearts-III04022021-124325-2018.jpg",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-2018.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "6bcb4e0dfbfb1f21caab92a2c68636dfefebef93156d13ea70091cc2cc56be18",
+      "pixels_inspected": true,
+      "observed": "Characters: pale two-column category/character list with cyan/blue selection and angular black frame.",
+      "limits": [
+        "Capture platform/build unverified",
+        "Still does not verify motion or input transitions"
+      ],
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "U02",
+      "kind": "user_supplied_still",
+      "file": "Kingdom-Hearts-III04022021-124325-22843.jpg",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-22843.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "2237ca81998ea00b808b61c21485dfd0c35c768bc8dec0e474943a81e9b4f99a",
+      "pixels_inspected": true,
+      "observed": "Glossary: dark green two-column index/text panel, green selection and vertical dividers.",
+      "limits": [
+        "Capture platform/build unverified",
+        "Still does not verify motion or input transitions"
+      ],
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "U03",
+      "kind": "user_supplied_still",
+      "file": "Kingdom-Hearts-III04022021-124325-70928.jpg",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-70928.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "989f5f75de7a743eda77af16031a8d5f4acef49b95ccaa7e935028152af9fdf4",
+      "pixels_inspected": true,
+      "observed": "Story: dark illustrated backdrop, world index at left and prose at right, blue selection.",
+      "limits": [
+        "Capture platform/build unverified",
+        "Still does not verify motion or input transitions"
+      ],
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "U04",
+      "kind": "user_supplied_still",
+      "file": "Kingdom-Hearts-III04022021-124325-74189.jpg",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124325-74189.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "866ec41a0922f840631321f44178da3dc8314ed92072c87e9777d6999ac95e6d",
+      "pixels_inspected": true,
+      "observed": "Treasures: world totals at left, chest-icon grid and map label at right, dark geometric border.",
+      "limits": [
+        "Capture platform/build unverified",
+        "Still does not verify motion or input transitions"
+      ],
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "U05",
+      "kind": "user_supplied_still",
+      "file": "Kingdom-Hearts-III04022021-124350-43830.jpg",
+      "source_url": "https://www.gameuidatabase.com/uploads/Kingdom-Hearts-III04022021-124350-43830.jpg",
+      "source_url_basis": "Reconstructed from original filename and the user-provided Game UI Database source context; not independently fetched",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "0ff071080b8c4183f8d801690a222f0ed4131e226c68af5c3551e0b85e633a86",
+      "pixels_inspected": true,
+      "observed": "Game Records: grouped category list at left, blue statistics panel at right, yellow values and bottom description.",
+      "limits": [
+        "Capture platform/build unverified",
+        "Still does not verify motion or input transitions"
+      ],
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X01",
+      "kind": "public_still",
+      "title": "Gummiphone root, Spanish",
+      "image_url": "https://media.vandal.net/master/2-2019/20192821195540_1.jpg",
+      "source_page": "https://vandal.elespanol.com/guias/guia-kingdom-hearts-3-trucos-consejos-y-secretos/gumifono",
+      "dimensions": [
+        1920,
+        1088
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Three-column four-row icon launcher, starfield, Olympus/Jiminy context, separate selection/completion/exclamation overlays",
+      "limits": [
+        "Exact badge lifecycle and right-panel update trigger unverified",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X02",
+      "kind": "public_still",
+      "title": "Lucky Emblems world index",
+      "image_url": "https://www.trueachievements.com/customimages/116277.jpg",
+      "source_page": "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/18",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Light diamond field; gold plaques; nine framed world cards in 5+4 arrangement",
+      "limits": [
+        "Incomplete/missing-world states and transitions unverified",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X03",
+      "kind": "public_still",
+      "title": "Lucky Emblems San Fransokyo board",
+      "image_url": "https://www.trueachievements.com/customimages/116276.jpg",
+      "source_page": "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/18",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Gold-framed ochre board; eleven pinned photos in 5+5+1; first yellow outlined",
+      "limits": [
+        "Missing-photo appearance and opening-photo interaction unverified",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset",
+      "source_provenance_note": "Exact image href verified from San LE Complete link in article DOM; earlier /13 association came from search indexing and is not relied on."
+    },
+    {
+      "id": "X04",
+      "kind": "public_still",
+      "title": "Workshop synthesis detail",
+      "image_url": "https://assets.rpgsite.net/images/images/000/073/758/original/kingdom_hearts_3_synthesis_items_materials_guide.png",
+      "source_page": "https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations",
+      "dimensions": [
+        1620,
+        909
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Green shell; product/quantity/stock list, icon categories, separate description/material panels; insufficient stock red",
+      "limits": [
+        "Not Gummiphone Synthesis history; confirmation and outcome unseen",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X05",
+      "kind": "public_still",
+      "title": "Official promotional Premium Menu",
+      "image_url": "https://www.jp.square-enix.com/kingdom/kh3/dlc/_img/c6/pic01.jpg",
+      "source_page": "https://www.jp.square-enix.com/kingdom/kh3/dlc/",
+      "dimensions": [
+        600,
+        338
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Black technical grid and white angular rails; amber BLACK CODE ON list; achievement history/rank panel; footer",
+      "limits": [
+        "Japanese in-development promotional image, not released Steam English interface",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X06",
+      "kind": "public_still",
+      "title": "Gummiphone root, English",
+      "image_url": "https://www.trueachievements.com/customimages/116278.jpg",
+      "source_page": "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/18",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Exact English twelve-tile order; selected Photo Album; San Fransokyo/Jiminy right composition",
+      "limits": [
+        "Two root stills show variation but not update trigger or animation",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X07",
+      "kind": "public_still",
+      "title": "Workshop hub",
+      "image_url": "https://assets.rpgsite.net/images/images/000/073/748/original/kingdom_hearts_3_synthesis.jpg",
+      "source_page": "https://www.rpgsite.net/feature/8236-kingdom-hearts-3-synthesis-material-list-adamantite-orichalcum-damascus-fluorite-and-other-synthesis-material-farming-locations",
+      "dimensions": [
+        1109,
+        625
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Synthesize Items, Keyblade Forge, Photo Missions, Collector Goals, Material List; right SYNTH LOG",
+      "limits": [
+        "No hub transition observed; displayed statistics belong to captured save",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset",
+      "source_provenance_note": "Containing article DOM verified to link current image URL; same pixels visually matched to older assets URL.",
+      "current_article_image_url": "https://images.rpgsite.net/image/da49c9a1/73748/original/kingdom_hearts_3_synthesis.jpg"
+    },
+    {
+      "id": "X08",
+      "kind": "public_still",
+      "title": "Classic Kingdom catalogue",
+      "image_url": "https://www.trueachievements.com/customimages/116186.jpg",
+      "source_page": "https://www.trueachievements.com/game/kingdom-hearts-3/walkthrough/18",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Monochrome filmstrip; selected game name/objective; ranked stage fields; two six-card rows; page 1/2 controls",
+      "limits": [
+        "Paging affordance only, no transition observed; unacquired/unplayed states missing",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    },
+    {
+      "id": "X09",
+      "kind": "public_still",
+      "title": "Gummi Main Ship selection",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/bvR9gxGvU8DihwPUcxG7rh.jpg",
+      "source_page": "https://www.gamesradar.com/kingdom-hearts-3-schwarzgeist-guide/",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "pixels_inspected": true,
+      "inspection_method": "cloud_browser_image_render",
+      "observed": "Cyan technical frames; gold selected ship row; central model; cost/radar stats/abilities; Teeny indicators",
+      "limits": [
+        "Not evidence for mission/zone map/editor or rank-result layouts",
+        "Still does not verify motion or input timing"
+      ],
+      "stored_in_repository": false,
+      "usage": "research_only_not_production_asset"
+    }
+  ],
+  "videos": [
+    {
+      "id": "V01",
+      "url": "https://www.youtube.com/watch?v=u_xyQJ83cO4",
+      "title": "All Gummiphone Entries",
+      "status": "search_verified_lead_playback_unobserved"
+    },
+    {
+      "id": "V02",
+      "url": "https://www.youtube.com/watch?v=Vm8iz6uuP7s",
+      "title": "Gummiphone tutorial lead",
+      "status": "search_verified_lead_playback_unobserved"
+    },
+    {
+      "id": "V03",
+      "url": "https://www.youtube.com/watch?v=rFClZ4o-a5w",
+      "title": "Adversaries showcase lead",
+      "status": "search_verified_lead_playback_unobserved"
+    }
+  ],
+  "video_access_note": "Cloud-browser YouTube access produced Google unusual-traffic/reCAPTCHA. No playback, timestamps or transitions verified; no CAPTCHA solved.",
+  "production_assets_added": false,
+  "application_code_changed": false,
+  "missing_visual_evidence": [
+    "Adversaries index and detail",
+    "Gummiphone Synthesis history",
+    "Incomplete Lucky Emblems board",
+    "Missing/complete treasure interactions",
+    "Authentic released pause menu",
+    "Forge/Photo Missions/Collector Goals details",
+    "Recipe Collection/Little Chef/Cuisine states",
+    "Gummi missions/zones/rank results",
+    "Released EZ/PRO merits and history",
+    "Secret Reports reader",
+    "Motion and input transitions",
+    "Classic Kingdom acquired/unacquired/unplayed/played states",
+    "Re Mind treasure view"
+  ],
+  "related_documents": [
+    "../../kh3-interface-research.md",
+    "../../kh3-new-ui-plan.md"
+  ]
+}

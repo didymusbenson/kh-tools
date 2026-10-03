@@ -14,7 +14,7 @@ Current evidence: **20 resolved / 13 partial / 2 conflicted**. Current research 
 Current content remains **1,954 entries and 286 recipe actions**, now with 33 readable Gummi battle approaches, 41 gate material routes and nine field material routes, explicit missable-item steps and achievement/save safety. Historical minimum-access, probability, timer and cross-platform caveats below are evidence boundaries, not additional active requirements. App/UI/device acceptance is separate; Data Jiminy remains empty.
 
 
-UI references received October 2, 2026: [5 original screenshots and source manifest](../../ui/references/kh3/README.md). Custom journal implementation remains outstanding.
+UI references received October 2, 2026: [5 original screenshots and source manifest](../../ui/references/kh3/README.md). Custom journal implementation remains outstanding. The October 3 [interface research](../../ui/kh3-interface-research.md) and [proposed implementation contract](../../ui/kh3-new-ui-plan.md) now cover Gummiphone, Lucky Emblems, Records, Workshop, Classic Kingdom and separate Gummi/Premium contexts. Research only; no custom KH3 renderer is added.
 
 ## Historical integration status — 2026-10-01
 
